@@ -1,0 +1,422 @@
+[
+  {
+    "id": "c2q1",
+    "chapter": 2,
+    "chapterTitle": "Books of Prime Entry",
+    "question": "Which of the following source documents is primarily used to record entries in the sales day book of 'Nova Retailers'?",
+    "options": [
+      "A) Credit notes received",
+      "B) Sales invoices issued",
+      "C) Goods received notes",
+      "D) Purchase orders"
+    ],
+    "correctAnswer": "B) Sales invoices issued",
+    "explanation": "The sales day book is used to record credit sales made to customers. The primary source document for these transactions is the sales invoice issued by the business to the customer."
+  },
+  {
+    "id": "c2q2",
+    "chapter": 2,
+    "chapterTitle": "Books of Prime Entry",
+    "question": "'Zenith Enterprises' purchased inventory on credit from 'Prime Wholesalers'. In which book of prime entry should 'Zenith Enterprises' record this transaction?",
+    "options": [
+      "A) General Journal",
+      "B) Cash Book",
+      "C) Purchases day book",
+      "D) Sales day book"
+    ],
+    "correctAnswer": "C) Purchases day book",
+    "explanation": "The purchases day book is specifically used to record the purchase of inventory items on credit from suppliers. Cash purchases would go in the cash book, and non-inventory purchases on credit would go in the general journal."
+  },
+  {
+    "id": "c2q3",
+    "chapter": 2,
+    "chapterTitle": "Books of Prime Entry",
+    "question": "'Apex Logistics' bought a new delivery truck on credit for Rs. 2.5 million. Which book of prime entry is used to correctly record this transaction?",
+    "options": [
+      "A) Purchases day book",
+      "B) Cash book",
+      "C) General Journal",
+      "D) Sales day book"
+    ],
+    "correctAnswer": "C) General Journal",
+    "explanation": "The purchases day book is strictly for trading inventory bought on credit. The purchase of a non-current asset (like a delivery truck) on credit is a non-routine transaction that must be recorded in the general journal."
+  },
+  {
+    "id": "c2q4",
+    "chapter": 2,
+    "chapterTitle": "Books of Prime Entry",
+    "question": "Under the imprest system of petty cash used by 'Crescent Corp', the imprest amount is set at Rs. 15,000. If expense vouchers for the week total Rs. 12,400, what amount will be reimbursed to the petty cashier to restore the float?",
+    "options": [
+      "A) Rs. 15,000",
+      "B) Rs. 2,600",
+      "C) Rs. 12,400",
+      "D) Rs. 27,400"
+    ],
+    "correctAnswer": "C) Rs. 12,400",
+    "explanation": "Under the imprest system, the petty cash float is restored to its original fixed amount at regular intervals. Therefore, the exact amount of the recorded expenditure (Rs. 12,400) is reimbursed."
+  },
+  {
+    "id": "c2q5",
+    "chapter": 2,
+    "chapterTitle": "Books of Prime Entry",
+    "question": "'Radiant Traders' maintains a three-column cash book. What do the three distinct columns on the receipt (debit) side represent?",
+    "options": [
+      "A) Cash, Bank, and Discount Received",
+      "B) Cash, Bank, and Discount Allowed",
+      "C) Cash, Sales, and Bank",
+      "D) Bank, Payables, and Discount Allowed"
+    ],
+    "correctAnswer": "B) Cash, Bank, and Discount Allowed",
+    "explanation": "A three-column cash book contains columns for physical cash and bank transactions, plus a memorandum column for discounts. On the receipt side (debit), this third column specifically records the settlement discounts allowed to customers."
+  },
+  {
+    "id": "c2q6",
+    "chapter": 2,
+    "chapterTitle": "Books of Prime Entry",
+    "question": "'BlueSky Electronics' sells laptops with a list price of Rs. 150,000. A bulk customer is given a 10% trade discount. At what amount should this sale be recorded in the sales day book?",
+    "options": [
+      "A) Rs. 150,000",
+      "B) Rs. 15,000",
+      "C) Rs. 165,000",
+      "D) Rs. 135,000"
+    ],
+    "correctAnswer": "D) Rs. 135,000",
+    "explanation": "A trade discount is a definite price reduction given at the time of the sale. The invoice is issued at the net amount (Rs. 150,000 - 10% = Rs. 135,000), and this net amount is recorded in the sales day book."
+  },
+  {
+    "id": "c2q7",
+    "chapter": 2,
+    "chapterTitle": "Books of Prime Entry",
+    "question": "A credit customer returns damaged goods to 'Summit Furnishings'. Which source document will 'Summit Furnishings' issue, and in which book will it be recorded?",
+    "options": [
+      "A) Debit note; Sales returns day book",
+      "B) Credit note; Purchases returns day book",
+      "C) Credit note; Sales returns day book",
+      "D) Debit note; General Journal"
+    ],
+    "correctAnswer": "C) Credit note; Sales returns day book",
+    "explanation": "When a customer returns goods, the seller issues a credit note to acknowledge the reduction in the amount owed. This transaction is then recorded in the seller's sales returns (return inwards) day book."
+  },
+  {
+    "id": "c2q8",
+    "chapter": 2,
+    "chapterTitle": "Books of Prime Entry",
+    "question": "'Lunar Boutiques' returned defective inventory to its supplier, 'Fabric World'. Which document does 'Lunar Boutiques' receive from the supplier to confirm this return?",
+    "options": [
+      "A) Debit note",
+      "B) Credit note",
+      "C) Goods received note",
+      "D) Sales invoice"
+    ],
+    "correctAnswer": "B) Credit note",
+    "explanation": "When a business returns goods to a credit supplier, the supplier issues a credit note back to the business. This document serves as the source for the business's purchases returns (return outwards) day book."
+  },
+  {
+    "id": "c2q9",
+    "chapter": 2,
+    "chapterTitle": "Books of Prime Entry",
+    "question": "The owner of 'Falcon Enterprises' withdrew Rs. 50,000 cash directly from the business bank account for personal use. Where is this primarily recorded?",
+    "options": [
+      "A) General Journal",
+      "B) Cash book",
+      "C) Purchases day book",
+      "D) Petty cash book"
+    ],
+    "correctAnswer": "B) Cash book",
+    "explanation": "The cash book records all receipts and payments made through the business bank account or physical cash. Drawings made via a bank withdrawal are recorded on the payment (credit) side of the cash book."
+  },
+  {
+    "id": "c2q10",
+    "chapter": 2,
+    "chapterTitle": "Books of Prime Entry",
+    "question": "A cheque for Rs. 45,000 received from a customer was previously entered in the cash book but has now been dishonored by the bank. How is this recorded in the books of prime entry?",
+    "options": [
+      "A) It is recorded in the sales returns day book.",
+      "B) It is entered on the receipt side of the cash book.",
+      "C) It is entered on the payment side of the cash book.",
+      "D) It is recorded in the general journal as a bad debt."
+    ],
+    "correctAnswer": "C) It is entered on the payment side of the cash book.",
+    "explanation": "When a cheque is received, it is recorded on the receipt side of the cash book. If it is later dishonored, the entry must be reversed by recording the exact amount on the payment (credit) side of the cash book."
+  },
+  {
+    "id": "c2q11",
+    "chapter": 2,
+    "chapterTitle": "Books of Prime Entry",
+    "question": "The warehouse manager at 'Pioneer Manufacturing' needs raw materials that are currently out of stock. Which internal document should he prepare to initiate the purchasing process?",
+    "options": [
+      "A) Purchase order",
+      "B) Purchase requisition",
+      "C) Goods received note",
+      "D) Purchase invoice"
+    ],
+    "correctAnswer": "B) Purchase requisition",
+    "explanation": "A purchase requisition is an internal document prepared by a department (like the warehouse) to formally notify the purchasing department that an item is needed and to authorize its purchase."
+  },
+  {
+    "id": "c2q12",
+    "chapter": 2,
+    "chapterTitle": "Books of Prime Entry",
+    "question": "'Omega Traders' owes Rs. 100,000 to 'Sigma Supplies', and 'Sigma Supplies' simultaneously owes Rs. 60,000 to 'Omega Traders'. They agree to offset the Rs. 60,000. In which book of prime entry is this contra settlement recorded?",
+    "options": [
+      "A) Cash book",
+      "B) Purchases day book",
+      "C) General Journal",
+      "D) Sales day book"
+    ],
+    "correctAnswer": "C) General Journal",
+    "explanation": "A contra settlement (offsetting receivables against payables) does not involve cash movement, inventory purchase, or inventory sale. Therefore, it is a non-routine adjustment recorded in the General Journal."
+  },
+  {
+    "id": "c2q13",
+    "chapter": 2,
+    "chapterTitle": "Books of Prime Entry",
+    "question": "A customer pays an invoice of Rs. 200,000 within the discount period and is allowed a 5% settlement discount. What amounts are recorded in the three-column cash book?",
+    "options": [
+      "A) Bank: Rs. 200,000; Discount Allowed: Rs. 0",
+      "B) Bank: Rs. 190,000; Discount Allowed: Rs. 10,000",
+      "C) Bank: Rs. 190,000; Discount Received: Rs. 10,000",
+      "D) Cash: Rs. 210,000; Discount Allowed: Rs. 10,000"
+    ],
+    "correctAnswer": "B) Bank: Rs. 190,000; Discount Allowed: Rs. 10,000",
+    "explanation": "The customer takes a 5% discount (Rs. 10,000) and pays the net amount (Rs. 190,000). The Rs. 190,000 is entered in the bank column, and the Rs. 10,000 is entered in the discount allowed column on the receipt side."
+  },
+  {
+    "id": "c2q14",
+    "chapter": 2,
+    "chapterTitle": "Books of Prime Entry",
+    "question": "At the end of the financial year, 'Vertex Corp' needs to record its annual depreciation expense of Rs. 150,000. Which book of prime entry is used for this purpose?",
+    "options": [
+      "A) Cash book",
+      "B) Purchases day book",
+      "C) General Journal",
+      "D) Petty cash book"
+    ],
+    "correctAnswer": "C) General Journal",
+    "explanation": "Year-end adjustments, such as calculating depreciation, accruals, and prepayments, do not involve immediate cash flow or routine inventory trading. Therefore, they are recorded in the general journal."
+  },
+  {
+    "id": "c2q15",
+    "chapter": 2,
+    "chapterTitle": "Books of Prime Entry",
+    "question": "Which of the following activities best describes the fundamental purpose of 'books of prime entry'?",
+    "options": [
+      "A) To calculate the final net profit for the year.",
+      "B) To provide a trial balance for auditors.",
+      "C) To initially record and summarize large numbers of similar transactions before posting to ledgers.",
+      "D) To maintain a detailed list of all physical assets owned by the business."
+    ],
+    "correctAnswer": "C) To initially record and summarize large numbers of similar transactions before posting to ledgers.",
+    "explanation": "Books of prime entry act as the first place where transactions are sorted and recorded by type (e.g., all credit sales together). This makes the bookkeeping process highly organized and efficient."
+  },
+  {
+    "id": "c2q16",
+    "chapter": 2,
+    "chapterTitle": "Books of Prime Entry",
+    "question": "'Silverline Merchants' sold goods for physical cash amounting to Rs. 45,000. How is this transaction initially recorded?",
+    "options": [
+      "A) In the Sales day book only",
+      "B) In the Cash book only",
+      "C) In the General Journal only",
+      "D) In both the Cash book and the Sales day book"
+    ],
+    "correctAnswer": "B) In the Cash book only",
+    "explanation": "All cash receipts, including cash sales, are recorded directly in the cash book. The sales day book is reserved exclusively for sales made on credit."
+  },
+  {
+    "id": "c2q17",
+    "chapter": 2,
+    "chapterTitle": "Books of Prime Entry",
+    "question": "Which of the following is NOT considered a source document for entering data into the accounting system?",
+    "options": [
+      "A) A bank statement",
+      "B) A sales invoice",
+      "C) A credit note received",
+      "D) A general ledger account"
+    ],
+    "correctAnswer": "D) A general ledger account",
+    "explanation": "Source documents (like invoices, bank statements, and credit notes) provide the original evidence of a transaction. A general ledger is an accounting record created from these documents, not a source document itself."
+  },
+  {
+    "id": "c2q18",
+    "chapter": 2,
+    "chapterTitle": "Books of Prime Entry",
+    "question": "When 'Horizon Builders' receives goods from a supplier, the warehouse staff checks the delivery against the order. Which document do they generate to confirm the physical receipt of goods?",
+    "options": [
+      "A) Goods received note",
+      "B) Goods dispatched note",
+      "C) Purchase invoice",
+      "D) Statement of account"
+    ],
+    "correctAnswer": "A) Goods received note",
+    "explanation": "A goods received note (GRN) is an internal document produced by the buyer when goods are received, verifying that the delivery matches the order and what was physically unloaded."
+  },
+  {
+    "id": "c2q19",
+    "chapter": 2,
+    "chapterTitle": "Books of Prime Entry",
+    "question": "What is the primary function of a 'Statement of Account' sent by a supplier to a customer?",
+    "options": [
+      "A) To request the immediate return of faulty goods.",
+      "B) To serve as a legally binding contract for a new order.",
+      "C) To show the customer the net amount owed at a specific point in time, summarizing invoices and payments.",
+      "D) To automatically authorize the customer to take a trade discount."
+    ],
+    "correctAnswer": "C) To show the customer the net amount owed at a specific point in time, summarizing invoices and payments.",
+    "explanation": "A statement of account provides a summary of all transactions (invoices, credit notes, payments) over a specific period, indicating the current net balance outstanding."
+  },
+  {
+    "id": "c2q20",
+    "chapter": 2,
+    "chapterTitle": "Books of Prime Entry",
+    "question": "If an error is discovered where a cash payment for rent was incorrectly posted in the ledger as a payment for electricity, in which book of prime entry would the correction be formally recorded?",
+    "options": [
+      "A) Cash book",
+      "B) Purchases day book",
+      "C) General Journal",
+      "D) Sales day book"
+    ],
+    "correctAnswer": "C) General Journal",
+    "explanation": "The correction of bookkeeping errors that do not involve immediate cash flow or belong in the specialized day books are recorded via journal entries in the General Journal."
+  },
+  {
+    "id": "c2q21",
+    "chapter": 2,
+    "chapterTitle": "Books of Prime Entry",
+    "question": "'Glow Cosmetics' uses a computerized accounting system where traditional day books are supported by a voucher system. Which voucher would be used to authorize the initial recording of a credit sale?",
+    "options": [
+      "A) Receipt voucher",
+      "B) Journal voucher",
+      "C) Purchase voucher",
+      "D) Sales voucher"
+    ],
+    "correctAnswer": "D) Sales voucher",
+    "explanation": "In a voucher system, a sales voucher (often acting as the sales invoice) replaces or supports the function of the sales day book by acting as the direct input for credit sales."
+  },
+  {
+    "id": "c2q22",
+    "chapter": 2,
+    "chapterTitle": "Books of Prime Entry",
+    "question": "Which of the following transactions would exclusively be entered into the Purchases Returns Day Book?",
+    "options": [
+      "A) Returning a faulty delivery van (non-current asset) bought on credit.",
+      "B) Returning damaged trading inventory previously bought on credit.",
+      "C) A customer returning damaged inventory to the business.",
+      "D) Refunding cash to a customer for returned goods."
+    ],
+    "correctAnswer": "B) Returning damaged trading inventory previously bought on credit.",
+    "explanation": "The purchases returns day book strictly records the return of trading inventory previously bought on credit. Returning a non-current asset is recorded in the General Journal."
+  },
+  {
+    "id": "c2q23",
+    "chapter": 2,
+    "chapterTitle": "Books of Prime Entry",
+    "question": "Mr. Asad, a sole trader, introduces Rs. 1 million of his personal savings into the business bank account as additional capital. Which book of prime entry records this specific event?",
+    "options": [
+      "A) General Journal",
+      "B) Sales day book",
+      "C) Cash book",
+      "D) Petty cash book"
+    ],
+    "correctAnswer": "C) Cash book",
+    "explanation": "Any transaction involving the receipt or payment of money through the business bank account, including the introduction of capital, is recorded on the receipt side of the cash book."
+  },
+  {
+    "id": "c2q24",
+    "chapter": 2,
+    "chapterTitle": "Books of Prime Entry",
+    "question": "A 'Goods Dispatched Note' (GDN) is generally sent by the business to the customer. Does the GDN immediately trigger a double-entry accounting record?",
+    "options": [
+      "A) Yes, it triggers the recording of cost of sales.",
+      "B) Yes, it triggers the recording of a sales invoice.",
+      "C) No, it simply serves as a notice to the customer that goods have been sent.",
+      "D) No, it is only used to claim trade discounts."
+    ],
+    "correctAnswer": "C) No, it simply serves as a notice to the customer that goods have been sent.",
+    "explanation": "A goods dispatched note is a logistical document informing the buyer of the shipment. The actual accounting double-entry is triggered later by the generation of the sales invoice."
+  },
+  {
+    "id": "c2q25",
+    "chapter": 2,
+    "chapterTitle": "Books of Prime Entry",
+    "question": "'Metro Traders' paid its monthly electricity bill of Rs. 45,000 using an online bank transfer. How is this recorded in a two-column cash book?",
+    "options": [
+      "A) Debit the cash column",
+      "B) Credit the bank column",
+      "C) Credit the cash column",
+      "D) Debit the bank column"
+    ],
+    "correctAnswer": "B) Credit the bank column",
+    "explanation": "Payments made via bank transfer reduce the bank balance. Therefore, the transaction is recorded on the payment (credit) side of the cash book specifically in the bank column."
+  },
+  {
+    "id": "c2q26",
+    "chapter": 2,
+    "chapterTitle": "Books of Prime Entry",
+    "question": "In a manual accounting system, what is the core role of a 'Purchase Order'?",
+    "options": [
+      "A) It records the finalized liability owed to the supplier.",
+      "B) It confirms the receipt of goods in the warehouse.",
+      "C) It is a document sent by the business to a supplier to formally request goods or services.",
+      "D) It triggers the immediate payment of cash to the supplier."
+    ],
+    "correctAnswer": "C) It is a document sent by the business to a supplier to formally request goods or services.",
+    "explanation": "A purchase order is a commercial document issued by a buyer to a seller indicating types, quantities, and agreed prices. It is a request and does not trigger a double entry until the invoice is received."
+  },
+  {
+    "id": "c2q27",
+    "chapter": 2,
+    "chapterTitle": "Books of Prime Entry",
+    "question": "When an entity decides to write off a customer's outstanding balance as an irrecoverable (bad) debt, which book of prime entry must be used?",
+    "options": [
+      "A) Sales returns day book",
+      "B) Cash book",
+      "C) General Journal",
+      "D) Purchases day book"
+    ],
+    "correctAnswer": "C) General Journal",
+    "explanation": "Writing off a bad debt is a non-routine adjustment that does not involve immediate cash flow or standard inventory trading, so it is processed through the general journal."
+  },
+  {
+    "id": "c2q28",
+    "chapter": 2,
+    "chapterTitle": "Books of Prime Entry",
+    "question": "What specific information is typically found in the 'folio' column of a day book or general journal?",
+    "options": [
+      "A) The exact time the transaction occurred.",
+      "B) The signature of the authorizing manager.",
+      "C) A cross-reference to the page or account number in the relevant ledger.",
+      "D) The name of the bank handling the transaction."
+    ],
+    "correctAnswer": "C) A cross-reference to the page or account number in the relevant ledger.",
+    "explanation": "The ledger folio (LF) column provides a vital cross-reference link between the book of prime entry and the specific account in the ledger where the transaction has subsequently been posted."
+  },
+  {
+    "id": "c2q29",
+    "chapter": 2,
+    "chapterTitle": "Books of Prime Entry",
+    "question": "'Urban Cafe' uses a petty cash book based on an imprest of Rs. 5,000. The cashier paid Rs. 400 for office tea, Rs. 1,200 for taxi fares, and Rs. 500 for stationary. Before replenishment, what is the physical cash balance in the tin?",
+    "options": [
+      "A) Rs. 5,000",
+      "B) Rs. 2,100",
+      "C) Rs. 2,900",
+      "D) Rs. 7,100"
+    ],
+    "correctAnswer": "C) Rs. 2,900",
+    "explanation": "Total expenses incurred are Rs. 400 + Rs. 1200 + Rs. 500 = Rs. 2,100. The cash remaining in the tin is the imprest amount minus the expenses: 5,000 - 2,100 = Rs. 2,900."
+  },
+  {
+    "id": "c2q30",
+    "chapter": 2,
+    "chapterTitle": "Books of Prime Entry",
+    "question": "If 'Delta Distributors' purchases goods on credit from 'Gamma Wholesalers', but the goods are not to the required specification, 'Delta' will return them. Which document should 'Delta' send to 'Gamma' along with the returned goods?",
+    "options": [
+      "A) Credit note",
+      "B) Debit note",
+      "C) Purchase invoice",
+      "D) Statement of account"
+    ],
+    "correctAnswer": "B) Debit note",
+    "explanation": "When returning goods to a supplier, the buyer issues a debit note to formally request a reduction in the amount owed. The supplier will then respond by issuing a credit note."
+  }
+]

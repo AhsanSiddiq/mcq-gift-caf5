@@ -1,0 +1,702 @@
+[
+  {
+    "id": "c1q1",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "At the end of the financial year, the total assets of 'Apex Technologies' are valued at Rs. 5.4 million, while its total liabilities stand at Rs. 2.1 million. According to the accounting equation, what is the value of the owner's equity?",
+    "options": [
+      "A) Rs. 7.5 million",
+      "B) Rs. 3.3 million",
+      "C) Rs. 2.1 million",
+      "D) Rs. 5.4 million"
+    ],
+    "correctAnswer": "B) Rs. 3.3 million",
+    "explanation": "According to the fundamental accounting equation, assets are always equal to liabilities plus capital [1]. Therefore, the owner's equity is calculated by subtracting total liabilities from total assets, which results in Rs. 3.3 million [2]."
+  },
+  {
+    "id": "c1q2",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "'Zaman Logistics' recently upgraded its primary delivery truck by replacing its engine, which significantly increased its load-carrying capacity and efficiency. How should this cost be classified in the books of accounts?",
+    "options": [
+      "A) Revenue expenditure",
+      "B) Capital expenditure",
+      "C) Administrative expense",
+      "D) Deferred revenue expenditure"
+    ],
+    "correctAnswer": "B) Capital expenditure",
+    "explanation": "Replacing an engine enhances the profit-earning capacity and life of the asset, making it a capital expenditure [3]. In contrast, running and ongoing costs are classified as revenue expenditures [4]."
+  },
+  {
+    "id": "c1q3",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "Mr. Salman, the owner of a retail store, withdrew Rs. 50,000 from the business bank account to pay for his son's personal school fees. The separation of this personal transaction from business expenses is dictated by which accounting principle?",
+    "options": [
+      "A) Prudence concept",
+      "B) Matching concept",
+      "C) Business entity concept",
+      "D) Going concern concept"
+    ],
+    "correctAnswer": "C) Business entity concept",
+    "explanation": "The business entity concept requires that a business and its owner are treated as completely separate and distinct entities for accounting purposes [5]. Therefore, personal withdrawals are treated as drawings rather than business expenses [6]."
+  },
+  {
+    "id": "c1q4",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "Which of the following items would normally be classified as a 'current asset' in the statement of financial position of a manufacturing company?",
+    "options": [
+      "A) Specialized production machinery",
+      "B) Trade receivables expected to be settled in 60 days",
+      "C) A newly constructed warehouse building",
+      "D) Long-term investments in shares of another company"
+    ],
+    "correctAnswer": "B) Trade receivables expected to be settled in 60 days",
+    "explanation": "Current assets are those assets that provide economic benefits in the short term, usually within one year [7]. Trade receivables, inventory, and cash are standard examples of current assets [6]."
+  },
+  {
+    "id": "c1q5",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "'Silverline Electronics' purchased a new central air conditioning unit for its office on credit from 'CoolBreeze Ltd'. What is the correct double-entry for this transaction?",
+    "options": [
+      "A) Debit Purchases, Credit Cash",
+      "B) Debit Office Equipment, Credit CoolBreeze Ltd",
+      "C) Debit CoolBreeze Ltd, Credit Office Equipment",
+      "D) Debit Office Equipment, Credit Purchases"
+    ],
+    "correctAnswer": "B) Debit Office Equipment, Credit CoolBreeze Ltd",
+    "explanation": "Purchasing an asset on credit increases the asset (Debit Office Equipment) and increases the liability owed to the supplier (Credit CoolBreeze Ltd) [3]. It is not recorded in purchases, which is reserved for trading goods [6]."
+  },
+  {
+    "id": "c1q6",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "According to the conceptual framework of accounting, which of the following is the most accurate definition of an asset?",
+    "options": [
+      "A) A resource owned by the business that guarantees future profits.",
+      "B) A present economic resource controlled by the entity as a result of past events.",
+      "C) A physical item purchased solely for resale purposes.",
+      "D) An expense paid in advance for long-term use."
+    ],
+    "correctAnswer": "B) A present economic resource controlled by the entity as a result of past events.",
+    "explanation": "The conceptual framework formally defines an asset as a present economic resource controlled by the entity as a result of past events [8]. It is not merely something 'owned', as control is the key factor [9]."
+  },
+  {
+    "id": "c1q7",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "'Crescent Traders' repaid a bank loan of Rs. 200,000 via an online bank transfer. What is the overall impact of this transaction on the accounting equation?",
+    "options": [
+      "A) Decrease in assets and decrease in equity",
+      "B) Decrease in assets and decrease in liabilities",
+      "C) Increase in liabilities and decrease in equity",
+      "D) No change in total assets"
+    ],
+    "correctAnswer": "B) Decrease in assets and decrease in liabilities",
+    "explanation": "Repaying a loan using bank funds decreases the business's cash asset and simultaneously decreases its loan liability [6]. The fundamental accounting equation remains in balance [10]."
+  },
+  {
+    "id": "c1q8",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "The accounting practice of ensuring that expenses related to revenue are reported in the exact same period when the revenue is recognized is an application of the:",
+    "options": [
+      "A) Materiality concept",
+      "B) Consistency concept",
+      "C) Matching concept",
+      "D) Prudence concept"
+    ],
+    "correctAnswer": "C) Matching concept",
+    "explanation": "The matching concept requires that income and expenses that relate to each other are matched together and reported in the same accounting period [11]. This ensures a true and fair view of profitability [11]."
+  },
+  {
+    "id": "c1q9",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "In the double-entry bookkeeping system, a credit entry will inherently result in an increase in which of the following types of accounts?",
+    "options": [
+      "A) Assets and Expenses",
+      "B) Liabilities and Equity",
+      "C) Assets and Income",
+      "D) Expenses and Liabilities"
+    ],
+    "correctAnswer": "B) Liabilities and Equity",
+    "explanation": "According to the rules of double-entry, a credit entry represents an increase in liabilities, equity, or income [12]. Conversely, debit entries represent increases in assets and expenses [13]."
+  },
+  {
+    "id": "c1q10",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "Unless there is an intention to liquidate the business, financial statements are prepared on the assumption that the enterprise will continue its operations for the foreseeable future. This is known as the:",
+    "options": [
+      "A) Accrual basis",
+      "B) Substance over form principle",
+      "C) Going concern basis",
+      "D) Prudence concept"
+    ],
+    "correctAnswer": "C) Going concern basis",
+    "explanation": "The going concern concept assumes that a business will continue its operations indefinitely and has neither the intention nor the need to liquidate or materially curtail its scale of operations [14]."
+  },
+  {
+    "id": "c1q11",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "Which international body is directly responsible for issuing the International Financial Reporting Standards (IFRS)?",
+    "options": [
+      "A) International Accounting Standards Board (IASB)",
+      "B) Financial Accounting Standards Board (FASB)",
+      "C) Global Accounting and Audit Principles Board (GAAP)",
+      "D) International Accounting Standards Committee (IASC)"
+    ],
+    "correctAnswer": "A) International Accounting Standards Board (IASB)",
+    "explanation": "The International Financial Reporting Standards (IFRS) are globally recognized accounting standards issued by the International Accounting Standards Board (IASB) [15]."
+  },
+  {
+    "id": "c1q12",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "The proprietor of 'Style Garments' took home clothing inventory worth Rs. 15,000 for his family's personal use. Which account must be debited to accurately record this event?",
+    "options": [
+      "A) Purchases account",
+      "B) Sales account",
+      "C) Drawings account",
+      "D) Inventory account"
+    ],
+    "correctAnswer": "C) Drawings account",
+    "explanation": "When an owner withdraws assets, including inventory or cash, from the business for personal use, it is recorded as a debit to the Drawings account [16]. This decreases the overall owner's equity [13]."
+  },
+  {
+    "id": "c1q13",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "Consider the following balances for 'Nova Enterprises': Trade Payables Rs. 55,000, Short-term Bank Overdraft Rs. 25,000, Trade Receivables Rs. 40,000, Long-term Bank Loan Rs. 150,000. What is the total amount of current liabilities?",
+    "options": [
+      "A) Rs. 55,000",
+      "B) Rs. 80,000",
+      "C) Rs. 230,000",
+      "D) Rs. 120,000"
+    ],
+    "correctAnswer": "B) Rs. 80,000",
+    "explanation": "Current liabilities are obligations payable within one year [17]. Here, Trade Payables (Rs. 55,000) and Bank Overdraft (Rs. 25,000) are current liabilities, totaling Rs. 80,000 [18]."
+  },
+  {
+    "id": "c1q14",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "The prudence concept in accounting requires caution when making judgments under conditions of uncertainty. Which of the following actions correctly applies the prudence concept?",
+    "options": [
+      "A) Recognizing expected future profits immediately.",
+      "B) Valuing inventory at the higher of cost or market value.",
+      "C) Overstating the value of business assets.",
+      "D) Creating an allowance for doubtful debts."
+    ],
+    "correctAnswer": "D) Creating an allowance for doubtful debts.",
+    "explanation": "The prudence concept states that assets and income should not be overstated, while liabilities and expenses should not be understated [19]. Creating an allowance for doubtful debts anticipates potential future losses, applying this caution [19]."
+  },
+  {
+    "id": "c1q15",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "During the accounting period, the assets of 'Pioneer Traders' increased by Rs. 7 million, while the owner's equity decreased by Rs. 3 million. Based on the accounting equation, what must have been the corresponding change in total liabilities?",
+    "options": [
+      "A) Decreased by 10 million",
+      "B) Increased by 10 million",
+      "C) Increased by 4 million",
+      "D) Decreased by 4 million"
+    ],
+    "correctAnswer": "B) Increased by 10 million",
+    "explanation": "The accounting equation is Assets = Liabilities + Equity [20]. If Assets (+7) = Liabilities (X) + Equity (-3), solving for X means Liabilities must have increased by 10 million to balance the equation [21]."
+  },
+  {
+    "id": "c1q16",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "Commercial banks and other financial lenders review an entity's financial statements primarily to assess:",
+    "options": [
+      "A) The day-to-day operational efficiency of the staff.",
+      "B) The entity's capacity to pay interest and repay the loan principal on maturity.",
+      "C) The exact tax liabilities to be paid to the government.",
+      "D) The marketing strategies adopted by the management."
+    ],
+    "correctAnswer": "B) The entity's capacity to pay interest and repay the loan principal on maturity.",
+    "explanation": "Lenders utilize financial statements specifically to assess the financial stability of a borrower, ensuring the entity has the continuing ability to pay interest and repay the principal loan amount at maturity [22]."
+  },
+  {
+    "id": "c1q17",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "According to the conceptual framework, a 'liability' is defined as:",
+    "options": [
+      "A) A future economic resource controlled by the business.",
+      "B) A present obligation of the entity to transfer an economic resource as a result of past events.",
+      "C) An expense paid in advance for a future period.",
+      "D) The residual interest of the owners in the business."
+    ],
+    "correctAnswer": "B) A present obligation of the entity to transfer an economic resource as a result of past events.",
+    "explanation": "The standard definition of a liability under the conceptual framework is a present obligation of the entity to transfer an economic resource as a result of past events [23]."
+  },
+  {
+    "id": "c1q18",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "According to the conceptual framework, 'Equity' is formally defined as:",
+    "options": [
+      "A) The total physical cash reserves currently held by the business.",
+      "B) The present obligation of the entity to transfer economic resources.",
+      "C) The residual interest in the assets of the entity after deducting all its liabilities.",
+      "D) The gross inflows of economic benefits during the accounting period."
+    ],
+    "correctAnswer": "C) The residual interest in the assets of the entity after deducting all its liabilities.",
+    "explanation": "Equity represents the owners' residual claim on the business [24]. It is defined as the residual interest in the assets of the entity after deducting all of its obligations or liabilities [25]."
+  },
+  {
+    "id": "c1q19",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "'BlueSky IT' purchased a simple wastebasket for Rs. 500. Although it will be used for several years, the accountant expensed it immediately rather than capitalizing it. Which accounting concept justifies this practical approach?",
+    "options": [
+      "A) Materiality concept",
+      "B) Prudence concept",
+      "C) Accrual concept",
+      "D) Separate entity concept"
+    ],
+    "correctAnswer": "A) Materiality concept",
+    "explanation": "The materiality concept allows minor expenditures, like a wastebasket or calculator, to be written off as expenses immediately because their cost is too insignificant to justify the administrative effort of capitalization and tracking [14]."
+  },
+  {
+    "id": "c1q20",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "In the context of accounting principles, what does the 'Duality' or 'Dual Aspect' concept signify?",
+    "options": [
+      "A) Every transaction is recorded in two different currencies.",
+      "B) Every transaction has two effects that keep the accounting equation in balance.",
+      "C) A business must maintain both a cash book and a passbook.",
+      "D) Assets and income are always recorded twice."
+    ],
+    "correctAnswer": "B) Every transaction has two effects that keep the accounting equation in balance.",
+    "explanation": "The dual aspect concept is the foundation of double-entry bookkeeping, dictating that every financial transaction has equal and opposite debit and credit effects, ensuring the accounting equation remains balanced [26]."
+  },
+  {
+    "id": "c1q21",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "If 25% of the total assets of 'Nexus Logistics' are financed by liabilities, and the total assets amount to Rs. 250,000, what is the total amount of the owner's equity?",
+    "options": [
+      "A) Rs. 187,500",
+      "B) Rs. 62,500",
+      "C) Rs. 150,000",
+      "D) Rs. 200,000"
+    ],
+    "correctAnswer": "A) Rs. 187,500",
+    "explanation": "If total assets are Rs. 250,000 and liabilities finance 25% (Rs. 62,500), then according to the accounting equation (Assets = Liabilities + Equity), Equity is Rs. 250,000 - Rs. 62,500 = Rs. 187,500 [27]."
+  },
+  {
+    "id": "c1q22",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "A commercial entity received Rs. 2 million from a customer for the sale of a commercial vehicle, and on the same day received a bank loan of Rs. 5 million to expand its showroom. How should these two financial receipts be classified?",
+    "options": [
+      "A) Both are capital receipts.",
+      "B) Both are revenue receipts.",
+      "C) The sale is a revenue receipt; the loan is a capital receipt.",
+      "D) The sale is a capital receipt; the loan is a revenue receipt."
+    ],
+    "correctAnswer": "C) The sale is a revenue receipt; the loan is a capital receipt.",
+    "explanation": "Income generated from ordinary trading activities (like selling goods) is a revenue receipt, whereas funds acquired from non-routine transactions like obtaining a bank loan are capital receipts [28]."
+  },
+  {
+    "id": "c1q23",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "Which of the following accounting practices best illustrates the 'Substance over form' concept?",
+    "options": [
+      "A) Expensing a small stapler immediately instead of capitalizing it.",
+      "B) Recording a vehicle acquired on a finance lease as an asset, even though legal title has not transferred.",
+      "C) Delaying the recognition of sales revenue until cash is received.",
+      "D) Valuing inventory strictly at its original purchase cost."
+    ],
+    "correctAnswer": "B) Recording a vehicle acquired on a finance lease as an asset, even though legal title has not transferred.",
+    "explanation": "Substance over form dictates that financial statements should reflect the economic reality of a transaction rather than just its legal form. Recording a leased asset reflects that the business enjoys its economic benefits despite lacking legal title [29]."
+  },
+  {
+    "id": "c1q24",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "'Luminous Electronics' consistently uses the exact same inventory valuation method (such as FIFO) every single year. Which qualitative characteristic is primarily achieved by this practice?",
+    "options": [
+      "A) Timeliness",
+      "B) Comparability",
+      "C) Verifiability",
+      "D) Understandability"
+    ],
+    "correctAnswer": "B) Comparability",
+    "explanation": "The consistency concept ensures that identical accounting methods are applied across different periods, which directly enhances the comparability of the financial statements over time [30]."
+  },
+  {
+    "id": "c1q25",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "While bookkeeping primarily focuses on the routine task of recording daily financial transactions, 'Accounting' is a broader concept that also encompasses:",
+    "options": [
+      "A) Exclusively managing the cash flows and physical cash of the business.",
+      "B) Summarizing, analyzing, and reporting these recorded transactions in the financial statements.",
+      "C) Setting up the daily physical inventory counts in the warehouse.",
+      "D) Only calculating the corporate tax payable to the government authorities."
+    ],
+    "correctAnswer": "B) Summarizing, analyzing, and reporting these recorded transactions in the financial statements.",
+    "explanation": "Bookkeeping is restricted to the daily recording of financial data, whereas accounting is a wider discipline that includes the summarization, analysis, and reporting of that data through financial statements [31]."
+  },
+  {
+    "id": "c1q26",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "'Sterling Services' completed a consulting project for a client in December but did not receive the cash payment until February of the following financial year. The accountant recognized the revenue in December. This approach strictly follows which basis of accounting?",
+    "options": [
+      "A) Cash basis",
+      "B) Going concern basis",
+      "C) Accrual basis",
+      "D) Prudence basis"
+    ],
+    "correctAnswer": "C) Accrual basis",
+    "explanation": "The accrual basis of accounting dictates that income and expenses are recognized when they are earned or incurred, regardless of when the physical cash is actually exchanged [11]."
+  },
+  {
+    "id": "c1q27",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "What is the immediate effect on the accounting equation when a business uses its cash at the bank to fully settle an outstanding balance owed to a credit supplier?",
+    "options": [
+      "A) Decrease in an asset and decrease in equity.",
+      "B) Increase in an asset and increase in a liability.",
+      "C) Decrease in an asset and decrease in a liability.",
+      "D) Decrease in a liability and increase in owner's equity."
+    ],
+    "correctAnswer": "C) Decrease in an asset and decrease in a liability.",
+    "explanation": "Paying a credit supplier reduces the cash balance (decrease in asset) and simultaneously settles the amount owed (decrease in trade payables liability) [32]."
+  },
+  {
+    "id": "c1q28",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "Which of the following internal stakeholders relies on financial statements primarily to assess whether the business can continue to provide secure employment and pay remuneration?",
+    "options": [
+      "A) Lenders",
+      "B) Investors",
+      "C) Employees",
+      "D) Government authorities"
+    ],
+    "correctAnswer": "C) Employees",
+    "explanation": "Employees are internal users of financial statements who review financial data to assess the stability and profitability of their employer, ensuring their jobs and remuneration are secure [33]."
+  },
+  {
+    "id": "c1q29",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "A debit entry in the general ledger usually represents an increase in which of the following accounting elements?",
+    "options": [
+      "A) Assets and Income",
+      "B) Liabilities and Income",
+      "C) Assets and Expenses",
+      "D) Liabilities and Expenses"
+    ],
+    "correctAnswer": "C) Assets and Expenses",
+    "explanation": "Following the rules of double-entry bookkeeping, a debit entry is utilized to record an increase in either an asset account or an expense account [13]."
+  },
+  {
+    "id": "c1q30",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "According to IAS 1, which of the following documents is NOT considered a part of a complete set of financial statements?",
+    "options": [
+      "A) Statement of financial position",
+      "B) Statement of comprehensive income",
+      "C) Director's report",
+      "D) Notes to the financial statements"
+    ],
+    "correctAnswer": "C) Director's report",
+    "explanation": "A complete set of financial statements includes the statement of financial position, comprehensive income, changes in equity, cash flows, and notes [34]. The director's report or auditor's report is external to this specific set [34]."
+  },
+  {
+    "id": "c1q31",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "A business receives Rs. 1 million as a bank loan and Rs. 500,000 from the cash sale of inventory. How are these items categorized?",
+    "options": [
+      "A) Both are capital receipts.",
+      "B) Both are revenue receipts.",
+      "C) The bank loan is a capital receipt; the sale of inventory is a revenue receipt.",
+      "D) The bank loan is a revenue receipt; the sale of inventory is a capital receipt."
+    ],
+    "correctAnswer": "C) The bank loan is a capital receipt; the sale of inventory is a revenue receipt.",
+    "explanation": "Routine operating income like the sale of inventory constitutes a revenue receipt, whereas financing activities like acquiring a bank loan represent capital receipts [27]."
+  },
+  {
+    "id": "c1q32",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "Which accounting principle ensures that transactions are recorded strictly in monetary terms, ignoring non-financial factors like employee morale or management expertise?",
+    "options": [
+      "A) Understandability",
+      "B) Money Measurement concept",
+      "C) Accounting period concept",
+      "D) Matching Concept"
+    ],
+    "correctAnswer": "B) Money Measurement concept",
+    "explanation": "The money measurement concept dictates that only transactions and events capable of being accurately expressed in monetary terms are recorded in the financial books [35]."
+  },
+  {
+    "id": "c1q33",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "Which of the following best describes the 'Historical Cost' concept?",
+    "options": [
+      "A) Assets are constantly revalued to reflect their current market price.",
+      "B) Assets are recorded at the actual cash equivalent amount paid to acquire them.",
+      "C) Assets are recorded at their estimated future replacement cost.",
+      "D) Assets are depreciated fully in the year of purchase."
+    ],
+    "correctAnswer": "B) Historical cost concept",
+    "explanation": "The historical cost concept requires that an asset is initially recorded in the accounting records at the original, objective cost incurred to acquire it, regardless of future market value changes [30]."
+  },
+  {
+    "id": "c1q34",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "The double entry to correctly record the withdrawal of cash from a business bank account by the proprietor for personal use is:",
+    "options": [
+      "A) Debit Drawings, Credit Bank",
+      "B) Debit Bank, Credit Drawings",
+      "C) Debit Capital, Credit Cash",
+      "D) Debit Cash, Credit Bank"
+    ],
+    "correctAnswer": "A) Debit Drawings, Credit Bank",
+    "explanation": "When an owner withdraws cash for personal use, it decreases the business bank asset (Credit Bank) and increases drawings (Debit Drawings), which effectively reduces equity [13]."
+  },
+  {
+    "id": "c1q35",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "According to the conceptual framework, income encompasses both revenue and gains. It is defined as an increase in economic benefits that results in:",
+    "options": [
+      "A) An increase in overall business liabilities.",
+      "B) A decrease in owner's equity.",
+      "C) An increase in equity, other than contributions from equity participants.",
+      "D) An increase in equity, strictly from owner investments."
+    ],
+    "correctAnswer": "C) An increase in equity, other than contributions from equity participants.",
+    "explanation": "Income is defined as an increase in economic benefits during the period that results in an increase in equity, specifically excluding any direct capital contributions from the owners [25]."
+  },
+  {
+    "id": "c1q36",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "Which of the following is explicitly considered a capital transaction?",
+    "options": [
+      "A) Purchase of inventory for resale",
+      "B) Payment of monthly staff wages",
+      "C) Routine maintenance of a delivery vehicle",
+      "D) Purchase of specialized manufacturing machinery"
+    ],
+    "correctAnswer": "D) Purchase of specialized manufacturing machinery",
+    "explanation": "A capital transaction involves acquiring a non-current asset that will generate benefits over a long period, such as purchasing machinery. Items like wages and inventory are revenue transactions [36]."
+  },
+  {
+    "id": "c1q37",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "Why are 'Notes to the financial statements' considered an integral part of a complete set of financial statements?",
+    "options": [
+      "A) They provide the personal opinions of the directors on future sales.",
+      "B) They list the exact names of all individual employees.",
+      "C) They provide a narrative description and disaggregation of items presented in the primary statements.",
+      "D) They contain the company's daily cash book ledgers."
+    ],
+    "correctAnswer": "C) They provide a narrative description and disaggregation of items presented in the primary statements.",
+    "explanation": "Notes are essential because they provide explanatory narrative, accounting policies, and detailed breakdowns of the aggregated figures presented in the main financial statements [34]."
+  },
+  {
+    "id": "c1q38",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "If a business purchases property, plant, and equipment (PPE), which financial statement is immediately and directly impacted by the increase in non-current assets?",
+    "options": [
+      "A) Statement of comprehensive income",
+      "B) Statement of financial position",
+      "C) Statement of changes in equity",
+      "D) Income tax return"
+    ],
+    "correctAnswer": "B) Statement of financial position",
+    "explanation": "The statement of financial position (balance sheet) reports the entity's assets, liabilities, and equity at a specific point in time. An increase in PPE directly increases the non-current assets reported here [37]."
+  },
+  {
+    "id": "c1q39",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "Which qualitative characteristic of financial information assures users that the information accurately represents the economic phenomena it purports to represent, often confirmed by independent auditors?",
+    "options": [
+      "A) Timeliness",
+      "B) Verifiability",
+      "C) Comparability",
+      "D) Understandability"
+    ],
+    "correctAnswer": "B) Verifiability",
+    "explanation": "Verifiability helps assure users that information faithfully represents the economic transactions. It means that different knowledgeable and independent observers (like auditors) could reach a consensus on the data [38]."
+  },
+  {
+    "id": "c1q40",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "The qualitative characteristic of 'Understandability' implies that financial information should be:",
+    "options": [
+      "A) Stripped of all complex transactions to make it simple.",
+      "B) Presented clearly and concisely for users who have a reasonable knowledge of business and economic activities.",
+      "C) Kept exclusively for internal management review.",
+      "D) Translated into multiple languages automatically."
+    ],
+    "correctAnswer": "B) Presented clearly and concisely for users who have a reasonable knowledge of business and economic activities.",
+    "explanation": "Understandability means classifying, characterizing, and presenting information clearly. However, it assumes the users have a reasonable knowledge of business and economic activities to comprehend complex but necessary data [39]."
+  },
+  {
+    "id": "c1q41",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "'Metro Retailers' recorded gross sales of Rs. 800,000 during the year. However, customers returned goods worth Rs. 40,000, and the business allowed settlement discounts amounting to Rs. 15,000. What is the correct figure for net sales?",
+    "options": [
+      "A) Rs. 760,000",
+      "B) Rs. 745,000",
+      "C) Rs. 785,000",
+      "D) Rs. 800,000"
+    ],
+    "correctAnswer": "B) Rs. 745,000",
+    "explanation": "Net sales are calculated by deducting both sales returns and any discounts allowed from the gross sales figure [1, 2]. Therefore, Rs. 800,000 - Rs. 40,000 - Rs. 15,000 equals Rs. 745,000."
+  },
+  {
+    "id": "c1q42",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "'Global Traders' earns its primary income by selling electronic appliances. How should the income generated strictly from the sale of these appliances be classified in the financial statements?",
+    "options": [
+      "A) Capital Receipt",
+      "B) Other income",
+      "C) Revenue",
+      "D) Deferred Income"
+    ],
+    "correctAnswer": "C) Revenue",
+    "explanation": "According to accounting principles, income arising in the course of the ordinary, primary trading activities of an entity is formally classified as revenue [3]. "
+  },
+  {
+    "id": "c1q43",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "The accountant of 'Horizon Corp' is calculating liabilities for the year-end statement of financial position. The balances include: Trade Payables Rs. 45,000, Accrued Electricity Rs. 10,000, Long-term Bank Loan Rs. 300,000, and a Bank Overdraft of Rs. 20,000. What is the total of the current liabilities?",
+    "options": [
+      "A) Rs. 75,000",
+      "B) Rs. 55,000",
+      "C) Rs. 375,000",
+      "D) Rs. 345,000"
+    ],
+    "correctAnswer": "A) Rs. 75,000",
+    "explanation": "Current liabilities are obligations expected to be settled within one year. This includes the Trade Payables (Rs. 45,000), Accrued Electricity (Rs. 10,000), and the Bank Overdraft (Rs. 20,000), which sum up to Rs. 75,000 [3, 4]."
+  },
+  {
+    "id": "c1q44",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "Which of the following activities is strictly classified as 'book-keeping' rather than the broader scope of 'accounting'?",
+    "options": [
+      "A) Analyzing the profitability of a new product line.",
+      "B) Summarizing financial data to prepare the statement of comprehensive income.",
+      "C) The routine recording of daily financial transactions in the books of prime entry.",
+      "D) Reporting financial performance to external investors."
+    ],
+    "correctAnswer": "C) The routine recording of daily financial transactions in the books of prime entry.",
+    "explanation": "Book-keeping is specifically concerned with only the mechanical recording of financial transactions [5]. Accounting is a broader term that includes summarizing, analyzing, and reporting those transactions [5, 6]."
+  },
+  {
+    "id": "c1q45",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "Which of the following transactions undertaken by 'Pioneer Manufacturing' represents a capital expenditure?",
+    "options": [
+      "A) Paying the monthly electricity bill for the factory.",
+      "B) Paying for the routine servicing and oil change of delivery vans.",
+      "C) Purchasing a new robotic assembly arm for the production line.",
+      "D) Purchasing raw materials for manufacturing goods."
+    ],
+    "correctAnswer": "C) Purchasing a new robotic assembly arm for the production line.",
+    "explanation": "Capital expenditure involves acquiring or improving non-current assets that provide long-term economic benefits, such as a new machine [7]. Routine costs like bills, servicing, and raw materials are revenue expenditures [8]."
+  },
+  {
+    "id": "c1q46",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "'Urban Architects' purchases new drafting computers for their office on credit from 'Tech Source'. What is the correct double-entry to record this specific transaction?",
+    "options": [
+      "A) Debit Purchases Account, Credit Tech Source Account",
+      "B) Debit Office Equipment Account, Credit Bank Account",
+      "C) Debit Office Equipment Account, Credit Tech Source Account",
+      "D) Debit Tech Source Account, Credit Office Equipment Account"
+    ],
+    "correctAnswer": "C) Debit Office Equipment Account, Credit Tech Source Account",
+    "explanation": "Purchasing an asset on credit increases the non-current asset (Debit Office Equipment) and increases the liability owed to the supplier (Credit Tech Source) [7, 9]. The Purchases account is only used for trading inventory."
+  },
+  {
+    "id": "c1q47",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "At the start of the year, 'Dynamic Enterprises' had total assets of Rs. 600,000 and total equity of Rs. 400,000. During the year, total assets increased by Rs. 100,000 and total liabilities decreased by Rs. 50,000. What is the new equity at the end of the year?",
+    "options": [
+      "A) Rs. 500,000",
+      "B) Rs. 550,000",
+      "C) Rs. 450,000",
+      "D) Rs. 600,000"
+    ],
+    "correctAnswer": "B) Rs. 550,000",
+    "explanation": "Initially, Liabilities = 600k (Assets) - 400k (Equity) = 200k. At year-end, Assets are 700k (600k+100k) and Liabilities are 150k (200k-50k) [2, 10]. Therefore, new Equity is Assets (700k) - Liabilities (150k) = Rs. 550,000."
+  },
+  {
+    "id": "c1q48",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "Which of the following best describes the primary purpose of the Statement of Financial Position?",
+    "options": [
+      "A) To show the total revenue and expenses generated over a specific accounting period.",
+      "B) To detail the cash inflows and outflows during the financial year.",
+      "C) To present the financial position of the entity by listing its assets, liabilities, and equity at a specific point in time.",
+      "D) To show the changes in the owner's capital account over the year."
+    ],
+    "correctAnswer": "C) To present the financial position of the entity by listing its assets, liabilities, and equity at a specific point in time.",
+    "explanation": "The statement of financial position (formerly balance sheet) is a snapshot that presents an entity's assets, liabilities, and equity at a specific point in time [11, 12]."
+  },
+  {
+    "id": "c1q49",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "The owner of 'Breeze Boutiques' pays her personal life insurance premium using a cheque drawn on the business bank account. According to the separate entity concept, how should this be recorded in the business books?",
+    "options": [
+      "A) As an insurance expense for the business.",
+      "B) As a debit to the Drawings account and a credit to the Bank account.",
+      "C) As a debit to the Capital account and a credit to Cash.",
+      "D) It should not be recorded in the business books at all."
+    ],
+    "correctAnswer": "B) As a debit to the Drawings account and a credit to the Bank account.",
+    "explanation": "Under the separate entity concept, personal expenses paid from business funds are treated as owner withdrawals [8]. The correct entry is to debit Drawings and credit Bank [2]."
+  },
+  {
+    "id": "c1q50",
+    "chapter": 1,
+    "chapterTitle": "Accounting Basics",
+    "question": "'Swift Couriers' sold an old delivery van for Rs. 400,000. The carrying amount of the van in the books at the time of sale was Rs. 350,000. How is the Rs. 50,000 difference typically classified in the statement of comprehensive income?",
+    "options": [
+      "A) As a reduction in operating expenses.",
+      "B) As routine sales revenue.",
+      "C) As a capital receipt added directly to equity.",
+      "D) As other income (gain on disposal)."
+    ],
+    "correctAnswer": "D) As other income (gain on disposal).",
+    "explanation": "When a non-current asset is sold for more than its carrying amount, the resulting profit is not regular revenue. It is classified as a gain on disposal and presented within 'Other Income' [13]."
+  }
+]

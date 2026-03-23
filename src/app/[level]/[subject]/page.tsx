@@ -2,7 +2,7 @@
 
 import { ArrowRight, BookOpen, Shuffle, Target, PlayCircle, Bookmark, ArrowLeft } from "lucide-react";
 import Link from "next/link";
-import { mcqs } from "@/data/mcqs";
+
 import { useProgress } from "@/hooks/useProgress";
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
@@ -21,11 +21,17 @@ export default function SubjectHome() {
     isAvailable: true,
   };
 
-  const totalQuestions = mcqs.length;
   const { progress, isLoaded, getTotalMasteredPoints } = useProgress();
   const [mounted, setMounted] = useState(false);
+  const [totalQuestions, setTotalQuestions] = useState(0);
 
-  useEffect(() => { setMounted(true); }, []);
+  useEffect(() => { 
+    setMounted(true); 
+    fetch(`/api/questions?subject=${subjectId}`)
+      .then((r) => r.json())
+      .then((data) => setTotalQuestions(data.questions?.length || 0))
+      .catch(console.error);
+  }, [subjectId]);
 
   const masteredPoints = getTotalMasteredPoints();
   const masteryPct = Math.round((masteredPoints / totalQuestions) * 100) || 0;

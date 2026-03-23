@@ -14,7 +14,7 @@ export const prcSubjects: Subject[] = [
     title: "Fundamentals of Accounting",
     level: "PRC",
     description: "Essential accounting principles, theory, and practice questions.",
-    isAvailable: false,
+    isAvailable: true,
   },
   {
     id: "prc-2",
@@ -45,7 +45,7 @@ export const cafSubjects: Subject[] = [
     title: "Taxation Principles and Compliance",
     level: "CAF",
     description: "Master income tax and sales tax compliance.",
-    isAvailable: false,
+    isAvailable: true,
   },
   {
     id: "caf-3",

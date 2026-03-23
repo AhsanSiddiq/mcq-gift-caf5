@@ -2,7 +2,6 @@
 
 import { BookOpen, ChevronRight, CheckCircle2, ArrowLeft } from "lucide-react";
 import Link from "next/link";
-import { mcqs } from "@/data/mcqs";
 import { useProgress } from "@/hooks/useProgress";
 import { useState, useEffect } from "react";
 import { useParams } from "next/navigation";
@@ -13,14 +12,29 @@ export default function TopicalPage() {
   const subjectId = (params?.subject as string) || "caf-5";
   const { progress, isLoaded } = useProgress();
   const [mounted, setMounted] = useState(false);
+  const [chapters, setChapters] = useState<[number, string, number][]>([]);
 
-  useEffect(() => { setMounted(true); }, []);
-
-  const chaptersMap = new Map<number, string>();
-  mcqs.forEach((mcq) => {
-    if (!chaptersMap.has(mcq.chapter)) chaptersMap.set(mcq.chapter, mcq.chapterTitle);
-  });
-  const chapters = Array.from(chaptersMap.entries()).sort((a, b) => a[0] - b[0]);
+  useEffect(() => { 
+    setMounted(true); 
+    fetch(`/api/questions?subject=${subjectId}`)
+      .then((r) => r.json())
+      .then((data) => {
+        const questions = data.questions || [];
+        const map = new Map<number, { title: string; count: number }>();
+        questions.forEach((q: any) => {
+          if (!map.has(q.chapter)) {
+            map.set(q.chapter, { title: q.topic || `Chapter ${q.chapter}`, count: 1 });
+          } else {
+            map.get(q.chapter)!.count++;
+          }
+        });
+        const arr = Array.from(map.entries())
+          .sort((a, b) => a[0] - b[0])
+          .map(([ch, info]) => [ch, info.title, info.count] as [number, string, number]);
+        setChapters(arr);
+      })
+      .catch(console.error);
+  }, [subjectId]);
 
   return (
     <main className="min-h-screen">
@@ -53,8 +67,7 @@ export default function TopicalPage() {
 
         {/* Chapter grid */}
         <div className="flex flex-col gap-3">
-          {chapters.map(([chapterNum, title]) => {
-            const numQuestions = mcqs.filter(q => q.chapter === chapterNum).length;
+          {chapters.map(([chapterNum, title, numQuestions]) => {
             const chapterProgress = progress.chapters[chapterNum];
             const hasScore = mounted && isLoaded && chapterProgress !== undefined;
             const score = hasScore ? chapterProgress.highestScore : 0;
