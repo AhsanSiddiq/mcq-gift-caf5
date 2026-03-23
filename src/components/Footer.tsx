@@ -90,7 +90,7 @@ export default function Footer() {
         <div style={{ height: 1, background: "var(--border)", marginBottom: 28 }} />
 
         {/* Bottom */}
-        <div className="flex flex-col sm:flex-row justify-between items-center gap-4 text-center sm:text-left">
+        <div className="flex flex-col sm:flex-row justify-between items-center gap-4 text-center sm:text-left mb-6">
           <p style={{ fontSize: 12, color: "var(--text-3)", fontFamily: "var(--font-inter), sans-serif" }}>
             © {year} The CA Hub · Muhammad Ahsan Siddiq
           </p>
@@ -103,6 +103,13 @@ export default function Footer() {
           </div>
           <p style={{ fontSize: 12, color: "var(--text-3)", fontFamily: "var(--font-inter), sans-serif" }}>
             Built for the 90% who were told they weren&apos;t good enough.
+          </p>
+        </div>
+
+        {/* Clarity Disclosure */}
+        <div className="text-center md:text-left mt-8 pt-6 border-t border-[var(--border)]">
+          <p style={{ fontSize: 11, color: "var(--text-3)", fontFamily: "var(--font-inter), sans-serif", lineHeight: 1.6 }}>
+            We improve our products and advertising by using Microsoft Clarity to see how you use our website. By using our site, you agree that we and Microsoft can collect and use this data. Our <Link href="/privacy-policy" className="underline hover:text-[var(--text-2)]">privacy statement</Link> has more details.
           </p>
         </div>
 

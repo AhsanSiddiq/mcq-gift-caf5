@@ -39,9 +39,14 @@ export default function PrivacyPolicy() {
         </section>
 
         <section>
-          <h2 className="font-bold text-xl mb-3" style={{ color: "var(--text-1)" }}>4. Google AdSense and Cookies</h2>
-          <p>We use Google AdSense to display advertisements. Google may use cookies to serve ads based on your prior visits to this or other websites. You can opt out of personalised advertising by visiting <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "var(--green)" }}>Google Ad Settings</a>.</p>
-          <p className="mt-2">Third-party vendors, including Google, use cookies to serve ads based on a user's prior visits. These cookies do not store personally identifiable information.</p>
+          <h2 className="font-bold text-xl mb-3" style={{ color: "var(--text-1)" }}>4. Analytics, Tracking, and Advertising</h2>
+          <p>We use third-party services to monitor and analyze the use of our service, and to display advertisements.</p>
+          
+          <h3 className="font-bold text-lg mt-4 mb-2" style={{ color: "var(--text-1)" }}>Microsoft Clarity</h3>
+          <p>We partner with Microsoft Clarity and Microsoft Advertising to capture how you use and interact with our website through behavioral metrics, heatmaps, and session replay to improve and market our products/services. Website usage data is captured using first and third-party cookies and other tracking technologies to determine the popularity of products/services and online activity. Additionally, we use this information for site optimization, fraud/security purposes, and advertising. For more information about how Microsoft collects and uses your data, visit the <a href="https://privacy.microsoft.com/en-us/privacystatement" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "var(--green)" }}>Microsoft Privacy Statement</a>.</p>
+
+          <h3 className="font-bold text-lg mt-6 mb-2" style={{ color: "var(--text-1)" }}>Google Analytics & AdSense</h3>
+          <p>We use Google Analytics to track and report website traffic. We also use Google AdSense to display advertisements. Google uses cookies to serve ads based on your prior visits to this or other websites. You can opt out of personalised advertising by visiting <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "var(--green)" }}>Google Ad Settings</a>.</p>
         </section>
 
         <section>
