@@ -168,6 +168,40 @@ export default function PracticePage() {
         <Section level="PRC" subjects={prcSubjects} />
         <Section level="CAF" subjects={cafSubjects} />
 
+        {/* Community Volunteer CTA */}
+        <div className="mt-24 group relative rounded-3xl overflow-hidden" 
+             style={{ background: "var(--bg-2)", border: "1px solid var(--border)" }}>
+          <div className="absolute inset-0 opacity-10 transition-opacity duration-500 group-hover:opacity-20 pointer-events-none" 
+               style={{ background: "linear-gradient(135deg, var(--green) 0%, transparent 100%)" }} />
+          <div className="relative p-8 sm:p-12 flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
+            <div className="max-w-2xl">
+              <div className="flex items-center gap-2 mb-4">
+                <span className="text-xs font-black uppercase tracking-widest px-3 py-1 rounded-full text-white" 
+                      style={{ background: "var(--green)" }}>
+                  Volunteer & Contribute
+                </span>
+              </div>
+              <h2 className="text-2xl sm:text-3xl font-bold mb-3" 
+                  style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif", letterSpacing: "-0.01em" }}>
+                Teachers & Mentors Wanted
+              </h2>
+              <p className="text-sm sm:text-base leading-relaxed" 
+                 style={{ color: "var(--text-2)", fontFamily: "var(--font-inter), sans-serif" }}>
+                Are you a CA teacher, professional, or a high-achieving student? Help us grow this free platform for everyone. 
+                Whether it's uploading your original MCQs, writing detailed solutions, or recording video explanations, 
+                your contribution will drastically help the CA community. Full credits and profiles will be dedicated to all contributors.
+              </p>
+            </div>
+            <Link 
+              href="/contact" 
+              className="shrink-0 flex items-center justify-center gap-2 px-8 py-4 rounded-xl font-bold text-white transition-transform hover:scale-[1.03] active:scale-[0.98]"
+              style={{ background: "var(--green)", fontFamily: "var(--font-inter), sans-serif" }}
+            >
+              Get in Touch
+            </Link>
+          </div>
+        </div>
+
       </div>
     </main>
   );
