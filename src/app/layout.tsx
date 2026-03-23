@@ -1,16 +1,129 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import Image from "next/image";
+import type { Metadata, Viewport } from "next";
+import { Space_Grotesk, Playfair_Display, Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { cn } from "@/lib/utils";
+import { ThemeProvider } from "@/components/ThemeProvider";
 
-const inter = Inter({ subsets: ["latin"] });
+const spaceGrotesk = Space_Grotesk({
+  subsets: ["latin"],
+  variable: "--font-space-grotesk",
+  weight: ["400", "500", "600", "700"],
+  display: "swap",
+});
+
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  variable: "--font-playfair",
+  weight: ["400", "500", "600", "700", "800", "900"],
+  display: "swap",
+});
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
+});
+
+const BASE_URL = "https://thecahub.com";
+
+export const viewport: Viewport = {
+  themeColor: "#3DB371",
+  width: "device-width",
+  initialScale: 1,
+};
 
 export const metadata: Metadata = {
-  title: "CAF-5 MCQs | Muhammad Ahsan Siddiq",
-  description: "Management Accounting MCQ Practice Tool",
+  metadataBase: new URL(BASE_URL),
+
+  title: {
+    default: "The CA Hub",
+    template: "%s – The CA Hub",
+  },
+  description:
+    "Free MCQ practice for PRC & CAF, a Big 4-ready CA induction CV builder, and a real CA roadmap — built by ICAP's first-ever 6-paper CFAP Gold Medalist. No paywalls. No fluff.",
+
+  keywords: [
+    "ICAP MCQ practice",
+    "CA MCQ",
+    "PRC MCQs",
+    "CAF MCQs",
+    "CA induction CV",
+    "ICAP scheme 2025",
+    "ICAP scheme 2021",
+    "chartered accountancy Pakistan",
+    "CA Pakistan",
+    "ICAP audit internship CV",
+    "Big 4 CV Pakistan",
+    "CAF-5 management accounting MCQ",
+    "ICAP gold medalist",
+    "Muhammad Ahsan Siddiq",
+    "free CA study resources",
+    "ICAP past papers",
+    "CFAP strategy",
+  ],
+
+  authors: [{ name: "Muhammad Ahsan Siddiq", url: BASE_URL }],
+  creator: "Muhammad Ahsan Siddiq",
+  publisher: "The CA Hub",
+
+  openGraph: {
+    type: "website",
+    locale: "en_PK",
+    url: BASE_URL,
+    siteName: "The CA Hub",
+    title: "The CA Hub – Free ICAP MCQ Practice & CA Induction CV Maker",
+    description:
+      "Free MCQ practice for PRC & CAF, a Big 4-ready CA induction CV builder, and a real CA roadmap — built by ICAP's first-ever 6-paper CFAP Gold Medalist.",
+    images: [
+      {
+        url: "/CAHub.png",
+        width: 1200,
+        height: 630,
+        alt: "The CA Hub – Free tools for ICAP CA students in Pakistan",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "The CA Hub – Free ICAP MCQ Practice & CA Induction CV Maker",
+    description:
+      "Free MCQ practice for PRC & CAF, a Big 4-ready CV builder, and a real CA roadmap — by ICAP's CFAP Gold Medalist. No paywalls.",
+    images: ["/CAHub.png"],
+    creator: "@ahsansiddiq",
+  },
+
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/icon.png",    type: "image/png", sizes: "32x32" },
+      { url: "/icon-512.png",type: "image/png", sizes: "512x512" },
+    ],
+    apple: "/apple-touch-icon.png",
+    shortcut: "/favicon.ico",
+  },
+
+  manifest: "/site.webmanifest",
+
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+
+  alternates: {
+    canonical: BASE_URL,
+  },
+
+  category: "education",
 };
 
 export default function RootLayout({
@@ -19,43 +132,66 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={cn(
-        inter.className, 
-        "min-h-screen bg-[#F9FAFB] text-[#111827] flex flex-col antialiased selection:bg-blue-100 selection:text-blue-900 relative"
-      )}>
-        
-        {/* Global Branding Watermark - Text */}
-        <div className="fixed inset-0 pointer-events-none flex flex-col items-center justify-center overflow-hidden z-0 opacity-[0.03] select-none">
-          <div className="text-center font-black text-gray-900 uppercase tracking-[0.2em] -rotate-12 whitespace-nowrap">
-            <div className="text-4xl sm:text-6xl md:text-8xl lg:text-9xl mb-2">Muhammad Ahsan Siddiq</div>
-            <div className="text-3xl sm:text-5xl md:text-7xl lg:text-8xl tracking-[0.4em]">(MAS)</div>
-          </div>
-        </div>
+    <html lang="en" className="scroll-smooth" data-theme="dark" suppressHydrationWarning>
+      <head>
+        {/* Preconnect for performance */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
 
-        {/* Global Branding Watermark - Image */}
-        <div className="fixed bottom-0 right-0 sm:-right-10 md:-right-20 w-[200px] sm:w-[400px] md:w-[500px] lg:w-[600px] h-[300px] sm:h-[500px] md:h-[600px] pointer-events-none z-0 opacity-[0.12] sm:opacity-[0.15] select-none mix-blend-multiply">
-          <div className="relative w-full h-full">
-            <Image 
-              src="/MAS2.png" 
-              alt="MAS Watermark" 
-              fill
-              className="object-contain object-bottom sm:object-right-bottom grayscale"
-              priority
-            />
-            {/* Fading gradients to blend image into the background cleanly */}
-            <div className="absolute inset-0 bg-gradient-to-t from-transparent via-transparent to-[#F9FAFB]"></div>
-            <div className="absolute inset-0 bg-gradient-to-r from-[#F9FAFB] via-transparent to-transparent"></div>
-          </div>
-        </div>
+        {/* Structured Data – Organization */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "The CA Hub",
+              url: BASE_URL,
+              logo: `${BASE_URL}/CAHub.png`,
+              description:
+                "Free ICAP MCQ practice, CA induction CV builder, and CA study roadmap for Pakistani CA students.",
+              founder: {
+                "@type": "Person",
+                name: "Muhammad Ahsan Siddiq",
+                jobTitle: "ICAP CFAP Gold Medalist, ACCA Affiliate, CFA Level I",
+                url: BASE_URL,
+              },
+              sameAs: [
+                "https://thecahub.com",
+              ],
+            }),
+          }}
+        />
 
-        <Header />
-        <main className="flex-1 w-full max-w-5xl mx-auto p-4 sm:p-6 md:p-8 relative z-10">
-          {children}
-        </main>
-        <div className="relative z-10">
+        {/* Structured Data – WebSite */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "The CA Hub",
+              url: BASE_URL,
+              description:
+                "Free ICAP MCQ practice, CA induction CV builder, and CA roadmap for CA students in Pakistan.",
+            }),
+          }}
+        />
+      </head>
+      <body
+        className={cn(
+          inter.variable,
+          spaceGrotesk.variable,
+          playfair.variable,
+          "min-h-screen antialiased flex flex-col overflow-x-hidden"
+        )}
+        suppressHydrationWarning
+      >
+        <ThemeProvider>
+          <Header />
+          <main className="flex-1 w-full">{children}</main>
           <Footer />
-        </div>
+        </ThemeProvider>
       </body>
     </html>
   );

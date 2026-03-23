@@ -1,1 +1,198 @@
 @import "tailwindcss";
+
+/* ──────────────────────────────────────────
+   THEME TOKENS  (set via JS on <html>)
+────────────────────────────────────────── */
+:root {
+  --green: #3DB371;
+  --green-d: #2E9960;
+  --gold: #F5A623;
+  --navy: #1B2A4A;
+
+  /* Dark (default) */
+  --bg: #0A0A0B;
+  --bg-2: #111113;
+  --bg-3: #1A1A1D;
+  --text-1: #F4F4F5;
+  --text-2: #A1A1AA;
+  --text-3: #52525B;
+  --border: rgba(255, 255, 255, 0.08);
+  --surface: rgba(255, 255, 255, 0.04);
+  --logo-filter: brightness(0) invert(1);
+}
+
+[data-theme="light"] {
+  --bg: #FAFAF9;
+  --bg-2: #F1F0EE;
+  --bg-3: #E8E7E4;
+  --text-1: #111113;
+  --text-2: #52525B;
+  --text-3: #A1A1AA;
+  --border: rgba(0, 0, 0, 0.09);
+  --surface: rgba(0, 0, 0, 0.03);
+  --logo-filter: none;
+}
+
+/* ──────────────────────────────────────────
+   BASE
+────────────────────────────────────────── */
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text-1);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+  transition: background 0.35s ease, color 0.35s ease;
+}
+
+::selection {
+  background: var(--green);
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--bg-3);
+  border-radius: 4px;
+}
+
+/* ──────────────────────────────────────────
+   KEYFRAMES
+────────────────────────────────────────── */
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes floatA {
+
+  0%,
+  100% {
+    transform: translateY(0px) scale(1);
+  }
+
+  50% {
+    transform: translateY(-18px) scale(1.04);
+  }
+}
+
+@keyframes floatB {
+
+  0%,
+  100% {
+    transform: translateY(0px) scale(1);
+  }
+
+  50% {
+    transform: translateY(-12px) scale(0.97);
+  }
+}
+
+@keyframes blink {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes shimmer {
+  from {
+    background-position: -200% center;
+  }
+
+  to {
+    background-position: 200% center;
+  }
+}
+
+@keyframes progressLine {
+  from {
+    transform: scaleY(0);
+  }
+
+  to {
+    transform: scaleY(1);
+  }
+}
+
+/* ──────────────────────────────────────────
+   UTILITY  ← these must come AFTER @import
+────────────────────────────────────────── */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+a, button, [role="button"], input[type="submit"], input[type="button"], select {
+  cursor: pointer;
+}
+
+.marquee-wrap {
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee-track {
+  display: flex;
+  white-space: nowrap;
+  animation: marquee 30s linear infinite;
+  width: max-content;
+}
+
+.float-a {
+  animation: floatA 8s ease-in-out infinite;
+}
+
+.float-b {
+  animation: floatB 10s ease-in-out infinite;
+}
+
+.blink-cursor {
+  display: inline-block;
+  width: 3px;
+  border-radius: 2px;
+  margin-left: 4px;
+  vertical-align: middle;
+  animation: blink 0.85s step-end infinite;
+  background: var(--green);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, var(--green) 0%, var(--gold) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.shimmer-btn {
+  background: linear-gradient(90deg, var(--green) 0%, #5AE08A 40%, var(--green) 80%);
+  background-size: 200% auto;
+  animation: shimmer 3s linear infinite;
+}

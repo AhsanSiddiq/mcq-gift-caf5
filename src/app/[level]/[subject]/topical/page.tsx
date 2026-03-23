@@ -1,0 +1,115 @@
+"use client";
+
+import { BookOpen, ChevronRight, CheckCircle2, ArrowLeft } from "lucide-react";
+import Link from "next/link";
+import { mcqs } from "@/data/mcqs";
+import { useProgress } from "@/hooks/useProgress";
+import { useState, useEffect } from "react";
+import { useParams } from "next/navigation";
+
+export default function TopicalPage() {
+  const params = useParams();
+  const level = (params?.level as string) || "caf";
+  const subjectId = (params?.subject as string) || "caf-5";
+  const { progress, isLoaded } = useProgress();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => { setMounted(true); }, []);
+
+  const chaptersMap = new Map<number, string>();
+  mcqs.forEach((mcq) => {
+    if (!chaptersMap.has(mcq.chapter)) chaptersMap.set(mcq.chapter, mcq.chapterTitle);
+  });
+  const chapters = Array.from(chaptersMap.entries()).sort((a, b) => a[0] - b[0]);
+
+  return (
+    <main className="min-h-screen">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 md:px-8 pt-28 pb-20">
+
+        {/* Back */}
+        <Link href={`/${level}/${subjectId}`}
+          className="inline-flex items-center gap-2 text-sm font-semibold mb-10 transition-colors"
+          style={{ color: "var(--text-3)", textDecoration: "none" }}
+          onMouseEnter={e => ((e.currentTarget as HTMLElement).style.color = "var(--text-1)")}
+          onMouseLeave={e => ((e.currentTarget as HTMLElement).style.color = "var(--text-3)")}
+        >
+          <ArrowLeft className="w-4 h-4" /> Back to Subject
+        </Link>
+
+        {/* Header */}
+        <div className="mb-10">
+          <p className="text-xs font-bold uppercase tracking-widest mb-3"
+            style={{ color: "var(--green)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
+            Topical Practice
+          </p>
+          <h1 className="font-bold mb-2"
+            style={{ fontSize: "clamp(1.6rem,4vw,2.5rem)", color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif", lineHeight: 1.15 }}>
+            Select a Chapter
+          </h1>
+          <p style={{ color: "var(--text-2)", fontFamily: "var(--font-inter), sans-serif", fontSize: 15 }}>
+            Work through each syllabus area one chapter at a time.
+          </p>
+        </div>
+
+        {/* Chapter grid */}
+        <div className="flex flex-col gap-3">
+          {chapters.map(([chapterNum, title]) => {
+            const numQuestions = mcqs.filter(q => q.chapter === chapterNum).length;
+            const chapterProgress = progress.chapters[chapterNum];
+            const hasScore = mounted && isLoaded && chapterProgress !== undefined;
+            const score = hasScore ? chapterProgress.highestScore : 0;
+            const isMastered = hasScore && chapterProgress.isCompleted;
+
+            return (
+              <Link
+                key={chapterNum}
+                href={`/${level}/${subjectId}/quiz?mode=topical&chapter=${chapterNum}`}
+                className="group rounded-2xl p-5 flex items-center justify-between gap-4 transition-all duration-200"
+                style={{
+                  background: isMastered ? "rgba(61,179,113,0.06)" : "var(--bg-2)",
+                  border: `1px solid ${isMastered ? "rgba(61,179,113,0.35)" : "var(--border)"}`,
+                  textDecoration: "none",
+                }}
+                onMouseEnter={e => {
+                  (e.currentTarget as HTMLElement).style.borderColor = isMastered ? "var(--green)" : "#60a5fa";
+                  (e.currentTarget as HTMLElement).style.transform = "translateX(4px)";
+                }}
+                onMouseLeave={e => {
+                  (e.currentTarget as HTMLElement).style.borderColor = isMastered ? "rgba(61,179,113,0.35)" : "var(--border)";
+                  (e.currentTarget as HTMLElement).style.transform = "none";
+                }}
+              >
+                <div className="flex-1 min-w-0">
+                  <div className="flex items-center gap-2 mb-1">
+                    <span className="text-xs font-bold uppercase tracking-widest"
+                      style={{ color: isMastered ? "var(--green)" : "#60a5fa", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
+                      Chapter {chapterNum}
+                    </span>
+                    {isMastered && <CheckCircle2 className="w-3.5 h-3.5" style={{ color: "var(--green)" }} />}
+                  </div>
+                  <h3 className="font-bold text-base leading-snug mb-2"
+                    style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
+                    {title}
+                  </h3>
+                  <div className="flex items-center gap-4 flex-wrap">
+                    <span className="flex items-center gap-1.5 text-xs" style={{ color: "var(--text-3)" }}>
+                      <BookOpen className="w-3.5 h-3.5" /> {numQuestions} questions
+                    </span>
+                    {hasScore && score > 0 && (
+                      <span className="text-xs font-semibold" style={{ color: isMastered ? "var(--green)" : "#60a5fa" }}>
+                        Best: {score}/{numQuestions}
+                      </span>
+                    )}
+                  </div>
+                </div>
+                <ChevronRight className="w-5 h-5 shrink-0 transition-transform group-hover:translate-x-1"
+                  style={{ color: isMastered ? "var(--green)" : "var(--text-3)" }} />
+              </Link>
+            );
+          })}
+        </div>
+
+      </div>
+    </main>
+  );
+}

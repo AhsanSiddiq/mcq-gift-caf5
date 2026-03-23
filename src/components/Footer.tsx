@@ -1,97 +1,112 @@
-import React from "react";
+import Link from "next/link";
 import Image from "next/image";
-import { Linkedin, Facebook, Instagram, Mail, Youtube, MessageCircle } from "lucide-react";
+
+const NAV = [
+  {
+    heading: "Tools",
+    links: [
+      { label: "CA Roadmap", href: "/#path" },
+      { label: "MCQ Practice", href: "/practice" },
+      { label: "Induction CV Maker", href: "/cv-maker" },
+    ],
+  },
+  {
+    heading: "Learn",
+    links: [
+      { label: "The Story", href: "/about" },
+      { label: "Articles", href: "/#articles" },
+      { label: "Get the Guide", href: "/#capture" },
+    ],
+  },
+  {
+    heading: "Legal",
+    links: [
+      { label: "Privacy Policy", href: "/privacy-policy" },
+      { label: "Terms of Use", href: "/terms" },
+      { label: "Contact", href: "/contact" },
+    ],
+  },
+];
+
 
 export default function Footer() {
+  const year = new Date().getFullYear();
+
   return (
-    <footer className="w-full bg-white border-t border-gray-200 mt-auto">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8 py-12">
-        
-        {/* Top Section: Video Resources */}
-        <div className="mb-12">
-          <h3 className="text-xl font-bold text-gray-900 mb-6 text-center shadow-sm p-4 bg-gray-50 rounded-xl border border-gray-200 uppercase tracking-widest text-sm sm:text-base">Key CA & CFAP Strategies</h3>
-          <div className="grid md:grid-cols-2 gap-6 w-full max-w-4xl mx-auto">
-            <div className="aspect-video w-full bg-gray-100 rounded-xl overflow-hidden border border-gray-200 shadow-sm">
-               <iframe 
-                  width="100%" 
-                  height="100%" 
-                  src="https://www.youtube.com/embed/hzkd6RutgyI" 
-                  title="CA CFAP Strategy" 
-                  frameBorder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                  allowFullScreen
-               />
+    <footer style={{ background: "var(--bg-2)", borderTop: "1px solid var(--border)" }}>
+      <div className="max-w-7xl mx-auto px-6 md:px-12 pt-16 pb-10">
+
+        {/* Top Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 mb-14">
+
+          {/* Brand */}
+          <div className="sm:col-span-2 lg:col-span-1">
+            <div className="mb-5">
+              <div className="w-20 h-20 relative" style={{ filter: "var(--logo-filter, none)" }}>
+                <Image src="/CAHubNoBG.png" alt="The CA Hub" fill className="object-contain object-left" />
+              </div>
             </div>
-            <div className="aspect-video w-full bg-gray-100 rounded-xl overflow-hidden border border-gray-200 shadow-sm">
-               <iframe 
-                  width="100%" 
-                  height="100%" 
-                  src="https://www.youtube.com/embed/oR2VUTb-nag" 
-                  title="CA CFAP Guidelines" 
-                  frameBorder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                  allowFullScreen
-               />
+
+            <p className="text-sm leading-relaxed mb-6 max-w-[240px]" style={{ color: "var(--text-2)", fontFamily: "var(--font-inter), sans-serif" }}>
+              Every ICAP subject. Free forever. MCQ practice, CV tools, and everything you need to clear on your first attempt.
+            </p>
+            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full" style={{ background: "rgba(61,179,113,0.08)", border: "1px solid rgba(61,179,113,0.2)" }}>
+              <span className="relative flex w-[6px] h-[6px]">
+                <span className="absolute inline-flex w-full h-full rounded-full opacity-75" style={{ background: "var(--green)", animation: "ping 1.5s cubic-bezier(0,0,0.2,1) infinite" }} />
+                <span className="relative rounded-full w-[6px] h-[6px]" style={{ background: "var(--green)" }} />
+              </span>
+              <span style={{ fontSize: 11, fontWeight: 700, letterSpacing: "0.15em", textTransform: "uppercase" as const, color: "var(--green)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>Live &amp; Free</span>
             </div>
           </div>
+
+          {/* Nav columns */}
+          {NAV.map(({ heading, links }) => (
+            <div key={heading}>
+              <h4 style={{ fontSize: 10, fontWeight: 700, letterSpacing: "0.2em", textTransform: "uppercase" as const, color: "var(--text-3)", fontFamily: "var(--font-space-grotesk), sans-serif", marginBottom: 18 }}>
+                {heading}
+              </h4>
+              <ul className="space-y-2.5">
+                {links.map((l) => (
+                  <li key={l.label}>
+                    <Link
+                      href={l.href}
+                      className="link-hover text-sm"
+                      style={{
+                        color: l.label.includes("✓") ? "var(--green)" : l.label.includes("Coming Soon") ? "var(--text-3)" : "var(--text-2)",
+                        fontFamily: "var(--font-inter), sans-serif",
+                        fontWeight: l.label.includes("✓") ? 600 : 400,
+                      }}
+                    >
+                      {l.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
         </div>
 
-        {/* Branding Divider */}
-        <div className="w-full h-px bg-gray-200 mb-12"></div>
+        {/* Divider */}
+        <div style={{ height: 1, background: "var(--border)", marginBottom: 28 }} />
 
-        {/* Bottom Section: Branding & Socials */}
-        <div className="flex flex-col md:flex-row items-center justify-between gap-8">
-          
-          {/* Author Branding */}
+        {/* Bottom */}
+        <div className="flex flex-col sm:flex-row justify-between items-center gap-4 text-center sm:text-left">
+          <p style={{ fontSize: 12, color: "var(--text-3)", fontFamily: "var(--font-inter), sans-serif" }}>
+            © {year} The CA Hub · Muhammad Ahsan Siddiq
+          </p>
           <div className="flex items-center gap-4">
-            <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-blue-100 shadow-sm shrink-0">
-               <Image 
-                 src="/MAS2.png" 
-                 alt="Muhammad Ahsan Siddiq" 
-                 width={64} 
-                 height={64} 
-                 className="object-cover w-full h-full"
-               />
-            </div>
-            <div>
-              <p className="text-xs uppercase tracking-widest font-bold text-gray-400 mb-1">Curated & Taught By</p>
-              <h4 className="text-xl font-bold text-gray-900 leading-none">Muhammad Ahsan Siddiq</h4>
-            </div>
+            <Link href="/privacy-policy" className="link-hover" style={{ fontSize: 12, color: "var(--text-3)", fontFamily: "var(--font-inter), sans-serif" }}>Privacy</Link>
+            <span style={{ color: "var(--border)" }}>·</span>
+            <Link href="/terms" className="link-hover" style={{ fontSize: 12, color: "var(--text-3)", fontFamily: "var(--font-inter), sans-serif" }}>Terms</Link>
+            <span style={{ color: "var(--border)" }}>·</span>
+            <Link href="/contact" className="link-hover" style={{ fontSize: 12, color: "var(--text-3)", fontFamily: "var(--font-inter), sans-serif" }}>Contact</Link>
           </div>
-
-          {/* Social Links */}
-          <div className="flex flex-wrap justify-center gap-3">
-            <SocialLink href="https://linkedin.com/in/ahsansiddiq01" icon={<Linkedin className="w-5 h-5"/>} label="LinkedIn" />
-            <SocialLink href="https://facebook.com/ahsansiddiq25" icon={<Facebook className="w-5 h-5"/>} label="Facebook" />
-            <SocialLink href="https://instagram.com/ahsansiddiq25" icon={<Instagram className="w-5 h-5"/>} label="Instagram" />
-            <SocialLink href="https://wa.me/qr/3YFCB4ZUMCBOF1" icon={<MessageCircle className="w-5 h-5"/>} label="WhatsApp" />
-            <SocialLink href="mailto:ahsansiddiq01@gmail.com" icon={<Mail className="w-5 h-5"/>} label="Email" />
-            <SocialLink href="https://www.youtube.com/@AhsanSiddiq" icon={<Youtube className="w-5 h-5"/>} label="YouTube" />
-          </div>
-
-        </div>
-
-        {/* Copyright */}
-        <div className="mt-12 text-center text-sm text-gray-500 font-medium">
-          &copy; {new Date().getFullYear()} Muhammad Ahsan Siddiq. All rights reserved.
+          <p style={{ fontSize: 12, color: "var(--text-3)", fontFamily: "var(--font-inter), sans-serif" }}>
+            Built for the 90% who were told they weren&apos;t good enough.
+          </p>
         </div>
 
       </div>
     </footer>
-  );
-}
-
-function SocialLink({ href, icon, label }: { href: string; icon: React.ReactNode; label: string }) {
-  return (
-    <a
-      href={href}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="p-2 text-gray-400 hover:text-blue-600 hover:bg-blue-50 rounded-md transition-colors"
-      aria-label={label}
-      title={label}
-    >
-      {icon}
-    </a>
   );
 }

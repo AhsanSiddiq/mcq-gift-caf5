@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { MCQ } from "@/data/mcqs";
 import { CheckCircle2, XCircle, ArrowRight, Bookmark, BookmarkCheck } from "lucide-react";
-import { cn } from "@/lib/utils";
 import { useProgress } from "@/hooks/useProgress";
 
 interface MCQCardProps {
@@ -20,75 +19,84 @@ export default function MCQCard({ mcq, onAnswer, onNext, isLast }: MCQCardProps)
 
   const handleOptionClick = (option: string) => {
     if (showExplanation) return;
-    
     setSelectedOption(option);
-    const isCorrect = option === mcq.correctAnswer;
     setShowExplanation(true);
-    onAnswer(isCorrect);
+    onAnswer(option === mcq.correctAnswer);
   };
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      // Don't trigger if user is typing in an input (though there aren't any here, it's good practice)
       if (document.activeElement?.tagName === "INPUT" || document.activeElement?.tagName === "TEXTAREA") return;
-
       if (!showExplanation) {
-        // Handle Option Selection
         const key = e.key.toUpperCase();
         const optionIndex = ["A", "B", "C", "D", "1", "2", "3", "4"].indexOf(key);
-        // Map 1-4 to 0-3, and A-D to 0-3
         const mappedIndex = optionIndex >= 4 ? optionIndex - 4 : optionIndex;
-        
-        if (mappedIndex >= 0 && mappedIndex < mcq.options.length) {
-          handleOptionClick(mcq.options[mappedIndex]);
-        }
+        if (mappedIndex >= 0 && mappedIndex < mcq.options.length) handleOptionClick(mcq.options[mappedIndex]);
       } else {
-        // Handle Next Progression
-        if (e.key === "Enter" || e.key === " ") {
-          e.preventDefault(); // Prevent scrolling on space
-          onNext();
-        }
+        if (e.key === "Enter" || e.key === " ") { e.preventDefault(); onNext(); }
       }
     };
-
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [showExplanation, mcq, onNext]);
 
   return (
-    <div className="bg-white rounded-xl p-4 sm:p-6 md:p-8 shadow-sm border border-gray-200">
-      
-      <div className="mb-5 sm:mb-6 flex justify-between items-start gap-3 sm:gap-4">
-        <div>
-          <span className="inline-block px-2 py-1 sm:px-3 sm:py-1 bg-gray-100 text-gray-700 text-[10px] sm:text-xs font-bold rounded mb-3 sm:mb-4 uppercase tracking-wider leading-tight">
+    <div className="rounded-2xl p-4 sm:p-6 md:p-7" style={{ background: "var(--bg-2)", border: "1px solid var(--border)" }}>
+
+      {/* Question header */}
+      <div className="mb-6 flex justify-between items-start gap-4">
+        <div className="flex-1 min-w-0">
+          <span className="inline-block text-xs font-bold uppercase tracking-widest px-2.5 py-1 rounded-full mb-4"
+            style={{ color: "var(--green)", background: "rgba(61,179,113,0.10)", border: "1px solid rgba(61,179,113,0.2)" }}>
             {mcq.chapterTitle}
           </span>
-          <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-900 leading-snug">
+          <h3 className="text-base sm:text-lg font-bold leading-snug"
+            style={{ color: "var(--text-1)", fontFamily: "var(--font-inter), sans-serif" }}>
             {mcq.question}
           </h3>
         </div>
-        <button 
+        <button
           onClick={() => toggleFlag(mcq.id)}
-          className={`flex-shrink-0 p-2 border rounded-md transition-colors ${isFlagged ? 'bg-amber-50 border-amber-200 text-amber-500' : 'bg-white border-gray-200 text-gray-400 hover:text-amber-500 hover:bg-amber-50'}`}
+          className="shrink-0 p-2 rounded-xl transition-colors"
           title={isFlagged ? "Remove Flag" : "Flag for Review"}
+          style={{
+            background: isFlagged ? "rgba(251,191,36,0.12)" : "var(--bg-3)",
+            border: `1px solid ${isFlagged ? "rgba(251,191,36,0.35)" : "var(--border)"}`,
+            color: isFlagged ? "#fbbf24" : "var(--text-3)",
+            cursor: "pointer",
+          }}
         >
-          {isFlagged ? <BookmarkCheck className="w-5 h-5" /> : <Bookmark className="w-5 h-5" />}
+          {isFlagged ? <BookmarkCheck className="w-4 h-4" /> : <Bookmark className="w-4 h-4" />}
         </button>
       </div>
 
-      <div className="flex flex-col gap-3">
+      {/* Options */}
+      <div className="flex flex-col gap-2.5">
         {mcq.options.map((option, idx) => {
           const isSelected = selectedOption === option;
           const isCorrect = option === mcq.correctAnswer;
-          
-          let stateStyles = "bg-white border-gray-300 text-gray-700 hover:bg-gray-50 hover:border-blue-400";
+
+          let borderColor = "var(--border)";
+          let bg = "var(--bg-3)";
+          let textColor = "var(--text-2)";
+          let badgeBg = "var(--border)";
+          let badgeColor = "var(--text-3)";
+
           if (showExplanation) {
             if (isCorrect) {
-              stateStyles = "bg-green-50 border-green-500 text-green-900";
+              borderColor = "rgba(61,179,113,0.6)";
+              bg = "rgba(61,179,113,0.08)";
+              textColor = "var(--text-1)";
+              badgeBg = "var(--green)";
+              badgeColor = "#fff";
             } else if (isSelected && !isCorrect) {
-              stateStyles = "bg-red-50 border-red-500 text-red-900";
+              borderColor = "rgba(248,113,113,0.6)";
+              bg = "rgba(248,113,113,0.08)";
+              textColor = "var(--text-2)";
+              badgeBg = "#f87171";
+              badgeColor = "#fff";
             } else {
-              stateStyles = "bg-gray-50 border-gray-200 text-gray-400 opacity-70";
+              textColor = "var(--text-3)";
             }
           }
 
@@ -97,28 +105,29 @@ export default function MCQCard({ mcq, onAnswer, onNext, isLast }: MCQCardProps)
               key={idx}
               onClick={() => { if (!showExplanation) handleOptionClick(option); }}
               aria-disabled={showExplanation}
-              className={cn(
-                "w-full text-left px-4 py-3 sm:px-5 sm:py-4 rounded-lg border sm:border-2 transition-colors font-medium flex items-center justify-between text-sm sm:text-base",
-                stateStyles,
-                !showExplanation ? "cursor-pointer" : "cursor-default opacity-100"
-              )}
+              className="w-full text-left rounded-xl px-4 py-3 sm:py-3.5 flex items-center justify-between gap-3 transition-all duration-150"
+              style={{
+                background: bg,
+                border: `1.5px solid ${borderColor}`,
+                color: textColor,
+                cursor: showExplanation ? "default" : "pointer",
+                fontFamily: "var(--font-inter), sans-serif",
+                fontSize: 14,
+              }}
+              onMouseEnter={e => { if (!showExplanation) (e.currentTarget as HTMLElement).style.borderColor = "rgba(96,165,250,0.5)"; }}
+              onMouseLeave={e => { if (!showExplanation) (e.currentTarget as HTMLElement).style.borderColor = "var(--border)"; }}
             >
-              <div className="flex items-center gap-3 sm:gap-4">
-                <div className={cn(
-                  "flex-shrink-0 w-6 h-6 rounded border flex items-center justify-center text-xs font-bold",
-                  showExplanation 
-                    ? (isCorrect ? "bg-green-500 border-green-500 text-white" : (isSelected && !isCorrect ? "bg-red-500 border-red-500 text-white" : "bg-gray-200 border-gray-300 text-gray-500"))
-                    : "bg-white border-gray-300 text-gray-500"
-                )}>
+              <div className="flex items-center gap-3">
+                <div className="shrink-0 w-6 h-6 rounded-lg flex items-center justify-center text-xs font-black"
+                  style={{ background: badgeBg, color: badgeColor, border: `1px solid ${badgeBg}` }}>
                   {String.fromCharCode(65 + idx)}
                 </div>
-                <span className="leading-snug sm:leading-relaxed">{option.replace(/^[A-Z]\)\s*/, '')}</span>
+                <span className="leading-snug">{option.replace(/^[A-Z]\)\s*/, "")}</span>
               </div>
-
               {showExplanation && (
-                <div className="flex-shrink-0 ml-4">
-                  {isCorrect && <CheckCircle2 className="w-5 h-5 text-green-600" />}
-                  {isSelected && !isCorrect && <XCircle className="w-5 h-5 text-red-600" />}
+                <div className="shrink-0">
+                  {isCorrect && <CheckCircle2 className="w-4 h-4" style={{ color: "var(--green)" }} />}
+                  {isSelected && !isCorrect && <XCircle className="w-4 h-4" style={{ color: "#f87171" }} />}
                 </div>
               )}
             </button>
@@ -126,24 +135,28 @@ export default function MCQCard({ mcq, onAnswer, onNext, isLast }: MCQCardProps)
         })}
       </div>
 
+      {/* Explanation */}
       {showExplanation && (
-        <div className="mt-8 pt-6 border-t border-gray-200">
-          <div className="bg-blue-50 border-l-4 border-blue-500 p-4 mb-6 rounded-r">
-            <h4 className="font-bold text-sm text-blue-900 uppercase tracking-widest mb-1">
+        <div className="mt-6 pt-6" style={{ borderTop: "1px solid var(--border)" }}>
+          <div className="rounded-xl p-4 mb-6"
+            style={{ background: "rgba(61,179,113,0.06)", borderLeft: "3px solid var(--green)" }}>
+            <h4 className="text-xs font-black uppercase tracking-widest mb-2" style={{ color: "var(--green)" }}>
               Explanation
             </h4>
-            <p className="text-blue-900 text-sm leading-relaxed">
+            <p className="text-sm leading-relaxed" style={{ color: "var(--text-2)", fontFamily: "var(--font-inter), sans-serif" }}>
               {mcq.explanation}
             </p>
           </div>
-          
-          <div className="flex justify-end">
+          <div className="flex flex-col sm:flex-row justify-end gap-2">
             <button
               onClick={onNext}
-              className="flex items-center gap-2 px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors cursor-pointer"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 font-bold rounded-xl px-6 py-3.5 sm:py-3 text-white transition-all"
+              style={{ background: "var(--green)", cursor: "pointer", fontSize: 14, fontFamily: "var(--font-space-grotesk), sans-serif",
+                boxShadow: "0 4px 20px rgba(61,179,113,0.3)" }}
+              onMouseEnter={e => { (e.currentTarget as HTMLElement).style.background = "#2E9960"; }}
+              onMouseLeave={e => { (e.currentTarget as HTMLElement).style.background = "var(--green)"; }}
             >
-              {isLast ? "Finish Assessment" : "Next Question"}
-              <ArrowRight className="w-4 h-4" />
+              {isLast ? "Finish" : "Next Question"} <ArrowRight className="w-4 h-4" />
             </button>
           </div>
         </div>
