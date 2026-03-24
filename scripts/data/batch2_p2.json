@@ -1,0 +1,632 @@
+[
+  {
+    "id": "c8q1",
+    "chapter": 8,
+    "chapterTitle": "Income from Business - Part Two",
+    "question": "Which of the following is explicitly EXCLUDED from the definition of a \"depreciable asset\" under Section 22 of the Income Tax Ordinance, 2001?",
+    "options": [
+      "A) Tangible movable property used for business",
+      "B) Structural improvement to immovable property",
+      "C) Unimproved land",
+      "D) An asset used only partly for the derivation of business income"
+    ],
+    "correctAnswer": "C) Unimproved land",
+    "explanation": "\"Depreciable asset\" includes tangible movable property, immovable property, or structural improvement to immovable property. It explicitly excludes unimproved land."
+  },
+  {
+    "id": "c8q2",
+    "chapter": 8,
+    "chapterTitle": "Income from Business - Part Two",
+    "question": "What is the prescribed normal depreciation rate for computer hardware, monitors, and allied items under the Third Schedule?",
+    "options": [
+      "A) 10%",
+      "B) 15%",
+      "C) 20%",
+      "D) 30%"
+    ],
+    "correctAnswer": "D) 30%",
+    "explanation": "According to the Third Schedule, the normal rate of depreciation for computer hardware including printers, monitors, allied items, and aircraft is 30%."
+  },
+  {
+    "id": "c8q3",
+    "chapter": 8,
+    "chapterTitle": "Income from Business - Part Two",
+    "question": "Which of the following assets is ELIGIBLE to claim the Initial Allowance of 25% under Section 23?",
+    "options": [
+      "A) Second-hand plant and machinery previously used in Pakistan by another business.",
+      "B) Office furniture and fittings.",
+      "C) Newly imported manufacturing machinery.",
+      "D) A road transport delivery truck used for distributing the company's goods (not plying for hire)."
+    ],
+    "correctAnswer": "C) Newly imported manufacturing machinery.",
+    "explanation": "Initial allowance is available on eligible depreciable assets. It specifically excludes road transport vehicles not plying for hire, furniture and fittings, plant or machinery previously used in Pakistan, and immovable property. Newly imported manufacturing machinery is fully eligible."
+  },
+  {
+    "id": "c8q4",
+    "chapter": 8,
+    "chapterTitle": "Income from Business - Part Two",
+    "question": "XYZ Ltd purchased a luxury vehicle (a passenger transport vehicle not plying for hire) for its CEO for Rs. 10,000,000. What cost will be considered for calculating the depreciation deduction?",
+    "options": [
+      "A) Rs. 10,000,000",
+      "B) Rs. 7,500,000",
+      "C) Rs. 2,500,000",
+      "D) Rs. 5,000,000"
+    ],
+    "correctAnswer": "B) Rs. 7,500,000",
+    "explanation": "The cost of a depreciable asset being a passenger transport vehicle not plying for hire is restricted and shall not exceed Rs. 7.5 million for the purposes of calculating depreciation."
+  },
+  {
+    "id": "c8q5",
+    "chapter": 8,
+    "chapterTitle": "Income from Business - Part Two",
+    "question": "A manufacturing company purchased and installed a new machine for Rs. 1,000,000 during the tax year. Assuming the normal depreciation rate is 15%, what is the total deduction (Initial Allowance + Normal Depreciation) allowed in the first year?",
+    "options": [
+      "A) Rs. 400,000",
+      "B) Rs. 250,000",
+      "C) Rs. 362,500",
+      "D) Rs. 150,000"
+    ],
+    "correctAnswer": "C) Rs. 362,500",
+    "explanation": "Initial allowance = 25% of 1,000,000 = Rs. 250,000. The WDV for normal depreciation is the cost minus initial allowance (1,000,000 - 250,000 = 750,000). Normal depreciation = 15% of 750,000 = Rs. 112,500. Total deduction = 250,000 + 112,500 = Rs. 362,500."
+  },
+  {
+    "id": "c8q6",
+    "chapter": 8,
+    "chapterTitle": "Income from Business - Part Two",
+    "question": "A motor vehicle costing Rs. 2,000,000 is used 60% for business and 40% for the personal use of a director. Normal depreciation is 15%. What will be the Written Down Value (WDV) carried forward to the second year?",
+    "options": [
+      "A) Rs. 1,820,000",
+      "B) Rs. 1,700,000",
+      "C) Rs. 1,880,000",
+      "D) Rs. 2,000,000"
+    ],
+    "correctAnswer": "B) Rs. 1,700,000",
+    "explanation": "The WDV is computed on the basis that the asset has been solely used to derive business income. Total depreciation is Rs. 300,000 (15% of 2,000,000). Even though only 60% (Rs. 180,000) is allowed as a deduction against business income, the full Rs. 300,000 is deducted from the cost to find the WDV. Carried forward WDV = 2,000,000 - 300,000 = Rs. 1,700,000."
+  },
+  {
+    "id": "c8q7",
+    "chapter": 8,
+    "chapterTitle": "Income from Business - Part Two",
+    "question": "A depreciable asset (machinery) previously used in Pakistan was exported to the USA. The original cost was Rs. 35 million and its WDV at the time of export was Rs. 28 million. What is the gain or loss on disposal for tax purposes?",
+    "options": [
+      "A) Rs. 7 million gain",
+      "B) Rs. 7 million loss",
+      "C) Rs. 0",
+      "D) Rs. 35 million gain"
+    ],
+    "correctAnswer": "A) Rs. 7 million gain",
+    "explanation": "Where a depreciable asset used in Pakistan is exported, the consideration received shall be treated as exactly equal to the cost of the asset (Rs. 35 million). Gain = Consideration (35m) - WDV (28m) = Rs. 7 million."
+  },
+  {
+    "id": "c8q8",
+    "chapter": 8,
+    "chapterTitle": "Income from Business - Part Two",
+    "question": "Alpha Ltd acquired a secret formula (an intangible) to be used in its business. The useful life of this intangible cannot be ascertained. Over how many years will this intangible be amortized for tax purposes?",
+    "options": [
+      "A) 5 years",
+      "B) 10 years",
+      "C) 15 years",
+      "D) 25 years"
+    ],
+    "correctAnswer": "C) 15 years",
+    "explanation": "Under Section 24, an intangible which does not have an ascertainable useful life shall be treated as if it had a normal useful life of exactly fifteen (15) years."
+  },
+  {
+    "id": "c8q9",
+    "chapter": 8,
+    "chapterTitle": "Income from Business - Part Two",
+    "question": "An entity incurred Rs. 800,000 on feasibility studies and trial production before the commencement of its commercial business operations. Under Section 25, how will this pre-commencement expenditure be treated for tax purposes?",
+    "options": [
+      "A) It will be fully deducted in the first year of business.",
+      "B) It will be amortized at 20% per annum on a straight-line basis.",
+      "C) It will be amortized at 15% on a declining balance basis.",
+      "D) It is a capital expenditure and is not allowed as a deduction."
+    ],
+    "correctAnswer": "B) It will be amortized at 20% per annum on a straight-line basis.",
+    "explanation": "A person shall be allowed a deduction for any pre-commencement expenditure at the rate of 20% per annum on a straight-line basis (over 5 years)."
+  },
+  {
+    "id": "c8q10",
+    "chapter": 8,
+    "chapterTitle": "Income from Business - Part Two",
+    "question": "Mr. Ahmed purchased a commercial shop for Rs. 6,000,000 to use as his business office. He paid the entire amount in physical cash. Under Section 75A, what are the tax implications of this cash transaction?",
+    "options": [
+      "A) The asset will not be eligible for depreciation.",
+      "B) The amount will not be treated as cost for computing capital gains on future disposal.",
+      "C) He will have to pay a penalty of 5% of the FBR value or DC rate (whichever is higher).",
+      "D) All of the above."
+    ],
+    "correctAnswer": "D) All of the above.",
+    "explanation": "Under Section 75A, purchasing immovable property > Rs. 5 million in cash means it is ineligible for depreciation, the amount is not treated as cost on disposal, and a 5% penalty applies."
+  },
+  {
+    "id": "c8q11",
+    "chapter": 8,
+    "chapterTitle": "Income from Business - Part Two",
+    "question": "A company purchased a solar plant for Rs. 10,000,000. The Provincial Government voluntarily provided a non-taxable subsidy of Rs. 2,000,000 specifically for the installation of this plant. What is the cost of the asset for computing tax depreciation?",
+    "options": [
+      "A) Rs. 10,000,000",
+      "B) Rs. 12,000,000",
+      "C) Rs. 8,000,000",
+      "D) Nil"
+    ],
+    "correctAnswer": "C) Rs. 8,000,000",
+    "explanation": "Under Section 76(10), the cost of an asset does not include the amount of any grant, subsidy, or assistance received, except to the extent to which the amount is chargeable to tax. Thus, 10,000,000 - 2,000,000 = Rs. 8,000,000."
+  },
+  {
+    "id": "c8q12",
+    "chapter": 8,
+    "chapterTitle": "Income from Business - Part Two",
+    "question": "A company acquired machinery using a foreign currency loan. Before the loan was fully repaid, the exchange rate increased, increasing the company's Rupee liability by Rs. 500,000. How is this exchange loss treated for tax purposes?",
+    "options": [
+      "A) Allowed as a normal business expense in the income statement.",
+      "B) Added to the cost of the depreciable asset in the year of occurrence.",
+      "C) Ignored for tax purposes.",
+      "D) Deducted from the equity of the company."
+    ],
+    "correctAnswer": "B) Added to the cost of the depreciable asset in the year of occurrence.",
+    "explanation": "If a liability under a foreign currency loan increases or decreases due to exchange rate fluctuations, the difference shall be added to or deducted from the cost of the asset in the year of occurrence for the purposes of depreciation."
+  },
+  {
+    "id": "c8q13",
+    "chapter": 8,
+    "chapterTitle": "Income from Business - Part Two",
+    "question": "A company acquired a software license (an intangible) on 1st April 2026 (falling in Tax Year 2026) for Rs. 365,000. The useful life of the software is 5 years. What is the amortization deduction allowed for Tax Year 2026? (Assume 365 days in the year and 91 days from 1 April to 30 June).",
+    "options": [
+      "A) Rs. 73,000",
+      "B) Rs. 18,200",
+      "C) Rs. 36,500",
+      "D) Nil"
+    ],
+    "correctAnswer": "B) Rs. 18,200",
+    "explanation": "The formula for part-year amortization is A x (B/C). A (Full year amortization) = 365,000 / 5 = 73,000. B (Days used) = 91 days. C = 365. Therefore, 73,000 x (91/365) = Rs. 18,200."
+  },
+  {
+    "id": "c8q14",
+    "chapter": 8,
+    "chapterTitle": "Income from Business - Part Two",
+    "question": "If a depreciable asset is disposed of during a tax year, what is the rule regarding the normal depreciation deduction for that specific year?",
+    "options": [
+      "A) Full-year depreciation is allowed.",
+      "B) Proportionate depreciation based on the exact days used is allowed.",
+      "C) 50% of normal depreciation is allowed.",
+      "D) No depreciation deduction is allowed in the year of disposal."
+    ],
+    "correctAnswer": "D) No depreciation deduction is allowed in the year of disposal.",
+    "explanation": "Section 22 strictly states that where a person disposes of a depreciable asset in any tax year, no depreciation deduction shall be allowed for that year."
+  },
+  {
+    "id": "c8q15",
+    "chapter": 8,
+    "chapterTitle": "Income from Business - Part Two",
+    "question": "To improve accessibility, a company built a ramp for persons with disabilities at its office entrance. The cost of the ramp was Rs. 200,000. What is the prescribed rate of depreciation for this ramp under the Third Schedule?",
+    "options": [
+      "A) 10%",
+      "B) 15%",
+      "C) 50%",
+      "D) 100%"
+    ],
+    "correctAnswer": "D) 100%",
+    "explanation": "The Third Schedule provides a 100% depreciation rate for a ramp built to provide access to persons with disabilities, provided the cost does not exceed Rs. 250,000 each."
+  },
+  {
+    "id": "c9q1",
+    "chapter": 9,
+    "chapterTitle": "Capital Gains",
+    "question": "Under Section 37(5), which of the following assets is specifically INCLUDED in the definition of a \"capital asset\"?",
+    "options": [
+      "A) Stock-in-trade held for the purpose of business.",
+      "B) A personal motor vehicle used by the taxpayer's family.",
+      "C) A painting or work of art kept for personal use.",
+      "D) A depreciable asset used in the taxpayer's business."
+    ],
+    "correctAnswer": "C) A painting or work of art kept for personal use.",
+    "explanation": "Capital asset excludes movable property held for personal use, EXCEPT for specific items like a painting, sculpture, drawing, jewelry, rare manuscript, postage stamp, coin, medallion, or antique. Thus, a painting remains a capital asset even if held for personal use."
+  },
+  {
+    "id": "c9q2",
+    "chapter": 9,
+    "chapterTitle": "Capital Gains",
+    "question": "Which of the following scenarios does NOT constitute a \"disposal\" of an asset under Section 75 of the Income Tax Ordinance, 2001?",
+    "options": [
+      "A) The transmission of an asset by succession or under a will.",
+      "B) The application of a business asset to personal use.",
+      "C) The cancellation, redemption, or destruction of an asset.",
+      "D) Pledging an asset as collateral to secure a bank loan."
+    ],
+    "correctAnswer": "D) Pledging an asset as collateral to secure a bank loan.",
+    "explanation": "Pledging an asset as collateral does not mean the owner has parted with the ownership. Disposal involves selling, exchanging, transferring, transmitting by succession, or applying a business asset to personal use."
+  },
+  {
+    "id": "c9q3",
+    "chapter": 9,
+    "chapterTitle": "Capital Gains",
+    "question": "Mr. Zaid sold an antique coin collection at a loss of Rs. 80,000 and his wife's jewelry at a gain of Rs. 150,000 during the tax year. What is the net capital gain chargeable to tax?",
+    "options": [
+      "A) Rs. 70,000",
+      "B) Rs. 150,000",
+      "C) Rs. 230,000",
+      "D) Nil"
+    ],
+    "correctAnswer": "B) Rs. 150,000",
+    "explanation": "According to Section 38(5), no loss is recognized on the disposal of specific capital assets such as a painting, jewelry, coin, medallion, or antique. Therefore, the loss of Rs. 80,000 on the coin collection cannot be deducted, and the full gain of Rs. 150,000 on the jewelry is taxable."
+  },
+  {
+    "id": "c9q4",
+    "chapter": 9,
+    "chapterTitle": "Capital Gains",
+    "question": "If a taxpayer sustains a general capital loss (under Section 59) during a tax year that cannot be fully set off, what is the maximum period it can be carried forward?",
+    "options": [
+      "A) It cannot be carried forward.",
+      "B) Up to 3 immediately succeeding tax years.",
+      "C) Up to 6 immediately succeeding tax years.",
+      "D) Indefinitely."
+    ],
+    "correctAnswer": "C) Up to 6 immediately succeeding tax years.",
+    "explanation": "The amount of capital loss which cannot be set-off shall be carried forward up to six (6) tax years immediately succeeding the tax year for which the loss was first computed. (Note: For losses on *securities* under Sec 37A, the carry-forward period is 3 years)."
+  },
+  {
+    "id": "c9q5",
+    "chapter": 9,
+    "chapterTitle": "Capital Gains",
+    "question": "For an active taxpayer, what is the capital gains tax rate on the disposal of an immovable property acquired on or after 1 July 2024?",
+    "options": [
+      "A) 0% if held for more than 6 years.",
+      "B) 10% regardless of the holding period.",
+      "C) 15% regardless of the holding period.",
+      "D) Taxed at normal progressive slab rates."
+    ],
+    "correctAnswer": "C) 15% regardless of the holding period.",
+    "explanation": "For properties acquired on or after 1 July 2024, a flat rate of 15% applies for persons appearing on the Active Taxpayers' List, completely regardless of the holding period."
+  },
+  {
+    "id": "c9q6",
+    "chapter": 9,
+    "chapterTitle": "Capital Gains",
+    "question": "A resident active taxpayer purchased 10,000 shares of a listed company. He later disposed of these shares through a private arrangement (off-market), and the transaction was NOT settled through the National Clearing Company of Pakistan Limited (NCCPL). How will the capital gain on these shares be taxed?",
+    "options": [
+      "A) It will be taxed as a separate block of income at 15%.",
+      "B) It will be taxed under the Normal Tax Regime (NTR) at applicable progressive slab rates.",
+      "C) It will be completely exempt from tax.",
+      "D) It will be taxed at a flat rate of 12.5%."
+    ],
+    "correctAnswer": "B) It will be taxed under the Normal Tax Regime (NTR) at applicable progressive slab rates.",
+    "explanation": "A proviso in Section 37A states that the disposal of listed company shares made *otherwise* than through a registered stock exchange and NOT settled through NCCPL falls outside the ambit of Section 37A (Separate Block) and is instead taxed under Section 37 under the Normal Tax Regime (NTR)."
+  },
+  {
+    "id": "c9q7",
+    "chapter": 9,
+    "chapterTitle": "Capital Gains",
+    "question": "When a capital gain arises on a \"Market-Based Transaction\" of a security (settled through NCCPL), how are incidental expenses like brokerage and commission treated for calculating the gain?",
+    "options": [
+      "A) Actual brokerage and commission expenses paid are deducted from the sale proceeds.",
+      "B) No deductions for expenses are allowed under any circumstances.",
+      "C) A notional expense equal to 0.5% of the sale proceeds and 0.5% of the security's cost is applied instead of actual charges.",
+      "D) A flat fixed deduction of Rs. 10,000 is allowed."
+    ],
+    "correctAnswer": "C) A notional expense equal to 0.5% of the sale proceeds and 0.5% of the security's cost is applied instead of actual charges.",
+    "explanation": "In the case of a Market-Based Transaction involving a security, a notional expense equal to 0.5% of the sale proceeds and 0.5% of the security's cost will be applied instead of actual charges like brokerage, commission, and other incidental expenses."
+  },
+  {
+    "id": "c9q8",
+    "chapter": 9,
+    "chapterTitle": "Capital Gains",
+    "question": "Mr. Tariq sold a specific listed security at a significant loss. Two weeks later, he repurchased the exact same security to maintain his portfolio risk profile while artificially realizing the capital loss to reduce his tax liability. What is this transaction called, and is the capital loss admissible?",
+    "options": [
+      "A) Tax swap sale; the loss is admissible.",
+      "B) Cross trade; the loss is inadmissible.",
+      "C) Wash sale; the loss is inadmissible.",
+      "D) Short selling; the loss is admissible."
+    ],
+    "correctAnswer": "C) Wash sale; the loss is inadmissible.",
+    "explanation": "This is defined as a \"Wash Sale\" (where a capital loss is realized and the same security is purchased within a one-month period by the same investor to maintain the portfolio). Under Rule 13F, capital loss adjustments for Wash Sales are not admissible."
+  },
+  {
+    "id": "c9q9",
+    "chapter": 9,
+    "chapterTitle": "Capital Gains",
+    "question": "Mr. A acquired shares in a private (unlisted) company. Under Section 37(6), what is his obligation regarding withholding tax at the time of paying the seller or registering the shares?",
+    "options": [
+      "A) He must deduct advance adjustable tax at the rate of 10% of the fair market value of the shares.",
+      "B) He must deduct tax at 15% of the actual capital gain earned by the seller.",
+      "C) No withholding tax applies to the sale of private company shares.",
+      "D) He must deduct tax at 5% of the face value of the shares."
+    ],
+    "correctAnswer": "A) He must deduct advance adjustable tax at the rate of 10% of the fair market value of the shares.",
+    "explanation": "The person acquiring a capital asset, being shares of a company (other than listed company shares settled through NCCPL), shall deduct advance adjustable tax at the rate of 10% of the fair market value of the shares at the time of payment or registration, whichever is earlier."
+  },
+  {
+    "id": "c9q10",
+    "chapter": 9,
+    "chapterTitle": "Capital Gains",
+    "question": "Under Section 7E, resident persons are subjected to a tax on the \"deemed income\" arising from their capital assets (immovable property) situated in Pakistan. How is this deemed income and the corresponding tax computed?",
+    "options": [
+      "A) Deemed income is 10% of FMV; taxed at 15%.",
+      "B) Deemed income is 5% of FMV; taxed at 20% (Effective tax of 1% of FMV).",
+      "C) Deemed income is 20% of FMV; taxed at 5%.",
+      "D) Deemed income is equal to the annual fair market rent; taxed at standard slab rates."
+    ],
+    "correctAnswer": "B) Deemed income is 5% of FMV; taxed at 20% (Effective tax of 1% of FMV).",
+    "explanation": "Deemed income shall be computed as 5% of the Fair Market Value (FBR/DC rate) of capital assets situated in Pakistan. The rate of tax on such deemed income is 20%, which translates into an effective tax of exactly 1% of the property's Fair Market Value."
+  },
+  {
+    "id": "c9q11",
+    "chapter": 9,
+    "chapterTitle": "Capital Gains",
+    "question": "Which of the following immovable properties is NOT excluded from the levy of tax on deemed income under Section 7E?",
+    "options": [
+      "A) One immovable property owned by the resident person.",
+      "B) Self-owned business premises from where the business is carried out by an active taxpayer.",
+      "C) A vacant residential plot worth Rs. 40 million, which is the person's second property and not rented out.",
+      "D) Self-owned agricultural land where agricultural activity is carried out."
+    ],
+    "correctAnswer": "C) A vacant residential plot worth Rs. 40 million, which is the person's second property and not rented out.",
+    "explanation": "The vacant residential plot (which is a second property, not rented out, and exceeds the Rs. 25 million aggregate threshold) does not meet any of the exclusion criteria under Section 7E and will be subject to the deemed income tax."
+  },
+  {
+    "id": "c9q12",
+    "chapter": 9,
+    "chapterTitle": "Capital Gains",
+    "question": "Mr. Junaid sold his personal use car for Rs. 2,000,000, which he had originally purchased for Rs. 1,500,000. He also sold an antique watch for Rs. 150,000, which his mother had gifted him (her original cost was Rs. 50,000). What is his total taxable capital gain?",
+    "options": [
+      "A) Rs. 500,000",
+      "B) Rs. 600,000",
+      "C) Rs. 100,000",
+      "D) Nil"
+    ],
+    "correctAnswer": "C) Rs. 100,000",
+    "explanation": "A personal vehicle is specifically excluded from the definition of a capital asset, so the Rs. 500,000 gain on the car is exempt. The antique watch is a capital asset. For assets acquired by gift from a relative, the original cost of the transferor (Rs. 50,000) is taken as the cost. Capital gain = 150,000 - 50,000 = Rs. 100,000."
+  },
+  {
+    "id": "c9q13",
+    "chapter": 9,
+    "chapterTitle": "Capital Gains",
+    "question": "Mr. X purchased an open commercial plot having a fair market value of Rs. 12,000,000. He paid Rs. 6,000,000 through a crossed banking instrument and the remaining Rs. 6,000,000 in physical cash. Under Section 75A, what are the tax implications for computing capital gains upon future disposal?",
+    "options": [
+      "A) The entire Rs. 12,000,000 will be allowed as the cost of acquisition.",
+      "B) The Rs. 6,000,000 paid in cash shall not be treated as cost, and he must pay a penalty of 5% of the FMV/DC rate.",
+      "C) The transaction is completely void, and no capital gain or loss will ever be recognized.",
+      "D) The cash portion will be taxed as 'Income from Other Sources'."
+    ],
+    "correctAnswer": "B) The Rs. 6,000,000 paid in cash shall not be treated as cost, and he must pay a penalty of 5% of the FMV/DC rate.",
+    "explanation": "Under Section 75A, purchasing immovable property having a value greater than Rs. 5 million in cash means the cash amount shall not be treated as cost for computing gain on sale, and the person shall pay a penalty of 5% of the FBR value or DC rate (whichever is higher)."
+  },
+  {
+    "id": "c9q14",
+    "chapter": 9,
+    "chapterTitle": "Capital Gains",
+    "question": "Mr. Ali inherited 5,000 shares of a listed company from his father on 1 July 2025. His father was the original allottee of these shares at Rs. 10 per share. The fair market value of these shares at the time of inheritance was Rs. 15 per share. Mr. Ali sold these shares on 30 January 2026 for Rs. 20 per share via NCCPL. What cost will be used to compute Mr. Ali's capital gain?",
+    "options": [
+      "A) Rs. 10 per share (the original cost to his father).",
+      "B) Rs. 15 per share (the FMV at the time of inheritance).",
+      "C) Rs. 20 per share.",
+      "D) Nil, because inherited assets have zero cost."
+    ],
+    "correctAnswer": "A) Rs. 10 per share (the original cost to his father).",
+    "explanation": "For assets acquired by inheritance or gift from relatives, there is no acquisition cost for the person acquiring the asset. Therefore, the original cost of the transferor (the father's cost of Rs. 10 per share) is treated as the cost of the asset for computing the capital gain."
+  },
+  {
+    "id": "c9q15",
+    "chapter": 9,
+    "chapterTitle": "Capital Gains",
+    "question": "A taxpayer sustains a loss on the disposal of listed securities (settled via NCCPL). Under the rules for Section 37A, what is the maximum carry-forward period for this specific loss?",
+    "options": [
+      "A) It cannot be carried forward at all.",
+      "B) Up to 3 immediately succeeding tax years.",
+      "C) Up to 6 immediately succeeding tax years.",
+      "D) Indefinitely."
+    ],
+    "correctAnswer": "B) Up to 3 immediately succeeding tax years.",
+    "explanation": "Loss sustained by a person on the disposal of securities (under Sec 37A) can only be carried forward up to three (3) tax years immediately succeeding the tax year for which the loss was first computed. (General capital losses under Section 59 have a 6-year limit)."
+  },
+  {
+    "id": "c10q1",
+    "chapter": 10,
+    "chapterTitle": "Income from Other Sources",
+    "question": "Under the Income Tax Ordinance, 2001, what is the basis of chargeability for income falling under the head \"Income from Other Sources\"?",
+    "options": [
+      "A) Accrual basis",
+      "B) Receipt basis",
+      "C) Whichever is earlier between accrual and receipt",
+      "D) The method of accounting regularly employed by the taxpayer"
+    ],
+    "correctAnswer": "B) Receipt basis",
+    "explanation": "Income from other sources is strictly chargeable to tax on a 'receipt basis'. Any income from other sources which is accrued for a tax year but is not received is not chargeable in that tax year."
+  },
+  {
+    "id": "c10q2",
+    "chapter": 10,
+    "chapterTitle": "Income from Other Sources",
+    "question": "Mr. Kashif leased out a commercial building along with the plant and machinery installed in it for a composite rent of Rs. 500,000 per month. Under which head of income will this composite rent be chargeable to tax?",
+    "options": [
+      "A) Income from Property",
+      "B) Income from Business",
+      "C) Capital Gains",
+      "D) Income from Other Sources"
+    ],
+    "correctAnswer": "D) Income from Other Sources",
+    "explanation": "Income from the lease of any building together with plant or machinery is specifically chargeable to tax under the head \"Income from Other Sources\"."
+  },
+  {
+    "id": "c10q3",
+    "chapter": 10,
+    "chapterTitle": "Income from Other Sources",
+    "question": "Mr. Zaid received a lump-sum amount of Rs. 3,000,000 as consideration for vacating the possession of a rented commercial building. He did not pay any amount to originally acquire possession of the building. How will this amount be taxed?",
+    "options": [
+      "A) The entire Rs. 3,000,000 will be taxed in the year of receipt under 'Income from Property'.",
+      "B) It will be completely exempt from tax as a capital receipt.",
+      "C) Rs. 300,000 will be chargeable to tax under 'Income from Other Sources' in the year of receipt and the following nine tax years.",
+      "D) Rs. 3,000,000 will be taxed under 'Capital Gains'."
+    ],
+    "correctAnswer": "C) Rs. 300,000 will be chargeable to tax under 'Income from Other Sources' in the year of receipt and the following nine tax years.",
+    "explanation": "Any amount received as consideration for vacating the possession of a building (reduced by any amount paid to acquire possession) shall be chargeable to tax under \"Income from Other Sources\" in the tax year in which it was received and the following nine tax years in equal proportion (i.e., 1/10th or Rs. 300,000 each year)."
+  },
+  {
+    "id": "c10q4",
+    "chapter": 10,
+    "chapterTitle": "Income from Other Sources",
+    "question": "Mr. Ali received a cash gift of Rs. 1,000,000 from his father, and a gift of an antique painting worth Rs. 500,000 from his mother. What is the tax treatment of these gifts?",
+    "options": [
+      "A) Both gifts are fully exempt from tax.",
+      "B) The cash gift is taxable under 'Income from Other Sources', while the painting is exempt.",
+      "C) Both gifts are taxable under 'Income from Other Sources'.",
+      "D) The painting is taxable, while the cash gift is exempt."
+    ],
+    "correctAnswer": "B) The cash gift is taxable under 'Income from Other Sources', while the painting is exempt.",
+    "explanation": "Gifts received in the form of assets from relatives (like an ancestor) are exempt from tax. However, any gift received in *cash* even from relatives is taxable under the head \"Income from Other Sources\"."
+  },
+  {
+    "id": "c10q5",
+    "chapter": 10,
+    "chapterTitle": "Income from Other Sources",
+    "question": "A taxpayer received a valuable gift from his current tenant. Under which head of income will this gift be classified and taxed?",
+    "options": [
+      "A) Income from Salary",
+      "B) Income from Other Sources",
+      "C) Income from Property",
+      "D) Income from Business"
+    ],
+    "correctAnswer": "C) Income from Property",
+    "explanation": "A gift received from a tenant is considered a form of rental income linked to the property, and is therefore taxable under the head \"Income from Property\"."
+  },
+  {
+    "id": "c10q6",
+    "chapter": 10,
+    "chapterTitle": "Income from Other Sources",
+    "question": "XYZ (Pvt.) Limited extended a loan of Rs. 3,000,000 to one of its shareholders on 1 July 2025. The company’s accumulated profits on that date were Rs. 2,200,000. How much of this loan will be treated as a \"dividend\" for the shareholder under Section 2(19)?",
+    "options": [
+      "A) Rs. 3,000,000",
+      "B) Rs. 800,000",
+      "C) Rs. 2,200,000",
+      "D) Nil"
+    ],
+    "correctAnswer": "C) Rs. 2,200,000",
+    "explanation": "Any payment by a private company by way of advance or loan to a shareholder is treated as a dividend *to the extent* to which the company possesses accumulated profits. Therefore, Rs. 2,200,000 is treated as a dividend."
+  },
+  {
+    "id": "c10q7",
+    "chapter": 10,
+    "chapterTitle": "Income from Other Sources",
+    "question": "Which of the following distributions or remittances is explicitly EXCLUDED from the definition of a \"dividend\"?",
+    "options": [
+      "A) Any distribution by a company of accumulated profits to its shareholders.",
+      "B) Remittance of after-tax profit by a branch of a foreign company operating in Pakistan.",
+      "C) Remittance of after-tax profit by a branch of a Petroleum Exploration and Production (E&P) foreign company operating in Pakistan.",
+      "D) Any distribution made to the shareholders of a company on its liquidation."
+    ],
+    "correctAnswer": "C) Remittance of after-tax profit by a branch of a Petroleum Exploration and Production (E&P) foreign company operating in Pakistan.",
+    "explanation": "Remittance of after-tax profit by a branch of a Petroleum Exploration and Production (E&P) foreign company operating in Pakistan is explicitly excluded from the definition of dividend."
+  },
+  {
+    "id": "c10q8",
+    "chapter": 10,
+    "chapterTitle": "Income from Other Sources",
+    "question": "Mr. A, an individual, received a dividend of Rs. 170,000 (net of 15% tax) from a listed company. No Zakat was deducted. What is his gross taxable dividend income, and what is the final tax liability on this amount?",
+    "options": [
+      "A) Gross dividend Rs. 170,000; Tax Rs. 25,500",
+      "B) Gross dividend Rs. 200,000; Tax Rs. 30,000",
+      "C) Gross dividend Rs. 200,000; Tax Rs. 0",
+      "D) Gross dividend Rs. 170,000; Tax Rs. 0"
+    ],
+    "correctAnswer": "B) Gross dividend Rs. 200,000; Tax Rs. 30,000",
+    "explanation": "The gross dividend is calculated by grossing up the net receipt: 170,000 / (1 - 0.15) = 170,000 / 0.85 = Rs. 200,000. The tax rate for individuals on normal dividends is 15%, so the tax liability is Rs. 30,000 (which has already been deducted at source)."
+  },
+  {
+    "id": "c10q9",
+    "chapter": 10,
+    "chapterTitle": "Income from Other Sources",
+    "question": "Mr. Bashir, a resident individual, earned a profit on debt of Rs. 4,500,000 from his savings account in a commercial bank. He has no other source of income. How will this profit on debt be taxed?",
+    "options": [
+      "A) Taxable under the Normal Tax Regime (NTR) at applicable slab rates.",
+      "B) Taxable as a separate block of income at a flat rate of 15%.",
+      "C) Fully exempt from tax.",
+      "D) Taxable under 'Income from Business'."
+    ],
+    "correctAnswer": "B) Taxable as a separate block of income at a flat rate of 15%.",
+    "explanation": "For individuals and AOPs, profit on debt up to Rs. 5 million received from prescribed persons (like banks) is taxable as a separate block at the rate of 15% under section 7B."
+  },
+  {
+    "id": "c10q10",
+    "chapter": 10,
+    "chapterTitle": "Income from Other Sources",
+    "question": "Mr. Junaid, a resident individual, earned a profit on debt of Rs. 7,000,000 during the tax year. How will this income be classified and taxed?",
+    "options": [
+      "A) The entire Rs. 7,000,000 is taxable as a separate block at 15%.",
+      "B) Rs. 5,000,000 is taxed as a separate block at 15%, and Rs. 2,000,000 is taxed under NTR.",
+      "C) The entire Rs. 7,000,000 is taxable under the Normal Tax Regime (NTR) under the head 'Income from Other Sources' at applicable slab rates.",
+      "D) Taxable under 'Income from Business' at 15%."
+    ],
+    "correctAnswer": "C) The entire Rs. 7,000,000 is taxable under the Normal Tax Regime (NTR) under the head 'Income from Other Sources' at applicable slab rates.",
+    "explanation": "Any profit on debt exceeding Rs. 5 million derived by an individual is entirely taxable under the Normal Tax Regime (NTR) under the head 'Income from Other Sources' at the applicable progressive slab rates."
+  },
+  {
+    "id": "c10q11",
+    "chapter": 10,
+    "chapterTitle": "Income from Other Sources",
+    "question": "If Zakat is deducted at the time of the receipt of profit on debt, how is this Zakat treated when computing the taxpayer's taxable income?",
+    "options": [
+      "A) It is claimed as a deductible allowance against the total taxable income of the person.",
+      "B) It is allowed as a direct deduction against the gross 'Income from Other Sources' before applying the tax rate.",
+      "C) It is treated as a tax credit to directly reduce the tax liability.",
+      "D) Zakat deducted on profit on debt is entirely ignored for tax purposes."
+    ],
+    "correctAnswer": "B) It is allowed as a direct deduction against the gross 'Income from Other Sources' before applying the tax rate.",
+    "explanation": "In the case of profit on debt, Zakat paid under the Zakat & Ushr Ordinance, 1980 is allowed as a deduction in computing the income under the head \"Income from Other Sources\" itself, rather than as a general deductible allowance against total income."
+  },
+  {
+    "id": "c10q12",
+    "chapter": 10,
+    "chapterTitle": "Income from Other Sources",
+    "question": "ABC Bank Limited’s core business is providing loans, and it earned Rs. 500 million as profit on debt during the year. Under which head of income will this amount be chargeable to tax?",
+    "options": [
+      "A) Income from Other Sources",
+      "B) Final Tax Regime (FTR)",
+      "C) Income from Business",
+      "D) Capital Gains"
+    ],
+    "correctAnswer": "C) Income from Business",
+    "explanation": "Any profit on debt derived by a person where the person’s *business* is to derive such income (e.g., banks and financial institutions) shall be chargeable to tax under the head \"Income from Business\" and not under the head \"Income from Other Sources\"."
+  },
+  {
+    "id": "c10q13",
+    "chapter": 10,
+    "chapterTitle": "Income from Other Sources",
+    "question": "Mr. X rented a commercial building from the original owner. He later sub-leased a portion of this building to Mr. Y. Under which head of income will the rent received by Mr. X from Mr. Y be taxed?",
+    "options": [
+      "A) Income from Property",
+      "B) Income from Business",
+      "C) Income from Other Sources",
+      "D) Exempt Income"
+    ],
+    "correctAnswer": "C) Income from Other Sources",
+    "explanation": "Rent from the sub-lease of land or a building is specifically classified and chargeable to tax under the head \"Income from Other Sources\"."
+  },
+  {
+    "id": "c10q14",
+    "chapter": 10,
+    "chapterTitle": "Income from Other Sources",
+    "question": "In computing income under the head \"Income from Other Sources\", which of the following rules applies to the deduction of expenditures?",
+    "options": [
+      "A) Capital expenditures are fully allowed as deductions in the year they are incurred.",
+      "B) Expenditures are allowed on an accrual (payable) basis regardless of actual payment.",
+      "C) Expenditures paid for earning Income from Other Sources are allowed as deductions on a 'paid basis'.",
+      "D) No deductions are allowed under this head under any circumstances."
+    ],
+    "correctAnswer": "C) Expenditures paid for earning Income from Other Sources are allowed as deductions on a 'paid basis'.",
+    "explanation": "In computing \"Income from Other Sources\", any expenditure paid for earning this income (other than capital expenditure) is allowed as a deduction. Because the basis of chargeability is 'receipt basis', the basis for the allowability of deductions is strictly 'paid basis'."
+  },
+  {
+    "id": "c10q15",
+    "chapter": 10,
+    "chapterTitle": "Income from Other Sources",
+    "question": "A taxpayer leased out a building together with plant and machinery installed in it. Which of the following deductions can the taxpayer claim against this lease income under the head \"Income from Other Sources\"?",
+    "options": [
+      "A) Depreciation on the plant and machinery only.",
+      "B) Initial allowance on the building.",
+      "C) Depreciation on the plant, machinery, and building, and initial allowance on the plant and machinery only.",
+      "D) Only actual repair and maintenance expenses."
+    ],
+    "correctAnswer": "C) Depreciation on the plant, machinery, and building, and initial allowance on the plant and machinery only.",
+    "explanation": "In the case of income from the lease of a building together with machinery or plant, the taxpayer is allowed a deduction for depreciation on the plant, machinery, and building under Section 22, and an initial allowance on the plant and machinery only under Section 23."
+  }
+]

@@ -1,0 +1,422 @@
+[
+  {
+    "id": "c6q1",
+    "chapter": 6,
+    "chapterTitle": "Income from Property",
+    "question": "Under Section 15 of the Income Tax Ordinance, 2001, which of the following amounts is explicitly included in the definition of \"rent\" for the purpose of taxation under the head 'Income from Property'?",
+    "options": [
+      "A) Consideration received for the sale of a building.",
+      "B) Any forfeited deposit paid under a contract for the sale of land or a building.",
+      "C) Amount received for the provision of utilities and amenities connected with the building.",
+      "D) Consideration received for leasing out plant and machinery."
+    ],
+    "correctAnswer": "B) Any forfeited deposit paid under a contract for the sale of land or a building.",
+    "explanation": "The definition of rent specifically includes any forfeited deposit paid under a contract for the sale of land or a building."
+  },
+  {
+    "id": "c6q2",
+    "chapter": 6,
+    "chapterTitle": "Income from Property",
+    "question": "Mr. Ali leases out his factory building along with the installed plant and machinery for a composite monthly rent of Rs. 300,000. Under which head of income will this composite rent be chargeable to tax?",
+    "options": [
+      "A) Income from Property",
+      "B) Income from Business",
+      "C) Capital Gains",
+      "D) Income from Other Sources"
+    ],
+    "correctAnswer": "D) Income from Other Sources",
+    "explanation": "Where any amount is included in rent received for the lease of a building together with plant and machinery, such amount shall be chargeable to tax under 'Income from Other Sources', not Income from Property."
+  },
+  {
+    "id": "c6q3",
+    "chapter": 6,
+    "chapterTitle": "Income from Property",
+    "question": "Mr. Kashif let out his commercial property at a monthly rent of Rs. 100,000. However, the fair market rent for a similar property in the same area is Rs. 130,000 per month. What amount will be considered as gross rent chargeable to tax for the full tax year?",
+    "options": [
+      "A) Rs. 1,200,000",
+      "B) Rs. 1,560,000",
+      "C) Rs. 360,000",
+      "D) Rs. 2,760,000"
+    ],
+    "correctAnswer": "B) Rs. 1,560,000",
+    "explanation": "Where the rent received or receivable is less than the fair market rent for the property, the person shall be treated as having received the fair market rent (Rs. 130,000 x 12 = Rs. 1,560,000)."
+  },
+  {
+    "id": "c6q4",
+    "chapter": 6,
+    "chapterTitle": "Income from Property",
+    "question": "Two brothers jointly own a commercial plaza. Their respective shares in the property are NOT definite and ascertainable. For income tax purposes, how will the rental income from this property be assessed?",
+    "options": [
+      "A) It will be divided equally between the two brothers and taxed individually.",
+      "B) The property will be considered as being jointly owned by an Association of Persons (AOP) and taxed as per the principles of an AOP.",
+      "C) The elder brother will pay the entire tax on the property.",
+      "D) The rental income will be exempt from tax due to a lack of definite ownership shares."
+    ],
+    "correctAnswer": "B) The property will be considered as being jointly owned by an Association of Persons (AOP) and taxed as per the principles of an AOP.",
+    "explanation": "Where a property is owned by two or more persons and their respective shares are not definite and ascertainable, the property will be considered as being jointly owned by an AOP, and the taxable income will be computed under AOP taxation principles."
+  },
+  {
+    "id": "c6q5",
+    "chapter": 6,
+    "chapterTitle": "Income from Property",
+    "question": "Mr. A received Rs. 2,400,000 on 1 July 2025 as two years' advance rent for his building. How much of this amount will be chargeable to tax under 'Income from Property' in the tax year 2026?",
+    "options": [
+      "A) Rs. 2,400,000",
+      "B) Rs. 240,000",
+      "C) Rs. 1,200,000",
+      "D) Nil, because advance rent is taxed in the year the tenancy ends."
+    ],
+    "correctAnswer": "C) Rs. 1,200,000",
+    "explanation": "Rent relating to a tax year, whether received or receivable, is chargeable to tax in that specific tax year. Therefore, advance rent must be apportioned, and only the rent relating to the current tax year (Rs. 1,200,000) will be taxed in tax year 2026."
+  },
+  {
+    "id": "c6q6",
+    "chapter": 6,
+    "chapterTitle": "Income from Property",
+    "question": "What is the statutory rate for the repair allowance allowed as a deduction against rent chargeable to tax under the head \"Income from Property\" for an individual?",
+    "options": [
+      "A) 10% of the rent chargeable to tax.",
+      "B) Actual repair expenses incurred during the year.",
+      "C) 1/5th (20%) of the rent chargeable to tax.",
+      "D) 1/10th of the rent chargeable to tax."
+    ],
+    "correctAnswer": "C) 1/5th (20%) of the rent chargeable to tax.",
+    "explanation": "A statutory allowance equal to one-fifth (20%) of the rent chargeable to tax is allowed for repairs to a building, irrespective of the actual repair expenses incurred."
+  },
+  {
+    "id": "c6q7",
+    "chapter": 6,
+    "chapterTitle": "Income from Property",
+    "question": "Mr. Saad pays Rs. 150,000 annually to an agency for rent collection and administration of his plaza. His gross rent chargeable to tax for the year is Rs. 3,000,000. What is the maximum deduction he is allowed to claim for administration and collection charges?",
+    "options": [
+      "A) Rs. 150,000",
+      "B) Rs. 120,000",
+      "C) Rs. 600,000",
+      "D) Nil"
+    ],
+    "correctAnswer": "B) Rs. 120,000",
+    "explanation": "The deduction for administration and collection charges cannot exceed 4% of the rent chargeable to tax. Since the actual expense is Rs. 150,000, but 4% of Rs. 3,000,000 is Rs. 120,000, the deduction is restricted to the lower amount of Rs. 120,000."
+  },
+  {
+    "id": "c6q8",
+    "chapter": 6,
+    "chapterTitle": "Income from Property",
+    "question": "Mr. Dawood incurred Rs. 180,000 as actual repair and maintenance expenses on his rented property during the year. The gross rent chargeable to tax for the property is Rs. 2,000,000. What amount of repair allowance will he be allowed to deduct while computing his taxable income?",
+    "options": [
+      "A) Rs. 180,000",
+      "B) Rs. 200,000",
+      "C) Rs. 400,000",
+      "D) Nil"
+    ],
+    "correctAnswer": "C) Rs. 400,000",
+    "explanation": "For individuals and AOPs, the law allows a flat statutory repair allowance equal to 1/5th (20%) of the gross rent chargeable to tax, irrespective of the actual expenses. Therefore, 1/5th of Rs. 2,000,000 = Rs. 400,000 is allowed."
+  },
+  {
+    "id": "c6q9",
+    "chapter": 6,
+    "chapterTitle": "Income from Property",
+    "question": "Mr. Z received a non-adjustable advance of Rs. 1,000,000 from a tenant in tax year 2023. The tenant vacated the premises in January 2026, and the advance was refunded. A new tenant moved in on 1 February 2026, paying a new non-adjustable advance of Rs. 1,500,000. What amount of the new advance will be added to the rent chargeable to tax in tax year 2026?",
+    "options": [
+      "A) Rs. 150,000",
+      "B) Rs. 120,000",
+      "C) Rs. 100,000",
+      "D) Rs. 1,200,000"
+    ],
+    "correctAnswer": "B) Rs. 120,000",
+    "explanation": "The previously taxed amount of the old advance (3 years x Rs. 100,000 = Rs. 300,000) must be subtracted from the new advance. The balance (Rs. 1,500,000 - Rs. 300,000 = Rs. 1,200,000) is then divided by 10. Therefore, Rs. 120,000 is chargeable to tax in tax year 2026."
+  },
+  {
+    "id": "c6q10",
+    "chapter": 6,
+    "chapterTitle": "Income from Property",
+    "question": "Which of the following local taxes paid in respect of a rented property is NOT allowed as a deduction against 'Income from Property'?",
+    "options": [
+      "A) Property tax paid to the local municipality.",
+      "B) Water tax and conservancy tax.",
+      "C) Income tax payable under the Income Tax Ordinance, 2001.",
+      "D) Ground rent paid in respect of the property."
+    ],
+    "correctAnswer": "C) Income tax payable under the Income Tax Ordinance, 2001.",
+    "explanation": "Any local rate, tax, charge, or cess paid in respect of the property is deductible, excluding any tax payable under the Income Tax Ordinance, 2001."
+  },
+  {
+    "id": "c6q11",
+    "chapter": 6,
+    "chapterTitle": "Income from Property",
+    "question": "If a taxpayer claims an admissible deduction for an expense (e.g., insurance premium) but fails to actually pay that liability within a specific period, the unpaid amount is added back to his 'Income from Property'. What is the statutory time limit before this add-back occurs?",
+    "options": [
+      "A) One year from the end of the tax year in which the deduction was allowed.",
+      "B) Three years from the end of the tax year in which the deduction was allowed.",
+      "C) Five years from the date the expense was incurred.",
+      "D) The amount is never added back."
+    ],
+    "correctAnswer": "B) Three years from the end of the tax year in which the deduction was allowed.",
+    "explanation": "If an allowed liability is not paid within three years of the end of the tax year in which the deduction was allowed, the unpaid amount becomes chargeable to tax under 'Income from Property' in the first tax year following the end of those three years."
+  },
+  {
+    "id": "c6q12",
+    "chapter": 6,
+    "chapterTitle": "Income from Property",
+    "question": "Which of the following is a mandatory condition that must be met to successfully claim a deduction for unpaid (bad) rent?",
+    "options": [
+      "A) The tenant is still occupying the property but has signed a promissory note.",
+      "B) The unpaid rent was never included in the person's taxable income in previous years.",
+      "C) The tenancy was bona fide, the tenant has vacated, and legal proceedings for recovery have been instituted or are deemed useless.",
+      "D) The landlord must write off the rent in his bank statements."
+    ],
+    "correctAnswer": "C) The tenancy was bona fide, the tenant has vacated, and legal proceedings for recovery have been instituted or are deemed useless.",
+    "explanation": "To claim an allowance for unpaid rent, the tenancy must be bona fide, the defaulting tenant must have vacated (or steps taken to compel vacation), reasonable steps for legal recovery must have been initiated, and the unpaid rent must have been previously included in taxable income."
+  },
+  {
+    "id": "c6q13",
+    "chapter": 6,
+    "chapterTitle": "Income from Property",
+    "question": "Miss Sara's commercial property generated a gross rent of Rs. 1,000,000 for the tax year. She incurred the following actual expenses: Property Tax Rs. 50,000, Insurance Premium Rs. 30,000, Actual Repairs Rs. 100,000, and Legal fees to defend the property's title Rs. 20,000. Calculate her net taxable Income from Property.",
+    "options": [
+      "A) Rs. 800,000",
+      "B) Rs. 700,000",
+      "C) Rs. 880,000",
+      "D) Rs. 600,000"
+    ],
+    "correctAnswer": "B) Rs. 700,000",
+    "explanation": "Gross Rent = Rs. 1,000,000. Less statutory deductions: Repair allowance (1/5th of 1,000,000 = Rs. 200,000 - actual repair of 100,000 is ignored), Property Tax (Rs. 50,000), Insurance (Rs. 30,000), Legal fees (Rs. 20,000). Total deductions = Rs. 300,000. Net Taxable Income = Rs. 700,000."
+  },
+  {
+    "id": "c6q14",
+    "chapter": 6,
+    "chapterTitle": "Income from Property",
+    "question": "Mr. Usman owns 50 acres of agricultural land in Mirpur. He does not cultivate it himself but leases it to a tenant farmer for an annual rent of Rs. 2,500,000. How is this rental income treated under the Income Tax Ordinance, 2001?",
+    "options": [
+      "A) It is fully taxable under the head 'Income from Property'.",
+      "B) It is taxable as 'Income from Other Sources'.",
+      "C) It is treated as agricultural income and is entirely exempt from income tax.",
+      "D) It is taxed at a flat rate of 15%."
+    ],
+    "correctAnswer": "C) It is treated as agricultural income and is entirely exempt from income tax.",
+    "explanation": "Any rent received by the owner of land used for agricultural purposes is treated as agricultural income and is exempt from tax. It is not necessary for the owner to cultivate the land himself to claim this exemption."
+  },
+  {
+    "id": "c6q15",
+    "chapter": 6,
+    "chapterTitle": "Income from Property",
+    "question": "XYZ Ltd. owns a residential house and provides it as a rent-free accommodation to its Marketing Director. The fair market rent of the house is Rs. 1,200,000. Under the self-hiring rules, what is the tax implication for XYZ Ltd. (the employer) regarding this property?",
+    "options": [
+      "A) XYZ Ltd. must declare Rs. 1,200,000 as Income from Property.",
+      "B) XYZ Ltd. will not be considered to have earned any rental income from this property, and there are no tax consequences for the employer.",
+      "C) XYZ Ltd. must pay a 10% penalty tax.",
+      "D) XYZ Ltd. can claim the fair market rent as an administrative expense deduction."
+    ],
+    "correctAnswer": "B) XYZ Ltd. will not be considered to have earned any rental income from this property, and there are no tax consequences for the employer.",
+    "explanation": "When an employer provides its own residential house to an employee rent-free, the fair market rent is added to the employee's taxable salary as a perquisite. However, the employer is not considered to have earned any rental income from the property, meaning there are no tax consequences for the employer."
+  },
+  {
+    "id": "c7q1",
+    "chapter": 7,
+    "chapterTitle": "Income from Business - Part One",
+    "question": "Which of the following incomes is NOT chargeable to tax under the head \"Income from Business\"?",
+    "options": [
+      "A) Income derived from the hire or lease of tangible movable property.",
+      "B) Management fee derived by a modaraba management company.",
+      "C) Rent received from the sub-lease of land or a building.",
+      "D) Fair market value of a benefit derived by virtue of a past business relationship."
+    ],
+    "correctAnswer": "C) Rent received from the sub-lease of land or a building.",
+    "explanation": "Rent from the sub-lease of land or a building is specifically chargeable to tax under the head \"Income from Other Sources\". The other options are expressly classified as Income from Business."
+  },
+  {
+    "id": "c7q2",
+    "chapter": 7,
+    "chapterTitle": "Income from Business - Part One",
+    "question": "Mr. A incurred a loss of Rs. 500,000 in a speculation business during the tax year. How can this loss be treated under the Income Tax Ordinance, 2001?",
+    "options": [
+      "A) It can be set off against his normal trading business income in the same year.",
+      "B) It can be set off against any head of income.",
+      "C) It can only be set off against income from another speculation business and can be carried forward up to six tax years.",
+      "D) It cannot be carried forward to the next tax year under any circumstances."
+    ],
+    "correctAnswer": "C) It can only be set off against income from another speculation business and can be carried forward up to six tax years.",
+    "explanation": "A speculation business is treated as distinct and separate. Any loss from it can only be set off against income from another speculation business and can be carried forward up to six immediately succeeding tax years."
+  },
+  {
+    "id": "c7q3",
+    "chapter": 7,
+    "chapterTitle": "Income from Business - Part One",
+    "question": "XYZ Limited entered into a forward contract for the purchase of raw materials used in its manufacturing business to guard against loss through future price fluctuations. On maturity, the contract was settled by a cash payment without taking actual delivery of the raw materials. How is this transaction classified for tax purposes?",
+    "options": [
+      "A) It is treated as a speculation business because no actual delivery took place.",
+      "B) It is treated as capital gains.",
+      "C) It is excluded from the definition of a speculation business because it is a hedging contract for manufacturing.",
+      "D) It is treated as income from other sources."
+    ],
+    "correctAnswer": "C) It is excluded from the definition of a speculation business because it is a hedging contract for manufacturing.",
+    "explanation": "A contract in respect of raw materials entered into by a person in the course of a manufacturing business to guard against loss through future price fluctuations (hedging) is specifically excluded from the definition of \"speculation business\"."
+  },
+  {
+    "id": "c7q4",
+    "chapter": 7,
+    "chapterTitle": "Income from Business - Part One",
+    "question": "An employer paid a monthly salary of Rs. 35,000 to an employee in cash. How will this be treated when calculating the employer's taxable business income?",
+    "options": [
+      "A) Fully allowed as an admissible business deduction.",
+      "B) Disallowed because any salary exceeding Rs. 32,000 per month must be paid via crossed cheque or direct bank transfer.",
+      "C) Disallowed because cash payments are only allowed up to Rs. 25,000.",
+      "D) Allowed up to Rs. 32,000, and the remaining Rs. 3,000 is disallowed."
+    ],
+    "correctAnswer": "B) Disallowed because any salary exceeding Rs. 32,000 per month must be paid via crossed cheque or direct bank transfer.",
+    "explanation": "Under Section 21, any salary paid or payable exceeding Rs. 32,000 per month is an inadmissible deduction if it is paid otherwise than by a crossed cheque or direct transfer of funds to the employee’s bank account."
+  },
+  {
+    "id": "c7q5",
+    "chapter": 7,
+    "chapterTitle": "Income from Business - Part One",
+    "question": "Under Section 21, any expenditure paid under a single account head exceeding Rs. 250,000 made in cash (otherwise than through a banking channel) is disallowed. Which of the following cash payments exceeding Rs. 250,000 is an EXCEPTION and still ALLOWED as a deduction?",
+    "options": [
+      "A) Payment for raw material purchases.",
+      "B) Payment for office rent.",
+      "C) Payment for utility bills and freight charges.",
+      "D) Payment for a marketing and advertising campaign."
+    ],
+    "correctAnswer": "C) Payment for utility bills and freight charges.",
+    "explanation": "The restriction of Rs. 250,000 for cash payments does not apply to expenditures on account of utility bills, freight charges, travel fare, postage, and the payment of taxes, duties, or fines."
+  },
+  {
+    "id": "c7q6",
+    "chapter": 7,
+    "chapterTitle": "Income from Business - Part One",
+    "question": "Which of the following payments made by an Association of Persons (AOP) to one of its members is an admissible deduction when computing the AOP's income from business?",
+    "options": [
+      "A) Salary paid to the member for managing the business.",
+      "B) Commission paid to the member for securing a contract.",
+      "C) Profit on debt paid to the member.",
+      "D) None of the above."
+    ],
+    "correctAnswer": "D) None of the above.",
+    "explanation": "Under Section 21, any profit on debt, brokerage, commission, salary, or other remuneration paid by an Association of Persons (AOP) to a member of the association is strictly an inadmissible deduction."
+  },
+  {
+    "id": "c7q7",
+    "chapter": 7,
+    "chapterTitle": "Income from Business - Part One",
+    "question": "ABC Ltd made a sale of Rs. 500,000 and the corresponding expense for this specific transaction was Rs. 300,000. The customer paid Rs. 250,000 in cash against this single invoice. What is the tax implication under the Income Tax Ordinance, 2001?",
+    "options": [
+      "A) The entire sale of Rs. 500,000 is exempt from tax.",
+      "B) 50% of the corresponding expenditure (Rs. 150,000) shall be disallowed.",
+      "C) The entire expense of Rs. 300,000 shall be disallowed.",
+      "D) No disallowance occurs because the cash receipt is less than the total invoice value."
+    ],
+    "correctAnswer": "B) 50% of the corresponding expenditure (Rs. 150,000) shall be disallowed.",
+    "explanation": "Where a taxpayer receives a payment exceeding Rs. 200,000 otherwise than through a banking channel against a single invoice, 50% of the corresponding expenditure shall be disallowed. Since the cash receipt was Rs. 250,000, 50% of the Rs. 300,000 expense (Rs. 150,000) is disallowed."
+  },
+  {
+    "id": "c7q8",
+    "chapter": 7,
+    "chapterTitle": "Income from Business - Part One",
+    "question": "To successfully claim a deduction for a bad debt under Section 29, which of the following conditions MUST be satisfied?",
+    "options": [
+      "A) The debt must have been previously included in the person's income from business chargeable to tax.",
+      "B) The debt must be written off in the accounts for the tax year.",
+      "C) There must be reasonable grounds to believe the debt is irrecoverable.",
+      "D) All of the above."
+    ],
+    "correctAnswer": "D) All of the above.",
+    "explanation": "For a bad debt to be allowable, it must have been previously included in taxable income (or lent by a financial institution), written off in the accounts, and there must be reasonable grounds to believe it is irrecoverable."
+  },
+  {
+    "id": "c7q9",
+    "chapter": 7,
+    "chapterTitle": "Income from Business - Part One",
+    "question": "In tax year 2025, an entity claimed a bad debt of Rs. 100,000, but the Commissioner allowed only Rs. 75,000 as a deduction. In tax year 2026, the entity recovered Rs. 90,000 from that specific debtor. What amount will be treated as business income for tax year 2026?",
+    "options": [
+      "A) Rs. 90,000",
+      "B) Rs. 65,000",
+      "C) Rs. 10,000",
+      "D) Rs. 75,000"
+    ],
+    "correctAnswer": "B) Rs. 65,000",
+    "explanation": "The formula is (a - b), where 'a' is the amount received (Rs. 90,000) and 'b' is the difference between the whole bad debt and the amount allowed (100,000 - 75,000 = 25,000). Since 90,000 is greater than 25,000, the difference (90,000 - 25,000 = Rs. 65,000) is treated as income."
+  },
+  {
+    "id": "c7q10",
+    "chapter": 7,
+    "chapterTitle": "Income from Business - Part One",
+    "question": "Which method of accounting MUST a company follow for computing income chargeable under the head \"Income from Business\"?",
+    "options": [
+      "A) Cash basis only",
+      "B) Accrual basis only",
+      "C) Either cash or accrual basis, at the company's discretion",
+      "D) The hybrid method"
+    ],
+    "correctAnswer": "B) Accrual basis only",
+    "explanation": "According to Section 32, a company shall account for income chargeable to tax under the head \"Income from Business\" strictly on an accrual basis, while other persons (like individuals or AOPs) may use cash or accrual."
+  },
+  {
+    "id": "c7q11",
+    "chapter": 7,
+    "chapterTitle": "Income from Business - Part One",
+    "question": "A person accounting for business income on a cash basis may compute the cost of stock-in-trade using either the prime-cost or absorption-cost method. What method MUST a person accounting on an accrual basis use?",
+    "options": [
+      "A) Prime-cost method",
+      "B) Absorption-cost method",
+      "C) Marginal-cost method",
+      "D) Standard-cost method"
+    ],
+    "correctAnswer": "B) Absorption-cost method",
+    "explanation": "Section 35 dictates that a person accounting for income on an accrual basis MUST compute the cost of stock-in-trade using the absorption-cost method (which includes direct materials, direct labor, and all factory overheads)."
+  },
+  {
+    "id": "c7q12",
+    "chapter": 7,
+    "chapterTitle": "Income from Business - Part One",
+    "question": "Where particular items of stock-in-trade are not readily identifiable, the Income Tax Ordinance allows the use of specific inventory valuation methods. Which of the following methods is NOT permitted for tax purposes?",
+    "options": [
+      "A) First-In-First-Out (FIFO) method",
+      "B) Average-cost method",
+      "C) Last-In-First-Out (LIFO) method",
+      "D) Both A and B"
+    ],
+    "correctAnswer": "C) Last-In-First-Out (LIFO) method",
+    "explanation": "A person may account for stock on the First-in-First-out (FIFO) method or the Average-cost method. The Last-In-First-Out (LIFO) method is not permitted under the Income Tax Ordinance, 2001."
+  },
+  {
+    "id": "c7q13",
+    "chapter": 7,
+    "chapterTitle": "Income from Business - Part One",
+    "question": "The closing value of a person's stock-in-trade for a tax year shall be determined as:",
+    "options": [
+      "A) The higher of cost or fair market value.",
+      "B) The lower of cost or net realizable value (NRV).",
+      "C) The standard cost determined by the Federal Board of Revenue.",
+      "D) The historical cost without any adjustments."
+    ],
+    "correctAnswer": "B) The lower of cost or net realizable value (NRV).",
+    "explanation": "Section 35 clearly states that the closing value of a person's stock-in-trade for a tax year shall be the lower of cost or net realizable value (NRV) of the stock on hand at the end of the year."
+  },
+  {
+    "id": "c7q14",
+    "chapter": 7,
+    "chapterTitle": "Income from Business - Part One",
+    "question": "Under the taxation of digital transactions within Pakistan, what is the rate of the final sales tax withholding required to be collected by a courier service on digitally ordered goods paid via Cash on Delivery (CoD)?",
+    "options": [
+      "A) 1%",
+      "B) 2%",
+      "C) 5%",
+      "D) 18%"
+    ],
+    "correctAnswer": "B) 2%",
+    "explanation": "A tax has been introduced at the rate of 1% (for digital/banking channels) and 2% (for Cash on Delivery by courier services) of the gross amount on persons receiving payment for digitally ordered goods delivered from within Pakistan."
+  },
+  {
+    "id": "c7q15",
+    "chapter": 7,
+    "chapterTitle": "Income from Business - Part One",
+    "question": "ABC Ltd paid Rs. 45,000 as a penalty to the Commissioner for the late filing of its annual return of income. How will this be treated when calculating Income from Business?",
+    "options": [
+      "A) It is fully allowed as a normal business expense.",
+      "B) It is allowed up to 50% of the penalty amount.",
+      "C) It is an inadmissible deduction.",
+      "D) It is allowed only if the company is listed on a stock exchange."
+    ],
+    "correctAnswer": "C) It is an inadmissible deduction.",
+    "explanation": "Under Section 21, any fine or penalty paid or payable by the person for the violation of any law, rule, or regulation is strictly an inadmissible deduction."
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "id": "c19q1",
+    "chapter": 19,
+    "chapterTitle": "Returns and Records",
+    "question": "Under the Sales Tax Act, 1990, what are the specific deadlines for a registered person filing a monthly sales tax return electronically?",
+    "options": [
+      "A) Return and tax both due by the 15th of the following month.",
+      "B) Return by the 15th, tax by the 18th of the following month.",
+      "C) Tax by the 15th, return by the 18th of the following month.",
+      "D) Both return and tax by the 18th of the following month."
+    ],
+    "correctAnswer": "C) Tax by the 15th, return by the 18th of the following month.",
+    "explanation": "For electronic filings, the registered person must deposit the amount of sales tax due by the 15th of the month, and the return itself must be submitted electronically by the 18th of the same month."
+  },
+  {
+    "id": "c19q2",
+    "chapter": 19,
+    "chapterTitle": "Returns and Records",
+    "question": "What is the statutory deadline for a private or public limited company to file its annual sales tax return?",
+    "options": [
+      "A) 30th June of the current financial year.",
+      "B) 30th September of the following financial year.",
+      "C) 31st December of the following financial year.",
+      "D) 15th of the month following the end of the financial year."
+    ],
+    "correctAnswer": "B) 30th September of the following financial year.",
+    "explanation": "Every private or public limited company is required to file an annual sales tax return for a financial year by the 30th of September of the following financial year."
+  },
+  {
+    "id": "c19q3",
+    "chapter": 19,
+    "chapterTitle": "Returns and Records",
+    "question": "A registered person was granted a 15-day extension to file their monthly sales tax return due to sickness. What is the impact of this extension on the payment of the sales tax due?",
+    "options": [
+      "A) The due date for payment is also extended, and no default surcharge applies.",
+      "B) The due date for payment does not change, and default surcharge shall be chargeable for delayed payment.",
+      "C) The payment is deferred until the annual return is filed.",
+      "D) The extension automatically waives both the default surcharge and the penalty."
+    ],
+    "correctAnswer": "B) The due date for payment does not change, and default surcharge shall be chargeable for delayed payment.",
+    "explanation": "An extension of time granted for furnishing the return does not change the due date for the actual payment of sales tax. A default surcharge shall still be chargeable for the delayed payment of the tax due."
+  },
+  {
+    "id": "c19q4",
+    "chapter": 19,
+    "chapterTitle": "Returns and Records",
+    "question": "Generally, filing a revised sales tax return requires the approval of the Commissioner within 120 days. Under which condition is this prior approval NOT required?",
+    "options": [
+      "A) If the revised return is filed within 30 days and the refund claimed is higher.",
+      "B) If the revised return is filed within 60 days, and the tax payable is more or the refund claimed is less.",
+      "C) If the registered person is a Tier-1 retailer.",
+      "D) If the revision decreases the output tax liability by less than 10%."
+    ],
+    "correctAnswer": "B) If the revised return is filed within 60 days, and the tax payable is more or the refund claimed is less.",
+    "explanation": "Approval is not required if the revised return is filed within 60 days of filing the original return, provided that either the tax payable therein is more than the amount paid, or the refund claimed is less than the amount originally claimed."
+  },
+  {
+    "id": "c19q5",
+    "chapter": 19,
+    "chapterTitle": "Returns and Records",
+    "question": "During a sales tax audit, a registered person realizes a short payment of tax and wishes to voluntarily deposit the evaded amount during the audit but before the issuance of a show-cause notice. How much penalty must be paid in this specific scenario?",
+    "options": [
+      "A) No penalty at all.",
+      "B) 25% of the penalty payable under section 33.",
+      "C) 50% of the penalty payable under section 33.",
+      "D) 100% of the penalty payable under section 33."
+    ],
+    "correctAnswer": "B) 25% of the penalty payable under section 33.",
+    "explanation": "If a registered person wishes to deposit the short-paid tax during the audit or at any time before the issuance of a show-cause notice, they must deposit the evaded tax, default surcharge, and 25% of the penalty payable under section 33."
+  },
+  {
+    "id": "c19q6",
+    "chapter": 19,
+    "chapterTitle": "Returns and Records",
+    "question": "When a person applies for de-registration from sales tax under Section 21, what specific type of return must they file?",
+    "options": [
+      "A) A provisional return.",
+      "B) An annual return.",
+      "C) A special return under section 27.",
+      "D) A final return under section 28."
+    ],
+    "correctAnswer": "D) A final return under section 28.",
+    "explanation": "Before de-registration under section 21, a person must furnish a final return to the Commissioner in the specified form, manner, and at the time directed by the Commissioner."
+  },
+  {
+    "id": "c19q7",
+    "chapter": 19,
+    "chapterTitle": "Returns and Records",
+    "question": "A registered manufacturer makes a taxable supply to an unregistered person. Under Section 23, the manufacturer must mention the buyer's NIC or NTN on the tax invoice. What is the exception to this rule?",
+    "options": [
+      "A) If the buyer is an unregistered wholesaler.",
+      "B) If the supply is made by a retailer to an ordinary consumer and the transaction value inclusive of sales tax does not exceed Rs. 100,000.",
+      "C) If the supply is made to a cottage industry.",
+      "D) If the goods supplied are specified in the Third Schedule."
+    ],
+    "correctAnswer": "B) If the supply is made by a retailer to an ordinary consumer and the transaction value inclusive of sales tax does not exceed Rs. 100,000.",
+    "explanation": "The requirement to mention the NIC or NTN of an unregistered person does not apply to supplies made by a retailer to an ordinary consumer where the transaction value (inclusive of sales tax) does not exceed Rs. 100,000."
+  },
+  {
+    "id": "c19q8",
+    "chapter": 19,
+    "chapterTitle": "Returns and Records",
+    "question": "From which date are corporate registered persons mandatorily required to integrate their hardware and software systems with the FBR’s computerized system to generate and transmit electronic invoices?",
+    "options": [
+      "A) July 1, 2024",
+      "B) August 1, 2025",
+      "C) July 1, 2025",
+      "D) September 30, 2025"
+    ],
+    "correctAnswer": "C) July 1, 2025",
+    "explanation": "With effect from July 1, 2025, all corporate registered persons (and from August 1, 2025, all non-corporate registered persons) are required to integrate their systems with the Board’s computerized system through a licensed integrator and generate electronic invoices."
+  },
+  {
+    "id": "c19q9",
+    "chapter": 19,
+    "chapterTitle": "Returns and Records",
+    "question": "What is the statutory retention period for maintaining sales tax records (such as tax invoices, bank statements, and inventory records)?",
+    "options": [
+      "A) 3 years after the end of the relevant tax period.",
+      "B) 5 years after the end of the relevant financial year.",
+      "C) 6 years after the end of the tax period to which such records relate, or until the final decision of any pending legal proceedings.",
+      "D) 10 years after the end of the tax period."
+    ],
+    "correctAnswer": "C) 6 years after the end of the tax period to which such records relate, or until the final decision of any pending legal proceedings.",
+    "explanation": "A person must retain records and documents for a period of six years after the end of the tax period to which they relate, or until the final decision in any pending proceedings (such as assessments, appeals, or revisions)."
+  },
+  {
+    "id": "c19q10",
+    "chapter": 19,
+    "chapterTitle": "Returns and Records",
+    "question": "Under the rules for digital transactions, what specific reporting requirement is imposed on every online marketplace?",
+    "options": [
+      "A) They must file an annual audit report with the SECP.",
+      "B) They must furnish a monthly statement indicating the supplier-wise amount paid and tax due for digitally ordered goods.",
+      "C) They must file a daily return of all transactions exceeding Rs. 50,000.",
+      "D) They are exempt from filing any statements if they withhold 2% tax."
+    ],
+    "correctAnswer": "B) They must furnish a monthly statement indicating the supplier-wise amount paid and tax due for digitally ordered goods.",
+    "explanation": "Every online marketplace must furnish a true, complete, and correct monthly statement not later than the due date, indicating the supplier-wise amount paid, tax due, and other information regarding taxable supplies of digitally ordered goods."
+  },
+  {
+    "id": "c19q11",
+    "chapter": 19,
+    "chapterTitle": "Returns and Records",
+    "question": "According to the rules on maintaining sales tax records, in which language(s) must a registered person keep their records at their business premises?",
+    "options": [
+      "A) English only.",
+      "B) Urdu only.",
+      "C) Either English or Urdu language.",
+      "D) Any regional language."
+    ],
+    "correctAnswer": "C) Either English or Urdu language.",
+    "explanation": "A registered person is required to keep their records (like invoices, ledgers, and cash books) at their business premises or registered office in either the English or Urdu language."
+  },
+  {
+    "id": "c19q12",
+    "chapter": 19,
+    "chapterTitle": "Returns and Records",
+    "question": "For the purpose of conducting a sales tax audit under Section 25, what is the maximum time limit within which the officer of Inland Revenue can call for the records or documents of a registered person?",
+    "options": [
+      "A) Within 3 years from the end of the tax period.",
+      "B) After the expiry of 5 years from the end of the financial year.",
+      "C) Before the expiry of six years from the end of the financial year to which the records relate.",
+      "D) There is no time limit for calling records for a forensic audit."
+    ],
+    "correctAnswer": "C) Before the expiry of six years from the end of the financial year to which the records relate.",
+    "explanation": "The officer of Inland Revenue shall not call for the record or documents of a registered person after the expiry of six years from the end of the financial year to which they relate."
+  },
+  {
+    "id": "c19q13",
+    "chapter": 19,
+    "chapterTitle": "Returns and Records",
+    "question": "During a sales tax audit, if a registered person fails to produce the required accounts, documents, or electronically kept records, what action can the officer of Inland Revenue take?",
+    "options": [
+      "A) Immediately cancel the person's sales tax registration.",
+      "B) Proceed to make a best judgment assessment under Section 11D.",
+      "C) Impose a fixed penalty of Rs. 5 million without assessment.",
+      "D) Suspend the business operations indefinitely."
+    ],
+    "correctAnswer": "B) Proceed to make a best judgment assessment under Section 11D.",
+    "explanation": "If a registered person fails to produce the required accounts, documents, or electronically kept records during an audit, the officer of Inland Revenue may proceed to make a best judgment assessment under Section 11D of the Act to determine the tax due."
+  },
+  {
+    "id": "c19q14",
+    "chapter": 19,
+    "chapterTitle": "Returns and Records",
+    "question": "How are transactions between associated persons treated under Section 25AA during a sales tax audit?",
+    "options": [
+      "A) The transaction value is accepted as declared regardless of the market price.",
+      "B) The Commissioner or officer determines the transfer price to reflect the fair market value of supplies in an arm’s length transaction.",
+      "C) Sales tax is waived on transactions between associated companies.",
+      "D) The transaction is taxed at a flat extra rate of 5%."
+    ],
+    "correctAnswer": "B) The Commissioner or officer determines the transfer price to reflect the fair market value of supplies in an arm’s length transaction.",
+    "explanation": "Under Section 25AA, the Commissioner or an officer of Inland Revenue may determine the transfer price of taxable supplies between associated persons as is necessary to reflect the fair market value in an arm’s length transaction."
+  },
+  {
+    "id": "c19q15",
+    "chapter": 19,
+    "chapterTitle": "Returns and Records",
+    "question": "If an authorized officer of Inland Revenue decides to draw samples of goods or raw materials during an audit to determine tax liability, what is the required procedure?",
+    "options": [
+      "A) The officer can take the entire stock without notice.",
+      "B) The sample must be paid for at the open market price by the FBR.",
+      "C) A minimum quantity sufficient for examination must be taken against a proper receipt, giving the person in possession an opportunity to sign the sample.",
+      "D) Samples can only be drawn with a court order."
+    ],
+    "correctAnswer": "C) A minimum quantity sufficient for examination must be taken against a proper receipt, giving the person in possession an opportunity to sign the sample.",
+    "explanation": "An authorized officer may take a minimum quantity of samples sufficient to enable a proper examination. The person in possession must be informed, given the opportunity to sign the representative samples, and the sample must be taken against a proper receipt."
+  }
+]

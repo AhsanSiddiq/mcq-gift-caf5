@@ -13,9 +13,11 @@ export default function TopicalPage() {
   const { progress, isLoaded } = useProgress();
   const [mounted, setMounted] = useState(false);
   const [chapters, setChapters] = useState<[number, string, number][]>([]);
+  const [isFetching, setIsFetching] = useState(true);
 
   useEffect(() => { 
-    setMounted(true); 
+    setMounted(true);
+    setIsFetching(true);
     fetch(`/api/questions?subject=${subjectId}`)
       .then((r) => r.json())
       .then((data) => {
@@ -33,7 +35,8 @@ export default function TopicalPage() {
           .map(([ch, info]) => [ch, info.title, info.count] as [number, string, number]);
         setChapters(arr);
       })
-      .catch(console.error);
+      .catch(console.error)
+      .finally(() => setIsFetching(false));
   }, [subjectId]);
 
   return (
@@ -67,59 +70,83 @@ export default function TopicalPage() {
 
         {/* Chapter grid */}
         <div className="flex flex-col gap-3">
-          {chapters.map(([chapterNum, title, numQuestions]) => {
-            const chapterProgress = progress.chapters[chapterNum];
-            const hasScore = mounted && isLoaded && chapterProgress !== undefined;
-            const score = hasScore ? chapterProgress.highestScore : 0;
-            const isMastered = hasScore && chapterProgress.isCompleted;
-
-            return (
-              <Link
-                key={chapterNum}
-                href={`/${level}/${subjectId}/quiz?mode=topical&chapter=${chapterNum}`}
-                className="group rounded-2xl p-5 flex items-center justify-between gap-4 transition-all duration-200"
-                style={{
-                  background: isMastered ? "rgba(61,179,113,0.06)" : "var(--bg-2)",
-                  border: `1px solid ${isMastered ? "rgba(61,179,113,0.35)" : "var(--border)"}`,
-                  textDecoration: "none",
-                }}
-                onMouseEnter={e => {
-                  (e.currentTarget as HTMLElement).style.borderColor = isMastered ? "var(--green)" : "#60a5fa";
-                  (e.currentTarget as HTMLElement).style.transform = "translateX(4px)";
-                }}
-                onMouseLeave={e => {
-                  (e.currentTarget as HTMLElement).style.borderColor = isMastered ? "rgba(61,179,113,0.35)" : "var(--border)";
-                  (e.currentTarget as HTMLElement).style.transform = "none";
-                }}
+          {isFetching ? (
+            /* Skeleton loaders */
+            Array.from({ length: 5 }).map((_, i) => (
+              <div
+                key={i}
+                className="rounded-2xl p-5 flex items-center justify-between gap-4 animate-pulse"
+                style={{ background: "var(--bg-2)", border: "1px solid var(--border)" }}
               >
-                <div className="flex-1 min-w-0">
-                  <div className="flex items-center gap-2 mb-1">
-                    <span className="text-xs font-bold uppercase tracking-widest"
-                      style={{ color: isMastered ? "var(--green)" : "#60a5fa", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
-                      Chapter {chapterNum}
-                    </span>
-                    {isMastered && <CheckCircle2 className="w-3.5 h-3.5" style={{ color: "var(--green)" }} />}
-                  </div>
-                  <h3 className="font-bold text-base leading-snug mb-2"
-                    style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
-                    {title}
-                  </h3>
-                  <div className="flex items-center gap-4 flex-wrap">
-                    <span className="flex items-center gap-1.5 text-xs" style={{ color: "var(--text-3)" }}>
-                      <BookOpen className="w-3.5 h-3.5" /> {numQuestions} questions
-                    </span>
-                    {hasScore && score > 0 && (
-                      <span className="text-xs font-semibold" style={{ color: isMastered ? "var(--green)" : "#60a5fa" }}>
-                        Best: {score}/{numQuestions}
-                      </span>
-                    )}
-                  </div>
+                <div className="flex-1 min-w-0 flex flex-col gap-2.5">
+                  <span className="rounded" style={{ display: "block", height: 11, width: 80, background: "var(--border)" }} />
+                  <span className="rounded" style={{ display: "block", height: 16, width: `${55 + i * 8}%`, background: "var(--border)" }} />
+                  <span className="rounded" style={{ display: "block", height: 11, width: 70, background: "var(--border)" }} />
                 </div>
-                <ChevronRight className="w-5 h-5 shrink-0 transition-transform group-hover:translate-x-1"
-                  style={{ color: isMastered ? "var(--green)" : "var(--text-3)" }} />
-              </Link>
-            );
-          })}
+                <span className="rounded shrink-0" style={{ width: 20, height: 20, background: "var(--border)", display: "block" }} />
+              </div>
+            ))
+          ) : chapters.length === 0 ? (
+            <div className="text-center py-16">
+              <p className="text-3xl mb-3">📭</p>
+              <p className="font-bold text-lg mb-1" style={{ color: "var(--text-1)" }}>No chapters found</p>
+              <p className="text-sm" style={{ color: "var(--text-2)" }}>This subject has no questions available yet.</p>
+            </div>
+          ) : (
+            chapters.map(([chapterNum, title, numQuestions]) => {
+              const chapterProgress = progress.chapters[chapterNum];
+              const hasScore = mounted && isLoaded && chapterProgress !== undefined;
+              const score = hasScore ? chapterProgress.highestScore : 0;
+              const isMastered = hasScore && chapterProgress.isCompleted;
+
+              return (
+                <Link
+                  key={chapterNum}
+                  href={`/${level}/${subjectId}/quiz?mode=topical&chapter=${chapterNum}`}
+                  className="group rounded-2xl p-5 flex items-center justify-between gap-4 transition-all duration-200"
+                  style={{
+                    background: isMastered ? "rgba(61,179,113,0.06)" : "var(--bg-2)",
+                    border: `1px solid ${isMastered ? "rgba(61,179,113,0.35)" : "var(--border)"}`,
+                    textDecoration: "none",
+                  }}
+                  onMouseEnter={e => {
+                    (e.currentTarget as HTMLElement).style.borderColor = isMastered ? "var(--green)" : "#60a5fa";
+                    (e.currentTarget as HTMLElement).style.transform = "translateX(4px)";
+                  }}
+                  onMouseLeave={e => {
+                    (e.currentTarget as HTMLElement).style.borderColor = isMastered ? "rgba(61,179,113,0.35)" : "var(--border)";
+                    (e.currentTarget as HTMLElement).style.transform = "none";
+                  }}
+                >
+                  <div className="flex-1 min-w-0">
+                    <div className="flex items-center gap-2 mb-1">
+                      <span className="text-xs font-bold uppercase tracking-widest"
+                        style={{ color: isMastered ? "var(--green)" : "#60a5fa", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
+                        Chapter {chapterNum}
+                      </span>
+                      {isMastered && <CheckCircle2 className="w-3.5 h-3.5" style={{ color: "var(--green)" }} />}
+                    </div>
+                    <h3 className="font-bold text-base leading-snug mb-2"
+                      style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
+                      {title}
+                    </h3>
+                    <div className="flex items-center gap-4 flex-wrap">
+                      <span className="flex items-center gap-1.5 text-xs" style={{ color: "var(--text-3)" }}>
+                        <BookOpen className="w-3.5 h-3.5" /> {numQuestions} questions
+                      </span>
+                      {hasScore && score > 0 && (
+                        <span className="text-xs font-semibold" style={{ color: isMastered ? "var(--green)" : "#60a5fa" }}>
+                          Best: {score}/{numQuestions}
+                        </span>
+                      )}
+                    </div>
+                  </div>
+                  <ChevronRight className="w-5 h-5 shrink-0 transition-transform group-hover:translate-x-1"
+                    style={{ color: isMastered ? "var(--green)" : "var(--text-3)" }} />
+                </Link>
+              );
+            })
+          )}
         </div>
 
       </div>

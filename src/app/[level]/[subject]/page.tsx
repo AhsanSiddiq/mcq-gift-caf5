@@ -24,13 +24,16 @@ export default function SubjectHome() {
   const { progress, isLoaded, getTotalMasteredPoints } = useProgress();
   const [mounted, setMounted] = useState(false);
   const [totalQuestions, setTotalQuestions] = useState(0);
+  const [isFetchingCount, setIsFetchingCount] = useState(true);
 
   useEffect(() => { 
     setMounted(true); 
+    setIsFetchingCount(true);
     fetch(`/api/questions?subject=${subjectId}`)
       .then((r) => r.json())
       .then((data) => setTotalQuestions(data.questions?.length || 0))
-      .catch(console.error);
+      .catch(console.error)
+      .finally(() => setIsFetchingCount(false));
   }, [subjectId]);
 
   const masteredPoints = getTotalMasteredPoints();
@@ -64,9 +67,11 @@ export default function SubjectHome() {
       label: isMarathonActive ? "Resume Marathon" : "Marathon",
       icon: isMarathonActive ? <PlayCircle className="w-5 h-5" /> : <Target className="w-5 h-5" />,
       href: `/${level}/${subjectId}/quiz?mode=all`,
-      desc: isMarathonActive
-        ? `Pick up where you left off — ${progress.marathon.currentIndex} / ${totalQuestions} done.`
-        : `All ${totalQuestions} questions. Auto-saves so you can resume anytime.`,
+      desc: isFetchingCount
+        ? null
+        : isMarathonActive
+          ? `Pick up where you left off — ${progress.marathon.currentIndex} / ${totalQuestions} done.`
+          : `All ${totalQuestions} questions. Auto-saves so you can resume anytime.`,
       cta: isMarathonActive ? "Continue" : "Start Marathon",
       color: "#fbbf24",
       bg: "rgba(251,191,36,0.10)",
@@ -123,7 +128,14 @@ export default function SubjectHome() {
             {currentSubject.title}
           </h1>
           <p style={{ color: "var(--text-2)", fontFamily: "var(--font-inter), sans-serif", fontSize: 16, lineHeight: 1.6 }}>
-            {totalQuestions} hand-picked MCQs with explanations. Choose your practice mode below.
+            {isFetchingCount ? (
+              <span
+                className="inline-block rounded-md animate-pulse"
+                style={{ width: 130, height: 18, background: "var(--border)", verticalAlign: "middle" }}
+              />
+            ) : (
+              <>{totalQuestions} hand-picked MCQs with explanations. Choose your practice mode below.</>
+            )}
           </p>
         </div>
 
@@ -201,9 +213,16 @@ export default function SubjectHome() {
                 <h2 className="font-bold text-lg mb-1" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
                   {mode.label}
                 </h2>
-                <p className="text-sm leading-relaxed" style={{ color: "var(--text-2)", fontFamily: "var(--font-inter), sans-serif" }}>
-                  {mode.desc}
-                </p>
+                {mode.desc === null ? (
+                  <span
+                    className="inline-block rounded-md animate-pulse mt-1"
+                    style={{ width: "80%", height: 14, background: "var(--border)", display: "block" }}
+                  />
+                ) : (
+                  <p className="text-sm leading-relaxed" style={{ color: "var(--text-2)", fontFamily: "var(--font-inter), sans-serif" }}>
+                    {mode.desc}
+                  </p>
+                )}
               </div>
               <div className="flex items-center gap-1.5 text-sm font-bold mt-auto" style={{ color: mode.color }}>
                 {mode.cta} <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />

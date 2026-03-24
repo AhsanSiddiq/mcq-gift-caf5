@@ -1,0 +1,1263 @@
+[
+  {
+    "chapter": 1,
+    "chapterTitle": "Types of Data and Sources",
+    "question": "A retail store categorizes its customers' payment methods as 'Cash', 'Credit Card', or 'Mobile Wallet'. Since there is no mathematical ranking to these categories, this is an example of:",
+    "options": [
+      "A) Continuous Data",
+      "B) Ordinal Data",
+      "C) Nominal Data",
+      "D) Discrete Data"
+    ],
+    "correctAnswer": "C) Nominal Data",
+    "explanation": "Nominal data involves descriptive categories that have no inherent mathematical order or ranking",
+    "id": "caf3c1q1"
+  },
+  {
+    "chapter": 1,
+    "chapterTitle": "Types of Data and Sources",
+    "question": "A ride-hailing app asks users to rate their journey as 'Excellent', 'Average', or 'Poor'. What type of data is this?",
+    "options": [
+      "A) Nominal Data",
+      "B) Ordinal Data",
+      "C) Discrete Data",
+      "D) Unstructured Data"
+    ],
+    "correctAnswer": "B) Ordinal Data",
+    "explanation": "Ordinal data contains categories with a meaningful order or sequence, but the exact mathematical distance between the categories cannot be measured",
+    "id": "caf3c1q2"
+  },
+  {
+    "chapter": 1,
+    "chapterTitle": "Types of Data and Sources",
+    "question": "The system dashboard of a logistics company shows exactly 145 active delivery riders in the city. This represents:",
+    "options": [
+      "A) Continuous Data",
+      "B) Discrete Data",
+      "C) Qualitative Data",
+      "D) Semi-structured Data"
+    ],
+    "correctAnswer": "B) Discrete Data",
+    "explanation": "Discrete data consists of countable, distinct whole numbers that cannot be broken down into fractions (e.g., you cannot have 145.5 riders)",
+    "id": "caf3c1q3"
+  },
+  {
+    "chapter": 1,
+    "chapterTitle": "Categories of Data (By Structure)",
+    "question": "A delivery truck's GPS records its exact distance traveled as 14.65 kilometers. What type of data is this?",
+    "options": [
+      "A) Continuous Data",
+      "B) Discrete Data",
+      "C) Nominal Data",
+      "D) Ordinal Data"
+    ],
+    "correctAnswer": "A) Continuous Data",
+    "explanation": "Continuous data represents measurable values that can take any value within a range, including decimals and fractions\n.\n\n--------------------------------------------------------------------------------",
+    "id": "caf3c1q4"
+  },
+  {
+    "chapter": 1,
+    "chapterTitle": "Categories of Data (By Structure)",
+    "question": "A bank's relational database stores customer transaction histories in strict, predefined rows and columns (e.g., Date, Description, Amount). This is an example of:",
+    "options": [
+      "A) Unstructured Data",
+      "B) Structured Data",
+      "C) Semi-structured Data",
+      "D) Qualitative Data"
+    ],
+    "correctAnswer": "B) Structured Data",
+    "explanation": "Structured data is highly organized in predefined formats (like rows and columns in an SQL database), making it easy for systems to process",
+    "id": "caf3c1q5"
+  },
+  {
+    "chapter": 1,
+    "chapterTitle": "Categories of Data (By Structure)",
+    "question": "Customers frequently leave reviews on a company's Facebook page in the form of text paragraphs, emojis, and images. This type of data lacks a predefined format and is known as:",
+    "options": [
+      "A) Structured Data",
+      "B) Semi-structured Data",
+      "C) Unstructured Data",
+      "D) Discrete Data"
+    ],
+    "correctAnswer": "C) Unstructured Data",
+    "explanation": "Unstructured data has no rigid format, making it difficult for computers to process directly (e.g., social media posts, videos, emails)",
+    "id": "caf3c1q6"
+  },
+  {
+    "chapter": 1,
+    "chapterTitle": "Categories of Data (By Structure)",
+    "question": "Which of the following technologies is primarily used by organizations to understand the hidden emotions (e.g., happy, angry) within unstructured customer feedback?",
+    "options": [
+      "A) Natural Language Processing (NLP)",
+      "B) Sentiment Analysis",
+      "C) Extensible Markup Language (XML)",
+      "D) Relational Databases"
+    ],
+    "correctAnswer": "B) Sentiment Analysis",
+    "explanation": "Sentiment Analysis is a key tech tool used to evaluate the tone and emotion behind unstructured text data",
+    "id": "caf3c1q7"
+  },
+  {
+    "chapter": 1,
+    "chapterTitle": "Sources of Data",
+    "question": "A web application transmits user profile data using JSON (JavaScript Object Notation), which uses tags to organize data but lacks a rigid table format. This is an example of:",
+    "options": [
+      "A) Structured Data",
+      "B) Unstructured Data",
+      "C) Semi-structured Data",
+      "D) Nominal Data"
+    ],
+    "correctAnswer": "C) Semi-structured Data",
+    "explanation": "Semi-structured data is not in a rigid table but uses organizational tags or markers (like JSON, XML, or HTML) to separate elements\n.\n\n--------------------------------------------------------------------------------",
+    "id": "caf3c1q8"
+  },
+  {
+    "chapter": 1,
+    "chapterTitle": "Sources of Data",
+    "question": "A marketing team designs a brand new questionnaire and distributes it to 500 customers to gather fresh feedback on a recently launched product. This is an example of collecting:",
+    "options": [
+      "A) Secondary Data",
+      "B) External Data",
+      "C) Primary Data",
+      "D) Unstructured Data"
+    ],
+    "correctAnswer": "C) Primary Data",
+    "explanation": "Primary data is collected firsthand specifically for a new, targeted purpose, such as conducting surveys or interviews",
+    "id": "caf3c1q9"
+  },
+  {
+    "chapter": 1,
+    "chapterTitle": "Sources of Data",
+    "question": "An investment firm purchases an industry report published by a government agency last year to analyze market trends. What type of data is the firm using?",
+    "options": [
+      "A) Primary Data",
+      "B) Secondary Data",
+      "C) Internal Data",
+      "D) Qualitative Data"
+    ],
+    "correctAnswer": "B) Secondary Data",
+    "explanation": "Secondary data is pre-existing data that was originally collected by someone else for another purpose and is now being repurposed",
+    "id": "caf3c1q10"
+  },
+  {
+    "chapter": 1,
+    "chapterTitle": "Ethical Considerations",
+    "question": "A food delivery app connects to the Google Maps API to fetch live traffic updates. Based on its origin, this data is classified as:",
+    "options": [
+      "A) Internal Data",
+      "B) External Data",
+      "C) Primary Data",
+      "D) Nominal Data"
+    ],
+    "correctAnswer": "B) External Data",
+    "explanation": "External data is sourced from outside the organization's own operations, such as third-party APIs, market reports, or social media\n.\n\n--------------------------------------------------------------------------------",
+    "id": "caf3c1q11"
+  },
+  {
+    "chapter": 1,
+    "chapterTitle": "Ethical Considerations",
+    "question": "A mobile application collects users' contact lists without explicitly informing them or explaining the purpose of this collection. Which ethical consideration is being violated?",
+    "options": [
+      "A) Privacy",
+      "B) Fairness",
+      "C) Security",
+      "D) Transparency"
+    ],
+    "correctAnswer": "D) Transparency",
+    "explanation": "Transparency requires organizations to be explicitly clear with users about how and why their data is being collected",
+    "id": "caf3c1q12"
+  },
+  {
+    "chapter": 1,
+    "chapterTitle": "Ethical Considerations",
+    "question": "Ensuring that an AI algorithm used for shortlisting job applicants does not systematically reject candidates from a specific demographic background falls under which ethical principle?",
+    "options": [
+      "A) Fairness",
+      "B) Privacy",
+      "C) Security",
+      "D) Transparency"
+    ],
+    "correctAnswer": "A) Fairness",
+    "explanation": "Fairness ensures that data collection and subsequent analysis do not lead to discriminatory or biased outcomes",
+    "id": "caf3c1q13"
+  },
+  {
+    "chapter": 1,
+    "chapterTitle": "Ethical Considerations",
+    "question": "A hospital implements heavy encryption and firewalls to protect its patients' electronic health records from unauthorized hacker access. Which ethical consideration is the hospital enforcing?",
+    "options": [
+      "A) Transparency",
+      "B) Privacy",
+      "C) Fairness",
+      "D) Security"
+    ],
+    "correctAnswer": "D) Security",
+    "explanation": "Security involves protecting stored data from unauthorized access or cyber breaches",
+    "id": "caf3c1q14"
+  },
+  {
+    "chapter": 1,
+    "chapterTitle": "Ethical Considerations",
+    "question": "Which of the following principles refers to respecting an individual's right to control their own personal data?",
+    "options": [
+      "A) Security",
+      "B) Transparency",
+      "C) Privacy",
+      "D) Fairness"
+    ],
+    "correctAnswer": "C) Privacy",
+    "explanation": "Privacy is the ethical obligation to respect a user's right to control their personal data and who has access to it",
+    "id": "caf3c1q15"
+  },
+  {
+    "chapter": 2,
+    "chapterTitle": "Data Governance and Management",
+    "question": "The CEO of a multinational bank establishes a vision to migrate 80% of their customer data to a secure cloud environment by 2028 to support analytics-driven decision-making. At which level of data governance is this action taking place?",
+    "options": [
+      "A) Tactical Level",
+      "B) Operational Level",
+      "C) Strategic Level",
+      "D) Execution Level"
+    ],
+    "correctAnswer": "C) Strategic Level",
+    "explanation": "The strategic level involves top management (like the Board or CEO) setting the vision, goals, and direction for data governance",
+    "id": "caf3c2q1"
+  },
+  {
+    "chapter": 2,
+    "chapterTitle": "Data Governance and Management",
+    "question": "An IT manager at a retail chain drafts a new password policy requiring all employees to use 12-character passwords and updates the standard operating procedures for data entry. Which level of data governance does this represent?",
+    "options": [
+      "A) Strategic Level",
+      "B) Tactical Level",
+      "C) Operational Level",
+      "D) Compliance Level"
+    ],
+    "correctAnswer": "B) Tactical Level",
+    "explanation": "The tactical level is where middle management translates the strategic vision into actionable plans, frameworks, and policies",
+    "id": "caf3c2q2"
+  },
+  {
+    "chapter": 2,
+    "chapterTitle": "Data Governance and Management",
+    "question": "A junior data analyst runs a daily script to identify and flag any missing customer email addresses in the company's CRM system. This daily quality check is an example of data governance at the:",
+    "options": [
+      "A) Strategic Level",
+      "B) Tactical Level",
+      "C) Operational Level",
+      "D) Executive Level"
+    ],
+    "correctAnswer": "C) Operational Level",
+    "explanation": "The operational level involves day-to-day staff (like Data Stewards or IT personnel) executing the plans and performing daily data quality checks",
+    "id": "caf3c2q3"
+  },
+  {
+    "chapter": 2,
+    "chapterTitle": "Data Classification",
+    "question": "What is the primary overarching goal of implementing a data governance framework in an organization?",
+    "options": [
+      "A) To eliminate the need for IT security teams.",
+      "B) To ensure data is accurate, secure, and compliant with regulations.",
+      "C) To restrict all employees from accessing internal data.",
+      "D) To increase the cost of data storage."
+    ],
+    "correctAnswer": "B) To ensure data is accurate, secure, and compliant with regulations.",
+    "explanation": "Data governance provides the frameworks, policies, and practices needed to ensure data is accurate, secure, and compliant with regulations, transforming it into a trusted asset\n.\n\n--------------------------------------------------------------------------------",
+    "id": "caf3c2q4"
+  },
+  {
+    "chapter": 2,
+    "chapterTitle": "Data Classification",
+    "question": "A hospital maintains detailed electronic health records (EHR) containing patients' medical histories, diagnoses, and treatment plans. Under which data classification should this information be categorized?",
+    "options": [
+      "A) Public Data",
+      "B) Internal Data",
+      "C) Confidential Data",
+      "D) Restricted Data"
+    ],
+    "correctAnswer": "D) Restricted Data",
+    "explanation": "Restricted data represents the highest security level, encompassing highly sensitive information like patient health records or credit card numbers, which carry massive legal and reputational risks if leaked",
+    "id": "caf3c2q5"
+  },
+  {
+    "chapter": 2,
+    "chapterTitle": "Data Classification",
+    "question": "A pharmaceutical company’s HR department is managing the upcoming month's payroll and employee salary increments. This data is not meant for general employees but would cause financial risk and internal conflict if leaked. How should this data be classified?",
+    "options": [
+      "A) Public Data",
+      "B) Internal Data",
+      "C) Confidential Data",
+      "D) Restricted Data"
+    ],
+    "correctAnswer": "C) Confidential Data",
+    "explanation": "Confidential data is restricted to specific departments (like HR or Finance) and carries high financial risk or loss of competitive edge if leaked, such as employee salaries or unreleased financial reports",
+    "id": "caf3c2q6"
+  },
+  {
+    "chapter": 2,
+    "chapterTitle": "Data Classification",
+    "question": "An e-commerce startup circulates a \"New Employee Onboarding Handbook\" outlining office timings and dress codes on its internal employee portal. This data carries low risk if accidentally seen by an outsider. It is classified as:",
+    "options": [
+      "A) Public Data",
+      "B) Internal Data",
+      "C) Confidential Data",
+      "D) Restricted Data"
+    ],
+    "correctAnswer": "B) Internal Data",
+    "explanation": "Internal data is restricted to employees only but carries low risk if leaked, such as internal memos or employee handbooks",
+    "id": "caf3c2q7"
+  },
+  {
+    "chapter": 2,
+    "chapterTitle": "Key Roles (Data Owners vs. Data Stewards)",
+    "question": "A university publishes its upcoming fall semester course catalog and marketing brochure on its official website. This data is classified as:",
+    "options": [
+      "A) Public Data",
+      "B) Internal Data",
+      "C) Open-Source Data",
+      "D) Confidential Data"
+    ],
+    "correctAnswer": "A) Public Data",
+    "explanation": "Public data is safe for anyone to view and carries zero risk if accessed by outsiders, such as marketing brochures or website info\n.\n\n--------------------------------------------------------------------------------",
+    "id": "caf3c2q8"
+  },
+  {
+    "chapter": 2,
+    "chapterTitle": "Key Roles (Data Owners vs. Data Stewards)",
+    "question": "In a telecommunications company, the Chief Marketing Officer (CMO) is ultimately accountable for the customer subscriber database and officially approves who gets access rights to this data. The CMO is acting as the:",
+    "options": [
+      "A) Data Steward",
+      "B) Data Custodian",
+      "C) Data Owner",
+      "D) Data Processor"
+    ],
+    "correctAnswer": "C) Data Owner",
+    "explanation": "A Data Owner is a senior executive who is ultimately accountable for the data asset, defines policies, and approves access rights",
+    "id": "caf3c2q9"
+  },
+  {
+    "chapter": 2,
+    "chapterTitle": "Data Integrity",
+    "question": "A retail chain appoints a specialized employee to oversee customer data across its CRM systems on a daily basis. This employee resolves discrepancies, merges duplicate entries, and trains store managers on proper data entry practices. This role is known as a:",
+    "options": [
+      "A) Data Owner",
+      "B) Data Steward",
+      "C) Database Administrator",
+      "D) Strategic Manager"
+    ],
+    "correctAnswer": "B) Data Steward",
+    "explanation": "A Data Steward is responsible for the day-to-day management of data, enforcing policies, fixing data errors, and maintaining data quality\n.\n\n--------------------------------------------------------------------------------",
+    "id": "caf3c2q10"
+  },
+  {
+    "chapter": 2,
+    "chapterTitle": "Data Integrity",
+    "question": "A university's database is programmed to reject any student enrollment record where the \"Date of Birth\" is entered as a date in the future. Which type of data integrity is the database enforcing?",
+    "options": [
+      "A) Physical Integrity",
+      "B) Entity Integrity",
+      "C) Referential Integrity",
+      "D) Logical Integrity"
+    ],
+    "correctAnswer": "D) Logical Integrity",
+    "explanation": "Logical integrity ensures that the data makes logical sense and adheres to defined business rules, such as age not being negative or a birth date not being in the future",
+    "id": "caf3c2q11"
+  },
+  {
+    "chapter": 2,
+    "chapterTitle": "Data Integrity",
+    "question": "When attempting to delete a vendor from the company's ERP system, an accountant receives an error message stating: \"Cannot delete vendor. Active purchase orders are still linked to this vendor ID.\" This control enforces:",
+    "options": [
+      "A) Referential Integrity",
+      "B) Entity Integrity",
+      "C) Physical Integrity",
+      "D) Logical Integrity"
+    ],
+    "correctAnswer": "A) Referential Integrity",
+    "explanation": "Referential integrity maintains valid relationships between tables using Foreign Keys, ensuring that parent records (like a vendor) cannot be deleted if child records (like pending orders) are still linked to them",
+    "id": "caf3c2q12"
+  },
+  {
+    "chapter": 2,
+    "chapterTitle": "Data Integrity",
+    "question": "To ensure that no two citizens are accidentally merged or confused in the national database, the government assigns a unique 13-digit CNIC number to every individual as a Primary Key. This practice maintains:",
+    "options": [
+      "A) Logical Integrity",
+      "B) Entity Integrity",
+      "C) Referential Integrity",
+      "D) Physical Integrity"
+    ],
+    "correctAnswer": "B) Entity Integrity",
+    "explanation": "Entity integrity ensures that every record in a database is unique, typically by using a Primary Key to prevent duplicate entries",
+    "id": "caf3c2q13"
+  },
+  {
+    "chapter": 2,
+    "chapterTitle": "Data Storage Options",
+    "question": "A cloud service provider installs temperature sensors, fire suppression systems, and backup generators in its data center to ensure servers remain operational during extreme weather conditions. This protects the database's:",
+    "options": [
+      "A) Referential Integrity",
+      "B) Entity Integrity",
+      "C) Logical Integrity",
+      "D) Physical Integrity"
+    ],
+    "correctAnswer": "D) Physical Integrity",
+    "explanation": "Physical integrity involves protecting the physical hardware from power outages, fires, or damage using backups, UPS, and environmental controls\n.\n\n--------------------------------------------------------------------------------",
+    "id": "caf3c2q14"
+  },
+  {
+    "chapter": 2,
+    "chapterTitle": "Data Storage Options",
+    "question": "A financial institution stores its highly restricted customer transaction data on its own physical servers to maintain maximum security control, while it hosts its general marketing analytics data on Microsoft Azure to save costs. This approach is an example of:",
+    "options": [
+      "A) Fully On-Premises Storage",
+      "B) Cloud Storage",
+      "C) Hybrid Storage",
+      "D) Edge Computing"
+    ],
+    "correctAnswer": "C) Hybrid Storage",
+    "explanation": "Hybrid storage is a combination of on-premises and cloud storage, allowing organizations to keep sensitive data on their own servers while utilizing the cloud for less critical, scalable data",
+    "id": "caf3c2q15"
+  },
+  {
+    "chapter": 3,
+    "chapterTitle": "Introduction to Data Analytics",
+    "question": "What is the primary goal of implementing data analytics within an organization?",
+    "options": [
+      "A) To enhance data storage and infrastructure to support larger datasets.",
+      "B) To convert raw data into actionable insights that inform strategic and operational decisions.",
+      "C) To permanently replace human decision-making with automated systems.",
+      "D) To strictly monitor employee daily attendance."
+    ],
+    "correctAnswer": "B) To convert raw data into actionable insights that inform strategic and operational decisions.",
+    "explanation": "The core purpose of data analytics is to examine datasets to identify trends and convert raw data into actionable insights to support business decision-making",
+    "id": "caf3c3q1"
+  },
+  {
+    "chapter": 3,
+    "chapterTitle": "Introduction to Data Analytics",
+    "question": "During the Data Analytics Cycle, an analyst creates summary statistics, plotting distributions, and scatter plots. Which stage of the cycle is the analyst currently performing?",
+    "options": [
+      "A) Data Collection",
+      "B) Data Cleaning",
+      "C) Data Exploration",
+      "D) Data Modelling"
+    ],
+    "correctAnswer": "C) Data Exploration",
+    "explanation": "During data exploration, analysts typically create summary statistics and visualizations to understand the structure, patterns, and outliers of the dataset before applying advanced models",
+    "id": "caf3c3q2"
+  },
+  {
+    "chapter": 3,
+    "chapterTitle": "Data Analytics Maturity Model (The 4 Stages)",
+    "question": "According to the 7-step Data Analytics Cycle, once data has been collected, cleaned, and explored, what is the immediate next step?",
+    "options": [
+      "A) Decision-Making & Action",
+      "B) Monitoring & Optimization",
+      "C) Interpretation & Insight Generation",
+      "D) Data Modelling"
+    ],
+    "correctAnswer": "D) Data Modelling",
+    "explanation": "Based on the Data Analytics Cycle, the step that immediately follows Data Exploration is Data Modelling\n.\n\n--------------------------------------------------------------------------------",
+    "id": "caf3c3q3"
+  },
+  {
+    "chapter": 3,
+    "chapterTitle": "Data Analytics Maturity Model (The 4 Stages)",
+    "question": "According to the Data Analytics Maturity Model, as an organization transitions from Descriptive (hindsight) to Prescriptive (foresight) analytics, which of the following statements is true?",
+    "options": [
+      "A) Both human input and decision complexity decrease.",
+      "B) Human input in decision-making increases, while information value decreases.",
+      "C) Human input in decision-making decreases, while the complexity of decisions and information value increases.",
+      "D) The analytics process becomes simpler and cheaper to execute."
+    ],
+    "correctAnswer": "C) Human input in decision-making decreases, while the complexity of decisions and information value increases.",
+    "explanation": "As the transition is made from hindsight to foresight, human input in decision-making decreases, while the complexity of decisions and the value of information derived from the data increases",
+    "id": "caf3c3q4"
+  },
+  {
+    "chapter": 3,
+    "chapterTitle": "Data Analytics Maturity Model (The 4 Stages)",
+    "question": "A retail company reviews its monthly dashboard to see total sales and website traffic for the previous quarter, answering the question \"What happened?\". This is an example of:",
+    "options": [
+      "A) Diagnostic Analytics",
+      "B) Descriptive Analytics",
+      "C) Predictive Analytics",
+      "D) Prescriptive Analytics"
+    ],
+    "correctAnswer": "B) Descriptive Analytics",
+    "explanation": "Descriptive analytics looks at historical data to answer \"What happened?\" using techniques like data aggregation, visualization, and summarization",
+    "id": "caf3c3q5"
+  },
+  {
+    "chapter": 3,
+    "chapterTitle": "Data Analytics Maturity Model (The 4 Stages)",
+    "question": "A hospital notices an increase in patient readmission rates over the last six months. Analysts investigate patient demographics and treatments to identify the root cause of this increase. Which stage of analytics does this represent?",
+    "options": [
+      "A) Descriptive Analytics",
+      "B) Diagnostic Analytics",
+      "C) Predictive Analytics",
+      "D) Prescriptive Analytics"
+    ],
+    "correctAnswer": "B) Diagnostic Analytics",
+    "explanation": "Diagnostic analytics answers \"Why did it happen?\" by investigating the root causes of a specific issue, such as rising patient readmissions",
+    "id": "caf3c3q6"
+  },
+  {
+    "chapter": 3,
+    "chapterTitle": "Data Analytics Maturity Model (The 4 Stages)",
+    "question": "Which of the following analytical techniques are primarily used in Diagnostic Analytics to identify root causes?",
+    "options": [
+      "A) Drill-down analysis, correlation analysis, and anomaly detection",
+      "B) Optimization algorithms and decision trees",
+      "C) Time series analysis and clustering",
+      "D) Data aggregation and basic pie charts"
+    ],
+    "correctAnswer": "A) Drill-down analysis, correlation analysis, and anomaly detection",
+    "explanation": "Diagnostic analytics relies on techniques like drill-down analysis, correlation analysis, and anomaly detection to find out why an event occurred",
+    "id": "caf3c3q7"
+  },
+  {
+    "chapter": 3,
+    "chapterTitle": "Data Analytics Maturity Model (The 4 Stages)",
+    "question": "A supply chain manager builds models to estimate future demand, supplier lead times, and potential stockouts before they occur. This scenario leverages:",
+    "options": [
+      "A) Descriptive Analytics",
+      "B) Diagnostic Analytics",
+      "C) Predictive Analytics",
+      "D) Prescriptive Analytics"
+    ],
+    "correctAnswer": "C) Predictive Analytics",
+    "explanation": "Predictive analytics aims to answer \"What will happen?\" by forecasting future trends, such as anticipating supply chain disruptions",
+    "id": "caf3c3q8"
+  },
+  {
+    "chapter": 3,
+    "chapterTitle": "Data Analytics Maturity Model (The 4 Stages)",
+    "question": "Predictive analytics relies heavily on which of the following foundations?",
+    "options": [
+      "A) Summarizing past sales data manually",
+      "B) Machine learning models and historical trends",
+      "C) Creating basic summary statistics",
+      "D) Detecting outliers from current datasets"
+    ],
+    "correctAnswer": "B) Machine learning models and historical trends",
+    "explanation": "Predictive analytics uses machine learning models (like Random Forest or Regression) and historical trends to forecast future outcomes",
+    "id": "caf3c3q9"
+  },
+  {
+    "chapter": 3,
+    "chapterTitle": "Data Analytics Maturity Model (The 4 Stages)",
+    "question": "Which stage of data analytics recommends optimal actions based on predictions to realize maximum business value?",
+    "options": [
+      "A) Descriptive Analytics",
+      "B) Diagnostic Analytics",
+      "C) Predictive Analytics",
+      "D) Prescriptive Analytics"
+    ],
+    "correctAnswer": "D) Prescriptive Analytics",
+    "explanation": "Prescriptive analytics answers \"How can I make it happen?\" by recommending optimal actions based on predictive data to realize value",
+    "id": "caf3c3q10"
+  },
+  {
+    "chapter": 3,
+    "chapterTitle": "Data Analytics Maturity Model (The 4 Stages)",
+    "question": "An airline system automatically adjusts ticket prices in real-time based on demand forecasts to maximize revenue. This is an application of:",
+    "options": [
+      "A) Descriptive Analytics",
+      "B) Diagnostic Analytics",
+      "C) Predictive Analytics",
+      "D) Prescriptive Analytics"
+    ],
+    "correctAnswer": "D) Prescriptive Analytics",
+    "explanation": "Automatically adjusting and optimizing actions (like ticket pricing) based on demand forecasts leverages prescriptive analytics",
+    "id": "caf3c3q11"
+  },
+  {
+    "chapter": 3,
+    "chapterTitle": "Implications and Challenges of Data Analytics",
+    "question": "If a company wants to utilize optimization algorithms, simulations, and decision trees, they are planning to implement which type of analytics?",
+    "options": [
+      "A) Descriptive Analytics",
+      "B) Diagnostic Analytics",
+      "C) Predictive Analytics",
+      "D) Prescriptive Analytics"
+    ],
+    "correctAnswer": "D) Prescriptive Analytics",
+    "explanation": "Optimization algorithms, simulations, and decision trees are the key techniques used in Prescriptive Analytics\n.\n\n--------------------------------------------------------------------------------",
+    "id": "caf3c3q12"
+  },
+  {
+    "chapter": 3,
+    "chapterTitle": "Implications and Challenges of Data Analytics",
+    "question": "The implementation of data analytics provides organizations with a competitive advantage. How is this advantage primarily achieved?",
+    "options": [
+      "A) By entirely replacing the human workforce with automated systems.",
+      "B) By responding faster to market changes, optimizing operations, and better understanding customer needs.",
+      "C) By eliminating the need for data storage and security.",
+      "D) By increasing the complexity of basic daily tasks."
+    ],
+    "correctAnswer": "B) By responding faster to market changes, optimizing operations, and better understanding customer needs.",
+    "explanation": "Companies leverage data analytics to gain a competitive edge by responding faster to market changes, optimizing their operations, and better understanding customer needs",
+    "id": "caf3c3q13"
+  },
+  {
+    "chapter": 3,
+    "chapterTitle": "Implications and Challenges of Data Analytics",
+    "question": "What is considered a major challenge in implementing data analytics that can lead to inaccurate predictions and misguided decisions?",
+    "options": [
+      "A) An overabundance of predictive models",
+      "B) Challenges in data quality (e.g., inaccurate, incomplete, or inconsistent data)",
+      "C) The use of visualization tools",
+      "D) High levels of human input in prescriptive analytics"
+    ],
+    "correctAnswer": "B) Challenges in data quality (e.g., inaccurate, incomplete, or inconsistent data)",
+    "explanation": "Analytics requires high-quality data; poor data quality (inaccurate, incomplete, or inconsistent data) can lead to inaccurate predictions and is a major challenge for organizations",
+    "id": "caf3c3q14"
+  },
+  {
+    "chapter": 3,
+    "chapterTitle": "Implications and Challenges of Data Analytics",
+    "question": "A software company observes a sudden increase in user complaints regarding an app crash. The IT team analyzes system log files to pinpoint the exact code module causing the failure. This process is an example of:",
+    "options": [
+      "A) Predictive Analytics",
+      "B) Diagnostic Analytics",
+      "C) Descriptive Analytics",
+      "D) Prescriptive Analytics"
+    ],
+    "correctAnswer": "B) Diagnostic Analytics",
+    "explanation": "Analyzing logs to pinpoint the root cause of an event (the app crash) falls under Diagnostic Analytics, which answers the question \"Why did it happen?\"",
+    "id": "caf3c3q15"
+  },
+  {
+    "chapter": 4,
+    "chapterTitle": "Big Data",
+    "question": "A global ride-hailing app like Uber or Careem processes trillions of bytes (petabytes) of GPS location data, user logins, and ride requests every single day. Which characteristic of Big Data does this massive scale of data represent?",
+    "options": [
+      "A) Variety",
+      "B) Volume",
+      "C) Veracity",
+      "D) Value"
+    ],
+    "correctAnswer": "B) Volume",
+    "explanation": "Volume refers to the massive scale and sheer amount of data generated, such as the trillions of bytes processed by platforms like Uber and Careem to initiate and carry out transactions",
+    "id": "caf3c4q1"
+  },
+  {
+    "chapter": 4,
+    "chapterTitle": "Big Data",
+    "question": "A multinational e-commerce company collects customer data in the form of structured transaction receipts, unstructured product review videos, and semi-structured clickstream JSON files. This mix of different data formats represents which characteristic of Big Data?",
+    "options": [
+      "A) Veracity",
+      "B) Velocity",
+      "C) Variety",
+      "D) Volume"
+    ],
+    "correctAnswer": "C) Variety",
+    "explanation": "Variety indicates that Big Data comes in multiple formats, including structured (databases), unstructured (videos/posts), and semi-structured (JSON/XML) data",
+    "id": "caf3c4q2"
+  },
+  {
+    "chapter": 4,
+    "chapterTitle": "Big Data",
+    "question": "A financial institution relies on social media feeds to predict stock market movements. However, they struggle to filter out fake news, biased opinions, and bot-generated spam. Which Big Data challenge are they facing?",
+    "options": [
+      "A) Value",
+      "B) Veracity",
+      "C) Velocity",
+      "D) Volume"
+    ],
+    "correctAnswer": "B) Veracity",
+    "explanation": "Veracity refers to the accuracy, reliability, and trustworthiness of the data; filtering out fake news and inconsistencies is a major challenge in ensuring data veracity",
+    "id": "caf3c4q3"
+  },
+  {
+    "chapter": 4,
+    "chapterTitle": "Sources and Methods of Collection",
+    "question": "A stock exchange processes thousands of high-frequency financial trades in a fraction of a millisecond. The speed at which this data is generated and processed highlights which characteristic of Big Data?",
+    "options": [
+      "A) Veracity",
+      "B) Variety",
+      "C) Velocity",
+      "D) Value"
+    ],
+    "correctAnswer": "C) Velocity",
+    "explanation": "Velocity refers to the high speed and rate at which data is generated, collected, and processed, which is critical in environments like financial markets\n.\n\n--------------------------------------------------------------------------------",
+    "id": "caf3c4q4"
+  },
+  {
+    "chapter": 4,
+    "chapterTitle": "Sources and Methods of Collection",
+    "question": "A fitness company manufactures smartwatches that monitor users' heart rates and daily step counts, sending this data back to the company's servers for health analysis. This is an example of data collected from:",
+    "options": [
+      "A) Transactional records",
+      "B) IoT (Internet of Things) devices",
+      "C) Web scraping bots",
+      "D) Open-source government portals"
+    ],
+    "correctAnswer": "B) IoT (Internet of Things) devices",
+    "explanation": "IoT devices, such as smartwatches and home sensors, are a primary source of Big Data, continuously generating and transmitting user data",
+    "id": "caf3c4q5"
+  },
+  {
+    "chapter": 4,
+    "chapterTitle": "Sources and Methods of Collection",
+    "question": "A travel agency uses automated software bots to extract real-time pricing information from the websites of competing airlines. This data collection method is known as:",
+    "options": [
+      "A) Application Programming Interfaces (APIs)",
+      "B) Sensor logging",
+      "C) Web Scraping",
+      "D) Survey generation"
+    ],
+    "correctAnswer": "C) Web Scraping",
+    "explanation": "Web scraping is a technique primarily used to extract large amounts of data, such as pricing or product details, directly from websites",
+    "id": "caf3c4q6"
+  },
+  {
+    "chapter": 4,
+    "chapterTitle": "Applications of Big Data",
+    "question": "An automotive manufacturer installs sensors inside car engines to record fuel consumption, engine temperature, and wear-and-tear metrics every second. What type of Big Data source is this?",
+    "options": [
+      "A) Social Media data",
+      "B) Machine-Generated data",
+      "C) Transactional data",
+      "D) Semi-structured web data"
+    ],
+    "correctAnswer": "B) Machine-Generated data",
+    "explanation": "Machine-generated data includes data from sensors, industrial machinery, and automated systems used for tracking performance and predicting maintenance\n.\n\n--------------------------------------------------------------------------------",
+    "id": "caf3c4q7"
+  },
+  {
+    "chapter": 4,
+    "chapterTitle": "Applications of Big Data",
+    "question": "A car manufacturer collects sensor data from its production line machines. Using analytics, the company detects signs of wear-and-tear and schedules repairs before the machinery actually breaks down. This application is known as:",
+    "options": [
+      "A) Descriptive Analytics",
+      "B) Web Scraping",
+      "C) Predictive Maintenance",
+      "D) Edge Computing"
+    ],
+    "correctAnswer": "C) Predictive Maintenance",
+    "explanation": "Manufacturers use Big Data for predictive maintenance, analyzing sensor data to predict and schedule maintenance before a costly breakdown occurs",
+    "id": "caf3c4q8"
+  },
+  {
+    "chapter": 4,
+    "chapterTitle": "Applications of Big Data",
+    "question": "During the COVID-19 pandemic, global health organizations analyzed massive datasets from mobile tracking, hospital admissions, and travel logs to predict where the virus would spread next. This demonstrates the use of Big Data in which industry?",
+    "options": [
+      "A) Manufacturing",
+      "B) Healthcare",
+      "C) Retail",
+      "D) Finance"
+    ],
+    "correctAnswer": "B) Healthcare",
+    "explanation": "In healthcare, Big Data is utilized for tracking disease outbreaks, analyzing patient records, and improving public health responses, as seen during the COVID-19 pandemic",
+    "id": "caf3c4q9"
+  },
+  {
+    "chapter": 4,
+    "chapterTitle": "Challenges and Technologies in Big Data",
+    "question": "An online streaming platform analyzes a user's past viewing history, search queries, and pause/rewind habits in real-time to recommend movies they are highly likely to watch. This is an application of Big Data aimed at:",
+    "options": [
+      "A) Ensuring physical data security",
+      "B) Understanding user preferences and personalizing experiences",
+      "C) Reducing cloud storage costs",
+      "D) Automating payroll processing"
+    ],
+    "correctAnswer": "B) Understanding user preferences and personalizing experiences",
+    "explanation": "Retail and digital platforms leverage Big Data to understand user preferences and offer personalized experiences, such as real-time movie or product recommendations\n.\n\n--------------------------------------------------------------------------------",
+    "id": "caf3c4q10"
+  },
+  {
+    "chapter": 4,
+    "chapterTitle": "Challenges and Technologies in Big Data",
+    "question": "Despite its benefits, organizations often struggle with Big Data because inaccurate, incomplete, or inconsistent datasets can lead to flawed insights and poor decision-making. This challenge is primarily related to:",
+    "options": [
+      "A) Data Quality",
+      "B) Edge Computing",
+      "C) Storage capacity",
+      "D) Processing speed"
+    ],
+    "correctAnswer": "A) Data Quality",
+    "explanation": "Data Quality is a significant challenge; given the massive volume and variety of Big Data, inaccurate or inconsistent data directly leads to flawed insights and poor decisions",
+    "id": "caf3c4q11"
+  },
+  {
+    "chapter": 4,
+    "chapterTitle": "Challenges and Technologies in Big Data",
+    "question": "To handle massive amounts of unstructured data like customer emails, social media posts, and multimedia files, organizations typically avoid traditional relational databases (RDBMS) and instead use:",
+    "options": [
+      "A) Spreadsheets",
+      "B) NoSQL Databases",
+      "C) Only physical on-premises hardware",
+      "D) Simple CSV files"
+    ],
+    "correctAnswer": "B) NoSQL Databases",
+    "explanation": "NoSQL databases (like MongoDB or Cassandra) are specifically designed to handle and scale unstructured and semi-structured Big Data efficiently, unlike traditional relational databases",
+    "id": "caf3c4q12"
+  },
+  {
+    "chapter": 4,
+    "chapterTitle": "Challenges and Technologies in Big Data",
+    "question": "To reduce latency and save bandwidth, a smart traffic light system processes data directly at the intersection (close to the sensor) rather than sending all raw video footage back to a centralized cloud server. This technology is known as:",
+    "options": [
+      "A) Edge Computing",
+      "B) Hadoop Processing",
+      "C) Blockchain",
+      "D) Web Scraping"
+    ],
+    "correctAnswer": "A) Edge Computing",
+    "explanation": "Edge computing involves processing data closer to the source (like IoT devices or sensors) rather than in centralized cloud servers, allowing for real-time analysis and reduced latency",
+    "id": "caf3c4q13"
+  },
+  {
+    "chapter": 4,
+    "chapterTitle": "Challenges and Technologies in Big Data",
+    "question": "Which of the following is a major ethical concern when organizations collect and analyze vast amounts of Big Data from their users?",
+    "options": [
+      "A) Reducing the cost of data storage",
+      "B) Privacy, bias, and transparency",
+      "C) Processing data in real-time",
+      "D) Choosing between structured and unstructured formats"
+    ],
+    "correctAnswer": "B) Privacy, bias, and transparency",
+    "explanation": "Ethical concerns in Big Data revolve heavily around user privacy, avoiding bias in data models, and maintaining transparency about how data is used",
+    "id": "caf3c4q14"
+  },
+  {
+    "chapter": 4,
+    "chapterTitle": "Challenges and Technologies in Big Data",
+    "question": "To overcome the challenge of fragmented data scattered across different departments, an organization uses middleware and platforms to consolidate the data into a single, unified system for analysis. This solution addresses the problem of:",
+    "options": [
+      "A) Data Integration",
+      "B) Predictive Maintenance",
+      "C) Web Scraping",
+      "D) Edge Computing"
+    ],
+    "correctAnswer": "A) Data Integration",
+    "explanation": "Data integration platforms and middleware are used to solve the challenge of fragmented data, consolidating various sources into a unified system for effective analysis",
+    "id": "caf3c4q15"
+  },
+  {
+    "chapter": 5,
+    "chapterTitle": "Database Management Systems",
+    "question": "What is the primary function of a Database Management System (DBMS)?",
+    "options": [
+      "A) To create physical network connections between servers",
+      "B) To store, retrieve, and manage structured and unstructured data efficiently while ensuring security and integrity",
+      "C) To permanently replace all manual spreadsheet applications",
+      "D) To format and design front-end user interfaces"
+    ],
+    "correctAnswer": "B) To store, retrieve, and manage structured and unstructured data efficiently while ensuring security and integrity",
+    "explanation": "A DBMS is a powerful software tool that enables organizations to handle vast amounts of structured and unstructured data with precision, security, and scalability",
+    "id": "caf3c5q1"
+  },
+  {
+    "chapter": 5,
+    "chapterTitle": "Database Management Systems",
+    "question": "A customer transfers Rs. 10,000 to another account. The system deducts the money from the sender but crashes before adding it to the receiver. When the system restarts, it completely rolls back the deduction as if it never happened. Which ACID property ensures this \"all or nothing\" execution?",
+    "options": [
+      "A) Atomicity",
+      "B) Consistency",
+      "C) Isolation",
+      "D) Durability"
+    ],
+    "correctAnswer": "A) Atomicity",
+    "explanation": "Atomicity ensures that a transaction is treated as a single, indivisible unit. It guarantees an \"all or nothing\" execution, meaning if any part of the transaction fails, the entire transaction is rolled back",
+    "id": "caf3c5q2"
+  },
+  {
+    "chapter": 5,
+    "chapterTitle": "Database Management Systems",
+    "question": "Two customers try to purchase the last available airline ticket at the exact same millisecond. The DBMS ensures that these concurrent transactions do not interfere with each other. This represents which ACID property?",
+    "options": [
+      "A) Atomicity",
+      "B) Consistency",
+      "C) Isolation",
+      "D) Durability"
+    ],
+    "correctAnswer": "C) Isolation",
+    "explanation": "Isolation ensures that concurrent transactions occur independently without interfering with each other, maintaining data accuracy",
+    "id": "caf3c5q3"
+  },
+  {
+    "chapter": 5,
+    "chapterTitle": "DBMS Architecture (Three-Level Schema)",
+    "question": "Once an online order is confirmed by the DBMS, the changes are permanently saved in the database. Even if a sudden power failure occurs immediately afterward, the order record will not be lost. This is an example of:",
+    "options": [
+      "A) Atomicity",
+      "B) Consistency",
+      "C) Isolation",
+      "D) Durability"
+    ],
+    "correctAnswer": "D) Durability",
+    "explanation": "Durability guarantees that once a transaction is committed, its effects are permanently saved and recoverable, even in the event of a system crash or power failure\n.\n\n--------------------------------------------------------------------------------",
+    "id": "caf3c5q4"
+  },
+  {
+    "chapter": 5,
+    "chapterTitle": "DBMS Architecture (Three-Level Schema)",
+    "question": "In a company's database, the HR department has a view showing employee salaries, while the Sales department has a view showing customer details but cannot see salaries. Which level of the DBMS architecture provides these customized views?",
+    "options": [
+      "A) Internal Level",
+      "B) Conceptual Level",
+      "C) External Level",
+      "D) Physical Level"
+    ],
+    "correctAnswer": "C) External Level",
+    "explanation": "The External Level (or View Level) is the highest level of DBMS architecture. It provides customized views of the database to different users or departments based on their roles, restricting access to irrelevant data",
+    "id": "caf3c5q5"
+  },
+  {
+    "chapter": 5,
+    "chapterTitle": "DBMS Architecture (Three-Level Schema)",
+    "question": "Which level of the DBMS architecture acts as the global logical view of the entire database, defining entities, attributes, and relationships without worrying about how data is physically stored?",
+    "options": [
+      "A) External Level",
+      "B) Conceptual Level",
+      "C) Internal Level",
+      "D) View Level"
+    ],
+    "correctAnswer": "B) Conceptual Level",
+    "explanation": "The Conceptual Level describes what data is stored in the entire database and the relationships among the data. It defines the logic without specifying physical storage details",
+    "id": "caf3c5q6"
+  },
+  {
+    "chapter": 5,
+    "chapterTitle": "Data Independence",
+    "question": "The IT department decides to re-index the database and move the data files to a new, faster SSD storage drive. This change does not affect how the users query the data. This represents which level of the DBMS architecture?",
+    "options": [
+      "A) Conceptual Level",
+      "B) External Level",
+      "C) Internal Level",
+      "D) Application Level"
+    ],
+    "correctAnswer": "C) Internal Level",
+    "explanation": "The Internal Level (or Physical Level) deals with the physical storage of the database on disks, including the use of file structures, data blocks, and indexing strategies\n.\n\n--------------------------------------------------------------------------------",
+    "id": "caf3c5q7"
+  },
+  {
+    "chapter": 5,
+    "chapterTitle": "Data Independence",
+    "question": "The ability to modify the physical storage mechanisms (like changing hard drives or compressing data) without impacting the logical structure or how users access the data is known as:",
+    "options": [
+      "A) Logical Data Independence",
+      "B) Physical Data Independence",
+      "C) Entity Integrity",
+      "D) Referential Integrity"
+    ],
+    "correctAnswer": "B) Physical Data Independence",
+    "explanation": "Physical data independence ensures that changes to the internal storage mechanisms (physical storage) do not impact the logical schema or the way data is accessed by users",
+    "id": "caf3c5q8"
+  },
+  {
+    "chapter": 5,
+    "chapterTitle": "Entity-Relationship (ER) Model & Cardinality",
+    "question": "A database administrator adds a new column, \"Customer_Age\", to an existing table. This modification to the schema does not break the existing front-end software applications. This is an example of:",
+    "options": [
+      "A) Logical Data Independence",
+      "B) Physical Data Independence",
+      "C) Durability",
+      "D) Atomicity"
+    ],
+    "correctAnswer": "A) Logical Data Independence",
+    "explanation": "Logical data independence means that changes to the logical schema (e.g., adding a column) do not affect the external views or the application layer\n.\n\n--------------------------------------------------------------------------------",
+    "id": "caf3c5q9"
+  },
+  {
+    "chapter": 5,
+    "chapterTitle": "Entity-Relationship (ER) Model & Cardinality",
+    "question": "In an Entity-Relationship model, an attribute such as 'FullName' that can be further broken down into 'FirstName' and 'LastName' is classified as a:",
+    "options": [
+      "A) Simple Attribute",
+      "B) Derived Attribute",
+      "C) Composite Attribute",
+      "D) Multivalued Attribute"
+    ],
+    "correctAnswer": "C) Composite Attribute",
+    "explanation": "A composite attribute is an attribute that can be broken down into smaller, meaningful sub-attributes, such as breaking a full name into a first name and a last name",
+    "id": "caf3c5q10"
+  },
+  {
+    "chapter": 5,
+    "chapterTitle": "Entity-Relationship (ER) Model & Cardinality",
+    "question": "A university database shows that one student can enroll in multiple courses, and each course can have multiple students enrolled in it. What type of relationship does this represent?",
+    "options": [
+      "A) One-to-One (1:1)",
+      "B) One-to-Many (1:N)",
+      "C) Many-to-Many (M:N)",
+      "D) Zero-to-Many (0:N)"
+    ],
+    "correctAnswer": "C) Many-to-Many (M:N)",
+    "explanation": "In a Many-to-Many (M:N) relationship, many entity instances can be associated with many instances of another entity (e.g., students and courses)",
+    "id": "caf3c5q11"
+  },
+  {
+    "chapter": 5,
+    "chapterTitle": "Types of DBMS",
+    "question": "What term is used in database design to specify the maximum number of relationship instances in which an entity can participate (such as 1:1, 1:N, or M:N)?",
+    "options": [
+      "A) Atomicity",
+      "B) Normalization",
+      "C) Integrity",
+      "D) Cardinality"
+    ],
+    "correctAnswer": "D) Cardinality",
+    "explanation": "Cardinality specifies the maximum number of relationship instances in which an entity can participate, defining whether a relationship is one-to-one, one-to-many, or many-to-many\n.\n\n--------------------------------------------------------------------------------",
+    "id": "caf3c5q12"
+  },
+  {
+    "chapter": 5,
+    "chapterTitle": "Types of DBMS",
+    "question": "Which type of Database Management System organizes data in a strict tree-like structure where each child record can have only one parent?",
+    "options": [
+      "A) Relational DBMS",
+      "B) Network DBMS",
+      "C) Hierarchical DBMS",
+      "D) Object-Oriented DBMS"
+    ],
+    "correctAnswer": "C) Hierarchical DBMS",
+    "explanation": "A Hierarchical DBMS organizes data in a tree-like structure where data elements are arranged in parent-child relationships, and each child node can only have one parent",
+    "id": "caf3c5q13"
+  },
+  {
+    "chapter": 5,
+    "chapterTitle": "Types of DBMS",
+    "question": "Oracle, MySQL, and Microsoft SQL Server are highly popular systems that organize data into tables containing rows and columns. These are examples of:",
+    "options": [
+      "A) Hierarchical DBMS",
+      "B) Network DBMS",
+      "C) Object-Oriented DBMS",
+      "D) Relational DBMS (RDBMS)"
+    ],
+    "correctAnswer": "D) Relational DBMS (RDBMS)",
+    "explanation": "Relational Database Management Systems (RDBMS) store data in table-based structures with rows (records) and columns (attributes). Popular examples include Oracle, MySQL, and SQL Server",
+    "id": "caf3c5q14"
+  },
+  {
+    "chapter": 5,
+    "chapterTitle": "Types of DBMS",
+    "question": "Which type of DBMS supports concepts like 'Inheritance' and 'Polymorphism', storing data as entities that contain both the data and the methods used to manipulate it?",
+    "options": [
+      "A) Object-Oriented DBMS (OODBMS)",
+      "B) Relational DBMS (RDBMS)",
+      "C) Hierarchical DBMS",
+      "D) Network DBMS"
+    ],
+    "correctAnswer": "A) Object-Oriented DBMS (OODBMS)",
+    "explanation": "An Object-Oriented DBMS (OODBMS) stores data as objects containing both data and methods, and it supports advanced programming concepts like inheritance and polymorphism",
+    "id": "caf3c5q15"
+  },
+  {
+    "chapter": 6,
+    "chapterTitle": "Database Normalization & Data Warehousing",
+    "question": "An organization’s customer database frequently suffers from update anomalies because the same customer’s address is stored in multiple different tables. To minimize this data redundancy and ensure data integrity, the database administrator should apply which process?",
+    "options": [
+      "A) Data Extraction",
+      "B) Database Normalization",
+      "C) Data Warehousing",
+      "D) Horizontal Scaling"
+    ],
+    "correctAnswer": "B) Database Normalization",
+    "explanation": "Database normalization is a systematic process used to organize data in relational databases to minimize redundancy, avoid anomalies, and ensure data integrity",
+    "id": "caf3c6q1"
+  },
+  {
+    "chapter": 6,
+    "chapterTitle": "Database Normalization & Data Warehousing",
+    "question": "A bank's database table stores a customer's 'Phone Number' attribute. However, several customers have submitted two or three phone numbers, which the data entry clerk has entered into a single cell separated by commas. To achieve First Normal Form (1NF), what must be done?",
+    "options": [
+      "A) Ensure all non-key attributes depend on the entire primary key.",
+      "B) Eliminate all foreign keys.",
+      "C) Ensure there are no repeating groups and all attributes are atomic (single-valued).",
+      "D) Remove transitive dependencies."
+    ],
+    "correctAnswer": "C) Ensure there are no repeating groups and all attributes are atomic (single-valued).",
+    "explanation": "A table is in 1NF only if it has no repeating groups and all attributes are atomic, meaning each cell contains only a single, indivisible value",
+    "id": "caf3c6q2"
+  },
+  {
+    "chapter": 6,
+    "chapterTitle": "Database Normalization & Data Warehousing",
+    "question": "A retail company’s 'Order Details' table uses a composite primary key consisting of both OrderID and ProductID. However, the attribute ProductName depends only on the ProductID and not the OrderID. This violates which normal form?",
+    "options": [
+      "A) First Normal Form (1NF)",
+      "B) Second Normal Form (2NF)",
+      "C) Third Normal Form (3NF)",
+      "D) Boyce-Codd Normal Form (BCNF)"
+    ],
+    "correctAnswer": "B) Second Normal Form (2NF)",
+    "explanation": "This is a partial dependency. To achieve Second Normal Form (2NF), no non-key attribute should depend on only a part of a composite primary key",
+    "id": "caf3c6q3"
+  },
+  {
+    "chapter": 6,
+    "chapterTitle": "Database Normalization & Data Warehousing",
+    "question": "In an employee database, the EmployeeID is the primary key. The table includes a DepartmentID column and a DepartmentLocation column. The DepartmentLocation depends on the DepartmentID, which in turn depends on the EmployeeID. To achieve Third Normal Form (3NF), what must the database administrator eliminate?",
+    "options": [
+      "A) Atomic values",
+      "B) Partial dependencies",
+      "C) Transitive dependencies",
+      "D) Composite primary keys",
+      "D) ."
+    ],
+    "correctAnswer": "C) Transitive dependencies",
+    "explanation": "In 3NF, a table must not have transitive dependencies. Non-key attributes (like DepartmentLocation) must not depend on other non-key attributes (like DepartmentI",
+    "id": "caf3c6q4"
+  },
+  {
+    "chapter": 6,
+    "chapterTitle": "OLTP vs. OLAP & Data Warehousing",
+    "question": "When designing a database, an IT team debates whether to fully normalize the data or leave it partially denormalized. What is the primary trade-off of high normalization?",
+    "options": [
+      "A) It increases data redundancy but speeds up all queries.",
+      "B) It increases storage efficiency and data integrity, but complex queries may run slower due to multiple table joins.",
+      "C) It entirely eliminates the need for a primary key.",
+      "D) It allows the database to process unstructured data like videos."
+    ],
+    "correctAnswer": "B) It increases storage efficiency and data integrity, but complex queries may run slower due to multiple table joins.",
+    "explanation": "Normalization trade-offs include increased storage efficiency and simplified maintenance, but it can lead to slower query performance because fetching related data requires joining multiple tables\n.\n\n--------------------------------------------------------------------------------",
+    "id": "caf3c6q5"
+  },
+  {
+    "chapter": 6,
+    "chapterTitle": "OLTP vs. OLAP & Data Warehousing",
+    "question": "A nationwide supermarket chain processes tens of thousands of customer checkout transactions every hour. The system must quickly insert, update, and delete these short, atomic records in real-time. Which type of system is the supermarket using?",
+    "options": [
+      "A) Online Analytical Processing (OLAP)",
+      "B) Online Transaction Processing (OLTP)",
+      "C) Data Warehouse",
+      "D) Data Mart"
+    ],
+    "correctAnswer": "B) Online Transaction Processing (OLTP)",
+    "explanation": "Online Transaction Processing (OLTP) systems are optimized for handling a large volume of short, fast, and atomic real-time transactions, such as processing daily sales",
+    "id": "caf3c6q6"
+  },
+  {
+    "chapter": 6,
+    "chapterTitle": "The ETL Process (Extract, Transform, Load)",
+    "question": "The executive board wants to analyze historical sales trends over the past ten years to make strategic business decisions. They query a system that contains integrated, time-variant, and non-volatile data. Which system are they querying?",
+    "options": [
+      "A) An operational ERP system",
+      "B) A staging area",
+      "C) A Data Warehouse",
+      "D) An OLTP database"
+    ],
+    "correctAnswer": "C) A Data Warehouse",
+    "explanation": "A data warehouse is subject-oriented, integrated, time-variant, and non-volatile, making it specifically designed for historical data analysis and business intelligence rather than daily transactions\n.\n\n--------------------------------------------------------------------------------",
+    "id": "caf3c6q7"
+  },
+  {
+    "chapter": 6,
+    "chapterTitle": "The ETL Process (Extract, Transform, Load)",
+    "question": "During the creation of a data warehouse, raw data is pulled from a CRM system, an ERP system, and several flat files. Before this data is loaded into the main warehouse, it is temporarily stored in an intermediate zone to be scrubbed for duplicates. This zone is called the:",
+    "options": [
+      "A) Presentation Layer",
+      "B) Staging Area",
+      "C) Operational Environment",
+      "D) Data Mart"
+    ],
+    "correctAnswer": "B) Staging Area",
+    "explanation": "The Staging Area is used to temporarily store and clean data (e.g., removing duplicates) before loading it into the data warehouse, preventing corruption of the main warehouse during processing",
+    "id": "caf3c6q8"
+  },
+  {
+    "chapter": 6,
+    "chapterTitle": "The ETL Process (Extract, Transform, Load)",
+    "question": "In the ETL process, standardizing date formats across different systems (e.g., converting DD/MM/YYYY to MM/DD/YYYY) and calculating new metrics from raw figures occurs during which phase?",
+    "options": [
+      "A) Extract",
+      "B) Transform",
+      "C) Load",
+      "D) Presentation"
+    ],
+    "correctAnswer": "B) Transform",
+    "explanation": "The \"Transform\" phase involves cleaning, standardizing, and enriching the raw data to ensure it is structured and consistent before loading",
+    "id": "caf3c6q9"
+  },
+  {
+    "chapter": 6,
+    "chapterTitle": "Data Warehouse Schemas & Data Marts",
+    "question": "To save processing time and bandwidth, a company updates its data warehouse every midnight by only bringing in the new transactions that occurred that specific day, rather than reloading the entire 5-year history. This method is known as:",
+    "options": [
+      "A) Full loading",
+      "B) Real-time analytical processing",
+      "C) Incremental loading",
+      "D) Data purging"
+    ],
+    "correctAnswer": "C) Incremental loading",
+    "explanation": "Incremental loading in ETL refers to adding only new or updated records to the data warehouse, which is much faster than doing a full data load\n.\n\n--------------------------------------------------------------------------------",
+    "id": "caf3c6q10"
+  },
+  {
+    "chapter": 6,
+    "chapterTitle": "Data Warehouse Schemas & Data Marts",
+    "question": "A data architect designs a schema for a new data warehouse. The design features a single central 'Fact Table' containing total sales figures, which is directly linked to denormalized 'Dimension Tables' (like Time, Product, and Customer) radiating outward. This describes a:",
+    "options": [
+      "A) Snowflake Schema",
+      "B) Star Schema",
+      "C) Galaxy Schema",
+      "D) Hierarchical Schema"
+    ],
+    "correctAnswer": "B) Star Schema",
+    "explanation": "The Star Schema is the most basic and widely used structure, featuring a central fact table surrounded by denormalized dimension tables, visually resembling a star",
+    "id": "caf3c6q11"
+  },
+  {
+    "chapter": 6,
+    "chapterTitle": "Data Warehouse Schemas & Data Marts",
+    "question": "To save storage space and ensure stricter data integrity, a database engineer modifies a Star Schema by breaking down the 'Product' dimension table into further sub-tables (e.g., separating 'Product Category' into its own table). This normalized branching structure is a:",
+    "options": [
+      "A) Star Schema",
+      "B) Galaxy Schema",
+      "C) Flat File Schema",
+      "D) Snowflake Schema"
+    ],
+    "correctAnswer": "D) Snowflake Schema",
+    "explanation": "The Snowflake Schema is an extension of the Star Schema where the dimension tables are highly normalized into multiple related sub-tables, resembling a snowflake's branching pattern",
+    "id": "caf3c6q12"
+  },
+  {
+    "chapter": 6,
+    "chapterTitle": "Data Warehouse Schemas & Data Marts",
+    "question": "An enterprise wants to integrate its 'Sales' process and its 'Inventory' process into one analytical model. The database designer creates an architecture with two separate fact tables that share the same dimension tables (like Time and Product). This complex structure is known as a:",
+    "options": [
+      "A) Star Schema",
+      "B) Snowflake Schema",
+      "C) Galaxy Schema (Fact Constellation)",
+      "D) Data Mart"
+    ],
+    "correctAnswer": "C) Galaxy Schema (Fact Constellation)",
+    "explanation": "A Galaxy Schema (or Fact Constellation) contains two or more fact tables that share common dimension tables, enabling integrated analysis across multiple business processes",
+    "id": "caf3c6q13"
+  },
+  {
+    "chapter": 6,
+    "chapterTitle": "Data Warehouse Schemas & Data Marts",
+    "question": "What is the primary trade-off between choosing a Star Schema versus a Snowflake Schema for a data warehouse?",
+    "options": [
+      "A) A Star schema saves storage space, while a Snowflake schema improves query speed.",
+      "B) A Star schema prioritizes fast query speed at the cost of storage efficiency, while a Snowflake schema saves space but slows down queries due to multiple joins.",
+      "C) A Star schema is used for real-time transactions, while a Snowflake schema is used for historical data.",
+      "D) There is no trade-off; they function exactly the same."
+    ],
+    "correctAnswer": "B) A Star schema prioritizes fast query speed at the cost of storage efficiency, while a Snowflake schema saves space but slows down queries due to multiple joins.",
+    "explanation": "Star schemas prioritize query speed over storage efficiency because they are denormalized. Snowflake schemas save storage space through normalization, but the complex joins slow down query performance",
+    "id": "caf3c6q14"
+  },
+  {
+    "chapter": 6,
+    "chapterTitle": "Data Warehouse Schemas & Data Marts",
+    "question": "The Marketing Department of a large corporation finds the main enterprise data warehouse too massive and slow for their specific daily campaign reporting. To solve this, IT builds them a smaller, customized subset of the warehouse containing only marketing-related data. This subset is called a:",
+    "options": [
+      "A) Data Lake",
+      "B) Data Mart",
+      "C) Staging Area",
+      "D) Relational Database"
+    ],
+    "correctAnswer": "B) Data Mart",
+    "explanation": "A Data Mart is a tailored subset of a data warehouse designed to provide faster, focused access to specific business units or departments (like Marketing or HR)",
+    "id": "caf3c6q15"
+  }
+]

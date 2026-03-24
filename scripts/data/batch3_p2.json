@@ -1,0 +1,632 @@
+[
+  {
+    "id": "c13q1",
+    "chapter": 13,
+    "chapterTitle": "Foreign Source Income of a Resident Person",
+    "question": "Under the Income Tax Ordinance, 2001, how are the deductible expenditures relating to foreign-source income treated for a resident person?",
+    "options": [
+      "A) They can be deducted proportionally against both Pakistan-source and foreign-source income.",
+      "B) They are deductible only against the specific foreign-source income to which they relate and cannot be deducted against Pakistan-source income.",
+      "C) They are allowed as a general deductible allowance against the total worldwide income.",
+      "D) They are completely ignored for tax purposes."
+    ],
+    "correctAnswer": "B) They are deductible only against the specific foreign-source income to which they relate and cannot be deducted against Pakistan-source income.",
+    "explanation": "Foreign-source income is computed separately from Pakistan-source income, meaning expenditure incurred in deriving foreign-source income is deductible only from foreign-source income and cannot be deducted against Pakistan-source income."
+  },
+  {
+    "id": "c13q2",
+    "chapter": 13,
+    "chapterTitle": "Foreign Source Income of a Resident Person",
+    "question": "If a resident taxpayer derives foreign-source income from multiple heads (e.g., Business and Property), how must this income be computed?",
+    "options": [
+      "A) All foreign-source income is clubbed together under 'Income from Other Sources'.",
+      "B) All foreign-source income is aggregated into a single 'Foreign Income' pool.",
+      "C) Foreign-source income is computed separately for each head of income.",
+      "D) It is taxed at a flat rate of 15% regardless of the head of income."
+    ],
+    "correctAnswer": "C) Foreign-source income is computed separately for each head of income.",
+    "explanation": "Foreign-source income is computed separately for each head of income. Accordingly, foreign-source income under one head will be computed separately from foreign-source income chargeable under any other head."
+  },
+  {
+    "id": "c13q3",
+    "chapter": 13,
+    "chapterTitle": "Foreign Source Income of a Resident Person",
+    "question": "What is the maximum amount of Foreign Tax Credit (FTC) a resident taxpayer can claim under Section 103?",
+    "options": [
+      "A) The exact amount of foreign income tax paid, with no upper limit.",
+      "B) The amount of Pakistan tax payable in respect of that income, minus a 10% penalty.",
+      "C) The lesser of the foreign income tax paid or the Pakistan tax payable in respect of the net foreign-source income.",
+      "D) 50% of the foreign income tax paid."
+    ],
+    "correctAnswer": "C) The lesser of the foreign income tax paid or the Pakistan tax payable in respect of the net foreign-source income.",
+    "explanation": "A taxpayer shall be allowed a tax credit of an amount equal to the lesser of the foreign income tax paid, or the Pakistan tax payable in respect of the income."
+  },
+  {
+    "id": "c13q4",
+    "chapter": 13,
+    "chapterTitle": "Foreign Source Income of a Resident Person",
+    "question": "For the purpose of calculating the Foreign Tax Credit, how is the \"Pakistan tax payable\" in respect of foreign-source income determined?",
+    "options": [
+      "A) By applying the highest marginal tax slab rate to the foreign income.",
+      "B) By applying the average rate of Pakistan income tax applicable to the taxpayer for the year against the net foreign-source income.",
+      "C) By applying a flat 20% corporate rate to the foreign income.",
+      "D) By computing the tax on foreign income as a separate block."
+    ],
+    "correctAnswer": "B) By applying the average rate of Pakistan income tax applicable to the taxpayer for the year against the net foreign-source income.",
+    "explanation": "The Pakistan tax payable in respect of foreign-source income shall be computed by applying the average rate of Pakistan income tax applicable to the taxpayer for the year against the taxpayer’s net foreign-source income for the year."
+  },
+  {
+    "id": "c13q5",
+    "chapter": 13,
+    "chapterTitle": "Foreign Source Income of a Resident Person",
+    "question": "If a taxpayer’s available Foreign Tax Credit exceeds their Pakistan tax payable on that foreign income for the year, what is the treatment of the unadjusted excess credit?",
+    "options": [
+      "A) It can be carried forward for up to 3 immediately succeeding tax years.",
+      "B) It can be carried back to the preceding tax year.",
+      "C) It can be refunded in cash by the FBR.",
+      "D) It cannot be refunded, carried back, or carried forward."
+    ],
+    "correctAnswer": "D) It cannot be refunded, carried back, or carried forward.",
+    "explanation": "Any tax credit or part of a tax credit allowed for a tax year which is not credited shall not be refunded, carried back to the preceding tax year, or carried forward to the following tax year."
+  },
+  {
+    "id": "c13q6",
+    "chapter": 13,
+    "chapterTitle": "Foreign Source Income of a Resident Person",
+    "question": "To successfully claim a Foreign Tax Credit for a specific tax year, what is the maximum time limit within which the foreign income tax must actually be paid?",
+    "options": [
+      "A) Before the due date of filing the return in Pakistan.",
+      "B) Within one year from the end of the tax year.",
+      "C) Within two years after the end of the tax year in which the foreign income was derived.",
+      "D) The tax must be paid in advance during the tax year."
+    ],
+    "correctAnswer": "C) Within two years after the end of the tax year in which the foreign income was derived.",
+    "explanation": "A foreign tax credit shall be allowed only if the foreign income tax is paid within two years after the end of the tax year in which the foreign income to which the tax relates was derived by the resident taxpayer."
+  },
+  {
+    "id": "c13q7",
+    "chapter": 13,
+    "chapterTitle": "Foreign Source Income of a Resident Person",
+    "question": "Mr. Junaid has a foreign-source business loss of Rs. 800,000 and a foreign-source property income of Rs. 1,000,000 during the same tax year. How will this loss be treated?",
+    "options": [
+      "A) The business loss will be set off against the property income, leaving a net foreign-source income of Rs. 200,000.",
+      "B) The business loss cannot be set off against the property income and must be carried forward to be set off against future foreign-source business income.",
+      "C) The business loss will be set off against his Pakistan-source business income.",
+      "D) The business loss will lapse immediately."
+    ],
+    "correctAnswer": "B) The business loss cannot be set off against the property income and must be carried forward to be set off against future foreign-source business income.",
+    "explanation": "Deductible expenditures incurred by a person in deriving foreign-source income chargeable to tax under a head of income shall be deductible only against that specific income. Therefore, a foreign business loss cannot be adjusted against foreign property income."
+  },
+  {
+    "id": "c13q8",
+    "chapter": 13,
+    "chapterTitle": "Foreign Source Income of a Resident Person",
+    "question": "If a foreign loss sustained under a specific head of income cannot be wholly set off in the current tax year, for how many years can it be carried forward?",
+    "options": [
+      "A) It cannot be carried forward.",
+      "B) Up to 3 immediately succeeding tax years.",
+      "C) Up to 6 immediately succeeding tax years.",
+      "D) Indefinitely."
+    ],
+    "correctAnswer": "C) Up to 6 immediately succeeding tax years.",
+    "explanation": "The foreign loss shall be carried forward to the following tax year and set off against the foreign-source income chargeable to tax under that head, but no foreign loss shall be carried forward to more than six tax years immediately succeeding the tax year for which the loss was computed."
+  },
+  {
+    "id": "c13q9",
+    "chapter": 13,
+    "chapterTitle": "Foreign Source Income of a Resident Person",
+    "question": "Mr. Smith, a UK national, comes to Pakistan solely for employment purposes and stays for two years, making him a resident individual. He earns rental income from a property in London, which is deposited into his UK bank account. Is this rental income taxable in Pakistan?",
+    "options": [
+      "A) Yes, because he is a resident individual in Pakistan.",
+      "B) No, it is exempt because he is a short-term resident and the income is not brought into or received in Pakistan.",
+      "C) Yes, but it will be taxed at a special reduced rate of 15%.",
+      "D) No, because property income is always exempt for foreigners."
+    ],
+    "correctAnswer": "B) No, it is exempt because he is a short-term resident and the income is not brought into or received in Pakistan.",
+    "explanation": "The foreign-source income of a short-term resident individual (present for not exceeding three years and resident solely for employment) is exempt, provided the income is not derived from a business established in Pakistan or brought into/received in Pakistan."
+  },
+  {
+    "id": "c13q10",
+    "chapter": 13,
+    "chapterTitle": "Foreign Source Income of a Resident Person",
+    "question": "Mr. Tariq, a citizen of Pakistan, returns to Pakistan in Tax Year 2026 to permanently settle after living in the UAE for 6 years. He was a non-resident in Pakistan for all 6 preceding years. He sets up a business in Dubai that generates foreign-source income. For which tax years will this foreign-source income be exempt in Pakistan?",
+    "options": [
+      "A) Only for Tax Year 2026.",
+      "B) Tax Year 2026 and Tax Year 2027.",
+      "C) It will never be exempt; it is taxable immediately.",
+      "D) For the first 4 tax years after his return."
+    ],
+    "correctAnswer": "B) Tax Year 2026 and Tax Year 2027.",
+    "explanation": "Any foreign-source income derived by a citizen of Pakistan who was not a resident individual in any of the four preceding tax years shall be exempt from tax in the tax year in which the individual became a resident and in the following one tax year."
+  },
+  {
+    "id": "c13q11",
+    "chapter": 13,
+    "chapterTitle": "Foreign Source Income of a Resident Person",
+    "question": "Under Section 102, a resident individual’s foreign-source salary is completely exempt from tax in Pakistan under which of the following conditions?",
+    "options": [
+      "A) If the salary is remitted to Pakistan through normal banking channels.",
+      "B) If the individual stays outside Pakistan for at least 100 days.",
+      "C) If the individual has paid foreign income tax in respect of that salary.",
+      "D) Foreign-source salary is never exempt for a resident."
+    ],
+    "correctAnswer": "C) If the individual has paid foreign income tax in respect of that salary.",
+    "explanation": "Any foreign-source salary received by a resident individual shall be exempt from tax if the individual has paid foreign income tax in respect of the salary (or if the employer has withheld it and paid it to the foreign revenue authority)."
+  },
+  {
+    "id": "c13q12",
+    "chapter": 13,
+    "chapterTitle": "Foreign Source Income of a Resident Person",
+    "question": "If an individual has multiple tax credits available to apply against their gross tax liability in a tax year, which credit must legally be applied FIRST?",
+    "options": [
+      "A) Tax credit for charitable donations (Sec 61).",
+      "B) Foreign tax credit (Sec 103).",
+      "C) Tax credit for investment in an approved pension fund (Sec 63).",
+      "D) Advance tax deducted at source."
+    ],
+    "correctAnswer": "B) Foreign tax credit (Sec 103).",
+    "explanation": "If a person has more than one type of tax credits available, they shall be applied in the specific order: (a) Foreign tax credit, (b) Tax credit/rebate on donations, investment, etc., and (c) Advance tax and tax deducted/collected at source."
+  },
+  {
+    "id": "c13q13",
+    "chapter": 13,
+    "chapterTitle": "Foreign Source Income of a Resident Person",
+    "question": "Mr. A, a citizen of Pakistan, left the country on 15 August 2025 (Tax Year 2026) to take up a job in Saudi Arabia and remained abroad for the rest of the tax year. He earned a salary of Rs. 3,000,000 in Saudi Arabia during Tax Year 2026. There is no income tax in Saudi Arabia. What is the tax treatment of this salary in Pakistan?",
+    "options": [
+      "A) It is fully taxable because he did not pay any foreign income tax.",
+      "B) It is exempt from tax because he left Pakistan during the tax year and remained abroad for the remainder of that year.",
+      "C) It is added to his Pakistan-source income for rate purposes only.",
+      "D) It is taxable as 'Income from Other Sources'."
+    ],
+    "correctAnswer": "B) It is exempt from tax because he left Pakistan during the tax year and remained abroad for the remainder of that year.",
+    "explanation": "Where a citizen of Pakistan leaves Pakistan during a tax year and remains abroad during that tax year, any foreign-source salary earned by him outside Pakistan (only during that tax year) shall be exempt from tax, completely regardless of whether foreign tax was paid or not."
+  },
+  {
+    "id": "c13q14",
+    "chapter": 13,
+    "chapterTitle": "Foreign Source Income of a Resident Person",
+    "question": "Mr. Zaid has a total taxable income of Rs. 4,000,000, which includes Rs. 3,000,000 as Pakistan-source income and Rs. 1,000,000 as foreign-source 'Income from Other Sources'. His gross Pakistan tax liability on the Rs. 4,000,000 is Rs. 800,000. He paid Rs. 150,000 as foreign income tax on his foreign income. What is his net tax payable in Pakistan? (Assume the Rs. 800,000 is his exact tax).",
+    "options": [
+      "A) Rs. 800,000",
+      "B) Rs. 650,000",
+      "C) Rs. 600,000",
+      "D) Rs. 450,000"
+    ],
+    "correctAnswer": "B) Rs. 650,000",
+    "explanation": "Average rate of Pak tax = (800,000 / 4,000,000) = 20%. Proportionate Pak tax on foreign income = 20% of 1,000,000 = Rs. 200,000. Foreign Tax Credit is the lesser of the foreign tax paid (Rs. 150,000) or Pak tax payable (Rs. 200,000). Net tax payable = Gross Tax (800,000) - FTC (150,000) = Rs. 650,000."
+  },
+  {
+    "id": "c13q15",
+    "chapter": 13,
+    "chapterTitle": "Foreign Source Income of a Resident Person",
+    "question": "When calculating foreign-source income and adjusting losses, how is a foreign-source speculation business treated?",
+    "options": [
+      "A) It is merged with normal foreign-source business income.",
+      "B) It is merged with Pakistan-source speculation business income.",
+      "C) It is treated as a separate head of income distinct from normal business income.",
+      "D) Speculation losses are simply ignored for foreign income."
+    ],
+    "correctAnswer": "C) It is treated as a separate head of income distinct from normal business income.",
+    "explanation": "Income derived by a taxpayer from carrying on a speculation business shall be treated as a separate head of income. Section 67 (apportionment of deductions) applies on the basis that foreign-source income chargeable under a head of income, including a speculation business, is a separate head of income."
+  },
+  {
+    "id": "c14q1",
+    "chapter": 14,
+    "chapterTitle": "Returns",
+    "question": "Which of the following conditions mandates an individual to file a return of income, even if their taxable income is below the general taxable limit?",
+    "options": [
+      "A) Owning a motor vehicle with an engine capacity of 800cc.",
+      "B) Owning a flat with a covered area of 1,500 square feet in a rating area.",
+      "C) Holding a commercial or industrial electricity connection with an annual bill of Rs. 400,000.",
+      "D) Owning immovable property with a land area of 500 square yards or more."
+    ],
+    "correctAnswer": "D) Owning immovable property with a land area of 500 square yards or more.",
+    "explanation": "A person is required to file a return if they own immovable property with a land area of 500 square yards or more, a flat with a covered area of 2,000 square feet or more, a motor vehicle above 1000 CC, or hold a commercial/industrial electricity connection where the annual bill exceeds Rs. 500,000."
+  },
+  {
+    "id": "c14q2",
+    "chapter": 14,
+    "chapterTitle": "Returns",
+    "question": "Which of the following individuals is NOT granted immunity from filing a return of income if they are otherwise required to file solely on the basis of owning immovable property or a motor vehicle?",
+    "options": [
+      "A) A widow",
+      "B) An orphan below the age of 25 years",
+      "C) A senior citizen above 65 years of age",
+      "D) A disabled person"
+    ],
+    "correctAnswer": "C) A senior citizen above 65 years of age",
+    "explanation": "The law specifically grants immunity from filing a return solely based on property/vehicle ownership to a widow, an orphan below the age of 25 years, a disabled person, and a non-resident person. A senior citizen above 65 is not granted this specific immunity."
+  },
+  {
+    "id": "c14q3",
+    "chapter": 14,
+    "chapterTitle": "Returns",
+    "question": "What is the legal implication if a business taxpayer fails to declare their business bank account to the Commissioner through the prescribed registration form?",
+    "options": [
+      "A) A flat penalty of Rs. 100,000 is imposed immediately.",
+      "B) The taxpayer's registration is immediately cancelled.",
+      "C) Any expense incurred for business purposes shall be treated as inadmissible while computing income from business.",
+      "D) The business's assets are immediately seized."
+    ],
+    "correctAnswer": "C) Any expense incurred for business purposes shall be treated as inadmissible while computing income from business.",
+    "explanation": "Every taxpayer must declare the bank account utilized for business transactions; failure to do so means any expense incurred for business purposes shall be inadmissible while computing income from business under section 21."
+  },
+  {
+    "id": "c14q4",
+    "chapter": 14,
+    "chapterTitle": "Returns",
+    "question": "The Commissioner may issue a notice requiring a person to furnish a return of income for past years. If a person has NOT filed a return for any of the last five completed tax years, the Commissioner can issue a notice spanning up to:",
+    "options": [
+      "A) The last 5 completed tax years.",
+      "B) The last 7 completed tax years.",
+      "C) One or more of the last 10 completed tax years.",
+      "D) An indefinite period."
+    ],
+    "correctAnswer": "C) One or more of the last 10 completed tax years.",
+    "explanation": "Generally, a notice can be issued for the last 5 completed tax years, but if a person has not filed a return for any of the last five completed tax years, the notice may be issued in respect of one or more of the last 10 completed tax years."
+  },
+  {
+    "id": "c14q5",
+    "chapter": 14,
+    "chapterTitle": "Returns",
+    "question": "Under the Income Tax General Order for persons liable to file a return but who failed to do so, the Board can place a restriction on foreign travel. However, this travel restriction does NOT apply to:",
+    "options": [
+      "A) Government officials on private tours.",
+      "B) Persons proceeding abroad for Hajj or Umrah.",
+      "C) Any active taxpayer from the previous year.",
+      "D) Directors of public listed companies."
+    ],
+    "correctAnswer": "B) Persons proceeding abroad for Hajj or Umrah.",
+    "explanation": "The restriction on foreign travel for non-filers excludes persons holding a National Identity Card for Overseas Pakistanis (NICOP), minors, students, and persons proceeding abroad for Hajj or Umrah."
+  },
+  {
+    "id": "c14q6",
+    "chapter": 14,
+    "chapterTitle": "Returns",
+    "question": "Under the restrictions placed on economic transactions for \"ineligible persons\" (non-filers), they are strictly barred from:",
+    "options": [
+      "A) Purchasing any motor vehicle regardless of its engine capacity or value.",
+      "B) Registering or transferring immovable property having an FBR value/DC rate exceeding Rs. 100 million.",
+      "C) Opening any bank account in Pakistan.",
+      "D) Making cash withdrawals exceeding Rs. 50 million in all bank accounts."
+    ],
+    "correctAnswer": "B) Registering or transferring immovable property having an FBR value/DC rate exceeding Rs. 100 million.",
+    "explanation": "An ineligible person is restricted from booking/purchasing motor vehicles exceeding Rs. 7 million, opening securities accounts exceeding Rs. 50 million, making cash withdrawals exceeding Rs. 100 million, and registering/transferring immovable property having an FBR value/DC rate exceeding Rs. 100 million."
+  },
+  {
+    "id": "c14q7",
+    "chapter": 14,
+    "chapterTitle": "Returns",
+    "question": "Alpha (Pvt.) Limited maintains a special tax year ending on 31 March 2026. What is the due date for furnishing its annual return of income for this tax year?",
+    "options": [
+      "A) 30 September 2026.",
+      "B) 31 December 2026.",
+      "C) 30 September 2027.",
+      "D) 31 December 2027."
+    ],
+    "correctAnswer": "B) 31 December 2026.",
+    "explanation": "For a company with a tax year ending between 1st January and 30th June, the return is due on or before the 31st of December next following the end of the tax year."
+  },
+  {
+    "id": "c14q8",
+    "chapter": 14,
+    "chapterTitle": "Returns",
+    "question": "An individual discovering an omission in their already filed return wishes to file a revised return. Under which condition is the prior approval of the Commissioner NOT required?",
+    "options": [
+      "A) If the revised return is filed within 60 days of filing the original return.",
+      "B) If the revision decreases the taxable income by less than 10%.",
+      "C) If the revised return is filed by a salaried individual.",
+      "D) Prior approval is always required without exception."
+    ],
+    "correctAnswer": "A) If the revised return is filed within 60 days of filing the original return.",
+    "explanation": "A revised return must generally be accompanied by the approval of the Commissioner in writing; however, this condition shall not apply if the revised return is filed within sixty (60) days of filing the original return."
+  },
+  {
+    "id": "c14q9",
+    "chapter": 14,
+    "chapterTitle": "Returns",
+    "question": "If a taxpayer voluntarily files a revised return and deposits the short-paid tax along with the default surcharge, when will they be completely exempt from paying any penalty?",
+    "options": [
+      "A) If they revise the return after receiving a show-cause notice but before the assessment order.",
+      "B) If they revise the return voluntarily before the receipt of a notice for audit.",
+      "C) If they revise the return during the audit proceedings.",
+      "D) A taxpayer is never exempt from the penalty when revising a return."
+    ],
+    "correctAnswer": "B) If they revise the return voluntarily before the receipt of a notice for audit.",
+    "explanation": "If a taxpayer files a revised return voluntarily along with the deposit of the tax short paid and default surcharge before receipt of a notice for audit or amendment of assessment, no penalty shall be recovered from him. (If revised during audit, a 25% penalty applies)."
+  },
+  {
+    "id": "c14q10",
+    "chapter": 14,
+    "chapterTitle": "Returns",
+    "question": "What is the absolute statutory time limit beyond which a wealth statement CANNOT be revised?",
+    "options": [
+      "A) After the expiry of 1 year from the due date of filing the return.",
+      "B) After the expiry of 3 years from the end of the financial year.",
+      "C) After the expiry of 5 years from the due date of filing of return of income for that tax year.",
+      "D) A wealth statement can be revised indefinitely until an audit is conducted."
+    ],
+    "correctAnswer": "C) After the expiry of 5 years from the due date of filing of return of income for that tax year.",
+    "explanation": "For the removal of doubt, the law clarifies that a wealth statement cannot be revised after the expiry of five years from the due date of filing of the return of income for that tax year."
+  },
+  {
+    "id": "c14q11",
+    "chapter": 14,
+    "chapterTitle": "Returns",
+    "question": "Which of the following individuals is mandatorily required to furnish a Foreign Income and Assets Statement?",
+    "options": [
+      "A) A non-resident Pakistani with foreign assets worth USD 50,000.",
+      "B) A resident individual having foreign income of USD 12,000.",
+      "C) A resident company having a foreign subsidiary.",
+      "D) A resident individual having foreign assets worth USD 80,000."
+    ],
+    "correctAnswer": "B) A resident individual having foreign income of USD 12,000.",
+    "explanation": "Every resident taxpayer being an individual having foreign income of not less than USD 10,000 OR having foreign assets with a value of not less than USD 100,000 shall furnish a foreign income and assets statement."
+  },
+  {
+    "id": "c14q12",
+    "chapter": 14,
+    "chapterTitle": "Returns",
+    "question": "Mr. Tariq decided to permanently close his trading business on 20 October 2025. Within how many days is he legally required to give a notice in writing to the Commissioner regarding the discontinuance of his business?",
+    "options": [
+      "A) 15 days",
+      "B) 30 days",
+      "C) 45 days",
+      "D) By the end of the tax year."
+    ],
+    "correctAnswer": "A) 15 days",
+    "explanation": "Any person discontinuing a business shall give the Commissioner a notice in writing to that effect within fifteen days of the discontinuance."
+  },
+  {
+    "id": "c14q13",
+    "chapter": 14,
+    "chapterTitle": "Returns",
+    "question": "A taxpayer applies for an extension of time to file their income tax return, and the Commissioner grants a 15-day extension. What is the impact of this extension on the payment of the tax due?",
+    "options": [
+      "A) The due date for payment of tax is also extended by 15 days without any default surcharge.",
+      "B) The extension does not change the due date for the payment of income tax, and default surcharge shall be chargeable for the delayed payment.",
+      "C) The taxpayer is exempt from paying the tax until the assessment is finalized.",
+      "D) The default surcharge is waived, but a fixed penalty is imposed."
+    ],
+    "correctAnswer": "B) The extension does not change the due date for the payment of income tax, and default surcharge shall be chargeable for the delayed payment.",
+    "explanation": "An extension of time granted for furnishing the return shall not change the due date for payment of income tax payable on the basis of the return, and default surcharge shall be chargeable for the delayed payment of tax due."
+  },
+  {
+    "id": "c14q14",
+    "chapter": 14,
+    "chapterTitle": "Returns",
+    "question": "When filing a wealth statement, under what exact condition must a resident individual include the assets and liabilities of their spouse?",
+    "options": [
+      "A) The spouse's assets must always be included.",
+      "B) Only if the spouse's assets exceed Rs. 5 million.",
+      "C) Only if the spouse is dependent on the taxpayer.",
+      "D) The spouse's assets are never included in the individual's wealth statement."
+    ],
+    "correctAnswer": "C) Only if the spouse is dependent on the taxpayer.",
+    "explanation": "The wealth statement must include the assets of the person’s spouse, minor children, and other dependents. The law specifically clarifies that the assets of the spouse shall only be included in the wealth statement of the person if the spouse is dependent."
+  },
+  {
+    "id": "c14q15",
+    "chapter": 14,
+    "chapterTitle": "Returns",
+    "question": "Mr. Zaid, who has not filed his return of income for many years, has a foreign bank account that he never declared. The Commissioner wishes to issue a notice requiring him to file his return. What is the time limitation for the Commissioner to issue this notice regarding past tax years?",
+    "options": [
+      "A) 5 completed tax years.",
+      "B) 10 completed tax years.",
+      "C) 15 completed tax years.",
+      "D) The time limitation does not apply."
+    ],
+    "correctAnswer": "D) The time limitation does not apply.",
+    "explanation": "While standard limits are 5 or 10 years, the time-limitation shall not apply if the Commissioner is satisfied, on the basis of reasons recorded in writing, that a person who failed to furnish his return has foreign income or owns foreign assets."
+  },
+  {
+    "id": "c15q1",
+    "chapter": 15,
+    "chapterTitle": "Assessment, Records and Audit",
+    "question": "Under the Universal Self-Assessment Scheme (USAS) principles in Section 120, if a taxpayer furnishes a complete return of income, when is it treated to be an assessment order issued by the Commissioner?",
+    "options": [
+      "A) On the exact date the return is physically received by the FBR.",
+      "B) On the day the adjustments (if any) were made through the automated system under section 120(2A).",
+      "C) Exactly 180 days after the return is filed.",
+      "D) On the last day of the financial year."
+    ],
+    "correctAnswer": "B) On the day the adjustments (if any) were made through the automated system under section 120(2A).",
+    "explanation": "If a taxpayer furnishes a complete return, the Commissioner shall be treated to have assessed the income, and the return shall be taken to be an assessment order issued on the day the adjustments were made under section 120(2A)."
+  },
+  {
+    "id": "c15q2",
+    "chapter": 15,
+    "chapterTitle": "Assessment, Records and Audit",
+    "question": "If a return of income is filed and no adjustments are made by the FBR's automated system within a specified period, the amounts declared by the taxpayer are deemed to have been taken as adjusted amounts. What is this statutory period?",
+    "options": [
+      "A) 3 months from the filing of the return.",
+      "B) 6 months from the filing of the return.",
+      "C) 1 year from the end of the tax year.",
+      "D) 5 years from the filing of the return."
+    ],
+    "correctAnswer": "B) 6 months from the filing of the return.",
+    "explanation": "Where no adjustments have been made within 6 months of the filing of the return, the amounts specified in the return as declared by the taxpayer shall be deemed to have been taken as adjusted amounts on the day the return was filed."
+  },
+  {
+    "id": "c15q3",
+    "chapter": 15,
+    "chapterTitle": "Assessment, Records and Audit",
+    "question": "What is the standard statutory time limit within which a Best Judgment Assessment order under Section 121 must be issued?",
+    "options": [
+      "A) Within 5 years from the end of the financial year in which the return was filed.",
+      "B) Within 6 years from the end of the tax year to which it relates.",
+      "C) Within 10 years from the end of the tax year to which it relates.",
+      "D) There is no time limit for a Best Judgment Assessment."
+    ],
+    "correctAnswer": "B) Within 6 years from the end of the tax year to which it relates.",
+    "explanation": "An assessment order under section 121 (Best Judgment Assessment) shall only be issued within six years from the end of the tax year to which it relates."
+  },
+  {
+    "id": "c15q4",
+    "chapter": 15,
+    "chapterTitle": "Assessment, Records and Audit",
+    "question": "If a taxpayer fails to produce books of accounts during an audit, how may the Commissioner determine the taxable income for making a Best Judgment Assessment?",
+    "options": [
+      "A) By applying a flat 15% tax rate on the taxpayer's bank deposits.",
+      "B) By arbitrarily adopting the taxable income of the preceding tax year.",
+      "C) On the basis of sectoral benchmark ratios prescribed by the Board.",
+      "D) By seizing the taxpayer's personal assets."
+    ],
+    "correctAnswer": "C) On the basis of sectoral benchmark ratios prescribed by the Board.",
+    "explanation": "For the purposes of making a best judgment assessment, the Commissioner may determine taxable income on the basis of sectoral benchmark ratios prescribed by the Board (e.g., gross profit ratio, net profit ratio, wastage ratio, etc.)."
+  },
+  {
+    "id": "c15q5",
+    "chapter": 15,
+    "chapterTitle": "Assessment, Records and Audit",
+    "question": "Under which of the following circumstances is the Commissioner empowered to issue a \"Provisional Assessment Order\" under Section 123 before making a best judgment or amended assessment?",
+    "options": [
+      "A) When a taxpayer fails to file an annual wealth statement.",
+      "B) When a mathematical error is found in the return.",
+      "C) When an offshore asset not declared earlier is discovered or a concealed asset is impounded.",
+      "D) When a taxpayer files a revised return voluntarily."
+    ],
+    "correctAnswer": "C) When an offshore asset not declared earlier is discovered or a concealed asset is impounded.",
+    "explanation": "A provisional assessment is applicable in cases where any concealed asset of a person is impounded by any government agency, or where an offshore asset of any person, not declared earlier, is discovered."
+  },
+  {
+    "id": "c15q6",
+    "chapter": 15,
+    "chapterTitle": "Assessment, Records and Audit",
+    "question": "An assessment order can be amended by the Commissioner if he has acquired \"definite information\" from an audit. Which of the following situations also legally empowers the Commissioner to amend an assessment order under Section 122(5A)?",
+    "options": [
+      "A) The taxpayer requests a change in the accounting method.",
+      "B) The Commissioner considers the original assessment to be erroneous in so far as it is prejudicial to the interest of revenue.",
+      "C) The Commissioner simply changes his opinion on a previously accepted legal interpretation.",
+      "D) The taxpayer changes their business address."
+    ],
+    "correctAnswer": "B) The Commissioner considers the original assessment to be erroneous in so far as it is prejudicial to the interest of revenue.",
+    "explanation": "The Commissioner may amend, or further amend, an assessment order if he considers that it is erroneous in so far as it is prejudicial to the interest of revenue. Note that a mere change of opinion does not constitute definite information or make the assessment erroneous and prejudicial."
+  },
+  {
+    "id": "c15q7",
+    "chapter": 15,
+    "chapterTitle": "Assessment, Records and Audit",
+    "question": "What is the maximum time limit for the Commissioner to amend an assessment order under Section 122?",
+    "options": [
+      "A) 3 years from the end of the tax year to which it relates.",
+      "B) 5 years from the end of the financial year in which the original assessment order is issued or treated as issued.",
+      "C) 6 years from the end of the tax year.",
+      "D) 10 years from the end of the tax year."
+    ],
+    "correctAnswer": "B) 5 years from the end of the financial year in which the original assessment order is issued or treated as issued.",
+    "explanation": "Amendment of assessment shall not be made after the expiry of 5 years from the end of the financial year in which the order is issued or treated as issued."
+  },
+  {
+    "id": "c15q8",
+    "chapter": 15,
+    "chapterTitle": "Assessment, Records and Audit",
+    "question": "The Commissioner Inland Revenue has the power to suo-moto revise an order passed by a subordinate officer under Section 122A. Which of the following is a strict condition for such a revision?",
+    "options": [
+      "A) The revised order must increase the tax liability.",
+      "B) The order shall not be prejudicial to the person to whom the order relates.",
+      "C) The revision must be made within 180 days.",
+      "D) The taxpayer must request the revision in writing."
+    ],
+    "correctAnswer": "B) The order shall not be prejudicial to the person to whom the order relates.",
+    "explanation": "The Commissioner may suo-moto call for the record and revise an order, but any such order shall not be prejudicial to the person to whom the order relates."
+  },
+  {
+    "id": "c15q9",
+    "chapter": 15,
+    "chapterTitle": "Assessment, Records and Audit",
+    "question": "If a taxpayer discovers an omission in his previously filed and assessed return and subsequently files a revised return of income (fulfilling all conditions including payment of tax), what is the legal status of this revised return?",
+    "options": [
+      "A) It is kept pending until a formal audit is conducted.",
+      "B) It is treated as an amended assessment order issued by the Commissioner on the day the revised return was furnished.",
+      "C) It is treated as a fresh appeal to the Commissioner (Appeals).",
+      "D) It automatically triggers a mandatory best judgment assessment."
+    ],
+    "correctAnswer": "B) It is treated as an amended assessment order issued by the Commissioner on the day the revised return was furnished.",
+    "explanation": "If a taxpayer furnishes a revised return of income, the Commissioner shall treat the revised return as an amended assessment, and it shall be taken to be an amended assessment order issued to the taxpayer on the day the revised return was furnished."
+  },
+  {
+    "id": "c15q10",
+    "chapter": 15,
+    "chapterTitle": "Assessment, Records and Audit",
+    "question": "A taxpayer intends to settle an amendment of assessment case through the Assessment Oversight Committee (Agreed Assessment). Who among the following is NOT a member of this Committee?",
+    "options": [
+      "A) Chief Commissioner Inland Revenue.",
+      "B) Commissioner Inland Revenue.",
+      "C) Additional Commissioner Inland Revenue.",
+      "D) A reputable businessman nominated by the Chamber of Commerce."
+    ],
+    "correctAnswer": "D) A reputable businessman nominated by the Chamber of Commerce.",
+    "explanation": "Under Section 122D, the Assessment Oversight Committee comprises exactly three tax authorities: the Chief Commissioner Inland Revenue, the Commissioner Inland Revenue, and the Additional Commissioner Inland Revenue. (A businessman is a member of the ADRC, not the Assessment Oversight Committee)."
+  },
+  {
+    "id": "c15q11",
+    "chapter": 15,
+    "chapterTitle": "Assessment, Records and Audit",
+    "question": "Generally, taxpayers are required to maintain books of accounts and records for six years after the end of the tax year to which they relate. However, this 6-year time limit is NOT applicable in which of the following cases?",
+    "options": [
+      "A) Records relating to domestic salary income.",
+      "B) Records relating to foreign source income, assets, and expenses, which must be maintained for an indefinite period.",
+      "C) Records of a company with a turnover below Rs. 100 million.",
+      "D) Records of agricultural income."
+    ],
+    "correctAnswer": "B) Records relating to foreign source income, assets, and expenses, which must be maintained for an indefinite period.",
+    "explanation": "The time limit of 6 years will not be applicable in the case of foreign source income, assets, expenses, etc., and the taxpayer is required to maintain this specific record for an indefinite period of time."
+  },
+  {
+    "id": "c15q12",
+    "chapter": 15,
+    "chapterTitle": "Assessment, Records and Audit",
+    "question": "The Commissioner is generally restricted from selecting a person's income tax affairs for audit under Section 177 if they have been audited in any of the preceding three tax years. Under what condition can this restriction be bypassed?",
+    "options": [
+      "A) If the taxpayer is a public limited company.",
+      "B) If the Commissioner obtains prior approval from the Federal Board of Revenue (FBR).",
+      "C) If the taxpayer failed to file a wealth statement.",
+      "D) If the taxpayer's turnover exceeds Rs. 500 million."
+    ],
+    "correctAnswer": "B) If the Commissioner obtains prior approval from the Federal Board of Revenue (FBR).",
+    "explanation": "The provision for selection of a person for audit shall not apply if their tax affairs have been audited in any of the preceding three tax years, provided that the Commissioner may still select them for audit with the specific approval of the Board."
+  },
+  {
+    "id": "c15q13",
+    "chapter": 15,
+    "chapterTitle": "Assessment, Records and Audit",
+    "question": "If a registered person voluntarily files a revised return and deposits the tax sought to be evaded along with default surcharge during an audit, but before the issuance of a show-cause notice under section 122(9), what is the penalty consequence?",
+    "options": [
+      "A) No penalty will be recovered.",
+      "B) 25% of the leviable penalty must be paid.",
+      "C) 50% of the leviable penalty must be paid.",
+      "D) 100% of the leviable penalty must be paid."
+    ],
+    "correctAnswer": "B) 25% of the leviable penalty must be paid.",
+    "explanation": "If the taxpayer deposits the amount pointed out during the audit (or before the show cause notice), he shall deposit the evaded tax, default surcharge, and 25% of the penalties leviable. (If done before notice of audit, 0% penalty; if after show cause, 50% penalty)."
+  },
+  {
+    "id": "c15q14",
+    "chapter": 15,
+    "chapterTitle": "Assessment, Records and Audit",
+    "question": "The Federal Board of Revenue (FBR) may appoint a Special Audit Panel to conduct a forensic audit of a taxpayer. Who is legally required to head this special audit panel?",
+    "options": [
+      "A) A senior partner from a firm of Chartered Accountants.",
+      "B) An independent technical expert.",
+      "C) A Chairman who shall be an Officer of Inland Revenue.",
+      "D) A retired judge of the High Court."
+    ],
+    "correctAnswer": "C) A Chairman who shall be an Officer of Inland Revenue.",
+    "explanation": "The Special Audit Panel shall be headed by a Chairman who must be an officer of Inland Revenue."
+  },
+  {
+    "id": "c15q15",
+    "chapter": 15,
+    "chapterTitle": "Assessment, Records and Audit",
+    "question": "Under Section 175B of the Income Tax Ordinance, 2001, which authority is empowered to compute the \"indicative income and tax liability\" of a person using artificial intelligence or mathematical modeling for the broadening of the tax base?",
+    "options": [
+      "A) The Securities and Exchange Commission of Pakistan (SECP).",
+      "B) The Federal Investigation Agency (FIA).",
+      "C) The National Database and Registration Authority (NADRA).",
+      "D) The State Bank of Pakistan (SBP)."
+    ],
+    "correctAnswer": "C) The National Database and Registration Authority (NADRA).",
+    "explanation": "The National Database and Registration Authority (NADRA) may compute indicative income and tax liability by use of artificial intelligence, mathematical or statistical modeling, which the FBR can then use to issue tax notices."
+  }
+]
