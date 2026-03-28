@@ -3,11 +3,15 @@ import path from 'path';
 
 function getRawText() {
     const file1 = path.join(__dirname, 'caf3-raw.txt');
+    const file2 = path.join(__dirname, 'caf3-raw-part2.txt');
     const file3 = path.join(__dirname, 'caf3-raw-part3.txt');
     
     let text = '';
     if (fs.existsSync(file1)) {
         text += fs.readFileSync(file1, 'utf-8') + '\n\n';
+    }
+    if (fs.existsSync(file2)) {
+        text += fs.readFileSync(file2, 'utf-8') + '\n\n';
     }
     if (fs.existsSync(file3)) {
         text += fs.readFileSync(file3, 'utf-8') + '\n\n';

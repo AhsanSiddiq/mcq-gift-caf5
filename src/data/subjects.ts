@@ -52,7 +52,7 @@ export const cafSubjects: Subject[] = [
     title: "Data, Systems and Risks",
     level: "CAF",
     description: "Information technology, digital reporting, and risk management.",
-    isAvailable: false,
+    isAvailable: true,
   },
   {
     id: "caf-4",

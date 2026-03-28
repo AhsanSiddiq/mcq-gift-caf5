@@ -22,6 +22,18 @@ async function parseAndSeed(filename: string) {
   const content = fs.readFileSync(filePath, 'utf-8');
   const questions: any[] = JSON.parse(content);
 
+  console.log(`Deleting existing ${subjectId} questions from database...`);
+  const { error: deleteError } = await supabase
+    .from('questions')
+    .delete()
+    .eq('subject_id', subjectId);
+    
+  if (deleteError) {
+    console.error('Error deleting existing questions:', deleteError);
+    return;
+  }
+  console.log('Successfully deleted existing questions.');
+
   console.log(`Parsed ${questions.length} questions from ${filename}`);
   let successCount = 0;
   
