@@ -16,9 +16,8 @@ if (!supabaseUrl || !supabaseServiceKey) {
 
 const supabase = createClient(supabaseUrl, supabaseServiceKey);
 
-async function importCaf4() {
-  const subjectId = 'caf-4';
-  const filePath = path.join(process.cwd(), 'scripts', 'caf4-bl.json');
+async function seedSubject(subjectId: string, filename: string) {
+  const filePath = path.join(process.cwd(), 'scripts', filename);
   const rawData = fs.readFileSync(filePath, 'utf8');
   const questions = JSON.parse(rawData);
 
@@ -26,15 +25,7 @@ async function importCaf4() {
 
   // 1. Delete existing questions for this subject
   console.log(`Deleting existing ${subjectId} questions...`);
-  const { error: deleteError } = await supabase
-    .from('questions')
-    .delete()
-    .eq('subject_id', subjectId);
-
-  if (deleteError) {
-    console.error('Error deleting existing questions:', deleteError);
-    return;
-  }
+  await supabase.from('questions').delete().eq('subject_id', subjectId);
 
   let count = 0;
   for (const q of questions) {
@@ -62,10 +53,8 @@ async function importCaf4() {
 
     // Insert options
     const optionsToInsert = q.options.map((opt: string) => {
-      const key = opt.substring(0, 1); // 'A', 'B', 'C', 'D'
+      const key = opt.substring(0, 1);
       const text = opt.includes(') ') ? opt.split(') ').slice(1).join(') ').trim() : opt.trim();
-      
-      // Match the correct answer
       const isCorrect = opt.trim() === q.correctAnswer.trim();
 
       return {
@@ -84,11 +73,19 @@ async function importCaf4() {
       console.error(`Error inserting options for question ${q.id}:`, optError);
     } else {
       count++;
-      if (count % 20 === 0) console.log(`Imported ${count}/${questions.length} questions...`);
     }
   }
 
   console.log(`Successfully imported ${count} questions for ${subjectId}`);
 }
 
-importCaf4().catch(console.error);
+async function runSplitImport() {
+  // Clear old integrated subject
+  console.log('Clearing old caf-4 integrated subject...');
+  await supabase.from('questions').delete().eq('subject_id', 'caf-4');
+
+  await seedSubject('caf-4-bl', 'caf4-bl-portion.json');
+  await seedSubject('caf-4-cl', 'caf4-cl-portion.json');
+}
+
+runSplitImport().catch(console.error);

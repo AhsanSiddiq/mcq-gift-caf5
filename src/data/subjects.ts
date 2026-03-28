@@ -55,10 +55,17 @@ export const cafSubjects: Subject[] = [
     isAvailable: true,
   },
   {
-    id: "caf-4",
-    title: "Business Law Dynamics",
-    level: "CAF",
-    description: "Integrated company and mercantile legal frameworks.",
+    id: 'caf-4-bl',
+    title: 'Business Law (Portion)',
+    level: 'CAF',
+    description: 'Mercantile and Business Law dynamics.',
+    isAvailable: true,
+  },
+  {
+    id: 'caf-4-cl',
+    title: 'Company Law (Portion)',
+    level: 'CAF',
+    description: 'Companies Act, 2017 and related regulations.',
     isAvailable: true,
   },
   {
