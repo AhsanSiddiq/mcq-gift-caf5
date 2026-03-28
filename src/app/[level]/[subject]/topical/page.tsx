@@ -117,7 +117,7 @@ export default function TopicalPage() {
                   {showCompanyLawHeader && (
                     <div className="flex flex-col gap-1 mt-6 mb-1 px-2">
                        <h2 className="font-bold text-xl" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>Part II: Company Law</h2>
-                       <p className="text-sm" style={{ color: "var(--text-2)", fontFamily: "var(--font-inter), sans-serif" }}>Chapters 16 to 25 covering the Companies Act, 2017.</p>
+                       <p className="text-sm" style={{ color: "var(--text-2)", fontFamily: "var(--font-inter), sans-serif" }}>Chapters 1 to 10 covering the Companies Act, 2017.</p>
                     </div>
                   )}
                   <Link
