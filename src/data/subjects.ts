@@ -55,6 +55,13 @@ export const cafSubjects: Subject[] = [
     isAvailable: true,
   },
   {
+    id: "caf-4",
+    title: "Business Law Dynamics",
+    level: "CAF",
+    description: "Mercantile and Company Law combined.",
+    isAvailable: true,
+  },
+  {
     id: 'caf-4-bl',
     title: 'Business Law (Portion)',
     level: 'CAF',

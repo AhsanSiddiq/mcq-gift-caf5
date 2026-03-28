@@ -1,0 +1,128 @@
+[
+  {
+    "id": "caf4-q186",
+    "chapter": 1,
+    "chapterTitle": "Company: Introduction, types and registration",
+    "question": "According to the Companies Act, 2017, what is a key restriction placed on a 'private company' by its articles of association?",
+    "options": [
+      "A) It must issue a prospectus to the public.",
+      "B) It restricts the right to transfer its shares.",
+      "C) It must have a minimum of fifty members.",
+      "D) It cannot have persons in its employment as members."
+    ],
+    "correctAnswer": "B) It restricts the right to transfer its shares.",
+    "explanation": "A private company is defined as a company which, by its articles, restricts the right to transfer its shares and limits the number of its members to fifty (not including persons in the employment of the company) [1]."
+  },
+  {
+    "id": "caf4-q187",
+    "chapter": 2,
+    "chapterTitle": "Memorandum and articles",
+    "question": "Under the Companies Act, 2017, in which specific document is the 'principal line of business clause' required to be stated?",
+    "options": [
+      "A) The Articles of Association.",
+      "B) The Memorandum of Association.",
+      "C) The Prospectus.",
+      "D) The Statutory Declaration."
+    ],
+    "correctAnswer": "B) The Memorandum of Association.",
+    "explanation": "The principal line of business clause is a mandatory part and parcel of the Memorandum of Association [5, 6]."
+  },
+  {
+    "id": "caf4-q188",
+    "chapter": 3,
+    "chapterTitle": "Directors",
+    "question": "What is the statutory requirement regarding the frequency of board meetings for the directors of a public company?",
+    "options": [
+      "A) They must meet at least once every month.",
+      "B) They must meet at least once in each quarter of a year.",
+      "C) They must meet bi-annually.",
+      "D) They must meet only prior to the Annual General Meeting."
+    ],
+    "correctAnswer": "B) They must meet at least once in each quarter of a year.",
+    "explanation": "The directors of a public company are required to meet at least once in each quarter of a year [8]."
+  },
+  {
+    "id": "caf4-q189",
+    "chapter": 5,
+    "chapterTitle": "Share capital and commencement of business",
+    "question": "How is a 'share' legally characterized under the Companies Act?",
+    "options": [
+      "A) As an immovable property registered with the local land authority.",
+      "B) As a transferable moveable property carrying rights and obligations.",
+      "C) As a non-transferable asset belonging exclusively to the directors.",
+      "D) As a debt instrument yielding fixed interest."
+    ],
+    "correctAnswer": "B) As a transferable moveable property carrying rights and obligations.",
+    "explanation": "A share means a share in the share capital of a company and is a form of transferable moveable property carrying rights and obligations as per the articles of association [9, 10]."
+  },
+  {
+    "id": "caf4-q190",
+    "chapter": 6,
+    "chapterTitle": "Mortgages and charges",
+    "question": "Under the Companies Act, 2017, the memorandum and articles of association are deemed to include implied borrowing powers. However, what is the primary condition for a public company having share capital to exercise this borrowing power?",
+    "options": [
+      "A) It must secure approval from the Securities and Exchange Commission of Pakistan (SECP).",
+      "B) It must have at least 50 members on its register.",
+      "C) It cannot exercise any borrowing power unless it is entitled to commence business.",
+      "D) It must first declare a dividend for its shareholders."
+    ],
+    "correctAnswer": "C) It cannot exercise any borrowing power unless it is entitled to commence business.",
+    "explanation": "A public company having share capital is restricted from exercising any of its implied borrowing powers (which include mortgaging or pledging assets) until it is legally entitled to commence business."
+  },
+  {
+    "id": "caf4-q191",
+    "chapter": 7,
+    "chapterTitle": "Meetings and resolutions",
+    "question": "According to the Companies Act, 2017, what is the minimum voting power required for members present at a general meeting to demand a poll on a resolution?",
+    "options": [
+      "A) 5% of the company's voting power",
+      "B) 10% of the company's voting power",
+      "C) 15% of the company's voting power",
+      "D) 25% of the company's voting power"
+    ],
+    "correctAnswer": "C) 15% of the company's voting power",
+    "explanation": "A poll on a resolution can be demanded by one or more members present at the general meeting who hold at least 15% of the company's voting power."
+  },
+  {
+    "id": "caf4-q192",
+    "chapter": 8,
+    "chapterTitle": "Distribution of profits",
+    "question": "During an Annual General Meeting, what restriction applies to the members regarding the final dividend proposed by the board of directors?",
+    "options": [
+      "A) The members cannot accept the proposed dividend.",
+      "B) The members can increase the amount of dividend proposed by the directors.",
+      "C) The members cannot increase the amount of dividend proposed by the directors.",
+      "D) The members cannot decrease the amount of dividend proposed by the directors."
+    ],
+    "correctAnswer": "C) The members cannot increase the amount of dividend proposed by the directors.",
+    "explanation": "While members at a general meeting can accept, reject, or decrease the dividend recommended by the board of directors, they do not have the power to increase the proposed dividend amount."
+  },
+  {
+    "id": "caf4-q193",
+    "chapter": 9,
+    "chapterTitle": "Investments and disclosure of interest",
+    "question": "Byzantium Limited (BL) is the holding company of Purple Limited (PL). BL transfers ten shares of PL into the names of two of its directors. What is the most likely legal reason for this transfer?",
+    "options": [
+      "A) To allow the directors to claim personal dividends.",
+      "B) To avoid paying corporate tax on those specific shares.",
+      "C) To ensure that the number of PL's members shall be in accordance with the statutory limit.",
+      "D) To hide the true ownership of the subsidiary from the SECP."
+    ],
+    "correctAnswer": "C) To ensure that the number of PL's members shall be in accordance with the statutory limit.",
+    "explanation": "A holding company may transfer a nominal number of shares of its wholly-owned subsidiary to its nominees (like directors) to ensure the subsidiary meets the minimum statutory requirement for the number of members."
+  },
+  {
+    "id": "caf4-q194",
+    "chapter": 10,
+    "chapterTitle": "Accounts and annual return",
+    "question": "For how long is a company legally required to preserve its books of accounts in good order?",
+    "options": [
+      "A) For a period of at least 5 years immediately preceding a financial year.",
+      "B) For a period of at least 10 years immediately preceding a financial year.",
+      "C) For a period of at least 15 years immediately preceding a financial year.",
+      "D) Permanently, for the entire life of the company."
+    ],
+    "correctAnswer": "B) For a period of at least 10 years immediately preceding a financial year.",
+    "explanation": "The Companies Act mandates that books of accounts must be preserved in good order for a period of at least 10 years immediately preceding a financial year."
+  }
+]

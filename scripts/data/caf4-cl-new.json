@@ -1,0 +1,632 @@
+[
+  {
+    "id": "v2c1q1",
+    "chapter": 1,
+    "chapterTitle": "Company: Introduction, types and registration",
+    "question": "According to the Companies Act, 2017, what is a key restriction placed on a 'private company' by its articles of association?",
+    "options": [
+      "A) It must issue a prospectus to the public.",
+      "B) It restricts the right to transfer its shares.",
+      "C) It must have a minimum of fifty members.",
+      "D) It cannot have persons in its employment as members."
+    ],
+    "correctAnswer": "B) It restricts the right to transfer its shares.",
+    "explanation": "A private company is defined as a company which, by its articles, restricts the right to transfer its shares and limits the number of its members to fifty (not including persons in the employment of the company) [1]."
+  },
+  {
+    "id": "v2c1q2",
+    "chapter": 1,
+    "chapterTitle": "Company: Introduction, types and registration",
+    "question": "Which of the following suffixes correctly identifies a single member company?",
+    "options": [
+      "A) (Private) Limited",
+      "B) (PLC)",
+      "C) (SMC-Private) Limited",
+      "D) (Guarantee) Limited"
+    ],
+    "correctAnswer": "C) (SMC-Private) Limited",
+    "explanation": "A single member company is specifically identified by the suffix '(SMC-Private) Limited' [2]."
+  },
+  {
+    "id": "v2c1q3",
+    "chapter": 1,
+    "chapterTitle": "Company: Introduction, types and registration",
+    "question": "In the case of a company limited by guarantee, what do the members explicitly undertake in the memorandum of association?",
+    "options": [
+      "A) To pay annual dividends to the company.",
+      "B) To contribute a specified amount to the assets of the company in the event of it being wound up.",
+      "C) To purchase a minimum number of shares.",
+      "D) To manage the daily affairs of the business."
+    ],
+    "correctAnswer": "B) To contribute a specified amount to the assets of the company in the event of it being wound up.",
+    "explanation": "The memorandum of association of a company limited by guarantee specifies the amount that the members respectively undertake to contribute to the assets of the company if it is wound up [3]."
+  },
+  {
+    "id": "v2c1q4",
+    "chapter": 1,
+    "chapterTitle": "Company: Introduction, types and registration",
+    "question": "Under the Companies Act, 2017, what is the prerequisite for a person to officially become a member of a company with a share capital?",
+    "options": [
+      "A) Attending at least one general meeting.",
+      "B) Opening a bank account in the company's name.",
+      "C) The person's agreement to become a member and the allotment of shares to him.",
+      "D) Being employed by the company for a minimum of one year."
+    ],
+    "correctAnswer": "C) The person's agreement to become a member and the allotment of shares to him.",
+    "explanation": "A person becomes a member of a company following their agreement to become a member and the subsequent allotment of shares to them [3]."
+  },
+  {
+    "id": "v2c1q5",
+    "chapter": 1,
+    "chapterTitle": "Company: Introduction, types and registration",
+    "question": "If a company intends to raise capital from the general public, what specific document must it file?",
+    "options": [
+      "A) A partnership deed",
+      "B) A certificate of incorporation",
+      "C) A prospectus",
+      "D) A special resolution for private placement"
+    ],
+    "correctAnswer": "C) A prospectus",
+    "explanation": "A company needs to file a prospectus if it seeks to raise capital from the general public [4]."
+  },
+  {
+    "id": "v2c2q1",
+    "chapter": 2,
+    "chapterTitle": "Memorandum and articles",
+    "question": "Under the Companies Act, 2017, in which specific document is the 'principal line of business clause' required to be stated?",
+    "options": [
+      "A) The Articles of Association",
+      "B) The Memorandum of Association",
+      "C) The Prospectus",
+      "D) The Statutory Declaration"
+    ],
+    "correctAnswer": "B) The Memorandum of Association",
+    "explanation": "The principal line of business clause is a mandatory part and parcel of the Memorandum of Association [5, 6]."
+  },
+  {
+    "id": "v2c2q2",
+    "chapter": 2,
+    "chapterTitle": "Memorandum and articles",
+    "question": "If the registrar refuses a person's application for the reservation of a company name, what is the remedy available to the aggrieved person?",
+    "options": [
+      "A) File an appeal to the High Court within 60 days.",
+      "B) File a new application with a different registrar immediately.",
+      "C) Prefer an appeal to the Commission within 30 days of the order of refusal.",
+      "D) The refusal is final and cannot be appealed."
+    ],
+    "correctAnswer": "C) Prefer an appeal to the Commission within 30 days of the order of refusal.",
+    "explanation": "If an application for name reservation is refused by the registrar, the aggrieved person may prefer an appeal to the Commission within 30 days of the order of refusal [5, 6]."
+  },
+  {
+    "id": "v2c2q3",
+    "chapter": 2,
+    "chapterTitle": "Memorandum and articles",
+    "question": "Which clause of the memorandum of association CANNOT be altered during the lifetime of the company?",
+    "options": [
+      "A) The registered office clause",
+      "B) The principal line of business clause",
+      "C) The authorized capital clause",
+      "D) The subscription clause"
+    ],
+    "correctAnswer": "D) The subscription clause",
+    "explanation": "The subscription clause of the memorandum of association of the company cannot be altered in the lifetime of the company [6]."
+  },
+  {
+    "id": "v2c2q4",
+    "chapter": 2,
+    "chapterTitle": "Memorandum and articles",
+    "question": "When a company changes the situation of its registered office, what is the required time frame to notify the registrar?",
+    "options": [
+      "A) Within 7 days",
+      "B) Within 15 days",
+      "C) Within 30 days",
+      "D) Prior approval must be taken before moving"
+    ],
+    "correctAnswer": "B) Within 15 days",
+    "explanation": "A company must give notice of a change in the situation of its registered office to the registrar within a period of fifteen days [6]."
+  },
+  {
+    "id": "v2c2q5",
+    "chapter": 2,
+    "chapterTitle": "Memorandum and articles",
+    "question": "If a member requests a copy of the memorandum and articles of the company and pays the prescribed fee, within what time period must the company supply it?",
+    "options": [
+      "A) 7 days",
+      "B) 14 days",
+      "C) 21 days",
+      "D) 30 days"
+    ],
+    "correctAnswer": "B) 14 days",
+    "explanation": "Every company shall supply within a period of 14 days, a copy of the memorandum and articles of the company, upon the request and payment of a prescribed amount, to its member [2]."
+  },
+  {
+    "id": "v2c2q6",
+    "chapter": 2,
+    "chapterTitle": "Memorandum and articles",
+    "question": "Whenever an alteration is made to the memorandum or articles of a company, what must the company ensure regarding future copies issued?",
+    "options": [
+      "A) They must be signed by all directors again.",
+      "B) They must be printed on official stamp paper.",
+      "C) Every copy issued after the date must conform to the altered memorandum or articles.",
+      "D) The alterations must be highlighted in red ink."
+    ],
+    "correctAnswer": "C) Every copy issued after the date must conform to the altered memorandum or articles.",
+    "explanation": "Where an alteration is made, every copy of the memorandum or articles issued after the date of the alteration shall conform to the memorandum or articles as so altered, or else the company faces a penalty [7]."
+  },
+  {
+    "id": "v2c3q1",
+    "chapter": 3,
+    "chapterTitle": "Directors",
+    "question": "What is the statutory requirement regarding the frequency of board meetings for the directors of a public company?",
+    "options": [
+      "A) They must meet at least once every month.",
+      "B) They must meet at least once in each quarter of a year.",
+      "C) They must meet bi-annually.",
+      "D) They must meet only prior to the Annual General Meeting."
+    ],
+    "correctAnswer": "B) They must meet at least once in each quarter of a year.",
+    "explanation": "The directors of a public company are required to meet at least once in each quarter of a year [8]."
+  },
+  {
+    "id": "v2c3q2",
+    "chapter": 3,
+    "chapterTitle": "Directors",
+    "question": "A director may vacate their office if they absent themselves from board meetings without obtaining a leave of absence. How many consecutive meetings must they miss for this to happen?",
+    "options": [
+      "A) Two consecutive meetings",
+      "B) Three consecutive meetings",
+      "C) Four consecutive meetings",
+      "D) Five consecutive meetings"
+    ],
+    "correctAnswer": "B) Three consecutive meetings",
+    "explanation": "A director's office can be vacated if they are absent for three consecutive board meetings without obtaining a leave of absence [8]."
+  },
+  {
+    "id": "v2c5q1",
+    "chapter": 5,
+    "chapterTitle": "Share capital and commencement of business",
+    "question": "How is a 'share' legally characterized under the Companies Act?",
+    "options": [
+      "A) As an immovable property registered with the local land authority.",
+      "B) As a transferable moveable property carrying rights and obligations.",
+      "C) As a non-transferable asset belonging exclusively to the directors.",
+      "D) As a debt instrument yielding fixed interest."
+    ],
+    "correctAnswer": "B) As a transferable moveable property carrying rights and obligations.",
+    "explanation": "A share means a share in the share capital of a company and is a form of transferable moveable property carrying rights and obligations as per the articles of association [9, 10]."
+  },
+  {
+    "id": "v2c5q2",
+    "chapter": 5,
+    "chapterTitle": "Share capital and commencement of business",
+    "question": "What is the difference between 'Authorised share capital' and 'Paid up share capital'?",
+    "options": [
+      "A) Authorised capital is always lesser than paid up capital.",
+      "B) Authorised capital is the maximum amount a company can issue, while paid up capital is the amount actually issued and subscribed.",
+      "C) Paid up capital is reserved for creditors, while authorised capital is for shareholders.",
+      "D) There is no difference; they are interchangeable terms."
+    ],
+    "correctAnswer": "B) Authorised capital is the maximum amount a company can issue, while paid up capital is the amount actually issued and subscribed.",
+    "explanation": "Authorised share capital is the maximum amount of share capital which a company is authorised to issue, whereas paid up share capital is the amount issued by the company and subscribed by the shareholders [9]."
+  },
+  {
+    "id": "v2c5q3",
+    "chapter": 5,
+    "chapterTitle": "Share capital and commencement of business",
+    "question": "When a company decides to alter its share capital clause in the memorandum, such as sub-dividing its shares, within what time frame must it file the resolution and altered copy with the registrar?",
+    "options": [
+      "A) 7 days",
+      "B) 15 days",
+      "C) 21 days",
+      "D) 30 days"
+    ],
+    "correctAnswer": "B) 15 days",
+    "explanation": "The company shall file the resolution and the altered copy of the memorandum with the registrar within 15 days from the date of passing the resolution [10, 11]."
+  },
+  {
+    "id": "v2c5q4",
+    "chapter": 5,
+    "chapterTitle": "Share capital and commencement of business",
+    "question": "JKL Limited sub-divides its shares from a par value of Rs. 100 to Rs. 10 each to increase marketability. What happens to the overall paid-up value of the share capital?",
+    "options": [
+      "A) It increases tenfold.",
+      "B) It decreases by 90%.",
+      "C) It remains exactly the same.",
+      "D) It must be re-approved by the Commission."
+    ],
+    "correctAnswer": "C) It remains exactly the same.",
+    "explanation": "Sub-division of shares into shares of a smaller par value is done without changing the total paid up value of the share capital. Every member possessing one share will now possess 10 shares, but the overall paid-up value remains the same [11, 12]."
+  },
+  {
+    "id": "v2c5q5",
+    "chapter": 5,
+    "chapterTitle": "Share capital and commencement of business",
+    "question": "In a company limited by shares, the share capital represents capital introduced into the company by the:",
+    "options": [
+      "A) Directors",
+      "B) Guarantors",
+      "C) Auditors",
+      "D) Members"
+    ],
+    "correctAnswer": "D) Members",
+    "explanation": "In a company limited by shares, the share capital represents capital introduced into the company by the company’s members [12]."
+  },
+  {
+    "id": "v2c5q6",
+    "chapter": 5,
+    "chapterTitle": "Share capital and commencement of business",
+    "question": "What is another legally recognized term used for 'Ordinary shares'?",
+    "options": [
+      "A) Preference shares",
+      "B) Equity shares",
+      "C) Founders shares",
+      "D) Deferred shares"
+    ],
+    "correctAnswer": "B) Equity shares",
+    "explanation": "Ordinary shares are also commonly referred to as Equity shares [13]."
+  },
+  {
+    "id": "v2c5q7",
+    "chapter": 5,
+    "chapterTitle": "Share capital and commencement of business",
+    "question": "Normally, what voting rights do standard ordinary shareholders hold at the general meetings of a company?",
+    "options": [
+      "A) Ten votes per share",
+      "B) One vote per ten shares",
+      "C) One vote per share",
+      "D) Voting power based on the length of shareholding"
+    ],
+    "correctAnswer": "C) One vote per share",
+    "explanation": "Normally, all ordinary shareholders are entitled to vote at general meetings of the company and have one vote per share [13]."
+  },
+  {
+    "id": "v2c5q8",
+    "chapter": 5,
+    "chapterTitle": "Share capital and commencement of business",
+    "question": "What is the underlying rationale for a company to issue different classes of shares with varying voting rights?",
+    "options": [
+      "A) To avoid paying taxes on dividends.",
+      "B) To maintain a fair allocation of voting power among different classes of shareholders.",
+      "C) To prevent the registrar from inspecting the company.",
+      "D) To allow directors to bypass annual general meetings."
+    ],
+    "correctAnswer": "B) To maintain a fair allocation of voting power among different classes of shareholders.",
+    "explanation": "Varying voting rights for different classes of shares are granted to maintain a fair allocation of voting power among those different classes of shareholders [14]."
+  },
+  {
+    "id": "v2c5q9",
+    "chapter": 5,
+    "chapterTitle": "Share capital and commencement of business",
+    "question": "Which of the following is a mandatory requirement for a public company to obtain a certificate of commencement of business?",
+    "options": [
+      "A) The company must have operated profitably for one year.",
+      "B) The directors should have paid in cash to the company the full amount on each of the shares taken or contracted to be taken.",
+      "C) The company must have paid all its preliminary expenses.",
+      "D) The company must have at least 1,000 shareholders."
+    ],
+    "correctAnswer": "B) The directors should have paid in cash to the company the full amount on each of the shares taken or contracted to be taken.",
+    "explanation": "For obtaining the certificate of commencement of business, a public company requires that the directors should have paid in cash to the company the full amount on each of the shares taken or contracted to be taken [15]."
+  },
+  {
+    "id": "v2c6q1",
+    "chapter": 6,
+    "chapterTitle": "Mortgages and charges",
+    "question": "Under the Companies Act, 2017, the memorandum and articles of association are deemed to include implied borrowing powers. However, what is the primary condition for a public company having share capital to exercise this borrowing power?",
+    "options": [
+      "A) It must secure approval from the Securities and Exchange Commission of Pakistan (SECP).",
+      "B) It must have at least 50 members on its register.",
+      "C) It cannot exercise any borrowing power unless it is entitled to commence business.",
+      "D) It must first declare a dividend for its shareholders."
+    ],
+    "correctAnswer": "C) It cannot exercise any borrowing power unless it is entitled to commence business.",
+    "explanation": "A public company having share capital is restricted from exercising any of its implied borrowing powers (which include mortgaging or pledging assets) until it is legally entitled to commence business."
+  },
+  {
+    "id": "v2c6q2",
+    "chapter": 6,
+    "chapterTitle": "Mortgages and charges",
+    "question": "Which of the following instruments is explicitly NOT required to be registered as a charge under the provisions of the Companies Act, 2017?",
+    "options": [
+      "A) A mortgage on a factory building.",
+      "B) A charge over the company's inventories.",
+      "C) A second charge on the company's head office building.",
+      "D) A promissory note given to secure the payment of any book debts of a company."
+    ],
+    "correctAnswer": "D) A promissory note given to secure the payment of any book debts of a company.",
+    "explanation": "According to Section 100, a promissory note given to secure the payment of any book debts of a company is an exception and is not required to be registered as a charge."
+  },
+  {
+    "id": "v2c6q3",
+    "chapter": 6,
+    "chapterTitle": "Mortgages and charges",
+    "question": "If a company acquires an asset, such as plant and machinery, which is already subject to a registered charge by the previous owner, what is the legal status of that charge?",
+    "options": [
+      "A) The charge is automatically voided upon the transfer of ownership.",
+      "B) The acquiring company must register a brand new charge within 15 days.",
+      "C) The charge continues to be valid and enforceable against the acquired assets.",
+      "D) The charge is transferred solely to the directors of the acquiring company."
+    ],
+    "correctAnswer": "C) The charge continues to be valid and enforceable against the acquired assets.",
+    "explanation": "When a company acquires property that is already subject to a mortgage or charge, the existing charge continues to be valid and fully enforceable against those acquired assets."
+  },
+  {
+    "id": "v2c7q1",
+    "chapter": 7,
+    "chapterTitle": "Meetings and resolutions",
+    "question": "According to the Companies Act, 2017, what is the minimum voting power required for members present at a general meeting to demand a poll on a resolution?",
+    "options": [
+      "A) 5% of the company's voting power",
+      "B) 10% of the company's voting power",
+      "C) 15% of the company's voting power",
+      "D) 25% of the company's voting power"
+    ],
+    "correctAnswer": "C) 15% of the company's voting power",
+    "explanation": "A poll on a resolution can be demanded by one or more members present at the general meeting who hold at least 15% of the company's voting power."
+  },
+  {
+    "id": "v2c7q2",
+    "chapter": 7,
+    "chapterTitle": "Meetings and resolutions",
+    "question": "What is the minimum voting power required for members to requisition the board of directors to call an Extra-ordinary General Meeting (EGM)?",
+    "options": [
+      "A) 5% voting power",
+      "B) 10% voting power",
+      "C) 15% voting power",
+      "D) 20% voting power"
+    ],
+    "correctAnswer": "B) 10% voting power",
+    "explanation": "Members holding at least 10% of the voting power have the right to requisition the board to call an Extra-ordinary General Meeting (EGM)."
+  },
+  {
+    "id": "v2c7q3",
+    "chapter": 7,
+    "chapterTitle": "Meetings and resolutions",
+    "question": "When a listed company issues a notice for a general meeting, what are the specific publication requirements it must fulfill?",
+    "options": [
+      "A) It must send the notice to the SECP and publish it in both English and Urdu newspapers.",
+      "B) It only needs to publish it on the company's official website.",
+      "C) It must publish it in at least three international business magazines.",
+      "D) It must mail physical copies via registered post without any newspaper publication."
+    ],
+    "correctAnswer": "A) It must send the notice to the SECP and publish it in both English and Urdu newspapers.",
+    "explanation": "A listed company is legally required to send the meeting notice to the Commission (SECP) and publish it in both English and Urdu newspapers."
+  },
+  {
+    "id": "v2c7q4",
+    "chapter": 7,
+    "chapterTitle": "Meetings and resolutions",
+    "question": "In cases where shares of a company are held jointly by multiple individuals, how may the company validly serve a notice of a general meeting?",
+    "options": [
+      "A) The notice must be sent to all joint holders individually.",
+      "B) The notice may be given by the company to the joint holder named first in the register.",
+      "C) The notice must be published in a newspaper specifically addressing the joint holders.",
+      "D) Joint holders are not entitled to receive individual meeting notices."
+    ],
+    "correctAnswer": "B) The notice may be given by the company to the joint holder named first in the register.",
+    "explanation": "To fulfill the requirement of sending a notice, the company may simply serve the notice to the joint holder who is named first in the register of members."
+  },
+  {
+    "id": "v2c8q1",
+    "chapter": 8,
+    "chapterTitle": "Distribution of profits",
+    "question": "During an Annual General Meeting, what restriction applies to the members regarding the final dividend proposed by the board of directors?",
+    "options": [
+      "A) The members cannot accept the proposed dividend.",
+      "B) The members can increase the amount of dividend proposed by the directors.",
+      "C) The members cannot increase the amount of dividend proposed by the directors.",
+      "D) The members cannot decrease the amount of dividend proposed by the directors."
+    ],
+    "correctAnswer": "C) The members cannot increase the amount of dividend proposed by the directors.",
+    "explanation": "While members at a general meeting can accept, reject, or decrease the dividend recommended by the board of directors, they do not have the power to increase the proposed dividend amount."
+  },
+  {
+    "id": "v2c8q2",
+    "chapter": 8,
+    "chapterTitle": "Distribution of profits",
+    "question": "What is the maximum penalty for the Chief Executive Officer of a company if there is an unjustified delay in the payment of a declared dividend?",
+    "options": [
+      "A) Imprisonment for up to one year and a fine.",
+      "B) Imprisonment for a term not exceeding two years and a fine.",
+      "C) A fine only, without any imprisonment.",
+      "D) Immediate termination from the company."
+    ],
+    "correctAnswer": "B) Imprisonment for a term not exceeding two years and a fine.",
+    "explanation": "In case of a delay in the payment of a declared dividend, the Chief Executive of the company may be imprisoned for a term not exceeding two years and may also be fined."
+  },
+  {
+    "id": "v2c9q1",
+    "chapter": 9,
+    "chapterTitle": "Investments and disclosure of interest",
+    "question": "Byzantium Limited (BL) is the holding company of Purple Limited (PL). BL transfers ten shares of PL into the names of two of its directors. What is the most likely legal reason for this transfer?",
+    "options": [
+      "A) To allow the directors to claim personal dividends.",
+      "B) To avoid paying corporate tax on those specific shares.",
+      "C) To ensure that the number of PL's members shall be in accordance with the statutory limit.",
+      "D) To hide the true ownership of the subsidiary from the SECP."
+    ],
+    "correctAnswer": "C) To ensure that the number of PL's members shall be in accordance with the statutory limit.",
+    "explanation": "A holding company may transfer a nominal number of shares of its wholly-owned subsidiary to its nominees (like directors) to ensure the subsidiary meets the minimum statutory requirement for the number of members."
+  },
+  {
+    "id": "v2c10q1",
+    "chapter": 10,
+    "chapterTitle": "Accounts and annual return",
+    "question": "For how long is a company legally required to preserve its books of accounts in good order?",
+    "options": [
+      "A) For a period of at least 5 years immediately preceding a financial year.",
+      "B) For a period of at least 10 years immediately preceding a financial year.",
+      "C) For a period of at least 15 years immediately preceding a financial year.",
+      "D) Permanently, for the entire life of the company."
+    ],
+    "correctAnswer": "B) For a period of at least 10 years immediately preceding a financial year.",
+    "explanation": "The Companies Act mandates that books of accounts must be preserved in good order for a period of at least 10 years immediately preceding a financial year."
+  },
+  {
+    "id": "v2c10q2",
+    "chapter": 10,
+    "chapterTitle": "Accounts and annual return",
+    "question": "While books of accounts must generally be kept at the registered office of the company, who has the authority to decide to keep these books at some other place in Pakistan?",
+    "options": [
+      "A) The members of the company via a special resolution.",
+      "B) The Securities and Exchange Commission of Pakistan (SECP).",
+      "C) The directors of the company.",
+      "D) The statutory auditors of the company."
+    ],
+    "correctAnswer": "C) The directors of the company.",
+    "explanation": "The directors of the company have the authority to decide to keep the books of accounts at some place other than the registered office of the company."
+  },
+  {
+    "id": "v2c10q3",
+    "chapter": 10,
+    "chapterTitle": "Accounts and annual return",
+    "question": "Under Section 2(33) of the Companies Act, 2017, which of the following documents is explicitly included in the definition of 'financial statements'?",
+    "options": [
+      "A) The Directors' Report",
+      "B) A statement of financial position and a statement of profit or loss and other comprehensive income.",
+      "C) The Chairman's Review Report",
+      "D) The Prospectus"
+    ],
+    "correctAnswer": "B) A statement of financial position and a statement of profit or loss and other comprehensive income.",
+    "explanation": "The legal definition of 'financial statements' specifically includes a statement of financial position as at the end of the period, and a statement of profit or loss and other comprehensive income."
+  },
+  {
+    "id": "v2c10q4",
+    "chapter": 10,
+    "chapterTitle": "Accounts and annual return",
+    "question": "Financial statements generally must be audited. However, this requirement is NOT applicable to a private company if its paid-up capital does not exceed:",
+    "options": [
+      "A) Rs. 1 million",
+      "B) Rs. 5 million",
+      "C) Rs. 10 million (or such higher amount as notified by the Commission)",
+      "D) Rs. 50 million"
+    ],
+    "correctAnswer": "C) Rs. 10 million (or such higher amount as notified by the Commission)",
+    "explanation": "A private company is exempt from the audit requirement if its paid-up capital does not exceed Rs. 10 million, or a higher amount if notified by the Commission."
+  },
+  {
+    "id": "v2c10q5",
+    "chapter": 10,
+    "chapterTitle": "Accounts and annual return",
+    "question": "What is the statutory deadline for a listed company to prepare its half-yearly (second quarter) financial statements?",
+    "options": [
+      "A) Within 30 days of the close of the second quarter.",
+      "B) Within 45 days of the close of the second quarter.",
+      "C) Within 60 days of the close of the second quarter.",
+      "D) Within 120 days of the close of the second quarter."
+    ],
+    "correctAnswer": "C) Within 60 days of the close of the second quarter.",
+    "explanation": "A listed company is required to prepare its half-yearly financial statements within sixty days of the close of the second quarter of its year of accounts."
+  },
+  {
+    "id": "v2c10q6",
+    "chapter": 10,
+    "chapterTitle": "Accounts and annual return",
+    "question": "What is the maximum time allowed for a newly formed company to prepare its very first annual financial statements?",
+    "options": [
+      "A) Within 12 months of incorporation.",
+      "B) Within 16 months of incorporation.",
+      "C) Within 18 months of incorporation.",
+      "D) Within 120 days of its first commercial transaction."
+    ],
+    "correctAnswer": "B) Within 16 months of incorporation.",
+    "explanation": "For the first financial statements, a company is required to prepare them within sixteen months of its incorporation."
+  },
+  {
+    "id": "v2c10q7",
+    "chapter": 10,
+    "chapterTitle": "Accounts and annual return",
+    "question": "After a company has prepared its first financial statements, what is the deadline for preparing subsequent annual financial statements?",
+    "options": [
+      "A) Within 60 days following the close of its financial year.",
+      "B) Within 90 days following the close of its financial year.",
+      "C) Within 120 days following the close of its financial year.",
+      "D) Within 160 days following the close of its financial year."
+    ],
+    "correctAnswer": "C) Within 120 days following the close of its financial year.",
+    "explanation": "For subsequent annual financial statements, they must be prepared within one hundred and twenty days following the close of the company's financial year."
+  },
+  {
+    "id": "v2c10q8",
+    "chapter": 10,
+    "chapterTitle": "Accounts and annual return",
+    "question": "For a listed company, which specific quarterly financial statements are legally required to be subjected to a 'limited scope review' by the statutory auditors?",
+    "options": [
+      "A) First quarter financial statements only.",
+      "B) Second quarter (half-yearly) financial statements.",
+      "C) Third quarter financial statements only.",
+      "D) All three quarterly financial statements must be reviewed."
+    ],
+    "correctAnswer": "B) Second quarter (half-yearly) financial statements.",
+    "explanation": "It is not mandatory to get the first and third quarters reviewed. Only the cumulative figures for the half year, presented in the second quarter financial statements, must be subjected to a limited scope review by the statutory auditors."
+  },
+  {
+    "id": "v2c10q9",
+    "chapter": 10,
+    "chapterTitle": "Accounts and annual return",
+    "question": "Prior to an Annual General Meeting (AGM), what is the minimum notice period for sending the audited financial statements, auditors' report, and directors' report to every member?",
+    "options": [
+      "A) At least 7 days before the meeting.",
+      "B) At least 14 days before the meeting.",
+      "C) At least 21 days before the meeting.",
+      "D) At least 30 days before the meeting."
+    ],
+    "correctAnswer": "C) At least 21 days before the meeting.",
+    "explanation": "These documents must be sent via post or electronic means to every member and person entitled to receive notice at least 21 days before the general meeting."
+  },
+  {
+    "id": "v2c10q10",
+    "chapter": 10,
+    "chapterTitle": "Accounts and annual return",
+    "question": "If a company operates a branch office outside Pakistan, how does it fulfill the requirement of keeping its books of accounts at the registered office?",
+    "options": [
+      "A) All original physical receipts must be couriered to Pakistan weekly.",
+      "B) Proper books are maintained at the branch, and summarized returns are periodically sent to the registered office.",
+      "C) The branch is exempt from maintaining books of accounts.",
+      "D) The SECP must send an inspector to the branch office annually."
+    ],
+    "correctAnswer": "B) Proper books are maintained at the branch, and summarized returns are periodically sent to the registered office.",
+    "explanation": "A company with a branch office is considered compliant if proper books are maintained at the branch and summarized returns are periodically sent from the branch to the registered office."
+  },
+  {
+    "id": "v2c10q11",
+    "chapter": 10,
+    "chapterTitle": "Accounts and annual return",
+    "question": "Which of the following individuals has the legal right to inspect the books of accounts of a company during business hours?",
+    "options": [
+      "A) Any shareholder of the company.",
+      "B) Only shareholders holding more than 10% of shares.",
+      "C) The directors of the company.",
+      "D) Any creditor of the company."
+    ],
+    "correctAnswer": "C) The directors of the company.",
+    "explanation": "The books of accounts are open for inspection by the directors of the company during business hours. General shareholders do not have a statutory right to inspect the detailed books of accounts."
+  },
+  {
+    "id": "v2c10q12",
+    "chapter": 10,
+    "chapterTitle": "Accounts and annual return",
+    "question": "In the case of a listed company, the 'Statement of Compliance' is a mandatory document. Who is legally required to sign it?",
+    "options": [
+      "A) The Chairman of the Board only.",
+      "B) Any two directors.",
+      "C) The Chief Financial Officer (CFO) and the Company Secretary.",
+      "D) The Chief Executive and a director."
+    ],
+    "correctAnswer": "D) The Chief Executive and a director.",
+    "explanation": "The statement of compliance for a listed company is required to be signed by the chief executive and a director of the company."
+  },
+  {
+    "id": "v2c10q13",
+    "chapter": 10,
+    "chapterTitle": "Accounts and annual return",
+    "question": "When a public company (the holding company) acquires a controlling stake in another company (the subsidiary), what obligation does the subsidiary's board have regarding its financial year?",
+    "options": [
+      "A) It must permanently retain its original financial year to maintain historical consistency.",
+      "B) It must ensure its financial year coincides with that of the holding company, unless there are valid reasons against it.",
+      "C) It must adopt the calendar year (Jan-Dec) regardless of the holding company's year.",
+      "D) It must let the SECP decide its new financial year."
+    ],
+    "correctAnswer": "B) It must ensure its financial year coincides with that of the holding company, unless there are valid reasons against it.",
+    "explanation": "For the purposes of consolidated financial statements, the board of the subsidiary shall ensure that the financial year of the subsidiary coincides with that of the holding company, except where valid reasons exist against it."
+  }
+]

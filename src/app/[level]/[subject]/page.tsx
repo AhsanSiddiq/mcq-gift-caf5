@@ -174,62 +174,142 @@ export default function SubjectHome() {
         )}
 
         {/* Mode cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          {MODES.map(mode => (
+        {subjectId === "caf-4" ? (
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <Link
-              key={mode.id}
-              href={mode.href}
+              href={`/${level}/caf-4-bl`}
               className="group rounded-2xl p-6 flex flex-col gap-4 transition-all duration-200"
               style={{
-                background: mode.highlighted ? mode.bg : "var(--bg-2)",
-                border: `1px solid ${mode.highlighted ? mode.color + "66" : "var(--border)"}`,
+                background: "var(--bg-2)",
+                border: "1px solid #60a5fa66",
                 textDecoration: "none",
               }}
               onMouseEnter={e => {
-                (e.currentTarget as HTMLElement).style.borderColor = mode.color;
-                (e.currentTarget as HTMLElement).style.background = mode.bg;
+                (e.currentTarget as HTMLElement).style.borderColor = "#60a5fa";
+                (e.currentTarget as HTMLElement).style.background = "rgba(96,165,250,0.05)";
                 (e.currentTarget as HTMLElement).style.transform = "translateY(-2px)";
               }}
               onMouseLeave={e => {
-                (e.currentTarget as HTMLElement).style.borderColor = mode.highlighted ? mode.color + "66" : "var(--border)";
-                (e.currentTarget as HTMLElement).style.background = mode.highlighted ? mode.bg : "var(--bg-2)";
+                (e.currentTarget as HTMLElement).style.borderColor = "#60a5fa66";
+                (e.currentTarget as HTMLElement).style.background = "var(--bg-2)";
                 (e.currentTarget as HTMLElement).style.transform = "none";
               }}
             >
               <div className="flex items-start justify-between gap-3">
-                <div
-                  className="rounded-xl flex items-center justify-center shrink-0"
-                  style={{ width: 44, height: 44, background: mode.bg, color: mode.color }}
-                >
-                  {mode.icon}
+                <div className="rounded-xl flex items-center justify-center shrink-0"
+                     style={{ width: 44, height: 44, background: "rgba(96,165,250,0.10)", color: "#60a5fa" }}>
+                  <BookOpen className="w-5 h-5" />
                 </div>
-                {mode.highlighted && (
-                  <span className="text-xs font-black px-2 py-0.5 rounded-full" style={{ background: mode.color + "22", color: mode.color }}>
-                    In Progress
-                  </span>
-                )}
               </div>
               <div>
                 <h2 className="font-bold text-lg mb-1" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
-                  {mode.label}
+                  Part I: Business Law
                 </h2>
-                {mode.desc === null ? (
-                  <span
-                    className="inline-block rounded-md animate-pulse mt-1"
-                    style={{ width: "80%", height: 14, background: "var(--border)", display: "block" }}
-                  />
-                ) : (
-                  <p className="text-sm leading-relaxed" style={{ color: "var(--text-2)", fontFamily: "var(--font-inter), sans-serif" }}>
-                    {mode.desc}
-                  </p>
-                )}
+                <p className="text-sm leading-relaxed" style={{ color: "var(--text-2)", fontFamily: "var(--font-inter), sans-serif" }}>
+                  Chapters 1 to 15 covering the legal system and contract laws.
+                </p>
               </div>
-              <div className="flex items-center gap-1.5 text-sm font-bold mt-auto" style={{ color: mode.color }}>
-                {mode.cta} <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              <div className="flex items-center gap-1.5 text-sm font-bold mt-auto" style={{ color: "#60a5fa" }}>
+                Select Section <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </div>
             </Link>
-          ))}
-        </div>
+
+            <Link
+              href={`/${level}/caf-4-cl`}
+              className="group rounded-2xl p-6 flex flex-col gap-4 transition-all duration-200"
+              style={{
+                background: "var(--bg-2)",
+                border: "1px solid #a78bfa66",
+                textDecoration: "none",
+              }}
+              onMouseEnter={e => {
+                (e.currentTarget as HTMLElement).style.borderColor = "#a78bfa";
+                (e.currentTarget as HTMLElement).style.background = "rgba(167,139,250,0.05)";
+                (e.currentTarget as HTMLElement).style.transform = "translateY(-2px)";
+              }}
+              onMouseLeave={e => {
+                (e.currentTarget as HTMLElement).style.borderColor = "#a78bfa66";
+                (e.currentTarget as HTMLElement).style.background = "var(--bg-2)";
+                (e.currentTarget as HTMLElement).style.transform = "none";
+              }}
+            >
+              <div className="flex items-start justify-between gap-3">
+                <div className="rounded-xl flex items-center justify-center shrink-0"
+                     style={{ width: 44, height: 44, background: "rgba(167,139,250,0.10)", color: "#a78bfa" }}>
+                  <BookOpen className="w-5 h-5" />
+                </div>
+              </div>
+              <div>
+                <h2 className="font-bold text-lg mb-1" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
+                  Part II: Company Law
+                </h2>
+                <p className="text-sm leading-relaxed" style={{ color: "var(--text-2)", fontFamily: "var(--font-inter), sans-serif" }}>
+                  Chapters 16 to 25 covering the Companies Act, 2017.
+                </p>
+              </div>
+              <div className="flex items-center gap-1.5 text-sm font-bold mt-auto" style={{ color: "#a78bfa" }}>
+                Select Section <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              </div>
+            </Link>
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            {MODES.map(mode => (
+              <Link
+                key={mode.id}
+                href={mode.href}
+                className="group rounded-2xl p-6 flex flex-col gap-4 transition-all duration-200"
+                style={{
+                  background: mode.highlighted ? mode.bg : "var(--bg-2)",
+                  border: `1px solid ${mode.highlighted ? mode.color + "66" : "var(--border)"}`,
+                  textDecoration: "none",
+                }}
+                onMouseEnter={e => {
+                  (e.currentTarget as HTMLElement).style.borderColor = mode.color;
+                  (e.currentTarget as HTMLElement).style.background = mode.bg;
+                  (e.currentTarget as HTMLElement).style.transform = "translateY(-2px)";
+                }}
+                onMouseLeave={e => {
+                  (e.currentTarget as HTMLElement).style.borderColor = mode.highlighted ? mode.color + "66" : "var(--border)";
+                  (e.currentTarget as HTMLElement).style.background = mode.highlighted ? mode.bg : "var(--bg-2)";
+                  (e.currentTarget as HTMLElement).style.transform = "none";
+                }}
+              >
+                <div className="flex items-start justify-between gap-3">
+                  <div
+                    className="rounded-xl flex items-center justify-center shrink-0"
+                    style={{ width: 44, height: 44, background: mode.bg, color: mode.color }}
+                  >
+                    {mode.icon}
+                  </div>
+                  {mode.highlighted && (
+                    <span className="text-xs font-black px-2 py-0.5 rounded-full" style={{ background: mode.color + "22", color: mode.color }}>
+                      In Progress
+                    </span>
+                  )}
+                </div>
+                <div>
+                  <h2 className="font-bold text-lg mb-1" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
+                    {mode.label}
+                  </h2>
+                  {mode.desc === null ? (
+                    <span
+                      className="inline-block rounded-md animate-pulse mt-1"
+                      style={{ width: "80%", height: 14, background: "var(--border)", display: "block" }}
+                    />
+                  ) : (
+                    <p className="text-sm leading-relaxed" style={{ color: "var(--text-2)", fontFamily: "var(--font-inter), sans-serif" }}>
+                      {mode.desc}
+                    </p>
+                  )}
+                </div>
+                <div className="flex items-center gap-1.5 text-sm font-bold mt-auto" style={{ color: mode.color }}>
+                  {mode.cta} <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                </div>
+              </Link>
+            ))}
+          </div>
+        )}
 
       </div>
     </main>
