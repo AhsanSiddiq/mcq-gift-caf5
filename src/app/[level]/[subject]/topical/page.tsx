@@ -3,7 +3,7 @@
 import { BookOpen, ChevronRight, CheckCircle2, ArrowLeft } from "lucide-react";
 import Link from "next/link";
 import { useProgress } from "@/hooks/useProgress";
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { useParams } from "next/navigation";
 
 export default function TopicalPage() {
@@ -93,57 +93,77 @@ export default function TopicalPage() {
               <p className="text-sm" style={{ color: "var(--text-2)" }}>This subject has no questions available yet.</p>
             </div>
           ) : (
-            chapters.map(([chapterNum, title, numQuestions]) => {
+            chapters.map(([chapterNum, title, numQuestions], index) => {
               const chapterProgress = progress.chapters[chapterNum];
               const hasScore = mounted && isLoaded && chapterProgress !== undefined;
               const score = hasScore ? chapterProgress.highestScore : 0;
               const isMastered = hasScore && chapterProgress.isCompleted;
 
+              const isCaf4 = subjectId === "caf-4";
+              const prevChapterNum = index > 0 ? chapters[index - 1][0] : 0;
+              
+              const showBusinessLawHeader = isCaf4 && index === 0 && chapterNum <= 15;
+              const showCompanyLawHeader = isCaf4 && prevChapterNum <= 15 && chapterNum > 15;
+              const displayChapterNum = isCaf4 && chapterNum > 15 ? chapterNum - 15 : chapterNum;
+
               return (
-                <Link
-                  key={chapterNum}
-                  href={`/${level}/${subjectId}/quiz?mode=topical&chapter=${chapterNum}`}
-                  className="group rounded-2xl p-5 flex items-center justify-between gap-4 transition-all duration-200"
-                  style={{
-                    background: isMastered ? "rgba(61,179,113,0.06)" : "var(--bg-2)",
-                    border: `1px solid ${isMastered ? "rgba(61,179,113,0.35)" : "var(--border)"}`,
-                    textDecoration: "none",
-                  }}
-                  onMouseEnter={e => {
-                    (e.currentTarget as HTMLElement).style.borderColor = isMastered ? "var(--green)" : "#60a5fa";
-                    (e.currentTarget as HTMLElement).style.transform = "translateX(4px)";
-                  }}
-                  onMouseLeave={e => {
-                    (e.currentTarget as HTMLElement).style.borderColor = isMastered ? "rgba(61,179,113,0.35)" : "var(--border)";
-                    (e.currentTarget as HTMLElement).style.transform = "none";
-                  }}
-                >
-                  <div className="flex-1 min-w-0">
-                    <div className="flex items-center gap-2 mb-1">
-                      <span className="text-xs font-bold uppercase tracking-widest"
-                        style={{ color: isMastered ? "var(--green)" : "#60a5fa", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
-                        Chapter {chapterNum}
-                      </span>
-                      {isMastered && <CheckCircle2 className="w-3.5 h-3.5" style={{ color: "var(--green)" }} />}
+                <React.Fragment key={chapterNum}>
+                  {showBusinessLawHeader && (
+                    <div className="flex flex-col gap-1 mt-2 mb-1 px-2">
+                       <h2 className="font-bold text-xl" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>Part I: Business Law</h2>
+                       <p className="text-sm" style={{ color: "var(--text-2)", fontFamily: "var(--font-inter), sans-serif" }}>Chapters 1 to 15 covering the legal system and contract laws.</p>
                     </div>
-                    <h3 className="font-bold text-base leading-snug mb-2"
-                      style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
-                      {title}
-                    </h3>
-                    <div className="flex items-center gap-4 flex-wrap">
-                      <span className="flex items-center gap-1.5 text-xs" style={{ color: "var(--text-3)" }}>
-                        <BookOpen className="w-3.5 h-3.5" /> {numQuestions} questions
-                      </span>
-                      {hasScore && score > 0 && (
-                        <span className="text-xs font-semibold" style={{ color: isMastered ? "var(--green)" : "#60a5fa" }}>
-                          Best: {score}/{numQuestions}
+                  )}
+                  {showCompanyLawHeader && (
+                    <div className="flex flex-col gap-1 mt-6 mb-1 px-2">
+                       <h2 className="font-bold text-xl" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>Part II: Company Law</h2>
+                       <p className="text-sm" style={{ color: "var(--text-2)", fontFamily: "var(--font-inter), sans-serif" }}>Chapters 16 to 25 covering the Companies Act, 2017.</p>
+                    </div>
+                  )}
+                  <Link
+                    href={`/${level}/${subjectId}/quiz?mode=topical&chapter=${chapterNum}`}
+                    className="group rounded-2xl p-5 flex items-center justify-between gap-4 transition-all duration-200"
+                    style={{
+                      background: isMastered ? "rgba(61,179,113,0.06)" : "var(--bg-2)",
+                      border: `1px solid ${isMastered ? "rgba(61,179,113,0.35)" : "var(--border)"}`,
+                      textDecoration: "none",
+                    }}
+                    onMouseEnter={e => {
+                      (e.currentTarget as HTMLElement).style.borderColor = isMastered ? "var(--green)" : "#60a5fa";
+                      (e.currentTarget as HTMLElement).style.transform = "translateX(4px)";
+                    }}
+                    onMouseLeave={e => {
+                      (e.currentTarget as HTMLElement).style.borderColor = isMastered ? "rgba(61,179,113,0.35)" : "var(--border)";
+                      (e.currentTarget as HTMLElement).style.transform = "none";
+                    }}
+                  >
+                    <div className="flex-1 min-w-0">
+                      <div className="flex items-center gap-2 mb-1">
+                        <span className="text-xs font-bold uppercase tracking-widest"
+                          style={{ color: isMastered ? "var(--green)" : "#60a5fa", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
+                          Chapter {displayChapterNum}
                         </span>
-                      )}
+                        {isMastered && <CheckCircle2 className="w-3.5 h-3.5" style={{ color: "var(--green)" }} />}
+                      </div>
+                      <h3 className="font-bold text-base leading-snug mb-2"
+                        style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
+                        {title}
+                      </h3>
+                      <div className="flex items-center gap-4 flex-wrap">
+                        <span className="flex items-center gap-1.5 text-xs" style={{ color: "var(--text-3)" }}>
+                          <BookOpen className="w-3.5 h-3.5" /> {numQuestions} questions
+                        </span>
+                        {hasScore && score > 0 && (
+                          <span className="text-xs font-semibold" style={{ color: isMastered ? "var(--green)" : "#60a5fa" }}>
+                            Best: {score}/{numQuestions}
+                          </span>
+                        )}
+                      </div>
                     </div>
-                  </div>
-                  <ChevronRight className="w-5 h-5 shrink-0 transition-transform group-hover:translate-x-1"
-                    style={{ color: isMastered ? "var(--green)" : "var(--text-3)" }} />
-                </Link>
+                    <ChevronRight className="w-5 h-5 shrink-0 transition-transform group-hover:translate-x-1"
+                      style={{ color: isMastered ? "var(--green)" : "var(--text-3)" }} />
+                  </Link>
+                </React.Fragment>
               );
             })
           )}
