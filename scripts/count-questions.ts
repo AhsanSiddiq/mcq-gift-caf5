@@ -21,6 +21,7 @@ async function countQuestions(subjectId: string) {
 }
 
 async function run() {
+  await countQuestions('caf-4');
   await countQuestions('caf-3');
   await countQuestions('caf-2');
   await countQuestions('prc-1');
