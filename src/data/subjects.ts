@@ -28,7 +28,7 @@ export const prcSubjects: Subject[] = [
     title: "Business & Economic Insights",
     level: "PRC",
     description: "Combined concepts from economics and introduction to business.",
-    isAvailable: false,
+    isAvailable: true,
   },
 ];
 
@@ -80,14 +80,14 @@ export const cafSubjects: Subject[] = [
     title: "Business Insights and Analysis",
     level: "CAF",
     description: "Financial analysis and deep decision-making.",
-    isAvailable: false,
+    isAvailable: true,
   },
   {
     id: "caf-8",
     title: "Audit and Assurance Essentials",
     level: "CAF",
     description: "Auditing standards and professional assurance engagements.",
-    isAvailable: true,
+    isAvailable: false,
   },
 ];
 
