@@ -87,7 +87,7 @@ export const cafSubjects: Subject[] = [
     title: "Audit and Assurance Essentials",
     level: "CAF",
     description: "Auditing standards and professional assurance engagements.",
-    isAvailable: false,
+    isAvailable: true,
   },
 ];
 
