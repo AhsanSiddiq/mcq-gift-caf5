@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import { Plus, Trash2, Download, Eye, ChevronLeft, ChevronRight, X, Mail, RefreshCw } from "lucide-react";
+import { Plus, Trash2, Download, Eye, ChevronLeft, ChevronRight, X, Mail, RefreshCw, ArrowUp, ArrowDown, Palette, Type } from "lucide-react";
 
 const LS_KEY = "cahub_cv_v1";
 
@@ -9,6 +9,8 @@ interface WorkExp { company: string; role: string; period: string; bullets: stri
 interface Education { level: string; institution: string; grade: string; years: string; }
 interface Course { name: string; provider: string; year: string; }
 interface CVData {
+  themeColor: string;
+  fontFamily: string;
   name: string; phone: string; email: string; linkedin: string; photo: string;
   icapStage: string; crn: string; fts: string; papersCleared: string;
   profile: string;
@@ -22,6 +24,8 @@ interface CVData {
 
 /* ── DEMO DATA (generic fictional student) ── */
 const DEMO: CVData = {
+  themeColor: "#1a1a1a",
+  fontFamily: "'Arial','Helvetica Neue',sans-serif",
   name: "Ali Hassan Qureshi",
   phone: "+92 321 5556677",
   email: "ali.hassan@email.com",
@@ -80,6 +84,8 @@ const DEMO: CVData = {
 };
 
 const DEFAULT: CVData = {
+  themeColor: "#1a1a1a",
+  fontFamily: "'Arial','Helvetica Neue',sans-serif",
   name: "", phone: "", email: "", linkedin: "", photo: "",
   icapStage: "CAF Qualified", crn: "", fts: "", papersCleared: "",
   profile: "",
@@ -112,6 +118,7 @@ const STEPS = [
   { id: "courses", label: "Courses" },
   { id: "skills", label: "Skills" },
   { id: "achievements", label: "Achievements" },
+  { id: "appearance", label: "Appearance" },
 ];
 
 /* ── UI helpers ── */
@@ -209,8 +216,8 @@ function SectionHead({ title, side = "right" }: { title: string; side?: "left" |
       textTransform: "uppercase" as const,
       paddingBottom: 4,
       marginBottom: 8,
-      borderBottom: isRight ? "2.5px solid #1a1a1a" : "1.5px solid #777",
-      color: "#1a1a1a",
+      borderBottom: isRight ? "2.5px solid var(--cv-accent)" : "1.5px solid var(--cv-accent)",
+      color: "var(--cv-accent)",
     }}>
       {title}
     </div>
@@ -232,20 +239,21 @@ function CVPreview({ cv }: { cv: CVData }) {
     <div
       id="cv-preview"
       style={{
-        fontFamily: "'Arial','Helvetica Neue',sans-serif",
+        fontFamily: cv.fontFamily,
         background: "#ffffff",
         color: "#1a1a1a",
+        "--cv-accent": cv.themeColor,
         width: "210mm",
         minHeight: "297mm",
         padding: "13mm 15mm 12mm 15mm",
-        boxSizing: "border-box" as const,
+        boxSizing: "border-box",
         margin: "0 auto",
         display: "flex",
-        flexDirection: "column" as const,
-      }}
+        flexDirection: "column",
+      } as React.CSSProperties}
     >
       {/* ═══ HEADER ═══ */}
-      <div style={{ paddingBottom: 12, marginBottom: 13, borderBottom: "3px solid #1a1a1a" }}>
+      <div style={{ paddingBottom: 12, marginBottom: 13, borderBottom: "3px solid var(--cv-accent)" }}>
         <div style={{ display: "flex", alignItems: "flex-start", gap: 18 }}>
           {cv.photo && (
             <img src={cv.photo} alt="" style={{ width: 84, height: 84, borderRadius: "50%", objectFit: "cover", objectPosition: "center top", flexShrink: 0, border: "2px solid #ccc" }} />
@@ -582,9 +590,11 @@ export default function CVMaker() {
                 <span className="text-xs font-bold uppercase tracking-widest" style={{ color: "var(--text-3)" }}>
                   {i === 0 ? "1st — ICAP Qualification (top)" : `Qualification ${i + 1}`}
                 </span>
-                {i >= 1 && (
-                  <button onClick={() => set("education", cv.education.filter((_, j) => j !== i))} className="p-1.5 rounded-lg" style={{ color: "#F87171", background: "rgba(248,113,113,0.08)" }}><Trash2 className="w-3.5 h-3.5" /></button>
-                )}
+                <div className="flex items-center gap-1.5">
+                  {i > 0 && <button onClick={() => { const cols = [...cv.education]; const temp = cols[i-1]; cols[i-1] = cols[i]; cols[i] = temp; set("education", cols); }} className="p-1.5 rounded-lg text-gray-500 hover:bg-gray-100 transition"><ArrowUp className="w-3.5 h-3.5" /></button>}
+                  {i < cv.education.length - 1 && <button onClick={() => { const cols = [...cv.education]; const temp = cols[i+1]; cols[i+1] = cols[i]; cols[i] = temp; set("education", cols); }} className="p-1.5 rounded-lg text-gray-500 hover:bg-gray-100 transition"><ArrowDown className="w-3.5 h-3.5" /></button>}
+                  {i >= 1 && <button onClick={() => set("education", cv.education.filter((_, j) => j !== i))} className="p-1.5 rounded-lg" style={{ color: "#F87171", background: "rgba(248,113,113,0.08)" }}><Trash2 className="w-3.5 h-3.5" /></button>}
+                </div>
               </div>
               <div>
                 <FieldLabel required={i === 0}>Level / Name</FieldLabel>
@@ -666,7 +676,11 @@ export default function CVMaker() {
             <div key={i} className="rounded-2xl p-4 space-y-3" style={{ background: "var(--bg)", border: "1px solid var(--border)" }}>
               <div className="flex justify-between items-center">
                 <span className="text-xs font-bold uppercase tracking-widest" style={{ color: "var(--text-3)" }}>Experience {i + 1}</span>
-                {i > 0 && <button onClick={() => set("workExp", cv.workExp.filter((_, j) => j !== i))} className="p-1.5 rounded-lg" style={{ color: "#F87171", background: "rgba(248,113,113,0.08)" }}><Trash2 className="w-3.5 h-3.5" /></button>}
+                <div className="flex items-center gap-1.5">
+                  {i > 0 && <button onClick={() => { const w = [...cv.workExp]; const t = w[i-1]; w[i-1] = w[i]; w[i] = t; set("workExp", w); }} className="p-1.5 rounded-lg text-gray-500 hover:bg-gray-100 transition"><ArrowUp className="w-3.5 h-3.5" /></button>}
+                  {i < cv.workExp.length - 1 && <button onClick={() => { const w = [...cv.workExp]; const t = w[i+1]; w[i+1] = w[i]; w[i] = t; set("workExp", w); }} className="p-1.5 rounded-lg text-gray-500 hover:bg-gray-100 transition"><ArrowDown className="w-3.5 h-3.5" /></button>}
+                  {i > 0 && <button onClick={() => set("workExp", cv.workExp.filter((_, j) => j !== i))} className="p-1.5 rounded-lg" style={{ color: "#F87171", background: "rgba(248,113,113,0.08)" }}><Trash2 className="w-3.5 h-3.5" /></button>}
+                </div>
               </div>
               <div className="grid grid-cols-2 gap-3">
                 <div><FieldLabel required={i === 0}>Company / Place</FieldLabel><Inp value={w.company} onChange={v => setWork(i, "company", v)} placeholder="Company or &quot;Self-Employed&quot;" /></div>
@@ -718,7 +732,11 @@ export default function CVMaker() {
             <div key={i} className="rounded-2xl p-4 space-y-3" style={{ background: "var(--bg)", border: "1px solid var(--border)" }}>
               <div className="flex justify-between items-center">
                 <span className="text-xs font-bold uppercase tracking-widest" style={{ color: "var(--text-3)" }}>Course {i + 1}</span>
-                {i > 0 && <button onClick={() => set("courses", cv.courses.filter((_, j) => j !== i))} className="p-1.5 rounded-lg" style={{ color: "#F87171", background: "rgba(248,113,113,0.08)" }}><Trash2 className="w-3.5 h-3.5" /></button>}
+                <div className="flex items-center gap-1.5">
+                  {i > 0 && <button onClick={() => { const c = [...cv.courses]; const t = c[i-1]; c[i-1] = c[i]; c[i] = t; set("courses", c); }} className="p-1.5 rounded-lg text-gray-500 hover:bg-gray-100 transition"><ArrowUp className="w-3.5 h-3.5" /></button>}
+                  {i < cv.courses.length - 1 && <button onClick={() => { const c = [...cv.courses]; const t = c[i+1]; c[i+1] = c[i]; c[i] = t; set("courses", c); }} className="p-1.5 rounded-lg text-gray-500 hover:bg-gray-100 transition"><ArrowDown className="w-3.5 h-3.5" /></button>}
+                  {i > 0 && <button onClick={() => set("courses", cv.courses.filter((_, j) => j !== i))} className="p-1.5 rounded-lg" style={{ color: "#F87171", background: "rgba(248,113,113,0.08)" }}><Trash2 className="w-3.5 h-3.5" /></button>}
+                </div>
               </div>
               <div>
                 <FieldLabel>Course Name</FieldLabel>
@@ -783,6 +801,56 @@ export default function CVMaker() {
           <div>
             <FieldLabel>Accomplishments &amp; Achievements</FieldLabel>
             <div className="mt-2"><ListEditor items={cv.accomplishments} onChange={v => set("accomplishments", v)} placeholder="e.g. Cleared all 8 CAF papers in first attempt" /></div>
+          </div>
+        </div>
+      );
+
+      /* ── Appearance ── */
+      case 8: return (
+        <div className="space-y-6">
+          <Tip>
+            <p className="font-bold mb-1" style={{ color: "var(--green)" }}>First impressions matter.</p>
+            <p>Your CV is visually scanned in 6 seconds. Pick a clean, professional ATS-friendly font and a subtle accent color.</p>
+          </Tip>
+          
+          <div>
+            <FieldLabel>CV Font (ATS-Friendly)</FieldLabel>
+            <div className="grid grid-cols-2 gap-3 mt-2">
+              {[
+                { name: "Arial (Modern)", val: "'Arial','Helvetica Neue',sans-serif" },
+                { name: "Garamond (Classic)", val: "'Garamond','EB Garamond',serif" },
+                { name: "Georgia (Elegant)", val: "'Georgia',serif" },
+                { name: "Trebuchet MS (Clean)", val: "'Trebuchet MS',sans-serif" },
+              ].map(f => (
+                <button key={f.val} onClick={() => set("fontFamily", f.val)}
+                  className="px-4 py-3 rounded-xl text-sm transition-all text-left flex items-center justify-between"
+                  style={{ fontFamily: f.val, background: cv.fontFamily === f.val ? "rgba(61,179,113,0.08)" : "var(--bg-3)", border: `1px solid ${cv.fontFamily === f.val ? "var(--green)" : "var(--border)"}`, color: "var(--text-1)" }}>
+                  <span>{f.name}</span>
+                  {cv.fontFamily === f.val && <span className="text-xs" style={{ color: "var(--green)" }}>✓</span>}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          <div>
+            <FieldLabel>Accent Color</FieldLabel>
+            <Hint>Used for your name and section headings. Keep it dark and professional so it prints well.</Hint>
+            <div className="flex flex-wrap gap-4 mt-3">
+              {[
+                { name: "Classic Black", hex: "#1a1a1a" },
+                { name: "Navy Blue", hex: "#1e3a8a" },
+                { name: "Forest Green", hex: "#064e3b" },
+                { name: "Deep Charcoal", hex: "#334155" },
+                { name: "Midnight Purple", hex: "#312e81" },
+              ].map(c => (
+                <button key={c.hex} onClick={() => set("themeColor", c.hex)}
+                  title={c.name}
+                  className="w-10 h-10 rounded-full flex items-center justify-center transition-all shadow-sm cursor-pointer"
+                  style={{ background: c.hex, border: cv.themeColor === c.hex ? "3px solid var(--green)" : "3px solid transparent", transform: cv.themeColor === c.hex ? "scale(1.15)" : "scale(1)" }}>
+                  {cv.themeColor === c.hex && <span style={{ color: "#fff", fontSize: 14 }}>✓</span>}
+                </button>
+              ))}
+            </div>
           </div>
         </div>
       );
