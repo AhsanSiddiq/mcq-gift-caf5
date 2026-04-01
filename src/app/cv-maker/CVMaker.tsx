@@ -1,6 +1,8 @@
 "use client";
-import React, { useState } from "react";
-import { Plus, Trash2, Download, Eye, ChevronLeft, ChevronRight, X } from "lucide-react";
+import React, { useState, useEffect } from "react";
+import { Plus, Trash2, Download, Eye, ChevronLeft, ChevronRight, X, Mail, RefreshCw } from "lucide-react";
+
+const LS_KEY = "cahub_cv_v1";
 
 /* ── Types ─────────────────────────────────────────── */
 interface WorkExp { company: string; role: string; period: string; bullets: string[]; }
@@ -432,10 +434,25 @@ function ScaledPreview({ cv, scale }: { cv: CVData; scale: number }) {
    MAIN COMPONENT
    ══════════════════════════════════════ */
 export default function CVMaker() {
-  const [cv, setCv] = useState<CVData>(DEMO);
+  const [cv, setCv] = useState<CVData>(() => {
+    if (typeof window === "undefined") return DEMO;
+    try { const s = localStorage.getItem(LS_KEY); return s ? { ...DEMO, ...JSON.parse(s) } : DEMO; } catch { return DEMO; }
+  });
   const [step, setStep] = useState(0);
   const [showPreview, setShowPreview] = useState(false);
-  const [showAI, setShowAI] = useState(false);
+  const [restored, setRestored] = useState(() => {
+    if (typeof window === "undefined") return false;
+    return !!localStorage.getItem(LS_KEY);
+  });
+  const [showDlModal, setShowDlModal] = useState(false);
+  const [dlEmail, setDlEmail] = useState("");
+  const [dlSending, setDlSending] = useState(false);
+  const [dlSent, setDlSent] = useState(false);
+
+  // Auto-save on every change
+  useEffect(() => {
+    try { localStorage.setItem(LS_KEY, JSON.stringify(cv)); } catch {}
+  }, [cv]);
 
   const set = (field: keyof CVData, value: unknown) => setCv(p => ({ ...p, [field]: value }));
 
@@ -447,7 +464,7 @@ export default function CVMaker() {
     reader.readAsDataURL(file);
   };
 
-  const handlePrint = () => {
+  const doPrint = () => {
     const el = document.getElementById("cv-preview");
     if (!el) return;
     const win = window.open("", "_blank");
@@ -457,6 +474,20 @@ export default function CVMaker() {
       </head><body>${el.outerHTML}</body></html>`);
     win.document.close();
     setTimeout(() => { win.print(); win.close(); }, 400);
+  };
+
+  const handlePrint = () => setShowDlModal(true);
+
+  const handleDlSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!dlEmail) { doPrint(); setShowDlModal(false); return; }
+    setDlSending(true);
+    try {
+      await fetch("/api/cv-emails", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ email: dlEmail, name: cv.name }) });
+    } catch {}
+    setDlSending(false);
+    setDlSent(true);
+    setTimeout(() => { doPrint(); setShowDlModal(false); setDlSent(false); setDlEmail(""); }, 900);
   };
 
   const setEdu = (i: number, field: keyof Education, val: string) => {
@@ -606,10 +637,21 @@ export default function CVMaker() {
             <FieldLabel>Professional Profile</FieldLabel>
             <Txta value={cv.profile} onChange={v => set("profile", v)} rows={6}
               placeholder="CAF Qualified ICAP student seeking an audit trainee position. Cleared all 8 papers on first attempt..." />
-            <Hint>Aim for 50–80 words. Recruiters read this first — make it count.</Hint>
+            {(() => {
+              const words = cv.profile.trim().split(/\s+/).filter(Boolean).length;
+              const ok = words >= 50 && words <= 80;
+              const color = words === 0 ? "var(--text-3)" : ok ? "var(--green)" : "#f59e0b";
+              return (
+                <div className="flex items-center justify-between mt-1.5">
+                  <p className="text-xs" style={{ color: "var(--text-3)" }}>Aim for 50–80 words. Recruiters read this first.</p>
+                  <span className="text-xs font-bold px-2 py-0.5 rounded-lg" style={{ background: "var(--bg-3)", color }}>{words} words{ok ? " ✓" : ""}</span>
+                </div>
+              );
+            })()}
           </div>
         </div>
       );
+
 
       /* ── Work Experience ── */
       case 4: return (
@@ -779,7 +821,7 @@ export default function CVMaker() {
           <div className="xl:w-[460px] shrink-0">
             <div className="rounded-2xl" style={{ background: "var(--bg-2)", border: "1px solid var(--border)" }}>
 
-              {/* Form top bar: step pills + AI button */}
+              {/* Form top bar: step pills + Start Fresh */}
               <div className="flex items-center gap-2 px-2 pt-2 pb-0" style={{ borderBottom: "1px solid var(--border)" }}>
                 <div className="flex gap-1 flex-1 overflow-x-auto pb-2" style={{ scrollbarWidth: "none" as const }}>
                 {STEPS.map((s, i) => (
@@ -790,15 +832,26 @@ export default function CVMaker() {
                   </button>
                 ))}
                 </div>
-                {/* ✨ AI button */}
-                <button onClick={() => setShowAI(true)}
+                <button onClick={() => { if (cv.name !== "") { setCv(DEFAULT); localStorage.removeItem(LS_KEY); setRestored(false); } else { setCv(DEMO); } }}
+                  title={cv.name !== "" ? "Clear and start fresh" : "Load sample CV"}
                   className="shrink-0 flex items-center gap-1 text-xs font-bold px-3 py-1.5 mb-2 rounded-lg whitespace-nowrap transition-all"
-                  style={{ background: "linear-gradient(135deg,#7c3aed,#4f46e5)", color: "#fff", cursor: "pointer", boxShadow: "0 0 12px rgba(124,58,237,0.35)" }}>
-                  ✨ Fill with AI
+                  style={{ background: cv.name !== "" ? "rgba(248,113,113,0.1)" : "rgba(61,179,113,0.1)", color: cv.name !== "" ? "#f87171" : "var(--green)", border: `1px solid ${cv.name !== "" ? "rgba(248,113,113,0.2)" : "rgba(61,179,113,0.2)"}`, cursor: "pointer" }}>
+                  {cv.name !== "" ? <><RefreshCw className="w-3 h-3" /> Start Fresh</> : <>📋 Sample</>}
                 </button>
               </div>
+              {/* Restored banner */}
+              {restored && (
+                <div className="mx-4 mt-3 flex items-center justify-between gap-2 px-3 py-2 rounded-xl text-xs" style={{ background: "rgba(61,179,113,0.08)", border: "1px solid rgba(61,179,113,0.2)", color: "var(--green)" }}>
+                  <span>✅ Restored your last session</span>
+                  <button onClick={() => setRestored(false)} style={{ background: "none", border: "none", color: "var(--green)", cursor: "pointer" }}><X className="w-3 h-3" /></button>
+                </div>
+              )}
+              {/* Progress bar */}
+              <div style={{ height: 3, background: "var(--bg-3)", margin: "0 0 0 0" }}>
+                <div style={{ height: "100%", background: "var(--green)", width: `${((step + 1) / STEPS.length) * 100}%`, transition: "width 0.3s ease", borderRadius: 2 }} />
+              </div>
               {/* Step content */}
-              <div className="p-4 sm:p-5 overflow-y-auto" style={{ maxHeight: "62vh" }}>
+              <div className="p-4 sm:p-5 overflow-y-auto" style={{ maxHeight: "65vh" }}>
                 <h3 className="font-bold text-lg mb-1" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>{STEPS[step].label}</h3>
                 <p className="text-xs mb-5" style={{ color: "var(--text-3)" }}>Step {step + 1} of {STEPS.length}</p>
                 {renderStep()}
@@ -818,11 +871,14 @@ export default function CVMaker() {
                     Next <ChevronRight className="w-4 h-4" />
                   </button>
                 ) : (
-                  <button onClick={handlePrint}
-                    className="flex items-center gap-2 text-sm font-bold px-6 py-2.5 rounded-xl text-white"
-                    style={{ background: "var(--green)", border: "none", cursor: "pointer", boxShadow: "0 2px 14px rgba(61,179,113,0.3)" }}>
-                    <Download className="w-4 h-4" /> Download PDF
-                  </button>
+                  <div className="flex flex-col items-end gap-1.5">
+                    <p className="text-xs font-semibold" style={{ color: "var(--green)" }}>🎉 Your CV is ready!</p>
+                    <button onClick={handlePrint}
+                      className="flex items-center gap-2 text-sm font-bold px-6 py-2.5 rounded-xl text-white"
+                      style={{ background: "var(--green)", border: "none", cursor: "pointer", boxShadow: "0 2px 14px rgba(61,179,113,0.3)" }}>
+                      <Download className="w-4 h-4" /> Download PDF
+                    </button>
+                  </div>
                 )}
               </div>
             </div>
@@ -897,25 +953,42 @@ export default function CVMaker() {
         </div>
       )}
 
-      {/* ── AI Teaser Modal ── */}
-      {showAI && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4" style={{ background: "rgba(0,0,0,0.75)" }}
-          onClick={() => setShowAI(false)}>
-          <div className="max-w-sm w-full rounded-2xl p-6 flex flex-col gap-4" style={{ background: "var(--bg-2)", border: "1px solid var(--border)" }}
+      {/* ── Download Email Modal ── */}
+      {showDlModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4" style={{ background: "rgba(0,0,0,0.75)", backdropFilter: "blur(8px)" }}
+          onClick={() => { setShowDlModal(false); doPrint(); }}>
+          <div className="max-w-sm w-full rounded-2xl p-6 flex flex-col gap-4" style={{ background: "var(--bg-2)", border: "1px solid var(--border)", boxShadow: "0 24px 60px rgba(0,0,0,0.6)" }}
             onClick={e => e.stopPropagation()}>
-            <div className="text-3xl text-center">✨</div>
-            <h3 className="text-xl font-black text-center" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk),sans-serif" }}>AI CV Filling</h3>
-            <p className="text-sm text-center" style={{ color: "var(--text-2)", lineHeight: 1.6 }}>
-              AI-powered auto-fill is <strong>coming soon</strong>. Running AI models costs money — ask your <strong>RAETs and coaching teachers</strong> to sponsor AI credits so every CA student can use it for free.
-            </p>
-            <div className="rounded-xl p-4 text-center" style={{ background: "rgba(124,58,237,0.1)", border: "1px solid rgba(124,58,237,0.3)" }}>
-              <p className="text-xs font-bold mb-1" style={{ color: "#a78bfa" }}>Contact to fund / sponsor:</p>
-              <a href="mailto:ahsansiddiq01@gmail.com" className="text-sm font-black" style={{ color: "#7c3aed" }}>ahsansiddiq01@gmail.com</a>
-            </div>
-            <button onClick={() => setShowAI(false)} className="w-full py-2.5 rounded-xl text-sm font-bold"
-              style={{ background: "var(--bg-3)", color: "var(--text-2)", border: "1px solid var(--border)", cursor: "pointer" }}>
-              Close
-            </button>
+            {dlSent ? (
+              <div className="text-center py-4">
+                <div className="text-4xl mb-3">✅</div>
+                <p className="font-bold text-lg" style={{ color: "var(--text-1)" }}>Sent! Downloading now...</p>
+              </div>
+            ) : (
+              <>
+                <div className="flex items-center gap-3">
+                  <div className="rounded-xl flex items-center justify-center" style={{ width: 44, height: 44, background: "rgba(61,179,113,0.12)", color: "var(--green)" }}><Mail className="w-5 h-5" /></div>
+                  <div>
+                    <h3 className="font-bold text-lg" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk),sans-serif" }}>Get a copy to your inbox</h3>
+                    <p className="text-xs" style={{ color: "var(--text-3)" }}>Optional — we&apos;ll mail you a reminder link</p>
+                  </div>
+                </div>
+                <form onSubmit={handleDlSubmit} className="flex flex-col gap-3">
+                  <input type="email" value={dlEmail} onChange={e => setDlEmail(e.target.value)} placeholder="your@email.com (optional)"
+                    className="w-full rounded-xl px-4 py-3 text-sm outline-none"
+                    style={{ background: "var(--bg-3)", border: "1px solid var(--border)", color: "var(--text-1)" }} />
+                  <button type="submit" disabled={dlSending}
+                    className="w-full flex items-center justify-center gap-2 rounded-xl py-3 font-bold text-sm text-white cursor-pointer"
+                    style={{ background: "var(--green)", border: "none" }}>
+                    <Download className="w-4 h-4" />{dlSending ? "Sending..." : dlEmail ? "Send & Download PDF" : "Download PDF"}
+                  </button>
+                  <button type="button" onClick={() => { setShowDlModal(false); doPrint(); }}
+                    className="text-center text-xs cursor-pointer" style={{ color: "var(--text-3)", background: "none", border: "none" }}>
+                    Skip — just download
+                  </button>
+                </form>
+              </>
+            )}
           </div>
         </div>
       )}
