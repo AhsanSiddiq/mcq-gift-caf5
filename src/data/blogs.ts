@@ -117,5 +117,93 @@ export const blogs: BlogPost[] = [
       <p>The most common reason capable students fail CFAP is psychological collapse during the exam. When faced with an impossibly difficult 20-mark question, panic sets in, destroying performance on the remaining 80 marks. You must accept that you will encounter questions you cannot answer. The skill is in calmly securing the 3 or 4 "easy" marks hidden within that impossible question, and quickly moving on to areas where you are strong.</p>
       <p>Keep your focus sharp, rely on structured practice over endless reading, and remember that passing is simply a matter of accumulating 50 marks, one carefully extracted point at a time.</p>
     `
+  },
+  {
+    slug: "icap-education-scheme-2025-ca-journey",
+    title: "The Complete CA Journey: Decoding the ICAP Education Scheme 2025",
+    excerpt: "From PRC to the Strategic Case Study, this is exactly what the newly overhauled CA qualification in Pakistan looks like.",
+    tag: "ICAP Updates",
+    date: "April 2, 2026",
+    readTime: "6 min read",
+    content: `
+      <h2>A Modernized CA for 2025</h2>
+      <p>The Institute of Chartered Accountants of Pakistan (ICAP) recently launched a major overhaul of the CA qualification known as the <em>Education Scheme 2025</em>. The aim is simple: modernize the profession, integrate technology, and streamline the progression from an entry-level student to a globally recognized finance leader.</p>
+      
+      <h2>Step 1: Pre-Requisite Competencies (PRC)</h2>
+      <p>Under the 2025 scheme, the PRC level has been streamlined down from 5 subjects to just 3 core competencies. ICAP aims to quickly test your aptitude rather than drag out the introductory stage. The focused subjects are:</p>
+      <ul>
+        <li><strong>Business Writing:</strong> Communication is now treated as a non-negotiable core skill.</li>
+        <li><strong>Quantitative Methods:</strong> The mathematical and analytical bedrock of accounting.</li>
+        <li><strong>Business and Economic Insights:</strong> A modernized, combined approach to economics and underlying business mechanics.</li>
+      </ul>
+
+      <h2>Step 2: Certificate in Accounting and Finance (CAF)</h2>
+      <p>The CAF stage is where the true professional filtering happens. Consisting of 8 papers, this level introduces core technical accounting, taxation, and law. A major highlight in the 2025 scheme is the emphasis on technology—specifically with modern papers like <em>Data, Systems & Risks</em>. Furthermore, previous separate law modules have been optimized into a comprehensive <em>Business Law Dynamics</em> paper. Passing CAF makes you eligible to step into the corporate world.</p>
+
+      <h2>Step 3: Practical Training (Articleship)</h2>
+      <p>You cannot learn chartered accountancy purely from a textbook. The 3.5-year mandatory practical training connects academic theories with real-world corporate audits, taxation, and advisory. Under the new scheme, ICAP has maintained a rigid emphasis on ethics and professional values, requiring candidates to pass dedicated online modules during this period.</p>
+
+      <h2>Step 4: CFAP & The Strategic Case Study</h2>
+      <p>The Certified Finance and Accounting Professional (CFAP) level brings sweeping changes. Recognizing global trends, the syllabus now features a strong focus on <em>Sustainability Reporting & Assurance</em>. Once you clear the advanced technical subjects, the journey concludes not with multiple complex exams, but with a single, massive, integrated <strong>Strategic Case Study</strong> (replacing the former MSA structure). This simulates real-time board-level decision-making.</p>
+      
+      <p>The ICAP 2025 scheme removes the fluff and aligns Pakistani CAs directly with the future of global finance. It's leaner, tougher, and more relevant than ever before.</p>
+    `
+  },
+  {
+    slug: "icap-entry-routes-2025-explained",
+    title: "How to Start CA in Pakistan: ICAP Entry Routes 2025 Explained",
+    excerpt: "Are you coming from A-Levels, HSSC, or a university degree? Here is your exact roadmap for entering the CA profession under the 2025 scheme.",
+    tag: "Admissions",
+    date: "April 1, 2026",
+    readTime: "4 min read",
+    content: `
+      <h2>There Is No "One Size Fits All"</h2>
+      <p>One of the most frequent point of confusion for new students is figuring out exactly <em>where</em> their CA journey begins. The ICAP Education Scheme 2025 offers multiple distinct entry routes depending entirely on what you have done prior to registration. Let's break down the two primary channels.</p>
+
+      <h2>1. The Full-Time/Foundation Route (Post HSSC/A-Levels)</h2>
+      <p>This is the traditional route chosen by students immediately after completing high school or college.</p>
+      <ul>
+        <li><strong>For HSSC Students:</strong> If you have an aggregate of <strong>60% or above</strong>, you are granted direct admission into the Pre-Requisite Competencies (PRC) stage.</li>
+        <li><strong>For A-Level Students:</strong> You need an equivalence of 60%, meaning passing at least three subjects with decent margins.</li>
+        <li><strong>The QAT Filter:</strong> What happens if you score between 50% and 60%? You are not automatically rejected. However, before ICAP registers you for PRC, you must pass the <em>Qualifying Assessment Test (QAT)</em>. This is ICAP's way of ensuring you have the baseline analytical and linguistic aptitude necessary to survive CA.</li>
+      </ul>
+
+      <h2>2. The Direct / Graduate Entry Route</h2>
+      <p>If you have already spent four years earning a university degree, ICAP does not force you to start from zero.</p>
+      <ul>
+        <li><strong>16-Year Unversity Degrees:</strong> Graduates from HEC-accredited/specified institutions can bypass the foundational stages. Depending on the university's rating (e.g., W-category) and the subjects studied, graduates directly enter CAF or transition straight to articleship.</li>
+        <li><strong>Professional Qualifications:</strong> If you are partially or fully qualified through ACCA, ICMAP, CIMA (UK), or PIPFA, ICAP offers accelerated pathways mapping directly to your existing competencies.</li>
+      </ul>
+
+      <p>Whether you begin fresh out of college or transition from a master's degree, the endpoint—the prestigious CA designation—remains universally identical.</p>
+    `
+  },
+  {
+    slug: "icap-exemptions-policy-2025-guide",
+    title: "The ICAP Exemptions Policy 2025: Do You Have to Take Every Paper?",
+    excerpt: "A deep dive into the strict criteria ICAP uses to grant paper exemptions for ACCA affiliates, university graduates, and A-Level students.",
+    tag: "Admissions",
+    date: "March 31, 2026",
+    readTime: "5 min read",
+    content: `
+      <h2>The Reality of Exemptions</h2>
+      <p>Earning an exemption from an ICAP paper sounds like finding a cheat code to the qualification. However, the Institute guards its standards fiercely. Under the Education Scheme 2025, the exemption policy is highly structured. You cannot claim an exemption simply because the name of your university course matches an ICAP paper.</p>
+
+      <h2>The Science of Syllabus Matching</h2>
+      <p>The core philosophy driving ICAP's exemption policy is the <strong>70% rule</strong>. For ICAP to grant you an exemption from a CAF or PRC paper, your prior qualification’s learning outcomes and syllabus depth must map at least 70% to the ICAP equivalent. Furthermore, the level of assessment in your prior degree must equal or exceed ICAP's rigorous standards.</p>
+      <p>Additionally, you must secure a high baseline grade in the paper you wish to transfer—typically a secure 60% to 75% in your prior qualification, depending on the tier of the institution.</p>
+
+      <h2>How It Affects Specific Pathways</h2>
+      <ul>
+        <li><strong>A-Level Exceptional Performers:</strong> Top-tier A-level students often automatically bypass the Qualifying Assessment Test. In specific cases, exceptional grades in subjects like Economics can trigger exemptions in the correlated PRC papers.</li>
+        <li><strong>ACCA Affiliates:</strong> ACCA members and affiliates enjoy some of the most robust exemption pathways. Typically, a fully qualified ACCA affiliate can secure exemptions for the entirety of the PRC stage and potentially up to four or five major CAF papers (such as Financial Accounting, Management Accounting, and Audit), fast-tracking them directly into advanced CAF or early articleship.</li>
+        <li><strong>16-Year Degree Holders:</strong> The scale of exemptions relies heavily on your university's ranking. Graduates from highly ranked, HEC W-category business programs often witness substantial PRC and CAF waivers, reducing their path to CFAP by over a year.</li>
+      </ul>
+
+      <h2>The Catch</h2>
+      <p>There is no "result awaiting" exemption. You must formally apply with finalized transcripts and pay the requisite exemption fees. Furthermore, exemptions for specific, specialized hands-on modules (like MS Office or PPE) may only be bypassed if proof of equivalent formalized hands-on application exists.</p>
+
+      <p>Exemptions are a privilege, not a right. If you qualify, use the saved time to aggressively master the papers you still have to take.</p>
+    `
   }
 ];
