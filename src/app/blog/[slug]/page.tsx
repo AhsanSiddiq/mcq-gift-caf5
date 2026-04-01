@@ -8,8 +8,9 @@ export function generateStaticParams() {
   return blogs.map((b) => ({ slug: b.slug }));
 }
 
-export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
-  const blog = blogs.find(b => b.slug === params?.slug);
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+  const blog = blogs.find(b => b.slug === slug);
   if (!blog) return { title: "Not Found" };
   return {
     title: `${blog.title} | The CA Hub Blog`,
@@ -24,8 +25,9 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   };
 }
 
-export default function BlogPost({ params }: { params: { slug: string } }) {
-  const blog = blogs.find(b => b.slug === params?.slug);
+export default async function BlogPost({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const blog = blogs.find(b => b.slug === slug);
   if (!blog) return notFound();
 
   return (
