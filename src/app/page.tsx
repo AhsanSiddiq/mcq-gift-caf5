@@ -1124,9 +1124,9 @@ export default function Home() {
 
           <motion.div initial="hidden" whileInView="show" viewport={{ once: true }} variants={stagger} className="grid grid-cols-1 md:grid-cols-3 gap-5 mb-10">
             {[
-              { id: "hzkd6RutgyI", title: "How I Cleared All 6 CFAP Papers at Once" },
-              { id: "oR2VUTb-nag", title: "The CA Study Strategy Nobody Talks About" },
-              { id: "QJERn3hr974", title: "What ICAP Doesn't Tell You About Finals" },
+              { id: "hzkd6RutgyI", title: "CAF Group A in 1 Attempt | The Complete Roadmap" },
+              { id: "oR2VUTb-nag", title: "6 CFAP Papers in 6 Months | The Complete Strategy" },
+              { id: "QJERn3hr974", title: "CAF Group B in 1 Attempt | Part 1 | Complete Strategy" },
             ].map((v) => (
               <motion.div key={v.id} variants={fadeUp} className="rounded-2xl overflow-hidden" style={{ border: "1px solid var(--border)", background: "var(--bg-2)" }}>
                 <div className="relative w-full" style={{ paddingBottom: "56.25%" }}>
