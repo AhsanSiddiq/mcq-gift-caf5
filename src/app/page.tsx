@@ -8,6 +8,7 @@ import {
   useMotionValue, useSpring, AnimatePresence,
 } from "framer-motion";
 import { ArrowRight, CheckCircle2, BookOpen, FileText, Target } from "lucide-react";
+import { blogs } from "@/data/blogs";
 
 /* ── Framer Variants ── */
 const fadeUp: import("framer-motion").Variants = {
@@ -84,23 +85,7 @@ const STAGES = [
 
 
 
-const ARTICLES = [
-  {
-    tag:"Coming Soon", read:"--",
-    title:"Deep Dive: Examiner's Mindset",
-    excerpt:"We're currently writing this article. Check back soon for the full breakdown.",
-  },
-  {
-    tag:"Coming Soon", read:"--",
-    title:"The Real Articleship Experience",
-    excerpt:"We're currently writing this article. Check back soon for the full breakdown.",
-  },
-  {
-    tag:"Coming Soon", read:"--",
-    title:"CFAP 101: Where to Start",
-    excerpt:"We're currently writing this article. Check back soon for the full breakdown.",
-  },
-];
+
 
 /* ── Interactive Hub Ecosystem ── */
 function HeroEcosystem() {
@@ -1072,7 +1057,7 @@ export default function Home() {
               </motion.h2>
             </div>
             <motion.div variants={fadeUp}>
-              <Link href="#" className="inline-flex items-center gap-2 font-semibold rounded-full px-6 py-3 shrink-0"
+              <Link href="/blog" className="inline-flex items-center gap-2 font-semibold rounded-full px-6 py-3 shrink-0"
                 style={{ fontSize:14, color:"var(--text-1)", background:"var(--surface)", border:"1px solid var(--border)", fontFamily:"var(--font-space-grotesk), system-ui, sans-serif" }}>
                 All Blogs →
               </Link>
@@ -1080,9 +1065,9 @@ export default function Home() {
           </motion.div>
 
           <div className="grid md:grid-cols-3 gap-6">
-            {ARTICLES.map((a, i) => (
+            {blogs.slice(0, 3).map((a, i) => (
               <motion.div key={a.title} initial="hidden" whileInView="show" viewport={{ once:true, margin:"-40px" }} variants={fadeUp} transition={{ delay: i*0.1 }}>
-                <Link href="#" className="block h-full p-8 rounded-2xl group/card"
+                <Link href={`/blog/${a.slug}`} className="block h-full p-8 rounded-2xl group/card"
                   style={{ background:"var(--bg-2)", border:"1px solid var(--border)", textDecoration:"none", display:"flex", flexDirection:"column", transition:"transform 0.35s ease, border-color 0.35s ease, box-shadow 0.35s ease" }}
                   onMouseEnter={e => { e.currentTarget.style.transform="translateY(-5px)"; e.currentTarget.style.borderColor="rgba(61,179,113,0.25)"; e.currentTarget.style.boxShadow="0 16px 50px rgba(0,0,0,0.2)"; }}
                   onMouseLeave={e => { e.currentTarget.style.transform="none"; e.currentTarget.style.borderColor="var(--border)"; e.currentTarget.style.boxShadow="none"; }}
@@ -1091,7 +1076,7 @@ export default function Home() {
                     <span className="rounded-full px-3 py-1" style={{ fontSize:10, fontWeight:700, letterSpacing:"0.15em", textTransform:"uppercase", background:"rgba(61,179,113,0.1)", color:"var(--green)", fontFamily:"var(--font-space-grotesk), system-ui, sans-serif" }}>
                       {a.tag}
                     </span>
-                    <span style={{ fontSize:11, color:"var(--text-3)", fontFamily:"var(--font-inter), system-ui, sans-serif" }}>{a.read}</span>
+                    <span style={{ fontSize:11, color:"var(--text-3)", fontFamily:"var(--font-inter), system-ui, sans-serif" }}>{a.readTime}</span>
                   </div>
                   <h3 className="font-sans font-bold text-lg leading-snug mb-4 flex-1" style={{ color:"var(--text-1)", fontFamily:"var(--font-space-grotesk), system-ui, sans-serif", transition:"color 0.3s" }}>
                     {a.title}
