@@ -1,0 +1,352 @@
+[
+  {
+    "id": "c3q26",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "What is the correct double-entry sequence to formally transfer a net profit of Rs. 250,000 to the owner's equity at year-end?",
+    "options": [
+      "A) Debit Owner's Capital Rs. 250,000, Credit Statement of Profit or Loss Rs. 250,000",
+      "B) Debit Statement of Profit or Loss Rs. 250,000, Credit Owner's Capital Rs. 250,000",
+      "C) Debit Drawings Rs. 250,000, Credit Statement of Profit or Loss Rs. 250,000",
+      "D) Debit Cash Rs. 250,000, Credit Owner's Capital Rs. 250,000"
+    ],
+    "correctAnswer": "B) Debit Statement of Profit or Loss Rs. 250,000, Credit Owner's Capital Rs. 250,000",
+    "explanation": "Net profit inherently belongs to the owner. To close the profit or loss account and transfer this balance, the Statement of Comprehensive Income (Profit or loss) is debited, and the Owner's Capital account is credited, thereby increasing equity."
+  },
+  {
+    "id": "c3q27",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "Which of the following lists represents the correct sequential order of the fundamental accounting cycle?",
+    "options": [
+      "A) Trial balance, Ledgers, Books of prime entry, Financial statements, Transactions.",
+      "B) Financial statements, Trial balance, Ledgers, Books of prime entry, Transactions.",
+      "C) Transactions, Books of prime entry, Ledgers, Trial balance, Financial statements.",
+      "D) Books of prime entry, Transactions, Trial balance, Financial statements, Ledgers."
+    ],
+    "correctAnswer": "C) Transactions, Books of prime entry, Ledgers, Trial balance, Financial statements.",
+    "explanation": "The logical flow of the accounting process begins with a Transaction, which is recorded in the Books of prime entry, posted to Ledgers, summarized in a Trial balance, and finally reported in the Financial statements."
+  },
+  {
+    "id": "c3q28",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "When posting data from the Cash Book, how are individual payments made to credit suppliers processed in a manual ledger system?",
+    "options": [
+      "A) They are credited to the General Ledger's Purchases account.",
+      "B) They are debited to individual supplier accounts within the Payables Ledger.",
+      "C) They are credited to individual supplier accounts within the Payables Ledger.",
+      "D) They are completely ignored until year-end."
+    ],
+    "correctAnswer": "B) They are debited to individual supplier accounts within the Payables Ledger.",
+    "explanation": "Payments made to a supplier reduce the liability owed to them. Therefore, each payment recorded in the cash book is posted directly to the debit side of that specific supplier's account in the Payables Ledger."
+  },
+  {
+    "id": "c3q29",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "The 'Payables Ledger' is also commonly referred to by which alternative name in accounting terminology?",
+    "options": [
+      "A) General Ledger",
+      "B) Nominal Ledger",
+      "C) Purchase Ledger",
+      "D) Expense Ledger"
+    ],
+    "correctAnswer": "C) Purchase Ledger",
+    "explanation": "The Payables Ledger contains all individual accounts for suppliers from whom the business buys inventory on credit. Consequently, it is frequently called the purchase ledger or supplier ledger."
+  },
+  {
+    "id": "c3q30",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "When 'Velocity Logistics' receives a credit note from a supplier for returned defective goods, into which specific ledger is this individual transaction directly posted?",
+    "options": [
+      "A) The credit side of the Purchase Returns account in the General Ledger.",
+      "B) The debit side of the individual supplier's account in the Payables Ledger.",
+      "C) The credit side of the individual supplier's account in the Payables Ledger.",
+      "D) The debit side of the Sales Returns account in the General Ledger."
+    ],
+    "correctAnswer": "B) The debit side of the individual supplier's account in the Payables Ledger.",
+    "explanation": "A credit note received signifies a purchase return, which decreases the amount the business owes. To record this reduction in liability, the individual return is posted to the debit side of the specific supplier's account in the Payables Ledger."
+  },
+  {
+    "id": "c3q31",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "The 'Trade Payables' account in the General Ledger of 'Apex Logistics' shows total entries on the debit side amounting to Rs. 45,000 and total entries on the credit side amounting to Rs. 110,000. What is the brought down (b/d) balance for the start of the next accounting period?",
+    "options": [
+      "A) Rs. 65,000 Debit",
+      "B) Rs. 65,000 Credit",
+      "C) Rs. 155,000 Credit",
+      "D) Rs. 45,000 Debit"
+    ],
+    "correctAnswer": "B) Rs. 65,000 Credit",
+    "explanation": "The balance is the difference between the two sides. Since the credit side (Rs. 110,000) is heavier than the debit side (Rs. 45,000), the difference of Rs. 65,000 is carried down on the debit side and brought down as a credit balance for the next period."
+  },
+  {
+    "id": "c3q32",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "In manual ledger accounting, when an account is balanced at the end of the month, the abbreviation 'Balance c/d' is often used. What does this abbreviation stand for, and what does it represent?",
+    "options": [
+      "A) Carried down; representing the closing balance of the period.",
+      "B) Carried down; representing the opening balance of the period.",
+      "C) Closing debt; representing the total liabilities of the business.",
+      "D) Cash debit; representing the physical cash received."
+    ],
+    "correctAnswer": "A) Carried down; representing the closing balance of the period.",
+    "explanation": "The abbreviation 'c/d' stands for 'carried down'. It represents the closing balance inserted to mathematically equalize the debit and credit sides of a ledger account at the end of an accounting period."
+  },
+  {
+    "id": "c3q33",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "The chief accountant of 'Orbit Solutions' requests his assistant to extract balances from the 'Nominal Ledger'. Which ledger is the chief accountant referring to?",
+    "options": [
+      "A) The Receivables Ledger",
+      "B) The General Ledger",
+      "C) The Payables Ledger",
+      "D) The Petty Cash Book"
+    ],
+    "correctAnswer": "B) The General Ledger",
+    "explanation": "The General Ledger contains all the nominal accounts (income, expenses, assets, liabilities, and equity). Therefore, it is frequently referred to interchangeably as the Nominal Ledger."
+  },
+  {
+    "id": "c3q34",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "At the end of the financial year, the 'Sales Revenue' account of 'Glow Enterprises' has a credit balance of Rs. 4.5 million. What is the correct journal entry to formally close this account?",
+    "options": [
+      "A) Debit Statement of Profit or Loss Rs. 4.5m, Credit Sales Revenue Rs. 4.5m",
+      "B) Debit Owner's Capital Rs. 4.5m, Credit Sales Revenue Rs. 4.5m",
+      "C) Debit Sales Revenue Rs. 4.5m, Credit Statement of Profit or Loss Rs. 4.5m",
+      "D) Debit Sales Revenue Rs. 4.5m, Credit Trade Receivables Rs. 4.5m"
+    ],
+    "correctAnswer": "C) Debit Sales Revenue Rs. 4.5m, Credit Statement of Profit or Loss Rs. 4.5m",
+    "explanation": "Revenue accounts have credit balances. To close them to zero at year-end, they must be debited. The corresponding credit is made to the Statement of Profit or Loss (or Trading Account) to calculate the gross profit."
+  },
+  {
+    "id": "c3q35",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "'Nexus Traders' makes a bank transfer of Rs. 35,000 to settle an invoice from a credit supplier, 'Vertex Supplies'. How is this specific, individual payment posted from the cash book to the ledgers?",
+    "options": [
+      "A) It is credited to the General Ledger's Purchases account.",
+      "B) It is debited to the General Ledger's Trade Payables control account only.",
+      "C) It is debited to the individual account of 'Vertex Supplies' in the Payables Ledger.",
+      "D) It is credited to the individual account of 'Vertex Supplies' in the Payables Ledger."
+    ],
+    "correctAnswer": "C) It is debited to the individual account of 'Vertex Supplies' in the Payables Ledger.",
+    "explanation": "Individual payments to suppliers decrease the liability owed to that specific supplier. Therefore, the payment is posted from the cash book directly to the debit side of the supplier's personal account in the Payables (Purchase) Ledger."
+  },
+  {
+    "id": "c3q36",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "When a business receives a settlement discount from a credit supplier, the individual discount amount is recorded in the memorandum column of the cash book. Where is this specific individual amount posted?",
+    "options": [
+      "A) Debit side of the individual supplier's account in the Payables Ledger.",
+      "B) Credit side of the individual supplier's account in the Payables Ledger.",
+      "C) Credit side of the Discount Received account in the General Ledger.",
+      "D) Debit side of the Discount Allowed account in the General Ledger."
+    ],
+    "correctAnswer": "A) Debit side of the individual supplier's account in the Payables Ledger.",
+    "explanation": "A discount received reduces the amount the business owes to that specific supplier. To reflect this reduction in liability, the individual discount is debited to the supplier's account in the Payables Ledger."
+  },
+  {
+    "id": "c3q37",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "'Prime Retailers' has recently shifted from using traditional 'T-accounts' to 'running balance' accounts for its receivables ledger. What is the primary operational difference?",
+    "options": [
+      "A) Running balance accounts only record cash, whereas T-accounts record credit sales.",
+      "B) T-accounts are balanced periodically, whereas running balance accounts calculate and show an updated balance after every single transaction.",
+      "C) Running balance accounts do not require debits and credits.",
+      "D) T-accounts are used for assets, while running balance accounts are used for liabilities."
+    ],
+    "correctAnswer": "B) T-accounts are balanced periodically, whereas running balance accounts calculate and show an updated balance after every single transaction.",
+    "explanation": "A running balance account includes an extra column specifically for the balance, which is updated continuously after each debit or credit entry, rather than waiting for period-end balancing like a T-account."
+  },
+  {
+    "id": "c3q38",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "'BlueSky Logistics' has an opening bank balance of Rs. 50,000. During the month, the following transactions occur: Cash received from credit customers Rs. 85,000; Cash sales Rs. 20,000; Payments to credit suppliers Rs. 45,000; Credit sales Rs. 100,000. What is the closing bank balance?",
+    "options": [
+      "A) Rs. 210,000",
+      "B) Rs. 110,000",
+      "C) Rs. 60,000",
+      "D) Rs. 165,000"
+    ],
+    "correctAnswer": "B) Rs. 110,000",
+    "explanation": "Credit sales do not immediately affect the bank balance. Closing Bank = Opening (50,000) + Receipts from receivables (85,000) + Cash sales (20,000) - Payments to suppliers (45,000) = Rs. 110,000."
+  },
+  {
+    "id": "c3q39",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "'Zenith Tech' has an opening trade payables balance of Rs. 40,000. During the month: Credit purchases Rs. 120,000; Payments to suppliers via bank Rs. 90,000; Settlement discounts received Rs. 5,000; Contra settlement with receivables Rs. 10,000. What is the closing trade payables balance?",
+    "options": [
+      "A) Rs. 65,000 Credit",
+      "B) Rs. 55,000 Debit",
+      "C) Rs. 55,000 Credit",
+      "D) Rs. 75,000 Credit"
+    ],
+    "correctAnswer": "C) Rs. 55,000 Credit",
+    "explanation": "Closing Payables = Opening liability (40,000) + Credit purchases (120,000) - Bank payments (90,000) - Discounts received (5,000) - Contra settlement (10,000) = Rs. 55,000 Credit."
+  },
+  {
+    "id": "c3q40",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "The receivables ledger of 'Falcon Furnishings' shows an opening debit balance of Rs. 75,000. During the period: Credit sales Rs. 200,000; Cash received from credit customers Rs. 150,000; Discounts allowed Rs. 4,000; Bad debts written off Rs. 6,000. What is the closing balance of the receivables ledger?",
+    "options": [
+      "A) Rs. 125,000 Debit",
+      "B) Rs. 115,000 Debit",
+      "C) Rs. 121,000 Debit",
+      "D) Rs. 115,000 Credit"
+    ],
+    "correctAnswer": "B) Rs. 115,000 Debit",
+    "explanation": "Closing Receivables = Opening Asset (75,000) + Credit sales (200,000) - Receipts (150,000) - Discounts allowed (4,000) - Bad debts (6,000) = Rs. 115,000 Debit."
+  },
+  {
+    "id": "c3q41",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "'Silverline Traders' unfortunately incurred a net loss of Rs. 150,000 for the financial year. How is this net loss formally transferred in the ledger accounts at year-end?",
+    "options": [
+      "A) Debit Statement of Profit or Loss Rs. 150,000, Credit Owner's Capital Rs. 150,000",
+      "B) Debit Owner's Capital Rs. 150,000, Credit Statement of Profit or Loss Rs. 150,000",
+      "C) Debit Drawings Rs. 150,000, Credit Statement of Profit or Loss Rs. 150,000",
+      "D) Debit Trade Payables Rs. 150,000, Credit Owner's Capital Rs. 150,000"
+    ],
+    "correctAnswer": "B) Debit Owner's Capital Rs. 150,000, Credit Statement of Profit or Loss Rs. 150,000",
+    "explanation": "A net loss represents a decrease in the owner's equity. To transfer this, the Owner's Capital account is debited (reducing equity), and the Statement of Profit or Loss is credited to close it out."
+  },
+  {
+    "id": "c3q42",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "When reviewing the final trial balance of 'Metro Enterprises', a newly hired accountant notes an unknown ledger account displaying a debit balance. According to the fundamental rules of double-entry, this balance could represent which of the following?",
+    "options": [
+      "A) A liability or an income",
+      "B) An asset or a liability",
+      "C) An asset or an expense",
+      "D) An income or an equity item"
+    ],
+    "correctAnswer": "C) An asset or an expense",
+    "explanation": "In double-entry bookkeeping, asset accounts and expense accounts natively carry debit balances. Liabilities, equity (capital), and income accounts carry credit balances."
+  },
+  {
+    "id": "c3q43",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "Under the periodic inventory system, the value of closing inventory determined by a physical count at year-end must be brought into the double-entry records. What is the correct year-end journal entry to achieve this?",
+    "options": [
+      "A) Debit Cost of Sales, Credit Inventory",
+      "B) Debit Inventory, Credit Sales Revenue",
+      "C) Debit Inventory, Credit Cost of Sales",
+      "D) Debit Purchases, Credit Inventory"
+    ],
+    "correctAnswer": "C) Debit Inventory, Credit Cost of Sales",
+    "explanation": "To recognize closing stock under the periodic system, you debit the Inventory asset account (to put the asset on the statement of financial position) and credit Cost of Sales (to deduct it from the cost of goods sold in the profit or loss statement)."
+  },
+  {
+    "id": "c3q44",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "The trial balance of 'Crest Innovations' matches perfectly, with both debit and credit columns totaling Rs. 4.5 million. Which of the following errors could still exist within the accounting records despite this agreement?",
+    "options": [
+      "A) The sales account was undercast by Rs. 10,000, with no corresponding error elsewhere.",
+      "B) A cash receipt of Rs. 5,000 was debited to Cash but never credited to the customer.",
+      "C) A cash payment for rent was posted to the debit side of the electricity expense account.",
+      "D) A purchase invoice of Rs. 2,000 was entered twice on the credit side of the supplier's account."
+    ],
+    "correctAnswer": "C) A cash payment for rent was posted to the debit side of the electricity expense account.",
+    "explanation": "Posting a debit entry to the wrong account but on the correct side (an error of commission or principle) does not affect the mathematical equality of total debits and total credits, so the trial balance will still agree."
+  },
+  {
+    "id": "c3q45",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "Consider the following extracted ledger balances for 'Aurora Tech': Sales Rs. 500,000; Purchases Rs. 250,000; Rent Expense Rs. 40,000; Machinery Rs. 150,000; Trade Receivables Rs. 80,000; Trade Payables Rs. 60,000; Bank Overdraft Rs. 20,000; Capital Rs. 140,000. What is the total of the debit column in the trial balance?",
+    "options": [
+      "A) Rs. 520,000",
+      "B) Rs. 720,000",
+      "C) Rs. 480,000",
+      "D) Rs. 580,000"
+    ],
+    "correctAnswer": "A) Rs. 520,000",
+    "explanation": "Debit balances consist of Purchases (250,000), Rent Expense (40,000), Machinery (150,000), and Trade Receivables (80,000). 250k + 40k + 150k + 80k = Rs. 520,000."
+  },
+  {
+    "id": "c3q46",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "In the accounting cycle, the specific administrative process of transferring financial transaction data from the books of prime entry into the respective ledger accounts is formally referred to as:",
+    "options": [
+      "A) Analyzing",
+      "B) Summarizing",
+      "C) Posting",
+      "D) Balancing"
+    ],
+    "correctAnswer": "C) Posting",
+    "explanation": "Posting is the technical term for the process of transferring the debits and credits recorded in the day books or journals into the corresponding individual and general ledger accounts."
+  },
+  {
+    "id": "c3q47",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "When extracting a trial balance for 'Star Merchants', which of the following groups of accounts will normally feature exclusively in the credit column?",
+    "options": [
+      "A) Machinery, Rent Expense, and Drawings",
+      "B) Sales Revenue, Owner's Capital, and Trade Payables",
+      "C) Trade Receivables, Bank Overdraft, and Purchases",
+      "D) Inventory, Sales Returns, and Purchase Returns"
+    ],
+    "correctAnswer": "B) Sales Revenue, Owner's Capital, and Trade Payables",
+    "explanation": "In a trial balance, credit balances represent incomes (Sales Revenue), equity (Owner's Capital), and liabilities (Trade Payables). The other options contain assets or expenses which carry debit balances."
+  },
+  {
+    "id": "c3q48",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "'Global Supplies' is both a customer and a supplier to 'Urban Retailers'. 'Urban' owes 'Global' Rs. 45,000 for inventory, while 'Global' owes 'Urban' Rs. 15,000 for consulting services. They agree to a contra settlement. At what amount will the journal entry for this contra settlement be recorded?",
+    "options": [
+      "A) Rs. 60,000",
+      "B) Rs. 45,000",
+      "C) Rs. 30,000",
+      "D) Rs. 15,000"
+    ],
+    "correctAnswer": "D) Rs. 15,000",
+    "explanation": "A contra settlement offsets mutual debts. It is recorded at the amount of the smaller balance (Rs. 15,000). The entry will debit Trade Payables and credit Trade Receivables for Rs. 15,000, leaving a net payable of Rs. 30,000."
+  },
+  {
+    "id": "c3q49",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "At the end of the reporting period, 'Radiant Builders' has a credit balance of Rs. 75,000 in its 'Commission Received' account. How is this account dealt with to prepare for the new financial year?",
+    "options": [
+      "A) The balance is carried down as a credit balance of Rs. 75,000 for the new year.",
+      "B) The account is closed by debiting it with Rs. 75,000 and crediting the Statement of Profit or Loss.",
+      "C) The account is closed by crediting it with Rs. 75,000 and debiting Owner's Capital.",
+      "D) The balance is transferred directly to the Cash Book."
+    ],
+    "correctAnswer": "B) The account is closed by debiting it with Rs. 75,000 and crediting the Statement of Profit or Loss.",
+    "explanation": "Income accounts (like Commission Received) are nominal accounts that must be closed at year-end. Because it has a credit balance, it is closed by debiting the account and transferring the amount to the Statement of Profit or Loss."
+  },
+  {
+    "id": "c3q50",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "The initial trial balance of 'Nova Traders' fails to agree. The total of the debit column is Rs. 1,540,000, and the total of the credit column is Rs. 1,480,000. To force the trial balance to agree temporarily so draft financial statements can be prepared, what specific entry must the accountant make?",
+    "options": [
+      "A) Debit a Suspense Account with Rs. 60,000.",
+      "B) Credit a Suspense Account with Rs. 60,000.",
+      "C) Credit the Owner's Capital Account with Rs. 60,000.",
+      "D) Debit the Bank Account with Rs. 60,000."
+    ],
+    "correctAnswer": "B) Credit a Suspense Account with Rs. 60,000.",
+    "explanation": "Because the debit side (1,540,000) is heavier than the credit side (1,480,000) by Rs. 60,000, a temporary suspense account is created and credited with Rs. 60,000 to mathematically balance the trial balance until the errors are found."
+  }
+]

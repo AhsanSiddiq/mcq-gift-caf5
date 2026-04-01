@@ -1,12 +1,13 @@
 "use client";
 
-import { ArrowRight, BookOpen, Shuffle, Target, PlayCircle, Bookmark, ArrowLeft } from "lucide-react";
+import { ArrowRight, BookOpen, Shuffle, Target, PlayCircle, Bookmark, ArrowLeft, CloudUpload, LogOut } from "lucide-react";
 import Link from "next/link";
 
 import { useProgress } from "@/hooks/useProgress";
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import { allSubjects } from "@/data/subjects";
+import EmailLoginModal from "@/components/EmailLoginModal";
 
 export default function SubjectHome() {
   const params = useParams();
@@ -21,24 +22,38 @@ export default function SubjectHome() {
     isAvailable: true,
   };
 
-  const { progress, isLoaded, getTotalMasteredPoints } = useProgress();
+  const { progress, isLoaded, getTotalMasteredPoints, auth, signIn, signOut, loadFromCloud, isSyncing } = useProgress(subjectId);
   const [mounted, setMounted] = useState(false);
   const [totalQuestions, setTotalQuestions] = useState(0);
   const [isFetchingCount, setIsFetchingCount] = useState(true);
+  const [showLoginModal, setShowLoginModal] = useState(false);
 
-  useEffect(() => { 
-    setMounted(true); 
+  useEffect(() => {
+    setMounted(true);
     setIsFetchingCount(true);
-    fetch(`/api/questions?subject=${subjectId}`)
+    // Use the fast meta endpoint instead of fetching all questions
+    fetch(`/api/subjects-meta?subject=${subjectId}`)
       .then((r) => r.json())
-      .then((data) => setTotalQuestions(data.questions?.length || 0))
+      .then((data) => {
+        const meta = data.subjects?.[subjectId];
+        setTotalQuestions(meta?.total || 0);
+      })
       .catch(console.error)
       .finally(() => setIsFetchingCount(false));
   }, [subjectId]);
 
+  // Load cloud progress when auth is present
+  useEffect(() => {
+    if (auth && isLoaded) {
+      loadFromCloud(subjectId);
+    }
+  }, [auth, isLoaded, subjectId]); // eslint-disable-line
+
   const masteredPoints = getTotalMasteredPoints();
   const masteryPct = Math.round((masteredPoints / totalQuestions) * 100) || 0;
-  const isMarathonActive = isLoaded && progress.marathon.inProgress && progress.marathon.questionIds.length > 0;
+
+  // ← FIX: only active if this subject's marathon is in progress
+  const isMarathonActive = isLoaded && progress.marathon.inProgress && progress.marathon.subjectId === subjectId && progress.marathon.questionIds.length > 0;
   const flaggedCount = isLoaded ? (progress.flaggedQuestionIds || []).length : 0;
 
   const MODES = [
@@ -93,6 +108,12 @@ export default function SubjectHome() {
 
   return (
     <main className="min-h-screen">
+      <EmailLoginModal
+        isOpen={showLoginModal}
+        onClose={() => setShowLoginModal(false)}
+        onSuccess={(em, tok) => { signIn(em, tok); loadFromCloud(subjectId); }}
+      />
+
       <div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8 pt-28 pb-20">
 
         {/* Back */}
@@ -107,36 +128,60 @@ export default function SubjectHome() {
         </Link>
 
         {/* Header */}
-        <div className="mb-12">
-          <div className="flex items-center gap-3 mb-3">
-            <span
-              className="text-xs font-black uppercase tracking-widest px-3 py-1 rounded-full"
-              style={{ color: "var(--green)", background: "rgba(61,179,113,0.10)", border: "1px solid rgba(61,179,113,0.25)" }}
-            >
-              {currentSubject.id.toUpperCase()}
-            </span>
-          </div>
-          <h1
-            className="font-bold mb-3"
-            style={{
-              fontSize: "clamp(1.75rem,4vw,2.75rem)",
-              color: "var(--text-1)",
-              fontFamily: "var(--font-space-grotesk), sans-serif",
-              lineHeight: 1.15,
-            }}
-          >
-            {currentSubject.title}
-          </h1>
-          <p style={{ color: "var(--text-2)", fontFamily: "var(--font-inter), sans-serif", fontSize: 16, lineHeight: 1.6 }}>
-            {isFetchingCount ? (
+        <div className="mb-10 flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4">
+          <div className="flex-1 min-w-0">
+            <div className="flex items-center gap-3 mb-3">
               <span
-                className="inline-block rounded-md animate-pulse"
-                style={{ width: 130, height: 18, background: "var(--border)", verticalAlign: "middle" }}
-              />
+                className="text-xs font-black uppercase tracking-widest px-3 py-1 rounded-full"
+                style={{ color: "var(--green)", background: "rgba(61,179,113,0.10)", border: "1px solid rgba(61,179,113,0.25)" }}
+              >
+                {currentSubject.id.toUpperCase()}
+              </span>
+            </div>
+            <h1
+              className="font-bold mb-3"
+              style={{ fontSize: "clamp(1.75rem,4vw,2.75rem)", color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif", lineHeight: 1.15 }}
+            >
+              {currentSubject.title}
+            </h1>
+            <p style={{ color: "var(--text-2)", fontFamily: "var(--font-inter), sans-serif", fontSize: 16, lineHeight: 1.6 }}>
+              {isFetchingCount ? (
+                <span className="inline-block rounded-md animate-pulse" style={{ width: 130, height: 18, background: "var(--border)", verticalAlign: "middle" }} />
+              ) : (
+                <>{totalQuestions} hand-picked MCQs with explanations. Choose your practice mode below.</>
+              )}
+            </p>
+          </div>
+
+          {/* Cloud Save / Auth */}
+          <div className="shrink-0">
+            {auth ? (
+              <div className="flex flex-col items-end gap-1.5">
+                <span className="text-xs font-medium px-3 py-1.5 rounded-full" style={{ background: "rgba(61,179,113,0.1)", color: "var(--green)", border: "1px solid rgba(61,179,113,0.2)" }}>
+                  {isSyncing ? "⏳ Syncing…" : `☁ ${auth.email}`}
+                </span>
+                <button
+                  onClick={signOut}
+                  className="flex items-center gap-1 text-xs cursor-pointer"
+                  style={{ color: "var(--text-3)", background: "none", border: "none" }}
+                  onMouseEnter={e => (e.currentTarget.style.color = "#f87171")}
+                  onMouseLeave={e => (e.currentTarget.style.color = "var(--text-3)")}
+                >
+                  <LogOut className="w-3 h-3" /> Sign out
+                </button>
+              </div>
             ) : (
-              <>{totalQuestions} hand-picked MCQs with explanations. Choose your practice mode below.</>
+              <button
+                onClick={() => setShowLoginModal(true)}
+                className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-semibold cursor-pointer transition-colors"
+                style={{ background: "rgba(61,179,113,0.08)", border: "1px solid rgba(61,179,113,0.25)", color: "var(--green)" }}
+                onMouseEnter={e => (e.currentTarget.style.background = "rgba(61,179,113,0.15)")}
+                onMouseLeave={e => (e.currentTarget.style.background = "rgba(61,179,113,0.08)")}
+              >
+                <CloudUpload className="w-4 h-4" /> Save Progress
+              </button>
             )}
-          </p>
+          </div>
         </div>
 
         {/* Progress bar */}
@@ -214,10 +259,7 @@ export default function SubjectHome() {
                   {mode.label}
                 </h2>
                 {mode.desc === null ? (
-                  <span
-                    className="inline-block rounded-md animate-pulse mt-1"
-                    style={{ width: "80%", height: 14, background: "var(--border)", display: "block" }}
-                  />
+                  <span className="inline-block rounded-md animate-pulse mt-1" style={{ width: "80%", height: 14, background: "var(--border)", display: "block" }} />
                 ) : (
                   <p className="text-sm leading-relaxed" style={{ color: "var(--text-2)", fontFamily: "var(--font-inter), sans-serif" }}>
                     {mode.desc}

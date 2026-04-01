@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { prcSubjects, cafSubjects } from "@/data/subjects";
 import { BookOpen, Lock } from "lucide-react";
+import { useEffect, useState } from "react";
 
 const LEVEL_META: Record<string, { label: string; tag: string; color: string; bg: string; desc: string }> = {
   PRC: {
@@ -21,7 +22,15 @@ const LEVEL_META: Record<string, { label: string; tag: string; color: string; bg
   },
 };
 
-function SubjectCard({ subject }: { subject: { id: string; title: string; level: string; isAvailable: boolean } }) {
+function SubjectCard({
+  subject,
+  questionCount,
+  isLoadingCount,
+}: {
+  subject: { id: string; title: string; level: string; isAvailable: boolean };
+  questionCount?: number;
+  isLoadingCount: boolean;
+}) {
   const meta = LEVEL_META[subject.level] ?? LEVEL_META.CAF;
   const num = subject.id.split("-")[1];
 
@@ -29,18 +38,10 @@ function SubjectCard({ subject }: { subject: { id: string; title: string; level:
     return (
       <div
         className="rounded-2xl p-3.5 sm:p-5 flex flex-col gap-2.5 relative overflow-hidden"
-        style={{
-          background: "var(--bg-2)",
-          border: "1px solid var(--border)",
-          opacity: 0.55,
-          cursor: "not-allowed",
-        }}
+        style={{ background: "var(--bg-2)", border: "1px solid var(--border)", opacity: 0.55, cursor: "not-allowed" }}
       >
         <div className="flex items-start justify-between gap-2">
-          <span
-            className="text-xs font-black uppercase tracking-widest px-2 py-0.5 rounded-full"
-            style={{ color: meta.color, background: meta.bg }}
-          >
+          <span className="text-xs font-black uppercase tracking-widest px-2 py-0.5 rounded-full" style={{ color: meta.color, background: meta.bg }}>
             {subject.level}-{num}
           </span>
           <Lock className="w-3.5 h-3.5 shrink-0 mt-0.5" style={{ color: "var(--text-3)" }} />
@@ -57,11 +58,7 @@ function SubjectCard({ subject }: { subject: { id: string; title: string; level:
     <Link
       href={`/${subject.level.toLowerCase()}/${subject.id}`}
       className="rounded-2xl p-3.5 sm:p-5 flex flex-col gap-2.5 sm:gap-3 group transition-all duration-200"
-      style={{
-        background: "var(--bg-2)",
-        border: `1px solid ${meta.color}55`,
-        textDecoration: "none",
-      }}
+      style={{ background: "var(--bg-2)", border: `1px solid ${meta.color}55`, textDecoration: "none" }}
       onMouseEnter={e => {
         (e.currentTarget as HTMLElement).style.boxShadow = `0 4px 24px ${meta.color}22`;
         (e.currentTarget as HTMLElement).style.borderColor = meta.color;
@@ -74,10 +71,7 @@ function SubjectCard({ subject }: { subject: { id: string; title: string; level:
       }}
     >
       <div className="flex items-start justify-between gap-2">
-        <span
-          className="text-xs font-black uppercase tracking-widest px-2 py-0.5 rounded-full"
-          style={{ color: meta.color, background: meta.bg }}
-        >
+        <span className="text-xs font-black uppercase tracking-widest px-2 py-0.5 rounded-full" style={{ color: meta.color, background: meta.bg }}>
           {subject.level}-{num}
         </span>
         <span className="text-xs font-bold px-2 py-0.5 rounded-full" style={{ color: "#fff", background: meta.color }}>
@@ -87,29 +81,35 @@ function SubjectCard({ subject }: { subject: { id: string; title: string; level:
       <p className="font-bold text-xs sm:text-sm leading-snug" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
         {subject.title}
       </p>
-      <div className="flex items-center gap-1 text-xs font-semibold mt-auto" style={{ color: meta.color }}>
-        <BookOpen className="w-3.5 h-3.5" /> Practice
+      <div className="flex items-center justify-between gap-2 mt-auto">
+        <div className="flex items-center gap-1 text-xs font-semibold" style={{ color: meta.color }}>
+          <BookOpen className="w-3.5 h-3.5" /> Practice
+        </div>
+        {/* Question count badge */}
+        {isLoadingCount ? (
+          <span className="rounded-full animate-pulse" style={{ width: 48, height: 16, background: "var(--border)", display: "block" }} />
+        ) : questionCount !== undefined && questionCount > 0 ? (
+          <span className="text-xs font-bold px-2 py-0.5 rounded-full" style={{ background: "var(--bg-3)", color: "var(--text-3)", border: "1px solid var(--border)" }}>
+            {questionCount} Q
+          </span>
+        ) : null}
       </div>
     </Link>
   );
 }
 
-function Section({
-  level,
-  subjects,
-}: {
+function Section({ level, subjects, counts, isLoadingCounts }: {
   level: "PRC" | "CAF";
   subjects: typeof prcSubjects;
+  counts: Record<string, number>;
+  isLoadingCounts: boolean;
 }) {
   const meta = LEVEL_META[level];
   return (
     <section className="mb-14">
-      {/* Section header */}
       <div className="flex items-center gap-3 mb-2">
-        <span
-          className="text-xs font-black uppercase tracking-widest px-3 py-1 rounded-full"
-          style={{ color: meta.color, background: meta.bg, border: `1px solid ${meta.color}33` }}
-        >
+        <span className="text-xs font-black uppercase tracking-widest px-3 py-1 rounded-full"
+          style={{ color: meta.color, background: meta.bg, border: `1px solid ${meta.color}33` }}>
           {meta.label}
         </span>
         <span className="text-xs" style={{ color: "var(--text-3)", fontFamily: "var(--font-inter), sans-serif" }}>
@@ -121,7 +121,12 @@ function Section({
       </p>
       <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 sm:gap-4">
         {subjects.map(s => (
-          <SubjectCard key={s.id} subject={s} />
+          <SubjectCard
+            key={s.id}
+            subject={s}
+            questionCount={counts[s.id]}
+            isLoadingCount={isLoadingCounts && s.isAvailable}
+          />
         ))}
       </div>
     </section>
@@ -129,34 +134,40 @@ function Section({
 }
 
 export default function PracticePage() {
+  const [counts, setCounts] = useState<Record<string, number>>({});
+  const [isLoadingCounts, setIsLoadingCounts] = useState(true);
+
+  useEffect(() => {
+    fetch("/api/subjects-meta")
+      .then(r => r.json())
+      .then(data => {
+        const newCounts: Record<string, number> = {};
+        for (const [id, meta] of Object.entries(data.subjects || {})) {
+          newCounts[id] = (meta as { total: number }).total;
+        }
+        setCounts(newCounts);
+      })
+      .catch(console.error)
+      .finally(() => setIsLoadingCounts(false));
+  }, []);
+
   return (
     <main className="min-h-screen">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 pt-24 sm:pt-28 pb-20">
 
         {/* Hero */}
         <div className="mb-14">
-          <p
-            className="text-xs font-bold uppercase tracking-widest mb-3"
-            style={{ color: "var(--green)", fontFamily: "var(--font-space-grotesk), sans-serif" }}
-          >
+          <p className="text-xs font-bold uppercase tracking-widest mb-3"
+            style={{ color: "var(--green)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
             Free MCQ Practice
           </p>
-          <h1
-            className="font-bold mb-4"
-            style={{
-              fontSize: "clamp(2rem,5vw,3.25rem)",
-              color: "var(--text-1)",
-              fontFamily: "var(--font-space-grotesk), sans-serif",
-              lineHeight: 1.1,
-            }}
-          >
+          <h1 className="font-bold mb-4"
+            style={{ fontSize: "clamp(2rem,5vw,3.25rem)", color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif", lineHeight: 1.1 }}>
             Pick a Subject.<br />
             <span style={{ color: "var(--green)" }}>Start Practicing.</span>
           </h1>
-          <p
-            className="text-base sm:text-lg max-w-xl"
-            style={{ color: "var(--text-2)", fontFamily: "var(--font-inter), sans-serif", lineHeight: 1.7 }}
-          >
+          <p className="text-base sm:text-lg max-w-xl"
+            style={{ color: "var(--text-2)", fontFamily: "var(--font-inter), sans-serif", lineHeight: 1.7 }}>
             Topical drills, full-random mocks, and the all-question marathon. Every MCQ is hand-picked and explained.
           </p>
         </div>
@@ -165,35 +176,35 @@ export default function PracticePage() {
         <div className="mb-14" style={{ borderTop: "1px solid var(--border)" }} />
 
         {/* Sections */}
-        <Section level="PRC" subjects={prcSubjects} />
-        <Section level="CAF" subjects={cafSubjects} />
+        <Section level="PRC" subjects={prcSubjects} counts={counts} isLoadingCounts={isLoadingCounts} />
+        <Section level="CAF" subjects={cafSubjects} counts={counts} isLoadingCounts={isLoadingCounts} />
 
         {/* Community Volunteer CTA */}
-        <div className="mt-24 group relative rounded-3xl overflow-hidden" 
+        <div className="mt-24 group relative rounded-3xl overflow-hidden"
              style={{ background: "var(--bg-2)", border: "1px solid var(--border)" }}>
-          <div className="absolute inset-0 opacity-10 transition-opacity duration-500 group-hover:opacity-20 pointer-events-none" 
+          <div className="absolute inset-0 opacity-10 transition-opacity duration-500 group-hover:opacity-20 pointer-events-none"
                style={{ background: "linear-gradient(135deg, var(--green) 0%, transparent 100%)" }} />
           <div className="relative p-8 sm:p-12 flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
             <div className="max-w-2xl">
               <div className="flex items-center gap-2 mb-4">
-                <span className="text-xs font-black uppercase tracking-widest px-3 py-1 rounded-full text-white" 
+                <span className="text-xs font-black uppercase tracking-widest px-3 py-1 rounded-full text-white"
                       style={{ background: "var(--green)" }}>
                   Volunteer & Contribute
                 </span>
               </div>
-              <h2 className="text-2xl sm:text-3xl font-bold mb-3" 
+              <h2 className="text-2xl sm:text-3xl font-bold mb-3"
                   style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif", letterSpacing: "-0.01em" }}>
                 Teachers & Mentors Wanted
               </h2>
-              <p className="text-sm sm:text-base leading-relaxed" 
+              <p className="text-sm sm:text-base leading-relaxed"
                  style={{ color: "var(--text-2)", fontFamily: "var(--font-inter), sans-serif" }}>
-                Are you a CA teacher, professional, or a high-achieving student? Help us grow this free platform for everyone. 
-                Whether it's uploading your original MCQs, writing detailed solutions, or recording video explanations, 
+                Are you a CA teacher, professional, or a high-achieving student? Help us grow this free platform for everyone.
+                Whether it&apos;s uploading your original MCQs, writing detailed solutions, or recording video explanations,
                 your contribution will drastically help the CA community. Full credits and profiles will be dedicated to all contributors.
               </p>
             </div>
-            <Link 
-              href="/contact" 
+            <Link
+              href="/contact"
               className="shrink-0 flex items-center justify-center gap-2 px-8 py-4 rounded-xl font-bold text-white transition-transform hover:scale-[1.03] active:scale-[0.98]"
               style={{ background: "var(--green)", fontFamily: "var(--font-inter), sans-serif" }}
             >

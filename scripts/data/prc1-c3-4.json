@@ -1,0 +1,352 @@
+[
+  {
+    "id": "c3q76",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "If a customer's individual account in the Receivables Ledger displays a credit balance, what is the most likely reason?",
+    "options": [
+      "A) The customer purchased a large volume of goods on credit.",
+      "B) The business wrote off the customer's debt as bad.",
+      "C) The customer paid in advance for goods not yet delivered.",
+      "D) The customer is refusing to pay their balance."
+    ],
+    "correctAnswer": "C) The customer paid in advance for goods not yet delivered.",
+    "explanation": "A credit balance on a receivable account indicates that the business owes the customer. This usually occurs when a customer makes an advance payment or overpays their outstanding balance."
+  },
+  {
+    "id": "c3q77",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "In an adjusted trial balance, how is 'Prepaid Rent' classified, and in which column does its balance appear?",
+    "options": [
+      "A) Liability; Credit column",
+      "B) Asset; Debit column",
+      "C) Expense; Debit column",
+      "D) Income; Credit column"
+    ],
+    "correctAnswer": "B) Asset; Debit column",
+    "explanation": "Prepaid rent is an economic resource (an asset) representing future benefits the business has already paid for. Therefore, it appears in the debit column of the trial balance."
+  },
+  {
+    "id": "c3q78",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "How is 'Unearned Commission Income' treated in a trial balance?",
+    "options": [
+      "A) As an asset in the debit column.",
+      "B) As an expense in the debit column.",
+      "C) As a liability in the credit column.",
+      "D) As equity in the credit column."
+    ],
+    "correctAnswer": "C) As a liability in the credit column.",
+    "explanation": "Unearned income represents money received before the related service is provided. It constitutes an obligation (liability) to perform the service, so it appears in the credit column."
+  },
+  {
+    "id": "c3q79",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "What is the specific accounting term for the process of transferring financial figures from the books of prime entry into the ledger accounts?",
+    "options": [
+      "A) Casting",
+      "B) Balancing",
+      "C) Posting",
+      "D) Reconciling"
+    ],
+    "correctAnswer": "C) Posting",
+    "explanation": "Posting is the procedural step in the accounting cycle where the summarized data from journals and day books are formally entered into the appropriate debit and credit sides of the ledger accounts."
+  },
+  {
+    "id": "c3q80",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "In a standard manual ledger account, there is a column labeled 'Folio'. What is its primary purpose?",
+    "options": [
+      "A) To record the exact date the transaction occurred.",
+      "B) To write the narrative explanation of the journal entry.",
+      "C) To provide a cross-reference code linking back to the relevant book of prime entry.",
+      "D) To sign off managerial approval for the entry."
+    ],
+    "correctAnswer": "C) To provide a cross-reference code linking back to the relevant book of prime entry.",
+    "explanation": "The folio column is used for cross-referencing. It records the page or reference number of the original journal or day book, creating a traceable audit trail between the records."
+  },
+  {
+    "id": "c3q81",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "A business regularly buys from and sells to the same entity. To offset the balances owed to each other, a 'contra entry' is made. What is the double entry in the control accounts?",
+    "options": [
+      "A) Debit Sales, Credit Purchases",
+      "B) Debit Payables Control, Credit Receivables Control",
+      "C) Debit Receivables Control, Credit Payables Control",
+      "D) Debit Cash, Credit Payables Control"
+    ],
+    "correctAnswer": "B) Debit Payables Control, Credit Receivables Control",
+    "explanation": "A contra settlement cancels out a mutual debt without cash. It reduces the liability owed to the supplier (Debit Payables Control) and simultaneously reduces the asset owed by the customer (Credit Receivables Control)."
+  },
+  {
+    "id": "c3q82",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "At the end of an accounting period, which of the following groups of accounts are 'closed off' (zeroed out) and NOT carried forward to the next period?",
+    "options": [
+      "A) Assets and Liabilities",
+      "B) Capital and Drawings",
+      "C) Income and Expenses",
+      "D) Bank and Cash balances"
+    ],
+    "correctAnswer": "C) Income and Expenses",
+    "explanation": "Nominal accounts (income and expenses) only relate to a specific financial year. At year-end, they are closed to the statement of profit or loss to calculate net profit, and their balances restart at zero."
+  },
+  {
+    "id": "c3q83",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "Which of the following balances are mathematically 'carried down' and 'brought forward' to the subsequent financial year?",
+    "options": [
+      "A) Rent expense, Sales revenue, Purchases",
+      "B) Trade Receivables, Machinery, Bank Loan",
+      "C) Discount allowed, Discount received, Carriage inwards",
+      "D) Bad debts expense, Drawings, Insurance expense"
+    ],
+    "correctAnswer": "B) Trade Receivables, Machinery, Bank Loan",
+    "explanation": "Real and personal accounts representing continuous economic resources and obligations (assets, liabilities, and capital) are balanced at year-end and brought forward into the next period."
+  },
+  {
+    "id": "c3q84",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "If an extracted trial balance does not agree and draft financial statements must be prepared immediately, what action does the accountant take?",
+    "options": [
+      "A) Write off the difference as a bad debt.",
+      "B) Open a temporary 'Suspense Account' to force the trial balance to balance.",
+      "C) Adjust the Sales Revenue account until it balances.",
+      "D) Delete random entries until the totals match."
+    ],
+    "correctAnswer": "B) Open a temporary 'Suspense Account' to force the trial balance to balance.",
+    "explanation": "A Suspense Account is a temporary holding account used to artificially balance the trial balance when the debit and credit totals disagree, allowing draft accounts to be prepared while errors are investigated."
+  },
+  {
+    "id": "c3q85",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "The total of the debit column in a trial balance is Rs. 450,000, and the total of the credit column is Rs. 442,000. What is the required entry to balance it?",
+    "options": [
+      "A) Debit Suspense Account Rs. 8,000",
+      "B) Credit Suspense Account Rs. 8,000",
+      "C) Credit Capital Account Rs. 8,000",
+      "D) Debit Cash Account Rs. 8,000"
+    ],
+    "correctAnswer": "B) Credit Suspense Account Rs. 8,000",
+    "explanation": "Because the credit side is short by Rs. 8,000, a Suspense Account must be opened and credited with Rs. 8,000 to equalize the two columns."
+  },
+  {
+    "id": "c3q86",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "What is the primary advantage of utilizing a 'running balance' ledger format over a traditional 'T-account' format?",
+    "options": [
+      "A) It completely eliminates the need for double-entry posting.",
+      "B) It prevents any accounting errors from being made.",
+      "C) It provides a continuously updated account balance immediately after every individual transaction.",
+      "D) It allows expenses to be capitalized automatically."
+    ],
+    "correctAnswer": "C) It provides a continuously updated account balance immediately after every individual transaction.",
+    "explanation": "Unlike T-accounts which are balanced periodically, a running balance format features a dedicated 'Balance' column that recalculates the current balance after every single debit or credit entry."
+  },
+  {
+    "id": "c3q87",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "When balancing an asset account at the end of the month, the 'Balance c/d' (carried down) is written on the credit side. Consequently, the 'Balance b/d' (brought down) for the new month will appear on the:",
+    "options": [
+      "A) Credit side.",
+      "B) Debit side.",
+      "C) Both sides simultaneously.",
+      "D) It is not brought down at all."
+    ],
+    "correctAnswer": "B) Debit side.",
+    "explanation": "The balancing figure (c/d) is placed on the lighter side (credit side for an asset) to equalize the totals. It is then brought down diagonally to the debit side, reflecting the true debit balance of the asset."
+  },
+  {
+    "id": "c3q88",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "If a liability account like 'Bank Loan' has a 'Balance b/d' of Rs. 100,000 on the credit side at the start of the year, this mathematically means:",
+    "options": [
+      "A) The business has paid off Rs. 100,000 of the loan.",
+      "B) The bank owes the business Rs. 100,000.",
+      "C) The business owes the bank Rs. 100,000.",
+      "D) The loan was written off."
+    ],
+    "correctAnswer": "C) The business owes the bank Rs. 100,000.",
+    "explanation": "A credit balance brought down on a liability account represents the continuing obligation that the business currently owes to the external party (the bank)."
+  },
+  {
+    "id": "c3q89",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "Under normal circumstances, the Owner's Capital account carries a credit balance. If it exhibits a debit balance, what does this signify?",
+    "options": [
+      "A) The business is highly profitable.",
+      "B) The owner has introduced additional cash into the business.",
+      "C) The business has a capital deficit because accumulated losses and drawings have exceeded the owner's investments.",
+      "D) The business has paid off all its external liabilities."
+    ],
+    "correctAnswer": "C) The business has a capital deficit because accumulated losses and drawings have exceeded the owner's investments.",
+    "explanation": "A debit balance in the capital account means the equity has been wiped out, usually because the owner withdrew too much money or the business suffered severe net losses."
+  },
+  {
+    "id": "c3q90",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "What specifically differentiates an 'Adjusted Trial Balance' from an 'Unadjusted Trial Balance'?",
+    "options": [
+      "A) The adjusted trial balance does not include any expense accounts.",
+      "B) The adjusted trial balance is prepared only for external auditors.",
+      "C) The adjusted trial balance is prepared after posting end-of-period adjustments like accruals, prepayments, and depreciation.",
+      "D) The adjusted trial balance lists accounts alphabetically rather than by category."
+    ],
+    "correctAnswer": "C) The adjusted trial balance is prepared after posting end-of-period adjustments like accruals, prepayments, and depreciation.",
+    "explanation": "An unadjusted trial balance is extracted before year-end adjustments. Once necessary journal entries for accruals, prepayments, and depreciation are posted, an adjusted trial balance is generated to prepare the final financial statements."
+  },
+  {
+    "id": "c3q91",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "An invoice for Rs. 7,400 was correctly entered into the sales day book as Rs. 4,700. It was subsequently posted to the ledgers as Rs. 4,700. Will the trial balance agree?",
+    "options": [
+      "A) No, the debit side will be heavier.",
+      "B) No, the credit side will be heavier.",
+      "C) Yes, because this is an error of original entry affecting both sides equally.",
+      "D) Yes, because this is a compensating error."
+    ],
+    "correctAnswer": "C) Yes, because this is an error of original entry affecting both sides equally.",
+    "explanation": "An error of original entry means the wrong amount was entered at the very beginning of the process. Because the same wrong amount (4,700) is debited and credited, the trial balance will still perfectly agree."
+  },
+  {
+    "id": "c3q92",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "A business paid Rs. 1,500 for vehicle insurance. The bookkeeper debited the Rent Expense account instead of the Insurance Expense account. What type of error is this?",
+    "options": [
+      "A) Error of principle",
+      "B) Error of commission",
+      "C) Error of complete omission",
+      "D) Transposition error"
+    ],
+    "correctAnswer": "B) Error of commission",
+    "explanation": "Since both Rent and Insurance are expense accounts (same class of account), debiting the wrong account within the correct class is classified as an error of commission."
+  },
+  {
+    "id": "c3q93",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "A business spent Rs. 10,000 on routine repairs for a machine and debited the Machinery (asset) account. What type of error is this?",
+    "options": [
+      "A) Error of commission",
+      "B) Compensating error",
+      "C) Error of original entry",
+      "D) Error of principle"
+    ],
+    "correctAnswer": "D) Error of principle",
+    "explanation": "Debiting an asset account instead of an expense account violates fundamental accounting principles (capital vs. revenue expenditure), making it an error of principle."
+  },
+  {
+    "id": "c3q94",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "If a cash receipt of Rs. 6,000 is correctly debited to the Cash book but the accountant completely forgets to post the credit entry to the customer's account, what is the effect on the trial balance?",
+    "options": [
+      "A) The trial balance will still agree.",
+      "B) The debit column will exceed the credit column by Rs. 6,000.",
+      "C) The credit column will exceed the debit column by Rs. 6,000.",
+      "D) Both columns will be short by Rs. 6,000."
+    ],
+    "correctAnswer": "B) The debit column will exceed the credit column by Rs. 6,000.",
+    "explanation": "Because a debit of 6,000 was recorded but no corresponding credit of 6,000 was posted (a single-sided error), the total debits will mathematically be Rs. 6,000 higher than the total credits."
+  },
+  {
+    "id": "c3q95",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "When a business uses a 'Receivables Control Account' in the General Ledger, the individual customer accounts kept in the Receivables Ledger are considered:",
+    "options": [
+      "A) Part of the main double-entry system.",
+      "B) Memorandum records only, strictly outside the double-entry system.",
+      "C) Temporary suspense accounts.",
+      "D) Books of prime entry."
+    ],
+    "correctAnswer": "B) Memorandum records only, strictly outside the double-entry system.",
+    "explanation": "When a control account is used in the general ledger to maintain the double-entry, the detailed subsidiary ledger acts only as a memorandum backup to track individual balances and does not form part of the double-entry."
+  },
+  {
+    "id": "c3q96",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "The correct double-entry for purchasing office stationery using physical cash is:",
+    "options": [
+      "A) Debit Purchases, Credit Cash",
+      "B) Debit Cash, Credit Stationery Expense",
+      "C) Debit Stationery Expense, Credit Cash",
+      "D) Debit Stationery Expense, Credit Payables"
+    ],
+    "correctAnswer": "C) Debit Stationery Expense, Credit Cash",
+    "explanation": "Purchasing stationery is an operating expense. The expense increases (Debit Stationery Expense) and the physical cash asset decreases (Credit Cash)."
+  },
+  {
+    "id": "c3q97",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "Which of the following lists contains ONLY accounts that normally carry a debit balance?",
+    "options": [
+      "A) Trade Receivables, Sales Returns, Drawings, Purchases",
+      "B) Cash, Bank Loan, Rent Expense, Machinery",
+      "C) Trade Payables, Sales, Capital, Discount Received",
+      "D) Inventory, Purchases, Purchase Returns, Drawings"
+    ],
+    "correctAnswer": "A) Trade Receivables, Sales Returns, Drawings, Purchases",
+    "explanation": "Trade receivables (asset), Sales returns (reduces income), Drawings (reduces equity), and Purchases (expense) all natively carry debit balances."
+  },
+  {
+    "id": "c3q98",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "Which of the following lists contains ONLY accounts that normally carry a credit balance?",
+    "options": [
+      "A) Capital, Sales Revenue, Trade Payables, Bank Overdraft",
+      "B) Capital, Trade Receivables, Purchases, Bank Overdraft",
+      "C) Sales Revenue, Purchase Returns, Machinery, Discount Allowed",
+      "D) Discount Received, Drawings, Capital, Sales Revenue"
+    ],
+    "correctAnswer": "A) Capital, Sales Revenue, Trade Payables, Bank Overdraft",
+    "explanation": "Capital (equity), Sales Revenue (income), Trade Payables (liability), and Bank Overdraft (liability) all natively carry credit balances."
+  },
+  {
+    "id": "c3q99",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "If the business pays a supplier Rs. 9,500 and receives a Rs. 500 settlement discount, what amounts are posted to the supplier's individual ledger account?",
+    "options": [
+      "A) Debit Rs. 9,500 only",
+      "B) Credit Rs. 10,000",
+      "C) Debit Rs. 10,000 (Rs. 9,500 cash + Rs. 500 discount)",
+      "D) Debit Rs. 9,000"
+    ],
+    "correctAnswer": "C) Debit Rs. 10,000 (Rs. 9,500 cash + Rs. 500 discount)",
+    "explanation": "Both the cash paid and the discount received reduce the liability owed to the supplier. Therefore, the supplier's account is debited with the total settled amount of Rs. 10,000."
+  },
+  {
+    "id": "c3q100",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "A 'Statement of Account' sent by a supplier to a customer is fundamentally a copy of which accounting record?",
+    "options": [
+      "A) The supplier's Sales Day Book.",
+      "B) The customer's account in the supplier's Receivables Ledger.",
+      "C) The supplier's Cash Book.",
+      "D) The supplier's General Ledger control account."
+    ],
+    "correctAnswer": "B) The customer's account in the supplier's Receivables Ledger.",
+    "explanation": "A statement of account is a summary of all transactions with a specific customer over a period. It is essentially a transcript of that customer's personal account in the supplier's receivables ledger."
+  }
+]

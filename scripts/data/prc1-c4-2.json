@@ -1,0 +1,352 @@
+[
+  {
+    "id": "c4q26",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "Which of the following year-end adjustments is correctly matched with its classification in the Statement of Financial Position?",
+    "options": [
+      "A) Accrued interest expense -> Current Asset",
+      "B) Rent received in advance -> Current Liability",
+      "C) Prepaid insurance -> Non-current asset",
+      "D) Accrued rent income -> Non-current liability"
+    ],
+    "correctAnswer": "B) Rent received in advance -> Current Liability",
+    "explanation": "Rent received in advance is unearned income, which is an obligation to provide a service in the short term, making it a current liability."
+  },
+  {
+    "id": "c4q27",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "A business earned Rs. 15,000 in consulting fees during December that will not be billed or received until January. What is the adjusting entry required on December 31?",
+    "options": [
+      "A) Debit Accrued Income Rs. 15,000, Credit Consulting Revenue Rs. 15,000",
+      "B) Debit Consulting Revenue Rs. 15,000, Credit Accrued Income Rs. 15,000",
+      "C) Debit Unearned Income Rs. 15,000, Credit Consulting Revenue Rs. 15,000",
+      "D) Debit Cash Rs. 15,000, Credit Accrued Income Rs. 15,000"
+    ],
+    "correctAnswer": "A) Debit Accrued Income Rs. 15,000, Credit Consulting Revenue Rs. 15,000",
+    "explanation": "To accrue income earned but not yet received, an asset is recognized (Debit Accrued Income) and the revenue is recorded (Credit Revenue)."
+  },
+  {
+    "id": "c4q28",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "'Luminous Properties' received Rs. 500,000 cash from tenants during the year. Opening rent receivable was Rs. 40,000 and closing rent receivable is Rs. 60,000. Opening unearned rent was Rs. 20,000 and closing unearned rent is Rs. 10,000. What is the total rental income for the year?",
+    "options": [
+      "A) Rs. 490,000",
+      "B) Rs. 530,000",
+      "C) Rs. 470,000",
+      "D) Rs. 510,000"
+    ],
+    "correctAnswer": "B) Rs. 530,000",
+    "explanation": "Income = Cash Received (500,000) - Opening Receivable (40,000) + Closing Receivable (60,000) + Opening Unearned (20,000) - Closing Unearned (10,000) = Rs. 530,000."
+  },
+  {
+    "id": "c4q29",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "When an entity initially records all insurance payments as an expense during the year, the necessary year-end adjusting entry for the unexpired (prepaid) portion will have what specific effect?",
+    "options": [
+      "A) Increase total expenses and increase current liabilities",
+      "B) Decrease total expenses and increase current assets",
+      "C) Increase total expenses and decrease current assets",
+      "D) Decrease total expenses and decrease current liabilities"
+    ],
+    "correctAnswer": "B) Decrease total expenses and increase current assets",
+    "explanation": "By moving the unexpired portion from the expense account to a prepaid asset account, the adjusting entry decreases the recorded expense and increases current assets."
+  },
+  {
+    "id": "c4q30",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "'Sigma Services' received a 6-month maintenance contract payment in full before any services were rendered. How must this receipt be classified on the Statement of Financial Position until the services are actually performed?",
+    "options": [
+      "A) Current Asset",
+      "B) Current Liability",
+      "C) Non-Current Liability",
+      "D) Equity"
+    ],
+    "correctAnswer": "B) Current Liability",
+    "explanation": "Money received in advance for services not yet performed is unearned revenue. Because it will be settled by providing services within the next 6 months, it is classified as a current liability."
+  },
+  {
+    "id": "c4q31",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "'TechNova' paid Rs. 100,000 in advance to 'CloudServe' for a one-year software subscription. In the books of 'TechNova', how is this advance payment classified before the software services are actually consumed?",
+    "options": [
+      "A) Accrued Expense",
+      "B) Current Liability",
+      "C) Prepaid Expense (Current Asset)",
+      "D) Unearned Revenue"
+    ],
+    "correctAnswer": "C) Prepaid Expense (Current Asset)",
+    "explanation": "When a business pays for a service in advance, it is classified as a prepaid expense. It remains a current asset on the statement of financial position until the service is consumed over time."
+  },
+  {
+    "id": "c4q32",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "'Grand Properties' received Rs. 850,000 cash for rent during the year. The opening rent in arrears was Rs. 50,000, and the closing rent in arrears is Rs. 70,000. The opening rent received in advance was Rs. 30,000, and the closing rent in advance is Rs. 40,000. What is the total rental income to be recognized for the year?",
+    "options": [
+      "A) Rs. 860,000",
+      "B) Rs. 840,000",
+      "C) Rs. 880,000",
+      "D) Rs. 820,000"
+    ],
+    "correctAnswer": "A) Rs. 860,000",
+    "explanation": "Income = Cash Received (850,000) - Opening Arrears (50,000) + Closing Arrears (70,000) + Opening Advance (30,000) - Closing Advance (40,000) = Rs. 860,000."
+  },
+  {
+    "id": "c4q33",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "'Pinnacle Manufacturers' paid Rs. 450,000 for electricity during the financial year. At the start of the year, accrued electricity was Rs. 45,000, and at the end of the year, the accrued bill was Rs. 65,000. What is the total electricity expense for the year?",
+    "options": [
+      "A) Rs. 450,000",
+      "B) Rs. 470,000",
+      "C) Rs. 430,000",
+      "D) Rs. 560,000"
+    ],
+    "correctAnswer": "B) Rs. 470,000",
+    "explanation": "Expense = Cash Paid (450,000) - Opening Accrual related to last year (45,000) + Closing Accrual related to this year (65,000) = Rs. 470,000."
+  },
+  {
+    "id": "c4q34",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "'Silver Oak Traders' pays an annual fire insurance premium of Rs. 180,000 every year on 1 September. Their financial year ends on 31 December. What is the prepaid insurance amount at the year-end?",
+    "options": [
+      "A) Rs. 60,000",
+      "B) Rs. 90,000",
+      "C) Rs. 120,000",
+      "D) Rs. 150,000"
+    ],
+    "correctAnswer": "C) Rs. 120,000",
+    "explanation": "The premium covers 12 months from 1 September to 31 August. At 31 December, 4 months have expired. The remaining 8 months (Jan to Aug) are prepaid: Rs. 180,000 x (8/12) = Rs. 120,000."
+  },
+  {
+    "id": "c4q35",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "An accrued consulting income of Rs. 25,000 was mistakenly recorded by 'Nexus Consulting' as unearned income of Rs. 25,000. What is the mathematical impact of this error on the net profit for the year?",
+    "options": [
+      "A) Profit is understated by Rs. 25,000",
+      "B) Profit is overstated by Rs. 25,000",
+      "C) Profit is understated by Rs. 50,000",
+      "D) Profit is overstated by Rs. 50,000"
+    ],
+    "correctAnswer": "C) Profit is understated by Rs. 50,000",
+    "explanation": "Recording accrued income increases profit by 25k. Recording it incorrectly as unearned income decreases recognized revenue by 25k. The total swing between the correct treatment and the incorrect treatment is an understatement of 50k."
+  },
+  {
+    "id": "c4q36",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "'Alpha Builders' acquired a bank loan of Rs. 2,000,000 at a 10% annual interest rate. Interest is paid quarterly. The last quarter's interest (October to December) was not paid by the financial year-end of 31 December. What is the accrued interest liability?",
+    "options": [
+      "A) Rs. 200,000",
+      "B) Rs. 100,000",
+      "C) Rs. 50,000",
+      "D) Rs. 25,000"
+    ],
+    "correctAnswer": "C) Rs. 50,000",
+    "explanation": "Total annual interest is Rs. 2,000,000 x 10% = Rs. 200,000. One quarter represents 3 months. Therefore, the accrued liability for one quarter is Rs. 200,000 x (3/12) = Rs. 50,000."
+  },
+  {
+    "id": "c4q37",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "At year-end, 'Omega Services' has provided IT services worth Rs. 80,000 to a client but has not yet billed them or received cash. What is the correct adjusting journal entry?",
+    "options": [
+      "A) Debit Cash Rs. 80,000, Credit Service Revenue Rs. 80,000",
+      "B) Debit Accrued Income Rs. 80,000, Credit Service Revenue Rs. 80,000",
+      "C) Debit Service Revenue Rs. 80,000, Credit Unearned Income Rs. 80,000",
+      "D) Debit Accounts Receivable Rs. 80,000, Credit Accrued Income Rs. 80,000"
+    ],
+    "correctAnswer": "B) Debit Accrued Income Rs. 80,000, Credit Service Revenue Rs. 80,000",
+    "explanation": "To record income earned but not yet billed or received, an asset is recognized (Debit Accrued Income / Receivable) and the corresponding revenue is recorded (Credit Service Revenue)."
+  },
+  {
+    "id": "c4q38",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "'Crescent Retail' pays a 3% commission to its sales team in the month immediately following the sale. If total sales for December were Rs. 1,500,000, what is the accrued commission liability at 31 December?",
+    "options": [
+      "A) Rs. 30,000",
+      "B) Rs. 0",
+      "C) Rs. 45,000",
+      "D) Rs. 15,000"
+    ],
+    "correctAnswer": "C) Rs. 45,000",
+    "explanation": "The commission is an expense incurred in December because the sales happened in December. It remains unpaid until January, creating an accrual of Rs. 1,500,000 x 3% = Rs. 45,000."
+  },
+  {
+    "id": "c4q39",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "The accountant of 'Metro Logistics' forgot to record the unexpired portion of the annual vehicle insurance as a prepayment at year-end. How does this omission specifically affect the financial statements?",
+    "options": [
+      "A) Profit is understated, and current assets are understated.",
+      "B) Profit is overstated, and current assets are overstated.",
+      "C) Profit is understated, and current liabilities are overstated.",
+      "D) Profit is overstated, and current liabilities are understated."
+    ],
+    "correctAnswer": "A) Profit is understated, and current assets are understated.",
+    "explanation": "Failing to recognize a prepayment leaves the entire amount in the expense account, overstating expenses and therefore understating profit. It also omits the asset from the balance sheet, understating current assets."
+  },
+  {
+    "id": "c4q40",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "'Global Gym' receives Rs. 36,000 cash in December for a 12-month membership starting in January of the following year. What is the initial journal entry to record this receipt in December?",
+    "options": [
+      "A) Debit Bank Rs. 36,000, Credit Membership Revenue Rs. 36,000",
+      "B) Debit Bank Rs. 36,000, Credit Unearned Revenue Rs. 36,000",
+      "C) Debit Unearned Revenue Rs. 36,000, Credit Bank Rs. 36,000",
+      "D) Debit Prepaid Expense Rs. 36,000, Credit Bank Rs. 36,000"
+    ],
+    "correctAnswer": "B) Debit Bank Rs. 36,000, Credit Unearned Revenue Rs. 36,000",
+    "explanation": "Because the cash is received before any service is provided, it must be recorded as an increase in cash (Debit Bank) and a corresponding liability (Credit Unearned Revenue)."
+  },
+  {
+    "id": "c4q41",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "A photography studio recognizes revenue as soon as the wedding albums are delivered to the client, even though the client has 30 days to pay. Which accounting concept does this scenario directly illustrate?",
+    "options": [
+      "A) Materiality Concept",
+      "B) Prudence Concept",
+      "C) Realization / Accrual Concept",
+      "D) Going Concern Concept"
+    ],
+    "correctAnswer": "C) Realization / Accrual Concept",
+    "explanation": "The realization or accrual concept dictates that revenue is recognized when it is earned (e.g., when goods or services are delivered), regardless of when the physical cash changes hands."
+  },
+  {
+    "id": "c4q42",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "'Rapid Traders' pays rent quarterly. The annual rent was Rs. 240,000 but increased to Rs. 300,000 on 1 July. If the financial year ends on 31 December, what is the total rent expense to be charged to the statement of profit or loss?",
+    "options": [
+      "A) Rs. 270,000",
+      "B) Rs. 240,000",
+      "C) Rs. 300,000",
+      "D) Rs. 285,000"
+    ],
+    "correctAnswer": "A) Rs. 270,000",
+    "explanation": "The expense for the first 6 months (Jan-Jun) is Rs. 240,000 / 12 x 6 = Rs. 120,000. The expense for the last 6 months (Jul-Dec) is Rs. 300,000 / 12 x 6 = Rs. 150,000. Total = 120,000 + 150,000 = Rs. 270,000."
+  },
+  {
+    "id": "c4q43",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "'Starlight Corp' paid an advance salary of Rs. 40,000 to an employee in December for the upcoming month of January. How should this be classified in the December 31 statement of financial position?",
+    "options": [
+      "A) Current Liability",
+      "B) Expense",
+      "C) Non-Current Asset",
+      "D) Current Asset"
+    ],
+    "correctAnswer": "D) Current Asset",
+    "explanation": "Advance salary paid to an employee represents an economic benefit the business will receive in the future (the employee's work). It is a prepaid expense, which is classified as a current asset."
+  },
+  {
+    "id": "c4q44",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "If the closing balance of a prepaid expense account is lower than its opening balance from the previous year, what does this mathematically indicate about the period's transactions?",
+    "options": [
+      "A) Cash paid during the year was less than the expense incurred for the year.",
+      "B) Cash paid during the year was greater than the expense incurred for the year.",
+      "C) The business failed to pay any expenses at all.",
+      "D) An accrued liability has automatically been created."
+    ],
+    "correctAnswer": "A) Cash paid during the year was less than the expense incurred for the year.",
+    "explanation": "A decreasing prepayment balance means the business consumed more of the pre-existing asset than it replaced with new cash payments. Therefore, the expense recognized was higher than the cash paid."
+  },
+  {
+    "id": "c4q45",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "In the 'Rent Expense' ledger account of 'Vertex Ltd' (using the single account system), the opening balance brought down (b/d) is on the credit side. What does this opening balance specifically represent?",
+    "options": [
+      "A) Prepaid rent from the previous period.",
+      "B) Accrued rent from the previous period.",
+      "C) Unearned rental income.",
+      "D) The total rent paid during the previous year."
+    ],
+    "correctAnswer": "B) Accrued rent from the previous period.",
+    "explanation": "In an expense account, an opening credit balance signifies an amount owed (a liability) from the previous period, which is an accrued expense."
+  },
+  {
+    "id": "c4q46",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "A business paid Rs. 50,000 for the rent of the owner's personal residence and incorrectly charged it to the business's 'Rent Expense' account. What is the correcting journal entry?",
+    "options": [
+      "A) Debit Drawings Rs. 50,000, Credit Bank Rs. 50,000",
+      "B) Debit Rent Expense Rs. 50,000, Credit Drawings Rs. 50,000",
+      "C) Debit Drawings Rs. 50,000, Credit Rent Expense Rs. 50,000",
+      "D) Debit Owner's Capital Rs. 50,000, Credit Bank Rs. 50,000"
+    ],
+    "correctAnswer": "C) Debit Drawings Rs. 50,000, Credit Rent Expense Rs. 50,000",
+    "explanation": "Personal rent is a drawing, not a business expense. To correct the error, Drawings must be debited (increased), and the erroneously recorded Rent Expense must be credited (decreased)."
+  },
+  {
+    "id": "c4q47",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "'Tech Support Inc.' received a Rs. 240,000 cash payment for a 1-year maintenance contract starting on 1 October. Their financial year ends on 31 December. How much of this amount should be transferred to the statement of profit or loss for the year?",
+    "options": [
+      "A) Rs. 240,000",
+      "B) Rs. 60,000",
+      "C) Rs. 180,000",
+      "D) Rs. 0"
+    ],
+    "correctAnswer": "B) Rs. 60,000",
+    "explanation": "The contract spans 12 months. From 1 October to 31 December is 3 months. Therefore, the earned portion transferred to profit or loss is Rs. 240,000 x (3/12) = Rs. 60,000."
+  },
+  {
+    "id": "c4q48",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "'Prime Builders' received an advance payment of Rs. 2 million for a large project. 60% of the work will be completed in the next 12 months, and 40% will be completed in the following year. How should this unearned revenue be classified in the statement of financial position?",
+    "options": [
+      "A) Entirely as a Current Liability",
+      "B) Entirely as a Non-Current Liability",
+      "C) Rs. 1.2m as Current Liability, Rs. 0.8m as Non-Current Liability",
+      "D) Rs. 1.2m as Revenue, Rs. 0.8m as Current Liability"
+    ],
+    "correctAnswer": "C) Rs. 1.2m as Current Liability, Rs. 0.8m as Non-Current Liability",
+    "explanation": "Unearned revenue expected to be earned within the next 12 months (60% of 2m = 1.2m) is a current liability. The portion expected to be earned beyond 12 months (40% of 2m = 0.8m) is a non-current liability."
+  },
+  {
+    "id": "c4q49",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "While finalizing accounts, an accountant completely omitted an accrued wage expense of Rs. 15,000 and a prepaid insurance asset of Rs. 10,000. What is the net effect of these two errors on the reported profit?",
+    "options": [
+      "A) Profit is understated by Rs. 5,000",
+      "B) Profit is overstated by Rs. 5,000",
+      "C) Profit is overstated by Rs. 25,000",
+      "D) Profit is understated by Rs. 25,000"
+    ],
+    "correctAnswer": "B) Profit is overstated by Rs. 5,000",
+    "explanation": "Omitting the accrued expense overstates profit by 15k. Omitting the prepaid expense understates profit by 10k (as the expense remains too high). The net effect is an overstatement of profit by 5k (+15k - 10k)."
+  },
+  {
+    "id": "c4q50",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "In accounting terminology, when a tenant has not paid their rent for the current month by the reporting date, the landlord will refer to this unpaid amount as rent:",
+    "options": [
+      "A) In advance",
+      "B) Prepaid",
+      "C) In arrears",
+      "D) Deferred"
+    ],
+    "correctAnswer": "C) In arrears",
+    "explanation": "Rent 'in arrears' is synonymous with accrued rent or outstanding rent. It represents income that has been earned by the landlord but not yet received."
+  }
+]

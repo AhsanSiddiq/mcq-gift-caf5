@@ -1,0 +1,702 @@
+[
+  {
+    "id": "v2c1q001",
+    "chapter": 1,
+    "chapterTitle": "Nature and Scope of Economics",
+    "question": "A national government must decide whether to allocate its limited annual budget towards building new public hospitals or upgrading military defense systems. This fundamental decision illustrates which core economic concept?",
+    "options": [
+      "A) Elasticity of demand",
+      "B) The law of diminishing returns",
+      "C) Scarcity and opportunity cost",
+      "D) The accelerator principle"
+    ],
+    "correctAnswer": "C) Scarcity and opportunity cost",
+    "explanation": "Because resources are scarce, society cannot have everything it wants. Choosing to allocate resources to one sector (healthcare) means sacrificing the next best alternative (defense), which is the opportunity cost."
+  },
+  {
+    "id": "v2c1q002",
+    "chapter": 1,
+    "chapterTitle": "Nature and Scope of Economics",
+    "question": "An economy is currently operating at a point strictly inside its Production Possibility Frontier (PPF). What does this specific position indicate about the economy's current state?",
+    "options": [
+      "A) It is experiencing high levels of inflation",
+      "B) Resources are being underutilized or used inefficiently",
+      "C) It has achieved maximum technological advancement",
+      "D) The economy is producing an unattainable combination of goods"
+    ],
+    "correctAnswer": "B) Resources are being underutilized or used inefficiently",
+    "explanation": "A point inside the PPF indicates that the economy is not utilizing all its available resources efficiently, such as during a period of high unemployment."
+  },
+  {
+    "id": "v2c1q003",
+    "chapter": 1,
+    "chapterTitle": "Nature and Scope of Economics",
+    "question": "In Country Z, a central planning committee decides exactly how many cars will be manufactured, what price they will be sold for, and what wages the factory workers will receive. What type of economic system is Country Z operating under?",
+    "options": [
+      "A) Free Market Economy",
+      "B) Traditional Economy",
+      "C) Command Economy",
+      "D) Mixed Economy"
+    ],
+    "correctAnswer": "C) Command Economy",
+    "explanation": "In a command (or planned) economy, the government or a central authority makes all major decisions regarding production, distribution, and pricing."
+  },
+  {
+    "id": "v2c1q004",
+    "chapter": 1,
+    "chapterTitle": "Nature and Scope of Economics",
+    "question": "A technological breakthrough completely revolutionizes the agricultural sector of a country, doubling crop yields without requiring extra land or labor. How would this be represented on the country's Production Possibility Frontier (PPF)?",
+    "options": [
+      "A) An inward shift of the entire PPF",
+      "B) A movement along the existing PPF curve",
+      "C) The PPF becomes a straight horizontal line",
+      "D) An outward shift of the PPF curve"
+    ],
+    "correctAnswer": "D) An outward shift of the PPF curve",
+    "explanation": "Technological advancements that increase productive capacity allow the economy to produce more goods than before, causing the PPF to shift outward."
+  },
+  {
+    "id": "v2c1q005",
+    "chapter": 1,
+    "chapterTitle": "Nature and Scope of Economics",
+    "question": "Within the circular flow of income, households earn income by providing factors of production to firms. If a household saves a large portion of its income in a bank rather than spending it, what is this considered in economic terms?",
+    "options": [
+      "A) An injection",
+      "B) A withdrawal / leakage",
+      "C) A transfer payment",
+      "D) Capital formation"
+    ],
+    "correctAnswer": "B) A withdrawal / leakage",
+    "explanation": "Savings, taxation, and imports are considered withdrawals or leakages from the circular flow of income because they remove money from immediate domestic consumption."
+  },
+  {
+    "id": "v2c1q006",
+    "chapter": 1,
+    "chapterTitle": "Nature and Scope of Economics",
+    "question": "Which of the following activities would be classified as an 'injection' into the circular flow of a nation's income?",
+    "options": [
+      "A) Citizens paying income tax to the state",
+      "B) Consumers purchasing imported electronics",
+      "C) A foreign company investing heavily to build a new factory in the country",
+      "D) Households depositing 10% of their salaries into savings accounts"
+    ],
+    "correctAnswer": "C) A foreign company investing heavily to build a new factory in the country",
+    "explanation": "Investment (I), Government spending (G), and Exports (X) represent injections that introduce new money into the domestic circular flow."
+  },
+  {
+    "id": "v2c1q007",
+    "chapter": 1,
+    "chapterTitle": "Nature and Scope of Economics",
+    "question": "The typical curvature (bowed-out shape) of a standard Production Possibility Frontier (PPF) is primarily caused by which economic principle?",
+    "options": [
+      "A) The law of constant returns",
+      "B) Increasing opportunity cost",
+      "C) Perfect resource substitutability",
+      "D) Decreasing marginal utility"
+    ],
+    "correctAnswer": "B) Increasing opportunity cost",
+    "explanation": "The PPF is bowed outward because resources are not perfectly adaptable to the production of all goods. As you shift resources from one good to another, you face increasing opportunity costs."
+  },
+  {
+    "id": "v2c1q008",
+    "chapter": 1,
+    "chapterTitle": "Nature and Scope of Economics",
+    "question": "Mr. Ali establishes a new software firm. He organizes the office space, hires programmers, purchases computers, and assumes all the financial risk if the firm goes bankrupt. Which factor of production does Mr. Ali represent?",
+    "options": [
+      "A) Land",
+      "B) Capital",
+      "C) Labor",
+      "D) Entrepreneurship"
+    ],
+    "correctAnswer": "D) Entrepreneurship",
+    "explanation": "The entrepreneur is the factor of production that organizes land, labor, and capital to produce goods and services while bearing the financial risk of the business."
+  },
+  {
+    "id": "v2c1q009",
+    "chapter": 1,
+    "chapterTitle": "Nature and Scope of Economics",
+    "question": "A government increases taxes heavily and reduces its own spending. How will this combined action affect the circular flow of national income?",
+    "options": [
+      "A) It will exponentially increase national income",
+      "B) It will decrease the level of economic activity because leakages exceed injections",
+      "C) It will have absolutely zero net effect on the economy",
+      "D) It will cause an outward shift in the PPF overnight"
+    ],
+    "correctAnswer": "B) It will decrease the level of economic activity because leakages exceed injections",
+    "explanation": "Taxes are a leakage and government spending is an injection. High taxes and low spending mean leakages are greater than injections, leading to economic contraction."
+  },
+  {
+    "id": "v2c1q010",
+    "chapter": 1,
+    "chapterTitle": "Nature and Scope of Economics",
+    "question": "Which of the following statements best defines Lionel Robbins' renowned scarcity definition of economics?",
+    "options": [
+      "A) Economics is the study of how to eliminate human wants",
+      "B) Economics is the study of human behavior as a relationship between ends and scarce means which have alternative uses",
+      "C) Economics is solely the study of money and banking systems",
+      "D) Economics is the study of wealth accumulation by nations"
+    ],
+    "correctAnswer": "B) Economics is the study of human behavior as a relationship between ends and scarce means which have alternative uses",
+    "explanation": "Robbins (1932) defined economics around the concept of scarcity: human wants (ends) are unlimited, but the resources (means) to satisfy them are scarce and have alternative uses."
+  },
+  {
+    "id": "v2c1q011",
+    "chapter": 1,
+    "chapterTitle": "Nature and Scope of Economics",
+    "question": "A country relies completely on the price mechanism and the free decisions of buyers and sellers to answer the basic economic questions of what, how, and for whom to produce. This describes a:",
+    "options": [
+      "A) Capitalist / Free Market Economy",
+      "B) Socialist Command Economy",
+      "C) Closed Economy",
+      "D) Traditional Barter Economy"
+    ],
+    "correctAnswer": "A) Capitalist / Free Market Economy",
+    "explanation": "In a pure capitalist or free market economy, resource allocation is determined entirely by market forces (supply and demand) without government intervention."
+  },
+  {
+    "id": "v2c1q012",
+    "chapter": 1,
+    "chapterTitle": "Nature and Scope of Economics",
+    "question": "In the study of economics, the terms 'Land, Labor, Capital, and Enterprise' are collectively known as:",
+    "options": [
+      "A) Injections",
+      "B) The factors of production",
+      "C) Consumer goods",
+      "D) Financial assets"
+    ],
+    "correctAnswer": "B) The factors of production",
+    "explanation": "The factors of production are the foundational economic resources required to produce any goods or services: Land, Labor, Capital, and Entrepreneurship."
+  },
+  {
+    "id": "v2c2q013",
+    "chapter": 2,
+    "chapterTitle": "Demand, Supply and Market Equilibrium",
+    "question": "A sudden, widespread health craze causes consumers to prefer green tea over regular black tea. Assuming the price of black tea remains unchanged, what will happen to the demand curve for black tea?",
+    "options": [
+      "A) It will shift to the right",
+      "B) It will shift to the left",
+      "C) There will be an upward movement along the curve",
+      "D) There will be a downward movement along the curve"
+    ],
+    "correctAnswer": "B) It will shift to the left",
+    "explanation": "A change in consumer tastes and preferences away from a product causes its demand curve to shift to the left (decrease in demand at every price level)."
+  },
+  {
+    "id": "v2c2q014",
+    "chapter": 2,
+    "chapterTitle": "Demand, Supply and Market Equilibrium",
+    "question": "The price of smartphones drops by 15% due to a massive holiday sale. What is the immediate effect on the demand graph for smartphones?",
+    "options": [
+      "A) The entire demand curve shifts to the right",
+      "B) The entire demand curve shifts to the left",
+      "C) A downward movement along the existing demand curve",
+      "D) An upward movement along the existing demand curve"
+    ],
+    "correctAnswer": "C) A downward movement along the existing demand curve",
+    "explanation": "A change in the price of the good itself causes a movement along the demand curve (expansion in quantity demanded), not a shift of the curve."
+  },
+  {
+    "id": "v2c2q015",
+    "chapter": 2,
+    "chapterTitle": "Demand, Supply and Market Equilibrium",
+    "question": "If household incomes rise significantly across a nation, and as a result, the demand for generic, low-quality canned goods sharply decreases, what type of good are these canned goods?",
+    "options": [
+      "A) Veblen goods",
+      "B) Normal goods",
+      "C) Inferior goods",
+      "D) Public goods"
+    ],
+    "correctAnswer": "C) Inferior goods",
+    "explanation": "An inferior good is one whose demand decreases when consumer income rises, as consumers switch to higher-quality substitutes."
+  },
+  {
+    "id": "v2c2q016",
+    "chapter": 2,
+    "chapterTitle": "Demand, Supply and Market Equilibrium",
+    "question": "Automobiles and gasoline are frequently consumed together. If the global price of gasoline doubles, what is the most likely impact on the market for heavy, fuel-inefficient automobiles?",
+    "options": [
+      "A) The demand curve for the automobiles will shift to the left",
+      "B) The demand curve for the automobiles will shift to the right",
+      "C) The supply curve for gasoline will shift right",
+      "D) Automobile prices will immediately skyrocket"
+    ],
+    "correctAnswer": "A) The demand curve for the automobiles will shift to the left",
+    "explanation": "Gasoline and automobiles are complementary goods. An increase in the price of a complement causes the demand for the related good to fall (shift left)."
+  },
+  {
+    "id": "v2c2q017",
+    "chapter": 2,
+    "chapterTitle": "Demand, Supply and Market Equilibrium",
+    "question": "Due to a severe frost, a country's entire orange harvest is severely damaged. How will this event affect the supply curve for oranges?",
+    "options": [
+      "A) Movement down the supply curve",
+      "B) Shift of the supply curve to the right",
+      "C) Shift of the supply curve to the left",
+      "D) The demand curve will shift right to compensate"
+    ],
+    "correctAnswer": "C) Shift of the supply curve to the left",
+    "explanation": "A negative supply shock (like bad weather destroying crops) reduces the quantity supplied at every price, causing the supply curve to shift to the left."
+  },
+  {
+    "id": "v2c2q018",
+    "chapter": 2,
+    "chapterTitle": "Demand, Supply and Market Equilibrium",
+    "question": "A factory producing shoes negotiates a new contract that halves the wages paid to its workers. Assuming all other factors remain constant, what will happen in the shoe market?",
+    "options": [
+      "A) The supply curve for shoes will shift to the right",
+      "B) The supply curve for shoes will shift to the left",
+      "C) The demand curve for shoes will shift to the right",
+      "D) The equilibrium price of shoes will increase"
+    ],
+    "correctAnswer": "A) The supply curve for shoes will shift to the right",
+    "explanation": "A decrease in the cost of production (lower wages) makes it cheaper to produce the good, shifting the supply curve to the right (increase in supply)."
+  },
+  {
+    "id": "v2c2q019",
+    "chapter": 2,
+    "chapterTitle": "Demand, Supply and Market Equilibrium",
+    "question": "In a free market, if the current market price of wheat is set artificially higher than the equilibrium price, what market condition will inevitably occur?",
+    "options": [
+      "A) A shortage of wheat",
+      "B) A surplus of wheat",
+      "C) Immediate market clearing",
+      "D) A rightward shift in demand"
+    ],
+    "correctAnswer": "B) A surplus of wheat",
+    "explanation": "When the price is above equilibrium, the quantity supplied exceeds the quantity demanded, resulting in an excess supply, or surplus."
+  },
+  {
+    "id": "v2c2q020",
+    "chapter": 2,
+    "chapterTitle": "Demand, Supply and Market Equilibrium",
+    "question": "The government imposes a legal 'price ceiling' on apartment rentals to keep them affordable for low-income families, setting the maximum rent below the natural market equilibrium. What is the primary unintended consequence of this policy?",
+    "options": [
+      "A) A severe shortage of available apartments",
+      "B) A massive surplus of empty apartments",
+      "C) Landlords immediately building more apartments",
+      "D) The supply curve shifting to the right"
+    ],
+    "correctAnswer": "A) A severe shortage of available apartments",
+    "explanation": "A price ceiling set below equilibrium leads to high demand but low supply, resulting in a persistent market shortage."
+  },
+  {
+    "id": "v2c2q021",
+    "chapter": 2,
+    "chapterTitle": "Demand, Supply and Market Equilibrium",
+    "question": "If there is a simultaneous outward shift of the demand curve (increase in demand) and an inward shift of the supply curve (decrease in supply) for a specific product, what will definitely happen?",
+    "options": [
+      "A) Equilibrium quantity will definitely increase",
+      "B) Equilibrium quantity will definitely decrease",
+      "C) Equilibrium price will definitely increase",
+      "D) Equilibrium price will definitely decrease"
+    ],
+    "correctAnswer": "C) Equilibrium price will definitely increase",
+    "explanation": "Both an increase in demand and a decrease in supply push the price upward. The effect on quantity depends on the magnitude of the shifts, but the price will unequivocally rise."
+  },
+  {
+    "id": "v2c2q022",
+    "chapter": 2,
+    "chapterTitle": "Demand, Supply and Market Equilibrium",
+    "question": "Consumers hear a credible news report that the price of cooking oil will double next month due to an international crisis. What is the immediate effect on the current market for cooking oil?",
+    "options": [
+      "A) Current demand shifts to the right as consumers stockpile",
+      "B) Current demand shifts to the left as consumers wait",
+      "C) Current supply shifts to the right",
+      "D) There is no effect until the price actually changes"
+    ],
+    "correctAnswer": "A) Current demand shifts to the right as consumers stockpile",
+    "explanation": "Expectations of higher future prices cause consumers to buy more now, shifting the current demand curve to the right."
+  },
+  {
+    "id": "v2c2q023",
+    "chapter": 2,
+    "chapterTitle": "Demand, Supply and Market Equilibrium",
+    "question": "Which of the following best describes 'Derived Demand'?",
+    "options": [
+      "A) The demand for luxury cars driven by prestige",
+      "B) The demand for industrial steel caused by a surge in demand for new buildings",
+      "C) The demand for inferior goods when incomes fall",
+      "D) The demand for coffee when the price of tea rises"
+    ],
+    "correctAnswer": "B) The demand for industrial steel caused by a surge in demand for new buildings",
+    "explanation": "Derived demand occurs when the demand for one good (steel) is purely driven by the demand for the final product it is used to produce (buildings)."
+  },
+  {
+    "id": "v2c2q024",
+    "chapter": 2,
+    "chapterTitle": "Demand, Supply and Market Equilibrium",
+    "question": "An exclusive designer brand releases a limited-edition handbag. Strangely, as they increase the price, the wealthy elite demand it even more because of its higher status symbol. What economic anomaly does this represent?",
+    "options": [
+      "A) Giffen good",
+      "B) Inferior good",
+      "C) Veblen good",
+      "D) Public good"
+    ],
+    "correctAnswer": "C) Veblen good",
+    "explanation": "A Veblen good violates the law of demand; higher prices make it more desirable to status-conscious consumers, resulting in an upward-sloping demand curve."
+  },
+  {
+    "id": "v2c2q025",
+    "chapter": 2,
+    "chapterTitle": "Demand, Supply and Market Equilibrium",
+    "question": "To protect poor farmers, the government sets a legal 'price floor' (minimum price) for wheat that is substantially above the natural market equilibrium. What is a direct consequence of this policy?",
+    "options": [
+      "A) A shortage of wheat in the market",
+      "B) A massive surplus of unsold wheat",
+      "C) Immediate equilibrium",
+      "D) The demand curve will permanently shift to the right"
+    ],
+    "correctAnswer": "B) A massive surplus of unsold wheat",
+    "explanation": "A price floor set above the equilibrium price means suppliers produce more than consumers are willing to buy at that high price, creating a surplus."
+  },
+  {
+    "id": "v2c2q026",
+    "chapter": 2,
+    "chapterTitle": "Demand, Supply and Market Equilibrium",
+    "question": "How is a 'Market Demand Curve' derived from individual demand curves?",
+    "options": [
+      "A) By taking the average of all individual quantities",
+      "B) By vertically summing the prices consumers are willing to pay",
+      "C) By horizontally summing the quantities demanded by all individuals at each price",
+      "D) By finding the intersection of individual demand and supply"
+    ],
+    "correctAnswer": "C) By horizontally summing the quantities demanded by all individuals at each price",
+    "explanation": "The market demand curve is the horizontal summation of all individual consumers' demand curves at every given price point."
+  },
+  {
+    "id": "v2c2q027",
+    "chapter": 2,
+    "chapterTitle": "Demand, Supply and Market Equilibrium",
+    "question": "Two goods, Alpha and Beta, are substitutes. If the government places a heavy tax on the production of Alpha, causing its price to rise significantly, what will happen in the market for Beta?",
+    "options": [
+      "A) The supply of Beta will decrease",
+      "B) The demand for Beta will shift to the left",
+      "C) The demand for Beta will shift to the right",
+      "D) The price of Beta will fall"
+    ],
+    "correctAnswer": "C) The demand for Beta will shift to the right",
+    "explanation": "If Alpha becomes more expensive, consumers will switch to its substitute, Beta, causing the demand curve for Beta to shift to the right."
+  },
+  {
+    "id": "v2c2q028",
+    "chapter": 2,
+    "chapterTitle": "Demand, Supply and Market Equilibrium",
+    "question": "A massive improvement in robotic automation significantly lowers the cost of manufacturing laptops. Simultaneously, laptops become a critical necessity for all school children, drastically increasing consumer desire. What happens to equilibrium?",
+    "options": [
+      "A) Price definitely falls, Quantity is indeterminate",
+      "B) Quantity definitely rises, Price is indeterminate",
+      "C) Price and Quantity both definitely rise",
+      "D) Price and Quantity both definitely fall"
+    ],
+    "correctAnswer": "B) Quantity definitely rises, Price is indeterminate",
+    "explanation": "Lower costs shift supply right (P down, Q up). Increased desire shift demand right (P up, Q up). Both increase Q, but push P in opposite directions. The net price change is indeterminate."
+  },
+  {
+    "id": "v2c2q029",
+    "chapter": 2,
+    "chapterTitle": "Demand, Supply and Market Equilibrium",
+    "question": "Which of the following events would NOT cause a shift in the demand curve for beef?",
+    "options": [
+      "A) A significant rise in consumer incomes",
+      "B) A severe drop in the price of chicken (a substitute)",
+      "C) A widespread medical report stating beef causes health issues",
+      "D) A decrease in the price of beef at the butcher shop"
+    ],
+    "correctAnswer": "D) A decrease in the price of beef at the butcher shop",
+    "explanation": "A change in the price of the good itself causes a movement along the demand curve, not a shift of the curve."
+  },
+  {
+    "id": "v2c2q030",
+    "chapter": 2,
+    "chapterTitle": "Demand, Supply and Market Equilibrium",
+    "question": "A cartel of oil-producing nations decides to artificially restrict the pumping of oil to half of the normal capacity. What is the immediate graphical effect?",
+    "options": [
+      "A) The demand curve for oil shifts left",
+      "B) The supply curve for oil shifts left",
+      "C) The supply curve for oil shifts right",
+      "D) A downward movement along the supply curve"
+    ],
+    "correctAnswer": "B) The supply curve for oil shifts left",
+    "explanation": "Withholding supply directly reduces the quantity available at every price point, representing an inward (leftward) shift of the supply curve."
+  },
+  {
+    "id": "v2c2q031",
+    "chapter": 2,
+    "chapterTitle": "Demand, Supply and Market Equilibrium",
+    "question": "If the government maintains a 'Buffer Stock' system for agricultural crops, what action does it take during a year of exceptional overproduction to stabilize prices?",
+    "options": [
+      "A) It sells stored crops into the market",
+      "B) It buys the surplus crop from the market to store it",
+      "C) It strictly burns the entire surplus",
+      "D) It imposes a heavy tax on farmers"
+    ],
+    "correctAnswer": "B) It buys the surplus crop from the market to store it",
+    "explanation": "To prevent prices from crashing during a surplus, a buffer stock scheme requires the government to purchase and store the excess supply."
+  },
+  {
+    "id": "v2c2q032",
+    "chapter": 2,
+    "chapterTitle": "Demand, Supply and Market Equilibrium",
+    "question": "At the point where the downward-sloping demand curve intersects the upward-sloping supply curve, the market achieves a state where:",
+    "options": [
+      "A) Quantity demanded perfectly equals quantity supplied",
+      "B) There is a structural shortage",
+      "C) There is an inherent surplus",
+      "D) Prices are completely unstable"
+    ],
+    "correctAnswer": "A) Quantity demanded perfectly equals quantity supplied",
+    "explanation": "The intersection marks the market equilibrium, where the plans of buyers and sellers perfectly match, resulting in a market-clearing price with no shortage or surplus."
+  },
+  {
+    "id": "v2c3q033",
+    "chapter": 3,
+    "chapterTitle": "Elasticity of Demand and Supply",
+    "question": "A supermarket lowers the price of its premium coffee from Rs. 500 to Rs. 400 (a 20% drop). In response, the quantity demanded surges from 1,000 bags to 1,500 bags (a 50% increase). How is the price elasticity of demand (PED) for this coffee categorized?",
+    "options": [
+      "A) Perfectly inelastic",
+      "B) Relatively inelastic",
+      "C) Unitary elastic",
+      "D) Relatively elastic"
+    ],
+    "correctAnswer": "D) Relatively elastic",
+    "explanation": "Because the percentage change in quantity demanded (50%) is much greater than the percentage change in price (20%), the demand is relatively elastic (PED > 1)."
+  },
+  {
+    "id": "v2c3q034",
+    "chapter": 3,
+    "chapterTitle": "Elasticity of Demand and Supply",
+    "question": "A diabetic patient requires a specific daily dose of insulin to survive. Even when the pharmaceutical company doubles the price of the insulin, the patient continues to purchase the exact same quantity. What is the elasticity of demand for this insulin?",
+    "options": [
+      "A) Perfectly elastic",
+      "B) Perfectly inelastic",
+      "C) Unitary elastic",
+      "D) Relatively elastic"
+    ],
+    "correctAnswer": "B) Perfectly inelastic",
+    "explanation": "When the quantity demanded does not change at all regardless of price changes (PED = 0), the demand is completely unresponsive, or perfectly inelastic."
+  },
+  {
+    "id": "v2c3q035",
+    "chapter": 3,
+    "chapterTitle": "Elasticity of Demand and Supply",
+    "question": "If a firm lowers the price of its product, and as a result, its total revenue (total expenditure by consumers) remains exactly the same, what does this indicate about the product's price elasticity of demand?",
+    "options": [
+      "A) It is perfectly inelastic",
+      "B) It is relatively elastic",
+      "C) It is unitary elastic",
+      "D) It is perfectly elastic"
+    ],
+    "correctAnswer": "C) It is unitary elastic",
+    "explanation": "According to the total expenditure method, if a change in price causes a proportionate change in quantity such that total expenditure remains perfectly constant, demand is unit elastic (PED = 1)."
+  },
+  {
+    "id": "v2c3q036",
+    "chapter": 3,
+    "chapterTitle": "Elasticity of Demand and Supply",
+    "question": "An economic analyst calculates the income elasticity of demand for a specific brand of instant noodles to be -1.5. This negative value mathematically classifies the instant noodles as a(n):",
+    "options": [
+      "A) Normal good",
+      "B) Luxury good",
+      "C) Substitute good",
+      "D) Inferior good"
+    ],
+    "correctAnswer": "D) Inferior good",
+    "explanation": "A negative income elasticity of demand indicates that as consumers' incomes rise, they buy less of the good, which is the defining characteristic of an inferior good."
+  },
+  {
+    "id": "v2c3q037",
+    "chapter": 3,
+    "chapterTitle": "Elasticity of Demand and Supply",
+    "question": "When the price of cinema tickets rises by 10%, the demand for streaming service subscriptions rises by 15%. This results in a positive Cross Elasticity of Demand (+1.5). What is the economic relationship between these two services?",
+    "options": [
+      "A) They are perfect complements",
+      "B) They are unrelated goods",
+      "C) They are substitute goods",
+      "D) They are Giffen goods"
+    ],
+    "correctAnswer": "C) They are substitute goods",
+    "explanation": "A positive cross price elasticity of demand means that as the price of one good rises, consumers switch to the other, making them substitutes."
+  },
+  {
+    "id": "v2c3q038",
+    "chapter": 3,
+    "chapterTitle": "Elasticity of Demand and Supply",
+    "question": "If the cross-price elasticity between 'Product X' and 'Product Y' is profoundly negative (-2.8), what does this mean practically for consumers?",
+    "options": [
+      "A) Consumers view them as interchangeable alternatives",
+      "B) Consumers tend to use them together, like printers and ink cartridges",
+      "C) The products are completely unrelated",
+      "D) They are both inferior goods"
+    ],
+    "correctAnswer": "B) Consumers tend to use them together, like printers and ink cartridges",
+    "explanation": "A negative cross price elasticity indicates that an increase in the price of X reduces the demand for Y. This happens when goods are complements and consumed together."
+  },
+  {
+    "id": "v2c3q039",
+    "chapter": 3,
+    "chapterTitle": "Elasticity of Demand and Supply",
+    "question": "Which of the following factors would make the demand for a specific consumer product highly price-elastic?",
+    "options": [
+      "A) The product is a basic necessity like water",
+      "B) There are almost no alternatives available on the market",
+      "C) The product takes up a very tiny fraction of the consumer's monthly income",
+      "D) There is a vast number of close substitute brands available"
+    ],
+    "correctAnswer": "D) There is a vast number of close substitute brands available",
+    "explanation": "The availability of close substitutes makes demand highly elastic because consumers can easily switch to a rival product if the price rises even slightly."
+  },
+  {
+    "id": "v2c3q040",
+    "chapter": 3,
+    "chapterTitle": "Elasticity of Demand and Supply",
+    "question": "A government imposes a heavy sales tax on a product whose demand is incredibly inelastic (like tobacco). Who will bear the majority of the tax burden (incidence of tax)?",
+    "options": [
+      "A) The producers alone",
+      "B) The consumers will bear most of the tax burden",
+      "C) The government will pay it",
+      "D) The tax burden will be split exactly 50/50"
+    ],
+    "correctAnswer": "B) The consumers will bear most of the tax burden",
+    "explanation": "When demand is inelastic, consumers are unresponsive to price changes. Therefore, producers can safely pass most of the tax onto consumers in the form of higher prices without losing many sales."
+  },
+  {
+    "id": "v2c3q041",
+    "chapter": 3,
+    "chapterTitle": "Elasticity of Demand and Supply",
+    "question": "Why is the price elasticity of supply generally much higher (more elastic) in the 'Long Run' compared to the 'Very Short Run'?",
+    "options": [
+      "A) Because long-run consumer tastes change rapidly",
+      "B) Because in the short run, firms cannot quickly build new factories or expand major capital to increase production",
+      "C) Because the government bans short-run production",
+      "D) Because marginal utility disappears over time"
+    ],
+    "correctAnswer": "B) Because in the short run, firms cannot quickly build new factories or expand major capital to increase production",
+    "explanation": "Supply is highly inelastic in the immediate short run because firms are constrained by fixed capacity. In the long run, they can adjust all resources (build new plants), making supply much more elastic."
+  },
+  {
+    "id": "v2c3q042",
+    "chapter": 3,
+    "chapterTitle": "Elasticity of Demand and Supply",
+    "question": "A local farmer selling fresh strawberries in a perfectly competitive market can sell his entire harvest at the prevailing market price of Rs. 100/kg. If he tries to charge Rs. 101, his sales immediately drop to zero. The demand curve facing this individual farmer is:",
+    "options": [
+      "A) Perfectly inelastic (vertical)",
+      "B) Unitary elastic (hyperbola)",
+      "C) Perfectly elastic (horizontal)",
+      "D) Relatively inelastic (steep)"
+    ],
+    "correctAnswer": "C) Perfectly elastic (horizontal)",
+    "explanation": "In perfect competition, an individual firm faces a perfectly elastic (horizontal) demand curve because consumers will instantly switch to identical competitors if the firm raises its price even slightly."
+  },
+  {
+    "id": "v2c3q043",
+    "chapter": 3,
+    "chapterTitle": "Elasticity of Demand and Supply",
+    "question": "If a luxury car company calculates that its Income Elasticity of Demand is +2.5, what strategic expectation should the company have during a severe national economic recession?",
+    "options": [
+      "A) Sales will rise significantly as incomes drop",
+      "B) Sales will drop proportionally more than the drop in average incomes",
+      "C) Sales will remain completely unaffected",
+      "D) Sales will drop, but by a smaller percentage than the income drop"
+    ],
+    "correctAnswer": "B) Sales will drop proportionally more than the drop in average incomes",
+    "explanation": "An income elasticity > 1 indicates a luxury good. This means demand is highly sensitive to income; a drop in income during a recession will cause a massive, magnified drop in luxury sales."
+  },
+  {
+    "id": "v2c3q044",
+    "chapter": 3,
+    "chapterTitle": "Elasticity of Demand and Supply",
+    "question": "A manager notices that lowering the price of their software slightly caused a massive influx of new buyers, resulting in total revenue jumping from Rs. 1 million to Rs. 1.5 million. According to the total expenditure method, the demand is:",
+    "options": [
+      "A) Inelastic",
+      "B) Elastic",
+      "C) Unitary",
+      "D) Zero"
+    ],
+    "correctAnswer": "B) Elastic",
+    "explanation": "When a price decrease leads to an increase in total expenditure/revenue, the quantity effect outweighed the price effect, indicating that demand is elastic."
+  },
+  {
+    "id": "v2c3q045",
+    "chapter": 3,
+    "chapterTitle": "Elasticity of Demand and Supply",
+    "question": "A rare vintage stamp is being auctioned. There is only one in existence, and no more can ever be produced regardless of how high the bidding price goes. The supply curve for this stamp is:",
+    "options": [
+      "A) Perfectly elastic",
+      "B) Unitary elastic",
+      "C) Perfectly inelastic",
+      "D) Relatively elastic"
+    ],
+    "correctAnswer": "C) Perfectly inelastic",
+    "explanation": "When the quantity supplied is absolutely fixed and cannot respond to price changes (like a unique antique), the supply curve is a vertical line, representing perfectly inelastic supply."
+  },
+  {
+    "id": "v2c3q046",
+    "chapter": 3,
+    "chapterTitle": "Elasticity of Demand and Supply",
+    "question": "A firm wants to shift the tax burden of a new government levy almost entirely onto its customers. Under which specific market condition will the firm be most successful in doing this?",
+    "options": [
+      "A) When its supply is perfectly inelastic",
+      "B) When the demand for its product is highly elastic",
+      "C) When the demand for its product is highly inelastic",
+      "D) When consumers have infinite substitutes"
+    ],
+    "correctAnswer": "C) When the demand for its product is highly inelastic",
+    "explanation": "If demand is highly inelastic, consumers will not reduce their purchases much when the price goes up. This allows the firm to pass the tax burden to consumers via higher prices."
+  },
+  {
+    "id": "v2c3q047",
+    "chapter": 3,
+    "chapterTitle": "Elasticity of Demand and Supply",
+    "question": "What does a Price Elasticity of Demand (PED) value of exactly 0 imply?",
+    "options": [
+      "A) Quantity demanded changes infinitely with any price change",
+      "B) Quantity demanded does not change at all when the price changes",
+      "C) The percentage change in quantity matches the percentage change in price",
+      "D) The good is a luxury"
+    ],
+    "correctAnswer": "B) Quantity demanded does not change at all when the price changes",
+    "explanation": "A PED of zero denotes perfectly inelastic demand; the demand curve is vertical, meaning consumers buy the exact same quantity regardless of price."
+  },
+  {
+    "id": "v2c4q048",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "A clothing manufacturer receives a massive emergency order. They can hire temporary workers and buy more fabric, but they do not have enough time to build a second factory building. In economic theory, this specific time frame is known as the:",
+    "options": [
+      "A) Long run",
+      "B) Very long run",
+      "C) Short run",
+      "D) Market clearing period"
+    ],
+    "correctAnswer": "C) Short run",
+    "explanation": "The short run is defined as a time period where at least one factor of production (usually capital/factory size) is fixed, while others (labor/materials) can be varied."
+  },
+  {
+    "id": "v2c4q049",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "An entrepreneur is planning a 5-year expansion strategy where she intends to lease vast new lands, build three new automated plants, and hire thousands of workers. In economics, a period where all factors of production become variable is the:",
+    "options": [
+      "A) Short run",
+      "B) Long run",
+      "C) Fixed period",
+      "D) Diminishing horizon"
+    ],
+    "correctAnswer": "B) Long run",
+    "explanation": "The long run is the conceptual time period where a firm has enough time to alter all of its inputs and factors of production; there are no fixed factors."
+  },
+  {
+    "id": "v2c4q050",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "A bakery owner with one oven keeps hiring more bakers. The first few bakers increase the total output rapidly, but eventually, adding a 5th baker adds less to the total output than the 4th baker did, because they are crowding around the single oven. What law does this illustrate?",
+    "options": [
+      "A) Law of constant returns to scale",
+      "B) Law of diminishing marginal utility",
+      "C) Law of variable proportions (diminishing returns)",
+      "D) Law of supply"
+    ],
+    "correctAnswer": "C) Law of variable proportions (diminishing returns)",
+    "explanation": "The law of variable proportions states that adding more variable inputs (labor) to a fixed input (oven) will eventually yield progressively smaller increases in output (diminishing marginal product)."
+  }
+]

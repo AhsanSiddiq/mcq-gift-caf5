@@ -1,0 +1,2802 @@
+[
+  {
+    "id": "c1q1",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "TechNova Solutions develops custom accounting software for retail businesses and provides online troubleshooting. How should TechNova's offerings be classified?",
+    "options": [
+      "A) Tangible goods only",
+      "B) Intangible services only",
+      "C) Both tangible goods and intangible services",
+      "D) Not-for-profit resources"
+    ],
+    "correctAnswer": "B) Intangible services only",
+    "explanation": "Services are intangible offerings provided by businesses that cannot be held, touched, or stored. Software troubleshooting falls under this category."
+  },
+  {
+    "id": "c1q2",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "Orion Manufacturing recently opened a new plant. To ensure long-term survival and success in a competitive market, which primary variables must Orion focus on?",
+    "options": [
+      "A) Growth and profitability",
+      "B) Maximizing employee turnover",
+      "C) Reducing stakeholder communication",
+      "D) Increasing government regulations"
+    ],
+    "correctAnswer": "A) Growth and profitability",
+    "explanation": "Businesses that understand the functioning of major variables influencing their growth and profitability are the ones that succeed in the long-run."
+  },
+  {
+    "id": "c1q3",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "The Green Earth Foundation focuses on planting trees in deforested urban areas. Unlike commercial entities, what is the primary objective of this organization?",
+    "options": [
+      "A) Maximizing shareholder wealth",
+      "B) Achieving social and environmental goals rather than traditional profit",
+      "C) Generating high tax revenues for the government",
+      "D) Ensuring rapid market share dominance"
+    ],
+    "correctAnswer": "B) Achieving social and environmental goals rather than traditional profit",
+    "explanation": "A not-for-profit organisation is established to achieve objectives other than the traditional business goal of earning profit, focusing instead on social or environmental welfare."
+  },
+  {
+    "id": "c1q4",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "Alpha Corp's leadership has drafted a statement reading, 'To be the world's most trusted provider of clean energy by 2040.' What type of statement is this?",
+    "options": [
+      "A) Tactical plan",
+      "B) Mission statement",
+      "C) Vision statement",
+      "D) Operational goal"
+    ],
+    "correctAnswer": "C) Vision statement",
+    "explanation": "A vision statement is an inspirational statement discussing what the organization wants to be in the future and how it wants to be viewed."
+  },
+  {
+    "id": "c1q5",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "Beta Logistics has published a document explaining its current purpose, its core values, and its daily commitment to fast delivery. Which organizational element does this represent?",
+    "options": [
+      "A) Vision statement",
+      "B) Mission statement",
+      "C) Strategic objective",
+      "D) Financial goal"
+    ],
+    "correctAnswer": "B) Mission statement",
+    "explanation": "A mission statement clarifies where the organization currently is, its purpose, and why it does what it does on a daily basis."
+  },
+  {
+    "id": "c1q6",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "Mr. Ahmed works as a production supervisor at Delta Textiles. Based on stakeholder classifications, into which category does Mr. Ahmed fall?",
+    "options": [
+      "A) Connected stakeholder",
+      "B) External stakeholder",
+      "C) Internal stakeholder",
+      "D) Regulatory stakeholder"
+    ],
+    "correctAnswer": "C) Internal stakeholder",
+    "explanation": "Internal stakeholders, such as employees and managers, are directly involved in the company’s day-to-day operations."
+  },
+  {
+    "id": "c1q7",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "Omega Traders regularly purchases raw materials from Sigma Ltd. on a 30-day credit basis. What type of stakeholder is Sigma Ltd. to Omega Traders?",
+    "options": [
+      "A) Internal stakeholder",
+      "B) Connected stakeholder",
+      "C) External stakeholder",
+      "D) Secondary stakeholder"
+    ],
+    "correctAnswer": "B) Connected stakeholder",
+    "explanation": "Connected stakeholders have a direct financial relationship with the business, such as suppliers, customers, and shareholders."
+  },
+  {
+    "id": "c1q8",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "The local municipal council is monitoring a nearby chemical plant to ensure it complies with emission laws. How is the municipal council classified as a stakeholder?",
+    "options": [
+      "A) Connected stakeholder",
+      "B) Internal stakeholder",
+      "C) External stakeholder",
+      "D) Primary shareholder"
+    ],
+    "correctAnswer": "C) External stakeholder",
+    "explanation": "External stakeholders, like governments and local communities, are not directly connected through employment or finance but are impacted by or regulate the business."
+  },
+  {
+    "id": "c1q9",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "A large institutional investor holds significant voting rights in Gamma Corp but rarely involves itself in daily management. According to Mendelow's Matrix, what strategy should Gamma Corp use for this investor?",
+    "options": [
+      "A) Keep informed",
+      "B) Minimal effort",
+      "C) Keep satisfied",
+      "D) Manage closely"
+    ],
+    "correctAnswer": "C) Keep satisfied",
+    "explanation": "Stakeholders with high power but low interest in the daily operations should be kept satisfied according to Mendelow's Matrix."
+  },
+  {
+    "id": "c1q10",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "A local community group is highly concerned about the noise from a new construction project but has little legal power to stop it. Under Mendelow's Matrix, how should the construction firm manage this group?",
+    "options": [
+      "A) Keep informed",
+      "B) Keep satisfied",
+      "C) Manage closely",
+      "D) Monitor only"
+    ],
+    "correctAnswer": "A) Keep informed",
+    "explanation": "Groups with high interest but low power should be kept informed to maintain good relations and prevent them from gaining power to disrupt the business."
+  },
+  {
+    "id": "c2q11",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "Mr. Tariq runs a small retail store entirely on his own. If the business goes bankrupt and owes money to suppliers, what is the extent of Mr. Tariq's financial responsibility?",
+    "options": [
+      "A) He is only liable up to his initial investment",
+      "B) He has limited liability",
+      "C) He has unlimited liability and his personal assets may be used",
+      "D) The government will cover the remaining debts"
+    ],
+    "correctAnswer": "C) He has unlimited liability and his personal assets may be used",
+    "explanation": "A major disadvantage of a sole proprietorship is unlimited liability, meaning the owner's personal assets can be seized to pay off business debts."
+  },
+  {
+    "id": "c2q12",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "Which of the following is considered a primary advantage of operating a business as a sole trader?",
+    "options": [
+      "A) Ability to issue shares to the public",
+      "B) Absolute control over all business decisions",
+      "C) Separate legal entity status",
+      "D) Complex legal formation process"
+    ],
+    "correctAnswer": "B) Absolute control over all business decisions",
+    "explanation": "In a sole proprietorship, the proprietor has full control and is free to make all decisions without needing to consult partners or a board."
+  },
+  {
+    "id": "c2q13",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "Ali and Bilal start a logistics firm together under a formal agreement. At the end of the financial year, how will the financial outcomes of the firm be handled?",
+    "options": [
+      "A) Only Ali will absorb losses",
+      "B) They will share both profits and losses according to their agreement",
+      "C) Profits are retained entirely by the firm without distribution",
+      "D) Bilal receives a fixed salary instead of profits"
+    ],
+    "correctAnswer": "B) They will share both profits and losses according to their agreement",
+    "explanation": "In a partnership, the parties agree, either orally or in writing, to share both the profits and the losses of the joint enterprise."
+  },
+  {
+    "id": "c2q14",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "In a specific partnership arrangement, one partner invests capital but takes no part in daily management and has liability restricted to their investment. What is this type of arrangement called?",
+    "options": [
+      "A) General partnership",
+      "B) Sole proprietorship",
+      "C) Limited partnership",
+      "D) Joint stock company"
+    ],
+    "correctAnswer": "C) Limited partnership",
+    "explanation": "A limited partnership includes partners who provide capital but have restricted liability and no active management role, unlike general partners."
+  },
+  {
+    "id": "c2q15",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "Zeta Ltd is a large corporation where the founders own shares but no longer make day-to-day decisions. Who is legally responsible for overseeing the overall management of Zeta Ltd?",
+    "options": [
+      "A) The trade unions",
+      "B) The Board of Directors",
+      "C) The local community",
+      "D) The operational staff"
+    ],
+    "correctAnswer": "B) The Board of Directors",
+    "explanation": "In a company structure, there is a separation of ownership and control. The Board of Directors is elected by shareholders to manage the company."
+  },
+  {
+    "id": "c2q16",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "Ms. Sara sits on the Board of Directors for Nexus Ltd and also serves full-time as the Chief Financial Officer (CFO). What is her specific role title?",
+    "options": [
+      "A) Non-Executive Director",
+      "B) Executive Director",
+      "C) General Partner",
+      "D) Sole Proprietor"
+    ],
+    "correctAnswer": "B) Executive Director",
+    "explanation": "Executive directors are members of the board who are also deeply involved in the daily management and operations of the company."
+  },
+  {
+    "id": "c2q17",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "To ensure good corporate governance, a company brings in outside experts to sit on the board who do not work for the company daily. What is the primary benefit of this action?",
+    "options": [
+      "A) It guarantees higher immediate profits",
+      "B) It prevents executive directors from dominating decisions with personal interests",
+      "C) It allows the company to avoid paying corporate taxes",
+      "D) It automatically converts the business into a public sector organization"
+    ],
+    "correctAnswer": "B) It prevents executive directors from dominating decisions with personal interests",
+    "explanation": "Independent Non-Executive Directors (NEDs) provide objective oversight and prevent the company from being dominated by the personal interests of executive directors."
+  },
+  {
+    "id": "c2q18",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "Horizon Tech is looking to expand and decides to offer its shares to the general public for the very first time. What is this process called?",
+    "options": [
+      "A) Initial Public Offering (IPO)",
+      "B) Sole trader registration",
+      "C) Partnership dissolution",
+      "D) Public sector funding"
+    ],
+    "correctAnswer": "A) Initial Public Offering (IPO)",
+    "explanation": "When a company first offers shares to the public to raise capital, it goes through an Initial Public Offering (IPO)."
+  },
+  {
+    "id": "c2q19",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "The National Highway Authority is funded and operated by the government to manage road infrastructure. Which category of organization does this fall under?",
+    "options": [
+      "A) Private limited company",
+      "B) Sole proprietorship",
+      "C) Public sector organization",
+      "D) Non-governmental organization (NGO)"
+    ],
+    "correctAnswer": "C) Public sector organization",
+    "explanation": "Public sector organizations are owned and funded by the government to provide services to the public, unlike private sector companies."
+  },
+  {
+    "id": "c2q20",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "A local sports club collects subscriptions from its members. At the end of the year, instead of calculating a 'profit', what does the club report?",
+    "options": [
+      "A) Return on Equity",
+      "B) Earnings per share",
+      "C) Surplus or deficit of income over expenditure",
+      "D) Dividend yield"
+    ],
+    "correctAnswer": "C) Surplus or deficit of income over expenditure",
+    "explanation": "Not-for-profit organizations, such as clubs and societies, produce accounts showing a surplus or deficit of income over expenditure instead of a profit and loss account."
+  },
+  {
+    "id": "c3q21",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "A regional manager at a retail chain has 15 store managers reporting directly to him. In organizational structure terminology, what does the number '15' represent?",
+    "options": [
+      "A) Chain of command",
+      "B) Span of control",
+      "C) Centralization degree",
+      "D) Delegation level"
+    ],
+    "correctAnswer": "B) Span of control",
+    "explanation": "Span of control refers directly to the number of subordinates reporting directly to a given manager or supervisor."
+  },
+  {
+    "id": "c3q22",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "A traditional banking institution has many levels of middle management, resulting in a long chain of command and narrow spans of control. What type of structure is this?",
+    "options": [
+      "A) Flat structure",
+      "B) Tall structure",
+      "C) Virtual structure",
+      "D) Matrix structure"
+    ],
+    "correctAnswer": "B) Tall structure",
+    "explanation": "A tall organizational structure is characterized by many management levels, a long chain of command, and a narrow span of control."
+  },
+  {
+    "id": "c3q23",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "At Omega Enterprises, all major operational decisions must be approved by the CEO at the head office, with branch managers having almost no authority. What concept does this illustrate?",
+    "options": [
+      "A) Decentralization",
+      "B) Centralization",
+      "C) Matrix reporting",
+      "D) Divisional autonomy"
+    ],
+    "correctAnswer": "B) Centralization",
+    "explanation": "Centralization is the degree to which decision-making authority is retained at the top or concentrated at a single point in the organization."
+  },
+  {
+    "id": "c3q24",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "A multinational fast-food chain allows its country managers to create localized menus without asking the global headquarters. What is a key advantage of this decentralized approach?",
+    "options": [
+      "A) Slower, more calculated responses to local changes",
+      "B) Increased workload for the global CEO",
+      "C) Quicker decision-making at the local level",
+      "D) Identical product offerings globally"
+    ],
+    "correctAnswer": "C) Quicker decision-making at the local level",
+    "explanation": "Decentralization pushes decision-making down the hierarchy, allowing local managers to respond quickly to market changes without waiting for head office approval."
+  },
+  {
+    "id": "c3q25",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "Sigma Corp is organized into distinct departments for Marketing, Finance, Human Resources, and Production. What type of organizational structure is Sigma Corp using?",
+    "options": [
+      "A) Divisional structure",
+      "B) Matrix structure",
+      "C) Functional structure",
+      "D) Virtual structure"
+    ],
+    "correctAnswer": "C) Functional structure",
+    "explanation": "A functional structure groups activities and employees together based on their specific business functions, such as marketing or finance."
+  },
+  {
+    "id": "c3q26",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "A global electronics manufacturer creates separate, self-contained units for its Mobile Phones, Home Appliances, and Medical Devices. Each unit has its own marketing and finance teams. Which structure is this?",
+    "options": [
+      "A) Functional structure",
+      "B) Divisional structure",
+      "C) Entrepreneurial structure",
+      "D) Bureaucratic structure"
+    ],
+    "correctAnswer": "B) Divisional structure",
+    "explanation": "Divisional structures group activities based on product lines, geographic areas, or customer types, allowing each division to operate almost independently."
+  },
+  {
+    "id": "c3q27",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "An engineer at a software firm reports to the Head of Engineering for technical guidelines, but also reports to a Project Manager for a specific client assignment. Which organizational structure does this represent?",
+    "options": [
+      "A) Matrix structure",
+      "B) Centralized structure",
+      "C) Functional structure",
+      "D) Sole proprietorship"
+    ],
+    "correctAnswer": "A) Matrix structure",
+    "explanation": "A matrix organization combines functional and product structures, leading to a dual reporting system where employees report to two different managers."
+  },
+  {
+    "id": "c3q28",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "E-Shop Ltd has no physical headquarters or warehouse. It uses third-party manufacturers, freelance marketers, and drop-shipping logistics, coordinating everything via cloud software. What type of organization is this?",
+    "options": [
+      "A) Matrix organization",
+      "B) Tall organization",
+      "C) Virtual organization",
+      "D) Bureaucracy"
+    ],
+    "correctAnswer": "C) Virtual organization",
+    "explanation": "A virtual organization lacks a traditional physical infrastructure and relies heavily on IT networks and external service providers to operate."
+  },
+  {
+    "id": "c3q29",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "When an employee has a grievance, they are instructed to first speak to their supervisor, who will then speak to the department head, who can escalate it to the director. This clear line of authority is known as the:",
+    "options": [
+      "A) Span of control",
+      "B) Functional division",
+      "C) Chain of command",
+      "D) Decentralization matrix"
+    ],
+    "correctAnswer": "C) Chain of command",
+    "explanation": "The chain of command is the unbroken line of authority extending from the top of the organization down to the lowest level, clarifying who reports to whom."
+  },
+  {
+    "id": "c3q30",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "A large conglomerate operates several businesses. One of its divisions operates completely autonomously with its own distinct mission, competitors, and strategy. What is this division called?",
+    "options": [
+      "A) A Functional Unit",
+      "B) A Strategic Business Unit (SBU)",
+      "C) A Joint Venture",
+      "D) A Virtual Team"
+    ],
+    "correctAnswer": "B) A Strategic Business Unit (SBU)",
+    "explanation": "A Strategic Business Unit (SBU) is an autonomous division within a larger corporate enterprise that has its own strategy and objectives."
+  },
+  {
+    "id": "c4q31",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "What is the primary objective of financial management decisions in a commercial corporation?",
+    "options": [
+      "A) To maximize the number of employees",
+      "B) To maximize value for shareholders",
+      "C) To increase total tax liabilities",
+      "D) To completely eliminate all business expenses"
+    ],
+    "correctAnswer": "B) To maximize value for shareholders",
+    "explanation": "The ultimate goal of financial management and financing decisions is to achieve value maximization for the company's shareholders."
+  },
+  {
+    "id": "c4q32",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "A retail business takes a loan to cover its inventory purchases for the upcoming holiday season and plans to repay it within six months. How is this type of financing classified?",
+    "options": [
+      "A) Long-term equity",
+      "B) Long-term debt",
+      "C) Short-term financing",
+      "D) Retained earnings"
+    ],
+    "correctAnswer": "C) Short-term financing",
+    "explanation": "Finances that are intended to be paid off within one year, such as covering seasonal inventory, are classified as short-term financing."
+  },
+  {
+    "id": "c4q33",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "A furniture manufacturer receives raw wood from a supplier and agrees to pay the invoice in 45 days without any interest. What specific type of financing is the manufacturer utilizing?",
+    "options": [
+      "A) Trade credit",
+      "B) Factoring",
+      "C) Corporate bond",
+      "D) Operating lease"
+    ],
+    "correctAnswer": "A) Trade credit",
+    "explanation": "Trade credit exists when a purchaser orders and receives goods but pays the supplier after a mutually agreed upon period of time."
+  },
+  {
+    "id": "c4q34",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "When a company is choosing between issuing new shares (equity) or taking a bank loan (debt), what is a major financial advantage of choosing the bank loan?",
+    "options": [
+      "A) Debt does not require repayment",
+      "B) Debt grants voting rights to the bank",
+      "C) Interest paid on debt is usually tax-deductible",
+      "D) Debt decreases the span of control"
+    ],
+    "correctAnswer": "C) Interest paid on debt is usually tax-deductible",
+    "explanation": "A key advantage of debt financing over equity is that the interest payments made on debt are typically treated as tax-deductible expenses."
+  },
+  {
+    "id": "c4q35",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "At the end of the year, Delta Corp decides to keep 40% of its net profit to fund a new factory rather than paying it out to investors. What is this internal source of finance called?",
+    "options": [
+      "A) Trade credit",
+      "B) Retained earnings",
+      "C) Debentures",
+      "D) Factoring"
+    ],
+    "correctAnswer": "B) Retained earnings",
+    "explanation": "Retaining earnings involves keeping a portion of the business's profits for reinvestment instead of distributing them to shareholders as dividends."
+  },
+  {
+    "id": "c4q36",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "A startup tech company issues new shares to a group of investors to raise capital. What is a potential drawback of this equity financing method for the original founders?",
+    "options": [
+      "A) They must pay fixed monthly interest",
+      "B) It increases the company's debt burden",
+      "C) It dilutes their ownership and control of the company",
+      "D) The financing must be repaid within one year"
+    ],
+    "correctAnswer": "C) It dilutes their ownership and control of the company",
+    "explanation": "Issuing new shares means new investors gain voting rights, resulting in the dilution of ownership and control for existing shareholders."
+  },
+  {
+    "id": "c4q37",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "A textile firm has Rs. 1 million in unpaid customer invoices but needs cash immediately to pay salaries. The firm sells these invoices to a financial institution at a discount. What is this financing method called?",
+    "options": [
+      "A) Leasing",
+      "B) Factoring",
+      "C) Issuing debentures",
+      "D) Trade credit"
+    ],
+    "correctAnswer": "B) Factoring",
+    "explanation": "Factoring is a short-term finance method where a business sells its accounts receivable (invoices) to a third party at a discount to obtain immediate cash."
+  },
+  {
+    "id": "c4q38",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "To fund a multi-year infrastructure project, a public limited company issues certificates to the public promising to pay a fixed interest rate and return the principal after 10 years. What are these instruments called?",
+    "options": [
+      "A) Ordinary shares",
+      "B) Corporate bonds or debentures",
+      "C) Retained earnings",
+      "D) Promissory trade credits"
+    ],
+    "correctAnswer": "B) Corporate bonds or debentures",
+    "explanation": "Corporate bonds and debentures are long-term debt instruments issued to the public to borrow money for extended periods."
+  },
+  {
+    "id": "c4q39",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "A financial manager is evaluating two investment projects. Project A is very safe, while Project B is highly uncertain. According to the risk-return trade-off concept, what must Project B offer to be considered viable?",
+    "options": [
+      "A) A higher potential return",
+      "B) A lower potential return",
+      "C) Guaranteed government subsidies",
+      "D) Immediate short-term liquidity"
+    ],
+    "correctAnswer": "A) A higher potential return",
+    "explanation": "The risk-return trade-off dictates that higher levels of risk must be compensated with the potential for higher returns."
+  },
+  {
+    "id": "c4q40",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "A manufacturing firm takes out a 6-month bank loan to purchase heavy machinery that will take 5 years to generate enough cash to pay for itself. What financial risk is the firm creating?",
+    "options": [
+      "A) Asset-liability mismatch",
+      "B) Equity dilution",
+      "C) Loss of voting rights",
+      "D) Dividend deficit"
+    ],
+    "correctAnswer": "A) Asset-liability mismatch",
+    "explanation": "Funding long-term assets with short-term liabilities creates an asset-liability mismatch, leading to a high risk of default when the loan comes due."
+  },
+  {
+    "id": "c5q41",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "A supermarket's barcode scanner records thousands of individual item prices and timestamps every hour. A manager later reviews a report showing that fruit sales peak on Saturday mornings. How do these two elements relate?",
+    "options": [
+      "A) Both are raw data",
+      "B) Both are processed information",
+      "C) The barcode scans are raw data, and the report is processed information",
+      "D) The barcode scans are information, and the report is raw data"
+    ],
+    "correctAnswer": "C) The barcode scans are raw data, and the report is processed information",
+    "explanation": "Data represents raw, unorganized facts (the scans), while information is data that has been processed into a meaningful format (the sales report)."
+  },
+  {
+    "id": "c5q42",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "The payroll department of a factory uses a software system to calculate the weekly wages of line workers based on their punched-in hours. What type of information system is this?",
+    "options": [
+      "A) Decision Support System (DSS)",
+      "B) Executive Information System (EIS)",
+      "C) Transaction Processing System (TPS)",
+      "D) Expert System"
+    ],
+    "correctAnswer": "C) Transaction Processing System (TPS)",
+    "explanation": "A Transaction Processing System (TPS) supports single users in routine, everyday business transactions like calculating payroll."
+  },
+  {
+    "id": "c5q43",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "A regional sales manager receives a weekly summary comparing the actual sales figures of 10 stores against their monthly targets. Which system is most likely generating this structured, regular report?",
+    "options": [
+      "A) Management Information System (MIS)",
+      "B) Operational Hardware System",
+      "C) Artificial Intelligence System",
+      "D) Strategic Extranet System"
+    ],
+    "correctAnswer": "A) Management Information System (MIS)",
+    "explanation": "An MIS is designed to report on existing operations by generating regular, structured reports for middle management."
+  },
+  {
+    "id": "c5q44",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "A shipping company uses specialized software that analyzes weather patterns, fuel costs, and port delays to help managers choose the most cost-effective routes for their vessels. What type of system is this?",
+    "options": [
+      "A) Transaction Processing System (TPS)",
+      "B) Decision Support System (DSS)",
+      "C) Internal Network System",
+      "D) Record-keeping System"
+    ],
+    "correctAnswer": "B) Decision Support System (DSS)",
+    "explanation": "A Decision Support System (DSS) provides analytical capabilities and models to assist managers in making complex or unstructured decisions."
+  },
+  {
+    "id": "c5q45",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "The CEO of a multinational corporation uses a highly visual dashboard system to monitor global market trends and long-term economic shifts to plan a 10-year expansion strategy. Which system is the CEO using?",
+    "options": [
+      "A) Transaction Processing System (TPS)",
+      "B) Executive Information System (EIS)",
+      "C) Data Entry System",
+      "D) Basic Accounting System"
+    ],
+    "correctAnswer": "B) Executive Information System (EIS)",
+    "explanation": "An Executive Information System (EIS) is used by senior executives to drill down into strategic, long-term information and visual data."
+  },
+  {
+    "id": "c5q46",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "An HR department uses a software application to safely store, search, and update employee records, ensuring data is not duplicated or lost. What is this software called?",
+    "options": [
+      "A) Database Management System (DBMS)",
+      "B) Wide Area Network (WAN)",
+      "C) Extranet protocol",
+      "D) Data mining hardware"
+    ],
+    "correctAnswer": "A) Database Management System (DBMS)",
+    "explanation": "A DBMS is the software interface that enables users to enter, store, organize, and retrieve data securely from a database."
+  },
+  {
+    "id": "c5q47",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "A large bank has a secure, private network that allows its employees to access internal policies, training modules, and company news. Outsiders cannot access this network. What is this called?",
+    "options": [
+      "A) The Internet",
+      "B) An Extranet",
+      "C) An Intranet",
+      "D) A public cloud"
+    ],
+    "correctAnswer": "C) An Intranet",
+    "explanation": "An intranet is a private, internal communications network used exclusively within an organization by its employees."
+  },
+  {
+    "id": "c5q48",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "An automobile manufacturer sets up a secure online portal where its authorized parts suppliers can log in to check current inventory levels and upcoming production schedules. What type of network is this?",
+    "options": [
+      "A) Intranet",
+      "B) Extranet",
+      "C) Local Area Network (LAN)",
+      "D) Open Internet"
+    ],
+    "correctAnswer": "B) Extranet",
+    "explanation": "An extranet is an extended intranet that securely shares part of a business's information with external partners like suppliers or vendors."
+  },
+  {
+    "id": "c5q49",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "A telecom company uses advanced algorithms to analyze terabytes of customer call data to identify subtle patterns and predict which customers are likely to switch to a competitor next month. What process is the company using?",
+    "options": [
+      "A) Data entry",
+      "B) Word processing",
+      "C) Data mining",
+      "D) Transaction processing"
+    ],
+    "correctAnswer": "C) Data mining",
+    "explanation": "Data mining involves analyzing large datasets to predict future trends and behaviors, allowing managers to make proactive decisions."
+  },
+  {
+    "id": "c5q50",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "A hospital implements multi-factor authentication and encryption to ensure that patient medical records cannot be accessed by hackers. Which key element of information systems does this represent?",
+    "options": [
+      "A) Database retrieval",
+      "B) Data integration",
+      "C) Hardware maintenance",
+      "D) Security and privacy"
+    ],
+    "correctAnswer": "D) Security and privacy",
+    "explanation": "Security and privacy are essential elements that ensure data is protected from unauthorized access, misuse, or loss."
+  },
+  {
+    "id": "c6q51",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "A senior auditor is pressured by the CEO of a client company to ignore a significant financial discrepancy in exchange for a future consulting contract. This scenario creates a conflict with which ethical principle?",
+    "options": [
+      "A) Confidentiality",
+      "B) Objectivity",
+      "C) Professional competence",
+      "D) Environmental sustainability"
+    ],
+    "correctAnswer": "B) Objectivity",
+    "explanation": "Objectivity demands that professionals do not let bias, conflict of interest, or undue influence of others override their professional or business judgments."
+  },
+  {
+    "id": "c6q52",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "An employee working in product development secretly emails the blueprints of a new, unreleased smartphone to a competing company for a large cash payment. What unethical practice is this?",
+    "options": [
+      "A) Whistleblowing",
+      "B) Breaching confidentiality and corporate espionage",
+      "C) Conflict of interest",
+      "D) Insider trading"
+    ],
+    "correctAnswer": "B) Breaching confidentiality and corporate espionage",
+    "explanation": "Confidentiality prohibits individuals from disclosing sensitive, proprietary corporate information to outside parties without proper authorization."
+  },
+  {
+    "id": "c6q53",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "The concept of 'Professional Competence and Due Care' requires an accountant to:",
+    "options": [
+      "A) Always charge the highest possible fees",
+      "B) Maintain professional knowledge and skill at the level required to ensure clients receive competent professional service",
+      "C) Never disagree with a client's financial decisions",
+      "D) Share client financial details with competitors"
+    ],
+    "correctAnswer": "B) Maintain professional knowledge and skill at the level required to ensure clients receive competent professional service",
+    "explanation": "Professionals have an ongoing duty to maintain their professional knowledge and skill to ensure a competent level of service based on current developments in practice, legislation, and techniques."
+  },
+  {
+    "id": "c6q54",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "A production manager chooses to use a supplier whose materials are cheaper but known to be toxic. The manager knows this poses a health risk to consumers but prioritizes high profit margins. What is failing here?",
+    "options": [
+      "A) Professional competence",
+      "B) Integrity and business ethics",
+      "C) Insider trading regulations",
+      "D) Confidentiality"
+    ],
+    "correctAnswer": "B) Integrity and business ethics",
+    "explanation": "Integrity implies being straightforward and honest in all professional and business relationships, which includes not prioritizing profit over consumer safety and ethical standards."
+  },
+  {
+    "id": "c6q55",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "What does a formal 'Code of Ethics' (or Code of Conduct) achieve within an organization?",
+    "options": [
+      "A) It provides a detailed manual for operating complex manufacturing equipment",
+      "B) It offers clear guidelines to all employees regarding the ethical standards and behaviors expected by the organization",
+      "C) It guarantees the company will never face a lawsuit",
+      "D) It outlines the exact amount of taxes owed to the government"
+    ],
+    "correctAnswer": "B) It offers clear guidelines to all employees regarding the ethical standards and behaviors expected by the organization",
+    "explanation": "A Code of Ethics is a written set of guidelines issued by an organization to its workers and management to help them conduct their actions in accordance with its primary values and ethical standards."
+  },
+  {
+    "id": "c6q56",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "A lower-level employee observes the factory manager continually dumping toxic waste in a local river at night to save disposal costs. The employee reports this to the Environmental Protection Agency. This act is called:",
+    "options": [
+      "A) Whistleblowing",
+      "B) Insider trading",
+      "C) Breaching confidentiality",
+      "D) Conflict of interest"
+    ],
+    "correctAnswer": "A) Whistleblowing",
+    "explanation": "Whistleblowing occurs when a worker reports suspected wrongdoing at work, such as an environmental violation, to the public or authorities."
+  },
+  {
+    "id": "c6q57",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "An executive learns in a closed-door meeting that his company will successfully acquire a major rival next week. He immediately buys thousands of shares in his own company before the news goes public. What illegal act has he committed?",
+    "options": [
+      "A) Whistleblowing",
+      "B) Corporate lobbying",
+      "C) Conflict of interest",
+      "D) Insider trading"
+    ],
+    "correctAnswer": "D) Insider trading",
+    "explanation": "Insider trading is the illegal practice of trading on the stock exchange to one's own advantage through having access to confidential, non-public information."
+  },
+  {
+    "id": "c6q58",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "A pharmaceutical firm voluntarily decides to manufacture generic antibiotics at zero profit margin and distribute them for free in impoverished regions. What broader business concept does this represent?",
+    "options": [
+      "A) Hostile takeover strategy",
+      "B) Corporate Social Responsibility (CSR)",
+      "C) Tax evasion",
+      "D) Monopoly pricing"
+    ],
+    "correctAnswer": "B) Corporate Social Responsibility (CSR)",
+    "explanation": "CSR is a management concept whereby companies voluntarily integrate social and environmental concerns in their business operations and interactions with their stakeholders."
+  },
+  {
+    "id": "c6q59",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "Why is 'Tone at the Top' considered the most critical factor in establishing an ethical corporate culture?",
+    "options": [
+      "A) Because lower-level employees cannot read the Code of Ethics",
+      "B) Because senior management does not have to follow the rules",
+      "C) Because if senior leaders visibly demonstrate and prioritize ethical behavior, it sets the standard that all employees will follow",
+      "D) Because only top executives are allowed to whistleblow"
+    ],
+    "correctAnswer": "C) Because if senior leaders visibly demonstrate and prioritize ethical behavior, it sets the standard that all employees will follow",
+    "explanation": "The 'Tone at the Top' refers to the ethical atmosphere created in the workplace by the organization's leadership. If leaders are visibly ethical, employees are far more likely to behave ethically."
+  },
+  {
+    "id": "c6q60",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "Which of the following is a direct potential consequence for a business that operates unethically and is subsequently exposed in the media?",
+    "options": [
+      "A) Guaranteed increase in market share",
+      "B) Automatic tax exemptions from the government",
+      "C) Severe reputational damage, leading to loss of consumer trust and potential boycotts",
+      "D) An immediate influx of highly skilled ethical job applicants"
+    ],
+    "correctAnswer": "C) Severe reputational damage, leading to loss of consumer trust and potential boycotts",
+    "explanation": "Unethical behavior, once exposed, severely damages a firm's reputation, destroys public trust, and can lead to a loss of sales, legal fines, and falling share prices."
+  },
+  {
+    "id": "c7q61",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "The fundamental concept of modern marketing is that an organization should:",
+    "options": [
+      "A) Focus entirely on the mass production of generic goods",
+      "B) Focus on identifying and profitably satisfying the needs and wants of consumers",
+      "C) Produce products first and then force customers to buy them through aggressive selling",
+      "D) Eliminate all advertising to keep final prices as low as possible"
+    ],
+    "correctAnswer": "B) Focus on identifying and profitably satisfying the needs and wants of consumers",
+    "explanation": "The marketing concept asserts that a firm must analyze the needs of its target market and deliver the desired satisfactions more effectively and efficiently than competitors do."
+  },
+  {
+    "id": "c7q62",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "A beverage company develops a new sports energy drink. They set the price at Rs. 200, decide to sell it exclusively in gyms, and run a promotional campaign featuring famous athletes. These four combined elements are the company's:",
+    "options": [
+      "A) Marketing Mix (4 Ps)",
+      "B) Product Life Cycle",
+      "C) Value Chain",
+      "D) Distribution Network"
+    ],
+    "correctAnswer": "A) Marketing Mix (4 Ps)",
+    "explanation": "The Marketing Mix consists of Product, Price, Place, and Promotion. These are the four tactical strategies a company blends to produce the desired response in the target market."
+  },
+  {
+    "id": "c7q63",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "A luxury watchmaker designs its timepieces and advertising specifically to appeal to high-income professionals aged 40-60. What is this specific group of intended customers called?",
+    "options": [
+      "A) Connected stakeholders",
+      "B) Demographics",
+      "C) Target market",
+      "D) Internal stakeholders"
+    ],
+    "correctAnswer": "C) Target market",
+    "explanation": "A target market is a specific group of consumers with shared characteristics that a business has identified as the primary aim for its products and marketing efforts."
+  },
+  {
+    "id": "c7q64",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "A fast-food chain adopts a very distinct yellow 'M' logo, standardized building designs, and unique product names (like 'Big Mac') to differentiate itself instantly from competitors. This strategic process is called:",
+    "options": [
+      "A) Logistics",
+      "B) Branding",
+      "C) Pricing strategy",
+      "D) Market research"
+    ],
+    "correctAnswer": "B) Branding",
+    "explanation": "Branding is the process of creating a unique name, design, and image for a product in the consumers' mind through advertising with a consistent theme."
+  },
+  {
+    "id": "c7q65",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "When a completely innovative tech gadget is first introduced to the public, advertising costs are massive to educate the consumer, and sales revenue is initially quite low. What stage of the Product Life Cycle is this?",
+    "options": [
+      "A) Decline",
+      "B) Maturity",
+      "C) Introduction",
+      "D) Growth"
+    ],
+    "correctAnswer": "C) Introduction",
+    "explanation": "In the introduction phase, the product is being launched into the market. Costs are high due to initial marketing efforts, and sales volume is low as product awareness builds."
+  },
+  {
+    "id": "c7q66",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "Which of the 4 Ps involves decisions about how to physically transport products from the manufacturing plant and to which retail stores they should be placed on shelves?",
+    "options": [
+      "A) Promotion",
+      "B) Place",
+      "C) Price",
+      "D) Product"
+    ],
+    "correctAnswer": "B) Place",
+    "explanation": "Place (also known as distribution) involves decisions regarding the channels, coverage, assortments, locations, inventory, transport, and logistics required to make the product accessible to consumers."
+  },
+  {
+    "id": "c7q67",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "A clothing retailer places a large banner in the store window offering a 'Buy One Get One Free' deal for the weekend. Which element of the marketing mix does this specific action fall under?",
+    "options": [
+      "A) Product",
+      "B) Place",
+      "C) Promotion",
+      "D) Branding"
+    ],
+    "correctAnswer": "C) Promotion",
+    "explanation": "Promotion encompasses all the communication strategies, including advertising, sales promotions, public relations, and direct marketing, used to persuade customers to buy."
+  },
+  {
+    "id": "c7q68",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "Which of the following statements accurately highlights the difference between Marketing and Selling?",
+    "options": [
+      "A) There is no difference; the terms are synonymous in a corporate environment.",
+      "B) Marketing is heavily focused on the needs of the seller, while selling focuses on the needs of the buyer.",
+      "C) Selling focuses heavily on exchanging an existing product for money, while marketing focuses broadly on identifying and fulfilling customer needs from start to finish.",
+      "D) Selling is a long-term strategic process, whereas marketing is a short-term tactical event."
+    ],
+    "correctAnswer": "C) Selling focuses heavily on exchanging an existing product for money, while marketing focuses broadly on identifying and fulfilling customer needs from start to finish.",
+    "explanation": "Selling is an inside-out view focusing on the factory, existing products, and aggressive sales. Marketing is an outside-in view starting with a well-defined market, focusing on customer needs, and driving profits through customer satisfaction."
+  },
+  {
+    "id": "c7q69",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "Before launching a new line of baby food, a company conducts extensive surveys with mothers to determine their flavor preferences and nutritional concerns. What is this systematic gathering of information called?",
+    "options": [
+      "A) Market research",
+      "B) Trade marketing",
+      "C) Penetration pricing",
+      "D) Viral promotion"
+    ],
+    "correctAnswer": "A) Market research",
+    "explanation": "Market research is the systematic design, collection, analysis, and reporting of data and findings relevant to a specific marketing situation facing the company."
+  },
+  {
+    "id": "c7q70",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "A company launches a highly anticipated, innovative video game console. Knowing demand will exceed supply initially, they set the price exceptionally high to capture early adopters willing to pay more, maximizing early profits. They plan to lower the price later. What pricing strategy is this?",
+    "options": [
+      "A) Penetration pricing",
+      "B) Economy pricing",
+      "C) Price skimming",
+      "D) Cost-plus pricing"
+    ],
+    "correctAnswer": "C) Price skimming",
+    "explanation": "Price skimming involves setting a high price for a new, innovative product before competitors arrive, to 'skim' maximum revenues layer by layer from the segments willing to pay the high price."
+  },
+  {
+    "id": "c7q71",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "Conversely, a company launching a generic brand of laundry detergent sets the price very low right from the start to quickly attract a massive number of price-sensitive buyers and capture large market share. What pricing strategy is this?",
+    "options": [
+      "A) Price skimming",
+      "B) Penetration pricing",
+      "C) Premium pricing",
+      "D) Price discrimination"
+    ],
+    "correctAnswer": "B) Penetration pricing",
+    "explanation": "Market-penetration pricing involves setting a low initial price in order to penetrate the market quickly and deeply—to attract a large number of buyers quickly and win a large market share."
+  },
+  {
+    "id": "c7q72",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "In the Product Life Cycle, during which stage does a product generally see its sales peak, face intense competition, and experience profit compression because the market is completely saturated?",
+    "options": [
+      "A) Maturity",
+      "B) Decline",
+      "C) Growth",
+      "D) Introduction"
+    ],
+    "correctAnswer": "A) Maturity",
+    "explanation": "The maturity stage is characterized by peak sales, market saturation, and brutal competition, leading to price drops and a focus on defending market share."
+  },
+  {
+    "id": "c7q73",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "A national health authority runs a series of TV advertisements urging citizens to receive a flu vaccination before winter. What exactly is the 'product' being marketed here?",
+    "options": [
+      "A) A tangible good",
+      "B) A financial investment",
+      "C) An idea, behavior, or service",
+      "D) A corporate identity"
+    ],
+    "correctAnswer": "C) An idea, behavior, or service",
+    "explanation": "Marketing is not limited to physical goods. It can involve the marketing of services, events, persons, places, properties, organizations, information, and ideas (like public health campaigns)."
+  },
+  {
+    "id": "c8q74",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "An HR department uses a systematic process to evaluate the duties required for a specific job, the exact tasks performed, and the physical working conditions. What is this foundational HR process called?",
+    "options": [
+      "A) Job Analysis",
+      "B) Human Resource Planning",
+      "C) Employee Evaluation",
+      "D) Disciplinary procedure"
+    ],
+    "correctAnswer": "A) Job Analysis",
+    "explanation": "Job analysis is a systematic procedure for gathering, documenting, and analyzing information about the content, context, and human requirements of jobs."
+  },
+  {
+    "id": "c8q75",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "Following a job analysis, an organization creates a document stating: 'The ideal candidate must hold a Master's degree in Engineering, have 5 years of leadership experience, and possess strong communication skills.' What is the name of this document?",
+    "options": [
+      "A) Job description",
+      "B) Job specification (Person specification)",
+      "C) Offer letter",
+      "D) Employment contract"
+    ],
+    "correctAnswer": "B) Job specification (Person specification)",
+    "explanation": "A job specification details the specific skills, education, professional experience, and personal attributes needed by an individual to successfully perform the job."
+  },
+  {
+    "id": "c8q76",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "A company realizes that over the next 5 years, due to planned expansions and expected retirements, they will be short of 50 software developers. The process of anticipating this future need is called:",
+    "options": [
+      "A) Job Specification",
+      "B) Human Resource Planning (Workforce Planning)",
+      "C) Recruitment",
+      "D) Selection"
+    ],
+    "correctAnswer": "B) Human Resource Planning (Workforce Planning)",
+    "explanation": "HR planning is the process of analyzing and identifying the need for and availability of human resources so that the organization can meet its objectives."
+  },
+  {
+    "id": "c8q77",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "A bank places an advertisement on LinkedIn and in national newspapers seeking applicants for a new Branch Manager position. This process of actively attracting potential candidates is termed:",
+    "options": [
+      "A) Job Analysis",
+      "B) Selection",
+      "C) Recruitment",
+      "D) Orientation"
+    ],
+    "correctAnswer": "C) Recruitment",
+    "explanation": "Recruitment is the process of generating a pool of qualified applicants for organizational jobs by actively communicating the job opening and attracting individuals to apply."
+  },
+  {
+    "id": "c8q78",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "The HR department receives 300 resumes for a single opening. They conduct a series of aptitude tests, review the resumes, and hold three rounds of interviews to pick the absolute best person. What is this filtering process called?",
+    "options": [
+      "A) Recruitment",
+      "B) Selection",
+      "C) Job Analysis",
+      "D) Staffing"
+    ],
+    "correctAnswer": "B) Selection",
+    "explanation": "Selection is the process of choosing the most suitable individual from the pool of applicants generated during recruitment, using various screening tools."
+  },
+  {
+    "id": "c8q79",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "A newly hired machine operator is shown how to safely operate the specific machinery on the factory floor so they can effectively perform their daily duties. Is this an example of training or development?",
+    "options": [
+      "A) Development, because it focuses on future leadership potential",
+      "B) Training, because it focuses on teaching specific skills required for their current, immediate job tasks",
+      "C) Neither, it is part of the recruitment process",
+      "D) Both, as they are interchangeable terms"
+    ],
+    "correctAnswer": "B) Training, because it focuses on teaching specific skills required for their current, immediate job tasks",
+    "explanation": "Training is a short-term process designed to teach non-managerial personnel specific technical skills needed for their current jobs. Development represents long-term, broader educational growth."
+  },
+  {
+    "id": "c8q80",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "An organization sponsors its high-performing mid-level managers to attend a rigorous Executive MBA program to prepare them to eventually become Vice Presidents in the next 5 to 10 years. Is this an example of training or development?",
+    "options": [
+      "A) Training, because it involves going to school",
+      "B) Development, because it is a long-term educational process focusing on broader competencies for future roles",
+      "C) Job design, because it changes their job titles",
+      "D) Recruitment, because it sources new Vice Presidents"
+    ],
+    "correctAnswer": "B) Development, because it is a long-term educational process focusing on broader competencies for future roles",
+    "explanation": "Development usually involves managerial personnel and focuses on broader, long-term educational programs designed to prepare them for complex, future responsibilities."
+  },
+  {
+    "id": "c8q81",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "To save costs, a company ignores employee dissatisfaction, leading to 30% of its highly skilled workforce quitting within a year. The company must now spend vast amounts on hiring and training replacements. What metric is painfully high here?",
+    "options": [
+      "A) Profit margin",
+      "B) Span of control",
+      "C) Employee Turnover",
+      "D) Return on Investment"
+    ],
+    "correctAnswer": "C) Employee Turnover",
+    "explanation": "Employee turnover refers to the rate at which employees leave a workforce and are replaced. High turnover is very costly due to lost productivity and replacement expenses."
+  },
+  {
+    "id": "c8q82",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "A firm adopts new flexible working hours and increases vacation time, significantly reducing employee stress. As a result, the employee turnover rate drops dramatically. The firm's new policies are part of its strategy for:",
+    "options": [
+      "A) Job analysis",
+      "B) Disciplinary action",
+      "C) Employee retention",
+      "D) Outsourcing"
+    ],
+    "correctAnswer": "C) Employee retention",
+    "explanation": "Employee retention strategies are policies and practices companies use to prevent valuable employees from leaving their jobs, often focusing on work-life balance, compensation, and culture."
+  },
+  {
+    "id": "c8q83",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "A sales representative receives a fixed monthly amount of Rs. 50,000, plus an additional amount based directly on how many products they sold that month. What are these two compensation elements?",
+    "options": [
+      "A) The fixed amount is a bonus; the extra is a base salary",
+      "B) Both are considered benefits in kind",
+      "C) The fixed amount is the base salary; the extra is a performance-based commission or bonus",
+      "D) The fixed amount is overtime; the extra is provident fund"
+    ],
+    "correctAnswer": "C) The fixed amount is the base salary; the extra is a performance-based commission or bonus",
+    "explanation": "Base salary is the fixed compensation paid regularly, while commissions or bonuses are variable, performance-linked financial rewards."
+  },
+  {
+    "id": "c8q84",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "A senior executive is assigned to guide a newly hired, high-potential junior employee. The senior executive offers long-term career advice, networking opportunities, and emotional support. The senior executive is acting as a:",
+    "options": [
+      "A) Mentor",
+      "B) Line manager",
+      "C) Recruiter",
+      "D) Internal auditor"
+    ],
+    "correctAnswer": "A) Mentor",
+    "explanation": "A mentor is an experienced person in an organization who provides guidance, career advice, and support to a less experienced employee (the mentee)."
+  },
+  {
+    "id": "c8q85",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "Which of the following describes a key benefit of conducting regular formal Performance Appraisals for employees?",
+    "options": [
+      "A) It allows the HR department to ignore job descriptions",
+      "B) It completely replaces the need for a base salary",
+      "C) It provides structured feedback, identifies training needs, and lays the groundwork for promotions or bonuses",
+      "D) It eliminates the need for any corporate hierarchy"
+    ],
+    "correctAnswer": "C) It provides structured feedback, identifies training needs, and lays the groundwork for promotions or bonuses",
+    "explanation": "Performance appraisals (evaluations) are critical for providing feedback, determining compensation adjustments, identifying areas needing training, and making promotion or termination decisions."
+  },
+  {
+    "id": "c8q86",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "During an exit interview, a departing employee states that the primary reason for leaving is that their manager constantly demands they answer emails at 11 PM and work on weekends. The company has failed to provide a healthy:",
+    "options": [
+      "A) Compensation package",
+      "B) Work-life balance",
+      "C) Job analysis",
+      "D) Chain of command"
+    ],
+    "correctAnswer": "B) Work-life balance",
+    "explanation": "A healthy work-life balance ensures employees have adequate time for personal life outside of work hours. Failing to respect this leads to burnout and high turnover."
+  },
+  {
+    "id": "c9q87",
+    "chapter": 9,
+    "chapterTitle": "Organizational Culture",
+    "question": "How is 'Organizational Culture' most accurately defined in a business context?",
+    "options": [
+      "A) The exact wording of the company's legal charter",
+      "B) The physical architectural layout of the head office",
+      "C) The deeply shared values, beliefs, attitudes, and unwritten norms that shape how employees behave and interact",
+      "D) The specific software systems used for accounting"
+    ],
+    "correctAnswer": "C) The deeply shared values, beliefs, attitudes, and unwritten norms that shape how employees behave and interact",
+    "explanation": "Organizational culture is often described as 'the way we do things around here'—the collective values, beliefs, and practices shared by members of an organization."
+  },
+  {
+    "id": "c9q88",
+    "chapter": 9,
+    "chapterTitle": "Organizational Culture",
+    "question": "A new tech startup has a 'flat' structure where everyone, including the CEO, sits in an open-plan office. They hold 'Casual Fridays' and strongly encourage junior employees to challenge senior management's ideas during meetings. Which cultural element does this visible behavior represent?",
+    "options": [
+      "A) Core financial strategy",
+      "B) External marketing mix",
+      "C) Cultural artifacts and symbols",
+      "D) Corporate governance"
+    ],
+    "correctAnswer": "C) Cultural artifacts and symbols",
+    "explanation": "In Edgar Schein's model of culture, artifacts are the visible, tangible, and observable elements of a culture, such as dress codes, office layouts, and overt behaviors."
+  },
+  {
+    "id": "c9q89",
+    "chapter": 9,
+    "chapterTitle": "Organizational Culture",
+    "question": "Which of the following best describes the 'Espoused Values' layer of an organization's culture?",
+    "options": [
+      "A) The deep, unconscious beliefs that no one questions",
+      "B) The physical uniforms worn by staff",
+      "C) The stated goals, strategies, and official philosophies published by leadership (e.g., 'Safety First')",
+      "D) The actual behavior of employees when no one is watching"
+    ],
+    "correctAnswer": "C) The stated goals, strategies, and official philosophies published by leadership (e.g., 'Safety First')",
+    "explanation": "Espoused values are the explicit beliefs and stated values that the organization claims to stand for, often found in mission statements or corporate slogans."
+  },
+  {
+    "id": "c9q90",
+    "chapter": 9,
+    "chapterTitle": "Organizational Culture",
+    "question": "A traditional bank has a strict dress code of dark suits. Every decision requires multiple signatures following a rigid chain of command, and employees refer to their bosses as 'Sir' or 'Madam'. This culture is highly:",
+    "options": [
+      "A) Informal and decentralized",
+      "B) Entrepreneurial and risk-taking",
+      "C) Formal and bureaucratic",
+      "D) Virtual and matrix-based"
+    ],
+    "correctAnswer": "C) Formal and bureaucratic",
+    "explanation": "A formal, bureaucratic culture emphasizes strict rules, hierarchical authority, standard operating procedures, and rigid conformity."
+  },
+  {
+    "id": "c9q91",
+    "chapter": 9,
+    "chapterTitle": "Organizational Culture",
+    "question": "According to Charles Handy's classification, a small business where all major decisions revolve entirely around the charismatic founder is known as a:",
+    "options": [
+      "A) Power culture",
+      "B) Role culture",
+      "C) Task culture",
+      "D) Person culture"
+    ],
+    "correctAnswer": "A) Power culture",
+    "explanation": "In a Power Culture, control radiates outward from a central figure (usually the founder), with few rules and decisions based heavily on personal influence rather than formal procedures."
+  },
+  {
+    "id": "c9q92",
+    "chapter": 9,
+    "chapterTitle": "Organizational Culture",
+    "question": "A civil service department operates exactly according to a detailed manual. Employees have specific job titles with narrowly defined duties, and stability is valued over innovation. Which of Handy's cultures does this represent?",
+    "options": [
+      "A) Power culture",
+      "B) Person culture",
+      "C) Role culture",
+      "D) Task culture"
+    ],
+    "correctAnswer": "C) Role culture",
+    "explanation": "A Role Culture is a highly bureaucratic model where jobs are strictly defined by logic and rationality, rules dictate behavior, and the job title matters more than the individual holding it."
+  },
+  {
+    "id": "c9q93",
+    "chapter": 9,
+    "chapterTitle": "Organizational Culture",
+    "question": "At highly innovative firms like NASA or Google, cross-functional teams are formed to solve specific, complex problems. The focus is entirely on getting the job done, and team leaders change based on who has the best technical expertise for the specific problem at hand. Which culture is this?",
+    "options": [
+      "A) Role culture",
+      "B) Power culture",
+      "C) Task culture",
+      "D) Person culture"
+    ],
+    "correctAnswer": "C) Task culture",
+    "explanation": "A Task Culture focuses on completing specific jobs or projects by assembling expert teams. Power derives from expertise rather than job titles or a central leader."
+  },
+  {
+    "id": "c9q94",
+    "chapter": 9,
+    "chapterTitle": "Organizational Culture",
+    "question": "A law firm consists entirely of independent senior partners who occasionally share office space and administrative staff but operate autonomously. The organization exists solely to serve the individuals within it. This is a:",
+    "options": [
+      "A) Power culture",
+      "B) Person culture",
+      "C) Role culture",
+      "D) Task culture"
+    ],
+    "correctAnswer": "B) Person culture",
+    "explanation": "In a Person Culture, the individual is the central point. The organization exists merely as a supportive framework for the individuals to achieve their own goals (common among consultants, lawyers, and elite professionals)."
+  },
+  {
+    "id": "c9q95",
+    "chapter": 9,
+    "chapterTitle": "Organizational Culture",
+    "question": "Why can a deliberately planned 'cultural change' program be incredibly difficult to execute in a mature organization?",
+    "options": [
+      "A) Because culture is written into the national constitution",
+      "B) Because deeply ingrained assumptions, habits, and beliefs are generally resistant to rapid modification by management",
+      "C) Because changing culture requires shutting down the company completely",
+      "D) Because cultural change only affects the physical office furniture"
+    ],
+    "correctAnswer": "B) Because deeply ingrained assumptions, habits, and beliefs are generally resistant to rapid modification by management",
+    "explanation": "Culture is deeply embedded in the attitudes, assumptions, and daily habits of employees, making it inherently stubborn and resistant to top-down, rapid change directives."
+  },
+  {
+    "id": "c10q96",
+    "chapter": 10,
+    "chapterTitle": "Cost & Management Accounting",
+    "question": "Which of the following highlights a primary difference between Financial Accounting and Management Accounting?",
+    "options": [
+      "A) Financial accounting is exclusively meant for internal managers; Management accounting is published to the public.",
+      "B) Financial accounting focuses on past, historical data for external stakeholders; Management accounting focuses on forward-looking analysis to aid internal decision-making.",
+      "C) Neither is regulated by standard-setting bodies.",
+      "D) Management accounting focuses only on the total company, while financial accounting details individual departments."
+    ],
+    "correctAnswer": "B) Financial accounting focuses on past, historical data for external stakeholders; Management accounting focuses on forward-looking analysis to aid internal decision-making.",
+    "explanation": "Financial accounting produces historical, regulated reports for external stakeholders (investors, tax authorities). Management accounting produces customized, forward-looking reports for internal managers to plan and control operations."
+  },
+  {
+    "id": "c10q97",
+    "chapter": 10,
+    "chapterTitle": "Cost & Management Accounting",
+    "question": "A bakery owner calculates that precisely 0.5 kg of flour and 2 eggs are physically traceable into every single cake produced. These costs are classified as:",
+    "options": [
+      "A) Indirect costs",
+      "B) Fixed overheads",
+      "C) Direct costs",
+      "D) Administrative expenses"
+    ],
+    "correctAnswer": "C) Direct costs",
+    "explanation": "Direct costs are costs that can be specifically and exclusively identified with and traced to a particular cost object (like the materials in a specific cake)."
+  },
+  {
+    "id": "c10q98",
+    "chapter": 10,
+    "chapterTitle": "Cost & Management Accounting",
+    "question": "The factory rent for the bakery is Rs. 500,000 per month, regardless of whether they bake 1,000 cakes or 10,000 cakes. The rent is an example of a:",
+    "options": [
+      "A) Variable cost",
+      "B) Direct material cost",
+      "C) Fixed cost",
+      "D) Semi-variable cost"
+    ],
+    "correctAnswer": "C) Fixed cost",
+    "explanation": "Fixed costs remain constant in total regardless of the volume of production or activity within a relevant range."
+  },
+  {
+    "id": "c10q99",
+    "chapter": 10,
+    "chapterTitle": "Cost & Management Accounting",
+    "question": "A piece of machinery costs a company Rs. 1 million. After deciding to close that factory entirely, they find they cannot return or resell the machinery. In management decision-making regarding future projects, this Rs. 1 million is a:",
+    "options": [
+      "A) Sunk cost",
+      "B) Relevant cost",
+      "C) Variable cost",
+      "D) Opportunity cost"
+    ],
+    "correctAnswer": "A) Sunk cost",
+    "explanation": "A sunk cost is a cost that has already been incurred and cannot be recovered. Therefore, it is irrelevant for future decision-making."
+  },
+  {
+    "id": "c10q100",
+    "chapter": 10,
+    "chapterTitle": "Cost & Management Accounting",
+    "question": "A student decides to study full-time for their CA exams instead of taking a job that pays Rs. 50,000 per month. What economic term describes the lost potential income of Rs. 50,000?",
+    "options": [
+      "A) Marginal cost",
+      "B) Opportunity cost",
+      "C) Sunk cost",
+      "D) Fixed cost"
+    ],
+    "correctAnswer": "B) Opportunity cost",
+    "explanation": "Opportunity cost is the value of the next best alternative forgone as the result of making a decision."
+  },
+  {
+    "id": "c1q101",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "A newly established airline company provides domestic flight services. According to business classifications, what type of offering is the airline providing to its customers?",
+    "options": [
+      "A) Tangible goods",
+      "B) Intangible services",
+      "C) Non-profit commodities",
+      "D) Hybrid manufacturing"
+    ],
+    "correctAnswer": "B) Intangible services",
+    "explanation": "Airlines provide transportation, which cannot be held, touched, or stored. Therefore, it is classified as an intangible service."
+  },
+  {
+    "id": "c1q102",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "The board of directors at Horizon Pharmaceuticals states their core purpose is 'To improve global health by creating accessible medicines.' What does this statement represent?",
+    "options": [
+      "A) Vision statement",
+      "B) Tactical goal",
+      "C) Mission statement",
+      "D) Operational plan"
+    ],
+    "correctAnswer": "C) Mission statement",
+    "explanation": "A mission statement defines the fundamental purpose of an organization, clarifying why it exists and what it does on a daily basis."
+  },
+  {
+    "id": "c1q103",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "A regional manager at a retail chain aims to 'reduce customer wait times by 15% before the end of the third quarter.' What is this an example of?",
+    "options": [
+      "A) A broad goal",
+      "B) A specific objective",
+      "C) A vision statement",
+      "D) A mission statement"
+    ],
+    "correctAnswer": "B) A specific objective",
+    "explanation": "Objectives are specific, measurable, and time-bound targets (SMART) designed to help an organization achieve its broader goals."
+  },
+  {
+    "id": "c1q104",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "A commercial agricultural business utilizes vast tracts of soil, tractors, hired workers, and the owner's risk-taking ability. Which factor of production does the 'tractor' represent?",
+    "options": [
+      "A) Land",
+      "B) Labor",
+      "C) Capital",
+      "D) Entrepreneurship"
+    ],
+    "correctAnswer": "C) Capital",
+    "explanation": "In economics, capital refers to man-made resources used to generate further wealth, such as machinery, equipment, and tractors."
+  },
+  {
+    "id": "c1q105",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "Which of the following best describes the fundamental role of 'entrepreneurship' as a factor of production?",
+    "options": [
+      "A) Providing the physical exertion required for manufacturing",
+      "B) Organizing other factors of production and assuming business risk",
+      "C) Supplying the natural resources necessary for operations",
+      "D) Regulating the market through government policies"
+    ],
+    "correctAnswer": "B) Organizing other factors of production and assuming business risk",
+    "explanation": "An entrepreneur is an individual who organizes land, labor, and capital to create goods or services, taking on the financial risk of the venture."
+  },
+  {
+    "id": "c1q106",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "A local charity is formed to provide clean drinking water to remote villages. Since it does not distribute profits to owners, how should this entity be classified?",
+    "options": [
+      "A) Public Limited Company",
+      "B) Partnership",
+      "C) Not-for-profit organization",
+      "D) Sole proprietorship"
+    ],
+    "correctAnswer": "C) Not-for-profit organization",
+    "explanation": "Not-for-profit organizations exist to fulfill a social, educational, or charitable purpose rather than to generate and distribute profits to owners."
+  },
+  {
+    "id": "c1q107",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "Why is the government considered a crucial external stakeholder for a commercial manufacturing business?",
+    "options": [
+      "A) It directly manages the daily production schedules",
+      "B) It provides the initial equity investment for all startups",
+      "C) It relies on business taxes and regulates employment and environmental laws",
+      "D) It purchases the majority of shares in private companies"
+    ],
+    "correctAnswer": "C) It relies on business taxes and regulates employment and environmental laws",
+    "explanation": "The government is an external stakeholder because it regulates business activities (like health and safety) and relies on the taxes businesses generate."
+  },
+  {
+    "id": "c1q108",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "An investor owns 10,000 shares in Delta Corp and expects a steady dividend yield. In the context of business stakeholders, what category does this investor belong to?",
+    "options": [
+      "A) Internal stakeholder",
+      "B) Connected stakeholder",
+      "C) External stakeholder",
+      "D) Regulatory stakeholder"
+    ],
+    "correctAnswer": "B) Connected stakeholder",
+    "explanation": "Shareholders, along with customers and suppliers, are connected stakeholders because they have a direct financial relationship with the company."
+  },
+  {
+    "id": "c1q109",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "A nation's economy is characterized by private ownership of property, profit motives, and resource allocation driven by supply and demand. What economic system is this?",
+    "options": [
+      "A) Command economy",
+      "B) Socialist economy",
+      "C) Capitalist (Market) economy",
+      "D) Traditional economy"
+    ],
+    "correctAnswer": "C) Capitalist (Market) economy",
+    "explanation": "A capitalist or free-market economy is driven by private ownership, self-interest (profit motive), and market forces without central government planning."
+  },
+  {
+    "id": "c1q110",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "Which economic system features a blend where private enterprises operate alongside significant government intervention and state-owned strategic industries?",
+    "options": [
+      "A) Pure Capitalism",
+      "B) Mixed Economy",
+      "C) Absolute Command Economy",
+      "D) Laissez-faire Economy"
+    ],
+    "correctAnswer": "B) Mixed Economy",
+    "explanation": "A mixed economy combines elements of both capitalism and socialism, where private sector firms and government entities both play significant economic roles."
+  },
+  {
+    "id": "c1q111",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "What is the core problem that the study of economics attempts to solve?",
+    "options": [
+      "A) Eliminating all taxation",
+      "B) Allocating scarce resources to satisfy unlimited human wants",
+      "C) Ensuring every business makes a profit",
+      "D) Replacing human labor with machinery"
+    ],
+    "correctAnswer": "B) Allocating scarce resources to satisfy unlimited human wants",
+    "explanation": "The central economic problem is scarcity: human desires are virtually unlimited, but the resources (land, labor, capital) available to satisfy them are limited."
+  },
+  {
+    "id": "c1q112",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "National defense, public parks, and street lighting are examples of goods that are non-rival and non-excludable. What are these goods called?",
+    "options": [
+      "A) Private goods",
+      "B) Consumer goods",
+      "C) Public goods",
+      "D) Capital goods"
+    ],
+    "correctAnswer": "C) Public goods",
+    "explanation": "Public goods are provided by the state because they cannot be easily restricted to paying customers and one person's use does not diminish another's."
+  },
+  {
+    "id": "c2q113",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "Mr. Khan has decided to open a small bakery. He wants complete control over decision-making, minimal legal formalities, and is willing to accept all business risks personally. Which ownership structure is best for him?",
+    "options": [
+      "A) Private Limited Company",
+      "B) Sole Proprietorship",
+      "C) General Partnership",
+      "D) Cooperative Society"
+    ],
+    "correctAnswer": "B) Sole Proprietorship",
+    "explanation": "A sole proprietorship offers easy formation, total personal control, and entitlement to all profits, though it comes with unlimited personal liability."
+  },
+  {
+    "id": "c2q114",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "Which of the following is a significant disadvantage of operating a business as a general partnership?",
+    "options": [
+      "A) Double taxation of profits",
+      "B) Complex and costly legal registration requirements",
+      "C) Unlimited liability for all general partners",
+      "D) Inability to hire skilled employees"
+    ],
+    "correctAnswer": "C) Unlimited liability for all general partners",
+    "explanation": "In a general partnership, all partners typically have unlimited liability, meaning their personal assets can be seized to settle the firm's debts."
+  },
+  {
+    "id": "c2q115",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "A group of software developers forms a company where their personal liability is restricted only to the amount they invested in shares. What legal concept protects their personal assets?",
+    "options": [
+      "A) Mutual agency",
+      "B) Limited liability",
+      "C) Sole trading",
+      "D) Unlimited liability"
+    ],
+    "correctAnswer": "B) Limited liability",
+    "explanation": "Limited liability ensures that shareholders are only financially responsible for business debts up to the value of their shares, protecting their personal wealth."
+  },
+  {
+    "id": "c2q116",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "In a corporate structure, the entity is considered a separate 'legal person' distinct from its owners. What is a direct consequence of this separate legal identity?",
+    "options": [
+      "A) The company cannot own property in its own name",
+      "B) The company can sue and be sued in a court of law",
+      "C) The owners must personally pay all business taxes",
+      "D) The business automatically dissolves if an owner dies"
+    ],
+    "correctAnswer": "B) The company can sue and be sued in a court of law",
+    "explanation": "Because a company is a separate legal entity, it has its own legal rights and obligations, including the ability to enter contracts, sue, and be sued."
+  },
+  {
+    "id": "c2q117",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "A company is planning to raise capital by inviting the general public to subscribe to its shares for the first time. What type of company is allowed to do this?",
+    "options": [
+      "A) Sole proprietorship",
+      "B) General partnership",
+      "C) Private limited company",
+      "D) Public limited company"
+    ],
+    "correctAnswer": "D) Public limited company",
+    "explanation": "Only public limited companies are legally permitted to offer their shares to the general public through an Initial Public Offering (IPO)."
+  },
+  {
+    "id": "c2q118",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "Farmers in a rural area pool their resources together to buy expensive harvesting equipment that they all share. They operate the business democratically for mutual benefit rather than pure profit. What is this organization called?",
+    "options": [
+      "A) Franchise",
+      "B) Cooperative",
+      "C) Public Limited Company",
+      "D) Joint Venture"
+    ],
+    "correctAnswer": "B) Cooperative",
+    "explanation": "A cooperative is an association of individuals who voluntarily come together to achieve a common economic goal through a jointly controlled enterprise."
+  },
+  {
+    "id": "c2q119",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "Which of the following entities represents a public sector organization established by the government to provide essential services to citizens?",
+    "options": [
+      "A) A multinational fast-food chain",
+      "B) A family-owned textile mill",
+      "C) The Water and Power Development Authority (WAPDA)",
+      "D) A private accountancy firm"
+    ],
+    "correctAnswer": "C) The Water and Power Development Authority (WAPDA)",
+    "explanation": "Public sector organizations like WAPDA are owned and operated by the government to provide essential infrastructure and services to the public."
+  },
+  {
+    "id": "c2q120",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "What is the primary role of the Board of Directors in a public limited company?",
+    "options": [
+      "A) To run the daily assembly line operations",
+      "B) To act as the primary customers of the firm",
+      "C) To oversee the company's management and protect shareholders' interests",
+      "D) To conduct annual financial audits independently"
+    ],
+    "correctAnswer": "C) To oversee the company's management and protect shareholders' interests",
+    "explanation": "The Board of Directors is elected by the shareholders to govern the company, set strategic goals, and ensure the executive management acts in the owners' best interests."
+  },
+  {
+    "id": "c2q121",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "Which of the following is true regarding the dissolution of a sole proprietorship compared to a limited company?",
+    "options": [
+      "A) It requires a complex legal liquidation process",
+      "B) It is highly regulated by the Securities and Exchange Commission",
+      "C) It is easy and straightforward, usually requiring no formal legal process",
+      "D) It requires a majority vote from the board of directors"
+    ],
+    "correctAnswer": "C) It is easy and straightforward, usually requiring no formal legal process",
+    "explanation": "A sole proprietorship has no separate legal existence from its owner, making it very simple to dissolve without complex legal formalities."
+  },
+  {
+    "id": "c2q122",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "In a partnership, one specific partner provides capital but does not participate in the active management of the firm, and their liability is restricted. What is this partner called?",
+    "options": [
+      "A) General partner",
+      "B) Silent or Limited partner",
+      "C) Executive director",
+      "D) Sole trader"
+    ],
+    "correctAnswer": "B) Silent or Limited partner",
+    "explanation": "A limited (or silent) partner contributes capital and enjoys limited liability but is legally barred from participating in the daily management of the business."
+  },
+  {
+    "id": "c2q123",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "When a public limited company distributes a portion of its after-tax profits to its shareholders, what is this payment called?",
+    "options": [
+      "A) Interest",
+      "B) Retained earnings",
+      "C) Dividend",
+      "D) Capital gain"
+    ],
+    "correctAnswer": "C) Dividend",
+    "explanation": "A dividend is a reward paid to the shareholders out of the company's profits as a return on their equity investment."
+  },
+  {
+    "id": "c2q124",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "Which business structure is generally subject to the highest level of statutory regulation, disclosure requirements, and public scrutiny?",
+    "options": [
+      "A) Sole Proprietorship",
+      "B) General Partnership",
+      "C) Private Limited Company",
+      "D) Public Limited Company"
+    ],
+    "correctAnswer": "D) Public Limited Company",
+    "explanation": "Because public companies raise funds from the general public, they are heavily regulated by authorities to ensure transparency and protect investors."
+  },
+  {
+    "id": "c2q125",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "Which of the following is a primary characteristic of a Not-for-Profit Organization (NGO)?",
+    "options": [
+      "A) Its primary objective is maximizing shareholder wealth",
+      "B) It generates a surplus that must be reinvested into its social cause",
+      "C) It is legally forbidden from paying salaries to its employees",
+      "D) It can issue shares to the public on the stock exchange"
+    ],
+    "correctAnswer": "B) It generates a surplus that must be reinvested into its social cause",
+    "explanation": "NGOs do not distribute profits to owners; any financial surplus generated must be retained and used to further the organization's charitable or social goals."
+  },
+  {
+    "id": "c3q126",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "A manufacturing firm divides its workforce into specific departments: Finance, Production, Marketing, and Human Resources. Which type of organizational structure is this?",
+    "options": [
+      "A) Divisional structure",
+      "B) Functional structure",
+      "C) Matrix structure",
+      "D) Entrepreneurial structure"
+    ],
+    "correctAnswer": "B) Functional structure",
+    "explanation": "A functional structure groups employees together based on the specific business functions or specialized tasks they perform, like marketing or finance."
+  },
+  {
+    "id": "c3q127",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "What is a potential disadvantage of using a rigid functional organizational structure?",
+    "options": [
+      "A) It prevents occupational specialization",
+      "B) It can create 'silos' leading to poor communication and conflict between departments",
+      "C) It makes it very difficult to calculate individual salaries",
+      "D) It eliminates the need for top management"
+    ],
+    "correctAnswer": "B) It can create 'silos' leading to poor communication and conflict between departments",
+    "explanation": "A drawback of functional structures is that departments may focus too heavily on their own goals (silos), leading to interdepartmental conflict and poor cross-communication."
+  },
+  {
+    "id": "c3q128",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "A global beverage company structures itself into 'North America', 'Europe', and 'Asia-Pacific' units, each with its own complete set of functional teams. This is an example of division by:",
+    "options": [
+      "A) Customer type",
+      "B) Process",
+      "C) Product",
+      "D) Geography"
+    ],
+    "correctAnswer": "D) Geography",
+    "explanation": "Grouping operations by different countries or regions is characteristic of a geographic divisional structure."
+  },
+  {
+    "id": "c3q129",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "A company produces electronics and structures itself into three autonomous divisions: Mobile Phones, Laptops, and Home Appliances. Each division acts almost like an independent company. What is the name for these units?",
+    "options": [
+      "A) Functional silos",
+      "B) Strategic Business Units (SBUs)",
+      "C) Virtual teams",
+      "D) Bureaucratic branches"
+    ],
+    "correctAnswer": "B) Strategic Business Units (SBUs)",
+    "explanation": "An SBU is an autonomous division of a large company that operates as an independent profit center with its own specific products and market strategy."
+  },
+  {
+    "id": "c3q130",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "In a construction firm, an electrical engineer reports to the Chief Engineer for technical guidance but also reports to the Project Manager for daily site tasks. What organizational structure creates this dual reporting?",
+    "options": [
+      "A) Matrix structure",
+      "B) Simple structure",
+      "C) Centralized structure",
+      "D) Geographic structure"
+    ],
+    "correctAnswer": "A) Matrix structure",
+    "explanation": "A matrix structure intentionally creates a multiple command system where employees report to both a functional manager and a project or product manager."
+  },
+  {
+    "id": "c3q131",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "TechStart Inc. consists of just three founders who work from home. They hire external companies to handle manufacturing, marketing, and accounting, coordinating everything via cloud computing. What describes TechStart?",
+    "options": [
+      "A) Bureaucratic organization",
+      "B) Virtual organization",
+      "C) Tall organization",
+      "D) Functional hierarchy"
+    ],
+    "correctAnswer": "B) Virtual organization",
+    "explanation": "A virtual organization relies heavily on IT networks and external independent companies (outsourcing) to operate, rather than maintaining a large internal physical footprint."
+  },
+  {
+    "id": "c3q132",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "What is a primary advantage of a decentralized organizational structure?",
+    "options": [
+      "A) It guarantees uniform decisions globally",
+      "B) It reduces the number of managers needed",
+      "C) It allows for faster decision-making by local managers who understand local conditions",
+      "D) It centralizes all power with the CEO"
+    ],
+    "correctAnswer": "C) It allows for faster decision-making by local managers who understand local conditions",
+    "explanation": "Decentralization pushes authority down the hierarchy, motivating lower-level managers and allowing them to respond swiftly to local market changes."
+  },
+  {
+    "id": "c3q133",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "If an organization's CEO insists on making every minor operational decision personally, refusing to delegate authority, the organization is highly:",
+    "options": [
+      "A) Decentralized",
+      "B) Virtual",
+      "C) Centralized",
+      "D) Divisional"
+    ],
+    "correctAnswer": "C) Centralized",
+    "explanation": "Centralization refers to the concentration of decision-making authority at the upper levels of management."
+  },
+  {
+    "id": "c3q134",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "The concept of 'Span of Control' refers to:",
+    "options": [
+      "A) The physical size of the factory floor",
+      "B) The number of subordinates a manager can effectively supervise",
+      "C) The number of products a company sells",
+      "D) The strictness of the company's financial budget"
+    ],
+    "correctAnswer": "B) The number of subordinates a manager can effectively supervise",
+    "explanation": "Span of control is an organizational concept measuring the exact number of direct reports assigned to a single manager."
+  },
+  {
+    "id": "c3q135",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "An organization with a 'narrow' span of control will naturally tend to develop what kind of overall structure?",
+    "options": [
+      "A) A flat structure",
+      "B) A virtual structure",
+      "C) A tall structure with many management levels",
+      "D) A matrix structure"
+    ],
+    "correctAnswer": "C) A tall structure with many management levels",
+    "explanation": "If managers only supervise a few people (narrow span), the organization must add more layers of management as it grows, creating a tall hierarchy."
+  },
+  {
+    "id": "c3q136",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "What is the term for the continuous, unbroken line of authority that extends from the very top of an organization down to the lowest employee?",
+    "options": [
+      "A) Value chain",
+      "B) Supply chain",
+      "C) Span of control",
+      "D) Chain of command"
+    ],
+    "correctAnswer": "D) Chain of command",
+    "explanation": "The chain of command clarifies who reports to whom, establishing formal lines of authority throughout the organization."
+  },
+  {
+    "id": "c3q137",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "A bank decides to stop maintaining its own internal payroll department and instead hires an external specialist firm to calculate wages and process employee payments. What is this practice called?",
+    "options": [
+      "A) Downsizing",
+      "B) Insourcing",
+      "C) Outsourcing",
+      "D) Centralization"
+    ],
+    "correctAnswer": "C) Outsourcing",
+    "explanation": "Outsourcing involves contracting non-core activities (like payroll processing) to specialized external vendors to improve efficiency or reduce costs."
+  },
+  {
+    "id": "c3q138",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "Which type of organizational structure is most likely to be used by a small, newly founded startup managed directly by its ambitious owner?",
+    "options": [
+      "A) Entrepreneurial structure",
+      "B) Matrix structure",
+      "C) Divisional structure",
+      "D) Bureaucratic structure"
+    ],
+    "correctAnswer": "A) Entrepreneurial structure",
+    "explanation": "An entrepreneurial (or simple) structure is highly centralized, informal, and typical of small startups where the founder makes all key decisions."
+  },
+  {
+    "id": "c4q139",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "What is universally considered the primary, overarching objective of corporate financial management?",
+    "options": [
+      "A) To eliminate all corporate debt",
+      "B) To maximize value for the shareholders",
+      "C) To increase the company's headcount",
+      "D) To minimize tax payments completely"
+    ],
+    "correctAnswer": "B) To maximize value for the shareholders",
+    "explanation": "The fundamental goal of financial management is to maximize the overall value of the firm for its owners, the shareholders."
+  },
+  {
+    "id": "c4q140",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "A manufacturer purchases raw materials in bulk and relies on a common financing method where the supplier allows them 60 days to pay the invoice. What is this called?",
+    "options": [
+      "A) Term loan",
+      "B) Corporate bond",
+      "C) Equity financing",
+      "D) Trade credit"
+    ],
+    "correctAnswer": "D) Trade credit",
+    "explanation": "Trade credit is a short-term, often interest-free financing arrangement provided by suppliers allowing delayed payment for goods."
+  },
+  {
+    "id": "c4q141",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "A textile firm is experiencing a cash shortage and needs money to pay wages immediately. They sell their unpaid customer invoices to a bank at a 5% discount. What short-term financing method is this?",
+    "options": [
+      "A) Issuing debentures",
+      "B) Discounting or Factoring of receivables",
+      "C) Trade credit",
+      "D) Retained earnings"
+    ],
+    "correctAnswer": "B) Discounting or Factoring of receivables",
+    "explanation": "Factoring or discounting involves selling accounts receivable to a financial institution at a discount to obtain immediate cash."
+  },
+  {
+    "id": "c4q142",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "Which of the following describes an essential characteristic of debt financing (such as a bank loan)?",
+    "options": [
+      "A) It does not have a maturity date",
+      "B) It gives the lender voting rights in the company",
+      "C) It requires the payment of regular interest and repayment of the principal",
+      "D) The interest payments are not tax-deductible"
+    ],
+    "correctAnswer": "C) It requires the payment of regular interest and repayment of the principal",
+    "explanation": "Debt financing obligates the borrower to pay a specific interest rate and return the borrowed principal by a stated maturity date."
+  },
+  {
+    "id": "c4q143",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "When comparing debt to equity, what is a major financial advantage of using debt to fund business expansion?",
+    "options": [
+      "A) Debt never has to be repaid",
+      "B) The interest paid on debt is usually tax-deductible",
+      "C) Debt dilutes the ownership of existing shareholders",
+      "D) Lenders absorb all business losses"
+    ],
+    "correctAnswer": "B) The interest paid on debt is usually tax-deductible",
+    "explanation": "A key advantage of debt is that interest payments are treated as business expenses, which reduces the company's taxable income."
+  },
+  {
+    "id": "c4q144",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "A firm needs funding for a new 10-year infrastructure project. Which of the following would be an inappropriate method of financing this long-term asset?",
+    "options": [
+      "A) Issuing new equity shares",
+      "B) Retaining earnings",
+      "C) Using a short-term 6-month bank overdraft",
+      "D) Issuing a 10-year corporate bond"
+    ],
+    "correctAnswer": "C) Using a short-term 6-month bank overdraft",
+    "explanation": "Using short-term finance for long-term projects creates an asset-liability mismatch, exposing the firm to severe liquidity risks."
+  },
+  {
+    "id": "c4q145",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "If an organization wants to raise long-term finance without diluting control, increasing its debt burden, or paying interest, what internal source should it use?",
+    "options": [
+      "A) Retained earnings",
+      "B) Bank loans",
+      "C) Issuing preference shares",
+      "D) Corporate bonds"
+    ],
+    "correctAnswer": "A) Retained earnings",
+    "explanation": "Retained earnings represent internal profits kept by the company rather than paid as dividends. It involves no new debt and no new voting shareholders."
+  },
+  {
+    "id": "c4q146",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "A rapidly growing private tech company decides to list itself on the stock exchange to raise massive equity capital. What is this initial process called?",
+    "options": [
+      "A) Factoring",
+      "B) Initial Public Offering (IPO)",
+      "C) Debt restructuring",
+      "D) Leasing"
+    ],
+    "correctAnswer": "B) Initial Public Offering (IPO)",
+    "explanation": "An IPO is the process where a previously private company issues shares to the public on a stock exchange for the first time."
+  },
+  {
+    "id": "c4q147",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "Which of the following financial instruments represents long-term public debt where the company issues certificates promising to pay fixed interest?",
+    "options": [
+      "A) Ordinary shares",
+      "B) Trade credit",
+      "C) Corporate bonds or debentures",
+      "D) Bank overdrafts"
+    ],
+    "correctAnswer": "C) Corporate bonds or debentures",
+    "explanation": "Bonds and debentures are formal debt instruments issued to the public to secure long-term capital in exchange for regular interest payments."
+  },
+  {
+    "id": "c4q148",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "In financial management, the principle that investors demand higher compensation for undertaking highly uncertain investments is known as the:",
+    "options": [
+      "A) Asset-liability mismatch",
+      "B) Risk-return trade-off",
+      "C) Debt-equity ratio",
+      "D) Time value of money"
+    ],
+    "correctAnswer": "B) Risk-return trade-off",
+    "explanation": "The risk-return trade-off dictates that the potential return on an investment must increase as the level of risk associated with it increases."
+  },
+  {
+    "id": "c4q149",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "Which of the following is a core, fundamental principle of Islamic Banking compared to conventional banking?",
+    "options": [
+      "A) Charging compounded interest on corporate loans",
+      "B) The strict prohibition of Riba (interest)",
+      "C) Investing heavily in speculative derivatives",
+      "D) Guaranteeing fixed returns regardless of business performance"
+    ],
+    "correctAnswer": "B) The strict prohibition of Riba (interest)",
+    "explanation": "Unlike conventional banking which relies on interest, Islamic banking operates on profit-sharing and asset-backed transactions, strictly prohibiting Riba (interest)."
+  },
+  {
+    "id": "c4q150",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "Which of the following terms represents a recognized mode of financing in Islamic Banking?",
+    "options": [
+      "A) Compound interest loans",
+      "B) Unsecured overdrafts",
+      "C) Mudarabah",
+      "D) Conventional bonds"
+    ],
+    "correctAnswer": "C) Mudarabah",
+    "explanation": "Mudarabah (along with Murabaha, Musharakah, and Ijara) is a standard profit-sharing partnership model used in Islamic finance."
+  },
+  {
+    "id": "c5q151",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "A supermarket scanner reads the barcode of every item sold. This massive stream of unorganized, individual facts is referred to as:",
+    "options": [
+      "A) Hardware",
+      "B) Information",
+      "C) Raw Data",
+      "D) A Database"
+    ],
+    "correctAnswer": "C) Raw Data",
+    "explanation": "Data consists of raw, unorganized facts and figures. It only becomes 'information' when it is processed and given meaningful context."
+  },
+  {
+    "id": "c5q152",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "In an IT system, the physical, tangible components such as servers, monitors, keyboards, and routers are collectively known as:",
+    "options": [
+      "A) Software",
+      "B) Hardware",
+      "C) Network protocols",
+      "D) DBMS"
+    ],
+    "correctAnswer": "B) Hardware",
+    "explanation": "Hardware refers to all the physical machinery and equipment that make up a computer system."
+  },
+  {
+    "id": "c5q153",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "An HR department uses a specific type of software that securely stores thousands of employee records, allowing managers to efficiently search, update, and retrieve files. What is this software called?",
+    "options": [
+      "A) Database Management System (DBMS)",
+      "B) Word Processor",
+      "C) Virtual Private Network (VPN)",
+      "D) Firewall"
+    ],
+    "correctAnswer": "A) Database Management System (DBMS)",
+    "explanation": "A DBMS is the software interface that allows users to create, read, update, and manage data systematically within a database."
+  },
+  {
+    "id": "c5q154",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "An organization wants to securely connect the computer systems of its branch office in Lahore with its head office in Karachi to share data. What technology achieves this?",
+    "options": [
+      "A) A stand-alone CPU",
+      "B) A computer network (WAN)",
+      "C) An operating system",
+      "D) A barcode scanner"
+    ],
+    "correctAnswer": "B) A computer network (WAN)",
+    "explanation": "A computer network (specifically a Wide Area Network or WAN in this geographic context) links multiple computer systems together to share data."
+  },
+  {
+    "id": "c5q155",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "A bank teller uses a computer to record cash deposits and withdrawals as customers approach the counter. This routine, day-to-day operational system is known as a:",
+    "options": [
+      "A) Decision Support System (DSS)",
+      "B) Transaction Processing System (TPS)",
+      "C) Executive Information System (EIS)",
+      "D) Strategic Management System"
+    ],
+    "correctAnswer": "B) Transaction Processing System (TPS)",
+    "explanation": "A TPS handles high volumes of routine, daily business transactions, forming the foundational operational data for an organization."
+  },
+  {
+    "id": "c5q156",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "A middle manager receives a structured weekly report summarizing the total sales figures compared to the previous month. This report is likely generated by a:",
+    "options": [
+      "A) Transaction Processing System (TPS)",
+      "B) Management Information System (MIS)",
+      "C) Real-time operating system",
+      "D) Expert System (ES)"
+    ],
+    "correctAnswer": "B) Management Information System (MIS)",
+    "explanation": "An MIS provides regular, structured reports on existing operations to help middle managers control the business and make structured decisions."
+  },
+  {
+    "id": "c5q157",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "A shipping company uses software that analyzes complex variables like fuel prices, weather, and port congestion to help managers choose the best shipping routes. This advanced analytical tool is a:",
+    "options": [
+      "A) Decision Support System (DSS)",
+      "B) Transaction Processing System (TPS)",
+      "C) Standard Accounting Ledger",
+      "D) Hardware Network"
+    ],
+    "correctAnswer": "A) Decision Support System (DSS)",
+    "explanation": "A DSS provides analytical models and tools to assist managers in making complex, semi-structured decisions with many changing variables."
+  },
+  {
+    "id": "c5q158",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "The CEO of an airline uses a dashboard that displays highly visual data regarding global economic trends to plan fleet expansion for the next decade. What system is the CEO using?",
+    "options": [
+      "A) Operational TPS",
+      "B) Executive Information System (EIS)",
+      "C) Data Entry System",
+      "D) Payroll System"
+    ],
+    "correctAnswer": "B) Executive Information System (EIS)",
+    "explanation": "An EIS is designed for top-level executives, providing high-level, visual, and strategic information to assist in long-term, unstructured decision-making."
+  },
+  {
+    "id": "c5q159",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "A hospital utilizes a computer program that asks a series of diagnostic questions and uses a vast database of medical knowledge to suggest potential illnesses. What type of system is this?",
+    "options": [
+      "A) Expert System (ES)",
+      "B) Transaction Processing System (TPS)",
+      "C) Intranet Extranet Protocol",
+      "D) Executive Support System"
+    ],
+    "correctAnswer": "A) Expert System (ES)",
+    "explanation": "An Expert System (ES) simulates human judgment and decision-making by applying a set of rules to a vast database of specialized knowledge."
+  },
+  {
+    "id": "c5q160",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "A large manufacturing firm installs a massive software suite (like SAP or Oracle) that integrates HR, Finance, Inventory, and Order Processing into one single, real-time database. This is known as:",
+    "options": [
+      "A) Enterprise Resource Planning (ERP)",
+      "B) A Local Area Network (LAN)",
+      "C) An Office Automation System",
+      "D) A batch processing system"
+    ],
+    "correctAnswer": "A) Enterprise Resource Planning (ERP)",
+    "explanation": "ERP is a cross-functional system that integrates all core business processes (finance, HR, supply chain) into a unified, real-time software suite."
+  },
+  {
+    "id": "c5q161",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "To prevent unauthorized access to sensitive financial records, a company implements firewalls, passwords, and encryption. Which key element of information systems does this represent?",
+    "options": [
+      "A) Data integration",
+      "B) Batch processing",
+      "C) Security and privacy",
+      "D) Open networking"
+    ],
+    "correctAnswer": "C) Security and privacy",
+    "explanation": "Security and privacy measures are essential components of an IS to protect data integrity and prevent unauthorized access or hacking."
+  },
+  {
+    "id": "c5q162",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "A supervisor on a factory floor needs to know exactly how many units were produced in the morning shift to assign tasks for the afternoon. What level of information does this represent?",
+    "options": [
+      "A) Strategic information",
+      "B) Tactical information",
+      "C) Operational information",
+      "D) Executive forecasting"
+    ],
+    "correctAnswer": "C) Operational information",
+    "explanation": "Operational information relates to day-to-day, routine activities and is used by frontline supervisors to manage immediate tasks."
+  },
+  {
+    "id": "c5q163",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "A business is analyzing a new IS that processes data in large groups at the end of every week rather than instantly. What data processing method is this?",
+    "options": [
+      "A) Real-time processing",
+      "B) Batch processing",
+      "C) Online processing",
+      "D) Executive processing"
+    ],
+    "correctAnswer": "B) Batch processing",
+    "explanation": "Batch processing involves collecting transactions over a period of time and processing them together as a single group, rather than instantly."
+  },
+  {
+    "id": "c6q164",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "A purchasing manager chooses a supplier whose prices are 10% higher than competitors because the supplier is owned by the manager's cousin. Which ethical issue does this represent?",
+    "options": [
+      "A) Insider trading",
+      "B) Conflict of interest",
+      "C) Whistleblowing",
+      "D) Corporate social responsibility"
+    ],
+    "correctAnswer": "B) Conflict of interest",
+    "explanation": "A conflict of interest occurs when an employee's personal or family interests interfere with their duty to make objective decisions for the employer."
+  },
+  {
+    "id": "c6q165",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "An accountant discovers a major fraud committed by the CEO but decides not to report it to the auditors to protect their own job. Which ethical principle is primarily being compromised?",
+    "options": [
+      "A) Integrity",
+      "B) Professional competence",
+      "C) Marketing fairness",
+      "D) Environmental responsibility"
+    ],
+    "correctAnswer": "A) Integrity",
+    "explanation": "Integrity requires professionals to be straightforward, honest, and courageous enough to stand up against fraud or misrepresentation."
+  },
+  {
+    "id": "c6q166",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "During a dinner party, an auditor mentions to friends that a specific client is secretly planning to declare bankruptcy next week. Which ethical rule did the auditor violate?",
+    "options": [
+      "A) Professional competence",
+      "B) Conflict of interest",
+      "C) Confidentiality",
+      "D) Objectivity"
+    ],
+    "correctAnswer": "C) Confidentiality",
+    "explanation": "Confidentiality mandates that professionals must not disclose sensitive client or employer information to outside parties without proper authorization."
+  },
+  {
+    "id": "c6q167",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "The concept of 'Tone at the top' in business ethics implies that:",
+    "options": [
+      "A) The highest paid employees should be exempt from ethical rules",
+      "B) Ethical culture must be driven and demonstrated by senior management",
+      "C) Ethics only apply to boardroom meetings",
+      "D) Junior staff are responsible for enforcing rules on senior staff"
+    ],
+    "correctAnswer": "B) Ethical culture must be driven and demonstrated by senior management",
+    "explanation": "For an ethical code to be effective, top management must lead by example and demonstrate strong ethical behavior, known as 'tone at the top'."
+  },
+  {
+    "id": "c6q168",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "An employee overhears confidential board discussions about an unannounced merger and quickly buys shares in the target company to make a profit. What is this illegal practice called?",
+    "options": [
+      "A) Whistleblowing",
+      "B) Strategic investing",
+      "C) Insider trading",
+      "D) Corporate Social Responsibility"
+    ],
+    "correctAnswer": "C) Insider trading",
+    "explanation": "Insider trading is the illegal practice of trading on the stock exchange to one's own advantage through having access to confidential, non-public information."
+  },
+  {
+    "id": "c6q169",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "A manufacturing firm decides to invest 5% of its profits into building a local community school and planting trees in deforested areas. This initiative falls under the umbrella of:",
+    "options": [
+      "A) Corporate Social Responsibility (CSR)",
+      "B) Tax evasion strategies",
+      "C) Mandatory government lobbying",
+      "D) Conflict of interest"
+    ],
+    "correctAnswer": "A) Corporate Social Responsibility (CSR)",
+    "explanation": "CSR involves businesses self-regulating and taking initiatives to contribute positively to societal goals, philanthropy, and the environment."
+  },
+  {
+    "id": "c6q170",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "An employee notices that the factory is secretly dumping toxic waste into a local river and decides to report this to an environmental agency after management ignores his warnings. This action is known as:",
+    "options": [
+      "A) Insider trading",
+      "B) Whistleblowing",
+      "C) Corporate espionage",
+      "D) Breach of contract"
+    ],
+    "correctAnswer": "B) Whistleblowing",
+    "explanation": "Whistleblowing occurs when an employee exposes secretive, unethical, or illegal activities occurring within an organization to authorities or the public."
+  },
+  {
+    "id": "c6q171",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "To ensure employees understand what behaviors are expected and unacceptable, a company should formally distribute a document known as a:",
+    "options": [
+      "A) Sales ledger",
+      "B) Code of Ethics/Conduct",
+      "C) Financial audit report",
+      "D) Marketing mix strategy"
+    ],
+    "correctAnswer": "B) Code of Ethics/Conduct",
+    "explanation": "A written Code of Ethics provides clear guidelines to employees regarding the ethical standards and behaviors expected by the organization."
+  },
+  {
+    "id": "c6q172",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "A financial analyst is evaluating a company but owns a significant amount of stock in its direct competitor. According to ethical standards, the analyst's judgment might lack:",
+    "options": [
+      "A) Confidentiality",
+      "B) Objectivity",
+      "C) Professional competence",
+      "D) Mathematical accuracy"
+    ],
+    "correctAnswer": "B) Objectivity",
+    "explanation": "Objectivity means not allowing bias, conflict of interest, or undue influence of others to override professional or business judgments."
+  },
+  {
+    "id": "c6q173",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "Which of the following is a potential consequence for a business that is exposed in the media for highly unethical practices?",
+    "options": [
+      "A) Guaranteed increase in stock price",
+      "B) Severe reputational damage and loss of consumer trust",
+      "C) Exemption from future tax liabilities",
+      "D) Automatic promotion of its executives"
+    ],
+    "correctAnswer": "B) Severe reputational damage and loss of consumer trust",
+    "explanation": "Unethical behavior destroys public trust, damaging the firm's reputation, leading to lost sales, potential fines, and decreased shareholder value."
+  },
+  {
+    "id": "c6q174",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "ICAP’s code of ethics mandates that members maintain professional knowledge to ensure clients receive competent service. This principle is called:",
+    "options": [
+      "A) Professional competence and due care",
+      "B) Objectivity",
+      "C) Confidentiality",
+      "D) Corporate social responsibility"
+    ],
+    "correctAnswer": "A) Professional competence and due care",
+    "explanation": "Professional competence and due care require professionals to maintain their skills and knowledge at the level required to provide capable service."
+  },
+  {
+    "id": "c6q175",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "Which of the following practices generally undermines fair competition and is considered unethical?",
+    "options": [
+      "A) Creating innovative new products",
+      "B) Secretly colluding with competitors to keep market prices artificially high",
+      "C) Offering seasonal discounts to customers",
+      "D) Advertising product features honestly"
+    ],
+    "correctAnswer": "B) Secretly colluding with competitors to keep market prices artificially high",
+    "explanation": "Price-fixing and collusion with rivals harm consumers and undermine the principles of a fair, competitive free market."
+  },
+  {
+    "id": "c7q176",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "The primary focus of the modern marketing concept is to achieve organizational goals by:",
+    "options": [
+      "A) Maximizing factory production speed regardless of demand",
+      "B) Forcing customers to buy whatever is already in inventory",
+      "C) Identifying and satisfying consumer needs and wants",
+      "D) Keeping advertising budgets to absolutely zero"
+    ],
+    "correctAnswer": "C) Identifying and satisfying consumer needs and wants",
+    "explanation": "The modern marketing concept states that a firm should base all its activities on understanding and fulfilling the needs and wants of its target consumers."
+  },
+  {
+    "id": "c7q177",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "A beverage company is finalizing its recipe, setting the retail price, choosing supermarkets for distribution, and launching a TV ad. These four elements collectively make up the:",
+    "options": [
+      "A) Product Life Cycle",
+      "B) Marketing Mix (4 Ps)",
+      "C) Supply Chain",
+      "D) Value Chain"
+    ],
+    "correctAnswer": "B) Marketing Mix (4 Ps)",
+    "explanation": "The Marketing Mix consists of the 4 Ps: Product, Price, Place, and Promotion, which are the controllable tools a company uses to influence demand."
+  },
+  {
+    "id": "c7q178",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "A high-end sports car manufacturer focuses its advertising exclusively on high-income individuals aged 35-55. This specific demographic group is known as the firm's:",
+    "options": [
+      "A) Competitor base",
+      "B) Target market",
+      "C) Connected stakeholders",
+      "D) Distribution channel"
+    ],
+    "correctAnswer": "B) Target market",
+    "explanation": "A target market is the specific, well-defined group of consumers at which a company directs its marketing efforts and product offerings."
+  },
+  {
+    "id": "c7q179",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "A fast-food chain creates a memorable jingle, a distinct red-and-yellow color scheme, and a recognizable logo to differentiate itself from rivals. This activity is called:",
+    "options": [
+      "A) Pricing",
+      "B) Logistics",
+      "C) Branding",
+      "D) Factoring"
+    ],
+    "correctAnswer": "C) Branding",
+    "explanation": "Branding is the process of creating unique names, designs, and symbols that identify a product and distinguish it from competitors."
+  },
+  {
+    "id": "c7q180",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "When a completely new tech gadget is first launched, sales are slow, and advertising costs are very high as the company educates the market. Which stage of the Product Life Cycle is this?",
+    "options": [
+      "A) Introduction",
+      "B) Growth",
+      "C) Maturity",
+      "D) Decline"
+    ],
+    "correctAnswer": "A) Introduction",
+    "explanation": "During the introduction stage of the product life cycle, a new product is brought to market with high promotional costs and slow initial sales."
+  },
+  {
+    "id": "c7q181",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "Which element of the marketing mix involves managing warehouses, transportation, and selecting retail locations so the product reaches the consumer?",
+    "options": [
+      "A) Price",
+      "B) Product",
+      "C) Promotion",
+      "D) Place"
+    ],
+    "correctAnswer": "D) Place",
+    "explanation": "The 'Place' (or distribution) element of the marketing mix concerns the logistics and channels used to physically get the product to the consumer."
+  },
+  {
+    "id": "c7q182",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "A cosmetics firm runs a 'Buy One Get One Free' offer to clear out old inventory before a new line launches. This specific tactic falls under which component of the marketing mix?",
+    "options": [
+      "A) Place",
+      "B) Promotion",
+      "C) Public Relations",
+      "D) Product Design"
+    ],
+    "correctAnswer": "B) Promotion",
+    "explanation": "Sales promotions, such as discounts and BOGO offers, fall under the 'Promotion' element of the marketing mix, designed to stimulate immediate sales."
+  },
+  {
+    "id": "c7q183",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "Which of the following best describes the difference between marketing and selling?",
+    "options": [
+      "A) Selling is a long-term strategy, while marketing is a one-time event.",
+      "B) Selling focuses on satisfying consumer needs, while marketing focuses on inventory disposal.",
+      "C) Marketing is a broad process matching offerings to needs, while selling is a tactical effort to close a deal.",
+      "D) There is no difference; the terms are identical in business."
+    ],
+    "correctAnswer": "C) Marketing is a broad process matching offerings to needs, while selling is a tactical effort to close a deal.",
+    "explanation": "Marketing is a comprehensive, strategic approach to fulfilling customer needs, whereas selling is a short-term, tactical process of exchanging goods for money."
+  },
+  {
+    "id": "c7q184",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "A firm conducts surveys and holds focus groups to discover what features customers want in a new smartphone. This activity is known as:",
+    "options": [
+      "A) Market research",
+      "B) Direct selling",
+      "C) Public relations",
+      "D) Brand dilution"
+    ],
+    "correctAnswer": "A) Market research",
+    "explanation": "Market research involves systematically gathering and analyzing data about consumers' preferences, behaviors, and the overall market environment."
+  },
+  {
+    "id": "c7q185",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "A government agency runs a media campaign urging citizens not to text and drive. In marketing terms, what is the 'product' being marketed here?",
+    "options": [
+      "A) A tangible good",
+      "B) A financial service",
+      "C) An idea or concept",
+      "D) A corporate bond"
+    ],
+    "correctAnswer": "C) An idea or concept",
+    "explanation": "Marketing is not just for physical goods or services; social campaigns successfully market 'ideas' to influence public behavior."
+  },
+  {
+    "id": "c7q186",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "Which pricing strategy involves setting an initially high price to maximize profits before competitors enter the market, and then gradually lowering it?",
+    "options": [
+      "A) Penetration pricing",
+      "B) Price skimming",
+      "C) Cost-plus pricing",
+      "D) Economy pricing"
+    ],
+    "correctAnswer": "B) Price skimming",
+    "explanation": "Price skimming is charging a high initial price to early adopters to maximize short-term profit before competition forces the price down."
+  },
+  {
+    "id": "c7q187",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "As a product reaches the 'Maturity' stage of its life cycle, which of the following market conditions is most likely?",
+    "options": [
+      "A) Zero competition",
+      "B) Extremely high growth rates",
+      "C) Intense competition and saturated sales",
+      "D) Complete withdrawal from the market"
+    ],
+    "correctAnswer": "C) Intense competition and saturated sales",
+    "explanation": "In the maturity stage, sales growth slows down as the market becomes saturated and competition reaches its peak."
+  },
+  {
+    "id": "c8q188",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "Why is Human Resource Management (HRM) considered critical to an organization's strategic success?",
+    "options": [
+      "A) Because employees are purely a financial liability",
+      "B) Because physical machines are useless without power",
+      "C) Because an organization's success heavily depends on the unique skills, motivation, and capabilities of its workforce",
+      "D) Because HR departments are required to pay all corporate taxes"
+    ],
+    "correctAnswer": "C) Because an organization's success heavily depends on the unique skills, motivation, and capabilities of its workforce",
+    "explanation": "Human resources (labor) are a vital factor of production. The skills, experience, and synergy of people provide a key competitive advantage."
+  },
+  {
+    "id": "c8q189",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "An HR manager is forecasting the number of engineers the company will need over the next 3 to 5 years. What is this process called?",
+    "options": [
+      "A) Job analysis",
+      "B) Human Resource Planning",
+      "C) Performance appraisal",
+      "D) Downsizing"
+    ],
+    "correctAnswer": "B) Human Resource Planning",
+    "explanation": "HR planning involves forecasting an organization's future demand for employees and ensuring the right numbers and skills will be available."
+  },
+  {
+    "id": "c8q190",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "An HR specialist observes an assembly line worker for several days to document the specific tasks performed and the physical environment. What HR activity is taking place?",
+    "options": [
+      "A) Job analysis",
+      "B) Recruitment",
+      "C) Employee retention",
+      "D) Orientation"
+    ],
+    "correctAnswer": "A) Job analysis",
+    "explanation": "Job analysis is the systematic study and observation of a job to determine its tasks, environment, and the skills required to perform it."
+  },
+  {
+    "id": "c8q191",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "After conducting a job analysis, HR creates a document stating: 'Must have a Bachelor's degree in IT and 2 years of coding experience.' What is this document called?",
+    "options": [
+      "A) Job description",
+      "B) Job specification (Person specification)",
+      "C) Offer letter",
+      "D) Performance appraisal"
+    ],
+    "correctAnswer": "B) Job specification (Person specification)",
+    "explanation": "A job specification details the personal qualifications, education, skills, and experience an individual needs to perform the job."
+  },
+  {
+    "id": "c8q192",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "A tech firm places an advertisement on a job portal to invite applications for a vacant developer role. This process of attracting applicants is known as:",
+    "options": [
+      "A) Selection",
+      "B) Recruitment",
+      "C) Mentoring",
+      "D) Retention"
+    ],
+    "correctAnswer": "B) Recruitment",
+    "explanation": "Recruitment is the active process of seeking out, attracting, and inviting qualified candidates to apply for open positions."
+  },
+  {
+    "id": "c8q193",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "Out of 100 applicants, the HR department conducts interviews and background checks to choose the single best candidate to hire. What is this filtering process called?",
+    "options": [
+      "A) Selection",
+      "B) Recruitment",
+      "C) Job Analysis",
+      "D) Rotation"
+    ],
+    "correctAnswer": "A) Selection",
+    "explanation": "Selection is the process of screening applicants and using tests or interviews to choose the most suitable candidate for the job."
+  },
+  {
+    "id": "c8q194",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "A company sends a junior accountant to a seminar to learn a specific new tax software needed for her current daily tasks. Is this an example of training or development?",
+    "options": [
+      "A) Development, because it focuses on future leadership",
+      "B) Training, because it teaches specific skills for a current job",
+      "C) Recruitment, because she is learning a new skill",
+      "D) Neither, it is a disciplinary action"
+    ],
+    "correctAnswer": "B) Training, because it teaches specific skills for a current job",
+    "explanation": "Training focuses on providing specific skills needed to perform current job tasks, whereas development prepares employees for future, broader roles."
+  },
+  {
+    "id": "c8q195",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "Why do companies invest heavily in 'Employee Retention' strategies?",
+    "options": [
+      "A) To ensure turnover remains as high as possible",
+      "B) Because failing to keep trained employees wastes the massive costs spent on hiring and training them",
+      "C) To force employees to work unpaid overtime",
+      "D) To comply with international marketing standards"
+    ],
+    "correctAnswer": "B) Because failing to keep trained employees wastes the massive costs spent on hiring and training them",
+    "explanation": "High employee turnover is costly. Retention strategies aim to keep trained, valuable employees to preserve the company's investment in them."
+  },
+  {
+    "id": "c8q196",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "Which component of an employee's compensation package is typically the largest, paid regularly, and reflects their basic skill level and experience?",
+    "options": [
+      "A) Annual Bonus",
+      "B) Retirement Provident Fund",
+      "C) Base Salary/Wage",
+      "D) Stock Options"
+    ],
+    "correctAnswer": "C) Base Salary/Wage",
+    "explanation": "Salary or wage forms the core component of compensation, providing a steady income based on the employee's role and experience."
+  },
+  {
+    "id": "c8q197",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "At the end of a highly profitable year, an organization gives its employees an extra financial reward on top of their regular salary. This is known as a:",
+    "options": [
+      "A) Base wage",
+      "B) Bonus",
+      "C) Benefit in kind",
+      "D) Redundancy pay"
+    ],
+    "correctAnswer": "B) Bonus",
+    "explanation": "A bonus is an additional, often performance-linked, financial reward paid to employees beyond their standard salary."
+  },
+  {
+    "id": "c8q198",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "A firm allows its employees to work from home two days a week and offers flexible starting hours to help them manage family duties. What is the firm promoting?",
+    "options": [
+      "A) Job enlargement",
+      "B) A healthy work-life balance",
+      "C) Autocratic leadership",
+      "D) Job analysis"
+    ],
+    "correctAnswer": "B) A healthy work-life balance",
+    "explanation": "Flexible arrangements help employees balance their professional duties with personal life, reducing stress and improving retention."
+  },
+  {
+    "id": "c8q199",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "The HR metric that measures the rate at which employees leave the organization and need to be replaced is called:",
+    "options": [
+      "A) Sales turnover",
+      "B) Profit margin",
+      "C) Employee turnover",
+      "D) Span of control"
+    ],
+    "correctAnswer": "C) Employee turnover",
+    "explanation": "Employee turnover specifically refers to the rate at which staff leave a job and are replaced by new hires."
+  },
+  {
+    "id": "c8q200",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "A senior manager is paired with a newly hired graduate to offer long-term career advice, share social skills, and guide their professional growth. The senior manager is acting as a:",
+    "options": [
+      "A) Mentor",
+      "B) Recruiter",
+      "C) Competitor",
+      "D) Subordinate"
+    ],
+    "correctAnswer": "A) Mentor",
+    "explanation": "Mentoring involves a senior, experienced individual providing long-term guidance, support, and career advice to a junior employee."
+  }
+]

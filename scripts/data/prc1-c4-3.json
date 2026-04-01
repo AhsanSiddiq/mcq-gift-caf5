@@ -1,0 +1,352 @@
+[
+  {
+    "id": "c4q51",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "Financial statements are prepared on which fundamental basis of accounting to ensure that income and expenses are recognized in the correct period?",
+    "options": [
+      "A) Cash basis",
+      "B) Accrual basis",
+      "C) Prepayment basis",
+      "D) Realization basis"
+    ],
+    "correctAnswer": "B) Accrual basis",
+    "explanation": "The accrual basis of accounting is fundamental to the preparation of financial statements. It ensures that transactions are recorded when they occur, rather than when the cash is actually paid or received."
+  },
+  {
+    "id": "c4q52",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "Mr. Aslam paid Rs. 50,000 in advance to Mr. Atif for cleaning services that will be provided next year. How is this advance payment classified in the books of Mr. Atif?",
+    "options": [
+      "A) Accrued income",
+      "B) Prepaid expense",
+      "C) Unearned income",
+      "D) Accrued expense"
+    ],
+    "correctAnswer": "C) Unearned income",
+    "explanation": "From the perspective of the recipient (Mr. Atif), receiving money for services not yet performed creates a liability to provide those services in the future, which is classified as unearned income."
+  },
+  {
+    "id": "c4q53",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "In financial accounting, the term 'Accrued Expense' fundamentally means:",
+    "options": [
+      "A) An expense paid in advance.",
+      "B) An expense related to a future period.",
+      "C) An expense that has been incurred but remains unpaid at year-end.",
+      "D) An expense that will not be recognized until next year."
+    ],
+    "correctAnswer": "C) An expense that has been incurred but remains unpaid at year-end.",
+    "explanation": "Accrued expenses represent costs that a business has incurred during the current accounting period but has not yet paid for by the end of that period."
+  },
+  {
+    "id": "c4q54",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "If a business receives a one-year maintenance contract fee in advance, how is this 'unearned revenue' treated in the financial statements?",
+    "options": [
+      "A) As an asset in the statement of financial position.",
+      "B) As an income in the statement of profit or loss.",
+      "C) As a liability in the statement of financial position.",
+      "D) As an expense in the statement of profit or loss."
+    ],
+    "correctAnswer": "C) As a liability in the statement of financial position.",
+    "explanation": "Unearned revenue is treated as a liability in the statement of financial position because it represents an obligation owed to the customer to provide goods or services in the future."
+  },
+  {
+    "id": "c4q55",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "What is the specific treatment of 'Pre-received income' (income received in advance) in the Statement of Financial Position?",
+    "options": [
+      "A) Treated as a non-current asset",
+      "B) Treated as a current asset",
+      "C) Treated as a non-current liability",
+      "D) Treated as a current liability"
+    ],
+    "correctAnswer": "D) Treated as a current liability",
+    "explanation": "Income received in advance constitutes a short-term obligation to provide a service or product, thus it is recognized as a current liability."
+  },
+  {
+    "id": "c4q56",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "While finalizing the accounts, an accountant completely overlooked to record an accrued expense of Rs. 37,800 and an accrued income of Rs. 16,300. What is the net impact of these omissions on the reported profit?",
+    "options": [
+      "A) Profit is understated by Rs. 21,500",
+      "B) Profit is overstated by Rs. 21,500",
+      "C) Profit is overstated by Rs. 54,100",
+      "D) Profit is understated by Rs. 54,100"
+    ],
+    "correctAnswer": "B) Profit is overstated by Rs. 21,500",
+    "explanation": "Omitting the accrued expense overstates profit by Rs. 37,800. Omitting the accrued income understates profit by Rs. 16,300. The net effect is an overstatement of Rs. 21,500 (37,800 - 16,300)."
+  },
+  {
+    "id": "c4q57",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "A one-year maintenance contract fee was received by 'Delta Tech' on 1 August in advance. The company closes its books on 31 December each year. Which of the following terms is NOT related to the portion of the fee covering January to July of the next year?",
+    "options": [
+      "A) Unearned income",
+      "B) Pre-received income",
+      "C) Accrued income",
+      "D) Liability"
+    ],
+    "correctAnswer": "C) Accrued income",
+    "explanation": "The portion covering next year is money received but not yet earned, so it is unearned income, pre-received income, or a liability. It is NOT accrued income, which means earned but not yet received."
+  },
+  {
+    "id": "c4q58",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "If a business finalizes its draft accounts and entirely ignores adjusting a valid prepayment for rent of Rs. 5,000, what is the impact on the financial statements?",
+    "options": [
+      "A) Profit is overstated and assets are overstated.",
+      "B) Profit is understated and assets are understated.",
+      "C) Profit is overstated and liabilities are understated.",
+      "D) Profit is understated and liabilities are overstated."
+    ],
+    "correctAnswer": "B) Profit is understated and assets are understated.",
+    "explanation": "Failing to recognize a prepayment means the entire amount remains in the expense account (making expenses too high and profit understated) and the asset is omitted from the balance sheet (understating assets)."
+  },
+  {
+    "id": "c4q59",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "Why is it necessary for an accountant to formally account for accrued expenses at the end of the financial year?",
+    "options": [
+      "A) So that current liabilities are not overstated.",
+      "B) So that profit is not understated.",
+      "C) So that profit is not overstated.",
+      "D) So that current assets are not understated."
+    ],
+    "correctAnswer": "C) So that profit is not overstated.",
+    "explanation": "Accrued expenses represent costs incurred during the year. If they are not recorded, total expenses will be artificially low, which in turn will cause the reported profit to be overstated."
+  },
+  {
+    "id": "c4q60",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "Similarly, why is it necessary for a business to formally account for accrued income?",
+    "options": [
+      "A) So that profit is not understated.",
+      "B) So that profit is not overstated.",
+      "C) So that current liabilities are not understated.",
+      "D) So that current liabilities are not overstated."
+    ],
+    "correctAnswer": "A) So that profit is not understated.",
+    "explanation": "Accrued income is revenue earned but not yet received. Failing to record it means revenue will be artificially low, which would cause the net profit to be understated."
+  },
+  {
+    "id": "c4q61",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "A tenant pays an annual rent of Rs. 6,000. Payment is made quarterly in advance on 1 January, 1 April, 1 July, and 1 October. Which of the following should be included in his accounts for the year ended 31 October?",
+    "options": [
+      "A) Rs. 500 Accrual",
+      "B) Rs. 500 Prepayment",
+      "C) Rs. 1,000 Accrual",
+      "D) Rs. 1,000 Prepayment"
+    ],
+    "correctAnswer": "D) Rs. 1,000 Prepayment",
+    "explanation": "Quarterly rent is Rs. 1,500. The payment on 1 October covers October, November, and December. At the 31 October year-end, 2 months (November and December) are unused. 6000/12 = 500/month. 500 * 2 = Rs. 1,000 prepayment."
+  },
+  {
+    "id": "c4q62",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "What is the correct double-entry required to recognize an accrued expense at the end of the financial year?",
+    "options": [
+      "A) Debit Expense Account, Credit Accrued Expenses",
+      "B) Debit Accrued Expenses, Credit Expense Account",
+      "C) Debit Prepaid Expenses, Credit Expense Account",
+      "D) Debit Expense Account, Credit Bank"
+    ],
+    "correctAnswer": "A) Debit Expense Account, Credit Accrued Expenses",
+    "explanation": "To accrue an expense, you must increase the expense for the year (Debit Expense Account) and record the corresponding obligation to pay it in the future (Credit Accrued Expenses liability)."
+  },
+  {
+    "id": "c4q63",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "If a business initially records all payments for insurance as an expense, what is the required adjusting entry to recognize the unexpired portion at year-end?",
+    "options": [
+      "A) Debit Expense Account, Credit Prepaid Expenses",
+      "B) Debit Accrued Expenses, Credit Expense Account",
+      "C) Debit Prepaid Expenses, Credit Expense Account",
+      "D) Debit Prepaid Expenses, Credit Bank"
+    ],
+    "correctAnswer": "C) Debit Prepaid Expenses, Credit Expense Account",
+    "explanation": "The adjusting entry moves the unexpired portion out of the expense account (Credit Expense Account to reduce it) and into an asset account (Debit Prepaid Expenses)."
+  },
+  {
+    "id": "c4q64",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "Which of the following statements comparing 'prepaid expense' and 'unexpired expense' is correct?",
+    "options": [
+      "A) They are entirely different accounting concepts.",
+      "B) Prepaid expenses are assets, while unexpired expenses are liabilities.",
+      "C) Prepaid expense and unexpired expense mean exactly the same thing.",
+      "D) Unexpired expenses are only used for physical inventory."
+    ],
+    "correctAnswer": "C) Prepaid expense and unexpired expense mean exactly the same thing.",
+    "explanation": "In accounting terminology, a prepaid expense is an expense that has been paid for but not yet consumed. This is synonymous with an 'unexpired' expense."
+  },
+  {
+    "id": "c4q65",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "Which of the following sets of accounting terms represent the same conceptual financial element?",
+    "options": [
+      "A) Unearned income and Accrued income",
+      "B) Accrued expense and Outstanding expense",
+      "C) Prepaid expense and Arrears",
+      "D) Accrued revenue and Unearned revenue"
+    ],
+    "correctAnswer": "B) Accrued expense and Outstanding expense",
+    "explanation": "An accrued expense is an expense that has been incurred but not yet paid. It is frequently referred to as an outstanding expense."
+  },
+  {
+    "id": "c4q66",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "A company has taken a bank loan of Rs. 1,200,000 at 8% per annum. Interest is payable quarterly. Due to financial problems, two installments were missed on September 30 and December 31. What is the interest liability in the Statement of Financial Position on December 31?",
+    "options": [
+      "A) Rs. 96,000",
+      "B) Rs. 24,000",
+      "C) Rs. 48,000",
+      "D) Rs. 64,000"
+    ],
+    "correctAnswer": "C) Rs. 48,000",
+    "explanation": "Annual interest is 1,200,000 x 8% = Rs. 96,000. The two missed quarters equal 6 months. Rs. 96,000 x (6/12) = Rs. 48,000 accrued liability."
+  },
+  {
+    "id": "c4q67",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "A company pays its salespeople a commission of 1% on sales, payable in the month immediately following the sale. Sales from January to November were Rs. 3,780,000, and December sales were Rs. 360,000. What is the accrued commission liability at the end of December?",
+    "options": [
+      "A) Rs. 3,600",
+      "B) Rs. 37,800",
+      "C) Rs. 41,400",
+      "D) Rs. 0"
+    ],
+    "correctAnswer": "A) Rs. 3,600",
+    "explanation": "Only the December commission remains unpaid at the end of December because previous months' commissions were paid in the following months. Rs. 360,000 x 1% = Rs. 3,600."
+  },
+  {
+    "id": "c4q68",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "A loan of Rs. 45,000 at 10% interest per year was given to a staff member. No interest has been received during the year. What are the accounting entries to accrue this interest income?",
+    "options": [
+      "A) Debit Accrued Interest Income, Credit Interest Income",
+      "B) Debit Interest Income, Credit Accrued Interest Income",
+      "C) Debit Cash, Credit Accrued Interest Income",
+      "D) Debit Interest Income, Credit Cash"
+    ],
+    "correctAnswer": "A) Debit Accrued Interest Income, Credit Interest Income",
+    "explanation": "To record earned but uncollected income, you must increase the asset (Debit Accrued Interest Income / Receivable) and increase the revenue (Credit Interest Income)."
+  },
+  {
+    "id": "c4q69",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "In the year to 31 December 2018, Saira received Rs. 50,800 rental income in cash. Rent received in advance was Rs. 3,000 (2017) and Rs. 4,000 (2018). Rent in arrears was Rs. 1,700 (2017) and Rs. 2,500 (2018). What is the rental income to be reported?",
+    "options": [
+      "A) Rs. 49,000",
+      "B) Rs. 50,600",
+      "C) Rs. 52,600",
+      "D) Rs. 50,800"
+    ],
+    "correctAnswer": "B) Rs. 50,600",
+    "explanation": "Income = Cash Received (50,800) + Opening Advance (3,000) - Closing Advance (4,000) - Opening Arrears (1,700) + Closing Arrears (2,500) = Rs. 50,600."
+  },
+  {
+    "id": "c4q70",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "An entity pays rent of Rs. 600,000 for six months in advance on 1 October. The financial year ends on 31 December. What is the value of prepaid rent?",
+    "options": [
+      "A) Rs. 600,000",
+      "B) Rs. 100,000",
+      "C) Rs. 300,000",
+      "D) Rs. 200,000"
+    ],
+    "correctAnswer": "C) Rs. 300,000",
+    "explanation": "The payment covers October to March (6 months). At 31 December, 3 months (January to March) are unexpired. Rs. 600,000 x (3/6) = Rs. 300,000."
+  },
+  {
+    "id": "c4q71",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "A business has a beginning utilities accrual of Rs. 50,000 and an ending accrual of Rs. 60,000. During the year, it pays Rs. 80,000 in cash for utilities. What is the total utilities expense for the year?",
+    "options": [
+      "A) Rs. 90,000",
+      "B) Rs. 70,000",
+      "C) Rs. 80,000",
+      "D) Rs. 190,000"
+    ],
+    "correctAnswer": "A) Rs. 90,000",
+    "explanation": "Expense = Cash paid (80,000) - Opening Accrual (50,000, representing last year's expense) + Closing Accrual (60,000, representing this year's unpaid expense) = Rs. 90,000."
+  },
+  {
+    "id": "c4q72",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "A company pays rent quarterly in arrears on 1 Jan, 1 Apr, 1 Jul, and 1 Oct. The rent increased from Rs. 90,000/year to Rs. 120,000/year starting 1 October 2012. What is the rent accrual at 31 December 2012?",
+    "options": [
+      "A) Rs. 22,500",
+      "B) Rs. 45,000",
+      "C) Rs. 30,000",
+      "D) Rs. 120,000"
+    ],
+    "correctAnswer": "C) Rs. 30,000",
+    "explanation": "Because rent is paid in arrears, the 1 January payment covers the preceding Oct-Dec quarter. At 31 Dec, that quarter is unpaid. The new rate is 120,000/year. 120,000 x (3/12) = Rs. 30,000."
+  },
+  {
+    "id": "c4q73",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "Before finalizing the Statement of Financial Position, adjusting entries are required for: Rent received in advance Rs. 80,000; Unused office supplies Rs. 25,000; Accrued salary Rs. 22,500; Prepaid insurance Rs. 4,800. What is the total addition to Current Liabilities?",
+    "options": [
+      "A) Rs. 102,500",
+      "B) Rs. 29,800",
+      "C) Rs. 80,000",
+      "D) Rs. 22,500"
+    ],
+    "correctAnswer": "A) Rs. 102,500",
+    "explanation": "Current liabilities consist of the rent received in advance (unearned income) of Rs. 80,000 and the accrued salary of Rs. 22,500. Total = Rs. 102,500."
+  },
+  {
+    "id": "c4q74",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "Following the previous scenario (Rent received in advance Rs. 80,000; Unused office supplies Rs. 25,000; Accrued salary Rs. 22,500; Prepaid insurance Rs. 4,800), what is the total addition to Current Assets?",
+    "options": [
+      "A) Rs. 102,500",
+      "B) Rs. 29,800",
+      "C) Rs. 25,000",
+      "D) Rs. 109,800"
+    ],
+    "correctAnswer": "B) Rs. 29,800",
+    "explanation": "Current assets consist of unused office supplies (Rs. 25,000) and prepaid insurance (Rs. 4,800). Total = Rs. 29,800."
+  },
+  {
+    "id": "c4q75",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "In accounting terminology, when a landlord refers to rent being 'in arrears', this is synonymous with:",
+    "options": [
+      "A) Prepaid rent",
+      "B) Unearned rent",
+      "C) Rent received in advance",
+      "D) Accrued rent"
+    ],
+    "correctAnswer": "D) Accrued rent",
+    "explanation": "Rent in arrears means the rent is owed by the tenant for a past period. For the landlord, it is an accrued rental income (a receivable)."
+  }
+]

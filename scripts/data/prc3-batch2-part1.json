@@ -1,0 +1,702 @@
+[
+  {
+    "id": "c1q101",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "A newly established airline company provides domestic flight services. According to business classifications, what type of offering is the airline providing to its customers?",
+    "options": [
+      "A) Tangible goods",
+      "B) Intangible services",
+      "C) Non-profit commodities",
+      "D) Hybrid manufacturing"
+    ],
+    "correctAnswer": "B) Intangible services",
+    "explanation": "Airlines provide transportation, which cannot be held, touched, or stored. Therefore, it is classified as an intangible service."
+  },
+  {
+    "id": "c1q102",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "The board of directors at Horizon Pharmaceuticals states their core purpose is 'To improve global health by creating accessible medicines.' What does this statement represent?",
+    "options": [
+      "A) Vision statement",
+      "B) Tactical goal",
+      "C) Mission statement",
+      "D) Operational plan"
+    ],
+    "correctAnswer": "C) Mission statement",
+    "explanation": "A mission statement defines the fundamental purpose of an organization, clarifying why it exists and what it does on a daily basis."
+  },
+  {
+    "id": "c1q103",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "A regional manager at a retail chain aims to 'reduce customer wait times by 15% before the end of the third quarter.' What is this an example of?",
+    "options": [
+      "A) A broad goal",
+      "B) A specific objective",
+      "C) A vision statement",
+      "D) A mission statement"
+    ],
+    "correctAnswer": "B) A specific objective",
+    "explanation": "Objectives are specific, measurable, and time-bound targets (SMART) designed to help an organization achieve its broader goals."
+  },
+  {
+    "id": "c1q104",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "A commercial agricultural business utilizes vast tracts of soil, tractors, hired workers, and the owner's risk-taking ability. Which factor of production does the 'tractor' represent?",
+    "options": [
+      "A) Land",
+      "B) Labor",
+      "C) Capital",
+      "D) Entrepreneurship"
+    ],
+    "correctAnswer": "C) Capital",
+    "explanation": "In economics, capital refers to man-made resources used to generate further wealth, such as machinery, equipment, and tractors."
+  },
+  {
+    "id": "c1q105",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "Which of the following best describes the fundamental role of 'entrepreneurship' as a factor of production?",
+    "options": [
+      "A) Providing the physical exertion required for manufacturing",
+      "B) Organizing other factors of production and assuming business risk",
+      "C) Supplying the natural resources necessary for operations",
+      "D) Regulating the market through government policies"
+    ],
+    "correctAnswer": "B) Organizing other factors of production and assuming business risk",
+    "explanation": "An entrepreneur is an individual who organizes land, labor, and capital to create goods or services, taking on the financial risk of the venture."
+  },
+  {
+    "id": "c1q106",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "A local charity is formed to provide clean drinking water to remote villages. Since it does not distribute profits to owners, how should this entity be classified?",
+    "options": [
+      "A) Public Limited Company",
+      "B) Partnership",
+      "C) Not-for-profit organization",
+      "D) Sole proprietorship"
+    ],
+    "correctAnswer": "C) Not-for-profit organization",
+    "explanation": "Not-for-profit organizations exist to fulfill a social, educational, or charitable purpose rather than to generate and distribute profits to owners."
+  },
+  {
+    "id": "c1q107",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "Why is the government considered a crucial external stakeholder for a commercial manufacturing business?",
+    "options": [
+      "A) It directly manages the daily production schedules",
+      "B) It provides the initial equity investment for all startups",
+      "C) It relies on business taxes and regulates employment and environmental laws",
+      "D) It purchases the majority of shares in private companies"
+    ],
+    "correctAnswer": "C) It relies on business taxes and regulates employment and environmental laws",
+    "explanation": "The government is an external stakeholder because it regulates business activities (like health and safety) and relies on the taxes businesses generate."
+  },
+  {
+    "id": "c1q108",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "An investor owns 10,000 shares in Delta Corp and expects a steady dividend yield. In the context of business stakeholders, what category does this investor belong to?",
+    "options": [
+      "A) Internal stakeholder",
+      "B) Connected stakeholder",
+      "C) External stakeholder",
+      "D) Regulatory stakeholder"
+    ],
+    "correctAnswer": "B) Connected stakeholder",
+    "explanation": "Shareholders, along with customers and suppliers, are connected stakeholders because they have a direct financial relationship with the company."
+  },
+  {
+    "id": "c1q109",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "A nation's economy is characterized by private ownership of property, profit motives, and resource allocation driven by supply and demand. What economic system is this?",
+    "options": [
+      "A) Command economy",
+      "B) Socialist economy",
+      "C) Capitalist (Market) economy",
+      "D) Traditional economy"
+    ],
+    "correctAnswer": "C) Capitalist (Market) economy",
+    "explanation": "A capitalist or free-market economy is driven by private ownership, self-interest (profit motive), and market forces without central government planning."
+  },
+  {
+    "id": "c1q110",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "Which economic system features a blend where private enterprises operate alongside significant government intervention and state-owned strategic industries?",
+    "options": [
+      "A) Pure Capitalism",
+      "B) Mixed Economy",
+      "C) Absolute Command Economy",
+      "D) Laissez-faire Economy"
+    ],
+    "correctAnswer": "B) Mixed Economy",
+    "explanation": "A mixed economy combines elements of both capitalism and socialism, where private sector firms and government entities both play significant economic roles."
+  },
+  {
+    "id": "c1q111",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "What is the core problem that the study of economics attempts to solve?",
+    "options": [
+      "A) Eliminating all taxation",
+      "B) Allocating scarce resources to satisfy unlimited human wants",
+      "C) Ensuring every business makes a profit",
+      "D) Replacing human labor with machinery"
+    ],
+    "correctAnswer": "B) Allocating scarce resources to satisfy unlimited human wants",
+    "explanation": "The central economic problem is scarcity: human desires are virtually unlimited, but the resources (land, labor, capital) available to satisfy them are limited."
+  },
+  {
+    "id": "c1q112",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "National defense, public parks, and street lighting are examples of goods that are non-rival and non-excludable. What are these goods called?",
+    "options": [
+      "A) Private goods",
+      "B) Consumer goods",
+      "C) Public goods",
+      "D) Capital goods"
+    ],
+    "correctAnswer": "C) Public goods",
+    "explanation": "Public goods are provided by the state because they cannot be easily restricted to paying customers and one person's use does not diminish another's."
+  },
+  {
+    "id": "c2q113",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "Mr. Khan has decided to open a small bakery. He wants complete control over decision-making, minimal legal formalities, and is willing to accept all business risks personally. Which ownership structure is best for him?",
+    "options": [
+      "A) Private Limited Company",
+      "B) Sole Proprietorship",
+      "C) General Partnership",
+      "D) Cooperative Society"
+    ],
+    "correctAnswer": "B) Sole Proprietorship",
+    "explanation": "A sole proprietorship offers easy formation, total personal control, and entitlement to all profits, though it comes with unlimited personal liability."
+  },
+  {
+    "id": "c2q114",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "Which of the following is a significant disadvantage of operating a business as a general partnership?",
+    "options": [
+      "A) Double taxation of profits",
+      "B) Complex and costly legal registration requirements",
+      "C) Unlimited liability for all general partners",
+      "D) Inability to hire skilled employees"
+    ],
+    "correctAnswer": "C) Unlimited liability for all general partners",
+    "explanation": "In a general partnership, all partners typically have unlimited liability, meaning their personal assets can be seized to settle the firm's debts."
+  },
+  {
+    "id": "c2q115",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "A group of software developers forms a company where their personal liability is restricted only to the amount they invested in shares. What legal concept protects their personal assets?",
+    "options": [
+      "A) Mutual agency",
+      "B) Limited liability",
+      "C) Sole trading",
+      "D) Unlimited liability"
+    ],
+    "correctAnswer": "B) Limited liability",
+    "explanation": "Limited liability ensures that shareholders are only financially responsible for business debts up to the value of their shares, protecting their personal wealth."
+  },
+  {
+    "id": "c2q116",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "In a corporate structure, the entity is considered a separate 'legal person' distinct from its owners. What is a direct consequence of this separate legal identity?",
+    "options": [
+      "A) The company cannot own property in its own name",
+      "B) The company can sue and be sued in a court of law",
+      "C) The owners must personally pay all business taxes",
+      "D) The business automatically dissolves if an owner dies"
+    ],
+    "correctAnswer": "B) The company can sue and be sued in a court of law",
+    "explanation": "Because a company is a separate legal entity, it has its own legal rights and obligations, including the ability to enter contracts, sue, and be sued."
+  },
+  {
+    "id": "c2q117",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "A company is planning to raise capital by inviting the general public to subscribe to its shares for the first time. What type of company is allowed to do this?",
+    "options": [
+      "A) Sole proprietorship",
+      "B) General partnership",
+      "C) Private limited company",
+      "D) Public limited company"
+    ],
+    "correctAnswer": "D) Public limited company",
+    "explanation": "Only public limited companies are legally permitted to offer their shares to the general public through an Initial Public Offering (IPO)."
+  },
+  {
+    "id": "c2q118",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "Farmers in a rural area pool their resources together to buy expensive harvesting equipment that they all share. They operate the business democratically for mutual benefit rather than pure profit. What is this organization called?",
+    "options": [
+      "A) Franchise",
+      "B) Cooperative",
+      "C) Public Limited Company",
+      "D) Joint Venture"
+    ],
+    "correctAnswer": "B) Cooperative",
+    "explanation": "A cooperative is an association of individuals who voluntarily come together to achieve a common economic goal through a jointly controlled enterprise."
+  },
+  {
+    "id": "c2q119",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "Which of the following entities represents a public sector organization established by the government to provide essential services to citizens?",
+    "options": [
+      "A) A multinational fast-food chain",
+      "B) A family-owned textile mill",
+      "C) The Water and Power Development Authority (WAPDA)",
+      "D) A private accountancy firm"
+    ],
+    "correctAnswer": "C) The Water and Power Development Authority (WAPDA)",
+    "explanation": "Public sector organizations like WAPDA are owned and operated by the government to provide essential infrastructure and services to the public."
+  },
+  {
+    "id": "c2q120",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "What is the primary role of the Board of Directors in a public limited company?",
+    "options": [
+      "A) To run the daily assembly line operations",
+      "B) To act as the primary customers of the firm",
+      "C) To oversee the company's management and protect shareholders' interests",
+      "D) To conduct annual financial audits independently"
+    ],
+    "correctAnswer": "C) To oversee the company's management and protect shareholders' interests",
+    "explanation": "The Board of Directors is elected by the shareholders to govern the company, set strategic goals, and ensure the executive management acts in the owners' best interests."
+  },
+  {
+    "id": "c2q121",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "Which of the following is true regarding the dissolution of a sole proprietorship compared to a limited company?",
+    "options": [
+      "A) It requires a complex legal liquidation process",
+      "B) It is highly regulated by the Securities and Exchange Commission",
+      "C) It is easy and straightforward, usually requiring no formal legal process",
+      "D) It requires a majority vote from the board of directors"
+    ],
+    "correctAnswer": "C) It is easy and straightforward, usually requiring no formal legal process",
+    "explanation": "A sole proprietorship has no separate legal existence from its owner, making it very simple to dissolve without complex legal formalities."
+  },
+  {
+    "id": "c2q122",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "In a partnership, one specific partner provides capital but does not participate in the active management of the firm, and their liability is restricted. What is this partner called?",
+    "options": [
+      "A) General partner",
+      "B) Silent or Limited partner",
+      "C) Executive director",
+      "D) Sole trader"
+    ],
+    "correctAnswer": "B) Silent or Limited partner",
+    "explanation": "A limited (or silent) partner contributes capital and enjoys limited liability but is legally barred from participating in the daily management of the business."
+  },
+  {
+    "id": "c2q123",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "When a public limited company distributes a portion of its after-tax profits to its shareholders, what is this payment called?",
+    "options": [
+      "A) Interest",
+      "B) Retained earnings",
+      "C) Dividend",
+      "D) Capital gain"
+    ],
+    "correctAnswer": "C) Dividend",
+    "explanation": "A dividend is a reward paid to the shareholders out of the company's profits as a return on their equity investment."
+  },
+  {
+    "id": "c2q124",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "Which business structure is generally subject to the highest level of statutory regulation, disclosure requirements, and public scrutiny?",
+    "options": [
+      "A) Sole Proprietorship",
+      "B) General Partnership",
+      "C) Private Limited Company",
+      "D) Public Limited Company"
+    ],
+    "correctAnswer": "D) Public Limited Company",
+    "explanation": "Because public companies raise funds from the general public, they are heavily regulated by authorities to ensure transparency and protect investors."
+  },
+  {
+    "id": "c2q125",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "Which of the following is a primary characteristic of a Not-for-Profit Organization (NGO)?",
+    "options": [
+      "A) Its primary objective is maximizing shareholder wealth",
+      "B) It generates a surplus that must be reinvested into its social cause",
+      "C) It is legally forbidden from paying salaries to its employees",
+      "D) It can issue shares to the public on the stock exchange"
+    ],
+    "correctAnswer": "B) It generates a surplus that must be reinvested into its social cause",
+    "explanation": "NGOs do not distribute profits to owners; any financial surplus generated must be retained and used to further the organization's charitable or social goals."
+  },
+  {
+    "id": "c3q126",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "A manufacturing firm divides its workforce into specific departments: Finance, Production, Marketing, and Human Resources. Which type of organizational structure is this?",
+    "options": [
+      "A) Divisional structure",
+      "B) Functional structure",
+      "C) Matrix structure",
+      "D) Entrepreneurial structure"
+    ],
+    "correctAnswer": "B) Functional structure",
+    "explanation": "A functional structure groups employees together based on the specific business functions or specialized tasks they perform, like marketing or finance."
+  },
+  {
+    "id": "c3q127",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "What is a potential disadvantage of using a rigid functional organizational structure?",
+    "options": [
+      "A) It prevents occupational specialization",
+      "B) It can create 'silos' leading to poor communication and conflict between departments",
+      "C) It makes it very difficult to calculate individual salaries",
+      "D) It eliminates the need for top management"
+    ],
+    "correctAnswer": "B) It can create 'silos' leading to poor communication and conflict between departments",
+    "explanation": "A drawback of functional structures is that departments may focus too heavily on their own goals (silos), leading to interdepartmental conflict and poor cross-communication."
+  },
+  {
+    "id": "c3q128",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "A global beverage company structures itself into 'North America', 'Europe', and 'Asia-Pacific' units, each with its own complete set of functional teams. This is an example of division by:",
+    "options": [
+      "A) Customer type",
+      "B) Process",
+      "C) Product",
+      "D) Geography"
+    ],
+    "correctAnswer": "D) Geography",
+    "explanation": "Grouping operations by different countries or regions is characteristic of a geographic divisional structure."
+  },
+  {
+    "id": "c3q129",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "A company produces electronics and structures itself into three autonomous divisions: Mobile Phones, Laptops, and Home Appliances. Each division acts almost like an independent company. What is the name for these units?",
+    "options": [
+      "A) Functional silos",
+      "B) Strategic Business Units (SBUs)",
+      "C) Virtual teams",
+      "D) Bureaucratic branches"
+    ],
+    "correctAnswer": "B) Strategic Business Units (SBUs)",
+    "explanation": "An SBU is an autonomous division of a large company that operates as an independent profit center with its own specific products and market strategy."
+  },
+  {
+    "id": "c3q130",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "In a construction firm, an electrical engineer reports to the Chief Engineer for technical guidance but also reports to the Project Manager for daily site tasks. What organizational structure creates this dual reporting?",
+    "options": [
+      "A) Matrix structure",
+      "B) Simple structure",
+      "C) Centralized structure",
+      "D) Geographic structure"
+    ],
+    "correctAnswer": "A) Matrix structure",
+    "explanation": "A matrix structure intentionally creates a multiple command system where employees report to both a functional manager and a project or product manager."
+  },
+  {
+    "id": "c3q131",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "TechStart Inc. consists of just three founders who work from home. They hire external companies to handle manufacturing, marketing, and accounting, coordinating everything via cloud computing. What describes TechStart?",
+    "options": [
+      "A) Bureaucratic organization",
+      "B) Virtual organization",
+      "C) Tall organization",
+      "D) Functional hierarchy"
+    ],
+    "correctAnswer": "B) Virtual organization",
+    "explanation": "A virtual organization relies heavily on IT networks and external independent companies (outsourcing) to operate, rather than maintaining a large internal physical footprint."
+  },
+  {
+    "id": "c3q132",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "What is a primary advantage of a decentralized organizational structure?",
+    "options": [
+      "A) It guarantees uniform decisions globally",
+      "B) It reduces the number of managers needed",
+      "C) It allows for faster decision-making by local managers who understand local conditions",
+      "D) It centralizes all power with the CEO"
+    ],
+    "correctAnswer": "C) It allows for faster decision-making by local managers who understand local conditions",
+    "explanation": "Decentralization pushes authority down the hierarchy, motivating lower-level managers and allowing them to respond swiftly to local market changes."
+  },
+  {
+    "id": "c3q133",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "If an organization's CEO insists on making every minor operational decision personally, refusing to delegate authority, the organization is highly:",
+    "options": [
+      "A) Decentralized",
+      "B) Virtual",
+      "C) Centralized",
+      "D) Divisional"
+    ],
+    "correctAnswer": "C) Centralized",
+    "explanation": "Centralization refers to the concentration of decision-making authority at the upper levels of management."
+  },
+  {
+    "id": "c3q134",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "The concept of 'Span of Control' refers to:",
+    "options": [
+      "A) The physical size of the factory floor",
+      "B) The number of subordinates a manager can effectively supervise",
+      "C) The number of products a company sells",
+      "D) The strictness of the company's financial budget"
+    ],
+    "correctAnswer": "B) The number of subordinates a manager can effectively supervise",
+    "explanation": "Span of control is an organizational concept measuring the exact number of direct reports assigned to a single manager."
+  },
+  {
+    "id": "c3q135",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "An organization with a 'narrow' span of control will naturally tend to develop what kind of overall structure?",
+    "options": [
+      "A) A flat structure",
+      "B) A virtual structure",
+      "C) A tall structure with many management levels",
+      "D) A matrix structure"
+    ],
+    "correctAnswer": "C) A tall structure with many management levels",
+    "explanation": "If managers only supervise a few people (narrow span), the organization must add more layers of management as it grows, creating a tall hierarchy."
+  },
+  {
+    "id": "c3q136",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "What is the term for the continuous, unbroken line of authority that extends from the very top of an organization down to the lowest employee?",
+    "options": [
+      "A) Value chain",
+      "B) Supply chain",
+      "C) Span of control",
+      "D) Chain of command"
+    ],
+    "correctAnswer": "D) Chain of command",
+    "explanation": "The chain of command clarifies who reports to whom, establishing formal lines of authority throughout the organization."
+  },
+  {
+    "id": "c3q137",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "A bank decides to stop maintaining its own internal payroll department and instead hires an external specialist firm to calculate wages and process employee payments. What is this practice called?",
+    "options": [
+      "A) Downsizing",
+      "B) Insourcing",
+      "C) Outsourcing",
+      "D) Centralization"
+    ],
+    "correctAnswer": "C) Outsourcing",
+    "explanation": "Outsourcing involves contracting non-core activities (like payroll processing) to specialized external vendors to improve efficiency or reduce costs."
+  },
+  {
+    "id": "c3q138",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "Which type of organizational structure is most likely to be used by a small, newly founded startup managed directly by its ambitious owner?",
+    "options": [
+      "A) Entrepreneurial structure",
+      "B) Matrix structure",
+      "C) Divisional structure",
+      "D) Bureaucratic structure"
+    ],
+    "correctAnswer": "A) Entrepreneurial structure",
+    "explanation": "An entrepreneurial (or simple) structure is highly centralized, informal, and typical of small startups where the founder makes all key decisions."
+  },
+  {
+    "id": "c4q139",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "What is universally considered the primary, overarching objective of corporate financial management?",
+    "options": [
+      "A) To eliminate all corporate debt",
+      "B) To maximize value for the shareholders",
+      "C) To increase the company's headcount",
+      "D) To minimize tax payments completely"
+    ],
+    "correctAnswer": "B) To maximize value for the shareholders",
+    "explanation": "The fundamental goal of financial management is to maximize the overall value of the firm for its owners, the shareholders."
+  },
+  {
+    "id": "c4q140",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "A manufacturer purchases raw materials in bulk and relies on a common financing method where the supplier allows them 60 days to pay the invoice. What is this called?",
+    "options": [
+      "A) Term loan",
+      "B) Corporate bond",
+      "C) Equity financing",
+      "D) Trade credit"
+    ],
+    "correctAnswer": "D) Trade credit",
+    "explanation": "Trade credit is a short-term, often interest-free financing arrangement provided by suppliers allowing delayed payment for goods."
+  },
+  {
+    "id": "c4q141",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "A textile firm is experiencing a cash shortage and needs money to pay wages immediately. They sell their unpaid customer invoices to a bank at a 5% discount. What short-term financing method is this?",
+    "options": [
+      "A) Issuing debentures",
+      "B) Discounting or Factoring of receivables",
+      "C) Trade credit",
+      "D) Retained earnings"
+    ],
+    "correctAnswer": "B) Discounting or Factoring of receivables",
+    "explanation": "Factoring or discounting involves selling accounts receivable to a financial institution at a discount to obtain immediate cash."
+  },
+  {
+    "id": "c4q142",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "Which of the following describes an essential characteristic of debt financing (such as a bank loan)?",
+    "options": [
+      "A) It does not have a maturity date",
+      "B) It gives the lender voting rights in the company",
+      "C) It requires the payment of regular interest and repayment of the principal",
+      "D) The interest payments are not tax-deductible"
+    ],
+    "correctAnswer": "C) It requires the payment of regular interest and repayment of the principal",
+    "explanation": "Debt financing obligates the borrower to pay a specific interest rate and return the borrowed principal by a stated maturity date."
+  },
+  {
+    "id": "c4q143",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "When comparing debt to equity, what is a major financial advantage of using debt to fund business expansion?",
+    "options": [
+      "A) Debt never has to be repaid",
+      "B) The interest paid on debt is usually tax-deductible",
+      "C) Debt dilutes the ownership of existing shareholders",
+      "D) Lenders absorb all business losses"
+    ],
+    "correctAnswer": "B) The interest paid on debt is usually tax-deductible",
+    "explanation": "A key advantage of debt is that interest payments are treated as business expenses, which reduces the company's taxable income."
+  },
+  {
+    "id": "c4q144",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "A firm needs funding for a new 10-year infrastructure project. Which of the following would be an inappropriate method of financing this long-term asset?",
+    "options": [
+      "A) Issuing new equity shares",
+      "B) Retaining earnings",
+      "C) Using a short-term 6-month bank overdraft",
+      "D) Issuing a 10-year corporate bond"
+    ],
+    "correctAnswer": "C) Using a short-term 6-month bank overdraft",
+    "explanation": "Using short-term finance for long-term projects creates an asset-liability mismatch, exposing the firm to severe liquidity risks."
+  },
+  {
+    "id": "c4q145",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "If an organization wants to raise long-term finance without diluting control, increasing its debt burden, or paying interest, what internal source should it use?",
+    "options": [
+      "A) Retained earnings",
+      "B) Bank loans",
+      "C) Issuing preference shares",
+      "D) Corporate bonds"
+    ],
+    "correctAnswer": "A) Retained earnings",
+    "explanation": "Retained earnings represent internal profits kept by the company rather than paid as dividends. It involves no new debt and no new voting shareholders."
+  },
+  {
+    "id": "c4q146",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "A rapidly growing private tech company decides to list itself on the stock exchange to raise massive equity capital. What is this initial process called?",
+    "options": [
+      "A) Factoring",
+      "B) Initial Public Offering (IPO)",
+      "C) Debt restructuring",
+      "D) Leasing"
+    ],
+    "correctAnswer": "B) Initial Public Offering (IPO)",
+    "explanation": "An IPO is the process where a previously private company issues shares to the public on a stock exchange for the first time."
+  },
+  {
+    "id": "c4q147",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "Which of the following financial instruments represents long-term public debt where the company issues certificates promising to pay fixed interest?",
+    "options": [
+      "A) Ordinary shares",
+      "B) Trade credit",
+      "C) Corporate bonds or debentures",
+      "D) Bank overdrafts"
+    ],
+    "correctAnswer": "C) Corporate bonds or debentures",
+    "explanation": "Bonds and debentures are formal debt instruments issued to the public to secure long-term capital in exchange for regular interest payments."
+  },
+  {
+    "id": "c4q148",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "In financial management, the principle that investors demand higher compensation for undertaking highly uncertain investments is known as the:",
+    "options": [
+      "A) Asset-liability mismatch",
+      "B) Risk-return trade-off",
+      "C) Debt-equity ratio",
+      "D) Time value of money"
+    ],
+    "correctAnswer": "B) Risk-return trade-off",
+    "explanation": "The risk-return trade-off dictates that the potential return on an investment must increase as the level of risk associated with it increases."
+  },
+  {
+    "id": "c4q149",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "Which of the following is a core, fundamental principle of Islamic Banking compared to conventional banking?",
+    "options": [
+      "A) Charging compounded interest on corporate loans",
+      "B) The strict prohibition of Riba (interest)",
+      "C) Investing heavily in speculative derivatives",
+      "D) Guaranteeing fixed returns regardless of business performance"
+    ],
+    "correctAnswer": "B) The strict prohibition of Riba (interest)",
+    "explanation": "Unlike conventional banking which relies on interest, Islamic banking operates on profit-sharing and asset-backed transactions, strictly prohibiting Riba (interest)."
+  },
+  {
+    "id": "c4q150",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "Which of the following terms represents a recognized mode of financing in Islamic Banking?",
+    "options": [
+      "A) Compound interest loans",
+      "B) Unsecured overdrafts",
+      "C) Mudarabah",
+      "D) Conventional bonds"
+    ],
+    "correctAnswer": "C) Mudarabah",
+    "explanation": "Mudarabah (along with Murabaha, Musharakah, and Ijara) is a standard profit-sharing partnership model used in Islamic finance."
+  }
+]

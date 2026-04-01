@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "v2c1q201",
+    "chapter": 1,
+    "chapterTitle": "Nature and Scope of Economics",
+    "question": "An individual has the choice between working full-time for Rs. 40,000 a month or attending college. If they choose college, the Rs. 40,000 they gave up is considered what type of cost?",
+    "options": [
+      "A) Sunk cost",
+      "B) Marginal cost",
+      "C) Opportunity cost",
+      "D) Explicit cost"
+    ],
+    "correctAnswer": "C) Opportunity cost",
+    "explanation": "Opportunity cost is defined as the value of the next best alternative that is foregone when making an economic decision."
+  },
+  {
+    "id": "v2c1q202",
+    "chapter": 1,
+    "chapterTitle": "Nature and Scope of Economics",
+    "question": "Which of the following is a primary characteristic of a purely Capitalist or Free Market Economy?",
+    "options": [
+      "A) Centralized government planning of production",
+      "B) Resource allocation entirely determined by the price mechanism",
+      "C) State ownership of all major factors of production",
+      "D) The absence of private property rights"
+    ],
+    "correctAnswer": "B) Resource allocation entirely determined by the price mechanism",
+    "explanation": "In a free market economy, the forces of supply and demand (the price mechanism) dictate what, how, and for whom to produce without government intervention."
+  },
+  {
+    "id": "v2c1q203",
+    "chapter": 1,
+    "chapterTitle": "Nature and Scope of Economics",
+    "question": "A statement such as 'The government ought to increase taxes on the wealthy to reduce inequality' is based on value judgments and cannot be scientifically tested. This is known as a:",
+    "options": [
+      "A) Positive economic statement",
+      "B) Normative economic statement",
+      "C) Quantitative forecast",
+      "D) Empirical deduction"
+    ],
+    "correctAnswer": "B) Normative economic statement",
+    "explanation": "Normative statements express opinions, ethics, or value judgments about what 'ought to be', unlike positive statements which are factual and testable."
+  },
+  {
+    "id": "v2c1q204",
+    "chapter": 1,
+    "chapterTitle": "Nature and Scope of Economics",
+    "question": "If an economy discovers a massive new oil reserve within its borders, how will this affect its Production Possibility Frontier (PPF)?",
+    "options": [
+      "A) The PPF will shift inward",
+      "B) The economy will move along the existing PPF",
+      "C) The PPF will shift outward",
+      "D) The economy will move to a point inside the PPF"
+    ],
+    "correctAnswer": "C) The PPF will shift outward",
+    "explanation": "An increase in the quantity of available resources (like discovering oil) increases the productive capacity of the economy, causing the PPF to shift outward."
+  },
+  {
+    "id": "v2c1q205",
+    "chapter": 1,
+    "chapterTitle": "Nature and Scope of Economics",
+    "question": "When a country suffers from widespread unemployment and factory closures, where is it operating in relation to its Production Possibility Frontier (PPF)?",
+    "options": [
+      "A) Exactly on the boundary curve",
+      "B) Somewhere inside the curve",
+      "C) Beyond the curve",
+      "D) At the origin (0,0)"
+    ],
+    "correctAnswer": "B) Somewhere inside the curve",
+    "explanation": "A point inside the PPF indicates that resources (like labor and factories) are being underutilized or wasted, which characterizes a period of unemployment."
+  },
+  {
+    "id": "v2c1q206",
+    "chapter": 1,
+    "chapterTitle": "Nature and Scope of Economics",
+    "question": "In the circular flow of income model, which of the following strictly constitutes an 'injection' into the domestic economy?",
+    "options": [
+      "A) Household savings deposited in banks",
+      "B) Corporate taxes paid to the government",
+      "C) Government spending on new highways",
+      "D) Payments made for imported machinery"
+    ],
+    "correctAnswer": "C) Government spending on new highways",
+    "explanation": "Injections introduce new money into the circular flow. They include Investment, Government spending, and Exports."
+  },
+  {
+    "id": "v2c1q207",
+    "chapter": 1,
+    "chapterTitle": "Nature and Scope of Economics",
+    "question": "According to the circular flow model, when total leakages (S + T + M) perfectly equal total injections (I + G + X), the economy is in a state of:",
+    "options": [
+      "A) Hyperinflation",
+      "B) Macroeconomic equilibrium",
+      "C) Severe recession",
+      "D) Trade deficit"
+    ],
+    "correctAnswer": "B) Macroeconomic equilibrium",
+    "explanation": "An economy reaches macroeconomic equilibrium when the money leaving the circular flow (leakages) perfectly matches the money entering it (injections)."
+  },
+  {
+    "id": "v2c1q208",
+    "chapter": 1,
+    "chapterTitle": "Nature and Scope of Economics",
+    "question": "Which factor of production encompasses all naturally occurring resources, such as fertile soil, minerals, water, and forests?",
+    "options": [
+      "A) Capital",
+      "B) Enterprise",
+      "C) Land",
+      "D) Labor"
+    ],
+    "correctAnswer": "C) Land",
+    "explanation": "In economics, 'Land' represents all natural resources gifted by nature that are used in the production process."
+  },
+  {
+    "id": "v2c1q209",
+    "chapter": 1,
+    "chapterTitle": "Nature and Scope of Economics",
+    "question": "The financial reward earned by the factor of production known as 'Capital' is formally referred to as:",
+    "options": [
+      "A) Rent",
+      "B) Wages",
+      "C) Profit",
+      "D) Interest"
+    ],
+    "correctAnswer": "D) Interest",
+    "explanation": "The providers of capital (machinery, tools, financial funds) receive their economic return in the form of interest."
+  },
+  {
+    "id": "v2c1q210",
+    "chapter": 1,
+    "chapterTitle": "Nature and Scope of Economics",
+    "question": "An entrepreneur assumes the immense financial risk of organizing land, labor, and capital to launch a new business. What is the specific economic reward for this risk-taking factor of production?",
+    "options": [
+      "A) Guaranteed minimum wages",
+      "B) Profit",
+      "C) Capital gains",
+      "D) Fixed rent"
+    ],
+    "correctAnswer": "B) Profit",
+    "explanation": "Profit is the residual reward given to the entrepreneur for organizing the other factors of production and bearing the ultimate risk of business failure."
+  },
+  {
+    "id": "v2c1q211",
+    "chapter": 1,
+    "chapterTitle": "Nature and Scope of Economics",
+    "question": "Which economist is famous for defining economics as the science studying human behavior as a relationship between 'ends' and 'scarce means which have alternative uses'?",
+    "options": [
+      "A) Adam Smith",
+      "B) John Maynard Keynes",
+      "C) Lionel Robbins",
+      "D) Karl Marx"
+    ],
+    "correctAnswer": "C) Lionel Robbins",
+    "explanation": "Lionel Robbins formulated the highly influential scarcity definition of economics in 1932, focusing on unlimited wants ('ends') versus limited resources ('scarce means')."
+  },
+  {
+    "id": "v2c1q212",
+    "chapter": 1,
+    "chapterTitle": "Nature and Scope of Economics",
+    "question": "A government implements a system combining state-owned enterprises for utilities and healthcare, alongside a thriving private sector for consumer goods. This system is a:",
+    "options": [
+      "A) Pure Capitalist economy",
+      "B) Command economy",
+      "C) Mixed economy",
+      "D) Subsistence economy"
+    ],
+    "correctAnswer": "C) Mixed economy",
+    "explanation": "A mixed economy features both private enterprise (market forces) and government intervention/ownership to achieve economic and social objectives."
+  },
+  {
+    "id": "v2c1q213",
+    "chapter": 1,
+    "chapterTitle": "Nature and Scope of Economics",
+    "question": "Why does a typical Production Possibility Frontier (PPF) bow outward (concave to the origin) instead of being a straight line?",
+    "options": [
+      "A) Because of decreasing marginal utility",
+      "B) Because resources are perfectly substitutable",
+      "C) Because of the law of increasing opportunity cost",
+      "D) Because inflation distorts production"
+    ],
+    "correctAnswer": "C) Because of the law of increasing opportunity cost",
+    "explanation": "The PPF is bowed outward because resources are specialized. As you shift production from one good to another, you have to use less efficient resources, increasing the opportunity cost."
+  },
+  {
+    "id": "v2c1q214",
+    "chapter": 1,
+    "chapterTitle": "Nature and Scope of Economics",
+    "question": "Which branch of economics specifically studies the aggregate indicators of a country, such as total national income, overall inflation rates, and total unemployment?",
+    "options": [
+      "A) Microeconomics",
+      "B) Macroeconomics",
+      "C) Behavioral economics",
+      "D) Managerial economics"
+    ],
+    "correctAnswer": "B) Macroeconomics",
+    "explanation": "Macroeconomics is the branch of economics that deals with the performance, structure, behavior, and decision-making of an economy as a whole."
+  },
+  {
+    "id": "v2c1q215",
+    "chapter": 1,
+    "chapterTitle": "Nature and Scope of Economics",
+    "question": "In a purely Command Economy, the fundamental economic questions of 'what to produce', 'how to produce', and 'for whom to produce' are solved exclusively by:",
+    "options": [
+      "A) Consumer preferences",
+      "B) The interaction of market supply and demand",
+      "C) A central government planning authority",
+      "D) Independent corporate monopolies"
+    ],
+    "correctAnswer": "C) A central government planning authority",
+    "explanation": "In a command (or planned) economy, the state or central authority makes all significant decisions regarding resource allocation and production."
+  },
+  {
+    "id": "v2c2q216",
+    "chapter": 2,
+    "chapterTitle": "Demand, Supply and Market Equilibrium",
+    "question": "The Law of Demand states that, ceteris paribus, there is what kind of relationship between the price of a good and the quantity demanded?",
+    "options": [
+      "A) A direct relationship",
+      "B) An inverse relationship",
+      "C) A perfectly proportional relationship",
+      "D) No relationship at all"
+    ],
+    "correctAnswer": "B) An inverse relationship",
+    "explanation": "The Law of Demand dictates an inverse relationship: as the price of a good rises, the quantity demanded falls, assuming all other factors remain constant."
+  },
+  {
+    "id": "v2c2q217",
+    "chapter": 2,
+    "chapterTitle": "Demand, Supply and Market Equilibrium",
+    "question": "If the price of tea drops significantly, causing people to drink more tea, what will happen in the market for coffee (a substitute)?",
+    "options": [
+      "A) The demand for coffee will shift to the right",
+      "B) The demand for coffee will shift to the left",
+      "C) The supply of coffee will increase",
+      "D) There will be a movement along the coffee demand curve"
+    ],
+    "correctAnswer": "B) The demand for coffee will shift to the left",
+    "explanation": "Since tea and coffee are substitutes, cheaper tea will cause consumers to abandon coffee for tea, shifting the entire demand curve for coffee to the left."
+  },
+  {
+    "id": "v2c2q218",
+    "chapter": 2,
+    "chapterTitle": "Demand, Supply and Market Equilibrium",
+    "question": "A massive increase in national wages allows families to stop buying cheap, low-quality bread and start buying premium bakery goods. What kind of good is the low-quality bread?",
+    "options": [
+      "A) A normal good",
+      "B) A Veblen good",
+      "C) An inferior good",
+      "D) A complementary good"
+    ],
+    "correctAnswer": "C) An inferior good",
+    "explanation": "An inferior good is one where demand falls (negative income effect) as consumer income rises, because consumers substitute it with higher-quality alternatives."
+  },
+  {
+    "id": "v2c2q219",
+    "chapter": 2,
+    "chapterTitle": "Demand, Supply and Market Equilibrium",
+    "question": "If a government decides to impose a 'Price Floor' on wheat to guarantee farmers a high income, and sets this price significantly above the market equilibrium, what will be the result?",
+    "options": [
+      "A) A market clearing equilibrium",
+      "B) A massive shortage of wheat",
+      "C) A surplus (excess supply) of wheat",
+      "D) A leftward shift in demand"
+    ],
+    "correctAnswer": "C) A surplus (excess supply) of wheat",
+    "explanation": "A price floor set above the natural equilibrium price causes quantity supplied to exceed quantity demanded, inevitably creating a surplus."
+  },
+  {
+    "id": "v2c2q220",
+    "chapter": 2,
+    "chapterTitle": "Demand, Supply and Market Equilibrium",
+    "question": "Cars and petrol are complementary goods. If the global price of petrol suddenly triples, what is the most immediate effect on the automobile market?",
+    "options": [
+      "A) The demand curve for cars will shift to the right",
+      "B) The demand curve for cars will shift to the left",
+      "C) The supply curve for cars will shift left",
+      "D) Car prices will inherently skyrocket"
+    ],
+    "correctAnswer": "B) The demand curve for cars will shift to the left",
+    "explanation": "When the price of a complement (petrol) rises, it makes using the primary good (cars) much more expensive, resulting in a decrease in demand (leftward shift) for cars."
+  },
+  {
+    "id": "v2c2q221",
+    "chapter": 2,
+    "chapterTitle": "Demand, Supply and Market Equilibrium",
+    "question": "A strict new law forces landlords to cap apartment rentals at Rs. 10,000 per month (a Price Ceiling), while the natural equilibrium is Rs. 25,000. What is the direct market consequence?",
+    "options": [
+      "A) A massive surplus of empty apartments",
+      "B) A severe shortage of available apartments",
+      "C) Landlords immediately building new apartments",
+      "D) A rightward shift in the supply of housing"
+    ],
+    "correctAnswer": "B) A severe shortage of available apartments",
+    "explanation": "A price ceiling set below equilibrium keeps prices artificially low. This encourages massive demand but discourages supply, creating a persistent market shortage."
+  },
+  {
+    "id": "v2c2q222",
+    "chapter": 2,
+    "chapterTitle": "Demand, Supply and Market Equilibrium",
+    "question": "A farmer brings highly perishable fresh strawberries to the Sunday market. Since they will rot by Monday, he must sell all of them today regardless of how low the price drops. What is the shape of his supply curve?",
+    "options": [
+      "A) A horizontal line",
+      "B) A downward sloping line",
+      "C) A perfectly vertical line (perfectly inelastic)",
+      "D) A U-shaped curve"
+    ],
+    "correctAnswer": "C) A perfectly vertical line (perfectly inelastic)",
+    "explanation": "Perishable goods must be sold immediately and cannot be withheld. Thus, the quantity supplied is fixed regardless of price, creating a vertical, perfectly inelastic supply curve."
+  },
+  {
+    "id": "v2c2q223",
+    "chapter": 2,
+    "chapterTitle": "Demand, Supply and Market Equilibrium",
+    "question": "What specific terminology defines the total amount of a commodity physically in existence in a warehouse, as opposed to the amount actually offered for sale at a specific price?",
+    "options": [
+      "A) Supply",
+      "B) Buffer surplus",
+      "C) Stock",
+      "D) Equilibrium quantity"
+    ],
+    "correctAnswer": "C) Stock",
+    "explanation": "Stock refers to the total physical quantity of a commodity available. Supply is only the portion of that stock a seller is willing to offer at a specific market price."
+  },
+  {
+    "id": "v2c2q224",
+    "chapter": 2,
+    "chapterTitle": "Demand, Supply and Market Equilibrium",
+    "question": "Due to exceptionally favorable weather, a country produces double the normal harvest of cotton. Assuming demand remains strictly unchanged, what will happen to the market equilibrium?",
+    "options": [
+      "A) Both price and quantity will rise",
+      "B) Both price and quantity will fall",
+      "C) Price will fall, but quantity exchanged will rise",
+      "D) Price will rise, but quantity exchanged will fall"
+    ],
+    "correctAnswer": "C) Price will fall, but quantity exchanged will rise",
+    "explanation": "An exceptionally good harvest shifts the supply curve to the right. This excess supply pushes the equilibrium price down, which subsequently induces a higher quantity demanded."
+  },
+  {
+    "id": "v2c2q225",
+    "chapter": 2,
+    "chapterTitle": "Demand, Supply and Market Equilibrium",
+    "question": "The demand for bricks, cement, and construction cranes only exists because there is a high demand for building new houses. This type of demand is economically classified as:",
+    "options": [
+      "A) Direct demand",
+      "B) Derived demand",
+      "C) Speculative demand",
+      "D) Elastic demand"
+    ],
+    "correctAnswer": "B) Derived demand",
+    "explanation": "Derived demand is demand for a factor of production or intermediate good that occurs purely as a result of the demand for the final good it produces."
+  },
+  {
+    "id": "v2c2q226",
+    "chapter": 2,
+    "chapterTitle": "Demand, Supply and Market Equilibrium",
+    "question": "To prevent wild price fluctuations in agriculture, a government establishes a 'Buffer Stock'. What action must the government take if there is a severe shortage of crops causing prices to spike?",
+    "options": [
+      "A) Burn the existing crops to protect farmers",
+      "B) Buy more crops from the open market",
+      "C) Release (sell) its stored crops into the market",
+      "D) Increase the income tax on farmers"
+    ],
+    "correctAnswer": "C) Release (sell) its stored crops into the market",
+    "explanation": "In a buffer stock scheme, the government prevents prices from rising too high during a shortage by selling its previously stored reserve crops to increase market supply."
+  },
+  {
+    "id": "v2c2q227",
+    "chapter": 2,
+    "chapterTitle": "Demand, Supply and Market Equilibrium",
+    "question": "A massive improvement in robotic assembly lines drastically cuts the production cost of televisions. What is the immediate graphical impact on the market for televisions?",
+    "options": [
+      "A) The supply curve shifts to the right",
+      "B) The supply curve shifts to the left",
+      "C) The demand curve shifts to the right",
+      "D) The demand curve shifts to the left"
+    ],
+    "correctAnswer": "A) The supply curve shifts to the right",
+    "explanation": "A decrease in the cost of production makes manufacturing more profitable, allowing firms to supply more goods at every price level (a rightward shift in supply)."
+  },
+  {
+    "id": "v2c2q228",
+    "chapter": 2,
+    "chapterTitle": "Demand, Supply and Market Equilibrium",
+    "question": "Which of the following events would cause a 'movement along' the demand curve for shoes, rather than a 'shift' of the entire demand curve?",
+    "options": [
+      "A) An aggressive new advertising campaign for the shoes",
+      "B) A sudden increase in consumer incomes",
+      "C) A substantial drop in the price of the shoes themselves",
+      "D) An increase in the price of socks"
+    ],
+    "correctAnswer": "C) A substantial drop in the price of the shoes themselves",
+    "explanation": "A change in the price of the good itself strictly causes a movement along the existing demand curve (an extension or contraction of quantity demanded)."
+  },
+  {
+    "id": "v2c2q229",
+    "chapter": 2,
+    "chapterTitle": "Demand, Supply and Market Equilibrium",
+    "question": "An exclusive diamond-encrusted watch actually sees an increase in sales when its manufacturer raises the price, because the ultra-wealthy desire it more as a status symbol. This violates the law of demand and is an example of a:",
+    "options": [
+      "A) Normal good",
+      "B) Veblen good",
+      "C) Public good",
+      "D) Giffen good"
+    ],
+    "correctAnswer": "B) Veblen good",
+    "explanation": "A Veblen good is a luxury item whose appeal is tied to its high price. Raising the price increases its perceived exclusivity and status, increasing demand."
+  },
+  {
+    "id": "v2c2q230",
+    "chapter": 2,
+    "chapterTitle": "Demand, Supply and Market Equilibrium",
+    "question": "If there is a simultaneous outward shift (increase) in demand and an inward shift (decrease) in supply for a commodity, what will definitively happen to the market equilibrium?",
+    "options": [
+      "A) The equilibrium price will definitely decrease",
+      "B) The equilibrium price will definitely increase",
+      "C) The equilibrium quantity will definitely increase",
+      "D) The equilibrium quantity will definitely decrease"
+    ],
+    "correctAnswer": "B) The equilibrium price will definitely increase",
+    "explanation": "Both higher demand and lower supply put upward pressure on the price. The effect on quantity is indeterminate, but the price will unambiguously rise."
+  },
+  {
+    "id": "v2c3q231",
+    "chapter": 3,
+    "chapterTitle": "Elasticity of Demand and Supply",
+    "question": "A retail store cuts the price of its backpacks by 10%. As a result, the quantity demanded surges by an impressive 40%. The price elasticity of demand for these backpacks is:",
+    "options": [
+      "A) Perfectly inelastic",
+      "B) Relatively inelastic",
+      "C) Unitary elastic",
+      "D) Relatively elastic"
+    ],
+    "correctAnswer": "D) Relatively elastic",
+    "explanation": "Demand is relatively elastic when the percentage change in quantity demanded (40%) is greater than the percentage change in price (10%), yielding an elasticity > 1."
+  },
+  {
+    "id": "v2c3q232",
+    "chapter": 3,
+    "chapterTitle": "Elasticity of Demand and Supply",
+    "question": "An individual requires a specific life-saving medication. Even if the price triples, they must buy the exact same dosage every month. What is the Price Elasticity of Demand (PED) for this patient?",
+    "options": [
+      "A) 1",
+      "B) Greater than 1",
+      "C) Exactly 0 (Perfectly inelastic)",
+      "D) Infinity (Perfectly elastic)"
+    ],
+    "correctAnswer": "C) Exactly 0 (Perfectly inelastic)",
+    "explanation": "When quantity demanded remains totally unchanged regardless of price fluctuations, the demand is perfectly inelastic, carrying a PED value of zero."
+  },
+  {
+    "id": "v2c3q233",
+    "chapter": 3,
+    "chapterTitle": "Elasticity of Demand and Supply",
+    "question": "If a cinema increases its ticket prices by 15%, and discovers that its total overall revenue remains exactly the same as before, the demand for tickets is:",
+    "options": [
+      "A) Inelastic",
+      "B) Elastic",
+      "C) Unitary elastic",
+      "D) Perfectly inelastic"
+    ],
+    "correctAnswer": "C) Unitary elastic",
+    "explanation": "According to the total outlay/expenditure method, if a change in price results in absolutely no change in total expenditure, the demand is unitary elastic (PED = 1)."
+  },
+  {
+    "id": "v2c3q234",
+    "chapter": 3,
+    "chapterTitle": "Elasticity of Demand and Supply",
+    "question": "The Income Elasticity of Demand for a specific brand of fast food is calculated to be -0.6. Based on this negative coefficient, how is this fast food classified?",
+    "options": [
+      "A) As a luxury good",
+      "B) As a normal good",
+      "C) As a Veblen good",
+      "D) As an inferior good"
+    ],
+    "correctAnswer": "D) As an inferior good",
+    "explanation": "A negative income elasticity of demand indicates that as consumers' incomes rise, they buy less of the product, which defines an inferior good."
+  },
+  {
+    "id": "v2c3q235",
+    "chapter": 3,
+    "chapterTitle": "Elasticity of Demand and Supply",
+    "question": "If the Cross Elasticity of Demand between Product X and Product Y is strongly positive (+2.5), what is the relationship between the two products?",
+    "options": [
+      "A) They are substitute goods",
+      "B) They are complementary goods",
+      "C) They are entirely unrelated",
+      "D) They are both Giffen goods"
+    ],
+    "correctAnswer": "A) They are substitute goods",
+    "explanation": "A positive cross elasticity means that when the price of one good rises, consumers buy more of the other good instead, proving they are substitutes."
+  },
+  {
+    "id": "v2c3q236",
+    "chapter": 3,
+    "chapterTitle": "Elasticity of Demand and Supply",
+    "question": "If the price of printers falls by 20%, the demand for printer ink cartridges rises by 40%. The Cross Elasticity of Demand is -2.0. This negative relationship proves the goods are:",
+    "options": [
+      "A) Substitutes",
+      "B) Complements",
+      "C) Inferior",
+      "D) Unrelated"
+    ],
+    "correctAnswer": "B) Complements",
+    "explanation": "A negative cross elasticity indicates that the goods are consumed together (complements); a drop in the price of one increases the demand for the other."
+  },
+  {
+    "id": "v2c3q237",
+    "chapter": 3,
+    "chapterTitle": "Elasticity of Demand and Supply",
+    "question": "The government wants to levy a heavy tax on a product to maximize tax revenue without destroying the industry. To ensure consumers keep buying the product despite the tax, they should tax a product with:",
+    "options": [
+      "A) Highly elastic demand",
+      "B) Perfectly elastic demand",
+      "C) Highly inelastic demand",
+      "D) Infinite substitutes"
+    ],
+    "correctAnswer": "C) Highly inelastic demand",
+    "explanation": "A highly inelastic demand (like cigarettes) means consumers are relatively unresponsive to price hikes, allowing the government to extract maximum tax revenue without heavily reducing sales."
+  },
+  {
+    "id": "v2c3q238",
+    "chapter": 3,
+    "chapterTitle": "Elasticity of Demand and Supply",
+    "question": "Which of the following scenarios would result in a product having a highly elastic demand?",
+    "options": [
+      "A) The product is a strict necessity like drinking water",
+      "B) The product has no close substitutes available",
+      "C) The product takes up a massive portion of a consumer's monthly income",
+      "D) The product is deeply habit-forming or addictive"
+    ],
+    "correctAnswer": "C) The product takes up a massive portion of a consumer's monthly income",
+    "explanation": "Goods that consume a large percentage of income force consumers to be very sensitive to price changes, making their demand highly elastic."
+  },
+  {
+    "id": "v2c3q239",
+    "chapter": 3,
+    "chapterTitle": "Elasticity of Demand and Supply",
+    "question": "Why is the price elasticity of supply (PES) usually much higher in the long run than in the short run?",
+    "options": [
+      "A) Because consumers change their minds over time",
+      "B) Because the government eventually drops taxes",
+      "C) Because in the long run, firms have time to build new factories and acquire more fixed capital",
+      "D) Because marginal utility eventually becomes negative"
+    ],
+    "correctAnswer": "C) Because in the long run, firms have time to build new factories and acquire more fixed capital",
+    "explanation": "Supply elasticity depends heavily on time. In the long run, firms can expand their physical production capacity, making supply highly responsive to price changes."
+  },
+  {
+    "id": "v2c3q240",
+    "chapter": 3,
+    "chapterTitle": "Elasticity of Demand and Supply",
+    "question": "A famous dead artist's masterpiece goes to auction. Because no more can ever be painted, the supply is fixed at one single unit. The supply curve is:",
+    "options": [
+      "A) A horizontal line",
+      "B) A vertical line (perfectly inelastic)",
+      "C) A downward sloping line",
+      "D) Unitary elastic"
+    ],
+    "correctAnswer": "B) A vertical line (perfectly inelastic)",
+    "explanation": "When supply is absolutely fixed and cannot respond to any price changes, the supply curve is vertical, meaning it is perfectly inelastic."
+  },
+  {
+    "id": "v2c3q241",
+    "chapter": 3,
+    "chapterTitle": "Elasticity of Demand and Supply",
+    "question": "If an upward-sloping straight-line supply curve passes exactly through the origin (0,0) of the graph, what is its Price Elasticity of Supply (PES) at all points?",
+    "options": [
+      "A) PES is greater than 1",
+      "B) PES is less than 1",
+      "C) PES is exactly 1 (Unitary elastic)",
+      "D) PES is zero"
+    ],
+    "correctAnswer": "C) PES is exactly 1 (Unitary elastic)",
+    "explanation": "A geometric rule of supply states that any straight-line supply curve passing directly through the origin has a unitary price elasticity of supply (PES = 1) at all points."
+  },
+  {
+    "id": "v2c3q242",
+    "chapter": 3,
+    "chapterTitle": "Elasticity of Demand and Supply",
+    "question": "When a firm lowers the price of its product, it experiences a massive surge in quantity demanded that completely overwhelms the price cut, causing total revenue to increase. The demand here is:",
+    "options": [
+      "A) Inelastic",
+      "B) Elastic",
+      "C) Unitary",
+      "D) Perfectly inelastic"
+    ],
+    "correctAnswer": "B) Elastic",
+    "explanation": "If a price cut leads to an increase in total expenditure/revenue, the percentage increase in quantity outpaced the percentage drop in price, meaning demand is elastic."
+  },
+  {
+    "id": "v2c3q243",
+    "chapter": 3,
+    "chapterTitle": "Elasticity of Demand and Supply",
+    "question": "Which type of goods generally possess a 'more elastic' supply curve because they can be easily stored in warehouses without rotting while waiting for better prices?",
+    "options": [
+      "A) Fresh agricultural vegetables",
+      "B) Perishable dairy products",
+      "C) Manufactured durable goods (like electronics)",
+      "D) Live livestock"
+    ],
+    "correctAnswer": "C) Manufactured durable goods (like electronics)",
+    "explanation": "Durable manufactured goods have highly elastic supply because they can be stockpiled and released quickly into the market when prices rise, unlike perishables."
+  },
+  {
+    "id": "v2c3q244",
+    "chapter": 3,
+    "chapterTitle": "Elasticity of Demand and Supply",
+    "question": "If the government imposes a new tax on a good with highly elastic demand, who will bear the majority of the tax burden (incidence)?",
+    "options": [
+      "A) The consumers",
+      "B) The government",
+      "C) The producers (suppliers)",
+      "D) The burden is shared exactly 50/50"
+    ],
+    "correctAnswer": "C) The producers (suppliers)",
+    "explanation": "If demand is highly elastic, consumers will refuse to pay higher prices and will switch products. To retain sales, producers must absorb the majority of the tax burden."
+  },
+  {
+    "id": "v2c3q245",
+    "chapter": 3,
+    "chapterTitle": "Elasticity of Demand and Supply",
+    "question": "If a 5% increase in price causes absolutely no change in the quantity supplied of a good, the elasticity of supply is:",
+    "options": [
+      "A) Unitary",
+      "B) Zero (Perfectly inelastic)",
+      "C) Infinite (Perfectly elastic)",
+      "D) Relatively elastic"
+    ],
+    "correctAnswer": "B) Zero (Perfectly inelastic)",
+    "explanation": "When quantity supplied does not respond at all to a price change, the elasticity coefficient is zero, denoting perfectly inelastic supply."
+  },
+  {
+    "id": "v2c4q246",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "A clothing company receives an emergency order. They can hire more tailors and buy more cloth, but they cannot possibly build a new factory building in two weeks. In economic theory, this specific constraint defines the:",
+    "options": [
+      "A) Long run",
+      "B) Short run",
+      "C) Market clearing time",
+      "D) Very long run"
+    ],
+    "correctAnswer": "B) Short run",
+    "explanation": "The short run is a conceptual time period during which at least one factor of production (usually physical capital or factory size) is fixed and cannot be changed."
+  },
+  {
+    "id": "v2c4q247",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "A corporation is executing a 10-year strategy where it will sell its old factories, build fully automated new ones abroad, and restructure its workforce. A timeframe where all factors of production are variable is called the:",
+    "options": [
+      "A) Immediate term",
+      "B) Short run",
+      "C) Fixed period",
+      "D) Long run"
+    ],
+    "correctAnswer": "D) Long run",
+    "explanation": "In the long run, there are no fixed factors of production. A firm has enough time to completely vary all of its inputs, including capital and land."
+  },
+  {
+    "id": "v2c4q248",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "A restaurant owner keeps putting more chefs into a tiny kitchen. Initially, output spikes, but eventually, the chefs bump into each other and the extra output generated by each new chef declines. This specific phenomenon is the:",
+    "options": [
+      "A) Law of demand",
+      "B) Law of diminishing marginal returns",
+      "C) Economies of scale",
+      "D) Law of constant returns"
+    ],
+    "correctAnswer": "B) Law of diminishing marginal returns",
+    "explanation": "The law of diminishing (marginal) returns states that adding more variable inputs to a fixed input will eventually yield progressively smaller marginal increases in output."
+  },
+  {
+    "id": "v2c4q249",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "In the final stage (Stage III) of the Law of Variable Proportions, a factory becomes so overcrowded with workers that they actively disrupt the machines, causing total overall output to fall. In this stage, the Marginal Product (MP) is:",
+    "options": [
+      "A) Positive but falling",
+      "B) At its maximum",
+      "C) Zero",
+      "D) Negative"
+    ],
+    "correctAnswer": "D) Negative",
+    "explanation": "If the addition of a worker causes the total output of the factory to physically drop, that worker's marginal contribution is mathematically negative."
+  },
+  {
+    "id": "v2c4q250",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "A company must pay a Rs. 500,000 annual lease for its warehouse regardless of whether it produces a million units or completely shuts down operations. This expense is classified as a:",
+    "options": [
+      "A) Marginal cost",
+      "B) Variable cost",
+      "C) Sunk cost",
+      "D) Fixed cost"
+    ],
+    "correctAnswer": "D) Fixed cost",
+    "explanation": "Fixed costs are overhead expenses that remain totally unchanged regardless of the level of output produced. They must be paid even at zero production."
+  },
+  {
+    "id": "v2c4q251",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "A car factory produces 100 cars for a total cost of Rs. 10 million. Producing 101 cars raises the total cost to Rs. 10.15 million. What does the extra Rs. 150,000 represent?",
+    "options": [
+      "A) Average Fixed Cost",
+      "B) Average Total Cost",
+      "C) Marginal Cost",
+      "D) Incremental Revenue"
+    ],
+    "correctAnswer": "C) Marginal Cost",
+    "explanation": "Marginal cost is defined as the extra or additional cost incurred by producing exactly one more unit of output."
+  },
+  {
+    "id": "v2c4q252",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "As a factory drastically increases its volume of production, what happens to the Average Fixed Cost (AFC) curve?",
+    "options": [
+      "A) It perfectly tracks the marginal cost curve",
+      "B) It stays horizontal",
+      "C) It continuously falls, approaching zero but never touching it",
+      "D) It rises exponentially"
+    ],
+    "correctAnswer": "C) It continuously falls, approaching zero but never touching it",
+    "explanation": "Because the total fixed cost is a constant number, dividing it by an increasingly large quantity of output means the average fixed cost per unit continuously decreases."
+  },
+  {
+    "id": "v2c4q253",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "On a standard short-run cost diagram, at what exact mathematical point does the Marginal Cost (MC) curve intersect the Average Total Cost (ATC) curve?",
+    "options": [
+      "A) The maximum point of the ATC curve",
+      "B) The minimum point of the ATC curve",
+      "C) At the origin",
+      "D) Where ATC equals Average Fixed Cost"
+    ],
+    "correctAnswer": "B) The minimum point of the ATC curve",
+    "explanation": "The relationship between marginal and average values dictates that the marginal cost curve always cuts through the average total cost curve exactly at its lowest (minimum) point."
+  },
+  {
+    "id": "v2c4q254",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "A massive logistics firm doubles its trucks, warehouses, and staff (a 100% increase in inputs). As a result, its delivery capacity increases by exactly 100%. This is an example of:",
+    "options": [
+      "A) Increasing returns to scale",
+      "B) Constant returns to scale",
+      "C) Decreasing returns to scale",
+      "D) Diseconomies of scale"
+    ],
+    "correctAnswer": "B) Constant returns to scale",
+    "explanation": "Constant returns to scale occur in the long run when a proportionate increase in all inputs results in an exactly equal proportionate increase in total output."
+  },
+  {
+    "id": "v2c4q255",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "A multinational corporation grows so incredibly large that management loses control, internal communication breaks down, and extreme bureaucracy occurs. As a result, its long-run average cost per unit begins to rise. This describes:",
+    "options": [
+      "A) Economies of scale",
+      "B) Constant returns to scale",
+      "C) Diseconomies of scale",
+      "D) The accelerator effect"
+    ],
+    "correctAnswer": "C) Diseconomies of scale",
+    "explanation": "Diseconomies of scale happen when a firm becomes too large and inefficient, causing its long-run average costs to increase as output expands."
+  },
+  {
+    "id": "v2c4q256",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "A software startup spent Rs. 5 million on a failed marketing campaign. The money is gone and cannot be recovered. When making future financial decisions, economists advise that this Rs. 5 million must be treated as a:",
+    "options": [
+      "A) Variable cost",
+      "B) Sunk cost to be ignored",
+      "C) Marginal cost",
+      "D) Future liability"
+    ],
+    "correctAnswer": "B) Sunk cost to be ignored",
+    "explanation": "Sunk costs are historical expenses that cannot be recovered. Rational economic decisions should ignore sunk costs and look only at future costs and benefits."
+  },
+  {
+    "id": "v2c4q257",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "Which of the following is a classic example of a 'Variable Cost' in a commercial bakery?",
+    "options": [
+      "A) The monthly rent for the bakery building",
+      "B) The annual salary of the general manager",
+      "C) The flour and sugar used to bake the cakes",
+      "D) The interest paid on a bank loan"
+    ],
+    "correctAnswer": "C) The flour and sugar used to bake the cakes",
+    "explanation": "Variable costs change in direct proportion to the volume of output. Producing more cakes directly requires purchasing more flour and sugar."
+  },
+  {
+    "id": "v2c4q258",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "In the first stage of the law of variable proportions, adding more workers allows them to divide tasks and specialize, making the factory highly efficient. What happens to the Marginal Product (MP) during this stage?",
+    "options": [
+      "A) It slopes downward",
+      "B) It drops to zero",
+      "C) It slopes upward (increases)",
+      "D) It becomes negative"
+    ],
+    "correctAnswer": "C) It slopes upward (increases)",
+    "explanation": "In Stage I (Increasing Returns), the marginal product of each additional worker rises because the fixed machinery is being utilized much more efficiently."
+  },
+  {
+    "id": "v2c4q259",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "A firm breaks even exactly, covering all its explicit accounting costs plus the opportunity cost of the entrepreneur's time and capital. In economics, this firm is earning:",
+    "options": [
+      "A) Supernormal profit",
+      "B) Normal profit",
+      "C) Negative profit",
+      "D) Monopoly rent"
+    ],
+    "correctAnswer": "B) Normal profit",
+    "explanation": "Normal profit is the minimum level of profit needed to keep a firm in the industry, achieved when Total Revenue equals Total Economic Cost (which includes opportunity costs)."
+  },
+  {
+    "id": "v2c4q260",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "In an oligopoly, a firm assumes that if it lowers its price, rivals will match it, but if it raises its price, rivals will ignore it and steal its customers. This assumption results in a:",
+    "options": [
+      "A) Perfectly elastic demand curve",
+      "B) Kinked demand curve",
+      "C) Vertical demand curve",
+      "D) U-shaped supply curve"
+    ],
+    "correctAnswer": "B) Kinked demand curve",
+    "explanation": "The kinked demand curve model explains price rigidity in oligopolies, where demand is highly elastic for price increases but inelastic for price cuts."
+  },
+  {
+    "id": "v2c5q261",
+    "chapter": 5,
+    "chapterTitle": "National Income and Its Determination",
+    "question": "Which crucial macroeconomic indicator measures the total market value of all final goods and services produced within the geographic borders of a country in a given year?",
+    "options": [
+      "A) Gross National Product (GNP)",
+      "B) Net National Product (NNP)",
+      "C) Gross Domestic Product (GDP)",
+      "D) The Consumer Price Index (CPI)"
+    ],
+    "correctAnswer": "C) Gross Domestic Product (GDP)",
+    "explanation": "GDP strictly measures production that occurs within a country's geographic borders, regardless of whether the producers are citizens or foreigners."
+  },
+  {
+    "id": "v2c5q262",
+    "chapter": 5,
+    "chapterTitle": "National Income and Its Determination",
+    "question": "To convert a country's Gross Domestic Product (GDP) into Gross National Product (GNP), an economist must add which specific value?",
+    "options": [
+      "A) Capital depreciation",
+      "B) Net factor income from abroad",
+      "C) Total government welfare payments",
+      "D) Indirect business taxes"
+    ],
+    "correctAnswer": "B) Net factor income from abroad",
+    "explanation": "GNP measures the output produced by a country's citizens regardless of where they are in the world. It is calculated as GDP plus net factor income from abroad."
+  },
+  {
+    "id": "v2c5q263",
+    "chapter": 5,
+    "chapterTitle": "National Income and Its Determination",
+    "question": "A government boasts that GDP grew by 15% this year. However, inflation was also 15%. To evaluate if actual physical production increased, economists remove the illusion of inflation by calculating the:",
+    "options": [
+      "A) Nominal GDP",
+      "B) Gross National Happiness",
+      "C) Real GDP",
+      "D) Purchasing Power Parity"
+    ],
+    "correctAnswer": "C) Real GDP",
+    "explanation": "Real GDP adjusts the nominal GDP figure by using constant base-year prices, thereby stripping out the effects of inflation to show true volume growth."
+  },
+  {
+    "id": "v2c5q264",
+    "chapter": 5,
+    "chapterTitle": "National Income and Its Determination",
+    "question": "When calculating GDP using the Expenditure Approach, economists sum up consumption, investment, government spending, and:",
+    "options": [
+      "A) Total taxes",
+      "B) Total savings",
+      "C) Net exports (Exports minus Imports)",
+      "D) Corporate retained earnings"
+    ],
+    "correctAnswer": "C) Net exports (Exports minus Imports)",
+    "explanation": "The expenditure formula for GDP is C + I + G + (X - M), where (X - M) represents net exports."
+  },
+  {
+    "id": "v2c5q265",
+    "chapter": 5,
+    "chapterTitle": "National Income and Its Determination",
+    "question": "When calculating National Income, a government unemployment welfare cheque is strictly excluded from the calculation. Why?",
+    "options": [
+      "A) Because it is paid in foreign currency",
+      "B) Because it is a 'transfer payment' with no corresponding production of goods or services",
+      "C) Because it belongs in the underground economy",
+      "D) Because it is considered corporate profit"
+    ],
+    "correctAnswer": "B) Because it is a 'transfer payment' with no corresponding production of goods or services",
+    "explanation": "Transfer payments (like pensions and welfare) are just re-distributions of existing wealth via taxes; they do not represent new economic production and are excluded from GDP."
+  },
+  {
+    "id": "v2c5q266",
+    "chapter": 5,
+    "chapterTitle": "National Income and Its Determination",
+    "question": "A farmer sells wheat for Rs. 50. A miller turns it into flour and sells it for Rs. 80. A baker makes bread and sells it for Rs. 120. To avoid the massive error of 'double counting', statisticians use the:",
+    "options": [
+      "A) Value-added approach",
+      "B) Multiplier approach",
+      "C) Transfer payment approach",
+      "D) Nominal inflation approach"
+    ],
+    "correctAnswer": "A) Value-added approach",
+    "explanation": "To prevent counting the wheat three times, statisticians only count the 'value added' at each intermediate stage of production (50 + 30 + 40 = 120)."
+  },
+  {
+    "id": "v2c5q267",
+    "chapter": 5,
+    "chapterTitle": "National Income and Its Determination",
+    "question": "An economy reaches its absolute maximum capacity where all citizens are employed. However, intense government and consumer spending continues to rise. Because no more goods can be physically produced, this excess demand creates:",
+    "options": [
+      "A) A deflationary gap",
+      "B) An inflationary gap",
+      "C) A trade surplus",
+      "D) Severe cyclical unemployment"
+    ],
+    "correctAnswer": "B) An inflationary gap",
+    "explanation": "An inflationary gap occurs when Aggregate Demand outstrips Aggregate Supply at the full-employment level, forcing the general price level to rise because output cannot."
+  },
+  {
+    "id": "v2c5q268",
+    "chapter": 5,
+    "chapterTitle": "National Income and Its Determination",
+    "question": "A nation suffers from a large 'shadow' or 'underground' economy where mechanics and tutors deal purely in untaxed, unrecorded cash. What is the impact of this on official statistics?",
+    "options": [
+      "A) The official GDP will drastically overstate true production",
+      "B) The official GDP will severely understate true production",
+      "C) Nominal GDP rises, but Real GDP falls",
+      "D) It automatically shifts the LRAS curve to the right"
+    ],
+    "correctAnswer": "B) The official GDP will severely understate true production",
+    "explanation": "Because transactions in the informal economy are totally unrecorded, they bypass statistical agencies, causing the official GDP to be significantly lower than actual economic activity."
+  },
+  {
+    "id": "v2c5q269",
+    "chapter": 5,
+    "chapterTitle": "National Income and Its Determination",
+    "question": "According to macroeconomic equilibrium conditions, an economy is strictly in equilibrium when total injections (I + G + X) are perfectly equal to:",
+    "options": [
+      "A) Total exports",
+      "B) Total consumption",
+      "C) Total leakages (Savings + Taxes + Imports)",
+      "D) Zero"
+    ],
+    "correctAnswer": "C) Total leakages (Savings + Taxes + Imports)",
+    "explanation": "Equilibrium in the circular flow occurs when the money injected into the economy perfectly balances the money withdrawn or leaked out (S + T + M)."
+  },
+  {
+    "id": "v2c5q270",
+    "chapter": 5,
+    "chapterTitle": "National Income and Its Determination",
+    "question": "If a country's aggregate demand intersects its aggregate supply curve at an output level far below the full-employment level, leaving millions unemployed, the economy is suffering from a:",
+    "options": [
+      "A) Deflationary / Recessionary gap",
+      "B) Inflationary gap",
+      "C) Positive output gap",
+      "D) Budget surplus"
+    ],
+    "correctAnswer": "A) Deflationary / Recessionary gap",
+    "explanation": "A deflationary (recessionary) gap represents the shortfall in aggregate demand required to push the economy to its full-employment potential."
+  },
+  {
+    "id": "v2c7q271",
+    "chapter": 7,
+    "chapterTitle": "Multiplier and Accelerator",
+    "question": "The government injects Rs. 1 billion to build a dam. The workers spend 80% of their wages, shopkeepers spend 80% of their new profits, creating a chain reaction. The final increase in National Income is Rs. 5 billion. This phenomenon is:",
+    "options": [
+      "A) The Accelerator Principle",
+      "B) The Keynesian Investment Multiplier",
+      "C) The Paradox of Thrift",
+      "D) The Price Deflator"
+    ],
+    "correctAnswer": "B) The Keynesian Investment Multiplier",
+    "explanation": "The multiplier effect occurs when an initial injection of autonomous spending leads to a much larger, magnified final increase in national income."
+  },
+  {
+    "id": "v2c7q272",
+    "chapter": 7,
+    "chapterTitle": "Multiplier and Accelerator",
+    "question": "If the citizens of a country spend 75% of any new income they receive (Marginal Propensity to Consume = 0.75), what is the exact value of the Keynesian Investment Multiplier?",
+    "options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 7.5"
+    ],
+    "correctAnswer": "C) 4",
+    "explanation": "Using the formula K = 1 / (1 - MPC). K = 1 / (1 - 0.75) = 1 / 0.25 = 4. The initial investment will multiply four times."
+  },
+  {
+    "id": "v2c7q273",
+    "chapter": 7,
+    "chapterTitle": "Multiplier and Accelerator",
+    "question": "While the Multiplier explains how Investment drives Consumption, the 'Accelerator Theory' focuses on the reverse. It states that:",
+    "options": [
+      "A) High taxes accelerate government debt",
+      "B) Inflation accelerates when the money supply drops",
+      "C) A rapid rise in consumer demand forces firms to aggressively increase Capital Investment to build new factories",
+      "D) Savings accelerate during a boom"
+    ],
+    "correctAnswer": "C) A rapid rise in consumer demand forces firms to aggressively increase Capital Investment to build new factories",
+    "explanation": "The accelerator principle states that an increase in the rate of consumption induces a disproportionately larger increase in capital investment to expand production capacity."
+  },
+  {
+    "id": "v2c7q274",
+    "chapter": 7,
+    "chapterTitle": "Multiplier and Accelerator",
+    "question": "During a specific phase of the business cycle, an economy experiences maximum capacity utilization, massive consumer confidence, practically zero unemployment, and severe inflationary pressures. This phase is the:",
+    "options": [
+      "A) Trough",
+      "B) Recession",
+      "C) Recovery",
+      "D) Peak / Boom"
+    ],
+    "correctAnswer": "D) Peak / Boom",
+    "explanation": "The Peak or Boom is the highest point of economic activity in the business cycle, characterized by full employment and overheating."
+  },
+  {
+    "id": "v2c7q275",
+    "chapter": 7,
+    "chapterTitle": "Multiplier and Accelerator",
+    "question": "An economy is officially diagnosed as having two consecutive quarters of falling real GDP, accompanied by rising unemployment and bankruptcies. The economy has entered a:",
+    "options": [
+      "A) Boom",
+      "B) Recovery",
+      "C) Recession",
+      "D) Soft landing"
+    ],
+    "correctAnswer": "C) Recession",
+    "explanation": "A recession is a widespread economic decline officially defined by at least two consecutive quarters of negative GDP growth."
+  },
+  {
+    "id": "v2c7q276",
+    "chapter": 7,
+    "chapterTitle": "Multiplier and Accelerator",
+    "question": "Economist Paul Samuelson proposed that the constant, wave-like fluctuations of the business cycle (booms followed by recessions) are primarily driven by the dynamic interaction between:",
+    "options": [
+      "A) Inflation and deflation",
+      "B) The Multiplier and the Accelerator",
+      "C) Imports and exports",
+      "D) Monetary and fiscal policy"
+    ],
+    "correctAnswer": "B) The Multiplier and the Accelerator",
+    "explanation": "Samuelson's model explains business cycles through the interplay of the multiplier (consumption) and accelerator (investment) fueling growth until capacity limits cause a collapse."
+  },
+  {
+    "id": "v2c7q277",
+    "chapter": 7,
+    "chapterTitle": "Multiplier and Accelerator",
+    "question": "A factory realizes it requires Rs. 6 million worth of heavy capital machinery to permanently generate Rs. 1 million worth of extra annual output. In the accelerator model, the value '6' represents the:",
+    "options": [
+      "A) Multiplier coefficient",
+      "B) Marginal propensity to save",
+      "C) Capital-Output ratio (v)",
+      "D) Interest rate"
+    ],
+    "correctAnswer": "C) Capital-Output ratio (v)",
+    "explanation": "The capital-output ratio (v) indicates the amount of capital required to produce one unit of output, a key determinant of the accelerator effect's strength."
+  },
+  {
+    "id": "v2c7q278",
+    "chapter": 7,
+    "chapterTitle": "Multiplier and Accelerator",
+    "question": "If a country has a very high 'Marginal Propensity to Import', meaning citizens spend most of their new income on foreign goods, how does this affect the domestic multiplier?",
+    "options": [
+      "A) It makes the multiplier infinitely large",
+      "B) It significantly reduces the size of the domestic multiplier",
+      "C) It perfectly stabilizes the economy",
+      "D) It has no effect at all"
+    ],
+    "correctAnswer": "B) It significantly reduces the size of the domestic multiplier",
+    "explanation": "Imports are a leakage. When new income is spent on imports, it immediately leaves the domestic circular flow, severely weakening the multiplier effect."
+  },
+  {
+    "id": "v2c7q279",
+    "chapter": 7,
+    "chapterTitle": "Multiplier and Accelerator",
+    "question": "At the very bottom of the business cycle, economic activity is completely stagnant, unemployment is exceptionally high, and it remains this way for years. This deep, prolonged trough is a:",
+    "options": [
+      "A) Depression",
+      "B) Recovery",
+      "C) Boom",
+      "D) Mild recession"
+    ],
+    "correctAnswer": "A) Depression",
+    "explanation": "A depression is an unusually severe and prolonged recession, representing the lowest point (trough) of a major economic cycle."
+  },
+  {
+    "id": "v2c7q280",
+    "chapter": 7,
+    "chapterTitle": "Multiplier and Accelerator",
+    "question": "Which of the following is the correct chronological sequence of a standard business cycle?",
+    "options": [
+      "A) Recession, Recovery, Depression, Boom",
+      "B) Boom, Recovery, Recession, Depression",
+      "C) Recovery, Boom, Recession, Depression",
+      "D) Depression, Recession, Boom, Recovery"
+    ],
+    "correctAnswer": "C) Recovery, Boom, Recession, Depression",
+    "explanation": "A standard cycle starts with an expansion (Recovery), hits a peak (Boom), declines (Recession), bottoms out (Depression/Trough), and begins Recovery again."
+  },
+  {
+    "id": "v2c8q281",
+    "chapter": 8,
+    "chapterTitle": "Public Finance",
+    "question": "The government enforces a tax system where a person earning Rs. 50,000 pays 5%, but a person earning Rs. 1 million pays 35%. This system, designed to reduce wealth inequality, is a:",
+    "options": [
+      "A) Regressive tax",
+      "B) Proportional tax",
+      "C) Progressive tax",
+      "D) Flat tax"
+    ],
+    "correctAnswer": "C) Progressive tax",
+    "explanation": "A progressive tax imposes a higher percentage rate on higher-income earners, taking a larger fraction of their wealth compared to lower-income earners."
+  },
+  {
+    "id": "v2c8q282",
+    "chapter": 8,
+    "chapterTitle": "Public Finance",
+    "question": "A consumer buys a television. The price includes a 17% General Sales Tax (GST) that the electronics store collects and passes to the government. Because the consumer bears the burden but the store pays it, this is an:",
+    "options": [
+      "A) Indirect tax",
+      "B) Direct tax",
+      "C) Income tax",
+      "D) Corporate tax"
+    ],
+    "correctAnswer": "A) Indirect tax",
+    "explanation": "An indirect tax is levied on goods and services, and the legal burden to pay it can be shifted from the seller to the final consumer."
+  },
+  {
+    "id": "v2c8q283",
+    "chapter": 8,
+    "chapterTitle": "Public Finance",
+    "question": "During a severe economic crash, the Ministry of Finance significantly reduces income taxes and spends billions building public railways to create jobs. What is this macroeconomic intervention called?",
+    "options": [
+      "A) Contractionary monetary policy",
+      "B) Expansionary fiscal policy",
+      "C) Protectionist trade policy",
+      "D) Deflationary monetary policy"
+    ],
+    "correctAnswer": "B) Expansionary fiscal policy",
+    "explanation": "Fiscal policy involves government taxation and spending. Cutting taxes and increasing spending to stimulate a depressed economy is 'expansionary' fiscal policy."
+  },
+  {
+    "id": "v2c8q284",
+    "chapter": 8,
+    "chapterTitle": "Public Finance",
+    "question": "When the government's total planned spending for the year far exceeds the total revenue it expects to collect from taxes, the government is operating with a:",
+    "options": [
+      "A) Balanced budget",
+      "B) Budget surplus",
+      "C) Budget deficit",
+      "D) Trade deficit"
+    ],
+    "correctAnswer": "C) Budget deficit",
+    "explanation": "A budget deficit occurs when government expenditures exceed government revenues, requiring the government to borrow money to cover the shortfall."
+  },
+  {
+    "id": "v2c8q285",
+    "chapter": 8,
+    "chapterTitle": "Public Finance",
+    "question": "A defining feature of a 'Direct Tax', such as personal income tax, is that:",
+    "options": [
+      "A) It is applied equally to everyone regardless of wealth",
+      "B) It is only levied on imported goods",
+      "C) The financial burden cannot be shifted to another person",
+      "D) It is collected by local supermarkets"
+    ],
+    "correctAnswer": "C) The financial burden cannot be shifted to another person",
+    "explanation": "A direct tax is levied directly on an individual's income or wealth, and the legal obligation to pay it rests entirely on that individual."
+  },
+  {
+    "id": "v2c9q286",
+    "chapter": 9,
+    "chapterTitle": "Money",
+    "question": "Before money existed, a farmer trading wheat for a cow had to find a cow owner who specifically wanted wheat. This massive limitation of the barter system is known as the:",
+    "options": [
+      "A) Double coincidence of wants",
+      "B) Divisibility problem",
+      "C) Speculative motive",
+      "D) Paradox of value"
+    ],
+    "correctAnswer": "A) Double coincidence of wants",
+    "explanation": "The double coincidence of wants requires two parties to each possess exactly what the other desires, making barter trade incredibly difficult without money."
+  },
+  {
+    "id": "v2c9q287",
+    "chapter": 9,
+    "chapterTitle": "Money",
+    "question": "A supermarket prices a loaf of bread at Rs. 100 and a bottle of milk at Rs. 150. By allowing completely different goods to be valued using a single, common denominator, money is performing its function as a:",
+    "options": [
+      "A) Store of value",
+      "B) Medium of exchange",
+      "C) Unit of account (measure of value)",
+      "D) Standard of deferred payment"
+    ],
+    "correctAnswer": "C) Unit of account (measure of value)",
+    "explanation": "Money acts as a unit of account, providing a universal standard metric to price, value, and compare all economic goods and services."
+  },
+  {
+    "id": "v2c9q288",
+    "chapter": 9,
+    "chapterTitle": "Money",
+    "question": "Modern paper currency has no actual intrinsic value. People only accept it because the government has passed a law declaring it to be valid for settling debts. This type of currency is called:",
+    "options": [
+      "A) Commodity money",
+      "B) Fiat money",
+      "C) Representative money",
+      "D) Intrinsic money"
+    ],
+    "correctAnswer": "B) Fiat money",
+    "explanation": "Fiat money is currency that lacks intrinsic value but is established as legal tender by government decree."
+  },
+  {
+    "id": "v2c9q289",
+    "chapter": 9,
+    "chapterTitle": "Money",
+    "question": "According to Keynesian theory, an investor chooses to hold physical cash in a safe instead of buying bonds because they predict bond prices will soon crash. This is an example of the:",
+    "options": [
+      "A) Transactions motive",
+      "B) Precautionary motive",
+      "C) Speculative motive",
+      "D) Inflationary motive"
+    ],
+    "correctAnswer": "C) Speculative motive",
+    "explanation": "The speculative motive involves holding liquid cash to take advantage of future changes in the prices of financial assets or interest rates."
+  },
+  {
+    "id": "v2c9q290",
+    "chapter": 9,
+    "chapterTitle": "Money",
+    "question": "During a period of extreme hyperinflation, people rush to spend their money the exact second they get paid, refusing to save any of it. Which critical function of money is completely destroyed here?",
+    "options": [
+      "A) Medium of exchange",
+      "B) Unit of account",
+      "C) Standard of deferred payment",
+      "D) Store of value"
+    ],
+    "correctAnswer": "D) Store of value",
+    "explanation": "Money serves as a store of value. Hyperinflation rapidly destroys money's purchasing power, meaning it can no longer reliably store wealth over time."
+  },
+  {
+    "id": "v2c10q291",
+    "chapter": 10,
+    "chapterTitle": "Inflation and Unemployment",
+    "question": "The government prints billions of new currency notes, sparking a massive spending spree. Because factories are already at full capacity and cannot produce more goods, they just raise prices. This is known as:",
+    "options": [
+      "A) Cost-push inflation",
+      "B) Demand-pull inflation",
+      "C) Structural inflation",
+      "D) Imported inflation"
+    ],
+    "correctAnswer": "B) Demand-pull inflation",
+    "explanation": "Demand-pull inflation occurs when aggregate demand rises far beyond the economy's aggregate supply capacity ('too much money chasing too few goods')."
+  },
+  {
+    "id": "v2c10q292",
+    "chapter": 10,
+    "chapterTitle": "Inflation and Unemployment",
+    "question": "A massive global crisis triples the price of crude oil. Manufacturers are forced to drastically raise the retail prices of all their goods to cover these massive new energy costs. This triggers:",
+    "options": [
+      "A) Demand-pull inflation",
+      "B) Hyper-demand inflation",
+      "C) Cost-push inflation",
+      "D) Deflationary spiral"
+    ],
+    "correctAnswer": "C) Cost-push inflation",
+    "explanation": "Cost-push inflation is driven by a decrease in aggregate supply due to an increase in production costs (such as expensive imported energy), pushing prices up."
+  },
+  {
+    "id": "v2c10q293",
+    "chapter": 10,
+    "chapterTitle": "Inflation and Unemployment",
+    "question": "A highly skilled accountant quits her job in Karachi to move to Islamabad. It takes her exactly three weeks to find a new job. During those three weeks, she is classified as:",
+    "options": [
+      "A) Cyclically unemployed",
+      "B) Structurally unemployed",
+      "C) Frictionally unemployed",
+      "D) Seasonally unemployed"
+    ],
+    "correctAnswer": "C) Frictionally unemployed",
+    "explanation": "Frictional unemployment is a temporary, short-term form of unemployment that occurs when workers are voluntarily transitioning between jobs or moving locations."
+  },
+  {
+    "id": "v2c10q294",
+    "chapter": 10,
+    "chapterTitle": "Inflation and Unemployment",
+    "question": "A massive shift towards digital media permanently bankrupts hundreds of traditional newspaper presses. The press operators cannot find jobs because tech companies require programming skills they do not possess. This is:",
+    "options": [
+      "A) Frictional unemployment",
+      "B) Structural unemployment",
+      "C) Cyclical unemployment",
+      "D) Seasonal unemployment"
+    ],
+    "correctAnswer": "B) Structural unemployment",
+    "explanation": "Structural unemployment occurs when there is a fundamental mismatch between the obsolete skills possessed by workers and the modern skills demanded by the economy."
+  },
+  {
+    "id": "v2c10q295",
+    "chapter": 10,
+    "chapterTitle": "Inflation and Unemployment",
+    "question": "The global economy crashes into a severe recession. Consumers stop buying cars, forcing automobile factories to lay off 20% of their assembly workforce due to a lack of overall demand. This represents:",
+    "options": [
+      "A) Cyclical unemployment",
+      "B) Structural unemployment",
+      "C) Frictional unemployment",
+      "D) Voluntary unemployment"
+    ],
+    "correctAnswer": "A) Cyclical unemployment",
+    "explanation": "Cyclical (or demand-deficient) unemployment is caused directly by a downturn in the business cycle when aggregate demand drops too low to sustain full employment."
+  },
+  {
+    "id": "v2c11q296",
+    "chapter": 11,
+    "chapterTitle": "Monetary Policy",
+    "question": "The country is suffering from out-of-control inflation. The Central Bank initiates a 'contractionary' monetary policy to cool the economy. What specific action should it take?",
+    "options": [
+      "A) Lower the benchmark interest rates",
+      "B) Aggressively sell government bonds in the open market",
+      "C) Decrease the cash reserve ratio for banks",
+      "D) Increase government spending on public works"
+    ],
+    "correctAnswer": "B) Aggressively sell government bonds in the open market",
+    "explanation": "Selling bonds absorbs excess cash from commercial banks. With less cash, banks lend less, reducing the money supply and curbing inflationary spending."
+  },
+  {
+    "id": "v2c11q297",
+    "chapter": 11,
+    "chapterTitle": "Monetary Policy",
+    "question": "The Central Bank drastically lowers its benchmark discount rate (the rate it charges commercial banks to borrow). What is the intended macroeconomic effect?",
+    "options": [
+      "A) To make borrowing cheaper, stimulating investment and aggregate demand",
+      "B) To instantly cause a recession",
+      "C) To decrease the total money supply",
+      "D) To decrease national trade deficits"
+    ],
+    "correctAnswer": "A) To make borrowing cheaper, stimulating investment and aggregate demand",
+    "explanation": "Lowering interest rates is an expansionary policy that reduces the cost of borrowing, thereby encouraging businesses to invest and consumers to spend."
+  },
+  {
+    "id": "v2c11q298",
+    "chapter": 11,
+    "chapterTitle": "Monetary Policy",
+    "question": "The Central Bank raises the 'Cash Reserve Ratio', legally requiring commercial banks to lock 20% of their deposits in vaults instead of 10%. How does this affect the money supply?",
+    "options": [
+      "A) It greatly increases the money supply",
+      "B) It decreases the money supply by restricting banks' ability to create credit",
+      "C) It immediately causes hyperinflation",
+      "D) It has absolutely no effect"
+    ],
+    "correctAnswer": "B) It decreases the money supply by restricting banks' ability to create credit",
+    "explanation": "By forcing banks to hold a higher percentage of cash in reserve, they have less money available to lend out, shrinking the credit multiplier and tightening the money supply."
+  },
+  {
+    "id": "v2c12q299",
+    "chapter": 12,
+    "chapterTitle": "Balance of Trade and Payments",
+    "question": "To protect local car manufacturers, the government passes a law stating that no more than 5,000 foreign-made vehicles may be imported into the country this year. This physical restriction is an:",
+    "options": [
+      "A) Import Tariff",
+      "B) Export Subsidy",
+      "C) Exchange Control",
+      "D) Import Quota"
+    ],
+    "correctAnswer": "D) Import Quota",
+    "explanation": "An import quota is a strict, direct quantitative limit on the maximum volume or number of a specific good that can be legally imported over a given period."
+  },
+  {
+    "id": "v2c12q300",
+    "chapter": 12,
+    "chapterTitle": "Balance of Trade and Payments",
+    "question": "The government places a 30% financial tax on all imported steel to make it artificially more expensive than locally produced steel. This protective financial barrier is known as a:",
+    "options": [
+      "A) Quota",
+      "B) Embargo",
+      "C) Tariff",
+      "D) Cartel"
+    ],
+    "correctAnswer": "C) Tariff",
+    "explanation": "A tariff (or customs duty) is a tax levied on imported goods, designed to raise their price and make domestic goods more competitive."
+  }
+]

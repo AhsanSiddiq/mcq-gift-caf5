@@ -1,0 +1,702 @@
+[
+  {
+    "id": "v2c4q251",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "A car factory produces 100 cars for a total cost of Rs. 10 million. Producing 101 cars raises the total cost to Rs. 10.15 million. What does the extra Rs. 150,000 represent?",
+    "options": [
+      "A) Average Fixed Cost",
+      "B) Average Total Cost",
+      "C) Marginal Cost",
+      "D) Incremental Revenue"
+    ],
+    "correctAnswer": "C) Marginal Cost",
+    "explanation": "Marginal cost is defined as the extra or additional cost incurred by producing exactly one more unit of output."
+  },
+  {
+    "id": "v2c4q252",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "As a factory drastically increases its volume of production, what happens to the Average Fixed Cost (AFC) curve?",
+    "options": [
+      "A) It perfectly tracks the marginal cost curve",
+      "B) It stays horizontal",
+      "C) It continuously falls, approaching zero but never touching it",
+      "D) It rises exponentially"
+    ],
+    "correctAnswer": "C) It continuously falls, approaching zero but never touching it",
+    "explanation": "Because the total fixed cost is a constant number, dividing it by an increasingly large quantity of output means the average fixed cost per unit continuously decreases."
+  },
+  {
+    "id": "v2c4q253",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "On a standard short-run cost diagram, at what exact mathematical point does the Marginal Cost (MC) curve intersect the Average Total Cost (ATC) curve?",
+    "options": [
+      "A) The maximum point of the ATC curve",
+      "B) The minimum point of the ATC curve",
+      "C) At the origin",
+      "D) Where ATC equals Average Fixed Cost"
+    ],
+    "correctAnswer": "B) The minimum point of the ATC curve",
+    "explanation": "The relationship between marginal and average values dictates that the marginal cost curve always cuts through the average total cost curve exactly at its lowest (minimum) point."
+  },
+  {
+    "id": "v2c4q254",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "A massive logistics firm doubles its trucks, warehouses, and staff (a 100% increase in inputs). As a result, its delivery capacity increases by exactly 100%. This is an example of:",
+    "options": [
+      "A) Increasing returns to scale",
+      "B) Constant returns to scale",
+      "C) Decreasing returns to scale",
+      "D) Diseconomies of scale"
+    ],
+    "correctAnswer": "B) Constant returns to scale",
+    "explanation": "Constant returns to scale occur in the long run when a proportionate increase in all inputs results in an exactly equal proportionate increase in total output."
+  },
+  {
+    "id": "v2c4q255",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "A multinational corporation grows so incredibly large that management loses control, internal communication breaks down, and extreme bureaucracy occurs. As a result, its long-run average cost per unit begins to rise. This describes:",
+    "options": [
+      "A) Economies of scale",
+      "B) Constant returns to scale",
+      "C) Diseconomies of scale",
+      "D) The accelerator effect"
+    ],
+    "correctAnswer": "C) Diseconomies of scale",
+    "explanation": "Diseconomies of scale happen when a firm becomes too large and inefficient, causing its long-run average costs to increase as output expands."
+  },
+  {
+    "id": "v2c4q256",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "A software startup spent Rs. 5 million on a failed marketing campaign. The money is gone and cannot be recovered. When making future financial decisions, economists advise that this Rs. 5 million must be treated as a:",
+    "options": [
+      "A) Variable cost",
+      "B) Sunk cost to be ignored",
+      "C) Marginal cost",
+      "D) Future liability"
+    ],
+    "correctAnswer": "B) Sunk cost to be ignored",
+    "explanation": "Sunk costs are historical expenses that cannot be recovered. Rational economic decisions should ignore sunk costs and look only at future costs and benefits."
+  },
+  {
+    "id": "v2c4q257",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "Which of the following is a classic example of a 'Variable Cost' in a commercial bakery?",
+    "options": [
+      "A) The monthly rent for the bakery building",
+      "B) The annual salary of the general manager",
+      "C) The flour and sugar used to bake the cakes",
+      "D) The interest paid on a bank loan"
+    ],
+    "correctAnswer": "C) The flour and sugar used to bake the cakes",
+    "explanation": "Variable costs change in direct proportion to the volume of output. Producing more cakes directly requires purchasing more flour and sugar."
+  },
+  {
+    "id": "v2c4q258",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "In the first stage of the law of variable proportions, adding more workers allows them to divide tasks and specialize, making the factory highly efficient. What happens to the Marginal Product (MP) during this stage?",
+    "options": [
+      "A) It slopes downward",
+      "B) It drops to zero",
+      "C) It slopes upward (increases)",
+      "D) It becomes negative"
+    ],
+    "correctAnswer": "C) It slopes upward (increases)",
+    "explanation": "In Stage I (Increasing Returns), the marginal product of each additional worker rises because the fixed machinery is being utilized much more efficiently."
+  },
+  {
+    "id": "v2c4q259",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "A firm breaks even exactly, covering all its explicit accounting costs plus the opportunity cost of the entrepreneur's time and capital. In economics, this firm is earning:",
+    "options": [
+      "A) Supernormal profit",
+      "B) Normal profit",
+      "C) Negative profit",
+      "D) Monopoly rent"
+    ],
+    "correctAnswer": "B) Normal profit",
+    "explanation": "Normal profit is the minimum level of profit needed to keep a firm in the industry, achieved when Total Revenue equals Total Economic Cost (which includes opportunity costs)."
+  },
+  {
+    "id": "v2c4q260",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "In an oligopoly, a firm assumes that if it lowers its price, rivals will match it, but if it raises its price, rivals will ignore it and steal its customers. This assumption results in a:",
+    "options": [
+      "A) Perfectly elastic demand curve",
+      "B) Kinked demand curve",
+      "C) Vertical demand curve",
+      "D) U-shaped supply curve"
+    ],
+    "correctAnswer": "B) Kinked demand curve",
+    "explanation": "The kinked demand curve model explains price rigidity in oligopolies, where demand is highly elastic for price increases but inelastic for price cuts."
+  },
+  {
+    "id": "v2c5q261",
+    "chapter": 5,
+    "chapterTitle": "National Income and Its Determination",
+    "question": "Which crucial macroeconomic indicator measures the total market value of all final goods and services produced within the geographic borders of a country in a given year?",
+    "options": [
+      "A) Gross National Product (GNP)",
+      "B) Net National Product (NNP)",
+      "C) Gross Domestic Product (GDP)",
+      "D) The Consumer Price Index (CPI)"
+    ],
+    "correctAnswer": "C) Gross Domestic Product (GDP)",
+    "explanation": "GDP strictly measures production that occurs within a country's geographic borders, regardless of whether the producers are citizens or foreigners."
+  },
+  {
+    "id": "v2c5q262",
+    "chapter": 5,
+    "chapterTitle": "National Income and Its Determination",
+    "question": "To convert a country's Gross Domestic Product (GDP) into Gross National Product (GNP), an economist must add which specific value?",
+    "options": [
+      "A) Capital depreciation",
+      "B) Net factor income from abroad",
+      "C) Total government welfare payments",
+      "D) Indirect business taxes"
+    ],
+    "correctAnswer": "B) Net factor income from abroad",
+    "explanation": "GNP measures the output produced by a country's citizens regardless of where they are in the world. It is calculated as GDP plus net factor income from abroad."
+  },
+  {
+    "id": "v2c5q263",
+    "chapter": 5,
+    "chapterTitle": "National Income and Its Determination",
+    "question": "A government boasts that GDP grew by 15% this year. However, inflation was also 15%. To evaluate if actual physical production increased, economists remove the illusion of inflation by calculating the:",
+    "options": [
+      "A) Nominal GDP",
+      "B) Gross National Happiness",
+      "C) Real GDP",
+      "D) Purchasing Power Parity"
+    ],
+    "correctAnswer": "C) Real GDP",
+    "explanation": "Real GDP adjusts the nominal GDP figure by using constant base-year prices, thereby stripping out the effects of inflation to show true volume growth."
+  },
+  {
+    "id": "v2c5q264",
+    "chapter": 5,
+    "chapterTitle": "National Income and Its Determination",
+    "question": "When calculating GDP using the Expenditure Approach, economists sum up consumption, investment, government spending, and:",
+    "options": [
+      "A) Total taxes",
+      "B) Total savings",
+      "C) Net exports (Exports minus Imports)",
+      "D) Corporate retained earnings"
+    ],
+    "correctAnswer": "C) Net exports (Exports minus Imports)",
+    "explanation": "The expenditure formula for GDP is C + I + G + (X - M), where (X - M) represents net exports."
+  },
+  {
+    "id": "v2c5q265",
+    "chapter": 5,
+    "chapterTitle": "National Income and Its Determination",
+    "question": "When calculating National Income, a government unemployment welfare cheque is strictly excluded from the calculation. Why?",
+    "options": [
+      "A) Because it is paid in foreign currency",
+      "B) Because it is a 'transfer payment' with no corresponding production of goods or services",
+      "C) Because it belongs in the underground economy",
+      "D) Because it is considered corporate profit"
+    ],
+    "correctAnswer": "B) Because it is a 'transfer payment' with no corresponding production of goods or services",
+    "explanation": "Transfer payments (like pensions and welfare) are just re-distributions of existing wealth via taxes; they do not represent new economic production and are excluded from GDP."
+  },
+  {
+    "id": "v2c5q266",
+    "chapter": 5,
+    "chapterTitle": "National Income and Its Determination",
+    "question": "A farmer sells wheat for Rs. 50. A miller turns it into flour and sells it for Rs. 80. A baker makes bread and sells it for Rs. 120. To avoid the massive error of 'double counting', statisticians use the:",
+    "options": [
+      "A) Value-added approach",
+      "B) Multiplier approach",
+      "C) Transfer payment approach",
+      "D) Nominal inflation approach"
+    ],
+    "correctAnswer": "A) Value-added approach",
+    "explanation": "To prevent counting the wheat three times, statisticians only count the 'value added' at each intermediate stage of production (50 + 30 + 40 = 120)."
+  },
+  {
+    "id": "v2c5q267",
+    "chapter": 5,
+    "chapterTitle": "National Income and Its Determination",
+    "question": "An economy reaches its absolute maximum capacity where all citizens are employed. However, intense government and consumer spending continues to rise. Because no more goods can be physically produced, this excess demand creates:",
+    "options": [
+      "A) A deflationary gap",
+      "B) An inflationary gap",
+      "C) A trade surplus",
+      "D) Severe cyclical unemployment"
+    ],
+    "correctAnswer": "B) An inflationary gap",
+    "explanation": "An inflationary gap occurs when Aggregate Demand outstrips Aggregate Supply at the full-employment level, forcing the general price level to rise because output cannot."
+  },
+  {
+    "id": "v2c5q268",
+    "chapter": 5,
+    "chapterTitle": "National Income and Its Determination",
+    "question": "A nation suffers from a large 'shadow' or 'underground' economy where mechanics and tutors deal purely in untaxed, unrecorded cash. What is the impact of this on official statistics?",
+    "options": [
+      "A) The official GDP will drastically overstate true production",
+      "B) The official GDP will severely understate true production",
+      "C) Nominal GDP rises, but Real GDP falls",
+      "D) It automatically shifts the LRAS curve to the right"
+    ],
+    "correctAnswer": "B) The official GDP will severely understate true production",
+    "explanation": "Because transactions in the informal economy are totally unrecorded, they bypass statistical agencies, causing the official GDP to be significantly lower than actual economic activity."
+  },
+  {
+    "id": "v2c5q269",
+    "chapter": 5,
+    "chapterTitle": "National Income and Its Determination",
+    "question": "According to macroeconomic equilibrium conditions, an economy is strictly in equilibrium when total injections (I + G + X) are perfectly equal to:",
+    "options": [
+      "A) Total exports",
+      "B) Total consumption",
+      "C) Total leakages (Savings + Taxes + Imports)",
+      "D) Zero"
+    ],
+    "correctAnswer": "C) Total leakages (Savings + Taxes + Imports)",
+    "explanation": "Equilibrium in the circular flow occurs when the money injected into the economy perfectly balances the money withdrawn or leaked out (S + T + M)."
+  },
+  {
+    "id": "v2c5q270",
+    "chapter": 5,
+    "chapterTitle": "National Income and Its Determination",
+    "question": "If a country's aggregate demand intersects its aggregate supply curve at an output level far below the full-employment level, leaving millions unemployed, the economy is suffering from a:",
+    "options": [
+      "A) Deflationary / Recessionary gap",
+      "B) Inflationary gap",
+      "C) Positive output gap",
+      "D) Budget surplus"
+    ],
+    "correctAnswer": "A) Deflationary / Recessionary gap",
+    "explanation": "A deflationary (recessionary) gap represents the shortfall in aggregate demand required to push the economy to its full-employment potential."
+  },
+  {
+    "id": "v2c7q271",
+    "chapter": 7,
+    "chapterTitle": "Multiplier and Accelerator",
+    "question": "The government injects Rs. 1 billion to build a dam. The workers spend 80% of their wages, shopkeepers spend 80% of their new profits, creating a chain reaction. The final increase in National Income is Rs. 5 billion. This phenomenon is:",
+    "options": [
+      "A) The Accelerator Principle",
+      "B) The Keynesian Investment Multiplier",
+      "C) The Paradox of Thrift",
+      "D) The Price Deflator"
+    ],
+    "correctAnswer": "B) The Keynesian Investment Multiplier",
+    "explanation": "The multiplier effect occurs when an initial injection of autonomous spending leads to a much larger, magnified final increase in national income."
+  },
+  {
+    "id": "v2c7q272",
+    "chapter": 7,
+    "chapterTitle": "Multiplier and Accelerator",
+    "question": "If the citizens of a country spend 75% of any new income they receive (Marginal Propensity to Consume = 0.75), what is the exact value of the Keynesian Investment Multiplier?",
+    "options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 7.5"
+    ],
+    "correctAnswer": "C) 4",
+    "explanation": "Using the formula K = 1 / (1 - MPC). K = 1 / (1 - 0.75) = 1 / 0.25 = 4. The initial investment will multiply four times."
+  },
+  {
+    "id": "v2c7q273",
+    "chapter": 7,
+    "chapterTitle": "Multiplier and Accelerator",
+    "question": "While the Multiplier explains how Investment drives Consumption, the 'Accelerator Theory' focuses on the reverse. It states that:",
+    "options": [
+      "A) High taxes accelerate government debt",
+      "B) Inflation accelerates when the money supply drops",
+      "C) A rapid rise in consumer demand forces firms to aggressively increase Capital Investment to build new factories",
+      "D) Savings accelerate during a boom"
+    ],
+    "correctAnswer": "C) A rapid rise in consumer demand forces firms to aggressively increase Capital Investment to build new factories",
+    "explanation": "The accelerator principle states that an increase in the rate of consumption induces a disproportionately larger increase in capital investment to expand production capacity."
+  },
+  {
+    "id": "v2c7q274",
+    "chapter": 7,
+    "chapterTitle": "Multiplier and Accelerator",
+    "question": "During a specific phase of the business cycle, an economy experiences maximum capacity utilization, massive consumer confidence, practically zero unemployment, and severe inflationary pressures. This phase is the:",
+    "options": [
+      "A) Trough",
+      "B) Recession",
+      "C) Recovery",
+      "D) Peak / Boom"
+    ],
+    "correctAnswer": "D) Peak / Boom",
+    "explanation": "The Peak or Boom is the highest point of economic activity in the business cycle, characterized by full employment and overheating."
+  },
+  {
+    "id": "v2c7q275",
+    "chapter": 7,
+    "chapterTitle": "Multiplier and Accelerator",
+    "question": "An economy is officially diagnosed as having two consecutive quarters of falling real GDP, accompanied by rising unemployment and bankruptcies. The economy has entered a:",
+    "options": [
+      "A) Boom",
+      "B) Recovery",
+      "C) Recession",
+      "D) Soft landing"
+    ],
+    "correctAnswer": "C) Recession",
+    "explanation": "A recession is a widespread economic decline officially defined by at least two consecutive quarters of negative GDP growth."
+  },
+  {
+    "id": "v2c7q276",
+    "chapter": 7,
+    "chapterTitle": "Multiplier and Accelerator",
+    "question": "Economist Paul Samuelson proposed that the constant, wave-like fluctuations of the business cycle (booms followed by recessions) are primarily driven by the dynamic interaction between:",
+    "options": [
+      "A) Inflation and deflation",
+      "B) The Multiplier and the Accelerator",
+      "C) Imports and exports",
+      "D) Monetary and fiscal policy"
+    ],
+    "correctAnswer": "B) The Multiplier and the Accelerator",
+    "explanation": "Samuelson's model explains business cycles through the interplay of the multiplier (consumption) and accelerator (investment) fueling growth until capacity limits cause a collapse."
+  },
+  {
+    "id": "v2c7q277",
+    "chapter": 7,
+    "chapterTitle": "Multiplier and Accelerator",
+    "question": "A factory realizes it requires Rs. 6 million worth of heavy capital machinery to permanently generate Rs. 1 million worth of extra annual output. In the accelerator model, the value '6' represents the:",
+    "options": [
+      "A) Multiplier coefficient",
+      "B) Marginal propensity to save",
+      "C) Capital-Output ratio (v)",
+      "D) Interest rate"
+    ],
+    "correctAnswer": "C) Capital-Output ratio (v)",
+    "explanation": "The capital-output ratio (v) indicates the amount of capital required to produce one unit of output, a key determinant of the accelerator effect's strength."
+  },
+  {
+    "id": "v2c7q278",
+    "chapter": 7,
+    "chapterTitle": "Multiplier and Accelerator",
+    "question": "If a country has a very high 'Marginal Propensity to Import', meaning citizens spend most of their new income on foreign goods, how does this affect the domestic multiplier?",
+    "options": [
+      "A) It makes the multiplier infinitely large",
+      "B) It significantly reduces the size of the domestic multiplier",
+      "C) It perfectly stabilizes the economy",
+      "D) It has no effect at all"
+    ],
+    "correctAnswer": "B) It significantly reduces the size of the domestic multiplier",
+    "explanation": "Imports are a leakage. When new income is spent on imports, it immediately leaves the domestic circular flow, severely weakening the multiplier effect."
+  },
+  {
+    "id": "v2c7q279",
+    "chapter": 7,
+    "chapterTitle": "Multiplier and Accelerator",
+    "question": "At the very bottom of the business cycle, economic activity is completely stagnant, unemployment is exceptionally high, and it remains this way for years. This deep, prolonged trough is a:",
+    "options": [
+      "A) Depression",
+      "B) Recovery",
+      "C) Boom",
+      "D) Mild recession"
+    ],
+    "correctAnswer": "A) Depression",
+    "explanation": "A depression is an unusually severe and prolonged recession, representing the lowest point (trough) of a major economic cycle."
+  },
+  {
+    "id": "v2c7q280",
+    "chapter": 7,
+    "chapterTitle": "Multiplier and Accelerator",
+    "question": "Which of the following is the correct chronological sequence of a standard business cycle?",
+    "options": [
+      "A) Recession, Recovery, Depression, Boom",
+      "B) Boom, Recovery, Recession, Depression",
+      "C) Recovery, Boom, Recession, Depression",
+      "D) Depression, Recession, Boom, Recovery"
+    ],
+    "correctAnswer": "C) Recovery, Boom, Recession, Depression",
+    "explanation": "A standard cycle starts with an expansion (Recovery), hits a peak (Boom), declines (Recession), bottoms out (Depression/Trough), and begins Recovery again."
+  },
+  {
+    "id": "v2c8q281",
+    "chapter": 8,
+    "chapterTitle": "Public Finance",
+    "question": "The government enforces a tax system where a person earning Rs. 50,000 pays 5%, but a person earning Rs. 1 million pays 35%. This system, designed to reduce wealth inequality, is a:",
+    "options": [
+      "A) Regressive tax",
+      "B) Proportional tax",
+      "C) Progressive tax",
+      "D) Flat tax"
+    ],
+    "correctAnswer": "C) Progressive tax",
+    "explanation": "A progressive tax imposes a higher percentage rate on higher-income earners, taking a larger fraction of their wealth compared to lower-income earners."
+  },
+  {
+    "id": "v2c8q282",
+    "chapter": 8,
+    "chapterTitle": "Public Finance",
+    "question": "A consumer buys a television. The price includes a 17% General Sales Tax (GST) that the electronics store collects and passes to the government. Because the consumer bears the burden but the store pays it, this is an:",
+    "options": [
+      "A) Indirect tax",
+      "B) Direct tax",
+      "C) Income tax",
+      "D) Corporate tax"
+    ],
+    "correctAnswer": "A) Indirect tax",
+    "explanation": "An indirect tax is levied on goods and services, and the legal burden to pay it can be shifted from the seller to the final consumer."
+  },
+  {
+    "id": "v2c8q283",
+    "chapter": 8,
+    "chapterTitle": "Public Finance",
+    "question": "During a severe economic crash, the Ministry of Finance significantly reduces income taxes and spends billions building public railways to create jobs. What is this macroeconomic intervention called?",
+    "options": [
+      "A) Contractionary monetary policy",
+      "B) Expansionary fiscal policy",
+      "C) Protectionist trade policy",
+      "D) Deflationary monetary policy"
+    ],
+    "correctAnswer": "B) Expansionary fiscal policy",
+    "explanation": "Fiscal policy involves government taxation and spending. Cutting taxes and increasing spending to stimulate a depressed economy is 'expansionary' fiscal policy."
+  },
+  {
+    "id": "v2c8q284",
+    "chapter": 8,
+    "chapterTitle": "Public Finance",
+    "question": "When the government's total planned spending for the year far exceeds the total revenue it expects to collect from taxes, the government is operating with a:",
+    "options": [
+      "A) Balanced budget",
+      "B) Budget surplus",
+      "C) Budget deficit",
+      "D) Trade deficit"
+    ],
+    "correctAnswer": "C) Budget deficit",
+    "explanation": "A budget deficit occurs when government expenditures exceed government revenues, requiring the government to borrow money to cover the shortfall."
+  },
+  {
+    "id": "v2c8q285",
+    "chapter": 8,
+    "chapterTitle": "Public Finance",
+    "question": "A defining feature of a 'Direct Tax', such as personal income tax, is that:",
+    "options": [
+      "A) It is applied equally to everyone regardless of wealth",
+      "B) It is only levied on imported goods",
+      "C) The financial burden cannot be shifted to another person",
+      "D) It is collected by local supermarkets"
+    ],
+    "correctAnswer": "C) The financial burden cannot be shifted to another person",
+    "explanation": "A direct tax is levied directly on an individual's income or wealth, and the legal obligation to pay it rests entirely on that individual."
+  },
+  {
+    "id": "v2c9q286",
+    "chapter": 9,
+    "chapterTitle": "Money",
+    "question": "Before money existed, a farmer trading wheat for a cow had to find a cow owner who specifically wanted wheat. This massive limitation of the barter system is known as the:",
+    "options": [
+      "A) Double coincidence of wants",
+      "B) Divisibility problem",
+      "C) Speculative motive",
+      "D) Paradox of value"
+    ],
+    "correctAnswer": "A) Double coincidence of wants",
+    "explanation": "The double coincidence of wants requires two parties to each possess exactly what the other desires, making barter trade incredibly difficult without money."
+  },
+  {
+    "id": "v2c9q287",
+    "chapter": 9,
+    "chapterTitle": "Money",
+    "question": "A supermarket prices a loaf of bread at Rs. 100 and a bottle of milk at Rs. 150. By allowing completely different goods to be valued using a single, common denominator, money is performing its function as a:",
+    "options": [
+      "A) Store of value",
+      "B) Medium of exchange",
+      "C) Unit of account (measure of value)",
+      "D) Standard of deferred payment"
+    ],
+    "correctAnswer": "C) Unit of account (measure of value)",
+    "explanation": "Money acts as a unit of account, providing a universal standard metric to price, value, and compare all economic goods and services."
+  },
+  {
+    "id": "v2c9q288",
+    "chapter": 9,
+    "chapterTitle": "Money",
+    "question": "Modern paper currency has no actual intrinsic value. People only accept it because the government has passed a law declaring it to be valid for settling debts. This type of currency is called:",
+    "options": [
+      "A) Commodity money",
+      "B) Fiat money",
+      "C) Representative money",
+      "D) Intrinsic money"
+    ],
+    "correctAnswer": "B) Fiat money",
+    "explanation": "Fiat money is currency that lacks intrinsic value but is established as legal tender by government decree."
+  },
+  {
+    "id": "v2c9q289",
+    "chapter": 9,
+    "chapterTitle": "Money",
+    "question": "According to Keynesian theory, an investor chooses to hold physical cash in a safe instead of buying bonds because they predict bond prices will soon crash. This is an example of the:",
+    "options": [
+      "A) Transactions motive",
+      "B) Precautionary motive",
+      "C) Speculative motive",
+      "D) Inflationary motive"
+    ],
+    "correctAnswer": "C) Speculative motive",
+    "explanation": "The speculative motive involves holding liquid cash to take advantage of future changes in the prices of financial assets or interest rates."
+  },
+  {
+    "id": "v2c9q290",
+    "chapter": 9,
+    "chapterTitle": "Money",
+    "question": "During a period of extreme hyperinflation, people rush to spend their money the exact second they get paid, refusing to save any of it. Which critical function of money is completely destroyed here?",
+    "options": [
+      "A) Medium of exchange",
+      "B) Unit of account",
+      "C) Standard of deferred payment",
+      "D) Store of value"
+    ],
+    "correctAnswer": "D) Store of value",
+    "explanation": "Money serves as a store of value. Hyperinflation rapidly destroys money's purchasing power, meaning it can no longer reliably store wealth over time."
+  },
+  {
+    "id": "v2c10q291",
+    "chapter": 10,
+    "chapterTitle": "Inflation and Unemployment",
+    "question": "The government prints billions of new currency notes, sparking a massive spending spree. Because factories are already at full capacity and cannot produce more goods, they just raise prices. This is known as:",
+    "options": [
+      "A) Cost-push inflation",
+      "B) Demand-pull inflation",
+      "C) Structural inflation",
+      "D) Imported inflation"
+    ],
+    "correctAnswer": "B) Demand-pull inflation",
+    "explanation": "Demand-pull inflation occurs when aggregate demand rises far beyond the economy's aggregate supply capacity ('too much money chasing too few goods')."
+  },
+  {
+    "id": "v2c10q292",
+    "chapter": 10,
+    "chapterTitle": "Inflation and Unemployment",
+    "question": "A massive global crisis triples the price of crude oil. Manufacturers are forced to drastically raise the retail prices of all their goods to cover these massive new energy costs. This triggers:",
+    "options": [
+      "A) Demand-pull inflation",
+      "B) Hyper-demand inflation",
+      "C) Cost-push inflation",
+      "D) Deflationary spiral"
+    ],
+    "correctAnswer": "C) Cost-push inflation",
+    "explanation": "Cost-push inflation is driven by a decrease in aggregate supply due to an increase in production costs (such as expensive imported energy), pushing prices up."
+  },
+  {
+    "id": "v2c10q293",
+    "chapter": 10,
+    "chapterTitle": "Inflation and Unemployment",
+    "question": "A highly skilled accountant quits her job in Karachi to move to Islamabad. It takes her exactly three weeks to find a new job. During those three weeks, she is classified as:",
+    "options": [
+      "A) Cyclically unemployed",
+      "B) Structurally unemployed",
+      "C) Frictionally unemployed",
+      "D) Seasonally unemployed"
+    ],
+    "correctAnswer": "C) Frictionally unemployed",
+    "explanation": "Frictional unemployment is a temporary, short-term form of unemployment that occurs when workers are voluntarily transitioning between jobs or moving locations."
+  },
+  {
+    "id": "v2c10q294",
+    "chapter": 10,
+    "chapterTitle": "Inflation and Unemployment",
+    "question": "A massive shift towards digital media permanently bankrupts hundreds of traditional newspaper presses. The press operators cannot find jobs because tech companies require programming skills they do not possess. This is:",
+    "options": [
+      "A) Frictional unemployment",
+      "B) Structural unemployment",
+      "C) Cyclical unemployment",
+      "D) Seasonal unemployment"
+    ],
+    "correctAnswer": "B) Structural unemployment",
+    "explanation": "Structural unemployment occurs when there is a fundamental mismatch between the obsolete skills possessed by workers and the modern skills demanded by the economy."
+  },
+  {
+    "id": "v2c10q295",
+    "chapter": 10,
+    "chapterTitle": "Inflation and Unemployment",
+    "question": "The global economy crashes into a severe recession. Consumers stop buying cars, forcing automobile factories to lay off 20% of their assembly workforce due to a lack of overall demand. This represents:",
+    "options": [
+      "A) Cyclical unemployment",
+      "B) Structural unemployment",
+      "C) Frictional unemployment",
+      "D) Voluntary unemployment"
+    ],
+    "correctAnswer": "A) Cyclical unemployment",
+    "explanation": "Cyclical (or demand-deficient) unemployment is caused directly by a downturn in the business cycle when aggregate demand drops too low to sustain full employment."
+  },
+  {
+    "id": "v2c11q296",
+    "chapter": 11,
+    "chapterTitle": "Monetary Policy",
+    "question": "The country is suffering from out-of-control inflation. The Central Bank initiates a 'contractionary' monetary policy to cool the economy. What specific action should it take?",
+    "options": [
+      "A) Lower the benchmark interest rates",
+      "B) Aggressively sell government bonds in the open market",
+      "C) Decrease the cash reserve ratio for banks",
+      "D) Increase government spending on public works"
+    ],
+    "correctAnswer": "B) Aggressively sell government bonds in the open market",
+    "explanation": "Selling bonds absorbs excess cash from commercial banks. With less cash, banks lend less, reducing the money supply and curbing inflationary spending."
+  },
+  {
+    "id": "v2c11q297",
+    "chapter": 11,
+    "chapterTitle": "Monetary Policy",
+    "question": "The Central Bank drastically lowers its benchmark discount rate (the rate it charges commercial banks to borrow). What is the intended macroeconomic effect?",
+    "options": [
+      "A) To make borrowing cheaper, stimulating investment and aggregate demand",
+      "B) To instantly cause a recession",
+      "C) To decrease the total money supply",
+      "D) To decrease national trade deficits"
+    ],
+    "correctAnswer": "A) To make borrowing cheaper, stimulating investment and aggregate demand",
+    "explanation": "Lowering interest rates is an expansionary policy that reduces the cost of borrowing, thereby encouraging businesses to invest and consumers to spend."
+  },
+  {
+    "id": "v2c11q298",
+    "chapter": 11,
+    "chapterTitle": "Monetary Policy",
+    "question": "The Central Bank raises the 'Cash Reserve Ratio', legally requiring commercial banks to lock 20% of their deposits in vaults instead of 10%. How does this affect the money supply?",
+    "options": [
+      "A) It greatly increases the money supply",
+      "B) It decreases the money supply by restricting banks' ability to create credit",
+      "C) It immediately causes hyperinflation",
+      "D) It has absolutely no effect"
+    ],
+    "correctAnswer": "B) It decreases the money supply by restricting banks' ability to create credit",
+    "explanation": "By forcing banks to hold a higher percentage of cash in reserve, they have less money available to lend out, shrinking the credit multiplier and tightening the money supply."
+  },
+  {
+    "id": "v2c12q299",
+    "chapter": 12,
+    "chapterTitle": "Balance of Trade and Payments",
+    "question": "To protect local car manufacturers, the government passes a law stating that no more than 5,000 foreign-made vehicles may be imported into the country this year. This physical restriction is an:",
+    "options": [
+      "A) Import Tariff",
+      "B) Export Subsidy",
+      "C) Exchange Control",
+      "D) Import Quota"
+    ],
+    "correctAnswer": "D) Import Quota",
+    "explanation": "An import quota is a strict, direct quantitative limit on the maximum volume or number of a specific good that can be legally imported over a given period."
+  },
+  {
+    "id": "v2c12q300",
+    "chapter": 12,
+    "chapterTitle": "Balance of Trade and Payments",
+    "question": "The government places a 30% financial tax on all imported steel to make it artificially more expensive than locally produced steel. This protective financial barrier is known as a:",
+    "options": [
+      "A) Quota",
+      "B) Embargo",
+      "C) Tariff",
+      "D) Cartel"
+    ],
+    "correctAnswer": "C) Tariff",
+    "explanation": "A tariff (or customs duty) is a tax levied on imported goods, designed to raise their price and make domestic goods more competitive."
+  }
+]

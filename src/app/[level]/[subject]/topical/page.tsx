@@ -10,30 +10,25 @@ export default function TopicalPage() {
   const params = useParams();
   const level = (params?.level as string) || "caf";
   const subjectId = (params?.subject as string) || "caf-5";
-  const { progress, isLoaded } = useProgress();
+  const { progress, isLoaded } = useProgress(subjectId);
   const [mounted, setMounted] = useState(false);
   const [chapters, setChapters] = useState<[number, string, number][]>([]);
   const [isFetching, setIsFetching] = useState(true);
 
-  useEffect(() => { 
+  useEffect(() => {
     setMounted(true);
     setIsFetching(true);
-    fetch(`/api/questions?subject=${subjectId}`)
+    // Use the fast meta endpoint — no full question payloads
+    fetch(`/api/subjects-meta?subject=${subjectId}`)
       .then((r) => r.json())
       .then((data) => {
-        const questions = data.questions || [];
-        const map = new Map<number, { title: string; count: number }>();
-        questions.forEach((q: any) => {
-          if (!map.has(q.chapter)) {
-            map.set(q.chapter, { title: q.topic || `Chapter ${q.chapter}`, count: 1 });
-          } else {
-            map.get(q.chapter)!.count++;
-          }
-        });
-        const arr = Array.from(map.entries())
-          .sort((a, b) => a[0] - b[0])
-          .map(([ch, info]) => [ch, info.title, info.count] as [number, string, number]);
-        setChapters(arr);
+        const meta = data.subjects?.[subjectId];
+        if (meta?.chapters) {
+          const arr: [number, string, number][] = meta.chapters.map(
+            (c: { chapter: number; topic: string; count: number }) => [c.chapter, c.topic, c.count]
+          );
+          setChapters(arr);
+        }
       })
       .catch(console.error)
       .finally(() => setIsFetching(false));
@@ -100,11 +95,20 @@ export default function TopicalPage() {
               const isMastered = hasScore && chapterProgress.isCompleted;
 
               const isCaf4 = subjectId === "caf-4";
+              const isPrc3 = subjectId === "prc-3";
               const prevChapterNum = index > 0 ? chapters[index - 1][0] : 0;
-              
+
+              // CAF-4 portion headers
               const showBusinessLawHeader = isCaf4 && index === 0 && chapterNum <= 15;
               const showCompanyLawHeader = isCaf4 && prevChapterNum <= 15 && chapterNum > 15;
-              const displayChapterNum = isCaf4 && chapterNum > 15 ? chapterNum - 15 : chapterNum;
+              const displayChapterNumCaf4 = isCaf4 && chapterNum > 15 ? chapterNum - 15 : chapterNum;
+
+              // PRC-3 portion headers (Business = ch 1-8, Economics = ch 9+)
+              const showBusinessHeader = isPrc3 && index === 0 && chapterNum <= 8;
+              const showEconomicsHeader = isPrc3 && prevChapterNum <= 8 && chapterNum > 8;
+              const displayChapterNumPrc3 = isPrc3 && chapterNum > 8 ? chapterNum - 8 : chapterNum;
+
+              const displayChapterNum = isCaf4 ? displayChapterNumCaf4 : isPrc3 ? displayChapterNumPrc3 : chapterNum;
 
               return (
                 <React.Fragment key={chapterNum}>
@@ -118,6 +122,18 @@ export default function TopicalPage() {
                     <div className="flex flex-col gap-1 mt-6 mb-1 px-2">
                        <h2 className="font-bold text-xl" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>Part II: Company Law</h2>
                        <p className="text-sm" style={{ color: "var(--text-2)", fontFamily: "var(--font-inter), sans-serif" }}>Chapters 1 to 10 covering the Companies Act, 2017.</p>
+                    </div>
+                  )}
+                  {showBusinessHeader && (
+                    <div className="flex flex-col gap-1 mt-2 mb-1 px-2">
+                       <h2 className="font-bold text-xl" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>Part I: Business</h2>
+                       <p className="text-sm" style={{ color: "var(--text-2)", fontFamily: "var(--font-inter), sans-serif" }}>Chapters 1 to 8 covering the introduction to business concepts.</p>
+                    </div>
+                  )}
+                  {showEconomicsHeader && (
+                    <div className="flex flex-col gap-1 mt-6 mb-1 px-2">
+                       <h2 className="font-bold text-xl" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>Part II: Economics</h2>
+                       <p className="text-sm" style={{ color: "var(--text-2)", fontFamily: "var(--font-inter), sans-serif" }}>Chapters 1 to 12 covering core macroeconomic and microeconomic principles.</p>
                     </div>
                   )}
                   <Link

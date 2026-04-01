@@ -1,0 +1,352 @@
+[
+  {
+    "id": "c4q76",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "If an entity receives Rs. 24,000 for a 12-month software subscription starting on September 1, what is the unearned revenue balance at its financial year-end of December 31?",
+    "options": [
+      "A) Rs. 8,000",
+      "B) Rs. 16,000",
+      "C) Rs. 24,000",
+      "D) Rs. 12,000"
+    ],
+    "correctAnswer": "B) Rs. 16,000",
+    "explanation": "The subscription covers September through August. By December 31, 4 months have been earned. The remaining 8 months (January to August) are unearned. 24,000 x (8/12) = Rs. 16,000."
+  },
+  {
+    "id": "c4q77",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "An entity paid Rs. 36,000 for a 12-month commercial insurance policy beginning on April 1. The financial year ends on December 31. What is the insurance expense to be recognized for the year?",
+    "options": [
+      "A) Rs. 36,000",
+      "B) Rs. 9,000",
+      "C) Rs. 27,000",
+      "D) Rs. 18,000"
+    ],
+    "correctAnswer": "C) Rs. 27,000",
+    "explanation": "The policy covers 9 months in the current financial year (April to December). Therefore, the expense recognized is 36,000 x (9/12) = Rs. 27,000."
+  },
+  {
+    "id": "c4q78",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "A business earns interest on a bank deposit of Rs. 500,000 at a rate of 6% per annum. Interest is credited by the bank half-yearly on June 30 and December 31. If the bank has not yet credited the December interest by year-end, what is the accrued interest income?",
+    "options": [
+      "A) Rs. 15,000",
+      "B) Rs. 30,000",
+      "C) Rs. 7,500",
+      "D) Rs. 0"
+    ],
+    "correctAnswer": "A) Rs. 15,000",
+    "explanation": "The unrecorded interest is for the 6-month period from July to December. Rs. 500,000 x 6% x (6/12) = Rs. 15,000."
+  },
+  {
+    "id": "c4q79",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "A landlord received Rs. 120,000 on July 1, representing one year's rent in advance. This entire amount was initially credited to the 'Unearned Rent' liability account. What adjusting entry is required on December 31?",
+    "options": [
+      "A) Debit Rent Income Rs. 60,000; Credit Unearned Rent Rs. 60,000",
+      "B) Debit Unearned Rent Rs. 60,000; Credit Rent Income Rs. 60,000",
+      "C) Debit Unearned Rent Rs. 120,000; Credit Rent Income Rs. 120,000",
+      "D) Debit Cash Rs. 60,000; Credit Rent Income Rs. 60,000"
+    ],
+    "correctAnswer": "B) Debit Unearned Rent Rs. 60,000; Credit Rent Income Rs. 60,000",
+    "explanation": "By December 31, six months of the rent has been earned (120,000 x 6/12 = 60,000). The adjusting entry must reduce the liability (Debit Unearned Rent) and recognize the income (Credit Rent Income)."
+  },
+  {
+    "id": "c4q80",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "A company pays property taxes of Rs. 48,000 per year covering the period from April 1 to March 31. The payment is made in full on April 1. For the financial year ending December 31, what is the value of the prepaid property tax?",
+    "options": [
+      "A) Rs. 36,000",
+      "B) Rs. 12,000",
+      "C) Rs. 48,000",
+      "D) Rs. 24,000"
+    ],
+    "correctAnswer": "B) Rs. 12,000",
+    "explanation": "The payment covers the next year's Jan-Mar period, which is 3 months. 48,000 x (3/12) = Rs. 12,000 prepaid."
+  },
+  {
+    "id": "c4q81",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "If an accountant completely omits the year-end adjusting entry for an accrued expense, what is the specific effect on the statement of financial position?",
+    "options": [
+      "A) Liabilities will be overstated.",
+      "B) Assets will be understated.",
+      "C) Liabilities will be understated.",
+      "D) Assets will be overstated."
+    ],
+    "correctAnswer": "C) Liabilities will be understated.",
+    "explanation": "An accrued expense creates a current liability. Failing to record it means the total liabilities reported on the balance sheet will be lower than they actually are."
+  },
+  {
+    "id": "c4q82",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "If an accountant completely omits the year-end adjusting entry for a prepaid expense (which was initially recorded as an asset), what is the effect on the statement of profit or loss?",
+    "options": [
+      "A) Profit will be understated.",
+      "B) Profit will be overstated.",
+      "C) Expenses will be overstated.",
+      "D) No effect on profit."
+    ],
+    "correctAnswer": "B) Profit will be overstated.",
+    "explanation": "If the prepaid asset is not adjusted, the expired portion is not transferred to expenses. Because expenses are understated, the net profit will be overstated."
+  },
+  {
+    "id": "c4q83",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "If an entity fails to record an adjusting entry for accrued revenue at year-end, what is the resulting effect on its total assets?",
+    "options": [
+      "A) Total assets will be overstated.",
+      "B) Total assets will be understated.",
+      "C) Total assets will remain unaffected.",
+      "D) Total liabilities will be understated."
+    ],
+    "correctAnswer": "B) Total assets will be understated.",
+    "explanation": "Accrued revenue is an asset (a receivable). If it is not recorded, the total assets reported on the statement of financial position will be understated."
+  },
+  {
+    "id": "c4q84",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "A business recorded Rs. 10,000 paid for next year's operational license as an expense in the current year. What adjusting journal entry is required at year-end?",
+    "options": [
+      "A) Debit Expense Rs. 10,000; Credit Bank Rs. 10,000",
+      "B) Debit Prepaid License Rs. 10,000; Credit Expense Rs. 10,000",
+      "C) Debit Accrued License Rs. 10,000; Credit Expense Rs. 10,000",
+      "D) Debit Expense Rs. 10,000; Credit Prepaid License Rs. 10,000"
+    ],
+    "correctAnswer": "B) Debit Prepaid License Rs. 10,000; Credit Expense Rs. 10,000",
+    "explanation": "Because the license is for next year, it is a prepaid asset. The adjusting entry must remove the 10k from the expense account (Credit) and set up the asset (Debit Prepaid)."
+  },
+  {
+    "id": "c4q85",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "Accrued expenses, representing short-term obligations for costs already incurred, are typically classified in the statement of financial position as:",
+    "options": [
+      "A) Non-current liabilities",
+      "B) Current assets",
+      "C) Current liabilities",
+      "D) Equity"
+    ],
+    "correctAnswer": "C) Current liabilities",
+    "explanation": "Accrued expenses must typically be settled within the normal operating cycle or within 12 months, making them current liabilities."
+  },
+  {
+    "id": "c4q86",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "Unearned revenues, representing obligations to provide services or goods in the near future, are typically classified in the statement of financial position as:",
+    "options": [
+      "A) Current liabilities",
+      "B) Non-current liabilities",
+      "C) Current assets",
+      "D) Revenue"
+    ],
+    "correctAnswer": "A) Current liabilities",
+    "explanation": "Because the business owes the service or product to the customer within the next accounting period, unearned revenues are classified as current liabilities."
+  },
+  {
+    "id": "c4q87",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "If a tenant has a rent in arrears balance of Rs. 15,000, how must the landlord report this amount in their financial statements?",
+    "options": [
+      "A) As a Current Liability",
+      "B) As a Current Asset (Rent Receivable)",
+      "C) As a Non-Current Asset",
+      "D) As an Expense"
+    ],
+    "correctAnswer": "B) As a Current Asset (Rent Receivable)",
+    "explanation": "For the landlord, rent in arrears means the tenant owes them money for past occupancy. This is an accrued income, which is a current asset."
+  },
+  {
+    "id": "c4q88",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "In a T-account for a specific expense (like Insurance), on which side is the opening balance of a 'Prepaid Expense' brought down (b/d) at the start of the year?",
+    "options": [
+      "A) Credit side",
+      "B) Debit side",
+      "C) It is not brought down",
+      "D) Both sides"
+    ],
+    "correctAnswer": "B) Debit side",
+    "explanation": "A prepaid expense is an asset, and asset accounts inherently carry debit balances. Therefore, the opening balance is brought down on the debit side."
+  },
+  {
+    "id": "c4q89",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "In a T-account for a specific expense, the closing balance representing an 'Accrued Expense' is mathematically 'carried down' (c/d) on which side to equalize the totals?",
+    "options": [
+      "A) Debit side",
+      "B) Credit side",
+      "C) Below the totals",
+      "D) It is transferred to the bank account"
+    ],
+    "correctAnswer": "A) Debit side",
+    "explanation": "An accrued expense is a liability (credit balance). To balance the T-account, the closing figure (c/d) is placed on the lighter debit side, so it can be brought down (b/d) onto the credit side for the new period."
+  },
+  {
+    "id": "c4q90",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "An entity recorded an advance payment of Rs. 50,000 from a customer by directly crediting 'Sales Revenue'. The goods will be delivered next year. What adjusting entry is required at year-end?",
+    "options": [
+      "A) Debit Unearned Revenue Rs. 50,000; Credit Sales Revenue Rs. 50,000",
+      "B) Debit Sales Revenue Rs. 50,000; Credit Unearned Revenue Rs. 50,000",
+      "C) Debit Cash Rs. 50,000; Credit Unearned Revenue Rs. 50,000",
+      "D) No entry is required."
+    ],
+    "correctAnswer": "B) Debit Sales Revenue Rs. 50,000; Credit Unearned Revenue Rs. 50,000",
+    "explanation": "Because the revenue was prematurely recognized, it must be reduced (Debit Sales Revenue) and the liability for the undelivered goods must be set up (Credit Unearned Revenue)."
+  },
+  {
+    "id": "c4q91",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "On November 1, a company borrowed Rs. 2,000,000 at 9% annual interest. Interest and principal are payable in 6 months. What is the interest expense to be accrued for the year ended December 31?",
+    "options": [
+      "A) Rs. 180,000",
+      "B) Rs. 90,000",
+      "C) Rs. 30,000",
+      "D) Rs. 15,000"
+    ],
+    "correctAnswer": "C) Rs. 30,000",
+    "explanation": "The loan was outstanding for 2 months (November and December) in the current year. Rs. 2,000,000 x 9% x (2/12) = Rs. 30,000."
+  },
+  {
+    "id": "c4q92",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "Opening accrued salaries were Rs. 8,000. Salaries paid in cash during the year were Rs. 95,000. Ending accrued salaries are Rs. 12,000. What is the total salaries expense for the year?",
+    "options": [
+      "A) Rs. 99,000",
+      "B) Rs. 91,000",
+      "C) Rs. 95,000",
+      "D) Rs. 115,000"
+    ],
+    "correctAnswer": "A) Rs. 99,000",
+    "explanation": "Expense = Cash paid (95,000) - Opening Accrual (8,000) + Closing Accrual (12,000) = Rs. 99,000."
+  },
+  {
+    "id": "c4q93",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "Opening prepaid insurance was Rs. 4,000. Cash paid for insurance during the year was Rs. 18,000. The ending balance of prepaid insurance is Rs. 5,000. What is the insurance expense for the year?",
+    "options": [
+      "A) Rs. 18,000",
+      "B) Rs. 17,000",
+      "C) Rs. 19,000",
+      "D) Rs. 27,000"
+    ],
+    "correctAnswer": "B) Rs. 17,000",
+    "explanation": "Expense = Opening Prepayment (4,000, expired this year) + Cash Paid (18,000) - Closing Prepayment (5,000, pushed to next year) = Rs. 17,000."
+  },
+  {
+    "id": "c4q94",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "Opening unearned rent was Rs. 10,000. Cash received for rent during the year was Rs. 120,000. Ending unearned rent is Rs. 15,000. What is the rent income for the year?",
+    "options": [
+      "A) Rs. 120,000",
+      "B) Rs. 125,000",
+      "C) Rs. 115,000",
+      "D) Rs. 145,000"
+    ],
+    "correctAnswer": "C) Rs. 115,000",
+    "explanation": "Income = Opening Unearned (10,000, earned this year) + Cash Received (120,000) - Closing Unearned (15,000, earned next year) = Rs. 115,000."
+  },
+  {
+    "id": "c4q95",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "Which accounting principle mandates that a business must record an expense in the same period as the revenue it helped to generate, leading to the creation of accruals and prepayments?",
+    "options": [
+      "A) Matching (Accrual) concept",
+      "B) Prudence concept",
+      "C) Materiality concept",
+      "D) Consistency concept"
+    ],
+    "correctAnswer": "A) Matching (Accrual) concept",
+    "explanation": "The matching concept requires that expenses are matched against the revenues they generate in the same accounting period, which necessitates adjustments for accruals and prepayments."
+  },
+  {
+    "id": "c4q96",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "If the closing balance of an accrued expense account is higher than its opening balance, this mathematically indicates that:",
+    "options": [
+      "A) Cash paid during the year was greater than the expense incurred.",
+      "B) Cash paid during the year was less than the expense incurred.",
+      "C) The business has fully settled all its liabilities.",
+      "D) The business is generating more revenue."
+    ],
+    "correctAnswer": "B) Cash paid during the year was less than the expense incurred.",
+    "explanation": "An increasing accrual balance means the business incurred more expense during the year than the amount of cash it actually paid out to settle those expenses."
+  },
+  {
+    "id": "c4q97",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "An entity received a Rs. 720,000 rental payment for an 18-month lease starting on July 1. Its financial year ends on December 31. What amount will be classified as a current liability at year-end?",
+    "options": [
+      "A) Rs. 240,000",
+      "B) Rs. 480,000",
+      "C) Rs. 720,000",
+      "D) Rs. 0"
+    ],
+    "correctAnswer": "B) Rs. 480,000",
+    "explanation": "The lease runs for 18 months (40k/month). By Dec 31, 6 months (240k) are earned. The remaining 12 months (480k) are unearned and will be fulfilled over the next 12 months, making it entirely a current liability."
+  },
+  {
+    "id": "c4q98",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "MPD received Rs. 720,000 rent. Opening advance was Rs. 50,000, Closing advance is Rs. 45,000. Opening accrued was Rs. 80,000, Closing accrued is Rs. 100,000. What is the rental income to be recognized?",
+    "options": [
+      "A) Rs. 720,000",
+      "B) Rs. 815,000",
+      "C) Rs. 745,000",
+      "D) Rs. 635,000"
+    ],
+    "correctAnswer": "C) Rs. 745,000",
+    "explanation": "Income = Cash Received (720k) + Beg Unearned (50k) - End Unearned (45k) - Beg Accrued (80k) + End Accrued (100k) = Rs. 745,000."
+  },
+  {
+    "id": "c4q99",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "Which of the following describes the most accurate sequence of creating a year-end adjustment for an unrecorded utility bill?",
+    "options": [
+      "A) Decrease cash, increase expense.",
+      "B) Increase expense, increase current liability.",
+      "C) Decrease liability, increase expense.",
+      "D) Increase asset, decrease expense."
+    ],
+    "correctAnswer": "B) Increase expense, increase current liability.",
+    "explanation": "An unrecorded utility bill is an accrued expense. The adjustment requires debiting (increasing) the utility expense account and crediting (increasing) the accrued utility liability account."
+  },
+  {
+    "id": "c4q100",
+    "chapter": 4,
+    "chapterTitle": "Accruals and Prepayments",
+    "question": "A business incorrectly records an unearned revenue of Rs. 15,000 as accrued revenue. What is the double-impact of this specific error on the reported net profit?",
+    "options": [
+      "A) Profit is understated by Rs. 30,000",
+      "B) Profit is overstated by Rs. 30,000",
+      "C) Profit is overstated by Rs. 15,000",
+      "D) Profit is understated by Rs. 15,000"
+    ],
+    "correctAnswer": "B) Profit is overstated by Rs. 30,000",
+    "explanation": "Recording unearned revenue (liability) as accrued revenue (asset) inappropriately increases recognized income by 15k instead of deferring it (which would decrease recognized income by 15k). The total swing is an overstatement of Rs. 30,000."
+  }
+]

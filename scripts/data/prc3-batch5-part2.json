@@ -1,0 +1,702 @@
+[
+  {
+    "id": "c4q451",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "A public company decides to raise additional equity capital. Instead of offering shares to the public, it offers new shares exclusively to its current shareholders in proportion to their existing holdings. This is called a:",
+    "options": [
+      "A) Rights issue",
+      "B) Private placement",
+      "C) Initial Public Offering (IPO)",
+      "D) Debt consolidation"
+    ],
+    "correctAnswer": "A) Rights issue",
+    "explanation": "A rights issue is an invitation to existing shareholders to purchase additional new shares in the company, usually at a discount, proportional to their existing holding."
+  },
+  {
+    "id": "c5q452",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "A large supermarket uses an information system that exclusively handles thousands of high-volume, routine daily sales entries as customers check out. What is this foundational system known as?",
+    "options": [
+      "A) Decision Support System (DSS)",
+      "B) Transaction Processing System (TPS)",
+      "C) Executive Information System (EIS)",
+      "D) Expert System (ES)"
+    ],
+    "correctAnswer": "B) Transaction Processing System (TPS)",
+    "explanation": "A TPS is the operational-level system responsible for reliably collecting, storing, and processing routine, day-to-day business transactions like sales and receipts."
+  },
+  {
+    "id": "c5q453",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "A middle manager needs a formatted, weekly report summarizing total inventory movements compared to the monthly budget. Which system is specifically designed to extract this structured data from the TPS?",
+    "options": [
+      "A) Management Information System (MIS)",
+      "B) Executive Information System (EIS)",
+      "C) Barcode scanner",
+      "D) Wide Area Network (WAN)"
+    ],
+    "correctAnswer": "A) Management Information System (MIS)",
+    "explanation": "An MIS provides middle management with regular, structured reports based on data from the TPS to help them monitor operations and make tactical decisions."
+  },
+  {
+    "id": "c5q454",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "An insurance actuary uses a highly interactive software tool that models complex variables to simulate 'what-if' scenarios, helping determine the pricing for a new life insurance policy. What system is this?",
+    "options": [
+      "A) Transaction Processing System (TPS)",
+      "B) Basic MIS",
+      "C) Decision Support System (DSS)",
+      "D) Operating System"
+    ],
+    "correctAnswer": "C) Decision Support System (DSS)",
+    "explanation": "A DSS provides analytical models and interactive 'what-if' capabilities to assist professionals and managers in making complex, semi-structured decisions."
+  },
+  {
+    "id": "c5q455",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "The CEO of a multinational bank uses a dashboard that displays summarized, colorful graphs of global economic trends, competitor data, and long-term forecasts. What type of system is tailored for this user?",
+    "options": [
+      "A) Executive Information System (EIS)",
+      "B) Routine TPS",
+      "C) Data Entry Portal",
+      "D) Operational MIS"
+    ],
+    "correctAnswer": "A) Executive Information System (EIS)",
+    "explanation": "An EIS is designed for top executives, combining internal and external data into visual dashboards to support highly unstructured, strategic decision-making."
+  },
+  {
+    "id": "c5q456",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "A bank customer withdraws Rs. 10,000 from an ATM. The bank's central database is updated immediately, preventing the customer from overdrawing at another ATM a minute later. What data processing method is this?",
+    "options": [
+      "A) Batch processing",
+      "B) Real-time (Online) processing",
+      "C) Delayed transaction processing",
+      "D) Tertiary storage processing"
+    ],
+    "correctAnswer": "B) Real-time (Online) processing",
+    "explanation": "Real-time processing updates the central database instantly as the transaction occurs, which is absolutely critical for systems like banking and airline reservations."
+  },
+  {
+    "id": "c5q457",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "A manufacturing firm replaces its separate HR, Finance, and Inventory software with a single, massive software suite that shares one unified real-time database across the entire company. This suite is known as:",
+    "options": [
+      "A) Enterprise Resource Planning (ERP)",
+      "B) Office Automation System (OAS)",
+      "C) Local Area Network (LAN)",
+      "D) Magnetic Ink Character Recognition (MICR)"
+    ],
+    "correctAnswer": "A) Enterprise Resource Planning (ERP)",
+    "explanation": "ERP is a cross-functional system that integrates all core business processes (finance, HR, manufacturing) into a single, unified software platform and database."
+  },
+  {
+    "id": "c5q458",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "An automobile company creates a secure web portal that allows its trusted external parts suppliers to log in and view upcoming production schedules to plan deliveries. What type of network is this?",
+    "options": [
+      "A) Intranet",
+      "B) Extranet",
+      "C) The public Internet",
+      "D) Personal Area Network (PAN)"
+    ],
+    "correctAnswer": "B) Extranet",
+    "explanation": "An extranet is an extension of a company's internal network that allows secure, controlled access to authorized external partners, such as suppliers or major clients."
+  },
+  {
+    "id": "c5q459",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "A university sets up a private internal network where only enrolled students and staff can log in to view schedules, download forms, and read announcements. Outsiders cannot access it. What is this network?",
+    "options": [
+      "A) Intranet",
+      "B) Extranet",
+      "C) Wide Area Network (WAN)",
+      "D) Expert System"
+    ],
+    "correctAnswer": "A) Intranet",
+    "explanation": "An intranet is a private, secure network contained within an organization, used strictly for sharing information and resources among internal employees or members."
+  },
+  {
+    "id": "c5q460",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "A manager sits at a cafe and uses Bluetooth to transfer a file from her smartphone to her laptop. What specific classification of network does this short-range connection represent?",
+    "options": [
+      "A) Local Area Network (LAN)",
+      "B) Wide Area Network (WAN)",
+      "C) Personal Area Network (PAN)",
+      "D) Extranet Portal"
+    ],
+    "correctAnswer": "C) Personal Area Network (PAN)",
+    "explanation": "A Personal Area Network (PAN) covers a very small physical area (usually within a few meters), connecting personal devices like phones and laptops via Bluetooth."
+  },
+  {
+    "id": "c5q461",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "At a modern retail store, the cashier scans a barcode, the system instantly calculates the total, accepts a credit card payment, and deducts the item from inventory. This checkout hardware/software combo is called:",
+    "options": [
+      "A) Decision Support System (DSS)",
+      "B) Electronic Point of Sale (EPOS)",
+      "C) Executive Information System (EIS)",
+      "D) Magnetic Ink Reader (MICR)"
+    ],
+    "correctAnswer": "B) Electronic Point of Sale (EPOS)",
+    "explanation": "EPOS systems are advanced retail checkout terminals that handle barcode scanning, electronic payments, and real-time inventory updates."
+  },
+  {
+    "id": "c5q462",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "In any computer system, the physical, touchable components such as the monitor, server racks, keyboard, and router cables are collectively referred to as:",
+    "options": [
+      "A) Software",
+      "B) Hardware",
+      "C) Firmware",
+      "D) Raw Data"
+    ],
+    "correctAnswer": "B) Hardware",
+    "explanation": "Hardware encompasses all the physical, tangible machinery and electronic equipment that make up a computer system."
+  },
+  {
+    "id": "c5q463",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "A medical diagnostics program asks a doctor a series of symptom questions and then applies a vast database of programmed medical rules to suggest a diagnosis, acting like a human specialist. What is this system?",
+    "options": [
+      "A) Expert System (ES)",
+      "B) Routine TPS",
+      "C) Hardware network",
+      "D) Office Automation System"
+    ],
+    "correctAnswer": "A) Expert System (ES)",
+    "explanation": "An Expert System is a branch of AI that uses a knowledge base and inference rules to simulate the judgment and decision-making behavior of a human expert."
+  },
+  {
+    "id": "c6q464",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "The fundamental ethical principle that explicitly requires a professional chartered accountant to be straightforward, fair, and totally honest in all professional relationships is known as:",
+    "options": [
+      "A) Objectivity",
+      "B) Integrity",
+      "C) Confidentiality",
+      "D) Due care"
+    ],
+    "correctAnswer": "B) Integrity",
+    "explanation": "Integrity implies fair dealing and truthfulness. It strictly forbids a professional from associating with false or misleading reports."
+  },
+  {
+    "id": "c6q465",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "A senior auditor is tasked with evaluating a company, but his wife is the Chief Financial Officer (CFO) of that exact company. He proceeds to give the company a perfect audit report. Which ethical principle is severely compromised here?",
+    "options": [
+      "A) Confidentiality",
+      "B) Professional competence",
+      "C) Objectivity",
+      "D) Environmental responsibility"
+    ],
+    "correctAnswer": "C) Objectivity",
+    "explanation": "Objectivity demands that a professional must not allow bias, conflict of interest, or undue family influence to override their professional business judgment."
+  },
+  {
+    "id": "c6q466",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "During a casual dinner with friends, an accountant reveals that her client, a famous local restaurant, is secretly going bankrupt. Which fundamental ethical rule has the accountant violated?",
+    "options": [
+      "A) Objectivity",
+      "B) Integrity",
+      "C) Professional competence",
+      "D) Confidentiality"
+    ],
+    "correctAnswer": "D) Confidentiality",
+    "explanation": "Confidentiality requires professionals to respect the secrecy of client information and not disclose it to outside parties without proper authorization."
+  },
+  {
+    "id": "c6q467",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "An IT consultant accepts a highly lucrative contract to implement an advanced cybersecurity system, fully knowing he has no training or experience in cybersecurity. Which ethical principle is he violating?",
+    "options": [
+      "A) Professional Competence and Due Care",
+      "B) Confidentiality",
+      "C) Whistleblowing",
+      "D) Conflict of interest"
+    ],
+    "correctAnswer": "A) Professional Competence and Due Care",
+    "explanation": "Professionals must maintain their knowledge and only accept tasks they have the competence to complete. Accepting work without the required skills violates this principle."
+  },
+  {
+    "id": "c6q468",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "An employee at a chemical plant discovers that management is falsifying safety reports to hide dangerous leaks. After internal warnings fail, she anonymously sends the real reports to a national newspaper. This action is known as:",
+    "options": [
+      "A) Insider trading",
+      "B) Whistleblowing",
+      "C) Corporate espionage",
+      "D) Strategic marketing"
+    ],
+    "correctAnswer": "B) Whistleblowing",
+    "explanation": "Whistleblowing is the act of exposing secretive, illegal, or unethical actions occurring within an organization to a higher authority or the public."
+  },
+  {
+    "id": "c6q469",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "An executive secretary reads an unreleased memo detailing an upcoming massive tech patent. He immediately calls his broker and buys 10,000 shares of the company before the public finds out. What is this illegal practice?",
+    "options": [
+      "A) Whistleblowing",
+      "B) Conflict of interest",
+      "C) Insider trading",
+      "D) Corporate social responsibility"
+    ],
+    "correctAnswer": "C) Insider trading",
+    "explanation": "Insider trading occurs when an individual buys or sells stock in a publicly traded company based on material, non-public information."
+  },
+  {
+    "id": "c6q470",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "To evaluate a difficult ethical dilemma, a manager uses the 'Mirror Test'. According to this framework, what is the sequence of the three questions he must ask himself?",
+    "options": [
+      "A) Will it make money? Is it fast? Is it legal?",
+      "B) Is it legal? Is it according to policy? What will other people think?",
+      "C) What will the CEO think? Is it cheap? Is it fast?",
+      "D) Does it protect the environment? Does it pay taxes? Does it avoid unions?"
+    ],
+    "correctAnswer": "B) Is it legal? Is it according to policy? What will other people think?",
+    "explanation": "The 'mirror test' for ethical decision making involves asking three specific questions: Is it legal? Is it according to company policy? What will the public think?"
+  },
+  {
+    "id": "c6q471",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "A fast-food company decides to eliminate all single-use plastics from its packaging and pledges to donate 2% of profits to local homeless shelters. These actions are prime examples of:",
+    "options": [
+      "A) Mandatory tax compliance",
+      "B) Corporate Social Responsibility (CSR)",
+      "C) The marketing mix",
+      "D) Whistleblowing"
+    ],
+    "correctAnswer": "B) Corporate Social Responsibility (CSR)",
+    "explanation": "CSR is the concept where businesses integrate social and environmental concerns into their operations and interactions with stakeholders on a voluntary basis."
+  },
+  {
+    "id": "c6q472",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "A company issues a strict Code of Ethics, but the CEO openly ignores it by verbally abusing staff and demanding they falsify sales data. Consequently, the staff act unethically too. This scenario highlights the crucial importance of:",
+    "options": [
+      "A) Supply chain logistics",
+      "B) Tone at the top",
+      "C) Insider trading laws",
+      "D) Product life cycles"
+    ],
+    "correctAnswer": "B) Tone at the top",
+    "explanation": "For an ethical code to work, senior management must actively demonstrate and enforce ethical behavior, a concept known as the 'tone at the top'."
+  },
+  {
+    "id": "c6q473",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "During paid office hours, an employee spends four hours every day watching movies and browsing social media instead of working on assigned projects. What specific ethical issue does this represent?",
+    "options": [
+      "A) Misuse of organization time",
+      "B) Divulging confidential information",
+      "C) Abusive behavior",
+      "D) Conflict of interest"
+    ],
+    "correctAnswer": "A) Misuse of organization time",
+    "explanation": "Using paid company time for personal, non-work-related activities like watching movies is an ethical violation categorized as misuse of organizational time."
+  },
+  {
+    "id": "c6q474",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "A purchasing manager chooses a supplier whose prices are 20% higher than the market average solely because the supplier is owned by the manager's brother. What is this unethical situation called?",
+    "options": [
+      "A) Whistleblowing",
+      "B) Corporate social responsibility",
+      "C) Conflict of interest",
+      "D) Professional competence"
+    ],
+    "correctAnswer": "C) Conflict of interest",
+    "explanation": "A conflict of interest occurs when a person's personal or family interests interfere with their objective professional duty to their employer."
+  },
+  {
+    "id": "c6q475",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "A chartered accountant appears on live television and starts aggressively insulting and making baseless accusations against rival accounting firms. According to ICAP's Code of Ethics, which principle is explicitly violated?",
+    "options": [
+      "A) Confidentiality",
+      "B) Objectivity",
+      "C) Professional behavior",
+      "D) Technical competence"
+    ],
+    "correctAnswer": "C) Professional behavior",
+    "explanation": "Professional behavior requires accountants to comply with laws and avoid any action (like public insults) that brings discredit to the profession."
+  },
+  {
+    "id": "c7q476",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "A modern smartphone manufacturer believes that before designing a new phone, it must conduct extensive research to discover exactly what features consumers desire, and then build the product to satisfy those desires. What business philosophy is this?",
+    "options": [
+      "A) The selling concept",
+      "B) The production concept",
+      "C) The marketing concept",
+      "D) The accounting concept"
+    ],
+    "correctAnswer": "C) The marketing concept",
+    "explanation": "The marketing concept is a philosophy stating that achieving organizational goals depends on first determining the needs and wants of target markets and then satisfying them."
+  },
+  {
+    "id": "c7q477",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "A factory has severely overproduced last year's model of a television. Management's only goal is to use aggressive discounts and fast-talking salesmen to clear the inventory and convert the TVs into cash. This short-term focus is defined as:",
+    "options": [
+      "A) Branding",
+      "B) Market research",
+      "C) Selling",
+      "D) Product development"
+    ],
+    "correctAnswer": "C) Selling",
+    "explanation": "Selling is highly tactical, focusing strictly on the short-term goal of exchanging existing inventory for cash, rather than long-term consumer satisfaction."
+  },
+  {
+    "id": "c7q478",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "A soft drink company is deciding on the recipe for a new flavor, setting its retail cost at Rs. 100, arranging for supermarkets to stock it, and launching a TV commercial. Collectively, these four variables are known as the:",
+    "options": [
+      "A) Value chain",
+      "B) Marketing Mix (4Ps)",
+      "C) Supply chain",
+      "D) Product life cycle"
+    ],
+    "correctAnswer": "B) Marketing Mix (4Ps)",
+    "explanation": "The Marketing Mix consists of the 4 Ps: Product, Price, Place, and Promotion, which are the tactical tools a firm uses to influence demand in the market."
+  },
+  {
+    "id": "c7q479",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "A luxury car brand uses data analytics to focus its entire marketing budget exclusively on high-income professionals aged 40 to 60 living in major cities. This specific, defined group of consumers is called the firm's:",
+    "options": [
+      "A) Supply chain",
+      "B) Target market",
+      "C) Focus group",
+      "D) Board of directors"
+    ],
+    "correctAnswer": "B) Target market",
+    "explanation": "A target market is a specific group of consumers (defined by demographics, income, etc.) that a company directs its marketing efforts toward."
+  },
+  {
+    "id": "c7q480",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "A coffee shop wants customers to instantly recognize its products from a distance, so it designs a unique green mermaid logo and prints it on every cup. This activity is called:",
+    "options": [
+      "A) Branding",
+      "B) Logistics",
+      "C) Grading",
+      "D) Factoring"
+    ],
+    "correctAnswer": "A) Branding",
+    "explanation": "Branding is the process of creating a unique name, design, or symbol that clearly identifies and differentiates a product from its competitors."
+  },
+  {
+    "id": "c7q481",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "A factory manufactures specialized microchips. They notice that the demand for their microchips only rises when consumer demand for the latest smartphones rises. What economic term describes the demand for these microchips?",
+    "options": [
+      "A) Direct demand",
+      "B) Inferior demand",
+      "C) Derived demand",
+      "D) Public demand"
+    ],
+    "correctAnswer": "C) Derived demand",
+    "explanation": "Industrial products typically have derived demand, meaning the demand for them is derived entirely from the demand for the final consumer goods they are used to build."
+  },
+  {
+    "id": "c7q482",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "A tech firm releases a revolutionary new virtual reality headset. Sales are initially very slow, and the firm is spending millions on advertising just to educate the public about what the product is. Which stage of the Product Life Cycle is this?",
+    "options": [
+      "A) Decline",
+      "B) Introduction",
+      "C) Maturity",
+      "D) Growth"
+    ],
+    "correctAnswer": "B) Introduction",
+    "explanation": "The introduction stage is the first phase of the product life cycle, characterized by slow sales, high promotional costs, and the need to educate consumers."
+  },
+  {
+    "id": "c7q483",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "A brand of soap has been on the market for 40 years. Sales have completely leveled off, the market is saturated, and competition is extremely intense, leading to price wars. Which stage of the Product Life Cycle is this?",
+    "options": [
+      "A) Introduction",
+      "B) Growth",
+      "C) Maturity",
+      "D) Prototype"
+    ],
+    "correctAnswer": "C) Maturity",
+    "explanation": "During the maturity stage, sales growth flattens, the market is saturated, and firms must defend their market share against intense competition."
+  },
+  {
+    "id": "c7q484",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "A company invents a cure for a rare disease and initially sets the price extremely high to maximize profits from early adopters before competitors can create a generic version. This pricing strategy is known as:",
+    "options": [
+      "A) Penetration pricing",
+      "B) Price skimming",
+      "C) Economy pricing",
+      "D) Discount pricing"
+    ],
+    "correctAnswer": "B) Price skimming",
+    "explanation": "Price skimming involves setting a high initial price for a highly desirable new product to maximize short-term profit before competition forces the price down."
+  },
+  {
+    "id": "c7q485",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "A massive agricultural distributor sorts thousands of apples into distinct bins based entirely on their size, color, and lack of bruises before sending them to supermarkets. This marketing function is called:",
+    "options": [
+      "A) Whistleblowing",
+      "B) Grading / Sizing",
+      "C) Promotional mix",
+      "D) Brand extension"
+    ],
+    "correctAnswer": "B) Grading / Sizing",
+    "explanation": "Grading and sizing involve systematically sorting bulk or agricultural goods into specific categories based on standardized quality or size metrics."
+  },
+  {
+    "id": "c7q486",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "A local government health department spends Rs. 5 million on a billboard and radio campaign urging citizens to get vaccinated against the flu. In marketing terminology, what is the 'product' being marketed here?",
+    "options": [
+      "A) A tangible good",
+      "B) An industrial part",
+      "C) A financial service",
+      "D) An idea (social marketing)"
+    ],
+    "correctAnswer": "D) An idea (social marketing)",
+    "explanation": "Marketing is not limited to physical goods or commercial services; advocacy campaigns successfully market 'ideas' to influence public behavior."
+  },
+  {
+    "id": "c7q487",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "A consumer logs onto an online platform, pays Rs. 500 via credit card, and instantly downloads a new video game directly to their console. This individual is classified as a:",
+    "options": [
+      "A) Digital buyer",
+      "B) Industrial supplier",
+      "C) Wholesale distributor",
+      "D) Primary producer"
+    ],
+    "correctAnswer": "A) Digital buyer",
+    "explanation": "A digital buyer is a consumer who purchases goods or services (especially digital items like software or eBooks) over the internet."
+  },
+  {
+    "id": "c7q488",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "While the traditional Marketing Mix for physical goods uses the 4Ps, service industries often use an extended mix (7Ps). Which of the following 'P's refers specifically to the staff and employees who interact with the customer?",
+    "options": [
+      "A) Profit",
+      "B) People",
+      "C) Packaging",
+      "D) Patents"
+    ],
+    "correctAnswer": "B) People",
+    "explanation": "In the extended marketing mix for services, 'People' is a crucial component, as the employees delivering the service directly impact the customer's experience."
+  },
+  {
+    "id": "c8q489",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "An HR manager looks at the company's 5-year expansion strategy and calculates that they will need to hire exactly 45 new structural engineers by 2028 to meet production goals. What is this forecasting process called?",
+    "options": [
+      "A) Performance appraisal",
+      "B) Disciplinary action",
+      "C) Human Resource Planning (HRP)",
+      "D) Job rotation"
+    ],
+    "correctAnswer": "C) Human Resource Planning (HRP)",
+    "explanation": "Human Resource Planning involves forecasting an organization's future demand for labor and ensuring the right number of skilled people are available."
+  },
+  {
+    "id": "c8q490",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "To understand why a factory machine keeps breaking, an HR specialist spends three days sitting next to the machine operator, writing down every single physical movement and task the operator performs. What is this systematic study called?",
+    "options": [
+      "A) Selection",
+      "B) Job analysis",
+      "C) Induction",
+      "D) Employee retention"
+    ],
+    "correctAnswer": "B) Job analysis",
+    "explanation": "Job analysis is the systematic process of gathering detailed, objective information about the duties, tasks, and working conditions of a specific job."
+  },
+  {
+    "id": "c8q491",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "Following a job analysis, HR produces a formal document detailing the job title, the location of the work, the reporting manager, and a bulleted list of daily duties. What is this document called?",
+    "options": [
+      "A) Job specification",
+      "B) Offer letter",
+      "C) Training manual",
+      "D) Job description"
+    ],
+    "correctAnswer": "D) Job description",
+    "explanation": "A job description is a written statement detailing the factual tasks, duties, location, and responsibilities involved in a specific role."
+  },
+  {
+    "id": "c8q492",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "To hire a new legal advisor, HR issues a document stating: 'The ideal candidate must have an LLB degree, 5 years of corporate law experience, and excellent negotiation skills.' What is this specific document?",
+    "options": [
+      "A) Job description",
+      "B) Job specification (Person specification)",
+      "C) Performance review",
+      "D) Redundancy notice"
+    ],
+    "correctAnswer": "B) Job specification (Person specification)",
+    "explanation": "A job specification outlines the minimum human requirements—such as education, experience, and personal skills—needed to perform the job successfully."
+  },
+  {
+    "id": "c8q493",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "A multi-national bank places advertisements on LinkedIn, job portals, and university notice boards to attract a large pool of applicants for its 'Management Trainee' program. This active process of attracting candidates is called:",
+    "options": [
+      "A) Recruitment",
+      "B) Selection",
+      "C) Mentoring",
+      "D) Retention"
+    ],
+    "correctAnswer": "A) Recruitment",
+    "explanation": "Recruitment is the active HR process of seeking out, finding, and attracting a pool of potentially qualified candidates to apply for job vacancies."
+  },
+  {
+    "id": "c8q494",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "Out of 500 applicants, the HR team uses aptitude tests, group discussions, and multiple panel interviews to filter the list down and offer the job to the single best candidate. This filtering process is called:",
+    "options": [
+      "A) Recruitment",
+      "B) Job Analysis",
+      "C) Selection",
+      "D) Orientation"
+    ],
+    "correctAnswer": "C) Selection",
+    "explanation": "Selection is the process of evaluating the recruited applicants through tests and interviews to choose the most suitable individual for the job."
+  },
+  {
+    "id": "c8q495",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "Before finalizing a job offer for a cashier position, a bank contacts the candidate's previous employers and checks their financial credit history to ensure they are trustworthy. What is this screening step called?",
+    "options": [
+      "A) Background / Reference check",
+      "B) Aptitude test",
+      "C) Personality test",
+      "D) Job enlargement"
+    ],
+    "correctAnswer": "A) Background / Reference check",
+    "explanation": "A background or reference check verifies a candidate's past employment, criminal, and financial records to protect the company from a bad hire."
+  },
+  {
+    "id": "c8q496",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "A newly hired engineer spends her first week touring the factory, meeting department heads, and learning about the company's fire safety rules and core values before touching any actual work. What is this process called?",
+    "options": [
+      "A) Job rotation",
+      "B) Induction / Orientation",
+      "C) External recruitment",
+      "D) Downsizing"
+    ],
+    "correctAnswer": "B) Induction / Orientation",
+    "explanation": "Induction (or orientation) is the initial training process that familiarizes a new employee with the organization's culture, rules, and layout so they can settle in."
+  },
+  {
+    "id": "c8q497",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "A company sends a junior accountant to a half-day workshop to learn a newly installed tax software necessary for his daily tasks. This short-term focus on a specific current skill is categorized as:",
+    "options": [
+      "A) Development",
+      "B) Training",
+      "C) Recruitment",
+      "D) Job enrichment"
+    ],
+    "correctAnswer": "B) Training",
+    "explanation": "Training is a short-term process designed to impart specific technical skills required for an employee to perform their current job effectively."
+  },
+  {
+    "id": "c8q498",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "At the end of every year, a manager sits down with an employee to formally review their past performance against set targets, discuss their weaknesses, and plan goals for the next year. What is this formal process?",
+    "options": [
+      "A) Job analysis",
+      "B) Employee recruitment",
+      "C) Performance appraisal",
+      "D) Mudarabah contract"
+    ],
+    "correctAnswer": "C) Performance appraisal",
+    "explanation": "A performance appraisal is a systematic, periodic evaluation of an employee's job performance and contribution to the company, used to determine bonuses or training needs."
+  },
+  {
+    "id": "c8q499",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "A call center is struggling because 30% of its staff quit every six months and have to be replaced, causing massive hiring and training expenses. What critical HR metric is alarmingly high here?",
+    "options": [
+      "A) Profit margin",
+      "B) Span of control",
+      "C) Market share",
+      "D) Employee turnover"
+    ],
+    "correctAnswer": "D) Employee turnover",
+    "explanation": "Employee turnover measures the rate at which employees leave an organization and need to be replaced. High turnover is very costly."
+  },
+  {
+    "id": "c8q500",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "When a senior managerial position opens up, the CEO decides to promote a talented middle manager from within the company rather than posting the job online. What is a major advantage of this 'Internal Recruitment'?",
+    "options": [
+      "A) It brings entirely radical, fresh ideas into the firm",
+      "B) It is generally faster, cheaper, and highly motivating for existing staff",
+      "C) It completely eliminates the need for a salary",
+      "D) It increases the firm's overall external market share"
+    ],
+    "correctAnswer": "B) It is generally faster, cheaper, and highly motivating for existing staff",
+    "explanation": "Internal recruitment is cost-effective, saves time on orientation, and acts as a strong motivator by showing staff that career progression is possible within the firm."
+  }
+]

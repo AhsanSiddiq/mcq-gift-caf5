@@ -1,0 +1,702 @@
+[
+  {
+    "id": "c1q1",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "TechNova Solutions develops custom accounting software for retail businesses and provides online troubleshooting. How should TechNova's offerings be classified?",
+    "options": [
+      "A) Tangible goods only",
+      "B) Intangible services only",
+      "C) Both tangible goods and intangible services",
+      "D) Not-for-profit resources"
+    ],
+    "correctAnswer": "B) Intangible services only",
+    "explanation": "Services are intangible offerings provided by businesses that cannot be held, touched, or stored. Software troubleshooting falls under this category."
+  },
+  {
+    "id": "c1q2",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "Orion Manufacturing recently opened a new plant. To ensure long-term survival and success in a competitive market, which primary variables must Orion focus on?",
+    "options": [
+      "A) Growth and profitability",
+      "B) Maximizing employee turnover",
+      "C) Reducing stakeholder communication",
+      "D) Increasing government regulations"
+    ],
+    "correctAnswer": "A) Growth and profitability",
+    "explanation": "Businesses that understand the functioning of major variables influencing their growth and profitability are the ones that succeed in the long-run."
+  },
+  {
+    "id": "c1q3",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "The Green Earth Foundation focuses on planting trees in deforested urban areas. Unlike commercial entities, what is the primary objective of this organization?",
+    "options": [
+      "A) Maximizing shareholder wealth",
+      "B) Achieving social and environmental goals rather than traditional profit",
+      "C) Generating high tax revenues for the government",
+      "D) Ensuring rapid market share dominance"
+    ],
+    "correctAnswer": "B) Achieving social and environmental goals rather than traditional profit",
+    "explanation": "A not-for-profit organisation is established to achieve objectives other than the traditional business goal of earning profit, focusing instead on social or environmental welfare."
+  },
+  {
+    "id": "c1q4",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "Alpha Corp's leadership has drafted a statement reading, 'To be the world's most trusted provider of clean energy by 2040.' What type of statement is this?",
+    "options": [
+      "A) Tactical plan",
+      "B) Mission statement",
+      "C) Vision statement",
+      "D) Operational goal"
+    ],
+    "correctAnswer": "C) Vision statement",
+    "explanation": "A vision statement is an inspirational statement discussing what the organization wants to be in the future and how it wants to be viewed."
+  },
+  {
+    "id": "c1q5",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "Beta Logistics has published a document explaining its current purpose, its core values, and its daily commitment to fast delivery. Which organizational element does this represent?",
+    "options": [
+      "A) Vision statement",
+      "B) Mission statement",
+      "C) Strategic objective",
+      "D) Financial goal"
+    ],
+    "correctAnswer": "B) Mission statement",
+    "explanation": "A mission statement clarifies where the organization currently is, its purpose, and why it does what it does on a daily basis."
+  },
+  {
+    "id": "c1q6",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "Mr. Ahmed works as a production supervisor at Delta Textiles. Based on stakeholder classifications, into which category does Mr. Ahmed fall?",
+    "options": [
+      "A) Connected stakeholder",
+      "B) External stakeholder",
+      "C) Internal stakeholder",
+      "D) Regulatory stakeholder"
+    ],
+    "correctAnswer": "C) Internal stakeholder",
+    "explanation": "Internal stakeholders, such as employees and managers, are directly involved in the company’s day-to-day operations."
+  },
+  {
+    "id": "c1q7",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "Omega Traders regularly purchases raw materials from Sigma Ltd. on a 30-day credit basis. What type of stakeholder is Sigma Ltd. to Omega Traders?",
+    "options": [
+      "A) Internal stakeholder",
+      "B) Connected stakeholder",
+      "C) External stakeholder",
+      "D) Secondary stakeholder"
+    ],
+    "correctAnswer": "B) Connected stakeholder",
+    "explanation": "Connected stakeholders have a direct financial relationship with the business, such as suppliers, customers, and shareholders."
+  },
+  {
+    "id": "c1q8",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "The local municipal council is monitoring a nearby chemical plant to ensure it complies with emission laws. How is the municipal council classified as a stakeholder?",
+    "options": [
+      "A) Connected stakeholder",
+      "B) Internal stakeholder",
+      "C) External stakeholder",
+      "D) Primary shareholder"
+    ],
+    "correctAnswer": "C) External stakeholder",
+    "explanation": "External stakeholders, like governments and local communities, are not directly connected through employment or finance but are impacted by or regulate the business."
+  },
+  {
+    "id": "c1q9",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "A large institutional investor holds significant voting rights in Gamma Corp but rarely involves itself in daily management. According to Mendelow's Matrix, what strategy should Gamma Corp use for this investor?",
+    "options": [
+      "A) Keep informed",
+      "B) Minimal effort",
+      "C) Keep satisfied",
+      "D) Manage closely"
+    ],
+    "correctAnswer": "C) Keep satisfied",
+    "explanation": "Stakeholders with high power but low interest in the daily operations should be kept satisfied according to Mendelow's Matrix."
+  },
+  {
+    "id": "c1q10",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "A local community group is highly concerned about the noise from a new construction project but has little legal power to stop it. Under Mendelow's Matrix, how should the construction firm manage this group?",
+    "options": [
+      "A) Keep informed",
+      "B) Keep satisfied",
+      "C) Manage closely",
+      "D) Monitor only"
+    ],
+    "correctAnswer": "A) Keep informed",
+    "explanation": "Groups with high interest but low power should be kept informed to maintain good relations and prevent them from gaining power to disrupt the business."
+  },
+  {
+    "id": "c2q11",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "Mr. Tariq runs a small retail store entirely on his own. If the business goes bankrupt and owes money to suppliers, what is the extent of Mr. Tariq's financial responsibility?",
+    "options": [
+      "A) He is only liable up to his initial investment",
+      "B) He has limited liability",
+      "C) He has unlimited liability and his personal assets may be used",
+      "D) The government will cover the remaining debts"
+    ],
+    "correctAnswer": "C) He has unlimited liability and his personal assets may be used",
+    "explanation": "A major disadvantage of a sole proprietorship is unlimited liability, meaning the owner's personal assets can be seized to pay off business debts."
+  },
+  {
+    "id": "c2q12",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "Which of the following is considered a primary advantage of operating a business as a sole trader?",
+    "options": [
+      "A) Ability to issue shares to the public",
+      "B) Absolute control over all business decisions",
+      "C) Separate legal entity status",
+      "D) Complex legal formation process"
+    ],
+    "correctAnswer": "B) Absolute control over all business decisions",
+    "explanation": "In a sole proprietorship, the proprietor has full control and is free to make all decisions without needing to consult partners or a board."
+  },
+  {
+    "id": "c2q13",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "Ali and Bilal start a logistics firm together under a formal agreement. At the end of the financial year, how will the financial outcomes of the firm be handled?",
+    "options": [
+      "A) Only Ali will absorb losses",
+      "B) They will share both profits and losses according to their agreement",
+      "C) Profits are retained entirely by the firm without distribution",
+      "D) Bilal receives a fixed salary instead of profits"
+    ],
+    "correctAnswer": "B) They will share both profits and losses according to their agreement",
+    "explanation": "In a partnership, the parties agree, either orally or in writing, to share both the profits and the losses of the joint enterprise."
+  },
+  {
+    "id": "c2q14",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "In a specific partnership arrangement, one partner invests capital but takes no part in daily management and has liability restricted to their investment. What is this type of arrangement called?",
+    "options": [
+      "A) General partnership",
+      "B) Sole proprietorship",
+      "C) Limited partnership",
+      "D) Joint stock company"
+    ],
+    "correctAnswer": "C) Limited partnership",
+    "explanation": "A limited partnership includes partners who provide capital but have restricted liability and no active management role, unlike general partners."
+  },
+  {
+    "id": "c2q15",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "Zeta Ltd is a large corporation where the founders own shares but no longer make day-to-day decisions. Who is legally responsible for overseeing the overall management of Zeta Ltd?",
+    "options": [
+      "A) The trade unions",
+      "B) The Board of Directors",
+      "C) The local community",
+      "D) The operational staff"
+    ],
+    "correctAnswer": "B) The Board of Directors",
+    "explanation": "In a company structure, there is a separation of ownership and control. The Board of Directors is elected by shareholders to manage the company."
+  },
+  {
+    "id": "c2q16",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "Ms. Sara sits on the Board of Directors for Nexus Ltd and also serves full-time as the Chief Financial Officer (CFO). What is her specific role title?",
+    "options": [
+      "A) Non-Executive Director",
+      "B) Executive Director",
+      "C) General Partner",
+      "D) Sole Proprietor"
+    ],
+    "correctAnswer": "B) Executive Director",
+    "explanation": "Executive directors are members of the board who are also deeply involved in the daily management and operations of the company."
+  },
+  {
+    "id": "c2q17",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "To ensure good corporate governance, a company brings in outside experts to sit on the board who do not work for the company daily. What is the primary benefit of this action?",
+    "options": [
+      "A) It guarantees higher immediate profits",
+      "B) It prevents executive directors from dominating decisions with personal interests",
+      "C) It allows the company to avoid paying corporate taxes",
+      "D) It automatically converts the business into a public sector organization"
+    ],
+    "correctAnswer": "B) It prevents executive directors from dominating decisions with personal interests",
+    "explanation": "Independent Non-Executive Directors (NEDs) provide objective oversight and prevent the company from being dominated by the personal interests of executive directors."
+  },
+  {
+    "id": "c2q18",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "Horizon Tech is looking to expand and decides to offer its shares to the general public for the very first time. What is this process called?",
+    "options": [
+      "A) Initial Public Offering (IPO)",
+      "B) Sole trader registration",
+      "C) Partnership dissolution",
+      "D) Public sector funding"
+    ],
+    "correctAnswer": "A) Initial Public Offering (IPO)",
+    "explanation": "When a company first offers shares to the public to raise capital, it goes through an Initial Public Offering (IPO)."
+  },
+  {
+    "id": "c2q19",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "The National Highway Authority is funded and operated by the government to manage road infrastructure. Which category of organization does this fall under?",
+    "options": [
+      "A) Private limited company",
+      "B) Sole proprietorship",
+      "C) Public sector organization",
+      "D) Non-governmental organization (NGO)"
+    ],
+    "correctAnswer": "C) Public sector organization",
+    "explanation": "Public sector organizations are owned and funded by the government to provide services to the public, unlike private sector companies."
+  },
+  {
+    "id": "c2q20",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "A local sports club collects subscriptions from its members. At the end of the year, instead of calculating a 'profit', what does the club report?",
+    "options": [
+      "A) Return on Equity",
+      "B) Earnings per share",
+      "C) Surplus or deficit of income over expenditure",
+      "D) Dividend yield"
+    ],
+    "correctAnswer": "C) Surplus or deficit of income over expenditure",
+    "explanation": "Not-for-profit organizations, such as clubs and societies, produce accounts showing a surplus or deficit of income over expenditure instead of a profit and loss account."
+  },
+  {
+    "id": "c3q21",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "A regional manager at a retail chain has 15 store managers reporting directly to him. In organizational structure terminology, what does the number '15' represent?",
+    "options": [
+      "A) Chain of command",
+      "B) Span of control",
+      "C) Centralization degree",
+      "D) Delegation level"
+    ],
+    "correctAnswer": "B) Span of control",
+    "explanation": "Span of control refers directly to the number of subordinates reporting directly to a given manager or supervisor."
+  },
+  {
+    "id": "c3q22",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "A traditional banking institution has many levels of middle management, resulting in a long chain of command and narrow spans of control. What type of structure is this?",
+    "options": [
+      "A) Flat structure",
+      "B) Tall structure",
+      "C) Virtual structure",
+      "D) Matrix structure"
+    ],
+    "correctAnswer": "B) Tall structure",
+    "explanation": "A tall organizational structure is characterized by many management levels, a long chain of command, and a narrow span of control."
+  },
+  {
+    "id": "c3q23",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "At Omega Enterprises, all major operational decisions must be approved by the CEO at the head office, with branch managers having almost no authority. What concept does this illustrate?",
+    "options": [
+      "A) Decentralization",
+      "B) Centralization",
+      "C) Matrix reporting",
+      "D) Divisional autonomy"
+    ],
+    "correctAnswer": "B) Centralization",
+    "explanation": "Centralization is the degree to which decision-making authority is retained at the top or concentrated at a single point in the organization."
+  },
+  {
+    "id": "c3q24",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "A multinational fast-food chain allows its country managers to create localized menus without asking the global headquarters. What is a key advantage of this decentralized approach?",
+    "options": [
+      "A) Slower, more calculated responses to local changes",
+      "B) Increased workload for the global CEO",
+      "C) Quicker decision-making at the local level",
+      "D) Identical product offerings globally"
+    ],
+    "correctAnswer": "C) Quicker decision-making at the local level",
+    "explanation": "Decentralization pushes decision-making down the hierarchy, allowing local managers to respond quickly to market changes without waiting for head office approval."
+  },
+  {
+    "id": "c3q25",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "Sigma Corp is organized into distinct departments for Marketing, Finance, Human Resources, and Production. What type of organizational structure is Sigma Corp using?",
+    "options": [
+      "A) Divisional structure",
+      "B) Matrix structure",
+      "C) Functional structure",
+      "D) Virtual structure"
+    ],
+    "correctAnswer": "C) Functional structure",
+    "explanation": "A functional structure groups activities and employees together based on their specific business functions, such as marketing or finance."
+  },
+  {
+    "id": "c3q26",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "A global electronics manufacturer creates separate, self-contained units for its Mobile Phones, Home Appliances, and Medical Devices. Each unit has its own marketing and finance teams. Which structure is this?",
+    "options": [
+      "A) Functional structure",
+      "B) Divisional structure",
+      "C) Entrepreneurial structure",
+      "D) Bureaucratic structure"
+    ],
+    "correctAnswer": "B) Divisional structure",
+    "explanation": "Divisional structures group activities based on product lines, geographic areas, or customer types, allowing each division to operate almost independently."
+  },
+  {
+    "id": "c3q27",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "An engineer at a software firm reports to the Head of Engineering for technical guidelines, but also reports to a Project Manager for a specific client assignment. Which organizational structure does this represent?",
+    "options": [
+      "A) Matrix structure",
+      "B) Centralized structure",
+      "C) Functional structure",
+      "D) Sole proprietorship"
+    ],
+    "correctAnswer": "A) Matrix structure",
+    "explanation": "A matrix organization combines functional and product structures, leading to a dual reporting system where employees report to two different managers."
+  },
+  {
+    "id": "c3q28",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "E-Shop Ltd has no physical headquarters or warehouse. It uses third-party manufacturers, freelance marketers, and drop-shipping logistics, coordinating everything via cloud software. What type of organization is this?",
+    "options": [
+      "A) Matrix organization",
+      "B) Tall organization",
+      "C) Virtual organization",
+      "D) Bureaucracy"
+    ],
+    "correctAnswer": "C) Virtual organization",
+    "explanation": "A virtual organization lacks a traditional physical infrastructure and relies heavily on IT networks and external service providers to operate."
+  },
+  {
+    "id": "c3q29",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "When an employee has a grievance, they are instructed to first speak to their supervisor, who will then speak to the department head, who can escalate it to the director. This clear line of authority is known as the:",
+    "options": [
+      "A) Span of control",
+      "B) Functional division",
+      "C) Chain of command",
+      "D) Decentralization matrix"
+    ],
+    "correctAnswer": "C) Chain of command",
+    "explanation": "The chain of command is the unbroken line of authority extending from the top of the organization down to the lowest level, clarifying who reports to whom."
+  },
+  {
+    "id": "c3q30",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "A large conglomerate operates several businesses. One of its divisions operates completely autonomously with its own distinct mission, competitors, and strategy. What is this division called?",
+    "options": [
+      "A) A Functional Unit",
+      "B) A Strategic Business Unit (SBU)",
+      "C) A Joint Venture",
+      "D) A Virtual Team"
+    ],
+    "correctAnswer": "B) A Strategic Business Unit (SBU)",
+    "explanation": "A Strategic Business Unit (SBU) is an autonomous division within a larger corporate enterprise that has its own strategy and objectives."
+  },
+  {
+    "id": "c4q31",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "What is the primary objective of financial management decisions in a commercial corporation?",
+    "options": [
+      "A) To maximize the number of employees",
+      "B) To maximize value for shareholders",
+      "C) To increase total tax liabilities",
+      "D) To completely eliminate all business expenses"
+    ],
+    "correctAnswer": "B) To maximize value for shareholders",
+    "explanation": "The ultimate goal of financial management and financing decisions is to achieve value maximization for the company's shareholders."
+  },
+  {
+    "id": "c4q32",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "A retail business takes a loan to cover its inventory purchases for the upcoming holiday season and plans to repay it within six months. How is this type of financing classified?",
+    "options": [
+      "A) Long-term equity",
+      "B) Long-term debt",
+      "C) Short-term financing",
+      "D) Retained earnings"
+    ],
+    "correctAnswer": "C) Short-term financing",
+    "explanation": "Finances that are intended to be paid off within one year, such as covering seasonal inventory, are classified as short-term financing."
+  },
+  {
+    "id": "c4q33",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "A furniture manufacturer receives raw wood from a supplier and agrees to pay the invoice in 45 days without any interest. What specific type of financing is the manufacturer utilizing?",
+    "options": [
+      "A) Trade credit",
+      "B) Factoring",
+      "C) Corporate bond",
+      "D) Operating lease"
+    ],
+    "correctAnswer": "A) Trade credit",
+    "explanation": "Trade credit exists when a purchaser orders and receives goods but pays the supplier after a mutually agreed upon period of time."
+  },
+  {
+    "id": "c4q34",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "When a company is choosing between issuing new shares (equity) or taking a bank loan (debt), what is a major financial advantage of choosing the bank loan?",
+    "options": [
+      "A) Debt does not require repayment",
+      "B) Debt grants voting rights to the bank",
+      "C) Interest paid on debt is usually tax-deductible",
+      "D) Debt decreases the span of control"
+    ],
+    "correctAnswer": "C) Interest paid on debt is usually tax-deductible",
+    "explanation": "A key advantage of debt financing over equity is that the interest payments made on debt are typically treated as tax-deductible expenses."
+  },
+  {
+    "id": "c4q35",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "At the end of the year, Delta Corp decides to keep 40% of its net profit to fund a new factory rather than paying it out to investors. What is this internal source of finance called?",
+    "options": [
+      "A) Trade credit",
+      "B) Retained earnings",
+      "C) Debentures",
+      "D) Factoring"
+    ],
+    "correctAnswer": "B) Retained earnings",
+    "explanation": "Retaining earnings involves keeping a portion of the business's profits for reinvestment instead of distributing them to shareholders as dividends."
+  },
+  {
+    "id": "c4q36",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "A startup tech company issues new shares to a group of investors to raise capital. What is a potential drawback of this equity financing method for the original founders?",
+    "options": [
+      "A) They must pay fixed monthly interest",
+      "B) It increases the company's debt burden",
+      "C) It dilutes their ownership and control of the company",
+      "D) The financing must be repaid within one year"
+    ],
+    "correctAnswer": "C) It dilutes their ownership and control of the company",
+    "explanation": "Issuing new shares means new investors gain voting rights, resulting in the dilution of ownership and control for existing shareholders."
+  },
+  {
+    "id": "c4q37",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "A textile firm has Rs. 1 million in unpaid customer invoices but needs cash immediately to pay salaries. The firm sells these invoices to a financial institution at a discount. What is this financing method called?",
+    "options": [
+      "A) Leasing",
+      "B) Factoring",
+      "C) Issuing debentures",
+      "D) Trade credit"
+    ],
+    "correctAnswer": "B) Factoring",
+    "explanation": "Factoring is a short-term finance method where a business sells its accounts receivable (invoices) to a third party at a discount to obtain immediate cash."
+  },
+  {
+    "id": "c4q38",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "To fund a multi-year infrastructure project, a public limited company issues certificates to the public promising to pay a fixed interest rate and return the principal after 10 years. What are these instruments called?",
+    "options": [
+      "A) Ordinary shares",
+      "B) Corporate bonds or debentures",
+      "C) Retained earnings",
+      "D) Promissory trade credits"
+    ],
+    "correctAnswer": "B) Corporate bonds or debentures",
+    "explanation": "Corporate bonds and debentures are long-term debt instruments issued to the public to borrow money for extended periods."
+  },
+  {
+    "id": "c4q39",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "A financial manager is evaluating two investment projects. Project A is very safe, while Project B is highly uncertain. According to the risk-return trade-off concept, what must Project B offer to be considered viable?",
+    "options": [
+      "A) A higher potential return",
+      "B) A lower potential return",
+      "C) Guaranteed government subsidies",
+      "D) Immediate short-term liquidity"
+    ],
+    "correctAnswer": "A) A higher potential return",
+    "explanation": "The risk-return trade-off dictates that higher levels of risk must be compensated with the potential for higher returns."
+  },
+  {
+    "id": "c4q40",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "A manufacturing firm takes out a 6-month bank loan to purchase heavy machinery that will take 5 years to generate enough cash to pay for itself. What financial risk is the firm creating?",
+    "options": [
+      "A) Asset-liability mismatch",
+      "B) Equity dilution",
+      "C) Loss of voting rights",
+      "D) Dividend deficit"
+    ],
+    "correctAnswer": "A) Asset-liability mismatch",
+    "explanation": "Funding long-term assets with short-term liabilities creates an asset-liability mismatch, leading to a high risk of default when the loan comes due."
+  },
+  {
+    "id": "c5q41",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "A supermarket's barcode scanner records thousands of individual item prices and timestamps every hour. A manager later reviews a report showing that fruit sales peak on Saturday mornings. How do these two elements relate?",
+    "options": [
+      "A) Both are raw data",
+      "B) Both are processed information",
+      "C) The barcode scans are raw data, and the report is processed information",
+      "D) The barcode scans are information, and the report is raw data"
+    ],
+    "correctAnswer": "C) The barcode scans are raw data, and the report is processed information",
+    "explanation": "Data represents raw, unorganized facts (the scans), while information is data that has been processed into a meaningful format (the sales report)."
+  },
+  {
+    "id": "c5q42",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "The payroll department of a factory uses a software system to calculate the weekly wages of line workers based on their punched-in hours. What type of information system is this?",
+    "options": [
+      "A) Decision Support System (DSS)",
+      "B) Executive Information System (EIS)",
+      "C) Transaction Processing System (TPS)",
+      "D) Expert System"
+    ],
+    "correctAnswer": "C) Transaction Processing System (TPS)",
+    "explanation": "A Transaction Processing System (TPS) supports single users in routine, everyday business transactions like calculating payroll."
+  },
+  {
+    "id": "c5q43",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "A regional sales manager receives a weekly summary comparing the actual sales figures of 10 stores against their monthly targets. Which system is most likely generating this structured, regular report?",
+    "options": [
+      "A) Management Information System (MIS)",
+      "B) Operational Hardware System",
+      "C) Artificial Intelligence System",
+      "D) Strategic Extranet System"
+    ],
+    "correctAnswer": "A) Management Information System (MIS)",
+    "explanation": "An MIS is designed to report on existing operations by generating regular, structured reports for middle management."
+  },
+  {
+    "id": "c5q44",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "A shipping company uses specialized software that analyzes weather patterns, fuel costs, and port delays to help managers choose the most cost-effective routes for their vessels. What type of system is this?",
+    "options": [
+      "A) Transaction Processing System (TPS)",
+      "B) Decision Support System (DSS)",
+      "C) Internal Network System",
+      "D) Record-keeping System"
+    ],
+    "correctAnswer": "B) Decision Support System (DSS)",
+    "explanation": "A Decision Support System (DSS) provides analytical capabilities and models to assist managers in making complex or unstructured decisions."
+  },
+  {
+    "id": "c5q45",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "The CEO of a multinational corporation uses a highly visual dashboard system to monitor global market trends and long-term economic shifts to plan a 10-year expansion strategy. Which system is the CEO using?",
+    "options": [
+      "A) Transaction Processing System (TPS)",
+      "B) Executive Information System (EIS)",
+      "C) Data Entry System",
+      "D) Basic Accounting System"
+    ],
+    "correctAnswer": "B) Executive Information System (EIS)",
+    "explanation": "An Executive Information System (EIS) is used by senior executives to drill down into strategic, long-term information and visual data."
+  },
+  {
+    "id": "c5q46",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "An HR department uses a software application to safely store, search, and update employee records, ensuring data is not duplicated or lost. What is this software called?",
+    "options": [
+      "A) Database Management System (DBMS)",
+      "B) Wide Area Network (WAN)",
+      "C) Extranet protocol",
+      "D) Data mining hardware"
+    ],
+    "correctAnswer": "A) Database Management System (DBMS)",
+    "explanation": "A DBMS is the software interface that enables users to enter, store, organize, and retrieve data securely from a database."
+  },
+  {
+    "id": "c5q47",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "A large bank has a secure, private network that allows its employees to access internal policies, training modules, and company news. Outsiders cannot access this network. What is this called?",
+    "options": [
+      "A) The Internet",
+      "B) An Extranet",
+      "C) An Intranet",
+      "D) A public cloud"
+    ],
+    "correctAnswer": "C) An Intranet",
+    "explanation": "An intranet is a private, internal communications network used exclusively within an organization by its employees."
+  },
+  {
+    "id": "c5q48",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "An automobile manufacturer sets up a secure online portal where its authorized parts suppliers can log in to check current inventory levels and upcoming production schedules. What type of network is this?",
+    "options": [
+      "A) Intranet",
+      "B) Extranet",
+      "C) Local Area Network (LAN)",
+      "D) Open Internet"
+    ],
+    "correctAnswer": "B) Extranet",
+    "explanation": "An extranet is an extended intranet that securely shares part of a business's information with external partners like suppliers or vendors."
+  },
+  {
+    "id": "c5q49",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "A telecom company uses advanced algorithms to analyze terabytes of customer call data to identify subtle patterns and predict which customers are likely to switch to a competitor next month. What process is the company using?",
+    "options": [
+      "A) Data entry",
+      "B) Word processing",
+      "C) Data mining",
+      "D) Transaction processing"
+    ],
+    "correctAnswer": "C) Data mining",
+    "explanation": "Data mining involves analyzing large datasets to predict future trends and behaviors, allowing managers to make proactive decisions."
+  },
+  {
+    "id": "c5q50",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "A hospital implements multi-factor authentication and encryption to ensure that patient medical records cannot be accessed by hackers. Which key element of information systems does this represent?",
+    "options": [
+      "A) Database retrieval",
+      "B) Data integration",
+      "C) Hardware maintenance",
+      "D) Security and privacy"
+    ],
+    "correctAnswer": "D) Security and privacy",
+    "explanation": "Security and privacy are essential elements that ensure data is protected from unauthorized access, misuse, or loss."
+  }
+]

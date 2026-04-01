@@ -1,0 +1,352 @@
+[
+  {
+    "id": "c3q1",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "Which of the following best describes the primary purpose of a 'Chart of Accounts' for a business entity?",
+    "options": [
+      "A) To calculate the final net profit or loss for the year.",
+      "B) To act as a primary book of prime entry for cash transactions.",
+      "C) To provide a unique code and heading for each account to ensure consistent posting of transactions.",
+      "D) To list the outstanding balances of all credit customers."
+    ],
+    "correctAnswer": "C) To provide a unique code and heading for each account to ensure consistent posting of transactions.",
+    "explanation": "A chart of accounts is a list of accounts created by a business featuring unique codes and headings. This structure ensures that all transactions are recognized consistently in accordance with the requirements of the business."
+  },
+  {
+    "id": "c3q2",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "Individual credit sales invoices issued by 'Lunar Electronics' are initially recorded in which book, and subsequently posted to which ledger?",
+    "options": [
+      "A) Sales day book and posted to the General Ledger only.",
+      "B) Cash book and posted to the Receivables Ledger.",
+      "C) Sales day book and posted to individual customer accounts in the Receivables Ledger.",
+      "D) General Journal and posted to the Payables Ledger."
+    ],
+    "correctAnswer": "C) Sales day book and posted to individual customer accounts in the Receivables Ledger.",
+    "explanation": "Credit sales are initially recorded in the sales day book. Each individual invoice is then posted to the debit side of the respective customer's account in the Receivables Ledger."
+  },
+  {
+    "id": "c3q3",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "When 'Orion Manufacturing' purchases raw materials on credit, how is the periodic total of the Purchases Day Book posted to the ledgers?",
+    "options": [
+      "A) Debited to the Purchases account in the General Ledger.",
+      "B) Credited to the Purchases account in the General Ledger.",
+      "C) Debited to individual supplier accounts in the Payables Ledger.",
+      "D) Credited to individual supplier accounts in the Payables Ledger."
+    ],
+    "correctAnswer": "A) Debited to the Purchases account in the General Ledger.",
+    "explanation": "The periodic total from the purchases day book represents the total credit purchases for the period. This aggregate amount is posted to the debit side of the Purchases Account in the General Ledger."
+  },
+  {
+    "id": "c3q4",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "Which of the following accounts is typically NOT maintained within the General Ledger if an entity uses subsidiary ledgers?",
+    "options": [
+      "A) Sales Revenue account",
+      "B) Rent Expense account",
+      "C) Individual credit customer accounts",
+      "D) Owner's Capital account"
+    ],
+    "correctAnswer": "C) Individual credit customer accounts",
+    "explanation": "When subsidiary ledgers are used, individual customer accounts are kept in the Receivables Ledger, and individual supplier accounts are kept in the Payables Ledger. The General Ledger contains all other asset, liability, equity, income, and expense accounts."
+  },
+  {
+    "id": "c3q5",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "The total of the 'Discount Allowed' column in the three-column cash book of 'Horizon Enterprises' is posted to which account at the end of the period?",
+    "options": [
+      "A) Credit side of the Discount Allowed account in the General Ledger.",
+      "B) Debit side of the Discount Allowed account in the General Ledger.",
+      "C) Credit side of individual customer accounts in the Receivables Ledger.",
+      "D) Debit side of the Sales Revenue account in the General Ledger."
+    ],
+    "correctAnswer": "B) Debit side of the Discount Allowed account in the General Ledger.",
+    "explanation": "Discount allowed is an expense to the business. The periodic total of the discount allowed column from the cash book is posted to the debit side of the Discount Allowed account in the General Ledger."
+  },
+  {
+    "id": "c3q6",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "At the end of the financial year, which of the following groups of account balances will be carried forward to the next accounting period rather than being closed?",
+    "options": [
+      "A) Income, Expenses, and Drawings",
+      "B) Assets, Liabilities, and Capital",
+      "C) Income, Assets, and Capital",
+      "D) Expenses, Liabilities, and Drawings"
+    ],
+    "correctAnswer": "B) Assets, Liabilities, and Capital",
+    "explanation": "At the end of the reporting period, income, expenses, and drawings are closed to the Capital account. Balances on asset, liability, and capital accounts are not closed; they are carried forward to become the opening balances for the next period."
+  },
+  {
+    "id": "c3q7",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "Which of the following accounts of 'Skyline Services' must be formally closed to the statement of comprehensive income at the year-end?",
+    "options": [
+      "A) Rent Expense account",
+      "B) Prepaid Rent account",
+      "C) Trade Receivables account",
+      "D) Motor Vehicles account"
+    ],
+    "correctAnswer": "A) Rent Expense account",
+    "explanation": "Income and expense accounts must be closed to the statement of comprehensive income (profit or loss) at the end of the year. Assets like Prepaid Rent, Trade Receivables, and Motor Vehicles have their balances carried forward."
+  },
+  {
+    "id": "c3q8",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "What is the primary function of extracting a Trial Balance at the end of an accounting period?",
+    "options": [
+      "A) To calculate the exact tax liability owed to the government.",
+      "B) To permanently close all ledger accounts.",
+      "C) To act as an internal check on the mathematical accuracy of double-entry bookkeeping.",
+      "D) To serve as the final published financial statement for external investors."
+    ],
+    "correctAnswer": "C) To act as an internal check on the mathematical accuracy of double-entry bookkeeping.",
+    "explanation": "A trial balance is a memorandum listing of all account balances used as an internal check on the mathematical accuracy of double-entry bookkeeping. It ensures that total debits equal total credits."
+  },
+  {
+    "id": "c3q9",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "The accountant of 'Silverline Corp' completely forgot to record a cash sale of Rs. 15,000 in both the cash book and the sales ledger. What type of error is this, and will the trial balance still balance?",
+    "options": [
+      "A) Error of principle; Yes, it will balance.",
+      "B) Error of omission; No, it will not balance.",
+      "C) Error of omission; Yes, it will balance.",
+      "D) Compensating error; No, it will not balance."
+    ],
+    "correctAnswer": "C) Error of omission; Yes, it will balance.",
+    "explanation": "Completely omitting a transaction from the books of original record is an error of omission. Because both the debit and credit entries were missed equally, the trial balance totals will still agree."
+  },
+  {
+    "id": "c3q10",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "A routine maintenance repair costing Rs. 5,000 for a delivery truck was incorrectly debited to the Motor Vehicles (asset) account instead of the Repair Expense account. Which type of error does this represent?",
+    "options": [
+      "A) Error of omission",
+      "B) Error of principle",
+      "C) Compensating error",
+      "D) Casting error"
+    ],
+    "correctAnswer": "B) Error of principle",
+    "explanation": "An error of principle occurs when an entry is posted to the correct side (debit) but to an account of the wrong nature, such as treating a revenue expense (repairs) as a capital expenditure (asset)."
+  },
+  {
+    "id": "c3q11",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "If an account in the general ledger of 'Apex Ltd' shows a 'Balance c/d' (carried down) on the debit side, what does this mathematically represent for the next period?",
+    "options": [
+      "A) A debit balance brought forward.",
+      "B) A credit balance brought forward.",
+      "C) A zero balance.",
+      "D) A negative asset."
+    ],
+    "correctAnswer": "B) A credit balance brought forward.",
+    "explanation": "When balancing a T-account, a balance carried down (c/d) on the debit side means the credit side was heavier. This balance is then brought down diagonally, resulting in a credit balance brought forward (b/d) for the new period."
+  },
+  {
+    "id": "c3q12",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "Which of the following statements correctly distinguishes a 'T-account' format from a 'Running balance' account format?",
+    "options": [
+      "A) Running balance accounts only record cash, whereas T-accounts record credit.",
+      "B) T-accounts are balanced periodically, while running balance accounts provide an updated balance after each transaction.",
+      "C) T-accounts are updated after every transaction, while running balance accounts are only updated at year-end.",
+      "D) There is no practical difference; the terms are perfectly synonymous."
+    ],
+    "correctAnswer": "B) T-accounts are balanced periodically, while running balance accounts provide an updated balance after each transaction.",
+    "explanation": "A T-account is typically balanced periodically (e.g., month-end), whereas a running balance account has a specific column that calculates and shows the updated balance immediately after every single transaction."
+  },
+  {
+    "id": "c3q13",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "A supplier, 'Global Wholesalers', had an opening credit balance of Rs. 80,000 in the payables ledger of 'Nexus Traders'. During the month, further credit purchases of Rs. 45,000 were made, and 'Nexus' paid Rs. 60,000 via cheque. What is the closing balance of the supplier's account?",
+    "options": [
+      "A) Rs. 185,000 Credit",
+      "B) Rs. 65,000 Debit",
+      "C) Rs. 65,000 Credit",
+      "D) Rs. 95,000 Credit"
+    ],
+    "correctAnswer": "C) Rs. 65,000 Credit",
+    "explanation": "The opening liability is a credit of Rs. 80,000. Purchases increase the liability by Rs. 45,000 (Credit). Payments decrease the liability by Rs. 60,000 (Debit). The closing balance is 80,000 + 45,000 - 60,000 = Rs. 65,000 Credit."
+  },
+  {
+    "id": "c3q14",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "At the start of the month, 'Summit Traders' had a receivables balance of Rs. 50,000 from 'Alpha Co'. During the month, 'Summit' sold goods worth Rs. 30,000 on credit to 'Alpha', received a cheque of Rs. 20,000, and allowed a discount of Rs. 1,000. What is the closing balance of 'Alpha Co'?",
+    "options": [
+      "A) Rs. 59,000 Debit",
+      "B) Rs. 61,000 Debit",
+      "C) Rs. 59,000 Credit",
+      "D) Rs. 60,000 Debit"
+    ],
+    "correctAnswer": "A) Rs. 59,000 Debit",
+    "explanation": "Opening asset balance is Rs. 50,000 Debit. Credit sales increase it by Rs. 30,000 (Debit). The cheque received (Rs. 20,000) and discount allowed (Rs. 1,000) both decrease it (Credit). Closing balance = 50,000 + 30,000 - 20,000 - 1,000 = Rs. 59,000 Debit."
+  },
+  {
+    "id": "c3q15",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "Which of the following pairs of account balances will normally appear on the exact same side (either both debit or both credit) of a Trial Balance?",
+    "options": [
+      "A) Capital and Drawings",
+      "B) Purchases and Return Outwards",
+      "C) Sales and Return Inwards",
+      "D) Purchases and Sales Returns"
+    ],
+    "correctAnswer": "D) Purchases and Sales Returns",
+    "explanation": "Purchases are an expense (Debit balance). Sales Returns (Return Inwards) reduce income and also carry a Debit balance. Therefore, both appear on the debit column of the trial balance."
+  },
+  {
+    "id": "c3q16",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "Which of the following pairs of account balances will normally appear on opposite sides of a Trial Balance?",
+    "options": [
+      "A) Inventory and Drawings",
+      "B) Carriage Inwards and Carriage Outwards",
+      "C) Trade Receivables and Return Outwards",
+      "D) Purchases and Sales Returns"
+    ],
+    "correctAnswer": "C) Trade Receivables and Return Outwards",
+    "explanation": "Trade Receivables are assets with a debit balance. Return Outwards (Purchase Returns) decrease expenses and carry a credit balance. Thus, they appear on opposite sides of the trial balance."
+  },
+  {
+    "id": "c3q17",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "What is the correct journal entry to officially close the 'Drawings' account of the proprietor at the end of the financial year?",
+    "options": [
+      "A) Debit Drawings, Credit Bank",
+      "B) Debit Statement of Profit or Loss, Credit Drawings",
+      "C) Debit Owner's Capital, Credit Drawings",
+      "D) Debit Drawings, Credit Owner's Capital"
+    ],
+    "correctAnswer": "C) Debit Owner's Capital, Credit Drawings",
+    "explanation": "Drawings represent a withdrawal of equity by the owner. To close the drawings account at year-end, the balance is transferred to the capital account by debiting Owner's Capital and crediting the Drawings account."
+  },
+  {
+    "id": "c3q18",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "The total of the Purchases Returns Day Book is posted periodically to which specific ledger account?",
+    "options": [
+      "A) Debit side of individual supplier accounts in the Payables Ledger.",
+      "B) Credit side of individual supplier accounts in the Payables Ledger.",
+      "C) Debit side of the Purchase Returns account in the General Ledger.",
+      "D) Credit side of the Purchase Returns account in the General Ledger."
+    ],
+    "correctAnswer": "D) Credit side of the Purchase Returns account in the General Ledger.",
+    "explanation": "While individual returns are debited to supplier accounts, the periodic total of the Purchases Returns Day Book is posted to the credit side of the Purchase Returns (Return Outwards) account in the General Ledger."
+  },
+  {
+    "id": "c3q19",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "The 'Receivables Ledger' maintained by 'Oasis Furniture' is fundamentally synonymous with which of the following terms?",
+    "options": [
+      "A) Purchase Ledger",
+      "B) Nominal Ledger",
+      "C) Sales Ledger",
+      "D) General Ledger"
+    ],
+    "correctAnswer": "C) Sales Ledger",
+    "explanation": "The Receivables Ledger contains the individual accounts of customers to whom goods are sold on credit. It is therefore frequently referred to as the sales ledger or customer ledger."
+  },
+  {
+    "id": "c3q20",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "If 'Zephyr Tech' utilizes a contra settlement to offset Rs. 10,000 owed to a supplier who is also a customer, what is the correct double entry recorded in the main ledgers?",
+    "options": [
+      "A) Debit Trade Receivables Rs. 10,000, Credit Trade Payables Rs. 10,000",
+      "B) Debit Trade Payables Rs. 10,000, Credit Trade Receivables Rs. 10,000",
+      "C) Debit Cash Rs. 10,000, Credit Trade Receivables Rs. 10,000",
+      "D) Debit Purchases Rs. 10,000, Credit Sales Rs. 10,000"
+    ],
+    "correctAnswer": "B) Debit Trade Payables Rs. 10,000, Credit Trade Receivables Rs. 10,000",
+    "explanation": "A contra settlement offsets a mutual debt. It simultaneously reduces the liability owed to the supplier (Debit Trade Payables) and reduces the asset owed by the customer (Credit Trade Receivables)."
+  },
+  {
+    "id": "c3q21",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "In the General Journal of 'Radiant Motors', there is a column headed 'LF' (Ledger Folio). What is its primary administrative purpose?",
+    "options": [
+      "A) To record the exact time the transaction was authorized.",
+      "B) To document the signature of the reviewing auditor.",
+      "C) To provide a cross-reference page number or code linking to the relevant ledger account.",
+      "D) To list the serial number of the source document."
+    ],
+    "correctAnswer": "C) To provide a cross-reference page number or code linking to the relevant ledger account.",
+    "explanation": "The Ledger Folio (LF) column records the page number or unique code of the ledger account where the entry is posted. This facilitates quick cross-referencing and traceability between the journal and ledgers."
+  },
+  {
+    "id": "c3q22",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "Which of the following scenarios describes a 'Compensating Error' that will remain undetected by a Trial Balance?",
+    "options": [
+      "A) A cash receipt was completely omitted from the books.",
+      "B) A purchase of equipment was debited to the purchases account.",
+      "C) The sales account was accidentally undercast by Rs. 500, and the rent expense account was concurrently undercast by Rs. 500.",
+      "D) A payment of Rs. 100 was entered as Rs. 1,000 in both the cash and liability accounts."
+    ],
+    "correctAnswer": "C) The sales account was accidentally undercast by Rs. 500, and the rent expense account was concurrently undercast by Rs. 500.",
+    "explanation": "Compensating errors occur when two or more independent errors mathematically cancel each other out. If a credit balance (Sales) is short by 500 and a debit balance (Rent) is also short by 500, the trial balance totals will still match."
+  },
+  {
+    "id": "c3q23",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "When extracting a trial balance, which of the following accounts will typically present a credit balance?",
+    "options": [
+      "A) Prepaid Insurance",
+      "B) Drawings",
+      "C) Return Inwards",
+      "D) Bank Overdraft"
+    ],
+    "correctAnswer": "D) Bank Overdraft",
+    "explanation": "A bank overdraft represents an amount owed to the bank, making it a liability. Liabilities carry normal credit balances."
+  },
+  {
+    "id": "c3q24",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "Which of the following statements comprehensively defines the 'General Ledger'?",
+    "options": [
+      "A) It is a daily diary of all cash payments and receipts.",
+      "B) It contains only the individual accounts of credit customers.",
+      "C) It is also known as the nominal ledger and contains all accounts of assets, liabilities, income, expenses, capital, and drawings.",
+      "D) It is an external document sent to shareholders."
+    ],
+    "correctAnswer": "C) It is also known as the nominal ledger and contains all accounts of assets, liabilities, income, expenses, capital, and drawings.",
+    "explanation": "The General Ledger (or nominal ledger) holds the main T-accounts or running balance accounts for all financial elements—assets, liabilities, equity, income, and expenses—excluding the detailed individual subsidiary accounts if control accounts are used."
+  },
+  {
+    "id": "c3q25",
+    "chapter": 3,
+    "chapterTitle": "Ledgers and Trial Balance",
+    "question": "After extracting a trial balance, the accountant of 'Dynamic Corp' notices the debit column totals Rs. 500,000 and the credit column totals Rs. 490,000. Which single error could theoretically have caused this Rs. 10,000 discrepancy?",
+    "options": [
+      "A) A cash receipt of Rs. 10,000 was debited to cash but completely failed to be credited to the sales account.",
+      "B) A purchase of Rs. 10,000 was completely omitted from the books.",
+      "C) A payment of Rs. 5,000 was debited to Rent and credited to Cash.",
+      "D) A cash sale of Rs. 10,000 was debited to sales and credited to cash."
+    ],
+    "correctAnswer": "A) A cash receipt of Rs. 10,000 was debited to cash but completely failed to be credited to the sales account.",
+    "explanation": "If a transaction is debited but the corresponding credit is omitted, the debit side of the trial balance will be heavier than the credit side by exactly that amount (Rs. 10,000)."
+  }
+]

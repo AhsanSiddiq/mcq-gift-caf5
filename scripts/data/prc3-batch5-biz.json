@@ -1,0 +1,1004 @@
+[
+  {
+    "id": "v1c5q401",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "What does business data get processed into?",
+    "options": [
+      "A) Ideas",
+      "B) Meaningful and useful information",
+      "C) Data storage units",
+      "D) Basic facts"
+    ],
+    "correctAnswer": "B) Meaningful and useful information",
+    "explanation": "Data represents raw, unorganized facts. When data is processed, organized, and structured in a given context, it transforms into meaningful and useful information."
+  },
+  {
+    "id": "v1c5q402",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "What does batch processing involve?",
+    "options": [
+      "A) Processing transactions one by one in real-time",
+      "B) Collecting a group of similar transactions and processing them together",
+      "C) Storing transactions without processing them",
+      "D) Automatically rejecting transactions based on predefined rules"
+    ],
+    "correctAnswer": "B) Collecting a group of similar transactions and processing them together",
+    "explanation": "In a batch processing system, transactions are accumulated over time and then processed together as a single group or 'batch', rather than instantly as they occur."
+  },
+  {
+    "id": "v1c5q403",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "Which of the following is a function of a DBMS?",
+    "options": [
+      "A) It only stores data but does not organize it",
+      "B) It acts as an interface between the user and the database, managing data and schema",
+      "C) It processes large amounts of data offline",
+      "D) It eliminates the need for any data retrieval"
+    ],
+    "correctAnswer": "B) It acts as an interface between the user and the database, managing data and schema",
+    "explanation": "A Database Management System (DBMS) serves as the core interface allowing users to systematically organize, store, retrieve, and manage data and schemas."
+  },
+  {
+    "id": "v1c5q404",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "Which of the following is a feature of high-end ERP systems?",
+    "options": [
+      "A) Real-time processing and advanced analytics",
+      "B) Storing customer feedback exclusively",
+      "C) Only managing email communications",
+      "D) Replacing all hardware components"
+    ],
+    "correctAnswer": "A) Real-time processing and advanced analytics",
+    "explanation": "Enterprise Resource Planning (ERP) systems integrate an organization's core processes, frequently featuring real-time processing and offering advanced analytics for decision making."
+  },
+  {
+    "id": "v1c5q405",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "A computer network that spans a limited physical area, usually ranging from a small office to a building is known as a:",
+    "options": [
+      "A) LAN",
+      "B) WAN",
+      "C) MAN",
+      "D) PAN"
+    ],
+    "correctAnswer": "A) LAN",
+    "explanation": "A Local Area Network (LAN) connects computers and devices over a short distance, such as within a single building or an office."
+  },
+  {
+    "id": "v1c5q406",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "A computer network that spans a large physical area, connecting several sites of an organisation across cities, countries, and continents is known as a:",
+    "options": [
+      "A) LAN",
+      "B) WAN",
+      "C) MAN",
+      "D) PAN"
+    ],
+    "correctAnswer": "B) WAN",
+    "explanation": "A Wide Area Network (WAN) covers a large geographical area, facilitating communication between dispersed branches globally."
+  },
+  {
+    "id": "v1c5q407",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "Bluetooth technology is a prime example of which type of network?",
+    "options": [
+      "A) Wide area network",
+      "B) Virtual private network",
+      "C) Local area network",
+      "D) Personal area network"
+    ],
+    "correctAnswer": "D) Personal area network",
+    "explanation": "A Personal Area Network (PAN) provides data transmission among devices such as computers, smartphones, tablets and personal digital assistants (e.g., via Bluetooth)."
+  },
+  {
+    "id": "v1c5q408",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "What is a server in a computer network?",
+    "options": [
+      "A) Someone who manages the network",
+      "B) The name for a large number of computer cables",
+      "C) A powerful computer that provides a service, such as centralized file storage",
+      "D) The primary router configuration"
+    ],
+    "correctAnswer": "C) A powerful computer that provides a service, such as centralized file storage",
+    "explanation": "In networking, a server is a high-performance computer or system that provides resources, data, services, or programs to other computers, known as clients."
+  },
+  {
+    "id": "v1c5q409",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "A/An ________ is a collection of procedures for converting data into knowledge and facts.",
+    "options": [
+      "A) Information system",
+      "B) Data system",
+      "C) Storage system",
+      "D) Processor"
+    ],
+    "correctAnswer": "A) Information system",
+    "explanation": "An Information System is a combination of hardware, software, infrastructure, and trained personnel organized to facilitate planning, control, coordination, and decision making by converting data into knowledge."
+  },
+  {
+    "id": "v1c5q410",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "Strategic information and long-term decision-making are primarily important to which level of decision-makers?",
+    "options": [
+      "A) Executive managers",
+      "B) Supervisors",
+      "C) Supporting staff",
+      "D) Clerical staff"
+    ],
+    "correctAnswer": "A) Executive managers",
+    "explanation": "Executive (top-level) management uses strategic information systems, like Executive Support Systems (ESS), to make long-term, non-routine strategic decisions."
+  },
+  {
+    "id": "v1c5q411",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "Ajay woke up, went to the ATM to take money, then went to a grocery store to buy products, and registered online for his computer class. What kind of information systems did Ajay have multiple contacts with?",
+    "options": [
+      "A) EIS (Executive Information System)",
+      "B) MIS (Management Information System)",
+      "C) Transaction Processing System (TPS)",
+      "D) Decision Support System (DSS)"
+    ],
+    "correctAnswer": "C) Transaction Processing System (TPS)",
+    "explanation": "ATMs, point-of-sale retail checkouts, and online class registrations are all systems designed to process and record routine daily business transactions, which defines a TPS."
+  },
+  {
+    "id": "v1c5q412",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "A _______________ helps users to process data transactions within a database system that tracks transaction programs.",
+    "options": [
+      "A) Executive Support System",
+      "B) Decision Support System",
+      "C) Transaction Processing System",
+      "D) Neural Network"
+    ],
+    "correctAnswer": "C) Transaction Processing System",
+    "explanation": "A Transaction Processing System (TPS) is specifically designed to manage and monitor basic data transactions smoothly and consistently."
+  },
+  {
+    "id": "v1c5q413",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "A Transaction Processing System is frequently utilized as a real-time processing system where data is updated instantly.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correctAnswer": "A) True",
+    "explanation": "Many modern Transaction Processing Systems operate in real-time to immediately reflect updates, crucial for functions like ATM withdrawals and flight bookings."
+  },
+  {
+    "id": "v1c5q414",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "Which of the following processes multiple transactions at the exact same time as a grouped block?",
+    "options": [
+      "A) Batch Processing",
+      "B) Real-time Processing",
+      "C) Distributed System",
+      "D) Immediate update processing"
+    ],
+    "correctAnswer": "A) Batch Processing",
+    "explanation": "Batch processing involves accumulating transaction data over time and processing the entire batch of identical transactions simultaneously at a scheduled time."
+  },
+  {
+    "id": "v1c5q415",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "In which processing method are the results of each individual transaction NOT immediately available?",
+    "options": [
+      "A) Batch processing",
+      "B) Real-time processing",
+      "C) Online transaction processing",
+      "D) Direct access processing"
+    ],
+    "correctAnswer": "A) Batch processing",
+    "explanation": "Because batch processing delays the execution of tasks until a sufficient quantity is gathered, the outcome of any single transaction isn't known until the entire batch is processed."
+  },
+  {
+    "id": "v1c6q416",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "Which term is defined as the “discipline dealing with what is good and bad and with moral duty and obligation”?",
+    "options": [
+      "A) Ethics",
+      "B) Business Law",
+      "C) Corporate Governance",
+      "D) Corporate Social Responsibility"
+    ],
+    "correctAnswer": "A) Ethics",
+    "explanation": "Ethics represents the fundamental philosophical discipline focusing on moral duties, evaluating right versus wrong, and defining moral obligations."
+  },
+  {
+    "id": "v1c6q417",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "A second-hand car dealer sold a car to a customer assuring him that it is in good condition because a reputed mechanic tested it, despite knowing he never hired a mechanic. Is this an ethical dealing?",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correctAnswer": "B) False",
+    "explanation": "Lying or misrepresenting facts to gain an unfair advantage or close a sale violates the ethical principle of honesty and integrity."
+  },
+  {
+    "id": "v1c6q418",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "Ethically speaking, a builder can bribe the Building Control Authority to build a few extra unauthorized floors, as long as there is a genuine commitment to buy 100 ambulances for a welfare trust.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correctAnswer": "B) False",
+    "explanation": "Bribery and illegal activities are intrinsically unethical and cannot be justified or offset by subsequent charitable donations."
+  },
+  {
+    "id": "v1c6q419",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "XYZ Organization installs a factory in an underdeveloped locality, hiring underage students below minimum wage, believing they are helping poor families. Is this ethically acceptable corporate social responsibility?",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correctAnswer": "B) False",
+    "explanation": "Exploiting child labor and violating minimum wage laws is highly unethical and illegal; it does not constitute legitimate corporate social responsibility."
+  },
+  {
+    "id": "v1c6q420",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "An employee sees an HR vacancy that their cousin is highly qualified for. What is the most ethical course of action to avoid a conflict of interest?",
+    "options": [
+      "A) Demand HR give priority to the cousin",
+      "B) Secretly ensure the cousin gets the job through internal pressure",
+      "C) Ask the cousin to apply through standard channels and officially disclose the relationship as a referral",
+      "D) Guarantee the cousin that the position is theirs"
+    ],
+    "correctAnswer": "C) Ask the cousin to apply through standard channels and officially disclose the relationship as a referral",
+    "explanation": "Transparency is key in managing conflicts of interest. The candidate should go through normal competitive channels while the existing employee explicitly discloses the familial relationship."
+  },
+  {
+    "id": "v1c6q421",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "Being completely honest with a customer regarding the quality and limitations of a product is an example of:",
+    "options": [
+      "A) Marketing strategy",
+      "B) Business ethics",
+      "C) Effective leadership",
+      "D) Confidentiality"
+    ],
+    "correctAnswer": "B) Business ethics",
+    "explanation": "Honesty in commercial dealings, avoiding deception, and ensuring the customer is well-informed falls squarely under the domain of business ethics."
+  },
+  {
+    "id": "v1c6q422",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "Ethical issues may arise in all of the following corporate situations, EXCEPT:",
+    "options": [
+      "A) Fair and honest dealing with customers and suppliers",
+      "B) Developing the routine mathematical production schedule for next week",
+      "C) Showing respect to communities and public",
+      "D) Disposing of chemical waste near a river"
+    ],
+    "correctAnswer": "B) Developing the routine mathematical production schedule for next week",
+    "explanation": "Creating a standard production schedule is an operational and mathematical task, inherently lacking the moral dimension that triggers ethical dilemmas."
+  },
+  {
+    "id": "v1c6q423",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "An organization is in the process of awarding a contract. The son of the CEO of the same organization is also bidding for the contract. This represents a potential conflict of interest situation.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correctAnswer": "A) True",
+    "explanation": "A conflict of interest occurs when a decision-maker's personal or familial interests could inappropriately influence their professional obligations to the company."
+  },
+  {
+    "id": "v1c6q424",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "A food manufacturer strictly labels its products as 'Halal' only after passing rigorous and legitimate certification. This specific practice depicts:",
+    "options": [
+      "A) Grading",
+      "B) Professional behaviour",
+      "C) Honesty",
+      "D) Branding"
+    ],
+    "correctAnswer": "C) Honesty",
+    "explanation": "Labeling products truthfully and not deceiving consumers regarding religious or dietary compliance is a demonstration of corporate honesty."
+  },
+  {
+    "id": "v1c6q425",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "A professional cricket league ensures that all garbage collected from the stadiums is properly recycled rather than dumped in landfills. This shows:",
+    "options": [
+      "A) Social responsibility",
+      "B) Environmental responsibility",
+      "C) Economic responsibility",
+      "D) Labour responsibility"
+    ],
+    "correctAnswer": "B) Environmental responsibility",
+    "explanation": "Taking active measures to recycle waste and reduce an organization's carbon footprint specifically addresses environmental responsibility within the broader CSR framework."
+  },
+  {
+    "id": "v1c7q426",
+    "chapter": 7,
+    "chapterTitle": "Marketing Concepts",
+    "question": "Which of the following describes a systematic approach to anticipating, identifying, and satisfying consumer needs profitably?",
+    "options": [
+      "A) Selling",
+      "B) Branding",
+      "C) Accounting",
+      "D) Marketing"
+    ],
+    "correctAnswer": "D) Marketing",
+    "explanation": "Marketing is the overarching systematic process of determining consumer demand and successfully delivering products or services to satisfy those demands."
+  },
+  {
+    "id": "v1c7q427",
+    "chapter": 7,
+    "chapterTitle": "Marketing Concepts",
+    "question": "Which one of the following is NOT typically included in the complex set of activities defined as marketing?",
+    "options": [
+      "A) Transporting",
+      "B) Storing",
+      "C) Grading",
+      "D) Accounting"
+    ],
+    "correctAnswer": "D) Accounting",
+    "explanation": "Accounting is a distinct financial reporting function, whereas transporting, storing, and grading are physical activities historically associated with the marketing distribution channel."
+  },
+  {
+    "id": "v1c7q428",
+    "chapter": 7,
+    "chapterTitle": "Marketing Concepts",
+    "question": "Which of the following are considered fundamental characteristics of a product?",
+    "options": [
+      "A) It has a Name",
+      "B) It is Adaptable",
+      "C) It can be Communicated",
+      "D) All of these"
+    ],
+    "correctAnswer": "D) All of these",
+    "explanation": "A product possesses distinct features, branding (name), adaptability to market needs, and can be communicated or advertised to target audiences."
+  },
+  {
+    "id": "v1c7q429",
+    "chapter": 7,
+    "chapterTitle": "Marketing Concepts",
+    "question": "Products are broadly classified into two primary economic categories. These are:",
+    "options": [
+      "A) Banking and Insurance",
+      "B) Tangible and Non-tangible",
+      "C) Consumer and Industrial",
+      "D) Primary and Tertiary"
+    ],
+    "correctAnswer": "C) Consumer and Industrial",
+    "explanation": "Products are broadly divided into Consumer products (bought by final users for personal use) and Industrial products (bought by businesses for further processing or operations)."
+  },
+  {
+    "id": "v1c7q430",
+    "chapter": 7,
+    "chapterTitle": "Marketing Concepts",
+    "question": "Which specific product type is sub-divided into categories such as convenience, shopping, or specialty products?",
+    "options": [
+      "A) Industrial",
+      "B) Banking",
+      "C) Manufacturing",
+      "D) Consumer"
+    ],
+    "correctAnswer": "D) Consumer",
+    "explanation": "Consumer goods are categorized based on consumer shopping habits into convenience goods (frequent purchases), shopping goods (compared for quality), and specialty goods (unique characteristics)."
+  },
+  {
+    "id": "v1c7q431",
+    "chapter": 7,
+    "chapterTitle": "Marketing Concepts",
+    "question": "Heavy capital items, raw materials, and operating supplies are sub-categories of which major product type?",
+    "options": [
+      "A) Industrial",
+      "B) Banking",
+      "C) Manufacturing",
+      "D) Consumer"
+    ],
+    "correctAnswer": "A) Industrial",
+    "explanation": "Industrial products include installations, accessories, raw materials, component parts, and supplies utilized exclusively by businesses."
+  },
+  {
+    "id": "v1c7q432",
+    "chapter": 7,
+    "chapterTitle": "Marketing Concepts",
+    "question": "A consumer who purchases a virtual e-book on a Kindle instead of a physical paperback is engaging as a:",
+    "options": [
+      "A) Technical buyer",
+      "B) Advanced buyer",
+      "C) Contemporary buyer",
+      "D) Digital buyer"
+    ],
+    "correctAnswer": "D) Digital buyer",
+    "explanation": "Purchasing electronic, non-physical goods via an internet platform classifies the individual as a digital consumer or buyer."
+  },
+  {
+    "id": "v1c7q433",
+    "chapter": 7,
+    "chapterTitle": "Marketing Concepts",
+    "question": "During the 'Introduction' phase of the Product Life Cycle, the majority of a company's costs are typically incurred in:",
+    "options": [
+      "A) Promotion and marketing to create awareness",
+      "B) Raw material quality upgrades",
+      "C) Re-branding",
+      "D) Commission-based selling"
+    ],
+    "correctAnswer": "A) Promotion and marketing to create awareness",
+    "explanation": "When a new product launches, massive expenditures are required in promotion and advertising to build market awareness and inform consumers about the product."
+  },
+  {
+    "id": "v1c7q434",
+    "chapter": 7,
+    "chapterTitle": "Marketing Concepts",
+    "question": "OLED TV technology is constantly improving in colors, resolution, and sleek designs. A TV manufacturer relies on continuous input for these innovations from all of the following EXCEPT:",
+    "options": [
+      "A) Marketing Research",
+      "B) Customer feedback",
+      "C) Technological Market trends",
+      "D) Human resource training and development"
+    ],
+    "correctAnswer": "D) Human resource training and development",
+    "explanation": "While training improves employee skills, product design innovations are directly driven by market research, technology trends, and consumer feedback."
+  },
+  {
+    "id": "v1c7q435",
+    "chapter": 7,
+    "chapterTitle": "Marketing Concepts",
+    "question": "If a housing society focuses purely on creating high-quality living environments before considering how to sell them, its focus is primarily on:",
+    "options": [
+      "A) Housing products (Product orientation)",
+      "B) Sales orientation",
+      "C) Marketing orientation",
+      "D) Distribution orientation"
+    ],
+    "correctAnswer": "A) Housing products (Product orientation)",
+    "explanation": "A product orientation focuses heavily on the quality and features of the product itself, assuming that a superior product will naturally sell itself."
+  },
+  {
+    "id": "v1c8q436",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "Which of the following actions is NOT considered a stage in the 'Selection' process?",
+    "options": [
+      "A) Agreeing the vacancy and identifying the need",
+      "B) Interviewing the candidate",
+      "C) Conducting background checks",
+      "D) Selecting the final candidate"
+    ],
+    "correctAnswer": "A) Agreeing the vacancy and identifying the need",
+    "explanation": "Agreeing that a vacancy exists is the preliminary step of the 'Recruitment' phase, not the later 'Selection' phase where actual candidates are evaluated."
+  },
+  {
+    "id": "v1c8q437",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "Requesting a candidate’s credit history or reference check is part of which specific human resource management activity?",
+    "options": [
+      "A) Recruitment",
+      "B) Selection",
+      "C) Development",
+      "D) Retention"
+    ],
+    "correctAnswer": "B) Selection",
+    "explanation": "Reference and background checks are vital screening tools utilized strictly during the selection process to evaluate a candidate's suitability."
+  },
+  {
+    "id": "v1c8q438",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "Which of the following is NOT generally recognized as a tool or method for employee training?",
+    "options": [
+      "A) CBT (Computer-Based Training)",
+      "B) SAT (Standardized Assessment Test)",
+      "C) Apprenticeships",
+      "D) Mentoring"
+    ],
+    "correctAnswer": "B) SAT (Standardized Assessment Test)",
+    "explanation": "The SAT is an academic admission test for college students. It is not an organizational employee training tool."
+  },
+  {
+    "id": "v1c8q439",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "Which of the following is generally classified as 'off-the-job' training rather than 'on-the-job' training?",
+    "options": [
+      "A) Orientation / Induction",
+      "B) Job instruction manuals",
+      "C) Classroom simulation",
+      "D) Apprenticeships"
+    ],
+    "correctAnswer": "C) Classroom simulation",
+    "explanation": "Simulations (like flight simulators) are conducted away from the actual live work environment, making them a form of off-the-job training."
+  },
+  {
+    "id": "v1c8q440",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "A broad concept referring to employees maintaining a healthy equilibrium between their professional duties and personal life is known as:",
+    "options": [
+      "A) Work-life cycle",
+      "B) Work-life balance",
+      "C) Good corporate culture",
+      "D) Employee retention"
+    ],
+    "correctAnswer": "B) Work-life balance",
+    "explanation": "Work-life balance is an HR concept ensuring employees do not burn out by balancing their time and energy between the workplace and personal activities."
+  },
+  {
+    "id": "v1c8q441",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "The process of actively inviting and attracting applications from candidates to fill certain organizational vacancies is known as:",
+    "options": [
+      "A) Selection",
+      "B) Hiring",
+      "C) Induction",
+      "D) Recruitment"
+    ],
+    "correctAnswer": "D) Recruitment",
+    "explanation": "Recruitment specifically refers to the initial process of finding and encouraging potential candidates to apply for a job."
+  },
+  {
+    "id": "v1c8q442",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "What are the general reasons causing a change in an organization's workforce over time?",
+    "options": [
+      "A) Existing employees leave the organization (e.g., retirement or resignation)",
+      "B) Labor requirements change as new technological skills are needed",
+      "C) Both of these",
+      "D) None of these"
+    ],
+    "correctAnswer": "C) Both of these",
+    "explanation": "Workforce changes are driven by both natural attrition (turnover, retirement) and strategic shifts requiring new capabilities."
+  },
+  {
+    "id": "v1c8q443",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "The State Bank of Pakistan sends its fresh trainees to an intensive specialized course before they begin actual work. Which specific institute handles this?",
+    "options": [
+      "A) National Bank of Pakistan",
+      "B) National Institute of Bank & Finance (NIBAF)",
+      "C) Securities and Exchange Commission of Pakistan",
+      "D) Pakistan Institute of Management"
+    ],
+    "correctAnswer": "B) National Institute of Bank & Finance (NIBAF)",
+    "explanation": "NIBAF operates as the premier training institute for the State Bank of Pakistan to deliver intensive off-the-job training for its banking professionals."
+  },
+  {
+    "id": "v1c8q444",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "Which HR strategy aims to make a job 'richer' and more motivating by deliberately building greater autonomy and higher-level responsibilities into it?",
+    "options": [
+      "A) Job enlargement",
+      "B) Job enrichment",
+      "C) Job rotation",
+      "D) Job simplification"
+    ],
+    "correctAnswer": "B) Job enrichment",
+    "explanation": "Job enrichment is a vertical expansion of a job, giving an employee more control, decision-making power, and responsibility to increase motivation."
+  },
+  {
+    "id": "v1c8q445",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "The primary objective of performance appraisals and employee reviews is that they must be:",
+    "options": [
+      "A) Hard and intimidating",
+      "B) Kept entirely secret from the employee",
+      "C) Transparent and fair",
+      "D) Solely focused on financial bonuses"
+    ],
+    "correctAnswer": "C) Transparent and fair",
+    "explanation": "For an appraisal system to be effective and legally defensible, it must be completely transparent to the employee and executed fairly without bias."
+  },
+  {
+    "id": "v1c9q446",
+    "chapter": 9,
+    "chapterTitle": "Business operations of a manufacturing organization",
+    "question": "The complex process of converting physical resources and raw materials into finished goods is the responsibility of which organizational group?",
+    "options": [
+      "A) Finance",
+      "B) Sales",
+      "C) Operations",
+      "D) Marketing"
+    ],
+    "correctAnswer": "C) Operations",
+    "explanation": "Operations management oversees the fundamental transformation process that turns inputs (materials, labor) into outputs (finished goods/services)."
+  },
+  {
+    "id": "v1c9q447",
+    "chapter": 9,
+    "chapterTitle": "Business operations of a manufacturing organization",
+    "question": "Which term describes a manufacturing system that deliberately produces goods one at a time exactly according to the specific needs or wants of individual customers?",
+    "options": [
+      "A) Mass-production",
+      "B) Mass-customization",
+      "C) Batch processing",
+      "D) Customization (Job production)"
+    ],
+    "correctAnswer": "D) Customization (Job production)",
+    "explanation": "Customization (or job production) involves creating a unique, tailored item for a single customer, unlike mass production which standardizes output."
+  },
+  {
+    "id": "v1c9q448",
+    "chapter": 9,
+    "chapterTitle": "Business operations of a manufacturing organization",
+    "question": "In 'process manufacturing', the basic inputs (like chemicals or minerals) are physically or chemically converted into one or more continuous outputs.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correctAnswer": "A) True",
+    "explanation": "Process manufacturing involves mixing, boiling, or refining bulk materials (like oil refining) where the final product cannot easily be broken down into parts."
+  },
+  {
+    "id": "v1c9q449",
+    "chapter": 9,
+    "chapterTitle": "Business operations of a manufacturing organization",
+    "question": "Which of the following is typically NOT a primary geographic factor for selecting a suitable location for a new manufacturing facility?",
+    "options": [
+      "A) Proximity to raw material resources",
+      "B) Proximity to government headquarters",
+      "C) Proximity to the target market",
+      "D) Availability of cheap labor"
+    ],
+    "correctAnswer": "B) Proximity to government headquarters",
+    "explanation": "While resources, markets, and labor heavily dictate factory location efficiency, physical closeness to government buildings is generally irrelevant for manufacturing."
+  },
+  {
+    "id": "v1c9q450",
+    "chapter": 9,
+    "chapterTitle": "Business operations of a manufacturing organization",
+    "question": "Which of the following is NOT a legitimate benefit of effective manufacturing operations management?",
+    "options": [
+      "A) Profitability improvement",
+      "B) Efficiency enhancement",
+      "C) Teamwork manipulation",
+      "D) Waste reduction"
+    ],
+    "correctAnswer": "C) Teamwork manipulation",
+    "explanation": "Operations management seeks to foster genuine teamwork and efficiency. 'Manipulation' implies unethical control and is not a management benefit."
+  },
+  {
+    "id": "v1c9q451",
+    "chapter": 9,
+    "chapterTitle": "Business operations of a manufacturing organization",
+    "question": "Which of the following should categorically NOT be the main objective of a reputable manufacturer?",
+    "options": [
+      "A) To source the absolute cheapest raw material while ignoring its durability and effectiveness",
+      "B) To eliminate all costs that add no value to the finished product",
+      "C) To heavily focus on overall product quality",
+      "D) To minimize the costs of materials and labor without compromising standards"
+    ],
+    "correctAnswer": "A) To source the absolute cheapest raw material while ignoring its durability and effectiveness",
+    "explanation": "Sacrificing all quality and durability simply to buy the cheapest possible inputs will destroy the brand's reputation and product utility."
+  },
+  {
+    "id": "v1c9q452",
+    "chapter": 9,
+    "chapterTitle": "Business operations of a manufacturing organization",
+    "question": "How many core types of production processes exist for a standard manufacturing business?",
+    "options": [
+      "A) 3",
+      "B) 5",
+      "C) 2",
+      "D) 4"
+    ],
+    "correctAnswer": "A) 3",
+    "explanation": "There are 3 core manufacturing processes: Custom (Job) production, Intermittent (Batch) production, and Continuous (Mass) production."
+  },
+  {
+    "id": "v1c9q453",
+    "chapter": 9,
+    "chapterTitle": "Business operations of a manufacturing organization",
+    "question": "In an intermittent (batch) process, short production runs are used to make batches of different products, meaning machines are frequently shut down and re-tooled.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correctAnswer": "A) True",
+    "explanation": "Intermittent production creates finite batches of goods, requiring equipment to be paused and reconfigured before starting the next distinct batch."
+  },
+  {
+    "id": "v1c9q454",
+    "chapter": 9,
+    "chapterTitle": "Business operations of a manufacturing organization",
+    "question": "A facility arrangement where the heavy product remains strictly in one place while workers and machinery move to it as needed (like shipbuilding) is known as a:",
+    "options": [
+      "A) Fixed-position layout",
+      "B) Process layout",
+      "C) Product layout",
+      "D) Cellular layout"
+    ],
+    "correctAnswer": "A) Fixed-position layout",
+    "explanation": "Because items like ships or airplanes are too massive to move down an assembly line, they require a fixed-position layout where resources are brought to the product."
+  },
+  {
+    "id": "v1c9q455",
+    "chapter": 9,
+    "chapterTitle": "Business operations of a manufacturing organization",
+    "question": "Which of the following is considered a primary objective of supply chain managers?",
+    "options": [
+      "A) Proximity to resources",
+      "B) Maximizing unnecessary inventory",
+      "C) Ensuring uninterrupted delivery of raw materials",
+      "D) Conducting consumer focus groups"
+    ],
+    "correctAnswer": "C) Ensuring uninterrupted delivery of raw materials",
+    "explanation": "Supply chain management focuses heavily on the smooth, uninterrupted logistical flow of raw materials into the factory to prevent production halts."
+  },
+  {
+    "id": "v1c10q456",
+    "chapter": 10,
+    "chapterTitle": "Industries of Pakistan",
+    "question": "Historically, Pakistan’s power sector originally consisted of which two massive Government-owned utilities?",
+    "options": [
+      "A) WAPDA & K-Electric (KE)",
+      "B) WAPDA & KESC",
+      "C) KESC & KE",
+      "D) LESCO & WAPDA"
+    ],
+    "correctAnswer": "B) WAPDA & KESC",
+    "explanation": "Historically, before privatizations and renaming, the state-run power sector was dominated entirely by the Water and Power Development Authority (WAPDA) and the Karachi Electric Supply Corporation (KESC)."
+  },
+  {
+    "id": "v1c10q457",
+    "chapter": 10,
+    "chapterTitle": "Industries of Pakistan",
+    "question": "The Karachi Electric Supply Corporation (KESC) was officially privatized and later rebranded as K-Electric in which year?",
+    "options": [
+      "A) 2004",
+      "B) 2005",
+      "C) 2006",
+      "D) 2007"
+    ],
+    "correctAnswer": "B) 2005",
+    "explanation": "KESC was privatized by the Government of Pakistan in 2005 as part of a broad economic reform program."
+  },
+  {
+    "id": "v1c10q458",
+    "chapter": 10,
+    "chapterTitle": "Industries of Pakistan",
+    "question": "During reforms, WAPDA was functionally unbundled into multiple generation companies (GENCOs), distribution companies (DISCOs), and one national transmission entity known as:",
+    "options": [
+      "A) K-Electric (KE)",
+      "B) KESC",
+      "C) NTDC (National Transmission & Despatch Company)",
+      "D) O&M"
+    ],
+    "correctAnswer": "C) NTDC (National Transmission & Despatch Company)",
+    "explanation": "The NTDC was established to strictly handle the high-voltage transmission of power across the country, separate from generation and distribution."
+  },
+  {
+    "id": "v1c10q459",
+    "chapter": 10,
+    "chapterTitle": "Industries of Pakistan",
+    "question": "In the structural power supply value chain, the 'upstream' component specifically refers to:",
+    "options": [
+      "A) Transmission",
+      "B) Generation",
+      "C) Distribution",
+      "D) Meter reading"
+    ],
+    "correctAnswer": "B) Generation",
+    "explanation": "Generation is the upstream source where power is created. It then flows downstream through transmission lines to the final distribution networks."
+  },
+  {
+    "id": "v1c10q460",
+    "chapter": 10,
+    "chapterTitle": "Industries of Pakistan",
+    "question": "The official consumer electricity tariff in Pakistan's power sector is legally determined by:",
+    "options": [
+      "A) WAPDA",
+      "B) OGRA",
+      "C) NEPRA",
+      "D) PEMRA"
+    ],
+    "correctAnswer": "C) NEPRA",
+    "explanation": "The National Electric Power Regulatory Authority (NEPRA) is the sole regulatory body responsible for determining and approving electricity tariffs in Pakistan."
+  },
+  {
+    "id": "v1c10q461",
+    "chapter": 10,
+    "chapterTitle": "Industries of Pakistan",
+    "question": "The financial shortfall between the total energy generated by power plants and the actual energy successfully billed to consumers is known as:",
+    "options": [
+      "A) Power losses",
+      "B) Line losses",
+      "C) Distribution & transmission losses",
+      "D) Tariff deficits"
+    ],
+    "correctAnswer": "C) Distribution & transmission losses",
+    "explanation": "T&D losses account for energy lost due to electrical resistance in wires (technical loss) and energy stolen via theft (non-technical loss)."
+  },
+  {
+    "id": "v1c10q462",
+    "chapter": 10,
+    "chapterTitle": "Industries of Pakistan",
+    "question": "When electricity leaves the main grid station’s transformer, it enters another smaller transformer that is typically pole-mounted for further reduction in voltage before entering homes.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correctAnswer": "A) True",
+    "explanation": "Pole-mounted distribution transformers step down the medium voltage from the grid into the 220V or 240V supply safely required by residential appliances."
+  },
+  {
+    "id": "v1c10q463",
+    "chapter": 10,
+    "chapterTitle": "Industries of Pakistan",
+    "question": "When turbines generate electricity at the power plant, the voltage is immediately increased for efficient long-distance travel by passing it through a:",
+    "options": [
+      "A) Grid station",
+      "B) Step-up transformer",
+      "C) Pole-mounted transformer",
+      "D) Distribution line"
+    ],
+    "correctAnswer": "B) Step-up transformer",
+    "explanation": "Step-up transformers heavily increase the voltage of generated electricity, reducing current and thereby minimizing heat loss over long transmission distances."
+  },
+  {
+    "id": "v1c10q464",
+    "chapter": 10,
+    "chapterTitle": "Industries of Pakistan",
+    "question": "In the Textile industry, the mechanical process dedicated to converting raw cotton or polyester fibers into continuous yarn is called:",
+    "options": [
+      "A) Weaving",
+      "B) Ginning",
+      "C) Processing",
+      "D) Spinning"
+    ],
+    "correctAnswer": "D) Spinning",
+    "explanation": "Spinning is the fundamental upstream textile process where cleaned raw fibers are drawn out and twisted together to form durable yarn."
+  },
+  {
+    "id": "v1c10q465",
+    "chapter": 10,
+    "chapterTitle": "Industries of Pakistan",
+    "question": "The primary raw materials forming the backbone of the Pakistani Textile industry are naturally grown cotton, viscose, and:",
+    "options": [
+      "A) Thread",
+      "B) Polyester",
+      "C) Nylon",
+      "D) Silk"
+    ],
+    "correctAnswer": "B) Polyester",
+    "explanation": "Alongside natural cotton, polyester is a critical synthetic fiber widely used in the textile industry to create blended fabrics."
+  },
+  {
+    "id": "v1c10q466",
+    "chapter": 10,
+    "chapterTitle": "Industries of Pakistan",
+    "question": "The entire Pharmaceutical industry in Pakistan is officially regulated and monitored by which authority?",
+    "options": [
+      "A) NEPRA",
+      "B) DRAP",
+      "C) PEMRA",
+      "D) SECP"
+    ],
+    "correctAnswer": "B) DRAP",
+    "explanation": "The Drug Regulatory Authority of Pakistan (DRAP) oversees the registration, pricing, and quality control of all pharmaceutical products in the country."
+  },
+  {
+    "id": "v1c10q467",
+    "chapter": 10,
+    "chapterTitle": "Industries of Pakistan",
+    "question": "Extensive medical experiments undertaken to develop research evidence regarding the safety and efficacy of new medicines in treating human diseases are called:",
+    "options": [
+      "A) Clinical experiments",
+      "B) Diagnostics",
+      "C) Medical trials",
+      "D) Clinical trials"
+    ],
+    "correctAnswer": "D) Clinical trials",
+    "explanation": "Clinical trials are formal, regulated research studies performed on human volunteers to evaluate the safety and health effects of new medical treatments."
+  },
+  {
+    "id": "v1c10q468",
+    "chapter": 10,
+    "chapterTitle": "Industries of Pakistan",
+    "question": "In the Oil and Gas sector, the logistical phase where bulk petroleum products are transported by road networks, pipelines, and railways is categorized as:",
+    "options": [
+      "A) Upstream",
+      "B) Midstream",
+      "C) Down stream",
+      "D) Exploration"
+    ],
+    "correctAnswer": "C) Down stream",
+    "explanation": "The downstream sector involves the refining, transportation, and final distribution/marketing of petroleum products to end consumers."
+  },
+  {
+    "id": "v1c10q469",
+    "chapter": 10,
+    "chapterTitle": "Industries of Pakistan",
+    "question": "The risky process where crude oil is physically explored, drilled, and produced from the earth falls strictly under which category of the Oil & Gas sector?",
+    "options": [
+      "A) Upstream",
+      "B) Midstream",
+      "C) Down stream",
+      "D) Retailing"
+    ],
+    "correctAnswer": "A) Upstream",
+    "explanation": "Upstream operations (also known as E&P: Exploration and Production) encompass the search for underground reserves and the drilling of wells."
+  },
+  {
+    "id": "v1c10q470",
+    "chapter": 10,
+    "chapterTitle": "Industries of Pakistan",
+    "question": "Which of the following entities is widely recognized as the biggest Exploration & Production (E&P) company operating in Pakistan?",
+    "options": [
+      "A) OGDCL",
+      "B) Pakistan State Oil (PSO)",
+      "C) Attock Petroleum",
+      "D) Shell Pakistan"
+    ],
+    "correctAnswer": "A) OGDCL",
+    "explanation": "The Oil & Gas Development Company Limited (OGDCL) is the dominant, state-owned upstream exploration and production giant in Pakistan."
+  },
+  {
+    "id": "v1c10q471",
+    "chapter": 10,
+    "chapterTitle": "Industries of Pakistan",
+    "question": "The top value-added export products generated by Pakistan's textile sector are:",
+    "options": [
+      "A) Raw cotton bales",
+      "B) Ready Made Garments",
+      "C) Unprocessed yarn",
+      "D) Industrial carpets"
+    ],
+    "correctAnswer": "B) Ready Made Garments",
+    "explanation": "Value addition involves turning raw materials into finished consumer goods. Ready Made Garments command the highest international prices and are Pakistan's top value-added export."
+  },
+  {
+    "id": "v1c10q472",
+    "chapter": 10,
+    "chapterTitle": "Industries of Pakistan",
+    "question": "In pharmaceutical manufacturing quality control, 'AQL 4' mathematically means that there should not be more than 4% defective pieces in a selected batch sample.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correctAnswer": "A) True",
+    "explanation": "AQL stands for Acceptable Quality Limit. AQL 4 defines a strict tolerance threshold where a maximum of 4% defectives is permissible in a sample."
+  },
+  {
+    "id": "v1c10q473",
+    "chapter": 10,
+    "chapterTitle": "Industries of Pakistan",
+    "question": "Health, Safety and Environment (HSE) protocols are of least importance to Exploration & Production companies because drilling is inherently dangerous.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correctAnswer": "B) False",
+    "explanation": "Because oil drilling is highly hazardous, HSE policies are actually of extreme, paramount importance to prevent catastrophic accidents, spills, and loss of life."
+  }
+]

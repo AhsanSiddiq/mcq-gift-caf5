@@ -1,0 +1,702 @@
+[
+  {
+    "id": "v2c3q301",
+    "chapter": 3,
+    "chapterTitle": "Elasticity of Demand and Supply",
+    "question": "Which of the following products is likely to have the lowest price elasticity of demand?",
+    "options": [
+      "A) Luxury cars",
+      "B) Salt",
+      "C) Houses",
+      "D) Fresh organic apples"
+    ],
+    "correctAnswer": "B) Salt",
+    "explanation": "Salt is a basic necessity with practically no close substitutes and takes up a tiny fraction of a consumer's income, making its demand highly inelastic."
+  },
+  {
+    "id": "v2c3q302",
+    "chapter": 3,
+    "chapterTitle": "Elasticity of Demand and Supply",
+    "question": "What is the shape of a demand curve that has a strictly constant slope throughout?",
+    "options": [
+      "A) A rectangular hyperbola",
+      "B) A U-shaped curve",
+      "C) A straight line",
+      "D) A convex curve"
+    ],
+    "correctAnswer": "C) A straight line",
+    "explanation": "A curve with a constant mathematical slope is by definition a straight line."
+  },
+  {
+    "id": "v2c3q303",
+    "chapter": 3,
+    "chapterTitle": "Elasticity of Demand and Supply",
+    "question": "If a geometric supply schedule has a price elasticity of supply exactly equal to 1 at all points, its graph will be:",
+    "options": [
+      "A) A straight line passing directly through the origin",
+      "B) A horizontal line",
+      "C) A vertical line",
+      "D) A U-shaped curve"
+    ],
+    "correctAnswer": "A) A straight line passing directly through the origin",
+    "explanation": "Any straight-line supply curve that passes exactly through the origin (0,0) possesses a unitary price elasticity of supply (PES = 1) at every single point."
+  },
+  {
+    "id": "v2c3q304",
+    "chapter": 3,
+    "chapterTitle": "Elasticity of Demand and Supply",
+    "question": "The elasticity of supply for highly perishable agricultural goods (like fresh milk or ripe strawberries) on market day is generally:",
+    "options": [
+      "A) Unitary elastic",
+      "B) Highly elastic",
+      "C) Perfectly elastic",
+      "D) Inelastic"
+    ],
+    "correctAnswer": "D) Inelastic",
+    "explanation": "Perishable goods cannot be stored for later sale. They must be sold immediately regardless of price, making their short-run supply highly inelastic."
+  },
+  {
+    "id": "v2c3q305",
+    "chapter": 3,
+    "chapterTitle": "Elasticity of Demand and Supply",
+    "question": "Because durable manufactured goods (like televisions) can be easily stored in warehouses without spoiling while waiting for prices to rise, their supply is generally:",
+    "options": [
+      "A) More elastic",
+      "B) Less elastic",
+      "C) Perfectly inelastic",
+      "D) Unitary inelastic"
+    ],
+    "correctAnswer": "A) More elastic",
+    "explanation": "Durable goods can be stockpiled and released to the market quickly in response to price increases, giving them a more elastic supply than perishable goods."
+  },
+  {
+    "id": "v2c3q306",
+    "chapter": 3,
+    "chapterTitle": "Elasticity of Demand and Supply",
+    "question": "What specific term describes the measurement of how sensitive the demand for a good is to a change in the consumers' money income?",
+    "options": [
+      "A) Price elasticity of demand",
+      "B) Income elasticity of demand",
+      "C) Cross elasticity of demand",
+      "D) Promotional elasticity"
+    ],
+    "correctAnswer": "B) Income elasticity of demand",
+    "explanation": "Income elasticity of demand (YED) precisely measures the responsiveness of the quantity demanded of a good to a change in the real income of consumers."
+  },
+  {
+    "id": "v2c3q307",
+    "chapter": 3,
+    "chapterTitle": "Elasticity of Demand and Supply",
+    "question": "If the price of a specific good falls, and as a direct result, the total expenditure by consumers on that good also falls, the demand for the good is:",
+    "options": [
+      "A) Elastic",
+      "B) Unitary elastic",
+      "C) Inelastic",
+      "D) Perfectly elastic"
+    ],
+    "correctAnswer": "C) Inelastic",
+    "explanation": "According to the total outlay method, if price and total expenditure move in the same direction (both fall), it means the percentage increase in quantity was smaller than the price drop, indicating inelastic demand."
+  },
+  {
+    "id": "v2c3q308",
+    "chapter": 3,
+    "chapterTitle": "Elasticity of Demand and Supply",
+    "question": "In a timeframe defined as the 'Very Short Run', producers cannot alter their output at all because all factors of production are fixed. Consequently, the supply curve is:",
+    "options": [
+      "A) A horizontal line",
+      "B) A downward sloping line",
+      "C) Perfectly inelastic (vertical)",
+      "D) Perfectly elastic"
+    ],
+    "correctAnswer": "C) Perfectly inelastic (vertical)",
+    "explanation": "In the very short run (immediate market period), output is completely restricted to existing stock, rendering supply perfectly inelastic regardless of demand or price spikes."
+  },
+  {
+    "id": "v2c3q309",
+    "chapter": 3,
+    "chapterTitle": "Elasticity of Demand and Supply",
+    "question": "If an increase in the price of cooking oil causes total consumer expenditure on cooking oil to rapidly increase, this indicates that the demand for cooking oil is:",
+    "options": [
+      "A) Inelastic",
+      "B) Elastic",
+      "C) Unitary",
+      "D) Infinite"
+    ],
+    "correctAnswer": "A) Inelastic",
+    "explanation": "When price rises and total revenue/expenditure also rises, it shows consumers did not significantly cut back their consumption, proving demand is inelastic."
+  },
+  {
+    "id": "v2c3q310",
+    "chapter": 3,
+    "chapterTitle": "Elasticity of Demand and Supply",
+    "question": "If the Cross Elasticity of Demand between Product X and Product Y is exactly zero, what is the economic relationship between the two products?",
+    "options": [
+      "A) They are perfect substitutes",
+      "B) They are strong complements",
+      "C) They are completely unrelated independent goods",
+      "D) They are both inferior goods"
+    ],
+    "correctAnswer": "C) They are completely unrelated independent goods",
+    "explanation": "A cross elasticity of zero means a change in the price of one good has absolutely no effect on the demand for the other, indicating they are totally unrelated."
+  },
+  {
+    "id": "v2c4q311",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "A student buys a festival ticket online for Rs. 100. Upon arriving, he discovers parking costs an additional Rs. 10. In economic firm theory, this extra Rs. 10 incurred is an example of:",
+    "options": [
+      "A) Marginal cost",
+      "B) Fixed cost",
+      "C) Sunk cost",
+      "D) Implicit cost"
+    ],
+    "correctAnswer": "A) Marginal cost",
+    "explanation": "Marginal cost represents the extra, incremental cost incurred from taking one additional action or producing one additional unit."
+  },
+  {
+    "id": "v2c4q312",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "If a user can download 10 digital ringtones for Rs. 10 total, but downloading 11 ringtones costs Rs. 10.50 total, what is the precise marginal cost of the 11th ringtone?",
+    "options": [
+      "A) Rs. 0.50",
+      "B) Rs. 10.00",
+      "C) Rs. 10.50",
+      "D) Rs. 1.00"
+    ],
+    "correctAnswer": "A) Rs. 0.50",
+    "explanation": "Marginal cost is the difference in total cost when quantity increases by one (Rs. 10.50 - Rs. 10.00 = Rs. 0.50)."
+  },
+  {
+    "id": "v2c4q313",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "Which of the following is NOT a recognized source of 'Economies of Scale' for a large manufacturing firm?",
+    "options": [
+      "A) Bulk buying of raw materials at heavy discounts",
+      "B) The employment of highly specialist managers",
+      "C) The law of diminishing marginal returns",
+      "D) The introduction of massive, specialist capital equipment"
+    ],
+    "correctAnswer": "C) The law of diminishing marginal returns",
+    "explanation": "Diminishing returns is a short-run concept that increases costs, whereas bulk buying, specialization, and heavy machinery are long-run factors that create economies of scale and lower average costs."
+  },
+  {
+    "id": "v2c4q314",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "Which of the following is NOT a characteristic of a market displaying Perfect Competition?",
+    "options": [
+      "A) A massive number of buyers and sellers",
+      "B) Products are highly differentiated through strong branding",
+      "C) Perfect knowledge possessed by consumers",
+      "D) Total freedom of entry and exit"
+    ],
+    "correctAnswer": "B) Products are highly differentiated through strong branding",
+    "explanation": "Perfect competition relies on all firms selling completely identical, homogeneous products. Product differentiation and branding are characteristics of Monopolistic Competition and Oligopoly."
+  },
+  {
+    "id": "v2c4q315",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "The Law of Diminishing Returns can only apply to a business under which specific condition?",
+    "options": [
+      "A) When all factors of production are completely variable",
+      "B) When the firm achieves a pure monopoly",
+      "C) When at least one factor of production is fixed",
+      "D) When inflation outpaces wage growth"
+    ],
+    "correctAnswer": "C) When at least one factor of production is fixed",
+    "explanation": "Diminishing returns is strictly a short-run phenomenon that occurs when increasingly more variable inputs are added to a constrained, fixed capacity input (like a factory building)."
+  },
+  {
+    "id": "v2c4q316",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "In the third stage of the Law of Variable Proportions (Stage of Negative Returns), what is the mathematical state of the Marginal Product (MP)?",
+    "options": [
+      "A) It is at its absolute maximum",
+      "B) It is perfectly zero",
+      "C) It is positive but falling",
+      "D) It is negative"
+    ],
+    "correctAnswer": "D) It is negative",
+    "explanation": "In Stage III, the fixed factor becomes so overcrowded with variable workers that total output actually declines, meaning the marginal contribution of extra workers is negative."
+  },
+  {
+    "id": "v2c4q317",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "Which of the following business expenses would definitively act as a 'Variable Cost'?",
+    "options": [
+      "A) Monthly mortgage payments on the factory building",
+      "B) Straight-line depreciation of printing machines",
+      "C) The cost of raw materials",
+      "D) Fixed interest payments on issued debentures"
+    ],
+    "correctAnswer": "C) The cost of raw materials",
+    "explanation": "Variable costs fluctuate directly with production levels. If you produce zero, you buy zero raw materials; if you produce a million units, you buy massive amounts of raw materials."
+  },
+  {
+    "id": "v2c4q318",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "Which of the following elements would NOT act as a 'barrier to entry' preventing new firms from joining an industry?",
+    "options": [
+      "A) Perfect consumer knowledge of all market prices",
+      "B) Massive economies of scale held by existing firms",
+      "C) Extremely high fixed costs of production",
+      "D) Fierce brand loyalty to existing products"
+    ],
+    "correctAnswer": "A) Perfect consumer knowledge of all market prices",
+    "explanation": "Perfect consumer knowledge is a feature of perfect competition, which explicitly has zero barriers to entry. Scale, high costs, and branding are powerful barriers."
+  },
+  {
+    "id": "v2c4q319",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "In an oligopolistic market, what is the primary economic purpose of forming a 'Cartel'?",
+    "options": [
+      "A) To ensure that a dominant group of producers charge the same price and restrict output",
+      "B) To standardize product quality for consumers",
+      "C) To increase price wars and ruin competitors",
+      "D) To shift the industry to perfect competition"
+    ],
+    "correctAnswer": "A) To ensure that a dominant group of producers charge the same price and restrict output",
+    "explanation": "A cartel is a collusive agreement between oligopoly firms to act like a joint monopoly, fixing prices and restricting overall supply to maximize their joint supernormal profits."
+  },
+  {
+    "id": "v2c4q320",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "The Law of Diminishing Marginal Returns states that as more variable factors of production are added to a fixed factor:",
+    "options": [
+      "A) Total output will rise initially at an accelerating rate, and then eventually fall to zero instantly",
+      "B) Output will rise, but eventually at a decreasing rate after a certain point",
+      "C) Average fixed costs will suddenly spike",
+      "D) Long-run costs will decrease exponentially"
+    ],
+    "correctAnswer": "B) Output will rise, but eventually at a decreasing rate after a certain point",
+    "explanation": "The law specifically outlines that while adding workers initially boosts output efficiently, eventually the fixed constraints cause the extra (marginal) output of each new worker to diminish."
+  },
+  {
+    "id": "v2c4q321",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "Which of the following statements regarding short-run cost curves is mathematically correct?",
+    "options": [
+      "A) Marginal Cost (MC) will equal Average Total Cost (ATC) exactly when ATC is at its minimum point",
+      "B) MC equals Average Variable Cost (AVC) when AVC is at its absolute maximum",
+      "C) ATC continuously falls forever as output increases",
+      "D) Fixed costs rise proportionally with output"
+    ],
+    "correctAnswer": "A) Marginal Cost (MC) will equal Average Total Cost (ATC) exactly when ATC is at its minimum point",
+    "explanation": "It is a fundamental mathematical property of average/marginal relationships that the marginal curve will always intersect the average curve exactly at the average's lowest point."
+  },
+  {
+    "id": "v2c4q322",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "When a firm's Average Cost (AC) is visibly rising on a graph, what must definitively be true about its Marginal Cost (MC)?",
+    "options": [
+      "A) MC is lower than AC",
+      "B) MC is exactly equal to AC",
+      "C) MC is higher than AC",
+      "D) MC is perfectly horizontal"
+    ],
+    "correctAnswer": "C) MC is higher than AC",
+    "explanation": "For an average to rise, the newest (marginal) addition must be greater than the current average. Thus, MC must be higher than AC when AC is sloping upward."
+  },
+  {
+    "id": "v2c4q323",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "For a downward-sloping demand curve, the firm's Marginal Revenue (MR) is strictly greater than zero only if:",
+    "options": [
+      "A) The price elasticity of demand is exactly 1",
+      "B) The price elasticity of demand is greater than 1 (Elastic)",
+      "C) The price elasticity of demand is less than 1 (Inelastic)",
+      "D) The firm is a perfect monopoly"
+    ],
+    "correctAnswer": "B) The price elasticity of demand is greater than 1 (Elastic)",
+    "explanation": "When demand is elastic, lowering the price increases total revenue, meaning the marginal revenue of selling extra units is positive."
+  },
+  {
+    "id": "v2c4q324",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "By substituting the Total Revenue (TR) equation into the Average Revenue (AR) formula, we mathematically observe that AR is always equal to:",
+    "options": [
+      "A) Total Quantity",
+      "B) Marginal Revenue",
+      "C) Product Price",
+      "D) Total Fixed Cost"
+    ],
+    "correctAnswer": "C) Product Price",
+    "explanation": "Since TR = Price x Quantity, dividing TR by Quantity gives Average Revenue, which simplifies directly back to the Price of the product."
+  },
+  {
+    "id": "v2c4q325",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "Price discrimination by a monopoly (charging different prices to different groups) is impossible or highly ineffective if:",
+    "options": [
+      "A) The two market segments have exactly the same price elasticity of demand",
+      "B) The firm has a high degree of market power",
+      "C) Resale between the markets can be perfectly prevented",
+      "D) The product is a pure service"
+    ],
+    "correctAnswer": "A) The two market segments have exactly the same price elasticity of demand",
+    "explanation": "Profitable price discrimination requires different groups to have different sensitivities to price (elasticities). If both groups react identically, charging different prices yields no benefit."
+  },
+  {
+    "id": "v2c4q326",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "Which of the following is NOT a fundamental characteristic of an Oligopoly market structure?",
+    "options": [
+      "A) Mutual interdependence between firms",
+      "B) Non-price competition (like heavy advertising)",
+      "C) A massive, near-infinite number of small firms",
+      "D) High barriers to entry"
+    ],
+    "correctAnswer": "C) A massive, near-infinite number of small firms",
+    "explanation": "An oligopoly is specifically characterized by a few large, dominant firms controlling the market, not a massive number of small firms (which is perfect/monopolistic competition)."
+  },
+  {
+    "id": "v2c4q327",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "For a firm operating with a downward-sloping demand curve, its Total Revenue (TR) reaches its absolute mathematical maximum exactly when:",
+    "options": [
+      "A) Marginal Cost equals Average Revenue",
+      "B) Marginal Revenue is zero",
+      "C) Average Cost is at its minimum",
+      "D) Price elasticity is perfectly inelastic"
+    ],
+    "correctAnswer": "B) Marginal Revenue is zero",
+    "explanation": "When marginal revenue hits zero, it means selling one more unit adds absolutely nothing to total revenue, indicating TR has hit its peak."
+  },
+  {
+    "id": "v2c4q328",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "If oligopolistic firms successfully form a strict, secret cartel (collusion), the market outcome will closely resemble a monopoly, leading to:",
+    "options": [
+      "A) Firms setting price equal to average total cost, earning only normal profits",
+      "B) Firms setting industry output where MR = MC, and collectively earning supernormal profits",
+      "C) An immediate shift to perfect competition",
+      "D) Zero barriers to entry"
+    ],
+    "correctAnswer": "B) Firms setting industry output where MR = MC, and collectively earning supernormal profits",
+    "explanation": "Collusion allows oligopolies to stop competing and act together as a single monopoly, setting a high price where industry MR=MC to guarantee maximum supernormal profits."
+  },
+  {
+    "id": "v2c4q329",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "Because monopolies face zero competition, their management often becomes complacent, wasting money on unnecessary expenses and failing to minimize costs. This specific type of inefficiency is termed:",
+    "options": [
+      "A) Allocative efficiency",
+      "B) Productive efficiency",
+      "C) X-inefficiency",
+      "D) Diminishing returns"
+    ],
+    "correctAnswer": "C) X-inefficiency",
+    "explanation": "X-inefficiency occurs when a firm lacks the competitive pressure to control its costs, resulting in organizational slack and average costs that are higher than technologically necessary."
+  },
+  {
+    "id": "v2c4q330",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "When a firm generates exactly enough total revenue to cover all its explicit accounting costs PLUS the implicit opportunity costs of the owner's time and capital, the firm is earning:",
+    "options": [
+      "A) Negative profit",
+      "B) Normal profit (Breakeven)",
+      "C) Supernormal (abnormal) profit",
+      "D) Monopoly rent"
+    ],
+    "correctAnswer": "B) Normal profit (Breakeven)",
+    "explanation": "Normal profit is the exact minimum return necessary to keep an entrepreneur in the industry. It is the condition of economic break-even where TR = Total Economic Cost."
+  },
+  {
+    "id": "v2c5q331",
+    "chapter": 5,
+    "chapterTitle": "National Income and Its Determination",
+    "question": "In the standard circular flow of income model, which of the following is definitively NOT classified as a 'leakage' or 'withdrawal'?",
+    "options": [
+      "A) Household savings",
+      "B) Direct income taxes",
+      "C) Expenditure on foreign imported goods",
+      "D) Government spending on new hospitals"
+    ],
+    "correctAnswer": "D) Government spending on new hospitals",
+    "explanation": "Government spending is an 'injection' that introduces fresh money into the circular flow, whereas savings, taxes, and imports are 'leakages' that drain money out."
+  },
+  {
+    "id": "v2c5q332",
+    "chapter": 5,
+    "chapterTitle": "National Income and Its Determination",
+    "question": "Which of the following macroeconomic events is most likely to cause a severe decrease (leftward shift) in a country's short-run Aggregate Supply?",
+    "options": [
+      "A) An increase in national labor productivity",
+      "B) A massive increase in wage costs per unit of output",
+      "C) A decrease in consumer consumption expenditure",
+      "D) The discovery of new domestic oil fields"
+    ],
+    "correctAnswer": "B) A massive increase in wage costs per unit of output",
+    "explanation": "An increase in production costs (like wages or raw materials) makes it more expensive for firms to produce, shifting the aggregate supply curve to the left."
+  },
+  {
+    "id": "v2c5q333",
+    "chapter": 5,
+    "chapterTitle": "National Income and Its Determination",
+    "question": "Assume a prolonged, massive strike by coal miners drastically reduces the supply of coal and spikes its price. Because coal is a core energy source, this supply shock will cause the economy's:",
+    "options": [
+      "A) Short-run aggregate supply curve to shift to the right",
+      "B) Short-run aggregate supply curve to shift to the left",
+      "C) Aggregate demand curve to shift right",
+      "D) Production Possibility Frontier to instantly expand"
+    ],
+    "correctAnswer": "B) Short-run aggregate supply curve to shift to the left",
+    "explanation": "A massive spike in core energy costs creates a negative supply shock, making production expensive across all industries and shifting aggregate supply left."
+  },
+  {
+    "id": "v2c5q334",
+    "chapter": 5,
+    "chapterTitle": "National Income and Its Determination",
+    "question": "If the sale value of final goods by firms is Rs. 45 billion, and they purchased Rs. 10 billion worth of intermediate materials from outside firms to make them. Using the value-added approach, what is the GDP contribution?",
+    "options": [
+      "A) Rs. 45 billion",
+      "B) Rs. 55 billion",
+      "C) Rs. 35 billion",
+      "D) Rs. 10 billion"
+    ],
+    "correctAnswer": "C) Rs. 35 billion",
+    "explanation": "The value-added approach subtracts the cost of intermediate inputs from the final sales value to prevent double counting (45 - 10 = 35 billion)."
+  },
+  {
+    "id": "v2c5q335",
+    "chapter": 5,
+    "chapterTitle": "National Income and Its Determination",
+    "question": "Why do national statisticians strictly exclude 'unemployment benefits' and 'state pensions' when calculating the Gross Domestic Product?",
+    "options": [
+      "A) Because they are 'transfer payments' that do not reflect any current production of new goods or services",
+      "B) Because they are inherently inflationary",
+      "C) Because they are paid directly by commercial banks",
+      "D) Because they belong to the underground shadow economy"
+    ],
+    "correctAnswer": "A) Because they are 'transfer payments' that do not reflect any current production of new goods or services",
+    "explanation": "Transfer payments merely shuffle existing money from taxpayers to recipients without any corresponding economic output, so including them would falsely inflate GDP."
+  },
+  {
+    "id": "v2c5q336",
+    "chapter": 5,
+    "chapterTitle": "National Income and Its Determination",
+    "question": "If a country's Nominal GDP grows by 10% in a year, but the general price level (inflation) also rises by exactly 10%, what has happened to the Real GDP?",
+    "options": [
+      "A) It has increased by 20%",
+      "B) It has decreased by 10%",
+      "C) It has remained completely unchanged (0% growth)",
+      "D) It has grown exponentially"
+    ],
+    "correctAnswer": "C) It has remained completely unchanged (0% growth)",
+    "explanation": "Real GDP adjusts for inflation. Since the entire 10% rise in nominal value was purely due to higher prices, the actual physical volume of production (Real GDP) did not grow at all."
+  },
+  {
+    "id": "v2c5q337",
+    "chapter": 5,
+    "chapterTitle": "National Income and Its Determination",
+    "question": "Which of the following events would cause an economy's Aggregate Demand (AD) curve to definitively shift to the right?",
+    "options": [
+      "A) A massive increase in income taxes",
+      "B) A severe decrease in government infrastructure spending",
+      "C) A significant increase in Net Exports (foreigners buying more domestic goods)",
+      "D) A decrease in the nominal money supply"
+    ],
+    "correctAnswer": "C) A significant increase in Net Exports (foreigners buying more domestic goods)",
+    "explanation": "Aggregate Demand equals C + I + G + (X-M). An increase in net exports directly increases one of the core components of AD, shifting the entire curve to the right."
+  },
+  {
+    "id": "v2c5q338",
+    "chapter": 5,
+    "chapterTitle": "National Income and Its Determination",
+    "question": "According to Keynesian macroeconomic theory, when an economy reaches its absolute physical limit of full employment, its Long-Run Aggregate Supply (LRAS) curve becomes:",
+    "options": [
+      "A) A perfectly horizontal line",
+      "B) A perfectly vertical line",
+      "C) A downward sloping 45-degree line",
+      "D) A U-shaped curve"
+    ],
+    "correctAnswer": "B) A perfectly vertical line",
+    "explanation": "At full employment, all resources are utilized. Output cannot physically increase any further regardless of how high the price level goes, resulting in a vertical LRAS curve."
+  },
+  {
+    "id": "v2c5q339",
+    "chapter": 5,
+    "chapterTitle": "National Income and Its Determination",
+    "question": "When the aggregate demand curve shifts to the right along the perfectly vertical section of the LRAS curve, what is the sole macroeconomic result?",
+    "options": [
+      "A) A massive increase in physical output",
+      "B) A drop in interest rates",
+      "C) An increase in the overall price level (Inflation) with zero increase in output",
+      "D) A severe deflationary gap"
+    ],
+    "correctAnswer": "C) An increase in the overall price level (Inflation) with zero increase in output",
+    "explanation": "Because physical output cannot expand past the vertical full-employment limit, any further increases in demand purely pull prices upward, causing demand-pull inflation."
+  },
+  {
+    "id": "v2c5q340",
+    "chapter": 5,
+    "chapterTitle": "National Income and Its Determination",
+    "question": "If an economy's aggregate spending line intersects the 45-degree line at an output level far to the left of the full-employment potential, the economy is suffering from a:",
+    "options": [
+      "A) Trade surplus",
+      "B) Hyperinflationary spiral",
+      "C) Recessionary (Deflationary) gap",
+      "D) Positive output gap"
+    ],
+    "correctAnswer": "C) Recessionary (Deflationary) gap",
+    "explanation": "A recessionary gap exists when the equilibrium level of GDP is significantly lower than the full-employment level, leaving labor and factories unused."
+  },
+  {
+    "id": "v2c7q341",
+    "chapter": 7,
+    "chapterTitle": "Multiplier and Accelerator",
+    "question": "In a closed economy, the full employment output is Rs. 25 million, but actual output is only Rs. 20 million. The Marginal Propensity to Consume (MPC) is 0.8. What size of initial investment is needed to close this Rs. 5 million gap?",
+    "options": [
+      "A) Rs. 1 million",
+      "B) Rs. 4 million",
+      "C) Rs. 5 million",
+      "D) Rs. 16 million"
+    ],
+    "correctAnswer": "A) Rs. 1 million",
+    "explanation": "With an MPC of 0.8, the multiplier is 1/(1-0.8) = 5. To achieve a final growth of 5 million, the required initial injection is 5m / 5 = Rs. 1 million."
+  },
+  {
+    "id": "v2c7q342",
+    "chapter": 7,
+    "chapterTitle": "Multiplier and Accelerator",
+    "question": "If the marginal propensity to consume (MPC) in a highly spending-oriented country is 0.9, what is the mathematical value of the Keynesian multiplier?",
+    "options": [
+      "A) 1.1",
+      "B) 1.25",
+      "C) 5",
+      "D) 10"
+    ],
+    "correctAnswer": "D) 10",
+    "explanation": "The formula for the multiplier (K) is 1 / (1 - MPC). Thus, K = 1 / (1 - 0.9) = 1 / 0.1 = 10."
+  },
+  {
+    "id": "v2c7q343",
+    "chapter": 7,
+    "chapterTitle": "Multiplier and Accelerator",
+    "question": "The 'Accelerator Theory' differs from the Multiplier by focusing on investment. It states that:",
+    "options": [
+      "A) Net investment is positive and rising when consumer demand/output is rising at an increasing rate",
+      "B) High interest rates accelerate saving",
+      "C) Government taxes accelerate debt",
+      "D) Inflation accelerates when the money supply drops"
+    ],
+    "correctAnswer": "A) Net investment is positive and rising when consumer demand/output is rising at an increasing rate",
+    "explanation": "The accelerator principle posits that firms are induced to radically accelerate their capital investment (build new factories) when they see consumer demand growing rapidly."
+  },
+  {
+    "id": "v2c7q344",
+    "chapter": 7,
+    "chapterTitle": "Multiplier and Accelerator",
+    "question": "Economist Paul Samuelson argued that the recurring, wave-like fluctuations of the business cycle are not random, but are actively driven by the dynamic interaction between:",
+    "options": [
+      "A) The Multiplier and the Accelerator",
+      "B) Rising imports and falling exports",
+      "C) Government taxation and central bank printing",
+      "D) Fiat money and gold reserves"
+    ],
+    "correctAnswer": "A) The Multiplier and the Accelerator",
+    "explanation": "Samuelson's model explains business cycles as the interaction where multiplier-induced consumption triggers accelerator-induced investment, feeding a boom until capacity halts it."
+  },
+  {
+    "id": "v2c7q345",
+    "chapter": 7,
+    "chapterTitle": "Multiplier and Accelerator",
+    "question": "If a country has a very high Marginal Propensity to Import (citizens spend most new money on foreign goods), how will this specific leakage affect the domestic Investment Multiplier?",
+    "options": [
+      "A) It makes the multiplier infinitely large",
+      "B) It severely reduces the size and power of the domestic multiplier",
+      "C) It perfectly stabilizes the exchange rate",
+      "D) It turns the multiplier into the accelerator"
+    ],
+    "correctAnswer": "B) It severely reduces the size and power of the domestic multiplier",
+    "explanation": "Imports represent money leaving the domestic economy. If new income immediately leaks abroad, it cannot circulate domestically, severely weakening the multiplier effect."
+  },
+  {
+    "id": "v2c7q346",
+    "chapter": 7,
+    "chapterTitle": "Multiplier and Accelerator",
+    "question": "Certain economic statistics, like the number of new building permits issued, change direction before the broader economy does. These are used to forecast future phases and are known as:",
+    "options": [
+      "A) Leading indicators",
+      "B) Lagging indicators",
+      "C) Coincident indicators",
+      "D) Static indicators"
+    ],
+    "correctAnswer": "A) Leading indicators",
+    "explanation": "Leading indicators are metrics that typically shift before the rest of the economy, providing advance warning of upcoming business cycle changes."
+  },
+  {
+    "id": "v2c7q347",
+    "chapter": 7,
+    "chapterTitle": "Multiplier and Accelerator",
+    "question": "The topmost point of a business cycle, characterized by factories operating at maximum capacity, practically zero unemployment, and severe inflationary pressure, is called the:",
+    "options": [
+      "A) Trough",
+      "B) Peak / Boom",
+      "C) Recession",
+      "D) Recovery"
+    ],
+    "correctAnswer": "B) Peak / Boom",
+    "explanation": "The peak is the zenith of the business cycle expansion, where the economy is overheating and fully utilizing all resources."
+  },
+  {
+    "id": "v2c7q348",
+    "chapter": 7,
+    "chapterTitle": "Multiplier and Accelerator",
+    "question": "When an economy suffers from at least two consecutive quarters of falling real GDP, rising bankruptcies, and increasing unemployment, it has officially entered a:",
+    "options": [
+      "A) Golden age",
+      "B) Recovery",
+      "C) Recession",
+      "D) Price ceiling"
+    ],
+    "correctAnswer": "C) Recession",
+    "explanation": "A recession is technically defined as a general economic contraction spanning two or more consecutive quarters of negative growth."
+  },
+  {
+    "id": "v2c7q349",
+    "chapter": 7,
+    "chapterTitle": "Multiplier and Accelerator",
+    "question": "An unusually deep and prolonged trough in the business cycle, where economic activity remains severely paralyzed with massive unemployment for years, is historically termed a:",
+    "options": [
+      "A) Depression",
+      "B) Soft landing",
+      "C) Stagflation",
+      "D) Correction"
+    ],
+    "correctAnswer": "A) Depression",
+    "explanation": "A depression is an extreme, severe, and long-lasting form of a recession, representing the absolute bottom of a major cycle."
+  },
+  {
+    "id": "v2c7q350",
+    "chapter": 7,
+    "chapterTitle": "Multiplier and Accelerator",
+    "question": "If the government decides to suddenly raise income taxes, leaving households with much less disposable income, what will happen to the size of the Multiplier?",
+    "options": [
+      "A) It will become infinite",
+      "B) It will decrease, as the marginal propensity to consume out of gross income falls",
+      "C) It will heavily increase",
+      "D) It will remain unchanged"
+    ],
+    "correctAnswer": "B) It will decrease, as the marginal propensity to consume out of gross income falls",
+    "explanation": "Taxes are a leakage. Higher taxes reduce the disposable income passed on in each round of spending, thus shrinking the strength of the multiplier."
+  }
+]

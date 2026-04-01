@@ -1,0 +1,378 @@
+[
+  {
+    "id": "v2c2q474",
+    "chapter": 2,
+    "chapterTitle": "Demand, Supply and Market Equilibrium",
+    "question": "Due to COVID-19, the world went into strict lockdowns. Consequently, the international market saw massive cuts in the consumption of petroleum. In economic theory, this inward shift of the curve is known as a:",
+    "options": [
+      "A) Contraction in quantity demanded",
+      "B) Extension in quantity supply",
+      "C) Fall in demand",
+      "D) Fall in supply"
+    ],
+    "correctAnswer": "C) Fall in demand",
+    "explanation": "A change in an external condition (like a pandemic destroying the need to travel) shifts the entire demand curve to the left, which is termed a 'fall in demand'."
+  },
+  {
+    "id": "v2c2q475",
+    "chapter": 2,
+    "chapterTitle": "Demand, Supply and Market Equilibrium",
+    "question": "Which of the following variables is NOT considered a fixed precondition (ceteris paribus assumption) for the Law of Demand?",
+    "options": [
+      "A) Price of substitute goods",
+      "B) Income of the consumer",
+      "C) Wages of factory workers",
+      "D) Population size"
+    ],
+    "correctAnswer": "C) Wages of factory workers",
+    "explanation": "Wages of factory workers affect the cost of production and thus shift the *supply* curve. They do not directly determine consumer demand."
+  },
+  {
+    "id": "v2c2q476",
+    "chapter": 2,
+    "chapterTitle": "Demand, Supply and Market Equilibrium",
+    "question": "Which of the following variables is NOT considered a precondition (ceteris paribus assumption) for the Law of Supply?",
+    "options": [
+      "A) Technology levels",
+      "B) Income of the consumer",
+      "C) Cost of raw materials",
+      "D) Government taxes on production"
+    ],
+    "correctAnswer": "B) Income of the consumer",
+    "explanation": "Consumer income determines the purchasing power of buyers and shifts the *demand* curve, having no direct relation to the firm's willingness to supply."
+  },
+  {
+    "id": "v2c2q477",
+    "chapter": 2,
+    "chapterTitle": "Demand, Supply and Market Equilibrium",
+    "question": "During the Covid-19 pandemic, the sudden panic buying and massive need for Face Masks caused the demand curve to shift outwards. This is formally termed a:",
+    "options": [
+      "A) Movement along the demand curve",
+      "B) Rise in demand",
+      "C) Inward shift in demand curve",
+      "D) Price extension"
+    ],
+    "correctAnswer": "B) Rise in demand",
+    "explanation": "When an external factor (fear of illness) causes consumers to demand a higher quantity at every price point, it is a rightward shift, known as a 'rise in demand'."
+  },
+  {
+    "id": "v2c3q478",
+    "chapter": 3,
+    "chapterTitle": "Elasticity of Demand and Supply",
+    "question": "In the short run, a factory's physical plant capacity is fixed, but it can slightly increase production by paying workers overtime. Therefore, the price elasticity of supply in the short run is:",
+    "options": [
+      "A) Relatively elastic",
+      "B) Relatively inelastic",
+      "C) Perfectly elastic",
+      "D) Unitary elastic"
+    ],
+    "correctAnswer": "B) Relatively inelastic",
+    "explanation": "Because firms are constrained by fixed factory sizes in the short run, they cannot massively scale up supply in response to price spikes, making supply relatively unresponsive (inelastic)."
+  },
+  {
+    "id": "v2c3q479",
+    "chapter": 3,
+    "chapterTitle": "Elasticity of Demand and Supply",
+    "question": "A business sells 20,000 units of its product monthly. The price elasticity of demand is exactly -0.8. If the firm raises its price by 5%, what will be the new sales volume?",
+    "options": [
+      "A) 21,000 units",
+      "B) 19,200 units",
+      "C) 20,800 units",
+      "D) 19,000 units"
+    ],
+    "correctAnswer": "B) 19,200 units",
+    "explanation": "Since Elasticity = %changeQ / %changeP. -0.8 = %changeQ / 5%. Thus %changeQ = -4%. A 4% drop on 20,000 units is 800 units, leaving 19,200 units."
+  },
+  {
+    "id": "v2c3q480",
+    "chapter": 3,
+    "chapterTitle": "Elasticity of Demand and Supply",
+    "question": "Even if a downward-sloping demand curve is a perfectly straight line with a constant mathematical slope, its price elasticity of demand will continuously change along the curve.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correctAnswer": "A) True",
+    "explanation": "Slope is absolute change, but elasticity measures percentage change. As you move down a straight-line demand curve, the base price and quantity values change, causing elasticity to fall continuously."
+  },
+  {
+    "id": "v2c3q481",
+    "chapter": 3,
+    "chapterTitle": "Elasticity of Demand and Supply",
+    "question": "A shopkeeper raises the price of his premium notebooks. However, he subsequently notices that his Total Revenue has actually fallen. This indicates that the demand for the notebooks was:",
+    "options": [
+      "A) Relatively inelastic",
+      "B) Unit elastic",
+      "C) Relatively elastic",
+      "D) Perfectly inelastic"
+    ],
+    "correctAnswer": "C) Relatively elastic",
+    "explanation": "If raising the price causes total revenue to fall, it means consumers aggressively abandoned the product (quantity fell by a massive percentage), proving demand is elastic."
+  },
+  {
+    "id": "v2c3q482",
+    "chapter": 3,
+    "chapterTitle": "Elasticity of Demand and Supply",
+    "question": "Which of the following statements about the elasticity of supply is fundamentally UNTRUE?",
+    "options": [
+      "A) It tends to vary heavily with the passage of time",
+      "B) It measures the responsiveness of supply to changes in market price",
+      "C) It is a measure of changes in supply caused by adopting greater operational efficiency",
+      "D) It tends to be higher for durable manufactured goods than for perishable goods"
+    ],
+    "correctAnswer": "C) It is a measure of changes in supply caused by adopting greater operational efficiency",
+    "explanation": "Price elasticity of supply specifically measures responsiveness to price, not the impact of technological efficiency (which causes a shift in the curve, not elasticity)."
+  },
+  {
+    "id": "v2c4q483",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "Which of the following statements concerning short-run cost curves is mathematically correct?",
+    "options": [
+      "A) MC will equal AVC exactly when AVC is at its maximum",
+      "B) Marginal Cost (MC) will equal Average Total Cost (ATC) exactly when ATC is at its minimum point",
+      "C) Average Fixed Cost rises continuously as output expands",
+      "D) Marginal Cost is always a straight horizontal line"
+    ],
+    "correctAnswer": "B) Marginal Cost (MC) will equal Average Total Cost (ATC) exactly when ATC is at its minimum point",
+    "explanation": "It is a mathematical rule of averages that the marginal cost curve must cut through the average total cost curve exactly at its lowest point."
+  },
+  {
+    "id": "v2c4q484",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "On a firm's graph, the Total Revenue (TR) curve will be a straight, positively sloped line starting directly from the origin only when:",
+    "options": [
+      "A) The firm is a perfect monopoly",
+      "B) Each additional unit of output sold generates the exact same marginal revenue (Perfect Competition)",
+      "C) The firm operates in an oligopoly",
+      "D) The product has highly inelastic demand"
+    ],
+    "correctAnswer": "B) Each additional unit of output sold generates the exact same marginal revenue (Perfect Competition)",
+    "explanation": "Under perfect competition, price is fixed. Selling one more unit always brings in the same constant price, causing Total Revenue to rise at a perfectly straight, constant rate."
+  },
+  {
+    "id": "v2c4q485",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "By taking the standard equation for Total Revenue (TR = P x Q) and substituting it into the Average Revenue formula (AR = TR / Q), we definitively prove that Average Revenue is always equal to:",
+    "options": [
+      "A) Marginal Cost",
+      "B) Product Price",
+      "C) Total Quantity",
+      "D) Average Fixed Cost"
+    ],
+    "correctAnswer": "B) Product Price",
+    "explanation": "Since TR is Price multiplied by Quantity, dividing TR by Quantity perfectly cancels out Q, leaving only Price. Thus, AR = Price."
+  },
+  {
+    "id": "v2c4q486",
+    "chapter": 4,
+    "chapterTitle": "Firm Theory",
+    "question": "A monopolist attempts to boost profits by using 'Price Discrimination' (charging different prices in two distinct cities). This strategy will be entirely impossible or unprofitable if:",
+    "options": [
+      "A) The two cities have the exact same price elasticity of demand",
+      "B) The cities are separated by a large geographic distance",
+      "C) The firm is able to prevent resale between the cities",
+      "D) The product is heavily branded"
+    ],
+    "correctAnswer": "A) The two cities have the exact same price elasticity of demand",
+    "explanation": "Price discrimination relies on consumers having different sensitivities to price. If both markets react identically, altering prices yields no comparative revenue advantage."
+  },
+  {
+    "id": "v2c5q487",
+    "chapter": 5,
+    "chapterTitle": "National Income and Its Determination",
+    "question": "In the macroeconomic circular flow model, which of the following is definitively NOT classified as an 'injection' into the domestic economy?",
+    "options": [
+      "A) Postponed consumption (Household savings)",
+      "B) Public sector spending by the government",
+      "C) Private business investment in factories",
+      "D) Revenue generated from Exports"
+    ],
+    "correctAnswer": "A) Postponed consumption (Household savings)",
+    "explanation": "Savings represent money that is not spent on domestic goods and is hoarded in banks. It acts as a leakage or withdrawal, draining money from the circular flow."
+  },
+  {
+    "id": "v2c5q488",
+    "chapter": 5,
+    "chapterTitle": "National Income and Its Determination",
+    "question": "Which of the following factors would severely impair the accuracy of official National Income accounting statistics?",
+    "options": [
+      "A) Highly detailed taxচেতন procedures",
+      "B) A massive underground network of unrecorded illegal activities and cash businesses",
+      "C) The strict inclusion of all exported goods",
+      "D) The calculation of corporate profits"
+    ],
+    "correctAnswer": "B) A massive underground network of unrecorded illegal activities and cash businesses",
+    "explanation": "Illegal activities and the shadow economy operate purely in unrecorded cash, completely bypassing government statisticians and causing official GDP to be grossly understated."
+  },
+  {
+    "id": "v2c5q489",
+    "chapter": 5,
+    "chapterTitle": "National Income and Its Determination",
+    "question": "When calculating the Gross National Product (GNP), why are government 'Transfer Payments' (such as state pensions or welfare checks) strictly excluded?",
+    "options": [
+      "A) Because they are paid in foreign currency",
+      "B) Because they represent payments given without any actual physical work or new production of goods",
+      "C) Because they are inherently deflationary",
+      "D) Because they are taxed at source"
+    ],
+    "correctAnswer": "B) Because they represent payments given without any actual physical work or new production of goods",
+    "explanation": "Transfer payments merely redistribute existing wealth. They are not compensation for current economic production and adding them would falsely inflate the GDP."
+  },
+  {
+    "id": "v2c5q490",
+    "chapter": 5,
+    "chapterTitle": "National Income and Its Determination",
+    "question": "The total market monetary value of all final products, goods, and services actively produced within the geographic borders of a country during one financial year is defined as:",
+    "options": [
+      "A) Gross Domestic Product (G.D.P.)",
+      "B) Net National Product (N.N.P.)",
+      "C) Personal Disposable Income",
+      "D) Net Exports"
+    ],
+    "correctAnswer": "A) Gross Domestic Product (G.D.P.)",
+    "explanation": "GDP strictly measures the value of all finished goods produced within the geographic confines of a nation, irrespective of whether the producers are citizens or foreigners."
+  },
+  {
+    "id": "v2c5q491",
+    "chapter": 5,
+    "chapterTitle": "National Income and Its Determination",
+    "question": "A massive national strike drastically reduces the supply of fuel and spikes energy prices across the country. In macroeconomics, what immediate shift does this cause?",
+    "options": [
+      "A) An expansion of the Production Possibility Frontier",
+      "B) A rightward shift in Aggregate Demand",
+      "C) A decrease (leftward shift) in the Short-Run Aggregate Supply curve",
+      "D) A massive drop in unemployment"
+    ],
+    "correctAnswer": "C) A decrease (leftward shift) in the Short-Run Aggregate Supply curve",
+    "explanation": "Spiking energy prices massively increase production costs for all industries, creating a negative supply shock that shifts the SRAS curve to the left."
+  },
+  {
+    "id": "v2c5q492",
+    "chapter": 5,
+    "chapterTitle": "National Income and Its Determination",
+    "question": "A country's Long-Run Aggregate Supply (LRAS) curve is famously depicted as perfectly vertical. What does this vertical shape signify?",
+    "options": [
+      "A) That firms can instantly switch to cheaper raw materials",
+      "B) That the economy is operating at the full utilization of existing resources (full employment)",
+      "C) That inflation is completely impossible",
+      "D) That government spending has no effect on prices"
+    ],
+    "correctAnswer": "B) That the economy is operating at the full utilization of existing resources (full employment)",
+    "explanation": "The vertical LRAS curve indicates the maximum physical productive potential of an economy where all resources are fully employed; output cannot increase regardless of price levels."
+  },
+  {
+    "id": "v2c5q493",
+    "chapter": 5,
+    "chapterTitle": "National Income and Its Determination",
+    "question": "Which of the following events would successfully shift the vertical Long-Run Aggregate Supply (LRAS) curve completely to the right?",
+    "options": [
+      "A) A permanent improvement in national labour skills and technological advancements",
+      "B) A temporary spike in international oil prices",
+      "C) A massive increase in consumer demand",
+      "D) An aggressive increase in national income taxes"
+    ],
+    "correctAnswer": "A) A permanent improvement in national labour skills and technological advancements",
+    "explanation": "The LRAS curve only shifts when the actual physical capacity of the economy grows, which requires better technology, more resources, or a higher quality workforce."
+  },
+  {
+    "id": "v2c5q494",
+    "chapter": 5,
+    "chapterTitle": "National Income and Its Determination",
+    "question": "If Aggregate Demand strongly exceeds Aggregate Supply when the economy is already at its absolute maximum full-employment capacity, the economy experiences a:",
+    "options": [
+      "A) Deep recession",
+      "B) Positive output gap leading to a rise in the overall price level (Inflationary gap)",
+      "C) Perfect equilibrium",
+      "D) Deflationary spiral"
+    ],
+    "correctAnswer": "B) Positive output gap leading to a rise in the overall price level (Inflationary gap)",
+    "explanation": "Because physical output cannot expand any further, the excess demand simply bids up prices, creating severe demand-pull inflation."
+  },
+  {
+    "id": "v2c5q495",
+    "chapter": 5,
+    "chapterTitle": "National Income and Its Determination",
+    "question": "Which of the following macroeconomic components is NOT factored into the calculation of an economy's Aggregate Demand?",
+    "options": [
+      "A) Personal household consumption",
+      "B) Private firm investment",
+      "C) Government spending",
+      "D) Individual micro-demand for a single commodity like salt"
+    ],
+    "correctAnswer": "D) Individual micro-demand for a single commodity like salt",
+    "explanation": "Aggregate Demand represents the total sum of spending on ALL goods and services in the economy, not the microeconomic demand for a singular specific product."
+  },
+  {
+    "id": "v2c7q496",
+    "chapter": 7,
+    "chapterTitle": "Multiplier and Accelerator",
+    "question": "In a closed economy with no government, actual output is Rs. 20 million while full-employment potential is Rs. 25 million. If the Marginal Propensity to Consume (MPC) is 0.8, what size of new investment is needed to close the gap?",
+    "options": [
+      "A) Rs. 1 million",
+      "B) Rs. 4 million",
+      "C) Rs. 5 million",
+      "D) Rs. 16 million"
+    ],
+    "correctAnswer": "A) Rs. 1 million",
+    "explanation": "The gap is 5 million. The multiplier (K) is 1 / (1 - 0.8) = 5. To generate 5 million in final output, the initial investment must be 1 million (1m x 5 = 5m)."
+  },
+  {
+    "id": "v2c7q497",
+    "chapter": 7,
+    "chapterTitle": "Multiplier and Accelerator",
+    "question": "If the marginal propensity to consume (MPC) in an overheating economy is 0.9, what is the exact mathematical value of the Keynesian multiplier?",
+    "options": [
+      "A) 1.1",
+      "B) 1.25",
+      "C) 5",
+      "D) 10"
+    ],
+    "correctAnswer": "D) 10",
+    "explanation": "The formula for the multiplier is 1 / (1 - MPC). Therefore, K = 1 / (1 - 0.9) = 1 / 0.1 = 10."
+  },
+  {
+    "id": "v2c7q498",
+    "chapter": 7,
+    "chapterTitle": "Multiplier and Accelerator",
+    "question": "The 'Accelerator Theory' differs from the Multiplier by focusing on capital investment behavior. It explicitly states that:",
+    "options": [
+      "A) Net investment is positive only if consumer output is rising at an increasing rate",
+      "B) High interest rates accelerate saving",
+      "C) Government taxes accelerate debt",
+      "D) Inflation accelerates when the money supply drops"
+    ],
+    "correctAnswer": "A) Net investment is positive only if consumer output is rising at an increasing rate",
+    "explanation": "The accelerator principle argues that firms are only induced to undertake massive new capital investment (like building factories) when they see an accelerating growth in consumer demand."
+  },
+  {
+    "id": "v2c7q499",
+    "chapter": 7,
+    "chapterTitle": "Multiplier and Accelerator",
+    "question": "If the government decides to aggressively increase direct income taxes on citizens, what is the mathematical effect on the value of the national output multiplier?",
+    "options": [
+      "A) It will become infinite",
+      "B) It will definitively decrease",
+      "C) It will heavily increase",
+      "D) It will remain completely unchanged"
+    ],
+    "correctAnswer": "B) It will definitively decrease",
+    "explanation": "Taxes act as a withdrawal from the circular flow. Higher taxes reduce citizens' disposable income, meaning they pass on less money in each spending round, weakening the multiplier."
+  },
+  {
+    "id": "v2c7q500",
+    "chapter": 7,
+    "chapterTitle": "Multiplier and Accelerator",
+    "question": "During which specific phase of the business cycle does the economy experience a steady, optimistic rise in output, incomes, and business confidence following a trough?",
+    "options": [
+      "A) Depression",
+      "B) Recovery",
+      "C) Peak",
+      "D) Recession"
+    ],
+    "correctAnswer": "B) Recovery",
+    "explanation": "Recovery (or expansion) is the phase where stagnant economic activity begins to consistently grow again, characterized by rising employment, production, and consumer confidence."
+  }
+]

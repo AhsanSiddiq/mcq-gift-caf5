@@ -1,0 +1,702 @@
+[
+  {
+    "id": "c5q251",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "Banks process millions of physical paper cheques daily. To do this quickly, they use a technology that reads specially formatted characters printed in magnetic ink at the bottom of the cheque. What is this called?",
+    "options": [
+      "A) Optical Character Recognition (OCR)",
+      "B) Barcode scanning",
+      "C) Magnetic Ink Character Recognition (MICR)",
+      "D) Quick Response (QR) code"
+    ],
+    "correctAnswer": "C) Magnetic Ink Character Recognition (MICR)",
+    "explanation": "MICR is an input technology used primarily by the banking industry to securely and quickly read the routing numbers at the bottom of cheques."
+  },
+  {
+    "id": "c5q252",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "A car manufacturer sets up a secure, private web portal. They give login credentials to their top five raw material suppliers so the suppliers can check inventory levels. What type of network is this?",
+    "options": [
+      "A) The public Internet",
+      "B) An Intranet",
+      "C) An Extranet",
+      "D) A Local Area Network (LAN)"
+    ],
+    "correctAnswer": "C) An Extranet",
+    "explanation": "An extranet is an extension of an organization's internal network that allows secure, controlled access to trusted external parties, like suppliers or partners."
+  },
+  {
+    "id": "c5q253",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "Employees at a hospital log into a private internal network to read the latest staff announcements and download HR forms. The general public cannot access this network. What is this called?",
+    "options": [
+      "A) An Intranet",
+      "B) An Extranet",
+      "C) The World Wide Web",
+      "D) An Expert System"
+    ],
+    "correctAnswer": "A) An Intranet",
+    "explanation": "An intranet is a private network contained within an enterprise, used solely to securely share company information and computing resources among employees."
+  },
+  {
+    "id": "c5q254",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "A payroll system collects all employee timecards throughout the month, and then processes them all at once on the 30th of the month to issue paychecks. What data processing method is this?",
+    "options": [
+      "A) Real-time processing",
+      "B) Batch processing",
+      "C) Online processing",
+      "D) Continuous processing"
+    ],
+    "correctAnswer": "B) Batch processing",
+    "explanation": "Batch processing involves accumulating transactions over time and then processing them together as a single group, which is highly efficient for tasks like payroll."
+  },
+  {
+    "id": "c5q255",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "A university uses a specialized software application to securely store, organize, query, and retrieve the records of 50,000 students without data duplication. What is this software called?",
+    "options": [
+      "A) Word Processor",
+      "B) Operating System",
+      "C) Database Management System (DBMS)",
+      "D) Wide Area Network"
+    ],
+    "correctAnswer": "C) Database Management System (DBMS)",
+    "explanation": "A DBMS is software designed to store, retrieve, define, and manage data in a database efficiently and securely."
+  },
+  {
+    "id": "c6q256",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "A hiring manager interviews five candidates for a job. He ultimately hires his nephew, even though his nephew scored the lowest on the competency test. What specific ethical issue does this demonstrate?",
+    "options": [
+      "A) Insider trading",
+      "B) Whistleblowing",
+      "C) Conflict of interest",
+      "D) Corporate social responsibility"
+    ],
+    "correctAnswer": "C) Conflict of interest",
+    "explanation": "A conflict of interest occurs when an individual's personal or family interests compromise their ability to make objective, fair decisions for their employer."
+  },
+  {
+    "id": "c6q257",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "An IT administrator secretly reads an email from the CEO discussing a highly profitable acquisition that will be announced next week. The IT administrator immediately buys company shares to profit. What is this called?",
+    "options": [
+      "A) Whistleblowing",
+      "B) Corporate espionage",
+      "C) Insider trading",
+      "D) Strategic investment"
+    ],
+    "correctAnswer": "C) Insider trading",
+    "explanation": "Insider trading is the illegal and unethical practice of trading on the stock exchange based on access to confidential, non-public information."
+  },
+  {
+    "id": "c6q258",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "An accountant discovers that the CFO is embezzling funds. After internal reports are ignored, the accountant reports the crime to the national financial regulator. This action is known as:",
+    "options": [
+      "A) Breaching a contract",
+      "B) Whistleblowing",
+      "C) Insider trading",
+      "D) Conflict of interest"
+    ],
+    "correctAnswer": "B) Whistleblowing",
+    "explanation": "Whistleblowing is the act of exposing secretive, illegal, or unethical behavior within an organization to a higher authority or the public."
+  },
+  {
+    "id": "c6q259",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "While having lunch at a public restaurant, an auditor loudly discusses a client's severe financial difficulties with a friend. Which fundamental principle of professional ethics has the auditor violated?",
+    "options": [
+      "A) Objectivity",
+      "B) Professional competence",
+      "C) Confidentiality",
+      "D) Integrity"
+    ],
+    "correctAnswer": "C) Confidentiality",
+    "explanation": "Confidentiality requires professionals to respect the secrecy of information acquired during their work and not disclose it without proper authorization."
+  },
+  {
+    "id": "c6q260",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "A financial analyst is preparing an investment report on Company X. However, the analyst owns a significant amount of stock in Company X. According to the ICAP code of ethics, what principle is most directly threatened here?",
+    "options": [
+      "A) Objectivity",
+      "B) Confidentiality",
+      "C) Professional competence",
+      "D) Public relations"
+    ],
+    "correctAnswer": "A) Objectivity",
+    "explanation": "Objectivity dictates that professionals should not allow bias, conflict of interest, or the undue influence of others to override their business judgment."
+  },
+  {
+    "id": "c6q261",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "The fundamental ethical principle that requires an accountant to be straightforward, honest, and truthful in all professional and business relationships is known as:",
+    "options": [
+      "A) Objectivity",
+      "B) Integrity",
+      "C) Confidentiality",
+      "D) Due care"
+    ],
+    "correctAnswer": "B) Integrity",
+    "explanation": "Integrity implies fair dealing and truthfulness. It means the professional will not be associated with reports containing materially false or misleading statements."
+  },
+  {
+    "id": "c6q262",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "A company drafts a brilliant 50-page Code of Ethics, but the CEO routinely ignores it and treats staff poorly. As a result, the employees also ignore the code. This highlights the failure of which concept?",
+    "options": [
+      "A) Corporate social responsibility",
+      "B) Insider trading",
+      "C) Tone at the top",
+      "D) Span of control"
+    ],
+    "correctAnswer": "C) Tone at the top",
+    "explanation": "For ethical codes to be effective, they must be strongly endorsed and actively modeled by senior management, a concept known as the 'tone at the top'."
+  },
+  {
+    "id": "c6q263",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "To ensure all employees clearly understand the firm's values, expected behaviors, and rules against bribery, an organization should formally issue a:",
+    "options": [
+      "A) Mission statement",
+      "B) Marketing plan",
+      "C) Code of Conduct / Ethics",
+      "D) Shareholder dividend report"
+    ],
+    "correctAnswer": "C) Code of Conduct / Ethics",
+    "explanation": "A Code of Conduct is a formal, written document distributed to all employees detailing the ethical guidelines and behavioral rules of the organization."
+  },
+  {
+    "id": "c6q264",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "A heavy machinery manufacturer decides to switch to renewable energy sources and pledges to plant a tree for every machine sold. What broad business concept does this environmental commitment fall under?",
+    "options": [
+      "A) Corporate Social Responsibility (CSR)",
+      "B) Tax evasion",
+      "C) Supply chain logistics",
+      "D) Whistleblowing"
+    ],
+    "correctAnswer": "A) Corporate Social Responsibility (CSR)",
+    "explanation": "CSR encompasses an organization's self-regulated efforts to act responsibly towards the environment, community, and society beyond simply making a profit."
+  },
+  {
+    "id": "c6q265",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "An auditor realizes they do not understand the complex new tax laws affecting their client, but they complete the audit anyway without seeking training. Which ethical principle is violated?",
+    "options": [
+      "A) Confidentiality",
+      "B) Professional competence and due care",
+      "C) Objectivity",
+      "D) Integrity"
+    ],
+    "correctAnswer": "B) Professional competence and due care",
+    "explanation": "Professionals must maintain their knowledge and skills at an appropriate level. Attempting work without the necessary competence violates this principle."
+  },
+  {
+    "id": "c6q266",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "If a major food company is exposed by the media for knowingly selling contaminated products, what is the most severe and immediate non-legal risk it faces?",
+    "options": [
+      "A) Loss of reputation and severe credibility damage among consumers",
+      "B) Automatic increase in corporate taxes",
+      "C) Exemption from future labor laws",
+      "D) Immediate promotion of the Board of Directors"
+    ],
+    "correctAnswer": "A) Loss of reputation and severe credibility damage among consumers",
+    "explanation": "Unethical behavior causes massive reputational risk. Loss of consumer trust can permanently damage the brand and destroy sales revenue."
+  },
+  {
+    "id": "c7q267",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "A modern tech firm believes that instead of just pushing its existing inventory, it must first discover what features consumers desire and then build products to satisfy those desires. What concept is this firm following?",
+    "options": [
+      "A) The sales concept",
+      "B) The marketing concept",
+      "C) The production concept",
+      "D) The accounting concept"
+    ],
+    "correctAnswer": "B) The marketing concept",
+    "explanation": "The modern marketing concept focuses entirely on identifying consumer needs and wants first, and then fulfilling them to achieve organizational goals."
+  },
+  {
+    "id": "c7q268",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "A dealership has excess inventory of last year's car models and relies on aggressive discounts and persuasive salesmen to get rid of them quickly. This short-term focus on closing deals is defined as:",
+    "options": [
+      "A) Branding",
+      "B) Market research",
+      "C) Selling",
+      "D) Logistics"
+    ],
+    "correctAnswer": "C) Selling",
+    "explanation": "Selling is highly tactical and focuses on the short-term goal of exchanging existing goods for cash, whereas marketing is a long-term strategic process."
+  },
+  {
+    "id": "c7q269",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "A software company decides to offer a 20% discount to college students and allows them to pay in three monthly installments. Which element of the Marketing Mix (4 Ps) does this decision relate to?",
+    "options": [
+      "A) Product",
+      "B) Promotion",
+      "C) Price",
+      "D) Place"
+    ],
+    "correctAnswer": "C) Price",
+    "explanation": "The 'Price' element encompasses not just the list price, but also discounts, allowances, and payment terms."
+  },
+  {
+    "id": "c7q270",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "A sports drink company negotiates with a major supermarket chain to ensure its drinks are stocked in the refrigerated aisles of 500 stores nationwide. Which element of the Marketing Mix is this?",
+    "options": [
+      "A) Product",
+      "B) Place",
+      "C) Price",
+      "D) Promotion"
+    ],
+    "correctAnswer": "B) Place",
+    "explanation": "The 'Place' component deals with distribution channels, logistics, and ensuring the product is physically available where consumers want to buy it."
+  },
+  {
+    "id": "c7q271",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "A cosmetic brand launches a massive television advertising campaign, sponsors a popular beauty vlogger on YouTube, and sends out press releases. Which element of the Marketing Mix do these activities represent?",
+    "options": [
+      "A) Promotion",
+      "B) Place",
+      "C) Product",
+      "D) Price"
+    ],
+    "correctAnswer": "A) Promotion",
+    "explanation": "Promotion covers all forms of communication used to inform, persuade, and remind consumers, including advertising, PR, and sales promotions."
+  },
+  {
+    "id": "c7q272",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "A local health authority runs a billboard campaign encouraging citizens to stop smoking. In the context of marketing, the concept of 'stopping smoking' is classified as an intangible:",
+    "options": [
+      "A) Good",
+      "B) Idea",
+      "C) Service",
+      "D) Capital asset"
+    ],
+    "correctAnswer": "B) Idea",
+    "explanation": "Marketing is not limited to physical goods or services. Advocacy campaigns successfully market 'ideas' to change public behavior."
+  },
+  {
+    "id": "c7q273",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "A luxury watchmaker designs a campaign specifically aimed at high-income professionals aged 40-60. This specific, well-defined group of consumers is known as the firm's:",
+    "options": [
+      "A) Target market",
+      "B) Supply chain",
+      "C) Board of directors",
+      "D) Competitor base"
+    ],
+    "correctAnswer": "A) Target market",
+    "explanation": "A target market is the specific segment of potential consumers whose needs a company focuses on satisfying with its marketing efforts."
+  },
+  {
+    "id": "c7q274",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "Before launching a new flavor of chips, a snack company organizes focus groups and online surveys to gather data on consumer taste preferences. What is this systematic data gathering called?",
+    "options": [
+      "A) Market research",
+      "B) Price skimming",
+      "C) Brand dilution",
+      "D) Factoring"
+    ],
+    "correctAnswer": "A) Market research",
+    "explanation": "Market research is the process of systematically gathering, recording, and analyzing data about customers and the market to make informed decisions."
+  },
+  {
+    "id": "c7q275",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "A coffee shop creates a highly recognizable green mermaid logo and a specific font for its cups so that consumers instantly recognize it on the street. This strategy is known as:",
+    "options": [
+      "A) Logistics",
+      "B) Branding",
+      "C) Grading",
+      "D) Penetration pricing"
+    ],
+    "correctAnswer": "B) Branding",
+    "explanation": "Branding involves creating unique names, symbols, and designs that identify a product and strongly differentiate it from competitors."
+  },
+  {
+    "id": "c7q276",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "A tech company invents a revolutionary new virtual reality headset. Sales are initially slow as consumers learn about the product, and advertising costs are massive. Which stage of the Product Life Cycle is this?",
+    "options": [
+      "A) Decline stage",
+      "B) Maturity stage",
+      "C) Introduction phase",
+      "D) Growth stage"
+    ],
+    "correctAnswer": "C) Introduction phase",
+    "explanation": "The introduction phase of the product life cycle is characterized by low sales, high promotional spending, and the need to educate the market."
+  },
+  {
+    "id": "c7q277",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "A popular soda has been on the market for 30 years. Sales have leveled off, the market is completely saturated, and competition is fierce, leading to minor price wars. Which stage of the Product Life Cycle is this?",
+    "options": [
+      "A) Introduction",
+      "B) Growth",
+      "C) Maturity",
+      "D) Prototype"
+    ],
+    "correctAnswer": "C) Maturity",
+    "explanation": "In the maturity stage, a product is well established, sales growth slows or flattens, and the focus shifts to defending market share against intense competition."
+  },
+  {
+    "id": "c8q278",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "The HR Director of a software firm analyzes current staff levels and predicts that the firm will need to hire 50 new programmers over the next three years to meet expansion goals. What is this forecasting process called?",
+    "options": [
+      "A) Performance appraisal",
+      "B) Human Resource Planning (HRP)",
+      "C) Job analysis",
+      "D) Disciplinary action"
+    ],
+    "correctAnswer": "B) Human Resource Planning (HRP)",
+    "explanation": "Human Resource Planning is the process of forecasting future human resource requirements and ensuring the firm has the right people in the right jobs at the right time."
+  },
+  {
+    "id": "c8q279",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "An HR specialist sits next to a machine operator for two days, taking detailed notes on exactly what tasks the operator performs and the physical conditions of the factory floor. What is this activity?",
+    "options": [
+      "A) Job analysis",
+      "B) Recruitment",
+      "C) Selection",
+      "D) Orientation"
+    ],
+    "correctAnswer": "A) Job analysis",
+    "explanation": "Job analysis is the systematic process of gathering detailed information about the duties, responsibilities, and working conditions of a specific job."
+  },
+  {
+    "id": "c8q280",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "After observing a role, HR produces a document detailing the job title, the location of the job, the reporting structure, and a list of specific daily duties. What is this document called?",
+    "options": [
+      "A) Job specification",
+      "B) Offer letter",
+      "C) Job description",
+      "D) Training manual"
+    ],
+    "correctAnswer": "C) Job description",
+    "explanation": "A job description is a factual, written statement of the tasks, duties, location, and responsibilities involved in a job."
+  },
+  {
+    "id": "c8q281",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "To hire a new accountant, HR drafts a document stating: 'Applicant must hold a CA qualification, have 3 years of audit experience, and possess strong analytical skills.' What is this document?",
+    "options": [
+      "A) Job description",
+      "B) Job specification (Person specification)",
+      "C) Performance review",
+      "D) Orientation guide"
+    ],
+    "correctAnswer": "B) Job specification (Person specification)",
+    "explanation": "A job specification details the minimum personal qualifications, education, skills, and experience an individual needs to perform the job successfully."
+  },
+  {
+    "id": "c8q282",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "A retail chain posts a vacancy on LinkedIn and places a banner in their shop window to attract candidates to apply for a store manager position. What HR process is this?",
+    "options": [
+      "A) Selection",
+      "B) Recruitment",
+      "C) Retention",
+      "D) Mentoring"
+    ],
+    "correctAnswer": "B) Recruitment",
+    "explanation": "Recruitment is the active process of seeking, finding, and attracting a pool of potentially qualified candidates for a vacant position."
+  },
+  {
+    "id": "c8q283",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "Out of 50 people who applied, HR conducts aptitude tests, holds interviews, and checks references to choose the single best person to offer the job to. What is this filtering process called?",
+    "options": [
+      "A) Recruitment",
+      "B) Job Analysis",
+      "C) Selection",
+      "D) Rotation"
+    ],
+    "correctAnswer": "C) Selection",
+    "explanation": "Selection is the process of evaluating candidates through tests and interviews to choose the most suitable individual for the vacancy."
+  },
+  {
+    "id": "c8q284",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "When a supervisor retires, the company decides to promote an existing junior manager to the role rather than placing an advertisement on job portals. What is a key advantage of this 'Internal Recruitment'?",
+    "options": [
+      "A) It brings entirely new ideas and 'new blood' into the firm",
+      "B) It is faster, cheaper, and highly motivating for existing staff",
+      "C) It prevents any need for training",
+      "D) It increases the span of control"
+    ],
+    "correctAnswer": "B) It is faster, cheaper, and highly motivating for existing staff",
+    "explanation": "Internal recruitment is cost-effective, reduces onboarding time, and boosts morale by showing employees there are clear career progression paths."
+  },
+  {
+    "id": "c8q285",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "A company sends its data entry clerks to a 2-day workshop to learn how to use a newly installed typing software so they can do their current tasks faster. Is this considered training or development?",
+    "options": [
+      "A) Development, because it focuses on long-term leadership",
+      "B) Training, because it teaches specific skills required for their current job",
+      "C) Neither, it is considered recruitment",
+      "D) Both, because they are synonymous terms"
+    ],
+    "correctAnswer": "B) Training, because it teaches specific skills required for their current job",
+    "explanation": "Training is a short-term process designed to impart specific skills required to perform the employee's current job effectively."
+  },
+  {
+    "id": "c8q286",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "A high-performing junior executive is placed in a special mentorship program designed to teach them broad leadership, strategic thinking, and emotional intelligence for a future CEO role. What is this process?",
+    "options": [
+      "A) Development",
+      "B) Training",
+      "C) Selection",
+      "D) Job analysis"
+    ],
+    "correctAnswer": "A) Development",
+    "explanation": "Development is a long-term educational process focused on personal growth, conceptual skills, and preparing employees for future, broader responsibilities."
+  },
+  {
+    "id": "c8q287",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "A fast-food restaurant struggles because every few months, employees quit and must be replaced, resulting in massive hiring and training costs. What HR metric is alarmingly high here?",
+    "options": [
+      "A) Employee retention",
+      "B) Employee turnover",
+      "C) Span of control",
+      "D) Profit margin"
+    ],
+    "correctAnswer": "B) Employee turnover",
+    "explanation": "Employee turnover measures the rate at which employees leave an organization and need to be replaced, which is highly costly if not controlled."
+  },
+  {
+    "id": "c8q288",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "At the end of the year, a sales team exceeds its targets by 20%. Management rewards them with an extra cash payment on top of their standard monthly salary. What is this payment called?",
+    "options": [
+      "A) Base wage",
+      "B) Provident fund",
+      "C) Bonus",
+      "D) Fringe benefit"
+    ],
+    "correctAnswer": "C) Bonus",
+    "explanation": "A bonus is an additional financial reward, usually linked to excellent performance or high profits, paid on top of an employee's base salary."
+  },
+  {
+    "id": "c1q289",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "A national telecom company publishes a document stating its ultimate, long-term aspiration: 'To be the leading and most trusted provider of digital connectivity across the globe by 2050.' What does this inspirational statement represent?",
+    "options": [
+      "A) A mission statement",
+      "B) A vision statement",
+      "C) A tactical plan",
+      "D) An operational objective"
+    ],
+    "correctAnswer": "B) A vision statement",
+    "explanation": "A vision statement is an inspirational, long-term description of what the organization ultimately wants to become, irrespective of its present state."
+  },
+  {
+    "id": "c1q290",
+    "chapter": 1,
+    "chapterTitle": "Nature of Business",
+    "question": "Which of the following individuals or groups provides financial capital to a company and is considered a stakeholder, but is NOT considered a shareholder?",
+    "options": [
+      "A) An individual who purchases the company's debentures",
+      "B) An individual who purchases the company's ordinary shares",
+      "C) An executive director with stock options",
+      "D) A founder holding private equity"
+    ],
+    "correctAnswer": "A) An individual who purchases the company's debentures",
+    "explanation": "Debenture holders are lenders (stakeholders with a financial interest) but they do not own equity shares in the business, so they are not shareholders."
+  },
+  {
+    "id": "c2q291",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "Three professionals decide to form a Limited Liability Partnership (LLP). According to legal frameworks, which of the following is a core characteristic of this specific business structure?",
+    "options": [
+      "A) It lacks perpetual succession and dissolves if a partner leaves",
+      "B) It is not considered a separate legal entity from its owners",
+      "C) It is a separate body corporate and possesses perpetual succession",
+      "D) All partners carry unlimited personal liability for the firm's debts"
+    ],
+    "correctAnswer": "C) It is a separate body corporate and possesses perpetual succession",
+    "explanation": "Unlike a general partnership, a Limited Liability Partnership (LLP) is a distinct corporate body and legal entity separate from its partners, and it enjoys perpetual succession."
+  },
+  {
+    "id": "c2q292",
+    "chapter": 2,
+    "chapterTitle": "Ownership of Business",
+    "question": "A local recreational club collects annual subscriptions from its members to maintain sports facilities and host community events. Instead of a traditional profit and loss account, what financial statement does this club produce?",
+    "options": [
+      "A) A dividend distribution statement",
+      "B) An income and expenditure account",
+      "C) A retained earnings ledger",
+      "D) A commercial manufacturing account"
+    ],
+    "correctAnswer": "B) An income and expenditure account",
+    "explanation": "Not-for-profit organizations, such as clubs and societies, produce an income and expenditure account to show their surplus or deficit rather than a profit and loss account."
+  },
+  {
+    "id": "c3q293",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "If a multinational corporation adopts a highly 'tall' organizational structure with numerous hierarchical management levels, what is the most likely consequence for its individual managers?",
+    "options": [
+      "A) They will naturally have a very wide span of control",
+      "B) They will have a narrow span of management",
+      "C) They will report simultaneously to two different project managers",
+      "D) They will completely lack formal authority"
+    ],
+    "correctAnswer": "B) They will have a narrow span of management",
+    "explanation": "A tall organizational structure is characterized by many management layers, which inherently results in a narrow span of control (supervising fewer subordinates per manager)."
+  },
+  {
+    "id": "c3q294",
+    "chapter": 3,
+    "chapterTitle": "Organization of Business",
+    "question": "An electronics manufacturer organizes its workforce and activities completely based on its distinct output categories: 'Home Appliances', 'Mobile Devices', and 'Computers'. Which organizational structure is the firm utilizing?",
+    "options": [
+      "A) Functional organization",
+      "B) Matrix organization",
+      "C) Divisional organization",
+      "D) Virtual organization"
+    ],
+    "correctAnswer": "C) Divisional organization",
+    "explanation": "Grouping activities and personnel on the basis of different product lines is a classic example of a product divisional organizational structure."
+  },
+  {
+    "id": "c4q295",
+    "chapter": 4,
+    "chapterTitle": "Sources of Business Finance",
+    "question": "A textile wholesaler severely lacks short-term funds to pay its factory workers, but it holds a large number of unpaid customer invoices. The wholesaler sells these invoices to a bank at a slight discount for immediate cash. What is this financing method?",
+    "options": [
+      "A) Issuing public debentures",
+      "B) Discounting or Factoring of receivables",
+      "C) Retaining earnings",
+      "D) Securing an operating lease"
+    ],
+    "correctAnswer": "B) Discounting or Factoring of receivables",
+    "explanation": "Factoring or discounting is a popular short-term finance method where a business sells its accounts receivable (invoices) to a third party to obtain immediate liquidity."
+  },
+  {
+    "id": "c5q296",
+    "chapter": 5,
+    "chapterTitle": "Information Systems",
+    "question": "The Chief Executive Officer (CEO) of a global logistics company requires strategic, visual information to decide whether to acquire a major rival firm in a foreign market. Which type of information system is best suited to support this unstructured decision?",
+    "options": [
+      "A) Transaction Processing System (TPS)",
+      "B) Point of Sale System (POS)",
+      "C) Executive Information System (EIS)",
+      "D) Basic Batch Processing System"
+    ],
+    "correctAnswer": "C) Executive Information System (EIS)",
+    "explanation": "An Executive Information System (EIS) is specifically designed to provide top executives with strategic, high-level, and visual information to aid in complex, unstructured decision-making."
+  },
+  {
+    "id": "c6q297",
+    "chapter": 6,
+    "chapterTitle": "Business Ethics",
+    "question": "A manager is faced with a difficult ethical dilemma regarding a new supplier contract and decides to use the 'mirror test' for ethical decision-making. According to this framework, what is the very first question the manager should ask?",
+    "options": [
+      "A) Will this action maximize our public relations?",
+      "B) Is it legal?",
+      "C) What will other people think?",
+      "D) Is it according to our business standards?"
+    ],
+    "correctAnswer": "B) Is it legal?",
+    "explanation": "In the mirror testing technique for ethical decision-making, the sequential questions start with asking: 'Is it legal?' before moving to policy and public perception."
+  },
+  {
+    "id": "c7q298",
+    "chapter": 7,
+    "chapterTitle": "Concepts of Branding and Marketing",
+    "question": "A tech startup launches a revolutionary new smartwatch. To build brand recognition and create awareness in the market, they invest heavily in television campaigns and digital ads. Which specific element of the marketing mix does this represent?",
+    "options": [
+      "A) Product",
+      "B) Place",
+      "C) Promotion",
+      "D) Price"
+    ],
+    "correctAnswer": "C) Promotion",
+    "explanation": "Promotion covers all communication methods used by a firm to inform, persuade, and remind consumers about a product, including advertising campaigns to build awareness."
+  },
+  {
+    "id": "c8q299",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "The HR department prepares a document that clearly lists the required educational background, past work experience, and personal technical skills a candidate must possess to be hired as a Senior Data Analyst. What is this document called?",
+    "options": [
+      "A) Job description",
+      "B) Job specification",
+      "C) Performance appraisal",
+      "D) Structural hierarchy map"
+    ],
+    "correctAnswer": "B) Job specification",
+    "explanation": "A job specification describes the human requirements, such as qualifications, skills, and experience, necessary for a person to perform a specific job successfully."
+  },
+  {
+    "id": "c8q300",
+    "chapter": 8,
+    "chapterTitle": "Human Resource Strategies",
+    "question": "A newly hired software engineer spends their first two days learning about the company's culture, office rules, and safety regulations before beginning their actual job duties. What is this familiarization process called?",
+    "options": [
+      "A) Downsizing",
+      "B) Job rotation",
+      "C) Formal recruitment",
+      "D) Induction / Orientation"
+    ],
+    "correctAnswer": "D) Induction / Orientation",
+    "explanation": "Induction (or orientation) is the process of familiarizing new employees with the organization's rules, culture, and regulations so they can integrate smoothly into the workplace."
+  }
+]

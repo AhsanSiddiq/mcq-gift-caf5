@@ -1,12 +1,13 @@
 "use client";
 
-import React, { useState, useEffect, useCallback } from "react";
+import React, { useState, useEffect, useCallback, useRef } from "react";
 import { MCQ } from "@/data/mcqs";
 import MCQCard from "@/components/MCQCard";
-import { RotateCcw, ChevronLeft } from "lucide-react";
+import { RotateCcw, ChevronLeft, CloudUpload } from "lucide-react";
 import Link from "next/link";
 import { useProgress } from "@/hooks/useProgress";
 import { useParams } from "next/navigation";
+import EmailLoginModal from "@/components/EmailLoginModal";
 
 function dbToMCQ(row: {
   id: string;
@@ -46,7 +47,7 @@ export default function QuizInterface({ mode, chapter }: QuizInterfaceProps) {
   const level = (params?.level as string) || "caf";
   const subjectId = (params?.subject as string) || "caf-5";
 
-  const { progress, isLoaded, saveChapterScore, saveRandomMockScore, updateMarathonState, clearMarathonState } = useProgress();
+  const { progress, isLoaded, saveChapterScore, saveRandomMockScore, updateMarathonState, clearMarathonState, auth, signIn, syncToCloud, isSyncing } = useProgress(subjectId);
 
   const [allQuestions, setAllQuestions] = useState<MCQ[]>([]);
   const [isFetching, setIsFetching] = useState(true);
@@ -57,6 +58,8 @@ export default function QuizInterface({ mode, chapter }: QuizInterfaceProps) {
   const [currentStreak, setCurrentStreak] = useState(0);
   const [incorrectIds, setIncorrectIds] = useState<string[]>([]);
   const [isRetryMode, setIsRetryMode] = useState(false);
+  const [showLoginModal, setShowLoginModal] = useState(false);
+  const confettiRef = useRef(false);
 
   useEffect(() => {
     setIsFetching(true);
@@ -70,7 +73,8 @@ export default function QuizInterface({ mode, chapter }: QuizInterfaceProps) {
   const setup = useCallback(() => {
     if (isFetching || !isLoaded || allQuestions.length === 0) return;
     if (mode === "all") {
-      if (progress.marathon.inProgress && progress.marathon.questionIds.length > 0) {
+      // ← FIX: only resume if the saved marathon belongs to this subject
+      if (progress.marathon.inProgress && progress.marathon.subjectId === subjectId && progress.marathon.questionIds.length > 0) {
         const saved = progress.marathon.questionIds
           .map((id) => allQuestions.find((q) => q.id === id))
           .filter((q): q is MCQ => q !== undefined);
@@ -82,7 +86,7 @@ export default function QuizInterface({ mode, chapter }: QuizInterfaceProps) {
         const shuffled = [...allQuestions].sort(() => Math.random() - 0.5);
         setQuestions(shuffled);
         setCurrentIndex(0); setScore(0); setIsFinished(false);
-        updateMarathonState(shuffled.map((q) => q.id), 0, 0);
+        updateMarathonState(shuffled.map((q) => q.id), 0, 0, subjectId);
       }
       return;
     }
@@ -92,23 +96,38 @@ export default function QuizInterface({ mode, chapter }: QuizInterfaceProps) {
     else if (mode === "flagged") filtered = filtered.filter((q) => (progress.flaggedQuestionIds || []).includes(q.id));
     setQuestions(filtered);
     setCurrentIndex(0); setScore(0); setCurrentStreak(0); setIncorrectIds([]); setIsFinished(false);
-  }, [isFetching, isLoaded, allQuestions, mode, chapter, progress.marathon.inProgress]);
+  }, [isFetching, isLoaded, allQuestions, mode, chapter, progress.marathon.inProgress, progress.marathon.subjectId, subjectId]);
 
   useEffect(() => { setup(); }, [setup]);
+
+  // Trigger confetti on perfect score
+  useEffect(() => {
+    if (isFinished && !confettiRef.current) {
+      const pct = Math.round((score / questions.length) * 100);
+      if (pct === 100 && typeof window !== "undefined") {
+        confettiRef.current = true;
+        import("canvas-confetti").then((mod) => {
+          const confetti = mod.default;
+          confetti({ particleCount: 120, spread: 80, origin: { y: 0.65 }, colors: ["#3db371", "#60a5fa", "#fbbf24", "#f87171", "#a78bfa"] });
+        });
+      }
+    }
+    if (!isFinished) confettiRef.current = false;
+  }, [isFinished, score, questions.length]);
 
   const handleNext = (isCorrect: boolean) => {
     if (isCorrect) { setScore((s) => s + 1); setCurrentStreak((s) => s + 1); }
     else { setCurrentStreak(0); setIncorrectIds((prev) => [...prev, questions[currentIndex].id]); }
     const newScore = isCorrect ? score + 1 : score;
     if (mode === "all" && isLoaded && questions.length > 0 && !isRetryMode)
-      updateMarathonState(questions.map((q) => q.id), currentIndex, newScore);
+      updateMarathonState(questions.map((q) => q.id), currentIndex, newScore, subjectId);
   };
 
   const advanceQuestion = () => {
     if (currentIndex < questions.length - 1) {
       setCurrentIndex((i) => {
         const next = i + 1;
-        if (mode === "all" && isLoaded) updateMarathonState(questions.map((q) => q.id), next, score);
+        if (mode === "all" && isLoaded) updateMarathonState(questions.map((q) => q.id), next, score, subjectId);
         return next;
       });
     } else {
@@ -116,6 +135,8 @@ export default function QuizInterface({ mode, chapter }: QuizInterfaceProps) {
       if (mode === "topical" && chapter) saveChapterScore(chapter, score, questions.length);
       else if (mode === "random") saveRandomMockScore(score);
       else if (mode === "all") clearMarathonState();
+      // Auto-sync to cloud on completion if signed in
+      if (auth) syncToCloud(subjectId);
     }
   };
 
@@ -123,16 +144,13 @@ export default function QuizInterface({ mode, chapter }: QuizInterfaceProps) {
   if (isFetching || !isLoaded) {
     return (
       <div className="max-w-3xl mx-auto w-full pt-20 sm:pt-24 pb-20 px-3 sm:px-4 animate-pulse">
-        {/* Top bar skeleton */}
         <div className="flex items-center justify-between mb-4 gap-2">
           <span className="rounded-xl" style={{ height: 40, width: 72, background: "var(--bg-2)", border: "1px solid var(--border)", display: "block" }} />
           <span className="rounded-xl" style={{ height: 40, width: 80, background: "var(--bg-2)", border: "1px solid var(--border)", display: "block" }} />
         </div>
-        {/* Progress bar skeleton */}
         <div className="w-full h-2 rounded-full mb-5" style={{ background: "var(--border)" }}>
           <div className="h-2 rounded-full" style={{ width: "30%", background: "var(--green)", opacity: 0.35 }} />
         </div>
-        {/* Card skeleton */}
         <div className="rounded-2xl p-6 sm:p-8 flex flex-col gap-5" style={{ background: "var(--bg-2)", border: "1px solid var(--border)" }}>
           <span className="rounded" style={{ display: "block", height: 13, width: 90, background: "var(--border)" }} />
           <span className="rounded" style={{ display: "block", height: 22, width: "80%", background: "var(--border)" }} />
@@ -175,10 +193,12 @@ export default function QuizInterface({ mode, chapter }: QuizInterfaceProps) {
   if (isFinished) {
     const pct = Math.round((score / questions.length) * 100);
     const excellent = pct >= 80;
+    const perfect = pct === 100;
     return (
       <div className="max-w-lg mx-auto pt-28 pb-20 px-4">
+        <EmailLoginModal isOpen={showLoginModal} onClose={() => setShowLoginModal(false)} onSuccess={(em, tok) => { signIn(em, tok); syncToCloud(subjectId); }} />
         <div className="rounded-2xl p-8 text-center" style={{ background: "var(--bg-2)", border: "1px solid var(--border)" }}>
-          <div className="text-4xl mb-4">{excellent ? "🎉" : "💪"}</div>
+          <div className="text-4xl mb-4">{perfect ? "🏆" : excellent ? "🎉" : "💪"}</div>
           <h2 className="font-bold text-2xl mb-1" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
             {isRetryMode ? "Review Complete" : "Practice Complete"}
           </h2>
@@ -187,16 +207,37 @@ export default function QuizInterface({ mode, chapter }: QuizInterfaceProps) {
           </p>
 
           {/* Score ring */}
-          <div className="inline-flex flex-col items-center justify-center rounded-2xl px-10 py-6 mb-8"
-            style={{ background: excellent ? "rgba(61,179,113,0.08)" : "rgba(251,191,36,0.08)",
-              border: `1px solid ${excellent ? "rgba(61,179,113,0.3)" : "rgba(251,191,36,0.3)"}` }}>
-            <div className="font-black" style={{ fontSize: "3.5rem", color: excellent ? "var(--green)" : "#fbbf24", lineHeight: 1 }}>
+          <div className="inline-flex flex-col items-center justify-center rounded-2xl px-10 py-6 mb-6"
+            style={{
+              background: perfect ? "rgba(61,179,113,0.12)" : excellent ? "rgba(61,179,113,0.08)" : "rgba(251,191,36,0.08)",
+              border: `1px solid ${perfect ? "rgba(61,179,113,0.5)" : excellent ? "rgba(61,179,113,0.3)" : "rgba(251,191,36,0.3)"}`,
+            }}>
+            <div className="font-black" style={{ fontSize: "3.5rem", color: perfect ? "var(--green)" : excellent ? "var(--green)" : "#fbbf24", lineHeight: 1 }}>
               {pct}%
             </div>
             <div className="text-sm font-bold mt-1" style={{ color: "var(--text-3)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
               {score} / {questions.length} correct
             </div>
+            {perfect && <p className="text-xs mt-2 font-bold" style={{ color: "var(--green)" }}>Perfect Score! 🌟</p>}
           </div>
+
+          {/* Cloud sync prompt for non-logged-in users */}
+          {!auth && (
+            <button
+              onClick={() => setShowLoginModal(true)}
+              className="w-full flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold mb-5 cursor-pointer transition-colors"
+              style={{ background: "rgba(61,179,113,0.08)", border: "1px solid rgba(61,179,113,0.25)", color: "var(--green)" }}
+              onMouseEnter={e => (e.currentTarget.style.background = "rgba(61,179,113,0.15)")}
+              onMouseLeave={e => (e.currentTarget.style.background = "rgba(61,179,113,0.08)")}
+            >
+              <CloudUpload className="w-4 h-4" /> Save progress to email
+            </button>
+          )}
+          {auth && (
+            <p className="text-xs mb-5 font-medium" style={{ color: isSyncing ? "#fbbf24" : "var(--green)" }}>
+              {isSyncing ? "⏳ Syncing…" : `☁ Synced to ${auth.email}`}
+            </p>
+          )}
 
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             {incorrectIds.length > 0 && (
@@ -216,7 +257,7 @@ export default function QuizInterface({ mode, chapter }: QuizInterfaceProps) {
               onClick={() => {
                 setCurrentIndex(0); setScore(0); setCurrentStreak(0);
                 setIncorrectIds([]); setIsFinished(false); setIsRetryMode(false);
-                if (mode === "all") { const s = [...allQuestions].sort(() => Math.random() - 0.5); setQuestions(s); updateMarathonState(s.map(q => q.id), 0, 0); }
+                if (mode === "all") { const s = [...allQuestions].sort(() => Math.random() - 0.5); setQuestions(s); updateMarathonState(s.map(q => q.id), 0, 0, subjectId); }
                 else if (mode === "random") setQuestions([...allQuestions].sort(() => Math.random() - 0.5).slice(0, 10));
                 else if (mode === "flagged") setQuestions(allQuestions.filter(q => (progress.flaggedQuestionIds || []).includes(q.id)));
               }}
@@ -265,8 +306,7 @@ export default function QuizInterface({ mode, chapter }: QuizInterfaceProps) {
             </span>
           )}
           <div className="text-sm font-bold px-4 py-2 rounded-xl"
-            style={{ background: "var(--bg-2)", border: "1px solid var(--border)", color: "var(--text-1)",
-              fontFamily: "var(--font-space-grotesk), sans-serif" }}>
+            style={{ background: "var(--bg-2)", border: "1px solid var(--border)", color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
             {currentIndex + 1} <span style={{ color: "var(--text-3)" }}>/ {questions.length}</span>
             {isRetryMode && <span className="ml-2 text-xs" style={{ color: "#f87171" }}>Review</span>}
           </div>

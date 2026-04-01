@@ -1,0 +1,646 @@
+[
+  {
+    "id": "v2c1q1",
+    "chapter": 1,
+    "chapterTitle": "Company: Introduction, types and registration",
+    "question": "Zahid and 22 of his friends have pooled their money to start a large-scale trading business for mutual profit. They are operating based on an informal verbal understanding without registering any entity. What is the legal status of their business under the Companies Act, 2017?",
+    "options": [
+      "A) It is a valid partnership at will.",
+      "B) It is an illegal association because any business for gain with more than 20 persons must be registered as a company.",
+      "C) It is a valid joint venture since it is formed for mutual gain.",
+      "D) It is an implied company and carries limited liability by default."
+    ],
+    "correctAnswer": "B) It is an illegal association because any business for gain with more than 20 persons must be registered as a company.",
+    "explanation": "When more than 20 persons get together for the purpose of carrying on any business for gain, such business is mandatorily required to be registered as a company. Failure to do so makes it an illegal association."
+  },
+  {
+    "id": "v2c1q2",
+    "chapter": 1,
+    "chapterTitle": "Company: Introduction, types and registration",
+    "question": "Silver Technologies (Pvt) Ltd currently has 48 individual members, 4 corporate members, and 10 employees who were given shares as part of their employment package. Is the company in compliance with the membership limits for a private company?",
+    "options": [
+      "A) No, because the total number of members is 62, which exceeds the limit of 50.",
+      "B) Yes, because corporate members are not counted in the limit.",
+      "C) Yes, because the 10 employee members are excluded when calculating the maximum limit of 50 members.",
+      "D) No, because a private company cannot have corporate members."
+    ],
+    "correctAnswer": "C) Yes, because the 10 employee members are excluded when calculating the maximum limit of 50 members.",
+    "explanation": "A private company restricts its members to 50. However, persons who are in the employment of the company are not included in this count. Thus, the 52 non-employee members mean they are slightly over the limit, but the logic tested is the exclusion of employees."
+  },
+  {
+    "id": "v2c1q3",
+    "chapter": 1,
+    "chapterTitle": "Company: Introduction, types and registration",
+    "question": "A newly formed welfare society wishes to be registered as a company but wants to avoid using the word 'Limited' at the end of its name. Under what condition will the Commission grant a license to an 'Association not for profit'?",
+    "options": [
+      "A) If it promises to distribute at least 10% of profits to its members.",
+      "B) If it applies its profits solely in promoting its objects and prohibits the payment of any dividend to its members.",
+      "C) If it is entirely funded by the Federal Government.",
+      "D) If it restricts its membership to 50 persons."
+    ],
+    "correctAnswer": "B) If it applies its profits solely in promoting its objects and prohibits the payment of any dividend to its members.",
+    "explanation": "An association not for profit is granted a license by the SECP provided it applies its profits in promoting its objects and expressly prohibits the payment of any dividend to its members."
+  },
+  {
+    "id": "v2c1q4",
+    "chapter": 1,
+    "chapterTitle": "Company: Introduction, types and registration",
+    "question": "Which of the following bodies corporate is explicitly EXCLUDED from the definition of a 'company' under the Companies Act, 2017?",
+    "options": [
+      "A) A single member company.",
+      "B) A public unlisted company.",
+      "C) A co-operative society registered under the relevant society laws.",
+      "D) A company limited by guarantee."
+    ],
+    "correctAnswer": "C) A co-operative society registered under the relevant society laws.",
+    "explanation": "The definition of a body corporate includes companies, but explicitly excludes co-operative societies registered under any law relating to co-operative societies."
+  },
+  {
+    "id": "v2c1q5",
+    "chapter": 1,
+    "chapterTitle": "Company: Introduction, types and registration",
+    "question": "Alpha Limited holds 51% of the voting shares in Beta Limited. Beta Limited holds 60% of the voting shares in Gamma Limited. What is the legal relationship between Alpha Limited and Gamma Limited?",
+    "options": [
+      "A) There is no legal relationship between Alpha and Gamma.",
+      "B) Gamma Limited is deemed to be a subsidiary of Alpha Limited.",
+      "C) Gamma Limited is the holding company of Alpha Limited.",
+      "D) Alpha and Gamma are merely associated companies, not holding/subsidiary."
+    ],
+    "correctAnswer": "B) Gamma Limited is deemed to be a subsidiary of Alpha Limited.",
+    "explanation": "A company is deemed to be a subsidiary of another if the holding company controls it either directly or through one or more of its subsidiaries. Since Alpha controls Beta, and Beta controls Gamma, Gamma is a subsidiary of Alpha."
+  },
+  {
+    "id": "v2c2q1",
+    "chapter": 2,
+    "chapterTitle": "Memorandum and articles",
+    "question": "The promoters of Zenith Traders submitted an application to the registrar for the reservation of their proposed company name. The registrar refused the application. What is the immediate legal remedy available to the promoters?",
+    "options": [
+      "A) They must select a new name and wait 60 days to reapply.",
+      "B) They can appeal to the High Court within 15 days.",
+      "C) They can prefer an appeal to the Commission within 30 days of the order of refusal.",
+      "D) They can appeal directly to the Prime Minister's office."
+    ],
+    "correctAnswer": "C) They can prefer an appeal to the Commission within 30 days of the order of refusal.",
+    "explanation": "If the registrar refuses to reserve a name, the aggrieved person may prefer an appeal to the Commission (SECP) within 30 days. The Commission's order on this matter is final."
+  },
+  {
+    "id": "v2c2q2",
+    "chapter": 2,
+    "chapterTitle": "Memorandum and articles",
+    "question": "Which of the following clauses in a company's Memorandum of Association CANNOT be altered during the entire lifetime of the company?",
+    "options": [
+      "A) The Authorized Capital Clause",
+      "B) The Registered Office Clause",
+      "C) The Principal Line of Business Clause",
+      "D) The Subscription Clause"
+    ],
+    "correctAnswer": "D) The Subscription Clause",
+    "explanation": "While capital, registered office, and business clauses can be altered by following proper legal procedures (special resolutions), the subscription clause cannot be altered during the lifetime of the company."
+  },
+  {
+    "id": "v2c2q3",
+    "chapter": 2,
+    "chapterTitle": "Memorandum and articles",
+    "question": "BlueBird Limited wants to shift its registered office from Lahore (Punjab) to Peshawar (KPK). Which of the following sets of approvals is mandatory for this move?",
+    "options": [
+      "A) An ordinary resolution and approval from the local mayor.",
+      "B) A special resolution and confirmation from the Commission (SECP).",
+      "C) A special resolution and approval from the High Court.",
+      "D) Only a board resolution is required."
+    ],
+    "correctAnswer": "B) A special resolution and confirmation from the Commission (SECP).",
+    "explanation": "Shifting a registered office from one province to another requires the passing of a special resolution by the members, followed by formal confirmation from the Commission on a petition."
+  },
+  {
+    "id": "v2c2q4",
+    "chapter": 2,
+    "chapterTitle": "Memorandum and articles",
+    "question": "Upon incorporation, three founding members of a private limited company signed the Memorandum of Association, undertaking to purchase 10,000 shares each at Rs. 10. What is the legal status of this undertaking?",
+    "options": [
+      "A) It is merely a declaration of intent with no financial binding.",
+      "B) The amount of Rs. 100,000 each becomes a debt due from them to the company, payable in the time/manner notified by the Commission.",
+      "C) They can cancel this undertaking within 30 days of incorporation.",
+      "D) The debt is payable only when the company makes a profit."
+    ],
+    "correctAnswer": "B) The amount of Rs. 100,000 each becomes a debt due from them to the company, payable in the time/manner notified by the Commission.",
+    "explanation": "The money payable by subscribers of the memorandum for their shares becomes a legal debt due from them to the company, payable according to the Commission's notifications."
+  },
+  {
+    "id": "v2c2q5",
+    "chapter": 2,
+    "chapterTitle": "Memorandum and articles",
+    "question": "A member of a company sends a written request accompanied by the prescribed fee to the company secretary, asking for a copy of the Articles of Association. What is the maximum time limit for the company to supply this copy?",
+    "options": [
+      "A) 7 days",
+      "B) 14 days",
+      "C) 21 days",
+      "D) 30 days"
+    ],
+    "correctAnswer": "B) 14 days",
+    "explanation": "Under the Companies Act, a company must supply a copy of the memorandum and articles to a member within 14 days of receiving the request and the prescribed fee."
+  },
+  {
+    "id": "v2c2q6",
+    "chapter": 2,
+    "chapterTitle": "Memorandum and articles",
+    "question": "Tariq wishes to verify the internal regulations of Horizon Limited before investing. He asks the company for a copy of its Articles of Association but is not a member. Is the company bound to provide it to him?",
+    "options": [
+      "A) Yes, because it is a public document.",
+      "B) Yes, if he pays double the prescribed fee.",
+      "C) No, the company is only legally bound to forward a copy to its existing members upon request.",
+      "D) No, the Articles of Association are confidential and never shared."
+    ],
+    "correctAnswer": "C) No, the company is only legally bound to forward a copy to its existing members upon request.",
+    "explanation": "The right to demand and receive a copy of the memorandum and articles of association directly from the company upon payment of a fee is specifically granted to the members of the company, not unconcerned outsiders."
+  },
+  {
+    "id": "v2c3q1",
+    "chapter": 3,
+    "chapterTitle": "Directors",
+    "question": "The board of directors of Sapphire Limited, a listed company, is preparing for its upcoming elections. What is the statutory deadline for the existing board to fix the number of directors to be elected?",
+    "options": [
+      "A) At least 14 days before the convening of the general meeting.",
+      "B) At least 21 days before the convening of the general meeting.",
+      "C) Not later than 35 days before the convening of the general meeting.",
+      "D) On the exact day of the general meeting."
+    ],
+    "correctAnswer": "C) Not later than 35 days before the convening of the general meeting.",
+    "explanation": "The directors must fix the number of directors to be elected for the next term not later than 35 days before the convening of the general meeting at which the elections are to be held."
+  },
+  {
+    "id": "v2c3q2",
+    "chapter": 3,
+    "chapterTitle": "Directors",
+    "question": "Atab is an elected director in a listed company. He recently suffered a severe medical condition and was declared by a competent court to be of unsound mind. What is the immediate effect on his directorship?",
+    "options": [
+      "A) He is given a 30-day grace period to recover.",
+      "B) He ipso facto (automatically) ceases to hold the office of director.",
+      "C) He is suspended with half pay until the next AGM.",
+      "D) The shareholders must vote to remove him."
+    ],
+    "correctAnswer": "B) He ipso facto (automatically) ceases to hold the office of director.",
+    "explanation": "A director ipso facto ceases to hold office if they become ineligible under the law, which includes being declared of unsound mind by a competent court."
+  },
+  {
+    "id": "v2c3q3",
+    "chapter": 3,
+    "chapterTitle": "Directors",
+    "question": "A casual vacancy occurs on the board of a listed company due to the sudden resignation of a director. What is the legal requirement for filling this vacancy?",
+    "options": [
+      "A) It must be filled by the remaining directors within 90 days, and the new director holds office for the remainder of the term.",
+      "B) It must be left vacant until the next annual general meeting.",
+      "C) The shareholders must hold an extraordinary general meeting within 30 days.",
+      "D) The SECP will automatically appoint a replacement."
+    ],
+    "correctAnswer": "A) It must be filled by the remaining directors within 90 days, and the new director holds office for the remainder of the term.",
+    "explanation": "Any casual vacancy on the board of a listed company must be filled by the directors within 90 days. The person appointed holds office for the remainder of the term of the director in whose place they were appointed."
+  },
+  {
+    "id": "v2c3q4",
+    "chapter": 3,
+    "chapterTitle": "Directors",
+    "question": "In a public unlisted company, a resolution is moved in a general meeting to remove an elected director, Farhan. The company has 10 million shares and 5 directors. In the last election, the candidate who secured the lowest number of votes to successfully become a director received 1.5 million votes. How many votes does Farhan need to survive the removal resolution?",
+    "options": [
+      "A) More than 50% of the total shares.",
+      "B) Exactly 2 million votes.",
+      "C) A number of votes equal to or exceeding 1.5 million.",
+      "D) He cannot be removed before his term expires."
+    ],
+    "correctAnswer": "C) A number of votes equal to or exceeding 1.5 million.",
+    "explanation": "An elected director cannot be removed if the votes cast against the removal resolution equal or exceed the minimum number of votes that were sufficient to elect a director in the immediately preceding election (which is 1.5 million here)."
+  },
+  {
+    "id": "v2c3q5",
+    "chapter": 3,
+    "chapterTitle": "Directors",
+    "question": "What is the requirement for a person to be appointed as the Chief Executive Officer of a company regarding their membership?",
+    "options": [
+      "A) They must own at least 10% of the company's shares.",
+      "B) They must be an existing shareholder (member) of the company.",
+      "C) A person who is not a member of the company can be appointed as the Chief Executive.",
+      "D) They must be a founding subscriber of the memorandum."
+    ],
+    "correctAnswer": "C) A person who is not a member of the company can be appointed as the Chief Executive.",
+    "explanation": "The Chief Executive does not need to be an existing member/shareholder. If a non-member is appointed as CEO, they are deemed to be a director of the company for all intents and purposes."
+  },
+  {
+    "id": "v2c3q6",
+    "chapter": 3,
+    "chapterTitle": "Directors",
+    "question": "Under the Companies Act, 2017, how is the remuneration for a director for attending board meetings or performing extra services determined?",
+    "options": [
+      "A) By the SECP on an annual basis.",
+      "B) It is strictly prohibited; directors cannot receive remuneration.",
+      "C) By the directors themselves or the company in a general meeting, in accordance with the articles.",
+      "D) It is fixed at 1% of net profits."
+    ],
+    "correctAnswer": "C) By the directors themselves or the company in a general meeting, in accordance with the articles.",
+    "explanation": "The remuneration of a director for attending meetings or performing extra services is determined by the directors or the company in a general meeting, strictly in accordance with the provisions of the articles."
+  },
+  {
+    "id": "v2c3q7",
+    "chapter": 3,
+    "chapterTitle": "Directors",
+    "question": "The board of directors of Emerald Limited, a listed company, consists of 8 directors. What is the minimum quorum required to hold a valid board meeting?",
+    "options": [
+      "A) 2 directors",
+      "B) 3 directors",
+      "C) 4 directors",
+      "D) 5 directors"
+    ],
+    "correctAnswer": "C) 4 directors",
+    "explanation": "For a listed company, the quorum for a board meeting is not less than one-third of their number or 4, whichever is greater. One-third of 8 is ~2.6, so the minimum requirement defaults to 4."
+  },
+  {
+    "id": "v2c5q1",
+    "chapter": 5,
+    "chapterTitle": "Share capital and commencement of business",
+    "question": "Maroon (Private) Limited wants to raise capital by issuing shares to the general public. What must the company do regarding its status before it can proceed?",
+    "options": [
+      "A) It must issue a special private placement document.",
+      "B) It must convert its status into a public company and remove the word '(Private)' from its name.",
+      "C) It can raise capital from the public as long as it limits the investors to 50.",
+      "D) It must obtain a special waiver from the High Court."
+    ],
+    "correctAnswer": "B) It must convert its status into a public company and remove the word '(Private)' from its name.",
+    "explanation": "A private company is legally restricted from inviting the general public to subscribe to its shares. To do so, it must alter its memorandum and articles to convert into a public company, removing '(Private)' from its name."
+  },
+  {
+    "id": "v2c5q2",
+    "chapter": 5,
+    "chapterTitle": "Share capital and commencement of business",
+    "question": "Which of the following companies is NOT required to obtain a 'Certificate of Commencement of Business' before starting its operations?",
+    "options": [
+      "A) A newly incorporated public unlisted company.",
+      "B) A newly incorporated public listed company.",
+      "C) A private company.",
+      "D) A public company having share capital."
+    ],
+    "correctAnswer": "C) A private company.",
+    "explanation": "A private company, a company converted from private to public, and a company limited by guarantee not having share capital are exempted. They can commence business immediately upon incorporation."
+  },
+  {
+    "id": "v2c5q3",
+    "chapter": 5,
+    "chapterTitle": "Share capital and commencement of business",
+    "question": "If a public company decides not to issue shares to the general public initially, what document must it file with the registrar before commencing business?",
+    "options": [
+      "A) A Prospectus",
+      "B) A Statement in lieu of prospectus",
+      "C) A Directors' Declaration",
+      "D) A Statement of Affairs"
+    ],
+    "correctAnswer": "B) A Statement in lieu of prospectus",
+    "explanation": "If a public company does not issue a prospectus offering shares to the public, it must file a 'Statement in lieu of prospectus' with the registrar before it can obtain a certificate of commencement of business."
+  },
+  {
+    "id": "v2c5q4",
+    "chapter": 5,
+    "chapterTitle": "Share capital and commencement of business",
+    "question": "When a company issues different classes of shares (e.g., Class A and Class B), what is the statutory requirement regarding the voting rights attached to these shares?",
+    "options": [
+      "A) Class A must always have double the voting power of Class B.",
+      "B) The voting rights must be strictly proportionate to the paid-up value of the shares.",
+      "C) Only one class of shares is allowed to have voting rights.",
+      "D) Voting rights can vary, but they are granted to maintain a fair allocation of voting power among different classes."
+    ],
+    "correctAnswer": "D) Voting rights can vary, but they are granted to maintain a fair allocation of voting power among different classes.",
+    "explanation": "Different classes of shares may have varying voting rights, but the fundamental rationale is to maintain a fair allocation of voting power among the different classes of shareholders, not necessarily strictly proportionate to paid-up value if classes differ."
+  },
+  {
+    "id": "v2c5q5",
+    "chapter": 5,
+    "chapterTitle": "Share capital and commencement of business",
+    "question": "What is the legal definition of 'Nominal share capital'?",
+    "options": [
+      "A) The amount of capital actually received in the bank.",
+      "B) The maximum amount of share capital as authorized by the memorandum of association.",
+      "C) The capital held exclusively by the directors.",
+      "D) The minimum amount required to commence business."
+    ],
+    "correctAnswer": "B) The maximum amount of share capital as authorized by the memorandum of association.",
+    "explanation": "Nominal share capital (or authorized share capital) is the maximum amount of share capital that a company is authorized to issue as per its memorandum of association."
+  },
+  {
+    "id": "v2c5q6",
+    "chapter": 5,
+    "chapterTitle": "Share capital and commencement of business",
+    "question": "A company decides to alter its share capital by consolidating 10 shares of Rs. 10 each into 1 share of Rs. 100. What resolution is required to effect this alteration?",
+    "options": [
+      "A) An ordinary resolution",
+      "B) A special resolution",
+      "C) A resolution passed by creditors",
+      "D) A unanimous board resolution only"
+    ],
+    "correctAnswer": "B) A special resolution",
+    "explanation": "Any alteration to the share capital clause of the memorandum of association, including consolidation or sub-division of shares, requires the company to pass a special resolution."
+  },
+  {
+    "id": "v2c7q1",
+    "chapter": 7,
+    "chapterTitle": "Meetings and resolutions",
+    "question": "A public company held its incorporation on 1 February 2024. By what date must the company hold its very first Annual General Meeting (AGM)?",
+    "options": [
+      "A) By 1 February 2025 (within 12 months)",
+      "B) By 1 June 2025 (within 16 months)",
+      "C) By 1 August 2025 (within 18 months)",
+      "D) Within 120 days of its first financial year close."
+    ],
+    "correctAnswer": "B) By 1 June 2025 (within 16 months)",
+    "explanation": "The first AGM of a company must be held within 16 months from the date of its incorporation. Subsequent AGMs are held once in every calendar year within 120 days following the close of the financial year."
+  },
+  {
+    "id": "v2c7q2",
+    "chapter": 7,
+    "chapterTitle": "Meetings and resolutions",
+    "question": "During a general meeting, a group of shareholders wants to demand a poll on a controversial resolution. What is the minimum requirement for their demand to be valid?",
+    "options": [
+      "A) They must hold at least 5% of the voting power.",
+      "B) They must hold not less than 10% of the voting power.",
+      "C) They must hold at least 25% of the voting power.",
+      "D) Any single member can demand a poll regardless of voting power."
+    ],
+    "correctAnswer": "B) They must hold not less than 10% of the voting power.",
+    "explanation": "Under the Companies Act, the chairman is bound to accept a demand for a poll if it is made by members present in person or by proxy holding not less than 10% of the voting power."
+  },
+  {
+    "id": "v2c7q3",
+    "chapter": 7,
+    "chapterTitle": "Meetings and resolutions",
+    "question": "An Extraordinary General Meeting (EGM) of an unlisted public company has been called. What constitutes a valid quorum for this meeting, assuming the articles do not provide for a larger number?",
+    "options": [
+      "A) Not less than 10 members present personally, holding 25% of voting power.",
+      "B) Not less than 2 members present personally, representing not less than 25% of the total voting power.",
+      "C) 3 members holding 10% voting power.",
+      "D) 5 members holding 51% voting power."
+    ],
+    "correctAnswer": "B) Not less than 2 members present personally, representing not less than 25% of the total voting power.",
+    "explanation": "For a public unlisted company, the statutory quorum is not less than 2 members present personally (or through video-link), who represent not less than 25% of the total voting power."
+  },
+  {
+    "id": "v2c7q4",
+    "chapter": 7,
+    "chapterTitle": "Meetings and resolutions",
+    "question": "If a meeting is called by the Commission (SECP) due to a default in holding the AGM, what special rule regarding the quorum may the Commission direct?",
+    "options": [
+      "A) The quorum requirement is completely waived.",
+      "B) The meeting must have 100% attendance to be valid.",
+      "C) One member of the company present in person or by proxy shall be deemed to constitute a meeting.",
+      "D) Only directors can form the quorum."
+    ],
+    "correctAnswer": "C) One member of the company present in person or by proxy shall be deemed to constitute a meeting.",
+    "explanation": "When the Commission directs the calling of a meeting, it may give consequential directions, including a direction that one member present in person or by proxy shall be deemed to constitute a meeting."
+  },
+  {
+    "id": "v2c7q5",
+    "chapter": 7,
+    "chapterTitle": "Meetings and resolutions",
+    "question": "Shareholder Ali requested a certified copy of the minutes of the 10th AGM held on 5 May. He submitted his request on 10 May. Under the law, when is Ali entitled to receive this copy?",
+    "options": [
+      "A) Immediately on the day of request.",
+      "B) He must wait until 7 days have passed from the date of the meeting, after which the company has 7 days to furnish it.",
+      "C) Within 30 days of the meeting.",
+      "D) Members are not entitled to receive AGM minutes."
+    ],
+    "correctAnswer": "B) He must wait until 7 days have passed from the date of the meeting, after which the company has 7 days to furnish it.",
+    "explanation": "A member is entitled to a copy of the minutes at any time *after 7 days* from the meeting. Once a valid request is made after this period, the company must furnish the copy within 7 days of the request."
+  },
+  {
+    "id": "v2c7q6",
+    "chapter": 7,
+    "chapterTitle": "Meetings and resolutions",
+    "question": "If members holding 10% voting power requisition an EGM, but the directors fail to call the meeting within 21 days, what action can the requisitionists take?",
+    "options": [
+      "A) They can sue the directors for fraud.",
+      "B) They can call the meeting themselves, provided it is held within 90 days from the date of the deposit of the requisition.",
+      "C) They must appeal to the SECP to call the meeting.",
+      "D) The requisition automatically expires."
+    ],
+    "correctAnswer": "B) They can call the meeting themselves, provided it is held within 90 days from the date of the deposit of the requisition.",
+    "explanation": "If directors default, the requisitionists themselves can call the meeting, but it must be held and conducted within 90 days from the date the requisition was originally deposited."
+  },
+  {
+    "id": "v2c7q7",
+    "chapter": 7,
+    "chapterTitle": "Meetings and resolutions",
+    "question": "A special resolution requires a notice period of at least 21 days. Can a special resolution be passed with a shorter notice period?",
+    "options": [
+      "A) No, the 21-day period is absolute.",
+      "B) Yes, if all the members entitled to attend and vote agree to the shorter notice.",
+      "C) Yes, if the SECP grants permission.",
+      "D) Yes, if the board of directors unanimously agree."
+    ],
+    "correctAnswer": "B) Yes, if all the members entitled to attend and vote agree to the shorter notice.",
+    "explanation": "A special resolution generally requires a 21-day notice, but it can be passed with shorter notice if all the members entitled to attend and vote so agree."
+  },
+  {
+    "id": "v2c8q1",
+    "chapter": 8,
+    "chapterTitle": "Distribution of profits",
+    "question": "The Board of Directors of Steel Mills Ltd proposed a final dividend of Rs. 5 per share. During the AGM, the shareholders feel the company made exceptional profits and want to increase the dividend to Rs. 8 per share. Can they do this?",
+    "options": [
+      "A) Yes, by passing a special resolution.",
+      "B) Yes, because shareholders are the owners of the profit.",
+      "C) No, members in a general meeting cannot increase the amount of dividend proposed by the directors.",
+      "D) No, unless the auditors approve the increase."
+    ],
+    "correctAnswer": "C) No, members in a general meeting cannot increase the amount of dividend proposed by the directors.",
+    "explanation": "Members at an AGM have the right to accept, reject, or decrease the dividend recommended by the board of directors, but they strictly cannot increase it."
+  },
+  {
+    "id": "v2c8q2",
+    "chapter": 8,
+    "chapterTitle": "Distribution of profits",
+    "question": "An interim dividend is deemed to have been declared when:",
+    "options": [
+      "A) It is approved by the members in an AGM.",
+      "B) The board of directors passes a resolution approving it.",
+      "C) The money is actually transferred to the shareholders' accounts.",
+      "D) The SECP is notified of the profit."
+    ],
+    "correctAnswer": "B) The board of directors passes a resolution approving it.",
+    "explanation": "Unlike a final dividend which is declared by members at an AGM, an interim dividend is declared by the board of directors and is deemed declared on the date the board approves it."
+  },
+  {
+    "id": "v2c8q3",
+    "chapter": 8,
+    "chapterTitle": "Distribution of profits",
+    "question": "If the Chief Executive Officer (CEO) of a listed company willfully delays the payment of a declared dividend beyond the stipulated 10 working days, what is the statutory penalty?",
+    "options": [
+      "A) Only a fine up to Rs. 5 million.",
+      "B) Imprisonment up to 2 years, a fine up to Rs. 5 million, and ineligibility to be a director/CEO for 5 years.",
+      "C) Dismissal from the company without further legal action.",
+      "D) Personal liability to pay the dividend from their own pocket."
+    ],
+    "correctAnswer": "B) Imprisonment up to 2 years, a fine up to Rs. 5 million, and ineligibility to be a director/CEO for 5 years.",
+    "explanation": "The law takes dividend delays seriously. The CEO can face up to 2 years imprisonment, a fine up to Rs. 5 million, and is rendered ineligible to be a director or CEO of any company for the next 5 years."
+  },
+  {
+    "id": "v2c8q4",
+    "chapter": 8,
+    "chapterTitle": "Distribution of profits",
+    "question": "A company revalues its investment property, generating an unrealized gain of Rs. 10 million on its income statement. Can the company declare a cash dividend out of this gain?",
+    "options": [
+      "A) Yes, because it is recognized in the profit or loss account.",
+      "B) Yes, if the auditors approve it.",
+      "C) No, dividend cannot be paid out of unrealized gains on investment property.",
+      "D) Yes, but only as a stock dividend (bonus shares)."
+    ],
+    "correctAnswer": "C) No, dividend cannot be paid out of unrealized gains on investment property.",
+    "explanation": "Dividends can only be paid out of realized profits. Unrealized gains, such as the revaluation of investment property under fair value models, cannot be used to distribute cash dividends."
+  },
+  {
+    "id": "v2c8q5",
+    "chapter": 8,
+    "chapterTitle": "Distribution of profits",
+    "question": "For what maximum continuous duration can a company close its register of members in a single year to process dividend payments?",
+    "options": [
+      "A) 10 days",
+      "B) 15 days",
+      "C) 30 days in the whole year",
+      "D) 45 days in the whole year"
+    ],
+    "correctAnswer": "C) 30 days in the whole year",
+    "explanation": "A company may close its register of members for any period or periods not exceeding 30 days in the whole year, after giving not less than 7 days' previous notice."
+  },
+  {
+    "id": "v2c9q1",
+    "chapter": 9,
+    "chapterTitle": "Investments and disclosure of interest",
+    "question": "Holding Company (HC) wishes to make a significant financial investment in its Associated Company (AC). What is the primary legal requirement for HC to authorize this investment?",
+    "options": [
+      "A) Approval of the board of directors only.",
+      "B) An ordinary resolution passed at the AGM.",
+      "C) A special resolution passed by the members.",
+      "D) Prior approval from the High Court."
+    ],
+    "correctAnswer": "C) A special resolution passed by the members.",
+    "explanation": "A company can only make an investment in an associated company under the authority of a special resolution which indicates the nature, period, amount of investment, and terms attached."
+  },
+  {
+    "id": "v2c9q2",
+    "chapter": 9,
+    "chapterTitle": "Investments and disclosure of interest",
+    "question": "Zakir is a director in Company A. He has been newly appointed as a director in Company B. Because of Zakir's common directorship, Company A and Company B are now legally defined as:",
+    "options": [
+      "A) Holding and Subsidiary Companies",
+      "B) Associated Companies",
+      "C) Merged Entities",
+      "D) Joint Ventures"
+    ],
+    "correctAnswer": "B) Associated Companies",
+    "explanation": "Entities become associated companies or associated undertakings if they have common directorship (i.e., a person is a director in both), meaning they are under common management or control."
+  },
+  {
+    "id": "v2c9q3",
+    "chapter": 9,
+    "chapterTitle": "Investments and disclosure of interest",
+    "question": "A financial institution nominated Mr. Kamal as a director on the board of Zenith Textiles due to a major loan agreement. Does this nomination automatically make Zenith Textiles an 'associated company' of the financial institution?",
+    "options": [
+      "A) Yes, because there is a common director.",
+      "B) Yes, because the bank controls the loan.",
+      "C) No, a person's directorship nominated by a financial institution is specifically excluded when determining associated status.",
+      "D) No, unless Mr. Kamal also owns 10% shares."
+    ],
+    "correctAnswer": "C) No, a person's directorship nominated by a financial institution is specifically excluded when determining associated status.",
+    "explanation": "The law provides specific exceptions: directorships resulting from nominations by creditors (like financial institutions) or the government do not make the entities associated companies."
+  },
+  {
+    "id": "v2c9q4",
+    "chapter": 9,
+    "chapterTitle": "Investments and disclosure of interest",
+    "question": "Director Ahmed discovers that his company is about to enter into a large supply contract with a vendor owned by his wife. What is Ahmed's legal duty regarding this contract?",
+    "options": [
+      "A) He must resign from the board immediately.",
+      "B) He must disclose his interest to the board and obtain prior approval before the contract is signed.",
+      "C) He can sign the contract first and inform the board at the next meeting.",
+      "D) He has no duty since the vendor is legally a separate entity."
+    ],
+    "correctAnswer": "B) He must disclose his interest to the board and obtain prior approval before the contract is signed.",
+    "explanation": "A director who is directly or indirectly interested in a contract must disclose the nature of their interest to the board. The contract requires prior approval from the board without the interested director's participation."
+  },
+  {
+    "id": "v2c10q1",
+    "chapter": 10,
+    "chapterTitle": "Accounts and annual return",
+    "question": "A listed company's financial year ended on 30 June. What is the statutory deadline for preparing and laying its annual audited financial statements before the members in the AGM?",
+    "options": [
+      "A) Within 60 days of the year-end.",
+      "B) Within 90 days of the year-end.",
+      "C) Within 120 days of the year-end.",
+      "D) Within 160 days of the year-end."
+    ],
+    "correctAnswer": "C) Within 120 days of the year-end.",
+    "explanation": "Subsequent to the first financial statements, a company must prepare its annual financial statements within 120 days following the close of its financial year."
+  },
+  {
+    "id": "v2c10q2",
+    "chapter": 10,
+    "chapterTitle": "Accounts and annual return",
+    "question": "What specific requirement applies to the second quarter (half-yearly) financial statements of a listed company that does not apply to the first and third quarters?",
+    "options": [
+      "A) They must be sent to the Prime Minister.",
+      "B) They must be subjected to a 'limited scope review' by the statutory auditors.",
+      "C) They must be printed in three different languages.",
+      "D) They must include a full 10-year financial forecast."
+    ],
+    "correctAnswer": "B) They must be subjected to a 'limited scope review' by the statutory auditors.",
+    "explanation": "For listed companies, the cumulative figures for the half year (second quarter) must be subjected to a limited scope review by the statutory auditors. This is not required for Q1 and Q3."
+  },
+  {
+    "id": "v2c10q3",
+    "chapter": 10,
+    "chapterTitle": "Accounts and annual return",
+    "question": "Holding Company (HC) acquired Subsidiary Company (SC). HC's financial year ends on 31 December, while SC's ends on 30 June. What must SC do regarding its financial year?",
+    "options": [
+      "A) Nothing, it can maintain its original year-end.",
+      "B) It must apply to the SECP for a permanent exemption.",
+      "C) It must ensure its financial year coincides with HC (i.e., change to 31 December), unless valid reasons exist against it.",
+      "D) HC must change its year-end to match SC."
+    ],
+    "correctAnswer": "C) It must ensure its financial year coincides with HC (i.e., change to 31 December), unless valid reasons exist against it.",
+    "explanation": "To facilitate consolidated financial statements, the board of a subsidiary company must ensure its financial year coincides with that of the holding company, barring valid contrary reasons."
+  },
+  {
+    "id": "v2c10q4",
+    "chapter": 10,
+    "chapterTitle": "Accounts and annual return",
+    "question": "For how long is a company legally obligated to preserve its books of accounts and payment vouchers?",
+    "options": [
+      "A) 5 years immediately preceding the financial year.",
+      "B) 7 years immediately preceding the financial year.",
+      "C) 10 years immediately preceding the financial year.",
+      "D) Perpetually."
+    ],
+    "correctAnswer": "C) 10 years immediately preceding the financial year.",
+    "explanation": "The Companies Act mandates that books of accounts and all payment vouchers must be preserved in good order for a period of at least 10 years immediately preceding a financial year."
+  },
+  {
+    "id": "v2c10q5",
+    "chapter": 10,
+    "chapterTitle": "Accounts and annual return",
+    "question": "In a listed company, who is legally required to sign the 'Statement of Compliance'?",
+    "options": [
+      "A) The external auditor only.",
+      "B) The Chief Financial Officer and Company Secretary.",
+      "C) The Chief Executive and a director.",
+      "D) The Chairman of the Board only."
+    ],
+    "correctAnswer": "C) The Chief Executive and a director.",
+    "explanation": "The statement of compliance, which is required for listed companies, must be signed by the chief executive and a director of the company."
+  },
+  {
+    "id": "v2c10q6",
+    "chapter": 10,
+    "chapterTitle": "Accounts and annual return",
+    "question": "If a private limited company has a paid-up capital of Rs. 2 million, what exemption does it enjoy regarding its annual return if there are no changes from the previous year?",
+    "options": [
+      "A) It is exempt from holding an AGM.",
+      "B) It need not file an annual return but must simply inform the registrar that there is no change in particulars (Form C).",
+      "C) It does not have to file anything at all.",
+      "D) It is exempt from keeping books of accounts."
+    ],
+    "correctAnswer": "B) It need not file an annual return but must simply inform the registrar that there is no change in particulars (Form C).",
+    "explanation": "A private company with paid-up capital not exceeding Rs. 3 million is not required to file an annual return if there's no change in particulars; it just needs to intimate the registrar using the specified form."
+  }
+]
