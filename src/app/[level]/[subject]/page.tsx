@@ -72,7 +72,7 @@ export default function SubjectHome() {
       label: "Random Mock",
       icon: <Shuffle className="w-5 h-5" />,
       href: `/${level}/${subjectId}/quiz?mode=random`,
-      desc: "10 random questions under exam conditions. Great for warm-ups.",
+      desc: `${level.toLowerCase() === "prc" ? "50" : "10"} random questions under exam conditions. Great for warm-ups.`,
       cta: "Start Mock",
       color: "#a78bfa",
       bg: "rgba(167,139,250,0.10)",

@@ -91,8 +91,9 @@ export default function QuizInterface({ mode, chapter }: QuizInterfaceProps) {
       return;
     }
     let filtered = [...allQuestions];
+    const mockSize = level.toLowerCase() === "prc" ? 50 : 10;
     if (mode === "topical" && chapter) filtered = filtered.filter((q) => q.chapter === chapter);
-    else if (mode === "random") filtered = filtered.sort(() => Math.random() - 0.5).slice(0, 10);
+    else if (mode === "random") filtered = filtered.sort(() => Math.random() - 0.5).slice(0, mockSize);
     else if (mode === "flagged") filtered = filtered.filter((q) => (progress.flaggedQuestionIds || []).includes(q.id));
     setQuestions(filtered);
     setCurrentIndex(0); setScore(0); setCurrentStreak(0); setIncorrectIds([]); setIsFinished(false);
@@ -258,7 +259,7 @@ export default function QuizInterface({ mode, chapter }: QuizInterfaceProps) {
                 setCurrentIndex(0); setScore(0); setCurrentStreak(0);
                 setIncorrectIds([]); setIsFinished(false); setIsRetryMode(false);
                 if (mode === "all") { const s = [...allQuestions].sort(() => Math.random() - 0.5); setQuestions(s); updateMarathonState(s.map(q => q.id), 0, 0, subjectId); }
-                else if (mode === "random") setQuestions([...allQuestions].sort(() => Math.random() - 0.5).slice(0, 10));
+                else if (mode === "random") setQuestions([...allQuestions].sort(() => Math.random() - 0.5).slice(0, level.toLowerCase() === "prc" ? 50 : 10));
                 else if (mode === "flagged") setQuestions(allQuestions.filter(q => (progress.flaggedQuestionIds || []).includes(q.id)));
               }}
               className="inline-flex items-center justify-center gap-2 font-bold rounded-xl px-5 py-3 text-sm cursor-pointer"
