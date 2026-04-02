@@ -200,9 +200,9 @@ function ListEditor({ items, onChange, placeholder }: { items: string[]; onChang
           {items.length > 1 && <button onClick={() => onChange(items.filter((_, j) => j !== i))} className="p-2.5 rounded-xl shrink-0" style={{ color: "#F87171", background: "rgba(248,113,113,0.08)", border: "1px solid rgba(248,113,113,0.2)" }}><Trash2 className="w-4 h-4" /></button>}
         </div>
       ))}
-      <button onClick={() => onChange([...items, ""])} className="flex items-center gap-2 text-sm font-semibold px-4 py-2 rounded-xl" style={{ color: "var(--green)", background: "rgba(61,179,113,0.08)", border: "1px solid rgba(61,179,113,0.15)" }}>
+      <motion.button whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }} onClick={() => onChange([...items, ""])} className="flex items-center gap-2 text-sm font-semibold px-4 py-2 rounded-xl" style={{ color: "var(--green)", background: "rgba(61,179,113,0.08)", border: "1px solid rgba(61,179,113,0.15)", cursor: "pointer" }}>
         <Plus className="w-4 h-4" /> Add
-      </button>
+      </motion.button>
     </div>
   );
 }
@@ -647,9 +647,17 @@ export default function CVMaker() {
       },
       steps: [
         { element: '#tour-form', popover: { title: '1. The Builder', description: 'Fill your details here. We have mapped the fields to exactly what Big 4 partners want to see.', side: "right", align: 'start' }},
-        { element: '#tour-ats', popover: { title: '2. ATS Score', description: 'Try to get this to 100%. We calculate your strength dynamically based on keywords and content length.', side: "left", align: 'start' }},
-        { element: '#tour-preview', popover: { title: '3. Live Preview', description: 'Watch your CV build instantly. We guarantee zero weird formatting.', side: "left", align: 'center' }},
-        { element: '#tour-download', popover: { title: '4. Download', description: 'When you are ready, hit Download to get a pixel-perfect PDF.', side: "bottom", align: 'end' }},
+        { element: '#tour-steps', popover: { title: '2. Section Navigation', description: 'Jump between Personal, Education, and Experience sections here.', side: "bottom", align: 'center' }},
+        { element: '#tour-ats', popover: { title: '3. ATS Score', description: 'Try to get this to 100%. We calculate your strength dynamically based on keywords and content length.', side: "left", align: 'start' }},
+        { 
+          element: '#tour-appearance', 
+          popover: { title: '4. Templates & Design', description: 'Switch between "Executive" or "Classic" layouts and pick your brand color.', side: "right", align: 'start' },
+          onHighlightStarted: () => {
+            setStep(8); // Switch to Appearance step
+          }
+        },
+        { element: '#tour-preview', popover: { title: '5. Live Preview', description: 'Watch your CV build instantly. We guarantee zero weird formatting.', side: "left", align: 'center' }},
+        { element: '#tour-download', popover: { title: '6. Download PDF', description: 'When you are ready, hit Download to get a pixel-perfect, Big-4 ready PDF.', side: "bottom", align: 'end' }},
       ]
     });
     driverObj.drive();
@@ -666,13 +674,20 @@ export default function CVMaker() {
   const [dlEmail, setDlEmail] = useState("");
   const [dlSending, setDlSending] = useState(false);
   const [dlSent, setDlSent] = useState(false);
+  const [rendering, setRendering] = useState(false);
 
   // Auto-save on every change
   useEffect(() => {
     try { localStorage.setItem(LS_KEY, JSON.stringify(cv)); } catch {}
   }, [cv]);
 
-  const set = (field: keyof CVData, value: unknown) => setCv(p => ({ ...p, [field]: value }));
+  const set = (field: keyof CVData, value: unknown) => {
+    if (field === "layout" || field === "fontFamily" || field === "themeColor" || field === "spacing") {
+      setRendering(true);
+      setTimeout(() => setRendering(false), 450);
+    }
+    setCv(p => ({ ...p, [field]: value }));
+  };
 
   const handlePhoto = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
@@ -1038,7 +1053,7 @@ export default function CVMaker() {
 
       /* ── Appearance ── */
       case 8: return (
-        <div className="space-y-6">
+        <div className="space-y-6" id="tour-appearance">
           <Tip>
             <p className="font-bold mb-1" style={{ color: "var(--green)" }}>First impressions matter.</p>
             <p>Your CV is visually scanned in 6 seconds. Pick a clean, professional layout and subtle accent color.</p>
@@ -1056,32 +1071,38 @@ export default function CVMaker() {
 
           <div>
             <FieldLabel>CV Layout Template</FieldLabel>
-            <div className="grid grid-cols-2 gap-3 mt-2">
-              <button onClick={() => set("layout", "classic")}
+            <div className="grid grid-cols-2 gap-3 mt-2" id="tour-layouts">
+              <motion.button 
+                whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}
+                onClick={() => set("layout", "classic")}
                 className="px-4 py-3 rounded-xl text-sm transition-all text-left relative overflow-hidden"
-                style={{ background: cv.layout === "classic" ? "rgba(61,179,113,0.08)" : "var(--bg-3)", border: `1px solid ${cv.layout === "classic" ? "var(--green)" : "var(--border)"}`, color: "var(--text-1)" }}>
+                style={{ background: cv.layout === "classic" ? "rgba(61,179,113,0.08)" : "var(--bg-3)", border: `1px solid ${cv.layout === "classic" ? "var(--green)" : "var(--border)"}`, color: "var(--text-1)", cursor: "pointer" }}>
                 <div className="font-bold mb-1 flex justify-between items-center">Classic (2-Col) {cv.layout === "classic" && <CheckCircle2 className="w-4 h-4 text-green-500" />}</div>
                 <div className="text-xs text-gray-500">Industry standard split design</div>
-              </button>
-              <button onClick={() => set("layout", "executive")}
+              </motion.button>
+              <motion.button 
+                whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}
+                onClick={() => set("layout", "executive")}
                 className="px-4 py-3 rounded-xl text-sm transition-all text-left relative overflow-hidden"
-                style={{ background: cv.layout === "executive" ? "rgba(61,179,113,0.08)" : "var(--bg-3)", border: `1px solid ${cv.layout === "executive" ? "var(--green)" : "var(--border)"}`, color: "var(--text-1)" }}>
+                style={{ background: cv.layout === "executive" ? "rgba(61,179,113,0.08)" : "var(--bg-3)", border: `1px solid ${cv.layout === "executive" ? "var(--green)" : "var(--border)"}`, color: "var(--text-1)", cursor: "pointer" }}>
                 <div className="font-bold mb-1 flex justify-between items-center">Executive (1-Col) {cv.layout === "executive" && <CheckCircle2 className="w-4 h-4 text-green-500" />}</div>
                 <div className="text-xs text-gray-500">Elite single-column styling</div>
-              </button>
+              </motion.button>
             </div>
           </div>
 
           <div>
             <FieldLabel>Layout Spacing (Pinch-to-Fit)</FieldLabel>
             <Hint>Adjust this if your CV is spilling onto a second page or looks too empty.</Hint>
-            <div className="flex rounded-xl p-1 mt-2" style={{ background: "var(--bg-3)", border: "1px solid var(--border)" }}>
+            <div className="flex rounded-xl p-1 mt-2" style={{ background: "var(--bg-3)", border: "1px solid var(--border)" }} id="tour-spacing">
               {["compact", "normal", "relaxed"].map(sp => (
-                <button key={sp} onClick={() => set("spacing", sp as any)}
+                <motion.button 
+                  whileTap={{ scale: 0.95 }}
+                  key={sp} onClick={() => set("spacing", sp as any)}
                   className="flex-1 py-2.5 text-sm font-bold capitalize rounded-lg transition-all"
                   style={{ background: (cv.spacing || "normal") === sp ? "var(--bg)" : "transparent", color: (cv.spacing || "normal") === sp ? "var(--green)" : "var(--text-3)", boxShadow: (cv.spacing || "normal") === sp ? "0 2px 8px rgba(0,0,0,0.05)" : "none", border: (cv.spacing || "normal") === sp ? "1px solid var(--border)" : "none", cursor: "pointer" }}>
                   {sp}
-                </button>
+                </motion.button>
               ))}
             </div>
           </div>
@@ -1096,12 +1117,14 @@ export default function CVMaker() {
                 { name: "Georgia (Elegant)", val: "'Georgia',serif" },
                 { name: "Trebuchet MS (Clean)", val: "'Trebuchet MS',sans-serif" },
               ].map(f => (
-                <button key={f.val} onClick={() => set("fontFamily", f.val)}
+                <motion.button 
+                  whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}
+                  key={f.val} onClick={() => set("fontFamily", f.val)}
                   className="px-4 py-3 rounded-xl text-sm transition-all text-left flex items-center justify-between"
-                  style={{ fontFamily: f.val, background: cv.fontFamily === f.val ? "rgba(61,179,113,0.08)" : "var(--bg-3)", border: `1px solid ${cv.fontFamily === f.val ? "var(--green)" : "var(--border)"}`, color: "var(--text-1)" }}>
+                  style={{ fontFamily: f.val, background: cv.fontFamily === f.val ? "rgba(61,179,113,0.08)" : "var(--bg-3)", border: `1px solid ${cv.fontFamily === f.val ? "var(--green)" : "var(--border)"}`, color: "var(--text-1)", cursor: "pointer" }}>
                   <span>{f.name}</span>
-                  {cv.fontFamily === f.val && <span className="text-xs" style={{ color: "var(--green)" }}>✓</span>}
-                </button>
+                  {cv.fontFamily === f.val && <CheckCircle2 className="w-4 h-4 text-green-500" />}
+                </motion.button>
               ))}
             </div>
           </div>
@@ -1117,12 +1140,16 @@ export default function CVMaker() {
                 { name: "Deep Charcoal", hex: "#334155" },
                 { name: "Midnight Purple", hex: "#312e81" },
               ].map(c => (
-                <button key={c.hex} onClick={() => set("themeColor", c.hex)}
+                <motion.button 
+                  whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}
+                  key={c.hex} onClick={() => set("themeColor", c.hex)}
                   title={c.name}
-                  className="w-10 h-10 rounded-full flex items-center justify-center transition-all shadow-sm cursor-pointer"
-                  style={{ background: c.hex, border: cv.themeColor === c.hex ? "3px solid var(--green)" : "3px solid transparent", transform: cv.themeColor === c.hex ? "scale(1.15)" : "scale(1)" }}>
-                  {cv.themeColor === c.hex && <span style={{ color: "#fff", fontSize: 14 }}>✓</span>}
-                </button>
+                  className="w-10 h-10 rounded-full flex items-center justify-center transition-all shadow-sm cursor-pointer relative"
+                  style={{ background: c.hex, border: cv.themeColor === c.hex ? "3px solid var(--green)" : "3px solid transparent" }}>
+                  {cv.themeColor === c.hex && (
+                    <motion.span layoutId="color-check" style={{ color: "#fff", fontSize: 14 }}>✓</motion.span>
+                  )}
+                </motion.button>
               ))}
             </div>
           </div>
@@ -1158,9 +1185,12 @@ export default function CVMaker() {
             <p className="text-sm sm:text-base mb-6" style={{ color: "var(--text-2)", fontFamily: "var(--font-inter), sans-serif", lineHeight: 1.6 }}>
               Experience the pinnacle of CV building. Engineered exclusively for CA trainees, featuring dynamic ATS scoring and pristine MBB-tier printable layouts. 100% free forever.
             </p>
-            <button onClick={startTour} className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-bold text-sm mb-6 transition-transform hover:scale-[1.02]" style={{ background: "var(--text-1)", color: "var(--bg)", cursor: "pointer", boxShadow: "0 8px 30px rgba(255,255,255,0.12)" }}>
+            <motion.button 
+              whileHover={{ scale: 1.05 }} 
+              whileTap={{ scale: 0.95 }}
+              onClick={startTour} className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-bold text-sm mb-6 transition-transform shadow-lg" style={{ background: "var(--text-1)", color: "var(--bg)", cursor: "pointer" }}>
               <Play className="w-4 h-4" /> Take the Tour
-            </button>
+            </motion.button>
 
             {/* Demo notice */}
             {cv.name !== "" && (
@@ -1190,13 +1220,27 @@ export default function CVMaker() {
               <div className="md:hidden p-4 border-b border-[var(--border)]"><ATSScoreRing score={getCVScore(cv)} /></div>
               {/* Form top bar: step pills + Start Fresh */}
               <div className="flex items-center gap-2 px-2 pt-2 pb-0" style={{ borderBottom: "1px solid var(--border)" }}>
-                <div className="flex gap-1 flex-1 overflow-x-auto pb-2" style={{ scrollbarWidth: "none" as const }}>
+                <div className="flex gap-1 flex-1 overflow-x-auto pb-2 scroll-smooth no-scrollbar" id="tour-steps" 
+                  style={{ 
+                    scrollbarWidth: "none" as const, 
+                    WebkitOverflowScrolling: "touch",
+                    maskImage: "linear-gradient(to right, black 80%, transparent 100%)",
+                    WebkitMaskImage: "linear-gradient(to right, black 80%, transparent 100%)"
+                  }}>
                 {STEPS.map((s, i) => (
-                  <button key={s.id} onClick={() => setStep(i)}
-                    className="shrink-0 text-xs font-bold px-3 py-1.5 rounded-lg whitespace-nowrap transition-all"
-                    style={{ background: i === step ? "var(--green)" : i < step ? "rgba(61,179,113,0.12)" : "transparent", color: i === step ? "#fff" : i < step ? "var(--green)" : "var(--text-3)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
+                  <motion.button 
+                    whileTap={{ scale: 0.94 }}
+                    key={s.id} onClick={() => setStep(i)}
+                    className="shrink-0 text-[10px] font-bold px-3 py-1.5 rounded-lg whitespace-nowrap transition-all relative overflow-hidden"
+                    style={{ 
+                      background: step === i ? "var(--green)" : i < step ? "rgba(61,179,113,0.12)" : "transparent", 
+                      color: step === i ? "#fff" : i < step ? "var(--green)" : "var(--text-3)", 
+                      fontFamily: "var(--font-space-grotesk), sans-serif",
+                      boxShadow: step === i ? "0 0 15px rgba(61,179,113,0.3)" : "none"
+                    }}>
                     {i < step ? "✓" : `${i + 1}.`} {s.label}
-                  </button>
+                    {step === i && <motion.div layoutId="pill-glow" className="absolute inset-0 bg-white/10" />}
+                  </motion.button>
                 ))}
                 </div>
                 <button onClick={() => { if (cv.name !== "") { setCv(DEFAULT); localStorage.removeItem(LS_KEY); setRestored(false); } else { setCv(DEMO); } }}
@@ -1286,9 +1330,26 @@ export default function CVMaker() {
                 <Download className="w-3.5 h-3.5" /> Download PDF
               </button>
             </div>
-            <div className="rounded-2xl overflow-hidden" id="tour-preview" style={{ background: "#d8d8d8", padding: "16px", border: "1px solid var(--border)" }}>
+            <div className="rounded-2xl overflow-hidden relative" id="tour-preview" style={{ background: "#d8d8d8", padding: "16px", border: "1px solid var(--border)" }}>
               <div className="overflow-x-auto flex justify-center">
-                <ScaledPreview cv={cv} scale={0.72} />
+                <AnimatePresence mode="wait">
+                  {rendering ? (
+                    <motion.div key="skeleton" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
+                      className="rounded shadow-xl bg-white" style={{ width: 794 * 0.72, height: 1123 * 0.72 }}>
+                      <div className="p-10 space-y-4">
+                        <div className="h-10 w-1/2 bg-gray-100 rounded animate-pulse mx-auto" />
+                        <div className="h-4 w-2/3 bg-gray-50 rounded animate-pulse mx-auto" />
+                        <div className="pt-20 space-y-6">
+                           {[1,2,3,4,5].map(i => <div key={i} className="h-3 w-full bg-gray-50 rounded animate-pulse" />)}
+                        </div>
+                      </div>
+                    </motion.div>
+                  ) : (
+                    <motion.div key="cv" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.3 }}>
+                      <ScaledPreview cv={cv} scale={0.72} />
+                    </motion.div>
+                  )}
+                </AnimatePresence>
               </div>
             </div>
           </div>
@@ -1297,15 +1358,15 @@ export default function CVMaker() {
 
       {/* ── Mobile fullscreen preview modal ── */}
       {showPreview && (
-        <div className="xl:hidden fixed inset-0 z-50 flex flex-col" style={{ background: "rgba(0,0,0,0.9)" }}>
+        <div className="xl:hidden fixed inset-0 z-50 flex flex-col" style={{ height: "100svh", background: "rgba(0,0,0,0.9)" }}>
           {/* Header */}
           <div className="flex items-center justify-between px-4 py-3 shrink-0" style={{ background: "var(--bg-2)", borderBottom: "1px solid var(--border)" }}>
-            <p className="text-sm font-bold" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>CV Preview</p>
+            <p className="text-sm font-bold" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>CV Live Preview</p>
             <div className="flex items-center gap-2">
-              <button onClick={handlePrint} className="flex items-center gap-1.5 text-xs font-bold px-3 py-2 rounded-lg text-white"
+              <motion.button whileTap={{ scale: 0.9 }} onClick={handlePrint} className="flex items-center gap-1.5 text-xs font-bold px-3 py-2 rounded-lg text-white"
                 style={{ background: "var(--green)", cursor: "pointer" }}>
-                <Download className="w-3.5 h-3.5" /> Download PDF
-              </button>
+                <Download className="w-3.5 h-3.5" /> Download
+              </motion.button>
               <button onClick={() => setShowPreview(false)} className="p-2 rounded-lg"
                 style={{ background: "var(--bg-3)", color: "var(--text-2)", border: "1px solid var(--border)", cursor: "pointer" }}>
                 <X className="w-4 h-4" />
@@ -1314,8 +1375,22 @@ export default function CVMaker() {
           </div>
           {/* Content */}
           <div className="flex-1 overflow-auto p-3" style={{ background: "#cccccc" }}>
-            <div className="flex justify-center">
-              <ScaledPreview cv={cv} scale={mobileScale} />
+            <div className="flex justify-center min-h-full items-center">
+              <AnimatePresence mode="wait">
+                {rendering ? (
+                  <motion.div key="skeleton-mob" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
+                    className="bg-white rounded shadow-2xl" style={{ width: 794 * mobileScale, height: 1123 * mobileScale }}>
+                    <div className="p-4 space-y-2">
+                      <div className="h-4 w-1/2 bg-gray-100 rounded animate-pulse mx-auto" />
+                      <div className="h-10 w-full bg-gray-50 rounded" />
+                    </div>
+                  </motion.div>
+                ) : (
+                  <motion.div key="cv-mob" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+                    <ScaledPreview cv={cv} scale={mobileScale} />
+                  </motion.div>
+                )}
+              </AnimatePresence>
             </div>
             <p className="text-center text-xs mt-3 pb-4" style={{ color: "#666" }}>
               Pinch to zoom · This is exactly how your PDF will look
