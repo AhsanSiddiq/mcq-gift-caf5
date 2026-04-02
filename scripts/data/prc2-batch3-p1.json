@@ -1,0 +1,492 @@
+[
+  {
+    "id": "b3c7q1",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "In a standard 'less than' cumulative frequency ogive, which specific values are plotted along the horizontal x-axis?",
+    "options": [
+      "A) The class midpoints (class marks).",
+      "B) The lower class boundaries.",
+      "C) The upper class boundaries.",
+      "D) The absolute class frequencies."
+    ],
+    "correctAnswer": "C) The upper class boundaries.",
+    "explanation": "A 'less than' ogive graphically plots the cumulative frequencies against the upper boundaries of each class, representing the total number of observations falling below that specific upper limit."
+  },
+  {
+    "id": "b3c7q2",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "When constructing a box-and-whisker plot, the central rectangular 'box' visually represents which statistical measure?",
+    "options": [
+      "A) The total range of the dataset.",
+      "B) The interquartile range (IQR), containing the middle 50% of the data.",
+      "C) The variance of the sample.",
+      "D) The standard error of the mean."
+    ],
+    "correctAnswer": "B) The interquartile range (IQR), containing the middle 50% of the data.",
+    "explanation": "In a box-and-whisker plot, the central box spans from the lower quartile (Q1) to the upper quartile (Q3), visually representing the interquartile range where the middle 50% of the observations lie."
+  },
+  {
+    "id": "b3c7q3",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "In a stem-and-leaf display, what does the 'leaf' typically represent for a given data point?",
+    "options": [
+      "A) The leading leading digit(s) of the value.",
+      "B) The absolute frequency of the value.",
+      "C) The final, trailing digit of the data value.",
+      "D) The median of the specific row."
+    ],
+    "correctAnswer": "C) The final, trailing digit of the data value.",
+    "explanation": "In a stem-and-leaf plot, the 'stem' represents the leading digits (e.g., the tens place), while the 'leaf' represents the final trailing digit (e.g., the ones place) for each individual observation."
+  },
+  {
+    "id": "b3c7q4",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "What is the primary structural difference between a standard bar chart and a histogram?",
+    "options": [
+      "A) Histograms are used for qualitative data, while bar charts are used for quantitative data.",
+      "B) Bar charts strictly plot cumulative frequencies.",
+      "C) Histograms are drawn with no gaps between the bars to represent continuous grouped data, whereas bar charts have distinct gaps.",
+      "D) Histograms use circles instead of bars."
+    ],
+    "correctAnswer": "C) Histograms are drawn with no gaps between the bars to represent continuous grouped data, whereas bar charts have distinct gaps.",
+    "explanation": "Histograms visually represent continuous frequency distributions using class boundaries, meaning the bars touch each other without gaps. Bar charts represent discrete or categorical data and feature distinct gaps between the bars."
+  },
+  {
+    "id": "b3c7q5",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "A researcher utilizes population demographics published by the National Bureau of Statistics to conduct an economic analysis. This data is formally classified as:",
+    "options": [
+      "A) Primary Data",
+      "B) Secondary Data",
+      "C) Experimental Data",
+      "D) Unbounded Data"
+    ],
+    "correctAnswer": "B) Secondary Data",
+    "explanation": "Secondary data is data that was originally collected by someone else (like a government agency or another researcher) for a different primary purpose, but is being reused by the current analyst."
+  },
+  {
+    "id": "b3c7q6",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "In a pie chart representing a company's total expenses, if 'Rent' constitutes exactly 15% of the total costs, what will be the degree measure of its central angle?",
+    "options": [
+      "A) 15 degrees",
+      "B) 30 degrees",
+      "C) 54 degrees",
+      "D) 90 degrees"
+    ],
+    "correctAnswer": "C) 54 degrees",
+    "explanation": "A full pie chart represents 360 degrees. To find the angle for a specific component, multiply its percentage by 360. 0.15 * 360 = 54 degrees."
+  },
+  {
+    "id": "b3c7q7",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "When drawing a frequency polygon, the data points are mathematically plotted at the intersection of the frequencies and the:",
+    "options": [
+      "A) Lower class limits",
+      "B) Upper class boundaries",
+      "C) Class midpoints (class marks)",
+      "D) Cumulative percentages"
+    ],
+    "correctAnswer": "C) Class midpoints (class marks)",
+    "explanation": "A frequency polygon is created by plotting coordinate points at the exact midpoints of each class interval (which corresponds to the top center of each histogram bar) and connecting them with straight lines."
+  },
+  {
+    "id": "b3c7q8",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "Which of the following describes qualitative data that can be logically arranged into a meaningful sequence or ranking?",
+    "options": [
+      "A) Nominal data",
+      "B) Continuous data",
+      "C) Ordinal data",
+      "D) Time series data"
+    ],
+    "correctAnswer": "C) Ordinal data",
+    "explanation": "Ordinal data is a type of qualitative (categorical) data that possesses a natural, logical order or ranking, such as survey responses ranging from 'Poor' to 'Excellent'."
+  },
+  {
+    "id": "b3c7q9",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "In a frequency distribution featuring unequal class intervals, the height of a bar in a histogram must be rendered proportional to its:",
+    "options": [
+      "A) Absolute frequency",
+      "B) Frequency density",
+      "C) Class midpoint",
+      "D) Standard deviation"
+    ],
+    "correctAnswer": "B) Frequency density",
+    "explanation": "When class widths are unequal, plotting raw frequencies heavily distorts the visual area. To correct this, the height of the bars must represent the 'frequency density' (Frequency / Class Width)."
+  },
+  {
+    "id": "b3c7q10",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "The very last value calculated in a 'less than' cumulative frequency distribution column will logically always equal:",
+    "options": [
+      "A) The mean of the dataset.",
+      "B) Exactly 100.",
+      "C) The total number of observations (N) in the entire dataset.",
+      "D) The maximum class boundary."
+    ],
+    "correctAnswer": "C) The total number of observations (N) in the entire dataset.",
+    "explanation": "Because a 'less than' cumulative frequency column maintains a running total of all observations, the final class will inevitably encompass every single observation, equaling the total sample size (N)."
+  },
+  {
+    "id": "b3c7q11",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "Which specific graphical chart is best utilized to compare the varied components of two or more different categorical variables side-by-side?",
+    "options": [
+      "A) A simple frequency polygon",
+      "B) A multiple bar chart",
+      "C) A 'less than' ogive",
+      "D) A scatter diagram"
+    ],
+    "correctAnswer": "B) A multiple bar chart",
+    "explanation": "A multiple bar chart (or clustered bar chart) places bars representing different categories or years directly next to one another, making it highly effective for visual side-by-side comparisons."
+  },
+  {
+    "id": "b3c7q12",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "When raw, unorganized statistical data is manually arranged into ascending or descending order, the resulting structured format is called an:",
+    "options": [
+      "A) Ogive",
+      "B) Array",
+      "C) Aggregate",
+      "D) Index"
+    ],
+    "correctAnswer": "B) Array",
+    "explanation": "An array is the simplest method of organizing raw data, achieved simply by sorting the individual numerical values sequentially from smallest to largest (or vice versa)."
+  },
+  {
+    "id": "b3c7q13",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "Visually, a standard 'more than' ogive graph generally slopes in which direction?",
+    "options": [
+      "A) Upward from left to right.",
+      "B) Downward from left to right.",
+      "C) Horizontally straight.",
+      "D) Vertically straight."
+    ],
+    "correctAnswer": "B) Downward from left to right.",
+    "explanation": "Because it begins with the total number of observations (N) and subtracts frequencies as it moves through higher classes, a 'more than' cumulative frequency ogive always slopes downward."
+  },
+  {
+    "id": "b3c7q14",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "Why are strict 'class boundaries' established for grouped continuous data?",
+    "options": [
+      "A) To ensure there are distinct, countable gaps between consecutive classes.",
+      "B) To mathematically eliminate any gaps between consecutive classes, ensuring continuity.",
+      "C) To find the median quickly.",
+      "D) To convert nominal data into interval data."
+    ],
+    "correctAnswer": "B) To mathematically eliminate any gaps between consecutive classes, ensuring continuity.",
+    "explanation": "Class boundaries extend the discrete class limits by half a unit in both directions, mathematically closing the gap between classes so that continuous variables can be properly categorized without falling between groups."
+  },
+  {
+    "id": "b3c7q15",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "Which of the following variables would strictly be classified as a discrete quantitative variable?",
+    "options": [
+      "A) The exact speed of a moving train.",
+      "B) The volume of water in a reservoir.",
+      "C) The number of active bank accounts held by a customer.",
+      "D) The physical length of a produced textile."
+    ],
+    "correctAnswer": "C) The number of active bank accounts held by a customer.",
+    "explanation": "The number of bank accounts is a countable, discrete whole number. It is logically impossible to hold 2.75 bank accounts. Speed, volume, and length are measured continuously."
+  },
+  {
+    "id": "b3c8q1",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "A fundamental mathematical property of the arithmetic mean dictates that the sum of the deviations of all individual observations from their mean will always equal:",
+    "options": [
+      "A) Exactly zero",
+      "B) The standard deviation",
+      "C) The variance",
+      "D) The median"
+    ],
+    "correctAnswer": "A) Exactly zero",
+    "explanation": "The arithmetic mean acts as the exact mathematical center of gravity for a dataset. Therefore, the sum of the positive and negative deviations from the mean (\u2211(x - x\u0304)) perfectly cancel each other out to equal zero."
+  },
+  {
+    "id": "b3c8q2",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "A company has two departments. Department A has 20 employees with an average salary of Rs. 50,000. Department B has 30 employees with an average salary of Rs. 60,000. What is the combined mean salary?",
+    "options": [
+      "A) Rs. 55,000",
+      "B) Rs. 56,000",
+      "C) Rs. 58,000",
+      "D) Rs. 60,000"
+    ],
+    "correctAnswer": "B) Rs. 56,000",
+    "explanation": "The combined mean is found using (n1x\u03041 + n2x\u03042) / (n1 + n2). Here: (20 * 50,000) + (30 * 60,000) = 1,000,000 + 1,800,000 = 2,800,000. Dividing by the total 50 employees yields Rs. 56,000."
+  },
+  {
+    "id": "b3c8q3",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "Which specific graphical representation tool can be utilized by statisticians to accurately estimate the median of a grouped frequency distribution?",
+    "options": [
+      "A) A simple bar chart",
+      "B) A pie chart",
+      "C) An ogive (cumulative frequency curve)",
+      "D) A scatter diagram"
+    ],
+    "correctAnswer": "C) An ogive (cumulative frequency curve)",
+    "explanation": "The median (the 50th percentile) can be visually estimated by locating N/2 on the cumulative frequency y-axis of an ogive and drawing a line to the curve, then down to the x-axis."
+  },
+  {
+    "id": "b3c8q4",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "Which graphical charting tool is typically utilized to visibly locate the 'mode' of a grouped continuous frequency distribution?",
+    "options": [
+      "A) Histogram",
+      "B) Frequency Polygon",
+      "C) Ogive",
+      "D) Box and Whisker Plot"
+    ],
+    "correctAnswer": "A) Histogram",
+    "explanation": "The mode is the value with the highest frequency. In a histogram, the mode can be estimated by drawing diagonal lines inside the tallest bar connecting its top corners to the adjacent bars."
+  },
+  {
+    "id": "b3c8q5",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "In a moderately skewed statistical distribution, which empirical relationship accurately links the mean, median, and mode?",
+    "options": [
+      "A) Mean - Mode = 3(Mean - Median)",
+      "B) Mean = Median = Mode",
+      "C) Mode = 3(Mean) - 2(Median)",
+      "D) Median = 2(Mean - Mode)"
+    ],
+    "correctAnswer": "A) Mean - Mode = 3(Mean - Median)",
+    "explanation": "For moderately skewed distributions, Karl Pearson's empirical formula states that the distance between the mean and the mode is approximately three times the distance between the mean and the median."
+  },
+  {
+    "id": "b3c8q6",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "If a constant value of 8 is mathematically added to every single observation in a dataset, what will be the resulting effect on the dataset's variance?",
+    "options": [
+      "A) It will increase by 8.",
+      "B) It will increase by 64.",
+      "C) It will strictly remain unchanged.",
+      "D) It will be multiplied by 8."
+    ],
+    "correctAnswer": "C) It will strictly remain unchanged.",
+    "explanation": "Variance measures the spread or dispersion of data. Adding or subtracting a constant merely shifts the entire dataset (change of origin) without altering how spread out the individual points are from one another."
+  },
+  {
+    "id": "b3c8q7",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "If every observation in a sample is multiplied by 4, what will happen to the calculated standard deviation?",
+    "options": [
+      "A) It will remain unchanged.",
+      "B) It will be multiplied by 4.",
+      "C) It will be multiplied by 16.",
+      "D) It will increase by exactly 4 units."
+    ],
+    "correctAnswer": "B) It will be multiplied by 4.",
+    "explanation": "Standard deviation is heavily affected by a change of scale. If every value is multiplied by a constant 'k', the standard deviation of the new set will be multiplied by the absolute value of 'k'."
+  },
+  {
+    "id": "b3c8q8",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "An investment portfolio yields an average annual return of 12% with a standard deviation of 3%. What is the portfolio's Coefficient of Variation (CV)?",
+    "options": [
+      "A) 25%",
+      "B) 36%",
+      "C) 400%",
+      "D) 0.25%"
+    ],
+    "correctAnswer": "A) 25%",
+    "explanation": "The Coefficient of Variation (CV) measures relative dispersion and is calculated as (Standard Deviation / Mean) * 100. Here, (3 / 12) * 100 = 0.25 * 100 = 25%."
+  },
+  {
+    "id": "b3c8q9",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "If a dataset features a long, drawn-out tail of extreme outlier values strictly on the higher (right) side, the distribution is considered:",
+    "options": [
+      "A) Perfectly symmetrical",
+      "B) Negatively skewed",
+      "C) Positively skewed",
+      "D) Uniformly distributed"
+    ],
+    "correctAnswer": "C) Positively skewed",
+    "explanation": "A distribution with a long tail stretching to the right (toward higher positive numbers) is termed positively skewed. In this scenario, the extreme high values pull the mean higher than the median."
+  },
+  {
+    "id": "b3c8q10",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "When attempting to calculate the true average speed of a vehicle that travels a constant distance at multiple different speeds, which statistical mean is mathematically appropriate?",
+    "options": [
+      "A) The Arithmetic Mean",
+      "B) The Geometric Mean",
+      "C) The Harmonic Mean",
+      "D) The Weighted Mean"
+    ],
+    "correctAnswer": "C) The Harmonic Mean",
+    "explanation": "The harmonic mean is specifically designed for situations dealing with rates and ratios, such as calculating the true average speed of journeys spanning equal distances."
+  },
+  {
+    "id": "b3c8q11",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "What does the Third Quartile (Q3) of a dataset mathematically correspond to?",
+    "options": [
+      "A) The 25th Percentile",
+      "B) The 50th Percentile (Median)",
+      "C) The 75th Percentile",
+      "D) The absolute maximum value"
+    ],
+    "correctAnswer": "C) The 75th Percentile",
+    "explanation": "Quartiles divide data into four equal parts. The third quartile (Q3) marks the point where 75% of the data values lie strictly below it, making it identical to the 75th percentile."
+  },
+  {
+    "id": "b3c8q12",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "Which of the following is the correct formula to calculate the Semi-Interquartile Range (often termed Quartile Deviation)?",
+    "options": [
+      "A) Q3 - Q1",
+      "B) (Q3 - Q1) / 2",
+      "C) (Q3 + Q1) / 2",
+      "D) Q3 / Q1"
+    ],
+    "correctAnswer": "B) (Q3 - Q1) / 2",
+    "explanation": "The Interquartile Range is Q3 - Q1. The prefix 'semi' mathematically indicates that this value is halved, resulting in the standard formula (Q3 - Q1) / 2."
+  },
+  {
+    "id": "b3c8q13",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "What is the median of the following ungrouped dataset featuring an even number of observations: 14, 18, 22, 26?",
+    "options": [
+      "A) 18",
+      "B) 20",
+      "C) 22",
+      "D) 24"
+    ],
+    "correctAnswer": "B) 20",
+    "explanation": "For an even number of observations sorted in ascending order, the median is strictly the arithmetic average of the two central values. Here, (18 + 22) / 2 = 40 / 2 = 20."
+  },
+  {
+    "id": "b3c8q14",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "To properly average sequential rates of compounding growth over multiple years (such as population growth or compound interest), a statistician must use the:",
+    "options": [
+      "A) Harmonic Mean",
+      "B) Geometric Mean",
+      "C) Arithmetic Mean",
+      "D) Median"
+    ],
+    "correctAnswer": "B) Geometric Mean",
+    "explanation": "The geometric mean, found by multiplying 'n' growth values together and taking the nth root, is the only statistically accurate method to average figures that are actively compounding over time."
+  },
+  {
+    "id": "b3c8q15",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "Which statistical measure of relative dispersion is utilized to compare the intrinsic volatility of two different datasets that are measured in completely different units (e.g., comparing weight in kg to height in cm)?",
+    "options": [
+      "A) Standard Error",
+      "B) Absolute Variance",
+      "C) Coefficient of Variation",
+      "D) Interquartile Range"
+    ],
+    "correctAnswer": "C) Coefficient of Variation",
+    "explanation": "The Coefficient of Variation (CV) divides the standard deviation by the mean and expresses the result as a pure percentage, making it a unitless measure perfect for comparing wildly different datasets."
+  },
+  {
+    "id": "b3c9q1",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "When maintaining a long-term index series, what is the statistical process of 'base shifting'?",
+    "options": [
+      "A) Converting a price index into a quantity index.",
+      "B) Changing the reference period (the base year 100) to a more recent, economically relevant year.",
+      "C) Averaging the base year and current year prices.",
+      "D) Eliminating outliers from the index."
+    ],
+    "correctAnswer": "B) Changing the reference period (the base year 100) to a more recent, economically relevant year.",
+    "explanation": "Base shifting occurs when the original base year becomes obsolete due to changing consumer habits over time. The index is recalibrated so a more recent year acts as the new baseline of 100."
+  },
+  {
+    "id": "b3c9q2",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "How is 'Real Income' or true purchasing power mathematically calculated using the Consumer Price Index (CPI)?",
+    "options": [
+      "A) (Nominal Income \u00d7 CPI) / 100",
+      "B) Nominal Income - CPI",
+      "C) (Nominal Income / CPI) \u00d7 100",
+      "D) (CPI / Nominal Income) \u00d7 100"
+    ],
+    "correctAnswer": "C) (Nominal Income / CPI) \u00d7 100",
+    "explanation": "To strip away the effects of inflation and find true purchasing power, the nominal (raw) wage is divided by the current CPI and multiplied by 100. This is known as deflating the income."
+  },
+  {
+    "id": "b3c9q3",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "In index construction theory, what is Fisher's Ideal Index fundamentally defined as?",
+    "options": [
+      "A) The arithmetic mean of the Laspeyres and Paasche indices.",
+      "B) The geometric mean (square root of the product) of the Laspeyres and Paasche indices.",
+      "C) The simple aggregate of base year prices.",
+      "D) The harmonic mean of current quantities."
+    ],
+    "correctAnswer": "B) The geometric mean (square root of the product) of the Laspeyres and Paasche indices.",
+    "explanation": "Fisher's Ideal Index resolves the respective biases of the Laspeyres and Paasche indices by mathematically crossing them, taking the strict geometric mean of the two."
+  },
+  {
+    "id": "b3c9q4",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "A known statistical flaw of the Laspeyres price index is its tendency to mathematically:",
+    "options": [
+      "A) Understate the true rate of inflation.",
+      "B) Overstate the true rate of inflation because it ignores the fact that consumers substitute away from expensive goods.",
+      "C) Force prices to remain constant.",
+      "D) Deflate nominal wages too heavily."
+    ],
+    "correctAnswer": "B) Overstate the true rate of inflation because it ignores the fact that consumers substitute away from expensive goods.",
+    "explanation": "Because Laspeyres rigidly uses older, fixed base-year quantities, it assumes consumers buy the exact same amount of a good even after its price skyrockets, typically causing it to overstate actual inflation."
+  },
+  {
+    "id": "b3c9q5",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "If the sum of prices for three commodities in the base year was Rs. 50, and the sum of their prices in the current year is Rs. 75, what is the Simple Aggregate Price Index?",
+    "options": [
+      "A) 125",
+      "B) 150",
+      "C) 200",
+      "D) 250"
+    ],
+    "correctAnswer": "B) 150",
+    "explanation": "The simple aggregate method merely sums the current prices and divides by the sum of the base prices, multiplied by 100. Here, (75 / 50) * 100 = 150."
+  }
+]

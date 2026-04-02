@@ -1,0 +1,212 @@
+[
+  {
+    "id": "b3c11q1",
+    "chapter": 11,
+    "chapterTitle": "Probability",
+    "question": "A digital vault uses a 5-digit PIN code. The code can begin with any number except 0, 1, 2, and 3. If repetition of digits is strictly allowed, what is the exact probability that a randomly generated PIN begins with an 8 and ends with a 4?",
+    "options": [
+      "A) 1/40",
+      "B) 1/50",
+      "C) 1/60",
+      "D) 1/100"
+    ],
+    "correctAnswer": "C) 1/60",
+    "explanation": "The first digit has 6 valid options (4 through 9), so the probability of starting with an 8 is 1/6. The last digit has 10 valid options (0-9), so the probability of ending with a 4 is 1/10. Multiplying the independent probabilities: 1/6 * 1/10 = 1/60."
+  },
+  {
+    "id": "b3c11q2",
+    "chapter": 11,
+    "chapterTitle": "Probability",
+    "question": "In a corporate tournament, 5 athletes have an absolutely equal chance of winning. What is the theoretical mathematical probability that a spectator accurately predicts the top 3 finishers in their exact sequential order?",
+    "options": [
+      "A) 1/10",
+      "B) 1/15",
+      "C) 1/60",
+      "D) 1/120"
+    ],
+    "correctAnswer": "C) 1/60",
+    "explanation": "Because exact order matters, this is a permutation. The number of ways to arrange 3 winners out of 5 is 5 * 4 * 3 = 60. The probability of guessing that single specific sequence is exactly 1/60."
+  },
+  {
+    "id": "b3c11q3",
+    "chapter": 11,
+    "chapterTitle": "Probability",
+    "question": "If Event A and Event B are defined as strictly mutually exclusive, and P(A) = 0.35 and P(B) = 0.45, what is the probability of P(A or B)?",
+    "options": [
+      "A) 0.10",
+      "B) 0.1575",
+      "C) 0.80",
+      "D) 1.00"
+    ],
+    "correctAnswer": "C) 0.80",
+    "explanation": "For mutually exclusive events (they cannot physically happen at the same time), the Addition Rule simplifies to P(A or B) = P(A) + P(B). Therefore, 0.35 + 0.45 = 0.80."
+  },
+  {
+    "id": "b3c11q4",
+    "chapter": 11,
+    "chapterTitle": "Probability",
+    "question": "Events X and Y are non-mutually exclusive. If P(X) = 0.60, P(Y) = 0.50, and the probability of both occurring together P(X and Y) = 0.30, what is the probability of either X or Y occurring?",
+    "options": [
+      "A) 0.30",
+      "B) 0.80",
+      "C) 1.10",
+      "D) 1.40"
+    ],
+    "correctAnswer": "B) 0.80",
+    "explanation": "For non-mutually exclusive events, you must subtract the overlapping probability to avoid double-counting. P(X or Y) = P(X) + P(Y) - P(X and Y). 0.60 + 0.50 - 0.30 = 0.80."
+  },
+  {
+    "id": "b3c11q5",
+    "chapter": 11,
+    "chapterTitle": "Probability",
+    "question": "A standard, fair six-sided die is rolled exactly 4 times in sequence. What is the approximate probability of rolling a '6' at least one time during these 4 rolls?",
+    "options": [
+      "A) 0.166",
+      "B) 0.482",
+      "C) 0.518",
+      "D) 0.666"
+    ],
+    "correctAnswer": "C) 0.518",
+    "explanation": "The easiest method is to find the probability of NEVER rolling a 6 and subtracting it from 1. P(not 6) = 5/6. For 4 rolls, (5/6)^4 \u2248 0.482. The complement is 1 - 0.482 = 0.518."
+  },
+  {
+    "id": "b3c11q6",
+    "chapter": 11,
+    "chapterTitle": "Probability",
+    "question": "If an experiment results in an event having a theoretical probability of exactly 1.0, what does this mathematically signify?",
+    "options": [
+      "A) The event is absolutely impossible.",
+      "B) The event has a 50/50 chance of occurring.",
+      "C) The event is absolutely certain to occur.",
+      "D) The event is mutually exclusive."
+    ],
+    "correctAnswer": "C) The event is absolutely certain to occur.",
+    "explanation": "In standard probability theory, a value of 0 means physical impossibility, while a value of exactly 1 represents absolute mathematical certainty that the event will happen."
+  },
+  {
+    "id": "b3c11q7",
+    "chapter": 11,
+    "chapterTitle": "Probability",
+    "question": "An investor evaluates a stock with a 20% chance of yielding a Rs. 100,000 profit and an 80% chance of yielding exactly Rs. 0. What is the mathematical 'Expected Value' of this investment?",
+    "options": [
+      "A) Rs. 10,000",
+      "B) Rs. 20,000",
+      "C) Rs. 50,000",
+      "D) Rs. 100,000"
+    ],
+    "correctAnswer": "B) Rs. 20,000",
+    "explanation": "Expected Value is calculated by multiplying each outcome by its respective probability and summing them. (0.20 * 100,000) + (0.80 * 0) = 20,000 + 0 = Rs. 20,000."
+  },
+  {
+    "id": "b3c11q8",
+    "chapter": 11,
+    "chapterTitle": "Probability",
+    "question": "If you draw one single card at random from a thoroughly shuffled, standard 52-card deck, what is the exact probability of drawing any 'face card' (Jack, Queen, or King)?",
+    "options": [
+      "A) 1/13",
+      "B) 3/13",
+      "C) 4/13",
+      "D) 1/4"
+    ],
+    "correctAnswer": "B) 3/13",
+    "explanation": "A standard deck contains 12 face cards in total (3 per suit * 4 suits). The probability is 12 out of 52, which simplifies mathematically to 3/13."
+  },
+  {
+    "id": "b3c11q9",
+    "chapter": 11,
+    "chapterTitle": "Probability",
+    "question": "Two completely independent events, C and D, have probabilities of P(C) = 0.70 and P(D) = 0.40. What is the mathematical probability of both occurring together, P(C and D)?",
+    "options": [
+      "A) 0.28",
+      "B) 0.30",
+      "C) 1.10",
+      "D) 0.10"
+    ],
+    "correctAnswer": "A) 0.28",
+    "explanation": "If events are strictly independent (one does not affect the other), the probability of both occurring is found by multiplying them: P(C) * P(D) = 0.70 * 0.40 = 0.28."
+  },
+  {
+    "id": "b3c11q10",
+    "chapter": 11,
+    "chapterTitle": "Probability",
+    "question": "A box contains 3 red marbles, 5 blue marbles, and 2 green marbles. If one marble is drawn at random, what is the precise probability that it is NOT blue?",
+    "options": [
+      "A) 0.20",
+      "B) 0.30",
+      "C) 0.50",
+      "D) 0.80"
+    ],
+    "correctAnswer": "C) 0.50",
+    "explanation": "There are 10 marbles total. There are 5 blue marbles, meaning there are 5 marbles that are NOT blue (3 red + 2 green). The probability is 5/10, which reduces to 0.50."
+  },
+  {
+    "id": "b3c11q11",
+    "chapter": 11,
+    "chapterTitle": "Probability",
+    "question": "What does the statistical term 'Sample Space' formally refer to in a probability experiment?",
+    "options": [
+      "A) The exact geometric center of the data.",
+      "B) A designated subset of preferred outcomes.",
+      "C) The complete, exhaustive set of all mathematically possible outcomes.",
+      "D) The probability of a Type I error."
+    ],
+    "correctAnswer": "C) The complete, exhaustive set of all mathematically possible outcomes.",
+    "explanation": "The sample space (usually denoted by 'S') is mathematically defined as the complete set encompassing every single possible outcome that could occur in a specific probability experiment."
+  },
+  {
+    "id": "b3c11q12",
+    "chapter": 11,
+    "chapterTitle": "Probability",
+    "question": "When calculating a conditional probability denoted as P(A | B), what is the formula generally utilized?",
+    "options": [
+      "A) P(A) * P(B)",
+      "B) P(A and B) / P(B)",
+      "C) P(A) + P(B) - P(A and B)",
+      "D) P(A) / P(A and B)"
+    ],
+    "correctAnswer": "B) P(A and B) / P(B)",
+    "explanation": "The conditional probability of A given that B has already occurred is calculated by taking the probability of the intersection (where both occur) and dividing it by the probability of the given condition (B)."
+  },
+  {
+    "id": "b3c11q13",
+    "chapter": 11,
+    "chapterTitle": "Probability",
+    "question": "Two standard, fair 6-sided dice are rolled simultaneously. What is the mathematical probability that the sum of the two upward faces is exactly 7?",
+    "options": [
+      "A) 1/36",
+      "B) 1/12",
+      "C) 1/6",
+      "D) 1/4"
+    ],
+    "correctAnswer": "C) 1/6",
+    "explanation": "There are 36 total possible combinations. The combinations that sum to 7 are (1,6), (2,5), (3,4), (4,3), (5,2), and (6,1). That is 6 successful outcomes out of 36, which simplifies to 1/6."
+  },
+  {
+    "id": "b3c11q14",
+    "chapter": 11,
+    "chapterTitle": "Probability",
+    "question": "Which of the following scenarios strictly requires the use of 'Combinations' rather than 'Permutations'?",
+    "options": [
+      "A) Selecting a 4-digit password for a phone.",
+      "B) Choosing a 1st, 2nd, and 3rd place winner in a race.",
+      "C) Selecting a generic 3-person committee from a pool of 10 employees.",
+      "D) Arranging 5 distinct books on a library shelf."
+    ],
+    "correctAnswer": "C) Selecting a generic 3-person committee from a pool of 10 employees.",
+    "explanation": "Combinations are mathematically used when the specific order or sequence of the selection absolutely does not matter (like a generic group of people), whereas permutations are used when order is critical."
+  },
+  {
+    "id": "b3c11q15",
+    "chapter": 11,
+    "chapterTitle": "Probability",
+    "question": "What is the mathematical sum of the probabilities of all mutually exclusive and exhaustive events in a given sample space?",
+    "options": [
+      "A) 0",
+      "B) 0.5",
+      "C) 1.0",
+      "D) Infinity"
+    ],
+    "correctAnswer": "C) 1.0",
+    "explanation": "A fundamental axiom of modern probability theory dictates that the sum of the probabilities of all possible, non-overlapping outcomes in an exhaustive sample space must exactly equal 1.0 (or 100%)."
+  }
+]

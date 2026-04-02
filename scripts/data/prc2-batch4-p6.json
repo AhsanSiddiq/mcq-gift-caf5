@@ -1,0 +1,422 @@
+[
+  {
+    "id": "b4c5q1",
+    "chapter": 5,
+    "chapterTitle": "Calculus I (Differentiation)",
+    "question": "What does the first derivative (dy/dx) of a function represent graphically?",
+    "options": [
+      "A) The area under the curve.",
+      "B) The slope (gradient) of the tangent line to the curve at any given point.",
+      "C) The absolute maximum of the function.",
+      "D) The x-intercept of the line."
+    ],
+    "correctAnswer": "B) The slope (gradient) of the tangent line to the curve at any given point.",
+    "explanation": "Calculus allows us to find the exact rate of change (slope) at any instant on a curved graph."
+  },
+  {
+    "id": "b4c5q2",
+    "chapter": 5,
+    "chapterTitle": "Calculus I (Differentiation)",
+    "question": "According to the 'Power Rule' of differentiation, if y = x^n, then dy/dx is:",
+    "options": [
+      "A) x^(n+1) / (n+1)",
+      "B) n \u00d7 x^(n-1)",
+      "C) n \u00d7 x^n",
+      "D) x^(n - 1)"
+    ],
+    "correctAnswer": "B) n \u00d7 x^(n-1)",
+    "explanation": "To differentiate x raised to a power, you bring the power down as a multiplier and subtract one from the exponent."
+  },
+  {
+    "id": "b4c5q3",
+    "chapter": 5,
+    "chapterTitle": "Calculus I (Differentiation)",
+    "question": "What is the derivative of any constant value (e.g., y = 500)?",
+    "options": [
+      "A) 1",
+      "B) 0",
+      "C) 500",
+      "D) x"
+    ],
+    "correctAnswer": "B) 0",
+    "explanation": "A constant line is perfectly horizontal and has zero slope; therefore, its derivative is always zero."
+  },
+  {
+    "id": "b4c5q4",
+    "chapter": 5,
+    "chapterTitle": "Calculus I (Differentiation)",
+    "question": "In business applications, 'Marginal Cost' (MC) is mathematically defined as:",
+    "options": [
+      "A) Total Cost / Units",
+      "B) The first derivative of the Total Cost function [d(TC)/dx].",
+      "C) Total Revenue - Total Cost",
+      "D) Fixed Cost + Variable Cost"
+    ],
+    "correctAnswer": "B) The first derivative of the Total Cost function [d(TC)/dx].",
+    "explanation": "Marginal cost represents the rate at which total cost changes as one additional unit is produced."
+  },
+  {
+    "id": "b4c5q5",
+    "chapter": 5,
+    "chapterTitle": "Calculus I (Differentiation)",
+    "question": "If the first derivative of a profit function is set to zero [dP/dx = 0], the resulting value of 'x' identifies a:",
+    "options": [
+      "A) Point of inflection",
+      "B) Stationary point (potentially a maximum or minimum profit).",
+      "C) Breakeven point",
+      "D) Fixed cost"
+    ],
+    "correctAnswer": "B) Stationary point (potentially a maximum or minimum profit).",
+    "explanation": "At a peak or trough, the slope of the curve is zero. Solving for dy/dx = 0 helps businesses find the optimal output level for profit maximization."
+  },
+  {
+    "id": "b4c5q6",
+    "chapter": 5,
+    "chapterTitle": "Calculus I (Differentiation)",
+    "question": "What is the second derivative (d^2y / dx^2) used to determine regarding a stationary point?",
+    "options": [
+      "A) Whether the point is a local maximum or a local minimum.",
+      "B) The y-intercept of the function.",
+      "C) The total area under the curve.",
+      "D) The average cost of production."
+    ],
+    "correctAnswer": "A) Whether the point is a local maximum or a local minimum.",
+    "explanation": "If the second derivative is negative at that point, it's a maximum. If it's positive, it's a minimum."
+  },
+  {
+    "id": "b4c5q7",
+    "chapter": 5,
+    "chapterTitle": "Calculus I (Differentiation)",
+    "question": "Differentiate the function: y = 4x^3 - 5x + 10.",
+    "options": [
+      "A) 12x^2 - 5",
+      "B) 12x^3 - 5x",
+      "C) 4x^2 - 5",
+      "D) 12x + 10"
+    ],
+    "correctAnswer": "A) 12x^2 - 5",
+    "explanation": "Differentiating term by term: 4(3x^2) - 5(1) + 0 = 12x^2 - 5."
+  },
+  {
+    "id": "b4c5q8",
+    "chapter": 5,
+    "chapterTitle": "Calculus I (Differentiation)",
+    "question": "Which rule is utilized to differentiate the product of two functions [y = u(x) \u00d7 v(x)]?",
+    "options": [
+      "A) Power Rule",
+      "B) Product Rule",
+      "C) Quotient Rule",
+      "D) Chain Rule"
+    ],
+    "correctAnswer": "B) Product Rule",
+    "explanation": "Formula: dy/dx = u(dv/dx) + v(du/dx)."
+  },
+  {
+    "id": "b4c5q9",
+    "chapter": 5,
+    "chapterTitle": "Calculus I (Differentiation)",
+    "question": "In economics, 'Marginal Revenue' (MR) is equal to zero when:",
+    "options": [
+      "A) Total profit is zero.",
+      "B) Total Revenue (TR) is at its maximum point.",
+      "C) Variable costs are minimized.",
+      "D) The price is at its highest."
+    ],
+    "correctAnswer": "B) Total Revenue (TR) is at its maximum point.",
+    "explanation": "Since MR is the derivative of TR, setting MR = 0 finds the peak of the revenue curve."
+  },
+  {
+    "id": "b4c5q10",
+    "chapter": 5,
+    "chapterTitle": "Calculus I (Differentiation)",
+    "question": "What is the derivative of the natural log function y = ln(x)?",
+    "options": [
+      "A) e^x",
+      "B) 1/x",
+      "C) x",
+      "D) 0"
+    ],
+    "correctAnswer": "B) 1/x",
+    "explanation": "This is a fundamental rule in calculus; the derivative of ln(x) is the reciprocal of x."
+  },
+  {
+    "id": "b4c5q11",
+    "chapter": 5,
+    "chapterTitle": "Calculus I (Differentiation)",
+    "question": "The 'Chain Rule' is strictly utilized for differentiating:",
+    "options": [
+      "A) Simple constants.",
+      "B) Function of a function (composite functions).",
+      "C) The ratio of two simple variables.",
+      "D) Negative integers."
+    ],
+    "correctAnswer": "B) Function of a function (composite functions).",
+    "explanation": "The chain rule allows you to differentiate complex expressions like y = (3x + 2)^5."
+  },
+  {
+    "id": "b4c5q12",
+    "chapter": 5,
+    "chapterTitle": "Calculus I (Differentiation)",
+    "question": "At a point of 'Inflection', the second derivative (d^2y / dx^2) is equal to:",
+    "options": [
+      "A) 1",
+      "B) A positive number",
+      "C) Zero (0)",
+      "D) Infinity"
+    ],
+    "correctAnswer": "C) Zero (0)",
+    "explanation": "A point of inflection is where the curvature (concavity) of the graph changes from upwards to downwards (or vice versa)."
+  },
+  {
+    "id": "b4c5q13",
+    "chapter": 5,
+    "chapterTitle": "Calculus I (Differentiation)",
+    "question": "If Total cost (TC) = 50 + 20x, what is the 'Marginal Cost' per unit?",
+    "options": [
+      "A) 50",
+      "B) 20",
+      "C) 70",
+      "D) 0"
+    ],
+    "correctAnswer": "B) 20",
+    "explanation": "Differentiating TC = 50 + 20x gives MC = 20. This indicates a constant marginal cost for each additional unit."
+  },
+  {
+    "id": "b4c5q14",
+    "chapter": 5,
+    "chapterTitle": "Calculus I (Differentiation)",
+    "question": "What is the derivative of the exponential function y = e^x?",
+    "options": [
+      "A) xe^(x-1)",
+      "B) e^x",
+      "C) 1/e",
+      "D) ln(x)"
+    ],
+    "correctAnswer": "B) e^x",
+    "explanation": "A unique property of e^x is that it is its own derivative."
+  },
+  {
+    "id": "b4c5q15",
+    "chapter": 5,
+    "chapterTitle": "Calculus I (Differentiation)",
+    "question": "For a profit function, the 'Condition for Profit Maximization' is:",
+    "options": [
+      "A) Marginal Revenue (MR) = Marginal Cost (MC)",
+      "B) Total Revenue = Total Cost",
+      "C) Marginal Cost = 0",
+      "D) Price = 0"
+    ],
+    "correctAnswer": "A) Marginal Revenue (MR) = Marginal Cost (MC)",
+    "explanation": "Profit is maximized when the growth in revenue perfectly balances the growth in cost. Setting P' = 0 leads to MR - MC = 0, or MR = MC."
+  },
+  {
+    "id": "b4c6q1",
+    "chapter": 6,
+    "chapterTitle": "Calculus II (Integration)",
+    "question": "What is Integration formally considered in relation to Differentiation?",
+    "options": [
+      "A) The exact same process.",
+      "B) The inverse process (Anti-differentiation).",
+      "C) A method for finding slopes.",
+      "D) A way to calculate roots."
+    ],
+    "correctAnswer": "B) The inverse process (Anti-differentiation).",
+    "explanation": "If differentiation 'breaks down' a function to find its rate of change, integration 'builds up' the function to find totals or areas."
+  },
+  {
+    "id": "b4c6q2",
+    "chapter": 6,
+    "chapterTitle": "Calculus II (Integration)",
+    "question": "What does the 'Definite Integral' of a function between two points represent graphically?",
+    "options": [
+      "A) The gradient of the curve.",
+      "B) The area under the curve between those two points.",
+      "C) The maximum value of the function.",
+      "D) The point of inflection."
+    ],
+    "correctAnswer": "B) The area under the curve between those two points.",
+    "explanation": "Definite integrals allow for the exact calculation of irregular areas bounded by curves and the x-axis."
+  },
+  {
+    "id": "b4c6q3",
+    "chapter": 6,
+    "chapterTitle": "Calculus II (Integration)",
+    "question": "According to the 'Power Rule' for Integration, the integral of x^n is:",
+    "options": [
+      "A) n \u00d7 x^(n-1)",
+      "B) [x^(n+1) / (n+1)] + C",
+      "C) x^n / n",
+      "D) x^(n+1) + C"
+    ],
+    "correctAnswer": "B) [x^(n+1) / (n+1)] + C",
+    "explanation": "To integrate, you add one to the exponent and then divide by that new exponent. (Note: this rule works for all n except n = -1)."
+  },
+  {
+    "id": "b4c6q4",
+    "chapter": 6,
+    "chapterTitle": "Calculus II (Integration)",
+    "question": "Why is the 'Constant of Integration' (+C) added to every 'Indefinite Integral'?",
+    "options": [
+      "A) Because the original function might have included a constant that became zero during differentiation.",
+      "B) To make the answer look more professional.",
+      "C) To represent the average cost.",
+      "D) To balance the equation for x = 0."
+    ],
+    "correctAnswer": "A) Because the original function might have included a constant that became zero during differentiation.",
+    "explanation": "Since different constants (like 5, 10, or 100) all differentiate to zero, we must include +C when working backward to represent any potential lost constant."
+  },
+  {
+    "id": "b4c6q5",
+    "chapter": 6,
+    "chapterTitle": "Calculus II (Integration)",
+    "question": "What is the integral of (1/x) with respect to x?",
+    "options": [
+      "A) x^-2",
+      "B) ln(x) + C",
+      "C) e^x + C",
+      "D) 1"
+    ],
+    "correctAnswer": "B) ln(x) + C",
+    "explanation": "This is the special case of the power rule; the anti-derivative of the reciprocal function (1/x) is the natural logarithm of x."
+  },
+  {
+    "id": "b4c6q6",
+    "chapter": 6,
+    "chapterTitle": "Calculus II (Integration)",
+    "question": "In finance and economics, how can Total Revenue (TR) be found if the Marginal Revenue (MR) function is known?",
+    "options": [
+      "A) By differentiating MR.",
+      "B) By integrating the MR function with respect to units (x).",
+      "C) By multiplying MR by the Price.",
+      "D) By setting MR to zero."
+    ],
+    "correctAnswer": "B) By integrating the MR function with respect to units (x).",
+    "explanation": "Since MR is the derivative of TR, integrating MR takes us back to the Total Revenue function."
+  },
+  {
+    "id": "b4c6q7",
+    "chapter": 6,
+    "chapterTitle": "Calculus II (Integration)",
+    "question": "Similarly, if you integrate the Marginal Cost (MC) function, you obtain the:",
+    "options": [
+      "A) Fixed Cost",
+      "B) Total Variable Cost + Fixed Cost (Total Cost)",
+      "C) Average Cost",
+      "D) Profit function"
+    ],
+    "correctAnswer": "B) Total Variable Cost + Fixed Cost (Total Cost)",
+    "explanation": "Integrating MC gives the Total Cost. The constant of integration (C) in this scenario usually represents the Fixed Cost (FC)."
+  },
+  {
+    "id": "b4c6q8",
+    "chapter": 6,
+    "chapterTitle": "Calculus II (Integration)",
+    "question": "What is the integral of a constant 'k' (e.g., \u222b 5 dx)?",
+    "options": [
+      "A) 0",
+      "B) kx + C",
+      "C) k^2 / 2",
+      "D) 5"
+    ],
+    "correctAnswer": "B) kx + C",
+    "explanation": "The integral of a constant is that constant multiplied by the variable of integration (e.g., \u222b 5 dx = 5x + C)."
+  },
+  {
+    "id": "b4c6q9",
+    "chapter": 6,
+    "chapterTitle": "Calculus II (Integration)",
+    "question": "Calculate the indefinite integral: \u222b (6x^2) dx.",
+    "options": [
+      "A) 2x^3 + C",
+      "B) 12x + C",
+      "C) 6x^3 + C",
+      "D) x^3 + C"
+    ],
+    "correctAnswer": "A) 2x^3 + C",
+    "explanation": "Using the power rule: 6(x^3 / 3) + C = 2x^3 + C."
+  },
+  {
+    "id": "b4c6q10",
+    "chapter": 6,
+    "chapterTitle": "Calculus II (Integration)",
+    "question": "What is the integral of the exponential function e^x?",
+    "options": [
+      "A) ln(x) + C",
+      "B) e^x + C",
+      "C) e^(x+1) + C",
+      "D) 1/e"
+    ],
+    "correctAnswer": "B) e^x + C",
+    "explanation": "Just as the derivative of e^x is e^x, its integral is also e^x (with the addition of the integration constant)."
+  },
+  {
+    "id": "b4c6q11",
+    "chapter": 6,
+    "chapterTitle": "Calculus II (Integration)",
+    "question": "In a definite integral \u222b[a to b] f(x) dx, the values 'a' and 'b' are known as the:",
+    "options": [
+      "A) Coefficients",
+      "B) Limits of integration",
+      "C) Slopes",
+      "D) Outliers"
+    ],
+    "correctAnswer": "B) Limits of integration",
+    "explanation": "The lower limit (a) and upper limit (b) define the specific interval over which the area is being calculated."
+  },
+  {
+    "id": "b4c6q12",
+    "chapter": 6,
+    "chapterTitle": "Calculus II (Integration)",
+    "question": "To solve a definite integral, you must:",
+    "options": [
+      "A) Find the anti-derivative and then divide by the constant C.",
+      "B) Find the anti-derivative, then subtract the value of the function at the lower limit from its value at the upper limit [F(b) - F(a)].",
+      "C) Only differentiate the upper limit.",
+      "D) Set the function to zero."
+    ],
+    "correctAnswer": "B) Find the anti-derivative, then subtract the value of the function at the lower limit from its value at the upper limit [F(b) - F(a)].",
+    "explanation": "This procedure (The Fundamental Theorem of Calculus) yields the exact numerical area between the two limits."
+  },
+  {
+    "id": "b4c6q13",
+    "chapter": 6,
+    "chapterTitle": "Calculus II (Integration)",
+    "question": "What is the integral of (2x + 5) dx?",
+    "options": [
+      "A) x^2 + 5x + C",
+      "B) 2x^2 + 5x + C",
+      "C) 2 + C",
+      "D) x^2 + C"
+    ],
+    "correctAnswer": "A) x^2 + 5x + C",
+    "explanation": "Integrate term by term: \u222b 2x dx = x^2 and \u222b 5 dx = 5x. Combining them gives x^2 + 5x + C."
+  },
+  {
+    "id": "b4c6q14",
+    "chapter": 6,
+    "chapterTitle": "Calculus II (Integration)",
+    "question": "If Marginal Revenue MR = 100 - 4x, the Total Revenue (TR) function (assuming TR=0 when x=0) is:",
+    "options": [
+      "A) 100x - 4x^2",
+      "B) 100x - 2x^2",
+      "C) -4",
+      "D) 100x"
+    ],
+    "correctAnswer": "B) 100x - 2x^2",
+    "explanation": "Integrating: \u222b (100 - 4x) dx = 100x - (4x^2 / 2) = 100x - 2x^2 + C. Since TR=0 at x=0, C must be zero."
+  },
+  {
+    "id": "b4c6q15",
+    "chapter": 6,
+    "chapterTitle": "Calculus II (Integration)",
+    "question": "What is the result of \u222b [1 to 2] 3x^2 dx?",
+    "options": [
+      "A) 1",
+      "B) 7",
+      "C) 8",
+      "D) 9"
+    ],
+    "correctAnswer": "B) 7",
+    "explanation": "Antiderivative is x^3. [x^3] from 1 to 2 = (2^3) - (1^3) = 8 - 1 = 7."
+  }
+]

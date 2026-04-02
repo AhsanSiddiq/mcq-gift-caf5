@@ -1,0 +1,422 @@
+[
+  {
+    "id": "b4c3q1",
+    "chapter": 3,
+    "chapterTitle": "Financial Mathematics Part II (Arithmatic and Geometric Progressions)",
+    "question": "In an Arithmetic Progression (AP), the difference between any two consecutive terms is always:",
+    "options": [
+      "A) Increasing",
+      "B) Decreasing",
+      "C) Constant",
+      "D) Zero"
+    ],
+    "correctAnswer": "C) Constant",
+    "explanation": "An AP is defined by its 'common difference' (d), which remains identical between any two neighbors in the sequence (e.g., 2, 5, 8, 11...)."
+  },
+  {
+    "id": "b4c3q2",
+    "chapter": 3,
+    "chapterTitle": "Financial Mathematics Part II (Arithmatic and Geometric Progressions)",
+    "question": "What is the standard formula for the n-th term (Tn) of an Arithmetic Progression?",
+    "options": [
+      "A) Tn = a \u00d7 r^(n-1)",
+      "B) Tn = a + (n - 1)d",
+      "C) Tn = (n/2)[2a + (n-1)d]",
+      "D) Tn = a + nd"
+    ],
+    "correctAnswer": "B) Tn = a + (n - 1)d",
+    "explanation": "To find any term in an AP, you start with the first term 'a' and add the common difference 'd' precisely (n-1) times."
+  },
+  {
+    "id": "b4c3q3",
+    "chapter": 3,
+    "chapterTitle": "Financial Mathematics Part II (Arithmatic and Geometric Progressions)",
+    "question": "In a Geometric Progression (GP), the ratio between any two consecutive terms is always:",
+    "options": [
+      "A) Constant",
+      "B) Increasing",
+      "C) Decreasing",
+      "D) Negative"
+    ],
+    "correctAnswer": "A) Constant",
+    "explanation": "A GP is defined by its 'common ratio' (r). Each term is found by multiplying the previous term by the same fixed number (e.g., 2, 4, 8, 16...)."
+  },
+  {
+    "id": "b4c3q4",
+    "chapter": 3,
+    "chapterTitle": "Financial Mathematics Part II (Arithmatic and Geometric Progressions)",
+    "question": "What is the standard formula for the n-th term (Tn) of a Geometric Progression?",
+    "options": [
+      "A) Tn = a + (n-1)d",
+      "B) Tn = a \u00d7 r^(n-1)",
+      "C) Tn = a \u00d7 r^n",
+      "D) Tn = a / r^(n-1)"
+    ],
+    "correctAnswer": "B) Tn = a \u00d7 r^(n-1)",
+    "explanation": "In a GP, you start with the first term 'a' and multiply it by the common ratio 'r' precisely (n-1) times."
+  },
+  {
+    "id": "b4c3q5",
+    "chapter": 3,
+    "chapterTitle": "Financial Mathematics Part II (Arithmatic and Geometric Progressions)",
+    "question": "The sum of the first 10 terms of an AP starting with 2 and having a common difference of 3 is:",
+    "options": [
+      "A) 150",
+      "B) 155",
+      "C) 160",
+      "D) 165"
+    ],
+    "correctAnswer": "B) 155",
+    "explanation": "Formula: Sn = (n/2)[2a + (n-1)d]. Here, S10 = (10/2)[2(2) + (9)(3)] = 5[4 + 27] = 5[31] = 155."
+  },
+  {
+    "id": "b4c3q6",
+    "chapter": 3,
+    "chapterTitle": "Financial Mathematics Part II (Arithmatic and Geometric Progressions)",
+    "question": "Which of the following describes a 'Convergent' Geometric Series?",
+    "options": [
+      "A) A GP where the common ratio r is greater than 1.",
+      "B) A GP where the common ratio r is perfectly between -1 and 1.",
+      "C) An AP where the common difference is zero.",
+      "D) Any GP that has more than 1,000 terms."
+    ],
+    "correctAnswer": "B) A GP where the common ratio r is perfectly between -1 and 1.",
+    "explanation": "Only when the absolute value of 'r' is less than 1 will the terms get smaller and smaller, allowing the sum to 'converge' to a specific finite number."
+  },
+  {
+    "id": "b4c3q7",
+    "chapter": 3,
+    "chapterTitle": "Financial Mathematics Part II (Arithmatic and Geometric Progressions)",
+    "question": "What is the formula for the 'Sum to Infinity' (S\u221e) of a convergent GP?",
+    "options": [
+      "A) S\u221e = a / (1 - r)",
+      "B) S\u221e = a / (r - 1)",
+      "C) S\u221e = a(1 - r^n) / (1 - r)",
+      "D) S\u221e = a \u00d7 r"
+    ],
+    "correctAnswer": "A) S\u221e = a / (1 - r)",
+    "explanation": "This shortcut formula is extremely useful in finance for calculating the present value of perpetuities."
+  },
+  {
+    "id": "b4c3q8",
+    "chapter": 3,
+    "chapterTitle": "Financial Mathematics Part II (Arithmatic and Geometric Progressions)",
+    "question": "If the 1st term of an AP is 5 and the 10th term is 32, what is the common difference (d)?",
+    "options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 5"
+    ],
+    "correctAnswer": "B) 3",
+    "explanation": "Use Tn = a + (n-1)d. 32 = 5 + (9)d -> 27 = 9d -> d = 3."
+  },
+  {
+    "id": "b4c3q9",
+    "chapter": 3,
+    "chapterTitle": "Financial Mathematics Part II (Arithmatic and Geometric Progressions)",
+    "question": "What is the common ratio (r) of the GP: 100, 50, 25...?",
+    "options": [
+      "A) 2",
+      "B) -2",
+      "C) 0.5",
+      "D) -0.5"
+    ],
+    "correctAnswer": "C) 0.5",
+    "explanation": "Ratio = 2nd term / 1st term. 50 / 100 = 0.5 (or 1/2)."
+  },
+  {
+    "id": "b4c3q10",
+    "chapter": 3,
+    "chapterTitle": "Financial Mathematics Part II (Arithmatic and Geometric Progressions)",
+    "question": "The sequence 5, 10, 20, 40... is an example of a/an:",
+    "options": [
+      "A) Arithmetic progression",
+      "B) Geometric progression",
+      "C) Harmonic progression",
+      "D) Linear function"
+    ],
+    "correctAnswer": "B) Geometric progression",
+    "explanation": "Each term is double the previous term, meaning there is a constant common ratio of 2."
+  },
+  {
+    "id": "b4c3q11",
+    "chapter": 3,
+    "chapterTitle": "Financial Mathematics Part II (Arithmatic and Geometric Progressions)",
+    "question": "In the GP formula for the sum of 'n' terms, if r > 1, the formula used is:",
+    "options": [
+      "A) a(r^n - 1) / (r - 1)",
+      "B) a(1 - r^n) / (1 - r)",
+      "C) a / (1 - r)",
+      "D) n/2 [a + l]"
+    ],
+    "correctAnswer": "A) a(r^n - 1) / (r - 1)",
+    "explanation": "While both formulas (A and B) are mathematically equivalent, formula A is preferred when r > 1 to work with positive numbers in the numerator and denominator."
+  },
+  {
+    "id": "b4c3q12",
+    "chapter": 3,
+    "chapterTitle": "Financial Mathematics Part II (Arithmatic and Geometric Progressions)",
+    "question": "What is the sum of the first 5 terms of the GP: 3, 6, 12...?",
+    "options": [
+      "A) 90",
+      "B) 93",
+      "C) 96",
+      "D) 100"
+    ],
+    "correctAnswer": "B) 93",
+    "explanation": "a=3, r=2, n=5. Sum = 3(2^5 - 1) / (2 - 1) = 3(32 - 1) / 1 = 3 \u00d7 31 = 93."
+  },
+  {
+    "id": "b4c3q13",
+    "chapter": 3,
+    "chapterTitle": "Financial Mathematics Part II (Arithmatic and Geometric Progressions)",
+    "question": "The 'Arithmetic Mean' (AM) between two numbers 'x' and 'y' is defined as:",
+    "options": [
+      "A) \u221a(xy)",
+      "B) (x + y) / 2",
+      "C) x \u00d7 y",
+      "D) (x - y) / 2"
+    ],
+    "correctAnswer": "B) (x + y) / 2",
+    "explanation": "By definition, the arithmetic mean is the simple average of two values."
+  },
+  {
+    "id": "b4c3q14",
+    "chapter": 3,
+    "chapterTitle": "Financial Mathematics Part II (Arithmatic and Geometric Progressions)",
+    "question": "The 'Geometric Mean' (GM) between two positive numbers 'x' and 'y' is defined as:",
+    "options": [
+      "A) (x + y) / 2",
+      "B) \u221a(xy)",
+      "C) x^2 + y^2",
+      "D) x / y"
+    ],
+    "correctAnswer": "B) \u221a(xy)",
+    "explanation": "If three numbers x, G, y form a GP, then G/x = y/G, resulting in G^2 = xy, or G = \u221a(xy)."
+  },
+  {
+    "id": "b4c3q15",
+    "chapter": 3,
+    "chapterTitle": "Financial Mathematics Part II (Arithmatic and Geometric Progressions)",
+    "question": "If you add 4 to each term of an AP, the new sequence will:",
+    "options": [
+      "A) Become a GP.",
+      "B) Stay an AP with the same common difference.",
+      "C) Stay an AP but the common difference will increase by 4.",
+      "D) Become random."
+    ],
+    "correctAnswer": "B) Stay an AP with the same common difference.",
+    "explanation": "Adding a constant to every term shifts the origin but does not change the physical distance (gap) between neighbors."
+  },
+  {
+    "id": "b4c4q1",
+    "chapter": 4,
+    "chapterTitle": "Matrices and Determinants",
+    "question": "A matrix with the same number of rows as columns (e.g., 2x2 or 3x3) is known as a:",
+    "options": [
+      "A) Row Matrix",
+      "B) Column Matrix",
+      "C) Square Matrix",
+      "D) Scalar Matrix"
+    ],
+    "correctAnswer": "C) Square Matrix",
+    "explanation": "Square matrices are essential in business math as they are the only types that can have a determinant or an inverse."
+  },
+  {
+    "id": "b4c4q2",
+    "chapter": 4,
+    "chapterTitle": "Matrices and Determinants",
+    "question": "A square matrix where all diagonal elements are 1 and all other elements are 0 is called a/an:",
+    "options": [
+      "A) Null Matrix",
+      "B) Identity Matrix (Unit Matrix)",
+      "C) Scalar Matrix",
+      "D) Transpose Matrix"
+    ],
+    "correctAnswer": "B) Identity Matrix (Unit Matrix)",
+    "explanation": "The identity matrix (I) acts like the number '1' in matrix multiplication; multiplying any matrix by I leaves it unchanged."
+  },
+  {
+    "id": "b4c4q3",
+    "chapter": 4,
+    "chapterTitle": "Matrices and Determinants",
+    "question": "What is the condition for two matrices, A and B, to be 'conformable' for addition (A + B)?",
+    "options": [
+      "A) They must both be square matrices.",
+      "B) They must have the same order (same number of rows and columns).",
+      "C) The number of columns in A must equal the number of rows in B.",
+      "D) Their determinants must both be non-zero."
+    ],
+    "correctAnswer": "B) They must have the same order (same number of rows and columns).",
+    "explanation": "To add or subtract matrices, you simply add/subtract corresponding elements, which requires both matrices to have identical dimensions."
+  },
+  {
+    "id": "b4c4q4",
+    "chapter": 4,
+    "chapterTitle": "Matrices and Determinants",
+    "question": "What is the condition for two matrices, A and B, to be conformable for *multiplication* (A \u00d7 B)?",
+    "options": [
+      "A) They must have the same order.",
+      "B) The number of columns in Matrix A must equal the number of rows in Matrix B.",
+      "C) They must both be Identity matrices.",
+      "D) Matrix B must be square."
+    ],
+    "correctAnswer": "B) The number of columns in Matrix A must equal the number of rows in Matrix B.",
+    "explanation": "Matrix multiplication involves 'row by column' operations, so the internal dimensions (cols of 1st and rows of 2nd) must match."
+  },
+  {
+    "id": "b4c4q5",
+    "chapter": 4,
+    "chapterTitle": "Matrices and Determinants",
+    "question": "If the determinant of a square matrix A is exactly zero (|A| = 0), the matrix is formally called:",
+    "options": [
+      "A) Non-singular",
+      "B) Singular",
+      "C) Invertible",
+      "D) Diagonal"
+    ],
+    "correctAnswer": "B) Singular",
+    "explanation": "A singular matrix does not have an inverse. This is critical in Cramer's Rule, as you cannot solve a system if the denominator (determinant) is zero."
+  },
+  {
+    "id": "b4c4q6",
+    "chapter": 4,
+    "chapterTitle": "Matrices and Determinants",
+    "question": "The process of swapping the rows and columns of a matrix A is called finding its:",
+    "options": [
+      "A) Inverse (A^-1)",
+      "B) Determinant (|A|)",
+      "C) Transpose (A^T)",
+      "D) Adjoint"
+    ],
+    "correctAnswer": "C) Transpose (A^T)",
+    "explanation": "If A is of order 2x3, then its transpose A^T will be of order 3x2."
+  },
+  {
+    "id": "b4c4q7",
+    "chapter": 4,
+    "chapterTitle": "Matrices and Determinants",
+    "question": "What is the determinant of the 2x2 matrix: [[5, 2], [3, 4]]?",
+    "options": [
+      "A) 11",
+      "B) 14",
+      "C) 20",
+      "D) 26"
+    ],
+    "correctAnswer": "B) 14",
+    "explanation": "Determinant = (ad - bc). Here, (5 \u00d7 4) - (2 \u00d7 3) = 20 - 6 = 14."
+  },
+  {
+    "id": "b4c4q8",
+    "chapter": 4,
+    "chapterTitle": "Matrices and Determinants",
+    "question": "To find the inverse of a 2x2 matrix, you must divide the 'Adjoint' of the matrix by its:",
+    "options": [
+      "A) Transpose",
+      "B) Order",
+      "C) Determinant",
+      "D) Trace"
+    ],
+    "correctAnswer": "C) Determinant",
+    "explanation": "Formula: A^-1 = (1 / |A|) \u00d7 adj(A). This is why a matrix must be non-singular (|A| \u2260 0) to have an inverse."
+  },
+  {
+    "id": "b4c4q9",
+    "chapter": 4,
+    "chapterTitle": "Matrices and Determinants",
+    "question": "What is the product of a matrix A and its inverse A^-1?",
+    "options": [
+      "A) The Null Matrix (all zeros)",
+      "B) The original matrix A",
+      "C) The Identity Matrix (I)",
+      "D) A scalar value of 1"
+    ],
+    "correctAnswer": "C) The Identity Matrix (I)",
+    "explanation": "Just as 5 \u00d7 (1/5) = 1 in regular math, a matrix multiplied by its inverse always results in the identity matrix."
+  },
+  {
+    "id": "b4c4q10",
+    "chapter": 4,
+    "chapterTitle": "Matrices and Determinants",
+    "question": "Cramer's Rule is a specific method used to solve:",
+    "options": [
+      "A) Matrix addition problems.",
+      "B) Systems of simultaneous linear equations.",
+      "C) Non-linear quadratic equations.",
+      "D) Logarithmic sequences."
+    ],
+    "correctAnswer": "B) Systems of simultaneous linear equations.",
+    "explanation": "Cramer's Rule uses determinants to find the unique solution for variables in a system of equations."
+  },
+  {
+    "id": "b4c4q11",
+    "chapter": 4,
+    "chapterTitle": "Matrices and Determinants",
+    "question": "A matrix with only one single column is called a:",
+    "options": [
+      "A) Row Vector",
+      "B) Column Vector",
+      "C) Diagonal Matrix",
+      "D) Square Matrix"
+    ],
+    "correctAnswer": "B) Column Vector",
+    "explanation": "Column vectors are frequently used to represent variables or constants in matrix algebra."
+  },
+  {
+    "id": "b4c4q12",
+    "chapter": 4,
+    "chapterTitle": "Matrices and Determinants",
+    "question": "If you multiply a 2x3 matrix by a 3x4 matrix, the resulting matrix will have an order of:",
+    "options": [
+      "A) 2x3",
+      "B) 3x4",
+      "C) 2x4",
+      "D) 3x3"
+    ],
+    "correctAnswer": "C) 2x4",
+    "explanation": "The inner dimensions match (3 and 3), and the outer dimensions (2 and 4) determine the order of the product matrix."
+  },
+  {
+    "id": "b4c4q13",
+    "chapter": 4,
+    "chapterTitle": "Matrices and Determinants",
+    "question": "For a 2x2 matrix [[a, b], [c, d]], how do you find the 'Adjoint'?",
+    "options": [
+      "A) Multiply all elements by -1.",
+      "B) Swap 'a' and 'd', and change the signs of 'b' and 'c'.",
+      "C) Transpose the matrix twice.",
+      "D) Take the square root of all elements."
+    ],
+    "correctAnswer": "B) Swap 'a' and 'd', and change the signs of 'b' and 'c'.",
+    "explanation": "This is a standard shortcut for finding the adjoint of a 2x2 matrix without calculating cofactors."
+  },
+  {
+    "id": "b4c4q14",
+    "chapter": 4,
+    "chapterTitle": "Matrices and Determinants",
+    "question": "Which of the following is true for matrix multiplication (where conformable)?",
+    "options": [
+      "A) AB is always equal to BA (Commutative law).",
+      "B) AB is generally NOT equal to BA.",
+      "C) (AB)^T is always equal to A^T \u00d7 B^T.",
+      "D) A \u00d7 Null Matrix = Identity Matrix."
+    ],
+    "correctAnswer": "B) AB is generally NOT equal to BA.",
+    "explanation": "Matrix multiplication is non-commutative. Changing the order of the matrices usually changes the result (or makes it non-conformable)."
+  },
+  {
+    "id": "b4c4q15",
+    "chapter": 4,
+    "chapterTitle": "Matrices and Determinants",
+    "question": "A matrix where every single element is zero (0) is called a:",
+    "options": [
+      "A) Identity Matrix",
+      "B) Null Matrix (Zero Matrix)",
+      "C) Scalar Matrix",
+      "D) Inverse Matrix"
+    ],
+    "correctAnswer": "B) Null Matrix (Zero Matrix)",
+    "explanation": "The null matrix acts like the number '0' in regular addition and multiplication."
+  }
+]

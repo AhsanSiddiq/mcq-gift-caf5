@@ -1,0 +1,842 @@
+[
+  {
+    "id": "c11q1",
+    "chapter": 11,
+    "chapterTitle": "IAS 33 Earnings per share",
+    "question": "Under IAS 33, how is basic earnings per share (EPS) calculated?",
+    "options": [
+      "A) Profit divided by the closing number of shares at year-end.",
+      "B) Profit attributable to ordinary equity holders of the parent divided by the weighted average number of ordinary shares outstanding.",
+      "C) Gross profit divided by the weighted average number of shares.",
+      "D) Profit after tax divided by total authorized share capital."
+    ],
+    "correctAnswer": "B) Profit attributable to ordinary equity holders of the parent divided by the weighted average number of ordinary shares outstanding.",
+    "explanation": "Basic EPS requires dividing the profit or loss attributable to ordinary equity holders by the weighted average number of ordinary shares outstanding during the period."
+  },
+  {
+    "id": "c11q2",
+    "chapter": 11,
+    "chapterTitle": "IAS 33 Earnings per share",
+    "question": "How is the 'incremental earnings' calculated for a convertible bond when determining diluted EPS?",
+    "options": [
+      "A) The face value of the bond multiplied by the interest rate.",
+      "B) The interest expense saved, net of tax.",
+      "C) The interest expense saved, before tax.",
+      "D) The total principal amount of the bond."
+    ],
+    "correctAnswer": "B) The interest expense saved, net of tax.",
+    "explanation": "For convertible bonds, the assumption of conversion means the company would save the interest expense. This saved interest, strictly net of tax, is added back to earnings."
+  },
+  {
+    "id": "c11q3",
+    "chapter": 11,
+    "chapterTitle": "IAS 33 Earnings per share",
+    "question": "If an entity has multiple potential ordinary shares, in what order should they be considered when calculating diluted EPS?",
+    "options": [
+      "A) From the largest issue size to the smallest.",
+      "B) From the most dilutive to the least dilutive.",
+      "C) From the least dilutive to the most dilutive.",
+      "D) In chronological order of their issue date."
+    ],
+    "correctAnswer": "B) From the most dilutive to the least dilutive.",
+    "explanation": "To maximize the dilution effect, potential ordinary shares must be ranked and included in the calculation in order from the most dilutive to the least dilutive."
+  },
+  {
+    "id": "c11q4",
+    "chapter": 11,
+    "chapterTitle": "IAS 33 Earnings per share",
+    "question": "A company issues a 1-for-4 bonus issue during the year. How should this be treated in the calculation of the weighted average number of shares for basic EPS?",
+    "options": [
+      "A) Ignored completely.",
+      "B) Weighted from the exact date of the bonus issue.",
+      "C) Treated as if it had occurred at the beginning of the earliest period presented.",
+      "D) Included only in diluted EPS."
+    ],
+    "correctAnswer": "C) Treated as if it had occurred at the beginning of the earliest period presented.",
+    "explanation": "A bonus issue does not bring in new resources. It is treated retrospectively, as if the shares had always been in issue from the beginning of the earliest period presented."
+  },
+  {
+    "id": "c11q5",
+    "chapter": 11,
+    "chapterTitle": "IAS 33 Earnings per share",
+    "question": "Which of the following is considered a 'potential ordinary share'?",
+    "options": [
+      "A) Non-redeemable preference shares.",
+      "B) Fully paid ordinary shares.",
+      "C) Convertible bonds.",
+      "D) Treasury shares."
+    ],
+    "correctAnswer": "C) Convertible bonds.",
+    "explanation": "A potential ordinary share is a financial instrument that may entitle its holder to ordinary shares. Convertible bonds and share options are classic examples."
+  },
+  {
+    "id": "c11q6",
+    "chapter": 11,
+    "chapterTitle": "IAS 33 Earnings per share",
+    "question": "When calculating the weighted average number of shares, when are shares issued for cash generally included?",
+    "options": [
+      "A) From the beginning of the financial year.",
+      "B) From the date consideration is receivable.",
+      "C) From the end of the financial year.",
+      "D) From the date the board approves the issue."
+    ],
+    "correctAnswer": "B) From the date consideration is receivable.",
+    "explanation": "Unlike bonus issues, shares issued for cash provide new resources and are time-weighted from the date the consideration is receivable (usually the issue date)."
+  },
+  {
+    "id": "c11q7",
+    "chapter": 11,
+    "chapterTitle": "IAS 33 Earnings per share",
+    "question": "In a rights issue, the exercise price is often lower than the fair value of the shares. How does this affect the EPS calculation?",
+    "options": [
+      "A) It requires a retrospective bonus fraction adjustment to the shares outstanding before the rights issue.",
+      "B) It is treated identically to a share issued at full market price.",
+      "C) It only affects diluted EPS.",
+      "D) It reduces the profit attributable to ordinary shareholders."
+    ],
+    "correctAnswer": "A) It requires a retrospective bonus fraction adjustment to the shares outstanding before the rights issue.",
+    "explanation": "A rights issue contains a bonus element due to the discounted price. This requires adjusting historical shares by a bonus fraction based on the theoretical ex-rights price."
+  },
+  {
+    "id": "c11q8",
+    "chapter": 11,
+    "chapterTitle": "IAS 33 Earnings per share",
+    "question": "If a potential ordinary share increases the EPS when converted, it is known as:",
+    "options": [
+      "A) Dilutive",
+      "B) Anti-dilutive",
+      "C) Accretive",
+      "D) Contingent"
+    ],
+    "correctAnswer": "B) Anti-dilutive",
+    "explanation": "An instrument is anti-dilutive if its conversion leads to an increase in EPS or a decrease in loss per share."
+  },
+  {
+    "id": "c11q9",
+    "chapter": 11,
+    "chapterTitle": "IAS 33 Earnings per share",
+    "question": "According to IAS 33, what must an entity do if a potential ordinary share is anti-dilutive?",
+    "options": [
+      "A) Include it in the diluted EPS calculation anyway.",
+      "B) Exclude it from the calculation of diluted EPS.",
+      "C) Deduct its impact from basic EPS.",
+      "D) Disclose it only in the Director's Report."
+    ],
+    "correctAnswer": "B) Exclude it from the calculation of diluted EPS.",
+    "explanation": "IAS 33 strictly prohibits the inclusion of anti-dilutive potential ordinary shares in the calculation of diluted EPS to ensure users are shown the worst-case scenario."
+  },
+  {
+    "id": "c11q10",
+    "chapter": 11,
+    "chapterTitle": "IAS 33 Earnings per share",
+    "question": "Gamma Ltd has 1,000,000 ordinary shares. It has convertible bonds of Rs. 5,000,000 at 4% interest. The tax rate is 30%. What are the incremental earnings for diluted EPS purposes?",
+    "options": [
+      "A) Rs. 200,000",
+      "B) Rs. 140,000",
+      "C) Rs. 60,000",
+      "D) Rs. 1,000,000"
+    ],
+    "correctAnswer": "B) Rs. 140,000",
+    "explanation": "Incremental earnings = Interest saved net of tax. 5,000,000 x 4% = Rs. 200,000 interest. Net of 30% tax: 200,000 x 70% = Rs. 140,000."
+  },
+  {
+    "id": "c11q11",
+    "chapter": 11,
+    "chapterTitle": "IAS 33 Earnings per share",
+    "question": "Where must an entity present its basic and diluted earnings per share?",
+    "options": [
+      "A) Only in the notes to the financial statements.",
+      "B) On the face of the statement of financial position.",
+      "C) On the face of the statement of comprehensive income.",
+      "D) In the statement of cash flows."
+    ],
+    "correctAnswer": "C) On the face of the statement of comprehensive income.",
+    "explanation": "IAS 33 requires entities whose ordinary shares are publicly traded to present basic and diluted EPS prominently on the face of the statement of comprehensive income."
+  },
+  {
+    "id": "c11q12",
+    "chapter": 11,
+    "chapterTitle": "IAS 33 Earnings per share",
+    "question": "If a company undertakes a share split after the reporting period but before the financial statements are authorized for issue, how should this affect EPS?",
+    "options": [
+      "A) It only affects the EPS of the following year.",
+      "B) EPS for the current and prior periods presented must be retrospectively adjusted.",
+      "C) It is treated as a new issue of shares at fair value.",
+      "D) It is disclosed only as a non-adjusting event."
+    ],
+    "correctAnswer": "B) EPS for the current and prior periods presented must be retrospectively adjusted.",
+    "explanation": "Bonus issues and share splits occurring after the reporting period but before authorization require retrospective adjustment of per-share calculations for all periods presented."
+  },
+  {
+    "id": "c11q13",
+    "chapter": 11,
+    "chapterTitle": "IAS 33 Earnings per share",
+    "question": "When calculating diluted EPS, share options are assumed to be exercised:",
+    "options": [
+      "A) Only if the exercise price is higher than the average market price.",
+      "B) Only if the exercise price is lower than the average market price.",
+      "C) Regardless of the exercise price.",
+      "D) Only at the end of the reporting period."
+    ],
+    "correctAnswer": "B) Only if the exercise price is lower than the average market price.",
+    "explanation": "Options are dilutive (and thus included in diluted EPS) only when their exercise price is lower than the average market price of the shares during the period (i.e., they are 'in the money')."
+  },
+  {
+    "id": "c11q14",
+    "chapter": 11,
+    "chapterTitle": "IAS 33 Earnings per share",
+    "question": "What is the primary objective of IAS 33 Earnings Per Share?",
+    "options": [
+      "A) To determine the exact dividend payout ratio.",
+      "B) To calculate the tax liability of the entity.",
+      "C) To improve performance comparisons between different entities in the same reporting period.",
+      "D) To value the total equity of the business."
+    ],
+    "correctAnswer": "C) To improve performance comparisons between different entities in the same reporting period.",
+    "explanation": "The primary objective of IAS 33 is to prescribe principles for determining and presenting EPS to improve performance comparisons between different entities, and between different periods for the same entity."
+  },
+  {
+    "id": "c11q15",
+    "chapter": 11,
+    "chapterTitle": "IAS 33 Earnings per share",
+    "question": "Zeta Ltd reported a profit of Rs. 1,850,000 and has 1,000,000 basic shares. It also has convertible options that would add Rs. 84,000 to earnings and 160,000 to shares. What is the Diluted EPS?",
+    "options": [
+      "A) Rs. 1.85",
+      "B) Rs. 1.67",
+      "C) Rs. 1.50",
+      "D) Rs. 1.93"
+    ],
+    "correctAnswer": "B) Rs. 1.67",
+    "explanation": "Diluted EPS is calculated as adjusted earnings divided by adjusted shares: (1,850,000 + 84,000) / (1,000,000 + 160,000) = 1,934,000 / 1,160,000 = Rs. 1.67."
+  },
+  {
+    "id": "c12q1",
+    "chapter": 12,
+    "chapterTitle": "IAS 38 Intangible Assets",
+    "question": "Under IAS 38, how should a company account for the costs incurred during the 'research phase' of an internal project to create a new software system?",
+    "options": [
+      "A) Capitalize them as an intangible asset.",
+      "B) Expense them in profit or loss as they are incurred.",
+      "C) Capitalize them initially, then test for impairment annually.",
+      "D) Defer them and amortize over the expected life of the software."
+    ],
+    "correctAnswer": "B) Expense them in profit or loss as they are incurred.",
+    "explanation": "IAS 38 strictly requires all expenditure incurred during the research phase of an internal project to be recognized as an expense when incurred, because an entity cannot demonstrate that an intangible asset exists that will generate probable future economic benefits."
+  },
+  {
+    "id": "c12q2",
+    "chapter": 12,
+    "chapterTitle": "IAS 38 Intangible Assets",
+    "question": "Which of the following internally generated items can be recognized as an intangible asset if certain strict criteria are met?",
+    "options": [
+      "A) Brands",
+      "B) Mastheads",
+      "C) Development costs",
+      "D) Customer lists"
+    ],
+    "correctAnswer": "C) Development costs",
+    "explanation": "IAS 38 specifically prohibits the recognition of internally generated brands, mastheads, publishing titles, and customer lists. However, internally generated development costs can be capitalized if all PIRATE criteria (technical feasibility, intention to complete, ability to use/sell, etc.) are met."
+  },
+  {
+    "id": "c12q3",
+    "chapter": 12,
+    "chapterTitle": "IAS 38 Intangible Assets",
+    "question": "An entity acquires an intangible asset (a patent) in a business combination. The acquiree had not recognized the patent in its own financial statements because it was internally generated. How should the acquirer treat this patent?",
+    "options": [
+      "A) Ignore it, as it was not recognized by the acquiree.",
+      "B) Recognize it as an intangible asset at its fair value at the acquisition date.",
+      "C) Subsume its value into goodwill.",
+      "D) Recognize it only when it is eventually sold to a third party."
+    ],
+    "correctAnswer": "B) Recognize it as an intangible asset at its fair value at the acquisition date.",
+    "explanation": "In a business combination, the acquirer recognizes the identifiable intangible assets of the acquiree at fair value, even if those assets (like an internally generated patent) were not recognized in the acquiree's separate financial statements."
+  },
+  {
+    "id": "c12q4",
+    "chapter": 12,
+    "chapterTitle": "IAS 38 Intangible Assets",
+    "question": "Alpha Tech applies the revaluation model to a specific class of intangible assets. Under IAS 38, this model is only permitted if:",
+    "options": [
+      "A) Management believes fair value provides more relevant information.",
+      "B) The asset has an indefinite useful life.",
+      "C) The fair value of the intangible asset can be determined by reference to an active market.",
+      "D) The asset was internally generated."
+    ],
+    "correctAnswer": "C) The fair value of the intangible asset can be determined by reference to an active market.",
+    "explanation": "The revaluation model for intangible assets is only allowed if their fair value can be measured by reference to an active market, which is relatively rare for intangibles."
+  },
+  {
+    "id": "c12q5",
+    "chapter": 12,
+    "chapterTitle": "IAS 38 Intangible Assets",
+    "question": "A company holds a broadcasting license that is renewable every 10 years at a negligible cost. The company intends to renew it indefinitely and there is no foreseeable limit to the period over which it will generate net cash inflows. How should this asset be amortized?",
+    "options": [
+      "A) Over 10 years.",
+      "B) Over 20 years maximum.",
+      "C) It should not be amortized, but tested for impairment annually.",
+      "D) It should be amortized straight-line over 50 years."
+    ],
+    "correctAnswer": "C) It should not be amortized, but tested for impairment annually.",
+    "explanation": "An intangible asset with an indefinite useful life is not amortized. Instead, it must be tested for impairment at least annually, and whenever there is an indicator of impairment."
+  },
+  {
+    "id": "c12q6",
+    "chapter": 12,
+    "chapterTitle": "IAS 38 Intangible Assets",
+    "question": "According to SIC 32 (Web Site Costs), how should a company account for the costs incurred during the 'Planning stage' of developing a website?",
+    "options": [
+      "A) Capitalize as an intangible asset.",
+      "B) Capitalize as property, plant and equipment.",
+      "C) Expense as incurred.",
+      "D) Defer and amortize over 3 years."
+    ],
+    "correctAnswer": "C) Expense as incurred.",
+    "explanation": "Under SIC 32, the planning stage of a website is similar to the research phase. Therefore, all costs incurred during the planning stage must be recognized as an expense when incurred."
+  },
+  {
+    "id": "c12q7",
+    "chapter": 12,
+    "chapterTitle": "IAS 38 Intangible Assets",
+    "question": "During 20X6, Beta Ltd spent Rs. 500,000 on developing a new manufacturing process. The criteria for capitalization were met on 1 September 20X6. Costs of Rs. 300,000 were incurred before 1 September, and Rs. 200,000 after. What amount is capitalized?",
+    "options": [
+      "A) Rs. 0",
+      "B) Rs. 200,000",
+      "C) Rs. 300,000",
+      "D) Rs. 500,000"
+    ],
+    "correctAnswer": "B) Rs. 200,000",
+    "explanation": "Only costs incurred on or after the date the capitalization criteria are met can be capitalized. The Rs. 300,000 incurred before 1 September must be expensed and cannot be reinstated as an asset later."
+  },
+  {
+    "id": "c12q8",
+    "chapter": 12,
+    "chapterTitle": "IAS 38 Intangible Assets",
+    "question": "An entity purchases a customer list for Rs. 2,000,000. It expects to use the list to generate sales for the next 4 years, after which it will be obsolete. Assuming straight-line amortization, what is the carrying amount after 18 months?",
+    "options": [
+      "A) Rs. 500,000",
+      "B) Rs. 1,000,000",
+      "C) Rs. 1,250,000",
+      "D) Rs. 1,500,000"
+    ],
+    "correctAnswer": "C) Rs. 1,250,000",
+    "explanation": "Amortization per year = 2,000,000 / 4 = 500,000. Amortization for 18 months (1.5 years) = 500,000 * 1.5 = 750,000. Carrying amount = 2,000,000 - 750,000 = Rs. 1,250,000."
+  },
+  {
+    "id": "c12q9",
+    "chapter": 12,
+    "chapterTitle": "IAS 38 Intangible Assets",
+    "question": "Which of the following is NOT an essential criterion for an item to meet the definition of an intangible asset?",
+    "options": [
+      "A) It must be identifiable.",
+      "B) The entity must have control over the resource.",
+      "C) It must have physical substance.",
+      "D) It must provide future economic benefits."
+    ],
+    "correctAnswer": "C) It must have physical substance.",
+    "explanation": "By definition, an intangible asset is an identifiable non-monetary asset *without* physical substance."
+  },
+  {
+    "id": "c12q10",
+    "chapter": 12,
+    "chapterTitle": "IAS 38 Intangible Assets",
+    "question": "A company is developing a corporate website solely to provide information about its products and company history (an electronic brochure). How should the development costs of this website be treated according to SIC 32?",
+    "options": [
+      "A) Capitalized as an intangible asset and amortized.",
+      "B) Capitalized as part of property, plant, and equipment.",
+      "C) Expensed immediately as incurred.",
+      "D) Capitalized only if the website costs exceed Rs. 1,000,000."
+    ],
+    "correctAnswer": "C) Expensed immediately as incurred.",
+    "explanation": "If a website is solely for promotional or advertising purposes (i.e., it cannot generate direct revenues like an e-commerce site), it does not demonstrate probable future economic benefits under SIC 32, so costs are expensed."
+  },
+  {
+    "id": "c12q11",
+    "chapter": 12,
+    "chapterTitle": "IAS 38 Intangible Assets",
+    "question": "An entity cannot distinguish the research phase from the development phase of an internal project. Under IAS 38, the entity must treat all expenditure on that project as if it were incurred in:",
+    "options": [
+      "A) The development phase only.",
+      "B) The research phase only.",
+      "C) A suspense account until the asset is completed.",
+      "D) The proportion of 50% research and 50% development."
+    ],
+    "correctAnswer": "B) The research phase only.",
+    "explanation": "IAS 38 states that if an entity cannot distinguish the research phase from the development phase, it treats the expenditure as if it were incurred in the research phase only (i.e., it must all be expensed)."
+  },
+  {
+    "id": "c12q12",
+    "chapter": 12,
+    "chapterTitle": "IAS 38 Intangible Assets",
+    "question": "Gamma Ltd acquires a patent. In addition to the purchase price, it incurs costs for training its staff to use the new patented process, and marketing costs to launch the new products. Which costs can be capitalized?",
+    "options": [
+      "A) Only the purchase price.",
+      "B) The purchase price and the training costs.",
+      "C) The purchase price, training costs, and marketing costs.",
+      "D) None, patents must be expensed."
+    ],
+    "correctAnswer": "A) Only the purchase price.",
+    "explanation": "Directly attributable costs can be capitalized, but IAS 38 explicitly excludes staff training costs and marketing/promotional costs from the cost of an intangible asset."
+  },
+  {
+    "id": "c12q13",
+    "chapter": 12,
+    "chapterTitle": "IAS 38 Intangible Assets",
+    "question": "When does the amortization of an intangible asset begin?",
+    "options": [
+      "A) When the asset is acquired or internal development starts.",
+      "B) When management officially signs off on the project.",
+      "C) When the asset is available for use in the manner intended by management.",
+      "D) At the beginning of the next financial year after acquisition."
+    ],
+    "correctAnswer": "C) When the asset is available for use in the manner intended by management.",
+    "explanation": "Amortization begins when the asset is available for use, i.e., when it is in the location and condition necessary for it to be capable of operating in the manner intended by management."
+  },
+  {
+    "id": "c12q14",
+    "chapter": 12,
+    "chapterTitle": "IAS 38 Intangible Assets",
+    "question": "If an intangible asset is revalued upwards, where is the initial increase generally recognized?",
+    "options": [
+      "A) In the statement of profit or loss.",
+      "B) In other comprehensive income and accumulated in equity under 'revaluation surplus'.",
+      "C) As deferred income in the liability section.",
+      "D) Subtracted directly from accumulated amortization."
+    ],
+    "correctAnswer": "B) In other comprehensive income and accumulated in equity under 'revaluation surplus'.",
+    "explanation": "An initial revaluation increase is recognized in other comprehensive income and accumulated in equity under the heading of revaluation surplus."
+  },
+  {
+    "id": "c12q15",
+    "chapter": 12,
+    "chapterTitle": "IAS 38 Intangible Assets",
+    "question": "A company holds an intangible asset with a finite useful life. Management decides to change the estimated useful life from 10 years to 6 years. How should this change be accounted for?",
+    "options": [
+      "A) Retrospectively by restating prior year financial statements.",
+      "B) Prospectively as a change in accounting estimate over the remaining revised useful life.",
+      "C) By recognizing an immediate impairment loss for the difference.",
+      "D) Ignored, as useful life cannot be changed once established."
+    ],
+    "correctAnswer": "B) Prospectively as a change in accounting estimate over the remaining revised useful life.",
+    "explanation": "A change in useful life is a change in accounting estimate. Under IAS 8, changes in accounting estimates are accounted for prospectively."
+  },
+  {
+    "id": "c13q1",
+    "chapter": 13,
+    "chapterTitle": "Ethical issues in financial reporting",
+    "question": "According to the ICAP Code of Ethics, which fundamental principle requires a member to be straightforward and honest in all professional and business relationships?",
+    "options": [
+      "A) Objectivity",
+      "B) Integrity",
+      "C) Confidentiality",
+      "D) Professional Behaviour"
+    ],
+    "correctAnswer": "B) Integrity",
+    "explanation": "Integrity implies fair dealing and truthfulness. It requires a chartered accountant to be straightforward and honest in all professional and business relationships."
+  },
+  {
+    "id": "c13q2",
+    "chapter": 13,
+    "chapterTitle": "Ethical issues in financial reporting",
+    "question": "Zaid, a CFO, is preparing the year-end financial statements. His CEO pressures him to hide a massive impending loss by delaying the recording of certain expenses. If Zaid complies, which threat to his fundamental principles is primarily occurring?",
+    "options": [
+      "A) Self-review threat",
+      "B) Familiarity threat",
+      "C) Intimidation threat",
+      "D) Advocacy threat"
+    ],
+    "correctAnswer": "C) Intimidation threat",
+    "explanation": "An intimidation threat occurs when a member is deterred from acting objectively because of actual or perceived pressures, including attempts to exercise undue influence (such as a CEO pressuring a CFO)."
+  },
+  {
+    "id": "c13q3",
+    "chapter": 13,
+    "chapterTitle": "Ethical issues in financial reporting",
+    "question": "A chartered accountant holds a significant amount of shares in the company where he works as the Finance Director. This scenario most clearly creates which type of threat to his objectivity?",
+    "options": [
+      "A) Self-interest threat",
+      "B) Self-review threat",
+      "C) Familiarity threat",
+      "D) Intimidation threat"
+    ],
+    "correctAnswer": "A) Self-interest threat",
+    "explanation": "A self-interest threat arises when a financial or other interest will inappropriately influence a professional accountant's judgment or behavior, such as owning shares whose value depends on the financial statements they prepare."
+  },
+  {
+    "id": "c13q4",
+    "chapter": 13,
+    "chapterTitle": "Ethical issues in financial reporting",
+    "question": "Which fundamental principle is threatened if an accountant uses confidential insider information about an impending lucrative merger to buy shares in the company before the news goes public?",
+    "options": [
+      "A) Professional competence and due care",
+      "B) Confidentiality",
+      "C) Advocacy",
+      "D) Objectivity"
+    ],
+    "correctAnswer": "B) Confidentiality",
+    "explanation": "The principle of confidentiality prohibits a member from using confidential information acquired as a result of professional and business relationships for their personal advantage or the advantage of third parties."
+  },
+  {
+    "id": "c13q5",
+    "chapter": 13,
+    "chapterTitle": "Ethical issues in financial reporting",
+    "question": "Under what circumstance might it be acceptable for a chartered accountant to disclose confidential client/employer information?",
+    "options": [
+      "A) To help a close friend make an investment decision.",
+      "B) When there is a legal or professional right or duty to disclose, and it is authorized by the employer or law.",
+      "C) When a competitor offers a financial reward for the data.",
+      "D) Whenever the accountant leaves the employment of the company."
+    ],
+    "correctAnswer": "B) When there is a legal or professional right or duty to disclose, and it is authorized by the employer or law.",
+    "explanation": "Exceptions to confidentiality exist when disclosure is permitted by law and authorized, required by law (e.g., anti-money laundering), or there is a professional duty/right to disclose (e.g., to comply with ICAP investigations)."
+  },
+  {
+    "id": "c13q6",
+    "chapter": 13,
+    "chapterTitle": "Ethical issues in financial reporting",
+    "question": "A financial accountant promotes the shares of their employing company to potential investors in a highly exaggerated manner to help the company secure a loan. What specific threat does this action create?",
+    "options": [
+      "A) Familiarity threat",
+      "B) Advocacy threat",
+      "C) Intimidation threat",
+      "D) Self-review threat"
+    ],
+    "correctAnswer": "B) Advocacy threat",
+    "explanation": "An advocacy threat occurs when a chartered accountant promotes a client's or employing organization's position to the point that their objectivity is compromised."
+  },
+  {
+    "id": "c13q7",
+    "chapter": 13,
+    "chapterTitle": "Ethical issues in financial reporting",
+    "question": "If a chartered accountant in business determines that the financial information they are associated with is materially false or misleading, and the superiors refuse to correct it, what is the ultimate course of action?",
+    "options": [
+      "A) Sign off on it but add a small footnote.",
+      "B) Report it to the local newspaper immediately.",
+      "C) Refuse to remain associated with the misleading information, which may involve resigning.",
+      "D) Adjust the figures secretly without telling management."
+    ],
+    "correctAnswer": "C) Refuse to remain associated with the misleading information, which may involve resigning.",
+    "explanation": "If safeguards fail and the information remains misleading, the accountant must disassociate from it. If unable to do so while employed, resignation from the employing organization might be the only appropriate action."
+  },
+  {
+    "id": "c13q8",
+    "chapter": 13,
+    "chapterTitle": "Ethical issues in financial reporting",
+    "question": "A major supplier offers the Chief Accountant of a company an expensive all-expenses-paid holiday. The accountant is currently negotiating contract renewal with this supplier. Which threats are most likely created here?",
+    "options": [
+      "A) Self-interest and Familiarity threats",
+      "B) Advocacy and Self-review threats",
+      "C) Intimidation and Advocacy threats",
+      "D) Professional competence and Due care threats"
+    ],
+    "correctAnswer": "A) Self-interest and Familiarity threats",
+    "explanation": "Accepting significant gifts creates a self-interest threat (financial gain) and a familiarity threat (becoming too sympathetic to the supplier's interests)."
+  },
+  {
+    "id": "c13q9",
+    "chapter": 13,
+    "chapterTitle": "Ethical issues in financial reporting",
+    "question": "Which principle requires an accountant to maintain professional knowledge and skill at the level required to ensure that clients or employers receive competent professional service?",
+    "options": [
+      "A) Integrity",
+      "B) Objectivity",
+      "C) Professional competence and due care",
+      "D) Professional behaviour"
+    ],
+    "correctAnswer": "C) Professional competence and due care",
+    "explanation": "This is the exact definition of the fundamental principle of professional competence and due care."
+  },
+  {
+    "id": "c13q10",
+    "chapter": 13,
+    "chapterTitle": "Ethical issues in financial reporting",
+    "question": "A newly qualified accountant accepts a role as Head of Tax for a multinational corporation, despite having zero experience or training in international tax laws. Which fundamental principle is being threatened?",
+    "options": [
+      "A) Integrity",
+      "B) Professional competence and due care",
+      "C) Confidentiality",
+      "D) Advocacy"
+    ],
+    "correctAnswer": "B) Professional competence and due care",
+    "explanation": "Accepting a task or job without the requisite skills, experience, or training directly threatens the principle of professional competence and due care."
+  },
+  {
+    "id": "c13q11",
+    "chapter": 13,
+    "chapterTitle": "Ethical issues in financial reporting",
+    "question": "What is a 'Self-review' threat in the context of the ICAP Code of Ethics?",
+    "options": [
+      "A) The threat that an accountant will rely too heavily on their own previous judgment or work when performing a current activity.",
+      "B) The threat that an accountant will review their salary inappropriately.",
+      "C) The threat that management will review the accountant's work negatively.",
+      "D) The threat of reviewing competitor's financial statements."
+    ],
+    "correctAnswer": "A) The threat that an accountant will rely too heavily on their own previous judgment or work when performing a current activity.",
+    "explanation": "A self-review threat is the risk that a professional will not appropriately evaluate the results of a previous judgment made or service performed by themselves or someone else in their firm/organization."
+  },
+  {
+    "id": "c13q12",
+    "chapter": 13,
+    "chapterTitle": "Ethical issues in financial reporting",
+    "question": "If a threat to compliance with the fundamental principles is identified, the ICAP Code requires the accountant to apply 'safeguards'. What is the purpose of these safeguards?",
+    "options": [
+      "A) To completely ignore the threat.",
+      "B) To eliminate the threat or reduce it to an acceptable level.",
+      "C) To hide the threat from the audit committee.",
+      "D) To justify unethical behavior legally."
+    ],
+    "correctAnswer": "B) To eliminate the threat or reduce it to an acceptable level.",
+    "explanation": "Safeguards are actions or other measures that may eliminate threats or reduce them to an acceptable level."
+  },
+  {
+    "id": "c13q13",
+    "chapter": 13,
+    "chapterTitle": "Ethical issues in financial reporting",
+    "question": "A manager asks you to capitalize routine repair and maintenance costs to boost current year profits to secure a bank loan. Complying with this request would primarily violate which accounting and ethical standards?",
+    "options": [
+      "A) IAS 16 and Integrity / Objectivity",
+      "B) IAS 2 and Confidentiality",
+      "C) IFRS 15 and Familiarity",
+      "D) IAS 37 and Advocacy"
+    ],
+    "correctAnswer": "A) IAS 16 and Integrity / Objectivity",
+    "explanation": "Routine maintenance cannot be capitalized under IAS 16. Doing so deliberately to inflate profits involves knowingly producing misleading information, violating Integrity and Objectivity."
+  },
+  {
+    "id": "c13q14",
+    "chapter": 13,
+    "chapterTitle": "Ethical issues in financial reporting",
+    "question": "Which principle imposes an obligation on all professional accountants to comply with relevant laws and regulations and avoid any action that discredits the profession?",
+    "options": [
+      "A) Objectivity",
+      "B) Professional Behaviour",
+      "C) Confidentiality",
+      "D) Advocacy"
+    ],
+    "correctAnswer": "B) Professional Behaviour",
+    "explanation": "Professional behaviour requires members to comply with relevant laws and avoid actions that may bring discredit to the accountancy profession."
+  },
+  {
+    "id": "c13q15",
+    "chapter": 13,
+    "chapterTitle": "Ethical issues in financial reporting",
+    "question": "In a corporate structure, if an ethical conflict cannot be resolved with an immediate supervisor, who is typically the next most appropriate party within the organization to consult?",
+    "options": [
+      "A) The external auditor",
+      "B) The media",
+      "C) The Audit Committee or Those Charged with Governance (e.g., the Board of Directors)",
+      "D) A major shareholder"
+    ],
+    "correctAnswer": "C) The Audit Committee or Those Charged with Governance (e.g., the Board of Directors)",
+    "explanation": "Standard ethical conflict resolution protocols suggest escalating the issue internally to higher levels of management, such as the Audit Committee or the Board of Directors, before considering external avenues."
+  },
+  {
+    "id": "c14q1",
+    "chapter": 14,
+    "chapterTitle": "ESG and Sustainability",
+    "question": "What does the acronym 'ESG' stand for in the context of corporate reporting and sustainability?",
+    "options": [
+      "A) Economic, Social, and Growth",
+      "B) Environmental, Social, and Governance",
+      "C) Ethical, Sustainable, and Green",
+      "D) Enterprise, Strategy, and Governance"
+    ],
+    "correctAnswer": "B) Environmental, Social, and Governance",
+    "explanation": "ESG stands for Environmental, Social, and Governance. These factors are crucial in evaluating how a business manages its impact and responsibilities in sustainable development."
+  },
+  {
+    "id": "c14q2",
+    "chapter": 14,
+    "chapterTitle": "ESG and Sustainability",
+    "question": "What is the primary objective of IFRS S1 (General Requirements for Disclosure of Sustainability-related Financial Information)?",
+    "options": [
+      "A) To force companies to donate 1% of profits to environmental charities.",
+      "B) To replace traditional financial statements entirely.",
+      "C) To require companies to disclose information about sustainability-related risks and opportunities that is useful to users in making decisions relating to providing resources to the entity.",
+      "D) To limit carbon emissions to a legally mandated global threshold."
+    ],
+    "correctAnswer": "C) To require companies to disclose information about sustainability-related risks and opportunities that is useful to users in making decisions relating to providing resources to the entity.",
+    "explanation": "IFRS S1 aims to ensure that an entity discloses material information about all sustainability-related risks and opportunities that could reasonably be expected to affect the entity's cash flows, access to finance or cost of capital."
+  },
+  {
+    "id": "c14q3",
+    "chapter": 14,
+    "chapterTitle": "ESG and Sustainability",
+    "question": "Which of the following is considered an 'Environmental' factor in ESG reporting?",
+    "options": [
+      "A) Diversity and inclusion in the workforce.",
+      "B) Board independence and structure.",
+      "C) Energy efficiency and greenhouse gas emissions.",
+      "D) Executive compensation and anti-bribery policies."
+    ],
+    "correctAnswer": "C) Energy efficiency and greenhouse gas emissions.",
+    "explanation": "Environmental factors concern how a company interacts with the physical environment, including energy use, emissions, waste management, and resource depletion."
+  },
+  {
+    "id": "c14q4",
+    "chapter": 14,
+    "chapterTitle": "ESG and Sustainability",
+    "question": "IFRS S1 categorizes its core content into four areas. Which of the following is NOT one of those four areas?",
+    "options": [
+      "A) Governance",
+      "B) Strategy",
+      "C) Risk Management",
+      "D) Historical Cost Accounting"
+    ],
+    "correctAnswer": "D) Historical Cost Accounting",
+    "explanation": "The four core content areas of IFRS S1 are Governance, Strategy, Risk Management, and Metrics and Targets. Historical cost accounting relates to traditional financial reporting."
+  },
+  {
+    "id": "c14q5",
+    "chapter": 14,
+    "chapterTitle": "ESG and Sustainability",
+    "question": "Under the 'Governance' core content area of IFRS S1, what type of information is an entity primarily expected to disclose?",
+    "options": [
+      "A) The exact scientific formula used to calculate carbon emissions.",
+      "B) The governance processes, controls, and procedures the entity uses to monitor and manage sustainability-related risks and opportunities.",
+      "C) A list of all local charities the company supports.",
+      "D) The marketing strategy for green products."
+    ],
+    "correctAnswer": "B) The governance processes, controls, and procedures the entity uses to monitor and manage sustainability-related risks and opportunities.",
+    "explanation": "Governance disclosures help users understand the board's oversight and management's role in assessing and managing sustainability-related risks and opportunities."
+  },
+  {
+    "id": "c14q6",
+    "chapter": 14,
+    "chapterTitle": "ESG and Sustainability",
+    "question": "Under IFRS S1, where must an entity provide its sustainability-related financial disclosures?",
+    "options": [
+      "A) On its social media pages.",
+      "B) Exclusively in a separate, voluntary sustainability report issued six months after year-end.",
+      "C) As part of its general purpose financial reports, published at the same time as the financial statements.",
+      "D) Only internally to the Board of Directors."
+    ],
+    "correctAnswer": "C) As part of its general purpose financial reports, published at the same time as the financial statements.",
+    "explanation": "IFRS S1 requires sustainability-related financial disclosures to be published at the same time as the related financial statements and as part of the general purpose financial reports."
+  },
+  {
+    "id": "c14q7",
+    "chapter": 14,
+    "chapterTitle": "ESG and Sustainability",
+    "question": "Which of the following is a classic example of a 'Social' factor in ESG?",
+    "options": [
+      "A) Water usage and recycling.",
+      "B) Labor practices, occupational health, and safety.",
+      "C) Board of Directors voting structures.",
+      "D) Protection of wildlife habitats."
+    ],
+    "correctAnswer": "B) Labor practices, occupational health, and safety.",
+    "explanation": "Social factors focus on relationships with employees, suppliers, customers, and communities. This includes labor practices, health and safety, and diversity."
+  },
+  {
+    "id": "c14q8",
+    "chapter": 14,
+    "chapterTitle": "ESG and Sustainability",
+    "question": "A clothing retailer is reporting on its efforts to ensure factory workers in its supply chain are paid living wages and work in safe conditions. This disclosure falls under which ESG pillar?",
+    "options": [
+      "A) Environmental",
+      "B) Social",
+      "C) Governance",
+      "D) Economic"
+    ],
+    "correctAnswer": "B) Social",
+    "explanation": "Supply chain ethics, worker safety, and fair wages are human-centric issues, falling under the 'Social' (S) pillar of ESG."
+  },
+  {
+    "id": "c14q9",
+    "chapter": 14,
+    "chapterTitle": "ESG and Sustainability",
+    "question": "Under the 'Metrics and Targets' section of IFRS S1, an entity should disclose:",
+    "options": [
+      "A) Only the targets it has successfully achieved.",
+      "B) Vague intentions to 'do better' for the environment.",
+      "C) Information used to measure performance in relation to sustainability-related risks and opportunities, including progress towards set targets.",
+      "D) Competitors' targets to show relative performance."
+    ],
+    "correctAnswer": "C) Information used to measure performance in relation to sustainability-related risks and opportunities, including progress towards set targets.",
+    "explanation": "Metrics and targets require specific data on how an entity measures, monitors, and evaluates its performance over time relative to its sustainability objectives."
+  },
+  {
+    "id": "c14q10",
+    "chapter": 14,
+    "chapterTitle": "ESG and Sustainability",
+    "question": "Which of the following best represents a 'Governance' factor in ESG reporting?",
+    "options": [
+      "A) Reducing greenhouse gas emissions by 20%.",
+      "B) Sourcing sustainable raw materials.",
+      "C) Implementing a strict anti-corruption policy and linking executive pay to ethical targets.",
+      "D) Providing free healthcare to local communities."
+    ],
+    "correctAnswer": "C) Implementing a strict anti-corruption policy and linking executive pay to ethical targets.",
+    "explanation": "Governance relates to corporate leadership, internal controls, audits, board structures, and anti-corruption/anti-bribery policies."
+  },
+  {
+    "id": "c14q11",
+    "chapter": 14,
+    "chapterTitle": "ESG and Sustainability",
+    "question": "A technology company consumes massive amounts of electricity to run its data centers. Reporting on its transition to 100% renewable energy sources addresses which ESG aspect?",
+    "options": [
+      "A) Environmental",
+      "B) Social",
+      "C) Governance",
+      "D) Philanthropic"
+    ],
+    "correctAnswer": "A) Environmental",
+    "explanation": "Energy efficiency and the use of renewable resources directly impact the physical environment and represent a core 'Environmental' factor."
+  },
+  {
+    "id": "c14q12",
+    "chapter": 14,
+    "chapterTitle": "ESG and Sustainability",
+    "question": "Why is the concept of 'materiality' central to IFRS S1 disclosures?",
+    "options": [
+      "A) Because entities must report every single environmental data point, regardless of size.",
+      "B) Because disclosures should focus only on information that could reasonably affect the entity's cash flows and enterprise value, aiding investor decisions.",
+      "C) Because it dictates the type of physical materials the company uses in production.",
+      "D) Because ESG reporting only applies to manufacturing (material-heavy) industries."
+    ],
+    "correctAnswer": "B) Because disclosures should focus only on information that could reasonably affect the entity's cash flows and enterprise value, aiding investor decisions.",
+    "explanation": "Information is material if omitting, misstating, or obscuring it could reasonably be expected to influence decisions that primary users make. IFRS S1 focuses on financial materiality."
+  },
+  {
+    "id": "c14q13",
+    "chapter": 14,
+    "chapterTitle": "ESG and Sustainability",
+    "question": "If a company claims its new product is '100% environmentally friendly' but actually uses highly toxic unrecyclable materials in its core components, this practice is commonly known as:",
+    "options": [
+      "A) Carbon offsetting",
+      "B) Sustainability integration",
+      "C) Greenwashing",
+      "D) Environmental governance"
+    ],
+    "correctAnswer": "C) Greenwashing",
+    "explanation": "Greenwashing is the deceptive practice of making unsupported or misleading claims about the environmental benefits of a product, service, or company operation."
+  },
+  {
+    "id": "c14q14",
+    "chapter": 14,
+    "chapterTitle": "ESG and Sustainability",
+    "question": "Under the 'Risk Management' core content of IFRS S1, what is the key disclosure requirement?",
+    "options": [
+      "A) The names of the insurance companies the entity uses.",
+      "B) The processes the entity uses to identify, assess, prioritize, and monitor sustainability-related risks.",
+      "C) The personal risk appetite of the CEO.",
+      "D) Only the financial risks related to interest rate fluctuations."
+    ],
+    "correctAnswer": "B) The processes the entity uses to identify, assess, prioritize, and monitor sustainability-related risks.",
+    "explanation": "This section requires entities to explain their frameworks and protocols designed to identify, assess, and mitigate sustainability-related risks effectively."
+  },
+  {
+    "id": "c14q15",
+    "chapter": 14,
+    "chapterTitle": "ESG and Sustainability",
+    "question": "Which of the following scenarios best illustrates the linkage between ESG factors and financial performance (enterprise value)?",
+    "options": [
+      "A) A company paints its office walls green to improve employee mood.",
+      "B) A company faces a massive fine and consumer boycott due to a severe chemical spill caused by poor safety protocols.",
+      "C) A company changes its logo to look more modern.",
+      "D) A company switches from blue to black ink for its internal memos."
+    ],
+    "correctAnswer": "B) A company faces a massive fine and consumer boycott due to a severe chemical spill caused by poor safety protocols.",
+    "explanation": "A chemical spill (Environmental) caused by poor protocols (Governance) leading to fines and boycotts directly impacts cash flows and access to capital, illustrating the financial materiality of ESG."
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "id": "b3c12q1",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Hypothesis Testing",
+    "question": "In standard statistical terminology, what is the precise definition of 'Standard Error'?",
+    "options": [
+      "A) The average mistake made during data entry.",
+      "B) The absolute variance of the entire population.",
+      "C) The standard deviation of the sampling distribution of a statistic, such as the mean.",
+      "D) The probability of rejecting a true null hypothesis."
+    ],
+    "correctAnswer": "C) The standard deviation of the sampling distribution of a statistic, such as the mean.",
+    "explanation": "The term 'standard error' is the formal mathematical designation given specifically to the standard deviation of a sampling distribution (usually the sampling distribution of the mean)."
+  },
+  {
+    "id": "b3c12q2",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Hypothesis Testing",
+    "question": "Which of the following statements best describes an observation based on a 'Population'?",
+    "options": [
+      "A) It involves selecting a random subset of exactly 30 items.",
+      "B) It is desired and designed to explicitly consider all the members or elements in that observation.",
+      "C) It inherently requires calculating the T-distribution.",
+      "D) It only applies to cross-sectional qualitative data."
+    ],
+    "correctAnswer": "B) It is desired and designed to explicitly consider all the members or elements in that observation.",
+    "explanation": "A population observation (such as a full census) is fundamentally defined by the researcher's intent to consider every single constituent element of the targeted group, rather than just a sample subset."
+  },
+  {
+    "id": "b3c12q3",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Hypothesis Testing",
+    "question": "During a hypothesis test, if the computed test statistic strictly falls within the 'Critical Region' (or rejection region), what is the appropriate statistical action?",
+    "options": [
+      "A) Accept the null hypothesis.",
+      "B) Reject the null hypothesis.",
+      "C) Increase the level of significance.",
+      "D) Change the sample size and test again."
+    ],
+    "correctAnswer": "B) Reject the null hypothesis.",
+    "explanation": "The critical region defines the extreme threshold of mathematical values. If a test statistic lands inside this zone, the finding is deemed 'statistically significant', mandating the rejection of the null hypothesis."
+  },
+  {
+    "id": "b3c12q4",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Hypothesis Testing",
+    "question": "What profound phenomenon does the 'Central Limit Theorem' mathematically guarantee regarding sample means?",
+    "options": [
+      "A) The sample mean will always equal exactly zero.",
+      "B) The standard deviation will double as the sample size increases.",
+      "C) As the sample size increases, the sampling distribution of the mean approaches a normal, bell-shaped distribution, regardless of the population's original shape.",
+      "D) Skewed populations cannot be sampled."
+    ],
+    "correctAnswer": "C) As the sample size increases, the sampling distribution of the mean approaches a normal, bell-shaped distribution, regardless of the population's original shape.",
+    "explanation": "The Central Limit Theorem asserts that if you take sufficiently large samples (usually n > 30), the distribution of those sample means will look like a normal distribution, even if the underlying population is wildly skewed."
+  },
+  {
+    "id": "b3c12q5",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Hypothesis Testing",
+    "question": "What grave statistical mistake is formally defined as a 'Type I Error'?",
+    "options": [
+      "A) Accepting the null hypothesis when it is actually false.",
+      "B) Rejecting the null hypothesis when it is actually perfectly true.",
+      "C) Using a one-tailed test instead of a two-tailed test.",
+      "D) Miscalculating the population variance."
+    ],
+    "correctAnswer": "B) Rejecting the null hypothesis when it is actually perfectly true.",
+    "explanation": "A Type I error (a false positive) occurs when a researcher incorrectly rejects a true null hypothesis, mistakenly claiming a significant effect or difference exists when it mathematically does not."
+  },
+  {
+    "id": "b3c12q6",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Hypothesis Testing",
+    "question": "What statistical error is formally defined as a 'Type II Error'?",
+    "options": [
+      "A) Rejecting a true null hypothesis.",
+      "B) Accepting (failing to reject) a false null hypothesis.",
+      "C) Utilizing an incorrect standard error formula.",
+      "D) Sampling more than 30 items."
+    ],
+    "correctAnswer": "B) Accepting (failing to reject) a false null hypothesis.",
+    "explanation": "A Type II error (a false negative) occurs when a researcher fails to reject a null hypothesis that is actually false, thereby missing a real mathematical effect or relationship that exists in the population."
+  },
+  {
+    "id": "b3c12q7",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Hypothesis Testing",
+    "question": "In the context of hypothesis testing, what does the 'Level of Significance' (often denoted as alpha, \u03b1) specifically represent?",
+    "options": [
+      "A) The exact probability of committing a Type II error.",
+      "B) The absolute certainty that the sample is entirely flawless.",
+      "C) The maximum acceptable probability of committing a Type I error.",
+      "D) The median value of the confidence interval."
+    ],
+    "correctAnswer": "C) The maximum acceptable probability of committing a Type I error.",
+    "explanation": "The level of significance (e.g., 5% or 0.05) is the pre-set mathematical threshold representing the maximum risk a researcher is willing to take of incorrectly rejecting a true null hypothesis."
+  },
+  {
+    "id": "b3c12q8",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Hypothesis Testing",
+    "question": "What is the primary function of utilizing a 'Chi-Square Goodness of Fit' test?",
+    "options": [
+      "A) To establish the linear regression slope of continuous variables.",
+      "B) To compare observed categorical frequencies with expected theoretical frequencies to determine if a specific model fits the data.",
+      "C) To calculate the net present value of long-term investments.",
+      "D) To strictly determine the correlation coefficient."
+    ],
+    "correctAnswer": "B) To compare observed categorical frequencies with expected theoretical frequencies to determine if a specific model fits the data.",
+    "explanation": "The Chi-Square Goodness of Fit test evaluates categorical data. It compares the actual observed counts against theoretically expected counts to see how well the empirical data 'fits' the established hypothesis."
+  },
+  {
+    "id": "b3c12q9",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Hypothesis Testing",
+    "question": "When conducting a standard hypothesis test, if the sample size is small (n < 30) and the true population standard deviation is strictly unknown, which distribution must be applied?",
+    "options": [
+      "A) The Standard Normal (Z) distribution",
+      "B) The Poisson distribution",
+      "C) The Student's T-distribution",
+      "D) The Binomial distribution"
+    ],
+    "correctAnswer": "C) The Student's T-distribution",
+    "explanation": "When dealing with small samples (n < 30) where the population standard deviation is unknown, the T-distribution is mathematically required because its thicker tails account for the increased uncertainty in the estimate."
+  },
+  {
+    "id": "b3c12q10",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Hypothesis Testing",
+    "question": "If a researcher calculates a 99% 'Confidence Interval' for the average weight of a product to be [45kg, 55kg], what does this statistical range signify?",
+    "options": [
+      "A) An interval within which the researcher is 99% confident the true unknown population mean lies.",
+      "B) That exactly 99% of all manufactured products weigh between 45kg and 55kg.",
+      "C) That the standard error is exactly 10kg.",
+      "D) A 99% guarantee that the sample mean is exactly 50kg."
+    ],
+    "correctAnswer": "A) An interval within which the researcher is 99% confident the true unknown population mean lies.",
+    "explanation": "A confidence interval provides a mathematically derived range. The percentage (99%) represents the level of confidence that the actual, true population parameter falls somewhere within that specific bracket."
+  }
+]

@@ -1,0 +1,632 @@
+[
+  {
+    "id": "b2c7q1",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "Which of the following is an example of continuous data?",
+    "options": [
+      "A) The number of employees in a firm",
+      "B) The number of chairs in a room",
+      "C) The height of a commercial building",
+      "D) The number of cars in a parking lot"
+    ],
+    "correctAnswer": "C) The height of a commercial building",
+    "explanation": "Continuous data represents variables that can assume any possible fractional value within a given specific range, such as the exact height of a building."
+  },
+  {
+    "id": "b2c7q2",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "Data that is systematically collected and tracked over a specified period of time is referred to as:",
+    "options": [
+      "A) Discrete data",
+      "B) Cross-sectional data",
+      "C) Time series data",
+      "D) Grouped data"
+    ],
+    "correctAnswer": "C) Time series data",
+    "explanation": "Time series data are explicitly defined as data values that are collected and tracked sequentially over a period of time."
+  },
+  {
+    "id": "b2c7q3",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "Which of the following statements regarding discrete data classes is true?",
+    "options": [
+      "A) There is absolutely no gap between them.",
+      "B) There are natural gaps between them.",
+      "C) They must be measured in decimals.",
+      "D) They are plotted as ogives only."
+    ],
+    "correctAnswer": "B) There are natural gaps between them.",
+    "explanation": "A grouped frequency distribution of discrete data inherently has defined gaps between the designated classes."
+  },
+  {
+    "id": "b2c7q4",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "In standard statistical class boundaries, which of the following characteristics strictly applies?",
+    "options": [
+      "A) There are distinct gaps between classes.",
+      "B) There is absolutely no gap between the classes.",
+      "C) They cannot be plotted on a graph.",
+      "D) They only apply to qualitative data."
+    ],
+    "correctAnswer": "B) There is absolutely no gap between the classes.",
+    "explanation": "Unlike discrete data limits, in continuous class boundaries, there is mathematically no gap between the consecutive classes."
+  },
+  {
+    "id": "b2c7q5",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "What does a single point plotted on a \"less than\" ogive curve specifically indicate?",
+    "options": [
+      "A) The exact mean of the data.",
+      "B) How many observations have a value less than the corresponding value on the x-axis.",
+      "C) The variance of the sample.",
+      "D) The maximum frequency of the data."
+    ],
+    "correctAnswer": "B) How many observations have a value less than the corresponding value on the x-axis.",
+    "explanation": "Each point on an ogive curve visually shows how many units or observations had values strictly less than the corresponding data value plotted on the axis."
+  },
+  {
+    "id": "b2c7q6",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "Which of the following is a classic example of discrete data?",
+    "options": [
+      "A) The exact weight of a vegetable bag",
+      "B) The precise length of a metal rod",
+      "C) The number of seats available in a conference room",
+      "D) The temperature of a room"
+    ],
+    "correctAnswer": "C) The number of seats available in a conference room",
+    "explanation": "Discrete data consists of countable, whole numbers that cannot be broken into fractions, such as the exact number of seats in a room."
+  },
+  {
+    "id": "b2c7q7",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "How is a \"more than\" ogive graphically developed?",
+    "options": [
+      "A) By plotting standard relative frequencies.",
+      "B) By utilizing a more than cumulative frequency series.",
+      "C) By drawing independent bars instead of continuous lines.",
+      "D) By plotting only the highest values."
+    ],
+    "correctAnswer": "B) By utilizing a more than cumulative frequency series.",
+    "explanation": "While a standard ogive is a \"less than\" curve, a \"more than\" ogives graph is developed specifically by calculating and using a more than cumulative frequency series."
+  },
+  {
+    "id": "b2c7q8",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "If a frequency distribution table shows weekly sales of \"400 to under 500\" with a cumulative frequency reaching 40, what does this 40 represent?",
+    "options": [
+      "A) The absolute total sales value.",
+      "B) The running total of frequencies up to and including that class.",
+      "C) The mean weekly sales.",
+      "D) The class width of the final group."
+    ],
+    "correctAnswer": "B) The running total of frequencies up to and including that class.",
+    "explanation": "The cumulative frequency represents the running mathematical total of all combined frequencies up to the upper boundary of that specific class."
+  },
+  {
+    "id": "b2c7q9",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "Cross-sectional data is best described as:",
+    "options": [
+      "A) Data collected over consecutive time periods.",
+      "B) Data collected at a single point in time across various subjects.",
+      "C) Data that only contains continuous variables.",
+      "D) Data representing endless infinite progressions."
+    ],
+    "correctAnswer": "B) Data collected at a single point in time across various subjects.",
+    "explanation": "While time series data is tracked chronologically over time, cross-sectional data captures a snapshot of multiple subjects at one single, specific point in time."
+  },
+  {
+    "id": "b2c7q10",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "The term 'frequency' in a grouped distribution refers to:",
+    "options": [
+      "A) The mathematical difference between the highest and lowest value.",
+      "B) The number of times a specific value or class of values occurs.",
+      "C) The exact midpoint of a class.",
+      "D) The cumulative total of the entire dataset."
+    ],
+    "correctAnswer": "B) The number of times a specific value or class of values occurs.",
+    "explanation": "Frequency is strictly defined as the count of occurrences or total observations that fall within a defined data class interval."
+  },
+  {
+    "id": "b2c7q11",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "To find the precise class mark or mid-point of a grouped class, a researcher must:",
+    "options": [
+      "A) Subtract the lower limit from the upper limit.",
+      "B) Add the upper and lower limits and divide by two.",
+      "C) Multiply the upper and lower limits.",
+      "D) Divide the frequency by two."
+    ],
+    "correctAnswer": "B) Add the upper and lower limits and divide by two.",
+    "explanation": "The mid-point of a given class is calculated mathematically by taking the average of the upper and lower limits of that specific class."
+  },
+  {
+    "id": "b2c7q12",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "Which type of data variable can naturally assume any fractional value within a given specific range?",
+    "options": [
+      "A) Discrete variable",
+      "B) Continuous variable",
+      "C) Qualitative variable",
+      "D) Categorical variable"
+    ],
+    "correctAnswer": "B) Continuous variable",
+    "explanation": "Examples of continuous data, like height or weight, demonstrate that these variables can be measured to take any precise decimal value within a range."
+  },
+  {
+    "id": "b2c7q13",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "If an observer wishes to convert discrete grouped data limits into continuous class boundaries, what mathematical adjustment is primarily made?",
+    "options": [
+      "A) Completely removing the class limits.",
+      "B) Closing the gaps between the consecutive classes.",
+      "C) Adding the absolute frequencies together.",
+      "D) Squaring the data values."
+    ],
+    "correctAnswer": "B) Closing the gaps between the consecutive classes.",
+    "explanation": "Discrete data can be formally converted into continuous data by adjusting the limits to boundaries, thereby closing and removing the gaps between classes."
+  },
+  {
+    "id": "b2c7q14",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "Which data type is intrinsically countable rather than measurable?",
+    "options": [
+      "A) Continuous data",
+      "B) Discrete data",
+      "C) Time series data",
+      "D) Cross-sectional data"
+    ],
+    "correctAnswer": "B) Discrete data",
+    "explanation": "Discrete data represents countable whole items, such as the number of seats or students, whereas continuous data is measured with precision tools."
+  },
+  {
+    "id": "b2c7q15",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "When constructing an ogive, the cumulative frequency is traditionally plotted on which axis?",
+    "options": [
+      "A) The horizontal x-axis",
+      "B) The vertical y-axis",
+      "C) The secondary z-axis",
+      "D) It is not plotted on an axis"
+    ],
+    "correctAnswer": "B) The vertical y-axis",
+    "explanation": "In a standard cumulative frequency graph (ogive), the accumulated frequencies are always plotted ascending along the vertical y-axis."
+  },
+  {
+    "id": "b2c8q1",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "If a researcher multiplies every single observation in a dataset by exactly 5, what will mathematically happen to the arithmetic mean of that new dataset?",
+    "options": [
+      "A) It will increase by 5.",
+      "B) It will increase by 5 times.",
+      "C) It will remain completely unaltered.",
+      "D) It will decrease by 5 times."
+    ],
+    "correctAnswer": "B) It will increase by 5 times.",
+    "explanation": "A fundamental property of the arithmetic mean is that if each observation is multiplied by a constant, the new mean increases by that exact multiple."
+  },
+  {
+    "id": "b2c8q2",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "If every observation in a statistical sample is divided by 10, how is the new arithmetic mean affected?",
+    "options": [
+      "A) It is mathematically multiplied by 10.",
+      "B) It remains completely unchanged.",
+      "C) It is divided by 10.",
+      "D) It increases by exactly 10."
+    ],
+    "correctAnswer": "C) It is divided by 10.",
+    "explanation": "If each observation in a dataset is divided by a specific constant like 10, the resulting arithmetic mean of the new set will also be divided by 10."
+  },
+  {
+    "id": "b2c8q3",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "Which of the following statements accurately describes a skewed distribution curve?",
+    "options": [
+      "A) Frequencies run up to a maximum at one end of the range.",
+      "B) It departs from symmetry and frequencies tend to pile up at one or the other end of the curve.",
+      "C) Values are at equal distance from a central maximum.",
+      "D) It has maximum frequencies at both extreme ends."
+    ],
+    "correctAnswer": "B) It departs from symmetry and frequencies tend to pile up at one or the other end of the curve.",
+    "explanation": "A skewed curve departs from perfect symmetry, causing the data frequencies to heavily pile up at one extreme end of the range."
+  },
+  {
+    "id": "b2c8q4",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "How is a perfectly symmetrical frequency distribution defined visually?",
+    "options": [
+      "A) It departs heavily from symmetry.",
+      "B) Frequencies pile up exclusively at the right end.",
+      "C) It represents values that are at equal distance from a central maximum value.",
+      "D) Frequencies run up to a maximum at one end."
+    ],
+    "correctAnswer": "C) It represents values that are at equal distance from a central maximum value.",
+    "explanation": "In a symmetrical distribution, the data points represent values that are plotted at equal distance mirroring a central maximum value."
+  },
+  {
+    "id": "b2c8q5",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "Which of the following best defines the 'standard error' in statistical analysis?",
+    "options": [
+      "A) The variance of a single sample.",
+      "B) The standard deviation of the sampling distribution of the means.",
+      "C) The median of a population.",
+      "D) The mode of a grouped distribution."
+    ],
+    "correctAnswer": "B) The standard deviation of the sampling distribution of the means.",
+    "explanation": "The standard deviation of the sampling distribution of the means is specifically and technically called the standard error."
+  },
+  {
+    "id": "b2c8q6",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "If a constant value of 3 is systematically subtracted from every observation of variable Y, what will happen to the calculated correlation coefficient (r)?",
+    "options": [
+      "A) It will increase by 3.",
+      "B) It will decrease by 3.",
+      "C) It will remain completely unchanged.",
+      "D) It will multiply by 3."
+    ],
+    "correctAnswer": "C) It will remain completely unchanged.",
+    "explanation": "The correlation coefficient (r) is independent of the change of origin, meaning adding or subtracting constants from the observations leaves it completely unchanged."
+  },
+  {
+    "id": "b2c8q7",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "Which of the following describes a U-shaped frequency distribution curve?",
+    "options": [
+      "A) Frequencies pile up heavily at one end.",
+      "B) It has maximum frequencies occurring at both ends of the range and a minimum frequency towards the center.",
+      "C) It is perfectly symmetrical with a single central peak.",
+      "D) It represents equal frequencies across all possible classes."
+    ],
+    "correctAnswer": "B) It has maximum frequencies occurring at both ends of the range and a minimum frequency towards the center.",
+    "explanation": "A U-shaped curve is strictly characterized by having maximum frequencies at the extreme ends of the range and minimum frequencies dipping in the center."
+  },
+  {
+    "id": "b2c8q8",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "When is the arithmetic mean generally considered the most appropriate statistical measure?",
+    "options": [
+      "A) When data is heavily skewed.",
+      "B) When the data contains massive extreme outliers.",
+      "C) As the best single figure to describe symmetrical data.",
+      "D) When analyzing purely qualitative survey data."
+    ],
+    "correctAnswer": "C) As the best single figure to describe symmetrical data.",
+    "explanation": "The arithmetic mean is widely considered the best single mathematical figure to describe a typical, non-skewed dataset."
+  },
+  {
+    "id": "b2c8q9",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "What is the true mathematical relationship between the variance and the standard deviation?",
+    "options": [
+      "A) Variance is the square root of the standard deviation.",
+      "B) Standard deviation is the square root of the variance.",
+      "C) They are always identical numbers.",
+      "D) Variance is always exactly double the standard deviation."
+    ],
+    "correctAnswer": "B) Standard deviation is the square root of the variance.",
+    "explanation": "The variance can never be smaller than the standard deviation (except when the value is a fraction between 0 and 1), because the standard deviation is defined as the mathematical square root of the variance."
+  },
+  {
+    "id": "b2c8q10",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "A J-shaped statistical curve is essentially characterized by which of the following?",
+    "options": [
+      "A) It has maximum frequencies occurring at both ends of the range.",
+      "B) It represents values at equal distance from a central maximum.",
+      "C) It has frequencies that run up to a maximum at one end of the range.",
+      "D) It depicts a completely constant frequency."
+    ],
+    "correctAnswer": "C) It has frequencies that run up to a maximum at one end of the range.",
+    "explanation": "A J-shaped frequency curve mathematically displays frequencies that consistently run up to a single maximum peak at one extreme end of the data range."
+  },
+  {
+    "id": "b2c8q11",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "If the variance of a dataset is mathematically calculated to be exactly zero, what does this imply about the dataset?",
+    "options": [
+      "A) All observations are completely identical with no dispersion.",
+      "B) The arithmetic mean is also zero.",
+      "C) The standard deviation is negative.",
+      "D) The dataset has an infinite endless range."
+    ],
+    "correctAnswer": "A) All observations are completely identical with no dispersion.",
+    "explanation": "While it is extremely rare, variance can mathematically be zero if and only if there is absolutely no deviation from the mean, meaning all data points are identical."
+  },
+  {
+    "id": "b2c8q12",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "If you multiply each observation of variable X by 100, what will happen to a correlation coefficient of 0.9?",
+    "options": [
+      "A) It will increase to 90.",
+      "B) It will decrease to 0.009.",
+      "C) It will remain exactly unchanged at 0.9.",
+      "D) It cannot be determined without knowing Y."
+    ],
+    "correctAnswer": "C) It will remain exactly unchanged at 0.9.",
+    "explanation": "The correlation coefficient (r) is independent of the change of scale; multiplying observations by a large constant does not alter the underlying linear value of r."
+  },
+  {
+    "id": "b2c8q13",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "If a data set has extreme outlier values exclusively on the higher end, how will this affect the arithmetic mean compared to the median?",
+    "options": [
+      "A) The mean will be pulled substantially higher than the median.",
+      "B) The mean will be pulled substantially lower than the median.",
+      "C) The mean and median will remain perfectly equal.",
+      "D) The median will automatically become negative."
+    ],
+    "correctAnswer": "A) The mean will be pulled substantially higher than the median.",
+    "explanation": "In a distribution that heavily departs from symmetry and piles up at one end, extreme values will drastically drag the arithmetic mean in the direction of the skewness."
+  },
+  {
+    "id": "b2c8q14",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "Which specific statistical value is mathematically defined as the most frequently repeated observation in a given dataset?",
+    "options": [
+      "A) Arithmetic Mean",
+      "B) Median",
+      "C) Mode",
+      "D) Range"
+    ],
+    "correctAnswer": "C) Mode",
+    "explanation": "Unlike the arithmetic mean which averages data, the mode is specifically identified as the single most repeated value within a set of observations."
+  },
+  {
+    "id": "b2c8q15",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "If you subtract 3 from each observation of variable X and add 5 to each observation of variable Y, what will happen to a correlation coefficient of 0.85?",
+    "options": [
+      "A) It will systematically increase to 0.87.",
+      "B) It will progressively decrease to 0.83.",
+      "C) It will remain exactly unchanged at 0.85.",
+      "D) It will instantly become negative."
+    ],
+    "correctAnswer": "C) It will remain exactly unchanged at 0.85.",
+    "explanation": "Adding or subtracting any constants to the independent or dependent variables represents a change of origin, which does not affect the mathematical strength or direction of the correlation."
+  },
+  {
+    "id": "b2c9q1",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "What is a defining characteristic of the Laspeyres price index regarding its denominator?",
+    "options": [
+      "A) It must be fully recalculated every single year using new quantities.",
+      "B) It utilizes current year prices exclusively.",
+      "C) The denominator does not change from year to year because it uses fixed base-year quantities.",
+      "D) It purely calculates the geometric mean."
+    ],
+    "correctAnswer": "C) The denominator does not change from year to year because it uses fixed base-year quantities.",
+    "explanation": "In the standard Laspeyres price index, the denominator strictly uses base period quantities, meaning it fundamentally does not change from year to year."
+  },
+  {
+    "id": "b2c9q2",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "Why is the Laspeyres price index typically used more frequently in practical economic applications than the Paasche price index?",
+    "options": [
+      "A) It completely eliminates all traces of inflation.",
+      "B) It does not require gathering new quantity data every year to recalculate the denominator.",
+      "C) It automatically accounts for perfect consumer substitution.",
+      "D) It only uses qualitative variables."
+    ],
+    "correctAnswer": "B) It does not require gathering new quantity data every year to recalculate the denominator.",
+    "explanation": "Laspeyres is used more heavily in practice because, unlike Paasche, its denominator is fixed and does not have to be recalculated every year to account for newly discovered quantities."
+  },
+  {
+    "id": "b2c9q3",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "Which of the following statements accurately describes a chain index series?",
+    "options": [
+      "A) Each new value in the index is strictly calculated based on the fixed base year.",
+      "B) Each new value in the index is calculated based on the immediate previous year.",
+      "C) It is exclusively used for tracking stock market prices.",
+      "D) It only measures the absolute standard deviation."
+    ],
+    "correctAnswer": "B) Each new value in the index is calculated based on the immediate previous year.",
+    "explanation": "A chain index series is an index where each new sequential value is mathematically calculated based on the previous year rather than being tied to a single fixed base."
+  },
+  {
+    "id": "b2c9q4",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "The Consumer Price Index (CPI) is fundamentally designed to mathematically measure:",
+    "options": [
+      "A) The total industrial production output of a massive nation.",
+      "B) The raw material costs directly for wholesale manufacturers.",
+      "C) The cost of a specific consumer basket purchased by a typical urban family at a given point in time compared to a base year.",
+      "D) The internal rate of return of corporate investments."
+    ],
+    "correctAnswer": "C) The cost of a specific consumer basket purchased by a typical urban family at a given point in time compared to a base year.",
+    "explanation": "The Consumer Price Index (CPI) explicitly measures the cost of a consumer basket purchased by a typical urban family at a specific point in time against a chosen base year."
+  },
+  {
+    "id": "b2c9q5",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "If an inflation price index is calculated as 116 in the current year with a base year index of 100, what is the precise interpretation?",
+    "options": [
+      "A) The price of the product will automatically increase by 16% every future year.",
+      "B) Prices have increased by an average of 16% since the base year.",
+      "C) The pure purchasing power has magically increased by 16%.",
+      "D) Total physical quantities sold have dropped by exactly 16%."
+    ],
+    "correctAnswer": "B) Prices have increased by an average of 16% since the base year.",
+    "explanation": "An index increase directly from 100 to 116 signifies mathematically that the average price of the tracked product or basket has increased by exactly 16%."
+  },
+  {
+    "id": "b2c9q6",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "A commodity's price was Rs. 4,500 in the base year 20X8 and rose to Rs. 5,400 in 20Y0. What is the simple price relative index for 20Y0?",
+    "options": [
+      "A) 83.33",
+      "B) 100.00",
+      "C) 120.00",
+      "D) 145.00"
+    ],
+    "correctAnswer": "C) 120.00",
+    "explanation": "The simple price relative is calculated as (Current Price / Base Price) * 100. Here, (5400 / 4500) * 100 equals an index of exactly 120."
+  },
+  {
+    "id": "b2c9q7",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "Which statistical index number explicitly utilizes the current period's consumed quantities (q1) as its strict weighting factor?",
+    "options": [
+      "A) Laspeyres Index",
+      "B) Paasche Price Index",
+      "C) Simple Aggregate Index",
+      "D) Fixed Base Index"
+    ],
+    "correctAnswer": "B) Paasche Price Index",
+    "explanation": "The Paasche index requires its denominator to be recalculated every single year specifically to take account of the most recent current period quantities."
+  },
+  {
+    "id": "b2c9q8",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "When calculating a chained index, how is the link relative for a specific year manually determined?",
+    "options": [
+      "A) (Current Year Price / Base Year Price) * 100",
+      "B) (Current Year Price / Previous Year Price) * 100",
+      "C) (Previous Year Price / Base Year Price)",
+      "D) By subtracting the previous year completely from the current year"
+    ],
+    "correctAnswer": "B) (Current Year Price / Previous Year Price) * 100",
+    "explanation": "A chained index links data sequentially, calculating the current period's relative value strictly based on the immediate previous year's data."
+  },
+  {
+    "id": "b2c9q9",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "In general index construction, what is the most significant disadvantage of using the Simple Aggregate Method?",
+    "options": [
+      "A) It requires complex logarithmic calculations.",
+      "B) It is heavily skewed by commodities with naturally large numerical unit prices, ignoring their actual economic importance.",
+      "C) It forcefully commands quantities to be fixed.",
+      "D) It cannot measure price changes over long periods of time."
+    ],
+    "correctAnswer": "B) It is heavily skewed by commodities with naturally large numerical unit prices, ignoring their actual economic importance.",
+    "explanation": "Simple aggregations only sum up raw prices, meaning a highly-priced but rarely used item will improperly dominate the index compared to cheap essentials."
+  },
+  {
+    "id": "b2c9q10",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "If the calculated value of Fisher's Ideal Index is 144, and the Laspeyres index is 140, which formula structure is being utilized to combine them?",
+    "options": [
+      "A) Arithmetic Mean of Laspeyres and Paasche",
+      "B) Geometric Mean of Laspeyres and Paasche",
+      "C) Harmonic Mean of Laspeyres and Paasche",
+      "D) The squared mathematical difference"
+    ],
+    "correctAnswer": "B) Geometric Mean of Laspeyres and Paasche",
+    "explanation": "Fisher's Ideal Index is universally defined in statistics as the strict geometric mean (the square root of the product) of the Laspeyres and Paasche indices."
+  },
+  {
+    "id": "b2c9q11",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "A chain index series demonstrates annual sales index figures of 107.0, 115.02, and 123.07 for three consecutive years. What does this progression indicate?",
+    "options": [
+      "A) A steady decline in overall sales.",
+      "B) A compounding annual sales growth.",
+      "C) A completely stagnant retail market.",
+      "D) Extreme economic deflation."
+    ],
+    "correctAnswer": "B) A compounding annual sales growth.",
+    "explanation": "A steadily rising chained index graphically indicates that the annual sales growth is compounding year over year."
+  },
+  {
+    "id": "b2c9q12",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "The primary overarching mathematical purpose of constructing index numbers is to:",
+    "options": [
+      "A) Find the absolute net profit of a specific firm.",
+      "B) Measure relative changes in the magnitude of variables (like prices) over time.",
+      "C) Establish the optimal corner point of a complex feasible region.",
+      "D) Calculate conditional statistical probabilities."
+    ],
+    "correctAnswer": "B) Measure relative changes in the magnitude of variables (like prices) over time.",
+    "explanation": "Index numbers are fundamentally used to statistically measure and track relative percentage changes over time, such as inflation or production volumes."
+  },
+  {
+    "id": "b2c9q13",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "If the base period price of Material A is Rs. 0.50 and the current period price is Rs. 0.75, what is the exact price relative?",
+    "options": [
+      "A) 50",
+      "B) 75",
+      "C) 150",
+      "D) 125"
+    ],
+    "correctAnswer": "C) 150",
+    "explanation": "The price relative is strictly the current price divided by the base price, multiplied by 100. (0.75 / 0.50) * 100 = exactly 150."
+  },
+  {
+    "id": "b2c9q14",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "When converting a nominal wage into a real wage, what mathematical role does the price index play?",
+    "options": [
+      "A) It is forcefully multiplied by the nominal wage.",
+      "B) It is continuously added to the nominal wage.",
+      "C) It is used as the divisor to mathematically strip away the effects of inflation.",
+      "D) It is completely ignored."
+    ],
+    "correctAnswer": "C) It is used as the divisor to mathematically strip away the effects of inflation.",
+    "explanation": "To find true real purchasing power, the nominal wage is divided by the current price index and multiplied by 100, effectively stripping away the artificial effects of inflation."
+  },
+  {
+    "id": "b2c9q15",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "Why do statisticians periodically engage in the practice of 'base shifting' when maintaining long-term index numbers?",
+    "options": [
+      "A) To artificially lower the reported inflation rate.",
+      "B) To transition the reference point to a more recent and economically relevant period.",
+      "C) To convert a Laspeyres index directly into a Paasche index.",
+      "D) To change the foundational weighting from prices to quantities."
+    ],
+    "correctAnswer": "B) To transition the reference point to a more recent and economically relevant period.",
+    "explanation": "Over long stretches of time, consumer habits fundamentally change, making old base years obsolete. Base shifting manually resets the index to a more recent, relevant year to ensure ongoing accuracy."
+  }
+]

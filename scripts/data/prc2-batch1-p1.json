@@ -1,0 +1,632 @@
+[
+  {
+    "id": "c1q1",
+    "chapter": 1,
+    "chapterTitle": "Linear And Quadratic Equations",
+    "question": "Which of the following best describes an algebraic expression?",
+    "options": [
+      "A) A mathematical statement containing an equals sign.",
+      "B) A combination of numbers, variables, and operation symbols without an equals sign.",
+      "C) A value that makes an equation fundamentally true.",
+      "D) A sequence of numbers following a specific constant rule."
+    ],
+    "correctAnswer": "B) A combination of numbers, variables, and operation symbols without an equals sign.",
+    "explanation": "An expression is a combination of numbers and variables and their related operation symbols. Unlike an equation, it does not include an equals sign and only forms mathematical phrases."
+  },
+  {
+    "id": "c1q2",
+    "chapter": 1,
+    "chapterTitle": "Linear And Quadratic Equations",
+    "question": "What is the degree of the polynomial equation 4x^4 + 3x^3 - 2x = 0?",
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4"
+    ],
+    "correctAnswer": "D) 4",
+    "explanation": "The degree of a polynomial equation is determined by the highest power (exponent) of the variable used in the expression. In this equation, the highest power is 4."
+  },
+  {
+    "id": "c1q3",
+    "chapter": 1,
+    "chapterTitle": "Linear And Quadratic Equations",
+    "question": "Ahmed is four times as old as his daughter today. If 'x' represents Ahmed's age and 'y' represents his daughter's age, which linear equation correctly models this relationship?",
+    "options": [
+      "A) x = 4y",
+      "B) y = 4x",
+      "C) x = y + 4",
+      "D) 4x = y"
+    ],
+    "correctAnswer": "A) x = 4y",
+    "explanation": "If Ahmed (x) is four times as old as his daughter (y), you must multiply the daughter's age by 4 to equal Ahmed's current age, resulting in the equation x = 4y."
+  },
+  {
+    "id": "c1q4",
+    "chapter": 1,
+    "chapterTitle": "Linear And Quadratic Equations",
+    "question": "What are the values of x and y in the following simultaneous linear equations: 2x + 3y = 20 and x + y = 8?",
+    "options": [
+      "A) x = 4, y = 4",
+      "B) x = 6, y = 2",
+      "C) x = 5, y = 3",
+      "D) x = 2, y = 6"
+    ],
+    "correctAnswer": "A) x = 4, y = 4",
+    "explanation": "Multiplying the second equation by 2 gives 2x + 2y = 16. Subtracting this from the first equation (2x + 3y = 20) yields y = 4. Substituting y = 4 back into x + y = 8 gives x = 4."
+  },
+  {
+    "id": "c1q5",
+    "chapter": 1,
+    "chapterTitle": "Linear And Quadratic Equations",
+    "question": "Which of the following strictly defines a quadratic expression?",
+    "options": [
+      "A) An expression where the highest degree of the variable is one.",
+      "B) An expression where the highest degree of the variable is two.",
+      "C) An expression where the highest degree of the variable is three.",
+      "D) An expression containing three different variables."
+    ],
+    "correctAnswer": "B) An expression where the highest degree of the variable is two.",
+    "explanation": "A quadratic expression (or second-degree expression) is defined as one in which the highest power (degree) of the variable is a square, or two."
+  },
+  {
+    "id": "c1q6",
+    "chapter": 1,
+    "chapterTitle": "Linear And Quadratic Equations",
+    "question": "Find the roots of the quadratic equation x^2 - 5x + 6 = 0 using factorization.",
+    "options": [
+      "A) 2 and 3",
+      "B) -2 and -3",
+      "C) 1 and 6",
+      "D) -1 and -6"
+    ],
+    "correctAnswer": "A) 2 and 3",
+    "explanation": "The equation factors into (x - 2)(x - 3) = 0 because -2 and -3 multiply to positive 6 and add to -5. Therefore, the roots are x = 2 and x = 3."
+  },
+  {
+    "id": "c1q7",
+    "chapter": 1,
+    "chapterTitle": "Linear And Quadratic Equations",
+    "question": "When using the quadratic formula to solve ax^2 + bx + c = 0, what does the expression under the square root sign represent?",
+    "options": [
+      "A) b^2 + 4ac",
+      "B) a^2 - 4bc",
+      "C) b^2 - 4ac",
+      "D) 2a - bc"
+    ],
+    "correctAnswer": "C) b^2 - 4ac",
+    "explanation": "The standard quadratic formula is x = (-b \u00b1 \u221a(b^2 - 4ac)) / 2a. The core expression under the root, known as the discriminant, is b^2 - 4ac."
+  },
+  {
+    "id": "c1q8",
+    "chapter": 1,
+    "chapterTitle": "Linear And Quadratic Equations",
+    "question": "What are the roots of the quadratic equation x^2 - 4x - 5 = 0?",
+    "options": [
+      "A) 5 and -1",
+      "B) -5 and 1",
+      "C) 4 and -5",
+      "D) -4 and 5"
+    ],
+    "correctAnswer": "A) 5 and -1",
+    "explanation": "By factoring the equation into (x - 5)(x + 1) = 0, we can determine that the roots satisfying the equation are x = 5 and x = -1."
+  },
+  {
+    "id": "c1q9",
+    "chapter": 1,
+    "chapterTitle": "Linear And Quadratic Equations",
+    "question": "Which of the following is the core concept when solving a quadratic equation by completing the square?",
+    "options": [
+      "A) Multiplying the entire equation by the constant term.",
+      "B) Making the coefficient of x^2 equal to zero.",
+      "C) Creating a perfect square trinomial on one side of the equation.",
+      "D) Eliminating the x term completely from the equation."
+    ],
+    "correctAnswer": "C) Creating a perfect square trinomial on one side of the equation.",
+    "explanation": "The method of completing the square involves manipulating the equation to solve for a perfect square, utilizing reference expansion formulas like (x + a)^2 = x^2 + 2ax + a^2."
+  },
+  {
+    "id": "c1q10",
+    "chapter": 1,
+    "chapterTitle": "Linear And Quadratic Equations",
+    "question": "When formulating a linear equation from a word problem, which of the following is the recommended first step?",
+    "options": [
+      "A) Cancel out the largest value immediately.",
+      "B) Write all information in terms of the largest value.",
+      "C) Select the unknown value, typically assigning the smallest unknown value to X.",
+      "D) Multiply all given numbers together to form a baseline."
+    ],
+    "correctAnswer": "C) Select the unknown value, typically assigning the smallest unknown value to X.",
+    "explanation": "The first systematic step in formulating a linear equation from word problems is to select the unknown value. If there are multiple values, always select the smallest value to be the unknown 'X'."
+  },
+  {
+    "id": "c1q11",
+    "chapter": 1,
+    "chapterTitle": "Linear And Quadratic Equations",
+    "question": "A rectangular plot has a length that is 4 meters greater than its width. If the total area is 96 square meters, which of the following quadratic equations represents this scenario where 'w' is the width?",
+    "options": [
+      "A) w^2 + 4 = 96",
+      "B) w^2 + 4w - 96 = 0",
+      "C) 4w^2 = 96",
+      "D) w(w - 4) = 96"
+    ],
+    "correctAnswer": "B) w^2 + 4w - 96 = 0",
+    "explanation": "The length is (w + 4). The area is w(w + 4) = 96, which expands to w^2 + 4w = 96. Rearranging this yields the quadratic equation w^2 + 4w - 96 = 0."
+  },
+  {
+    "id": "c1q12",
+    "chapter": 1,
+    "chapterTitle": "Linear And Quadratic Equations",
+    "question": "Assuming a linear cost relationship, if 5 notebooks cost Rs. 150 and 8 notebooks cost Rs. 240, what is the cost of 1 notebook?",
+    "options": [
+      "A) Rs. 20",
+      "B) Rs. 25",
+      "C) Rs. 30",
+      "D) Rs. 35"
+    ],
+    "correctAnswer": "C) Rs. 30",
+    "explanation": "The rate of change (slope) represents the cost per unit. (240 - 150) / (8 - 5) = 90 / 3 = 30. Therefore, each notebook costs Rs. 30."
+  },
+  {
+    "id": "c1q13",
+    "chapter": 1,
+    "chapterTitle": "Linear And Quadratic Equations",
+    "question": "Solve the following linear equation for x: 3(x - 2) + 4 = 13.",
+    "options": [
+      "A) x = 3",
+      "B) x = 4",
+      "C) x = 5",
+      "D) x = 6"
+    ],
+    "correctAnswer": "C) x = 5",
+    "explanation": "First, subtract 4 from both sides: 3(x - 2) = 9. Then, divide by 3: (x - 2) = 3. Finally, add 2 to both sides to find x = 5."
+  },
+  {
+    "id": "c1q14",
+    "chapter": 1,
+    "chapterTitle": "Linear And Quadratic Equations",
+    "question": "In the expression 5x^2 + 8x - 3, what are the distinct components separated by the mathematical operation symbols called?",
+    "options": [
+      "A) Degrees",
+      "B) Variables",
+      "C) Roots",
+      "D) Terms"
+    ],
+    "correctAnswer": "D) Terms",
+    "explanation": "An algebraic expression is separated by operations (addition or subtraction) into distinct components known as 'terms'."
+  },
+  {
+    "id": "c1q15",
+    "chapter": 1,
+    "chapterTitle": "Linear And Quadratic Equations",
+    "question": "How many possible values (roots) does a standard quadratic equation of the form ax^2 + bx + c = 0 typically have?",
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4"
+    ],
+    "correctAnswer": "B) 2",
+    "explanation": "Because the highest degree of a quadratic equation is two, solving it typically involves finding the two values (roots) of x that satisfy the equation."
+  },
+  {
+    "id": "c2q1",
+    "chapter": 2,
+    "chapterTitle": "Coordinate System and Its Application",
+    "question": "What is the term for a group of numbers used to indicate the exact position of a point or a line in a space of given dimensions?",
+    "options": [
+      "A) Progression",
+      "B) Coordinate",
+      "C) Variable",
+      "D) Intercept"
+    ],
+    "correctAnswer": "B) Coordinate",
+    "explanation": "A coordinate is formally defined as a group of numbers used to specify the exact location or position of a point or line within a coordinate system."
+  },
+  {
+    "id": "c2q2",
+    "chapter": 2,
+    "chapterTitle": "Coordinate System and Its Application",
+    "question": "If a point B is plotted at coordinates (12, 18), what does the number 12 represent?",
+    "options": [
+      "A) The location on the y-axis",
+      "B) The location on the x-axis",
+      "C) The slope of the line",
+      "D) The y-intercept"
+    ],
+    "correctAnswer": "B) The location on the x-axis",
+    "explanation": "In a standard (x, y) coordinate pair, the first number (12) indicates the position on the horizontal x-axis, and the second number indicates the vertical y-axis."
+  },
+  {
+    "id": "c2q3",
+    "chapter": 2,
+    "chapterTitle": "Coordinate System and Its Application",
+    "question": "What is the slope of the straight line defined by the equation y = 5 - 4x?",
+    "options": [
+      "A) 5",
+      "B) -4",
+      "C) 4",
+      "D) -5"
+    ],
+    "correctAnswer": "B) -4",
+    "explanation": "When comparing the equation y = -4x + 5 to the standard line equation y = mx + c, the slope 'm' is the coefficient of x, which in this case is -4."
+  },
+  {
+    "id": "c2q4",
+    "chapter": 2,
+    "chapterTitle": "Coordinate System and Its Application",
+    "question": "If a straight line has a slope of 2, what is the slope of a line that is perfectly perpendicular to it?",
+    "options": [
+      "A) 2",
+      "B) -2",
+      "C) 0.5",
+      "D) -0.5"
+    ],
+    "correctAnswer": "D) -0.5",
+    "explanation": "Two lines are perpendicular if the product of their slopes is -1 (m1 * m2 = -1). If m1 = 2, then m2 must be -1 / 2 = -0.5."
+  },
+  {
+    "id": "c2q5",
+    "chapter": 2,
+    "chapterTitle": "Coordinate System and Its Application",
+    "question": "What are the y-intercept and the slope of the equation 2y = 8 - 6x?",
+    "options": [
+      "A) y-intercept 8, slope -6",
+      "B) y-intercept 4, slope -3",
+      "C) y-intercept -3, slope 4",
+      "D) y-intercept 8, slope 6"
+    ],
+    "correctAnswer": "B) y-intercept 4, slope -3",
+    "explanation": "Rearranging the equation into the y = mx + c format: dividing the entire equation by 2 gives y = -3x + 4. Therefore, the slope (m) is -3 and the y-intercept (c) is 4."
+  },
+  {
+    "id": "c2q6",
+    "chapter": 2,
+    "chapterTitle": "Coordinate System and Its Application",
+    "question": "The mathematical equation y = c represents a straight line that is:",
+    "options": [
+      "A) Parallel to the x-axis",
+      "B) Parallel to the y-axis",
+      "C) Diagonal through the origin",
+      "D) Perpendicular to the x-axis"
+    ],
+    "correctAnswer": "A) Parallel to the x-axis",
+    "explanation": "An equation in the simple form y = c has a slope of 0 (m = 0). This represents a purely horizontal line that runs perfectly parallel to the x-axis."
+  },
+  {
+    "id": "c2q7",
+    "chapter": 2,
+    "chapterTitle": "Coordinate System and Its Application",
+    "question": "A manufacturer's fixed costs are Rs. 60,000 per month, and the variable cost is Rs. 15 per unit. What is the total cost function C(x) for producing 'x' units?",
+    "options": [
+      "A) C(x) = 60,000x + 15",
+      "B) C(x) = 15x - 60,000",
+      "C) C(x) = 15x + 60,000",
+      "D) C(x) = 60,000 / 15x"
+    ],
+    "correctAnswer": "C) C(x) = 15x + 60,000",
+    "explanation": "Total cost equals the variable cost per unit multiplied by the number of units, plus the fixed costs. This translates algebraically to C(x) = 15x + 60,000."
+  },
+  {
+    "id": "c2q8",
+    "chapter": 2,
+    "chapterTitle": "Coordinate System and Its Application",
+    "question": "A firm sells a product for Rs. 30 per unit. The variable cost is Rs. 20 per unit, and total fixed costs are Rs. 50,000. What is the break-even volume of sales in units?",
+    "options": [
+      "A) 1,667 units",
+      "B) 2,500 units",
+      "C) 5,000 units",
+      "D) 10,000 units"
+    ],
+    "correctAnswer": "C) 5,000 units",
+    "explanation": "Break-even occurs when Total Revenue equals Total Cost: 30x = 20x + 50,000. Solving for x leaves 10x = 50,000, meaning x = 5,000 units."
+  },
+  {
+    "id": "c2q9",
+    "chapter": 2,
+    "chapterTitle": "Coordinate System and Its Application",
+    "question": "Two vehicles are 10 km apart and moving directly towards each other. One moves at 3 km/hr and the other at 2 km/hr. Assuming they start at the same time, how long will it take for them to meet?",
+    "options": [
+      "A) 1 hour",
+      "B) 2 hours",
+      "C) 3 hours",
+      "D) 4 hours"
+    ],
+    "correctAnswer": "B) 2 hours",
+    "explanation": "Using linear logic for relative speed: 3t + 2t = 10, which simplifies to 5t = 10. Therefore, t = 2 hours. They will meet in exactly 2 hours."
+  },
+  {
+    "id": "c2q10",
+    "chapter": 2,
+    "chapterTitle": "Coordinate System and Its Application",
+    "question": "In a standard two-dimensional coordinate system, how many quadrants are formed by the intersection of the x-axis and y-axis?",
+    "options": [
+      "A) Two",
+      "B) Three",
+      "C) Four",
+      "D) Six"
+    ],
+    "correctAnswer": "C) Four",
+    "explanation": "The horizontal x-axis and vertical y-axis intersect perfectly at the origin, dividing the entire coordinate plane into four distinct quadrants (Quadrant 1 through 4)."
+  },
+  {
+    "id": "c2q11",
+    "chapter": 2,
+    "chapterTitle": "Coordinate System and Its Application",
+    "question": "At which distinct point do the straight lines represented by y = 2x + 4 and y = x + 6 intersect?",
+    "options": [
+      "A) (2, 8)",
+      "B) (3, 10)",
+      "C) (4, 12)",
+      "D) (1, 7)"
+    ],
+    "correctAnswer": "A) (2, 8)",
+    "explanation": "Set the equations equal: 2x + 4 = x + 6. Solving for x yields x = 2. Substituting x=2 back into either equation gives y = 2(2) + 4 = 8. The intersection is (2, 8)."
+  },
+  {
+    "id": "c2q12",
+    "chapter": 2,
+    "chapterTitle": "Coordinate System and Its Application",
+    "question": "What is the slope of the straight line passing through the coordinates (2, 5) and (4, 11)?",
+    "options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 6"
+    ],
+    "correctAnswer": "B) 3",
+    "explanation": "The slope formula is m = (y2 - y1) / (x2 - x1). Substituting the points gives: m = (11 - 5) / (4 - 2) = 6 / 2 = 3."
+  },
+  {
+    "id": "c2q13",
+    "chapter": 2,
+    "chapterTitle": "Coordinate System and Its Application",
+    "question": "If the total cost of producing 10 units is Rs. 500 and the total cost for producing 20 units is Rs. 800, what is the variable cost per unit assuming a linear relationship?",
+    "options": [
+      "A) Rs. 30",
+      "B) Rs. 40",
+      "C) Rs. 50",
+      "D) Rs. 80"
+    ],
+    "correctAnswer": "A) Rs. 30",
+    "explanation": "The variable cost represents the slope of the cost function. Variable cost = Change in Cost / Change in Units = (800 - 500) / (20 - 10) = 300 / 10 = Rs. 30 per unit."
+  },
+  {
+    "id": "c2q14",
+    "chapter": 2,
+    "chapterTitle": "Coordinate System and Its Application",
+    "question": "Which of the following represents the equation of a straight line where the y-intercept is -2 and the slope is 5?",
+    "options": [
+      "A) 5x - y = 2",
+      "B) -5x + y = -2",
+      "C) x - 5y = -2",
+      "D) 5x + y = 2"
+    ],
+    "correctAnswer": "B) -5x + y = -2",
+    "explanation": "Using the slope-intercept form y = mx + c, plug in m = 5 and c = -2 to get y = 5x - 2. Rearranging this standard equation gives -5x + y = -2."
+  },
+  {
+    "id": "c2q15",
+    "chapter": 2,
+    "chapterTitle": "Coordinate System and Its Application",
+    "question": "What is true about finding the intersection of two perfectly parallel lines in a coordinate system?",
+    "options": [
+      "A) They intersect exactly at the origin.",
+      "B) They intersect at multiple points forming a curve.",
+      "C) They have the same slope and therefore never intersect.",
+      "D) They intersect at the y-intercepts only."
+    ],
+    "correctAnswer": "C) They have the same slope and therefore never intersect.",
+    "explanation": "Parallel lines have identical slopes and distinct y-intercepts. Because they rise or fall at the exact same rate, they never cross or intersect at any point."
+  },
+  {
+    "id": "c3q1",
+    "chapter": 3,
+    "chapterTitle": "Mathematical Progression",
+    "question": "What is the specific mathematical term for a succession of numbers formed and arranged according to a definite law or rule?",
+    "options": [
+      "A) Coordinate",
+      "B) Series",
+      "C) Progression",
+      "D) Variable"
+    ],
+    "correctAnswer": "B) Series",
+    "explanation": "A series, or sequence, is formally defined in mathematics as the succession of terms formed and arranged according to some definite law or rule."
+  },
+  {
+    "id": "c3q2",
+    "chapter": 3,
+    "chapterTitle": "Mathematical Progression",
+    "question": "In an arithmetic progression, which mathematical formula is used to find the value of the 'nth' term?",
+    "options": [
+      "A) a + (n - 1)d",
+      "B) a * r^(n-1)",
+      "C) n/2 * (2a + (n-1)d)",
+      "D) a / (1 - r)"
+    ],
+    "correctAnswer": "A) a + (n - 1)d",
+    "explanation": "The value of any specific term in an arithmetic progression can be found using the formula nth term = a + (n - 1)d, where 'a' is the first term and 'd' is the common difference."
+  },
+  {
+    "id": "c3q3",
+    "chapter": 3,
+    "chapterTitle": "Mathematical Progression",
+    "question": "Find the 8th term of an arithmetic progression where the first term is 10 and the common difference is 5.",
+    "options": [
+      "A) 40",
+      "B) 45",
+      "C) 50",
+      "D) 55"
+    ],
+    "correctAnswer": "B) 45",
+    "explanation": "Using the arithmetic term formula a + (n-1)d, we substitute the values: 10 + (8-1)*5 = 10 + 35 = 45."
+  },
+  {
+    "id": "c3q4",
+    "chapter": 3,
+    "chapterTitle": "Mathematical Progression",
+    "question": "What is the total sum of the first 8 terms of an arithmetic progression if the first term is 10 and the common difference is 5?",
+    "options": [
+      "A) 180",
+      "B) 200",
+      "C) 220",
+      "D) 240"
+    ],
+    "correctAnswer": "C) 220",
+    "explanation": "The sum formula is S = (n/2) * [2a + (n-1)d]. Substituting the knowns: (8/2) * [2(10) + (8-1)5] = 4 * [20 + 35] = 4 * 55 = 220."
+  },
+  {
+    "id": "c3q5",
+    "chapter": 3,
+    "chapterTitle": "Mathematical Progression",
+    "question": "In a geometric progression, how is the relationship between consecutive terms defined?",
+    "options": [
+      "A) By adding a constant number to the previous term.",
+      "B) By squaring the value of the previous term.",
+      "C) By multiplying the previous term by a constant ratio.",
+      "D) By subtracting a constant difference."
+    ],
+    "correctAnswer": "C) By multiplying the previous term by a constant ratio.",
+    "explanation": "A geometric progression is mathematically formed when each subsequent term in the sequence is linked by multiplying the previous term by a constant, known as the common ratio."
+  },
+  {
+    "id": "c3q6",
+    "chapter": 3,
+    "chapterTitle": "Mathematical Progression",
+    "question": "What is the 6th term of the following geometric progression: 1000, 800, 640...?",
+    "options": [
+      "A) 512",
+      "B) 409.6",
+      "C) 327.68",
+      "D) 262.14"
+    ],
+    "correctAnswer": "C) 327.68",
+    "explanation": "The common ratio 'r' is found by 800/1000 = 0.8. The 6th term is calculated as a*r^(n-1) = 1000 * (0.8)^5 = 1000 * 0.32768 = 327.68."
+  },
+  {
+    "id": "c3q7",
+    "chapter": 3,
+    "chapterTitle": "Mathematical Progression",
+    "question": "Under what condition can the sum of an infinite geometric series be calculated using the convergence formula S = a / (1 - r)?",
+    "options": [
+      "A) When r is positive and greater than 1.",
+      "B) When r is a negative number less than -1.",
+      "C) When the common ratio r is between -1 and 1.",
+      "D) Only when the common ratio r is exactly 0."
+    ],
+    "correctAnswer": "C) When the common ratio r is between -1 and 1.",
+    "explanation": "As the number of terms approaches infinity, the sequence's sum can only converge to a finite value using S = a / (1 - r) if the common ratio 'r' is a fraction between -1 and 1."
+  },
+  {
+    "id": "c3q8",
+    "chapter": 3,
+    "chapterTitle": "Mathematical Progression",
+    "question": "Find the sum of the first 12 terms of a geometric progression where the first term is 5 and the common ratio is -2.",
+    "options": [
+      "A) -6,825",
+      "B) 6,825",
+      "C) -13,650",
+      "D) 13,650"
+    ],
+    "correctAnswer": "A) -6,825",
+    "explanation": "Using the geometric sum formula S = a(1 - r^n) / (1 - r): 5(1 - (-2)^12) / (1 - (-2)) = 5(1 - 4096) / 3 = 5(-4095) / 3 = -20475 / 3 = -6,825."
+  },
+  {
+    "id": "c3q9",
+    "chapter": 3,
+    "chapterTitle": "Mathematical Progression",
+    "question": "If every single term in an arithmetic progression is multiplied by a constant 'k', what happens to the new common difference?",
+    "options": [
+      "A) It remains the same as the original difference.",
+      "B) It increases cumulatively by k.",
+      "C) It is multiplied by the constant k.",
+      "D) It is divided by the constant k."
+    ],
+    "correctAnswer": "C) It is multiplied by the constant k.",
+    "explanation": "According to the structural properties of arithmetic progressions, if each term is multiplied by a constant k, the new common difference becomes the original common difference multiplied by k."
+  },
+  {
+    "id": "c3q10",
+    "chapter": 3,
+    "chapterTitle": "Mathematical Progression",
+    "question": "A manufacturer sells 1000 units in January, but sales decrease by half each month thereafter. Which formula calculates the total sales for the first 5 months?",
+    "options": [
+      "A) S = 1000(1 - 0.5^5) / (1 - 0.5)",
+      "B) S = 1000(1 - 2^5) / (1 - 2)",
+      "C) S = (5/2)[2(1000) + 4(0.5)]",
+      "D) S = 1000 * 0.5^4"
+    ],
+    "correctAnswer": "A) S = 1000(1 - 0.5^5) / (1 - 0.5)",
+    "explanation": "Because the sales halve each month, this represents a geometric progression with a = 1000 and r = 0.5. The appropriate sum formula is S = a(1 - r^n) / (1 - r)."
+  },
+  {
+    "id": "c3q11",
+    "chapter": 3,
+    "chapterTitle": "Mathematical Progression",
+    "question": "If the sum of three consecutive terms in an Arithmetic Progression totals 54, what is the exact value of the middle term?",
+    "options": [
+      "A) 15",
+      "B) 18",
+      "C) 21",
+      "D) 24"
+    ],
+    "correctAnswer": "B) 18",
+    "explanation": "Let the three terms be represented as (a - d), a, and (a + d). Their total sum is (a - d) + a + (a + d) = 3a = 54. Therefore, the middle term 'a' must be 54 / 3 = 18."
+  },
+  {
+    "id": "c3q12",
+    "chapter": 3,
+    "chapterTitle": "Mathematical Progression",
+    "question": "The first and last terms of an arithmetic progression with exactly three terms are X and -X respectively. What is the common difference?",
+    "options": [
+      "A) X",
+      "B) -X",
+      "C) 0",
+      "D) 2X"
+    ],
+    "correctAnswer": "B) -X",
+    "explanation": "If the terms are X, a2, and -X. The common difference 'd' can be stated as d = a2 - X and d = -X - a2. Adding them gives 2d = -2X, meaning d = -X."
+  },
+  {
+    "id": "c3q13",
+    "chapter": 3,
+    "chapterTitle": "Mathematical Progression",
+    "question": "The second term of a given geometric progression is exactly half of the first term. If the first term is denoted by 'a', what is the common ratio 'r'?",
+    "options": [
+      "A) 1/2",
+      "B) 2",
+      "C) 1/4",
+      "D) 4"
+    ],
+    "correctAnswer": "A) 1/2",
+    "explanation": "In a geometric progression, the second term is calculated as a*r. Since the problem states a*r = a/2, solving for the common ratio 'r' yields 1/2."
+  },
+  {
+    "id": "c3q14",
+    "chapter": 3,
+    "chapterTitle": "Mathematical Progression",
+    "question": "Which of the following is the standard shortcut formula used for finding the sum of the first 'n' natural numbers (1 + 2 + 3 + ... + n)?",
+    "options": [
+      "A) n(n + 1)/2",
+      "B) n(n - 1)/2",
+      "C) (n + 2)/2",
+      "D) n^2/2"
+    ],
+    "correctAnswer": "A) n(n + 1)/2",
+    "explanation": "A sequence of natural numbers is an arithmetic series where a=1 and d=1. Using the formula S = n/2(2a + (n-1)d) results in S = n/2(2 + n - 1) = n(n + 1)/2."
+  },
+  {
+    "id": "c3q15",
+    "chapter": 3,
+    "chapterTitle": "Mathematical Progression",
+    "question": "In an arithmetic progression, the first term is 10 and the common difference is 2. Which equation accurately models finding the number of terms 'n' needed to produce a sum of 252?",
+    "options": [
+      "A) 252 = n(20 + (n-1)2) / 2",
+      "B) 252 = 10 * 2^(n-1)",
+      "C) 252 = 10 + (n-1)2",
+      "D) 252 = n(10 + 2n)"
+    ],
+    "correctAnswer": "A) 252 = n(20 + (n-1)2) / 2",
+    "explanation": "Using the arithmetic sum formula Sn = (n/2)[2a + (n-1)d]. Substituting the specific values given (Sn=252, a=10, d=2) results in the equation 252 = (n/2)[20 + (n-1)2]."
+  }
+]

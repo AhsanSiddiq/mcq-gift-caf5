@@ -1,0 +1,282 @@
+[
+  {
+    "id": "b3c4q1",
+    "chapter": 4,
+    "chapterTitle": "Mathematics of Finance",
+    "question": "A loan of Rs. 1,000,000 is to be repaid over 10 years at a 12% annual interest rate. The repayment schedule follows an 'equated monthly installment' (EMI) structure. This form of payment is mathematically classified as:",
+    "options": [
+      "A) A perpetuity.",
+      "B) An ordinary annuity.",
+      "C) A simple interest growth curve.",
+      "D) A deferred depreciation."
+    ],
+    "correctAnswer": "B) An ordinary annuity.",
+    "explanation": "An annuity is a sequence of equal payments made at regular intervals. Since EMIs occur at the end of each month for a fixed duration, they represent an ordinary annuity."
+  },
+  {
+    "id": "b3c4q2",
+    "chapter": 4,
+    "chapterTitle": "Mathematics of Finance",
+    "question": "What is the primary mathematical difference between 'Simple Interest' and 'Compound Interest'?",
+    "options": [
+      "A) Simple interest is always higher than compound interest.",
+      "B) Simple interest is calculated only on the original principal, whereas compound interest is calculated on both the principal and the accumulated interest of previous periods.",
+      "C) Compound interest does not apply to bank loans.",
+      "D) Simple interest uses a logarithmic growth formula."
+    ],
+    "correctAnswer": "B) Simple interest is calculated only on the original principal, whereas compound interest is calculated on both the principal and the accumulated interest of previous periods.",
+    "explanation": "In simple interest, the interest amount remains constant because it applies only to the initial capital. In compound interest, the 'interest on interest' effect causes the debt or investment to grow exponentially."
+  },
+  {
+    "id": "b3c4q3",
+    "chapter": 4,
+    "chapterTitle": "Mathematics of Finance",
+    "question": "If a bank offers an annual nominal rate of 10% compounded 'quarterly', how many times (m) per year is interest added to the principal?",
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) 4",
+      "D) 12"
+    ],
+    "correctAnswer": "C) 4",
+    "explanation": "Compounded quarterly means the interest is calculated and added every three months, resulting in exactly 4 compounding periods within a single calendar year."
+  },
+  {
+    "id": "b3c4q4",
+    "chapter": 4,
+    "chapterTitle": "Mathematics of Finance",
+    "question": "What does the 'Effective Annual Rate' (EAR) represent in finance?",
+    "options": [
+      "A) The interest rate before any taxes are deducted.",
+      "B) The annual interest rate including the impact of compounding within the year.",
+      "C) The fixed rate set by the Central Bank.",
+      "D) The rate applied to simple interest accounts only."
+    ],
+    "correctAnswer": "B) The annual interest rate including the impact of compounding within the year.",
+    "explanation": "The effective rate provides the 'true' annual cost or return. It accounts for the fact that compounding more frequently (e.g., monthly) results in a higher final yield than a simple nominal annual rate."
+  },
+  {
+    "id": "b3c4q5",
+    "chapter": 4,
+    "chapterTitle": "Mathematics of Finance",
+    "question": "In the formula for the Present Value of an Annuity, what is 'discounting'?",
+    "options": [
+      "A) Reducing the price of a product during a sale.",
+      "B) The process of determining the current value of a future sum of money by removing the potential interest growth.",
+      "C) Calculating the future value of a current investment.",
+      "D) Increasing the principal by 10% annually."
+    ],
+    "correctAnswer": "B) The process of determining the current value of a future sum of money by removing the potential interest growth.",
+    "explanation": "Discounting is the inverse of compounding. It mathematically 'pulls' future cash flows back to today's value, reflecting the time value of money concept."
+  },
+  {
+    "id": "b3c4q6",
+    "chapter": 4,
+    "chapterTitle": "Mathematics of Finance",
+    "question": "An investment produces a perpetual stream of Rs. 50,000 every year forever. If the interest rate is 10%, what is the Present Value of this 'Perpetuity'?",
+    "options": [
+      "A) Rs. 50,000",
+      "B) Rs. 500,000",
+      "C) Rs. 5,000,000",
+      "D) Zero"
+    ],
+    "correctAnswer": "B) Rs. 500,000",
+    "explanation": "The Present Value of a perpetuity is calculated as (Annual Payment / Interest Rate). So, 50,000 / 0.10 = Rs. 500,000."
+  },
+  {
+    "id": "b3c4q7",
+    "chapter": 4,
+    "chapterTitle": "Mathematics of Finance",
+    "question": "If you invest Rs. 10,000 for 3 years at a simple interest rate of 8% per annum, what is the total interest earned?",
+    "options": [
+      "A) Rs. 800",
+      "B) Rs. 2,400",
+      "C) Rs. 12,400",
+      "D) Rs. 2,597"
+    ],
+    "correctAnswer": "B) Rs. 2,400",
+    "explanation": "Simple Interest = P \u00d7 r \u00d7 t. Here, 10,000 \u00d7 0.08 \u00d7 3 = Rs. 2,400."
+  },
+  {
+    "id": "b3c4q8",
+    "chapter": 4,
+    "chapterTitle": "Mathematics of Finance",
+    "question": "What happens to the Present Value of a future cash flow as the discount rate increases?",
+    "options": [
+      "A) It increases.",
+      "B) It decreases.",
+      "C) It remains constant.",
+      "D) It becomes equal to the future value."
+    ],
+    "correctAnswer": "B) It decreases.",
+    "explanation": "The discount rate is in the denominator of the PV formula. As the rate (cost of capital) rises, the value today of receiving money in the future becomes lower."
+  },
+  {
+    "id": "b3c4q9",
+    "chapter": 4,
+    "chapterTitle": "Mathematics of Finance",
+    "question": "A 'Sinking Fund' is specifically designed to:",
+    "options": [
+      "A) Fund a company's daily operational losses.",
+      "B) Accumulate a specific sum of money through periodic deposits to replace an asset or repay a debt in the future.",
+      "C) Calculate the depreciation of a vehicle.",
+      "D) Pay out dividends to shareholders immediately."
+    ],
+    "correctAnswer": "B) Accumulate a specific sum of money through periodic deposits to replace an asset or repay a debt in the future.",
+    "explanation": "A sinking fund is an application of annuities where regular installments are saved and invested to reach a targeted future financial goal."
+  },
+  {
+    "id": "b3c4q10",
+    "chapter": 4,
+    "chapterTitle": "Mathematics of Finance",
+    "question": "If interest is compounded 'continuously', which mathematical constant is utilized in the formula?",
+    "options": [
+      "A) Pi (\u03c0)",
+      "B) Gamma (\u03b3)",
+      "C) Euler's Number (e)",
+      "D) Delta (\u0394)"
+    ],
+    "correctAnswer": "C) Euler's Number (e)",
+    "explanation": "For continuous compounding, the growth is modeled using the exponential function A = Pe^(rt), where 'e' is approximately 2.71828."
+  },
+  {
+    "id": "b3c4q11",
+    "chapter": 4,
+    "chapterTitle": "Mathematics of Finance",
+    "question": "The 'Rule of 72' is a quick mental shortcut used to estimate:",
+    "options": [
+      "A) The total taxes on an investment.",
+      "B) The time required for an investment to double at a given compound interest rate.",
+      "C) The net present value of a bond.",
+      "D) The maximum loan amount a person can borrow."
+    ],
+    "correctAnswer": "B) The time required for an investment to double at a given compound interest rate.",
+    "explanation": "By dividing 72 by the annual interest rate, you get an approximate number of years it takes for your money to double (e.g., at 6%, it takes ~12 years)."
+  },
+  {
+    "id": "b3c4q12",
+    "chapter": 4,
+    "chapterTitle": "Mathematics of Finance",
+    "question": "In an 'Annuity Due', when are the periodic payments made?",
+    "options": [
+      "A) At the end of each period.",
+      "B) At the beginning of each period.",
+      "C) Only at the very end of the total duration.",
+      "D) Randomly throughout the year."
+    ],
+    "correctAnswer": "B) At the beginning of each period.",
+    "explanation": "An ordinary annuity has payments at the end of the period. An 'Annuity Due' requires payment at the very start of each period (common for rent or insurance premiums)."
+  },
+  {
+    "id": "b3c4q13",
+    "chapter": 4,
+    "chapterTitle": "Mathematics of Finance",
+    "question": "What is 'Amortization' in the context of a loan?",
+    "options": [
+      "A) The process of increasing the debt through penalties.",
+      "B) The gradual reduction of a debt over time through regular payments of principal and interest.",
+      "C) The immediate full repayment of a loan within 24 hours.",
+      "D) Selling a loan to another bank."
+    ],
+    "correctAnswer": "B) The gradual reduction of a debt over time through regular payments of principal and interest.",
+    "explanation": "Amortization refers to spreading out the repayment of a loan into a series of fixed installments, ensuring the balance is zero at the end of the term."
+  },
+  {
+    "id": "b3c4q14",
+    "chapter": 4,
+    "chapterTitle": "Mathematics of Finance",
+    "question": "If the nominal rate is 12% and compounding is monthly, what is the 'periodic rate' used in calculations?",
+    "options": [
+      "A) 12%",
+      "B) 6%",
+      "C) 1%",
+      "D) 0.12%"
+    ],
+    "correctAnswer": "C) 1%",
+    "explanation": "The periodic rate is the annual nominal rate divided by the number of compounding periods in a year. 12% / 12 months = 1% per month."
+  },
+  {
+    "id": "b3c4q15",
+    "chapter": 4,
+    "chapterTitle": "Mathematics of Finance",
+    "question": "Which of the following is the standard formula for Compound Interest (A)?",
+    "options": [
+      "A) A = P(1 + r*t)",
+      "B) A = P(1 + r)^n",
+      "C) A = P / (1+r)",
+      "D) A = P + r + t"
+    ],
+    "correctAnswer": "B) A = P(1 + r)^n",
+    "explanation": "The standard compound interest formula reflects exponential growth, where the principal (P) is multiplied by (1 + rate) raised to the power of the number of periods (n)."
+  },
+  {
+    "id": "b3c5q1",
+    "chapter": 5,
+    "chapterTitle": "Financial Analysis - Investments and Projects",
+    "question": "When evaluating a long-term capital project, if the Net Present Value (NPV) is strictly greater than zero, what does this mathematically signal?",
+    "options": [
+      "A) The project will result in a net financial loss.",
+      "B) The project's return is exactly equal to the cost of capital.",
+      "C) The project is adding value to the firm, as its discounted cash inflows exceed its initial cost.",
+      "D) The project is physically impossible to complete."
+    ],
+    "correctAnswer": "C) The project is adding value to the firm, as its discounted cash inflows exceed its initial cost.",
+    "explanation": "A positive NPV indicates that the project is profitable even after accounting for the time value of money and the cost of the original investment."
+  },
+  {
+    "id": "b3c5q2",
+    "chapter": 5,
+    "chapterTitle": "Financial Analysis - Investments and Projects",
+    "question": "The 'Internal Rate of Return' (IRR) is formally defined as the discount rate at which:",
+    "options": [
+      "A) The profit is maximized.",
+      "B) The Net Present Value (NPV) becomes exactly zero.",
+      "C) The payback period is exactly one year.",
+      "D) The tax liability is minimized."
+    ],
+    "correctAnswer": "B) The Net Present Value (NPV) becomes exactly zero.",
+    "explanation": "The IRR is the 'break-even' discount rate where the present value of future cash inflows perfectly equals the initial investment cost."
+  },
+  {
+    "id": "b3c5q3",
+    "chapter": 5,
+    "chapterTitle": "Financial Analysis - Investments and Projects",
+    "question": "Which project evaluation method is purely focusing on the time it takes for a project to recover its initial cash investment, without necessarily considering the time value of money?",
+    "options": [
+      "A) Net Present Value (NPV)",
+      "B) Internal Rate of Return (IRR)",
+      "C) Simple Payback Period",
+      "D) Profitability Index"
+    ],
+    "correctAnswer": "C) Simple Payback Period",
+    "explanation": "The simple payback period merely counts the years until the initial outlay is recovered. Its main drawback is that it ignores cash flows after the payback date and fails to discount future money."
+  },
+  {
+    "id": "b3c5q4",
+    "chapter": 5,
+    "chapterTitle": "Financial Analysis - Investments and Projects",
+    "question": "If a firm has two mutually exclusive projects, A and B, which project should mathematically be chosen if both are profitable?",
+    "options": [
+      "A) The one with the lowest initial cost.",
+      "B) The one with the highest positive Net Present Value (NPV).",
+      "C) Neither, projects should only be chosen one at a time.",
+      "D) The one with the shortest name."
+    ],
+    "correctAnswer": "B) The one with the highest positive Net Present Value (NPV).",
+    "explanation": "When projects are mutually exclusive (you can only pick one), the standard decision rule is to pick the one that adds the most absolute value to the firm, which is the one with the higher NPV."
+  },
+  {
+    "id": "b3c5q5",
+    "chapter": 5,
+    "chapterTitle": "Financial Analysis - Investments and Projects",
+    "question": "What is a 'Profitability Index' (PI) utilized for in project selection?",
+    "options": [
+      "A) To calculate the total employee turnover.",
+      "B) To measure the ratio of the present value of future cash flows to the initial investment (Benefit/Cost ratio).",
+      "C) To determine the market share of a project.",
+      "D) To predict future inflation rates."
+    ],
+    "correctAnswer": "B) To measure the ratio of the present value of future cash flows to the initial investment (Benefit/Cost ratio).",
+    "explanation": "The PI (PV of inflows / Initial Outlay) helps rank projects, especially when a company has a limited budget (capital rationing) and needs to see which project gives the most 'bang for its buck'."
+  }
+]

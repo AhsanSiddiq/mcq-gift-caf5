@@ -1,0 +1,632 @@
+[
+  {
+    "id": "b2c10q1",
+    "chapter": 10,
+    "chapterTitle": "Probability",
+    "question": "In basic probability theory, if two events A and B are considered 'mutually exclusive', what is the mathematical probability of them both occurring at exactly the same time?",
+    "options": [
+      "A) Exactly 0.5",
+      "B) Exactly 1.0",
+      "C) Exactly 0",
+      "D) The sum of P(A) and P(B)"
+    ],
+    "correctAnswer": "C) Exactly 0",
+    "explanation": "Events are mutually exclusive if they cannot happen simultaneously. Therefore, the probability of both occurring together, P(A \u2229 B), is zero."
+  },
+  {
+    "id": "b2c10q2",
+    "chapter": 10,
+    "chapterTitle": "Probability",
+    "question": "A fair six-sided die is rolled. What is the precise probability of rolling a number that is strictly greater than 4?",
+    "options": [
+      "A) 1/6",
+      "B) 1/3",
+      "C) 1/2",
+      "D) 2/3"
+    ],
+    "correctAnswer": "B) 1/3",
+    "explanation": "On a six-sided die, the numbers strictly greater than 4 are 5 and 6. This represents 2 successful outcomes out of 6 possible total outcomes (2/6), which simplifies to 1/3."
+  },
+  {
+    "id": "b2c10q3",
+    "chapter": 10,
+    "chapterTitle": "Probability",
+    "question": "If the probability of a specific event occurring (P) is 0.25, what is the mathematical probability of that event NOT occurring?",
+    "options": [
+      "A) 0",
+      "B) 0.50",
+      "C) 0.75",
+      "D) 1.00"
+    ],
+    "correctAnswer": "C) 0.75",
+    "explanation": "The sum of the probabilities of all possible outcomes in a sample space must equal 1. Therefore, the probability of an event NOT occurring is 1 - P(Event), which is 1 - 0.25 = 0.75."
+  },
+  {
+    "id": "b2c10q4",
+    "chapter": 10,
+    "chapterTitle": "Probability",
+    "question": "Two fair coins are tossed simultaneously. What is the exact probability of both coins landing on 'Heads'?",
+    "options": [
+      "A) 1/2",
+      "B) 1/4",
+      "C) 3/4",
+      "D) 1/8"
+    ],
+    "correctAnswer": "B) 1/4",
+    "explanation": "The total possible outcomes for two coin tosses are (H,H), (H,T), (T,H), and (T,T). Since only one outcome (H,H) is 'both heads' out of the four possibilities, the probability is 1/4."
+  },
+  {
+    "id": "b2c10q5",
+    "chapter": 10,
+    "chapterTitle": "Probability",
+    "question": "Which of the following is a fundamental mathematical property of any valid individual probability value?",
+    "options": [
+      "A) It must be a positive whole number.",
+      "B) It must strictly be greater than 1.",
+      "C) It must always fall between 0 and 1, inclusive.",
+      "D) It can be any real negative number."
+    ],
+    "correctAnswer": "C) It must always fall between 0 and 1, inclusive.",
+    "explanation": "Probability is measured on a scale from 0 (meaning the event is absolutely impossible) to 1 (meaning the event is absolutely certain to occur)."
+  },
+  {
+    "id": "b2c10q6",
+    "chapter": 10,
+    "chapterTitle": "Probability",
+    "question": "Calculate the probability of drawing either a 'King' or a 'Queen' from a standard well-shuffled deck of 52 playing cards.",
+    "options": [
+      "A) 1/13",
+      "B) 2/13",
+      "C) 4/13",
+      "D) 1/4"
+    ],
+    "correctAnswer": "B) 2/13",
+    "explanation": "There are 4 Kings and 4 Queens in a standard 52-card deck. The total number of successful outcomes is 8. The probability is 8/52, which simplifies to 2/13."
+  },
+  {
+    "id": "b2c10q7",
+    "chapter": 10,
+    "chapterTitle": "Probability",
+    "question": "In a box of 100 industrial parts, 5 are defective. If one part is chosen at random, what is the probability that it is NOT defective?",
+    "options": [
+      "A) 0.05",
+      "B) 0.50",
+      "C) 0.95",
+      "D) 1.00"
+    ],
+    "correctAnswer": "C) 0.95",
+    "explanation": "If 5 parts are defective, then 95 parts are good (not defective). The probability of choosing a good part is 95 out of 100, which is exactly 0.95."
+  },
+  {
+    "id": "b2c10q8",
+    "chapter": 10,
+    "chapterTitle": "Probability",
+    "question": "If events A and B are independent, how is the probability of both occurring (A \u2229 B) mathematically calculated?",
+    "options": [
+      "A) P(A) + P(B)",
+      "B) P(A) - P(B)",
+      "C) P(A) * P(B)",
+      "D) P(A) / P(B)"
+    ],
+    "correctAnswer": "C) P(A) * P(B)",
+    "explanation": "The multiplication rule for independent events states that the probability of both occurring is the product of their individual probabilities."
+  },
+  {
+    "id": "b2c10q9",
+    "chapter": 10,
+    "chapterTitle": "Probability",
+    "question": "What is the probability of a person winning a prize if the numerical odds 'against' them winning are precisely 7 to 3?",
+    "options": [
+      "A) 3/7",
+      "B) 7/10",
+      "C) 3/10",
+      "D) 1/3"
+    ],
+    "correctAnswer": "C) 3/10",
+    "explanation": "Odds 'against' of 7:3 mean there are 7 unfavorable outcomes for every 3 favorable outcomes. The total possible outcomes are 7 + 3 = 10. Therefore, the probability of winning is 3/10."
+  },
+  {
+    "id": "b2c10q10",
+    "chapter": 10,
+    "chapterTitle": "Probability",
+    "question": "In a bag containing 5 red, 3 green, and 2 blue marbles, what is the probability of randomly picking a marble that is NOT red?",
+    "options": [
+      "A) 1/2",
+      "B) 3/10",
+      "C) 2/10",
+      "D) 5/10"
+    ],
+    "correctAnswer": "A) 1/2",
+    "explanation": "Total marbles = 5 + 3 + 2 = 10. Marbles that are not red (green and blue) = 3 + 2 = 5. The probability of picking one is 5/10, which simplifies to 1/2."
+  },
+  {
+    "id": "b2c10q11",
+    "chapter": 10,
+    "chapterTitle": "Probability",
+    "question": "Conditional probability P(A|B) refers to:",
+    "options": [
+      "A) The probability of A and B happening together.",
+      "B) The probability of A given that B has already occurred.",
+      "C) The total probability of all sample outcomes.",
+      "D) The probability of A multiplied by the probability of B."
+    ],
+    "correctAnswer": "B) The probability of A given that B has already occurred.",
+    "explanation": "The notation P(A|B) is the conditional probability of Event A occurring, given the specific condition that Event B has already happened."
+  },
+  {
+    "id": "b2c10q12",
+    "chapter": 10,
+    "chapterTitle": "Probability",
+    "question": "Which mathematical rule states that for any two events A and B, P(A \u222a B) = P(A) + P(B) - P(A \u2229 B)?",
+    "options": [
+      "A) The Product Rule",
+      "B) The Division Rule",
+      "C) The Addition Rule",
+      "D) The Rule of Complements"
+    ],
+    "correctAnswer": "C) The Addition Rule",
+    "explanation": "The general Addition Rule for probability is used to find the probability of either event A or B occurring, accounting for the possibility that they could overlap."
+  },
+  {
+    "id": "b2c10q13",
+    "chapter": 10,
+    "chapterTitle": "Probability",
+    "question": "What is the probability of rolling a total sum of 7 with two fair six-sided dice?",
+    "options": [
+      "A) 1/6",
+      "B) 1/12",
+      "C) 1/36",
+      "D) 5/36"
+    ],
+    "correctAnswer": "A) 1/6",
+    "explanation": "There are 36 total outcomes (6x6). The outcomes that sum to 7 are (1,6), (2,5), (3,4), (4,3), (5,2), and (6,1). Since there are 6 successful outcomes, the probability is 6/36 = 1/6."
+  },
+  {
+    "id": "b2c10q14",
+    "chapter": 10,
+    "chapterTitle": "Probability",
+    "question": "If you roll a die once, which of the following pairs of events are collectively exhaustive?",
+    "options": [
+      "A) Rolling a 2 and rolling a 4.",
+      "B) Rolling an even number and rolling a number less than 3.",
+      "C) Rolling an even number and rolling an odd number.",
+      "D) Rolling a 6 and rolling a 1."
+    ],
+    "correctAnswer": "C) Rolling an even number and rolling an odd number.",
+    "explanation": "Events are collectively exhaustive if their union covers every possible outcome in the sample space. Every number on a die is either even or odd, covering the entire range (1-6)."
+  },
+  {
+    "id": "b2c10q15",
+    "chapter": 10,
+    "chapterTitle": "Probability",
+    "question": "In a Venn diagram, the overlapping section between two circles representing Event A and Event B denotes:",
+    "options": [
+      "A) The union of A and B.",
+      "B) The complement of A.",
+      "C) The intersection of A and B.",
+      "D) The exclusion of B from A."
+    ],
+    "correctAnswer": "C) The intersection of A and B.",
+    "explanation": "In set theory and probability, the intersection represents the specific outcomes that belong to both Event A and Event B simultaneously."
+  },
+  {
+    "id": "b2c11q1",
+    "chapter": 11,
+    "chapterTitle": "Probability Distributions",
+    "question": "Which of the following is a mandatory mathematical requirement for any valid discrete probability distribution?",
+    "options": [
+      "A) The individual probabilities must be negative.",
+      "B) The sum of all individual probabilities across the sample space must strictly equal 1.",
+      "C) The mean must be exactly zero.",
+      "D) Every outcome must have the exact same identical probability."
+    ],
+    "correctAnswer": "B) The sum of all individual probabilities across the sample space must strictly equal 1.",
+    "explanation": "A core axiom of probability distributions is that the sum of the probabilities of all mutually exclusive and collectively exhaustive outcomes must equal exactly 1.0."
+  },
+  {
+    "id": "b2c11q2",
+    "chapter": 11,
+    "chapterTitle": "Probability Distributions",
+    "question": "A discrete probability distribution describes outcomes that are:",
+    "options": [
+      "A) Measurable on an infinite scale",
+      "B) Only able to take certain specific countable values",
+      "C) Always negative in value",
+      "D) Distributed without any gaps"
+    ],
+    "correctAnswer": "B) Only able to take certain specific countable values",
+    "explanation": "Unlike continuous distributions, discrete distributions deal with variables that have distinct, separate, and countable outcomes (like the number of cars sold)."
+  },
+  {
+    "id": "b2c11q3",
+    "chapter": 11,
+    "chapterTitle": "Probability Distributions",
+    "question": "In the context of a discrete probability distribution, the 'Expected Value' (E[X]) is mathematically synonymous with:",
+    "options": [
+      "A) The arithmetic mean of the distribution",
+      "B) The standard deviation of the population",
+      "C) The statistical mode",
+      "D) The range between highest and lowest"
+    ],
+    "correctAnswer": "A) The arithmetic mean of the distribution",
+    "explanation": "The Expected Value is the weighted average of all possible values, which represents the theoretical long-term average (mean) of the random variable."
+  },
+  {
+    "id": "b2c11q4",
+    "chapter": 11,
+    "chapterTitle": "Probability Distributions",
+    "question": "Which specific probability distribution is strictly characterized by having only two possible outcomes per trial (e.g., success or failure)?",
+    "options": [
+      "A) Normal Distribution",
+      "B) Poison Distribution",
+      "C) Binomial Distribution",
+      "D) Uniform Distribution"
+    ],
+    "correctAnswer": "C) Binomial Distribution",
+    "explanation": "The Binomial distribution models the number of successes in a fixed number of independent trials, where each individual trial has only two possible outcomes."
+  },
+  {
+    "id": "b2c11q5",
+    "chapter": 11,
+    "chapterTitle": "Probability Distributions",
+    "question": "Which of the following describes the shape of a perfectly normal distribution curve?",
+    "options": [
+      "A) J-shaped and rising",
+      "B) U-shaped and dipping",
+      "C) Bell-shaped and symmetrical",
+      "D) Rectangular and flat"
+    ],
+    "correctAnswer": "C) Bell-shaped and symmetrical",
+    "explanation": "The Normal (Gaussian) distribution is well-known for its classic symmetrical bell shape, where the mean, median, and mode all overlap at the center peak."
+  },
+  {
+    "id": "b2c11q6",
+    "chapter": 11,
+    "chapterTitle": "Probability Distributions",
+    "question": "In a perfectly symmetrical Normal Distribution, what specific percentage of observations theoretically fall within \u00b11 Standard Deviation of the mean?",
+    "options": [
+      "A) Approximately 50%",
+      "B) Approximately 68%",
+      "C) Approximately 95%",
+      "D) Approximately 99.7%"
+    ],
+    "correctAnswer": "B) Approximately 68%",
+    "explanation": "According to the Empirical Rule (68-95-99.7 rule), about 68% of the area under a normal curve is located within one standard deviation of the average."
+  },
+  {
+    "id": "b2c11q7",
+    "chapter": 11,
+    "chapterTitle": "Probability Distributions",
+    "question": "What are the specific parameters (Mean and Standard Deviation) of a 'Standard Normal Distribution'?",
+    "options": [
+      "A) Mean = 1, SD = 0",
+      "B) Mean = 0, SD = 1",
+      "C) Mean = 100, SD = 15",
+      "D) Mean = 0, SD = 0"
+    ],
+    "correctAnswer": "B) Mean = 0, SD = 1",
+    "explanation": "The Standard Normal Distribution (Z-distribution) is a specialized version of the normal distribution where the mean is exactly 0 and the standard deviation is exactly 1."
+  },
+  {
+    "id": "b2c11q8",
+    "chapter": 11,
+    "chapterTitle": "Probability Distributions",
+    "question": "If a z-score is calculated to be +2.0, what does this mathematically imply about that specific data point?",
+    "options": [
+      "A) The point is exactly equal to the mean.",
+      "B) The point is exactly two units greater than the mean.",
+      "C) The point is exactly two standard deviations above the mean.",
+      "D) The point has a 2% probability of occurring."
+    ],
+    "correctAnswer": "C) The point is exactly two standard deviations above the mean.",
+    "explanation": "The z-score measures how many standard deviations a raw data point is located away from the mean. A positive 2.0 indicates it is two standard deviations above it."
+  },
+  {
+    "id": "b2c11q9",
+    "chapter": 11,
+    "chapterTitle": "Probability Distributions",
+    "question": "Which distribution is most appropriate for modeling rare, independent events that occur within a specific fixed interval of time or of space?",
+    "options": [
+      "A) Binomial Distribution",
+      "B) Normal Distribution",
+      "C) Poisson Distribution",
+      "D) Symmetrical Distribution"
+    ],
+    "correctAnswer": "C) Poisson Distribution",
+    "explanation": "The Poisson distribution is uniquely used to calculate the probability of a specific number of independent events occurring within a fixed timeframe or area."
+  },
+  {
+    "id": "b2c11q10",
+    "chapter": 11,
+    "chapterTitle": "Probability Distributions",
+    "question": "The total area located beneath the curve of any valid continuous probability density function (like the normal curve) is always:",
+    "options": [
+      "A) 0",
+      "B) 0.5",
+      "C) 1.0",
+      "D) Infinite"
+    ],
+    "correctAnswer": "C) 1.0",
+    "explanation": "Mirroring the rule for discrete distributions, the total area under a continuous distribution curve represents the total probability of all outcomes, which must sum to exactly 1.0."
+  },
+  {
+    "id": "b2c11q11",
+    "chapter": 11,
+    "chapterTitle": "Probability Distributions",
+    "question": "In a binomial experiment with n = 10 trials and a success probability p = 0.5, what is the calculated expected value (mean)?",
+    "options": [
+      "A) 2",
+      "B) 5",
+      "C) 10",
+      "D) 1"
+    ],
+    "correctAnswer": "B) 5",
+    "explanation": "The mean of a binomial distribution is calculated simply as n * p. Here, 10 * 0.5 = 5."
+  },
+  {
+    "id": "b2c11q12",
+    "chapter": 11,
+    "chapterTitle": "Probability Distributions",
+    "question": "Continuous probability distributions (like the Normal distribution) differ from discrete ones because they:",
+    "options": [
+      "A) Deal with variables that can take any value in an interval.",
+      "B) Only deal with whole items.",
+      "C) Have no mean or standard deviation.",
+      "D) Are always skewed to the left."
+    ],
+    "correctAnswer": "A) Deal with variables that can take any value in an interval.",
+    "explanation": "Continuity implies that there are no gaps between possible values; a continuous variable can be measured with infinite precision within its defined range."
+  },
+  {
+    "id": "b2c11q13",
+    "chapter": 11,
+    "chapterTitle": "Probability Distributions",
+    "question": "If a dataset has a mean of 50 and a standard deviation of 5, what is the z-score for a data value of 40?",
+    "options": [
+      "A) +2.0",
+      "B) -2.0",
+      "C) +10.0",
+      "D) -10.0"
+    ],
+    "correctAnswer": "B) -2.0",
+    "explanation": "The formula for a z-score is z = (X - Mean) / SD. Here, (40 - 50) / 5 = -10 / 5 = -2.0."
+  },
+  {
+    "id": "b2c11q14",
+    "chapter": 11,
+    "chapterTitle": "Probability Distributions",
+    "question": "In a Poison Distribution, if the average number of events per hour (\u03bb) is 4, what is the variance of the distribution?",
+    "options": [
+      "A) 2",
+      "B) 4",
+      "C) 8",
+      "D) 16"
+    ],
+    "correctAnswer": "B) 4",
+    "explanation": "A unique statistical property of the Poisson distribution is that its mean and its variance are mathematically identical (\u03bc = \u03c3^2 = \u03bb)."
+  },
+  {
+    "id": "b2c11q15",
+    "chapter": 11,
+    "chapterTitle": "Probability Distributions",
+    "question": "According to the normal distribution table, what is the area to the left of a z-score of 0?",
+    "options": [
+      "A) 0%",
+      "B) 50%",
+      "C) 100%",
+      "D) 95%"
+    ],
+    "correctAnswer": "B) 50%",
+    "explanation": "Because the Normal Distribution is perfectly symmetrical and centered at a mean (z) of 0, exactly half (50%) of the outcomes fall to the left of the center."
+  },
+  {
+    "id": "b2c12q1",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Decision-making",
+    "question": "Which of the following best defines a 'Population' in the context of statistical sampling?",
+    "options": [
+      "A) A small group of people chosen for a specific survey.",
+      "B) The complete collection of all possible elements that are under study.",
+      "C) The average value of a specific sample.",
+      "D) A collection of data that contains only outliers."
+    ],
+    "correctAnswer": "B) The complete collection of all possible elements that are under study.",
+    "explanation": "In statistics, the 'population' is the entire overarching group or set of items from which researchers intend to draw data or conclusions."
+  },
+  {
+    "id": "b2c12q2",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Decision-making",
+    "question": "If a researcher selects every 10th person from a complete list of employees to participate in a study, which sampling method are they utilizing?",
+    "options": [
+      "A) Simple Random Sampling",
+      "B) Systematic Sampling",
+      "C) Stratified Sampling",
+      "D) Convenience Sampling"
+    ],
+    "correctAnswer": "B) Systematic Sampling",
+    "explanation": "Systematic sampling is characterized by selecting elements from an ordered population at a fixed, periodic interval (the 'kth' element)."
+  },
+  {
+    "id": "b2c12q3",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Decision-making",
+    "question": "A sampling technique that involves dividing the entire population into distinct sub-groups (based on shared traits) and drawing a random sample from each is called:",
+    "options": [
+      "A) Cluster Sampling",
+      "B) Stratified Random Sampling",
+      "C) Quota Sampling",
+      "D) Random Sampling"
+    ],
+    "correctAnswer": "B) Stratified Random Sampling",
+    "explanation": "Stratified sampling ensures representation from every key sub-group (strata) by dividing the population before performing the randomized selection."
+  },
+  {
+    "id": "b2c12q4",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Decision-making",
+    "question": "What is a 'parameter' in statistics?",
+    "options": [
+      "A) A numerical characteristic describing a sample.",
+      "B) A numerical characteristic describing an entire population.",
+      "C) The error margin of a survey.",
+      "D) The number of people who refused to answer a question."
+    ],
+    "correctAnswer": "B) A numerical characteristic describing an entire population.",
+    "explanation": "While a 'statistic' describes a sample, a 'parameter' is a fixed numerical value that describes the total, overarching population."
+  },
+  {
+    "id": "b2c12q5",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Decision-making",
+    "question": "In sampling theory, a 'statistic' is specifically used as an estimate for a population's:",
+    "options": [
+      "A) Sample size",
+      "B) Standard error",
+      "C) Parameter",
+      "D) Variance"
+    ],
+    "correctAnswer": "C) Parameter",
+    "explanation": "Researchers calculate sample statistics (like a sample mean) as a practical and efficient way to estimate the unknown value of a population parameter."
+  },
+  {
+    "id": "b2c12q6",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Decision-making",
+    "question": "Which of the following is a classic example of non-probability (non-random) sampling?",
+    "options": [
+      "A) Simple Random Sampling",
+      "B) Systematic Sampling",
+      "C) Quota Sampling",
+      "D) Cluster Sampling"
+    ],
+    "correctAnswer": "C) Quota Sampling",
+    "explanation": "Quota sampling is a non-probability method where researchers select participants based on specific quotas, rather than through a purely randomized process."
+  },
+  {
+    "id": "b2c12q7",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Decision-making",
+    "question": "Which sampling method is most efficient when a population is extremely large and spread over a vast geographic area?",
+    "options": [
+      "A) Stratified Sampling",
+      "B) Cluster Sampling",
+      "C) Convenience Sampling",
+      "D) Simple Random Sampling"
+    ],
+    "correctAnswer": "B) Cluster Sampling",
+    "explanation": "Cluster sampling involves dividing the population into naturally occurring groups (clusters) and then randomly selecting entire clusters to study, making it cost-effective for large geographic areas."
+  },
+  {
+    "id": "b2c12q8",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Decision-making",
+    "question": "In statistical hypothesis testing, a 'Type I error' occurs when a researcher:",
+    "options": [
+      "A) Rejects a true null hypothesis.",
+      "B) Fails to reject a false null hypothesis.",
+      "C) Accepts a hypothesis that they haven't tested.",
+      "D) Corrects a mistake in the data set."
+    ],
+    "correctAnswer": "A) Rejects a true null hypothesis.",
+    "explanation": "A Type I error is essentially a 'false positive'—concluding that a change or effect exists when, in reality, the null hypothesis was actually correct."
+  },
+  {
+    "id": "b2c12q9",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Decision-making",
+    "question": "In statistical hypothesis testing, a 'Type II error' occurs when a researcher:",
+    "options": [
+      "A) Rejects a true null hypothesis.",
+      "B) Fails to reject a false null hypothesis.",
+      "C) Uses a sample size that is too large.",
+      "D) Sets a significance level that is too high."
+    ],
+    "correctAnswer": "B) Fails to reject a false null hypothesis.",
+    "explanation": "A Type II error is a 'false negative'—missing an actual effect or change by failing to reject a null hypothesis that is fundamentally false."
+  },
+  {
+    "id": "b2c12q10",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Decision-making",
+    "question": "The 'significance level' (\u03b1) in a statistical test represents the maximum allowed probability of committing a:",
+    "options": [
+      "A) Multi-stage error",
+      "B) Sampling bias",
+      "C) Type I error",
+      "D) Type II error"
+    ],
+    "correctAnswer": "C) Type I error",
+    "explanation": "The significance level is the threshold (often 0.05 or 5%) that researchers set as the maximum acceptable risk of rejecting a null hypothesis when it is actually true."
+  },
+  {
+    "id": "b2c12q11",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Decision-making",
+    "question": "In a standard normal distribution test, if a calculated z-test value falls within the designated 'critical region' (rejection zone), what should the researcher do?",
+    "options": [
+      "A) Reject the Null Hypothesis",
+      "B) Accept the Null Hypothesis",
+      "C) Increase the sample size immediately",
+      "D) Discard the entire study"
+    ],
+    "correctAnswer": "A) Reject the Null Hypothesis",
+    "explanation": "Falling into the critical region mathematically indicates that the observed result is so unlikely to happen by chance that the null hypothesis is rejected in favor of the alternative."
+  },
+  {
+    "id": "b2c12q12",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Decision-making",
+    "question": "What specifically happens to the calculated 'Standard Error of the Mean' as the sample size (n) is increased?",
+    "options": [
+      "A) It increases drastically.",
+      "B) It remains identical.",
+      "C) It decreases.",
+      "D) It becomes zero."
+    ],
+    "correctAnswer": "C) It decreases.",
+    "explanation": "The standard error formula is SD / \u221an. Because 'n' is in the denominator, a larger sample size mathematically results in a smaller standard error, meaning the estimate is more precise."
+  },
+  {
+    "id": "b2c12q13",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Decision-making",
+    "question": "A 'null hypothesis' (H0) is most commonly used in statistical testing to represent:",
+    "options": [
+      "A) A state of no change or no effect.",
+      "B) A revolutionary new discovery.",
+      "C) A calculation error.",
+      "D) An infinite population."
+    ],
+    "correctAnswer": "A) A state of no change or no effect.",
+    "explanation": "The null hypothesis is the baseline assumption that there is no significant difference, effect, or relationship; it is the hypothesis that the test seeks to challenge."
+  },
+  {
+    "id": "b2c12q14",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Decision-making",
+    "question": "A 'sampling frame' is formally defined in research as:",
+    "options": [
+      "A) The physical border around a chart.",
+      "B) The complete list of all units in a population from which a sample can be drawn.",
+      "C) The questionnaire used for the survey.",
+      "D) The final result of the statistical test."
+    ],
+    "correctAnswer": "B) The complete list of all units in a population from which a sample can be drawn.",
+    "explanation": "Before choosing a sample, researchers need a sampling frame, which is the actual list (like a phone book or customer database) of the members of the population."
+  },
+  {
+    "id": "b2c12q15",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Decision-making",
+    "question": "According to the Central Limit Theorem, for large sample sizes, the sampling distribution of the means will always approach:",
+    "options": [
+      "A) A Binomial Distribution",
+      "B) A Normal Distribution",
+      "C) A Poisson Distribution",
+      "D) A Discrete Distribution"
+    ],
+    "correctAnswer": "B) A Normal Distribution",
+    "explanation": "The Central Limit Theorem is a cornerstone of statistics, asserting that as sample size grows, the distribution of the sample means will become normal, regardless of the original population's distribution."
+  }
+]

@@ -1,0 +1,842 @@
+[
+  {
+    "id": "c8q1",
+    "chapter": 8,
+    "chapterTitle": "Substantive Procedures: Non-Current Assets",
+    "question": "An auditor is verifying the ownership of a client's fleet of commercial vehicles. Which of the following is the most appropriate source of evidence for the assertion of 'Rights and Obligations'?",
+    "options": [
+      "A) Physical inspection of the vehicles in the parking lot.",
+      "B) Inspection of the original registration books (v-5 documents) and insurance certificates in the name of the company.",
+      "C) Reviewing the repair and maintenance invoices for the year.",
+      "D) Inquiring of the drivers if they like the vehicles."
+    ],
+    "correctAnswer": "B) Inspection of the original registration books (v-5 documents) and insurance certificates in the name of the company.",
+    "explanation": "To verify 'Rights and Obligations' (ownership), the auditor must inspect legal title documents like registration papers or purchase contracts. Physical inspection only proves 'Existence'."
+  },
+  {
+    "id": "c8q2",
+    "chapter": 8,
+    "chapterTitle": "Substantive Procedures: Non-Current Assets",
+    "question": "To test the 'Existence' assertion for a new, expensive piece of manufacturing machinery, which procedure is most effective?",
+    "options": [
+      "A) Recalculating the depreciation expense related to the machine.",
+      "B) Selecting the machine from the fixed asset register and physically inspecting it in the factory.",
+      "C) Vouching the purchase invoice to the bank statement.",
+      "D) Confirming with the supplier that the machine was shipped."
+    ],
+    "correctAnswer": "B) Selecting the machine from the fixed asset register and physically inspecting it in the factory.",
+    "explanation": "Tracing from the accounting records (Fixed Asset Register) to the physical asset in the factory confirms that the asset recorded actually exists."
+  },
+  {
+    "id": "c8q3",
+    "chapter": 8,
+    "chapterTitle": "Substantive Procedures: Non-Current Assets",
+    "question": "Which of the following is NOT a substantive procedure for verifying the valuation of property, plant, and equipment (PPE)?",
+    "options": [
+      "A) Recalculating the current year's depreciation charge.",
+      "B) Reviewing the useful lives and residual values for reasonableness.",
+      "C) Inspecting the director's minutes for approval of the asset purchase.",
+      "D) Comparing the carrying amount of an asset to its estimated recoverable amount if indicators of impairment exist."
+    ],
+    "correctAnswer": "C) Inspecting the director's minutes for approval of the asset purchase.",
+    "explanation": "Inspecting minutes for approval is a test of control addressing 'Authorization', not a substantive test of 'Valuation'. Recalculating depreciation and impairment testing address Valuation."
+  },
+  {
+    "id": "c8q4",
+    "chapter": 8,
+    "chapterTitle": "Substantive Procedures: Non-Current Assets",
+    "question": "An auditor discovers that a client has capitalized the entire cost of a major factory roof repair as a non-current asset. The repair only restored the roof to its original condition. What is the impact on the financial statements?",
+    "options": [
+      "A) Non-current assets are understated and expenses are overstated.",
+      "B) Non-current assets are overstated and expenses are understated.",
+      "C) Both assets and expenses are correctly stated.",
+      "D) The cash balance is incorrectly recorded."
+    ],
+    "correctAnswer": "B) Non-current assets are overstated and expenses are understated.",
+    "explanation": "Repairs that only restore an asset's original condition (revenue expenditure) should be expensed. Capitalizing them wrongly inflates assets and hides expenses, overstating profit."
+  },
+  {
+    "id": "c8q5",
+    "chapter": 8,
+    "chapterTitle": "Substantive Procedures: Non-Current Assets",
+    "question": "Which procedure addresses the 'Completeness' assertion of non-current assets?",
+    "options": [
+      "A) Vouching a sample of entries in the Fixed Asset Register to purchase invoices.",
+      "B) Physically inspecting a sample of assets seen in the factory and tracing them back to the Fixed Asset Register.",
+      "C) Reviewing the repairs and maintenance account for items that should have been capitalized.",
+      "D) Both B and C are correct."
+    ],
+    "correctAnswer": "D) Both B and C are correct.",
+    "explanation": "Completeness is tested by going from the physical world (Floor to Register) or by looking for missing items in expense accounts (Repairs to Register) that should be recorded as assets."
+  },
+  {
+    "id": "c8q6",
+    "chapter": 8,
+    "chapterTitle": "Substantive Procedures: Non-Current Assets",
+    "question": "A client recently revalued its head office building. According to ISA 540, what is the auditor's primary responsibility regarding this accounting estimate?",
+    "options": [
+      "A) Act as the independent valuer for the client to save costs.",
+      "B) Evaluate the reasonableness of the assumptions and methods used by management's expert.",
+      "C) Automatically accept the valuation if the expert is a member of a professional body.",
+      "D) Insist that the client uses the historical cost model instead."
+    ],
+    "correctAnswer": "B) Evaluate the reasonableness of the assumptions and methods used by management's expert.",
+    "explanation": "When management uses an expert for a valuation, the auditor must evaluate the expert's competence and the reasonableness of their assumptions and data."
+  },
+  {
+    "id": "c8q7",
+    "chapter": 8,
+    "chapterTitle": "Substantive Procedures: Non-Current Assets",
+    "question": "An auditor is testing the depreciation of fully depreciated assets that are still in use. What is the correct accounting treatment for these assets?",
+    "options": [
+      "A) They should be removed from the Fixed Asset Register and the financial statements immediately.",
+      "B) They should stay on the register at cost and accumulated depreciation, but no further depreciation should be charged.",
+      "C) The auditor should insist the client records 'negative' depreciation to offset past charges.",
+      "D) The cost of the assets should be written off to the income statement."
+    ],
+    "correctAnswer": "B) They should stay on the register at cost and accumulated depreciation, but no further depreciation should be charged.",
+    "explanation": "Assets still in use remain on the balance sheet at their historical cost and 100% accumulated depreciation. They are not depreciated further once their carrying amount reaches their residual value."
+  },
+  {
+    "id": "c8q8",
+    "chapter": 8,
+    "chapterTitle": "Substantive Procedures: Non-Current Assets",
+    "question": "To verify the 'Classification' of a leased asset, the auditor must determine if it is a right-of-use asset under IFRS 16. What document must be inspected?",
+    "options": [
+      "A) The bank reconciliation statement.",
+      "B) The lease agreement and the terms of the contract.",
+      "C) The company's organizational chart.",
+      "D) The petty cash book."
+    ],
+    "correctAnswer": "B) The lease agreement and the terms of the contract.",
+    "explanation": "The lease agreement contains the essential terms (duration, payments, transfer of control) required to determine the correct accounting treatment and classification of the asset."
+  },
+  {
+    "id": "c8q9",
+    "chapter": 8,
+    "chapterTitle": "Substantive Procedures: Non-Current Assets",
+    "question": "Which of the following would lead an auditor to suspect that a non-current asset is 'Impaired'?",
+    "options": [
+      "A) The asset is being used 24 hours a day to meet high sales demand.",
+      "B) The asset is significantly damaged, or its market value has dropped drastically due to technological obsolescence.",
+      "C) The asset has been fully paid for earlier than expected.",
+      "D) The asset has been painted a new color."
+    ],
+    "correctAnswer": "B) The asset is significantly damaged, or its market value has dropped drastically due to technological obsolescence.",
+    "explanation": "Physical damage, obsolescence, or a significant decline in market value are key 'indicators of impairment' that require a formal impairment test under IAS 36."
+  },
+  {
+    "id": "c8q10",
+    "chapter": 8,
+    "chapterTitle": "Substantive Procedures: Non-Current Assets",
+    "question": "An auditor selects 20 assets from the Fixed Asset Register and physically inspects them, but 2 assets cannot be located. What is the most likely conclusion?",
+    "options": [
+      "A) Assets are understated.",
+      "B) Non-current assets are overstated because fictitious or disposed-of assets are still on the register.",
+      "C) The company's tax rate is too high.",
+      "D) The depreciation method is incorrect."
+    ],
+    "correctAnswer": "B) Non-current assets are overstated because fictitious or disposed-of assets are still on the register.",
+    "explanation": "If an asset is in the records but not physically present, the record is overstating the actual resources owned by the company (Existence failure)."
+  },
+  {
+    "id": "c9q1",
+    "chapter": 9,
+    "chapterTitle": "Substantive Procedures: Current Assets",
+    "question": "During the year-end inventory count, an auditor identifies several boxes of finished goods that are covered in thick dust and appear damaged. Which assertion is primarily at risk?",
+    "options": [
+      "A) Existence",
+      "B) Completeness",
+      "C) Valuation and Allocation",
+      "D) Rights and Obligations"
+    ],
+    "correctAnswer": "C) Valuation and Allocation",
+    "explanation": "Dusty and damaged inventory suggests the items may be obsolete or unsellable. Under IAS 2, inventory must be valued at the lower of cost and net realizable value (NRV). This addresses the Valuation assertion."
+  },
+  {
+    "id": "c9q2",
+    "chapter": 9,
+    "chapterTitle": "Substantive Procedures: Current Assets",
+    "question": "To test the 'Cut-off' assertion for inventory at year-end, the auditor should:",
+    "options": [
+      "A) Confirm bank balances with the local bank.",
+      "B) Record the last Goods Received Note (GRN) and Goods Dispatch Note (GDN) numbers from the year-end and trace them to the accounting records.",
+      "C) Recalculate the interest on a short-term loan.",
+      "D) Send letters to all employees asking for their salary details."
+    ],
+    "correctAnswer": "B) Record the last Goods Received Note (GRN) and Goods Dispatch Note (GDN) numbers from the year-end and trace them to the accounting records.",
+    "explanation": "Cut-off testing ensures transactions are recorded in the correct accounting period by checking documents just before and just after the year-end."
+  },
+  {
+    "id": "c9q3",
+    "chapter": 9,
+    "chapterTitle": "Substantive Procedures: Current Assets",
+    "question": "When sending external confirmations to trade receivables (debtors), what is the primary purpose of a 'Positive Confirmation'?",
+    "options": [
+      "A) To ask the debtor to reply only if they disagree with the balance.",
+      "B) To ask the debtor to respond in all cases, confirming whether they agree or disagree with the balance.",
+      "C) To ask the debtor to pay the balance immediately to the auditor's account.",
+      "D) To ask the debtor for their opinion on the company's management."
+    ],
+    "correctAnswer": "B) To ask the debtor to respond in all cases, confirming whether they agree or disagree with the balance.",
+    "explanation": "A positive confirmation request provides more reliable evidence than a negative one because the auditor expects a response regardless of whether the debtor agrees with the figure."
+  },
+  {
+    "id": "c9q4",
+    "chapter": 9,
+    "chapterTitle": "Substantive Procedures: Current Assets",
+    "question": "If a debtor fails to respond to three positive confirmation requests, which alternative procedure should the auditor perform to verify the existence and valuation of the receivable?",
+    "options": [
+      "A) Write off the balance as an automatic bad debt.",
+      "B) Review subsequent cash receipts from the debtor after the year-end.",
+      "C) Ask the client's CEO to vouch for the debtor's integrity.",
+      "D) Send a fourth letter with a more aggressive tone."
+    ],
+    "correctAnswer": "B) Review subsequent cash receipts from the debtor after the year-end.",
+    "explanation": "Verifying that the debtor actually paid the balance after the year-end (subsequent cash testing) is the most persuasive alternative evidence for existence and valuation."
+  },
+  {
+    "id": "c9q5",
+    "chapter": 9,
+    "chapterTitle": "Substantive Procedures: Current Assets",
+    "question": "Which of the following procedures would help an auditor identify understated (complete) trade payables at year-end?",
+    "options": [
+      "A) Selecting a sample of recorded payables and vouching them to supplier invoices.",
+      "B) Performing a search for unrecorded liabilities by reviewing bank payments and supplier invoices received *after* the year-end.",
+      "C) Confirming the existence of fixed assets with the warehouse manager.",
+      "D) Recalculating the previous year's tax liability."
+    ],
+    "correctAnswer": "B) Performing a search for unrecorded liabilities by reviewing bank payments and supplier invoices received *after* the year-end.",
+    "explanation": "Completeness of liabilities is tested by looking at what was paid *after* the year-end to see if any of those payments related to obligations that existed *at* the year-end but were not recorded."
+  },
+  {
+    "id": "c9q6",
+    "chapter": 9,
+    "chapterTitle": "Substantive Procedures: Current Assets",
+    "question": "What is the primary document used to perform a bank reconciliation?",
+    "options": [
+      "A) The sales day book.",
+      "B) The client's cash book and the year-end bank statement or bank confirmation letter.",
+      "C) The staff holiday calendar.",
+      "D) The petty cash receipts."
+    ],
+    "correctAnswer": "B) The client's cash book and the year-end bank statement or bank confirmation letter.",
+    "explanation": "A bank reconciliation compares the entity's internal record of cash (the cash book) with the external record provided by the bank (the statement or confirmation)."
+  },
+  {
+    "id": "c9q7",
+    "chapter": 9,
+    "chapterTitle": "Substantive Procedures: Current Assets",
+    "question": "An auditor is observing the physical inventory count and notices that goods belonging to a third party (consignment stock) are being counted as part of the company's own stock. Which assertion is being violated?",
+    "options": [
+      "A) Existence",
+      "B) Completeness",
+      "C) Rights and Obligations",
+      "D) Valuation"
+    ],
+    "correctAnswer": "C) Rights and Obligations",
+    "explanation": "Rights and obligations address whether the entity holds or controls the rights to the assets. Third-party stock should not be recorded as the company's asset because the company does not own it."
+  },
+  {
+    "id": "c9q8",
+    "chapter": 9,
+    "chapterTitle": "Substantive Procedures: Current Assets",
+    "question": "To verify the valuation of a large inventory of raw materials, the auditor should:",
+    "options": [
+      "A) Trace the purchase prices from a sample of recent supplier invoices and compare them with the carry value.",
+      "B) Physically count every single grain of raw material.",
+      "C) Ask the warehouse staff how much they think the materials are worth.",
+      "D) Assume the value is correct if the market price is rising."
+    ],
+    "correctAnswer": "A) Trace the purchase prices from a sample of recent supplier invoices and compare them with the carry value.",
+    "explanation": "Comparing recorded values to original cost evidence (invoices) is a fundamental substantive test for the valuation of raw materials."
+  },
+  {
+    "id": "c9q9",
+    "chapter": 9,
+    "chapterTitle": "Substantive Procedures: Current Assets",
+    "question": "When auditing prepayments, the auditor should review the insurance premium paid during the year. If a 12-month policy was paid 3 months before year-end, how much should be recorded as a prepayment?",
+    "options": [
+      "A) The full amount of the premium.",
+      "B) Zero, it should be fully expensed.",
+      "C) 9 months' worth of the premium.",
+      "D) 3 months' worth of the premium."
+    ],
+    "correctAnswer": "C) 9 months' worth of the premium.",
+    "explanation": "A prepayment represents the portion of an expense that relates to a future period. Since 3 months have passed, 9 months are still 'prepaid'."
+  },
+  {
+    "id": "c9q10",
+    "chapter": 9,
+    "chapterTitle": "Substantive Procedures: Current Assets",
+    "question": "Which of the following provides the most 'External' and 'Reliable' evidence for the cash balance?",
+    "options": [
+      "A) A verbal statement from the company's treasurer.",
+      "B) A cash book printout from the client's software.",
+      "C) A direct bank confirmation letter received by the auditor from the client's bank.",
+      "D) A handwritten note from the petty cash custodian."
+    ],
+    "correctAnswer": "C) A direct bank confirmation letter received by the auditor from the client's bank.",
+    "explanation": "Direct external confirmations from third parties (banks) are highly reliable because they are objective and independent of the client's internal systems."
+  },
+  {
+    "id": "c10q1",
+    "chapter": 10,
+    "chapterTitle": "Substantive Procedures: Other Areas",
+    "question": "When auditing 'Provisions' (e.g., for a pending legal case), the auditor's primary concern under IAS 37 is whether:",
+    "options": [
+      "A) A provision has been made for every potential risk in the next 10 years.",
+      "B) There is a present obligation as a result of a past event, a probable outflow of resources, and a reliable estimate can be made.",
+      "C) The provision has been fully paid in cash.",
+      "D) The provision is shown as a non-current asset."
+    ],
+    "correctAnswer": "B) There is a present obligation as a result of a past event, a probable outflow of resources, and a reliable estimate can be made.",
+    "explanation": "These three criteria are the fundamental recognition requirements for a provision under IAS 37 (Provisions, Contingent Liabilities and Contingent Assets)."
+  },
+  {
+    "id": "c10q2",
+    "chapter": 10,
+    "chapterTitle": "Substantive Procedures: Other Areas",
+    "question": "An auditor is reviewing the 'Contingent Liabilities' of a company. A major lawsuit against the company is deemed 'Possible' but not 'Probable' by the legal counsel. What is the correct accounting treatment?",
+    "options": [
+      "A) Recognize a full provision in the balance sheet.",
+      "B) Do nothing and ignore the issue.",
+      "C) Disclose the matter in the notes to the financial statements.",
+      "D) Recognize the full amount as an asset."
+    ],
+    "correctAnswer": "C) Disclose the matter in the notes to the financial statements.",
+    "explanation": "If an outflow is possible (but not probable), it is a contingent liability. According to IAS 37, contingent liabilities are disclosed in the notes, not recognized in the financial statements."
+  },
+  {
+    "id": "c10q3",
+    "chapter": 10,
+    "chapterTitle": "Substantive Procedures: Other Areas",
+    "question": "To obtain evidence about a pending legal claim against the client, the auditor should primarily:",
+    "options": [
+      "A) Use a crystal ball to predict the future.",
+      "B) Communicate directly with the client's external legal counsel through a letter of inquiry.",
+      "C) Ask the company's receptionist for their opinion on the case.",
+      "D) Assume management is correct without verification."
+    ],
+    "correctAnswer": "B) Communicate directly with the client's external legal counsel through a letter of inquiry.",
+    "explanation": "Direct communication with the client's lawyers provides independent, expert evidence regarding the status, probability, and estimated costs of legal disputes."
+  },
+  {
+    "id": "c10q4",
+    "chapter": 10,
+    "chapterTitle": "Substantive Procedures: Other Areas",
+    "question": "In auditing share capital, which document provides the best evidence of the 'Authorized Share Capital' of a company incorporated in Pakistan?",
+    "options": [
+      "A) The daily stock market report.",
+      "B) The Memorandum and Articles of Association.",
+      "C) The latest marketing brochure.",
+      "D) The petty cash vouchers."
+    ],
+    "correctAnswer": "B) The Memorandum and Articles of Association.",
+    "explanation": "The Memorandum and Articles of Association are legal constitutional documents that define the maximum number of shares a company is authorized to issue."
+  },
+  {
+    "id": "c10q5",
+    "chapter": 10,
+    "chapterTitle": "Substantive Procedures: Other Areas",
+    "question": "When auditing the 'Non-Current Liabilities' (long-term loans), the auditor should cross-check the interest expense in the income statement with:",
+    "options": [
+      "A) The total sales for the year.",
+      "B) The loan agreement, interest rates, and the outstanding loan balance.",
+      "C) The number of employees in the finance department.",
+      "D) The cost of land and buildings."
+    ],
+    "correctAnswer": "B) The loan agreement, interest rates, and the outstanding loan balance.",
+    "explanation": "The interest expense should be mathematically consistent with the terms of the loan and the actual amount of debt held by the company during the period."
+  },
+  {
+    "id": "c10q6",
+    "chapter": 10,
+    "chapterTitle": "Substantive Procedures: Other Areas",
+    "question": "Which procedure best tests the 'Completeness' of a company's recorded payroll expense?",
+    "options": [
+      "A) Vouching a sample of employees from the payroll to their personnel files.",
+      "B) Performing a proof-in-total (analytical procedure) by multiplying the average number of employees by the average salary and comparing it to the total recorded expense.",
+      "C) Counting the number of desks in the office.",
+      "D) Checking the spelling of names in the payroll system."
+    ],
+    "correctAnswer": "B) Performing a proof-in-total (analytical procedure) by multiplying the average number of employees by the average salary and comparing it to the total recorded expense.",
+    "explanation": "A proof-in-total is a powerful substantive analytical procedure used to ensure the total recorded expense is reasonable and complete based on known operational data."
+  },
+  {
+    "id": "c10q7",
+    "chapter": 10,
+    "chapterTitle": "Substantive Procedures: Other Areas",
+    "question": "If a company pays a dividend during the year, the auditor must verify that the payment was properly authorized. Where would this authorization typically be found?",
+    "options": [
+      "A) In a local newspaper advertisement.",
+      "B) In the minutes of the Board of Directors' meetings or the Annual General Meeting (AGM).",
+      "C) On the company's social media page.",
+      "D) In the petty cash book."
+    ],
+    "correctAnswer": "B) In the minutes of the Board of Directors' meetings or the Annual General Meeting (AGM).",
+    "explanation": "Dividends are significant transactions that require formal approval by directors (interim) or shareholders (final), which is documented in the meeting minutes."
+  },
+  {
+    "id": "c10q8",
+    "chapter": 10,
+    "chapterTitle": "Substantive Procedures: Other Areas",
+    "question": "An auditor reviews a 'Subsequent Event' where a major debtor went bankrupt 2 weeks after the year-end but before the audit report was signed. How should this be handled?",
+    "options": [
+      "A) Ignore it as it happened after the year-end.",
+      "B) Adjust the year-end financial statements by recording a bad debt provision for that debtor (Adjusting Event).",
+      "C) Disclose it only in the next year's financial statements.",
+      "D) Resign from the audit immediately."
+    ],
+    "correctAnswer": "B) Adjust the year-end financial statements by recording a bad debt provision for that debtor (Adjusting Event).",
+    "explanation": "The bankruptcy of a debtor after the year-end provides evidence of a condition (the debtor's insolvency) that existed at the year-end. This is an 'Adjusting Event' under IAS 10."
+  },
+  {
+    "id": "c10q9",
+    "chapter": 10,
+    "chapterTitle": "Substantive Procedures: Other Areas",
+    "question": "What is the primary responsibility of the auditor regarding a company's 'Going Concern' status?",
+    "options": [
+      "A) To guarantee that the company will never go bankrupt.",
+      "B) To obtain sufficient appropriate audit evidence about the appropriateness of management's use of the going concern basis of accounting.",
+      "C) To manage the company's cash flow to keep it solvent.",
+      "D) To personally lend money to the company if it faces a crisis."
+    ],
+    "correctAnswer": "B) To obtain sufficient appropriate audit evidence about the appropriateness of management's use of the going concern basis of accounting.",
+    "explanation": "ISA 570 requires the auditor to evaluate whether there is material uncertainty about the company's ability to continue as a going concern for at least 12 months."
+  },
+  {
+    "id": "c10q10",
+    "chapter": 10,
+    "chapterTitle": "Substantive Procedures: Other Areas",
+    "question": "Which of the following procedures specifically tests for 'Unrecorded' liabilities (Completeness)?",
+    "options": [
+      "A) Selecting recorded liabilities and vouching them to invoices.",
+      "B) Reviewing the invoices received and payments made after the year-end (subsequent payments review).",
+      "C) Physically inspecting non-current assets.",
+      "D) Reading the company's mission statement."
+    ],
+    "correctAnswer": "B) Reviewing the invoices received and payments made after the year-end (subsequent payments review).",
+    "explanation": "Reviewing what was paid after year-end helps find debts that should have been recorded as liabilities at the year-end but were missed."
+  },
+  {
+    "id": "c11q1",
+    "chapter": 11,
+    "chapterTitle": "Related Party Transactions",
+    "question": "According to ISA 550, why do Related Party (RP) transactions pose a higher risk of material misstatement?",
+    "options": [
+      "A) Because related parties always want to pay more tax than necessary.",
+      "B) Because RP transactions may not be conducted under normal market terms (arm's length) and can be used to manipulate financial results.",
+      "C) Because the auditor is personally related to the client's CEO.",
+      "D) Because related parties are legally prohibited from trading with each other."
+    ],
+    "correctAnswer": "B) Because RP transactions may not be conducted under normal market terms (arm's length) and can be used to manipulate financial results.",
+    "explanation": "Related parties (like family members or parent companies) can influence each other to set prices that wouldn't exist between independent parties, which can be used to hide losses or shift profits."
+  },
+  {
+    "id": "c11q2",
+    "chapter": 11,
+    "chapterTitle": "Related Party Transactions",
+    "question": "Management claims that all transactions with its parent company were conducted on 'Arm’s Length' terms. What is the auditor's responsibility regarding this specific claim?",
+    "options": [
+      "A) Accept the claim as true without further testing.",
+      "B) Obtain sufficient appropriate audit evidence to support management's assertion that the terms were equivalent to those in an arm's length transaction.",
+      "C) Disclaim an opinion because it's impossible to verify arm's length terms.",
+      "D) Insist that all parent-subsidiary trades be stopped immediately."
+    ],
+    "correctAnswer": "B) Obtain sufficient appropriate audit evidence to support management's assertion that the terms were equivalent to those in an arm's length transaction.",
+    "explanation": "If management makes an explicit claim of arm’s length terms in the financial statements, the auditor must specifically test that claim by comparing the prices to those of independent third parties."
+  },
+  {
+    "id": "c11q3",
+    "chapter": 11,
+    "chapterTitle": "Related Party Transactions",
+    "question": "Which of the following is an example of a Related Party for a corporate audit client?",
+    "options": [
+      "A) A random individual who bought 1 share of the company on the stock exchange.",
+      "B) A company controlled by the spouse of the client's Managing Director.",
+      "C) The local utility company that provides electricity to the factory.",
+      "D) The tax authorities."
+    ],
+    "correctAnswer": "B) A company controlled by the spouse of the client's Managing Director.",
+    "explanation": "Related parties include entities that can exercise significant influence or control. Close family members of key management personnel are considered related parties under IAS 24."
+  },
+  {
+    "id": "c11q4",
+    "chapter": 11,
+    "chapterTitle": "Related Party Transactions",
+    "question": "During the audit, the auditor discovers a significant transaction with a company that was not disclosed as a related party by management. What is the auditor's first action?",
+    "options": [
+      "A) Resign from the audit immediately.",
+      "B) Communicate the discovery to the other members of the engagement team and inquire why management failed to identify/disclose it.",
+      "C) Post a public warning about the company on social media.",
+      "D) Assume it was just a minor clerical error and ignore it."
+    ],
+    "correctAnswer": "B) Communicate the discovery to the other members of the engagement team and inquire why management failed to identify/disclose it.",
+    "explanation": "Communication within the team and inquiry of management are the first steps to determine if the failure to disclose was an oversight or an intentional attempt to conceal fraud."
+  },
+  {
+    "id": "c11q5",
+    "chapter": 11,
+    "chapterTitle": "Related Party Transactions",
+    "question": "Which of the following audit procedures would most likely help an auditor identify undisclosed related party transactions?",
+    "options": [
+      "A) Reviewing the board of directors’ minutes and shareholder records.",
+      "B) Counting the physical inventory in the retail stores.",
+      "C) Checking the employee's uniform cleanliness.",
+      "D) Recalculating the previous year's depreciation."
+    ],
+    "correctAnswer": "A) Reviewing the board of directors’ minutes and shareholder records.",
+    "explanation": "Minutes and share registers often reveal the identities of major shareholders and directors' outside business interests, which are primary sources of related parties."
+  },
+  {
+    "id": "c11q6",
+    "chapter": 11,
+    "chapterTitle": "Related Party Transactions",
+    "question": "What is the primary disclosure requirement for Related Party transactions under IAS 24?",
+    "options": [
+      "A) To list every single pencil purchased from a related party.",
+      "B) To disclose the nature of the relationship, the amount of transactions, and outstanding balances at the year-end.",
+      "C) To disclose the home addresses of all related party owners.",
+      "D) No disclosure is required if the transactions are conducted in cash."
+    ],
+    "correctAnswer": "B) To disclose the nature of the relationship, the amount of transactions, and outstanding balances at the year-end.",
+    "explanation": "To make the financial statements understandable, IAS 24 requires disclosure of the relationship, transaction volumes, and any unpaid amounts at the balance sheet date."
+  },
+  {
+    "id": "c11q7",
+    "chapter": 11,
+    "chapterTitle": "Related Party Transactions",
+    "question": "An auditor notices that a client sold a building to its majority shareholder for 10% of its market value. What is the most significant risk associated with this transaction?",
+    "options": [
+      "A) The risk that the building was painted poorly.",
+      "B) The risk of lack of 'Occurrence' and 'Valuation' resulting in hidden distributions to shareholders.",
+      "C) The risk that the buyer will forget to pay for the building.",
+      "D) The risk that the shareholder used the building for a different purpose."
+    ],
+    "correctAnswer": "B) The risk of lack of 'Occurrence' and 'Valuation' resulting in hidden distributions to shareholders.",
+    "explanation": "Selling an asset significantly below market value to a related party is often a way to illegally extract value (a 'de facto' dividend) while manipulating profit/loss."
+  },
+  {
+    "id": "c11q8",
+    "chapter": 11,
+    "chapterTitle": "Related Party Transactions",
+    "question": "ISA 550 requires the auditor to obtain a 'Written Representation' from management. What should this representation cover regarding related parties?",
+    "options": [
+      "A) That management is personally related to the auditor.",
+      "B) That management has disclosed to the auditor the identity of the entity's related parties and all related party relationships and transactions.",
+      "C) That management will never use related parties again.",
+      "D) That related parties are more important than the auditor."
+    ],
+    "correctAnswer": "B) That management has disclosed to the auditor the identity of the entity's related parties and all related party relationships and transactions.",
+    "explanation": "Management representations are a core requirement to ensure management formally acknowledges it has given the auditor all relevant information about its related parties."
+  },
+  {
+    "id": "c11q9",
+    "chapter": 11,
+    "chapterTitle": "Related Party Transactions",
+    "question": "If an auditor is unable to obtain sufficient appropriate evidence regarding a significant undisclosed related party transaction, how might this impact the audit report?",
+    "options": [
+      "A) They must issue an unmodified opinion.",
+      "B) They may need to qualify the opinion or issue a disclaimer if the matter is material and pervasive.",
+      "C) They should skip the disclosure section in the report.",
+      "D) They should increase the audit fee to cover the risk."
+    ],
+    "correctAnswer": "B) They may need to qualify the opinion or issue a disclaimer if the matter is material and pervasive.",
+    "explanation": "A limitation on scope regarding material and potentially pervasive undisclosed transactions leads to a modified audit opinion."
+  },
+  {
+    "id": "c11q10",
+    "chapter": 11,
+    "chapterTitle": "Related Party Transactions",
+    "question": "Which of the following documents is least likely to help in identifying related parties?",
+    "options": [
+      "A) Conflicts of interest register.",
+      "B) Confirmation from banks and lawyers.",
+      "C) The office floor cleaning schedule.",
+      "D) Investments in other entities recorded in the ledger."
+    ],
+    "correctAnswer": "C) The office floor cleaning schedule.",
+    "explanation": "Administrative schedules for cleaning are irrelevant to identifying parties with financial influence or control. Investment records and conflict registers are highly relevant."
+  },
+  {
+    "id": "c12q1",
+    "chapter": 12,
+    "chapterTitle": "Reliance on Others",
+    "question": "Under ISA 610, when can the external auditor use the work of the 'Internal Audit Function'?",
+    "options": [
+      "A) Whenever they want to save money on staff costs.",
+      "B) Only if the internal audit function is sufficiently objective, competent, and applies a systematic and disciplined approach.",
+      "C) Only if the internal auditors are family members of the external auditor.",
+      "D) Never, because internal auditors are employees of the client."
+    ],
+    "correctAnswer": "B) Only if the internal audit function is sufficiently objective, competent, and applies a systematic and disciplined approach.",
+    "explanation": "ISA 610 permits reliance but requires the external auditor to first evaluate the internal audit function's quality, competence, and organizational status (objectivity)."
+  },
+  {
+    "id": "c12q2",
+    "chapter": 12,
+    "chapterTitle": "Reliance on Others",
+    "question": "Which of the following tasks is considered too high-risk for the external auditor to delegate to internal auditors as 'Direct Assistance'?",
+    "options": [
+      "A) Observing the annual physical inventory count.",
+      "B) Assessing the risk of material misstatement at the financial statement level and making significant professional judgments.",
+      "C) Re-performing mathematical calculations on depreciation.",
+      "D) Tracing a sample of invoices to the ledger."
+    ],
+    "correctAnswer": "B) Assessing the risk of material misstatement at the financial statement level and making significant professional judgments.",
+    "explanation": "External auditors must perform the core judgmental and risk-assessment tasks themselves. Direct assistance is typically limited to lower-risk, more procedural testing."
+  },
+  {
+    "id": "c12q3",
+    "chapter": 12,
+    "chapterTitle": "Reliance on Others",
+    "question": "According to ISA 620, what is the definition of an 'Auditor's Expert'?",
+    "options": [
+      "A) A junior auditor who is good at Excel.",
+      "B) An individual or organization possessing expertise in a field other than accounting or auditing, whose work is used by the auditor to obtain sufficient appropriate evidence.",
+      "C) A tax consultant who works for the client.",
+      "D) The client's CEO who has 20 years of experience."
+    ],
+    "correctAnswer": "B) An individual or organization possessing expertise in a field other than accounting or auditing, whose work is used by the auditor to obtain sufficient appropriate evidence.",
+    "explanation": "Auditor's experts provide specialized non-accounting skills, such as complex property valuations, legal interpretations, or specialized actuarial calculations."
+  },
+  {
+    "id": "c12q4",
+    "chapter": 12,
+    "chapterTitle": "Reliance on Others",
+    "question": "Before relying on the work of a specialized property valuer (Auditor's Expert), the auditor must evaluate:",
+    "options": [
+      "A) The expert's favorite color.",
+      "B) The expert's competence, capabilities, and objectivity.",
+      "C) Whether the expert is a friend of the client's manager.",
+      "D) Only the cost of the expert's services."
+    ],
+    "correctAnswer": "B) The expert's competence, capabilities, and objectivity.",
+    "explanation": "As per ISA 620, the auditor must assess if the expert has the skill (competence), resources (capability), and lack of bias (objectivity) to perform the work reliably."
+  },
+  {
+    "id": "c12q5",
+    "chapter": 12,
+    "chapterTitle": "Reliance on Others",
+    "question": "What is the external auditor's responsibility for the final audit opinion when they have used the work of an expert or internal auditors?",
+    "options": [
+      "A) They share the responsibility equally with the internal auditors.",
+      "B) The expert is solely responsible for any errors in their specific area.",
+      "C) The external auditor remains solely responsible for the audit opinion and this responsibility is not reduced by the use of others.",
+      "D) Responsibility is transferred to the client's board of directors."
+    ],
+    "correctAnswer": "C) The external auditor remains solely responsible for the audit opinion and this responsibility is not reduced by the use of others.",
+    "explanation": "The external auditor has sole responsibility for the audit report. Using the work of others is a tool, not a way to delegate legal or professional responsibility for the opinion."
+  },
+  {
+    "id": "c12q6",
+    "chapter": 12,
+    "chapterTitle": "Reliance on Others",
+    "question": "If an auditor uses a 'Service Organization' (e.g., an external company that processes the client's payroll), which ISA applies?",
+    "options": [
+      "A) ISA 210",
+      "B) ISA 402",
+      "C) ISA 520",
+      "D) ISA 700"
+    ],
+    "correctAnswer": "B) ISA 402",
+    "explanation": "ISA 402 (Audit Considerations Relating to an Entity Using a Service Organization) guides the auditor on how to obtain evidence when a client outsources key business processes."
+  },
+  {
+    "id": "c12q7",
+    "chapter": 12,
+    "chapterTitle": "Reliance on Others",
+    "question": "A 'Type 2 Report' from a service organization's auditor provides evidence regarding:",
+    "options": [
+      "A) Only the company's marketing strategy.",
+      "B) The design, implementation, and operating effectiveness of the controls at the service organization.",
+      "C) Only the names of the employees at the service organization.",
+      "D) The historical cost of the service organization's office building."
+    ],
+    "correctAnswer": "B) The design, implementation, and operating effectiveness of the controls at the service organization.",
+    "explanation": "A Type 2 report is significantly more useful than a Type 1 report because it includes evidence that the controls were actually operating effectively over a period, allowing the auditor to reduce substantive testing."
+  },
+  {
+    "id": "c12q8",
+    "chapter": 12,
+    "chapterTitle": "Reliance on Others",
+    "question": "Which of the following is an indicator of LOW 'Objectivity' for a client's internal audit department?",
+    "options": [
+      "A) The internal audit department reports directly to an independent Audit Committee.",
+      "B) The Chief Internal Auditor is also the client's Chief Financial Officer (CFO).",
+      "C) Internal auditors are members of a recognized professional accounting body.",
+      "D) The internal audit team has a formal, written work plan."
+    ],
+    "correctAnswer": "B) The Chief Internal Auditor is also the client's Chief Financial Officer (CFO).",
+    "explanation": "If the person head of internal audit also manages the financial records (as CFO), they are essentially 'auditing their own work', which completely destroys objectivity."
+  },
+  {
+    "id": "c12q9",
+    "chapter": 12,
+    "chapterTitle": "Reliance on Others",
+    "question": "When the external auditor decides to use the work of an expert, which of the following must be agreed upon in writing between the auditor and the expert?",
+    "options": [
+      "A) The nature, scope, and objectives of the work.",
+      "B) The respective roles and responsibilities.",
+      "C) The confidentiality requirements.",
+      "D) All of the above."
+    ],
+    "correctAnswer": "D) All of the above.",
+    "explanation": "ISA 620 requires a formal agreement (often an engagement letter) between the auditor and their expert covering scope, roles, reporting, and confidentiality."
+  },
+  {
+    "id": "c12q10",
+    "chapter": 12,
+    "chapterTitle": "Reliance on Others",
+    "question": "In Pakistan, if the external auditor mentions the name of an auditor's expert in an 'Unmodified' audit report, what is the prerequisite?",
+    "options": [
+      "A) It is always mandatory to mention the expert's name.",
+      "B) The expert's name should NOT be mentioned unless required by law or to explain a modification to the opinion.",
+      "C) The expert must pay a fee to be mentioned.",
+      "D) The auditor should only mention the expert if they are a relative."
+    ],
+    "correctAnswer": "B) The expert's name should NOT be mentioned unless required by law or to explain a modification to the opinion.",
+    "explanation": "To ensure researchers/users understand the external auditor takes full responsibility, ISA 620 prohibits naming the expert in an unmodified report unless it is legally required or directly related to a qualified/modified opinion."
+  },
+  {
+    "id": "c13q1",
+    "chapter": 13,
+    "chapterTitle": "Professional Ethics and Code of Conduct",
+    "question": "Which ethical principle requires an auditor to be straightforward and honest in all professional and business relationships?",
+    "options": [
+      "A) Objectivity",
+      "B) Integrity",
+      "C) Confidentiality",
+      "D) Professional Behavior"
+    ],
+    "correctAnswer": "B) Integrity",
+    "explanation": "Integrity implies not just honesty but also fair dealing and truthfulness. An auditor with integrity will not be associated with reports they believe contain false or misleading information."
+  },
+  {
+    "id": "c13q2",
+    "chapter": 13,
+    "chapterTitle": "Professional Ethics and Code of Conduct",
+    "question": "An auditor realizes that their brother is the Chief Financial Officer (CFO) of a potential new audit client. What type of threat does this create?",
+    "options": [
+      "A) Self-review threat",
+      "B) Familiarity threat",
+      "C) Advocacy threat",
+      "D) Intimidation threat"
+    ],
+    "correctAnswer": "B) Familiarity threat",
+    "explanation": "A familiarity threat occurs when, due to a close relationship, an auditor becomes too sympathetic to the client's interests and fails to maintain a questioning mind."
+  },
+  {
+    "id": "c13q3",
+    "chapter": 13,
+    "chapterTitle": "Professional Ethics and Code of Conduct",
+    "question": "Which of the following situations is an example of an 'Advocacy Threat'?",
+    "options": [
+      "A) The auditor owns shares in the client company.",
+      "B) The auditor serves as an expert witness for the audit client in a legal dispute against a third party.",
+      "C) The auditor stayed with the client for 15 consecutive years.",
+      "D) The auditor was previously the accountant for the client."
+    ],
+    "correctAnswer": "B) Auditor serves as an expert witness for the audit client in a legal dispute against a third party.",
+    "explanation": "Advocacy threats arise when an auditor promotes a client's position to the point that their objectivity as an independent auditor is compromised."
+  },
+  {
+    "id": "c13q4",
+    "chapter": 13,
+    "chapterTitle": "Professional Ethics and Code of Conduct",
+    "question": "To safeguard against a 'Self-Interest Threat' caused by high fee dependency on a single client, what measure can an audit firm take?",
+    "options": [
+      "A) Increase the audit fee even more to make the client more important.",
+      "B) Implement an external quality control review and ensure the fees from that client do not exceed a certain percentage (e.g., 15%) of the firm's total revenue.",
+      "C) Stop performing the audit and just act as the client's bookkeeper.",
+      "D) Borrow money from the client."
+    ],
+    "correctAnswer": "B) Implement an external quality control review and ensure the fees from that client do not exceed a certain percentage (e.g., 15%) of the firm's total revenue.",
+    "explanation": "Managing fee dependency through firm-wide limits and independent reviews ensures the firm doesn't become afraid of losing the client's fee, which could otherwise weaken their resolve to be honest."
+  },
+  {
+    "id": "c13q5",
+    "chapter": 13,
+    "chapterTitle": "Professional Ethics and Code of Conduct",
+    "question": "When is an auditor permitted to disclose confidential information obtained during an audit without the client's permission?",
+    "options": [
+      "A) When a competitor offers to pay for the information.",
+      "B) When there is a professional or legal duty to disclose (e.g., a court order or to a regulatory body like SECP or ICAP).",
+      "C) When the auditor wants to boast about their work to friends.",
+      "D) Never, under any circumstances."
+    ],
+    "correctAnswer": "B) When there is a professional or legal duty to disclose (e.g., a court order or to a regulatory body like SECP or ICAP).",
+    "explanation": "Confidentiality is not absolute. Legal subpoenas, professional reviews by bodies like ICAP, or a duty to report money laundering/terrorism override the duty of confidentiality."
+  },
+  {
+    "id": "c13q6",
+    "chapter": 13,
+    "chapterTitle": "Professional Ethics and Code of Conduct",
+    "question": "A small audit firm is asked to both prepare the financial statements and audit them for the same public interest entity (PIE). Which threat is most significant here?",
+    "options": [
+      "A) Advocacy threat",
+      "B) Self-review threat",
+      "C) Intimidation threat",
+      "D) Familiarity threat"
+    ],
+    "correctAnswer": "B) Self-review threat",
+    "explanation": "A self-review threat occurs when an auditor audits their own work. If the auditor prepared the financial statements, they are unlikely to find their own errors during the audit."
+  },
+  {
+    "id": "c13q7",
+    "chapter": 13,
+    "chapterTitle": "Professional Ethics and Code of Conduct",
+    "question": "Which ethical principle is violated if an auditor makes exaggerated claims about the services they can offer or disparages the work of other auditors?",
+    "options": [
+      "A) Objectivity",
+      "B) Professional Behavior",
+      "C) Integrity",
+      "D) Confidentiality"
+    ],
+    "correctAnswer": "B) Professional Behavior",
+    "explanation": "Professional behavior requires auditors to comply with laws and avoid any action that discredits the profession, including misleading advertising or attacking colleagues."
+  },
+  {
+    "id": "c13q8",
+    "chapter": 13,
+    "chapterTitle": "Professional Ethics and Code of Conduct",
+    "question": "A client offers the audit team an all-expenses-paid luxury holiday to Dubai as a 'thank you' for their hard work. According to the code of ethics, how should the auditor respond?",
+    "options": [
+      "A) Accept it, provided the audit report is signed first.",
+      "B) Accept it but don't tell the firm's partners.",
+      "C) Decline the offer, as it creates a self-interest and familiarity threat that is generally impossible to safeguard unless the value is trivial and inconsequential.",
+      "D) Accept it but only if the entire team can go."
+    ],
+    "correctAnswer": "C) Decline the offer, as it creates a self-interest and familiarity threat that is generally impossible to safeguard unless the value is trivial and inconsequential.",
+    "explanation": "Accepting significant gifts or hospitality from a client is a major ethical breach, as it creates strong pressure to be lenient during the audit."
+  },
+  {
+    "id": "c13q9",
+    "chapter": 13,
+    "chapterTitle": "Professional Ethics and Code of Conduct",
+    "question": "Which principle requires an auditor to not allow bias, conflict of interest, or undue influence of others to override professional or business judgments?",
+    "options": [
+      "A) Professional Competence",
+      "B) Objectivity",
+      "C) Confidentiality",
+      "D) Integrity"
+    ],
+    "correctAnswer": "B) Objectivity",
+    "explanation": "Objectivity is the state of mind where the auditor remains neutral and bases their decisions strictly on evidence rather than personal feelings or external pressures."
+  },
+  {
+    "id": "c13q10",
+    "chapter": 13,
+    "chapterTitle": "Professional Ethics and Code of Conduct",
+    "question": "An audit partner has served a listed company client for 10 consecutive years. Under the ICAP code of ethics, what is a common safeguard for 'Long Association'?",
+    "options": [
+      "A) The partner must be rotated off the engagement after a set period (e.g., 7 years for listed entities).",
+      "B) The partner must buy shares in the client.",
+      "C) The client must pay a bonus to the partner.",
+      "D) The partner should stop attending the AGM."
+    ],
+    "correctAnswer": "A) The partner must be rotated off the engagement after a set period (e.g., 7 years for listed entities).",
+    "explanation": "Partner rotation is a mandatory safeguard for listed entities to prevent the 'familiarity threat' that arises from working with the same management for too long."
+  }
+]

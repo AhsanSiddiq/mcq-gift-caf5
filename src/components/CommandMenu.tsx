@@ -32,11 +32,11 @@ export default function CommandMenu() {
     <>
       <button
         onClick={() => setOpen(true)}
-        className="fixed bottom-6 right-6 z-40 p-3.5 sm:p-3 rounded-full shadow-2xl transition-transform hover:scale-105 flex items-center gap-2"
+        className="hidden sm:flex fixed bottom-6 right-6 z-40 p-3 rounded-full shadow-2xl transition-transform hover:scale-105 items-center gap-2"
         style={{ background: "var(--bg-2)", border: "1px solid var(--border)", color: "var(--text-2)", boxShadow: "0 10px 40px rgba(0,0,0,0.4)" }}
       >
         <Search className="w-5 h-5" />
-        <span className="hidden sm:inline-block text-xs font-mono font-bold mr-1">⌘+K</span>
+        <span className="text-xs font-mono font-bold mr-1">⌘+K</span>
       </button>
 
       <AnimatePresence>

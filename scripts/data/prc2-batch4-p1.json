@@ -1,0 +1,422 @@
+[
+  {
+    "id": "b4c7q1",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "A financial analyst collects annual sales data directly through a series of newly conducted field surveys and interviews with store managers. This data is formally classified as:",
+    "options": [
+      "A) Secondary Data",
+      "B) Primary Data",
+      "C) Continuous Data",
+      "D) Discrete Grouped Data"
+    ],
+    "correctAnswer": "B) Primary Data",
+    "explanation": "Primary data is defined as fresh, original data collected firsthand by the researcher for a specific, targeted purpose, such as conducting direct field surveys."
+  },
+  {
+    "id": "b4c7q2",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "In a pie chart illustrating a company's revenue streams, if 'Software Sales' represent exactly 35% of the total revenue, what is the precise degree measure of its central angle?",
+    "options": [
+      "A) 35 degrees",
+      "B) 70 degrees",
+      "C) 126 degrees",
+      "D) 150 degrees"
+    ],
+    "correctAnswer": "C) 126 degrees",
+    "explanation": "A full pie chart represents exactly 360 degrees. To calculate the central angle for a specific segment, multiply its percentage by 360. Here, 0.35 * 360 = 126 degrees."
+  },
+  {
+    "id": "b4c7q3",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "What mathematical procedure is used to calculate the 'class mark' (mid-point) of a specific frequency distribution class?",
+    "options": [
+      "A) Subtracting the lower limit from the upper limit.",
+      "B) Adding the upper and lower limits and dividing by two.",
+      "C) Multiplying the frequency by the class width.",
+      "D) Dividing the cumulative frequency by two."
+    ],
+    "correctAnswer": "B) Adding the upper and lower limits and dividing by two.",
+    "explanation": "The class mark, or mid-point, represents the exact center of a class interval and is calculated by adding the lower class limit to the upper class limit and strictly dividing the sum by 2."
+  },
+  {
+    "id": "b4c7q4",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "What is the defining visual difference between a histogram and a standard bar chart?",
+    "options": [
+      "A) A histogram is utilized exclusively for qualitative nominal data.",
+      "B) Bar charts strictly plot cumulative percentages.",
+      "C) Histograms represent continuous grouped data without gaps between the columns, while bar charts feature distinct gaps.",
+      "D) Histograms must always be drawn horizontally."
+    ],
+    "correctAnswer": "C) Histograms represent continuous grouped data without gaps between the columns, while bar charts feature distinct gaps.",
+    "explanation": "Because histograms plot continuous class boundaries, their rectangular bars physically touch. Bar charts are used for discrete or categorical variables and therefore contain spacing between the bars."
+  },
+  {
+    "id": "b4c7q5",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "When constructing a 'less than' cumulative frequency ogive, the cumulative frequencies are plotted against which specific values on the x-axis?",
+    "options": [
+      "A) The class mid-points",
+      "B) The lower class boundaries",
+      "C) The upper class boundaries",
+      "D) The absolute raw frequencies"
+    ],
+    "correctAnswer": "C) The upper class boundaries",
+    "explanation": "A 'less than' ogive fundamentally plots the running cumulative frequency against the upper boundary of each class, visually showing how many total observations fall strictly below that upper threshold."
+  },
+  {
+    "id": "b4c7q6",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "Which of the following variables serves as a textbook example of a continuous quantitative variable?",
+    "options": [
+      "A) The number of chairs in a conference room.",
+      "B) The precise weight of a freight shipment in kilograms.",
+      "C) The total number of employees working in a department.",
+      "D) The number of defective components on an assembly line."
+    ],
+    "correctAnswer": "B) The precise weight of a freight shipment in kilograms.",
+    "explanation": "Continuous data can assume any possible fractional or decimal value within a given measurement range. Physical measurements like weight, height, and temperature are continuous variables."
+  },
+  {
+    "id": "b4c7q7",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "In a statistical cumulative frequency table, what does the final, bottom-most value in the cumulative frequency column always mathematically equal?",
+    "options": [
+      "A) The arithmetic mean of the distribution.",
+      "B) Exactly 100%.",
+      "C) The total number of observations (N) in the entire dataset.",
+      "D) The standard error."
+    ],
+    "correctAnswer": "C) The total number of observations (N) in the entire dataset.",
+    "explanation": "Because cumulative frequency maintains a running sum of all observations as you progress through the classes, the final class encompasses every single data point, equaling the total sample size (N)."
+  },
+  {
+    "id": "b4c7q8",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "When interpreting a standard 'stem-and-leaf' plot, what does the 'stem' generally represent?",
+    "options": [
+      "A) The single trailing digit of the data value.",
+      "B) The frequency of that specific class.",
+      "C) The leading digit(s) of the data values.",
+      "D) The absolute maximum outlier."
+    ],
+    "correctAnswer": "C) The leading digit(s) of the data values.",
+    "explanation": "In a stem-and-leaf diagram, the 'stem' clusters the data by its leading digits (e.g., the tens or hundreds place), while the 'leaf' displays the final trailing digit for individual observations."
+  },
+  {
+    "id": "b4c7q9",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "In a box-and-whisker plot, the central rectangular box graphically spans the distance between:",
+    "options": [
+      "A) The absolute minimum and absolute maximum values.",
+      "B) The mean and the median.",
+      "C) The lower quartile (Q1) and the upper quartile (Q3).",
+      "D) The standard deviation limits."
+    ],
+    "correctAnswer": "C) The lower quartile (Q1) and the upper quartile (Q3).",
+    "explanation": "The central box in a box-and-whisker plot specifically represents the Interquartile Range (IQR), visually stretching from Q1 (25th percentile) to Q3 (75th percentile), containing the middle 50% of the data."
+  },
+  {
+    "id": "b4c7q10",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "If raw statistical data is manually sorted from smallest to largest value, the resulting structured presentation is called an:",
+    "options": [
+      "A) Ogive",
+      "B) Array",
+      "C) Aggregate sequence",
+      "D) Unbounded matrix"
+    ],
+    "correctAnswer": "B) Array",
+    "explanation": "An array is the simplest and most fundamental form of organized data, achieved by explicitly sorting individual numerical observations into either ascending or descending mathematical order."
+  },
+  {
+    "id": "b4c7q11",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "Visually, how does a 'more than' cumulative frequency ogive plot consistently slope?",
+    "options": [
+      "A) It slopes strictly upward from left to right.",
+      "B) It slopes strictly downward from left to right.",
+      "C) It remains perfectly horizontal.",
+      "D) It forms a symmetrical bell curve."
+    ],
+    "correctAnswer": "B) It slopes strictly downward from left to right.",
+    "explanation": "Because a 'more than' cumulative frequency ogive begins with the total sample size (N) and subtracts frequencies as it moves across higher boundary thresholds, the curve inherently slopes downward."
+  },
+  {
+    "id": "b4c7q12",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "What is the primary statistical purpose of converting discrete 'class limits' into continuous 'class boundaries'?",
+    "options": [
+      "A) To calculate the arithmetic mean faster.",
+      "B) To mathematically close the gaps between consecutive classes, ensuring continuity for graphing tools like histograms.",
+      "C) To convert quantitative data into qualitative categories.",
+      "D) To double the standard error."
+    ],
+    "correctAnswer": "B) To mathematically close the gaps between consecutive classes, ensuring continuity for graphing tools like histograms.",
+    "explanation": "Class boundaries are formed by extending the limits by half a unit (e.g., 9.5 to 19.5), which completely eliminates gaps between classes, allowing continuous data to be plotted without interruption."
+  },
+  {
+    "id": "b4c7q13",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "Data collected representing customer satisfaction ratings categorized as 'Poor', 'Fair', 'Good', and 'Excellent' is classified mathematically as:",
+    "options": [
+      "A) Continuous data",
+      "B) Nominal data",
+      "C) Ordinal data",
+      "D) Time series data"
+    ],
+    "correctAnswer": "C) Ordinal data",
+    "explanation": "Ordinal data is a sub-type of qualitative (categorical) data that possesses a distinct, logical ranking or order, such as a progression from 'Poor' up to 'Excellent'."
+  },
+  {
+    "id": "b4c7q14",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "Statistical data gathered from multiple different corporations representing their exact net profit for the year ending 2024 is an example of:",
+    "options": [
+      "A) Time series data",
+      "B) Cross-sectional data",
+      "C) Continuous progression data",
+      "D) Predictive regression data"
+    ],
+    "correctAnswer": "B) Cross-sectional data",
+    "explanation": "Data collected across a variety of different subjects (like multiple companies or regions) at one single, specific point in time is technically defined as cross-sectional data."
+  },
+  {
+    "id": "b4c7q15",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "In a histogram featuring unequal class widths, what metric must govern the physical height of the rectangular bars to prevent visual distortion?",
+    "options": [
+      "A) Raw absolute frequency",
+      "B) Cumulative percentage",
+      "C) Frequency density",
+      "D) The class mid-point"
+    ],
+    "correctAnswer": "C) Frequency density",
+    "explanation": "When class intervals are not uniform, plotting raw frequency heavily distorts the visual area. To accurately represent the data, the height of the bars must represent the frequency density (Frequency / Class Width)."
+  },
+  {
+    "id": "b4c8q1",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "According to the fundamental properties of the arithmetic mean, what does the sum of the deviations of all observations from their mathematical mean precisely equal?",
+    "options": [
+      "A) Exactly zero",
+      "B) The variance",
+      "C) The standard deviation",
+      "D) 100%"
+    ],
+    "correctAnswer": "A) Exactly zero",
+    "explanation": "The arithmetic mean serves as the absolute center of gravity for the data. Consequently, the sum of all positive and negative deviations from the mean (∑(x - x\u0304)) mathematically perfectly cancel out to equal zero."
+  },
+  {
+    "id": "b4c8q2",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "A retail branch with 40 staff members pays an average salary of Rs. 45,000. Another branch with 60 staff members pays an average salary of Rs. 55,000. What is the combined mean salary of both branches?",
+    "options": [
+      "A) Rs. 50,000",
+      "B) Rs. 51,000",
+      "C) Rs. 52,000",
+      "D) Rs. 53,000"
+    ],
+    "correctAnswer": "B) Rs. 51,000",
+    "explanation": "The combined mean is (n1x\u03041 + n2x\u03042) / (n1 + n2). Here: (40 * 45,000) + (60 * 55,000) = 1,800,000 + 3,300,000 = 5,100,000. Dividing by the total 100 staff members yields Rs. 51,000."
+  },
+  {
+    "id": "b4c8q3",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "If a constant value of 15 is systematically subtracted from every observation in a dataset, what is the resulting effect on the dataset's standard deviation?",
+    "options": [
+      "A) It decreases by exactly 15 units.",
+      "B) It is divided by 15.",
+      "C) It remains completely unchanged.",
+      "D) It decreases by the square root of 15."
+    ],
+    "correctAnswer": "C) It remains completely unchanged.",
+    "explanation": "Standard deviation measures the relative dispersion (spread) of data points around the mean. Subtracting a constant strictly shifts the entire distribution's origin without altering the physical spread of the points, leaving dispersion unchanged."
+  },
+  {
+    "id": "b4c8q4",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "What is the median of the following ungrouped dataset containing an even number of observations: 12, 16, 24, 30?",
+    "options": [
+      "A) 16",
+      "B) 20",
+      "C) 24",
+      "D) 28"
+    ],
+    "correctAnswer": "B) 20",
+    "explanation": "For an even number of sequentially ordered observations, the median is the arithmetic average of the two central values. Here, (16 + 24) / 2 = 40 / 2 = 20."
+  },
+  {
+    "id": "b4c8q5",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "In a moderately skewed frequency distribution, Karl Pearson's empirical relationship between the Mean, Median, and Mode is mathematically defined as:",
+    "options": [
+      "A) Mode = 3(Median) - 2(Mean)",
+      "B) Median = 2(Mean) - Mode",
+      "C) Mean = 3(Mode) - 2(Median)",
+      "D) Mean = Median = Mode"
+    ],
+    "correctAnswer": "A) Mode = 3(Median) - 2(Mean)",
+    "explanation": "Pearson's empirical formula states that Mean - Mode = 3(Mean - Median). By rearranging this algebraically, we get the frequently utilized formulation: Mode = 3(Median) - 2(Mean)."
+  },
+  {
+    "id": "b4c8q6",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "An asset generates an average return of 20% with a standard deviation of 5%. What is the precisely calculated Coefficient of Variation (CV)?",
+    "options": [
+      "A) 4%",
+      "B) 15%",
+      "C) 25%",
+      "D) 400%"
+    ],
+    "correctAnswer": "C) 25%",
+    "explanation": "The Coefficient of Variation measures relative dispersion as a percentage. It is calculated as (Standard Deviation / Mean) * 100. Here, (5 / 20) * 100 = 0.25 * 100 = 25%."
+  },
+  {
+    "id": "b4c8q7",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "To properly calculate the average annual compounding rate of inflation over a consecutive ten-year period, a statistician must strictly utilize the:",
+    "options": [
+      "A) Arithmetic Mean",
+      "B) Geometric Mean",
+      "C) Harmonic Mean",
+      "D) Weighted Median"
+    ],
+    "correctAnswer": "B) Geometric Mean",
+    "explanation": "The geometric mean is uniquely mathematically equipped to calculate the true average of sequential compounding growth rates (like inflation or compound interest), preventing the distortion that the arithmetic mean would cause."
+  },
+  {
+    "id": "b4c8q8",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "When calculating the exact average speed of a train that travels multiple distinct, equal-distance segments at different speeds, which measure of central tendency is required?",
+    "options": [
+      "A) Arithmetic Mean",
+      "B) Geometric Mean",
+      "C) Harmonic Mean",
+      "D) Standard Deviation"
+    ],
+    "correctAnswer": "C) Harmonic Mean",
+    "explanation": "The harmonic mean is specifically designed for statistical situations dealing with rates, ratios, and relative velocities, such as calculating the true average speed across equal distance segments."
+  },
+  {
+    "id": "b4c8q9",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "If a dataset's arithmetic mean is strictly lower than its median, and the median is strictly lower than the mode (Mean < Median < Mode), the distribution is visually:",
+    "options": [
+      "A) Perfectly symmetrical",
+      "B) Positively skewed",
+      "C) Negatively skewed",
+      "D) Uniformly flat"
+    ],
+    "correctAnswer": "C) Negatively skewed",
+    "explanation": "A negatively skewed distribution has a long tail stretching to the left (towards lower values). These extreme low outliers pull the mathematical mean down so that it falls strictly below both the median and the mode."
+  },
+  {
+    "id": "b4c8q10",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "Which of the following graphical tools is generally utilized to visually estimate the Median of a grouped frequency distribution?",
+    "options": [
+      "A) A Histogram",
+      "B) A Pie Chart",
+      "C) An Ogive (Cumulative Frequency Curve)",
+      "D) A Scatter Diagram"
+    ],
+    "correctAnswer": "C) An Ogive (Cumulative Frequency Curve)",
+    "explanation": "The median (the exact 50th percentile) can be visually estimated by locating N/2 on the y-axis of a cumulative frequency ogive, tracing horizontally to the curve, and then tracing vertically down to the x-axis."
+  },
+  {
+    "id": "b4c8q11",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "If every single observation in a dataset is systematically multiplied by a constant factor of 3, what mathematical effect will this have on the arithmetic mean?",
+    "options": [
+      "A) It will remain unchanged.",
+      "B) It will increase by 3 units.",
+      "C) It will be multiplied by exactly 3.",
+      "D) It will be divided by 3."
+    ],
+    "correctAnswer": "C) It will be multiplied by exactly 3.",
+    "explanation": "The arithmetic mean is highly sensitive to a change of scale. If every observation is multiplied by a constant, the resulting mean will be strictly multiplied by that exact same constant."
+  },
+  {
+    "id": "b4c8q12",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "What is the standard formula utilized to calculate the Semi-Interquartile Range (Quartile Deviation)?",
+    "options": [
+      "A) Q3 - Q1",
+      "B) (Q3 - Q1) / 2",
+      "C) (Q3 + Q1) / 2",
+      "D) Q3 / Q1"
+    ],
+    "correctAnswer": "B) (Q3 - Q1) / 2",
+    "explanation": "The regular Interquartile Range is calculated as Q3 - Q1. The prefix 'semi' mathematically dictates that this total distance is halved, giving the standard formula (Q3 - Q1) / 2."
+  },
+  {
+    "id": "b4c8q13",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "Which statistical measure of central tendency is formally defined as the single value that appears with the highest frequency within a dataset?",
+    "options": [
+      "A) Mean",
+      "B) Median",
+      "C) Mode",
+      "D) Variance"
+    ],
+    "correctAnswer": "C) Mode",
+    "explanation": "In descriptive statistics, the mode is defined strictly as the most typical or most frequently repeated value occurring within a specific dataset."
+  },
+  {
+    "id": "b4c8q14",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "If all values sampled in a dataset are perfectly identical (e.g., 10, 10, 10, 10), what is the mathematical value of the variance?",
+    "options": [
+      "A) Exactly zero",
+      "B) Exactly 10",
+      "C) Undefined",
+      "D) Infinity"
+    ],
+    "correctAnswer": "A) Exactly zero",
+    "explanation": "Variance mathematically measures the dispersion or spread of data points away from the mean. If every single observation is completely identical, there is zero spread, meaning variance strictly equals zero."
+  },
+  {
+    "id": "b4c8q15",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "Which specific statistical property dictates that the sum of the squared deviations of observations is mathematically minimized?",
+    "options": [
+      "A) When taken from the median.",
+      "B) When taken from the mode.",
+      "C) When taken from the arithmetic mean.",
+      "D) When taken from the origin."
+    ],
+    "correctAnswer": "C) When taken from the arithmetic mean.",
+    "explanation": "A core mathematical property of the arithmetic mean is that the sum of the squared deviations (\u2211(x - x\u0304)\u00b2) is always an absolute minimum when calculated directly from the mean compared to any other value."
+  }
+]

@@ -1,0 +1,632 @@
+[
+  {
+    "id": "b2c1q1",
+    "chapter": 1,
+    "chapterTitle": "Linear And Quadratic Equations",
+    "question": "The product of two positive integers is 45 and when added together the result is 14. Find the integers.",
+    "options": [
+      "A) 3 and 15",
+      "B) 5 and 9",
+      "C) 6 and 8",
+      "D) 4 and 10"
+    ],
+    "correctAnswer": "B) 5 and 9",
+    "explanation": "Let the numbers be x and (14 - x). Their product is x(14 - x) = 45, which simplifies to the quadratic equation x^2 - 14x + 45 = 0. Factoring this yields (x - 5)(x - 9) = 0, giving the integers 5 and 9."
+  },
+  {
+    "id": "b2c1q2",
+    "chapter": 1,
+    "chapterTitle": "Linear And Quadratic Equations",
+    "question": "Solve the following equation for the value of x: 10x - (200 / x) = 10.",
+    "options": [
+      "A) 5 and -4",
+      "B) 4 and -5",
+      "C) 10 and -2",
+      "D) -10 and 2"
+    ],
+    "correctAnswer": "A) 5 and -4",
+    "explanation": "Multiply the entire equation by x to remove the denominator: 10x^2 - 200 = 10x. Rearranging yields 10x^2 - 10x - 200 = 0. Dividing by 10 gives x^2 - x - 20 = 0. Factoring yields (x - 5)(x + 4) = 0, meaning x = 5 and x = -4."
+  },
+  {
+    "id": "b2c1q3",
+    "chapter": 1,
+    "chapterTitle": "Linear And Quadratic Equations",
+    "question": "Two times the square of a positive number, when added to five times the same number, results in 33. What is the number?",
+    "options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 5"
+    ],
+    "correctAnswer": "B) 3",
+    "explanation": "The problem translates to the quadratic equation 2x^2 + 5x = 33. Rearranging gives 2x^2 + 5x - 33 = 0. Factoring yields (2x + 11)(x - 3) = 0. Since it must be a positive number, x = 3."
+  },
+  {
+    "id": "b2c1q4",
+    "chapter": 1,
+    "chapterTitle": "Linear And Quadratic Equations",
+    "question": "A father distributes Rs. 2,000 amongst his three daughters in such a way that each one of them receives at least Rs. 200. What is the maximum possible mathematical difference between the amounts received by any two daughters?",
+    "options": [
+      "A) Rs. 1,400",
+      "B) Rs. 1,600",
+      "C) Rs. 1,800",
+      "D) Rs. 1,200"
+    ],
+    "correctAnswer": "A) Rs. 1,400",
+    "explanation": "To maximize the difference, one daughter must receive the absolute maximum while the others receive the absolute minimum. The two minimums are Rs. 200 each (total Rs. 400). The maximum one can receive is 2,000 - 400 = 1,600. The difference is 1,600 - 200 = Rs. 1,400."
+  },
+  {
+    "id": "b2c1q5",
+    "chapter": 1,
+    "chapterTitle": "Linear And Quadratic Equations",
+    "question": "Solve the following linear equation for x: 4(x - 2) + 3 = 15.",
+    "options": [
+      "A) 4",
+      "B) 5",
+      "C) 6",
+      "D) 7"
+    ],
+    "correctAnswer": "B) 5",
+    "explanation": "First, subtract 3 from both sides: 4(x - 2) = 12. Then divide by 4: x - 2 = 3. Adding 2 to both sides results in x = 5."
+  },
+  {
+    "id": "b2c1q6",
+    "chapter": 1,
+    "chapterTitle": "Linear And Quadratic Equations",
+    "question": "A company's revenue function is R = 60x and its cost function is C = 25x + 14,000. At what production level 'x' does the company break even?",
+    "options": [
+      "A) 300 units",
+      "B) 350 units",
+      "C) 400 units",
+      "D) 450 units"
+    ],
+    "correctAnswer": "C) 400 units",
+    "explanation": "Break-even occurs when Revenue equals Cost. 60x = 25x + 14,000. Subtracting 25x leaves 35x = 14,000. Dividing by 35 gives x = 400 units."
+  },
+  {
+    "id": "b2c1q7",
+    "chapter": 1,
+    "chapterTitle": "Linear And Quadratic Equations",
+    "question": "What is the discriminant of the quadratic equation 3x^2 - 4x + 2 = 0?",
+    "options": [
+      "A) -8",
+      "B) 8",
+      "C) 16",
+      "D) -24"
+    ],
+    "correctAnswer": "A) -8",
+    "explanation": "The discriminant formula is b^2 - 4ac. Here, a = 3, b = -4, and c = 2. (-4)^2 - 4(3)(2) = 16 - 24 = -8. Because it is negative, this equation has no real roots."
+  },
+  {
+    "id": "b2c1q8",
+    "chapter": 1,
+    "chapterTitle": "Linear And Quadratic Equations",
+    "question": "What is the sum of the roots for the quadratic equation 2x^2 - 10x + 12 = 0?",
+    "options": [
+      "A) -5",
+      "B) 5",
+      "C) -10",
+      "D) 10"
+    ],
+    "correctAnswer": "B) 5",
+    "explanation": "The sum of the roots of a quadratic equation ax^2 + bx + c = 0 is calculated as -b / a. Here, -(-10) / 2 = 10 / 2 = 5."
+  },
+  {
+    "id": "b2c1q9",
+    "chapter": 1,
+    "chapterTitle": "Linear And Quadratic Equations",
+    "question": "What is the product of the roots for the quadratic equation 2x^2 - 10x + 12 = 0?",
+    "options": [
+      "A) 6",
+      "B) 12",
+      "C) -6",
+      "D) 5"
+    ],
+    "correctAnswer": "A) 6",
+    "explanation": "The product of the roots of a quadratic equation ax^2 + bx + c = 0 is calculated as c / a. Here, 12 / 2 = 6."
+  },
+  {
+    "id": "b2c1q10",
+    "chapter": 1,
+    "chapterTitle": "Linear And Quadratic Equations",
+    "question": "Find the values of x and y in the following simultaneous linear equations: 3x - 2y = 8 and x + y = 6.",
+    "options": [
+      "A) x = 3, y = 3",
+      "B) x = 4, y = 2",
+      "C) x = 5, y = 1",
+      "D) x = 2, y = 4"
+    ],
+    "correctAnswer": "B) x = 4, y = 2",
+    "explanation": "Multiply the second equation by 2 to get 2x + 2y = 12. Add this to the first equation (3x - 2y = 8) to eliminate y. This yields 5x = 20, so x = 4. Substituting x = 4 into x + y = 6 gives y = 2."
+  },
+  {
+    "id": "b2c1q11",
+    "chapter": 1,
+    "chapterTitle": "Linear And Quadratic Equations",
+    "question": "What are the specific roots of the quadratic equation x^2 - 11x + 30 = 0?",
+    "options": [
+      "A) 5 and -6",
+      "B) -5 and 6",
+      "C) 5 and 6",
+      "D) -5 and -6"
+    ],
+    "correctAnswer": "C) 5 and 6",
+    "explanation": "To factor the equation, find two numbers that multiply to 30 and add to -11. These are -5 and -6. The factored form is (x - 5)(x - 6) = 0, meaning the roots are x = 5 and x = 6."
+  },
+  {
+    "id": "b2c1q12",
+    "chapter": 1,
+    "chapterTitle": "Linear And Quadratic Equations",
+    "question": "A mother is currently twice as old as her daughter. Five years ago, she was three times as old as her daughter. How old is the daughter today?",
+    "options": [
+      "A) 10 years old",
+      "B) 15 years old",
+      "C) 20 years old",
+      "D) 5 years old"
+    ],
+    "correctAnswer": "A) 10 years old",
+    "explanation": "Let daughter's age = x, mother's age = 2x. Five years ago: 2x - 5 = 3(x - 5). This expands to 2x - 5 = 3x - 15. Solving for x yields x = 10. The daughter is 10 years old."
+  },
+  {
+    "id": "b2c1q13",
+    "chapter": 1,
+    "chapterTitle": "Linear And Quadratic Equations",
+    "question": "A factory has a linear cost function. Producing 50 units costs Rs. 2,500, and producing 100 units costs Rs. 4,000. What is the variable cost per unit?",
+    "options": [
+      "A) Rs. 25",
+      "B) Rs. 30",
+      "C) Rs. 40",
+      "D) Rs. 50"
+    ],
+    "correctAnswer": "B) Rs. 30",
+    "explanation": "Variable cost is the slope of the linear cost equation. Slope = (Change in Cost) / (Change in Units) = (4000 - 2500) / (100 - 50) = 1500 / 50 = Rs. 30 per unit."
+  },
+  {
+    "id": "b2c1q14",
+    "chapter": 1,
+    "chapterTitle": "Linear And Quadratic Equations",
+    "question": "The numerator of a fraction is 3 less than its denominator. If 2 is added to both the numerator and the denominator, the fraction becomes 1/2. What is the original denominator?",
+    "options": [
+      "A) 3",
+      "B) 4",
+      "C) 6",
+      "D) 8"
+    ],
+    "correctAnswer": "B) 4",
+    "explanation": "Let denominator be x, so numerator is (x - 3). The new fraction is (x - 3 + 2) / (x + 2) = 1/2. This simplifies to (x - 1) / (x + 2) = 1/2. Cross multiplying gives 2x - 2 = x + 2. Solving yields x = 4."
+  },
+  {
+    "id": "b2c1q15",
+    "chapter": 1,
+    "chapterTitle": "Linear And Quadratic Equations",
+    "question": "Find the roots of the quadratic equation 4x^2 - 8x - 5 = 0.",
+    "options": [
+      "A) 5/2 and -1/2",
+      "B) -5/2 and 1/2",
+      "C) 5 and -1",
+      "D) -5 and 1"
+    ],
+    "correctAnswer": "A) 5/2 and -1/2",
+    "explanation": "Splitting the middle term: 4x^2 - 10x + 2x - 5 = 0. Factoring by grouping gives 2x(2x - 5) + 1(2x - 5) = 0, which is (2x + 1)(2x - 5) = 0. Therefore, the roots are x = -1/2 and x = 5/2."
+  },
+  {
+    "id": "b2c2q1",
+    "chapter": 2,
+    "chapterTitle": "Coordinate System and Its Application",
+    "question": "Assuming a linear cost relationship, if the total cost of producing 10 units is Rs. 250 and the cost of 15 units is Rs. 350, what is the estimated cost of producing 20 units?",
+    "options": [
+      "A) Rs. 400",
+      "B) Rs. 450",
+      "C) Rs. 500",
+      "D) Rs. 550"
+    ],
+    "correctAnswer": "B) Rs. 450",
+    "explanation": "First, find the variable cost (slope): (350 - 250) / (15 - 10) = 100 / 5 = Rs. 20 per unit. Fixed cost is 250 - (10 * 20) = Rs. 50. The cost function is C = 20x + 50. For 20 units, C = 20(20) + 50 = Rs. 450."
+  },
+  {
+    "id": "b2c2q2",
+    "chapter": 2,
+    "chapterTitle": "Coordinate System and Its Application",
+    "question": "A company has a linear cost function of C = 20x + 12,000, where x is the number of units produced. If the selling price is Rs. 35 per unit, at what volume of sales does the company break even?",
+    "options": [
+      "A) 600 units",
+      "B) 750 units",
+      "C) 800 units",
+      "D) 1,000 units"
+    ],
+    "correctAnswer": "C) 800 units",
+    "explanation": "At break-even, total revenue equals total cost: 35x = 20x + 12,000. Subtracting 20x gives 15x = 12,000. Dividing by 15 yields x = 800 units."
+  },
+  {
+    "id": "b2c2q3",
+    "chapter": 2,
+    "chapterTitle": "Coordinate System and Its Application",
+    "question": "A firm plans to sell a product for Rs. 50 per unit. The variable cost of production is Rs. 42 per unit, and the total fixed cost is Rs. 64,000. Assuming linear functions, what is the break-even volume of sales?",
+    "options": [
+      "A) 1,500 units",
+      "B) 8,000 units",
+      "C) 12,000 units",
+      "D) 15,000 units"
+    ],
+    "correctAnswer": "B) 8,000 units",
+    "explanation": "The contribution margin per unit is Selling Price - Variable Cost (50 - 42) = Rs. 8. The break-even point is Fixed Costs / Contribution Margin = 64,000 / 8 = 8,000 units."
+  },
+  {
+    "id": "b2c2q4",
+    "chapter": 2,
+    "chapterTitle": "Coordinate System and Its Application",
+    "question": "A product has a variable selling cost of Rs. 2 per unit and a total selling price of Rs. 8. If the total contribution margin per unit is Rs. 3, what is the variable production cost per unit?",
+    "options": [
+      "A) Rs. 2",
+      "B) Rs. 3",
+      "C) Rs. 4",
+      "D) Rs. 5"
+    ],
+    "correctAnswer": "B) Rs. 3",
+    "explanation": "Contribution Margin = Selling Price - Total Variable Costs. Therefore, 3 = 8 - Total VC, making Total VC = Rs. 5. Since Total VC includes both production and selling costs, the Production VC = 5 - 2 = Rs. 3."
+  },
+  {
+    "id": "b2c2q5",
+    "chapter": 2,
+    "chapterTitle": "Coordinate System and Its Application",
+    "question": "A company sells a product for Rs. 60 with a variable cost of Rs. 30 per unit. Next year, both the selling price and the variable cost will increase by exactly Rs. 5 each. What is the percentage change in the contribution margin per unit?",
+    "options": [
+      "A) 0%",
+      "B) 5%",
+      "C) 10%",
+      "D) 16.67%"
+    ],
+    "correctAnswer": "A) 0%",
+    "explanation": "Current contribution margin is 60 - 30 = Rs. 30. New selling price is 65, new variable cost is 35. New contribution margin is 65 - 35 = Rs. 30. Because the absolute margin remains exactly Rs. 30, the percentage change is 0%."
+  },
+  {
+    "id": "b2c2q6",
+    "chapter": 2,
+    "chapterTitle": "Coordinate System and Its Application",
+    "question": "What is the slope of the straight line passing through the coordinates (1, 3) and (5, 15)?",
+    "options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 5"
+    ],
+    "correctAnswer": "B) 3",
+    "explanation": "The slope formula is m = (y2 - y1) / (x2 - x1). Substituting the points gives: m = (15 - 3) / (5 - 1) = 12 / 4 = 3."
+  },
+  {
+    "id": "b2c2q7",
+    "chapter": 2,
+    "chapterTitle": "Coordinate System and Its Application",
+    "question": "What is the y-intercept of the linear equation 2x - 5y = 20?",
+    "options": [
+      "A) 4",
+      "B) -4",
+      "C) 10",
+      "D) -10"
+    ],
+    "correctAnswer": "B) -4",
+    "explanation": "To find the y-intercept, set x to 0 and solve for y. 2(0) - 5y = 20, which leaves -5y = 20. Therefore, y = -4."
+  },
+  {
+    "id": "b2c2q8",
+    "chapter": 2,
+    "chapterTitle": "Coordinate System and Its Application",
+    "question": "Which of the following equations correctly represents a straight line passing through the origin with a positive slope of 4?",
+    "options": [
+      "A) y = 4x + 4",
+      "B) x = 4y",
+      "C) y = 4x",
+      "D) 4x - y = 4"
+    ],
+    "correctAnswer": "C) y = 4x",
+    "explanation": "A line passing through the origin has a y-intercept (c) of exactly 0. Given a slope (m) of 4, the standard equation y = mx + c becomes simply y = 4x."
+  },
+  {
+    "id": "b2c2q9",
+    "chapter": 2,
+    "chapterTitle": "Coordinate System and Its Application",
+    "question": "If Line A is defined by the equation y = 3x - 4, what must be the slope of Line B for it to be perfectly perpendicular to Line A?",
+    "options": [
+      "A) 3",
+      "B) -3",
+      "C) 1/3",
+      "D) -1/3"
+    ],
+    "correctAnswer": "D) -1/3",
+    "explanation": "Perpendicular lines have slopes that are negative reciprocals of one another (m1 * m2 = -1). Since the slope of Line A is 3, the slope of Line B must be -1/3."
+  },
+  {
+    "id": "b2c2q10",
+    "chapter": 2,
+    "chapterTitle": "Coordinate System and Its Application",
+    "question": "Which of the following mathematical conditions must be met for two distinct straight lines to be strictly parallel?",
+    "options": [
+      "A) They must intersect at exactly one point.",
+      "B) Their slopes must be negative reciprocals.",
+      "C) Their y-intercepts must be identical.",
+      "D) Their slopes must be exactly equal."
+    ],
+    "correctAnswer": "D) Their slopes must be exactly equal.",
+    "explanation": "Parallel lines run perfectly alongside each other without ever intersecting. For this to happen in a coordinate plane, they must rise or fall at the exact same rate, meaning their slopes must be strictly equal."
+  },
+  {
+    "id": "b2c2q11",
+    "chapter": 2,
+    "chapterTitle": "Coordinate System and Its Application",
+    "question": "Calculate the exact linear distance between the origin point (0,0) and the coordinate point (6,8).",
+    "options": [
+      "A) 10",
+      "B) 12",
+      "C) 14",
+      "D) 100"
+    ],
+    "correctAnswer": "A) 10",
+    "explanation": "Using the standard distance formula d = √((x2 - x1)^2 + (y2 - y1)^2), the calculation is √( (6 - 0)^2 + (8 - 0)^2 ) = √(36 + 64) = √100 = 10."
+  },
+  {
+    "id": "b2c2q12",
+    "chapter": 2,
+    "chapterTitle": "Coordinate System and Its Application",
+    "question": "What are the coordinates of the exact midpoint of a line segment connecting the points (4, -2) and (10, 6)?",
+    "options": [
+      "A) (7, 2)",
+      "B) (6, 4)",
+      "C) (14, 4)",
+      "D) (3, 4)"
+    ],
+    "correctAnswer": "A) (7, 2)",
+    "explanation": "The midpoint formula averages the x and y coordinates: ((x1 + x2)/2 , (y1 + y2)/2). Here, ((4 + 10)/2 , (-2 + 6)/2) = (14/2 , 4/2) = (7, 2)."
+  },
+  {
+    "id": "b2c2q13",
+    "chapter": 2,
+    "chapterTitle": "Coordinate System and Its Application",
+    "question": "In a standard linear total cost function formatted as C(x) = mx + c, what specific financial component does the y-intercept 'c' represent?",
+    "options": [
+      "A) Variable Cost per Unit",
+      "B) Total Revenue",
+      "C) Total Fixed Costs",
+      "D) Contribution Margin"
+    ],
+    "correctAnswer": "C) Total Fixed Costs",
+    "explanation": "In a linear cost model, the y-intercept is the point where production x is exactly zero. The cost incurred at zero production represents the total fixed costs of the operation."
+  },
+  {
+    "id": "b2c2q14",
+    "chapter": 2,
+    "chapterTitle": "Coordinate System and Its Application",
+    "question": "Determine the x-intercept of the linear equation 4x + 3y = 24.",
+    "options": [
+      "A) 4",
+      "B) 6",
+      "C) 8",
+      "D) 24"
+    ],
+    "correctAnswer": "B) 6",
+    "explanation": "To mathematically find the x-intercept, you must set y to 0 and solve for x. 4x + 3(0) = 24, meaning 4x = 24. Dividing by 4 gives x = 6."
+  },
+  {
+    "id": "b2c2q15",
+    "chapter": 2,
+    "chapterTitle": "Coordinate System and Its Application",
+    "question": "At what specific coordinate point do the lines y = 2x + 10 and y = 4x - 2 intersect?",
+    "options": [
+      "A) (4, 18)",
+      "B) (5, 20)",
+      "C) (6, 22)",
+      "D) (7, 26)"
+    ],
+    "correctAnswer": "C) (6, 22)",
+    "explanation": "Set the equations equal to each other: 2x + 10 = 4x - 2. Subtract 2x from both sides to get 10 = 2x - 2. Add 2 to get 12 = 2x, so x = 6. Substituting x = 6 back into the first equation yields y = 2(6) + 10 = 22."
+  },
+  {
+    "id": "b2c3q1",
+    "chapter": 3,
+    "chapterTitle": "Mathematical Progression",
+    "question": "A tech company develops a new product projected to earn Rs. 150 million in revenue during its first year. If revenue strictly declines by 25% each subsequent year, what is the total projected revenue over the infinite life of the product?",
+    "options": [
+      "A) Rs. 400 million",
+      "B) Rs. 500 million",
+      "C) Rs. 600 million",
+      "D) Rs. 750 million"
+    ],
+    "correctAnswer": "C) Rs. 600 million",
+    "explanation": "This forms an infinite geometric progression where a = 150. A 25% decline means the common ratio 'r' is 1 - 0.25 = 0.75. Using the sum to infinity formula S = a / (1 - r) yields 150 / 0.25 = 600 million."
+  },
+  {
+    "id": "b2c3q2",
+    "chapter": 3,
+    "chapterTitle": "Mathematical Progression",
+    "question": "In a geometric progression, the third term is exactly 80 and the common ratio is 4. What is the value of the first term?",
+    "options": [
+      "A) 4",
+      "B) 5",
+      "C) 10",
+      "D) 20"
+    ],
+    "correctAnswer": "B) 5",
+    "explanation": "Using the nth term formula for a GP, a*r^(n-1). For the 3rd term, a*(4)^2 = 80. This simplifies to 16a = 80, meaning a = 5."
+  },
+  {
+    "id": "b2c3q3",
+    "chapter": 3,
+    "chapterTitle": "Mathematical Progression",
+    "question": "In an arithmetic progression, the first term is 12 and the common difference is 4. How many specific terms are needed to produce a total sum of exactly 320?",
+    "options": [
+      "A) 8",
+      "B) 10",
+      "C) 12",
+      "D) 14"
+    ],
+    "correctAnswer": "B) 10",
+    "explanation": "Using the formula Sn = (n/2)[2a + (n-1)d]: 320 = (n/2)[24 + (n-1)4]. This expands to 640 = n(20 + 4n) -> 4n^2 + 20n - 640 = 0 -> n^2 + 5n - 160 = 0. Factoring yields (n-10)(n+16)=0. Thus, n=10."
+  },
+  {
+    "id": "b2c3q4",
+    "chapter": 3,
+    "chapterTitle": "Mathematical Progression",
+    "question": "A person's savings plan is structured as a geometric progression. They save Rs. 200 in month 1, Rs. 100 in month 2, Rs. 50 in month 3, and so on. What is the total amount saved at the end of exactly 5 months?",
+    "options": [
+      "A) Rs. 387.5",
+      "B) Rs. 390.0",
+      "C) Rs. 395.5",
+      "D) Rs. 400.0"
+    ],
+    "correctAnswer": "A) Rs. 387.5",
+    "explanation": "This is a finite GP sum where a = 200, r = 0.5, and n = 5. Using S = a(1 - r^n) / (1 - r): S = 200(1 - 0.5^5) / 0.5 = 400(1 - 0.03125) = 400(0.96875) = Rs. 387.5."
+  },
+  {
+    "id": "b2c3q5",
+    "chapter": 3,
+    "chapterTitle": "Mathematical Progression",
+    "question": "The first and last terms of an arithmetic progression are 20 and 100, respectively. If the total sum of all terms is 300, what is the exact common difference?",
+    "options": [
+      "A) 15",
+      "B) 20",
+      "C) 25",
+      "D) 30"
+    ],
+    "correctAnswer": "B) 20",
+    "explanation": "First, find n using S = (n/2)(a + l): 300 = (n/2)(20 + 100) -> 300 = 60n -> n = 5. Then, use the last term formula l = a + (n-1)d: 100 = 20 + 4d -> 80 = 4d -> d = 20."
+  },
+  {
+    "id": "b2c3q6",
+    "chapter": 3,
+    "chapterTitle": "Mathematical Progression",
+    "question": "A retailer sells 1,024 units of an obsolete product in January. Sales volume is strictly halved each month thereafter. The product is discontinued entirely after the month where only 1 unit is sold. How many total units are sold over this period?",
+    "options": [
+      "A) 2,000",
+      "B) 2,046",
+      "C) 2,048",
+      "D) 4,096"
+    ],
+    "correctAnswer": "B) 2,046",
+    "explanation": "This is a GP where a=1024 and r=0.5. The sequence ends at 1, which represents 11 total terms (1024 * 0.5^10 = 1). The sum S = 1024(1 - 0.5^11) / 0.5 = 2048(1 - 1/2048) = 2048 - 1 = 2046 units."
+  },
+  {
+    "id": "b2c3q7",
+    "chapter": 3,
+    "chapterTitle": "Mathematical Progression",
+    "question": "A business deposits Rs. 5,000 into a fund in year 1. They decide to increase the annual deposit by exactly 20% each subsequent year. What is the precise deposit amount required in the 5th year?",
+    "options": [
+      "A) Rs. 9,000",
+      "B) Rs. 10,368",
+      "C) Rs. 12,441.6",
+      "D) Rs. 14,929.9"
+    ],
+    "correctAnswer": "B) Rs. 10,368",
+    "explanation": "A constant percentage increase forms a geometric progression. Here a = 5000, r = 1.20, and n = 5. The 5th term is a*r^4 = 5000 * (1.2)^4 = 5000 * 2.0736 = Rs. 10,368."
+  },
+  {
+    "id": "b2c3q8",
+    "chapter": 3,
+    "chapterTitle": "Mathematical Progression",
+    "question": "In a long-term contract structure representing an arithmetic progression, the 8th payment is Rs. 18,000 and the 12th payment is Rs. 26,000. What was the amount of the very first payment?",
+    "options": [
+      "A) Rs. 2,000",
+      "B) Rs. 4,000",
+      "C) Rs. 6,000",
+      "D) Rs. 8,000"
+    ],
+    "correctAnswer": "B) Rs. 4,000",
+    "explanation": "We have two equations: a + 7d = 18000, and a + 11d = 26000. Subtracting the first from the second gives 4d = 8000, so d = 2000. Substituting d into the first equation: a + 7(2000) = 18000 -> a + 14000 = 18000 -> a = 4000."
+  },
+  {
+    "id": "b2c3q9",
+    "chapter": 3,
+    "chapterTitle": "Mathematical Progression",
+    "question": "Using the standard mathematical shortcut formula for arithmetic series, what is the exact sum of the first 20 natural numbers (1 + 2 + 3 + ... + 20)?",
+    "options": [
+      "A) 190",
+      "B) 200",
+      "C) 210",
+      "D) 400"
+    ],
+    "correctAnswer": "C) 210",
+    "explanation": "The specific formula for the sum of the first 'n' natural numbers is n(n + 1) / 2. Here, 20(21) / 2 = 420 / 2 = 210."
+  },
+  {
+    "id": "b2c3q10",
+    "chapter": 3,
+    "chapterTitle": "Mathematical Progression",
+    "question": "What is the exact Arithmetic Mean inserted between the numbers 15 and 45?",
+    "options": [
+      "A) 25",
+      "B) 30",
+      "C) 35",
+      "D) 60"
+    ],
+    "correctAnswer": "B) 30",
+    "explanation": "The Arithmetic Mean (A.M.) between any two numerical values 'a' and 'b' is simply their average, calculated as (a + b) / 2. Here, (15 + 45) / 2 = 60 / 2 = 30."
+  },
+  {
+    "id": "b2c3q11",
+    "chapter": 3,
+    "chapterTitle": "Mathematical Progression",
+    "question": "What is the positive Geometric Mean inserted precisely between the numbers 9 and 25?",
+    "options": [
+      "A) 15",
+      "B) 17",
+      "C) 34",
+      "D) 225"
+    ],
+    "correctAnswer": "A) 15",
+    "explanation": "The Geometric Mean (G.M.) between two positive numbers 'a' and 'b' is calculated mathematically as the square root of their product: √(a * b). Here, √(9 * 25) = √225 = 15."
+  },
+  {
+    "id": "b2c3q12",
+    "chapter": 3,
+    "chapterTitle": "Mathematical Progression",
+    "question": "If the numbers 2, x, and 50 explicitly form a geometric progression, what are the possible mathematical values for 'x'?",
+    "options": [
+      "A) 10 only",
+      "B) 25 only",
+      "C) 10 or -10",
+      "D) 25 or -25"
+    ],
+    "correctAnswer": "C) 10 or -10",
+    "explanation": "For three terms to form a geometric progression, the ratio must be constant: x/2 = 50/x. Cross-multiplying gives x^2 = 100. Taking the square root gives x = 10 or x = -10."
+  },
+  {
+    "id": "b2c3q13",
+    "chapter": 3,
+    "chapterTitle": "Mathematical Progression",
+    "question": "In any given arithmetic progression, how is the 'common difference' strictly derived?",
+    "options": [
+      "A) By dividing any term by the term that precedes it.",
+      "B) By subtracting any term from the term that strictly follows it.",
+      "C) By adding the first and last term together.",
+      "D) By taking the square root of the series."
+    ],
+    "correctAnswer": "B) By subtracting any term from the term that strictly follows it.",
+    "explanation": "The common difference (d) is defined as the constant value added to each term to get the next. Mathematically, it is found by taking any term (a_n) and subtracting the previous term (a_{n-1})."
+  },
+  {
+    "id": "b2c3q14",
+    "chapter": 3,
+    "chapterTitle": "Mathematical Progression",
+    "question": "A worker saves Rs. 500 in month 1 and commits to increasing the savings by Rs. 200 every single month thereafter. What is the total cumulative amount saved after exactly 12 months?",
+    "options": [
+      "A) Rs. 16,400",
+      "B) Rs. 18,200",
+      "C) Rs. 19,200",
+      "D) Rs. 20,400"
+    ],
+    "correctAnswer": "C) Rs. 19,200",
+    "explanation": "This forms an arithmetic series where a = 500, d = 200, and n = 12. Sum = (n/2)[2a + (n-1)d] = (12/2)[1000 + (11)200] = 6(1000 + 2200) = 6(3200) = Rs. 19,200."
+  },
+  {
+    "id": "b2c3q15",
+    "chapter": 3,
+    "chapterTitle": "Mathematical Progression",
+    "question": "Under what strict mathematical condition does an infinite geometric progression possess a calculable, finite sum?",
+    "options": [
+      "A) Only when the common ratio 'r' is exactly 1.",
+      "B) When the common ratio 'r' is strictly greater than 1.",
+      "C) When the absolute value of the common ratio 'r' is strictly less than 1 (-1 < r < 1).",
+      "D) When the first term is a negative number."
+    ],
+    "correctAnswer": "C) When the absolute value of the common ratio 'r' is strictly less than 1 (-1 < r < 1).",
+    "explanation": "A geometric series converges (approaches a finite sum) as n approaches infinity only if its common ratio 'r' is a fraction between -1 and 1. Otherwise, the sum grows infinitely large."
+  }
+]

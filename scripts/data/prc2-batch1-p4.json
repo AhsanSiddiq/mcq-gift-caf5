@@ -1,0 +1,632 @@
+[
+  {
+    "id": "c10q1",
+    "chapter": 10,
+    "chapterTitle": "Correlation and Regression",
+    "question": "What is the primary function of a scatter diagram in statistical analysis?",
+    "options": [
+      "A) To prove absolute causation between two variables.",
+      "B) To show the visual relation between variables, which might indicate a relationship where there is none.",
+      "C) To calculate the exact variance of a population.",
+      "D) To display the sampling distribution of the mean."
+    ],
+    "correctAnswer": "B) To show the visual relation between variables, which might indicate a relationship where there is none.",
+    "explanation": "A scatter diagram shows the visual relation between variables, but it is important to note that it might indicate a relationship where there is fundamentally none."
+  },
+  {
+    "id": "c10q2",
+    "chapter": 10,
+    "chapterTitle": "Correlation and Regression",
+    "question": "What is the mathematically defined range for the value of the correlation coefficient (r)?",
+    "options": [
+      "A) Exactly 0 to 1",
+      "B) -1 to 0",
+      "C) -1 to +1",
+      "D) 1 to 100"
+    ],
+    "correctAnswer": "C) -1 to +1",
+    "explanation": "The value of the correlation coefficient is bounded and always lies strictly in the range -1 to +1."
+  },
+  {
+    "id": "c10q3",
+    "chapter": 10,
+    "chapterTitle": "Correlation and Regression",
+    "question": "If the correlation coefficient (r) between two variables is 0.9, and a constant value of 3 is subtracted from each observation of variable Y, what will happen to the correlation coefficient?",
+    "options": [
+      "A) It will decrease by exactly 3 units.",
+      "B) It will decrease by less than 3 units.",
+      "C) It will remain unchanged.",
+      "D) It will become negative."
+    ],
+    "correctAnswer": "C) It will remain unchanged.",
+    "explanation": "The correlation coefficient remains completely unchanged if a constant value is subtracted from each observation of a variable."
+  },
+  {
+    "id": "c10q4",
+    "chapter": 10,
+    "chapterTitle": "Correlation and Regression",
+    "question": "If the correlation coefficient (r) is 0.9, and each observation of variable X is multiplied by a constant factor of 100, what is the new value of 'r'?",
+    "options": [
+      "A) 90",
+      "B) 0.009",
+      "C) 0.9",
+      "D) Cannot be determined"
+    ],
+    "correctAnswer": "C) 0.9",
+    "explanation": "The correlation coefficient remains completely unchanged even if each observation of a variable is multiplied by a large constant."
+  },
+  {
+    "id": "c10q5",
+    "chapter": 10,
+    "chapterTitle": "Correlation and Regression",
+    "question": "Under which mathematical condition is the correlation between two variables considered to be at its strongest?",
+    "options": [
+      "A) When r = 0",
+      "B) When r = 0.5",
+      "C) When r = 1",
+      "D) When r = -0.5"
+    ],
+    "correctAnswer": "C) When r = 1",
+    "explanation": "The correlation between two variables is mathematically considered more strong when r = 1, indicating a perfect positive linear relationship."
+  },
+  {
+    "id": "c10q6",
+    "chapter": 10,
+    "chapterTitle": "Correlation and Regression",
+    "question": "If a researcher adds 3 to each observation of X, and subtracts 5 from each observation of Y, what happens to the original correlation coefficient of 0.85?",
+    "options": [
+      "A) It decreases by 2 units.",
+      "B) It increases by 2 units.",
+      "C) It remains exactly 0.85.",
+      "D) It becomes exactly 0."
+    ],
+    "correctAnswer": "C) It remains exactly 0.85.",
+    "explanation": "The correlation coefficient (r) is independent of the change of origin. Adding or subtracting constants to either variable X or Y leaves 'r' completely unchanged."
+  },
+  {
+    "id": "c10q7",
+    "chapter": 10,
+    "chapterTitle": "Correlation and Regression",
+    "question": "Which of the following scenarios best describes a negative correlation coefficient?",
+    "options": [
+      "A) As variable X increases, variable Y tends to increase.",
+      "B) As variable X increases, variable Y tends to decrease.",
+      "C) Variables X and Y do not change.",
+      "D) Variable Y remains constant regardless of X."
+    ],
+    "correctAnswer": "B) As variable X increases, variable Y tends to decrease.",
+    "explanation": "A negative correlation indicates an inverse relationship between variables. As one variable moves in a positive direction, the other tends to move in a negative direction."
+  },
+  {
+    "id": "c10q8",
+    "chapter": 10,
+    "chapterTitle": "Correlation and Regression",
+    "question": "Given the mathematical data set: \u2211x = 75, \u2211y = 225, \u2211xy = 2851, \u2211x\u00b2 = 625, and n = 6. If calculated, what does the resulting equation y = a + bx represent?",
+    "options": [
+      "A) The correlation coefficient.",
+      "B) The standard error of the mean.",
+      "C) The regression line of y on x.",
+      "D) The probability distribution."
+    ],
+    "correctAnswer": "C) The regression line of y on x.",
+    "explanation": "These standard sum parameters are used to calculate the slope (b) and y-intercept (a) to formulate the regression line y on x, which predicts the dependent variable y."
+  },
+  {
+    "id": "c10q9",
+    "chapter": 10,
+    "chapterTitle": "Correlation and Regression",
+    "question": "What does a correlation coefficient of exactly 0 imply about a scatter diagram?",
+    "options": [
+      "A) All points form a perfect upward straight line.",
+      "B) All points form a perfect downward straight line.",
+      "C) The points are completely scattered with no linear trend.",
+      "D) The points form a perfect circle."
+    ],
+    "correctAnswer": "C) The points are completely scattered with no linear trend.",
+    "explanation": "An 'r' value of 0 means there is absolutely no linear relationship between the variables, resulting in a scatter diagram with points dispersed randomly without forming a trendline."
+  },
+  {
+    "id": "c10q10",
+    "chapter": 10,
+    "chapterTitle": "Correlation and Regression",
+    "question": "In a simple linear regression equation represented as y = 39 - 0.12x, what does the value -0.12 represent?",
+    "options": [
+      "A) The y-intercept",
+      "B) The correlation coefficient",
+      "C) The slope or rate of change",
+      "D) The standard deviation"
+    ],
+    "correctAnswer": "C) The slope or rate of change",
+    "explanation": "In the linear regression format y = a + bx, the 'b' value (-0.12) is the slope, indicating how much 'y' is expected to decrease for every one-unit increase in 'x'."
+  },
+  {
+    "id": "c10q11",
+    "chapter": 10,
+    "chapterTitle": "Correlation and Regression",
+    "question": "Why is it important to remember that a high correlation coefficient does not prove causation?",
+    "options": [
+      "A) Because correlation coefficients are frequently calculated incorrectly.",
+      "B) Because scatter diagrams might visually indicate a relationship where there fundamentally is none in reality.",
+      "C) Because the standard error cancels out causation.",
+      "D) Because regression lines only work for negative numbers."
+    ],
+    "correctAnswer": "B) Because scatter diagrams might visually indicate a relationship where there fundamentally is none in reality.",
+    "explanation": "Statistical correlation simply measures how variables move together. A scatter diagram might mathematically indicate a strong relationship where there is no actual logical causation between the events."
+  },
+  {
+    "id": "c10q12",
+    "chapter": 10,
+    "chapterTitle": "Correlation and Regression",
+    "question": "If variable X represents advertising spend and variable Y represents sales revenue, what is the primary purpose of constructing a regression line of Y on X?",
+    "options": [
+      "A) To establish the median advertising spend.",
+      "B) To predict expected sales revenue based on a given advertising budget.",
+      "C) To calculate the variance of sales.",
+      "D) To ensure the correlation remains at +1."
+    ],
+    "correctAnswer": "B) To predict expected sales revenue based on a given advertising budget.",
+    "explanation": "The entire purpose of the regression line equation y on x is forecasting. It allows a business to predict the value of the dependent variable (sales) based on the independent variable (advertising spend)."
+  },
+  {
+    "id": "c10q13",
+    "chapter": 10,
+    "chapterTitle": "Correlation and Regression",
+    "question": "If the Pearson correlation coefficient between two variables is calculated as +1.25, what conclusion should be drawn?",
+    "options": [
+      "A) There is a perfectly strong positive relationship.",
+      "B) The variables are completely independent.",
+      "C) A calculation error has occurred.",
+      "D) The standard error is unusually high."
+    ],
+    "correctAnswer": "C) A calculation error has occurred.",
+    "explanation": "Because the absolute mathematical range for any valid correlation coefficient lies strictly between -1 and +1, a result of +1.25 is impossible and indicates a mathematical calculation error."
+  },
+  {
+    "id": "c10q14",
+    "chapter": 10,
+    "chapterTitle": "Correlation and Regression",
+    "question": "Which of the following statistics specifically measures the proportion of the total variance in the dependent variable that is explained by the independent variable?",
+    "options": [
+      "A) The coefficient of determination (r-squared)",
+      "B) The correlation coefficient (r)",
+      "C) The standard error",
+      "D) The level of significance"
+    ],
+    "correctAnswer": "A) The coefficient of determination (r-squared)",
+    "explanation": "The coefficient of determination, found by squaring 'r', gives the exact percentage of variation in 'y' that is mathematically explained by the linear relationship with 'x'."
+  },
+  {
+    "id": "c10q15",
+    "chapter": 10,
+    "chapterTitle": "Correlation and Regression",
+    "question": "When constructing a simple scatter diagram, on which axis is the independent variable (x) traditionally plotted?",
+    "options": [
+      "A) The vertical y-axis",
+      "B) The horizontal x-axis",
+      "C) The secondary y-axis",
+      "D) The depth z-axis"
+    ],
+    "correctAnswer": "B) The horizontal x-axis",
+    "explanation": "In standard cartesian coordinate mapping for regression and scatter diagrams, the independent variable (the cause) is always plotted along the horizontal x-axis."
+  },
+  {
+    "id": "c11q1",
+    "chapter": 11,
+    "chapterTitle": "Probability",
+    "question": "If events A and B are strictly mutually exclusive, and P(A) = 0.5 and P(B) = 0.4, what is the probability of either A or B occurring, denoted as P(A or B)?",
+    "options": [
+      "A) 0.1",
+      "B) 0.2",
+      "C) 0.9",
+      "D) 0.54"
+    ],
+    "correctAnswer": "C) 0.9",
+    "explanation": "Because the events are mutually exclusive and cannot happen at the same time, the probability of A or B occurring is simply the sum of their individual probabilities: 0.5 + 0.4 = 0.9."
+  },
+  {
+    "id": "c11q2",
+    "chapter": 11,
+    "chapterTitle": "Probability",
+    "question": "A 4-digit pin code can begin with any number except 0 and 1. If repetition of the same digit is allowed, what is the exact probability that a randomly generated pin code begins with a 5 and ends with a 2?",
+    "options": [
+      "A) 1/49",
+      "B) 1/70",
+      "C) 1/80",
+      "D) 1/90"
+    ],
+    "correctAnswer": "C) 1/80",
+    "explanation": "The first digit has 8 valid options (2 through 9), so the probability of starting with 5 is 1/8. The final digit has 10 valid options (0-9), so the probability of ending with 2 is 1/10. Combined: 1/8 * 1/10 = 1/80."
+  },
+  {
+    "id": "c11q3",
+    "chapter": 11,
+    "chapterTitle": "Probability",
+    "question": "In an athletic race, eight runners have an equal chance of winning. What is the mathematical probability that a spectator correctly guesses the top 3 runners in the exact correct order?",
+    "options": [
+      "A) 1/112",
+      "B) 1/336",
+      "C) 0.61%",
+      "D) 1/512"
+    ],
+    "correctAnswer": "B) 1/336",
+    "explanation": "This requires calculating permutations. The number of ways to arrange 3 winners out of 8 is 8 * 7 * 6 = 336. The probability of guessing the single correct sequence is 1/336."
+  },
+  {
+    "id": "c11q4",
+    "chapter": 11,
+    "chapterTitle": "Probability",
+    "question": "If a fair, standard six-sided dice is rolled 5 consecutive times, what is the approximate probability of rolling a '3' at least one time?",
+    "options": [
+      "A) 0.388",
+      "B) 0.402",
+      "C) 0.598",
+      "D) 0.612"
+    ],
+    "correctAnswer": "C) 0.598",
+    "explanation": "The probability of NOT rolling a 3 on a single roll is 5/6. For 5 rolls, it is (5/6)^5 = 0.4018. The probability of rolling at least one 3 is 1 - 0.4018 = 0.598."
+  },
+  {
+    "id": "c11q5",
+    "chapter": 11,
+    "chapterTitle": "Probability",
+    "question": "Two distinct events, A and B, are defined as non-mutually exclusive. If their probabilities are P(A) = 0.5 and P(B) = 0.4, and they are independent, what is P(A and B)?",
+    "options": [
+      "A) 0.1",
+      "B) 0.2",
+      "C) 0.54",
+      "D) 0.9"
+    ],
+    "correctAnswer": "B) 0.2",
+    "explanation": "For non-mutually exclusive independent events, the probability of both occurring together is found by multiplying their probabilities: P(A) * P(B) = 0.5 * 0.4 = 0.2."
+  },
+  {
+    "id": "c11q6",
+    "chapter": 11,
+    "chapterTitle": "Probability",
+    "question": "What is the collective term used to describe the entire set of all possible outcomes for a random experiment?",
+    "options": [
+      "A) Rejection region",
+      "B) Sample space",
+      "C) Null hypothesis",
+      "D) Progressive series"
+    ],
+    "correctAnswer": "B) Sample space",
+    "explanation": "In standard probability theory, the sample space represents the complete, exhaustive list of every single possible outcome that can result from an experiment."
+  },
+  {
+    "id": "c11q7",
+    "chapter": 11,
+    "chapterTitle": "Probability",
+    "question": "If a factory machine has a 0.02 probability of breaking down on any given day, what is the complementary probability that it operates perfectly?",
+    "options": [
+      "A) 0.02",
+      "B) 0.50",
+      "C) 0.98",
+      "D) 1.00"
+    ],
+    "correctAnswer": "C) 0.98",
+    "explanation": "Complementary probabilities must always sum to exactly 1. Therefore, 1 - 0.02 = 0.98 probability of perfect operation."
+  },
+  {
+    "id": "c11q8",
+    "chapter": 11,
+    "chapterTitle": "Probability",
+    "question": "Which mathematical rule is applied to find the probability of Event A 'OR' Event B occurring when the events are mutually exclusive?",
+    "options": [
+      "A) Multiplication Rule",
+      "B) Addition Rule",
+      "C) Subtraction Rule",
+      "D) Permutation Rule"
+    ],
+    "correctAnswer": "B) Addition Rule",
+    "explanation": "The Addition Rule states that for mutually exclusive events, you simply add the probabilities together: P(A or B) = P(A) + P(B)."
+  },
+  {
+    "id": "c11q9",
+    "chapter": 11,
+    "chapterTitle": "Probability",
+    "question": "When calculating the probability of independent events occurring in sequence (Event A 'AND' Event B), which mathematical operation is strictly required?",
+    "options": [
+      "A) Addition",
+      "B) Subtraction",
+      "C) Multiplication",
+      "D) Division"
+    ],
+    "correctAnswer": "C) Multiplication",
+    "explanation": "To find the probability of multiple independent events happening together, you must multiply their individual probabilities: P(A) * P(B)."
+  },
+  {
+    "id": "c11q10",
+    "chapter": 11,
+    "chapterTitle": "Probability",
+    "question": "What distinguishes a 'Permutation' from a 'Combination' in probability calculations?",
+    "options": [
+      "A) Permutations are only used for dice rolls.",
+      "B) In combinations, the exact order of the elements is strictly important.",
+      "C) In permutations, the exact sequence or order of the elements is strictly important.",
+      "D) Permutations allow for infinite probabilities."
+    ],
+    "correctAnswer": "C) In permutations, the exact sequence or order of the elements is strictly important.",
+    "explanation": "Permutations calculate arrangements where the specific order matters (like guessing the top 3 runners in exact order), whereas combinations ignore the sequence."
+  },
+  {
+    "id": "c11q11",
+    "chapter": 11,
+    "chapterTitle": "Probability",
+    "question": "A 4-digit pin code can begin with any number except 0, 1, and 2. If repetition is allowed, what is the probability the pin code begins with a 5 and ends with a 3?",
+    "options": [
+      "A) 1/49",
+      "B) 1/70",
+      "C) 1/80",
+      "D) 1/90"
+    ],
+    "correctAnswer": "B) 1/70",
+    "explanation": "The first digit has 7 valid options (3 through 9), so starting with 5 has a 1/7 chance. The last digit has 10 options (0-9), so ending with 3 has a 1/10 chance. 1/7 * 1/10 = 1/70."
+  },
+  {
+    "id": "c11q12",
+    "chapter": 11,
+    "chapterTitle": "Probability",
+    "question": "If an investment scenario guarantees a payout with absolutely zero risk of failure, the mathematical probability of receiving the payout is precisely:",
+    "options": [
+      "A) 0",
+      "B) 0.5",
+      "C) 1",
+      "D) Infinite"
+    ],
+    "correctAnswer": "C) 1",
+    "explanation": "In probability theory, an event that is absolutely certain to occur always has a mathematical probability of exactly 1."
+  },
+  {
+    "id": "c11q13",
+    "chapter": 11,
+    "chapterTitle": "Probability",
+    "question": "What is the theoretical probability of an event that is physically impossible to occur?",
+    "options": [
+      "A) -1",
+      "B) 0",
+      "C) 0.5",
+      "D) 1"
+    ],
+    "correctAnswer": "B) 0",
+    "explanation": "Probability scales strictly from 0 to 1. An event that is totally impossible has a probability of precisely 0. It cannot be negative."
+  },
+  {
+    "id": "c11q14",
+    "chapter": 11,
+    "chapterTitle": "Probability",
+    "question": "When calculating expected values in a business scenario, how is the Expected Value (EV) mathematically derived?",
+    "options": [
+      "A) By dividing the highest possible outcome by the lowest.",
+      "B) By multiplying each possible financial outcome by its respective probability of occurring, and summing the results.",
+      "C) By subtracting the cost of capital from the probability.",
+      "D) By squaring the correlation coefficient."
+    ],
+    "correctAnswer": "B) By multiplying each possible financial outcome by its respective probability of occurring, and summing the results.",
+    "explanation": "The expected value represents the weighted average of all possible outcomes, calculated by summing the products of each outcome and its associated probability."
+  },
+  {
+    "id": "c11q15",
+    "chapter": 11,
+    "chapterTitle": "Probability",
+    "question": "In standard notation, what does the expression P(A|B) technically represent?",
+    "options": [
+      "A) The probability of Event A minus Event B.",
+      "B) The probability of Event A or Event B.",
+      "C) The conditional probability of Event A occurring, given that Event B has already occurred.",
+      "D) The probability of Event A multiplied by Event B."
+    ],
+    "correctAnswer": "C) The conditional probability of Event A occurring, given that Event B has already occurred.",
+    "explanation": "The vertical bar '|' is the standard statistical notation for conditional probability, indicating the probability of the first event happening under the strict condition that the second event is true."
+  },
+  {
+    "id": "c12q1",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Hypothesis Testing",
+    "question": "In sampling theory, what specific term is used to define the standard deviation of the sampling distribution of the mean?",
+    "options": [
+      "A) Standard variance",
+      "B) Standard error",
+      "C) Population deviation",
+      "D) Sample proportion"
+    ],
+    "correctAnswer": "B) Standard error",
+    "explanation": "The standard deviation of the sampling distribution of the means is officially and technically referred to as the standard error."
+  },
+  {
+    "id": "c12q2",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Hypothesis Testing",
+    "question": "According to the Central Limit Theorem, the sampling distribution of the mean typically takes the shape of which mathematical distribution for large samples?",
+    "options": [
+      "A) Binomial distribution",
+      "B) Uniform distribution",
+      "C) Normal distribution",
+      "D) Chi-square distribution"
+    ],
+    "correctAnswer": "C) Normal distribution",
+    "explanation": "A fundamental rule in sampling states that the sampling distribution of the mean approaches a standard normal distribution as the sample size increases."
+  },
+  {
+    "id": "c12q3",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Hypothesis Testing",
+    "question": "Which of the following statements perfectly defines the statistical concept of a 'population'?",
+    "options": [
+      "A) It only considers a small subset of available data.",
+      "B) It is an observation where it is desired to consider all members or elements in that specific observation.",
+      "C) It is the standard error of a given sample.",
+      "D) It represents only the standard deviation."
+    ],
+    "correctAnswer": "B) It is an observation where it is desired to consider all members or elements in that specific observation.",
+    "explanation": "In an observation designed to analyze a population, the researcher explicitly considers and includes all members of the group, rather than a limited sample."
+  },
+  {
+    "id": "c12q4",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Hypothesis Testing",
+    "question": "A researcher is conducting a one-tail hypothesis test. The sample proportion standard deviation is 0.0092, the sample proportion is 0.684, and the level of significance is 10%. With a sample size greater than 30, if the test statistic falls in the critical region, what must be done?",
+    "options": [
+      "A) Accept the null hypothesis.",
+      "B) Reject the null hypothesis.",
+      "C) It cannot be determined without knowing the exact sample size.",
+      "D) Retest using a two-tail method."
+    ],
+    "correctAnswer": "B) Reject the null hypothesis.",
+    "explanation": "When conducting a standard hypothesis test, if the computed test statistic breaches the critical threshold defined by the level of significance (10%), you must formally reject the null hypothesis."
+  },
+  {
+    "id": "c12q5",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Hypothesis Testing",
+    "question": "Which specific statistical test is frequently utilized to determine the 'goodness of fit' between observed sample data and expected population distributions?",
+    "options": [
+      "A) T-test",
+      "B) Z-test",
+      "C) Chi-square test",
+      "D) Payback test"
+    ],
+    "correctAnswer": "C) Chi-square test",
+    "explanation": "The Chi-square test is a prominent statistical tool heavily utilized as a test of goodness of fit to analyze categorical variables and expected frequencies."
+  },
+  {
+    "id": "c12q6",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Hypothesis Testing",
+    "question": "Consider a continuous sample: 4.8, 5.8, 5.2, 4.6, 6.2. When a researcher calculates that with a 99% confidence level the population mean is between 3.94 and 6.70, what does the 99% represent?",
+    "options": [
+      "A) The standard error.",
+      "B) The level of significance.",
+      "C) The confidence interval or level.",
+      "D) The degrees of freedom."
+    ],
+    "correctAnswer": "C) The confidence interval or level.",
+    "explanation": "The 99% figure explicitly represents the confidence level, meaning the researcher is 99% mathematically certain that the true population mean falls within the calculated boundary interval."
+  },
+  {
+    "id": "c12q7",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Hypothesis Testing",
+    "question": "In hypothesis testing terminology, what does the 'Null Hypothesis' typically assert?",
+    "options": [
+      "A) That a significant difference or relationship exists.",
+      "B) That the standard error is zero.",
+      "C) That there is no difference, no effect, or no relationship between the variables being tested.",
+      "D) That the sample is too small."
+    ],
+    "correctAnswer": "C) That there is no difference, no effect, or no relationship between the variables being tested.",
+    "explanation": "The null hypothesis (H0) acts as the baseline assumption in statistics, generally asserting that any observed differences in the sample data are due to random chance and no real effect exists."
+  },
+  {
+    "id": "c12q8",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Hypothesis Testing",
+    "question": "What severe statistical error is committed when a researcher officially rejects the null hypothesis when it is, in absolute reality, completely true?",
+    "options": [
+      "A) Standard Error",
+      "B) Type I Error",
+      "C) Type II Error",
+      "D) Margin Error"
+    ],
+    "correctAnswer": "B) Type I Error",
+    "explanation": "A Type I error occurs specifically when the null hypothesis is rejected despite being true. It is commonly referred to as a 'false positive'."
+  },
+  {
+    "id": "c12q9",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Hypothesis Testing",
+    "question": "Which of the following terms is directly synonymous with the maximum allowable probability of committing a Type I Error in a hypothesis test?",
+    "options": [
+      "A) Degrees of freedom",
+      "B) Standard deviation",
+      "C) Level of significance",
+      "D) Chi-square value"
+    ],
+    "correctAnswer": "C) Level of significance",
+    "explanation": "The Level of Significance (often denoted as alpha, such as 10% or 0.10) sets the maximum strict mathematical risk a researcher is willing to take of incorrectly rejecting a true null hypothesis."
+  },
+  {
+    "id": "c12q10",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Hypothesis Testing",
+    "question": "When a sample size is considered large (typically n > 30), which theoretical statistical distribution is most commonly used to establish the critical values for hypothesis testing?",
+    "options": [
+      "A) Chi-square distribution",
+      "B) Normal (Z) distribution",
+      "C) Poisson distribution",
+      "D) F-distribution"
+    ],
+    "correctAnswer": "B) Normal (Z) distribution",
+    "explanation": "For large sample sizes exceeding 30, the Central Limit Theorem dictates that the sampling distribution is sufficiently normal to utilize standard Z-distribution values for testing."
+  },
+  {
+    "id": "c12q11",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Hypothesis Testing",
+    "question": "If a sample size is notably small (n < 30) and the true population standard deviation remains entirely unknown, which specific statistical test should a researcher rely on?",
+    "options": [
+      "A) T-test",
+      "B) Z-test",
+      "C) Chi-square test",
+      "D) Correlation test"
+    ],
+    "correctAnswer": "A) T-test",
+    "explanation": "When standard deviations are unknown and sample sizes fall below 30, the T-test provides a wider, more forgiving distribution curve to accurately assess the data without false confidence."
+  },
+  {
+    "id": "c12q12",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Hypothesis Testing",
+    "question": "If a hypothesis test aims to discover solely if a new medicine works *better* than an old one (focusing strictly on improvement), what type of test is being executed?",
+    "options": [
+      "A) A two-tail test",
+      "B) A one-tail test",
+      "C) A chi-square test",
+      "D) A paired scatter test"
+    ],
+    "correctAnswer": "B) A one-tail test",
+    "explanation": "Because the researcher is exclusively testing for an effect in one specific directional tail of the distribution (improvement, not just any difference), it is strictly a one-tail test."
+  },
+  {
+    "id": "c12q13",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Hypothesis Testing",
+    "question": "In statistics, what is the core meaning of a 'Point Estimate'?",
+    "options": [
+      "A) A range of numbers spanning from the lowest to the highest sample value.",
+      "B) The absolute percentage of error in a test.",
+      "C) A single numerical value calculated from sample data used to estimate an unknown population parameter.",
+      "D) The exact origin point on a scatter diagram."
+    ],
+    "correctAnswer": "C) A single numerical value calculated from sample data used to estimate an unknown population parameter.",
+    "explanation": "Unlike a confidence interval which provides a range, a point estimate is one specific, single number (like a sample mean) used as the best guess for the true population mean."
+  },
+  {
+    "id": "c12q14",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Hypothesis Testing",
+    "question": "Historical data indicates students score A, B, and C grades at 10%, 15%, and 75% respectively. In a new sample of 500 students, the grades are 64, 88, and 348. To test if the current pattern matches historical data, what is the resulting calculated test value called?",
+    "options": [
+      "A) Z-score",
+      "B) T-value",
+      "C) Chi-square value",
+      "D) Standard error"
+    ],
+    "correctAnswer": "C) Chi-square value",
+    "explanation": "This specific scenario involves testing observed frequencies against expected historical categorical frequencies, which is perfectly executed using the Chi-square goodness of fit calculation."
+  },
+  {
+    "id": "c12q15",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Hypothesis Testing",
+    "question": "Which of the following statements about the 'Standard Deviation of the Sampling Distribution of the Mean' is undeniably true?",
+    "options": [
+      "A) It is completely unrelated to the sample size.",
+      "B) It is formally referred to as the Standard Error.",
+      "C) It is always larger than the population standard deviation.",
+      "D) It can be a negative number."
+    ],
+    "correctAnswer": "B) It is formally referred to as the Standard Error.",
+    "explanation": "As defined strictly in standard statistical terminology and sampling theory, the standard deviation of the sampling distribution of the means is explicitly termed the 'standard error'."
+  }
+]

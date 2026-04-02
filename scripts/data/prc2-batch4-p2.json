@@ -1,0 +1,422 @@
+[
+  {
+    "id": "b4c9q1",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "What is the standard formula utilized to calculate a 'Simple Price Relative' for a single, isolated commodity?",
+    "options": [
+      "A) (Base Price / Current Price) \u00d7 100",
+      "B) (Current Price / Base Price) \u00d7 100",
+      "C) (Current Price - Base Price) / 100",
+      "D) (Current Quantity / Base Quantity) \u00d7 100"
+    ],
+    "correctAnswer": "B) (Current Price / Base Price) \u00d7 100",
+    "explanation": "A simple price relative tracks the inflation of a single item by dividing the current period price (pn) by the historical base period price (p0) and mathematically multiplying by 100."
+  },
+  {
+    "id": "b4c9q2",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "In the construction of a Laspeyres Price Index, what specific data is utilized as the fixed mathematical weighting factor?",
+    "options": [
+      "A) Current year quantities (qn)",
+      "B) Base year quantities (q0)",
+      "C) Current year prices (pn)",
+      "D) Current year values (pn * qn)"
+    ],
+    "correctAnswer": "B) Base year quantities (q0)",
+    "explanation": "The Laspeyres price index relies entirely on a fixed, historical basket of goods. Therefore, it mathematically uses the base year quantities (q0) strictly as its weighting factor in both the numerator and denominator."
+  },
+  {
+    "id": "b4c9q3",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "Conversely, what specific data does the Paasche Price Index utilize as its weighting factor?",
+    "options": [
+      "A) Base year quantities (q0)",
+      "B) Base year prices (p0)",
+      "C) Current year quantities (qn)",
+      "D) Arithmetic mean quantities"
+    ],
+    "correctAnswer": "C) Current year quantities (qn)",
+    "explanation": "Unlike Laspeyres, the Paasche index measures the cost of today's exact consumption. It uses current year quantities (qn) as the weighting factor, requiring the denominator to be recalculated every single year."
+  },
+  {
+    "id": "b4c9q4",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "How is Fisher's Ideal Index mathematically defined in statistical theory?",
+    "options": [
+      "A) The arithmetic mean of the Laspeyres and Paasche indices.",
+      "B) The simple aggregate of base year prices.",
+      "C) The geometric mean (square root of the product) of the Laspeyres and Paasche indices.",
+      "D) The harmonic mean of all current index links."
+    ],
+    "correctAnswer": "C) The geometric mean (square root of the product) of the Laspeyres and Paasche indices.",
+    "explanation": "Fisher's Ideal Index perfectly resolves the respective biases of the Laspeyres (upward bias) and Paasche (downward bias) indices by mathematically calculating the strict geometric mean of the two."
+  },
+  {
+    "id": "b4c9q5",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "What is a massive, practical advantage of utilizing a 'Chain Base Index' method rather than a Fixed Base Index?",
+    "options": [
+      "A) It is much simpler to manually calculate.",
+      "B) It allows obsolete commodities to be seamlessly dropped and new commodities introduced into the basket each year.",
+      "C) It mathematically eliminates all inflation.",
+      "D) It ensures the base year never changes."
+    ],
+    "correctAnswer": "B) It allows obsolete commodities to be seamlessly dropped and new commodities introduced into the basket each year.",
+    "explanation": "Because a chain base index calculates links by strictly comparing the current year to the immediate preceding year, the consumer basket can be freely updated annually, making it highly responsive to shifting economic trends."
+  },
+  {
+    "id": "b4c9q6",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "To properly convert a nominal wage into a 'real' wage (reflecting true inflation-adjusted purchasing power), what mathematical operation is executed?",
+    "options": [
+      "A) The nominal wage is multiplied by the standard error.",
+      "B) The nominal wage is divided by the current Consumer Price Index (CPI) and multiplied by 100.",
+      "C) The current CPI is directly subtracted from the wage.",
+      "D) The nominal wage is squared."
+    ],
+    "correctAnswer": "B) The nominal wage is divided by the current Consumer Price Index (CPI) and multiplied by 100.",
+    "explanation": "Dividing the raw nominal wage by the prevailing price index mathematically strips away the artificial inflation factor, revealing the true 'real' purchasing power (or deflated value) of the income."
+  },
+  {
+    "id": "b4c9q7",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "In economic statistics, the 'purchasing power of money' is mathematically defined strictly as:",
+    "options": [
+      "A) The arithmetic sum of all household wages.",
+      "B) The absolute variance of retail inflation.",
+      "C) The exact reciprocal of the Consumer Price Index (1 / CPI).",
+      "D) The geometric mean of the Paasche index."
+    ],
+    "correctAnswer": "C) The exact reciprocal of the Consumer Price Index (1 / CPI).",
+    "explanation": "As general prices (CPI) rise, the actual value or purchasing power of a single unit of currency inversely falls. It is therefore mathematically defined as the exact reciprocal of the price index."
+  },
+  {
+    "id": "b4c9q8",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "If an official government price index rises from a base of 100 in 2018 to exactly 165 in 2025, what is the precise statistical interpretation of this data?",
+    "options": [
+      "A) Absolute sales volumes have dropped by 65%.",
+      "B) The physical volume of goods produced has increased by 65%.",
+      "C) Average prices of the goods in the index basket have increased by exactly 65% since 2018.",
+      "D) Nominal wages have automatically risen by 165%."
+    ],
+    "correctAnswer": "C) Average prices of the goods in the index basket have increased by exactly 65% since 2018.",
+    "explanation": "Index numbers express relative changes as percentages compared to a fixed base of 100. A shift to 165 mathematically indicates an exact 65% increase in the variable being tracked."
+  },
+  {
+    "id": "b4c9q9",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "If the sum of prices for four raw materials in the base year was Rs. 80, and the sum of their prices in the current year is Rs. 100, what is the computed Simple Aggregate Price Index?",
+    "options": [
+      "A) 110",
+      "B) 120",
+      "C) 125",
+      "D) 150"
+    ],
+    "correctAnswer": "C) 125",
+    "explanation": "The simple aggregate method merely sums the unweighted current prices and divides by the sum of the base prices, multiplied by 100. Here, (100 / 80) * 100 = 125."
+  },
+  {
+    "id": "b4c9q10",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "When formulating a Laspeyres *Quantity* Index (rather than a standard price index), what historical data is utilized as the mathematical weighting factor?",
+    "options": [
+      "A) Base year quantities (q0)",
+      "B) Base year prices (p0)",
+      "C) Current year quantities (qn)",
+      "D) Current year prices (pn)"
+    ],
+    "correctAnswer": "B) Base year prices (p0)",
+    "explanation": "Because it is a Laspeyres index, it must rely on historical, base-period data for weighting. To track changing physical quantities, a Laspeyres Quantity index weights the volumes using fixed base year prices (p0)."
+  },
+  {
+    "id": "b4c9q11",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "Conversely, when formulating a Paasche *Quantity* Index, what data is exclusively used as the weighting factor?",
+    "options": [
+      "A) Base year prices (p0)",
+      "B) Base year quantities (q0)",
+      "C) Current year prices (pn)",
+      "D) Current year quantities (qn)"
+    ],
+    "correctAnswer": "C) Current year prices (pn)",
+    "explanation": "Following Paasche's fundamental rule of using 'current' data for weights, a Paasche Quantity Index tracks changing volumes by weighting them against current year prices (pn)."
+  },
+  {
+    "id": "b4c9q12",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "What is an inherent statistical flaw of utilizing the 'Simple Aggregate Method' to construct a price index?",
+    "options": [
+      "A) It ignores quantities completely and is heavily, artificially skewed by individual items with naturally large numerical unit prices.",
+      "B) It forces the base year to change constantly.",
+      "C) It strictly requires geometric interpolation.",
+      "D) It cannot mathematically measure price drops."
+    ],
+    "correctAnswer": "A) It ignores quantities completely and is heavily, artificially skewed by individual items with naturally large numerical unit prices.",
+    "explanation": "The simple aggregate method merely sums raw prices without logical volume weights. Thus, a high-priced item (like a diamond) will completely dominate the index over a highly consumed essential (like bread), making it economically inaccurate."
+  },
+  {
+    "id": "b4c9q13",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "What is a 'Value Index' designed to mathematically measure?",
+    "options": [
+      "A) Only the change in raw prices over time.",
+      "B) Only the change in physical quantities over time.",
+      "C) The relative change in total monetary expenditure or revenue, incorporating both price changes and quantity changes (p \u00d7 q).",
+      "D) The absolute net profit margin of an individual firm."
+    ],
+    "correctAnswer": "C) The relative change in total monetary expenditure or revenue, incorporating both price changes and quantity changes (p \u00d7 q).",
+    "explanation": "A Value Index comprehensively measures changes in total expenditure, meaning it simultaneously evaluates the change in price mathematically multiplied by the change in quantity (\u2211pnqn / \u2211p0q0)."
+  },
+  {
+    "id": "b4c9q14",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "When maintaining a long-term index series, what is the statistical process known as 'base shifting'?",
+    "options": [
+      "A) Converting a price index into a quantity index.",
+      "B) Changing the reference period (the year set to 100) to a more recent, economically relevant year.",
+      "C) Averaging the base year and current year prices.",
+      "D) Stripping away extreme outliers from the index basket."
+    ],
+    "correctAnswer": "B) Changing the reference period (the year set to 100) to a more recent, economically relevant year.",
+    "explanation": "Base shifting occurs when the original base year becomes obsolete due to long-term changing consumer habits. The index is mathematically recalibrated so a more recent year acts as the new 100 baseline."
+  },
+  {
+    "id": "b4c9q15",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "What is the primary economic and statistical purpose of calculating the Consumer Price Index (CPI)?",
+    "options": [
+      "A) To measure the absolute net worth of a nation's gold reserves.",
+      "B) To track wholesale manufacturing input costs.",
+      "C) To measure the changing cost of a specific basket of consumer goods and services purchased by a typical urban household.",
+      "D) To calculate the standard error of corporate dividends."
+    ],
+    "correctAnswer": "C) To measure the changing cost of a specific basket of consumer goods and services purchased by a typical urban household.",
+    "explanation": "The Consumer Price Index (CPI) is the most widely utilized measure of inflation, explicitly designed to track the changing cost of living by pricing a specific basket of retail goods purchased by a typical household."
+  },
+  {
+    "id": "b4c10q1",
+    "chapter": 10,
+    "chapterTitle": "Correlation and Regression",
+    "question": "Which of the following correctly defines the exact mathematical range within which the Pearson correlation coefficient (r) must always lie?",
+    "options": [
+      "A) 0 to +1",
+      "B) 0 to +100",
+      "C) -1 to +1",
+      "D) -100 to +100"
+    ],
+    "correctAnswer": "C) -1 to +1",
+    "explanation": "The correlation coefficient (r) measures the strength and direction of a linear relationship. It is mathematically bounded and can never exceed +1 (perfect positive correlation) nor drop below -1 (perfect negative correlation)."
+  },
+  {
+    "id": "b4c10q2",
+    "chapter": 10,
+    "chapterTitle": "Correlation and Regression",
+    "question": "If the correlation coefficient (r) between two economic variables is exactly -0.70, what is the resulting 'coefficient of determination', and what does it signify?",
+    "options": [
+      "A) -0.70; meaning a 70% inverse relationship.",
+      "B) 0.49; meaning 49% of the variation in the dependent variable is mathematically explained by the independent variable.",
+      "C) -0.49; meaning a 49% negative variance.",
+      "D) 0.70; meaning a 70% positive variance."
+    ],
+    "correctAnswer": "B) 0.49; meaning 49% of the variation in the dependent variable is mathematically explained by the independent variable.",
+    "explanation": "The coefficient of determination is calculated by squaring r. (-0.70)^2 = 0.49. This metric clearly indicates that 49% of the variance in variable Y can be reliably explained by its linear relationship with variable X."
+  },
+  {
+    "id": "b4c10q3",
+    "chapter": 10,
+    "chapterTitle": "Correlation and Regression",
+    "question": "If a researcher adds a constant of 12 to every observation of variable X, and divides every observation of variable Y by 3, what will logically happen to an original correlation coefficient of 0.85?",
+    "options": [
+      "A) It will systematically increase.",
+      "B) It will decrease due to the division.",
+      "C) It will remain completely unchanged at 0.85.",
+      "D) It will invert to -0.85."
+    ],
+    "correctAnswer": "C) It will remain completely unchanged at 0.85.",
+    "explanation": "A fundamental property of the Pearson correlation coefficient is that it is completely independent of both the change of origin (adding/subtracting a constant) and the change of scale (multiplying/dividing by a positive constant)."
+  },
+  {
+    "id": "b4c10q4",
+    "chapter": 10,
+    "chapterTitle": "Correlation and Regression",
+    "question": "In a formulated linear regression equation represented as Y = 500 - 6.5X, what does the value '-6.5' specifically represent?",
+    "options": [
+      "A) The fixed y-intercept.",
+      "B) The independent variable.",
+      "C) The coefficient of correlation.",
+      "D) The mathematical slope of the regression line."
+    ],
+    "correctAnswer": "D) The mathematical slope of the regression line.",
+    "explanation": "In the standard regression format Y = a + bX, 'b' represents the slope. Here, -6.5 is the slope, indicating that for every 1 unit increase in X, the predicted value of Y mathematically decreases by 6.5 units."
+  },
+  {
+    "id": "b4c10q5",
+    "chapter": 10,
+    "chapterTitle": "Correlation and Regression",
+    "question": "If variable X and variable Y exhibit a 'perfect negative correlation', what must be the exact mathematical value of r?",
+    "options": [
+      "A) -1",
+      "B) 0",
+      "C) -100",
+      "D) 1"
+    ],
+    "correctAnswer": "A) -1",
+    "explanation": "A perfect negative correlation signifies that all data points fall perfectly on a downward-sloping straight line, with zero deviation. In statistical terms, this is strictly represented by an r value of exactly -1."
+  },
+  {
+    "id": "b4c10q6",
+    "chapter": 10,
+    "chapterTitle": "Correlation and Regression",
+    "question": "If the calculated correlation coefficient between variables X and Y is exactly 0.00, what visual pattern would their scatter diagram most likely present?",
+    "options": [
+      "A) A perfectly straight, horizontal line.",
+      "B) A perfectly straight, upward-sloping line.",
+      "C) A randomly dispersed cloud of points demonstrating absolutely no discernible linear trend.",
+      "D) A parabolic U-curve."
+    ],
+    "correctAnswer": "C) A randomly dispersed cloud of points demonstrating absolutely no discernible linear trend.",
+    "explanation": "An 'r' value of 0 mathematically dictates that there is absolutely no linear correlation between the two variables, resulting in a completely random scatter of data points across the coordinate plane."
+  },
+  {
+    "id": "b4c10q7",
+    "chapter": 10,
+    "chapterTitle": "Correlation and Regression",
+    "question": "A regression line of Y on X must mathematically always pass perfectly through which specific coordinate point on a scatter diagram?",
+    "options": [
+      "A) The origin point (0,0).",
+      "B) The absolute lowest recorded data point.",
+      "C) The point representing the mean of X and the mean of Y (x\u0304, y\u0304).",
+      "D) The y-intercept of X."
+    ],
+    "correctAnswer": "C) The point representing the mean of X and the mean of Y (x\u0304, y\u0304).",
+    "explanation": "A foundational algebraic property of the least squares regression method dictates that the calculated line of best fit must strictly intersect the centroid of the dataset, which is the exact intersection of the variables' means."
+  },
+  {
+    "id": "b4c10q8",
+    "chapter": 10,
+    "chapterTitle": "Correlation and Regression",
+    "question": "Which of the following describes a significant statistical risk when utilizing a linear regression model for 'extrapolation'?",
+    "options": [
+      "A) The regression line's slope might instantly invert.",
+      "B) Predicting values entirely outside the historical data range assumes the historical linear relationship continues indefinitely, which may prove violently false.",
+      "C) It automatically turns the correlation coefficient into a negative value.",
+      "D) It forces the y-intercept to become exactly zero."
+    ],
+    "correctAnswer": "B) Predicting values entirely outside the historical data range assumes the historical linear relationship continues indefinitely, which may prove violently false.",
+    "explanation": "Extrapolation implies forecasting outcomes beyond the limits of the sampled data. This is highly risky because the established linear relationship might flatten out, curve, or break down completely at extreme, untested levels."
+  },
+  {
+    "id": "b4c10q9",
+    "chapter": 10,
+    "chapterTitle": "Correlation and Regression",
+    "question": "In a regression analysis testing how the amount of fertilizer applied (in kg) affects the total crop yield (in tons), which variable is considered the 'dependent variable'?",
+    "options": [
+      "A) The fertilizer applied",
+      "B) The crop yield",
+      "C) The y-intercept",
+      "D) The correlation coefficient"
+    ],
+    "correctAnswer": "B) The crop yield",
+    "explanation": "The dependent variable (Y) is the outcome being predicted, which in this case is the crop yield, because its final value mathematically depends entirely on the amount of fertilizer applied (the independent variable, X)."
+  },
+  {
+    "id": "b4c10q10",
+    "chapter": 10,
+    "chapterTitle": "Correlation and Regression",
+    "question": "Which specific mathematical criterion does the 'Method of Least Squares' utilize to determine the optimal line of best fit?",
+    "options": [
+      "A) It maximizes the sum of the horizontal deviations.",
+      "B) It strictly minimizes the sum of the squared vertical deviations (residuals) between the actual data points and the regression line.",
+      "C) It ensures the line crosses the y-axis at zero.",
+      "D) It forces all data points to sit directly on the line."
+    ],
+    "correctAnswer": "B) It strictly minimizes the sum of the squared vertical deviations (residuals) between the actual data points and the regression line.",
+    "explanation": "The least squares regression line is mathematically derived by strictly minimizing the total sum of the squares of the vertical errors (the physical difference between the observed Y values and the regression's predicted Y values)."
+  },
+  {
+    "id": "b4c10q11",
+    "chapter": 10,
+    "chapterTitle": "Correlation and Regression",
+    "question": "A regression line predicting total factory cost (Y) based on units produced (X) is given exactly as Y = 15,000 + 60X. What is the predicted total cost if 400 units are produced?",
+    "options": [
+      "A) Rs. 15,000",
+      "B) Rs. 24,000",
+      "C) Rs. 39,000",
+      "D) Rs. 55,000"
+    ],
+    "correctAnswer": "C) Rs. 39,000",
+    "explanation": "Simply substitute X = 400 into the established regression equation. Y = 15,000 + 60(400) = 15,000 + 24,000 = Rs. 39,000."
+  },
+  {
+    "id": "b4c10q12",
+    "chapter": 10,
+    "chapterTitle": "Correlation and Regression",
+    "question": "If you calculate the regression line of Y on X, and then subsequently calculate the regression line of X on Y, under what strict mathematical condition will the two lines graphically be perfectly identical?",
+    "options": [
+      "A) When r = 0",
+      "B) When r = +1 or -1",
+      "C) When the y-intercept is precisely 0",
+      "D) The two lines can never physically be identical."
+    ],
+    "correctAnswer": "B) When r = +1 or -1",
+    "explanation": "The regression line of Y on X minimizes vertical errors, while X on Y minimizes horizontal errors. These two lines will only perfectly superimpose over each other if there is a perfect correlation (r = +1 or -1), meaning zero scatter error."
+  },
+  {
+    "id": "b4c10q13",
+    "chapter": 10,
+    "chapterTitle": "Correlation and Regression",
+    "question": "What is the primary statistical function and inherent risk of utilizing a 'scatter diagram'?",
+    "options": [
+      "A) It definitively proves causation between two variables.",
+      "B) It visually displays a relationship, but it carries the risk of indicating a spurious relationship where there fundamentally is no logical connection.",
+      "C) It automatically calculates the variance.",
+      "D) It ensures non-linear relationships become linear."
+    ],
+    "correctAnswer": "B) It visually displays a relationship, but it carries the risk of indicating a spurious relationship where there fundamentally is no logical connection.",
+    "explanation": "A scatter diagram plots points to visually identify potential trends. However, statisticians must be cautious, as it may suggest a strong correlation (a spurious correlation) even when no logical or causal link actually exists between the variables."
+  },
+  {
+    "id": "b4c10q14",
+    "chapter": 10,
+    "chapterTitle": "Correlation and Regression",
+    "question": "If a set of data yields a flat regression equation of Y = 25 + 0X, what must be the mathematical value of the correlation coefficient (r)?",
+    "options": [
+      "A) -1",
+      "B) 0",
+      "C) 1",
+      "D) Cannot be determined"
+    ],
+    "correctAnswer": "B) 0",
+    "explanation": "A calculated slope (b) of exactly 0 mathematically indicates that changes in X have absolutely no predictive effect on Y, resulting in a flat horizontal line. This strictly implies there is zero linear correlation (r = 0)."
+  },
+  {
+    "id": "b4c10q15",
+    "chapter": 10,
+    "chapterTitle": "Correlation and Regression",
+    "question": "If the slope 'b' in a calculated regression equation is a negative number, what must inherently be true about the correlation coefficient 'r'?",
+    "options": [
+      "A) It must be positive.",
+      "B) It must be exactly zero.",
+      "C) It must also be negative.",
+      "D) It must be greater than 1."
+    ],
+    "correctAnswer": "C) It must also be negative.",
+    "explanation": "The mathematical sign of the regression slope (b) and the correlation coefficient (r) must always strictly match. If the line slopes downward (negative b), it inherently reflects an inverse relationship (negative r)."
+  }
+]

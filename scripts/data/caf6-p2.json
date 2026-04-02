@@ -1,0 +1,1052 @@
+[
+  {
+    "id": "c6q1",
+    "chapter": 6,
+    "chapterTitle": "IFRS 8 Operating Segments",
+    "question": "According to IFRS 8, which of the following is an 'Operating Segment'?",
+    "options": [
+      "A) Any department within an entity, including head office.",
+      "B) A component that engages in business activities, whose results are reviewed by the CODM, and for which discrete financial information is available.",
+      "C) Only parts of the business that are located in different countries.",
+      "D) Any product line that generates at least 5% of total revenue."
+    ],
+    "correctAnswer": "B) A component that engages in business activities, whose results are reviewed by the CODM, and for which discrete financial information is available.",
+    "explanation": "An operating segment is a component of an entity: (a) that engages in business activities from which it may earn revenues and incur expenses, (b) whose operating results are regularly reviewed by the entity's Chief Operating Decision Maker (CODM), and (c) for which discrete financial information is available."
+  },
+  {
+    "id": "c6q2",
+    "chapter": 6,
+    "chapterTitle": "IFRS 8 Operating Segments",
+    "question": "What is meant by the 'Chief Operating Decision Maker' (CODM) in IFRS 8?",
+    "options": [
+      "A) It must be a single individual, such as the CEO.",
+      "B) It is a function that allocates resources and assesses performance of operating segments.",
+      "C) It is always the Board of Directors.",
+      "D) It is the external auditor of the entity."
+    ],
+    "correctAnswer": "B) It is a function that allocates resources and assesses performance of operating segments.",
+    "explanation": "CODM is a function, not necessarily an individual. It refers to the person or group responsible for allocating resources and assessing the performance of the operating segments."
+  },
+  {
+    "id": "c6q3",
+    "chapter": 6,
+    "chapterTitle": "IFRS 8 Operating Segments",
+    "question": "A segment is 'Reportable' if its reported revenue (including inter-segment sales) is what percentage or more of the combined revenue of all operating segments?",
+    "options": [
+      "A) 5%",
+      "B) 10%",
+      "C) 25%",
+      "D) 75%"
+    ],
+    "correctAnswer": "B) 10%",
+    "explanation": "A segment is reportable if its reported revenue (including internal and external) is 10% or more of the combined revenue of all internal and external segments."
+  },
+  {
+    "id": "c6q4",
+    "chapter": 6,
+    "chapterTitle": "IFRS 8 Operating Segments",
+    "question": "In addition to the revenue test, a segment is reportable if the absolute amount of its reported profit or loss is 10% or more of the greater, in absolute amount, of:",
+    "options": [
+      "A) The combined reported profit of all operating segments that did not report a loss.",
+      "B) The combined reported loss of all operating segments that reported a loss.",
+      "C) Both A and B above.",
+      "D) Total assets of the segment."
+    ],
+    "correctAnswer": "C) Both A and B above.",
+    "explanation": "The 10% profit/loss test compares a segment's profit/loss to the greater of (i) total profit of profitable segments or (ii) total loss of loss-making segments."
+  },
+  {
+    "id": "c6q5",
+    "chapter": 6,
+    "chapterTitle": "IFRS 8 Operating Segments",
+    "question": "If the total external revenue reported by reportable segments constitutes less than what percentage of the entity's total revenue, additional reportable segments must be identified?",
+    "options": [
+      "A) 50%",
+      "B) 70%",
+      "C) 75%",
+      "D) 90%"
+    ],
+    "correctAnswer": "C) 75%",
+    "explanation": "IFRS 8 requires that at least 75% of the entity's total external revenue must be included in reportable segments."
+  },
+  {
+    "id": "c6q6",
+    "chapter": 6,
+    "chapterTitle": "IFRS 8 Operating Segments",
+    "question": "Two or more operating segments may be aggregated into a single operating segment if they have similar economic characteristics and are similar in several respects. Which of the following is NOT one of those respects?",
+    "options": [
+      "A) The nature of the products and services.",
+      "B) The nature of the production processes.",
+      "C) The geographical location of the assets.",
+      "D) The type or class of customer for their products and services."
+    ],
+    "correctAnswer": "C) The geographical location of the assets.",
+    "explanation": "Aggregation criteria include nature of products, nature of processes, types of customers, distribution methods, and regulatory environment. Geographical location is not a primary aggregation criterion under IFRS 8."
+  },
+  {
+    "id": "c6q7",
+    "chapter": 6,
+    "chapterTitle": "IFRS 8 Operating Segments",
+    "question": "Which of the following must be disclosed for each reportable segment under IFRS 8?",
+    "options": [
+      "A) A measure of segment profit or loss.",
+      "B) The name of the segment manager.",
+      "C) The exact date the segment was established.",
+      "D) The salary of the CODM."
+    ],
+    "correctAnswer": "A) A measure of segment profit or loss.",
+    "explanation": "IFRS 8 requires disclosing a measure of profit or loss for each reportable segment as reviewed by the CODM."
+  },
+  {
+    "id": "c6q8",
+    "chapter": 6,
+    "chapterTitle": "IFRS 8 Operating Segments",
+    "question": "An entity must disclose information about 'Major Customers' if revenues from transactions with a single external customer amount to what percentage or more of the entity's total revenue?",
+    "options": [
+      "A) 5%",
+      "B) 10%",
+      "C) 15%",
+      "D) 20%"
+    ],
+    "correctAnswer": "B) 10%",
+    "explanation": "Disclosure about major customers is required if a single customer generates 10% or more of the entity's total revenue."
+  },
+  {
+    "id": "c6q9",
+    "chapter": 6,
+    "chapterTitle": "IFRS 8 Operating Segments",
+    "question": "How should an entity handle segments that do not meet any of the 10% thresholds?",
+    "options": [
+      "A) They must be ignored completely.",
+      "B) They are combined and disclosed in an 'all other segments' category.",
+      "C) They must be disclosed separately regardless of the thresholds.",
+      "D) They should be merged into the largest reportable segment."
+    ],
+    "correctAnswer": "B) They are combined and disclosed in an 'all other segments' category.",
+    "explanation": "Information about other business activities and operating segments that are not reportable shall be combined and disclosed in an 'all other segments' primary category."
+  },
+  {
+    "id": "c6q10",
+    "chapter": 6,
+    "chapterTitle": "IFRS 8 Operating Segments",
+    "question": "If an entity has a matrix organizational structure where several managers are responsible for different facets of the business, who is the CODM?",
+    "options": [
+      "A) The manager who has been at the company the longest.",
+      "B) The manager responsible for the highest revenue segment.",
+      "C) It depends on which set of components is used for allocating resources and assessing performance.",
+      "D) The Board of Directors by default."
+    ],
+    "correctAnswer": "C) It depends on which set of components is used for allocating resources and assessing performance.",
+    "explanation": "In matrix structures, management determines the operating segments based on the core internal reporting used by the CODM to allocate resources."
+  },
+  {
+    "id": "c6q11",
+    "chapter": 6,
+    "chapterTitle": "IFRS 8 Operating Segments",
+    "question": "IFRS 8 uses a specific approach for segment reporting. What is this approach called?",
+    "options": [
+      "A) The Geographical approach",
+      "B) The Management approach",
+      "C) The Risk and Reward approach",
+      "D) The Asset-based approach."
+    ],
+    "correctAnswer": "B) The Management approach",
+    "explanation": "IFRS 8 uses the 'management approach' where segments are identified based on internal reports used by management."
+  },
+  {
+    "id": "c6q12",
+    "chapter": 6,
+    "chapterTitle": "IFRS 8 Operating Segments",
+    "question": "An entity must provide reconciliations of the total of reportable segments' measures to the entity's amounts. Which of the following does NOT require a reconciliation?",
+    "options": [
+      "A) Total Revenue",
+      "B) Total Profit or Loss",
+      "C) Total Assets (if reported to CODM)",
+      "D) Total number of employees"
+    ],
+    "correctAnswer": "D) Total number of employees",
+    "explanation": "IFRS 8 requires reconciliations for revenue, profit/loss, assets (if disclosed), liabilities (if disclosed), and other material items. Employee count is not a required reconciliation."
+  },
+  {
+    "id": "c6q13",
+    "chapter": 6,
+    "chapterTitle": "IFRS 8 Operating Segments",
+    "question": "According to IFRS 8, segment information must be reported based on:",
+    "options": [
+      "A) International Financial Reporting Standards (IFRS).",
+      "B) The basis used for internal reporting to the CODM.",
+      "C) The tax laws of the parent company's country.",
+      "D) The historical cost accounting method."
+    ],
+    "correctAnswer": "B) The basis used for internal reporting to the CODM.",
+    "explanation": "Segment measures are reported as they are provided to the CODM, even if that basis differs from the logic used in the consolidated financial statements."
+  },
+  {
+    "id": "c6q14",
+    "chapter": 6,
+    "chapterTitle": "IFRS 8 Operating Segments",
+    "question": "In identifying its segments, Zenith Ltd has 12 operating segments. Management believes that showing 12 segments would be too detailed for users. Does IFRS 8 provide a suggested limit?",
+    "options": [
+      "A) No limit is mentioned.",
+      "B) A maximum of 5 segments.",
+      "C) A practical limit of around 10 segments.",
+      "D) Exactly 8 segments."
+    ],
+    "correctAnswer": "C) A practical limit of around 10 segments.",
+    "explanation": "IFRS 8 states that if the number of reportable segments exceeds 10, the entity should consider whether a practical limit has been reached."
+  },
+  {
+    "id": "c6q15",
+    "chapter": 6,
+    "chapterTitle": "IFRS 8 Operating Segments",
+    "question": "Which of the following entities are REQUIRED to apply IFRS 8?",
+    "options": [
+      "A) All private limited companies.",
+      "B) All entities whose debt or equity instruments are traded in a public market (or are in the process of doing so).",
+      "C) Only non-profit organizations.",
+      "D) All entities regardless of size or listing status."
+    ],
+    "correctAnswer": "B) All entities whose debt or equity instruments are traded in a public market (or are in the process of doing so).",
+    "explanation": "IFRS 8 applies to the separate or individual financial statements of an entity (and the consolidated financial statements of a group) whose debt or equity instruments are traded in a public market."
+  },
+  {
+    "id": "c7q1",
+    "chapter": 7,
+    "chapterTitle": "IAS 12 Income Taxes",
+    "question": "What is the 'Tax Base' of an asset?",
+    "options": [
+      "A) The amount that will be deductible for tax purposes against any taxable economic benefits that will flow to the entity when it recovers the carrying amount of the asset.",
+      "B) The fair value of the asset at the reporting date.",
+      "C) The historical cost of the asset minus accumulated depreciation.",
+      "D) The amount of tax the entity expects to pay when the asset is sold."
+    ],
+    "correctAnswer": "A) The amount that will be deductible for tax purposes against any taxable economic benefits that will flow to the entity when it recovers the carrying amount of the asset.",
+    "explanation": "IAS 12 defines the tax base of an asset as the amount that will be deductible for tax purposes against taxable economic benefits that will flow to an entity when it recovers the carrying amount of the asset."
+  },
+  {
+    "id": "c7q2",
+    "chapter": 7,
+    "chapterTitle": "IAS 12 Income Taxes",
+    "question": "A 'Taxable Temporary Difference' arises when:",
+    "options": [
+      "A) Carrying Amount > Tax Base (for an asset)",
+      "B) Carrying Amount < Tax Base (for an asset)",
+      "C) Carrying Amount > Tax Base (for a liability)",
+      "D) It results in a deferred tax asset."
+    ],
+    "correctAnswer": "A) Carrying Amount > Tax Base (for an asset)",
+    "explanation": "For an asset, if the carrying amount is greater than the tax base, it will lead to taxable amounts in the future, resulting in a taxable temporary difference and a deferred tax liability."
+  },
+  {
+    "id": "c7q3",
+    "chapter": 7,
+    "chapterTitle": "IAS 12 Income Taxes",
+    "question": "Which of the following results in a 'Deferred Tax Liability'?",
+    "options": [
+      "A) Accelerated tax depreciation (tax depreciation is faster than accounting depreciation).",
+      "B) Unused tax losses carried forward.",
+      "C) Provisons that are only tax-deductible when paid.",
+      "D) Impairment of an asset that is not recognized for tax purposes."
+    ],
+    "correctAnswer": "A) Accelerated tax depreciation (tax depreciation is faster than accounting depreciation).",
+    "explanation": "Accelerated tax depreciation reduces the tax base of an asset faster than its accounting carrying amount, creating a taxable temporary difference (CA > TB), which leads to a deferred tax liability."
+  },
+  {
+    "id": "c7q4",
+    "chapter": 7,
+    "chapterTitle": "IAS 12 Income Taxes",
+    "question": "A deferred tax asset should be recognized for unused tax losses and unused tax credits to the extent that:",
+    "options": [
+      "A) The entity has paid taxes in the past.",
+      "B) It is probable that future taxable profit will be available against which they can be utilized.",
+      "C) Management intends to continue the business for 10 years.",
+      "D) The government provides a guarantee of refund."
+    ],
+    "correctAnswer": "B) It is probable that future taxable profit will be available against which they can be utilized.",
+    "explanation": "Deferred tax assets for losses/credits are only recognized when it is probable that future taxable profits will exist to utilize those benefits."
+  },
+  {
+    "id": "c7q5",
+    "chapter": 7,
+    "chapterTitle": "IAS 12 Income Taxes",
+    "question": "Deferred tax assets and liabilities should be measured using:",
+    "options": [
+      "A) The historical tax rates at the date of acquisition.",
+      "B) The tax rates that are expected to apply to the period when the asset is realized or the liability is settled.",
+      "C) A flat rate of 30% for all entities.",
+      "D) The average tax rate of the last five years."
+    ],
+    "correctAnswer": "B) The tax rates that are expected to apply to the period when the asset is realized or the liability is settled.",
+    "explanation": "Measurement should be based on tax rates (and tax laws) that have been enacted or substantively enacted by the end of the reporting period."
+  },
+  {
+    "id": "c7q6",
+    "chapter": 7,
+    "chapterTitle": "IAS 12 Income Taxes",
+    "question": "Which of the following is an example of an 'Exempt' temporary difference where no deferred tax is recognized at initial recognition?",
+    "options": [
+      "A) The initial recognition of goodwill.",
+      "B) Revaluation of land.",
+      "C) Interest receivable recognized over time.",
+      "D) Accrued expenses."
+    ],
+    "correctAnswer": "A) The initial recognition of goodwill.",
+    "explanation": "IAS 12 prohibits the recognition of a deferred tax liability arising from the initial recognition of goodwill."
+  },
+  {
+    "id": "c7q7",
+    "chapter": 7,
+    "chapterTitle": "IAS 12 Income Taxes",
+    "question": "An entity revalues its building upwards by Rs. 1 million. The tax laws do not allow this revaluation for tax purposes. Where should the related deferred tax expense be recognized?",
+    "options": [
+      "A) Profit or Loss",
+      "B) Other Comprehensive Income (OCI)",
+      "C) Retained Earnings directly",
+      "D) It should not be recognized."
+    ],
+    "correctAnswer": "B) Other Comprehensive Income (OCI)",
+    "explanation": "Deferred tax relating to items recognized in OCI (like revaluations) must also be recognized in OCI."
+  },
+  {
+    "id": "c7q8",
+    "chapter": 7,
+    "chapterTitle": "IAS 12 Income Taxes",
+    "question": "Which of the following is true regarding the discounting of deferred tax assets and liabilities?",
+    "options": [
+      "A) They must be discounted using the risk-free rate.",
+      "B) They must be discounted using the entity's WACC.",
+      "C) Deferred tax assets and liabilities shall not be discounted.",
+      "D) Discounting is optional based on management's preference."
+    ],
+    "correctAnswer": "C) Deferred tax assets and liabilities shall not be discounted.",
+    "explanation": "IAS 12 specifically prohibits the discounting of deferred tax assets and liabilities."
+  },
+  {
+    "id": "c7q9",
+    "chapter": 7,
+    "chapterTitle": "IAS 12 Income Taxes",
+    "question": "How should deferred tax assets and liabilities be classified in the Statement of Financial Position?",
+    "options": [
+      "A) Always as Current.",
+      "B) Always as Non-Current.",
+      "C) Split between Current and Non-Current based on expected reversal.",
+      "D) As a separate category called 'Deferred Items'."
+    ],
+    "correctAnswer": "B) Always as Non-Current.",
+    "explanation": "According to IAS 1 (and IAS 12), deferred tax assets and liabilities must always be classified as non-current."
+  },
+  {
+    "id": "c7q10",
+    "chapter": 7,
+    "chapterTitle": "IAS 12 Income Taxes",
+    "question": "An entity has a trade receivable with a carrying amount of Rs. 10,000. For tax purposes, the revenue is only taxed when cash is collected. What is the tax base of the receivable?",
+    "options": [
+      "A) Rs. 10,000",
+      "B) Rs. 0",
+      "C) Rs. 5,000",
+      "D) Rs. 10,000 plus interest."
+    ],
+    "correctAnswer": "B) Rs. 0",
+    "explanation": "Since the full amount will be taxed in the future and none of it has been taxed yet, the tax base is nil. (TB = CA - untaxed future benefits = 10,000 - 10,000 = 0)."
+  },
+  {
+    "id": "c7q11",
+    "chapter": 7,
+    "chapterTitle": "IAS 12 Income Taxes",
+    "question": "Wait Ltd recognizes a provision for product warranty of Rs. 50,000. The cost is only deductible for tax purposes when the warranty claims are actually paid. What kind of temporary difference is this?",
+    "options": [
+      "A) Taxable Temporary Difference",
+      "B) Deductible Temporary Difference",
+      "C) Permanent Difference",
+      "D) There is no difference."
+    ],
+    "correctAnswer": "B) Deductible Temporary Difference",
+    "explanation": "For a liability, CA (50,000) > TB (0). This results in a deductible temporary difference, which leads to a deferred tax asset."
+  },
+  {
+    "id": "c7q12",
+    "chapter": 7,
+    "chapterTitle": "IAS 12 Income Taxes",
+    "question": "Under IAS 12, 'Current Tax' is:",
+    "options": [
+      "A) The amount of income taxes payable (recoverable) in respect of the taxable profit (tax loss) for a period.",
+      "B) The total tax expense shown in the P&L.",
+      "C) Only the taxes paid during the year in cash.",
+      "D) The tax effect of temporary differences."
+    ],
+    "correctAnswer": "A) The amount of income taxes payable (recoverable) in respect of the taxable profit (tax loss) for a period.",
+    "explanation": "Current tax is the amount currently owed to or receivable from the tax authorities based on the year's taxable result."
+  },
+  {
+    "id": "c7q13",
+    "chapter": 7,
+    "chapterTitle": "IAS 12 Income Taxes",
+    "question": "The 'Initial Recognition Exemption' applies when an asset is acquired in a transaction that:",
+    "options": [
+      "A) Is not a business combination.",
+      "B) At the time of the transaction, affects neither accounting profit nor taxable profit.",
+      "C) Both A and B above.",
+      "D) Is a standard purchase of inventory."
+    ],
+    "correctAnswer": "C) Both A and B above.",
+    "explanation": "The exemption applies to the initial recognition of an asset/liability in a transaction that is not a business combination and affects neither accounting nor taxable profit at the time."
+  },
+  {
+    "id": "c7q14",
+    "chapter": 7,
+    "chapterTitle": "IAS 12 Income Taxes",
+    "question": "Which of the following would be considered a 'Permanent Difference' (though IAS 12 focuses on temporary ones)?",
+    "options": [
+      "A) Fines and penalties that are never tax-deductible.",
+      "B) Interest income taxed on a cash basis.",
+      "C) Depreciation of plant.",
+      "D) Impairment of trade receivables."
+    ],
+    "correctAnswer": "A) Fines and penalties that are never tax-deductible.",
+    "explanation": "Permanent differences are items that enter into accounting profit but never into taxable profit (or vice versa), such as non-deductible fines. They do not give rise to deferred tax."
+  },
+  {
+    "id": "c7q15",
+    "chapter": 7,
+    "chapterTitle": "IAS 12 Income Taxes",
+    "question": "The measurement of deferred tax liabilities and assets should reflect the tax consequences that would follow from the manner in which the entity expects, at the end of the reporting period, to:",
+    "options": [
+      "A) Use the cash received from the asset.",
+      "B) Recover or settle the carrying amount of its assets and liabilities.",
+      "C) Report the information to its shareholders.",
+      "D) Liquidate its entire business."
+    ],
+    "correctAnswer": "B) Recover or settle the carrying amount of its assets and liabilities.",
+    "explanation": "The deferred tax calculation must consider whether the entity expects to recover the asset through 'use' or through 'sale', as different tax rates or rules might apply."
+  },
+  {
+    "id": "c8q1",
+    "chapter": 8,
+    "chapterTitle": "Regulatory Framework (SECP, ICAP, 4th/5th Schedule)",
+    "question": "In Pakistan, the primary authority responsible for regulating and supervising the corporate sector and the capital market is:",
+    "options": [
+      "A) The Institute of Chartered Accountants of Pakistan (ICAP).",
+      "B) The Securities and Exchange Commission of Pakistan (SECP).",
+      "C) The State Bank of Pakistan (SBP).",
+      "D) The Federal Board of Revenue (FBR)."
+    ],
+    "correctAnswer": "B) The Securities and Exchange Commission of Pakistan (SECP).",
+    "explanation": "The SECP is the main regulatory body for the corporate sector and capital markets in Pakistan."
+  },
+  {
+    "id": "c8q2",
+    "chapter": 8,
+    "chapterTitle": "Regulatory Framework (SECP, ICAP, 4th/5th Schedule)",
+    "question": "Which schedule of the Companies Act, 2017 prescribes the disclosure requirements for the financial statements of 'Listed Companies'?",
+    "options": [
+      "A) Third Schedule",
+      "B) Fourth Schedule",
+      "C) Fifth Schedule",
+      "D) Sixth Schedule"
+    ],
+    "correctAnswer": "B) Fourth Schedule",
+    "explanation": "The Fourth Schedule of the Companies Act, 2017 contains the disclosure requirements for listed companies."
+  },
+  {
+    "id": "c8q3",
+    "chapter": 8,
+    "chapterTitle": "Regulatory Framework (SECP, ICAP, 4th/5th Schedule)",
+    "question": "The Fifth Schedule of the Companies Act, 2017 applies to:",
+    "options": [
+      "A) Listed companies only.",
+      "B) All companies registered in Pakistan.",
+      "C) Non-listed companies (Non-listed Public and Private companies).",
+      "D) Foreign companies only."
+    ],
+    "correctAnswer": "C) Non-listed companies (Non-listed Public and Private companies).",
+    "explanation": "The Fifth Schedule specifies requirements for non-listed companies, which include non-listed public and private companies (subject to their classification)."
+  },
+  {
+    "id": "c8q4",
+    "chapter": 8,
+    "chapterTitle": "Regulatory Framework (SECP, ICAP, 4th/5th Schedule)",
+    "question": "Which body in Pakistan is responsible for the regulation of the accountancy profession and the development of auditing standards?",
+    "options": [
+      "A) SECP",
+      "B) ICAP",
+      "C) FBR",
+      "D) Pakistan Stock Exchange (PSX)"
+    ],
+    "correctAnswer": "B) ICAP",
+    "explanation": "The Institute of Chartered Accountants of Pakistan (ICAP) is the professional body regulating accountants and auditors in Pakistan."
+  },
+  {
+    "id": "c8q5",
+    "chapter": 8,
+    "chapterTitle": "Regulatory Framework (SECP, ICAP, 4th/5th Schedule)",
+    "question": "According to the Companies Act 2017, the financial statements of a company must be approved by:",
+    "options": [
+      "A) The External Auditor.",
+      "B) The SECP.",
+      "C) The Board of Directors.",
+      "D) The majority of shareholders."
+    ],
+    "correctAnswer": "C) The Board of Directors.",
+    "explanation": "The Board of Directors is responsible for the approval of the financial statements before they are issued."
+  },
+  {
+    "id": "c8q6",
+    "chapter": 8,
+    "chapterTitle": "Regulatory Framework (SECP, ICAP, 4th/5th Schedule)",
+    "question": "Which of the following is a requirement under the Fourth Schedule for listed companies regarding 'related party transactions'?",
+    "options": [
+      "A) They should not be disclosed to maintain confidentiality.",
+      "B) Only transactions with the CEO should be disclosed.",
+      "C) Detailed disclosures including the name of the related party and nature of relationship are required.",
+      "D) Related party transactions are prohibited for listed companies."
+    ],
+    "correctAnswer": "C) Detailed disclosures including the name of the related party and nature of relationship are required.",
+    "explanation": "The Fourth Schedule requires comprehensive disclosure of related party transactions, including names, relationships, and transaction details."
+  },
+  {
+    "id": "c8q7",
+    "chapter": 8,
+    "chapterTitle": "Regulatory Framework (SECP, ICAP, 4th/5th Schedule)",
+    "question": "A 'Public Interest Company' (PIC) as defined in the Third Schedule must follow which reporting framework?",
+    "options": [
+      "A) IFRS only.",
+      "B) IFRS for SMEs.",
+      "C) Revised AFRS for small-sized entities.",
+      "D) Accounting and Financial Reporting Standards for SSEs."
+    ],
+    "correctAnswer": "A) IFRS only.",
+    "explanation": "Public Interest Companies (PICs), which include listed companies and certain large entities, are required to follow full IFRS."
+  },
+  {
+    "id": "c8q8",
+    "chapter": 8,
+    "chapterTitle": "Regulatory Framework (SECP, ICAP, 4th/5th Schedule)",
+    "question": "Under the Fourth Schedule, listed companies must disclose the 'reconciliation' of which of the following?",
+    "options": [
+      "A) Opening and closing number of shares.",
+      "B) Opening and closing balance of Property, Plant and Equipment.",
+      "C) Opening and closing balance of total liabilities.",
+      "D) Both A and B."
+    ],
+    "correctAnswer": "D) Both A and B.",
+    "explanation": "Listed companies (and often non-listed) are required to provide reconciliations for share capital and for different classes of PPE."
+  },
+  {
+    "id": "c8q9",
+    "chapter": 8,
+    "chapterTitle": "Regulatory Framework (SECP, ICAP, 4th/5th Schedule)",
+    "question": "If there is a conflict between the requirements of the IFRS (as adopted in Pakistan) and the Companies Act 2017, which one prevails for the preparation of financial statements?",
+    "options": [
+      "A) IFRS prevails.",
+      "B) The Companies Act 2017 prevails.",
+      "C) The Board of Directors decides which one to follow.",
+      "D) The External Auditor decides."
+    ],
+    "correctAnswer": "B) The Companies Act 2017 prevails.",
+    "explanation": "In Pakistan, the provisions of the Companies Act 2017 (and directives from SECP) take precedence over IFRSs in case of any conflict."
+  },
+  {
+    "id": "c8q10",
+    "chapter": 8,
+    "chapterTitle": "Regulatory Framework (SECP, ICAP, 4th/5th Schedule)",
+    "question": "What is the requirement for the 'Statement of Cash Flows' under the Companies Act 2017?",
+    "options": [
+      "A) It is optional for all companies.",
+      "B) It is mandatory only for listed companies.",
+      "C) It is a required part of the financial statements for all companies (unless exempted by specific classification).",
+      "D) It can be replaced by a bank statement."
+    ],
+    "correctAnswer": "C) It is a required part of the financial statements for all companies (unless exempted by specific classification).",
+    "explanation": "The Companies Act 2017 requires a full set of financial statements, including a cash flow statement, for companies (except for small companies as defined)."
+  },
+  {
+    "id": "c8q11",
+    "chapter": 8,
+    "chapterTitle": "Regulatory Framework (SECP, ICAP, 4th/5th Schedule)",
+    "question": "The Companies Act 2017 requires companies to disclose the 'remuneration' of which specific personnel?",
+    "options": [
+      "A) Only the CEO.",
+      "B) CEO, Directors, and Executives.",
+      "C) All employees of the company.",
+      "D) Only the Board of Directors."
+    ],
+    "correctAnswer": "B) CEO, Directors, and Executives.",
+    "explanation": "Comprehensive disclosure of remuneration for the CEO, Directors, and Executives is required by the Fourth and Fifth Schedules."
+  },
+  {
+    "id": "c8q12",
+    "chapter": 8,
+    "chapterTitle": "Regulatory Framework (SECP, ICAP, 4th/5th Schedule)",
+    "question": "Under the Fourth Schedule, listed companies must disclose 'geographical' information about:",
+    "options": [
+      "A) Their external auditors.",
+      "B) The location of their production facilities (plants).",
+      "C) The home address of every shareholder.",
+      "D) Their competitors."
+    ],
+    "correctAnswer": "B) The location of their production facilities (plants).",
+    "explanation": "Listed companies must disclose the geographical location and address of all business units and plants."
+  },
+  {
+    "id": "c8q13",
+    "chapter": 8,
+    "chapterTitle": "Regulatory Framework (SECP, ICAP, 4th/5th Schedule)",
+    "question": "Which classification of companies in the Third Schedule has the least burdensome reporting requirements?",
+    "options": [
+      "A) Public Interest Companies (PICs)",
+      "B) Large Sized Companies (LSCs)",
+      "C) Medium Sized Companies (MSCs)",
+      "D) Small Sized Companies (SSCs)"
+    ],
+    "correctAnswer": "D) Small Sized Companies (SSCs)",
+    "explanation": "Small Sized Companies (SSCs) have the simplest reporting requirements and framework."
+  },
+  {
+    "id": "c8q14",
+    "chapter": 8,
+    "chapterTitle": "Regulatory Framework (SECP, ICAP, 4th/5th Schedule)",
+    "question": "What must a listed company disclose regarding its 'unutilized' credit facilities under the Fourth Schedule?",
+    "options": [
+      "A) Nothing, as they have not been used.",
+      "B) The total amount and the reasons for not using them.",
+      "C) Only the name of the bank providing the facility.",
+      "D) The interest rates of those facilities."
+    ],
+    "correctAnswer": "B) The total amount and the reasons for not using them.",
+    "explanation": "Listed companies must disclose the amount of any unutilized credit facilities and the reasons for being unutilized."
+  },
+  {
+    "id": "c8q15",
+    "chapter": 8,
+    "chapterTitle": "Regulatory Framework (SECP, ICAP, 4th/5th Schedule)",
+    "question": "The Third Schedule classifies companies based on criteria such as:",
+    "options": [
+      "A) Paid-up Capital, Turnover, and Number of Employees.",
+      "B) Profitability and the age of the company.",
+      "C) The gender ratio of the Board of Directors.",
+      "D) The number of years the company has been listed."
+    ],
+    "correctAnswer": "A) Paid-up Capital, Turnover, and Number of Employees.",
+    "explanation": "The classification (PIC, LSC, MSC, SSC) in the Third Schedule is primarily based on paid-up capital, turnover, and employee count."
+  },
+  {
+    "id": "c9q1",
+    "chapter": 9,
+    "chapterTitle": "Consolidation (IFRS 10, IFRS 3)",
+    "question": "According to IFRS 10, an investor 'Controls' an investee if and only if they have:",
+    "options": [
+      "A) More than 51% of the shares.",
+      "B) Power over the investee, exposure/rights to variable returns, and the ability to use power to affect returns.",
+      "C) A seat on the Board of Directors.",
+      "D) A signed agreement stating they are the parent."
+    ],
+    "correctAnswer": "B) Power over the investee, exposure/rights to variable returns, and the ability to use power to affect returns.",
+    "explanation": "The three elements of control under IFRS 10 are: power, exposure to returns, and the link between power and returns."
+  },
+  {
+    "id": "c9q2",
+    "chapter": 9,
+    "chapterTitle": "Consolidation (IFRS 10, IFRS 3)",
+    "question": "Under IFRS 3 Business Combinations, the 'Acquisition Method' requires:",
+    "options": [
+      "A) Adding the book values of the parent and subsidiary.",
+      "B) Recognizing the identifiable assets and liabilities of the subsidiary at their fair values at the acquisition date.",
+      "C) Recognizing all assets of the subsidiary at historical cost.",
+      "D) Deducting the subsidiary's debt from the parent's cash."
+    ],
+    "correctAnswer": "B) Recognizing the identifiable assets and liabilities of the subsidiary at their fair values at the acquisition date.",
+    "explanation": "Key to the acquisition method is the fair valuation of the subsidiary's assets and liabilities at the date control is obtained."
+  },
+  {
+    "id": "c9q3",
+    "chapter": 9,
+    "chapterTitle": "Consolidation (IFRS 10, IFRS 3)",
+    "question": "What is 'Non-Controlling Interest' (NCI)?",
+    "options": [
+      "A) The part of the subsidiary's profit that belongs to the parent company.",
+      "B) The equity in a subsidiary not attributable, directly or indirectly, to a parent.",
+      "C) The debt owed by the subsidiary to external banks.",
+      "D) The voting rights held by the CEO of the parent company."
+    ],
+    "correctAnswer": "B) The equity in a subsidiary not attributable, directly or indirectly, to a parent.",
+    "explanation": "NCI represents the portion of the subsidiary owned by shareholders other than the parent company."
+  },
+  {
+    "id": "c9q4",
+    "chapter": 9,
+    "chapterTitle": "Consolidation (IFRS 10, IFRS 3)",
+    "question": "How is 'Goodwill' calculated on acquisition?",
+    "options": [
+      "A) Fair value of consideration + NCI - Fair value of net identifiable assets.",
+      "B) Fair value of consideration - Book value of net assets.",
+      "C) Total Assets - Total Liabilities.",
+      "D) Purchase price minus Parent's share capital."
+    ],
+    "correctAnswer": "A) Fair value of consideration + NCI - Fair value of net identifiable assets.",
+    "explanation": "Goodwill is the excess of (Consideration + NCI) over the fair value of net identifiable assets acquired."
+  },
+  {
+    "id": "c9q5",
+    "chapter": 9,
+    "chapterTitle": "Consolidation (IFRS 10, IFRS 3)",
+    "question": "If the fair value of net identifiable assets acquired is HIGHER than the sum of consideration and NCI, the difference is recognized as:",
+    "options": [
+      "A) Negative Goodwill (Asset).",
+      "B) Gain on a Bargain Purchase (Profit or Loss).",
+      "C) Other Comprehensive Income.",
+      "D) A Liability."
+    ],
+    "correctAnswer": "B) Gain on a Bargain Purchase (Profit or Loss).",
+    "explanation": "A 'bargain purchase' occurs when the acquisition cost is less than the fair value of net assets acquired. It is recognized as a gain in profit or loss."
+  },
+  {
+    "id": "c9q6",
+    "chapter": 9,
+    "chapterTitle": "Consolidation (IFRS 10, IFRS 3)",
+    "question": "A parent company owns 80% of a subsidiary. During the year, the subsidiary sells goods to the parent for Rs. 100,000 at a 20% markup on cost. All goods are still in parent's inventory. What is the Provision for Unrealized Profit (PURP)?",
+    "options": [
+      "A) Rs. 16,667",
+      "B) Rs. 20,000",
+      "C) Rs. 80,000",
+      "D) Rs. 0"
+    ],
+    "correctAnswer": "A) Rs. 16,667",
+    "explanation": "Profit included in inventory = 100,000 x (20/120) = Rs. 16,667. This unrealized profit must be eliminated during consolidation."
+  },
+  {
+    "id": "c9q7",
+    "chapter": 9,
+    "chapterTitle": "Consolidation (IFRS 10, IFRS 3)",
+    "question": "When eliminating intra-group dividends, which of the following is correct?",
+    "options": [
+      "A) Both investment income in the parent and the dividend paid by the subsidiary are eliminated.",
+      "B) Intra-group dividends are added together.",
+      "C) Only the parent's dividend is eliminated.",
+      "D) Dividends are never eliminated."
+    ],
+    "correctAnswer": "A) Both investment income in the parent and the dividend paid by the subsidiary are eliminated.",
+    "explanation": "Dividends paid by the subsidiary to the parent are purely internal and must be cancelled out so they don't appear in the consolidated financials."
+  },
+  {
+    "id": "c9q8",
+    "chapter": 9,
+    "chapterTitle": "Consolidation (IFRS 10, IFRS 3)",
+    "question": "In the Consolidated Statement of Financial Position, 'Share Capital' should reflect:",
+    "options": [
+      "A) The sum of Parent's and Subsidiary's share capital.",
+      "B) Only the Parent's share capital.",
+      "C) The Parent's share capital minus the Subsidiary's share capital.",
+      "D) Only the Subsidiary's share capital."
+    ],
+    "correctAnswer": "B) Only the Parent's share capital.",
+    "explanation": "The consolidated share capital always represents the capital of the parent company only."
+  },
+  {
+    "id": "c9q9",
+    "chapter": 9,
+    "chapterTitle": "Consolidation (IFRS 10, IFRS 3)",
+    "question": "IFRS 3 allows NCI at the date of acquisition to be measured at either Fair Value (Full Goodwill) or:",
+    "options": [
+      "A) Historical Cost.",
+      "B) Proportionate share of the subsidiary's identifiable net assets.",
+      "C) Disposal Value.",
+      "D) Tax Base."
+    ],
+    "correctAnswer": "B) Proportionate share of the subsidiary's identifiable net assets.",
+    "explanation": "IFRS 3 provides an option to measure NCI at acquisition either at fair value or at NCI's proportionate share of the subsidiary's identifiable net assets."
+  },
+  {
+    "id": "c9q10",
+    "chapter": 9,
+    "chapterTitle": "Consolidation (IFRS 10, IFRS 3)",
+    "question": "At the reporting date, NCI in the Statement of Financial Position is calculated as:",
+    "options": [
+      "A) NCI at acquisition + NCI's share of post-acquisition retained earnings.",
+      "B) NCI at acquisition minus NCI's share of losses.",
+      "C) Just the NCI at acquisition.",
+      "D) NCI share of Parent's retained earnings."
+    ],
+    "correctAnswer": "A) NCI at acquisition + NCI's share of post-acquisition retained earnings.",
+    "explanation": "The carrying amount of NCI changes over time as the subsidiary earns profits (or incurs losses) after the acquisition."
+  },
+  {
+    "id": "c9q11",
+    "chapter": 9,
+    "chapterTitle": "Consolidation (IFRS 10, IFRS 3)",
+    "question": "How are 'Intra-group balances' (like a loan from parent to subsidiary) treated on consolidation?",
+    "options": [
+      "A) They are added together as a large asset.",
+      "B) They are eliminated in full.",
+      "C) They are shown as a separate line item called 'Internal Debt'.",
+      "D) They are ignored for consolidation purposes."
+    ],
+    "correctAnswer": "B) They are eliminated in full.",
+    "explanation": "To avoid double counting assets and liabilities of the group as a single economic entity, all intra-group receivables and payables must be eliminated."
+  },
+  {
+    "id": "c9q12",
+    "chapter": 9,
+    "chapterTitle": "Consolidation (IFRS 10, IFRS 3)",
+    "question": "Consolidated Retained Earnings include 100% of the Parent's retained earnings plus:",
+    "options": [
+      "A) 100% of Subsidiary's retained earnings.",
+      "B) Parent's share of Subsidiary's pre-acquisition retained earnings.",
+      "C) Parent's share of Subsidiary's post-acquisition retained earnings.",
+      "D) Subsidiary's total assets."
+    ],
+    "correctAnswer": "C) Parent's share of Subsidiary's post-acquisition retained earnings.",
+    "explanation": "Consolidated retained earnings effectively represent what is 'owned' by the parent's shareholders: Parent's own earnings + their share of what the sub earned while under their control."
+  },
+  {
+    "id": "c9q13",
+    "chapter": 9,
+    "chapterTitle": "Consolidation (IFRS 10, IFRS 3)",
+    "question": "Which of the following is NOT an 'Identifiable' asset for IFRS 3 purposes?",
+    "options": [
+      "A) A specific brand name owned by the subsidiary.",
+      "B) Goodwill already sitting in the subsidiary's own books.",
+      "C) A patent held by the subsidiary.",
+      "D) Customer lists that can be sold separately."
+    ],
+    "correctAnswer": "B) Goodwill already sitting in the subsidiary's own books.",
+    "explanation": "When calculating consolidated goodwill, any existing goodwill in the subsidiary's own books is ignored (it is not an identifiable asset)."
+  },
+  {
+    "id": "c9q14",
+    "chapter": 9,
+    "chapterTitle": "Consolidation (IFRS 10, IFRS 3)",
+    "question": "'Acquisition-related costs' (like legal and accounting fees for the merger) should be:",
+    "options": [
+      "A) Capitalized as part of the cost of investment.",
+      "B) Added to goodwill.",
+      "C) Expensed in profit or loss in the period they occur.",
+      "D) Deducted from equity."
+    ],
+    "correctAnswer": "C) Expensed in profit or loss in the period they occur.",
+    "explanation": "IFRS 3 requires that acquisition-related costs be expensed, except for costs to issue debt or equity securities."
+  },
+  {
+    "id": "c9q15",
+    "chapter": 9,
+    "chapterTitle": "Consolidation (IFRS 10, IFRS 3)",
+    "question": "In a Consolidated Statement of Profit or Loss, the 'Profit for the year' is:",
+    "options": [
+      "A) Attributed entirely to the Parent shareholders.",
+      "B) Split/Allocated between the Parent shareholders and the NCI.",
+      "C) Shown net of all subsidiary expenses.",
+      "D) Only the Parent's individual profit."
+    ],
+    "correctAnswer": "B) Split/Allocated between the Parent shareholders and the NCI.",
+    "explanation": "The total group profit is shown first, and then it is allocated between the owners of the parent and the non-controlling interests."
+  },
+  {
+    "id": "c10q1",
+    "chapter": 10,
+    "chapterTitle": "Associates (IAS 28)",
+    "question": "An 'Associate' is an entity over which the investor has:",
+    "options": [
+      "A) Control",
+      "B) Significant Influence",
+      "C) Joint Control",
+      "D) No influence at all"
+    ],
+    "correctAnswer": "B) Significant Influence",
+    "explanation": "An associate is an entity, including an unincorporated entity such as a partnership, over which the investor has significant influence."
+  },
+  {
+    "id": "c10q2",
+    "chapter": 10,
+    "chapterTitle": "Associates (IAS 28)",
+    "question": "Significant influence is generally presumed to exist if the investor holds, directly or indirectly, what percentage of the voting power of the investee?",
+    "options": [
+      "A) 10% or more",
+      "B) 20% or more",
+      "C) 50% or more",
+      "D) Exactly 51%"
+    ],
+    "correctAnswer": "B) 20% or more",
+    "explanation": "IAS 28 states that if an investor holds 20% or more of the voting power, it is presumed to have significant influence, unless it can be clearly demonstrated otherwise."
+  },
+  {
+    "id": "c10q3",
+    "chapter": 10,
+    "chapterTitle": "Associates (IAS 28)",
+    "question": "Which accounting method is used to account for investments in associates in consolidated financial statements?",
+    "options": [
+      "A) Acquisition Method",
+      "B) Cost Method",
+      "C) Equity Method",
+      "D) Proportionate Consolidation"
+    ],
+    "correctAnswer": "C) Equity Method",
+    "explanation": "IAS 28 requires the use of the equity method for investments in associates (and joint ventures)."
+  },
+  {
+    "id": "c10q4",
+    "chapter": 10,
+    "chapterTitle": "Associates (IAS 28)",
+    "question": "Under the 'Equity Method', the investment is initially recognized at:",
+    "options": [
+      "A) Fair Value",
+      "B) Cost",
+      "C) Nominal Value",
+      "D) Liquidation Value"
+    ],
+    "correctAnswer": "B) Cost",
+    "explanation": "The investment in an associate is initially recognized at cost and the carrying amount is increased or decreased thereafter to recognize the investor's share of the profit or loss of the investee."
+  },
+  {
+    "id": "c10q5",
+    "chapter": 10,
+    "chapterTitle": "Associates (IAS 28)",
+    "question": "When the associate pays a 'Dividend' to the investor, how is it recorded under the Equity Method?",
+    "options": [
+      "A) Recognized as dividend income in profit or loss.",
+      "B) Added to the carrying amount of the investment.",
+      "C) Deducted from the carrying amount of the investment.",
+      "D) Recognized in OCI."
+    ],
+    "correctAnswer": "C) Deducted from the carrying amount of the investment.",
+    "explanation": "Distributions (dividends) received from an investee reduce the carrying amount of the investment."
+  },
+  {
+    "id": "c10q6",
+    "chapter": 10,
+    "chapterTitle": "Associates (IAS 28)",
+    "question": "Which of the following is NOT an indicator of Significant Influence?",
+    "options": [
+      "A) Representation on the board of directors.",
+      "B) Participation in policy-making processes.",
+      "C) Material transactions between the investor and the investee.",
+      "D) Having the power to govern the financial and operating policies of the investee."
+    ],
+    "correctAnswer": "D) Having the power to govern the financial and operating policies of the investee.",
+    "explanation": "Power to 'govern' or 'direct' suggests control (subsidiary) rather than just significant influence (associate)."
+  },
+  {
+    "id": "c10q7",
+    "chapter": 10,
+    "chapterTitle": "Associates (IAS 28)",
+    "question": "In the Consolidated Statement of Profit or Loss, the investor's share of the associate's profit is shown as:",
+    "options": [
+      "A) Revenue",
+      "B) A single line item: 'Share of profit of associate'.",
+      "C) Added to the parent's operating profit.",
+      "D) Other Comprehensive Income."
+    ],
+    "correctAnswer": "B) A single line item: 'Share of profit of associate'.",
+    "explanation": "The investor's share of the profit or loss of the investee is recognized in the investor's profit or loss as a separate line item."
+  },
+  {
+    "id": "c10q8",
+    "chapter": 10,
+    "chapterTitle": "Associates (IAS 28)",
+    "question": "If an investor's share of 'Losses' of an associate equals or exceeds its interest in the associate, the investor:",
+    "options": [
+      "A) Continues to recognize its share of further losses in P&L.",
+      "B) Discontinues recognizing its share of further losses.",
+      "C) Must pay the associate's debts immediately.",
+      "D) Writes off its own share capital."
+    ],
+    "correctAnswer": "B) Discontinues recognizing its share of further losses.",
+    "explanation": "Once the investment's carrying amount is reduced to zero, additional losses are generally not recognized unless the investor has incurred legal or constructive obligations on behalf of the associate."
+  },
+  {
+    "id": "c10q9",
+    "chapter": 10,
+    "chapterTitle": "Associates (IAS 28)",
+    "question": "If an investor sells goods to its associate (downstream transaction) and some goods remain in the associate's inventory, the unrealized profit should be:",
+    "options": [
+      "A) Eliminated in full (100%).",
+      "B) Eliminated only to the extent of the investor's interest in the associate.",
+      "C) Ignored.",
+      "D) Added to the carrying amount of the associate."
+    ],
+    "correctAnswer": "B) Eliminated only to the extent of the investor's interest in the associate.",
+    "explanation": "Profits and losses resulting from 'upstream' and 'downstream' transactions are recognized in the investor's financial statements only to the extent of unrelated investors' interests in the associate."
+  },
+  {
+    "id": "c10q10",
+    "chapter": 10,
+    "chapterTitle": "Associates (IAS 28)",
+    "question": "In the Statement of Financial Position, an investment in an associate is classified as a:",
+    "options": [
+      "A) Current Asset",
+      "B) Non-Current Asset",
+      "C) Equity Item",
+      "D) Intangible Asset"
+    ],
+    "correctAnswer": "B) Non-Current Asset",
+    "explanation": "Investments in associates are long-term strategic investments and are classified as non-current assets."
+  },
+  {
+    "id": "c10q11",
+    "chapter": 10,
+    "chapterTitle": "Associates (IAS 28)",
+    "question": "The 'Carrying Amount' of an associate at the reporting date is calculated as:",
+    "options": [
+      "A) Cost + Share of post-acquisition retained earnings.",
+      "B) Cost + Share of post-acquisition profit - Dividends received - Impairment (if any).",
+      "C) Current market value of the shares.",
+      "D) Nominal value of the shares held."
+    ],
+    "correctAnswer": "B) Cost + Share of post-acquisition profit - Dividends received - Impairment (if any).",
+    "explanation": "This is the standard formula for the equity method carrying amount."
+  },
+  {
+    "id": "c10q12",
+    "chapter": 10,
+    "chapterTitle": "Associates (IAS 28)",
+    "question": "Which of the following is NOT required for the application of the equity method?",
+    "options": [
+      "A) The investor and associate should have the same reporting date (or within 3 months).",
+      "B) The investor and associate must use uniform accounting policies.",
+      "C) The investor must own at least 51% of the associate.",
+      "D) The investor must have significant influence."
+    ],
+    "correctAnswer": "C) The investor must own at least 51% of the associate.",
+    "explanation": "51% ownership would imply control, making the entity a subsidiary, not an associate."
+  },
+  {
+    "id": "c10q13",
+    "chapter": 10,
+    "chapterTitle": "Associates (IAS 28)",
+    "question": "If an investment in an associate becomes a subsidiary (investor obtains control), the equity method is:",
+    "options": [
+      "A) Continued as before.",
+      "B) Discontinued and the acquisition method is applied.",
+      "C) Merged with the cost method.",
+      "D) Ignored for that year."
+    ],
+    "correctAnswer": "B) Discontinued and the acquisition method is applied.",
+    "explanation": "Once control is obtained, IFRS 10 and IFRS 3 take over and the equity method is no longer applicable."
+  },
+  {
+    "id": "c10q14",
+    "chapter": 10,
+    "chapterTitle": "Associates (IAS 28)",
+    "question": "How is 'Goodwill' related to an associate handled in the financial statements?",
+    "options": [
+      "A) It is recognized as a separate intangible asset.",
+      "B) it is included in the carrying amount of the investment and not amortized.",
+      "C) It is expensed immediately at the date of acquisition.",
+      "D) It is amortized over 5 years."
+    ],
+    "correctAnswer": "B) it is included in the carrying amount of the investment and not amortized.",
+    "explanation": "For an associate, any goodwill is 'hidden' within the carrying amount of the investment. It is not recognized separately and not amortized, but it is tested for impairment as part of the overall investment."
+  },
+  {
+    "id": "c10q15",
+    "chapter": 10,
+    "chapterTitle": "Associates (IAS 28)",
+    "question": "The entire carrying amount of an investment in an associate is tested for 'Impairment' as a single asset if:",
+    "options": [
+      "A) Every year as per IAS 36.",
+      "B) Only when there is an objective indicator of impairment.",
+      "C) Only if the associate reports a loss.",
+      "D) Never, because associates are not tested for impairment."
+    ],
+    "correctAnswer": "B) Only when there is an objective indicator of impairment.",
+    "explanation": "IAS 28 requires checking for indicators of impairment before performing a full impairment test (unlike goodwill in a subsidiary which is tested annually)."
+  }
+]

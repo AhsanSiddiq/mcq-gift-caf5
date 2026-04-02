@@ -1,0 +1,422 @@
+[
+  {
+    "id": "b4c11q1",
+    "chapter": 11,
+    "chapterTitle": "Probability and Probability Distributions",
+    "question": "What is the mathematical range of a probability value (P) for any single, specific event?",
+    "options": [
+      "A) -1 to +1",
+      "B) 0 to 100",
+      "C) 0 to 1",
+      "D) Undefined"
+    ],
+    "correctAnswer": "C) 0 to 1",
+    "explanation": "Probability is strictly bounded between 0 (representing an impossible event) and 1 (representing a mathematically certain event)."
+  },
+  {
+    "id": "b4c11q2",
+    "chapter": 11,
+    "chapterTitle": "Probability and Probability Distributions",
+    "question": "If two events, A and B, are defined as 'mutually exclusive', what is the probability of both events occurring simultaneously P(A \u2229 B)?",
+    "options": [
+      "A) 1",
+      "B) 0.5",
+      "C) Exactly 0",
+      "D) P(A) * P(B)"
+    ],
+    "correctAnswer": "C) Exactly 0",
+    "explanation": "Mutually exclusive events are events that cannot possibly happen at the same time (e.g., flipping a single coin and getting both heads and tails). Therefore, their joint probability is strictly zero."
+  },
+  {
+    "id": "b4c11q3",
+    "chapter": 11,
+    "chapterTitle": "Probability and Probability Distributions",
+    "question": "The 'Complementary Rule' in probability theory states that the probability of an event NOT occurring [P(A')] is equal to:",
+    "options": [
+      "A) P(A) / 2",
+      "B) 1 - P(A)",
+      "C) 1 / P(A)",
+      "D) 0"
+    ],
+    "correctAnswer": "B) 1 - P(A)",
+    "explanation": "Since the sum of all possible outcomes must equal 1, the probability of an event not happening is simply 1 minus the probability that it does happen."
+  },
+  {
+    "id": "b4c11q4",
+    "chapter": 11,
+    "chapterTitle": "Probability and Probability Distributions",
+    "question": "If two events are 'independent', the probability of both occurring P(A \u2229 B) is calculated using the Multiplication Rule as:",
+    "options": [
+      "A) P(A) + P(B)",
+      "B) P(A) - P(B)",
+      "C) P(A) \u00d7 P(B)",
+      "D) P(A) / P(B)"
+    ],
+    "correctAnswer": "C) P(A) \u00d7 P(B)",
+    "explanation": "For independent events (where the outcome of one does not affect the other), the joint probability is find by multiplying the individual probabilities of each event."
+  },
+  {
+    "id": "b4c11q5",
+    "chapter": 11,
+    "chapterTitle": "Probability and Probability Distributions",
+    "question": "In a standard Normal Distribution, exactly what percentage of the data observations fall within \u00b11 standard deviation of the mean?",
+    "options": [
+      "A) 50%",
+      "B) 68.27%",
+      "C) 95.45%",
+      "D) 99.73%"
+    ],
+    "correctAnswer": "B) 68.27%",
+    "explanation": "According to the Empirical Rule, roughly 68.27% of all observations in a perfectly bell-shaped normal distribution fall within one standard deviation of the arithmetic mean."
+  },
+  {
+    "id": "b4c11q6",
+    "chapter": 11,
+    "chapterTitle": "Probability and Probability Distributions",
+    "question": "A 'Standard Normal Distribution' (Z-distribution) is uniquely defined as having which specific mean and standard deviation?",
+    "options": [
+      "A) Mean = 1, SD = 0",
+      "B) Mean = 0, SD = 1",
+      "C) Mean = 100, SD = 15",
+      "D) Mean = 0.5, SD = 0.5"
+    ],
+    "correctAnswer": "B) Mean = 0, SD = 1",
+    "explanation": "The Z-distribution is a special case of the normal distribution where the data has been transformed (standardized) so that the mean is exactly 0 and the standard deviation is exactly 1."
+  },
+  {
+    "id": "b4c11q7",
+    "chapter": 11,
+    "chapterTitle": "Probability and Probability Distributions",
+    "question": "Which probability distribution is strictly utilized for discrete events where there are only two possible outcomes per trial (e.g., success or failure)?",
+    "options": [
+      "A) Normal Distribution",
+      "B) Binomial Distribution",
+      "C) Poisson Distribution",
+      "D) Continuous Uniform Distribution"
+    ],
+    "correctAnswer": "B) Binomial Distribution",
+    "explanation": "The Binomial distribution is used for discrete experiments consisting of n independent trials, each having exactly two outcomes (success and failure), with a constant probability of success."
+  },
+  {
+    "id": "b4c11q8",
+    "chapter": 11,
+    "chapterTitle": "Probability and Probability Distributions",
+    "question": "What is the statistical formula used to convert a raw data point (X) into a standardized Z-score?",
+    "options": [
+      "A) Z = (X - \u03bc) / \u03c3",
+      "B) Z = (\u03bc - X) / \u03c3",
+      "C) Z = X \u00d7 \u03c3",
+      "D) Z = (X + \u03bc) / 2"
+    ],
+    "correctAnswer": "A) Z = (X - \u03bc) / \u03c3",
+    "explanation": "The Z-score represents how many standard deviations a value is from the mean. It is calculated by subtracting the mean from the value and dividing the result by the standard deviation."
+  },
+  {
+    "id": "b4c11q9",
+    "chapter": 11,
+    "chapterTitle": "Probability and Probability Distributions",
+    "question": "In a Poisson Distribution, what specific condition must be true regarding the mean (\u03bc) and the variance (\u03c3\u00b2)?",
+    "options": [
+      "A) Mean > Variance",
+      "B) Mean < Variance",
+      "C) Mean = Variance",
+      "D) Variance = Square Root of Mean"
+    ],
+    "correctAnswer": "C) Mean = Variance",
+    "explanation": "A unique property of the Poisson distribution (often used for modeling the frequency of rare events over time) is that its mathematical mean and variance are perfectly equal."
+  },
+  {
+    "id": "b4c11q10",
+    "chapter": 11,
+    "chapterTitle": "Probability and Probability Distributions",
+    "question": "What is the total area under the entire curve of any continuous probability density function (like the Normal Distribution)?",
+    "options": [
+      "A) 0",
+      "B) 0.5",
+      "C) 1",
+      "D) 100"
+    ],
+    "correctAnswer": "C) 1",
+    "explanation": "Because the curve represents the total set of all possible outcomes, the total area integrated under the probability density function must mathematically equal 1."
+  },
+  {
+    "id": "b4c11q11",
+    "chapter": 11,
+    "chapterTitle": "Probability and Probability Distributions",
+    "question": "If an event has a probability of exactly 1.0, it is formally classified as a/an:",
+    "options": [
+      "A) Impossible Event",
+      "B) Rare Event",
+      "C) Likely Event",
+      "D) Certain Event"
+    ],
+    "correctAnswer": "D) Certain Event",
+    "explanation": "An event with a probability of 1.0 (or 100%) is mathematically guaranteed to occur."
+  },
+  {
+    "id": "b4c11q12",
+    "chapter": 11,
+    "chapterTitle": "Probability and Probability Distributions",
+    "question": "Which of the following is an example of an 'Objective' (Classical) probability assessment?",
+    "options": [
+      "A) A doctor estimating a 20% chance of a patient recovering based on experience.",
+      "B) A financial analyst predicting a 60% chance of a stock market crash.",
+      "C) Calculating a 1/6 (16.6%) chance of rolling a 4 on a fair, six-sided die.",
+      "D) A weather forecaster predicting rain."
+    ],
+    "correctAnswer": "C) Calculating a 1/6 (16.6%) chance of rolling a 4 on a fair, six-sided die.",
+    "explanation": "Objective probability is based on logic or physical evidence (like the number of faces on a die) where the outcomes are clearly defined and equally likely."
+  },
+  {
+    "id": "b4c11q13",
+    "chapter": 11,
+    "chapterTitle": "Probability and Probability Distributions",
+    "question": "According to the properties of a Normal Distribution, approximately what percentage of data falls within \u00b12 standard deviations of the mean?",
+    "options": [
+      "A) 68%",
+      "B) 90%",
+      "C) 95.4%",
+      "D) 99.7%"
+    ],
+    "correctAnswer": "C) 95.4%",
+    "explanation": "The Empirical Rule states that roughly 95.4% of the area under the normal curve lies within two standard deviations of the arithmetic mean."
+  },
+  {
+    "id": "b4c11q14",
+    "chapter": 11,
+    "chapterTitle": "Probability and Probability Distributions",
+    "question": "In a Venn Diagram, the colored region representing everything inside circles A OR B is known as the:",
+    "options": [
+      "A) Intersection",
+      "B) Union",
+      "C) Complement",
+      "D) Variance"
+    ],
+    "correctAnswer": "B) Union",
+    "explanation": "The union of two sets (A \u222a B) represents all elements that reside in A, or in B, or in both simultaneously."
+  },
+  {
+    "id": "b4c11q15",
+    "chapter": 11,
+    "chapterTitle": "Probability and Probability Distributions",
+    "question": "When calculating the Expected Value E(X) of a discrete probability distribution, you must:",
+    "options": [
+      "A) Add all X values then divide by N.",
+      "B) Multiply each outcome (X) by its probability [P(X)] and sum the results.",
+      "C) Take the square root of the variance.",
+      "D) Find the middle value in the sequence."
+    ],
+    "correctAnswer": "B) Multiply each outcome (X) by its probability [P(X)] and sum the results.",
+    "explanation": "The expected value is the long-term weighted average of a probability distribution, calculated as \u2211 [X * P(X)]."
+  },
+  {
+    "id": "b4c12q1",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Sampling Distributions",
+    "question": "What is the defining characteristic of a 'Simple Random Sample'?",
+    "options": [
+      "A) Every individual in the population is forced to participate.",
+      "B) Every possible sample of a given size has an exactly equal probability of being selected from the population.",
+      "C) The sample is chosen based on the researcher's specific judgment.",
+      "D) Only the first 100 people found are interviewed."
+    ],
+    "correctAnswer": "B) Every possible sample of a given size has an exactly equal probability of being selected from the population.",
+    "explanation": "In simple random sampling, the selection process is purely probabilistic, ensuring that every member and every group has the same chance of inclusion."
+  },
+  {
+    "id": "b4c12q2",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Sampling Distributions",
+    "question": "Which sampling technique involves dividing a heterogeneous population into distinct, non-overlapping groups (strata) and then taking a random sample from each?",
+    "options": [
+      "A) Systematic Sampling",
+      "B) Cluster Sampling",
+      "C) Stratified Random Sampling",
+      "D) Quota Sampling"
+    ],
+    "correctAnswer": "C) Stratified Random Sampling",
+    "explanation": "Stratified sampling ensures that subgroups (like different age brackets or income levels) are proportionally represented by sampling specifically from within those defined strata."
+  },
+  {
+    "id": "b4c12q3",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Sampling Distributions",
+    "question": "The 'Standard Error' of the mean (\u03c3x\u0304) is mathematically defined as:",
+    "options": [
+      "A) \u03c3 * n",
+      "B) \u1e8d / n",
+      "C) \u03c3 / \u221an",
+      "D) \u03c3\u00b2 / n"
+    ],
+    "correctAnswer": "C) \u03c3 / \u221an",
+    "explanation": "Standard error represents the standard deviation of the sampling distribution. It is calculated by dividing the population standard deviation by the square root of the sample size."
+  },
+  {
+    "id": "b4c12q4",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Sampling Distributions",
+    "question": "According to the Central Limit Theorem (CLT), regardless of the shape of the original population, the distribution of sample means will approach a Normal Distribution as:",
+    "options": [
+      "A) The population mean increases.",
+      "B) The sample size (n) becomes sufficiently large (usually n \u2265 30).",
+      "C) The variance equals zero.",
+      "D) The sampling is done without replacement."
+    ],
+    "correctAnswer": "B) The sample size (n) becomes sufficiently large (usually n \u2265 30).",
+    "explanation": "The CLT is a fundamental pillar of statistics, allowing us to use normal distribution techniques even on non-normal populations, provided the sample size is large enough."
+  },
+  {
+    "id": "b4c12q5",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Sampling Distributions",
+    "question": "What is the primary visual difference between 'Stratified Sampling' and 'Cluster Sampling'?",
+    "options": [
+      "A) Cluster sampling is only used for small populations.",
+      "B) Stratified sampling samples *some* members from *all* groups, while cluster sampling samples *all* members from *some* (randomly selected) groups.",
+      "C) Stratified sampling is non-probabilistic.",
+      "D) There is no mathematical difference between the two."
+    ],
+    "correctAnswer": "B) Stratified sampling samples *some* members from *all* groups, while cluster sampling samples *all* members from *some* (randomly selected) groups.",
+    "explanation": "Cluster sampling is typically more cost-effective for geographically dispersed populations, as the researcher focuses on entire random 'clusters' rather than selecting individuals across every group."
+  },
+  {
+    "id": "b4c12q6",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Sampling Distributions",
+    "question": "The mathematical difference between a population parameter (like \u03bc) and its sample estimate (like x\u0304) is known as:",
+    "options": [
+      "A) Standard Deviation",
+      "B) Standard Error",
+      "C) Sampling Error",
+      "D) Non-Sampling Error"
+    ],
+    "correctAnswer": "C) Sampling Error",
+    "explanation": "Sampling error is the natural discrepancy that occurs because a sample is only a small representative subset of the larger population."
+  },
+  {
+    "id": "b4c12q7",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Sampling Distributions",
+    "question": "Which of the following is a 'Non-Probability' sampling method?",
+    "options": [
+      "A) Systematic Sampling",
+      "B) Stratified Random Sampling",
+      "C) Convenince Sampling",
+      "D) Cluster Sampling"
+    ],
+    "correctAnswer": "C) Convenince Sampling",
+    "explanation": "Convenience sampling involves selecting participants simply because they are easily accessible, meaning it is not a random process and the results cannot be statistically generalized to the population."
+  },
+  {
+    "id": "b4c12q8",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Sampling Distributions",
+    "question": "If you double your sample size (n), what happens to the Standard Error of the mean?",
+    "options": [
+      "A) It doubles.",
+      "B) It stays exactly the same.",
+      "C) It decreases (shrinks).",
+      "D) It increases by the square root of 2."
+    ],
+    "correctAnswer": "C) It decreases (shrinks).",
+    "explanation": "Since 'n' is in the denominator of the standard error formula (\u03c3 / \u221an), increasing the sample size mathematically reduces the standard error, making the estimate more precise."
+  },
+  {
+    "id": "b4c12q9",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Sampling Distributions",
+    "question": "What is a 'Sampling Frame' in statistical research?",
+    "options": [
+      "A) A physical picture of the survey respondents.",
+      "B) A complete, enumerated list of all individuals or items within the population from which the sample will be drawn.",
+      "C) The time period during which the sample is taken.",
+      "D) The box-and-whisker plot of the sample data."
+    ],
+    "correctAnswer": "B) A complete, enumerated list of all individuals or items within the population from which the sample will be drawn.",
+    "explanation": "A sampling frame (like a voter registry or a student directory) is essential for probability sampling to ensure every member can be uniquely identified and selected."
+  },
+  {
+    "id": "b4c12q10",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Sampling Distributions",
+    "question": "In 'Systematic Sampling', if we want a sample of 100 from a population of 2,000, what is the 'sampling interval' (k)?",
+    "options": [
+      "A) 10",
+      "B) 20",
+      "C) 50",
+      "D) 100"
+    ],
+    "correctAnswer": "B) 20",
+    "explanation": "The sampling interval (k) is calculated as N/n. Here, 2,000 / 100 = 20. The researcher would select every 20th person after picking a random starting point."
+  },
+  {
+    "id": "b4c12q11",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Sampling Distributions",
+    "question": "Which type of error occurs due to poor questionnaire design, interviewer bias, or data entry mistakes?",
+    "options": [
+      "A) Sampling Error",
+      "B) Non-Sampling Error",
+      "C) Normal Error",
+      "D) Multiplicative Error"
+    ],
+    "correctAnswer": "B) Non-Sampling Error",
+    "explanation": "Non-sampling errors can occur in both census and sampling studies. Unlike sampling error, they cannot be reduced by increasing the sample size."
+  },
+  {
+    "id": "b4c12q12",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Sampling Distributions",
+    "question": "As the sample size 'n' increases toward a very large number, the sample mean (x\u0304) tends to:",
+    "options": [
+      "A) Converge toward zero.",
+      "B) Converge toward the true population mean (\u03bc).",
+      "C) Become perfectly random.",
+      "D) Increase indefinitely."
+    ],
+    "correctAnswer": "B) Converge toward the true population mean (\u03bc).",
+    "explanation": "According to the Law of Large Numbers, larger samples provide increasingly accurate estimates that naturally gravitate toward the actual population value."
+  },
+  {
+    "id": "b4c12q13",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Sampling Distributions",
+    "question": "In probability sampling, if 'sampling without replacement' is used on a small, finite population, we must mathematically apply the:",
+    "options": [
+      "A) Finite Population Multiplier (Correction Factor)",
+      "B) Z-Score transformation",
+      "C) Standard Deviation multiplier",
+      "D) Skewness constant"
+    ],
+    "correctAnswer": "A) Finite Population Multiplier (Correction Factor)",
+    "explanation": "When the sample represents a large portion of a small population (typically >5%), the standard error must be adjusted using the finite population correction factor [ \u221a((N-n)/(N-1)) ]."
+  },
+  {
+    "id": "b4c12q14",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Sampling Distributions",
+    "question": "Which of the following describes 'Quota Sampling'?",
+    "options": [
+      "A) Choosing every 5th person.",
+      "B) A random sample where we wait for exactly 100 people to respond.",
+      "C) Setting specific targets for subgroups (e.g., 50 males, 50 females) and selecting them non-randomly until the target is met.",
+      "D) Sampling only people located in the city center."
+    ],
+    "correctAnswer": "C) Setting specific targets for subgroups (e.g., 50 males, 50 females) and selecting them non-randomly until the target is met.",
+    "explanation": "Quota sampling is the non-probability equivalent of stratified sampling. While it ensures subgroup representation, the lack of randomness introduces heavy selection bias."
+  },
+  {
+    "id": "b4c12q15",
+    "chapter": 12,
+    "chapterTitle": "Sampling and Sampling Distributions",
+    "question": "The distribution of all possible values of a sample statistic (like the mean) is formally called the:",
+    "options": [
+      "A) Population Distribution",
+      "B) Frequency Distribution",
+      "C) Sampling Distribution",
+      "D) Normal Variance"
+    ],
+    "correctAnswer": "C) Sampling Distribution",
+    "explanation": "The sampling distribution is a theoretical probability distribution that describes the pattern we would see if we repeatedly took samples of the same size from the population."
+  }
+]

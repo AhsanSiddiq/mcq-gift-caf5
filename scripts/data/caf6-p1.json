@@ -1,0 +1,1052 @@
+[
+  {
+    "id": "c1q1",
+    "chapter": 1,
+    "chapterTitle": "IAS 10, IAS 37 & IFRIC 1",
+    "question": "A company's reporting period ends on 31 December 20X5. On 15 February 20X6, before the financial statements are authorized for issue, a major fire destroys the company's primary storage facility. How should this event be treated in the 20X5 financial statements?",
+    "options": [
+      "A) Adjust the financial statements to reflect the loss of the facility.",
+      "B) Disclose the event as a non-adjusting event after the reporting period.",
+      "C) Ignore the event as it happened in the next financial year.",
+      "D) Recognize a provision for the replacement of the storage facility."
+    ],
+    "correctAnswer": "B) Disclose the event as a non-adjusting event after the reporting period.",
+    "explanation": "Since the fire occurred after the year-end, it does not provide evidence of conditions that existed at the end of the reporting period. Therefore, it is a non-adjusting event and its effect should be disclosed if material."
+  },
+  {
+    "id": "c1q2",
+    "chapter": 1,
+    "chapterTitle": "IAS 10, IAS 37 & IFRIC 1",
+    "question": "Omega Industries causes environmental damage in a country where there is no environmental legislation forcing a cleanup. However, Omega has a widely published internal policy of cleaning up all environmental contamination it causes. According to IAS 37, does an obligation exist?",
+    "options": [
+      "A) No obligation exists because there is no legal requirement.",
+      "B) A legal obligation exists due to international law.",
+      "C) A constructive obligation exists because the policy creates a valid expectation.",
+      "D) A contingent liability exists and should only be disclosed."
+    ],
+    "correctAnswer": "C) A constructive obligation exists because the policy creates a valid expectation.",
+    "explanation": "A past event leads to a present obligation (obligating event). Even without legislation, the company's widely published policy creates a valid expectation in other parties, forming a constructive obligation."
+  },
+  {
+    "id": "c1q3",
+    "chapter": 1,
+    "chapterTitle": "IAS 10, IAS 37 & IFRIC 1",
+    "question": "Delta Ltd faces claims from 20 customers for faulty products. The company estimates that each claim will be settled in the range of Rs. 40,000 to Rs. 60,000 per claim, with each amount in this range being equally likely. What is the best estimate of the provision required?",
+    "options": [
+      "A) Rs. 800,000",
+      "B) Rs. 1,000,000",
+      "C) Rs. 1,200,000",
+      "D) Rs. 2,000,000"
+    ],
+    "correctAnswer": "B) Rs. 1,000,000",
+    "explanation": "When each outcome in a continuous range is equally likely, the mid-point of the range is used. The mid-point between 40,000 and 60,000 is 50,000. 50,000 x 20 customers = Rs. 1,000,000."
+  },
+  {
+    "id": "c1q4",
+    "chapter": 1,
+    "chapterTitle": "IAS 10, IAS 37 & IFRIC 1",
+    "question": "Sigma Corp provides a warranty for its products. Based on past experience, there is a 60% chance of zero repair costs, a 30% chance of minor repairs costing Rs. 1,000,000 in total, and a 10% chance of major repairs costing Rs. 2,000,000 in total. What amount should be recognized as a warranty provision?",
+    "options": [
+      "A) Rs. 0",
+      "B) Rs. 500,000",
+      "C) Rs. 1,000,000",
+      "D) Rs. 3,000,000"
+    ],
+    "correctAnswer": "B) Rs. 500,000",
+    "explanation": "The provision is calculated using the expected value method: (0 x 60%) + (1,000,000 x 30%) + (2,000,000 x 10%) = 0 + 300,000 + 200,000 = Rs. 500,000."
+  },
+  {
+    "id": "c1q5",
+    "chapter": 1,
+    "chapterTitle": "IAS 10, IAS 37 & IFRIC 1",
+    "question": "Gamma Ltd is being sued for damages of Rs. 5 million, and a provision is recognized for this full amount. Gamma expects to recover Rs. 3 million from a sub-contractor, and this recovery is virtually certain. How should this reimbursement be accounted for in the statement of financial position?",
+    "options": [
+      "A) Deduct Rs. 3 million from the provision and show a net liability of Rs. 2 million.",
+      "B) Recognize a separate asset of Rs. 3 million and a provision of Rs. 5 million.",
+      "C) Disclose the Rs. 3 million as a contingent asset only.",
+      "D) Recognize a separate asset of Rs. 5 million."
+    ],
+    "correctAnswer": "B) Recognize a separate asset of Rs. 3 million and a provision of Rs. 5 million.",
+    "explanation": "When reimbursement is virtually certain, it is recognized as a separate asset. The asset recognized cannot exceed the amount of the provision. They should not be netted off in the statement of financial position."
+  },
+  {
+    "id": "c1q6",
+    "chapter": 1,
+    "chapterTitle": "IAS 10, IAS 37 & IFRIC 1",
+    "question": "Which of the following statements regarding future operating losses is correct according to IAS 37?",
+    "options": [
+      "A) A provision must be recognized for expected future operating losses.",
+      "B) Future operating losses can be recognized if they are highly probable.",
+      "C) Provisions shall not be recognized for future operating losses.",
+      "D) Future operating losses are recognized directly in equity."
+    ],
+    "correctAnswer": "C) Provisions shall not be recognized for future operating losses.",
+    "explanation": "IAS 37 specifically states that provisions shall not be recognized for future operating losses because they do not meet the definition of a liability (there is no present obligation arising from past events)."
+  },
+  {
+    "id": "c1q7",
+    "chapter": 1,
+    "chapterTitle": "IAS 10, IAS 37 & IFRIC 1",
+    "question": "Epsilon Ltd has a non-cancellable contract to purchase 500 units of raw material per month for the next 10 months at Rs. 1,000 per unit. Due to a change in the production process, these materials are no longer needed and cannot be resold. What is the provision for this onerous contract?",
+    "options": [
+      "A) Rs. 5,000",
+      "B) Rs. 500,000",
+      "C) Rs. 1,000,000",
+      "D) Rs. 5,000,000"
+    ],
+    "correctAnswer": "D) Rs. 5,000,000",
+    "explanation": "An onerous contract is one where the unavoidable costs of meeting the obligations exceed the economic benefits. The provision is the total cost: 10 months x 500 units x Rs. 1,000 = Rs. 5,000,000."
+  },
+  {
+    "id": "c1q8",
+    "chapter": 1,
+    "chapterTitle": "IAS 10, IAS 37 & IFRIC 1",
+    "question": "An entity has a customer who owed Rs. 500,000 at the reporting date of 31 December 20X4. On 20 January 20X5, before the financial statements are authorized for issue, the customer goes bankrupt due to deteriorating financial health over the past year. How should this be treated?",
+    "options": [
+      "A) Do nothing as the bankruptcy occurred in the next financial year.",
+      "B) Disclose it as a non-adjusting event.",
+      "C) Adjust the financial statements by writing down the receivable.",
+      "D) Recognize a contingent liability."
+    ],
+    "correctAnswer": "C) Adjust the financial statements by writing down the receivable.",
+    "explanation": "This is an adjusting event because the bankruptcy provides additional evidence of a condition (poor collectability of the debt) that already existed at the end of the reporting period."
+  },
+  {
+    "id": "c1q9",
+    "chapter": 1,
+    "chapterTitle": "IAS 10, IAS 37 & IFRIC 1",
+    "question": "According to IFRIC 1, if an entity uses the cost model for an asset, how should a decrease in the estimated decommissioning liability due to a change in the discount rate be accounted for?",
+    "options": [
+      "A) Recognized immediately in profit or loss.",
+      "B) Deducted from the cost of the related asset.",
+      "C) Recognized in other comprehensive income.",
+      "D) Ignored until the decommissioning actually occurs."
+    ],
+    "correctAnswer": "B) Deducted from the cost of the related asset.",
+    "explanation": "Under the cost model, changes in the existing decommissioning liability (such as changes due to the discount rate) are added to or deducted from the cost of the related asset in the current period."
+  },
+  {
+    "id": "c1q10",
+    "chapter": 1,
+    "chapterTitle": "IAS 10, IAS 37 & IFRIC 1",
+    "question": "An entity is facing a lawsuit. The entity's legal counsel advises that the probability of losing the case and paying damages is 'possible' but not 'probable'. How should this matter be treated in the financial statements?",
+    "options": [
+      "A) Recognize a provision for the estimated damages.",
+      "B) Disclose the matter as a contingent liability.",
+      "C) Disclose the matter as a contingent asset.",
+      "D) Do not disclose anything to avoid admitting guilt."
+    ],
+    "correctAnswer": "B) Disclose the matter as a contingent liability.",
+    "explanation": "If the outflow of economic benefits is possible (but not probable), no provision is recognized. Instead, the matter must be disclosed as a contingent liability unless the probability of an outflow is remote."
+  },
+  {
+    "id": "c1q11",
+    "chapter": 1,
+    "chapterTitle": "IAS 10, IAS 37 & IFRIC 1",
+    "question": "How frequently should an entity review its recognized provisions according to IAS 37?",
+    "options": [
+      "A) Only when the obligating event is completely resolved.",
+      "B) At the end of each reporting period.",
+      "C) Once every three to five years.",
+      "D) Only when management believes the estimate has changed significantly."
+    ],
+    "correctAnswer": "B) At the end of each reporting period.",
+    "explanation": "IAS 37 requires that provisions be reviewed at the end of each reporting period and adjusted to reflect the current best estimate of the expenditure required to settle the present obligation."
+  },
+  {
+    "id": "c1q12",
+    "chapter": 1,
+    "chapterTitle": "IAS 10, IAS 37 & IFRIC 1",
+    "question": "After the reporting period but before the financial statements are authorized for issue, management decides to completely liquidate the entity. How does this decision affect the preparation of the financial statements?",
+    "options": [
+      "A) It is a non-adjusting event requiring disclosure only.",
+      "B) The financial statements should be prepared on a going concern basis with an explanatory note.",
+      "C) The financial statements should not be prepared on a going concern basis.",
+      "D) The financial statements remain unchanged."
+    ],
+    "correctAnswer": "C) The financial statements should not be prepared on a going concern basis.",
+    "explanation": "IAS 10 states that an entity should not prepare its financial statements on a going concern basis if events after the reporting period indicate that the going concern assumption is no longer appropriate."
+  },
+  {
+    "id": "c1q13",
+    "chapter": 1,
+    "chapterTitle": "IAS 10, IAS 37 & IFRIC 1",
+    "question": "Which of the following describes the key characteristic of an 'obligating event' under IAS 37?",
+    "options": [
+      "A) It guarantees future profits for the entity.",
+      "B) It is an event occurring after the reporting period.",
+      "C) It exists independently of an entity's future actions.",
+      "D) It only relates to contracts signed with government authorities."
+    ],
+    "correctAnswer": "C) It exists independently of an entity's future actions.",
+    "explanation": "An obligating event is a past event that leads to a present obligation. It must exist independently of an entity's future actions (i.e., the future conduct of its business)."
+  },
+  {
+    "id": "c1q14",
+    "chapter": 1,
+    "chapterTitle": "IAS 10, IAS 37 & IFRIC 1",
+    "question": "Which of the following is a classic example of a non-adjusting event after the reporting period?",
+    "options": [
+      "A) The settlement of a court case that confirms a present obligation existed at year-end.",
+      "B) The discovery of fraud showing financial statements were incorrect.",
+      "C) A major decline in the market value of investments occurring after the reporting period.",
+      "D) Information received indicating an asset was impaired at the end of the reporting period."
+    ],
+    "correctAnswer": "C) A major decline in the market value of investments occurring after the reporting period.",
+    "explanation": "A decline in market value after the reporting period does not relate to conditions that existed at the reporting date, making it a non-adjusting event. The other options provide evidence of conditions that existed at year-end."
+  },
+  {
+    "id": "c1q15",
+    "chapter": 1,
+    "chapterTitle": "IAS 10, IAS 37 & IFRIC 1",
+    "question": "When does an obligation to the public at large qualify as a valid obligation for recognizing a provision under IAS 37?",
+    "options": [
+      "A) Only if the identity of the specific party owed the obligation is known.",
+      "B) If the entity has created a valid expectation through past practice or published policies.",
+      "C) If the public at large formally sues the entity in court.",
+      "D) Obligations to the public at large can never be recognized as a provision."
+    ],
+    "correctAnswer": "B) If the entity has created a valid expectation through past practice or published policies.",
+    "explanation": "An obligation always involves another party. However, it is not necessary to know the specific identity of the party; an obligation can be owed to the public at large if a valid expectation has been created (a constructive obligation)."
+  },
+  {
+    "id": "c2q1",
+    "chapter": 2,
+    "chapterTitle": "Financial instruments",
+    "question": "According to the definitions in IAS 32, which of the following items is explicitly classified as a non-financial liability?",
+    "options": [
+      "A) Trade payables",
+      "B) Current tax payable",
+      "C) A loan from a bank",
+      "D) Issued convertible bonds"
+    ],
+    "correctAnswer": "B) Current tax payable",
+    "explanation": "Current tax payable is a statutory obligation rather than a contractual one, so it is classified as a non-financial liability."
+  },
+  {
+    "id": "c2q2",
+    "chapter": 2,
+    "chapterTitle": "Financial instruments",
+    "question": "When should an entity initially recognize a financial asset or a financial liability in its statement of financial position?",
+    "options": [
+      "A) When management forms an intention to acquire the instrument.",
+      "B) When the risks and rewards of ownership have fully transferred.",
+      "C) When the entity becomes a party to the contractual provisions of the instrument.",
+      "D) When cash has physically changed hands between the parties."
+    ],
+    "correctAnswer": "C) When the entity becomes a party to the contractual provisions of the instrument.",
+    "explanation": "IFRS 9 strictly states that an entity recognizes a financial asset or liability when, and only when, it becomes a party to the contractual provisions of the instrument."
+  },
+  {
+    "id": "c2q3",
+    "chapter": 2,
+    "chapterTitle": "Financial instruments",
+    "question": "Alpha Corp purchases equity shares in another company. The shares are not held for trading. According to IFRS 9, how can Alpha Corp classify this investment at initial recognition?",
+    "options": [
+      "A) It must be classified at amortised cost.",
+      "B) It must be classified at fair value through profit or loss (FVPL) with no other options.",
+      "C) It can be classified at FVPL or, by an irrevocable choice, at fair value through OCI (FVOCI).",
+      "D) It must be classified as a non-monetary asset carried at historical cost."
+    ],
+    "correctAnswer": "C) It can be classified at FVPL or, by an irrevocable choice, at fair value through OCI (FVOCI).",
+    "explanation": "For equity instruments not held for trading, the default classification is FVPL, but an entity can make an irrevocable choice at initial recognition to classify them at FVOCI."
+  },
+  {
+    "id": "c2q4",
+    "chapter": 2,
+    "chapterTitle": "Financial instruments",
+    "question": "Beta Ltd acquires a debt instrument. Its business model is solely to hold the asset to collect contractual cash flows. Additionally, the cash flows represent solely payments of principal and interest (SPPI). How must this financial asset be classified?",
+    "options": [
+      "A) Fair value through profit or loss",
+      "B) Fair value through other comprehensive income",
+      "C) Amortised cost",
+      "D) Lower of cost and net realizable value"
+    ],
+    "correctAnswer": "C) Amortised cost",
+    "explanation": "A debt instrument is classified at amortised cost if it meets both the 'hold to collect' business model test and the SPPI (solely payments of principal and interest) test."
+  },
+  {
+    "id": "c2q5",
+    "chapter": 2,
+    "chapterTitle": "Financial instruments",
+    "question": "Gamma Inc manages a portfolio of bonds where the business model objective is achieved by both collecting contractual cash flows and selling the bonds. The cash flows meet the SPPI test. Assuming no accounting mismatch exists, how should these bonds be classified?",
+    "options": [
+      "A) Amortised cost",
+      "B) Fair value through other comprehensive income (FVOCI)",
+      "C) Fair value through profit or loss (FVPL)",
+      "D) As an equity instrument"
+    ],
+    "correctAnswer": "B) Fair value through other comprehensive income (FVOCI)",
+    "explanation": "Debt instruments held within a business model whose objective is achieved by both collecting contractual cash flows and selling the assets, and which pass the SPPI test, are classified at FVOCI."
+  },
+  {
+    "id": "c2q6",
+    "chapter": 2,
+    "chapterTitle": "Financial instruments",
+    "question": "Under what specific condition can a financial asset that otherwise meets the strict criteria for amortised cost or FVOCI be designated as Fair Value through Profit or Loss (FVPL)?",
+    "options": [
+      "A) When the asset is internally generated.",
+      "B) When management decides it is easier to measure.",
+      "C) If doing so eliminates or significantly reduces an accounting mismatch.",
+      "D) If the asset is a trade receivable."
+    ],
+    "correctAnswer": "C) If doing so eliminates or significantly reduces an accounting mismatch.",
+    "explanation": "IFRS 9 allows an exception where a financial asset may be designated as FVPL, even if it meets the requirements for amortised cost or FVOCI, if it eliminates an accounting mismatch."
+  },
+  {
+    "id": "c2q7",
+    "chapter": 2,
+    "chapterTitle": "Financial instruments",
+    "question": "Delta Ltd acquires a financial asset and correctly classifies it as fair value through profit or loss (FVPL). How should the transaction costs associated with acquiring this asset be treated?",
+    "options": [
+      "A) Added to the initial fair value of the asset.",
+      "B) Deducted from the initial fair value of the asset.",
+      "C) Expensed immediately in profit or loss.",
+      "D) Deferred and amortized over the life of the asset."
+    ],
+    "correctAnswer": "C) Expensed immediately in profit or loss.",
+    "explanation": "While transaction costs are added to (or subtracted from) the initial measurement for AC and FVOCI instruments, transaction costs for instruments measured at FVPL are expensed immediately."
+  },
+  {
+    "id": "c2q8",
+    "chapter": 2,
+    "chapterTitle": "Financial instruments",
+    "question": "Epsilon Co issues a financial liability that will be measured at amortised cost. At initial recognition, how should the transaction costs be treated?",
+    "options": [
+      "A) Deducted from the initial fair value of the financial liability.",
+      "B) Added to the initial fair value of the financial liability.",
+      "C) Expensed immediately in the statement of comprehensive income.",
+      "D) Recognized as a separate intangible asset."
+    ],
+    "correctAnswer": "A) Deducted from the initial fair value of the financial liability.",
+    "explanation": "At initial recognition, a financial liability measured at amortised cost is recorded at fair value minus transaction costs."
+  },
+  {
+    "id": "c2q9",
+    "chapter": 2,
+    "chapterTitle": "Financial instruments",
+    "question": "Zeta Ltd holds an investment in debt securities measured at amortised cost. Which rate is used to calculate the interest income recognized in profit or loss for this instrument?",
+    "options": [
+      "A) The market rate at the reporting date",
+      "B) The effective interest rate",
+      "C) The nominal coupon rate",
+      "D) The incremental borrowing rate"
+    ],
+    "correctAnswer": "B) The effective interest rate",
+    "explanation": "Subsequent measurement at amortised cost involves calculating interest income using the effective interest rate (often described as the internal rate of return)."
+  },
+  {
+    "id": "c2q10",
+    "chapter": 2,
+    "chapterTitle": "Financial instruments",
+    "question": "Which of the following financial instruments is NOT required to be assessed for impairment (loss allowance) under IFRS 9?",
+    "options": [
+      "A) A debt instrument measured at amortised cost.",
+      "B) A debt instrument measured at fair value through OCI.",
+      "C) A debt instrument measured at fair value through profit or loss (FVPL).",
+      "D) Trade receivables."
+    ],
+    "correctAnswer": "C) A debt instrument measured at fair value through profit or loss (FVPL).",
+    "explanation": "All instruments measured at FVPL are not required to be assessed for impairment because any fair value movements (including those due to credit risk) are already reflected in profit or loss."
+  },
+  {
+    "id": "c2q11",
+    "chapter": 2,
+    "chapterTitle": "Financial instruments",
+    "question": "According to IFRS 9, if a financial asset is classified as an investment in equity instruments designated at FVOCI, where are the subsequent changes in fair value recognized?",
+    "options": [
+      "A) In profit or loss.",
+      "B) In other comprehensive income (OCI).",
+      "C) They are ignored until the asset is sold.",
+      "D) Adjusted against the retained earnings directly."
+    ],
+    "correctAnswer": "B) In other comprehensive income (OCI).",
+    "explanation": "For equity instruments irrevocably designated at FVOCI, subsequent changes in fair value are recognized in other comprehensive income."
+  },
+  {
+    "id": "c2q12",
+    "chapter": 2,
+    "chapterTitle": "Financial instruments",
+    "question": "While most financial liabilities are classified and measured at amortised cost, under what circumstance would a financial liability be measured at fair value?",
+    "options": [
+      "A) If the liability arises from a statutory obligation like income tax.",
+      "B) If the liability is a standard trade payable.",
+      "C) If the liability is held for trading or to eliminate an accounting mismatch.",
+      "D) If the entity expects to hold the liability until maturity."
+    ],
+    "correctAnswer": "C) If the liability is held for trading or to eliminate an accounting mismatch.",
+    "explanation": "Financial liabilities are typically measured at amortised cost, with exceptions for those held for trading, held for hedging, or designated at FVPL to eliminate an accounting mismatch."
+  },
+  {
+    "id": "c2q13",
+    "chapter": 2,
+    "chapterTitle": "Financial instruments",
+    "question": "Sigma Bank holds a loan receivable from a corporate client. Which of the following events would act as an indicator that the loan is impaired under IFRS 9?",
+    "options": [
+      "A) A general increase in market interest rates.",
+      "B) The borrower being granted concessions due to significant financial difficulty.",
+      "C) A change in the bank's internal business model.",
+      "D) The borrower changing its board of directors."
+    ],
+    "correctAnswer": "B) The borrower being granted concessions due to significant financial difficulty.",
+    "explanation": "IFRS 9 lists significant financial difficulty, breach of contract, borrower bankruptcy, and the granting of concessions to the borrower as primary indicators of impairment."
+  },
+  {
+    "id": "c2q14",
+    "chapter": 2,
+    "chapterTitle": "Financial instruments",
+    "question": "Omega Corp evaluates a new debt investment to determine its classification. It notes that the contractual terms give rise on specified dates to cash flows that are solely payments of principal and interest. This evaluation is commonly known as:",
+    "options": [
+      "A) The Business Model test",
+      "B) The SPPI test",
+      "C) The Effective Interest test",
+      "D) The Expected Credit Loss test"
+    ],
+    "correctAnswer": "B) The SPPI test",
+    "explanation": "The requirement that contractual cash flows represent solely payments of principal and interest on specified dates is known as the SPPI test."
+  },
+  {
+    "id": "c2q15",
+    "chapter": 2,
+    "chapterTitle": "Financial instruments",
+    "question": "For an investment in debt instruments measured at FVOCI, how is the effective interest accounted for?",
+    "options": [
+      "A) It is ignored because the asset is measured at fair value.",
+      "B) It is recognized entirely in other comprehensive income.",
+      "C) It is calculated using the effective interest rate and recognized in profit or loss.",
+      "D) It is deducted directly from the carrying amount of the asset."
+    ],
+    "correctAnswer": "C) It is calculated using the effective interest rate and recognized in profit or loss.",
+    "explanation": "Even though a debt instrument at FVOCI has its fair value changes recognized in OCI, its interest income is still calculated using the effective interest rate and recognized in profit or loss."
+  },
+  {
+    "id": "c3q1",
+    "chapter": 3,
+    "chapterTitle": "IFRS 16 Leases",
+    "question": "Zenith Ltd enters into a contract for the use of a specialized generator. The supplier has the practical ability to substitute the generator throughout the period of use and would economically benefit from doing so. Is this a lease under IFRS 16?",
+    "options": [
+      "A) Yes, because it involves a specific asset.",
+      "B) No, because the supplier has a substantive right of substitution.",
+      "C) Yes, because Zenith Ltd has physical possession.",
+      "D) No, because generators are low-value items."
+    ],
+    "correctAnswer": "B) No, because the supplier has a substantive right of substitution.",
+    "explanation": "An asset is not considered identified if the supplier has a substantive right of substitution. This exists when the supplier can practically replace the asset and would benefit economically from doing so."
+  },
+  {
+    "id": "c3q2",
+    "chapter": 3,
+    "chapterTitle": "IFRS 16 Leases",
+    "question": "Proton Corp leases a warehouse for 5 years. The contract includes an option to extend for another 3 years. Proton is reasonably certain to exercise this option. What is the lease term?",
+    "options": [
+      "A) 3 years",
+      "B) 5 years",
+      "C) 8 years",
+      "D) 10 years"
+    ],
+    "correctAnswer": "C) 8 years",
+    "explanation": "The lease term includes the non-cancellable period plus periods covered by an extension option if the lessee is reasonably certain to exercise it. Therefore, 5 years plus the 3-year extension equals 8 years."
+  },
+  {
+    "id": "c3q3",
+    "chapter": 3,
+    "chapterTitle": "IFRS 16 Leases",
+    "question": "A lessee acquires a machine with a 4-year lease term. The machine has a 6-year useful life. There is no transfer of ownership or purchase option at the end of the term. Over what period should the right-of-use asset be depreciated?",
+    "options": [
+      "A) 2 years",
+      "B) 4 years",
+      "C) 5 years",
+      "D) 6 years"
+    ],
+    "correctAnswer": "B) 4 years",
+    "explanation": "If the lease does not transfer ownership and there is no purchase option, the asset is depreciated over the shorter of the useful life and the lease term. Here, 4 years is shorter than 6 years."
+  },
+  {
+    "id": "c3q4",
+    "chapter": 3,
+    "chapterTitle": "IFRS 16 Leases",
+    "question": "At commencement, Titan Ltd recognizes a lease liability of Rs. 500,000. It also pays initial direct costs of Rs. 20,000 and receives a lease incentive of Rs. 5,000. What is the initial cost of the right-of-use asset?",
+    "options": [
+      "A) Rs. 500,000",
+      "B) Rs. 515,000",
+      "C) Rs. 520,000",
+      "D) Rs. 525,000"
+    ],
+    "correctAnswer": "B) Rs. 515,000",
+    "explanation": "The cost of the right-of-use asset includes the initial lease liability plus initial direct costs, less any lease incentives received. Calculation: 500,000 + 20,000 - 5,000 = Rs. 515,000."
+  },
+  {
+    "id": "c3q5",
+    "chapter": 3,
+    "chapterTitle": "IFRS 16 Leases",
+    "question": "A company leases a high-end laptop for 10 months at a cost of Rs. 8,000 per month. There is no purchase option. How can the company choose to account for this under IFRS 16?",
+    "options": [
+      "A) Must recognize a right-of-use asset and lease liability.",
+      "B) Must recognize it as an intangible asset.",
+      "C) Can elect to recognize lease payments as an expense on a straight-line basis.",
+      "D) Must capitalize it as property, plant, and equipment."
+    ],
+    "correctAnswer": "C) Can elect to recognize lease payments as an expense on a straight-line basis.",
+    "explanation": "Lessees can choose to apply a recognition exemption for short-term leases, which are leases with a term of 12 months or less and no purchase option. In such cases, payments are recognized as an expense over the lease term."
+  },
+  {
+    "id": "c3q6",
+    "chapter": 3,
+    "chapterTitle": "IFRS 16 Leases",
+    "question": "Under IFRS 16, which of the following items is EXCLUDED from the initial measurement of a lease liability?",
+    "options": [
+      "A) Variable lease payments based on an index.",
+      "B) Exercise price of a reasonably certain purchase option.",
+      "C) Residual value guarantees expected to be payable.",
+      "D) Variable lease payments based on the lessee's future sales."
+    ],
+    "correctAnswer": "D) Variable lease payments based on the lessee's future sales.",
+    "explanation": "Lease liabilities include fixed payments and variable payments that depend on an index or rate. Variable payments that depend on future performance or use (like sales) are excluded and recognized in profit or loss when the triggering event occurs."
+  },
+  {
+    "id": "c3q7",
+    "chapter": 3,
+    "chapterTitle": "IFRS 16 Leases",
+    "question": "A lessor classifies a lease as a finance lease if:",
+    "options": [
+      "A) The lease term is for less than 25% of the asset's life.",
+      "B) It does not transfer substantially all risks and rewards of ownership.",
+      "C) It transfers substantially all risks and rewards incidental to ownership.",
+      "D) The asset is of a common nature used by many companies."
+    ],
+    "correctAnswer": "C) It transfers substantially all risks and rewards incidental to ownership.",
+    "explanation": "A lease is classified as a finance lease if it transfers substantially all the risks and rewards incidental to ownership of an underlying asset. Otherwise, it is an operating lease."
+  },
+  {
+    "id": "c3q8",
+    "chapter": 3,
+    "chapterTitle": "IFRS 16 Leases",
+    "question": "Nova Motors (a dealer) leases a car to a client. The car's cost is Rs. 2M, its fair value is Rs. 2.5M, and the PV of lease payments is Rs. 2.3M. At what amount should Nova Motors recognize 'Sales'?",
+    "options": [
+      "A) Rs. 2,000,000",
+      "B) Rs. 2,300,000",
+      "C) Rs. 2,500,000",
+      "D) Rs. 4,500,000"
+    ],
+    "correctAnswer": "B) Rs. 2,300,000",
+    "explanation": "For a manufacturer or dealer lessor, sales revenue is recognized at the lower of the fair value of the asset and the present value of the lease payments. Here, Rs. 2.3M is lower than Rs. 2.5M."
+  },
+  {
+    "id": "c3q9",
+    "chapter": 3,
+    "chapterTitle": "IFRS 16 Leases",
+    "question": "Where should a lessee present the interest expense on a lease liability in the Statement of Comprehensive Income?",
+    "options": [
+      "A) As part of depreciation expense.",
+      "B) Within administrative expenses.",
+      "C) Separately as a component of finance costs.",
+      "D) Within other comprehensive income."
+    ],
+    "correctAnswer": "C) Separately as a component of finance costs.",
+    "explanation": "IFRS 16 requires interest expense on the lease liability to be presented separately from the depreciation of the right-of-use asset, specifically as a component of finance costs."
+  },
+  {
+    "id": "c3q10",
+    "chapter": 3,
+    "chapterTitle": "IFRS 16 Leases",
+    "question": "In the Statement of Cash Flows, a lessee should classify the principal portion of lease payments as:",
+    "options": [
+      "A) Operating activities",
+      "B) Investing activities",
+      "C) Financing activities",
+      "D) Non-cash transactions"
+    ],
+    "correctAnswer": "C) Financing activities",
+    "explanation": "Lessees classify cash payments for the principal portion of the lease liability within financing activities in the statement of cash flows."
+  },
+  {
+    "id": "c3q11",
+    "chapter": 3,
+    "chapterTitle": "IFRS 16 Leases",
+    "question": "An entity leases an office printer with a new value of Rs. 40,000. The lease is for 3 years. This asset would likely be classified as a:",
+    "options": [
+      "A) Finance lease",
+      "B) Right-of-use asset only",
+      "C) Lease of a low-value item",
+      "D) Non-identifiable asset"
+    ],
+    "correctAnswer": "C) Lease of a low-value item",
+    "explanation": "Leases of low-value items, such as telephones or small office equipment, are eligible for a recognition exemption regardless of the lease term. This applies if the asset is typically of low value when new."
+  },
+  {
+    "id": "c3q12",
+    "chapter": 3,
+    "chapterTitle": "IFRS 16 Leases",
+    "question": "At the end of a 4-year lease, a company pays a penalty of Rs. 50,000 because it chose to terminate the lease early as allowed in the contract. If this was expected at commencement, the penalty should have been:",
+    "options": [
+      "A) Expensed only when paid.",
+      "B) Included in the initial measurement of the lease liability.",
+      "C) Disclosed as a contingent liability.",
+      "D) Ignored in the 5-step model."
+    ],
+    "correctAnswer": "B) Included in the initial measurement of the lease liability.",
+    "explanation": "Lease payments include payments of penalties for terminating the lease if the lease term reflects the lessee exercising an option to terminate."
+  },
+  {
+    "id": "c3q13",
+    "chapter": 3,
+    "chapterTitle": "IFRS 16 Leases",
+    "question": "What is 'Net investment in the lease' from a lessor's perspective?",
+    "options": [
+      "A) The total undiscounted lease payments.",
+      "B) Gross investment in the lease minus unearned finance income.",
+      "C) The fair value of the asset at the end of the term.",
+      "D) Only the guaranteed residual value."
+    ],
+    "correctAnswer": "B) Gross investment in the lease minus unearned finance income.",
+    "explanation": "Net investment in the lease is defined as the gross investment (undiscounted lease payments plus unguaranteed residual value) discounted at the interest rate implicit in the lease. This equals gross investment minus unearned finance income."
+  },
+  {
+    "id": "c3q14",
+    "chapter": 3,
+    "chapterTitle": "IFRS 16 Leases",
+    "question": "A lessor under an operating lease should recognize lease income:",
+    "options": [
+      "A) Only when cash is received.",
+      "B) On a straight-line basis over the lease term.",
+      "C) In full at the commencement of the lease.",
+      "D) Based on the interest rate implicit in the lease."
+    ],
+    "correctAnswer": "B) On a straight-line basis over the lease term.",
+    "explanation": "For operating leases, lessors recognize lease income on a straight-line basis over the lease term unless another systematic basis is more representative of the benefit usage."
+  },
+  {
+    "id": "c3q15",
+    "chapter": 3,
+    "chapterTitle": "IFRS 16 Leases",
+    "question": "Which of the following is an indicator that a lease might be a finance lease for a lessor?",
+    "options": [
+      "A) The lease term is for 10% of the asset's economic life.",
+      "B) The lessee can cancel the lease without any penalty.",
+      "C) The asset is specialized and can only be used by the lessee without major modification.",
+      "D) The fair value of the asset is significantly higher than the PV of rentals."
+    ],
+    "correctAnswer": "C) The asset is specialized and can only be used by the lessee without major modification.",
+    "explanation": "One of the situations that normally leads to a finance lease classification is when the leased asset is of such a specialized nature that only the lessee can use it without major modifications."
+  },
+  {
+    "id": "c4q1",
+    "chapter": 4,
+    "chapterTitle": "IAS 21 Foreign Currency Transactions",
+    "question": "According to IAS 21, what is 'Functional Currency'?",
+    "options": [
+      "A) The currency in which the financial statements are presented.",
+      "B) The currency of the primary economic environment in which the entity operates.",
+      "C) The currency of the country where the entity is legally registered.",
+      "D) Any currency other than the local currency."
+    ],
+    "correctAnswer": "B) The currency of the primary economic environment in which the entity operates.",
+    "explanation": "IAS 21 defines functional currency as the currency of the primary economic environment in which an entity operates."
+  },
+  {
+    "id": "c4q2",
+    "chapter": 4,
+    "chapterTitle": "IAS 21 Foreign Currency Transactions",
+    "question": "A Pakistani company (functional currency PKR) purchases goods from a US supplier for USD 10,000 on credit. At what rate should the transaction be initially recorded?",
+    "options": [
+      "A) The closing rate at the year-end.",
+      "B) The average rate for the month.",
+      "C) The spot exchange rate at the date of the transaction.",
+      "D) The forward rate for the settlement date."
+    ],
+    "correctAnswer": "C) The spot exchange rate at the date of the transaction.",
+    "explanation": "Foreign currency transactions must be recorded at initial recognition by applying the spot exchange rate between the functional currency and the foreign currency at the date of the transaction."
+  },
+  {
+    "id": "c4q3",
+    "chapter": 4,
+    "chapterTitle": "IAS 21 Foreign Currency Transactions",
+    "question": "Which of the following is classified as a 'Monetary Item' under IAS 21?",
+    "options": [
+      "A) Inventory",
+      "B) Goodwill",
+      "C) Trade Receivables",
+      "D) Property, Plant, and Equipment"
+    ],
+    "correctAnswer": "C) Trade Receivables",
+    "explanation": "Monetary items are units of currency held and assets/liabilities to be received/paid in a fixed or determinable number of units of currency. Trade receivables and lease liabilities are monetary, while PPE and inventory are non-monetary."
+  },
+  {
+    "id": "c4q4",
+    "chapter": 4,
+    "chapterTitle": "IAS 21 Foreign Currency Transactions",
+    "question": "At the end of the reporting period, how should foreign currency monetary items be re-translated?",
+    "options": [
+      "A) Using the historical spot rate.",
+      "B) Using the average rate for the period.",
+      "C) Using the closing rate at the reporting date.",
+      "D) They should not be re-translated."
+    ],
+    "correctAnswer": "C) Using the closing rate at the reporting date.",
+    "explanation": "IAS 21 requires that at each reporting date, monetary items in foreign currency must be re-translated using the closing rate."
+  },
+  {
+    "id": "c4q5",
+    "chapter": 4,
+    "chapterTitle": "IAS 21 Foreign Currency Transactions",
+    "question": "A company holds an investment in land in a foreign country, measured at historical cost in the foreign currency. At the reporting date, the company should:",
+    "options": [
+      "A) Re-translate the land using the closing rate.",
+      "B) Re-translate the land using the average rate.",
+      "C) Report the land using the exchange rate at the date of the transaction.",
+      "D) Recognize an exchange gain in OCI."
+    ],
+    "correctAnswer": "C) Report the land using the exchange rate at the date of the transaction.",
+    "explanation": "Non-monetary items measured at historical cost in a foreign currency are not re-translated at the reporting date; they continue to be reported using the exchange rate at the date of the transaction."
+  },
+  {
+    "id": "c4q6",
+    "chapter": 4,
+    "chapterTitle": "IAS 21 Foreign Currency Transactions",
+    "question": "Exchange differences arising on the settlement of monetary items should be recognized in:",
+    "options": [
+      "A) Other Comprehensive Income (OCI)",
+      "B) Profit or Loss",
+      "C) A separate reserve in Equity",
+      "D) Retained Earnings directly"
+    ],
+    "correctAnswer": "B) Profit or Loss",
+    "explanation": "Exchange differences arising on the settlement or translation of monetary items at rates different from those at which they were initially recorded are recognized in profit or loss in the period in which they arise."
+  },
+  {
+    "id": "c4q7",
+    "chapter": 4,
+    "chapterTitle": "IAS 21 Foreign Currency Transactions",
+    "question": "Which of the following is a primary indicator for determining an entity's functional currency?",
+    "options": [
+      "A) The currency in which funds from financing activities are generated.",
+      "B) The currency that mainly influences sales prices for goods and services.",
+      "C) The currency in which receipts from operating activities are retained.",
+      "D) The currency of the country where the head office is located."
+    ],
+    "correctAnswer": "B) The currency that mainly influences sales prices for goods and services.",
+    "explanation": "Primary indicators include the currency that mainly influences sales prices and the currency of the country whose competitive forces determine those prices."
+  },
+  {
+    "id": "c4q8",
+    "chapter": 4,
+    "chapterTitle": "IAS 21 Foreign Currency Transactions",
+    "question": "When an entity's functional currency changes, the entity shall:",
+    "options": [
+      "A) Apply the change retrospectively.",
+      "B) Apply the translation procedures to the new functional currency prospectively.",
+      "C) Restate all prior year figures.",
+      "D) Recognize the cumulative effect in OCI."
+    ],
+    "correctAnswer": "B) Apply the translation procedures to the new functional currency prospectively.",
+    "explanation": "Under IAS 21, a change in functional currency is accounted for prospectively from the date of the change."
+  },
+  {
+    "id": "c4q9",
+    "chapter": 4,
+    "chapterTitle": "IAS 21 Foreign Currency Transactions",
+    "question": "Presentation currency is defined as:",
+    "options": [
+      "A) The currency of the primary economic environment.",
+      "B) The currency in which the financial statements are presented.",
+      "C) Always the local currency of the country.",
+      "D) The currency used for internal management reporting."
+    ],
+    "correctAnswer": "B) The currency in which the financial statements are presented.",
+    "explanation": "Presentation currency is simply the currency in which an entity chooses to present its financial statements."
+  },
+  {
+    "id": "c4a10",
+    "chapter": 4,
+    "chapterTitle": "IAS 21 Foreign Currency Transactions",
+    "question": "If an entity translates its results into a presentation currency that is different from its functional currency, assets and liabilities are translated at:",
+    "options": [
+      "A) The average rate for the period.",
+      "B) The closing rate at the date of the statement of financial position.",
+      "C) The historical rate.",
+      "D) The opening rate of the year."
+    ],
+    "correctAnswer": "B) The closing rate at the date of the statement of financial position.",
+    "explanation": "For translation into a presentation currency, assets and liabilities are translated at the closing rate at the reporting date."
+  },
+  {
+    "id": "c4q11",
+    "chapter": 4,
+    "chapterTitle": "IAS 21 Foreign Currency Transactions",
+    "question": "When translating into a presentation currency, income and expenses are generally translated at:",
+    "options": [
+      "A) The closing rate.",
+      "B) The exchange rates at the dates of the transactions (or an average rate).",
+      "C) The opening rate.",
+      "D) The historical rate of the previous year."
+    ],
+    "correctAnswer": "B) The exchange rates at the dates of the transactions (or an average rate).",
+    "explanation": "Income and expenses are translated at the exchange rates at the dates of the transactions. For practical reasons, an average rate for the period is often used."
+  },
+  {
+    "id": "c4q12",
+    "chapter": 4,
+    "chapterTitle": "IAS 21 Foreign Currency Transactions",
+    "question": "A foreign exchange gain on a non-monetary item (like a revalued building) where the gain itself is recognized in OCI, should have its exchange component recognized in:",
+    "options": [
+      "A) Profit or Loss",
+      "B) Other Comprehensive Income",
+      "C) Finance Costs",
+      "D) Retained Earnings"
+    ],
+    "correctAnswer": "B) Other Comprehensive Income",
+    "explanation": "When a gain or loss on a non-monetary item is recognized in OCI, any exchange component of that gain or loss is also recognized in OCI."
+  },
+  {
+    "id": "c4q13",
+    "chapter": 4,
+    "chapterTitle": "IAS 21 Foreign Currency Transactions",
+    "question": "Which item is NOT a monetary item?",
+    "options": [
+      "A) Cash in hand",
+      "B) Trade payables",
+      "C) Advance payment for goods (Prepayment)",
+      "D) Bank loan"
+    ],
+    "correctAnswer": "C) Advance payment for goods (Prepayment)",
+    "explanation": "Prepayments are generally non-monetary items because they represent the right to receive goods or services rather than a fixed amount of currency."
+  },
+  {
+    "id": "c4q14",
+    "chapter": 4,
+    "chapterTitle": "IAS 21 Foreign Currency Transactions",
+    "question": "The currency that mainly influences labor, material, and other costs is considered a:",
+    "options": [
+      "A) Secondary indicator of functional currency.",
+      "B) Primary indicator of functional currency.",
+      "C) Presentation indicator.",
+      "D) Consolidation indicator."
+    ],
+    "correctAnswer": "B) Primary indicator of functional currency.",
+    "explanation": "Primary indicators include the currency that mainly influences labor, material, and other costs of providing goods or services."
+  },
+  {
+    "id": "c4q15",
+    "chapter": 4,
+    "chapterTitle": "IAS 21 Foreign Currency Transactions",
+    "question": "An entity can have:",
+    "options": [
+      "A) Multiple functional currencies.",
+      "B) Only one functional currency.",
+      "C) Only one presentation currency.",
+      "D) Multiple functional and only one presentation currency."
+    ],
+    "correctAnswer": "B) Only one functional currency.",
+    "explanation": "An entity has only one functional currency, which reflects the primary economic environment in which it operates. It can choose to have multiple presentation currencies."
+  },
+  {
+    "id": "c5q1",
+    "chapter": 5,
+    "chapterTitle": "IFRS 15 Revenue from Contracts with Customers",
+    "question": "Which of the following is Step 3 of the IFRS 15 five-step model?",
+    "options": [
+      "A) Identify the performance obligations in the contract.",
+      "B) Determine the transaction price.",
+      "C) Allocate the transaction price to the performance obligations.",
+      "D) Recognize revenue when the entity satisfies a performance obligation."
+    ],
+    "correctAnswer": "B) Determine the transaction price.",
+    "explanation": "The 5-step model is: 1. Identify contract, 2. Identify performance obligations, 3. Determine transaction price, 4. Allocate transaction price, 5. Recognize revenue."
+  },
+  {
+    "id": "c5q2",
+    "chapter": 5,
+    "chapterTitle": "IFRS 15 Revenue from Contracts with Customers",
+    "question": "Under IFRS 15, a contract with a customer exists only if:",
+    "options": [
+      "A) It is written and signed by both parties.",
+      "B) It is probable that the entity will collect the consideration.",
+      "C) The transaction price is fixed and cannot vary.",
+      "D) The customer has already paid the full amount."
+    ],
+    "correctAnswer": "B) It is probable that the entity will collect the consideration.",
+    "explanation": "One of the criteria for identifying a contract is that it is probable the entity will collect the consideration to which it will be entitled."
+  },
+  {
+    "id": "c5q3",
+    "chapter": 5,
+    "chapterTitle": "IFRS 15 Revenue from Contracts with Customers",
+    "question": "A company sells a machine and provides a 1-year service plan that is also sold separately. How many performance obligations are in this contract?",
+    "options": [
+      "A) One",
+      "B) Two",
+      "C) Three",
+      "D) None"
+    ],
+    "correctAnswer": "B) Two",
+    "explanation": "The machine and the service plan are distinct goods/services because the customer can benefit from each on its own and they are separately identifiable in the contract."
+  },
+  {
+    "id": "c5q4",
+    "chapter": 5,
+    "chapterTitle": "IFRS 15 Revenue from Contracts with Customers",
+    "question": "What is 'Variable Consideration'?",
+    "options": [
+      "A) The price change after a contract is completed.",
+      "B) Discounts, rebates, refunds, or performance bonuses.",
+      "C) The cost of shipping the goods.",
+      "D) Payments made in a foreign currency."
+    ],
+    "correctAnswer": "B) Discounts, rebates, refunds, or performance bonuses.",
+    "explanation": "Variable consideration occurs when the amount of consideration can vary due to factors like discounts, refunds, or bonuses."
+  },
+  {
+    "id": "c5q5",
+    "chapter": 5,
+    "chapterTitle": "IFRS 15 Revenue from Contracts with Customers",
+    "question": "Skyline Ltd sells 100 units at Rs. 200 each. Customers have a right to return within 30 days. Skyline expects 5 units to be returned. How much revenue should be recognized initially?",
+    "options": [
+      "A) Rs. 0",
+      "B) Rs. 1,000",
+      "C) Rs. 19,000",
+      "D) Rs. 20,000"
+    ],
+    "correctAnswer": "C) Rs. 19,000",
+    "explanation": "Revenue should be recognized for the amount Skyline expects to be entitled to (95 units x Rs. 200 = Rs. 19,000). The remaining Rs. 1,000 is recognized as a refund liability."
+  },
+  {
+    "id": "c5q6",
+    "chapter": 5,
+    "chapterTitle": "IFRS 15 Revenue from Contracts with Customers",
+    "question": "If a contract has a significant financing component (payment is delayed by 2 years), the transaction price should be:",
+    "options": [
+      "A) The total cash to be received in 2 years.",
+      "B) The cash selling price at the date of transfer.",
+      "C) The cost of the goods plus a 10% markup.",
+      "D) Recognized only when the cash is received."
+    ],
+    "correctAnswer": "B) The cash selling price at the date of transfer.",
+    "explanation": "The transaction price is adjusted for the time value of money if there is a significant financing component, typically reflecting the cash selling price at the time of transfer."
+  },
+  {
+    "id": "c5q7",
+    "chapter": 5,
+    "chapterTitle": "IFRS 15 Revenue from Contracts with Customers",
+    "question": "A bundle of Product A and Service B is sold for Rs. 800. Standalone prices are: A = Rs. 600, B = Rs. 400. How much is allocated to Product A?",
+    "options": [
+      "A) Rs. 400",
+      "B) Rs. 480",
+      "C) Rs. 500",
+      "D) Rs. 600"
+    ],
+    "correctAnswer": "B) Rs. 480",
+    "explanation": "Allocation is based on relative standalone selling prices. Total standalone = 1,000. Allocation to A = (600/1,000) * 800 = Rs. 480."
+  },
+  {
+    "id": "c5q8",
+    "chapter": 5,
+    "chapterTitle": "IFRS 15 Revenue from Contracts with Customers",
+    "question": "Revenue is recognized 'Over Time' if:",
+    "options": [
+      "A) The customer takes physical possession at the end.",
+      "B) The entity has a right to payment for work completed to date and the asset has no alternative use.",
+      "C) The transaction involves a single large payment.",
+      "D) The customer cannot benefit from the service until it is 100% finished."
+    ],
+    "correctAnswer": "B) The entity has a right to payment for work completed to date and the asset has no alternative use.",
+    "explanation": "One criterion for 'over time' recognition is when the entity's performance creates an asset with no alternative use and the entity has an enforceable right to payment for performance completed to date."
+  },
+  {
+    "id": "c5q9",
+    "chapter": 5,
+    "chapterTitle": "IFRS 15 Revenue from Contracts with Customers",
+    "question": "Control of an asset is transferred to a customer when the customer has:",
+    "options": [
+      "A) The intent to buy the asset.",
+      "B) The ability to direct the use of and obtain substantially all remaining benefits from the asset.",
+      "C) Paid at least 50% of the price.",
+      "D) Signed a non-binding letter of intent."
+    ],
+    "correctAnswer": "B) The ability to direct the use of and obtain substantially all remaining benefits from the asset.",
+    "explanation": "An asset is transferred when the customer obtains control, meaning they can direct its use and obtain substantially all its benefits."
+  },
+  {
+    "id": "c5q10",
+    "chapter": 5,
+    "chapterTitle": "IFRS 15 Revenue from Contracts with Customers",
+    "question": "If an entity acts as an 'Agent', how much revenue should it recognize?",
+    "options": [
+      "A) The gross amount of consideration received from the customer.",
+      "B) The net amount (commission) it expects to be entitled to.",
+      "C) Only the amount it pays to the principal.",
+      "D) No revenue, as it is a pass-through transaction."
+    ],
+    "correctAnswer": "B) The net amount (commission) it expects to be entitled to.",
+    "explanation": "An agent recognizes revenue only for the commission or fee it is entitled to, rather than the full transaction price."
+  },
+  {
+    "id": "c5q11",
+    "chapter": 5,
+    "chapterTitle": "IFRS 15 Revenue from Contracts with Customers",
+    "question": "A contract modification is treated as a 'Separate Contract' if the scope increases by adding distinct goods and:",
+    "options": [
+      "A) The price increases by a nominal amount.",
+      "B) The price increases by an amount that reflects the standalone selling price of the additional goods.",
+      "C) The customer pays for everything upfront.",
+      "D) The modification is oral rather than written."
+    ],
+    "correctAnswer": "B) The price increases by an amount that reflects the standalone selling price of the additional goods.",
+    "explanation": "A modification is a separate contract if it adds distinct goods/services and the price increase reflects their standalone selling prices."
+  },
+  {
+    "id": "c5q12",
+    "chapter": 5,
+    "chapterTitle": "IFRS 15 Revenue from Contracts with Customers",
+    "question": "Assurance-type warranties (that the product complies with agreed specifications) are accounted for under:",
+    "options": [
+      "A) IFRS 15 as a separate performance obligation.",
+      "B) IAS 37 as a provision.",
+      "C) IAS 2 as a cost of inventory.",
+      "D) IFRS 16 as a lease."
+    ],
+    "correctAnswer": "B) IAS 37 as a provision.",
+    "explanation": "Assurance-type warranties provide a guarantee of quality and are accounted for as provisions under IAS 37, not as separate performance obligations under IFRS 15."
+  },
+  {
+    "id": "c5q13",
+    "chapter": 5,
+    "chapterTitle": "IFRS 15 Revenue from Contracts with Customers",
+    "question": "When should an entity recognize a 'Contract Asset'?",
+    "options": [
+      "A) When it has an unconditional right to consideration.",
+      "B) When it has satisfied a performance obligation but the right to payment is conditional on something other than the passage of time.",
+      "C) When it receives an advance payment from a customer.",
+      "D) When the customer defaults on a payment."
+    ],
+    "correctAnswer": "B) When it has satisfied a performance obligation but the right to payment is conditional on something other than the passage of time.",
+    "explanation": "A contract asset represents the entity's right to consideration for goods/services transferred when that right is conditioned on something other than just time."
+  },
+  {
+    "id": "c5q14",
+    "chapter": 5,
+    "chapterTitle": "IFRS 15 Revenue from Contracts with Customers",
+    "question": "A company receives a non-refundable upfront fee for joining a health club. No services are provided yet. This should be recorded as:",
+    "options": [
+      "A) Immediate Revenue",
+      "B) Other Income",
+      "C) Contract Liability",
+      "D) Reduction in Marketing Expense"
+    ],
+    "correctAnswer": "C) Contract Liability",
+    "explanation": "If a customer pays consideration before the entity transfers a good or service, the entity recognizes a contract liability."
+  },
+  {
+    "id": "c5q15",
+    "chapter": 5,
+    "chapterTitle": "IFRS 15 Revenue from Contracts with Customers",
+    "question": "Revenue from a license that provides a 'Right to Use' the entity's intellectual property is recognized:",
+    "options": [
+      "A) Over the license period.",
+      "B) At a point in time when the license is granted.",
+      "C) Only when the customer makes a profit.",
+      "D) As an operating lease."
+    ],
+    "correctAnswer": "B) At a point in time when the license is granted.",
+    "explanation": "A 'right to use' license is satisfied at a point in time (the date the license is granted), whereas a 'right to access' is satisfied over time."
+  }
+]

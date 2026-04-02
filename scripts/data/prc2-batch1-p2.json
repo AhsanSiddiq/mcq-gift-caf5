@@ -1,0 +1,632 @@
+[
+  {
+    "id": "c4q1",
+    "chapter": 4,
+    "chapterTitle": "Linear Programming",
+    "question": "Which of the following best defines linear programming in a business context?",
+    "options": [
+      "A) A geometric method for estimating compounding future values.",
+      "B) A statistical tool used to establish the correlation between two independent variables.",
+      "C) A mathematical method for determining the best outcome, such as maximum profit, subject to limiting constraints.",
+      "D) A formula used exclusively to solve quadratic equations."
+    ],
+    "correctAnswer": "C) A mathematical method for determining the best outcome, such as maximum profit, subject to limiting constraints.",
+    "explanation": "Linear programming is a mathematical optimization technique used to find the best possible outcome (like minimizing cost or maximizing profit) within a given mathematical model containing linear constraints."
+  },
+  {
+    "id": "c4q2",
+    "chapter": 4,
+    "chapterTitle": "Linear Programming",
+    "question": "In a linear programming problem, what are the linear inequalities or restrictions placed on the variables formally called?",
+    "options": [
+      "A) Objective functions",
+      "B) Constraints",
+      "C) Feasible regions",
+      "D) Progressions"
+    ],
+    "correctAnswer": "B) Constraints",
+    "explanation": "Constraints represent the limiting factors in a business environment (like available labor hours or raw materials), which are mathematically expressed as linear inequalities or restrictions on the variables."
+  },
+  {
+    "id": "c4q3",
+    "chapter": 4,
+    "chapterTitle": "Linear Programming",
+    "question": "Which specific method or theorem is widely used to find the optimal combination of values for x and y within a feasible region?",
+    "options": [
+      "A) The quadratic theorem",
+      "B) The corner point theorem",
+      "C) The progression formula",
+      "D) The standard deviation method"
+    ],
+    "correctAnswer": "B) The corner point theorem",
+    "explanation": "The corner point theorem states that the optimal solution (maximum or minimum value) of a linear programming problem will always occur at one of the corner points (vertices) of the feasible region."
+  },
+  {
+    "id": "c4q4",
+    "chapter": 4,
+    "chapterTitle": "Linear Programming",
+    "question": "If a manufacturer has 4 workers, each working 8 hours a day, and it takes 2 hours of labor to produce one unit of product 'x', which inequality correctly represents the daily production constraint?",
+    "options": [
+      "A) 2x \u2264 32",
+      "B) x \u2265 32",
+      "C) 4x \u2264 8",
+      "D) 2x = 12"
+    ],
+    "correctAnswer": "A) 2x \u2264 32",
+    "explanation": "Total available labor hours per day are 4 workers * 8 hours = 32 hours. Since each unit takes 2 hours, the total labor time used (2x) must be less than or equal to the available time (32). Therefore, 2x \u2264 32."
+  },
+  {
+    "id": "c4q5",
+    "chapter": 4,
+    "chapterTitle": "Linear Programming",
+    "question": "What is the term for a constraint in a linear programming model that does not impact the formation of the feasible region because another constraint is already more restrictive?",
+    "options": [
+      "A) Optimum constraint",
+      "B) Feasible constraint",
+      "C) Redundant constraint",
+      "D) Negative constraint"
+    ],
+    "correctAnswer": "C) Redundant constraint",
+    "explanation": "A redundant constraint is an inequality that, if removed from the system, would not change the shape or boundaries of the feasible region because other constraints already limit the area more strictly."
+  },
+  {
+    "id": "c4q6",
+    "chapter": 4,
+    "chapterTitle": "Linear Programming",
+    "question": "Under what specific condition does the straight line representing a linear equation pass exactly through the origin (0,0)?",
+    "options": [
+      "A) When both x and y coefficients are negative.",
+      "B) When the constant term is zero.",
+      "C) When the inequality sign is strictly 'greater than'.",
+      "D) When the line is perfectly vertical."
+    ],
+    "correctAnswer": "B) When the constant term is zero.",
+    "explanation": "An equation in the form of Ax + By = C will pass precisely through the origin (where x=0 and y=0) only if the constant term 'C' is equal to zero."
+  },
+  {
+    "id": "c4q7",
+    "chapter": 4,
+    "chapterTitle": "Linear Programming",
+    "question": "Which of the following mathematical equations represents a straight line that passes through the origin?",
+    "options": [
+      "A) 2x + 5y = 10",
+      "B) x - y = 4",
+      "C) 3x - 4y = 0",
+      "D) y = 2x + 1"
+    ],
+    "correctAnswer": "C) 3x - 4y = 0",
+    "explanation": "Because the constant term is 0, plugging in x = 0 results in y = 0. Therefore, the line 3x - 4y = 0 intersects the origin (0,0)."
+  },
+  {
+    "id": "c4q8",
+    "chapter": 4,
+    "chapterTitle": "Linear Programming",
+    "question": "In a product mix decision, what does the inequality constraint x + y \u2264 150 signify?",
+    "options": [
+      "A) The difference between product x and y cannot exceed 150.",
+      "B) The combined production volume of products x and y cannot exceed 150 units.",
+      "C) The minimum production requirement for both products combined is 150.",
+      "D) At least 150 units of product x must be produced."
+    ],
+    "correctAnswer": "B) The combined production volume of products x and y cannot exceed 150 units.",
+    "explanation": "The addition of x and y represents combined production, and the '\u2264' sign means 'less than or equal to'. Therefore, their total combined units cannot go over 150."
+  },
+  {
+    "id": "c4q9",
+    "chapter": 4,
+    "chapterTitle": "Linear Programming",
+    "question": "For a strict production constraint given as x + y \u2264 80, what is the maximum possible value of x assuming production of y is halted entirely?",
+    "options": [
+      "A) 0",
+      "B) 40",
+      "C) 80",
+      "D) 160"
+    ],
+    "correctAnswer": "C) 80",
+    "explanation": "If the production of y is halted (y = 0), the inequality simplifies to x \u2264 80. Therefore, the maximum allowable value for x is 80."
+  },
+  {
+    "id": "c4q10",
+    "chapter": 4,
+    "chapterTitle": "Linear Programming",
+    "question": "What is the primary business logic behind enforcing the non-negativity constraints x \u2265 0 and y \u2265 0 in linear programming models?",
+    "options": [
+      "A) To ensure that the company never takes a loan.",
+      "B) Because physical quantities of products manufactured or sold cannot be negative.",
+      "C) To force the objective function to always yield a positive profit.",
+      "D) To place the feasible region exclusively in the third quadrant."
+    ],
+    "correctAnswer": "B) Because physical quantities of products manufactured or sold cannot be negative.",
+    "explanation": "In physical reality, a company cannot produce a negative number of items. The non-negativity constraint restricts the feasible region to the first quadrant to reflect this business reality."
+  },
+  {
+    "id": "c4q11",
+    "chapter": 4,
+    "chapterTitle": "Linear Programming",
+    "question": "Given an objective function designed to minimize cost where C = 3x + 4y, and the corner points of the feasible region are (2, 5), (4, 1), and (0, 6). Which point yields the minimum cost?",
+    "options": [
+      "A) (2, 5)",
+      "B) (4, 1)",
+      "C) (0, 6)",
+      "D) They all yield the same cost."
+    ],
+    "correctAnswer": "B) (4, 1)",
+    "explanation": "Testing the points: At (2, 5), C = 3(2) + 4(5) = 26. At (4, 1), C = 3(4) + 4(1) = 16. At (0, 6), C = 3(0) + 4(6) = 24. The minimum cost is 16, which occurs at point (4, 1)."
+  },
+  {
+    "id": "c4q12",
+    "chapter": 4,
+    "chapterTitle": "Linear Programming",
+    "question": "Identify the redundant constraint in the following system: x \u2264 5, y \u2264 6, and x \u2264 10.",
+    "options": [
+      "A) x \u2264 5",
+      "B) y \u2264 6",
+      "C) x \u2264 10",
+      "D) There is no redundant constraint."
+    ],
+    "correctAnswer": "C) x \u2264 10",
+    "explanation": "Because the constraint x \u2264 5 already strictly limits the value of x to 5 or less, the constraint stating x must be \u2264 10 is redundant; it provides no additional restriction on the feasible region."
+  },
+  {
+    "id": "c4q13",
+    "chapter": 4,
+    "chapterTitle": "Linear Programming",
+    "question": "Given the objective function to maximize profit P = 400x + 200y, and corner points of a feasible region at (0, 10), (8, 0), and (5, 5). What is the maximum profit achievable?",
+    "options": [
+      "A) Rs. 2,000",
+      "B) Rs. 3,000",
+      "C) Rs. 3,200",
+      "D) Rs. 4,000"
+    ],
+    "correctAnswer": "C) Rs. 3,200",
+    "explanation": "Evaluating the corner points: (0, 10) yields P = 2000. (8, 0) yields P = 400(8) = 3200. (5, 5) yields P = 400(5) + 200(5) = 2000 + 1000 = 3000. The maximum profit is Rs. 3,200 at (8, 0)."
+  },
+  {
+    "id": "c4q14",
+    "chapter": 4,
+    "chapterTitle": "Linear Programming",
+    "question": "Which of the following statements perfectly describes a feasible region?",
+    "options": [
+      "A) It is the single highest value calculated on a graph.",
+      "B) It is the specific area on a graph that satisfies all the given linear inequalities and constraints simultaneously.",
+      "C) It is the space where the objective function is automatically zero.",
+      "D) It is an area defined purely by negative values."
+    ],
+    "correctAnswer": "B) It is the specific area on a graph that satisfies all the given linear inequalities and constraints simultaneously.",
+    "explanation": "The feasible region is defined mathematically and graphically as the continuous set of all possible points that satisfy every constraint imposed by the problem."
+  },
+  {
+    "id": "c4q15",
+    "chapter": 4,
+    "chapterTitle": "Linear Programming",
+    "question": "A graphical boundary line is defined as x = 4. What does the inequality x \u2265 4 represent visually on the coordinate plane?",
+    "options": [
+      "A) The area exclusively to the left of the vertical line x = 4.",
+      "B) The area exclusively below the horizontal line x = 4.",
+      "C) The area extending to the right side of the vertical line x = 4.",
+      "D) A single point located at coordinates (4, 0)."
+    ],
+    "correctAnswer": "C) The area extending to the right side of the vertical line x = 4.",
+    "explanation": "The equation x = 4 represents a vertical line. The inequality x \u2265 4 includes the line itself and all the geometric space extending to the right, where x-values are greater than 4."
+  },
+  {
+    "id": "c5q1",
+    "chapter": 5,
+    "chapterTitle": "Financial Mathematics",
+    "question": "Ahmed invests Rs. 20,000 at a simple interest rate of 8% per annum. How much total interest will he accumulate after exactly 2.5 years?",
+    "options": [
+      "A) Rs. 3,000",
+      "B) Rs. 3,500",
+      "C) Rs. 4,000",
+      "D) Rs. 4,500"
+    ],
+    "correctAnswer": "C) Rs. 4,000",
+    "explanation": "Using the simple interest formula I = PRT: I = 20,000 * 0.08 * 2.5 = 4,000. He will earn Rs. 4,000 in interest."
+  },
+  {
+    "id": "c5q2",
+    "chapter": 5,
+    "chapterTitle": "Financial Mathematics",
+    "question": "Assuming a simple interest framework, how many years will it take for a deposited sum of money to exactly double itself if invested at an annual rate of 10%?",
+    "options": [
+      "A) 5 years",
+      "B) 8 years",
+      "C) 10 years",
+      "D) 12 years"
+    ],
+    "correctAnswer": "C) 10 years",
+    "explanation": "For money to double, the interest earned must equal the principal (I = P). Therefore, P = P * (0.10) * T. Dividing both sides by P leaves 1 = 0.10 * T, meaning T = 10 years."
+  },
+  {
+    "id": "c5q3",
+    "chapter": 5,
+    "chapterTitle": "Financial Mathematics",
+    "question": "If a principal amount of Rs. 2,000 is deposited at an interest rate of 6% per annum compounded annually, what will the total future value be after 3 years?",
+    "options": [
+      "A) Rs. 2,360.00",
+      "B) Rs. 2,382.03",
+      "C) Rs. 2,410.15",
+      "D) Rs. 2,450.00"
+    ],
+    "correctAnswer": "B) Rs. 2,382.03",
+    "explanation": "Using the compound interest formula S = P(1 + i)^n: S = 2000 * (1 + 0.06)^3 = 2000 * 1.191016 = 2,382.03."
+  },
+  {
+    "id": "c5q4",
+    "chapter": 5,
+    "chapterTitle": "Financial Mathematics",
+    "question": "An amount 'A' is invested for 5 years at an interest rate of 'B%' per annum compounded annually. Which standard formula correctly calculates the future value?",
+    "options": [
+      "A) A(1 + B/100)^5",
+      "B) A(1 + 100/B)^5",
+      "C) B(1 + A/100)^5",
+      "D) A + (A * B/100 * 5)"
+    ],
+    "correctAnswer": "A) A(1 + B/100)^5",
+    "explanation": "The standard compound interest formula is P(1 + r)^n. Here, P = A, the rate 'r' as a decimal is B/100, and n = 5. This yields A(1 + B/100)^5."
+  },
+  {
+    "id": "c5q5",
+    "chapter": 5,
+    "chapterTitle": "Financial Mathematics",
+    "question": "A university foundation establishes a fund with Rs. 800,000 invested. This fund is designed to provide a perpetual payment of Rs. 40,000 at the end of each year forever. What is the implied annual interest rate being earned?",
+    "options": [
+      "A) 4%",
+      "B) 5%",
+      "C) 6%",
+      "D) 8%"
+    ],
+    "correctAnswer": "B) 5%",
+    "explanation": "The present value of a perpetuity formula is PV = R / i. Rearranging to solve for the interest rate gives i = R / PV. Therefore, i = 40,000 / 800,000 = 0.05, or 5%."
+  },
+  {
+    "id": "c5q6",
+    "chapter": 5,
+    "chapterTitle": "Financial Mathematics",
+    "question": "What is the present value of a financial perpetuity paying Rs. 5,000 at the end of each month, assuming an underlying interest rate of 12% per annum compounded monthly?",
+    "options": [
+      "A) Rs. 41,666",
+      "B) Rs. 50,000",
+      "C) Rs. 416,666",
+      "D) Rs. 500,000"
+    ],
+    "correctAnswer": "D) Rs. 500,000",
+    "explanation": "First, convert the annual rate to a monthly rate: i = 12% / 12 = 1% or 0.01 per month. Using the perpetuity formula PV = R / i, we get PV = 5,000 / 0.01 = Rs. 500,000."
+  },
+  {
+    "id": "c5q7",
+    "chapter": 5,
+    "chapterTitle": "Financial Mathematics",
+    "question": "Under which specific timeline scenario will an investment yield exactly the same monetary amount under both simple interest and compound interest structures?",
+    "options": [
+      "A) At the exact halfway point of the investment.",
+      "B) At the end of the first compounding period.",
+      "C) Upon full maturity of a multi-year loan.",
+      "D) They will never be mathematically equal."
+    ],
+    "correctAnswer": "B) At the end of the first compounding period.",
+    "explanation": "Because compound interest calculates 'interest on interest,' this effect only begins after the first period concludes. Therefore, at the end of period 1 (e.g., Year 1), simple and compound interests yield identical returns."
+  },
+  {
+    "id": "c5q8",
+    "chapter": 5,
+    "chapterTitle": "Financial Mathematics",
+    "question": "Calculate the present value of an ordinary annuity where Rs. 4,000 is paid at the end of each year for a duration of 10 years, discounted at an interest rate of 5% per annum.",
+    "options": [
+      "A) Rs. 30,887",
+      "B) Rs. 32,500",
+      "C) Rs. 34,115",
+      "D) Rs. 40,000"
+    ],
+    "correctAnswer": "A) Rs. 30,887",
+    "explanation": "Using the PV of an ordinary annuity formula: PV = R * [1 - (1 + i)^-n] / i. PV = 4000 * [1 - (1.05)^-10] / 0.05. PV = 4000 * [1 - 0.6139] / 0.05 = 4000 * 7.7217 = Rs. 30,886.94."
+  },
+  {
+    "id": "c5q9",
+    "chapter": 5,
+    "chapterTitle": "Financial Mathematics",
+    "question": "If a nominal interest rate is strictly set at 10% per annum, which of the following compounding frequencies will mathematically produce the highest effective annual yield?",
+    "options": [
+      "A) Compounded Annually",
+      "B) Compounded Semi-annually",
+      "C) Compounded Quarterly",
+      "D) Compounded Monthly"
+    ],
+    "correctAnswer": "D) Compounded Monthly",
+    "explanation": "The effective annual yield increases as the compounding frequency increases. Among the choices provided, monthly compounding happens the most frequently (12 times a year), thus producing the highest effective rate."
+  },
+  {
+    "id": "c5q10",
+    "chapter": 5,
+    "chapterTitle": "Financial Mathematics",
+    "question": "A business investment generated exactly Rs. 1,500 in simple interest over a 3-year term based on an initial principal of Rs. 10,000. What was the annual interest rate?",
+    "options": [
+      "A) 4%",
+      "B) 5%",
+      "C) 6%",
+      "D) 7%"
+    ],
+    "correctAnswer": "B) 5%",
+    "explanation": "Using the formula I = PRT: 1,500 = 10,000 * R * 3. Therefore, 1,500 = 30,000 * R. Solving for R yields 1,500 / 30,000 = 0.05, which is 5%."
+  },
+  {
+    "id": "c5q11",
+    "chapter": 5,
+    "chapterTitle": "Financial Mathematics",
+    "question": "Mr. Zaid plans to deposit Rs. 2,000 at the end of each year for 5 consecutive years into an account paying 8% compounded annually. What is the total accumulated future value?",
+    "options": [
+      "A) Rs. 10,000.00",
+      "B) Rs. 10,800.50",
+      "C) Rs. 11,733.20",
+      "D) Rs. 12,450.80"
+    ],
+    "correctAnswer": "C) Rs. 11,733.20",
+    "explanation": "Using the FV of an ordinary annuity formula: FV = R * [(1 + i)^n - 1] / i. FV = 2000 * [(1.08)^5 - 1] / 0.08. FV = 2000 * [1.4693 - 1] / 0.08 = 2000 * 5.8666 = Rs. 11,733.20."
+  },
+  {
+    "id": "c5q12",
+    "chapter": 5,
+    "chapterTitle": "Financial Mathematics",
+    "question": "A manufacturing firm deposits Rs. 5,000 today into an account earning 10% compounded annually. They need the balance to grow to exactly Rs. 6,655. How many years will this take?",
+    "options": [
+      "A) 2 years",
+      "B) 3 years",
+      "C) 4 years",
+      "D) 5 years"
+    ],
+    "correctAnswer": "B) 3 years",
+    "explanation": "Using the compound interest formula S = P(1 + i)^n: 6655 = 5000(1.10)^n. Dividing by 5000 gives 1.331 = 1.10^n. Because 1.10 cubed is exactly 1.331, n = 3 years."
+  },
+  {
+    "id": "c5q13",
+    "chapter": 5,
+    "chapterTitle": "Financial Mathematics",
+    "question": "A delivery vehicle is purchased with an immediate down payment of Rs. 500,000 and an agreement to pay 12 monthly installments of Rs. 40,000 each. What is the total nominal cash price paid over time (ignoring time value of money)?",
+    "options": [
+      "A) Rs. 540,000",
+      "B) Rs. 980,000",
+      "C) Rs. 1,020,000",
+      "D) Rs. 1,100,000"
+    ],
+    "correctAnswer": "B) Rs. 980,000",
+    "explanation": "Total paid equals the down payment plus the sum of all installments: 500,000 + (12 * 40,000) = 500,000 + 480,000 = Rs. 980,000."
+  },
+  {
+    "id": "c5q14",
+    "chapter": 5,
+    "chapterTitle": "Financial Mathematics",
+    "question": "If a commercial bank advertises an interest rate of 12% compounded semi-annually, what is the precise periodic interest rate 'i' that should be used in financial formulas?",
+    "options": [
+      "A) 1%",
+      "B) 3%",
+      "C) 6%",
+      "D) 12%"
+    ],
+    "correctAnswer": "C) 6%",
+    "explanation": "Semi-annual compounding means the interest is calculated twice per year. Therefore, the annual rate must be divided by 2. The periodic rate 'i' is 12% / 2 = 6%."
+  },
+  {
+    "id": "c5q15",
+    "chapter": 5,
+    "chapterTitle": "Financial Mathematics",
+    "question": "In standard mathematical finance formulas, what does the mathematical component (1 + i)^-n explicitly represent?",
+    "options": [
+      "A) The future value compounding factor.",
+      "B) The present value discounting factor.",
+      "C) The annuity scaling ratio.",
+      "D) The internal rate of return."
+    ],
+    "correctAnswer": "B) The present value discounting factor.",
+    "explanation": "The term (1 + i)^-n, which is mathematically equivalent to 1 / (1 + i)^n, is the standard discount factor used to convert future cash flows into present value."
+  },
+  {
+    "id": "c6q1",
+    "chapter": 6,
+    "chapterTitle": "Discounted Cash Flows",
+    "question": "Which of the following definitions accurately describes Net Present Value (NPV) in project appraisal?",
+    "options": [
+      "A) The absolute sum of all undiscounted future cash inflows minus initial cost.",
+      "B) The specific interest rate at which a project exactly breaks even.",
+      "C) The difference between the present value of cash inflows and the present value of cash outflows over a specific period.",
+      "D) The total time required to recover the initial capital investment."
+    ],
+    "correctAnswer": "C) The difference between the present value of cash inflows and the present value of cash outflows over a specific period.",
+    "explanation": "Net Present Value (NPV) evaluates an investment by discounting all expected future cash inflows and outflows to their present value equivalent, then finding the net difference between them."
+  },
+  {
+    "id": "c6q2",
+    "chapter": 6,
+    "chapterTitle": "Discounted Cash Flows",
+    "question": "If the calculated Internal Rate of Return (IRR) is used as the specific discount rate to evaluate a project's cash flows, the resulting Net Present Value (NPV) will mathematically be:",
+    "options": [
+      "A) Highly positive",
+      "B) Deeply negative",
+      "C) Equal to the initial investment",
+      "D) Exactly zero"
+    ],
+    "correctAnswer": "D) Exactly zero",
+    "explanation": "By definition, the Internal Rate of Return (IRR) is the exact discount rate that forces the present value of future cash inflows to equal the initial investment, making the NPV zero."
+  },
+  {
+    "id": "c6q3",
+    "chapter": 6,
+    "chapterTitle": "Discounted Cash Flows",
+    "question": "According to standard corporate finance rules, an independent investment project should generally be accepted if its Net Present Value (NPV) is:",
+    "options": [
+      "A) Less than zero",
+      "B) Equal to the inflation rate",
+      "C) Positive (greater than zero)",
+      "D) Equal to the payback period"
+    ],
+    "correctAnswer": "C) Positive (greater than zero)",
+    "explanation": "A positive NPV indicates that the projected earnings generated by a project or investment (in present dollars) exceed the anticipated costs (also in present dollars), making it a profitable venture to accept."
+  },
+  {
+    "id": "c6q4",
+    "chapter": 6,
+    "chapterTitle": "Discounted Cash Flows",
+    "question": "When utilizing the Internal Rate of Return (IRR) appraisal method, an investment project is deemed financially viable and acceptable when the calculated IRR is:",
+    "options": [
+      "A) Less than the prevailing inflation rate.",
+      "B) Exactly zero percent.",
+      "C) Less than the company's established cost of capital.",
+      "D) Greater than the company's established cost of capital."
+    ],
+    "correctAnswer": "D) Greater than the company's established cost of capital.",
+    "explanation": "The IRR rule states that an investment should be accepted if its internal rate of return exceeds the cost of capital (or hurdle rate) required to finance it."
+  },
+  {
+    "id": "c6q5",
+    "chapter": 6,
+    "chapterTitle": "Discounted Cash Flows",
+    "question": "Which traditional investment appraisal method specifically measures the chronological time required for cumulative cash inflows to equal the initial capital outlay?",
+    "options": [
+      "A) Net Present Value",
+      "B) Internal Rate of Return",
+      "C) Payback Period",
+      "D) Profitability Index"
+    ],
+    "correctAnswer": "C) Payback Period",
+    "explanation": "The payback period simply calculates how long it takes for a business to completely recover its initial investment out of the net cash inflows generated by the project."
+  },
+  {
+    "id": "c6q6",
+    "chapter": 6,
+    "chapterTitle": "Discounted Cash Flows",
+    "question": "A proposed factory upgrade costs Rs. 100,000 and is projected to generate Rs. 25,000 annually in uniform net cash inflows. What is the exact payback period for this upgrade?",
+    "options": [
+      "A) 2 years",
+      "B) 3 years",
+      "C) 4 years",
+      "D) 5 years"
+    ],
+    "correctAnswer": "C) 4 years",
+    "explanation": "When cash flows are uniform, the payback period is calculated as Initial Investment / Annual Cash Flow. Here, 100,000 / 25,000 = exactly 4 years."
+  },
+  {
+    "id": "c6q7",
+    "chapter": 6,
+    "chapterTitle": "Discounted Cash Flows",
+    "question": "A firm invests Rs. 10 million today. The firm's cost of capital is 10%. The project will yield exactly Rs. 12 million one year from now. What is the Net Present Value (NPV) in millions?",
+    "options": [
+      "A) Rs. 0.909 million",
+      "B) Rs. 1.090 million",
+      "C) Rs. 2.000 million",
+      "D) Rs. 12.000 million"
+    ],
+    "correctAnswer": "A) Rs. 0.909 million",
+    "explanation": "First, find the PV of the inflow: 12 million / (1 + 0.10)^1 = 10.909 million. Then, subtract the initial investment: 10.909 million - 10 million = 0.909 million."
+  },
+  {
+    "id": "c6q8",
+    "chapter": 6,
+    "chapterTitle": "Discounted Cash Flows",
+    "question": "A new tech venture requires Rs. 5 million upfront. It will generate Rs. 2 million in year 1 and Rs. 4 million in year 2. If the discount rate is 8%, what is the approximate NPV?",
+    "options": [
+      "A) Rs. 0.28 million",
+      "B) Rs. 0.55 million",
+      "C) Rs. 1.00 million",
+      "D) Rs. 1.28 million"
+    ],
+    "correctAnswer": "A) Rs. 0.28 million",
+    "explanation": "PV of Year 1 = 2 / 1.08 = 1.851. PV of Year 2 = 4 / (1.08)^2 = 4 / 1.1664 = 3.429. Total PV = 1.851 + 3.429 = 5.280. NPV = Total PV - Initial Cost = 5.280 - 5.000 = 0.28 million."
+  },
+  {
+    "id": "c6q9",
+    "chapter": 6,
+    "chapterTitle": "Discounted Cash Flows",
+    "question": "In the context of capital budgeting and discounted analysis, what does the term 'cash flow' technically represent?",
+    "options": [
+      "A) Only the non-cash depreciation expenses of a firm.",
+      "B) The actual movement of money into and out of a business over a specific period.",
+      "C) The theoretical accounting profit reported on an income statement.",
+      "D) The static balance of cash held in a bank account on a given day."
+    ],
+    "correctAnswer": "B) The actual movement of money into and out of a business over a specific period.",
+    "explanation": "Cash flow is fundamentally the real, physical movement of money into a business (inflows from sales/returns) and out of a business (outflows for costs/investments)."
+  },
+  {
+    "id": "c6q10",
+    "chapter": 6,
+    "chapterTitle": "Discounted Cash Flows",
+    "question": "Which of the following is widely considered the most significant limitation of the basic Payback Period appraisal method?",
+    "options": [
+      "A) It is too complex for non-financial managers to understand.",
+      "B) It completely ignores the time value of money.",
+      "C) It relies too heavily on precise discount rates.",
+      "D) It only works for projects lasting longer than 10 years."
+    ],
+    "correctAnswer": "B) It completely ignores the time value of money.",
+    "explanation": "The basic payback method treats a Rupee received in Year 5 as having the exact same value as a Rupee received in Year 1, critically ignoring the fundamental concept of the time value of money."
+  },
+  {
+    "id": "c6q11",
+    "chapter": 6,
+    "chapterTitle": "Discounted Cash Flows",
+    "question": "A proposed project has an NPV of Rs. 6,000 when discounted at 10%, and an NPV of Rs. (2,000) when discounted at 14%. Using the linear interpolation formula, what is the approximate IRR?",
+    "options": [
+      "A) 11%",
+      "B) 12%",
+      "C) 13%",
+      "D) 14%"
+    ],
+    "correctAnswer": "C) 13%",
+    "explanation": "Using linear interpolation: IRR = L + [NPV_L / (NPV_L - NPV_H)] * (H - L). IRR = 10% + [6000 / (6000 - (-2000))] * (14% - 10%). IRR = 10 + (6000 / 8000) * 4 = 10 + (0.75 * 4) = 10 + 3 = 13%."
+  },
+  {
+    "id": "c6q12",
+    "chapter": 6,
+    "chapterTitle": "Discounted Cash Flows",
+    "question": "The mathematical process of discounting future cash flows back to the present time is primarily executed to account for which financial principle?",
+    "options": [
+      "A) Corporate tax liabilities",
+      "B) Straight-line depreciation",
+      "C) The time value of money",
+      "D) Economies of scale"
+    ],
+    "correctAnswer": "C) The time value of money",
+    "explanation": "Discounting mathematically reverses compounding to find the present equivalent of a future sum, explicitly acknowledging the time value of money (that money today is worth more than money tomorrow)."
+  },
+  {
+    "id": "c6q13",
+    "chapter": 6,
+    "chapterTitle": "Discounted Cash Flows",
+    "question": "How is the Internal Rate of Return (IRR) mathematically defined within standard discounted cash flow analysis?",
+    "options": [
+      "A) The discount rate that equates the present value of expected cash inflows to the initial investment cost.",
+      "B) The interest rate charged by central banks to corporate entities.",
+      "C) The sum of all future cash flows divided by the project's lifespan.",
+      "D) The minimum acceptable payback period defined by management."
+    ],
+    "correctAnswer": "A) The discount rate that equates the present value of expected cash inflows to the initial investment cost.",
+    "explanation": "The IRR is the exact 'break-even' discount rate where the PV of inflows perfectly matches the PV of outflows, resulting in a Net Present Value of exactly zero."
+  },
+  {
+    "id": "c6q14",
+    "chapter": 6,
+    "chapterTitle": "Discounted Cash Flows",
+    "question": "If a firm must choose between two mutually exclusive projects, Project A and Project B, both of which possess positive NPVs, but Project A has a substantially higher NPV, the firm should:",
+    "options": [
+      "A) Accept both projects to maximize combined value.",
+      "B) Reject both projects and seek higher returns elsewhere.",
+      "C) Accept Project B because it is likely cheaper.",
+      "D) Accept Project A and reject Project B."
+    ],
+    "correctAnswer": "D) Accept Project A and reject Project B.",
+    "explanation": "When projects are mutually exclusive, a firm can only undertake one. The rule dictates accepting the project that adds the most absolute value to the firm, which is the one with the highest NPV (Project A)."
+  },
+  {
+    "id": "c6q15",
+    "chapter": 6,
+    "chapterTitle": "Discounted Cash Flows",
+    "question": "In standard discounted cash flow modeling, how is the initial capital investment required to start a project typically treated?",
+    "options": [
+      "A) As a cash inflow spread over the life of the project.",
+      "B) As a cash outflow occurring in Year 0, which is not discounted.",
+      "C) As a heavily discounted expense recorded in the final year.",
+      "D) It is ignored completely since it is a sunk cost."
+    ],
+    "correctAnswer": "B) As a cash outflow occurring in Year 0, which is not discounted.",
+    "explanation": "The initial capital outlay occurs immediately at the start of the project timeline (Year 0). Because no time has elapsed, its present value is equal to its face value, meaning it requires no discounting."
+  }
+]

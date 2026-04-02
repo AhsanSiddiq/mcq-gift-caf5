@@ -1,0 +1,632 @@
+[
+  {
+    "id": "c7q1",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "Which of the following is the best example of continuous data?",
+    "options": [
+      "A) The exact number of employees working in a manufacturing plant.",
+      "B) The precise weight of a shipment of raw materials in kilograms.",
+      "C) The number of defective items found in a daily batch.",
+      "D) The total number of branches a bank operates across the country."
+    ],
+    "correctAnswer": "B) The precise weight of a shipment of raw materials in kilograms.",
+    "explanation": "Continuous data can take any value within a given range and can be measured to any degree of accuracy, such as weight, height, or time. Options A, C, and D are examples of discrete data because they can only take distinct, whole numbers."
+  },
+  {
+    "id": "c7q2",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "When constructing a grouped frequency distribution, what is the mathematical difference between the upper class boundary and the lower class boundary called?",
+    "options": [
+      "A) Class mark",
+      "B) Class limit",
+      "C) Class width",
+      "D) Class frequency"
+    ],
+    "correctAnswer": "C) Class width",
+    "explanation": "The class width (or class interval size) is formally calculated as the mathematical difference between the exact upper class boundary and the lower class boundary of a specific group."
+  },
+  {
+    "id": "c7q3",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "In statistics, how is the 'relative frequency' of a specific class calculated?",
+    "options": [
+      "A) By adding the frequency of the current class to the previous class.",
+      "B) By dividing the class frequency by the total frequency of all classes.",
+      "C) By multiplying the class mark by the class frequency.",
+      "D) By subtracting the lower class limit from the upper class limit."
+    ],
+    "correctAnswer": "B) By dividing the class frequency by the total frequency of all classes.",
+    "explanation": "Relative frequency represents the proportion of data that falls into a particular class. It is determined by dividing the frequency of that specific class by the total sum of frequencies in the entire dataset."
+  },
+  {
+    "id": "c7q4",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "Which of the following graphical representations is specifically constructed by plotting cumulative frequencies?",
+    "options": [
+      "A) Histogram",
+      "B) Pie Chart",
+      "C) Ogive",
+      "D) Bar Chart"
+    ],
+    "correctAnswer": "C) Ogive",
+    "explanation": "An ogive is a cumulative frequency polygon. It is drawn by plotting the cumulative frequencies against the upper class boundaries of a dataset."
+  },
+  {
+    "id": "c7q5",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "A researcher conducts direct interviews with consumers to gather opinions on a new product. What type of data is being collected?",
+    "options": [
+      "A) Secondary data",
+      "B) Primary data",
+      "C) Continuous data",
+      "D) Grouped data"
+    ],
+    "correctAnswer": "B) Primary data",
+    "explanation": "Primary data is information collected firsthand by the researcher for a specific original purpose. Direct interviews, surveys, and focus groups are classic examples of primary data collection."
+  },
+  {
+    "id": "c7q6",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "In a stem-and-leaf display, the 'stem' typically represents which part of the numerical data?",
+    "options": [
+      "A) Only the decimal values.",
+      "B) The final trailing digit.",
+      "C) The leading digit(s) of the data values.",
+      "D) The frequency of the data."
+    ],
+    "correctAnswer": "C) The leading digit(s) of the data values.",
+    "explanation": "In a standard stem-and-leaf plot, the 'stem' represents the leading digit or digits (like the tens place), while the 'leaf' represents the final trailing digit (like the units place)."
+  },
+  {
+    "id": "c7q7",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "Given the class interval '40 - 49' in a continuous dataset, what is the exact midpoint (class mark)?",
+    "options": [
+      "A) 44.5",
+      "B) 45.0",
+      "C) 44.0",
+      "D) 49.5"
+    ],
+    "correctAnswer": "A) 44.5",
+    "explanation": "The class mark (midpoint) is calculated by adding the lower limit and upper limit, then dividing by two. (40 + 49) / 2 = 89 / 2 = 44.5."
+  },
+  {
+    "id": "c7q8",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "Which specific statistical measure can be visually estimated by locating the 50% mark on the y-axis of a cumulative frequency ogive?",
+    "options": [
+      "A) Mean",
+      "B) Median",
+      "C) Mode",
+      "D) Standard Deviation"
+    ],
+    "correctAnswer": "B) Median",
+    "explanation": "Because an ogive maps the accumulation of data, drawing a horizontal line from the 50% mark (the middle of the total frequency) to the curve, and then dropping down to the x-axis, accurately estimates the median."
+  },
+  {
+    "id": "c7q9",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "When drawing a pie chart to represent regional sales, if Region A accounts for Rs. 250,000 out of a total Rs. 1,000,000 in sales, what is the angle of Region A's sector?",
+    "options": [
+      "A) 25 degrees",
+      "B) 45 degrees",
+      "C) 90 degrees",
+      "D) 120 degrees"
+    ],
+    "correctAnswer": "C) 90 degrees",
+    "explanation": "The formula for a pie chart sector angle is (Category Value / Total Value) * 360. Here, (250,000 / 1,000,000) * 360 = 0.25 * 360 = 90 degrees."
+  },
+  {
+    "id": "c7q10",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "What is the primary visual function of a standard histogram?",
+    "options": [
+      "A) To show the percentage distribution of qualitative data.",
+      "B) To display the frequency distribution of continuous grouped data using adjacent vertical bars.",
+      "C) To map out the relationship between two independent variables.",
+      "D) To show cumulative totals over time."
+    ],
+    "correctAnswer": "B) To display the frequency distribution of continuous grouped data using adjacent vertical bars.",
+    "explanation": "A histogram is a graphical representation of grouped continuous data. It uses adjacent vertical bars where the area of each bar is proportional to the frequency of that specific class."
+  },
+  {
+    "id": "c7q11",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "If a researcher utilizes data originally published in an economic journal from a decade ago, this data is classified as:",
+    "options": [
+      "A) Primary data",
+      "B) Secondary data",
+      "C) Ungrouped data",
+      "D) Subjective data"
+    ],
+    "correctAnswer": "B) Secondary data",
+    "explanation": "Secondary data is information that was already collected by someone else for another purpose and published previously, such as reports in journals, government census databases, or historical books."
+  },
+  {
+    "id": "c7q12",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "In a box and whisker plot, the central box visually represents which portion of the dataset?",
+    "options": [
+      "A) The entire range from minimum to maximum.",
+      "B) The interquartile range (the middle 50% of the data).",
+      "C) The highest 25% of the data.",
+      "D) The standard deviation."
+    ],
+    "correctAnswer": "B) The interquartile range (the middle 50% of the data).",
+    "explanation": "The 'box' in a box and whisker plot spans from the first quartile (Q1) to the third quartile (Q3), visually highlighting the interquartile range, which contains the middle 50% of the data values."
+  },
+  {
+    "id": "c7q13",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "A raw list of unstructured, unorganized numbers collected from an initial survey is referred to as:",
+    "options": [
+      "A) Arrayed data",
+      "B) Ungrouped data",
+      "C) Continuous variables",
+      "D) A frequency polygon"
+    ],
+    "correctAnswer": "B) Ungrouped data",
+    "explanation": "Raw data that has just been collected and has not yet been sorted, arrayed, or structured into frequency distribution classes is known strictly as ungrouped data."
+  },
+  {
+    "id": "c7q14",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "Consider a stem-and-leaf plot where the stem is '6' and the associated leaves are '2, 5, 8'. What actual data points does this represent?",
+    "options": [
+      "A) 6, 2, 5, 8",
+      "B) 6.2, 6.5, 6.8",
+      "C) 62, 65, 68",
+      "D) 26, 56, 86"
+    ],
+    "correctAnswer": "C) 62, 65, 68",
+    "explanation": "In a traditional stem-and-leaf setup for two-digit integers, the stem represents the tens digit (6) and the leaves represent the ones digit, resulting in the distinct values 62, 65, and 68."
+  },
+  {
+    "id": "c7q15",
+    "chapter": 7,
+    "chapterTitle": "Data - Collection and Representation",
+    "question": "Which of the following charts is most appropriate for displaying categorical (qualitative) data to show parts of a whole?",
+    "options": [
+      "A) Histogram",
+      "B) Ogive",
+      "C) Pie Chart",
+      "D) Frequency Polygon"
+    ],
+    "correctAnswer": "C) Pie Chart",
+    "explanation": "A pie chart breaks down a whole circle into 'slices' based on categories, making it the ideal choice for displaying how different qualitative categories contribute to a total percentage."
+  },
+  {
+    "id": "c8q1",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "If an instructor decides to arbitrarily increase every student's test score by exactly 5 marks, what will happen to the arithmetic mean of the test scores?",
+    "options": [
+      "A) It will remain completely unchanged.",
+      "B) It will increase by exactly 5 units.",
+      "C) It will increase by 25 units.",
+      "D) It cannot be determined without the original scores."
+    ],
+    "correctAnswer": "B) It will increase by exactly 5 units.",
+    "explanation": "A key mathematical property of the arithmetic mean is that it is affected by a change of origin. If a constant 'c' is added to every observation in a dataset, the mean itself simply increases by that exact constant."
+  },
+  {
+    "id": "c8q2",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "Find the median of the following ungrouped data set: 14, 8, 22, 19, 5.",
+    "options": [
+      "A) 13.6",
+      "B) 14",
+      "C) 22",
+      "D) 8"
+    ],
+    "correctAnswer": "B) 14",
+    "explanation": "To find the median, first sort the data in ascending order: 5, 8, 14, 19, 22. Because there is an odd number of observations (5), the median is exactly the middle value, which is 14."
+  },
+  {
+    "id": "c8q3",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "In a highly skewed distribution, which statistical measure of central tendency is typically considered the most robust and representative?",
+    "options": [
+      "A) Arithmetic Mean",
+      "B) Geometric Mean",
+      "C) Median",
+      "D) Mode"
+    ],
+    "correctAnswer": "C) Median",
+    "explanation": "The median is largely unaffected by extreme outliers or heavily skewed data, making it the most representative measure of the 'center' compared to the mean, which is heavily distorted by extreme values."
+  },
+  {
+    "id": "c8q4",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "Group X consists of 40 items with a mean of 50. Group Y consists of 60 items with a mean of 70. What is the combined mean of the two groups?",
+    "options": [
+      "A) 60",
+      "B) 62",
+      "C) 64",
+      "D) 65"
+    ],
+    "correctAnswer": "B) 62",
+    "explanation": "Using the combined mean formula: ((n1 * Mean1) + (n2 * Mean2)) / (n1 + n2). This gives ((40 * 50) + (60 * 70)) / 100 = (2000 + 4200) / 100 = 6200 / 100 = 62."
+  },
+  {
+    "id": "c8q5",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "If the calculated variance for a specific set of financial data is strictly 144, what is the standard deviation of that data?",
+    "options": [
+      "A) 12",
+      "B) -12",
+      "C) 144",
+      "D) 20,736"
+    ],
+    "correctAnswer": "A) 12",
+    "explanation": "Standard deviation is mathematically defined as the positive square root of the variance. The square root of 144 is 12. Standard deviation cannot be a negative number."
+  },
+  {
+    "id": "c8q6",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "What is the mathematical sum of the deviations of all individual observations from their arithmetic mean?",
+    "options": [
+      "A) 1",
+      "B) The variance",
+      "C) Exactly zero",
+      "D) The standard deviation"
+    ],
+    "correctAnswer": "C) Exactly zero",
+    "explanation": "A fundamental property of the arithmetic mean is that the sum of the differences (deviations) between each data point and the mean is always precisely zero."
+  },
+  {
+    "id": "c8q7",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "Which specific measure of central tendency is most mathematically appropriate for averaging rates of change, speed, or unit prices?",
+    "options": [
+      "A) Geometric Mean",
+      "B) Harmonic Mean",
+      "C) Arithmetic Mean",
+      "D) Median"
+    ],
+    "correctAnswer": "B) Harmonic Mean",
+    "explanation": "The harmonic mean is specifically preferred for dealing with ratios, rates of change, and speeds (e.g., calculating average travel speed over different distances)."
+  },
+  {
+    "id": "c8q8",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "Which of the following values is perfectly equivalent to the Second Quartile (Q2) of a dataset?",
+    "options": [
+      "A) The Mean",
+      "B) The Mode",
+      "C) The Median",
+      "D) The 25th Percentile"
+    ],
+    "correctAnswer": "C) The Median",
+    "explanation": "The second quartile (Q2) splits the data exactly in half (the 50th percentile), making it mathematically and conceptually identical to the median."
+  },
+  {
+    "id": "c8q9",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "How is the Interquartile Range (IQR) formally calculated?",
+    "options": [
+      "A) Maximum Value minus Minimum Value",
+      "B) Third Quartile (Q3) minus First Quartile (Q1)",
+      "C) (Third Quartile minus First Quartile) / 2",
+      "D) Mean minus Median"
+    ],
+    "correctAnswer": "B) Third Quartile (Q3) minus First Quartile (Q1)",
+    "explanation": "The Interquartile Range measures the spread of the middle 50% of the dataset. It is strictly calculated by subtracting the lower quartile (Q1) from the upper quartile (Q3)."
+  },
+  {
+    "id": "c8q10",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "A dataset contains the values 10, 10, 10, 10, and 10. What is the standard deviation of this set?",
+    "options": [
+      "A) 10",
+      "B) 5",
+      "C) 0",
+      "D) 1"
+    ],
+    "correctAnswer": "C) 0",
+    "explanation": "Standard deviation measures the dispersion or spread of data around the mean. Since all values are identical, there is absolutely no variation, meaning the standard deviation is 0."
+  },
+  {
+    "id": "c8q11",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "Which of the following statements regarding the statistical measure of 'variance' is universally true?",
+    "options": [
+      "A) Variance can be a negative number.",
+      "B) Variance is always positive or zero.",
+      "C) Variance is measured in the exact same units as the original data.",
+      "D) Variance is completely unaffected by multiplication."
+    ],
+    "correctAnswer": "B) Variance is always positive or zero.",
+    "explanation": "Because variance is calculated by squaring the deviations from the mean, the result can never be negative. It is always a positive number or exactly zero (if there is no spread)."
+  },
+  {
+    "id": "c8q12",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "If you multiply every observation in a dataset by a constant 'k', what will happen to the new standard deviation?",
+    "options": [
+      "A) It remains unchanged.",
+      "B) It is multiplied by k.",
+      "C) It is multiplied by k squared.",
+      "D) It increases by k."
+    ],
+    "correctAnswer": "B) It is multiplied by k.",
+    "explanation": "Standard deviation is affected by a change of scale. If every value is multiplied by a constant 'k', the standard deviation of the new set is exactly the old standard deviation multiplied by 'k'."
+  },
+  {
+    "id": "c8q13",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "Which measure of central tendency is defined as the value that appears most frequently in a given dataset?",
+    "options": [
+      "A) Mean",
+      "B) Median",
+      "C) Mode",
+      "D) Range"
+    ],
+    "correctAnswer": "C) Mode",
+    "explanation": "The mode is strictly defined as the observation that occurs with the highest frequency in a dataset. A dataset can have one mode, multiple modes, or no mode at all."
+  },
+  {
+    "id": "c8q14",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "For a symmetrical (normal) distribution curve, which relationship between the mean, median, and mode is correct?",
+    "options": [
+      "A) Mean > Median > Mode",
+      "B) Mean < Median < Mode",
+      "C) Mean = Median = Mode",
+      "D) Mode is zero"
+    ],
+    "correctAnswer": "C) Mean = Median = Mode",
+    "explanation": "In a perfectly symmetrical, normal distribution, the data is evenly balanced around the center, causing the mean, median, and mode to all fall on the exact same numerical value."
+  },
+  {
+    "id": "c8q15",
+    "chapter": 8,
+    "chapterTitle": "Statistical Measures of Data",
+    "question": "The mean of 5 observations is incorrectly recorded as 40. Upon review, it was found that a value of 25 was mistakenly read as 50. What is the correct mean?",
+    "options": [
+      "A) 35",
+      "B) 45",
+      "C) 30",
+      "D) 38"
+    ],
+    "correctAnswer": "A) 35",
+    "explanation": "Incorrect total sum = 5 * 40 = 200. The error added 25 too much (50 - 25). The correct sum is 200 - 25 = 175. The correct mean is 175 / 5 = 35."
+  },
+  {
+    "id": "c9q1",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "Which of the following best describes the fundamental purpose of constructing economic index numbers?",
+    "options": [
+      "A) To calculate precise future values of single investments.",
+      "B) To measure relative changes in the magnitude of variables, like prices or quantities, over time.",
+      "C) To determine the absolute statistical variance of a population.",
+      "D) To establish the correlation coefficient between two specific industries."
+    ],
+    "correctAnswer": "B) To measure relative changes in the magnitude of variables, like prices or quantities, over time.",
+    "explanation": "Index numbers are specialized statistical tools designed strictly to measure relative changes in the level of a phenomenon (like prices, wages, or production volumes) with respect to time or geographical location."
+  },
+  {
+    "id": "c9q2",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "In the construction of an index number, the period against which all other periods are being compared is technically referred to as the:",
+    "options": [
+      "A) Current period",
+      "B) Base period",
+      "C) Linked period",
+      "D) Weighted period"
+    ],
+    "correctAnswer": "B) Base period",
+    "explanation": "The base period (or base year) is the reference point in time. It is typically assigned an index value of 100, and subsequent current periods are calculated as a percentage relative to this base."
+  },
+  {
+    "id": "c9q3",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "Which standard mathematical formula is used to calculate a 'Simple Price Relative' for a single commodity?",
+    "options": [
+      "A) (Current Price / Base Price) * 100",
+      "B) (Base Price / Current Price) * 100",
+      "C) Current Price - Base Price",
+      "D) (Current Quantity / Base Quantity) * 100"
+    ],
+    "correctAnswer": "A) (Current Price / Base Price) * 100",
+    "explanation": "A simple price relative expresses the price of a single item in the current period (p1) as a percentage of its price in the base period (p0). The formula is (p1 / p0) * 100."
+  },
+  {
+    "id": "c9q4",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "In the Laspeyres Price Index formula, what specific values are used to weight the prices of the commodities?",
+    "options": [
+      "A) Current year quantities",
+      "B) Base year quantities",
+      "C) An average of base and current year quantities",
+      "D) Current year prices"
+    ],
+    "correctAnswer": "B) Base year quantities",
+    "explanation": "The Laspeyres Index resolves the weighting problem by holding the quantities constant. Specifically, it uses the quantities consumed in the base year (q0) as the weights for all calculations."
+  },
+  {
+    "id": "c9q5",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "Which characteristic is a primary limitation of using the Paasche Price Index in practice?",
+    "options": [
+      "A) It tends to overstate inflation systematically.",
+      "B) It requires the denominator to be recalculated every single year using current quantities.",
+      "C) It completely ignores the time value of money.",
+      "D) It only functions properly if prices are falling."
+    ],
+    "correctAnswer": "B) It requires the denominator to be recalculated every single year using current quantities.",
+    "explanation": "Because the Paasche index uses current year quantities (q1) for its weights, both the numerator and the denominator must be fully recalculated each year, requiring extensive new data collection annually."
+  },
+  {
+    "id": "c9q6",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "Fisher\u2019s Ideal Index is technically defined as the:",
+    "options": [
+      "A) Arithmetic mean of the Laspeyres and Paasche indices.",
+      "B) Geometric mean of the Laspeyres and Paasche indices.",
+      "C) Harmonic mean of the Laspeyres and Paasche indices.",
+      "D) Difference between the Laspeyres and Paasche indices."
+    ],
+    "correctAnswer": "B) Geometric mean of the Laspeyres and Paasche indices.",
+    "explanation": "Fisher's Ideal Index crosses the gap between the Laspeyres (base-weighted) and Paasche (current-weighted) methods by calculating the strict geometric mean (the square root of their product) of the two indices."
+  },
+  {
+    "id": "c9q7",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "How is the 'purchasing power of money' mathematically related to a general price index like the Consumer Price Index (CPI)?",
+    "options": [
+      "A) It is directly proportional to the price index.",
+      "B) It is completely independent of the price index.",
+      "C) It is inversely proportional to the price index.",
+      "D) It moves parallel to the price index."
+    ],
+    "correctAnswer": "C) It is inversely proportional to the price index.",
+    "explanation": "As general prices go up (inflation indicated by a higher index), the actual volume of goods a unit of currency can buy decreases. Therefore, purchasing power is inversely proportional to the price index."
+  },
+  {
+    "id": "c9q8",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "If a worker's nominal monthly salary increases from Rs. 50,000 to Rs. 60,000, but the relevant price index rises from 100 to 125, what has happened to their 'Real Wage'?",
+    "options": [
+      "A) It has increased to Rs. 60,000.",
+      "B) It has decreased to Rs. 48,000.",
+      "C) It remains exactly the same.",
+      "D) It has increased to Rs. 75,000."
+    ],
+    "correctAnswer": "B) It has decreased to Rs. 48,000.",
+    "explanation": "Real wage is calculated by dividing the nominal wage by the price index. Real Wage = (60,000 / 125) * 100 = 48,000. Despite the nominal increase, the worker's true purchasing power has fallen compared to the base year."
+  },
+  {
+    "id": "c9q9",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "When constructing an index using the 'Simple Aggregate Method', what is a major structural flaw?",
+    "options": [
+      "A) It requires the use of logarithms.",
+      "B) It gives disproportionate influence to items with naturally high unit prices.",
+      "C) It forces quantities to be fixed in the current year.",
+      "D) It only measures qualitative data."
+    ],
+    "correctAnswer": "B) It gives disproportionate influence to items with naturally high unit prices.",
+    "explanation": "The simple aggregate method merely sums prices. Therefore, an item measured in tonnes costing Rs. 50,000 will overwhelmingly dominate the index compared to an item measured in grams costing Rs. 50, completely ignoring their relative importance."
+  },
+  {
+    "id": "c9q10",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "Which specific statistical index tracks the cost of a fixed basket of goods and services typically purchased by an average household?",
+    "options": [
+      "A) Producer Price Index",
+      "B) Quantity Aggregate Index",
+      "C) Consumer Price Index (CPI)",
+      "D) Value Index"
+    ],
+    "correctAnswer": "C) Consumer Price Index (CPI)",
+    "explanation": "The Consumer Price Index (CPI) is the standard measure used globally to track changes in the retail prices of a representative 'basket' of consumer goods and services, acting as a primary gauge for inflation."
+  },
+  {
+    "id": "c9q11",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "In standard index construction, why do economists occasionally perform a process known as 'base shifting'?",
+    "options": [
+      "A) To hide severe inflationary periods from the public.",
+      "B) To switch from a Laspeyres to a Paasche index model.",
+      "C) To move the reference point to a more recent, relevant period.",
+      "D) To convert a price index directly into a quantity index."
+    ],
+    "correctAnswer": "C) To move the reference point to a more recent, relevant period.",
+    "explanation": "Over time, old base years become outdated due to technological changes and shifting consumption habits. Base shifting resets the index to 100 at a newer, more relevant year to make current comparisons meaningful."
+  },
+  {
+    "id": "c9q12",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "What does a Quantity Index measure?",
+    "options": [
+      "A) The change in retail prices of commodities over time.",
+      "B) The absolute value of currency in a domestic market.",
+      "C) The changes in the physical volume of goods produced, consumed, or distributed.",
+      "D) The ratio between Laspeyres and Fisher indices."
+    ],
+    "correctAnswer": "C) The changes in the physical volume of goods produced, consumed, or distributed.",
+    "explanation": "While a price index measures changes in monetary cost, a quantity index is specifically designed to measure relative changes in the actual physical volume or number of items over time."
+  },
+  {
+    "id": "c9q13",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "If the Laspeyres index for a dataset is 120 and the Paasche index is 125, what is the approximate Fisher's Ideal Index?",
+    "options": [
+      "A) 122.47",
+      "B) 125.00",
+      "C) 150.00",
+      "D) 145.45"
+    ],
+    "correctAnswer": "A) 122.47",
+    "explanation": "Fisher's index is the geometric mean of the Laspeyres and Paasche indices. \u221a(120 * 125) = \u221a(15000) = approximately 122.47."
+  },
+  {
+    "id": "c9q14",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "A fundamental characteristic of the Laspeyres Index is that it tends to:",
+    "options": [
+      "A) Drastically understate the rate of inflation.",
+      "B) Slightly overstate inflation by ignoring consumer substitution to cheaper goods.",
+      "C) Yield the exact same result as the Paasche Index every time.",
+      "D) Only work for agricultural commodities."
+    ],
+    "correctAnswer": "B) Slightly overstate inflation by ignoring consumer substitution to cheaper goods.",
+    "explanation": "Because Laspeyres uses fixed base-year quantities, it assumes consumers buy the exact same basket of goods regardless of price changes. It ignores the reality that consumers substitute away from expensive goods, thereby usually overstating living costs."
+  },
+  {
+    "id": "c9q15",
+    "chapter": 9,
+    "chapterTitle": "Indices",
+    "question": "What is the primary formula representing a Value Index?",
+    "options": [
+      "A) Sum(p1 * q1) / Sum(p0 * q0) * 100",
+      "B) Sum(p1 * q0) / Sum(p0 * q0) * 100",
+      "C) Sum(p0 * q1) / Sum(p1 * q1) * 100",
+      "D) Sum(p1) / Sum(p0) * 100"
+    ],
+    "correctAnswer": "A) Sum(p1 * q1) / Sum(p0 * q0) * 100",
+    "explanation": "A Value index measures the total combined change in both price and quantity. The formula takes the total current value (p1 * q1) divided by the total base value (p0 * q0), multiplied by 100."
+  }
+]

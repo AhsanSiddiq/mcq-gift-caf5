@@ -1,0 +1,982 @@
+[
+  {
+    "id": "c1q1",
+    "chapter": 1,
+    "chapterTitle": "Concept and Need for Audit",
+    "question": "Mr. Zaid, the CEO of Delta Manufacturing, believes that an external audit acts as a complete guarantee that no fraud exists within the company. What concept does Mr. Zaid's belief illustrate?",
+    "options": [
+      "A) The assurance matrix",
+      "B) The expectation gap",
+      "C) The materiality threshold",
+      "D) The professional skepticism principle"
+    ],
+    "correctAnswer": "B) The expectation gap",
+    "explanation": "The expectation gap refers to the difference between the public's perception of an auditor's role (e.g., providing absolute guarantees against fraud) and the auditor's actual statutory responsibilities."
+  },
+  {
+    "id": "c1q2",
+    "chapter": 1,
+    "chapterTitle": "Concept and Need for Audit",
+    "question": "Which of the following is an inherent limitation of an audit that prevents the auditor from providing absolute assurance?",
+    "options": [
+      "A) The auditor's lack of independence from the client.",
+      "B) The requirement to review 100% of all transactions.",
+      "C) The use of sampling techniques and the fact that most audit evidence is persuasive rather than conclusive.",
+      "D) The auditor's inability to communicate with those charged with governance."
+    ],
+    "correctAnswer": "C) The use of sampling techniques and the fact that most audit evidence is persuasive rather than conclusive.",
+    "explanation": "Auditors cannot test every transaction due to time and cost constraints, so they use sampling. Additionally, evidence gathered is usually persuasive rather than absolute, and management may collude to conceal fraud."
+  },
+  {
+    "id": "c1q3",
+    "chapter": 1,
+    "chapterTitle": "Concept and Need for Audit",
+    "question": "Under the Companies Act, 2017, what is the required timeframe for the appointment of the first external auditor by the directors of a newly incorporated company?",
+    "options": [
+      "A) Within 30 days of incorporation",
+      "B) Within 60 days of incorporation",
+      "C) Within 90 days of incorporation",
+      "D) At the first Annual General Meeting"
+    ],
+    "correctAnswer": "C) Within 90 days of incorporation",
+    "explanation": "According to Section 246 of the Companies Act, 2017, the first auditors must be appointed by the directors within a period of ninety days from the date of incorporation of the company."
+  },
+  {
+    "id": "c1q4",
+    "chapter": 1,
+    "chapterTitle": "Concept and Need for Audit",
+    "question": "An assurance engagement consists of a three-party relationship. Who are the three parties involved in a statutory audit?",
+    "options": [
+      "A) The tax authorities, the management, and the auditor",
+      "B) The internal auditor, the external auditor, and the shareholders",
+      "C) The practitioner (auditor), the responsible party (management), and the intended users (shareholders)",
+      "D) The board of directors, the regulatory commission, and the general public"
+    ],
+    "correctAnswer": "C) The practitioner (auditor), the responsible party (management), and the intended users (shareholders)",
+    "explanation": "An assurance engagement relies on a three-party relationship: the practitioner who performs the evaluation, the responsible party who prepares the subject matter, and the intended users who rely on the report."
+  },
+  {
+    "id": "c1q5",
+    "chapter": 1,
+    "chapterTitle": "Concept and Need for Audit",
+    "question": "An auditor identifies a misstatement in the financial statements of Horizon Ltd. The auditor must determine if it is material. Information is considered material if:",
+    "options": [
+      "A) It exceeds 1% of the total revenue regardless of its nature.",
+      "B) Its omission or misstatement could reasonably influence the economic decisions of users taken on the basis of the financial statements.",
+      "C) It relates strictly to cash balances and bank transactions.",
+      "D) The management refuses to correct the specific error."
+    ],
+    "correctAnswer": "B) Its omission or misstatement could reasonably influence the economic decisions of users taken on the basis of the financial statements.",
+    "explanation": "Materiality is judged by whether an omission or misstatement would influence the economic decisions of the intended users relying on the financial statements."
+  },
+  {
+    "id": "c1q6",
+    "chapter": 1,
+    "chapterTitle": "Concept and Need for Audit",
+    "question": "Throughout the audit of Silverline Corp, the audit team remains alert to conditions indicating possible fraud, despite having audited the company for five years without issues. This attitude is best described as:",
+    "options": [
+      "A) Professional competence",
+      "B) Independence in appearance",
+      "C) Professional skepticism",
+      "D) Quality control monitoring"
+    ],
+    "correctAnswer": "C) Professional skepticism",
+    "explanation": "Professional skepticism is an attitude that includes a questioning mind and a critical assessment of audit evidence, regardless of past positive experiences with management."
+  },
+  {
+    "id": "c1q7",
+    "chapter": 1,
+    "chapterTitle": "Concept and Need for Audit",
+    "question": "Which of the following is NOT an element of an assurance engagement?",
+    "options": [
+      "A) A written assurance report",
+      "B) Sufficient appropriate evidence",
+      "C) Absolute verification of all transactions",
+      "D) Suitable criteria"
+    ],
+    "correctAnswer": "C) Absolute verification of all transactions",
+    "explanation": "The elements of an assurance engagement include a three-party relationship, subject matter, suitable criteria, evidence, and an assurance report. Absolute verification is not an element, as audits provide reasonable assurance."
+  },
+  {
+    "id": "c1q8",
+    "chapter": 1,
+    "chapterTitle": "Concept and Need for Audit",
+    "question": "In the context of the financial statements, what does 'presentation' primarily refer to according to ISA 315?",
+    "options": [
+      "A) Ensuring assets are physically present at year-end.",
+      "B) Ensuring transactions are appropriately aggregated, disaggregated, clearly described, and relevant disclosures are understandable.",
+      "C) Presenting the audit report to the shareholders at the AGM.",
+      "D) Formatting the management representation letter."
+    ],
+    "correctAnswer": "B) Ensuring transactions are appropriately aggregated, disaggregated, clearly described, and relevant disclosures are understandable.",
+    "explanation": "Presentation and disclosure assertions focus on whether financial information is appropriately classified, described, and disclosed in an understandable manner."
+  },
+  {
+    "id": "c1q9",
+    "chapter": 1,
+    "chapterTitle": "Concept and Need for Audit",
+    "question": "Management is fundamentally responsible for which of the following?",
+    "options": [
+      "A) Issuing an opinion on the financial statements.",
+      "B) Designing and implementing effective internal controls to prevent and detect fraud.",
+      "C) Determining the sample sizes for substantive audit testing.",
+      "D) Selecting the external audit team members."
+    ],
+    "correctAnswer": "B) Designing and implementing effective internal controls to prevent and detect fraud.",
+    "explanation": "It is the responsibility of management and those charged with governance to design, implement, and maintain internal controls, and to prevent and detect fraud."
+  },
+  {
+    "id": "c1q10",
+    "chapter": 1,
+    "chapterTitle": "Concept and Need for Audit",
+    "question": "A statutory audit is mandated by law. According to the Companies Act 2017, what happens if a company fails to appoint its first auditor within the prescribed time?",
+    "options": [
+      "A) The company's incorporation is immediately revoked.",
+      "B) The Securities and Exchange Commission of Pakistan (SECP) shall appoint the auditor.",
+      "C) The Chief Financial Officer assumes the role of the auditor.",
+      "D) The existing board of directors faces criminal prosecution without warning."
+    ],
+    "correctAnswer": "B) The Securities and Exchange Commission of Pakistan (SECP) shall appoint the auditor.",
+    "explanation": "If a company fails to appoint an auditor at incorporation, in an AGM, or to fill a casual vacancy, the Commission (SECP) has the power to appoint the auditor."
+  },
+  {
+    "id": "c2q1",
+    "chapter": 2,
+    "chapterTitle": "Obtaining an Engagement",
+    "question": "Before accepting a new audit engagement, the auditor must establish if the 'preconditions for an audit' are present. Which of the following is a precondition?",
+    "options": [
+      "A) Obtaining a guarantee from management that no errors exist.",
+      "B) Establishing if the financial reporting framework to be used is acceptable.",
+      "C) Ensuring the audit fee is paid in advance.",
+      "D) Confirming that the company uses a fully automated IT system."
+    ],
+    "correctAnswer": "B) Establishing if the financial reporting framework to be used is acceptable.",
+    "explanation": "According to ISA 210, establishing the acceptability of the financial reporting framework is a core precondition, alongside obtaining management's agreement to its responsibilities."
+  },
+  {
+    "id": "c2q2",
+    "chapter": 2,
+    "chapterTitle": "Obtaining an Engagement",
+    "question": "Management requests the auditor to change the terms of the audit engagement to a limited review because they do not want the auditor testing specific revenue controls. How should the auditor proceed?",
+    "options": [
+      "A) Accept the change to maintain a good relationship with the client.",
+      "B) Accept the change but charge the full audit fee.",
+      "C) Refuse the change as it is an unjustified limitation on scope, and withdraw if management does not permit the original audit to continue.",
+      "D) Issue an unmodified opinion immediately."
+    ],
+    "correctAnswer": "C) Refuse the change as it is an unjustified limitation on scope, and withdraw if management does not permit the original audit to continue.",
+    "explanation": "If a proposed change in the terms of the engagement lacks reasonable justification (like intentionally restricting the audit scope to hide issues), the auditor should not agree to it and should withdraw if possible."
+  },
+  {
+    "id": "c2q3",
+    "chapter": 2,
+    "chapterTitle": "Obtaining an Engagement",
+    "question": "Which of the following matters is NOT typically included in an audit engagement letter?",
+    "options": [
+      "A) The objective and scope of the audit.",
+      "B) The responsibilities of the auditor and management.",
+      "C) A list of the specific sample sizes the auditor plans to use.",
+      "D) Identification of the underlying financial reporting framework."
+    ],
+    "correctAnswer": "C) A list of the specific sample sizes the auditor plans to use.",
+    "explanation": "An engagement letter covers the scope, responsibilities, reporting framework, and form of reports. Specific audit methodologies, like sample sizes, are part of the audit plan, not the contract."
+  },
+  {
+    "id": "c2q4",
+    "chapter": 2,
+    "chapterTitle": "Obtaining an Engagement",
+    "question": "For a recurring audit, ISA 210 requires the auditor to consider whether terms need to be revised. Which event is most likely to trigger a revision of the engagement letter?",
+    "options": [
+      "A) The client replaces its junior warehouse staff.",
+      "B) There is a significant change in the entity's senior management or ownership.",
+      "C) The company changes its office cleaning contractor.",
+      "D) The auditor updates their internal time-tracking software."
+    ],
+    "correctAnswer": "B) There is a significant change in the entity's senior management or ownership.",
+    "explanation": "A recent change of senior management, ownership, size, or legal requirements are specific indicators that the entity might misunderstand the audit objective, requiring a revised engagement letter."
+  },
+  {
+    "id": "c2q5",
+    "chapter": 2,
+    "chapterTitle": "Obtaining an Engagement",
+    "question": "A firm is offered an audit engagement but realizes that it lacks experience in the client's highly specialized industry. Accepting the engagement without a plan to acquire this expertise creates a threat to which ethical principle?",
+    "options": [
+      "A) Confidentiality",
+      "B) Professional Competence and Due Care",
+      "C) Objectivity",
+      "D) Integrity"
+    ],
+    "correctAnswer": "B) Professional Competence and Due Care",
+    "explanation": "Accepting an engagement without the necessary skills or resources creates a self-interest threat to professional competence and due care."
+  },
+  {
+    "id": "c2q6",
+    "chapter": 2,
+    "chapterTitle": "Obtaining an Engagement",
+    "question": "When taking on a new audit client previously audited by another firm, the incoming auditor should seek permission to communicate with the predecessor auditor. If the client refuses to grant this permission, what is the most appropriate action?",
+    "options": [
+      "A) Contact the predecessor auditor anyway under the whistleblowing act.",
+      "B) Ignore the refusal and rely solely on public records.",
+      "C) Consider the refusal when determining whether to accept the appointment, as it may indicate an integrity issue.",
+      "D) Accept the engagement but charge a higher risk premium."
+    ],
+    "correctAnswer": "C) Consider the refusal when determining whether to accept the appointment, as it may indicate an integrity issue.",
+    "explanation": "If a client refuses to allow communication with the outgoing auditor, it raises a major red flag regarding management integrity, and the auditor should heavily reconsider accepting the engagement."
+  },
+  {
+    "id": "c2q7",
+    "chapter": 2,
+    "chapterTitle": "Obtaining an Engagement",
+    "question": "Management's 'premise' for an audit includes their acknowledgment of responsibility for providing the auditor with:",
+    "options": [
+      "A) Unrestricted access to all personnel within the entity from whom the auditor determines it necessary to obtain audit evidence.",
+      "B) A completed set of audit working papers.",
+      "C) Absolute assurance that no fraud has taken place.",
+      "D) The names of the specific auditors they prefer on the engagement team."
+    ],
+    "correctAnswer": "A) Unrestricted access to all personnel within the entity from whom the auditor determines it necessary to obtain audit evidence.",
+    "explanation": "As part of the preconditions, management must agree to provide the auditor with all relevant information and unrestricted access to people within the entity."
+  },
+  {
+    "id": "c2q8",
+    "chapter": 2,
+    "chapterTitle": "Obtaining an Engagement",
+    "question": "According to ISA 220, who bears the ultimate responsibility for the overall quality of a specific audit engagement?",
+    "options": [
+      "A) The audit junior",
+      "B) The engagement quality control reviewer",
+      "C) The engagement partner",
+      "D) The client's audit committee"
+    ],
+    "correctAnswer": "C) The engagement partner",
+    "explanation": "The engagement partner takes overall responsibility for the overall quality on each audit engagement to which they are assigned."
+  },
+  {
+    "id": "c2q9",
+    "chapter": 2,
+    "chapterTitle": "Obtaining an Engagement",
+    "question": "A company requires the auditor to rely on the work of a specialized valuer for its investment properties. What must the auditor evaluate before relying on this expert?",
+    "options": [
+      "A) The expert's personal tax returns.",
+      "B) The competence, capabilities, and objectivity of the expert.",
+      "C) Whether the expert uses the same accounting software as the client.",
+      "D) The expert's willingness to sign the final audit report."
+    ],
+    "correctAnswer": "B) The competence, capabilities, and objectivity of the expert.",
+    "explanation": "Under ISA 500 and 620, when relying on the work of a management's or auditor's expert, the auditor must evaluate their competence, capabilities, and objectivity."
+  },
+  {
+    "id": "c2q10",
+    "chapter": 2,
+    "chapterTitle": "Obtaining an Engagement",
+    "question": "What is the primary purpose of signing an audit engagement letter?",
+    "options": [
+      "A) To legally shield the auditor from any negligence claims.",
+      "B) To agree upon the basis upon which the audit is to be performed and avoid misunderstandings.",
+      "C) To outline the exact sample sizes and testing locations.",
+      "D) To guarantee a clean audit opinion."
+    ],
+    "correctAnswer": "B) To agree upon the basis upon which the audit is to be performed and avoid misunderstandings.",
+    "explanation": "The engagement letter establishes a common understanding between the auditor and management regarding objectives, scope, and responsibilities to minimize misunderstandings."
+  },
+  {
+    "id": "c3q1",
+    "chapter": 3,
+    "chapterTitle": "Planning and Risk Assessment",
+    "question": "Which of the following defines 'Performance Materiality'?",
+    "options": [
+      "A) The maximum percentage of audit fees the firm can recover.",
+      "B) An amount set below overall materiality to reduce the probability that aggregate uncorrected and undetected misstatements exceed overall materiality.",
+      "C) A benchmark strictly used for evaluating management bonuses.",
+      "D) The threshold at which an auditor must resign from the engagement."
+    ],
+    "correctAnswer": "B) An amount set below overall materiality to reduce the probability that aggregate uncorrected and undetected misstatements exceed overall materiality.",
+    "explanation": "Performance materiality is set lower than overall financial statement materiality to provide a buffer against the aggregation of small, undetected errors."
+  },
+  {
+    "id": "c3q2",
+    "chapter": 3,
+    "chapterTitle": "Planning and Risk Assessment",
+    "question": "An auditor assesses that a client has weak physical security at its warehouse and no segregation of duties in inventory management. Which component of the audit risk model does this directly increase?",
+    "options": [
+      "A) Detection Risk",
+      "B) Inherent Risk",
+      "C) Control Risk",
+      "D) Sampling Risk"
+    ],
+    "correctAnswer": "C) Control Risk",
+    "explanation": "Control risk is the risk that a misstatement could occur and not be prevented, or detected and corrected, on a timely basis by the entity's internal controls."
+  },
+  {
+    "id": "c3q3",
+    "chapter": 3,
+    "chapterTitle": "Planning and Risk Assessment",
+    "question": "During analytical procedures at the planning stage, the auditor notes that the client's gross profit margin has unexpectedly increased from 15% to 35% despite a market recession. What assertion related to revenue is at the highest risk?",
+    "options": [
+      "A) Completeness",
+      "B) Occurrence",
+      "C) Rights and obligations",
+      "D) Classification"
+    ],
+    "correctAnswer": "B) Occurrence",
+    "explanation": "An unexplained spike in gross profit margins during a recession strongly suggests that fake or fictitious sales may have been recorded, threatening the occurrence assertion."
+  },
+  {
+    "id": "c3q4",
+    "chapter": 3,
+    "chapterTitle": "Planning and Risk Assessment",
+    "question": "A client's executive compensation is heavily tied to meeting an aggressive 25% annual profit growth target. According to ISA 240, what does this primarily represent?",
+    "options": [
+      "A) An inherent limitation of the audit",
+      "B) A fraud risk factor (incentive/pressure) for fraudulent financial reporting",
+      "C) A strong control environment",
+      "D) An opportunity for asset misappropriation"
+    ],
+    "correctAnswer": "B) A fraud risk factor (incentive/pressure) for fraudulent financial reporting",
+    "explanation": "Management bonuses tied to aggressive targets create intense pressure to artificially inflate profits, which is a classic fraud risk factor for fraudulent financial reporting."
+  },
+  {
+    "id": "c3q5",
+    "chapter": 3,
+    "chapterTitle": "Planning and Risk Assessment",
+    "question": "If an auditor assesses the risk of material misstatement (Inherent Risk x Control Risk) as high, how must they adjust Detection Risk to keep overall Audit Risk acceptably low?",
+    "options": [
+      "A) Increase Detection Risk by performing fewer substantive procedures.",
+      "B) Decrease Detection Risk by performing more robust and extensive substantive procedures.",
+      "C) Detection Risk is controlled by management and cannot be adjusted.",
+      "D) Keep Detection Risk equal to Control Risk."
+    ],
+    "correctAnswer": "B) Decrease Detection Risk by performing more robust and extensive substantive procedures.",
+    "explanation": "Audit Risk = IR x CR x DR. If IR and CR are high, the auditor must lower DR by doing more testing (larger samples, better evidence) to keep overall AR low."
+  },
+  {
+    "id": "c3q6",
+    "chapter": 3,
+    "chapterTitle": "Planning and Risk Assessment",
+    "question": "Which of the following is a primary difference between the Overall Audit Strategy and the Audit Plan?",
+    "options": [
+      "A) The strategy sets the scope, timing, and direction, while the plan details the specific nature, timing, and extent of risk assessment and further audit procedures.",
+      "B) The plan is written by management, while the strategy is written by the auditor.",
+      "C) The strategy deals only with taxes, while the plan deals with financial statements.",
+      "D) The plan is completed before the engagement letter is signed, while the strategy is done afterward."
+    ],
+    "correctAnswer": "A) The strategy sets the scope, timing, and direction, while the plan details the specific nature, timing, and extent of risk assessment and further audit procedures.",
+    "explanation": "The audit strategy is the high-level framework setting the direction and resources, whereas the audit plan contains the detailed step-by-step procedures to be executed."
+  },
+  {
+    "id": "c3q7",
+    "chapter": 3,
+    "chapterTitle": "Planning and Risk Assessment",
+    "question": "When auditing an unlisted, not-for-profit charitable trust, what is generally the most appropriate benchmark for setting overall materiality?",
+    "options": [
+      "A) Total profit before tax",
+      "B) Total dividends paid",
+      "C) Total revenues or total expenses",
+      "D) Earnings per share"
+    ],
+    "correctAnswer": "C) Total revenues or total expenses",
+    "explanation": "For a not-for-profit entity, profit is not the primary focus of the users. Total revenue (donations/grants) or total expenses reflect the scale of operations and are the best benchmarks."
+  },
+  {
+    "id": "c3q8",
+    "chapter": 3,
+    "chapterTitle": "Planning and Risk Assessment",
+    "question": "Which of the following represents 'misappropriation of assets' rather than 'fraudulent financial reporting'?",
+    "options": [
+      "A) Intentionally delaying the recognition of expenses to the next year.",
+      "B) An employee stealing physical inventory from the warehouse.",
+      "C) Altering assumptions used to calculate the allowance for doubtful accounts.",
+      "D) Creating fictitious revenue journal entries."
+    ],
+    "correctAnswer": "B) An employee stealing physical inventory from the warehouse.",
+    "explanation": "Misappropriation of assets involves the actual theft of company property (cash, inventory), while fraudulent financial reporting involves manipulating the accounting records."
+  },
+  {
+    "id": "c3q9",
+    "chapter": 3,
+    "chapterTitle": "Planning and Risk Assessment",
+    "question": "During a first-year audit engagement, an auditor must perform additional planning procedures. Which of the following is a critical additional step?",
+    "options": [
+      "A) Re-writing the company's prior year tax returns.",
+      "B) Obtaining sufficient appropriate audit evidence regarding opening balances.",
+      "C) Firing the client's internal audit department.",
+      "D) Setting materiality to zero."
+    ],
+    "correctAnswer": "B) Obtaining sufficient appropriate audit evidence regarding opening balances.",
+    "explanation": "In an initial audit, the auditor lacks past experience with the client and must ensure the opening balances (brought forward from the prior year) are not materially misstated."
+  },
+  {
+    "id": "c3q10",
+    "chapter": 3,
+    "chapterTitle": "Planning and Risk Assessment",
+    "question": "If the auditor suspects that management is overriding internal controls to manipulate financial results, which specific audit procedure is strictly required by ISA 240?",
+    "options": [
+      "A) Testing the mathematical accuracy of the depreciation schedule.",
+      "B) Testing the appropriateness of journal entries recorded in the general ledger and other adjustments.",
+      "C) Sending negative confirmations to all suppliers.",
+      "D) Verifying the physical existence of fully depreciated assets."
+    ],
+    "correctAnswer": "B) Testing the appropriateness of journal entries recorded in the general ledger and other adjustments.",
+    "explanation": "To address the risk of management override, ISA 240 specifically requires the auditor to test journal entries (especially year-end adjustments) for evidence of manipulation."
+  },
+  {
+    "id": "c4q1",
+    "chapter": 4,
+    "chapterTitle": "Evidence and Sampling",
+    "question": "According to ISA 500, audit evidence is considered more reliable when it is:",
+    "options": [
+      "A) Communicated verbally by the client's junior staff.",
+      "B) Generated internally by a system with very weak internal controls.",
+      "C) Obtained directly by the auditor from independent external sources.",
+      "D) Provided as a photocopy rather than an original document."
+    ],
+    "correctAnswer": "C) Obtained directly by the auditor from independent external sources.",
+    "explanation": "Evidence is generally more reliable when it is obtained from independent external sources, generated directly by the auditor, and exists in documentary or original form."
+  },
+  {
+    "id": "c4q2",
+    "chapter": 4,
+    "chapterTitle": "Evidence and Sampling",
+    "question": "An auditor intends to select a sample of sales invoices. To ensure every invoice has an equal chance of being selected, which sampling method should be used?",
+    "options": [
+      "A) Block sampling",
+      "B) Haphazard sampling",
+      "C) Random selection",
+      "D) Specific item selection of invoices over Rs. 1 million"
+    ],
+    "correctAnswer": "C) Random selection",
+    "explanation": "Random selection (often using random number generators) ensures that all items in the population have an equal and mathematically calculable chance of being selected."
+  },
+  {
+    "id": "c4q3",
+    "chapter": 4,
+    "chapterTitle": "Evidence and Sampling",
+    "question": "What is the definition of 'Sampling Risk'?",
+    "options": [
+      "A) The risk that the auditor makes a mathematical error while adding up the invoices.",
+      "B) The risk that the auditor's conclusion based on a sample may differ from the conclusion if the entire population were tested.",
+      "C) The risk that the client's internal controls fail to prevent a misstatement.",
+      "D) The risk that the auditor selects the wrong audit procedure for the objective."
+    ],
+    "correctAnswer": "B) The risk that the auditor's conclusion based on a sample may differ from the conclusion if the entire population were tested.",
+    "explanation": "Sampling risk is the inherent danger that the selected sample is not completely representative of the entire population, leading to an erroneous conclusion."
+  },
+  {
+    "id": "c4q4",
+    "chapter": 4,
+    "chapterTitle": "Evidence and Sampling",
+    "question": "To improve audit efficiency, an auditor divides the trade receivables population into three groups based on balance sizes (High, Medium, Low) before sampling. What is this technique called?",
+    "options": [
+      "A) Anomalous separation",
+      "B) Tolerable rate deviation",
+      "C) Stratification",
+      "D) Block selection"
+    ],
+    "correctAnswer": "C) Stratification",
+    "explanation": "Stratification is the process of dividing a population into sub-populations (strata) with similar characteristics, allowing the auditor to focus effort on higher-risk or higher-value items."
+  },
+  {
+    "id": "c4q5",
+    "chapter": 4,
+    "chapterTitle": "Evidence and Sampling",
+    "question": "Under what condition is it appropriate for an auditor to use 'Negative Confirmations' for trade receivables?",
+    "options": [
+      "A) When the assessed risk of material misstatement is very high.",
+      "B) When the population comprises a small number of very large balances.",
+      "C) When the population comprises a large number of small, homogeneous balances and the assessed risk is low.",
+      "D) When the auditor suspects widespread fraud in the receivables ledger."
+    ],
+    "correctAnswer": "C) When the population comprises a large number of small, homogeneous balances and the assessed risk is low.",
+    "explanation": "Negative confirmations ask the recipient to reply only if they disagree. They provide less persuasive evidence and are only suitable when risk is low, balances are small, and exception rates are expected to be low."
+  },
+  {
+    "id": "c4q6",
+    "chapter": 4,
+    "chapterTitle": "Evidence and Sampling",
+    "question": "If an auditor is unable to obtain a response to a positive external confirmation request from a major debtor, what is the required next step?",
+    "options": [
+      "A) Assume the balance is correct because the debtor did not object.",
+      "B) Perform alternative audit procedures to obtain relevant and reliable evidence.",
+      "C) Immediately issue a qualified audit report.",
+      "D) Delete the balance from the sample and select a new one."
+    ],
+    "correctAnswer": "B) Perform alternative audit procedures to obtain relevant and reliable evidence.",
+    "explanation": "In the case of non-responses to positive confirmations, the auditor cannot assume the balance is correct and must perform alternative procedures, such as verifying subsequent cash receipts."
+  },
+  {
+    "id": "c4q7",
+    "chapter": 4,
+    "chapterTitle": "Evidence and Sampling",
+    "question": "Within the context of sampling, what does 'Tolerable Misstatement' refer to?",
+    "options": [
+      "A) The amount of fraud the client is legally allowed to commit.",
+      "B) A monetary amount set by the auditor to obtain an appropriate level of assurance that the actual misstatement does not exceed this amount.",
+      "C) The minimum misstatement required to issue an adverse opinion.",
+      "D) The total errors found in the prior year's audit."
+    ],
+    "correctAnswer": "B) A monetary amount set by the auditor to obtain an appropriate level of assurance that the actual misstatement does not exceed this amount.",
+    "explanation": "Tolerable misstatement is the application of performance materiality to a specific sampling procedure to ensure aggregate small errors do not exceed overall materiality."
+  },
+  {
+    "id": "c4q8",
+    "chapter": 4,
+    "chapterTitle": "Evidence and Sampling",
+    "question": "During sample evaluation, an auditor finds an error caused by a one-time computer glitch that has since been fixed and proven not to affect any other transactions. This error is best classified as an:",
+    "options": [
+      "A) Anomaly",
+      "B) Expected deviation",
+      "C) Inherent risk failure",
+      "D) Uncorrected projected error"
+    ],
+    "correctAnswer": "A) Anomaly",
+    "explanation": "An anomaly is a misstatement or deviation that is demonstrably not representative of misstatements or deviations in the broader population."
+  },
+  {
+    "id": "c4q9",
+    "chapter": 4,
+    "chapterTitle": "Evidence and Sampling",
+    "question": "ISA 230 requires the auditor to assemble the final audit file on a timely basis after the date of the auditor's report. What is the typical timeframe for this assembly?",
+    "options": [
+      "A) Not more than 14 days",
+      "B) Not more than 30 days",
+      "C) Not more than 60 days",
+      "D) Not more than 120 days"
+    ],
+    "correctAnswer": "C) Not more than 60 days",
+    "explanation": "The final audit file must be assembled no later than 60 days after the date of the auditor's report."
+  },
+  {
+    "id": "c4q10",
+    "chapter": 4,
+    "chapterTitle": "Evidence and Sampling",
+    "question": "An auditor notices that 5 massive inventory items account for 60% of the total inventory value, while 10,000 small items account for the rest. What is the most effective approach for the 5 massive items?",
+    "options": [
+      "A) 100% examination of the 5 massive items.",
+      "B) Haphazardly select 2 of them to test.",
+      "C) Ignore them as they will skew the statistical sample.",
+      "D) Use block sampling to test the first 50 items alphabetically."
+    ],
+    "correctAnswer": "A) 100% examination of the 5 massive items.",
+    "explanation": "A 100% examination is appropriate when a population constitutes a small number of large value items that pose a significant risk."
+  },
+  {
+    "id": "c5q1",
+    "chapter": 5,
+    "chapterTitle": "Internal Control",
+    "question": "The policies and procedures that help ensure management directives are carried out, such as authorizations, physical security, and reconciliations, are known as:",
+    "options": [
+      "A) The risk assessment process",
+      "B) Control activities",
+      "C) Information systems",
+      "D) The control environment"
+    ],
+    "correctAnswer": "B) Control activities",
+    "explanation": "Control activities are the specific actions and procedures (like reconciliations, physical counts, and segregation of duties) established to prevent or detect misstatements."
+  },
+  {
+    "id": "c5q2",
+    "chapter": 5,
+    "chapterTitle": "Internal Control",
+    "question": "A client separates the duties of the person handling physical cash receipts from the person recording the cash entries in the ledger. What is the primary purpose of this control?",
+    "options": [
+      "A) To speed up the accounting process.",
+      "B) To reduce the likelihood of an employee being able to both commit and conceal a fraud or error.",
+      "C) To eliminate the need for an external audit.",
+      "D) To comply with tax filing regulations."
+    ],
+    "correctAnswer": "B) To reduce the likelihood of an employee being able to both commit and conceal a fraud or error.",
+    "explanation": "Segregation of duties separates custody, authorization, and recording functions to minimize the risk that one person can steal an asset and hide the theft in the records."
+  },
+  {
+    "id": "c5q3",
+    "chapter": 5,
+    "chapterTitle": "Internal Control",
+    "question": "Which of the following is an example of a 'General IT Control' rather than an 'Application Control'?",
+    "options": [
+      "A) A check digit used to verify a customer account number upon input.",
+      "B) A firewall and password system restricting access to the server room and overall network.",
+      "C) A sequence check ensuring all sales invoice numbers are accounted for.",
+      "D) An on-screen prompt ensuring a mandatory date field is filled before saving."
+    ],
+    "correctAnswer": "B) A firewall and password system restricting access to the server room and overall network.",
+    "explanation": "General IT controls apply broadly to the IT environment (security, backups, network access), while application controls apply to specific business software processes (input checks, batch totals)."
+  },
+  {
+    "id": "c5q4",
+    "chapter": 5,
+    "chapterTitle": "Internal Control",
+    "question": "An auditor performs a 'Walk-through test'. What is the objective of this procedure?",
+    "options": [
+      "A) To verify the physical existence of the client's office building.",
+      "B) To confirm their understanding of the internal control system by tracing a few transactions from start to finish.",
+      "C) To calculate the exact monetary value of expected misstatements.",
+      "D) To test the final year-end bank reconciliation."
+    ],
+    "correctAnswer": "B) To confirm their understanding of the internal control system by tracing a few transactions from start to finish.",
+    "explanation": "A walk-through test involves tracing a transaction through the entire accounting system to confirm that the auditor's documentation and understanding of the design of the controls are accurate."
+  },
+  {
+    "id": "c5q5",
+    "chapter": 5,
+    "chapterTitle": "Internal Control",
+    "question": "Which of the following internal controls is inherently 'Detective' rather than 'Preventive'?",
+    "options": [
+      "A) Requiring two authorized signatures on high-value purchase orders.",
+      "B) Locking physical inventory in a secure warehouse.",
+      "C) Preparing a monthly bank reconciliation to find unrecorded bank charges.",
+      "D) Implementing a login password for the payroll system."
+    ],
+    "correctAnswer": "C) Preparing a monthly bank reconciliation to find unrecorded bank charges.",
+    "explanation": "Detective controls, like reconciliations and post-event reviews, are designed to discover errors or fraud *after* they have occurred, whereas preventive controls block them from happening initially."
+  },
+  {
+    "id": "c5q6",
+    "chapter": 5,
+    "chapterTitle": "Internal Control",
+    "question": "What is an inherent limitation of ANY internal control system?",
+    "options": [
+      "A) It cannot process foreign currency transactions.",
+      "B) It is useless against a systems-based audit approach.",
+      "C) It can be circumvented by collusion among employees or management override.",
+      "D) It eliminates the need for professional skepticism."
+    ],
+    "correctAnswer": "C) It can be circumvented by collusion among employees or management override.",
+    "explanation": "No internal control system is perfect. Inherent limitations include human error, collusion between two or more staff members to bypass controls, and management overriding the system."
+  },
+  {
+    "id": "c5q7",
+    "chapter": 5,
+    "chapterTitle": "Internal Control",
+    "question": "Which component of internal control encompasses management's attitude, awareness, and actions concerning the entity's internal controls and its commitment to ethical values?",
+    "options": [
+      "A) Control environment",
+      "B) Risk assessment process",
+      "C) Monitoring of controls",
+      "D) Application controls"
+    ],
+    "correctAnswer": "A) Control environment",
+    "explanation": "The control environment sets the tone at the top of the organization, influencing the control consciousness of its people through ethics, integrity, and management philosophy."
+  },
+  {
+    "id": "c5q8",
+    "chapter": 5,
+    "chapterTitle": "Internal Control",
+    "question": "If an auditor evaluates the client's internal controls and finds them to be highly effective and properly implemented, what impact does this have on the audit strategy?",
+    "options": [
+      "A) The auditor can issue the audit report immediately without testing numbers.",
+      "B) The auditor will adopt a systems-based approach and perform a reduced level of substantive testing.",
+      "C) The auditor must perform 100% substantive testing of all ledgers.",
+      "D) The auditor increases the overall materiality threshold to maximum."
+    ],
+    "correctAnswer": "B) The auditor will adopt a systems-based approach and perform a reduced level of substantive testing.",
+    "explanation": "If control risk is assessed as low (because controls are strong), the auditor can rely on them, reducing the extent of detailed substantive testing required (systems-based approach)."
+  },
+  {
+    "id": "c5q9",
+    "chapter": 5,
+    "chapterTitle": "Internal Control",
+    "question": "In an IT application control, what is a 'Range Check'?",
+    "options": [
+      "A) Ensuring the user is physically located within the office.",
+      "B) A check that ensures inputted numerical data falls within a predetermined set of acceptable values (e.g., age between 18 and 65).",
+      "C) A calculation summing up the total number of documents in a batch.",
+      "D) A backup procedure to copy data to a remote server."
+    ],
+    "correctAnswer": "B) A check that ensures inputted numerical data falls within a predetermined set of acceptable values (e.g., age between 18 and 65).",
+    "explanation": "A range check is an application control that rejects data input if it falls outside logically predefined minimum and maximum values."
+  },
+  {
+    "id": "c5q10",
+    "chapter": 5,
+    "chapterTitle": "Internal Control",
+    "question": "When documenting a client's internal control system, an auditor uses a diagram that uses standardized symbols to show the flow of documents and processes between departments. What is this method called?",
+    "options": [
+      "A) Narrative notes",
+      "B) Internal control questionnaire (ICQ)",
+      "C) Systems flowchart",
+      "D) Control evaluation matrix"
+    ],
+    "correctAnswer": "C) Systems flowchart",
+    "explanation": "A systems flowchart provides a visual, diagrammatic representation of the accounting system, showing document flows, processes, and departmental responsibilities."
+  },
+  {
+    "id": "c6q1",
+    "chapter": 6,
+    "chapterTitle": "Tests of Controls",
+    "question": "A junior auditor is reviewing the sales system at a retail client. Which of the following represents a major weakness in the segregation of duties regarding the sales process?",
+    "options": [
+      "A) The sales representative is responsible for both finding new customers and setting their maximum credit limits.",
+      "B) The warehouse team is responsible for packing goods and creating the physical dispatch notes.",
+      "C) The accounts department generates sales invoices based on signed delivery notes.",
+      "D) The IT system automatically flags orders that exceed predefined customer credit limits."
+    ],
+    "correctAnswer": "A) The sales representative is responsible for both finding new customers and setting their maximum credit limits.",
+    "explanation": "Allowing a sales representative to set credit limits creates a self-interest threat, as they may approve risky customers simply to earn higher sales commissions. Credit limits must be set and authorized by an independent credit control or finance manager."
+  },
+  {
+    "id": "c6q2",
+    "chapter": 6,
+    "chapterTitle": "Tests of Controls",
+    "question": "During a walkthrough of the purchases system, you note that goods are recorded in the accounting system purely based on the supplier's invoice rather than the Goods Received Note (GRN). What is the primary risk of this practice?",
+    "options": [
+      "A) Goods may be delivered to the wrong warehouse.",
+      "B) The company may pay for goods that it has not actually received.",
+      "C) The supplier might accidentally send two copies of the same invoice.",
+      "D) The inventory valuation method might switch from FIFO to weighted average."
+    ],
+    "correctAnswer": "B) The company may pay for goods that it has not actually received.",
+    "explanation": "If liabilities and inventory are recorded solely based on the supplier's invoice without matching it to a GRN, the company risks recording and paying for fictitious or unfulfilled orders. A three-way match (PO, GRN, and Invoice) is essential."
+  },
+  {
+    "id": "c6q3",
+    "chapter": 6,
+    "chapterTitle": "Tests of Controls",
+    "question": "To ensure that wages and salaries are not paid to 'ghost' or fictitious employees, which of the following internal controls is most effective?",
+    "options": [
+      "A) Requiring employees to work mandatory overtime during peak seasons.",
+      "B) Ensuring that the individual preparing the payroll is the same person distributing the physical cash or bank transfers.",
+      "C) Implementing a formal, independent authorization process by HR for adding all new employees to the master payroll file.",
+      "D) Processing all payroll calculations on a manual spreadsheet to allow for easy edits."
+    ],
+    "correctAnswer": "C) Implementing a formal, independent authorization process by HR for adding all new employees to the master payroll file.",
+    "explanation": "Formal authorization by an independent HR department ensures that only real, contracted personnel are added to the payroll. Segregation of duties between payroll preparation and payment is also critical to prevent fraud."
+  },
+  {
+    "id": "c6q4",
+    "chapter": 6,
+    "chapterTitle": "Tests of Controls",
+    "question": "To prevent the misappropriation of petty cash at a client's regional office, which of the following controls should management implement?",
+    "options": [
+      "A) Keep the petty cash float unlimited to handle any unexpected large expenses.",
+      "B) Allow all junior staff unrestricted access to the cash box to speed up operational purchases.",
+      "C) Conduct periodic surprise physical counts of the petty cash by a senior official independent of the petty cash custodian.",
+      "D) Replenish the petty cash float every day without requiring receipts for prior expenses."
+    ],
+    "correctAnswer": "C) Conduct periodic surprise physical counts of the petty cash by a senior official independent of the petty cash custodian.",
+    "explanation": "Surprise checks by an independent senior official act as a strong deterrent and detective control against the theft of petty cash. The custodian should not be the one reviewing their own balances."
+  },
+  {
+    "id": "c6q5",
+    "chapter": 6,
+    "chapterTitle": "Tests of Controls",
+    "question": "The auditor of a wholesale company is testing the completeness of dispatched goods. Which of the following tests of controls specifically addresses the risk that goods have been shipped but not billed?",
+    "options": [
+      "A) Select a sample of sales invoices and trace them back to the dispatch notes.",
+      "B) Select a sample of sequential dispatch notes and trace them forward to the corresponding sales invoices in the ledger.",
+      "C) Verify the mathematical accuracy of the final sales tax calculations on the invoices.",
+      "D) Inspect the aging analysis of the trade receivables at year-end."
+    ],
+    "correctAnswer": "B) Select a sample of sequential dispatch notes and trace them forward to the corresponding sales invoices in the ledger.",
+    "explanation": "To test for completeness of billing, the auditor must start from the source document of the physical movement (the dispatch note) and trace it forward to ensure an invoice was actually generated. Tracing backward tests for occurrence."
+  },
+  {
+    "id": "c6q6",
+    "chapter": 6,
+    "chapterTitle": "Tests of Controls",
+    "question": "While evaluating a client's computerized payroll system, the auditor notes that the software automatically rejects any employee age entered below 18 or above 65. What type of application control is this?",
+    "options": [
+      "A) Sequence check",
+      "B) Check digit",
+      "C) Range check",
+      "D) Batch total"
+    ],
+    "correctAnswer": "C) Range check",
+    "explanation": "A range check is an application control that ensures data inputted into the system falls within predefined, logical minimum and maximum boundaries. This prevents illogical data entries."
+  },
+  {
+    "id": "c6q7",
+    "chapter": 6,
+    "chapterTitle": "Tests of Controls",
+    "question": "Which of the following describes the use of 'Test Data' as a Computer-Assisted Audit Technique (CAAT)?",
+    "options": [
+      "A) Extracting a massive sample of live client data to recalculate depreciation.",
+      "B) The auditor feeding a sample of dummy data (including intentional errors) through the client's IT system to see if the system's controls reject the errors.",
+      "C) Permanently installing the auditor's own software into the client's servers to monitor all daily activity.",
+      "D) Reviewing the manual signatures on the printed purchase orders."
+    ],
+    "correctAnswer": "B) The auditor feeding a sample of dummy data (including intentional errors) through the client's IT system to see if the system's controls reject the errors.",
+    "explanation": "Test data involves the auditor inputting dummy data into the client's live system (or a safe copy) and comparing the processing results against predetermined expectations. It is specifically used to test the operating effectiveness of application controls."
+  },
+  {
+    "id": "c6q8",
+    "chapter": 6,
+    "chapterTitle": "Tests of Controls",
+    "question": "During a physical inventory count, an auditor observes that the count sheets given to the warehouse staff already contain the computerized 'expected quantities' printed on them. Why is this a control weakness?",
+    "options": [
+      "A) It prevents the staff from calculating the total inventory value.",
+      "B) It encourages staff to simply agree with the pre-printed expected quantities rather than performing an independent, accurate physical count.",
+      "C) It slows down the counting process significantly.",
+      "D) It violates the principle of using third-party valuation experts."
+    ],
+    "correctAnswer": "B) It encourages staff to simply agree with the pre-printed expected quantities rather than performing an independent, accurate physical count.",
+    "explanation": "Providing pre-filled quantities creates a bias. Staff may take the easy route and just confirm the printed numbers rather than rigorously counting the physical items, defeating the entire purpose of a physical inventory check."
+  },
+  {
+    "id": "c6q9",
+    "chapter": 6,
+    "chapterTitle": "Tests of Controls",
+    "question": "A client uses an 'Approved Suppliers List' within its automated purchasing system. Which of the following is a General IT Control (GITC) that protects this list?",
+    "options": [
+      "A) A three-way match before paying the supplier invoice.",
+      "B) Restricting access to edit the Approved Suppliers List via a high-level password known only to the senior procurement director.",
+      "C) A calculation summing up the total number of invoices in a batch.",
+      "D) Generating a purchase requisition when inventory falls below minimum levels."
+    ],
+    "correctAnswer": "B) Restricting access to edit the Approved Suppliers List via a high-level password known only to the senior procurement director.",
+    "explanation": "Restricting logical access to master files via passwords and access rights is a General IT Control. It secures the overall IT environment, ensuring that application controls (like ordering only from approved vendors) cannot be bypassed."
+  },
+  {
+    "id": "c6q10",
+    "chapter": 6,
+    "chapterTitle": "Tests of Controls",
+    "question": "In smaller entities, a strict segregation of duties is often difficult to achieve due to limited staff. What is the most common mitigating control the auditor will look for in such environments?",
+    "options": [
+      "A) The complete outsourcing of all accounting functions to a foreign firm.",
+      "B) High levels of direct involvement and oversight by the business owners or senior management.",
+      "C) The elimination of all computerized accounting systems in favor of manual ledgers.",
+      "D) Stopping the use of external bank accounts and dealing only in cash."
+    ],
+    "correctAnswer": "B) High levels of direct involvement and oversight by the business owners or senior management.",
+    "explanation": "In small entities where formal segregation of duties is impractical, the active, hands-on involvement of the owner/manager acts as a powerful compensating control, though it does raise the risk of management override."
+  },
+  {
+    "id": "c7q1",
+    "chapter": 7,
+    "chapterTitle": "Introduction to Substantive Procedures",
+    "question": "Under ISA 520, which of the following is an essential feature of applying substantive analytical procedures?",
+    "options": [
+      "A) Always using an auditor's expert to generate data.",
+      "B) Developing an expectation of recorded amounts or ratios and evaluating whether that expectation is sufficiently precise to identify a misstatement.",
+      "C) Sending out 100% confirmation letters to all debtors.",
+      "D) Only comparing current year revenue to current year tax expenses."
+    ],
+    "correctAnswer": "B) Developing an expectation of recorded amounts or ratios and evaluating whether that expectation is sufficiently precise to identify a misstatement.",
+    "explanation": "A core requirement of ISA 520 is that the auditor must develop an independent expectation of a figure or ratio, and assess whether that expectation is precise enough to flag a material misstatement when compared to the client's actual recorded figures."
+  },
+  {
+    "id": "c7q2",
+    "chapter": 7,
+    "chapterTitle": "Introduction to Substantive Procedures",
+    "question": "During the final review stage of an audit, the engagement partner performs analytical procedures. What is the primary objective of these procedures at this stage?",
+    "options": [
+      "A) To calculate the exact tax liability for the year.",
+      "B) To assist in forming an overall conclusion as to whether the financial statements are consistent with the auditor's understanding of the entity.",
+      "C) To verify the physical existence of non-current assets.",
+      "D) To document the specific internal control weaknesses found during interim testing."
+    ],
+    "correctAnswer": "B) To assist in forming an overall conclusion as to whether the financial statements are consistent with the auditor's understanding of the entity.",
+    "explanation": "Analytical procedures performed near the end of the audit are meant to corroborate conclusions formed during the audit and ensure the financial statements as a whole make sense based on the auditor's cumulative knowledge."
+  },
+  {
+    "id": "c7q3",
+    "chapter": 7,
+    "chapterTitle": "Introduction to Substantive Procedures",
+    "question": "An auditor compares a client's current year gross profit margin of 45% against the prior year's margin of 28%. The client has not introduced new products or raised prices. How should the auditor proceed?",
+    "options": [
+      "A) Accept the improvement as a sign of excellent management performance.",
+      "B) Assume the prior year financial statements were materially misstated and reissue the previous audit report.",
+      "C) Inquire of management regarding the fluctuation, and perform additional procedures to corroborate their explanation.",
+      "D) Immediately issue an adverse opinion due to obvious fraud."
+    ],
+    "correctAnswer": "C) Inquire of management regarding the fluctuation, and perform additional procedures to corroborate their explanation.",
+    "explanation": "If analytical procedures identify significant fluctuations or inconsistent relationships, ISA 520 mandates that the auditor must inquire of management and obtain sufficient appropriate evidence to verify management's responses."
+  },
+  {
+    "id": "c7q4",
+    "chapter": 7,
+    "chapterTitle": "Introduction to Substantive Procedures",
+    "question": "A junior auditor attempts to use substantive analytical procedures to predict the client's total rental expense for the year. He applies a flat 10% lease increase to the prior year's figure, concluding the minor variance is immaterial. What crucial factor did he likely fail to consider?",
+    "options": [
+      "A) The color of the lease contracts.",
+      "B) The reliability and disaggregation of data, such as newly opened or recently closed store locations during the year.",
+      "C) The total number of employees working at the company.",
+      "D) The current market price of purchasing commercial real estate."
+    ],
+    "correctAnswer": "B) The reliability and disaggregation of data, such as newly opened or recently closed store locations during the year.",
+    "explanation": "When developing an expectation, the auditor must ensure the underlying data is reliable and account for known operational changes. Simply applying a flat percentage increase ignores mid-year expansions or closures that fundamentally alter the expense."
+  },
+  {
+    "id": "c7q5",
+    "chapter": 7,
+    "chapterTitle": "Introduction to Substantive Procedures",
+    "question": "When assessing the reliability of data from which an expectation is developed for analytical procedures, which of the following provides the highest level of reliability?",
+    "options": [
+      "A) Data generated internally by a department with notoriously weak internal controls.",
+      "B) Verbal estimates provided casually by the sales director.",
+      "C) Information obtained from independent, reputable external sources, such as published industry averages.",
+      "D) Broad, highly aggregated financial forecasts prepared five years ago."
+    ],
+    "correctAnswer": "C) Information obtained from independent, reputable external sources, such as published industry averages.",
+    "explanation": "Data is generally more reliable when it is obtained from independent sources outside the entity. Furthermore, data produced under strong internal controls is more reliable than data produced under weak controls."
+  },
+  {
+    "id": "c7q6",
+    "chapter": 7,
+    "chapterTitle": "Introduction to Substantive Procedures",
+    "question": "A client's trade payable days have drastically decreased from 55 days in the prior year to 25 days in the current year, despite no changes in supplier payment terms. What is the most likely risk indicated by this ratio?",
+    "options": [
+      "A) Overstatement of cash balances.",
+      "B) Understatement of trade payables.",
+      "C) Overstatement of inventory.",
+      "D) Understatement of revenue."
+    ],
+    "correctAnswer": "B) Understatement of trade payables.",
+    "explanation": "A sudden, unexplained drop in payable days indicates that the liability might not be fully recorded at year-end. If purchases are occurring but the corresponding payables aren't booked, the payable days ratio drops artificially."
+  },
+  {
+    "id": "c7q7",
+    "chapter": 7,
+    "chapterTitle": "Introduction to Substantive Procedures",
+    "question": "An auditor identifies a massive increase in revenue just prior to the year-end, but a subsequent analytical review shows the receivables turnover days have spiked from 30 to 80 days. What combination of assertions is at highest risk here?",
+    "options": [
+      "A) Existence of inventory and classification of expenses.",
+      "B) Occurrence of sales and valuation of trade receivables.",
+      "C) Completeness of payables and presentation of equity.",
+      "D) Rights and obligations of non-current assets."
+    ],
+    "correctAnswer": "B) Occurrence of sales and valuation of trade receivables.",
+    "explanation": "A late spike in revenue coupled with unpaid, aging receivables strongly suggests that fictitious sales may have been recorded (testing occurrence) or that these new debtors will not pay, threatening the recoverability of the asset (testing valuation)."
+  },
+  {
+    "id": "c7q8",
+    "chapter": 7,
+    "chapterTitle": "Introduction to Substantive Procedures",
+    "question": "Which of the following best describes the concept of 'Directional Testing' in auditing?",
+    "options": [
+      "A) Testing assets only for understatement and liabilities only for overstatement.",
+      "B) Testing assets and revenues primarily for overstatement, and testing liabilities and expenses primarily for understatement.",
+      "C) Ensuring all audit testing proceeds strictly from January to December chronologically.",
+      "D) Testing all transactions backwards from the ledger to the source document only."
+    ],
+    "correctAnswer": "B) Testing assets and revenues primarily for overstatement, and testing liabilities and expenses primarily for understatement.",
+    "explanation": "Directional testing focuses on management's typical biases. Management has an incentive to inflate profits and net assets, so auditors test assets/income for overstatement (existence/occurrence) and liabilities/expenses for understatement (completeness)."
+  },
+  {
+    "id": "c7q9",
+    "chapter": 7,
+    "chapterTitle": "Introduction to Substantive Procedures",
+    "question": "If an auditor has assessed control risk in the payroll system as extremely low and tests of controls confirm they operate effectively, how does this impact substantive analytical procedures?",
+    "options": [
+      "A) Substantive analytical procedures become illegal to use.",
+      "B) The auditor can place greater reliance on substantive analytical procedures, potentially reducing extensive detailed testing of transactions.",
+      "C) The auditor must double the sample sizes for detailed testing regardless of the controls.",
+      "D) The auditor must issue a disclaimer of opinion."
+    ],
+    "correctAnswer": "B) The auditor can place greater reliance on substantive analytical procedures, potentially reducing extensive detailed testing of transactions.",
+    "explanation": "When internal controls over a system are strong, the data produced by that system is highly reliable. Consequently, the auditor can confidently use substantive analytical procedures to gain assurance, reducing the need for heavy, line-by-line substantive testing."
+  },
+  {
+    "id": "c7q10",
+    "chapter": 7,
+    "chapterTitle": "Introduction to Substantive Procedures",
+    "question": "To perform a substantive analytical procedure on interest expense, an auditor multiplies the average outstanding bank loan balance by the contractual interest rate. What makes this a highly effective procedure?",
+    "options": [
+      "A) It completely eliminates the need to look at bank statements.",
+      "B) The expectation developed (the calculated interest) is highly precise and based on reliable external data (contractual rates).",
+      "C) It allows the auditor to charge a higher audit fee.",
+      "D) It relies entirely on management's verbal estimations."
+    ],
+    "correctAnswer": "B) The expectation developed (the calculated interest) is highly precise and based on reliable external data (contractual rates).",
+    "explanation": "Interest expense is highly predictable when loan balances and rates are known. Because the expectation is precise, any significant deviation from the client's recorded expense immediately flags a likely misstatement."
+  }
+]
