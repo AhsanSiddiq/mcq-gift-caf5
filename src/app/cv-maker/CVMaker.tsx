@@ -2,8 +2,8 @@
 import React, { useState, useEffect } from "react";
 import { Plus, Trash2, Download, Eye, ChevronLeft, ChevronRight, X, Mail, RefreshCw, ArrowUp, ArrowDown, Palette, Type, LayoutTemplate, Sparkles, CheckCircle2, Play } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import { driver } from "driver.js";
-import "driver.js/dist/driver.css";
+import { CVTour } from "./CVTour";
+
 
 const LS_KEY = "cahub_cv_v1";
 
@@ -630,6 +630,9 @@ export default function CVMaker() {
     return !!localStorage.getItem(LS_KEY);
   });
   const [mobileScale, setMobileScale] = useState(0.42);
+  const [showTour, setShowTour] = useState(false);
+
+  const startTour = () => setShowTour(true);
 
   useEffect(() => {
     if (showPreview && typeof window !== "undefined") {
@@ -637,81 +640,14 @@ export default function CVMaker() {
     }
   }, [showPreview]);
 
-  const startTour = () => {
-    const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
-    const driverObj = driver({
-      showProgress: true,
-      animate: true,
-      smoothScroll: true,
-      stagePadding: 10,
-      popoverClass: 'cahub-tour-popover',
-      onDestroyStarted: () => {
-        localStorage.setItem("cahub_cv_tour_seen", "true");
-        driverObj.destroy();
-      },
-      steps: [
-        {
-          element: '#tour-form',
-          popover: {
-            title: '🏗️ Your CV Builder',
-            description: 'Every field here is mapped to what Big 4 partners actually look for. Fill it step by step — takes 8 minutes.',
-            side: isMobile ? 'bottom' : 'right', align: 'start'
-          }
-        },
-        {
-          element: '#tour-steps',
-          popover: {
-            title: '🗂️ Smart Sections',
-            description: 'Navigate Personal → Education → Experience in order. Completed sections turn green. You can jump back anytime.',
-            side: 'bottom', align: 'center'
-          }
-        },
-        {
-          element: '#tour-ats',
-          popover: {
-            title: '📊 ATS Score — aim for 80+',
-            description: 'Applicant Tracking Systems scan your CV before a human sees it. Fill in profile summary, add metrics to your bullets, and hit 80+.',
-            side: isMobile ? 'bottom' : 'left', align: 'start'
-          }
-        },
-        {
-          element: '#tour-appearance',
-          popover: {
-            title: '🎨 Templates & Branding',
-            description: 'Classic (2-col) suits experienced candidates. Executive (1-col) is perfect if you have less work experience. Pick a professional accent color.',
-            side: isMobile ? 'bottom' : 'right', align: 'start'
-          },
-          onHighlightStarted: () => {
-            setStep(8);
-          }
-        },
-        ...(!isMobile ? [{
-          element: '#tour-preview',
-          popover: {
-            title: '👁️ Live Preview',
-            description: 'This is exactly how your PDF will look when printed. Zero layout surprises — what you see is what you download.',
-            side: 'left' as const, align: 'center' as const
-          }
-        }] : []),
-        {
-          element: '#tour-download',
-          popover: {
-            title: '✅ Download Your CV',
-            description: "Hit Download to get a pixel-perfect, print-ready PDF. It's completely free — no login, no watermark, ever.",
-            side: 'bottom', align: isMobile ? 'center' : 'end'
-          }
-        },
-      ]
-    });
-    driverObj.drive();
-  };
 
   useEffect(() => {
     if (typeof window !== "undefined" && !localStorage.getItem("cahub_cv_tour_seen")) {
-      setTimeout(() => startTour(), 1500); 
+      setTimeout(() => setShowTour(true), 1200);
     }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+
 
   const [showDlModal, setShowDlModal] = useState(false);
   const [dlEmail, setDlEmail] = useState("");
@@ -1513,6 +1449,14 @@ export default function CVMaker() {
             )}
           </div>
         </div>
+      )}
+
+      {/* ── Custom Tour ── */}
+      {showTour && (
+        <CVTour onDone={() => {
+          localStorage.setItem("cahub_cv_tour_seen", "true");
+          setShowTour(false);
+        }} />
       )}
     </div>
   );
