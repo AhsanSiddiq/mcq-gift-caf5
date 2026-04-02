@@ -638,26 +638,69 @@ export default function CVMaker() {
   }, [showPreview]);
 
   const startTour = () => {
+    const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
     const driverObj = driver({
       showProgress: true,
       animate: true,
+      smoothScroll: true,
+      stagePadding: 10,
+      popoverClass: 'cahub-tour-popover',
       onDestroyStarted: () => {
         localStorage.setItem("cahub_cv_tour_seen", "true");
         driverObj.destroy();
       },
       steps: [
-        { element: '#tour-form', popover: { title: '1. The Builder', description: 'Fill your details here. We have mapped the fields to exactly what Big 4 partners want to see.', side: "right", align: 'start' }},
-        { element: '#tour-steps', popover: { title: '2. Section Navigation', description: 'Jump between Personal, Education, and Experience sections here.', side: "bottom", align: 'center' }},
-        { element: '#tour-ats', popover: { title: '3. ATS Score', description: 'Try to get this to 100%. We calculate your strength dynamically based on keywords and content length.', side: "left", align: 'start' }},
-        { 
-          element: '#tour-appearance', 
-          popover: { title: '4. Templates & Design', description: 'Switch between "Executive" or "Classic" layouts and pick your brand color.', side: "right", align: 'start' },
-          onHighlightStarted: () => {
-            setStep(8); // Switch to Appearance step
+        {
+          element: '#tour-form',
+          popover: {
+            title: '🏗️ Your CV Builder',
+            description: 'Every field here is mapped to what Big 4 partners actually look for. Fill it step by step — takes 8 minutes.',
+            side: isMobile ? 'bottom' : 'right', align: 'start'
           }
         },
-        { element: '#tour-preview', popover: { title: '5. Live Preview', description: 'Watch your CV build instantly. We guarantee zero weird formatting.', side: "left", align: 'center' }},
-        { element: '#tour-download', popover: { title: '6. Download PDF', description: 'When you are ready, hit Download to get a pixel-perfect, Big-4 ready PDF.', side: "bottom", align: 'end' }},
+        {
+          element: '#tour-steps',
+          popover: {
+            title: '🗂️ Smart Sections',
+            description: 'Navigate Personal → Education → Experience in order. Completed sections turn green. You can jump back anytime.',
+            side: 'bottom', align: 'center'
+          }
+        },
+        {
+          element: '#tour-ats',
+          popover: {
+            title: '📊 ATS Score — aim for 80+',
+            description: 'Applicant Tracking Systems scan your CV before a human sees it. Fill in profile summary, add metrics to your bullets, and hit 80+.',
+            side: isMobile ? 'bottom' : 'left', align: 'start'
+          }
+        },
+        {
+          element: '#tour-appearance',
+          popover: {
+            title: '🎨 Templates & Branding',
+            description: 'Classic (2-col) suits experienced candidates. Executive (1-col) is perfect if you have less work experience. Pick a professional accent color.',
+            side: isMobile ? 'bottom' : 'right', align: 'start'
+          },
+          onHighlightStarted: () => {
+            setStep(8);
+          }
+        },
+        ...(!isMobile ? [{
+          element: '#tour-preview',
+          popover: {
+            title: '👁️ Live Preview',
+            description: 'This is exactly how your PDF will look when printed. Zero layout surprises — what you see is what you download.',
+            side: 'left' as const, align: 'center' as const
+          }
+        }] : []),
+        {
+          element: '#tour-download',
+          popover: {
+            title: '✅ Download Your CV',
+            description: "Hit Download to get a pixel-perfect, print-ready PDF. It's completely free — no login, no watermark, ever.",
+            side: 'bottom', align: isMobile ? 'center' : 'end'
+          }
+        },
       ]
     });
     driverObj.drive();
@@ -1208,48 +1251,55 @@ export default function CVMaker() {
       </div>
 
       {/* ── Main ── */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 py-6 sm:py-8">
-        <div className="flex flex-col xl:flex-row gap-6">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 py-6 sm:py-8 pb-28 lg:pb-8">
+        <div className="flex flex-col lg:flex-row gap-6">
 
           {/* ── FORM ── */}
-          <div className="xl:w-[460px] shrink-0" id="tour-form">
+          <div className="w-full lg:w-[460px] shrink-0" id="tour-form">
             <div className="rounded-2xl shadow-xl backdrop-blur-xl relative overflow-hidden" style={{ background: "rgba(var(--bg-2-rgb), 0.7)", border: "1px solid rgba(var(--border-rgb), 0.5)", borderColor: "var(--border)" }}>
               {/* Top glow line */}
               <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-emerald-400/50 to-transparent" />
 
-              <div className="md:hidden p-4 border-b border-[var(--border)]"><ATSScoreRing score={getCVScore(cv)} /></div>
+              {/* ATS score bar — visible on mobile inside form */}
+              <div className="lg:hidden p-4 border-b border-[var(--border)]" id="tour-ats">
+                <ATSScoreRing score={getCVScore(cv)} />
+              </div>
+
               {/* Form top bar: step pills + Start Fresh */}
               <div className="flex items-center gap-2 px-2 pt-2 pb-0" style={{ borderBottom: "1px solid var(--border)" }}>
-                <div className="flex gap-1 flex-1 overflow-x-auto pb-2 scroll-smooth no-scrollbar" id="tour-steps" 
-                  style={{ 
-                    scrollbarWidth: "none" as const, 
+                <div className="flex gap-1 flex-1 overflow-x-auto pb-2 scroll-smooth no-scrollbar" id="tour-steps"
+                  style={{
+                    scrollbarWidth: "none" as const,
                     WebkitOverflowScrolling: "touch",
                     maskImage: "linear-gradient(to right, black 80%, transparent 100%)",
                     WebkitMaskImage: "linear-gradient(to right, black 80%, transparent 100%)"
                   }}>
-                {STEPS.map((s, i) => (
-                  <motion.button 
-                    whileTap={{ scale: 0.94 }}
-                    key={s.id} onClick={() => setStep(i)}
-                    className="shrink-0 text-[10px] font-bold px-3 py-1.5 rounded-lg whitespace-nowrap transition-all relative overflow-hidden"
-                    style={{ 
-                      background: step === i ? "var(--green)" : i < step ? "rgba(61,179,113,0.12)" : "transparent", 
-                      color: step === i ? "#fff" : i < step ? "var(--green)" : "var(--text-3)", 
-                      fontFamily: "var(--font-space-grotesk), sans-serif",
-                      boxShadow: step === i ? "0 0 15px rgba(61,179,113,0.3)" : "none"
-                    }}>
-                    {i < step ? "✓" : `${i + 1}.`} {s.label}
-                    {step === i && <motion.div layoutId="pill-glow" className="absolute inset-0 bg-white/10" />}
-                  </motion.button>
-                ))}
+                  {STEPS.map((s, i) => (
+                    <motion.button
+                      whileTap={{ scale: 0.93 }}
+                      key={s.id} onClick={() => setStep(i)}
+                      className="shrink-0 text-[11px] font-bold px-3 py-2 rounded-xl whitespace-nowrap transition-all relative overflow-hidden"
+                      style={{
+                        minHeight: 36,
+                        background: step === i ? "var(--green)" : i < step ? "rgba(61,179,113,0.12)" : "transparent",
+                        color: step === i ? "#fff" : i < step ? "var(--green)" : "var(--text-3)",
+                        fontFamily: "var(--font-space-grotesk), sans-serif",
+                        boxShadow: step === i ? "0 0 18px rgba(61,179,113,0.35)" : "none"
+                      }}>
+                      {i < step ? "✓" : `${i + 1}.`} {s.label}
+                      {step === i && <motion.div layoutId="pill-glow" className="absolute inset-0 bg-white/10" />}
+                    </motion.button>
+                  ))}
                 </div>
-                <button onClick={() => { if (cv.name !== "") { setCv(DEFAULT); localStorage.removeItem(LS_KEY); setRestored(false); } else { setCv(DEMO); } }}
+                <motion.button whileTap={{ scale: 0.95 }}
+                  onClick={() => { if (cv.name !== "") { setCv(DEFAULT); localStorage.removeItem(LS_KEY); setRestored(false); } else { setCv(DEMO); } }}
                   title={cv.name !== "" ? "Clear and start fresh" : "Load sample CV"}
-                  className="shrink-0 flex items-center gap-1 text-xs font-bold px-3 py-1.5 mb-2 rounded-lg whitespace-nowrap transition-all"
-                  style={{ background: cv.name !== "" ? "rgba(248,113,113,0.1)" : "rgba(61,179,113,0.1)", color: cv.name !== "" ? "#f87171" : "var(--green)", border: `1px solid ${cv.name !== "" ? "rgba(248,113,113,0.2)" : "rgba(61,179,113,0.2)"}`, cursor: "pointer" }}>
-                  {cv.name !== "" ? <><RefreshCw className="w-3 h-3" /> Start Fresh</> : <>📋 Sample</>}
-                </button>
+                  className="shrink-0 flex items-center gap-1 text-xs font-bold px-3 py-2 mb-2 rounded-xl whitespace-nowrap transition-all"
+                  style={{ minHeight: 36, background: cv.name !== "" ? "rgba(248,113,113,0.1)" : "rgba(61,179,113,0.1)", color: cv.name !== "" ? "#f87171" : "var(--green)", border: `1px solid ${cv.name !== "" ? "rgba(248,113,113,0.2)" : "rgba(61,179,113,0.2)"}`, cursor: "pointer" }}>
+                  {cv.name !== "" ? <><RefreshCw className="w-3 h-3" /></> : <>📋</>}
+                </motion.button>
               </div>
+
               {/* Restored banner */}
               {restored && (
                 <div className="mx-4 mt-3 flex items-center justify-between gap-2 px-3 py-2 rounded-xl text-xs" style={{ background: "rgba(61,179,113,0.08)", border: "1px solid rgba(61,179,113,0.2)", color: "var(--green)" }}>
@@ -1257,80 +1307,74 @@ export default function CVMaker() {
                   <button onClick={() => setRestored(false)} style={{ background: "none", border: "none", color: "var(--green)", cursor: "pointer" }}><X className="w-3 h-3" /></button>
                 </div>
               )}
+
               {/* Progress bar */}
-              <div style={{ height: 3, background: "var(--bg-3)", margin: "0 0 0 0" }}>
-                <div style={{ height: "100%", background: "var(--green)", width: `${((step + 1) / STEPS.length) * 100}%`, transition: "width 0.3s ease", borderRadius: 2 }} />
+              <div style={{ height: 3, background: "var(--bg-3)" }}>
+                <motion.div
+                  style={{ height: "100%", background: "var(--green)", borderRadius: 2 }}
+                  animate={{ width: `${((step + 1) / STEPS.length) * 100}%` }}
+                  transition={{ duration: 0.35, ease: "easeOut" }}
+                />
               </div>
+
               {/* Step content */}
-              <div className="p-4 sm:p-5 overflow-y-auto" style={{ maxHeight: "65vh" }}>
-                <h3 className="font-bold text-lg mb-1" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>{STEPS[step].label}</h3>
-                <p className="text-xs mb-5" style={{ color: "var(--text-3)" }}>Step {step + 1} of {STEPS.length}</p>
+              <div className="p-4 sm:p-5 overflow-y-auto" style={{ maxHeight: "calc(100svh - 340px)", minHeight: 240 }}>
+                <div className="flex items-center justify-between mb-1">
+                  <h3 className="font-bold text-lg" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>{STEPS[step].label}</h3>
+                  <span className="text-[10px] font-bold px-2 py-1 rounded-lg" style={{ background: "var(--bg-3)", color: "var(--text-3)" }}>{step + 1}/{STEPS.length}</span>
+                </div>
                 <AnimatePresence mode="wait">
-                  <motion.div key={step} initial={{ opacity: 0, x: 10 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -10 }} transition={{ duration: 0.2 }}>
+                  <motion.div key={step} initial={{ opacity: 0, y: 6 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -6 }} transition={{ duration: 0.18, ease: "easeOut" }}>
                     {renderStep()}
                   </motion.div>
                 </AnimatePresence>
               </div>
 
               {/* Navigation */}
-              <div className="flex justify-between items-center p-4 gap-3" style={{ borderTop: "1px solid var(--border)" }}>
-                <button onClick={() => setStep(s => Math.max(0, s - 1))} disabled={step === 0}
-                  className="flex items-center gap-2 text-sm font-semibold px-4 py-2.5 rounded-xl disabled:opacity-30"
-                  style={{ background: "var(--bg-3)", color: "var(--text-2)", border: "1px solid var(--border)", cursor: step === 0 ? "not-allowed" : "pointer" }}>
+              <div className="flex justify-between items-center p-3 sm:p-4 gap-3" style={{ borderTop: "1px solid var(--border)" }}>
+                <motion.button whileTap={{ scale: 0.96 }}
+                  onClick={() => setStep(s => Math.max(0, s - 1))} disabled={step === 0}
+                  className="flex items-center gap-2 text-sm font-semibold px-4 py-3 rounded-xl disabled:opacity-30"
+                  style={{ background: "var(--bg-3)", color: "var(--text-2)", border: "1px solid var(--border)", cursor: step === 0 ? "not-allowed" : "pointer", minHeight: 44 }}>
                   <ChevronLeft className="w-4 h-4" /> Back
-                </button>
+                </motion.button>
                 {step < STEPS.length - 1 ? (
-                  <button onClick={() => setStep(s => s + 1)}
-                    className="flex items-center gap-2 text-sm font-bold px-6 py-2.5 rounded-xl text-white"
-                    style={{ background: "var(--green)", border: "none", cursor: "pointer", boxShadow: "0 2px 14px rgba(61,179,113,0.3)" }}>
+                  <motion.button whileTap={{ scale: 0.96 }} whileHover={{ scale: 1.02 }}
+                    onClick={() => setStep(s => s + 1)}
+                    className="flex items-center gap-2 text-sm font-bold px-8 py-3 rounded-xl text-white"
+                    style={{ background: "var(--green)", border: "none", cursor: "pointer", boxShadow: "0 4px 18px rgba(61,179,113,0.35)", minHeight: 44 }}>
                     Next <ChevronRight className="w-4 h-4" />
-                  </button>
+                  </motion.button>
                 ) : (
                   <div className="flex flex-col items-end gap-1.5">
                     <p className="text-xs font-semibold" style={{ color: "var(--green)" }}>🎉 Your CV is ready!</p>
-                    <button onClick={handlePrint}
-                      className="flex items-center gap-2 text-sm font-bold px-6 py-2.5 rounded-xl text-white"
-                      style={{ background: "var(--green)", border: "none", cursor: "pointer", boxShadow: "0 2px 14px rgba(61,179,113,0.3)" }}>
+                    <motion.button whileTap={{ scale: 0.96 }} onClick={handlePrint}
+                      className="flex items-center gap-2 text-sm font-bold px-6 py-3 rounded-xl text-white"
+                      style={{ background: "var(--green)", border: "none", cursor: "pointer", boxShadow: "0 4px 18px rgba(61,179,113,0.35)", minHeight: 44 }}
+                      id="tour-download">
                       <Download className="w-4 h-4" /> Download PDF
-                    </button>
+                    </motion.button>
                   </div>
                 )}
               </div>
             </div>
-
-            {/* Mobile CTAs */}
-            <div className="xl:hidden flex gap-3 mt-4">
-              <button onClick={() => setShowPreview(true)}
-                className="flex-1 flex items-center justify-center gap-2 font-bold rounded-xl py-3.5 text-sm text-white"
-                style={{ background: "var(--green)", boxShadow: "0 2px 14px rgba(61,179,113,0.3)", cursor: "pointer" }}>
-                <Eye className="w-4 h-4" /> Preview My CV
-              </button>
-              <button onClick={handlePrint}
-                className="flex items-center justify-center gap-2 font-bold rounded-xl py-3.5 px-5 text-sm"
-                style={{ background: "var(--bg-2)", border: "1px solid var(--border)", color: "var(--text-1)", cursor: "pointer" }}>
-                <Download className="w-4 h-4" /> PDF
-              </button>
-            </div>
-
-            {/* Progress indicator on mobile */}
-            <div className="xl:hidden mt-4 flex items-center gap-2 justify-center">
-              {STEPS.map((_, i) => (
-                <button key={i} onClick={() => setStep(i)}
-                  style={{ width: i === step ? 24 : 8, height: 8, borderRadius: 4, background: i === step ? "var(--green)" : i < step ? "rgba(61,179,113,0.4)" : "var(--bg-3)", transition: "all 0.3s", border: "none", cursor: "pointer", padding: 0 }} />
-              ))}
-            </div>
           </div>
 
-          {/* ── PREVIEW (desktop only) ── */}
-          <div className="hidden xl:block flex-1 min-w-0">
-            <div className="flex items-center justify-between mb-3" id="tour-download">
+          {/* ── PREVIEW (desktop only, lg+) ── */}
+          <div className="hidden lg:flex flex-col flex-1 min-w-0">
+            <div className="flex items-center justify-between mb-3">
               <p className="text-xs font-bold uppercase tracking-widest" style={{ color: "var(--text-3)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>Live Preview</p>
-              <button onClick={handlePrint} className="flex items-center gap-2 text-xs font-bold px-4 py-2 rounded-lg text-white"
-                style={{ background: "var(--green)", border: "none", cursor: "pointer", boxShadow: "0 2px 12px rgba(61,179,113,0.25)" }}>
-                <Download className="w-3.5 h-3.5" /> Download PDF
-              </button>
+              <div className="flex items-center gap-2" id="tour-download">
+                <div id="tour-ats"><ATSScoreRing score={getCVScore(cv)} /></div>
+                <motion.button whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}
+                  onClick={handlePrint}
+                  className="flex items-center gap-2 text-xs font-bold px-4 py-2.5 rounded-xl text-white"
+                  style={{ background: "var(--green)", border: "none", cursor: "pointer", boxShadow: "0 2px 12px rgba(61,179,113,0.3)" }}>
+                  <Download className="w-3.5 h-3.5" /> Download PDF
+                </motion.button>
+              </div>
             </div>
-            <div className="rounded-2xl overflow-hidden relative" id="tour-preview" style={{ background: "#d8d8d8", padding: "16px", border: "1px solid var(--border)" }}>
+            <div className="rounded-2xl overflow-hidden relative flex-1" id="tour-preview" style={{ background: "#d8d8d8", padding: "16px", border: "1px solid var(--border)" }}>
               <div className="overflow-x-auto flex justify-center">
                 <AnimatePresence mode="wait">
                   {rendering ? (
@@ -1340,7 +1384,7 @@ export default function CVMaker() {
                         <div className="h-10 w-1/2 bg-gray-100 rounded animate-pulse mx-auto" />
                         <div className="h-4 w-2/3 bg-gray-50 rounded animate-pulse mx-auto" />
                         <div className="pt-20 space-y-6">
-                           {[1,2,3,4,5].map(i => <div key={i} className="h-3 w-full bg-gray-50 rounded animate-pulse" />)}
+                          {[1,2,3,4,5].map(i => <div key={i} className="h-3 w-full bg-gray-50 rounded animate-pulse" />)}
                         </div>
                       </div>
                     </motion.div>
@@ -1356,9 +1400,41 @@ export default function CVMaker() {
         </div>
       </div>
 
+      {/* ── Mobile Sticky Bottom Bar (lg and below) ── */}
+      <div className="lg:hidden fixed bottom-0 left-0 right-0 z-40 cv-mobile-bar" style={{ background: "rgba(10,10,11,0.92)", borderTop: "1px solid rgba(61,179,113,0.2)", backdropFilter: "blur(16px)", WebkitBackdropFilter: "blur(16px)", padding: "10px 16px", paddingBottom: "calc(10px + env(safe-area-inset-bottom))" }}>
+        <div className="flex items-center gap-3 max-w-lg mx-auto">
+          {/* ATS mini pill */}
+          <div className="flex items-center gap-1.5 shrink-0 px-3 py-2 rounded-xl" style={{ background: "rgba(61,179,113,0.1)", border: "1px solid rgba(61,179,113,0.2)" }}>
+            <svg className="w-5 h-5 -rotate-90" viewBox="0 0 36 36">
+              <path stroke="rgba(61,179,113,0.2)" strokeWidth="3" fill="none" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+              <motion.path stroke="#3DB371" strokeWidth="3" strokeLinecap="round" fill="none"
+                d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+                animate={{ strokeDasharray: `${getCVScore(cv)}, 100` }}
+                transition={{ duration: 0.8, ease: "easeOut" }}
+              />
+            </svg>
+            <span className="text-xs font-bold" style={{ color: "var(--green)" }}>{getCVScore(cv)}%</span>
+          </div>
+          {/* Preview button */}
+          <motion.button whileTap={{ scale: 0.96 }}
+            onClick={() => setShowPreview(true)}
+            className="flex-1 flex items-center justify-center gap-2 font-bold rounded-xl py-3 text-sm"
+            style={{ background: "rgba(61,179,113,0.12)", border: "1px solid rgba(61,179,113,0.3)", color: "var(--green)", cursor: "pointer" }}>
+            <Eye className="w-4 h-4" /> Preview CV
+          </motion.button>
+          {/* Download button */}
+          <motion.button whileTap={{ scale: 0.96 }} whileHover={{ scale: 1.03 }}
+            onClick={handlePrint}
+            className="flex items-center gap-2 font-bold rounded-xl py-3 px-5 text-sm text-white"
+            style={{ background: "var(--green)", border: "none", cursor: "pointer", boxShadow: "0 4px 18px rgba(61,179,113,0.4)" }}>
+            <Download className="w-4 h-4" /> PDF
+          </motion.button>
+        </div>
+      </div>
+
       {/* ── Mobile fullscreen preview modal ── */}
       {showPreview && (
-        <div className="xl:hidden fixed inset-0 z-50 flex flex-col" style={{ height: "100svh", background: "rgba(0,0,0,0.9)" }}>
+        <div className="lg:hidden fixed inset-0 z-50 flex flex-col" style={{ height: "100svh", background: "rgba(0,0,0,0.9)" }}>
           {/* Header */}
           <div className="flex items-center justify-between px-4 py-3 shrink-0" style={{ background: "var(--bg-2)", borderBottom: "1px solid var(--border)" }}>
             <p className="text-sm font-bold" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>CV Live Preview</p>

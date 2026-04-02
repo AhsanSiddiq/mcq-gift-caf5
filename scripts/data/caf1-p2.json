@@ -1,0 +1,842 @@
+[
+  {
+    "id": "c6q1",
+    "chapter": 6,
+    "chapterTitle": "IAS 38 Intangible Assets",
+    "question": "Which of the following best describes the defining characteristics of an intangible asset under IAS 38?",
+    "options": [
+      "A) A monetary asset with physical substance used in production.",
+      "B) An identifiable non-monetary asset without physical substance.",
+      "C) Any asset acquired in a business combination.",
+      "D) An unidentifiable resource that generates future cash flows."
+    ],
+    "correctAnswer": "B) An identifiable non-monetary asset without physical substance.",
+    "explanation": "IAS 38 defines an intangible asset strictly as an identifiable non-monetary asset without physical substance."
+  },
+  {
+    "id": "c6q2",
+    "chapter": 6,
+    "chapterTitle": "IAS 38 Intangible Assets",
+    "question": "Which of the following items is explicitly EXCLUDED from the scope of IAS 38 Intangible Assets?",
+    "options": [
+      "A) Computer software.",
+      "B) Fishing licences and import quotas.",
+      "C) Intangible assets held for sale in the ordinary course of business.",
+      "D) Patents and copyrights."
+    ],
+    "correctAnswer": "C) Intangible assets held for sale in the ordinary course of business.",
+    "explanation": "Intangible assets held for sale in the ordinary course of business are excluded from IAS 38 and are instead accounted for under IAS 2 Inventories."
+  },
+  {
+    "id": "c6q3",
+    "chapter": 6,
+    "chapterTitle": "IAS 38 Intangible Assets",
+    "question": "Omega Corp spent Rs. 800,000 during the year to evaluate possible alternative materials for a new product line. Under IAS 38, how should this expenditure be treated?",
+    "options": [
+      "A) Capitalized as an intangible asset.",
+      "B) Deferred and amortized over 5 years.",
+      "C) Recognized as an expense in profit or loss when incurred.",
+      "D) Deducted directly from retained earnings."
+    ],
+    "correctAnswer": "C) Recognized as an expense in profit or loss when incurred.",
+    "explanation": "Evaluating possible alternatives is considered a research activity, and under IAS 38, all research costs must be recognized as an expense when incurred."
+  },
+  {
+    "id": "c6q4",
+    "chapter": 6,
+    "chapterTitle": "IAS 38 Intangible Assets",
+    "question": "Which of the following is NOT a required criterion for capitalizing development expenditure as an intangible asset?",
+    "options": [
+      "A) The technical feasibility of completing the asset.",
+      "B) The intention to complete the asset and use or sell it.",
+      "C) The existence of a guaranteed government grant for the project.",
+      "D) The availability of adequate technical and financial resources to complete the development."
+    ],
+    "correctAnswer": "C) The existence of a guaranteed government grant for the project.",
+    "explanation": "IAS 38 requires technical feasibility, intention, ability to complete/use/sell, future economic benefits, available resources, and reliable measurement of expenditure. A government grant is not a requirement."
+  },
+  {
+    "id": "c6q5",
+    "chapter": 6,
+    "chapterTitle": "IAS 38 Intangible Assets",
+    "question": "Alpha Ltd has successfully developed a new brand name internally, spending Rs. 2 million on marketing and design. How should this internally generated brand be accounted for?",
+    "options": [
+      "A) Capitalized as an intangible asset at Rs. 2 million.",
+      "B) Recognized as an expense in profit or loss.",
+      "C) Capitalized but immediately impaired by 50%.",
+      "D) Recorded as a revaluation surplus in equity."
+    ],
+    "correctAnswer": "B) Recognized as an expense in profit or loss.",
+    "explanation": "Internally generated brands, mastheads, publishing titles, and customer lists cannot be distinguished from the cost of developing the business as a whole and shall not be recognized as intangible assets."
+  },
+  {
+    "id": "c6q6",
+    "chapter": 6,
+    "chapterTitle": "IAS 38 Intangible Assets",
+    "question": "Beta Inc. acquires an intangible asset in exchange for a non-monetary asset. The transaction lacks commercial substance. How should the acquired intangible asset be initially measured?",
+    "options": [
+      "A) At the fair value of the asset given up.",
+      "B) At the fair value of the asset received.",
+      "C) At the carrying amount of the asset given up.",
+      "D) At a nominal value of zero."
+    ],
+    "correctAnswer": "C) At the carrying amount of the asset given up.",
+    "explanation": "If an exchange transaction lacks commercial substance, the cost of the acquired intangible asset is measured at the carrying amount of the asset given up."
+  },
+  {
+    "id": "c6q7",
+    "chapter": 6,
+    "chapterTitle": "IAS 38 Intangible Assets",
+    "question": "Which of the following conditions must be met for an entity to use the revaluation model for an intangible asset?",
+    "options": [
+      "A) The asset must have an indefinite useful life.",
+      "B) The fair value must be measured by reference to an active market.",
+      "C) The asset must be internally generated.",
+      "D) The entity must also use the revaluation model for all its property, plant, and equipment."
+    ],
+    "correctAnswer": "B) The fair value must be measured by reference to an active market.",
+    "explanation": "For the purpose of revaluations under IAS 38, fair value shall be measured strictly by reference to an active market, which is uncommon for most intangibles."
+  },
+  {
+    "id": "c6q8",
+    "chapter": 6,
+    "chapterTitle": "IAS 38 Intangible Assets",
+    "question": "Gamma Corp determines that a purchased broadcasting license has an indefinite useful life. How should this license be subsequently measured?",
+    "options": [
+      "A) Amortized over a maximum presumed life of 10 years.",
+      "B) Amortized over 20 years.",
+      "C) Not amortized, but tested for impairment annually or when there is an indication of impairment.",
+      "D) Expensed immediately."
+    ],
+    "correctAnswer": "C) Not amortized, but tested for impairment annually or when there is an indication of impairment.",
+    "explanation": "An intangible asset with an indefinite useful life is not amortized. Instead, it must be tested for impairment annually or whenever there is an indication of impairment."
+  },
+  {
+    "id": "c6q9",
+    "chapter": 6,
+    "chapterTitle": "IAS 38 Intangible Assets",
+    "question": "What is the assumed residual value of an intangible asset with a finite useful life, according to IAS 38?",
+    "options": [
+      "A) 10% of its initial cost.",
+      "B) Zero, unless there is a commitment by a third party to purchase it or an active market exists for it.",
+      "C) The fair value at the end of the reporting period.",
+      "D) The salvage value determined by an independent valuer."
+    ],
+    "correctAnswer": "B) Zero, unless there is a commitment by a third party to purchase it or an active market exists for it.",
+    "explanation": "The residual value of an intangible asset with a finite useful life is assumed to be zero unless a third party is committed to buying it at the end of its life, or an active market exists."
+  },
+  {
+    "id": "c6q10",
+    "chapter": 6,
+    "chapterTitle": "IAS 38 Intangible Assets",
+    "question": "If an entity reassesses an intangible asset's useful life from 'indefinite' to 'finite', how is this change treated?",
+    "options": [
+      "A) As a correction of a prior period error.",
+      "B) As a change in accounting policy applied retrospectively.",
+      "C) As a change in an accounting estimate applied prospectively.",
+      "D) It triggers immediate derecognition of the asset."
+    ],
+    "correctAnswer": "C) As a change in an accounting estimate applied prospectively.",
+    "explanation": "The change in the useful life assessment from indefinite to finite is accounted for as a change in an accounting estimate under IAS 8, which is applied prospectively."
+  },
+  {
+    "id": "c6q11",
+    "chapter": 6,
+    "chapterTitle": "IAS 38 Intangible Assets",
+    "question": "Under SIC 32, when an entity develops a website for internal or external access, which costs can be capitalized as an intangible asset?",
+    "options": [
+      "A) Planning costs and feasibility studies.",
+      "B) Application and infrastructure development costs, provided IAS 38 recognition criteria are met.",
+      "C) Expenditure on training employees to operate the website.",
+      "D) Costs incurred to register the domain name only."
+    ],
+    "correctAnswer": "B) Application and infrastructure development costs, provided IAS 38 recognition criteria are met.",
+    "explanation": "Under SIC 32, application and infrastructure development (like developing code) may be capitalized if they meet the recognition criteria for development costs under IAS 38."
+  },
+  {
+    "id": "c6q12",
+    "chapter": 6,
+    "chapterTitle": "IAS 38 Intangible Assets",
+    "question": "Which of the following costs should be included in the initial cost of a separately acquired intangible asset?",
+    "options": [
+      "A) Costs of introducing a new product or service.",
+      "B) Initial operating losses incurred while demand builds up.",
+      "C) Non-refundable purchase taxes and import duties.",
+      "D) Costs of training staff to operate the asset."
+    ],
+    "correctAnswer": "C) Non-refundable purchase taxes and import duties.",
+    "explanation": "The cost of a separately acquired intangible asset includes its purchase price, import duties, and non-refundable purchase taxes, after deducting trade discounts."
+  },
+  {
+    "id": "c6q13",
+    "chapter": 6,
+    "chapterTitle": "IAS 38 Intangible Assets",
+    "question": "Delta Corp acquired an intangible asset in a business combination. How should the cost of this asset be initially measured?",
+    "options": [
+      "A) At the historical cost recorded by the acquired entity.",
+      "B) At its fair value at the acquisition date.",
+      "C) At net realizable value.",
+      "D) It cannot be recognized separately from goodwill."
+    ],
+    "correctAnswer": "B) At its fair value at the acquisition date.",
+    "explanation": "The cost of an intangible asset acquired in a business combination is its fair value at the acquisition date."
+  },
+  {
+    "id": "c6q14",
+    "chapter": 6,
+    "chapterTitle": "IAS 38 Intangible Assets",
+    "question": "When does the amortisation of an intangible asset with a finite useful life commence?",
+    "options": [
+      "A) When the asset is fully paid for.",
+      "B) At the beginning of the financial year following the purchase.",
+      "C) When the asset is available for use, in the location and condition intended by management.",
+      "D) When the asset actually starts generating revenue."
+    ],
+    "correctAnswer": "C) When the asset is available for use, in the location and condition intended by management.",
+    "explanation": "Amortisation begins when the asset is available for use, meaning it is in the location and condition necessary for it to be capable of operating in the manner intended by management."
+  },
+  {
+    "id": "c6q15",
+    "chapter": 6,
+    "chapterTitle": "IAS 38 Intangible Assets",
+    "question": "Which of the following disclosures is NOT mandatory for intangible assets under IAS 38?",
+    "options": [
+      "A) Whether the useful lives are indefinite or finite.",
+      "B) The amortisation methods used for assets with finite lives.",
+      "C) A list of all competitors operating with similar intangible assets.",
+      "D) A reconciliation of the carrying amount at the beginning and end of the period."
+    ],
+    "correctAnswer": "C) A list of all competitors operating with similar intangible assets.",
+    "explanation": "IAS 38 requires disclosures of useful lives, amortisation methods, and a reconciliation of carrying amounts, but does not require any disclosure regarding competitors."
+  },
+  {
+    "id": "c8q1",
+    "chapter": 8,
+    "chapterTitle": "Statement of Changes in Equity",
+    "question": "Which of the following is considered a 'revenue reserve' (distributable reserve) in the statement of changes in equity?",
+    "options": [
+      "A) Share premium.",
+      "B) Retained earnings.",
+      "C) Revaluation surplus.",
+      "D) Issued share capital."
+    ],
+    "correctAnswer": "B) Retained earnings.",
+    "explanation": "Retained earnings and general reserves are classified as revenue (distributable) reserves, whereas share premium and revaluation surplus are capital (non-distributable) reserves."
+  },
+  {
+    "id": "c8q2",
+    "chapter": 8,
+    "chapterTitle": "Statement of Changes in Equity",
+    "question": "How should a final dividend declared just after the year-end be presented in the financial statements for that year?",
+    "options": [
+      "A) Deducted from retained earnings in the statement of changes in equity.",
+      "B) Recognized as a liability in the statement of financial position.",
+      "C) Disclosed only in the notes to the financial statements.",
+      "D) Deducted from profit or loss as a finance cost."
+    ],
+    "correctAnswer": "C) Disclosed only in the notes to the financial statements.",
+    "explanation": "A dividend declared after the reporting period is a non-adjusting event and is only disclosed in the notes; it is not recognized as a liability or deducted from equity at year-end."
+  },
+  {
+    "id": "c8q3",
+    "chapter": 8,
+    "chapterTitle": "Statement of Changes in Equity",
+    "question": "Where must an entity present the amount of dividends recognized as distributions to owners during the period?",
+    "options": [
+      "A) Only in the statement of profit or loss.",
+      "B) Either in the statement of changes in equity or in the notes.",
+      "C) Exclusively in the statement of cash flows.",
+      "D) In the statement of financial position as a deduction from total assets."
+    ],
+    "correctAnswer": "B) Either in the statement of changes in equity or in the notes.",
+    "explanation": "An entity shall present, either in the statement of changes in equity or in the notes, the amount of dividends recognized as distributions to owners during the period."
+  },
+  {
+    "id": "c8q4",
+    "chapter": 8,
+    "chapterTitle": "Statement of Changes in Equity",
+    "question": "Which of the following causes an overall change in equity during a period?",
+    "options": [
+      "A) Total comprehensive income for the period.",
+      "B) A transfer from retained earnings to a general reserve.",
+      "C) A bonus issue of shares out of retained earnings.",
+      "D) A share split."
+    ],
+    "correctAnswer": "A) Total comprehensive income for the period.",
+    "explanation": "Total comprehensive income represents income and expenses that increase or decrease equity. Transfers between reserves or bonus issues merely reclassify amounts within equity without changing the overall total."
+  },
+  {
+    "id": "c8q5",
+    "chapter": 8,
+    "chapterTitle": "Statement of Changes in Equity",
+    "question": "An interim dividend of Rs. 15 million is paid during the financial year. How is this recorded in the financial statements?",
+    "options": [
+      "A) As an administrative expense in profit or loss.",
+      "B) As a deduction from retained earnings in the statement of changes in equity.",
+      "C) As a deduction from share premium.",
+      "D) As an operating cash inflow."
+    ],
+    "correctAnswer": "B) As a deduction from retained earnings in the statement of changes in equity.",
+    "explanation": "Dividends paid during the year represent distributions to owners and are deducted directly from retained earnings in the statement of changes in equity."
+  },
+  {
+    "id": "c8q6",
+    "chapter": 8,
+    "chapterTitle": "Statement of Changes in Equity",
+    "question": "What is the primary purpose of a 'Dividend Equalization Reserve'?",
+    "options": [
+      "A) To write off preliminary formation expenses.",
+      "B) To ensure that dividends remain stable irrespective of fluctuations in annual earnings.",
+      "C) To legally restrict the entity from paying any dividends.",
+      "D) To hold funds specifically for the redemption of preference shares."
+    ],
+    "correctAnswer": "B) To ensure that dividends remain stable irrespective of fluctuations in annual earnings.",
+    "explanation": "A dividend equalization reserve is a specific reserve created out of retained earnings to ensure that dividends remain stable irrespective of changes in earnings."
+  },
+  {
+    "id": "c8q7",
+    "chapter": 8,
+    "chapterTitle": "Statement of Changes in Equity",
+    "question": "Which of the following is NOT permitted to be charged or credited to the Share Premium account?",
+    "options": [
+      "A) Premium payable on the redemption of redeemable preference shares.",
+      "B) Issuance of bonus shares.",
+      "C) Routine annual cash dividends paid to ordinary shareholders.",
+      "D) Transaction costs relating to the issue of new shares."
+    ],
+    "correctAnswer": "C) Routine annual cash dividends paid to ordinary shareholders.",
+    "explanation": "Share premium is a capital reserve and cannot be used to pay routine cash dividends. It can be used for bonus shares, writing off issue costs, or premiums on redemption."
+  },
+  {
+    "id": "c8q8",
+    "chapter": 8,
+    "chapterTitle": "Statement of Changes in Equity",
+    "question": "A company issues a 10% bonus share to its existing shareholders out of retained earnings. What is the net effect on total equity?",
+    "options": [
+      "A) Total equity increases by 10%.",
+      "B) Total equity decreases by 10%.",
+      "C) Total equity remains unchanged.",
+      "D) Total equity increases by the nominal value of the shares issued."
+    ],
+    "correctAnswer": "C) Total equity remains unchanged.",
+    "explanation": "A bonus issue capitalizes reserves (e.g., retained earnings decrease while share capital increases), resulting in zero net change to total equity."
+  },
+  {
+    "id": "c8q9",
+    "chapter": 8,
+    "chapterTitle": "Statement of Changes in Equity",
+    "question": "When an entity discovers a material error from a prior period, how is the correction presented in the statement of changes in equity?",
+    "options": [
+      "A) As a separate line item adjusting the closing balance of the current period.",
+      "B) As an adjustment to the opening balance of retained earnings for the earliest period presented.",
+      "C) It is ignored in equity and charged directly to current year profit or loss.",
+      "D) As an item of other comprehensive income."
+    ],
+    "correctAnswer": "B) As an adjustment to the opening balance of retained earnings for the earliest period presented.",
+    "explanation": "The effects of retrospective restatement for prior period errors must be shown as an adjustment to the opening balance of retained earnings (or other relevant equity component) for the earliest period presented."
+  },
+  {
+    "id": "c8q10",
+    "chapter": 8,
+    "chapterTitle": "Statement of Changes in Equity",
+    "question": "Which document explicitly presents the reconciliation between the carrying amount of each component of equity at the beginning and end of the period?",
+    "options": [
+      "A) Statement of financial position.",
+      "B) Statement of profit or loss.",
+      "C) Statement of changes in equity.",
+      "D) Statement of cash flows."
+    ],
+    "correctAnswer": "C) Statement of changes in equity.",
+    "explanation": "The statement of changes in equity provides a reconciliation between the carrying amount at the beginning and the end of the period for each component of equity."
+  },
+  {
+    "id": "c8q11",
+    "chapter": 8,
+    "chapterTitle": "Statement of Changes in Equity",
+    "question": "In the statement of changes in equity, what is the effect of transferring Rs. 20 million from retained earnings to a general reserve?",
+    "options": [
+      "A) Total equity increases by Rs. 20 million.",
+      "B) Total equity decreases by Rs. 20 million.",
+      "C) Retained earnings decrease and general reserves increase, with no change to total equity.",
+      "D) The transfer is recognized as an expense in profit or loss."
+    ],
+    "correctAnswer": "C) Retained earnings decrease and general reserves increase, with no change to total equity.",
+    "explanation": "Transfers between reserves (such as from retained earnings to general reserves) are internal reclassifications within equity and do not change the total equity balance."
+  },
+  {
+    "id": "c8q12",
+    "chapter": 8,
+    "chapterTitle": "Statement of Changes in Equity",
+    "question": "A company issues 1 million ordinary shares of Rs. 10 each at a price of Rs. 15 per share. How is the Rs. 5 per share excess recorded?",
+    "options": [
+      "A) Credited to the statement of profit or loss as revenue.",
+      "B) Credited to the share premium account.",
+      "C) Credited to retained earnings.",
+      "D) Credited to the revaluation surplus."
+    ],
+    "correctAnswer": "B) Credited to the share premium account.",
+    "explanation": "When a company issues shares at a price higher than their nominal (par) value, the excess amount is credited to a capital reserve known as the share premium account."
+  },
+  {
+    "id": "c8q13",
+    "chapter": 8,
+    "chapterTitle": "Statement of Changes in Equity",
+    "question": "Which of the following is an example of an item that is recognized in 'Other Comprehensive Income' and subsequently appears in the statement of changes in equity?",
+    "options": [
+      "A) Routine administrative salaries.",
+      "B) Gain on revaluation of property, plant and equipment.",
+      "C) Interest expense on a bank loan.",
+      "D) Cash received from customers."
+    ],
+    "correctAnswer": "B) Gain on revaluation of property, plant and equipment.",
+    "explanation": "Revaluation surplus arising from the revaluation of PPE is recognized in Other Comprehensive Income and accumulates in equity as a capital reserve."
+  },
+  {
+    "id": "c8q14",
+    "chapter": 8,
+    "chapterTitle": "Statement of Changes in Equity",
+    "question": "Which of the following statements about irredeemable preference shares is true in the context of equity?",
+    "options": [
+      "A) They are always classified as a non-current liability.",
+      "B) They form part of the entity's share capital within equity.",
+      "C) Dividends paid on them are treated as a finance cost.",
+      "D) They must be redeemed within 12 months."
+    ],
+    "correctAnswer": "B) They form part of the entity's share capital within equity.",
+    "explanation": "Irredeemable preference shares do not have a mandatory repayment obligation, so they are classified as part of share capital within equity."
+  },
+  {
+    "id": "c8q15",
+    "chapter": 8,
+    "chapterTitle": "Statement of Changes in Equity",
+    "question": "Transaction costs directly related to the issuance of new shares should be:",
+    "options": [
+      "A) Expensed immediately in the statement of profit or loss.",
+      "B) Capitalized as an intangible asset.",
+      "C) Deducted from equity (typically from share premium if available).",
+      "D) Added to the nominal value of share capital."
+    ],
+    "correctAnswer": "C) Deducted from equity (typically from share premium if available).",
+    "explanation": "Transaction costs directly related to the issue of shares are accounted for as a deduction from equity, typically debited against the share premium account if one exists, or retained earnings."
+  },
+  {
+    "id": "c9q1",
+    "chapter": 9,
+    "chapterTitle": "Conceptual and Regulatory Framework",
+    "question": "According to the Conceptual Framework, which of the following best defines a 'liability'?",
+    "options": [
+      "A) A possible obligation that arises from past events.",
+      "B) A present obligation of the entity to transfer an economic resource as a result of past events.",
+      "C) A resource controlled by the entity to generate future economic benefits.",
+      "D) An outflow of cash expected to occur in the next 12 months."
+    ],
+    "correctAnswer": "B) A present obligation of the entity to transfer an economic resource as a result of past events.",
+    "explanation": "The Conceptual Framework defines a liability strictly as a present obligation of the entity to transfer an economic resource as a result of past events."
+  },
+  {
+    "id": "c9q2",
+    "chapter": 9,
+    "chapterTitle": "Conceptual and Regulatory Framework",
+    "question": "Which of the following falls under the definition of 'Income' according to the Conceptual Framework?",
+    "options": [
+      "A) Increases in assets resulting from contributions by equity holders.",
+      "B) Decreases in liabilities resulting from distributions to equity holders.",
+      "C) Increases in assets or decreases in liabilities that result in an increase in equity, other than contributions from equity holders.",
+      "D) The aggregate market value of the entity's outstanding shares."
+    ],
+    "correctAnswer": "C) Increases in assets or decreases in liabilities that result in an increase in equity, other than contributions from equity holders.",
+    "explanation": "Income is defined as increases in assets, or decreases in liabilities, that result in increases in equity, other than those relating to contributions from equity participants."
+  },
+  {
+    "id": "c9q3",
+    "chapter": 9,
+    "chapterTitle": "Conceptual and Regulatory Framework",
+    "question": "When verifying the carrying amount of inventory by checking the costs and recalculating using the FIFO formula, what type of verification is being performed?",
+    "options": [
+      "A) Direct verification.",
+      "B) Indirect verification.",
+      "C) Absolute verification.",
+      "D) Unverifiable estimation."
+    ],
+    "correctAnswer": "B) Indirect verification.",
+    "explanation": "Indirect verification means checking the inputs to a model or formula (like cost inputs) and recalculating the outputs using the same methodology (like FIFO), whereas direct verification is physical counting."
+  },
+  {
+    "id": "c9q4",
+    "chapter": 9,
+    "chapterTitle": "Conceptual and Regulatory Framework",
+    "question": "Under the 'Physical Capital Maintenance' concept, when is a profit considered to be earned?",
+    "options": [
+      "A) When the nominal monetary amount of net assets increases during the period.",
+      "B) Only if the physical productive capacity of the entity at the end of the period exceeds the physical productive capacity at the beginning.",
+      "C) When revenue exceeds historical costs.",
+      "D) Only when the business is sold as a going concern."
+    ],
+    "correctAnswer": "B) Only if the physical productive capacity of the entity at the end of the period exceeds the physical productive capacity at the beginning.",
+    "explanation": "Physical capital maintenance measures profit only if the physical productive capacity (or operating capability) at the end of the period exceeds that at the beginning, excluding owner contributions/distributions."
+  },
+  {
+    "id": "c9q5",
+    "chapter": 9,
+    "chapterTitle": "Conceptual and Regulatory Framework",
+    "question": "Which organization acts as the overall supervisory body for the standard-setting process, appointing trustees and monitoring their performance?",
+    "options": [
+      "A) International Accounting Standards Board (IASB).",
+      "B) IFRS Interpretations Committee.",
+      "C) IFRS Advisory Council.",
+      "D) IFRS Foundation (specifically the Monitoring Board oversees it)."
+    ],
+    "correctAnswer": "D) IFRS Foundation (specifically the Monitoring Board oversees it).",
+    "explanation": "The IFRS Foundation Trustees act as the supervisory body that appoints the IASB and Interpretations Committee, while the Monitoring Board oversees the Foundation."
+  },
+  {
+    "id": "c9q6",
+    "chapter": 9,
+    "chapterTitle": "Conceptual and Regulatory Framework",
+    "question": "According to the Conceptual Framework, 'materiality' is an entity-specific aspect of which fundamental qualitative characteristic?",
+    "options": [
+      "A) Verifiability.",
+      "B) Timeliness.",
+      "C) Relevance.",
+      "D) Understandability."
+    ],
+    "correctAnswer": "C) Relevance.",
+    "explanation": "Information is material if omitting or misstating it could influence decisions. Materiality is an entity-specific aspect of relevance."
+  },
+  {
+    "id": "c9q7",
+    "chapter": 9,
+    "chapterTitle": "Conceptual and Regulatory Framework",
+    "question": "How is the total carrying amount of 'equity' measured in general purpose financial statements?",
+    "options": [
+      "A) By valuing the entity as a going concern.",
+      "B) By calculating the aggregate market value of the entity's shares.",
+      "C) It equals the total carrying amount of recognized assets less the total carrying amount of recognized liabilities.",
+      "D) By determining the present value of future dividend payments."
+    ],
+    "correctAnswer": "C) It equals the total carrying amount of recognized assets less the total carrying amount of recognized liabilities.",
+    "explanation": "Equity is the residual interest. Its total carrying amount is not measured directly but equals total recognized assets less total recognized liabilities."
+  },
+  {
+    "id": "c9q8",
+    "chapter": 9,
+    "chapterTitle": "Conceptual and Regulatory Framework",
+    "question": "To be a perfectly 'faithful representation', a depiction in financial statements should possess which three characteristics?",
+    "options": [
+      "A) Relevant, reliable, and verifiable.",
+      "B) Complete, neutral, and free from error.",
+      "C) Timely, understandable, and comparable.",
+      "D) Complete, relevant, and verifiable."
+    ],
+    "correctAnswer": "B) Complete, neutral, and free from error.",
+    "explanation": "A perfectly faithful representation would have three characteristics: it would be complete, neutral (free from bias), and free from error."
+  },
+  {
+    "id": "c9q9",
+    "chapter": 9,
+    "chapterTitle": "Conceptual and Regulatory Framework",
+    "question": "Under financial capital maintenance measured in 'units of constant purchasing power', what adjustment must be made?",
+    "options": [
+      "A) No adjustment is required; nominal figures are used.",
+      "B) Assets are written down to net realizable value.",
+      "C) Profit is calculated after adjusting for the general rate of inflation.",
+      "D) Depreciation is ignored."
+    ],
+    "correctAnswer": "C) Profit is calculated after adjusting for the general rate of inflation.",
+    "explanation": "Under Constant Purchasing Power Accounting, financial capital maintenance requires an inflation adjustment at the general rate of inflation to reflect constant purchasing power."
+  },
+  {
+    "id": "c9q10",
+    "chapter": 9,
+    "chapterTitle": "Conceptual and Regulatory Framework",
+    "question": "Which of the following represents an 'economic resource' as defined by the Conceptual Framework?",
+    "options": [
+      "A) A liability requiring the transfer of cash.",
+      "B) An unidentifiable internal brand.",
+      "C) A right that has the potential to produce economic benefits.",
+      "D) The total market capitalization of the entity."
+    ],
+    "correctAnswer": "C) A right that has the potential to produce economic benefits.",
+    "explanation": "An economic resource is defined as a right that has the potential to produce economic benefits, which forms the basis for the definition of an asset."
+  },
+  {
+    "id": "c9q11",
+    "chapter": 9,
+    "chapterTitle": "Conceptual and Regulatory Framework",
+    "question": "Which qualitative characteristic emphasizes that information should be available to decision-makers in time to be capable of influencing their decisions?",
+    "options": [
+      "A) Comparability.",
+      "B) Verifiability.",
+      "C) Understandability.",
+      "D) Timeliness."
+    ],
+    "correctAnswer": "D) Timeliness.",
+    "explanation": "Timeliness means having information available to decision-makers in time to be capable of influencing their decisions."
+  },
+  {
+    "id": "c9q12",
+    "chapter": 9,
+    "chapterTitle": "Conceptual and Regulatory Framework",
+    "question": "During times of rising prices, preparing financial statements based strictly on historical cost generally leads to:",
+    "options": [
+      "A) Understated profits and overstated assets.",
+      "B) Overstated profits and understated assets.",
+      "C) Both profits and assets being accurately reflected in real terms.",
+      "D) Immediate recognition of impairment losses."
+    ],
+    "correctAnswer": "B) Overstated profits and understated assets.",
+    "explanation": "In times of rising prices, historical cost accounting will cause profits to be overstated (as older, lower costs are matched against current revenues) and assets to be understated."
+  },
+  {
+    "id": "c9q13",
+    "chapter": 9,
+    "chapterTitle": "Conceptual and Regulatory Framework",
+    "question": "The concept of 'measurement basis' refers to:",
+    "options": [
+      "A) The currency in which financial statements are presented.",
+      "B) The physical counting of inventory at year-end.",
+      "C) An identified feature used to quantify elements, such as historical cost or fair value.",
+      "D) The depreciation method selected by management."
+    ],
+    "correctAnswer": "C) An identified feature used to quantify elements, such as historical cost or fair value.",
+    "explanation": "A measurement basis is an identified feature, for example, historical cost, fair value or fulfilment value, of an item being measured in monetary terms."
+  },
+  {
+    "id": "c9q14",
+    "chapter": 9,
+    "chapterTitle": "Conceptual and Regulatory Framework",
+    "question": "Which of the following is responsible for drafting and approving new International Financial Reporting Standards (IFRS)?",
+    "options": [
+      "A) The IFRS Advisory Council.",
+      "B) The International Accounting Standards Board (IASB).",
+      "C) The IFRS Interpretations Committee.",
+      "D) The Monitoring Board."
+    ],
+    "correctAnswer": "B) The International Accounting Standards Board (IASB).",
+    "explanation": "The IASB is the body responsible for developing, issuing, and approving International Financial Reporting Standards."
+  },
+  {
+    "id": "c9q15",
+    "chapter": 9,
+    "chapterTitle": "Conceptual and Regulatory Framework",
+    "question": "What is the primary factor limiting the information that can be provided by financial reporting?",
+    "options": [
+      "A) Cost constraints.",
+      "B) The physical location of the business.",
+      "C) The number of employees.",
+      "D) The entity's tax bracket."
+    ],
+    "correctAnswer": "A) Cost constraints.",
+    "explanation": "The Conceptual Framework explicitly notes that the cost constraint is a pervasive constraint on the useful financial information that can be provided."
+  },
+  {
+    "id": "c10q1",
+    "chapter": 10,
+    "chapterTitle": "IAS 8 Accounting Policies, Estimates and Errors",
+    "question": "Under IAS 8, which of the following situations qualifies as a valid reason to voluntarily change an accounting policy?",
+    "options": [
+      "A) The change will make the preparation of financial statements less time-consuming.",
+      "B) The change will result in higher reported profits to satisfy shareholders.",
+      "C) The change results in the financial statements providing reliable and more relevant information.",
+      "D) A major competitor recently made a similar error."
+    ],
+    "correctAnswer": "C) The change results in the financial statements providing reliable and more relevant information.",
+    "explanation": "An entity shall change an accounting policy voluntarily only if the change results in the financial statements providing reliable and more relevant information about the effects of transactions."
+  },
+  {
+    "id": "c10q2",
+    "chapter": 10,
+    "chapterTitle": "IAS 8 Accounting Policies, Estimates and Errors",
+    "question": "How should an entity account for a change in the depreciation method of a machine from straight-line to reducing balance?",
+    "options": [
+      "A) Retrospectively, as a change in accounting policy.",
+      "B) Prospectively, as a change in accounting estimate.",
+      "C) Retrospectively, as a correction of a prior period error.",
+      "D) Prospectively, by restating the opening balance of retained earnings."
+    ],
+    "correctAnswer": "B) Prospectively, as a change in accounting estimate.",
+    "explanation": "A change in depreciation method is treated as a change in an accounting estimate, which must be recognized prospectively by including it in the profit or loss of the current and future periods."
+  },
+  {
+    "id": "c10q3",
+    "chapter": 10,
+    "chapterTitle": "IAS 8 Accounting Policies, Estimates and Errors",
+    "question": "Sigma Ltd discovers a material error in its inventory valuation for the previous financial year. How must this be corrected under IAS 8?",
+    "options": [
+      "A) By adjusting the current year's profit or loss only.",
+      "B) By correcting it prospectively from the date of discovery.",
+      "C) By retrospectively restating the comparative amounts for the prior period in which the error occurred.",
+      "D) By deferring the correction over the next 5 years."
+    ],
+    "correctAnswer": "C) By retrospectively restating the comparative amounts for the prior period in which the error occurred.",
+    "explanation": "Material prior period errors are corrected retrospectively by restating the comparative amounts for the prior periods in which the error occurred."
+  },
+  {
+    "id": "c10q4",
+    "chapter": 10,
+    "chapterTitle": "IAS 8 Accounting Policies, Estimates and Errors",
+    "question": "If it is 'impracticable' to determine the period-specific effects of a change in accounting policy on comparative information, what should the entity do?",
+    "options": [
+      "A) Apply the new policy prospectively from the start of the earliest period practicable.",
+      "B) Discard the new accounting policy and stick to the old one.",
+      "C) Write off the difference directly to the statement of profit or loss.",
+      "D) Create a general reserve for the unknown amount."
+    ],
+    "correctAnswer": "A) Apply the new policy prospectively from the start of the earliest period practicable.",
+    "explanation": "When it is impracticable to determine period-specific effects, the entity applies the new policy to the carrying amounts of assets and liabilities as at the beginning of the earliest period for which retrospective application is practicable."
+  },
+  {
+    "id": "c10q5",
+    "chapter": 10,
+    "chapterTitle": "IAS 8 Accounting Policies, Estimates and Errors",
+    "question": "Which of the following is considered a 'change in accounting policy' rather than a 'change in estimate'?",
+    "options": [
+      "A) Changing the allowance for doubtful debts from 2% to 5% of receivables.",
+      "B) Changing the useful life of a delivery van from 5 years to 3 years.",
+      "C) Changing the inventory cost formula from FIFO to Weighted Average.",
+      "D) Changing the provision for warranty claims based on new historical data."
+    ],
+    "correctAnswer": "C) Changing the inventory cost formula from FIFO to Weighted Average.",
+    "explanation": "Changing the cost formula for measurement of inventory (e.g., FIFO to weighted average) is a change in measurement basis and constitutes a change in accounting policy."
+  },
+  {
+    "id": "c10q6",
+    "chapter": 10,
+    "chapterTitle": "IAS 8 Accounting Policies, Estimates and Errors",
+    "question": "When an entity applies an accounting policy retrospectively, what additional requirement must it fulfill regarding the presentation of financial statements?",
+    "options": [
+      "A) It must present a third statement of financial position as at the beginning of the preceding period.",
+      "B) It must file a special disclosure with the tax authorities.",
+      "C) It must present five years of comparative profit or loss statements.",
+      "D) It must suspend dividend payments for the current year."
+    ],
+    "correctAnswer": "A) It must present a third statement of financial position as at the beginning of the preceding period.",
+    "explanation": "An additional (third) statement of financial position as at the beginning of the preceding period is required when an entity applies an accounting policy retrospectively."
+  },
+  {
+    "id": "c10q7",
+    "chapter": 10,
+    "chapterTitle": "IAS 8 Accounting Policies, Estimates and Errors",
+    "question": "Theta Corp applies an IFRS for the first time, and the standard contains specific transitional provisions. How should Theta apply this new standard?",
+    "options": [
+      "A) It must always apply the change retrospectively, ignoring the provisions.",
+      "B) It must account for the change in accordance with those specific transitional provisions.",
+      "C) It must apply the change prospectively in all cases.",
+      "D) It must restate only the current year's opening equity."
+    ],
+    "correctAnswer": "B) It must account for the change in accordance with those specific transitional provisions.",
+    "explanation": "When a change in accounting policy is required by an IFRS and that IFRS prescribes transitional provisions, the entity must account for the change in accordance with those specific transitional provisions."
+  },
+  {
+    "id": "c10q8",
+    "chapter": 10,
+    "chapterTitle": "IAS 8 Accounting Policies, Estimates and Errors",
+    "question": "Which of the following events is NOT considered a change in accounting policy?",
+    "options": [
+      "A) Changing the measurement of investment property from the cost model to the fair value model.",
+      "B) Application of a new accounting policy for a transaction that did not occur previously.",
+      "C) Changing the classification of government grants in the statement of financial position.",
+      "D) A voluntary shift from weighted average to FIFO for inventory valuation."
+    ],
+    "correctAnswer": "B) Application of a new accounting policy for a transaction that did not occur previously.",
+    "explanation": "The application of a new accounting policy for transactions and events that did not occur previously, or were immaterial, is explicitly excluded from being classified as a change in accounting policy."
+  },
+  {
+    "id": "c10q9",
+    "chapter": 10,
+    "chapterTitle": "IAS 8 Accounting Policies, Estimates and Errors",
+    "question": "In the absence of a specifically applicable IFRS, management must use judgement to develop an accounting policy. Which of the following is the FIRST source management should refer to?",
+    "options": [
+      "A) Tax laws of the local jurisdiction.",
+      "B) Guidelines from competing companies.",
+      "C) IFRSs dealing with similar and related issues.",
+      "D) Local generally accepted accounting principles (GAAP)."
+    ],
+    "correctAnswer": "C) IFRSs dealing with similar and related issues.",
+    "explanation": "In making such judgement, management should first consider the requirements in IFRSs dealing with similar and related issues, followed by the Conceptual Framework."
+  },
+  {
+    "id": "c10q10",
+    "chapter": 10,
+    "chapterTitle": "IAS 8 Accounting Policies, Estimates and Errors",
+    "question": "Epsilon Ltd revalues its property from the cost model to the revaluation model for the first time. How is this change handled under IAS 8?",
+    "options": [
+      "A) It is treated as a standard change in accounting policy and applied retrospectively.",
+      "B) It is treated as a prior period error.",
+      "C) It is dealt with as a revaluation in accordance with IAS 16, not as a retrospective policy change under IAS 8.",
+      "D) It is applied prospectively but requires a restatement of opening retained earnings."
+    ],
+    "correctAnswer": "C) It is dealt with as a revaluation in accordance with IAS 16, not as a retrospective policy change under IAS 8.",
+    "explanation": "The initial application of a policy to revalue assets (from cost model) is an exception and is dealt with in accordance with IAS 16, not retrospectively under IAS 8."
+  },
+  {
+    "id": "c10q11",
+    "chapter": 10,
+    "chapterTitle": "IAS 8 Accounting Policies, Estimates and Errors",
+    "question": "When a company finds it difficult to distinguish whether a change is a change in accounting policy or a change in accounting estimate, how must it treat the change?",
+    "options": [
+      "A) As a change in accounting policy.",
+      "B) As a change in accounting estimate.",
+      "C) As a correction of a prior period error.",
+      "D) It must appeal to the IASB for a ruling."
+    ],
+    "correctAnswer": "B) As a change in accounting estimate.",
+    "explanation": "IAS 8 explicitly states that when it is difficult to distinguish a change in an accounting policy from a change in an accounting estimate, the change is treated as a change in an accounting estimate."
+  },
+  {
+    "id": "c10q12",
+    "chapter": 10,
+    "chapterTitle": "IAS 8 Accounting Policies, Estimates and Errors",
+    "question": "Which of the following describes 'prospective application'?",
+    "options": [
+      "A) Adjusting opening retained earnings for past periods.",
+      "B) Applying the new accounting policy to transactions occurring after the date of the change.",
+      "C) Publishing three years of comparative financial statements.",
+      "D) Restating comparatives to show what would have happened had the error not occurred."
+    ],
+    "correctAnswer": "B) Applying the new accounting policy to transactions occurring after the date of the change.",
+    "explanation": "Prospective application means applying the new accounting policy or estimate only to transactions and events occurring after the date of the change, without altering past records."
+  },
+  {
+    "id": "c10q13",
+    "chapter": 10,
+    "chapterTitle": "IAS 8 Accounting Policies, Estimates and Errors",
+    "question": "If a change in accounting estimate gives rise to changes in assets, liabilities, or equity, when should this adjustment be recognized?",
+    "options": [
+      "A) By adjusting the carrying amount in the period of the change.",
+      "B) By spreading the adjustment equally over the next 3 years.",
+      "C) By restating the prior year's comparative figures.",
+      "D) By recording it in Other Comprehensive Income only."
+    ],
+    "correctAnswer": "A) By adjusting the carrying amount in the period of the change.",
+    "explanation": "To the extent a change in an accounting estimate affects assets, liabilities, or equity, it shall be recognized by adjusting the carrying amount of the related item in the period of the change."
+  },
+  {
+    "id": "c10q14",
+    "chapter": 10,
+    "chapterTitle": "IAS 8 Accounting Policies, Estimates and Errors",
+    "question": "Which of the following details must be disclosed when a voluntary change in accounting policy is made?",
+    "options": [
+      "A) The exact names of the management team who authorized it.",
+      "B) The reasons why the new policy provides reliable and more relevant information.",
+      "C) The impact the change will have 10 years into the future.",
+      "D) A guarantee that the policy will never be changed again."
+    ],
+    "correctAnswer": "B) The reasons why the new policy provides reliable and more relevant information.",
+    "explanation": "For a voluntary change in accounting policy, IAS 8 requires disclosure of the nature of the change and the reasons why the new policy provides reliable and more relevant information."
+  },
+  {
+    "id": "c10q15",
+    "chapter": 10,
+    "chapterTitle": "IAS 8 Accounting Policies, Estimates and Errors",
+    "question": "During the current year, a company discovers that it accidentally completely omitted a material sales invoice from the previous year's records. This is categorized as:",
+    "options": [
+      "A) A change in accounting estimate.",
+      "B) A change in accounting policy.",
+      "C) A material prior period error.",
+      "D) An adjusting event after the reporting period for the current year."
+    ],
+    "correctAnswer": "C) A material prior period error.",
+    "explanation": "Omissions or misstatements of financial information from past periods are classified as prior period errors and must be corrected retrospectively."
+  }
+]

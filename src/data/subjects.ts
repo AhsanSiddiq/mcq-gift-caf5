@@ -38,7 +38,7 @@ export const cafSubjects: Subject[] = [
     title: "Financial Accounting and Reporting",
     level: "CAF",
     description: "Build strong, advanced accounting fundamentals.",
-    isAvailable: false,
+    isAvailable: true,
   },
   {
     id: "caf-2",

@@ -1,0 +1,1052 @@
+[
+  {
+    "id": "c7q1",
+    "chapter": 7,
+    "chapterTitle": "IAS 41 Agriculture",
+    "question": "Which of the following items is EXCLUDED from the scope of IAS 41 Agriculture?",
+    "options": [
+      "A) Sheep raised for their wool.",
+      "B) Fruit trees used to bear agricultural produce over multiple periods.",
+      "C) Dairy cattle used to produce milk.",
+      "D) The agricultural produce harvested from a biological asset."
+    ],
+    "correctAnswer": "B) Fruit trees used to bear agricultural produce over multiple periods.",
+    "explanation": "Bearer plants, such as fruit trees used to supply produce for more than one period, are explicitly excluded from IAS 41 and fall under IAS 16 Property, Plant and Equipment. However, the produce growing on them remains under IAS 41."
+  },
+  {
+    "id": "c7q2",
+    "chapter": 7,
+    "chapterTitle": "IAS 41 Agriculture",
+    "question": "Under IAS 41, how should a biological asset be measured on initial recognition and at the end of each reporting period?",
+    "options": [
+      "A) At historical cost less accumulated depreciation.",
+      "B) At fair value.",
+      "C) At fair value less costs to sell.",
+      "D) At net realizable value."
+    ],
+    "correctAnswer": "C) At fair value less costs to sell.",
+    "explanation": "IAS 41 requires that biological assets be measured at fair value less costs to sell, from initial recognition up to the point of harvest, unless fair value cannot be measured reliably."
+  },
+  {
+    "id": "c7q3",
+    "chapter": 7,
+    "chapterTitle": "IAS 41 Agriculture",
+    "question": "At the point of harvest, how is agricultural produce measured?",
+    "options": [
+      "A) At historical cost.",
+      "B) At fair value less costs to sell.",
+      "C) At the lower of cost and net realizable value.",
+      "D) At its present value of future cash flows."
+    ],
+    "correctAnswer": "B) At fair value less costs to sell.",
+    "explanation": "IAS 41 requires agricultural produce harvested from an entity's biological assets to be measured at its fair value less costs to sell at the point of harvest. This becomes its deemed cost for IAS 2."
+  },
+  {
+    "id": "c7q4",
+    "chapter": 7,
+    "chapterTitle": "IAS 41 Agriculture",
+    "question": "An entity acquires a herd of cattle. Due to the deduction of estimated costs to sell, the fair value less costs to sell is lower than the purchase price. How is this difference accounted for?",
+    "options": [
+      "A) Capitalized as part of the asset's cost.",
+      "B) Recognized immediately as a loss in profit or loss.",
+      "C) Deferred and amortized over the life of the herd.",
+      "D) Deducted from the entity's retained earnings."
+    ],
+    "correctAnswer": "B) Recognized immediately as a loss in profit or loss.",
+    "explanation": "A loss may arise on the initial recognition of a biological asset because costs to sell are deducted in determining fair value less costs to sell. This loss must be included in profit or loss in the period it arises."
+  },
+  {
+    "id": "c7q5",
+    "chapter": 7,
+    "chapterTitle": "IAS 41 Agriculture",
+    "question": "Zenith Farms receives an unconditional government grant related to a biological asset measured at fair value less costs to sell. When should this grant be recognized as income?",
+    "options": [
+      "A) When the grant is physically received in cash.",
+      "B) Over the useful life of the biological asset.",
+      "C) When, and only when, the government grant becomes receivable.",
+      "D) As a deduction from the carrying amount of the biological asset."
+    ],
+    "correctAnswer": "C) When, and only when, the government grant becomes receivable.",
+    "explanation": "IAS 41 dictates that an unconditional government grant related to a biological asset measured at fair value less costs to sell shall be recognized in profit or loss when, and only when, it becomes receivable."
+  },
+  {
+    "id": "c7q6",
+    "chapter": 7,
+    "chapterTitle": "IAS 41 Agriculture",
+    "question": "Omega Dairies receives a government grant on the condition that it farms using organic methods for five years. If it stops, the full grant must be repaid. How is this grant recognized?",
+    "options": [
+      "A) Pro-rata over the five-year period.",
+      "B) Only when the five-year condition is completely met.",
+      "C) Immediately upon receipt of the funds.",
+      "D) It is credited directly to an equity reserve."
+    ],
+    "correctAnswer": "B) Only when the five-year condition is completely met.",
+    "explanation": "If a government grant related to a biological asset is conditional, the entity recognizes the grant as income when, and only when, the conditions attaching to the grant are met."
+  },
+  {
+    "id": "c7q7",
+    "chapter": 7,
+    "chapterTitle": "IAS 41 Agriculture",
+    "question": "What is the accounting treatment for a biological asset if its fair value cannot be measured reliably on initial recognition?",
+    "options": [
+      "A) It is measured at cost less accumulated depreciation and impairment losses.",
+      "B) It is expensed immediately in profit or loss.",
+      "C) It is held at a nominal value of zero until fair value can be measured.",
+      "D) It is measured at net realizable value."
+    ],
+    "correctAnswer": "A) It is measured at cost less accumulated depreciation and impairment losses.",
+    "explanation": "If the presumption that fair value can be measured reliably is rebutted on initial recognition, the biological asset shall be measured at cost less any accumulated depreciation and any accumulated impairment losses."
+  },
+  {
+    "id": "c7q8",
+    "chapter": 7,
+    "chapterTitle": "IAS 41 Agriculture",
+    "question": "Which of the following processes is NOT a component of 'biological transformation' as defined by IAS 41?",
+    "options": [
+      "A) Growth (increase in quantity or quality).",
+      "B) Procreation (creation of additional living animals/plants).",
+      "C) Degeneration (decrease in quantity or quality).",
+      "D) Manufacturing (converting raw produce into finished goods)."
+    ],
+    "correctAnswer": "D) Manufacturing (converting raw produce into finished goods).",
+    "explanation": "Biological transformation comprises growth, degeneration, production, and procreation. Manufacturing or processing harvested produce is not a biological transformation."
+  },
+  {
+    "id": "c7q9",
+    "chapter": 7,
+    "chapterTitle": "IAS 41 Agriculture",
+    "question": "Which of the following distinguishes agricultural activity from other activities like ocean fishing or deforestation?",
+    "options": [
+      "A) The end products are sold for profit.",
+      "B) The management facilitates biological transformation by enhancing or stabilizing conditions.",
+      "C) The activity requires significant capital investment.",
+      "D) The resulting products are tangible goods."
+    ],
+    "correctAnswer": "B) The management facilitates biological transformation by enhancing or stabilizing conditions.",
+    "explanation": "A key feature of agricultural activity is the management of change, where management facilitates biological transformation. Harvesting from unmanaged sources like ocean fishing is not agricultural activity."
+  },
+  {
+    "id": "c7q10",
+    "chapter": 7,
+    "chapterTitle": "IAS 41 Agriculture",
+    "question": "An entity owns a timber plantation. To estimate the fair value of the trees, it has entered into a forward contract to sell the timber in two years at a fixed price. Should this contract price dictate the fair value?",
+    "options": [
+      "A) Yes, because it represents guaranteed future cash flows.",
+      "B) No, fair value reflects current market conditions and is not adjusted because of the existence of a contract.",
+      "C) Yes, provided the buyer has a high credit rating.",
+      "D) No, because biological assets must only be valued using historical cost."
+    ],
+    "correctAnswer": "B) No, fair value reflects current market conditions and is not adjusted because of the existence of a contract.",
+    "explanation": "Future contract prices are not necessarily relevant in measuring fair value because fair value reflects the current market conditions in which market participants would transact."
+  },
+  {
+    "id": "c7q11",
+    "chapter": 7,
+    "chapterTitle": "IAS 41 Agriculture",
+    "question": "Which of the following is considered a 'consumable' biological asset rather than a 'bearer' biological asset?",
+    "options": [
+      "A) Dairy cattle held to produce milk.",
+      "B) Fruit trees held to produce apples.",
+      "C) Trees being grown in a plantation specifically for lumber.",
+      "D) Grape vines held to produce grapes for wine."
+    ],
+    "correctAnswer": "C) Trees being grown in a plantation specifically for lumber.",
+    "explanation": "Consumable biological assets are those that are to be harvested as agricultural produce or sold as biological assets, such as trees grown for lumber. Bearer biological assets sustain regular harvests."
+  },
+  {
+    "id": "c7q12",
+    "chapter": 7,
+    "chapterTitle": "IAS 41 Agriculture",
+    "question": "Under IAS 41, what is meant by the term 'harvest'?",
+    "options": [
+      "A) The transportation of goods to the primary market.",
+      "B) The detachment of produce from a biological asset or the cessation of a biological asset's life processes.",
+      "C) The point at which revenue is recognized from a customer.",
+      "D) The processing of raw crops into packaged food."
+    ],
+    "correctAnswer": "B) The detachment of produce from a biological asset or the cessation of a biological asset's life processes.",
+    "explanation": "Harvest is strictly defined as the detachment of produce from a biological asset or the cessation of a biological asset's life processes (e.g., picking fruit or slaughtering livestock)."
+  },
+  {
+    "id": "c7q13",
+    "chapter": 7,
+    "chapterTitle": "IAS 41 Agriculture",
+    "question": "An entity has a biological asset physically attached to land, and there is no separate market for the asset alone, but there is an active market for the combined asset. How can the entity determine the fair value of the biological asset?",
+    "options": [
+      "A) By valuing the entire package and recognizing it entirely as property, plant, and equipment.",
+      "B) By deducting the fair value of the raw land and land improvements from the fair value of the combined asset.",
+      "C) It must default to historical cost.",
+      "D) By recognizing the combined asset as investment property."
+    ],
+    "correctAnswer": "B) By deducting the fair value of the raw land and land improvements from the fair value of the combined asset.",
+    "explanation": "When there is no separate market for biological assets attached to land, an entity can determine their fair value by deducting the fair value of the raw land and improvements from the combined asset's fair value."
+  },
+  {
+    "id": "c7q14",
+    "chapter": 7,
+    "chapterTitle": "IAS 41 Agriculture",
+    "question": "A government grant is received relating to a biological asset measured at cost less accumulated depreciation. Which standard governs the accounting for this specific grant?",
+    "options": [
+      "A) IAS 41 Agriculture.",
+      "B) IAS 20 Accounting for Government Grants.",
+      "C) IAS 16 Property, Plant and Equipment.",
+      "D) IFRS 9 Financial Instruments."
+    ],
+    "correctAnswer": "B) IAS 20 Accounting for Government Grants.",
+    "explanation": "If a biological asset is measured at cost (due to inability to measure fair value reliably) or is a bearer plant, any related government grant is accounted for under IAS 20, not IAS 41."
+  },
+  {
+    "id": "c7q15",
+    "chapter": 7,
+    "chapterTitle": "IAS 41 Agriculture",
+    "question": "When presenting the reconciliation of changes in the carrying amount of biological assets, which of the following separate disclosures is encouraged but NOT strictly required?",
+    "options": [
+      "A) The gain or loss arising from changes in fair value less costs to sell.",
+      "B) Increases due to purchases.",
+      "C) Separate disclosure of the change in fair value due to physical change and due to price change.",
+      "D) Decreases due to harvest."
+    ],
+    "correctAnswer": "C) Separate disclosure of the change in fair value due to physical change and due to price change.",
+    "explanation": "While the total gain or loss from fair value changes must be disclosed, IAS 41 states that separate disclosure of physical change and price change is encouraged but not required."
+  },
+  {
+    "id": "c11q1",
+    "chapter": 11,
+    "chapterTitle": "IAS 1 Presentation of Financial Statements",
+    "question": "According to IAS 1, which of the following is NOT an obligatory component of a complete set of financial statements?",
+    "options": [
+      "A) A statement of financial position as at the end of the period.",
+      "B) A statement of changes in equity for the period.",
+      "C) A director's or chairman's strategic report on the business.",
+      "D) A statement of cash flows for the period."
+    ],
+    "correctAnswer": "C) A director's or chairman's strategic report on the business.",
+    "explanation": "A complete set includes the statement of financial position, profit or loss/OCI, changes in equity, cash flows, and notes. Extraneous reports like a director's report are outside the scope of IAS 1."
+  },
+  {
+    "id": "c11q2",
+    "chapter": 11,
+    "chapterTitle": "IAS 1 Presentation of Financial Statements",
+    "question": "Under what circumstance must an entity present an additional (third) statement of financial position as at the beginning of the preceding period?",
+    "options": [
+      "A) When the entity issues new share capital during the year.",
+      "B) When the entity makes a retrospective restatement of items or applies an accounting policy retrospectively.",
+      "C) When the entity changes its presentation currency.",
+      "D) When the entity reports a net loss for two consecutive years."
+    ],
+    "correctAnswer": "B) When the entity makes a retrospective restatement of items or applies an accounting policy retrospectively.",
+    "explanation": "An additional statement of financial position at the beginning of the preceding period is required when an entity applies an accounting policy retrospectively or makes a retrospective restatement."
+  },
+  {
+    "id": "c11q3",
+    "chapter": 11,
+    "chapterTitle": "IAS 1 Presentation of Financial Statements",
+    "question": "How does IAS 1 require the financial statements within a complete set to be presented regarding their importance?",
+    "options": [
+      "A) The statement of financial position must be given the highest prominence.",
+      "B) The statement of profit or loss must be presented first.",
+      "C) An entity shall present with equal prominence all of the financial statements in a complete set.",
+      "D) The notes are considered supplementary and carry less prominence."
+    ],
+    "correctAnswer": "C) An entity shall present with equal prominence all of the financial statements in a complete set.",
+    "explanation": "IAS 1 explicitly states that an entity shall present with equal prominence all of the financial statements in a complete set of financial statements."
+  },
+  {
+    "id": "c11q4",
+    "chapter": 11,
+    "chapterTitle": "IAS 1 Presentation of Financial Statements",
+    "question": "Alpha Corp has a slow-moving inventory item that is expected to be sold 18 months after the reporting date. How should this be classified in the statement of financial position?",
+    "options": [
+      "A) As a non-current asset.",
+      "B) As a current asset.",
+      "C) It must be written off completely.",
+      "D) As an investment property."
+    ],
+    "correctAnswer": "A) As a non-current asset.",
+    "explanation": "Assets expected to be realized well after the 12-month period from the reporting date (and outside the entity's normal operating cycle) are classified as non-current assets."
+  },
+  {
+    "id": "c11q5",
+    "chapter": 11,
+    "chapterTitle": "IAS 1 Presentation of Financial Statements",
+    "question": "Which of the following line items is explicitly REQUIRED by IAS 1 to be presented in the statement of profit or loss?",
+    "options": [
+      "A) Research and development costs.",
+      "B) Marketing and advertising expenses.",
+      "C) Revenue, presenting separately interest revenue and other revenue.",
+      "D) Bad debt recoveries."
+    ],
+    "correctAnswer": "C) Revenue, presenting separately interest revenue and other revenue.",
+    "explanation": "IAS 1 lists specific line items that must be included in profit or loss, including revenue (separating interest and other revenue), finance costs, and tax expense."
+  },
+  {
+    "id": "c11q6",
+    "chapter": 11,
+    "chapterTitle": "IAS 1 Presentation of Financial Statements",
+    "question": "Where should the amount of dividends recognized as distributions to owners during the period be presented?",
+    "options": [
+      "A) Exclusively as an expense in the statement of profit or loss.",
+      "B) Either in the statement of changes in equity or in the notes.",
+      "C) Only in the statement of cash flows.",
+      "D) As a non-current liability."
+    ],
+    "correctAnswer": "B) Either in the statement of changes in equity or in the notes.",
+    "explanation": "An entity shall present, either in the statement of changes in equity or in the notes, the amount of dividends recognized as distributions to owners during the period."
+  },
+  {
+    "id": "c11q7",
+    "chapter": 11,
+    "chapterTitle": "IAS 1 Presentation of Financial Statements",
+    "question": "When presenting the analysis of expenses in profit or loss, IAS 1 allows entities to classify expenses based on two methods. What are they?",
+    "options": [
+      "A) Cash basis and Accrual basis.",
+      "B) Fixed nature and Variable nature.",
+      "C) Direct method and Indirect method.",
+      "D) Nature of expense and Function of expense."
+    ],
+    "correctAnswer": "D) Nature of expense and Function of expense.",
+    "explanation": "IAS 1 requires expenses to be analyzed using a classification based on either the nature of expenses (e.g., depreciation, materials) or their function within the entity (e.g., cost of sales, administrative)."
+  },
+  {
+    "id": "c11q8",
+    "chapter": 11,
+    "chapterTitle": "IAS 1 Presentation of Financial Statements",
+    "question": "Which of the following is NOT required to be displayed prominently identifying the financial statements?",
+    "options": [
+      "A) The name of the reporting entity.",
+      "B) The presentation currency.",
+      "C) The level of rounding used (e.g., thousands or millions).",
+      "D) The names of the majority shareholders."
+    ],
+    "correctAnswer": "D) The names of the majority shareholders.",
+    "explanation": "IAS 1 requires the entity's name, whether it's a single entity or group, the reporting date, presentation currency, and level of rounding to be displayed, but not the names of shareholders."
+  },
+  {
+    "id": "c11q9",
+    "chapter": 11,
+    "chapterTitle": "IAS 1 Presentation of Financial Statements",
+    "question": "Regarding the title of financial statements, which of the following is true under IAS 1?",
+    "options": [
+      "A) Entities are forbidden from using titles other than those strictly used in IAS 1.",
+      "B) Entities must only use the term 'Balance Sheet', not 'Statement of Financial Position'.",
+      "C) Entities may use titles other than those used in IAS 1, such as 'Statement of Comprehensive Income'.",
+      "D) The title must always include the exact legal incorporation date of the entity."
+    ],
+    "correctAnswer": "C) Entities may use titles other than those used in IAS 1, such as 'Statement of Comprehensive Income'.",
+    "explanation": "IAS 1 permits entities to use titles for the statements other than those used in the Standard, provided they are not misleading."
+  },
+  {
+    "id": "c11q10",
+    "chapter": 11,
+    "chapterTitle": "IAS 1 Presentation of Financial Statements",
+    "question": "Which of the following items must be presented as a minimum in the statement of changes in equity?",
+    "options": [
+      "A) Total comprehensive income for the period.",
+      "B) The aggregate compensation of key management personnel.",
+      "C) A detailed list of all fixed asset additions.",
+      "D) Operating cash flows."
+    ],
+    "correctAnswer": "A) Total comprehensive income for the period.",
+    "explanation": "The statement of changes in equity must minimally present total comprehensive income, the effects of retrospective restatements, and a reconciliation of each component of equity."
+  },
+  {
+    "id": "c11q11",
+    "chapter": 11,
+    "chapterTitle": "IAS 1 Presentation of Financial Statements",
+    "question": "How should an entity present the notes to its financial statements?",
+    "options": [
+      "A) In alphabetical order of the accounting elements.",
+      "B) As a single unformatted block of text.",
+      "C) As far as practicable, in a systematic manner, cross-referencing items in the primary statements.",
+      "D) Strictly in order of monetary size from largest to smallest."
+    ],
+    "correctAnswer": "C) As far as practicable, in a systematic manner, cross-referencing items in the primary statements.",
+    "explanation": "An entity shall, as far as practicable, present notes in a systematic manner and must cross-reference each item in the primary statements to any related information in the notes."
+  },
+  {
+    "id": "c11q12",
+    "chapter": 11,
+    "chapterTitle": "IAS 1 Presentation of Financial Statements",
+    "question": "In the statement of financial position, what is the rule regarding the classification of deferred tax assets and liabilities?",
+    "options": [
+      "A) They must be classified as current items.",
+      "B) They must be classified as non-current items.",
+      "C) They can be classified as either current or non-current depending on when they will reverse.",
+      "D) They are netted against retained earnings directly."
+    ],
+    "correctAnswer": "B) They must be classified as non-current items.",
+    "explanation": "IAS 1 explicitly prohibits deferred tax assets and liabilities from being classified as current assets or liabilities; they are always presented as non-current."
+  },
+  {
+    "id": "c11q13",
+    "chapter": 11,
+    "chapterTitle": "IAS 1 Presentation of Financial Statements",
+    "question": "Which statement best describes the presentation of 'Other Comprehensive Income' (OCI)?",
+    "options": [
+      "A) It must be presented strictly as a footnote.",
+      "B) It can be presented in a single statement combined with profit or loss, or in a separate statement immediately following the statement of profit or loss.",
+      "C) It is presented as part of the operating activities in the cash flow statement.",
+      "D) It is an alternative name for retained earnings."
+    ],
+    "correctAnswer": "B) It can be presented in a single statement combined with profit or loss, or in a separate statement immediately following the statement of profit or loss.",
+    "explanation": "IAS 1 allows comprehensive income to be presented in a single 'statement of profit or loss and other comprehensive income' or in two separate consecutive statements."
+  },
+  {
+    "id": "c11q14",
+    "chapter": 11,
+    "chapterTitle": "IAS 1 Presentation of Financial Statements",
+    "question": "An entity discovers a material limitation preventing it from complying with a specific requirement in an IFRS standard. What is the entity expected to do?",
+    "options": [
+      "A) Ignore the requirement completely without comment.",
+      "B) Disclose the information required by IFRSs not presented elsewhere, and explain the basis of preparation.",
+      "C) Recall the previous year's financial statements.",
+      "D) Switch immediately to local GAAP."
+    ],
+    "correctAnswer": "B) Disclose the information required by IFRSs not presented elsewhere, and explain the basis of preparation.",
+    "explanation": "The notes must present information about the basis of preparation, specific policies used, and provide information required by IFRSs not presented elsewhere, ensuring fair presentation."
+  },
+  {
+    "id": "c11q15",
+    "chapter": 11,
+    "chapterTitle": "IAS 1 Presentation of Financial Statements",
+    "question": "Which of the following must an entity disclose in the notes regarding its accounting policies?",
+    "options": [
+      "A) A history of the accounting standards board.",
+      "B) The measurement bases used and other significant accounting policies relevant to an understanding of the financial statements.",
+      "C) The name of the software used to compile the accounts.",
+      "D) The personal opinions of the CFO regarding future market trends."
+    ],
+    "correctAnswer": "B) The measurement bases used and other significant accounting policies relevant to an understanding of the financial statements.",
+    "explanation": "The notes must present information about the basis of preparation of the financial statements and the specific accounting policies used (including measurement bases)."
+  },
+  {
+    "id": "c13q1",
+    "chapter": 13,
+    "chapterTitle": "Accounting for NPOs",
+    "question": "What is the primary difference between a Non-Profit Organization (NPO) and a commercial entity?",
+    "options": [
+      "A) An NPO is not allowed to generate any cash inflows.",
+      "B) The main objective of an NPO is to provide services rather than to earn profits.",
+      "C) NPOs are not required to prepare a statement of financial position.",
+      "D) NPOs issue shares to their members."
+    ],
+    "correctAnswer": "B) The main objective of an NPO is to provide services rather than to earn profits.",
+    "explanation": "Unlike commercial entities, the main objective of an NPO is to provide services to its members or the public, not to earn profits, and they do not have ownership interests like shares."
+  },
+  {
+    "id": "c13q2",
+    "chapter": 13,
+    "chapterTitle": "Accounting for NPOs",
+    "question": "In the financial statements of an NPO, what is the equivalent of 'Equity' or 'Retained Earnings'?",
+    "options": [
+      "A) Net Assets or Accumulated Fund.",
+      "B) Paid-up Share Capital.",
+      "C) Gross Profit.",
+      "D) Deferred Government Grants."
+    ],
+    "correctAnswer": "A) Net Assets or Accumulated Fund.",
+    "explanation": "In an NPO, the residual interest in assets after deducting liabilities is referred to as Net Assets or the Accumulated Fund, rather than equity."
+  },
+  {
+    "id": "c13q3",
+    "chapter": 13,
+    "chapterTitle": "Accounting for NPOs",
+    "question": "If a club member pays their annual subscription for the upcoming year in advance, how is this recorded in the current year's financial statements?",
+    "options": [
+      "A) As an immediate income in the statement of income and expenditure.",
+      "B) As a current liability in the statement of financial position.",
+      "C) As a non-current asset.",
+      "D) It is ignored until the next year."
+    ],
+    "correctAnswer": "B) As a current liability in the statement of financial position.",
+    "explanation": "Subscriptions received in advance represent an obligation to provide services in the future, so they are classified as a liability (typically current) at the year-end."
+  },
+  {
+    "id": "c13q4",
+    "chapter": 13,
+    "chapterTitle": "Accounting for NPOs",
+    "question": "A sports club has members whose subscriptions are in arrears (unpaid) at the year-end. If the club expects to receive these amounts, how are they classified?",
+    "options": [
+      "A) As an expense.",
+      "B) As deferred income.",
+      "C) As an asset (receivable).",
+      "D) As an addition to the accumulated fund directly."
+    ],
+    "correctAnswer": "C) As an asset (receivable).",
+    "explanation": "Subscriptions in arrears are amounts owed by members to the NPO for services already available to them. They are treated as receivables (assets)."
+  },
+  {
+    "id": "c13q5",
+    "chapter": 13,
+    "chapterTitle": "Accounting for NPOs",
+    "question": "Under the deferral method, how should an NPO account for a tangible capital asset procured using a restricted government grant?",
+    "options": [
+      "A) The grant is immediately recognized as income in full.",
+      "B) The grant may be recognized by deducting it from the carrying amount of the asset or recorded as deferred income.",
+      "C) The grant is credited directly to the unrestricted accumulated fund.",
+      "D) The asset is not recorded on the balance sheet."
+    ],
+    "correctAnswer": "B) The grant may be recognized by deducting it from the carrying amount of the asset or recorded as deferred income.",
+    "explanation": "A tangible capital asset procured from a grant may be recognized at its carrying amount by deducting the grant, or by setting up the grant as deferred income to be recognized over the asset's life."
+  },
+  {
+    "id": "c13q6",
+    "chapter": 13,
+    "chapterTitle": "Accounting for NPOs",
+    "question": "An NPO runs a small coffee bar to generate extra funds. How should the financial results of this trading activity be presented?",
+    "options": [
+      "A) They should be kept completely out of the NPO's financial statements.",
+      "B) The net profit or loss from the trading activity is transferred to the statement of income and expenditure.",
+      "C) The sales revenue must be added directly to member subscriptions.",
+      "D) The coffee bar assets must be expensed immediately."
+    ],
+    "correctAnswer": "B) The net profit or loss from the trading activity is transferred to the statement of income and expenditure.",
+    "explanation": "Trading activities (like a coffee bar) are accounted for separately, and the resulting net profit or loss is then included in the NPO's main statement of income and expenditure."
+  },
+  {
+    "id": "c13q7",
+    "chapter": 13,
+    "chapterTitle": "Accounting for NPOs",
+    "question": "An NPO receives a donation of medicines to be distributed to a community at no charge. How should this inventory be measured in the financial statements?",
+    "options": [
+      "A) At the higher of cost and net realizable value.",
+      "B) At the lower of cost and current replacement cost.",
+      "C) At fair value exclusively.",
+      "D) It should not be recognized as an asset."
+    ],
+    "correctAnswer": "B) At the lower of cost and current replacement cost.",
+    "explanation": "An NPO shall measure inventories at the lower of cost and current replacement cost when they are held for distribution at no charge or for a nominal charge."
+  },
+  {
+    "id": "c13q8",
+    "chapter": 13,
+    "chapterTitle": "Accounting for NPOs",
+    "question": "Which of the following statements replaces the 'Statement of Profit or Loss' for a Non-Profit Organization?",
+    "options": [
+      "A) Statement of changes in net assets.",
+      "B) Statement of comprehensive revenues.",
+      "C) Statement of income and expenditure.",
+      "D) Statement of cash flows."
+    ],
+    "correctAnswer": "C) Statement of income and expenditure.",
+    "explanation": "Instead of a statement of profit or loss, NPOs prepare a Statement of Income and Expenditure to show their financial performance and any surplus or deficit."
+  },
+  {
+    "id": "c13q9",
+    "chapter": 13,
+    "chapterTitle": "Accounting for NPOs",
+    "question": "If an NPO decides to write off unpaid subscriptions from members who have left the club, how is this transaction recorded?",
+    "options": [
+      "A) As a bad debt expense in the statement of income and expenditure and credited against the subscription account.",
+      "B) As a direct deduction from the cash balance.",
+      "C) By reducing the general reserve.",
+      "D) By increasing the subscription revenue for the year."
+    ],
+    "correctAnswer": "A) As a bad debt expense in the statement of income and expenditure and credited against the subscription account.",
+    "explanation": "Writing off unpaid subscriptions involves recognizing a bad debt expense in the statement of income and expenditure and crediting the subscription arrears (receivable) account."
+  },
+  {
+    "id": "c13q10",
+    "chapter": 13,
+    "chapterTitle": "Accounting for NPOs",
+    "question": "At year-end, the statement of income and expenditure shows a 'Surplus'. Where is this surplus transferred?",
+    "options": [
+      "A) It is paid out to the founding members as a dividend.",
+      "B) It is added to the Accumulated Fund (Net Assets).",
+      "C) It is returned to the donors.",
+      "D) It is transferred to a deferred income account."
+    ],
+    "correctAnswer": "B) It is added to the Accumulated Fund (Net Assets).",
+    "explanation": "A surplus (excess of income over expenditure) is added to the Accumulated Fund in the statement of financial position/statement of changes in net assets."
+  },
+  {
+    "id": "c13q11",
+    "chapter": 13,
+    "chapterTitle": "Accounting for NPOs",
+    "question": "When an NPO uses fund accounting, how is depreciation expense treated?",
+    "options": [
+      "A) It is never recognized because NPOs do not aim for profit.",
+      "B) It is charged directly against the cash balance.",
+      "C) It is charged to the fund or funds that provide the most meaningful presentation.",
+      "D) It is added to the accumulated fund."
+    ],
+    "correctAnswer": "C) It is charged to the fund or funds that provide the most meaningful presentation.",
+    "explanation": "When a fund accounting basis is used, the choice of the fund to which depreciation is charged is based on providing the most meaningful presentation of the NPO's activities."
+  },
+  {
+    "id": "c13q12",
+    "chapter": 13,
+    "chapterTitle": "Accounting for NPOs",
+    "question": "An NPO sets up a specific fund strictly to contribute to the school fees of local children using a grant of Rs. 24 million. How are these funds generally classified?",
+    "options": [
+      "A) As unrestricted funds available for general operations.",
+      "B) As restricted funds subject to external limits on their use.",
+      "C) As part of general trading income.",
+      "D) As share capital."
+    ],
+    "correctAnswer": "B) As restricted funds subject to external limits on their use.",
+    "explanation": "Funds established for specific purposes with restrictions on their use are classified as restricted funds in an NPO's financial statements."
+  },
+  {
+    "id": "c13q13",
+    "chapter": 13,
+    "chapterTitle": "Accounting for NPOs",
+    "question": "Which of the following is typically NOT a source of income for a Non-Profit Organization?",
+    "options": [
+      "A) Membership subscriptions.",
+      "B) Government grants and donations.",
+      "C) Proceeds from the issuance of equity shares.",
+      "D) Profits from minor trading activities like a tuck shop."
+    ],
+    "correctAnswer": "C) Proceeds from the issuance of equity shares.",
+    "explanation": "NPOs do not have ownership interests in the form of equity shares, so they cannot raise funds by issuing shares."
+  },
+  {
+    "id": "c13q14",
+    "chapter": 13,
+    "chapterTitle": "Accounting for NPOs",
+    "question": "If an NPO has a deficit for the year, how is it presented?",
+    "options": [
+      "A) As a deduction from the Accumulated Fund.",
+      "B) As an addition to current liabilities.",
+      "C) As a non-current asset.",
+      "D) It triggers immediate liquidation of the NPO."
+    ],
+    "correctAnswer": "A) As a deduction from the Accumulated Fund.",
+    "explanation": "A deficit (excess of expenditure over income) reduces the net assets and is deducted from the Accumulated Fund."
+  },
+  {
+    "id": "c13q15",
+    "chapter": 13,
+    "chapterTitle": "Accounting for NPOs",
+    "question": "What is the formula used in a subscription T-account to find the subscription income for the year?",
+    "options": [
+      "A) Cash received - Opening Arrears + Closing Arrears + Opening Advance - Closing Advance",
+      "B) Cash received + Opening Arrears - Closing Arrears + Opening Advance - Closing Advance",
+      "C) Cash received - Opening Arrears - Closing Arrears - Opening Advance - Closing Advance",
+      "D) Cash received only."
+    ],
+    "correctAnswer": "A) Cash received - Opening Arrears + Closing Arrears + Opening Advance - Closing Advance",
+    "explanation": "To match income to the correct period, you take cash received, subtract amounts for last year (opening arrears), add amounts for this year not yet paid (closing arrears), add amounts paid last year for this year (opening advance), and subtract amounts paid this year for next year (closing advance)."
+  },
+  {
+    "id": "c14q1",
+    "chapter": 14,
+    "chapterTitle": "IAS 7 Statement of Cash Flows",
+    "question": "Under IAS 7, how are 'cash equivalents' defined?",
+    "options": [
+      "A) Equity investments held for long-term capital appreciation.",
+      "B) Short-term, highly liquid investments readily convertible to known amounts of cash and subject to an insignificant risk of changes in value.",
+      "C) Inventory items that can be sold quickly.",
+      "D) Accounts receivable due within 30 days."
+    ],
+    "correctAnswer": "B) Short-term, highly liquid investments readily convertible to known amounts of cash and subject to an insignificant risk of changes in value.",
+    "explanation": "IAS 7 defines cash equivalents strictly as short-term, highly liquid investments that are readily convertible to known amounts of cash and subject to an insignificant risk of changes in value."
+  },
+  {
+    "id": "c14q2",
+    "chapter": 14,
+    "chapterTitle": "IAS 7 Statement of Cash Flows",
+    "question": "Which of the following activities is classified as an 'Operating Activity' under IAS 7?",
+    "options": [
+      "A) Cash proceeds from issuing shares.",
+      "B) Cash payments to acquire property, plant, and equipment.",
+      "C) Cash receipts from the sale of goods and rendering of services.",
+      "D) Cash repayments of long-term borrowings."
+    ],
+    "correctAnswer": "C) Cash receipts from the sale of goods and rendering of services.",
+    "explanation": "Operating activities are the principal revenue-producing activities of the entity, such as cash receipts from the sale of goods and services."
+  },
+  {
+    "id": "c14q3",
+    "chapter": 14,
+    "chapterTitle": "IAS 7 Statement of Cash Flows",
+    "question": "How should a company present cash flows arising from taxes on income, unless they can be specifically identified with financing and investing activities?",
+    "options": [
+      "A) Exclusively as financing activities.",
+      "B) Exclusively as investing activities.",
+      "C) Separately disclosed and classified as operating activities.",
+      "D) They are excluded from the statement of cash flows."
+    ],
+    "correctAnswer": "C) Separately disclosed and classified as operating activities.",
+    "explanation": "Cash flows arising from taxes on income shall be separately disclosed and classified as operating activities unless specifically identified with financing/investing activities."
+  },
+  {
+    "id": "c14q4",
+    "chapter": 14,
+    "chapterTitle": "IAS 7 Statement of Cash Flows",
+    "question": "When using the indirect method to calculate cash generated from operations, how is a 'Gain on disposal of equipment' treated?",
+    "options": [
+      "A) It is added to profit before tax.",
+      "B) It is deducted from profit before tax.",
+      "C) It is ignored entirely.",
+      "D) It is added to the financing activities section."
+    ],
+    "correctAnswer": "B) It is deducted from profit before tax.",
+    "explanation": "A gain on disposal is included in the profit before tax figure but relates to an investing activity. Therefore, it is deducted from profit before tax in the operating section to avoid double counting."
+  },
+  {
+    "id": "c14q5",
+    "chapter": 14,
+    "chapterTitle": "IAS 7 Statement of Cash Flows",
+    "question": "Which of the following represents a non-cash transaction that must be EXCLUDED from the statement of cash flows?",
+    "options": [
+      "A) The purchase of a machine for cash.",
+      "B) The conversion of debt to equity.",
+      "C) The payment of a cash dividend.",
+      "D) The receipt of a bank loan."
+    ],
+    "correctAnswer": "B) The conversion of debt to equity.",
+    "explanation": "Investing and financing transactions that do not require the use of cash (like a debt-to-equity conversion or bonus share issue) are excluded from the cash flow statement but disclosed in the notes."
+  },
+  {
+    "id": "c14q6",
+    "chapter": 14,
+    "chapterTitle": "IAS 7 Statement of Cash Flows",
+    "question": "Under the direct method of reporting operating cash flows, how is 'cash received from customers' determined?",
+    "options": [
+      "A) By taking net profit and adjusting for depreciation only.",
+      "B) By reporting major classes of gross cash receipts, typically calculated by adjusting revenue for the change in trade receivables.",
+      "C) By ignoring working capital changes completely.",
+      "D) By adding interest paid to sales revenue."
+    ],
+    "correctAnswer": "B) By reporting major classes of gross cash receipts, typically calculated by adjusting revenue for the change in trade receivables.",
+    "explanation": "The direct method discloses major classes of gross cash receipts. Cash received from customers is found by adjusting sales revenue for changes in trade receivables."
+  },
+  {
+    "id": "c14q7",
+    "chapter": 14,
+    "chapterTitle": "IAS 7 Statement of Cash Flows",
+    "question": "A bank overdraft that is repayable on demand and forms an integral part of an entity's cash management is classified as:",
+    "options": [
+      "A) A financing cash inflow.",
+      "B) An operating cash outflow.",
+      "C) A component of cash and cash equivalents.",
+      "D) An investing activity."
+    ],
+    "correctAnswer": "C) A component of cash and cash equivalents.",
+    "explanation": "Bank overdrafts repayable on demand that form an integral part of cash management are included as a component of cash and cash equivalents."
+  },
+  {
+    "id": "c14q8",
+    "chapter": 14,
+    "chapterTitle": "IAS 7 Statement of Cash Flows",
+    "question": "In the statement of cash flows, how should an increase in inventory during the year be treated when calculating operating cash flows via the indirect method?",
+    "options": [
+      "A) Added to profit before tax.",
+      "B) Deducted from profit before tax.",
+      "C) Included as an investing outflow.",
+      "D) Ignored."
+    ],
+    "correctAnswer": "B) Deducted from profit before tax.",
+    "explanation": "An increase in an operating asset (like inventory) represents cash tied up in the business, so it is treated as a cash outflow and deducted from profit before tax."
+  },
+  {
+    "id": "c14q9",
+    "chapter": 14,
+    "chapterTitle": "IAS 7 Statement of Cash Flows",
+    "question": "Where should the cash proceeds from issuing new shares be classified in the statement of cash flows?",
+    "options": [
+      "A) Operating activities.",
+      "B) Investing activities.",
+      "C) Financing activities.",
+      "D) Non-cash transactions."
+    ],
+    "correctAnswer": "C) Financing activities.",
+    "explanation": "Financing activities result in changes in the size and composition of the contributed equity and borrowings, such as proceeds from issuing shares."
+  },
+  {
+    "id": "c14q10",
+    "chapter": 14,
+    "chapterTitle": "IAS 7 Statement of Cash Flows",
+    "question": "According to IAS 7, what is the classification for cash payments to acquire property, plant, and equipment?",
+    "options": [
+      "A) Operating activities.",
+      "B) Investing activities.",
+      "C) Financing activities.",
+      "D) Cash equivalents."
+    ],
+    "correctAnswer": "B) Investing activities.",
+    "explanation": "Investing activities are the acquisition and disposal of long-term assets and other investments not included in cash equivalents."
+  },
+  {
+    "id": "c14q11",
+    "chapter": 14,
+    "chapterTitle": "IAS 7 Statement of Cash Flows",
+    "question": "How are interest paid and interest received typically classified in a statement of cash flows?",
+    "options": [
+      "A) Both must strictly be operating activities.",
+      "B) Both must strictly be financing activities.",
+      "C) They must be disclosed separately and classified consistently (e.g., interest paid as operating/financing, interest received as operating/investing).",
+      "D) They are netted against each other as a single line item."
+    ],
+    "correctAnswer": "C) They must be disclosed separately and classified consistently (e.g., interest paid as operating/financing, interest received as operating/investing).",
+    "explanation": "IAS 7 requires interest paid and received to be disclosed separately. They can be classified as operating, investing, or financing depending on the entity's policy, applied consistently."
+  },
+  {
+    "id": "c14q12",
+    "chapter": 14,
+    "chapterTitle": "IAS 7 Statement of Cash Flows",
+    "question": "Which of the following is a primary advantage of providing a statement of cash flows?",
+    "options": [
+      "A) It completely replaces the need for a statement of profit or loss.",
+      "B) It perfectly measures the profitability of the entity.",
+      "C) It enhances the comparability of operating performance by eliminating the effects of different accounting treatments for the same transactions.",
+      "D) It shows the exact market value of the company's equity."
+    ],
+    "correctAnswer": "C) It enhances the comparability of operating performance by eliminating the effects of different accounting treatments for the same transactions.",
+    "explanation": "Cash flow information is less vulnerable to manipulation through accounting policies/estimates, making operating performance more comparable across different entities."
+  },
+  {
+    "id": "c14q13",
+    "chapter": 14,
+    "chapterTitle": "IAS 7 Statement of Cash Flows",
+    "question": "A company pays a dividend to its shareholders. Under IAS 7, this cash outflow is typically classified as:",
+    "options": [
+      "A) An investing activity.",
+      "B) A financing activity (or alternatively, an operating activity).",
+      "C) A non-cash transaction.",
+      "D) It is excluded from the cash flow statement."
+    ],
+    "correctAnswer": "B) A financing activity (or alternatively, an operating activity).",
+    "explanation": "Dividends paid are a cost of obtaining financial resources and are typically classified as financing activities, though classifying them as operating to show the ability to pay dividends from operations is allowed."
+  },
+  {
+    "id": "c14q14",
+    "chapter": 14,
+    "chapterTitle": "IAS 7 Statement of Cash Flows",
+    "question": "Under the indirect method, how is depreciation expense treated when calculating cash generated from operations?",
+    "options": [
+      "A) It is deducted from profit before tax.",
+      "B) It is added to profit before tax.",
+      "C) It is shown as an investing outflow.",
+      "D) It is ignored."
+    ],
+    "correctAnswer": "B) It is added to profit before tax.",
+    "explanation": "Because depreciation is a non-cash expense that reduced profit before tax, it must be added back to profit before tax to arrive at the actual cash generated from operations."
+  },
+  {
+    "id": "c14q15",
+    "chapter": 14,
+    "chapterTitle": "IAS 7 Statement of Cash Flows",
+    "question": "When preparing a cash flow statement, an entity discovers it has a 45-day treasury bill. How should this be classified?",
+    "options": [
+      "A) As an investing cash outflow.",
+      "B) As a financing cash inflow.",
+      "C) As a cash equivalent.",
+      "D) As an operating cash inflow."
+    ],
+    "correctAnswer": "C) As a cash equivalent.",
+    "explanation": "Treasury bills with a short maturity (typically 3 months or less from acquisition) are highly liquid and subject to insignificant risk of value change, so they are classified as cash equivalents."
+  },
+  {
+    "id": "c12q1",
+    "chapter": 12,
+    "chapterTitle": "Incomplete Records",
+    "question": "Which of the following is the most common reason a business might have 'incomplete records'?",
+    "options": [
+      "A) The business operates as a multinational corporation.",
+      "B) Lack of keeping proper accounting records or unforeseen events like theft or asset destruction.",
+      "C) The business uses a fully automated ERP system.",
+      "D) The entity is required by law to strictly maintain double-entry bookkeeping."
+    ],
+    "correctAnswer": "B) Lack of keeping proper accounting records or unforeseen events like theft or asset destruction.",
+    "explanation": "Small businesses frequently encounter challenges where financial data is incomplete due to a lack of keeping proper accounting records or unforeseen events like theft, asset destruction, or loss of records."
+  },
+  {
+    "id": "c12q2",
+    "chapter": 12,
+    "chapterTitle": "Incomplete Records",
+    "question": "In the absence of a complete double-entry system, an entity can determine its opening or closing capital by preparing which of the following?",
+    "options": [
+      "A) A Statement of Cash Flows.",
+      "B) A Statement of Affairs.",
+      "C) A Statement of Changes in Equity.",
+      "D) A Bank Reconciliation Statement."
+    ],
+    "correctAnswer": "B) A Statement of Affairs.",
+    "explanation": "When records are incomplete, an entity often prepares a 'Statement of Affairs'—which lists assets and liabilities at a specific date—to determine the opening or closing capital (net assets)."
+  },
+  {
+    "id": "c12q3",
+    "chapter": 12,
+    "chapterTitle": "Incomplete Records",
+    "question": "Incomplete records are most commonly associated with which type of entities?",
+    "options": [
+      "A) Public listed companies.",
+      "B) Government departments.",
+      "C) Small businesses.",
+      "D) Non-profit organizations exclusively."
+    ],
+    "correctAnswer": "C) Small businesses.",
+    "explanation": "Incomplete records are typically encountered by small businesses that may not have the resources, systems, or expertise to maintain a full double-entry accounting framework."
+  },
+  {
+    "id": "c12q4",
+    "chapter": 12,
+    "chapterTitle": "Incomplete Records",
+    "question": "If a retailer sells goods at a 'mark-up' of 25% on cost, what is the equivalent gross profit 'margin' on sales?",
+    "options": [
+      "A) 20%",
+      "B) 25%",
+      "C) 33.3%",
+      "D) 15%"
+    ],
+    "correctAnswer": "A) 20%",
+    "explanation": "A mark-up is calculated on cost. A 25% mark-up means if Cost is 100, Profit is 25, making Sales 125. The margin (Profit divided by Sales) is 25/125, which equals 20%."
+  },
+  {
+    "id": "c12q5",
+    "chapter": 12,
+    "chapterTitle": "Incomplete Records",
+    "question": "When dealing with incomplete records, how can the Cost of Sales be mathematically derived if the sales figure and the gross profit margin percentage are known?",
+    "options": [
+      "A) Cost of Sales = Sales × (100 + margin) / 100",
+      "B) Cost of Sales = Sales × (100 - margin) / 100",
+      "C) Cost of Sales = Sales × margin / 100",
+      "D) Cost of Sales = Sales + Gross Profit"
+    ],
+    "correctAnswer": "B) Cost of Sales = Sales × (100 - margin) / 100",
+    "explanation": "When the profit margin is given as a percentage of sales, the formula to find the cost of goods sold from the sales figure is: Cost = Sales × (100 - margin) / 100."
+  },
+  {
+    "id": "c12q6",
+    "chapter": 12,
+    "chapterTitle": "Incomplete Records",
+    "question": "To calculate the missing figure for 'Credit Sales' during the year, an accountant reconstructing incomplete records would most likely prepare a T-account for:",
+    "options": [
+      "A) Trade Payables (Creditors).",
+      "B) Inventory.",
+      "C) Trade Receivables (Debtors).",
+      "D) Accrued Expenses."
+    ],
+    "correctAnswer": "C) Trade Receivables (Debtors).",
+    "explanation": "The Trade Receivables (Debtors) account is reconstructed by entering opening/closing balances and cash received from customers, allowing the missing 'Credit Sales' figure to be derived as the balancing amount."
+  },
+  {
+    "id": "c12q7",
+    "chapter": 12,
+    "chapterTitle": "Incomplete Records",
+    "question": "A trader’s opening trade receivables were Rs. 200,000 and closing trade receivables were Rs. 300,000. During the year, cash received from customers amounted to Rs. 1,000,000. Assuming no bad debts, what was the value of credit sales?",
+    "options": [
+      "A) Rs. 900,000",
+      "B) Rs. 1,100,000",
+      "C) Rs. 1,300,000",
+      "D) Rs. 1,500,000"
+    ],
+    "correctAnswer": "B) Rs. 1,100,000",
+    "explanation": "Using the receivables control account: Cash Received (1,000,000) + Closing Receivables (300,000) - Opening Receivables (200,000) = Credit Sales of Rs. 1,100,000."
+  },
+  {
+    "id": "c12q8",
+    "chapter": 12,
+    "chapterTitle": "Incomplete Records",
+    "question": "An entity has opening trade payables of Rs. 500,000 and closing trade payables of Rs. 800,000. It paid Rs. 4,000,000 to suppliers during the year in cash. What is the value of credit purchases?",
+    "options": [
+      "A) Rs. 3,700,000",
+      "B) Rs. 4,300,000",
+      "C) Rs. 4,500,000",
+      "D) Rs. 4,800,000"
+    ],
+    "correctAnswer": "B) Rs. 4,300,000",
+    "explanation": "Using the payables control account: Cash Paid (4,000,000) + Closing Payables (800,000) - Opening Payables (500,000) = Credit Purchases of Rs. 4,300,000."
+  },
+  {
+    "id": "c12q9",
+    "chapter": 12,
+    "chapterTitle": "Incomplete Records",
+    "question": "How is the net profit or loss calculated using the net assets (capital) approach when full income and expense records are missing?",
+    "options": [
+      "A) Closing Net Assets + Opening Net Assets",
+      "B) Closing Net Assets - Opening Net Assets - Capital Introduced + Drawings",
+      "C) Closing Net Assets - Opening Net Assets + Capital Introduced - Drawings",
+      "D) Total Assets - Total Liabilities"
+    ],
+    "correctAnswer": "B) Closing Net Assets - Opening Net Assets - Capital Introduced + Drawings",
+    "explanation": "Under the net assets approach, the Net Profit for the year is equal to: Closing Net Assets - Opening Net Assets - Additional Capital Introduced + Drawings."
+  },
+  {
+    "id": "c12q10",
+    "chapter": 12,
+    "chapterTitle": "Incomplete Records",
+    "question": "At the start of the year, a business had net assets of Rs. 600,000, and at year-end, net assets were Rs. 900,000. During the year, the owner introduced Rs. 150,000 in new capital and withdrew Rs. 80,000 for personal use. What was the net profit for the year?",
+    "options": [
+      "A) Rs. 230,000",
+      "B) Rs. 370,000",
+      "C) Rs. 150,000",
+      "D) Rs. 80,000"
+    ],
+    "correctAnswer": "A) Rs. 230,000",
+    "explanation": "Using the capital reconciliation formula: Net Profit = Closing Net Assets (900,000) - Opening Net Assets (600,000) - Capital Introduced (150,000) + Drawings (80,000) = Rs. 230,000."
+  },
+  {
+    "id": "c12q11",
+    "chapter": 12,
+    "chapterTitle": "Incomplete Records",
+    "question": "A warehouse fire destroyed a portion of inventory. Opening inventory was Rs. 200,000 and purchases were Rs. 800,000. Based on the sales and margin, the Cost of Goods Sold was Rs. 850,000. The undamaged inventory counted after the fire was Rs. 50,000. What was the cost of the inventory destroyed?",
+    "options": [
+      "A) Rs. 100,000",
+      "B) Rs. 150,000",
+      "C) Rs. 50,000",
+      "D) Rs. 200,000"
+    ],
+    "correctAnswer": "A) Rs. 100,000",
+    "explanation": "Expected closing inventory = Opening (200,000) + Purchases (800,000) - COGS (850,000) = Rs. 150,000. Since only Rs. 50,000 remained physically, the destroyed inventory is Rs. 150,000 - 50,000 = Rs. 100,000."
+  },
+  {
+    "id": "c12q12",
+    "chapter": 12,
+    "chapterTitle": "Incomplete Records",
+    "question": "If a business owner suspects that an employee has been stealing cash from the till, which account should the accountant reconstruct to find the missing 'stolen' figure?",
+    "options": [
+      "A) Retained Earnings account.",
+      "B) Inventory account.",
+      "C) Cash/Bank account.",
+      "D) Trade Payables account."
+    ],
+    "correctAnswer": "C) Cash/Bank account.",
+    "explanation": "To determine missing cash (e.g., from theft or unrecorded drawings), an accountant reconstructs the Cash/Bank account by mapping all known cash inflows and outflows. The unexplainable shortfall represents the stolen amount."
+  },
+  {
+    "id": "c12q13",
+    "chapter": 12,
+    "chapterTitle": "Incomplete Records",
+    "question": "An entity has opening inventory of Rs. 100,000, purchases of Rs. 500,000, and closing inventory of Rs. 80,000. What is the Cost of Goods Sold (COGS) for the period?",
+    "options": [
+      "A) Rs. 680,000",
+      "B) Rs. 520,000",
+      "C) Rs. 480,000",
+      "D) Rs. 600,000"
+    ],
+    "correctAnswer": "B) Rs. 520,000",
+    "explanation": "COGS is calculated using the standard trading account formula: Opening Inventory (100,000) + Purchases (500,000) - Closing Inventory (80,000) = Rs. 520,000."
+  },
+  {
+    "id": "c12q14",
+    "chapter": 12,
+    "chapterTitle": "Incomplete Records",
+    "question": "Which of the following items would normally be DEBITED to a reconstructed Trade Payables (Creditors) control account?",
+    "options": [
+      "A) Credit purchases for the year.",
+      "B) Cash paid to suppliers.",
+      "C) Opening balance of payables.",
+      "D) Interest charged by suppliers for late payment."
+    ],
+    "correctAnswer": "B) Cash paid to suppliers.",
+    "explanation": "In a Trade Payables control account, payments made to suppliers reduce the liability, so they are recorded on the debit side. Purchases and opening balances increase the liability and are recorded on the credit side."
+  },
+  {
+    "id": "c12q15",
+    "chapter": 12,
+    "chapterTitle": "Incomplete Records",
+    "question": "If a company applies a uniform mark-up of 20% on cost, and its total Cost of Goods Sold is Rs. 200,000, what is the expected Sales Revenue?",
+    "options": [
+      "A) Rs. 240,000",
+      "B) Rs. 220,000",
+      "C) Rs. 250,000",
+      "D) Rs. 160,000"
+    ],
+    "correctAnswer": "A) Rs. 240,000",
+    "explanation": "With a 20% mark-up on cost, Sales is equal to Cost + (Cost × Mark-up). Thus, 200,000 + (200,000 × 0.20) = Rs. 240,000."
+  }
+]
