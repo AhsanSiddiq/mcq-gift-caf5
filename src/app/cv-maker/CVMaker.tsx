@@ -1,7 +1,9 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import { Plus, Trash2, Download, Eye, ChevronLeft, ChevronRight, X, Mail, RefreshCw, ArrowUp, ArrowDown, Palette, Type, LayoutTemplate, Sparkles, CheckCircle2 } from "lucide-react";
+import { Plus, Trash2, Download, Eye, ChevronLeft, ChevronRight, X, Mail, RefreshCw, ArrowUp, ArrowDown, Palette, Type, LayoutTemplate, Sparkles, CheckCircle2, Play } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import { driver } from "driver.js";
+import "driver.js/dist/driver.css";
 
 const LS_KEY = "cahub_cv_v1";
 
@@ -847,6 +849,16 @@ export default function CVMaker() {
                     </div>
                   ))}
                   <button onClick={() => setWork(i, "bullets", [...w.bullets, ""])} className="flex items-center gap-2 text-xs font-semibold px-3 py-1.5 rounded-lg" style={{ color: "var(--green)", background: "rgba(61,179,113,0.08)" }}><Plus className="w-3 h-3" /> Add bullet</button>
+                  <div className="pt-2">
+                    <p className="text-[10px] font-bold uppercase tracking-widest mb-1.5 flex items-center gap-1" style={{ color: "var(--green)" }}><Sparkles className="w-3 h-3" /> Smart Suggestions</p>
+                    <div className="flex flex-wrap gap-1.5">
+                      {["Reconciled bank statements", "Prepared financial drafts", "Vouched invoices", "Assisted in audit planning", "Managed client correspondence"].map(sg => (
+                        <button key={sg} onClick={() => setWork(i, "bullets", w.bullets.filter(Boolean).concat(sg))} className="text-[11px] px-2.5 py-1 rounded-full transition-colors cursor-pointer" style={{ background: "rgba(61,179,113,0.05)", border: "1px solid rgba(61,179,113,0.2)", color: "var(--text-1)" }}>
+                          + {sg}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -1053,6 +1065,23 @@ export default function CVMaker() {
             <p className="text-sm sm:text-base mb-6" style={{ color: "var(--text-2)", fontFamily: "var(--font-inter), sans-serif", lineHeight: 1.6 }}>
               Experience the pinnacle of CV building. Engineered exclusively for CA trainees, featuring dynamic ATS scoring and pristine MBB-tier printable layouts. 100% free forever.
             </p>
+            
+            <button onClick={() => {
+              const driverObj = driver({
+                showProgress: true,
+                animate: true,
+                steps: [
+                  { element: '#tour-form', popover: { title: '1. The Builder', description: 'Fill your details here. We have mapped the fields to exactly what Big 4 partners want to see.', side: "right", align: 'start' }},
+                  { element: '#tour-ats', popover: { title: '2. ATS Score', description: 'Try to get this to 100%. We calculate your strength dynamically based on keywords and content length.', side: "left", align: 'start' }},
+                  { element: '#tour-preview', popover: { title: '3. Live Preview', description: 'Watch your CV build instantly. We guarantee zero weird formatting.', side: "left", align: 'center' }},
+                  { element: '#tour-download', popover: { title: '4. Download', description: 'When you are ready, hit Download to get a pixel-perfect PDF.', side: "bottom", align: 'end' }},
+                ]
+              });
+              driverObj.drive();
+            }} className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-bold text-sm mb-6 transition-transform hover:scale-[1.02]" style={{ background: "var(--text-1)", color: "var(--bg)", cursor: "pointer", boxShadow: "0 8px 30px rgba(255,255,255,0.12)" }}>
+              <Play className="w-4 h-4" /> Take the Tour
+            </button>
+
             {/* Demo notice */}
             {cv.name !== "" && (
               <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="inline-flex items-start gap-2 rounded-xl px-4 py-3 text-sm backdrop-blur-md shadow-sm" style={{ background: "rgba(61,179,113,0.05)", border: "1px solid rgba(61,179,113,0.2)", color: "var(--text-2)" }}>
@@ -1062,7 +1091,7 @@ export default function CVMaker() {
             )}
           </div>
           
-          <div className="hidden md:block pb-2">
+          <div className="hidden md:block pb-2" id="tour-ats">
             <ATSScoreRing score={getCVScore(cv)} />
           </div>
         </div>
@@ -1073,7 +1102,7 @@ export default function CVMaker() {
         <div className="flex flex-col xl:flex-row gap-6">
 
           {/* ── FORM ── */}
-          <div className="xl:w-[460px] shrink-0">
+          <div className="xl:w-[460px] shrink-0" id="tour-form">
             <div className="rounded-2xl shadow-xl backdrop-blur-xl relative overflow-hidden" style={{ background: "rgba(var(--bg-2-rgb), 0.7)", border: "1px solid rgba(var(--border-rgb), 0.5)", borderColor: "var(--border)" }}>
               {/* Top glow line */}
               <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-emerald-400/50 to-transparent" />
@@ -1170,14 +1199,14 @@ export default function CVMaker() {
 
           {/* ── PREVIEW (desktop only) ── */}
           <div className="hidden xl:block flex-1 min-w-0">
-            <div className="flex items-center justify-between mb-3">
+            <div className="flex items-center justify-between mb-3" id="tour-download">
               <p className="text-xs font-bold uppercase tracking-widest" style={{ color: "var(--text-3)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>Live Preview</p>
               <button onClick={handlePrint} className="flex items-center gap-2 text-xs font-bold px-4 py-2 rounded-lg text-white"
                 style={{ background: "var(--green)", border: "none", cursor: "pointer", boxShadow: "0 2px 12px rgba(61,179,113,0.25)" }}>
                 <Download className="w-3.5 h-3.5" /> Download PDF
               </button>
             </div>
-            <div className="rounded-2xl overflow-hidden" style={{ background: "#d8d8d8", padding: "16px", border: "1px solid var(--border)" }}>
+            <div className="rounded-2xl overflow-hidden" id="tour-preview" style={{ background: "#d8d8d8", padding: "16px", border: "1px solid var(--border)" }}>
               <div className="overflow-x-auto flex justify-center">
                 <ScaledPreview cv={cv} scale={0.72} />
               </div>

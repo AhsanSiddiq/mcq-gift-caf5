@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/components/ThemeProvider";
+import CommandMenu from "@/components/CommandMenu";
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
@@ -206,6 +207,7 @@ export default function RootLayout({
         suppressHydrationWarning
       >
         <ThemeProvider>
+          <CommandMenu />
           <Header />
           <main className="flex-1 w-full">{children}</main>
           <Footer />

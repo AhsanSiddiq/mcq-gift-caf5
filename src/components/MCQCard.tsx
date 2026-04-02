@@ -19,6 +19,13 @@ export default function MCQCard({ mcq, onAnswer, onNext, isLast }: MCQCardProps)
 
   const handleOptionClick = (option: string) => {
     if (showExplanation) return;
+    
+    // Haptic feedback!
+    if (typeof navigator !== "undefined" && navigator.vibrate) {
+      if (option === mcq.correctAnswer) navigator.vibrate(30); // Single crisp buzz
+      else navigator.vibrate([50, 40, 50]); // Double error buzz
+    }
+
     setSelectedOption(option);
     setShowExplanation(true);
     onAnswer(option === mcq.correctAnswer);
