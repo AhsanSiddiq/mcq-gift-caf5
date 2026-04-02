@@ -637,6 +637,31 @@ export default function CVMaker() {
     }
   }, [showPreview]);
 
+  const startTour = () => {
+    const driverObj = driver({
+      showProgress: true,
+      animate: true,
+      onDestroyStarted: () => {
+        localStorage.setItem("cahub_cv_tour_seen", "true");
+        driverObj.destroy();
+      },
+      steps: [
+        { element: '#tour-form', popover: { title: '1. The Builder', description: 'Fill your details here. We have mapped the fields to exactly what Big 4 partners want to see.', side: "right", align: 'start' }},
+        { element: '#tour-ats', popover: { title: '2. ATS Score', description: 'Try to get this to 100%. We calculate your strength dynamically based on keywords and content length.', side: "left", align: 'start' }},
+        { element: '#tour-preview', popover: { title: '3. Live Preview', description: 'Watch your CV build instantly. We guarantee zero weird formatting.', side: "left", align: 'center' }},
+        { element: '#tour-download', popover: { title: '4. Download', description: 'When you are ready, hit Download to get a pixel-perfect PDF.', side: "bottom", align: 'end' }},
+      ]
+    });
+    driverObj.drive();
+  };
+
+  useEffect(() => {
+    if (typeof window !== "undefined" && !localStorage.getItem("cahub_cv_tour_seen")) {
+      setTimeout(() => startTour(), 1500); 
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   const [showDlModal, setShowDlModal] = useState(false);
   const [dlEmail, setDlEmail] = useState("");
   const [dlSending, setDlSending] = useState(false);
@@ -1133,20 +1158,7 @@ export default function CVMaker() {
             <p className="text-sm sm:text-base mb-6" style={{ color: "var(--text-2)", fontFamily: "var(--font-inter), sans-serif", lineHeight: 1.6 }}>
               Experience the pinnacle of CV building. Engineered exclusively for CA trainees, featuring dynamic ATS scoring and pristine MBB-tier printable layouts. 100% free forever.
             </p>
-            
-            <button onClick={() => {
-              const driverObj = driver({
-                showProgress: true,
-                animate: true,
-                steps: [
-                  { element: '#tour-form', popover: { title: '1. The Builder', description: 'Fill your details here. We have mapped the fields to exactly what Big 4 partners want to see.', side: "right", align: 'start' }},
-                  { element: '#tour-ats', popover: { title: '2. ATS Score', description: 'Try to get this to 100%. We calculate your strength dynamically based on keywords and content length.', side: "left", align: 'start' }},
-                  { element: '#tour-preview', popover: { title: '3. Live Preview', description: 'Watch your CV build instantly. We guarantee zero weird formatting.', side: "left", align: 'center' }},
-                  { element: '#tour-download', popover: { title: '4. Download', description: 'When you are ready, hit Download to get a pixel-perfect PDF.', side: "bottom", align: 'end' }},
-                ]
-              });
-              driverObj.drive();
-            }} className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-bold text-sm mb-6 transition-transform hover:scale-[1.02]" style={{ background: "var(--text-1)", color: "var(--bg)", cursor: "pointer", boxShadow: "0 8px 30px rgba(255,255,255,0.12)" }}>
+            <button onClick={startTour} className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-bold text-sm mb-6 transition-transform hover:scale-[1.02]" style={{ background: "var(--text-1)", color: "var(--bg)", cursor: "pointer", boxShadow: "0 8px 30px rgba(255,255,255,0.12)" }}>
               <Play className="w-4 h-4" /> Take the Tour
             </button>
 
