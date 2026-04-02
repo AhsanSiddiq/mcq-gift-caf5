@@ -147,7 +147,7 @@ export default function MCQCard({ mcq, onAnswer, onNext, isLast }: MCQCardProps)
               {mcq.explanation}
             </p>
           </div>
-          <div className="flex flex-col sm:flex-row justify-end gap-2">
+          <div className="flex flex-col sm:flex-row justify-end gap-2 sticky bottom-4 z-10">
             <button
               onClick={onNext}
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 font-bold rounded-xl px-6 py-3.5 sm:py-3 text-white transition-all"

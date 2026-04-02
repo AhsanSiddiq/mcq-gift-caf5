@@ -594,6 +594,14 @@ export default function CVMaker() {
     if (typeof window === "undefined") return false;
     return !!localStorage.getItem(LS_KEY);
   });
+  const [mobileScale, setMobileScale] = useState(0.42);
+
+  useEffect(() => {
+    if (showPreview && typeof window !== "undefined") {
+      setMobileScale(Math.min(0.42, (window.innerWidth - 32) / 794));
+    }
+  }, [showPreview]);
+
   const [showDlModal, setShowDlModal] = useState(false);
   const [dlEmail, setDlEmail] = useState("");
   const [dlSending, setDlSending] = useState(false);
@@ -1198,7 +1206,7 @@ export default function CVMaker() {
           {/* Content */}
           <div className="flex-1 overflow-auto p-3" style={{ background: "#cccccc" }}>
             <div className="flex justify-center">
-              <ScaledPreview cv={cv} scale={0.42} />
+              <ScaledPreview cv={cv} scale={mobileScale} />
             </div>
             <p className="text-center text-xs mt-3 pb-4" style={{ color: "#666" }}>
               Pinch to zoom · This is exactly how your PDF will look
