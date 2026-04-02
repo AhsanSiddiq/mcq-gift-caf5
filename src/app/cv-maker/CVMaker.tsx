@@ -15,6 +15,7 @@ interface CVData {
   themeColor: string;
   fontFamily: string;
   layout: "classic" | "executive";
+  spacing?: "compact" | "normal" | "relaxed";
   name: string; phone: string; email: string; linkedin: string; photo: string;
   icapStage: string; crn: string; fts: string; papersCleared: string;
   profile: string;
@@ -31,6 +32,7 @@ const DEMO: CVData = {
   themeColor: "#1a1a1a",
   fontFamily: "'Arial','Helvetica Neue',sans-serif",
   layout: "classic",
+  spacing: "normal",
   name: "Ali Hassan Qureshi",
   phone: "+92 321 5556677",
   email: "ali.hassan@email.com",
@@ -92,6 +94,7 @@ const DEFAULT: CVData = {
   themeColor: "#1a1a1a",
   fontFamily: "'Arial','Helvetica Neue',sans-serif",
   layout: "classic",
+  spacing: "normal",
   name: "", phone: "", email: "", linkedin: "", photo: "",
   icapStage: "CAF Qualified", crn: "", fts: "", papersCleared: "",
   profile: "",
@@ -128,6 +131,23 @@ const STEPS = [
 ];
 
 /* ── UI helpers ── */
+
+const WEAK_VERBS_CRITICAL = ["helped", "worked", "did", "made", "was", "got", "took"];
+const getWeakVerbWarning = (str: string) => {
+  const firstWord = str.trim().split(" ")[0]?.toLowerCase();
+  if (firstWord && WEAK_VERBS_CRITICAL.includes(firstWord)) {
+    return `"${firstWord}" is a weak verb. Try: Facilitated, Executed, Navigated, or Orchestrated.`;
+  }
+  return null;
+};
+const formatBullet = (s: string) => {
+  let text = s.trim();
+  if (!text) return text;
+  text = text.charAt(0).toUpperCase() + text.slice(1);
+  if (!/[.\!?]$/.test(text)) text += ".";
+  return text;
+};
+
 function FieldLabel({ children, required }: { children: React.ReactNode; required?: boolean }) {
   return (
     <div className="flex items-center gap-2 mb-1.5">
@@ -138,13 +158,16 @@ function FieldLabel({ children, required }: { children: React.ReactNode; require
     </div>
   );
 }
-function Inp({ value, onChange, placeholder, type = "text", disabled }: { value: string; onChange: (v: string) => void; placeholder?: string; type?: string; disabled?: boolean }) {
+function Inp({ value, onChange, placeholder, type = "text", disabled, onBlur }: { value: string; onChange: (v: string) => void; placeholder?: string; type?: string; disabled?: boolean; onBlur?: () => void }) {
   return (
     <input type={type} value={value} onChange={e => onChange(e.target.value)} placeholder={placeholder} disabled={disabled}
       className="w-full rounded-xl px-4 py-3 text-sm focus:outline-none transition-all"
       style={{ background: disabled ? "var(--bg-3)" : "var(--bg)", border: "1px solid var(--border)", color: "var(--text-1)", fontFamily: "var(--font-inter), sans-serif" }}
       onFocus={e => (e.currentTarget.style.borderColor = "var(--green)")}
-      onBlur={e => (e.currentTarget.style.borderColor = "var(--border)")}
+      onBlur={e => {
+        e.currentTarget.style.borderColor = "var(--border)";
+        if (onBlur) onBlur();
+      }}
     />
   );
 }
@@ -205,10 +228,16 @@ const SZ = {
 };
 
 const GAP = {
-  section: 16,   // between sections
-  entry: 13,     // between entries within a section
-  bullet: 4,     // between bullet lines
-  line: 2,       // between label lines
+  section: "var(--gap-section)",   // between sections
+  entry: "var(--gap-entry)",       // between entries within a section
+  bullet: "var(--gap-bullet)",     // between bullet lines
+  line: 2,                         // between label lines
+};
+
+const getGaps = (s?: "compact" | "normal" | "relaxed") => {
+  if (s === "compact") return { section: 12, entry: 10, bullet: 2 };
+  if (s === "relaxed") return { section: 22, entry: 18, bullet: 6 };
+  return { section: 16, entry: 13, bullet: 4 }; // normal
 };
 
 function SectionHead({ title, side = "right" }: { title: string; side?: "left" | "right" }) {
@@ -278,10 +307,11 @@ function ATSScoreRing({ score }: { score: number }) {
 }
 
 function CVPreview({ cv }: { cv: CVData }) {
+  const gaps = getGaps(cv.spacing);
 
   if (cv.layout === "executive") {
     return (
-      <div id="cv-preview" style={{ fontFamily: cv.fontFamily, background: "#fff", color: "#1a1a1a", "--cv-accent": cv.themeColor } as any} className="w-[210mm] min-h-[297mm] p-[15mm_18mm] box-border mx-auto relative text-[10px]">
+      <div id="cv-preview" style={{ fontFamily: cv.fontFamily, background: "#fff", color: "#1a1a1a", "--cv-accent": cv.themeColor, "--gap-section": `${gaps.section}px`, "--gap-entry": `${gaps.entry}px`, "--gap-bullet": `${gaps.bullet}px` } as any} className="w-[210mm] min-h-[297mm] p-[15mm_18mm] box-border mx-auto relative text-[10px]">
         {/* Name & Contact */}
         <div className="text-center mb-5">
           <h1 style={{ fontSize: 26, fontFamily: "'Arial Black','Arial',sans-serif", color: "var(--cv-accent)", letterSpacing: 1.5, textTransform: "uppercase", marginBottom: 3 }}>{cv.name}</h1>
@@ -369,7 +399,7 @@ function CVPreview({ cv }: { cv: CVData }) {
         {/* Achievements */}
         {cv.accomplishments.filter(Boolean).length > 0 && (
           <div className="mt-4">
-            <SectionHead title="Accomplishments" side="left" />
+            <SectionHead title={cv.workExp.some(w => w.company) ? "Accomplishments" : "Projects & Extracurriculars"} side="left" />
             {cv.accomplishments.filter(Boolean).map((a, i) => (
               <div key={i} className="mb-1"><Bullet text={a} /></div>
             ))}
@@ -387,6 +417,9 @@ function CVPreview({ cv }: { cv: CVData }) {
         background: "#ffffff",
         color: "#1a1a1a",
         "--cv-accent": cv.themeColor,
+        "--gap-section": `${gaps.section}px`,
+        "--gap-entry": `${gaps.entry}px`,
+        "--gap-bullet": `${gaps.bullet}px`,
         width: "210mm",
         minHeight: "297mm",
         padding: "13mm 15mm 12mm 15mm",
@@ -843,9 +876,20 @@ export default function CVMaker() {
                 <FieldLabel>Bullet Points (what you did)</FieldLabel>
                 <div className="space-y-2">
                   {w.bullets.map((b, j) => (
-                    <div key={j} className="flex gap-2">
-                      <Inp value={b} onChange={v => { const buls = w.bullets.map((x, k) => k === j ? v : x); setWork(i, "bullets", buls); }} placeholder="Prepared monthly bank reconciliations..." />
-                      {w.bullets.length > 1 && <button onClick={() => setWork(i, "bullets", w.bullets.filter((_, k) => k !== j))} className="p-2 rounded-xl shrink-0" style={{ color: "#F87171", background: "rgba(248,113,113,0.08)" }}><Trash2 className="w-3.5 h-3.5" /></button>}
+                    <div key={j} className="flex flex-col gap-1.5 w-full">
+                      <div className="flex gap-2">
+                        <Inp value={b} onChange={v => { const buls = w.bullets.map((x, k) => k === j ? v : x); setWork(i, "bullets", buls); }} 
+                             onBlur={() => { const buls = w.bullets.map((x, k) => k === j ? formatBullet(x) : x); setWork(i, "bullets", buls); }}
+                             placeholder="Prepared monthly bank reconciliations..." />
+                        {w.bullets.length > 1 && <button onClick={() => setWork(i, "bullets", w.bullets.filter((_, k) => k !== j))} className="p-2 rounded-xl shrink-0" style={{ color: "#F87171", background: "rgba(248,113,113,0.08)" }}><Trash2 className="w-3.5 h-3.5" /></button>}
+                      </div>
+                      <AnimatePresence>
+                        {getWeakVerbWarning(b) && (
+                          <motion.div initial={{ opacity: 0, height: 0 }} animate={{ opacity: 1, height: "auto" }} exit={{ opacity: 0, height: 0 }} className="text-[10px] ml-2 font-bold tracking-wide" style={{ color: "#f59e0b" }}>
+                            ⚠️ {getWeakVerbWarning(b)}
+                          </motion.div>
+                        )}
+                      </AnimatePresence>
                     </div>
                   ))}
                   <button onClick={() => setWork(i, "bullets", [...w.bullets, ""])} className="flex items-center gap-2 text-xs font-semibold px-3 py-1.5 rounded-lg" style={{ color: "var(--green)", background: "rgba(61,179,113,0.08)" }}><Plus className="w-3 h-3" /> Add bullet</button>
@@ -975,6 +1019,16 @@ export default function CVMaker() {
             <p>Your CV is visually scanned in 6 seconds. Pick a clean, professional layout and subtle accent color.</p>
           </Tip>
 
+          {(!cv.workExp[0] || !cv.workExp[0].company) && cv.layout === "classic" && (
+            <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="rounded-xl p-4 mb-6 flex gap-3 text-sm shadow-lg border-2" style={{ background: "rgba(245,158,11,0.05)", borderColor: "rgba(245,158,11,0.3)", color: "#d97706" }}>
+              <span className="shrink-0 pt-0.5">💡</span>
+              <div>
+                <p className="font-bold mb-1">Junior Profile Detected</p>
+                <p>We noticed you have no work experience yet. The &quot;Classic&quot; layout might leave a large empty gap on the right. We highly recommend switching to the 1-Column <b>Executive</b> layout for a perfectly balanced look!</p>
+              </div>
+            </motion.div>
+          )}
+
           <div>
             <FieldLabel>CV Layout Template</FieldLabel>
             <div className="grid grid-cols-2 gap-3 mt-2">
@@ -990,6 +1044,20 @@ export default function CVMaker() {
                 <div className="font-bold mb-1 flex justify-between items-center">Executive (1-Col) {cv.layout === "executive" && <CheckCircle2 className="w-4 h-4 text-green-500" />}</div>
                 <div className="text-xs text-gray-500">Elite single-column styling</div>
               </button>
+            </div>
+          </div>
+
+          <div>
+            <FieldLabel>Layout Spacing (Pinch-to-Fit)</FieldLabel>
+            <Hint>Adjust this if your CV is spilling onto a second page or looks too empty.</Hint>
+            <div className="flex rounded-xl p-1 mt-2" style={{ background: "var(--bg-3)", border: "1px solid var(--border)" }}>
+              {["compact", "normal", "relaxed"].map(sp => (
+                <button key={sp} onClick={() => set("spacing", sp as any)}
+                  className="flex-1 py-2.5 text-sm font-bold capitalize rounded-lg transition-all"
+                  style={{ background: (cv.spacing || "normal") === sp ? "var(--bg)" : "transparent", color: (cv.spacing || "normal") === sp ? "var(--green)" : "var(--text-3)", boxShadow: (cv.spacing || "normal") === sp ? "0 2px 8px rgba(0,0,0,0.05)" : "none", border: (cv.spacing || "normal") === sp ? "1px solid var(--border)" : "none", cursor: "pointer" }}>
+                  {sp}
+                </button>
+              ))}
             </div>
           </div>
 
