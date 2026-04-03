@@ -75,7 +75,7 @@ export const blogs: BlogPost[] = [
     readTime: "4 min read",
     content: `
       <h2>The Illusion of Competence</h2>
-      <p>Clearing PRC often gives students a dangerous level of overconfidence. The multiple-choice format, while comprehensive, allows for a margin of error. If you partially understand a concept, you can often deduce the correct answer through elimination. The transition to the Certificate in Accounting and Finance (CAF) marks the abrupt end of this luxury. The leap in difficulty isn't just about the volume of the syllabus; it is about the fundamental nature of the assessment.</p>
+      <p>Clearing the modern 3-paper PRC stage often gives students a dangerous level of overconfidence. The fully objective format, while comprehensive, allows for a margin of error. If you partially understand a concept, you can often deduce the correct answer through elimination. The transition to the 8 full-length, rigorously subjective papers of the Certificate in Accounting and Finance (CAF) marks the abrupt end of this luxury. The leap in difficulty isn't just about the volume of the syllabus; it is about the fundamental nature of the assessment.</p>
 
       <h2>The Trap of Passive Reading</h2>
       <p>The most common mistake new CAF students make is attempting to study by reading the book. In PRC, reading the textbook three times might have been enough to pass. In CAF, passive reading is a deceptive trap that creates an illusion of competence. When you read a solution to a complex Financial Accounting and Reporting (FAR) question, it makes perfect logical sense. But when confronted with a blank sheet of paper and a fresh scenario, that logic evaporates.</p>
@@ -130,12 +130,13 @@ export const blogs: BlogPost[] = [
       <p>The Institute of Chartered Accountants of Pakistan (ICAP) recently launched a major overhaul of the CA qualification known as the <em>Education Scheme 2025</em>. The aim is simple: modernize the profession, integrate technology, and streamline the progression from an entry-level student to a globally recognized finance leader.</p>
       
       <h2>Step 1: Pre-Requisite Competencies (PRC)</h2>
-      <p>Under the 2025 scheme, the PRC level has been streamlined down from 5 subjects to just 3 core competencies. ICAP aims to quickly test your aptitude rather than drag out the introductory stage. The focused subjects are:</p>
+      <p>Under the 2025 scheme, the PRC level has been streamlined down from 5 subjects to just 3 core competencies. ICAP aims to quickly test your core aptitude rather than drag out the introductory stage. The three subjects are:</p>
       <ul>
-        <li><strong>Business Writing:</strong> Communication is now treated as a non-negotiable core skill.</li>
-        <li><strong>Quantitative Methods:</strong> The mathematical and analytical bedrock of accounting.</li>
-        <li><strong>Business and Economic Insights:</strong> A modernized, combined approach to economics and underlying business mechanics.</li>
+        <li><strong>PRC-1: Fundamentals of Accounting:</strong> The foundational bedrock of financial reporting and double-entry mechanics.</li>
+        <li><strong>PRC-2: Quantitative Analysis for Business:</strong> The mathematical, statistical, and logical core for professional decision-making.</li>
+        <li><strong>PRC-3: Business and Economic Insights:</strong> A modernized, combined approach to macro/micro economics and commercial mechanics.</li>
       </ul>
+      <p>Furthermore, the outdated written <em>Business Writing</em> exam has been replaced with a mandatory, hands-on <strong>English Communication Skills</strong> course—focusing entirely on practical, real-world proficiency rather than rote memorization.</p>
 
       <h2>Step 2: Certificate in Accounting and Finance (CAF)</h2>
       <p>The CAF stage is where the true professional filtering happens. Consisting of 8 papers, this level introduces core technical accounting, taxation, and law. A major highlight in the 2025 scheme is the emphasis on technology—specifically with modern papers like <em>Data, Systems & Risks</em>. Furthermore, previous separate law modules have been optimized into a comprehensive <em>Business Law Dynamics</em> paper. Passing CAF makes you eligible to step into the corporate world.</p>
@@ -144,7 +145,7 @@ export const blogs: BlogPost[] = [
       <p>You cannot learn chartered accountancy purely from a textbook. The 3.5-year mandatory practical training connects academic theories with real-world corporate audits, taxation, and advisory. Under the new scheme, ICAP has maintained a rigid emphasis on ethics and professional values, requiring candidates to pass dedicated online modules during this period.</p>
 
       <h2>Step 4: CFAP & The Strategic Case Study</h2>
-      <p>The Certified Finance and Accounting Professional (CFAP) level brings sweeping changes. Recognizing global trends, the syllabus now features a strong focus on <em>Sustainability Reporting & Assurance</em>. Once you clear the advanced technical subjects, the journey concludes not with multiple complex exams, but with a single, massive, integrated <strong>Strategic Case Study</strong> (replacing the former MSA structure). This simulates real-time board-level decision-making.</p>
+      <p>The Certified Finance and Accounting Professional (CFAP) level brings sweeping, modernization changes. Recognizing global trends, the syllabus now features a relentless focus on <em>Sustainability Reporting & Assurance</em> and integrated global corporate reporting. Once you clear the advanced technical subjects, the monumental journey concludes not with disparate, theoretical exams, but with a single, intensive <strong>Strategic Case Study</strong>. This caps off the qualification by simulating real-time, high-stakes board-level decision-making.</p>
       
       <p>The ICAP 2025 scheme removes the fluff and aligns Pakistani CAs directly with the future of global finance. It's leaner, tougher, and more relevant than ever before.</p>
     `
