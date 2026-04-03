@@ -14,7 +14,7 @@ const transporter = nodemailer.createTransport({
 
 export async function POST(req: NextRequest) {
   try {
-    const { email, name } = await req.json();
+    const { email, name, pdfBase64, filename } = await req.json();
     if (!email?.includes("@")) return NextResponse.json({ ok: true }); // silent skip
 
     const normalizedEmail = email.toLowerCase().trim();
@@ -37,7 +37,7 @@ export async function POST(req: NextRequest) {
           <div style="padding:32px;">
             <h2 style="margin:0 0 12px;font-size:18px;font-weight:700;color:#fff;">Your CV is ready${name ? `, ${name}` : ""}! 🎉</h2>
             <p style="margin:0 0 20px;font-size:14px;color:#999;line-height:1.7;">
-              Thanks for using The CA Hub CV Maker. Your CV was just downloaded. Come back anytime to update it as you clear more exams or add new experience.
+              Thanks for using The CA Hub CV Maker. Your CV is attached to this email as a PDF. Come back anytime to update it as you clear more exams or add new experience.
             </p>
             <a href="https://thecahub.com/cv-maker" style="display:inline-block;background:#22c55e;color:#fff;text-decoration:none;padding:12px 24px;border-radius:10px;font-weight:700;font-size:14px;">Open CV Maker →</a>
             <p style="margin:24px 0 0;font-size:12px;color:#555;line-height:1.7;">
@@ -49,6 +49,13 @@ export async function POST(req: NextRequest) {
           </div>
         </div>
       `,
+      attachments: pdfBase64 ? [
+        {
+          filename: filename || "CA_Hub_CV.pdf",
+          content: pdfBase64,
+          encoding: 'base64'
+        }
+      ] : []
     });
 
     return NextResponse.json({ ok: true });

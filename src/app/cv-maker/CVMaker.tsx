@@ -1,7 +1,9 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import { Plus, Trash2, Download, Eye, ChevronLeft, ChevronRight, X, Mail, RefreshCw, ArrowUp, ArrowDown, Palette, Type, LayoutTemplate, Sparkles, CheckCircle2, Play } from "lucide-react";
+import { Plus, Trash2, Download, Eye, ChevronLeft, ChevronRight, X, Mail, RefreshCw, ArrowUp, ArrowDown, Palette, Type, LayoutTemplate, Sparkles, CheckCircle2, Play, FileDown } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import html2canvas from "html2canvas";
+import { jsPDF } from "jspdf";
 import { CVTour } from "./CVTour";
 
 
@@ -311,7 +313,7 @@ function CVPreview({ cv }: { cv: CVData }) {
 
   if (cv.layout === "executive") {
     return (
-      <div id="cv-preview" style={{ fontFamily: cv.fontFamily, background: "#fff", color: "#1a1a1a", "--cv-accent": cv.themeColor, "--gap-section": `${gaps.section}px`, "--gap-entry": `${gaps.entry}px`, "--gap-bullet": `${gaps.bullet}px` } as any} className="w-[210mm] min-h-[297mm] p-[15mm_18mm] box-border mx-auto relative text-[10px]">
+      <div id="cv-preview" style={{ fontFamily: cv.fontFamily, background: "#fff", color: "#1a1a1a", "--cv-accent": cv.themeColor, "--gap-section": `${gaps.section}px`, "--gap-entry": `${gaps.entry}px`, "--gap-bullet": `${gaps.bullet}px` } as React.CSSProperties} className="w-[210mm] min-h-[297mm] p-[15mm_18mm] box-border mx-auto relative text-[10px]">
         {/* Name & Contact */}
         <div className="text-center mb-5">
           <h1 style={{ fontSize: 26, fontFamily: "'Arial Black','Arial',sans-serif", color: "var(--cv-accent)", letterSpacing: 1.5, textTransform: "uppercase", marginBottom: 3 }}>{cv.name}</h1>
@@ -638,7 +640,7 @@ export default function CVMaker() {
     if (showPreview && typeof window !== "undefined") {
       setMobileScale(Math.min(0.42, (window.innerWidth - 32) / 794));
     }
-  }, [showPreview]);
+  }, [showPreview, setMobileScale]);
 
 
   useEffect(() => {
@@ -690,16 +692,69 @@ export default function CVMaker() {
 
   const handlePrint = () => setShowDlModal(true);
 
+  const generatePDFBlob = async (): Promise<string | null> => {
+    const el = document.getElementById("cv-preview");
+    if (!el) return null;
+
+    try {
+      // Create a temporary container to render the CV at full scale for the capture
+      // This ensures we get high quality regardless of screen size
+      const canvas = await html2canvas(el, {
+        scale: 2, // Higher scale for better quality
+        useCORS: true,
+        logging: false,
+        backgroundColor: "#ffffff",
+        windowWidth: 794, // A4 width at 96 DPI
+        windowHeight: 1123, // A4 height at 96 DPI
+      });
+
+      const imgData = canvas.toDataURL("image/jpeg", 0.95);
+      const pdf = new jsPDF({
+        orientation: "portrait",
+        unit: "mm",
+        format: "a4",
+      });
+
+      const imgProps = pdf.getImageProperties(imgData);
+      const pdfWidth = pdf.internal.pageSize.getWidth();
+      const pdfHeight = (imgProps.height * pdfWidth) / imgProps.width;
+
+      pdf.addImage(imgData, "JPEG", 0, 0, pdfWidth, pdfHeight);
+      return pdf.output("datauristring").split(",")[1]; // Return base64 only
+    } catch (err) {
+      console.error("PDF Generation Error:", err);
+      return null;
+    }
+  };
+
   const handleDlSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!dlEmail) { doPrint(); setShowDlModal(false); return; }
+    
     setDlSending(true);
     try {
-      await fetch("/api/cv-emails", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ email: dlEmail, name: cv.name }) });
-    } catch {}
+      const pdfBase64 = await generatePDFBlob();
+      await fetch("/api/cv-emails", { 
+        method: "POST", 
+        headers: { "Content-Type": "application/json" }, 
+        body: JSON.stringify({ 
+          email: dlEmail, 
+          name: cv.name,
+          pdfBase64,
+          filename: `${cv.name.replace(/\s+/g, "_") || "My"}_CA_Hub_CV.pdf`
+        }) 
+      });
+    } catch (err) {
+      console.error("Failed to send CV email:", err);
+    }
     setDlSending(false);
     setDlSent(true);
-    setTimeout(() => { doPrint(); setShowDlModal(false); setDlSent(false); setDlEmail(""); }, 900);
+    setTimeout(() => { 
+      doPrint(); 
+      setShowDlModal(false); 
+      setDlSent(false); 
+      setDlEmail(""); 
+    }, 900);
   };
 
   const setEdu = (i: number, field: keyof Education, val: string) => {
@@ -1074,7 +1129,7 @@ export default function CVMaker() {
               {["compact", "normal", "relaxed"].map(sp => (
                 <motion.button 
                   whileTap={{ scale: 0.95 }}
-                  key={sp} onClick={() => set("spacing", sp as any)}
+                  key={sp} onClick={() => set("spacing", sp as CVData["spacing"])}
                   className="flex-1 py-2.5 text-sm font-bold capitalize rounded-lg transition-all"
                   style={{ background: (cv.spacing || "normal") === sp ? "var(--bg)" : "transparent", color: (cv.spacing || "normal") === sp ? "var(--green)" : "var(--text-3)", boxShadow: (cv.spacing || "normal") === sp ? "0 2px 8px rgba(0,0,0,0.05)" : "none", border: (cv.spacing || "normal") === sp ? "1px solid var(--border)" : "none", cursor: "pointer" }}>
                   {sp}
@@ -1399,17 +1454,32 @@ export default function CVMaker() {
                   </div>
                 </div>
                 <form onSubmit={handleDlSubmit} className="flex flex-col gap-3">
-                  <input type="email" value={dlEmail} onChange={e => setDlEmail(e.target.value)} placeholder="your@email.com (optional)"
-                    className="w-full rounded-xl px-4 py-3 text-sm outline-none"
-                    style={{ background: "var(--bg-3)", border: "1px solid var(--border)", color: "var(--text-1)" }} />
+                  <div className="relative">
+                    <Mail className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4" style={{ color: "var(--text-3)" }} />
+                    <input type="email" value={dlEmail} onChange={e => setDlEmail(e.target.value)} placeholder="Enter your email..."
+                      className="w-full rounded-xl pl-10 pr-4 py-3.5 text-sm outline-none transition-all"
+                      style={{ background: "var(--bg-3)", border: "1px solid var(--border)", color: "var(--text-1)" }}
+                      onFocus={e => (e.currentTarget.style.borderColor = "var(--green)")}
+                      onBlur={e => (e.currentTarget.style.borderColor = "var(--border)")}
+                    />
+                  </div>
+                  
                   <button type="submit" disabled={dlSending}
-                    className="w-full flex items-center justify-center gap-2 rounded-xl py-3 font-bold text-sm text-white cursor-pointer"
-                    style={{ background: "var(--green)", border: "none" }}>
-                    <Download className="w-4 h-4" />{dlSending ? "Sending..." : dlEmail ? "Send & Download PDF" : "Download PDF"}
+                    className="w-full flex items-center justify-center gap-2 rounded-xl py-3.5 font-bold text-sm text-white cursor-pointer active:scale-[0.98] transition-transform"
+                    style={{ background: "var(--green)", border: "none", boxShadow: "0 4px 12px rgba(34,197,94,0.3)" }}>
+                    <Mail className="w-4 h-4" />{dlSending ? "Sending PDF..." : "Email me the PDF"}
                   </button>
+
+                  <div className="flex items-center gap-3 my-1">
+                    <div className="h-[1px] flex-1" style={{ background: "var(--border)" }} />
+                    <span className="text-[10px] font-bold uppercase tracking-widest" style={{ color: "var(--text-3)" }}>OR</span>
+                    <div className="h-[1px] flex-1" style={{ background: "var(--border)" }} />
+                  </div>
+
                   <button type="button" onClick={() => { setShowDlModal(false); doPrint(); }}
-                    className="text-center text-xs cursor-pointer" style={{ color: "var(--text-3)", background: "none", border: "none" }}>
-                    Skip — just download
+                    className="w-full flex items-center justify-center gap-2 rounded-xl py-3 font-bold text-sm cursor-pointer border transition-all active:scale-[0.98]"
+                    style={{ background: "var(--bg-3)", border: "1px solid var(--border)", color: "var(--text-1)" }}>
+                    <FileDown className="w-4 h-4" /> Skip — Just Download PDF
                   </button>
                 </form>
               </>
