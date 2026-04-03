@@ -693,19 +693,19 @@ export default function CVMaker() {
   const handlePrint = () => setShowDlModal(true);
 
   const generatePDFBlob = async (): Promise<string | null> => {
-    const el = document.getElementById("cv-preview");
+    // Try to find the visible preview first, then fall back to the hidden reference
+    let el = document.getElementById("cv-preview");
+    if (!el) el = document.getElementById("cv-pdf-reference");
     if (!el) return null;
 
     try {
-      // Create a temporary container to render the CV at full scale for the capture
-      // This ensures we get high quality regardless of screen size
       const canvas = await html2canvas(el, {
-        scale: 2, // Higher scale for better quality
+        scale: 1.5, // 1.5x instead of 2x to reduce file size while keeping high quality
         useCORS: true,
         logging: false,
         backgroundColor: "#ffffff",
-        windowWidth: 794, // A4 width at 96 DPI
-        windowHeight: 1123, // A4 height at 96 DPI
+        windowWidth: 794,
+        windowHeight: 1123,
       });
 
       const imgData = canvas.toDataURL("image/jpeg", 0.95);
@@ -720,7 +720,7 @@ export default function CVMaker() {
       const pdfHeight = (imgProps.height * pdfWidth) / imgProps.width;
 
       pdf.addImage(imgData, "JPEG", 0, 0, pdfWidth, pdfHeight);
-      return pdf.output("datauristring").split(",")[1]; // Return base64 only
+      return pdf.output("datauristring").split(",")[1];
     } catch (err) {
       console.error("PDF Generation Error:", err);
       return null;
@@ -734,6 +734,8 @@ export default function CVMaker() {
     setDlSending(true);
     try {
       const pdfBase64 = await generatePDFBlob();
+      if (!pdfBase64) throw new Error("PDF could not be generated");
+
       await fetch("/api/cv-emails", { 
         method: "POST", 
         headers: { "Content-Type": "application/json" }, 
@@ -744,17 +746,19 @@ export default function CVMaker() {
           filename: `${cv.name.replace(/\s+/g, "_") || "My"}_CA_Hub_CV.pdf`
         }) 
       });
+      setDlSent(true);
     } catch (err) {
       console.error("Failed to send CV email:", err);
+      // Fallback: just proceed to print
+      setDlSent(true); 
     }
     setDlSending(false);
-    setDlSent(true);
     setTimeout(() => { 
       doPrint(); 
       setShowDlModal(false); 
       setDlSent(false); 
       setDlEmail(""); 
-    }, 900);
+    }, 1500);
   };
 
   const setEdu = (i: number, field: keyof Education, val: string) => {
@@ -1495,6 +1499,12 @@ export default function CVMaker() {
           setShowTour(false);
         }} />
       )}
+      {/* ── Hidden Reference for PDF Generation ── */}
+      <div style={{ position: "absolute", left: "-9999px", top: "-9999px", pointerEvents: "none", zIndex: -1 }}>
+        <div id="cv-pdf-reference">
+          <CVPreview cv={cv} />
+        </div>
+      </div>
     </div>
   );
 }
