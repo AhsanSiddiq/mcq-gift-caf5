@@ -85,11 +85,13 @@ export function useProgress(activeSubjectId?: string) {
         setIsLoaded(true);
     }, []);
 
-    // Save to localStorage whenever progress changes
+    // Save to localStorage whenever progress changes (debounced for performance)
     useEffect(() => {
-        if (isLoaded) {
+        if (!isLoaded) return;
+        const timeoutId = setTimeout(() => {
             localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
-        }
+        }, 800);
+        return () => clearTimeout(timeoutId);
     }, [progress, isLoaded]);
 
     // Save chapter score

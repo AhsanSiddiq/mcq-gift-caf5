@@ -33,7 +33,11 @@ function dbToMCQ(row: {
 interface QuizInterfaceProps {
   mode: "topical" | "random" | "all" | "flagged";
   chapter?: number;
+  initialQuestions?: MCQ[];
 }
+
+// Simple session-level cache to avoid redundant fetches
+const QUESTION_CACHE: Record<string, MCQ[]> = {};
 
 const MODE_LABELS: Record<string, string> = {
   topical: "Chapter",
@@ -42,15 +46,15 @@ const MODE_LABELS: Record<string, string> = {
   flagged: "Flagged Review",
 };
 
-export default function QuizInterface({ mode, chapter }: QuizInterfaceProps) {
+export default function QuizInterface({ mode, chapter, initialQuestions = [] }: QuizInterfaceProps) {
   const params = useParams();
   const level = (params?.level as string) || "caf";
   const subjectId = (params?.subject as string) || "caf-5";
 
   const { progress, isLoaded, saveChapterScore, saveRandomMockScore, updateMarathonState, clearMarathonState, auth, signIn, syncToCloud, isSyncing } = useProgress(subjectId);
 
-  const [allQuestions, setAllQuestions] = useState<MCQ[]>([]);
-  const [isFetching, setIsFetching] = useState(true);
+  const [allQuestions, setAllQuestions] = useState<MCQ[]>(initialQuestions);
+  const [isFetching, setIsFetching] = useState(initialQuestions.length === 0);
   const [questions, setQuestions] = useState<MCQ[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [score, setScore] = useState(0);
@@ -62,13 +66,40 @@ export default function QuizInterface({ mode, chapter }: QuizInterfaceProps) {
   const confettiRef = useRef(false);
 
   useEffect(() => {
+    // Determine the cache key and fetch URL
+    // For topical mode, we can fetch and cache by chapter
+    // For other modes, we fetch the whole subject (but cache it)
+    const isTopical = mode === "topical" && chapter;
+    const cacheKey = isTopical ? `${subjectId}_ch${chapter}` : subjectId;
+    
+    if (initialQuestions && initialQuestions.length > 0) {
+      QUESTION_CACHE[cacheKey] = initialQuestions;
+      setAllQuestions(initialQuestions);
+      setIsFetching(false);
+      return;
+    }
+
+    if (QUESTION_CACHE[cacheKey]) {
+      setAllQuestions(QUESTION_CACHE[cacheKey]);
+      setIsFetching(false);
+      return;
+    }
+
     setIsFetching(true);
-    fetch(`/api/questions?subject=${subjectId}`)
+    const url = isTopical 
+      ? `/api/questions?subject=${subjectId}&chapter=${chapter}`
+      : `/api/questions?subject=${subjectId}`;
+
+    fetch(url)
       .then((r) => r.json())
-      .then((data) => setAllQuestions((data.questions ?? []).map(dbToMCQ)))
+      .then((data) => {
+        const mapped = (data.questions ?? []).map(dbToMCQ);
+        QUESTION_CACHE[cacheKey] = mapped;
+        setAllQuestions(mapped);
+      })
       .catch(console.error)
       .finally(() => setIsFetching(false));
-  }, [subjectId]);
+  }, [subjectId, mode, chapter]);
 
   const setup = useCallback(() => {
     if (isFetching || !isLoaded || allQuestions.length === 0) return;

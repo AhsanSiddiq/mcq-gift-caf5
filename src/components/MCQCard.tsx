@@ -154,16 +154,23 @@ export default function MCQCard({ mcq, onAnswer, onNext, isLast }: MCQCardProps)
               {mcq.explanation}
             </p>
           </div>
-          <div className="flex flex-col sm:flex-row justify-end gap-2 sticky bottom-4 z-10">
+          <div className="flex flex-col sm:flex-row justify-end gap-2 mt-4 sm:mt-0 sm:sticky sm:bottom-4 z-20 
+                          max-sm:fixed max-sm:bottom-0 max-sm:left-0 max-sm:right-0 max-sm:p-4 max-sm:bg-[var(--bg-1)] max-sm:border-t max-sm:border-[var(--border)] max-sm:shadow-[0_-4px_20px_rgba(0,0,0,0.1)]">
             <button
-              onClick={onNext}
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 font-bold rounded-xl px-6 py-3.5 sm:py-3 text-white transition-all"
-              style={{ background: "var(--green)", cursor: "pointer", fontSize: 14, fontFamily: "var(--font-space-grotesk), sans-serif",
-                boxShadow: "0 4px 20px rgba(61,179,113,0.3)" }}
-              onMouseEnter={e => { (e.currentTarget as HTMLElement).style.background = "#2E9960"; }}
-              onMouseLeave={e => { (e.currentTarget as HTMLElement).style.background = "var(--green)"; }}
+              onClick={(e) => {
+                e.currentTarget.style.transform = "scale(0.98)";
+                onNext();
+              }}
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 font-bold rounded-xl px-8 py-4 sm:py-3 text-white transition-all active:scale-95"
+              style={{ 
+                background: "var(--green)", 
+                cursor: "pointer", 
+                fontSize: 15, 
+                fontFamily: "var(--font-space-grotesk), sans-serif",
+                boxShadow: "0 4px 20px rgba(61,179,113,0.3)" 
+              }}
             >
-              {isLast ? "Finish" : "Next Question"} <ArrowRight className="w-4 h-4" />
+              {isLast ? "Complete Quiz" : "Next Question"} <ArrowRight className="w-5 h-5" />
             </button>
           </div>
         </div>
