@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { MCQ } from "@/data/mcqs";
 import { CheckCircle2, XCircle, ArrowRight, Bookmark, BookmarkCheck } from "lucide-react";
 import { useProgress } from "@/hooks/useProgress";
+import { motion, AnimatePresence } from "framer-motion";
 
 interface MCQCardProps {
   mcq: MCQ;
@@ -78,7 +79,12 @@ export default function MCQCard({ mcq, onAnswer, onNext, isLast }: MCQCardProps)
       </div>
 
       {/* Options */}
-      <div className="flex flex-col gap-2.5">
+      <motion.div 
+        className="flex flex-col gap-2.5"
+        initial="hidden"
+        animate="visible"
+        variants={{ hidden: {}, visible: { transition: { staggerChildren: 0.1 } } }}
+      >
         {mcq.options.map((option, idx) => {
           const isSelected = selectedOption === option;
           const isCorrect = option === mcq.correctAnswer;
@@ -108,8 +114,10 @@ export default function MCQCard({ mcq, onAnswer, onNext, isLast }: MCQCardProps)
           }
 
           return (
-            <button
+            <motion.button
               key={idx}
+              variants={{ hidden: { opacity: 0, x: -10 }, visible: { opacity: 1, x: 0, transition: { duration: 0.3 } } }}
+              whileTap={!showExplanation ? { scale: 0.98 } : {}}
               onClick={() => { if (!showExplanation) handleOptionClick(option); }}
               aria-disabled={showExplanation}
               className="w-full text-left rounded-xl px-4 py-3 sm:py-3.5 flex items-center justify-between gap-3 transition-all duration-150"
@@ -137,14 +145,21 @@ export default function MCQCard({ mcq, onAnswer, onNext, isLast }: MCQCardProps)
                   {isSelected && !isCorrect && <XCircle className="w-4 h-4" style={{ color: "#f87171" }} />}
                 </div>
               )}
-            </button>
+            </motion.button>
           );
         })}
-      </div>
+      </motion.div>
 
       {/* Explanation */}
-      {showExplanation && (
-        <div className="mt-6 pt-6" style={{ borderTop: "1px solid var(--border)" }}>
+      <AnimatePresence>
+        {showExplanation && (
+          <motion.div 
+            initial={{ opacity: 0, height: 0 }}
+            animate={{ opacity: 1, height: "auto" }}
+            transition={{ duration: 0.3 }}
+            className="mt-6 pt-6 overflow-hidden" 
+            style={{ borderTop: "1px solid var(--border)" }}
+          >
           <div className="rounded-xl p-4 mb-6"
             style={{ background: "rgba(61,179,113,0.06)", borderLeft: "3px solid var(--green)" }}>
             <h4 className="text-xs font-black uppercase tracking-widest mb-2" style={{ color: "var(--green)" }}>
@@ -173,8 +188,9 @@ export default function MCQCard({ mcq, onAnswer, onNext, isLast }: MCQCardProps)
               {isLast ? "Complete Quiz" : "Next Question"} <ArrowRight className="w-5 h-5" />
             </button>
           </div>
-        </div>
-      )}
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 }
