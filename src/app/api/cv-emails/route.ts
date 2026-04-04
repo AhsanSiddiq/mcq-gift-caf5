@@ -12,13 +12,6 @@ const transporter = nodemailer.createTransport({
   auth: { user: process.env.GMAIL_USER, pass: process.env.GMAIL_APP_PASSWORD },
 });
 
-export const config = {
-  api: {
-    bodyParser: {
-      sizeLimit: '10mb',
-    },
-  },
-};
 
 export async function POST(req: NextRequest) {
   try {
@@ -27,8 +20,12 @@ export async function POST(req: NextRequest) {
 
     const normalizedEmail = email.toLowerCase().trim();
 
-    // Store for analytics
-    await supabase.from("cv_downloads").insert({ email: normalizedEmail, name: name || "" });
+    // Store for analytics (non-blocking)
+    try {
+      await supabase.from("cv_downloads").insert({ email: normalizedEmail, name: name || "" });
+    } catch (dbErr) {
+      console.warn("[cv-emails] DB Insert Error (ignoring):", dbErr);
+    }
 
     // Send confirmation email
     await transporter.sendMail({

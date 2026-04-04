@@ -659,7 +659,10 @@ export default function CVMaker() {
 
   // Auto-save on every change
   useEffect(() => {
-    try { localStorage.setItem(LS_KEY, JSON.stringify(cv)); } catch {}
+    const t = setTimeout(() => {
+      try { localStorage.setItem(LS_KEY, JSON.stringify(cv)); } catch {}
+    }, 500);
+    return () => clearTimeout(t);
   }, [cv]);
 
   const set = (field: keyof CVData, value: unknown) => {
@@ -690,6 +693,21 @@ export default function CVMaker() {
     setTimeout(() => { win.print(); win.close(); }, 400);
   };
 
+  const downloadDirectly = async () => {
+    try {
+      const pdfBase64 = await generatePDFBlob();
+      if (!pdfBase64) return doPrint(); // fallback to print if canvas fails
+      const link = document.createElement("a");
+      link.href = "data:application/pdf;base64," + pdfBase64;
+      link.download = `${cv.name ? cv.name.replace(/\s+/g, "_") : "My"}_CA_Hub_CV.pdf`;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    } catch (e) {
+      doPrint();
+    }
+  };
+
   const handlePrint = () => setShowDlModal(true);
 
   const generatePDFBlob = async (): Promise<string | null> => {
@@ -700,7 +718,7 @@ export default function CVMaker() {
 
     try {
       const canvas = await html2canvas(el, {
-        scale: 1.5, // 1.5x instead of 2x to reduce file size while keeping high quality
+        scale: 1.0, // 1.0x to prevent oversized base64 payload & UI freezing
         useCORS: true,
         logging: false,
         backgroundColor: "#ffffff",
@@ -708,7 +726,7 @@ export default function CVMaker() {
         windowHeight: 1123,
       });
 
-      const imgData = canvas.toDataURL("image/jpeg", 0.95);
+      const imgData = canvas.toDataURL("image/jpeg", 0.85);
       const pdf = new jsPDF({
         orientation: "portrait",
         unit: "mm",
@@ -729,12 +747,18 @@ export default function CVMaker() {
 
   const handleDlSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!dlEmail) { doPrint(); setShowDlModal(false); return; }
+    if (!dlEmail) { 
+      setShowDlModal(false); 
+      downloadDirectly();
+      return; 
+    }
     
     setDlSending(true);
+    let pdfBase64toDownload: string | null = null;
     try {
       const pdfBase64 = await generatePDFBlob();
       if (!pdfBase64) throw new Error("PDF could not be generated");
+      pdfBase64toDownload = pdfBase64;
 
       await fetch("/api/cv-emails", { 
         method: "POST", 
@@ -749,12 +773,20 @@ export default function CVMaker() {
       setDlSent(true);
     } catch (err) {
       console.error("Failed to send CV email:", err);
-      // Fallback: just proceed to print
       setDlSent(true); 
     }
     setDlSending(false);
     setTimeout(() => { 
-      doPrint(); 
+      if (pdfBase64toDownload) {
+        const link = document.createElement("a");
+        link.href = "data:application/pdf;base64," + pdfBase64toDownload;
+        link.download = `${cv.name ? cv.name.replace(/\s+/g, "_") : "My"}_CA_Hub_CV.pdf`;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      } else {
+        doPrint(); // fallback
+      }
       setShowDlModal(false); 
       setDlSent(false); 
       setDlEmail(""); 
@@ -1440,7 +1472,7 @@ export default function CVMaker() {
       {/* ── Download Email Modal ── */}
       {showDlModal && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4" style={{ background: "rgba(0,0,0,0.75)", backdropFilter: "blur(8px)" }}
-          onClick={() => { setShowDlModal(false); doPrint(); }}>
+          onClick={() => { setShowDlModal(false); downloadDirectly(); }}>
           <div className="max-w-sm w-full rounded-2xl p-6 flex flex-col gap-4" style={{ background: "var(--bg-2)", border: "1px solid var(--border)", boxShadow: "0 24px 60px rgba(0,0,0,0.6)" }}
             onClick={e => e.stopPropagation()}>
             {dlSent ? (
@@ -1480,7 +1512,7 @@ export default function CVMaker() {
                     <div className="h-[1px] flex-1" style={{ background: "var(--border)" }} />
                   </div>
 
-                  <button type="button" onClick={() => { setShowDlModal(false); doPrint(); }}
+                  <button type="button" onClick={() => { setShowDlModal(false); downloadDirectly(); }}
                     className="w-full flex items-center justify-center gap-2 rounded-xl py-3 font-bold text-sm cursor-pointer border transition-all active:scale-[0.98]"
                     style={{ background: "var(--bg-3)", border: "1px solid var(--border)", color: "var(--text-1)" }}>
                     <FileDown className="w-4 h-4" /> Skip — Just Download PDF
