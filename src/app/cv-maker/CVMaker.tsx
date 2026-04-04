@@ -651,10 +651,7 @@ export default function CVMaker() {
 
 
 
-  const [showDlModal, setShowDlModal] = useState(false);
-  const [dlEmail, setDlEmail] = useState("");
   const [dlSending, setDlSending] = useState(false);
-  const [dlSent, setDlSent] = useState(false);
   const [rendering, setRendering] = useState(false);
 
   // Auto-save on every change
@@ -708,7 +705,14 @@ export default function CVMaker() {
     }
   };
 
-  const handlePrint = () => setShowDlModal(true);
+  const handlePrint = async () => {
+    setDlSending(true);
+    // Give UI a moment to update the button state
+    setTimeout(async () => {
+      await downloadDirectly();
+      setDlSending(false);
+    }, 50);
+  };
 
   const generatePDFBlob = async (): Promise<string | null> => {
     // Try to find the visible preview first, then fall back to the hidden reference
@@ -745,53 +749,7 @@ export default function CVMaker() {
     }
   };
 
-  const handleDlSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!dlEmail) { 
-      setShowDlModal(false); 
-      downloadDirectly();
-      return; 
-    }
-    
-    setDlSending(true);
-    let pdfBase64toDownload: string | null = null;
-    try {
-      const pdfBase64 = await generatePDFBlob();
-      if (!pdfBase64) throw new Error("PDF could not be generated");
-      pdfBase64toDownload = pdfBase64;
 
-      await fetch("/api/cv-emails", { 
-        method: "POST", 
-        headers: { "Content-Type": "application/json" }, 
-        body: JSON.stringify({ 
-          email: dlEmail, 
-          name: cv.name,
-          pdfBase64,
-          filename: `${cv.name.replace(/\s+/g, "_") || "My"}_CA_Hub_CV.pdf`
-        }) 
-      });
-      setDlSent(true);
-    } catch (err) {
-      console.error("Failed to send CV email:", err);
-      setDlSent(true); 
-    }
-    setDlSending(false);
-    setTimeout(() => { 
-      if (pdfBase64toDownload) {
-        const link = document.createElement("a");
-        link.href = "data:application/pdf;base64," + pdfBase64toDownload;
-        link.download = `${cv.name ? cv.name.replace(/\s+/g, "_") : "My"}_CA_Hub_CV.pdf`;
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-      } else {
-        doPrint(); // fallback
-      }
-      setShowDlModal(false); 
-      setDlSent(false); 
-      setDlEmail(""); 
-    }, 1500);
-  };
 
   const setEdu = (i: number, field: keyof Education, val: string) => {
     const n = [...cv.education]; n[i] = { ...n[i], [field]: val }; set("education", n);
@@ -1418,10 +1376,11 @@ export default function CVMaker() {
           {/* Download button */}
           <motion.button whileTap={{ scale: 0.96 }}
             onClick={handlePrint}
+            disabled={dlSending}
             id="tour-download-btn-mobile"
             className="flex items-center gap-2 font-bold rounded-xl py-3 px-6 text-sm text-white"
-            style={{ background: "var(--green)", border: "none", cursor: "pointer" }}>
-            <Download className="w-4 h-4" /> PDF
+            style={{ background: "var(--green)", border: "none", cursor: dlSending ? "not-allowed" : "pointer", opacity: dlSending ? 0.7 : 1 }}>
+            <Download className="w-4 h-4" /> {dlSending ? "Wait..." : "PDF"}
           </motion.button>
         </div>
       </div>
@@ -1433,9 +1392,9 @@ export default function CVMaker() {
           <div className="flex items-center justify-between px-4 py-3 shrink-0" style={{ background: "var(--bg-2)", borderBottom: "1px solid var(--border)" }}>
             <p className="text-sm font-bold" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>CV Live Preview</p>
             <div className="flex items-center gap-2">
-              <motion.button whileTap={{ scale: 0.9 }} onClick={handlePrint} className="flex items-center gap-1.5 text-xs font-bold px-3 py-2 rounded-lg text-white"
-                style={{ background: "var(--green)", cursor: "pointer" }}>
-                <Download className="w-3.5 h-3.5" /> Download
+              <motion.button whileTap={{ scale: 0.9 }} onClick={handlePrint} disabled={dlSending} className="flex items-center gap-1.5 text-xs font-bold px-3 py-2 rounded-lg text-white"
+                style={{ background: "var(--green)", cursor: dlSending ? "not-allowed" : "pointer", opacity: dlSending ? 0.7 : 1 }}>
+                <Download className="w-3.5 h-3.5" /> {dlSending ? "Saving..." : "Download"}
               </motion.button>
               <button onClick={() => setShowPreview(false)} className="p-2 rounded-lg"
                 style={{ background: "var(--bg-3)", color: "var(--text-2)", border: "1px solid var(--border)", cursor: "pointer" }}>
@@ -1469,60 +1428,7 @@ export default function CVMaker() {
         </div>
       )}
 
-      {/* ── Download Email Modal ── */}
-      {showDlModal && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4" style={{ background: "rgba(0,0,0,0.75)", backdropFilter: "blur(8px)" }}
-          onClick={() => { setShowDlModal(false); downloadDirectly(); }}>
-          <div className="max-w-sm w-full rounded-2xl p-6 flex flex-col gap-4" style={{ background: "var(--bg-2)", border: "1px solid var(--border)", boxShadow: "0 24px 60px rgba(0,0,0,0.6)" }}
-            onClick={e => e.stopPropagation()}>
-            {dlSent ? (
-              <div className="text-center py-4">
-                <div className="text-4xl mb-3">✅</div>
-                <p className="font-bold text-lg" style={{ color: "var(--text-1)" }}>Sent! Downloading now...</p>
-              </div>
-            ) : (
-              <>
-                <div className="flex items-center gap-3">
-                  <div className="rounded-xl flex items-center justify-center" style={{ width: 44, height: 44, background: "rgba(61,179,113,0.12)", color: "var(--green)" }}><Mail className="w-5 h-5" /></div>
-                  <div>
-                    <h3 className="font-bold text-lg" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk),sans-serif" }}>Get a copy to your inbox</h3>
-                    <p className="text-xs" style={{ color: "var(--text-3)" }}>Optional — we&apos;ll mail you a reminder link</p>
-                  </div>
-                </div>
-                <form onSubmit={handleDlSubmit} className="flex flex-col gap-3">
-                  <div className="relative">
-                    <Mail className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4" style={{ color: "var(--text-3)" }} />
-                    <input type="email" value={dlEmail} onChange={e => setDlEmail(e.target.value)} placeholder="Enter your email..."
-                      className="w-full rounded-xl pl-10 pr-4 py-3.5 text-sm outline-none transition-all"
-                      style={{ background: "var(--bg-3)", border: "1px solid var(--border)", color: "var(--text-1)" }}
-                      onFocus={e => (e.currentTarget.style.borderColor = "var(--green)")}
-                      onBlur={e => (e.currentTarget.style.borderColor = "var(--border)")}
-                    />
-                  </div>
-                  
-                  <button type="submit" disabled={dlSending}
-                    className="w-full flex items-center justify-center gap-2 rounded-xl py-3.5 font-bold text-sm text-white cursor-pointer active:scale-[0.98] transition-transform"
-                    style={{ background: "var(--green)", border: "none", boxShadow: "0 4px 12px rgba(34,197,94,0.3)" }}>
-                    <Mail className="w-4 h-4" />{dlSending ? "Sending PDF..." : "Email me the PDF"}
-                  </button>
-
-                  <div className="flex items-center gap-3 my-1">
-                    <div className="h-[1px] flex-1" style={{ background: "var(--border)" }} />
-                    <span className="text-[10px] font-bold uppercase tracking-widest" style={{ color: "var(--text-3)" }}>OR</span>
-                    <div className="h-[1px] flex-1" style={{ background: "var(--border)" }} />
-                  </div>
-
-                  <button type="button" onClick={() => { setShowDlModal(false); downloadDirectly(); }}
-                    className="w-full flex items-center justify-center gap-2 rounded-xl py-3 font-bold text-sm cursor-pointer border transition-all active:scale-[0.98]"
-                    style={{ background: "var(--bg-3)", border: "1px solid var(--border)", color: "var(--text-1)" }}>
-                    <FileDown className="w-4 h-4" /> Skip — Just Download PDF
-                  </button>
-                </form>
-              </>
-            )}
-          </div>
-        </div>
-      )}
+      {/* Email Modal removed for direct download */}
 
       {/* ── Custom Tour ── */}
       {showTour && (
