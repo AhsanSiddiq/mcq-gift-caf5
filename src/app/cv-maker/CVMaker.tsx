@@ -445,9 +445,9 @@ function CVPreview({ cv }: { cv: CVData }) {
               {cv.icapStage}{cv.fts ? ` | FTS ${cv.fts}` : ""}
             </div>
             <div style={{ display: "flex", flexWrap: "wrap" as const, gap: "4px 20px" }}>
-              {cv.phone && <span style={{ fontSize: SZ.contact, color: "#333" }}>📞 {cv.phone}</span>}
-              {cv.email && <span style={{ fontSize: SZ.contact, color: "#333" }}>✉ {cv.email}</span>}
-              {cv.linkedin && <span style={{ fontSize: SZ.contact, color: "#333" }}>🔗 {cv.linkedin}</span>}
+              {cv.phone && <span style={{ fontSize: SZ.contact, color: "#333" }}>Tel: {cv.phone}</span>}
+              {cv.email && <span style={{ fontSize: SZ.contact, color: "#333" }}>Email: {cv.email}</span>}
+              {cv.linkedin && <span style={{ fontSize: SZ.contact, color: "#333" }}>LinkedIn: {cv.linkedin}</span>}
             </div>
           </div>
         </div>
@@ -652,6 +652,7 @@ export default function CVMaker() {
 
 
   const [dlSending, setDlSending] = useState(false);
+  const [dlError, setDlError] = useState<string | null>(null);
   const [rendering, setRendering] = useState(false);
 
   // Auto-save on every change
@@ -678,75 +679,111 @@ export default function CVMaker() {
     reader.readAsDataURL(file);
   };
 
-  const doPrint = () => {
-    const el = document.getElementById("cv-preview");
-    if (!el) return;
-    const win = window.open("", "_blank");
-    if (!win) return;
-    win.document.write(`<!DOCTYPE html><html><head><title>${cv.name || "CV"}</title>
-      <style>*{margin:0;padding:0;box-sizing:border-box}body{background:#fff}@page{size:A4;margin:0}@media print{body{-webkit-print-color-adjust:exact;print-color-adjust:exact}}</style>
-      </head><body>${el.outerHTML}</body></html>`);
-    win.document.close();
-    setTimeout(() => { win.print(); win.close(); }, 400);
-  };
+  const generatePDF = async (filename: string): Promise<boolean> => {
+    const refEl = document.getElementById("cv-pdf-reference");
+    if (!refEl) return false;
 
-  const downloadDirectly = async () => {
+    // Bring element into viewport. CRITICAL: opacity must be > 0 (even 0.001)
+    // because html2canvas skips truly invisible elements, producing a blank
+    // canvas that causes the "problem printing a page" error in PDF viewers.
+    const savedStyle = refEl.style.cssText;
+    refEl.style.cssText =
+      "position:fixed;top:0;left:0;width:794px;height:1123px;z-index:-9999;opacity:0.001;pointer-events:none;overflow:hidden;";
+
     try {
-      const pdfBase64 = await generatePDFBlob();
-      if (!pdfBase64) return doPrint(); // fallback to print if canvas fails
-      const link = document.createElement("a");
-      link.href = "data:application/pdf;base64," + pdfBase64;
-      link.download = `${cv.name ? cv.name.replace(/\s+/g, "_") : "My"}_CA_Hub_CV.pdf`;
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-    } catch (e) {
-      doPrint();
+      // Give browser 3 frames to fully paint the repositioned element
+      await new Promise<void>(r =>
+        requestAnimationFrame(() =>
+          requestAnimationFrame(() =>
+            requestAnimationFrame(() => r())
+          )
+        )
+      );
+
+      // Resolve CSS custom properties (var(--cv-accent) etc.) at paint time
+      // so html2canvas sees real colour values, not unresolved variable names.
+      const resolveVars = (el: HTMLElement) => {
+        const props = [
+          "--cv-accent",
+          "--gap-section",
+          "--gap-entry",
+          "--gap-bullet",
+        ] as const;
+        props.forEach(p => {
+          const val = getComputedStyle(el).getPropertyValue(p).trim();
+          if (val) el.style.setProperty(p, val);
+        });
+      };
+
+      const canvas = await html2canvas(refEl, {
+        scale: 2,
+        useCORS: true,
+        allowTaint: true,
+        logging: false,
+        backgroundColor: "#ffffff",
+        width: 794,
+        height: 1123,
+        windowWidth: 794,
+        windowHeight: 1123,
+        x: 0,
+        y: 0,
+        onclone: (_doc: Document, clonedEl: HTMLElement) => {
+          // Resolve CSS vars on the cloned element so html2canvas can read them
+          resolveVars(clonedEl);
+          clonedEl.querySelectorAll<HTMLElement>("*").forEach(resolveVars);
+          // Force white background and full opacity so canvas is never blank
+          clonedEl.style.background = "#ffffff";
+          clonedEl.style.opacity = "1";
+        },
+      });
+
+      refEl.style.cssText = savedStyle;
+
+      // Verify canvas has actual content (not blank due to render failure)
+      const ctx = canvas.getContext("2d");
+      if (ctx) {
+        const px = ctx.getImageData(50, 50, 1, 1).data;
+        if (px[3] === 0) {
+          console.warn("PDF canvas appears blank — aborting");
+          return false;
+        }
+      }
+
+      const imgData = canvas.toDataURL("image/jpeg", 0.95);
+      const pdf = new jsPDF({ orientation: "portrait", unit: "mm", format: "a4" });
+      pdf.addImage(imgData, "JPEG", 0, 0, pdf.internal.pageSize.getWidth(), pdf.internal.pageSize.getHeight());
+
+      // ── Download strategy ──────────────────────────────────────────────
+      // Android Chrome intercepts any programmatic click on a PDF blob URL
+      // and routes it through the OS print spooler, which shows "There was
+      // a problem printing the page."  jsPDF's .save() uses a proper
+      // application/octet-stream trick that bypasses the print flow and
+      // triggers a true file download on all platforms including Android.
+      // ──────────────────────────────────────────────────────────────────
+      pdf.save(filename);
+      return true;
+    } catch (err) {
+      refEl.style.cssText = savedStyle;
+      console.error("PDF Generation Error:", err);
+      return false;
     }
   };
 
   const handlePrint = async () => {
     setDlSending(true);
-    // Give UI a moment to update the button state
-    setTimeout(async () => {
-      await downloadDirectly();
-      setDlSending(false);
-    }, 50);
-  };
-
-  const generatePDFBlob = async (): Promise<string | null> => {
-    // Try to find the visible preview first, then fall back to the hidden reference
-    let el = document.getElementById("cv-preview");
-    if (!el) el = document.getElementById("cv-pdf-reference");
-    if (!el) return null;
-
+    setDlError(null);
+    // Yield so React can update button state before heavy canvas work
+    await new Promise<void>(r => setTimeout(r, 100));
+    const filename = `${cv.name ? cv.name.replace(/\s+/g, "_") : "My"}_CA_Hub_CV.pdf`;
     try {
-      const canvas = await html2canvas(el, {
-        scale: 1.0, // 1.0x to prevent oversized base64 payload & UI freezing
-        useCORS: true,
-        logging: false,
-        backgroundColor: "#ffffff",
-        windowWidth: 794,
-        windowHeight: 1123,
-      });
-
-      const imgData = canvas.toDataURL("image/jpeg", 0.85);
-      const pdf = new jsPDF({
-        orientation: "portrait",
-        unit: "mm",
-        format: "a4",
-      });
-
-      const imgProps = pdf.getImageProperties(imgData);
-      const pdfWidth = pdf.internal.pageSize.getWidth();
-      const pdfHeight = (imgProps.height * pdfWidth) / imgProps.width;
-
-      pdf.addImage(imgData, "JPEG", 0, 0, pdfWidth, pdfHeight);
-      return pdf.output("datauristring").split(",")[1];
-    } catch (err) {
-      console.error("PDF Generation Error:", err);
-      return null;
+      const ok = await generatePDF(filename);
+      if (!ok) {
+        setDlError("Could not generate PDF. Please try Chrome or Firefox on desktop.");
+      }
+    } catch {
+      setDlError("Download failed. Please try again.");
     }
+    setDlSending(false);
   };
 
 
@@ -1365,23 +1402,30 @@ export default function CVMaker() {
 
       {/* ── Mobile Sticky Bottom Bar (lg and below) ── */}
       <div className="lg:hidden fixed bottom-0 left-0 right-0 z-40" style={{ background: "var(--bg-2)", borderTop: "1px solid var(--border)", backdropFilter: "blur(16px)", WebkitBackdropFilter: "blur(16px)", padding: "10px 16px", paddingBottom: "calc(10px + env(safe-area-inset-bottom))" }}>
-        <div className="flex items-center gap-3 max-w-lg mx-auto">
-          {/* Preview button */}
-          <motion.button whileTap={{ scale: 0.96 }}
-            onClick={() => setShowPreview(true)}
-            className="flex-1 flex items-center justify-center gap-2 font-bold rounded-xl py-3 text-sm"
-            style={{ background: "var(--bg-3)", border: "1px solid var(--border)", color: "var(--text-2)", cursor: "pointer" }}>
-            <Eye className="w-4 h-4" /> Preview CV
-          </motion.button>
-          {/* Download button */}
-          <motion.button whileTap={{ scale: 0.96 }}
-            onClick={handlePrint}
-            disabled={dlSending}
-            id="tour-download-btn-mobile"
-            className="flex items-center gap-2 font-bold rounded-xl py-3 px-6 text-sm text-white"
-            style={{ background: "var(--green)", border: "none", cursor: dlSending ? "not-allowed" : "pointer", opacity: dlSending ? 0.7 : 1 }}>
-            <Download className="w-4 h-4" /> {dlSending ? "Wait..." : "PDF"}
-          </motion.button>
+        <div className="flex flex-col gap-2 max-w-lg mx-auto">
+          {dlError && (
+            <div className="text-xs text-center px-3 py-2 rounded-lg" style={{ background: "rgba(248,113,113,0.12)", color: "#F87171", border: "1px solid rgba(248,113,113,0.25)" }}>
+              {dlError}
+            </div>
+          )}
+          <div className="flex items-center gap-3">
+            {/* Preview button */}
+            <motion.button whileTap={{ scale: 0.96 }}
+              onClick={() => setShowPreview(true)}
+              className="flex-1 flex items-center justify-center gap-2 font-bold rounded-xl py-3 text-sm"
+              style={{ background: "var(--bg-3)", border: "1px solid var(--border)", color: "var(--text-2)", cursor: "pointer" }}>
+              <Eye className="w-4 h-4" /> Preview CV
+            </motion.button>
+            {/* Download button */}
+            <motion.button whileTap={{ scale: 0.96 }}
+              onClick={handlePrint}
+              disabled={dlSending}
+              id="tour-download-btn-mobile"
+              className="flex items-center gap-2 font-bold rounded-xl py-3 px-6 text-sm text-white"
+              style={{ background: "var(--green)", border: "none", cursor: dlSending ? "not-allowed" : "pointer", opacity: dlSending ? 0.7 : 1 }}>
+              <Download className="w-4 h-4" /> {dlSending ? "Building..." : "PDF"}
+            </motion.button>
+          </div>
         </div>
       </div>
 
@@ -1438,8 +1482,21 @@ export default function CVMaker() {
         }} />
       )}
       {/* ── Hidden Reference for PDF Generation ── */}
-      <div style={{ position: "absolute", left: "-9999px", top: "-9999px", pointerEvents: "none", zIndex: -1 }}>
-        <div id="cv-pdf-reference">
+      {/* Must stay in normal flow off-screen (not display:none / opacity:0) so
+          html2canvas can access computed styles and measure dimensions. */}
+      <div
+        aria-hidden="true"
+        style={{
+          position: "absolute",
+          left: "-9999px",
+          top: 0,
+          width: 794,
+          pointerEvents: "none",
+          zIndex: -1,
+          overflow: "hidden",
+        }}
+      >
+        <div id="cv-pdf-reference" style={{ width: 794, height: 1123, overflow: "hidden" }}>
           <CVPreview cv={cv} />
         </div>
       </div>
