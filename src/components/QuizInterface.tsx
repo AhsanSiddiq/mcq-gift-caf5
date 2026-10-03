@@ -3,11 +3,25 @@
 import React, { useState, useEffect, useCallback, useRef } from "react";
 import { MCQ } from "@/data/mcqs";
 import MCQCard from "@/components/MCQCard";
-import { RotateCcw, ChevronLeft, CloudUpload } from "lucide-react";
+import { RotateCcw, ChevronLeft, CloudUpload, Timer, Crown } from "lucide-react";
 import Link from "next/link";
 import { useProgress } from "@/hooks/useProgress";
 import { useParams } from "next/navigation";
 import EmailLoginModal from "@/components/EmailLoginModal";
+import AdSlot from "@/components/AdSlot";
+import { usePro } from "@/hooks/usePro";
+
+/* ── Exam Simulator: timed mock. Free users get one per day, Pro is unlimited. ── */
+const EXAM_FREE_KEY = "cah_exam_free_v1";
+const SECONDS_PER_QUESTION = 90;
+const todayKey = () => new Date().toISOString().slice(0, 10);
+function freeExamUsedToday(): boolean {
+  try { return localStorage.getItem(EXAM_FREE_KEY) === todayKey(); } catch { return false; }
+}
+function markFreeExamUsed() {
+  try { localStorage.setItem(EXAM_FREE_KEY, todayKey()); } catch { /* private mode */ }
+}
+const fmtClock = (s: number) => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
 
 function dbToMCQ(row: {
   id: string;
@@ -31,7 +45,7 @@ function dbToMCQ(row: {
 }
 
 interface QuizInterfaceProps {
-  mode: "topical" | "random" | "all" | "flagged";
+  mode: "topical" | "random" | "all" | "flagged" | "exam";
   chapter?: number;
   initialQuestions?: MCQ[];
 }
@@ -44,6 +58,7 @@ const MODE_LABELS: Record<string, string> = {
   random: "Random Mock",
   all: "Full Marathon",
   flagged: "Flagged Review",
+  exam: "Exam Simulator",
 };
 
 export default function QuizInterface({ mode, chapter, initialQuestions = [] }: QuizInterfaceProps) {
@@ -64,6 +79,13 @@ export default function QuizInterface({ mode, chapter, initialQuestions = [] }: 
   const [isRetryMode, setIsRetryMode] = useState(false);
   const [showLoginModal, setShowLoginModal] = useState(false);
   const confettiRef = useRef(false);
+  const { pro, loading: proLoading } = usePro();
+  const [examLocked, setExamLocked] = useState(false);
+  const [timeLeft, setTimeLeft] = useState<number | null>(null);
+  const [timeUsed, setTimeUsed] = useState<number | null>(null);
+  const examStartedRef = useRef(false);
+  // Only exam mode depends on Pro status; other modes must not reshuffle when it resolves.
+  const examGate = mode === "exam" ? (proLoading ? "loading" : pro ? "pro" : "free") : "n/a";
 
   useEffect(() => {
     // Determine the cache key and fetch URL
@@ -121,6 +143,20 @@ export default function QuizInterface({ mode, chapter, initialQuestions = [] }: 
       }
       return;
     }
+    if (mode === "exam") {
+      if (examGate === "loading" || examStartedRef.current) return;
+      const isPro = examGate === "pro";
+      if (!isPro && freeExamUsedToday()) { setExamLocked(true); return; }
+      examStartedRef.current = true;
+      const size = Math.min(level.toLowerCase() === "prc" ? 50 : 30, allQuestions.length);
+      const picked = [...allQuestions].sort(() => Math.random() - 0.5).slice(0, size);
+      if (!isPro) markFreeExamUsed();
+      setExamLocked(false);
+      setQuestions(picked);
+      setCurrentIndex(0); setScore(0); setCurrentStreak(0); setIncorrectIds([]); setIsFinished(false);
+      setTimeLeft(size * SECONDS_PER_QUESTION); setTimeUsed(null);
+      return;
+    }
     let filtered = [...allQuestions];
     const mockSize = level.toLowerCase() === "prc" ? 50 : 10;
     if (mode === "topical" && chapter) filtered = filtered.filter((q) => q.chapter === chapter);
@@ -128,9 +164,23 @@ export default function QuizInterface({ mode, chapter, initialQuestions = [] }: 
     else if (mode === "flagged") filtered = filtered.filter((q) => (progress.flaggedQuestionIds || []).includes(q.id));
     setQuestions(filtered);
     setCurrentIndex(0); setScore(0); setCurrentStreak(0); setIncorrectIds([]); setIsFinished(false);
-  }, [isFetching, isLoaded, allQuestions, mode, chapter, progress.marathon.inProgress, progress.marathon.subjectId, subjectId]);
+  }, [isFetching, isLoaded, allQuestions, mode, chapter, progress.marathon.inProgress, progress.marathon.subjectId, subjectId, examGate]);
 
   useEffect(() => { setup(); }, [setup]);
+
+  // Exam countdown — submits automatically when time runs out
+  useEffect(() => {
+    if (mode !== "exam" || isFinished || timeLeft === null) return;
+    if (timeLeft <= 0) {
+      setTimeUsed(questions.length * SECONDS_PER_QUESTION);
+      setIsFinished(true);
+      saveRandomMockScore(score);
+      if (auth) syncToCloud(subjectId);
+      return;
+    }
+    const t = setTimeout(() => setTimeLeft((v) => (v === null ? v : v - 1)), 1000);
+    return () => clearTimeout(t);
+  }, [mode, isFinished, timeLeft]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // Trigger confetti on perfect score
   useEffect(() => {
@@ -165,7 +215,8 @@ export default function QuizInterface({ mode, chapter, initialQuestions = [] }: 
     } else {
       setIsFinished(true);
       if (mode === "topical" && chapter) saveChapterScore(chapter, score, questions.length);
-      else if (mode === "random") saveRandomMockScore(score);
+      else if (mode === "random" || mode === "exam") saveRandomMockScore(score);
+      if (mode === "exam" && timeLeft !== null) setTimeUsed(questions.length * SECONDS_PER_QUESTION - timeLeft);
       else if (mode === "all") clearMarathonState();
       // Auto-sync to cloud on completion if signed in
       if (auth) syncToCloud(subjectId);
@@ -197,6 +248,33 @@ export default function QuizInterface({ mode, chapter, initialQuestions = [] }: 
           </div>
         </div>
         <p className="text-center text-sm font-medium mt-6" style={{ color: "var(--text-3)" }}>Loading questions…</p>
+      </div>
+    );
+  }
+
+  /* ── Exam Simulator daily limit reached ── */
+  if (mode === "exam" && examLocked) {
+    return (
+      <div className="max-w-md mx-auto text-center pt-28 pb-20 px-4">
+        <div className="rounded-2xl p-8" style={{ background: "var(--bg-2)", border: "1px solid rgba(245,166,35,0.35)" }}>
+          <Crown className="w-10 h-10 mx-auto mb-4" style={{ color: "var(--gold)" }} />
+          <h2 className="font-bold text-xl mb-2" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
+            You&apos;ve used today&apos;s free exam
+          </h2>
+          <p className="text-sm mb-6" style={{ color: "var(--text-2)", lineHeight: 1.7 }}>
+            Free accounts get one timed Exam Simulator a day. Go Pro for unlimited timed exams and a completely ad-free site — or come back tomorrow.
+            Topical drills and random mocks stay free, always.
+          </p>
+          <div className="flex flex-col gap-3">
+            <Link href="/pro" className="font-bold rounded-xl px-6 py-3 text-white" style={{ background: "var(--green)", textDecoration: "none" }}>
+              See Pro plans
+            </Link>
+            <Link href={`/${level}/${subjectId}/quiz?mode=random`} className="font-semibold rounded-xl px-6 py-3"
+              style={{ background: "var(--bg-3)", border: "1px solid var(--border)", color: "var(--text-2)", textDecoration: "none" }}>
+              Take a free random mock instead
+            </Link>
+          </div>
+        </div>
       </div>
     );
   }
@@ -251,6 +329,11 @@ export default function QuizInterface({ mode, chapter, initialQuestions = [] }: 
               {score} / {questions.length} correct
             </div>
             {perfect && <p className="text-xs mt-2 font-bold" style={{ color: "var(--green)" }}>Perfect Score! 🌟</p>}
+            {mode === "exam" && timeUsed !== null && (
+              <p className="text-xs mt-2 font-semibold" style={{ color: "var(--text-3)" }}>
+                <Timer className="w-3 h-3 inline -mt-0.5" /> {fmtClock(timeUsed)} of {fmtClock(questions.length * SECONDS_PER_QUESTION)} used
+              </p>
+            )}
           </div>
 
           {/* Cloud sync prompt for non-logged-in users */}
@@ -307,6 +390,25 @@ export default function QuizInterface({ mode, chapter, initialQuestions = [] }: 
             </Link>
           </div>
         </div>
+
+        <a
+          href={`https://wa.me/?text=${encodeURIComponent(`I scored ${pct}% on a ${subjectId.toUpperCase()} ${MODE_LABELS[mode]} at The CA Hub 📚 Free ICAP MCQs: https://thecahub.com/${level}/${subjectId}`)}`}
+          target="_blank" rel="noopener noreferrer"
+          className="mt-5 flex items-center justify-center gap-2 rounded-xl px-5 py-3 font-bold text-white text-sm"
+          style={{ background: "#25D366", textDecoration: "none" }}>
+          Share score on WhatsApp
+        </a>
+
+        {!pro && !proLoading && (
+          <Link href="/pro" className="mt-5 flex items-center gap-3 rounded-2xl p-4 text-left"
+            style={{ background: "rgba(245,166,35,0.07)", border: "1px solid rgba(245,166,35,0.3)", textDecoration: "none" }}>
+            <Crown className="w-6 h-6 shrink-0" style={{ color: "var(--gold)" }} />
+            <span className="text-sm" style={{ color: "var(--text-2)" }}>
+              <strong style={{ color: "var(--text-1)" }}>Sit unlimited timed exams, ad-free.</strong> Go Pro for less than the cost of one past-paper book.
+            </span>
+          </Link>
+        )}
+        <AdSlot />
       </div>
     );
   }
@@ -331,6 +433,16 @@ export default function QuizInterface({ mode, chapter, initialQuestions = [] }: 
         </Link>
 
         <div className="flex items-center gap-2">
+          {mode === "exam" && timeLeft !== null && (
+            <span className="inline-flex items-center gap-1 text-sm font-black px-3 py-2 rounded-xl tabular-nums"
+              style={{
+                background: timeLeft < 60 ? "rgba(248,113,113,0.12)" : "var(--bg-2)",
+                color: timeLeft < 60 ? "#f87171" : "var(--text-1)",
+                border: `1px solid ${timeLeft < 60 ? "rgba(248,113,113,0.4)" : "var(--border)"}`,
+              }}>
+              <Timer className="w-4 h-4" /> {fmtClock(Math.max(timeLeft, 0))}
+            </span>
+          )}
           {currentStreak > 2 && (
             <span className="text-xs font-black px-3 py-1.5 rounded-full animate-pulse"
               style={{ background: "rgba(251,191,36,0.12)", color: "#fbbf24", border: "1px solid rgba(251,191,36,0.3)" }}>

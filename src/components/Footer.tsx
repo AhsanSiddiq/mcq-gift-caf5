@@ -8,13 +8,16 @@ const NAV = [
       { label: "CA Roadmap", href: "/#path" },
       { label: "MCQ Practice", href: "/practice" },
       { label: "Induction CV Maker", href: "/cv-maker" },
+      { label: "Daily Challenge", href: "/daily" },
+      { label: "All Exams", href: "/exams" },
+      { label: "Pro", href: "/pro" },
     ],
   },
   {
     heading: "Learn",
     links: [
       { label: "The Story", href: "/about" },
-      { label: "Articles", href: "/#articles" },
+      { label: "Articles", href: "/blog" },
       { label: "Get the Guide", href: "/#capture" },
     ],
   },
@@ -24,6 +27,7 @@ const NAV = [
       { label: "Privacy Policy", href: "/privacy-policy" },
       { label: "Terms of Use", href: "/terms" },
       { label: "Contact", href: "/contact" },
+      { label: "Advertise", href: "/advertise" },
     ],
   },
 ];

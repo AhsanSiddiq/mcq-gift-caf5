@@ -196,6 +196,7 @@ export function useProgress(activeSubjectId?: string) {
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({
                     email: auth.email,
+                    token: auth.token,
                     subject_id: subjectId,
                     progress,
                 }),
@@ -212,7 +213,9 @@ export function useProgress(activeSubjectId?: string) {
         if (!auth) return;
         setIsSyncing(true);
         try {
-            const res = await fetch(`/api/progress?email=${encodeURIComponent(auth.email)}&subject=${subjectId}`);
+            const res = await fetch(`/api/progress?subject=${encodeURIComponent(subjectId)}`, {
+                headers: { "x-cah-email": auth.email, "x-cah-token": auth.token },
+            });
             const data = await res.json();
             if (!res.ok || !data.progress?.length) return;
 

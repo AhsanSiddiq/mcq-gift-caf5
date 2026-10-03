@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import type { Metadata } from 'next';
+import AdSlot from "@/components/AdSlot";
 
 export function generateStaticParams() {
   return blogs.map((b) => ({ slug: b.slug }));
@@ -68,6 +69,8 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
           ` }} />
           <div dangerouslySetInnerHTML={{ __html: blog.content }} />
         </div>
+
+        <AdSlot />
         
         <div className="mt-20 pt-10 border-t flex flex-col items-center justify-center text-center" style={{ borderColor: "var(--border)" }}>
           <p className="text-xl font-bold mb-4 font-display" style={{ color: "var(--text-1)" }}>Apply these strategies today.</p>

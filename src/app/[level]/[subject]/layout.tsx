@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import { allSubjects } from "@/data/subjects";
+import { notFound } from "next/navigation";
+import { resolveSubject } from "@/lib/questionBank";
 
 const BASE_URL = "https://thecahub.com";
 
@@ -67,6 +69,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const subjectId = subject.toLowerCase();
 
   const subjectData = allSubjects.find((s) => s.id === subjectId);
+  if (!resolveSubject(level, subjectId)) notFound();
   const extra = SUBJECT_META[subjectId];
 
   const title = subjectData
@@ -99,6 +102,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default function SubjectLayout({ children }: { children: ReactNode }) {
+// Validate here — above the segment's loading.tsx Suspense boundary — so unknown
+// subjects (and level/subject mismatches) return a real 404 instead of a soft 404.
+export default async function SubjectLayout({ children, params }: { children: ReactNode; params: Promise<{ level: string; subject: string }> }) {
+  const { level, subject } = await params;
+  if (!resolveSubject(level, subject)) notFound();
   return <>{children}</>;
 }

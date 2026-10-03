@@ -1,10 +1,12 @@
 "use client";
 
-import { ArrowRight, BookOpen, Shuffle, Target, PlayCircle, Bookmark, ArrowLeft, CloudUpload, LogOut } from "lucide-react";
+import { ArrowRight, BookOpen, Shuffle, Target, PlayCircle, Bookmark, ArrowLeft, CloudUpload, LogOut, Timer } from "lucide-react";
 import Link from "next/link";
 import { useProgress } from "@/hooks/useProgress";
 import { useEffect, useState } from "react";
 import EmailLoginModal from "@/components/EmailLoginModal";
+import AdSlot from "@/components/AdSlot";
+import SponsorSlot from "@/components/SponsorSlot";
 import { motion } from "framer-motion";
 
 interface SubjectHomeClientProps {
@@ -57,6 +59,16 @@ export default function SubjectHomeClient({ level, subjectId, currentSubject, to
       cta: "Start Mock",
       color: "#a78bfa",
       bg: "rgba(167,139,250,0.10)",
+    },
+    {
+      id: "exam",
+      label: "Exam Simulator",
+      icon: <Timer className="w-5 h-5" />,
+      href: `/${level}/${subjectId}/quiz?mode=exam`,
+      desc: `${level.toLowerCase() === "prc" ? "50" : "30"} questions against the clock, auto-submitted when time's up. One free exam a day — unlimited with Pro.`,
+      cta: "Start Timed Exam",
+      color: "#F5A623",
+      bg: "rgba(245,166,35,0.10)",
     },
     {
       id: "marathon",
@@ -254,6 +266,20 @@ export default function SubjectHomeClient({ level, subjectId, currentSubject, to
           ))}
         </div>
 
+        <Link href={`/${level}/${subjectId}/mcqs`}
+          className="mt-8 flex items-center justify-between gap-4 rounded-2xl p-5"
+          style={{ background: "var(--bg-2)", border: "1px solid var(--border)", textDecoration: "none" }}>
+          <span>
+            <span className="block font-bold" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
+              Browse all {currentSubject.id.toUpperCase()} MCQs with answers
+            </span>
+            <span className="block text-sm" style={{ color: "var(--text-2)" }}>Chapter-wise question bank with explanations — read, revise, then test yourself.</span>
+          </span>
+          <ArrowRight className="w-5 h-5 shrink-0" style={{ color: "var(--green)" }} />
+        </Link>
+
+        <SponsorSlot level={currentSubject.level} className="mt-4" />
+        <AdSlot className="mt-10" />
       </div>
     </main>
   );
