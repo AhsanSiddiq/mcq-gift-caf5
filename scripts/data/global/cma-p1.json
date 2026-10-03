@@ -1,0 +1,2255 @@
+{
+  "subject_id": "cma-p1",
+  "questions": [
+    {
+      "id": "cma-p1-c01-q001",
+      "chapter": 1,
+      "topic": "External Financial Reporting Decisions",
+      "question_text": "Which financial statement reports a company's assets, liabilities and equity as at a specific date?",
+      "options": {
+        "A": "The income statement",
+        "B": "The balance sheet (statement of financial position)",
+        "C": "The statement of cash flows",
+        "D": "The statement of changes in equity"
+      },
+      "correct": "B",
+      "explanation": "The balance sheet is a snapshot of financial position at a point in time. The income statement, statement of cash flows and statement of changes in equity all report activity over a period of time.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c01-q002",
+      "chapter": 1,
+      "topic": "External Financial Reporting Decisions",
+      "question_text": "Under US GAAP, how is cash paid for interest on a company's bank loan classified in the statement of cash flows?",
+      "options": {
+        "A": "Financing activities",
+        "B": "Investing activities",
+        "C": "Operating activities",
+        "D": "Either operating or financing activities, as an accounting policy choice"
+      },
+      "correct": "C",
+      "explanation": "US GAAP requires interest paid to be classified as an operating cash outflow because interest expense is included in net income. IFRS allows a policy choice between operating and financing, which is the source of the last distractor; under US GAAP no such choice exists.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c01-q003",
+      "chapter": 1,
+      "topic": "External Financial Reporting Decisions",
+      "question_text": "Kestrel Corp reported net income of $480,000 for the year. Other information:\nDepreciation expense: $95,000\nIncrease in accounts receivable: $40,000\nDecrease in inventory: $22,000\nDecrease in accounts payable: $18,000\nGain on sale of equipment: $12,000\n\nUsing the indirect method, what is net cash provided by operating activities?",
+      "options": {
+        "A": "$563,000",
+        "B": "$551,000",
+        "C": "$527,000",
+        "D": "$483,000"
+      },
+      "correct": "C",
+      "explanation": "Start with net income $480,000, add back non-cash depreciation $95,000, deduct the increase in receivables $40,000, add the decrease in inventory $22,000, deduct the decrease in payables $18,000 and deduct the gain on sale $12,000 (the full proceeds are an investing inflow). Operating cash flow = $527,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p1-c01-q004",
+      "chapter": 1,
+      "topic": "External Financial Reporting Decisions",
+      "question_text": "Which inventory cost flow assumption is permitted under US GAAP but prohibited under IFRS?",
+      "options": {
+        "A": "First-in, first-out (FIFO)",
+        "B": "Weighted-average cost",
+        "C": "Last-in, first-out (LIFO)",
+        "D": "Specific identification"
+      },
+      "correct": "C",
+      "explanation": "IAS 2 prohibits LIFO, while US GAAP still permits it. FIFO and weighted-average cost are allowed under both frameworks, and specific identification is required under both for items that are not ordinarily interchangeable.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c01-q005",
+      "chapter": 1,
+      "topic": "External Financial Reporting Decisions",
+      "question_text": "Linden Supply uses a periodic inventory system. During the year it had beginning inventory of 400 units at $20, a first purchase of 600 units at $23 and a second purchase of 500 units at $25. It sold 1,100 units. What is cost of goods sold under FIFO?",
+      "options": {
+        "A": "$26,300",
+        "B": "$24,300",
+        "C": "$25,153",
+        "D": "$23,800"
+      },
+      "correct": "B",
+      "explanation": "Goods available = 400 x $20 + 600 x $23 + 500 x $25 = $34,300 for 1,500 units. Ending inventory is 400 units; under FIFO these are the most recent purchases at $25, so ending inventory = $10,000. COGS = $34,300 - $10,000 = $24,300. LIFO would give $26,300 and weighted average about $25,153.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c01-q006",
+      "chapter": 1,
+      "topic": "External Financial Reporting Decisions",
+      "question_text": "Marlow Inc. measures its inventory using FIFO. It holds 2,500 units of a component costing $42 each. The estimated selling price is $46 per unit, and estimated costs to complete and sell are $7 per unit. What inventory write-down is required at year end under US GAAP?",
+      "options": {
+        "A": "$0",
+        "B": "$10,000",
+        "C": "$17,500",
+        "D": "$7,500"
+      },
+      "correct": "D",
+      "explanation": "For inventory measured using FIFO or average cost, US GAAP requires the lower of cost and net realizable value. NRV = $46 - $7 = $39 per unit, which is below cost of $42. Write-down = ($42 - $39) x 2,500 = $7,500.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c01-q007",
+      "chapter": 1,
+      "topic": "External Financial Reporting Decisions",
+      "question_text": "An inventory write-down recorded in a prior year is no longer needed because selling prices have recovered. How should the recovery be treated?",
+      "options": {
+        "A": "Reversal is required under both IFRS and US GAAP",
+        "B": "Reversal is prohibited under both IFRS and US GAAP",
+        "C": "Reversal is permitted under US GAAP but prohibited under IFRS",
+        "D": "Reversal is required under IFRS, up to the original write-down, but prohibited under US GAAP"
+      },
+      "correct": "D",
+      "explanation": "Under IAS 2, a write-down is reversed, up to the amount of the original write-down, when the circumstances that caused it no longer exist. Under US GAAP the written-down amount becomes the new cost basis, so subsequent recoveries are not recognized.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c01-q008",
+      "chapter": 1,
+      "topic": "External Financial Reporting Decisions",
+      "question_text": "A company sells a machine together with one year of maintenance for a bundled price of $1,200. The standalone selling prices are $1,000 for the machine and $500 for the maintenance. How much of the transaction price is allocated to the machine?",
+      "options": {
+        "A": "$1,000",
+        "B": "$700",
+        "C": "$800",
+        "D": "$600"
+      },
+      "correct": "C",
+      "explanation": "Under the revenue standard (ASC 606 / IFRS 15) the transaction price is allocated to performance obligations in proportion to relative standalone selling prices. Machine share = 1,000 / (1,000 + 500) = 2/3. Allocation = $1,200 x 2/3 = $800; maintenance receives $400.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c01-q009",
+      "chapter": 1,
+      "topic": "External Financial Reporting Decisions",
+      "question_text": "Pinecrest Builders has a fixed-price contract for $5,000,000 that satisfies the criteria for revenue recognition over time. It measures progress using the cost-to-cost input method. In Year 1 it incurred costs of $1,200,000 and estimates total contract costs of $4,000,000. What gross profit should be recognized in Year 1?",
+      "options": {
+        "A": "$1,500,000",
+        "B": "$1,000,000",
+        "C": "$240,000",
+        "D": "$300,000"
+      },
+      "correct": "D",
+      "explanation": "Progress = $1,200,000 / $4,000,000 = 30%. Revenue = 30% x $5,000,000 = $1,500,000. Gross profit = $1,500,000 - $1,200,000 = $300,000, which equals 30% of the total expected gross profit of $1,000,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p1-c01-q010",
+      "chapter": 1,
+      "topic": "External Financial Reporting Decisions",
+      "question_text": "Equipment costing $90,000 with an estimated salvage value of $10,000 and a five-year useful life is depreciated using the double-declining-balance method. What is depreciation expense in Year 2?",
+      "options": {
+        "A": "$16,000",
+        "B": "$19,200",
+        "C": "$21,600",
+        "D": "$36,000"
+      },
+      "correct": "C",
+      "explanation": "The DDB rate is 2 / 5 = 40%, applied to opening book value without deducting salvage. Year 1 = $90,000 x 40% = $36,000. Year 2 = ($90,000 - $36,000) x 40% = $21,600. Salvage value only limits depreciation so that book value does not fall below $10,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c01-q011",
+      "chapter": 1,
+      "topic": "External Financial Reporting Decisions",
+      "question_text": "A pharmaceutical company incurs costs in the development phase of a new product after it has demonstrated technical feasibility, intention to complete and the ability to generate future economic benefits. How are these costs treated?",
+      "options": {
+        "A": "Capitalized as an intangible asset under IFRS, but generally expensed as incurred under US GAAP",
+        "B": "Expensed as incurred under both IFRS and US GAAP",
+        "C": "Capitalized under both IFRS and US GAAP",
+        "D": "Capitalized under US GAAP, but expensed as incurred under IFRS"
+      },
+      "correct": "A",
+      "explanation": "IAS 38 requires development costs to be capitalized once the specified recognition criteria are met; research costs are always expensed. US GAAP generally requires research and development costs to be expensed as incurred, with limited exceptions such as certain software development costs.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c01-q012",
+      "chapter": 1,
+      "topic": "External Financial Reporting Decisions",
+      "question_text": "Which measurement approach for property, plant and equipment is available under IFRS but not under US GAAP?",
+      "options": {
+        "A": "The cost model, carrying assets at cost less accumulated depreciation",
+        "B": "The revaluation model, carrying assets at fair value less subsequent depreciation and impairment",
+        "C": "Recognizing impairment losses when assets are impaired",
+        "D": "Depreciating assets over their useful lives"
+      },
+      "correct": "B",
+      "explanation": "IAS 16 allows an entity to choose either the cost model or the revaluation model for each class of PP&E. US GAAP requires the historical cost model and does not allow upward revaluation. Impairment and depreciation apply under both frameworks.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c01-q013",
+      "chapter": 1,
+      "topic": "External Financial Reporting Decisions",
+      "question_text": "Under US GAAP, a long-lived asset held and used has a carrying amount of $800,000. Its estimated undiscounted future cash flows are $760,000 and its fair value is $610,000. What impairment loss should be recognized?",
+      "options": {
+        "A": "$40,000",
+        "B": "$0",
+        "C": "$150,000",
+        "D": "$190,000"
+      },
+      "correct": "D",
+      "explanation": "Step 1 (recoverability): the undiscounted cash flows of $760,000 are less than the carrying amount of $800,000, so the asset is not recoverable. Step 2: the loss is measured as carrying amount minus fair value = $800,000 - $610,000 = $190,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c01-q014",
+      "chapter": 1,
+      "topic": "External Financial Reporting Decisions",
+      "question_text": "Under IFRS, an asset has a carrying amount of $500,000. Its fair value less costs of disposal is $430,000 and its value in use is $455,000. What impairment loss should be recognized?",
+      "options": {
+        "A": "$45,000",
+        "B": "$70,000",
+        "C": "$0",
+        "D": "$57,500"
+      },
+      "correct": "A",
+      "explanation": "IAS 36 uses a one-step test: the asset is written down to its recoverable amount, which is the higher of fair value less costs of disposal ($430,000) and value in use ($455,000). Recoverable amount = $455,000, so the loss = $500,000 - $455,000 = $45,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c01-q015",
+      "chapter": 1,
+      "topic": "External Financial Reporting Decisions",
+      "question_text": "Fenwick Corp has pretax financial income of $400,000, which includes $20,000 of tax-exempt municipal bond interest. Tax depreciation exceeds book depreciation by $50,000 this year. The tax rate is 21% for all years. What is Fenwick's current income tax payable for the year?",
+      "options": {
+        "A": "$79,800",
+        "B": "$84,000",
+        "C": "$73,500",
+        "D": "$69,300"
+      },
+      "correct": "D",
+      "explanation": "Taxable income = $400,000 - $20,000 (permanent difference) - $50,000 (temporary difference) = $330,000. Current tax payable = $330,000 x 21% = $69,300. Total tax expense would be $79,800, the difference of $10,500 being the increase in the deferred tax liability.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p1-c01-q016",
+      "chapter": 1,
+      "topic": "External Financial Reporting Decisions",
+      "question_text": "Which statement correctly describes lessee accounting under IFRS 16 compared with US GAAP (ASC 842)?",
+      "options": {
+        "A": "IFRS 16 keeps operating leases off the balance sheet, whereas ASC 842 recognizes all leases on the balance sheet",
+        "B": "IFRS 16 applies a single lessee model in which most leases produce depreciation and interest expense, whereas ASC 842 classifies lessee leases as finance or operating",
+        "C": "Both standards require lessees to recognize a single straight-line lease cost for all leases",
+        "D": "ASC 842 applies a single lessee model, whereas IFRS 16 classifies lessee leases as finance or operating"
+      },
+      "correct": "B",
+      "explanation": "Under IFRS 16 a lessee recognizes a right-of-use asset and lease liability for most leases and then depreciates the asset and accrues interest on the liability. Under ASC 842 a lessee also recognizes both on the balance sheet, but classifies each lease as finance (depreciation plus interest) or operating (single straight-line lease cost).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c01-q017",
+      "chapter": 1,
+      "topic": "External Financial Reporting Decisions",
+      "question_text": "A lessee signs a five-year lease requiring annual payments of $50,000 at the end of each year. The rate implicit in the lease is 6%, and there are no other payments or initial direct costs. What is the initial lease liability (rounded to the nearest dollar)?",
+      "options": {
+        "A": "$210,618",
+        "B": "$250,000",
+        "C": "$223,255",
+        "D": "$186,815"
+      },
+      "correct": "A",
+      "explanation": "The lease liability is the present value of the payments, an ordinary annuity. PV factor = [1 - 1.06^-5] / 0.06 = 4.2124. Liability = $50,000 x 4.2124 = $210,618 (rounded). Treating the payments as in advance would give $223,255.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p1-c01-q018",
+      "chapter": 1,
+      "topic": "External Financial Reporting Decisions",
+      "question_text": "A company faces a lawsuit that it will probably lose. Its lawyers estimate the loss at between $200,000 and $600,000, with no amount in the range more likely than any other. What amount should be recognized under US GAAP and under IFRS respectively?",
+      "options": {
+        "A": "US GAAP $400,000; IFRS $200,000",
+        "B": "US GAAP $200,000; IFRS $400,000",
+        "C": "US GAAP $600,000; IFRS $600,000",
+        "D": "US GAAP $0 (disclose only); IFRS $400,000"
+      },
+      "correct": "B",
+      "explanation": "Both frameworks recognize a liability when an outflow is probable and can be reasonably estimated. When no amount in a range is a better estimate, US GAAP (ASC 450) accrues the minimum of the range, so $200,000. IAS 37 uses the midpoint of a continuous range where each point is equally likely, so $400,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p1-c01-q019",
+      "chapter": 1,
+      "topic": "External Financial Reporting Decisions",
+      "question_text": "Under US GAAP, where are cash dividends paid to the company's own shareholders reported in the statement of cash flows?",
+      "options": {
+        "A": "Operating activities",
+        "B": "Financing activities",
+        "C": "Investing activities",
+        "D": "As a non-cash disclosure only"
+      },
+      "correct": "B",
+      "explanation": "Dividends paid are distributions to owners and are classified as financing cash outflows under US GAAP. IFRS allows them to be shown as either operating or financing, but US GAAP requires financing.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c01-q020",
+      "chapter": 1,
+      "topic": "External Financial Reporting Decisions",
+      "question_text": "Harbor Tech estimates uncollectible accounts using an aging schedule:\nCurrent: $300,000 at 1%\n31-60 days: $80,000 at 5%\nOver 60 days: $20,000 at 25%\n\nBefore adjustment, the allowance for doubtful accounts has a credit balance of $2,500. What is bad debt expense for the period?",
+      "options": {
+        "A": "$12,000",
+        "B": "$14,500",
+        "C": "$9,500",
+        "D": "$8,000"
+      },
+      "correct": "C",
+      "explanation": "Required ending allowance = $3,000 + $4,000 + $5,000 = $12,000. The aging method is a balance sheet approach, so the expense is the adjustment needed: $12,000 - $2,500 existing credit balance = $9,500.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p1-c01-q021",
+      "chapter": 1,
+      "topic": "External Financial Reporting Decisions",
+      "question_text": "Under US GAAP, how are unrealized holding gains on debt securities classified as available-for-sale reported?",
+      "options": {
+        "A": "In net income for the period",
+        "B": "As a deferred credit in liabilities",
+        "C": "They are not recognized until the securities are sold",
+        "D": "In other comprehensive income, accumulated in equity"
+      },
+      "correct": "D",
+      "explanation": "Available-for-sale debt securities are carried at fair value, with unrealized gains and losses (other than credit losses) reported in other comprehensive income. Trading securities report unrealized gains in net income, and held-to-maturity securities are carried at amortized cost.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c01-q022",
+      "chapter": 1,
+      "topic": "External Financial Reporting Decisions",
+      "question_text": "The International Integrated Reporting Framework describes six capitals that an organization uses and affects. Which of the following is NOT one of those capitals?",
+      "options": {
+        "A": "Natural capital",
+        "B": "Social and relationship capital",
+        "C": "Intellectual capital",
+        "D": "Regulatory capital"
+      },
+      "correct": "D",
+      "explanation": "The six capitals are financial, manufactured, intellectual, human, social and relationship, and natural capital. Regulatory capital is a banking supervision concept, not one of the integrated reporting capitals.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c01-q023",
+      "chapter": 1,
+      "topic": "External Financial Reporting Decisions",
+      "question_text": "A company owns an aircraft whose engines have a much shorter useful life than the airframe. How do IFRS and US GAAP treat componentization?",
+      "options": {
+        "A": "US GAAP requires component depreciation; IFRS permits but does not require it",
+        "B": "Both frameworks prohibit separate depreciation of components",
+        "C": "IFRS requires significant components with different useful lives to be depreciated separately; US GAAP permits but does not require this",
+        "D": "Both frameworks require the whole aircraft to be depreciated over the airframe's life"
+      },
+      "correct": "C",
+      "explanation": "IAS 16 requires each part of an item of PP&E with a cost that is significant in relation to the total to be depreciated separately. Under US GAAP, component depreciation is allowed but is not mandatory, so many US companies depreciate the asset as a whole.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c02-q001",
+      "chapter": 2,
+      "topic": "Planning, Budgeting and Forecasting",
+      "question_text": "In a SWOT analysis for a regional coffee chain, which item would be classified as a threat?",
+      "options": {
+        "A": "The chain's baristas have well-regarded training and low staff turnover",
+        "B": "A large international competitor announces plans to open outlets in the chain's main cities",
+        "C": "The chain's point-of-sale system is outdated and frequently fails",
+        "D": "The chain owns well-located freehold premises in several cities"
+      },
+      "correct": "B",
+      "explanation": "Threats are external factors that could harm the organization, such as a new competitor entering the market. Staff skills and property ownership are internal strengths, and an unreliable point-of-sale system is an internal weakness.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c02-q002",
+      "chapter": 2,
+      "topic": "Planning, Budgeting and Forecasting",
+      "question_text": "Using Porter's five forces model, which situation would most likely REDUCE the bargaining power of buyers in an industry?",
+      "options": {
+        "A": "Customers face high costs and disruption if they switch to a rival supplier",
+        "B": "Products in the industry are standardized and easily compared",
+        "C": "A small number of customers account for most of the industry's sales",
+        "D": "Customers could realistically produce the product themselves"
+      },
+      "correct": "A",
+      "explanation": "High switching costs lock customers in and weaken their ability to negotiate on price. Standardized products, concentrated purchasing and a credible threat of backward integration all increase buyer power.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c02-q003",
+      "chapter": 2,
+      "topic": "Planning, Budgeting and Forecasting",
+      "question_text": "A software company performing a PEST analysis notes that new data privacy legislation will restrict how it may use customer data. Under which heading does this factor belong?",
+      "options": {
+        "A": "Economic factors",
+        "B": "Political (including legal and regulatory) factors",
+        "C": "Social factors",
+        "D": "Technological factors"
+      },
+      "correct": "B",
+      "explanation": "PEST analysis groups external macro-environmental factors into political, economic, social and technological categories. Government legislation and regulation fall under political (sometimes separately labelled legal) factors.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c02-q004",
+      "chapter": 2,
+      "topic": "Planning, Budgeting and Forecasting",
+      "question_text": "Which statement best describes scenario planning as a strategic planning tool?",
+      "options": {
+        "A": "It produces a single most-likely forecast that becomes the master budget",
+        "B": "It changes one input at a time to measure its effect on a planned outcome",
+        "C": "It sets budget targets by adjusting the previous year's actual results for inflation",
+        "D": "It develops several plausible pictures of the future environment and considers how the organization would respond under each"
+      },
+      "correct": "D",
+      "explanation": "Scenario planning builds a small number of internally consistent alternative futures and tests strategies against each, helping managers prepare contingency plans. Changing one variable at a time is sensitivity analysis, and adjusting prior results is incremental budgeting.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c02-q005",
+      "chapter": 2,
+      "topic": "Planning, Budgeting and Forecasting",
+      "question_text": "What is budgetary slack?",
+      "options": {
+        "A": "The difference between actual and budgeted results at the end of the period",
+        "B": "Unused production capacity included in the budget for unexpected orders",
+        "C": "The deliberate underestimation of revenues or overestimation of costs by managers so that budget targets are easier to achieve",
+        "D": "A contingency reserve approved by the board for unforeseen expenditure"
+      },
+      "correct": "C",
+      "explanation": "Budgetary slack (padding) arises when managers build cushions into their budgets, typically by understating revenue or overstating costs. It is most common in participative systems where performance is evaluated against the budget.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c02-q006",
+      "chapter": 2,
+      "topic": "Planning, Budgeting and Forecasting",
+      "question_text": "Which of the following is the most commonly cited disadvantage of participative (bottom-up) budgeting?",
+      "options": {
+        "A": "Lower-level managers feel less ownership of the budget",
+        "B": "Managers may build budgetary slack into the targets they help to set",
+        "C": "Budgets ignore the operational knowledge of front-line managers",
+        "D": "It always produces targets that are too difficult to achieve"
+      },
+      "correct": "B",
+      "explanation": "Participative budgeting improves ownership and uses local knowledge, but it is more time-consuming and gives managers the opportunity to pad their budgets. The other options describe disadvantages of an imposed (top-down) approach, or are simply untrue.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c02-q007",
+      "chapter": 2,
+      "topic": "Planning, Budgeting and Forecasting",
+      "question_text": "Which type of standard is generally considered most likely to motivate employees when used for budgeting and performance evaluation?",
+      "options": {
+        "A": "Currently attainable (practical) standards that allow for normal spoilage, downtime and rest periods",
+        "B": "Ideal standards that assume perfect operating conditions",
+        "C": "Historical standards equal to the average of the last three years' actual results",
+        "D": "Basic standards that are left unchanged for many years"
+      },
+      "correct": "A",
+      "explanation": "Attainable standards are challenging but achievable with efficient effort, which tends to motivate employees. Ideal standards are rarely met and can discourage staff; historical and basic standards may embed past inefficiency or become outdated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c02-q008",
+      "chapter": 2,
+      "topic": "Planning, Budgeting and Forecasting",
+      "question_text": "The first unit of a new specialized machine took 500 direct labor hours to assemble. Production follows an 80% cumulative average-time learning curve. How many hours in total should units 5 to 8 require?",
+      "options": {
+        "A": "2,048 hours",
+        "B": "768 hours",
+        "C": "1,024 hours",
+        "D": "1,280 hours"
+      },
+      "correct": "B",
+      "explanation": "With a cumulative average-time model, the average time falls to 80% each time cumulative output doubles. Average for 4 units = 500 x 0.8^2 = 320 hours, total 1,280. Average for 8 units = 500 x 0.8^3 = 256 hours, total 2,048. Units 5-8 = 2,048 - 1,280 = 768 hours.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p1-c02-q009",
+      "chapter": 2,
+      "topic": "Planning, Budgeting and Forecasting",
+      "question_text": "A product manager estimates next quarter's unit demand as follows:\n10,000 units: probability 0.3\n14,000 units: probability 0.5\n18,000 units: probability 0.2\n\nWhat is the expected demand?",
+      "options": {
+        "A": "14,000 units",
+        "B": "4,533 units",
+        "C": "18,000 units",
+        "D": "13,600 units"
+      },
+      "correct": "D",
+      "explanation": "Expected value = (10,000 x 0.3) + (14,000 x 0.5) + (18,000 x 0.2) = 3,000 + 7,000 + 3,600 = 13,600 units. The most likely outcome (14,000) and the simple average (14,000) ignore the probability weights.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c02-q010",
+      "chapter": 2,
+      "topic": "Planning, Budgeting and Forecasting",
+      "question_text": "A company's maintenance cost has been estimated by regression as: Cost = $12,500 + $3.40 x machine hours. What is the forecast maintenance cost for a month in which 8,000 machine hours are expected?",
+      "options": {
+        "A": "$39,700",
+        "B": "$27,200",
+        "C": "$12,500",
+        "D": "$52,200"
+      },
+      "correct": "A",
+      "explanation": "Forecast cost = fixed component + variable rate x activity = $12,500 + $3.40 x 8,000 = $12,500 + $27,200 = $39,700.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c02-q011",
+      "chapter": 2,
+      "topic": "Planning, Budgeting and Forecasting",
+      "question_text": "Utility costs at Orchard Foods were $61,500 in the month with the highest activity (9,000 machine hours) and $43,500 in the month with the lowest activity (5,000 machine hours). Using the high-low method, what are the expected utility costs at 7,500 machine hours?",
+      "options": {
+        "A": "$51,250",
+        "B": "$52,500",
+        "C": "$33,750",
+        "D": "$54,750"
+      },
+      "correct": "D",
+      "explanation": "Variable cost per hour = ($61,500 - $43,500) / (9,000 - 5,000) = $4.50. Fixed cost = $61,500 - $4.50 x 9,000 = $21,000. Cost at 7,500 hours = $21,000 + $4.50 x 7,500 = $54,750.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c02-q012",
+      "chapter": 2,
+      "topic": "Planning, Budgeting and Forecasting",
+      "question_text": "Budgeted sales for the next quarter are 24,000 units. Finished goods inventory at the start of the quarter is 3,000 units and management wants 4,500 units on hand at the end. How many units should be produced?",
+      "options": {
+        "A": "22,500 units",
+        "B": "24,000 units",
+        "C": "28,500 units",
+        "D": "25,500 units"
+      },
+      "correct": "D",
+      "explanation": "Required production = budgeted sales + desired ending inventory - beginning inventory = 24,000 + 4,500 - 3,000 = 25,500 units.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c02-q013",
+      "chapter": 2,
+      "topic": "Planning, Budgeting and Forecasting",
+      "question_text": "Production of 25,500 units is budgeted. Each unit requires 3 pounds of material costing $4 per pound. Materials inventory is expected to be 8,000 pounds at the beginning of the period, and the desired ending inventory is 9,500 pounds. What is the budgeted cost of materials purchases?",
+      "options": {
+        "A": "$306,000",
+        "B": "$312,000",
+        "C": "$300,000",
+        "D": "$108,000"
+      },
+      "correct": "B",
+      "explanation": "Materials needed for production = 25,500 x 3 = 76,500 lb. Purchases = 76,500 + 9,500 ending - 8,000 beginning = 78,000 lb. Cost = 78,000 x $4 = $312,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p1-c02-q014",
+      "chapter": 2,
+      "topic": "Planning, Budgeting and Forecasting",
+      "question_text": "A company plans to produce 25,500 units next quarter. Each unit requires 0.75 direct labor hours, and the wage rate is $28 per hour. What is the direct labor budget?",
+      "options": {
+        "A": "$504,000",
+        "B": "$714,000",
+        "C": "$535,500",
+        "D": "$669,375"
+      },
+      "correct": "C",
+      "explanation": "Direct labor hours = 25,500 units x 0.75 = 19,125 hours. Budget = 19,125 x $28 = $535,500. The budget is driven by production, not sales.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c02-q015",
+      "chapter": 2,
+      "topic": "Planning, Budgeting and Forecasting",
+      "question_text": "Credit sales are budgeted at $200,000 in January, $240,000 in February and $260,000 in March. Collections follow this pattern: 30% in the month of sale, 60% in the following month and 8% in the second month after sale; 2% is uncollectible. What are the budgeted cash collections in March?",
+      "options": {
+        "A": "$242,000",
+        "B": "$238,000",
+        "C": "$254,800",
+        "D": "$224,800"
+      },
+      "correct": "B",
+      "explanation": "March collections = 30% of March sales + 60% of February sales + 8% of January sales = $78,000 + $144,000 + $16,000 = $238,000. The 2% bad debts are never collected and must be excluded.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p1-c02-q016",
+      "chapter": 2,
+      "topic": "Planning, Budgeting and Forecasting",
+      "question_text": "A retailer pays for 40% of its merchandise purchases in the month of purchase and the remaining 60% in the following month. Purchases are $120,000 in February and $150,000 in March. What are budgeted cash payments for purchases in March?",
+      "options": {
+        "A": "$150,000",
+        "B": "$138,000",
+        "C": "$132,000",
+        "D": "$72,000"
+      },
+      "correct": "C",
+      "explanation": "March payments = 40% x $150,000 (March purchases) + 60% x $120,000 (February purchases) = $60,000 + $72,000 = $132,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c02-q017",
+      "chapter": 2,
+      "topic": "Planning, Budgeting and Forecasting",
+      "question_text": "A company's cash budget for April shows a beginning cash balance of $35,000, cash receipts of $238,000 and cash disbursements of $251,000. Policy is to maintain a minimum cash balance of $30,000, borrowing from a credit line in multiples of $5,000. How much should be borrowed in April?",
+      "options": {
+        "A": "$8,000",
+        "B": "$30,000",
+        "C": "$13,000",
+        "D": "$10,000"
+      },
+      "correct": "D",
+      "explanation": "Cash before financing = $35,000 + $238,000 - $251,000 = $22,000. The shortfall against the $30,000 minimum is $8,000. Rounding up to the next multiple of $5,000 gives borrowing of $10,000, leaving an ending balance of $32,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p1-c02-q018",
+      "chapter": 2,
+      "topic": "Planning, Budgeting and Forecasting",
+      "question_text": "A static budget prepared for 10,000 units shows total variable costs of $180,000 and fixed costs of $95,000. Actual output was 11,500 units. What is the total cost in the flexible budget for the actual output (assuming output is within the relevant range)?",
+      "options": {
+        "A": "$275,000",
+        "B": "$302,000",
+        "C": "$316,250",
+        "D": "$207,000"
+      },
+      "correct": "B",
+      "explanation": "Variable cost per unit = $180,000 / 10,000 = $18. Flexible budget = $18 x 11,500 + $95,000 fixed = $207,000 + $95,000 = $302,000. Fixed costs do not change within the relevant range.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c02-q019",
+      "chapter": 2,
+      "topic": "Planning, Budgeting and Forecasting",
+      "question_text": "Which budgeting approach requires every expenditure to be justified from a base of zero in each budget period, rather than starting from the prior year's amount?",
+      "options": {
+        "A": "Incremental budgeting",
+        "B": "Zero-based budgeting",
+        "C": "Continuous (rolling) budgeting",
+        "D": "Flexible budgeting"
+      },
+      "correct": "B",
+      "explanation": "Zero-based budgeting requires managers to justify each activity and its cost afresh, which helps eliminate wasteful spending. Incremental budgeting starts from last year's figures, rolling budgets add a new period as one ends, and flexible budgets adjust for activity levels.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c02-q020",
+      "chapter": 2,
+      "topic": "Planning, Budgeting and Forecasting",
+      "question_text": "A company always maintains a 12-month budget by adding a new month to the end of the budget as each month is completed. This is an example of:",
+      "options": {
+        "A": "A continuous (rolling) budget",
+        "B": "A zero-based budget",
+        "C": "A project budget",
+        "D": "A kaizen budget"
+      },
+      "correct": "A",
+      "explanation": "A continuous or rolling budget is updated by dropping the period just completed and adding a new future period, so the planning horizon always remains the same length.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c02-q021",
+      "chapter": 2,
+      "topic": "Planning, Budgeting and Forecasting",
+      "question_text": "Using activity-based budgeting, a plant plans to run 120 production batches next year. Each batch requires 2 machine setups, and each setup consumes resources costing $425. What is the budgeted cost of the setup activity?",
+      "options": {
+        "A": "$51,000",
+        "B": "$102,000",
+        "C": "$10,200",
+        "D": "$153,000"
+      },
+      "correct": "B",
+      "explanation": "Activity-based budgeting starts from the planned volume of the activity driver. Setups = 120 batches x 2 = 240 setups. Budgeted cost = 240 x $425 = $102,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c02-q022",
+      "chapter": 2,
+      "topic": "Planning, Budgeting and Forecasting",
+      "question_text": "Which budgeting approach explicitly builds expected continuous improvements, such as planned cost reductions each period, into the budget figures?",
+      "options": {
+        "A": "Incremental budgeting",
+        "B": "Authoritative budgeting",
+        "C": "Kaizen budgeting",
+        "D": "Static budgeting"
+      },
+      "correct": "C",
+      "explanation": "Kaizen budgeting incorporates expected continuous improvement into budget estimates, for example assuming that the cost per unit will fall by a set percentage each quarter. The other approaches do not specifically embed improvement targets.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c02-q023",
+      "chapter": 2,
+      "topic": "Planning, Budgeting and Forecasting",
+      "question_text": "A construction company has won a three-year contract to build a hospital. Which type of budget is most appropriate for planning and controlling the costs of this contract?",
+      "options": {
+        "A": "An annual master budget for the company as a whole",
+        "B": "A continuous budget with a rolling 12-month horizon",
+        "C": "A flexible budget based on the company's annual sales volume",
+        "D": "A project budget covering the entire life of the contract"
+      },
+      "correct": "D",
+      "explanation": "A project budget is prepared for a specific, one-off undertaking and spans the full life of the project, which may cross several fiscal years. The annual master budget covers the whole company for a single year and does not isolate the project.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c02-q024",
+      "chapter": 2,
+      "topic": "Planning, Budgeting and Forecasting",
+      "question_text": "A manufacturer budgets beginning finished goods inventory of $46,000, cost of goods manufactured of $820,000 and ending finished goods inventory of $52,000. What is budgeted cost of goods sold?",
+      "options": {
+        "A": "$826,000",
+        "B": "$820,000",
+        "C": "$918,000",
+        "D": "$814,000"
+      },
+      "correct": "D",
+      "explanation": "Budgeted COGS = beginning finished goods + cost of goods manufactured - ending finished goods = $46,000 + $820,000 - $52,000 = $814,000.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c02-q025",
+      "chapter": 2,
+      "topic": "Planning, Budgeting and Forecasting",
+      "question_text": "A pro forma income statement is being prepared. Budgeted sales are $2,400,000, cost of goods sold is 60% of sales, selling and administrative expenses (including depreciation) are $520,000, and interest expense is $40,000. The income tax rate is 25%. What is budgeted net income?",
+      "options": {
+        "A": "$400,000",
+        "B": "$300,000",
+        "C": "$330,000",
+        "D": "$100,000"
+      },
+      "correct": "B",
+      "explanation": "Gross profit = $2,400,000 x 40% = $960,000. Income before tax = $960,000 - $520,000 - $40,000 = $400,000. Net income = $400,000 x (1 - 25%) = $300,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c02-q026",
+      "chapter": 2,
+      "topic": "Planning, Budgeting and Forecasting",
+      "question_text": "Sales are forecast to rise from $5,000,000 to $6,000,000. Assets that vary with sales are 60% of sales and spontaneous liabilities are 15% of sales. The net profit margin is expected to be 8%, and 40% of net income will be paid as dividends. Using the percentage-of-sales method, how much external financing is needed?",
+      "options": {
+        "A": "$450,000",
+        "B": "$258,000",
+        "C": "$162,000",
+        "D": "$312,000"
+      },
+      "correct": "C",
+      "explanation": "Required increase in assets = 60% x $1,000,000 = $600,000. Spontaneous financing = 15% x $1,000,000 = $150,000. Retained earnings = 8% x $6,000,000 x (1 - 40%) = $288,000. External funds needed = $600,000 - $150,000 - $288,000 = $162,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p1-c02-q027",
+      "chapter": 2,
+      "topic": "Planning, Budgeting and Forecasting",
+      "question_text": "A financial planning model is used to show how budgeted operating income would change if the selling price fell by 5% while all other inputs stayed the same. This technique is known as:",
+      "options": {
+        "A": "Monte Carlo simulation",
+        "B": "Regression analysis",
+        "C": "Sensitivity (what-if) analysis",
+        "D": "Zero-based budgeting"
+      },
+      "correct": "C",
+      "explanation": "Sensitivity analysis changes one input at a time to see its effect on the outcome, helping managers identify the variables to which the plan is most sensitive. Monte Carlo simulation varies many inputs at once using probability distributions.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c02-q028",
+      "chapter": 2,
+      "topic": "Planning, Budgeting and Forecasting",
+      "question_text": "How do strategic plans typically differ from operational plans?",
+      "options": {
+        "A": "Strategic plans are prepared by front-line supervisors, while operational plans are set by the board",
+        "B": "Strategic plans cover a longer time horizon and set broad direction, while operational plans are short-term and detailed",
+        "C": "Strategic plans are expressed only in financial terms, while operational plans are non-financial",
+        "D": "Strategic plans are revised monthly, while operational plans are fixed for several years"
+      },
+      "correct": "B",
+      "explanation": "Strategic planning is a long-term, top-level activity concerned with the organization's overall direction and resource allocation. Operational planning translates the strategy into detailed short-term plans and budgets, usually covering a year or less.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c02-q029",
+      "chapter": 2,
+      "topic": "Planning, Budgeting and Forecasting",
+      "question_text": "Within a master budget, which of the following is part of the financial budget rather than the operating budget?",
+      "options": {
+        "A": "The production budget",
+        "B": "The direct labor budget",
+        "C": "The selling and administrative expense budget",
+        "D": "The cash budget"
+      },
+      "correct": "D",
+      "explanation": "The financial budget comprises the capital expenditure budget, the cash budget and the budgeted balance sheet and statement of cash flows. The production, labor and selling and administrative budgets are operating budgets that lead to the budgeted income statement.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c02-q030",
+      "chapter": 2,
+      "topic": "Planning, Budgeting and Forecasting",
+      "question_text": "A budgeting and performance evaluation system is said to achieve goal congruence when:",
+      "options": {
+        "A": "Every department receives an identical percentage increase in its budget",
+        "B": "Managers pursuing their own objectives are also led to act in the best interests of the organization as a whole",
+        "C": "Actual results exactly match budgeted results",
+        "D": "Budgets are imposed by senior management without consultation"
+      },
+      "correct": "B",
+      "explanation": "Goal congruence exists when individual and departmental goals align with organizational goals, so that self-interested decisions also benefit the company. Equal increases, perfect accuracy and imposed budgets do not guarantee this alignment.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c03-q001",
+      "chapter": 3,
+      "topic": "Performance Management",
+      "question_text": "The static budget variance for operating income can be split into which two components?",
+      "options": {
+        "A": "A price variance and a mix variance",
+        "B": "A spending variance and a production volume variance",
+        "C": "A flexible budget variance and a sales volume variance",
+        "D": "A rate variance and an efficiency variance"
+      },
+      "correct": "C",
+      "explanation": "The static budget variance compares actual results with the original budget. It splits into the sales volume variance (flexible budget minus static budget, caused by selling a different quantity) and the flexible budget variance (actual minus flexible budget, caused by prices, costs and efficiency).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c03-q002",
+      "chapter": 3,
+      "topic": "Performance Management",
+      "question_text": "A company budgeted to sell 20,000 units with a standard contribution margin of $14 per unit. It actually sold 22,000 units. What is the sales volume variance in terms of contribution margin?",
+      "options": {
+        "A": "$28,000 unfavorable",
+        "B": "$90,000 favorable",
+        "C": "$62,000 favorable",
+        "D": "$28,000 favorable"
+      },
+      "correct": "D",
+      "explanation": "Sales volume variance = (actual units - budgeted units) x budgeted contribution margin per unit = (22,000 - 20,000) x $14 = $28,000 favorable, because more units were sold than planned.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c03-q003",
+      "chapter": 3,
+      "topic": "Performance Management",
+      "question_text": "A company sold 22,000 units at an actual price of $47 per unit. The budgeted selling price was $45. What is the sales price variance?",
+      "options": {
+        "A": "$44,000 favorable",
+        "B": "$40,000 favorable",
+        "C": "$44,000 unfavorable",
+        "D": "$4,000 favorable"
+      },
+      "correct": "A",
+      "explanation": "Sales price variance = (actual price - budgeted price) x actual units sold = ($47 - $45) x 22,000 = $44,000 favorable.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c03-q004",
+      "chapter": 3,
+      "topic": "Performance Management",
+      "question_text": "Budgeted sales were 6,000 units of Product X (contribution margin $20 per unit) and 4,000 units of Product Y (contribution margin $35 per unit). Actual sales were 7,700 units of X and 3,300 units of Y. What is the sales mix variance?",
+      "options": {
+        "A": "$16,500 unfavorable",
+        "B": "$16,500 favorable",
+        "C": "$26,000 favorable",
+        "D": "$9,500 favorable"
+      },
+      "correct": "A",
+      "explanation": "Budgeted mix is 60% X / 40% Y; actual total units = 11,000, with an actual mix of 70% X / 30% Y. Mix variance = sum of (actual mix % - budgeted mix %) x actual total units x budgeted CM per unit. X: (70% - 60%) x 11,000 x $20 = $22,000 F. Y: (30% - 40%) x 11,000 x $35 = $38,500 U. Net = $16,500 unfavorable, because the mix shifted toward the lower-margin product. (The sales quantity variance would be 1,000 x $26 = $26,000 favorable.)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p1-c03-q005",
+      "chapter": 3,
+      "topic": "Performance Management",
+      "question_text": "Brightline Co. purchased 50,000 pounds of material for $3.12 per pound. The standard price is $3.00 per pound, and the company isolates the price variance at the time of purchase. What is the direct materials price variance?",
+      "options": {
+        "A": "$6,000 unfavorable",
+        "B": "$6,000 favorable",
+        "C": "$5,820 unfavorable",
+        "D": "$5,640 unfavorable"
+      },
+      "correct": "A",
+      "explanation": "Price variance = (actual price - standard price) x actual quantity purchased = ($3.12 - $3.00) x 50,000 = $6,000 unfavorable. Because the variance is isolated at purchase, the quantity purchased (not the quantity used) is the base.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c03-q006",
+      "chapter": 3,
+      "topic": "Performance Management",
+      "question_text": "To produce 23,500 units, a factory used 48,500 pounds of material. The standard is 2 pounds per unit at $3.00 per pound. What is the direct materials efficiency (usage) variance?",
+      "options": {
+        "A": "$4,500 favorable",
+        "B": "$4,680 unfavorable",
+        "C": "$9,000 unfavorable",
+        "D": "$4,500 unfavorable"
+      },
+      "correct": "D",
+      "explanation": "Standard quantity allowed = 23,500 x 2 = 47,000 pounds. Efficiency variance = (actual quantity - standard quantity) x standard price = (48,500 - 47,000) x $3.00 = $4,500 unfavorable.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c03-q007",
+      "chapter": 3,
+      "topic": "Performance Management",
+      "question_text": "Direct labor for the month was 12,400 hours at a total cost of $327,360. The standard wage rate is $26 per hour. What is the direct labor rate variance?",
+      "options": {
+        "A": "$4,960 favorable",
+        "B": "$5,000 unfavorable",
+        "C": "$4,960 unfavorable",
+        "D": "$2,360 favorable"
+      },
+      "correct": "C",
+      "explanation": "Actual rate = $327,360 / 12,400 = $26.40. Rate variance = (actual rate - standard rate) x actual hours = ($26.40 - $26.00) x 12,400 = $4,960 unfavorable. Equivalently, $327,360 - 12,400 x $26 = $4,960.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c03-q008",
+      "chapter": 3,
+      "topic": "Performance Management",
+      "question_text": "A plant produced 25,000 units, each with a standard of 0.5 direct labor hours at $26 per hour. Actual hours worked were 12,400, at an actual rate of $26.40. What is the direct labor efficiency variance?",
+      "options": {
+        "A": "$2,600 unfavorable",
+        "B": "$2,640 favorable",
+        "C": "$2,640 unfavorable",
+        "D": "$2,600 favorable"
+      },
+      "correct": "D",
+      "explanation": "Standard hours allowed = 25,000 x 0.5 = 12,500. Efficiency variance = (actual hours - standard hours) x standard rate = (12,400 - 12,500) x $26 = $2,600 favorable, because fewer hours were used than allowed. The standard rate, not the actual rate, is used.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c03-q009",
+      "chapter": 3,
+      "topic": "Performance Management",
+      "question_text": "A chemical is made by blending two inputs. The standard mix for a 100 kg input batch is 60 kg of Input A at $2.00 per kg and 40 kg of Input B at $5.00 per kg. In June the company used 6,000 kg of A and 4,500 kg of B. What is the direct materials mix variance?",
+      "options": {
+        "A": "$900 unfavorable",
+        "B": "$900 favorable",
+        "C": "$1,500 unfavorable",
+        "D": "$600 favorable"
+      },
+      "correct": "A",
+      "explanation": "Total input = 10,500 kg. At the standard mix it would have been 6,300 kg of A and 4,200 kg of B. Mix variance = (actual - standard mix quantity) x standard price: A (6,000 - 6,300) x $2 = $600 F; B (4,500 - 4,200) x $5 = $1,500 U. Net mix variance = $900 unfavorable, because more of the expensive input was used.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p1-c03-q010",
+      "chapter": 3,
+      "topic": "Performance Management",
+      "question_text": "Variable overhead is applied at $4.80 per direct labor hour. Actual variable overhead was $61,200, actual hours were 12,400 and standard hours allowed for actual output were 12,500. What is the variable overhead spending variance?",
+      "options": {
+        "A": "$1,680 unfavorable",
+        "B": "$1,200 unfavorable",
+        "C": "$1,680 favorable",
+        "D": "$480 favorable"
+      },
+      "correct": "A",
+      "explanation": "Spending variance = actual variable overhead - (actual hours x standard rate) = $61,200 - (12,400 x $4.80) = $61,200 - $59,520 = $1,680 unfavorable.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c03-q011",
+      "chapter": 3,
+      "topic": "Performance Management",
+      "question_text": "Using the same data (variable overhead rate $4.80 per direct labor hour, actual hours 12,400, standard hours allowed 12,500), what is the variable overhead efficiency variance?",
+      "options": {
+        "A": "$480 favorable",
+        "B": "$480 unfavorable",
+        "C": "$1,680 unfavorable",
+        "D": "$1,200 unfavorable"
+      },
+      "correct": "A",
+      "explanation": "Efficiency variance = (actual hours - standard hours allowed) x standard rate = (12,400 - 12,500) x $4.80 = $480 favorable. It arises from efficient use of the allocation base (labor hours), not from overhead spending itself.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c03-q012",
+      "chapter": 3,
+      "topic": "Performance Management",
+      "question_text": "Budgeted fixed manufacturing overhead was $150,000 and actual fixed manufacturing overhead was $156,000. What is the fixed overhead spending (budget) variance?",
+      "options": {
+        "A": "$6,000 unfavorable",
+        "B": "$6,000 favorable",
+        "C": "$250 favorable",
+        "D": "$6,250 favorable"
+      },
+      "correct": "A",
+      "explanation": "Fixed overhead spending variance = actual fixed overhead - budgeted fixed overhead = $156,000 - $150,000 = $6,000 unfavorable. It is unaffected by the level of output.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c03-q013",
+      "chapter": 3,
+      "topic": "Performance Management",
+      "question_text": "Budgeted fixed manufacturing overhead is $150,000, based on a denominator level of 12,000 direct labor hours. Standard hours allowed for actual output were 12,500, and actual hours worked were 12,400. What is the production volume variance?",
+      "options": {
+        "A": "$6,250 favorable",
+        "B": "$6,250 unfavorable",
+        "C": "$5,000 favorable",
+        "D": "$250 unfavorable"
+      },
+      "correct": "A",
+      "explanation": "Fixed overhead rate = $150,000 / 12,000 = $12.50 per hour. Applied fixed overhead = 12,500 standard hours x $12.50 = $156,250. Production volume variance = applied - budgeted = $156,250 - $150,000 = $6,250 favorable, because output exceeded the denominator level. Actual hours are not used.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p1-c03-q014",
+      "chapter": 3,
+      "topic": "Performance Management",
+      "question_text": "Which statement about the fixed overhead production volume variance is correct?",
+      "options": {
+        "A": "It measures how efficiently direct labor hours were used during the period",
+        "B": "It is the difference between actual and budgeted fixed overhead",
+        "C": "It is controllable by the purchasing manager",
+        "D": "It reflects the difference between the denominator level and actual output, and does not indicate whether fixed costs were over- or under-spent"
+      },
+      "correct": "D",
+      "explanation": "The production volume variance arises because fixed overhead is applied per unit. It measures capacity utilization relative to the denominator level, not spending or efficiency, and is often considered beyond the control of an individual department manager.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c03-q015",
+      "chapter": 3,
+      "topic": "Performance Management",
+      "question_text": "The manager of a division is responsible for its revenues and costs and also has authority over the investment in assets used by the division. This division is best described as:",
+      "options": {
+        "A": "A cost center",
+        "B": "A revenue center",
+        "C": "An investment center",
+        "D": "A profit center"
+      },
+      "correct": "C",
+      "explanation": "An investment center manager controls revenues, costs and invested capital, so performance is typically measured using ROI, residual income or EVA. A profit center manager controls revenues and costs but not the investment base.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c03-q016",
+      "chapter": 3,
+      "topic": "Performance Management",
+      "question_text": "Applying the controllability principle, which item should be excluded when evaluating the performance of a production department supervisor?",
+      "options": {
+        "A": "An allocation of corporate headquarters administration costs",
+        "B": "Overtime premiums paid to the department's workers",
+        "C": "Materials scrapped through operator error",
+        "D": "Supplies used in the department"
+      },
+      "correct": "A",
+      "explanation": "The controllability principle says managers should be evaluated only on items they can significantly influence. Corporate headquarters costs allocated to the department are outside the supervisor's control, while overtime, scrap and supplies are directly influenced by the supervisor.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c03-q017",
+      "chapter": 3,
+      "topic": "Performance Management",
+      "question_text": "The Eastern segment of a company reports sales of $900,000, variable costs of $540,000, traceable fixed costs of $210,000 and an allocation of common corporate costs of $80,000. What is the segment margin used to evaluate the segment's contribution to company profit?",
+      "options": {
+        "A": "$360,000",
+        "B": "$70,000",
+        "C": "$150,000",
+        "D": "$280,000"
+      },
+      "correct": "C",
+      "explanation": "Contribution margin = $900,000 - $540,000 = $360,000. Segment margin = contribution margin - traceable fixed costs = $360,000 - $210,000 = $150,000. Common costs are not deducted because they would continue even if the segment were eliminated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c03-q018",
+      "chapter": 3,
+      "topic": "Performance Management",
+      "question_text": "The Motor Division makes a component with variable cost of $32 per unit and allocated fixed cost of $9 per unit. It sells the component externally for $50. The division has substantial idle capacity. What is the minimum transfer price it should accept for internal sales to another division?",
+      "options": {
+        "A": "$50",
+        "B": "$41",
+        "C": "$18",
+        "D": "$32"
+      },
+      "correct": "D",
+      "explanation": "Minimum transfer price = incremental (variable) cost per unit + opportunity cost per unit. With idle capacity, no external sales are given up, so the opportunity cost is zero and the minimum is $32. Allocated fixed costs are not incremental.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c03-q019",
+      "chapter": 3,
+      "topic": "Performance Management",
+      "question_text": "The Motor Division sells its component externally for $50, with variable cost of $32 per unit, including $3 of variable selling costs that are avoided on internal transfers. The division is operating at full capacity and could sell everything it produces externally. What is the minimum acceptable transfer price?",
+      "options": {
+        "A": "$50",
+        "B": "$29",
+        "C": "$47",
+        "D": "$32"
+      },
+      "correct": "C",
+      "explanation": "Minimum transfer price = variable cost of an internal sale + contribution given up on the lost external sale. Variable cost of an internal unit = $32 - $3 = $29. Opportunity cost = $50 - $32 = $18. Minimum = $29 + $18 = $47, i.e. the market price less the avoided selling costs.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p1-c03-q020",
+      "chapter": 3,
+      "topic": "Performance Management",
+      "question_text": "When a multinational company sets transfer prices between subsidiaries in different countries, tax authorities generally require that the prices:",
+      "options": {
+        "A": "Equal the selling division's full absorption cost in every case",
+        "B": "Follow the arm's-length principle, approximating prices that unrelated parties would agree",
+        "C": "Be set to shift as much profit as possible into the lowest-tax jurisdiction",
+        "D": "Be negotiated freely by divisional managers without documentation"
+      },
+      "correct": "B",
+      "explanation": "Tax authorities in most jurisdictions apply the arm's-length principle to intercompany transactions to prevent profit shifting. Companies must document their transfer pricing methods, and deliberately moving profit to low-tax countries through non-arm's-length prices can lead to adjustments and penalties.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c03-q021",
+      "chapter": 3,
+      "topic": "Performance Management",
+      "question_text": "A division reports operating income of $360,000, sales of $3,000,000 and average invested capital of $2,400,000. What is its return on investment, and how does it split into margin and turnover?",
+      "options": {
+        "A": "ROI 12%: profit margin 15% x asset turnover 0.80",
+        "B": "ROI 15%: profit margin 1.25% x asset turnover 12",
+        "C": "ROI 18%: profit margin 12% x asset turnover 1.50",
+        "D": "ROI 15%: profit margin 12% x asset turnover 1.25"
+      },
+      "correct": "D",
+      "explanation": "ROI = $360,000 / $2,400,000 = 15%. Profit margin = $360,000 / $3,000,000 = 12%. Asset turnover = $3,000,000 / $2,400,000 = 1.25 times. Check: 12% x 1.25 = 15% (the DuPont relationship).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c03-q022",
+      "chapter": 3,
+      "topic": "Performance Management",
+      "question_text": "A division has operating income of $360,000 and average invested capital of $2,400,000. The company's required rate of return is 11%. What is the division's residual income?",
+      "options": {
+        "A": "$264,000",
+        "B": "$30,000",
+        "C": "$96,000",
+        "D": "$320,400"
+      },
+      "correct": "C",
+      "explanation": "Residual income = operating income - (required rate x invested capital) = $360,000 - (11% x $2,400,000) = $360,000 - $264,000 = $96,000.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c03-q023",
+      "chapter": 3,
+      "topic": "Performance Management",
+      "question_text": "A division currently earns an ROI of 18%. Its manager is considering a project expected to earn 15% on its investment. The company's cost of capital is 12%. If the manager is evaluated on ROI, what is the likely outcome?",
+      "options": {
+        "A": "The manager will accept the project because it increases the division's ROI",
+        "B": "The manager will reject the project, which is the correct decision for the company",
+        "C": "The manager will be indifferent because the project's return exceeds the cost of capital",
+        "D": "The manager will probably reject the project, although it would increase the division's residual income"
+      },
+      "correct": "D",
+      "explanation": "Adding a 15% project to an 18% division lowers average ROI, so an ROI-evaluated manager is tempted to reject it. Because 15% exceeds the 12% cost of capital, the project has positive residual income and adds value, so rejecting it is not goal congruent. This is a key weakness of ROI compared with residual income.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p1-c03-q024",
+      "chapter": 3,
+      "topic": "Performance Management",
+      "question_text": "A division measures invested capital at net book value. If operating income and all other factors stay constant, what happens to the division's ROI as its assets age?",
+      "options": {
+        "A": "ROI rises over time because the denominator falls as accumulated depreciation increases",
+        "B": "ROI falls over time because depreciation reduces operating income each year",
+        "C": "ROI is unaffected because book value does not change",
+        "D": "ROI rises only if the assets are revalued to replacement cost"
+      },
+      "correct": "A",
+      "explanation": "Using net book value, the investment base shrinks as assets are depreciated, so ROI increases even though performance has not improved. This can discourage managers from replacing old equipment, which is a known drawback of net book value as the investment base.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c03-q025",
+      "chapter": 3,
+      "topic": "Performance Management",
+      "question_text": "A business unit has operating income (EBIT) of $1,200,000 and a tax rate of 25%. Its total assets are $8,000,000 and current liabilities are $1,500,000. The weighted average cost of capital is 10%. What is economic value added (EVA)?",
+      "options": {
+        "A": "$250,000",
+        "B": "$550,000",
+        "C": "$100,000",
+        "D": "$900,000"
+      },
+      "correct": "A",
+      "explanation": "NOPAT = $1,200,000 x (1 - 25%) = $900,000. Invested capital = total assets - current liabilities = $8,000,000 - $1,500,000 = $6,500,000. Capital charge = 10% x $6,500,000 = $650,000. EVA = $900,000 - $650,000 = $250,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p1-c03-q026",
+      "chapter": 3,
+      "topic": "Performance Management",
+      "question_text": "In a balanced scorecard, the measure 'average training hours per employee' would normally be placed in which perspective?",
+      "options": {
+        "A": "Learning and growth",
+        "B": "Financial",
+        "C": "Customer",
+        "D": "Internal business process"
+      },
+      "correct": "A",
+      "explanation": "The learning and growth perspective covers the people, systems and culture needed to support improvement, such as employee skills, training and information system capabilities. The other three perspectives are financial, customer and internal business process.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c03-q027",
+      "chapter": 3,
+      "topic": "Performance Management",
+      "question_text": "What is the main purpose of a strategy map in a balanced scorecard system?",
+      "options": {
+        "A": "To show the cause-and-effect links between objectives across the scorecard perspectives",
+        "B": "To list the financial ratios that are reported to shareholders",
+        "C": "To allocate overhead costs to strategic business units",
+        "D": "To rank divisions by their return on investment"
+      },
+      "correct": "A",
+      "explanation": "A strategy map visually links objectives, typically showing how learning and growth enables better internal processes, which improve customer outcomes and ultimately financial results. This helps managers see how non-financial measures drive financial performance.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c03-q028",
+      "chapter": 3,
+      "topic": "Performance Management",
+      "question_text": "Which of the following is best described as a leading indicator of future financial performance?",
+      "options": {
+        "A": "Last quarter's return on investment",
+        "B": "Annual earnings per share",
+        "C": "The percentage of customers rating the company's service as excellent",
+        "D": "Prior-year operating income"
+      },
+      "correct": "C",
+      "explanation": "Leading indicators are drivers that predict future outcomes; customer satisfaction often signals future repeat sales and revenue. ROI, EPS and operating income are lagging indicators that report the results of past actions.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c03-q029",
+      "chapter": 3,
+      "topic": "Performance Management",
+      "question_text": "A distributor uses activity-based customer profitability analysis. For Customer K: revenue $180,000; cost of goods sold $108,000; 120 orders processed at $95 per order; 60 rush deliveries at $310 per delivery. What is the operating profit earned from Customer K?",
+      "options": {
+        "A": "$42,000",
+        "B": "$72,000",
+        "C": "$60,600",
+        "D": "$53,400"
+      },
+      "correct": "A",
+      "explanation": "Gross margin = $180,000 - $108,000 = $72,000. Order processing = 120 x $95 = $11,400. Rush deliveries = 60 x $310 = $18,600. Customer operating profit = $72,000 - $11,400 - $18,600 = $42,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p1-c03-q030",
+      "chapter": 3,
+      "topic": "Performance Management",
+      "question_text": "Under management by exception, which items in a performance report should receive the most management attention?",
+      "options": {
+        "A": "Every line item, regardless of size",
+        "B": "Only unfavorable variances, however small",
+        "C": "Significant deviations from budget or standard, whether favorable or unfavorable",
+        "D": "Items that exactly match the budget"
+      },
+      "correct": "C",
+      "explanation": "Management by exception focuses attention on significant variances, both favorable and unfavorable, because these indicate where plans and actual results diverge. Investigating every small variance is not cost-effective.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c04-q001",
+      "chapter": 4,
+      "topic": "Cost Management",
+      "question_text": "In its first year, a company produced 50,000 units and sold 46,000 units. Fixed manufacturing overhead was $600,000; there were no variances. How will operating income under absorption costing compare with operating income under variable costing?",
+      "options": {
+        "A": "Absorption costing income will be $48,000 higher",
+        "B": "Absorption costing income will be $48,000 lower",
+        "C": "Absorption costing income will be $52,174 higher",
+        "D": "The two methods will report the same income"
+      },
+      "correct": "A",
+      "explanation": "Fixed overhead per unit = $600,000 / 50,000 = $12. Inventory increased by 4,000 units, and absorption costing defers $12 of fixed overhead in each of them. Difference = 4,000 x $12 = $48,000; absorption income is higher when production exceeds sales.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c04-q002",
+      "chapter": 4,
+      "topic": "Cost Management",
+      "question_text": "Per-unit costs for a product are: direct materials $14, direct labor $9, variable manufacturing overhead $5, fixed manufacturing overhead $7 and variable selling expense $3. What is the inventoriable cost per unit under variable costing?",
+      "options": {
+        "A": "$28",
+        "B": "$35",
+        "C": "$31",
+        "D": "$23"
+      },
+      "correct": "A",
+      "explanation": "Variable (direct) costing inventories only variable manufacturing costs: $14 + $9 + $5 = $28. Fixed manufacturing overhead is a period cost, and variable selling expenses are never inventoried.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c04-q003",
+      "chapter": 4,
+      "topic": "Cost Management",
+      "question_text": "Which cost is treated as a product cost under absorption costing but as a period cost under variable costing?",
+      "options": {
+        "A": "Variable manufacturing overhead",
+        "B": "Direct materials",
+        "C": "Fixed manufacturing overhead",
+        "D": "Fixed selling and administrative expenses"
+      },
+      "correct": "C",
+      "explanation": "The only difference between the two methods is the treatment of fixed manufacturing overhead, which absorption costing assigns to units and variable costing expenses in the period incurred. Direct materials and variable overhead are product costs under both, and selling and administrative costs are period costs under both.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c04-q004",
+      "chapter": 4,
+      "topic": "Cost Management",
+      "question_text": "Westbury Ltd. sells a product for $80. Variable production cost is $36 per unit and variable selling cost is $4 per unit. Fixed manufacturing overhead is $360,000 per year, applied on normal output of 30,000 units, and fixed selling and administrative costs are $150,000. There was no beginning inventory; 30,000 units were produced and 27,000 were sold. What is operating income under absorption costing?",
+      "options": {
+        "A": "$570,000",
+        "B": "$714,000",
+        "C": "$534,000",
+        "D": "$606,000"
+      },
+      "correct": "D",
+      "explanation": "Fixed overhead rate = $360,000 / 30,000 = $12; absorption cost per unit = $36 + $12 = $48. Gross margin = 27,000 x ($80 - $48) = $864,000. Less variable selling $108,000 and fixed S&A $150,000 = $606,000. Variable costing income would be $570,000; the $36,000 difference is the fixed overhead in the 3,000 units of ending inventory.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p1-c04-q005",
+      "chapter": 4,
+      "topic": "Cost Management",
+      "question_text": "A joint process costing $240,000 yields 8,000 units of Product P, with a sales value at split-off of $30 per unit, and 12,000 units of Product Q, with a sales value at split-off of $10 per unit. Using the sales value at split-off method, how much joint cost is allocated to Product P?",
+      "options": {
+        "A": "$96,000",
+        "B": "$120,000",
+        "C": "$160,000",
+        "D": "$80,000"
+      },
+      "correct": "C",
+      "explanation": "Sales value at split-off: P = 8,000 x $30 = $240,000; Q = 12,000 x $10 = $120,000; total $360,000. P's share = $240,000 / $360,000 = 2/3, so P is allocated $240,000 x 2/3 = $160,000. The physical units method would give $96,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c04-q006",
+      "chapter": 4,
+      "topic": "Cost Management",
+      "question_text": "Joint costs of $300,000 produce two products that must be processed further before sale:\nProduct R: 10,000 units, final selling price $45, separable processing costs $90,000\nProduct S: 20,000 units, final selling price $18, separable processing costs $60,000\n\nUsing the net realizable value method, how much joint cost is allocated to Product R (to the nearest dollar)?",
+      "options": {
+        "A": "$166,667",
+        "B": "$100,000",
+        "C": "$150,000",
+        "D": "$163,636"
+      },
+      "correct": "D",
+      "explanation": "NRV of R = 10,000 x $45 - $90,000 = $360,000. NRV of S = 20,000 x $18 - $60,000 = $300,000. Total NRV = $660,000. Allocation to R = $300,000 x $360,000 / $660,000 = $163,636 (rounded). Using final sales values without deducting separable costs would give $166,667.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p1-c04-q007",
+      "chapter": 4,
+      "topic": "Cost Management",
+      "question_text": "A joint product can be sold at split-off for $12 per unit, or processed further at an additional cost of $5 per unit and sold for $16. Its allocated share of joint costs is $7 per unit. What should the company do?",
+      "options": {
+        "A": "Process further, because the final price of $16 exceeds the split-off price of $12",
+        "B": "Sell at split-off, because further processing would reduce profit by $1 per unit",
+        "C": "Process further, because the final price of $16 exceeds the total cost of $7 + $5",
+        "D": "Stop producing the product, because allocated joint costs make it unprofitable"
+      },
+      "correct": "B",
+      "explanation": "Joint costs are sunk at the split-off point and irrelevant to the decision. Incremental revenue from processing = $16 - $12 = $4, while incremental cost = $5. Processing further reduces profit by $1 per unit, so the product should be sold at split-off.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c04-q008",
+      "chapter": 4,
+      "topic": "Cost Management",
+      "question_text": "Under the commonly used net realizable value approach to by-products, how is the NRV of a by-product recognized at the time of production?",
+      "options": {
+        "A": "It is allocated a share of joint costs in proportion to its sales value",
+        "B": "It is added to the cost of the main products",
+        "C": "It is recorded as a reduction of selling and administrative expenses",
+        "D": "It is deducted from the joint costs before those costs are allocated to the main products"
+      },
+      "correct": "D",
+      "explanation": "By-products have relatively low sales value. Under the production (NRV) method, the by-product's net realizable value is recorded as inventory and subtracted from joint production costs, so only the remaining joint cost is allocated to the main products.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c04-q009",
+      "chapter": 4,
+      "topic": "Cost Management",
+      "question_text": "Which capacity level, when used as the denominator for setting a fixed overhead rate, best highlights the cost of unused capacity that management could otherwise deploy?",
+      "options": {
+        "A": "Normal capacity utilization",
+        "B": "Practical capacity",
+        "C": "Master-budget capacity utilization",
+        "D": "Actual capacity utilization for the period"
+      },
+      "correct": "B",
+      "explanation": "Practical capacity is the maximum output achievable allowing for unavoidable interruptions such as maintenance. Using it as the denominator keeps product costs from being inflated by idle capacity and makes the cost of unused capacity visible. Normal and budgeted utilization spread the cost of idle capacity over the units produced.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c04-q010",
+      "chapter": 4,
+      "topic": "Cost Management",
+      "question_text": "A process had 4,000 units in beginning work in process, 60% complete for conversion costs. During the period 34,000 units were completed and transferred out, and ending work in process was 6,000 units, 40% complete for conversion. Using the FIFO method, what are the equivalent units for conversion costs?",
+      "options": {
+        "A": "36,400 units",
+        "B": "34,000 units",
+        "C": "31,600 units",
+        "D": "40,000 units"
+      },
+      "correct": "B",
+      "explanation": "FIFO counts only the work done this period: finish beginning WIP 4,000 x 40% = 1,600; units started and completed 34,000 - 4,000 = 30,000; ending WIP 6,000 x 40% = 2,400. Total = 34,000. The weighted-average method would give 34,000 + 2,400 = 36,400.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p1-c04-q011",
+      "chapter": 4,
+      "topic": "Cost Management",
+      "question_text": "Using the weighted-average method, equivalent units for conversion are 36,400. Conversion costs in beginning work in process were $21,600 and conversion costs incurred this period were $342,400. What is the conversion cost per equivalent unit?",
+      "options": {
+        "A": "$9.41",
+        "B": "$10.00",
+        "C": "$10.07",
+        "D": "$10.71"
+      },
+      "correct": "B",
+      "explanation": "The weighted-average method combines beginning WIP costs with current costs: ($21,600 + $342,400) / 36,400 = $364,000 / 36,400 = $10.00 per equivalent unit.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p1-c04-q012",
+      "chapter": 4,
+      "topic": "Cost Management",
+      "question_text": "A job-order shop applies overhead using a predetermined rate based on budgeted overhead of $1,440,000 and 48,000 budgeted machine hours. Actual machine hours were 50,500 and actual overhead was $1,492,000. What is the over- or under-applied overhead?",
+      "options": {
+        "A": "$23,000 underapplied",
+        "B": "$52,000 underapplied",
+        "C": "$23,000 overapplied",
+        "D": "$75,000 overapplied"
+      },
+      "correct": "C",
+      "explanation": "Predetermined rate = $1,440,000 / 48,000 = $30 per machine hour. Applied overhead = 50,500 x $30 = $1,515,000. Applied exceeds actual ($1,492,000) by $23,000, so overhead is overapplied.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c04-q013",
+      "chapter": 4,
+      "topic": "Cost Management",
+      "question_text": "A plant uses activity-based costing with two overhead pools: machine setups ($180,000, 300 setups) and quality inspections ($96,000, 1,200 inspections). Product Z required 40 setups and 150 inspections to produce 2,000 units. What overhead cost per unit is assigned to Product Z?",
+      "options": {
+        "A": "$12.00",
+        "B": "$17.48",
+        "C": "$18.00",
+        "D": "$36.00"
+      },
+      "correct": "C",
+      "explanation": "Activity rates: setups $180,000 / 300 = $600 per setup; inspections $96,000 / 1,200 = $80 per inspection. Overhead for Z = 40 x $600 + 150 x $80 = $24,000 + $12,000 = $36,000. Per unit = $36,000 / 2,000 = $18.00.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p1-c04-q014",
+      "chapter": 4,
+      "topic": "Cost Management",
+      "question_text": "In an activity-based costing cost hierarchy, machine setup costs that are incurred each time a group of units is produced are classified as:",
+      "options": {
+        "A": "Unit-level costs",
+        "B": "Product-sustaining costs",
+        "C": "Facility-sustaining costs",
+        "D": "Batch-level costs"
+      },
+      "correct": "D",
+      "explanation": "Batch-level costs vary with the number of batches rather than the number of units; setups, purchase orders and material moves are typical examples. Unit-level costs vary with each unit, product-sustaining costs support a product line, and facility-sustaining costs support the operation as a whole.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c04-q015",
+      "chapter": 4,
+      "topic": "Cost Management",
+      "question_text": "A company has two support departments, Maintenance (costs $120,000) and IT (costs $80,000), and two production departments, P1 and P2. Maintenance provides 20% of its services to IT, 50% to P1 and 30% to P2. IT provides 10% of its services to Maintenance, 36% to P1 and 54% to P2. Using the step-down method and allocating Maintenance first, what total support cost is allocated to P1?",
+      "options": {
+        "A": "$101,600",
+        "B": "$107,000",
+        "C": "$97,440",
+        "D": "$92,000"
+      },
+      "correct": "A",
+      "explanation": "Maintenance: $120,000 allocated 20% to IT ($24,000), 50% to P1 ($60,000) and 30% to P2. IT now has $80,000 + $24,000 = $104,000. Under step-down, no cost goes back to Maintenance, so IT is allocated to P1 and P2 in the ratio 36:54, giving P1 $104,000 x 36/90 = $41,600. Total to P1 = $60,000 + $41,600 = $101,600.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p1-c04-q016",
+      "chapter": 4,
+      "topic": "Cost Management",
+      "question_text": "Which support department cost allocation method fully recognizes services that support departments provide to each other in both directions?",
+      "options": {
+        "A": "The reciprocal method",
+        "B": "The direct method",
+        "C": "The step-down (sequential) method",
+        "D": "The single-rate method"
+      },
+      "correct": "A",
+      "explanation": "The reciprocal method uses simultaneous equations so that every support department's services to every other support department are reflected. The direct method ignores all inter-support services, and the step-down method recognizes them only in one direction.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c04-q017",
+      "chapter": 4,
+      "topic": "Cost Management",
+      "question_text": "Under a cost of quality framework, the cost of repairing products returned by customers under warranty is classified as:",
+      "options": {
+        "A": "An internal failure cost",
+        "B": "An appraisal cost",
+        "C": "A prevention cost",
+        "D": "An external failure cost"
+      },
+      "correct": "D",
+      "explanation": "External failure costs arise after defective products reach the customer, including warranty repairs, returns and lost goodwill. Internal failure costs (such as scrap and rework) are found before shipment, appraisal costs relate to inspection, and prevention costs are incurred to stop defects occurring.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c04-q018",
+      "chapter": 4,
+      "topic": "Cost Management",
+      "question_text": "A manufacturer's quality-related costs for the year include: rework $42,000; scrap $18,000; final inspection $25,000; warranty claims $31,000; design reviews $12,000. What are total internal failure costs?",
+      "options": {
+        "A": "$85,000",
+        "B": "$91,000",
+        "C": "$60,000",
+        "D": "$42,000"
+      },
+      "correct": "C",
+      "explanation": "Internal failure costs are those incurred when defects are detected before shipment: rework $42,000 + scrap $18,000 = $60,000. Inspection is an appraisal cost, warranty claims are external failure costs and design reviews are prevention costs.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c04-q019",
+      "chapter": 4,
+      "topic": "Cost Management",
+      "question_text": "A plant applies the theory of constraints. A single machine is the bottleneck. Data per unit:\nAlpha: price $120, direct materials $50, bottleneck time 5 minutes\nBeta: price $90, direct materials $30, bottleneck time 3 minutes\nGamma: price $150, direct materials $60, bottleneck time 8 minutes\n\nAll other costs are fixed in the short run. To maximize throughput, which product should receive priority on the bottleneck?",
+      "options": {
+        "A": "Gamma, with the highest throughput contribution of $90 per unit",
+        "B": "Beta, with throughput contribution of $20.00 per bottleneck minute",
+        "C": "Alpha, with throughput contribution of $14.00 per bottleneck minute",
+        "D": "Gamma, with the highest selling price of $150 per unit"
+      },
+      "correct": "B",
+      "explanation": "Under the theory of constraints, throughput contribution = selling price - direct materials, and products are ranked by throughput per unit of the constrained resource. Alpha: ($120 - $50) / 5 = $14.00 per minute; Beta: ($90 - $30) / 3 = $20.00 per minute; Gamma: ($150 - $60) / 8 = $11.25 per minute. Beta earns the most per bottleneck minute, so it should be prioritized.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p1-c04-q020",
+      "chapter": 4,
+      "topic": "Cost Management",
+      "question_text": "Which statement best describes a just-in-time (JIT) production system?",
+      "options": {
+        "A": "Large safety stocks are held at every stage to protect against supplier delays",
+        "B": "Production is pushed through the plant according to a long-range forecast",
+        "C": "Production is pulled by customer demand, with materials arriving as needed and inventories kept to a minimum",
+        "D": "Products are made in large batches to minimize the number of setups"
+      },
+      "correct": "C",
+      "explanation": "JIT is a demand-pull system that aims to eliminate waste, including excess inventory, by producing and receiving materials only as they are needed. It relies on reliable suppliers, short setup times and high quality.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c04-q021",
+      "chapter": 4,
+      "topic": "Cost Management",
+      "question_text": "In a Six Sigma improvement project, what do the letters of the DMAIC methodology stand for?",
+      "options": {
+        "A": "Define, Measure, Analyze, Improve, Control",
+        "B": "Design, Monitor, Audit, Implement, Communicate",
+        "C": "Define, Model, Allocate, Inspect, Correct",
+        "D": "Detect, Measure, Assess, Integrate, Confirm"
+      },
+      "correct": "A",
+      "explanation": "DMAIC is the structured problem-solving cycle used in Six Sigma for improving existing processes: define the problem, measure current performance, analyze root causes, improve the process and control it to sustain the gains.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c04-q022",
+      "chapter": 4,
+      "topic": "Cost Management",
+      "question_text": "Which statement best describes life-cycle costing?",
+      "options": {
+        "A": "It accumulates all costs of a product from research and design through production, marketing and after-sale support",
+        "B": "It includes only the manufacturing costs incurred while a product is in production",
+        "C": "It allocates fixed overhead to products based on direct labor hours",
+        "D": "It is used only for products with a life of less than one year"
+      },
+      "correct": "A",
+      "explanation": "Life-cycle costing tracks costs over the whole life of a product, including upstream costs (research, design) and downstream costs (marketing, distribution, customer service). Because many costs are committed at the design stage, it helps managers focus cost reduction early.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c05-q001",
+      "chapter": 5,
+      "topic": "Internal Controls",
+      "question_text": "Which of the following is NOT one of the five components of internal control in the COSO Internal Control - Integrated Framework (2013)?",
+      "options": {
+        "A": "Objective setting",
+        "B": "Control environment",
+        "C": "Monitoring activities",
+        "D": "Information and communication"
+      },
+      "correct": "A",
+      "explanation": "The five COSO internal control components are control environment, risk assessment, control activities, information and communication, and monitoring activities. Objective setting is a component of the earlier COSO enterprise risk management framework, not of the internal control framework.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c05-q002",
+      "chapter": 5,
+      "topic": "Internal Controls",
+      "question_text": "Management's integrity, ethical values and 'tone at the top' are part of which COSO internal control component?",
+      "options": {
+        "A": "Risk assessment",
+        "B": "Control environment",
+        "C": "Control activities",
+        "D": "Monitoring activities"
+      },
+      "correct": "B",
+      "explanation": "The control environment is the foundation of internal control and includes the organization's commitment to integrity and ethical values, board oversight, organizational structure, commitment to competence and accountability.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c05-q003",
+      "chapter": 5,
+      "topic": "Internal Controls",
+      "question_text": "Which combination of duties for a single employee represents the most serious weakness in segregation of duties?",
+      "options": {
+        "A": "Preparing sales invoices and filing copies of shipping documents",
+        "B": "Opening mail and stamping cheques 'for deposit only'",
+        "C": "Receiving customer cash payments and posting entries to the accounts receivable ledger",
+        "D": "Reconciling the bank statement and reviewing the payroll register for unusual items"
+      },
+      "correct": "C",
+      "explanation": "Effective segregation separates authorization, custody of assets and recording. An employee who both handles cash and records receivables could steal receipts and conceal the theft by altering customer accounts (lapping or false credits).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c05-q004",
+      "chapter": 5,
+      "topic": "Internal Controls",
+      "question_text": "A monthly bank reconciliation prepared by an employee who has no access to cash is an example of which type of control?",
+      "options": {
+        "A": "A preventive control",
+        "B": "A directive control",
+        "C": "A detective control",
+        "D": "A compensating application control"
+      },
+      "correct": "C",
+      "explanation": "Detective controls identify errors or irregularities after they have occurred; a bank reconciliation highlights unrecorded or unauthorized transactions after the fact. Preventive controls, such as authorization limits and passwords, aim to stop problems occurring in the first place.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c05-q005",
+      "chapter": 5,
+      "topic": "Internal Controls",
+      "question_text": "Why can an internal control system provide only reasonable, rather than absolute, assurance that objectives will be achieved?",
+      "options": {
+        "A": "External auditors are not permitted to test internal controls",
+        "B": "Controls can be circumvented by collusion or management override, and their cost must be weighed against their benefits",
+        "C": "Internal controls apply only to financial reporting objectives",
+        "D": "COSO prohibits controls that cost more than 1% of revenue"
+      },
+      "correct": "B",
+      "explanation": "Inherent limitations include human error and faulty judgment, collusion among employees, management override and the need to balance the cost of a control against its expected benefit. These limitations mean no system can guarantee that objectives will be met.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c05-q006",
+      "chapter": 5,
+      "topic": "Internal Controls",
+      "question_text": "Under Section 404 of the Sarbanes-Oxley Act, management of a public company must:",
+      "options": {
+        "A": "Rotate the external audit firm every five years",
+        "B": "Certify that the company has no deficiencies in internal control of any kind",
+        "C": "Obtain shareholder approval for the design of internal controls",
+        "D": "Include in the annual report an assessment of the effectiveness of internal control over financial reporting"
+      },
+      "correct": "D",
+      "explanation": "Section 404 requires management to report on the effectiveness of internal control over financial reporting, and for accelerated filers the external auditor must attest to that assessment. SOX requires rotation of the lead audit partner, not of the audit firm.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c05-q007",
+      "chapter": 5,
+      "topic": "Internal Controls",
+      "question_text": "Under Section 302 of the Sarbanes-Oxley Act, who must certify each periodic report filed with the SEC, including statements about disclosure controls?",
+      "options": {
+        "A": "The audit committee chair and the external audit partner",
+        "B": "The head of internal audit and the company secretary",
+        "C": "All members of the board of directors",
+        "D": "The principal executive officer and the principal financial officer"
+      },
+      "correct": "D",
+      "explanation": "Section 302 requires the CEO and CFO (or equivalents) to certify that the report does not contain material misstatements or omissions, that the financial statements fairly present the company's condition, and that they are responsible for disclosure controls and procedures.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c05-q008",
+      "chapter": 5,
+      "topic": "Internal Controls",
+      "question_text": "Under the Sarbanes-Oxley Act, which body of a listed company is directly responsible for appointing, compensating and overseeing the external auditor?",
+      "options": {
+        "A": "The chief financial officer",
+        "B": "The internal audit department",
+        "C": "The company's shareholders at each annual meeting",
+        "D": "The audit committee, composed of independent directors"
+      },
+      "correct": "D",
+      "explanation": "SOX Section 301 makes the audit committee directly responsible for the appointment, compensation and oversight of the external auditor, and requires its members to be independent. This reduces management's ability to influence the auditor.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c05-q009",
+      "chapter": 5,
+      "topic": "Internal Controls",
+      "question_text": "When auditing internal control over financial reporting, the PCAOB requires a top-down, risk-based approach. Where does this approach begin?",
+      "options": {
+        "A": "With detailed testing of every transaction-level control in every location",
+        "B": "At the financial statement level, with an understanding of overall risks and entity-level controls",
+        "C": "With the controls that are cheapest to test",
+        "D": "With controls over non-financial operating objectives"
+      },
+      "correct": "B",
+      "explanation": "The top-down approach starts at the financial statement level, considers entity-level controls, then moves to significant accounts, disclosures and relevant assertions, and finally selects the controls that address the risk of material misstatement. This focuses effort where risk is greatest.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p1-c05-q010",
+      "chapter": 5,
+      "topic": "Internal Controls",
+      "question_text": "In addition to its anti-bribery provisions, the Foreign Corrupt Practices Act (FCPA) requires SEC registrants to:",
+      "options": {
+        "A": "Obtain an external audit of all foreign subsidiaries every quarter",
+        "B": "Disclose every payment made to foreign suppliers in the annual report",
+        "C": "Keep books and records that accurately reflect transactions and maintain a system of internal accounting controls",
+        "D": "Appoint a compliance officer approved by the Department of Justice"
+      },
+      "correct": "C",
+      "explanation": "The FCPA's accounting provisions require issuers to make and keep books, records and accounts that accurately and fairly reflect transactions, and to devise and maintain a sufficient system of internal accounting controls. These apply to all SEC registrants, not only those operating abroad.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c05-q011",
+      "chapter": 5,
+      "topic": "Internal Controls",
+      "question_text": "An internal audit engagement evaluates whether the purchasing department uses its resources efficiently and achieves its objectives effectively. This is best described as:",
+      "options": {
+        "A": "A compliance audit",
+        "B": "An operational audit",
+        "C": "A financial statement audit",
+        "D": "A forensic audit"
+      },
+      "correct": "B",
+      "explanation": "Operational audits assess the efficiency and effectiveness of an organization's activities and recommend improvements. Compliance audits test adherence to laws, regulations or policies, and financial statement audits express an opinion on fair presentation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c05-q012",
+      "chapter": 5,
+      "topic": "Internal Controls",
+      "question_text": "Under PCAOB standards, a material weakness in internal control over financial reporting is a deficiency, or combination of deficiencies, such that:",
+      "options": {
+        "A": "A material misstatement has definitely occurred and been corrected by the auditor",
+        "B": "Any misstatement, however small, could go undetected",
+        "C": "Management has failed to document a control in writing",
+        "D": "There is a reasonable possibility that a material misstatement of the financial statements will not be prevented, or detected and corrected, on a timely basis"
+      },
+      "correct": "D",
+      "explanation": "A material weakness exists when there is a reasonable possibility of a material misstatement not being prevented or detected and corrected in a timely manner. A significant deficiency is less severe but still important enough to merit the attention of those responsible for oversight.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p1-c05-q013",
+      "chapter": 5,
+      "topic": "Internal Controls",
+      "question_text": "How does a significant deficiency in internal control over financial reporting differ from a material weakness?",
+      "options": {
+        "A": "It is more severe than a material weakness and must be reported to the SEC within four days",
+        "B": "It is less severe than a material weakness, yet important enough to merit the attention of those responsible for oversight of financial reporting",
+        "C": "It relates only to IT controls, whereas material weaknesses relate to manual controls",
+        "D": "It always results in an adverse audit opinion on the financial statements"
+      },
+      "correct": "B",
+      "explanation": "Deficiencies are graded by severity: control deficiency, significant deficiency and material weakness. A significant deficiency should be communicated to the audit committee, but only a material weakness prevents management from concluding that ICFR is effective.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c05-q014",
+      "chapter": 5,
+      "topic": "Internal Controls",
+      "question_text": "Which of the following is a general (IT general) control rather than an application control?",
+      "options": {
+        "A": "A check that a customer number entered on a sales order exists in the customer master file",
+        "B": "Procedures requiring authorization and testing before changes to programs are moved into production",
+        "C": "Calculation of a batch total for invoices entered into the payables system",
+        "D": "A report listing payroll transactions rejected by the system"
+      },
+      "correct": "B",
+      "explanation": "General controls apply to the whole IT environment, covering program change management, access security, data center operations and system development. Validity checks, batch totals and error reports are application controls that operate within a specific application.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c05-q015",
+      "chapter": 5,
+      "topic": "Internal Controls",
+      "question_text": "A payroll system automatically rejects any time card that reports more than 70 hours worked in a week. This input control is best described as:",
+      "options": {
+        "A": "A check digit",
+        "B": "A sequence check",
+        "C": "A limit (reasonableness) check",
+        "D": "A completeness check"
+      },
+      "correct": "C",
+      "explanation": "A limit or reasonableness check compares an input value with a predetermined boundary and rejects or flags values outside it. A check digit verifies the accuracy of an identification number, a sequence check tests ordering, and a completeness check ensures all required fields are entered.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c05-q016",
+      "chapter": 5,
+      "topic": "Internal Controls",
+      "question_text": "Before a batch of time cards is processed, a clerk adds up the employee identification numbers on the cards, and the system recalculates the same total after input. What is this total called?",
+      "options": {
+        "A": "A hash total",
+        "B": "A financial total",
+        "C": "A record count",
+        "D": "A check digit"
+      },
+      "correct": "A",
+      "explanation": "A hash total is a sum of a field, such as employee or account numbers, that has no meaning in itself but helps detect lost, added or altered records. A financial total sums a meaningful amount field, and a record count simply counts the documents.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c05-q017",
+      "chapter": 5,
+      "topic": "Internal Controls",
+      "question_text": "For disaster recovery, a company arranges access to an alternative facility that is fully equipped with compatible hardware, software and up-to-date data, so processing can resume within hours. This is known as:",
+      "options": {
+        "A": "A hot site",
+        "B": "A cold site",
+        "C": "A warm backup tape rotation",
+        "D": "A mirrored workstation"
+      },
+      "correct": "A",
+      "explanation": "A hot site is a fully configured facility ready for almost immediate use. A cold site provides space, power and connections but no installed equipment, so recovery takes much longer. The choice depends on how quickly operations must be restored and on cost.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c05-q018",
+      "chapter": 5,
+      "topic": "Internal Controls",
+      "question_text": "Under a grandfather-father-son backup arrangement, what is retained?",
+      "options": {
+        "A": "Only the most recent backup, overwritten each day",
+        "B": "Several successive generations of backup files, so that earlier versions can be used to recreate current data if the latest backup is damaged",
+        "C": "A single printed copy of all transactions",
+        "D": "Backups of program files only, with no data files"
+      },
+      "correct": "B",
+      "explanation": "Grandfather-father-son retains three generations of master files and transaction data. If the latest (son) file is corrupted, the father file can be updated with subsequent transactions to recreate it, and the grandfather provides a further layer of protection.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c05-q019",
+      "chapter": 5,
+      "topic": "Internal Controls",
+      "question_text": "Using public-key (asymmetric) encryption, a sender wants to ensure that only the intended recipient can read a confidential message. Which key should the sender use to encrypt it?",
+      "options": {
+        "A": "The sender's private key",
+        "B": "The recipient's public key",
+        "C": "The sender's public key",
+        "D": "The recipient's private key"
+      },
+      "correct": "B",
+      "explanation": "With asymmetric encryption, a message encrypted with the recipient's public key can only be decrypted with the recipient's private key, which only the recipient holds. Encrypting with the sender's private key creates a digital signature that proves origin but does not provide confidentiality.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c05-q020",
+      "chapter": 5,
+      "topic": "Internal Controls",
+      "question_text": "What is the primary function of a firewall in a company's network security?",
+      "options": {
+        "A": "To make backup copies of data files",
+        "B": "To encrypt all data stored on hard drives",
+        "C": "To detect errors in input data",
+        "D": "To monitor and filter traffic between networks, blocking unauthorized access according to defined rules"
+      },
+      "correct": "D",
+      "explanation": "A firewall sits between a trusted internal network and untrusted external networks, such as the internet, and allows or blocks traffic based on security rules. Backup, storage encryption and input validation are separate controls.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c05-q021",
+      "chapter": 5,
+      "topic": "Internal Controls",
+      "question_text": "Before a batch of 85 sales invoices is entered, a clerk records the number of documents. After input, the system reports that 84 records were processed. Which control has identified the problem?",
+      "options": {
+        "A": "A record count",
+        "B": "A field (format) check",
+        "C": "A limit check",
+        "D": "A hash total of customer numbers"
+      },
+      "correct": "A",
+      "explanation": "A record count compares the number of documents in a batch with the number of records processed, so it detects lost or duplicated items. A hash total would also flag a missing record, but the control described here counts documents rather than summing a field.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c05-q022",
+      "chapter": 5,
+      "topic": "Internal Controls",
+      "question_text": "In a small company, the mail is opened by a receptionist who prepares a list of all cheques received. Which additional procedure would most strengthen control over cash receipts?",
+      "options": {
+        "A": "Sending the list to a person independent of cash handling and record-keeping, who compares it with the bank deposit slip and the receivables postings",
+        "B": "Asking the receptionist to post the receipts to customer accounts as well",
+        "C": "Having the cashier who deposits the cheques prepare a second list from the deposit slip",
+        "D": "Holding cheques in the office for a week so that deposits can be made less often"
+      },
+      "correct": "A",
+      "explanation": "An independent comparison of the original remittance list with the deposit and the accounting records provides a detective control over cash receipts. Giving the receptionist recording duties combines custody and recording, a list prepared by the cashier is not independent, and delaying deposits increases the risk of loss.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p1-c05-q023",
+      "chapter": 5,
+      "topic": "Internal Controls",
+      "question_text": "Under the COSO 2013 framework, considering the potential for fraud when assessing risks to the achievement of objectives is a principle within which component?",
+      "options": {
+        "A": "Control environment",
+        "B": "Control activities",
+        "C": "Monitoring activities",
+        "D": "Risk assessment"
+      },
+      "correct": "D",
+      "explanation": "Principle 8 of the 2013 COSO framework, within the risk assessment component, states that the organization considers the potential for fraud, including incentives, opportunities and rationalizations, when assessing risks to the achievement of objectives.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c06-q001",
+      "chapter": 6,
+      "topic": "Technology and Analytics",
+      "question_text": "What is the defining characteristic of an enterprise resource planning (ERP) system?",
+      "options": {
+        "A": "It is a stand-alone general ledger package used only by the accounting department",
+        "B": "It is a spreadsheet model used for one-off capital budgeting decisions",
+        "C": "It integrates business processes such as finance, purchasing, production and sales around a single shared database",
+        "D": "It replaces the need for internal controls over transaction processing"
+      },
+      "correct": "C",
+      "explanation": "An ERP system links the main functional areas of a business through a common database, so data entered once is available across the organization. This reduces duplication and inconsistency, but ERP systems still require strong internal controls.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c06-q002",
+      "chapter": 6,
+      "topic": "Technology and Analytics",
+      "question_text": "Which activity belongs to the expenditure (purchase-to-pay) cycle rather than the revenue cycle?",
+      "options": {
+        "A": "Checking customer credit before approving a sales order",
+        "B": "Receiving goods from suppliers and matching receiving reports to purchase orders",
+        "C": "Shipping goods to customers",
+        "D": "Recording customer remittances"
+      },
+      "correct": "B",
+      "explanation": "The expenditure cycle covers requisitioning, purchasing, receiving, approving supplier invoices and paying suppliers. Credit approval, shipping and recording customer receipts are all part of the revenue (order-to-cash) cycle.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c06-q003",
+      "chapter": 6,
+      "topic": "Technology and Analytics",
+      "question_text": "What is the main purpose of enterprise performance management (EPM) software?",
+      "options": {
+        "A": "To support planning, budgeting, forecasting, consolidation and performance reporting across the organization",
+        "B": "To process day-to-day sales and purchase transactions",
+        "C": "To manage network security and user passwords",
+        "D": "To replace the external audit of financial statements"
+      },
+      "correct": "A",
+      "explanation": "EPM (also called corporate performance management) systems sit on top of transactional systems and help management plan, budget, forecast, consolidate results, model scenarios and monitor performance against strategy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c06-q004",
+      "chapter": 6,
+      "topic": "Technology and Analytics",
+      "question_text": "In the systems development life cycle (SDLC), during which phase are user requirements gathered and the current system studied in detail?",
+      "options": {
+        "A": "Systems implementation",
+        "B": "Systems maintenance",
+        "C": "Post-implementation review",
+        "D": "Systems analysis"
+      },
+      "correct": "D",
+      "explanation": "In the systems analysis phase, analysts study the existing system and define user requirements for the new one. Design follows, then development and testing, implementation (including conversion and training), and ongoing operation and maintenance.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c06-q005",
+      "chapter": 6,
+      "topic": "Technology and Analytics",
+      "question_text": "Which task is the best candidate for robotic process automation (RPA)?",
+      "options": {
+        "A": "Deciding whether to enter a new geographic market",
+        "B": "Copying data from standardized supplier invoices into the payables system using fixed rules",
+        "C": "Negotiating a new labor agreement with a union",
+        "D": "Assessing the reasonableness of management's goodwill impairment judgments"
+      },
+      "correct": "B",
+      "explanation": "RPA software bots mimic human actions in repetitive, high-volume, rule-based tasks with structured digital inputs. Strategic decisions, negotiations and complex judgments require human reasoning and are not suitable for RPA.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c06-q006",
+      "chapter": 6,
+      "topic": "Technology and Analytics",
+      "question_text": "A company subscribes to a web-based accounting application that the provider hosts, maintains and upgrades; users simply log in through a browser. Which cloud service model is this?",
+      "options": {
+        "A": "Infrastructure as a service (IaaS)",
+        "B": "Platform as a service (PaaS)",
+        "C": "Software as a service (SaaS)",
+        "D": "On-premises licensed software"
+      },
+      "correct": "C",
+      "explanation": "With SaaS, the provider delivers a complete application over the internet and manages the underlying infrastructure and software. IaaS provides only computing resources such as servers and storage, and PaaS provides a platform on which customers build and run their own applications.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c06-q007",
+      "chapter": 6,
+      "topic": "Technology and Analytics",
+      "question_text": "Which feature of blockchain technology is most relevant to the reliability of accounting records?",
+      "options": {
+        "A": "A single central administrator can edit any past transaction at will",
+        "B": "Transactions are recorded on a distributed ledger, and once validated, blocks are extremely difficult to alter without detection",
+        "C": "Transactions are stored only on the company's own server",
+        "D": "Blockchain eliminates the need to verify the existence of the underlying assets"
+      },
+      "correct": "B",
+      "explanation": "Blockchain maintains a shared, distributed ledger in which each block is cryptographically linked to the previous one, making recorded transactions effectively immutable. However, it does not guarantee that the underlying transaction was valid or that the assets exist.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c06-q008",
+      "chapter": 6,
+      "topic": "Technology and Analytics",
+      "question_text": "An employee receives an email that appears to come from the company's bank, asking her to click a link and confirm her login credentials. This is an example of:",
+      "options": {
+        "A": "A denial-of-service attack",
+        "B": "Data mining",
+        "C": "A brute-force password attack",
+        "D": "Phishing"
+      },
+      "correct": "D",
+      "explanation": "Phishing uses fraudulent messages that impersonate trusted organizations to trick users into revealing credentials or other sensitive information. A denial-of-service attack floods a system with traffic, and brute-force attacks try many passwords.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c06-q009",
+      "chapter": 6,
+      "topic": "Technology and Analytics",
+      "question_text": "Malicious software encrypts a company's files and the attackers demand payment in cryptocurrency for the decryption key. Which control is most important in limiting the damage from this type of attack?",
+      "options": {
+        "A": "Regular, tested backups stored separately from the production network",
+        "B": "Increasing the internet bandwidth available to the company",
+        "C": "Moving all files to employees' personal laptops",
+        "D": "Disabling the company's firewall to speed up recovery"
+      },
+      "correct": "A",
+      "explanation": "This is a ransomware attack. Secure, isolated and regularly tested backups allow the company to restore its data without paying the ransom. Prevention also relies on patching, user training and endpoint protection.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c06-q010",
+      "chapter": 6,
+      "topic": "Technology and Analytics",
+      "question_text": "Within a data governance program, who is typically responsible for defining and maintaining the quality, definitions and appropriate use of a particular set of business data?",
+      "options": {
+        "A": "The external auditor",
+        "B": "A data steward",
+        "C": "The network administrator",
+        "D": "Every user who enters data"
+      },
+      "correct": "B",
+      "explanation": "Data stewards are accountable for specific data domains: they set definitions and quality standards, resolve data issues and ensure the data is used appropriately. Data governance assigns these responsibilities formally, alongside policies covering the data life cycle from capture to purging.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c06-q011",
+      "chapter": 6,
+      "topic": "Technology and Analytics",
+      "question_text": "In the context of big data, the characteristic 'velocity' refers to:",
+      "options": {
+        "A": "The sheer amount of data stored",
+        "B": "The speed at which data is generated and must be processed",
+        "C": "The variety of formats in which data arrives",
+        "D": "The accuracy and trustworthiness of the data"
+      },
+      "correct": "B",
+      "explanation": "The common Vs of big data are volume (amount), velocity (speed of generation and processing), variety (structured, semi-structured and unstructured formats) and veracity (reliability).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c06-q012",
+      "chapter": 6,
+      "topic": "Technology and Analytics",
+      "question_text": "Which type of analytics recommends a course of action, for example by optimizing the delivery schedule that minimizes cost?",
+      "options": {
+        "A": "Prescriptive analytics",
+        "B": "Descriptive analytics",
+        "C": "Diagnostic analytics",
+        "D": "Predictive analytics"
+      },
+      "correct": "A",
+      "explanation": "Descriptive analytics reports what happened, diagnostic analytics explains why, predictive analytics forecasts what is likely to happen, and prescriptive analytics recommends what should be done, often using optimization or simulation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c06-q013",
+      "chapter": 6,
+      "topic": "Technology and Analytics",
+      "question_text": "An analyst drills down into sales data to determine why revenue in the western region fell last quarter. This is an example of:",
+      "options": {
+        "A": "Diagnostic analytics",
+        "B": "Prescriptive analytics",
+        "C": "Predictive analytics",
+        "D": "Descriptive analytics only"
+      },
+      "correct": "A",
+      "explanation": "Diagnostic analytics investigates the causes of past outcomes, using techniques such as drill-down, data discovery and correlation analysis. Simply reporting that revenue fell would be descriptive analytics.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c06-q014",
+      "chapter": 6,
+      "topic": "Technology and Analytics",
+      "question_text": "Which of the following is the best example of unstructured data?",
+      "options": {
+        "A": "A table of invoice numbers, dates and amounts",
+        "B": "General ledger account balances",
+        "C": "Text of customer reviews posted on social media",
+        "D": "A list of employee IDs and pay rates"
+      },
+      "correct": "C",
+      "explanation": "Unstructured data does not fit a predefined data model or row-and-column format; examples include free text, emails, images and video. Invoice tables, ledger balances and payroll lists are structured data.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c06-q015",
+      "chapter": 6,
+      "topic": "Technology and Analytics",
+      "question_text": "A regression of monthly utility cost on machine hours has a coefficient of determination (R-squared) of 0.81. What does this indicate?",
+      "options": {
+        "A": "Utility cost increases by $0.81 for each additional machine hour",
+        "B": "There is an 81% probability that the regression equation is correct",
+        "C": "81% of the variation in utility cost is explained by variation in machine hours",
+        "D": "The correlation coefficient between the variables is 0.81"
+      },
+      "correct": "C",
+      "explanation": "R-squared measures the proportion of the variation in the dependent variable explained by the independent variable. It is not the slope, not a probability, and the correlation coefficient would be the square root, 0.9 (if the relationship is positive).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c06-q016",
+      "chapter": 6,
+      "topic": "Technology and Analytics",
+      "question_text": "For a regression model, the total sum of squares is 50,000 and the sum of squared errors (residual sum of squares) is 8,000. What is the coefficient of determination?",
+      "options": {
+        "A": "0.84",
+        "B": "0.16",
+        "C": "0.92",
+        "D": "0.86"
+      },
+      "correct": "A",
+      "explanation": "R-squared = 1 - SSE / SST = 1 - 8,000 / 50,000 = 1 - 0.16 = 0.84. So 84% of the variation in the dependent variable is explained by the model. 0.16 is the unexplained proportion, and 0.92 would be the correlation coefficient.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p1-c06-q017",
+      "chapter": 6,
+      "topic": "Technology and Analytics",
+      "question_text": "In a regression of delivery cost on miles driven, the slope coefficient is 3.6 and its standard error is 1.2. Using the common rule of thumb, what can be concluded?",
+      "options": {
+        "A": "The t-statistic is 0.33, so miles driven is not statistically significant",
+        "B": "The t-statistic is 4.32, so miles driven explains 43% of delivery cost",
+        "C": "The t-statistic is 3.0, which exceeds 2, so miles driven is a statistically significant explanatory variable",
+        "D": "The t-statistic is 2.4, so the intercept should be removed from the model"
+      },
+      "correct": "C",
+      "explanation": "The t-statistic = coefficient / standard error = 3.6 / 1.2 = 3.0. A t-value greater than about 2 indicates that the coefficient is significantly different from zero at roughly the 95% confidence level, so the independent variable has explanatory power.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p1-c06-q018",
+      "chapter": 6,
+      "topic": "Technology and Analytics",
+      "question_text": "A cost estimation equation was derived from data on production between 2,000 and 6,000 units per month. Why should managers be cautious about using it to predict costs at 12,000 units?",
+      "options": {
+        "A": "Regression equations can only be used for historical data, never for forecasts",
+        "B": "The intercept automatically becomes negative above the observed range",
+        "C": "The prediction lies outside the relevant range, where the cost relationship may not hold",
+        "D": "R-squared always falls to zero outside the observed data"
+      },
+      "correct": "C",
+      "explanation": "Regression results are reliable only within the relevant range of the data used to estimate them. Extrapolating far beyond that range is risky because fixed costs may step up and variable cost rates may change, for example through overtime or capacity constraints.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c06-q019",
+      "chapter": 6,
+      "topic": "Technology and Analytics",
+      "question_text": "What distinguishes Monte Carlo simulation from simple sensitivity analysis?",
+      "options": {
+        "A": "It changes one input at a time while holding all others constant",
+        "B": "It repeatedly draws random values for several uncertain inputs from probability distributions to produce a distribution of possible outcomes",
+        "C": "It uses only the single most likely value for each input",
+        "D": "It finds the line of best fit between two variables"
+      },
+      "correct": "B",
+      "explanation": "Monte Carlo simulation runs many trials, each using randomly generated values for the uncertain variables based on their probability distributions. The result is a range of outcomes with associated probabilities, rather than a single point estimate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c06-q020",
+      "chapter": 6,
+      "topic": "Technology and Analytics",
+      "question_text": "An analyst wants to show whether there is a relationship between monthly advertising spend and monthly sales revenue across 36 months. Which visualization is most appropriate?",
+      "options": {
+        "A": "A pie chart",
+        "B": "A stacked bar chart of sales by product",
+        "C": "A single gauge (dial) chart",
+        "D": "A scatter plot"
+      },
+      "correct": "D",
+      "explanation": "A scatter plot shows each observation as a point plotted against two variables, making correlation, clusters and outliers easy to see. Pie charts show composition of a whole, and gauges display a single measure against a target.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p1-c06-q021",
+      "chapter": 6,
+      "topic": "Technology and Analytics",
+      "question_text": "A retailer wants to group its customers into segments based on purchasing behavior, without any predefined labels for the groups. Which data mining technique is most suitable?",
+      "options": {
+        "A": "Clustering",
+        "B": "Linear regression",
+        "C": "Classification using a labeled training set",
+        "D": "Time-series smoothing"
+      },
+      "correct": "A",
+      "explanation": "Clustering is an unsupervised learning technique that groups observations by similarity without predefined categories. Classification is supervised and requires labeled examples, and regression predicts a continuous outcome.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p1-c06-q022",
+      "chapter": 6,
+      "topic": "Technology and Analytics",
+      "question_text": "A company uses exponential smoothing with a smoothing constant (alpha) of 0.3. The forecast for May was 500 units and actual May demand was 540 units. What is the forecast for June?",
+      "options": {
+        "A": "528 units",
+        "B": "520 units",
+        "C": "162 units",
+        "D": "512 units"
+      },
+      "correct": "D",
+      "explanation": "New forecast = previous forecast + alpha x (actual - previous forecast) = 500 + 0.3 x (540 - 500) = 500 + 12 = 512 units. Equivalently, 0.3 x 540 + 0.7 x 500.",
+      "difficulty": "medium"
+    }
+  ]
+}

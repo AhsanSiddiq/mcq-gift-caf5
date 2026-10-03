@@ -313,7 +313,7 @@ export const caInterSubjects: Subject[] = [
     level: "CA-INTER",
     body: "icai",
     description: "Standards on Auditing, CARO, audit reports and the Code of Ethics — Paper 5 MCQ practice.",
-    isAvailable: false,
+    isAvailable: true,
   },
   {
     id: "ca-inter-fmsm",

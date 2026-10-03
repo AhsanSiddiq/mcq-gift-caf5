@@ -1,0 +1,1955 @@
+{
+  "subject_id": "ca-inter-cma",
+  "questions": [
+    {
+      "id": "ca-inter-cma-c01-q001",
+      "chapter": 1,
+      "topic": "Introduction to Cost and Management Accounting",
+      "question_text": "Which of the following is the most appropriate cost unit for a brick manufacturing unit?",
+      "options": {
+        "A": "Per tonne-kilometre",
+        "B": "Per kilowatt-hour",
+        "C": "Per patient-day",
+        "D": "Per 1,000 bricks"
+      },
+      "correct": "D",
+      "explanation": "A cost unit is the unit of product or service in relation to which costs are ascertained. Bricks are cheap, homogeneous and produced in very large numbers, so costs are expressed per 1,000 bricks. Tonne-km relates to goods transport, kWh to electricity supply and patient-day to hospitals.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c01-q002",
+      "chapter": 1,
+      "topic": "Introduction to Cost and Management Accounting",
+      "question_text": "A department such as the maintenance shop, which does not work on products directly but renders services to production departments, is best described as a:",
+      "options": {
+        "A": "Production cost centre",
+        "B": "Service cost centre",
+        "C": "Profit centre",
+        "D": "Investment centre"
+      },
+      "correct": "B",
+      "explanation": "A service cost centre provides services to other cost centres (for example maintenance, stores or tool room) rather than working directly on the product. Its costs are later re-apportioned to production cost centres. Profit and investment centres are responsibility centres judged on revenue and, for investment centres, capital employed as well.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c01-q003",
+      "chapter": 1,
+      "topic": "Introduction to Cost and Management Accounting",
+      "question_text": "A divisional manager who is accountable for revenues, costs and the capital employed in the division is in charge of a(n):",
+      "options": {
+        "A": "Profit centre",
+        "B": "Revenue centre",
+        "C": "Investment centre",
+        "D": "Cost centre"
+      },
+      "correct": "C",
+      "explanation": "An investment centre is a responsibility centre where the manager controls revenues, costs and the investment (capital employed), so performance can be measured with return on investment or residual income. A profit centre manager controls revenues and costs but not investment decisions.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c01-q004",
+      "chapter": 1,
+      "topic": "Introduction to Cost and Management Accounting",
+      "question_text": "A cost that has already been incurred and cannot be recovered by any future decision is known as a:",
+      "options": {
+        "A": "Sunk cost",
+        "B": "Opportunity cost",
+        "C": "Imputed cost",
+        "D": "Out-of-pocket cost"
+      },
+      "correct": "A",
+      "explanation": "A sunk cost is a historical cost that has been incurred and cannot be changed by any present or future decision, so it is irrelevant for decision making. Opportunity cost is the benefit forgone from the next best alternative, imputed cost is a notional cost not involving cash outlay, and out-of-pocket cost involves a current cash payment.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c01-q005",
+      "chapter": 1,
+      "topic": "Introduction to Cost and Management Accounting",
+      "question_text": "Saral Ltd owns a vacant godown that could be let out for ₹45,000 per month. The company decides to use the godown itself for a special order lasting 4 months. What is the opportunity cost of the godown for the special order?",
+      "options": {
+        "A": "₹1,80,000",
+        "B": "₹45,000",
+        "C": "₹5,40,000",
+        "D": "₹0"
+      },
+      "correct": "A",
+      "explanation": "Opportunity cost is the value of the benefit sacrificed by choosing one alternative over the next best one. By using the godown, the company gives up rent of ₹45,000 per month for 4 months = ₹1,80,000. It is a relevant cost even though no cash is paid. The annual rent is not relevant because the godown is used only for 4 months.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c01-q006",
+      "chapter": 1,
+      "topic": "Introduction to Cost and Management Accounting",
+      "question_text": "The power cost of a factory is semi-variable. At an output of 6,000 units the total power cost was ₹1,38,000 and at 9,500 units it was ₹1,87,000. Using the high and low points method, the fixed component of power cost is:",
+      "options": {
+        "A": "₹19,894.74",
+        "B": "₹84,000.00",
+        "C": "₹49,000.00",
+        "D": "₹54,000.00"
+      },
+      "correct": "D",
+      "explanation": "Variable cost per unit = change in cost / change in output = (₹1,87,000 - ₹1,38,000) / (9,500 - 6,000) = ₹49,000 / 3,500 = ₹14. Fixed cost = ₹1,38,000 - (6,000 x ₹14) = ₹1,38,000 - ₹84,000 = ₹54,000. Check at the high level: ₹1,87,000 - (9,500 x ₹14) = ₹54,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c01-q007",
+      "chapter": 1,
+      "topic": "Introduction to Cost and Management Accounting",
+      "question_text": "Which of the following is NOT an objective of cost accounting?",
+      "options": {
+        "A": "Preparing financial statements in the form prescribed by company law",
+        "B": "Ascertaining the cost of each product, job or service",
+        "C": "Providing information for cost control and cost reduction",
+        "D": "Supplying data to management for decisions such as pricing"
+      },
+      "correct": "A",
+      "explanation": "Cost accounting aims to ascertain costs, help in controlling and reducing costs, and provide information for managerial decisions such as fixing prices. Preparation of statutory financial statements in the prescribed format is the function of financial accounting, not cost accounting.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c01-q008",
+      "chapter": 1,
+      "topic": "Introduction to Cost and Management Accounting",
+      "question_text": "Interest on the proprietor's own capital, which is charged in cost accounts to compare the results of alternative proposals but involves no actual payment, is an example of:",
+      "options": {
+        "A": "Sunk cost",
+        "B": "Imputed (notional) cost",
+        "C": "Out-of-pocket cost",
+        "D": "Discretionary cost"
+      },
+      "correct": "B",
+      "explanation": "Imputed or notional costs are hypothetical costs that do not involve any cash outlay, such as interest on own capital or rent on owned premises. They are considered for decision making and comparison, and are an item of difference when reconciling cost and financial profits.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c02-q001",
+      "chapter": 2,
+      "topic": "Material Cost",
+      "question_text": "Annual requirement of a raw material is 32,400 units. Ordering cost is ₹200 per order, the purchase price is ₹60 per unit and the carrying cost is 15% per annum of the purchase price. The Economic Order Quantity (EOQ) is:",
+      "options": {
+        "A": "1,200 units",
+        "B": "849 units",
+        "C": "1,697 units",
+        "D": "465 units"
+      },
+      "correct": "A",
+      "explanation": "Carrying cost per unit per annum = 15% x ₹60 = ₹9. EOQ = sqrt(2AO/C) = sqrt(2 x 32,400 x 200 / 9) = sqrt(14,40,000) = 1,200 units. Omitting the 2 gives about 849 units, while using the purchase price instead of the carrying cost gives about 465 units (both rounded to the nearest unit).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c02-q002",
+      "chapter": 2,
+      "topic": "Material Cost",
+      "question_text": "Using the data where annual demand is 32,400 units, ordering cost is ₹200 per order and carrying cost is ₹9 per unit per annum, what is the total annual ordering and carrying cost when orders are placed at the EOQ of 1,200 units?",
+      "options": {
+        "A": "₹5,400",
+        "B": "₹16,200",
+        "C": "₹5,600",
+        "D": "₹10,800"
+      },
+      "correct": "D",
+      "explanation": "Number of orders = 32,400 / 1,200 = 27. Ordering cost = 27 x ₹200 = ₹5,400. Average stock = 1,200 / 2 = 600 units, so carrying cost = 600 x ₹9 = ₹5,400. Total = ₹10,800. At EOQ the ordering cost equals the carrying cost, which is a useful check.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c02-q003",
+      "chapter": 2,
+      "topic": "Material Cost",
+      "question_text": "For a component, weekly usage is: maximum 900 units, normal 700 units, minimum 500 units. Lead time is: maximum 6 weeks, normal 4.5 weeks, minimum 3 weeks. The minimum stock level is:",
+      "options": {
+        "A": "3,900 units",
+        "B": "5,400 units",
+        "C": "2,250 units",
+        "D": "1,200 units"
+      },
+      "correct": "C",
+      "explanation": "Re-order level = maximum usage x maximum lead time = 900 x 6 = 5,400 units. Minimum stock level = re-order level - (normal usage x normal lead time) = 5,400 - (700 x 4.5) = 5,400 - 3,150 = 2,250 units.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c02-q004",
+      "chapter": 2,
+      "topic": "Material Cost",
+      "question_text": "A material has a re-order level of 5,400 units and a re-order quantity of 4,000 units. Minimum weekly usage is 500 units and the minimum lead time is 3 weeks. The maximum stock level is:",
+      "options": {
+        "A": "9,400 units",
+        "B": "6,250 units",
+        "C": "6,700 units",
+        "D": "7,900 units"
+      },
+      "correct": "D",
+      "explanation": "Maximum stock level = re-order level + re-order quantity - (minimum usage x minimum lead time) = 5,400 + 4,000 - (500 x 3) = 9,400 - 1,500 = 7,900 units.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-cma-c02-q005",
+      "chapter": 2,
+      "topic": "Material Cost",
+      "question_text": "Opening stock of a material is 400 kg at ₹30 per kg. A purchase of 600 kg is made at ₹33 per kg. Thereafter 700 kg are issued to production. Under the FIFO method, the cost of material issued is:",
+      "options": {
+        "A": "₹23,100",
+        "B": "₹22,260",
+        "C": "₹21,000",
+        "D": "₹21,900"
+      },
+      "correct": "D",
+      "explanation": "Under FIFO the earliest units are issued first. Issue of 700 kg = 400 kg x ₹30 = ₹12,000 plus 300 kg x ₹33 = ₹9,900. Total cost of issue = ₹21,900.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c02-q006",
+      "chapter": 2,
+      "topic": "Material Cost",
+      "question_text": "Using the same data (opening stock 400 kg at ₹30, purchase 600 kg at ₹33, issue of 700 kg after the purchase), what is the value of closing stock under the weighted average method?",
+      "options": {
+        "A": "₹9,540",
+        "B": "₹9,900",
+        "C": "₹9,000",
+        "D": "₹9,450"
+      },
+      "correct": "A",
+      "explanation": "Weighted average rate = (₹12,000 + ₹19,800) / (400 + 600) kg = ₹31,800 / 1,000 = ₹31.80 per kg. Closing stock = 1,000 - 700 = 300 kg x ₹31.80 = ₹9,540. Using a simple average of the two rates (₹31.50) ignores the quantities and is incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c02-q007",
+      "chapter": 2,
+      "topic": "Material Cost",
+      "question_text": "Opening stock of raw material was ₹1,20,000, closing stock ₹1,80,000 and material consumed during the year ₹9,00,000. The inventory turnover ratio is:",
+      "options": {
+        "A": "5 times",
+        "B": "7.5 times",
+        "C": "3 times",
+        "D": "6 times"
+      },
+      "correct": "D",
+      "explanation": "Average stock = (₹1,20,000 + ₹1,80,000) / 2 = ₹1,50,000. Inventory turnover ratio = material consumed / average stock = ₹9,00,000 / ₹1,50,000 = 6 times. Dividing by closing stock gives 5 times and by opening stock gives 7.5 times, both incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c02-q008",
+      "chapter": 2,
+      "topic": "Material Cost",
+      "question_text": "Under ABC analysis of inventory, the 'A' category generally consists of items that are:",
+      "options": {
+        "A": "Large in number and account for a large proportion of total value",
+        "B": "Small in number and account for a small proportion of total value",
+        "C": "Large in number but account for a small proportion of total value",
+        "D": "Small in number but account for a large proportion of total value"
+      },
+      "correct": "D",
+      "explanation": "ABC analysis classifies inventory on the basis of value. 'A' items are relatively few in number (for example about 10% of items) but account for a large share (for example about 70%) of the total value, so they deserve the strictest control. 'C' items are numerous but of low total value.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c02-q009",
+      "chapter": 2,
+      "topic": "Material Cost",
+      "question_text": "Loss of material arising from an abnormal cause, such as theft or fire in the stores, should be treated in cost accounts by:",
+      "options": {
+        "A": "Inflating the issue price of the remaining good material",
+        "B": "Charging it to factory overheads",
+        "C": "Charging it to the Costing Profit and Loss Account",
+        "D": "Adding it to the cost of the next job issued"
+      },
+      "correct": "C",
+      "explanation": "Abnormal losses are avoidable and are not part of the normal cost of production. Including them in product cost would distort the cost of output, so they are written off to the Costing Profit and Loss Account. Normal losses, in contrast, are absorbed by the good units.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c02-q010",
+      "chapter": 2,
+      "topic": "Material Cost",
+      "question_text": "A company purchases 5,000 kg of a chemical at ₹42 per kg and pays freight inward of ₹6,000. A normal loss of 4% occurs due to evaporation in storage. The cost per kg of the chemical to be used for pricing issues is:",
+      "options": {
+        "A": "₹45.00",
+        "B": "₹43.20",
+        "C": "₹43.75",
+        "D": "₹44.88"
+      },
+      "correct": "A",
+      "explanation": "Total cost = 5,000 x ₹42 + ₹6,000 = ₹2,16,000. Normal loss is absorbed by the good units, so good quantity = 5,000 x 96% = 4,800 kg. Cost per kg = ₹2,16,000 / 4,800 = ₹45.00.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c02-q011",
+      "chapter": 2,
+      "topic": "Material Cost",
+      "question_text": "Material with a list price of ₹2,00,000 is bought at a trade discount of 10%. GST at 18% is charged on the invoice and full input tax credit is available. Freight inward is ₹5,000 and a cash discount of 2% is received for prompt payment. Following the principles of CAS-6, the cost of material purchased is:",
+      "options": {
+        "A": "₹2,17,400",
+        "B": "₹1,81,400",
+        "C": "₹2,05,000",
+        "D": "₹1,85,000"
+      },
+      "correct": "D",
+      "explanation": "Purchase price net of trade discount = ₹2,00,000 - 10% = ₹1,80,000. GST is excluded because input tax credit is available. Freight inward is added: ₹1,80,000 + ₹5,000 = ₹1,85,000. Cash discount is a financing item and is not deducted under CAS-6. Including GST would give ₹2,17,400.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-cma-c02-q012",
+      "chapter": 2,
+      "topic": "Material Cost",
+      "question_text": "Which of the following statements about a bin card is correct?",
+      "options": {
+        "A": "It is kept by the storekeeper and records quantities only",
+        "B": "It is kept by the cost department and records quantities and values",
+        "C": "It is kept by the purchase department and records values only",
+        "D": "It is kept by the storekeeper and records values only"
+      },
+      "correct": "A",
+      "explanation": "A bin card is maintained by the storekeeper, usually attached to the bin or rack, and shows receipts, issues and balance in quantity only. The stores ledger is maintained in the cost accounting department and records both quantities and values.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c03-q001",
+      "chapter": 3,
+      "topic": "Employee Cost and Direct Expenses",
+      "question_text": "The standard time for a job is 40 hours and a worker completes it in 30 hours. The guaranteed time rate is ₹80 per hour. Total earnings of the worker under the Halsey premium plan (50% bonus) are:",
+      "options": {
+        "A": "₹2,800",
+        "B": "₹3,000",
+        "C": "₹3,200",
+        "D": "₹2,400"
+      },
+      "correct": "A",
+      "explanation": "Time wages = 30 hours x ₹80 = ₹2,400. Time saved = 40 - 30 = 10 hours. Halsey bonus = 50% x 10 x ₹80 = ₹400. Total earnings = ₹2,400 + ₹400 = ₹2,800.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c03-q002",
+      "chapter": 3,
+      "topic": "Employee Cost and Direct Expenses",
+      "question_text": "Using the same data (standard time 40 hours, time taken 30 hours, rate ₹80 per hour), total earnings under the Rowan plan are:",
+      "options": {
+        "A": "₹2,800.00",
+        "B": "₹3,200.00",
+        "C": "₹3,000.00",
+        "D": "₹3,466.67"
+      },
+      "correct": "C",
+      "explanation": "Rowan bonus = (time saved / standard time) x time taken x rate = (10/40) x 30 x ₹80 = ₹600. Total earnings = time wages ₹2,400 + bonus ₹600 = ₹3,000. Note that the Rowan bonus here exceeds the Halsey bonus because time saved is less than 50% of standard time.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c03-q003",
+      "chapter": 3,
+      "topic": "Employee Cost and Direct Expenses",
+      "question_text": "Earnings of a worker under the Halsey (50%) plan and the Rowan plan will be the same when the time taken is:",
+      "options": {
+        "A": "Exactly 50% of the standard time",
+        "B": "Exactly 75% of the standard time",
+        "C": "Exactly 66.67% of the standard time",
+        "D": "Exactly 25% of the standard time"
+      },
+      "correct": "A",
+      "explanation": "Halsey bonus = 0.5 x (S - T) x R and Rowan bonus = ((S - T)/S) x T x R. Equating them gives 0.5 = T/S, so T = 50% of S. When time taken is more than half the standard time, Rowan pays more; when it is less than half, Halsey pays more.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c03-q004",
+      "chapter": 3,
+      "topic": "Employee Cost and Direct Expenses",
+      "question_text": "Under Taylor's differential piece rate system, the standard output is 50 units per day and the normal piece rate is ₹12 per unit. A low rate of 83% of the piece rate applies below standard and a high rate of 125% applies at or above standard. A worker produces 48 units in a day. His earnings for the day are:",
+      "options": {
+        "A": "₹576.00",
+        "B": "₹478.08",
+        "C": "₹720.00",
+        "D": "₹498.00"
+      },
+      "correct": "B",
+      "explanation": "Output of 48 units is below the standard of 50 units, so the low rate applies: 83% x ₹12 = ₹9.96 per unit. Earnings = 48 x ₹9.96 = ₹478.08. Taylor's plan penalises workers falling short of standard, which is why it is criticised as harsh.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c03-q005",
+      "chapter": 3,
+      "topic": "Employee Cost and Direct Expenses",
+      "question_text": "A factory had 760 workers at the beginning of the year and 840 at the end. During the year 48 workers left and 128 workers joined, of whom 40 were replacements. The labour turnover rate under the separation method is:",
+      "options": {
+        "A": "6%",
+        "B": "5%",
+        "C": "5.71%",
+        "D": "22%"
+      },
+      "correct": "A",
+      "explanation": "Average number of workers = (760 + 840) / 2 = 800. Separation rate = separations / average workers x 100 = 48 / 800 x 100 = 6%. Using closing workers (840) as the base is incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c03-q006",
+      "chapter": 3,
+      "topic": "Employee Cost and Direct Expenses",
+      "question_text": "Using the same data (opening 760, closing 840, separations 48, total accessions 128 of which 40 were replacements), the labour turnover rate under the replacement method is:",
+      "options": {
+        "A": "6%",
+        "B": "16%",
+        "C": "5.26%",
+        "D": "5%"
+      },
+      "correct": "D",
+      "explanation": "Replacement method = number of replacements / average number of workers x 100 = 40 / 800 x 100 = 5%. Workers recruited for expansion (88) are not replacements and are excluded.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c03-q007",
+      "chapter": 3,
+      "topic": "Employee Cost and Direct Expenses",
+      "question_text": "Overtime premium paid because a customer asked for urgent completion of his particular order should be:",
+      "options": {
+        "A": "Treated as general factory overhead",
+        "B": "Charged to the Costing Profit and Loss Account",
+        "C": "Charged directly to that customer's job",
+        "D": "Spread over all jobs as part of the labour rate"
+      },
+      "correct": "C",
+      "explanation": "When overtime is worked at the specific request of a customer, the premium is caused by that job and is charged directly to it. Overtime premium arising from general pressure of work is treated as production overhead, while premium due to abnormal causes (such as a breakdown) goes to the Costing Profit and Loss Account.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c03-q008",
+      "chapter": 3,
+      "topic": "Employee Cost and Direct Expenses",
+      "question_text": "Idle time caused by a prolonged strike in the factory should be treated as:",
+      "options": {
+        "A": "Part of direct employee cost of the products",
+        "B": "A charge to the Costing Profit and Loss Account",
+        "C": "Factory overhead absorbed by production",
+        "D": "An addition to the hourly rate of the workers"
+      },
+      "correct": "B",
+      "explanation": "A prolonged strike is an abnormal cause of idle time. Abnormal idle time cost is not included in the cost of production; it is transferred to the Costing Profit and Loss Account. Normal idle time (for example time taken to move between jobs) is absorbed through the employee cost rate or factory overheads.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c03-q009",
+      "chapter": 3,
+      "topic": "Employee Cost and Direct Expenses",
+      "question_text": "A worker is paid ₹520 per day of 8 hours for 6 days a week for 52 weeks, including 12 paid holidays and 15 days of paid leave. The employer contributes 12% of wages towards provident fund. Normal idle time is 5% of hours available for work. The effective employee cost per productive hour (rounded to two decimals) is:",
+      "options": {
+        "A": "₹79.70",
+        "B": "₹74.90",
+        "C": "₹83.89",
+        "D": "₹72.80"
+      },
+      "correct": "C",
+      "explanation": "Annual cost = 312 days x ₹520 = ₹1,62,240 plus PF 12% = ₹1,81,708.80. Days available for work = 312 - 12 - 15 = 285; hours = 285 x 8 = 2,280; less 5% normal idle time = 2,166 productive hours. Effective rate = ₹1,81,708.80 / 2,166 = ₹83.89 (rounded). Ignoring idle time gives ₹79.70.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-cma-c03-q010",
+      "chapter": 3,
+      "topic": "Employee Cost and Direct Expenses",
+      "question_text": "Which of the following is an example of a direct expense?",
+      "options": {
+        "A": "Rent of the factory building",
+        "B": "Salary of the works manager",
+        "C": "Royalty paid to the patent holder on each unit produced",
+        "D": "Depreciation of office furniture"
+      },
+      "correct": "C",
+      "explanation": "Direct expenses are expenses, other than direct material and direct employee cost, that can be identified with a specific cost object in an economically feasible way. Royalty based on units produced is directly traceable to the product. Factory rent and works manager's salary are production overheads, and office depreciation is an administrative overhead.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c03-q011",
+      "chapter": 3,
+      "topic": "Employee Cost and Direct Expenses",
+      "question_text": "Under Merrick's multiple piece rate system, the normal piece rate is paid up to 83% efficiency, 110% of the piece rate between 83% and 100% efficiency, and 120% of the piece rate above 100% efficiency. Standard output is 200 units per day and the piece rate is ₹10. A worker producing 190 units in a day earns:",
+      "options": {
+        "A": "₹1,900",
+        "B": "₹2,280",
+        "C": "₹2,200",
+        "D": "₹2,090"
+      },
+      "correct": "D",
+      "explanation": "Efficiency = 190 / 200 = 95%, which lies between 83% and 100%, so 110% of the piece rate applies: ₹10 x 110% = ₹11 per unit. Earnings = 190 x ₹11 = ₹2,090.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c04-q001",
+      "chapter": 4,
+      "topic": "Overheads - Absorption Costing Method",
+      "question_text": "A machine costs ₹12,00,000, has an estimated scrap value of ₹60,000 and a life of 10 years. It is expected to run 2,000 hours a year, of which 5% will be lost in maintenance. It consumes 15 units of power per running hour at ₹8 per unit, and repairs are estimated at ₹38,000 a year. The machine hour rate is:",
+      "options": {
+        "A": "₹196.00",
+        "B": "₹203.16",
+        "C": "₹88.00",
+        "D": "₹200.00"
+      },
+      "correct": "D",
+      "explanation": "Effective running hours = 2,000 x 95% = 1,900. Depreciation per hour = (₹12,00,000 - ₹60,000) / 10 / 1,900 = ₹60. Power = 15 x ₹8 = ₹120. Repairs = ₹38,000 / 1,900 = ₹20. Machine hour rate = ₹60 + ₹120 + ₹20 = ₹200. Using 2,000 hours instead of effective hours gives ₹196.00.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c04-q002",
+      "chapter": 4,
+      "topic": "Overheads - Absorption Costing Method",
+      "question_text": "Budgeted factory overheads were ₹9,60,000 and budgeted direct labour hours 48,000. Actual overheads amounted to ₹9,90,000 and actual hours worked were 51,000. The overheads were:",
+      "options": {
+        "A": "Under-absorbed by ₹30,000",
+        "B": "Over-absorbed by ₹60,000",
+        "C": "Under-absorbed by ₹60,000",
+        "D": "Over-absorbed by ₹30,000"
+      },
+      "correct": "D",
+      "explanation": "Absorption rate = ₹9,60,000 / 48,000 = ₹20 per hour. Overheads absorbed = 51,000 x ₹20 = ₹10,20,000. Actual overheads = ₹9,90,000. Since absorbed exceeds actual, overheads are over-absorbed by ₹30,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c04-q003",
+      "chapter": 4,
+      "topic": "Overheads - Absorption Costing Method",
+      "question_text": "Where a significant amount of under-absorbed overhead arises because of incorrect estimation of overheads or activity level, the preferred method of disposal is:",
+      "options": {
+        "A": "Writing it off to the Costing Profit and Loss Account",
+        "B": "Carrying it forward to the next accounting year",
+        "C": "Ignoring it as it will reverse in the next period",
+        "D": "Applying a supplementary rate to cost of sales, finished goods and work-in-progress"
+      },
+      "correct": "D",
+      "explanation": "When under- or over-absorption is large and arises from wrong estimates, it is corrected through a supplementary rate, adjusting the cost of sales, finished goods and work-in-progress. Write-off to the Costing Profit and Loss Account is used when the amount is small or arises from abnormal factors. Carry forward is used only where the operating cycle extends beyond a year.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c04-q004",
+      "chapter": 4,
+      "topic": "Overheads - Absorption Costing Method",
+      "question_text": "Service department X has primary overheads of ₹84,000 and service department Y has ₹60,000. X renders 20% of its services to Y, and Y renders 20% of its services to X (the remaining services go to production departments). Using the simultaneous equation method, the total overheads of X to be apportioned are:",
+      "options": {
+        "A": "₹96,000",
+        "B": "₹84,000",
+        "C": "₹1,00,000",
+        "D": "₹99,360"
+      },
+      "correct": "C",
+      "explanation": "Let X and Y be the total overheads after inter-service transfers. X = 84,000 + 0.2Y and Y = 60,000 + 0.2X. Substituting: X = 84,000 + 0.2(60,000 + 0.2X) = 96,000 + 0.04X, so 0.96X = 96,000 and X = ₹1,00,000. Then Y = 60,000 + 0.2 x 1,00,000 = ₹80,000. Ignoring the reciprocal effect gives ₹96,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-cma-c04-q005",
+      "chapter": 4,
+      "topic": "Overheads - Absorption Costing Method",
+      "question_text": "The most appropriate basis for apportioning canteen expenses among production and service departments is:",
+      "options": {
+        "A": "Floor area occupied by each department",
+        "B": "Direct labour hours of each department",
+        "C": "Number of employees in each department",
+        "D": "Value of plant and machinery in each department"
+      },
+      "correct": "C",
+      "explanation": "Canteen facilities are used by employees, so the benefit received by each department is best measured by the number of employees working there. Floor area suits rent and building maintenance, while the value of plant suits insurance and depreciation of machinery.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c04-q006",
+      "chapter": 4,
+      "topic": "Overheads - Absorption Costing Method",
+      "question_text": "A single overhead absorption rate computed for the factory as a whole and applied to all products is called a:",
+      "options": {
+        "A": "Departmental overhead rate",
+        "B": "Blanket overhead rate",
+        "C": "Supplementary rate",
+        "D": "Machine hour rate"
+      },
+      "correct": "B",
+      "explanation": "A blanket (single) rate = total factory overheads / total base for the whole factory. It is simple but suitable only where products pass through all departments uniformly. Departmental rates are more accurate when products use departments differently.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c04-q007",
+      "chapter": 4,
+      "topic": "Overheads - Absorption Costing Method",
+      "question_text": "Budgeted factory overheads are ₹6,30,000 and budgeted prime cost is ₹21,00,000. Overheads are absorbed as a percentage of prime cost. A job has a prime cost of ₹48,000. The overheads to be absorbed by the job are:",
+      "options": {
+        "A": "₹20,571.43",
+        "B": "₹12,000.00",
+        "C": "₹62,400.00",
+        "D": "₹14,400.00"
+      },
+      "correct": "D",
+      "explanation": "Absorption rate = ₹6,30,000 / ₹21,00,000 x 100 = 30% of prime cost. Overheads for the job = 30% x ₹48,000 = ₹14,400.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c04-q008",
+      "chapter": 4,
+      "topic": "Overheads - Absorption Costing Method",
+      "question_text": "Fixed production overheads are ₹18,00,000 per annum and normal capacity is 60,000 units. Actual production for the year is only 45,000 units because of low demand. In line with CAS-3, the fixed production overhead to be included in the cost of each unit produced is:",
+      "options": {
+        "A": "₹40",
+        "B": "₹0",
+        "C": "₹30",
+        "D": "₹10"
+      },
+      "correct": "C",
+      "explanation": "Fixed production overheads are absorbed on the basis of normal capacity: ₹18,00,000 / 60,000 = ₹30 per unit. Overheads absorbed = 45,000 x ₹30 = ₹13,50,000. The unabsorbed amount of ₹4,50,000, relating to unutilised capacity, is not loaded on to production but charged to the Costing Profit and Loss Account. Spreading all fixed overheads over actual output would give ₹40.00 per unit, overstating cost.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-cma-c04-q009",
+      "chapter": 4,
+      "topic": "Overheads - Absorption Costing Method",
+      "question_text": "In a highly mechanised department where most of the work is done by machines with little manual intervention, the most suitable overhead absorption method is the:",
+      "options": {
+        "A": "Direct labour cost percentage rate",
+        "B": "Direct material cost percentage rate",
+        "C": "Machine hour rate",
+        "D": "Rate per unit of output"
+      },
+      "correct": "C",
+      "explanation": "Where machines dominate production, most overheads (depreciation, power, repairs) are related to machine running time, so absorbing them on machine hours reflects the cause of overheads best. Labour-based methods suit labour-intensive departments.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c04-q010",
+      "chapter": 4,
+      "topic": "Overheads - Absorption Costing Method",
+      "question_text": "Overheads under-absorbed because the factory was closed for two months due to a flood should be:",
+      "options": {
+        "A": "Recovered through a supplementary rate on all products",
+        "B": "Carried forward to next year as deferred overhead",
+        "C": "Transferred to the Costing Profit and Loss Account",
+        "D": "Added to the value of closing finished goods"
+      },
+      "correct": "C",
+      "explanation": "Under-absorption caused by abnormal factors such as floods, fire or strikes does not relate to the normal cost of products. It is written off to the Costing Profit and Loss Account so that product costs are not distorted. A supplementary rate is used only for differences arising from incorrect estimates.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c04-q011",
+      "chapter": 4,
+      "topic": "Overheads - Absorption Costing Method",
+      "question_text": "Department P absorbs overheads on machine hours: budgeted overheads ₹4,50,000, budgeted machine hours 15,000. Department Q absorbs on labour hours: budgeted overheads ₹2,40,000, budgeted labour hours 20,000. A job requires 18 machine hours in P and 25 labour hours in Q. Total overheads absorbed by the job are:",
+      "options": {
+        "A": "₹840.00",
+        "B": "₹847.71",
+        "C": "₹966.00",
+        "D": "₹1,290.00"
+      },
+      "correct": "A",
+      "explanation": "Rate for P = ₹4,50,000 / 15,000 = ₹30 per machine hour. Rate for Q = ₹2,40,000 / 20,000 = ₹12 per labour hour. Job overheads = (18 x ₹30) + (25 x ₹12) = ₹540 + ₹300 = ₹840. A blanket rate of ₹19.71 on all 43 hours would give ₹847.71.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c05-q001",
+      "chapter": 5,
+      "topic": "Activity Based Costing",
+      "question_text": "In activity based costing, the most appropriate cost driver for the purchasing activity is:",
+      "options": {
+        "A": "Number of direct labour hours",
+        "B": "Number of purchase orders placed",
+        "C": "Number of units produced",
+        "D": "Value of finished goods sold"
+      },
+      "correct": "B",
+      "explanation": "A cost driver is the factor that causes the cost of an activity. The cost of the purchasing department (raising orders, following up suppliers) varies with the number of purchase orders, not with production volume or labour hours.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c05-q002",
+      "chapter": 5,
+      "topic": "Activity Based Costing",
+      "question_text": "Machine set-up costs, which are incurred each time a new batch is started regardless of the number of units in the batch, are classified in the ABC cost hierarchy as:",
+      "options": {
+        "A": "Unit-level activities",
+        "B": "Batch-level activities",
+        "C": "Product-sustaining activities",
+        "D": "Facility-sustaining activities"
+      },
+      "correct": "B",
+      "explanation": "Batch-level activities are performed for each batch, so their cost depends on the number of batches rather than units. Unit-level activities (such as machine power) vary with each unit; product-sustaining activities support a product line (such as product design); facility-sustaining activities support the plant as a whole.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c05-q003",
+      "chapter": 5,
+      "topic": "Activity Based Costing",
+      "question_text": "Which of the following is an example of a facility-sustaining activity?",
+      "options": {
+        "A": "Security and general management of the factory",
+        "B": "Inspection of each batch produced",
+        "C": "Engineering changes to a specific product",
+        "D": "Power consumed by machines per unit produced"
+      },
+      "correct": "A",
+      "explanation": "Facility-sustaining activities support the organisation as a whole and cannot be traced to individual units, batches or products, such as plant security, factory management and building insurance. Batch inspection is batch-level, engineering changes are product-sustaining and machine power is unit-level.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c05-q004",
+      "chapter": 5,
+      "topic": "Activity Based Costing",
+      "question_text": "Total set-up costs are ₹2,40,000 for 120 set-ups during the period. Product M is produced in 18 set-ups and its output is 9,000 units. The set-up cost per unit of Product M under ABC is:",
+      "options": {
+        "A": "₹4.00",
+        "B": "₹26.67",
+        "C": "₹22.22",
+        "D": "₹111.11"
+      },
+      "correct": "A",
+      "explanation": "Cost driver rate = ₹2,40,000 / 120 set-ups = ₹2,000 per set-up. Set-up cost charged to M = 18 x ₹2,000 = ₹36,000. Per unit = ₹36,000 / 9,000 = ₹4.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c05-q005",
+      "chapter": 5,
+      "topic": "Activity Based Costing",
+      "question_text": "A company identifies three activities: Machining ₹6,00,000 (driver: 30,000 machine hours), Set-ups ₹1,50,000 (driver: 60 set-ups) and Inspection ₹90,000 (driver: 450 inspections). Product K has an output of 5,000 units and uses 4,000 machine hours, 12 set-ups and 75 inspections. The overhead cost per unit of Product K under ABC is:",
+      "options": {
+        "A": "₹22.40",
+        "B": "₹25.00",
+        "C": "₹16.00",
+        "D": "₹28.00"
+      },
+      "correct": "B",
+      "explanation": "Driver rates: machining ₹6,00,000/30,000 = ₹20 per hour; set-ups ₹1,50,000/60 = ₹2,500 per set-up; inspection ₹90,000/450 = ₹200 per inspection. Overheads of K = 4,000 x 20 + 12 x 2,500 + 75 x 200 = ₹80,000 + ₹30,000 + ₹15,000 = ₹1,25,000. Per unit = ₹1,25,000 / 5,000 = ₹25. A traditional machine-hour rate would give only ₹22.40 per unit.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-cma-c05-q006",
+      "chapter": 5,
+      "topic": "Activity Based Costing",
+      "question_text": "Activity based costing is likely to give the greatest improvement in product cost accuracy over traditional absorption costing where:",
+      "options": {
+        "A": "Direct material forms most of the total cost and only one product is made",
+        "B": "Overheads are a large part of total cost and products differ in their use of support activities",
+        "C": "All products are made in batches of the same size using the same processes",
+        "D": "Overheads are small and vary only with direct labour hours"
+      },
+      "correct": "B",
+      "explanation": "ABC traces overheads through activities and their cost drivers. Its benefit is greatest where overheads are significant and products consume activities in different proportions (for example low-volume products needing many set-ups). Where there is a single product or uniform production, a traditional volume-based rate gives similar results.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c05-q007",
+      "chapter": 5,
+      "topic": "Activity Based Costing",
+      "question_text": "Using ABC information to identify and eliminate non-value-added activities, so as to reduce cost without reducing value to the customer, is known as:",
+      "options": {
+        "A": "Activity based management",
+        "B": "Activity based budgeting",
+        "C": "Target costing",
+        "D": "Marginal costing"
+      },
+      "correct": "A",
+      "explanation": "Activity based management (ABM) uses activity cost information for cost reduction and process improvement, including eliminating or reducing non-value-added activities. Activity based budgeting uses activities and drivers to prepare budgets.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c05-q008",
+      "chapter": 5,
+      "topic": "Activity Based Costing",
+      "question_text": "Material handling costs of ₹3,60,000 are driven by 1,200 material movements. Product Z requires 85 movements during the period. The material handling cost assigned to Product Z is:",
+      "options": {
+        "A": "₹25,500.00",
+        "B": "₹4,235.29",
+        "C": "₹30,600.00",
+        "D": "₹300.00"
+      },
+      "correct": "A",
+      "explanation": "Cost driver rate = ₹3,60,000 / 1,200 = ₹300 per movement. Cost assigned to Z = 85 x ₹300 = ₹25,500.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c06-q001",
+      "chapter": 6,
+      "topic": "Cost Sheet",
+      "question_text": "From the following, calculate the prime cost: opening stock of raw material ₹40,000; purchases of raw material ₹3,20,000; carriage inward ₹8,000; closing stock of raw material ₹52,000; direct wages ₹1,85,000; direct expenses ₹24,000.",
+      "options": {
+        "A": "₹5,17,000",
+        "B": "₹5,37,000",
+        "C": "₹5,25,000",
+        "D": "₹5,01,000"
+      },
+      "correct": "C",
+      "explanation": "Materials consumed = ₹40,000 + ₹3,20,000 + ₹8,000 - ₹52,000 = ₹3,16,000. Prime cost = materials consumed + direct wages + direct expenses = ₹3,16,000 + ₹1,85,000 + ₹24,000 = ₹5,25,000. Carriage inward is part of the cost of material.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c06-q002",
+      "chapter": 6,
+      "topic": "Cost Sheet",
+      "question_text": "Prime cost is ₹5,25,000 and factory overheads are ₹1,40,000. Opening work-in-progress is ₹30,000 and closing work-in-progress is ₹45,000. The works (factory) cost is:",
+      "options": {
+        "A": "₹6,50,000",
+        "B": "₹6,65,000",
+        "C": "₹6,80,000",
+        "D": "₹5,10,000"
+      },
+      "correct": "A",
+      "explanation": "Gross works cost = prime cost + factory overheads = ₹5,25,000 + ₹1,40,000 = ₹6,65,000. Works cost = gross works cost + opening WIP - closing WIP = ₹6,65,000 + ₹30,000 - ₹45,000 = ₹6,50,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c06-q003",
+      "chapter": 6,
+      "topic": "Cost Sheet",
+      "question_text": "Cost of production for the year is ₹7,20,000. Opening stock of finished goods is ₹60,000 and closing stock of finished goods is ₹80,000. The cost of goods sold is:",
+      "options": {
+        "A": "₹7,40,000",
+        "B": "₹7,20,000",
+        "C": "₹8,60,000",
+        "D": "₹7,00,000"
+      },
+      "correct": "D",
+      "explanation": "Cost of goods sold = cost of production + opening finished goods - closing finished goods = ₹7,20,000 + ₹60,000 - ₹80,000 = ₹7,00,000.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c06-q004",
+      "chapter": 6,
+      "topic": "Cost Sheet",
+      "question_text": "In a cost sheet, the cost of primary packing (packing without which the product cannot be sold, such as a bottle for a soft drink) is treated as part of:",
+      "options": {
+        "A": "Selling overheads",
+        "B": "Distribution overheads",
+        "C": "General administration overheads",
+        "D": "Cost of production"
+      },
+      "correct": "D",
+      "explanation": "Primary packing is essential to make the product saleable, so it is included in the cost of production. Secondary packing, which is used mainly for transport or display and promotion, is treated as distribution or selling overhead.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c06-q005",
+      "chapter": 6,
+      "topic": "Cost Sheet",
+      "question_text": "Which of the following items is excluded from the cost sheet?",
+      "options": {
+        "A": "Depreciation of factory machinery",
+        "B": "Salary of the factory supervisor",
+        "C": "Loss on sale of an old machine",
+        "D": "Carriage outward on goods sold"
+      },
+      "correct": "C",
+      "explanation": "A loss on sale of a fixed asset is a purely financial item that does not form part of the cost of producing or selling goods, so it appears only in the financial accounts. Depreciation of machinery and supervisor's salary are factory overheads, and carriage outward is a distribution overhead.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c06-q006",
+      "chapter": 6,
+      "topic": "Cost Sheet",
+      "question_text": "Cost of sales of a product is ₹8,40,000. The company wants to earn a profit of 20% on sales. The selling price should be:",
+      "options": {
+        "A": "₹10,08,000",
+        "B": "₹11,20,000",
+        "C": "₹10,50,000",
+        "D": "₹6,72,000"
+      },
+      "correct": "C",
+      "explanation": "If profit is 20% of sales, cost is 80% of sales. Sales = ₹8,40,000 / 0.80 = ₹10,50,000, and profit = ₹2,10,000, which is 20% of ₹10,50,000. Adding 20% to cost (₹10,08,000) gives a profit of only 16.67% on sales.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c06-q007",
+      "chapter": 6,
+      "topic": "Cost Sheet",
+      "question_text": "Sale proceeds of normal scrap arising in the factory are generally treated in the cost sheet as:",
+      "options": {
+        "A": "An addition to sales revenue",
+        "B": "A deduction from selling and distribution overheads",
+        "C": "A deduction from the works (factory) cost",
+        "D": "A credit to the Costing Profit and Loss Account"
+      },
+      "correct": "C",
+      "explanation": "Scrap arising in the normal course of production reduces the cost of manufacture, so its realisable value is deducted in arriving at works cost (and hence cost of production). Showing it as sales or in the Costing Profit and Loss Account would overstate the cost of production.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c06-q008",
+      "chapter": 6,
+      "topic": "Cost Sheet",
+      "question_text": "A company produced 12,000 units and sold 10,000 units; there was no opening stock. Direct material ₹6,00,000; direct labour ₹3,60,000; factory overheads 20% of prime cost; general administration overheads ₹1,08,000; selling and distribution overheads ₹3 per unit sold. Closing stock is valued at cost of production. The cost of sales is:",
+      "options": {
+        "A": "₹10,98,000",
+        "B": "₹10,80,000",
+        "C": "₹12,90,000",
+        "D": "₹11,04,000"
+      },
+      "correct": "A",
+      "explanation": "Factory overheads = 20% x (₹6,00,000 + ₹3,60,000) = ₹1,92,000. Cost of production = ₹11,52,000, i.e. ₹96 per unit. Cost of goods sold = 10,000 x ₹96 = ₹9,60,000 (closing stock 2,000 units x ₹96 = ₹1,92,000). Add general administration overheads ₹1,08,000 (a period cost, not carried in stock) and selling and distribution overheads 10,000 x ₹3 = ₹30,000. Cost of sales = ₹10,98,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-cma-c06-q009",
+      "chapter": 6,
+      "topic": "Cost Sheet",
+      "question_text": "Carriage outward incurred on delivering goods to customers is classified as:",
+      "options": {
+        "A": "Direct expense",
+        "B": "Distribution overhead",
+        "C": "Factory overhead",
+        "D": "Part of material cost"
+      },
+      "correct": "B",
+      "explanation": "Carriage outward is incurred after production is complete, in delivering goods to customers, so it is a distribution overhead and appears after the cost of goods sold in the cost sheet. Carriage inward, by contrast, forms part of the cost of materials.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c07-q001",
+      "chapter": 7,
+      "topic": "Cost Accounting Systems",
+      "question_text": "Under a non-integrated (cost ledger) accounting system, the account in the cost ledger that records the double entry for items coming from the financial books is the:",
+      "options": {
+        "A": "Costing Profit and Loss Account",
+        "B": "Cost Ledger Control Account (General Ledger Adjustment Account)",
+        "C": "Work-in-Progress Control Account",
+        "D": "Stores Ledger Control Account"
+      },
+      "correct": "B",
+      "explanation": "In non-integrated accounts the cost ledger is self-balancing through the Cost Ledger Control Account, also called the General Ledger Adjustment Account. Items such as purchases, wages paid and expenses, which originate in financial accounts, are debited to the relevant control accounts and credited to this account.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c07-q002",
+      "chapter": 7,
+      "topic": "Cost Accounting Systems",
+      "question_text": "Profit as per cost accounts is ₹4,20,000. The following differences are noted: (i) factory overheads over-absorbed in cost accounts ₹18,000; (ii) dividend received, recorded only in financial accounts ₹12,000; (iii) notional rent of own premises charged only in cost accounts ₹30,000; (iv) depreciation charged in financial accounts exceeds that in cost accounts by ₹25,000. Profit as per financial accounts is:",
+      "options": {
+        "A": "₹3,85,000",
+        "B": "₹4,19,000",
+        "C": "₹4,55,000",
+        "D": "₹5,05,000"
+      },
+      "correct": "C",
+      "explanation": "Start with cost profit ₹4,20,000. Over-absorbed overheads mean cost accounts charged more than actual, so add ₹18,000. Dividend is income only in financial accounts: add ₹12,000. Notional rent reduced cost profit only: add ₹30,000. Extra depreciation reduces financial profit: deduct ₹25,000. Financial profit = 4,20,000 + 18,000 + 12,000 + 30,000 - 25,000 = ₹4,55,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-cma-c07-q003",
+      "chapter": 7,
+      "topic": "Cost Accounting Systems",
+      "question_text": "If closing stock is valued at a higher figure in cost accounts than in financial accounts, then (other things being equal):",
+      "options": {
+        "A": "Profit as per financial accounts will be higher than profit as per cost accounts",
+        "B": "Both profits will be the same because stock is a balance sheet item",
+        "C": "Only the opening stock of the next year will be affected, not current profit",
+        "D": "Profit as per cost accounts will be higher than profit as per financial accounts"
+      },
+      "correct": "D",
+      "explanation": "Closing stock is credited in arriving at profit, so a higher closing stock value gives a higher profit. When cost accounts value closing stock higher, the cost profit exceeds the financial profit by the difference, which is an item in the reconciliation statement.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c07-q004",
+      "chapter": 7,
+      "topic": "Cost Accounting Systems",
+      "question_text": "Under an integrated accounting system, the journal entry for direct material issued to production is:",
+      "options": {
+        "A": "Dr Work-in-Progress Control A/c; Cr Stores Ledger Control A/c",
+        "B": "Dr Stores Ledger Control A/c; Cr Work-in-Progress Control A/c",
+        "C": "Dr Factory Overhead Control A/c; Cr Stores Ledger Control A/c",
+        "D": "Dr Cost of Sales A/c; Cr Stores Ledger Control A/c"
+      },
+      "correct": "A",
+      "explanation": "Direct material issued moves from stores into production, so Work-in-Progress Control is debited and Stores Ledger Control is credited. Indirect material issued would be debited to Factory Overhead Control instead.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c07-q005",
+      "chapter": 7,
+      "topic": "Cost Accounting Systems",
+      "question_text": "The entry to record factory overheads absorbed into production in the cost ledger is:",
+      "options": {
+        "A": "Dr Factory Overhead Control A/c; Cr Work-in-Progress Control A/c",
+        "B": "Dr Finished Goods Control A/c; Cr Factory Overhead Control A/c",
+        "C": "Dr Work-in-Progress Control A/c; Cr Factory Overhead Control A/c",
+        "D": "Dr Factory Overhead Control A/c; Cr Cost Ledger Control A/c"
+      },
+      "correct": "C",
+      "explanation": "Overheads actually incurred are debited to Factory Overhead Control. When they are absorbed into production at the predetermined rate, Work-in-Progress Control is debited and Factory Overhead Control credited. Any balance left on the overhead control account represents under- or over-absorption.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c07-q006",
+      "chapter": 7,
+      "topic": "Cost Accounting Systems",
+      "question_text": "Which of the following items appears only in the financial accounts and not in the cost accounts?",
+      "options": {
+        "A": "Interest received on bank deposits",
+        "B": "Wages paid to production workers",
+        "C": "Power consumed by the factory",
+        "D": "Depreciation of factory machinery"
+      },
+      "correct": "A",
+      "explanation": "Purely financial income such as interest received, dividends, and profit on sale of investments is recorded only in financial accounts because it does not relate to production. Wages, power and factory depreciation are costs recorded in both sets of accounts.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c07-q007",
+      "chapter": 7,
+      "topic": "Cost Accounting Systems",
+      "question_text": "Profit as per financial accounts is ₹2,85,000. Factory overheads were under-absorbed in cost accounts by ₹14,000, administration overheads were over-recovered in cost accounts by ₹6,000, and preliminary expenses of ₹10,000 were written off only in financial accounts. Profit as per cost accounts is:",
+      "options": {
+        "A": "₹2,67,000",
+        "B": "₹3,15,000",
+        "C": "₹3,03,000",
+        "D": "₹2,75,000"
+      },
+      "correct": "C",
+      "explanation": "Working from financial profit to cost profit: under-absorbed factory overheads mean cost accounts charged less, so cost profit is higher: add ₹14,000. Over-recovered administration overheads mean cost accounts charged more: deduct ₹6,000. Preliminary expenses reduced only financial profit: add ₹10,000. Cost profit = 2,85,000 + 14,000 - 6,000 + 10,000 = ₹3,03,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-cma-c07-q008",
+      "chapter": 7,
+      "topic": "Cost Accounting Systems",
+      "question_text": "A major advantage of an integrated accounting system over a non-integrated system is that:",
+      "options": {
+        "A": "It does not require any control accounts",
+        "B": "Notional costs can be freely included in profit",
+        "C": "There is no need to reconcile cost and financial profits",
+        "D": "Costs need not be analysed by cost centre"
+      },
+      "correct": "C",
+      "explanation": "In integrated accounts a single set of books serves both costing and financial purposes, so there is only one profit figure and no reconciliation is required. It still uses control accounts and cost analysis; notional costs are normally excluded so that the books remain consistent with financial reporting.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c08-q001",
+      "chapter": 8,
+      "topic": "Unit, Batch and Job Costing",
+      "question_text": "Unit (single or output) costing is most suitable for:",
+      "options": {
+        "A": "A cement factory producing a single homogeneous product",
+        "B": "A ship-builder working on customer orders",
+        "C": "A printing press executing separate orders",
+        "D": "A city bus service"
+      },
+      "correct": "A",
+      "explanation": "Unit costing is used where production is continuous and units are identical, such as cement, bricks, mining or a brewery, so cost per unit = total cost / units produced. Ship-building and printing orders use job or contract-type costing, and a bus service uses service (operating) costing.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c08-q002",
+      "chapter": 8,
+      "topic": "Unit, Batch and Job Costing",
+      "question_text": "Annual demand for a part is 36,000 units. Set-up cost per production batch is ₹1,500 and the cost of carrying one unit in stock for a year is ₹12. The economic batch quantity is:",
+      "options": {
+        "A": "2,121 units",
+        "B": "4,243 units",
+        "C": "1,500 units",
+        "D": "3,000 units"
+      },
+      "correct": "D",
+      "explanation": "EBQ = sqrt(2DS/C) = sqrt(2 x 36,000 x 1,500 / 12) = sqrt(90,00,000) = 3,000 units, where D is annual demand, S set-up cost per batch and C carrying cost per unit per annum.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c08-q003",
+      "chapter": 8,
+      "topic": "Unit, Batch and Job Costing",
+      "question_text": "For the same part (annual demand 36,000 units, set-up cost ₹1,500 per batch, carrying cost ₹12 per unit per annum), the total annual set-up and carrying cost when production is in batches of 3,000 units is:",
+      "options": {
+        "A": "₹18,000",
+        "B": "₹36,000",
+        "C": "₹54,000",
+        "D": "₹19,500"
+      },
+      "correct": "B",
+      "explanation": "Number of batches = 36,000 / 3,000 = 12; set-up cost = 12 x ₹1,500 = ₹18,000. Average stock = 3,000 / 2 = 1,500 units; carrying cost = 1,500 x ₹12 = ₹18,000. Total = ₹36,000. Using the full batch rather than average stock overstates carrying cost.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c08-q004",
+      "chapter": 8,
+      "topic": "Unit, Batch and Job Costing",
+      "question_text": "Batch costing is most commonly used in which of the following industries?",
+      "options": {
+        "A": "Electricity generation and distribution",
+        "B": "Pharmaceuticals and ready-made garments",
+        "C": "Oil refining and chemicals in continuous process",
+        "D": "Bridge and road construction"
+      },
+      "correct": "B",
+      "explanation": "Batch costing is a form of job costing where a lot of identical units is treated as one job, as in pharmaceuticals, garments, toys and components. Electricity uses service costing, continuous refining uses process costing, and construction uses contract-type job costing.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c08-q005",
+      "chapter": 8,
+      "topic": "Unit, Batch and Job Costing",
+      "question_text": "Job No. 47 requires direct material of ₹18,500 and 120 direct labour hours at ₹150 per hour. Factory overheads are absorbed at ₹90 per direct labour hour and administration overheads at 10% of works cost. The company prices jobs to earn a profit of 20% on the selling price. The price to be quoted is:",
+      "options": {
+        "A": "₹62,436.00",
+        "B": "₹59,125.00",
+        "C": "₹56,760.00",
+        "D": "₹65,037.50"
+      },
+      "correct": "D",
+      "explanation": "Direct labour = 120 x ₹150 = ₹18,000. Factory overheads = 120 x ₹90 = ₹10,800. Works cost = ₹18,500 + ₹18,000 + ₹10,800 = ₹47,300. Administration overheads 10% = ₹4,730; total cost = ₹52,030. Profit is 20% of price, so price = ₹52,030 / 0.80 = ₹65,037.50. A 20% mark-up on cost would give only ₹62,436.00.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-cma-c08-q006",
+      "chapter": 8,
+      "topic": "Unit, Batch and Job Costing",
+      "question_text": "In job costing, the cost of spoiled work that is normal and arises because of the exacting specifications of a particular job should be:",
+      "options": {
+        "A": "Treated as general factory overhead shared by all jobs",
+        "B": "Written off to the Costing Profit and Loss Account",
+        "C": "Charged to that particular job",
+        "D": "Ignored if the spoiled units are sold as scrap"
+      },
+      "correct": "C",
+      "explanation": "Where spoilage is caused by the special requirements of a specific job, it is part of the cost of that job and is charged to it (net of any scrap value). Normal spoilage common to all jobs is included in production overheads, while abnormal spoilage is written off to the Costing Profit and Loss Account.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c08-q007",
+      "chapter": 8,
+      "topic": "Unit, Batch and Job Costing",
+      "question_text": "Job costing is the appropriate method of costing where:",
+      "options": {
+        "A": "Production is continuous and output is homogeneous",
+        "B": "Services are rendered to the public at a standard rate",
+        "C": "Work is done against specific customer orders and each order differs from the others",
+        "D": "A product passes through several stages before completion"
+      },
+      "correct": "C",
+      "explanation": "Job costing accumulates costs for each job separately because each order is undertaken to the customer's specification and is distinct, as in printing presses, repair workshops and furniture made to order. Continuous homogeneous output suits unit or process costing.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c08-q008",
+      "chapter": 8,
+      "topic": "Unit, Batch and Job Costing",
+      "question_text": "A batch of 500 units incurred direct material ₹42,000, direct labour ₹28,000 and set-up cost ₹6,000. Production overheads are absorbed at 40% of direct labour. The cost per unit of the batch is:",
+      "options": {
+        "A": "₹162.40",
+        "B": "₹174.40",
+        "C": "₹208.00",
+        "D": "₹152.00"
+      },
+      "correct": "B",
+      "explanation": "Overheads = 40% x ₹28,000 = ₹11,200. Total batch cost = ₹42,000 + ₹28,000 + ₹6,000 + ₹11,200 = ₹87,200. Cost per unit = ₹87,200 / 500 = ₹174.40. Set-up cost is a batch cost and must be included.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c08-q009",
+      "chapter": 8,
+      "topic": "Unit, Batch and Job Costing",
+      "question_text": "The cost of rectifying normal defective work which cannot be identified with any particular job should be treated as:",
+      "options": {
+        "A": "A charge to the job in which the defect was detected",
+        "B": "Production overhead",
+        "C": "A charge to the Costing Profit and Loss Account",
+        "D": "A reduction in the selling price of the job"
+      },
+      "correct": "B",
+      "explanation": "If defectives are normal and cannot be traced to a specific job, the rectification cost is treated as production overhead and absorbed by all jobs. If traceable to a specific job, it is charged to that job; abnormal defectives are charged to the Costing Profit and Loss Account.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c09-q001",
+      "chapter": 9,
+      "topic": "Process and Operation Costing",
+      "question_text": "In Process I, 10,000 kg of material was introduced at ₹24 per kg and conversion costs were ₹1,32,000. Normal loss is 8% of input and has a scrap value of ₹5 per kg. Actual output was 9,000 kg. The value of abnormal loss is:",
+      "options": {
+        "A": "₹7,440",
+        "B": "₹1,000",
+        "C": "₹7,000",
+        "D": "₹8,000"
+      },
+      "correct": "D",
+      "explanation": "Total cost = ₹2,40,000 + ₹1,32,000 = ₹3,72,000. Normal loss = 8% x 10,000 = 800 kg, scrap value ₹4,000. Normal output = 9,200 kg. Cost per kg = (₹3,72,000 - ₹4,000) / 9,200 = ₹40. Abnormal loss = 9,200 - 9,000 = 200 kg, valued at 200 x ₹40 = ₹8,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c09-q002",
+      "chapter": 9,
+      "topic": "Process and Operation Costing",
+      "question_text": "A process was charged with 6,000 units at a total cost of ₹3,07,200. Normal loss is 10% of input, saleable as scrap at ₹8 per unit. Actual output transferred was 5,500 units. The value of abnormal gain is:",
+      "options": {
+        "A": "₹5,120",
+        "B": "₹4,800",
+        "C": "₹800",
+        "D": "₹5,600"
+      },
+      "correct": "D",
+      "explanation": "Normal loss = 10% x 6,000 = 600 units with scrap value ₹4,800. Normal output = 5,400 units. Cost per unit = (₹3,07,200 - ₹4,800) / 5,400 = ₹56. Actual output 5,500 exceeds normal output by 100 units, so abnormal gain = 100 x ₹56 = ₹5,600.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c09-q003",
+      "chapter": 9,
+      "topic": "Process and Operation Costing",
+      "question_text": "Continuing the same process (abnormal gain of 100 units valued at ₹56 per unit; scrap value of normal loss ₹8 per unit), the net amount credited to the Costing Profit and Loss Account from the Abnormal Gain Account is:",
+      "options": {
+        "A": "₹5,600",
+        "B": "₹4,800",
+        "C": "₹6,400",
+        "D": "₹800"
+      },
+      "correct": "B",
+      "explanation": "The Abnormal Gain Account is credited with ₹5,600 transferred from the process. Because 100 fewer units were lost than expected, scrap sales are lower by 100 x ₹8 = ₹800, which is debited to the Abnormal Gain Account. The net gain transferred to the Costing Profit and Loss Account = ₹5,600 - ₹800 = ₹4,800.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-cma-c09-q004",
+      "chapter": 9,
+      "topic": "Process and Operation Costing",
+      "question_text": "Opening work-in-progress was 2,000 units, 60% complete as to conversion. During the period 18,000 units were introduced and 16,000 units were completed and transferred. Closing work-in-progress was 4,000 units, 50% complete as to conversion. There were no losses. Equivalent units for conversion cost under the FIFO method are:",
+      "options": {
+        "A": "18,000 units",
+        "B": "17,200 units",
+        "C": "16,800 units",
+        "D": "16,000 units"
+      },
+      "correct": "C",
+      "explanation": "Under FIFO only work done in the current period is counted. Completing opening WIP: 2,000 x 40% = 800. Started and completed: 16,000 - 2,000 = 14,000. Closing WIP: 4,000 x 50% = 2,000. Equivalent units = 800 + 14,000 + 2,000 = 16,800.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-cma-c09-q005",
+      "chapter": 9,
+      "topic": "Process and Operation Costing",
+      "question_text": "Using the same data (opening WIP 2,000 units 60% converted, 16,000 units completed, closing WIP 4,000 units 50% converted), equivalent units for conversion cost under the weighted average method are:",
+      "options": {
+        "A": "18,000 units",
+        "B": "16,800 units",
+        "C": "20,000 units",
+        "D": "17,200 units"
+      },
+      "correct": "A",
+      "explanation": "Under the weighted average method, opening WIP is merged with current work, so all completed units count in full. Equivalent units = units completed 16,000 + closing WIP 4,000 x 50% = 16,000 + 2,000 = 18,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c09-q006",
+      "chapter": 9,
+      "topic": "Process and Operation Costing",
+      "question_text": "Under the FIFO method, equivalent units for conversion in the current period are 16,800 and conversion costs incurred in the current period are ₹5,04,000. The cost per equivalent unit for conversion is:",
+      "options": {
+        "A": "₹30.00",
+        "B": "₹28.00",
+        "C": "₹31.50",
+        "D": "₹25.20"
+      },
+      "correct": "A",
+      "explanation": "Under FIFO, the current period cost is divided by the current period equivalent units: ₹5,04,000 / 16,800 = ₹30 per equivalent unit. The cost of opening WIP brought forward is kept separate and is not included in this rate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c09-q007",
+      "chapter": 9,
+      "topic": "Process and Operation Costing",
+      "question_text": "The main purpose of transferring output from one process to the next at a price that includes profit (inter-process profit) is to:",
+      "options": {
+        "A": "Increase the total profit of the business",
+        "B": "Show whether each process can supply output at a price competitive with the market",
+        "C": "Eliminate the need for valuing closing stock",
+        "D": "Avoid normal and abnormal loss calculations"
+      },
+      "correct": "B",
+      "explanation": "Transfer at market-based prices lets management judge whether each process is efficient compared with buying from outside, and makes each process a profit centre. It does not change total profit; unrealised profit included in closing stocks must be eliminated through a stock reserve.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c09-q008",
+      "chapter": 9,
+      "topic": "Process and Operation Costing",
+      "question_text": "Operation costing is best described as:",
+      "options": {
+        "A": "A method of costing used only for service undertakings",
+        "B": "A refinement of process costing in which the cost of each operation is ascertained separately",
+        "C": "A technique of apportioning joint costs to joint products",
+        "D": "A form of contract costing applied to large projects"
+      },
+      "correct": "B",
+      "explanation": "Operation costing ascertains the cost of each operation within a process, which is useful where products pass through a series of distinct operations (for example in engineering or toy manufacture). It is a more detailed form of process costing.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c09-q009",
+      "chapter": 9,
+      "topic": "Process and Operation Costing",
+      "question_text": "In process costing, units of abnormal loss are valued at:",
+      "options": {
+        "A": "Their scrap value only",
+        "B": "Zero, as they produce no output",
+        "C": "The cost of raw material only",
+        "D": "The same cost per unit as good output, computed after adjusting for normal loss"
+      },
+      "correct": "D",
+      "explanation": "Abnormal loss is avoidable, so it is charged with the full cost per unit that good units bear (cost net of normal loss scrap divided by normal output). This prevents abnormal inefficiency from inflating the cost of good output. The value is then credited to the process and transferred to the Abnormal Loss Account.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c09-q010",
+      "chapter": 9,
+      "topic": "Process and Operation Costing",
+      "question_text": "The cost of normal process loss is borne by:",
+      "options": {
+        "A": "The Costing Profit and Loss Account",
+        "B": "The good units produced",
+        "C": "The Abnormal Loss Account",
+        "D": "Selling and distribution overheads"
+      },
+      "correct": "B",
+      "explanation": "Normal loss is an unavoidable feature of the process, so no cost is assigned to it (apart from crediting its scrap value). The cost is spread over the good output, increasing the cost per good unit.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c09-q011",
+      "chapter": 9,
+      "topic": "Process and Operation Costing",
+      "question_text": "Opening WIP of 1,000 units (100% material, 50% conversion) had costs of material ₹30,000 and conversion ₹15,000. During the month 9,000 units were introduced; current costs were material ₹2,70,000 and conversion ₹3,25,400. 8,000 units were completed and 2,000 units remained in closing WIP (100% material, 60% conversion). Using the weighted average method, the value of closing WIP is:",
+      "options": {
+        "A": "₹1,04,882.76",
+        "B": "₹1,04,400.00",
+        "C": "₹1,34,000.00",
+        "D": "₹97,000.00"
+      },
+      "correct": "B",
+      "explanation": "Material: equivalent units = 8,000 + 2,000 = 10,000; cost = ₹30,000 + ₹2,70,000 = ₹3,00,000; rate = ₹30. Conversion: equivalent units = 8,000 + 2,000 x 60% = 9,200; cost = ₹15,000 + ₹3,25,400 = ₹3,40,400; rate = ₹37. Closing WIP = 2,000 x ₹30 + 1,200 x ₹37 = ₹60,000 + ₹44,400 = ₹1,04,400.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-cma-c10-q001",
+      "chapter": 10,
+      "topic": "Joint Products and By-Products",
+      "question_text": "Joint costs of ₹4,80,000 are incurred up to the split-off point, producing 6,000 kg of product P and 10,000 kg of product Q. Using the physical units method, the joint cost apportioned to P is:",
+      "options": {
+        "A": "₹3,00,000",
+        "B": "₹1,80,000",
+        "C": "₹2,40,000",
+        "D": "₹1,92,000"
+      },
+      "correct": "B",
+      "explanation": "Under the physical units method, joint cost is shared in the ratio of output quantities: 6,000 : 10,000 = 3 : 5. Share of P = ₹4,80,000 x 6,000/16,000 = ₹1,80,000.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c10-q002",
+      "chapter": 10,
+      "topic": "Joint Products and By-Products",
+      "question_text": "Using the same output (P 6,000 kg, Q 10,000 kg) and joint cost of ₹4,80,000, P can be sold at the split-off point for ₹50 per kg and Q for ₹45 per kg. Under the sales value at split-off method, the joint cost apportioned to P is:",
+      "options": {
+        "A": "₹1,92,000.00",
+        "B": "₹1,80,000.00",
+        "C": "₹2,88,000.00",
+        "D": "₹2,52,631.58"
+      },
+      "correct": "A",
+      "explanation": "Sales value at split-off: P = 6,000 x ₹50 = ₹3,00,000; Q = 10,000 x ₹45 = ₹4,50,000; total ₹7,50,000. Share of P = ₹4,80,000 x 3,00,000/7,50,000 = ₹1,92,000. Using price per kg alone ignores quantities and is incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c10-q003",
+      "chapter": 10,
+      "topic": "Joint Products and By-Products",
+      "question_text": "Joint costs of ₹3,90,000 produce 6,000 kg of P and 10,000 kg of Q, neither of which is saleable at split-off. After further processing, P sells at ₹75 per kg (further cost ₹90,000) and Q sells at ₹54 per kg (further cost ₹1,20,000). Using the net realisable value method, the joint cost apportioned to Q is:",
+      "options": {
+        "A": "₹2,10,000.00",
+        "B": "₹1,80,000.00",
+        "C": "₹2,12,727.27",
+        "D": "₹2,43,750.00"
+      },
+      "correct": "A",
+      "explanation": "NRV of P = 6,000 x ₹75 - ₹90,000 = ₹3,60,000. NRV of Q = 10,000 x ₹54 - ₹1,20,000 = ₹4,20,000. Total NRV = ₹7,80,000. Share of Q = ₹3,90,000 x 4,20,000/7,80,000 = ₹2,10,000. The final sales value basis ignores further processing costs and gives a different answer.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-cma-c10-q004",
+      "chapter": 10,
+      "topic": "Joint Products and By-Products",
+      "question_text": "A by-product is sold for ₹1,20,000. Selling expenses are 10% of sales, the expected profit margin is 20% of sales and post-separation processing costs are ₹14,000. Under the reverse cost method, the amount credited to the main product's joint process account is:",
+      "options": {
+        "A": "₹94,000",
+        "B": "₹84,000",
+        "C": "₹1,08,000",
+        "D": "₹70,000"
+      },
+      "correct": "D",
+      "explanation": "The reverse cost method works back from sales value: ₹1,20,000 - selling expenses ₹12,000 - profit ₹24,000 - post-separation costs ₹14,000 = ₹70,000. This is the estimated cost of the by-product at split-off and is credited to the joint process.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-cma-c10-q005",
+      "chapter": 10,
+      "topic": "Joint Products and By-Products",
+      "question_text": "The main distinction between joint products and by-products is based on:",
+      "options": {
+        "A": "The physical quantity of each product",
+        "B": "The relative sales value of the products",
+        "C": "Whether further processing is needed",
+        "D": "Whether the products are sold in the same market"
+      },
+      "correct": "B",
+      "explanation": "Joint products have relatively significant sales values and are produced simultaneously as main products. By-products have a comparatively small sales value. The classification depends on relative value, not on quantity or further processing.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c10-q006",
+      "chapter": 10,
+      "topic": "Joint Products and By-Products",
+      "question_text": "The split-off point is the point in a joint production process at which:",
+      "options": {
+        "A": "Joint costs are apportioned for the first time",
+        "B": "By-products are scrapped",
+        "C": "The joint products become separately identifiable",
+        "D": "The process reaches its break-even level"
+      },
+      "correct": "C",
+      "explanation": "The split-off point is the stage at which joint products emerge as separately identifiable products. Costs incurred before this point are joint costs; costs after it are separable (further processing) costs traceable to individual products.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c10-q007",
+      "chapter": 10,
+      "topic": "Joint Products and By-Products",
+      "question_text": "A joint product can be sold at split-off for ₹40 per kg, or processed further and sold at ₹56 per kg. Further processing of the 5,000 kg output would cost ₹55,000 (fixed, avoidable) plus ₹4 per kg. The joint cost allocated to the product is ₹1,50,000. If the product is processed further, profit will:",
+      "options": {
+        "A": "Increase by ₹5,000",
+        "B": "Increase by ₹25,000",
+        "C": "Decrease by ₹1,45,000",
+        "D": "Increase by ₹80,000"
+      },
+      "correct": "A",
+      "explanation": "Joint cost is incurred in either case and is irrelevant. Incremental revenue = 5,000 x (₹56 - ₹40) = ₹80,000. Incremental cost = ₹55,000 + 5,000 x ₹4 = ₹75,000. Profit increases by ₹5,000, so further processing is worthwhile.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c10-q008",
+      "chapter": 10,
+      "topic": "Joint Products and By-Products",
+      "question_text": "Under the survey (point value) method of apportioning joint costs, the basis of apportionment is:",
+      "options": {
+        "A": "The physical quantity of each product at split-off",
+        "B": "Weights assigned to each product after a technical survey of factors such as volume, selling price and technical effort",
+        "C": "The sales value of each product after further processing",
+        "D": "The contribution earned by each product"
+      },
+      "correct": "B",
+      "explanation": "The survey or point value method assigns percentage weights (points) to each joint product on the basis of a technical survey of all relevant factors, such as quantity, selling price and processing effort, and apportions joint cost in the ratio of these points.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c11-q001",
+      "chapter": 11,
+      "topic": "Service Costing",
+      "question_text": "A bus has 50 seats and on average 80% of seats are occupied. It makes 2 round trips a day between two towns 150 km apart and operates 25 days a month. The passenger-kilometres per month are:",
+      "options": {
+        "A": "3,00,000",
+        "B": "6,00,000",
+        "C": "7,50,000",
+        "D": "12,00,000"
+      },
+      "correct": "B",
+      "explanation": "Distance per day = 150 km x 2 (each round trip) x 2 trips = 600 km. Passengers carried on average = 50 x 80% = 40. Passenger-km per month = 40 x 600 x 25 = 6,00,000. Ignoring the return leg halves the figure; ignoring occupancy gives 7,50,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c11-q002",
+      "chapter": 11,
+      "topic": "Service Costing",
+      "question_text": "The bus described above incurs total operating costs of ₹4,50,000 per month for 6,00,000 passenger-km. The fare per passenger-km required to earn a profit of 20% on takings (rounded to the nearest paisa) is:",
+      "options": {
+        "A": "₹0.90",
+        "B": "₹0.94",
+        "C": "₹0.75",
+        "D": "₹0.60"
+      },
+      "correct": "B",
+      "explanation": "Cost per passenger-km = ₹4,50,000 / 6,00,000 = ₹0.75. If profit is 20% of takings, cost is 80% of the fare: fare = ₹0.75 / 0.80 = ₹0.9375, i.e. ₹0.94 rounded. Adding 20% to cost (₹0.90) gives profit of only 16.67% on takings.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-cma-c11-q003",
+      "chapter": 11,
+      "topic": "Service Costing",
+      "question_text": "The most appropriate cost unit for a hospital is:",
+      "options": {
+        "A": "Tonne-kilometre",
+        "B": "Patient-day (or bed-day)",
+        "C": "Kilowatt-hour",
+        "D": "Passenger-kilometre"
+      },
+      "correct": "B",
+      "explanation": "Hospitals measure their service in terms of patients accommodated over time, so costs are expressed per patient-day or bed-day. Tonne-km is used for goods transport, kWh for electricity and passenger-km for passenger transport.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c11-q004",
+      "chapter": 11,
+      "topic": "Service Costing",
+      "question_text": "Which of the following is the appropriate cost unit for an electricity supply undertaking?",
+      "options": {
+        "A": "Room-day",
+        "B": "Per 1,000 units",
+        "C": "Kilowatt-hour",
+        "D": "Cubic metre of earthwork"
+      },
+      "correct": "C",
+      "explanation": "Electricity is generated and supplied in kilowatt-hours (kWh), so the cost per kWh is the relevant measure. Room-day is used in hotels and cubic metre in earthmoving or construction-type services.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c11-q005",
+      "chapter": 11,
+      "topic": "Service Costing",
+      "question_text": "A truck carries 8 tonnes from city A to city B (150 km), then 5 tonnes from B to C (90 km), and returns empty from C to A (120 km). The commercial tonne-km for the round journey is:",
+      "options": {
+        "A": "1,650",
+        "B": "2,340",
+        "C": "1,560",
+        "D": "4,680"
+      },
+      "correct": "C",
+      "explanation": "Commercial tonne-km = average load per trip x total distance. Average load = (8 + 5 + 0) / 3 = 4.3333 tonnes; total distance = 150 + 90 + 120 = 360 km. Commercial tonne-km = 13/3 x 360 = 1,560. Absolute tonne-km (sum of load x distance for each leg) would be 8 x 150 + 5 x 90 = 1,650.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-cma-c11-q006",
+      "chapter": 11,
+      "topic": "Service Costing",
+      "question_text": "A hotel has 120 rooms with an average occupancy of 75% and is open 360 days a year. Total annual cost is ₹1,94,40,000. The cost per room-day occupied is:",
+      "options": {
+        "A": "₹450.00",
+        "B": "₹591.78",
+        "C": "₹750.00",
+        "D": "₹600.00"
+      },
+      "correct": "D",
+      "explanation": "Room-days occupied = 120 x 75% x 360 = 32,400. Cost per room-day = ₹1,94,40,000 / 32,400 = ₹600. Ignoring occupancy would give ₹450, which understates the cost of rooms actually let.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c11-q007",
+      "chapter": 11,
+      "topic": "Service Costing",
+      "question_text": "Service costing is also known as:",
+      "options": {
+        "A": "Operating costing",
+        "B": "Batch costing",
+        "C": "Process costing",
+        "D": "Uniform costing"
+      },
+      "correct": "A",
+      "explanation": "Service or operating costing is used by undertakings that provide services, such as transport, hospitals, hotels and power supply, rather than manufacture products. Costs are ascertained per composite or simple service unit.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c11-q008",
+      "chapter": 11,
+      "topic": "Service Costing",
+      "question_text": "In the operating cost sheet of a goods transport company, which of the following is treated as a standing (fixed) charge?",
+      "options": {
+        "A": "Diesel consumed",
+        "B": "Insurance of the vehicle",
+        "C": "Tyres and tubes",
+        "D": "Lubricants"
+      },
+      "correct": "B",
+      "explanation": "Standing charges are fixed costs incurred irrespective of the distance run, such as insurance, road tax, garage rent and salaries of permanent staff. Running charges such as diesel, lubricants and tyre wear vary with the kilometres operated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c12-q001",
+      "chapter": 12,
+      "topic": "Standard Costing",
+      "question_text": "Standard material for one unit of product is 4 kg at ₹25 per kg. Actual output was 2,000 units, using 8,300 kg purchased and consumed at ₹24 per kg. The material price variance is:",
+      "options": {
+        "A": "₹8,300 (Favourable)",
+        "B": "₹8,300 (Adverse)",
+        "C": "₹8,000 (Favourable)",
+        "D": "₹7,500 (Adverse)"
+      },
+      "correct": "A",
+      "explanation": "Material price variance = (standard price - actual price) x actual quantity = (₹25 - ₹24) x 8,300 = ₹8,300 Favourable, since the actual price is lower than standard.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c12-q002",
+      "chapter": 12,
+      "topic": "Standard Costing",
+      "question_text": "Using the same data (standard 4 kg at ₹25 per unit; actual output 2,000 units; actual usage 8,300 kg at ₹24), the material usage variance is:",
+      "options": {
+        "A": "₹7,500 (Favourable)",
+        "B": "₹7,200 (Adverse)",
+        "C": "₹8,300 (Favourable)",
+        "D": "₹7,500 (Adverse)"
+      },
+      "correct": "D",
+      "explanation": "Standard quantity for actual output = 2,000 x 4 = 8,000 kg. Usage variance = (standard quantity - actual quantity) x standard price = (8,000 - 8,300) x ₹25 = -₹7,500, i.e. ₹7,500 Adverse. The standard price, not the actual price, is used.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c12-q003",
+      "chapter": 12,
+      "topic": "Standard Costing",
+      "question_text": "With the same data, the material cost variance is:",
+      "options": {
+        "A": "₹800 (Adverse)",
+        "B": "₹15,800 (Adverse)",
+        "C": "₹15,800 (Favourable)",
+        "D": "₹800 (Favourable)"
+      },
+      "correct": "D",
+      "explanation": "Material cost variance = standard cost of actual output - actual cost = (8,000 kg x ₹25) - (8,300 kg x ₹24) = ₹2,00,000 - ₹1,99,200 = ₹800 Favourable. Check: price variance ₹8,300 F + usage variance ₹7,500 A = ₹800 F.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c12-q004",
+      "chapter": 12,
+      "topic": "Standard Costing",
+      "question_text": "Standard labour per unit is 3 hours at ₹60 per hour. Actual output was 1,800 units. Workers were paid for 5,700 hours at ₹62 per hour, including 120 hours of abnormal idle time. The labour rate variance is:",
+      "options": {
+        "A": "₹11,160 (Adverse)",
+        "B": "₹11,400 (Adverse)",
+        "C": "₹11,400 (Favourable)",
+        "D": "₹10,800 (Adverse)"
+      },
+      "correct": "B",
+      "explanation": "Labour rate variance = (standard rate - actual rate) x actual hours paid = (₹60 - ₹62) x 5,700 = -₹11,400, i.e. ₹11,400 Adverse. The rate variance is computed on all hours paid, including idle hours.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c12-q005",
+      "chapter": 12,
+      "topic": "Standard Costing",
+      "question_text": "Using the same data (standard 3 hours at ₹60 per unit; output 1,800 units; 5,700 hours paid of which 120 hours were abnormal idle time), the labour efficiency variance is:",
+      "options": {
+        "A": "₹10,800 (Adverse)",
+        "B": "₹18,000 (Adverse)",
+        "C": "₹10,800 (Favourable)",
+        "D": "₹11,160 (Adverse)"
+      },
+      "correct": "A",
+      "explanation": "Standard hours for actual output = 1,800 x 3 = 5,400. Hours actually worked = 5,700 - 120 = 5,580. Efficiency variance = (standard hours - actual hours worked) x standard rate = (5,400 - 5,580) x ₹60 = ₹10,800 Adverse. Idle time of 120 hours x ₹60 = ₹7,200 Adverse is shown separately as the idle time variance.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-cma-c12-q006",
+      "chapter": 12,
+      "topic": "Standard Costing",
+      "question_text": "The standard mix for a product is material X 60% at ₹20 per kg and material Y 40% at ₹35 per kg. In a period, actual input was 5,000 kg, consisting of 2,800 kg of X and 2,200 kg of Y. The material mix variance is:",
+      "options": {
+        "A": "₹3,000 (Adverse)",
+        "B": "₹3,000 (Favourable)",
+        "C": "₹4,000 (Favourable)",
+        "D": "₹11,000 (Adverse)"
+      },
+      "correct": "A",
+      "explanation": "Standard mix of actual input: X = 60% x 5,000 = 3,000 kg; Y = 40% x 5,000 = 2,000 kg. Mix variance = (revised standard quantity - actual quantity) x standard price: X (3,000 - 2,800) x ₹20 = ₹4,000 F; Y (2,000 - 2,200) x ₹35 = ₹7,000 A. Net = ₹3,000 Adverse, because more of the dearer material Y was used.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-cma-c12-q007",
+      "chapter": 12,
+      "topic": "Standard Costing",
+      "question_text": "Budgeted fixed overheads are ₹4,80,000 for a budgeted output of 24,000 units. Actual output was 22,500 units. The fixed overhead volume variance is:",
+      "options": {
+        "A": "₹30,000 (Favourable)",
+        "B": "₹32,000 (Adverse)",
+        "C": "₹30,000 (Adverse)",
+        "D": "₹1,500 (Adverse)"
+      },
+      "correct": "C",
+      "explanation": "Standard fixed overhead rate = ₹4,80,000 / 24,000 = ₹20 per unit. Volume variance = (actual output - budgeted output) x standard rate = (22,500 - 24,000) x ₹20 = -₹30,000, i.e. ₹30,000 Adverse, because output fell short of budget and fixed overheads were under-absorbed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c12-q008",
+      "chapter": 12,
+      "topic": "Standard Costing",
+      "question_text": "Budgeted fixed overheads are ₹4,80,000 for a budgeted output of 24,000 units. Actual fixed overheads incurred were ₹4,95,000 and actual output was 22,500 units. The fixed overhead cost variance, and its split into expenditure and volume variances, is:",
+      "options": {
+        "A": "₹15,000 (A), being expenditure ₹15,000 (A) only",
+        "B": "₹15,000 (A), being expenditure ₹15,000 (F) and volume ₹30,000 (A)",
+        "C": "₹45,000 (F), being expenditure ₹15,000 (F) and volume ₹30,000 (F)",
+        "D": "₹45,000 (A), being expenditure ₹15,000 (A) and volume ₹30,000 (A)"
+      },
+      "correct": "D",
+      "explanation": "Standard rate = ₹4,80,000 / 24,000 = ₹20 per unit. Overheads absorbed = 22,500 x ₹20 = ₹4,50,000. Cost variance = absorbed - actual = ₹4,50,000 - ₹4,95,000 = -₹45,000, i.e. ₹45,000 Adverse. Expenditure variance = budgeted - actual = ₹4,80,000 - ₹4,95,000 = ₹15,000 Adverse. Volume variance = absorbed - budgeted = ₹4,50,000 - ₹4,80,000 = ₹30,000 Adverse. Check: 15,000 + 30,000 = 45,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-cma-c12-q009",
+      "chapter": 12,
+      "topic": "Standard Costing",
+      "question_text": "A standard that assumes perfect operating conditions, with no allowance for wastage, machine breakdowns or idle time, is called a(n):",
+      "options": {
+        "A": "Normal standard",
+        "B": "Ideal standard",
+        "C": "Basic standard",
+        "D": "Expected (attainable) standard"
+      },
+      "correct": "B",
+      "explanation": "An ideal standard can be achieved only under the most favourable conditions, with no allowance for normal losses or inefficiencies. It may demotivate staff because it is rarely achieved. A normal or expected standard includes allowances for normal losses, while a basic standard is kept unchanged over long periods to show trends.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c12-q010",
+      "chapter": 12,
+      "topic": "Standard Costing",
+      "question_text": "An adverse material price variance is normally the responsibility of the:",
+      "options": {
+        "A": "Production foreman",
+        "B": "Sales manager",
+        "C": "Personnel manager",
+        "D": "Purchase manager"
+      },
+      "correct": "D",
+      "explanation": "The price variance arises from paying more or less than the standard price for materials, which is controlled mainly by the purchase department. The usage variance is usually the responsibility of production. However, price variances may also arise from factors outside the purchase manager's control, such as general inflation or urgent orders demanded by production.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c13-q001",
+      "chapter": 13,
+      "topic": "Marginal Costing",
+      "question_text": "A product sells at ₹250 per unit with a variable cost of ₹160 per unit. The P/V ratio is:",
+      "options": {
+        "A": "64%",
+        "B": "56.25%",
+        "C": "30%",
+        "D": "36%"
+      },
+      "correct": "D",
+      "explanation": "Contribution per unit = ₹250 - ₹160 = ₹90. P/V ratio = contribution / sales x 100 = 90 / 250 x 100 = 36%. Dividing contribution by variable cost (56.25%) is a common error.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c13-q002",
+      "chapter": 13,
+      "topic": "Marginal Costing",
+      "question_text": "For the same product (selling price ₹250, variable cost ₹160 per unit), fixed costs are ₹10,80,000 per annum. The break-even sales are:",
+      "options": {
+        "A": "₹19,20,000",
+        "B": "₹30,00,000",
+        "C": "₹16,87,500",
+        "D": "₹27,00,000"
+      },
+      "correct": "B",
+      "explanation": "Contribution per unit = ₹90. Break-even units = ₹10,80,000 / ₹90 = 12,000 units. Break-even sales = 12,000 x ₹250 = ₹30,00,000. Alternatively, ₹10,80,000 / 36% = ₹30,00,000.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c13-q003",
+      "chapter": 13,
+      "topic": "Marginal Costing",
+      "question_text": "With break-even sales of ₹30,00,000 and a P/V ratio of 36%, actual sales for the year are ₹40,00,000. The profit for the year is:",
+      "options": {
+        "A": "₹3,60,000",
+        "B": "₹10,00,000",
+        "C": "₹14,40,000",
+        "D": "₹2,50,000"
+      },
+      "correct": "A",
+      "explanation": "Margin of safety = actual sales - break-even sales = ₹40,00,000 - ₹30,00,000 = ₹10,00,000. Profit = margin of safety x P/V ratio = ₹10,00,000 x 36% = ₹3,60,000. Check: contribution ₹14,40,000 - fixed costs ₹10,80,000 = ₹3,60,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c13-q004",
+      "chapter": 13,
+      "topic": "Marginal Costing",
+      "question_text": "Sales and profit of a company for two periods were: Period 1 sales ₹12,00,000, profit ₹1,10,000; Period 2 sales ₹15,00,000, profit ₹1,82,000. Assuming the same selling price, variable cost ratio and fixed costs in both periods, the fixed cost is:",
+      "options": {
+        "A": "₹2,88,000",
+        "B": "₹3,60,000",
+        "C": "₹1,78,000",
+        "D": "₹1,10,000"
+      },
+      "correct": "C",
+      "explanation": "P/V ratio = change in profit / change in sales = (₹1,82,000 - ₹1,10,000) / (₹15,00,000 - ₹12,00,000) = ₹72,000 / ₹3,00,000 = 24%. Contribution in Period 1 = ₹12,00,000 x 24% = ₹2,88,000. Fixed cost = contribution - profit = ₹2,88,000 - ₹1,10,000 = ₹1,78,000. Check with Period 2: ₹3,60,000 - ₹1,82,000 = ₹1,78,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-cma-c13-q005",
+      "chapter": 13,
+      "topic": "Marginal Costing",
+      "question_text": "Fixed costs are ₹1,78,000 and the P/V ratio is 24%. The sales required to earn a profit of ₹2,30,000 are:",
+      "options": {
+        "A": "₹9,58,333.33",
+        "B": "₹7,41,666.67",
+        "C": "₹17,00,000.00",
+        "D": "₹5,36,842.11"
+      },
+      "correct": "C",
+      "explanation": "Required sales = (fixed cost + desired profit) / P/V ratio = (₹1,78,000 + ₹2,30,000) / 24% = ₹4,08,000 / 0.24 = ₹17,00,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c13-q006",
+      "chapter": 13,
+      "topic": "Marginal Costing",
+      "question_text": "Products A and B have contributions of ₹60 and ₹84 per unit respectively. Product A requires 3 machine hours per unit and B requires 6 machine hours per unit. Machine hours are the key factor and demand for both is unlimited. The company should:",
+      "options": {
+        "A": "Prefer product B, as its contribution per unit is higher",
+        "B": "Prefer product B, as its contribution per machine hour is ₹14 against ₹20 for A",
+        "C": "Be indifferent, as both products earn the same total contribution",
+        "D": "Prefer product A, as its contribution per machine hour is ₹20 against ₹14 for B"
+      },
+      "correct": "D",
+      "explanation": "When a resource is limited, products are ranked by contribution per unit of the key factor. A: ₹60 / 3 = ₹20 per machine hour; B: ₹84 / 6 = ₹14 per machine hour. Each hour used for A earns ₹6 more contribution, so A should be preferred.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c13-q007",
+      "chapter": 13,
+      "topic": "Marginal Costing",
+      "question_text": "In a period with no opening stock, a company produced 10,000 units and sold 8,500 units. Fixed production overheads were ₹3,00,000. Compared with marginal costing, profit under absorption costing will be:",
+      "options": {
+        "A": "Higher by ₹45,000",
+        "B": "Lower by ₹45,000",
+        "C": "Higher by ₹2,55,000",
+        "D": "The same, as fixed costs are identical"
+      },
+      "correct": "A",
+      "explanation": "Fixed overhead per unit = ₹3,00,000 / 10,000 = ₹30. Under absorption costing, closing stock of 1,500 units carries 1,500 x ₹30 = ₹45,000 of fixed overhead to the next period. Under marginal costing the full ₹3,00,000 is charged in this period. Absorption costing profit is therefore higher by ₹45,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c13-q008",
+      "chapter": 13,
+      "topic": "Marginal Costing",
+      "question_text": "On a break-even chart, a large angle of incidence indicates that:",
+      "options": {
+        "A": "The fixed costs of the business are very high",
+        "B": "The business earns profit at a high rate once fixed costs are covered",
+        "C": "The margin of safety is necessarily very low",
+        "D": "Variable cost per unit is higher than selling price"
+      },
+      "correct": "B",
+      "explanation": "The angle of incidence is the angle at which the sales line cuts the total cost line. A large angle means a high rate of profit after the break-even point, reflecting a high contribution (P/V) ratio. A small angle indicates that profits rise slowly with sales.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c13-q009",
+      "chapter": 13,
+      "topic": "Marginal Costing",
+      "question_text": "A component can be made in-house at a variable cost of ₹74 per unit, or bought from a supplier at ₹82 per unit. Existing fixed costs of ₹2,50,000 will not change whichever option is chosen, and there is spare capacity. For 15,000 units, the company should:",
+      "options": {
+        "A": "Make the component, saving ₹1,20,000",
+        "B": "Buy the component, saving ₹1,30,000",
+        "C": "Make the component, saving ₹3,70,000",
+        "D": "Buy the component, saving ₹1,20,000"
+      },
+      "correct": "A",
+      "explanation": "Fixed costs are unaffected and therefore irrelevant. Relevant cost of making = ₹74 per unit against a purchase price of ₹82. Saving from making = (₹82 - ₹74) x 15,000 = ₹1,20,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c13-q010",
+      "chapter": 13,
+      "topic": "Marginal Costing",
+      "question_text": "Method I of production has fixed costs of ₹3,00,000 and variable cost of ₹45 per unit. Method II has fixed costs of ₹4,80,000 and variable cost of ₹33 per unit. The cost indifference point is:",
+      "options": {
+        "A": "15,000 units",
+        "B": "25,000 units",
+        "C": "14,545 units",
+        "D": "5,455 units"
+      },
+      "correct": "A",
+      "explanation": "At the indifference point, total costs are equal: 3,00,000 + 45x = 4,80,000 + 33x, so 12x = 1,80,000 and x = 15,000 units. Below this output Method I (lower fixed cost) is cheaper; above it Method II (lower variable cost) is cheaper.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-cma-c14-q001",
+      "chapter": 14,
+      "topic": "Budgets and Budgetary Control",
+      "question_text": "The overheads of a factory are ₹3,36,000 at 60% capacity and ₹4,08,000 at 80% capacity. Assuming overheads are semi-variable and behave linearly, the overheads in a flexible budget for 95% capacity are:",
+      "options": {
+        "A": "₹5,32,000",
+        "B": "₹4,84,500",
+        "C": "₹4,62,000",
+        "D": "₹3,42,000"
+      },
+      "correct": "C",
+      "explanation": "Variable overhead per 1% of capacity = (₹4,08,000 - ₹3,36,000) / 20 = ₹3,600. Fixed overhead = ₹3,36,000 - 60 x ₹3,600 = ₹1,20,000. At 95%: ₹1,20,000 + 95 x ₹3,600 = ₹1,20,000 + ₹3,42,000 = ₹4,62,000. Scaling total overheads proportionately ignores the fixed element.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-cma-c14-q002",
+      "chapter": 14,
+      "topic": "Budgets and Budgetary Control",
+      "question_text": "Budgeted sales for the quarter are 24,000 units. Opening stock of finished goods is 3,000 units and the desired closing stock is 4,500 units. Budgeted production is:",
+      "options": {
+        "A": "22,500 units",
+        "B": "31,500 units",
+        "C": "28,500 units",
+        "D": "25,500 units"
+      },
+      "correct": "D",
+      "explanation": "Budgeted production = budgeted sales + desired closing stock - opening stock = 24,000 + 4,500 - 3,000 = 25,500 units.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c14-q003",
+      "chapter": 14,
+      "topic": "Budgets and Budgetary Control",
+      "question_text": "Budgeted production is 25,500 units and each unit needs 2 kg of raw material. Opening stock of raw material is 6,000 kg and the desired closing stock is 8,000 kg. The budgeted purchase of raw material is:",
+      "options": {
+        "A": "49,000 kg",
+        "B": "53,000 kg",
+        "C": "51,000 kg",
+        "D": "65,000 kg"
+      },
+      "correct": "B",
+      "explanation": "Material required for production = 25,500 x 2 = 51,000 kg. Purchases = requirement + closing stock - opening stock = 51,000 + 8,000 - 6,000 = 53,000 kg.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c14-q004",
+      "chapter": 14,
+      "topic": "Budgets and Budgetary Control",
+      "question_text": "Sales are budgeted at ₹4,00,000 for August, ₹5,00,000 for September and ₹6,00,000 for October. 20% of sales are for cash; 50% of sales are collected in the month following the sale and the remaining 30% in the second month following the sale. Cash collections from customers in October are:",
+      "options": {
+        "A": "₹4,70,000",
+        "B": "₹3,70,000",
+        "C": "₹6,00,000",
+        "D": "₹4,90,000"
+      },
+      "correct": "D",
+      "explanation": "October collections = cash sales of October 20% x ₹6,00,000 = ₹1,20,000 + 50% of September sales ₹2,50,000 + 30% of August sales ₹1,20,000 = ₹4,90,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-cma-c14-q005",
+      "chapter": 14,
+      "topic": "Budgets and Budgetary Control",
+      "question_text": "A budgeting approach in which every activity must be justified afresh as if it were being undertaken for the first time, without reference to the previous year's figures, is called:",
+      "options": {
+        "A": "Incremental budgeting",
+        "B": "Flexible budgeting",
+        "C": "Zero-based budgeting",
+        "D": "Rolling budgeting"
+      },
+      "correct": "C",
+      "explanation": "Zero-based budgeting requires each manager to justify the entire budget for each activity from scratch, ranking decision packages by priority. Incremental budgeting takes last year's figures as a base and adjusts them; a flexible budget changes with activity level; a rolling budget is continuously extended by adding a new period as one expires.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c14-q006",
+      "chapter": 14,
+      "topic": "Budgets and Budgetary Control",
+      "question_text": "The factor that limits the activities of an organisation over the budget period and therefore determines the order in which functional budgets are prepared is known as the:",
+      "options": {
+        "A": "Master budget",
+        "B": "Principal budget factor",
+        "C": "Budget centre",
+        "D": "Margin of safety"
+      },
+      "correct": "B",
+      "explanation": "The principal (key or limiting) budget factor, often sales demand but sometimes materials, labour or machine capacity, restricts the level of activity. The budget for that factor is prepared first and the other functional budgets are built around it.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-cma-c14-q007",
+      "chapter": 14,
+      "topic": "Budgets and Budgetary Control",
+      "question_text": "Budgeted direct labour hours for a month are 10,000. Actual hours worked were 9,000 and the standard hours for the actual output were 9,900. The activity ratio is:",
+      "options": {
+        "A": "90%",
+        "B": "110%",
+        "C": "99%",
+        "D": "90.91%"
+      },
+      "correct": "C",
+      "explanation": "Activity ratio = standard hours for actual output / budgeted hours x 100 = 9,900 / 10,000 x 100 = 99%. For reference, capacity ratio = 9,000/10,000 = 90% and efficiency ratio = 9,900/9,000 = 110%; activity ratio = capacity ratio x efficiency ratio.",
+      "difficulty": "hard"
+    }
+  ]
+}

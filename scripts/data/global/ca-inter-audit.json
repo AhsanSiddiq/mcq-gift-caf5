@@ -1,0 +1,1955 @@
+{
+  "subject_id": "ca-inter-audit",
+  "questions": [
+    {
+      "id": "ca-inter-audit-c01-q001",
+      "chapter": 1,
+      "topic": "Nature, Objective and Scope of Audit",
+      "question_text": "Under SA 200, the overall objective of the auditor in an audit of financial statements is to:",
+      "options": {
+        "A": "Provide absolute assurance that the financial statements contain no fraud or error of any amount",
+        "B": "Certify the arithmetical accuracy of every transaction recorded in the books of account",
+        "C": "Detect and prevent all frauds committed by employees and management during the year",
+        "D": "Obtain reasonable assurance about whether the financial statements as a whole are free from material misstatement, whether due to fraud or error, and to report in accordance with the auditor's findings"
+      },
+      "correct": "D",
+      "explanation": "SA 200 frames the auditor's overall objective around reasonable assurance on the financial statements as a whole and reporting on the findings. Absolute assurance is not attainable because of the inherent limitations of an audit. Prevention and detection of fraud is primarily the responsibility of management and those charged with governance, and an audit does not verify every transaction.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-audit-c01-q002",
+      "chapter": 1,
+      "topic": "Nature, Objective and Scope of Audit",
+      "question_text": "Reasonable assurance, as used in the Standards on Auditing, is best described as:",
+      "options": {
+        "A": "An absolute level of assurance obtained by testing all transactions",
+        "B": "A moderate level of assurance expressed in negative form",
+        "C": "A high, but not absolute, level of assurance",
+        "D": "A low level of assurance sufficient only for internal use by management"
+      },
+      "correct": "C",
+      "explanation": "Reasonable assurance is a high but not absolute level of assurance, obtained when the auditor reduces audit risk to an acceptably low level. A moderate (limited) level of assurance expressed in negative form is characteristic of a review engagement, not an audit.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-audit-c01-q003",
+      "chapter": 1,
+      "topic": "Nature, Objective and Scope of Audit",
+      "question_text": "Mr. Kunal, a trainee, lists the following as inherent limitations of an audit. Which one is NOT an inherent limitation recognised by SA 200?",
+      "options": {
+        "A": "Many financial statement items involve subjective judgements and estimates by management",
+        "B": "The audit must be completed within a reasonable period and at a reasonable cost",
+        "C": "The auditor has no legal power to compel third parties to provide information, as in a search",
+        "D": "The auditor lacks the competence required to apply the Standards on Auditing"
+      },
+      "correct": "D",
+      "explanation": "SA 200 identifies inherent limitations arising from the nature of financial reporting (judgement and estimates), the nature of audit procedures (no legal powers of search, collusion, forgery) and the need for timeliness and cost balance. Lack of competence is not an inherent limitation; the auditor is expected to be competent, and accepting an engagement without competence would breach ethical requirements.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c01-q004",
+      "chapter": 1,
+      "topic": "Nature, Objective and Scope of Audit",
+      "question_text": "Kamya Traders Ltd. asks its auditor to skip confirming a large receivable from an overseas customer because obtaining the reply would take time and add cost. No alternative procedure is available to obtain evidence on that balance. Per SA 200, the auditor should recognise that:",
+      "options": {
+        "A": "The procedure may be omitted if management gives a written representation on the balance",
+        "B": "The procedure may be omitted provided the matter is mentioned in an Other Matter paragraph",
+        "C": "The procedure may be omitted because the audit must balance cost against benefit",
+        "D": "Difficulty, time or cost involved is not in itself a valid basis for omitting an audit procedure for which there is no alternative"
+      },
+      "correct": "D",
+      "explanation": "SA 200 accepts that an audit is subject to time and cost constraints, but states that difficulty, time or cost is not in itself a valid basis for omitting a procedure for which there is no alternative or for being satisfied with less than persuasive evidence. A written representation cannot replace evidence that is expected to be available, and an Other Matter paragraph does not cure a scope gap.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c01-q005",
+      "chapter": 1,
+      "topic": "Nature, Objective and Scope of Audit",
+      "question_text": "Professional skepticism, as required by SA 200, includes:",
+      "options": {
+        "A": "Acceptance of management's explanations without corroboration where management has been honest in the past",
+        "B": "A questioning mind, being alert to conditions that may indicate possible misstatement, and a critical assessment of audit evidence",
+        "C": "A refusal to rely on any document provided by the entity",
+        "D": "An assumption that management is dishonest unless proved otherwise"
+      },
+      "correct": "B",
+      "explanation": "Professional skepticism is an attitude that includes a questioning mind, alertness to conditions that may indicate misstatement due to error or fraud, and critical assessment of evidence. It neither assumes dishonesty nor unquestioning honesty. Past experience of honest management does not relieve the auditor of the need to maintain skepticism.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-audit-c01-q006",
+      "chapter": 1,
+      "topic": "Nature, Objective and Scope of Audit",
+      "question_text": "Which of the following statements about professional judgment in an audit is correct?",
+      "options": {
+        "A": "It is needed only at the planning stage, when materiality is determined",
+        "B": "It permits the auditor to depart from any requirement of an SA without documentation",
+        "C": "It is exercised by the engagement team only after consulting management on each matter",
+        "D": "It must be exercised throughout the audit and cannot be used to justify decisions that are not supported by the facts and circumstances of the engagement"
+      },
+      "correct": "D",
+      "explanation": "SA 200 requires the auditor to exercise professional judgment in planning and performing an audit, for example on materiality, audit risk, the nature, timing and extent of procedures and the evaluation of evidence. Judgment must be applied by a person with suitable training and experience, must be appropriately documented, and is not a justification for decisions unsupported by the facts.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c01-q007",
+      "chapter": 1,
+      "topic": "Nature, Objective and Scope of Audit",
+      "question_text": "The managing director of Sitara Fabrics Ltd. states at a board meeting: 'Since our accounts are audited, any error in them is the responsibility of the auditor.' This view is:",
+      "options": {
+        "A": "Correct, because once the auditor signs the report the responsibility for the financial statements shifts to the auditor",
+        "B": "Incorrect, because the responsibility lies solely with the shareholders who approve the accounts",
+        "C": "Incorrect, because the audit of financial statements does not relieve management or those charged with governance of their responsibility for preparing the financial statements",
+        "D": "Correct for errors but incorrect for frauds"
+      },
+      "correct": "C",
+      "explanation": "The preparation of financial statements in accordance with the applicable financial reporting framework is the responsibility of management, with oversight by those charged with governance. The auditor's responsibility is to express an opinion on them. The audit does not relieve management of its responsibility, whether the misstatement arises from error or fraud.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c01-q008",
+      "chapter": 1,
+      "topic": "Nature, Objective and Scope of Audit",
+      "question_text": "A lender asks Ms. Rhea, a practising Chartered Accountant, for a report on interim financial information in which she expresses a conclusion that nothing has come to her attention that causes her to believe the information is materially misstated. This is an example of:",
+      "options": {
+        "A": "An agreed-upon procedures engagement in which no assurance is expressed",
+        "B": "A review engagement providing limited assurance expressed in negative form",
+        "C": "An investigation, which provides absolute assurance on the information",
+        "D": "An audit engagement providing reasonable assurance expressed in positive form"
+      },
+      "correct": "B",
+      "explanation": "A conclusion worded as 'nothing has come to our attention' is a negatively expressed conclusion, which is characteristic of a review engagement providing limited assurance. An audit gives reasonable assurance in the form of a positive opinion. In agreed-upon procedures, only factual findings are reported and no assurance is expressed.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-audit-c01-q009",
+      "chapter": 1,
+      "topic": "Nature, Objective and Scope of Audit",
+      "question_text": "The directors of Vaanya Agro Ltd. instruct the statutory auditor not to verify inventory held at one of its five depots, stating that the depot manager is trustworthy. Inventory at that depot is material to the financial statements. Which statement best reflects the position of the auditor?",
+      "options": {
+        "A": "The scope of the audit is determined by the auditor under the SAs, the applicable law and the terms of engagement, and such a restriction is a management-imposed limitation that may lead to a modified opinion",
+        "B": "The auditor should accept a written representation from the depot manager in place of verification and issue an unmodified opinion",
+        "C": "The directors may lawfully restrict the scope of an audit, so the auditor should exclude the depot and issue an unmodified opinion",
+        "D": "The auditor must immediately resign without communicating with those charged with governance"
+      },
+      "correct": "A",
+      "explanation": "The scope of an audit is set by the requirements of the SAs, relevant law and the terms of engagement, and management cannot curtail it. A management-imposed restriction over a material item is a limitation on scope; under SA 705 the auditor should request removal, communicate with those charged with governance and consider alternative procedures. If sufficient appropriate evidence still cannot be obtained, the opinion must be modified. A representation from an interested employee is not a substitute for the evidence.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-audit-c01-q010",
+      "chapter": 1,
+      "topic": "Nature, Objective and Scope of Audit",
+      "question_text": "After an audit conducted in accordance with the SAs, it is discovered that the accountant and an outside supplier had colluded to raise forged invoices that looked genuine. The auditor had not detected the fraud. Which statement is most appropriate?",
+      "options": {
+        "A": "The subsequent discovery of a material fraud does not by itself indicate that the audit was not performed in accordance with the SAs, as the auditor is not expected to be an expert in authenticating documents",
+        "B": "The auditor is automatically guilty of gross negligence because a material fraud remained undetected",
+        "C": "The auditor is not responsible in any case because fraud detection is never an audit objective",
+        "D": "The auditor should have physically verified every invoice with the supplier, as required by SA 500"
+      },
+      "correct": "A",
+      "explanation": "SA 200 and SA 240 recognise that fraud involving collusion and forgery may not be detected even in a properly planned and performed audit. A later discovery of fraud does not by itself mean the audit failed to comply with the SAs; the question is whether the auditor performed procedures appropriate in the circumstances with professional skepticism. Detecting material misstatement due to fraud is still within the auditor's objective, so the auditor is not exempt from responsibility.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-audit-c02-q001",
+      "chapter": 2,
+      "topic": "Audit Strategy, Audit Planning and Audit Programme",
+      "question_text": "According to SA 300, the overall audit strategy:",
+      "options": {
+        "A": "Is the written agreement on the terms of the engagement signed by management",
+        "B": "Is prepared only after the audit fieldwork is completed",
+        "C": "Is a detailed list of procedures to be applied to each account balance",
+        "D": "Sets the scope, timing and direction of the audit and guides the development of the audit plan"
+      },
+      "correct": "D",
+      "explanation": "SA 300 requires the auditor to establish an overall audit strategy that sets the scope, timing and direction of the audit, and that guides the development of the more detailed audit plan. The written agreement of terms is the engagement letter under SA 210, and a detailed list of procedures is the audit plan or programme.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-audit-c02-q002",
+      "chapter": 2,
+      "topic": "Audit Strategy, Audit Planning and Audit Programme",
+      "question_text": "Which of the following is a matter included in the audit plan rather than in the overall audit strategy?",
+      "options": {
+        "A": "The factors that are significant in directing the efforts of the engagement team",
+        "B": "The reporting objectives of the engagement and the timing of the audit",
+        "C": "The nature, timing and extent of planned further audit procedures at the assertion level",
+        "D": "The characteristics of the engagement that define its scope, such as the reporting framework"
+      },
+      "correct": "C",
+      "explanation": "Under SA 300, the audit plan describes the nature, timing and extent of planned risk assessment procedures and further audit procedures at the assertion level. The scope-defining characteristics, reporting objectives and timing, and the factors directing the team's efforts are considered while establishing the overall audit strategy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c02-q003",
+      "chapter": 2,
+      "topic": "Audit Strategy, Audit Planning and Audit Programme",
+      "question_text": "Midway through the audit of Neelgiri Tea Ltd., the audit team learns that a major subsidiary has been sold. The engagement partner says the audit plan, once approved, cannot be changed. Under SA 300:",
+      "options": {
+        "A": "Planning is a continual and iterative process; the strategy and plan must be updated as necessary and significant changes, with reasons, documented",
+        "B": "The change should be made but need not be documented because the final audit file shows the work done",
+        "C": "The plan may be altered only with the written approval of the company's board of directors",
+        "D": "The plan may not be altered, and the effect of the sale should be dealt with in the next year's audit"
+      },
+      "correct": "A",
+      "explanation": "SA 300 states that planning is not a discrete phase but a continual and iterative process. The auditor shall update and change the overall audit strategy and audit plan as necessary during the audit, and document significant changes and the reasons for them. Management approval is not required to change the auditor's plan.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c02-q004",
+      "chapter": 2,
+      "topic": "Audit Strategy, Audit Planning and Audit Programme",
+      "question_text": "SA 300 requires which of the following persons to be involved in planning the audit?",
+      "options": {
+        "A": "The engagement quality reviewer alone",
+        "B": "The engagement partner and other key members of the engagement team",
+        "C": "The chief financial officer of the entity",
+        "D": "Only the article assistants who will perform the fieldwork"
+      },
+      "correct": "B",
+      "explanation": "SA 300 requires the engagement partner and other key members of the engagement team to be involved in planning the audit, including discussions among team members. Their involvement brings experience and insight into the planning process. The client's CFO does not plan the audit, and the engagement quality reviewer has a separate, objective review role rather than planning the audit.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-audit-c02-q005",
+      "chapter": 2,
+      "topic": "Audit Strategy, Audit Planning and Audit Programme",
+      "question_text": "Which of the following is NOT a preliminary engagement activity required at the beginning of the current audit engagement under SA 300?",
+      "options": {
+        "A": "Evaluating compliance with relevant ethical requirements, including independence",
+        "B": "Establishing an understanding of the terms of the engagement as required by SA 210",
+        "C": "Performing procedures regarding the continuance of the client relationship and the specific engagement",
+        "D": "Performing tests of details on sales cut-off around the year-end"
+      },
+      "correct": "D",
+      "explanation": "SA 300 requires the auditor, at the beginning of the engagement, to perform the procedures required by SA 220 regarding continuance of the client relationship and the specific engagement, evaluate compliance with ethical requirements including independence, and establish an understanding of the terms of engagement (SA 210). Cut-off testing is a further audit procedure performed in response to assessed risks, not a preliminary engagement activity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c02-q006",
+      "chapter": 2,
+      "topic": "Audit Strategy, Audit Planning and Audit Programme",
+      "question_text": "Rajat & Co. has been appointed auditor of Jivika Ltd. for the first time. Which additional planning consideration applies specifically because it is an initial audit engagement?",
+      "options": {
+        "A": "Relying on the previous year's audit report as sufficient evidence for all opening balances",
+        "B": "Reducing materiality to zero because the auditor has no past knowledge of the entity",
+        "C": "Omitting the risk assessment for the first year because the predecessor already did it",
+        "D": "Arranging, where permitted, to review the predecessor auditor's working papers and planning procedures for opening balances under SA 510"
+      },
+      "correct": "D",
+      "explanation": "SA 300 notes that in an initial audit the auditor may need to expand planning activities, including arrangements with the predecessor auditor to review its working papers and procedures required by SA 510 regarding opening balances. The predecessor's report alone is not sufficient evidence, and risk assessment cannot be skipped.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c02-q007",
+      "chapter": 2,
+      "topic": "Audit Strategy, Audit Planning and Audit Programme",
+      "question_text": "An audit programme is best described as:",
+      "options": {
+        "A": "A summary of the client's accounting policies prepared by management",
+        "B": "A list of the client's employees responsible for each ledger",
+        "C": "A statement of the auditor's opinion issued at the end of the audit",
+        "D": "A detailed plan of audit procedures that also serves as a set of instructions to assistants and a record of work performed"
+      },
+      "correct": "D",
+      "explanation": "An audit programme sets out the audit procedures to be performed. It instructs the assistants on the work to be done, helps allocate and control work, and when initialled serves as evidence of the work performed. It is prepared by the auditor, not management.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-audit-c02-q008",
+      "chapter": 2,
+      "topic": "Audit Strategy, Audit Planning and Audit Programme",
+      "question_text": "Which of the following is generally regarded as a limitation of using a standard audit programme?",
+      "options": {
+        "A": "The work may become mechanical, and assistants may not look beyond the listed steps even when circumstances call for it",
+        "B": "It removes the need for supervision and review of assistants' work",
+        "C": "It makes it impossible to allocate work among assistants",
+        "D": "It cannot be used as evidence of the work actually performed"
+      },
+      "correct": "A",
+      "explanation": "A common criticism of audit programmes is that they can make the work mechanical and discourage initiative, so that unusual matters outside the programme are missed. They help allocate work and evidence work done, but supervision and review are still required. Programmes should be reviewed and adapted to the circumstances.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-audit-c02-q009",
+      "chapter": 2,
+      "topic": "Audit Strategy, Audit Planning and Audit Programme",
+      "question_text": "For the audit of Aranya Paints Ltd., the auditor selects profit before tax of Rs. 4.8 crore as the benchmark and applies 5% to determine materiality for the financial statements as a whole. Performance materiality is set at 75% of that materiality. What is performance materiality?",
+      "options": {
+        "A": "Rs. 18 lakh",
+        "B": "Rs. 12 lakh",
+        "C": "Rs. 24 lakh",
+        "D": "Rs. 36 lakh"
+      },
+      "correct": "A",
+      "explanation": "Materiality = 5% x Rs. 480 lakh = Rs. 24 lakh. Performance materiality = 75% x Rs. 24 lakh = Rs. 18 lakh. Rs. 24 lakh is overall materiality, Rs. 36 lakh wrongly applies 7.5% to the benchmark, and Rs. 12 lakh applies 50%. SA 320 leaves the percentages to professional judgment; these are given in the question.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c02-q010",
+      "chapter": 2,
+      "topic": "Audit Strategy, Audit Planning and Audit Programme",
+      "question_text": "Under SA 320, the main purpose of setting performance materiality at an amount lower than materiality for the financial statements as a whole is to:",
+      "options": {
+        "A": "Reduce to an appropriately low level the probability that the aggregate of uncorrected and undetected misstatements exceeds materiality for the financial statements as a whole",
+        "B": "Ensure that every individual misstatement below performance materiality is ignored",
+        "C": "Determine the threshold above which misstatements must be reported in the auditor's report",
+        "D": "Replace the need for professional judgment in evaluating misstatements"
+      },
+      "correct": "A",
+      "explanation": "SA 320 explains that planning only to detect individually material misstatements ignores the fact that misstatements which are individually immaterial may add up to a material amount, together with undetected misstatements. Performance materiality is set below overall materiality to provide a margin for this aggregation risk. It does not mean smaller misstatements are ignored, and it is not a reporting threshold.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-audit-c02-q011",
+      "chapter": 2,
+      "topic": "Audit Strategy, Audit Planning and Audit Programme",
+      "question_text": "At planning, the auditor of Dhruv Motors Ltd. set materiality at 1% of forecast revenue of Rs. 200 crore. Actual revenue for the year turns out to be Rs. 150 crore. Under SA 320, the auditor should:",
+      "options": {
+        "A": "Revise materiality to Rs. 1.5 crore but make no change to performance materiality or audit procedures",
+        "B": "Continue with materiality of Rs. 2 crore because materiality is fixed at the planning stage",
+        "C": "Revise materiality to Rs. 1.5 crore and determine whether performance materiality and the nature, timing and extent of further audit procedures remain appropriate",
+        "D": "Revise materiality to Rs. 2.5 crore to reflect the shortfall in revenue"
+      },
+      "correct": "C",
+      "explanation": "Original materiality = 1% x Rs. 200 crore = Rs. 2 crore. Based on actual revenue, 1% x Rs. 150 crore = Rs. 1.5 crore. SA 320 requires the auditor to revise materiality when aware of information that would have caused a different amount initially. When the revised amount is lower, the auditor must reconsider performance materiality and whether the nature, timing and extent of further audit procedures remain appropriate.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-audit-c03-q001",
+      "chapter": 3,
+      "topic": "Risk Assessment and Internal Control",
+      "question_text": "Audit risk is a function of:",
+      "options": {
+        "A": "Inherent risk and business risk only",
+        "B": "Engagement risk and the auditor's fee",
+        "C": "Control risk and sampling risk only",
+        "D": "The risks of material misstatement and detection risk"
+      },
+      "correct": "D",
+      "explanation": "Audit risk is the risk that the auditor expresses an inappropriate opinion when the financial statements are materially misstated. It is a function of the risks of material misstatement (made up of inherent risk and control risk) and detection risk. Business risk is broader and only some of it gives rise to risks of material misstatement.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-audit-c03-q002",
+      "chapter": 3,
+      "topic": "Risk Assessment and Internal Control",
+      "question_text": "The auditor of Prakash Chemicals Ltd. has assessed the risk of material misstatement for inventory valuation as high. The auditor should therefore:",
+      "options": {
+        "A": "Accept a higher detection risk because the inherent risk is already known",
+        "B": "Accept a lower detection risk and obtain more persuasive audit evidence from substantive procedures",
+        "C": "Lower materiality to zero for inventory and test every item without considering risk",
+        "D": "Reduce substantive procedures and rely on management's representations"
+      },
+      "correct": "B",
+      "explanation": "Detection risk varies inversely with the assessed risk of material misstatement for a given level of audit risk. A high assessed risk requires a lower acceptable detection risk, which means more persuasive evidence through changes in the nature, timing and extent of substantive procedures, for example larger samples or procedures closer to the year-end.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c03-q003",
+      "chapter": 3,
+      "topic": "Risk Assessment and Internal Control",
+      "question_text": "Which of the following is NOT one of the risk assessment procedures listed in SA 315?",
+      "options": {
+        "A": "Observation and inspection",
+        "B": "External confirmation of trade receivable balances",
+        "C": "Inquiries of management and other appropriate individuals within the entity",
+        "D": "Analytical procedures"
+      },
+      "correct": "B",
+      "explanation": "SA 315 states that risk assessment procedures include inquiries of management and others, analytical procedures, and observation and inspection. External confirmation under SA 505 is generally used as a further audit procedure (substantive test) responding to assessed risks rather than as a risk assessment procedure.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-audit-c03-q004",
+      "chapter": 3,
+      "topic": "Risk Assessment and Internal Control",
+      "question_text": "The auditor of Saanvi Realty Ltd. has identified revenue recognition on long-term contracts as a significant risk and plans to respond using only substantive procedures. Under SA 330, those procedures must:",
+      "options": {
+        "A": "Include tests of details",
+        "B": "Be performed only at an interim date",
+        "C": "Be limited to inquiries of the project managers",
+        "D": "Consist only of substantive analytical procedures"
+      },
+      "correct": "A",
+      "explanation": "SA 330 requires that when the approach to a significant risk consists only of substantive procedures, those procedures shall include tests of details. Substantive analytical procedures alone are not considered sufficient for a significant risk, and inquiry alone never provides sufficient appropriate evidence.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c03-q005",
+      "chapter": 3,
+      "topic": "Risk Assessment and Internal Control",
+      "question_text": "Which of the following is NOT a component of internal control described in SA 315?",
+      "options": {
+        "A": "The information system and communication",
+        "B": "The control environment",
+        "C": "The entity's risk assessment process",
+        "D": "The external audit function"
+      },
+      "correct": "D",
+      "explanation": "SA 315 describes the components of the entity's system of internal control as the control environment, the entity's risk assessment process, the information system (including related business processes) and communication, control activities, and monitoring of controls. The external auditor is independent of the entity and is not part of its internal control.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-audit-c03-q006",
+      "chapter": 3,
+      "topic": "Risk Assessment and Internal Control",
+      "question_text": "At Ishaan Logistics Ltd., the stores keeper and the security guard together removed goods from the warehouse and prepared matching false gate passes. The controls were well designed but failed. This is an example of which inherent limitation of internal control?",
+      "options": {
+        "A": "Controls designed only for routine transactions",
+        "B": "Collusion among two or more people",
+        "C": "The cost of a control exceeding its benefit",
+        "D": "Management override of controls"
+      },
+      "correct": "B",
+      "explanation": "Internal controls, however well designed, can be circumvented when two or more people collude, because segregation of duties relies on one person checking another. Here the stores keeper and guard acted together, defeating the control. Management override involves management, which is not the case.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-audit-c03-q007",
+      "chapter": 3,
+      "topic": "Risk Assessment and Internal Control",
+      "question_text": "In Vritika Stores Pvt. Ltd., the cashier who receives cash from customers also posts entries to the customers' ledger accounts. This arrangement is weak because it:",
+      "options": {
+        "A": "Prevents the use of computerised accounting",
+        "B": "Combines authorisation with execution of purchase orders",
+        "C": "Violates the requirement that cash be banked daily",
+        "D": "Combines custody of assets with recording of transactions, allowing misappropriation to be concealed"
+      },
+      "correct": "D",
+      "explanation": "Effective segregation of duties separates authorisation, recording and custody of assets. A cashier who also maintains the customer ledger can misappropriate receipts and conceal it by manipulating ledger entries, for example through teeming and lading. The weakness lies in combining custody with recording.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c03-q008",
+      "chapter": 3,
+      "topic": "Risk Assessment and Internal Control",
+      "question_text": "The auditor of Harshil Steel Ltd. tested a control over credit approvals last year and found it effective. The control mitigates a significant risk. There is no change in the control this year. Under SA 330, the auditor intending to rely on it:",
+      "options": {
+        "A": "May rely on last year's test without further work, as the control has not changed",
+        "B": "May rely on last year's test until the third audit, as permitted for all unchanged controls",
+        "C": "Need only inquire of management whether the control has changed",
+        "D": "Must test the operating effectiveness of the control in the current period"
+      },
+      "correct": "D",
+      "explanation": "SA 330 allows the auditor to use evidence from previous audits about unchanged controls, testing them at least once in every third audit. However, where the auditor plans to rely on controls over a risk that has been determined to be significant, the controls shall be tested in the current period. Inquiry alone is insufficient to test operating effectiveness.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-audit-c03-q009",
+      "chapter": 3,
+      "topic": "Risk Assessment and Internal Control",
+      "question_text": "Which of the following is a test of control rather than a substantive procedure?",
+      "options": {
+        "A": "Obtaining a balance confirmation from a supplier",
+        "B": "Recomputing depreciation charged on a sample of assets",
+        "C": "Inspecting a sample of purchase orders for the signature of the authorised purchase manager",
+        "D": "Comparing the year-end payables balance with an expectation based on purchases"
+      },
+      "correct": "C",
+      "explanation": "Tests of controls evaluate whether controls operated effectively, for example by inspecting documents for evidence of authorisation. Supplier confirmations, recomputation of depreciation and analytical comparison of payables are substantive procedures designed to detect material misstatements at the assertion level.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-audit-c03-q010",
+      "chapter": 3,
+      "topic": "Risk Assessment and Internal Control",
+      "question_text": "Which of the following is an application control in an IT environment?",
+      "options": {
+        "A": "An input check that rejects a sales order when the quantity field is left blank",
+        "B": "A procedure requiring approval and testing before program changes are moved to production",
+        "C": "Daily backup of data to an off-site data centre",
+        "D": "A policy requiring users to change their passwords periodically"
+      },
+      "correct": "A",
+      "explanation": "Application controls operate at the level of individual applications and transactions, such as input validation, edit checks and matching. Password policies, program change management and backups are general IT controls that support the continued functioning of application controls across systems.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c03-q011",
+      "chapter": 3,
+      "topic": "Risk Assessment and Internal Control",
+      "question_text": "During the audit of Mehar Textiles Ltd., the auditor identifies a deficiency in internal control that, in the auditor's judgment, is a significant deficiency. Under SA 265, the auditor shall:",
+      "options": {
+        "A": "Communicate it only if management has not already rectified it before the year-end",
+        "B": "Communicate it in writing to those charged with governance on a timely basis, and also communicate it to management at an appropriate level",
+        "C": "Communicate it orally to the accountant and record the discussion in the working papers",
+        "D": "Disclose it in the Opinion section of the auditor's report"
+      },
+      "correct": "B",
+      "explanation": "SA 265 requires significant deficiencies to be communicated in writing to those charged with governance on a timely basis. They must also be communicated to management at an appropriate level, unless inappropriate in the circumstances. Other deficiencies of sufficient importance are communicated to management. Internal control deficiencies are not reported in the opinion paragraph under SA 265.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-audit-c03-q012",
+      "chapter": 3,
+      "topic": "Risk Assessment and Internal Control",
+      "question_text": "The internal audit department of Kirat Foods Ltd. has tested inventory controls, and the statutory auditor decides to use this work under SA 610. Which statement is correct?",
+      "options": {
+        "A": "The external auditor retains sole responsibility for the audit opinion, which is not reduced by the use of the internal auditors' work",
+        "B": "The external auditor must refer to the internal auditors' work in the auditor's report",
+        "C": "Responsibility for the opinion is shared in proportion to the work done by the internal auditors",
+        "D": "The external auditor may use the work without evaluating the objectivity or competence of the internal audit function"
+      },
+      "correct": "A",
+      "explanation": "SA 610 makes clear that the external auditor has sole responsibility for the audit opinion, and this is not reduced by using the internal audit function's work. The auditor must first evaluate the function's objectivity, competence and systematic and disciplined approach. The auditor's report does not refer to the internal auditors' work.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c03-q013",
+      "chapter": 3,
+      "topic": "Risk Assessment and Internal Control",
+      "question_text": "An auditor uses the audit risk model AR = IR x CR x DR. Acceptable audit risk is 4%, inherent risk is assessed at 80% and control risk at 50%. What is the maximum acceptable detection risk?",
+      "options": {
+        "A": "5%",
+        "B": "8%",
+        "C": "10%",
+        "D": "1.6%"
+      },
+      "correct": "C",
+      "explanation": "DR = AR / (IR x CR) = 0.04 / (0.80 x 0.50) = 0.04 / 0.40 = 0.10, or 10%. 8% results from ignoring inherent risk (0.04/0.50), 5% from ignoring control risk (0.04/0.80), and 1.6% from multiplying instead of dividing (0.04 x 0.40). A lower acceptable detection risk would call for more substantive work.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-audit-c04-q001",
+      "chapter": 4,
+      "topic": "Audit Evidence",
+      "question_text": "Under SA 500, 'sufficiency' and 'appropriateness' of audit evidence refer respectively to:",
+      "options": {
+        "A": "The cost of obtaining evidence, and its relevance to management",
+        "B": "The number of auditors involved, and the time spent on evidence",
+        "C": "The quality of evidence, and the quantity of evidence",
+        "D": "The quantity of evidence, and its quality in terms of relevance and reliability"
+      },
+      "correct": "D",
+      "explanation": "SA 500 defines sufficiency as the measure of the quantity of audit evidence and appropriateness as the measure of its quality, that is, its relevance and reliability in supporting the auditor's conclusions. More evidence does not compensate for poor quality evidence.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-audit-c04-q002",
+      "chapter": 4,
+      "topic": "Audit Evidence",
+      "question_text": "Which of the following items of evidence is ordinarily the most reliable?",
+      "options": {
+        "A": "A photocopy of a bank statement provided by the accountant",
+        "B": "A bank reconciliation statement prepared by the company's accounts team",
+        "C": "A bank balance confirmation sent and received directly by the auditor",
+        "D": "An oral explanation from the finance manager about the bank balance"
+      },
+      "correct": "C",
+      "explanation": "Evidence is generally more reliable when obtained from independent sources outside the entity, when obtained directly by the auditor, when in documentary form and when in original form. A confirmation received directly from the bank meets all these conditions. Photocopies, oral explanations and internally prepared documents are less reliable.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-audit-c04-q003",
+      "chapter": 4,
+      "topic": "Audit Evidence",
+      "question_text": "The auditor of Oorja Electricals Ltd. selects goods dispatch notes issued in the last week of the year and traces them to sales invoices and the sales ledger. This procedure primarily tests which assertion for sales?",
+      "options": {
+        "A": "Classification",
+        "B": "Occurrence",
+        "C": "Completeness",
+        "D": "Presentation"
+      },
+      "correct": "C",
+      "explanation": "Tracing from source documents (dispatch notes) to the accounting records tests whether all transactions that occurred have been recorded, which is the completeness assertion. Testing in the opposite direction, from ledger entries back to supporting documents, tests occurrence.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-audit-c04-q004",
+      "chapter": 4,
+      "topic": "Audit Evidence",
+      "question_text": "The auditor selects entries from the purchases account and vouches them to supplier invoices and goods received notes. The primary assertion tested is:",
+      "options": {
+        "A": "Valuation of inventory",
+        "B": "Completeness of purchases",
+        "C": "Cut-off of sales",
+        "D": "Occurrence of purchases"
+      },
+      "correct": "D",
+      "explanation": "Vouching from recorded entries back to supporting evidence checks that the recorded purchases actually took place and pertain to the entity, which is the occurrence assertion. It cannot detect unrecorded purchases, so it does not test completeness.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-audit-c04-q005",
+      "chapter": 4,
+      "topic": "Audit Evidence",
+      "question_text": "Management of Tanvi Exports Ltd. refuses to allow the auditor to send a confirmation request to a major customer. Under SA 505, the auditor shall FIRST:",
+      "options": {
+        "A": "Accept the refusal and rely on a written representation about the balance",
+        "B": "Immediately issue a disclaimer of opinion",
+        "C": "Inquire into management's reasons for the refusal and seek audit evidence about their validity and reasonableness",
+        "D": "Send the confirmation request anyway without informing management"
+      },
+      "correct": "C",
+      "explanation": "SA 505 requires the auditor to inquire as to management's reasons, seek evidence as to their validity and reasonableness, evaluate the implications for risk assessment including fraud risk, and perform alternative procedures. If the refusal is unreasonable or alternative evidence cannot be obtained, the auditor communicates with those charged with governance and considers the effect on the opinion under SA 705.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c04-q006",
+      "chapter": 4,
+      "topic": "Audit Evidence",
+      "question_text": "SA 505 permits negative confirmation requests as the sole substantive procedure for an assertion only when certain conditions are all present. Which of the following is one of those conditions?",
+      "options": {
+        "A": "The recipients are likely to disregard the requests",
+        "B": "The population consists of a large number of small, homogeneous account balances",
+        "C": "A high exception rate is expected",
+        "D": "The assessed risk of material misstatement is high"
+      },
+      "correct": "B",
+      "explanation": "Negative confirmations provide less persuasive evidence than positive ones. SA 505 allows them as the sole substantive procedure only where the risk of material misstatement is low and controls are tested, the population is a large number of small homogeneous balances, a very low exception rate is expected, and there is no reason to believe recipients will disregard them.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c04-q007",
+      "chapter": 4,
+      "topic": "Audit Evidence",
+      "question_text": "When inventory is material, SA 501 requires the auditor to attend the physical inventory count, unless impracticable, in order to:",
+      "options": {
+        "A": "Take over the count from the client's staff and value the inventory personally",
+        "B": "Sign the inventory sheets as a certificate of quantities and values",
+        "C": "Ensure that the count is conducted only on the last day of the financial year",
+        "D": "Evaluate management's instructions, observe the count procedures, inspect the inventory and perform test counts"
+      },
+      "correct": "D",
+      "explanation": "SA 501 requires attendance at physical inventory counting to evaluate management's instructions and procedures, observe their performance, inspect the inventory and perform test counts. The count remains management's responsibility. The count can be at a date other than the year-end, with procedures to cover movements in between.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-audit-c04-q008",
+      "chapter": 4,
+      "topic": "Audit Evidence",
+      "question_text": "The auditor of Pankhuri Minerals Ltd. is unable to attend the inventory count at a remote mine because it is in an area declared unsafe due to flooding. Inventory there is material. Under SA 501, the auditor should:",
+      "options": {
+        "A": "Accept a certificate from the mine manager as conclusive evidence",
+        "B": "Perform alternative audit procedures to obtain evidence on existence and condition, and modify the opinion under SA 705 if this is not possible",
+        "C": "Issue an unmodified opinion because the reason for non-attendance is beyond the auditor's control",
+        "D": "Withdraw from the engagement immediately"
+      },
+      "correct": "B",
+      "explanation": "Where attendance is impracticable, for example due to safety concerns, SA 501 requires the auditor to perform alternative procedures such as inspecting subsequent sales documents for specific items. If that is not possible, the auditor modifies the opinion under SA 705. A certificate from an interested official is weak evidence, and mere inconvenience does not justify non-attendance.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-audit-c04-q009",
+      "chapter": 4,
+      "topic": "Audit Evidence",
+      "question_text": "The auditor of Riddhi Pharma Ltd. assesses a risk of material misstatement regarding pending litigation and wishes to communicate with the company's external legal counsel. Management refuses permission. Under SA 501, the auditor shall:",
+      "options": {
+        "A": "Modify the opinion in accordance with SA 705 if management refuses permission and alternative procedures do not provide sufficient appropriate evidence",
+        "B": "Contact the counsel directly without management's permission",
+        "C": "Report the matter to the Central Government",
+        "D": "Rely on the management's internal legal department's list and issue an unmodified opinion"
+      },
+      "correct": "A",
+      "explanation": "SA 501 requires direct communication with external legal counsel through a letter of inquiry prepared by management and sent by the auditor where there is a risk of material misstatement. If management refuses permission, or counsel refuses to respond and alternative procedures do not provide sufficient evidence, the auditor shall modify the opinion under SA 705.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c04-q010",
+      "chapter": 4,
+      "topic": "Audit Evidence",
+      "question_text": "Using monetary unit sampling on trade receivables of Rs. 6 crore, the auditor selects 120 items using a fixed sampling interval. One selected balance with a book value of Rs. 2,00,000 has an audited value of Rs. 1,50,000. What is the projected misstatement for this sampling interval?",
+      "options": {
+        "A": "Rs. 2,00,000",
+        "B": "Rs. 50,000",
+        "C": "Rs. 1,50,000",
+        "D": "Rs. 1,25,000"
+      },
+      "correct": "D",
+      "explanation": "Sampling interval = Rs. 6,00,00,000 / 120 = Rs. 5,00,000. Misstatement = Rs. 2,00,000 - Rs. 1,50,000 = Rs. 50,000, so tainting = 50,000 / 2,00,000 = 25%. Because the item is smaller than the interval, projected misstatement = 25% x Rs. 5,00,000 = Rs. 1,25,000. Rs. 50,000 is only the actual misstatement, which SA 530 requires to be projected.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-audit-c04-q011",
+      "chapter": 4,
+      "topic": "Audit Evidence",
+      "question_text": "The auditor tests a sample of inventory items with a book value of Rs. 40 lakh and finds an audited value of Rs. 38 lakh. Total inventory book value is Rs. 5 crore. Using ratio estimation, the projected misstatement for the population is:",
+      "options": {
+        "A": "Rs. 25 lakh overstatement",
+        "B": "Rs. 50 lakh overstatement",
+        "C": "Rs. 2 lakh overstatement",
+        "D": "Rs. 20 lakh overstatement"
+      },
+      "correct": "A",
+      "explanation": "Misstatement in sample = Rs. 40 lakh - Rs. 38 lakh = Rs. 2 lakh, a ratio of 2/40 = 5%. Projected misstatement = 5% x Rs. 500 lakh = Rs. 25 lakh overstatement. Rs. 2 lakh ignores projection required by SA 530, Rs. 20 lakh uses 4%, and Rs. 50 lakh uses 10%.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c04-q012",
+      "chapter": 4,
+      "topic": "Audit Evidence",
+      "question_text": "Swara Software Ltd. had 250 employees throughout the year, each paid Rs. 30,000 per month. A uniform 8% increment was given with effect from 1 October; the financial year ends on 31 March. Using a substantive analytical procedure, what is the auditor's expected annual salary cost? (Ignore other components.)",
+      "options": {
+        "A": "Rs. 9.72 crore",
+        "B": "Rs. 9.00 crore",
+        "C": "Rs. 9.18 crore",
+        "D": "Rs. 9.36 crore"
+      },
+      "correct": "D",
+      "explanation": "Monthly cost before increment = 250 x Rs. 30,000 = Rs. 75 lakh; for April to September: 75 x 6 = Rs. 450 lakh. Monthly cost after increment = 75 x 1.08 = Rs. 81 lakh; for October to March: 81 x 6 = Rs. 486 lakh. Expected cost = 450 + 486 = Rs. 936 lakh, i.e. Rs. 9.36 crore. Rs. 9.72 crore applies the increment for the full year, Rs. 9.00 crore ignores it, and Rs. 9.18 crore applies it for only three months.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c04-q013",
+      "chapter": 4,
+      "topic": "Audit Evidence",
+      "question_text": "The auditor of Ojas Infra Ltd. engages a valuer as an auditor's expert to value land. The auditor issues a qualified opinion relating partly to the land valuation and wishes to mention the expert. Under SA 620:",
+      "options": {
+        "A": "Reference to the expert transfers responsibility for the land valuation to the expert",
+        "B": "The auditor may refer to the expert's work if relevant to understanding the modification, but must indicate that the reference does not reduce the auditor's responsibility for the opinion",
+        "C": "The auditor must always name the expert in the auditor's report, whether or not the opinion is modified",
+        "D": "The auditor may never refer to an expert in any auditor's report"
+      },
+      "correct": "B",
+      "explanation": "SA 620 states that the auditor has sole responsibility for the opinion, which is not reduced by the use of an auditor's expert. In an unmodified report, the auditor shall not refer to the expert unless required by law or regulation. If reference is made because it is relevant to understanding a modification, the report must state that the reference does not reduce the auditor's responsibility.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-audit-c04-q014",
+      "chapter": 4,
+      "topic": "Audit Evidence",
+      "question_text": "During the audit of Chaitra Retail Ltd., the auditor finds a significant transaction with an entity controlled by a director's spouse, which management had not disclosed as a related party. Under SA 550, the auditor shall:",
+      "options": {
+        "A": "Ignore it because identifying related parties is solely management's responsibility",
+        "B": "Record it in the working papers but take no further action as long as the amount is at arm's length",
+        "C": "Promptly communicate the information to the engagement team, request management to identify all such transactions, and reconsider the risk of other undisclosed related parties",
+        "D": "Report it immediately to the Registrar of Companies"
+      },
+      "correct": "C",
+      "explanation": "SA 550 requires the auditor, on identifying previously unidentified or undisclosed related parties or significant related party transactions, to communicate this to the engagement team, request management to identify all such transactions, inquire why controls failed, perform appropriate substantive procedures and reconsider the risk that other related parties exist. If non-disclosure appears intentional, the auditor evaluates the implications for the audit.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c05-q001",
+      "chapter": 5,
+      "topic": "Audit of Items of Financial Statements",
+      "question_text": "Goods were dispatched to a customer of Lavanya Ceramics Ltd. on 31 March (the year-end) with control passing on dispatch, but the invoice was raised on 2 April. Which procedure best detects such an error?",
+      "options": {
+        "A": "Recomputing the GST payable for the month of March",
+        "B": "Reviewing the minutes of the annual general meeting",
+        "C": "Examining dispatch records for a few days before and after the year-end and matching them with the period in which sales were recorded",
+        "D": "Obtaining a confirmation of the bank balance as on 31 March"
+      },
+      "correct": "C",
+      "explanation": "This is a sales cut-off issue. Revenue should be recognised in the period in which control passed, i.e. March. Cut-off testing involves matching dispatch documents around the year-end with the period of recording to ensure sales are recorded in the correct period. Bank confirmations and AGM minutes do not address this.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-audit-c05-q002",
+      "chapter": 5,
+      "topic": "Audit of Items of Financial Statements",
+      "question_text": "The auditor of Bhoomi Engineering Ltd. selects assets physically present on the factory floor and traces them to the fixed asset register. This procedure primarily provides evidence about:",
+      "options": {
+        "A": "Valuation of property, plant and equipment",
+        "B": "Occurrence of depreciation expense",
+        "C": "Existence of property, plant and equipment",
+        "D": "Completeness of property, plant and equipment"
+      },
+      "correct": "D",
+      "explanation": "Tracing from physical assets to the register checks whether assets that exist are recorded, which tests completeness. Selecting items from the register and verifying them physically tests existence. Neither procedure on its own tests valuation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c05-q003",
+      "chapter": 5,
+      "topic": "Audit of Items of Financial Statements",
+      "question_text": "Title deeds of a factory building owned by Yatin Polymers Ltd. are lodged with a bank as security for a term loan. To verify title, the auditor should:",
+      "options": {
+        "A": "Obtain a certificate directly from the bank confirming that it holds the title deeds on behalf of the company",
+        "B": "Accept a photocopy of the title deed certified by the company secretary",
+        "C": "Disregard verification because the bank has already checked the title",
+        "D": "Accept the company's own register of immovable properties as sufficient"
+      },
+      "correct": "A",
+      "explanation": "When title deeds are held by a lender as security, the auditor should obtain a confirmation directly from the bank that it holds the deeds, and examine the deeds where possible. The auditor should also check whether the property stands in the company's name and whether the charge is disclosed. Internal copies or registers are less reliable.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c05-q004",
+      "chapter": 5,
+      "topic": "Audit of Items of Financial Statements",
+      "question_text": "Ekam Packaging Ltd. bought a machine on 1 October for Rs. 48 lakh. Its estimated residual value is Rs. 3 lakh and useful life 9 years. The company uses the straight-line method and charged Rs. 5 lakh as depreciation for the year ending 31 March. What should the depreciation for the year be?",
+      "options": {
+        "A": "Rs. 5.33 lakh",
+        "B": "Rs. 2.5 lakh",
+        "C": "Rs. 5 lakh",
+        "D": "Rs. 2.67 lakh"
+      },
+      "correct": "B",
+      "explanation": "Annual depreciation = (Rs. 48 lakh - Rs. 3 lakh) / 9 = Rs. 5 lakh. The machine was used for 6 months (October to March), so depreciation = Rs. 5 lakh x 6/12 = Rs. 2.5 lakh. The company has overstated depreciation by Rs. 2.5 lakh. Rs. 2.67 lakh ignores residual value (48/9 x 6/12), and Rs. 5.33 lakh ignores both residual value and the time factor.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c05-q005",
+      "chapter": 5,
+      "topic": "Audit of Items of Financial Statements",
+      "question_text": "The auditor of Garima Distributors Ltd. examines cash received from customers in the six weeks after the year-end and matches it to year-end receivable balances. This procedure provides evidence mainly about:",
+      "options": {
+        "A": "Existence and valuation (recoverability) of trade receivables",
+        "B": "Classification of share capital",
+        "C": "Occurrence of purchases",
+        "D": "Completeness of trade payables"
+      },
+      "correct": "A",
+      "explanation": "Subsequent receipts against year-end balances show that the debts existed and were recoverable, supporting existence and valuation. Balances that remain unpaid long after the year-end may need an allowance for expected credit losses. The procedure says nothing about payables, purchases or share capital.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-audit-c05-q006",
+      "chapter": 5,
+      "topic": "Audit of Items of Financial Statements",
+      "question_text": "Ritam Chemicals Ltd. holds 1,000 units of a product at a cost of Rs. 600 per unit. The expected selling price is Rs. 650 per unit and estimated costs necessary to make the sale are Rs. 80 per unit. At what amount should this inventory be carried?",
+      "options": {
+        "A": "Rs. 6,50,000",
+        "B": "Rs. 5,70,000",
+        "C": "Rs. 5,20,000",
+        "D": "Rs. 6,00,000"
+      },
+      "correct": "B",
+      "explanation": "Net realisable value = Rs. 650 - Rs. 80 = Rs. 570 per unit. Inventory is valued at the lower of cost (Rs. 600) and NRV (Rs. 570), so Rs. 570 x 1,000 = Rs. 5,70,000. A write-down of Rs. 30,000 is required. Rs. 6,00,000 is cost, Rs. 6,50,000 is selling price, and Rs. 5,20,000 wrongly deducts costs to sell from cost.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-audit-c05-q007",
+      "chapter": 5,
+      "topic": "Audit of Items of Financial Statements",
+      "question_text": "In verifying cash in hand of Uday Hotels Ltd. at several counters, which of the following is NOT good audit practice?",
+      "options": {
+        "A": "Counting cash at all locations simultaneously, or sealing cash not counted immediately",
+        "B": "Allowing each cashier to count the cash in the auditor's absence and later obtaining a signed certificate of the amount",
+        "C": "Carrying out surprise counts in addition to the count at the year-end",
+        "D": "Conducting counts in the presence of the cashier and obtaining the cashier's signature on the count sheet"
+      },
+      "correct": "B",
+      "explanation": "The auditor should personally count or observe the count, in the cashier's presence, with simultaneous counts or sealing to prevent shifting of cash between locations, and should consider surprise counts. Relying on a cashier's certificate prepared without the auditor's observation provides weak evidence and defeats the purpose of physical verification.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c05-q008",
+      "chapter": 5,
+      "topic": "Audit of Items of Financial Statements",
+      "question_text": "At year-end, Tejas Builders Ltd. recorded cheques of Rs. 60 lakh as issued to suppliers, reducing both the bank balance and trade payables. The auditor finds the cheques were actually handed over to suppliers only in the third week of the next month. The appropriate audit view is that:",
+      "options": {
+        "A": "The amount should be shown as a contingent liability in the notes",
+        "B": "Only the bank balance should be increased by Rs. 60 lakh, with no change in payables",
+        "C": "The cheques were not issued at the year-end; the payments should be reversed, increasing both the bank balance and trade payables by Rs. 60 lakh",
+        "D": "The entries are correct because the cheques were written before the year-end"
+      },
+      "correct": "C",
+      "explanation": "A payment by cheque occurs when the cheque is delivered to the payee. Writing cheques but holding them back is a form of window dressing that reduces reported liabilities and improves ratios. The entries should be reversed so that both cash at bank and trade payables increase by Rs. 60 lakh; the auditor should also consider the implications for management integrity.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-audit-c05-q009",
+      "chapter": 5,
+      "topic": "Audit of Items of Financial Statements",
+      "question_text": "While verifying share capital issued during the year by Pranav Textiles Ltd., the auditor should examine:",
+      "options": {
+        "A": "Board and general meeting minutes, the register of members, and the return of allotment filed with the Registrar",
+        "B": "The fixed asset register and depreciation schedule",
+        "C": "Only the cash book entries showing receipt of application money",
+        "D": "The sales register and dispatch notes"
+      },
+      "correct": "A",
+      "explanation": "Verification of share capital involves checking authorisation in the memorandum and resolutions, minutes approving allotment, the register of members, receipt of money in the bank, and filings such as the return of allotment with the Registrar. The cash book alone does not show that shares were properly authorised and allotted.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-audit-c05-q010",
+      "chapter": 5,
+      "topic": "Audit of Items of Financial Statements",
+      "question_text": "Saakshi Steels Ltd. has breached a covenant in its long-term loan agreement on or before the year-end, making the loan repayable on demand, and has not obtained a waiver by the year-end. This primarily affects which aspect of the borrowing that the auditor must verify?",
+      "options": {
+        "A": "Occurrence of interest expense",
+        "B": "Completeness of share capital",
+        "C": "Classification of the loan as a current liability",
+        "D": "Existence of the lender"
+      },
+      "correct": "C",
+      "explanation": "Where a covenant breach on or before the reporting date makes a long-term liability payable on demand and no waiver exists at the reporting date, the liability is generally required to be classified as current. The auditor should review loan agreements, compliance with covenants and lender confirmations to ensure correct classification and disclosure.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c05-q011",
+      "chapter": 5,
+      "topic": "Audit of Items of Financial Statements",
+      "question_text": "The auditor of Nandan Security Services Ltd. suspects that the payroll includes 'ghost' employees. Which procedure is most effective in addressing this risk?",
+      "options": {
+        "A": "Comparing the payroll with personnel records and attendance, and checking for duplicate bank account numbers of employees",
+        "B": "Comparing total salary cost with the previous year",
+        "C": "Checking that salary is debited to the correct expense account",
+        "D": "Recomputing the total of the payroll register"
+      },
+      "correct": "A",
+      "explanation": "Ghost employees are fictitious names on the payroll. Matching payroll to independent HR records and attendance, and looking for several employees paid into the same bank account, directly addresses this risk. Casting the register, overall comparisons and posting checks would not identify fictitious individuals.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-audit-c05-q012",
+      "chapter": 5,
+      "topic": "Audit of Items of Financial Statements",
+      "question_text": "Which procedure is most effective in identifying unrecorded contingent liabilities of Arjun Logistics Ltd.?",
+      "options": {
+        "A": "Reviewing minutes of board meetings, correspondence with lawyers and legal expense ledgers, and sending letters of inquiry to the company's external legal counsel",
+        "B": "Vouching recorded provisions to supporting calculations",
+        "C": "Obtaining confirmations from trade receivables",
+        "D": "Recomputing the balance of the provisions account"
+      },
+      "correct": "A",
+      "explanation": "Contingent liabilities, by their nature, are often not recorded, so the auditor must look for evidence of them in sources such as minutes, legal correspondence, legal fees and letters to external counsel (SA 501). Vouching or recomputing recorded provisions tests existence or accuracy of recorded items, not completeness of unrecorded ones.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-audit-c06-q001",
+      "chapter": 6,
+      "topic": "Audit Documentation",
+      "question_text": "Under SA 230, audit documentation primarily provides:",
+      "options": {
+        "A": "A substitute for the entity's own accounting records",
+        "B": "A document for the client to use in preparing the financial statements",
+        "C": "Evidence that management has complied with all laws",
+        "D": "Evidence of the auditor's basis for a conclusion about achieving the overall objectives, and evidence that the audit was planned and performed in accordance with the SAs and applicable legal requirements"
+      },
+      "correct": "D",
+      "explanation": "SA 230 states that audit documentation provides evidence of the basis for the auditor's conclusion and evidence that the audit was planned and performed in accordance with the SAs and legal and regulatory requirements. It also helps direct, supervise and review the work. It is not a substitute for the entity's records.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-audit-c06-q002",
+      "chapter": 6,
+      "topic": "Audit Documentation",
+      "question_text": "The audit working papers prepared during the audit of Ananya Foods Ltd. are the property of:",
+      "options": {
+        "A": "The Registrar of Companies",
+        "B": "The shareholders of the company",
+        "C": "The company",
+        "D": "The auditor"
+      },
+      "correct": "D",
+      "explanation": "Working papers are the property of the auditor. The auditor may, at his discretion, make portions of them available to the entity, provided this does not undermine the independence or validity of the audit. The client has no right of ownership over them.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-audit-c06-q003",
+      "chapter": 6,
+      "topic": "Audit Documentation",
+      "question_text": "The assembly of the final audit file after the date of the auditor's report is an administrative process. An appropriate time limit within which to complete it is ordinarily:",
+      "options": {
+        "A": "Not more than 60 days after the date of the auditor's report",
+        "B": "Before the date of the auditor's report",
+        "C": "Not more than 7 days after the date of the auditor's report",
+        "D": "Any time before the next year's audit begins"
+      },
+      "correct": "A",
+      "explanation": "SA 230 requires the auditor to assemble the audit documentation in an audit file and complete the administrative process on a timely basis after the date of the report. The application material to SA 230 indicates that an appropriate time limit is ordinarily not more than 60 days after the date of the auditor's report. Firms build this limit into their quality control (quality management) policies. No new audit procedures are performed and no new conclusions are drawn during assembly.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c06-q004",
+      "chapter": 6,
+      "topic": "Audit Documentation",
+      "question_text": "After the assembly of the final audit file of Kesar Exports Ltd. is complete, an audit manager wants to remove a working paper. Under SA 230:",
+      "options": {
+        "A": "The auditor shall not delete or discard documentation of any nature before the end of its retention period",
+        "B": "Working papers can be removed once the client has adopted the financial statements",
+        "C": "Only working papers relating to immaterial areas can be removed",
+        "D": "Working papers can be removed if the engagement partner approves"
+      },
+      "correct": "A",
+      "explanation": "SA 230 prohibits deleting or discarding audit documentation of any nature after assembly of the final file and before the end of the retention period. If modifications or additions are necessary, the auditor documents the specific reasons, when and by whom they were made and reviewed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c06-q005",
+      "chapter": 6,
+      "topic": "Audit Documentation",
+      "question_text": "SA 230 requires audit documentation to be sufficient to enable whom to understand the nature, timing and extent of procedures performed, the results and evidence obtained, and significant matters and conclusions?",
+      "options": {
+        "A": "The client's board of directors",
+        "B": "An experienced auditor having no previous connection with the audit",
+        "C": "A new article assistant joining the firm",
+        "D": "Any member of the public"
+      },
+      "correct": "B",
+      "explanation": "SA 230 sets the 'experienced auditor' test: documentation should enable an experienced auditor, with no previous connection to the audit, to understand the work performed, the evidence obtained and the significant matters and conclusions. An experienced auditor understands audit processes, SAs, the business environment and relevant reporting issues.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-audit-c06-q006",
+      "chapter": 6,
+      "topic": "Audit Documentation",
+      "question_text": "Which of the following would ordinarily be kept in the permanent audit file rather than the current file?",
+      "options": {
+        "A": "The bank reconciliation working paper for the current year-end",
+        "B": "The current year's lead schedule for trade receivables",
+        "C": "Confirmation replies received for the current year",
+        "D": "Copies of the memorandum and articles of association and long-term contracts"
+      },
+      "correct": "D",
+      "explanation": "The permanent file contains information of continuing importance to future audits, such as constitutional documents, long-term agreements, organisation charts and accounting manuals. The current file holds working papers relating to the current year's audit, such as reconciliations, lead schedules and confirmations.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-audit-c06-q007",
+      "chapter": 6,
+      "topic": "Audit Documentation",
+      "question_text": "After the auditor's report for Ved Polymers Ltd. was dated, the auditor learns of a fact that existed at that date and performs new audit procedures, reaching new conclusions. Under SA 230, the auditor shall document:",
+      "options": {
+        "A": "Only the revised conclusion, replacing the earlier working papers",
+        "B": "Nothing, because documentation cannot be changed after the report is dated",
+        "C": "Only a note that the matter was discussed with management",
+        "D": "The circumstances encountered, the new or additional procedures performed, evidence obtained and conclusions, and when and by whom the changes were made and reviewed"
+      },
+      "correct": "D",
+      "explanation": "SA 230 requires that in exceptional circumstances where the auditor performs new or additional procedures or reaches new conclusions after the report date, the auditor documents the circumstances, the procedures, evidence and conclusions and their effect on the report, and when and by whom the resulting changes were made and reviewed. Existing documentation is not replaced.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-audit-c06-q008",
+      "chapter": 6,
+      "topic": "Audit Documentation",
+      "question_text": "Which of the following is ordinarily NOT required to be included in audit documentation under SA 230?",
+      "options": {
+        "A": "How the auditor addressed information inconsistent with a final conclusion on a significant matter",
+        "B": "Identifying characteristics of the specific items tested",
+        "C": "Superseded drafts of working papers and notes reflecting incomplete or preliminary thinking",
+        "D": "Discussions of significant matters with management, including when and with whom"
+      },
+      "correct": "C",
+      "explanation": "SA 230 states that the auditor need not include superseded drafts of working papers or financial statements, notes reflecting incomplete or preliminary thinking, previous copies of documents corrected for typographical errors, and duplicates. Significant discussions, identifying characteristics of items tested and treatment of inconsistent information must be documented.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c06-q009",
+      "chapter": 6,
+      "topic": "Audit Documentation",
+      "question_text": "In documenting the nature, timing and extent of audit procedures performed, SA 230 requires the auditor to record:",
+      "options": {
+        "A": "Only the name of the engagement partner who signed the report",
+        "B": "The fee charged for each area of the audit",
+        "C": "Who performed the work and the date it was completed, and who reviewed it and the date and extent of review",
+        "D": "The personal opinions of team members about management"
+      },
+      "correct": "C",
+      "explanation": "SA 230 requires documentation of who performed the audit work and the date it was completed, and who reviewed the work and the date and extent of that review, along with identifying characteristics of items tested. This enables accountability and evidences supervision and review.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c07-q001",
+      "chapter": 7,
+      "topic": "Completion and Review",
+      "question_text": "Kanak Traders Ltd. closes its accounts on 31 March. In May, before the financial statements are approved, a major customer is declared insolvent; its financial position had been deteriorating for months before the year-end. Under SA 560 this is:",
+      "options": {
+        "A": "An event indicating conditions that arose after the year-end, requiring only disclosure",
+        "B": "An event that has no relevance to the financial statements",
+        "C": "An event providing evidence of conditions that existed at the year-end, requiring adjustment of the financial statements",
+        "D": "An event that should be dealt with only in the next year's financial statements"
+      },
+      "correct": "C",
+      "explanation": "SA 560 distinguishes events that provide evidence of conditions existing at the period end (adjusting) from those indicative of conditions arising after it (non-adjusting). The customer's insolvency confirms that the receivable was impaired at the year-end, so the allowance for credit losses should be adjusted.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-audit-c07-q002",
+      "chapter": 7,
+      "topic": "Completion and Review",
+      "question_text": "A fire destroyed a warehouse of Ojasvi Furnishings Ltd. on 20 April, after the 31 March year-end and before the financial statements were approved. The loss is material. The appropriate treatment is:",
+      "options": {
+        "A": "No disclosure because the event occurred after the year-end",
+        "B": "Disclosure of the nature of the event and an estimate of its financial effect, without adjusting the year-end figures",
+        "C": "Adjustment of the inventory and PPE balances as at 31 March",
+        "D": "A qualified audit opinion, regardless of disclosure"
+      },
+      "correct": "B",
+      "explanation": "The fire is a condition that arose after the reporting date, so it is a non-adjusting event. If material, its nature and estimated financial effect should be disclosed. The auditor evaluates whether disclosure is adequate; a properly disclosed non-adjusting event does not require a qualified opinion, though the auditor may consider an Emphasis of Matter paragraph.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c07-q003",
+      "chapter": 7,
+      "topic": "Completion and Review",
+      "question_text": "After the date of the auditor's report but before the financial statements are issued, the auditor of Ira Cosmetics Ltd. becomes aware of a fact that might have caused the report to be amended. Under SA 560, the auditor shall:",
+      "options": {
+        "A": "Immediately withdraw the report and resign from the engagement",
+        "B": "Ignore it, because the auditor has no obligation after the report is dated",
+        "C": "Discuss the matter with management and, where appropriate, those charged with governance, determine whether the financial statements need amendment, and inquire how management intends to address it",
+        "D": "Perform a full re-audit of all balances before taking any other action"
+      },
+      "correct": "C",
+      "explanation": "SA 560 states that the auditor has no obligation to perform procedures after the report date, but if a fact becomes known that might have caused amendment, the auditor shall discuss it with management and TCWG, determine whether the financial statements need amendment and, if so, inquire how management intends to address the matter in the financial statements.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c07-q004",
+      "chapter": 7,
+      "topic": "Completion and Review",
+      "question_text": "Which of the following is NOT ordinarily an event or condition that may cast significant doubt on an entity's ability to continue as a going concern under SA 570?",
+      "options": {
+        "A": "Net liability or net current liability position",
+        "B": "A significant increase in the entity's market share",
+        "C": "Loss of key management without replacement",
+        "D": "Fixed-term borrowings approaching maturity without realistic prospects of renewal or repayment"
+      },
+      "correct": "B",
+      "explanation": "SA 570 lists financial, operating and other indicators such as net liability positions, maturing borrowings without prospects of renewal, adverse key ratios, loss of key management, loss of a major market and non-compliance with capital requirements. An increase in market share is ordinarily a positive indicator and does not by itself cast doubt on going concern.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c07-q005",
+      "chapter": 7,
+      "topic": "Completion and Review",
+      "question_text": "The auditor of Ruhan Airlines Ltd. concludes that the use of the going concern basis is appropriate but a material uncertainty exists, and management has made adequate disclosure. Under SA 570, the auditor shall:",
+      "options": {
+        "A": "Express a qualified opinion because a material uncertainty exists",
+        "B": "Express an unmodified opinion with an Emphasis of Matter paragraph on going concern",
+        "C": "Express an unmodified opinion and include a separate section headed 'Material Uncertainty Related to Going Concern'",
+        "D": "Express an adverse opinion because the entity may fail"
+      },
+      "correct": "C",
+      "explanation": "Under the revised SA 570, where the going concern basis is appropriate, a material uncertainty exists and disclosure is adequate, the auditor expresses an unmodified opinion and includes a separate section with the heading 'Material Uncertainty Related to Going Concern'. An Emphasis of Matter paragraph is not used for this purpose.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-audit-c07-q006",
+      "chapter": 7,
+      "topic": "Completion and Review",
+      "question_text": "In the case of Ruhan Airlines Ltd., suppose instead that a material uncertainty about going concern exists but management refuses to disclose it adequately in the financial statements. The auditor shall express:",
+      "options": {
+        "A": "A qualified or adverse opinion, as appropriate, and explain in the Basis for Opinion section that a material uncertainty exists that is not adequately disclosed",
+        "B": "An unmodified opinion with a Material Uncertainty Related to Going Concern section",
+        "C": "An unmodified opinion with an Other Matter paragraph",
+        "D": "A disclaimer of opinion in all cases"
+      },
+      "correct": "A",
+      "explanation": "SA 570 requires that if adequate disclosure about a material uncertainty is not made, the auditor shall express a qualified or adverse opinion as appropriate under SA 705. The Basis for Opinion section states that a material uncertainty exists that may cast significant doubt and that the financial statements do not adequately disclose it.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-audit-c07-q007",
+      "chapter": 7,
+      "topic": "Completion and Review",
+      "question_text": "The auditor of Sahil Mills Ltd. concludes that the company has decided to cease operations, yet the financial statements have been prepared on a going concern basis. Under SA 570, the auditor shall:",
+      "options": {
+        "A": "Express a qualified opinion with an Emphasis of Matter paragraph",
+        "B": "Express an adverse opinion",
+        "C": "Express an unmodified opinion with a Material Uncertainty section",
+        "D": "Express an unmodified opinion because the basis of preparation is management's choice"
+      },
+      "correct": "B",
+      "explanation": "SA 570 provides that if the financial statements have been prepared using the going concern basis but, in the auditor's judgment, management's use of that basis is inappropriate, the auditor shall express an adverse opinion. The effect is both material and pervasive since every item is measured on an inappropriate basis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-audit-c07-q008",
+      "chapter": 7,
+      "topic": "Completion and Review",
+      "question_text": "Under SA 580, written representations from management should be dated:",
+      "options": {
+        "A": "On the last day of the financial year",
+        "B": "On any date after the auditor's report, before the AGM",
+        "C": "As near as practicable to, but not after, the date of the auditor's report",
+        "D": "On the date of the engagement letter"
+      },
+      "correct": "C",
+      "explanation": "SA 580 requires written representations to be dated as near as practicable to, but not after, the date of the auditor's report, and to be in the form of a representation letter addressed to the auditor. They must cover all financial statements and periods referred to in the report.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-audit-c07-q009",
+      "chapter": 7,
+      "topic": "Completion and Review",
+      "question_text": "During the audit of Zubin Agencies Ltd., the auditor concludes there is sufficient doubt about the integrity of management that its written representation on its responsibility for preparing the financial statements is not reliable. Under SA 580, the auditor shall:",
+      "options": {
+        "A": "Obtain an oral representation instead and issue an unmodified opinion",
+        "B": "Issue an unmodified opinion with an Emphasis of Matter paragraph",
+        "C": "Disclaim an opinion on the financial statements",
+        "D": "Issue a qualified opinion limited to the areas affected"
+      },
+      "correct": "C",
+      "explanation": "SA 580 requires the auditor to disclaim an opinion under SA 705 if the auditor concludes that there is sufficient doubt about management's integrity such that the representations about management's fundamental responsibilities are not reliable, or if management does not provide those representations. The effect is considered pervasive.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-audit-c07-q010",
+      "chapter": 7,
+      "topic": "Completion and Review",
+      "question_text": "Under SA 450, the auditor shall accumulate misstatements identified during the audit, other than those that are:",
+      "options": {
+        "A": "Judgmental in nature",
+        "B": "Identified by the internal auditor",
+        "C": "Below performance materiality",
+        "D": "Clearly trivial"
+      },
+      "correct": "D",
+      "explanation": "SA 450 requires accumulation of all misstatements identified during the audit other than those that are clearly trivial. Clearly trivial is a much smaller threshold than performance materiality. Judgmental and projected misstatements must also be accumulated and evaluated.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-audit-c07-q011",
+      "chapter": 7,
+      "topic": "Completion and Review",
+      "question_text": "Materiality for Kavya Sweets Ltd. is Rs. 50 lakh. Uncorrected misstatements, all overstating profit, are: factual Rs. 18 lakh, judgmental Rs. 14 lakh and projected Rs. 12 lakh. Which conclusion is most appropriate under SA 450?",
+      "options": {
+        "A": "Aggregate uncorrected misstatements are Rs. 44 lakh, which is material, so the opinion must be qualified",
+        "B": "Aggregate uncorrected misstatements are Rs. 44 lakh; they are below materiality, but the auditor should consider whether the risk of undetected misstatements could take the total above materiality",
+        "C": "Aggregate uncorrected misstatements are only Rs. 18 lakh, since only factual misstatements are considered",
+        "D": "Aggregate uncorrected misstatements are Rs. 32 lakh, since projected misstatements are excluded"
+      },
+      "correct": "B",
+      "explanation": "Aggregate = 18 + 14 + 12 = Rs. 44 lakh, which is below materiality of Rs. 50 lakh. SA 450 requires factual, judgmental and projected misstatements to be considered together. Since the total is close to materiality, the auditor should consider the risk that undetected misstatements, together with these, exceed materiality, and may need to perform more procedures or request management to correct them.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c07-q012",
+      "chapter": 7,
+      "topic": "Completion and Review",
+      "question_text": "Under SA 520, analytical procedures performed near the end of the audit are designed to:",
+      "options": {
+        "A": "Assist the auditor in forming an overall conclusion as to whether the financial statements are consistent with the auditor's understanding of the entity",
+        "B": "Determine the audit fee for the next year",
+        "C": "Identify the risk assessment procedures to be performed",
+        "D": "Replace all substantive tests of details performed earlier"
+      },
+      "correct": "A",
+      "explanation": "SA 520 requires the auditor to design and perform analytical procedures near the end of the audit that assist in forming an overall conclusion on whether the financial statements are consistent with the auditor's understanding. If they identify a previously unrecognised risk, the auditor revises the risk assessment and planned procedures.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c08-q001",
+      "chapter": 8,
+      "topic": "Audit Report",
+      "question_text": "Under SA 700, the auditor expresses an unmodified opinion when:",
+      "options": {
+        "A": "The entity has earned a profit during the year",
+        "B": "Management has provided all written representations, regardless of misstatements found",
+        "C": "The auditor concludes that the financial statements are prepared, in all material respects, in accordance with the applicable financial reporting framework",
+        "D": "The financial statements contain no misstatement of any amount"
+      },
+      "correct": "C",
+      "explanation": "SA 700 requires an unmodified opinion when the auditor concludes that the financial statements are prepared in all material respects in accordance with the applicable framework. Immaterial misstatements may exist. Profitability and representations alone do not determine the type of opinion.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-audit-c08-q002",
+      "chapter": 8,
+      "topic": "Audit Report",
+      "question_text": "Under SA 700, which section of the auditor's report must immediately follow the Opinion section?",
+      "options": {
+        "A": "Basis for Opinion",
+        "B": "Responsibilities of Management for the Financial Statements",
+        "C": "Key Audit Matters",
+        "D": "Other Matter"
+      },
+      "correct": "A",
+      "explanation": "SA 700 requires the Opinion section to be presented first, followed directly by the Basis for Opinion section. Other sections, such as Key Audit Matters (where applicable) and the responsibilities of management and the auditor, follow later.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-audit-c08-q003",
+      "chapter": 8,
+      "topic": "Audit Report",
+      "question_text": "SA 701 on communicating Key Audit Matters applies to audits of complete sets of general purpose financial statements of:",
+      "options": {
+        "A": "Listed entities, and other entities where the auditor decides to or is required by law or regulation to communicate key audit matters",
+        "B": "All entities without exception",
+        "C": "Only government companies",
+        "D": "Only private companies with borrowings from banks"
+      },
+      "correct": "A",
+      "explanation": "SA 701 applies to audits of complete sets of general purpose financial statements of listed entities, and in circumstances where the auditor otherwise decides to communicate KAMs or is required by law or regulation to do so. Key audit matters are selected from matters communicated with those charged with governance.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c08-q004",
+      "chapter": 8,
+      "topic": "Audit Report",
+      "question_text": "The auditor of Ilesh Power Ltd., a listed company, has decided to qualify the opinion on account of an unrecorded provision. Regarding the Key Audit Matters section, SA 701 provides that:",
+      "options": {
+        "A": "No KAM section is required once any opinion is modified",
+        "B": "The matter giving rise to the qualified opinion is not described in the KAM section, since communicating KAMs is not a substitute for a modified opinion",
+        "C": "The KAM section replaces the need for a Basis for Qualified Opinion section",
+        "D": "The matter must be described both in the KAM section and in the Basis for Qualified Opinion section"
+      },
+      "correct": "B",
+      "explanation": "SA 701 states that communicating KAMs is not a substitute for expressing a modified opinion. A matter giving rise to a modified opinion is by its nature a key audit matter but is reported in the Basis for Qualified/Adverse Opinion section, not in the KAM section. Other KAMs are still reported where applicable.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c08-q005",
+      "chapter": 8,
+      "topic": "Audit Report",
+      "question_text": "The auditor of Neha Garments Ltd. finds that inventory is overvalued by an amount that is material but confined to inventory and not pervasive. Management refuses to correct it. The auditor should express:",
+      "options": {
+        "A": "A disclaimer of opinion",
+        "B": "An unmodified opinion with an Emphasis of Matter paragraph",
+        "C": "A qualified opinion",
+        "D": "An adverse opinion"
+      },
+      "correct": "C",
+      "explanation": "Under SA 705, a qualified opinion is expressed when misstatements are material but not pervasive. An adverse opinion is used when misstatements are both material and pervasive. A disclaimer relates to an inability to obtain sufficient appropriate evidence where possible effects could be material and pervasive.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-audit-c08-q006",
+      "chapter": 8,
+      "topic": "Audit Report",
+      "question_text": "The auditor of Om Ventures Ltd. is unable to obtain sufficient appropriate audit evidence regarding receivables, inventories and investments, which together represent most of the company's total assets. The possible effects could be material and pervasive. The auditor should:",
+      "options": {
+        "A": "Express a qualified opinion",
+        "B": "Disclaim an opinion",
+        "C": "Express an adverse opinion",
+        "D": "Express an unmodified opinion with an Other Matter paragraph"
+      },
+      "correct": "B",
+      "explanation": "SA 705 requires a disclaimer of opinion when the auditor is unable to obtain sufficient appropriate evidence and concludes that the possible effects of undetected misstatements could be both material and pervasive. An adverse opinion is given only where the auditor has obtained evidence that misstatements exist and are material and pervasive.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-audit-c08-q007",
+      "chapter": 8,
+      "topic": "Audit Report",
+      "question_text": "Under SA 705, which of the following describes effects that are 'pervasive'?",
+      "options": {
+        "A": "Effects that are clearly trivial but numerous",
+        "B": "Effects that relate only to one balance sheet item",
+        "C": "Effects that exceed performance materiality in any account",
+        "D": "Effects that are not confined to specific elements, or if confined represent a substantial proportion of the financial statements, or relate to disclosures fundamental to users' understanding"
+      },
+      "correct": "D",
+      "explanation": "SA 705 defines pervasive effects as those that, in the auditor's judgment, are not confined to specific elements, accounts or items; or if so confined, represent or could represent a substantial proportion of the financial statements; or in relation to disclosures, are fundamental to users' understanding.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c08-q008",
+      "chapter": 8,
+      "topic": "Audit Report",
+      "question_text": "After the year-end, a major earthquake damaged the main plant of Shrey Cement Ltd. Management has appropriately disclosed this in the financial statements. The auditor considers the matter fundamental to users' understanding. Under SA 706, the auditor may:",
+      "options": {
+        "A": "Disclaim the opinion because the full effect is unknown",
+        "B": "Include an Emphasis of Matter paragraph referring to the disclosure, without modifying the opinion",
+        "C": "Include an Other Matter paragraph to describe the plant's location",
+        "D": "Qualify the opinion because of the uncertainty"
+      },
+      "correct": "B",
+      "explanation": "SA 706 permits an Emphasis of Matter paragraph to draw attention to a matter appropriately presented or disclosed that is fundamental to users' understanding, such as a major catastrophe. The paragraph states that the opinion is not modified in respect of the matter. A qualified opinion is inappropriate since there is no misstatement or limitation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c08-q009",
+      "chapter": 8,
+      "topic": "Audit Report",
+      "question_text": "Which of the following matters would ordinarily be communicated in an Other Matter paragraph under SA 706?",
+      "options": {
+        "A": "A statement that the report is intended solely for a specified user and should not be distributed to other parties",
+        "B": "A material uncertainty about going concern that is adequately disclosed",
+        "C": "A note in the financial statements on a major post-balance sheet catastrophe",
+        "D": "A material misstatement of trade receivables"
+      },
+      "correct": "A",
+      "explanation": "An Other Matter paragraph refers to a matter not presented or disclosed in the financial statements that is relevant to users' understanding of the audit, the auditor's responsibilities or the report, such as restriction on distribution or use. A disclosed catastrophe is dealt with by an EOM, going concern by a separate section under SA 570, and a misstatement by a modified opinion.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c08-q010",
+      "chapter": 8,
+      "topic": "Audit Report",
+      "question_text": "After accepting the engagement, the management of Tara Pumps Ltd. imposes a limitation on the scope of the audit that the auditor believes is likely to result in a disclaimer of opinion. Under SA 705, the auditor shall FIRST:",
+      "options": {
+        "A": "Accept a written representation in place of the restricted evidence",
+        "B": "Issue a qualified opinion without informing those charged with governance",
+        "C": "Request management to remove the limitation",
+        "D": "Withdraw from the engagement immediately without discussion"
+      },
+      "correct": "C",
+      "explanation": "SA 705 requires that if management imposes a limitation after acceptance that is likely to result in a qualified opinion or disclaimer, the auditor shall request management to remove it. If management refuses, the auditor communicates with those charged with governance, determines whether alternative procedures are possible and, if pervasive effects remain, withdraws where practicable and legally permitted or disclaims an opinion.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-audit-c08-q011",
+      "chapter": 8,
+      "topic": "Audit Report",
+      "question_text": "The Companies (Auditor's Report) Order (CARO) is issued by the Central Government under which provision of the Companies Act, 2013?",
+      "options": {
+        "A": "Section 143(11)",
+        "B": "Section 141(3)",
+        "C": "Section 144",
+        "D": "Section 139(1)"
+      },
+      "correct": "A",
+      "explanation": "Section 143(11) empowers the Central Government, in consultation with the National Financial Reporting Authority, to direct that the auditor's report on specified classes of companies include a statement on prescribed matters; CARO is issued under this power. Section 139 deals with appointment, section 141 with eligibility and qualifications and section 144 with services auditors cannot render.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-audit-c08-q012",
+      "chapter": 8,
+      "topic": "Audit Report",
+      "question_text": "Which of the following matters is required to be reported by the auditor under CARO?",
+      "options": {
+        "A": "Whether the company's marketing strategy is likely to succeed",
+        "B": "Whether the company's CSR projects have achieved their social impact",
+        "C": "Whether the directors' remuneration is reasonable compared with market benchmarks",
+        "D": "Whether the title deeds of immovable properties disclosed in the financial statements are held in the name of the company"
+      },
+      "correct": "D",
+      "explanation": "CARO requires reporting on specified matters such as property, plant and equipment records, physical verification and whether title deeds of immovable properties are held in the company's name. The auditor does not report on the commercial wisdom of strategy, the reasonableness of pay against market benchmarks or the social impact of CSR projects.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c08-q013",
+      "chapter": 8,
+      "topic": "Audit Report",
+      "question_text": "Which of the following is reported by the auditor of a company under section 143(3) of the Companies Act, 2013, rather than under CARO?",
+      "options": {
+        "A": "Whether the company maintains proper records showing quantitative details of property, plant and equipment",
+        "B": "Whether any director is disqualified from being appointed as a director under section 164(2)",
+        "C": "Whether the company has defaulted in repayment of loans or interest to any lender",
+        "D": "Whether physical verification of inventory has been conducted at reasonable intervals by management"
+      },
+      "correct": "B",
+      "explanation": "Section 143(3) requires the auditor to state, among other things, whether any director is disqualified under section 164(2), whether proper books are kept, and on the adequacy of internal financial controls. The quantitative records of PPE, physical verification of inventory and defaults in repayment of loans are matters covered by CARO.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-audit-c09-q001",
+      "chapter": 9,
+      "topic": "Special Features of Audit of Different Type of Entities",
+      "question_text": "The duties and powers of the Comptroller and Auditor General of India are laid down in:",
+      "options": {
+        "A": "The Chartered Accountants Act, 1949",
+        "B": "The Comptroller and Auditor General's (Duties, Powers and Conditions of Service) Act, 1971",
+        "C": "The Banking Regulation Act, 1949",
+        "D": "The Companies Act, 2013"
+      },
+      "correct": "B",
+      "explanation": "Article 148 of the Constitution provides for the appointment of the CAG, and Article 149 provides that the CAG shall perform duties and exercise powers prescribed by Parliament. Parliament enacted the CAG's (Duties, Powers and Conditions of Service) Act, 1971 for this purpose.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-audit-c09-q002",
+      "chapter": 9,
+      "topic": "Special Features of Audit of Different Type of Entities",
+      "question_text": "In the audit of a government department, the auditor examines whether expenditure incurred was not prima facie more than the occasion demanded and whether public money was used for the benefit of a particular person. This is known as:",
+      "options": {
+        "A": "Performance audit",
+        "B": "Audit against provision of funds",
+        "C": "Propriety audit",
+        "D": "Audit against rules and orders"
+      },
+      "correct": "C",
+      "explanation": "Propriety audit looks beyond legality to whether expenditure meets canons of financial propriety: no more than the occasion demands, exercising the same vigilance as a person of ordinary prudence would with his own money, no sanction for one's own benefit, and public money not used for a particular person or section. It is an important feature of government audit.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c09-q003",
+      "chapter": 9,
+      "topic": "Special Features of Audit of Different Type of Entities",
+      "question_text": "Performance audit in government organisations primarily examines:",
+      "options": {
+        "A": "Only whether expenditure is supported by vouchers",
+        "B": "Whether programmes and activities are carried out with economy, efficiency and effectiveness",
+        "C": "Only the arithmetical accuracy of accounts",
+        "D": "Whether the department has earned a profit"
+      },
+      "correct": "B",
+      "explanation": "Performance audit assesses whether government programmes, schemes and organisations achieve their objectives economically, efficiently and effectively (the three Es). It goes beyond regularity and propriety to evaluate results against intended outcomes.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-audit-c09-q004",
+      "chapter": 9,
+      "topic": "Special Features of Audit of Different Type of Entities",
+      "question_text": "Under section 139(5) of the Companies Act, 2013, the statutory auditor of a government company (other than its first auditor) is appointed by:",
+      "options": {
+        "A": "The Board of directors, within 30 days of the AGM",
+        "B": "The Comptroller and Auditor General of India, within 180 days from the commencement of the financial year",
+        "C": "The Central Government, within 60 days of the year-end",
+        "D": "The shareholders at the AGM, for a term of five years"
+      },
+      "correct": "B",
+      "explanation": "Section 139(5) provides that in a government company, or a company owned or controlled directly or indirectly by the Central and/or State Governments, the auditor is appointed by the CAG within 180 days from the commencement of the financial year. The appointed auditor holds office till the conclusion of the AGM.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c09-q005",
+      "chapter": 9,
+      "topic": "Special Features of Audit of Different Type of Entities",
+      "question_text": "The statutory auditor of Bharat Utilities Ltd., a government company, submits the audit report. Under section 143(6) of the Companies Act, 2013, the CAG may:",
+      "options": {
+        "A": "At any time, order the auditor to withdraw and reissue the report",
+        "B": "Within 60 days of receiving the audit report, conduct a supplementary audit and comment upon or supplement the audit report",
+        "C": "Within 180 days, replace the auditor's report with its own opinion",
+        "D": "Only conduct a test audit, without making any comments"
+      },
+      "correct": "B",
+      "explanation": "Section 143(6) permits the CAG, within 60 days from the date of receipt of the audit report, to conduct a supplementary audit through persons authorised by it, and to comment upon or supplement the audit report. Such comments are sent by the company to every person entitled to copies of audited financial statements and placed before the annual general meeting. Test audit is separately provided for in section 143(7).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-audit-c09-q006",
+      "chapter": 9,
+      "topic": "Special Features of Audit of Different Type of Entities",
+      "question_text": "Which of the following is a typical feature of the audit of a local body such as a municipal corporation?",
+      "options": {
+        "A": "Checking that expenditure is within the budget sanctioned and incurred in accordance with the applicable Act, rules and bye-laws",
+        "B": "Ensuring that the local body pays dividends to citizens",
+        "C": "Issuing an opinion under SA 701 on key audit matters",
+        "D": "Verifying that the local body has earned a return on equity"
+      },
+      "correct": "A",
+      "explanation": "Local bodies operate under statutes and budgets approved by their councils. Their audit typically checks budgetary control, sanctions, compliance with the governing Act and rules, collection of revenues such as taxes and fees, and proper use of grants. Profit, return on equity and dividends are not relevant objectives for such bodies.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-audit-c09-q007",
+      "chapter": 9,
+      "topic": "Special Features of Audit of Different Type of Entities",
+      "question_text": "Akshar Foundation, an NGO, receives a grant from a donor agency to be used exclusively for a rural literacy project. The auditor's key concern regarding this grant is to verify that:",
+      "options": {
+        "A": "The grant has been treated as general revenue available for any activity",
+        "B": "The grant has been distributed among the trustees",
+        "C": "The grant has been utilised for the specified purpose in accordance with the grant conditions and is accounted for separately",
+        "D": "The grant has been invested in shares to generate returns"
+      },
+      "correct": "C",
+      "explanation": "Restricted grants must be used only for the purposes and under the conditions specified by the donor. The auditor examines the grant agreement, separate accounting for restricted funds, utilisation certificates and supporting documents for expenditure. Treating restricted funds as general income or diverting them would breach the conditions.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c09-q008",
+      "chapter": 9,
+      "topic": "Special Features of Audit of Different Type of Entities",
+      "question_text": "A distinctive feature of the audit of co-operative societies under many State Co-operative Societies Acts is that the auditor:",
+      "options": {
+        "A": "Is required to report Key Audit Matters under SA 701",
+        "B": "Classifies the society into an audit class based on its working and performance",
+        "C": "Is always appointed by the Comptroller and Auditor General of India",
+        "D": "Issues a report only on internal financial controls"
+      },
+      "correct": "B",
+      "explanation": "Co-operative audit is governed by the relevant State Co-operative Societies Act and rules (or the Multi-State Co-operative Societies Act, 2002 for multi-State societies). A typical special requirement is the award of an audit classification (for example, classes such as A, B, C and D, with the classes and criteria varying from State to State) based on criteria such as financial position, management and recovery performance. The CAG does not appoint co-operative auditors, SA 701 is aimed at listed entities, and reporting on internal financial controls alone is not the function of a co-operative audit.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c09-q009",
+      "chapter": 9,
+      "topic": "Special Features of Audit of Different Type of Entities",
+      "question_text": "In the audit of a co-operative credit society, the auditor finds loans given to members in excess of the limits in the society's bye-laws. This should be:",
+      "options": {
+        "A": "Reported in the audit report or audit memorandum as a non-compliance with the bye-laws",
+        "B": "Reported only to the borrowing members",
+        "C": "Ignored, because bye-laws are internal rules of no audit relevance",
+        "D": "Adjusted by the auditor by reducing the loan balances in the books"
+      },
+      "correct": "A",
+      "explanation": "A special feature of co-operative audit is the examination of compliance with the Co-operative Societies Act, rules and the society's bye-laws, including restrictions on loans to members. Non-compliance is reported in the audit report or memorandum. The auditor does not make entries in the books.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c09-q010",
+      "chapter": 9,
+      "topic": "Special Features of Audit of Different Type of Entities",
+      "question_text": "Under the Limited Liability Partnership Act, 2008 and the rules made under it, which of the following persons would NOT be eligible for appointment as auditor of a Limited Liability Partnership whose accounts are required to be audited?",
+      "options": {
+        "A": "A firm of Chartered Accountants in which all partners are in practice",
+        "B": "A Chartered Accountant in full-time practice with no relationship with the LLP",
+        "C": "A partner or employee of that LLP",
+        "D": "A Chartered Accountant who audits other unrelated LLPs"
+      },
+      "correct": "C",
+      "explanation": "Under the LLP Rules, 2009, the accounts of an LLP that are required to be audited must be audited by chartered accountants in practice. A partner or employee of the LLP, or a person who is a partner of, or in the employment of, such a partner or employee, is not eligible to be its auditor, because the auditor would be examining accounts of a business in which he is involved. A practising chartered accountant or a firm of practising chartered accountants with no such relationship can be appointed, and auditing other unrelated LLPs is no bar.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c09-q011",
+      "chapter": 9,
+      "topic": "Special Features of Audit of Different Type of Entities",
+      "question_text": "In the audit of a partnership firm, the document the auditor should study first to understand the rights and obligations of partners, such as profit-sharing ratio and interest on capital, is:",
+      "options": {
+        "A": "The partnership deed",
+        "B": "The memorandum of association",
+        "C": "The bye-laws of the firm",
+        "D": "The register of members"
+      },
+      "correct": "A",
+      "explanation": "A partnership firm is governed by the Indian Partnership Act, 1932 and its partnership deed. The deed sets out capital contributions, profit-sharing ratio, interest on capital and drawings, salaries and other terms that the auditor must verify. The memorandum of association and register of members relate to companies.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-audit-c09-q012",
+      "chapter": 9,
+      "topic": "Special Features of Audit of Different Type of Entities",
+      "question_text": "During the audit of a government department, the auditor finds that a purchase was sanctioned by an officer whose delegated financial powers were lower than the value of the purchase. This finding relates primarily to:",
+      "options": {
+        "A": "Performance audit, since the purchase may not be economical",
+        "B": "Audit against provision of funds, since the budget was exceeded",
+        "C": "Audit against sanction, since the expenditure was not sanctioned by the competent authority",
+        "D": "Propriety audit, since the officer may have benefited personally"
+      },
+      "correct": "C",
+      "explanation": "Audit against sanction verifies that every item of expenditure is sanctioned, either specially or generally, by an authority competent to do so. Here, the sanctioning officer lacked the delegated power, so the expenditure is irregular. There is no indication of personal benefit or budget excess in the facts.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-audit-c10-q001",
+      "chapter": 10,
+      "topic": "Audit of Banks",
+      "question_text": "The statutory auditor of a banking company is appointed in accordance with:",
+      "options": {
+        "A": "Section 30 of the Banking Regulation Act, 1949, with the previous approval of the Reserve Bank of India",
+        "B": "Article 148 of the Constitution of India",
+        "C": "The Chartered Accountants Act, 1949, by the Institute's Council",
+        "D": "Section 139 of the Companies Act, 2013, by the board of directors alone"
+      },
+      "correct": "A",
+      "explanation": "Section 30 of the Banking Regulation Act, 1949 requires the balance sheet and profit and loss account of a banking company to be audited by a person duly qualified to be an auditor of companies, and the appointment is made with the previous approval of the RBI. The RBI may also direct special audits.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-audit-c10-q002",
+      "chapter": 10,
+      "topic": "Audit of Banks",
+      "question_text": "Under the RBI prudential norms, a term loan becomes a non-performing asset when:",
+      "options": {
+        "A": "Interest and/or an instalment of principal remains overdue for a period of more than 90 days",
+        "B": "The loan is not renewed on the review date",
+        "C": "Interest remains unpaid for 30 days",
+        "D": "The borrower's credit rating is downgraded"
+      },
+      "correct": "A",
+      "explanation": "Under RBI's income recognition and asset classification norms, a term loan is a non-performing asset where interest and/or an instalment of principal remains overdue for more than 90 days. Rating downgrades or review delays may be warning signals but do not by themselves define an NPA.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-audit-c10-q003",
+      "chapter": 10,
+      "topic": "Audit of Banks",
+      "question_text": "A borrowal account of a bank became a non-performing asset on 30 June 2024 and has remained NPA continuously since then, with no upgradation. The security is fully realisable at its book value and no loss has been identified by the bank, the auditor or RBI inspectors. Under the RBI prudential norms on asset classification, what is its classification as at 31 March 2026?",
+      "options": {
+        "A": "Standard asset",
+        "B": "Loss asset",
+        "C": "Sub-standard asset",
+        "D": "Doubtful asset (doubtful for up to one year, D1)"
+      },
+      "correct": "D",
+      "explanation": "Under RBI norms, an asset is sub-standard if it has remained NPA for a period less than or equal to 12 months; here, from 30 June 2024 to 30 June 2025. An asset that has remained in the sub-standard category for 12 months becomes doubtful, so the account became doubtful on 30 June 2025. From 30 June 2025 to 31 March 2026 it has been doubtful for 9 months, which is within one year, so it is D1. It is not a loss asset because no loss has been identified and the security is realisable, and it cannot be standard while it remains NPA.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-audit-c10-q004",
+      "chapter": 10,
+      "topic": "Audit of Banks",
+      "question_text": "Under RBI norms, a cash credit or overdraft account is treated as 'out of order' when:",
+      "options": {
+        "A": "The outstanding balance remains continuously in excess of the sanctioned limit or drawing power for 90 days, or there are no credits continuously for 90 days or credits are insufficient to cover interest debited during the period",
+        "B": "The account shows any debit balance at the year-end",
+        "C": "The borrower submits stock statements late on one occasion",
+        "D": "The account has fewer than ten transactions in a quarter"
+      },
+      "correct": "A",
+      "explanation": "RBI norms treat a CC/OD account as out of order if the outstanding balance remains continuously in excess of the sanctioned limit or drawing power for 90 days, or where the balance is less than the limit/DP but there are no credits continuously for 90 days as on the balance sheet date or credits are not enough to cover interest debited. An out-of-order account becomes an NPA.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c10-q005",
+      "chapter": 10,
+      "topic": "Audit of Banks",
+      "question_text": "The Long Form Audit Report (LFAR) in a bank audit is:",
+      "options": {
+        "A": "The auditor's report under SA 700 printed in a longer format",
+        "B": "A report required only for co-operative banks under State Acts",
+        "C": "A report prepared by the bank's management for its shareholders",
+        "D": "A report prescribed by the RBI covering matters such as advances, internal controls and compliance, submitted by the auditor in addition to the main audit report"
+      },
+      "correct": "D",
+      "explanation": "The LFAR format is prescribed by the RBI and requires auditors to report on specified aspects of the bank's functioning, including advances, cash, investments, compliance with prudential norms and internal controls. It is submitted in addition to the statutory audit report and is not part of the published report.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c10-q006",
+      "chapter": 10,
+      "topic": "Audit of Banks",
+      "question_text": "A borrower's cash credit account has a sanctioned limit of Rs. 50 lakh. The latest stock statement shows stock of Rs. 80 lakh and unpaid creditors for goods of Rs. 20 lakh. The margin stipulated is 25%. What is the drawing power?",
+      "options": {
+        "A": "Rs. 60 lakh",
+        "B": "Rs. 45 lakh",
+        "C": "Rs. 50 lakh",
+        "D": "Rs. 40 lakh"
+      },
+      "correct": "B",
+      "explanation": "Paid stock = Rs. 80 lakh - Rs. 20 lakh = Rs. 60 lakh. Drawing power = 60 x (1 - 25%) = Rs. 45 lakh. Since this is below the sanctioned limit of Rs. 50 lakh, the borrower can draw only up to Rs. 45 lakh. Rs. 60 lakh ignores the margin, and Rs. 40 lakh wrongly applies the margin to gross stock before deducting creditors (80 x 75% - 20).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-audit-c10-q007",
+      "chapter": 10,
+      "topic": "Audit of Banks",
+      "question_text": "During the audit of a bank branch, the auditor finds that interest on a loan account classified as NPA has been debited to the account and credited to interest income on an accrual basis. The auditor should:",
+      "options": {
+        "A": "Accept the treatment because accrual accounting must always be followed",
+        "B": "Require the unrealised interest to be reversed from income, since income on NPAs is recognised only when actually realised",
+        "C": "Ignore it if the amount is below the branch's materiality",
+        "D": "Require the interest to be shown as an extraordinary item"
+      },
+      "correct": "B",
+      "explanation": "Under RBI income recognition norms, interest on NPAs is not recognised on accrual basis but only when actually received. Interest already taken to income on an account that becomes NPA should be reversed if uncollected. The auditor checks that unrealised interest is not included in income.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c10-q008",
+      "chapter": 10,
+      "topic": "Audit of Banks",
+      "question_text": "To verify balances held by a bank with other banks, the bank auditor should primarily:",
+      "options": {
+        "A": "Obtain balance confirmations from the other banks and examine reconciliation statements, investigating old unreconciled entries",
+        "B": "Rely on the branch manager's certificate of balances",
+        "C": "Count the cash in the bank's vaults",
+        "D": "Review the bank's advertisements for interest rates"
+      },
+      "correct": "A",
+      "explanation": "Balances with RBI and other banks are verified by obtaining confirmations, comparing them with the books and examining reconciliations. Long-outstanding or unusual reconciling items may indicate errors or frauds and should be investigated. A manager's certificate is internal evidence and less reliable.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-audit-c10-q009",
+      "chapter": 10,
+      "topic": "Audit of Banks",
+      "question_text": "The forms of balance sheet and profit and loss account of a banking company are prescribed in:",
+      "options": {
+        "A": "The Third Schedule to the Banking Regulation Act, 1949",
+        "B": "Schedule III to the Companies Act, 2013",
+        "C": "The CARO",
+        "D": "The First Schedule to the Chartered Accountants Act, 1949"
+      },
+      "correct": "A",
+      "explanation": "Section 29 of the Banking Regulation Act, 1949 requires banking companies to prepare their balance sheet and profit and loss account in the forms set out in the Third Schedule to that Act. Schedule III to the Companies Act applies to other companies, and its requirements do not override the special form prescribed for banks.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-audit-c10-q010",
+      "chapter": 10,
+      "topic": "Audit of Banks",
+      "question_text": "Just before the year-end, a bank sanctioned a fresh loan to a borrower whose existing account was overdue for more than 90 days, and used the proceeds solely to clear the overdue interest and instalments. The auditor should:",
+      "options": {
+        "A": "Classify the account as standard because overdues have been cleared",
+        "B": "Accept the classification but mention it in an Other Matter paragraph",
+        "C": "Treat the arrangement as evergreening, disregard the apparent recovery, and classify the account as NPA",
+        "D": "Treat the fresh loan as an investment"
+      },
+      "correct": "C",
+      "explanation": "Funding overdue interest or instalments through fresh or additional loans, without genuine recovery from the borrower's own resources, is evergreening. It conceals the NPA status and inflates income. The auditor should treat the account as NPA, reverse any income recognised from such adjustments and report the matter appropriately.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-audit-c10-q011",
+      "chapter": 10,
+      "topic": "Audit of Banks",
+      "question_text": "The central statutory auditor of a bank receives reports from the auditors of many branches. When using the work of branch auditors, the central auditor should:",
+      "options": {
+        "A": "Consider the guidance in SA 600, evaluate the branch auditors' reports, and determine how their findings affect the bank's financial statements as a whole",
+        "B": "Accept the branch reports without considering their findings",
+        "C": "Exclude unaudited branches from the bank's financial statements",
+        "D": "Re-audit every branch personally before signing"
+      },
+      "correct": "A",
+      "explanation": "In bank audits, branch audits are performed by branch auditors and the central auditor uses their work. Following SA 600 on using the work of another auditor, the central auditor considers the competence of branch auditors, reviews their reports and LFARs, and evaluates the impact of their observations on the bank's overall financial statements and the audit opinion.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c11-q001",
+      "chapter": 11,
+      "topic": "Ethics and Terms of Audit Engagements",
+      "question_text": "Which of the following is NOT one of the fundamental principles of the ICAI Code of Ethics?",
+      "options": {
+        "A": "Integrity",
+        "B": "Profitability",
+        "C": "Objectivity",
+        "D": "Confidentiality"
+      },
+      "correct": "B",
+      "explanation": "The fundamental principles are integrity, objectivity, professional competence and due care, confidentiality and professional behaviour. Profitability is a business goal, not an ethical principle, and must never compromise the fundamental principles.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-audit-c11-q002",
+      "chapter": 11,
+      "topic": "Ethics and Terms of Audit Engagements",
+      "question_text": "Navya & Associates maintains the books of account of a client and then audits the financial statements prepared from those books. The main threat to independence created is:",
+      "options": {
+        "A": "Familiarity threat",
+        "B": "Self-review threat",
+        "C": "Intimidation threat",
+        "D": "Advocacy threat"
+      },
+      "correct": "B",
+      "explanation": "A self-review threat arises when the auditor evaluates results of a service previously performed by the auditor's own firm, such as financial statements prepared from records it maintained. The firm may not appropriately evaluate its own work. For company audits, section 144 of the Companies Act, 2013 also prohibits the auditor from rendering accounting and book-keeping services.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-audit-c11-q003",
+      "chapter": 11,
+      "topic": "Ethics and Terms of Audit Engagements",
+      "question_text": "CA Mohit has been the engagement partner on the audit of Sundaram Textiles Ltd. for twelve years and regularly holidays with its finance director. The principal threat to his independence is:",
+      "options": {
+        "A": "Advocacy threat",
+        "B": "Self-interest threat",
+        "C": "Self-review threat",
+        "D": "Familiarity threat"
+      },
+      "correct": "D",
+      "explanation": "A familiarity threat arises when, due to a long or close relationship with a client, the auditor becomes too sympathetic to their interests or too accepting of their work. Long association with a senior client official and close personal relations are classic examples. Safeguards include rotation of the engagement partner.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-audit-c11-q004",
+      "chapter": 11,
+      "topic": "Ethics and Terms of Audit Engagements",
+      "question_text": "Under Clause (8) of Part I of the First Schedule to the Chartered Accountants Act, 1949, a member in practice is guilty of professional misconduct if he:",
+      "options": {
+        "A": "Accepts an audit of a company where the previous auditor has died",
+        "B": "Accepts a position as auditor previously held by another chartered accountant without first communicating with him in writing",
+        "C": "Charges a fee that is lower than the previous auditor's fee",
+        "D": "Accepts an audit of a newly incorporated company"
+      },
+      "correct": "B",
+      "explanation": "Clause (8) requires that before accepting a position as auditor previously held by another chartered accountant, the incoming auditor must first communicate with the previous auditor in writing. The purpose is to learn whether there are professional reasons why the appointment should not be accepted. A first audit of a new company has no previous auditor.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-audit-c11-q005",
+      "chapter": 11,
+      "topic": "Ethics and Terms of Audit Engagements",
+      "question_text": "CA Pooja agrees to audit a company for a fee equal to 2% of its net profit for the year. This is professional misconduct under the Chartered Accountants Act, 1949 because:",
+      "options": {
+        "A": "It results in sharing of fees with a non-member",
+        "B": "It amounts to charging fees based on a percentage of profits, which Clause (10) of Part I of the First Schedule prohibits except as permitted by the Council's regulations",
+        "C": "The fee is lower than the minimum scale prescribed for audits",
+        "D": "Audit fees can only be fixed by the Central Government"
+      },
+      "correct": "B",
+      "explanation": "Clause (10) of Part I of the First Schedule treats it as misconduct if a member in practice charges or offers to charge fees based on a percentage of profits or contingent upon findings or results, except as permitted under regulations (for example, certain receivership or liquidation roles). Fees linked to profits create a self-interest threat to independence.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c11-q006",
+      "chapter": 11,
+      "topic": "Ethics and Terms of Audit Engagements",
+      "question_text": "A practising chartered accountant discloses information about a client's business acquired in the course of an audit to a competitor, without the client's consent and without any legal requirement. This is misconduct under:",
+      "options": {
+        "A": "Clause (6) of Part I of the First Schedule",
+        "B": "Clause (8) of Part I of the First Schedule",
+        "C": "Clause (10) of Part I of the Second Schedule",
+        "D": "Clause (1) of Part I of the Second Schedule"
+      },
+      "correct": "D",
+      "explanation": "Clause (1) of Part I of the Second Schedule makes it misconduct for a member in practice to disclose information acquired in the course of professional engagement to any person other than the client, without the client's consent or otherwise than as required by law. Clause (6) of the First Schedule concerns solicitation, Clause (8) communication with the previous auditor, and Clause (10) of the Second Schedule client monies.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c11-q007",
+      "chapter": 11,
+      "topic": "Ethics and Terms of Audit Engagements",
+      "question_text": "CA Vikram signs the audit report of a company relying entirely on a working paper prepared by an article assistant on a material inventory balance, without any review. The inventory is later found to be grossly overstated. He is most likely to be held guilty under:",
+      "options": {
+        "A": "Clause (12) of Part I of the First Schedule, for allowing a non-member to sign on his behalf",
+        "B": "Clause (2) of Part I of the First Schedule, for sharing fees with a non-member",
+        "C": "Clause (7) of Part I of the Second Schedule, for not exercising due diligence or being grossly negligent in the conduct of professional duties",
+        "D": "Clause (1) of Part I of the Second Schedule, for disclosing client information"
+      },
+      "correct": "C",
+      "explanation": "Clause (7) of Part I of the Second Schedule covers a member who does not exercise due diligence or is grossly negligent in conducting professional duties. Signing a report on a material area without reviewing the assistant's work reflects lack of due diligence. Here CA Vikram signed the report himself, so Clause (12) on allowing others to sign does not apply.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-audit-c11-q008",
+      "chapter": 11,
+      "topic": "Ethics and Terms of Audit Engagements",
+      "question_text": "Under SA 210, which of the following is a precondition for an audit?",
+      "options": {
+        "A": "Payment of the full audit fee in advance",
+        "B": "The absence of any internal control deficiencies",
+        "C": "An undertaking by management that the auditor will issue an unmodified opinion",
+        "D": "The use by management of an acceptable financial reporting framework and management's agreement that it acknowledges its responsibilities"
+      },
+      "correct": "D",
+      "explanation": "SA 210 requires the auditor to determine that the financial reporting framework is acceptable and to obtain management's agreement that it acknowledges and understands its responsibility for preparing the financial statements, for internal control and for providing the auditor with access and information. If the preconditions are not present, the auditor shall not accept the engagement unless required by law.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c11-q009",
+      "chapter": 11,
+      "topic": "Ethics and Terms of Audit Engagements",
+      "question_text": "Which of the following persons is disqualified from appointment as auditor of a company under section 141(3) of the Companies Act, 2013?",
+      "options": {
+        "A": "A firm whose partners are all practising chartered accountants",
+        "B": "A chartered accountant who is auditor of ten other companies",
+        "C": "A chartered accountant holding one share of an unrelated company",
+        "D": "An officer or employee of the company"
+      },
+      "correct": "D",
+      "explanation": "Section 141(3) disqualifies, among others, a body corporate (other than an LLP), an officer or employee of the company, a partner or employee of an officer or employee, persons with certain financial interests or business relationships, and a person in full-time employment elsewhere, or a person who already holds appointment as auditor of more than twenty companies (with certain companies, such as one person companies, dormant companies and small companies, excluded from the count). A firm of practising chartered accountants can be appointed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c11-q010",
+      "chapter": 11,
+      "topic": "Ethics and Terms of Audit Engagements",
+      "question_text": "Rathi & Co., an audit firm, has completed two consecutive terms of five years each as auditor of a listed company. Under section 139(2) of the Companies Act, 2013, the firm:",
+      "options": {
+        "A": "May be re-appointed for a third term of five years with a special resolution",
+        "B": "May continue indefinitely if the audit committee recommends it",
+        "C": "Cannot be re-appointed as auditor of that company for five years from the completion of its second term",
+        "D": "Cannot be re-appointed as auditor of that company ever again"
+      },
+      "correct": "C",
+      "explanation": "Under section 139(2), applicable to listed companies and prescribed classes, an individual cannot be appointed for more than one term of five consecutive years and an audit firm for more than two terms of five consecutive years. After this, they are not eligible for re-appointment in that company for five years (the cooling-off period).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c11-q011",
+      "chapter": 11,
+      "topic": "Ethics and Terms of Audit Engagements",
+      "question_text": "The members of Dhara Polymers Ltd. wish to remove the statutory auditor before the expiry of the term. Under section 140(1) of the Companies Act, 2013, this requires:",
+      "options": {
+        "A": "A resolution of the board of directors with the auditor's written consent",
+        "B": "A special resolution only, without any government approval",
+        "C": "A special resolution of the company after obtaining the previous approval of the Central Government, and giving the auditor a reasonable opportunity of being heard",
+        "D": "An ordinary resolution passed at a board meeting"
+      },
+      "correct": "C",
+      "explanation": "Section 140(1) provides that an auditor appointed under section 139 may be removed before expiry of the term only by a special resolution of the company, after obtaining the previous approval of the Central Government. The auditor concerned must be given a reasonable opportunity of being heard before removal.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-audit-c11-q012",
+      "chapter": 11,
+      "topic": "Ethics and Terms of Audit Engagements",
+      "question_text": "The board of Ekta Pharma Ltd. requests its statutory auditor, Sinha & Co., to also conduct its internal audit. Under section 144 of the Companies Act, 2013:",
+      "options": {
+        "A": "Sinha & Co. may provide internal audit if approved by the board",
+        "B": "Sinha & Co. may provide internal audit only through a separate firm in which its partners are partners",
+        "C": "Sinha & Co. cannot provide internal audit services to the company, whether directly or indirectly",
+        "D": "Sinha & Co. may provide internal audit if the fee is less than the audit fee"
+      },
+      "correct": "C",
+      "explanation": "Section 144 prohibits an auditor from rendering certain services to the company, its holding or subsidiary, directly or indirectly, including accounting and book-keeping, internal audit, design and implementation of financial information systems, actuarial, investment advisory, investment banking, outsourced financial services and management services. Providing them through an associated firm is also covered as 'indirectly'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-audit-c11-q013",
+      "chapter": 11,
+      "topic": "Ethics and Terms of Audit Engagements",
+      "question_text": "The statutory auditor of Gaurav Industries Ltd., a non-government company, resigns mid-term. Under section 139(8) of the Companies Act, 2013, the resulting casual vacancy:",
+      "options": {
+        "A": "Is filled by the board alone, with no need for shareholders' approval",
+        "B": "Is filled by the Comptroller and Auditor General within 30 days",
+        "C": "Cannot be filled until the next annual general meeting",
+        "D": "Is filled by the board within 30 days, and the appointment must be approved by the company at a general meeting convened within three months of the board's recommendation"
+      },
+      "correct": "D",
+      "explanation": "Section 139(8)(i) provides that a casual vacancy in a non-government company is filled by the board within 30 days. Where the vacancy is caused by resignation, the appointment must also be approved by the company at a general meeting convened within three months of the board's recommendation, and the auditor holds office till the conclusion of the next AGM.",
+      "difficulty": "medium"
+    }
+  ]
+}
