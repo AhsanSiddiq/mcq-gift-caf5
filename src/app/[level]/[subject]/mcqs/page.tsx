@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { LEVEL_LABEL, subjectCode } from "@/data/subjects";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowRight } from "lucide-react";
@@ -8,21 +9,21 @@ import SponsorSlot from "@/components/SponsorSlot";
 
 export const revalidate = 86400;
 
-const BASE_URL = "https://thecahub.com";
+const BASE_URL = "https://www.thecahub.com";
 type Props = { params: Promise<{ level: string; subject: string }> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { level, subject } = await params;
   const s = resolveSubject(level, subject);
   if (!s) return {};
-  const code = s.id.toUpperCase();
+  const code = subjectCode(s);
   const title = `${code} ${s.title} MCQs with Answers – Chapter-wise Question Bank`;
-  const description = `Chapter-wise ${code} ${s.title} MCQs with answers and explanations for ICAP ${s.level}. Read every question online free, then test yourself in timed mocks.`;
+  const description = `Chapter-wise ${code} ${s.title} MCQs with answers and explanations for ${LEVEL_LABEL[s.level]}. Read every question online free, then test yourself in timed mocks.`;
   const url = `${BASE_URL}/${level}/${s.id}/mcqs`;
   return {
     title,
     description,
-    keywords: [`${code} MCQs`, `${code} MCQs with answers`, `${s.title} MCQs`, `ICAP ${s.level} MCQs pdf`, `${code} past paper MCQs`],
+    keywords: [`${code} MCQs`, `${code} MCQs with answers`, `${s.title} MCQs`, `${LEVEL_LABEL[s.level]} MCQs`, `${code} past paper MCQs`],
     alternates: { canonical: url },
     openGraph: { title, description, url },
   };
@@ -34,7 +35,7 @@ export default async function QuestionBankIndex({ params }: Props) {
   if (!s) notFound();
   const chapters = await getChapters(s.id);
   const total = chapters.reduce((n, c) => n + c.count, 0);
-  const code = s.id.toUpperCase();
+  const code = subjectCode(s);
   const base = `/${level}/${s.id}`;
 
   const breadcrumbs = {
@@ -55,7 +56,7 @@ export default async function QuestionBankIndex({ params }: Props) {
           <ArrowLeft className="w-4 h-4" /> {code} practice modes
         </Link>
         <p className="text-xs font-bold uppercase tracking-widest mb-3" style={{ color: "var(--green)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
-          Question bank · ICAP {s.level}
+          Question bank · {LEVEL_LABEL[s.level]}
         </p>
         <h1 className="font-bold mb-4" style={{ fontSize: "clamp(1.7rem,4vw,2.6rem)", color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif", lineHeight: 1.15 }}>
           {code} {s.title} MCQs with Answers

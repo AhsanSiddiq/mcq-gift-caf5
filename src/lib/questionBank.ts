@@ -37,7 +37,7 @@ export function chapterSlug(chapter: number, topic: string): string {
 /** Returns the subject only when the URL's level matches it — avoids duplicate URLs like /prc/caf-5. */
 export function resolveSubject(level: string, subjectId: string): Subject | undefined {
   const s = allSubjects.find((x) => x.id === subjectId.toLowerCase());
-  return s && s.level.toLowerCase() === level.toLowerCase() ? s : undefined;
+  return s && s.isAvailable && s.level.toLowerCase() === level.toLowerCase() ? s : undefined;
 }
 
 export async function getChapters(subjectId: string): Promise<ChapterMeta[]> {

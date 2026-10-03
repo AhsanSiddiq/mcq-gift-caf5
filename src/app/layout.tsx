@@ -28,7 +28,7 @@ const inter = Inter({
   display: "swap",
 });
 
-const BASE_URL = "https://thecahub.com";
+const BASE_URL = "https://www.thecahub.com";
 
 export const viewport: Viewport = {
   themeColor: "#3DB371",
@@ -121,9 +121,6 @@ export const metadata: Metadata = {
     },
   },
 
-  alternates: {
-    canonical: BASE_URL,
-  },
 
   category: "education",
 };
@@ -180,7 +177,7 @@ export default function RootLayout({
                 url: BASE_URL,
               },
               sameAs: [
-                "https://thecahub.com",
+                "https://www.thecahub.com",
               ],
             }),
           }}

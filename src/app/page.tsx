@@ -9,7 +9,7 @@ import {
 } from "framer-motion";
 import { ArrowRight, CheckCircle2, BookOpen, FileText, Target } from "lucide-react";
 import { blogs } from "@/data/blogs";
-import { allSubjects } from "@/data/subjects";
+import { icapSubjects } from "@/data/subjects";
 
 /* ── Framer Variants ── */
 const fadeUp: import("framer-motion").Variants = {
@@ -776,7 +776,7 @@ export default function Home() {
             in topical drills, timed mocks or today&apos;s <Link href="/daily" style={{ color: "var(--green)" }}>daily challenge</Link>.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-            {allSubjects.map((s) => (
+            {icapSubjects.map((s) => (
               <Link key={s.id} href={`/${s.level.toLowerCase()}/${s.id}/mcqs`}
                 className="flex items-center justify-between gap-3 rounded-2xl px-5 py-4"
                 style={{ background: "var(--bg-2)", border: "1px solid var(--border)", textDecoration: "none" }}>

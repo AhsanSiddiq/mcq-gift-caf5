@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://www.thecahub.com/about" },
   title: "About | The CA Hub – Muhammad Ahsan Siddiq",
   description: "Learn about Muhammad Ahsan Siddiq, the first student in ICAP's 64-year history to clear all 6 CFAP papers in a single attempt, and why he built The CA Hub.",
 };

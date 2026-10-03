@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
-import { allSubjects } from "@/data/subjects";
+import { allSubjects, LEVEL_LABEL, subjectCode } from "@/data/subjects";
 import { notFound } from "next/navigation";
 import { resolveSubject } from "@/lib/questionBank";
 
-const BASE_URL = "https://thecahub.com";
+const BASE_URL = "https://www.thecahub.com";
 
 const SUBJECT_META: Record<string, { desc: string; keywords: string[] }> = {
   // PRC
@@ -73,19 +73,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const extra = SUBJECT_META[subjectId];
 
   const title = subjectData
-    ? `${subjectData.id.toUpperCase()} ${subjectData.title} MCQ Practice`
+    ? `${subjectCode(subjectData)} ${subjectData.title} MCQ Practice`
     : `${subjectId.toUpperCase()} MCQ Practice`;
 
   const description =
     extra?.desc ??
-    `Free MCQ practice for ${subjectData?.title ?? subjectId} — ICAP ${level.toUpperCase()} level. Topical, random, and marathon modes with explanations.`;
+    `Free MCQ practice for ${subjectData?.title ?? subjectId} — ${subjectData ? LEVEL_LABEL[subjectData.level] : level.toUpperCase()}. Topical, random, and marathon modes with explanations.`;
 
   const url = `${BASE_URL}/${level}/${subjectId}`;
 
   return {
     title,
     description,
-    keywords: extra?.keywords ?? ["ICAP MCQ", "CA MCQ Pakistan", subjectId],
+    keywords: extra?.keywords ?? (subjectData ? [`${subjectCode(subjectData)} MCQs`, `${subjectData.title} MCQs`, `${LEVEL_LABEL[subjectData.level]} practice questions`] : [subjectId]),
     alternates: { canonical: url },
     openGraph: {
       title: `${title} | The CA Hub`,

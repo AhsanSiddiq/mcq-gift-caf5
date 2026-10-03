@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { LEVEL_LABEL, subjectCode } from "@/data/subjects";
 import Link from "next/link";
 import { notFound, permanentRedirect } from "next/navigation";
 import { ArrowLeft, ArrowRight, Timer } from "lucide-react";
@@ -8,7 +9,7 @@ import SponsorSlot from "@/components/SponsorSlot";
 
 export const revalidate = 86400;
 
-const BASE_URL = "https://thecahub.com";
+const BASE_URL = "https://www.thecahub.com";
 type Props = { params: Promise<{ level: string; subject: string; chapter: string }> };
 
 async function resolve(params: Props["params"]) {
@@ -27,9 +28,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   // Metadata is blocking for crawlers, so 404/redirect here gives bots a real status code
   if (!r) notFound();
   if (r.requested !== r.meta.slug) permanentRedirect(`/${r.level}/${r.s.id}/mcqs/${r.meta.slug}`);
-  const code = r.s.id.toUpperCase();
+  const code = subjectCode(r.s);
   const title = `${code} Chapter ${r.meta.chapter}: ${r.meta.topic} MCQs with Answers`;
-  const description = `${r.meta.count} ${r.meta.topic} MCQs for ICAP ${code} ${r.s.title}, with correct answers and explanations. Free chapter-wise practice.`;
+  const description = `${r.meta.count} ${r.meta.topic} MCQs for ${LEVEL_LABEL[r.s.level]} ${code} ${r.s.title}, with correct answers and explanations. Free chapter-wise practice.`;
   const url = `${BASE_URL}/${r.level}/${r.s.id}/mcqs/${r.meta.slug}`;
   return {
     title,
@@ -48,7 +49,7 @@ export default async function ChapterQuestionBank({ params }: Props) {
   if (r.requested !== meta.slug) permanentRedirect(`${base}/mcqs/${meta.slug}`);
 
   const questions = await getChapterQuestions(s.id, meta.chapter);
-  const code = s.id.toUpperCase();
+  const code = subjectCode(s);
   const prev = chapters[idx - 1];
   const next = chapters[idx + 1];
 
@@ -57,7 +58,7 @@ export default async function ChapterQuestionBank({ params }: Props) {
     "@type": "Quiz",
     name: `${code} Chapter ${meta.chapter}: ${meta.topic} MCQs`,
     about: { "@type": "Thing", name: `${s.title} — ${meta.topic}` },
-    educationalLevel: `ICAP ${s.level}`,
+    educationalLevel: LEVEL_LABEL[s.level],
     hasPart: questions.slice(0, 50).map((q) => {
       const correct = q.options.find((o) => o.correct);
       return {
@@ -95,7 +96,7 @@ export default async function ChapterQuestionBank({ params }: Props) {
           {meta.topic} MCQs with Answers
         </h1>
         <p className="text-base mb-6" style={{ color: "var(--text-2)", lineHeight: 1.7 }}>
-          {questions.length} multiple-choice questions on {meta.topic} from ICAP {code} {s.title}. Try each one before revealing the answer and explanation.
+          {questions.length} multiple-choice questions on {meta.topic} for {code} {s.title}. Try each one before revealing the answer and explanation.
         </p>
         <Link href={`${base}/quiz?mode=topical&chapter=${meta.chapter}`}
           className="inline-flex items-center gap-2 rounded-xl px-5 py-3 font-bold text-white mb-10" style={{ background: "var(--green)", textDecoration: "none" }}>

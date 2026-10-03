@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   title: "The CA Hub Pro – Unlimited Timed Exams, Ad-Free",
   description:
     "Go Pro: unlimited timed exam simulators, a completely ad-free site and early access to new exam banks. Priced locally for your country. Practice stays free for everyone.",
-  alternates: { canonical: "https://thecahub.com/pro" },
+  alternates: { canonical: "https://www.thecahub.com/pro" },
   openGraph: {
     title: "The CA Hub Pro",
     description: "Unlimited timed exam simulators and an ad-free CA Hub, priced for your country.",
-    url: "https://thecahub.com/pro",
+    url: "https://www.thecahub.com/pro",
     images: [{ url: "/CAHub.png", width: 1200, height: 630, alt: "The CA Hub Pro" }],
   },
 };

@@ -6,6 +6,7 @@ import { useProgress } from "@/hooks/useProgress";
 import { useEffect, useState } from "react";
 import EmailLoginModal from "@/components/EmailLoginModal";
 import AdSlot from "@/components/AdSlot";
+import { subjectCode } from "@/data/subjects";
 import SponsorSlot from "@/components/SponsorSlot";
 import { motion } from "framer-motion";
 
@@ -128,7 +129,7 @@ export default function SubjectHomeClient({ level, subjectId, currentSubject, to
                 className="text-xs font-black uppercase tracking-widest px-3 py-1 rounded-full"
                 style={{ color: "var(--green)", background: "rgba(61,179,113,0.10)", border: "1px solid rgba(61,179,113,0.25)" }}
               >
-                {currentSubject.id.toUpperCase()}
+                {subjectCode(currentSubject)}
               </span>
             </div>
             <h1
@@ -271,7 +272,7 @@ export default function SubjectHomeClient({ level, subjectId, currentSubject, to
           style={{ background: "var(--bg-2)", border: "1px solid var(--border)", textDecoration: "none" }}>
           <span>
             <span className="block font-bold" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
-              Browse all {currentSubject.id.toUpperCase()} MCQs with answers
+              Browse all {subjectCode(currentSubject)} MCQs with answers
             </span>
             <span className="block text-sm" style={{ color: "var(--text-2)" }}>Chapter-wise question bank with explanations — read, revise, then test yourself.</span>
           </span>

@@ -6,10 +6,12 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: "*",
         allow: "/",
-        disallow: ["/api/", "/_next/", "/admin/"],
+        // Never block /_next/: Google needs the JS/CSS chunks to render pages (blocking them
+        // made pages look empty to Googlebot and the AdSense crawler).
+        disallow: ["/api/", "/admin/"],
       },
     ],
-    sitemap: "https://thecahub.com/sitemap.xml",
-    host: "https://thecahub.com",
+    sitemap: "https://www.thecahub.com/sitemap.xml",
+    host: "https://www.thecahub.com",
   };
 }

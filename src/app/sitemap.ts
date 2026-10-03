@@ -6,7 +6,7 @@ import { getChapters } from "@/lib/questionBank";
 
 export const revalidate = 86400;
 
-const BASE_URL = "https://thecahub.com";
+const BASE_URL = "https://www.thecahub.com";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const now = new Date();
@@ -55,7 +55,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Crawlable question banks: one index per subject + one page per chapter
   const bankPages = (
     await Promise.all(
-      allSubjects.map(async (sub) => {
+      allSubjects.filter((sub) => sub.isAvailable).map(async (sub) => {
         const base = `${BASE_URL}/${sub.level.toLowerCase()}/${sub.id}/mcqs`;
         const chapters = await getChapters(sub.id).catch(() => []);
         return [

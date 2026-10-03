@@ -1,12 +1,29 @@
-export type Level = "PRC" | "CAF";
+export type Level = "PRC" | "CAF" | "ACCA" | "CA-FOUNDATION";
+export type BodyId = "icap" | "acca" | "icai";
 
 export interface Subject {
-  id: string; // e.g., 'prc-1', 'caf-5'
+  id: string; // e.g., 'prc-1', 'caf-5', 'acca-fa'
   title: string;
+  /** URL segment is level.toLowerCase(), e.g. /acca/acca-fa */
   level: Level;
   description: string;
   isAvailable: boolean;
+  /** Defaults to "icap" */
+  body?: BodyId;
+  /** Display code; defaults to id.toUpperCase() */
+  code?: string;
 }
+
+/** Human labels for a level, used in headings and metadata. */
+export const LEVEL_LABEL: Record<Level, string> = {
+  PRC: "ICAP PRC",
+  CAF: "ICAP CAF",
+  ACCA: "ACCA Applied Knowledge",
+  "CA-FOUNDATION": "ICAI CA Foundation",
+};
+
+export const subjectCode = (s: Pick<Subject, "id" | "code">) => s.code ?? s.id.toUpperCase();
+export const subjectBody = (s: Pick<Subject, "body">): BodyId => s.body ?? "icap";
 
 export const prcSubjects: Subject[] = [
   {
@@ -91,4 +108,56 @@ export const cafSubjects: Subject[] = [
   },
 ];
 
-export const allSubjects = [...prcSubjects, ...cafSubjects];
+export const accaSubjects: Subject[] = [
+  {
+    id: "acca-bt",
+    code: "ACCA BT",
+    title: "Business and Technology",
+    level: "ACCA",
+    body: "acca",
+    description: "Organisations, governance, leadership, technology and ethics — the full BT syllabus as objective questions.",
+    isAvailable: false,
+  },
+  {
+    id: "acca-ma",
+    code: "ACCA MA",
+    title: "Management Accounting",
+    level: "ACCA",
+    body: "acca",
+    description: "Costing, budgeting, variances and performance measurement with fully worked answers.",
+    isAvailable: false,
+  },
+  {
+    id: "acca-fa",
+    code: "ACCA FA",
+    title: "Financial Accounting",
+    level: "ACCA",
+    body: "acca",
+    description: "Double entry to consolidations and cash flows — IFRS-based practice for the FA CBE.",
+    isAvailable: false,
+  },
+];
+
+export const caFoundationSubjects: Subject[] = [
+  {
+    id: "ca-foundation-qa",
+    code: "CA Foundation P3",
+    title: "Quantitative Aptitude",
+    level: "CA-FOUNDATION",
+    body: "icai",
+    description: "Business mathematics, logical reasoning and statistics — every step worked.",
+    isAvailable: false,
+  },
+  {
+    id: "ca-foundation-be",
+    code: "CA Foundation P4",
+    title: "Business Economics",
+    level: "CA-FOUNDATION",
+    body: "icai",
+    description: "Demand, supply, markets, national income and the Indian economy — concept-first MCQs.",
+    isAvailable: false,
+  },
+];
+
+export const icapSubjects = [...prcSubjects, ...cafSubjects];
+export const allSubjects = [...prcSubjects, ...cafSubjects, ...accaSubjects, ...caFoundationSubjects];

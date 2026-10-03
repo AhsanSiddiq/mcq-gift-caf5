@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { prcSubjects, cafSubjects } from "@/data/subjects";
+import { prcSubjects, cafSubjects, accaSubjects, caFoundationSubjects, subjectCode, type Level } from "@/data/subjects";
 import { BookOpen, Lock } from "lucide-react";
 import { useEffect, useState } from "react";
 import AdSlot from "@/components/AdSlot";
@@ -13,6 +13,20 @@ const LEVEL_META: Record<string, { label: string; tag: string; color: string; bg
     color: "#60a5fa",
     bg: "rgba(96,165,250,0.08)",
     desc: "Pre-Requisite Competency — the entry stage for every CA student.",
+  },
+  ACCA: {
+    label: "ACCA",
+    tag: "Applied Knowledge (global)",
+    color: "#a78bfa",
+    bg: "rgba(167,139,250,0.08)",
+    desc: "BT, MA and FA — fully objective on-demand exams. Original practice questions with worked answers.",
+  },
+  "CA-FOUNDATION": {
+    label: "CA Foundation",
+    tag: "ICAI (India)",
+    color: "#F5A623",
+    bg: "rgba(245,166,35,0.08)",
+    desc: "The objective papers of CA Foundation: Quantitative Aptitude and Business Economics.",
   },
   CAF: {
     label: "CAF",
@@ -28,12 +42,11 @@ function SubjectCard({
   questionCount,
   isLoadingCount,
 }: {
-  subject: { id: string; title: string; level: string; isAvailable: boolean };
+  subject: { id: string; code?: string; title: string; level: string; isAvailable: boolean };
   questionCount?: number;
   isLoadingCount: boolean;
 }) {
   const meta = LEVEL_META[subject.level] ?? LEVEL_META.CAF;
-  const num = subject.id.split("-")[1];
 
   if (!subject.isAvailable) {
     return (
@@ -43,7 +56,7 @@ function SubjectCard({
       >
         <div className="flex items-start justify-between gap-2">
           <span className="text-xs font-black uppercase tracking-widest px-2 py-0.5 rounded-full" style={{ color: meta.color, background: meta.bg }}>
-            {subject.level}-{num}
+            {subjectCode(subject)}
           </span>
           <Lock className="w-3.5 h-3.5 shrink-0 mt-0.5" style={{ color: "var(--text-3)" }} />
         </div>
@@ -73,7 +86,7 @@ function SubjectCard({
     >
       <div className="flex items-start justify-between gap-2">
         <span className="text-xs font-black uppercase tracking-widest px-2 py-0.5 rounded-full" style={{ color: meta.color, background: meta.bg }}>
-          {subject.level}-{num}
+          {subjectCode(subject)}
         </span>
         <span className="text-xs font-bold px-2 py-0.5 rounded-full" style={{ color: "#fff", background: meta.color }}>
           Live
@@ -100,7 +113,7 @@ function SubjectCard({
 }
 
 function Section({ level, subjects, counts, isLoadingCounts }: {
-  level: "PRC" | "CAF";
+  level: Level;
   subjects: typeof prcSubjects;
   counts: Record<string, number>;
   isLoadingCounts: boolean;
@@ -188,6 +201,12 @@ export default function PracticePage() {
         {/* Sections */}
         <Section level="PRC" subjects={prcSubjects} counts={counts} isLoadingCounts={isLoadingCounts} />
         <Section level="CAF" subjects={cafSubjects} counts={counts} isLoadingCounts={isLoadingCounts} />
+        {accaSubjects.some((x) => x.isAvailable) && (
+          <Section level="ACCA" subjects={accaSubjects.filter((x) => x.isAvailable)} counts={counts} isLoadingCounts={isLoadingCounts} />
+        )}
+        {caFoundationSubjects.some((x) => x.isAvailable) && (
+          <Section level="CA-FOUNDATION" subjects={caFoundationSubjects.filter((x) => x.isAvailable)} counts={counts} isLoadingCounts={isLoadingCounts} />
+        )}
 
         <AdSlot />
 

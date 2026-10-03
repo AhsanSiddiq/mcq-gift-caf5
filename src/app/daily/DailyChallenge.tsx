@@ -84,7 +84,7 @@ export default function DailyChallenge({ date, number, subject, questions }: {
     () =>
       `The CA Hub Daily #${number} · ${code}\n${grid} ${score}/${questions.length}\n` +
       (store && store.streak > 1 ? `🔥 ${store.streak}-day streak\n` : "") +
-      `Can you beat me? https://thecahub.com/daily`,
+      `Can you beat me? https://www.thecahub.com/daily`,
     [number, code, grid, score, questions.length, store]
   );
 

@@ -86,7 +86,7 @@ export async function POST(req: NextRequest) {
           <!-- Footer -->
           <div style="border-top: 1px solid #1f1f1f; padding: 18px 32px; text-align: center;">
             <p style="margin: 0; font-size: 11px; color: #444;">© 2026 The CA Hub · Pakistan ·
-              <a href="https://thecahub.com" style="color: #22c55e; text-decoration: none;">thecahub.com</a>
+              <a href="https://www.thecahub.com" style="color: #22c55e; text-decoration: none;">thecahub.com</a>
             </p>
           </div>
         </div>

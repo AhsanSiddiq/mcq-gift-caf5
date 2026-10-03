@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 import { useParams } from "next/navigation";
 import { Sun, Moon, BookOpen } from "lucide-react";
-import { allSubjects } from "@/data/subjects";
+import { allSubjects, subjectCode } from "@/data/subjects";
 import { useTheme } from "@/components/ThemeProvider";
 import { motion, AnimatePresence } from "framer-motion";
 import RegionSwitcher from "@/components/RegionSwitcher";
@@ -147,7 +147,7 @@ export default function Header() {
             {currentSubject && (
               <span className="ml-2 px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-widest"
                 style={{ background: "rgba(61,179,113,0.12)", color: "var(--green)", border: "1px solid rgba(61,179,113,0.2)", fontFamily: "var(--font-space-grotesk), system-ui, sans-serif" }}>
-                {currentSubject.id.toUpperCase()}
+                {subjectCode(currentSubject)}
               </span>
             )}
           </nav>

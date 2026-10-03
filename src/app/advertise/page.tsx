@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Advertise to ICAP CA Students – Sponsorships",
   description:
     "Reach ICAP PRC and CAF students where they study every day. Sponsored placements on subject pages, the daily challenge and the CA induction CV maker.",
-  alternates: { canonical: "https://thecahub.com/advertise" },
+  alternates: { canonical: "https://www.thecahub.com/advertise" },
 };
 
 const PACKAGES = [

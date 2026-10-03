@@ -4,8 +4,9 @@ import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowRight, BookOpen, HandCoins } from "lucide-react";
 import { EXAM_BODIES, getBody, type ExamBody } from "@/data/regions";
 import WaitlistForm from "@/components/WaitlistForm";
+import { allSubjects, LEVEL_LABEL, subjectBody, subjectCode } from "@/data/subjects";
 
-const BASE_URL = "https://thecahub.com";
+const BASE_URL = "https://www.thecahub.com";
 
 // Only known bodies are routable; anything else 404s.
 export const dynamicParams = false;
@@ -72,6 +73,7 @@ export default async function ExamBodyPage({ params }: { params: Promise<{ body:
   if (!body) notFound();
 
   const live = body.status === "live" && !!body.practiceHref;
+  const liveSubjects = allSubjects.filter((sub) => subjectBody(sub) === body.id && sub.isAvailable);
   const faqs = faq(body);
   const url = `${BASE_URL}/exams/${body.id}`;
 
@@ -139,6 +141,29 @@ export default async function ExamBodyPage({ params }: { params: Promise<{ body:
             {body.tagline} Built for {body.name} students — every question explained, no paywall on practice.
           </p>
         </div>
+
+        {/* Live practice subjects for bodies hosted on the shared /[level]/[subject] routes */}
+        {body.id !== "icap" && liveSubjects.length > 0 && (
+          <section id="practice" className="mb-10">
+            <h2 className="text-xl sm:text-2xl font-bold mb-4" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
+              Practise {body.short} now — free
+            </h2>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+              {liveSubjects.map((sub) => (
+                <Link key={sub.id} href={`/${sub.level.toLowerCase()}/${sub.id}`} className="rounded-2xl p-5 flex flex-col gap-2"
+                  style={{ background: "var(--bg-2)", border: "1px solid rgba(61,179,113,0.35)", textDecoration: "none" }}>
+                  <span className="text-xs font-black uppercase tracking-widest" style={{ color: "var(--green)" }}>{subjectCode(sub)}</span>
+                  <span className="font-bold" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>{sub.title}</span>
+                  <span className="text-xs" style={{ color: "var(--text-3)" }}>{LEVEL_LABEL[sub.level]}</span>
+                  <span className="text-sm" style={{ color: "var(--text-2)" }}>{sub.description}</span>
+                  <span className="text-sm font-bold mt-auto inline-flex items-center gap-1" style={{ color: "var(--green)" }}>
+                    Practice MCQs <ArrowRight className="w-4 h-4" />
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
 
         {/* CTA */}
         <div className="mb-14 rounded-3xl p-6 sm:p-8" style={{ background: "var(--bg-2)", border: "1px solid rgba(61,179,113,0.35)" }}>

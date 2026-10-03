@@ -3,6 +3,7 @@ import { blogs } from "@/data/blogs";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 
 export const metadata = {
+  alternates: { canonical: "https://www.thecahub.com/blog" },
   title: "CA Hub Blog - Student Success Strategies",
   description: "Unfiltered, no-nonsense strategies and advice on how to survive and conquer your Chartered Accountancy journey.",
 };

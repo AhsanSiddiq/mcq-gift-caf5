@@ -4,7 +4,7 @@ import { ArrowRight, Globe2 } from "lucide-react";
 import { EXAM_BODIES, type ExamBody } from "@/data/regions";
 import { getVisitorRegion } from "@/lib/region";
 
-const PAGE_URL = "https://thecahub.com/exams";
+const PAGE_URL = "https://www.thecahub.com/exams";
 const TITLE = "Free Accountancy Exam MCQ Practice for Every Country | The CA Hub";
 const DESCRIPTION =
   "Free MCQ and objective-test practice for CA, ACCA, CIMA, ICAEW, US CPA and more. Live ICAP (CA Pakistan) question banks today, with ICAI, ACCA, CIMA and other bodies launching next.";

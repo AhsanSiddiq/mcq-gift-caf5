@@ -17,13 +17,13 @@ export const metadata: Metadata = {
     "PRC CAF CV",
   ],
   alternates: {
-    canonical: "https://thecahub.com/cv-maker",
+    canonical: "https://www.thecahub.com/cv-maker",
   },
   openGraph: {
     title: "CA Induction CV Maker – Free Big 4 Ready | The CA Hub",
     description:
       "Build a Big 4-ready ICAP induction CV instantly. The exact format recruiting partners expect. Free PDF download, no sign-up.",
-    url: "https://thecahub.com/cv-maker",
+    url: "https://www.thecahub.com/cv-maker",
     images: [{ url: "/CAHub.png", width: 1200, height: 630, alt: "CA Induction CV Maker – The CA Hub" }],
   },
   twitter: {

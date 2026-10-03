@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://www.thecahub.com/privacy-policy" },
   title: "Privacy Policy | The CA Hub",
   description: "Privacy Policy for The CA Hub — how we collect, use, and protect your data.",
 };
