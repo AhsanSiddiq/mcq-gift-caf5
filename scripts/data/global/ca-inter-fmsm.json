@@ -1,0 +1,1955 @@
+{
+  "subject_id": "ca-inter-fmsm",
+  "questions": [
+    {
+      "id": "ca-inter-fmsm-c01-q001",
+      "chapter": 1,
+      "topic": "Scope and Objectives of Financial Management",
+      "question_text": "Wealth maximisation is generally regarded as a superior objective of financial management compared with profit maximisation mainly because wealth maximisation:",
+      "options": {
+        "A": "Can be measured directly from the statement of profit and loss",
+        "B": "Ignores the interests of lenders and creditors",
+        "C": "Focuses on maximising accounting profit in each year",
+        "D": "Considers both the timing and the risk of expected benefits"
+      },
+      "correct": "D",
+      "explanation": "Wealth maximisation measures value as the present value of expected future cash flows discounted at a rate that reflects risk, so it captures both the time value of money and risk. Profit maximisation looks at accounting profit, which ignores timing and risk and is open to different definitions. Wealth is reflected in the market value of shares, not in the statement of profit and loss.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-fmsm-c01-q002",
+      "chapter": 1,
+      "topic": "Scope and Objectives of Financial Management",
+      "question_text": "The board of Saraswati Polymers Ltd is deciding what proportion of a new ₹ 40 crore project should be funded by debentures and what proportion by issuing equity shares. This is an example of a:",
+      "options": {
+        "A": "Investment decision",
+        "B": "Dividend decision",
+        "C": "Financing decision",
+        "D": "Working capital decision"
+      },
+      "correct": "C",
+      "explanation": "Deciding the mix of debt and equity used to raise funds is a financing decision, which shapes the capital structure. Whether to take up the project at all would be the investment decision. A dividend decision concerns how much of the profit to distribute and how much to retain.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-fmsm-c01-q003",
+      "chapter": 1,
+      "topic": "Scope and Objectives of Financial Management",
+      "question_text": "Which of the following is a recognised limitation of profit maximisation as the objective of a company?",
+      "options": {
+        "A": "It takes into account the time value of money too heavily",
+        "B": "The term 'profit' is vague, since it could mean profit before tax, after tax, total profit or earnings per share",
+        "C": "It always leads to excessive payment of dividends",
+        "D": "It is concerned only with the interests of creditors"
+      },
+      "correct": "B",
+      "explanation": "A key criticism of profit maximisation is that 'profit' is ambiguous: short-term or long-term, before or after tax, total or per share. It also ignores the timing of returns and the risk attached to them, so it does not take the time value of money into account at all. It has no built-in effect on dividends or on creditors.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-fmsm-c01-q004",
+      "chapter": 1,
+      "topic": "Scope and Objectives of Financial Management",
+      "question_text": "The conflict of interest that can arise when managers, acting as agents, pursue perks and job security rather than maximising the wealth of shareholders is known as the:",
+      "options": {
+        "A": "Agency problem",
+        "B": "Information asymmetry premium",
+        "C": "Clientele effect",
+        "D": "Pecking order problem"
+      },
+      "correct": "A",
+      "explanation": "When ownership and management are separate, managers (agents) may act in their own interest rather than in the interest of shareholders (principals). This is the agency problem. The costs of monitoring, bonding and the residual loss that follow are called agency costs. Pecking order and clientele effect relate to financing and dividend theory.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-fmsm-c01-q005",
+      "chapter": 1,
+      "topic": "Scope and Objectives of Financial Management",
+      "question_text": "Which of the following is an example of an agency cost borne by shareholders?",
+      "options": {
+        "A": "Depreciation charged on factory machinery",
+        "B": "Discount allowed to customers for early payment",
+        "C": "Interest paid on debentures issued to finance a new plant",
+        "D": "Fees paid to an independent firm to audit the financial statements prepared by management"
+      },
+      "correct": "D",
+      "explanation": "Agency costs include monitoring costs incurred so that managers act in the interest of shareholders. An external audit is a classic monitoring mechanism. Interest, depreciation and cash discounts are normal business costs, not costs of resolving the principal-agent conflict.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c01-q006",
+      "chapter": 1,
+      "topic": "Scope and Objectives of Financial Management",
+      "question_text": "In a large company, the function usually split between the Treasurer and the Controller is best described as:",
+      "options": {
+        "A": "Both perform identical duties, and the titles differ only by company size",
+        "B": "The Treasurer handles raising funds, banking relationships and cash management, while the Controller handles financial accounting, cost accounting, budgeting and internal control",
+        "C": "The Treasurer handles financial accounting and audit, while the Controller handles raising funds and banking relationships",
+        "D": "The Treasurer is responsible for production planning, while the Controller is responsible for marketing"
+      },
+      "correct": "B",
+      "explanation": "In the traditional division of the finance function, the Treasurer looks after obtaining and managing funds: capital raising, banking, cash and credit management. The Controller looks after accounting, reporting, budgeting and control. The two roles are complementary, not identical.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c01-q007",
+      "chapter": 1,
+      "topic": "Scope and Objectives of Financial Management",
+      "question_text": "Under the modern approach to financial management, the finance manager's role is best described as:",
+      "options": {
+        "A": "Taking part in decisions on how funds are allocated and used, how they are raised and how returns are distributed, with the aim of maximising the value of the firm",
+        "B": "Keeping books of account and preparing statutory financial statements",
+        "C": "Raising funds only on occasional events such as incorporation, mergers or reorganisation",
+        "D": "Maximising sales revenue in each accounting period regardless of cost"
+      },
+      "correct": "A",
+      "explanation": "The traditional approach saw finance as procuring funds for episodic events such as incorporation or mergers. The modern approach is wider: it covers investment, financing and dividend decisions as an integrated whole, aimed at maximising shareholder wealth. Bookkeeping belongs to accounting, and maximising sales is not a financial management objective.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c02-q001",
+      "chapter": 2,
+      "topic": "Types of Financing",
+      "question_text": "A financial institution issues deep discount bonds with a maturity value of ₹ 1,00,000, repayable after 10 years, carrying no periodic interest. If investors require a yield of 9% per annum compounded annually, the issue price (to the nearest rupee) should be about:",
+      "options": {
+        "A": "₹ 52,632",
+        "B": "₹ 38,942",
+        "C": "₹ 42,241",
+        "D": "₹ 46,043"
+      },
+      "correct": "C",
+      "explanation": "A deep discount bond pays only the maturity value, so its price is the present value of that amount: ₹ 1,00,000 / (1.09)^10 = ₹ 1,00,000 / 2.3674 = ₹ 42,241. Using simple interest (₹ 1,00,000 / 1.90) gives ₹ 52,632, which ignores compounding. Discounting for 9 years instead of 10 gives ₹ 46,043.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c02-q002",
+      "chapter": 2,
+      "topic": "Types of Financing",
+      "question_text": "The stage of venture capital financing provided to an entrepreneur to prove a business concept and develop a prototype, before the firm has a commercial product, is called:",
+      "options": {
+        "A": "Buy-out financing",
+        "B": "Second-round financing",
+        "C": "Seed capital",
+        "D": "Bridge (mezzanine) finance"
+      },
+      "correct": "C",
+      "explanation": "Seed capital is the earliest stage of venture finance. It funds research and development of a concept or prototype, when risk is highest. Second-round and later financing support firms already selling a product. Bridge or mezzanine finance comes just before a public issue, and buy-out finance helps management acquire an existing business.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-fmsm-c02-q003",
+      "chapter": 2,
+      "topic": "Types of Financing",
+      "question_text": "Which of the following is a feature of a financial lease rather than an operating lease?",
+      "options": {
+        "A": "The lease is non-cancellable and the lessee bears the risks and rewards of ownership, including maintenance, over most of the asset's economic life",
+        "B": "The lessee can cancel the lease at short notice without penalty",
+        "C": "The lease period is short compared with the asset's economic life and the lessor bears obsolescence risk",
+        "D": "The lessor normally provides maintenance and insurance as part of the rental"
+      },
+      "correct": "A",
+      "explanation": "A financial lease is a long-term, non-cancellable arrangement under which the lessee effectively gets the risks and rewards of ownership and usually bears maintenance and insurance. The lease term covers most of the asset's life, so the lessor recovers its investment plus a return. The other options describe an operating lease.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c02-q004",
+      "chapter": 2,
+      "topic": "Types of Financing",
+      "question_text": "Commercial paper (CP) is best described as:",
+      "options": {
+        "A": "A certificate issued by a bank against a fixed-term deposit",
+        "B": "An unsecured short-term promissory note issued at a discount by highly rated companies",
+        "C": "A secured long-term debenture carrying a fixed coupon",
+        "D": "A short-term bank overdraft secured by a charge on inventory"
+      },
+      "correct": "B",
+      "explanation": "Commercial paper is a money market instrument: an unsecured promissory note with a short maturity, issued at a discount to face value by companies with strong credit ratings. Investors earn the difference between the discounted issue price and the face value. A certificate issued by a bank against a deposit is a certificate of deposit, not CP.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-fmsm-c02-q005",
+      "chapter": 2,
+      "topic": "Types of Financing",
+      "question_text": "An Indian company wishes to raise equity from investors in the United States by issuing depository receipts that are listed and traded on a US stock exchange. The instrument it should use is:",
+      "options": {
+        "A": "Foreign Currency Convertible Bonds (FCCBs)",
+        "B": "External Commercial Borrowings (ECBs)",
+        "C": "Global Depository Receipts (GDRs) listed only in Luxembourg",
+        "D": "American Depository Receipts (ADRs)"
+      },
+      "correct": "D",
+      "explanation": "ADRs are dollar-denominated receipts issued by a US depository bank against the underlying shares of a non-US company and traded in the US market. GDRs are usually listed on European exchanges and offered in several markets. ECBs and FCCBs are debt or quasi-debt instruments, not depository receipts for equity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c02-q006",
+      "chapter": 2,
+      "topic": "Types of Financing",
+      "question_text": "Mahendra Textiles Ltd sells its factory building to a leasing company for cash and simultaneously leases the same building back for 15 years. The main purpose of this arrangement is to:",
+      "options": {
+        "A": "Release funds tied up in the asset while keeping the right to use it",
+        "B": "Reduce the company's lease payments to nil",
+        "C": "Avoid having to maintain the building during the lease term",
+        "D": "Transfer the operating risks of the business to the leasing company"
+      },
+      "correct": "A",
+      "explanation": "Under a sale and leaseback, the owner sells an asset and leases it back immediately. The company gets a lump sum of cash to use elsewhere and continues to use the asset in return for lease rentals. Operating risks stay with the company, and maintenance obligations depend on the lease terms.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c02-q007",
+      "chapter": 2,
+      "topic": "Types of Financing",
+      "question_text": "A company has obtained sanction of a term loan from a financial institution, but disbursement will take three months. In the meantime it takes a short-term loan from a bank to start work on the project, to be repaid from the term loan proceeds. This short-term loan is known as:",
+      "options": {
+        "A": "Seed capital",
+        "B": "Packing credit",
+        "C": "Deferred credit",
+        "D": "Bridge finance"
+      },
+      "correct": "D",
+      "explanation": "Bridge finance is a short-term loan taken to meet expenses while formalities for a sanctioned long-term loan are completed. It is repaid when the term loan is disbursed. Packing credit is pre-shipment finance for exporters, and deferred credit refers to buying assets on instalment terms.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c03-q001",
+      "chapter": 3,
+      "topic": "Financial Analysis and Planning – Ratio Analysis",
+      "question_text": "Vardhan Ltd has current liabilities of ₹ 4,00,000, a current ratio of 2.5 : 1 and a quick ratio of 1.5 : 1. Inventory is the only current asset excluded from quick assets. The value of inventory is:",
+      "options": {
+        "A": "₹ 2,00,000",
+        "B": "₹ 6,00,000",
+        "C": "₹ 4,00,000",
+        "D": "₹ 10,00,000"
+      },
+      "correct": "C",
+      "explanation": "Current assets = 2.5 x ₹ 4,00,000 = ₹ 10,00,000. Quick assets = 1.5 x ₹ 4,00,000 = ₹ 6,00,000. Inventory = current assets - quick assets = ₹ 10,00,000 - ₹ 6,00,000 = ₹ 4,00,000. The figures ₹ 10,00,000 and ₹ 6,00,000 are total current assets and quick assets, not inventory.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-fmsm-c03-q002",
+      "chapter": 3,
+      "topic": "Financial Analysis and Planning – Ratio Analysis",
+      "question_text": "A company has a net profit margin of 8%, a total asset turnover of 1.5 times and an equity multiplier (total assets / shareholders' equity) of 2. Using the DuPont analysis, its return on equity is:",
+      "options": {
+        "A": "12%",
+        "B": "24%",
+        "C": "16%",
+        "D": "9.5%"
+      },
+      "correct": "B",
+      "explanation": "Under DuPont analysis, ROE = net profit margin x asset turnover x equity multiplier = 8% x 1.5 x 2 = 24%. The figure 12% is return on assets (8% x 1.5), which leaves out financial leverage. The figure 16% multiplies the margin by the equity multiplier only.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c03-q003",
+      "chapter": 3,
+      "topic": "Financial Analysis and Planning – Ratio Analysis",
+      "question_text": "Annual credit sales of Kesar Foods Ltd are ₹ 36,00,000 and average trade receivables are ₹ 6,00,000. Assuming 360 days in a year, the average collection period is:",
+      "options": {
+        "A": "6 days",
+        "B": "45 days",
+        "C": "72 days",
+        "D": "60 days"
+      },
+      "correct": "D",
+      "explanation": "Receivables turnover = credit sales / average receivables = ₹ 36,00,000 / ₹ 6,00,000 = 6 times. Average collection period = 360 / 6 = 60 days. The figure 6 is the turnover ratio (in times), not days.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-fmsm-c03-q004",
+      "chapter": 3,
+      "topic": "Financial Analysis and Planning – Ratio Analysis",
+      "question_text": "Sales are ₹ 50,00,000 and the gross profit ratio is 20% on sales. Opening inventory is ₹ 3,80,000 and closing inventory is ₹ 4,20,000. The inventory turnover ratio based on cost of goods sold and average inventory is:",
+      "options": {
+        "A": "12.5 times",
+        "B": "9.52 times",
+        "C": "10.0 times",
+        "D": "10.53 times"
+      },
+      "correct": "C",
+      "explanation": "Cost of goods sold = ₹ 50,00,000 x 80% = ₹ 40,00,000. Average inventory = (₹ 3,80,000 + ₹ 4,20,000) / 2 = ₹ 4,00,000. Inventory turnover = ₹ 40,00,000 / ₹ 4,00,000 = 10.0 times. Using sales gives 12.5 times, which overstates turnover because inventory is carried at cost.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c03-q005",
+      "chapter": 3,
+      "topic": "Financial Analysis and Planning – Ratio Analysis",
+      "question_text": "For the year, Ojas Engineering Ltd reports profit after tax of ₹ 6,00,000, depreciation of ₹ 2,00,000, interest on term loan of ₹ 3,00,000 and a principal instalment of ₹ 4,00,000 due on the term loan. The debt service coverage ratio is (to two decimals):",
+      "options": {
+        "A": "3.67 times",
+        "B": "1.57 times",
+        "C": "1.14 times",
+        "D": "2.75 times"
+      },
+      "correct": "B",
+      "explanation": "Earnings available for debt service = PAT + depreciation + interest = ₹ 6,00,000 + ₹ 2,00,000 + ₹ 3,00,000 = ₹ 11,00,000. Debt service = interest + principal instalment = ₹ 3,00,000 + ₹ 4,00,000 = ₹ 7,00,000. DSCR = ₹ 11,00,000 / ₹ 7,00,000 = 1.57 times. Leaving out the instalment, or leaving interest out of the numerator, gives the other figures.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c03-q006",
+      "chapter": 3,
+      "topic": "Financial Analysis and Planning – Ratio Analysis",
+      "question_text": "Profit after tax is ₹ 45,00,000, preference dividend is ₹ 5,00,000 and there are 8,00,000 equity shares in issue. If the market price per equity share is ₹ 60, the price-earnings (P/E) ratio is:",
+      "options": {
+        "A": "12 times",
+        "B": "5 times",
+        "C": "10.67 times",
+        "D": "9.60 times"
+      },
+      "correct": "A",
+      "explanation": "EPS = (PAT - preference dividend) / number of equity shares = (₹ 45,00,000 - ₹ 5,00,000) / 8,00,000 = ₹ 5.00. P/E = market price / EPS = 60 / 5 = 12 times. Leaving out the preference dividend gives EPS of ₹ 5.625 and a P/E of 10.67, which is wrong because equity holders are entitled only to profit after preference dividend.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c03-q007",
+      "chapter": 3,
+      "topic": "Financial Analysis and Planning – Ratio Analysis",
+      "question_text": "Which of the following ratios is the most stringent test of a firm's short-term liquidity?",
+      "options": {
+        "A": "Current ratio",
+        "B": "Quick (acid test) ratio",
+        "C": "Inventory turnover ratio",
+        "D": "Absolute liquidity (cash) ratio"
+      },
+      "correct": "D",
+      "explanation": "The absolute liquidity or cash ratio compares only cash, bank balances and marketable securities with current liabilities, so it is the strictest liquidity test. The quick ratio leaves out inventory and prepaid expenses but still counts receivables. The current ratio counts all current assets. Inventory turnover is an activity ratio, not a liquidity ratio.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-fmsm-c03-q008",
+      "chapter": 3,
+      "topic": "Financial Analysis and Planning – Ratio Analysis",
+      "question_text": "Ruchi Traders has sales of ₹ 30,00,000 and earns a gross profit of 25% on sales. Its inventory turnover ratio (based on cost of goods sold and average inventory) is 6 times, and closing inventory is ₹ 50,000 more than opening inventory. Closing inventory is:",
+      "options": {
+        "A": "₹ 5,00,000",
+        "B": "₹ 4,00,000",
+        "C": "₹ 3,75,000",
+        "D": "₹ 3,50,000"
+      },
+      "correct": "B",
+      "explanation": "Cost of goods sold = ₹ 30,00,000 x 75% = ₹ 22,50,000. Average inventory = ₹ 22,50,000 / 6 = ₹ 3,75,000. If opening = X and closing = X + 50,000, then (2X + 50,000) / 2 = ₹ 3,75,000, so X = ₹ 3,50,000 and closing inventory = ₹ 4,00,000. Dividing sales by 6 (₹ 5,00,000) is wrong because the ratio is based on cost of goods sold.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-fmsm-c03-q009",
+      "chapter": 3,
+      "topic": "Financial Analysis and Planning – Ratio Analysis",
+      "question_text": "A company makes a large repayment to creditors just before the year end, using a short-term loan that it takes again immediately after the year end, so that its current ratio looks better. This shows which limitation of ratio analysis?",
+      "options": {
+        "A": "Ratios can be distorted by window dressing of year-end figures",
+        "B": "Ratios cannot be calculated for companies with losses",
+        "C": "Ratios ignore the effect of inflation on historical costs",
+        "D": "Ratios measure only qualitative factors"
+      },
+      "correct": "A",
+      "explanation": "Ratios are based on balance sheet figures at a single date, so management can change transactions around the reporting date to improve the reported position. This is called window dressing. Inflation is a separate limitation. Ratios are quantitative, and they can still be calculated for loss-making firms.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c04-q001",
+      "chapter": 4,
+      "topic": "Cost of Capital",
+      "question_text": "Pragati Ltd issues 12% irredeemable debentures of ₹ 100 each at ₹ 95 (net of issue costs). The corporate tax rate is 30%. The after-tax cost of these debentures is:",
+      "options": {
+        "A": "12.63%",
+        "B": "8.40%",
+        "C": "8.84%",
+        "D": "8.62%"
+      },
+      "correct": "C",
+      "explanation": "For irredeemable debt, Kd = I(1 - t) / NP = 12 x (1 - 0.30) / 95 = 8.40 / 95 = 8.84%. Using face value instead of net proceeds gives 8.40%. Ignoring tax gives 12.63%. The relevant base is the net amount actually raised, ₹ 95.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-fmsm-c04-q002",
+      "chapter": 4,
+      "topic": "Cost of Capital",
+      "question_text": "A company issues 10% debentures of ₹ 1,000 each. Net proceeds per debenture are ₹ 940, and the debentures are redeemable at a 5% premium after 8 years. The tax rate is 25%. Using the approximation formula, the after-tax cost of debt is closest to:",
+      "options": {
+        "A": "8.51%",
+        "B": "11.43%",
+        "C": "8.92%",
+        "D": "9.44%"
+      },
+      "correct": "C",
+      "explanation": "Redemption value RV = ₹ 1,050 and NP = ₹ 940. Kd = [I(1 - t) + (RV - NP)/n] / [(RV + NP)/2] = [100 x 0.75 + (1,050 - 940)/8] / [(1,050 + 940)/2] = (75 + 13.75) / 995 = 8.92%. Ignoring tax gives 11.43%. Dividing by NP alone gives 9.44%, and ignoring the redemption premium gives 8.51%.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c04-q003",
+      "chapter": 4,
+      "topic": "Cost of Capital",
+      "question_text": "9% preference shares of ₹ 100 each are issued with net proceeds of ₹ 92 per share and are redeemable at par after 10 years. Using the approximation formula, the cost of preference capital is:",
+      "options": {
+        "A": "9.78%",
+        "B": "9.00%",
+        "C": "10.65%",
+        "D": "10.21%"
+      },
+      "correct": "D",
+      "explanation": "Kp = [PD + (RV - NP)/n] / [(RV + NP)/2] = [9 + (100 - 92)/10] / [(100 + 92)/2] = 9.80 / 96 = 10.21%. No tax adjustment is made because preference dividend is not tax-deductible. The figure 9.78% would apply to irredeemable preference shares.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c04-q004",
+      "chapter": 4,
+      "topic": "Cost of Capital",
+      "question_text": "The equity shares of Nirmal Ltd are quoted at ₹ 80. The company has just paid a dividend of ₹ 4 per share, and dividends are expected to grow at 6% per annum indefinitely. Using the dividend growth model, the cost of equity is:",
+      "options": {
+        "A": "11.0%",
+        "B": "11.3%",
+        "C": "6.0%",
+        "D": "5.3%"
+      },
+      "correct": "B",
+      "explanation": "D1 = D0 x (1 + g) = 4 x 1.06 = ₹ 4.24. Ke = D1/P0 + g = 4.24/80 + 0.06 = 0.053 + 0.06 = 11.3%. Using D0 instead of D1 gives 11.0%. Leaving out the growth rate gives only the dividend yield of 5.3%.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c04-q005",
+      "chapter": 4,
+      "topic": "Cost of Capital",
+      "question_text": "The risk-free rate is 6%, the expected market return is 13% and the beta of Tejas Ltd's equity shares is 1.3. Using CAPM, the cost of equity is:",
+      "options": {
+        "A": "15.1%",
+        "B": "22.9%",
+        "C": "9.1%",
+        "D": "16.9%"
+      },
+      "correct": "A",
+      "explanation": "Ke = Rf + β(Rm - Rf) = 6% + 1.3 x (13% - 6%) = 6% + 9.1% = 15.1%. Multiplying beta by the full market return (16.9%), or adding Rf to that product (22.9%), ignores that beta applies only to the market risk premium. The figure 9.1% is the risk premium alone.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-fmsm-c04-q006",
+      "chapter": 4,
+      "topic": "Cost of Capital",
+      "question_text": "The market price of an equity share is ₹ 60, the expected dividend next year (D1) is ₹ 3 and dividends are expected to grow at 7% per annum. A fresh issue of equity would involve flotation costs of 5% of the market price. The cost of retained earnings, ignoring personal taxes, is:",
+      "options": {
+        "A": "5.26%",
+        "B": "12.00%",
+        "C": "5.00%",
+        "D": "12.26%"
+      },
+      "correct": "B",
+      "explanation": "Retained earnings involve no flotation cost, so Kr = D1/P0 + g = 3/60 + 0.07 = 0.05 + 0.07 = 12.00%. The figure 12.26% is the cost of new equity, which uses net proceeds of ₹ 57 (60 x 0.95). The figure 5% is only the dividend yield.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c04-q007",
+      "chapter": 4,
+      "topic": "Cost of Capital",
+      "question_text": "The capital structure of Dhruv Ltd (book values) is: equity share capital ₹ 30 lakh (cost 15%), 12% preference share capital ₹ 10 lakh and 10% debentures ₹ 40 lakh. The tax rate is 30%. The weighted average cost of capital on book value weights is:",
+      "options": {
+        "A": "12.125%",
+        "B": "10.175%",
+        "C": "10.625%",
+        "D": "11.33%"
+      },
+      "correct": "C",
+      "explanation": "Post-tax cost of debt = 10% x (1 - 0.30) = 7%. Preference capital costs 12% with no tax adjustment. WACC = (30 x 15 + 10 x 12 + 40 x 7) / 80 = (450 + 120 + 280) / 80 = 850 / 80 = 10.625%. Using pre-tax debt gives 12.125%, and applying a tax shield to preference dividend gives 10.175%.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c04-q008",
+      "chapter": 4,
+      "topic": "Cost of Capital",
+      "question_text": "Kaveri Ltd has equity with a book value of ₹ 50 crore and a market value of ₹ 60 crore, and debentures with a book value of ₹ 50 crore and a market value of ₹ 40 crore. The cost of equity is 14%, the pre-tax cost of debt is 10% and the tax rate is 30%. The WACC using market value weights is:",
+      "options": {
+        "A": "11.20%",
+        "B": "10.50%",
+        "C": "9.80%",
+        "D": "12.40%"
+      },
+      "correct": "A",
+      "explanation": "Post-tax Kd = 10% x 0.70 = 7%. Market weights: equity 60/100 = 0.6 and debt 40/100 = 0.4. WACC = 0.6 x 14% + 0.4 x 7% = 8.4% + 2.8% = 11.20%. Book value weights (0.5 each) give 10.50%, and using pre-tax debt gives 12.40%.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-fmsm-c04-q009",
+      "chapter": 4,
+      "topic": "Cost of Capital",
+      "question_text": "Debt is usually the cheapest source of long-term finance for a profitable company. The most important reason is that:",
+      "options": {
+        "A": "Debt does not have to be repaid at any time",
+        "B": "Debt holders have voting rights in general meetings",
+        "C": "Interest payments are at the discretion of the board of directors",
+        "D": "Interest is a tax-deductible expense and debt holders face lower risk than equity holders, so they accept a lower return"
+      },
+      "correct": "D",
+      "explanation": "Debt holders have a prior, contractual claim on income and assets, so they bear less risk and accept a lower return. Interest is also allowed as a deduction for tax, which reduces the effective cost further. Debt must be repaid, interest is a contractual obligation rather than discretionary, and debt holders do not normally vote.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c04-q010",
+      "chapter": 4,
+      "topic": "Cost of Capital",
+      "question_text": "Jyoti Ltd has EPS of ₹ 10 and has just paid a dividend of ₹ 4 per share. It earns a return of 15% on retained earnings, and this retention policy is expected to continue. If the share price is ₹ 60, the cost of equity using the dividend growth model is closest to:",
+      "options": {
+        "A": "15.67%",
+        "B": "12.67%",
+        "C": "16.27%",
+        "D": "13.07%"
+      },
+      "correct": "C",
+      "explanation": "Retention ratio b = 1 - 4/10 = 0.6, so g = b x r = 0.6 x 15% = 9%. D1 = 4 x 1.09 = ₹ 4.36. Ke = 4.36/60 + 0.09 = 7.27% + 9% = 16.27%. Using the payout ratio instead of the retention ratio to estimate growth (g = 6%) is a common error.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-fmsm-c05-q001",
+      "chapter": 5,
+      "topic": "Financing Decisions – Capital Structure",
+      "question_text": "Under the Net Income (NI) approach, a firm has EBIT of ₹ 6,00,000, 10% debt of ₹ 20,00,000 and a cost of equity of 15%. There are no taxes. The total value of the firm is:",
+      "options": {
+        "A": "₹ 26,66,667",
+        "B": "₹ 40,00,000",
+        "C": "₹ 60,00,000",
+        "D": "₹ 46,66,667"
+      },
+      "correct": "D",
+      "explanation": "Net income to equity = EBIT - interest = ₹ 6,00,000 - ₹ 2,00,000 = ₹ 4,00,000. Value of equity S = ₹ 4,00,000 / 0.15 = ₹ 26,66,667. Value of firm V = S + D = ₹ 26,66,667 + ₹ 20,00,000 = ₹ 46,66,667. Overall cost of capital = ₹ 6,00,000 / ₹ 46,66,667 = 12.86%.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c05-q002",
+      "chapter": 5,
+      "topic": "Financing Decisions – Capital Structure",
+      "question_text": "Under the Net Operating Income (NOI) approach, a firm has EBIT of ₹ 8,00,000 and an overall capitalisation rate of 12.5%. It has 9% debt of ₹ 24,00,000. Ignoring taxes, the implied cost of equity is:",
+      "options": {
+        "A": "14.6%",
+        "B": "9.125%",
+        "C": "12.5%",
+        "D": "20.0%"
+      },
+      "correct": "A",
+      "explanation": "Value of firm V = EBIT / Ko = ₹ 8,00,000 / 0.125 = ₹ 64,00,000. Value of equity = ₹ 64,00,000 - ₹ 24,00,000 = ₹ 40,00,000. Earnings for equity = ₹ 8,00,000 - ₹ 2,16,000 = ₹ 5,84,000. Ke = ₹ 5,84,000 / ₹ 40,00,000 = 14.6%. Under NOI, Ke rises with leverage while Ko stays constant at 12.5%.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-fmsm-c05-q003",
+      "chapter": 5,
+      "topic": "Financing Decisions – Capital Structure",
+      "question_text": "According to Modigliani and Miller (with corporate taxes), an unlevered firm is valued at ₹ 50 crore. An otherwise identical firm has ₹ 20 crore of permanent debt, and the corporate tax rate is 30%. The value of the levered firm is:",
+      "options": {
+        "A": "₹ 50 crore",
+        "B": "₹ 56 crore",
+        "C": "₹ 70 crore",
+        "D": "₹ 44 crore"
+      },
+      "correct": "B",
+      "explanation": "With corporate taxes, MM state that VL = VU + tD, where tD is the present value of the interest tax shield on permanent debt. VL = 50 + 0.30 x 20 = 50 + 6 = ₹ 56 crore. ₹ 50 crore would be the result under MM without taxes. ₹ 70 crore wrongly adds the full debt.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-fmsm-c05-q004",
+      "chapter": 5,
+      "topic": "Financing Decisions – Capital Structure",
+      "question_text": "Swastik Ltd needs ₹ 50 lakh for a new venture. Plan I: issue 5,00,000 equity shares of ₹ 10 each. Plan II: issue ₹ 20 lakh of 12% debentures and 3,00,000 equity shares of ₹ 10 each. The tax rate is 30%. The EBIT at which EPS is the same under both plans is:",
+      "options": {
+        "A": "₹ 6,00,000",
+        "B": "₹ 8,57,143",
+        "C": "₹ 2,40,000",
+        "D": "₹ 4,80,000"
+      },
+      "correct": "A",
+      "explanation": "Interest under Plan II = 12% x 20,00,000 = ₹ 2,40,000. Set EPS equal: EBIT(1 - 0.3)/5,00,000 = (EBIT - 2,40,000)(1 - 0.3)/3,00,000. Then 3 EBIT = 5 EBIT - 12,00,000, so EBIT = ₹ 6,00,000. Check: EPS = 6,00,000 x 0.7 / 5,00,000 = ₹ 0.84 under Plan I, and 3,60,000 x 0.7 / 3,00,000 = ₹ 0.84 under Plan II.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-fmsm-c05-q005",
+      "chapter": 5,
+      "topic": "Financing Decisions – Capital Structure",
+      "question_text": "According to the Traditional approach to capital structure:",
+      "options": {
+        "A": "The cost of equity stays constant while the cost of debt rises steeply from the first rupee of borrowing",
+        "B": "Using debt sensibly lowers the overall cost of capital up to a point, beyond which Ko rises, so an optimum capital structure exists",
+        "C": "The overall cost of capital stays constant whatever the debt-equity mix",
+        "D": "The value of the firm keeps increasing as debt is increased up to 100%"
+      },
+      "correct": "B",
+      "explanation": "The Traditional approach takes a middle path between NI and NOI. At moderate leverage, Ke rises only slowly and cheaper debt reduces Ko. Beyond a certain level, both Ke and Kd rise sharply and Ko increases. So there is an optimum capital structure where Ko is lowest. A constant Ko is the NOI and MM (no tax) view.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c05-q006",
+      "chapter": 5,
+      "topic": "Financing Decisions – Capital Structure",
+      "question_text": "Under Modigliani-Miller Proposition II (no taxes), a firm has an overall cost of capital of 12%, a cost of debt of 8% and a debt-equity ratio of 0.5. Its cost of equity is:",
+      "options": {
+        "A": "12%",
+        "B": "16%",
+        "C": "14%",
+        "D": "10%"
+      },
+      "correct": "C",
+      "explanation": "MM Proposition II states that Ke = Ko + (Ko - Kd) x D/E = 12% + (12% - 8%) x 0.5 = 12% + 2% = 14%. The cost of equity rises in line with leverage to exactly offset the benefit of cheaper debt, so Ko stays at 12%.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c05-q007",
+      "chapter": 5,
+      "topic": "Financing Decisions – Capital Structure",
+      "question_text": "According to the pecking order theory of capital structure, the order in which a firm prefers to raise funds is:",
+      "options": {
+        "A": "Debt first, then new equity, then internal accruals",
+        "B": "Internal accruals first, then new equity, and debt as a last resort",
+        "C": "New equity first, then debt, then internal accruals",
+        "D": "Internal accruals first, then debt, and new equity issue as a last resort"
+      },
+      "correct": "D",
+      "explanation": "Pecking order theory is based on information asymmetry. Managers prefer internal funds because they carry no issue costs and send no signal to the market. If external finance is needed, they prefer debt to equity, because a new equity issue may signal that management thinks the shares are overvalued.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-fmsm-c05-q008",
+      "chapter": 5,
+      "topic": "Financing Decisions – Capital Structure",
+      "question_text": "Firms U and L are identical except that U is all-equity and L has ₹ 30 lakh of 8% debt. Both have EBIT of ₹ 10 lakh. U's equity is valued at ₹ 80 lakh. L's equity investors capitalise their earnings at 14%. There are no taxes. Under the MM arbitrage argument, which statement is correct?",
+      "options": {
+        "A": "L is valued at about ₹ 84,28,571 against an equilibrium value of ₹ 80,00,000, so it is overvalued and investors will sell L's shares, borrow personally and buy U's shares",
+        "B": "Both firms are correctly valued at ₹ 80,00,000 and no arbitrage is possible",
+        "C": "L's equilibrium value should be ₹ 1,10,00,000 because debt always adds its full amount to firm value",
+        "D": "L is valued at about ₹ 84,28,571 and is undervalued, so investors will sell U's shares and buy L's shares"
+      },
+      "correct": "A",
+      "explanation": "Value of L's equity = (10,00,000 - 2,40,000) / 0.14 = ₹ 54,28,571, so VL = ₹ 54,28,571 + 30,00,000 = ₹ 84,28,571. Under MM without taxes, VL should equal VU = ₹ 80,00,000. L is overvalued by about ₹ 4,28,571. Investors holding L's shares can sell them, borrow personally in the same proportion as L's debt and buy U's shares, earning the same income with less outlay, until the two values are equal.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-fmsm-c05-q009",
+      "chapter": 5,
+      "topic": "Financing Decisions – Capital Structure",
+      "question_text": "Trade-off theory explains the optimal capital structure as the point where:",
+      "options": {
+        "A": "The dividend payout ratio is 100%",
+        "B": "Cost of equity equals cost of debt",
+        "C": "The firm has no debt at all",
+        "D": "The marginal benefit of the interest tax shield equals the marginal expected cost of financial distress"
+      },
+      "correct": "D",
+      "explanation": "Trade-off theory accepts that debt adds value through the interest tax shield. As borrowing rises, so do the expected costs of financial distress and bankruptcy. The optimal level of debt balances the marginal tax benefit against these marginal costs.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c06-q001",
+      "chapter": 6,
+      "topic": "Financing Decisions – Leverages",
+      "question_text": "Annual sales of Mehta Castings are ₹ 40,00,000, variable costs are 60% of sales and fixed operating costs are ₹ 6,00,000. The degree of operating leverage is:",
+      "options": {
+        "A": "4.00",
+        "B": "2.67",
+        "C": "1.60",
+        "D": "0.625"
+      },
+      "correct": "C",
+      "explanation": "Contribution = ₹ 40,00,000 x 40% = ₹ 16,00,000. EBIT = ₹ 16,00,000 - ₹ 6,00,000 = ₹ 10,00,000. DOL = contribution / EBIT = ₹ 16,00,000 / ₹ 10,00,000 = 1.60. So a 1% change in sales leads to a 1.6% change in EBIT.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c06-q002",
+      "chapter": 6,
+      "topic": "Financing Decisions – Leverages",
+      "question_text": "A company has EBIT of ₹ 10,00,000, debenture interest of ₹ 2,50,000 and preference dividend of ₹ 1,40,000. The tax rate is 30%. The degree of financial leverage is (to two decimals):",
+      "options": {
+        "A": "1.64",
+        "B": "1.82",
+        "C": "1.33",
+        "D": "1.53"
+      },
+      "correct": "B",
+      "explanation": "Preference dividend is paid out of post-tax profit, so it is grossed up: ₹ 1,40,000 / (1 - 0.30) = ₹ 2,00,000. DFL = EBIT / [EBIT - I - PD/(1 - t)] = ₹ 10,00,000 / (₹ 10,00,000 - ₹ 2,50,000 - ₹ 2,00,000) = ₹ 10,00,000 / ₹ 5,50,000 = 1.82. Ignoring preference dividend gives 1.33, and not grossing it up gives 1.64.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-fmsm-c06-q003",
+      "chapter": 6,
+      "topic": "Financing Decisions – Leverages",
+      "question_text": "A firm has a degree of operating leverage of 2 and a degree of financial leverage of 1.5. If sales increase by 10%, earnings per share will increase by:",
+      "options": {
+        "A": "20%",
+        "B": "30%",
+        "C": "15%",
+        "D": "35%"
+      },
+      "correct": "B",
+      "explanation": "Degree of combined leverage = DOL x DFL = 2 x 1.5 = 3. EPS changes by DCL x % change in sales = 3 x 10% = 30%. A 20% increase would be the change in EBIT only (DOL x 10%). Adding the leverages (3.5 x 10%) gives 35%, which is wrong because they multiply.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-fmsm-c06-q004",
+      "chapter": 6,
+      "topic": "Financing Decisions – Leverages",
+      "question_text": "Sunrise Ltd has a degree of combined leverage of 4 and a degree of operating leverage of 2.5. Its EBIT is ₹ 8,00,000 and it has no preference shares. Its annual interest charge is:",
+      "options": {
+        "A": "₹ 2,00,000",
+        "B": "₹ 4,80,000",
+        "C": "₹ 3,00,000",
+        "D": "₹ 5,00,000"
+      },
+      "correct": "C",
+      "explanation": "DFL = DCL / DOL = 4 / 2.5 = 1.6. DFL = EBIT / EBT, so EBT = ₹ 8,00,000 / 1.6 = ₹ 5,00,000. Interest = EBIT - EBT = ₹ 8,00,000 - ₹ 5,00,000 = ₹ 3,00,000. The figure ₹ 5,00,000 is EBT, not interest.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-fmsm-c06-q005",
+      "chapter": 6,
+      "topic": "Financing Decisions – Leverages",
+      "question_text": "Operating leverage arises because of:",
+      "options": {
+        "A": "Fixed financial charges such as interest",
+        "B": "Variable costs that change in proportion to sales",
+        "C": "Preference dividend payable before equity dividend",
+        "D": "Fixed operating costs in the cost structure"
+      },
+      "correct": "D",
+      "explanation": "Operating leverage measures how sensitive EBIT is to changes in sales. It exists because fixed operating costs do not change with output, so a change in sales has a more than proportionate effect on EBIT. Fixed financial charges such as interest and preference dividend cause financial leverage.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-fmsm-c06-q006",
+      "chapter": 6,
+      "topic": "Financing Decisions – Leverages",
+      "question_text": "A company pays annual debenture interest of ₹ 3,00,000 and preference dividend of ₹ 70,000. The tax rate is 30%. Its financial break-even point (the EBIT at which EPS is zero) is:",
+      "options": {
+        "A": "₹ 4,00,000",
+        "B": "₹ 3,00,000",
+        "C": "₹ 3,70,000",
+        "D": "₹ 5,28,571"
+      },
+      "correct": "A",
+      "explanation": "At the financial break-even point, EBIT just covers interest and the pre-tax profit needed to pay preference dividend. Financial BEP = I + PD/(1 - t) = 3,00,000 + 70,000/0.70 = 3,00,000 + 1,00,000 = ₹ 4,00,000. Simply adding 70,000 ignores that preference dividend is paid out of after-tax profit, and grossing up interest as well is wrong because interest is tax-deductible.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-fmsm-c06-q007",
+      "chapter": 6,
+      "topic": "Financing Decisions – Leverages",
+      "question_text": "When a firm operates exactly at its operating break-even point, its degree of operating leverage is:",
+      "options": {
+        "A": "Equal to the degree of financial leverage",
+        "B": "Exactly zero",
+        "C": "Undefined (infinitely large), because EBIT is zero",
+        "D": "Exactly 1"
+      },
+      "correct": "C",
+      "explanation": "DOL = contribution / EBIT. At the operating break-even point, contribution exactly equals fixed costs, so EBIT is zero and DOL cannot be defined. It tends to infinity as sales approach break-even. Operating risk is therefore highest near the break-even level.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c06-q008",
+      "chapter": 6,
+      "topic": "Financing Decisions – Leverages",
+      "question_text": "Nandini Ltd has a contribution of ₹ 20,00,000 and a degree of operating leverage of 2.5. Its fixed operating costs are:",
+      "options": {
+        "A": "₹ 16,00,000",
+        "B": "₹ 12,00,000",
+        "C": "₹ 8,00,000",
+        "D": "₹ 5,00,000"
+      },
+      "correct": "B",
+      "explanation": "DOL = contribution / EBIT, so EBIT = ₹ 20,00,000 / 2.5 = ₹ 8,00,000. Fixed costs = contribution - EBIT = ₹ 20,00,000 - ₹ 8,00,000 = ₹ 12,00,000. The figure ₹ 8,00,000 is EBIT.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c06-q009",
+      "chapter": 6,
+      "topic": "Financing Decisions – Leverages",
+      "question_text": "A firm with a high degree of operating leverage and a high degree of financial leverage is best described as:",
+      "options": {
+        "A": "Very risky, because a small fall in sales can cause a sharp fall in EPS",
+        "B": "Certain to earn a higher EPS than an unlevered firm in all conditions",
+        "C": "Unaffected by changes in sales volume",
+        "D": "Very safe, because the two leverages offset each other"
+      },
+      "correct": "A",
+      "explanation": "Combined leverage is DOL x DFL, so a high value of both multiplies the effect of a change in sales on EPS. This raises total risk: a small decline in sales can wipe out earnings for equity holders. Firms usually balance a high operating leverage with a low financial leverage, or the reverse.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-fmsm-c07-q001",
+      "chapter": 7,
+      "topic": "Investment Decisions",
+      "question_text": "A project costs ₹ 5,00,000 and is expected to generate cash inflows of ₹ 1,20,000, ₹ 1,50,000, ₹ 1,80,000, ₹ 2,00,000 and ₹ 1,60,000 in years 1 to 5. Its payback period is:",
+      "options": {
+        "A": "3.50 years",
+        "B": "3.09 years",
+        "C": "3.00 years",
+        "D": "3.25 years"
+      },
+      "correct": "D",
+      "explanation": "Cumulative inflows: year 1 ₹ 1,20,000, year 2 ₹ 2,70,000, year 3 ₹ 4,50,000. A further ₹ 50,000 is needed out of year 4's ₹ 2,00,000, which is 0.25 of a year. Payback = 3 + 50,000/2,00,000 = 3.25 years. Dividing cost by the average inflow (3.09 years) is not valid when inflows are uneven.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-fmsm-c07-q002",
+      "chapter": 7,
+      "topic": "Investment Decisions",
+      "question_text": "A machine costing ₹ 10,00,000 is expected to generate cash inflows after tax of ₹ 3,50,000 a year for 4 years, with no salvage value. The cost of capital is 10% and the PVIFA (10%, 4 years) is 3.170. The net present value is:",
+      "options": {
+        "A": "₹ 2,39,050",
+        "B": "₹ 11,09,500",
+        "C": "₹ 4,00,000",
+        "D": "₹ 1,09,500"
+      },
+      "correct": "D",
+      "explanation": "PV of inflows = 3,50,000 x 3.170 = ₹ 11,09,500. NPV = ₹ 11,09,500 - 10,00,000 = ₹ 1,09,500. The undiscounted surplus (14,00,000 - 10,00,000 = ₹ 4,00,000) ignores the time value of money. Since NPV is positive, the project is acceptable.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-fmsm-c07-q003",
+      "chapter": 7,
+      "topic": "Investment Decisions",
+      "question_text": "A project has a present value of cash inflows of ₹ 11,09,500 and an initial outlay of ₹ 10,00,000. Its profitability index is:",
+      "options": {
+        "A": "0.90",
+        "B": "1.11",
+        "C": "1.40",
+        "D": "0.11"
+      },
+      "correct": "B",
+      "explanation": "Profitability index = PV of cash inflows / PV of cash outflows = 11,09,500 / 10,00,000 = 1.1095, about 1.11. A PI above 1 means the project earns more than its cost of capital. The figure 0.11 is the NPV per rupee invested (PI - 1), and 0.90 inverts the ratio.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-fmsm-c07-q004",
+      "chapter": 7,
+      "topic": "Investment Decisions",
+      "question_text": "A project has an NPV of ₹ 18,000 at a 12% discount rate and an NPV of -₹ 6,000 at 16%. Using linear interpolation, its IRR is approximately:",
+      "options": {
+        "A": "15%",
+        "B": "14%",
+        "C": "18%",
+        "D": "13%"
+      },
+      "correct": "A",
+      "explanation": "IRR = lower rate + [NPV at lower rate / (NPV at lower rate - NPV at higher rate)] x difference in rates = 12% + [18,000 / (18,000 + 6,000)] x 4% = 12% + 0.75 x 4% = 15%. Dividing by 18,000 - 6,000 instead of 18,000 + 6,000 is a common error.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c07-q005",
+      "chapter": 7,
+      "topic": "Investment Decisions",
+      "question_text": "Equipment costs ₹ 6,00,000, has a 5-year life and a salvage value of ₹ 1,00,000. The average annual profit after depreciation and tax is ₹ 45,000. The accounting rate of return on average investment is:",
+      "options": {
+        "A": "15.00%",
+        "B": "7.50%",
+        "C": "12.86%",
+        "D": "9.00%"
+      },
+      "correct": "C",
+      "explanation": "Average investment = (initial cost + salvage) / 2 = (6,00,000 + 1,00,000) / 2 = ₹ 3,50,000. ARR = 45,000 / ₹ 3,50,000 = 12.86%. Ignoring salvage gives an average investment of ₹ 3,00,000 and 15%. ARR on the initial investment of ₹ 6,00,000 gives 7.50%.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c07-q006",
+      "chapter": 7,
+      "topic": "Investment Decisions",
+      "question_text": "A project's annual profit before depreciation and tax is ₹ 4,00,000. Depreciation is ₹ 1,00,000 and the tax rate is 30%. The annual cash flow after tax (CFAT) is:",
+      "options": {
+        "A": "₹ 2,80,000",
+        "B": "₹ 3,80,000",
+        "C": "₹ 3,10,000",
+        "D": "₹ 2,10,000"
+      },
+      "correct": "C",
+      "explanation": "Profit before tax = 4,00,000 - 1,00,000 = ₹ 3,00,000. Tax at 30% = ₹ 90,000. PAT = ₹ 2,10,000. CFAT = PAT + depreciation = 2,10,000 + 1,00,000 = ₹ 3,10,000. Equivalently, CFAT = 4,00,000 x 0.7 + 1,00,000 x 0.3 = 2,80,000 + 30,000 = ₹ 3,10,000, where ₹ 30,000 is the depreciation tax shield.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c07-q007",
+      "chapter": 7,
+      "topic": "Investment Decisions",
+      "question_text": "A company spent ₹ 2,00,000 last year on a feasibility study for a new plant. In deciding today whether to build the plant, how should this amount be treated?",
+      "options": {
+        "A": "Included as a cash outflow at time zero",
+        "B": "Ignored, because it is a sunk cost that cannot be recovered whatever the decision",
+        "C": "Spread equally over the life of the plant as an annual outflow",
+        "D": "Deducted from the salvage value at the end of the project"
+      },
+      "correct": "B",
+      "explanation": "Capital budgeting uses only incremental future cash flows that depend on the decision. Money already spent cannot be recovered whether or not the plant is built, so it is a sunk cost and is ignored. Opportunity costs, by contrast, must be included.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-fmsm-c07-q008",
+      "chapter": 7,
+      "topic": "Investment Decisions",
+      "question_text": "A firm has ₹ 10,00,000 available for investment. Three divisible, independent projects are available: P (outlay ₹ 4,00,000, NPV ₹ 1,20,000), Q (outlay ₹ 6,00,000, NPV ₹ 1,50,000) and R (outlay ₹ 5,00,000, NPV ₹ 1,60,000). Ranking by profitability index, the maximum total NPV achievable is:",
+      "options": {
+        "A": "₹ 2,70,000",
+        "B": "₹ 2,80,000",
+        "C": "₹ 3,10,000",
+        "D": "₹ 3,05,000"
+      },
+      "correct": "D",
+      "explanation": "PI = (outlay + NPV) / outlay: P = 1.30, Q = 1.25, R = 1.32. Rank R, P, Q. Invest ₹ 5,00,000 in R (NPV 1,60,000) and ₹ 4,00,000 in P (NPV 1,20,000), leaving ₹ 1,00,000 for 1/6 of Q (NPV 1,50,000 / 6 = 25,000). Total NPV = 1,60,000 + 1,20,000 + 25,000 = ₹ 3,05,000. Ranking by absolute NPV (R then Q) gives only ₹ 3,10,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-fmsm-c07-q009",
+      "chapter": 7,
+      "topic": "Investment Decisions",
+      "question_text": "When NPV and IRR rank two mutually exclusive projects differently, NPV is usually preferred because:",
+      "options": {
+        "A": "NPV assumes intermediate cash flows are reinvested at the cost of capital, which is more realistic than IRR's assumption of reinvestment at the IRR itself",
+        "B": "IRR always gives multiple answers for conventional cash flows",
+        "C": "NPV can be calculated without a discount rate",
+        "D": "IRR ignores the time value of money"
+      },
+      "correct": "A",
+      "explanation": "Both methods are discounted cash flow techniques. Rankings can conflict because of differences in project size or timing of cash flows. NPV implicitly assumes reinvestment at the cost of capital, while IRR assumes reinvestment at the project's own IRR, which may be unrealistically high. NPV also measures the absolute addition to shareholder wealth. Multiple IRRs arise only with non-conventional cash flows.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c07-q010",
+      "chapter": 7,
+      "topic": "Investment Decisions",
+      "question_text": "A project costs ₹ 3,00,000 and generates ₹ 1,40,000 a year for 3 years. The discount factors at 10% are 0.909, 0.826 and 0.751 for years 1 to 3. The discounted payback period is approximately:",
+      "options": {
+        "A": "2.41 years",
+        "B": "2.14 years",
+        "C": "3.00 years",
+        "D": "2.54 years"
+      },
+      "correct": "D",
+      "explanation": "PV of inflows: year 1 = ₹ 1,27,260, year 2 = ₹ 1,15,640, year 3 = ₹ 1,05,140. Cumulative PV after 2 years = ₹ 2,42,900, leaving ₹ 57,100 to recover. Discounted payback = 2 + ₹ 57,100/₹ 1,05,140 = 2.54 years. Simple payback (3,00,000 / 1,40,000 = 2.14 years) ignores discounting.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-fmsm-c08-q001",
+      "chapter": 8,
+      "topic": "Dividend Decision",
+      "question_text": "Kamal Ltd has EPS of ₹ 12 and pays a dividend of ₹ 4 per share. Its internal rate of return is 18% and the equity capitalisation rate is 15%. Using Walter's model, the market price per share is:",
+      "options": {
+        "A": "₹ 26.67",
+        "B": "₹ 90.67",
+        "C": "₹ 122.67",
+        "D": "₹ 80.00"
+      },
+      "correct": "B",
+      "explanation": "Walter's model: P = [D + (r/Ke)(E - D)] / Ke = [4 + (0.18/0.15)(12 - 4)] / 0.15 = (4 + 1.2 x 8) / 0.15 = 13.6 / 0.15 = ₹ 90.67. E/Ke = ₹ 80 would be the price at 100% payout, which is lower because r is greater than Ke.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c08-q002",
+      "chapter": 8,
+      "topic": "Dividend Decision",
+      "question_text": "According to Walter's model, if a firm's internal rate of return (r) is greater than its cost of equity (Ke), the optimum dividend payout ratio is:",
+      "options": {
+        "A": "Zero, that is, retain all earnings",
+        "B": "100%",
+        "C": "50%",
+        "D": "Irrelevant, as any payout gives the same price"
+      },
+      "correct": "A",
+      "explanation": "Under Walter's model, if r > Ke the firm is a growth firm and creates more value by reinvesting earnings than shareholders could earn themselves. The share price is maximised at a zero payout. If r < Ke the optimum payout is 100%, and if r = Ke the payout is irrelevant.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-fmsm-c08-q003",
+      "chapter": 8,
+      "topic": "Dividend Decision",
+      "question_text": "Using Gordon's model, a firm has EPS of ₹ 15, retains 40% of earnings, earns 12% on investments and has a cost of equity of 14%. The price per share (to two decimals) is:",
+      "options": {
+        "A": "₹ 107.14",
+        "B": "₹ 88.24",
+        "C": "₹ 97.83",
+        "D": "₹ 64.29"
+      },
+      "correct": "C",
+      "explanation": "g = b x r = 0.40 x 12% = 4.8%. Dividend = E(1 - b) = 15 x 0.60 = ₹ 9. P = E(1 - b) / (Ke - br) = 9 / (0.14 - 0.048) = 9 / 0.092 = ₹ 97.83. Swapping the payout and retention ratios gives ₹ 88.24.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-fmsm-c08-q004",
+      "chapter": 8,
+      "topic": "Dividend Decision",
+      "question_text": "The current market price of an equity share is ₹ 100 and the equity capitalisation rate is 12%. The company expects to declare a dividend of ₹ 6 per share at the end of the year. Under the Modigliani-Miller approach, the price per share at the end of the year if the dividend is paid will be:",
+      "options": {
+        "A": "₹ 112",
+        "B": "₹ 94",
+        "C": "₹ 118",
+        "D": "₹ 106"
+      },
+      "correct": "D",
+      "explanation": "Under MM, P0 = (D1 + P1) / (1 + Ke), so P1 = P0(1 + Ke) - D1 = 100 x 1.12 - 6 = ₹ 106. If no dividend were paid, P1 would be ₹ 112. The shareholder's total wealth is the same either way (₹ 106 + ₹ 6 = ₹ 112), which shows MM's dividend irrelevance.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c08-q005",
+      "chapter": 8,
+      "topic": "Dividend Decision",
+      "question_text": "Continuing MM, a company with 2,00,000 shares expects net income of ₹ 20,00,000 and plans investment of ₹ 30,00,000. It pays a dividend of ₹ 6 per share and the year-end price after dividend is ₹ 106. How many new shares must it issue to finance the investment (to the nearest whole share)?",
+      "options": {
+        "A": "19,643 shares",
+        "B": "20,755 shares",
+        "C": "9,434 shares",
+        "D": "28,302 shares"
+      },
+      "correct": "B",
+      "explanation": "Dividend paid = 2,00,000 x 6 = ₹ 12,00,000, so retained earnings = 20,00,000 - 12,00,000 = ₹ 8,00,000. New funds needed = 30,00,000 - 8,00,000 = ₹ 22,00,000. Number of new shares = 22,00,000 / 106 = 20754.72, rounded up to 20,755 shares. Using the no-dividend price of ₹ 112 would be inconsistent with the dividend being paid.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-fmsm-c08-q006",
+      "chapter": 8,
+      "topic": "Dividend Decision",
+      "question_text": "A company's dividend for the last year was ₹ 3 per share. EPS for the current year is ₹ 10, the target payout ratio is 50% and the speed of adjustment is 0.6. Using Lintner's model, the expected dividend for the current year is:",
+      "options": {
+        "A": "₹ 4.20",
+        "B": "₹ 3.00",
+        "C": "₹ 5.00",
+        "D": "₹ 3.80"
+      },
+      "correct": "A",
+      "explanation": "Lintner's model: D1 = D0 + [(EPS x target payout) - D0] x adjustment factor = 3 + [(10 x 0.5) - 3] x 0.6 = 3 + 2 x 0.6 = ₹ 4.20. The model shows that firms adjust dividends gradually towards the target rather than jumping to ₹ 5 at once.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c08-q007",
+      "chapter": 8,
+      "topic": "Dividend Decision",
+      "question_text": "When a company issues fully paid bonus shares to its equity shareholders out of free reserves, the effect is that:",
+      "options": {
+        "A": "Total shareholders' funds increase by the amount of the bonus issue",
+        "B": "Each shareholder's proportionate ownership in the company increases",
+        "C": "Paid-up share capital increases and reserves decrease, with no change in total shareholders' funds",
+        "D": "Cash and bank balances fall by the amount capitalised"
+      },
+      "correct": "C",
+      "explanation": "A bonus issue capitalises reserves. Free reserves are transferred to share capital, so the components of shareholders' funds change but the total does not. No cash leaves the company. Each shareholder receives shares in proportion to existing holdings, so proportionate ownership is unchanged.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c08-q008",
+      "chapter": 8,
+      "topic": "Dividend Decision",
+      "question_text": "The 'bird-in-the-hand' argument, associated with Gordon's model, states that:",
+      "options": {
+        "A": "Share buy-backs are always preferable to cash dividends",
+        "B": "Dividend policy has no effect on the value of the firm in perfect capital markets",
+        "C": "Investors value a rupee of dividend today more than an uncertain capital gain in future, so they discount distant returns at a higher rate",
+        "D": "Firms should always retain all earnings when r equals Ke"
+      },
+      "correct": "C",
+      "explanation": "Gordon argued that investors are risk-averse and see near dividends as more certain than future capital gains. So a higher retention (and more distant return) raises the discount rate investors apply, and dividend policy matters even when r = Ke. Dividend irrelevance in perfect markets is the MM view.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c09-q001",
+      "chapter": 9,
+      "topic": "Management of Working Capital",
+      "question_text": "A manufacturer holds raw materials for 45 days, work-in-progress for 15 days and finished goods for 30 days. It allows customers 50 days' credit and receives 40 days' credit from suppliers. Its net operating cycle is:",
+      "options": {
+        "A": "100 days",
+        "B": "140 days",
+        "C": "90 days",
+        "D": "180 days"
+      },
+      "correct": "A",
+      "explanation": "Gross operating cycle = raw material + WIP + finished goods + receivables periods = 45 + 15 + 30 + 50 = 140 days. Net operating cycle = gross operating cycle - payables deferral period = 140 - 40 = 100 days. The figure 140 days is the gross cycle.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-fmsm-c09-q002",
+      "chapter": 9,
+      "topic": "Management of Working Capital",
+      "question_text": "Average raw material inventory is ₹ 3,00,000 and annual raw material consumption is ₹ 24,00,000. Assuming 360 days in a year, the raw material storage period is:",
+      "options": {
+        "A": "60 days",
+        "B": "30 days",
+        "C": "8 days",
+        "D": "45 days"
+      },
+      "correct": "D",
+      "explanation": "Raw material storage period = average raw material stock / (annual consumption / 360) = 3,00,000 / (24,00,000 / 360) = 3,00,000 / 6,666.67 = 45 days. The figure 8 is the number of times inventory turns over (24,00,000 / 3,00,000), not days.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-fmsm-c09-q003",
+      "chapter": 9,
+      "topic": "Management of Working Capital",
+      "question_text": "Ankur Ltd needs ₹ 72,00,000 cash during the year, spread evenly. The fixed cost of each conversion of marketable securities into cash is ₹ 150, and the interest rate on marketable securities is 10% per annum. Using the Baumol model, the optimum cash conversion size is closest to:",
+      "options": {
+        "A": "₹ 1,03,923",
+        "B": "₹ 1,46,969",
+        "C": "₹ 97,980",
+        "D": "₹ 14,697"
+      },
+      "correct": "B",
+      "explanation": "Baumol's model: C = √(2 x annual cash requirement x cost per transaction / interest rate) = √(2 x 72,00,000 x 150 / 0.10) = √21,600,000,000 = ₹ 1,46,969 (rounded to the nearest rupee). Leaving out the factor 2 gives about ₹ 1,03,923.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c09-q004",
+      "chapter": 9,
+      "topic": "Management of Working Capital",
+      "question_text": "Using the Miller-Orr model, a firm sets its lower cash limit at ₹ 50,000. The cost per transaction in marketable securities is ₹ 200, the variance of daily net cash flows is ₹ 40,00,000 (in rupees squared) and the daily interest rate is 0.03%. The return point is closest to:",
+      "options": {
+        "A": "₹ 62,599",
+        "B": "₹ 68,899",
+        "C": "₹ 37,798",
+        "D": "₹ 87,798"
+      },
+      "correct": "A",
+      "explanation": "Spread = 3 x [(3/4) x transaction cost x variance / daily interest rate]^(1/3) = 3 x [0.75 x 200 x 40,00,000 / 0.0003]^(1/3) = 3 x (2 x 10^12)^(1/3) = 3 x 12,599.2 = ₹ 37,798. Return point = lower limit + spread/3 = 50,000 + 12,599 = ₹ 62,599. The upper limit is 50,000 + spread = ₹ 87,798.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-fmsm-c09-q005",
+      "chapter": 9,
+      "topic": "Management of Working Capital",
+      "question_text": "A supplier offers credit terms of 2/10, net 40. Assuming 365 days in a year and using simple annualisation, the approximate annual cost of not taking the cash discount and paying on day 40 is:",
+      "options": {
+        "A": "24.33%",
+        "B": "24.83%",
+        "C": "18.62%",
+        "D": "2.04%"
+      },
+      "correct": "B",
+      "explanation": "Paying on day 40 instead of day 10 gives 30 extra days of credit at a cost of 2% of the invoice, that is, ₹ 2 for the use of ₹ 98. Annual cost = (2/98) x (365/30) = 0.020408 x 12.1667 = 24.83%. Using the full 40 days as the credit period gives 18.62%, which is wrong because the discount is lost only for the extra 30 days.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-fmsm-c09-q006",
+      "chapter": 9,
+      "topic": "Management of Working Capital",
+      "question_text": "Ganga Ltd has credit sales of ₹ 60 lakh, an average collection period of 30 days and bad debts of 1% of sales. A relaxed credit policy would raise sales to ₹ 70 lakh, the collection period to 60 days and bad debts to 2% of sales. The contribution margin is 25%, and the cost of funds tied up in receivables is 12% (measured on sales value for simplicity). Taking 360 days in a year, the net effect on annual profit of adopting the new policy is:",
+      "options": {
+        "A": "Increase of ₹ 1,70,000",
+        "B": "Increase of ₹ 2,50,000",
+        "C": "Increase of ₹ 90,000",
+        "D": "Increase of ₹ 30,000"
+      },
+      "correct": "C",
+      "explanation": "Extra contribution = 10,00,000 x 25% = ₹ 2,50,000. Receivables rise from ₹ 5,00,000 (60 lakh x 30/360) to ₹ 11,66,667 (70 lakh x 60/360), an increase of ₹ 6,66,667, costing 12% = ₹ 80,000. Bad debts rise from ₹ 60,000 to ₹ 1,40,000, an increase of ₹ 80,000. Net gain = ₹ 2,50,000 - ₹ 80,000 - ₹ 80,000 = ₹ 90,000, so the new policy is worthwhile. Charging the 12% on the whole new receivables balance instead of the increase understates the gain.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-fmsm-c09-q007",
+      "chapter": 9,
+      "topic": "Management of Working Capital",
+      "question_text": "Under a factoring arrangement 'with recourse', the risk of bad debts on the receivables assigned:",
+      "options": {
+        "A": "Is shared equally between the factor and the customer",
+        "B": "Is borne by the client's bank under a letter of credit",
+        "C": "Passes fully to the factor, which cannot claim from the client",
+        "D": "Stays with the client firm, which must make good to the factor any amounts customers fail to pay"
+      },
+      "correct": "D",
+      "explanation": "In recourse factoring, the factor provides finance and collection services, but the client keeps the credit risk and must reimburse the factor for bad debts. In non-recourse factoring, the factor absorbs bad debt losses and charges a higher fee.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-fmsm-c09-q008",
+      "chapter": 9,
+      "topic": "Management of Working Capital",
+      "question_text": "A firm finances all of its permanent current assets and part of its temporary (fluctuating) current assets with long-term funds, using short-term funds only for peak needs. This working capital financing policy is best described as:",
+      "options": {
+        "A": "Aggressive approach",
+        "B": "Conservative approach",
+        "C": "Matching (hedging) approach",
+        "D": "Zero working capital approach"
+      },
+      "correct": "B",
+      "explanation": "Under the conservative approach, long-term funds cover permanent working capital and part of the temporary requirement, which lowers liquidity risk but raises cost. The matching approach finances permanent needs with long-term funds and temporary needs with short-term funds. The aggressive approach uses short-term funds even for part of the permanent requirement.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c09-q009",
+      "chapter": 9,
+      "topic": "Management of Working Capital",
+      "question_text": "In estimating working capital, a company expects annual cost of sales (excluding depreciation) of ₹ 48,00,000 and allows customers 1.5 months' credit. Receivables are to be valued at cost. The estimated investment in receivables is:",
+      "options": {
+        "A": "₹ 12,00,000",
+        "B": "₹ 7,20,000",
+        "C": "₹ 6,00,000",
+        "D": "₹ 4,00,000"
+      },
+      "correct": "C",
+      "explanation": "Receivables at cost = annual cost of sales x credit period / 12 = ₹ 48,00,000 x 1.5 / 12 = ₹ 6,00,000. Valuing at cost (excluding depreciation, which is a non-cash item) measures the funds actually tied up, since the profit element is not a cash investment. The figure ₹ 4,00,000 covers only one month.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-fmsm-c10-q001",
+      "chapter": 10,
+      "topic": "Introduction to Strategic Management",
+      "question_text": "A company's realised strategy usually differs from what it planned because:",
+      "options": {
+        "A": "Strategy is always entirely planned in advance and never changes",
+        "B": "Only emergent strategies are ever implemented in practice",
+        "C": "Realised strategy is decided only by functional managers",
+        "D": "Realised strategy is a mix of planned (deliberate) strategy that is carried out and emergent (reactive) strategy that develops in response to unforeseen events"
+      },
+      "correct": "D",
+      "explanation": "Strategy is partly proactive (planned) and partly reactive (adaptive). Some intended strategies are dropped, and new ones emerge as managers respond to changes in the environment. What is actually carried out, the realised strategy, combines the deliberate part of the plan with these emergent responses.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c10-q002",
+      "chapter": 10,
+      "topic": "Introduction to Strategic Management",
+      "question_text": "Which level of strategy deals with the question 'What businesses should we be in, and how should resources be allocated among them?'",
+      "options": {
+        "A": "Corporate-level strategy",
+        "B": "Business-level strategy",
+        "C": "Functional-level strategy",
+        "D": "Operational-level strategy"
+      },
+      "correct": "A",
+      "explanation": "Corporate-level strategy is set by top management for the organisation as a whole. It decides the portfolio of businesses, diversification and allocation of resources across them. Business-level strategy is about how to compete within a particular business. Functional strategy supports these through areas such as marketing, finance and HR.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-fmsm-c10-q003",
+      "chapter": 10,
+      "topic": "Introduction to Strategic Management",
+      "question_text": "Arogya Foods, one of five divisions of a diversified group, decides to compete in the packaged millet snacks market by offering clearly healthier products at a premium price. This decision is a:",
+      "options": {
+        "A": "Functional-level strategy",
+        "B": "Corporate-level strategy",
+        "C": "Business-level strategy",
+        "D": "Mission statement"
+      },
+      "correct": "C",
+      "explanation": "Deciding how a particular business unit will compete in its market, here through differentiation on health benefits, is a business-level strategy. Which divisions the group should own would be corporate-level. Pricing tactics or the advertising plan of the marketing department would be functional-level.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-fmsm-c10-q004",
+      "chapter": 10,
+      "topic": "Introduction to Strategic Management",
+      "question_text": "Which of the following best describes the difference between a vision and a mission?",
+      "options": {
+        "A": "A vision is a short-term target, while a mission is a long-term dream",
+        "B": "A vision is set by functional managers, while a mission is set by front-line staff",
+        "C": "A vision states quantified annual targets, while a mission states the budget",
+        "D": "A vision describes what the organisation wants to become in future, while a mission describes its present purpose and the business it is in"
+      },
+      "correct": "D",
+      "explanation": "A vision is an inspiring picture of the organisation's desired future. A mission explains why the organisation exists: who its customers are, what needs it meets and how. Quantified targets belong to goals and objectives, which turn the mission into measurable results.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-fmsm-c10-q005",
+      "chapter": 10,
+      "topic": "Introduction to Strategic Management",
+      "question_text": "Which of the following is NOT usually regarded as an element of strategic intent?",
+      "options": {
+        "A": "Vision",
+        "B": "Annual budgets for individual cost centres",
+        "C": "Mission",
+        "D": "Goals and objectives"
+      },
+      "correct": "B",
+      "explanation": "Strategic intent expresses the purpose the organisation wants to achieve. It is set out through the vision, mission, business definition, and goals and objectives. Annual cost-centre budgets are operational control tools used during implementation, not elements of strategic intent.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-fmsm-c10-q006",
+      "chapter": 10,
+      "topic": "Introduction to Strategic Management",
+      "question_text": "Which sequence correctly shows the stages of the strategic management process?",
+      "options": {
+        "A": "Strategic intent → environmental and organisational analysis → strategy formulation → strategy implementation → strategy evaluation and control",
+        "B": "Strategy formulation → strategy evaluation → strategic intent → environmental analysis → implementation",
+        "C": "Strategy implementation → strategic intent → strategy formulation → environmental analysis → evaluation",
+        "D": "Environmental analysis → strategy implementation → strategic intent → strategy formulation → evaluation"
+      },
+      "correct": "A",
+      "explanation": "The process starts by setting strategic intent (vision, mission, objectives). The organisation then analyses its external and internal environment, formulates strategy by choosing among alternatives, and implements it. Finally it evaluates performance and takes corrective action, which feeds back into the earlier stages.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c10-q007",
+      "chapter": 10,
+      "topic": "Introduction to Strategic Management",
+      "question_text": "Which of the following is a recognised limitation of strategic management?",
+      "options": {
+        "A": "It is useful only for not-for-profit organisations",
+        "B": "The environment is complex and changes quickly, so it is hard to predict, and the process takes considerable time and cost",
+        "C": "It removes the need for top management to make decisions",
+        "D": "It prevents an organisation from anticipating any future changes"
+      },
+      "correct": "B",
+      "explanation": "Strategic management helps an organisation be proactive and anticipate change, but it has limitations. The environment is highly complex and turbulent, which makes forecasting difficult. The process takes time and money, and fully reliable future planning is impossible. It applies to all types of organisations and depends on top management judgement.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c10-q008",
+      "chapter": 10,
+      "topic": "Introduction to Strategic Management",
+      "question_text": "The objective 'increase the share of exports in revenue from 18% to 30% within three years' is a good example of an objective because it is:",
+      "options": {
+        "A": "A functional policy for the export department",
+        "B": "A statement of the organisation's vision",
+        "C": "Vague, which allows flexibility",
+        "D": "Specific, measurable and time-bound"
+      },
+      "correct": "D",
+      "explanation": "Good objectives turn the mission into concrete, measurable targets with a deadline, so that performance can be monitored. This objective states the measure (export share), the target (30%) and the time frame (three years). A vision is a broad, inspiring statement and is not normally quantified.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-fmsm-c10-q009",
+      "chapter": 10,
+      "topic": "Introduction to Strategic Management",
+      "question_text": "Which of the following is a characteristic of strategic decisions, as distinct from routine operating decisions?",
+      "options": {
+        "A": "They are repetitive and follow standard procedures",
+        "B": "They can be reversed at little or no cost",
+        "C": "They have long-term effects, commit significant resources and are mainly taken by top management",
+        "D": "They affect only a single department for a short period"
+      },
+      "correct": "C",
+      "explanation": "Strategic decisions are non-routine, future-oriented and affect the whole organisation. They involve large commitments of resources that are hard to reverse, and they are usually taken or approved by top management. Repetitive, departmental and easily reversible decisions are operational.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c10-q010",
+      "chapter": 10,
+      "topic": "Introduction to Strategic Management",
+      "question_text": "Prakash Engineering has made pumps for 40 years. The board now decides to use its free cash to acquire a chain of diagnostic laboratories. At which level of strategy is this decision taken, and what type of strategy is it?",
+      "options": {
+        "A": "Corporate level: unrelated (conglomerate) diversification",
+        "B": "Business level: cost leadership",
+        "C": "Functional level: marketing strategy",
+        "D": "Business level: related diversification into pumps"
+      },
+      "correct": "A",
+      "explanation": "Choosing to enter a new industry that has no link with existing products, markets or technology is a corporate-level decision about the firm's business portfolio. Since diagnostic laboratories have no relation to pump manufacturing, this is unrelated or conglomerate diversification.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-fmsm-c11-q001",
+      "chapter": 11,
+      "topic": "Strategic Analysis: External Environment",
+      "question_text": "A new law requires all e-commerce companies to store customers' personal data within the country and obtain explicit consent before using it. In a PESTLE analysis, this is mainly classified as a:",
+      "options": {
+        "A": "Technological factor",
+        "B": "Environmental factor",
+        "C": "Social factor",
+        "D": "Legal factor"
+      },
+      "correct": "D",
+      "explanation": "PESTLE groups macro-environmental influences into Political, Economic, Social, Technological, Legal and Environmental factors. A statutory requirement on data storage and consent is a legal factor. The technology needed to comply is a consequence, but the driver is the law.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-fmsm-c11-q002",
+      "chapter": 11,
+      "topic": "Strategic Analysis: External Environment",
+      "question_text": "An ageing population and the shift towards nuclear families, which change demand for healthcare and home services, are examples of which factor in the macro environment?",
+      "options": {
+        "A": "Social (socio-cultural) factor",
+        "B": "Political factor",
+        "C": "Legal factor",
+        "D": "Economic factor"
+      },
+      "correct": "A",
+      "explanation": "Demographic changes such as age profile, family structure and lifestyle fall under social or socio-cultural factors. They shape what customers want and how they buy. Economic factors cover items such as income, inflation and interest rates.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-fmsm-c11-q003",
+      "chapter": 11,
+      "topic": "Strategic Analysis: External Environment",
+      "question_text": "In Porter's five forces model, the threat of new entrants into an industry is LOW when:",
+      "options": {
+        "A": "Distribution channels are freely available to all",
+        "B": "Incumbents enjoy large economies of scale and strong brand loyalty, and capital requirements are high",
+        "C": "Incumbents have no cost advantages over potential entrants",
+        "D": "Products are undifferentiated and switching costs are negligible"
+      },
+      "correct": "B",
+      "explanation": "Entry barriers protect incumbents. High barriers include economies of scale, product differentiation and brand loyalty, large capital requirements, switching costs, restricted access to distribution channels and government policy. When barriers are high, the threat of entry is low. The other options describe low barriers.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-fmsm-c11-q004",
+      "chapter": 11,
+      "topic": "Strategic Analysis: External Environment",
+      "question_text": "The bargaining power of suppliers in an industry is likely to be HIGH when:",
+      "options": {
+        "A": "There are many suppliers of a standard input",
+        "B": "The buying industry is the suppliers' most important customer",
+        "C": "There are few suppliers, their input is critical and differentiated, and switching to another supplier is costly",
+        "D": "Buyers can easily integrate backwards and make the input themselves"
+      },
+      "correct": "C",
+      "explanation": "Suppliers have strong power when they are concentrated, their product is unique or important to the buyer's quality, substitutes are unavailable and switching costs are high. Supplier power is weaker when the industry buying from them is an important customer or can credibly integrate backwards.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c11-q005",
+      "chapter": 11,
+      "topic": "Strategic Analysis: External Environment",
+      "question_text": "Large retail chains buying standardised packaged rice from many small millers are likely to have high bargaining power mainly because:",
+      "options": {
+        "A": "The millers are few and highly concentrated",
+        "B": "Rice is a highly differentiated product with strong brands",
+        "C": "They buy large volumes of an undifferentiated product and can switch between millers at little cost",
+        "D": "The retail chains face high switching costs"
+      },
+      "correct": "C",
+      "explanation": "Buyer power is high when buyers are concentrated or buy large volumes, the product is standard, switching costs are low and buyers can threaten backward integration. Many small millers selling an undifferentiated product to a few large chains fits this pattern.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c11-q006",
+      "chapter": 11,
+      "topic": "Strategic Analysis: External Environment",
+      "question_text": "For domestic airlines, the growing use of high-quality video conferencing by corporate clients instead of travelling to meetings represents:",
+      "options": {
+        "A": "Rivalry among existing competitors",
+        "B": "The bargaining power of suppliers",
+        "C": "The threat of new entrants",
+        "D": "The threat of substitutes"
+      },
+      "correct": "D",
+      "explanation": "Substitutes are products from outside the industry that meet the same customer need in a different way. Video conferencing meets the need for business meetings without air travel, so it caps the prices airlines can charge for business travel. It does not involve a new airline entering the market.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c11-q007",
+      "chapter": 11,
+      "topic": "Strategic Analysis: External Environment",
+      "question_text": "Rivalry among existing competitors tends to be MOST intense when:",
+      "options": {
+        "A": "The industry is growing rapidly and there is room for everyone",
+        "B": "Industry growth is slow, competitors are of similar size, fixed costs are high and exit barriers are high",
+        "C": "Products are highly differentiated and customers are very loyal",
+        "D": "One firm clearly dominates the market and the rest are small niche players"
+      },
+      "correct": "B",
+      "explanation": "Rivalry intensifies when firms must fight for market share because growth is slow, when many equally balanced competitors exist, when high fixed costs push firms to fill capacity by cutting prices, and when high exit barriers keep weak firms in the industry. Rapid growth, a clear leader and strong differentiation all tend to reduce rivalry.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c11-q008",
+      "chapter": 11,
+      "topic": "Strategic Analysis: External Environment",
+      "question_text": "A strategic group map of an industry is used to:",
+      "options": {
+        "A": "Group together firms that follow similar competitive approaches and occupy similar market positions, to identify closest rivals",
+        "B": "Rank employees according to their strategic skills",
+        "C": "Show the reporting relationships within a single firm",
+        "D": "Calculate the market share of each product in the firm's portfolio"
+      },
+      "correct": "A",
+      "explanation": "A strategic group is a set of firms in an industry that follow similar strategies, such as similar price-quality ranges, distribution channels or product breadth. Plotting firms on two such dimensions shows who competes most directly with whom and where the competitive gaps are.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c11-q009",
+      "chapter": 11,
+      "topic": "Strategic Analysis: External Environment",
+      "question_text": "Key Success Factors (KSFs) of an industry are best described as:",
+      "options": {
+        "A": "The product attributes, competencies and resources that most affect a firm's ability to succeed competitively in that industry",
+        "B": "Factors unique to one firm that no competitor can ever copy",
+        "C": "The financial ratios that every company must disclose by law",
+        "D": "The personal goals of the chief executive officer"
+      },
+      "correct": "A",
+      "explanation": "KSFs are the competitive factors that matter most for success in a particular industry, for example low-cost distribution, product innovation or brand image. All firms in the industry need to pay attention to them. They are industry-specific, unlike a single firm's own core competencies.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c11-q010",
+      "chapter": 11,
+      "topic": "Strategic Analysis: External Environment",
+      "question_text": "Which of the following is part of a firm's micro (task) environment rather than its macro environment?",
+      "options": {
+        "A": "Demographic trends in the population",
+        "B": "The rate of inflation in the economy",
+        "C": "Changes in government trade policy",
+        "D": "Its customers, suppliers and competitors"
+      },
+      "correct": "D",
+      "explanation": "The micro environment consists of actors close to the firm that directly affect its ability to serve customers: customers, suppliers, competitors, intermediaries and the public. The macro environment consists of broad forces such as economic, demographic, political and technological trends that affect all firms.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-fmsm-c11-q011",
+      "chapter": 11,
+      "topic": "Strategic Analysis: External Environment",
+      "question_text": "Shakti Batteries notices that electric two-wheelers are spreading fast, battery chemistry is changing quickly and government incentives are shifting demand away from lead-acid batteries. In industry and competitive analysis, these developments are best described as:",
+      "options": {
+        "A": "Internal weaknesses of Shakti Batteries",
+        "B": "The bargaining power of suppliers",
+        "C": "Driving forces that are changing the industry's structure and competitive conditions",
+        "D": "Key success factors that guarantee profitability"
+      },
+      "correct": "C",
+      "explanation": "Driving forces are the major underlying causes of change in an industry, such as changes in long-term growth rate, product and process innovation, and regulatory influences. They change the industry's competitive structure, so firms must identify them and adjust their strategies. They are external, not internal weaknesses.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-fmsm-c12-q001",
+      "chapter": 12,
+      "topic": "Strategic Analysis: Internal Environment",
+      "question_text": "According to Prahalad and Hamel, a capability qualifies as a core competence if it passes three tests. These are that it:",
+      "options": {
+        "A": "Is owned by the chief executive, is recorded in the balance sheet and can be sold separately",
+        "B": "Gives access to a wide variety of markets, contributes significantly to the benefits customers perceive in the end product, and is difficult for competitors to imitate",
+        "C": "Is common to all firms in the industry, is easy to copy and requires little investment",
+        "D": "Gives the lowest cost, the highest price and the largest market share"
+      },
+      "correct": "B",
+      "explanation": "Prahalad and Hamel's three tests are market extendibility (access to many markets), customer value (a real contribution to perceived customer benefit) and inimitability (hard to copy). A capability shared by all firms or easily copied is a threshold capability, not a core competence.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-fmsm-c12-q002",
+      "chapter": 12,
+      "topic": "Strategic Analysis: Internal Environment",
+      "question_text": "Under the VRIO framework, a resource gives a firm a SUSTAINED competitive advantage when it is:",
+      "options": {
+        "A": "Valuable and rare but easy to imitate",
+        "B": "Rare but not valuable to customers",
+        "C": "Valuable, rare, costly to imitate, and the firm is organised to exploit it",
+        "D": "Valuable but common among competitors"
+      },
+      "correct": "C",
+      "explanation": "VRIO asks whether a resource is Valuable, Rare, costly to Imitate and whether the firm is Organised to capture its value. A valuable but common resource gives only competitive parity. A valuable and rare but imitable resource gives a temporary advantage. A sustained advantage needs all four conditions.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c12-q003",
+      "chapter": 12,
+      "topic": "Strategic Analysis: Internal Environment",
+      "question_text": "In Porter's value chain, which of the following is a SUPPORT activity?",
+      "options": {
+        "A": "Procurement",
+        "B": "Inbound logistics",
+        "C": "Outbound logistics",
+        "D": "Marketing and sales"
+      },
+      "correct": "A",
+      "explanation": "Porter's primary activities are inbound logistics, operations, outbound logistics, marketing and sales, and service. Support activities are firm infrastructure, human resource management, technology development and procurement. Procurement covers buying inputs used across all primary activities.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-fmsm-c12-q004",
+      "chapter": 12,
+      "topic": "Strategic Analysis: Internal Environment",
+      "question_text": "A consumer electronics company provides doorstep installation, repairs and an annual maintenance programme after sale. In Porter's value chain, these activities fall under:",
+      "options": {
+        "A": "Technology development (a support activity)",
+        "B": "Firm infrastructure (a support activity)",
+        "C": "Outbound logistics (a primary activity)",
+        "D": "Service (a primary activity)"
+      },
+      "correct": "D",
+      "explanation": "The service primary activity covers what is done to maintain or enhance product value after sale, such as installation, repair, training and spare parts. Outbound logistics covers storing and distributing the finished product to buyers, which comes before installation and after-sales support.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c12-q005",
+      "chapter": 12,
+      "topic": "Strategic Analysis: Internal Environment",
+      "question_text": "Which of the following is an intangible resource of a firm?",
+      "options": {
+        "A": "Cash and bank balances",
+        "B": "Brand reputation and customer goodwill",
+        "C": "Factory land and buildings",
+        "D": "Inventory of raw materials"
+      },
+      "correct": "B",
+      "explanation": "Resources may be tangible (physical and financial assets such as land, plant, cash and inventory) or intangible (such as reputation, brands, patents, know-how and organisational culture). Intangible resources are often harder to imitate and are therefore more likely to be a source of lasting advantage.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-fmsm-c12-q006",
+      "chapter": 12,
+      "topic": "Strategic Analysis: Internal Environment",
+      "question_text": "The distinction between a firm's resources and its capabilities is best expressed as:",
+      "options": {
+        "A": "Resources belong to employees, while capabilities belong to shareholders",
+        "B": "There is no difference; the two terms mean the same",
+        "C": "Resources are intangible, while capabilities are always tangible",
+        "D": "Resources are the assets the firm owns or controls, while capabilities are its ability to combine and use those resources effectively"
+      },
+      "correct": "D",
+      "explanation": "Resources are inputs such as plant, finance, people, brands and technology. Capabilities refer to the firm's capacity to deploy and coordinate these resources through its processes and routines to achieve a desired result. Two firms with similar resources may perform very differently because of differences in capability.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c12-q007",
+      "chapter": 12,
+      "topic": "Strategic Analysis: Internal Environment",
+      "question_text": "In a SWOT analysis, which elements relate to the internal environment of the organisation?",
+      "options": {
+        "A": "Strengths and opportunities",
+        "B": "Opportunities and threats",
+        "C": "Strengths and weaknesses",
+        "D": "Weaknesses and threats"
+      },
+      "correct": "C",
+      "explanation": "SWOT combines an internal appraisal (strengths and weaknesses, which the organisation can control) with an external appraisal (opportunities and threats arising in the environment). Combining the two helps match the firm's capabilities to its environment.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-fmsm-c12-q008",
+      "chapter": 12,
+      "topic": "Strategic Analysis: Internal Environment",
+      "question_text": "In a TOWS matrix, a 'WO' strategy is one that:",
+      "options": {
+        "A": "Uses strengths to exploit opportunities",
+        "B": "Overcomes internal weaknesses by taking advantage of external opportunities",
+        "C": "Uses strengths to avoid threats",
+        "D": "Minimises weaknesses and avoids threats"
+      },
+      "correct": "B",
+      "explanation": "The TOWS matrix produces four sets of strategies: SO (use strengths to take advantage of opportunities), WO (overcome weaknesses by taking advantage of opportunities), ST (use strengths to reduce threats) and WT (defensive strategies to minimise weaknesses and avoid threats).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c12-q009",
+      "chapter": 12,
+      "topic": "Strategic Analysis: Internal Environment",
+      "question_text": "Vasudha Agro has a strong and trusted brand in urban markets and an efficient cold-chain network. Rural demand for packaged dairy products is rising fast. A plan to use its brand and cold chain to launch dairy products in rural markets is best classified in the TOWS matrix as:",
+      "options": {
+        "A": "SO strategy",
+        "B": "WO strategy",
+        "C": "WT strategy",
+        "D": "ST strategy"
+      },
+      "correct": "A",
+      "explanation": "The brand and cold-chain network are internal strengths, and rising rural demand is an external opportunity. A strategy that uses strengths to capture an opportunity is an SO (maxi-maxi) strategy. An ST strategy would use strengths to counter a threat.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-fmsm-c12-q010",
+      "chapter": 12,
+      "topic": "Strategic Analysis: Internal Environment",
+      "question_text": "Which statement about competitive advantage is correct?",
+      "options": {
+        "A": "Competitive advantage is sustainable only if competitors cannot easily copy or neutralise it over a long period",
+        "B": "Competitive advantage arises only from having lower costs",
+        "C": "A firm can have a competitive advantage only in a monopoly market",
+        "D": "Any advantage, once gained, lasts indefinitely"
+      },
+      "correct": "A",
+      "explanation": "A firm has a competitive advantage when it creates more value for customers than rivals, whether through lower cost or differentiation. The advantage becomes sustainable only when it rests on resources and capabilities that are hard to imitate or substitute. Most advantages wear away as competitors respond.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-fmsm-c13-q001",
+      "chapter": 13,
+      "topic": "Strategic Choices",
+      "question_text": "A firm that continues to serve the same customers with the same products, aims only for modest, incremental improvements in performance and makes no major change in direction is following a:",
+      "options": {
+        "A": "Combination strategy",
+        "B": "Expansion strategy",
+        "C": "Stability strategy",
+        "D": "Retrenchment strategy"
+      },
+      "correct": "C",
+      "explanation": "A stability strategy keeps the business broadly unchanged: same products, markets and functions, with incremental improvements. It suits firms in a mature or stable environment that are satisfied with their performance. Expansion involves major growth, and retrenchment involves cutting back.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-fmsm-c13-q002",
+      "chapter": 13,
+      "topic": "Strategic Choices",
+      "question_text": "In Ansoff's product-market growth matrix, selling an existing product range in new geographical markets or to new customer segments is called:",
+      "options": {
+        "A": "Diversification",
+        "B": "Market development",
+        "C": "Market penetration",
+        "D": "Product development"
+      },
+      "correct": "B",
+      "explanation": "Ansoff's matrix has four growth strategies. Market penetration is existing products in existing markets, market development is existing products in new markets, product development is new products in existing markets, and diversification is new products in new markets.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-fmsm-c13-q003",
+      "chapter": 13,
+      "topic": "Strategic Choices",
+      "question_text": "A two-wheeler manufacturer acquires a company that makes tyres and fuel tanks used in its motorcycles. This is an example of:",
+      "options": {
+        "A": "Forward vertical integration",
+        "B": "Conglomerate diversification",
+        "C": "Horizontal integration",
+        "D": "Backward vertical integration"
+      },
+      "correct": "D",
+      "explanation": "Backward integration means moving upstream into supplying one's own inputs. Acquiring a supplier of tyres and fuel tanks is therefore backward integration. Forward integration would mean moving towards the customer, for example opening company-owned dealerships. Acquiring another motorcycle maker would be horizontal integration.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-fmsm-c13-q004",
+      "chapter": 13,
+      "topic": "Strategic Choices",
+      "question_text": "A garment exporter starts a business making technical textiles for hospitals, using its existing fabric technology, sourcing network and production skills. This move is best described as:",
+      "options": {
+        "A": "Unrelated (conglomerate) diversification",
+        "B": "Market penetration",
+        "C": "Related (concentric) diversification",
+        "D": "Horizontal integration"
+      },
+      "correct": "C",
+      "explanation": "Related or concentric diversification means entering a new business that is linked to the existing one through shared technology, skills, markets or resources. Here the technology and skills are shared, though the product and customers are new. Conglomerate diversification would involve a business with no such link.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c13-q005",
+      "chapter": 13,
+      "topic": "Strategic Choices",
+      "question_text": "Which of the following correctly orders retrenchment strategies from least drastic to most drastic?",
+      "options": {
+        "A": "Turnaround → liquidation → divestment",
+        "B": "Turnaround → divestment → liquidation",
+        "C": "Divestment → liquidation → turnaround",
+        "D": "Liquidation → divestment → turnaround"
+      },
+      "correct": "B",
+      "explanation": "Retrenchment strategies range in severity. Turnaround tries to reverse decline and restore the whole business. Divestment sells or closes a part of the business that cannot be saved or no longer fits. Liquidation, selling the firm's assets and ending the business, is the last resort.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c13-q006",
+      "chapter": 13,
+      "topic": "Strategic Choices",
+      "question_text": "Which of the following is generally a sign that a firm needs a turnaround strategy?",
+      "options": {
+        "A": "Persistent negative cash flows, falling market share and mounting uncontrolled costs",
+        "B": "A steady increase in the dividend payout ratio",
+        "C": "Rapid sales growth with rising profit margins",
+        "D": "Strong customer loyalty and rising capacity utilisation"
+      },
+      "correct": "A",
+      "explanation": "Turnaround becomes necessary when a business shows signs of sustained decline: continued negative cash flows, falling market share, rising and uncontrolled costs, high employee turnover, declining capacity utilisation and weak management. The other options indicate a healthy business.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c13-q007",
+      "chapter": 13,
+      "topic": "Strategic Choices",
+      "question_text": "A firm achieves the lowest delivered cost in its industry through economies of scale, tight cost control and a simple, no-frills product, and targets a broad market. According to Porter, it is following:",
+      "options": {
+        "A": "Best-cost provider strategy",
+        "B": "Differentiation strategy",
+        "C": "Focused differentiation strategy",
+        "D": "Cost leadership strategy"
+      },
+      "correct": "D",
+      "explanation": "Porter's cost leadership strategy aims to become the lowest-cost producer in a broad market through scale, learning, efficient processes and cost control. The firm can earn above-average returns at industry prices or win share with lower prices. A focus strategy would target a narrow segment.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-fmsm-c13-q008",
+      "chapter": 13,
+      "topic": "Strategic Choices",
+      "question_text": "Kalpa Hotels runs a small chain of luxury wellness resorts serving only high-income health-conscious travellers, offering unique Ayurvedic treatments at premium prices. Its generic strategy is best described as:",
+      "options": {
+        "A": "Broad cost leadership",
+        "B": "Focused differentiation",
+        "C": "Broad differentiation",
+        "D": "Focused cost leadership"
+      },
+      "correct": "B",
+      "explanation": "Kalpa targets a narrow buyer segment (high-income health-conscious travellers) rather than the whole market, so it follows a focus strategy. Within that niche it competes through unique offerings at premium prices rather than low cost, so the strategy is focused differentiation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c13-q009",
+      "chapter": 13,
+      "topic": "Strategic Choices",
+      "question_text": "A best-cost provider strategy aims to:",
+      "options": {
+        "A": "Avoid competing on either price or product attributes",
+        "B": "Serve a single narrow niche at the highest possible price",
+        "C": "Offer the lowest possible price with only basic features",
+        "D": "Give customers more value for money by offering upscale product attributes at a lower cost and price than rivals with similar products"
+      },
+      "correct": "D",
+      "explanation": "A best-cost provider combines cost leadership and differentiation. It offers good-to-excellent product attributes at a lower cost than rivals offering similar attributes, so it can charge a lower price for comparable quality. It appeals to value-conscious buyers who want quality without paying a full premium.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-fmsm-c13-q010",
+      "chapter": 13,
+      "topic": "Strategic Choices",
+      "question_text": "In the BCG growth-share matrix, a business unit with a high relative market share in a low-growth market is classified as a:",
+      "options": {
+        "A": "Question mark",
+        "B": "Star",
+        "C": "Cash cow",
+        "D": "Dog"
+      },
+      "correct": "C",
+      "explanation": "The BCG matrix classifies units by market growth rate and relative market share. Stars have high share and high growth, cash cows have high share and low growth, question marks have low share and high growth, and dogs have low share and low growth. Cash cows generate surplus cash that can fund stars and selected question marks.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-fmsm-c13-q011",
+      "chapter": 13,
+      "topic": "Strategic Choices",
+      "question_text": "Two companies from different countries agree to jointly develop and market a new electric vehicle platform, sharing technology and costs while remaining independent legal entities. The main advantage of this strategic alliance is that it allows each partner to:",
+      "options": {
+        "A": "Access the other's complementary resources and markets while sharing the cost and risk of the venture",
+        "B": "Eliminate competition between the two firms in all markets permanently",
+        "C": "Gain full ownership and control over the partner's entire business",
+        "D": "Avoid any need for coordination or trust between the partners"
+      },
+      "correct": "A",
+      "explanation": "A strategic alliance is a cooperative arrangement in which partners pool resources for a common purpose but stay independent. Its benefits include access to new markets and technology, sharing of cost and risk, and learning from the partner. It requires coordination and trust, and it does not give ownership control, which would require a merger or acquisition.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-fmsm-c14-q001",
+      "chapter": 14,
+      "topic": "Strategy Implementation and Evaluation",
+      "question_text": "Which statement correctly distinguishes strategy formulation from strategy implementation?",
+      "options": {
+        "A": "Formulation positions forces before action and needs good intuitive and analytical skills, while implementation manages forces during action and needs motivation and leadership skills",
+        "B": "Formulation requires coordination among many people, while implementation needs coordination among only a few",
+        "C": "Formulation is carried out mainly by front-line staff, while implementation is done only by the board",
+        "D": "Formulation focuses on efficiency, while implementation focuses on effectiveness"
+      },
+      "correct": "A",
+      "explanation": "Strategy formulation is mainly an intellectual, entrepreneurial process focused on effectiveness, and needs coordination among a few people at the top. Strategy implementation is an operational process focused on efficiency. It needs motivation and leadership skills and coordination among many people across the organisation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c14-q002",
+      "chapter": 14,
+      "topic": "Strategy Implementation and Evaluation",
+      "question_text": "A large diversified group organises its many divisions into a few units, each with its own distinct products, competitors and markets, and each with a manager responsible for strategy and profit. This is called a:",
+      "options": {
+        "A": "Hourglass structure",
+        "B": "Strategic Business Unit (SBU) structure",
+        "C": "Simple structure",
+        "D": "Functional structure"
+      },
+      "correct": "B",
+      "explanation": "Under an SBU structure, related divisions are grouped into strategic business units, each run as a separate business with its own strategy and profit responsibility. This helps top management control a large, diverse portfolio and makes planning more focused. A functional structure groups activities by function such as production and marketing.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-fmsm-c14-q003",
+      "chapter": 14,
+      "topic": "Strategy Implementation and Evaluation",
+      "question_text": "The main feature of a matrix organisation structure is that:",
+      "options": {
+        "A": "Every employee reports only to the chief executive",
+        "B": "Middle management layers are removed to bring top and bottom closer",
+        "C": "Employees report to two managers at the same time, typically a functional manager and a project or product manager",
+        "D": "Most activities are outsourced to external partners linked by contracts"
+      },
+      "correct": "C",
+      "explanation": "A matrix structure combines functional and project (or product/geographic) lines of authority, so there is dual reporting. It allows specialists to be shared across projects and supports complex, changing work, but it can cause conflict and confusion over authority. Outsourcing describes a network structure, and removing middle layers describes an hourglass structure.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-fmsm-c14-q004",
+      "chapter": 14,
+      "topic": "Strategy Implementation and Evaluation",
+      "question_text": "Lumina Apparel owns only its design team and brand. Manufacturing, logistics and online sales are carried out by independent partners linked through contracts and information systems. This is best described as a:",
+      "options": {
+        "A": "Matrix structure",
+        "B": "Divisional structure",
+        "C": "Functional structure",
+        "D": "Network (virtual) structure"
+      },
+      "correct": "D",
+      "explanation": "A network or virtual structure is a small core organisation that outsources most business functions to independent partners and coordinates them through contracts and technology. It is flexible and lean, and lets the firm focus on core competencies such as design and branding, though it depends heavily on partners.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c14-q005",
+      "chapter": 14,
+      "topic": "Strategy Implementation and Evaluation",
+      "question_text": "An hourglass organisation structure is characterised by:",
+      "options": {
+        "A": "Dual reporting to functional and project managers",
+        "B": "A shrunken middle management layer, as technology and information systems take over coordination, with broad top and operating levels",
+        "C": "Grouping of activities purely by geography",
+        "D": "A very large middle management layer with few top managers"
+      },
+      "correct": "B",
+      "explanation": "In an hourglass structure, information technology performs many of the coordinating and information-processing tasks traditionally done by middle managers. The middle layer shrinks, leaving a broad top and a broad operating base. Middle managers who remain tend to be generalists with wider responsibilities.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c14-q006",
+      "chapter": 14,
+      "topic": "Strategy Implementation and Evaluation",
+      "question_text": "A strategy was built on the assumption that a key raw material's import duty would stay low. Managers set up a system to check regularly whether this and other planning assumptions still hold. This type of strategic control is:",
+      "options": {
+        "A": "Premise control",
+        "B": "Operational control",
+        "C": "Implementation control",
+        "D": "Special alert control"
+      },
+      "correct": "A",
+      "explanation": "Premise control systematically and continuously checks whether the premises or assumptions on which a strategy rests remain valid. If an assumption changes, such as a sharp rise in import duty, the strategy may need revision. Implementation control assesses whether the strategy should be changed in light of the results of implementation steps.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-fmsm-c14-q007",
+      "chapter": 14,
+      "topic": "Strategy Implementation and Evaluation",
+      "question_text": "After a sudden fire destroys a major supplier's plant, a company immediately convenes a crisis team to rethink its sourcing strategy. This is an example of:",
+      "options": {
+        "A": "Premise control",
+        "B": "Strategic surveillance",
+        "C": "Budgetary control",
+        "D": "Special alert control"
+      },
+      "correct": "D",
+      "explanation": "Special alert control is a rapid, thorough reconsideration of strategy triggered by a sudden, unexpected event, such as a natural disaster, a major supplier failure or a sudden change in government. It often involves crisis teams. Strategic surveillance is a broad, unfocused monitoring of the environment, and premise control checks specific planning assumptions.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-fmsm-c14-q008",
+      "chapter": 14,
+      "topic": "Strategy Implementation and Evaluation",
+      "question_text": "In the McKinsey 7S framework, which three elements are generally classed as the 'hard' S's?",
+      "options": {
+        "A": "Skills, staff and style",
+        "B": "Shared values, style and staff",
+        "C": "Strategy, structure and systems",
+        "D": "Strategy, shared values and skills"
+      },
+      "correct": "C",
+      "explanation": "The 7S framework has three hard elements (strategy, structure and systems) that management can define and change relatively easily. The four soft elements are shared values, style, staff and skills, which are shaped by culture and are harder to change. Effective implementation needs all seven to be aligned.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-fmsm-c14-q009",
+      "chapter": 14,
+      "topic": "Strategy Implementation and Evaluation",
+      "question_text": "In Kurt Lewin's model of change, the stage at which new behaviours, systems and processes are reinforced so that they become the normal way of working is called:",
+      "options": {
+        "A": "Refreezing",
+        "B": "Benchmarking",
+        "C": "Changing (moving)",
+        "D": "Unfreezing"
+      },
+      "correct": "A",
+      "explanation": "Lewin's three-stage model consists of unfreezing (making people see the need for change and reducing resistance), changing or moving (introducing new behaviours and processes) and refreezing (stabilising the new ways through reinforcement, policies and rewards so that people do not slip back).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-fmsm-c14-q010",
+      "chapter": 14,
+      "topic": "Strategy Implementation and Evaluation",
+      "question_text": "A CEO inspires employees with a compelling vision, encourages them to challenge old ways of working and motivates them to go beyond their own interests for the organisation's transformation. This is best described as:",
+      "options": {
+        "A": "Laissez-faire leadership",
+        "B": "Transactional leadership",
+        "C": "Transformational leadership",
+        "D": "Autocratic leadership"
+      },
+      "correct": "C",
+      "explanation": "Transformational leaders use charisma, vision and intellectual stimulation to motivate people to commit to change and perform beyond expectations. This suits organisations going through major strategic change. Transactional leaders rely on rewards, penalties and existing structures to achieve set goals, which suits stable conditions.",
+      "difficulty": "hard"
+    }
+  ]
+}
