@@ -304,7 +304,7 @@ export const caInterSubjects: Subject[] = [
     level: "CA-INTER",
     body: "icai",
     description: "Costing methods, standard costing, budgets and decision making — Paper 4 MCQ practice.",
-    isAvailable: false,
+    isAvailable: true,
   },
   {
     id: "ca-inter-audit",
@@ -334,7 +334,7 @@ export const cmaSubjects: Subject[] = [
     level: "CMA",
     body: "ima",
     description: "External reporting, planning, budgeting, performance, cost management, internal controls and technology & analytics.",
-    isAvailable: false,
+    isAvailable: true,
   },
   {
     id: "cma-p2",

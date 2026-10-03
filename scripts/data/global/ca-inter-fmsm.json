@@ -879,11 +879,11 @@
       "options": {
         "A": "₹ 2,70,000",
         "B": "₹ 2,80,000",
-        "C": "₹ 3,10,000",
+        "C": "₹ 2,85,000",
         "D": "₹ 3,05,000"
       },
       "correct": "D",
-      "explanation": "PI = (outlay + NPV) / outlay: P = 1.30, Q = 1.25, R = 1.32. Rank R, P, Q. Invest ₹ 5,00,000 in R (NPV 1,60,000) and ₹ 4,00,000 in P (NPV 1,20,000), leaving ₹ 1,00,000 for 1/6 of Q (NPV 1,50,000 / 6 = 25,000). Total NPV = 1,60,000 + 1,20,000 + 25,000 = ₹ 3,05,000. Ranking by absolute NPV (R then Q) gives only ₹ 3,10,000.",
+      "explanation": "PI = (outlay + NPV) / outlay: P = 5,20,000/4,00,000 = 1.30, Q = 7,50,000/6,00,000 = 1.25, R = 6,60,000/5,00,000 = 1.32. Rank R, P, Q. Invest ₹ 5,00,000 in R (NPV ₹ 1,60,000) and ₹ 4,00,000 in P (NPV ₹ 1,20,000), leaving ₹ 1,00,000 for 1/6 of Q (NPV ₹ 1,50,000 / 6 = ₹ 25,000). Total NPV = 1,60,000 + 1,20,000 + 25,000 = ₹ 3,05,000. Ranking by absolute NPV (R, then 5/6 of Q) gives only ₹ 1,60,000 + ₹ 1,25,000 = ₹ 2,85,000, and taking P and Q in full gives ₹ 2,70,000.",
       "difficulty": "hard"
     },
     {
@@ -980,7 +980,7 @@
       "id": "ca-inter-fmsm-c08-q005",
       "chapter": 8,
       "topic": "Dividend Decision",
-      "question_text": "Continuing MM, a company with 2,00,000 shares expects net income of ₹ 20,00,000 and plans investment of ₹ 30,00,000. It pays a dividend of ₹ 6 per share and the year-end price after dividend is ₹ 106. How many new shares must it issue to finance the investment (to the nearest whole share)?",
+      "question_text": "Under the Modigliani-Miller approach, a company with 2,00,000 equity shares expects net income of ₹ 20,00,000 for the year and plans new investment of ₹ 30,00,000. It pays a dividend of ₹ 6 per share, and the expected market price per share at the end of the year after the dividend is ₹ 106. How many new shares must it issue to finance the investment (rounded up to the next whole share)?",
       "options": {
         "A": "19,643 shares",
         "B": "20,755 shares",
@@ -1115,15 +1115,15 @@
       "id": "ca-inter-fmsm-c09-q006",
       "chapter": 9,
       "topic": "Management of Working Capital",
-      "question_text": "Ganga Ltd has credit sales of ₹ 60 lakh, an average collection period of 30 days and bad debts of 1% of sales. A relaxed credit policy would raise sales to ₹ 70 lakh, the collection period to 60 days and bad debts to 2% of sales. The contribution margin is 25%, and the cost of funds tied up in receivables is 12% (measured on sales value for simplicity). Taking 360 days in a year, the net effect on annual profit of adopting the new policy is:",
+      "question_text": "Ganga Ltd has credit sales of ₹ 60 lakh, an average collection period of 30 days and bad debts of 1% of sales. A relaxed credit policy would raise credit sales to ₹ 70 lakh, the collection period to 60 days and bad debts to 2% of sales. Variable costs are 75% of sales and fixed costs of ₹ 6 lakh a year will not change. The required return on investment in receivables is 12% per annum, and the investment in receivables is to be measured at total cost (variable cost plus fixed cost). Taking 360 days in a year, the net effect on annual profit of adopting the new policy is:",
       "options": {
         "A": "Increase of ₹ 1,70,000",
-        "B": "Increase of ₹ 2,50,000",
+        "B": "Increase of ₹ 1,04,000",
         "C": "Increase of ₹ 90,000",
-        "D": "Increase of ₹ 30,000"
+        "D": "Increase of ₹ 1,10,000"
       },
-      "correct": "C",
-      "explanation": "Extra contribution = 10,00,000 x 25% = ₹ 2,50,000. Receivables rise from ₹ 5,00,000 (60 lakh x 30/360) to ₹ 11,66,667 (70 lakh x 60/360), an increase of ₹ 6,66,667, costing 12% = ₹ 80,000. Bad debts rise from ₹ 60,000 to ₹ 1,40,000, an increase of ₹ 80,000. Net gain = ₹ 2,50,000 - ₹ 80,000 - ₹ 80,000 = ₹ 90,000, so the new policy is worthwhile. Charging the 12% on the whole new receivables balance instead of the increase understates the gain.",
+      "correct": "B",
+      "explanation": "Total cost: present = 45 lakh + 6 lakh = ₹ 51 lakh; proposed = 52.5 lakh + 6 lakh = ₹ 58.5 lakh. Investment in receivables at total cost: present = 51,00,000 x 30/360 = ₹ 4,25,000; proposed = 58,50,000 x 60/360 = ₹ 9,75,000. Cost of funds at 12%: present ₹ 51,000, proposed ₹ 1,17,000, an increase of ₹ 66,000. Extra contribution = 10,00,000 x 25% = ₹ 2,50,000, and bad debts rise from ₹ 60,000 to ₹ 1,40,000 (+ ₹ 80,000). Net gain = 2,50,000 - 66,000 - 80,000 = ₹ 1,04,000. Valuing receivables at variable cost only gives ₹ 1,10,000, at sales value gives ₹ 90,000, and ignoring the cost of funds gives ₹ 1,70,000.",
       "difficulty": "hard"
     },
     {
@@ -1178,12 +1178,12 @@
       "question_text": "A company's realised strategy usually differs from what it planned because:",
       "options": {
         "A": "Strategy is always entirely planned in advance and never changes",
-        "B": "Only emergent strategies are ever implemented in practice",
+        "B": "Only reactive strategies are ever implemented in practice",
         "C": "Realised strategy is decided only by functional managers",
-        "D": "Realised strategy is a mix of planned (deliberate) strategy that is carried out and emergent (reactive) strategy that develops in response to unforeseen events"
+        "D": "The actual strategy is a blend of proactive (planned) strategy elements and reactive (adaptive) responses to unanticipated developments"
       },
       "correct": "D",
-      "explanation": "Strategy is partly proactive (planned) and partly reactive (adaptive). Some intended strategies are dropped, and new ones emerge as managers respond to changes in the environment. What is actually carried out, the realised strategy, combines the deliberate part of the plan with these emergent responses.",
+      "explanation": "Strategy is partly proactive and partly reactive. Proactive strategy is the planned, deliberate part based on management's analysis, while reactive strategy is the adaptive reaction to unforeseen changes in the environment. Some planned elements are abandoned and new ones are added, so the company's actual strategy combines both.",
       "difficulty": "medium"
     },
     {
@@ -1243,7 +1243,7 @@
         "D": "Goals and objectives"
       },
       "correct": "B",
-      "explanation": "Strategic intent expresses the purpose the organisation wants to achieve. It is set out through the vision, mission, business definition, and goals and objectives. Annual cost-centre budgets are operational control tools used during implementation, not elements of strategic intent.",
+      "explanation": "Strategic intent expresses what the organisation strives for. In the ICAI study material it is set out through the vision, mission, goals and objectives, and values. Annual cost-centre budgets are operational control tools used during implementation, not elements of strategic intent.",
       "difficulty": "easy"
     },
     {
@@ -1505,45 +1505,45 @@
       "id": "ca-inter-fmsm-c12-q002",
       "chapter": 12,
       "topic": "Strategic Analysis: Internal Environment",
-      "question_text": "Under the VRIO framework, a resource gives a firm a SUSTAINED competitive advantage when it is:",
+      "question_text": "Under the four criteria used to identify capabilities that are core competencies (and a source of sustainable competitive advantage), a capability qualifies when it is:",
       "options": {
-        "A": "Valuable and rare but easy to imitate",
+        "A": "Valuable and rare but easy for rivals to imitate",
         "B": "Rare but not valuable to customers",
-        "C": "Valuable, rare, costly to imitate, and the firm is organised to exploit it",
-        "D": "Valuable but common among competitors"
+        "C": "Valuable, rare, costly to imitate and non-substitutable",
+        "D": "Valuable but possessed by most competitors"
       },
       "correct": "C",
-      "explanation": "VRIO asks whether a resource is Valuable, Rare, costly to Imitate and whether the firm is Organised to capture its value. A valuable but common resource gives only competitive parity. A valuable and rare but imitable resource gives a temporary advantage. A sustained advantage needs all four conditions.",
+      "explanation": "Capabilities that are valuable, rare, costly to imitate and non-substitutable are core competencies. A valuable capability that many rivals possess gives no advantage to any one of them. A capability that is easy to imitate or has a strategic equivalent cannot sustain an advantage. All four criteria must be met.",
       "difficulty": "medium"
     },
     {
       "id": "ca-inter-fmsm-c12-q003",
       "chapter": 12,
       "topic": "Strategic Analysis: Internal Environment",
-      "question_text": "In Porter's value chain, which of the following is a SUPPORT activity?",
+      "question_text": "According to Michael Porter's generic strategies, a firm that produces standardised products at a very low per-unit cost for price-sensitive buyers across a broad market is following:",
       "options": {
-        "A": "Procurement",
-        "B": "Inbound logistics",
-        "C": "Outbound logistics",
-        "D": "Marketing and sales"
+        "A": "Cost leadership strategy",
+        "B": "Focused differentiation strategy",
+        "C": "Differentiation strategy",
+        "D": "Best-cost provider strategy"
       },
       "correct": "A",
-      "explanation": "Porter's primary activities are inbound logistics, operations, outbound logistics, marketing and sales, and service. Support activities are firm infrastructure, human resource management, technology development and procurement. Procurement covers buying inputs used across all primary activities.",
+      "explanation": "Cost leadership aims at the broad mass market and emphasises producing standardised products at a very low per-unit cost for price-sensitive consumers, through economies of scale, efficiency and tight cost control. Differentiation targets price-insensitive buyers with unique products, focus strategies serve a narrow segment, and best-cost provider combines low cost with upscale features.",
       "difficulty": "easy"
     },
     {
       "id": "ca-inter-fmsm-c12-q004",
       "chapter": 12,
       "topic": "Strategic Analysis: Internal Environment",
-      "question_text": "A consumer electronics company provides doorstep installation, repairs and an annual maintenance programme after sale. In Porter's value chain, these activities fall under:",
+      "question_text": "Under Mendelow's matrix, a regulator that has high power to influence an organisation but normally shows little interest in its day-to-day strategy should be:",
       "options": {
-        "A": "Technology development (a support activity)",
-        "B": "Firm infrastructure (a support activity)",
-        "C": "Outbound logistics (a primary activity)",
-        "D": "Service (a primary activity)"
+        "A": "Managed closely as a key player",
+        "B": "Kept informed",
+        "C": "Treated as low priority and only monitored",
+        "D": "Kept satisfied"
       },
       "correct": "D",
-      "explanation": "The service primary activity covers what is done to maintain or enhance product value after sale, such as installation, repair, training and spare parts. Outbound logistics covers storing and distributing the finished product to buyers, which comes before installation and after-sales support.",
+      "explanation": "Mendelow's matrix groups stakeholders by power and interest. High power, low interest stakeholders such as banks and government bodies should be kept satisfied. High power, high interest stakeholders are key players to be managed closely. Low power, high interest stakeholders are kept informed, and low power, low interest stakeholders are low priority and only monitored. Positions can change, for example if a regulation is breached.",
       "difficulty": "medium"
     },
     {
@@ -1595,30 +1595,30 @@
       "id": "ca-inter-fmsm-c12-q008",
       "chapter": 12,
       "topic": "Strategic Analysis: Internal Environment",
-      "question_text": "In a TOWS matrix, a 'WO' strategy is one that:",
+      "question_text": "Kalpa Hotels runs a small chain of luxury wellness resorts serving only high-income, health-conscious travellers, offering unique Ayurvedic treatments at premium prices. Under Michael Porter's generic strategies, its strategy is best described as:",
       "options": {
-        "A": "Uses strengths to exploit opportunities",
-        "B": "Overcomes internal weaknesses by taking advantage of external opportunities",
-        "C": "Uses strengths to avoid threats",
-        "D": "Minimises weaknesses and avoids threats"
+        "A": "Cost leadership",
+        "B": "Focused differentiation",
+        "C": "Broad differentiation",
+        "D": "Focused cost leadership"
       },
       "correct": "B",
-      "explanation": "The TOWS matrix produces four sets of strategies: SO (use strengths to take advantage of opportunities), WO (overcome weaknesses by taking advantage of opportunities), ST (use strengths to reduce threats) and WT (defensive strategies to minimise weaknesses and avoid threats).",
+      "explanation": "Kalpa targets a narrow buyer segment (high-income, health-conscious travellers) rather than the whole market, so it follows a focus strategy. Within that niche it competes through unique features at premium prices rather than low cost, so the strategy is focused differentiation. Broad differentiation would target the mass market.",
       "difficulty": "medium"
     },
     {
       "id": "ca-inter-fmsm-c12-q009",
       "chapter": 12,
       "topic": "Strategic Analysis: Internal Environment",
-      "question_text": "Vasudha Agro has a strong and trusted brand in urban markets and an efficient cold-chain network. Rural demand for packaged dairy products is rising fast. A plan to use its brand and cold chain to launch dairy products in rural markets is best classified in the TOWS matrix as:",
+      "question_text": "Velo Mobiles sells smartphones whose features and quality are comparable to those of premium brands, but at noticeably lower prices than rivals offering similar quality, aiming at value-conscious buyers. Its competitive strategy is best described as:",
       "options": {
-        "A": "SO strategy",
-        "B": "WO strategy",
-        "C": "WT strategy",
-        "D": "ST strategy"
+        "A": "Best-cost provider strategy",
+        "B": "Cost leadership strategy",
+        "C": "Focused differentiation strategy",
+        "D": "Broad differentiation strategy"
       },
       "correct": "A",
-      "explanation": "The brand and cold-chain network are internal strengths, and rising rural demand is an external opportunity. A strategy that uses strengths to capture an opportunity is an SO (maxi-maxi) strategy. An ST strategy would use strengths to counter a threat.",
+      "explanation": "A best-cost provider gives customers more value for money by combining low cost with upscale features: it offers products of comparable quality and features at a lower price than rivals, or much better quality at a similar price. A cost leader sells standardised, basic products at the lowest cost. A differentiator charges a premium for unique features.",
       "difficulty": "hard"
     },
     {
@@ -1730,45 +1730,45 @@
       "id": "ca-inter-fmsm-c13-q007",
       "chapter": 13,
       "topic": "Strategic Choices",
-      "question_text": "A firm achieves the lowest delivered cost in its industry through economies of scale, tight cost control and a simple, no-frills product, and targets a broad market. According to Porter, it is following:",
+      "question_text": "The Arthur D. Little (ADL) matrix positions a business on which two dimensions?",
       "options": {
-        "A": "Best-cost provider strategy",
-        "B": "Differentiation strategy",
-        "C": "Focused differentiation strategy",
-        "D": "Cost leadership strategy"
+        "A": "Market growth rate and relative market share",
+        "B": "Market attractiveness and business strength",
+        "C": "Newness of products and newness of markets",
+        "D": "Stage of industry maturity and the firm's competitive position"
       },
       "correct": "D",
-      "explanation": "Porter's cost leadership strategy aims to become the lowest-cost producer in a broad market through scale, learning, efficient processes and cost control. The firm can earn above-average returns at industry prices or win share with lower prices. A focus strategy would target a narrow segment.",
+      "explanation": "The ADL matrix is a portfolio technique based on the product life cycle. It combines the stage of industry maturity (embryonic, growth, mature, ageing) with the firm's competitive position (dominant, strong, favourable, tenable, weak). Market growth and relative share are the BCG axes, market attractiveness and business strength are the GE matrix axes, and products and markets are Ansoff's dimensions.",
       "difficulty": "easy"
     },
     {
       "id": "ca-inter-fmsm-c13-q008",
       "chapter": 13,
       "topic": "Strategic Choices",
-      "question_text": "Kalpa Hotels runs a small chain of luxury wellness resorts serving only high-income health-conscious travellers, offering unique Ayurvedic treatments at premium prices. Its generic strategy is best described as:",
+      "question_text": "Under the ADL matrix, a competitive position that is comparatively rare and is usually attributable to a monopoly or to strong, protected technological leadership is described as:",
       "options": {
-        "A": "Broad cost leadership",
-        "B": "Focused differentiation",
-        "C": "Broad differentiation",
-        "D": "Focused cost leadership"
+        "A": "Strong",
+        "B": "Dominant",
+        "C": "Favourable",
+        "D": "Tenable"
       },
       "correct": "B",
-      "explanation": "Kalpa targets a narrow buyer segment (high-income health-conscious travellers) rather than the whole market, so it follows a focus strategy. Within that niche it competes through unique offerings at premium prices rather than low cost, so the strategy is focused differentiation.",
+      "explanation": "The ADL matrix uses five competitive positions: dominant, strong, favourable, tenable and weak. A dominant position is rare and usually comes from a monopoly or protected technological leadership. A strong firm has considerable freedom of choice, a favourable position arises in fragmented industries with no clear leader, and tenable firms perform satisfactorily but are vulnerable to stronger rivals.",
       "difficulty": "medium"
     },
     {
       "id": "ca-inter-fmsm-c13-q009",
       "chapter": 13,
       "topic": "Strategic Choices",
-      "question_text": "A best-cost provider strategy aims to:",
+      "question_text": "Navya Foods' instant-noodles SBU has a 35% share of a market growing at 2% a year, and its nearest rival has a 12% share. Management wants to increase the SBU's short-term cash flow, accepting some long-term loss of position, to fund a fast-growing beverages SBU. In BCG terms, the noodles SBU and the strategy chosen for it are:",
       "options": {
-        "A": "Avoid competing on either price or product attributes",
-        "B": "Serve a single narrow niche at the highest possible price",
-        "C": "Offer the lowest possible price with only basic features",
-        "D": "Give customers more value for money by offering upscale product attributes at a lower cost and price than rivals with similar products"
+        "A": "Star; build",
+        "B": "Question mark; hold",
+        "C": "Dog; divest",
+        "D": "Cash cow; harvest"
       },
       "correct": "D",
-      "explanation": "A best-cost provider combines cost leadership and differentiation. It offers good-to-excellent product attributes at a lower cost than rivals offering similar attributes, so it can charge a lower price for comparable quality. It appeals to value-conscious buyers who want quality without paying a full premium.",
+      "explanation": "Relative market share = 35% / 12% = about 2.9, which is high, and market growth of 2% is low, so the SBU is a cash cow. Of the BCG post-identification strategies, harvest aims to increase short-term cash flow regardless of the long-term effect. Build increases market share, hold preserves it, and divest sells or liquidates the business.",
       "difficulty": "hard"
     },
     {
