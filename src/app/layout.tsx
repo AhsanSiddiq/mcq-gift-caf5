@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
 
   title: {
-    default: "The CA Hub",
+    default: "The CA Hub – Free ICAP MCQs for PRC & CAF, Mock Exams & CA Induction CV Maker",
     template: "%s – The CA Hub",
   },
   description:

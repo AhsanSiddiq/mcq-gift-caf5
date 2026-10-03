@@ -12,11 +12,19 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(req: NextRequest) {
   try {
-    const { name, email, subject, message } = await req.json();
+    const body = await req.json();
+    const clip = (v: unknown, n: number) => (typeof v === "string" ? v.trim().slice(0, n) : "");
+    const name = clip(body.name, 120);
+    const email = clip(body.email, 254);
+    const subject = clip(body.subject, 200);
+    const message = clip(body.message, 5000);
 
-    if (!name || !email || !message) {
+    if (!name || !email || !message || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
       return NextResponse.json({ error: "Missing required fields." }, { status: 400 });
     }
+
+    // Visitor input is interpolated into an HTML email — escape it
+    const esc = (v: string) => v.replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`);
 
     /* 1 ── Save to Supabase ── */
     const { error: dbError } = await supabaseAdmin
@@ -33,7 +41,7 @@ export async function POST(req: NextRequest) {
       from: "The CA Hub <noreply@thecahub.com>",
       to:   "ahsansiddiq01@gmail.com",
       replyTo: email,
-      subject: `📬 New Contact: ${subject || "(no subject)"}`,
+      subject: `📬 New Contact: ${subject.replace(/[\r\n]+/g, " ") || "(no subject)"}`,
       html: `
         <div style="font-family:sans-serif;max-width:560px;margin:0 auto;padding:24px;">
           <h2 style="color:#1a1a1a;margin-bottom:4px;">New contact message</h2>
@@ -42,24 +50,24 @@ export async function POST(req: NextRequest) {
           <table style="width:100%;border-collapse:collapse;font-size:14px;">
             <tr>
               <td style="padding:10px 0;color:#555;width:80px;vertical-align:top;font-weight:600;">Name</td>
-              <td style="padding:10px 0;color:#1a1a1a;">${name}</td>
+              <td style="padding:10px 0;color:#1a1a1a;">${esc(name)}</td>
             </tr>
             <tr style="border-top:1px solid #eee;">
               <td style="padding:10px 0;color:#555;font-weight:600;">Email</td>
-              <td style="padding:10px 0;"><a href="mailto:${email}" style="color:#3DB371;">${email}</a></td>
+              <td style="padding:10px 0;"><a href="mailto:${esc(email)}" style="color:#3DB371;">${esc(email)}</a></td>
             </tr>
             <tr style="border-top:1px solid #eee;">
               <td style="padding:10px 0;color:#555;font-weight:600;">Subject</td>
-              <td style="padding:10px 0;color:#1a1a1a;">${subject || "—"}</td>
+              <td style="padding:10px 0;color:#1a1a1a;">${esc(subject) || "—"}</td>
             </tr>
             <tr style="border-top:1px solid #eee;">
               <td style="padding:10px 0;color:#555;font-weight:600;vertical-align:top;">Message</td>
-              <td style="padding:10px 0;color:#1a1a1a;white-space:pre-wrap;">${message}</td>
+              <td style="padding:10px 0;color:#1a1a1a;white-space:pre-wrap;">${esc(message)}</td>
             </tr>
           </table>
 
           <div style="margin-top:24px;padding:12px 16px;background:#f5f5f5;border-radius:8px;font-size:12px;color:#888;">
-            Hit Reply to respond directly to ${name}.
+            Hit Reply to respond directly to ${esc(name)}.
           </div>
         </div>
       `,

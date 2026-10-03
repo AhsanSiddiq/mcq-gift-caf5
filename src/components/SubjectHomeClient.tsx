@@ -6,6 +6,7 @@ import { useProgress } from "@/hooks/useProgress";
 import { useEffect, useState } from "react";
 import EmailLoginModal from "@/components/EmailLoginModal";
 import AdSlot from "@/components/AdSlot";
+import SponsorSlot from "@/components/SponsorSlot";
 import { motion } from "framer-motion";
 
 interface SubjectHomeClientProps {
@@ -277,6 +278,7 @@ export default function SubjectHomeClient({ level, subjectId, currentSubject, to
           <ArrowRight className="w-5 h-5 shrink-0" style={{ color: "var(--green)" }} />
         </Link>
 
+        <SponsorSlot level={currentSubject.level} className="mt-4" />
         <AdSlot className="mt-10" />
       </div>
     </main>

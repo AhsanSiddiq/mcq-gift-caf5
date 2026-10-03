@@ -9,6 +9,7 @@ import {
 } from "framer-motion";
 import { ArrowRight, CheckCircle2, BookOpen, FileText, Target } from "lucide-react";
 import { blogs } from "@/data/blogs";
+import { allSubjects } from "@/data/subjects";
 
 /* ── Framer Variants ── */
 const fadeUp: import("framer-motion").Variants = {
@@ -760,6 +761,35 @@ export default function Home() {
         </div>
       </section>
 
+
+      {/* ══ QUESTION BANKS (crawlable internal links) ══ */}
+      <section id="question-banks" className="py-20 px-6 md:px-16" style={{ borderTop: "1px solid var(--border)" }}>
+        <div className="max-w-6xl mx-auto">
+          <p className="text-xs font-bold uppercase tracking-widest mb-3" style={{ color: "var(--green)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
+            Free question banks
+          </p>
+          <h2 className="font-display font-bold tracking-tight mb-4" style={{ fontSize: "clamp(1.8rem,4vw,2.8rem)", color: "var(--text-1)" }}>
+            ICAP PRC &amp; CAF MCQs with answers
+          </h2>
+          <p className="mb-10 max-w-2xl" style={{ color: "var(--text-2)", lineHeight: 1.7 }}>
+            Thousands of chapter-wise MCQs with worked explanations for every PRC and CAF paper. Read them, then test yourself
+            in topical drills, timed mocks or today&apos;s <Link href="/daily" style={{ color: "var(--green)" }}>daily challenge</Link>.
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            {allSubjects.map((s) => (
+              <Link key={s.id} href={`/${s.level.toLowerCase()}/${s.id}/mcqs`}
+                className="flex items-center justify-between gap-3 rounded-2xl px-5 py-4"
+                style={{ background: "var(--bg-2)", border: "1px solid var(--border)", textDecoration: "none" }}>
+                <span>
+                  <span className="block text-xs font-black uppercase tracking-widest" style={{ color: "var(--green)" }}>{s.id.toUpperCase()}</span>
+                  <span className="block font-semibold text-sm" style={{ color: "var(--text-1)" }}>{s.title} MCQs</span>
+                </span>
+                <ArrowRight className="w-4 h-4 shrink-0" style={{ color: "var(--text-3)" }} />
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* ══ CV MAKER ══════════════════════════════════════ */}
       <section id="cv-maker" className="py-24 md:py-32 px-6 md:px-16 overflow-hidden" style={{ borderTop: "1px solid var(--border)" }}>

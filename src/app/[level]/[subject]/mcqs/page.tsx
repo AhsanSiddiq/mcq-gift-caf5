@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { getChapters, resolveSubject } from "@/lib/questionBank";
 import AdSlot from "@/components/AdSlot";
+import SponsorSlot from "@/components/SponsorSlot";
 
 export const revalidate = 86400;
 
@@ -63,6 +64,8 @@ export default async function QuestionBankIndex({ params }: Props) {
           {total > 0 ? `${total} ` : ""}multiple-choice questions for {s.title}, organised chapter by chapter, each with the correct answer and a worked explanation.
           {" "}{s.description} Read them here, then switch to a timed mock to test yourself under exam pressure.
         </p>
+
+        <SponsorSlot level={s.level} className="mb-8" />
 
         {chapters.length === 0 ? (
           <p style={{ color: "var(--text-3)" }}>Questions for this subject are being added.</p>

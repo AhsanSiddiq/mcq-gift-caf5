@@ -4,6 +4,7 @@ import { notFound, permanentRedirect } from "next/navigation";
 import { ArrowLeft, ArrowRight, Timer } from "lucide-react";
 import { getChapterQuestions, getChapters, resolveSubject, type ChapterMeta } from "@/lib/questionBank";
 import AdSlot from "@/components/AdSlot";
+import SponsorSlot from "@/components/SponsorSlot";
 
 export const revalidate = 86400;
 
@@ -127,6 +128,8 @@ export default async function ChapterQuestionBank({ params }: Props) {
             );
           })}
         </ol>
+
+        <SponsorSlot level={s.level} className="mt-10" />
 
         <nav className="mt-10 grid sm:grid-cols-2 gap-3">
           {prev ? (
