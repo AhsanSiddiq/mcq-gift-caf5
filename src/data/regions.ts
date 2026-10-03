@@ -181,6 +181,29 @@ export const EXAM_BODIES: ExamBody[] = [
     seoKeywords: ["CPA MCQ practice free", "FAR practice questions", "AUD MCQ", "REG practice questions"],
   },
   {
+    id: "ima",
+    short: "US CMA",
+    name: "Institute of Management Accountants (IMA)",
+    qualification: "Certified Management Accountant (US CMA)",
+    flag: "🌍",
+    region: "Global",
+    status: "waitlist",
+    tagline: "MCQ practice for both parts of the US CMA exam — popular across India, the Gulf and Pakistan.",
+    levels: [
+      {
+        name: "Part 1 – Financial Planning, Performance and Analytics",
+        mcqNote: "Multiple-choice questions make up 75% of the exam.",
+        papers: ["External Financial Reporting", "Planning, Budgeting and Forecasting", "Performance Management", "Cost Management", "Internal Controls", "Technology and Analytics"],
+      },
+      {
+        name: "Part 2 – Strategic Financial Management",
+        mcqNote: "Multiple-choice questions make up 75% of the exam.",
+        papers: ["Financial Statement Analysis", "Corporate Finance", "Decision Analysis", "Risk Management", "Investment Decisions", "Professional Ethics"],
+      },
+    ],
+    seoKeywords: ["US CMA MCQ", "CMA Part 1 practice questions", "CMA Part 2 MCQ free", "US CMA mock test"],
+  },
+  {
     id: "icab",
     short: "ICAB",
     name: "Institute of Chartered Accountants of Bangladesh",

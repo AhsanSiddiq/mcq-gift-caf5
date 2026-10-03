@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { prcSubjects, cafSubjects, accaSubjects, accaSkillsSubjects, caFoundationSubjects, cimaSubjects, icaewSubjects, subjectCode, type Level, type Subject } from "@/data/subjects";
+import { prcSubjects, cafSubjects, accaSubjects, accaSkillsSubjects, caFoundationSubjects, caInterSubjects, cimaSubjects, icaewSubjects, cmaSubjects, subjectCode, type Level, type Subject } from "@/data/subjects";
 import { BookOpen, Lock } from "lucide-react";
 import { useEffect, useState } from "react";
 import AdSlot from "@/components/AdSlot";
@@ -20,6 +20,20 @@ const LEVEL_META: Record<string, { label: string; tag: string; color: string; bg
     color: "#a78bfa",
     bg: "rgba(167,139,250,0.08)",
     desc: "Original practice questions with worked answers — Applied Knowledge CBEs and the objective sections of Applied Skills.",
+  },
+  "CA-INTER": {
+    label: "CA Inter",
+    tag: "ICAI (India)",
+    color: "#fb923c",
+    bg: "rgba(251,146,60,0.08)",
+    desc: "MCQ sections of the CA Intermediate papers.",
+  },
+  CMA: {
+    label: "US CMA",
+    tag: "IMA (global)",
+    color: "#34d399",
+    bg: "rgba(52,211,153,0.08)",
+    desc: "Both parts of the US CMA — multiple-choice is 75% of each exam.",
   },
   CIMA: {
     label: "CIMA",
@@ -164,6 +178,8 @@ function Section({ level, subjects, counts, isLoadingCounts }: {
 const GLOBAL_SECTIONS: [Level, Subject[]][] = [
   ["ACCA", [...accaSubjects, ...accaSkillsSubjects]],
   ["CA-FOUNDATION", caFoundationSubjects],
+  ["CA-INTER", caInterSubjects],
+  ["CMA", cmaSubjects],
   ["CIMA", cimaSubjects],
   ["ICAEW", icaewSubjects],
 ];
