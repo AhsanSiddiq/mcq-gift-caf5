@@ -1,0 +1,1955 @@
+{
+  "subject_id": "acca-aa",
+  "questions": [
+    {
+      "id": "acca-aa-c01-q001",
+      "chapter": 1,
+      "topic": "Audit and other assurance engagements",
+      "question_text": "Which of the following is NOT one of the elements of an assurance engagement?",
+      "options": {
+        "A": "An audit committee that oversees the practitioner's work",
+        "B": "A written assurance report in an appropriate form",
+        "C": "Suitable criteria against which the subject matter is evaluated",
+        "D": "A three-party relationship between the practitioner, the responsible party and the intended users"
+      },
+      "correct": "A",
+      "explanation": "An assurance engagement has five elements: a three-party relationship, an appropriate subject matter, suitable criteria, sufficient appropriate evidence and a written assurance report. An audit committee is a corporate governance mechanism within the client; many assurance engagements are performed for entities that have no audit committee at all.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-aa-c01-q002",
+      "chapter": 1,
+      "topic": "Audit and other assurance engagements",
+      "question_text": "What level of assurance is provided by a statutory external audit of financial statements, and how is the conclusion expressed?",
+      "options": {
+        "A": "Limited assurance, expressed as a negative conclusion",
+        "B": "Reasonable assurance, expressed as a positive opinion",
+        "C": "Reasonable assurance, expressed as a negative conclusion",
+        "D": "Absolute assurance, expressed as a positive opinion"
+      },
+      "correct": "B",
+      "explanation": "An audit provides reasonable assurance, which is a high but not absolute level of assurance, and the auditor expresses a positive opinion on whether the financial statements give a true and fair view. Absolute assurance is never possible because of the inherent limitations of an audit. Negative (limited) assurance conclusions are used in review engagements.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-aa-c01-q003",
+      "chapter": 1,
+      "topic": "Audit and other assurance engagements",
+      "question_text": "An accountancy firm has completed a review engagement on a client's interim financial statements under ISRE 2400. Which of the following wordings is most appropriate for the conclusion in its report?",
+      "options": {
+        "A": "We certify that the financial statements are free from error and fraud",
+        "B": "In our opinion, the financial statements give a true and fair view in accordance with the applicable framework",
+        "C": "Based on our review, nothing has come to our attention that causes us to believe that the financial statements are not prepared, in all material respects, in accordance with the applicable framework",
+        "D": "In our opinion, the financial statements may contain material misstatements which we have not been able to identify"
+      },
+      "correct": "C",
+      "explanation": "A review engagement gives limited assurance, so the practitioner expresses a negative conclusion stating that nothing has come to their attention suggesting the information is materially misstated. A positive 'true and fair' opinion is reserved for reasonable assurance engagements such as an audit. Practitioners never certify that information is free from all error.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c01-q004",
+      "chapter": 1,
+      "topic": "Audit and other assurance engagements",
+      "question_text": "Which of the following is an inherent limitation of an audit that explains why only reasonable, rather than absolute, assurance can be given?",
+      "options": {
+        "A": "Auditors have no responsibility to consider fraud when planning the audit",
+        "B": "Directors are responsible for the financial statements, so auditors may not challenge their judgements",
+        "C": "Auditors are prohibited by ISAs from testing every transaction in a population",
+        "D": "Much of the audit evidence obtained is persuasive rather than conclusive"
+      },
+      "correct": "D",
+      "explanation": "ISA 200 explains that audit evidence is generally persuasive rather than conclusive, financial reporting involves judgement, and there are practical limits on time and cost. ISAs do not prohibit 100% testing; it is simply often impractical. Auditors must consider fraud under ISA 240 and must challenge management's judgements with professional scepticism.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c01-q005",
+      "chapter": 1,
+      "topic": "Audit and other assurance engagements",
+      "question_text": "Which of the following beliefs held by some users of financial statements contributes to the 'expectation gap'?",
+      "options": {
+        "A": "An unmodified audit opinion means that the company is financially sound and will not fail",
+        "B": "The auditor gives an opinion on whether the financial statements give a true and fair view",
+        "C": "The auditor usually tests a sample of transactions rather than every transaction",
+        "D": "The directors are responsible for preparing the financial statements"
+      },
+      "correct": "A",
+      "explanation": "The expectation gap is the difference between what users believe auditors do and what auditors actually do. An audit opinion is not a guarantee of the entity's future viability or financial health. The other three statements are accurate descriptions of the audit and so do not contribute to the gap.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-aa-c01-q006",
+      "chapter": 1,
+      "topic": "Audit and other assurance engagements",
+      "question_text": "In an audit of financial statements, who has primary responsibility for preparing the financial statements?",
+      "options": {
+        "A": "The shareholders in general meeting",
+        "B": "The external auditor",
+        "C": "The internal audit function",
+        "D": "Management, with oversight from those charged with governance"
+      },
+      "correct": "D",
+      "explanation": "Management, overseen by those charged with governance, is responsible for preparing financial statements in accordance with the applicable framework. The external auditor's responsibility is to express an opinion on them. Shareholders receive the financial statements and internal audit is part of the entity's monitoring of controls.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-aa-c01-q007",
+      "chapter": 1,
+      "topic": "Audit and other assurance engagements",
+      "question_text": "A bank has asked a practitioner to provide assurance on a cash flow forecast prepared by the directors of Ostrander Co, which the bank will use to decide whether to extend a loan. In this engagement, which party is the 'responsible party'?",
+      "options": {
+        "A": "The bank",
+        "B": "The directors of Ostrander Co",
+        "C": "The practitioner",
+        "D": "The shareholders of Ostrander Co"
+      },
+      "correct": "B",
+      "explanation": "The responsible party is the party responsible for the subject matter, which here is the directors who prepared the forecast. The bank is the intended user of the assurance report and the practitioner is the party providing assurance. Shareholders are not involved in this particular engagement.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-aa-c01-q008",
+      "chapter": 1,
+      "topic": "Audit and other assurance engagements",
+      "question_text": "Consider the following engagements:\n1. Statutory audit of annual financial statements\n2. Review of interim financial statements under ISRE 2400\n3. Agreed-upon procedures engagement on a list of payables\nWhich of these engagements provides limited assurance?",
+      "options": {
+        "A": "1 and 2",
+        "B": "2 and 3",
+        "C": "2 only",
+        "D": "3 only"
+      },
+      "correct": "C",
+      "explanation": "A statutory audit provides reasonable assurance. A review engagement provides limited assurance with a negative conclusion. An agreed-upon procedures engagement provides no assurance at all: the practitioner simply reports factual findings and the users draw their own conclusions.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-aa-c02-q001",
+      "chapter": 2,
+      "topic": "Statutory audit, regulation and corporate governance",
+      "question_text": "Which body issues International Standards on Auditing (ISAs)?",
+      "options": {
+        "A": "The International Accounting Standards Board (IASB)",
+        "B": "The International Auditing and Assurance Standards Board (IAASB)",
+        "C": "The International Organization of Securities Commissions (IOSCO)",
+        "D": "The International Ethics Standards Board for Accountants (IESBA)"
+      },
+      "correct": "B",
+      "explanation": "ISAs are developed and issued by the IAASB, which operates under the International Federation of Accountants. The IASB issues IFRS Accounting Standards, IESBA issues the international ethics code on which the ACCA Code is based, and IOSCO is a body of securities regulators.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-aa-c02-q002",
+      "chapter": 2,
+      "topic": "Statutory audit, regulation and corporate governance",
+      "question_text": "In most jurisdictions, who normally appoints the external auditor of a company on a recurring basis?",
+      "options": {
+        "A": "The shareholders, by resolution at a general meeting",
+        "B": "The national companies registrar",
+        "C": "The audit committee",
+        "D": "The board of directors"
+      },
+      "correct": "A",
+      "explanation": "The external auditor reports to the shareholders and is therefore normally appointed by them at a general meeting, often on the recommendation of the audit committee. Directors may appoint auditors only in limited circumstances, such as the first auditor or to fill a casual vacancy. Appointment by the shareholders supports the auditor's independence from management.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-aa-c02-q003",
+      "chapter": 2,
+      "topic": "Statutory audit, regulation and corporate governance",
+      "question_text": "In which of the following situations may the directors of a company usually appoint the auditor themselves?",
+      "options": {
+        "A": "When the existing auditor has issued a modified opinion",
+        "B": "When the shareholders disagree with the proposed audit fee",
+        "C": "At every annual general meeting, to save time",
+        "D": "To fill a casual vacancy that arises during the year"
+      },
+      "correct": "D",
+      "explanation": "Company law typically allows the directors to appoint the company's first auditor and to fill a casual vacancy, for example where an auditor resigns mid-year. Otherwise appointment is a matter for the shareholders. Allowing directors to replace an auditor because of a modified opinion would seriously undermine auditor independence.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-aa-c02-q004",
+      "chapter": 2,
+      "topic": "Statutory audit, regulation and corporate governance",
+      "question_text": "Which of the following is NOT a right normally given to an external auditor by company law?",
+      "options": {
+        "A": "The right to require from officers of the company the information and explanations needed for the audit",
+        "B": "The right of access at all times to the company's books, accounts and vouchers",
+        "C": "The right to require the directors to correct any misstatement identified in the financial statements",
+        "D": "The right to receive notice of, attend and speak at general meetings"
+      },
+      "correct": "C",
+      "explanation": "Auditors have statutory rights of access to records, to information and explanations, and to attend and be heard at general meetings. They cannot force the directors to amend the financial statements; if a material misstatement remains uncorrected the auditor's remedy is to modify the audit opinion.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c02-q005",
+      "chapter": 2,
+      "topic": "Statutory audit, regulation and corporate governance",
+      "question_text": "A firm has been invited to become auditor of Halberd Co. Halberd Co's directors refuse to give the firm permission to contact the outgoing auditor. What should the firm do?",
+      "options": {
+        "A": "Decline the appointment",
+        "B": "Accept the appointment and ask the shareholders to approve it by special resolution",
+        "C": "Accept the appointment but issue a modified opinion in the first year",
+        "D": "Contact the outgoing auditor anyway, since the information is needed for the audit"
+      },
+      "correct": "A",
+      "explanation": "Before accepting appointment, the proposed auditor should ask the client for permission to contact the outgoing auditor to establish whether there are professional reasons not to accept. If the client refuses permission, the proposed auditor should normally decline the appointment. Contacting the outgoing auditor without permission would breach confidentiality.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c02-q006",
+      "chapter": 2,
+      "topic": "Statutory audit, regulation and corporate governance",
+      "question_text": "What is the main purpose of a proposed auditor communicating with the outgoing auditor before accepting an audit appointment?",
+      "options": {
+        "A": "To obtain the outgoing auditor's working papers as a substitute for current year audit evidence",
+        "B": "To transfer responsibility for any errors in the prior year financial statements to the outgoing auditor",
+        "C": "To find out whether there are any professional reasons why the appointment should not be accepted",
+        "D": "To agree the level of audit fee that the client is willing to pay"
+      },
+      "correct": "C",
+      "explanation": "The communication, often called professional clearance, lets the proposed auditor learn of any matters such as disputes with management or suspected fraud that might affect the decision to accept. It does not replace the evidence needed for the current year audit, and fees are agreed with the client. Responsibility for the prior year opinion remains with the auditor who signed it.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c02-q007",
+      "chapter": 2,
+      "topic": "Statutory audit, regulation and corporate governance",
+      "question_text": "Under typical company law, which of the following statements about the removal of an auditor is correct?",
+      "options": {
+        "A": "The directors can remove the auditor at any time by a resolution of the board",
+        "B": "An auditor whose removal is proposed may make written representations to the shareholders and ask for them to be circulated",
+        "C": "An auditor can only be removed by a special resolution passed by at least 75% of votes cast",
+        "D": "An auditor who is removed loses all rights to attend the general meeting at which the removal is considered"
+      },
+      "correct": "B",
+      "explanation": "Auditors are normally removed by the shareholders by ordinary resolution, usually with special notice, rather than by the board. To protect independence, the auditor has the right to make written representations to shareholders and to speak at the meeting at which removal is proposed. These rights stop directors quietly replacing an auditor who disagrees with them.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c02-q008",
+      "chapter": 2,
+      "topic": "Statutory audit, regulation and corporate governance",
+      "question_text": "Which of the following is NOT normally a responsibility of an audit committee?",
+      "options": {
+        "A": "Making recommendations on the appointment of the external auditor",
+        "B": "Monitoring the integrity of the financial statements",
+        "C": "Reviewing the effectiveness of the internal audit function",
+        "D": "Preparing the annual financial statements"
+      },
+      "correct": "D",
+      "explanation": "Preparing the financial statements is the responsibility of management and the board as a whole. The audit committee oversees financial reporting, internal control, internal audit and the relationship with the external auditor. If it prepared the financial statements it could not provide independent oversight of them.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-aa-c02-q009",
+      "chapter": 2,
+      "topic": "Statutory audit, regulation and corporate governance",
+      "question_text": "Under good corporate governance practice, which of the following best describes the composition of an audit committee of a listed company?",
+      "options": {
+        "A": "Executive directors, chaired by the finance director",
+        "B": "A majority of executive directors and one non-executive director",
+        "C": "Independent non-executive directors, at least one of whom has recent and relevant financial experience",
+        "D": "The chief executive and the head of internal audit"
+      },
+      "correct": "C",
+      "explanation": "Governance codes recommend that audit committees consist of independent non-executive directors, with at least one member having recent and relevant financial experience. Executive directors such as the finance director are responsible for the figures being overseen, so their membership would undermine the committee's objectivity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c02-q010",
+      "chapter": 2,
+      "topic": "Statutory audit, regulation and corporate governance",
+      "question_text": "Why do corporate governance codes recommend that the roles of chair and chief executive should not be held by the same person?",
+      "options": {
+        "A": "Because the chair must also be the head of the audit committee",
+        "B": "Because the chief executive must be a qualified accountant",
+        "C": "To reduce the total remuneration paid to directors",
+        "D": "To avoid one individual having unfettered powers of decision"
+      },
+      "correct": "D",
+      "explanation": "Separating the running of the board (chair) from the running of the business (chief executive) provides a check and balance so that no single individual dominates decision-making. Governance codes do not require the chief executive to be an accountant, and the board chair should not chair the audit committee.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-aa-c03-q001",
+      "chapter": 3,
+      "topic": "Internal audit",
+      "question_text": "Which of the following correctly distinguishes internal audit from external audit?",
+      "options": {
+        "A": "Internal audit reports to management and those charged with governance, whereas external audit reports to the shareholders",
+        "B": "Internal audit expresses an opinion on the financial statements, whereas external audit reviews operations",
+        "C": "Internal audit is required by law for all companies, whereas external audit is voluntary",
+        "D": "Internal auditors must be independent of the entity, whereas external auditors may be employees"
+      },
+      "correct": "A",
+      "explanation": "Internal audit is a function within the organisation (or outsourced) that reports to management and the audit committee, and its scope is set by them. External auditors are independent of the entity, are often legally required, and report to shareholders on the financial statements.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-aa-c03-q002",
+      "chapter": 3,
+      "topic": "Internal audit",
+      "question_text": "Which of the following assignments would be appropriate for an internal audit function to perform?",
+      "options": {
+        "A": "Designing and implementing new controls over the payroll system",
+        "B": "A value for money review of the procurement department",
+        "C": "Authorising purchase orders above a set value",
+        "D": "Expressing an opinion to shareholders on the truth and fairness of the financial statements"
+      },
+      "correct": "B",
+      "explanation": "Value for money, operational and compliance reviews are typical internal audit work. Expressing an opinion to shareholders is the external auditor's role. Designing controls and authorising transactions are management responsibilities; if internal audit performed them it would later be reviewing its own work, impairing objectivity.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-aa-c03-q003",
+      "chapter": 3,
+      "topic": "Internal audit",
+      "question_text": "Which of the following arrangements would best support the independence of the internal audit function?",
+      "options": {
+        "A": "The head of internal audit reports functionally to the audit committee",
+        "B": "The head of internal audit reports to the finance director",
+        "C": "The finance director approves the internal audit plan and its budget",
+        "D": "Internal auditors are rotated into the accounts department for six months each year"
+      },
+      "correct": "A",
+      "explanation": "Reporting to the audit committee, made up of independent non-executives, protects internal audit from pressure from the managers whose areas it reviews. Reporting to or being budgeted by the finance director creates a conflict because internal audit regularly reviews the finance function. Rotating internal auditors into operational roles creates self-review threats.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c03-q004",
+      "chapter": 3,
+      "topic": "Internal audit",
+      "question_text": "Which of the following is an advantage of outsourcing the internal audit function?",
+      "options": {
+        "A": "Better understanding of the company's culture and systems by the internal auditors",
+        "B": "Lower risk of confidential information leaving the organisation",
+        "C": "Access to specialist skills that may not be available in-house",
+        "D": "Greater control by management over the day-to-day work of each internal auditor"
+      },
+      "correct": "C",
+      "explanation": "Outsourcing gives access to a wider pool of specialists, flexibility in resourcing and potentially greater objectivity. The other statements describe advantages of an in-house function: outsourced staff may know the business less well, confidentiality risks increase and management has less direct control.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-aa-c03-q005",
+      "chapter": 3,
+      "topic": "Internal audit",
+      "question_text": "Ferrule Co is a listed company. Its external audit firm has offered also to provide the company's outsourced internal audit service, including a review of controls over revenue. Which threat to the external auditor's objectivity is most significant?",
+      "options": {
+        "A": "Advocacy threat",
+        "B": "Self-review threat",
+        "C": "Familiarity threat",
+        "D": "Intimidation threat"
+      },
+      "correct": "B",
+      "explanation": "If the audit firm reviews or helps design controls over revenue as internal auditor, the external audit team may later place reliance on that same work, so it would be reviewing its own work. Self-interest from increased fees is also relevant, but the dominant threat is self-review. Ethical codes restrict such services for public interest entities.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c03-q006",
+      "chapter": 3,
+      "topic": "Internal audit",
+      "question_text": "In a value for money review, what does 'efficiency' mean?",
+      "options": {
+        "A": "Obtaining resources of the appropriate quality at the lowest cost",
+        "B": "The extent to which an activity achieves its intended objectives",
+        "C": "Complying with all relevant laws and regulations",
+        "D": "The relationship between the outputs produced and the resources used to produce them"
+      },
+      "correct": "D",
+      "explanation": "The three Es are economy (minimising the cost of inputs), efficiency (maximising output for a given input, or the ratio of outputs to inputs) and effectiveness (achieving objectives). Compliance with laws is the focus of a compliance review rather than a value for money concept.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-aa-c03-q007",
+      "chapter": 3,
+      "topic": "Internal audit",
+      "question_text": "Under ISA 610 Using the Work of Internal Auditors, which of the following is NOT one of the matters the external auditor evaluates in deciding whether the work of the internal audit function can be used?",
+      "options": {
+        "A": "The size of the internal audit budget relative to the entity's revenue",
+        "B": "The level of competence of the function",
+        "C": "The extent to which the function's organisational status and policies support its objectivity",
+        "D": "Whether the function applies a systematic and disciplined approach, including quality control"
+      },
+      "correct": "A",
+      "explanation": "ISA 610 requires the external auditor to evaluate the objectivity of the internal audit function, its competence, and whether it applies a systematic and disciplined approach. The size of its budget is not in itself a criterion: a small but objective and competent function may be usable, while a large one may not.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-aa-c03-q008",
+      "chapter": 3,
+      "topic": "Internal audit",
+      "question_text": "Where law permits internal auditors to provide direct assistance to the external auditor, which of the following tasks must the external auditor NOT assign to them under ISA 610?",
+      "options": {
+        "A": "Agreeing a sample of payroll records to employee contracts as directed",
+        "B": "Testing the operation of a control over purchase invoices under the external auditor's direction",
+        "C": "Performing a cash count with the procedures specified by the external auditor",
+        "D": "Assessing the risks of material misstatement for the audit"
+      },
+      "correct": "D",
+      "explanation": "ISA 610 prohibits using internal auditors for direct assistance on procedures that involve significant judgements, such as assessing risks of material misstatement, or that relate to higher assessed risks where judgement is more than limited. Routine, well-specified procedures under the external auditor's direction, supervision and review may be assigned. Some jurisdictions prohibit direct assistance altogether.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-aa-c04-q001",
+      "chapter": 4,
+      "topic": "Professional ethics and the ACCA Code of Ethics",
+      "question_text": "Which fundamental principle of the ACCA Code of Ethics requires a professional accountant to be straightforward and honest in all professional and business relationships?",
+      "options": {
+        "A": "Objectivity",
+        "B": "Integrity",
+        "C": "Professional competence and due care",
+        "D": "Professional behaviour"
+      },
+      "correct": "B",
+      "explanation": "Integrity means being straightforward and honest. Objectivity is about not allowing bias, conflict of interest or undue influence to override professional judgement. Professional behaviour involves complying with laws and avoiding conduct that discredits the profession, and competence and due care relate to maintaining knowledge and acting diligently.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-aa-c04-q002",
+      "chapter": 4,
+      "topic": "Professional ethics and the ACCA Code of Ethics",
+      "question_text": "An audit firm prepares the financial statements of Garnet Co, a private company, and also audits them. Which threat to independence is most clearly created?",
+      "options": {
+        "A": "Intimidation threat",
+        "B": "Advocacy threat",
+        "C": "Self-review threat",
+        "D": "Familiarity threat"
+      },
+      "correct": "C",
+      "explanation": "When the audit team evaluates financial statements prepared by its own firm, it is reviewing its own work and may not identify errors or may be reluctant to admit them. For a non-public interest entity this may be acceptable with safeguards, such as using separate staff for the accounting work; for a public interest entity it is generally prohibited.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-aa-c04-q003",
+      "chapter": 4,
+      "topic": "Professional ethics and the ACCA Code of Ethics",
+      "question_text": "The audit engagement partner of Pellucid Co discovers that her brother has just been appointed as Pellucid Co's finance director. Which threat to independence does this create?",
+      "options": {
+        "A": "Advocacy threat",
+        "B": "Self-interest threat",
+        "C": "Familiarity threat",
+        "D": "Self-review threat"
+      },
+      "correct": "C",
+      "explanation": "A close family member holding a position with significant influence over the financial statements creates a familiarity threat, because the partner may be too sympathetic to or trusting of his work. The threat is so significant that the partner should be removed from the engagement.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-aa-c04-q004",
+      "chapter": 4,
+      "topic": "Professional ethics and the ACCA Code of Ethics",
+      "question_text": "The managing director of an audit client tells the audit engagement partner that the firm will be replaced next year unless it accepts management's preferred accounting treatment for a large provision. Which threat does this represent?",
+      "options": {
+        "A": "Intimidation threat",
+        "B": "Self-interest threat",
+        "C": "Self-review threat",
+        "D": "Advocacy threat"
+      },
+      "correct": "A",
+      "explanation": "An intimidation threat arises when an accountant is deterred from acting objectively by actual or perceived pressures, including threats of dismissal. Appropriate responses include discussing the matter with the audit committee and, if necessary, considering whether the firm can continue in office.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-aa-c04-q005",
+      "chapter": 4,
+      "topic": "Professional ethics and the ACCA Code of Ethics",
+      "question_text": "An audit firm is asked to represent an audit client in a public dispute with a tax authority and to promote the client's position in the media. Which threat to independence is most significant?",
+      "options": {
+        "A": "Intimidation threat",
+        "B": "Self-review threat",
+        "C": "Familiarity threat",
+        "D": "Advocacy threat"
+      },
+      "correct": "D",
+      "explanation": "Promoting a client's position to the point that the firm's objectivity is compromised creates an advocacy threat. Acting as an advocate for a client in a contentious dispute is incompatible with being seen as an independent auditor of that client.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-aa-c04-q006",
+      "chapter": 4,
+      "topic": "Professional ethics and the ACCA Code of Ethics",
+      "question_text": "During the audit of Truss Co, the client offers each member of the audit team a holiday voucher worth a significant amount as a thank you for their hard work. What should the team do?",
+      "options": {
+        "A": "Accept the vouchers, but only after the auditor's report has been signed",
+        "B": "Decline the vouchers, because gifts may only be accepted if they are trivial and inconsequential",
+        "C": "Accept the vouchers, provided the audit partner approves them",
+        "D": "Accept the vouchers, provided they are disclosed in the audit file"
+      },
+      "correct": "B",
+      "explanation": "The ACCA Code states that gifts and hospitality from an audit client should not be accepted unless their value is trivial and inconsequential, because they create self-interest and familiarity threats. Disclosure, partner approval or timing do not reduce a significant threat to an acceptable level.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-aa-c04-q007",
+      "chapter": 4,
+      "topic": "Professional ethics and the ACCA Code of Ethics",
+      "question_text": "The directors of Bramble Co propose that the audit fee should be set at 0.5% of the company's profit before tax for the year being audited. How should the audit firm respond?",
+      "options": {
+        "A": "Accept the arrangement, provided the fee is disclosed in the financial statements",
+        "B": "Accept the arrangement, since it links the fee to the size of the client",
+        "C": "Accept the arrangement, provided the audit committee approves it",
+        "D": "Refuse the arrangement, because contingent fees for audit engagements are not permitted"
+      },
+      "correct": "D",
+      "explanation": "A fee that depends on the reported result is a contingent fee. It creates a self-interest threat so significant that no safeguard can reduce it to an acceptable level, so contingent fees are prohibited for audit engagements. The fee should be based on the skill, time and responsibility involved.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c04-q008",
+      "chapter": 4,
+      "topic": "Professional ethics and the ACCA Code of Ethics",
+      "question_text": "An audit firm has total annual fee income of $8.0 million. It receives total fees of $1.4 million from Corvid Co, a listed audit client. What percentage of the firm's total fee income comes from Corvid Co, and which threat does this primarily create?",
+      "options": {
+        "A": "17.5%, self-interest threat",
+        "B": "17.5%, advocacy threat",
+        "C": "17.5%, self-review threat",
+        "D": "21.2%, self-interest threat"
+      },
+      "correct": "A",
+      "explanation": "Fee percentage = $1.4m / $8.0m x 100 = 17.5% (to one decimal place). The figure of 21.2% wrongly divides by the firm's other income ($1.4m / $6.6m). Heavy fee dependence creates a self-interest threat because the firm may fear losing the client. For a public interest entity, the ACCA Code uses 15% of total fees as the threshold above which disclosure to those charged with governance and review safeguards are required.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-aa-c04-q009",
+      "chapter": 4,
+      "topic": "Professional ethics and the ACCA Code of Ethics",
+      "question_text": "An audit junior on the audit of Lintel Co inherits shares in Lintel Co. What action is required under the ACCA Code?",
+      "options": {
+        "A": "The junior may keep the shares provided the holding is not material to the junior's wealth",
+        "B": "The junior should dispose of the shares as soon as practicable or be removed from the audit team",
+        "C": "The junior may keep the shares provided this is disclosed in the auditor's report",
+        "D": "The firm must resign as auditor of Lintel Co"
+      },
+      "correct": "B",
+      "explanation": "Members of the audit team must not hold a direct financial interest in an audit client, however immaterial. Where an interest is inherited, it should be disposed of as soon as practicable; until then, or if it is not disposed of, the individual should be removed from the engagement. Resignation by the whole firm is not required.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c04-q010",
+      "chapter": 4,
+      "topic": "Professional ethics and the ACCA Code of Ethics",
+      "question_text": "In which of the following situations is an auditor required to disclose confidential client information without the client's consent?",
+      "options": {
+        "A": "When a potential acquirer of the client asks for the audit working papers",
+        "B": "When a competitor of the client, which is also an audit client, requests pricing information",
+        "C": "When the auditor knows or suspects money laundering and the law requires a report to the relevant authority",
+        "D": "When the client's bank informally asks whether the client is likely to breach its loan covenants"
+      },
+      "correct": "C",
+      "explanation": "Confidential information may be disclosed without consent only where required or permitted by law or where there is a professional duty to do so. Anti-money laundering legislation commonly requires reporting of knowledge or suspicion. Disclosure to acquirers, competitors or banks requires the client's consent.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c04-q011",
+      "chapter": 4,
+      "topic": "Professional ethics and the ACCA Code of Ethics",
+      "question_text": "Under the ACCA Code, for an audit client that is a public interest entity, for how many years may an individual act as the engagement partner before rotating off, and what is the cooling-off period?",
+      "options": {
+        "A": "Ten years; cooling-off period of three years",
+        "B": "Seven years; cooling-off period of two years",
+        "C": "Seven years; cooling-off period of five years",
+        "D": "Five years; cooling-off period of two years"
+      },
+      "correct": "C",
+      "explanation": "For public interest entities the ACCA Code limits key audit partners to a time-on period of seven cumulative years to address familiarity and self-interest threats. The engagement partner must then serve a cooling-off period of five consecutive years. Shorter cooling-off periods apply to other key audit partners, which is why two years is a common mistake.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-aa-c05-q001",
+      "chapter": 5,
+      "topic": "Engagement acceptance and audit planning",
+      "question_text": "Which of the following would NOT normally be included in an audit engagement letter under ISA 210?",
+      "options": {
+        "A": "The expected form and content of any reports to be issued",
+        "B": "The objective and scope of the audit",
+        "C": "The responsibilities of management, including for internal control",
+        "D": "The level of materiality that the auditor will apply"
+      },
+      "correct": "D",
+      "explanation": "ISA 210 requires the engagement letter to cover the objective and scope of the audit, the responsibilities of auditor and management, the financial reporting framework and the expected form of reports. Materiality is a matter of the auditor's professional judgement determined during planning and is not agreed with the client.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-aa-c05-q002",
+      "chapter": 5,
+      "topic": "Engagement acceptance and audit planning",
+      "question_text": "Under ISA 210, which of the following is a precondition for an audit?",
+      "options": {
+        "A": "Management acknowledges its responsibility for preparing the financial statements, for internal control and for giving the auditor access to information",
+        "B": "The entity has an internal audit function",
+        "C": "The audit fee has been approved in advance by the shareholders",
+        "D": "The entity has a positive cash balance at the year end"
+      },
+      "correct": "A",
+      "explanation": "The preconditions for an audit are that the financial reporting framework is acceptable and that management agrees to its responsibilities, including providing the auditor with access to all relevant information and to people. Liquidity, the existence of internal audit and fee approval are not preconditions.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c05-q003",
+      "chapter": 5,
+      "topic": "Engagement acceptance and audit planning",
+      "question_text": "For a recurring audit, which of the following would most likely cause the auditor to issue a revised engagement letter?",
+      "options": {
+        "A": "A small increase in the audit fee in line with inflation",
+        "B": "A significant change in the ownership of the entity",
+        "C": "A change in the audit junior assigned to the engagement",
+        "D": "The opening of a new bank account by the entity"
+      },
+      "correct": "B",
+      "explanation": "ISA 210 lists factors that may make it appropriate to revise the terms of engagement, including a significant change in ownership or senior management, changes in the nature or size of the business, changes in legal requirements or the framework, and indications that the client misunderstands the audit. Routine staffing changes and minor operational events do not require a new letter.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c05-q004",
+      "chapter": 5,
+      "topic": "Engagement acceptance and audit planning",
+      "question_text": "Which document sets out the nature, timing and extent of the planned risk assessment procedures and further audit procedures at assertion level?",
+      "options": {
+        "A": "The audit plan",
+        "B": "The overall audit strategy",
+        "C": "The management letter",
+        "D": "The engagement letter"
+      },
+      "correct": "A",
+      "explanation": "Under ISA 300, the overall audit strategy sets the scope, timing and direction of the audit, and the audit plan is the more detailed document setting out the procedures to be performed. The engagement letter agrees the terms of the audit and a management letter reports deficiencies after the work is done.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-aa-c05-q005",
+      "chapter": 5,
+      "topic": "Engagement acceptance and audit planning",
+      "question_text": "Consider the following procedures:\n1. Enquiries of management and others within the entity\n2. Analytical procedures\n3. Observation and inspection\n4. External confirmation\nWhich of these does ISA 315 specify as risk assessment procedures?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "1, 2 and 3",
+        "C": "1, 3 and 4",
+        "D": "2, 3 and 4"
+      },
+      "correct": "B",
+      "explanation": "ISA 315 states that risk assessment procedures include enquiries of management and others, analytical procedures, and observation and inspection. External confirmation is a further audit procedure used to respond to assessed risks, for example confirming receivables or bank balances, rather than a risk assessment procedure.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c05-q006",
+      "chapter": 5,
+      "topic": "Engagement acceptance and audit planning",
+      "question_text": "What is the main purpose of the engagement team discussion required by ISA 315 and ISA 240?",
+      "options": {
+        "A": "To agree the audit fee and staffing budget with the client's finance director",
+        "B": "To decide the wording of the auditor's report before fieldwork begins",
+        "C": "To allocate responsibility for preparing the financial statements",
+        "D": "To consider how and where the financial statements may be susceptible to material misstatement, including due to fraud"
+      },
+      "correct": "D",
+      "explanation": "The discussion among key team members, led by the engagement partner, shares knowledge and experience about the entity and considers how the financial statements could be misstated through error or fraud. It also helps team members understand the effect of their own work on other areas of the audit.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c05-q007",
+      "chapter": 5,
+      "topic": "Engagement acceptance and audit planning",
+      "question_text": "Which of the following procedures would normally be performed at the final audit visit rather than at the interim audit?",
+      "options": {
+        "A": "Updating the documentation of the entity's accounting systems",
+        "B": "Testing controls over purchases for the first eight months of the year",
+        "C": "Reviewing events occurring after the reporting period up to the date of the auditor's report",
+        "D": "Performing walk-through tests on the sales system"
+      },
+      "correct": "C",
+      "explanation": "The interim audit normally focuses on understanding the entity, documenting systems and testing controls during the year. The final audit concentrates on year-end balances, the financial statements and matters such as subsequent events, which by definition can only be reviewed after the period end.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-aa-c05-q008",
+      "chapter": 5,
+      "topic": "Engagement acceptance and audit planning",
+      "question_text": "At the interim audit of Quoin Co, the auditor tested controls over payroll for the first nine months of the year and found them operating effectively. The auditor plans to rely on these controls for the whole year. What does ISA 330 require for the remaining three months?",
+      "options": {
+        "A": "No further work is needed because nine months is a sufficient proportion of the year",
+        "B": "Repeat the full tests of controls for the entire year using a new sample",
+        "C": "Obtain evidence about significant changes to the controls after the interim period and determine what additional evidence is needed for that period",
+        "D": "Obtain a written representation from management that the controls did not change"
+      },
+      "correct": "C",
+      "explanation": "When evidence about the operating effectiveness of controls is obtained during an interim period, ISA 330 requires the auditor to obtain evidence about significant changes to those controls in the remaining period and to determine the additional audit evidence to be obtained. Written representations cannot replace that evidence, and re-testing the whole year is not automatically required.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-aa-c05-q009",
+      "chapter": 5,
+      "topic": "Engagement acceptance and audit planning",
+      "question_text": "Which of the following is a benefit of adequate audit planning?",
+      "options": {
+        "A": "It helps the auditor devote appropriate attention to important areas of the audit",
+        "B": "It guarantees that all fraud will be detected",
+        "C": "It allows the auditor to issue the auditor's report before the year end",
+        "D": "It removes the need to obtain audit evidence at the final audit"
+      },
+      "correct": "A",
+      "explanation": "ISA 300 explains that planning helps the auditor focus on important areas, identify potential problems on a timely basis, organise and staff the engagement, and direct and supervise the team. Planning cannot guarantee fraud detection or replace the evidence-gathering stage.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-aa-c06-q001",
+      "chapter": 6,
+      "topic": "Audit risk, materiality and analytical procedures",
+      "question_text": "How does ISA 200 define audit risk?",
+      "options": {
+        "A": "The risk that the entity's internal controls contain significant deficiencies",
+        "B": "The risk that the auditor expresses an inappropriate audit opinion when the financial statements are materially misstated",
+        "C": "The risk that the entity will fail to achieve its business objectives",
+        "D": "The risk that the auditor will be sued by a user of the financial statements"
+      },
+      "correct": "B",
+      "explanation": "Audit risk is a function of the risks of material misstatement (inherent and control risk) and detection risk. Business risk relates to the entity's objectives, litigation risk is a separate engagement risk, and control deficiencies are one possible source of control risk.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-aa-c06-q002",
+      "chapter": 6,
+      "topic": "Audit risk, materiality and analytical procedures",
+      "question_text": "Which component of audit risk can the auditor directly control through the nature, timing and extent of audit procedures?",
+      "options": {
+        "A": "Control risk",
+        "B": "Inherent risk",
+        "C": "Business risk",
+        "D": "Detection risk"
+      },
+      "correct": "D",
+      "explanation": "Inherent risk and control risk exist independently of the audit and are assessed by the auditor. Detection risk, the risk that the auditor's procedures fail to detect a material misstatement, is managed by changing the procedures performed, for example by increasing sample sizes or performing work closer to the year end.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-aa-c06-q003",
+      "chapter": 6,
+      "topic": "Audit risk, materiality and analytical procedures",
+      "question_text": "The auditor of Sorrel Co assesses inherent risk and control risk for inventory as high. How should the auditor respond?",
+      "options": {
+        "A": "Reduce detection risk by performing more extensive substantive procedures, such as larger sample sizes",
+        "B": "Accept a higher level of detection risk and perform fewer substantive procedures",
+        "C": "Rely more heavily on tests of controls over inventory",
+        "D": "Set a higher performance materiality for inventory"
+      },
+      "correct": "A",
+      "explanation": "To keep overall audit risk at an acceptably low level, a high risk of material misstatement must be matched by low detection risk. This means more persuasive substantive evidence, larger samples and procedures closer to the year end. Relying on controls is inappropriate when control risk is high, and performance materiality would normally be lowered rather than raised.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c06-q004",
+      "chapter": 6,
+      "topic": "Audit risk, materiality and analytical procedures",
+      "question_text": "Using the audit risk model AR = IR x CR x DR, the auditor wants to restrict audit risk to 5%. Inherent risk is assessed at 80% and control risk at 50%. What is the maximum acceptable detection risk?",
+      "options": {
+        "A": "2%",
+        "B": "6.25%",
+        "C": "12.5%",
+        "D": "40%"
+      },
+      "correct": "C",
+      "explanation": "Detection risk = AR / (IR x CR) = 0.05 / (0.80 x 0.50) = 0.05 / 0.40 = 0.125, i.e. 12.5%. Multiplying all three figures gives 2%, which confuses the formula. Using 6.25% ignores control risk (0.05 / 0.80), and 40% is simply IR x CR.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-aa-c06-q005",
+      "chapter": 6,
+      "topic": "Audit risk, materiality and analytical procedures",
+      "question_text": "Cantle Co has profit before tax of $3.6 million. Using a benchmark of 5% to 10% of profit before tax, what range would the auditor consider for overall materiality?",
+      "options": {
+        "A": "$18,000 to $36,000",
+        "B": "$36,000 to $72,000",
+        "C": "$180,000 to $360,000",
+        "D": "$360,000 to $720,000"
+      },
+      "correct": "C",
+      "explanation": "5% x $3.6m = $180,000 and 10% x $3.6m = $360,000. The range $18,000 to $36,000 applies 0.5% to 1%, $36,000 to $72,000 applies 1% to 2%, and $360,000 to $720,000 applies 10% to 20%. The auditor uses professional judgement to select a figure within the range based on risk.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c06-q006",
+      "chapter": 6,
+      "topic": "Audit risk, materiality and analytical procedures",
+      "question_text": "Why does ISA 320 require the auditor to set performance materiality at an amount lower than overall materiality?",
+      "options": {
+        "A": "To determine the audit fee for each area of the financial statements",
+        "B": "To reduce to an appropriately low level the probability that the aggregate of uncorrected and undetected misstatements exceeds overall materiality",
+        "C": "To set the level at which the auditor's report must be modified",
+        "D": "To identify misstatements that are clearly trivial and need not be accumulated"
+      },
+      "correct": "B",
+      "explanation": "Testing to overall materiality would leave no margin for undetected misstatements or for individually immaterial misstatements that add up. Performance materiality creates that margin. The clearly trivial threshold is a separate, much lower amount, and modification decisions are made against overall materiality.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c06-q007",
+      "chapter": 6,
+      "topic": "Audit risk, materiality and analytical procedures",
+      "question_text": "Overall materiality for the audit of Mullion Co has been set at $420,000. The audit manager sets performance materiality at 70% of overall materiality. What is performance materiality?",
+      "options": {
+        "A": "$126,000",
+        "B": "$294,000",
+        "C": "$420,000",
+        "D": "$600,000"
+      },
+      "correct": "B",
+      "explanation": "Performance materiality = 70% x $420,000 = $294,000. $126,000 is 30% of materiality, $420,000 ignores performance materiality entirely, and $600,000 incorrectly divides $420,000 by 0.70.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c06-q008",
+      "chapter": 6,
+      "topic": "Audit risk, materiality and analytical procedures",
+      "question_text": "Under ISA 315 (Revised 2019), which of the following is NOT an inherent risk factor?",
+      "options": {
+        "A": "Subjectivity",
+        "B": "Complexity",
+        "C": "Susceptibility to misstatement due to management bias or fraud",
+        "D": "The effectiveness of the entity's monitoring of controls"
+      },
+      "correct": "D",
+      "explanation": "ISA 315 identifies inherent risk factors including complexity, subjectivity, change, uncertainty and susceptibility to misstatement due to management bias or other fraud risk factors. The monitoring of controls is a component of internal control and therefore relates to control risk, which is assessed separately from inherent risk.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c06-q009",
+      "chapter": 6,
+      "topic": "Audit risk, materiality and analytical procedures",
+      "question_text": "Which of the following factors would most likely lead the auditor to set performance materiality at a LOWER percentage of overall materiality?",
+      "options": {
+        "A": "Profit before tax has increased compared with the prior year",
+        "B": "The entity has a strong control environment and no history of misstatements",
+        "C": "The finance team is experienced and stable",
+        "D": "Significant misstatements were identified in the prior year audit"
+      },
+      "correct": "D",
+      "explanation": "Performance materiality reflects the auditor's expectation of misstatements. A history of significant misstatements indicates a higher risk that misstatements will occur again, so the auditor sets performance materiality lower to leave more margin. Strong controls and an experienced team point to a higher percentage, and a rise in profit affects overall materiality rather than the percentage.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-aa-c06-q010",
+      "chapter": 6,
+      "topic": "Audit risk, materiality and analytical procedures",
+      "question_text": "Draft financial statements of Rivet Co show credit revenue of $10,950,000. Trade receivables were $1,200,000 at the start of the year and $1,500,000 at the year end. Based on year-end receivables and a 365-day year, what is the trade receivables collection period?",
+      "options": {
+        "A": "7.3 days",
+        "B": "40 days",
+        "C": "45 days",
+        "D": "50 days"
+      },
+      "correct": "D",
+      "explanation": "Collection period = closing receivables / credit revenue x 365 = $1,500,000 / $10,950,000 x 365 = 50 days. Using opening receivables gives 40 days and average receivables ($1,350,000) gives 45 days. The figure 7.3 is receivables turnover (10,950 / 1,500), expressed in times, not days.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c06-q011",
+      "chapter": 6,
+      "topic": "Audit risk, materiality and analytical procedures",
+      "question_text": "Wimble Co's revenue for the year is $8.0 million. Its gross margin has been stable at 35% for several years and no changes in pricing or costs are known. The draft cost of sales is $5.5 million. Which of the following is the most appropriate conclusion from this analytical procedure?",
+      "options": {
+        "A": "Cost of sales is $300,000 higher than expected, which could indicate that closing inventory is understated",
+        "B": "Cost of sales is $300,000 higher than expected, which could indicate that closing inventory is overstated",
+        "C": "Cost of sales is $2.7 million higher than expected, which could indicate unrecorded revenue",
+        "D": "Cost of sales is $300,000 lower than expected, which could indicate that purchases are understated"
+      },
+      "correct": "A",
+      "explanation": "Expected cost of sales = $8.0m x (100% - 35%) = $5.2m. Actual is $5.5m, so it is $0.3m higher than expected (giving a gross margin of 31.25%). Closing inventory is deducted in arriving at cost of sales, so an understatement of closing inventory would inflate cost of sales; overstated inventory would have the opposite effect.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-aa-c07-q001",
+      "chapter": 7,
+      "topic": "Fraud, laws and regulations and audit documentation",
+      "question_text": "Under ISA 240, who has primary responsibility for the prevention and detection of fraud?",
+      "options": {
+        "A": "Management and those charged with governance",
+        "B": "The internal audit function",
+        "C": "The shareholders",
+        "D": "The external auditor"
+      },
+      "correct": "A",
+      "explanation": "ISA 240 states that primary responsibility for preventing and detecting fraud rests with those charged with governance and management, mainly through internal controls. The external auditor is responsible for obtaining reasonable assurance that the financial statements as a whole are free from material misstatement, whether due to fraud or error.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-aa-c07-q002",
+      "chapter": 7,
+      "topic": "Fraud, laws and regulations and audit documentation",
+      "question_text": "Which of the following does ISA 240 require the auditor to presume is a risk of material misstatement due to fraud, unless rebutted?",
+      "options": {
+        "A": "Fraud risks in share capital",
+        "B": "Fraud risks in revenue recognition",
+        "C": "Fraud risks in the depreciation charge",
+        "D": "Fraud risks in payroll"
+      },
+      "correct": "B",
+      "explanation": "ISA 240 contains a rebuttable presumption that there are risks of fraud in revenue recognition, and the auditor must document reasons if it is rebutted. The risk of management override of controls is also always treated as a significant risk and cannot be rebutted.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c07-q003",
+      "chapter": 7,
+      "topic": "Fraud, laws and regulations and audit documentation",
+      "question_text": "A cashier at Gusset Co steals cash received from one customer and covers the shortfall by allocating a later receipt from another customer to the first customer's account. How is this fraud best described?",
+      "options": {
+        "A": "Misappropriation of assets, known as a ghost employee fraud",
+        "B": "Fraudulent financial reporting, known as window dressing",
+        "C": "Misappropriation of assets, known as teeming and lading",
+        "D": "Fraudulent financial reporting, known as cut-off manipulation"
+      },
+      "correct": "C",
+      "explanation": "Teeming and lading is a form of asset misappropriation in which receipts are stolen and the theft is concealed by misallocating later receipts. It is not fraudulent financial reporting because the aim is theft of assets rather than deliberate misstatement of reported results. Ghost employees relate to payroll fraud.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-aa-c07-q004",
+      "chapter": 7,
+      "topic": "Fraud, laws and regulations and audit documentation",
+      "question_text": "Which of the following procedures does ISA 240 require the auditor to perform in response to the risk of management override of controls?",
+      "options": {
+        "A": "Sending positive confirmations to all customers",
+        "B": "Testing the appropriateness of journal entries recorded in the general ledger",
+        "C": "Attending the year-end inventory count",
+        "D": "Re-performing the bank reconciliation for every month of the year"
+      },
+      "correct": "B",
+      "explanation": "Because management override can occur in unpredictable ways, ISA 240 requires the auditor to test journal entries and other adjustments, review accounting estimates for bias, and evaluate the business rationale of significant unusual transactions. The other procedures may be relevant to specific areas but are not the required responses to override.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c07-q005",
+      "chapter": 7,
+      "topic": "Fraud, laws and regulations and audit documentation",
+      "question_text": "Under ISA 250, for which category of laws and regulations must the auditor obtain sufficient appropriate audit evidence regarding compliance?",
+      "options": {
+        "A": "Only operating licences and environmental regulations",
+        "B": "Only laws that carry criminal penalties for directors",
+        "C": "All laws and regulations to which the entity is subject",
+        "D": "Those generally recognised to have a direct effect on the determination of material amounts and disclosures, such as tax laws"
+      },
+      "correct": "D",
+      "explanation": "ISA 250 distinguishes laws with a direct effect on the financial statements, such as tax and pension laws, for which the auditor obtains sufficient appropriate evidence of compliance, from other laws that are fundamental to operations, for which the auditor performs specified procedures such as enquiry and inspection of correspondence. The auditor cannot be expected to test compliance with every law.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c07-q006",
+      "chapter": 7,
+      "topic": "Fraud, laws and regulations and audit documentation",
+      "question_text": "Which of the following is a purpose of audit documentation under ISA 230?",
+      "options": {
+        "A": "To provide a copy of the financial statements to shareholders",
+        "B": "To allow the client's management to review the auditor's judgements before the report is signed",
+        "C": "To provide evidence of the auditor's basis for a conclusion about the achievement of the auditor's overall objectives",
+        "D": "To replace the need for the client to keep its own accounting records"
+      },
+      "correct": "C",
+      "explanation": "Audit documentation provides evidence that the audit was planned and performed in accordance with ISAs and supports the conclusions reached. It also assists supervision, review and quality inspections. It belongs to the audit firm and is not a substitute for the client's records.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-aa-c07-q007",
+      "chapter": 7,
+      "topic": "Fraud, laws and regulations and audit documentation",
+      "question_text": "Under ISA 230 and related quality management standards, what is the usual time limit for assembling the final audit file after the date of the auditor's report?",
+      "options": {
+        "A": "12 months",
+        "B": "30 days",
+        "C": "60 days",
+        "D": "90 days"
+      },
+      "correct": "C",
+      "explanation": "Assembly of the final audit file is an administrative process that should normally be completed within 60 days of the date of the auditor's report. No new audit procedures should be performed during assembly, and documentation is then retained for a period that is commonly at least five years.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-aa-c07-q008",
+      "chapter": 7,
+      "topic": "Fraud, laws and regulations and audit documentation",
+      "question_text": "After the final audit file has been assembled, the auditor finds that it is necessary to add documentation relating to a matter already concluded. Which of the following is correct under ISA 230?",
+      "options": {
+        "A": "The auditor may add the documentation but must record when and by whom it was added and the specific reasons, and must not delete any existing documentation",
+        "B": "The auditor may replace the original working papers with updated versions, provided the engagement partner approves",
+        "C": "The auditor may add documentation only if the client's audit committee agrees",
+        "D": "No further documentation may ever be added once the file has been assembled"
+      },
+      "correct": "A",
+      "explanation": "After assembly, the auditor must not delete or discard documentation before the end of the retention period. If modifications or additions are necessary, ISA 230 requires the auditor to document the specific reasons, and when and by whom they were made and reviewed. This preserves the integrity of the record of work actually performed.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-aa-c08-q001",
+      "chapter": 8,
+      "topic": "Internal control systems",
+      "question_text": "Which of the following is NOT one of the components of an entity's system of internal control under ISA 315?",
+      "options": {
+        "A": "The control environment",
+        "B": "The external auditor's tests of controls",
+        "C": "The entity's risk assessment process",
+        "D": "Control activities"
+      },
+      "correct": "B",
+      "explanation": "The components are the control environment, the entity's risk assessment process, the entity's process to monitor the system of internal control, the information system and communication, and control activities. The external auditor's testing is part of the audit, not part of the entity's internal control.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-aa-c08-q002",
+      "chapter": 8,
+      "topic": "Internal control systems",
+      "question_text": "Which of the following is an element of the control environment?",
+      "options": {
+        "A": "Management's commitment to integrity and ethical values",
+        "B": "Sequential numbering of sales invoices",
+        "C": "Password controls over the payroll system",
+        "D": "Monthly bank reconciliations"
+      },
+      "correct": "A",
+      "explanation": "The control environment reflects the attitudes, awareness and actions of management and those charged with governance, often described as the 'tone at the top'. Bank reconciliations, sequential numbering and passwords are control activities.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-aa-c08-q003",
+      "chapter": 8,
+      "topic": "Internal control systems",
+      "question_text": "At Sprocket Co, a single purchasing clerk raises purchase orders, records supplier invoices in the payables ledger and prepares supplier payments for signature. What is the main risk created by this arrangement?",
+      "options": {
+        "A": "Non-current assets could be depreciated at incorrect rates",
+        "B": "Goods could be dispatched to customers without a valid order",
+        "C": "Payroll could include employees who have left the company",
+        "D": "Fictitious suppliers could be set up and paid without detection because of a lack of segregation of duties"
+      },
+      "correct": "D",
+      "explanation": "When one person controls ordering, recording and payment, they could create a fictitious supplier, record false invoices and arrange payment without another person being involved. Segregation of these duties means that collusion would be needed. The other risks relate to sales, payroll and non-current assets, not the purchases cycle.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c08-q004",
+      "chapter": 8,
+      "topic": "Internal control systems",
+      "question_text": "Which control would best address the objective that goods are only supplied to customers with acceptable credit ratings?",
+      "options": {
+        "A": "Monthly reconciliation of the receivables ledger to the control account",
+        "B": "Credit checks on new customers and review of credit limits before orders are accepted",
+        "C": "Sequential numbering of goods dispatched notes",
+        "D": "Matching of sales invoices to goods dispatched notes"
+      },
+      "correct": "B",
+      "explanation": "Credit checks and credit limits stop orders being accepted from customers who may not pay, reducing irrecoverable debts. Sequential numbering and matching of dispatch notes address completeness and accuracy of invoicing, and ledger reconciliations address accurate recording rather than credit risk.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-aa-c08-q005",
+      "chapter": 8,
+      "topic": "Internal control systems",
+      "question_text": "Which control most directly helps to ensure that all goods dispatched to customers are invoiced?",
+      "options": {
+        "A": "Sequentially numbered goods dispatched notes are matched to sales invoices and gaps in the sequence are investigated",
+        "B": "Customer statements are sent out monthly",
+        "C": "Price lists are updated and approved by the sales director",
+        "D": "Sales invoices are authorised by the sales manager before they are sent"
+      },
+      "correct": "A",
+      "explanation": "Matching sequentially numbered dispatch notes to invoices, with follow-up of any missing numbers, identifies goods that have left the premises without being billed, addressing completeness of revenue. Authorisation and price lists address accuracy and validity, and customer statements mainly detect overcharging or misallocated cash.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c08-q006",
+      "chapter": 8,
+      "topic": "Internal control systems",
+      "question_text": "What is the main purpose of matching a supplier invoice to the related purchase order and goods received note before payment?",
+      "options": {
+        "A": "To ensure that all sales are recorded in the correct period",
+        "B": "To ensure that inventory is valued at the lower of cost and net realisable value",
+        "C": "To ensure that the company only pays for goods that were authorised and actually received",
+        "D": "To ensure that the supplier is paid as early as possible"
+      },
+      "correct": "C",
+      "explanation": "The three-way match confirms that the goods were properly ordered, that they were received in the correct quantity and condition, and that the invoice reflects those goods at the agreed price. It prevents payment for goods not ordered or not received.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-aa-c08-q007",
+      "chapter": 8,
+      "topic": "Internal control systems",
+      "question_text": "Which control would best prevent fictitious employees from being added to the payroll?",
+      "options": {
+        "A": "Net pay is transferred directly to employees' bank accounts",
+        "B": "The payroll total is compared with the prior month",
+        "C": "Payroll is processed using a recognised software package",
+        "D": "New joiners are authorised by the human resources department, which is independent of the payroll processing function"
+      },
+      "correct": "D",
+      "explanation": "Requiring independent authorisation of new joiners separates the authority to add employees from the ability to process and pay them. Bank transfers do not stop payments to fictitious bank accounts, and month-on-month comparison would be unlikely to detect one extra salary among many.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c08-q008",
+      "chapter": 8,
+      "topic": "Internal control systems",
+      "question_text": "Which of the following controls would be most effective in reducing the risk of theft of high-value inventory from a warehouse?",
+      "options": {
+        "A": "Valuing inventory using the first-in, first-out method",
+        "B": "Recording inventory purchases in the general ledger daily",
+        "C": "Restricting physical access to the warehouse and reconciling perpetual inventory records to regular counts",
+        "D": "Reviewing the gross margin for each product line annually"
+      },
+      "correct": "C",
+      "explanation": "Restricting access prevents theft, and regular reconciliations of physical counts to records detect losses promptly so they can be investigated. The valuation method and ledger posting do not safeguard the goods, and an annual margin review is too high-level and too late to be an effective control.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c08-q009",
+      "chapter": 8,
+      "topic": "Internal control systems",
+      "question_text": "Which of the following bank reconciliation procedures represents the strongest control?",
+      "options": {
+        "A": "The reconciliation is prepared monthly by someone independent of cash recording and reviewed and signed by a senior manager",
+        "B": "The reconciliation is prepared monthly by the cashier who also records receipts and payments",
+        "C": "The reconciliation is prepared annually by the cashier at the year end",
+        "D": "The bank statement is filed monthly without a reconciliation, as the bank's records are reliable"
+      },
+      "correct": "A",
+      "explanation": "Monthly reconciliation by an independent person, with evidenced review, detects errors and irregularities promptly and prevents the person recording cash from concealing misappropriation. An annual reconciliation is too infrequent, and allowing the cashier to reconcile their own work removes segregation of duties.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c08-q010",
+      "chapter": 8,
+      "topic": "Internal control systems",
+      "question_text": "Under ISA 265, how must the auditor communicate significant deficiencies in internal control identified during the audit?",
+      "options": {
+        "A": "In writing to the shareholders at the annual general meeting",
+        "B": "In the Basis for Opinion section of the auditor's report",
+        "C": "Orally to the finance director only",
+        "D": "In writing to those charged with governance on a timely basis"
+      },
+      "correct": "D",
+      "explanation": "ISA 265 requires significant deficiencies to be communicated in writing to those charged with governance on a timely basis, and also communicated to an appropriate level of management. Other deficiencies may be communicated to management in writing or orally. Control deficiencies are not reported in the auditor's report.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c08-q011",
+      "chapter": 8,
+      "topic": "Internal control systems",
+      "question_text": "Which of the following is a test of controls rather than a substantive procedure?",
+      "options": {
+        "A": "Comparing the year-end payables balance with the prior year and investigating changes",
+        "B": "Inspecting a sample of purchase invoices for the signature of the authorising manager",
+        "C": "Reconciling supplier statements to payables ledger balances at the year end",
+        "D": "Agreeing a sample of purchase invoices to the payables ledger to confirm the amounts recorded"
+      },
+      "correct": "B",
+      "explanation": "A test of controls evaluates the operating effectiveness of a control, here the authorisation of invoices. The other procedures are substantive: they seek evidence directly about whether amounts are misstated, through tests of detail or analytical procedures, and do not test whether a control operated.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-aa-c08-q012",
+      "chapter": 8,
+      "topic": "Internal control systems",
+      "question_text": "Which of the following is an application control rather than a general IT control?",
+      "options": {
+        "A": "A range check that rejects payroll inputs of more than 60 hours worked per week",
+        "B": "Procedures for testing and authorising changes to programs",
+        "C": "A disaster recovery plan with off-site backups",
+        "D": "Policies for granting user access rights on joining the company"
+      },
+      "correct": "A",
+      "explanation": "Application controls operate within specific applications to ensure the completeness and accuracy of processing, for example range checks, check digits and batch totals. Program change controls, backup and recovery arrangements and access policies are general IT controls that support the IT environment as a whole.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-aa-c09-q001",
+      "chapter": 9,
+      "topic": "Audit evidence and financial statement assertions",
+      "question_text": "Under ISA 500, what do the terms 'sufficient' and 'appropriate' refer to?",
+      "options": {
+        "A": "Sufficient refers to its quality; appropriate refers to the quantity of evidence",
+        "B": "Sufficient refers to evidence on significant risks; appropriate refers to evidence on other areas",
+        "C": "Sufficient refers to the quantity of evidence; appropriate refers to its quality, being relevance and reliability",
+        "D": "Sufficient refers to evidence from third parties; appropriate refers to evidence generated internally"
+      },
+      "correct": "C",
+      "explanation": "Sufficiency is the measure of the quantity of evidence, which depends on the assessed risks and the quality of the evidence. Appropriateness is the measure of quality, made up of relevance and reliability. The two are interrelated: higher-quality evidence may mean less is needed, but more evidence cannot compensate for poor quality.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-aa-c09-q002",
+      "chapter": 9,
+      "topic": "Audit evidence and financial statement assertions",
+      "question_text": "Which of the following sources of audit evidence about a trade receivable balance is generally the most reliable?",
+      "options": {
+        "A": "An oral explanation from the credit controller",
+        "B": "A photocopy of the sales invoice provided by the client",
+        "C": "The client's aged receivables listing",
+        "D": "A confirmation received directly by the auditor from the customer"
+      },
+      "correct": "D",
+      "explanation": "ISA 500 states that evidence from independent external sources, evidence obtained directly by the auditor and documentary evidence are generally more reliable. A confirmation sent and received directly by the auditor meets all three conditions. Photocopies, oral explanations and client-generated reports are less reliable.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c09-q003",
+      "chapter": 9,
+      "topic": "Audit evidence and financial statement assertions",
+      "question_text": "The auditor selects a sample of assets from the non-current asset register and physically inspects them. Which assertion is primarily being tested?",
+      "options": {
+        "A": "Classification",
+        "B": "Existence",
+        "C": "Rights and obligations",
+        "D": "Completeness"
+      },
+      "correct": "B",
+      "explanation": "Testing from the register to the physical asset confirms that recorded assets exist. To test completeness the auditor works in the opposite direction, from physical assets to the register. Physical inspection gives little evidence of ownership, which is better tested by inspecting purchase invoices or title documents.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-aa-c09-q004",
+      "chapter": 9,
+      "topic": "Audit evidence and financial statement assertions",
+      "question_text": "During an inventory count, the auditor selects items on the warehouse floor and traces them to the inventory records. Which assertion does this procedure primarily test?",
+      "options": {
+        "A": "Valuation and allocation",
+        "B": "Occurrence",
+        "C": "Completeness",
+        "D": "Existence"
+      },
+      "correct": "C",
+      "explanation": "Starting with the physical items and tracing them to the records checks that all inventory held has been recorded, which is completeness. Testing from records to the floor would test existence. Occurrence applies to transactions rather than to balances.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c09-q005",
+      "chapter": 9,
+      "topic": "Audit evidence and financial statement assertions",
+      "question_text": "Which assertion is most directly tested by examining goods dispatched notes dated just before and just after the year end and checking that the related sales were recorded in the correct period?",
+      "options": {
+        "A": "Cut-off",
+        "B": "Existence",
+        "C": "Classification",
+        "D": "Accuracy"
+      },
+      "correct": "A",
+      "explanation": "The cut-off assertion is that transactions and events have been recorded in the correct accounting period. Comparing dispatch dates around the year end with the date revenue was recorded directly tests this. Accuracy concerns whether amounts were recorded correctly, not when.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-aa-c09-q006",
+      "chapter": 9,
+      "topic": "Audit evidence and financial statement assertions",
+      "question_text": "Which audit procedure provides the best evidence of the rights and obligations assertion for a freehold property included in non-current assets?",
+      "options": {
+        "A": "Comparing the property's carrying amount with the prior year",
+        "B": "Inspecting the title deeds or land registry records in the name of the entity",
+        "C": "Physically inspecting the property",
+        "D": "Recalculating the depreciation charge on the property"
+      },
+      "correct": "B",
+      "explanation": "Title documents show that the entity owns the property and therefore has rights over it. Physical inspection confirms existence but not ownership, recalculating depreciation tests valuation, and comparison with the prior year is an analytical procedure that does not address ownership.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c09-q007",
+      "chapter": 9,
+      "topic": "Audit evidence and financial statement assertions",
+      "question_text": "What is the difference between recalculation and reperformance as audit procedures?",
+      "options": {
+        "A": "Recalculation involves third parties; reperformance involves only internal records",
+        "B": "Recalculation is performed by the client; reperformance is performed by the auditor",
+        "C": "Recalculation provides evidence about controls; reperformance provides evidence only about balances",
+        "D": "Recalculation checks the mathematical accuracy of records; reperformance is the auditor independently executing procedures or controls originally performed by the entity"
+      },
+      "correct": "D",
+      "explanation": "ISA 500 describes recalculation as checking the mathematical accuracy of documents or records, such as casting a ledger or recomputing depreciation. Reperformance involves the auditor independently carrying out a procedure or control, such as re-doing a bank reconciliation, and is often used as a test of controls.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-aa-c09-q008",
+      "chapter": 9,
+      "topic": "Audit evidence and financial statement assertions",
+      "question_text": "Why is enquiry alone generally not sufficient audit evidence?",
+      "options": {
+        "A": "It does not usually provide sufficient evidence of the absence of a material misstatement or of the operating effectiveness of controls",
+        "B": "Enquiries may only be made of those charged with governance",
+        "C": "Enquiry is not recognised as an audit procedure by ISA 500",
+        "D": "Answers to enquiries can only be obtained in writing"
+      },
+      "correct": "A",
+      "explanation": "Enquiry is a valid procedure used throughout the audit, but its reliability depends on the knowledge and objectivity of the person asked. ISA 500 and ISA 330 state that enquiry alone is not sufficient to test operating effectiveness of controls or to detect material misstatements, so it should be corroborated with other procedures.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c09-q009",
+      "chapter": 9,
+      "topic": "Audit evidence and financial statement assertions",
+      "question_text": "The auditor of Dowel Co is concerned that revenue may be overstated by recording sales that did not occur. Which procedure is most appropriate?",
+      "options": {
+        "A": "Select customer orders and agree them to goods dispatched notes",
+        "B": "Select sales invoices recorded in the sales day book and agree them to customer orders and goods dispatched notes",
+        "C": "Select goods dispatched notes and agree them to sales invoices recorded in the sales day book",
+        "D": "Recalculate the total of the sales day book and agree it to the general ledger"
+      },
+      "correct": "B",
+      "explanation": "To test occurrence, the auditor starts with recorded transactions and seeks evidence that they really happened, so the direction is from the sales day book to supporting dispatch notes and orders. Testing from dispatch notes to recorded invoices tests completeness instead. Casting the day book tests accuracy of totals, not whether sales occurred.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-aa-c09-q010",
+      "chapter": 9,
+      "topic": "Audit evidence and financial statement assertions",
+      "question_text": "A bank loan repayable in instalments over five years has been shown entirely within non-current liabilities. Which assertion has been breached?",
+      "options": {
+        "A": "Completeness",
+        "B": "Cut-off",
+        "C": "Classification",
+        "D": "Existence"
+      },
+      "correct": "C",
+      "explanation": "The loan exists and is recorded in full, but the portion repayable within twelve months should be shown as a current liability. Splitting a balance into the correct categories relates to the classification (and presentation) assertion.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c10-q001",
+      "chapter": 10,
+      "topic": "Sampling, automated tools and using the work of others",
+      "question_text": "Under ISA 530, what is sampling risk?",
+      "options": {
+        "A": "The risk that the auditor uses an inappropriate procedure for the assertion being tested",
+        "B": "The risk that the client selects the sample items for the auditor",
+        "C": "The risk that the population contains no errors",
+        "D": "The risk that the auditor's conclusion based on a sample may differ from the conclusion if the entire population were tested"
+      },
+      "correct": "D",
+      "explanation": "Sampling risk arises from testing less than 100% of a population. Non-sampling risk is the risk of reaching a wrong conclusion for other reasons, such as using inappropriate procedures or misinterpreting evidence. The auditor, not the client, must select the sample.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-aa-c10-q002",
+      "chapter": 10,
+      "topic": "Sampling, automated tools and using the work of others",
+      "question_text": "The auditor wishes to select a sample of 60 items from a population of 2,400 sequentially numbered sales invoices using systematic selection. What is the sampling interval?",
+      "options": {
+        "A": "24",
+        "B": "40",
+        "C": "60",
+        "D": "144"
+      },
+      "correct": "B",
+      "explanation": "Sampling interval = population size / sample size = 2,400 / 60 = 40. The auditor selects a random starting point between 1 and 40 and then every 40th invoice. The figure 24 incorrectly divides by 100, and 144 is 2,400 x 0.06.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-aa-c10-q003",
+      "chapter": 10,
+      "topic": "Sampling, automated tools and using the work of others",
+      "question_text": "The auditor tests a sample of receivable balances with a total book value of $400,000 from a population of $4,800,000. The sample contains misstatements totalling $7,200 (overstatements). Using the ratio method, what is the projected misstatement for the population?",
+      "options": {
+        "A": "$7,200",
+        "B": "$72,000",
+        "C": "$86,400",
+        "D": "$93,600"
+      },
+      "correct": "C",
+      "explanation": "Misstatement rate = $7,200 / $400,000 = 1.8%. Projected misstatement = 1.8% x $4,800,000 = $86,400 (equivalently $7,200 x 12). $7,200 ignores projection, $72,000 multiplies by 10 rather than 12, and $93,600 double-counts the known misstatement on top of the projection.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-aa-c10-q004",
+      "chapter": 10,
+      "topic": "Sampling, automated tools and using the work of others",
+      "question_text": "Which of the following sample selection methods is NOT appropriate when using statistical sampling?",
+      "options": {
+        "A": "Haphazard selection",
+        "B": "Monetary unit selection",
+        "C": "Random selection",
+        "D": "Systematic selection with a random start"
+      },
+      "correct": "A",
+      "explanation": "Statistical sampling requires random selection of items so that probability theory can be used to evaluate results. Haphazard selection, where the auditor picks items without a structured technique, is acceptable only for non-statistical sampling because it cannot guarantee every item has a known chance of selection.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c10-q005",
+      "chapter": 10,
+      "topic": "Sampling, automated tools and using the work of others",
+      "question_text": "In which situation would the auditor most likely test 100% of a population rather than use sampling?",
+      "options": {
+        "A": "The population has a low risk of material misstatement",
+        "B": "The population consists of a large number of small, similar items",
+        "C": "Controls over the population have been tested and found effective",
+        "D": "The population consists of a small number of high-value items"
+      },
+      "correct": "D",
+      "explanation": "Examining all items is appropriate when the population is made up of a small number of large items, when there is a significant risk and other means do not provide sufficient evidence, or when automated tools make it cost-effective. A large number of small items is the classic situation for sampling.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c10-q006",
+      "chapter": 10,
+      "topic": "Sampling, automated tools and using the work of others",
+      "question_text": "What is 'test data' as a computer-assisted audit technique?",
+      "options": {
+        "A": "Software used by the auditor to extract and analyse data from the client's files",
+        "B": "Data provided by the client's bank for the bank confirmation",
+        "C": "A sample of the client's transactions selected for vouching to source documents",
+        "D": "Dummy transactions processed through the client's system to check that programmed controls operate as expected"
+      },
+      "correct": "D",
+      "explanation": "Test data involves entering data, including deliberately invalid items, into the client's system and comparing the results with expected outcomes; it is mainly used to test application controls. Audit software, by contrast, interrogates the client's data files to perform substantive work such as recalculations and exception reports.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c10-q007",
+      "chapter": 10,
+      "topic": "Sampling, automated tools and using the work of others",
+      "question_text": "Which of the following is a key benefit of using data analytics in an audit?",
+      "options": {
+        "A": "It removes the need for the auditor to exercise professional judgement",
+        "B": "Entire populations can be analysed to identify unusual items rather than relying on a sample",
+        "C": "It guarantees that the financial statements are free from fraud",
+        "D": "It eliminates the need to understand the client's IT systems"
+      },
+      "correct": "B",
+      "explanation": "Data analytics tools allow the auditor to analyse whole populations, identify anomalies and focus work on higher-risk items. The auditor must still exercise judgement over results, needs to understand the IT environment to rely on the data, and cannot obtain absolute assurance.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c10-q008",
+      "chapter": 10,
+      "topic": "Sampling, automated tools and using the work of others",
+      "question_text": "Under ISA 620, which of the following must the auditor evaluate before using the work of an auditor's expert, such as a property valuer?",
+      "options": {
+        "A": "The expert's competence, capabilities and objectivity",
+        "B": "Whether the expert has previously worked for the client",
+        "C": "Whether the client's directors approve of the expert",
+        "D": "Whether the expert is a member of ACCA"
+      },
+      "correct": "A",
+      "explanation": "ISA 620 requires the auditor to evaluate whether the expert has the necessary competence, capabilities and objectivity, to obtain an understanding of the expert's field, to agree the nature and scope of the work, and to evaluate the adequacy of the findings. Previous work for the client is one factor relevant to objectivity, not the full evaluation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c10-q009",
+      "chapter": 10,
+      "topic": "Sampling, automated tools and using the work of others",
+      "question_text": "An audit firm used an independent actuary to evaluate a client's defined benefit pension obligation and is issuing an unmodified opinion. Which of the following is correct regarding reference to the expert in the auditor's report?",
+      "options": {
+        "A": "The auditor must include an Emphasis of Matter paragraph describing the expert's work",
+        "B": "The auditor may refer to the expert only if the expert was appointed by the client",
+        "C": "The auditor should not refer to the work of the expert, because the auditor has sole responsibility for the opinion",
+        "D": "The auditor must name the expert in the Opinion section to share responsibility"
+      },
+      "correct": "C",
+      "explanation": "ISA 620 states that the auditor has sole responsibility for the opinion, and that responsibility is not reduced by using an expert. In an unmodified report, the auditor does not refer to the expert's work unless law or regulation requires it. Any reference made in a modified report must make clear that it does not reduce the auditor's responsibility.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-aa-c10-q010",
+      "chapter": 10,
+      "topic": "Sampling, automated tools and using the work of others",
+      "question_text": "Pintle Co outsources its payroll processing to a service organisation. Under ISA 402, which type of service organisation report would provide evidence on the operating effectiveness of controls over a period?",
+      "options": {
+        "A": "The service organisation's own audited financial statements",
+        "B": "A written representation from Pintle Co's management",
+        "C": "A Type 2 report covering the design, implementation and operating effectiveness of controls",
+        "D": "A Type 1 report covering the description and design of controls at a specified date"
+      },
+      "correct": "C",
+      "explanation": "A Type 1 report only describes the system and the design of controls at a point in time. A Type 2 report also includes the service auditor's tests of operating effectiveness over a specified period, so it can support the user auditor's reliance on controls. The service organisation's own accounts and client representations do not address those controls.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-aa-c11-q001",
+      "chapter": 11,
+      "topic": "Audit of specific items",
+      "question_text": "During attendance at the year-end inventory count, why does the auditor record the numbers of the last goods received note and goods dispatched note issued before the count?",
+      "options": {
+        "A": "To agree the total quantity counted to the final inventory listing",
+        "B": "To test the valuation of slow-moving inventory",
+        "C": "To confirm that count teams are independent of the warehouse",
+        "D": "To test cut-off of purchases and sales at the final audit"
+      },
+      "correct": "D",
+      "explanation": "Recording the last document numbers allows the auditor to check later that goods received before the count are included in both inventory and purchases, and that goods dispatched are excluded from inventory and included in sales. This tests cut-off. Valuation and the final listing are addressed by other procedures.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c11-q002",
+      "chapter": 11,
+      "topic": "Audit of specific items",
+      "question_text": "At the year end, Cobble Co holds 2,000 units of a product that cost $50 per unit. The product is expected to sell for $60 per unit, but $15 per unit will be incurred on completion and selling costs. By how much should inventory be written down?",
+      "options": {
+        "A": "$0",
+        "B": "$10,000",
+        "C": "$20,000",
+        "D": "$30,000"
+      },
+      "correct": "B",
+      "explanation": "NRV per unit = $60 - $15 = $45, which is below cost of $50, so inventory must be written down by $5 per unit. Write-down = 2,000 x $5 = $10,000. Ignoring costs to complete and sell gives no write-down; $20,000 is the gross profit (2,000 x $10) and $30,000 is the total costs to sell.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-aa-c11-q003",
+      "chapter": 11,
+      "topic": "Audit of specific items",
+      "question_text": "A customer selected for a positive receivables confirmation does not reply, even after a follow-up request. What is the most appropriate alternative procedure?",
+      "options": {
+        "A": "Inspect cash received from the customer after the year end and agree it to specific year-end invoices",
+        "B": "Obtain a written representation from the credit controller that the balance is correct",
+        "C": "Treat the balance as confirmed because the customer did not dispute it",
+        "D": "Exclude the balance from the sample and select a replacement customer"
+      },
+      "correct": "A",
+      "explanation": "ISA 505 requires alternative procedures for non-responses to positive confirmations. After-date cash receipts that clear specific year-end invoices provide strong evidence of existence, and inspecting dispatch notes and orders is another option. Silence cannot be treated as agreement under positive confirmation, and replacing the item would bias the sample.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c11-q004",
+      "chapter": 11,
+      "topic": "Audit of specific items",
+      "question_text": "Under ISA 505, in which situation would it be appropriate to use negative confirmations as the sole substantive procedure for receivables?",
+      "options": {
+        "A": "The auditor has identified a significant risk of fraud in revenue",
+        "B": "The risk of material misstatement is low, there are many small homogeneous balances, a very low exception rate is expected and recipients are not expected to disregard requests",
+        "C": "Controls over sales are ineffective and the expected exception rate is high",
+        "D": "The receivables balance consists of a few very large balances"
+      },
+      "correct": "B",
+      "explanation": "Negative confirmations only require a reply if the customer disagrees, so they provide less persuasive evidence. ISA 505 permits their use as the sole substantive procedure only when all the listed conditions hold. Large balances, significant risks or weak controls call for positive confirmations and other more persuasive procedures.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-aa-c11-q005",
+      "chapter": 11,
+      "topic": "Audit of specific items",
+      "question_text": "Which of the following is correct regarding a bank confirmation request?",
+      "options": {
+        "A": "The bank's reply is addressed to the client's directors",
+        "B": "The bank confirmation is only required where the client has an overdraft",
+        "C": "The client sends the request and forwards the bank's reply to the auditor",
+        "D": "The auditor controls the sending of the request and the bank replies directly to the auditor"
+      },
+      "correct": "D",
+      "explanation": "To maximise reliability, the auditor must maintain control over external confirmation requests, which includes sending them and receiving the responses directly. The client signs the request to authorise disclosure, but must not handle the reply. Confirmations are relevant for all balances and facilities, not only overdrafts.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-aa-c11-q006",
+      "chapter": 11,
+      "topic": "Audit of specific items",
+      "question_text": "At the year end, the bank statement of Ferrel Co shows a balance of $42,000 in the company's favour. There are outstanding lodgements of $6,500 and unpresented cheques of $9,800. What should the balance per the cash book be?",
+      "options": {
+        "A": "$25,700",
+        "B": "$38,700",
+        "C": "$45,300",
+        "D": "$58,300"
+      },
+      "correct": "B",
+      "explanation": "Balance per cash book = bank statement balance + outstanding lodgements - unpresented cheques = $42,000 + $6,500 - $9,800 = $38,700. $45,300 reverses the treatment of both items, $58,300 adds both, and $25,700 deducts both.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c11-q007",
+      "chapter": 11,
+      "topic": "Audit of specific items",
+      "question_text": "A former employee is suing Bodkin Co for $400,000. The company's lawyers state that it is possible, but not probable, that the claim will succeed. Materiality is $150,000. What treatment should the auditor expect in the financial statements?",
+      "options": {
+        "A": "No provision, but disclosure of a contingent liability",
+        "B": "A provision of $200,000, being half of the claim",
+        "C": "A provision of $400,000",
+        "D": "No provision and no disclosure, because the outcome is uncertain"
+      },
+      "correct": "A",
+      "explanation": "Under IAS 37 a provision is recognised only when an outflow is probable and can be reliably estimated. Where an outflow is possible but not probable, and not remote, a contingent liability is disclosed. As $400,000 exceeds materiality, the auditor should check that the disclosure is adequate, and may obtain evidence through a letter to the entity's lawyers.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-aa-c11-q008",
+      "chapter": 11,
+      "topic": "Audit of specific items",
+      "question_text": "Kestrel Co has a 31 December year end. Electricity is billed quarterly in arrears. The bill for the quarter ending 31 January, received in February, was $9,000. Assuming even usage, what accrual should be included at 31 December?",
+      "options": {
+        "A": "$3,000",
+        "B": "$6,000",
+        "C": "$9,000",
+        "D": "$12,000"
+      },
+      "correct": "B",
+      "explanation": "The quarter to 31 January covers November, December and January. Two of those three months (November and December) fall in the year, so the accrual is $9,000 x 2/3 = $6,000. $3,000 accrues only one month and $9,000 wrongly accrues the full quarter.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c11-q009",
+      "chapter": 11,
+      "topic": "Audit of specific items",
+      "question_text": "Selvage Co employed 120 staff throughout the year ended 31 December. The average annual salary at the start of the year was $30,000, and a 4% pay rise took effect from 1 April. What is the expected total salary cost for the year in a proof in total?",
+      "options": {
+        "A": "$3,600,000",
+        "B": "$3,636,000",
+        "C": "$3,708,000",
+        "D": "$3,744,000"
+      },
+      "correct": "C",
+      "explanation": "Average salary for the year = ($30,000 x 3/12) + ($31,200 x 9/12) = $7,500 + $23,400 = $30,900. Expected total = 120 x $30,900 = $3,708,000. $3,744,000 applies the rise for the full year, $3,636,000 applies it for only three months and $3,600,000 ignores it.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-aa-c11-q010",
+      "chapter": 11,
+      "topic": "Audit of specific items",
+      "question_text": "Which procedure provides the best evidence of the completeness of trade payables?",
+      "options": {
+        "A": "Recalculating the total of the payables ledger",
+        "B": "Selecting balances from the payables ledger and agreeing them to purchase invoices",
+        "C": "Obtaining a written representation that all liabilities have been recorded, without further work",
+        "D": "Reconciling supplier statements to the payables ledger and reviewing payments made after the year end for unrecorded liabilities"
+      },
+      "correct": "D",
+      "explanation": "The risk for payables is understatement, so the auditor looks for liabilities that should have been recorded. Supplier statements are third-party evidence that can reveal missing invoices, and after-date payments often relate to year-end obligations. Testing from the ledger only covers recorded items, and a representation alone is insufficient.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c11-q011",
+      "chapter": 11,
+      "topic": "Audit of specific items",
+      "question_text": "Which of the following procedures best tests the valuation of additions to property, plant and equipment?",
+      "options": {
+        "A": "Agreeing the cost of a sample of additions to purchase invoices and checking that only directly attributable costs have been capitalised",
+        "B": "Physically inspecting a sample of assets selected from the register",
+        "C": "Comparing the total depreciation charge with the prior year",
+        "D": "Reviewing the repairs expense account for capital items"
+      },
+      "correct": "A",
+      "explanation": "Agreeing cost to invoices and reviewing what has been capitalised confirms the amount recorded is correct under IAS 16. Physical inspection tests existence, and reviewing the repairs account tests completeness of additions. A depreciation comparison is an analytical procedure on the charge, not on the cost of additions.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c11-q012",
+      "chapter": 11,
+      "topic": "Audit of specific items",
+      "question_text": "Under ISA 501, what is the auditor's primary purpose in attending the client's physical inventory count?",
+      "options": {
+        "A": "To supervise the client's count teams",
+        "B": "To determine the selling price of each inventory line",
+        "C": "To obtain evidence about the existence and condition of inventory and to evaluate management's counting procedures",
+        "D": "To count all of the inventory on behalf of management"
+      },
+      "correct": "C",
+      "explanation": "Attendance allows the auditor to evaluate management's instructions and procedures, observe their performance, inspect inventory and perform test counts. The count is management's responsibility, and the auditor should not take on a management role. NRV is assessed separately using after-date sales evidence.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c12-q001",
+      "chapter": 12,
+      "topic": "Subsequent events, going concern and written representations",
+      "question_text": "Which of the following events occurring after the reporting period would normally be an adjusting event under IAS 10?",
+      "options": {
+        "A": "A major customer that owed money at the year end goes into liquidation",
+        "B": "A fire destroys a warehouse two months after the year end",
+        "C": "The company announces a plan to close a division after the year end",
+        "D": "The company issues new shares after the year end"
+      },
+      "correct": "A",
+      "explanation": "An adjusting event provides evidence of conditions that existed at the reporting date. A customer's liquidation shortly after the year end usually confirms that the receivable was impaired at the year end. A post year-end fire, share issue or announced closure reflects new conditions and would be non-adjusting, though possibly requiring disclosure.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-aa-c12-q002",
+      "chapter": 12,
+      "topic": "Subsequent events, going concern and written representations",
+      "question_text": "Under ISA 560, what is the auditor's responsibility for subsequent events between the date of the financial statements and the date of the auditor's report?",
+      "options": {
+        "A": "No responsibility, unless management informs the auditor of an event",
+        "B": "To review only events that occur in the first month after the year end",
+        "C": "To perform procedures designed to obtain sufficient appropriate evidence that all events requiring adjustment or disclosure have been identified",
+        "D": "To perform procedures only if the auditor suspects fraud"
+      },
+      "correct": "C",
+      "explanation": "In this period the auditor has an active duty to perform procedures such as enquiring of management, reading board minutes and reviewing the latest management accounts. After the auditor's report is dated, the duty becomes passive: there is no obligation to perform procedures, but the auditor must respond to facts that become known.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c12-q003",
+      "chapter": 12,
+      "topic": "Subsequent events, going concern and written representations",
+      "question_text": "After the auditor's report has been dated but before the financial statements are issued, the auditor becomes aware of a fact that would have caused the report to be amended. What should the auditor do first under ISA 560?",
+      "options": {
+        "A": "Issue a separate report directly to the shareholders",
+        "B": "Do nothing, because the auditor has no responsibilities after the report is dated",
+        "C": "Immediately withdraw the auditor's report and resign",
+        "D": "Discuss the matter with management and, where appropriate, those charged with governance, and determine whether the financial statements need amendment"
+      },
+      "correct": "D",
+      "explanation": "Although there is no duty to search for events after the report date, a fact that becomes known must be addressed. The auditor discusses it with management, determines whether amendment is needed and, if so, how management intends to deal with it. If amended, the auditor performs procedures on the amendment and issues a new report.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c12-q004",
+      "chapter": 12,
+      "topic": "Subsequent events, going concern and written representations",
+      "question_text": "Which of the following is an operating indicator, rather than a financial indicator, that may cast doubt on an entity's ability to continue as a going concern?",
+      "options": {
+        "A": "Loss of a key supplier with no alternative source of supply",
+        "B": "Inability to pay creditors on due dates",
+        "C": "Net current liabilities",
+        "D": "Substantial operating losses"
+      },
+      "correct": "A",
+      "explanation": "ISA 570 groups going concern indicators into financial, operating and other. Loss of key management, a major market, key customers, licences or principal suppliers are operating indicators. Net current liabilities, operating losses and inability to pay creditors are financial indicators.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c12-q005",
+      "chapter": 12,
+      "topic": "Subsequent events, going concern and written representations",
+      "question_text": "Under ISA 570, if management's assessment of going concern covers less than a particular period, the auditor should ask management to extend it. What is that period?",
+      "options": {
+        "A": "Twelve months from the date of the auditor's report",
+        "B": "Twelve months from the date of the financial statements",
+        "C": "Six months from the date of the financial statements",
+        "D": "Eighteen months from the date of the financial statements"
+      },
+      "correct": "B",
+      "explanation": "ISA 570 requires the auditor to request that management extend its assessment if it covers less than twelve months from the date of the financial statements, consistent with IAS 1. Some jurisdictions require longer periods, but the ISA reference point is twelve months from the reporting date.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-aa-c12-q006",
+      "chapter": 12,
+      "topic": "Subsequent events, going concern and written representations",
+      "question_text": "At the year end, Fettle Co has current assets of $2.1 million and current liabilities of $3.0 million. Its overdraft facility is due for renewal shortly after the year end. What is the current ratio?",
+      "options": {
+        "A": "0.30:1",
+        "B": "0.70:1",
+        "C": "0.90:1",
+        "D": "1.43:1"
+      },
+      "correct": "B",
+      "explanation": "Current ratio = current assets / current liabilities = $2.1m / $3.0m = 0.70:1. Inverting the formula gives 1.43:1. A ratio below 1, combined with an overdraft awaiting renewal, is an indicator that the auditor should consider in assessing going concern under ISA 570.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c12-q007",
+      "chapter": 12,
+      "topic": "Subsequent events, going concern and written representations",
+      "question_text": "Under ISA 580, how should written representations be dated?",
+      "options": {
+        "A": "At least one month after the date of the auditor's report",
+        "B": "On the date the audit engagement letter is signed",
+        "C": "On the last day of the reporting period",
+        "D": "As near as practicable to, but not after, the date of the auditor's report"
+      },
+      "correct": "D",
+      "explanation": "Written representations must cover all financial statements and periods referred to in the auditor's report, so they are dated as close as practicable to the report date but never after it. The auditor's report cannot be dated before the representations are received.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-aa-c12-q008",
+      "chapter": 12,
+      "topic": "Subsequent events, going concern and written representations",
+      "question_text": "Management refuses to provide a written representation confirming that it has fulfilled its responsibility for preparing the financial statements and for providing the auditor with all relevant information. What is the required effect on the auditor's report under ISA 580?",
+      "options": {
+        "A": "The auditor must issue an adverse opinion",
+        "B": "The auditor must issue a qualified opinion",
+        "C": "The auditor must disclaim an opinion",
+        "D": "The auditor must issue an unmodified opinion with an Emphasis of Matter paragraph"
+      },
+      "correct": "C",
+      "explanation": "These representations are fundamental. If management refuses to provide them, ISA 580 requires the auditor to disclaim an opinion, because the auditor cannot rely on any of management's other representations and the possible effects are pervasive. An adverse opinion would only be appropriate if the financial statements were known to be materially and pervasively misstated.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-aa-c12-q009",
+      "chapter": 12,
+      "topic": "Subsequent events, going concern and written representations",
+      "question_text": "Which of the following statements about written representations is correct?",
+      "options": {
+        "A": "They are only required where the auditor plans to modify the opinion",
+        "B": "They are provided by the auditor to the client",
+        "C": "They are necessary audit evidence but do not on their own provide sufficient appropriate evidence about matters they deal with",
+        "D": "They can replace other audit evidence that the auditor expects to be available"
+      },
+      "correct": "C",
+      "explanation": "ISA 580 states that written representations are necessary information but are not sufficient appropriate evidence on their own. They cannot replace evidence the auditor expects to be available, they are obtained from management, and they are required on every audit.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-aa-c13-q001",
+      "chapter": 13,
+      "topic": "Misstatements and the auditor's report",
+      "question_text": "The following uncorrected misstatements have been identified in the draft financial statements of Lissom Co:\n1. Closing inventory overstated by $45,000\n2. Accruals understated by $30,000\n3. Sales recorded before dispatch at the year end of $25,000\n4. Depreciation overstated by $20,000\nWhat is the net effect of these misstatements on reported profit?",
+      "options": {
+        "A": "Profit overstated by $40,000",
+        "B": "Profit overstated by $80,000",
+        "C": "Profit overstated by $100,000",
+        "D": "Profit overstated by $120,000"
+      },
+      "correct": "B",
+      "explanation": "Overstated inventory overstates profit by $45,000, understated accruals overstate profit by $30,000 and early sales overstate profit by $25,000, a total of $100,000. Overstated depreciation understates profit by $20,000. Net effect = $100,000 - $20,000 = $80,000 overstatement. Adding all four gives $120,000, ignoring the opposite direction of the depreciation error.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-aa-c13-q002",
+      "chapter": 13,
+      "topic": "Misstatements and the auditor's report",
+      "question_text": "Under ISA 450, what should the auditor do with misstatements identified during the audit, other than those that are clearly trivial?",
+      "options": {
+        "A": "Report them directly to the shareholders",
+        "B": "Ignore them if they are individually below performance materiality",
+        "C": "Correct them in the client's records personally",
+        "D": "Accumulate them and request management to correct them"
+      },
+      "correct": "D",
+      "explanation": "ISA 450 requires the auditor to accumulate all misstatements other than those that are clearly trivial and to communicate them on a timely basis to management, requesting correction. Individually small misstatements may be material in aggregate. The auditor does not make adjustments to the client's records, as that would be a management responsibility.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c13-q003",
+      "chapter": 13,
+      "topic": "Misstatements and the auditor's report",
+      "question_text": "Draft financial statements of Tumbril Co show profit before tax of $2.0 million and total assets of $15 million. Inventory is overstated by $500,000 and management refuses to adjust. The auditor concludes the misstatement is material but not pervasive. What opinion should be given?",
+      "options": {
+        "A": "Qualified opinion",
+        "B": "Disclaimer of opinion",
+        "C": "Adverse opinion",
+        "D": "Unmodified opinion with an Emphasis of Matter paragraph"
+      },
+      "correct": "A",
+      "explanation": "The misstatement is 25% of profit before tax ($500,000 / $2.0m) and 3.3% of total assets, so it is material. As it is confined to inventory and does not affect the financial statements as a whole, it is not pervasive. Under ISA 705 a material but not pervasive misstatement leads to a qualified 'except for' opinion.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c13-q004",
+      "chapter": 13,
+      "topic": "Misstatements and the auditor's report",
+      "question_text": "Under ISA 705, what type of opinion is required when the auditor concludes that misstatements are both material and pervasive?",
+      "options": {
+        "A": "Adverse opinion",
+        "B": "Unmodified opinion with an Other Matter paragraph",
+        "C": "Qualified opinion",
+        "D": "Disclaimer of opinion"
+      },
+      "correct": "A",
+      "explanation": "An adverse opinion states that the financial statements do not give a true and fair view, and is required when misstatements are material and pervasive. A qualified opinion is for material but not pervasive matters, and a disclaimer relates to an inability to obtain sufficient appropriate evidence.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c13-q005",
+      "chapter": 13,
+      "topic": "Misstatements and the auditor's report",
+      "question_text": "The auditor is unable to attend the inventory count and cannot obtain sufficient appropriate evidence about inventory by alternative means. Inventory is material but the effect is not pervasive. What opinion should be given?",
+      "options": {
+        "A": "Disclaimer of opinion",
+        "B": "Adverse opinion",
+        "C": "Qualified opinion",
+        "D": "Unmodified opinion"
+      },
+      "correct": "C",
+      "explanation": "An inability to obtain sufficient appropriate evidence, where the possible effects are material but not pervasive, results in a qualified opinion. The auditor states that, except for the possible effects of the matter, the financial statements give a true and fair view. A disclaimer is only used if the possible effects are pervasive.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c13-q006",
+      "chapter": 13,
+      "topic": "Misstatements and the auditor's report",
+      "question_text": "Under ISA 705, which of the following would NOT make the effects of a misstatement pervasive?",
+      "options": {
+        "A": "The misstatement relates to a disclosure that is fundamental to users' understanding of the financial statements",
+        "B": "The misstatement affects many elements of the financial statements",
+        "C": "The misstatement is confined to one element, but that element represents a substantial proportion of the financial statements",
+        "D": "The misstatement is confined to a single account balance that is not a substantial proportion of the financial statements"
+      },
+      "correct": "D",
+      "explanation": "ISA 705 defines pervasive effects as those not confined to specific elements, or if confined, representing a substantial proportion of the financial statements, or relating to disclosures fundamental to users' understanding. A misstatement in one account that is not a substantial proportion is material at most, not pervasive.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-aa-c13-q007",
+      "chapter": 13,
+      "topic": "Misstatements and the auditor's report",
+      "question_text": "Which situation would lead the auditor to disclaim an opinion under ISA 705?",
+      "options": {
+        "A": "The auditor wishes to draw attention to a significant subsequent event that is disclosed",
+        "B": "The financial statements contain a material uncertainty related to going concern that is adequately disclosed",
+        "C": "The auditor is unable to obtain sufficient appropriate evidence and the possible effects of undetected misstatements could be both material and pervasive",
+        "D": "The financial statements contain a material misstatement that management refuses to correct"
+      },
+      "correct": "C",
+      "explanation": "A disclaimer is given when the auditor cannot obtain sufficient appropriate evidence and the possible effects could be both material and pervasive. A material misstatement leads to a qualified or adverse opinion. Adequately disclosed going concern uncertainties and other disclosed matters are dealt with by additional sections or paragraphs without modifying the opinion.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c13-q008",
+      "chapter": 13,
+      "topic": "Misstatements and the auditor's report",
+      "question_text": "Which of the following best describes when an Emphasis of Matter paragraph is used under ISA 706?",
+      "options": {
+        "A": "To draw attention to a matter not presented in the financial statements that is relevant to users' understanding of the audit",
+        "B": "To describe the matters of most significance in the audit of a listed entity",
+        "C": "To explain the reasons for a qualified opinion",
+        "D": "To draw attention to a matter appropriately presented or disclosed in the financial statements that is fundamental to users' understanding of them"
+      },
+      "correct": "D",
+      "explanation": "An Emphasis of Matter paragraph refers to a matter already properly presented or disclosed that is fundamental to understanding, such as a significant uncertainty over litigation or a major catastrophe. An Other Matter paragraph deals with matters not in the financial statements. Reasons for modification go in the Basis for Opinion section, and matters of most significance are key audit matters.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-aa-c13-q009",
+      "chapter": 13,
+      "topic": "Misstatements and the auditor's report",
+      "question_text": "Under ISA 701, from which matters does the auditor select key audit matters?",
+      "options": {
+        "A": "Matters communicated with those charged with governance that required significant auditor attention",
+        "B": "All significant deficiencies in internal control reported to management",
+        "C": "Matters requested by the shareholders at the annual general meeting",
+        "D": "All misstatements identified during the audit, whether corrected or not"
+      },
+      "correct": "A",
+      "explanation": "Key audit matters are those of most significance in the audit of the current period, selected from matters communicated with those charged with governance that required significant auditor attention. They are required for audits of listed entities. A matter giving rise to a modified opinion is reported in the Basis for Opinion section rather than as a key audit matter.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c13-q010",
+      "chapter": 13,
+      "topic": "Misstatements and the auditor's report",
+      "question_text": "The auditor of Hasp Co concludes that the going concern basis is appropriate, but that a material uncertainty exists which is adequately disclosed in the financial statements. How should this be reported under ISA 570?",
+      "options": {
+        "A": "Adverse opinion because the entity may not be a going concern",
+        "B": "Unmodified opinion with a separate section headed 'Material Uncertainty Related to Going Concern'",
+        "C": "Unmodified opinion with an Emphasis of Matter paragraph headed 'Going Concern'",
+        "D": "Qualified opinion due to the material uncertainty"
+      },
+      "correct": "B",
+      "explanation": "When the going concern basis is appropriate and a material uncertainty is adequately disclosed, ISA 570 requires an unmodified opinion and a separate section headed 'Material Uncertainty Related to Going Concern', drawing attention to the disclosure. If disclosure were inadequate, a qualified or adverse opinion would be needed; an adverse opinion is required if the going concern basis is inappropriate.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-aa-c13-q011",
+      "chapter": 13,
+      "topic": "Misstatements and the auditor's report",
+      "question_text": "Management of Jarvey Co has prepared financial statements on a going concern basis, but the auditor concludes that the company will cease trading shortly after the year end and that the going concern basis is inappropriate. What opinion should be given?",
+      "options": {
+        "A": "Unmodified opinion with a Material Uncertainty Related to Going Concern section",
+        "B": "Disclaimer of opinion",
+        "C": "Adverse opinion",
+        "D": "Qualified opinion"
+      },
+      "correct": "C",
+      "explanation": "If the financial statements have been prepared on a going concern basis when this is inappropriate, ISA 570 requires an adverse opinion, regardless of any disclosure. The use of the wrong basis affects the measurement of most items and so is pervasive. A disclaimer is for an inability to obtain evidence rather than a known misstatement.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-aa-c13-q012",
+      "chapter": 13,
+      "topic": "Misstatements and the auditor's report",
+      "question_text": "Under ISA 700, which of the following is included in the Basis for Opinion section of the auditor's report?",
+      "options": {
+        "A": "A statement that the auditor is independent of the entity in accordance with relevant ethical requirements",
+        "B": "A description of management's responsibilities for the financial statements",
+        "C": "The key audit matters",
+        "D": "The auditor's opinion on the financial statements"
+      },
+      "correct": "A",
+      "explanation": "The Basis for Opinion section states that the audit was conducted in accordance with ISAs, refers to the auditor's responsibilities section, includes the statement of independence and ethical compliance, and states whether the evidence obtained is sufficient and appropriate. Management's responsibilities, key audit matters and the opinion each have their own sections.",
+      "difficulty": "easy"
+    }
+  ]
+}

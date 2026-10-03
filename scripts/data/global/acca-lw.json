@@ -1,0 +1,1955 @@
+{
+  "subject_id": "acca-lw",
+  "questions": [
+    {
+      "id": "acca-lw-c01-q001",
+      "chapter": 1,
+      "topic": "The English legal system",
+      "question_text": "In a civil case in the English courts, what standard of proof must the claimant normally satisfy?",
+      "options": {
+        "A": "Beyond reasonable doubt",
+        "B": "Beyond all possible doubt",
+        "C": "On a prima facie case only",
+        "D": "On the balance of probabilities"
+      },
+      "correct": "D",
+      "explanation": "Civil claims are decided on the balance of probabilities, meaning the claimant must show that their version of events is more likely than not. Proof beyond reasonable doubt is the higher criminal standard. A prima facie case is merely enough evidence to require an answer, not the standard on which judgment is given.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c01-q002",
+      "chapter": 1,
+      "topic": "The English legal system",
+      "question_text": "Which court is the final court of appeal for civil cases arising in England and Wales?",
+      "options": {
+        "A": "The Supreme Court",
+        "B": "The Court of Appeal (Civil Division)",
+        "C": "The High Court",
+        "D": "The Crown Court"
+      },
+      "correct": "A",
+      "explanation": "The Supreme Court is the highest appellate court in the United Kingdom for civil matters and binds all lower English courts. The Court of Appeal sits below it, and the High Court hears first-instance claims and some appeals. The Crown Court deals mainly with serious criminal trials.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c01-q003",
+      "chapter": 1,
+      "topic": "The English legal system",
+      "question_text": "Under the doctrine of judicial precedent, which part of a judgment binds later courts lower in the hierarchy?",
+      "options": {
+        "A": "Obiter dicta",
+        "B": "The ratio decidendi",
+        "C": "Any dissenting judgment",
+        "D": "The summary of the facts given by the judge"
+      },
+      "correct": "B",
+      "explanation": "The ratio decidendi is the legal principle on which the decision is based, and it is binding on lower courts in later cases with materially similar facts. Obiter dicta are statements 'by the way' and are only persuasive. Dissenting judgments are not binding, although they may later persuade a higher court.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c01-q004",
+      "chapter": 1,
+      "topic": "The English legal system",
+      "question_text": "Which of the following statements about the Court of Appeal (Civil Division) is correct?",
+      "options": {
+        "A": "It is free to depart from its own previous decisions whenever it considers them wrong",
+        "B": "It is generally bound by its own previous decisions, subject to limited exceptions",
+        "C": "It is bound by decisions of the High Court",
+        "D": "It is not bound by decisions of the Supreme Court if they are more than 20 years old"
+      },
+      "correct": "B",
+      "explanation": "Following Young v Bristol Aeroplane Co, the Court of Appeal is normally bound by its own earlier decisions, except where they conflict, are inconsistent with a later Supreme Court/House of Lords decision, or were made per incuriam. It is bound by the Supreme Court regardless of the age of the decision. The High Court is below it, so its decisions cannot bind the Court of Appeal.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c01-q005",
+      "chapter": 1,
+      "topic": "The English legal system",
+      "question_text": "Which of the following is an example of delegated legislation?",
+      "options": {
+        "A": "An Act of Parliament that has received Royal Assent",
+        "B": "A statutory instrument made by a government minister under powers in an enabling Act",
+        "C": "A judgment of the Supreme Court",
+        "D": "A commentary in a leading legal textbook"
+      },
+      "correct": "B",
+      "explanation": "Delegated legislation is law made by a person or body other than Parliament under authority given by an enabling (parent) Act; statutory instruments, byelaws and Orders in Council are the main forms. An Act is primary legislation, a judgment is case law, and textbooks are at most a persuasive secondary source.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c01-q006",
+      "chapter": 1,
+      "topic": "The English legal system",
+      "question_text": "A judge interprets a statutory provision by asking what problem the Act was passed to remedy, following the approach in Heydon's Case. Which rule of interpretation is being applied?",
+      "options": {
+        "A": "The literal rule",
+        "B": "The mischief rule",
+        "C": "The golden rule",
+        "D": "The ejusdem generis rule"
+      },
+      "correct": "B",
+      "explanation": "The mischief rule, derived from Heydon's Case, directs the court to consider the common law before the Act, the defect (mischief) the Act was meant to cure and the remedy Parliament provided. The literal rule gives words their plain meaning, while the golden rule departs from the literal meaning only to avoid an absurd result. Ejusdem generis is a linguistic rule about general words following specific ones.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c01-q007",
+      "chapter": 1,
+      "topic": "The English legal system",
+      "question_text": "A statute refers to 'cats, dogs, rabbits and other animals'. A court holds that 'other animals' covers only domestic pets of a similar kind and not wild animals. Which rule of language has the court applied?",
+      "options": {
+        "A": "Expressio unius est exclusio alterius",
+        "B": "Noscitur a sociis",
+        "C": "Ejusdem generis",
+        "D": "The presumption against retrospective effect"
+      },
+      "correct": "C",
+      "explanation": "Under the ejusdem generis rule, general words that follow a list of specific items are read as limited to things of the same kind as the specific items. Expressio unius means that express mention of one thing excludes others not mentioned. Noscitur a sociis is the wider idea that a word takes its meaning from its context, and the presumption against retrospectivity concerns timing rather than meaning.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c01-q008",
+      "chapter": 1,
+      "topic": "The English legal system",
+      "question_text": "Under the Human Rights Act 1998, what can a higher court do if it is unable to interpret an Act of Parliament in a way that is compatible with a Convention right?",
+      "options": {
+        "A": "Declare the Act void and refuse to apply it",
+        "B": "Refer the Act to the European Court of Human Rights for annulment",
+        "C": "Make a declaration of incompatibility, leaving the Act in force until Parliament decides how to respond",
+        "D": "Award damages against Parliament for passing the Act"
+      },
+      "correct": "C",
+      "explanation": "Section 3 requires courts to read legislation compatibly with Convention rights so far as possible. If that is not possible, specified higher courts may make a declaration of incompatibility under s4, but this does not affect the validity or operation of the Act. This preserves parliamentary sovereignty: it is for Parliament or a minister to amend the law.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-lw-c01-q009",
+      "chapter": 1,
+      "topic": "The English legal system",
+      "question_text": "Which of the following Convention rights incorporated by the Human Rights Act 1998 is an absolute right that cannot lawfully be restricted?",
+      "options": {
+        "A": "The prohibition of torture and inhuman or degrading treatment",
+        "B": "The right to respect for private and family life",
+        "C": "The right to freedom of expression",
+        "D": "The right to freedom of assembly and association"
+      },
+      "correct": "A",
+      "explanation": "The prohibition of torture (Article 3) is absolute and admits no exceptions. Rights such as private and family life (Article 8), expression (Article 10) and assembly (Article 11) are qualified rights, which public authorities may restrict where the interference is lawful, pursues a legitimate aim and is necessary in a democratic society.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c01-q010",
+      "chapter": 1,
+      "topic": "The English legal system",
+      "question_text": "When interpreting a statute, which of the following is a presumption that the courts apply unless the statute clearly indicates otherwise?",
+      "options": {
+        "A": "A statute is intended to change the existing common law as widely as possible",
+        "B": "A criminal offence requires proof of a guilty mind (mens rea)",
+        "C": "A statute is intended to operate retrospectively",
+        "D": "A statute binds the Crown in all cases"
+      },
+      "correct": "B",
+      "explanation": "The courts presume that Parliament does not intend to create criminal liability without fault, so mens rea is required unless excluded expressly or by necessary implication. The opposite presumptions apply to the other options: a statute is presumed not to alter the common law more than necessary, not to have retrospective effect, and not to bind the Crown unless it says so.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c02-q001",
+      "chapter": 2,
+      "topic": "Formation of contract",
+      "question_text": "A bookshop displays a novel in its window with a price label of 12. In law, what is the display?",
+      "options": {
+        "A": "An offer to sell to anyone who tenders the price",
+        "B": "A unilateral offer",
+        "C": "An invitation to treat",
+        "D": "An acceptance of customers' offers"
+      },
+      "correct": "C",
+      "explanation": "Goods displayed in a shop window or on shelves are an invitation to treat, as in Fisher v Bell and Pharmaceutical Society of Great Britain v Boots Cash Chemists. The customer makes the offer when presenting the goods for purchase, and the shop may accept or reject it. The shop therefore cannot be forced to sell at the displayed price.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c02-q002",
+      "chapter": 2,
+      "topic": "Formation of contract",
+      "question_text": "In Carlill v Carbolic Smoke Ball Co, why was the advertisement held to be an offer rather than an invitation to treat?",
+      "options": {
+        "A": "It was a unilateral offer to the world, made with clear intention to be bound, which could be accepted by performing the stated conditions",
+        "B": "It was addressed to a named individual who replied in writing",
+        "C": "Advertisements are always treated as offers in English law",
+        "D": "The company had received consideration before publishing it"
+      },
+      "correct": "A",
+      "explanation": "The advertisement promised a reward to anyone who used the smoke ball as directed and still caught influenza, and the deposit of money with the bank showed an intention to be bound. A unilateral offer can be made to the world at large and is accepted by performing the act; notification of acceptance is waived. Most advertisements are invitations to treat (Partridge v Crittenden), so the outcome depended on the wording.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c02-q003",
+      "chapter": 2,
+      "topic": "Formation of contract",
+      "question_text": "Ana offers to sell her car to Ben for 8,000. Ben replies 'I will pay 7,000'. Ana refuses. Ben then says he will pay 8,000 after all. What is the legal position?",
+      "options": {
+        "A": "There is no contract because Ben's counter-offer destroyed Ana's original offer",
+        "B": "There is a contract at 8,000 because Ben has accepted the original offer",
+        "C": "There is a contract at 7,000 because Ben's reply was the last communication before agreement",
+        "D": "There is a contract at 8,000 only if Ana's offer was made in writing"
+      },
+      "correct": "A",
+      "explanation": "A counter-offer rejects the original offer and brings it to an end, as in Hyde v Wrench. Ben's later attempt to accept 8,000 is therefore a fresh offer, which Ana is free to accept or reject. Writing is not required for a contract to sell a car.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c02-q004",
+      "chapter": 2,
+      "topic": "Formation of contract",
+      "question_text": "Chen posts a letter accepting an offer on Monday. The letter is properly addressed and stamped but is lost in the post and never arrives. The offer said nothing about how acceptance should be communicated, and use of the post was reasonable. When was a contract formed?",
+      "options": {
+        "A": "Never, because the acceptance was not received",
+        "B": "On Monday, when the letter was posted",
+        "C": "When the offeror would normally have received the letter",
+        "D": "Only when Chen confirms the acceptance by another method"
+      },
+      "correct": "B",
+      "explanation": "Under the postal rule in Adams v Lindsell, acceptance is complete when a properly addressed and stamped letter is posted, where post is a reasonable method of acceptance. Household Fire Insurance v Grant confirms that this applies even if the letter is lost. The offeror can exclude the rule by requiring actual communication, as in Holwell Securities v Hughes, but did not do so here.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c02-q005",
+      "chapter": 2,
+      "topic": "Formation of contract",
+      "question_text": "On 1 May Dev offers to sell land to Eve and promises to keep the offer open until 10 May. Eve gives nothing for this promise. On 5 May Eve learns from a reliable third party that Dev has sold the land to someone else. On 7 May Eve purports to accept. What is the legal position?",
+      "options": {
+        "A": "There is a contract, because Dev promised to keep the offer open until 10 May",
+        "B": "There is a contract, because revocation must be communicated by the offeror personally",
+        "C": "There is a contract, because an offer to sell land cannot be revoked once made",
+        "D": "There is no contract, because the offer was effectively revoked when Eve learned of the sale from a reliable source"
+      },
+      "correct": "D",
+      "explanation": "A promise to keep an offer open is not binding unless supported by consideration (Routledge v Grant), so Dev could revoke before acceptance. Revocation must be communicated, but Dickinson v Dodds shows that communication via a reliable third party is sufficient. Eve's attempted acceptance came after the effective revocation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c02-q006",
+      "chapter": 2,
+      "topic": "Formation of contract",
+      "question_text": "Which of the following statements about acceptance is correct?",
+      "options": {
+        "A": "An acceptance by email is effective when it is sent",
+        "B": "An acceptance may add minor new terms without affecting its validity",
+        "C": "A person can accept an offer of a reward even if they were unaware of it when they acted",
+        "D": "Silence cannot normally amount to acceptance, even if the offeror states that it will"
+      },
+      "correct": "D",
+      "explanation": "Felthouse v Bindley establishes that an offeror cannot impose a contract by stating that silence will be taken as acceptance. For instantaneous communication, acceptance is generally effective when received (Entores v Miles Far East). An acceptance must mirror the offer exactly, and a person must know of an offer in order to accept it.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c02-q007",
+      "chapter": 2,
+      "topic": "Formation of contract",
+      "question_text": "Which of the following best describes the rule that consideration 'must be sufficient but need not be adequate'?",
+      "options": {
+        "A": "The consideration must be roughly equal in value to the other party's promise",
+        "B": "The consideration must be paid in money",
+        "C": "The consideration must have some value recognised by law, but the courts will not assess whether the bargain is a fair one",
+        "D": "The consideration must be provided before the contract is made"
+      },
+      "correct": "C",
+      "explanation": "The courts do not judge the adequacy of a bargain; they only require that the consideration has some legal value. In Chappell v Nestle chocolate wrappers were held to be part of the consideration even though they were of trivial value to the defendant. Consideration need not be money, and consideration provided before the promise is usually past consideration and invalid.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c02-q008",
+      "chapter": 2,
+      "topic": "Formation of contract",
+      "question_text": "A builder agrees to build flats for a fixed price. Part way through, the builder runs into financial difficulty and the client, fearing late completion penalties under its own contract, promises an extra payment per flat completed. No duress is involved. Following Williams v Roffey Bros, is the promise of extra payment enforceable?",
+      "options": {
+        "A": "No, because performing an existing contractual duty can never be consideration",
+        "B": "No, because promises to pay more are only enforceable if made by deed",
+        "C": "Yes, but only if the builder also agreed to do additional work beyond the original contract",
+        "D": "Yes, because the client obtained a practical benefit from the continued performance"
+      },
+      "correct": "D",
+      "explanation": "Stilk v Myrick held that performing an existing contractual duty owed to the promisor is not consideration. Williams v Roffey qualified this: where the promisor obtains a practical benefit or avoids a disbenefit, and there is no economic duress or fraud, the promise to pay more is enforceable. Additional work (as in Hartley v Ponsonby) is not necessary under the Williams v Roffey approach.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-lw-c02-q009",
+      "chapter": 2,
+      "topic": "Formation of contract",
+      "question_text": "Gina owes Hal 10,000, due on 30 June. On that date Hal agrees to accept 7,000 in full settlement and Gina pays it. Hal later sues for the balance. Applying Pinnel's Case and Foakes v Beer, what is the likely outcome?",
+      "options": {
+        "A": "Hal can recover the remaining 3,000, because part payment of a debt on the due date is not consideration for a promise to forgo the balance",
+        "B": "Hal cannot recover anything further, because he agreed to accept 7,000",
+        "C": "Hal can recover the 3,000 only if he can show that Gina acted fraudulently",
+        "D": "Hal cannot recover because Gina obtained a practical benefit under Williams v Roffey"
+      },
+      "correct": "A",
+      "explanation": "The rule in Pinnel's Case, affirmed in Foakes v Beer, is that payment of a smaller sum on the due date cannot discharge a larger debt. The position would differ if some new element were introduced at the creditor's request, such as earlier payment or payment in a different form. The practical benefit principle in Williams v Roffey does not apply to part payment of debts (Re Selectmove).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-lw-c02-q010",
+      "chapter": 2,
+      "topic": "Formation of contract",
+      "question_text": "Which of the following best describes the doctrine of promissory estoppel as established in Central London Property Trust v High Trees House?",
+      "options": {
+        "A": "It prevents a promisor going back on a promise not to enforce strict legal rights where the promisee has relied on it, but it can only be used as a defence",
+        "B": "It allows a promisee to sue on any gratuitous promise on which they have relied",
+        "C": "It permanently extinguishes all the promisor's rights in every case",
+        "D": "It applies only to promises made in writing and signed by the promisor"
+      },
+      "correct": "A",
+      "explanation": "Promissory estoppel prevents a party from going back on a promise to waive or suspend rights where the other party has relied on it and it would be inequitable to allow resiling. Combe v Combe confirms that it is 'a shield, not a sword', so it cannot found a cause of action. It usually suspends rather than extinguishes rights, which can often be revived on reasonable notice.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c02-q011",
+      "chapter": 2,
+      "topic": "Formation of contract",
+      "question_text": "Which of the following agreements is presumed NOT to be intended to create legal relations?",
+      "options": {
+        "A": "An arrangement between a husband and wife living together about household spending money",
+        "B": "An agreement between two companies to supply goods",
+        "C": "An agreement between an employer and an employee about a bonus",
+        "D": "An arrangement between a separated husband and wife about the transfer of the matrimonial home"
+      },
+      "correct": "A",
+      "explanation": "Domestic and social arrangements are presumed not to be legally binding (Balfour v Balfour). The presumption may be rebutted, for example where spouses have separated and record their agreement (Merritt v Merritt). Commercial agreements, including those between employer and employee, are presumed to be legally binding unless clearly stated otherwise.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c02-q012",
+      "chapter": 2,
+      "topic": "Formation of contract",
+      "question_text": "Under the Contracts (Rights of Third Parties) Act 1999, in which situation can a third party enforce a term of a contract?",
+      "options": {
+        "A": "Whenever the third party would benefit financially from performance of the contract",
+        "B": "Only where the third party has provided consideration to one of the parties",
+        "C": "Only where the third party is a close family member of one of the parties",
+        "D": "Where the contract expressly provides that the third party may enforce it, or a term purports to confer a benefit on the third party who is identified in the contract"
+      },
+      "correct": "D",
+      "explanation": "The common law rule of privity (Tweddle v Atkinson, Dunlop v Selfridge) prevents non-parties enforcing a contract. The 1999 Act allows a third party to enforce a term if the contract expressly says so or if the term purports to confer a benefit on them and they are identified by name, class or description, unless the parties did not intend it to be enforceable by them. Incidental benefit alone is not enough, and no consideration from the third party is required.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c03-q001",
+      "chapter": 3,
+      "topic": "Contract terms",
+      "question_text": "What is the main legal consequence of breach of a condition, as opposed to breach of a warranty?",
+      "options": {
+        "A": "The innocent party may claim damages only",
+        "B": "The innocent party may treat the contract as discharged and also claim damages",
+        "C": "The contract is automatically void from the beginning",
+        "D": "The innocent party may only claim an equitable remedy"
+      },
+      "correct": "B",
+      "explanation": "A condition is a term going to the root of the contract, so breach entitles the innocent party to terminate as well as claim damages (compare Poussard v Spiers). A warranty is a minor term whose breach gives a right to damages only (Bettini v Gye). Breach does not make the contract void ab initio.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c03-q002",
+      "chapter": 3,
+      "topic": "Contract terms",
+      "question_text": "In Hong Kong Fir Shipping v Kawasaki Kisen Kaisha the court recognised 'innominate terms'. How is the remedy for breach of an innominate term determined?",
+      "options": {
+        "A": "By whether the parties labelled the term a condition in the contract",
+        "B": "It is always treated as a warranty, giving rise to damages only",
+        "C": "By the seriousness of the consequences of the breach: termination is available only if the innocent party is deprived of substantially the whole benefit of the contract",
+        "D": "By whether the breach was deliberate or accidental"
+      },
+      "correct": "C",
+      "explanation": "An innominate (intermediate) term cannot be classified in advance as a condition or warranty. The court looks at the effect of the breach: if it deprives the innocent party of substantially the whole benefit, they may terminate; otherwise only damages are available. In Hong Kong Fir the ship's unseaworthiness caused delay that was not serious enough to justify termination.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c03-q003",
+      "chapter": 3,
+      "topic": "Contract terms",
+      "question_text": "A court is asked to imply a term into a commercial contract on the basis of the facts. Which test did the court use in The Moorcock?",
+      "options": {
+        "A": "Whether the term is necessary to give business efficacy to the contract",
+        "B": "Whether the term would make the contract fairer to the weaker party",
+        "C": "Whether the term was mentioned during negotiations",
+        "D": "Whether the term is implied by the Consumer Rights Act 2015"
+      },
+      "correct": "A",
+      "explanation": "The Moorcock established the business efficacy test: a term will be implied if it is necessary to make the contract work as the parties must have intended. The related officious bystander test (Shirlaw v Southern Foundries) asks whether the term is so obvious that it goes without saying. Courts will not imply terms merely because they would be reasonable or fair.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c03-q004",
+      "chapter": 3,
+      "topic": "Contract terms",
+      "question_text": "Under the Consumer Rights Act 2015, which of the following terms is implied into a contract for a trader to supply goods to a consumer?",
+      "options": {
+        "A": "The goods will be delivered within 24 hours",
+        "B": "The goods will be the cheapest available on the market",
+        "C": "The goods will be of satisfactory quality",
+        "D": "The trader will provide a free replacement for any reason within 12 months"
+      },
+      "correct": "C",
+      "explanation": "The Consumer Rights Act 2015 treats goods supplied by a trader to a consumer as including terms that they are of satisfactory quality, fit for any particular purpose made known, and match their description, sample or model. There is no statutory term about price competitiveness, next-day delivery or replacement for any reason. Equivalent implied terms for business-to-business sales are found in the Sale of Goods Act 1979.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c03-q005",
+      "chapter": 3,
+      "topic": "Contract terms",
+      "question_text": "Mrs Olley booked into a hotel and paid at reception. A notice in her bedroom excluded the hotel's liability for lost property. Her furs were stolen through the hotel's negligence. Why was the hotel unable to rely on the notice in Olley v Marlborough Court Hotel?",
+      "options": {
+        "A": "The notice was not incorporated because it was seen only after the contract had been made",
+        "B": "Exclusion clauses are never valid in contracts with hotels",
+        "C": "The notice was in too small a print size",
+        "D": "The hotel had not signed the notice"
+      },
+      "correct": "A",
+      "explanation": "To be incorporated, an exclusion clause must be brought to the other party's attention before or at the time the contract is made. The contract was concluded at the reception desk, so a notice in the bedroom came too late. Signature is a separate method of incorporation (L'Estrange v Graucob), and nothing in the case depended on print size.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c03-q006",
+      "chapter": 3,
+      "topic": "Contract terms",
+      "question_text": "Lia signs a written contract to buy equipment without reading it. The contract contains an exclusion clause. There is no misrepresentation about its contents. Applying L'Estrange v Graucob, what is the position?",
+      "options": {
+        "A": "Lia is bound by the clause because she signed the document",
+        "B": "Lia is not bound because she did not read the clause",
+        "C": "Lia is bound only if the clause was printed in red ink",
+        "D": "Lia is not bound because exclusion clauses must be separately initialled"
+      },
+      "correct": "A",
+      "explanation": "Where a person signs a contractual document they are generally bound by its terms whether or not they read them. The position differs if the effect of the clause was misrepresented (Curtis v Chemical Cleaning and Dyeing Co). Whether the clause is ultimately effective may still depend on statutory controls such as the Unfair Contract Terms Act 1977.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c03-q007",
+      "chapter": 3,
+      "topic": "Contract terms",
+      "question_text": "In a business-to-business contract, a supplier includes a clause excluding liability for death or personal injury resulting from its negligence. Under the Unfair Contract Terms Act 1977, what is the effect of this clause?",
+      "options": {
+        "A": "It is valid if it satisfies the requirement of reasonableness",
+        "B": "It is valid because UCTA 1977 applies only to consumer contracts",
+        "C": "It is void and of no effect",
+        "D": "It is valid if the customer signed the contract"
+      },
+      "correct": "C",
+      "explanation": "Section 2(1) of UCTA 1977 provides that a person cannot, by any contract term or notice, exclude or restrict liability for death or personal injury resulting from negligence. Exclusion of liability for other loss caused by negligence is subject to the reasonableness test. UCTA continues to govern business-to-business contracts, while consumer contracts are now covered by the Consumer Rights Act 2015.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c03-q008",
+      "chapter": 3,
+      "topic": "Contract terms",
+      "question_text": "An exclusion clause is ambiguous and could be read in two ways, one of which favours the party seeking to rely on it. Which rule of interpretation will the court apply?",
+      "options": {
+        "A": "The contra proferentem rule, construing the ambiguity against the party relying on the clause",
+        "B": "The literal rule, applying the meaning most favourable to the supplier",
+        "C": "The ejusdem generis rule, limiting the clause to similar types of loss",
+        "D": "The postal rule, treating the clause as effective when sent"
+      },
+      "correct": "A",
+      "explanation": "Under the contra proferentem rule any ambiguity in an exclusion clause is resolved against the party who inserted it and seeks to rely on it. This reflects the courts' traditionally strict approach to exclusion clauses. The other rules listed relate to statutory interpretation or contract formation rather than the construction of exclusion clauses.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c03-q009",
+      "chapter": 3,
+      "topic": "Contract terms",
+      "question_text": "Under the Consumer Rights Act 2015, when is a term in a consumer contract regarded as unfair?",
+      "options": {
+        "A": "When it is not printed in bold type",
+        "B": "When it sets a price higher than the market rate, even if the price is transparent and prominent",
+        "C": "When, contrary to the requirement of good faith, it causes a significant imbalance in the parties' rights and obligations to the detriment of the consumer",
+        "D": "When the consumer did not read it before entering the contract"
+      },
+      "correct": "C",
+      "explanation": "Section 62 of the Consumer Rights Act 2015 provides that a term is unfair if, contrary to good faith, it causes a significant imbalance to the consumer's detriment, and an unfair term is not binding on the consumer. Terms specifying the main subject matter or the price are not assessed for fairness if they are transparent and prominent. Failure to read a term or its typeface does not by itself make it unfair.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-lw-c03-q010",
+      "chapter": 3,
+      "topic": "Contract terms",
+      "question_text": "A statement made during negotiations is classified as a representation rather than a term. Which factor would most strongly suggest that a statement is instead a term of the contract?",
+      "options": {
+        "A": "There was a long interval between the statement and the conclusion of the contract",
+        "B": "The statement was later omitted from a written contract",
+        "C": "The maker of the statement had special knowledge or skill compared with the other party",
+        "D": "The maker asked the other party to check the statement independently"
+      },
+      "correct": "C",
+      "explanation": "Courts consider the importance of the statement, the timing, whether it was later reduced to writing and the relative knowledge of the parties. In Dick Bentley Productions v Harold Smith Motors a dealer with special knowledge was held to have given a term, whereas in Oscar Chess v Williams a private seller's statement was a mere representation. A long interval, omission from the written contract and an invitation to verify all point towards a representation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c04-q001",
+      "chapter": 4,
+      "topic": "Breach of contract and remedies",
+      "question_text": "Before the date for performance, one party clearly states that it will not perform its obligations. What is this called and what may the innocent party do, as established in Hochster v De La Tour?",
+      "options": {
+        "A": "Anticipatory breach; the innocent party may sue immediately without waiting for the performance date",
+        "B": "Actual breach; the innocent party must wait until the date for performance before suing",
+        "C": "Frustration; the contract is automatically discharged",
+        "D": "Anticipatory breach; the innocent party may only seek specific performance"
+      },
+      "correct": "A",
+      "explanation": "An anticipatory breach occurs when a party indicates, before performance is due, that they will not perform. In Hochster v De La Tour the innocent party was allowed to sue for damages at once. Alternatively the innocent party may affirm the contract and wait for the date of performance, but then risks the contract being frustrated in the meantime (Avery v Bowden).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c04-q002",
+      "chapter": 4,
+      "topic": "Breach of contract and remedies",
+      "question_text": "Under the first limb of the rule in Hadley v Baxendale, which losses are recoverable for breach of contract?",
+      "options": {
+        "A": "All losses that were in fact caused by the breach, however unusual",
+        "B": "Losses arising naturally, according to the usual course of things, from the breach",
+        "C": "Only losses that the defendant actually intended to cause",
+        "D": "Only losses that were expressly listed in the contract"
+      },
+      "correct": "B",
+      "explanation": "Hadley v Baxendale allows recovery of losses that arise naturally from the breach (first limb) and losses which may reasonably be supposed to have been in the contemplation of both parties at the time of contracting as the probable result of breach (second limb), usually because of special knowledge. Losses outside these limbs are too remote. Liability does not depend on intention or on losses being listed in the contract.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c04-q003",
+      "chapter": 4,
+      "topic": "Breach of contract and remedies",
+      "question_text": "A laundry company bought a boiler that was delivered five months late. The seller knew the laundry needed it urgently but did not know of an especially lucrative government dyeing contract. Following Victoria Laundry v Newman Industries, which losses could the laundry recover?",
+      "options": {
+        "A": "Both the normal and exceptional lost profits, because both were caused by the delay",
+        "B": "Neither, because lost profits are never recoverable in contract",
+        "C": "The normal profits lost through the delay, but not the exceptional profits from the government contracts",
+        "D": "Only the exceptional profits, because they were the largest loss"
+      },
+      "correct": "C",
+      "explanation": "The seller knew the boiler was needed for immediate use, so ordinary lost profits were within reasonable contemplation and recoverable. The highly lucrative government contracts were not known to the seller, so the extra profits were too remote under the second limb of Hadley v Baxendale. Lost profits are recoverable in principle if not too remote.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-lw-c04-q004",
+      "chapter": 4,
+      "topic": "Breach of contract and remedies",
+      "question_text": "A contract states that if the builder finishes late it will pay 2,000 per week of delay. The amount was set after considering the client's likely losses. What is the clause most likely to be?",
+      "options": {
+        "A": "An enforceable liquidated damages clause",
+        "B": "An unenforceable penalty clause",
+        "C": "An exclusion clause subject to the reasonableness test",
+        "D": "A condition precedent to payment"
+      },
+      "correct": "A",
+      "explanation": "A clause fixing the sum payable on breach is enforceable if it protects a legitimate interest of the innocent party and is not extravagant, exorbitant or unconscionable, as restated in Cavendish Square Holding v Makdessi. A sum based on a genuine attempt to estimate loss, as discussed in Dunlop Pneumatic Tyre v New Garage, will readily satisfy this. Once a clause is valid, the agreed sum is recoverable whether actual loss is greater or smaller.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c04-q005",
+      "chapter": 4,
+      "topic": "Breach of contract and remedies",
+      "question_text": "Which of the following best describes the innocent party's duty to mitigate loss after a breach of contract?",
+      "options": {
+        "A": "The innocent party must take every possible step, regardless of cost, to avoid loss",
+        "B": "The innocent party must accept any offer of substitute performance from the party in breach on any terms",
+        "C": "The innocent party must take reasonable steps to minimise the loss and cannot recover loss that such steps would have avoided",
+        "D": "The innocent party has no duty to mitigate if the breach was deliberate"
+      },
+      "correct": "C",
+      "explanation": "The innocent party cannot recover damages for loss that could have been avoided by taking reasonable steps (British Westinghouse v Underground Electric Railways). The standard is reasonableness, not every possible step. In Payzu v Saunders it was reasonable to accept the defaulting seller's offer of cash terms, but this depends on the circumstances, and the duty applies whether or not the breach was deliberate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c04-q006",
+      "chapter": 4,
+      "topic": "Breach of contract and remedies",
+      "question_text": "In which situation is a court most likely to order specific performance?",
+      "options": {
+        "A": "A contract for the sale of a particular piece of land",
+        "B": "A contract for the sale of ordinary goods readily available elsewhere",
+        "C": "A contract of employment",
+        "D": "A contract where damages would fully compensate the innocent party"
+      },
+      "correct": "A",
+      "explanation": "Specific performance is a discretionary equitable remedy granted only where damages are inadequate. Land is regarded as unique, so specific performance is commonly ordered for contracts to sell land. Courts will not order it where substitutes are readily available, or for contracts of personal service such as employment.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c04-q007",
+      "chapter": 4,
+      "topic": "Breach of contract and remedies",
+      "question_text": "An actress contracted exclusively with a film company and agreed not to act for any other company during the contract. She left to work elsewhere. In Warner Bros v Nelson, what remedy did the court grant?",
+      "options": {
+        "A": "An injunction preventing her from acting for another film company during the contract period",
+        "B": "Specific performance ordering her to act for Warner Bros",
+        "C": "An injunction preventing her from doing any work at all",
+        "D": "Rescission of the contract and return of all payments made to her"
+      },
+      "correct": "A",
+      "explanation": "The court will not order specific performance of a contract of personal service, but may enforce an express negative stipulation by injunction. The injunction was limited to acting for other film companies, so she was not forced to perform for Warner Bros or face starvation, as she could still earn a living in other ways. Compare Page One Records v Britton, where an injunction was refused because it would in effect compel performance.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c04-q008",
+      "chapter": 4,
+      "topic": "Breach of contract and remedies",
+      "question_text": "An author was engaged to write a book for a series, and after he had done part of the work the publisher abandoned the series. What remedy allowed the author to recover reasonable payment for the work done in Planche v Colburn?",
+      "options": {
+        "A": "Rescission",
+        "B": "Rectification",
+        "C": "Quantum meruit",
+        "D": "Specific performance"
+      },
+      "correct": "C",
+      "explanation": "Quantum meruit ('as much as he has earned') allows a party to recover a reasonable sum for work done, for example where the other party prevents completion of performance. In Planche v Colburn the author recovered for the work done before the publisher abandoned the series. Rescission and rectification are equitable remedies concerned with setting aside or correcting a contract, and specific performance would compel completion.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c04-q009",
+      "chapter": 4,
+      "topic": "Breach of contract and remedies",
+      "question_text": "Under the Limitation Act 1980, what is the normal limitation period for an action for breach of a simple contract?",
+      "options": {
+        "A": "Three years from the date of the contract",
+        "B": "Twelve years from the date of the contract",
+        "C": "One year from the date of the breach",
+        "D": "Six years from the date on which the cause of action accrued"
+      },
+      "correct": "D",
+      "explanation": "An action for breach of a simple contract must normally be brought within six years of the date on which the breach occurred. For a contract made by deed (a speciality), the period is twelve years. Three years applies to personal injury claims, which are a separate category.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c04-q010",
+      "chapter": 4,
+      "topic": "Breach of contract and remedies",
+      "question_text": "Which of the following statements about damages for breach of contract is correct?",
+      "options": {
+        "A": "Damages may be awarded for mental distress where the purpose of the contract was to provide pleasure or relaxation, as in Jarvis v Swans Tours",
+        "B": "Damages are intended to punish the party in breach, so exemplary damages are routinely awarded",
+        "C": "Damages can never be awarded for the loss of a chance",
+        "D": "Damages normally aim to put the claimant in the position they were in before the contract was made, rather than the position if the contract had been performed"
+      },
+      "correct": "A",
+      "explanation": "The general aim of contract damages is to put the claimant in the position they would have been in had the contract been performed (expectation loss); reliance loss is an alternative in some cases. Distress damages are exceptionally available for contracts aimed at pleasure, such as holidays (Jarvis v Swans Tours). Loss of a chance can be compensated (Chaplin v Hicks), and punitive damages are not awarded for breach of contract.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-lw-c05-q001",
+      "chapter": 5,
+      "topic": "The law of torts and professional negligence",
+      "question_text": "Which case established the 'neighbour principle' as the foundation of the modern law of negligence?",
+      "options": {
+        "A": "Donoghue v Stevenson",
+        "B": "Carlill v Carbolic Smoke Ball Co",
+        "C": "Salomon v A Salomon & Co Ltd",
+        "D": "Hadley v Baxendale"
+      },
+      "correct": "A",
+      "explanation": "In Donoghue v Stevenson Lord Atkin stated that you must take reasonable care to avoid acts or omissions which you can reasonably foresee would be likely to injure your neighbour, meaning persons so closely and directly affected that you ought to have them in contemplation. The other cases concern contractual offers, corporate personality and remoteness of contractual damage.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c05-q002",
+      "chapter": 5,
+      "topic": "The law of torts and professional negligence",
+      "question_text": "In novel situations, the courts have used the three-stage test from Caparo Industries v Dickman to determine whether a duty of care exists. Which of the following is NOT one of the three stages?",
+      "options": {
+        "A": "The harm was reasonably foreseeable",
+        "B": "The defendant intended to cause the claimant harm",
+        "C": "There was a relationship of sufficient proximity between the parties",
+        "D": "It is fair, just and reasonable to impose a duty"
+      },
+      "correct": "B",
+      "explanation": "The Caparo test asks whether damage was reasonably foreseeable, whether there was sufficient proximity, and whether it is fair, just and reasonable to impose a duty. Negligence does not require any intention to cause harm; it is based on a failure to take reasonable care. Courts now develop new duties incrementally by analogy with established categories, but Caparo remains the standard examination framework.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c05-q003",
+      "chapter": 5,
+      "topic": "The law of torts and professional negligence",
+      "question_text": "A cricket ball was hit out of a ground and injured a passer-by. Balls had left the ground only a handful of times in many years. In Bolton v Stone, why was the cricket club held not to be in breach of duty?",
+      "options": {
+        "A": "The club owed no duty of care to people outside the ground",
+        "B": "The claimant consented to the risk by walking near a cricket ground",
+        "C": "The risk of injury was so small that a reasonable person would not have taken further precautions",
+        "D": "The injury was too remote because a cricket ball is not dangerous"
+      },
+      "correct": "C",
+      "explanation": "Breach is assessed by comparing the defendant's conduct with that of a reasonable person, considering the probability of harm, its seriousness, the cost of precautions and the social value of the activity. In Bolton v Stone the likelihood of injury was very small, so the club was not negligent in failing to take further steps. The case did not turn on the absence of a duty, consent or remoteness.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c05-q004",
+      "chapter": 5,
+      "topic": "The law of torts and professional negligence",
+      "question_text": "An employer knew that one of its employees was blind in one eye but did not provide him with safety goggles. He was struck in his good eye and became totally blind. In Paris v Stepney Borough Council, which factor was decisive in finding the employer in breach?",
+      "options": {
+        "A": "The seriousness of the potential harm to that particular employee",
+        "B": "The high cost of providing goggles",
+        "C": "The social utility of the employer's activity",
+        "D": "The employee's failure to request goggles"
+      },
+      "correct": "A",
+      "explanation": "Paris v Stepney shows that the more serious the consequences of an injury, the greater the precautions a reasonable person would take. Because the claimant risked total blindness, the employer should have provided goggles even if it would not have needed to do so for other workers. Cost of precautions is a separate factor illustrated by Latimer v AEC.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c05-q005",
+      "chapter": 5,
+      "topic": "The law of torts and professional negligence",
+      "question_text": "A patient attended hospital with severe vomiting and was sent home without examination by the doctor on duty. He died of arsenic poisoning that could not have been treated in time even if he had been examined. In Barnett v Chelsea and Kensington Hospital, why did the claim fail?",
+      "options": {
+        "A": "The hospital owed no duty of care to a patient who had not been admitted",
+        "B": "The doctor's failure to examine was not a breach of duty",
+        "C": "The type of harm was not reasonably foreseeable",
+        "D": "The breach of duty was not the factual cause of the death under the 'but for' test"
+      },
+      "correct": "D",
+      "explanation": "Although the doctor breached his duty by failing to examine the patient, the patient would have died anyway. The 'but for' test asks whether the harm would have occurred but for the defendant's breach; here it would have, so causation was not established. The case is a standard illustration of factual causation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c05-q006",
+      "chapter": 5,
+      "topic": "The law of torts and professional negligence",
+      "question_text": "Oil was negligently spilled into a harbour and later caught fire, damaging the claimant's wharf. Expert evidence showed that fire damage was not reasonably foreseeable, although fouling of the wharf by oil was. In The Wagon Mound (No 1), what was the result?",
+      "options": {
+        "A": "The defendant was liable for all direct consequences of its negligence, including the fire",
+        "B": "The defendant was liable because the eggshell skull rule applies to property",
+        "C": "The defendant was not liable for the fire damage because that type of damage was not reasonably foreseeable",
+        "D": "The defendant was not liable for anything because it owed no duty to the wharf owners"
+      },
+      "correct": "C",
+      "explanation": "The Wagon Mound (No 1) rejected the direct consequences test from Re Polemis and held that a defendant is liable only for damage of a kind that was reasonably foreseeable. Since fire damage was not foreseeable, it was too remote. Provided the type of harm is foreseeable, the precise manner or extent need not be (Hughes v Lord Advocate; Smith v Leech Brain).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-lw-c05-q007",
+      "chapter": 5,
+      "topic": "The law of torts and professional negligence",
+      "question_text": "A claimant suffers a minor burn caused by the defendant's negligence. Because of a pre-existing condition, the burn triggers cancer and the claimant dies. Following Smith v Leech Brain & Co, what is the defendant's liability?",
+      "options": {
+        "A": "The defendant is liable for the full consequences, because the defendant must take the victim as they find them",
+        "B": "The defendant is liable only for the minor burn, because the cancer was not foreseeable",
+        "C": "The defendant is not liable at all, because the pre-existing condition broke the chain of causation",
+        "D": "The defendant is liable only if they knew about the pre-existing condition"
+      },
+      "correct": "A",
+      "explanation": "Under the 'eggshell skull' rule, once some injury of a foreseeable type is caused, the defendant is liable for its full extent even if it is unusually severe because of the claimant's particular vulnerability. In Smith v Leech Brain a burn from molten metal activated a pre-malignant condition and the employer was liable for the death. The defendant's knowledge of the condition is irrelevant.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c05-q008",
+      "chapter": 5,
+      "topic": "The law of torts and professional negligence",
+      "question_text": "A claimant was injured partly through the defendant's negligence and partly through failing to wear a seat belt. Under the Law Reform (Contributory Negligence) Act 1945, what is the effect of the claimant's fault?",
+      "options": {
+        "A": "The damages are reduced to the extent the court thinks just and equitable having regard to the claimant's share of responsibility",
+        "B": "The claim fails completely",
+        "C": "The defendant's liability is unaffected",
+        "D": "The claimant must pay damages to the defendant"
+      },
+      "correct": "A",
+      "explanation": "Contributory negligence is a partial defence. Under the 1945 Act damages are reduced in proportion to the claimant's share of responsibility for the damage. It no longer operates as a complete defence. A complete defence would be volenti non fit injuria, where the claimant voluntarily accepted the risk.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c05-q009",
+      "chapter": 5,
+      "topic": "The law of torts and professional negligence",
+      "question_text": "In Hedley Byrne & Co v Heller & Partners, the House of Lords recognised that a duty of care could arise in respect of negligent misstatements causing pure economic loss. Why did the claimant's action nevertheless fail?",
+      "options": {
+        "A": "Pure economic loss is never recoverable in negligence",
+        "B": "The claimant had not paid the bank for the reference, so no duty could arise in any circumstances",
+        "C": "The reference was accurate, so there was no breach",
+        "D": "The bank had given its reference 'without responsibility', which effectively disclaimed liability"
+      },
+      "correct": "D",
+      "explanation": "Hedley Byrne established that a duty can arise where there is a special relationship, the defendant assumes responsibility and the claimant reasonably relies on the statement. On the facts the bank's disclaimer prevented any assumption of responsibility, so the claim failed. The absence of payment did not in itself prevent a duty arising, and the reference had in fact been inaccurate.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-lw-c05-q010",
+      "chapter": 5,
+      "topic": "The law of torts and professional negligence",
+      "question_text": "An investor bought shares in a company relying on audited accounts that negligently overstated profits, and suffered a loss. Applying Caparo Industries v Dickman, to whom do the auditors normally owe a duty of care in respect of their statutory audit report?",
+      "options": {
+        "A": "To any member of the public who reads the accounts",
+        "B": "To any existing shareholder who buys further shares in reliance on the accounts",
+        "C": "To any potential investor whom the auditors could foresee might rely on the accounts",
+        "D": "To the company, and to the shareholders only as a body for the purpose of exercising their governance rights"
+      },
+      "correct": "D",
+      "explanation": "In Caparo the House of Lords held that the statutory audit is for the shareholders as a body to exercise informed control of the company, not to guide individual investment decisions. Auditors therefore owe no duty to individual shareholders or potential investors buying shares, unless additional facts show a special relationship, such as where the auditor knew the accounts would be relied on by a specific party for a specific transaction (as considered in ADT v BDO Binder Hamlyn). Mere foreseeability of reliance is insufficient.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-lw-c05-q011",
+      "chapter": 5,
+      "topic": "The law of torts and professional negligence",
+      "question_text": "In which situation does the doctrine of res ipsa loquitur most commonly assist a claimant in negligence?",
+      "options": {
+        "A": "Where the thing causing harm was under the defendant's control and the accident would not normally happen without negligence, and the cause is unknown",
+        "B": "Where the defendant has admitted liability in correspondence",
+        "C": "Where the claimant has voluntarily accepted the risk of injury",
+        "D": "Where the defendant is a professional whose conduct is supported by a responsible body of opinion"
+      },
+      "correct": "A",
+      "explanation": "Res ipsa loquitur ('the thing speaks for itself') allows an inference of negligence where the defendant controlled the thing, the event would not ordinarily occur without negligence and there is no explanation of how it happened, as in Scott v London and St Katherine Docks (sacks of sugar falling from a warehouse). The defendant must then show it was not negligent. The professional standard reference describes the Bolam test, which helps defendants rather than claimants.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c06-q001",
+      "chapter": 6,
+      "topic": "Employment law",
+      "question_text": "Which test, illustrated by Ready Mixed Concrete v Minister of Pensions, is used by the courts to decide whether a person is an employee by considering all the features of the relationship?",
+      "options": {
+        "A": "The multiple (economic reality) test",
+        "B": "The control test only",
+        "C": "The officious bystander test",
+        "D": "The but for test"
+      },
+      "correct": "A",
+      "explanation": "Ready Mixed Concrete established that a contract of service exists where the worker provides work and skill in return for a wage, accepts a sufficient degree of control, and the other provisions are consistent with employment. Courts therefore weigh many factors, including mutuality of obligation and personal service. Control alone is no longer decisive, and the other tests relate to implied terms and causation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c06-q002",
+      "chapter": 6,
+      "topic": "Employment law",
+      "question_text": "A contract allows a driver to send any substitute driver in her place when she is unable to work. Following Express & Echo Publications v Tanton, why does this point away from employment?",
+      "options": {
+        "A": "Drivers can never be employees",
+        "B": "The right to send a substitute shows the employer exercises a high degree of control",
+        "C": "A contract of employment must be made in writing",
+        "D": "An unfettered right of substitution is inconsistent with the requirement of personal service"
+      },
+      "correct": "D",
+      "explanation": "A contract of employment requires the worker to perform the work personally. Where the worker has a genuine right to send a substitute, the obligation of personal service is absent, which strongly indicates self-employment. Employment contracts need not be in writing, although a written statement of particulars must be supplied.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c06-q003",
+      "chapter": 6,
+      "topic": "Employment law",
+      "question_text": "Which of the following is a common law duty implied into every contract of employment on the part of the EMPLOYER?",
+      "options": {
+        "A": "A duty to provide a reference for every former employee",
+        "B": "A duty to give a pay rise each year",
+        "C": "A duty to provide work at all times regardless of whether payment is made",
+        "D": "A duty not to destroy the relationship of mutual trust and confidence"
+      },
+      "correct": "D",
+      "explanation": "Employers are subject to implied duties to pay agreed wages, take reasonable care for employees' safety, and not, without reasonable cause, act in a way likely to destroy mutual trust and confidence. There is no general duty to provide a reference or annual pay increases. A duty to provide work exists only in limited cases, such as where earnings depend on work being given.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c06-q004",
+      "chapter": 6,
+      "topic": "Employment law",
+      "question_text": "Which of the following is a duty implied by common law on the part of the EMPLOYEE?",
+      "options": {
+        "A": "To work unlimited unpaid overtime when requested",
+        "B": "To obey every instruction, whether lawful or not",
+        "C": "To give faithful service and not to compete with the employer during the employment",
+        "D": "To disclose any personal financial difficulties to the employer"
+      },
+      "correct": "C",
+      "explanation": "Employees owe implied duties of fidelity (faithful service), reasonable care and skill, and obedience to lawful and reasonable orders. In Hivac v Park Royal Scientific Instruments employees breached their duty of fidelity by working for a competitor in their spare time. There is no duty to obey unlawful orders, and no general duty to disclose personal financial matters.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c06-q005",
+      "chapter": 6,
+      "topic": "Employment law",
+      "question_text": "An employer dismisses an employee with immediate effect, without notice, for being five minutes late on one occasion. The employee's contract requires one month's notice. What claim is most clearly available at common law?",
+      "options": {
+        "A": "Redundancy payment, because the post ceased to exist",
+        "B": "Wrongful dismissal, entitling the employee to damages normally based on pay for the notice period",
+        "C": "Constructive dismissal, because the employee resigned",
+        "D": "No claim, because an employer may always dismiss without notice"
+      },
+      "correct": "B",
+      "explanation": "Wrongful dismissal is a common law claim for breach of contract, typically dismissal without the notice required by the contract or statute where there is no gross misconduct justifying summary dismissal. A single minor lateness is unlikely to amount to gross misconduct. Damages usually reflect the wages and benefits the employee would have earned during the notice period, subject to mitigation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c06-q006",
+      "chapter": 6,
+      "topic": "Employment law",
+      "question_text": "Under the Employment Rights Act 1996, which of the following is NOT one of the potentially fair reasons for dismissal?",
+      "options": {
+        "A": "The employee's capability or qualifications",
+        "B": "The employee's conduct",
+        "C": "Redundancy",
+        "D": "The employee's membership of a trade union"
+      },
+      "correct": "D",
+      "explanation": "The potentially fair reasons are capability or qualifications, conduct, redundancy, statutory restriction (where continued employment would be illegal) and some other substantial reason. Dismissal because of trade union membership or activities is automatically unfair. Even where a potentially fair reason exists, the employer must also act reasonably in treating it as sufficient reason for dismissal.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c06-q007",
+      "chapter": 6,
+      "topic": "Employment law",
+      "question_text": "An employer unilaterally cuts an employee's salary by a quarter without agreement. The employee resigns promptly in response. Following Western Excavating v Sharp, what is the employee most likely able to claim?",
+      "options": {
+        "A": "Nothing, because an employee who resigns can never claim to have been dismissed",
+        "B": "Redundancy, because the employee's role has changed",
+        "C": "Constructive dismissal, because the employer committed a repudiatory breach of a fundamental term",
+        "D": "Wrongful dismissal only if the employer gave notice of the cut in writing"
+      },
+      "correct": "C",
+      "explanation": "Constructive dismissal occurs where the employee resigns in response to a repudiatory breach of contract by the employer. Western Excavating v Sharp established that the employer's conduct must be a significant breach going to the root of the contract, not merely unreasonable behaviour. A unilateral substantial pay cut is a classic example, and the employee should resign without undue delay to avoid being treated as accepting the change.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-lw-c06-q008",
+      "chapter": 6,
+      "topic": "Employment law",
+      "question_text": "Which of the following situations falls within the statutory definition of redundancy under the Employment Rights Act 1996?",
+      "options": {
+        "A": "The employee is dismissed for persistent poor time-keeping",
+        "B": "The employee's performance is below the required standard",
+        "C": "The employer's requirements for employees to carry out work of a particular kind at the employee's workplace have diminished",
+        "D": "The business is sold and all employees transfer to the buyer on the same terms"
+      },
+      "correct": "C",
+      "explanation": "Redundancy arises where dismissal is wholly or mainly due to the employer ceasing (or intending to cease) business, ceasing business at the employee's place of work, or a reduction in the requirement for employees to do work of a particular kind. Dismissal for conduct or capability is not redundancy. On a business transfer covered by the transfer of undertakings rules, employees transfer automatically, so no dismissal occurs.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c06-q009",
+      "chapter": 6,
+      "topic": "Employment law",
+      "question_text": "An employee under notice of redundancy is offered suitable alternative employment by the employer and unreasonably refuses it. What is the effect on the employee's entitlement to a statutory redundancy payment?",
+      "options": {
+        "A": "The employee receives double the normal redundancy payment",
+        "B": "The employee loses the right to a statutory redundancy payment",
+        "C": "The employee's entitlement is unaffected because the original job has gone",
+        "D": "The employee becomes entitled to claim wrongful dismissal instead"
+      },
+      "correct": "B",
+      "explanation": "Where an employer offers suitable alternative employment and the employee unreasonably refuses it (or unreasonably leaves during the statutory trial period), the employee is not entitled to a redundancy payment. Whether the offer is suitable and the refusal unreasonable depends on factors such as pay, status, location and the employee's personal circumstances. The refusal does not create a wrongful dismissal claim.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c06-q010",
+      "chapter": 6,
+      "topic": "Employment law",
+      "question_text": "A milkman was expressly forbidden by his employer to give lifts to passengers. He nevertheless allowed a boy to help him deliver milk, and the boy was injured by his negligent driving. In Rose v Plenty, why was the employer vicariously liable?",
+      "options": {
+        "A": "The employer had expressly consented to the boy's presence",
+        "B": "The employee was doing an authorised act (delivering milk) in an unauthorised manner, for the purposes of the employer's business",
+        "C": "Employers are always liable for any act of their employees",
+        "D": "The boy was also an employee of the employer"
+      },
+      "correct": "B",
+      "explanation": "An employer is vicariously liable for torts committed by an employee in the course of employment. A prohibited act may still be within the course of employment if it is done in furtherance of the employer's business, as in Rose v Plenty where the boy was helping with deliveries. By contrast, in Hilton v Thomas Burton employees on a 'frolic of their own' were outside the course of employment.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-lw-c06-q011",
+      "chapter": 6,
+      "topic": "Employment law",
+      "question_text": "Under the Employment Rights Act 1996, what is the minimum period of notice that an employee who has been continuously employed for one month or more must give to terminate the contract?",
+      "options": {
+        "A": "One day",
+        "B": "One week",
+        "C": "One month",
+        "D": "One week for each complete year of service"
+      },
+      "correct": "B",
+      "explanation": "The statutory minimum notice to be given by an employee with at least one month's continuous employment is one week, regardless of length of service. The employer's statutory minimum notice increases with service: one week for under two years, then one week per complete year up to a maximum of twelve weeks. A contract may provide for longer notice than the statutory minimum.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c07-q001",
+      "chapter": 7,
+      "topic": "Agency and partnership",
+      "question_text": "Which of the following best describes ostensible (apparent) authority in agency?",
+      "options": {
+        "A": "Authority expressly given by the principal to the agent in writing",
+        "B": "Authority arising because the principal has represented to a third party that the agent has authority, and the third party relied on that representation",
+        "C": "Authority arising because of an emergency affecting the principal's goods",
+        "D": "Authority conferred retrospectively when the principal ratifies an unauthorised contract"
+      },
+      "correct": "B",
+      "explanation": "Apparent authority arises by estoppel: the principal's words or conduct lead the third party to believe the agent has authority, and the third party relies on this, as in Freeman & Lockyer v Buckhurst Park Properties. The principal is then bound even if no actual authority exists. The other options describe express actual authority, agency of necessity and ratification.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c07-q002",
+      "chapter": 7,
+      "topic": "Agency and partnership",
+      "question_text": "Promoters entered into a contract on behalf of a company that had not yet been incorporated. After incorporation the company tried to ratify the contract. Following Kelner v Baxter, why could the company not ratify?",
+      "options": {
+        "A": "A company can never ratify contracts made by agents",
+        "B": "Ratification is possible only for contracts worth less than a set amount",
+        "C": "The third party had not consented to the ratification",
+        "D": "The principal must have been in existence when the agent made the contract"
+      },
+      "correct": "D",
+      "explanation": "One condition for ratification is that the principal existed and had capacity at the time the agent acted. A company not yet incorporated cannot satisfy this, so in Kelner v Baxter the promoters were personally liable. This rule is now reflected in s51 Companies Act 2006, under which the person acting for an unformed company is personally liable unless otherwise agreed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c07-q003",
+      "chapter": 7,
+      "topic": "Agency and partnership",
+      "question_text": "Which of the following is NOT a duty owed by an agent to the principal?",
+      "options": {
+        "A": "To avoid conflicts of interest and not make secret profits",
+        "B": "To pay the principal's debts out of the agent's own resources",
+        "C": "To act with reasonable care and skill",
+        "D": "To account to the principal for money received on the principal's behalf"
+      },
+      "correct": "B",
+      "explanation": "An agent owes duties of performance, obedience, reasonable care and skill, personal performance, accounting, and fiduciary duties such as avoiding conflicts of interest, not taking bribes or secret profits, and confidentiality. There is no duty to discharge the principal's debts from the agent's own funds. Rather, it is the principal who must indemnify the agent for expenses properly incurred.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c07-q004",
+      "chapter": 7,
+      "topic": "Agency and partnership",
+      "question_text": "Under s1 of the Partnership Act 1890, how is a partnership defined?",
+      "options": {
+        "A": "A separate legal person formed by registration with the Registrar of Companies",
+        "B": "The relation which subsists between persons carrying on a business in common with a view of profit",
+        "C": "Any arrangement under which two or more persons co-own property",
+        "D": "An association of persons carrying on a non-profit activity"
+      },
+      "correct": "B",
+      "explanation": "Section 1 defines partnership as the relation between persons carrying on a business in common with a view of profit. An ordinary partnership in English law is not a separate legal person and arises without registration. Mere co-ownership of property does not of itself create a partnership, and there must be a view of profit.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c07-q005",
+      "chapter": 7,
+      "topic": "Agency and partnership",
+      "question_text": "Under s5 of the Partnership Act 1890, what is the position when a partner enters into a contract in the usual course of the firm's business but has been forbidden by the other partners to do so?",
+      "options": {
+        "A": "The firm is never bound because the partner lacked actual authority",
+        "B": "The firm is bound unless the third party knew the partner lacked authority or did not know or believe him to be a partner",
+        "C": "Only the partner who made the contract is liable, never the firm",
+        "D": "The firm is bound only if the contract was made in writing"
+      },
+      "correct": "B",
+      "explanation": "Every partner is an agent of the firm, and acts done in carrying on the firm's business in the usual way bind the firm. Internal restrictions do not bind a third party who is unaware of them, because the partner has implied usual authority. The firm is not bound if the third party knew the partner had no authority or did not know or believe him to be a partner.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c07-q006",
+      "chapter": 7,
+      "topic": "Agency and partnership",
+      "question_text": "Karim retires from a trading partnership. He does not notify any of the firm's customers. One year later, a long-standing customer who had dealt with the firm when Karim was a partner supplies goods on credit and is not paid. What is Karim's position?",
+      "options": {
+        "A": "Karim cannot be liable for any debt incurred after he ceased to be a partner",
+        "B": "Karim is liable only if he signed the order for the goods",
+        "C": "Karim is liable only for debts incurred within one month of retirement",
+        "D": "Karim may be liable for the debt, because existing customers must be given actual notice of his retirement"
+      },
+      "correct": "D",
+      "explanation": "A retiring partner remains liable for debts incurred before retirement, and may also be liable for later debts to persons who dealt with the firm before the change and had no notice of it. Under the Partnership Act 1890 existing customers should receive actual notice, while a notice in the London Gazette is effective against those who had not previously dealt with the firm. Because the customer received no notice, Karim may be liable.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-lw-c07-q007",
+      "chapter": 7,
+      "topic": "Agency and partnership",
+      "question_text": "Which of the following events dissolves an ordinary partnership automatically under the Partnership Act 1890, unless the partnership agreement provides otherwise?",
+      "options": {
+        "A": "The admission of a new partner",
+        "B": "The death or bankruptcy of a partner",
+        "C": "A partner taking a period of unpaid leave",
+        "D": "A partner giving notice to retire from a partnership agreed to last for a fixed term"
+      },
+      "correct": "B",
+      "explanation": "Unless otherwise agreed, a partnership is dissolved by the death or bankruptcy of any partner, by expiry of a fixed term, by completion of the undertaking, or (for a partnership at will) by notice. Admission of a partner or a period of leave does not dissolve the firm. A fixed-term partnership cannot generally be ended early simply by one partner giving notice.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c07-q008",
+      "chapter": 7,
+      "topic": "Agency and partnership",
+      "question_text": "Which of the following is a feature of a limited liability partnership (LLP) formed under the Limited Liability Partnerships Act 2000?",
+      "options": {
+        "A": "Its members have unlimited personal liability for its debts",
+        "B": "It does not need to file any information with the Registrar of Companies",
+        "C": "It must have at least one general partner with unlimited liability",
+        "D": "It is a body corporate with legal personality separate from its members"
+      },
+      "correct": "D",
+      "explanation": "An LLP is a separate legal person, so it owns its property and is liable for its own debts, and its members' liability is generally limited to their agreed contribution. It is formed by registration and must file accounts and an annual confirmation statement. The requirement for a general partner with unlimited liability applies to a limited partnership under the Limited Partnerships Act 1907, not to an LLP.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c07-q009",
+      "chapter": 7,
+      "topic": "Agency and partnership",
+      "question_text": "In a limited partnership under the Limited Partnerships Act 1907, what happens if a limited partner takes part in managing the partnership business?",
+      "options": {
+        "A": "Nothing, because limited partners are entitled to manage the business",
+        "B": "The limited partnership automatically converts into an LLP",
+        "C": "The limited partner becomes liable as a general partner for debts incurred while participating in management",
+        "D": "The limited partner automatically ceases to be a partner"
+      },
+      "correct": "C",
+      "explanation": "A limited partner's liability is restricted to the amount contributed, provided they do not take part in management. If they do, they lose that protection and become liable as a general partner for debts and obligations incurred during that period. Limited partnerships remain distinct from LLPs, and there is no automatic conversion or expulsion.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c07-q010",
+      "chapter": 7,
+      "topic": "Agency and partnership",
+      "question_text": "An agent bought goods for a principal without actual authority, intending to buy them for himself if the principal did not approve. He did not tell the seller he was acting for anyone. In Keighley, Maxsted & Co v Durant, why could the principal not ratify the contract?",
+      "options": {
+        "A": "The principal did not exist at the time of the contract",
+        "B": "Ratification must occur before the contract is made",
+        "C": "The agent had not purported to act as agent for a named or identifiable principal when contracting",
+        "D": "Contracts for the sale of goods cannot be ratified"
+      },
+      "correct": "C",
+      "explanation": "A principal can ratify only a contract that the agent purported to make on its behalf. In Keighley, Maxsted v Durant the agent contracted in his own name without disclosing that he was acting for anyone, so an undisclosed principal could not ratify. Ratification by definition occurs after the contract, and contracts for goods can be ratified where the conditions are met.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-lw-c08-q001",
+      "chapter": 8,
+      "topic": "Legal personality, company formation and constitution",
+      "question_text": "What principle was established by Salomon v A Salomon & Co Ltd?",
+      "options": {
+        "A": "Directors are personally liable for all of a company's debts",
+        "B": "A company formed by one dominant shareholder is merely his agent",
+        "C": "A registered company is a legal person separate from its members, even where one person controls it",
+        "D": "A company can only be formed by at least seven independent members"
+      },
+      "correct": "C",
+      "explanation": "The House of Lords held that a properly registered company is a separate legal entity, so Mr Salomon was not liable for its debts and his secured debentures were valid even though he held almost all the shares. The decision is the foundation of the 'veil of incorporation'. Companies can now be formed by a single member.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c08-q002",
+      "chapter": 8,
+      "topic": "Legal personality, company formation and constitution",
+      "question_text": "In Lee v Lee's Air Farming Ltd, Mr Lee was the controlling shareholder and sole director of a company and was also employed by it as a pilot. Why was his widow entitled to compensation when he was killed at work?",
+      "options": {
+        "A": "Because the court lifted the veil of incorporation",
+        "B": "Because he was a partner in the business",
+        "C": "Because directors are always treated as employees for compensation purposes",
+        "D": "Because the company was a separate legal person, it could enter a contract of employment with him"
+      },
+      "correct": "D",
+      "explanation": "Following the separate personality principle in Salomon, the company and Mr Lee were different persons, so a valid contract of employment could exist between them even though he controlled the company. He was therefore a 'worker' for compensation purposes. The court upheld rather than lifted the veil.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c08-q003",
+      "chapter": 8,
+      "topic": "Legal personality, company formation and constitution",
+      "question_text": "A former managing director, bound by a restrictive covenant not to solicit his former employer's customers, set up a company to solicit them. In Gilford Motor Co v Horne, what did the court do?",
+      "options": {
+        "A": "It refused relief because the company was a separate legal person",
+        "B": "It held the covenant void as an unlawful restraint of trade",
+        "C": "It lifted the veil and granted an injunction against both him and the company because the company was a sham to evade his obligation",
+        "D": "It ordered the company to be wound up on the just and equitable ground"
+      },
+      "correct": "C",
+      "explanation": "The court will disregard the separate personality of a company used as a mere façade or sham to evade an existing legal obligation. In Gilford Motor Co v Horne the company was a device to evade the covenant, so an injunction was granted against both. Prest v Petrodel later described this as the 'evasion principle'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c08-q004",
+      "chapter": 8,
+      "topic": "Legal personality, company formation and constitution",
+      "question_text": "Which of the following is an example of the veil of incorporation being lifted by STATUTE rather than by the courts at common law?",
+      "options": {
+        "A": "The decision in Jones v Lipman that a company was a sham used to avoid a contract to sell land",
+        "B": "The decision in Gilford Motor Co v Horne",
+        "C": "The decision in Prest v Petrodel Resources concerning the evasion principle",
+        "D": "Personal liability of a director for wrongful trading under s214 Insolvency Act 1986"
+      },
+      "correct": "D",
+      "explanation": "Statutory provisions that impose personal liability despite separate personality include fraudulent and wrongful trading (ss213 and 214 Insolvency Act 1986), use of a prohibited name of a liquidated company (s216-217), and a public company trading without a trading certificate. The other options are common law cases where the courts lifted or considered lifting the veil.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c08-q005",
+      "chapter": 8,
+      "topic": "Legal personality, company formation and constitution",
+      "question_text": "Under s51 Companies Act 2006, who is liable on a contract made on behalf of a company before it has been incorporated?",
+      "options": {
+        "A": "The company, automatically, once it is incorporated",
+        "B": "The person who made the contract on the company's behalf, subject to any agreement to the contrary",
+        "C": "The company's first shareholders in proportion to their shareholdings",
+        "D": "No one, because the contract is void"
+      },
+      "correct": "B",
+      "explanation": "Section 51 provides that a contract purporting to be made by or on behalf of a company before incorporation has effect as a contract made with the person acting for the company, who is personally liable, subject to any agreement to the contrary. The company cannot ratify it after incorporation, although it may enter a new contract (novation) on the same terms.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c08-q006",
+      "chapter": 8,
+      "topic": "Legal personality, company formation and constitution",
+      "question_text": "Which of the following is a key difference between a public and a private limited company under the Companies Act 2006?",
+      "options": {
+        "A": "Only a private company has a separate legal personality",
+        "B": "Only a public company may have limited liability",
+        "C": "Only a private company must have articles of association",
+        "D": "Only a public company may offer its shares to the public"
+      },
+      "correct": "D",
+      "explanation": "Section 755 prohibits a private company from offering its securities to the public. Both public and private companies are separate legal persons, both can be limited, and both must have articles (if none are registered, the relevant model articles apply). A public company must also meet the authorised minimum share capital and obtain a trading certificate before doing business.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c08-q007",
+      "chapter": 8,
+      "topic": "Legal personality, company formation and constitution",
+      "question_text": "A public company has just been registered as a new company. Before it can do business or exercise borrowing powers, what must it obtain?",
+      "options": {
+        "A": "A special resolution of its members approving trading",
+        "B": "A trading certificate from the Registrar, confirming that its allotted share capital meets the authorised minimum",
+        "C": "Approval of its articles by the court",
+        "D": "A confirmation statement accepted by the Registrar"
+      },
+      "correct": "B",
+      "explanation": "Under s761 Companies Act 2006 a company registered as public must not do business or borrow unless the Registrar has issued a trading certificate, which requires the nominal value of its allotted share capital to be at least the authorised minimum. Trading without one is an offence, and directors may be personally liable if the company fails to meet its obligations. A private company does not need a trading certificate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c08-q008",
+      "chapter": 8,
+      "topic": "Legal personality, company formation and constitution",
+      "question_text": "Under s33 Companies Act 2006, the articles of association form a contract. Between whom does this contract operate?",
+      "options": {
+        "A": "Between the company and any person named in the articles, in any capacity",
+        "B": "Between the company and its creditors",
+        "C": "Between the company and its members, and between the members themselves, in their capacity as members",
+        "D": "Between the directors and the Registrar of Companies"
+      },
+      "correct": "C",
+      "explanation": "Section 33 makes the constitution binding on the company and its members as if they had each covenanted to observe it. The contract is enforceable only in respect of membership rights, so in Eley v Positive Government Security Life Assurance a solicitor could not enforce an article appointing him as solicitor, as this was an outsider right (compare Hickman v Kent or Romney Marsh Sheep Breeders' Association). Creditors and the Registrar are not parties to the s33 contract.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c08-q009",
+      "chapter": 8,
+      "topic": "Legal personality, company formation and constitution",
+      "question_text": "A company wishes to alter its articles. Which of the following correctly states the law?",
+      "options": {
+        "A": "The articles may be altered by special resolution, and the alteration must be made bona fide for the benefit of the company as a whole",
+        "B": "The articles may be altered by ordinary resolution of the directors",
+        "C": "The articles can never be altered once registered",
+        "D": "The articles may only be altered with the consent of every member"
+      },
+      "correct": "A",
+      "explanation": "Under s21 Companies Act 2006 a company may amend its articles by special resolution. Following Allen v Gold Reefs of West Africa and Greenhalgh v Arderne Cinemas, the alteration must be made in good faith for the benefit of the company as a whole, judged by asking whether it benefits a hypothetical member. Unanimity is required only where provisions are entrenched under s22 in a way that requires it.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-lw-c08-q010",
+      "chapter": 8,
+      "topic": "Legal personality, company formation and constitution",
+      "question_text": "What is the position under s31 Companies Act 2006 regarding a company's objects?",
+      "options": {
+        "A": "Every company must state its objects in its memorandum of association",
+        "B": "A company's objects are limited to the business stated on its certificate of incorporation",
+        "C": "A company can never restrict its objects",
+        "D": "Unless the articles specifically restrict them, a company's objects are unrestricted"
+      },
+      "correct": "D",
+      "explanation": "Under the Companies Act 2006 a company's objects are unrestricted unless its articles specifically restrict them. A company may choose to include restrictions, but under s39 the validity of an act done by the company cannot be called into question on the ground of lack of capacity because of anything in its constitution. The memorandum is now only a brief statement by the subscribers that they wish to form a company.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c08-q011",
+      "chapter": 8,
+      "topic": "Legal personality, company formation and constitution",
+      "question_text": "What is the legal effect of the certificate of incorporation issued by the Registrar of Companies?",
+      "options": {
+        "A": "It allows the company to trade only once it has been approved by the shareholders",
+        "B": "It is merely provisional until confirmed by the court",
+        "C": "It is conclusive evidence that the requirements of the Companies Act as to registration have been complied with and that the company is duly registered",
+        "D": "It authorises the company to offer shares to the public, whether private or public"
+      },
+      "correct": "C",
+      "explanation": "Under s15 Companies Act 2006 the certificate of incorporation is conclusive evidence that the company has been duly registered and that registration requirements have been complied with. From the date on the certificate the company is a body corporate. A private company may not offer shares to the public regardless of the certificate.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c09-q001",
+      "chapter": 9,
+      "topic": "Share capital, loan capital and capital maintenance",
+      "question_text": "Unless the articles provide otherwise, how are the dividend rights of preference shares presumed to operate?",
+      "options": {
+        "A": "The dividend is presumed to be non-cumulative and lost if not paid",
+        "B": "The fixed preference dividend is presumed to be cumulative, so unpaid arrears carry forward",
+        "C": "Preference shareholders are presumed entitled to share in surplus profits equally with ordinary shareholders",
+        "D": "The dividend must be paid even when there are no distributable profits"
+      },
+      "correct": "B",
+      "explanation": "Preference shares carry a right to a fixed dividend in priority to ordinary shareholders, and this right is presumed to be cumulative unless stated otherwise. They are presumed not to participate further in surplus profits. No dividend can be paid on any shares unless the company has profits available for distribution.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c09-q002",
+      "chapter": 9,
+      "topic": "Share capital, loan capital and capital maintenance",
+      "question_text": "Under s630 Companies Act 2006, how may the rights attached to a class of shares be varied where the articles contain no provision for variation?",
+      "options": {
+        "A": "With the written consent of holders of at least three-quarters in nominal value of the class, or a special resolution at a separate class meeting",
+        "B": "By an ordinary resolution of all members of the company",
+        "C": "By a resolution of the board of directors",
+        "D": "Only with the unanimous consent of all members of the company"
+      },
+      "correct": "A",
+      "explanation": "Where the articles are silent, s630 allows class rights to be varied with the consent in writing of holders of at least 75% in nominal value of the issued shares of the class, or by a special resolution passed at a separate meeting of that class. Holders of at least 15% of the class who did not consent may apply to court to have the variation cancelled under s633. A board resolution or an ordinary resolution of all members is not sufficient.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c09-q003",
+      "chapter": 9,
+      "topic": "Share capital, loan capital and capital maintenance",
+      "question_text": "A company issued new ordinary shares, which reduced the proportionate voting power of the existing preference shareholders. The preference shareholders argued their class rights had been varied. Following White v Bristol Aeroplane Co, what is the position?",
+      "options": {
+        "A": "The class rights have been varied, so class consent was needed",
+        "B": "The issue is void because preference shareholders have a veto over all share issues",
+        "C": "The class rights have been varied only if the new shares were issued at a premium",
+        "D": "The class rights have not been varied, because the rights themselves remain unchanged even though their practical value is affected"
+      },
+      "correct": "D",
+      "explanation": "The courts distinguish between the legal rights attached to shares and their enjoyment or value. In White v Bristol Aeroplane the issue of further shares affected the preference shareholders' relative voting strength but left their rights exactly as they were, so there was no variation requiring class consent. This literal approach gives limited protection to class members.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-lw-c09-q004",
+      "chapter": 9,
+      "topic": "Share capital, loan capital and capital maintenance",
+      "question_text": "Under s561 Companies Act 2006, when a company proposes to allot new ordinary shares for cash, what right do existing ordinary shareholders normally have?",
+      "options": {
+        "A": "A right to receive the new shares free of charge",
+        "B": "A right to block any allotment of shares by voting against it",
+        "C": "A right to buy the new shares at a discount to nominal value",
+        "D": "A right of pre-emption, meaning the shares must first be offered to them in proportion to their existing holdings"
+      },
+      "correct": "D",
+      "explanation": "Pre-emption rights require new equity securities allotted for cash to be offered first to existing ordinary shareholders pro rata, protecting them against dilution. The rights do not apply to allotments for non-cash consideration and may be disapplied, for example by special resolution. Shares can never be allotted at a discount to nominal value (s580).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c09-q005",
+      "chapter": 9,
+      "topic": "Share capital, loan capital and capital maintenance",
+      "question_text": "A company issues 10,000 shares of nominal value 1 each for 2.50 per share, paid in cash. What amount must be credited to the share premium account?",
+      "options": {
+        "A": "25,000",
+        "B": "10,000",
+        "C": "2,500",
+        "D": "15,000"
+      },
+      "correct": "D",
+      "explanation": "The share premium is the excess of the issue price over nominal value. Working: premium per share = 2.50 - 1.00 = 1.50; total premium = 10,000 x 1.50 = 15,000. The 10,000 nominal value is credited to share capital, and the full 25,000 is the total cash received. Under s610 Companies Act 2006 the premium must be transferred to a share premium account.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c09-q006",
+      "chapter": 9,
+      "topic": "Share capital, loan capital and capital maintenance",
+      "question_text": "A public company has the following balances. Accumulated realised profits 640,000; accumulated realised losses 190,000; accumulated unrealised profits 70,000; accumulated unrealised losses 110,000. Applying ss830 and 831 Companies Act 2006, what is the maximum amount it may distribute?",
+      "options": {
+        "A": "410,000",
+        "B": "450,000",
+        "C": "520,000",
+        "D": "340,000"
+      },
+      "correct": "A",
+      "explanation": "Step 1 (s830, all companies): net realised profits = 640,000 - 190,000 = 450,000. Step 2 (s831, public companies): the distribution must not reduce net assets below called-up share capital plus undistributable reserves, so any excess of unrealised losses over unrealised profits must also be covered. Net unrealised loss = 110,000 - 70,000 = 40,000. Maximum distribution = 450,000 - 40,000 = 410,000. A private company could distribute 450,000, as unrealised profits can never be distributed and net unrealised losses do not affect it.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-lw-c09-q007",
+      "chapter": 9,
+      "topic": "Share capital, loan capital and capital maintenance",
+      "question_text": "Which of the following is a requirement for a private company to reduce its share capital without applying to the court?",
+      "options": {
+        "A": "A special resolution supported by a solvency statement made by all the directors",
+        "B": "An ordinary resolution supported by a statement from the auditors",
+        "C": "A board resolution supported by a statement of the company's net assets",
+        "D": "A special resolution approved by the Registrar of Companies before it is passed"
+      },
+      "correct": "A",
+      "explanation": "Under s641 Companies Act 2006 a private company may reduce its capital by special resolution supported by a solvency statement in which every director confirms the company can pay its debts. Alternatively, any company may reduce capital by special resolution confirmed by the court, which is the only route for a public company. The Registrar registers the documents but does not approve the resolution in advance.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c09-q008",
+      "chapter": 9,
+      "topic": "Share capital, loan capital and capital maintenance",
+      "question_text": "Under the Companies Act 2006, which of the following is prohibited?",
+      "options": {
+        "A": "A private company giving financial assistance for the purchase of its own shares",
+        "B": "A company issuing shares at a premium",
+        "C": "A public company giving financial assistance for the purchase of its own shares, subject to specified exceptions",
+        "D": "A company paying a dividend out of accumulated realised profits"
+      },
+      "correct": "C",
+      "explanation": "Section 678 prohibits a public company (and its subsidiaries) from giving financial assistance for the acquisition of its own shares, subject to exceptions such as where the principal purpose is not the acquisition. The general prohibition for private companies was abolished by the 2006 Act. Issuing shares at a premium and paying dividends from realised profits are lawful.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c09-q009",
+      "chapter": 9,
+      "topic": "Share capital, loan capital and capital maintenance",
+      "question_text": "Which of the following best describes a floating charge?",
+      "options": {
+        "A": "A charge over a specific identified asset that the company cannot sell without the lender's consent",
+        "B": "A charge that is valid without registration",
+        "C": "A charge over a class of assets, present and future, which the company can deal with in the ordinary course of business until crystallisation",
+        "D": "A charge that always ranks ahead of a fixed charge over the same asset"
+      },
+      "correct": "C",
+      "explanation": "A floating charge, as described in Re Yorkshire Woolcombers Association, covers a class of present and future assets which change in the ordinary course of business, and the company may deal with them until the charge crystallises. A fixed charge attaches to specific assets that the company cannot freely deal with. Fixed charges normally rank ahead of floating charges, and both require registration.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c09-q010",
+      "chapter": 9,
+      "topic": "Share capital, loan capital and capital maintenance",
+      "question_text": "Which of the following events would normally cause a floating charge to crystallise?",
+      "options": {
+        "A": "The company buying new stock in the ordinary course of business",
+        "B": "The company paying a dividend to its members",
+        "C": "The appointment of a new director",
+        "D": "The commencement of winding up of the company"
+      },
+      "correct": "D",
+      "explanation": "A floating charge crystallises, becoming fixed on the assets then held, on events such as liquidation, the company ceasing to carry on business, the appointment of a receiver, or a specified event under the charge document. Ordinary trading such as buying stock is exactly what a floating charge permits. Payment of a dividend or a change of directors does not cause crystallisation unless the charge document says so.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c09-q011",
+      "chapter": 9,
+      "topic": "Share capital, loan capital and capital maintenance",
+      "question_text": "A company creates a charge over its assets in favour of a bank but fails to deliver the particulars to the Registrar within 21 days. What is the effect under s859H Companies Act 2006?",
+      "options": {
+        "A": "The charge is void against a liquidator, administrator and creditors of the company, but the debt itself remains payable and becomes immediately repayable",
+        "B": "Both the charge and the underlying loan become void and need not be repaid",
+        "C": "The charge remains fully valid but the company is fined",
+        "D": "The charge becomes a floating charge instead of a fixed charge"
+      },
+      "correct": "A",
+      "explanation": "Failure to register a charge within 21 days of creation makes the security void against a liquidator, administrator or creditor, so the lender becomes an unsecured creditor in an insolvency. The obligation to repay is not affected, and the money secured becomes immediately payable. The court may extend the period for registration in some circumstances.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-lw-c10-q001",
+      "chapter": 10,
+      "topic": "Directors, company secretary and meetings",
+      "question_text": "Under s168 Companies Act 2006, how may the members remove a director before the end of their period of office?",
+      "options": {
+        "A": "By special resolution passed as a written resolution",
+        "B": "By ordinary resolution at a meeting, of which special notice has been given",
+        "C": "By a unanimous resolution of the board of directors",
+        "D": "Only by an application to the court"
+      },
+      "correct": "B",
+      "explanation": "Section 168 permits removal of a director by ordinary resolution at a meeting, notwithstanding anything in the articles or any agreement. Special notice (28 days) must be given to the company, and the director has a right to be heard and to circulate written representations. A written resolution cannot be used to remove a director (s288).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c10-q002",
+      "chapter": 10,
+      "topic": "Directors, company secretary and meetings",
+      "question_text": "The articles of a small company provide that on a resolution to remove a director, that director's shares carry three votes each. Following Bushell v Faith, what is the effect of such a provision?",
+      "options": {
+        "A": "It is void because it contradicts s168",
+        "B": "It is valid, and may in practice allow the director to defeat a resolution for removal",
+        "C": "It is valid only in public companies",
+        "D": "It is valid only if the director holds a majority of the shares in any event"
+      },
+      "correct": "B",
+      "explanation": "In Bushell v Faith the House of Lords upheld a weighted voting clause, holding that Parliament had only required an ordinary resolution and had not restricted how votes could be attached to shares. As a result, a director with sufficient weighted votes can defeat a resolution to remove them. Such clauses are common in small private companies; listed companies are subject to additional listing and governance expectations.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-lw-c10-q003",
+      "chapter": 10,
+      "topic": "Directors, company secretary and meetings",
+      "question_text": "Which statutory general duty of directors requires a director to act in the way they consider, in good faith, would be most likely to promote the success of the company for the benefit of its members as a whole, having regard to factors such as employees and the environment?",
+      "options": {
+        "A": "Section 171",
+        "B": "Section 174",
+        "C": "Section 172",
+        "D": "Section 177"
+      },
+      "correct": "C",
+      "explanation": "Section 172 is the duty to promote the success of the company, and requires directors to have regard to factors including long-term consequences, employees' interests, relationships with suppliers and customers, the community and environment, reputation and fairness between members. Section 171 concerns acting within powers, s174 reasonable care, skill and diligence, and s177 declaring interests in proposed transactions.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c10-q004",
+      "chapter": 10,
+      "topic": "Directors, company secretary and meetings",
+      "question_text": "Directors allotted shares to a friendly company in order to destroy an existing majority shareholder's ability to block a takeover bid, even though they honestly believed this was in the company's interests. Following Howard Smith v Ampol Petroleum, which duty did they breach?",
+      "options": {
+        "A": "The duty to avoid conflicts of interest (s175)",
+        "B": "The duty not to accept benefits from third parties (s176)",
+        "C": "No duty, because they acted honestly",
+        "D": "The duty to act within powers and exercise them only for the purposes for which they are conferred (s171)"
+      },
+      "correct": "D",
+      "explanation": "Directors must exercise their powers for a proper purpose, a duty now in s171(b) Companies Act 2006. In Howard Smith v Ampol Petroleum the power to allot shares was used primarily to manipulate control rather than to raise capital, so it was used for an improper purpose, regardless of the directors' honesty. A similar result was reached in Hogg v Cramphorn.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-lw-c10-q005",
+      "chapter": 10,
+      "topic": "Directors, company secretary and meetings",
+      "question_text": "How is the standard of care, skill and diligence required of a director under s174 Companies Act 2006 measured?",
+      "options": {
+        "A": "By the general knowledge, skill and experience reasonably expected of a person carrying out the director's functions, and also the general knowledge, skill and experience the director actually has",
+        "B": "Solely by the director's own actual knowledge and experience, however limited",
+        "C": "By the standard of a qualified accountant in every case",
+        "D": "By whether the director acted honestly, irrespective of competence"
+      },
+      "correct": "A",
+      "explanation": "Section 174 sets a dual objective and subjective test, derived from s214 Insolvency Act 1986 and applied in Re D'Jan of London. The minimum is the objective standard expected of a reasonably diligent person carrying out the director's functions; a director with greater actual skill (such as a qualified accountant) is held to that higher standard. Honesty alone is not enough.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c10-q006",
+      "chapter": 10,
+      "topic": "Directors, company secretary and meetings",
+      "question_text": "A managing director was approached personally by a potential client who said it would not deal with his company. He resigned, claiming ill health, and took the contract himself. Following Industrial Development Consultants v Cooley, what was the position?",
+      "options": {
+        "A": "He was not liable, because the client would never have contracted with the company",
+        "B": "He was not liable, because he had resigned before taking the contract",
+        "C": "He was liable only to pay damages for breach of his service contract",
+        "D": "He was liable to account to the company for the profits, because he had used an opportunity that came to him while a director"
+      },
+      "correct": "D",
+      "explanation": "A director must not exploit any property, information or opportunity, and it is immaterial whether the company could have taken advantage of it, as now stated in s175(2). In IDC v Cooley the director obtained the information while a director and was liable to account for his profit despite resigning first; s170(2) extends the duty to former directors in respect of opportunities of which they became aware while directors.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-lw-c10-q007",
+      "chapter": 10,
+      "topic": "Directors, company secretary and meetings",
+      "question_text": "Under the Company Directors Disqualification Act 1986, when must the court make a disqualification order?",
+      "options": {
+        "A": "Whenever a director resigns within a year of appointment",
+        "B": "Where a director of a company which has become insolvent is found to have conduct that makes them unfit to be concerned in the management of a company",
+        "C": "Whenever a company makes a trading loss",
+        "D": "Whenever a director fails to attend board meetings for six months"
+      },
+      "correct": "B",
+      "explanation": "Section 6 requires the court to disqualify a person who was a director of an insolvent company if their conduct makes them unfit; the order must be for at least two years and not more than fifteen. Other grounds, such as persistent default in filing or conviction of an indictable offence connected with a company, are discretionary. Acting while disqualified is a criminal offence and leads to personal liability for debts incurred.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c10-q008",
+      "chapter": 10,
+      "topic": "Directors, company secretary and meetings",
+      "question_text": "Which of the following statements about the company secretary is correct under the Companies Act 2006?",
+      "options": {
+        "A": "Every company must have a company secretary",
+        "B": "A public company must have a company secretary, but a private company is not required to have one unless its articles require it",
+        "C": "A company secretary must always be a qualified accountant",
+        "D": "A company secretary has authority to bind the company to any contract, including trading contracts"
+      },
+      "correct": "B",
+      "explanation": "Section 270 removed the requirement for private companies to have a secretary, while s271 requires a public company to have one; s273 requires the directors of a public company to ensure the secretary has appropriate knowledge and experience, for example a recognised professional qualification. Following Panorama Developments v Fidelis Furnishing Fabrics, a secretary has apparent authority only for administrative contracts, such as hiring cars, not for trading contracts generally.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c10-q009",
+      "chapter": 10,
+      "topic": "Directors, company secretary and meetings",
+      "question_text": "Under the Companies Act 2006, what majority is required to pass a special resolution at a general meeting?",
+      "options": {
+        "A": "A simple majority of the votes cast",
+        "B": "At least 90% of all members of the company",
+        "C": "Unanimity of all members present",
+        "D": "Not less than 75% of the votes cast by members entitled to vote"
+      },
+      "correct": "D",
+      "explanation": "A special resolution requires a majority of not less than 75% of the votes cast (s283), whereas an ordinary resolution requires a simple majority (s282). On a written resolution of a private company, the majority is calculated by reference to the total voting rights of eligible members rather than votes cast. Special resolutions are needed for matters such as altering the articles or changing the company's name.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c10-q010",
+      "chapter": 10,
+      "topic": "Directors, company secretary and meetings",
+      "question_text": "Which of the following CANNOT be passed by a private company as a written resolution under the Companies Act 2006?",
+      "options": {
+        "A": "A special resolution to alter the articles",
+        "B": "A resolution to remove an auditor before the end of their term of office",
+        "C": "An ordinary resolution to authorise the directors to allot shares",
+        "D": "A special resolution to change the company's name"
+      },
+      "correct": "B",
+      "explanation": "Section 288 excludes from the written resolution procedure a resolution under s168 to remove a director and a resolution under s510 to remove an auditor before the end of their term. These require a meeting so that the director or auditor can make representations. Other ordinary and special resolutions of a private company may be passed in writing.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c10-q011",
+      "chapter": 10,
+      "topic": "Directors, company secretary and meetings",
+      "question_text": "Members of a company holding at least 5% of the paid-up voting share capital deposit a request for a general meeting. Under s303-304 Companies Act 2006, what must the directors do?",
+      "options": {
+        "A": "Call a meeting within 21 days of receiving the request, to be held not more than 28 days after the notice convening it",
+        "B": "Hold the meeting within 7 days of the request",
+        "C": "Call a meeting only if the board agrees with the proposed resolution",
+        "D": "Refer the request to the court for approval"
+      },
+      "correct": "A",
+      "explanation": "Members representing at least 5% of the paid-up capital carrying voting rights may require the directors to call a general meeting. The directors must call the meeting within 21 days of the request, and it must be held within 28 days of the notice. If the directors fail to do so, the requesting members may call it themselves and recover reasonable expenses from the company.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c10-q012",
+      "chapter": 10,
+      "topic": "Directors, company secretary and meetings",
+      "question_text": "What is the minimum period of notice required for a general meeting (other than an AGM) of a private company under the Companies Act 2006, unless short notice is agreed?",
+      "options": {
+        "A": "14 days",
+        "B": "7 days",
+        "C": "21 days",
+        "D": "28 days"
+      },
+      "correct": "A",
+      "explanation": "Section 307 provides that a general meeting of a private company, and a general meeting of a public company other than an AGM, must be called by at least 14 days' notice. An AGM of a public company requires at least 21 days' notice. 28 days is the period of special notice that must be given to the company of certain resolutions, such as removal of a director.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c10-q013",
+      "chapter": 10,
+      "topic": "Directors, company secretary and meetings",
+      "question_text": "A minority shareholder alleges that the directors have breached their duties to the company by selling company assets to themselves at an undervalue. Under Part 11 Companies Act 2006, what claim may the shareholder bring, and on whose behalf?",
+      "options": {
+        "A": "A personal claim for damages paid directly to the shareholder, without the court's permission",
+        "B": "A derivative claim on behalf of the company, with the permission of the court",
+        "C": "A claim for unfair dismissal against the directors",
+        "D": "A derivative claim on behalf of the company's creditors"
+      },
+      "correct": "B",
+      "explanation": "Under the rule in Foss v Harbottle the proper claimant for a wrong done to the company is the company itself. Part 11 (s260 onwards) allows a member to bring a derivative claim on the company's behalf for negligence, default, breach of duty or breach of trust by a director, but the member must obtain the court's permission to continue it. Any remedy belongs to the company. Separately, a member may petition under s994 for unfairly prejudicial conduct.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-lw-c11-q001",
+      "chapter": 11,
+      "topic": "Insolvency and administration",
+      "question_text": "Which of the following types of winding up requires the directors to make a statutory declaration of solvency?",
+      "options": {
+        "A": "A creditors' voluntary winding up",
+        "B": "A compulsory winding up on a creditor's petition",
+        "C": "A compulsory winding up on the just and equitable ground",
+        "D": "A members' voluntary winding up"
+      },
+      "correct": "D",
+      "explanation": "A members' voluntary liquidation is available only where the directors make a declaration of solvency stating that the company will be able to pay its debts in full within a period not exceeding twelve months. If no such declaration is made, a voluntary winding up proceeds as a creditors' voluntary liquidation. Compulsory liquidation is ordered by the court on a petition.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c11-q002",
+      "chapter": 11,
+      "topic": "Insolvency and administration",
+      "question_text": "Under s122 Insolvency Act 1986, which of the following is a ground on which the court may order a company to be wound up?",
+      "options": {
+        "A": "The company has made a loss in one financial year",
+        "B": "The court is of the opinion that it is just and equitable that the company should be wound up",
+        "C": "The company has changed its name",
+        "D": "A director has resigned"
+      },
+      "correct": "B",
+      "explanation": "The grounds in s122 include a special resolution of the company to be wound up by the court, a public company not obtaining a trading certificate within a year, failure to commence or suspension of business for a year, inability to pay debts, and the just and equitable ground. A single year's loss, a change of name or a director's resignation are not grounds in themselves.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c11-q003",
+      "chapter": 11,
+      "topic": "Insolvency and administration",
+      "question_text": "In Ebrahimi v Westbourne Galleries, a company was formed on the basis of mutual trust between members who all expected to participate in management. One member was removed as a director and excluded from management. What remedy did the House of Lords grant?",
+      "options": {
+        "A": "A winding-up order on the just and equitable ground",
+        "B": "Reinstatement of the member as a director under s168",
+        "C": "Damages for wrongful dismissal against the other members",
+        "D": "A declaration that the removal was void because it breached the articles"
+      },
+      "correct": "A",
+      "explanation": "The removal was lawful under the Companies Act and the articles, but the company was a 'quasi-partnership' formed on mutual confidence and an understanding that all would participate in management. The House of Lords held that equitable considerations made it just and equitable to wind the company up. Today a petition for unfair prejudice under s994 is often an alternative remedy.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-lw-c11-q004",
+      "chapter": 11,
+      "topic": "Insolvency and administration",
+      "question_text": "In a compulsory winding up, which of the following is paid FIRST out of the proceeds of assets subject to a fixed charge?",
+      "options": {
+        "A": "The fixed charge holder, after the costs of realising that asset",
+        "B": "Preferential creditors",
+        "C": "The general expenses of the liquidation",
+        "D": "Unsecured creditors"
+      },
+      "correct": "A",
+      "explanation": "Assets subject to a fixed charge are applied first to pay the costs of realising them and then the fixed charge holder. Liquidation expenses, preferential creditors, the prescribed part for unsecured creditors and floating charge holders are paid out of the remaining assets, including those subject to a floating charge. Unsecured creditors rank after all secured and preferential claims, and members are paid last.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c11-q005",
+      "chapter": 11,
+      "topic": "Insolvency and administration",
+      "question_text": "Arrange the following claims in the order in which they would be paid from assets subject to a floating charge in a company's liquidation, from FIRST to LAST: (1) unsecured trade creditors; (2) liquidation expenses; (3) the floating charge holder; (4) preferential creditors such as employees' unpaid wages within statutory limits.",
+      "options": {
+        "A": "4, 2, 3, 1",
+        "B": "2, 4, 3, 1",
+        "C": "3, 2, 4, 1",
+        "D": "2, 3, 4, 1"
+      },
+      "correct": "B",
+      "explanation": "From floating charge assets the liquidator first pays the expenses of the liquidation, then preferential creditors, then (after setting aside the prescribed part for unsecured creditors) the floating charge holder, and finally the unsecured creditors. Preferential debts include certain employee wages and holiday pay up to statutory limits. Members receive any surplus only after all creditors have been paid in full.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-lw-c11-q006",
+      "chapter": 11,
+      "topic": "Insolvency and administration",
+      "question_text": "A company in financial difficulty paid off an unsecured loan from a director's brother three months before going into insolvent liquidation, while other creditors remained unpaid. Under s239 Insolvency Act 1986, what is the liquidator most likely to be able to do?",
+      "options": {
+        "A": "Nothing, because the payment was made more than one month before liquidation",
+        "B": "Recover the payment as a transaction at an undervalue under s423, but only if the company received nothing in return",
+        "C": "Apply to the court to set aside the payment as a preference",
+        "D": "Disqualify the director's brother"
+      },
+      "correct": "C",
+      "explanation": "A preference occurs when an insolvent company does something that puts a creditor in a better position on liquidation than it would otherwise have been, and was influenced by a desire to do so. For connected persons the relevant period is two years before the onset of insolvency and the desire to prefer is presumed; for others it is six months. The court may make an order restoring the position. Disqualification under the CDDA 1986 applies to directors, not to the creditor who received the payment.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c11-q007",
+      "chapter": 11,
+      "topic": "Insolvency and administration",
+      "question_text": "What is the primary objective of an administrator under Schedule B1 to the Insolvency Act 1986?",
+      "options": {
+        "A": "To realise property to make a distribution to secured creditors only",
+        "B": "To wind up the company as quickly as possible",
+        "C": "To rescue the company as a going concern",
+        "D": "To achieve the highest possible dividend for shareholders"
+      },
+      "correct": "C",
+      "explanation": "The administrator must perform their functions with the objective of rescuing the company as a going concern. If that is not reasonably practicable, the objective becomes achieving a better result for creditors as a whole than in a winding up, and only if neither is practicable may property be realised to distribute to secured or preferential creditors. The administrator acts in the interests of creditors as a whole.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c11-q008",
+      "chapter": 11,
+      "topic": "Insolvency and administration",
+      "question_text": "Which of the following is an effect of a company entering administration?",
+      "options": {
+        "A": "All the company's employees are automatically dismissed",
+        "B": "The directors remain in full control of the company's business",
+        "C": "A moratorium arises, so that creditors generally cannot enforce security or begin legal proceedings against the company without consent of the administrator or the court",
+        "D": "All contracts of the company are automatically terminated"
+      },
+      "correct": "C",
+      "explanation": "A key feature of administration is the statutory moratorium, which protects the company from creditor action while the administrator pursues the statutory purpose. The administrator takes over management and the directors' powers can be exercised only with the administrator's consent. Contracts and employment are not automatically terminated by entering administration.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c11-q009",
+      "chapter": 11,
+      "topic": "Insolvency and administration",
+      "question_text": "Who may appoint an administrator out of court, without first obtaining a court order?",
+      "options": {
+        "A": "Any unsecured creditor owed a debt",
+        "B": "Any single shareholder holding 5% of the shares",
+        "C": "The holder of a qualifying floating charge, or the company or its directors",
+        "D": "The auditor of the company"
+      },
+      "correct": "C",
+      "explanation": "Under Schedule B1 to the Insolvency Act 1986, an administrator may be appointed by the court on an application, or out of court by the holder of a qualifying floating charge or by the company or its directors. An unsecured creditor may apply to the court for an administration order but cannot appoint out of court. Shareholders and auditors have no power of appointment.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c11-q010",
+      "chapter": 11,
+      "topic": "Insolvency and administration",
+      "question_text": "A company created a floating charge in favour of an unconnected lender to secure an existing unsecured loan, eight months before going into insolvent liquidation. No new money was provided. At the time the charge was created the company was unable to pay its debts. Under s245 Insolvency Act 1986, what is the status of the charge?",
+      "options": {
+        "A": "It is valid, because it was created more than six months before liquidation",
+        "B": "It is invalid, because it was created within 12 months before the onset of insolvency to secure existing debt, and the company was insolvent at the time",
+        "C": "It is valid, because the lender is not connected to the company",
+        "D": "It is invalid only if the lender knew the company was insolvent"
+      },
+      "correct": "B",
+      "explanation": "Section 245 invalidates a floating charge created within 12 months before the onset of insolvency in favour of an unconnected person (two years for a connected person), except to the extent of new value such as money paid or goods supplied at or after its creation. For an unconnected person, the company must have been unable to pay its debts at the time or have become so as a result. Here the charge secured only pre-existing debt and the company was insolvent, so it is invalid. The lender's knowledge is irrelevant.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-lw-c12-q001",
+      "chapter": 12,
+      "topic": "Corporate governance and fraudulent behaviour",
+      "question_text": "Which approach to compliance does the UK Corporate Governance Code adopt for companies to which it applies?",
+      "options": {
+        "A": "Strict legal compliance enforced by criminal penalties",
+        "B": "Voluntary adoption with no disclosure required",
+        "C": "Approval of each company's governance arrangements by the court",
+        "D": "Comply or explain"
+      },
+      "correct": "D",
+      "explanation": "The UK Corporate Governance Code is principles-based and operates on a 'comply or explain' basis: companies must report how they have applied its principles and either comply with its provisions or explain why they have not. Breach of a provision is not a criminal offence. Disclosure is required so that shareholders can assess the explanations given.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c12-q002",
+      "chapter": 12,
+      "topic": "Corporate governance and fraudulent behaviour",
+      "question_text": "Which of the following is a recommendation of the UK Corporate Governance Code concerning board structure?",
+      "options": {
+        "A": "The chief executive should also chair the audit committee",
+        "B": "The roles of chair and chief executive should not be exercised by the same individual",
+        "C": "All directors should be executive directors",
+        "D": "The board should not include any independent non-executive directors"
+      },
+      "correct": "B",
+      "explanation": "The Code recommends a clear division of responsibilities between running the board (the chair) and running the business (the chief executive), so the roles should not be held by the same person. It also recommends that a substantial proportion of the board be independent non-executive directors and that audit and remuneration committees be made up of independent non-executives. Executive directors should not sit on the audit committee.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c12-q003",
+      "chapter": 12,
+      "topic": "Corporate governance and fraudulent behaviour",
+      "question_text": "A company's director allowed the company to keep trading and taking customer deposits when she knew there was no prospect of supplying the goods, intending to keep the deposits. Which of the following best describes her potential liability?",
+      "options": {
+        "A": "Wrongful trading only, which requires no dishonesty and carries no criminal liability, so fraudulent trading cannot apply",
+        "B": "Insider dealing under the Criminal Justice Act 1993",
+        "C": "No liability, because the company is a separate legal person",
+        "D": "Fraudulent trading, which is both a criminal offence under the Companies Act 2006 and a basis for civil liability under s213 Insolvency Act 1986 if the company is wound up"
+      },
+      "correct": "D",
+      "explanation": "Fraudulent trading occurs where business is carried on with intent to defraud creditors or for any fraudulent purpose. Under s993 Companies Act 2006 it is a criminal offence whether or not the company is wound up, and under s213 Insolvency Act 1986 the court may, on a liquidator's application, order any person knowingly party to it to contribute to the company's assets. The dishonest intent here goes beyond wrongful trading.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c12-q004",
+      "chapter": 12,
+      "topic": "Corporate governance and fraudulent behaviour",
+      "question_text": "In proceedings for wrongful trading under s214 Insolvency Act 1986, which of the following is a defence available to a director?",
+      "options": {
+        "A": "After the director knew or ought to have concluded there was no reasonable prospect of avoiding insolvent liquidation, they took every step to minimise the potential loss to creditors that they ought to have taken",
+        "B": "The director did not intend to defraud creditors",
+        "C": "The director had no accounting qualification and did not understand the company's accounts",
+        "D": "The director had acted on the instructions of the majority shareholder"
+      },
+      "correct": "A",
+      "explanation": "Wrongful trading does not require dishonesty, so the absence of intent to defraud is no defence. The only statutory defence is that the director took every step to minimise potential loss to creditors once they knew or ought to have concluded that insolvent liquidation (or administration) could not be avoided. The director is judged against the objective standard of a reasonably diligent person in their position, so a lack of skill is not an excuse (Re Produce Marketing Consortium).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-lw-c12-q005",
+      "chapter": 12,
+      "topic": "Corporate governance and fraudulent behaviour",
+      "question_text": "Under Part V of the Criminal Justice Act 1993, which of the following best describes 'inside information'?",
+      "options": {
+        "A": "Any information about a company, whether or not it has already been published",
+        "B": "General information about the economy that might affect all share prices",
+        "C": "Information that is only known to the company's auditors",
+        "D": "Information that relates to particular securities or issuers, is specific or precise, has not been made public, and would be likely to have a significant effect on price if it were made public"
+      },
+      "correct": "D",
+      "explanation": "Inside information must relate to particular securities or a particular issuer (not securities generally), be specific or precise, not have been made public, and be likely to have a significant effect on price if made public. Information that has already been published is not inside information. A person may be an insider through being a director, employee or shareholder of an issuer, through access by virtue of employment, office or profession, or by obtaining the information directly or indirectly from such a person.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c12-q006",
+      "chapter": 12,
+      "topic": "Corporate governance and fraudulent behaviour",
+      "question_text": "Which of the following is NOT one of the offences under the insider dealing provisions of the Criminal Justice Act 1993?",
+      "options": {
+        "A": "Dealing in price-affected securities on the basis of inside information",
+        "B": "Encouraging another person to deal in price-affected securities",
+        "C": "Disclosing inside information otherwise than in the proper performance of employment, office or profession",
+        "D": "Failing to report a suspicion of insider dealing to the authorities"
+      },
+      "correct": "D",
+      "explanation": "The three insider dealing offences are dealing, encouraging another to deal, and improperly disclosing inside information. There is no offence under the 1993 Act of failing to report a suspicion of insider dealing; failure-to-disclose offences arise under money laundering legislation for the regulated sector. Defences include showing that the individual did not expect the dealing to result in a profit attributable to the information.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-lw-c12-q007",
+      "chapter": 12,
+      "topic": "Corporate governance and fraudulent behaviour",
+      "question_text": "Money laundering is commonly described as involving three stages. Which stage involves passing criminal proceeds through a series of transactions to disguise their source?",
+      "options": {
+        "A": "Placement",
+        "B": "Integration",
+        "C": "Layering",
+        "D": "Tipping off"
+      },
+      "correct": "C",
+      "explanation": "Placement is the initial introduction of criminal proceeds into the financial system, layering involves complex transactions to obscure the audit trail, and integration is the return of the funds to the legitimate economy so that they appear clean. Tipping off is a separate offence of disclosing information likely to prejudice an investigation, not a stage of laundering.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c12-q008",
+      "chapter": 12,
+      "topic": "Corporate governance and fraudulent behaviour",
+      "question_text": "An accountant working in the regulated sector tells a client that she has made a report to the authorities about the client's suspicious transactions, knowing this is likely to prejudice an investigation. Which offence under the Proceeds of Crime Act 2002 has she most likely committed?",
+      "options": {
+        "A": "Failure to disclose",
+        "B": "Tipping off",
+        "C": "Insider dealing",
+        "D": "Fraudulent trading"
+      },
+      "correct": "B",
+      "explanation": "Tipping off (s333A Proceeds of Crime Act 2002) occurs where a person in the regulated sector discloses that a suspicious activity report has been made, or that an investigation is contemplated or being carried out, and the disclosure is likely to prejudice an investigation. Failure to disclose is the opposite situation, where a person fails to report knowledge or suspicion of money laundering. The other offences relate to securities dealing and insolvency.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-lw-c12-q009",
+      "chapter": 12,
+      "topic": "Corporate governance and fraudulent behaviour",
+      "question_text": "Under s7 Bribery Act 2010, a commercial organisation commits an offence if a person associated with it bribes another person intending to obtain or retain business for the organisation. What defence is available to the organisation?",
+      "options": {
+        "A": "That the directors did not personally know about the bribe",
+        "B": "That the bribe was paid outside the United Kingdom",
+        "C": "That it had adequate procedures in place designed to prevent persons associated with it from undertaking such conduct",
+        "D": "That the bribe was a small facilitation payment"
+      },
+      "correct": "C",
+      "explanation": "Section 7 creates a strict liability corporate offence of failing to prevent bribery, with a single defence of having adequate procedures in place. Lack of knowledge by senior management is not a defence, and the Act has extensive extra-territorial reach. Unlike some other jurisdictions, the Bribery Act 2010 contains no exemption for facilitation payments.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c12-q010",
+      "chapter": 12,
+      "topic": "Corporate governance and fraudulent behaviour",
+      "question_text": "Which of the following correctly describes the offences under ss1 and 2 Bribery Act 2010?",
+      "options": {
+        "A": "Section 1 covers bribery of foreign public officials only, and s2 covers bribery in the private sector only",
+        "B": "Section 1 covers offering, promising or giving a bribe, and s2 covers requesting, agreeing to receive or accepting a bribe",
+        "C": "Section 1 covers corporate failure to prevent bribery, and s2 covers individuals who give bribes",
+        "D": "Both sections apply only to public officials and not to private sector transactions"
+      },
+      "correct": "B",
+      "explanation": "Section 1 is the general offence of bribing another person and s2 is the offence of being bribed; both apply to the public and private sectors, and both turn on improper performance of a relevant function or activity. Bribery of a foreign public official is a separate offence under s6, and the failure of a commercial organisation to prevent bribery is under s7.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-lw-c12-q011",
+      "chapter": 12,
+      "topic": "Corporate governance and fraudulent behaviour",
+      "question_text": "Which of the following is an offence under the principal money laundering provisions of the Proceeds of Crime Act 2002?",
+      "options": {
+        "A": "Holding shares in a company that later becomes insolvent",
+        "B": "Dealing in shares on the basis of published information",
+        "C": "Paying a dividend out of distributable profits",
+        "D": "Acquiring, using or having possession of criminal property"
+      },
+      "correct": "D",
+      "explanation": "The principal money laundering offences are concealing, disguising, converting, transferring or removing criminal property (s327), entering into or becoming concerned in an arrangement facilitating its acquisition, retention, use or control (s328), and acquiring, using or having possession of criminal property (s329). Criminal property is a benefit from criminal conduct that the person knows or suspects represents such a benefit. The other options describe lawful activities.",
+      "difficulty": "medium"
+    }
+  ]
+}

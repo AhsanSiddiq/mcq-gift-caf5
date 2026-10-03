@@ -295,7 +295,7 @@
         "A": "$20,000",
         "B": "$45,000",
         "C": "$15,000",
-        "D": "$2"
+        "D": "$60,000"
       },
       "correct": "A",
       "explanation": "Convert the unit costs into totals: 5,000 x $9.00 = $45,000 and 8,000 x $7.50 = $60,000. Variable cost per unit = ($60,000 - $45,000) / (8,000 - 5,000) = $5.00. Fixed cost = $45,000 - (5,000 x $5.00) = $20,000. The cost is semi-variable.",
@@ -908,7 +908,7 @@
       "question_text": "A company purchased 8,400 kg of material for $39,480. The standard price is $4.80 per kg. What is the material price variance?",
       "options": {
         "A": "$840 adverse",
-        "B": "-$0.10 favourable",
+        "B": "$800 favourable",
         "C": "$840 favourable",
         "D": "$40,320 favourable"
       },
@@ -969,7 +969,7 @@
       "options": {
         "A": "$800 favourable",
         "B": "$800 adverse",
-        "C": "-$1,000 favourable",
+        "C": "$1,000 favourable",
         "D": "$2,120 adverse"
       },
       "correct": "B",
@@ -1014,7 +1014,7 @@
       "options": {
         "A": "$13,000 favourable",
         "B": "$13,000 adverse",
-        "C": "-$53,000 adverse",
+        "C": "$53,000 adverse",
         "D": "$2.50 adverse"
       },
       "correct": "B",
@@ -1439,7 +1439,7 @@
       },
       "correct": "A",
       "explanation": "Breakeven revenue = fixed costs / C/S ratio = $270,000 / 0.375 = $720,000. Check: 30,000 units x $24 = $720,000.",
-      "difficulty": "easy"
+      "difficulty": "medium"
     },
     {
       "id": "cima-ba2-c10-q004",
@@ -1704,7 +1704,7 @@
       "options": {
         "A": "Make, saving $15,000",
         "B": "Buy, saving $3,000",
-        "C": "Make, saving $15,000",
+        "C": "Buy, saving $18,000",
         "D": "Both options cost the same"
       },
       "correct": "B",
@@ -1844,7 +1844,7 @@
       },
       "correct": "A",
       "explanation": "Future value = $20,000 x (1.06)^5 = $20,000 x 1.3382 = $26,765 to the nearest $. Simple interest would give only $20,000 + (5 x $1,200) = $26,000.",
-      "difficulty": "easy"
+      "difficulty": "medium"
     },
     {
       "id": "cima-ba2-c12-q007",
@@ -1919,7 +1919,7 @@
       },
       "correct": "C",
       "explanation": "Equivalent annual rate = (1 + monthly rate)^12 - 1 = (1.015)^12 - 1 = 1.1956 - 1 = 19.56%. Multiplying 1.5% by 12 (18%) ignores the compounding of interest each month.",
-      "difficulty": "medium"
+      "difficulty": "hard"
     },
     {
       "id": "cima-ba2-c12-q012",
