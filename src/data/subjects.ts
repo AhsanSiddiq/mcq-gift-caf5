@@ -134,7 +134,7 @@ export const accaSubjects: Subject[] = [
     level: "ACCA",
     body: "acca",
     description: "Double entry to consolidations and cash flows — IFRS-based practice for the FA CBE.",
-    isAvailable: false,
+    isAvailable: true,
   },
 ];
 

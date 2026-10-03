@@ -1,0 +1,2255 @@
+{
+  "subject_id": "acca-fa",
+  "questions": [
+    {
+      "id": "acca-fa-c01-q001",
+      "chapter": 1,
+      "topic": "The context and purpose of financial reporting",
+      "question_text": "According to the IASB Conceptual Framework, what is the objective of general purpose financial reporting?",
+      "options": {
+        "A": "To provide financial information about the reporting entity that is useful to existing and potential investors, lenders and other creditors in making decisions about providing resources to the entity",
+        "B": "To provide management with detailed information needed to plan and control day-to-day operations",
+        "C": "To prove to the registrar of companies that the entity has complied with company law",
+        "D": "To provide the tax authorities with the information needed to calculate the entity's tax liability"
+      },
+      "correct": "A",
+      "explanation": "The Conceptual Framework states that the objective of general purpose financial reporting is to provide information useful to the primary users - existing and potential investors, lenders and other creditors - when they make decisions about providing resources to the entity. Tax computation and internal planning are served by other, more specific reports. Legal compliance is a consequence of preparing the statements, not their objective.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c01-q002",
+      "chapter": 1,
+      "topic": "The context and purpose of financial reporting",
+      "question_text": "Which user group is MOST likely to use financial statements to assess the stability and profitability of an entity as an indicator of its ability to pay remuneration and offer continuing employment?",
+      "options": {
+        "A": "Government agencies",
+        "B": "Employees",
+        "C": "Customers",
+        "D": "Lenders"
+      },
+      "correct": "B",
+      "explanation": "Employees and their representatives are concerned with the stability and profitability of their employer, because this indicates job security and the ability to pay wages, pensions and other benefits. Lenders focus mainly on whether loans and interest will be repaid, customers on continuity of supply, and government on tax, regulation and statistics.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c01-q003",
+      "chapter": 1,
+      "topic": "The context and purpose of financial reporting",
+      "question_text": "Which of the following statements about financial accounting and management accounting is correct?",
+      "options": {
+        "A": "Management accounts may include forecasts and do not have to follow IFRS Accounting Standards",
+        "B": "Management accounts must be audited before they are used",
+        "C": "Financial accounting information is only prepared by companies whose shares are listed on a stock exchange",
+        "D": "Financial accounts are prepared mainly for the internal use of managers"
+      },
+      "correct": "A",
+      "explanation": "Management accounting produces information for internal users in whatever format is most useful, which may include budgets and forecasts, and it is not bound by IFRS or company law. Financial accounting is aimed mainly at external users, is largely historic and is usually regulated. Management accounts are not subject to statutory audit, and all businesses (not only listed companies) keep financial accounting records.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c01-q004",
+      "chapter": 1,
+      "topic": "The context and purpose of financial reporting",
+      "question_text": "Which of the following is a feature of a limited liability company?",
+      "options": {
+        "A": "The liability of the shareholders for the company's debts is limited to any amount unpaid on their shares",
+        "B": "The company is not a separate legal entity from its owners",
+        "C": "The company's profits are taxed as the personal income of its shareholders",
+        "D": "The owners are personally liable for all of the debts of the business"
+      },
+      "correct": "A",
+      "explanation": "A limited liability company is a separate legal entity, so it owns its assets and is responsible for its own debts. Shareholders can lose no more than the amount they have paid, or agreed to pay, for their shares. Unlimited personal liability and taxation of profits as personal income are features of sole traders and ordinary partnerships.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c01-q005",
+      "chapter": 1,
+      "topic": "The context and purpose of financial reporting",
+      "question_text": "Which body is responsible for developing and issuing IFRS Accounting Standards?",
+      "options": {
+        "A": "The IFRS Advisory Council",
+        "B": "The IFRS Interpretations Committee",
+        "C": "The Trustees of the IFRS Foundation",
+        "D": "The International Accounting Standards Board (IASB)"
+      },
+      "correct": "D",
+      "explanation": "The IASB is the independent standard-setting body that develops and issues IFRS Accounting Standards. The IFRS Foundation Trustees oversee governance and funding, the Advisory Council gives strategic advice, and the Interpretations Committee issues interpretations on how existing standards should be applied.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c01-q006",
+      "chapter": 1,
+      "topic": "The context and purpose of financial reporting",
+      "question_text": "What is the main role of the IFRS Interpretations Committee?",
+      "options": {
+        "A": "To enforce compliance with IFRS by imposing penalties on companies",
+        "B": "To appoint the members of the IASB and secure funding",
+        "C": "To review accounting issues arising in practice and issue guidance on the application of existing standards",
+        "D": "To approve the financial statements of companies that apply IFRS"
+      },
+      "correct": "C",
+      "explanation": "The IFRS Interpretations Committee considers widespread application issues that are not specifically addressed in standards, or where unsatisfactory or conflicting interpretations have developed, and issues interpretations (approved by the IASB). Appointments and funding are the Trustees' responsibility. Approval of financial statements is a matter for each company's directors, and enforcement is carried out by national regulators.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c01-q007",
+      "chapter": 1,
+      "topic": "The context and purpose of financial reporting",
+      "question_text": "Which of the following statements regarding responsibility for the financial statements of a limited liability company is correct?",
+      "options": {
+        "A": "The external auditors are responsible for preparing the financial statements",
+        "B": "The IASB is responsible for checking that each company's financial statements comply with its standards",
+        "C": "The directors are responsible for preparing financial statements that give a true and fair view",
+        "D": "The shareholders are responsible for maintaining the accounting records"
+      },
+      "correct": "C",
+      "explanation": "Company directors have the legal responsibility for keeping adequate accounting records and for preparing financial statements that give a true and fair view. External auditors give an independent opinion on those statements but do not prepare them. Shareholders receive the statements, and the IASB sets standards but does not check individual companies.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c01-q008",
+      "chapter": 1,
+      "topic": "The context and purpose of financial reporting",
+      "question_text": "Within a system of corporate governance, which of the following is a key role of non-executive directors?",
+      "options": {
+        "A": "To manage the day-to-day operations of the company",
+        "B": "To carry out the external audit of the financial statements",
+        "C": "To prepare the monthly management accounts",
+        "D": "To provide independent oversight and constructive challenge of the executive directors"
+      },
+      "correct": "D",
+      "explanation": "Non-executive directors are not involved in daily management. Their value comes from independence: they monitor and challenge executive management, and often sit on audit, remuneration and nomination committees. The external audit must be performed by an independent auditor outside the board, and day-to-day management and reporting are executive functions.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c01-q009",
+      "chapter": 1,
+      "topic": "The context and purpose of financial reporting",
+      "question_text": "In an ordinary (unlimited) partnership, which of the following statements is correct?",
+      "options": {
+        "A": "The partnership can raise finance by issuing shares to the public",
+        "B": "The partners may be personally liable for the debts of the partnership",
+        "C": "Salaries paid to partners are an expense in arriving at the partnership's profit",
+        "D": "The partnership must publish audited financial statements"
+      },
+      "correct": "B",
+      "explanation": "In an ordinary partnership the partners do not have limited liability, so their personal assets may be used to meet partnership debts. Partner salaries are an appropriation (division) of profit, not an expense. There is generally no legal requirement for an ordinary partnership to publish audited accounts, and partnerships cannot issue shares.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c01-q010",
+      "chapter": 1,
+      "topic": "The context and purpose of financial reporting",
+      "question_text": "Which financial statement reports the assets, liabilities and equity of an entity at a specific date?",
+      "options": {
+        "A": "The statement of financial position",
+        "B": "The statement of cash flows",
+        "C": "The statement of profit or loss",
+        "D": "The statement of changes in equity"
+      },
+      "correct": "A",
+      "explanation": "The statement of financial position is a snapshot of assets, liabilities and equity at the reporting date. The statement of profit or loss, the statement of cash flows and the statement of changes in equity all report on performance or movements over a period of time.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c02-q001",
+      "chapter": 2,
+      "topic": "The qualitative characteristics of financial information",
+      "question_text": "Which TWO qualitative characteristics are identified as fundamental in the IASB Conceptual Framework?",
+      "options": {
+        "A": "Relevance and verifiability",
+        "B": "Comparability and understandability",
+        "C": "Relevance and faithful representation",
+        "D": "Faithful representation and timeliness"
+      },
+      "correct": "C",
+      "explanation": "The Conceptual Framework identifies two fundamental qualitative characteristics: relevance and faithful representation. Comparability, verifiability, timeliness and understandability are enhancing characteristics, which improve the usefulness of information that is already relevant and faithfully represented.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c02-q002",
+      "chapter": 2,
+      "topic": "The qualitative characteristics of financial information",
+      "question_text": "Which of the following is an ENHANCING qualitative characteristic of useful financial information?",
+      "options": {
+        "A": "Materiality",
+        "B": "Going concern",
+        "C": "Faithful representation",
+        "D": "Comparability"
+      },
+      "correct": "D",
+      "explanation": "The four enhancing qualitative characteristics are comparability, verifiability, timeliness and understandability. Faithful representation is a fundamental characteristic, materiality is an entity-specific aspect of relevance, and going concern is the underlying assumption of the Framework.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c02-q003",
+      "chapter": 2,
+      "topic": "The qualitative characteristics of financial information",
+      "question_text": "Which of the following statements about materiality are correct?\n1. Materiality is an entity-specific aspect of relevance.\n2. The IASB specifies a single percentage threshold that all entities must use to judge materiality.\n3. An item may be material because of its nature even if its amount is small.",
+      "options": {
+        "A": "1 and 3 only",
+        "B": "1 and 2 only",
+        "C": "2 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "correct": "A",
+      "explanation": "Information is material if omitting, misstating or obscuring it could reasonably be expected to influence the decisions of primary users, so materiality depends on each entity's circumstances (statement 1 is correct). The IASB deliberately does not set a uniform quantitative threshold (statement 2 is incorrect). Some items, such as related party transactions or directors' remuneration, can be material because of their nature regardless of size (statement 3 is correct).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fa-c02-q004",
+      "chapter": 2,
+      "topic": "The qualitative characteristics of financial information",
+      "question_text": "To be a perfectly faithful representation, financial information should have three characteristics. Which of the following is NOT one of them?",
+      "options": {
+        "A": "Complete",
+        "B": "Neutral",
+        "C": "Free from error",
+        "D": "Verifiable"
+      },
+      "correct": "D",
+      "explanation": "The Conceptual Framework states that a faithful representation is complete, neutral and free from error. Verifiability is an enhancing qualitative characteristic: it helps assure users that information faithfully represents what it claims to, but it is not one of the three components of faithful representation itself.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c02-q005",
+      "chapter": 2,
+      "topic": "The qualitative characteristics of financial information",
+      "question_text": "Financial statements are normally prepared on the assumption that the entity is a going concern. What does this mean?",
+      "options": {
+        "A": "The entity will continue in operation for the foreseeable future",
+        "B": "The entity's assets are measured at their realisable values",
+        "C": "The entity will make a profit in the next financial year",
+        "D": "The entity has sufficient cash to pay all its liabilities immediately"
+      },
+      "correct": "A",
+      "explanation": "The going concern assumption is that the entity has neither the intention nor the need to liquidate or significantly curtail its operations, so it will continue in operation for the foreseeable future. This is why assets are normally carried at cost-based amounts rather than break-up values. It does not guarantee future profits or immediate liquidity.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c02-q006",
+      "chapter": 2,
+      "topic": "The qualitative characteristics of financial information",
+      "question_text": "Which of the following best describes the principle of substance over form?",
+      "options": {
+        "A": "Items are recognised only when the related cash has been received or paid",
+        "B": "Transactions are recorded only when legal title has passed",
+        "C": "Transactions are accounted for in accordance with their economic reality rather than merely their legal form",
+        "D": "Assets are recorded at the lower of cost and fair value"
+      },
+      "correct": "C",
+      "explanation": "Faithful representation requires that the economic substance of a transaction is reported, even when it differs from its legal form. For example, an entity may control and benefit from an asset before legal title passes to it. Recording only on transfer of legal title or on receipt of cash would not reflect the economic reality.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c02-q007",
+      "chapter": 2,
+      "topic": "The qualitative characteristics of financial information",
+      "question_text": "Under the accruals (accrual basis) concept, when are the effects of transactions recognised?",
+      "options": {
+        "A": "Only when the related cash is received or paid",
+        "B": "In the period in which the invoice is paid",
+        "C": "Only at the end of the financial year when the bank statement is reconciled",
+        "D": "In the period in which they occur, even if the related cash is received or paid in a different period"
+      },
+      "correct": "D",
+      "explanation": "Accrual accounting reports the effects of transactions and events in the periods in which those effects occur, regardless of when cash changes hands. This gives a better basis for assessing performance than cash accounting, and is why accruals and prepayments are recorded at the period end.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c02-q008",
+      "chapter": 2,
+      "topic": "The qualitative characteristics of financial information",
+      "question_text": "How does the IASB Conceptual Framework define a liability?",
+      "options": {
+        "A": "A present obligation of the entity to transfer an economic resource as a result of past events",
+        "B": "A possible obligation that may arise from future events",
+        "C": "Any amount owed to the owners of the entity",
+        "D": "An amount that the entity intends to pay in the future"
+      },
+      "correct": "A",
+      "explanation": "A liability is a present obligation of the entity to transfer an economic resource as a result of past events. An intention to pay, or an obligation that depends on future events, does not meet the definition. Amounts invested by owners are equity, which is the residual interest in assets after deducting liabilities.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c02-q009",
+      "chapter": 2,
+      "topic": "The qualitative characteristics of financial information",
+      "question_text": "Which of the following would meet the Conceptual Framework definition of an asset of a trading company?",
+      "options": {
+        "A": "A good reputation built up internally over many years",
+        "B": "A highly skilled and loyal workforce",
+        "C": "An amount owed by a customer for goods already delivered",
+        "D": "An order received from a customer for goods to be delivered next year"
+      },
+      "correct": "C",
+      "explanation": "An asset is a present economic resource controlled by the entity as a result of past events. A receivable for goods already delivered is a right to cash arising from a past event (the sale). An order for future delivery is not yet a past event giving a present right, a workforce is not controlled by the entity, and internally generated reputation cannot be reliably separated or measured.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c02-q010",
+      "chapter": 2,
+      "topic": "The qualitative characteristics of financial information",
+      "question_text": "Which of the following is NOT income as defined in the Conceptual Framework?",
+      "options": {
+        "A": "Revenue from the sale of goods",
+        "B": "Additional capital introduced by the owner of the business",
+        "C": "A gain on the disposal of a non-current asset",
+        "D": "Interest received on a bank deposit"
+      },
+      "correct": "B",
+      "explanation": "Income is an increase in assets, or decrease in liabilities, that results in an increase in equity other than contributions from holders of equity claims. Capital introduced by the owner increases equity but is a contribution from the owner, so it is excluded from income. Sales revenue, interest received and gains on disposal are all income.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c03-q001",
+      "chapter": 3,
+      "topic": "Double entry bookkeeping and the accounting equation",
+      "question_text": "A sole trader's capital at the start of the year was $45,000. During the year she introduced a further $5,000, made a profit of $12,600 and withdrew $8,200 for personal use. What was her capital at the end of the year?",
+      "options": {
+        "A": "$62,600",
+        "B": "$70,800",
+        "C": "$54,400",
+        "D": "$49,400"
+      },
+      "correct": "C",
+      "explanation": "Closing capital = opening capital + capital introduced + profit - drawings. $45,000 + $5,000 + $12,600 - $8,200 = $54,400. Adding drawings gives $70,800, omitting the capital introduced gives $49,400, and ignoring drawings gives $62,600.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c03-q002",
+      "chapter": 3,
+      "topic": "Double entry bookkeeping and the accounting equation",
+      "question_text": "A trader's net assets were $38,000 at the start of the year and $51,500 at the end. During the year the trader introduced capital of $6,000 and took drawings of $9,000. What was the profit for the year?",
+      "options": {
+        "A": "$10,500",
+        "B": "$13,500",
+        "C": "$28,500",
+        "D": "$16,500"
+      },
+      "correct": "D",
+      "explanation": "Increase in net assets = $51,500 - $38,000 = $13,500. This increase equals capital introduced + profit - drawings, so profit = $13,500 - $6,000 + $9,000 = $16,500. Reversing the treatment of capital introduced and drawings gives $10,500, and adding both gives $28,500.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fa-c03-q003",
+      "chapter": 3,
+      "topic": "Double entry bookkeeping and the accounting equation",
+      "question_text": "What is the double entry to record the purchase of goods for resale on credit?",
+      "options": {
+        "A": "Debit Payables, Credit Purchases",
+        "B": "Debit Purchases, Credit Payables",
+        "C": "Debit Purchases, Credit Revenue",
+        "D": "Debit Inventory, Credit Cash"
+      },
+      "correct": "B",
+      "explanation": "Buying goods for resale increases the purchases expense, which is a debit. Because the goods are bought on credit, the business now owes the supplier, so trade payables are credited. Inventory is only adjusted at the period end for closing inventory, and cash is not affected until the supplier is paid.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c03-q004",
+      "chapter": 3,
+      "topic": "Double entry bookkeeping and the accounting equation",
+      "question_text": "The owner of a shop takes goods costing $350 from inventory for personal use. What is the double entry to record this?",
+      "options": {
+        "A": "Debit Drawings $350, Credit Revenue $350",
+        "B": "Debit Purchases $350, Credit Drawings $350",
+        "C": "Debit Drawings $350, Credit Purchases $350",
+        "D": "Debit Capital $350, Credit Cash $350"
+      },
+      "correct": "C",
+      "explanation": "Goods taken by the owner are drawings, which reduce capital and are debited to the drawings account. The goods were not sold, so revenue is not credited; instead purchases are credited at cost so that cost of sales only includes goods used in the business. No cash is involved.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c03-q005",
+      "chapter": 3,
+      "topic": "Double entry bookkeeping and the accounting equation",
+      "question_text": "In which book of prime entry would a credit note issued to a credit customer for goods returned first be recorded?",
+      "options": {
+        "A": "The sales day book",
+        "B": "The sales returns day book",
+        "C": "The cash book",
+        "D": "The purchase returns day book"
+      },
+      "correct": "B",
+      "explanation": "A credit note issued to a customer reduces the amount the customer owes for goods returned, so it is a sales return and is recorded in the sales returns day book. Credit notes received from suppliers go in the purchase returns day book. The sales day book records invoices issued, and the cash book records receipts and payments.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c03-q006",
+      "chapter": 3,
+      "topic": "Double entry bookkeeping and the accounting equation",
+      "question_text": "A business operates a petty cash imprest system with a float of $350. During the month, petty cash vouchers totalling $212 were paid out, and an employee repaid $30 for personal telephone calls, which was put into the petty cash box. How much cash is needed to restore the float at the end of the month?",
+      "options": {
+        "A": "$168",
+        "B": "$212",
+        "C": "$242",
+        "D": "$182"
+      },
+      "correct": "D",
+      "explanation": "Cash in the box at the month end = $350 - $212 + $30 = $168. To restore the imprest of $350, the amount required = $350 - $168 = $182 (equivalently, expenditure of $212 less the $30 received). $168 is the cash remaining, not the top-up needed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c03-q007",
+      "chapter": 3,
+      "topic": "Double entry bookkeeping and the accounting equation",
+      "question_text": "A customer's account in the receivables ledger had an opening debit balance of $1,200. During the month, credit sales of $4,500 were made to the customer, the customer paid $3,800, and goods worth $350 were returned by the customer. What is the closing balance on the account?",
+      "options": {
+        "A": "$350 debit",
+        "B": "$1,550 debit",
+        "C": "$1,900 debit",
+        "D": "$2,250 debit"
+      },
+      "correct": "B",
+      "explanation": "Closing balance = $1,200 + $4,500 - $3,800 - $350 = $1,550 debit. Ignoring the returns gives $1,900, adding the returns instead of deducting them gives $2,250, and omitting the opening balance gives $350.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c03-q008",
+      "chapter": 3,
+      "topic": "Double entry bookkeeping and the accounting equation",
+      "question_text": "Which type of transaction would normally be recorded in the journal?",
+      "options": {
+        "A": "An invoice sent to a credit customer",
+        "B": "Cash received from a credit customer",
+        "C": "A cheque paid to a supplier",
+        "D": "The correction of an error in the ledger accounts"
+      },
+      "correct": "D",
+      "explanation": "The journal is the book of prime entry for transactions not recorded in any other book of prime entry, such as corrections of errors, year-end adjustments and non-current asset transactions. Routine receipts and payments go through the cash book, and sales invoices through the sales day book.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c03-q009",
+      "chapter": 3,
+      "topic": "Double entry bookkeeping and the accounting equation",
+      "question_text": "Which of the following accounts would normally have a CREDIT balance in a trial balance?",
+      "options": {
+        "A": "Carriage inwards",
+        "B": "Bank overdraft",
+        "C": "Drawings",
+        "D": "Discount allowed"
+      },
+      "correct": "B",
+      "explanation": "A bank overdraft is a liability, and liabilities have credit balances. Drawings reduce capital and are a debit, while carriage inwards and discounts allowed are expenses, which are also debit balances.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c03-q010",
+      "chapter": 3,
+      "topic": "Double entry bookkeeping and the accounting equation",
+      "question_text": "A business buys a delivery van on credit. What is the effect on the accounting equation?",
+      "options": {
+        "A": "Assets do not change in total",
+        "B": "Assets increase and capital increases",
+        "C": "Assets increase and liabilities increase",
+        "D": "Liabilities increase and capital decreases"
+      },
+      "correct": "C",
+      "explanation": "The van is a new non-current asset, so assets increase. Since it was bought on credit, a liability to the supplier is created for the same amount. The accounting equation (assets = capital + liabilities) remains in balance and capital is unaffected.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c04-q001",
+      "chapter": 4,
+      "topic": "Sales, purchases and sales tax",
+      "question_text": "A business registered for sales tax sells goods on credit for $4,800, including sales tax at 20%. Which journal correctly records the sale?",
+      "options": {
+        "A": "Debit Receivables $4,800; Credit Revenue $3,840; Credit Sales tax $960",
+        "B": "Debit Receivables $5,760; Credit Revenue $4,800; Credit Sales tax $960",
+        "C": "Debit Receivables $4,800; Credit Revenue $4,800",
+        "D": "Debit Receivables $4,800; Credit Revenue $4,000; Credit Sales tax $800"
+      },
+      "correct": "D",
+      "explanation": "The $4,800 is the gross (tax-inclusive) amount. Sales tax = $4,800 x 20/120 = $800, so revenue = $4,800 - $800 = $4,000. The receivable is the full $4,800 owed by the customer. Taking 20% of the gross amount ($960) is a common error because 20% applies to the net price.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c04-q002",
+      "chapter": 4,
+      "topic": "Sales, purchases and sales tax",
+      "question_text": "During a quarter, a business made sales of $180,000 excluding sales tax and purchases of $92,000 including sales tax. All items are subject to sales tax at 15%. How much sales tax is payable to the tax authority for the quarter?",
+      "options": {
+        "A": "$39,000",
+        "B": "$27,000",
+        "C": "$13,200",
+        "D": "$15,000"
+      },
+      "correct": "D",
+      "explanation": "Output tax = $180,000 x 15% = $27,000. Input tax on purchases (tax-inclusive) = $92,000 x 15/115 = $12,000. Amount payable = $27,000 - $12,000 = $15,000. Treating the purchases as tax-exclusive gives input tax of $13,800 and a payable of $13,200.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c04-q003",
+      "chapter": 4,
+      "topic": "Sales, purchases and sales tax",
+      "question_text": "At the start of a quarter, a business owed $3,400 sales tax to the tax authority and paid $3,100 of this during the quarter. During the quarter, output tax of $8,750 and input tax of $5,120 were recorded. What is the balance on the sales tax account at the end of the quarter?",
+      "options": {
+        "A": "$14,170 payable",
+        "B": "$10,130 payable",
+        "C": "$3,930 payable",
+        "D": "$3,630 payable"
+      },
+      "correct": "C",
+      "explanation": "Closing balance = opening liability $3,400 - payment $3,100 + output tax $8,750 - input tax $5,120 = $3,930 payable. Assuming the opening balance was fully settled gives $3,630, while adding the payment instead of deducting it gives $10,130.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fa-c04-q004",
+      "chapter": 4,
+      "topic": "Sales, purchases and sales tax",
+      "question_text": "On 1 June, a company sold goods with a list price of $6,000 to a credit customer. The customer receives a 10% trade discount and is offered a 3% settlement discount for payment within 10 days. At the date of sale the company expects the customer to take the settlement discount. Ignoring sales tax, at what amount should revenue initially be recognised under IFRS 15 Revenue from Contracts with Customers?",
+      "options": {
+        "A": "$6,000",
+        "B": "$5,400",
+        "C": "$5,820",
+        "D": "$5,238"
+      },
+      "correct": "D",
+      "explanation": "Trade discount is deducted first: $6,000 x 90% = $5,400. Under IFRS 15 a settlement discount is variable consideration, and because the customer is expected to take it, revenue (and the receivable) is recognised at the expected consideration: $5,400 x 97% = $5,238. If the customer later pays outside the discount period, the extra $162 is recognised as revenue at that point. $5,400 would be used only if the customer was not expected to take the discount, and $5,820 wrongly ignores the trade discount.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fa-c04-q005",
+      "chapter": 4,
+      "topic": "Sales, purchases and sales tax",
+      "question_text": "How should a trade discount given to a customer be recorded in the ledger accounts?",
+      "options": {
+        "A": "It is credited to a discount received income account",
+        "B": "It is not recorded separately; revenue is recorded at the price after the trade discount",
+        "C": "It is debited to a discount allowed expense account",
+        "D": "It is recorded as a deduction from receivables after the invoice has been paid"
+      },
+      "correct": "B",
+      "explanation": "Trade discounts are reductions in the list price given, for example, to regular or bulk customers. They are deducted on the face of the invoice and the sale is recorded at the net amount, so no separate discount account is used.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c04-q006",
+      "chapter": 4,
+      "topic": "Sales, purchases and sales tax",
+      "question_text": "A trader who is NOT registered for sales tax buys goods for resale for $2,000 plus sales tax at 20%. At what amount should the purchase be recorded?",
+      "options": {
+        "A": "$1,600",
+        "B": "$2,400",
+        "C": "$1,667",
+        "D": "$2,000"
+      },
+      "correct": "B",
+      "explanation": "A business that is not registered cannot reclaim input tax, so the sales tax is part of the cost of the goods. The purchase is recorded at $2,000 + ($2,000 x 20%) = $2,400. Only a registered business would record $2,000 and a separate sales tax receivable.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c04-q007",
+      "chapter": 4,
+      "topic": "Sales, purchases and sales tax",
+      "question_text": "Under IFRS 15 Revenue from Contracts with Customers, when should revenue be recognised?",
+      "options": {
+        "A": "When (or as) a performance obligation is satisfied by transferring control of goods or services to the customer",
+        "B": "When the goods are manufactured",
+        "C": "When the customer pays in cash",
+        "D": "When the contract is signed"
+      },
+      "correct": "A",
+      "explanation": "IFRS 15 requires revenue to be recognised when, or as, the entity satisfies a performance obligation by transferring control of a promised good or service to the customer. Payment timing does not determine recognition, and signing a contract or manufacturing goods does not on its own transfer control.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c04-q008",
+      "chapter": 4,
+      "topic": "Sales, purchases and sales tax",
+      "question_text": "How is the total of the net sales column of the sales day book posted to the general ledger?",
+      "options": {
+        "A": "Debit Revenue, with the gross total credited to the payables control account",
+        "B": "Debit Revenue, with the gross total credited to the receivables control account",
+        "C": "Credit Revenue, with the gross total debited to the receivables control account",
+        "D": "Credit Revenue, with the gross total debited to the cash book"
+      },
+      "correct": "C",
+      "explanation": "The sales day book lists credit sales invoices. Periodically the net total is credited to revenue, the sales tax total is credited to the sales tax account, and the gross total is debited to the receivables control account, because customers now owe that amount.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c04-q009",
+      "chapter": 4,
+      "topic": "Sales, purchases and sales tax",
+      "question_text": "The following information relates to a business for a year:\nOpening inventory $14,200\nPurchases $86,500\nCarriage inwards $1,900\nCarriage outwards $2,300\nPurchase returns $3,100\nClosing inventory $16,800\nWhat is the cost of sales?",
+      "options": {
+        "A": "$82,700",
+        "B": "$80,800",
+        "C": "$85,000",
+        "D": "$88,900"
+      },
+      "correct": "A",
+      "explanation": "Cost of sales = $14,200 + $86,500 + $1,900 - $3,100 - $16,800 = $82,700. Carriage inwards is part of the cost of purchases, whereas carriage outwards is a distribution cost and is excluded. Including carriage outwards gives $85,000 and adding the returns instead of deducting them gives $88,900.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c04-q010",
+      "chapter": 4,
+      "topic": "Sales, purchases and sales tax",
+      "question_text": "A business registered for sales tax issues a credit note to a credit customer for goods returned with a net value of $1,200. Sales tax is 20%. What is the correct double entry?",
+      "options": {
+        "A": "Debit Receivables $1,440; Credit Sales returns $1,200; Credit Sales tax $240",
+        "B": "Debit Sales returns $1,440; Credit Receivables $1,440",
+        "C": "Debit Sales returns $1,200; Credit Sales tax $240; Credit Receivables $960",
+        "D": "Debit Sales returns $1,200; Debit Sales tax $240; Credit Receivables $1,440"
+      },
+      "correct": "D",
+      "explanation": "The return reverses part of the original sale. Sales returns are debited with the net $1,200, the output tax previously charged is reduced by debiting sales tax with $1,200 x 20% = $240, and the customer's balance is reduced by the gross $1,440.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c05-q001",
+      "chapter": 5,
+      "topic": "Inventory (IAS 2)",
+      "question_text": "According to IAS 2 Inventories, how should inventories be measured?",
+      "options": {
+        "A": "At the higher of cost and net realisable value",
+        "B": "At the lower of cost and net realisable value",
+        "C": "At cost",
+        "D": "At expected selling price"
+      },
+      "correct": "B",
+      "explanation": "IAS 2 requires inventories to be measured at the lower of cost and net realisable value (NRV). NRV is the estimated selling price less the estimated costs of completion and the estimated costs necessary to make the sale. This prevents inventory from being carried at more than it is expected to realise.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c05-q002",
+      "chapter": 5,
+      "topic": "Inventory (IAS 2)",
+      "question_text": "Which of the following costs should NOT be included in the cost of inventory under IAS 2?",
+      "options": {
+        "A": "Wages of production staff",
+        "B": "Import duties on goods purchased",
+        "C": "Cost of delivering goods to customers",
+        "D": "Carriage inwards on raw materials"
+      },
+      "correct": "C",
+      "explanation": "The cost of inventory includes all costs of purchase, costs of conversion and other costs incurred in bringing inventories to their present location and condition. Carriage inwards, import duties and production labour all qualify. Delivery costs to customers are selling (distribution) costs and must be expensed.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c05-q003",
+      "chapter": 5,
+      "topic": "Inventory (IAS 2)",
+      "question_text": "A business holds 40 units of an item that cost $850 each. The items can be sold for $900 each, but each unit first needs modifications costing $70, and a sales commission of 5% of the selling price will be payable. At what value should these items be included in inventory?",
+      "options": {
+        "A": "$33,200",
+        "B": "$34,000",
+        "C": "$31,400",
+        "D": "$36,000"
+      },
+      "correct": "C",
+      "explanation": "NRV per unit = $900 - $70 - ($900 x 5%) = $900 - $70 - $45 = $785. This is below cost of $850, so inventory is valued at NRV: 40 x $785 = $31,400. Ignoring the commission gives $830 per unit ($33,200), which is still below cost but overstates NRV.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c05-q004",
+      "chapter": 5,
+      "topic": "Inventory (IAS 2)",
+      "question_text": "A business has three product lines in inventory at its year end:\nProduct X: cost $2,400, NRV $3,100\nProduct Y: cost $5,600, NRV $4,900\nProduct Z: cost $1,800, NRV $1,750\nAt what amount should inventory be shown in the statement of financial position?",
+      "options": {
+        "A": "$9,050",
+        "B": "$9,750",
+        "C": "$9,100",
+        "D": "$9,800"
+      },
+      "correct": "A",
+      "explanation": "The lower of cost and NRV must be applied to each item or group of similar items separately: X $2,400 + Y $4,900 + Z $1,750 = $9,050. Comparing totals (cost $9,800 v NRV $9,750) and taking $9,750 is not permitted, because it lets gains on one product offset losses on another.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c05-q005",
+      "chapter": 5,
+      "topic": "Inventory (IAS 2)",
+      "question_text": "A business had the following inventory movements in March:\n1 March: opening inventory 100 units at $5.00\n4 March: purchased 200 units at $5.50\n15 March: sold 180 units\n20 March: purchased 150 units at $6.00\n28 March: sold 170 units\nUsing the FIFO method, what is the value of closing inventory at 31 March?",
+      "options": {
+        "A": "$556",
+        "B": "$600",
+        "C": "$500",
+        "D": "$570"
+      },
+      "correct": "B",
+      "explanation": "Closing units = 100 + 200 - 180 + 150 - 170 = 100 units. Under FIFO the oldest units are sold first, so the 100 units remaining are from the most recent purchase on 20 March at $6.00: 100 x $6.00 = $600. The other figures come from averaging methods or from valuing at the oldest cost.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c05-q006",
+      "chapter": 5,
+      "topic": "Inventory (IAS 2)",
+      "question_text": "A business uses the continuous weighted average cost (AVCO) method. Its inventory movements in March were:\n1 March: opening inventory 100 units at $5.00\n4 March: purchased 200 units at $5.50\n15 March: sold 180 units\n20 March: purchased 150 units at $6.00\n28 March: sold 170 units\nWhat is the value of closing inventory at 31 March, to the nearest $?",
+      "options": {
+        "A": "$600",
+        "B": "$570",
+        "C": "$540",
+        "D": "$556"
+      },
+      "correct": "B",
+      "explanation": "After 4 March: 300 units costing $500 + $1,100 = $1,600, average $5.3333. 15 March sale removes 180 x $5.3333 = $960, leaving 120 units at $640. After 20 March: 270 units costing $640 + $900 = $1,540, average $5.7037. 28 March sale removes 170 x $5.7037 = $969.63, leaving 100 units at $570.37, which rounds to $570. A periodic average ($2,500 / 450 x 100 = $556) is not the continuous method.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fa-c05-q007",
+      "chapter": 5,
+      "topic": "Inventory (IAS 2)",
+      "question_text": "A company's year end is 31 December. Its inventory count took place on 7 January and valued inventory at cost of $48,300. Between 1 January and 7 January, goods costing $2,700 were received from suppliers and sales of $6,000 were made at a mark-up of 25% on cost. What is the value of inventory at 31 December?",
+      "options": {
+        "A": "$46,200",
+        "B": "$50,100",
+        "C": "$50,400",
+        "D": "$51,600"
+      },
+      "correct": "C",
+      "explanation": "Cost of the goods sold after the year end = $6,000 x 100/125 = $4,800. These were in inventory at 31 December, so they are added back; the goods received after the year end were not, so they are deducted: $48,300 + $4,800 - $2,700 = $50,400. Treating 25% as a margin gives a cost of $4,500 and $50,100, and using the selling price gives $51,600.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fa-c05-q008",
+      "chapter": 5,
+      "topic": "Inventory (IAS 2)",
+      "question_text": "Closing inventory at the end of 20X5 was overstated by $5,000. This error was not discovered and the opening inventory for 20X6 was brought forward at the same incorrect amount. What is the effect on reported profit?",
+      "options": {
+        "A": "Profit for 20X5 is understated by $5,000 and profit for 20X6 is overstated by $5,000",
+        "B": "Profit for 20X5 is overstated by $5,000 and profit for 20X6 is unaffected",
+        "C": "Profit for 20X5 is overstated by $5,000 and profit for 20X6 is understated by $5,000",
+        "D": "Profit for both 20X5 and 20X6 is overstated by $5,000"
+      },
+      "correct": "C",
+      "explanation": "Overstating closing inventory reduces cost of sales and overstates 20X5 profit by $5,000. The same figure becomes opening inventory in 20X6, increasing cost of sales and understating 20X6 profit by $5,000. Over the two years the error reverses, so cumulative profit is correct by the end of 20X6.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c05-q009",
+      "chapter": 5,
+      "topic": "Inventory (IAS 2)",
+      "question_text": "What is the double entry to record closing inventory at the end of an accounting period?",
+      "options": {
+        "A": "Debit Purchases; Credit Inventory",
+        "B": "Debit Inventory (statement of financial position); Credit Cost of sales (statement of profit or loss)",
+        "C": "Debit Inventory; Credit Revenue",
+        "D": "Debit Cost of sales; Credit Inventory"
+      },
+      "correct": "B",
+      "explanation": "Closing inventory is an asset carried forward, so it is debited to the inventory account in the statement of financial position. The credit reduces cost of sales, because these goods have not yet been sold. In the next period the opening inventory is transferred back to cost of sales.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c05-q010",
+      "chapter": 5,
+      "topic": "Inventory (IAS 2)",
+      "question_text": "A company's inventory at cost is $64,000. This includes damaged items that cost $3,200. These items can be sold for $2,100 after repairs costing $400. At what amount should total inventory be stated?",
+      "options": {
+        "A": "$62,500",
+        "B": "$61,900",
+        "C": "$62,900",
+        "D": "$60,800"
+      },
+      "correct": "A",
+      "explanation": "NRV of the damaged items = $2,100 - $400 = $1,700, which is below cost of $3,200, so a write-down of $3,200 - $1,700 = $1,500 is needed. Inventory = $64,000 - $1,500 = $62,500. Ignoring the repair costs gives a write-down of $1,100 and $62,900; removing the items entirely gives $60,800.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c06-q001",
+      "chapter": 6,
+      "topic": "Tangible and intangible non-current assets",
+      "question_text": "Which of the following items should be treated as capital expenditure?",
+      "options": {
+        "A": "The annual service of factory equipment",
+        "B": "Repainting the exterior of the office building",
+        "C": "Installation costs of a new production machine",
+        "D": "Replacing worn tyres on a delivery van"
+      },
+      "correct": "C",
+      "explanation": "Capital expenditure is spent on acquiring non-current assets or enhancing their earning capacity, including costs necessary to bring an asset to working condition such as installation. Repainting, replacing tyres and routine servicing maintain existing assets and are revenue expenditure charged to profit or loss.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c06-q002",
+      "chapter": 6,
+      "topic": "Tangible and intangible non-current assets",
+      "question_text": "A company buys a machine with a list price of $48,000 and receives a 5% trade discount. It also pays delivery of $1,200, installation of $2,300, staff training on the machine of $900, and a one-year maintenance contract of $1,500. Recoverable sales tax of $9,120 was charged on the invoice. What is the cost of the machine under IAS 16 Property, Plant and Equipment?",
+      "options": {
+        "A": "$51,500",
+        "B": "$58,220",
+        "C": "$50,000",
+        "D": "$49,100"
+      },
+      "correct": "D",
+      "explanation": "Purchase price after trade discount = $48,000 x 95% = $45,600. Directly attributable costs of delivery ($1,200) and installation ($2,300) are capitalised: $45,600 + $1,200 + $2,300 = $49,100. Staff training and maintenance are expensed, and recoverable sales tax is not a cost. Including training gives $50,000; including training and maintenance gives $51,500.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c06-q003",
+      "chapter": 6,
+      "topic": "Tangible and intangible non-current assets",
+      "question_text": "A company with a 31 December year end bought equipment on 1 April 20X5 for $36,000. Its useful life is 8 years with a residual value of $4,000. Depreciation is charged on a straight-line basis, pro rata to the number of months owned. What is the depreciation charge for the year ended 31 December 20X5?",
+      "options": {
+        "A": "$3,375",
+        "B": "$4,500",
+        "C": "$3,000",
+        "D": "$4,000"
+      },
+      "correct": "C",
+      "explanation": "Annual depreciation = ($36,000 - $4,000) / 8 = $4,000. The asset was owned for 9 months, so the charge = $4,000 x 9/12 = $3,000. Ignoring the residual value gives $36,000 / 8 x 9/12 = $3,375, and a full year's charge is $4,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c06-q004",
+      "chapter": 6,
+      "topic": "Tangible and intangible non-current assets",
+      "question_text": "A vehicle costing $20,000 is depreciated at 25% per year on the reducing balance basis, with a full year's charge in the year of purchase. What is its carrying amount at the end of its third year, to the nearest $?",
+      "options": {
+        "A": "$11,250",
+        "B": "$8,438",
+        "C": "$6,328",
+        "D": "$5,000"
+      },
+      "correct": "B",
+      "explanation": "Year 1: $20,000 x 75% = $15,000. Year 2: $15,000 x 75% = $11,250. Year 3: $11,250 x 75% = $8,437.50, which rounds to $8,438. Straight-line at 25% of cost would give $5,000, $11,250 is the carrying amount after two years, and $6,328 is after four years.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c06-q005",
+      "chapter": 6,
+      "topic": "Tangible and intangible non-current assets",
+      "question_text": "A company with a 31 December year end bought a machine on 1 January 20X2 for $60,000. It is depreciated at 10% per year on cost, with a full year's charge in the year of acquisition and none in the year of disposal. The machine was sold on 30 June 20X6 for $33,500. What is the profit or loss on disposal?",
+      "options": {
+        "A": "Loss of $2,500",
+        "B": "Profit of $3,500",
+        "C": "Profit of $500",
+        "D": "Loss of $26,500"
+      },
+      "correct": "A",
+      "explanation": "Depreciation is charged for 20X2, 20X3, 20X4 and 20X5 only: 4 x ($60,000 x 10%) = $24,000. Carrying amount at disposal = $60,000 - $24,000 = $36,000. Proceeds $33,500 - carrying amount $36,000 = loss of $2,500. Charging five years gives a profit of $3,500, and time-apportioning to June gives a profit of $500.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fa-c06-q006",
+      "chapter": 6,
+      "topic": "Tangible and intangible non-current assets",
+      "question_text": "A business traded in an old van for a new van with a list price of $42,000. The dealer gave a part-exchange allowance of $9,500 and the balance was paid in cash. The old van had cost $30,000 and had accumulated depreciation of $22,000. What is the profit or loss on disposal of the old van?",
+      "options": {
+        "A": "Loss of $20,500",
+        "B": "Profit of $1,500",
+        "C": "Loss of $1,500",
+        "D": "Profit of $9,500"
+      },
+      "correct": "B",
+      "explanation": "The part-exchange allowance is the disposal proceeds of the old van. Carrying amount = $30,000 - $22,000 = $8,000. Profit = $9,500 - $8,000 = $1,500. The new van is recorded at its full cost of $42,000 ($9,500 allowance + $32,500 cash). Comparing proceeds with original cost gives a loss of $20,500.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fa-c06-q007",
+      "chapter": 6,
+      "topic": "Tangible and intangible non-current assets",
+      "question_text": "A building with a cost of $400,000 and accumulated depreciation of $80,000 is revalued to $500,000. What amount should be credited to the revaluation surplus?",
+      "options": {
+        "A": "$100,000",
+        "B": "$500,000",
+        "C": "$180,000",
+        "D": "$80,000"
+      },
+      "correct": "C",
+      "explanation": "The revaluation surplus is the revalued amount less the carrying amount: $500,000 - ($400,000 - $80,000) = $180,000. The accumulated depreciation is eliminated as part of the revaluation. Comparing the valuation with original cost gives only $100,000, which ignores the depreciation already charged.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c06-q008",
+      "chapter": 6,
+      "topic": "Tangible and intangible non-current assets",
+      "question_text": "A building originally cost $600,000 and had a useful life of 50 years. After 20 years it was revalued to $720,000, with its remaining useful life unchanged. What is the annual depreciation charge after the revaluation?",
+      "options": {
+        "A": "$36,000",
+        "B": "$24,000",
+        "C": "$14,400",
+        "D": "$12,000"
+      },
+      "correct": "B",
+      "explanation": "After revaluation the asset is depreciated over its remaining useful life: 50 - 20 = 30 years. Annual depreciation = $720,000 / 30 = $24,000. Using the full original life gives $14,400, continuing on cost gives $12,000, and dividing by the 20 years already used gives $36,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c06-q009",
+      "chapter": 6,
+      "topic": "Tangible and intangible non-current assets",
+      "question_text": "A machine was bought on 1 January 20X1 for $90,000 with a useful life of 10 years and no residual value, depreciated on a straight-line basis. On 1 January 20X4 the remaining useful life was revised to 4 years. What is the depreciation charge for 20X4?",
+      "options": {
+        "A": "$22,500",
+        "B": "$15,750",
+        "C": "$9,000",
+        "D": "$12,857"
+      },
+      "correct": "B",
+      "explanation": "A change in useful life is a change in accounting estimate, applied prospectively. Depreciation for 20X1 to 20X3 = 3 x $9,000 = $27,000, so the carrying amount at 1 January 20X4 = $63,000. The new charge = $63,000 / 4 = $15,750. Dividing the original cost by 4 years gives $22,500, and $9,000 ignores the revision.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fa-c06-q010",
+      "chapter": 6,
+      "topic": "Tangible and intangible non-current assets",
+      "question_text": "Under IAS 38 Intangible Assets, how should research expenditure be treated?",
+      "options": {
+        "A": "It must be capitalised and amortised over its useful life",
+        "B": "It may be capitalised if the research is likely to lead to a profitable product",
+        "C": "It must be capitalised and reviewed annually for impairment",
+        "D": "It must be recognised as an expense when it is incurred"
+      },
+      "correct": "D",
+      "explanation": "IAS 38 prohibits capitalisation of research costs because an entity cannot demonstrate at the research stage that an intangible asset will generate probable future economic benefits. Research costs are therefore always expensed. Only development costs that meet all of the IAS 38 criteria are capitalised.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c06-q011",
+      "chapter": 6,
+      "topic": "Tangible and intangible non-current assets",
+      "question_text": "During the year, a company spent $120,000 on research and $250,000 on developing a new product. Of the development costs, $90,000 was incurred before all the IAS 38 recognition criteria were met, and $160,000 afterwards. What amount should be recognised as an intangible asset at the year end (ignoring amortisation)?",
+      "options": {
+        "A": "$160,000",
+        "B": "$280,000",
+        "C": "$250,000",
+        "D": "$370,000"
+      },
+      "correct": "A",
+      "explanation": "Only development costs incurred after all the recognition criteria are met can be capitalised, so $160,000 is recognised. The $90,000 incurred earlier and the $120,000 research costs are expensed (a total of $210,000), and costs once expensed cannot later be reinstated as an asset.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c06-q012",
+      "chapter": 6,
+      "topic": "Tangible and intangible non-current assets",
+      "question_text": "Which of the following can be recognised as an intangible asset in a company's statement of financial position?",
+      "options": {
+        "A": "Internally generated goodwill",
+        "B": "An internally generated brand",
+        "C": "A patent purchased from another company",
+        "D": "The cost of training new staff"
+      },
+      "correct": "C",
+      "explanation": "A separately acquired patent has a cost that can be measured reliably and gives the company control over future economic benefits, so it qualifies. IAS 38 specifically prohibits recognising internally generated goodwill and brands, and training costs are expensed because the company does not control its employees.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c07-q001",
+      "chapter": 7,
+      "topic": "Accruals, prepayments and receivables",
+      "question_text": "A business with a 31 December year end rents a warehouse. The annual rent was $24,000 until 30 April 20X5, and increased to $30,000 per year from 1 May 20X5. Rent is paid quarterly in advance. What is the rent expense for the year ended 31 December 20X5?",
+      "options": {
+        "A": "$28,000",
+        "B": "$30,500",
+        "C": "$24,000",
+        "D": "$30,000"
+      },
+      "correct": "A",
+      "explanation": "January to April: 4 months x $24,000/12 = $8,000. May to December: 8 months x $30,000/12 = $20,000. Expense = $8,000 + $20,000 = $28,000. Any rent paid in advance for January 20X6 is a prepayment and not part of the 20X5 expense.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c07-q002",
+      "chapter": 7,
+      "topic": "Accruals, prepayments and receivables",
+      "question_text": "At 1 January 20X5 a business had an accrual for electricity of $1,400. During 20X5 it paid electricity bills totalling $8,600. In February 20X6 it received a bill of $2,700 for the three months ended 28 February 20X6. What is the electricity expense for the year ended 31 December 20X5?",
+      "options": {
+        "A": "$8,100",
+        "B": "$10,900",
+        "C": "$9,500",
+        "D": "$9,900"
+      },
+      "correct": "A",
+      "explanation": "The closing accrual is for December 20X5 only: $2,700 x 1/3 = $900. Expense = payments $8,600 - opening accrual $1,400 + closing accrual $900 = $8,100. Adding the opening accrual instead of deducting it gives $10,900, and accruing the whole bill gives $9,900.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c07-q003",
+      "chapter": 7,
+      "topic": "Accruals, prepayments and receivables",
+      "question_text": "A business failed to record a prepayment of $2,000 at the year end. What is the effect of this error?",
+      "options": {
+        "A": "Profit is overstated by $2,000 and current liabilities are understated by $2,000",
+        "B": "Profit is understated by $2,000 and current liabilities are overstated by $2,000",
+        "C": "Profit is understated by $2,000 and current assets are understated by $2,000",
+        "D": "Profit is overstated by $2,000 and current assets are overstated by $2,000"
+      },
+      "correct": "C",
+      "explanation": "A prepayment reduces the expense for the period and is shown as a current asset. If it is omitted, the full amount remains in expenses, so profit is understated by $2,000, and the asset (prepayment) is missing, so current assets are also understated by $2,000.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c07-q004",
+      "chapter": 7,
+      "topic": "Accruals, prepayments and receivables",
+      "question_text": "A company with a 31 December year end pays insurance annually in advance on 1 October. It paid $6,000 on 1 October 20X4 and $7,200 on 1 October 20X5. What is the insurance expense for the year ended 31 December 20X5?",
+      "options": {
+        "A": "$5,400",
+        "B": "$6,300",
+        "C": "$6,900",
+        "D": "$7,200"
+      },
+      "correct": "B",
+      "explanation": "January to September 20X5 is covered by the 20X4 payment: $6,000 x 9/12 = $4,500. October to December 20X5 is covered by the 20X5 payment: $7,200 x 3/12 = $1,800. Expense = $4,500 + $1,800 = $6,300, and the prepayment at 31 December is $7,200 x 9/12 = $5,400. Applying the fractions the wrong way round gives $6,900.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c07-q005",
+      "chapter": 7,
+      "topic": "Accruals, prepayments and receivables",
+      "question_text": "A business sublets part of its premises. During the year it received rent of $11,000 from its tenant. At the start of the year, rent received in advance was $1,500. At the end of the year, the tenant owed $2,000 of rent. What is the rental income for the year?",
+      "options": {
+        "A": "$11,500",
+        "B": "$14,500",
+        "C": "$7,500",
+        "D": "$10,500"
+      },
+      "correct": "B",
+      "explanation": "The opening rent received in advance ($1,500) was cash received last year for this year, so it is income of this year. The closing amount owed ($2,000) is accrued income earned this year but not yet received. Income = $11,000 + $1,500 + $2,000 = $14,500. Treating the opening balance as a deduction gives $11,500.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fa-c07-q006",
+      "chapter": 7,
+      "topic": "Accruals, prepayments and receivables",
+      "question_text": "What is the double entry to write off an irrecoverable debt?",
+      "options": {
+        "A": "Debit Irrecoverable debts expense; Credit Receivables",
+        "B": "Debit Allowance for receivables; Credit Revenue",
+        "C": "Debit Revenue; Credit Receivables",
+        "D": "Debit Receivables; Credit Irrecoverable debts expense"
+      },
+      "correct": "A",
+      "explanation": "When a debt is known to be irrecoverable, the receivable is removed by crediting receivables and the loss is recognised by debiting the irrecoverable debts expense in profit or loss. Revenue is not reversed, because the sale was valid when it was made.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c07-q007",
+      "chapter": 7,
+      "topic": "Accruals, prepayments and receivables",
+      "question_text": "At its year end, a business has receivables of $84,000 before adjusting for an irrecoverable debt of $3,000, which is to be written off. An allowance for receivables of 5% of the remaining receivables is required. The allowance brought forward is $3,600. What is the total irrecoverable debts expense for the year?",
+      "options": {
+        "A": "$3,600",
+        "B": "$3,450",
+        "C": "$450",
+        "D": "$7,050"
+      },
+      "correct": "B",
+      "explanation": "Receivables after write-off = $84,000 - $3,000 = $81,000. Required allowance = 5% x $81,000 = $4,050, an increase of $4,050 - $3,600 = $450. Total expense = write-off $3,000 + increase in allowance $450 = $3,450. Calculating the allowance before the write-off gives $4,200, an increase of $600 and a total of $3,600.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c07-q008",
+      "chapter": 7,
+      "topic": "Accruals, prepayments and receivables",
+      "question_text": "A debt of $800 that was written off as irrecoverable in a previous year is unexpectedly received in full during the current year. What is the overall double entry to record the receipt?",
+      "options": {
+        "A": "Debit Cash $800; Credit Receivables $800",
+        "B": "Debit Cash $800; Credit Irrecoverable debts expense $800",
+        "C": "Debit Irrecoverable debts expense $800; Credit Cash $800",
+        "D": "Debit Cash $800; Credit Revenue $800"
+      },
+      "correct": "B",
+      "explanation": "The debt was removed from receivables when it was written off, so it is no longer in the receivables ledger. One approach reinstates it (Dr Receivables, Cr Irrecoverable debts expense) and then records the cash (Dr Cash, Cr Receivables). The net effect is Dr Cash $800, Cr Irrecoverable debts expense $800, which reduces the expense or shows as a recovery. Crediting receivables alone would leave a credit balance on an account that was already cleared, and the receipt is not new revenue because the sale was recognised previously.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c07-q009",
+      "chapter": 7,
+      "topic": "Accruals, prepayments and receivables",
+      "question_text": "At the year end, a company's receivables are $146,000. This includes a debt of $6,000 to be written off. A specific allowance of 50% is required against another debt of $2,400, and a general allowance of 2% is required against the remaining receivables. The allowance for receivables brought forward is $5,200. What is the net irrecoverable debts expense for the year?",
+      "options": {
+        "A": "$4,752",
+        "B": "$4,800",
+        "C": "$9,952",
+        "D": "$7,248"
+      },
+      "correct": "A",
+      "explanation": "Receivables after write-off = $146,000 - $6,000 = $140,000. Specific allowance = $2,400 x 50% = $1,200. General allowance = 2% x ($140,000 - $2,400) = $2,752. Total allowance = $3,952, a decrease of $5,200 - $3,952 = $1,248. Expense = $6,000 - $1,248 = $4,752. Not excluding the specifically provided debt from the general allowance gives $4,800.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fa-c07-q010",
+      "chapter": 7,
+      "topic": "Accruals, prepayments and receivables",
+      "question_text": "How is an accrued expense presented in the statement of financial position?",
+      "options": {
+        "A": "As a current liability",
+        "B": "As a non-current liability",
+        "C": "As a current asset",
+        "D": "As a deduction from equity"
+      },
+      "correct": "A",
+      "explanation": "An accrued expense is a cost incurred during the period that has not yet been paid or invoiced. It is an amount owed, normally settled within twelve months, so it is presented as a current liability. A prepayment, by contrast, is a current asset.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c07-q011",
+      "chapter": 7,
+      "topic": "Accruals, prepayments and receivables",
+      "question_text": "A business pays its staff every Friday for the five-day week ending on that day. The weekly wages bill is $3,500. The year end falls on a Wednesday. What accrual for wages is required at the year end?",
+      "options": {
+        "A": "$3,500",
+        "B": "$700",
+        "C": "$1,400",
+        "D": "$2,100"
+      },
+      "correct": "D",
+      "explanation": "At the year end (Wednesday), staff have worked Monday, Tuesday and Wednesday - 3 days - for which they have not yet been paid. Daily wages = $3,500 / 5 = $700. Accrual = 3 x $700 = $2,100. $1,400 accrues only two days.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c07-q012",
+      "chapter": 7,
+      "topic": "Accruals, prepayments and receivables",
+      "question_text": "How is the allowance for receivables presented in the statement of financial position?",
+      "options": {
+        "A": "It is deducted from trade receivables within current assets",
+        "B": "It is shown as a current liability",
+        "C": "It is shown as a non-current liability",
+        "D": "It is added to trade receivables within current assets"
+      },
+      "correct": "A",
+      "explanation": "The allowance for receivables reduces trade receivables to the amount expected to be collected. It is therefore deducted from gross receivables in current assets. It is not a liability, because nothing is owed to anyone.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c08-q001",
+      "chapter": 8,
+      "topic": "Payables, provisions and contingencies (IAS 37)",
+      "question_text": "Under IAS 37 Provisions, Contingent Liabilities and Contingent Assets, which set of conditions must ALL be met before a provision is recognised?",
+      "options": {
+        "A": "A present obligation from a past event, a probable outflow of economic benefits, and a reliable estimate of the amount",
+        "B": "A board decision to incur the cost, a probable outflow, and a reliable estimate",
+        "C": "A possible obligation, a remote outflow of economic benefits, and an approximate estimate",
+        "D": "A future event, a certain outflow, and an exact amount"
+      },
+      "correct": "A",
+      "explanation": "IAS 37 requires three conditions: a present obligation (legal or constructive) as a result of a past event, a probable outflow of resources embodying economic benefits, and a reliable estimate of the obligation. A board decision alone does not create an obligation, and absolute certainty is not required.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c08-q002",
+      "chapter": 8,
+      "topic": "Payables, provisions and contingencies (IAS 37)",
+      "question_text": "A customer has started legal action against a company. The company's lawyers advise that it is possible, but not probable, that the company will lose the case and pay damages of about $90,000. How should this be treated in the financial statements?",
+      "options": {
+        "A": "Recognise a provision of $45,000",
+        "B": "Recognise a provision of $90,000",
+        "C": "Make no recognition or disclosure",
+        "D": "Disclose a contingent liability in the notes"
+      },
+      "correct": "D",
+      "explanation": "Where an outflow is possible but not probable, there is no provision. Instead, a contingent liability is disclosed in the notes, describing the nature of the claim and an estimate of its financial effect. No disclosure is needed only if the possibility of an outflow is remote.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c08-q003",
+      "chapter": 8,
+      "topic": "Payables, provisions and contingencies (IAS 37)",
+      "question_text": "A company is suing a supplier for damages. Its lawyers believe it is probable, but not virtually certain, that the company will win and receive $50,000. How should this be treated?",
+      "options": {
+        "A": "Make no recognition or disclosure",
+        "B": "Disclose a contingent asset in the notes",
+        "C": "Recognise an asset of $50,000",
+        "D": "Recognise income of $50,000 and a receivable"
+      },
+      "correct": "B",
+      "explanation": "Contingent assets are never recognised unless the inflow is virtually certain, in which case the asset is no longer contingent. Where an inflow is probable, the contingent asset is disclosed in the notes. If an inflow were merely possible, no disclosure would be made.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c08-q004",
+      "chapter": 8,
+      "topic": "Payables, provisions and contingencies (IAS 37)",
+      "question_text": "A company sold 10,000 units with a one-year warranty. Past experience shows that 80% of units will need no repairs, 15% will need minor repairs costing $20 per unit, and 5% will need major repairs costing $150 per unit. What warranty provision should be recognised?",
+      "options": {
+        "A": "$105,000",
+        "B": "$30,000",
+        "C": "$170,000",
+        "D": "$75,000"
+      },
+      "correct": "A",
+      "explanation": "For a large population of items the provision is measured using expected values. Expected cost per unit = (80% x $0) + (15% x $20) + (5% x $150) = $0 + $3 + $7.50 = $10.50. Provision = 10,000 x $10.50 = $105,000. Applying a simple average repair cost of ($20 + $150) / 2 = $85 to the 20% needing repair (2,000 x $85) gives $170,000, which ignores the different probabilities. Taking only the minor repairs gives $30,000 and only the major repairs gives $75,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fa-c08-q005",
+      "chapter": 8,
+      "topic": "Payables, provisions and contingencies (IAS 37)",
+      "question_text": "A provision for warranty costs had a balance of $24,000 at the start of the year. At the year end the required provision is $19,500. What is the effect on profit for the year?",
+      "options": {
+        "A": "Profit decreases by $4,500",
+        "B": "Profit increases by $19,500",
+        "C": "Profit decreases by $19,500",
+        "D": "Profit increases by $4,500"
+      },
+      "correct": "D",
+      "explanation": "Only the movement in the provision passes through profit or loss. The provision decreases by $24,000 - $19,500 = $4,500, so the provision is debited and profit or loss credited with $4,500, increasing profit.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c08-q006",
+      "chapter": 8,
+      "topic": "Payables, provisions and contingencies (IAS 37)",
+      "question_text": "Which of the following should be recognised as a provision at the reporting date?",
+      "options": {
+        "A": "Expected future operating losses of a loss-making division",
+        "B": "The cost of staff training planned for next year",
+        "C": "Costs of repairing goods sold in the year under a legally binding warranty",
+        "D": "The cost of a head office refurbishment approved by the board but not yet started"
+      },
+      "correct": "C",
+      "explanation": "A warranty given on goods already sold creates a present legal obligation from a past event (the sale), so a provision is recognised. IAS 37 prohibits provisions for future operating losses. Planned training and refurbishment relate to future actions that the company can still avoid, so there is no present obligation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c08-q007",
+      "chapter": 8,
+      "topic": "Payables, provisions and contingencies (IAS 37)",
+      "question_text": "A business provides the following information about trade payables for the year:\nOpening balance $31,200\nCredit purchases $214,000\nCash paid to suppliers $205,600\nDiscounts received $2,400\nPurchase returns $3,800\nContra with receivables ledger $1,500\nWhat is the closing balance on the payables control account?",
+      "options": {
+        "A": "$34,300",
+        "B": "$31,900",
+        "C": "$33,400",
+        "D": "$28,900"
+      },
+      "correct": "B",
+      "explanation": "Closing payables = $31,200 + $214,000 - $205,600 - $2,400 - $3,800 - $1,500 = $31,900. All of the payments, discounts, returns and the contra reduce the amount owed. Omitting the contra gives $33,400 and omitting the discounts gives $34,300.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c08-q008",
+      "chapter": 8,
+      "topic": "Payables, provisions and contingencies (IAS 37)",
+      "question_text": "On 20 December a company's board decided to close a factory in the following March. At the year end of 31 December, no detailed plan had been drawn up and the decision had not been communicated to employees, customers or suppliers. How should the closure costs be treated in the financial statements for the year ended 31 December?",
+      "options": {
+        "A": "The costs should be accrued as a current liability",
+        "B": "A provision should be recognised, because the board has made the decision",
+        "C": "No provision should be recognised, because there is no present obligation at the year end",
+        "D": "A provision should be recognised for the closure costs and future operating losses of the factory"
+      },
+      "correct": "C",
+      "explanation": "A restructuring provision requires a constructive obligation, which arises only when there is a detailed formal plan and those affected have a valid expectation that it will be carried out (for example, because it has been announced). A board decision alone, not communicated, does not create an obligation. Future operating losses are never provided for.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fa-c08-q009",
+      "chapter": 8,
+      "topic": "Payables, provisions and contingencies (IAS 37)",
+      "question_text": "Under IAS 37, what is the required treatment of a contingent liability where the possibility of an outflow of economic benefits is remote?",
+      "options": {
+        "A": "Disclose in the notes",
+        "B": "No recognition and no disclosure",
+        "C": "Recognise a provision",
+        "D": "Recognise a provision and disclose in the notes"
+      },
+      "correct": "B",
+      "explanation": "If the possibility of an outflow is remote, IAS 37 requires neither a provision nor disclosure. Disclosure is required where an outflow is possible, and a provision where it is probable and can be reliably estimated.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c08-q010",
+      "chapter": 8,
+      "topic": "Payables, provisions and contingencies (IAS 37)",
+      "question_text": "A company is defending one legal claim brought by a single customer. This is a single obligation, not a large population of similar items. Its lawyers advise that the company will probably have to pay damages, and estimate a 60% chance that it will pay $400,000 and a 40% chance that it will pay $100,000. Under IAS 37, at what amount should the provision be measured?",
+      "options": {
+        "A": "$280,000",
+        "B": "$500,000",
+        "C": "$100,000",
+        "D": "$400,000"
+      },
+      "correct": "D",
+      "explanation": "For a single obligation, IAS 37 states that the individual most likely outcome is usually the best estimate. The most likely outcome is paying $400,000 (60% probability), so the provision is $400,000. The expected value of $280,000 ((60% x $400,000) + (40% x $100,000)) is the method for a large population of items, such as warranties, not a single claim. $500,000 adds both outcomes together, and $100,000 is the less likely outcome.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fa-c09-q001",
+      "chapter": 9,
+      "topic": "Capital structure and finance costs",
+      "question_text": "A company issued 200,000 ordinary shares with a nominal value of $0.50 each at a price of $1.80 per share. What amount should be credited to the share premium account?",
+      "options": {
+        "A": "$260,000",
+        "B": "$360,000",
+        "C": "$100,000",
+        "D": "$160,000"
+      },
+      "correct": "A",
+      "explanation": "Share capital is credited with the nominal value: 200,000 x $0.50 = $100,000. The premium is the excess of the issue price over nominal value: 200,000 x ($1.80 - $0.50) = $260,000. Total cash received is $360,000. Assuming a $1 nominal value gives $160,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c09-q002",
+      "chapter": 9,
+      "topic": "Capital structure and finance costs",
+      "question_text": "A company had 400,000 ordinary shares of $1 each and a share premium account of $150,000. It made a 1 for 4 bonus issue, using the share premium account. It then made a 1 for 5 rights issue at $1.50 per share, which was fully taken up. What are the balances on the share capital and share premium accounts after these issues?",
+      "options": {
+        "A": "Share capital $580,000; Share premium $90,000",
+        "B": "Share capital $600,000; Share premium $200,000",
+        "C": "Share capital $600,000; Share premium $100,000",
+        "D": "Share capital $500,000; Share premium $200,000"
+      },
+      "correct": "C",
+      "explanation": "Bonus issue: 400,000 / 4 = 100,000 shares, so share capital becomes $500,000 and share premium falls to $150,000 - $100,000 = $50,000. Rights issue: 500,000 / 5 = 100,000 shares at $1.50, adding $100,000 to share capital and $50,000 to share premium. Final balances: share capital $600,000; share premium $50,000 + $50,000 = $100,000. Basing the rights issue on the original 400,000 shares gives $580,000 and $90,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fa-c09-q003",
+      "chapter": 9,
+      "topic": "Capital structure and finance costs",
+      "question_text": "Which of the following statements about a bonus issue of shares is correct?",
+      "options": {
+        "A": "It increases the total equity of the company",
+        "B": "It is issued at a price below market value to existing shareholders",
+        "C": "It is recorded by debiting cash and crediting share capital",
+        "D": "It does not raise any cash for the company"
+      },
+      "correct": "D",
+      "explanation": "A bonus (capitalisation) issue converts reserves, such as share premium or retained earnings, into share capital. No cash is received, and total equity is unchanged because one component of equity increases while another decreases. Issuing shares for cash to existing shareholders at a discount describes a rights issue.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c09-q004",
+      "chapter": 9,
+      "topic": "Capital structure and finance costs",
+      "question_text": "On 1 April 20X5, a company issued $250,000 of 8% loan notes. Interest is paid every six months on 30 September and 31 March. What is the interest accrual required in the statement of financial position at 31 December 20X5?",
+      "options": {
+        "A": "$10,000",
+        "B": "$15,000",
+        "C": "$20,000",
+        "D": "$5,000"
+      },
+      "correct": "D",
+      "explanation": "Finance cost for April to December = $250,000 x 8% x 9/12 = $15,000. Interest paid on 30 September for April to September = $250,000 x 8% x 6/12 = $10,000. Accrual = $15,000 - $10,000 = $5,000, covering October to December. $15,000 is the total charge to profit or loss, not the accrual.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fa-c09-q005",
+      "chapter": 9,
+      "topic": "Capital structure and finance costs",
+      "question_text": "Where are dividends paid to ordinary shareholders presented in a company's financial statements?",
+      "options": {
+        "A": "In other comprehensive income",
+        "B": "As an expense in the statement of profit or loss",
+        "C": "In the statement of changes in equity",
+        "D": "As finance costs in the statement of profit or loss"
+      },
+      "correct": "C",
+      "explanation": "Ordinary dividends are a distribution to owners, not an expense, so they are deducted from retained earnings in the statement of changes in equity. They are not included in profit or loss or other comprehensive income. Cash paid would also appear in the statement of cash flows.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c09-q006",
+      "chapter": 9,
+      "topic": "Capital structure and finance costs",
+      "question_text": "A company has issued redeemable preference shares that must be redeemed for cash on a fixed date. How should these be classified, and how should the dividends on them be treated?",
+      "options": {
+        "A": "As a liability, with dividends treated as a finance cost",
+        "B": "As equity, with dividends deducted in the statement of changes in equity",
+        "C": "As equity, with dividends treated as a finance cost",
+        "D": "As a liability, with dividends deducted in the statement of changes in equity"
+      },
+      "correct": "A",
+      "explanation": "Under IAS 32, redeemable preference shares that must be redeemed for cash on a fixed date create a contractual obligation to pay cash to the holder, so they are classified as a financial liability (usually non-current), not equity. Consistent with this, the dividends on them are presented as a finance cost in profit or loss rather than as a distribution in the statement of changes in equity. Irredeemable preference shares with discretionary dividends would instead be equity, with dividends shown in the statement of changes in equity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c09-q007",
+      "chapter": 9,
+      "topic": "Capital structure and finance costs",
+      "question_text": "A company has 1,200,000 ordinary shares of $0.25 each in issue. It pays a dividend of 5 cents per share. What is the total dividend payment?",
+      "options": {
+        "A": "$240,000",
+        "B": "$15,000",
+        "C": "$60,000",
+        "D": "$6,000"
+      },
+      "correct": "C",
+      "explanation": "The dividend is stated per share, regardless of nominal value: 1,200,000 x $0.05 = $60,000. Applying 5% to the total nominal value (1,200,000 x $0.25 = $300,000) gives $15,000, which is the error of treating the dividend as a percentage of nominal value.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c09-q008",
+      "chapter": 9,
+      "topic": "Capital structure and finance costs",
+      "question_text": "Which of the following transactions increases the total equity of a company?",
+      "options": {
+        "A": "Repayment of a bank loan",
+        "B": "An issue of ordinary shares for cash",
+        "C": "A bonus issue of ordinary shares",
+        "D": "Payment of an ordinary dividend"
+      },
+      "correct": "B",
+      "explanation": "An issue of shares for cash increases assets and share capital (and share premium), so total equity increases. A dividend reduces equity, a bonus issue reallocates amounts within equity without changing the total, and repaying a loan reduces assets and liabilities without affecting equity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c09-q009",
+      "chapter": 9,
+      "topic": "Capital structure and finance costs",
+      "question_text": "A company issued shares at $2.00 each several years ago. Its shares are now quoted on a stock exchange at $3.40 each. How does the increase in the market price affect the company's share capital in its statement of financial position?",
+      "options": {
+        "A": "Share premium increases by the rise in market price",
+        "B": "Share capital increases by the rise in market price",
+        "C": "A revaluation surplus is recognised for the rise in market price",
+        "D": "There is no effect; share capital remains at its nominal value"
+      },
+      "correct": "D",
+      "explanation": "Changes in the market price of a company's own shares occur between investors and are not transactions of the company. Share capital and share premium reflect the amounts received when shares were issued, so they are unaffected by subsequent movements in market value.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c09-q010",
+      "chapter": 9,
+      "topic": "Capital structure and finance costs",
+      "question_text": "For which of the following purposes may the share premium account be used?",
+      "options": {
+        "A": "To write off irrecoverable debts",
+        "B": "To fund the purchase of non-current assets",
+        "C": "To pay up bonus shares issued to existing shareholders",
+        "D": "To pay cash dividends to shareholders"
+      },
+      "correct": "C",
+      "explanation": "The share premium account is a non-distributable statutory reserve with restricted uses, a common one being to fund a bonus issue of fully paid shares. It cannot be used to pay dividends. Writing off debts is an expense in profit or loss, and buying assets uses cash, not a reserve.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c10-q001",
+      "chapter": 10,
+      "topic": "Trial balance, errors, control accounts and bank reconciliations",
+      "question_text": "Which of the following errors would cause the totals of a trial balance to disagree?",
+      "options": {
+        "A": "Repairs to a vehicle were debited to the motor vehicles account",
+        "B": "A debit entry was posted, but the corresponding credit entry was omitted",
+        "C": "Two errors of equal amount were made on opposite sides",
+        "D": "A transaction was completely omitted from the books"
+      },
+      "correct": "B",
+      "explanation": "A single-sided entry means that total debits no longer equal total credits, so the trial balance does not balance. Errors of principle, complete omission and compensating errors all leave the debits and credits equal, so they are not revealed by the trial balance.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c10-q002",
+      "chapter": 10,
+      "topic": "Trial balance, errors, control accounts and bank reconciliations",
+      "question_text": "Repairs to a factory building were debited to the buildings (non-current asset) account. What type of error is this?",
+      "options": {
+        "A": "An error of commission",
+        "B": "An error of original entry",
+        "C": "A compensating error",
+        "D": "An error of principle"
+      },
+      "correct": "D",
+      "explanation": "An error of principle occurs when an item is posted to the wrong type of account - here, revenue expenditure (repairs) treated as capital expenditure. An error of commission involves the correct type of account but the wrong account (for example, the wrong customer). An error of original entry is an incorrect amount recorded in the book of prime entry.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c10-q003",
+      "chapter": 10,
+      "topic": "Trial balance, errors, control accounts and bank reconciliations",
+      "question_text": "A trial balance has debit totals of $386,450 and credit totals of $389,170. What entry is required to open a suspense account?",
+      "options": {
+        "A": "Credit suspense $2,720",
+        "B": "Debit suspense $2,720",
+        "C": "Credit suspense $1,360",
+        "D": "Debit suspense $5,440"
+      },
+      "correct": "B",
+      "explanation": "Credits exceed debits by $389,170 - $386,450 = $2,720. To make the trial balance agree, a debit balance of $2,720 is placed in the suspense account until the errors are found and corrected.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c10-q004",
+      "chapter": 10,
+      "topic": "Trial balance, errors, control accounts and bank reconciliations",
+      "question_text": "A suspense account was opened when a trial balance failed to agree. The following errors were then found:\n1. A gas bill of $560 was correctly recorded in the cash book but debited to the gas account as $650.\n2. Cash received from a customer of $1,300 was recorded in the cash book but not posted to the receivables control account.\n3. Discount received of $220 was debited to the discount received account.\nAfter correcting these errors the suspense account has a nil balance. What was the original balance on the suspense account?",
+      "options": {
+        "A": "$1,830 credit",
+        "B": "$1,610 credit",
+        "C": "$1,650 credit",
+        "D": "$1,830 debit"
+      },
+      "correct": "A",
+      "explanation": "Error 1: the gas debit is $90 too high, so the correction is Dr Suspense $90, Cr Gas $90. Error 2: only the debit was made, so Dr Suspense $1,300, Cr Receivables $1,300. Error 3: a credit of $220 was posted as a debit, so correcting it requires Cr Discount received $440, Dr Suspense $440. Total debits to suspense = $90 + $1,300 + $440 = $1,830, so the original balance was a credit of $1,830. Correcting error 3 with only $220 gives $1,610.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fa-c10-q005",
+      "chapter": 10,
+      "topic": "Trial balance, errors, control accounts and bank reconciliations",
+      "question_text": "A company's draft profit for the year is $48,200. The following errors are then discovered:\n1. Closing inventory was understated by $2,600.\n2. A machine costing $5,000, bought at the start of the year, was debited to repairs. Machinery is depreciated at 20% per year straight-line.\n3. An accrual for expenses of $750 was omitted.\nWhat is the corrected profit?",
+      "options": {
+        "A": "$55,050",
+        "B": "$49,050",
+        "C": "$55,550",
+        "D": "$54,050"
+      },
+      "correct": "D",
+      "explanation": "Start with $48,200. Add the understated inventory $2,600; add back the machine wrongly expensed $5,000; deduct depreciation on it of $5,000 x 20% = $1,000; deduct the omitted accrual $750. $48,200 + $2,600 + $5,000 - $1,000 - $750 = $54,050. Forgetting the depreciation gives $55,050, and adding the accrual instead of deducting it gives $55,550.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fa-c10-q006",
+      "chapter": 10,
+      "topic": "Trial balance, errors, control accounts and bank reconciliations",
+      "question_text": "The following information relates to a receivables control account for a year:\nOpening balance $42,800\nCredit sales $310,500\nCash sales $24,000\nCash received from credit customers $296,300\nDiscounts allowed $1,900\nIrrecoverable debts written off $2,400\nSales returns $4,100\nContra with payables ledger $1,600\nCustomer cheque dishonoured $700\nIncrease in allowance for receivables $800\nWhat is the closing balance on the receivables control account?",
+      "options": {
+        "A": "$46,900",
+        "B": "$46,300",
+        "C": "$71,700",
+        "D": "$47,700"
+      },
+      "correct": "D",
+      "explanation": "Debits: $42,800 + $310,500 + $700 (dishonoured cheque reinstates the debt) = $354,000. Credits: $296,300 + $1,900 + $2,400 + $4,100 + $1,600 = $306,300. Closing balance = $354,000 - $306,300 = $47,700. Cash sales never pass through receivables, and the allowance for receivables is a separate account, so neither is included. Deducting the allowance gives $46,900.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fa-c10-q007",
+      "chapter": 10,
+      "topic": "Trial balance, errors, control accounts and bank reconciliations",
+      "question_text": "A receivables control account has a balance of $63,010, but the list of receivables ledger balances totals $61,490. The following errors were found:\n1. A customer balance of $820 was omitted from the list.\n2. A credit balance of $150 on a customer account was included in the list as a debit balance.\n3. The sales day book was overcast by $1,000.\nWhat is the corrected receivables balance?",
+      "options": {
+        "A": "$62,160",
+        "B": "$62,010",
+        "C": "$63,010",
+        "D": "$64,010"
+      },
+      "correct": "B",
+      "explanation": "The sales day book overcast affects the control account only: $63,010 - $1,000 = $62,010. The list is corrected by adding the omitted balance and reversing the credit balance wrongly treated as a debit (2 x $150 = $300): $61,490 + $820 - $300 = $62,010. Both now agree at $62,010. Deducting only $150 gives $62,160.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c10-q008",
+      "chapter": 10,
+      "topic": "Trial balance, errors, control accounts and bank reconciliations",
+      "question_text": "A business's cash book shows a debit balance of $5,420. When compared with the bank statement, the following items are found:\nUnpresented cheques $2,860\nOutstanding lodgements $1,940\nBank charges not in the cash book $85\nDirect debit not in the cash book $300\nCredit transfer from a customer not in the cash book $640\nWhat is the corrected cash book balance?",
+      "options": {
+        "A": "$4,395",
+        "B": "$6,445",
+        "C": "$6,595",
+        "D": "$5,675"
+      },
+      "correct": "D",
+      "explanation": "Only items not yet recorded in the cash book are adjusted there: $5,420 - $85 - $300 + $640 = $5,675. Unpresented cheques and outstanding lodgements are timing differences that affect the bank statement balance, not the cash book. $6,595 is the bank statement balance.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c10-q009",
+      "chapter": 10,
+      "topic": "Trial balance, errors, control accounts and bank reconciliations",
+      "question_text": "After correcting its cash book, a business has a debit (cash at bank) balance of $5,675. The remaining differences with the bank statement are unpresented cheques of $2,860 and outstanding lodgements of $1,940. There are no other differences. What balance should be shown on the bank statement?",
+      "options": {
+        "A": "$5,675",
+        "B": "$6,595",
+        "C": "$4,755",
+        "D": "$10,475"
+      },
+      "correct": "B",
+      "explanation": "Start from the corrected cash book balance and reverse the timing differences. Cheques written but not yet presented have not reduced the bank balance, so they are added. Lodgements not yet credited by the bank are deducted: $5,675 + $2,860 - $1,940 = $6,595. Applying the timing differences the wrong way round gives $4,755, and adding both gives $10,475.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c10-q010",
+      "chapter": 10,
+      "topic": "Trial balance, errors, control accounts and bank reconciliations",
+      "question_text": "Which of the following items in a bank reconciliation requires an adjustment to the cash book?",
+      "options": {
+        "A": "An error made by the bank",
+        "B": "Unpresented cheques",
+        "C": "Bank charges shown on the bank statement",
+        "D": "Outstanding lodgements"
+      },
+      "correct": "C",
+      "explanation": "Bank charges have been deducted by the bank but not yet recorded by the business, so the cash book must be updated. Unpresented cheques and outstanding lodgements are timing differences dealt with in the reconciliation, and bank errors are corrected by the bank, not in the cash book.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c10-q011",
+      "chapter": 10,
+      "topic": "Trial balance, errors, control accounts and bank reconciliations",
+      "question_text": "A business's bank statement shows an overdraft of $1,200. There are unpresented cheques of $900 and a lodgement of $400 has not yet been credited by the bank. There are no other differences. What balance should appear for cash at bank in the statement of financial position?",
+      "options": {
+        "A": "Overdraft of $2,500",
+        "B": "Overdraft of $700",
+        "C": "Overdraft of $1,700",
+        "D": "Cash at bank of $100"
+      },
+      "correct": "C",
+      "explanation": "Correct balance = bank statement balance - unpresented cheques + outstanding lodgements = -$1,200 - $900 + $400 = -$1,700. Unpresented cheques will increase the overdraft when presented, and the lodgement will reduce it. The overdraft of $1,700 is shown as a current liability.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c10-q012",
+      "chapter": 10,
+      "topic": "Trial balance, errors, control accounts and bank reconciliations",
+      "question_text": "A business sells goods to a customer who is also a supplier, and the two balances are set off against each other. What is the double entry for this contra?",
+      "options": {
+        "A": "Debit Cash; Credit Receivables control",
+        "B": "Debit Payables control; Credit Receivables control",
+        "C": "Debit Payables control; Credit Cash",
+        "D": "Debit Receivables control; Credit Payables control"
+      },
+      "correct": "B",
+      "explanation": "A contra reduces both the amount owed to the supplier and the amount owed by the customer. The payables balance (a credit) is reduced by debiting the payables control account, and the receivables balance (a debit) is reduced by crediting the receivables control account. No cash is involved.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c11-q001",
+      "chapter": 11,
+      "topic": "Preparing financial statements, events after the reporting period and incomplete records",
+      "question_text": "Under IAS 1 Presentation of Financial Statements, which of the following is presented in other comprehensive income?",
+      "options": {
+        "A": "Interest received on a bank deposit",
+        "B": "Dividends paid to shareholders",
+        "C": "A gain on the revaluation of property",
+        "D": "A profit on disposal of equipment"
+      },
+      "correct": "C",
+      "explanation": "Revaluation gains on property, plant and equipment are recognised in other comprehensive income and accumulated in the revaluation surplus. Profits on disposal and interest received are part of profit or loss. Dividends paid are a transaction with owners shown in the statement of changes in equity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c11-q002",
+      "chapter": 11,
+      "topic": "Preparing financial statements, events after the reporting period and incomplete records",
+      "question_text": "At the year end, a company has a bank loan of $120,000 which is repayable in equal annual instalments of $20,000, the next of which is due in eight months. How should the loan be presented in the statement of financial position?",
+      "options": {
+        "A": "Non-current liabilities $120,000",
+        "B": "Current liabilities $40,000; non-current liabilities $80,000",
+        "C": "Current liabilities $20,000; non-current liabilities $100,000",
+        "D": "Current liabilities $120,000"
+      },
+      "correct": "C",
+      "explanation": "IAS 1 classifies a liability as current if it is due to be settled within twelve months of the reporting date. Only the next instalment of $20,000 falls due within twelve months, so it is current, and the remaining $100,000 is non-current.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c11-q003",
+      "chapter": 11,
+      "topic": "Preparing financial statements, events after the reporting period and incomplete records",
+      "question_text": "A company estimates its income tax for the current year at $46,000. The tax liability for the previous year was estimated at $38,000, but was settled during the current year for $41,000. What is the income tax expense in the statement of profit or loss for the current year?",
+      "options": {
+        "A": "$49,000",
+        "B": "$43,000",
+        "C": "$46,000",
+        "D": "$87,000"
+      },
+      "correct": "A",
+      "explanation": "The previous year's liability was under-provided by $41,000 - $38,000 = $3,000, which is charged in the current year. Tax expense = $46,000 + $3,000 = $49,000. The liability in the statement of financial position is the current estimate of $46,000. Treating the difference as an over-provision gives $43,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c11-q004",
+      "chapter": 11,
+      "topic": "Preparing financial statements, events after the reporting period and incomplete records",
+      "question_text": "Under IAS 10 Events after the Reporting Period, which of the following events after the year end is an ADJUSTING event?",
+      "options": {
+        "A": "A fire destroys a warehouse",
+        "B": "The market value of the company's investments falls significantly",
+        "C": "A major customer that owed money at the year end goes into liquidation",
+        "D": "The company issues new ordinary shares"
+      },
+      "correct": "C",
+      "explanation": "Adjusting events provide evidence of conditions that existed at the reporting date. The customer's liquidation confirms that the receivable was already impaired at the year end. The fire, the share issue and the fall in market value all relate to conditions arising after the reporting date, so they are non-adjusting events.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c11-q005",
+      "chapter": 11,
+      "topic": "Preparing financial statements, events after the reporting period and incomplete records",
+      "question_text": "How should a material non-adjusting event after the reporting period be treated in the financial statements?",
+      "options": {
+        "A": "Disclose the nature of the event and an estimate of its financial effect in the notes",
+        "B": "Recognise a provision for its effect",
+        "C": "Ignore it, as it occurred after the reporting date",
+        "D": "Adjust the amounts in the financial statements"
+      },
+      "correct": "A",
+      "explanation": "Non-adjusting events do not change the amounts recognised at the reporting date. However, if they are material, IAS 10 requires disclosure of the nature of the event and an estimate of its financial effect (or a statement that an estimate cannot be made), so that users are not misled.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c11-q006",
+      "chapter": 11,
+      "topic": "Preparing financial statements, events after the reporting period and incomplete records",
+      "question_text": "After the reporting date but before the financial statements are authorised for issue, the directors declare an ordinary dividend. How should this be treated?",
+      "options": {
+        "A": "It is recognised as a current liability",
+        "B": "It is deducted from retained earnings at the reporting date",
+        "C": "It is recognised as an expense in profit or loss",
+        "D": "It is not recognised as a liability but is disclosed in the notes"
+      },
+      "correct": "D",
+      "explanation": "IAS 10 states that dividends declared after the reporting period are not a liability at the reporting date, because no obligation existed then. They are disclosed in the notes to the financial statements and are recognised in the period in which they are declared.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c11-q007",
+      "chapter": 11,
+      "topic": "Preparing financial statements, events after the reporting period and incomplete records",
+      "question_text": "At its year end, a company held inventory that had cost $18,000. After the year end, but before the financial statements were authorised, the inventory was sold for $14,500, with selling costs of $500. What write-down, if any, is required in the financial statements?",
+      "options": {
+        "A": "A write-down of $14,000",
+        "B": "A write-down of $4,000",
+        "C": "No write-down; disclose the sale in the notes",
+        "D": "A write-down of $3,500"
+      },
+      "correct": "B",
+      "explanation": "The sale after the year end provides evidence of the net realisable value of inventory held at the reporting date, so it is an adjusting event. NRV = $14,500 - $500 = $14,000. Write-down = $18,000 - $14,000 = $4,000. Ignoring selling costs gives $3,500.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c11-q008",
+      "chapter": 11,
+      "topic": "Preparing financial statements, events after the reporting period and incomplete records",
+      "question_text": "A shop's inventory was partly destroyed by a flood. Records show opening inventory of $22,000, purchases of $139,000 and sales of $180,000. The shop sells all goods at a mark-up of 25% on cost. Undamaged inventory at the date of the flood was valued at $12,500. What was the cost of inventory lost in the flood?",
+      "options": {
+        "A": "$13,500",
+        "B": "$5,625",
+        "C": "$17,000",
+        "D": "$4,500"
+      },
+      "correct": "D",
+      "explanation": "Cost of sales = $180,000 x 100/125 = $144,000. Expected inventory = $22,000 + $139,000 - $144,000 = $17,000. Inventory lost = $17,000 - $12,500 = $4,500. Treating 25% as a margin gives a cost of sales of $135,000, expected inventory of $26,000 and a loss of $13,500.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fa-c11-q009",
+      "chapter": 11,
+      "topic": "Preparing financial statements, events after the reporting period and incomplete records",
+      "question_text": "A business does not keep a full set of records. Receivables were $18,400 at the start of the year and $21,300 at the end. During the year, cash received from customers was $164,500, irrecoverable debts of $1,200 were written off, and discounts allowed were $900. What were the credit sales for the year?",
+      "options": {
+        "A": "$165,300",
+        "B": "$169,500",
+        "C": "$206,300",
+        "D": "$167,400"
+      },
+      "correct": "B",
+      "explanation": "Using the receivables account: credit sales = closing receivables + cash received + irrecoverable debts + discounts allowed - opening receivables = $21,300 + $164,500 + $1,200 + $900 - $18,400 = $169,500. Ignoring the write-offs and discounts gives $167,400.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c11-q010",
+      "chapter": 11,
+      "topic": "Preparing financial statements, events after the reporting period and incomplete records",
+      "question_text": "A shopkeeper banks her takings each week after paying some expenses in cash. During the year, $96,000 was banked, wages of $14,400 were paid from takings and she took $6,000 from takings as drawings. Cash in the till was $1,200 at the start of the year and $900 at the end. What were her total cash takings for the year?",
+      "options": {
+        "A": "$116,700",
+        "B": "$116,400",
+        "C": "$110,100",
+        "D": "$116,100"
+      },
+      "correct": "D",
+      "explanation": "Total takings = amounts banked + payments from takings + closing cash - opening cash = $96,000 + $14,400 + $6,000 + $900 - $1,200 = $116,100. Ignoring the till balances gives $116,400, reversing them gives $116,700, and omitting drawings gives $110,100.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c11-q011",
+      "chapter": 11,
+      "topic": "Preparing financial statements, events after the reporting period and incomplete records",
+      "question_text": "In a statement of profit or loss, where should carriage outwards be presented?",
+      "options": {
+        "A": "As a finance cost",
+        "B": "As a deduction from revenue",
+        "C": "As a distribution cost",
+        "D": "As part of cost of sales"
+      },
+      "correct": "C",
+      "explanation": "Carriage outwards is the cost of delivering goods to customers, so it is a selling and distribution expense. Carriage inwards, in contrast, is part of the cost of purchases and is included in cost of sales.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c11-q012",
+      "chapter": 11,
+      "topic": "Preparing financial statements, events after the reporting period and incomplete records",
+      "question_text": "A company's retained earnings at the start of the year were $210,000. During the year it made a profit of $64,000 and paid dividends of $18,000. Its property was revalued upwards by $30,000, and a transfer of $2,000 was made from the revaluation surplus to retained earnings for the excess depreciation. What are the retained earnings at the end of the year?",
+      "options": {
+        "A": "$256,000",
+        "B": "$294,000",
+        "C": "$258,000",
+        "D": "$288,000"
+      },
+      "correct": "C",
+      "explanation": "Retained earnings = $210,000 + $64,000 - $18,000 + $2,000 = $258,000. The $30,000 revaluation gain is credited to the revaluation surplus, not retained earnings. Including it gives $288,000, and omitting the transfer gives $256,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fa-c12-q001",
+      "chapter": 12,
+      "topic": "Statement of cash flows (IAS 7)",
+      "question_text": "When preparing a statement of cash flows using the indirect method, how is depreciation for the year treated?",
+      "options": {
+        "A": "It is shown as a cash outflow under investing activities",
+        "B": "It is deducted from profit before tax",
+        "C": "It is excluded because it is not a cash flow",
+        "D": "It is added back to profit before tax"
+      },
+      "correct": "D",
+      "explanation": "Depreciation is a non-cash expense that has reduced profit. Under the indirect method, profit is adjusted to cash generated from operations, so depreciation is added back. It is not itself a cash flow, and the cash spent on assets appears under investing activities when the assets are bought.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c12-q002",
+      "chapter": 12,
+      "topic": "Statement of cash flows (IAS 7)",
+      "question_text": "A company reports the following for a year:\nProfit before tax $86,000\nDepreciation $14,000\nProfit on disposal of equipment $3,000\nFinance costs $4,000\nIncrease in inventories $7,000\nDecrease in trade receivables $5,000\nIncrease in trade payables $2,500\nWhat is the cash generated from operations?",
+      "options": {
+        "A": "$100,500",
+        "B": "$101,500",
+        "C": "$107,500",
+        "D": "$97,500"
+      },
+      "correct": "B",
+      "explanation": "$86,000 + $14,000 depreciation - $3,000 profit on disposal + $4,000 finance costs = $101,000. Working capital: increase in inventory -$7,000, decrease in receivables +$5,000, increase in payables +$2,500, a net +$500. Cash generated from operations = $101,500. Adding the disposal profit gives $107,500, and reversing the working capital signs gives $100,500.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c12-q003",
+      "chapter": 12,
+      "topic": "Statement of cash flows (IAS 7)",
+      "question_text": "A company's income tax liability was $23,000 at the start of the year and $27,000 at the end. The income tax charge in profit or loss for the year was $31,000. How much tax was paid during the year?",
+      "options": {
+        "A": "$27,000",
+        "B": "$35,000",
+        "C": "$31,000",
+        "D": "$81,000"
+      },
+      "correct": "A",
+      "explanation": "Tax paid = opening liability + charge for the year - closing liability = $23,000 + $31,000 - $27,000 = $27,000. Deducting the opening liability and adding the closing one gives $35,000, and the charge itself ($31,000) ignores the movement in the liability.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c12-q004",
+      "chapter": 12,
+      "topic": "Statement of cash flows (IAS 7)",
+      "question_text": "The carrying amount of a company's property, plant and equipment was $240,000 at the start of the year and $286,000 at the end. During the year, depreciation was $32,000, assets with a carrying amount of $15,000 were sold, and a property was revalued upwards by $20,000. What was the cash spent on purchasing property, plant and equipment?",
+      "options": {
+        "A": "$93,000",
+        "B": "$81,000",
+        "C": "$43,000",
+        "D": "$73,000"
+      },
+      "correct": "D",
+      "explanation": "Opening $240,000 + revaluation $20,000 - depreciation $32,000 - disposals $15,000 + purchases = closing $286,000. Purchases = $286,000 - $240,000 - $20,000 + $32,000 + $15,000 = $73,000. Ignoring the revaluation gives $93,000, and adding the disposal instead of deducting it gives $43,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fa-c12-q005",
+      "chapter": 12,
+      "topic": "Statement of cash flows (IAS 7)",
+      "question_text": "Under IAS 7 Statement of Cash Flows, how are proceeds from an issue of ordinary shares classified?",
+      "options": {
+        "A": "Operating activities",
+        "B": "They are not shown, as they are not related to trading",
+        "C": "Investing activities",
+        "D": "Financing activities"
+      },
+      "correct": "D",
+      "explanation": "Financing activities are those that change the size and composition of contributed equity and borrowings. Cash received from issuing shares is therefore a financing inflow. Investing activities relate to the acquisition and disposal of long-term assets.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c12-q006",
+      "chapter": 12,
+      "topic": "Statement of cash flows (IAS 7)",
+      "question_text": "A company's statement of profit or loss shows finance costs of $9,800. Interest payable was $1,500 at the start of the year and $2,300 at the end. How much interest was paid during the year?",
+      "options": {
+        "A": "$13,600",
+        "B": "$9,000",
+        "C": "$9,800",
+        "D": "$10,600"
+      },
+      "correct": "B",
+      "explanation": "Interest paid = opening liability + charge - closing liability = $1,500 + $9,800 - $2,300 = $9,000. Reversing the opening and closing balances gives $10,600.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c12-q007",
+      "chapter": 12,
+      "topic": "Statement of cash flows (IAS 7)",
+      "question_text": "A machine with a carrying amount of $15,000 was sold, giving a profit on disposal of $3,000. What amount is shown in investing activities in the statement of cash flows?",
+      "options": {
+        "A": "Inflow of $15,000",
+        "B": "Inflow of $12,000",
+        "C": "Inflow of $18,000",
+        "D": "Inflow of $3,000"
+      },
+      "correct": "C",
+      "explanation": "Disposal proceeds = carrying amount + profit = $15,000 + $3,000 = $18,000, and this cash received is an investing inflow. The $3,000 profit is deducted from profit before tax in operating activities because it is non-cash; the actual cash is shown under investing activities.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c12-q008",
+      "chapter": 12,
+      "topic": "Statement of cash flows (IAS 7)",
+      "question_text": "Which of the following would NOT appear in a statement of cash flows?",
+      "options": {
+        "A": "Purchase of equipment for cash",
+        "B": "A bonus issue of shares",
+        "C": "Dividends received",
+        "D": "Repayment of a bank loan"
+      },
+      "correct": "B",
+      "explanation": "A bonus issue is a transfer between reserves and share capital and involves no cash, so it does not appear in the statement of cash flows. Purchase of equipment (investing), loan repayment (financing) and dividends received (investing or operating) are all cash flows.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c12-q009",
+      "chapter": 12,
+      "topic": "Statement of cash flows (IAS 7)",
+      "question_text": "Which of the following items would appear in the operating activities section ONLY when the direct method is used?",
+      "options": {
+        "A": "Depreciation",
+        "B": "Cash paid to suppliers and employees",
+        "C": "Profit on disposal of non-current assets",
+        "D": "Increase in trade receivables"
+      },
+      "correct": "B",
+      "explanation": "The direct method shows gross operating cash receipts and payments, such as cash received from customers and cash paid to suppliers and employees. Adjustments for depreciation, working capital movements and disposal profits are features of the indirect method, which starts with profit before tax.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c12-q010",
+      "chapter": 12,
+      "topic": "Statement of cash flows (IAS 7)",
+      "question_text": "A company has the following cash flows for a year:\nNet cash from operating activities $58,000\nNet cash used in investing activities $71,000\nNet cash from financing activities $20,000\nAt the start of the year, the company had an overdraft of $4,000 and no other cash or cash equivalents. What is the closing balance of cash and cash equivalents?",
+      "options": {
+        "A": "Positive balance of $3,000",
+        "B": "Overdraft of $3,000",
+        "C": "Positive balance of $11,000",
+        "D": "Positive balance of $7,000"
+      },
+      "correct": "A",
+      "explanation": "Net increase in cash = $58,000 - $71,000 + $20,000 = $7,000. Closing balance = opening -$4,000 + $7,000 = $3,000 positive. Treating the opening overdraft as a positive balance gives $11,000, and $7,000 is only the movement for the year.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fa-c13-q001",
+      "chapter": 13,
+      "topic": "Simple consolidated financial statements",
+      "question_text": "Under IFRS 10 Consolidated Financial Statements, which combination of elements must an investor have to control an investee?",
+      "options": {
+        "A": "Power over the investee, exposure or rights to variable returns, and the ability to use its power to affect those returns",
+        "B": "Ownership of at least 20% of the shares, power over operating policies, and a fixed return",
+        "C": "Significant influence, joint management, and a share of profits",
+        "D": "Ownership of all the investee's shares, a seat on its board, and a shared head office"
+      },
+      "correct": "A",
+      "explanation": "IFRS 10 defines control by three elements: power over the investee, exposure or rights to variable returns from involvement with it, and the ability to use that power to affect the amount of the returns. Control does not require 100% ownership. Significant influence (often 20% to 50%) indicates an associate, not a subsidiary.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c13-q002",
+      "chapter": 13,
+      "topic": "Simple consolidated financial statements",
+      "question_text": "P acquired 80% of the ordinary shares of S for $640,000 cash. At the acquisition date, S had share capital of $300,000 and retained earnings of $380,000. The fair value of S's land was $50,000 higher than its carrying amount. Non-controlling interest is measured at its fair value of $150,000. What is the goodwill arising on acquisition?",
+      "options": {
+        "A": "$56,000",
+        "B": "$110,000",
+        "C": "$96,000",
+        "D": "$60,000"
+      },
+      "correct": "D",
+      "explanation": "Fair value of net assets acquired = $300,000 + $380,000 + $50,000 = $730,000. Goodwill = consideration $640,000 + NCI $150,000 - net assets $730,000 = $60,000. Omitting the fair value adjustment gives $110,000. Measuring NCI at its proportionate share (20% x $730,000 = $146,000) would give $56,000, but the question specifies fair value.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fa-c13-q003",
+      "chapter": 13,
+      "topic": "Simple consolidated financial statements",
+      "question_text": "P acquired 80% of S. Non-controlling interest was measured at $150,000 at the acquisition date. Since acquisition, S has made post-acquisition profits of $90,000. There has been no impairment of goodwill. What is the non-controlling interest in the consolidated statement of financial position?",
+      "options": {
+        "A": "$240,000",
+        "B": "$168,000",
+        "C": "$222,000",
+        "D": "$150,000"
+      },
+      "correct": "B",
+      "explanation": "NCI = NCI at acquisition + NCI share of post-acquisition profits = $150,000 + (20% x $90,000) = $150,000 + $18,000 = $168,000. Using 80% of post-acquisition profits gives $222,000, and adding all of them gives $240,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c13-q004",
+      "chapter": 13,
+      "topic": "Simple consolidated financial statements",
+      "question_text": "P acquired 80% of S when S's retained earnings were $380,000. At the year end, P's retained earnings are $820,000 and S's are $470,000. Goodwill has been impaired by $10,000, and non-controlling interest is measured at fair value. What are the consolidated retained earnings?",
+      "options": {
+        "A": "$884,000",
+        "B": "$882,000",
+        "C": "$892,000",
+        "D": "$1,186,000"
+      },
+      "correct": "A",
+      "explanation": "S's post-acquisition profit = $470,000 - $380,000 = $90,000; P's share = 80% x $90,000 = $72,000. With NCI at fair value, the goodwill impairment is shared, so P's share = 80% x $10,000 = $8,000. Group retained earnings = $820,000 + $72,000 - $8,000 = $884,000. Charging the full $10,000 to the group gives $882,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fa-c13-q005",
+      "chapter": 13,
+      "topic": "Simple consolidated financial statements",
+      "question_text": "During the year, P sold goods to its subsidiary S for $120,000. P's revenue was $900,000 and S's revenue was $400,000 (both including intra-group sales where relevant). What is the consolidated revenue?",
+      "options": {
+        "A": "$1,060,000",
+        "B": "$1,204,000",
+        "C": "$1,300,000",
+        "D": "$1,180,000"
+      },
+      "correct": "D",
+      "explanation": "Intra-group sales must be eliminated, because the group cannot sell to itself. Consolidated revenue = $900,000 + $400,000 - $120,000 = $1,180,000. Simply adding both companies' revenue gives $1,300,000, and eliminating the sales twice gives $1,060,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c13-q006",
+      "chapter": 13,
+      "topic": "Simple consolidated financial statements",
+      "question_text": "P sold goods to its subsidiary S for $60,000, at a mark-up of 25% on cost. At the year end, S still held 40% of these goods in inventory. What is the provision for unrealised profit?",
+      "options": {
+        "A": "$4,800",
+        "B": "$6,000",
+        "C": "$24,000",
+        "D": "$12,000"
+      },
+      "correct": "A",
+      "explanation": "Profit on the sale = $60,000 x 25/125 = $12,000. Unrealised profit on goods still held = 40% x $12,000 = $4,800, which is deducted from group inventory and from P's retained earnings (P is the seller). Treating 25% as a margin gives $60,000 x 25% x 40% = $6,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c13-q007",
+      "chapter": 13,
+      "topic": "Simple consolidated financial statements",
+      "question_text": "At the year end, P's receivables are $85,000 and S's are $46,000. P's receivables include $7,000 due from S. S's payables show $5,000 owed to P, because S sent a cheque for $2,000 just before the year end which P did not receive until after it. What are the consolidated receivables?",
+      "options": {
+        "A": "$124,000",
+        "B": "$122,000",
+        "C": "$126,000",
+        "D": "$131,000"
+      },
+      "correct": "A",
+      "explanation": "The cash in transit is first recorded as if it had been received by P: Dr Cash $2,000, Cr Receivables $2,000, so P's intra-group receivable becomes $5,000, matching S's payable. Consolidated receivables = $85,000 + $46,000 - $2,000 - $5,000 = $124,000, which equals deducting the full $7,000 originally in P's books. Deducting only $5,000 gives $126,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fa-c13-q008",
+      "chapter": 13,
+      "topic": "Simple consolidated financial statements",
+      "question_text": "An investor holds 35% of the voting shares of an entity and has significant influence, but not control, over it. How should the investment be accounted for in the consolidated financial statements?",
+      "options": {
+        "A": "Full consolidation, as a subsidiary",
+        "B": "By including 35% of each asset and liability line by line",
+        "C": "Using the equity method, as an associate",
+        "D": "At cost, with no adjustments"
+      },
+      "correct": "C",
+      "explanation": "Significant influence is the power to participate in financial and operating policy decisions without controlling them, and is presumed for holdings of 20% to 50%. Such an investee is an associate, which IAS 28 requires to be accounted for using the equity method rather than full consolidation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c13-q009",
+      "chapter": 13,
+      "topic": "Simple consolidated financial statements",
+      "question_text": "A group bought 30% of an associate for $200,000. Since acquisition, the associate has made profits of $80,000. There has been no impairment. At what amount should the investment in the associate appear in the consolidated statement of financial position?",
+      "options": {
+        "A": "$216,000",
+        "B": "$200,000",
+        "C": "$280,000",
+        "D": "$224,000"
+      },
+      "correct": "D",
+      "explanation": "Under the equity method, the investment is carried at cost plus the group's share of post-acquisition profits: $200,000 + (30% x $80,000) = $200,000 + $24,000 = $224,000. Adding all of the associate's profits gives $280,000, and leaving it at cost gives $200,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c13-q010",
+      "chapter": 13,
+      "topic": "Simple consolidated financial statements",
+      "question_text": "P acquired 400,000 of S's 500,000 ordinary shares, issuing 2 new P shares for every 5 S shares acquired. On the acquisition date, the market value of a P share was $3.50. What is the fair value of the consideration?",
+      "options": {
+        "A": "$560,000",
+        "B": "$1,400,000",
+        "C": "$160,000",
+        "D": "$700,000"
+      },
+      "correct": "A",
+      "explanation": "Number of P shares issued = 400,000 x 2/5 = 160,000. Consideration at fair value = 160,000 x $3.50 = $560,000. Basing the calculation on all 500,000 S shares gives $700,000, and $160,000 is the number of shares issued rather than their value.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c13-q011",
+      "chapter": 13,
+      "topic": "Simple consolidated financial statements",
+      "question_text": "P owns 75% of S. How are S's property, plant and equipment included in the consolidated statement of financial position?",
+      "options": {
+        "A": "100% of S's property, plant and equipment is added to P's, with the non-controlling interest shown in equity",
+        "B": "75% of S's property, plant and equipment is added to P's",
+        "C": "S's property, plant and equipment is shown as a single-line investment",
+        "D": "Only P's property, plant and equipment is shown"
+      },
+      "correct": "A",
+      "explanation": "Consolidation presents the group as a single economic entity under P's control, so 100% of the subsidiary's assets and liabilities are combined with the parent's. The 25% that is not owned is reflected by presenting a non-controlling interest within equity. A single-line investment is the equity method used for associates.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c13-q012",
+      "chapter": 13,
+      "topic": "Simple consolidated financial statements",
+      "question_text": "P owns 45% of the voting shares of Q. Under an agreement with the other shareholders, P has the right to appoint or remove a majority of Q's board of directors. How should Q be treated in P's group financial statements?",
+      "options": {
+        "A": "It should be excluded because P does not hold a majority of shares",
+        "B": "As an associate, because P owns less than 50%",
+        "C": "As a subsidiary, because P controls Q",
+        "D": "As a simple investment"
+      },
+      "correct": "C",
+      "explanation": "Control does not depend solely on owning more than half of the shares. The right to appoint or remove a majority of the board gives P power over Q's relevant activities, so P controls Q, and Q must be consolidated as a subsidiary.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c14-q001",
+      "chapter": 14,
+      "topic": "Interpretation of financial statements",
+      "question_text": "A company has current assets of $84,000, including inventory of $30,000, and current liabilities of $48,000. What is its quick (acid test) ratio, to two decimal places?",
+      "options": {
+        "A": "0.63:1",
+        "B": "1.75:1",
+        "C": "0.89:1",
+        "D": "1.13:1"
+      },
+      "correct": "D",
+      "explanation": "Quick ratio = (current assets - inventory) / current liabilities = ($84,000 - $30,000) / $48,000 = $54,000 / $48,000 = 1.125, which rounds to 1.13:1. The current ratio, including inventory, is $84,000 / $48,000 = 1.75:1.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c14-q002",
+      "chapter": 14,
+      "topic": "Interpretation of financial statements",
+      "question_text": "A company has trade receivables of $62,000 at its year end. Its revenue, all on credit, is $520,000, and its cost of sales is $390,000. What are its trade receivables collection days, to the nearest day (using a 365-day year)?",
+      "options": {
+        "A": "58 days",
+        "B": "37 days",
+        "C": "44 days",
+        "D": "8 days"
+      },
+      "correct": "C",
+      "explanation": "Receivables days = trade receivables / credit sales x 365 = $62,000 / $520,000 x 365 = 43.5, which rounds to 44 days. Using cost of sales instead of revenue gives 58 days, which is incorrect because receivables are stated at selling price. 8 is the receivables turnover in times, not days.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c14-q003",
+      "chapter": 14,
+      "topic": "Interpretation of financial statements",
+      "question_text": "A company has revenue of $400,000 and cost of sales of $300,000. What is its gross profit margin?",
+      "options": {
+        "A": "25%",
+        "B": "75%",
+        "C": "133.3%",
+        "D": "33.3%"
+      },
+      "correct": "A",
+      "explanation": "Gross profit = $400,000 - $300,000 = $100,000. Gross profit margin = gross profit / revenue = $100,000 / $400,000 = 25%. The figure of 33.3% is the mark-up on cost ($100,000 / $300,000), a common confusion.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c14-q004",
+      "chapter": 14,
+      "topic": "Interpretation of financial statements",
+      "question_text": "A company has profit before interest and tax of $90,000, equity of $400,000 and 9% loan notes (non-current) of $200,000. What is its return on capital employed (ROCE)?",
+      "options": {
+        "A": "12%",
+        "B": "18%",
+        "C": "22.5%",
+        "D": "15%"
+      },
+      "correct": "D",
+      "explanation": "Capital employed = equity + non-current liabilities = $400,000 + $200,000 = $600,000. ROCE = profit before interest and tax / capital employed = $90,000 / $600,000 = 15%. Using equity only gives 22.5%, and using profit after interest ($90,000 - $18,000 = $72,000) gives 12%.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c14-q005",
+      "chapter": 14,
+      "topic": "Interpretation of financial statements",
+      "question_text": "A company has equity of $400,000 and non-current borrowings of $200,000. What is its gearing, calculated as debt / (debt + equity)?",
+      "options": {
+        "A": "66.7%",
+        "B": "33.3%",
+        "C": "25%",
+        "D": "50%"
+      },
+      "correct": "B",
+      "explanation": "Gearing = debt / (debt + equity) = $200,000 / ($200,000 + $400,000) = $200,000 / $600,000 = 33.3%. Calculated as debt / equity, the figure would be 50%, so it is important to check which definition is required.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c14-q006",
+      "chapter": 14,
+      "topic": "Interpretation of financial statements",
+      "question_text": "A company has profit before interest and tax of $90,000 and finance costs of $18,000. What is its interest cover?",
+      "options": {
+        "A": "4 times",
+        "B": "6 times",
+        "C": "0.2 times",
+        "D": "5 times"
+      },
+      "correct": "D",
+      "explanation": "Interest cover = profit before interest and tax / finance costs = $90,000 / $18,000 = 5 times. Using profit after interest ($72,000 / $18,000) gives 4 times, which understates the cover.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fa-c14-q007",
+      "chapter": 14,
+      "topic": "Interpretation of financial statements",
+      "question_text": "A company has closing inventory of $45,000, opening inventory of $39,000, cost of sales of $300,000 and revenue of $400,000. What are its inventory holding days based on closing inventory, to the nearest day (using a 365-day year)?",
+      "options": {
+        "A": "55 days",
+        "B": "7 days",
+        "C": "51 days",
+        "D": "41 days"
+      },
+      "correct": "A",
+      "explanation": "Inventory days = closing inventory / cost of sales x 365 = $45,000 / $300,000 x 365 = 54.75, which rounds to 55 days. Using revenue gives 41 days, and using average inventory ($42,000) gives 51 days, which is not the basis asked for. 7 is the inventory turnover in times (rounded), not days.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c14-q008",
+      "chapter": 14,
+      "topic": "Interpretation of financial statements",
+      "question_text": "A company's trade receivables collection period has increased from 35 days to 52 days. Which of the following is the most likely explanation?",
+      "options": {
+        "A": "The company has started offering early settlement discounts",
+        "B": "A greater proportion of sales is now made for cash",
+        "C": "Credit control has become less effective",
+        "D": "Major customers have started paying more quickly"
+      },
+      "correct": "C",
+      "explanation": "A longer collection period means customers are taking longer to pay, which may indicate weaker credit control, more generous credit terms or customers in financial difficulty. Early settlement discounts, faster-paying customers and more cash sales would all tend to shorten the collection period.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fa-c14-q009",
+      "chapter": 14,
+      "topic": "Interpretation of financial statements",
+      "question_text": "A company has revenue of $750,000, capital employed of $500,000 and an operating profit margin of 12%. What is its return on capital employed?",
+      "options": {
+        "A": "18%",
+        "B": "1.5%",
+        "C": "8%",
+        "D": "12%"
+      },
+      "correct": "A",
+      "explanation": "ROCE = operating profit margin x asset turnover. Asset turnover = $750,000 / $500,000 = 1.5 times. ROCE = 12% x 1.5 = 18%. Check: operating profit = 12% x $750,000 = $90,000, and $90,000 / $500,000 = 18%. Dividing the margin by asset turnover gives 8%.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fa-c14-q010",
+      "chapter": 14,
+      "topic": "Interpretation of financial statements",
+      "question_text": "A company has current assets of $120,000 and current liabilities of $60,000. It then pays a trade payable of $20,000 in cash. What is its current ratio after the payment?",
+      "options": {
+        "A": "2.5:1",
+        "B": "1.67:1",
+        "C": "2.0:1",
+        "D": "3.5:1"
+      },
+      "correct": "A",
+      "explanation": "After the payment, current assets = $120,000 - $20,000 = $100,000 and current liabilities = $60,000 - $20,000 = $40,000. Current ratio = $100,000 / $40,000 = 2.5:1. When the ratio is above 1, paying a liability from current assets increases it. Reducing only current assets gives 1.67:1.",
+      "difficulty": "hard"
+    }
+  ]
+}
