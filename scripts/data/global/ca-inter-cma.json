@@ -283,7 +283,7 @@
         "D": "₹1,85,000"
       },
       "correct": "D",
-      "explanation": "Purchase price net of trade discount = ₹2,00,000 - 10% = ₹1,80,000. GST is excluded because input tax credit is available. Freight inward is added: ₹1,80,000 + ₹5,000 = ₹1,85,000. Cash discount is a financing item and is not deducted under CAS-6. Including GST would give ₹2,17,400.",
+      "explanation": "Purchase price net of trade discount = ₹2,00,000 - 10% = ₹1,80,000 (CAS-6: trade discounts and rebates are deducted). GST is excluded because input tax credit is available. Freight inward is added: ₹1,80,000 + ₹5,000 = ₹1,85,000. Cash discount is not deducted from the purchase cost under CAS-6 as explained in the ICAI Study Material; it is treated as a finance item, so deducting 2% (₹3,600) to get ₹1,81,400 is wrong. Including GST would give ₹2,17,400.",
       "difficulty": "hard"
     },
     {
@@ -860,7 +860,7 @@
       "id": "ca-inter-cma-c06-q008",
       "chapter": 6,
       "topic": "Cost Sheet",
-      "question_text": "A company produced 12,000 units and sold 10,000 units; there was no opening stock. Direct material ₹6,00,000; direct labour ₹3,60,000; factory overheads 20% of prime cost; general administration overheads ₹1,08,000; selling and distribution overheads ₹3 per unit sold. Closing stock is valued at cost of production. The cost of sales is:",
+      "question_text": "A company produced 12,000 units and sold 10,000 units; there was no opening stock. Direct material ₹6,00,000; direct labour ₹3,60,000; factory overheads 20% of prime cost; general administration overheads (not related to production) ₹1,08,000; selling and distribution overheads ₹3 per unit sold. Following the current ICAI cost sheet format, closing stock is valued at cost of production. The cost of sales is:",
       "options": {
         "A": "₹10,98,000",
         "B": "₹10,80,000",
@@ -868,7 +868,7 @@
         "D": "₹11,04,000"
       },
       "correct": "A",
-      "explanation": "Factory overheads = 20% x (₹6,00,000 + ₹3,60,000) = ₹1,92,000. Cost of production = ₹11,52,000, i.e. ₹96 per unit. Cost of goods sold = 10,000 x ₹96 = ₹9,60,000 (closing stock 2,000 units x ₹96 = ₹1,92,000). Add general administration overheads ₹1,08,000 (a period cost, not carried in stock) and selling and distribution overheads 10,000 x ₹3 = ₹30,000. Cost of sales = ₹10,98,000.",
+      "explanation": "Factory overheads = 20% x (₹6,00,000 + ₹3,60,000) = ₹1,92,000, so works cost = cost of production = ₹11,52,000, i.e. ₹96 per unit (in the current ICAI format only administration overheads relating to production form part of cost of production). Closing stock = 2,000 x ₹96 = ₹1,92,000, so cost of goods sold = 10,000 x ₹96 = ₹9,60,000. Add general administration overheads ₹1,08,000 (a period cost added after cost of goods sold, not carried in stock) and selling and distribution overheads 10,000 x ₹3 = ₹30,000. Cost of sales = ₹10,98,000. Treating general administration overheads as part of cost of production (the older format) would wrongly carry ₹18,000 of them in closing stock and give ₹10,80,000.",
       "difficulty": "hard"
     },
     {

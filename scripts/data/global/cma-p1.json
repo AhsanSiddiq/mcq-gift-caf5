@@ -28,7 +28,7 @@
         "D": "Either operating or financing activities, as an accounting policy choice"
       },
       "correct": "C",
-      "explanation": "US GAAP requires interest paid to be classified as an operating cash outflow because interest expense is included in net income. IFRS allows a policy choice between operating and financing, which is the source of the last distractor; under US GAAP no such choice exists.",
+      "explanation": "US GAAP requires interest paid to be classified as an operating cash outflow because interest expense is included in net income. IAS 7 has allowed a policy choice between operating and financing (removed for most non-financial entities by the IFRS 18 amendments to IAS 7), which is the source of the last distractor; under US GAAP no such choice exists.",
       "difficulty": "easy"
     },
     {
@@ -58,7 +58,7 @@
         "D": "Specific identification"
       },
       "correct": "C",
-      "explanation": "IAS 2 prohibits LIFO, while US GAAP still permits it. FIFO and weighted-average cost are allowed under both frameworks, and specific identification is required under both for items that are not ordinarily interchangeable.",
+      "explanation": "IAS 2 prohibits LIFO, while US GAAP still permits it. FIFO and weighted-average cost are allowed under both frameworks, and specific identification is permitted under both (IAS 2 requires it for items that are not ordinarily interchangeable).",
       "difficulty": "easy"
     },
     {
@@ -283,7 +283,7 @@
         "D": "As a non-cash disclosure only"
       },
       "correct": "B",
-      "explanation": "Dividends paid are distributions to owners and are classified as financing cash outflows under US GAAP. IFRS allows them to be shown as either operating or financing, but US GAAP requires financing.",
+      "explanation": "Dividends paid are distributions to owners and are classified as financing cash outflows under US GAAP. IAS 7 has allowed them to be shown as either operating or financing (the IFRS 18 amendments to IAS 7 require financing for most non-financial entities), but US GAAP has always required financing.",
       "difficulty": "easy"
     },
     {
@@ -388,7 +388,7 @@
         "D": "Technological factors"
       },
       "correct": "B",
-      "explanation": "PEST analysis groups external macro-environmental factors into political, economic, social and technological categories. Government legislation and regulation fall under political (sometimes separately labelled legal) factors.",
+      "explanation": "PEST analysis groups external macro-environmental factors into political, economic, social and technological categories. Government legislation and regulation fall under political (sometimes separately labeled legal) factors.",
       "difficulty": "easy"
     },
     {
@@ -473,12 +473,12 @@
       "question_text": "A product manager estimates next quarter's unit demand as follows:\n10,000 units: probability 0.3\n14,000 units: probability 0.5\n18,000 units: probability 0.2\n\nWhat is the expected demand?",
       "options": {
         "A": "14,000 units",
-        "B": "4,533 units",
+        "B": "14,400 units",
         "C": "18,000 units",
         "D": "13,600 units"
       },
       "correct": "D",
-      "explanation": "Expected value = (10,000 x 0.3) + (14,000 x 0.5) + (18,000 x 0.2) = 3,000 + 7,000 + 3,600 = 13,600 units. The most likely outcome (14,000) and the simple average (14,000) ignore the probability weights.",
+      "explanation": "Expected value = (10,000 x 0.3) + (14,000 x 0.5) + (18,000 x 0.2) = 3,000 + 7,000 + 3,600 = 13,600 units. The most likely outcome (14,000) and the simple average (14,000) ignore the probability weights. Pairing the probabilities with the wrong outcomes (10,000 x 0.2 + 14,000 x 0.5 + 18,000 x 0.3) gives 14,400, and 18,000 is simply the highest possible demand.",
       "difficulty": "easy"
     },
     {
@@ -890,15 +890,15 @@
       "id": "cma-p1-c03-q007",
       "chapter": 3,
       "topic": "Performance Management",
-      "question_text": "Direct labor for the month was 12,400 hours at a total cost of $327,360. The standard wage rate is $26 per hour. What is the direct labor rate variance?",
+      "question_text": "Direct labor for the month was 12,400 hours at a total cost of $327,360. The standard wage rate is $26 per hour, and standard hours allowed for the actual output were 12,500. What is the direct labor rate variance?",
       "options": {
         "A": "$4,960 favorable",
         "B": "$5,000 unfavorable",
         "C": "$4,960 unfavorable",
-        "D": "$2,360 favorable"
+        "D": "$2,360 unfavorable"
       },
       "correct": "C",
-      "explanation": "Actual rate = $327,360 / 12,400 = $26.40. Rate variance = (actual rate - standard rate) x actual hours = ($26.40 - $26.00) x 12,400 = $4,960 unfavorable. Equivalently, $327,360 - 12,400 x $26 = $4,960.",
+      "explanation": "Actual rate = $327,360 / 12,400 = $26.40. Rate variance = (actual rate - standard rate) x actual hours = ($26.40 - $26.00) x 12,400 = $4,960 unfavorable. Equivalently, $327,360 - 12,400 x $26 = $4,960. Using standard hours instead of actual hours gives $0.40 x 12,500 = $5,000, and $2,360 unfavorable ($327,360 - 12,500 x $26 = $327,360 - $325,000) is the total labor flexible budget variance, which also includes the $2,600 favorable efficiency variance.",
       "difficulty": "medium"
     },
     {
@@ -950,7 +950,7 @@
       "id": "cma-p1-c03-q011",
       "chapter": 3,
       "topic": "Performance Management",
-      "question_text": "Using the same data (variable overhead rate $4.80 per direct labor hour, actual hours 12,400, standard hours allowed 12,500), what is the variable overhead efficiency variance?",
+      "question_text": "Variable overhead is applied at $4.80 per direct labor hour. Actual direct labor hours were 12,400 and standard hours allowed for actual output were 12,500. What is the variable overhead efficiency variance?",
       "options": {
         "A": "$480 favorable",
         "B": "$480 unfavorable",
@@ -1295,7 +1295,7 @@
       "id": "cma-p1-c04-q004",
       "chapter": 4,
       "topic": "Cost Management",
-      "question_text": "Westbury Ltd. sells a product for $80. Variable production cost is $36 per unit and variable selling cost is $4 per unit. Fixed manufacturing overhead is $360,000 per year, applied on normal output of 30,000 units, and fixed selling and administrative costs are $150,000. There was no beginning inventory; 30,000 units were produced and 27,000 were sold. What is operating income under absorption costing?",
+      "question_text": "Westbury Inc. sells a product for $80. Variable production cost is $36 per unit and variable selling cost is $4 per unit. Fixed manufacturing overhead is $360,000 per year, applied on normal output of 30,000 units, and fixed selling and administrative costs are $150,000. There was no beginning inventory; 30,000 units were produced and 27,000 were sold. What is operating income under absorption costing?",
       "options": {
         "A": "$570,000",
         "B": "$714,000",
@@ -1613,7 +1613,7 @@
       "question_text": "Which combination of duties for a single employee represents the most serious weakness in segregation of duties?",
       "options": {
         "A": "Preparing sales invoices and filing copies of shipping documents",
-        "B": "Opening mail and stamping cheques 'for deposit only'",
+        "B": "Opening mail and stamping checks 'for deposit only'",
         "C": "Receiving customer cash payments and posting entries to the accounts receivable ledger",
         "D": "Reconciling the bank statement and reviewing the payroll register for unusual items"
       },
@@ -1663,7 +1663,7 @@
         "D": "Include in the annual report an assessment of the effectiveness of internal control over financial reporting"
       },
       "correct": "D",
-      "explanation": "Section 404 requires management to report on the effectiveness of internal control over financial reporting, and for accelerated filers the external auditor must attest to that assessment. SOX requires rotation of the lead audit partner, not of the audit firm.",
+      "explanation": "Section 404(a) requires management to include in the annual report its assessment of the effectiveness of internal control over financial reporting. Section 404(b) requires the external auditor to attest to that assessment only for accelerated filers and large accelerated filers; non-accelerated filers are exempt from 404(b) but still must provide management's 404(a) report. Management reports any material weaknesses rather than certifying that no deficiencies exist, and SOX requires rotation of the lead audit partner, not of the audit firm.",
       "difficulty": "medium"
     },
     {
@@ -1895,12 +1895,12 @@
       "id": "cma-p1-c05-q022",
       "chapter": 5,
       "topic": "Internal Controls",
-      "question_text": "In a small company, the mail is opened by a receptionist who prepares a list of all cheques received. Which additional procedure would most strengthen control over cash receipts?",
+      "question_text": "In a small company, the mail is opened by a receptionist who prepares a list of all checks received. Which additional procedure would most strengthen control over cash receipts?",
       "options": {
         "A": "Sending the list to a person independent of cash handling and record-keeping, who compares it with the bank deposit slip and the receivables postings",
         "B": "Asking the receptionist to post the receipts to customer accounts as well",
-        "C": "Having the cashier who deposits the cheques prepare a second list from the deposit slip",
-        "D": "Holding cheques in the office for a week so that deposits can be made less often"
+        "C": "Having the cashier who deposits the checks prepare a second list from the deposit slip",
+        "D": "Holding checks in the office for a week so that deposits can be made less often"
       },
       "correct": "A",
       "explanation": "An independent comparison of the original remittance list with the deposit and the accounting records provides a detective control over cash receipts. Giving the receptionist recording duties combines custody and recording, a list prepared by the cashier is not independent, and delaying deposits increases the risk of loss.",
