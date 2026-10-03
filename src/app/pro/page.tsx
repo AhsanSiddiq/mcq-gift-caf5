@@ -50,6 +50,7 @@ export default async function ProPage() {
           prices={region.prices}
           localRails={localRails}
           paymentDetails={Object.fromEntries(localRails.map((r) => [r, paymentDetails[r]!]))}
+          tutor={!!process.env.ANTHROPIC_API_KEY}
           paddle={{
             clientToken: process.env.NEXT_PUBLIC_PADDLE_CLIENT_TOKEN,
             env: process.env.NEXT_PUBLIC_PADDLE_ENV === "sandbox" ? "sandbox" : "production",
