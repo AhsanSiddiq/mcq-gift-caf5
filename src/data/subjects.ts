@@ -343,7 +343,7 @@ export const cmaSubjects: Subject[] = [
     level: "CMA",
     body: "ima",
     description: "Financial statement analysis, corporate finance, decision analysis, risk management, investment decisions and ethics.",
-    isAvailable: false,
+    isAvailable: true,
   },
 ];
 

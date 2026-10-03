@@ -440,10 +440,10 @@
       "id": "ca-inter-law-c03-q010",
       "chapter": 3,
       "topic": "Prospectus and Allotment of Securities",
-      "question_text": "Under section 34, a person who authorises the issue of a prospectus containing an untrue or misleading statement is liable to action under:",
+      "question_text": "Section 34 expressly provides that every person who authorises the issue of a prospectus containing an untrue or misleading statement shall be liable under:",
       "options": {
-        "A": "Section 36, which deals only with misleading advertisements",
-        "B": "Section 35, which deals only with civil liability",
+        "A": "Section 36, which alone deals with such statements",
+        "B": "Section 35 only, and not under any penal provision",
         "C": "The Indian Contract Act, 1872 only",
         "D": "Section 447, which deals with punishment for fraud"
       },
@@ -485,15 +485,15 @@
       "id": "ca-inter-law-c04-q003",
       "chapter": 4,
       "topic": "Share Capital and Debentures",
-      "question_text": "The rights of a class of shareholders are varied under section 48 with the written consent of the holders of 80% of the issued shares of that class. Holders of 12% of that class did not consent. What remedy do they have?",
+      "question_text": "The rights of a class of shareholders are varied under section 48 with the written consent of the holders of 80% of the issued shares of that class. Holders of 12% of that class did not consent. Within what time and to whom can they seek a remedy?",
       "options": {
-        "A": "None, because the variation was approved by holders of more than three-fourths",
-        "B": "They may apply to the Tribunal to have the variation cancelled, as they hold not less than 10% of the issued shares of that class",
-        "C": "They may apply to the Central Government, since only holders of 25% can approach the Tribunal",
-        "D": "They may require the company to buy back their shares at fair value"
+        "A": "None, because the variation was approved by holders of more than three-fourths of the issued shares of that class",
+        "B": "They may apply to the Tribunal within twenty-one days after the consent was given to have the variation cancelled, as they hold not less than 10% of the issued shares of that class",
+        "C": "They may apply to the Central Government within thirty days, since only holders of 25% of the class can approach the Tribunal",
+        "D": "They may apply to the Tribunal within ninety days after the consent was given, as they hold not less than 10% of the issued shares of that class"
       },
       "correct": "B",
-      "explanation": "Section 48(1) allows variation of class rights with the written consent of holders of not less than three-fourths of the issued shares of that class, or by a special resolution passed at a separate class meeting. Under section 48(2), holders of not less than ten per cent of the issued shares of the class who did not consent may apply to the Tribunal to cancel the variation. The variation then has effect only if the Tribunal confirms it.",
+      "explanation": "Section 48(1) allows variation of class rights with the written consent of holders of not less than three-fourths of the issued shares of that class, or by a special resolution passed at a separate class meeting. Under section 48(2), holders of not less than ten per cent of the issued shares of the class who did not consent may apply to the Tribunal to have the variation cancelled. The application must be made within twenty-one days after the date on which the consent was given or the resolution was passed, not ninety days. Once an application is made, the variation has effect only if and when the Tribunal confirms it.",
       "difficulty": "hard"
     },
     {
@@ -560,7 +560,7 @@
       "id": "ca-inter-law-c04-q008",
       "chapter": 4,
       "topic": "Share Capital and Debentures",
-      "question_text": "Under section 62(1)(a), when a company offers further shares to existing equity shareholders by a rights issue, the offer must be open for a period of:",
+      "question_text": "Under section 62(1)(a), when a public company offers further shares to existing equity shareholders by a rights issue, the offer must be open for a period of:",
       "options": {
         "A": "Exactly twenty-one days from the date of the offer",
         "B": "Not less than thirty days and not exceeding sixty days",
@@ -878,12 +878,12 @@
       "question_text": "Which of the following statements about proxies under section 105 is correct?",
       "options": {
         "A": "A proxy must be a member, and may speak at the meeting",
-        "B": "The proxy instrument may be deposited at any time before the voting begins",
-        "C": "A proxy need not be a member, and the proxy instrument must be deposited not less than forty-eight hours before the meeting",
+        "B": "The articles may require the proxy instrument to be deposited up to seventy-two hours before the meeting",
+        "C": "A proxy need not be a member, and the articles cannot require the proxy instrument to be deposited more than forty-eight hours before the meeting",
         "D": "A proxy may vote on a show of hands as well as on a poll"
       },
       "correct": "C",
-      "explanation": "Under section 105(1), a member entitled to attend and vote may appoint another person, whether a member or not, as his proxy. A proxy has no right to speak and may vote only on a poll. Under section 105(4), the articles cannot require the proxy instrument to be lodged more than forty-eight hours before the meeting, which is the usual deadline.",
+      "explanation": "Under section 105(1), a member entitled to attend and vote may appoint another person, whether a member or not, as his proxy. A proxy has no right to speak at the meeting and may vote only on a poll, not on a show of hands. Under section 105(4), any provision in the articles requiring the proxy instrument to be lodged more than forty-eight hours before the meeting has effect as if it specified forty-eight hours, so a seventy-two-hour requirement is not valid.",
       "difficulty": "easy"
     },
     {
@@ -1198,7 +1198,7 @@
         "D": "Fourteen days"
       },
       "correct": "C",
-      "explanation": "Section 136(1) requires a copy of the financial statements, including consolidated statements, the auditor's report and every other document required to be attached, to be sent to every member, trustee for debenture-holders and other persons entitled. They must be sent not less than twenty-one days before the meeting. A shorter period is permitted where the AGM is called at shorter notice.",
+      "explanation": "Section 136(1) requires a copy of the financial statements, including consolidated statements, the auditor's report and every other document required to be attached, to be sent to every member, trustee for debenture-holders and other persons entitled. They must be sent not less than twenty-one days before the meeting. Under the proviso, copies sent less than twenty-one days before the meeting are deemed duly sent if members holding a majority in number of those entitled to vote and representing not less than ninety-five per cent of the paid-up voting share capital so agree.",
       "difficulty": "easy"
     },
     {
@@ -1298,12 +1298,12 @@
       "question_text": "Under section 141(3)(g), a chartered accountant is disqualified from being appointed auditor of a company if, at the date of appointment, he is:",
       "options": {
         "A": "Holding a certificate of practice for less than five years",
-        "B": "Holding appointment as auditor of more than twenty companies, counted as provided in that clause",
+        "B": "Holding appointment as auditor of more than twenty companies, not counting one person companies, dormant companies, small companies and the private companies specified in that clause",
         "C": "Auditor of any other company in the same industry",
         "D": "Holding appointment as auditor of more than ten companies of any kind"
       },
       "correct": "B",
-      "explanation": "Section 141(3)(g) disqualifies a person who is in full-time employment elsewhere, or a person or partner of a firm who already holds appointment as auditor of more than twenty companies. Certain categories of companies are excluded from this count by the clause. There is no prohibition on auditing competitors, and no minimum years of practice under the Act.",
+      "explanation": "Section 141(3)(g) disqualifies a person who is in full-time employment elsewhere, or a person or partner of a firm who, at the date of appointment or reappointment, holds appointment as auditor of more than twenty companies. One person companies, dormant companies, small companies and private companies with paid-up share capital below the limit stated in the clause are not counted towards the twenty. There is no limit of ten companies, no prohibition on auditing competitors and no minimum years of practice under the Act.",
       "difficulty": "hard"
     },
     {
@@ -1648,14 +1648,14 @@
         "D": "Honestly, whether it is done negligently or not"
       },
       "correct": "D",
-      "explanation": "Section 3(22) provides that a thing shall be deemed to be done in good faith where it is in fact done honestly, whether it is done negligently or not. The test is honesty, not carefulness. This contrasts with the Indian Penal Code, where good faith requires due care and attention.",
+      "explanation": "Section 3(22) provides that a thing shall be deemed to be done in good faith where it is in fact done honestly, whether it is done negligently or not. The test is honesty, not carefulness. This contrasts with the definition in the general penal law, where nothing is said to be done in good faith if it is done without due care and attention.",
       "difficulty": "medium"
     },
     {
       "id": "ca-inter-law-c12-q003",
       "chapter": 12,
       "topic": "The General Clauses Act, 1897 and Interpretation of Statutes",
-      "question_text": "A notification grants a concession for goods imported 'from 1 March to 10 March'. Applying section 9 of the General Clauses Act, 1897, the concession covers:",
+      "question_text": "A provision of a Central Act grants a concession for goods imported 'from 1 March to 10 March'. Applying section 9 of the General Clauses Act, 1897, the concession covers:",
       "options": {
         "A": "Goods imported on 1 March to 9 March, both days inclusive (nine days)",
         "B": "Goods imported on 1 March to 10 March, both days inclusive (ten days)",
