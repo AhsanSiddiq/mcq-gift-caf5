@@ -1404,5 +1404,642 @@ export const blogs: BlogPost[] = [
       <p><strong>Can I cancel an exemption after paying?</strong><br/>ACCA says you must notify it within 14 days to forfeit and be eligible for a refund. After that, fees are non-refundable.</p>
       <p><strong>Where do I find my exact exemptions as an ICAI or ICAP student?</strong><br/>Use ACCA's exemptions calculator on accaglobal.com, then apply through MyACCA.</p>
     `
+  },
+  {
+    slug: "ca-inter-advanced-accounting-mcqs",
+    title: "CA Inter Advanced Accounting MCQs: How the 30% MCQ Component Works and How to Score It",
+    excerpt: "Paper 1 of the new-scheme CA Intermediate carries 30 marks of MCQs. Here is how that component works, why it decides close results, and a practical way to prepare for it alongside the descriptive questions.",
+    tag: "CA Intermediate",
+    date: "October 3, 2026",
+    readTime: "7 min read",
+    content: `
+      <p>Under ICAI's new scheme of education and training, every CA Intermediate paper includes a block of multiple choice questions. In Paper 1, Advanced Accounting, that block is 30 marks out of 100. Most students treat it as a side dish to the long questions. That is a mistake. The <strong>CA Inter Advanced Accounting MCQs</strong> are the most predictable 30 marks in the paper, and in a subject where a single long question can go wrong in a dozen places, predictable marks are what get you over the line. This guide explains how the component works, what it tends to test, and how to prepare for it. Everything is as of October 2026; confirm the details for your attempt in ICAI's exam announcements and the instructions printed on your question paper.</p>
+
+      <h2>The Basics: Paper 1 Under the New Scheme</h2>
+      <ul>
+        <li><strong>Paper:</strong> Paper 1, Advanced Accounting, in Group I alongside Corporate and Other Laws and Taxation.</li>
+        <li><strong>Marks:</strong> 100, of which 30 are MCQs and 70 are descriptive questions.</li>
+        <li><strong>Content:</strong> the paper is based on the Accounting Standards (AS) that apply to non-Ind AS entities, plus company accounts and specialised areas such as amalgamation, internal reconstruction, buyback of securities and branch accounts. Ind AS is a CA Final subject, so do not mix the two up in your answers.</li>
+        <li><strong>Passing standard:</strong> ICAI requires at least 40% in each paper and 50% in aggregate across the group. Advanced Accounting is often the paper that lifts or drags that group aggregate.</li>
+      </ul>
+      <p>On negative marking: ICAI's Foundation objective papers carry negative marking, but ICAI has said the MCQ component of Intermediate papers does not. Check the instructions on the paper you sit, because ICAI's instructions on the day are what count. If there is no penalty, never leave an MCQ blank.</p>
+
+      <h2>What the 30% Component Looks Like</h2>
+      <p>The MCQs usually come as a mix of short case scenarios, each followed by several questions, and some stand-alone questions. A case scenario might describe a company's year-end position and then ask about the treatment of a contingency, a change in depreciation method and the presentation of a dividend in turn. Each question needs a definite answer, not an essay.</p>
+      <p>Three features make this block different from the descriptive part:</p>
+      <ul>
+        <li><strong>No method marks.</strong> In a long question, a wrong opening figure can still earn marks for the right approach. In an MCQ, the answer is either right or wrong.</li>
+        <li><strong>Coverage.</strong> Long questions can only cover a handful of topics in one paper. MCQs let the examiner test standards that rarely appear as a full question, so they reach parts of the syllabus students skip.</li>
+        <li><strong>Distractors.</strong> The wrong options are built from the errors students actually make: the pre-tax figure instead of the post-tax one, the wrong date, a rate applied to the wrong base.</li>
+      </ul>
+
+      <h2>Where the MCQ Marks Tend to Come From</h2>
+      <p>ICAI does not publish a fixed list of MCQ topics, and the mix changes from attempt to attempt. ICAI's mock test papers and past papers give you the best picture, and they show a clear pattern: the MCQs lean heavily on the Accounting Standards, because a standard has precise rules that can be tested with a single right answer. Typical areas include:</p>
+      <ul>
+        <li><strong>Recognition and measurement rules:</strong> inventory valuation, revenue recognition, property, plant and equipment, intangible assets, borrowing costs and government grants.</li>
+        <li><strong>Timing questions:</strong> events after the reporting period, provisions and contingent liabilities, and the effect of changes in accounting policies or estimates.</li>
+        <li><strong>Calculation questions:</strong> earnings per share, lease classifications and payments, construction contract stage of completion, and short amalgamation or buyback computations.</li>
+        <li><strong>Company accounts:</strong> Schedule III presentation points, such as where an item belongs and how it is classified.</li>
+      </ul>
+      <p>Our free <a href="/ca-inter/ca-inter-aa/mcqs">CA Inter Advanced Accounting MCQ bank</a> is organised around these AS-based areas, so you can see quickly which standards you know and which you only recognise.</p>
+
+      <h2>How to Score the MCQ Block</h2>
+      <h3>1. Learn the standards as rules, not stories</h3>
+      <p>For each AS, write a one-page summary: scope, recognition criteria, measurement, and the two or three disclosure points that matter. MCQs ask about conditions and exceptions, such as when a provision is recognised and when it is only disclosed. A summary in your own words is faster to revise than the study material and forces you to spot those conditions.</p>
+
+      <h3>2. Practise the calculation MCQs with full workings</h3>
+      <p>For a calculation MCQ, work the answer out before you look at the options. If you look first, a distractor that "looks about right" will pull you in. Once you have your figure, match it to an option. If your answer is not there, recheck the step where students usually go wrong, such as the weighted number of shares for EPS, rather than picking the nearest number.</p>
+
+      <h3>3. Read the case scenario once, with the questions in mind</h3>
+      <p>Skim the questions attached to a case before reading the case itself. Then read the case once, marking the facts each question needs. Reading a long scenario three times is one of the biggest time losses in the paper.</p>
+
+      <h3>4. Watch the small words</h3>
+      <p>"Not", "except", "least likely", "before tax", "at the end of the year" and "for the year" change answers. Many wrong MCQ answers in accounting come from answering a slightly different question than the one asked.</p>
+
+      <h3>5. Use eliminations properly</h3>
+      <p>In an AS-based question, two options are often wrong in principle (they ignore a basic rule of the standard), and two are close. Strike out the two that break a rule first, then decide between the remaining two with a calculation or a precise condition.</p>
+
+      <h2>Time Management in the Exam</h2>
+      <p>The paper is three hours for 100 marks. A useful budget is to give the MCQ block time in proportion to its marks, so roughly 50 to 55 minutes for 30 marks, and to keep the rest for the 70 descriptive marks. Do not let one stubborn MCQ eat five minutes. Mark it, move on and return at the end.</p>
+      <p>Students disagree about whether to do the MCQs first or last. Doing them first builds momentum and banks marks while you are fresh. Doing them last means you will not lose long-question marks if you run short. Try both in mock tests and keep the order that gives you the higher score. Whatever you choose, follow ICAI's instructions on where and how MCQ answers are recorded exactly.</p>
+
+      <h2>A Four-Week MCQ Plan Alongside Your Main Study</h2>
+      <ul>
+        <li><strong>Week 1:</strong> write one-page summaries for the standards you have already studied. Do 20 MCQs a day on them from the <a href="/ca-inter/ca-inter-aa/mcqs">question bank</a>.</li>
+        <li><strong>Week 2:</strong> cover the remaining standards and the calculation-heavy areas (EPS, leases, construction contracts). Add 10 calculation MCQs a day with full workings.</li>
+        <li><strong>Week 3:</strong> company accounts, amalgamation, buyback and branches. Mix in 20 questions a day from earlier weeks so old topics stay fresh.</li>
+        <li><strong>Week 4:</strong> attempt ICAI's mock test papers under timed conditions. Record every wrong MCQ in an error log with the reason: rule not known, misread, or calculation slip.</li>
+      </ul>
+      <p>For a short daily habit, the <a href="/daily/icai">ICAI daily challenge</a> gives you 10 questions a day across our live ICAI banks. If you are also preparing other Intermediate papers, the same approach works for <a href="/ca-inter/ca-inter-law/mcqs">Corporate and Other Laws</a>, <a href="/ca-inter/ca-inter-cma/mcqs">Cost and Management Accounting</a>, <a href="/ca-inter/ca-inter-audit/mcqs">Auditing and Ethics</a> and <a href="/ca-inter/ca-inter-fmsm/mcqs">FM and SM</a>. When you want full timed tests without limits, <a href="/pro">Pro</a> unlocks unlimited exam simulators.</p>
+
+      <h2>Common Mistakes in the MCQ Block</h2>
+      <ul>
+        <li>Answering from Ind AS memory instead of the AS that the paper is based on.</li>
+        <li>Choosing the nearest option when your calculation does not match any answer.</li>
+        <li>Spending descriptive-question time on one difficult MCQ.</li>
+        <li>Revising only the standards that come up as long questions and ignoring the rest.</li>
+      </ul>
+
+      <h2>FAQs</h2>
+      <p><strong>How many marks are MCQs in CA Inter Advanced Accounting?</strong><br/>30 out of 100 under the new scheme. The other 70 marks are descriptive questions.</p>
+      <p><strong>Is there negative marking in CA Inter MCQs?</strong><br/>ICAI has said there is no negative marking in the Intermediate MCQ component. Always read the instructions on the question paper for your attempt.</p>
+      <p><strong>Is CA Inter Advanced Accounting based on AS or Ind AS?</strong><br/>The Intermediate paper is based on the Accounting Standards (AS). Ind AS is covered at CA Final.</p>
+      <p><strong>Where can I practise CA Inter Advanced Accounting MCQs for free?</strong><br/>Use our <a href="/ca-inter/ca-inter-aa/mcqs">Advanced Accounting MCQ bank</a> and the <a href="/daily/icai">daily ICAI challenge</a>, then ICAI's own mock test papers.</p>
+    `
+  },
+  {
+    slug: "us-cma-part-1-vs-part-2",
+    title: "US CMA Part 1 vs Part 2: Which to Take First, Pass Rates and a Study Plan",
+    excerpt: "Both CMA parts have the same format, so the order is your choice. Here is how the two parts differ, what IMA's pass rates do and do not tell you, and a study plan for each.",
+    tag: "US CMA",
+    date: "October 3, 2026",
+    readTime: "7 min read",
+    content: `
+      <p>The US CMA has only two exams, and IMA lets you take them in either order. That freedom makes "Part 1 or Part 2 first?" one of the most common questions from new candidates. The honest answer is that there is no rule, but there is usually a better choice for your background. This guide compares the two parts, explains how to read IMA's pass rate figures, and lays out a study plan. Details are as of October 2026; IMA updates its content specification outlines from time to time, so download the current version from imanet.org before you start.</p>
+
+      <h2>What the Two Parts Cover</h2>
+      <p><strong>Part 1, Financial Planning, Performance and Analytics,</strong> is about running the business from the inside. Its content areas are:</p>
+      <ul>
+        <li>External financial reporting decisions</li>
+        <li>Planning, budgeting and forecasting</li>
+        <li>Performance management</li>
+        <li>Cost management</li>
+        <li>Internal controls</li>
+        <li>Technology and analytics</li>
+      </ul>
+      <p><strong>Part 2, Strategic Financial Management,</strong> is about decisions that shape the business. Its content areas are:</p>
+      <ul>
+        <li>Financial statement analysis</li>
+        <li>Corporate finance</li>
+        <li>Decision analysis</li>
+        <li>Risk management</li>
+        <li>Investment decisions</li>
+        <li>Professional ethics</li>
+      </ul>
+      <p>IMA's content specification outline gives the percentage weighting of each area. Use the current outline for exact figures; the weightings tell you where to spend your hours.</p>
+
+      <h2>The Format Is the Same for Both Parts</h2>
+      <ul>
+        <li><strong>Length:</strong> each part is a four-hour, computer-based exam.</li>
+        <li><strong>Multiple choice:</strong> 100 questions in the first three hours, worth 75% of the score.</li>
+        <li><strong>Essays:</strong> two scenario-based essay questions in the final hour, worth 25%.</li>
+        <li><strong>The gate:</strong> you must answer at least 50% of the multiple-choice questions correctly to move on to the essay section. Below that, you cannot pass.</li>
+        <li><strong>Scoring:</strong> results are reported on a scale of 0 to 500, and 360 is a pass.</li>
+        <li><strong>Testing windows:</strong> exams are offered in set windows during the year (IMA has used January–February, May–June and September–October). Check the current calendar on imanet.org.</li>
+      </ul>
+      <p>Because the format is identical, the choice of order comes down to content and your background, not exam style.</p>
+
+      <h2>Pass Rates: What They Do and Do Not Tell You</h2>
+      <p>IMA publishes historical global pass rates for each part on its website. Look them up there rather than trusting figures copied around the internet, which are often several years out of date. When you read them, keep three points in mind:</p>
+      <ul>
+        <li><strong>They are averages across very different candidates.</strong> A finance graduate and a non-finance professional face the same paper with different starting points.</li>
+        <li><strong>They describe the past, not your exam.</strong> Neither part is a "free pass". Compare the latest figures for both parts yourself, but let your background, not a few percentage points, decide your order.</li>
+        <li><strong>The gate matters more than the average.</strong> Failing to reach 50% on the multiple choice section rules out a pass completely, so a weak multiple-choice performance is the single biggest risk on either part.</li>
+      </ul>
+
+      <h2>Which Part Should You Take First?</h2>
+      <h3>Take Part 1 first if...</h3>
+      <ul>
+        <li>You work in accounting, FP&amp;A, costing or audit. Budgeting, variances, costing and controls will feel familiar.</li>
+        <li>You come from ACCA, CIMA, ICAI or ICAP. Much of Part 1 overlaps with management accounting and financial reporting papers you may already have passed.</li>
+        <li>You prefer a broad, steady syllabus with many medium-difficulty topics.</li>
+      </ul>
+      <h3>Take Part 2 first if...</h3>
+      <ul>
+        <li>You work in finance, treasury or investment analysis. Ratios, cost of capital, capital budgeting and risk will feel familiar.</li>
+        <li>You studied corporate finance recently and want to use that knowledge while it is fresh.</li>
+        <li>You are comfortable with heavier calculations, such as NPV, IRR, CVP under uncertainty and valuation.</li>
+      </ul>
+      <p>If none of this applies, Part 1 is the more common starting point. Its cost and budgeting concepts are a natural base for the decision analysis and investment topics in Part 2, so the second exam builds on the first.</p>
+      <p>One timing rule should shape your plan: once you join the CMA program, IMA expects you to complete both parts within a set period, currently three years. Check your exact deadline in your IMA account.</p>
+
+      <h2>A Study Plan for Each Part</h2>
+      <p>Most candidates study one part at a time. A plan of around 12 to 16 weeks per part, at 10 to 15 hours a week, is a reasonable starting point for someone working full time. Adjust based on your background.</p>
+      <ul>
+        <li><strong>Weeks 1–8: Content, one area at a time.</strong> Read or watch the material for one content area, then do 30 to 50 multiple-choice questions on it the same week. Start with the largest areas in the content outline.</li>
+        <li><strong>Weeks 9–11: Mixed multiple choice.</strong> Switch to mixed question sets so you learn to identify the topic from the question. Track your accuracy by area and keep a list of the concepts you keep getting wrong.</li>
+        <li><strong>Weeks 12–13: Essays.</strong> Practise writing essay answers under time pressure. Essays test the same content but require you to explain, not just choose. Show calculations clearly and write in full sentences.</li>
+        <li><strong>Weeks 14–16: Full mocks.</strong> Sit at least two full four-hour mocks. The first teaches you about stamina; the second tells you whether you are ready.</li>
+      </ul>
+      <p>Through all of it, keep doing a small number of mixed questions every day so earlier areas do not fade. Our free <a href="/cma/cma-p1/mcqs">CMA Part 1 MCQ bank</a> and <a href="/cma/cma-p2/mcqs">CMA Part 2 MCQ bank</a> are organised by content area, and the <a href="/daily/ima">US CMA daily challenge</a> gives you 10 questions a day. For unlimited timed simulations, <a href="/pro">Pro</a> unlocks the full exam simulator.</p>
+
+      <h2>Common Mistakes</h2>
+      <ul>
+        <li><strong>Neglecting the essays.</strong> They are a quarter of the score. Candidates who only drill multiple choice often struggle to explain their reasoning in writing.</li>
+        <li><strong>Ignoring smaller areas.</strong> In Part 2, professional ethics is a full content area and can appear in either section. In Part 1, internal controls and technology and analytics are easy to underestimate.</li>
+        <li><strong>Booking too early.</strong> Pick a testing window that gives you the full plan, not the nearest date.</li>
+      </ul>
+
+      <h2>FAQs</h2>
+      <p><strong>Can I take CMA Part 2 before Part 1?</strong><br/>Yes. IMA lets you take the two parts in either order.</p>
+      <p><strong>What is the CMA pass mark?</strong><br/>A scaled score of 360 out of 500 on each part.</p>
+      <p><strong>Which CMA part is harder?</strong><br/>It depends on your background. Accountants often find Part 1 more familiar, and finance professionals often find Part 2 more familiar. Check IMA's published pass rates for the latest figures.</p>
+      <p><strong>How long do I need to study for each part?</strong><br/>Many working candidates plan for three to four months per part. Use practice scores, not the calendar, to decide when you are ready.</p>
+      <p><strong>Where can I practise CMA MCQs for free?</strong><br/>Use our <a href="/cma/cma-p1/mcqs">Part 1</a> and <a href="/cma/cma-p2/mcqs">Part 2</a> question banks, or start from the <a href="/exams/ima">US CMA hub</a>.</p>
+    `
+  },
+  {
+    slug: "cima-certificate-ba1-ba4-exam-guide",
+    title: "CIMA Certificate (BA1–BA4) Exam Guide: Format, Pass Mark and a 6-Week Plan",
+    excerpt: "The four CIMA Certificate in Business Accounting exams explained: what each one covers, how the scaled pass mark works, how to book, and a six-week plan you can repeat for each paper.",
+    tag: "CIMA",
+    date: "October 3, 2026",
+    readTime: "8 min read",
+    content: `
+      <p>The CIMA Certificate in Business Accounting is the entry route into CIMA for students without a relevant degree or prior accounting qualification. It has four exams, BA1 to BA4, all computer-based objective tests that you book on demand. This guide covers the format of each exam, how the pass mark works, the order to take them in, and a six-week plan you can run for each paper. It is as of October 2026; CIMA publishes a study and exam guide for each paper on cimaglobal.com, and that guide is the final word on format and weightings.</p>
+
+      <h2>The Four Certificate Exams</h2>
+      <ul>
+        <li><strong>BA1, Fundamentals of Business Economics:</strong> micro and macroeconomics, the financial system, and the numerical techniques used to analyse business information. Practise with our <a href="/cima/cima-ba1/mcqs">BA1 MCQ bank</a>.</li>
+        <li><strong>BA2, Fundamentals of Management Accounting:</strong> cost classification and behaviour, absorption and marginal costing, budgeting, standard costing and variances, and short-term decision making. Practise with the <a href="/cima/cima-ba2/mcqs">BA2 MCQ bank</a>.</li>
+        <li><strong>BA3, Fundamentals of Financial Accounting:</strong> double entry, preparing financial statements for a single entity, statements of cash flows and basic interpretation. Practise with the <a href="/cima/cima-ba3/mcqs">BA3 MCQ bank</a>.</li>
+        <li><strong>BA4, Fundamentals of Ethics, Corporate Governance and Business Law:</strong> ethics and the CIMA Code, corporate governance, and contract, employment and company law. Practise with the <a href="/cima/cima-ba4/mcqs">BA4 MCQ bank</a>.</li>
+      </ul>
+
+      <h2>Exam Format</h2>
+      <ul>
+        <li><strong>Duration:</strong> each exam is two hours.</li>
+        <li><strong>Questions:</strong> BA1, BA2 and BA3 have 60 objective test questions each. BA4 has more, shorter questions; CIMA's study and exam guide lists the current number.</li>
+        <li><strong>Question types:</strong> multiple choice, multiple response, number entry, drag and drop and hotspot questions.</li>
+        <li><strong>Delivery:</strong> computer-based, booked through Pearson VUE, at a test centre or online, depending on what CIMA currently offers in your country.</li>
+        <li><strong>Results:</strong> a provisional pass or fail on screen when you finish, with the confirmed result on MyCIMA shortly afterwards (CIMA currently says within 48 hours).</li>
+      </ul>
+      <p>All questions are compulsory and there is no penalty for a wrong answer, so never leave a question blank.</p>
+
+      <h2>The Pass Mark: A Scaled Score of 100</h2>
+      <p>CIMA reports Certificate results as a <strong>scaled score from 0 to 150</strong>, and <strong>100 or above is a pass</strong>. There are several versions of each exam, and scaling keeps the standard the same whichever version you get. That means you cannot translate 100 into a fixed number of correct answers. Aim to be comfortably strong in every syllabus area rather than trying to calculate the minimum.</p>
+      <p>Your result also shows your performance by syllabus area. If you pass but one area is weak, fix it before moving on, because the later papers build on it. BA2 feeds directly into the management accounting papers at Operational level, and BA3 into financial reporting.</p>
+
+      <h2>Which Order Should You Take Them In?</h2>
+      <p>CIMA does not force an order, but a common sequence is:</p>
+      <ul>
+        <li><strong>BA3 or BA2 first</strong> if you are new to accounting. Double entry and costing are the foundation for everything else, and they reward steady daily practice.</li>
+        <li><strong>BA1 next.</strong> The economics is largely new for most students and is more about understanding than calculation, so it pairs well with a numerical paper you have just finished.</li>
+        <li><strong>BA4 last or in parallel.</strong> It is mostly knowledge and interpretation of rules, which suits short daily reviews alongside another paper.</li>
+      </ul>
+      <p>If you already have a strong background in one area, start there to build confidence, then tackle the paper you find hardest while your study habit is established. For BA1 specifically, see our detailed <a href="/blog/cima-ba1-tips">CIMA BA1 tips</a>.</p>
+
+      <h2>A Six-Week Plan for One Paper</h2>
+      <p>Six weeks per paper is a realistic pace for a student studying part time with some background. If you are completely new to a subject, add two or three weeks to the content phase. CIMA's own study hub suggests study hours for each paper, which is a good benchmark when you plan.</p>
+      <h3>Week 1: Map the syllabus</h3>
+      <p>Download the study and exam guide. Note the syllabus areas and their weightings, and read the learning outcomes. Pay attention to the verbs: "calculate" and "prepare" mean number questions, "explain" and "identify" mean recognising concepts. Start the first and largest syllabus area.</p>
+      <h3>Weeks 2–3: Learn content, test the same day</h3>
+      <p>Work through the remaining syllabus areas. After each study session, do 15 to 20 questions on what you have just covered. Mark wrong answers and write a one-line note on why: concept not understood, misread, or calculation error.</p>
+      <h3>Week 4: Mixed practice</h3>
+      <p>Switch from topic-by-topic questions to mixed sets of 30 to 60 questions. In the real exam, questions are not grouped by chapter, so learning to identify the topic from the question is a skill in itself. Revisit the notes from your error log every two or three days.</p>
+      <h3>Week 5: Timed mocks</h3>
+      <p>Sit at least two full timed mocks. Use CIMA's question tutorial so the on-screen tools are familiar, and use the same calculator you will use on the day. Two hours for 60 questions is two minutes per question; for BA4 the time per question is shorter, so speed of reading matters more.</p>
+      <h3>Week 6: Close the gaps and book</h3>
+      <p>Spend most of the week on your two weakest areas, with one final mock midweek. If your mock scores are steadily comfortable, sit the exam. If not, delay by a week rather than hoping.</p>
+
+      <h2>Paper-Specific Tips</h2>
+      <ul>
+        <li><strong>BA1:</strong> do not neglect the business mathematics and information area. It is tested with number entry questions where there are no options to help you.</li>
+        <li><strong>BA2:</strong> practise variance calculations until they are automatic, and always check whether a variance is favourable or adverse. Many options differ only in that.</li>
+        <li><strong>BA3:</strong> be confident with debits and credits before you start on financial statements. Most BA3 errors trace back to a double entry mistake.</li>
+        <li><strong>BA4:</strong> learn precise definitions and distinctions, such as an offer and an invitation to treat, or a fixed and a floating charge. The wrong options are often half-right.</li>
+      </ul>
+
+      <h2>Practising on This Site</h2>
+      <p>All four Certificate papers now have free question banks: <a href="/cima/cima-ba1/mcqs">BA1</a>, <a href="/cima/cima-ba2/mcqs">BA2</a>, <a href="/cima/cima-ba3/mcqs">BA3</a> and <a href="/cima/cima-ba4/mcqs">BA4</a>. The <a href="/daily/cima">CIMA daily challenge</a> gives you 10 questions a day, which suits the mixed practice in weeks 4 to 6. For unlimited timed mocks, <a href="/pro">Pro</a> adds the full exam simulator. You can see everything in one place on the <a href="/exams/cima">CIMA hub</a>.</p>
+
+      <h2>FAQs</h2>
+      <p><strong>What is the pass mark for CIMA BA1 to BA4?</strong><br/>A scaled score of 100 or more, on a scale from 0 to 150.</p>
+      <p><strong>How long is each CIMA Certificate exam?</strong><br/>Two hours. BA1, BA2 and BA3 have 60 questions; check the BA4 study guide for its current question count.</p>
+      <p><strong>Can I take the CIMA Certificate exams in any order?</strong><br/>Yes. Many students start with BA2 or BA3 and leave BA4 until last or take it alongside another paper.</p>
+      <p><strong>Can I pass a CIMA Certificate exam in six weeks?</strong><br/>Many students can with consistent study and some prior background. If a subject is completely new to you, allow longer for the content phase.</p>
+      <p><strong>Is there negative marking?</strong><br/>No. Answer every question.</p>
+    `
+  },
+  {
+    slug: "icaew-aca-certificate-level-2025-changes",
+    title: "ICAEW ACA Certificate Level After the 2025 Changes: New Paper Names and How to Prepare",
+    excerpt: "ICAEW's Next Generation ACA renamed and reshaped the Certificate Level. Here is how the old modules map to the new ones, what is genuinely new, and how to prepare for the objective tests.",
+    tag: "ICAEW",
+    date: "October 3, 2026",
+    readTime: "7 min read",
+    content: `
+      <p>In 2025 ICAEW began moving the ACA to its Next Generation ACA syllabus, and the Certificate Level looks different as a result. Some modules have new names, one has been withdrawn, and a new module on sustainability and ethics has arrived. If you are starting the ACA, or picking it back up after a break, this guide maps the old names to the new ones and explains how to prepare. It is as of October 2026. ICAEW's student pages on icaew.com have the definitive list of modules, exam details and transition arrangements, and you should check your own student record for how any modules you have already passed have been credited.</p>
+
+      <h2>The Certificate Level Modules Now</h2>
+      <p>Under the Next Generation ACA, the Certificate Level is made up of these modules:</p>
+      <ul>
+        <li><strong>Accounting Fundamentals</strong></li>
+        <li><strong>Assurance and Risk Fundamentals</strong></li>
+        <li><strong>Business Law</strong></li>
+        <li><strong>Business Insight and Performance</strong></li>
+        <li><strong>Sustainability and Ethics</strong></li>
+        <li><strong>Tax Fundamentals</strong></li>
+      </ul>
+
+      <h2>Old Name to New Name</h2>
+      <p>For students who started on the previous syllabus, or who are using older study materials, this is the broad mapping:</p>
+      <ul>
+        <li><strong>Accounting</strong> became <strong>Accounting Fundamentals</strong>.</li>
+        <li><strong>Assurance</strong> became <strong>Assurance and Risk Fundamentals</strong>, with a clearer emphasis on risk.</li>
+        <li><strong>Law</strong> became <strong>Business Law</strong>.</li>
+        <li><strong>Management Information</strong> became <strong>Business Insight and Performance</strong>.</li>
+        <li><strong>Principles of Taxation</strong> became <strong>Tax Fundamentals</strong>.</li>
+        <li><strong>Business, Technology and Finance</strong> was withdrawn in September 2025. Its content has been spread across the new syllabus.</li>
+        <li><strong>Sustainability and Ethics</strong> is new.</li>
+      </ul>
+      <p>The mapping is about names and broad scope. It is not a guarantee that the content is identical. Each new module has its own syllabus and learning outcomes, so if you are using old textbooks or question banks, check them against the current syllabus before relying on them.</p>
+
+      <h2>What Has Actually Changed</h2>
+      <h3>Sustainability is now a core subject</h3>
+      <p>Sustainability and Ethics brings ESG reporting frameworks, sustainability concepts and governance into the Certificate Level alongside the ICAEW Code of Ethics. For many students, this is the least familiar module, because it is not covered by typical university accounting courses. Do not leave it to the end assuming it will be easy reading. The questions test precise frameworks and definitions.</p>
+      <h3>More emphasis on business insight</h3>
+      <p>Business Insight and Performance goes beyond the costing and budgeting techniques of the old Management Information module and asks you to use them to understand how a business is performing. Expect to interpret results, not only calculate them.</p>
+      <h3>Risk is part of assurance</h3>
+      <p>Assurance and Risk Fundamentals keeps the core of assurance (engagements, evidence, internal controls and ethics) and gives risk a more central place. Questions often ask which risk a control addresses, or which procedure gives the best evidence for a given risk.</p>
+
+      <h2>The Exams</h2>
+      <p>Certificate Level modules are assessed by computer-based exams made up of objective questions, which you book on demand. ICAEW sets out the duration, question types and pass mark for each module in its exam guidance. Historically, the Certificate Level pass mark has been 55%, which is higher than many students expect; confirm the current figure for each module on icaew.com. Credit for prior learning may exempt you from some modules if you hold a relevant degree or qualification, and ICAEW's credit checker will tell you which.</p>
+
+      <h2>How to Prepare</h2>
+      <h3>1. Use the current syllabus as your checklist</h3>
+      <p>Print the learning outcomes for your module and tick them off as you cover them. This matters more than usual after a syllabus change, because older resources may include topics that have moved and miss ones that are new.</p>
+      <h3>2. Study in short cycles with questions</h3>
+      <p>Objective tests reward accurate recall under time pressure. After each chapter, do a short set of questions straight away, then revisit the same chapter a few days later. The <a href="/blog/spaced-repetition-daily-practice-accountancy-exams">spaced repetition guide</a> explains why this works so well for objective exams.</p>
+      <h3>3. Learn the precise wording</h3>
+      <p>In Business Law and Sustainability and Ethics, options are often close paraphrases of each other. Learn the exact conditions: what makes a contract void rather than voidable, or which principle of the Code applies to a given threat.</p>
+      <h3>4. Practise calculations until they are quick</h3>
+      <p>Accounting Fundamentals and Business Insight and Performance both include number-based questions. Practise until you can do routine calculations, such as depreciation, accruals, contribution and variances, without hesitating, so you have time for the harder ones.</p>
+      <h3>5. Finish with timed mixed sets</h3>
+      <p>In the last week or two, take mixed timed tests across the whole module. Track your score by syllabus area and spend your remaining time on the weakest.</p>
+
+      <h2>Free Practice for the New Modules</h2>
+      <p>We have free question banks for five of the six Certificate Level modules, built on the Next Generation syllabus:</p>
+      <ul>
+        <li><a href="/icaew/icaew-acc/mcqs">Accounting Fundamentals MCQs</a></li>
+        <li><a href="/icaew/icaew-ass/mcqs">Assurance and Risk Fundamentals MCQs</a></li>
+        <li><a href="/icaew/icaew-law/mcqs">Business Law MCQs</a></li>
+        <li><a href="/icaew/icaew-mi/mcqs">Business Insight and Performance MCQs</a></li>
+        <li><a href="/icaew/icaew-se/mcqs">Sustainability and Ethics MCQs</a></li>
+      </ul>
+      <p>Tax Fundamentals is not covered yet. For a daily habit, try the <a href="/daily/icaew">ICAEW daily challenge</a>, and if you want unlimited timed mocks, see <a href="/pro">Pro</a>. All ICAEW resources are collected on the <a href="/exams/icaew">ICAEW hub</a>.</p>
+
+      <h2>FAQs</h2>
+      <p><strong>What replaced ICAEW Business, Technology and Finance?</strong><br/>BTF was withdrawn in September 2025 and is not directly replaced. Its content has been spread across the Next Generation syllabus, and Sustainability and Ethics has been added as a new module.</p>
+      <p><strong>Is Management Information still an ICAEW exam?</strong><br/>Its successor is Business Insight and Performance. Check the current syllabus, because the scope has changed as well as the name.</p>
+      <p><strong>What is the ICAEW Certificate Level pass mark?</strong><br/>It has historically been 55%. Confirm the current pass mark for each module on icaew.com.</p>
+      <p><strong>I passed old modules before the change. Do I need to retake them?</strong><br/>ICAEW has published transition arrangements for existing students. Check your student record and ICAEW's transition guidance to see how your passes have been credited.</p>
+      <p><strong>Can I use old ICAEW study materials?</strong><br/>With care. Compare them with the current learning outcomes, because content has moved between modules.</p>
+    `
+  },
+  {
+    slug: "acca-pm-mcq-strategy-section-a-b",
+    title: "ACCA Performance Management (PM) MCQ Strategy: Section A and B Tips",
+    excerpt: "Sixty of the hundred marks in ACCA PM are objective test questions. Here is how Sections A and B work, the traps examiners set, and a time plan that leaves enough for Section C.",
+    tag: "ACCA",
+    date: "October 3, 2026",
+    readTime: "7 min read",
+    content: `
+      <p>Performance Management has had one of the lowest pass rates among ACCA's Applied Skills exams. In ACCA's June 2026 results it was 41%, the lowest of that group (see our <a href="/blog/acca-applied-knowledge-pass-rates">pass rates breakdown</a>). Students often blame Section C, the two long questions. But 60 of the 100 marks come from Sections A and B, and that is where a pass is usually built or lost. This guide covers how those sections work and how to approach them. Format details are from ACCA's PM exam guidance as of October 2026; check accaglobal.com for any changes, especially as ACCA moves towards its redesigned qualification from 2027.</p>
+
+      <h2>The PM Exam Format</h2>
+      <ul>
+        <li><strong>Section A:</strong> 15 objective test questions, 2 marks each, 30 marks in total.</li>
+        <li><strong>Section B:</strong> 3 objective test cases, each a scenario with 5 questions worth 2 marks, 30 marks in total.</li>
+        <li><strong>Section C:</strong> 2 constructed response questions of 20 marks each, 40 marks in total.</li>
+        <li><strong>Duration:</strong> 3 hours. <strong>Pass mark:</strong> 50%.</li>
+      </ul>
+      <p>Section C questions come from the decision-making, budgeting and control, and performance measurement areas of the syllabus. Sections A and B can test the whole syllabus, including specialist cost and management accounting techniques, which is why they reach topics the long questions do not.</p>
+
+      <h2>Your Time Budget</h2>
+      <p>Three hours for 100 marks is 1.8 minutes per mark. That gives roughly:</p>
+      <ul>
+        <li><strong>Section A:</strong> 54 minutes, or about 3.6 minutes per question.</li>
+        <li><strong>Section B:</strong> 54 minutes, or about 18 minutes per case.</li>
+        <li><strong>Section C:</strong> 72 minutes, or 36 minutes per question.</li>
+      </ul>
+      <p>The biggest risk is running over in Section A and arriving at Section C with 50 minutes instead of 72. Write the clock time you should finish each section on your scratch paper before you start, and stick to it.</p>
+
+      <h2>Section A Tips</h2>
+      <h3>Work the answer before you read the options</h3>
+      <p>PM distractors are built from common mistakes: using total costs instead of incremental costs, applying the learning curve to the wrong batch, mixing up favourable and adverse variances. If you scan the options first, one of them will look like your half-finished answer. Calculate first, then match.</p>
+      <h3>Know the formulas cold</h3>
+      <p>Section A rewards speed on standard techniques: the learning curve formula, throughput accounting ratio, ROI and RI, mix and yield variances, planning and operational variances, and the basics of linear programming. If you have to rebuild a formula from scratch in the exam, you are spending time you need for Section C.</p>
+      <h3>Read the requirement word by word</h3>
+      <p>"Which of the following is NOT", "the total variance" versus "the materials mix variance", "per unit" versus "in total". Many PM marks are lost to answering a nearby question correctly.</p>
+      <h3>Do not get stuck</h3>
+      <p>Every Section A question is worth the same 2 marks. If one takes more than five minutes, flag it, pick your best option and move on. Never leave a blank, because there is no negative marking.</p>
+
+      <h2>Section B Tips</h2>
+      <h3>Read the five questions before the scenario</h3>
+      <p>Each case has a scenario and five questions. Skim the questions first so you know which numbers matter when you read the scenario. Usually some questions are calculations and some test understanding, and they can often be answered independently.</p>
+      <h3>Answer the discursive questions first</h3>
+      <p>Within a case, the narrative questions (for example, which statement about target costing is true) are often quicker than the calculations. Bank them, then spend the rest of the case's time on the numbers.</p>
+      <h3>Expect the same topic from different angles</h3>
+      <p>A Section B case on variances might ask you to calculate a variance, identify a likely cause, and spot which statement about standard costing is false. Learn each topic well enough to calculate, explain and evaluate it.</p>
+      <h3>Treat each case as an 18-minute block</h3>
+      <p>If a case is going badly, finish your best answers and move on. Five questions at 2 marks each means one difficult question costs only 2 marks if you leave it with a sensible guess.</p>
+
+      <h2>The Topics Most Likely to Trip You Up</h2>
+      <ul>
+        <li><strong>Learning curve:</strong> confusing cumulative average time with the time for an incremental unit or batch.</li>
+        <li><strong>Throughput accounting:</strong> treating labour as a variable cost when the throughput approach treats it as part of total factory costs.</li>
+        <li><strong>Relevant costing:</strong> including sunk or committed costs, or using historical cost for materials that would need to be replaced.</li>
+        <li><strong>Mix and yield variances:</strong> using actual prices instead of standard prices, or the wrong total quantity.</li>
+        <li><strong>Planning and operational variances:</strong> mixing up which standard (original or revised) applies to which variance.</li>
+        <li><strong>Performance measures:</strong> knowing what ROI and RI encourage managers to do, not only how to calculate them.</li>
+      </ul>
+
+      <h2>How to Practise for Sections A and B</h2>
+      <ul>
+        <li><strong>Topic sets first.</strong> As you finish each chapter, do 15 to 20 objective questions on it from our free <a href="/acca/acca-pm/mcqs">ACCA PM question bank</a>. Note every mistake and the reason for it.</li>
+        <li><strong>Then mixed timed sets.</strong> Practise 15 mixed questions in 54 minutes to copy Section A. When you can finish with a few minutes to spare and score well, you are on track.</li>
+        <li><strong>Little and often.</strong> A short daily set keeps earlier chapters fresh while you study later ones. The <a href="/daily/acca">ACCA daily challenge</a> gives you 10 questions a day.</li>
+        <li><strong>Full mocks.</strong> In the last few weeks, sit full three-hour mocks in ACCA's CBE practice platform so the software and timing feel familiar. <a href="/pro">Pro</a> adds unlimited timed simulators if you want more.</li>
+      </ul>
+      <p>If you passed MA, much of the base is familiar; our <a href="/blog/how-to-pass-acca-ma">ACCA MA guide</a> covers the foundation techniques that PM builds on.</p>
+
+      <h2>FAQs</h2>
+      <p><strong>How many marks are objective test questions in ACCA PM?</strong><br/>60: 30 in Section A and 30 in Section B.</p>
+      <p><strong>How long should I spend on Section A?</strong><br/>About 54 minutes, based on 1.8 minutes per mark.</p>
+      <p><strong>Is there negative marking in ACCA PM?</strong><br/>No. Answer every question.</p>
+      <p><strong>What topics come up in PM Section C?</strong><br/>ACCA says Section C questions come from decision-making techniques, budgeting and control, and performance measurement and control.</p>
+      <p><strong>Where can I practise PM objective test questions for free?</strong><br/>Use our <a href="/acca/acca-pm/mcqs">ACCA PM MCQ bank</a>.</p>
+    `
+  },
+  {
+    slug: "acca-fr-common-ot-question-traps",
+    title: "ACCA Financial Reporting (FR) Common OT Question Traps",
+    excerpt: "The mistakes that cost the most marks in FR Sections A and B, standard by standard: revenue, leases, impairment, financial instruments, deferred tax, EPS and group accounts.",
+    tag: "ACCA",
+    date: "October 3, 2026",
+    readTime: "8 min read",
+    content: `
+      <p>Sections A and B of ACCA Financial Reporting are worth 60 marks: 15 objective test questions worth 2 marks each, and three objective test cases with five 2-mark questions each. Section C has two 20-mark constructed response questions. The objective sections cover the whole syllabus, and the wrong answers are designed around the mistakes students make most often. If you know the traps in advance, you can step around them. Format details are from ACCA's FR guidance as of October 2026; confirm on accaglobal.com.</p>
+
+      <h2>How the Traps Work</h2>
+      <p>An FR objective question usually has one correct answer and three distractors. Each distractor is the result of a specific error, such as using the wrong date, the wrong rate or the wrong measurement basis. That means two things. First, if your answer appears among the options, it is not proof you are right. Second, if you know the common errors for each standard, you can check your working against them before you commit.</p>
+
+      <h2>Trap 1: Revenue Timing Under IFRS 15</h2>
+      <ul>
+        <li><strong>Recognising revenue when cash is received</strong> instead of when (or as) the performance obligation is satisfied.</li>
+        <li><strong>Missing a separate performance obligation</strong>, such as a service or warranty sold with a product, and recognising the whole price at once.</li>
+        <li><strong>Allocating the price evenly</strong> instead of in proportion to stand-alone selling prices.</li>
+        <li><strong>Ignoring the agent position.</strong> If the entity is an agent, revenue is the commission, not the gross amount.</li>
+      </ul>
+
+      <h2>Trap 2: Lease Payments in Advance or Arrears (IFRS 16)</h2>
+      <ul>
+        <li><strong>Payments in advance:</strong> the first payment reduces the liability immediately, so interest for the first year is charged on the reduced balance. Applying interest to the full opening liability is a classic distractor.</li>
+        <li><strong>Current and non-current split:</strong> the current liability is the amount that will be paid off in the next year, which depends on whether payments are in advance or arrears. Students often state the next payment as the current liability without adjusting for interest.</li>
+        <li><strong>Right-of-use asset:</strong> remember initial direct costs and payments made before commencement, and depreciate over the shorter of the lease term and useful life unless ownership transfers.</li>
+      </ul>
+
+      <h2>Trap 3: Revaluation and Depreciation (IAS 16)</h2>
+      <ul>
+        <li>Charging depreciation for the year on the old carrying amount after a revaluation at the start of the year.</li>
+        <li>Taking a revaluation gain to profit or loss instead of other comprehensive income (except where it reverses a previous loss recognised in profit or loss).</li>
+        <li>Forgetting that a later revaluation loss is first set against the revaluation surplus for the same asset.</li>
+      </ul>
+
+      <h2>Trap 4: Impairment Allocation (IAS 36)</h2>
+      <ul>
+        <li>Comparing carrying amount with fair value less costs of disposal alone, instead of with the recoverable amount, which is the higher of that and value in use.</li>
+        <li>In a cash-generating unit, spreading the loss across all assets instead of allocating it first to any specifically impaired asset, then to goodwill, then pro rata to the other assets.</li>
+        <li>Writing an asset down below its own recoverable amount when allocating pro rata.</li>
+      </ul>
+
+      <h2>Trap 5: Financial Instruments (IFRS 9)</h2>
+      <ul>
+        <li>Using the coupon rate instead of the effective interest rate for the finance cost on an amortised cost liability or asset.</li>
+        <li>Forgetting to deduct issue costs from the initial amount of a financial liability, which changes every later figure.</li>
+        <li>For convertible bonds, not splitting the proceeds into a liability component (present value of the cash flows at the rate for similar debt without conversion rights) and an equity component.</li>
+      </ul>
+
+      <h2>Trap 6: Tax and Deferred Tax (IAS 12)</h2>
+      <ul>
+        <li>Charging the closing deferred tax balance to profit or loss instead of the movement in the balance.</li>
+        <li>Ignoring an over- or under-provision from the prior year in the current tax charge.</li>
+        <li>Taking deferred tax on a revaluation surplus to profit or loss rather than to other comprehensive income.</li>
+      </ul>
+
+      <h2>Trap 7: Earnings per Share (IAS 33)</h2>
+      <ul>
+        <li>Time-weighting a bonus issue. A bonus issue is treated as if it happened at the start of the earliest period presented, so it is not time-weighted.</li>
+        <li>For a rights issue, forgetting the bonus element and the bonus fraction based on the theoretical ex-rights price, applied to the shares in issue before the rights issue.</li>
+        <li>Using profit before preference dividends on irredeemable preference shares classified as equity.</li>
+      </ul>
+
+      <h2>Trap 8: Group Accounts</h2>
+      <ul>
+        <li><strong>Unrealised profit:</strong> using the mark-up when the question gives a margin, or the reverse. Also adjusting the wrong company's profits: when the subsidiary sells to the parent, the adjustment affects the subsidiary's retained earnings and therefore the non-controlling interest.</li>
+        <li><strong>Fair value adjustments:</strong> forgetting the extra depreciation on a fair value uplift for plant, which reduces post-acquisition profits.</li>
+        <li><strong>Non-controlling interest:</strong> mixing up the fair value method and the proportionate share method, or applying goodwill impairment to NCI under the proportionate method.</li>
+        <li><strong>Associates:</strong> consolidating an associate line by line instead of using equity accounting, or eliminating the whole intra-group profit rather than the investor's share.</li>
+        <li><strong>Mid-year acquisitions:</strong> including a full year of the subsidiary's income and expenses instead of time-apportioning from the acquisition date.</li>
+      </ul>
+
+      <h2>Trap 9: The Small Words</h2>
+      <p>"Which of the following would NOT", "the amount charged to profit or loss" versus "the carrying amount", "at 31 December 20X5" versus "for the year". In FR, many marks are lost by calculating the right thing for the wrong date or the wrong statement.</p>
+
+      <h2>How to Train Against the Traps</h2>
+      <ul>
+        <li><strong>Keep an error log by standard.</strong> Every time you choose a wrong option, write which trap it was. After a few weeks, your log will show your own patterns, and those are the ones to fix.</li>
+        <li><strong>Do the working before looking at the options.</strong> It takes discipline in the exam but saves you from distractors.</li>
+        <li><strong>Practise by topic, then mixed.</strong> Our free <a href="/acca/acca-fr/mcqs">ACCA FR question bank</a> covers revenue, leases, financial instruments, tax, EPS and group accounts. Work through it chapter by chapter, then switch to mixed sets.</li>
+        <li><strong>Keep earlier standards alive.</strong> The <a href="/daily/acca">ACCA daily challenge</a> gives you 10 questions a day, enough to keep revenue and leases fresh while you study groups.</li>
+        <li><strong>Time yourself.</strong> Section A gives you about 54 minutes for 15 questions. <a href="/pro">Pro</a> adds unlimited timed simulators for full practice.</li>
+      </ul>
+      <p>Coming to FR from FA? Our <a href="/blog/acca-fa-exam-tips">ACCA FA exam tips</a> recap the consolidation basics that FR builds on.</p>
+
+      <h2>FAQs</h2>
+      <p><strong>How many marks are OT questions in ACCA FR?</strong><br/>60: 30 marks in Section A and 30 marks in Section B.</p>
+      <p><strong>Which FR topics have the most traps?</strong><br/>Group accounts, leases, financial instruments and EPS have many calculation steps where a single wrong choice leads to a distractor. Build a step-by-step method for each one.</p>
+      <p><strong>Is there negative marking in ACCA FR?</strong><br/>No. Answer every question.</p>
+      <p><strong>Where can I practise FR objective test questions for free?</strong><br/>Use our <a href="/acca/acca-fr/mcqs">ACCA FR MCQ bank</a>.</p>
+    `
+  },
+  {
+    slug: "icap-caf-exam-time-management-mcqs",
+    title: "ICAP CAF Exam Strategy: Managing Time in MCQ-Heavy Papers",
+    excerpt: "Most CAF students fail on the clock before they fail on knowledge. A practical system for budgeting minutes per mark, handling objective questions quickly, and protecting time for the long questions.",
+    tag: "Exam Strategy",
+    date: "October 3, 2026",
+    readTime: "7 min read",
+    content: `
+      <p>Ask CAF students why they missed a pass by a few marks, and a common answer is "I didn't finish." The last question was half-done, or a 10-mark part was never started. Knowledge was not the problem; time was. This guide is about the clock: how to plan your minutes, how to move fast on short objective questions without becoming careless, and how to protect time for the questions that carry the most marks.</p>
+      <p>A note on format first. The mix of question types in a CAF paper varies from paper to paper under ICAP's Education and Training Scheme 2025. Some papers lean on short, objective-style questions and short calculations, others on long scenario questions. ICAP sets out the format for each paper in its syllabus documents, sample papers and past papers on icap.org.pk. Check the paper you are sitting, including its duration and total marks, and apply the method below to that format. The principles are the same either way.</p>
+
+      <h2>Step 1: Work Out Your Minutes per Mark</h2>
+      <p>Divide the exam time by the total marks. For example, a 3-hour paper with 100 marks gives you 1.8 minutes per mark. If your paper has reading time or a different duration, adjust the number. Then convert every question into a time limit:</p>
+      <ul>
+        <li>A 2-mark objective question: about 3.5 minutes.</li>
+        <li>A 10-mark question: 18 minutes.</li>
+        <li>A 20-mark question: 36 minutes.</li>
+      </ul>
+      <p>Write these limits next to each question on your paper as soon as the exam begins, alongside the actual clock time at which you should move on. It takes one minute and saves you from the drift that ruins most papers.</p>
+
+      <h2>Step 2: Bank the Short Questions Without Rushing Them</h2>
+      <p>Objective and short questions feel like they should take less time than their marks suggest, and many do. A definition-based question might take 40 seconds. That time is a bonus you carry forward to the long questions. But the bonus disappears if you misread a question because you were rushing. Two rules help:</p>
+      <ul>
+        <li><strong>Read the requirement first, then the data.</strong> Know whether you need a total or a per-unit figure, the amount for the year or the closing balance, before you start calculating.</li>
+        <li><strong>Calculate before you look at the options.</strong> Distractors are built from common mistakes, so an option that matches a half-finished working proves nothing.</li>
+      </ul>
+
+      <h2>Step 3: The Two-Pass Method</h2>
+      <p>On the first pass through any set of short questions, answer everything you can do confidently and quickly. For anything that will take much longer than its time limit, mark it and move on. On the second pass, return to the marked questions with the time you have saved. This stops one awkward question from costing you three easy ones.</p>
+      <p>Never leave an objective question blank unless the paper's instructions say wrong answers are penalised. Check the instructions on your paper; if there is no penalty, a reasoned guess is free marks.</p>
+
+      <h2>Step 4: Protect the Long Questions</h2>
+      <p>In most papers, the longest questions are where the biggest marks are, and they are the ones squeezed when time runs out. A few habits keep them safe:</p>
+      <ul>
+        <li><strong>Start every long question,</strong> even if you cannot finish it. The first marks in any question are usually the easiest. A half-answer to every question scores more than a perfect answer to some and nothing on others.</li>
+        <li><strong>Lay out workings clearly.</strong> Markers give method marks for workings they can follow, even if a figure is wrong. A neat working is a time investment that pays back.</li>
+        <li><strong>Move on at the limit.</strong> When the time for a question is up, write a one-line conclusion and move on. You can return if time is left.</li>
+      </ul>
+
+      <h2>Step 5: Choose Your Question Order</h2>
+      <p>Some students start with the short questions to build confidence and bank marks. Others start with the topic they are strongest in. Both work if you stick to your time limits. What does not work is starting with your weakest, longest question while you are nervous. Decide your order before the exam, based on what worked in your mocks, so you are not deciding under pressure.</p>
+
+      <h2>How to Train for Speed</h2>
+      <p>Speed in the exam comes from practice that copies exam conditions, not from reading faster.</p>
+      <ul>
+        <li><strong>Timed MCQ sets.</strong> Do sets of 10 to 20 objective questions with a timer set to your minutes-per-mark budget. If you finish early with high accuracy, you are building the time bank you will need. Our free banks cover every CAF paper: <a href="/caf/caf-1/mcqs">CAF-1</a>, <a href="/caf/caf-2/mcqs">CAF-2</a>, <a href="/caf/caf-3/mcqs">CAF-3</a>, <a href="/caf/caf-4/mcqs">CAF-4</a>, <a href="/caf/caf-5/mcqs">CAF-5</a>, <a href="/caf/caf-6/mcqs">CAF-6</a>, <a href="/caf/caf-7/mcqs">CAF-7</a> and <a href="/caf/caf-8/mcqs">CAF-8</a>.</li>
+        <li><strong>Daily short practice.</strong> The <a href="/daily">daily challenge</a> gives you 10 questions a day. Use it as a warm-up before longer study sessions.</li>
+        <li><strong>Full past papers under exam conditions.</strong> ICAP publishes past papers and suggested answers. Sit at least three full papers, timed, before the exam. After each, note where you lost time as well as where you lost marks.</li>
+        <li><strong>Unlimited timed mocks.</strong> If you want more full-length timed practice, <a href="/pro">Pro</a> adds unlimited exam simulators.</li>
+      </ul>
+
+      <h2>A Simple Post-Mock Review</h2>
+      <p>After every mock, fill in three columns for each question: time allowed, time taken, and marks scored. You will see patterns quickly. Perhaps you always overrun on a specific topic, or you spend too long checking short questions you got right. Fix the biggest pattern first.</p>
+
+      <h2>Common Time Traps in CAF</h2>
+      <ul>
+        <li>Rewriting the question data instead of working straight from it.</li>
+        <li>Spending ten minutes on a 2-mark question because you "almost" have it.</li>
+        <li>Writing long theory answers when the requirement asks for a short explanation.</li>
+        <li>Leaving the final question until there are only five minutes left.</li>
+      </ul>
+      <p>For more on how CAF differs from PRC, read <a href="/blog/prc-to-caf-transition-strategy">the PRC to CAF jump</a>. For the rules on passing marks, groups and sittings, see <a href="/blog/icap-passing-marks-exam-rules-2026">ICAP passing marks and exam rules</a>. If you are preparing CAF-5, our <a href="/blog/caf-5-management-accounting-tips">CAF-5 guide</a> has a full study plan.</p>
+
+      <h2>FAQs</h2>
+      <p><strong>How much time should I spend per mark in CAF?</strong><br/>Divide the exam duration by the total marks. For a 3-hour, 100-mark paper, that is 1.8 minutes per mark. Check your paper's duration on ICAP's documents.</p>
+      <p><strong>Should I do the short questions first?</strong><br/>Many students do, because it banks marks and builds confidence. Test both orders in mocks and use the one that scores better for you.</p>
+      <p><strong>Does practising MCQs help with long questions?</strong><br/>Yes. MCQs test whether you can recognise the technique a scenario needs quickly, which is the first step of every long question too.</p>
+      <p><strong>Where can I practise CAF MCQs for free?</strong><br/>Use our CAF question banks, starting from the <a href="/practice">practice hub</a>.</p>
+    `
+  },
+  {
+    slug: "spaced-repetition-daily-practice-accountancy-exams",
+    title: "How to Use Daily Practice and Spaced Repetition to Pass Accountancy Exams",
+    excerpt: "Why cramming fails in professional exams, how spacing and self-testing work, and a simple daily routine you can use for ACCA, CA, CIMA, ICAEW or CMA.",
+    tag: "Study Guide",
+    date: "October 3, 2026",
+    readTime: "7 min read",
+    content: `
+      <p>Every accountancy student knows the feeling. You studied a chapter thoroughly in week two, and by week eight it has almost disappeared. That is not a personal failing. It is how memory works, and it is the main reason students who "covered the whole syllabus" still fail. The good news is that two well-researched learning techniques, spaced repetition and retrieval practice, deal with this problem directly, and they fit easily into a busy study schedule. This guide explains how they work and how to build them into your preparation for any accountancy exam.</p>
+
+      <h2>Why You Forget What You Studied</h2>
+      <p>In the 1880s the psychologist Hermann Ebbinghaus measured how quickly he forgot material he had learned, and found that memory fades fast at first and then more slowly, a pattern now called the forgetting curve. Later research has confirmed the broad pattern many times. The practical point is simple: if you learn something once and never return to it, most of it will be gone within weeks.</p>
+      <p>The same research points to the fix. Each time you successfully recall something, it fades more slowly afterwards. So the goal is not to study a topic once, thoroughly. It is to come back to it several times, at increasing intervals, and actually recall it each time.</p>
+
+      <h2>The Two Techniques</h2>
+      <h3>Retrieval practice: testing yourself</h3>
+      <p>Retrieval practice means pulling information out of your memory, for example by answering questions, rather than putting it in again by rereading. Studies in educational psychology have repeatedly found that testing yourself leads to better long-term retention than spending the same time rereading. It also feels harder, which is why students avoid it. That feeling of effort is part of what makes it work.</p>
+      <p>For accountancy exams, this is good news, because the natural form of retrieval practice is the one you need anyway: answering exam-style questions.</p>
+      <h3>Spaced repetition: returning at intervals</h3>
+      <p>Spaced repetition means reviewing material at increasing intervals instead of all at once. Research on the spacing effect has found that the same total study time produces better long-term memory when it is spread out than when it is crammed together. Cramming can work for a test tomorrow. It works poorly for an exam months away, and very poorly for a qualification where later papers assume you remember earlier ones.</p>
+
+      <h2>A Simple Schedule That Works</h2>
+      <p>You do not need complicated software. A workable pattern for each topic is:</p>
+      <ul>
+        <li><strong>Day 0:</strong> study the topic, then answer 10 to 20 questions on it straight away.</li>
+        <li><strong>Day 1 or 2:</strong> a short set of questions on it again, without rereading first.</li>
+        <li><strong>About a week later:</strong> another short set, mixed with other topics.</li>
+        <li><strong>About a month later:</strong> another set, in a mixed test.</li>
+      </ul>
+      <p>If you get most of the questions right, stretch the next gap. If you struggle, shorten it and review the notes for that topic before the next set. The exact intervals matter less than the habit of coming back.</p>
+
+      <h2>Why Daily Practice Beats Weekend Marathons</h2>
+      <p>A daily routine is the easiest way to build spacing into your week without planning every review. Ten to twenty questions a day, drawn from topics you studied at different times, gives you spaced retrieval automatically. It also has practical benefits for working students:</p>
+      <ul>
+        <li><strong>It fits around work.</strong> A daily set takes 10 to 20 minutes. You can do it on a commute or before work.</li>
+        <li><strong>It shows you your weak spots early.</strong> A topic you keep getting wrong in daily sets is a topic to revisit now, not in the final week.</li>
+        <li><strong>It builds a habit.</strong> Consistency beats intensity. A student who practises every day for three months usually outperforms one who studies in occasional long bursts.</li>
+      </ul>
+      <p>Our <a href="/daily">daily challenge</a> was built for exactly this: 10 questions a day, the same for everyone, with a streak to keep you going. There are versions for each exam body we cover, including <a href="/daily/acca">ACCA</a>, <a href="/daily/icai">ICAI</a>, <a href="/daily/cima">CIMA</a>, <a href="/daily/icaew">ICAEW</a> and <a href="/daily/ima">US CMA</a>.</p>
+
+      <h2>Mixing Topics: Interleaving</h2>
+      <p>A related technique is interleaving: mixing different topics in one practice session instead of doing all questions on one topic together. Research suggests it helps learners tell similar problems apart, which is exactly what exams demand. In an exam, questions do not arrive labelled with the chapter they come from. You have to recognise that a question is about relevant costing rather than marginal costing, or about IAS 37 rather than IAS 10.</p>
+      <p>Use topic-by-topic practice when you first learn something, then move to mixed sets as soon as you have covered a few topics.</p>
+
+      <h2>Make Your Mistakes Work for You</h2>
+      <p>Spaced practice is most powerful when you learn from errors. Keep a simple error log with three columns: the topic, what you got wrong, and why. The "why" usually falls into one of three groups:</p>
+      <ul>
+        <li><strong>Did not know the rule.</strong> Go back to the notes and then test yourself again within two days.</li>
+        <li><strong>Misread the question.</strong> Practise reading the requirement first.</li>
+        <li><strong>Calculation slip.</strong> Slow down at the step where the slip happened, and do a few similar calculations.</li>
+      </ul>
+      <p>Review the log once a week. Topics that keep appearing are your priority list.</p>
+
+      <h2>Putting It Into a Study Plan</h2>
+      <p>A balanced week for a student working towards one exam might look like this:</p>
+      <ul>
+        <li><strong>Every day:</strong> one short mixed set (the daily challenge or 10 to 20 questions from a question bank).</li>
+        <li><strong>Four or five days a week:</strong> study a new topic, then do a topic set straight after.</li>
+        <li><strong>Once a week:</strong> a longer mixed test across all the topics so far, plus a review of your error log.</li>
+        <li><strong>Final weeks:</strong> full timed mocks, with the daily set continuing as a warm-up.</li>
+      </ul>
+      <p>For question banks to drive this routine, start with the <a href="/practice">practice hub</a>, or go straight to a paper: for example <a href="/acca/acca-fr/mcqs">ACCA FR</a>, <a href="/caf/caf-1/mcqs">ICAP CAF-1</a>, <a href="/ca-inter/ca-inter-aa/mcqs">CA Inter Advanced Accounting</a>, <a href="/cima/cima-ba2/mcqs">CIMA BA2</a>, <a href="/icaew/icaew-acc/mcqs">ICAEW Accounting Fundamentals</a> or <a href="/cma/cma-p1/mcqs">US CMA Part 1</a>. When you are ready for full exam simulations without limits, <a href="/pro">Pro</a> adds unlimited timed tests.</p>
+
+      <h2>Common Mistakes</h2>
+      <ul>
+        <li><strong>Rereading instead of testing.</strong> It feels productive but builds far less lasting memory.</li>
+        <li><strong>Only practising the current chapter.</strong> Without returning to earlier topics, they fade before the exam.</li>
+        <li><strong>Skipping days, then cramming.</strong> A short daily set is worth more than an occasional long session.</li>
+        <li><strong>Ignoring wrong answers.</strong> The error log is where most of the improvement comes from.</li>
+      </ul>
+
+      <h2>FAQs</h2>
+      <p><strong>What is spaced repetition?</strong><br/>Reviewing material at increasing intervals over time, instead of all at once, so it stays in long-term memory.</p>
+      <p><strong>How many practice questions should I do a day?</strong><br/>Ten to twenty mixed questions a day is a good base for most students, alongside your main study. Increase it in the final weeks.</p>
+      <p><strong>Does spaced repetition work for calculation-heavy papers?</strong><br/>Yes. Revisiting calculation questions at intervals keeps both the method and the speed fresh.</p>
+      <p><strong>Is rereading notes a waste of time?</strong><br/>Not entirely, but it is much less effective than testing yourself. Use notes to fix what your practice shows you got wrong.</p>
+    `
   }
 ];
