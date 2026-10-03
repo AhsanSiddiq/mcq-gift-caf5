@@ -204,10 +204,10 @@
       "options": {
         "A": "Only when cash is received or paid",
         "B": "Only when an invoice has been settled in full",
-        "C": "When the directors decide that recognition is prudent",
-        "D": "In the periods in which they occur, even if the related cash is received or paid in a different period"
+        "C": "In the periods in which they occur, even if the related cash is received or paid in a different period",
+        "D": "When the directors decide that recognition is prudent"
       },
-      "correct": "D",
+      "correct": "C",
       "explanation": "Accrual accounting records the effects of transactions and other events in the periods in which they occur, not when the cash is received or paid. This is why accruals, prepayments, receivables and payables are recognised at the period end.",
       "difficulty": "easy"
     },
@@ -217,12 +217,12 @@
       "topic": "Accounting concepts and qualitative characteristics",
       "question_text": "Under the IASB Conceptual Framework, when is information considered material?",
       "options": {
-        "A": "When its value exceeds 5% of profit before tax",
-        "B": "When the external auditor has requested that it be disclosed",
-        "C": "When it relates to a transaction with a value above a limit set in the IFRS Standards",
-        "D": "When omitting, misstating or obscuring it could reasonably be expected to influence the decisions of the primary users of the financial statements"
+        "A": "When omitting, misstating or obscuring it could reasonably be expected to influence the decisions of the primary users of the financial statements",
+        "B": "When its value exceeds 5% of profit before tax",
+        "C": "When the external auditor has requested that it be disclosed",
+        "D": "When it relates to a transaction with a value above a limit set in the IFRS Standards"
       },
-      "correct": "D",
+      "correct": "A",
       "explanation": "Information is material if omitting, misstating or obscuring it could reasonably be expected to influence decisions made by the primary users. Materiality depends on the nature and size of the item in the context of the entity. The IFRS Standards set no fixed percentage or monetary limit; a percentage such as 5% is only a practical rule of thumb.",
       "difficulty": "medium"
     },
@@ -234,10 +234,10 @@
       "options": {
         "A": "Going concern concept",
         "B": "Materiality concept",
-        "C": "Business entity concept",
-        "D": "Accruals concept"
+        "C": "Accruals concept",
+        "D": "Business entity concept"
       },
-      "correct": "C",
+      "correct": "D",
       "explanation": "The business entity concept treats the business as separate from its owner. Goods taken for personal use are not a cost of earning business income, so they are recorded as drawings, which reduce the owner's capital.",
       "difficulty": "easy"
     },
@@ -247,12 +247,12 @@
       "topic": "Accounting concepts and qualitative characteristics",
       "question_text": "Which of the following is NOT one of the components of faithful representation described in the IASB Conceptual Framework?",
       "options": {
-        "A": "Comparable",
-        "B": "Complete",
-        "C": "Neutral",
+        "A": "Complete",
+        "B": "Neutral",
+        "C": "Comparable",
         "D": "Free from error"
       },
-      "correct": "A",
+      "correct": "C",
       "explanation": "A perfectly faithful representation would be complete, neutral and free from error. Comparability is a separate enhancing qualitative characteristic, not a component of faithful representation.",
       "difficulty": "medium"
     },
@@ -322,12 +322,12 @@
       "topic": "Double entry bookkeeping and the accounting equation",
       "question_text": "The owner of a business takes goods costing $600 from inventory for personal use. What is the double entry?",
       "options": {
-        "A": "Debit Purchases $600, Credit Drawings $600",
-        "B": "Debit Drawings $600, Credit Sales $600",
-        "C": "Debit Drawings $600, Credit Purchases $600",
+        "A": "Debit Drawings $600, Credit Purchases $600",
+        "B": "Debit Purchases $600, Credit Drawings $600",
+        "C": "Debit Drawings $600, Credit Sales $600",
         "D": "Debit Capital $600, Credit Bank $600"
       },
-      "correct": "C",
+      "correct": "A",
       "explanation": "Goods taken for personal use reduce the owner's interest in the business, so drawings is debited. The goods are no longer available for resale, so the cost is removed from purchases with a credit. No sale has taken place and no cash is involved.",
       "difficulty": "medium"
     },
@@ -367,12 +367,12 @@
       "topic": "Double entry bookkeeping and the accounting equation",
       "question_text": "Which of the following accounts would normally have a credit balance?",
       "options": {
-        "A": "Trade payables",
-        "B": "Drawings",
-        "C": "Inventory",
-        "D": "Carriage inwards"
+        "A": "Drawings",
+        "B": "Inventory",
+        "C": "Carriage inwards",
+        "D": "Trade payables"
       },
-      "correct": "A",
+      "correct": "D",
       "explanation": "Trade payables are a liability and so normally have a credit balance. Drawings, inventory (an asset) and carriage inwards (an expense) normally have debit balances.",
       "difficulty": "easy"
     },
@@ -384,10 +384,10 @@
       "options": {
         "A": "Assets increase and capital increases",
         "B": "Assets increase and assets decrease by the same amount",
-        "C": "Liabilities increase and capital decreases",
-        "D": "Assets increase and liabilities increase"
+        "C": "Assets increase and liabilities increase",
+        "D": "Liabilities increase and capital decreases"
       },
-      "correct": "D",
+      "correct": "C",
       "explanation": "The machine is a new asset and the amount owed to the supplier is a new liability, so both sides of the equation increase by the same amount. Capital is unaffected because no income or expense arises.",
       "difficulty": "medium"
     },
@@ -412,12 +412,12 @@
       "topic": "Double entry bookkeeping and the accounting equation",
       "question_text": "How are carriage inwards and carriage outwards treated in the statement of profit or loss?",
       "options": {
-        "A": "Carriage inwards is included in cost of sales; carriage outwards is a distribution expense",
-        "B": "Carriage inwards is a distribution expense; carriage outwards is included in cost of sales",
-        "C": "Both are included in cost of sales",
-        "D": "Both are deducted from revenue"
+        "A": "Carriage inwards is a distribution expense; carriage outwards is included in cost of sales",
+        "B": "Both are included in cost of sales",
+        "C": "Both are deducted from revenue",
+        "D": "Carriage inwards is included in cost of sales; carriage outwards is a distribution expense"
       },
-      "correct": "A",
+      "correct": "D",
       "explanation": "Carriage inwards is the cost of bringing purchased goods into the business, so it forms part of cost of sales. Carriage outwards is the cost of delivering goods to customers, so it is a selling and distribution expense.",
       "difficulty": "medium"
     },
@@ -427,12 +427,12 @@
       "topic": "Books of prime entry and sales tax",
       "question_text": "In which book of prime entry are invoices issued to credit customers first recorded?",
       "options": {
-        "A": "Purchase day book",
-        "B": "Cash book",
-        "C": "Sales day book",
+        "A": "Sales day book",
+        "B": "Purchase day book",
+        "C": "Cash book",
         "D": "The journal"
       },
-      "correct": "C",
+      "correct": "A",
       "explanation": "The sales day book lists the invoices sent to credit customers. Its totals are posted to the receivables ledger control account, sales and sales tax, and the individual invoices are posted to the customers' accounts in the receivables ledger.",
       "difficulty": "easy"
     },
@@ -457,12 +457,12 @@
       "topic": "Books of prime entry and sales tax",
       "question_text": "Which of the following would normally be recorded first in the journal?",
       "options": {
-        "A": "A cheque received from a credit customer",
-        "B": "A credit sales invoice",
-        "C": "The annual depreciation charge on non-current assets",
+        "A": "The annual depreciation charge on non-current assets",
+        "B": "A cheque received from a credit customer",
+        "C": "A credit sales invoice",
         "D": "A payment of petty cash expenses"
       },
-      "correct": "C",
+      "correct": "A",
       "explanation": "The journal records non-routine items and adjustments, such as depreciation, error corrections and irrecoverable debt write-offs. Cash received is recorded in the cash book, invoices in the sales day book and petty cash payments in the petty cash book.",
       "difficulty": "easy"
     },
@@ -509,7 +509,7 @@
       },
       "correct": "C",
       "explanation": "Output tax = 20% x $186,000 = $37,200. Input tax on a tax-inclusive amount = $104,400 x 20/120 = $17,400. Tax payable = $37,200 - $17,400 = $19,800.",
-      "difficulty": "medium"
+      "difficulty": "hard"
     },
     {
       "id": "cima-ba3-c04-q007",
@@ -518,11 +518,11 @@
       "question_text": "A business is unable to recover the sales tax charged on its purchase of a car for a sales representative. How should the irrecoverable sales tax be treated?",
       "options": {
         "A": "It is debited to the sales tax account as a receivable from the tax authority",
-        "B": "It is included in the cost of the car and capitalised",
-        "C": "It is deducted from the output tax on sales",
+        "B": "It is deducted from the output tax on sales",
+        "C": "It is included in the cost of the car and capitalised",
         "D": "It is credited to profit or loss as other income"
       },
-      "correct": "B",
+      "correct": "C",
       "explanation": "Sales tax that cannot be reclaimed is a real cost to the business, so it is included in the cost of the asset or expense it relates to. Here it is capitalised as part of the cost of the car and depreciated with it.",
       "difficulty": "medium"
     },
@@ -569,7 +569,7 @@
       },
       "correct": "B",
       "explanation": "Trade discount is deducted before anything is recorded: $8,000 x 85% = $6,800. Sales tax is calculated on the discounted price: $6,800 x 20% = $1,360. Invoice total = $6,800 + $1,360 = $8,160.",
-      "difficulty": "medium"
+      "difficulty": "hard"
     },
     {
       "id": "cima-ba3-c05-q001",
@@ -653,11 +653,11 @@
       "question_text": "A business both buys from and sells to another company. It agrees to set off the amount owed to it by that company against the amount it owes to that company. What is the entry in the control accounts?",
       "options": {
         "A": "Debit Receivables ledger control, Credit Payables ledger control",
-        "B": "Debit Payables ledger control, Credit Receivables ledger control",
-        "C": "Debit Payables ledger control, Credit Bank",
+        "B": "Debit Payables ledger control, Credit Bank",
+        "C": "Debit Payables ledger control, Credit Receivables ledger control",
         "D": "Debit Bank, Credit Receivables ledger control"
       },
-      "correct": "B",
+      "correct": "C",
       "explanation": "A contra reduces both the amount owed to the supplier (debit payables) and the amount owed by the customer (credit receivables) by the amount set off. No cash changes hands.",
       "difficulty": "medium"
     },
@@ -674,7 +674,7 @@
       },
       "correct": "A",
       "explanation": "The control account takes the correct day book total, but the supplier's individual account is understated by $900, so the two totals disagree. An omitted invoice or one recorded at the wrong amount in the day book affects both records equally. Posting to the wrong supplier leaves the total of the list unchanged.",
-      "difficulty": "medium"
+      "difficulty": "hard"
     },
     {
       "id": "cima-ba3-c05-q008",
@@ -689,7 +689,7 @@
       },
       "correct": "B",
       "explanation": "A customer account normally has a debit balance. A credit balance means the business owes the customer money, typically because of an overpayment or a credit note issued after payment. A credit sale increases the debit balance, and a write-off reduces it to nil.",
-      "difficulty": "easy"
+      "difficulty": "medium"
     },
     {
       "id": "cima-ba3-c05-q009",
@@ -824,7 +824,7 @@
       },
       "correct": "C",
       "explanation": "The statement of financial position shows the corrected cash book balance, because it records all the business's transactions up to the reporting date. The bank statement balance is distorted by timing differences such as unpresented cheques and outstanding lodgements.",
-      "difficulty": "easy"
+      "difficulty": "medium"
     },
     {
       "id": "cima-ba3-c06-q008",
@@ -923,13 +923,13 @@
       "question_text": "A trial balance has debit totals of $214,300 and credit totals of $216,110. A suspense account is opened to make it balance. What is the balance on the suspense account?",
       "options": {
         "A": "$1,810 credit",
-        "B": "$430,410 debit",
+        "B": "$905 debit",
         "C": "$3,620 debit",
         "D": "$1,810 debit"
       },
       "correct": "D",
       "explanation": "The credit side exceeds the debit side by $216,110 - $214,300 = $1,810. A debit balance of $1,810 is needed in the suspense account to make the totals agree.",
-      "difficulty": "easy"
+      "difficulty": "medium"
     },
     {
       "id": "cima-ba3-c07-q005",
@@ -989,7 +989,7 @@
       },
       "correct": "D",
       "explanation": "The wrong amount was entered in the book of prime entry, so both the debit and the credit are posted at $3,890. This is an error of original entry and does not cause a trial balance difference, even though digits were transposed.",
-      "difficulty": "easy"
+      "difficulty": "medium"
     },
     {
       "id": "cima-ba3-c07-q009",
@@ -1184,7 +1184,7 @@
       },
       "correct": "C",
       "explanation": "January to March: $12,000 x 3/12 = $3,000. April to December: $15,000 x 9/12 = $11,250. Total expense = $3,000 + $11,250 = $14,250. Because rent is paid in advance at the start of each quarter, there is no accrual or prepayment at the year end.",
-      "difficulty": "medium"
+      "difficulty": "hard"
     },
     {
       "id": "cima-ba3-c09-q002",
@@ -1514,7 +1514,7 @@
       },
       "correct": "A",
       "explanation": "Cash available = opening $400 + takings $62,000 = $62,400. Less bankings $48,500, wages $8,200 and closing cash $600. Drawings = $62,400 - $48,500 - $8,200 - $600 = $5,100.",
-      "difficulty": "medium"
+      "difficulty": "hard"
     },
     {
       "id": "cima-ba3-c11-q004",
@@ -1694,7 +1694,7 @@
       },
       "correct": "D",
       "explanation": "Opening $140,000 + additions - depreciation $22,000 - disposals $9,000 = closing $178,000. Additions = $178,000 - $140,000 + $22,000 + $9,000 = $69,000.",
-      "difficulty": "medium"
+      "difficulty": "hard"
     },
     {
       "id": "cima-ba3-c12-q004",
@@ -1792,12 +1792,12 @@
       "topic": "Statement of cash flows (IAS 7)",
       "question_text": "A company's statement of cash flows shows net cash from operating activities of $42,000, net cash used in investing activities of $31,500 and net cash used in financing activities of $6,800. Cash and cash equivalents at the start of the year were $3,200. What were cash and cash equivalents at the end of the year?",
       "options": {
-        "A": "-$500",
-        "B": "$3,700",
-        "C": "$6,900",
+        "A": "$3,700",
+        "B": "$6,900",
+        "C": "$45,200",
         "D": "$83,500"
       },
-      "correct": "C",
+      "correct": "B",
       "explanation": "Net increase in cash = $42,000 - $31,500 - $6,800 = $3,700. Closing cash = $3,200 + $3,700 = $6,900.",
       "difficulty": "easy"
     },
@@ -1867,12 +1867,12 @@
       "topic": "Analysis of financial statements",
       "question_text": "A company has profit before interest and tax of $46,800, equity of $210,000 and non-current liabilities (long-term loans) of $50,000. What is its return on capital employed?",
       "options": {
-        "A": "18%",
-        "B": "22.3%",
-        "C": "29.2%",
-        "D": "93.6%"
+        "A": "5.6%",
+        "B": "18%",
+        "C": "22.3%",
+        "D": "29.2%"
       },
-      "correct": "A",
+      "correct": "B",
       "explanation": "Capital employed = equity + non-current liabilities = $210,000 + $50,000 = $260,000. ROCE = profit before interest and tax / capital employed = $46,800 / $260,000 x 100 = 18%.",
       "difficulty": "medium"
     },

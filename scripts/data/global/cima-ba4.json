@@ -410,7 +410,7 @@
       "id": "cima-ba4-c03-q008",
       "chapter": 3,
       "topic": "Threats to the fundamental principles and safeguards",
-      "question_text": "Which of the following is an example of a safeguard created by the profession, legislation or regulation?",
+      "question_text": "The CIMA Code of Ethics recognises that conditions, policies and procedures that help a member comply with the fundamental principles may be established either by the profession, legislation or regulation, or by the member's employing organisation. Which of the following is established by the profession, legislation or regulation rather than by the employing organisation?",
       "options": {
         "A": "The employer's own whistleblowing hotline",
         "B": "A company's internal policy on accepting gifts",
@@ -418,7 +418,7 @@
         "D": "Mandatory continuing professional development requirements"
       },
       "correct": "D",
-      "explanation": "Safeguards created by the profession, legislation or regulation include education and training requirements, CPD, professional standards, monitoring and disciplinary procedures, and corporate governance regulation. Whistleblowing hotlines, gift policies and second reviews are safeguards in the work environment set up by the employer.",
+      "explanation": "Conditions, policies and procedures established by the profession, legislation or regulation include educational, training and experience requirements, continuing professional development (CPD) requirements, professional standards, professional or regulatory monitoring and disciplinary procedures, and corporate governance regulation. A whistleblowing hotline, a gifts policy and an internal second review are set up by the employer itself. Older editions of the Code grouped these as 'safeguards created by the profession, legislation or regulation' and 'safeguards in the work environment'; the current Code no longer uses those headings, but the distinction between the source of each measure still holds.",
       "difficulty": "medium"
     },
     {
@@ -433,7 +433,7 @@
         "D": "Accept the holiday and ask a colleague to sign the valuation instead, without telling anyone why"
       },
       "correct": "B",
-      "explanation": "A significant gift timed to coincide with a key judgement creates self-interest and intimidation threats to objectivity. Where safeguards cannot reduce the threat to an acceptable level, the member should decline the inducement. Disclosure alone does not remove the influence, and passing the work on secretly is not a transparent safeguard.",
+      "explanation": "A valuable gift timed to coincide with a key judgement creates a self-interest threat to objectivity, and the Code's guidance on inducements says that an offer made with the intent of improperly influencing behaviour should be declined. Where the threat cannot be eliminated or reduced to an acceptable level, the member should not accept. Disclosure alone does not remove the influence, gifts from an employer can create threats just like gifts from anyone else, and quietly passing the work to a colleague without explanation is not a transparent safeguard.",
       "difficulty": "hard"
     },
     {
@@ -523,7 +523,7 @@
         "D": "Fraudulent trading"
       },
       "correct": "B",
-      "explanation": "Tipping off is the offence of disclosing that a suspicious activity report has been made or that an investigation is under way, in a way likely to prejudice that investigation. Placement is a stage of laundering, and insider dealing and fraudulent trading are unrelated offences.",
+      "explanation": "Tipping off is the offence of disclosing that a suspicious activity report has been made, or that an investigation is under way or contemplated, where the disclosure is likely to prejudice an investigation (Proceeds of Crime Act 2002, s333A, which applies to the UK regulated sector, including accountants). Placement is a stage of laundering, and insider dealing and fraudulent trading are unrelated offences.",
       "difficulty": "medium"
     },
     {
@@ -568,7 +568,7 @@
         "D": "Workers who make a protected disclosure about specified wrongdoing are protected from dismissal and detriment for making it"
       },
       "correct": "D",
-      "explanation": "Under English law, the Public Interest Disclosure Act 1998 (inserted into the Employment Rights Act 1996) protects workers who make qualifying disclosures, for example about crimes, breaches of legal obligations or danger to health and safety. Dismissal for making a protected disclosure is automatically unfair. A reasonable belief is required, not proof, and disclosures to the employer or a prescribed regulator are favoured over the media.",
+      "explanation": "Under UK law (the Public Interest Disclosure Act 1998, which inserted Part IVA and related provisions into the Employment Rights Act 1996), workers who make a qualifying disclosure in the public interest, for example about crimes, breaches of legal obligations or danger to health and safety, are protected from detriment, and dismissal for making a protected disclosure is automatically unfair (ERA 1996, s103A) with no minimum service requirement. A reasonable belief is required, not proof, and disclosures to the employer or a prescribed regulator are protected more readily than disclosures to the media.",
       "difficulty": "medium"
     },
     {
@@ -712,7 +712,7 @@
       "topic": "Corporate governance: principles and approaches",
       "question_text": "Which of the following is NOT generally regarded as a stakeholder of a company?",
       "options": {
-        "A": "A competitor's shareholders in a different, unrelated industry",
+        "A": "The shareholders of an unrelated company in a different industry, which has no dealings with the company",
         "B": "Employees",
         "C": "Suppliers",
         "D": "The local community"
@@ -808,7 +808,7 @@
         "D": "He was an executive employee of the company until two years ago"
       },
       "correct": "D",
-      "explanation": "Governance codes treat recent employment by the company as a circumstance likely to impair independence, because the director may be too close to current management. Holding other unrelated roles, receiving a fixed fee and having industry experience do not of themselves impair independence.",
+      "explanation": "Governance codes treat recent employment by the company as a circumstance likely to impair independence, because the director may be too close to current management; the UK Corporate Governance Code, for example, refers to having been an employee of the company within the last five years. Holding other unrelated roles, receiving a fixed fee and having industry experience do not of themselves impair independence.",
       "difficulty": "medium"
     },
     {
@@ -1205,15 +1205,15 @@
       "id": "cima-ba4-c09-q001",
       "chapter": 9,
       "topic": "General principles of law: legal systems and sources of law",
-      "question_text": "Which of the following is a key feature of a civil law system, as found in much of continental Europe?",
+      "question_text": "Under English law, a business sues a supplier for failing to deliver goods as agreed in their contract. Which statement correctly describes this case?",
       "options": {
-        "A": "The law is largely set out in comprehensive written codes",
-        "B": "The law is developed mainly through judges' decisions in individual cases",
-        "C": "There is no written law of any kind",
-        "D": "Only religious texts are a source of law"
+        "A": "It is a civil case in which the claimant seeks a remedy, such as damages, for breach of contract",
+        "B": "It is a criminal case brought by the state to punish the supplier",
+        "C": "The supplier can only be held liable if the case is proved beyond reasonable doubt",
+        "D": "It must be prosecuted by the Crown Prosecution Service on the business's behalf"
       },
       "correct": "A",
-      "explanation": "Civil (codified) law systems rely primarily on comprehensive legal codes, with judges applying the code to the facts. Common law systems such as England's rely heavily on judicial precedent alongside legislation. Religious texts are central in Sharia-based systems.",
+      "explanation": "Breach of contract is a matter of civil law: the injured party (the claimant) brings the action against the defendant to obtain a remedy such as damages, not to have the defendant punished. Criminal cases are brought by the state, usually through the Crown Prosecution Service, and require proof beyond reasonable doubt. In a civil case the standard of proof is the balance of probabilities.",
       "difficulty": "easy"
     },
     {
@@ -1310,15 +1310,15 @@
       "id": "cima-ba4-c09-q008",
       "chapter": 9,
       "topic": "General principles of law: legal systems and sources of law",
-      "question_text": "Which of the following statements about Sharia law is correct?",
+      "question_text": "Under English law, which statement about the relationship between common law and equity is correct?",
       "options": {
-        "A": "It is a purely secular system with no religious basis",
-        "B": "Its primary sources are the Qur'an and the Sunnah (the practice of the Prophet)",
-        "C": "It is based mainly on the decisions of English courts",
-        "D": "It only governs criminal matters and has no application to commerce"
+        "A": "Where common law and equity conflict, common law prevails because it is the older system",
+        "B": "Where a rule of common law conflicts with a rule of equity, equity prevails",
+        "C": "Equity has been abolished, so equitable remedies are no longer available",
+        "D": "Equitable remedies are available as of right to any claimant who proves a breach of contract"
       },
       "correct": "B",
-      "explanation": "Sharia law derives principally from the Qur'an and the Sunnah, supplemented by sources such as ijma (consensus) and qiyas (analogical reasoning). It covers many areas of life, including commercial dealings, for example through the prohibition of riba (interest). It is religious, not secular, and is independent of English case law.",
+      "explanation": "Since the Judicature Acts 1873-75 the same courts administer both common law and equity, and where the two conflict, equity prevails. Equity has not been abolished: remedies such as specific performance, injunctions and rescission remain available. They are discretionary, unlike common law damages, which are available as of right once a breach of contract is proved.",
       "difficulty": "medium"
     },
     {
@@ -1340,15 +1340,15 @@
       "id": "cima-ba4-c09-q010",
       "chapter": 9,
       "topic": "General principles of law: legal systems and sources of law",
-      "question_text": "Under English law, which three elements must a claimant prove to succeed in the tort of negligence?",
+      "question_text": "Under English law, a seller fails to transfer a piece of land as agreed in a contract. The buyer waits two years, without good reason, before asking the court to order specific performance. What is the most likely outcome?",
       "options": {
-        "A": "An offer, an acceptance and consideration",
-        "B": "The defendant intended to cause harm, acted dishonestly and made a profit",
-        "C": "A written contract, a breach of contract and a court order",
-        "D": "A duty of care was owed, the duty was breached, and the breach caused damage that was not too remote"
+        "A": "The court must order specific performance, because the seller is clearly in breach",
+        "B": "The buyer has lost every remedy, because the limitation period for contract claims is two years",
+        "C": "The court will order specific performance only if the buyer also proves that the seller acted fraudulently",
+        "D": "The court may refuse specific performance, because equitable remedies are discretionary and delay defeats equity, but the buyer can still claim damages at common law"
       },
       "correct": "D",
-      "explanation": "Negligence requires a duty of care (Donoghue v Stevenson and the Caparo three-stage test), a breach of that duty by falling below the standard of the reasonable person, and resulting damage caused by the breach that is not too remote. Offer, acceptance and consideration are contract elements. Intent and dishonesty are not required for negligence.",
+      "explanation": "Specific performance is an equitable remedy, so it is discretionary and governed by the maxims of equity, including 'delay defeats equity': a claimant who delays unreasonably may be refused it, even for a contract for land where it would otherwise normally be granted. Damages for breach of contract are a common law remedy available as of right. The limitation period for a simple contract is six years under the Limitation Act 1980, not two, and fraud is not a requirement for specific performance.",
       "difficulty": "hard"
     },
     {
@@ -1535,7 +1535,7 @@
       "id": "cima-ba4-c11-q003",
       "chapter": 11,
       "topic": "Law of contract: terms, breach and remedies",
-      "question_text": "Which of the following is an equitable remedy?",
+      "question_text": "Under English law, which of the following is an equitable remedy?",
       "options": {
         "A": "Specific performance",
         "B": "Liquidated damages",
@@ -1618,7 +1618,7 @@
         "D": "The innocent party recovers the agreed sum plus any additional actual loss"
       },
       "correct": "A",
-      "explanation": "A liquidated damages clause is a genuine attempt, agreed in advance, to set damages for breach. If valid, the agreed sum is recoverable whether actual loss is greater or smaller. A clause imposing a detriment out of all proportion to any legitimate interest of the innocent party is an unenforceable penalty (Cavendish Square Holding v Makdessi).",
+      "explanation": "A liquidated damages clause fixes in advance the sum payable on breach. If valid, the agreed sum is recoverable whether actual loss turns out to be greater or smaller, and the innocent party need not prove its loss. Following Cavendish Square Holding v Makdessi (2015), a clause is an unenforceable penalty only if it imposes a detriment out of all proportion to any legitimate interest of the innocent party in performance; it no longer has to be a strict genuine pre-estimate of loss.",
       "difficulty": "medium"
     },
     {
@@ -1648,7 +1648,7 @@
         "D": "An innominate term; the charterer can claim damages but can only terminate if the breach deprives it of substantially the whole benefit of the contract"
       },
       "correct": "D",
-      "explanation": "Following Hong Kong Fir Shipping v Kawasaki, a term that can be broken in ways ranging from trivial to serious is innominate. The remedy depends on the seriousness of the consequences: termination is available only if the breach deprives the innocent party of substantially the whole benefit intended. A five-week delay in a 24-month charter did not do so, so damages only were available.",
+      "explanation": "Following Hong Kong Fir Shipping v Kawasaki Kisen Kaisha, a term that can be broken in ways ranging from trivial to serious is innominate. The remedy depends on the seriousness of the consequences: termination is available only if the breach deprives the innocent party of substantially the whole benefit intended, otherwise damages only. Losing five weeks of a 24-month charter is unlikely to meet that test, so the charterer would be limited to damages.",
       "difficulty": "hard"
     },
     {
@@ -1723,7 +1723,7 @@
         "D": "The employee's capability or qualifications"
       },
       "correct": "A",
-      "explanation": "The potentially fair reasons are capability or qualifications, conduct, redundancy, illegality (statutory restriction) and some other substantial reason. Dismissal because of trade union membership or activities is automatically unfair. Even with a fair reason, the employer must act reasonably and follow a fair procedure.",
+      "explanation": "Under section 98 of the Employment Rights Act 1996, the potentially fair reasons are capability or qualifications, conduct, redundancy, contravention of a statutory duty or restriction, and some other substantial reason. Dismissal because of trade union membership or activities is automatically unfair (Trade Union and Labour Relations (Consolidation) Act 1992, s152). Even with a fair reason, the employer must act reasonably and follow a fair procedure.",
       "difficulty": "medium"
     },
     {
@@ -1753,7 +1753,7 @@
         "D": "Any dismissal where the employee is paid in lieu of notice"
       },
       "correct": "A",
-      "explanation": "Redundancy arises where the employer has ceased, or intends to cease, carrying on the business or the business in the place where the employee was employed, or where the need for employees to carry out work of a particular kind has ceased or diminished. Performance and conduct are separate reasons for dismissal.",
+      "explanation": "Under section 139 of the Employment Rights Act 1996, redundancy arises where the employer has ceased, or intends to cease, carrying on the business or the business in the place where the employee was employed, or where the need for employees to carry out work of a particular kind has ceased or diminished. Performance and conduct are separate reasons for dismissal.",
       "difficulty": "medium"
     },
     {
@@ -1768,7 +1768,7 @@
         "D": "1 month"
       },
       "correct": "B",
-      "explanation": "Under the Employment Rights Act 1996, an employee with between one month and two years' service is entitled to one week's notice, and after two years one week for each complete year of service, up to a maximum of 12 weeks. For 7 complete years: 7 x 1 week = 7 weeks, which is below the 12-week cap. A longer contractual notice period would prevail.",
+      "explanation": "Under section 86 of the Employment Rights Act 1996, an employer must give an employee with between one month and two years' continuous service at least one week's notice, and after two years one week for each complete year of service, up to a maximum of 12 weeks. For 7 complete years: 7 x 1 week = 7 weeks, which is below the 12-week cap. A longer contractual notice period would prevail.",
       "difficulty": "medium"
     },
     {
@@ -1828,7 +1828,7 @@
         "D": "A written resolution of a public company"
       },
       "correct": "A",
-      "explanation": "Under the Companies Act 2006, a special resolution requires at least 75% of the votes cast, while an ordinary resolution needs a simple majority (more than 50%). Board resolutions are decisions of directors, and public companies cannot use the statutory written resolution procedure.",
+      "explanation": "Under section 283 of the Companies Act 2006, a special resolution requires a majority of not less than 75% (of the votes cast at a meeting, or of the total voting rights of eligible members for a private company's written resolution), while an ordinary resolution under section 282 needs a simple majority (more than 50%). Board resolutions are decisions of directors, and public companies cannot use the statutory written resolution procedure.",
       "difficulty": "easy"
     },
     {
@@ -1873,7 +1873,7 @@
         "D": "Only if the articles expressly permit removal"
       },
       "correct": "A",
-      "explanation": "Section 168 of the Companies Act 2006 allows members to remove a director by ordinary resolution at a meeting, notwithstanding anything in the articles or any agreement with the director. Special notice of the resolution must be given and the director has the right to be heard. A written resolution cannot be used for this purpose.",
+      "explanation": "Section 168 of the Companies Act 2006 allows members to remove a director by ordinary resolution at a meeting, notwithstanding anything in the articles or any agreement with the director. Special notice (at least 28 days' notice to the company under section 312) must be given, and the director has the right to be heard and to make written representations (section 169). A written resolution cannot be used for this purpose (section 288).",
       "difficulty": "medium"
     },
     {
@@ -1948,7 +1948,7 @@
         "D": "£230,000"
       },
       "correct": "B",
-      "explanation": "Under section 830 of the Companies Act 2006, distributions may only be made out of profits available, being accumulated realised profits less accumulated realised losses. £180,000 - £70,000 = £110,000. The unrealised revaluation gain of £50,000 cannot be distributed. (Public companies must also satisfy the net assets test in section 831.)",
+      "explanation": "Under section 830 of the Companies Act 2006, distributions may only be made out of profits available for the purpose: accumulated realised profits (not previously distributed or capitalised) less accumulated realised losses (not previously written off). £180,000 - £70,000 = £110,000. The unrealised revaluation gain of £50,000 cannot be distributed. (A public company must also satisfy the net assets test in section 831.)",
       "difficulty": "hard"
     }
   ]

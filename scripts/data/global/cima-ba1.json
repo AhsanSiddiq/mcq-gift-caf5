@@ -95,7 +95,7 @@
       "id": "cima-ba1-c01-q007",
       "chapter": 1,
       "topic": "National income and the macroeconomy",
-      "question_text": "In an open economy with a government sector, the marginal propensity to save is 0.1, the marginal rate of taxation is 0.25 and the marginal propensity to import is 0.15. Government spending rises by $60bn. What is the resulting increase in national income?",
+      "question_text": "In an open economy with a government sector, the marginal propensity to save is 0.1, the marginal rate of taxation is 0.25 and the marginal propensity to import is 0.15, each expressed as a proportion of national income. Government spending rises by $60bn. What is the resulting increase in national income?",
       "options": {
         "A": "$600bn",
         "B": "$240bn",
@@ -110,7 +110,7 @@
       "id": "cima-ba1-c01-q008",
       "chapter": 1,
       "topic": "National income and the macroeconomy",
-      "question_text": "Nominal GDP grows by 7% in a year while the GDP deflator rises by 3%. Calculated exactly, what is the growth in real GDP (to one decimal place)?",
+      "question_text": "Nominal GDP grows by 7% in a year while the GDP deflator rises by 3%. Using the exact method (dividing by the change in the deflator, not the approximation of subtracting the inflation rate from nominal growth), what is the growth in real GDP (to one decimal place)?",
       "options": {
         "A": "4.0%",
         "B": "10.2%",
@@ -410,7 +410,7 @@
       "id": "cima-ba1-c03-q008",
       "chapter": 3,
       "topic": "International trade, globalisation and exchange rates",
-      "question_text": "The spot exchange rate is H1 = $2.00, where H is the home currency. Annual inflation is expected to be 6% in the home country and 2% in the USA. Using purchasing power parity, what is the expected exchange rate in one year's time (to four decimal places)?",
+      "question_text": "The spot exchange rate is H1 = $2.00, where H is the home currency (one unit of H buys $2.00). Annual inflation is expected to be 6% in the home country and 2% in the USA. Using the exact purchasing power parity formula (not the approximation based on the inflation differential), what is the expected exchange rate in one year's time (to four decimal places)?",
       "options": {
         "A": "H1 = $2.0784",
         "B": "H1 = $1.9200",
@@ -418,7 +418,7 @@
         "D": "H1 = $2.0800"
       },
       "correct": "C",
-      "explanation": "Under PPP the currency with higher inflation depreciates. Expected rate = 2.00 x (1 + 0.02) / (1 + 0.06) = 2.00 x 1.02 / 1.06 = $1.9245 per H1. $1.9200 uses the approximate 4% differential and the other options apply the inflation rates the wrong way round.",
+      "explanation": "Under PPP the currency with higher inflation depreciates. Exact formula: expected rate = spot x (1 + US inflation) / (1 + home inflation) = 2.00 x 1.02 / 1.06 = $1.9245 per H1 (rounded to four decimal places). $1.9200 uses the approximate 4% inflation differential, which the question excludes, and $2.0784 and $2.0800 apply the inflation rates the wrong way round (exactly and approximately respectively).",
       "difficulty": "hard"
     },
     {
@@ -835,10 +835,10 @@
         "A": "+0.5, a normal necessity",
         "B": "-2.0, an inferior good",
         "C": "-0.5, an inferior good",
-        "D": "+2.0, a luxury good"
+        "D": "-0.5, a normal good that is a necessity"
       },
       "correct": "C",
-      "explanation": "Income elasticity = % change in quantity demanded / % change in income = -2% / +4% = -0.5. A negative income elasticity indicates an inferior good.",
+      "explanation": "Income elasticity = % change in quantity demanded / % change in income = -2% / +4% = -0.5. A negative income elasticity indicates an inferior good. Ignoring the sign gives +0.5 and the wrong 'necessity' label, and classifying -0.5 as a necessity confuses the size of the value (below 1) with its sign; dividing income change by quantity change gives -2.0.",
       "difficulty": "medium"
     },
     {
@@ -1340,15 +1340,15 @@
       "id": "cima-ba1-c09-q011",
       "chapter": 9,
       "topic": "Summarising and analysing data",
-      "question_text": "A grouped frequency distribution of delivery times (minutes) is:\n0 to under 10: 8 deliveries\n10 to under 20: 14 deliveries\n20 to under 30: 18 deliveries\nUsing linear interpolation and n/2 to locate the median, what is the estimated median delivery time (to two decimal places)?",
+      "question_text": "The number of faulty items found in each of 30 batches inspected was:\n0 faulty items: 6 batches\n1 faulty item: 9 batches\n2 faulty items: 10 batches\n3 faulty items: 3 batches\n4 faulty items: 2 batches\nTreating the 30 batches as the whole population, what is the standard deviation of the number of faulty items per batch (to two decimal places)?",
       "options": {
-        "A": "18.57 minutes",
-        "B": "15.00 minutes",
-        "C": "14.29 minutes",
-        "D": "21.11 minutes"
+        "A": "1.12",
+        "B": "1.25",
+        "C": "1.90",
+        "D": "1.41"
       },
       "correct": "A",
-      "explanation": "Median position = 40 / 2 = 20th value. Cumulative frequencies are 8, 22 and 40, so the median lies in the 10 to under 20 class. Median = 10 + ((20 - 8) / 14) x 10 = 10 + 8.57 = 18.57 minutes (rounded to two decimal places).",
+      "explanation": "Sum of f = 30. Sum of fx = 0 + 9 + 20 + 9 + 8 = 46, so mean = 46 / 30 = 1.5333. Sum of fx squared = 0 + 9 + 40 + 27 + 32 = 108, so sum of fx squared / sum of f = 3.6. Variance = 3.6 - 1.5333 squared = 3.6 - 2.3511 = 1.2489. Standard deviation = square root of 1.2489 = 1.12 (rounded to two decimal places). 1.25 is the variance, 1.90 is the square root of 3.6 (forgetting to subtract the squared mean) and 1.41 ignores the frequencies.",
       "difficulty": "hard"
     },
     {
@@ -1700,7 +1700,7 @@
       "id": "cima-ba1-c12-q003",
       "chapter": 12,
       "topic": "The financial system, money and interest rates",
-      "question_text": "A bank receives a new cash deposit of $50,000. All banks maintain a reserve ratio of 8% and there are no cash leakages. What is the maximum total increase in bank deposits?",
+      "question_text": "A bank receives a new cash deposit of $50,000. All banks maintain a reserve ratio of 8% and there are no cash leakages. What is the maximum total increase in bank deposits across the banking system, including the initial deposit?",
       "options": {
         "A": "$625,000",
         "B": "$575,000",
@@ -1750,10 +1750,10 @@
         "A": "6.0%",
         "B": "7.5%",
         "C": "4.8%",
-        "D": "8.0%"
+        "D": "32.5%"
       },
       "correct": "B",
-      "explanation": "Interest yield = annual coupon / market price x 100 = $6 / $80 x 100 = 7.5%. Because the bond trades below nominal value, the yield exceeds the coupon rate.",
+      "explanation": "Interest yield = annual coupon / market price x 100 = $6 / $80 x 100 = 7.5%. Because the bond trades below nominal value, the yield exceeds the coupon rate. 6.0% is the coupon rate on nominal value, 4.8% wrongly multiplies the coupon rate by price / nominal value, and 32.5% wrongly adds the $20 discount to nominal value to the coupon ((6 + 20) / 80), confusing the running yield with a total return to redemption.",
       "difficulty": "medium"
     },
     {
@@ -1775,7 +1775,7 @@
       "id": "cima-ba1-c12-q008",
       "chapter": 12,
       "topic": "The financial system, money and interest rates",
-      "question_text": "A deposit pays a nominal interest rate of 8% a year and inflation is 3% a year. Using the exact Fisher relationship, what is the real rate of interest (to two decimal places)?",
+      "question_text": "A deposit pays a nominal interest rate of 8% a year and inflation is 3% a year. Using the exact Fisher relationship (not the approximation of subtracting inflation from the nominal rate), what is the real rate of interest (to two decimal places)?",
       "options": {
         "A": "5.00%",
         "B": "11.24%",
@@ -1783,7 +1783,7 @@
         "D": "4.85%"
       },
       "correct": "D",
-      "explanation": "(1 + real rate) = (1 + nominal rate) / (1 + inflation) = 1.08 / 1.03 = 1.0485. Real rate = 4.85%. Subtracting inflation from the nominal rate (5.00%) is only an approximation.",
+      "explanation": "(1 + real rate) = (1 + nominal rate) / (1 + inflation) = 1.08 / 1.03 = 1.048544. Real rate = 4.85% (rounded to two decimal places). 5.00% is the approximation the question excludes, 11.24% multiplies instead of dividing (1.08 x 1.03 - 1) and 4.63% divides the wrong way (1 - 1.03 / 1.08).",
       "difficulty": "hard"
     },
     {
