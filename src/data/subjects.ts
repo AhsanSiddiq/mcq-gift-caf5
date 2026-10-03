@@ -255,7 +255,7 @@ export const icaewSubjects: Subject[] = [
     level: "ICAEW",
     body: "icaew",
     description: "Contract, torts, agency, companies, insolvency and employment — Next Generation ACA Certificate Level practice.",
-    isAvailable: false,
+    isAvailable: true,
   },
   {
     id: "icaew-mi",
