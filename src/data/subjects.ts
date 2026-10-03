@@ -148,7 +148,7 @@ export const accaSkillsSubjects: Subject[] = [
     level: "ACCA",
     body: "acca",
     description: "Contract, tort, employment, company law and insolvency — objective questions on the English-law variant.",
-    isAvailable: false,
+    isAvailable: true,
   },
   {
     id: "acca-pm",
@@ -157,7 +157,7 @@ export const accaSkillsSubjects: Subject[] = [
     level: "ACCA",
     body: "acca",
     description: "Costing techniques, decision making, budgeting, advanced variances and performance measurement — Section A/B practice.",
-    isAvailable: false,
+    isAvailable: true,
   },
   {
     id: "acca-fr",
@@ -166,7 +166,7 @@ export const accaSkillsSubjects: Subject[] = [
     level: "ACCA",
     body: "acca",
     description: "IFRS in depth: revenue, leases, financial instruments, tax, EPS and group accounts — Section A/B practice.",
-    isAvailable: false,
+    isAvailable: true,
   },
   {
     id: "acca-aa",
@@ -175,7 +175,7 @@ export const accaSkillsSubjects: Subject[] = [
     level: "ACCA",
     body: "acca",
     description: "Planning, risk, internal control, evidence, review and reporting under ISAs — Section A/B practice.",
-    isAvailable: false,
+    isAvailable: true,
   },
   {
     id: "acca-fm",
@@ -184,7 +184,7 @@ export const accaSkillsSubjects: Subject[] = [
     level: "ACCA",
     body: "acca",
     description: "Working capital, investment appraisal, cost of capital, valuations and risk management — Section A/B practice.",
-    isAvailable: false,
+    isAvailable: true,
   },
 ];
 
@@ -196,7 +196,7 @@ export const cimaSubjects: Subject[] = [
     level: "CIMA",
     body: "cima",
     description: "Macro and micro economics, the financial system and business maths — the full BA1 objective test.",
-    isAvailable: false,
+    isAvailable: true,
   },
   {
     id: "cima-ba2",
@@ -205,7 +205,7 @@ export const cimaSubjects: Subject[] = [
     level: "CIMA",
     body: "cima",
     description: "Costing, budgeting, standard costing, CVP and investment appraisal for the BA2 objective test.",
-    isAvailable: false,
+    isAvailable: true,
   },
   {
     id: "cima-ba3",
@@ -214,7 +214,7 @@ export const cimaSubjects: Subject[] = [
     level: "CIMA",
     body: "cima",
     description: "Double entry to single-entity accounts, cash flows and ratios for the BA3 objective test.",
-    isAvailable: false,
+    isAvailable: true,
   },
   {
     id: "cima-ba4",
@@ -223,57 +223,58 @@ export const cimaSubjects: Subject[] = [
     level: "CIMA",
     body: "cima",
     description: "Ethics, governance, contract, employment and company law for the BA4 objective test.",
-    isAvailable: false,
+    isAvailable: true,
   },
 ];
 
 export const icaewSubjects: Subject[] = [
   {
     id: "icaew-acc",
-    code: "ICAEW Accounting",
-    title: "Accounting",
+    code: "ICAEW AF",
+    title: "Accounting Fundamentals",
     level: "ICAEW",
     body: "icaew",
-    description: "Double entry through to single-company financial statements — ACA Certificate Level practice.",
-    isAvailable: false,
+    description: "Double entry through to single-company financial statements — Next Generation ACA Certificate Level practice.",
+    isAvailable: true,
   },
   {
     id: "icaew-ass",
-    code: "ICAEW Assurance",
-    title: "Assurance",
+    code: "ICAEW ARF",
+    title: "Assurance and Risk Fundamentals",
     level: "ICAEW",
     body: "icaew",
-    description: "Assurance concepts, ethics, internal controls and evidence — ACA Certificate Level practice.",
-    isAvailable: false,
-  },
-  {
-    id: "icaew-btf",
-    code: "ICAEW BTF",
-    title: "Business, Technology and Finance",
-    level: "ICAEW",
-    body: "icaew",
-    description: "Business organisation, technology, finance and governance — ACA Certificate Level practice.",
-    isAvailable: false,
+    description: "Assurance, risk, internal controls, evidence and ethics — Next Generation ACA Certificate Level practice.",
+    isAvailable: true,
   },
   {
     id: "icaew-law",
-    code: "ICAEW Law",
-    title: "Law",
+    code: "ICAEW BL",
+    title: "Business Law",
     level: "ICAEW",
     body: "icaew",
-    description: "Contract, agency, negligence, companies, insolvency and employment — ACA Certificate Level practice.",
+    description: "Contract, torts, agency, companies, insolvency and employment — Next Generation ACA Certificate Level practice.",
     isAvailable: false,
   },
   {
     id: "icaew-mi",
-    code: "ICAEW MI",
-    title: "Management Information",
+    code: "ICAEW BIP",
+    title: "Business Insight and Performance",
     level: "ICAEW",
     body: "icaew",
-    description: "Costing, pricing, budgeting, performance and decision making — ACA Certificate Level practice.",
+    description: "Costing, budgeting, performance management and decision making — Next Generation ACA Certificate Level practice.",
+    isAvailable: false,
+  },
+  {
+    id: "icaew-se",
+    code: "ICAEW SE",
+    title: "Sustainability and Ethics",
+    level: "ICAEW",
+    body: "icaew",
+    description: "Sustainability frameworks, ESG reporting, governance and the ICAEW Code of Ethics — Next Generation ACA Certificate Level practice.",
     isAvailable: false,
   },
 ];
+// Note: the legacy BTF bank (scripts/data/global/icaew-btf.json) is not published — ICAEW withdrew BTF in Sept 2025.
 
 export const caFoundationSubjects: Subject[] = [
   {

@@ -121,7 +121,8 @@ export const EXAM_BODIES: ExamBody[] = [
     qualification: "CIMA / CGMA",
     flag: "🌍",
     region: "Global",
-    status: "waitlist",
+    status: "live",
+    practiceHref: "/exams/cima#practice",
     tagline: "Certificate in Business Accounting and objective-test (OT) exams at every level.",
     levels: [
       {
@@ -144,13 +145,14 @@ export const EXAM_BODIES: ExamBody[] = [
     qualification: "ACA (UK)",
     flag: "🇬🇧",
     region: "United Kingdom",
-    status: "waitlist",
+    status: "live",
+    practiceHref: "/exams/icaew#practice",
     tagline: "ACA Certificate Level objective-test modules.",
     levels: [
       {
-        name: "Certificate Level",
-        mcqNote: "Computer-based objective-test modules.",
-        papers: ["Accounting", "Assurance", "Business, Technology & Finance", "Law", "Management Information", "Principles of Taxation"],
+        name: "Certificate Level (Next Generation ACA)",
+        mcqNote: "Computer-based objective-test exams.",
+        papers: ["Accounting Fundamentals", "Assurance and Risk Fundamentals", "Business Law", "Business Insight and Performance", "Sustainability and Ethics", "Tax Fundamentals"],
       },
     ],
     seoKeywords: ["ICAEW certificate level questions", "ACA MCQ practice", "ICAEW accounting practice questions"],

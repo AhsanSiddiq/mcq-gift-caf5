@@ -1,0 +1,1955 @@
+{
+  "subject_id": "icaew-mi",
+  "questions": [
+    {
+      "id": "icaew-mi-c01-q001",
+      "chapter": 1,
+      "topic": "Cost classification and cost behaviour",
+      "question_text": "Oakleaf Ltd manufactures dining tables. Which of the following is a direct cost of a table?",
+      "options": {
+        "A": "Depreciation of the sanding machines used on all products",
+        "B": "The rent of the factory building",
+        "C": "The hardwood used to make the table top",
+        "D": "The salary of the factory supervisor"
+      },
+      "correct": "C",
+      "explanation": "A direct cost can be traced specifically and economically to a single cost unit. The hardwood is identifiable in each table, so it is direct material. Factory rent, the supervisor's salary and machine depreciation are incurred for all output and are therefore indirect production costs (production overheads).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c01-q002",
+      "chapter": 1,
+      "topic": "Cost classification and cost behaviour",
+      "question_text": "Penrith Products incurred the following costs in a period:\nDirect materials £42,000\nDirect labour £31,500\nDirect expenses £6,300\nProduction overheads £18,900\n\nWhat was the prime cost for the period?",
+      "options": {
+        "A": "£98,700",
+        "B": "£92,400",
+        "C": "£73,500",
+        "D": "£79,800"
+      },
+      "correct": "D",
+      "explanation": "Prime cost is the total of all direct costs: direct materials + direct labour + direct expenses. £42,000 + £31,500 + £6,300 = £79,800. Production overheads are indirect costs and are added only when calculating total production cost (£98,700).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c01-q003",
+      "chapter": 1,
+      "topic": "Cost classification and cost behaviour",
+      "question_text": "A company's electricity bill consists of a fixed quarterly standing charge plus a charge for each unit of electricity consumed. How would this cost be classified by behaviour?",
+      "options": {
+        "A": "Fixed cost",
+        "B": "Semi-variable cost",
+        "C": "Variable cost",
+        "D": "Stepped fixed cost"
+      },
+      "correct": "B",
+      "explanation": "A cost with a fixed element (the standing charge) and a variable element (the charge per unit consumed) is a semi-variable, or mixed, cost. On a graph it starts above zero on the cost axis and then rises in a straight line as activity increases.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c01-q004",
+      "chapter": 1,
+      "topic": "Cost classification and cost behaviour",
+      "question_text": "Each production supervisor at Harlow Fabrications can oversee a maximum of 12 operatives and is paid £34,000 a year. Next year the company plans to employ 40 operatives.\n\nWhat is the budgeted annual cost of supervision?",
+      "options": {
+        "A": "£136,000",
+        "B": "£102,000",
+        "C": "£170,000",
+        "D": "£113,333"
+      },
+      "correct": "A",
+      "explanation": "Supervision is a stepped fixed cost because supervisors must be employed in whole numbers. 40 / 12 = 3.33, so 4 supervisors are required (3 could only oversee 36 operatives). Cost = 4 x £34,000 = £136,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c01-q005",
+      "chapter": 1,
+      "topic": "Cost classification and cost behaviour",
+      "question_text": "Maintenance costs at a factory have been recorded as follows:\nMonth 1: 4,100 machine hours, cost £25,000\nMonth 2: 3,200 machine hours, cost £21,840\nMonth 3: 5,600 machine hours, cost £30,240\n\nUsing the high-low method, what is the estimated maintenance cost for a month with 4,800 machine hours?",
+      "options": {
+        "A": "£27,440",
+        "B": "£32,760",
+        "C": "£16,800",
+        "D": "£25,920"
+      },
+      "correct": "A",
+      "explanation": "Variable cost per hour = (£30,240 - £21,840) / (5,600 - 3,200) = £8,400 / 2,400 = £3.50. Fixed cost = £21,840 - (3,200 x £3.50) = £10,640. Estimated cost at 4,800 hours = £10,640 + (4,800 x £3.50) = £27,440. Month 1 is ignored because the high-low method uses only the highest and lowest activity levels.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c01-q006",
+      "chapter": 1,
+      "topic": "Cost classification and cost behaviour",
+      "question_text": "A company's total production costs were £64,000 at an output of 3,000 units and £108,000 at an output of 7,000 units. Fixed costs rise by £8,000 once output exceeds 5,000 units. The variable cost per unit is constant.\n\nWhat is the variable cost per unit?",
+      "options": {
+        "A": "£11.00",
+        "B": "£15.43",
+        "C": "£21.33",
+        "D": "£9.00"
+      },
+      "correct": "D",
+      "explanation": "The step in fixed costs must be removed before applying the high-low method. Adjusted cost at 7,000 units = £108,000 - £8,000 = £100,000. Variable cost per unit = (£100,000 - £64,000) / (7,000 - 3,000) = £36,000 / 4,000 = £9.00. Ignoring the step gives £11.00, which overstates the variable cost.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-mi-c01-q007",
+      "chapter": 1,
+      "topic": "Cost classification and cost behaviour",
+      "question_text": "The manager of a division is responsible for its revenues and costs and also has authority to make decisions about capital expenditure on the division's non-current assets. What type of responsibility centre is the division?",
+      "options": {
+        "A": "A revenue centre",
+        "B": "A cost centre",
+        "C": "An investment centre",
+        "D": "A profit centre"
+      },
+      "correct": "C",
+      "explanation": "An investment centre manager controls costs, revenues and the level of investment (assets) in the centre, so performance can be measured with ROI or residual income. A profit centre manager controls revenues and costs but not investment; a cost centre manager controls costs only; a revenue centre manager is responsible for revenue only.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c01-q008",
+      "chapter": 1,
+      "topic": "Cost classification and cost behaviour",
+      "question_text": "Which of the following costs of a manufacturing company would be classified by function as an administration cost?",
+      "options": {
+        "A": "Wages of the machine maintenance team",
+        "B": "The salary of the company's finance director",
+        "C": "Delivery van running costs",
+        "D": "Commission paid to sales staff"
+      },
+      "correct": "B",
+      "explanation": "Administration costs relate to the general management and running of the organisation, such as the finance director's salary. Sales commission and delivery costs are selling and distribution costs. Maintenance wages for production machines are production overheads.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c01-q009",
+      "chapter": 1,
+      "topic": "Cost classification and cost behaviour",
+      "question_text": "In a manufacturing business, which of the following costs would be included in the valuation of finished goods inventory under absorption costing principles?",
+      "options": {
+        "A": "The salary of the production line supervisor",
+        "B": "The cost of delivering goods to customers",
+        "C": "Interest on the company's bank overdraft",
+        "D": "Advertising costs for the product"
+      },
+      "correct": "A",
+      "explanation": "Inventory is valued at production cost, which includes direct costs and production overheads such as the production supervisor's salary. Advertising and delivery are selling and distribution costs, and bank interest is a finance cost. These are period costs written off in the period in which they are incurred.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c01-q010",
+      "chapter": 1,
+      "topic": "Cost classification and cost behaviour",
+      "question_text": "Within the relevant range of activity, what happens to fixed cost per unit as output increases?",
+      "options": {
+        "A": "It stays the same",
+        "B": "It decreases",
+        "C": "It increases",
+        "D": "It increases at first and then decreases"
+      },
+      "correct": "B",
+      "explanation": "Total fixed cost stays the same within the relevant range. When the same total is spread over more units, the fixed cost per unit falls. Variable cost per unit is the cost that stays constant as output changes.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c02-q001",
+      "chapter": 2,
+      "topic": "Overheads, absorption and marginal costing",
+      "question_text": "Rawlings Ltd absorbs production overheads on a machine hour basis. Budgeted overheads were £486,000 and budgeted machine hours were 54,000. Actual overheads were £503,700 and actual machine hours were 55,800.\n\nWhat was the under- or over-absorption of overheads?",
+      "options": {
+        "A": "£17,700 under-absorbed",
+        "B": "£1,500 over-absorbed",
+        "C": "£1,500 under-absorbed",
+        "D": "£16,200 over-absorbed"
+      },
+      "correct": "C",
+      "explanation": "Overhead absorption rate = £486,000 / 54,000 = £9.00 per machine hour. Overheads absorbed = 55,800 x £9.00 = £502,200. Actual overheads of £503,700 exceed the amount absorbed by £1,500, so overheads are under-absorbed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c02-q002",
+      "chapter": 2,
+      "topic": "Overheads, absorption and marginal costing",
+      "question_text": "A factory has two production departments (X and Y) and two service departments. Maintenance costs £40,000 and provides 50% of its services to X, 40% to Y and 10% to the canteen. The canteen costs £30,000 before any reapportionment and serves X and Y in the ratio 60:40. It does no work for maintenance.\n\nUsing the step-down method, starting with maintenance, what is the total service department cost reapportioned to department X?",
+      "options": {
+        "A": "£38,000",
+        "B": "£42,000",
+        "C": "£40,222",
+        "D": "£40,400"
+      },
+      "correct": "D",
+      "explanation": "Maintenance is reapportioned first: X £20,000, Y £16,000, canteen £4,000. The canteen total becomes £30,000 + £4,000 = £34,000, which is then shared 60:40, giving X £20,400. Total reapportioned to X = £20,000 + £20,400 = £40,400. The step-down method fully reflects maintenance's work for the canteen because the canteen does no work for maintenance.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-mi-c02-q003",
+      "chapter": 2,
+      "topic": "Overheads, absorption and marginal costing",
+      "question_text": "Which basis would normally be most appropriate for apportioning factory rent between production cost centres?",
+      "options": {
+        "A": "Machine hours worked in each cost centre",
+        "B": "Number of employees in each cost centre",
+        "C": "Value of materials used in each cost centre",
+        "D": "Floor area occupied by each cost centre"
+      },
+      "correct": "D",
+      "explanation": "Overheads should be apportioned on a basis that reflects how each cost centre benefits from the cost. Rent relates to the space a cost centre occupies, so floor area is the most suitable basis. Employee numbers suit costs such as the canteen, and machine hours suit costs such as machine power.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c02-q004",
+      "chapter": 2,
+      "topic": "Overheads, absorption and marginal costing",
+      "question_text": "In its first period of trading, Bexley Ltd produced 24,000 units and sold 21,000 units. The fixed production overhead absorption rate was £6 per unit. Profit under marginal costing was £142,000.\n\nWhat was the profit under absorption costing?",
+      "options": {
+        "A": "£124,000",
+        "B": "£286,000",
+        "C": "£160,000",
+        "D": "£268,000"
+      },
+      "correct": "C",
+      "explanation": "Inventory increased by 24,000 - 21,000 = 3,000 units. Under absorption costing, 3,000 x £6 = £18,000 of fixed production overhead is carried forward in closing inventory instead of being charged against this period's profit. Absorption costing profit = £142,000 + £18,000 = £160,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c02-q005",
+      "chapter": 2,
+      "topic": "Overheads, absorption and marginal costing",
+      "question_text": "Product Q has the following unit data:\nSelling price £48\nDirect materials £14\nDirect labour £9\nVariable production overhead £5\nVariable selling cost £3\nFixed production overhead £7\n\nWhat is the contribution per unit of product Q?",
+      "options": {
+        "A": "£17",
+        "B": "£20",
+        "C": "£10",
+        "D": "£25"
+      },
+      "correct": "A",
+      "explanation": "Contribution is selling price less all variable costs, including variable selling costs. £48 - (£14 + £9 + £5 + £3) = £17. Fixed production overhead is not deducted because under marginal costing it is treated as a period cost.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c02-q006",
+      "chapter": 2,
+      "topic": "Overheads, absorption and marginal costing",
+      "question_text": "Product R has the following unit costs:\nDirect materials £18\nDirect labour £11\nVariable production overhead £4\nFixed production overhead £9\nVariable selling cost £2\n\nAt what cost per unit would closing inventory of product R be valued under absorption costing?",
+      "options": {
+        "A": "£44",
+        "B": "£42",
+        "C": "£35",
+        "D": "£33"
+      },
+      "correct": "B",
+      "explanation": "Absorption costing values inventory at full production cost: direct materials, direct labour, variable production overhead and fixed production overhead. £18 + £11 + £4 + £9 = £42. Selling costs are never included in inventory. £33 would be the marginal costing valuation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c02-q007",
+      "chapter": 2,
+      "topic": "Overheads, absorption and marginal costing",
+      "question_text": "In a period when inventory levels fall, how will reported profit under absorption costing compare with reported profit under marginal costing?",
+      "options": {
+        "A": "Absorption costing profit will be higher",
+        "B": "The comparison depends on whether overheads were under- or over-absorbed",
+        "C": "Absorption costing profit will be lower",
+        "D": "The two profits will be the same"
+      },
+      "correct": "C",
+      "explanation": "When inventory falls, fixed production overhead carried forward from earlier periods in opening inventory is released into this period's cost of sales under absorption costing. Marginal costing charges only the current period's fixed overhead. Absorption costing profit is therefore lower, by the reduction in inventory units multiplied by the fixed overhead absorption rate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c02-q008",
+      "chapter": 2,
+      "topic": "Overheads, absorption and marginal costing",
+      "question_text": "Which of the following is an argument in favour of using marginal costing for internal reporting?",
+      "options": {
+        "A": "Fixed production overheads are carried forward to match them with future sales",
+        "B": "Inventory valuation complies with the requirements of IAS 2 Inventories",
+        "C": "It shows the full cost of each unit, which is needed for long-term pricing",
+        "D": "Profit cannot be increased simply by producing more units for inventory"
+      },
+      "correct": "D",
+      "explanation": "Under marginal costing, fixed production overheads are written off in full in the period they are incurred, so building up inventory cannot defer them and increase profit. The other statements are arguments for absorption costing: IAS 2 requires inventory to include production overheads, absorption costing carries fixed overheads forward, and it provides a full unit cost.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c02-q009",
+      "chapter": 2,
+      "topic": "Overheads, absorption and marginal costing",
+      "question_text": "Stanway Ltd makes one product, which sells for £60. Variable production cost is £22 per unit. Budgeted fixed production overheads are £300,000 and budgeted production is 25,000 units, and overheads are absorbed per unit. Fixed selling costs are £40,000. There was no opening inventory.\n\nIn the period, 26,000 units were made and 24,000 were sold. Actual fixed production overheads were £305,000.\n\nWhat was the profit under absorption costing?",
+      "options": {
+        "A": "£584,000",
+        "B": "£591,000",
+        "C": "£577,000",
+        "D": "£567,000"
+      },
+      "correct": "B",
+      "explanation": "Absorption rate = £300,000 / 25,000 = £12 per unit, so full production cost = £22 + £12 = £34. Overheads absorbed = 26,000 x £12 = £312,000, compared with actual overheads of £305,000, so they are over-absorbed by £7,000. Profit = sales £1,440,000 - cost of sales (24,000 x £34) £816,000 + over-absorption £7,000 - fixed selling costs £40,000 = £591,000. The marginal costing profit of £567,000 differs by the 2,000 units added to inventory x £12.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-mi-c02-q010",
+      "chapter": 2,
+      "topic": "Overheads, absorption and marginal costing",
+      "question_text": "A company uses activity-based costing. Set-up costs for the period are £84,000 and there are 120 set-ups. Product P is made in batches of 500 units, needs 18 set-ups in the period, and its output is 9,000 units.\n\nWhat is the set-up cost per unit of product P?",
+      "options": {
+        "A": "£1.40",
+        "B": "£0.70",
+        "C": "£0.08",
+        "D": "£9.33"
+      },
+      "correct": "A",
+      "explanation": "Cost driver rate = £84,000 / 120 set-ups = £700 per set-up. Set-up costs traced to product P = 18 x £700 = £12,600. Cost per unit = £12,600 / 9,000 = £1.40.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c02-q011",
+      "chapter": 2,
+      "topic": "Overheads, absorption and marginal costing",
+      "question_text": "Under activity-based costing, which of the following is most likely to be the cost driver for the costs of the purchasing department?",
+      "options": {
+        "A": "The number of direct labour hours worked",
+        "B": "The number of units produced",
+        "C": "The number of purchase orders raised",
+        "D": "The value of sales invoices issued"
+      },
+      "correct": "C",
+      "explanation": "A cost driver is the factor that causes the costs of an activity to change. Purchasing department costs are driven mainly by the number of orders processed, not by labour hours or output volume. Using volume-based drivers for such costs is the weakness of traditional absorption costing that ABC aims to overcome.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c02-q012",
+      "chapter": 2,
+      "topic": "Overheads, absorption and marginal costing",
+      "question_text": "Over-absorption of production overheads happens when:",
+      "options": {
+        "A": "actual activity is lower than budgeted activity",
+        "B": "the overheads absorbed into production exceed the overheads actually incurred",
+        "C": "the overheads absorbed into production are less than the overheads actually incurred",
+        "D": "actual overheads exceed budgeted overheads"
+      },
+      "correct": "B",
+      "explanation": "Over-absorption means more overhead has been charged to units of production (actual activity x predetermined rate) than was actually incurred. The surplus is credited to the statement of profit or loss. Actual overheads exceeding budget, or lower activity than budgeted, would each tend to cause under-absorption instead.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c03-q001",
+      "chapter": 3,
+      "topic": "Job, batch, process and service costing",
+      "question_text": "Which of the following businesses would be most likely to use job costing?",
+      "options": {
+        "A": "A firm that builds bespoke conservatories to each customer's design",
+        "B": "A brewery producing large volumes of one lager",
+        "C": "An oil refinery producing petrol in a continuous flow",
+        "D": "A chemical plant making a single industrial solvent"
+      },
+      "correct": "A",
+      "explanation": "Job costing suits work done to individual customer specifications, where each job is separately identifiable and costed. Refineries, breweries and chemical plants produce large volumes of identical output in a continuous flow, which suits process costing.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c03-q002",
+      "chapter": 3,
+      "topic": "Job, batch, process and service costing",
+      "question_text": "A batch of 400 units used direct materials costing £2,600 and 30 direct labour hours paid at £16 per hour. Production overheads are absorbed at £22 per direct labour hour.\n\nWhat is the cost per unit of the batch?",
+      "options": {
+        "A": "£7.75",
+        "B": "£8.15",
+        "C": "£7.70",
+        "D": "£9.35"
+      },
+      "correct": "D",
+      "explanation": "Total batch cost = materials £2,600 + labour (30 x £16) £480 + overheads (30 x £22) £660 = £3,740. Cost per unit = £3,740 / 400 = £9.35.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c03-q003",
+      "chapter": 3,
+      "topic": "Job, batch, process and service costing",
+      "question_text": "In a process, 10,000 kg of material costing £46,000 were input and conversion costs were £18,000. Normal loss is 8% of input and can be sold as scrap for £2 per kg. Actual output was 9,000 kg.\n\nWhat is the value of the good output (to the nearest £)?",
+      "options": {
+        "A": "£62,609",
+        "B": "£62,400",
+        "C": "£56,160",
+        "D": "£61,043"
+      },
+      "correct": "D",
+      "explanation": "Normal loss = 8% x 10,000 = 800 kg, so expected output = 9,200 kg. Cost per kg = (total costs £64,000 - scrap value of normal loss £1,600) / 9,200 kg = £6.7826. Good output = 9,000 x £6.7826 = £61,043. The 200 kg abnormal loss is valued at the same cost per kg and written off separately, so it is not charged to good output.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-mi-c03-q004",
+      "chapter": 3,
+      "topic": "Job, batch, process and service costing",
+      "question_text": "In process costing, how is an abnormal gain treated?",
+      "options": {
+        "A": "It is spread over good output, reducing the cost per unit of finished goods",
+        "B": "It is valued at the full cost per unit of expected output and credited to the statement of profit or loss, net of the scrap value forgone",
+        "C": "It is ignored, because only abnormal losses are recorded",
+        "D": "It is valued at scrap value only and debited to the process account"
+      },
+      "correct": "B",
+      "explanation": "An abnormal gain is valued at the same cost per unit as good output and debited to the process account, with the credit going to an abnormal gain account. Because there is less normal loss to sell as scrap, the scrap income forgone is set against the gain. The net amount is credited to profit or loss and is not used to reduce the cost of good output.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c03-q005",
+      "chapter": 3,
+      "topic": "Job, batch, process and service costing",
+      "question_text": "During a period, 14,000 units were completed in a process and 2,000 units remained in closing work in progress. The closing work in progress was 100% complete for materials and 60% complete for conversion. There was no opening work in progress. Conversion costs were £91,200.\n\nWhat is the cost per equivalent unit for conversion?",
+      "options": {
+        "A": "£6.00",
+        "B": "£6.51",
+        "C": "£5.70",
+        "D": "£6.16"
+      },
+      "correct": "A",
+      "explanation": "Equivalent units for conversion = completed units 14,000 + closing WIP (2,000 x 60%) 1,200 = 15,200. Cost per equivalent unit = £91,200 / 15,200 = £6.00.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c03-q006",
+      "chapter": 3,
+      "topic": "Job, batch, process and service costing",
+      "question_text": "A haulage firm uses the tonne-kilometre as its cost unit. On one day a lorry carried 8 tonnes for 120 km, unloaded all of it, and then carried 5 tonnes for 60 km. The cost of running the lorry for the day was £3,150.\n\nWhat was the cost per tonne-kilometre?",
+      "options": {
+        "A": "£3.28",
+        "B": "£1.35",
+        "C": "£2.50",
+        "D": "£17.50"
+      },
+      "correct": "C",
+      "explanation": "Tonne-km = (8 x 120) + (5 x 60) = 960 + 300 = 1,260. Cost per tonne-km = £3,150 / 1,260 = £2.50. A composite cost unit like this reflects both the weight carried and the distance travelled.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c03-q007",
+      "chapter": 3,
+      "topic": "Job, batch, process and service costing",
+      "question_text": "A process produces two joint products. Joint costs are £72,000. Output is 6,000 kg of product X, which sells for £15 per kg, and 4,000 kg of product Y, which sells for £27 per kg. Both are sold at the split-off point.\n\nUsing the sales value method, how much of the joint cost is apportioned to product X (to the nearest £)?",
+      "options": {
+        "A": "£32,727",
+        "B": "£36,000",
+        "C": "£39,273",
+        "D": "£43,200"
+      },
+      "correct": "A",
+      "explanation": "Sales value of X = 6,000 x £15 = £90,000; sales value of Y = 4,000 x £27 = £108,000; total = £198,000. Joint cost apportioned to X = £72,000 x £90,000 / £198,000 = £32,727. Apportioning on physical units would give £43,200.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c03-q008",
+      "chapter": 3,
+      "topic": "Job, batch, process and service costing",
+      "question_text": "Which of the following is a characteristic of services that makes service costing different from product costing?",
+      "options": {
+        "A": "Tangibility: a service can be inspected before purchase",
+        "B": "Separability: production and consumption happen at different times",
+        "C": "Homogeneity: every service performed is identical",
+        "D": "Perishability: a service cannot be stored for later sale"
+      },
+      "correct": "D",
+      "explanation": "Services are typically intangible, perishable, heterogeneous (variable), and produced and consumed at the same time (simultaneity, or inseparability). Perishability means unused capacity, such as an empty hotel room for a night, cannot be stored. Each of the other options states the opposite of a true service characteristic.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c04-q001",
+      "chapter": 4,
+      "topic": "Pricing decisions",
+      "question_text": "The full cost of a product is £64 per unit. The company sets prices using a mark-up of 25% on full cost.\n\nWhat is the selling price?",
+      "options": {
+        "A": "£85.33",
+        "B": "£80.00",
+        "C": "£72.00",
+        "D": "£16.00"
+      },
+      "correct": "B",
+      "explanation": "A mark-up is a percentage of cost. Selling price = £64 x 1.25 = £80.00. £85.33 would be the price if 25% were a margin on selling price.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c04-q002",
+      "chapter": 4,
+      "topic": "Pricing decisions",
+      "question_text": "A product sells for £150, which gives a profit margin of 20% on the selling price.\n\nWhat is the equivalent mark-up on cost?",
+      "options": {
+        "A": "16%",
+        "B": "30%",
+        "C": "25%",
+        "D": "20%"
+      },
+      "correct": "C",
+      "explanation": "Cost = £150 x (1 - 0.20) = £120, so profit = £30. Mark-up on cost = £30 / £120 = 25%. A margin is always a smaller percentage than the equivalent mark-up because it is measured on the larger selling price.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c04-q003",
+      "chapter": 4,
+      "topic": "Pricing decisions",
+      "question_text": "A company uses marginal cost-plus pricing with a mark-up of 60%. The variable cost of a product is £36 per unit and the fixed cost per unit, based on budgeted output, is £14.\n\nWhat is the selling price?",
+      "options": {
+        "A": "£80.00",
+        "B": "£57.60",
+        "C": "£90.00",
+        "D": "£71.60"
+      },
+      "correct": "B",
+      "explanation": "Marginal cost-plus pricing adds the mark-up to variable (marginal) cost only. Price = £36 x 1.60 = £57.60. The mark-up has to be large enough to cover fixed costs and give a profit, which is why it is higher than a typical full cost mark-up.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c04-q004",
+      "chapter": 4,
+      "topic": "Pricing decisions",
+      "question_text": "Lynton Ltd is developing a new product. Market research shows a competitive selling price of £220. The company requires a profit margin of 30% of selling price. The current estimated cost of the product is £171.\n\nWhat is the cost gap that must be closed?",
+      "options": {
+        "A": "£17.00",
+        "B": "£1.77",
+        "C": "£66.00",
+        "D": "£49.00"
+      },
+      "correct": "A",
+      "explanation": "Target cost = target price less required profit = £220 x (1 - 0.30) = £154.00. Cost gap = estimated cost £171 - target cost £154.00 = £17.00. Lynton must find ways to reduce cost, for example through value engineering, before the product goes into production.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c04-q005",
+      "chapter": 4,
+      "topic": "Pricing decisions",
+      "question_text": "When a company raised the price of a product from £20 to £22, monthly demand fell from 5,000 units to 4,400 units.\n\nUsing the original price and quantity as the base, what is the price elasticity of demand and how is demand described?",
+      "options": {
+        "A": "-1.2: demand is inelastic",
+        "B": "-0.83: demand is elastic",
+        "C": "-1.2: demand is elastic",
+        "D": "-0.83: demand is inelastic"
+      },
+      "correct": "C",
+      "explanation": "Percentage change in quantity = (4,400 - 5,000) / 5,000 = -12%. Percentage change in price = (£22 - £20) / £20 = +10%. PED = -12% / 10% = -1.2. Ignoring the sign, the value is greater than 1, so demand is elastic and the price rise reduces total revenue.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c04-q006",
+      "chapter": 4,
+      "topic": "Pricing decisions",
+      "question_text": "A company estimates monthly demand for a product at different prices as follows:\n£30: 12,000 units\n£32: 10,800 units\n£34: 9,500 units\n£36: 8,200 units\n\nVariable cost is £18 per unit and fixed costs will not change. Which price should be set to maximise profit?",
+      "options": {
+        "A": "£36",
+        "B": "£32",
+        "C": "£30",
+        "D": "£34"
+      },
+      "correct": "D",
+      "explanation": "Because fixed costs do not change, profit is maximised at the price that gives the highest total contribution. £30: (£30 - £18) x 12,000 = £144,000; £32: (£32 - £18) x 10,800 = £151,200; £34: (£34 - £18) x 9,500 = £152,000; £36: (£36 - £18) x 8,200 = £147,600. The highest contribution is at £34. Choosing the price with the highest revenue (£30) ignores variable costs.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c04-q007",
+      "chapter": 4,
+      "topic": "Pricing decisions",
+      "question_text": "A company launches a new product at a deliberately low price to win market share quickly and discourage competitors from entering. What is this pricing strategy called?",
+      "options": {
+        "A": "Price discrimination",
+        "B": "Market skimming",
+        "C": "Premium pricing",
+        "D": "Penetration pricing"
+      },
+      "correct": "D",
+      "explanation": "Penetration pricing sets a low initial price to gain a large share of the market quickly, achieve economies of scale and create a barrier to entry. Market skimming is the opposite: a high launch price aimed at customers willing to pay a premium, which is later reduced.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c04-q008",
+      "chapter": 4,
+      "topic": "Pricing decisions",
+      "question_text": "In which of the following situations would market skimming be most appropriate for a new product?",
+      "options": {
+        "A": "Competitors can copy the product quickly and cheaply",
+        "B": "The product is innovative, has no close substitutes and early buyers will pay a high price for it",
+        "C": "The company needs high volumes immediately to achieve economies of scale",
+        "D": "Demand for the product is highly price elastic"
+      },
+      "correct": "B",
+      "explanation": "Skimming charges a high launch price to customers who value novelty, then lowers the price over time. It works best when the product is new and different, demand from early buyers is relatively inelastic and barriers to entry protect the high price. High price elasticity, easy imitation or a need for volume all favour penetration pricing.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c04-q009",
+      "chapter": 4,
+      "topic": "Pricing decisions",
+      "question_text": "Fenwick Ltd expects to sell 20,000 units of a product a year. The full cost is £45 per unit. The capital employed in making the product is £1,200,000, and the company requires an annual return of 15% on capital employed.\n\nWhat selling price per unit is needed to achieve the required return?",
+      "options": {
+        "A": "£54.00",
+        "B": "£51.75",
+        "C": "£105.00",
+        "D": "£52.65"
+      },
+      "correct": "A",
+      "explanation": "Required annual profit = £1,200,000 x 15% = £180,000. Required profit per unit = £180,000 / 20,000 = £9.00. Selling price = full cost £45 + £9.00 = £54.00. Applying a 15% mark-up to cost confuses return on capital with return on cost.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c04-q010",
+      "chapter": 4,
+      "topic": "Pricing decisions",
+      "question_text": "Which of the following is a weakness of full cost-plus pricing?",
+      "options": {
+        "A": "It cannot be applied to services",
+        "B": "It is difficult to calculate because it needs detailed demand data",
+        "C": "It ignores the effect of price on demand and competitors' prices",
+        "D": "It never covers fixed costs"
+      },
+      "correct": "C",
+      "explanation": "Cost-plus pricing is simple and, if budgeted volumes are achieved, makes sure all costs are covered. Its main weakness is that it looks only inward at cost, ignoring customers' willingness to pay and competitors' prices. It is widely used for services and needs no demand data, which is part of why it is popular.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c04-q011",
+      "chapter": 4,
+      "topic": "Pricing decisions",
+      "question_text": "A product requires £22 of direct materials and 3 direct labour hours paid at £14 per hour. Production overheads are absorbed at £18 per direct labour hour. Administration overheads are added at 10% of total production cost. The selling price is set to give a profit margin of 20% of the selling price.\n\nWhat is the selling price (to the nearest penny)?",
+      "options": {
+        "A": "£147.50",
+        "B": "£155.76",
+        "C": "£112.75",
+        "D": "£162.25"
+      },
+      "correct": "D",
+      "explanation": "Production cost = £22 + (3 x £14) + (3 x £18) = £22 + £42 + £54 = £118.00. Total cost = £118.00 x 1.10 = £129.80. Profit is 20% of price, so cost is 80% of price. Price = £129.80 / 0.80 = £162.25.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-mi-c05-q001",
+      "chapter": 5,
+      "topic": "Transfer pricing",
+      "question_text": "Which of the following is a main objective of a transfer pricing system in a divisionalised company?",
+      "options": {
+        "A": "To encourage divisional managers to make decisions that are in the best interests of the group as a whole",
+        "B": "To maximise the reported profit of the supplying division",
+        "C": "To minimise the total number of internal transactions",
+        "D": "To make sure every division reports the same return on investment"
+      },
+      "correct": "A",
+      "explanation": "A good transfer pricing system should promote goal congruence, keep divisional autonomy intact and allow divisional performance to be assessed fairly. Maximising one division's profit could cause decisions that harm the group, and transfer prices are not meant to equalise divisional returns.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c05-q002",
+      "chapter": 5,
+      "topic": "Transfer pricing",
+      "question_text": "Division A makes a component with a variable cost of £26 per unit and a fixed cost of £8 per unit. It sells the component externally for £50. Division A has plenty of spare capacity, and fixed costs will not change if it supplies Division B.\n\nWhat is the minimum transfer price per unit that Division A should accept for supplying Division B?",
+      "options": {
+        "A": "£50",
+        "B": "£26",
+        "C": "£24",
+        "D": "£34"
+      },
+      "correct": "B",
+      "explanation": "Minimum transfer price = marginal cost of supplying + opportunity cost. With spare capacity there are no lost external sales, so the opportunity cost is nil. The minimum is the variable cost of £26. Fixed costs are not relevant because they do not change.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c05-q003",
+      "chapter": 5,
+      "topic": "Transfer pricing",
+      "question_text": "Division A makes a component with a variable cost of £26 per unit and sells all its output externally for £50 per unit. It is working at full capacity. Variable selling costs of £2 per unit would be saved on any internal transfers to Division B.\n\nWhat is the minimum transfer price per unit that Division A should accept?",
+      "options": {
+        "A": "£26",
+        "B": "£50",
+        "C": "£48",
+        "D": "£28"
+      },
+      "correct": "C",
+      "explanation": "With no spare capacity, every unit transferred means one external sale is lost. Minimum transfer price = variable cost of the internal unit (£26 - £2 saved = £24) + contribution lost on the external sale (£50 - £26 = £24) = £48. This is the same as the market price less the selling costs saved.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-mi-c05-q004",
+      "chapter": 5,
+      "topic": "Transfer pricing",
+      "question_text": "Division B buys a component from Division A, which has spare capacity. Division B can buy an identical component from an outside supplier for £44 per unit. Division B adds further variable costs of £30 per unit and sells the finished product for £90.\n\nWhat is the maximum transfer price Division B should be willing to pay Division A?",
+      "options": {
+        "A": "£90",
+        "B": "£30",
+        "C": "£60",
+        "D": "£44"
+      },
+      "correct": "D",
+      "explanation": "The maximum transfer price is the lower of the external purchase price (£44) and the net marginal revenue the buying division earns from the component (£90 - £30 = £60). Division B would not pay more than £44 because it could buy the same component outside for that price.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c05-q005",
+      "chapter": 5,
+      "topic": "Transfer pricing",
+      "question_text": "If the buying and selling divisions are in the same tax jurisdiction, how does an increase in the transfer price for a component traded between them affect total group profit?",
+      "options": {
+        "A": "Group profit increases only if the selling division has spare capacity",
+        "B": "Group profit is unchanged; profit is simply moved from the buying division to the selling division",
+        "C": "Group profit increases by the amount of the increase",
+        "D": "Group profit falls by the amount of the increase"
+      },
+      "correct": "B",
+      "explanation": "A transfer price is revenue for the selling division and an equal cost for the buying division, so it cancels out on consolidation. Changing it only reallocates profit between divisions, provided the volume traded and decisions taken stay the same. Group profit can be affected indirectly if the price changes managers' decisions, or where different tax rates apply.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c05-q006",
+      "chapter": 5,
+      "topic": "Transfer pricing",
+      "question_text": "Which of the following is a practical limitation of using market price as a transfer price?",
+      "options": {
+        "A": "A perfectly competitive external market for the intermediate product may not exist",
+        "B": "It cannot be used when the selling division is working at full capacity",
+        "C": "It gives the selling division no incentive to control its costs",
+        "D": "It always leads to sub-optimal decisions by the buying division"
+      },
+      "correct": "A",
+      "explanation": "Market-based transfer prices are often ideal when there is a perfect external market, because they are objective and keep divisions autonomous. In practice there may be no external market, or the internal product may differ from what is sold externally. Market price still gives the seller an incentive to control costs, and it is especially appropriate when the seller is at full capacity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c05-q007",
+      "chapter": 5,
+      "topic": "Transfer pricing",
+      "question_text": "A group sets transfer prices at full cost plus 20%. The full cost of a component is £34 per unit.\n\nWhat is the transfer price?",
+      "options": {
+        "A": "£34.00",
+        "B": "£6.80",
+        "C": "£40.80",
+        "D": "£42.50"
+      },
+      "correct": "C",
+      "explanation": "Transfer price = £34 x 1.20 = £40.80. A drawback of full cost-plus transfer prices is that the buying division sees the supplier's fixed costs and mark-up as a variable cost, which can lead to sub-optimal decisions.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c05-q008",
+      "chapter": 5,
+      "topic": "Transfer pricing",
+      "question_text": "Division X sets a transfer price of £60 per unit for a component it makes for Division Y. Division X has spare capacity, and its variable cost is £30 per unit. Division Y has found an external supplier offering the same component at £55 per unit and decides to buy 4,000 units externally.\n\nWhat is the effect of Division Y's decision on group profit?",
+      "options": {
+        "A": "Group profit falls by £100,000",
+        "B": "Group profit falls by £120,000",
+        "C": "Group profit rises by £20,000",
+        "D": "There is no effect on group profit"
+      },
+      "correct": "A",
+      "explanation": "From the group's point of view, making the component internally costs only the variable cost of £30, because X has spare capacity. Buying externally costs £55. Group profit therefore falls by (£55 - £30) x 4,000 = £100,000. Division Y's profit improves by £20,000, which shows a lack of goal congruence caused by a transfer price set too high.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-mi-c05-q009",
+      "chapter": 5,
+      "topic": "Transfer pricing",
+      "question_text": "Under a dual pricing system for transfers between divisions, what happens?",
+      "options": {
+        "A": "The buying division pays a fixed annual fee plus marginal cost for each unit",
+        "B": "Transfers are made at market price in the first half of the year and at cost in the second half",
+        "C": "Two transfer prices are negotiated and the higher one is used by both divisions",
+        "D": "The selling division is credited with one price and the buying division is charged a different, usually lower, price, with the difference held in a group account"
+      },
+      "correct": "D",
+      "explanation": "Dual pricing records the transfer at different prices in each division, for example market price for the seller and marginal cost for the buyer, so that each makes decisions that suit the group. The difference is eliminated in a central adjustment account on consolidation. The fixed fee plus marginal cost arrangement is a two-part tariff, which is a different approach.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c06-q001",
+      "chapter": 6,
+      "topic": "Budgeting: purposes and approaches",
+      "question_text": "Which of the following is NOT normally a purpose of budgeting?",
+      "options": {
+        "A": "To co-ordinate the activities of different departments",
+        "B": "To guarantee that the organisation will achieve its profit target",
+        "C": "To provide a benchmark for controlling actual performance",
+        "D": "To communicate plans and targets to managers"
+      },
+      "correct": "B",
+      "explanation": "Budgets help to plan, co-ordinate, communicate, motivate, control and authorise. A budget is a plan expressed in financial terms; it cannot guarantee results, because actual conditions may differ from the assumptions it was built on.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c06-q002",
+      "chapter": 6,
+      "topic": "Budgeting: purposes and approaches",
+      "question_text": "A company can sell all it produces, but the supply of a specialist component is restricted. In this situation, what is the principal budget factor?",
+      "options": {
+        "A": "Sales demand",
+        "B": "Cash available for capital expenditure",
+        "C": "The availability of the specialist component",
+        "D": "Labour hours available"
+      },
+      "correct": "C",
+      "explanation": "The principal (or key) budget factor is the factor that limits the organisation's activities, so it must be budgeted first and all other budgets built around it. Sales demand is often the principal budget factor, but here the company can sell everything it makes, so the limit is the supply of the component.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c06-q003",
+      "chapter": 6,
+      "topic": "Budgeting: purposes and approaches",
+      "question_text": "What is the main weakness of incremental budgeting?",
+      "options": {
+        "A": "It requires every activity to be justified from a zero base",
+        "B": "It cannot be used where costs are stable from year to year",
+        "C": "It takes far longer to prepare than any other budgeting method",
+        "D": "It tends to carry forward past inefficiencies because existing activities are not challenged"
+      },
+      "correct": "D",
+      "explanation": "Incremental budgeting takes last year's budget or actual results and adjusts them for expected changes such as inflation. It is quick and simple, but builds in any slack and waste from earlier periods and does not ask whether activities are still needed. Justifying every activity from zero describes zero-based budgeting.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c06-q004",
+      "chapter": 6,
+      "topic": "Budgeting: purposes and approaches",
+      "question_text": "Which of the following best describes zero-based budgeting?",
+      "options": {
+        "A": "Budgets are set at zero profit so that managers concentrate on controlling costs",
+        "B": "The budget starts from the previous year's actual results, with nothing added for inflation",
+        "C": "Each activity must be justified as if it were being started for the first time, and resources are allocated according to ranked decision packages",
+        "D": "The budget is updated each quarter by adding a new quarter as the most recent one ends"
+      },
+      "correct": "C",
+      "explanation": "Zero-based budgeting starts from a base of zero. Managers identify decision packages for each activity, assess their costs and benefits, and rank them so that limited resources go to the most worthwhile activities. It is especially suited to discretionary costs such as training or marketing, but it is time-consuming to carry out.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c06-q005",
+      "chapter": 6,
+      "topic": "Budgeting: purposes and approaches",
+      "question_text": "A company prepares a 12-month budget and, at the end of each quarter, adds a further quarter so that a 12-month budget always exists. What is this approach called and what is its main advantage?",
+      "options": {
+        "A": "A rolling budget; it reduces the time managers spend on budgeting",
+        "B": "A rolling budget; it keeps the budget relevant and realistic as circumstances change",
+        "C": "A flexible budget; it adjusts allowed costs to the actual level of activity",
+        "D": "An incremental budget; it is quick to prepare from last year's figures"
+      },
+      "correct": "B",
+      "explanation": "A rolling (continuous) budget is regularly extended by a further period as each period ends, so it always covers the same length of time ahead and reflects up-to-date conditions. It is useful in fast-changing environments. Its main drawback is that it needs more management time and effort, not less.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c06-q006",
+      "chapter": 6,
+      "topic": "Budgeting: purposes and approaches",
+      "question_text": "Which of the following is a recognised disadvantage of participative (bottom-up) budgeting?",
+      "options": {
+        "A": "Managers may build budgetary slack into their budgets to make targets easier to achieve",
+        "B": "Managers are less motivated because targets are imposed on them",
+        "C": "The budget is prepared too quickly to be accurate",
+        "D": "Local knowledge of operating managers is ignored"
+      },
+      "correct": "A",
+      "explanation": "Participative budgeting involves managers in setting their own budgets, which uses their local knowledge and tends to improve motivation and acceptance. The drawbacks are that it takes longer and that managers may deliberately overstate costs or understate revenues to create slack. The other options describe drawbacks of imposed (top-down) budgets.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c06-q007",
+      "chapter": 6,
+      "topic": "Budgeting: purposes and approaches",
+      "question_text": "Activity-based budgeting (ABB) differs from traditional budgeting mainly because it:",
+      "options": {
+        "A": "sets every budget at zero and requires each cost to be justified",
+        "B": "budgets revenue first and treats all costs as fixed",
+        "C": "uses only direct labour hours as the basis for budgeting overheads",
+        "D": "budgets overhead costs by reference to the activities that drive them and the expected level of each cost driver"
+      },
+      "correct": "D",
+      "explanation": "ABB applies ABC principles to budgeting. Expected demand for each activity (such as the number of set-ups or purchase orders) is estimated, and the resources and costs needed are budgeted from it. This gives managers a better understanding of what causes overhead costs and helps them control those costs.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c06-q008",
+      "chapter": 6,
+      "topic": "Budgeting: purposes and approaches",
+      "question_text": "What is a fixed budget?",
+      "options": {
+        "A": "A budget that includes fixed costs only",
+        "B": "A budget prepared for several different levels of activity",
+        "C": "A budget prepared for a single, planned level of activity, which is not adjusted when actual activity differs",
+        "D": "A budget that cannot be revised once approved by the board"
+      },
+      "correct": "C",
+      "explanation": "A fixed budget is set for one planned level of activity. It is useful for planning but can be misleading for control, because comparing actual results at a different activity level with it mixes up volume effects and efficiency effects. A budget designed to change with activity is a flexible budget.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c06-q009",
+      "chapter": 6,
+      "topic": "Budgeting: purposes and approaches",
+      "question_text": "Which document sets out the instructions, procedures, timetable and responsibilities for preparing the budget?",
+      "options": {
+        "A": "The principal budget factor schedule",
+        "B": "The budget manual",
+        "C": "The cash budget",
+        "D": "The master budget"
+      },
+      "correct": "B",
+      "explanation": "The budget manual is a collection of instructions for the budget process, covering responsibilities, timetables, procedures and the forms to use. The master budget is the end result of the process (budgeted statement of profit or loss, statement of financial position and cash budget). The budget committee co-ordinates the process.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c06-q010",
+      "chapter": 6,
+      "topic": "Budgeting: purposes and approaches",
+      "question_text": "A manager compares forecast results for the rest of the year with the budget and takes action now to correct an expected shortfall before it happens. This is an example of:",
+      "options": {
+        "A": "feedforward control",
+        "B": "feedback control",
+        "C": "negative variance analysis",
+        "D": "zero-based budgeting"
+      },
+      "correct": "A",
+      "explanation": "Feedforward control compares forecast results with targets so that action can be taken before deviations happen. Feedback control compares actual results with budget after the event and responds to variances. Feedforward control is proactive, but it relies on reliable forecasts.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c06-q011",
+      "chapter": 6,
+      "topic": "Budgeting: purposes and approaches",
+      "question_text": "In which situation is an imposed (top-down) budget most likely to be appropriate?",
+      "options": {
+        "A": "A newly formed business in which operational managers have little experience of budgeting",
+        "B": "A decentralised group in which divisional managers have full autonomy",
+        "C": "A mature business whose managers have detailed local knowledge",
+        "D": "An organisation that wants to maximise managers' commitment to targets"
+      },
+      "correct": "A",
+      "explanation": "Imposed budgets are more suitable where operational managers lack budgeting skills, in very small or new businesses, in times of crisis, or where senior management needs tight control. Where managers have good local knowledge and commitment matters, or in decentralised organisations, participative budgeting is usually preferred.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c07-q001",
+      "chapter": 7,
+      "topic": "Preparing functional and cash budgets",
+      "question_text": "Budgeted sales of a product are 18,000 units in quarter 1 and 20,000 units in quarter 2. Opening finished goods inventory for quarter 1 is 2,400 units, and closing inventory each quarter is to be 15% of the following quarter's budgeted sales.\n\nWhat is the production budget for quarter 1?",
+      "options": {
+        "A": "17,400 units",
+        "B": "18,600 units",
+        "C": "18,300 units",
+        "D": "21,000 units"
+      },
+      "correct": "B",
+      "explanation": "Closing inventory = 15% x 20,000 = 3,000 units. Production = sales + closing inventory - opening inventory = 18,000 + 3,000 - 2,400 = 18,600 units.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c07-q002",
+      "chapter": 7,
+      "topic": "Preparing functional and cash budgets",
+      "question_text": "A company plans to produce 18,600 units in a quarter. Each unit uses 3 kg of material M, which costs £4.20 per kg. Opening inventory of material M is 6,000 kg and closing inventory is to be 7,500 kg.\n\nWhat is the material purchases budget for the quarter, in £?",
+      "options": {
+        "A": "£228,060",
+        "B": "£84,420",
+        "C": "£240,660",
+        "D": "£234,360"
+      },
+      "correct": "C",
+      "explanation": "Material usage = 18,600 units x 3 kg = 55,800 kg. Purchases = usage + closing inventory - opening inventory = 55,800 + 7,500 - 6,000 = 57,300 kg. Cost = 57,300 kg x £4.20 = £240,660.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c07-q003",
+      "chapter": 7,
+      "topic": "Preparing functional and cash budgets",
+      "question_text": "A company plans to produce 18,600 units, each needing 0.75 hours of productive labour time. Idle time is expected to be 10% of hours paid. Labour is paid £15 per hour.\n\nWhat is the labour cost budget?",
+      "options": {
+        "A": "£209,250",
+        "B": "£188,325",
+        "C": "£230,175",
+        "D": "£232,500"
+      },
+      "correct": "D",
+      "explanation": "Productive hours needed = 18,600 x 0.75 = 13,950 hours. Because idle time is 10% of hours paid, productive hours are 90% of hours paid. Hours paid = 13,950 / 0.9 = 15,500. Labour cost = 15,500 x £15 = £232,500. Adding 10% to productive hours (£230,175) understates the cost because the percentage is based on hours paid.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-mi-c07-q004",
+      "chapter": 7,
+      "topic": "Preparing functional and cash budgets",
+      "question_text": "Budgeted sales are January £80,000, February £90,000 and March £100,000. Customers pay as follows:\n20% in the month of sale, receiving a 2% discount for prompt payment\n50% in the month after sale\n28% in the second month after sale\n2% are irrecoverable debts\n\nWhat are the budgeted cash receipts for March?",
+      "options": {
+        "A": "£87,000",
+        "B": "£88,680",
+        "C": "£88,600",
+        "D": "£87,400"
+      },
+      "correct": "A",
+      "explanation": "March sales: £100,000 x 20% x 98% = £19,600. February sales: £90,000 x 50% = £45,000. January sales: £80,000 x 28% = £22,400. Total receipts = £87,000. Irrecoverable debts are never received, and the discount reduces the cash collected from March's cash sales.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-mi-c07-q005",
+      "chapter": 7,
+      "topic": "Preparing functional and cash budgets",
+      "question_text": "Which of the following items would NOT appear in a cash budget?",
+      "options": {
+        "A": "Proceeds from the sale of an old machine",
+        "B": "Depreciation of non-current assets",
+        "C": "Payment of corporation tax",
+        "D": "Repayment of a bank loan"
+      },
+      "correct": "B",
+      "explanation": "A cash budget includes only cash inflows and outflows. Depreciation is an accounting adjustment that spreads the cost of an asset over its life and involves no cash movement. Sale proceeds, tax payments and loan repayments are all cash flows.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c07-q006",
+      "chapter": 7,
+      "topic": "Preparing functional and cash budgets",
+      "question_text": "Each unit of product F contains 4 kg of material after processing. During processing, 20% of the material input is lost as wastage. Budgeted production is 6,000 units.\n\nWhat is the budgeted material usage?",
+      "options": {
+        "A": "19,200 kg",
+        "B": "28,800 kg",
+        "C": "30,000 kg",
+        "D": "24,000 kg"
+      },
+      "correct": "C",
+      "explanation": "Because wastage is 20% of input, the 4 kg in each finished unit is 80% of the input. Input per unit = 4 / 0.8 = 5 kg. Budgeted usage = 6,000 x 5 kg = 30,000 kg.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c07-q007",
+      "chapter": 7,
+      "topic": "Preparing functional and cash budgets",
+      "question_text": "Budgeted purchases on credit are April £60,000, May £72,000 and June £66,000. The company pays 40% of purchases in the month of purchase, taking a 3% early settlement discount, and the remaining 60% in the following month.\n\nWhat are the budgeted payments to suppliers in June?",
+      "options": {
+        "A": "£61,608",
+        "B": "£67,536",
+        "C": "£69,600",
+        "D": "£68,808"
+      },
+      "correct": "D",
+      "explanation": "June purchases paid in June: £66,000 x 40% x 97% = £25,608. May purchases paid in June: £72,000 x 60% = £43,200. Total June payments = £68,808.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c07-q008",
+      "chapter": 7,
+      "topic": "Preparing functional and cash budgets",
+      "question_text": "Which of the following together make up the master budget?",
+      "options": {
+        "A": "All functional budgets, before they are approved by the budget committee",
+        "B": "The budgeted statement of profit or loss, budgeted statement of financial position and cash budget",
+        "C": "The capital expenditure budget and the budget manual",
+        "D": "The sales budget, production budget and materials usage budget"
+      },
+      "correct": "B",
+      "explanation": "The master budget is the summary of all the functional budgets. It usually consists of the budgeted statement of profit or loss, the budgeted statement of financial position and the cash budget. Functional budgets such as the sales and production budgets feed into it.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c07-q009",
+      "chapter": 7,
+      "topic": "Preparing functional and cash budgets",
+      "question_text": "What is the main purpose of preparing a cash budget?",
+      "options": {
+        "A": "To value closing inventory",
+        "B": "To calculate the profit for the budget period",
+        "C": "To set the selling price of products",
+        "D": "To identify periods of expected cash shortage or surplus so that financing or investment can be arranged in advance"
+      },
+      "correct": "D",
+      "explanation": "A cash budget shows when cash will flow in and out. It allows management to arrange overdrafts or loans before a shortfall happens and to plan how to use surplus cash. Profit is shown in the budgeted statement of profit or loss, which includes non-cash items and is not the same as cash flow.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c07-q010",
+      "chapter": 7,
+      "topic": "Preparing functional and cash budgets",
+      "question_text": "A company's budgeted bank balance at the start of a month is an overdraft of £12,000. Budgeted cash receipts for the month are £87,000 and budgeted cash payments are £81,500.\n\nWhat is the budgeted closing bank balance?",
+      "options": {
+        "A": "Overdraft of £17,500",
+        "B": "Balance in hand of £17,500",
+        "C": "Overdraft of £6,500",
+        "D": "Balance in hand of £6,500"
+      },
+      "correct": "C",
+      "explanation": "Closing balance = opening balance + receipts - payments = -£12,000 + £87,000 - £81,500 = -£6,500. The negative balance means an overdraft of £6,500. Treating the opening overdraft as a positive balance gives the wrong answer of £17,500.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c08-q001",
+      "chapter": 8,
+      "topic": "Forecasting techniques and flexible budgets",
+      "question_text": "A company has found that its monthly overhead costs (y) are related to machine hours (x) by the regression equation y = 12,400 + 3.2x.\n\nWhat are the forecast overheads for a month with 9,000 machine hours?",
+      "options": {
+        "A": "£41,200",
+        "B": "£21,400",
+        "C": "£28,800",
+        "D": "£15,212"
+      },
+      "correct": "A",
+      "explanation": "y = 12,400 + (3.2 x 9,000) = 12,400 + 28,800 = £41,200. Here 12,400 is the estimated fixed cost and 3.2 is the variable cost per machine hour.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c08-q002",
+      "chapter": 8,
+      "topic": "Forecasting techniques and flexible budgets",
+      "question_text": "Data from 6 periods give the following totals, where x is output in thousands of units and y is total cost in £000:\nΣx = 60, Σy = 480, Σxy = 5,100, Σx² = 650\n\nUsing least squares regression, where b = (nΣxy - ΣxΣy) / (nΣx² - (Σx)²) and a = ȳ - bx̄, what is the regression line?",
+      "options": {
+        "A": "y = 6 + 20x",
+        "B": "y = 80 + 6x",
+        "C": "y = 20 + 7.85x",
+        "D": "y = 20 + 6x"
+      },
+      "correct": "D",
+      "explanation": "b = ((6 x 5,100) - (60 x 480)) / ((6 x 650) - 60²) = (30,600 - 28,800) / (3,900 - 3,600) = 1,800 / 300 = 6. Mean of y = 480/6 = 80; mean of x = 60/6 = 10. a = 80 - (6 x 10) = 20. The line is y = 20 + 6x: fixed costs of £20k and a variable cost of £6 per unit.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-mi-c08-q003",
+      "chapter": 8,
+      "topic": "Forecasting techniques and flexible budgets",
+      "question_text": "The correlation coefficient between advertising spend and sales revenue has been calculated as 0.92. Which of the following statements is correct?",
+      "options": {
+        "A": "92% of the variation in sales revenue can be explained by variation in advertising spend",
+        "B": "Advertising spend has been proved to cause the changes in sales revenue",
+        "C": "About 85% of the variation in sales revenue can be explained by variation in advertising spend",
+        "D": "There is a strong negative relationship between advertising spend and sales revenue"
+      },
+      "correct": "C",
+      "explanation": "The coefficient of determination is r² = 0.92² = 0.8464, or about 85%. This is the proportion of the variation in sales explained by variation in advertising. A high positive r shows a strong positive linear relationship, but correlation does not prove causation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c08-q004",
+      "chapter": 8,
+      "topic": "Forecasting techniques and flexible budgets",
+      "question_text": "A company uses a multiplicative time series model. The trend forecast for quarter 3 sales is 4,200 units and the seasonal index for quarter 3 is 1.15.\n\nWhat is the forecast sales volume for quarter 3?",
+      "options": {
+        "A": "4,830 units",
+        "B": "4,315 units",
+        "C": "3,652 units",
+        "D": "3,570 units"
+      },
+      "correct": "A",
+      "explanation": "In a multiplicative model, forecast = trend x seasonal index = 4,200 x 1.15 = 4,830 units. A seasonal index of 1.15 means sales in that quarter are usually 15% above the trend.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c08-q005",
+      "chapter": 8,
+      "topic": "Forecasting techniques and flexible budgets",
+      "question_text": "Actual sales in quarter 4 were 5,520 units. Under the multiplicative model, the seasonal index for quarter 4 is 1.2.\n\nWhat is the seasonally adjusted (deseasonalised) sales figure for quarter 4?",
+      "options": {
+        "A": "5,400 units",
+        "B": "4,600 units",
+        "C": "4,416 units",
+        "D": "6,624 units"
+      },
+      "correct": "B",
+      "explanation": "Seasonally adjusted figure = actual / seasonal index = 5,520 / 1.2 = 4,600 units. Removing the seasonal effect shows the underlying level of sales, which can be compared directly with other quarters.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c08-q006",
+      "chapter": 8,
+      "topic": "Forecasting techniques and flexible budgets",
+      "question_text": "Sales for four consecutive months were 120, 135, 141, 150 units. What is the three-month moving average centred on the third month?",
+      "options": {
+        "A": "145.5",
+        "B": "136.50",
+        "C": "142",
+        "D": "132"
+      },
+      "correct": "C",
+      "explanation": "The three-month moving average centred on month 3 uses months 2, 3 and 4: (135 + 141 + 150) / 3 = 426 / 3 = 142. The average of months 1 to 3 (132) would be centred on month 2.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c08-q007",
+      "chapter": 8,
+      "topic": "Forecasting techniques and flexible budgets",
+      "question_text": "A cost was £60,480 in year 4, when the relevant price index stood at 126. The index is forecast to be 138 in year 6.\n\nWhat is the forecast cost in year 6, assuming the cost moves in line with the index?",
+      "options": {
+        "A": "£66,240",
+        "B": "£67,738",
+        "C": "£83,462",
+        "D": "£55,221"
+      },
+      "correct": "A",
+      "explanation": "Forecast cost = £60,480 x 138 / 126 = £66,240. The index rises by 12 points, which is a 9.52% increase from 126; the points change should not be treated as a percentage.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c08-q008",
+      "chapter": 8,
+      "topic": "Forecasting techniques and flexible budgets",
+      "question_text": "Which of the following is a limitation of using time series analysis to forecast future sales?",
+      "options": {
+        "A": "It ignores seasonal variations completely",
+        "B": "It assumes that past patterns of trend and seasonal variation will continue into the future",
+        "C": "It cannot be used with quarterly data",
+        "D": "It can only be applied to costs, not to revenues"
+      },
+      "correct": "B",
+      "explanation": "Time series analysis extrapolates historical trends and seasonal patterns. Changes in the economy, competition or technology can break those patterns, making forecasts unreliable, especially further into the future. The technique is designed specifically to identify seasonal variations and can be applied to any data recorded over time.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c08-q009",
+      "chapter": 8,
+      "topic": "Forecasting techniques and flexible budgets",
+      "question_text": "A company's budgeted costs for 10,000 units are based on: variable costs £7.40 per unit; fixed costs £52,000; semi-variable costs of £18,000 plus £1.20 per unit. Actual output was 11,500 units.\n\nWhat is the total cost allowance in the flexed budget?",
+      "options": {
+        "A": "£156,000",
+        "B": "£179,400",
+        "C": "£167,100",
+        "D": "£168,900"
+      },
+      "correct": "D",
+      "explanation": "Variable costs = 11,500 x £7.40 = £85,100. Semi-variable costs = £18,000 + (11,500 x £1.20) = £31,800. Fixed costs stay at £52,000. Flexed budget total = £168,900. Fixed costs, and the fixed part of semi-variable costs, must not be increased in proportion to output.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c08-q010",
+      "chapter": 8,
+      "topic": "Forecasting techniques and flexible budgets",
+      "question_text": "A company budgeted to sell 10,000 units at £30 each, with variable costs of £18 per unit and fixed costs of £90,000. Actual sales were 9,200 units, generating revenue of £285,200, and total actual costs were £266,000.\n\nWhat is the total variance between actual profit and the flexed budget profit?",
+      "options": {
+        "A": "£10,800 adverse",
+        "B": "£1,200 adverse",
+        "C": "£1,200 favourable",
+        "D": "£9,600 adverse"
+      },
+      "correct": "B",
+      "explanation": "Flexed budget profit = 9,200 x (£30 - £18) - £90,000 = £110,400 - £90,000 = £20,400. Actual profit = £285,200 - £266,000 = £19,200. Variance = £1,200 adverse, because actual profit is below the flexed budget. The £10,800 difference from the original fixed budget also includes the effect of the lower sales volume.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-mi-c09-q001",
+      "chapter": 9,
+      "topic": "Standard costing and variance analysis",
+      "question_text": "A standard that assumes efficient but realistic operating conditions, with allowances for normal wastage, machine breakdowns and idle time, is known as:",
+      "options": {
+        "A": "an ideal standard",
+        "B": "a basic standard",
+        "C": "an attainable standard",
+        "D": "a historical standard"
+      },
+      "correct": "C",
+      "explanation": "An attainable standard can be achieved if operations are carried out efficiently, with allowances for normal losses and downtime. It is generally the most motivating. An ideal standard assumes perfect conditions with no allowances, and a basic standard is left unchanged over long periods to show trends.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c09-q002",
+      "chapter": 9,
+      "topic": "Standard costing and variance analysis",
+      "question_text": "A company bought 8,400 kg of material for £36,960. The standard price is £4.50 per kg.\n\nWhat is the material price variance?",
+      "options": {
+        "A": "£840 favourable",
+        "B": "£37,800 favourable",
+        "C": "£840 adverse",
+        "D": "£960 adverse"
+      },
+      "correct": "A",
+      "explanation": "Standard cost of actual purchases = 8,400 x £4.50 = £37,800. Actual cost = £36,960. Price variance = £37,800 - £36,960 = £840 favourable, because the material cost less than standard (actual price £4.40 per kg).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c09-q003",
+      "chapter": 9,
+      "topic": "Standard costing and variance analysis",
+      "question_text": "Output for the period was 2,000 units. The standard usage is 4 kg per unit at a standard price of £4.50 per kg. Actual usage was 8,400 kg, which cost £36,960.\n\nWhat is the material usage variance?",
+      "options": {
+        "A": "£1,800 favourable",
+        "B": "£960 favourable",
+        "C": "£1,760 adverse",
+        "D": "£1,800 adverse"
+      },
+      "correct": "D",
+      "explanation": "Standard usage for actual output = 2,000 x 4 kg = 8,000 kg. Actual usage = 8,400 kg, which is 400 kg more than standard. Usage variance = 400 kg x standard price £4.50 = £1,800 adverse. Usage variances are always valued at standard price.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c09-q004",
+      "chapter": 9,
+      "topic": "Standard costing and variance analysis",
+      "question_text": "Employees were paid for 5,200 hours at a total cost of £85,280. The standard rate is £16 per hour.\n\nWhat is the labour rate variance?",
+      "options": {
+        "A": "£2,080 adverse",
+        "B": "£6,880 favourable",
+        "C": "£6,880 adverse",
+        "D": "£2,080 favourable"
+      },
+      "correct": "A",
+      "explanation": "Standard cost of hours paid = 5,200 x £16 = £83,200. Actual cost = £85,280. Rate variance = £83,200 - £85,280 = £2,080 adverse. The rate variance is based on all hours paid, including any idle time.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c09-q005",
+      "chapter": 9,
+      "topic": "Standard costing and variance analysis",
+      "question_text": "Employees were paid for 5,200 hours but worked only 4,900 hours because of a machine breakdown. Output was 1,500 units, and the standard time is 3.2 hours per unit. The standard labour rate is £16 per hour.\n\nWhat are the idle time variance and the labour efficiency variance?",
+      "options": {
+        "A": "Idle time nil; efficiency £6,400 adverse",
+        "B": "Idle time £4,800 adverse; efficiency £1,600 adverse",
+        "C": "Idle time £4,800 adverse; efficiency £6,400 adverse",
+        "D": "Idle time £4,800 favourable; efficiency £1,600 favourable"
+      },
+      "correct": "B",
+      "explanation": "Idle time variance = (5,200 - 4,900) idle hours x £16 = £4,800 adverse. Standard hours for actual output = 1,500 x 3.2 = 4,800. Efficiency variance = (4,800 - 4,900 hours worked) x £16 = £1,600 adverse. Efficiency is measured on hours worked, not hours paid, so that idle time is shown separately.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-mi-c09-q006",
+      "chapter": 9,
+      "topic": "Standard costing and variance analysis",
+      "question_text": "Variable production overheads are absorbed at a standard rate of £5 per labour hour worked. In the period, 4,900 labour hours were worked and actual variable overheads were £26,100.\n\nWhat is the variable overhead expenditure variance?",
+      "options": {
+        "A": "£2,100 adverse",
+        "B": "£100 favourable",
+        "C": "£1,600 adverse",
+        "D": "£1,600 favourable"
+      },
+      "correct": "C",
+      "explanation": "Expected variable overhead for the hours worked = 4,900 x £5 = £24,500. Actual = £26,100. Expenditure variance = £24,500 - £26,100 = £1,600 adverse. Hours worked are used because variable overheads are assumed not to be incurred during idle time.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c09-q007",
+      "chapter": 9,
+      "topic": "Standard costing and variance analysis",
+      "question_text": "Budgeted fixed production overheads are £120,000 and budgeted output is 10,000 units. Fixed overheads are absorbed per unit. Actual output was 10,800 units and actual fixed overheads were £126,500.\n\nWhat is the fixed overhead volume variance under absorption costing?",
+      "options": {
+        "A": "£9,600 adverse",
+        "B": "£3,100 favourable",
+        "C": "£6,500 adverse",
+        "D": "£9,600 favourable"
+      },
+      "correct": "D",
+      "explanation": "Absorption rate = £120,000 / 10,000 = £12 per unit. Volume variance = (actual output 10,800 - budgeted output 10,000) x £12 = £9,600 favourable. Producing more than budget means more fixed overhead is absorbed. The expenditure variance is £6,500 adverse (budget £120,000 vs actual £126,500).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c09-q008",
+      "chapter": 9,
+      "topic": "Standard costing and variance analysis",
+      "question_text": "A company sold 4,600 units for total revenue of £262,200. The standard selling price is £55 per unit.\n\nWhat is the sales price variance?",
+      "options": {
+        "A": "£9,200 favourable",
+        "B": "£2 favourable",
+        "C": "£22,000 adverse",
+        "D": "£9,200 adverse"
+      },
+      "correct": "A",
+      "explanation": "Standard revenue for actual sales = 4,600 x £55 = £253,000. Actual revenue = £262,200. Price variance = £262,200 - £253,000 = £9,200 favourable, because the average actual price (£57) was higher than standard.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c09-q009",
+      "chapter": 9,
+      "topic": "Standard costing and variance analysis",
+      "question_text": "Budgeted sales were 5,000 units and actual sales were 4,600 units. The standard contribution is £22 per unit and the standard profit is £14 per unit.\n\nIf the company uses marginal costing, what is the sales volume variance?",
+      "options": {
+        "A": "£8,800 favourable",
+        "B": "£8,800 adverse",
+        "C": "£22,000 adverse",
+        "D": "£5,600 adverse"
+      },
+      "correct": "B",
+      "explanation": "Sales volume fell short of budget by 5,000 - 4,600 = 400 units. Under marginal costing the variance is valued at standard contribution: 400 x £22 = £8,800 adverse. Under absorption costing it would be valued at standard profit (£5,600).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c09-q010",
+      "chapter": 9,
+      "topic": "Standard costing and variance analysis",
+      "question_text": "A company reports a favourable material price variance and an adverse material usage variance. Which of the following is the most likely single explanation for both?",
+      "options": {
+        "A": "The standard usage was set too loosely",
+        "B": "A supplier increased its prices during the period",
+        "C": "Production staff were more skilled than standard",
+        "D": "The buyer bought cheaper, lower-quality material, which led to more wastage in production"
+      },
+      "correct": "D",
+      "explanation": "Lower-quality material is likely to be cheaper (favourable price variance) but to cause more waste or rejects (adverse usage variance). This shows how variances can be interdependent, so managers should look at them together. A price rise would cause an adverse price variance, and a loose usage standard would cause a favourable usage variance.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c09-q011",
+      "chapter": 9,
+      "topic": "Standard costing and variance analysis",
+      "question_text": "A company's budgeted profit for a period was £84,000. The operating statement shows total favourable variances of £15,300 and total adverse variances of £21,450.\n\nWhat was the actual profit?",
+      "options": {
+        "A": "£120,750",
+        "B": "£47,250",
+        "C": "£77,850",
+        "D": "£90,150"
+      },
+      "correct": "C",
+      "explanation": "Actual profit = budgeted profit + favourable variances - adverse variances = £84,000 + £15,300 - £21,450 = £77,850. Favourable variances increase profit and adverse variances reduce it.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c09-q012",
+      "chapter": 9,
+      "topic": "Standard costing and variance analysis",
+      "question_text": "A company bought 7,000 kg of material for £31,500. The material price variance was £2,100 adverse.\n\nWhat is the standard price per kg?",
+      "options": {
+        "A": "£4.20",
+        "B": "£4.80",
+        "C": "£4.50",
+        "D": "£0.30"
+      },
+      "correct": "A",
+      "explanation": "An adverse price variance means the actual cost was higher than the standard cost of the material bought. Standard cost of 7,000 kg = £31,500 - £2,100 = £29,400. Standard price = £29,400 / 7,000 = £4.20 per kg. Adding the variance would wrongly treat it as favourable.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-mi-c09-q013",
+      "chapter": 9,
+      "topic": "Standard costing and variance analysis",
+      "question_text": "Which of the following is a factor in deciding whether a variance should be investigated?",
+      "options": {
+        "A": "Whether the variance is favourable, since favourable variances never need investigating",
+        "B": "Whether the expected benefit of investigating is greater than the cost of investigating",
+        "C": "Whether the manager responsible agrees to an investigation",
+        "D": "Whether the variance arose in the first month of the year"
+      },
+      "correct": "B",
+      "explanation": "Factors include the size (materiality) of the variance, whether it is controllable, any trend over several periods, the reliability of the standard and whether the benefit of investigating outweighs the cost. Favourable variances can also need investigating, for example if they come from an unrealistic standard or from cutting quality.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c10-q001",
+      "chapter": 10,
+      "topic": "Performance measurement and management information operations",
+      "question_text": "The North division currently earns an annual profit of £360,000 on capital employed of £2,400,000. Its manager is considering a project needing an investment of £500,000, which would earn an annual profit of £70,000. The group's cost of capital is 12%.\n\nIf the manager acts to improve the division's reported performance, which of the following is correct?",
+      "options": {
+        "A": "The manager would reject the project if assessed on either ROI or residual income",
+        "B": "The manager would accept the project if assessed on either ROI or residual income",
+        "C": "The manager would accept the project if assessed on ROI, but reject it if assessed on residual income",
+        "D": "The manager would reject the project if assessed on ROI, but accept it if assessed on residual income"
+      },
+      "correct": "D",
+      "explanation": "Current ROI = £360,000 / £2,400,000 = 15.0%. The project's own ROI is £70,000 / £500,000 = 14.0%, so divisional ROI would fall to £430,000 / £2,900,000 = 14.83%, and a manager judged on ROI would reject it. Project RI = £70,000 - (12% x £500,000) = £10,000, which is positive, so a manager judged on RI would accept it. Because the return exceeds the cost of capital, accepting is in the group's interest, which shows that RI promotes goal congruence better than ROI.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-mi-c10-q002",
+      "chapter": 10,
+      "topic": "Performance measurement and management information operations",
+      "question_text": "A division has an annual controllable profit of £520,000 and controllable net assets of £3,800,000. The group charges imputed interest at 11% a year.\n\nWhat is the division's residual income?",
+      "options": {
+        "A": "£418,000",
+        "B": "£57,200",
+        "C": "£102,000",
+        "D": "£462,800"
+      },
+      "correct": "C",
+      "explanation": "Imputed interest = £3,800,000 x 11% = £418,000. Residual income = controllable profit - imputed interest = £520,000 - £418,000 = £102,000.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c10-q003",
+      "chapter": 10,
+      "topic": "Performance measurement and management information operations",
+      "question_text": "A company's revenue was £1,250,000 and its cost of sales was £812,500.\n\nWhat is the gross profit margin?",
+      "options": {
+        "A": "65%",
+        "B": "53.8%",
+        "C": "35%",
+        "D": "25%"
+      },
+      "correct": "C",
+      "explanation": "Gross profit = £1,250,000 - £812,500 = £437,500. Gross profit margin = £437,500 / £1,250,000 = 35%. Dividing by cost of sales (53.8%) gives the mark-up, not the margin.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c10-q004",
+      "chapter": 10,
+      "topic": "Performance measurement and management information operations",
+      "question_text": "A company has an operating profit margin of 8% and an asset turnover of 2.5 times.\n\nWhat is its return on capital employed (ROCE)?",
+      "options": {
+        "A": "20%",
+        "B": "3.2%",
+        "C": "10.5%",
+        "D": "31.25%"
+      },
+      "correct": "A",
+      "explanation": "ROCE = operating profit margin x asset turnover, because (profit / revenue) x (revenue / capital employed) = profit / capital employed. 8% x 2.5 = 20%.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c10-q005",
+      "chapter": 10,
+      "topic": "Performance measurement and management information operations",
+      "question_text": "At the year end a company had trade receivables of £146,000. Credit sales for the year were £1,095,000.\n\nWhat is the trade receivables collection period, to the nearest day?",
+      "options": {
+        "A": "48 days",
+        "B": "49 days",
+        "C": "8 days",
+        "D": "7 days"
+      },
+      "correct": "B",
+      "explanation": "Receivables collection period = trade receivables / credit sales x 365 = £146,000 / £1,095,000 x 365 = 48.7 days, which is 49 days to the nearest day. 7.5 is the receivables turnover in times per year, not days.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c10-q006",
+      "chapter": 10,
+      "topic": "Performance measurement and management information operations",
+      "question_text": "Which of the following correctly lists the four perspectives of Kaplan and Norton's balanced scorecard?",
+      "options": {
+        "A": "Financial; competitive; quality; flexibility",
+        "B": "Financial; customer; employee; environmental",
+        "C": "Profitability; liquidity; efficiency; gearing",
+        "D": "Financial; customer; internal business process; innovation and learning"
+      },
+      "correct": "D",
+      "explanation": "The balanced scorecard combines the financial perspective with three non-financial perspectives: customer, internal business process, and innovation and learning (also called learning and growth). It aims to balance short-term financial results with the drivers of long-term success. Competitiveness, quality and flexibility are dimensions from other performance frameworks.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c10-q007",
+      "chapter": 10,
+      "topic": "Performance measurement and management information operations",
+      "question_text": "Under the balanced scorecard, to which perspective does the measure 'percentage of revenue earned from products launched in the last two years' most naturally belong?",
+      "options": {
+        "A": "Financial",
+        "B": "Customer",
+        "C": "Internal business process",
+        "D": "Innovation and learning"
+      },
+      "correct": "D",
+      "explanation": "The innovation and learning perspective asks whether the organisation can keep improving and creating value. Revenue from recently launched products measures its ability to innovate successfully. Although expressed in revenue terms, its purpose is to track innovation rather than overall financial performance.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c10-q008",
+      "chapter": 10,
+      "topic": "Performance measurement and management information operations",
+      "question_text": "Under the controllability principle, which of the following should be excluded when assessing the performance of a divisional manager?",
+      "options": {
+        "A": "A share of head office costs allocated to the division on the basis of revenue",
+        "B": "Variable production costs incurred by the division",
+        "C": "Revenue from sales negotiated by the division's sales team",
+        "D": "Discretionary marketing spend decided by the divisional manager"
+      },
+      "correct": "A",
+      "explanation": "The controllability principle says managers should be held responsible only for costs and revenues they can control or significantly influence. Allocated head office costs are outside the divisional manager's control. Including them can demotivate the manager and distort the assessment. The other items are all within the manager's control.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c10-q009",
+      "chapter": 10,
+      "topic": "Performance measurement and management information operations",
+      "question_text": "A group closes the finance teams in each of its subsidiaries and moves transaction processing into one central shared service centre. What is the main benefit the group would expect?",
+      "options": {
+        "A": "Removal of all risk of errors in transaction processing",
+        "B": "Lower costs through economies of scale and standardised processes",
+        "C": "Greater understanding by finance staff of each subsidiary's local operations",
+        "D": "Less reliance on information technology"
+      },
+      "correct": "B",
+      "explanation": "A shared service centre brings similar activities together, cutting duplication, using economies of scale and standardising processes and systems, which reduces cost. A common drawback is that the centre is further from the business units, so local knowledge and responsiveness may be lost. It usually relies more on IT, not less, and cannot remove all risk of error.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c10-q010",
+      "chapter": 10,
+      "topic": "Performance measurement and management information operations",
+      "question_text": "The managing director of a company asks the management accountant to reduce the forecast costs in a cash flow forecast that will be given to the bank to support a loan application, although the accountant believes the original forecast is realistic. Which fundamental principle of the ICAEW Code of Ethics is most directly threatened?",
+      "options": {
+        "A": "Confidentiality",
+        "B": "Professional competence and due care",
+        "C": "Integrity",
+        "D": "Professional behaviour"
+      },
+      "correct": "C",
+      "explanation": "Integrity requires a professional accountant to be straightforward and honest and not to be knowingly associated with information that is false or misleading. Reducing costs the accountant believes are realistic would make the forecast misleading. The pressure from the managing director is an intimidation threat to this principle.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c11-q001",
+      "chapter": 11,
+      "topic": "Cost-volume-profit analysis and limiting factors",
+      "question_text": "A company's fixed costs are £288,000 a year and the contribution per unit of its only product is £24.\n\nWhat is the breakeven point in units?",
+      "options": {
+        "A": "1,000 units",
+        "B": "15,000 units",
+        "C": "12,000 units",
+        "D": "8,000 units"
+      },
+      "correct": "C",
+      "explanation": "Breakeven point = fixed costs / contribution per unit = £288,000 / £24 = 12,000 units. At this volume total contribution exactly covers fixed costs, so profit is nil.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c11-q002",
+      "chapter": 11,
+      "topic": "Cost-volume-profit analysis and limiting factors",
+      "question_text": "A product sells for £40 and has a variable cost of £26 per unit. Fixed costs are £189,000.\n\nWhat is the breakeven revenue?",
+      "options": {
+        "A": "£290,769",
+        "B": "£540,000",
+        "C": "£13,500",
+        "D": "£255,150"
+      },
+      "correct": "B",
+      "explanation": "Contribution per unit = £40 - £26 = £14. C/S ratio = £14 / £40 = 35%. Breakeven revenue = fixed costs / C/S ratio = £189,000 / 0.35 = £540,000. 13,500 would be the breakeven point in units, not £.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c11-q003",
+      "chapter": 11,
+      "topic": "Cost-volume-profit analysis and limiting factors",
+      "question_text": "Budgeted sales are 15,000 units and the breakeven point is 12,000 units.\n\nWhat is the margin of safety as a percentage of budgeted sales?",
+      "options": {
+        "A": "10%",
+        "B": "25%",
+        "C": "80%",
+        "D": "20%"
+      },
+      "correct": "D",
+      "explanation": "Margin of safety = budgeted sales - breakeven sales = 15,000 - 12,000 = 3,000 units. As a percentage of budgeted sales: 3,000 / 15,000 = 20%. This shows how far sales could fall below budget before a loss is made.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c11-q004",
+      "chapter": 11,
+      "topic": "Cost-volume-profit analysis and limiting factors",
+      "question_text": "A company's fixed costs are £288,000 and its contribution per unit is £24. It wants to make a profit of £96,000.\n\nHow many units must it sell?",
+      "options": {
+        "A": "16,000 units",
+        "B": "4,000 units",
+        "C": "12,000 units",
+        "D": "8,000 units"
+      },
+      "correct": "A",
+      "explanation": "Required units = (fixed costs + target profit) / contribution per unit = (£288,000 + £96,000) / £24 = £384,000 / £24 = 16,000 units.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c11-q005",
+      "chapter": 11,
+      "topic": "Cost-volume-profit analysis and limiting factors",
+      "question_text": "A company sells products X and Y in the fixed ratio 3:2 by units. Product X earns a contribution of £10 per unit and product Y earns £15 per unit. Fixed costs are £180,000.\n\nHow many units of product Y must be sold to break even?",
+      "options": {
+        "A": "12,000 units",
+        "B": "9,000 units",
+        "C": "6,000 units",
+        "D": "15,000 units"
+      },
+      "correct": "C",
+      "explanation": "Contribution from one 'batch' of 3 X and 2 Y = (3 x £10) + (2 x £15) = £60. Breakeven batches = £180,000 / £60 = 3,000. Units of Y = 3,000 x 2 = 6,000 (with 9,000 units of X, 15,000 units in total).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-mi-c11-q006",
+      "chapter": 11,
+      "topic": "Cost-volume-profit analysis and limiting factors",
+      "question_text": "On a profit-volume (P/V) chart for a single product, what does the slope (gradient) of the profit line represent?",
+      "options": {
+        "A": "Contribution per unit",
+        "B": "Fixed costs",
+        "C": "Selling price per unit",
+        "D": "Variable cost per unit"
+      },
+      "correct": "A",
+      "explanation": "A P/V chart plots profit against sales volume. The line starts at a loss equal to fixed costs at zero sales, and profit rises by the contribution earned on each extra unit, so the gradient is contribution per unit. If sales are measured in £ revenue, the gradient is the C/S ratio. The line crosses the horizontal axis at the breakeven point.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c11-q007",
+      "chapter": 11,
+      "topic": "Cost-volume-profit analysis and limiting factors",
+      "question_text": "Which of the following is an assumption of basic cost-volume-profit analysis?",
+      "options": {
+        "A": "Inventory levels change significantly during the period",
+        "B": "Selling price and variable cost per unit stay constant at all levels of activity",
+        "C": "The sales mix changes as total volume increases",
+        "D": "Fixed costs rise in steps as output increases"
+      },
+      "correct": "B",
+      "explanation": "CVP analysis assumes linear relationships: a constant selling price and variable cost per unit, fixed costs that stay the same within the relevant range, a constant sales mix where there is more than one product, and production equal to sales, so there is no change in inventory. These assumptions are also its main limitations.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c11-q008",
+      "chapter": 11,
+      "topic": "Cost-volume-profit analysis and limiting factors",
+      "question_text": "A company sells 20,000 units a year of a product priced at £50. The variable cost is £30 per unit and fixed costs are £150,000. The company plans to cut the price by 10%.\n\nHow many units must it sell at the new price to earn the same profit as now (to the nearest unit)?",
+      "options": {
+        "A": "16,667 units",
+        "B": "22,000 units",
+        "C": "10,000 units",
+        "D": "26,667 units"
+      },
+      "correct": "D",
+      "explanation": "Current profit = 20,000 x (£50 - £30) - £150,000 = £250,000. New price = £50 x 0.9 = £45, so the new contribution is £15 per unit. Required units = (£250,000 + £150,000) / £15 = 26,666.67, so 26,667 units must be sold. A 10% price cut needs a 33% increase in volume just to keep profit the same.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-mi-c11-q009",
+      "chapter": 11,
+      "topic": "Cost-volume-profit analysis and limiting factors",
+      "question_text": "A company makes three products. Labour is limited to 9,000 hours in the coming period.\nProduct A: contribution £36 per unit, 3 labour hours per unit, maximum demand 1,200 units\nProduct B: contribution £30 per unit, 2 labour hours per unit, maximum demand 2,000 units\nProduct C: contribution £44 per unit, 4 labour hours per unit, maximum demand 1,500 units\n\nWhat is the maximum total contribution the company can earn?",
+      "options": {
+        "A": "£118,600",
+        "B": "£169,200",
+        "C": "£115,000",
+        "D": "£102,000"
+      },
+      "correct": "A",
+      "explanation": "Contribution per labour hour: A £12; B £15; C £11. Ranking is B, A, C. Production plan: B 2,000 units; A 1,200 units; C 350 units (B uses 4,000 hours, A uses 3,600 hours, leaving 1,400 hours for 350 units of C). Total contribution = £60,000 + £43,200 + £15,400 = £118,600. Ranking by contribution per unit gives only £102,000 because it ignores the scarce resource.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-mi-c11-q010",
+      "chapter": 11,
+      "topic": "Cost-volume-profit analysis and limiting factors",
+      "question_text": "A company has demand for 5,000 units of its only product. Each unit needs 2 kg of material and 3 labour hours. Next period 9,000 kg of material and 16,000 labour hours are available.\n\nWhich of the following is correct?",
+      "options": {
+        "A": "Both material and labour are limiting factors",
+        "B": "Material is a limiting factor, but labour is not",
+        "C": "Neither material nor labour is a limiting factor; sales demand is the only limit",
+        "D": "Labour is a limiting factor, but material is not"
+      },
+      "correct": "B",
+      "explanation": "Material needed = 5,000 x 2 kg = 10,000 kg, but only 9,000 kg are available, so material is a limiting factor (it allows only 4,500 units). Labour needed = 5,000 x 3 = 15,000 hours, which is within the 16,000 hours available. Labour is not a limiting factor.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c12-q001",
+      "chapter": 12,
+      "topic": "Relevant costs and short-term decisions",
+      "question_text": "A contract needs 800 kg of material T. The company holds 500 kg, which originally cost £6.00 per kg. Material T is used regularly in the company's production. Its current replacement cost is £7.50 per kg and its resale value is £4.00 per kg.\n\nWhat is the relevant cost of material T for the contract?",
+      "options": {
+        "A": "£4,800",
+        "B": "£4,250",
+        "C": "£5,250",
+        "D": "£6,000"
+      },
+      "correct": "D",
+      "explanation": "Because material T is used regularly, any inventory used on the contract will have to be replaced. All 800 kg are therefore valued at replacement cost: 800 x £7.50 = £6,000. The original cost of £6.00 is a sunk cost and is not relevant.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c12-q002",
+      "chapter": 12,
+      "topic": "Relevant costs and short-term decisions",
+      "question_text": "A contract needs 800 kg of material V. The company holds 500 kg, which originally cost £6.00 per kg. Material V is no longer used in the company's production and, if not used on the contract, would be sold for £4.00 per kg. The current purchase price is £7.50 per kg.\n\nWhat is the relevant cost of material V for the contract?",
+      "options": {
+        "A": "£6,000",
+        "B": "£5,250",
+        "C": "£4,250",
+        "D": "£2,250"
+      },
+      "correct": "C",
+      "explanation": "The 500 kg held have no other use, so the relevant cost of using them is the sale proceeds given up: 500 x £4.00 = £2,000. The remaining 300 kg must be bought at £7.50, costing £2,250. Total relevant cost = £4,250. The original cost is sunk.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-mi-c12-q003",
+      "chapter": 12,
+      "topic": "Relevant costs and short-term decisions",
+      "question_text": "A special order needs 200 hours of skilled labour. Skilled workers are paid £18 per hour and are fully employed on other work, which earns a contribution of £10 per labour hour after charging labour cost. Workers would be moved from this other work to the special order.\n\nWhat is the relevant cost of skilled labour for the special order?",
+      "options": {
+        "A": "£5,600",
+        "B": "Nil, because the workers are paid regardless",
+        "C": "£2,000",
+        "D": "£3,600"
+      },
+      "correct": "A",
+      "explanation": "Moving workers means the other work is lost. Relevant cost = labour cost + contribution forgone = 200 x (£18 + £10) = £5,600. The wage cost is included because, when the other work is given up, its contribution is measured after charging that wage.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-mi-c12-q004",
+      "chapter": 12,
+      "topic": "Relevant costs and short-term decisions",
+      "question_text": "Market research costing £12,000 has already been carried out and paid for in connection with a possible new product. In deciding whether to launch the product, how should the £12,000 be treated?",
+      "options": {
+        "A": "Spread over the expected sales volume of the product",
+        "B": "Ignored, because it is a sunk cost",
+        "C": "Included as a relevant cost, because it relates to the product",
+        "D": "Included only if the product is launched"
+      },
+      "correct": "B",
+      "explanation": "A sunk cost has already been incurred and cannot be changed by any future decision, so it is not relevant to the launch decision. Only future, incremental cash flows that differ between the alternatives are relevant.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-mi-c12-q005",
+      "chapter": 12,
+      "topic": "Relevant costs and short-term decisions",
+      "question_text": "A company makes 10,000 components a year at a variable cost of £28 per unit. An outside supplier offers to supply them for £32 per unit. If the components are bought in, specific fixed costs of £15,000 a year would be saved. Other fixed costs would not change.\n\nWhat should the company do?",
+      "options": {
+        "A": "Buy the components, saving £15,000 a year",
+        "B": "Buy the components, saving £25,000 a year",
+        "C": "Continue to make the components, saving £25,000 a year",
+        "D": "Continue to make the components, saving £40,000 a year"
+      },
+      "correct": "C",
+      "explanation": "Relevant cost of making = (10,000 x £28) + avoidable fixed costs £15,000 = £295,000. Cost of buying = 10,000 x £32 = £320,000. Making is cheaper by £25,000. Fixed costs that will not change are irrelevant. Non-financial factors such as quality and reliability of supply should also be considered.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c12-q006",
+      "chapter": 12,
+      "topic": "Relevant costs and short-term decisions",
+      "question_text": "A product line earns a contribution of £45,000 a year and is charged fixed costs of £60,000, so it shows a loss of £15,000. Of these fixed costs, £20,000 would be saved if the product line were closed. The rest are general overheads that would be reallocated to other products.\n\nWhat would be the effect on company profit of closing the product line?",
+      "options": {
+        "A": "Profit would rise by £15,000",
+        "B": "Profit would rise by £20,000",
+        "C": "Profit would fall by £45,000",
+        "D": "Profit would fall by £25,000"
+      },
+      "correct": "D",
+      "explanation": "Closing loses contribution of £45,000 and saves avoidable fixed costs of £20,000, so profit falls by £25,000. The other £40,000 of general overheads would still be incurred and so is irrelevant. The reported loss is misleading because it includes unavoidable allocated costs.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c12-q007",
+      "chapter": 12,
+      "topic": "Relevant costs and short-term decisions",
+      "question_text": "A process produces 5,000 kg of joint product J, which can be sold at the split-off point for £8 per kg. Alternatively, J can be processed further at a cost of £3 per kg and then sold for £12 per kg. Joint costs of £40,000 are apportioned to J.\n\nWhat should the company do with product J?",
+      "options": {
+        "A": "Process further, which increases profit by £45,000",
+        "B": "Process further, which increases profit by £5,000",
+        "C": "Process further, which increases profit by £20,000",
+        "D": "Sell at split-off, because further processing reduces profit by £35,000"
+      },
+      "correct": "B",
+      "explanation": "Incremental revenue from further processing = £12 - £8 = £4 per kg, and the incremental cost is £3 per kg. The net gain is £1 per kg x 5,000 kg = £5,000, so J should be processed further. The joint costs of £40,000 are incurred whatever is decided and are irrelevant.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c13-q001",
+      "chapter": 13,
+      "topic": "Investment appraisal and sensitivity analysis",
+      "question_text": "A project needs an initial investment of £180,000. Net cash inflows are expected to be: year 1 £45,000, year 2 £55,000, year 3 £70,000, year 4 £80,000. Cash flows arise evenly over each year.\n\nWhat is the payback period?",
+      "options": {
+        "A": "3.125 years",
+        "B": "4.000 years",
+        "C": "2.88 years",
+        "D": "3.143 years"
+      },
+      "correct": "A",
+      "explanation": "Cumulative cash flows: year 1 £45,000, year 2 £100,000, year 3 £170,000. After 3 years, £10,000 is still to be recovered from year 4's inflow of £80,000. Payback = 3 + 10,000/80,000 = 3.125 years (about 3 years and 1.5 months).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c13-q002",
+      "chapter": 13,
+      "topic": "Investment appraisal and sensitivity analysis",
+      "question_text": "A machine costs £240,000 and will be sold for £40,000 at the end of its 5-year life. Total net cash inflows from the machine over the 5 years are expected to be £360,000. Depreciation is charged on a straight-line basis.\n\nWhat is the accounting rate of return based on average investment (to one decimal place)?",
+      "options": {
+        "A": "51.4%",
+        "B": "17.1%",
+        "C": "22.9%",
+        "D": "13.3%"
+      },
+      "correct": "C",
+      "explanation": "Total profit = net cash inflows £360,000 - total depreciation (£240,000 - £40,000) £200,000 = £160,000. Average annual profit = £160,000 / 5 = £32,000. Average investment = (£240,000 + £40,000) / 2 = £140,000. ARR = £32,000 / £140,000 = 22.9%.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-mi-c13-q003",
+      "chapter": 13,
+      "topic": "Investment appraisal and sensitivity analysis",
+      "question_text": "A project needs an investment of £150,000 now and will generate net cash inflows of £42,000 a year for 5 years, starting in one year's time. The cost of capital is 10%, and the 5-year annuity factor at 10% is 3.791.\n\nWhat is the net present value of the project?",
+      "options": {
+        "A": "-£16,860",
+        "B": "£60,000",
+        "C": "£159,222",
+        "D": "£9,222"
+      },
+      "correct": "D",
+      "explanation": "PV of inflows = £42,000 x 3.791 = £159,222. NPV = £159,222 - £150,000 = £9,222. Because the NPV is positive, the project earns more than the 10% cost of capital and should be accepted on financial grounds.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c13-q004",
+      "chapter": 13,
+      "topic": "Investment appraisal and sensitivity analysis",
+      "question_text": "A project costs £200,000 now. Net cash inflows are expected at the end of each year as follows: year 1 £60,000, year 2 £80,000, year 3 £90,000, year 4 £50,000. The cost of capital is 12%. Discount factors at 12% are: year 1 0.893, year 2 0.797, year 3 0.712, year 4 0.636.\n\nWhat is the net present value of the project?",
+      "options": {
+        "A": "£13,220",
+        "B": "£38,770",
+        "C": "£80,000",
+        "D": "£22,360"
+      },
+      "correct": "A",
+      "explanation": "Present values: year 1 £60,000 x 0.893 = £53,580; year 2 £80,000 x 0.797 = £63,760; year 3 £90,000 x 0.712 = £64,080; year 4 £50,000 x 0.636 = £31,800. Total PV of inflows = £213,220. NPV = £213,220 - £200,000 = £13,220.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-mi-c13-q005",
+      "chapter": 13,
+      "topic": "Investment appraisal and sensitivity analysis",
+      "question_text": "A project has an NPV of £9,222 at a discount rate of 10% and an NPV of -£9,216 at 15%.\n\nUsing linear interpolation, what is the estimated internal rate of return (to one decimal place)?",
+      "options": {
+        "A": "13.5%",
+        "B": "17.5%",
+        "C": "11.0%",
+        "D": "12.5%"
+      },
+      "correct": "D",
+      "explanation": "IRR = L + [NPV at L / (NPV at L - NPV at H)] x (H - L) = 10% + [9,222 / (9,222 + 9,216)] x 5% = 10% + (9,222 / 18,438) x 5% = 12.5%. The IRR lies between the two rates because the NPV changes from positive to negative. Since it is above the 10% cost of capital, the project is acceptable.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-mi-c13-q006",
+      "chapter": 13,
+      "topic": "Investment appraisal and sensitivity analysis",
+      "question_text": "An investment is expected to generate £18,000 a year in perpetuity, with the first receipt in one year's time. The cost of capital is 8%.\n\nWhat is the present value of the receipts?",
+      "options": {
+        "A": "£207,000",
+        "B": "£225,000",
+        "C": "£144,000",
+        "D": "£243,000"
+      },
+      "correct": "B",
+      "explanation": "PV of a perpetuity starting in one year = annual cash flow / cost of capital = £18,000 / 0.08 = £225,000. If the first receipt were immediate (year 0), a further £18,000 would be added.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-mi-c13-q007",
+      "chapter": 13,
+      "topic": "Investment appraisal and sensitivity analysis",
+      "question_text": "A project will generate £10,000 a year at the end of years 3 to 7 inclusive. The cost of capital is 10%. Annuity factors at 10% are: 2 years 1.736, 3 years 2.487, 5 years 3.791, 7 years 4.868.\n\nWhat is the present value of these cash flows?",
+      "options": {
+        "A": "£48,680",
+        "B": "£37,910",
+        "C": "£31,320",
+        "D": "£23,810"
+      },
+      "correct": "C",
+      "explanation": "The cash flows are a 5-year annuity covering years 3 to 7. Annuity factor = 7-year factor - 2-year factor = 4.868 - 1.736 = 3.132. PV = £10,000 x 3.132 = £31,320. Subtracting the 3-year factor would wrongly exclude year 3.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-mi-c13-q008",
+      "chapter": 13,
+      "topic": "Investment appraisal and sensitivity analysis",
+      "question_text": "A project needs an investment of £150,000 and has annual net cash inflows of £42,000 for 5 years. At a cost of capital of 10%, the present value of the inflows is £159,222 and the NPV is £9,222.\n\nBy what percentage could the annual cash inflows fall before the project's NPV becomes zero (to one decimal place)?",
+      "options": {
+        "A": "6.1%",
+        "B": "4.4%",
+        "C": "22.0%",
+        "D": "5.8%"
+      },
+      "correct": "D",
+      "explanation": "Sensitivity = NPV / PV of the cash flow under review = £9,222 / £159,222 = 5.8%. If annual inflows fell by more than this, the NPV would become negative. The 6.1% figure is the sensitivity of the initial investment, not of the inflows.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-mi-c13-q009",
+      "chapter": 13,
+      "topic": "Investment appraisal and sensitivity analysis",
+      "question_text": "In a net present value calculation for a new production line, which of the following should be included as a relevant cash flow?",
+      "options": {
+        "A": "Annual depreciation of the production line",
+        "B": "Interest payments on a loan used to finance the project",
+        "C": "Working capital needed at the start of the project and released at the end",
+        "D": "A share of existing head office costs allocated to the project"
+      },
+      "correct": "C",
+      "explanation": "Relevant cash flows are future, incremental cash flows caused by the project. Working capital tied up and later released is a real cash flow. Depreciation is not a cash flow, allocated head office costs that do not change are not incremental, and financing costs are already allowed for in the discount rate, so including interest would count them twice.",
+      "difficulty": "medium"
+    }
+  ]
+}

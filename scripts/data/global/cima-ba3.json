@@ -1,0 +1,1955 @@
+{
+  "subject_id": "cima-ba3",
+  "questions": [
+    {
+      "id": "cima-ba3-c01-q001",
+      "chapter": 1,
+      "topic": "The accounting framework and the Conceptual Framework",
+      "question_text": "Which of the following best describes the main purpose of financial accounting, as distinct from management accounting?",
+      "options": {
+        "A": "To record transactions and report the financial performance and position of an entity, mainly for external users",
+        "B": "To prepare budgets and forecasts to help managers plan future operations",
+        "C": "To calculate standard costs and analyse variances for internal control",
+        "D": "To provide detailed product costings to support pricing decisions"
+      },
+      "correct": "A",
+      "explanation": "Financial accounting records an entity's transactions and summarises them in financial statements that report its performance and position, mainly for external users such as investors and lenders. Budgets, standard costing, variance analysis and product costing are management accounting tools prepared for internal decision-making.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c01-q002",
+      "chapter": 1,
+      "topic": "The accounting framework and the Conceptual Framework",
+      "question_text": "According to the IASB Conceptual Framework for Financial Reporting, what is the objective of general purpose financial reporting?",
+      "options": {
+        "A": "To provide tax authorities with the information needed to calculate the entity's tax liability",
+        "B": "To demonstrate that the directors have complied with company law in every respect",
+        "C": "To provide management with information needed to control day-to-day operations",
+        "D": "To provide financial information about the reporting entity that is useful to existing and potential investors, lenders and other creditors in making decisions about providing resources to the entity"
+      },
+      "correct": "D",
+      "explanation": "The Conceptual Framework states that the objective of general purpose financial reporting is to provide information useful to existing and potential investors, lenders and other creditors when deciding whether to provide resources to the entity. Tax computation, legal compliance and internal control are not the stated objective, although other parties may find the information useful.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c01-q003",
+      "chapter": 1,
+      "topic": "The accounting framework and the Conceptual Framework",
+      "question_text": "Which group does the Conceptual Framework identify as the primary users of general purpose financial reports?",
+      "options": {
+        "A": "Existing and potential investors, lenders and other creditors",
+        "B": "Employees and trade unions",
+        "C": "Government agencies and regulators",
+        "D": "Customers and the general public"
+      },
+      "correct": "A",
+      "explanation": "The primary users are existing and potential investors, lenders and other creditors, because they cannot require reporting entities to provide information directly to them. Employees, government, customers and the public may also use the reports but are not the primary users to whom they are directed.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c01-q004",
+      "chapter": 1,
+      "topic": "The accounting framework and the Conceptual Framework",
+      "question_text": "Under the IASB Conceptual Framework, an asset is defined as:",
+      "options": {
+        "A": "A resource owned by the entity from which future profits are certain to arise",
+        "B": "Any item of property purchased by the entity which has a measurable cost",
+        "C": "A future economic benefit that the entity expects to obtain from planned transactions",
+        "D": "A present economic resource controlled by the entity as a result of past events"
+      },
+      "correct": "D",
+      "explanation": "The Conceptual Framework defines an asset as a present economic resource controlled by the entity as a result of past events, where an economic resource is a right that has the potential to produce economic benefits. Control, not legal ownership, is the test, and certainty of benefits is not required. Planned future transactions do not create a present resource.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c01-q005",
+      "chapter": 1,
+      "topic": "The accounting framework and the Conceptual Framework",
+      "question_text": "Under the IASB Conceptual Framework, which of the following is the definition of a liability?",
+      "options": {
+        "A": "A present obligation of the entity to transfer an economic resource as a result of past events",
+        "B": "An amount that the entity expects to pay at some time in the future",
+        "C": "A possible obligation that will be confirmed by uncertain future events",
+        "D": "A credit balance in the ledger arising from an expense that has been paid"
+      },
+      "correct": "A",
+      "explanation": "A liability is a present obligation of the entity to transfer an economic resource as a result of past events. An expected future payment without a present obligation is not a liability, and a possible obligation dependent on uncertain future events is a contingent liability rather than a recognised liability.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c01-q006",
+      "chapter": 1,
+      "topic": "The accounting framework and the Conceptual Framework",
+      "question_text": "Which of the following is NOT one of the elements of financial statements identified in the IASB Conceptual Framework?",
+      "options": {
+        "A": "Equity",
+        "B": "Income",
+        "C": "Expenses",
+        "D": "Profit"
+      },
+      "correct": "D",
+      "explanation": "The elements are assets, liabilities, equity, income and expenses. Profit is not a separate element; it is the result of deducting expenses from income.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c01-q007",
+      "chapter": 1,
+      "topic": "The accounting framework and the Conceptual Framework",
+      "question_text": "Which body is responsible for developing and issuing IFRS Accounting Standards?",
+      "options": {
+        "A": "The International Accounting Standards Board (IASB)",
+        "B": "The IFRS Advisory Council",
+        "C": "National stock exchanges",
+        "D": "The external auditors of each listed company"
+      },
+      "correct": "A",
+      "explanation": "The IASB is the independent standard-setting body that develops and issues IFRS Accounting Standards. The Advisory Council only advises the IASB and the Trustees, stock exchanges may require IFRS for listing but do not write the standards, and auditors report on financial statements but do not set standards.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c01-q008",
+      "chapter": 1,
+      "topic": "The accounting framework and the Conceptual Framework",
+      "question_text": "A business is set up as a limited liability company rather than as a sole trader. Which of the following is a consequence of this?",
+      "options": {
+        "A": "The owners are personally liable for all the debts of the business",
+        "B": "The company does not need to prepare financial statements",
+        "C": "Profits are taxed as the personal income of the shareholders",
+        "D": "The shareholders' liability for the company's debts is limited to the amount unpaid on their shares"
+      },
+      "correct": "D",
+      "explanation": "A limited liability company is a separate legal entity, so shareholders can lose no more than the amount they have paid, or agreed to pay, for their shares. Unlimited personal liability applies to a sole trader. Companies must prepare financial statements and are taxed on their own profits.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c01-q009",
+      "chapter": 1,
+      "topic": "The accounting framework and the Conceptual Framework",
+      "question_text": "Which of the following is a current value measurement basis described in the IASB Conceptual Framework?",
+      "options": {
+        "A": "Fair value",
+        "B": "Historical cost",
+        "C": "Amortised cost",
+        "D": "Original transaction price"
+      },
+      "correct": "A",
+      "explanation": "The Conceptual Framework describes two categories of measurement basis: historical cost and current value. Current value bases are fair value, value in use (for assets) or fulfilment value (for liabilities), and current cost. The Framework states that applying the historical cost basis to financial assets and financial liabilities can be done by measuring them at amortised cost, so amortised cost is a historical cost measure, as is the original transaction price; neither is updated to reflect conditions at the measurement date.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba3-c01-q010",
+      "chapter": 1,
+      "topic": "The accounting framework and the Conceptual Framework",
+      "question_text": "Under the revised IASB Conceptual Framework, an item that meets the definition of an element is recognised in the financial statements when:",
+      "options": {
+        "A": "It is probable that future economic benefits will flow and its cost can be measured reliably",
+        "B": "Its value exceeds a materiality threshold set by the IASB",
+        "C": "It has been approved by the entity's external auditors",
+        "D": "Recognising it provides users with relevant information and a faithful representation of the item"
+      },
+      "correct": "D",
+      "explanation": "The revised Conceptual Framework recognises an element when doing so gives users relevant information and a faithful representation. The 'probable flow of benefits and reliable measurement' test was the recognition criterion in the earlier framework and has been replaced. The IASB sets no monetary materiality threshold, and auditors do not approve individual items.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba3-c02-q001",
+      "chapter": 2,
+      "topic": "Accounting concepts and qualitative characteristics",
+      "question_text": "According to the IASB Conceptual Framework, what are the two fundamental qualitative characteristics of useful financial information?",
+      "options": {
+        "A": "Relevance and faithful representation",
+        "B": "Comparability and understandability",
+        "C": "Timeliness and verifiability",
+        "D": "Prudence and consistency"
+      },
+      "correct": "A",
+      "explanation": "The two fundamental qualitative characteristics are relevance and faithful representation. Comparability, verifiability, timeliness and understandability are enhancing characteristics. Prudence supports neutrality, and consistency helps to achieve comparability, but neither is a fundamental characteristic.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c02-q002",
+      "chapter": 2,
+      "topic": "Accounting concepts and qualitative characteristics",
+      "question_text": "Which of the following is NOT an enhancing qualitative characteristic in the IASB Conceptual Framework?",
+      "options": {
+        "A": "Comparability",
+        "B": "Timeliness",
+        "C": "Verifiability",
+        "D": "Relevance"
+      },
+      "correct": "D",
+      "explanation": "The enhancing qualitative characteristics are comparability, verifiability, timeliness and understandability. Relevance is one of the two fundamental qualitative characteristics, together with faithful representation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c02-q003",
+      "chapter": 2,
+      "topic": "Accounting concepts and qualitative characteristics",
+      "question_text": "Financial statements are normally prepared on the assumption that the entity will continue in operation for the foreseeable future. Which concept is this?",
+      "options": {
+        "A": "Going concern",
+        "B": "Accruals",
+        "C": "Consistency",
+        "D": "Business entity"
+      },
+      "correct": "A",
+      "explanation": "This is the going concern assumption. If the entity intends or needs to liquidate or cease trading, the financial statements may have to be prepared on a different basis, such as a break-up basis, and that basis must be disclosed.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c02-q004",
+      "chapter": 2,
+      "topic": "Accounting concepts and qualitative characteristics",
+      "question_text": "Under the accruals basis of accounting, transactions are recognised:",
+      "options": {
+        "A": "Only when cash is received or paid",
+        "B": "Only when an invoice has been settled in full",
+        "C": "In the periods in which they occur, even if the related cash is received or paid in a different period",
+        "D": "When the directors decide that recognition is prudent"
+      },
+      "correct": "C",
+      "explanation": "Accrual accounting records the effects of transactions and other events in the periods in which they occur, not when the cash is received or paid. This is why accruals, prepayments, receivables and payables are recognised at the period end.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c02-q005",
+      "chapter": 2,
+      "topic": "Accounting concepts and qualitative characteristics",
+      "question_text": "Under the IASB Conceptual Framework, when is information considered material?",
+      "options": {
+        "A": "When omitting, misstating or obscuring it could reasonably be expected to influence the decisions of the primary users of the financial statements",
+        "B": "When its value exceeds 5% of profit before tax",
+        "C": "When the external auditor has requested that it be disclosed",
+        "D": "When it relates to a transaction with a value above a limit set in the IFRS Standards"
+      },
+      "correct": "A",
+      "explanation": "Information is material if omitting, misstating or obscuring it could reasonably be expected to influence decisions made by the primary users. Materiality depends on the nature and size of the item in the context of the entity. The IFRS Standards set no fixed percentage or monetary limit; a percentage such as 5% is only a practical rule of thumb.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c02-q006",
+      "chapter": 2,
+      "topic": "Accounting concepts and qualitative characteristics",
+      "question_text": "The owner of a shop takes goods from inventory for her family's personal use. These are recorded as drawings rather than as a business expense. Which concept explains this treatment?",
+      "options": {
+        "A": "Going concern concept",
+        "B": "Materiality concept",
+        "C": "Accruals concept",
+        "D": "Business entity concept"
+      },
+      "correct": "D",
+      "explanation": "The business entity concept treats the business as separate from its owner. Goods taken for personal use are not a cost of earning business income, so they are recorded as drawings, which reduce the owner's capital.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c02-q007",
+      "chapter": 2,
+      "topic": "Accounting concepts and qualitative characteristics",
+      "question_text": "Which of the following is NOT one of the components of faithful representation described in the IASB Conceptual Framework?",
+      "options": {
+        "A": "Complete",
+        "B": "Neutral",
+        "C": "Comparable",
+        "D": "Free from error"
+      },
+      "correct": "C",
+      "explanation": "A perfectly faithful representation would be complete, neutral and free from error. Comparability is a separate enhancing qualitative characteristic, not a component of faithful representation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c02-q008",
+      "chapter": 2,
+      "topic": "Accounting concepts and qualitative characteristics",
+      "question_text": "Which of the following items of expenditure should be treated as capital expenditure?",
+      "options": {
+        "A": "Repainting the walls of the existing office",
+        "B": "Repairs to a broken machine",
+        "C": "The annual insurance premium on a delivery van",
+        "D": "Legal fees paid in connection with the purchase of a new office building"
+      },
+      "correct": "D",
+      "explanation": "Capital expenditure is spent on acquiring or enhancing non-current assets. Legal fees directly attributable to buying a building are part of the asset's cost. Repainting, repairs and insurance maintain existing assets or are running costs, so they are revenue expenditure charged to profit or loss.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c03-q001",
+      "chapter": 3,
+      "topic": "Double entry bookkeeping and the accounting equation",
+      "question_text": "A business has total assets of $84,500 and total liabilities of $31,200. What is the owner's capital?",
+      "options": {
+        "A": "$31,200",
+        "B": "$53,300",
+        "C": "$63,300",
+        "D": "$115,700"
+      },
+      "correct": "B",
+      "explanation": "Assets = Capital + Liabilities, so Capital = Assets - Liabilities = $84,500 - $31,200 = $53,300.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c03-q002",
+      "chapter": 3,
+      "topic": "Double entry bookkeeping and the accounting equation",
+      "question_text": "A sole trader's net assets were $40,000 at the start of the year and $52,500 at the end. During the year the owner withdrew $9,000 and introduced additional capital of $6,000. What was the profit for the year?",
+      "options": {
+        "A": "$9,500",
+        "B": "$12,500",
+        "C": "$15,500",
+        "D": "$27,500"
+      },
+      "correct": "C",
+      "explanation": "Closing net assets = Opening net assets + Capital introduced + Profit - Drawings. So Profit = Closing - Opening + Drawings - Capital introduced = $52,500 - $40,000 + $9,000 - $6,000 = $15,500.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c03-q003",
+      "chapter": 3,
+      "topic": "Double entry bookkeeping and the accounting equation",
+      "question_text": "A business buys goods for resale on credit from a supplier. What is the double entry?",
+      "options": {
+        "A": "Debit Purchases, Credit Payables",
+        "B": "Debit Payables, Credit Purchases",
+        "C": "Debit Inventory, Credit Bank",
+        "D": "Debit Purchases, Credit Bank"
+      },
+      "correct": "A",
+      "explanation": "A credit purchase of goods for resale increases the purchases expense (debit) and creates a liability to the supplier (credit payables). No cash is paid at the time, so the bank account is not affected. Purchases are recorded in the purchases account during the year; inventory is adjusted only at the period end.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c03-q004",
+      "chapter": 3,
+      "topic": "Double entry bookkeeping and the accounting equation",
+      "question_text": "The owner of a business takes goods costing $600 from inventory for personal use. What is the double entry?",
+      "options": {
+        "A": "Debit Drawings $600, Credit Purchases $600",
+        "B": "Debit Purchases $600, Credit Drawings $600",
+        "C": "Debit Drawings $600, Credit Sales $600",
+        "D": "Debit Capital $600, Credit Bank $600"
+      },
+      "correct": "A",
+      "explanation": "Goods taken for personal use reduce the owner's interest in the business, so drawings is debited. The goods are no longer available for resale, so the cost is removed from purchases with a credit. No sale has taken place and no cash is involved.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c03-q005",
+      "chapter": 3,
+      "topic": "Double entry bookkeeping and the accounting equation",
+      "question_text": "A credit customer pays the amount owed by bank transfer. What is the double entry?",
+      "options": {
+        "A": "Debit Receivables, Credit Bank",
+        "B": "Debit Bank, Credit Sales",
+        "C": "Debit Bank, Credit Receivables",
+        "D": "Debit Sales, Credit Receivables"
+      },
+      "correct": "C",
+      "explanation": "Cash received increases the bank balance (debit bank) and settles the customer's debt, reducing receivables (credit receivables). The sale was already recorded when the credit invoice was issued, so the sales account is not affected again.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c03-q006",
+      "chapter": 3,
+      "topic": "Double entry bookkeeping and the accounting equation",
+      "question_text": "The receivables account of a business showed an opening debit balance of $4,200. During the month credit sales were $18,600, cash received from credit customers was $15,900 and an irrecoverable debt of $700 was written off. What is the closing balance on the account?",
+      "options": {
+        "A": "$5,500 debit",
+        "B": "$6,200 debit",
+        "C": "$6,900 debit",
+        "D": "$7,600 debit"
+      },
+      "correct": "B",
+      "explanation": "Debits: opening balance $4,200 + credit sales $18,600 = $22,800. Credits: cash received $15,900 + irrecoverable debt $700 = $16,600. Closing debit balance = $22,800 - $16,600 = $6,200.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c03-q007",
+      "chapter": 3,
+      "topic": "Double entry bookkeeping and the accounting equation",
+      "question_text": "Which of the following accounts would normally have a credit balance?",
+      "options": {
+        "A": "Drawings",
+        "B": "Inventory",
+        "C": "Carriage inwards",
+        "D": "Trade payables"
+      },
+      "correct": "D",
+      "explanation": "Trade payables are a liability and so normally have a credit balance. Drawings, inventory (an asset) and carriage inwards (an expense) normally have debit balances.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c03-q008",
+      "chapter": 3,
+      "topic": "Double entry bookkeeping and the accounting equation",
+      "question_text": "A business buys a machine on credit. What is the effect of this transaction on the accounting equation?",
+      "options": {
+        "A": "Assets increase and capital increases",
+        "B": "Assets increase and assets decrease by the same amount",
+        "C": "Assets increase and liabilities increase",
+        "D": "Liabilities increase and capital decreases"
+      },
+      "correct": "C",
+      "explanation": "The machine is a new asset and the amount owed to the supplier is a new liability, so both sides of the equation increase by the same amount. Capital is unaffected because no income or expense arises.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c03-q009",
+      "chapter": 3,
+      "topic": "Double entry bookkeeping and the accounting equation",
+      "question_text": "The following balances were extracted from a sole trader's ledger: capital $30,000, drawings $6,000, sales $85,000, purchases $52,000, trade payables $7,400, trade receivables $9,800, bank overdraft $2,600, non-current assets $41,000 and expenses $16,200. What is the total of the debit column of the trial balance?",
+      "options": {
+        "A": "$119,000",
+        "B": "$125,000",
+        "C": "$127,600",
+        "D": "$132,400"
+      },
+      "correct": "B",
+      "explanation": "Debit balances are drawings $6,000, purchases $52,000, receivables $9,800, non-current assets $41,000 and expenses $16,200, a total of $125,000. Credit balances are capital, sales, payables and the bank overdraft, which also total $125,000. The overdraft is a liability, so it is a credit balance.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c03-q010",
+      "chapter": 3,
+      "topic": "Double entry bookkeeping and the accounting equation",
+      "question_text": "How are carriage inwards and carriage outwards treated in the statement of profit or loss?",
+      "options": {
+        "A": "Carriage inwards is a distribution expense; carriage outwards is included in cost of sales",
+        "B": "Both are included in cost of sales",
+        "C": "Both are deducted from revenue",
+        "D": "Carriage inwards is included in cost of sales; carriage outwards is a distribution expense"
+      },
+      "correct": "D",
+      "explanation": "Carriage inwards is the cost of bringing purchased goods into the business, so it forms part of cost of sales. Carriage outwards is the cost of delivering goods to customers, so it is a selling and distribution expense.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c04-q001",
+      "chapter": 4,
+      "topic": "Books of prime entry and sales tax",
+      "question_text": "In which book of prime entry are invoices issued to credit customers first recorded?",
+      "options": {
+        "A": "Sales day book",
+        "B": "Purchase day book",
+        "C": "Cash book",
+        "D": "The journal"
+      },
+      "correct": "A",
+      "explanation": "The sales day book lists the invoices sent to credit customers. Its totals are posted to the receivables ledger control account, sales and sales tax, and the individual invoices are posted to the customers' accounts in the receivables ledger.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c04-q002",
+      "chapter": 4,
+      "topic": "Books of prime entry and sales tax",
+      "question_text": "Goods bought on credit are returned to the supplier because they are faulty. In which book of prime entry is the credit note received first recorded?",
+      "options": {
+        "A": "Sales returns day book",
+        "B": "Purchase day book",
+        "C": "Petty cash book",
+        "D": "Purchase returns day book"
+      },
+      "correct": "D",
+      "explanation": "Credit notes received from suppliers for goods returned are recorded in the purchase returns (returns outwards) day book. The sales returns day book records credit notes issued to customers.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c04-q003",
+      "chapter": 4,
+      "topic": "Books of prime entry and sales tax",
+      "question_text": "Which of the following would normally be recorded first in the journal?",
+      "options": {
+        "A": "The annual depreciation charge on non-current assets",
+        "B": "A cheque received from a credit customer",
+        "C": "A credit sales invoice",
+        "D": "A payment of petty cash expenses"
+      },
+      "correct": "A",
+      "explanation": "The journal records non-routine items and adjustments, such as depreciation, error corrections and irrecoverable debt write-offs. Cash received is recorded in the cash book, invoices in the sales day book and petty cash payments in the petty cash book.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c04-q004",
+      "chapter": 4,
+      "topic": "Books of prime entry and sales tax",
+      "question_text": "A business runs a petty cash imprest system with an imprest of $400. At the end of the month there are vouchers totalling $312 and $88 cash in the tin, so no cash is missing. How much cash should be drawn from the bank to restore the imprest?",
+      "options": {
+        "A": "$88",
+        "B": "$393",
+        "C": "$400",
+        "D": "$312"
+      },
+      "correct": "D",
+      "explanation": "Under an imprest system the float is topped up to the imprest amount by reimbursing exactly what has been spent. Vouchers $312 + cash $88 = $400, so the float is complete. Amount to draw = imprest $400 - cash in hand $88 = $312, which equals the total of the vouchers.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c04-q005",
+      "chapter": 4,
+      "topic": "Books of prime entry and sales tax",
+      "question_text": "A business that is registered for sales tax sells goods on credit for $2,450 excluding sales tax. Sales tax is charged at 20%. What amount is credited to the sales tax account?",
+      "options": {
+        "A": "$408.33",
+        "B": "$490",
+        "C": "$2,450",
+        "D": "$2,940"
+      },
+      "correct": "B",
+      "explanation": "Sales tax = 20% x $2,450 = $490. The customer is invoiced $2,940: receivables are debited $2,940, sales credited $2,450 and sales tax credited $490.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c04-q006",
+      "chapter": 4,
+      "topic": "Books of prime entry and sales tax",
+      "question_text": "During a quarter a business made sales of $186,000 excluding sales tax and purchases of $104,400 including sales tax. Sales tax is 20% on all items. How much sales tax is payable to the tax authority for the quarter?",
+      "options": {
+        "A": "$13,600",
+        "B": "$16,320",
+        "C": "$19,800",
+        "D": "$54,600"
+      },
+      "correct": "C",
+      "explanation": "Output tax = 20% x $186,000 = $37,200. Input tax on a tax-inclusive amount = $104,400 x 20/120 = $17,400. Tax payable = $37,200 - $17,400 = $19,800.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba3-c04-q007",
+      "chapter": 4,
+      "topic": "Books of prime entry and sales tax",
+      "question_text": "A business is unable to recover the sales tax charged on its purchase of a car for a sales representative. How should the irrecoverable sales tax be treated?",
+      "options": {
+        "A": "It is debited to the sales tax account as a receivable from the tax authority",
+        "B": "It is deducted from the output tax on sales",
+        "C": "It is included in the cost of the car and capitalised",
+        "D": "It is credited to profit or loss as other income"
+      },
+      "correct": "C",
+      "explanation": "Sales tax that cannot be reclaimed is a real cost to the business, so it is included in the cost of the asset or expense it relates to. Here it is capitalised as part of the cost of the car and depreciated with it.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c04-q008",
+      "chapter": 4,
+      "topic": "Books of prime entry and sales tax",
+      "question_text": "Which of the following is often used as both a book of prime entry and part of the double entry system?",
+      "options": {
+        "A": "The sales day book",
+        "B": "The purchase day book",
+        "C": "The sales returns day book",
+        "D": "The cash book"
+      },
+      "correct": "D",
+      "explanation": "The cash book is usually both a book of prime entry and the bank and cash ledger accounts. The day books are lists of documents; only their totals are posted to the ledger, so they are not part of the double entry themselves.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c04-q009",
+      "chapter": 4,
+      "topic": "Books of prime entry and sales tax",
+      "question_text": "The sales day book for a month shows totals of: net $50,000, sales tax $10,000, gross $60,000. Which entry records these totals in the general ledger?",
+      "options": {
+        "A": "Debit Receivables control $60,000; Credit Sales $50,000; Credit Sales tax $10,000",
+        "B": "Debit Receivables control $50,000; Debit Sales tax $10,000; Credit Sales $60,000",
+        "C": "Debit Sales $50,000; Debit Sales tax $10,000; Credit Receivables control $60,000",
+        "D": "Debit Receivables control $60,000; Credit Sales $60,000"
+      },
+      "correct": "A",
+      "explanation": "Customers owe the gross amount, so the receivables control account is debited with $60,000. Revenue excludes sales tax, so sales is credited with $50,000, and the $10,000 owed to the tax authority is credited to the sales tax account as a liability.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c04-q010",
+      "chapter": 4,
+      "topic": "Books of prime entry and sales tax",
+      "question_text": "Goods with a list price of $8,000 are sold to a trade customer who receives a 15% trade discount. Sales tax at 20% is charged. What is the total amount shown on the invoice?",
+      "options": {
+        "A": "$6,800",
+        "B": "$8,160",
+        "C": "$8,400",
+        "D": "$9,600"
+      },
+      "correct": "B",
+      "explanation": "Trade discount is deducted before anything is recorded: $8,000 x 85% = $6,800. Sales tax is calculated on the discounted price: $6,800 x 20% = $1,360. Invoice total = $6,800 + $1,360 = $8,160.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba3-c05-q001",
+      "chapter": 5,
+      "topic": "Receivables and payables control accounts",
+      "question_text": "What is the main purpose of a receivables ledger control account?",
+      "options": {
+        "A": "To record the amount of each individual invoice sent to customers",
+        "B": "To calculate the allowance for receivables",
+        "C": "To provide an arithmetical check on the accuracy of the individual customer accounts in the receivables ledger",
+        "D": "To replace the need for a sales day book"
+      },
+      "correct": "C",
+      "explanation": "The control account summarises all postings to the receivables ledger in total. Comparing its balance with the total of the individual customer balances helps detect errors and fraud. Individual invoices are recorded in the sales day book and customer accounts.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c05-q002",
+      "chapter": 5,
+      "topic": "Receivables and payables control accounts",
+      "question_text": "Which of the following items would NOT appear in the receivables ledger control account?",
+      "options": {
+        "A": "An increase in the allowance for receivables",
+        "B": "Irrecoverable debts written off",
+        "C": "Cash received from credit customers",
+        "D": "Sales returns from credit customers"
+      },
+      "correct": "A",
+      "explanation": "The allowance for receivables is kept in a separate account and is not posted to individual customer accounts, so it does not appear in the control account. Irrecoverable debts written off, cash received and sales returns all reduce the amounts owed by individual customers and are credited to the control account.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c05-q003",
+      "chapter": 5,
+      "topic": "Receivables and payables control accounts",
+      "question_text": "The following information relates to a business's receivables for the year: opening balance $28,400; credit sales $196,500; cash sales $12,000; cash received from credit customers $181,300; sales returns $4,700; irrecoverable debts written off $2,100; contra with the payables ledger control account $1,600; increase in allowance for receivables $900. What is the closing balance on the receivables ledger control account?",
+      "options": {
+        "A": "$34,300",
+        "B": "$35,200",
+        "C": "$36,800",
+        "D": "$47,200"
+      },
+      "correct": "B",
+      "explanation": "Debits: opening $28,400 + credit sales $196,500 = $224,900. Credits: cash received $181,300 + returns $4,700 + irrecoverable debts $2,100 + contra $1,600 = $189,700. Closing balance = $224,900 - $189,700 = $35,200. Cash sales never pass through receivables, and the allowance is kept in a separate account.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba3-c05-q004",
+      "chapter": 5,
+      "topic": "Receivables and payables control accounts",
+      "question_text": "A payables ledger control account had an opening credit balance of $19,700. During the year credit purchases were $143,200, payments to suppliers $137,900, purchase returns $3,100, and a contra of $1,600 was made with the receivables ledger control account. What is the closing balance?",
+      "options": {
+        "A": "$23,500 credit",
+        "B": "$26,500 credit",
+        "C": "$21,900 credit",
+        "D": "$20,300 credit"
+      },
+      "correct": "D",
+      "explanation": "Credits: opening $19,700 + credit purchases $143,200 = $162,900. Debits: payments $137,900 + returns $3,100 + contra $1,600 = $142,600. Closing credit balance = $162,900 - $142,600 = $20,300.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c05-q005",
+      "chapter": 5,
+      "topic": "Receivables and payables control accounts",
+      "question_text": "A receivables ledger control account shows a balance of $31,450, but the list of individual customer balances totals $30,980. Investigation reveals: (1) a customer's debit balance of $345 was left off the list; (2) a customer's credit balance of $120 was included in the list as a debit balance; (3) the sales day book was overcast by $365. What is the corrected receivables balance?",
+      "options": {
+        "A": "$31,085",
+        "B": "$31,205",
+        "C": "$31,450",
+        "D": "$31,565"
+      },
+      "correct": "A",
+      "explanation": "List: $30,980 + omitted balance $345 - (2 x $120) to turn a debit of $120 into a credit of $120 = $31,085. Control account: $31,450 - overcast $365 = $31,085. Both now agree at $31,085.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba3-c05-q006",
+      "chapter": 5,
+      "topic": "Receivables and payables control accounts",
+      "question_text": "A business both buys from and sells to another company. It agrees to set off the amount owed to it by that company against the amount it owes to that company. What is the entry in the control accounts?",
+      "options": {
+        "A": "Debit Receivables ledger control, Credit Payables ledger control",
+        "B": "Debit Payables ledger control, Credit Bank",
+        "C": "Debit Payables ledger control, Credit Receivables ledger control",
+        "D": "Debit Bank, Credit Receivables ledger control"
+      },
+      "correct": "C",
+      "explanation": "A contra reduces both the amount owed to the supplier (debit payables) and the amount owed by the customer (credit receivables) by the amount set off. No cash changes hands.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c05-q007",
+      "chapter": 5,
+      "topic": "Receivables and payables control accounts",
+      "question_text": "Which of the following errors would cause a difference between the balance on the payables ledger control account and the total of the list of supplier balances?",
+      "options": {
+        "A": "An invoice for $3,240 was correctly entered in the purchase day book but posted to the supplier's account as $2,340",
+        "B": "An invoice was omitted from the purchase day book entirely",
+        "C": "An invoice was posted to the account of the wrong supplier",
+        "D": "An invoice was entered in the purchase day book at the wrong amount"
+      },
+      "correct": "A",
+      "explanation": "The control account takes the correct day book total, but the supplier's individual account is understated by $900, so the two totals disagree. An omitted invoice or one recorded at the wrong amount in the day book affects both records equally. Posting to the wrong supplier leaves the total of the list unchanged.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba3-c05-q008",
+      "chapter": 5,
+      "topic": "Receivables and payables control accounts",
+      "question_text": "How might a credit balance arise on an individual customer's account in the receivables ledger?",
+      "options": {
+        "A": "The customer has bought goods on credit and not yet paid",
+        "B": "The customer has paid more than the amount owed, or returned goods after paying for them",
+        "C": "An irrecoverable debt has been written off",
+        "D": "The business has issued a sales invoice to the customer"
+      },
+      "correct": "B",
+      "explanation": "A customer account normally has a debit balance. A credit balance means the business owes the customer money, typically because of an overpayment or a credit note issued after payment. A credit sale increases the debit balance, and a write-off reduces it to nil.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c05-q009",
+      "chapter": 5,
+      "topic": "Receivables and payables control accounts",
+      "question_text": "A business decides to write off a customer's balance as irrecoverable. What is the double entry?",
+      "options": {
+        "A": "Debit Receivables ledger control, Credit Irrecoverable debts expense",
+        "B": "Debit Allowance for receivables, Credit Sales",
+        "C": "Debit Irrecoverable debts expense, Credit Receivables ledger control",
+        "D": "Debit Sales, Credit Bank"
+      },
+      "correct": "C",
+      "explanation": "The debt is no longer an asset, so receivables is credited and the loss is charged to profit or loss as an irrecoverable debts expense. The customer's individual account is also credited.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c05-q010",
+      "chapter": 5,
+      "topic": "Receivables and payables control accounts",
+      "question_text": "The receivables ledger control account agrees with the total of the list of customer balances. Which of the following is true?",
+      "options": {
+        "A": "The receivables ledger must be free from errors",
+        "B": "The trial balance must also agree",
+        "C": "No irrecoverable debts can exist",
+        "D": "There may still be errors, such as a receipt posted to the wrong customer's account"
+      },
+      "correct": "D",
+      "explanation": "Agreement does not prove that the ledger is correct. Errors that affect both records equally, or that only move amounts between individual customer accounts, are not revealed by the reconciliation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c06-q001",
+      "chapter": 6,
+      "topic": "Bank reconciliations",
+      "question_text": "In a bank reconciliation, what are unpresented cheques?",
+      "options": {
+        "A": "Cheques written by the business and recorded in the cash book but not yet cleared by the bank",
+        "B": "Cheques received from customers and banked but not yet credited by the bank",
+        "C": "Cheques that have been returned unpaid by the bank",
+        "D": "Cheques that the bank has paid but which are not yet recorded in the cash book"
+      },
+      "correct": "A",
+      "explanation": "Unpresented cheques are payments already recorded in the cash book that have not yet passed through the bank account. They are a timing difference and are adjusted for in the reconciliation, not in the cash book.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c06-q002",
+      "chapter": 6,
+      "topic": "Bank reconciliations",
+      "question_text": "When preparing a bank reconciliation, which of the following items requires an adjustment to the cash book?",
+      "options": {
+        "A": "Unpresented cheques",
+        "B": "Outstanding lodgements",
+        "C": "Bank charges shown on the bank statement but not yet recorded by the business",
+        "D": "A cheque wrongly debited to the business's account by the bank"
+      },
+      "correct": "C",
+      "explanation": "Bank charges are genuine transactions that the business has not yet recorded, so the cash book must be updated. Unpresented cheques and outstanding lodgements are timing differences, and a bank error must be corrected by the bank; all three are dealt with in the reconciliation statement.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c06-q003",
+      "chapter": 6,
+      "topic": "Bank reconciliations",
+      "question_text": "The bank statement of a business shows a balance of $6,420 in hand. There are unpresented cheques of $2,180 and outstanding lodgements of $1,350. There are no other differences. What is the balance in the cash book?",
+      "options": {
+        "A": "$2,890 debit",
+        "B": "$5,590 debit",
+        "C": "$7,250 debit",
+        "D": "$9,950 debit"
+      },
+      "correct": "B",
+      "explanation": "Cash book balance = balance per bank - unpresented cheques + outstanding lodgements = $6,420 - $2,180 + $1,350 = $5,590 debit (in hand). Unpresented cheques have reduced the cash book but not yet the bank balance; lodgements have increased the cash book but not yet the bank balance.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c06-q004",
+      "chapter": 6,
+      "topic": "Bank reconciliations",
+      "question_text": "A cash book shows a debit balance of $3,870. The bank statement shows bank charges of $95, a credit transfer from a customer of $640 and a direct debit of $210, none of which have been recorded in the cash book. What is the corrected cash book balance?",
+      "options": {
+        "A": "$2,925",
+        "B": "$4,205",
+        "C": "$4,395",
+        "D": "$4,415"
+      },
+      "correct": "B",
+      "explanation": "Corrected cash book = $3,870 - bank charges $95 + credit transfer $640 - direct debit $210 = $4,205 debit.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c06-q005",
+      "chapter": 6,
+      "topic": "Bank reconciliations",
+      "question_text": "The bank statement of a business shows an overdraft of $1,240. There are unpresented cheques of $860 and outstanding lodgements of $2,300. What is the balance in the cash book?",
+      "options": {
+        "A": "$200 overdrawn (credit)",
+        "B": "$200 in hand (debit)",
+        "C": "$2,680 overdrawn (credit)",
+        "D": "$4,400 overdrawn (credit)"
+      },
+      "correct": "B",
+      "explanation": "Start with the bank balance as a negative figure: -$1,240. Deduct unpresented cheques (already in the cash book): -$1,240 - $860 = -$2,100. Add outstanding lodgements: -$2,100 + $2,300 = $200. The cash book therefore shows $200 in hand.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba3-c06-q006",
+      "chapter": 6,
+      "topic": "Bank reconciliations",
+      "question_text": "A business's cash book shows an overdraft of $2,150. Comparison with the bank statement at the same date shows:\n(1) A customer's cheque for $480 has been dishonoured; this appears on the bank statement but has not been recorded in the cash book.\n(2) Bank interest of $65 appears on the bank statement but has not been recorded in the cash book.\n(3) Cheques of $1,930 recorded in the cash book have not yet been presented to the bank.\n(4) A lodgement of $3,100 recorded in the cash book has not yet been credited by the bank.\n(5) The bank has made an error: it debited the business's account with a $250 cheque drawn by another customer of the bank. The bank has not yet corrected this error, so it is included in the bank statement balance.\nWhat balance is shown on the bank statement?",
+      "options": {
+        "A": "$3,615 overdrawn",
+        "B": "$2,695 overdrawn",
+        "C": "$1,525 overdrawn",
+        "D": "$4,115 overdrawn"
+      },
+      "correct": "D",
+      "explanation": "First correct the cash book for items (1) and (2): -$2,150 - $480 - $65 = -$2,695 (overdrawn $2,695). Then reconcile to the bank statement: add back unpresented cheques $1,930 (not yet deducted by the bank), deduct the uncredited lodgement $3,100 (not yet added by the bank) and deduct the uncorrected bank error $250 (wrongly deducted by the bank): -$2,695 + $1,930 - $3,100 - $250 = -$4,115. The bank statement shows an overdraft of $4,115. Ignoring the bank error gives $3,865 overdrawn, which is not an option.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba3-c06-q007",
+      "chapter": 6,
+      "topic": "Bank reconciliations",
+      "question_text": "Which bank balance is reported in the statement of financial position?",
+      "options": {
+        "A": "The balance shown on the bank statement at the reporting date",
+        "B": "The cash book balance before any adjustments",
+        "C": "The cash book balance after correcting it for items such as bank charges and errors in the cash book",
+        "D": "The average of the bank statement balance and the cash book balance"
+      },
+      "correct": "C",
+      "explanation": "The statement of financial position shows the corrected cash book balance, because it records all the business's transactions up to the reporting date. The bank statement balance is distorted by timing differences such as unpresented cheques and outstanding lodgements.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c06-q008",
+      "chapter": 6,
+      "topic": "Bank reconciliations",
+      "question_text": "A cheque received from a customer and banked is returned unpaid (dishonoured) by the customer's bank. What entry is required in the business's books?",
+      "options": {
+        "A": "Debit Bank, Credit Receivables",
+        "B": "Debit Receivables, Credit Bank",
+        "C": "Debit Irrecoverable debts expense, Credit Bank",
+        "D": "Debit Sales, Credit Bank"
+      },
+      "correct": "B",
+      "explanation": "When the cheque was banked, bank was debited and receivables credited. If the cheque is dishonoured that entry is reversed: the customer owes the money again (debit receivables) and the bank balance falls (credit bank). The debt is only written off if it is later judged irrecoverable.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c06-q009",
+      "chapter": 6,
+      "topic": "Bank reconciliations",
+      "question_text": "Why is it good practice to prepare bank reconciliations regularly?",
+      "options": {
+        "A": "To identify errors and omissions in the cash book or bank statement and help detect fraud",
+        "B": "To calculate the interest the bank will charge",
+        "C": "To remove the need to keep a cash book",
+        "D": "To determine the profit for the period"
+      },
+      "correct": "A",
+      "explanation": "Reconciling the cash book to the bank statement confirms that the cash book is complete and accurate, highlights bank errors and unrecorded items, and acts as a control that helps detect misappropriation of cash.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c06-q010",
+      "chapter": 6,
+      "topic": "Bank reconciliations",
+      "question_text": "A business's cash book shows a debit balance of $1,800. It is discovered that a standing order payment of $150 was entered twice in the cash book. What is the corrected cash book balance?",
+      "options": {
+        "A": "$1,500 debit",
+        "B": "$1,650 debit",
+        "C": "$1,950 debit",
+        "D": "$2,100 debit"
+      },
+      "correct": "C",
+      "explanation": "The payment was credited twice, so the balance is understated by one payment. Corrected balance = $1,800 + $150 = $1,950 debit.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c07-q001",
+      "chapter": 7,
+      "topic": "Errors, the trial balance and suspense accounts",
+      "question_text": "The cost of a new delivery van was debited to the motor expenses account. What type of error is this?",
+      "options": {
+        "A": "Error of commission",
+        "B": "Error of original entry",
+        "C": "Transposition error",
+        "D": "Error of principle"
+      },
+      "correct": "D",
+      "explanation": "An error of principle records a transaction in the wrong class of account; here capital expenditure has been treated as revenue expenditure. The trial balance still agrees because equal debits and credits were made.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c07-q002",
+      "chapter": 7,
+      "topic": "Errors, the trial balance and suspense accounts",
+      "question_text": "A payment received from customer P. Jones was credited to the account of customer P. James in the receivables ledger. What type of error is this?",
+      "options": {
+        "A": "Error of principle",
+        "B": "Error of commission",
+        "C": "Error of omission",
+        "D": "Compensating error"
+      },
+      "correct": "B",
+      "explanation": "An error of commission posts an amount to the wrong account of the correct type; both are receivable accounts. It does not affect the trial balance or the receivables control account total.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c07-q003",
+      "chapter": 7,
+      "topic": "Errors, the trial balance and suspense accounts",
+      "question_text": "Which of the following errors would cause the trial balance totals to disagree?",
+      "options": {
+        "A": "Cash of $540 received from a customer was debited correctly in the cash book but credited to the receivables control account as $450",
+        "B": "A sales invoice was omitted entirely from the books",
+        "C": "A purchase on credit was recorded as Debit Payables, Credit Purchases",
+        "D": "Rent paid was debited to the rates account"
+      },
+      "correct": "A",
+      "explanation": "Only the first error has unequal debits ($540) and credits ($450), creating a $90 difference. An omission records nothing, a reversal of entries posts equal and opposite amounts, and posting rent to rates is an error of commission; none of these affect the trial balance totals.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c07-q004",
+      "chapter": 7,
+      "topic": "Errors, the trial balance and suspense accounts",
+      "question_text": "A trial balance has debit totals of $214,300 and credit totals of $216,110. A suspense account is opened to make it balance. What is the balance on the suspense account?",
+      "options": {
+        "A": "$1,810 credit",
+        "B": "$905 debit",
+        "C": "$3,620 debit",
+        "D": "$1,810 debit"
+      },
+      "correct": "D",
+      "explanation": "The credit side exceeds the debit side by $216,110 - $214,300 = $1,810. A debit balance of $1,810 is needed in the suspense account to make the totals agree.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c07-q005",
+      "chapter": 7,
+      "topic": "Errors, the trial balance and suspense accounts",
+      "question_text": "A suspense account was opened when a trial balance did not agree. The following errors were then found, and these explain the whole difference: (1) an electricity payment of $680 was correctly credited in the cash book but debited to the electricity account as $860; (2) credit sales of $3,250 were credited to sales but not posted to the receivables control account; (3) discount received of $420 was debited to the payables control account but not posted to the discount received account. What was the original balance on the suspense account?",
+      "options": {
+        "A": "$2,650 credit",
+        "B": "$3,850 debit",
+        "C": "$2,650 debit",
+        "D": "$3,010 debit"
+      },
+      "correct": "C",
+      "explanation": "Error 1: debits are overstated by $180, so the suspense account needs a credit of $180. Error 2: a debit of $3,250 is missing, so the suspense account needs a debit of $3,250. Error 3: a credit of $420 is missing, so the suspense account needs a credit of $420. Net suspense balance = $3,250 - $180 - $420 = $2,650 debit.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba3-c07-q006",
+      "chapter": 7,
+      "topic": "Errors, the trial balance and suspense accounts",
+      "question_text": "A machine costing $12,000 was debited to the repairs account. Which journal entry corrects the error?",
+      "options": {
+        "A": "Debit Repairs $12,000, Credit Machinery $12,000",
+        "B": "Debit Machinery $12,000, Credit Repairs $12,000",
+        "C": "Debit Machinery $12,000, Credit Suspense $12,000",
+        "D": "Debit Suspense $12,000, Credit Repairs $12,000"
+      },
+      "correct": "B",
+      "explanation": "The cost must be removed from repairs (credit) and recognised as a non-current asset (debit machinery). Both sides of the original entry were made, so no suspense account entry is involved.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c07-q007",
+      "chapter": 7,
+      "topic": "Errors, the trial balance and suspense accounts",
+      "question_text": "A company's draft profit for the year is $45,600. It is then found that closing inventory was understated by $3,000 and an accrual for electricity of $800 was omitted. What is the corrected profit?",
+      "options": {
+        "A": "$41,800",
+        "B": "$43,400",
+        "C": "$47,800",
+        "D": "$49,400"
+      },
+      "correct": "C",
+      "explanation": "Increasing closing inventory reduces cost of sales and increases profit by $3,000. Recording the accrual increases expenses and reduces profit by $800. Corrected profit = $45,600 + $3,000 - $800 = $47,800.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c07-q008",
+      "chapter": 7,
+      "topic": "Errors, the trial balance and suspense accounts",
+      "question_text": "A purchase invoice for $3,980 was recorded in the purchase day book as $3,890 and then posted from there to the ledger. What type of error is this?",
+      "options": {
+        "A": "Transposition error causing a trial balance difference",
+        "B": "Error of principle",
+        "C": "Error of commission",
+        "D": "Error of original entry"
+      },
+      "correct": "D",
+      "explanation": "The wrong amount was entered in the book of prime entry, so both the debit and the credit are posted at $3,890. This is an error of original entry and does not cause a trial balance difference, even though digits were transposed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c07-q009",
+      "chapter": 7,
+      "topic": "Errors, the trial balance and suspense accounts",
+      "question_text": "A trial balance fails to agree by $540. Which of the following transposition errors, made when posting one side of an entry only, could explain this difference?",
+      "options": {
+        "A": "$6,170 posted as $6,710",
+        "B": "$1,560 posted as $1,650",
+        "C": "$4,320 posted as $4,302",
+        "D": "$3,980 posted as $3,890"
+      },
+      "correct": "A",
+      "explanation": "6,710 - 6,170 = 540. The other errors give differences of 90, 18 and 90. A difference caused by transposing digits is always divisible by 9, which is a useful clue when looking for errors.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c07-q010",
+      "chapter": 7,
+      "topic": "Errors, the trial balance and suspense accounts",
+      "question_text": "A cash sale of $900 was recorded by debiting both the bank account and the sales account with $900. A suspense account was opened for the difference. Which journal corrects the error?",
+      "options": {
+        "A": "Debit Sales $900, Credit Suspense $900",
+        "B": "Debit Suspense $900, Credit Sales $900",
+        "C": "Debit Suspense $1,800, Credit Sales $1,800",
+        "D": "Debit Sales $1,800, Credit Suspense $1,800"
+      },
+      "correct": "C",
+      "explanation": "Sales should have been credited with $900 but was debited with $900, so a credit of $1,800 is needed to reverse the wrong debit and record the correct credit. Debits exceeded credits by $1,800, so the suspense account has a $1,800 credit balance, which is cleared by debiting suspense.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c08-q001",
+      "chapter": 8,
+      "topic": "Control of accounting systems",
+      "question_text": "What is the main purpose of internal controls in an accounting system?",
+      "options": {
+        "A": "To help ensure that transactions are properly authorised and recorded, assets are safeguarded, and errors and fraud are prevented or detected",
+        "B": "To guarantee that no errors or frauds can ever occur",
+        "C": "To replace the need for an external audit",
+        "D": "To maximise the reported profit of the business"
+      },
+      "correct": "A",
+      "explanation": "Internal controls give reasonable, not absolute, assurance that the business is run in an orderly way, that assets are protected and that the accounting records are accurate and complete. They do not remove the legal need for an audit, and they have nothing to do with maximising reported profit.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c08-q002",
+      "chapter": 8,
+      "topic": "Control of accounting systems",
+      "question_text": "Which of the following is an example of segregation of duties?",
+      "options": {
+        "A": "All payments over $5,000 must be signed by two directors",
+        "B": "The employee who records cash receipts in the cash book is not the employee who banks the cash",
+        "C": "Computer files are protected by passwords",
+        "D": "Inventory is counted at the end of each year"
+      },
+      "correct": "B",
+      "explanation": "Segregation of duties splits the recording, custody and authorisation of a transaction between different people, so that one person cannot both commit and conceal a fraud. Dual signatures are an authorisation control, passwords are an access control and inventory counts are a physical verification control.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c08-q003",
+      "chapter": 8,
+      "topic": "Control of accounting systems",
+      "question_text": "What is the main role of an external auditor of a limited company?",
+      "options": {
+        "A": "To prepare the company's financial statements",
+        "B": "To detect every fraud that has taken place in the company",
+        "C": "To express an independent opinion on whether the financial statements give a true and fair view",
+        "D": "To design the company's system of internal control"
+      },
+      "correct": "C",
+      "explanation": "The external auditor gives an independent opinion to the shareholders on whether the financial statements give a true and fair view in accordance with the applicable framework. Preparing the statements and designing internal controls are the responsibility of management, and an audit is not designed to find every fraud.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c08-q004",
+      "chapter": 8,
+      "topic": "Control of accounting systems",
+      "question_text": "Which of the following statements about internal audit is correct?",
+      "options": {
+        "A": "Internal auditors must be independent of the company and appointed by the shareholders",
+        "B": "An internal audit is a legal requirement for all limited companies",
+        "C": "Internal auditors express an opinion on the truth and fairness of the published financial statements",
+        "D": "Internal auditors usually report to management or an audit committee and review the effectiveness of internal controls"
+      },
+      "correct": "D",
+      "explanation": "Internal audit is a function set up by management, often staffed by employees, which reviews controls, risk management and operations and reports to management or the audit committee. Independence from the company, appointment by shareholders and the true and fair opinion are features of external audit, and internal audit is not required by law for all companies.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c08-q005",
+      "chapter": 8,
+      "topic": "Control of accounting systems",
+      "question_text": "A cashier steals money received from customer A, then uses money later received from customer B to clear customer A's account, and so on. What is this type of fraud known as?",
+      "options": {
+        "A": "Teeming and lading",
+        "B": "Window dressing",
+        "C": "Compensating error",
+        "D": "Collusion"
+      },
+      "correct": "A",
+      "explanation": "Teeming and lading (also called lapping) hides the theft of receipts by using later receipts to cover earlier ones. It can be detected by comparing remittance details with postings, by rotating staff duties and by sending statements to customers. Window dressing is the manipulation of year-end figures.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c08-q006",
+      "chapter": 8,
+      "topic": "Control of accounting systems",
+      "question_text": "Which of the following is best described as a detective control rather than a preventive control?",
+      "options": {
+        "A": "Requiring a manager to approve purchase orders before they are sent",
+        "B": "Restricting access to the accounting system by passwords",
+        "C": "Preparing a monthly bank reconciliation",
+        "D": "Keeping cash in a locked safe"
+      },
+      "correct": "C",
+      "explanation": "A bank reconciliation identifies errors or irregularities after they have occurred, so it is a detective control. Authorisation, access restrictions and physical security are intended to stop errors and fraud happening in the first place.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c08-q007",
+      "chapter": 8,
+      "topic": "Control of accounting systems",
+      "question_text": "Which of the following is an authorisation control over purchases?",
+      "options": {
+        "A": "Goods received are checked against the delivery note",
+        "B": "A purchase order must be approved by a budget holder before it is sent to the supplier",
+        "C": "Supplier statements are reconciled to the payables ledger",
+        "D": "Purchase invoices are numbered sequentially when received"
+      },
+      "correct": "B",
+      "explanation": "Approval of the order before commitment is an authorisation control. Checking goods received, reconciling supplier statements and sequential numbering are controls over accuracy and completeness of recording.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c08-q008",
+      "chapter": 8,
+      "topic": "Control of accounting systems",
+      "question_text": "Which of the following is an example of an access control in a computerised accounting system?",
+      "options": {
+        "A": "Batch totals are compared with the total of items processed",
+        "B": "The system rejects a date that does not exist",
+        "C": "Back-up copies of data are taken each night",
+        "D": "Each user has a unique password that limits the functions they can perform"
+      },
+      "correct": "D",
+      "explanation": "Passwords and user permissions restrict who can see or change data, so they are access controls. Batch totals and data validation are input controls, and back-ups protect against loss of data.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c08-q009",
+      "chapter": 8,
+      "topic": "Control of accounting systems",
+      "question_text": "Who has the primary responsibility for preventing and detecting fraud in a company?",
+      "options": {
+        "A": "The directors and management of the company",
+        "B": "The external auditors",
+        "C": "The shareholders",
+        "D": "The tax authorities"
+      },
+      "correct": "A",
+      "explanation": "The directors are responsible for running the company, including putting in place controls to prevent and detect fraud. The external auditor must consider the risk of material misstatement due to fraud, but this does not transfer the responsibility to them.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c08-q010",
+      "chapter": 8,
+      "topic": "Control of accounting systems",
+      "question_text": "Which of the following is a limitation of any system of internal control?",
+      "options": {
+        "A": "Controls make it harder to steal assets",
+        "B": "Controls improve the reliability of accounting records",
+        "C": "Controls make it easier to produce timely financial statements",
+        "D": "Two or more employees may collude to get around segregation of duties"
+      },
+      "correct": "D",
+      "explanation": "Internal controls can only give reasonable assurance. They can be circumvented by collusion or overridden by management, and they are subject to human error and cost constraints. The other statements are benefits of internal control, not limitations.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c09-q001",
+      "chapter": 9,
+      "topic": "Accruals, prepayments, inventory and receivables",
+      "question_text": "A business with a 31 December year end pays rent quarterly in advance on 1 January, 1 April, 1 July and 1 October. Annual rent was $12,000 until 31 March 20X5 and $15,000 a year from 1 April 20X5. What is the rent expense for the year ended 31 December 20X5?",
+      "options": {
+        "A": "$12,000",
+        "B": "$13,500",
+        "C": "$14,250",
+        "D": "$15,000"
+      },
+      "correct": "C",
+      "explanation": "January to March: $12,000 x 3/12 = $3,000. April to December: $15,000 x 9/12 = $11,250. Total expense = $3,000 + $11,250 = $14,250. Because rent is paid in advance at the start of each quarter, there is no accrual or prepayment at the year end.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba3-c09-q002",
+      "chapter": 9,
+      "topic": "Accruals, prepayments, inventory and receivables",
+      "question_text": "During the year a business paid electricity bills of $4,860. At the start of the year there was an accrual for electricity of $520, and at the end of the year an accrual of $610 is required. What is the electricity expense for the year?",
+      "options": {
+        "A": "$4,770",
+        "B": "$4,860",
+        "C": "$4,950",
+        "D": "$5,990"
+      },
+      "correct": "C",
+      "explanation": "Expense = cash paid - opening accrual + closing accrual = $4,860 - $520 + $610 = $4,950. The opening accrual relates to last year's electricity paid this year, so it is removed; the closing accrual is this year's usage not yet paid.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c09-q003",
+      "chapter": 9,
+      "topic": "Accruals, prepayments, inventory and receivables",
+      "question_text": "On 1 October 20X4 a business paid an insurance premium of $2,400 for the year to 30 September 20X5. Its year end is 31 December 20X4. What is the prepayment at 31 December 20X4?",
+      "options": {
+        "A": "$600",
+        "B": "$1,200",
+        "C": "$1,800",
+        "D": "$2,400"
+      },
+      "correct": "C",
+      "explanation": "Three months (October to December) relate to 20X4, giving an expense of $600. The remaining nine months relate to next year, so the prepayment = $2,400 x 9/12 = $1,800.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c09-q004",
+      "chapter": 9,
+      "topic": "Accruals, prepayments, inventory and receivables",
+      "question_text": "A business lets part of its premises. During the year it received rent of $18,200. At the start of the year the tenant had paid $1,400 in advance. At the end of the year the tenant owes $900. What is the rental income for the year?",
+      "options": {
+        "A": "$15,900",
+        "B": "$17,700",
+        "C": "$18,700",
+        "D": "$20,500"
+      },
+      "correct": "D",
+      "explanation": "Rent received in advance at the start is income of this year, so it is added. Rent owed at the end has been earned but not yet received, so it is also added. Income = $18,200 + $1,400 + $900 = $20,500.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba3-c09-q005",
+      "chapter": 9,
+      "topic": "Accruals, prepayments, inventory and receivables",
+      "question_text": "At the year end a business holds three product lines:\nProduct X: cost $4,200, selling price $4,500, selling costs $450\nProduct Y: cost $2,600, net realisable value $3,100\nProduct Z: cost $1,900, selling price $1,700, selling costs $100\nAt what amount should inventory be measured under IAS 2 Inventories?",
+      "options": {
+        "A": "$8,250",
+        "B": "$8,500",
+        "C": "$8,700",
+        "D": "$8,750"
+      },
+      "correct": "A",
+      "explanation": "Each line is measured at the lower of cost and net realisable value (NRV = selling price less costs to sell). X: NRV $4,050 < cost $4,200, so $4,050. Y: cost $2,600 < NRV $3,100, so $2,600. Z: NRV $1,600 < cost $1,900, so $1,600. Total = $8,250.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c09-q006",
+      "chapter": 9,
+      "topic": "Accruals, prepayments, inventory and receivables",
+      "question_text": "A business had opening inventory of 100 units at $5 each. It bought 300 units at $6 and then 200 units at $7. It sold 450 units in the period. What is the value of closing inventory using FIFO?",
+      "options": {
+        "A": "$750",
+        "B": "$900",
+        "C": "$925",
+        "D": "$1,050"
+      },
+      "correct": "D",
+      "explanation": "Closing inventory = 100 + 300 + 200 - 450 = 150 units. Under FIFO the oldest units are sold first, so the 150 units remaining come from the latest purchase: 150 x $7 = $1,050. Distractors: weighted average would give ($500 + $1,800 + $1,400) / 600 = $6.1667 x 150 = $925 (exact, no rounding needed); valuing the closing units at $6 gives $900 and at $5 gives $750.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c09-q007",
+      "chapter": 9,
+      "topic": "Accruals, prepayments, inventory and receivables",
+      "question_text": "Under IAS 2 Inventories, which of the following costs must NOT be included in the cost of inventory?",
+      "options": {
+        "A": "Import duties on purchased goods",
+        "B": "Selling costs",
+        "C": "Carriage inwards",
+        "D": "Production overheads based on normal capacity"
+      },
+      "correct": "B",
+      "explanation": "Cost of inventory includes costs of purchase (including import duties and carriage inwards), costs of conversion (including production overheads allocated on normal capacity) and other costs of bringing the inventory to its present location and condition. Selling costs are excluded and recognised as expenses.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c09-q008",
+      "chapter": 9,
+      "topic": "Accruals, prepayments, inventory and receivables",
+      "question_text": "At the year end a business has receivables of $64,000 before writing off an irrecoverable debt of $2,500. It wants an allowance for receivables of 4% of the remaining receivables. The allowance brought forward is $2,900. What is the total charge to profit or loss for irrecoverable debts and the allowance for the year?",
+      "options": {
+        "A": "$2,060",
+        "B": "$2,940",
+        "C": "$4,960",
+        "D": "$5,400"
+      },
+      "correct": "A",
+      "explanation": "Receivables after write-off = $64,000 - $2,500 = $61,500. Required allowance = 4% x $61,500 = $2,460. The allowance falls from $2,900 to $2,460, a decrease of $440, which is credited to profit or loss. Total charge = $2,500 - $440 = $2,060.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba3-c09-q009",
+      "chapter": 9,
+      "topic": "Accruals, prepayments, inventory and receivables",
+      "question_text": "A debt of $800 that was written off as irrecoverable last year is unexpectedly received in full this year. What is the double entry to record the cash received?",
+      "options": {
+        "A": "Debit Bank, Credit Sales",
+        "B": "Debit Receivables, Credit Bank",
+        "C": "Debit Bank, Credit Irrecoverable debts expense (or other income)",
+        "D": "Debit Allowance for receivables, Credit Bank"
+      },
+      "correct": "C",
+      "explanation": "The debt was removed from receivables last year, so the receipt is recognised in profit or loss by crediting the irrecoverable debts account (or a separate recoveries income account). It is not a new sale.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c09-q010",
+      "chapter": 9,
+      "topic": "Accruals, prepayments, inventory and receivables",
+      "question_text": "A business forgets to record a closing accrual for telephone costs. What is the effect on its financial statements?",
+      "options": {
+        "A": "Profit is understated and liabilities are overstated",
+        "B": "Profit is overstated and liabilities are understated",
+        "C": "Profit is overstated and assets are overstated",
+        "D": "Profit is understated and assets are understated"
+      },
+      "correct": "B",
+      "explanation": "Omitting an accrual leaves out an expense, so profit is too high, and leaves out a current liability, so liabilities are too low. Assets are unaffected.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c10-q001",
+      "chapter": 10,
+      "topic": "Non-current assets and depreciation",
+      "question_text": "A machine costs $48,000 and is expected to have a residual value of $6,000 at the end of its useful life of 6 years. What is the annual depreciation charge using the straight-line method?",
+      "options": {
+        "A": "$6,000",
+        "B": "$7,000",
+        "C": "$8,000",
+        "D": "$9,000"
+      },
+      "correct": "B",
+      "explanation": "Annual depreciation = (cost - residual value) / useful life = ($48,000 - $6,000) / 6 = $7,000.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c10-q002",
+      "chapter": 10,
+      "topic": "Non-current assets and depreciation",
+      "question_text": "A vehicle costing $32,000 is depreciated at 25% a year using the reducing balance method. What is its carrying amount at the end of the third year?",
+      "options": {
+        "A": "$4,500",
+        "B": "$8,000",
+        "C": "$13,500",
+        "D": "$18,000"
+      },
+      "correct": "C",
+      "explanation": "Year 1: $32,000 x 75% = $24,000. Year 2: $24,000 x 75% = $18,000. Year 3: $18,000 x 75% = $13,500.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c10-q003",
+      "chapter": 10,
+      "topic": "Non-current assets and depreciation",
+      "question_text": "A company with a 31 December year end buys a machine for $20,000 on 1 April 20X3. Depreciation is charged at 10% a year on a straight-line basis, pro rata on a monthly basis. What is the depreciation charge for 20X3?",
+      "options": {
+        "A": "$500",
+        "B": "$1,500",
+        "C": "$1,667",
+        "D": "$2,000"
+      },
+      "correct": "B",
+      "explanation": "Annual depreciation = $20,000 x 10% = $2,000. The machine is held for nine months (April to December), so the charge = $2,000 x 9/12 = $1,500.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c10-q004",
+      "chapter": 10,
+      "topic": "Non-current assets and depreciation",
+      "question_text": "An asset was bought on 1 January 20X1 for $25,000 and depreciated straight-line over five years with no residual value. It was sold on 31 December 20X3 for $8,500. What is the profit or loss on disposal?",
+      "options": {
+        "A": "Profit of $1,500",
+        "B": "Loss of $16,500",
+        "C": "Loss of $1,500",
+        "D": "Profit of $3,500"
+      },
+      "correct": "C",
+      "explanation": "Annual depreciation = $25,000 / 5 = $5,000. Accumulated depreciation after three years = $15,000. Carrying amount = $25,000 - $15,000 = $10,000. Proceeds $8,500 - carrying amount $10,000 = loss of $1,500.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c10-q005",
+      "chapter": 10,
+      "topic": "Non-current assets and depreciation",
+      "question_text": "A business buys a new van with a price of $30,000. It trades in an old van, which cost $18,000 and has accumulated depreciation of $11,400, receiving a part-exchange allowance of $5,000, and pays the balance of $25,000 in cash. Which of the following is correct?",
+      "options": {
+        "A": "The new van is recorded at $30,000 and there is a loss on disposal of $1,600",
+        "B": "The new van is recorded at $25,000 and there is a loss on disposal of $1,600",
+        "C": "The new van is recorded at $30,000 and there is a profit on disposal of $1,600",
+        "D": "The new van is recorded at $25,000 and there is a loss on disposal of $6,600"
+      },
+      "correct": "A",
+      "explanation": "The new van's cost is its full price of $30,000, settled by the part-exchange allowance of $5,000 plus cash of $25,000. The part-exchange allowance is the disposal proceeds of the old van. Carrying amount of the old van = $18,000 - $11,400 = $6,600. Loss on disposal = $6,600 - $5,000 = $1,600.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba3-c10-q006",
+      "chapter": 10,
+      "topic": "Non-current assets and depreciation",
+      "question_text": "A company revalues its land, which cost $200,000, to $340,000. What is the double entry to record the revaluation?",
+      "options": {
+        "A": "Debit Land $140,000, Credit Profit or loss $140,000",
+        "B": "Debit Land $340,000, Credit Revaluation surplus $340,000",
+        "C": "Debit Revaluation surplus $140,000, Credit Land $140,000",
+        "D": "Debit Land $140,000, Credit Revaluation surplus $140,000"
+      },
+      "correct": "D",
+      "explanation": "The land is increased from $200,000 to $340,000, a gain of $140,000. Under IAS 16 a revaluation gain is recognised in other comprehensive income and accumulated in the revaluation surplus within equity, not in profit or loss.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c10-q007",
+      "chapter": 10,
+      "topic": "Non-current assets and depreciation",
+      "question_text": "A building was bought for $500,000 and was being depreciated straight-line over 50 years with no residual value. After 10 years, when accumulated depreciation was $100,000, it was revalued to $600,000. Its remaining useful life is unchanged. What is the annual depreciation charge after the revaluation?",
+      "options": {
+        "A": "$10,000",
+        "B": "$12,000",
+        "C": "$12,500",
+        "D": "$15,000"
+      },
+      "correct": "D",
+      "explanation": "After 10 of 50 years, the remaining useful life is 40 years. Depreciation after revaluation = revalued amount / remaining useful life = $600,000 / 40 = $15,000 a year.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba3-c10-q008",
+      "chapter": 10,
+      "topic": "Non-current assets and depreciation",
+      "question_text": "Under IAS 38 Intangible Assets, which of the following may be recognised as an intangible asset if the relevant criteria are met?",
+      "options": {
+        "A": "Research costs incurred to gain new scientific knowledge",
+        "B": "Development costs for a new product once technical feasibility and the intention and ability to complete and sell it can be demonstrated",
+        "C": "Internally generated brand names",
+        "D": "Staff training costs that improve employees' skills"
+      },
+      "correct": "B",
+      "explanation": "Development expenditure is capitalised when the IAS 38 criteria are all met, including technical feasibility, intention and ability to complete and use or sell, probable future benefits, adequate resources and reliable measurement. Research costs are always expensed, and internally generated brands and training costs cannot be capitalised.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c10-q009",
+      "chapter": 10,
+      "topic": "Non-current assets and depreciation",
+      "question_text": "Why is a non-current asset register reconciled regularly with the general ledger accounts and with a physical inspection of the assets?",
+      "options": {
+        "A": "To check that recorded assets exist and that the ledger balances are complete and accurate",
+        "B": "To calculate the market value of each asset",
+        "C": "To avoid the need to charge depreciation",
+        "D": "To decide which assets should be revalued for tax purposes"
+      },
+      "correct": "A",
+      "explanation": "The asset register holds details of each asset. Reconciling it to the ledger and checking the assets physically are controls that confirm existence and completeness and detect loss or theft of assets.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c10-q010",
+      "chapter": 10,
+      "topic": "Non-current assets and depreciation",
+      "question_text": "A company buys a machine for $45,000. It also pays delivery costs of $1,200, installation costs of $2,300, staff training costs of $900 and a first-year maintenance contract of $1,500. Under IAS 16 Property, Plant and Equipment, what is the cost of the machine?",
+      "options": {
+        "A": "$45,000",
+        "B": "$48,500",
+        "C": "$49,400",
+        "D": "$50,900"
+      },
+      "correct": "B",
+      "explanation": "Cost includes the purchase price and costs directly attributable to bringing the asset to working condition: $45,000 + delivery $1,200 + installation $2,300 = $48,500. Staff training and maintenance are revenue expenses.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c11-q001",
+      "chapter": 11,
+      "topic": "Incomplete records, not-for-profit organisations and manufacturing accounts",
+      "question_text": "A trader's sales for the year were $120,000 and she earns a gross profit margin of 25%. Opening inventory was $14,000 and purchases were $92,500. What was closing inventory?",
+      "options": {
+        "A": "$10,500",
+        "B": "$16,500",
+        "C": "$30,000",
+        "D": "$106,500"
+      },
+      "correct": "B",
+      "explanation": "Cost of sales = $120,000 x 75% = $90,000. Closing inventory = opening inventory + purchases - cost of sales = $14,000 + $92,500 - $90,000 = $16,500.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c11-q002",
+      "chapter": 11,
+      "topic": "Incomplete records, not-for-profit organisations and manufacturing accounts",
+      "question_text": "A fire destroyed most of a business's inventory. Sales up to the date of the fire were $168,000, opening inventory was $21,000 and purchases were $125,000. Goods are sold at a mark-up of 40% on cost. Inventory that survived the fire was valued at $9,000. What was the cost of the inventory destroyed?",
+      "options": {
+        "A": "$17,000",
+        "B": "$26,000",
+        "C": "$36,200",
+        "D": "$45,200"
+      },
+      "correct": "A",
+      "explanation": "With a mark-up of 40% on cost, cost of sales = $168,000 x 100/140 = $120,000. Inventory that should have been held = $21,000 + $125,000 - $120,000 = $26,000. Inventory destroyed = $26,000 - $9,000 surviving = $17,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba3-c11-q003",
+      "chapter": 11,
+      "topic": "Incomplete records, not-for-profit organisations and manufacturing accounts",
+      "question_text": "A shop owner banks takings after paying wages and her own drawings in cash. Cash in hand was $400 at the start of the year and $600 at the end. Cash takings were $62,000, amounts banked were $48,500 and wages paid in cash were $8,200. What were her cash drawings?",
+      "options": {
+        "A": "$5,100",
+        "B": "$5,300",
+        "C": "$6,300",
+        "D": "$13,300"
+      },
+      "correct": "A",
+      "explanation": "Cash available = opening $400 + takings $62,000 = $62,400. Less bankings $48,500, wages $8,200 and closing cash $600. Drawings = $62,400 - $48,500 - $8,200 - $600 = $5,100.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba3-c11-q004",
+      "chapter": 11,
+      "topic": "Incomplete records, not-for-profit organisations and manufacturing accounts",
+      "question_text": "Trade receivables were $7,300 at the start of the year and $9,100 at the end. During the year cash received from credit customers was $84,600 and an irrecoverable debt of $500 was written off. What were credit sales for the year?",
+      "options": {
+        "A": "$83,300",
+        "B": "$86,400",
+        "C": "$86,900",
+        "D": "$101,500"
+      },
+      "correct": "C",
+      "explanation": "Using a receivables account: credit sales = closing receivables + cash received + irrecoverable debts - opening receivables = $9,100 + $84,600 + $500 - $7,300 = $86,900.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c11-q005",
+      "chapter": 11,
+      "topic": "Incomplete records, not-for-profit organisations and manufacturing accounts",
+      "question_text": "What is a receipts and payments account of a club?",
+      "options": {
+        "A": "A statement of the club's assets and liabilities at the period end",
+        "B": "A statement matching income earned with expenditure incurred for the period",
+        "C": "A summary of the club's cash and bank transactions for the period",
+        "D": "A list of the members who owe subscriptions"
+      },
+      "correct": "C",
+      "explanation": "A receipts and payments account is simply a summary of the cash book. It ignores accruals and prepayments and makes no distinction between capital and revenue items, unlike an income and expenditure account.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c11-q006",
+      "chapter": 11,
+      "topic": "Incomplete records, not-for-profit organisations and manufacturing accounts",
+      "question_text": "In the financial statements of a not-for-profit organisation such as a sports club, what is the equivalent of a business's capital account?",
+      "options": {
+        "A": "The receipts and payments account",
+        "B": "The subscriptions account",
+        "C": "The life membership fund",
+        "D": "The accumulated fund"
+      },
+      "correct": "D",
+      "explanation": "The accumulated fund represents the members' interest in the net assets of the club. It is increased by surpluses and reduced by deficits, in the same way that a trader's capital is changed by profits and losses.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c11-q007",
+      "chapter": 11,
+      "topic": "Incomplete records, not-for-profit organisations and manufacturing accounts",
+      "question_text": "A club received subscriptions of $14,600 during the year. At the start of the year subscriptions in arrears were $300 and subscriptions in advance were $450. At the end of the year subscriptions in arrears were $200 and subscriptions in advance were $700. All arrears are expected to be collected. What is the subscriptions income for the year?",
+      "options": {
+        "A": "$13,950",
+        "B": "$14,250",
+        "C": "$14,600",
+        "D": "$14,950"
+      },
+      "correct": "B",
+      "explanation": "Subscriptions income = cash received - opening arrears (last year's income) + opening advance (this year's income received last year) + closing arrears - closing advance = $14,600 - $300 + $450 + $200 - $700 = $14,250.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba3-c11-q008",
+      "chapter": 11,
+      "topic": "Incomplete records, not-for-profit organisations and manufacturing accounts",
+      "question_text": "In an income and expenditure account, what is an excess of income over expenditure called?",
+      "options": {
+        "A": "A net profit",
+        "B": "A gross profit",
+        "C": "The accumulated fund",
+        "D": "A surplus"
+      },
+      "correct": "D",
+      "explanation": "Not-for-profit organisations describe the excess of income over expenditure as a surplus and the excess of expenditure over income as a deficit, rather than profit or loss. The surplus is added to the accumulated fund.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c11-q009",
+      "chapter": 11,
+      "topic": "Incomplete records, not-for-profit organisations and manufacturing accounts",
+      "question_text": "A manufacturer provides the following data for the year: opening raw materials $6,000; purchases of raw materials $48,000; closing raw materials $7,500; direct labour $36,000; direct expenses (royalties) $2,500; factory overheads $21,000. What is the prime cost?",
+      "options": {
+        "A": "$82,500",
+        "B": "$85,000",
+        "C": "$86,500",
+        "D": "$106,000"
+      },
+      "correct": "B",
+      "explanation": "Raw materials used = $6,000 + $48,000 - $7,500 = $46,500. Prime cost = direct materials + direct labour + direct expenses = $46,500 + $36,000 + $2,500 = $85,000. Factory overheads are added after prime cost.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c11-q010",
+      "chapter": 11,
+      "topic": "Incomplete records, not-for-profit organisations and manufacturing accounts",
+      "question_text": "A manufacturer's prime cost for the year is $85,000 and factory overheads are $21,000. Work in progress was $4,200 at the start of the year and $5,800 at the end. What is the production cost of goods completed?",
+      "options": {
+        "A": "$83,400",
+        "B": "$104,400",
+        "C": "$106,000",
+        "D": "$107,600"
+      },
+      "correct": "B",
+      "explanation": "Production cost of goods completed = prime cost + factory overheads + opening WIP - closing WIP = $85,000 + $21,000 + $4,200 - $5,800 = $104,400.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba3-c11-q011",
+      "chapter": 11,
+      "topic": "Incomplete records, not-for-profit organisations and manufacturing accounts",
+      "question_text": "In a manufacturing business, where is depreciation of factory machinery shown?",
+      "options": {
+        "A": "As a factory overhead in the manufacturing account",
+        "B": "As a direct expense in the calculation of prime cost",
+        "C": "As an administrative expense in the statement of profit or loss",
+        "D": "As a deduction from closing inventory of finished goods"
+      },
+      "correct": "A",
+      "explanation": "Depreciation of factory machinery is an indirect production cost, so it is a factory overhead added to prime cost in the manufacturing account. It is not traceable to particular units, so it is not a direct expense. Depreciation of office equipment would be an administrative expense.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c11-q012",
+      "chapter": 11,
+      "topic": "Incomplete records, not-for-profit organisations and manufacturing accounts",
+      "question_text": "A sole trader who has not kept full records provides the following at the start of the year: premises $80,000; equipment $12,000; inventory $9,400; receivables $5,100; cash at bank $2,300; trade payables $6,800; bank loan $25,000. What is her opening capital?",
+      "options": {
+        "A": "$72,400",
+        "B": "$77,000",
+        "C": "$102,000",
+        "D": "$108,800"
+      },
+      "correct": "B",
+      "explanation": "Opening capital = total assets - total liabilities. Assets = $80,000 + $12,000 + $9,400 + $5,100 + $2,300 = $108,800. Liabilities = $6,800 + $25,000 = $31,800. Capital = $108,800 - $31,800 = $77,000.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c12-q001",
+      "chapter": 12,
+      "topic": "Statement of cash flows (IAS 7)",
+      "question_text": "When cash flows from operating activities are calculated using the indirect method, which of the following is added back to profit before tax?",
+      "options": {
+        "A": "An increase in inventory",
+        "B": "Depreciation",
+        "C": "A profit on disposal of non-current assets",
+        "D": "A decrease in trade payables"
+      },
+      "correct": "B",
+      "explanation": "Depreciation is a non-cash expense, so it is added back. An increase in inventory and a decrease in payables use cash and are deducted, and a profit on disposal is deducted because the proceeds are shown under investing activities.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c12-q002",
+      "chapter": 12,
+      "topic": "Statement of cash flows (IAS 7)",
+      "question_text": "A company's profit before tax for the year was $54,000. Depreciation was $12,600 and there was a loss on disposal of equipment of $1,400. During the year inventory increased by $4,300, trade receivables decreased by $2,100 and trade payables increased by $1,700. Ignoring interest and tax, what is the cash generated from operations?",
+      "options": {
+        "A": "$54,900",
+        "B": "$64,700",
+        "C": "$67,500",
+        "D": "$68,500"
+      },
+      "correct": "C",
+      "explanation": "Profit before tax $54,000 + depreciation $12,600 + loss on disposal $1,400 = $68,000. Less increase in inventory $4,300, add decrease in receivables $2,100, add increase in payables $1,700. Cash generated = $67,500.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba3-c12-q003",
+      "chapter": 12,
+      "topic": "Statement of cash flows (IAS 7)",
+      "question_text": "The carrying amount of a company's property, plant and equipment was $140,000 at the start of the year and $178,000 at the end. Depreciation for the year was $22,000 and equipment with a carrying amount of $9,000 was sold. There were no revaluations. How much cash was spent on purchasing property, plant and equipment?",
+      "options": {
+        "A": "$38,000",
+        "B": "$47,000",
+        "C": "$51,000",
+        "D": "$69,000"
+      },
+      "correct": "D",
+      "explanation": "Opening $140,000 + additions - depreciation $22,000 - disposals $9,000 = closing $178,000. Additions = $178,000 - $140,000 + $22,000 + $9,000 = $69,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba3-c12-q004",
+      "chapter": 12,
+      "topic": "Statement of cash flows (IAS 7)",
+      "question_text": "A company's current tax liability was $8,200 at the start of the year and $9,700 at the end. The tax charge in the statement of profit or loss was $11,500. How much tax was paid during the year?",
+      "options": {
+        "A": "$1,500",
+        "B": "$10,000",
+        "C": "$11,500",
+        "D": "$13,000"
+      },
+      "correct": "B",
+      "explanation": "Tax paid = opening liability + charge for the year - closing liability = $8,200 + $11,500 - $9,700 = $10,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c12-q005",
+      "chapter": 12,
+      "topic": "Statement of cash flows (IAS 7)",
+      "question_text": "Under IAS 7 Statement of Cash Flows, how is the repayment of a bank loan classified?",
+      "options": {
+        "A": "Operating activities",
+        "B": "Investing activities",
+        "C": "Financing activities",
+        "D": "It is not shown because it does not affect profit"
+      },
+      "correct": "C",
+      "explanation": "Financing activities change the size and composition of the entity's equity and borrowings. Repaying a loan reduces borrowings, so it is a financing cash outflow.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c12-q006",
+      "chapter": 12,
+      "topic": "Statement of cash flows (IAS 7)",
+      "question_text": "Which of the following is a cash flow from investing activities under IAS 7?",
+      "options": {
+        "A": "Cash received from customers",
+        "B": "Proceeds from the sale of equipment",
+        "C": "Proceeds from an issue of shares",
+        "D": "Cash paid to suppliers of goods for resale"
+      },
+      "correct": "B",
+      "explanation": "Investing activities are the acquisition and disposal of long-term assets and other investments, so proceeds from selling equipment are investing inflows. Receipts from customers and payments to suppliers are operating, and a share issue is financing.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c12-q007",
+      "chapter": 12,
+      "topic": "Statement of cash flows (IAS 7)",
+      "question_text": "A company's share capital increased from $50,000 to $80,000 during the year and its share premium from $20,000 to $28,000. During the year there was a bonus issue of $10,000 financed from share premium, and the rest of the increase came from an issue of shares for cash. What cash was received from the issue of shares?",
+      "options": {
+        "A": "$18,000",
+        "B": "$30,000",
+        "C": "$38,000",
+        "D": "$48,000"
+      },
+      "correct": "C",
+      "explanation": "The bonus issue moved $10,000 from share premium to share capital with no cash. Cash shares: share capital increase $30,000 - bonus $10,000 = $20,000; share premium increase $8,000 + $10,000 used for the bonus = $18,000. Cash received = $20,000 + $18,000 = $38,000. This equals the combined increase in share capital and share premium, because the bonus issue has no net effect on the two accounts together.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba3-c12-q008",
+      "chapter": 12,
+      "topic": "Statement of cash flows (IAS 7)",
+      "question_text": "A company sells a machine at a profit. How is this reflected in the statement of cash flows prepared using the indirect method?",
+      "options": {
+        "A": "The profit is deducted from profit before tax, and the sale proceeds are shown under investing activities",
+        "B": "The profit is added back to profit before tax, and the sale proceeds are shown under financing activities",
+        "C": "The sale proceeds are added to profit before tax under operating activities",
+        "D": "Only the profit on disposal is shown, under investing activities"
+      },
+      "correct": "A",
+      "explanation": "The profit on disposal is included in profit before tax but is not an operating cash flow, so it is deducted in the reconciliation. The full cash proceeds are then shown as an investing inflow.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c12-q009",
+      "chapter": 12,
+      "topic": "Statement of cash flows (IAS 7)",
+      "question_text": "Using the indirect method, how does an increase in trade payables during the year affect cash generated from operations?",
+      "options": {
+        "A": "It is deducted from profit, because the business owes more money",
+        "B": "It has no effect, because payables are not cash",
+        "C": "It is added to profit, because the business has paid less cash than the expenses charged",
+        "D": "It is shown under financing activities instead"
+      },
+      "correct": "C",
+      "explanation": "An increase in payables means some expenses charged in profit or loss have not yet been paid, so cash outflows are lower than the expense and the increase is added back.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c12-q010",
+      "chapter": 12,
+      "topic": "Statement of cash flows (IAS 7)",
+      "question_text": "A company's statement of cash flows shows net cash from operating activities of $42,000, net cash used in investing activities of $31,500 and net cash used in financing activities of $6,800. Cash and cash equivalents at the start of the year were $3,200. What were cash and cash equivalents at the end of the year?",
+      "options": {
+        "A": "$3,700",
+        "B": "$6,900",
+        "C": "$45,200",
+        "D": "$83,500"
+      },
+      "correct": "B",
+      "explanation": "Net increase in cash = $42,000 - $31,500 - $6,800 = $3,700. Closing cash = $3,200 + $3,700 = $6,900.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c13-q001",
+      "chapter": 13,
+      "topic": "Analysis of financial statements",
+      "question_text": "A company has current assets of $48,600 and current liabilities of $27,000. What is its current ratio?",
+      "options": {
+        "A": "0.56:1",
+        "B": "1.0:1",
+        "C": "1.8:1",
+        "D": "2.8:1"
+      },
+      "correct": "C",
+      "explanation": "Current ratio = current assets / current liabilities = $48,600 / $27,000 = 1.8:1.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c13-q002",
+      "chapter": 13,
+      "topic": "Analysis of financial statements",
+      "question_text": "A company has current assets of $48,600, of which inventory is $21,600, and current liabilities of $27,000. What is its quick (acid test) ratio?",
+      "options": {
+        "A": "0.56:1",
+        "B": "0.8:1",
+        "C": "1.0:1",
+        "D": "1.8:1"
+      },
+      "correct": "C",
+      "explanation": "Quick ratio = (current assets - inventory) / current liabilities = ($48,600 - $21,600) / $27,000 = $27,000 / $27,000 = 1.0:1.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c13-q003",
+      "chapter": 13,
+      "topic": "Analysis of financial statements",
+      "question_text": "A company's trade receivables at the year end are $36,000. Revenue, all on credit, was $292,000 and cost of sales was $219,000. What is the receivables collection period (to the nearest day)?",
+      "options": {
+        "A": "8 days",
+        "B": "45 days",
+        "C": "54 days",
+        "D": "60 days"
+      },
+      "correct": "B",
+      "explanation": "Receivables collection period = trade receivables / credit sales x 365 = $36,000 / $292,000 x 365 = 45.0, i.e. 45 days. Cost of sales is not used because receivables are measured at selling price.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c13-q004",
+      "chapter": 13,
+      "topic": "Analysis of financial statements",
+      "question_text": "A company made a gross profit of $72,000 on revenue of $240,000. Which of the following is correct?",
+      "options": {
+        "A": "Gross profit margin is 42.9% and mark-up on cost is 30%",
+        "B": "Gross profit margin and mark-up on cost are both 30%",
+        "C": "Gross profit margin is 30% and mark-up on cost is 23.1%",
+        "D": "Gross profit margin is 30% and mark-up on cost is 42.9%"
+      },
+      "correct": "D",
+      "explanation": "Margin = gross profit / revenue = $72,000 / $240,000 = 30%. Cost of sales = $240,000 - $72,000 = $168,000. Mark-up = gross profit / cost of sales = $72,000 / $168,000 = 42.9% (to one decimal place).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c13-q005",
+      "chapter": 13,
+      "topic": "Analysis of financial statements",
+      "question_text": "A company has profit before interest and tax of $46,800, equity of $210,000 and non-current liabilities (long-term loans) of $50,000. What is its return on capital employed?",
+      "options": {
+        "A": "5.6%",
+        "B": "18%",
+        "C": "22.3%",
+        "D": "29.2%"
+      },
+      "correct": "B",
+      "explanation": "Capital employed = equity + non-current liabilities = $210,000 + $50,000 = $260,000. ROCE = profit before interest and tax / capital employed = $46,800 / $260,000 x 100 = 18%.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c13-q006",
+      "chapter": 13,
+      "topic": "Analysis of financial statements",
+      "question_text": "A company has long-term loans of $90,000 and equity of $210,000. What is its gearing ratio, measured as debt / (debt + equity)?",
+      "options": {
+        "A": "30%",
+        "B": "42.9%",
+        "C": "70%",
+        "D": "233%"
+      },
+      "correct": "A",
+      "explanation": "Gearing = debt / (debt + equity) = $90,000 / ($90,000 + $210,000) = $90,000 / $300,000 = 30%. Measured as debt / equity it would be 42.9%, so the method used must always be stated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c13-q007",
+      "chapter": 13,
+      "topic": "Analysis of financial statements",
+      "question_text": "A company holds inventory of $27,000 at the year end. Cost of sales for the year was $219,000 and revenue was $292,000. What is the inventory holding period (to the nearest day)?",
+      "options": {
+        "A": "6 days",
+        "B": "8 days",
+        "C": "34 days",
+        "D": "45 days"
+      },
+      "correct": "D",
+      "explanation": "Inventory holding period = inventory / cost of sales x 365 = $27,000 / $219,000 x 365 = 45.0, i.e. 45 days. Inventory is held at cost, so cost of sales (not revenue) is used. Option B (8) is the inventory turnover in times ($219,000 / $27,000 = 8.1), not a period in days.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba3-c13-q008",
+      "chapter": 13,
+      "topic": "Analysis of financial statements",
+      "question_text": "A company's receivables collection period has risen from 38 days to 57 days. Which of the following is the most likely explanation?",
+      "options": {
+        "A": "Customers are paying more quickly than before",
+        "B": "Credit control has become less effective, or customers have been given longer credit terms",
+        "C": "The company has switched mainly to cash sales",
+        "D": "The company has written off a large number of irrecoverable debts"
+      },
+      "correct": "B",
+      "explanation": "A longer collection period means customers are taking longer to pay, which may reflect weaker credit control or a decision to offer longer terms to win sales. A switch to cash sales or large write-offs would usually reduce receivables and shorten the period.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba3-c13-q009",
+      "chapter": 13,
+      "topic": "Analysis of financial statements",
+      "question_text": "A company has revenue of $500,000, capital employed of $250,000 and an operating profit margin (profit before interest and tax / revenue) of 8%. What is its return on capital employed?",
+      "options": {
+        "A": "4%",
+        "B": "8%",
+        "C": "10%",
+        "D": "16%"
+      },
+      "correct": "D",
+      "explanation": "Asset turnover = revenue / capital employed = $500,000 / $250,000 = 2 times. ROCE = operating profit margin x asset turnover = 8% x 2 = 16%. Check: profit before interest and tax = 8% x $500,000 = $40,000; $40,000 / $250,000 = 16%.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba3-c13-q010",
+      "chapter": 13,
+      "topic": "Analysis of financial statements",
+      "question_text": "A company's current ratio is 2:1. Which of the following transactions would increase the current ratio?",
+      "options": {
+        "A": "Paying a trade payable from the bank balance",
+        "B": "Buying inventory on credit",
+        "C": "Selling inventory at cost for cash",
+        "D": "Using the bank balance to buy a new machine"
+      },
+      "correct": "A",
+      "explanation": "When the ratio is above 1, an equal reduction in current assets and current liabilities increases it: for example, current assets of $200,000 and liabilities of $100,000 become $180,000 and $80,000 after a $20,000 payment, a ratio of 2.25:1. Buying inventory on credit increases both equally and lowers the ratio (220:120 = 1.83:1). Selling at cost for cash swaps one current asset for another, leaving it unchanged, and buying a machine reduces current assets only.",
+      "difficulty": "hard"
+    }
+  ]
+}

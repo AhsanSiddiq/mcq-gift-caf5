@@ -1,0 +1,1955 @@
+{
+  "subject_id": "icaew-se",
+  "questions": [
+    {
+      "id": "icaew-se-c01-q001",
+      "chapter": 1,
+      "topic": "Concepts and significance of sustainability",
+      "question_text": "Which of the following is the widely used definition of sustainable development set out in the 1987 Brundtland Report?",
+      "options": {
+        "A": "Development that maximises economic growth while keeping pollution within legal limits",
+        "B": "Development that protects the natural environment by halting all further industrial expansion",
+        "C": "Development that meets the needs of the present without compromising the ability of future generations to meet their own needs",
+        "D": "Development that ensures every country reaches the same level of income per head"
+      },
+      "correct": "C",
+      "explanation": "The Brundtland Report (Our Common Future) defined sustainable development as meeting present needs without compromising the ability of future generations to meet theirs. The definition is about balancing needs across generations, not about maximising growth within legal limits. It does not require halting industrial activity, nor does it set a goal of equal income per head between countries.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-se-c01-q002",
+      "chapter": 1,
+      "topic": "Concepts and significance of sustainability",
+      "question_text": "The United Nations Sustainable Development Goals (UN SDGs) were adopted by UN member states in 2015. How many goals do they contain?",
+      "options": {
+        "A": "17",
+        "B": "8",
+        "C": "12",
+        "D": "169"
+      },
+      "correct": "A",
+      "explanation": "There are 17 SDGs, supported by 169 targets, forming the 2030 Agenda for Sustainable Development. Eight was the number of the earlier Millennium Development Goals. The figure of 169 is the number of targets, not goals.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-se-c01-q003",
+      "chapter": 1,
+      "topic": "Concepts and significance of sustainability",
+      "question_text": "Which of the following best explains why the UN SDGs are significant for businesses as well as governments?",
+      "options": {
+        "A": "They are legally binding on all listed companies and must be reported against in annual accounts",
+        "B": "They replace national law on environmental protection in every UN member state",
+        "C": "They apply only to developing countries, so businesses use them mainly for overseas aid programmes",
+        "D": "They provide a shared global framework that businesses can use to identify and communicate how their activities affect social, environmental and economic priorities"
+      },
+      "correct": "D",
+      "explanation": "The SDGs are a voluntary, universal framework agreed by governments, but they are widely used by businesses to align strategy, set targets and communicate their contribution to sustainable development. They are not legally binding on companies and do not override national law. Unlike the earlier Millennium Development Goals, the SDGs apply to all countries, not only developing ones.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c01-q004",
+      "chapter": 1,
+      "topic": "Concepts and significance of sustainability",
+      "question_text": "What does the term 'Anthropocene' describe?",
+      "options": {
+        "A": "A proposed name for the current period in which human activity has become the dominant influence on the Earth's climate and ecosystems",
+        "B": "A model of business strategy that places people ahead of profit",
+        "C": "The period before industrialisation when human impact on the planet was negligible",
+        "D": "An international agreement on reducing greenhouse gas emissions"
+      },
+      "correct": "A",
+      "explanation": "The Anthropocene is a term proposed to describe the era in which humans have become a major force shaping the planet's geology, climate and ecosystems. It is not a business model or a treaty. It describes the opposite of the pre-industrial period, when human influence was much smaller.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-se-c01-q005",
+      "chapter": 1,
+      "topic": "Concepts and significance of sustainability",
+      "question_text": "The planetary boundaries framework identifies nine Earth-system processes. What is the main purpose of the framework?",
+      "options": {
+        "A": "To define a 'safe operating space' for humanity, beyond which there is an increased risk of large-scale and possibly irreversible environmental change",
+        "B": "To set legally enforceable emission limits for each country",
+        "C": "To measure the minimum social needs, such as food and housing, that every person should have",
+        "D": "To rank countries according to the size of their economies relative to their land area"
+      },
+      "correct": "A",
+      "explanation": "The planetary boundaries framework identifies limits for processes such as climate change, biosphere integrity and freshwater use, within which humanity can operate safely. Crossing these boundaries increases the risk of abrupt or irreversible change. The framework is scientific, not legally enforceable, and the social foundation of minimum needs is a feature of Doughnut Economics rather than of planetary boundaries.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c01-q006",
+      "chapter": 1,
+      "topic": "Concepts and significance of sustainability",
+      "question_text": "Kate Raworth's 'Doughnut Economics' model has an inner ring and an outer ring. A country provides good healthcare, education and housing for all its citizens but its resource use greatly exceeds the Earth's capacity. How would this country be described using the model?",
+      "options": {
+        "A": "It falls short of the social foundation but stays within the ecological ceiling",
+        "B": "It meets the social foundation but overshoots the ecological ceiling",
+        "C": "It is operating within the safe and just space for humanity",
+        "D": "It overshoots the social foundation and falls short of the ecological ceiling"
+      },
+      "correct": "B",
+      "explanation": "In Doughnut Economics the inner ring is the social foundation (minimum standards for human wellbeing) and the outer ring is the ecological ceiling (limits on pressure on the planet). Meeting citizens' needs means the social foundation is met, but excessive resource use means the ecological ceiling is overshot. The safe and just space is only achieved when both conditions are satisfied at once.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c01-q007",
+      "chapter": 1,
+      "topic": "Concepts and significance of sustainability",
+      "question_text": "A manufacturer of office furniture stops selling chairs and instead leases them to customers. At the end of each lease it takes the chairs back, refurbishes them and re-leases them, and recycles parts that cannot be reused. Which concept does this business model best illustrate?",
+      "options": {
+        "A": "The linear 'take-make-dispose' economy",
+        "B": "Degrowth",
+        "C": "The circular economy",
+        "D": "Weak sustainability"
+      },
+      "correct": "C",
+      "explanation": "A circular economy keeps products and materials in use at their highest value for as long as possible, designing out waste through reuse, refurbishment and recycling. Product-as-a-service models such as leasing support this because the producer keeps ownership and has an incentive to make durable products. A linear economy disposes of products after use, while degrowth refers to reducing overall economic throughput.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c01-q008",
+      "chapter": 1,
+      "topic": "Concepts and significance of sustainability",
+      "question_text": "Under the six-capitals model used in integrated reporting, which pairing of item and type of capital is correct?",
+      "options": {
+        "A": "Trust built with local communities and suppliers: social and relationship capital",
+        "B": "Software developed in-house: manufactured capital",
+        "C": "Cash held in the bank: natural capital",
+        "D": "Employees' motivation and ability to innovate: intellectual capital"
+      },
+      "correct": "A",
+      "explanation": "The six capitals are financial, manufactured, intellectual, human, social and relationship, and natural. Trust and relationships with communities and suppliers are social and relationship capital. In-house software is intellectual capital, cash is financial capital, and employees' motivation and capabilities are human capital.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c01-q009",
+      "chapter": 1,
+      "topic": "Concepts and significance of sustainability",
+      "question_text": "Which statement correctly distinguishes 'weak sustainability' from 'strong sustainability'?",
+      "options": {
+        "A": "Weak sustainability applies to small businesses, whereas strong sustainability applies to large listed companies",
+        "B": "Weak sustainability focuses only on social issues, whereas strong sustainability focuses only on environmental issues",
+        "C": "Weak sustainability assumes natural capital can be replaced by other forms of capital, whereas strong sustainability holds that critical natural capital must be preserved because it cannot be substituted",
+        "D": "Weak sustainability requires zero emissions immediately, whereas strong sustainability allows emissions to fall gradually"
+      },
+      "correct": "C",
+      "explanation": "The distinction concerns substitutability between forms of capital. Weak sustainability treats total capital as what matters, so a loss of natural capital can be offset by gains in manufactured or financial capital. Strong sustainability holds that some natural capital is critical and non-substitutable, so it must be maintained in its own right. The terms are not about business size, a single pillar, or the speed of emission cuts.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-se-c01-q010",
+      "chapter": 1,
+      "topic": "Concepts and significance of sustainability",
+      "question_text": "Which of the following best describes the concept of 'degrowth' as contrasted with 'green growth'?",
+      "options": {
+        "A": "Degrowth argues that economies should grow faster to fund environmental clean-up, whereas green growth argues for zero growth",
+        "B": "Degrowth argues for a planned reduction in energy and resource use in high-income economies, whereas green growth argues that economic growth can continue if it is decoupled from environmental harm",
+        "C": "Degrowth and green growth both argue that GDP must fall in every country",
+        "D": "Degrowth refers to falling population, whereas green growth refers to rising population"
+      },
+      "correct": "B",
+      "explanation": "Green growth holds that GDP can keep rising while environmental pressures fall, through technology and efficiency that decouple growth from resource use. Degrowth questions whether sufficient decoupling is achievable and proposes a deliberate scaling down of material and energy throughput in wealthy economies, with a focus on wellbeing rather than GDP. Neither concept is about population size.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c01-q011",
+      "chapter": 1,
+      "topic": "Concepts and significance of sustainability",
+      "question_text": "Over a period, a country's GDP rose from £500bn to £600bn and its greenhouse gas emissions rose from 200 million tonnes CO2e to 210 million tonnes CO2e.\nWhich of the following correctly describes what happened?",
+      "options": {
+        "A": "Emissions intensity fell by 12.5%, which is absolute decoupling",
+        "B": "Emissions intensity rose by 5.0%, so there was no decoupling",
+        "C": "Emissions intensity fell by 20.0%, which is relative decoupling only",
+        "D": "Emissions intensity fell by 12.5%, which is relative decoupling only"
+      },
+      "correct": "D",
+      "explanation": "Emissions intensity was 200/500 = 0.40 Mt per £bn at the start and 210/600 = 0.35 Mt per £bn at the end. The fall is (0.40 - 0.35) / 0.40 = 12.5% (rounded to one decimal place). Because total emissions still rose, this is relative decoupling; absolute decoupling would require emissions to fall in total while GDP grows. The 5.0% figure is the rise in absolute emissions and 20.0% is the rise in GDP, not the change in intensity.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-se-c01-q012",
+      "chapter": 1,
+      "topic": "Concepts and significance of sustainability",
+      "question_text": "Which of the following global sustainability challenges is primarily social and demographic rather than environmental?",
+      "options": {
+        "A": "Loss of species due to habitat destruction",
+        "B": "Accumulation of plastic waste in the oceans",
+        "C": "Rapid urbanisation and migration placing pressure on housing and public services",
+        "D": "Rising average global temperatures"
+      },
+      "correct": "C",
+      "explanation": "Urbanisation and migration are population trends that mainly affect society, for example through demand for housing, infrastructure and services. Species decline, plastic pollution and rising temperatures are primarily environmental challenges, although all of these issues are interconnected.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-se-c01-q013",
+      "chapter": 1,
+      "topic": "Concepts and significance of sustainability",
+      "question_text": "When identifying the key stakeholders in sustainability, why are future generations often described as a particularly challenging stakeholder group?",
+      "options": {
+        "A": "They have the greatest economic power over current business decisions",
+        "B": "They are legally entitled to sue companies for damage caused before they were born",
+        "C": "They are already represented on most company boards",
+        "D": "They will bear the consequences of today's decisions but cannot express their views or influence those decisions directly"
+      },
+      "correct": "D",
+      "explanation": "Future generations are central to the definition of sustainable development, yet they have no voice in present-day decision-making. Their interests therefore have to be considered through others, such as regulators, NGOs and responsible boards. They have no current economic power and no general legal right to sue, and they are not represented on boards.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c02-q001",
+      "chapter": 2,
+      "topic": "Pillars of sustainability",
+      "question_text": "What are the three pillars of sustainability?",
+      "options": {
+        "A": "Environmental, legal and technological",
+        "B": "Financial, manufactured and human",
+        "C": "Environmental, social and economic",
+        "D": "Governance, risk and compliance"
+      },
+      "correct": "C",
+      "explanation": "The three pillars of sustainability are environmental, social and economic. They reflect the idea that sustainability requires balancing the needs of the planet, people and the economy. Financial, manufactured and human are forms of capital rather than pillars.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-se-c02-q002",
+      "chapter": 2,
+      "topic": "Pillars of sustainability",
+      "question_text": "John Elkington's 'triple bottom line' encourages organisations to report on which three areas?",
+      "options": {
+        "A": "People, planet and profit",
+        "B": "Price, product and place",
+        "C": "Profit, payroll and pensions",
+        "D": "Planning, performance and procurement"
+      },
+      "correct": "A",
+      "explanation": "The triple bottom line asks organisations to measure social (people), environmental (planet) and economic (profit) performance, rather than financial profit alone. The other options are marketing or operational terms with no link to sustainability reporting.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-se-c02-q003",
+      "chapter": 2,
+      "topic": "Pillars of sustainability",
+      "question_text": "Several fishing companies share access to the same sea. Each company increases its catch to maximise its own profits, and within a few years fish stocks collapse, harming all of them. Which concept does this illustrate?",
+      "options": {
+        "A": "The circular economy",
+        "B": "Relative decoupling",
+        "C": "The tragedy of the commons",
+        "D": "The social licence to operate"
+      },
+      "correct": "C",
+      "explanation": "The tragedy of the commons arises when individuals acting in their own short-term interest overuse a shared resource, depleting it to everyone's detriment. It shows how inaction or uncoordinated action damages environmental sustainability and, in turn, economic sustainability. The other concepts do not describe the over-exploitation of a shared resource.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c02-q004",
+      "chapter": 2,
+      "topic": "Pillars of sustainability",
+      "question_text": "An audit of a clothing retailer's overseas suppliers finds that workers have had their passports confiscated and are being forced to work excessive hours. Which pillar of sustainability is most directly affected?",
+      "options": {
+        "A": "Environmental",
+        "B": "Economic",
+        "C": "Social",
+        "D": "Governance"
+      },
+      "correct": "C",
+      "explanation": "Forced labour and the confiscation of identity documents are indicators of modern slavery, a human rights issue that falls under the social pillar. Governance is part of ESG but is not one of the three pillars of sustainability. The issue may have economic consequences for the retailer, but its primary impact is on people.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-se-c02-q005",
+      "chapter": 2,
+      "topic": "Pillars of sustainability",
+      "question_text": "Which of the following best describes economic sustainability?",
+      "options": {
+        "A": "Maximising profit in the current year regardless of the impact on future periods",
+        "B": "The ability of an economy or organisation to support long-term economic activity and wellbeing without causing damage to the environment or society that undermines that activity",
+        "C": "Ensuring that a company never makes a loss in any financial year",
+        "D": "Keeping prices as low as possible for consumers at all times"
+      },
+      "correct": "B",
+      "explanation": "Economic sustainability is about maintaining economic activity and prosperity over the long term, in a way that does not deplete the environmental and social resources on which the economy depends. Short-term profit maximisation can undermine long-term viability. Avoiding any annual loss or minimising prices are not definitions of economic sustainability.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c02-q006",
+      "chapter": 2,
+      "topic": "Pillars of sustainability",
+      "question_text": "A chemicals factory discharges waste into a river, harming fishing businesses and communities downstream. The factory does not pay for this harm. In economic terms, what is this an example of?",
+      "options": {
+        "A": "A negative externality",
+        "B": "A positive externality",
+        "C": "A sunk cost",
+        "D": "An opportunity cost"
+      },
+      "correct": "A",
+      "explanation": "A negative externality is a cost imposed on third parties that is not reflected in the price paid by the producer or consumer. Because the factory does not bear the cost of the pollution, the market under-prices its activity, which is one reason regulation and environmental taxes are used. A positive externality would be a benefit to third parties.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c02-q007",
+      "chapter": 2,
+      "topic": "Pillars of sustainability",
+      "question_text": "A government plans to close coal mines to reduce emissions. It also funds retraining for miners and investment in new industries in mining towns. Which concept does this approach reflect?",
+      "options": {
+        "A": "Greenwashing",
+        "B": "Weak sustainability",
+        "C": "A just transition",
+        "D": "Offshoring"
+      },
+      "correct": "C",
+      "explanation": "A just transition means moving to a low-carbon economy in a way that is fair to workers and communities affected by the change. It recognises that environmental action has social and economic consequences, which must be managed. Retraining and regional investment address the social pillar alongside the environmental goal.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c02-q008",
+      "chapter": 2,
+      "topic": "Pillars of sustainability",
+      "question_text": "Which of the following best illustrates the interconnection between the three pillars of sustainability?",
+      "options": {
+        "A": "A company changes its auditor after a tender process",
+        "B": "Prolonged drought causes crop failures, which raise food prices and push vulnerable households into poverty",
+        "C": "A government increases the basic rate of income tax by one percentage point",
+        "D": "A retailer launches a new website to sell its products online"
+      },
+      "correct": "B",
+      "explanation": "The drought is an environmental event that leads to an economic effect (higher food prices) and a social effect (increased poverty), showing how the pillars are linked. The other options describe events that do not demonstrate a chain of effects across the environmental, social and economic pillars.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c02-q009",
+      "chapter": 2,
+      "topic": "Pillars of sustainability",
+      "question_text": "A company announces that it will pay all staff at least a 'living wage' rather than the legal minimum wage. How does a living wage differ from a minimum wage?",
+      "options": {
+        "A": "A living wage is based on the income needed to cover a basic but acceptable standard of living, whereas a minimum wage is the legal floor set by law",
+        "B": "A living wage is a legal requirement, whereas a minimum wage is voluntary",
+        "C": "A living wage applies only to directors, whereas a minimum wage applies to other employees",
+        "D": "A living wage is always lower than the minimum wage"
+      },
+      "correct": "A",
+      "explanation": "A living wage is a voluntary benchmark calculated from the cost of meeting basic needs, and is typically higher than the statutory minimum. The minimum wage is the legal floor that employers must pay. Paying a living wage supports social sustainability by reducing in-work poverty.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-se-c02-q010",
+      "chapter": 2,
+      "topic": "Pillars of sustainability",
+      "question_text": "Which statement best explains why delaying action on climate change can damage economic sustainability?",
+      "options": {
+        "A": "Delay always reduces costs because technology will make all future action free",
+        "B": "Delay has no economic effect because climate change is solely an environmental issue",
+        "C": "Delay improves economic sustainability because it avoids any spending on low-carbon investment",
+        "D": "Delay tends to increase the eventual costs of adaptation and of a faster, more disruptive transition, and raises the risk of assets losing value before the end of their expected lives"
+      },
+      "correct": "D",
+      "explanation": "The longer action is delayed, the greater the physical damage that must be adapted to and the sharper the policy changes needed later, both of which raise costs. A sudden transition can leave carbon-intensive assets stranded, damaging investors and the wider economy. Climate change is not purely environmental, and avoiding investment now does not remove the costs; it defers and usually increases them.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-se-c02-q011",
+      "chapter": 2,
+      "topic": "Pillars of sustainability",
+      "question_text": "The Gini coefficient is a common measure of economic inequality within a country. What does a Gini coefficient of zero indicate?",
+      "options": {
+        "A": "Perfect inequality, with one person receiving all the income",
+        "B": "That the economy has zero growth",
+        "C": "That the country has no unemployment",
+        "D": "Perfect equality, with income shared equally by everyone"
+      },
+      "correct": "D",
+      "explanation": "The Gini coefficient ranges from 0 (perfect equality) to 1, or 100 if expressed as a percentage (perfect inequality). It measures how income or wealth is distributed, not growth or unemployment. Rising inequality is one of the key challenges to social and economic sustainability.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-se-c02-q012",
+      "chapter": 2,
+      "topic": "Pillars of sustainability",
+      "question_text": "Some sustainability models present the three pillars as three overlapping circles of equal size, while others present them as nested circles, with the economy inside society and society inside the environment. What is the main point made by the nested model?",
+      "options": {
+        "A": "The economy depends on society, and both depend on the environment, so environmental limits constrain the other two pillars",
+        "B": "Each pillar is independent, so trade-offs between them are never needed",
+        "C": "The economy is the largest system and the environment is a small part of it",
+        "D": "Social issues are irrelevant once environmental targets are achieved"
+      },
+      "correct": "A",
+      "explanation": "The nested model emphasises that the economy exists within society and that both rely on the natural environment. This means economic activity cannot be sustained if it breaches environmental limits, a view associated with strong sustainability. The overlapping-circles model treats the pillars as more equal and allows trade-offs, which the nested model challenges.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-se-c02-q013",
+      "chapter": 2,
+      "topic": "Pillars of sustainability",
+      "question_text": "A mining company has the legal permits it needs, but local communities strongly oppose its new mine and have organised blockades. Which concept best describes what the company lacks?",
+      "options": {
+        "A": "A social licence to operate",
+        "B": "Planning permission",
+        "C": "A going concern basis",
+        "D": "Limited liability"
+      },
+      "correct": "A",
+      "explanation": "A social licence to operate is the ongoing acceptance of a company's activities by local communities and other stakeholders. It is not a legal document, so a company can have all permits yet still lack community support. Losing it can lead to delays, protests and reputational damage, showing how social sustainability affects business viability.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c03-q001",
+      "chapter": 3,
+      "topic": "Regulation on sustainability",
+      "question_text": "A government is choosing between making climate disclosures mandatory by law and issuing voluntary guidance. Which of the following is an advantage of mandatory regulation over voluntary guidance?",
+      "options": {
+        "A": "It is always cheaper for companies to comply with than voluntary guidance",
+        "B": "It improves consistency and comparability, because all entities in scope must report and cannot choose only favourable information",
+        "C": "It can be changed more quickly than guidance in response to new developments",
+        "D": "It allows each company to choose which topics to report on"
+      },
+      "correct": "B",
+      "explanation": "Mandatory regulation creates a level playing field because every entity in scope must comply, which improves comparability and reduces selective reporting. However, it typically raises compliance costs and is slower to change than guidance. Letting companies choose their topics is a feature of voluntary approaches.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c03-q002",
+      "chapter": 3,
+      "topic": "Regulation on sustainability",
+      "question_text": "What is the central long-term temperature goal of the Paris Agreement adopted in 2015?",
+      "options": {
+        "A": "To return global average temperature to pre-industrial levels by 2030",
+        "B": "To limit the increase in global average temperature to 3°C above current levels",
+        "C": "To ensure that developed countries reduce emissions while developing countries make no commitments",
+        "D": "To hold the increase in global average temperature to well below 2°C above pre-industrial levels and to pursue efforts to limit it to 1.5°C"
+      },
+      "correct": "D",
+      "explanation": "The Paris Agreement aims to keep warming well below 2°C above pre-industrial levels while pursuing efforts to limit it to 1.5°C. Countries set their own nationally determined contributions (NDCs) and all parties participate, unlike the earlier Kyoto Protocol, which placed binding targets mainly on developed countries.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-se-c03-q003",
+      "chapter": 3,
+      "topic": "Regulation on sustainability",
+      "question_text": "What is the main role of the Intergovernmental Panel on Climate Change (IPCC)?",
+      "options": {
+        "A": "To assess and summarise the scientific evidence on climate change for policymakers",
+        "B": "To set legally binding emission limits for each country",
+        "C": "To issue sustainability reporting standards for listed companies",
+        "D": "To fine companies that exceed their emission allowances"
+      },
+      "correct": "A",
+      "explanation": "The IPCC is a UN body that assesses published research on climate change, its impacts and possible responses, and produces assessment reports for policymakers. It does not set binding limits, write reporting standards or enforce penalties. Its reports inform international negotiations under the UN climate framework.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c03-q004",
+      "chapter": 3,
+      "topic": "Regulation on sustainability",
+      "question_text": "The UN Global Compact asks businesses to commit to ten principles. These principles cover which four areas?",
+      "options": {
+        "A": "Human rights, labour, environment and anti-corruption",
+        "B": "Profit, growth, innovation and market share",
+        "C": "Audit, tax, financial reporting and assurance",
+        "D": "Health, education, housing and transport"
+      },
+      "correct": "A",
+      "explanation": "The UN Global Compact is a voluntary initiative under which companies commit to ten principles in the areas of human rights, labour, environment and anti-corruption. It is an example of an international organisation driving change through voluntary commitment rather than law.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c03-q005",
+      "chapter": 3,
+      "topic": "Regulation on sustainability",
+      "question_text": "Under a 'cap-and-trade' emissions trading scheme, how is the cost of emitting greenhouse gases created?",
+      "options": {
+        "A": "A limit is set on total emissions, allowances are issued up to that limit, and companies that emit more than their allowances must buy more from those that emit less",
+        "B": "Every company pays a fixed tax per tonne of emissions set by the government, with no overall limit",
+        "C": "Companies receive subsidies for each tonne of emissions they produce",
+        "D": "Companies are banned from emitting any greenhouse gases at all"
+      },
+      "correct": "A",
+      "explanation": "Cap-and-trade sets an overall cap on emissions and creates tradeable allowances. The market price of allowances puts a cost on emissions and rewards companies that cut emissions cheaply, as they can sell surplus allowances. A fixed charge per tonne without a cap describes a carbon tax instead.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c03-q006",
+      "chapter": 3,
+      "topic": "Regulation on sustainability",
+      "question_text": "CDP (formerly the Carbon Disclosure Project) is a non-governmental organisation. How does it mainly drive sustainability change?",
+      "options": {
+        "A": "By passing legislation that requires companies to report emissions",
+        "B": "By acting as the statutory auditor of company sustainability reports",
+        "C": "By running a global disclosure system through which companies, cities and others report environmental data, which investors and customers can use",
+        "D": "By issuing accounting standards for financial statements"
+      },
+      "correct": "C",
+      "explanation": "CDP is an NGO that collects environmental disclosures on climate, water and forests and makes them available to investors and purchasers. Its influence comes from transparency and stakeholder pressure, not from law. NGOs cannot legislate, act as statutory auditors or set financial reporting standards.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-se-c03-q007",
+      "chapter": 3,
+      "topic": "Regulation on sustainability",
+      "question_text": "The EU Corporate Sustainability Reporting Directive (CSRD) requires in-scope companies to report using the European Sustainability Reporting Standards (ESRS). Which materiality concept underpins the CSRD?",
+      "options": {
+        "A": "Financial materiality only, considering just the effects of sustainability matters on the company",
+        "B": "Impact materiality only, ignoring effects on the company's finances",
+        "C": "Double materiality, considering both the company's impacts on people and the environment and the sustainability matters that affect the company's financial position",
+        "D": "Quantitative materiality, set at a fixed percentage of profit before tax"
+      },
+      "correct": "C",
+      "explanation": "The CSRD is an example of sustainability goals being codified into law, and it uses double materiality. A matter is material if it is material from an impact perspective (inside-out), a financial perspective (outside-in), or both. This differs from the ISSB standards, which focus on financial materiality for investors.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-se-c03-q008",
+      "chapter": 3,
+      "topic": "Regulation on sustainability",
+      "question_text": "The recommendations of the Task Force on Climate-related Financial Disclosures (TCFD) were originally voluntary. Which statement best illustrates the trend from less prescriptive guidance to more codified regulation?",
+      "options": {
+        "A": "The TCFD recommendations were withdrawn because no companies used them",
+        "B": "The TCFD recommendations were turned into a voluntary charity pledge with no reporting requirements",
+        "C": "The TCFD recommendations were built into the ISSB's IFRS S2 standard, which jurisdictions can then make mandatory for companies through law or listing rules",
+        "D": "The TCFD recommendations replaced all financial reporting standards"
+      },
+      "correct": "C",
+      "explanation": "The TCFD framework, structured around governance, strategy, risk management and metrics and targets, began as voluntary guidance. Its structure was incorporated into IFRS S2 Climate-related Disclosures, and jurisdictions can adopt the ISSB standards as mandatory requirements. This shows the move from voluntary guidance to codified, enforceable standards.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-se-c04-q001",
+      "chapter": 4,
+      "topic": "Sustainability in business",
+      "question_text": "Which of the following is an external influence on a company's sustainability strategy?",
+      "options": {
+        "A": "The company's own internal recycling policy",
+        "B": "Investors asking for evidence of how the company manages climate-related risks",
+        "C": "The personal hobbies of the finance director",
+        "D": "The colour scheme of the company's head office"
+      },
+      "correct": "B",
+      "explanation": "Investor pressure is an external influence that can shape strategy, along with customers, regulators, competitors and wider society. An internal recycling policy is a result of strategy rather than an external influence, and the other options are irrelevant to sustainability strategy.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-se-c04-q002",
+      "chapter": 4,
+      "topic": "Sustainability in business",
+      "question_text": "Which of the following is a common barrier to progress in corporate sustainability?",
+      "options": {
+        "A": "Strong demand from customers for sustainable products",
+        "B": "Short-termism, where management focuses on quarterly or annual results at the expense of long-term investment",
+        "C": "Clear and reliable sustainability data",
+        "D": "Government grants for low-carbon investment"
+      },
+      "correct": "B",
+      "explanation": "Short-termism discourages investment whose benefits arrive in the long term, which is typical of many sustainability initiatives. Other barriers include upfront costs, lack of reliable data and lack of skills. Customer demand, good data and grants are enablers rather than barriers.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-se-c04-q003",
+      "chapter": 4,
+      "topic": "Sustainability in business",
+      "question_text": "A fruit grower relies on wild bees to pollinate its orchards. In sustainability terms, how is this best described?",
+      "options": {
+        "A": "An impact on nature",
+        "B": "A transition risk",
+        "C": "A dependency on nature",
+        "D": "A Scope 3 emission"
+      },
+      "correct": "C",
+      "explanation": "A dependency is a reliance on natural, social or other resources that a business needs to operate, such as pollination services. An impact is the effect the business has on people or the environment. If bee populations declined, this dependency would create a risk for the grower, showing how dependencies can lead to risks.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c04-q004",
+      "chapter": 4,
+      "topic": "Sustainability in business",
+      "question_text": "A warehouse company faces two climate-related risks: (1) its site is increasingly likely to be flooded in severe storms, and (2) average summer temperatures are gradually rising, increasing cooling costs. How should these risks be classified?",
+      "options": {
+        "A": "(1) Chronic physical risk; (2) acute physical risk",
+        "B": "(1) Transition risk; (2) acute physical risk",
+        "C": "(1) Acute physical risk; (2) chronic physical risk",
+        "D": "(1) Acute physical risk; (2) transition risk"
+      },
+      "correct": "C",
+      "explanation": "Physical risks arise from the physical effects of climate change. Acute physical risks are event-driven, such as storms and floods, whereas chronic physical risks result from longer-term shifts, such as rising average temperatures. Transition risks arise from the move to a low-carbon economy, such as policy or market changes.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c04-q005",
+      "chapter": 4,
+      "topic": "Sustainability in business",
+      "question_text": "A government introduces a new carbon tax that significantly increases the operating costs of a cement manufacturer. What type of climate-related risk is this?",
+      "options": {
+        "A": "Acute physical risk",
+        "B": "Transition risk (policy and legal)",
+        "C": "Chronic physical risk",
+        "D": "Credit risk"
+      },
+      "correct": "B",
+      "explanation": "Transition risks arise from policy, legal, technology, market and reputational changes as the economy moves towards lower emissions. A new carbon tax is a policy change, so it is a policy and legal transition risk. It is not caused by the physical effects of climate change.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-se-c04-q006",
+      "chapter": 4,
+      "topic": "Sustainability in business",
+      "question_text": "A logistics company replaces its diesel vans with electric vehicles and finds that its fuel and maintenance costs fall. Which type of sustainability-related outcome is this?",
+      "options": {
+        "A": "A physical risk",
+        "B": "A dependency",
+        "C": "Greenwashing",
+        "D": "An opportunity arising from resource efficiency"
+      },
+      "correct": "D",
+      "explanation": "Sustainability is not only about risk; it also creates opportunities such as lower costs through resource efficiency, new products and markets, and improved resilience. Lower running costs from cleaner vehicles are an opportunity. The change does not involve misleading claims, so it is not greenwashing.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-se-c04-q007",
+      "chapter": 4,
+      "topic": "Sustainability in business",
+      "question_text": "Which statement best describes the difference between the effect of sustainability matters on 'enterprise value' and on 'social value'?",
+      "options": {
+        "A": "Enterprise value refers only to charitable donations, whereas social value refers to share price",
+        "B": "Enterprise value and social value are identical, so a company that increases one always increases the other",
+        "C": "Enterprise value effects concern how sustainability matters affect the company's cash flows and value to investors, whereas social value concerns the company's effects on people, society and the environment",
+        "D": "Enterprise value concerns the company's effect on employees, whereas social value concerns its effect on shareholders"
+      },
+      "correct": "C",
+      "explanation": "Effects on enterprise value are the 'outside-in' effects of sustainability matters on a company's prospects, which is the focus of investor-oriented reporting. Social value reflects the 'inside-out' impacts of the company on society and the environment. The two often interact, for example when harmful impacts lead to regulation or reputational damage, but they are not identical.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-se-c04-q008",
+      "chapter": 4,
+      "topic": "Sustainability in business",
+      "question_text": "Which of the following is the defining feature of a green bond?",
+      "options": {
+        "A": "The money raised must be used to finance projects with environmental benefits",
+        "B": "The interest rate is always lower than on government bonds",
+        "C": "The bond can only be bought by charities",
+        "D": "The bond has no repayment date"
+      },
+      "correct": "A",
+      "explanation": "Green bonds are 'use of proceeds' instruments: the funds raised are earmarked for eligible environmental projects, such as renewable energy or energy efficiency. They are typically supported by reporting on how the proceeds were spent. Their pricing, investor base and maturity are not what define them.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-se-c04-q009",
+      "chapter": 4,
+      "topic": "Sustainability in business",
+      "question_text": "A company takes out a sustainability-linked loan. Which feature distinguishes it from a green loan?",
+      "options": {
+        "A": "The loan can only be spent on specific environmental projects",
+        "B": "The loan can be used for general purposes, but its interest rate varies depending on whether the company meets pre-agreed sustainability performance targets",
+        "C": "The loan is interest-free provided that the company publishes a sustainability report",
+        "D": "The loan must be repaid immediately if the company makes a loss"
+      },
+      "correct": "B",
+      "explanation": "Sustainability-linked loans link the borrowing cost to the borrower's performance against sustainability KPIs, such as emission reductions, rather than restricting how the money is spent. Green loans, like green bonds, restrict the use of proceeds to eligible green projects. Neither type is interest-free or automatically repayable on making a loss.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-se-c04-q010",
+      "chapter": 4,
+      "topic": "Sustainability in business",
+      "question_text": "A company commissions a life cycle assessment (LCA) of a product on a 'cradle-to-grave' basis. What will the assessment cover?",
+      "options": {
+        "A": "Only the emissions from the company's own factory",
+        "B": "Only the impacts arising after the customer buys the product",
+        "C": "The financial profitability of the product over its life",
+        "D": "Environmental impacts from raw material extraction through manufacture, distribution and use, to final disposal"
+      },
+      "correct": "D",
+      "explanation": "Cradle-to-grave LCA covers every stage of a product's life, from extracting raw materials to disposal. A narrower 'cradle-to-gate' assessment stops when the product leaves the factory. LCA measures environmental impacts, not profitability.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c04-q011",
+      "chapter": 4,
+      "topic": "Sustainability in business",
+      "question_text": "A drinks company is deciding whether to switch from glass bottles to a lighter plastic alternative. Why is a life cycle assessment particularly useful for this decision?",
+      "options": {
+        "A": "It guarantees that the cheaper option is also the more sustainable one",
+        "B": "It removes the need to consider any social impacts of the decision",
+        "C": "It only measures impacts at the point of sale, so it is quick to complete",
+        "D": "It can reveal whether reducing impacts at one stage, such as transport, simply shifts greater impacts to another stage, such as disposal"
+      },
+      "correct": "D",
+      "explanation": "LCA looks at the whole life of a product, so it helps identify 'burden shifting', where an improvement at one stage creates larger problems elsewhere. Lighter packaging may cut transport emissions but increase waste or pollution at end of life. LCA does not guarantee cost savings and does not replace consideration of social impacts.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-se-c04-q012",
+      "chapter": 4,
+      "topic": "Sustainability in business",
+      "question_text": "A company tracks three measures: (1) water consumption, (2) employee injury rates and (3) the proportion of independent non-executive directors on the board. How would these be classified under ESG?",
+      "options": {
+        "A": "(1) Social; (2) Environmental; (3) Governance",
+        "B": "(1) Environmental; (2) Social; (3) Governance",
+        "C": "(1) Environmental; (2) Governance; (3) Social",
+        "D": "(1) Governance; (2) Social; (3) Environmental"
+      },
+      "correct": "B",
+      "explanation": "Water use is an environmental measure, employee health and safety is a social measure, and board independence is a governance measure. ESG factors are commonly used by investors and others to assess how a company manages sustainability-related matters.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-se-c04-q013",
+      "chapter": 4,
+      "topic": "Sustainability in business",
+      "question_text": "Two ESG rating agencies give the same company very different ratings. Which of the following is the most likely explanation?",
+      "options": {
+        "A": "One agency must have made an arithmetic error, as ESG ratings are calculated using a single global standard",
+        "B": "ESG ratings are based only on share price, which varies between stock exchanges",
+        "C": "ESG ratings are set by the company itself, so they can choose any score",
+        "D": "The agencies use different methodologies, including different choices of which issues to measure, how to measure them and how to weight them"
+      },
+      "correct": "D",
+      "explanation": "There is no single standard methodology for ESG ratings, so agencies differ in scope, measurement and weighting, and in the data they use. This divergence means users should understand what a rating measures before relying on it. Ratings are not based purely on share price and are not set by the company.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-se-c04-q014",
+      "chapter": 4,
+      "topic": "Sustainability in business",
+      "question_text": "Which of the following is the clearest example of greenwashing?",
+      "options": {
+        "A": "A company labels a product 'eco-friendly' because its packaging is recyclable, although the product itself is made using highly polluting processes",
+        "B": "A company publishes verified data showing a fall in its emissions",
+        "C": "A company discloses that it missed its emissions target and explains why",
+        "D": "A company obtains independent assurance over its sustainability report"
+      },
+      "correct": "A",
+      "explanation": "Greenwashing is making misleading claims about environmental credentials, for example by highlighting a minor positive feature while ignoring significant negative impacts. Verified data, honest disclosure of missed targets and independent assurance all improve transparency and reduce the risk of greenwashing.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-se-c04-q015",
+      "chapter": 4,
+      "topic": "Sustainability in business",
+      "question_text": "A company has made real progress in reducing its emissions but decides to say nothing about it publicly because it fears criticism if it misses future targets. What is this practice called?",
+      "options": {
+        "A": "Greenwashing",
+        "B": "Carbon offsetting",
+        "C": "Double materiality",
+        "D": "Greenhushing"
+      },
+      "correct": "D",
+      "explanation": "Greenhushing is deliberately under-reporting or staying silent about sustainability performance or goals, often to avoid scrutiny. While less obviously harmful than greenwashing, it reduces transparency and makes it harder for stakeholders to assess performance and compare companies.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-se-c04-q016",
+      "chapter": 4,
+      "topic": "Sustainability in business",
+      "question_text": "A company reported total greenhouse gas emissions of 18,400 tonnes CO2e for the year and revenue of £230 million.\nWhat is its emissions intensity, measured in tonnes CO2e per £1 million of revenue?",
+      "options": {
+        "A": "0.0125 tonnes CO2e per £1 million",
+        "B": "800 tonnes CO2e per £1 million",
+        "C": "80 tonnes CO2e per £1 million",
+        "D": "8 tonnes CO2e per £1 million"
+      },
+      "correct": "C",
+      "explanation": "Emissions intensity = total emissions / revenue in £ millions = 18,400 / 230 = 80 tonnes CO2e per £1 million of revenue. Dividing revenue by emissions gives the inverse figure of 0.0125, which is not an intensity measure. Intensity ratios allow comparison between companies of different sizes, but they can fall even when absolute emissions rise.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c04-q017",
+      "chapter": 4,
+      "topic": "Sustainability in business",
+      "question_text": "An oil company owns reserves that it may never be able to extract and sell profitably because of tighter climate regulation and falling demand. What term describes these reserves?",
+      "options": {
+        "A": "Contingent liabilities",
+        "B": "Natural capital dependencies",
+        "C": "Intangible assets",
+        "D": "Stranded assets"
+      },
+      "correct": "D",
+      "explanation": "Stranded assets are assets that suffer unexpected or premature write-downs or devaluations, often because of the transition to a low-carbon economy. They are a key consequence of transition risk and are relevant to the valuation of companies in carbon-intensive sectors.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c04-q018",
+      "chapter": 4,
+      "topic": "Sustainability in business",
+      "question_text": "A company set a target to reduce its emissions by 42% from a baseline of 50,000 tonnes CO2e. Its emissions for the current year are 38,500 tonnes CO2e.\nBy how many further tonnes CO2e must emissions fall from the current level to meet the target?",
+      "options": {
+        "A": "9,500 tonnes CO2e",
+        "B": "11,500 tonnes CO2e",
+        "C": "21,000 tonnes CO2e",
+        "D": "16,170 tonnes CO2e"
+      },
+      "correct": "A",
+      "explanation": "The target level is 50,000 x (1 - 0.42) = 29,000 tonnes CO2e. The further reduction needed is 38,500 - 29,000 = 9,500 tonnes CO2e. The figure of 11,500 is the reduction already achieved (50,000 - 38,500), 21,000 is the total reduction required from the baseline, and 16,170 wrongly applies the 42% to the current year's emissions.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-se-c05-q001",
+      "chapter": 5,
+      "topic": "The role of the professional accountant in sustainability",
+      "question_text": "The International Sustainability Standards Board (ISSB) has issued IFRS S1 and IFRS S2. What is the main difference between them?",
+      "options": {
+        "A": "IFRS S1 sets general requirements for disclosing sustainability-related financial information, whereas IFRS S2 sets specific requirements for climate-related disclosures",
+        "B": "IFRS S1 covers climate, whereas IFRS S2 covers human rights",
+        "C": "IFRS S1 applies to listed companies, whereas IFRS S2 applies to charities",
+        "D": "IFRS S1 sets assurance requirements, whereas IFRS S2 sets audit fees"
+      },
+      "correct": "A",
+      "explanation": "IFRS S1 General Requirements for Disclosure of Sustainability-related Financial Information is the overarching standard. IFRS S2 Climate-related Disclosures deals specifically with climate-related risks and opportunities. Neither standard sets assurance requirements, which are a matter for assurance standard-setters and regulators.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-se-c05-q002",
+      "chapter": 5,
+      "topic": "The role of the professional accountant in sustainability",
+      "question_text": "Who are the primary users of sustainability disclosures prepared under the ISSB standards?",
+      "options": {
+        "A": "Local communities affected by the entity's operations",
+        "B": "Employees deciding whether to join a trade union",
+        "C": "Investors, lenders and other creditors making decisions about providing resources to the entity",
+        "D": "Government tax authorities assessing corporation tax"
+      },
+      "correct": "C",
+      "explanation": "The ISSB standards focus on information that could reasonably be expected to affect the entity's prospects, and their primary users are investors, lenders and other creditors. This is a financial materiality perspective. Frameworks such as GRI, by contrast, address a wider range of stakeholders and focus on an entity's impacts.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c05-q003",
+      "chapter": 5,
+      "topic": "The role of the professional accountant in sustainability",
+      "question_text": "IFRS S2, building on the TCFD recommendations, organises climate-related disclosures around four core content areas. Which of the following lists them correctly?",
+      "options": {
+        "A": "Environment, social, governance and economics",
+        "B": "Governance, strategy, risk management, and metrics and targets",
+        "C": "Planning, doing, checking and acting",
+        "D": "Scope 1, Scope 2, Scope 3 and Scope 4"
+      },
+      "correct": "B",
+      "explanation": "The four core content areas are governance, strategy, risk management, and metrics and targets. They are designed to show how an entity oversees, plans for, manages and measures climate-related risks and opportunities. ESG is a broader classification, and the GHG Protocol has only three scopes.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-se-c05-q004",
+      "chapter": 5,
+      "topic": "The role of the professional accountant in sustainability",
+      "question_text": "Under the Greenhouse Gas Protocol, how are emissions from the generation of electricity that a company buys from the national grid classified in the company's own inventory?",
+      "options": {
+        "A": "Scope 2",
+        "B": "Scope 1",
+        "C": "Scope 3",
+        "D": "They are excluded because the company does not generate the electricity"
+      },
+      "correct": "A",
+      "explanation": "Scope 2 covers indirect emissions from the generation of purchased electricity, steam, heating and cooling consumed by the reporting company. Scope 1 covers direct emissions from sources the company owns or controls, and Scope 3 covers all other indirect emissions in the value chain.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-se-c05-q005",
+      "chapter": 5,
+      "topic": "The role of the professional accountant in sustainability",
+      "question_text": "A manufacturer identifies the following emission sources:\n(1) Gas burned in its own factory boilers\n(2) Flights taken by staff on business trips with commercial airlines\n(3) Emissions from customers using its products\nHow should these be classified under the GHG Protocol?",
+      "options": {
+        "A": "(1) Scope 1; (2) Scope 2; (3) Scope 3",
+        "B": "(1) Scope 2; (2) Scope 3; (3) Scope 1",
+        "C": "(1) Scope 1; (2) Scope 1; (3) Scope 3",
+        "D": "(1) Scope 1; (2) Scope 3; (3) Scope 3"
+      },
+      "correct": "D",
+      "explanation": "Burning gas in the company's own boilers is a direct emission from an owned source, so it is Scope 1. Business travel on commercial airlines and the use of sold products are both indirect value chain emissions, so they are Scope 3. Scope 2 is limited to purchased energy such as electricity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c05-q006",
+      "chapter": 5,
+      "topic": "The role of the professional accountant in sustainability",
+      "question_text": "A company reports the following greenhouse gas emissions for the year, in tonnes CO2e:\nScope 1: 4,200\nScope 2: 2,600\nScope 3: 31,200\nWhat are its combined Scope 1 and 2 emissions, and what percentage of its total emissions comes from Scope 3?",
+      "options": {
+        "A": "6,800 tonnes CO2e; 17.9%",
+        "B": "38,000 tonnes CO2e; 82.1%",
+        "C": "6,800 tonnes CO2e; 82.1%",
+        "D": "35,800 tonnes CO2e; 87.2%"
+      },
+      "correct": "C",
+      "explanation": "Scope 1 and 2 combined = 4,200 + 2,600 = 6,800 tonnes CO2e. Total emissions = 6,800 + 31,200 = 38,000 tonnes CO2e. Scope 3 share = 31,200 / 38,000 x 100 = 82.1% (rounded to one decimal place). The figure of 17.9% is the Scope 1 and 2 share, which shows why value chain emissions often dominate a company's footprint.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c05-q007",
+      "chapter": 5,
+      "topic": "The role of the professional accountant in sustainability",
+      "question_text": "A transport company used 120,000 litres of diesel in its own lorries during the year. Assume an emission factor of 2.5 kg CO2e per litre of diesel.\nWhat are the resulting emissions in tonnes CO2e, and in which scope are they reported?",
+      "options": {
+        "A": "300 tonnes CO2e, Scope 2",
+        "B": "300 tonnes CO2e, Scope 1",
+        "C": "300,000 tonnes CO2e, Scope 1",
+        "D": "48 tonnes CO2e, Scope 3"
+      },
+      "correct": "B",
+      "explanation": "Emissions = 120,000 litres x 2.5 kg CO2e = 300,000 kg CO2e, which is 300,000 / 1,000 = 300 tonnes CO2e. Fuel burned in vehicles the company owns or controls is a direct emission, so it is Scope 1. The 300,000 figure fails to convert kilograms to tonnes, and 48 wrongly divides litres by the factor before converting.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c05-q008",
+      "chapter": 5,
+      "topic": "The role of the professional accountant in sustainability",
+      "question_text": "A practitioner is engaged to provide assurance on a company's sustainability report. How does a limited assurance conclusion typically differ from a reasonable assurance conclusion?",
+      "options": {
+        "A": "A limited assurance conclusion gives absolute certainty, whereas reasonable assurance gives none",
+        "B": "A limited assurance conclusion requires more evidence than a reasonable assurance conclusion",
+        "C": "A limited assurance conclusion is given only by the company's own finance team",
+        "D": "A limited assurance conclusion is expressed negatively (nothing has come to our attention to indicate material misstatement), whereas a reasonable assurance conclusion is expressed positively"
+      },
+      "correct": "D",
+      "explanation": "In a limited assurance engagement, the practitioner performs fewer procedures and gives a negatively worded conclusion. Reasonable assurance involves more extensive work and a positive opinion, similar to a financial statement audit. Neither gives absolute certainty, and both are given by an independent practitioner.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-se-c05-q009",
+      "chapter": 5,
+      "topic": "The role of the professional accountant in sustainability",
+      "question_text": "Why are professional accountants well placed to provide assurance on sustainability information?",
+      "options": {
+        "A": "They are the only professionals legally allowed to measure greenhouse gas emissions",
+        "B": "They do not need to consider ethical requirements on non-financial engagements",
+        "C": "They have skills in evaluating evidence, internal controls and data, and are bound by ethical requirements including independence and professional scepticism",
+        "D": "They can rely entirely on management's representations without further testing"
+      },
+      "correct": "C",
+      "explanation": "Assurance skills such as planning, risk assessment, testing controls, gathering evidence and applying professional scepticism transfer well to sustainability information. Ethical requirements, including independence, apply to sustainability assurance engagements just as they do to audits. Accountants may need to work with subject-matter experts, such as engineers or scientists, where specialist knowledge is needed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c05-q010",
+      "chapter": 5,
+      "topic": "The role of the professional accountant in sustainability",
+      "question_text": "The Global Reporting Initiative (GRI) Standards are widely used for sustainability reporting. What is their main focus?",
+      "options": {
+        "A": "Only the effect of climate change on the organisation's cash flows",
+        "B": "The calculation of corporation tax liabilities",
+        "C": "The organisation's most significant impacts on the economy, the environment and people, for a broad range of stakeholders",
+        "D": "The presentation of the statement of financial position"
+      },
+      "correct": "C",
+      "explanation": "The GRI Standards are based on impact materiality, focusing on an organisation's impacts on the economy, environment and people, including human rights. They are aimed at a wide range of stakeholders. This contrasts with the ISSB's investor-focused, financial materiality approach, and the two can be used together.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c05-q011",
+      "chapter": 5,
+      "topic": "The role of the professional accountant in sustainability",
+      "question_text": "Which of the following is a role played by professional accountancy bodies such as ICAEW in driving sustainability?",
+      "options": {
+        "A": "Including sustainability in professional qualifications and providing guidance and resources to members",
+        "B": "Passing national sustainability legislation",
+        "C": "Setting legally binding emission caps for companies",
+        "D": "Running national electricity grids"
+      },
+      "correct": "A",
+      "explanation": "Accountancy bodies drive sustainability by educating students, supporting members with guidance and CPD, contributing to standard-setting consultations and advocating for change. They do not pass legislation or set legally binding emission limits, which are the role of governments and regulators.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-se-c05-q012",
+      "chapter": 5,
+      "topic": "The role of the professional accountant in sustainability",
+      "question_text": "Which of the following is an example of a professional accountant adopting a sustainable approach within their own workplace?",
+      "options": {
+        "A": "Using secure remote access and video calls to review client records where a site visit is not necessary, reducing travel",
+        "B": "Printing every working paper in colour so that it is easier to read",
+        "C": "Driving to every client meeting regardless of distance",
+        "D": "Keeping all office equipment switched on overnight"
+      },
+      "correct": "A",
+      "explanation": "Professional accountants can reduce their own environmental impact through choices such as cutting unnecessary travel, reducing paper use and saving energy. Remote working must still meet professional requirements, such as obtaining sufficient evidence and protecting confidential data.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-se-c05-q013",
+      "chapter": 5,
+      "topic": "The role of the professional accountant in sustainability",
+      "question_text": "A management accountant is appraising a project expected to generate annual net cash inflows of £500,000 before any carbon cost. The project will emit 2,000 tonnes CO2e per year. The company applies an internal (shadow) carbon price of £80 per tonne in investment appraisal.\nWhat annual net cash inflow should be used in the appraisal after applying the internal carbon price?",
+      "options": {
+        "A": "£340,000",
+        "B": "£500,000",
+        "C": "£660,000",
+        "D": "£499,920"
+      },
+      "correct": "A",
+      "explanation": "The annual carbon cost = 2,000 tonnes x £80 = £160,000. Adjusted annual net cash inflow = £500,000 - £160,000 = £340,000. Using an internal carbon price helps the company anticipate future carbon costs and avoid investing in projects that could become uneconomic. Adding the cost (£660,000) or deducting only £80 (£499,920) are errors.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-se-c06-q001",
+      "chapter": 6,
+      "topic": "The concept of ethics and its significance for the accountancy profession",
+      "question_text": "Which of the following best describes professional ethics?",
+      "options": {
+        "A": "The personal moral beliefs an individual developed during childhood",
+        "B": "The laws that apply to all citizens in a country",
+        "C": "The values set out in a company's marketing slogan",
+        "D": "The principles and standards of behaviour expected of members of a profession in carrying out their work"
+      },
+      "correct": "D",
+      "explanation": "Professional ethics are the standards of conduct that a profession expects of its members, such as those set out in the ICAEW Code of Ethics. Personal ethics are an individual's own values, and business ethics concern how organisations behave. Law and ethics overlap but are not the same.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-se-c06-q002",
+      "chapter": 6,
+      "topic": "The concept of ethics and its significance for the accountancy profession",
+      "question_text": "Which statement correctly contrasts ethical objectivism with ethical relativism?",
+      "options": {
+        "A": "Objectivism holds that ethics depends on the outcome of actions, whereas relativism holds that ethics depends on rules",
+        "B": "Objectivism holds that some moral truths apply universally regardless of culture, whereas relativism holds that what is right depends on the culture or individual",
+        "C": "Objectivism holds that there are no moral truths, whereas relativism holds that all cultures share the same values",
+        "D": "Objectivism applies only to accountants, whereas relativism applies only to lawyers"
+      },
+      "correct": "B",
+      "explanation": "Ethical objectivism holds that there are universal moral standards that apply to everyone. Ethical relativism holds that moral standards vary between cultures or individuals, so no single standard is universally correct. Focusing on outcomes versus rules is the distinction between teleological and deontological approaches.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c06-q003",
+      "chapter": 6,
+      "topic": "The concept of ethics and its significance for the accountancy profession",
+      "question_text": "A finance manager refuses to backdate a contract, even though doing so would help the company meet a target and harm no-one, because she believes that misrepresenting facts is wrong in itself. Which ethical approach is she applying?",
+      "options": {
+        "A": "Deontological ethics",
+        "B": "Teleological ethics",
+        "C": "Utilitarianism",
+        "D": "Ethical relativism"
+      },
+      "correct": "A",
+      "explanation": "Deontological ethics judges actions according to duties and rules, regardless of their consequences. The manager regards misrepresentation as wrong in itself, even if the outcome seems harmless. Teleological approaches, including utilitarianism, would instead focus on the consequences of the action.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c06-q004",
+      "chapter": 6,
+      "topic": "The concept of ethics and its significance for the accountancy profession",
+      "question_text": "Which of the following statements best describes teleological (consequentialist) ethics?",
+      "options": {
+        "A": "An action is right if it follows a fixed rule, whatever its results",
+        "B": "An action is right if it is permitted by law",
+        "C": "An action is judged right or wrong according to its outcomes",
+        "D": "An action is right if the person carrying it out feels comfortable about it"
+      },
+      "correct": "C",
+      "explanation": "Teleological, or consequentialist, ethics evaluates the morality of an action by its consequences. Utilitarianism is the best-known form. Judging an action by whether it follows rules is deontological, and legality alone does not determine whether an action is ethical.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-se-c06-q005",
+      "chapter": 6,
+      "topic": "The concept of ethics and its significance for the accountancy profession",
+      "question_text": "A company must choose one of three options. Its analysis of the effect on stakeholders, in units of wellbeing, is:\nOption 1: 300 people each gain 2 units; 40 people each lose 10 units\nOption 2: 100 people each gain 5 units; 10 people each lose 20 units\nOption 3: 50 people each gain 8 units; 200 people each lose 1 unit\nWhich option would a strict utilitarian choose?",
+      "options": {
+        "A": "Option 1",
+        "B": "Option 3",
+        "C": "Option 2",
+        "D": "None, because utilitarianism ignores consequences"
+      },
+      "correct": "C",
+      "explanation": "Utilitarianism chooses the action that produces the greatest total net benefit. Option 1: (300 x 2) - (40 x 10) = 200. Option 2: (100 x 5) - (10 x 20) = 300. Option 3: (50 x 8) - (200 x 1) = 200. Option 2 has the highest net benefit of 300 units. Option 1 benefits the most people, but utilitarianism compares total net welfare, not the number of people who gain.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c06-q006",
+      "chapter": 6,
+      "topic": "The concept of ethics and its significance for the accountancy profession",
+      "question_text": "A company legally moves its profits to a low-tax jurisdiction through an artificial arrangement that has no commercial purpose. Many stakeholders criticise the company. What does this illustrate about the relationship between ethics and law?",
+      "options": {
+        "A": "Anything that is legal is automatically ethical",
+        "B": "An action can be legal but still be considered unethical",
+        "C": "Ethics only applies where there is no relevant law",
+        "D": "Unethical actions are always illegal"
+      },
+      "correct": "B",
+      "explanation": "Law sets minimum standards of behaviour, whereas ethics is about doing the right thing in the circumstances. An arrangement may comply with the letter of the law yet be seen as unfair or contrary to the spirit of the law. Ethical behaviour therefore often goes beyond legal compliance.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-se-c06-q007",
+      "chapter": 6,
+      "topic": "The concept of ethics and its significance for the accountancy profession",
+      "question_text": "Which statement best describes the relationship between ethics and sustainability?",
+      "options": {
+        "A": "Sustainability is a purely technical issue with no ethical dimension",
+        "B": "Acting sustainably is part of behaving ethically, because it involves considering the effects of decisions on others, including future generations",
+        "C": "Ethics concerns only individuals, whereas sustainability concerns only governments",
+        "D": "A company can only be ethical if it ignores sustainability to maximise shareholder returns"
+      },
+      "correct": "B",
+      "explanation": "Ethics and sustainability are closely linked: both require decision-makers to consider the interests of others and the long-term consequences of their actions. Ethical business practices can help anticipate risks to the organisation and the wider environment. A responsible approach to sustainability is therefore part of behaving ethically.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c06-q008",
+      "chapter": 6,
+      "topic": "The concept of ethics and its significance for the accountancy profession",
+      "question_text": "Which of the following is most important in establishing an ethical culture within an organisation?",
+      "options": {
+        "A": "Rewarding staff solely on short-term sales targets",
+        "B": "Keeping the code of conduct confidential to the board",
+        "C": "Discouraging staff from raising concerns",
+        "D": "Senior management consistently demonstrating ethical behaviour ('tone at the top')"
+      },
+      "correct": "D",
+      "explanation": "An ethical culture depends heavily on leaders setting an example through their own behaviour. This is supported by a published code of conduct, training, reward systems that do not encourage unethical behaviour, and safe channels for raising concerns. Narrow sales-based rewards and discouraging concerns tend to undermine ethical culture.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-se-c06-q009",
+      "chapter": 6,
+      "topic": "The concept of ethics and its significance for the accountancy profession",
+      "question_text": "When a professional accountant is making an ethical decision, why is it important to identify the stakeholders affected?",
+      "options": {
+        "A": "Because an ethical decision should consider how the outcome affects each affected party's interests, not just the interests of the decision-maker or their employer",
+        "B": "Because the decision should always favour whichever stakeholder pays the accountant's fees",
+        "C": "Because stakeholders must vote on every ethical decision",
+        "D": "Because identifying stakeholders removes the need to apply the fundamental principles"
+      },
+      "correct": "A",
+      "explanation": "Ethical decision-making involves identifying who will be affected and weighing their interests, including the public interest. This helps the accountant see the full consequences of options and avoid decisions that serve only narrow interests. Stakeholder analysis supports, but does not replace, the fundamental principles in the Code.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c06-q010",
+      "chapter": 6,
+      "topic": "The concept of ethics and its significance for the accountancy profession",
+      "question_text": "A professional accountant in practice is asked to provide assurance on a client's greenhouse gas emissions statement. Which statement about the ethical requirements that apply is correct?",
+      "options": {
+        "A": "No ethical requirements apply because the engagement does not involve financial information",
+        "B": "Only the principle of confidentiality applies, because emissions data is commercially sensitive",
+        "C": "The fundamental principles and relevant independence requirements apply, just as they do to financial statement engagements",
+        "D": "Ethical requirements apply only if the client is a listed company"
+      },
+      "correct": "C",
+      "explanation": "The ICAEW Code of Ethics applies to all professional activities of members, including sustainability engagements. Because this is an assurance engagement, independence requirements apply alongside the five fundamental principles. Ethical requirements do not depend on whether the subject matter is financial or on the client being listed.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-se-c07-q001",
+      "chapter": 7,
+      "topic": "Ethics and public trust",
+      "question_text": "According to the ICAEW Code of Ethics, what is a distinguishing mark of the accountancy profession?",
+      "options": {
+        "A": "Its focus on maximising fee income",
+        "B": "Its exclusive right to prepare all tax returns",
+        "C": "Its duty to act only in the interests of the employing organisation",
+        "D": "Its acceptance of the responsibility to act in the public interest"
+      },
+      "correct": "D",
+      "explanation": "The Code states that a distinguishing mark of the accountancy profession is its acceptance of the responsibility to act in the public interest. A professional accountant's responsibility is therefore not exclusively to satisfy the needs of an individual client or employer. This responsibility underpins public trust in the profession.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-se-c07-q002",
+      "chapter": 7,
+      "topic": "Ethics and public trust",
+      "question_text": "In the context of governance, what does 'accountability' mean?",
+      "options": {
+        "A": "Keeping accurate accounting records",
+        "B": "Having the right to make decisions without explanation",
+        "C": "Publishing all information about a company, including trade secrets",
+        "D": "Being answerable to others for decisions and actions, and accepting responsibility for their outcomes"
+      },
+      "correct": "D",
+      "explanation": "Accountability means that those with power, such as directors, must explain and justify their decisions to those they serve, such as shareholders and other stakeholders, and accept responsibility for the results. Keeping records supports accountability but is not the same thing. Accountability is the opposite of making decisions without explanation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-se-c07-q003",
+      "chapter": 7,
+      "topic": "Ethics and public trust",
+      "question_text": "Which of the following best describes 'transparency' in corporate governance?",
+      "options": {
+        "A": "Using glass walls in office buildings",
+        "B": "Reporting only positive results to shareholders",
+        "C": "Making all decisions in private board meetings",
+        "D": "Openness and clarity in disclosing information, so that stakeholders can understand the organisation's decisions and performance"
+      },
+      "correct": "D",
+      "explanation": "Transparency is about open, clear and timely disclosure of relevant information, both positive and negative. It allows stakeholders to hold the organisation to account and supports trust. Selective disclosure of good news only undermines transparency.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-se-c07-q004",
+      "chapter": 7,
+      "topic": "Ethics and public trust",
+      "question_text": "The UK Cadbury Report (1992) gave a widely used definition of corporate governance. What is it?",
+      "options": {
+        "A": "The process by which a company calculates its tax liability",
+        "B": "The system by which companies are directed and controlled",
+        "C": "The set of accounting standards a company must follow",
+        "D": "The method by which share prices are determined"
+      },
+      "correct": "B",
+      "explanation": "The Cadbury Report defined corporate governance as 'the system by which companies are directed and controlled'. Boards of directors are responsible for the governance of their companies, and shareholders appoint the directors and auditors to satisfy themselves that an appropriate governance structure is in place.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-se-c07-q005",
+      "chapter": 7,
+      "topic": "Ethics and public trust",
+      "question_text": "Why are independent non-executive directors considered important to good governance?",
+      "options": {
+        "A": "They manage the day-to-day operations of the business",
+        "B": "They can provide objective challenge to executive management and help protect the interests of shareholders and other stakeholders",
+        "C": "They prepare the company's statutory financial statements",
+        "D": "They guarantee that the company will make a profit"
+      },
+      "correct": "B",
+      "explanation": "Independent non-executive directors are not involved in day-to-day management, which allows them to scrutinise and challenge executives objectively. They often sit on audit, remuneration and nomination committees. This supports ethical behaviour and reduces the risk of management acting in its own interests.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c07-q006",
+      "chapter": 7,
+      "topic": "Ethics and public trust",
+      "question_text": "Shareholders own a company but appoint directors to run it. The directors award themselves large bonuses linked to short-term profits, at the expense of long-term value. Which concept does this illustrate?",
+      "options": {
+        "A": "The tragedy of the commons",
+        "B": "The agency problem",
+        "C": "Professional scepticism",
+        "D": "The circular economy"
+      },
+      "correct": "B",
+      "explanation": "The agency problem arises when agents (directors) act in their own interests rather than in the interests of the principals (shareholders) who appointed them. Governance mechanisms such as independent boards, well-designed remuneration and transparent reporting aim to reduce this conflict.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-se-c07-q007",
+      "chapter": 7,
+      "topic": "Ethics and public trust",
+      "question_text": "Which of the following best describes professional scepticism?",
+      "options": {
+        "A": "An attitude that includes a questioning mind, being alert to conditions that may indicate misstatement, and critical assessment of evidence",
+        "B": "Assuming that management is dishonest in every engagement",
+        "C": "Accepting all information provided by a client as reliable",
+        "D": "Refusing to rely on any evidence unless it is obtained from a third party"
+      },
+      "correct": "A",
+      "explanation": "Professional scepticism means maintaining a questioning mind and critically assessing evidence, without assuming either dishonesty or unquestioned honesty. It helps accountants to identify errors, bias and fraud. Automatically assuming dishonesty or rejecting all client evidence would be unbalanced and impractical.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c07-q008",
+      "chapter": 7,
+      "topic": "Ethics and public trust",
+      "question_text": "Which of the following best describes professional judgement?",
+      "options": {
+        "A": "Following rules mechanically without considering the facts",
+        "B": "Doing whatever the client's management prefers",
+        "C": "Making decisions based purely on personal intuition without regard to standards",
+        "D": "The application of relevant training, knowledge and experience to make informed decisions about the appropriate course of action in the circumstances"
+      },
+      "correct": "D",
+      "explanation": "Professional judgement involves applying knowledge, skills and experience, together with an understanding of the facts and relevant standards, to reach well-reasoned decisions. It is especially important under a principles-based code, where not every situation is covered by a specific rule.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c07-q009",
+      "chapter": 7,
+      "topic": "Ethics and public trust",
+      "question_text": "An accountant reviewing a provision estimate starts from last year's figure and makes only small adjustments, even though circumstances have changed significantly. Which type of bias is this most likely to be?",
+      "options": {
+        "A": "Automation bias",
+        "B": "Groupthink",
+        "C": "Anchoring bias",
+        "D": "Availability bias"
+      },
+      "correct": "C",
+      "explanation": "Anchoring bias is the tendency to rely too heavily on an initial piece of information, such as last year's figure, when evaluating subsequent information. The accountant should reassess the estimate based on current evidence. Automation bias relates to over-reliance on systems, and groupthink to group decision-making.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c07-q010",
+      "chapter": 7,
+      "topic": "Ethics and public trust",
+      "question_text": "A finance manager believes that a new product has been a success. When reviewing sales data, she focuses on the regions with strong sales and pays little attention to regions where sales have been poor. Which bias is she showing?",
+      "options": {
+        "A": "Anchoring bias",
+        "B": "Overconfidence bias",
+        "C": "Confirmation bias",
+        "D": "Automation bias"
+      },
+      "correct": "C",
+      "explanation": "Confirmation bias is the tendency to favour information that supports an existing belief and to underweight information that contradicts it. Recognising this bias helps accountants seek out and consider evidence fairly, which is essential for informed judgements and reliable communication with stakeholders.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c07-q011",
+      "chapter": 7,
+      "topic": "Ethics and public trust",
+      "question_text": "An assistant accepts the output of a spreadsheet-based forecasting tool without question, even though some results look unusual, because 'the system is always right'. Which bias does this demonstrate?",
+      "options": {
+        "A": "Automation bias",
+        "B": "Confirmation bias",
+        "C": "Selective perception",
+        "D": "Representation bias"
+      },
+      "correct": "A",
+      "explanation": "Automation bias is the tendency to favour output generated from automated systems, even when human reasoning or contradictory information suggests it may be unreliable. Accountants should understand the limits of the tools they use and challenge unexpected results.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c07-q012",
+      "chapter": 7,
+      "topic": "Ethics and public trust",
+      "question_text": "A board consistently reaches quick unanimous decisions and members are reluctant to challenge the chief executive. Which of the following would be most effective in reducing the risk of groupthink?",
+      "options": {
+        "A": "Requiring all decisions to be made more quickly",
+        "B": "Restricting board papers so that only the chief executive sees full information",
+        "C": "Appointing only directors who share the chief executive's views",
+        "D": "Inviting independent members to challenge proposals and asking for alternative options to be considered before decisions are made"
+      },
+      "correct": "D",
+      "explanation": "Groupthink occurs when the desire for harmony leads a group to reach decisions without critically evaluating alternatives. It can be reduced by encouraging diverse views, independent challenge, considering alternatives and ensuring all members have full information. The other options would make groupthink worse.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-se-c07-q013",
+      "chapter": 7,
+      "topic": "Ethics and public trust",
+      "question_text": "Which of the following is a likely consequence for the accountancy profession as a whole when a professional accountant is found to have acted unethically?",
+      "options": {
+        "A": "Higher fees for all accountants",
+        "B": "Removal of the need for audit",
+        "C": "Automatic tax relief for clients",
+        "D": "Loss of public trust and confidence in the profession"
+      },
+      "correct": "D",
+      "explanation": "Unethical conduct by individuals damages the reputation of the whole profession and undermines public trust, which can lead to tighter external regulation. For the individual, consequences can include disciplinary action, fines and loss of membership. Organisations may suffer financial losses and reputational damage.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-se-c07-q014",
+      "chapter": 7,
+      "topic": "Ethics and public trust",
+      "question_text": "Which of the following is part of ICAEW's regulatory role in maintaining public trust?",
+      "options": {
+        "A": "Setting the rates of UK income tax",
+        "B": "Investigating complaints about members and firms and taking disciplinary action where appropriate",
+        "C": "Prosecuting criminal offences in the courts",
+        "D": "Appointing the directors of listed companies"
+      },
+      "correct": "B",
+      "explanation": "ICAEW acts as a regulator of its members and firms, including monitoring firms, investigating complaints and taking disciplinary action. These measures help ensure that members comply with professional standards. Setting tax rates, prosecuting criminal offences and appointing directors are not ICAEW's role.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c07-q015",
+      "chapter": 7,
+      "topic": "Ethics and public trust",
+      "question_text": "A student member of ICAEW is unsure how to respond to an ethical dilemma at work and wants confidential advice. Which ICAEW resource would be most appropriate?",
+      "options": {
+        "A": "The company's external auditors",
+        "B": "A social media discussion group",
+        "C": "The local newspaper",
+        "D": "ICAEW's ethics advisory service (helpline)"
+      },
+      "correct": "D",
+      "explanation": "ICAEW provides a confidential ethics advisory service to help members and students apply the Code of Ethics to their circumstances. Discussing a client or employer issue on social media or with the press could breach confidentiality, and the external auditors are not the appropriate source of personal ethical advice.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-se-c07-q016",
+      "chapter": 7,
+      "topic": "Ethics and public trust",
+      "question_text": "What is a key advantage of a principles-based code of ethics, such as the ICAEW Code, compared with a rules-based code?",
+      "options": {
+        "A": "It gives a precise answer for every possible situation",
+        "B": "It removes the need for professional judgement",
+        "C": "It allows accountants to do anything not specifically prohibited",
+        "D": "It can be applied to new or unusual situations that specific rules do not anticipate"
+      },
+      "correct": "D",
+      "explanation": "A principles-based code sets out fundamental principles and a conceptual framework that can be applied to any situation, including ones not foreseen when the code was written. It requires professional judgement. A rules-based code can encourage a 'tick-box' approach and the view that anything not expressly prohibited is acceptable.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c07-q017",
+      "chapter": 7,
+      "topic": "Ethics and public trust",
+      "question_text": "Which statement best describes the relationship between the IESBA Code of Ethics, the ICAEW Code of Ethics and the FRC Ethical Standard?",
+      "options": {
+        "A": "The ICAEW Code is based on the IESBA Code with some additional requirements, while the FRC Ethical Standard sets requirements for auditors and other assurance practitioners in the UK that can be more restrictive",
+        "B": "The IESBA Code applies only in the UK and replaces both the ICAEW Code and the FRC Ethical Standard",
+        "C": "The FRC Ethical Standard applies to all accountants in business, whereas the ICAEW Code applies only to auditors",
+        "D": "The three codes are unrelated and frequently contradict each other"
+      },
+      "correct": "A",
+      "explanation": "The IESBA Code is the international code issued by the International Ethics Standards Board for Accountants, and the ICAEW Code is derived from it with some additional UK requirements. The FRC Ethical Standard applies to audit and certain other assurance engagements in the UK and can impose stricter requirements, particularly on independence. Where both apply, the auditor must follow the more restrictive requirement.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-se-c07-q018",
+      "chapter": 7,
+      "topic": "Ethics and public trust",
+      "question_text": "An accountant faces a situation that is not specifically addressed anywhere in the ICAEW Code of Ethics. What should the accountant do?",
+      "options": {
+        "A": "Conclude that, because there is no specific rule, any course of action is acceptable",
+        "B": "Wait until a specific rule is issued before acting",
+        "C": "Follow whatever approach their employer prefers",
+        "D": "Apply the conceptual framework to identify, evaluate and address any threats to compliance with the fundamental principles"
+      },
+      "correct": "D",
+      "explanation": "The ICAEW Code is principles-based. Where no specific requirement exists, the accountant must still comply with the fundamental principles by applying the conceptual framework: identifying threats, evaluating them, and addressing them by eliminating them or reducing them to an acceptable level. The absence of a rule does not make any action acceptable.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-se-c08-q001",
+      "chapter": 8,
+      "topic": "The fundamental ethical principles",
+      "question_text": "An accountant knowingly signs off a report that contains a misleading statement about stock levels. Which fundamental principle has been breached most directly?",
+      "options": {
+        "A": "Confidentiality",
+        "B": "Integrity",
+        "C": "Professional competence and due care",
+        "D": "Objectivity"
+      },
+      "correct": "B",
+      "explanation": "Integrity requires accountants to be straightforward and honest in all professional and business relationships. They must not knowingly be associated with information containing materially false or misleading statements. Knowingly signing a misleading report is therefore a breach of integrity.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-se-c08-q002",
+      "chapter": 8,
+      "topic": "The fundamental ethical principles",
+      "question_text": "An accountant is asked to evaluate a supplier tender in which her brother is one of the bidders. Which fundamental principle is most at risk?",
+      "options": {
+        "A": "Confidentiality",
+        "B": "Objectivity",
+        "C": "Professional behaviour",
+        "D": "Professional competence and due care"
+      },
+      "correct": "B",
+      "explanation": "Objectivity requires accountants to exercise professional judgement without being compromised by bias, conflict of interest or undue influence of others. A close family relationship with a bidder creates a risk that her judgement will be biased. She should disclose the relationship and withdraw from the evaluation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-se-c08-q003",
+      "chapter": 8,
+      "topic": "The fundamental ethical principles",
+      "question_text": "A newly qualified accountant is asked to prepare complex group consolidation adjustments involving foreign subsidiaries, which she has never done before, with no supervision and a tight deadline. Which fundamental principle is most at risk?",
+      "options": {
+        "A": "Integrity",
+        "B": "Professional competence and due care",
+        "C": "Objectivity",
+        "D": "Confidentiality"
+      },
+      "correct": "B",
+      "explanation": "Professional competence and due care requires accountants to attain and maintain the knowledge and skill needed for the work, and to act diligently in accordance with applicable standards. Taking on unfamiliar complex work without support or time risks a breach. She should request supervision, training or more time, or decline the work.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-se-c08-q004",
+      "chapter": 8,
+      "topic": "The fundamental ethical principles",
+      "question_text": "At a dinner party, an accountant tells friends about the financial difficulties of a well-known local business that is one of her firm's clients. Which fundamental principle has she breached?",
+      "options": {
+        "A": "Confidentiality",
+        "B": "Objectivity",
+        "C": "Professional competence and due care",
+        "D": "Integrity"
+      },
+      "correct": "A",
+      "explanation": "Confidentiality requires accountants to respect the confidentiality of information acquired through professional and business relationships. They should be alert to the risk of inadvertent disclosure, including in social settings and to close friends or family. Disclosing a client's financial difficulties without authority is a breach.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-se-c08-q005",
+      "chapter": 8,
+      "topic": "The fundamental ethical principles",
+      "question_text": "An ICAEW member posts comments on social media mocking a former client and making unsupported claims that a rival firm's partners are incompetent. Which fundamental principle is most directly breached?",
+      "options": {
+        "A": "Objectivity",
+        "B": "Professional competence and due care",
+        "C": "Independence",
+        "D": "Professional behaviour"
+      },
+      "correct": "D",
+      "explanation": "Professional behaviour requires accountants to comply with relevant laws and regulations and avoid any conduct that might discredit the profession. Making disparaging and unsupported claims about others, or mocking clients publicly, could discredit the profession. Depending on the content, confidentiality may also be at risk.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c08-q006",
+      "chapter": 8,
+      "topic": "The fundamental ethical principles",
+      "question_text": "The ICAEW Code of Ethics is divided into parts. Which part specifically deals with professional accountants in business?",
+      "options": {
+        "A": "Part 1",
+        "B": "Part 2",
+        "C": "Part 3",
+        "D": "Part 4A"
+      },
+      "correct": "B",
+      "explanation": "Part 1 sets out the fundamental principles and conceptual framework and applies to all professional accountants. Part 2 applies to professional accountants in business, and Part 3 to professional accountants in public practice. Parts 4A and 4B set out independence requirements for audit and review engagements and for other assurance engagements respectively.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c08-q007",
+      "chapter": 8,
+      "topic": "The fundamental ethical principles",
+      "question_text": "An accountant leaves a firm and joins a competitor. Which statement about the duty of confidentiality is correct?",
+      "options": {
+        "A": "The duty ends as soon as the employment ends",
+        "B": "The duty continues after the relationship ends, although the accountant may use general experience and expertise gained",
+        "C": "The duty ends after one year unless renewed in writing",
+        "D": "The duty applies only to information about listed clients"
+      },
+      "correct": "B",
+      "explanation": "The Code states that the duty of confidentiality continues even after the end of a relationship between an accountant and a client or employer. The accountant can use the general knowledge and experience gained, but must not use or disclose confidential information acquired during the previous role.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c08-q008",
+      "chapter": 8,
+      "topic": "The fundamental ethical principles",
+      "question_text": "An audit senior leaves an unencrypted laptop containing client payroll files on a train. Which of the following is the most significant risk arising from this accidental disclosure?",
+      "options": {
+        "A": "The firm's audit fee for the client will automatically be reduced",
+        "B": "The client's financial statements will automatically be qualified",
+        "C": "Personal data could be misused, causing harm to individuals and exposing the firm to regulatory sanctions, legal claims and reputational damage",
+        "D": "There is no risk because the disclosure was accidental"
+      },
+      "correct": "C",
+      "explanation": "Accidental disclosure of confidential and personal data can harm the individuals concerned, for example through identity theft, and can lead to regulatory penalties under data protection law, legal claims and loss of client trust. The fact that the disclosure was unintentional does not remove these risks. Firms reduce such risks through encryption and data security policies.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c08-q009",
+      "chapter": 8,
+      "topic": "The fundamental ethical principles",
+      "question_text": "An accountant in practice discovers that a client is involved in money laundering. Which statement about disclosure of this information is correct?",
+      "options": {
+        "A": "Disclosure is required by law, so reporting it in line with anti-money laundering legislation does not breach the principle of confidentiality",
+        "B": "The accountant must not disclose the information because of the duty of confidentiality",
+        "C": "The accountant may disclose only if the client gives permission",
+        "D": "The accountant should post the information publicly to warn others"
+      },
+      "correct": "A",
+      "explanation": "The Code recognises that disclosure may be required by law, for example under anti-money laundering legislation. In the UK, an accountant in the regulated sector must report knowledge or suspicion of money laundering, usually via the firm's money laundering reporting officer. Asking the client's permission would risk tipping off, and public disclosure is not appropriate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c08-q010",
+      "chapter": 8,
+      "topic": "The fundamental ethical principles",
+      "question_text": "A client asks its accountant to provide copies of its financial records directly to its bank to support a loan application. Under which circumstance may the accountant disclose this confidential information?",
+      "options": {
+        "A": "Disclosure is required by a court order",
+        "B": "Disclosure is required by anti-money laundering law",
+        "C": "Disclosure is permitted because the client has authorised it",
+        "D": "Disclosure is never permitted to third parties"
+      },
+      "correct": "C",
+      "explanation": "Confidential information may be disclosed when it is permitted by law and authorised by the client or employer. Here, the client has requested the disclosure, so the accountant may provide the information, ideally after confirming the authority in writing. The other options do not reflect the facts.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c08-q011",
+      "chapter": 8,
+      "topic": "The fundamental ethical principles",
+      "question_text": "In which of the following situations does the Code recognise that a professional accountant has a professional duty or right to disclose confidential information, even without the client's consent?",
+      "options": {
+        "A": "When complying with a quality review by ICAEW, or when protecting the accountant's professional interests in legal proceedings",
+        "B": "When a journalist asks for information about a client's tax affairs",
+        "C": "When a competitor of the client offers to pay for the information",
+        "D": "When a friend asks for advice about investing in the client"
+      },
+      "correct": "A",
+      "explanation": "The Code recognises a professional duty or right to disclose in certain circumstances, including complying with the quality review of a professional body, responding to an inquiry or investigation by a professional or regulatory body, protecting the accountant's interests in legal proceedings, and complying with technical and ethical standards. Disclosures to journalists, competitors or friends do not fall into these categories.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-se-c08-q012",
+      "chapter": 8,
+      "topic": "The fundamental ethical principles",
+      "question_text": "Money laundering is often described in three stages: placement, layering and integration. A criminal moves illegally obtained funds through a series of transfers between bank accounts in different countries to hide their origin. Which stage does this represent?",
+      "options": {
+        "A": "Placement",
+        "B": "Integration",
+        "C": "Structuring",
+        "D": "Layering"
+      },
+      "correct": "D",
+      "explanation": "Placement is introducing criminal cash into the financial system. Layering involves complex transactions designed to disguise the source of the funds and break the audit trail, such as multiple international transfers. Integration is when the funds re-enter the legitimate economy, for example through property purchases, appearing to be legitimate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c08-q013",
+      "chapter": 8,
+      "topic": "The fundamental ethical principles",
+      "question_text": "An accountant has made an internal report of suspected money laundering about a client to the firm's money laundering reporting officer (MLRO). The client then asks the accountant why the firm has delayed a transaction. What should the accountant do?",
+      "options": {
+        "A": "Explain to the client that a suspicious activity report has been made",
+        "B": "Avoid saying anything that might alert the client to the report or any investigation, and seek guidance from the MLRO",
+        "C": "Ask the client directly whether the funds came from criminal activity",
+        "D": "Withdraw the report so that the transaction can proceed"
+      },
+      "correct": "B",
+      "explanation": "Disclosing to the client that a report has been made, or that an investigation may be under way, could amount to the offence of tipping off and could prejudice an investigation. The accountant should be careful in communications and seek guidance from the MLRO. Asking the client directly about criminal funds also risks tipping them off.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-se-c08-q014",
+      "chapter": 8,
+      "topic": "The fundamental ethical principles",
+      "question_text": "Under UK anti-money laundering rules, an employee in an accountancy firm who suspects that a client is laundering money should normally report the suspicion to whom?",
+      "options": {
+        "A": "The client's finance director",
+        "B": "The firm's money laundering reporting officer (MLRO)",
+        "C": "The client's external auditors",
+        "D": "The financial press"
+      },
+      "correct": "B",
+      "explanation": "Employees in the regulated sector should report suspicions internally to their firm's MLRO, who decides whether to make a suspicious activity report to the National Crime Agency. Reporting to the client or third parties could amount to tipping off. Accountants have a responsibility to help detect and prevent criminal activity such as money laundering.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-se-c08-q015",
+      "chapter": 8,
+      "topic": "The fundamental ethical principles",
+      "question_text": "The ICAEW Code of Ethics includes provisions on responding to non-compliance with laws and regulations (NOCLAR). What is the main purpose of these provisions?",
+      "options": {
+        "A": "To require accountants to investigate and prosecute all breaches of law themselves",
+        "B": "To guide accountants on how to respond, in the public interest, when they become aware of actual or suspected breaches of laws and regulations by clients or employers",
+        "C": "To prevent accountants from ever discussing suspected breaches with management",
+        "D": "To ensure that accountants ignore minor breaches of any law"
+      },
+      "correct": "B",
+      "explanation": "The NOCLAR provisions set out how an accountant should respond when they encounter non-compliance or suspected non-compliance, including understanding the matter, discussing it with an appropriate level of management, and considering whether further action, such as disclosure to an appropriate authority, is needed in the public interest. Accountants are not expected to act as investigators or prosecutors. Clearly inconsequential matters are outside the scope of the provisions.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-se-c08-q016",
+      "chapter": 8,
+      "topic": "The fundamental ethical principles",
+      "question_text": "Independence is often described as having two elements. What are they?",
+      "options": {
+        "A": "Independence of mind and independence in appearance",
+        "B": "Financial independence and legal independence",
+        "C": "Personal independence and political independence",
+        "D": "Independence of fees and independence of location"
+      },
+      "correct": "A",
+      "explanation": "Independence of mind is the state of mind that allows a conclusion to be reached without being affected by influences that compromise professional judgement. Independence in appearance means avoiding facts and circumstances that would lead a reasonable and informed third party to conclude that integrity, objectivity or professional scepticism has been compromised. Both are important for assurance engagements.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c08-q017",
+      "chapter": 8,
+      "topic": "The fundamental ethical principles",
+      "question_text": "An accountancy firm is asked to advise two clients who are both bidding to acquire the same company. What ethical issue does this create?",
+      "options": {
+        "A": "A conflict of interest",
+        "B": "A breach of professional competence",
+        "C": "A money laundering offence",
+        "D": "A self-review threat"
+      },
+      "correct": "A",
+      "explanation": "A conflict of interest arises when a firm provides services to two or more clients whose interests are in conflict regarding the same matter. Advising competing bidders could compromise objectivity and confidentiality. The firm must identify and evaluate the conflict and decide whether it can be addressed or whether it must decline one or both engagements.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c08-q018",
+      "chapter": 8,
+      "topic": "The fundamental ethical principles",
+      "question_text": "A firm decides it can act for two clients whose interests conflict over the same matter. Which combination of measures is most appropriate to address the conflict?",
+      "options": {
+        "A": "Disclosing the conflict to both clients and obtaining their consent, using separate engagement teams, and putting in place information barriers",
+        "B": "Keeping the conflict secret from both clients to protect confidentiality",
+        "C": "Using the same engagement team for both clients to improve efficiency",
+        "D": "Charging a higher fee to both clients"
+      },
+      "correct": "A",
+      "explanation": "Where a conflict of interest can be managed, appropriate measures include disclosing the nature of the conflict and obtaining consent from the relevant parties, and using separate teams with clear policies to protect confidentiality. Keeping the conflict secret or using a single team would increase the threat. Fee levels do not address the conflict.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-se-c09-q001",
+      "chapter": 9,
+      "topic": "Threats and safeguards",
+      "question_text": "A finance manager's bonus depends on the company reporting profit above a target, and she is responsible for estimating a large provision. Which threat to the fundamental principles does this create?",
+      "options": {
+        "A": "Self-review threat",
+        "B": "Advocacy threat",
+        "C": "Self-interest threat",
+        "D": "Familiarity threat"
+      },
+      "correct": "C",
+      "explanation": "A self-interest threat is the threat that a financial or other interest will inappropriately influence an accountant's judgement or behaviour. Her bonus gives her a personal incentive to understate the provision. Safeguards include independent review of the estimate by someone without a similar incentive.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-se-c09-q002",
+      "chapter": 9,
+      "topic": "Threats and safeguards",
+      "question_text": "An accountancy firm designs a client's inventory valuation system and then audits the inventory figures produced by that system. Which threat arises?",
+      "options": {
+        "A": "Intimidation threat",
+        "B": "Advocacy threat",
+        "C": "Self-review threat",
+        "D": "Self-interest threat"
+      },
+      "correct": "C",
+      "explanation": "A self-review threat arises when an accountant evaluates the results of their own or their firm's previous work. The audit team may not appropriately evaluate a system the firm designed. This is a key reason why some non-audit services are restricted for audit clients.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-se-c09-q003",
+      "chapter": 9,
+      "topic": "Threats and safeguards",
+      "question_text": "An audit manager has worked on the same client for many years and has become close friends with the client's finance director. Which threat is most likely to arise?",
+      "options": {
+        "A": "Self-review threat",
+        "B": "Advocacy threat",
+        "C": "Self-interest threat",
+        "D": "Familiarity threat"
+      },
+      "correct": "D",
+      "explanation": "A familiarity threat arises when, because of a long or close relationship, an accountant becomes too sympathetic to the client's interests or too accepting of their work. Safeguards include rotating senior staff and having the work reviewed by someone not involved in the engagement.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-se-c09-q004",
+      "chapter": 9,
+      "topic": "Threats and safeguards",
+      "question_text": "An accountant in practice is asked by a client to represent it publicly in a dispute with a tax authority, promoting the client's position. Which threat arises?",
+      "options": {
+        "A": "Familiarity threat",
+        "B": "Advocacy threat",
+        "C": "Self-review threat",
+        "D": "Intimidation threat"
+      },
+      "correct": "B",
+      "explanation": "An advocacy threat arises when an accountant promotes a client's or employer's position to the point that their objectivity is compromised. Acting on a client's behalf in a dispute can create this threat. For audit clients, such services may be restricted because of their effect on independence.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c09-q005",
+      "chapter": 9,
+      "topic": "Threats and safeguards",
+      "question_text": "A company's chief executive tells the financial controller that she will lose her job unless she agrees to an accounting treatment that she considers inappropriate. Which threat is this?",
+      "options": {
+        "A": "Advocacy threat",
+        "B": "Familiarity threat",
+        "C": "Self-review threat",
+        "D": "Intimidation threat"
+      },
+      "correct": "D",
+      "explanation": "An intimidation threat is the threat that an accountant will be deterred from acting objectively because of actual or perceived pressures, including attempts to exercise undue influence. Threatening dismissal is a clear example. The controller should not give in to the pressure and should consider raising the matter with those charged with governance or seeking advice.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c09-q006",
+      "chapter": 9,
+      "topic": "Threats and safeguards",
+      "question_text": "Under the conceptual framework in the ICAEW Code of Ethics, what are the three main steps an accountant should follow when dealing with threats to the fundamental principles?",
+      "options": {
+        "A": "Ignore minor threats, report major threats, and resign",
+        "B": "Calculate threats, disclose threats, and insure against threats",
+        "C": "Identify threats, evaluate threats, and address threats",
+        "D": "Delegate threats, document threats, and accept threats"
+      },
+      "correct": "C",
+      "explanation": "The conceptual framework requires accountants to identify threats to compliance with the fundamental principles, evaluate whether they are at an acceptable level, and address them by eliminating them or reducing them to an acceptable level. Where that is not possible, the accountant should decline or end the relevant service or activity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c09-q007",
+      "chapter": 9,
+      "topic": "Threats and safeguards",
+      "question_text": "When evaluating whether a threat to the fundamental principles is at an acceptable level, which test does the ICAEW Code of Ethics require an accountant to apply?",
+      "options": {
+        "A": "The balance of probabilities test",
+        "B": "The reasonable and informed third party test",
+        "C": "The going concern test",
+        "D": "The materiality threshold of 5% of profit"
+      },
+      "correct": "B",
+      "explanation": "An acceptable level is one at which an accountant using the reasonable and informed third party test would likely conclude that the accountant complies with the fundamental principles. The test considers whether a hypothetical person with relevant knowledge, weighing all the facts, would reach the same conclusion. Legal and accounting tests such as the balance of probabilities and going concern are not used for this purpose.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-se-c09-q008",
+      "chapter": 9,
+      "topic": "Threats and safeguards",
+      "question_text": "How do the ethical threats typically faced by professional accountants in business tend to differ from those faced by accountants in public practice?",
+      "options": {
+        "A": "Accountants in business never face self-interest threats",
+        "B": "Accountants in business are more likely to face pressure from their own employer, for example from managers whose interests depend on reported results, and may find it harder to walk away because their livelihood depends on one organisation",
+        "C": "Only accountants in public practice face intimidation threats",
+        "D": "Accountants in business are not required to comply with the fundamental principles"
+      },
+      "correct": "B",
+      "explanation": "Accountants in business often face pressure from superiors and colleagues to present results favourably, and their employment and income depend on a single employer, which can make intimidation and self-interest threats harder to resist. Accountants in practice face threats arising from client relationships and fees. All professional accountants must comply with the fundamental principles.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-se-c09-q009",
+      "chapter": 9,
+      "topic": "Threats and safeguards",
+      "question_text": "An employee reports serious wrongdoing at her employer to an appropriate regulator after internal reporting has failed. Which statement about whistleblowing in the UK is correct?",
+      "options": {
+        "A": "Whistleblowers have no legal protection in the UK",
+        "B": "Whistleblowing is always a breach of confidentiality and results in disciplinary action by ICAEW",
+        "C": "Whistleblowing law requires employees to report all concerns to the media first",
+        "D": "The Public Interest Disclosure Act 1998 can protect workers who make qualifying disclosures from dismissal or detriment, although whistleblowers may still experience personal stress and strained working relationships"
+      },
+      "correct": "D",
+      "explanation": "The Public Interest Disclosure Act 1998 provides protection for workers who make protected disclosures in the public interest, for example to their employer or to a prescribed person such as a regulator. Even with legal protection, speaking out can have a significant personal impact, including stress and damaged relationships. Disclosure to the media is protected only in limited circumstances and is not the first step.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c10-q001",
+      "chapter": 10,
+      "topic": "Data ethics and the impact of technology",
+      "question_text": "Which of the following is a principle commonly included in frameworks for the ethical use of data?",
+      "options": {
+        "A": "Collecting as much data as possible in case it is useful later",
+        "B": "Keeping data subjects unaware of how their data is used",
+        "C": "Transparency about how data is collected and used",
+        "D": "Sharing data with any party willing to pay for it"
+      },
+      "correct": "C",
+      "explanation": "Data ethics frameworks commonly include principles such as transparency, accountability and fairness. Individuals should understand how their data is collected and used. Collecting excessive data, hiding its use or selling it indiscriminately all conflict with these principles.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-se-c10-q002",
+      "chapter": 10,
+      "topic": "Data ethics and the impact of technology",
+      "question_text": "A company collects customers' dates of birth, home addresses and employment details when it only needs an email address to send a newsletter. Which data protection principle is it failing to apply?",
+      "options": {
+        "A": "Data minimisation",
+        "B": "Accuracy",
+        "C": "Storage limitation",
+        "D": "Integrity and confidentiality"
+      },
+      "correct": "A",
+      "explanation": "Data minimisation requires personal data to be adequate, relevant and limited to what is necessary for the purposes for which it is processed. Collecting detailed personal information to send a newsletter goes beyond what is needed. The other principles relate to keeping data correct, not keeping it longer than necessary, and keeping it secure.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c10-q003",
+      "chapter": 10,
+      "topic": "Data ethics and the impact of technology",
+      "question_text": "A company collected customers' personal data to process deliveries. It now wants to use the same data, without telling customers, to build profiles for a third party's marketing campaigns. Which data protection principle does this most directly breach?",
+      "options": {
+        "A": "Data minimisation",
+        "B": "Purpose limitation",
+        "C": "Storage limitation",
+        "D": "Accuracy"
+      },
+      "correct": "B",
+      "explanation": "Purpose limitation requires personal data to be collected for specified, explicit and legitimate purposes and not further processed in a way that is incompatible with those purposes. Using delivery data for third-party marketing without informing customers is an incompatible new purpose. It would also raise concerns about transparency and fairness.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c10-q004",
+      "chapter": 10,
+      "topic": "Data ethics and the impact of technology",
+      "question_text": "A bank trains an algorithm to assess loan applications using historical lending decisions, which had disadvantaged applicants from certain postcodes. What is the main ethical risk?",
+      "options": {
+        "A": "The algorithm will be unable to process any applications",
+        "B": "The algorithm will automatically remove all bias from future decisions",
+        "C": "The algorithm will breach copyright law",
+        "D": "The algorithm may reproduce and reinforce the historical bias in its decisions"
+      },
+      "correct": "D",
+      "explanation": "Data bias occurs when the data used to train or inform a system is unrepresentative or reflects past discrimination. An algorithm trained on biased decisions is likely to repeat those patterns, leading to unfair outcomes. Accountants should challenge how data is selected and captured, and how outputs are tested for bias.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-se-c10-q005",
+      "chapter": 10,
+      "topic": "Data ethics and the impact of technology",
+      "question_text": "A management accountant is given sustainability data from a supplier to include in the company's report. Which action best reflects the need to maintain an enquiring mind?",
+      "options": {
+        "A": "Including the data as received because the supplier is a long-standing partner",
+        "B": "Considering the source and reliability of the data, how it was collected, and whether it is consistent with other information",
+        "C": "Excluding all supplier data from the report",
+        "D": "Rounding all the figures to make them look more consistent"
+      },
+      "correct": "B",
+      "explanation": "An enquiring mind involves evaluating information from a variety of sources and perspectives, considering its reliability, completeness and consistency before relying on it. A long relationship does not guarantee accuracy. Excluding data without assessment, or adjusting it cosmetically, would not produce reliable information.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c10-q006",
+      "chapter": 10,
+      "topic": "Data ethics and the impact of technology",
+      "question_text": "A company uses a complex artificial intelligence (AI) model to make credit decisions, but cannot explain to rejected applicants why they were declined. Which ethical issue is most directly raised?",
+      "options": {
+        "A": "Lack of transparency and explainability",
+        "B": "Data minimisation",
+        "C": "Self-review threat",
+        "D": "Lack of storage capacity"
+      },
+      "correct": "A",
+      "explanation": "Many AI systems operate as 'black boxes', making it hard to explain how decisions are reached. This undermines transparency and accountability, makes bias difficult to detect, and can prevent individuals from challenging decisions that affect them. Explainability is a key consideration in the ethical use of AI.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-se-c10-q007",
+      "chapter": 10,
+      "topic": "Data ethics and the impact of technology",
+      "question_text": "An accountant uses an AI tool to draft a client's disclosure notes. The draft looks professional but cites an accounting standard requirement that does not exist. Which statement best describes the accountant's responsibility?",
+      "options": {
+        "A": "The AI provider is fully responsible for any errors, so the accountant need not check the output",
+        "B": "The accountant should use the output as long as it looks professional",
+        "C": "The accountant remains responsible for the work and must review and verify AI-generated output before relying on it",
+        "D": "The accountant must stop using all technology in their work"
+      },
+      "correct": "C",
+      "explanation": "Professional competence and due care requires accountants to understand the limitations of the tools they use and to review their output. Generative AI can produce plausible but incorrect content, so over-reliance creates a risk of automation bias and errors. Responsibility for the work remains with the accountant; banning all technology is not required.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-se-c10-q008",
+      "chapter": 10,
+      "topic": "Data ethics and the impact of technology",
+      "question_text": "What is the main purpose of data protection legislation such as the UK GDPR and the Data Protection Act 2018?",
+      "options": {
+        "A": "To allow organisations to sell personal data without restriction",
+        "B": "To protect companies' trade secrets from competitors",
+        "C": "To set accounting standards for intangible assets",
+        "D": "To protect individuals' rights over their personal data and to set rules for how organisations process it"
+      },
+      "correct": "D",
+      "explanation": "Data protection legislation gives individuals rights over their personal data and requires organisations to process it lawfully, fairly and transparently, keep it secure and use it only for legitimate purposes. Commercially sensitive information such as trade secrets is protected through other means, including contracts and confidentiality obligations.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-se-c10-q009",
+      "chapter": 10,
+      "topic": "Data ethics and the impact of technology",
+      "question_text": "A trainee pastes a client's unpublished financial forecasts into a free public generative AI tool to help write a summary. Which is the main ethical concern?",
+      "options": {
+        "A": "The summary may be too short",
+        "B": "The AI tool may round the figures differently from the client",
+        "C": "Confidential client information may be disclosed to, stored or used by a third party without authority, breaching confidentiality",
+        "D": "The trainee will be committing a money laundering offence"
+      },
+      "correct": "C",
+      "explanation": "Entering confidential information into a public AI tool may mean it is stored, processed or used to train the model by a third party, which could amount to unauthorised disclosure. This risks breaching the principle of confidentiality and possibly data protection law. Firms should have policies on approved tools and on what information may be entered into them.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-se-c10-q010",
+      "chapter": 10,
+      "topic": "Data ethics and the impact of technology",
+      "question_text": "Which of the following is an ethical issue arising from the development and use of new technology in finance functions?",
+      "options": {
+        "A": "Faster processing of routine transactions",
+        "B": "Deepfake audio or video being used to impersonate senior managers and authorise fraudulent payments",
+        "C": "Improved accuracy in reconciling bank accounts",
+        "D": "Lower costs of storing documents"
+      },
+      "correct": "B",
+      "explanation": "Technology brings benefits such as speed, accuracy and lower costs, but also raises ethical issues including fraud risks such as deepfakes, cyber security, privacy, bias and job displacement. Accountants need to apply professional scepticism, for example by verifying unusual payment requests through independent channels.",
+      "difficulty": "medium"
+    }
+  ]
+}

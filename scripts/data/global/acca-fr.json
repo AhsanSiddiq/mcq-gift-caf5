@@ -1,0 +1,2105 @@
+{
+  "subject_id": "acca-fr",
+  "questions": [
+    {
+      "id": "acca-fr-c01-q001",
+      "chapter": 1,
+      "topic": "The conceptual framework and IAS 8",
+      "question_text": "According to the IASB Conceptual Framework for Financial Reporting, which are the two fundamental qualitative characteristics of useful financial information?",
+      "options": {
+        "A": "Comparability and understandability",
+        "B": "Relevance and faithful representation",
+        "C": "Relevance and reliability",
+        "D": "Faithful representation and verifiability"
+      },
+      "correct": "B",
+      "explanation": "The Conceptual Framework identifies relevance and faithful representation as the fundamental qualitative characteristics. Comparability, verifiability, timeliness and understandability are enhancing characteristics. 'Reliability' was replaced by faithful representation and is no longer the term used.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c01-q002",
+      "chapter": 1,
+      "topic": "The conceptual framework and IAS 8",
+      "question_text": "Under the IASB Conceptual Framework, how is an asset defined?",
+      "options": {
+        "A": "A resource legally owned by the entity from which future cash inflows are certain",
+        "B": "A present economic resource controlled by the entity as a result of past events",
+        "C": "A present economic resource controlled by the entity that can be measured at historical cost",
+        "D": "Any item expected to generate revenue for the entity in a future period"
+      },
+      "correct": "B",
+      "explanation": "The Framework defines an asset as a present economic resource controlled by the entity as a result of past events, where an economic resource is a right that has the potential to produce economic benefits. Control, not legal ownership, is the key test, and certainty of inflows is not required. Measurability is a recognition consideration, not part of the definition.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c01-q003",
+      "chapter": 1,
+      "topic": "The conceptual framework and IAS 8",
+      "question_text": "Which of the following is NOT one of the enhancing qualitative characteristics in the IASB Conceptual Framework?",
+      "options": {
+        "A": "Timeliness",
+        "B": "Materiality",
+        "C": "Verifiability",
+        "D": "Understandability"
+      },
+      "correct": "B",
+      "explanation": "The four enhancing qualitative characteristics are comparability, verifiability, timeliness and understandability. Materiality is an entity-specific aspect of relevance: information is material if omitting, misstating or obscuring it could reasonably be expected to influence the decisions of primary users.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c01-q004",
+      "chapter": 1,
+      "topic": "The conceptual framework and IAS 8",
+      "question_text": "The Conceptual Framework describes several measurement bases. Which of the following is NOT a current value measurement basis?",
+      "options": {
+        "A": "Historical cost",
+        "B": "Fair value",
+        "C": "Value in use (or fulfilment value for liabilities)",
+        "D": "Current cost"
+      },
+      "correct": "A",
+      "explanation": "The Framework splits measurement bases into historical cost and current value. Current value bases are fair value, value in use for assets (fulfilment value for liabilities) and current cost. Historical cost reflects the price of the transaction that gave rise to the item and is not updated for changes in value.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c01-q005",
+      "chapter": 1,
+      "topic": "The conceptual framework and IAS 8",
+      "question_text": "On 1 January Kestrel Co sold inventory with a carrying amount of $1.5 million to a bank for $2 million. Kestrel Co continues to store the goods and is obliged to buy them back on 31 December of the same year for $2.2 million. How should Kestrel Co account for this transaction in the year?",
+      "options": {
+        "A": "Derecognise the inventory and recognise revenue of $2 million and a profit of $500,000",
+        "B": "Keep the inventory in the SFP, recognise a $2 million liability and charge $200,000 finance cost to profit or loss",
+        "C": "Derecognise the inventory, recognise revenue of $2 million and provide $200,000 for the repurchase",
+        "D": "Keep the inventory in the SFP and credit the $2 million received to equity"
+      },
+      "correct": "B",
+      "explanation": "Applying substance over form, Kestrel Co keeps the risks and rewards of the inventory and must repurchase it at a fixed price, so the transaction is a secured loan rather than a sale. The $2 million received is recorded as a liability. The $200,000 difference between the $2.2 million repurchase price and the $2 million received is finance cost, accrued over the year. The inventory stays at its carrying amount of $1.5 million.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c01-q006",
+      "chapter": 1,
+      "topic": "The conceptual framework and IAS 8",
+      "question_text": "Which of the following is a change in accounting estimate rather than a change in accounting policy under IAS 8?",
+      "options": {
+        "A": "Changing the inventory cost formula from FIFO to weighted average cost",
+        "B": "Changing from expensing to capitalising borrowing costs on qualifying assets in order to comply with IAS 23",
+        "C": "Changing the measurement of investment properties from the cost model to the fair value model",
+        "D": "Revising the estimated useful life of a fleet of delivery vehicles from 5 to 4 years"
+      },
+      "correct": "D",
+      "explanation": "A useful life is an estimate based on the latest available information, so revising it is a change in accounting estimate and is applied prospectively. Changing a cost formula, changing to comply with a standard's requirement and changing the measurement model for investment property all change the basis of measurement, so they are changes in accounting policy.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c01-q007",
+      "chapter": 1,
+      "topic": "The conceptual framework and IAS 8",
+      "question_text": "In preparing its financial statements for the year ended 31 December 20X5, Marlin Co discovered that closing inventory at 31 December 20X4 had been overstated by $40,000 because of a counting error. Reported profit for 20X4 was $500,000. Draft profit for 20X5, calculated using the incorrect opening inventory, is $620,000. Ignoring tax, what is the correct profit for the year ended 31 December 20X5?",
+      "options": {
+        "A": "$580,000",
+        "B": "$660,000",
+        "C": "$620,000",
+        "D": "$460,000"
+      },
+      "correct": "B",
+      "explanation": "The error overstated 20X4 closing inventory, which is also 20X5 opening inventory. Overstated opening inventory overstates 20X5 cost of sales, so draft 20X5 profit is understated by $40,000. Correct 20X5 profit = $620,000 + $40,000 = $660,000. Under IAS 8 the 20X4 comparative is restated to $500,000 - $40,000 = $460,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c01-q008",
+      "chapter": 1,
+      "topic": "The conceptual framework and IAS 8",
+      "question_text": "Osprey Co bought a machine on 1 January 20X1 for $200,000. It was depreciated on a straight-line basis over 10 years with no residual value. On 1 January 20X4 the directors decided the machine's remaining useful life was only 5 years. What is the depreciation charge for the year ended 31 December 20X4?",
+      "options": {
+        "A": "$28,000",
+        "B": "$20,000",
+        "C": "$40,000",
+        "D": "$25,000"
+      },
+      "correct": "A",
+      "explanation": "A change in useful life is a change in accounting estimate and is applied prospectively. Carrying amount at 1 January 20X4 = $200,000 - ($20,000 x 3) = $140,000. This is spread over the remaining 5 years: $140,000 / 5 = $28,000. Prior years are not restated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c01-q009",
+      "chapter": 1,
+      "topic": "The conceptual framework and IAS 8",
+      "question_text": "According to the Conceptual Framework, what is the underlying assumption on which financial statements are normally prepared?",
+      "options": {
+        "A": "Accruals",
+        "B": "Prudence",
+        "C": "Consistency",
+        "D": "Going concern"
+      },
+      "correct": "D",
+      "explanation": "The Conceptual Framework identifies going concern as the underlying assumption: the entity is assumed to continue operating for the foreseeable future. If management intends, or is forced, to liquidate or stop trading, a different basis is used and must be disclosed. Accruals and prudence are discussed elsewhere in the Framework but are not the underlying assumption.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c01-q010",
+      "chapter": 1,
+      "topic": "The conceptual framework and IAS 8",
+      "question_text": "Which statement correctly describes how prudence is treated in the IASB Conceptual Framework?",
+      "options": {
+        "A": "Prudence requires assets and income to be understated so that users are protected from overstatement",
+        "B": "Prudence is the exercise of caution when making judgements under uncertainty, and it supports neutrality",
+        "C": "Prudence requires all possible losses to be recognised while gains are recognised only when realised in cash",
+        "D": "Prudence was removed from the Framework because it conflicts with faithful representation"
+      },
+      "correct": "B",
+      "explanation": "The Framework reintroduced prudence as the exercise of caution when making judgements under conditions of uncertainty. It means assets and income are not overstated and liabilities and expenses are not understated. It does not allow deliberate understatement, because that would breach neutrality and faithful representation. Recognising losses but not gains is not a Framework requirement.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fr-c02-q001",
+      "chapter": 2,
+      "topic": "Tangible non-current assets",
+      "question_text": "Plover Co bought a machine with a list price of $80,000, and received a 5% trade discount. It also paid delivery of $2,000, installation of $5,000, staff training on the machine of $3,000, an allocation of general administrative overheads of $1,500 and testing costs of $1,000 before the machine came into use. Under IAS 16, at what amount should the machine first be recognised?",
+      "options": {
+        "A": "$84,000",
+        "B": "$87,000",
+        "C": "$88,000",
+        "D": "$88,500"
+      },
+      "correct": "A",
+      "explanation": "IAS 16 cost includes the purchase price net of trade discounts and directly attributable costs of bringing the asset to working condition. Cost = $80,000 x 95% = $76,000 + delivery $2,000 + installation $5,000 + testing $1,000 = $84,000. Staff training and general administrative overheads are not directly attributable, so they are expensed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c02-q002",
+      "chapter": 2,
+      "topic": "Tangible non-current assets",
+      "question_text": "Tern Co bought a building on 1 January 20X1 for $500,000 and gave it a useful life of 50 years with no residual value. Tern Co uses the revaluation model, and on 1 January 20X6 the building was revalued to $630,000. The remaining useful life is unchanged. What revaluation surplus arises, and what is the depreciation charge for 20X6?",
+      "options": {
+        "A": "Surplus $130,000; depreciation $14,000",
+        "B": "Surplus $180,000; depreciation $14,000",
+        "C": "Surplus $180,000; depreciation $12,600",
+        "D": "Surplus $130,000; depreciation $12,600"
+      },
+      "correct": "B",
+      "explanation": "Carrying amount at 1 January 20X6 = $500,000 - ($10,000 x 5) = $450,000. Revaluation surplus = $630,000 - $450,000 = $180,000, recognised in OCI. The revalued amount is depreciated over the remaining 45 years: $630,000 / 45 = $14,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c02-q003",
+      "chapter": 2,
+      "topic": "Tangible non-current assets",
+      "question_text": "Continuing the Tern Co building (revalued to $630,000 on 1 January 20X6, giving a surplus of $180,000 and a remaining life of 45 years), Tern Co transfers the excess depreciation from the revaluation surplus to retained earnings each year. What is the annual transfer?",
+      "options": {
+        "A": "$14,000",
+        "B": "$10,000",
+        "C": "$3,600",
+        "D": "$4,000"
+      },
+      "correct": "D",
+      "explanation": "Excess depreciation = depreciation on revalued amount - depreciation on historical cost = $14,000 - $10,000 = $4,000. You get the same figure from surplus / remaining life = $180,000 / 45 = $4,000. The transfer is made within equity and does not go through profit or loss or OCI.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c02-q004",
+      "chapter": 2,
+      "topic": "Tangible non-current assets",
+      "question_text": "Gannet Co uses the revaluation model for land, which cost $1,000,000. In 20X3 the land was revalued to $1,300,000. In 20X6 a slump in the property market reduced its value to $850,000. How should the 20X6 decrease be recognised?",
+      "options": {
+        "A": "$450,000 charged to profit or loss",
+        "B": "$300,000 charged to OCI (revaluation surplus) and $150,000 charged to profit or loss",
+        "C": "$450,000 charged to OCI (revaluation surplus)",
+        "D": "$150,000 charged to OCI and $300,000 charged to profit or loss"
+      },
+      "correct": "B",
+      "explanation": "Total decrease = $1,300,000 - $850,000 = $450,000. A revaluation decrease is first set against any surplus previously recognised for the same asset, which here is $1,300,000 - $1,000,000 = $300,000 (charged to OCI). The remaining $450,000 - $300,000 = $150,000 takes the land below its original cost, so it is charged to profit or loss.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fr-c02-q005",
+      "chapter": 2,
+      "topic": "Tangible non-current assets",
+      "question_text": "On 1 January 20X5 Heron Co took out a $6,000,000 loan at 8% a year specifically to build a new warehouse. Construction began on 1 April 20X5 and was still in progress at 31 December 20X5. During the construction period Heron Co earned $40,000 by temporarily investing loan funds it had not yet spent. What borrowing cost should be capitalised for the year ended 31 December 20X5?",
+      "options": {
+        "A": "$440,000",
+        "B": "$360,000",
+        "C": "$320,000",
+        "D": "$480,000"
+      },
+      "correct": "C",
+      "explanation": "Under IAS 23, capitalisation begins when expenditure and borrowing costs are being incurred and construction activity has started, which is 1 April. Interest for April to December = $6,000,000 x 8% x 9/12 = $360,000. Investment income earned on the specific borrowing during that period is deducted: $360,000 - $40,000 = $320,000. Interest for January to March ($120,000) is expensed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c02-q006",
+      "chapter": 2,
+      "topic": "Tangible non-current assets",
+      "question_text": "Avocet Co funds its construction projects from general borrowings, which were unchanged throughout the year: a $4,000,000 loan at 6% and a $6,000,000 loan at 9%. During the year it spent $3,000,000 on a qualifying asset on 1 January and a further $2,000,000 on 1 July. Construction continued all year. What borrowing cost should be capitalised?",
+      "options": {
+        "A": "$390,000",
+        "B": "$300,000",
+        "C": "$312,000",
+        "D": "$234,000"
+      },
+      "correct": "C",
+      "explanation": "Capitalisation rate = weighted average cost of general borrowings = ($4,000,000 x 6% + $6,000,000 x 9%) / $10,000,000 = $780,000 / $10,000,000 = 7.8%. Capitalised = $3,000,000 x 7.8% + $2,000,000 x 7.8% x 6/12 = $234,000 + $78,000 = $312,000. Using the simple average of 7.5%, or ignoring when the second payment was made, gives the wrong answer.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fr-c02-q007",
+      "chapter": 2,
+      "topic": "Tangible non-current assets",
+      "question_text": "Under IAS 20 Accounting for Government Grants, how may a grant related to the purchase of an asset be presented?",
+      "options": {
+        "A": "Either as deferred income released over the asset's life, or by deducting it from the asset's carrying amount",
+        "B": "Credited directly to retained earnings when received",
+        "C": "Recognised in full in profit or loss when the cash is received",
+        "D": "Only as deferred income; deduction from the asset is prohibited"
+      },
+      "correct": "A",
+      "explanation": "IAS 20 allows two presentations for grants related to assets: set the grant up as deferred income and recognise it in profit or loss over the asset's useful life, or deduct it from the asset's carrying amount, which reduces depreciation. Either way, the grant is recognised in profit or loss as the asset is depreciated. Crediting the grant straight to equity is not allowed.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c02-q008",
+      "chapter": 2,
+      "topic": "Tangible non-current assets",
+      "question_text": "On 1 April 20X6 Puffin Co received a government grant of $300,000 towards a machine costing $1,200,000, which it bought and brought into use on that date. The machine has a 5-year useful life and no residual value. Puffin Co uses the deferred income method and has a 31 December year end. What non-current liability for deferred income should be shown at 31 December 20X6?",
+      "options": {
+        "A": "$195,000",
+        "B": "$255,000",
+        "C": "$240,000",
+        "D": "$180,000"
+      },
+      "correct": "A",
+      "explanation": "Annual release = $300,000 / 5 = $60,000. Released in 20X6 = $60,000 x 9/12 = $45,000, so the deferred income balance at 31 December 20X6 = $300,000 - $45,000 = $255,000. The amount to be released in the next 12 months ($60,000) is current, so the non-current part is $255,000 - $60,000 = $195,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c02-q009",
+      "chapter": 2,
+      "topic": "Tangible non-current assets",
+      "question_text": "Which of the following properties would be classified as investment property under IAS 40 in the individual financial statements of the owner?",
+      "options": {
+        "A": "A building occupied by the entity's own administrative staff",
+        "B": "An office block owned by the entity and let to an unrelated company under an operating lease",
+        "C": "Houses built by a property developer for sale in the ordinary course of business",
+        "D": "A factory being built by the entity on behalf of a customer under a construction contract"
+      },
+      "correct": "B",
+      "explanation": "Investment property is property held to earn rentals or for capital appreciation, or both. An office block let to a third party fits this definition. Owner-occupied property falls under IAS 16, property held for sale in the ordinary course of business is inventory under IAS 2, and property built for customers is accounted for under IFRS 15.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c02-q010",
+      "chapter": 2,
+      "topic": "Tangible non-current assets",
+      "question_text": "On 1 January Curlew Co bought an investment property for $2,000,000 and paid legal fees of $50,000. The property has a 40-year useful life. Curlew Co uses the IAS 40 fair value model. At 31 December the property's fair value was $2,300,000. What is the effect on profit or loss for the year?",
+      "options": {
+        "A": "Fair value gain of $300,000 and no depreciation",
+        "B": "Fair value gain of $250,000 recognised in other comprehensive income",
+        "C": "Fair value gain of $250,000 less depreciation of $51,250",
+        "D": "Fair value gain of $250,000 and no depreciation"
+      },
+      "correct": "D",
+      "explanation": "Investment property is first measured at cost including transaction costs: $2,000,000 + $50,000 = $2,050,000. Under the fair value model it is remeasured to fair value at each reporting date, with the change going to profit or loss: $2,300,000 - $2,050,000 = $250,000. No depreciation is charged under the fair value model.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c02-q011",
+      "chapter": 2,
+      "topic": "Tangible non-current assets",
+      "question_text": "On 1 July Dunlin Co moved out of its head office building and let it to a third party, so it became an investment property. Dunlin Co measures investment property under the fair value model. On 1 July the building's carrying amount was $1,600,000 and its fair value was $2,000,000. At 31 December its fair value was $2,100,000. How should these changes in value be recognised?",
+      "options": {
+        "A": "$500,000 in profit or loss",
+        "B": "$400,000 in OCI (revaluation surplus) and $100,000 in profit or loss",
+        "C": "$400,000 in profit or loss and $100,000 in OCI",
+        "D": "$500,000 in OCI (revaluation surplus)"
+      },
+      "correct": "B",
+      "explanation": "When owner-occupied property becomes investment property carried at fair value, IAS 40 requires IAS 16 to be applied up to the date of change. The increase from $1,600,000 to $2,000,000, which is $400,000, is therefore a revaluation surplus in OCI. After the transfer, fair value changes go to profit or loss: $2,100,000 - $2,000,000 = $100,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fr-c03-q001",
+      "chapter": 3,
+      "topic": "Intangible assets, impairment and assets held for sale",
+      "question_text": "Under IAS 38, which of the following internally generated items may be recognised as an intangible asset?",
+      "options": {
+        "A": "Development expenditure that meets all of the IAS 38 recognition criteria",
+        "B": "An internally generated brand name",
+        "C": "Expenditure in the research phase of a project",
+        "D": "Costs of training staff to use new software"
+      },
+      "correct": "A",
+      "explanation": "IAS 38 requires development expenditure to be capitalised once the entity can show technical feasibility, intention and ability to complete and use or sell the asset, probable future economic benefits, adequate resources, and reliable measurement. Research costs must be expensed. Internally generated brands, mastheads, customer lists and training costs can never be recognised as intangible assets.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c03-q002",
+      "chapter": 3,
+      "topic": "Intangible assets, impairment and assets held for sale",
+      "question_text": "During the year Sanderling Co spent $120,000 on the research phase of a project. Development started on 1 March and all IAS 38 capitalisation criteria were first met on 1 June. Development costs were $90,000 from March to May and $210,000 from June to December. What amount should be recognised as an intangible asset at the year end?",
+      "options": {
+        "A": "$300,000",
+        "B": "$210,000",
+        "C": "$420,000",
+        "D": "$330,000"
+      },
+      "correct": "B",
+      "explanation": "Only development costs incurred after the recognition criteria are met can be capitalised, so the intangible asset is $210,000. Research costs of $120,000 and the $90,000 of development costs incurred before 1 June are expensed. Costs already expensed cannot be reinstated later.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c03-q003",
+      "chapter": 3,
+      "topic": "Intangible assets, impairment and assets held for sale",
+      "question_text": "Turnstone Co has capitalised development costs of $500,000. Commercial production of the related product started on 1 July 20X7, and the product is expected to sell for 4 years. Amortisation is straight-line, and the year end is 31 December. What is the carrying amount of the development asset at 31 December 20X7?",
+      "options": {
+        "A": "$437,500",
+        "B": "$375,000",
+        "C": "$500,000",
+        "D": "$400,000"
+      },
+      "correct": "A",
+      "explanation": "Amortisation starts when the asset is available for use, which is when production starts on 1 July 20X7. Charge for 20X7 = $500,000 / 4 x 6/12 = $62,500. Carrying amount = $500,000 - $62,500 = $437,500.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c03-q004",
+      "chapter": 3,
+      "topic": "Intangible assets, impairment and assets held for sale",
+      "question_text": "How does IAS 38 require a purchased intangible asset with an indefinite useful life to be accounted for after initial recognition?",
+      "options": {
+        "A": "It is not amortised, but it is tested for impairment every year and whenever there is an indication of impairment",
+        "B": "It is amortised over a maximum period of 20 years",
+        "C": "It is amortised over 10 years unless a longer life can be demonstrated",
+        "D": "It is neither amortised nor tested for impairment until it is sold"
+      },
+      "correct": "A",
+      "explanation": "An intangible asset with an indefinite useful life is not amortised. IAS 36 instead requires an annual impairment test, plus a test whenever there is an indication of impairment. Its useful life must also be reviewed each period to check that it is still indefinite.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c03-q005",
+      "chapter": 3,
+      "topic": "Intangible assets, impairment and assets held for sale",
+      "question_text": "Under IAS 36 Impairment of Assets, how is an asset's recoverable amount defined?",
+      "options": {
+        "A": "The higher of fair value less costs of disposal and value in use",
+        "B": "The lower of fair value less costs of disposal and value in use",
+        "C": "The higher of carrying amount and value in use",
+        "D": "Fair value less costs of disposal only"
+      },
+      "correct": "A",
+      "explanation": "Recoverable amount is the higher of fair value less costs of disposal and value in use. An asset is impaired when its carrying amount is higher than its recoverable amount. The 'higher of' rule reflects that a rational entity would either sell the asset or keep using it, whichever gives more benefit.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c03-q006",
+      "chapter": 3,
+      "topic": "Intangible assets, impairment and assets held for sale",
+      "question_text": "At the year end a machine owned by Redshank Co has a carrying amount of $900,000. It could be sold for $820,000, with disposal costs of $20,000. The present value of the future cash flows expected from using it is $760,000. What impairment loss should be recognised?",
+      "options": {
+        "A": "$140,000",
+        "B": "$80,000",
+        "C": "Nil",
+        "D": "$100,000"
+      },
+      "correct": "D",
+      "explanation": "Fair value less costs of disposal = $820,000 - $20,000 = $800,000. Value in use = $760,000. Recoverable amount is the higher of the two, $800,000. Impairment loss = $900,000 - $800,000 = $100,000.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c03-q007",
+      "chapter": 3,
+      "topic": "Intangible assets, impairment and assets held for sale",
+      "question_text": "A cash-generating unit of Whimbrel Co contains goodwill of $150,000, a brand of $100,000 and property, plant and equipment of $400,000. None of these assets has an individually determinable recoverable amount. The unit's recoverable amount is $450,000. What is the carrying amount of the property, plant and equipment after the impairment loss is allocated?",
+      "options": {
+        "A": "$360,000",
+        "B": "$350,000",
+        "C": "$240,000",
+        "D": "$276,923"
+      },
+      "correct": "A",
+      "explanation": "Impairment loss = $650,000 - $450,000 = $200,000. Goodwill is written off first ($150,000). The remaining $50,000 is spread across the other assets in proportion to their carrying amounts: PPE share = $50,000 x $400,000/$500,000 = $40,000. PPE carrying amount = $400,000 - $40,000 = $360,000. Figures are rounded to the nearest dollar.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fr-c03-q008",
+      "chapter": 3,
+      "topic": "Intangible assets, impairment and assets held for sale",
+      "question_text": "Which of the following statements about reversing impairment losses under IAS 36 is correct?",
+      "options": {
+        "A": "Any impairment loss can be reversed up to the asset's original cost",
+        "B": "A reversal for an asset carried at cost is always recognised in other comprehensive income",
+        "C": "Impairment losses on assets other than goodwill can never be reversed",
+        "D": "An impairment loss recognised for goodwill must never be reversed"
+      },
+      "correct": "D",
+      "explanation": "IAS 36 prohibits reversing an impairment loss on goodwill, because any later increase is likely to be internally generated goodwill. For other assets a reversal is allowed, but only up to the carrying amount the asset would have had, net of depreciation, if no impairment had been recognised. For assets carried at cost, the reversal goes to profit or loss.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c03-q009",
+      "chapter": 3,
+      "topic": "Intangible assets, impairment and assets held for sale",
+      "question_text": "Which of the following is NOT a condition for classifying a non-current asset as held for sale under IFRS 5?",
+      "options": {
+        "A": "The asset must be available for immediate sale in its present condition",
+        "B": "A binding sale agreement must have been signed with a buyer by the reporting date",
+        "C": "The sale must be highly probable, with management committed to a plan to sell",
+        "D": "The sale should be expected to be completed within one year of classification"
+      },
+      "correct": "B",
+      "explanation": "IFRS 5 requires the asset to be available for immediate sale in its present condition and the sale to be highly probable. High probability means management is committed to a plan, an active programme to find a buyer has begun, the price is reasonable and completion is expected within 12 months. A signed binding agreement is not required.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c03-q010",
+      "chapter": 3,
+      "topic": "Intangible assets, impairment and assets held for sale",
+      "question_text": "On 1 October Godwit Co classified a building as held for sale. Its carrying amount was then $1,200,000. Its fair value was $1,050,000 and estimated costs to sell were $30,000. At what amount should the building be measured on classification, and how is it treated afterwards?",
+      "options": {
+        "A": "$1,200,000, and depreciation continues until the sale",
+        "B": "$1,050,000, and depreciation stops",
+        "C": "$1,020,000, and depreciation stops",
+        "D": "$1,020,000, and depreciation continues until the sale"
+      },
+      "correct": "C",
+      "explanation": "IFRS 5 measures held-for-sale assets at the lower of carrying amount and fair value less costs to sell. Fair value less costs to sell = $1,050,000 - $30,000 = $1,020,000, which is lower than $1,200,000, so an impairment loss of $180,000 is recognised. Assets classified as held for sale are not depreciated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c03-q011",
+      "chapter": 3,
+      "topic": "Intangible assets, impairment and assets held for sale",
+      "question_text": "Which of the following would be presented as a discontinued operation under IFRS 5?",
+      "options": {
+        "A": "The closure of one of the 60 shops in a national retail chain",
+        "B": "The sale of surplus manufacturing machinery",
+        "C": "A decision taken by the board after the reporting date to close a major division",
+        "D": "The sale during the year of a hotel division that was one of the group's three major business lines"
+      },
+      "correct": "D",
+      "explanation": "A discontinued operation is a component that has been disposed of or is classified as held for sale and represents a separate major line of business or geographical area of operations. Closing one shop out of 60 or selling surplus machinery is not a major line of business. A decision taken after the reporting date cannot cause classification at the reporting date.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c03-q012",
+      "chapter": 3,
+      "topic": "Intangible assets, impairment and assets held for sale",
+      "question_text": "Lapwing Co's leisure division is a discontinued operation. For the year its revenue was $4.0m and its expenses were $4.6m, and the related tax credit was $0.1m. On classification as held for sale, the division's assets were written down by $0.3m to fair value less costs to sell (no tax effect). What single amount should be presented as 'loss from discontinued operations' in the statement of profit or loss?",
+      "options": {
+        "A": "$0.9m",
+        "B": "$0.5m",
+        "C": "$0.6m",
+        "D": "$0.8m"
+      },
+      "correct": "D",
+      "explanation": "IFRS 5 requires one figure on the face of the statement: the post-tax profit or loss of the discontinued operation plus the post-tax loss on remeasurement to fair value less costs to sell. Post-tax trading loss = 4.0 - 4.6 + 0.1 = -$0.5m. Adding the remeasurement loss of $0.3m gives a total loss of $0.8m.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fr-c04-q001",
+      "chapter": 4,
+      "topic": "Inventories and agriculture",
+      "question_text": "Under IAS 2 Inventories, how should inventories be measured?",
+      "options": {
+        "A": "At the higher of cost and net realisable value",
+        "B": "At fair value less costs to sell",
+        "C": "At replacement cost",
+        "D": "At the lower of cost and net realisable value"
+      },
+      "correct": "D",
+      "explanation": "IAS 2 measures inventories at the lower of cost and net realisable value (NRV). NRV is the estimated selling price in the ordinary course of business, less the estimated costs of completion and the estimated costs needed to make the sale. Measuring at fair value less costs to sell applies to biological assets under IAS 41, not to inventory in general.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c04-q002",
+      "chapter": 4,
+      "topic": "Inventories and agriculture",
+      "question_text": "At the year end Avalon Co holds 1,000 units of a product that cost $50 each. The normal selling price is $60 a unit, but each unit needs a modification costing $8 before it can be sold, and a sales commission of 5% of the selling price is payable. At what amount should the inventory be shown?",
+      "options": {
+        "A": "$50,000",
+        "B": "$49,000",
+        "C": "$52,000",
+        "D": "$57,000"
+      },
+      "correct": "B",
+      "explanation": "NRV per unit = selling price $60 - modification $8 - commission ($60 x 5% = $3) = $49. NRV is below cost of $50, so inventory is measured at NRV: 1,000 x $49 = $49,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c04-q003",
+      "chapter": 4,
+      "topic": "Inventories and agriculture",
+      "question_text": "Which of the following costs can be included in the cost of inventory under IAS 2?",
+      "options": {
+        "A": "Fixed production overheads allocated on the basis of normal production capacity",
+        "B": "Abnormal amounts of wasted materials and labour",
+        "C": "Selling and distribution costs",
+        "D": "Administrative overheads that do not contribute to bringing the inventory to its present location and condition"
+      },
+      "correct": "A",
+      "explanation": "Cost of inventory includes purchase costs, conversion costs (direct labour and a systematic allocation of fixed and variable production overheads, with fixed overheads based on normal capacity) and other costs of bringing the inventory to its present location and condition. Abnormal waste, selling costs and unrelated administrative overheads must be expensed when incurred.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c04-q004",
+      "chapter": 4,
+      "topic": "Inventories and agriculture",
+      "question_text": "Ibis Co's fixed production overheads were $600,000 for the year. Normal capacity is 200,000 units, but output was only 150,000 units because of a strike. Variable production cost is $7 per unit. Closing inventory is 20,000 units. What is the value of closing inventory, and how are the remaining fixed overheads treated?",
+      "options": {
+        "A": "$200,000; $150,000 of unallocated overhead expensed",
+        "B": "$220,000; all fixed overhead absorbed into units produced",
+        "C": "$140,000; all $600,000 of fixed overhead expensed",
+        "D": "$200,000; $150,000 of unallocated overhead carried forward as a prepayment"
+      },
+      "correct": "A",
+      "explanation": "Fixed overheads are absorbed on the basis of normal capacity: $600,000 / 200,000 = $3 per unit. Unit cost = $7 + $3 = $10, so closing inventory = 20,000 x $10 = $200,000. Overhead absorbed by actual output = 150,000 x $3 = $450,000, and the unallocated $150,000 is expensed in the period because low production must not inflate the unit cost.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c04-q005",
+      "chapter": 4,
+      "topic": "Inventories and agriculture",
+      "question_text": "Under IAS 41 Agriculture, how should a biological asset be measured at each reporting date, assuming fair value can be measured reliably?",
+      "options": {
+        "A": "At cost less accumulated depreciation",
+        "B": "At fair value less costs to sell, with changes recognised in other comprehensive income",
+        "C": "At fair value less costs to sell, with changes recognised in profit or loss",
+        "D": "At the lower of cost and net realisable value"
+      },
+      "correct": "C",
+      "explanation": "IAS 41 requires biological assets to be measured at fair value less costs to sell, both on initial recognition and at each reporting date. Gains and losses go to profit or loss for the period. Cost less depreciation is used only in the rare case where fair value cannot be measured reliably on initial recognition.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c04-q006",
+      "chapter": 4,
+      "topic": "Inventories and agriculture",
+      "question_text": "At 1 January Meadow Farm Co owned a dairy herd of 100 cows with a fair value of $900 each. At 31 December their fair value was $1,000 each. During the year 10 calves were born, each with a fair value of $300 at 31 December. Costs to sell are $20 per animal at all dates. No animals were bought or sold. What gain should be recognised in profit or loss for the year under IAS 41?",
+      "options": {
+        "A": "$13,000",
+        "B": "$12,800",
+        "C": "$10,000",
+        "D": "$100,800"
+      },
+      "correct": "B",
+      "explanation": "Opening herd at FV less costs to sell = 100 x ($900 - $20) = $88,000. Closing herd = 100 x ($1,000 - $20) + 10 calves x ($300 - $20) = $98,000 + $2,800 = $100,800. Gain = $100,800 - $88,000 = $12,800. The gain on the new calves is recognised as part of this figure.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c05-q001",
+      "chapter": 5,
+      "topic": "Revenue from contracts with customers",
+      "question_text": "What is the correct order of the five steps for recognising revenue under IFRS 15?",
+      "options": {
+        "A": "Identify the contract; determine the transaction price; identify the performance obligations; recognise revenue; allocate the price to the obligations",
+        "B": "Identify the contract; identify the performance obligations; determine the transaction price; allocate the price to the obligations; recognise revenue when or as each obligation is satisfied",
+        "C": "Identify the performance obligations; identify the contract; allocate the price; determine the transaction price; recognise revenue",
+        "D": "Determine the transaction price; identify the contract; identify the performance obligations; recognise revenue; allocate the price"
+      },
+      "correct": "B",
+      "explanation": "IFRS 15 sets out five steps: (1) identify the contract with a customer, (2) identify the separate performance obligations, (3) determine the transaction price, (4) allocate the transaction price to the performance obligations, usually by relative stand-alone selling price, and (5) recognise revenue when or as each performance obligation is satisfied.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c05-q002",
+      "chapter": 5,
+      "topic": "Revenue from contracts with customers",
+      "question_text": "Rook Co sells a machine together with two years of servicing for a single price of $1,000. Sold separately, the machine would be priced at $900 and the servicing at $300. How much of the transaction price should be allocated to the machine?",
+      "options": {
+        "A": "$900",
+        "B": "$700",
+        "C": "$500",
+        "D": "$750"
+      },
+      "correct": "D",
+      "explanation": "IFRS 15 allocates the transaction price to performance obligations in proportion to their stand-alone selling prices. Total stand-alone prices = $900 + $300 = $1,200. Machine = $1,000 x 900/1200 = $750, recognised on delivery. Servicing = $250, recognised over the two years.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c05-q003",
+      "chapter": 5,
+      "topic": "Revenue from contracts with customers",
+      "question_text": "Under IFRS 15, when may variable consideration (such as a performance bonus) be included in the transaction price?",
+      "options": {
+        "A": "Only once the cash has been received",
+        "B": "Always, at its maximum possible amount",
+        "C": "Only to the extent that it is highly probable that a significant reversal of revenue will not occur when the uncertainty is resolved",
+        "D": "Never; revenue is limited to the fixed consideration in the contract"
+      },
+      "correct": "C",
+      "explanation": "Variable consideration is estimated using either the expected value or the most likely amount. It is then constrained: it is included only to the extent that it is highly probable a significant reversal of cumulative revenue will not occur. The estimate is reassessed at each reporting date.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c05-q004",
+      "chapter": 5,
+      "topic": "Revenue from contracts with customers",
+      "question_text": "Rookery Co runs an online marketplace. During the year customers bought goods worth $50,000 through the site. Rookery Co never controls the goods, which are delivered directly by suppliers, and it passes 85% of the sale price to suppliers. What revenue should Rookery Co recognise?",
+      "options": {
+        "A": "$50,000",
+        "B": "$42,500",
+        "C": "$7,500",
+        "D": "$15,000"
+      },
+      "correct": "C",
+      "explanation": "Rookery Co does not control the goods before they pass to the customer, so it acts as an agent. An agent recognises revenue equal to its commission (the net amount it keeps): $50,000 x 15% = $7,500. Gross revenue of $50,000 would be recognised only by a principal.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c05-q005",
+      "chapter": 5,
+      "topic": "Revenue from contracts with customers",
+      "question_text": "Raven Co has a contract that satisfies its performance obligation over time. Progress is measured by costs incurred as a proportion of total expected costs. The contract price is $10,000,000, costs to date are $4,000,000 and estimated costs to complete are $4,000,000. Raven Co has invoiced the customer $4,500,000, of which $4,000,000 has been received. What contract balance (excluding the trade receivable) should appear in the statement of financial position?",
+      "options": {
+        "A": "Contract asset of $500,000",
+        "B": "Contract asset of $1,000,000",
+        "C": "Contract liability of $500,000",
+        "D": "Contract asset of $5,000,000"
+      },
+      "correct": "A",
+      "explanation": "Progress = $4,000,000 / ($4,000,000 + $4,000,000) = 50%. Revenue to date = $10,000,000 x 50% = $5,000,000. Revenue recognised exceeds amounts invoiced by $5,000,000 - $4,500,000 = $500,000, which is a contract asset. The $500,000 invoiced but not received is a trade receivable, shown separately.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fr-c05-q006",
+      "chapter": 5,
+      "topic": "Revenue from contracts with customers",
+      "question_text": "Crow Co began a contract during the year, with revenue recognised over time based on costs incurred as a proportion of total expected costs. The contract price is $6,000,000, costs to date are $3,000,000 and estimated costs to complete are $4,000,000. What loss should be recognised in profit or loss for the year?",
+      "options": {
+        "A": "$428,571",
+        "B": "Nil, because the contract is incomplete",
+        "C": "$571,429",
+        "D": "$1,000,000"
+      },
+      "correct": "D",
+      "explanation": "Total expected costs are $7,000,000, which is more than the $6,000,000 price, so the contract is expected to make a loss of $1,000,000. The whole expected loss is recognised immediately. Revenue = $6,000,000 x 3/7 = $2,571,429, and cost of sales is set so the total loss is $1,000,000. Recognising only the proportion that relates to work done ($428,571) is wrong.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fr-c05-q007",
+      "chapter": 5,
+      "topic": "Revenue from contracts with customers",
+      "question_text": "In the last week of its financial year Jackdaw Co sold 1,000 units at $100 each, giving customers 30 days to return any unwanted units for a full refund. Based on experience, Jackdaw Co expects 5% of the units to be returned. How much revenue should be recognised for these sales?",
+      "options": {
+        "A": "$95,000",
+        "B": "$100,000",
+        "C": "$90,000",
+        "D": "Nil until the return period expires"
+      },
+      "correct": "A",
+      "explanation": "Expected returns are variable consideration. Jackdaw Co recognises revenue only for the goods it expects to keep: 1,000 x $100 x 95% = $95,000. A refund liability of $5,000 is recognised for the expected returns, together with an asset for the right to recover the goods.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c05-q008",
+      "chapter": 5,
+      "topic": "Revenue from contracts with customers",
+      "question_text": "On 1 January 20X5 Magpie Co delivered goods to a customer, who agreed to pay $2,000,000 on 31 December 20X6. The arrangement contains a significant financing component, and the appropriate discount rate is 10% a year. What revenue should be recognised on delivery? (Use unrounded discount factors and round your final answer to the nearest dollar.)",
+      "options": {
+        "A": "$2,000,000",
+        "B": "$1,818,182",
+        "C": "$1,652,893",
+        "D": "$1,600,000"
+      },
+      "correct": "C",
+      "explanation": "The financing component is removed by discounting the consideration: $2,000,000 / 1.10^2 = $1,652,893, calculated with an unrounded discount factor and rounded to the nearest dollar, which is recognised as revenue when control passes on delivery. The $347,107 difference is recognised as finance income over two years, starting with $165,289 in 20X5.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c05-q009",
+      "chapter": 5,
+      "topic": "Revenue from contracts with customers",
+      "question_text": "Which of the following is one of the IFRS 15 criteria for recognising revenue over time?",
+      "options": {
+        "A": "The customer has paid a deposit in advance",
+        "B": "The contract lasts for more than 12 months",
+        "C": "The entity has invoiced the customer for work completed to date",
+        "D": "The customer simultaneously receives and consumes the benefits provided by the entity's performance as the entity performs"
+      },
+      "correct": "D",
+      "explanation": "Revenue is recognised over time if any one of three criteria is met. These are: the customer simultaneously receives and consumes the benefits; the entity's performance creates or enhances an asset the customer controls; or the asset has no alternative use to the entity and the entity has an enforceable right to payment for performance completed to date. Contract length, advance payments and invoicing are not criteria.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c05-q010",
+      "chapter": 5,
+      "topic": "Revenue from contracts with customers",
+      "question_text": "Swift Co sells washing machines with the one-year manufacturer's guarantee required by law. Customers can also buy an optional three-year extended warranty, which is priced separately. How should the extended warranty be treated under IFRS 15?",
+      "options": {
+        "A": "As a separate performance obligation, with revenue recognised over the extended warranty period",
+        "B": "As part of the sale of the machine, with all revenue recognised on delivery",
+        "C": "As an IAS 37 provision, with no revenue allocated to it",
+        "D": "As deferred income, recognised as revenue only when a claim is made"
+      },
+      "correct": "A",
+      "explanation": "A warranty that the customer can buy separately provides a service beyond assurance that the product works as specified, so it is a service-type warranty. It is a separate performance obligation, and its share of the price is recognised as revenue over the warranty period. The basic statutory guarantee is an assurance-type warranty and is accounted for as a provision under IAS 37.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c05-q011",
+      "chapter": 5,
+      "topic": "Revenue from contracts with customers",
+      "question_text": "During the year Starling Co made sales of $200,000 under its loyalty scheme. Customers earned points that can be redeemed against future purchases, and the stand-alone selling price of the points awarded is estimated at $10,000. The stand-alone selling price of the goods sold is $200,000. No points had been redeemed by the year end. How much revenue should be recognised for the year? (Round to the nearest dollar.)",
+      "options": {
+        "A": "$200,000",
+        "B": "$190,476",
+        "C": "$190,000",
+        "D": "$210,000"
+      },
+      "correct": "B",
+      "explanation": "The loyalty points are a separate performance obligation. The $200,000 received is allocated on the basis of relative stand-alone selling prices. Points = $200,000 x $10,000/$210,000 = $9,524, which is deferred as a contract liability until the points are redeemed or lapse. Revenue recognised for the goods = $200,000 - $9,524 = $190,476.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fr-c06-q001",
+      "chapter": 6,
+      "topic": "Leases",
+      "question_text": "Under IFRS 16, what does a lessee normally recognise at the commencement date of a lease?",
+      "options": {
+        "A": "A rental expense spread evenly over the lease term only",
+        "B": "A lease liability only, with payments expensed as incurred",
+        "C": "A right-of-use asset and a lease liability",
+        "D": "A right-of-use asset only, with the matching credit taken to equity"
+      },
+      "correct": "C",
+      "explanation": "IFRS 16 uses a single lessee accounting model. At commencement the lessee recognises a lease liability, measured at the present value of the lease payments not yet paid, and a right-of-use asset. The only exceptions are the optional exemptions for short-term leases and leases of low-value assets.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c06-q002",
+      "chapter": 6,
+      "topic": "Leases",
+      "question_text": "On 1 January Wren Co leased a machine for 5 years. Payments of $50,000 are made annually in arrears. The interest rate implicit in the lease is 8%, giving a 5-year annuity factor of 3.9927. Wren Co paid initial direct costs of $5,000. At what amount should the right-of-use asset first be recognised? (Round to the nearest dollar.)",
+      "options": {
+        "A": "$199,635",
+        "B": "$255,000",
+        "C": "$204,635",
+        "D": "$250,000"
+      },
+      "correct": "C",
+      "explanation": "Lease liability = PV of payments = $50,000 x 3.9927 = $199,635 (to the nearest dollar). The right-of-use asset is the lease liability plus initial direct costs (and any payments made at or before commencement): $199,635 + $5,000 = $204,635.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c06-q003",
+      "chapter": 6,
+      "topic": "Leases",
+      "question_text": "Following on from the Wren Co lease (initial liability $199,635, payments of $50,000 annually in arrears, interest at 8%), what current liability for the lease should be shown at the end of year 1? (Round to the nearest dollar.)",
+      "options": {
+        "A": "$50,000",
+        "B": "$165,606",
+        "C": "$34,029",
+        "D": "$36,752"
+      },
+      "correct": "D",
+      "explanation": "Year 1: $199,635 + interest $15,971 - payment $50,000 = $165,606 closing liability. Year 2: $165,606 + interest $13,248 - $50,000 = $128,854. The non-current liability at the end of year 1 is the balance that will still be outstanding after the next payment, $128,854. Current liability = $165,606 - $128,854 = $36,752. This is the capital part of the next payment.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fr-c06-q004",
+      "chapter": 6,
+      "topic": "Leases",
+      "question_text": "On 1 January Finch Co leased equipment for 4 years at $30,000 a year, payable annually in advance starting on 1 January. The interest rate implicit in the lease is 6%, and the 3-year annuity factor at 6% is 2.6730. What is the total lease liability at 31 December of the first year? (Round to the nearest dollar.)",
+      "options": {
+        "A": "$85,001",
+        "B": "$80,190",
+        "C": "$86,801",
+        "D": "$120,000"
+      },
+      "correct": "A",
+      "explanation": "The first payment is made at commencement, so it is not part of the lease liability. Liability = PV of the remaining 3 payments = $30,000 x 2.6730 = $80,190. Interest for year 1 at 6% = $4,811, giving $85,001 at 31 December. The next payment of $30,000, due on 1 January, is the current portion.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c06-q005",
+      "chapter": 6,
+      "topic": "Leases",
+      "question_text": "Under IFRS 16, which of the following leases qualifies for the short-term lease exemption?",
+      "options": {
+        "A": "A 3-year lease of a vehicle that the lessee will sublet",
+        "B": "A 12-month lease that includes an option to purchase the asset",
+        "C": "A 5-year lease that the lessee expects to terminate early",
+        "D": "A lease with a term of 10 months that contains no purchase option"
+      },
+      "correct": "D",
+      "explanation": "A short-term lease has a lease term of 12 months or less at commencement and no purchase option. If the exemption is chosen, lease payments are expensed on a straight-line basis over the lease term and no right-of-use asset or lease liability is recognised.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c06-q006",
+      "chapter": 6,
+      "topic": "Leases",
+      "question_text": "On 1 July 20X5 Robin Co took a 10-month lease of storage space at $2,000 a month, with the first month rent-free. Robin Co applies the IFRS 16 short-term lease exemption. What expense should be recognised for the year ended 31 December 20X5?",
+      "options": {
+        "A": "$10,000",
+        "B": "$10,800",
+        "C": "$12,000",
+        "D": "$18,000"
+      },
+      "correct": "B",
+      "explanation": "Total payments = (10 - 1) x $2,000 = $18,000. Under the exemption this is expensed on a straight-line basis over the 10-month term: $1,800 a month. Expense for July to December = $1,800 x 6 = $10,800. The amount actually paid in the period ($10,000) is not the expense.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c06-q007",
+      "chapter": 6,
+      "topic": "Leases",
+      "question_text": "Thrush Co recognised a right-of-use asset of $204,635 for a 5-year lease of a machine with a useful life of 7 years. Ownership does not transfer to Thrush Co at the end of the lease, and there is no purchase option. What is the annual depreciation charge on the right-of-use asset? (Round to the nearest dollar.)",
+      "options": {
+        "A": "$40,927",
+        "B": "$29,234",
+        "C": "$34,106",
+        "D": "Nil; only the interest on the lease liability is expensed"
+      },
+      "correct": "A",
+      "explanation": "If ownership does not transfer and there is no purchase option that is reasonably certain to be exercised, the right-of-use asset is depreciated over the shorter of the lease term and the useful life. That is 5 years: $204,635 / 5 = $40,927. The useful life of 7 years would be used only if ownership was expected to transfer.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c06-q008",
+      "chapter": 6,
+      "topic": "Leases",
+      "question_text": "Nightjar Co sold its head office to a bank for $10,000,000, which is its fair value, and immediately leased it back for 10 years. The building's carrying amount was $6,000,000. The transfer meets the IFRS 15 definition of a sale. The present value of the lease payments is $3,000,000. What gain on disposal should Nightjar Co recognise in profit or loss?",
+      "options": {
+        "A": "$4,000,000",
+        "B": "$1,200,000",
+        "C": "Nil; the whole gain is deferred over the lease term",
+        "D": "$2,800,000"
+      },
+      "correct": "D",
+      "explanation": "Total gain = $10,000,000 - $6,000,000 = $4,000,000. The right-of-use asset is measured at the proportion of the old carrying amount that relates to the right retained: $6,000,000 x $3,000,000/$10,000,000 = $1,800,000 (this is the asset, not the gain). Only the gain on the rights transferred to the bank is recognised: $4,000,000 x ($10,000,000 - $3,000,000)/$10,000,000 = $2,800,000. The remaining $1,200,000 relates to the rights retained and is not recognised. Check: Dr cash $10,000,000, Dr right-of-use asset $1,800,000, Cr building $6,000,000, Cr lease liability $3,000,000, Cr gain $2,800,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fr-c06-q009",
+      "chapter": 6,
+      "topic": "Leases",
+      "question_text": "Bunting Co sold a property to a finance company and leased it back. The terms give Bunting Co an option to repurchase the property at any time, so the transfer does not meet the IFRS 15 requirements to be accounted for as a sale. How should Bunting Co account for the transaction?",
+      "options": {
+        "A": "Derecognise the property and recognise the full profit on sale immediately",
+        "B": "Derecognise the property and recognise a right-of-use asset and a lease liability",
+        "C": "Keep the property in its SFP and recognise the proceeds as a financial liability under IFRS 9",
+        "D": "Keep the property and credit the proceeds to deferred income, released over the lease term"
+      },
+      "correct": "C",
+      "explanation": "If control has not passed to the buyer, there is no sale. The seller-lessee keeps the asset and continues to depreciate it. The cash received is a financial liability (in substance a secured loan) accounted for under IFRS 9, with lease payments split between interest and repayment of that liability.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c07-q001",
+      "chapter": 7,
+      "topic": "Financial instruments",
+      "question_text": "Under IFRS 9, how should an investment in a bond be measured if it is held in a business model whose objective is to collect contractual cash flows, and those cash flows are solely payments of principal and interest?",
+      "options": {
+        "A": "At amortised cost",
+        "B": "At fair value through profit or loss",
+        "C": "At fair value through other comprehensive income, with no recycling",
+        "D": "At cost less impairment, with no interest recognised"
+      },
+      "correct": "A",
+      "explanation": "A debt instrument that passes both the business model test (held to collect contractual cash flows) and the contractual cash flow characteristics test (solely payments of principal and interest) is measured at amortised cost using the effective interest method. If the business model is to both collect and sell, FVOCI is used. Otherwise the default is FVTPL.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c07-q002",
+      "chapter": 7,
+      "topic": "Financial instruments",
+      "question_text": "On 1 January Pipit Co issued loan notes with a nominal value of $5,000,000 and received net proceeds of $4,800,000. The coupon is 4% a year, paid on 31 December, and the effective interest rate is 6%. The notes are carried at amortised cost. What is the carrying amount of the liability at 31 December of the first year?",
+      "options": {
+        "A": "$4,800,000",
+        "B": "$5,000,000",
+        "C": "$5,088,000",
+        "D": "$4,888,000"
+      },
+      "correct": "D",
+      "explanation": "Amortised cost: opening $4,800,000 + finance cost at the effective rate ($4,800,000 x 6% = $288,000) - coupon paid ($5,000,000 x 4% = $200,000) = $4,888,000. The liability increases towards the redemption amount as the discount and issue costs are charged through the effective interest rate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c07-q003",
+      "chapter": 7,
+      "topic": "Financial instruments",
+      "question_text": "On 1 January Linnet Co issued $10,000,000 of 3% loan notes at par, incurring issue costs of $400,000. The notes will be redeemed at a premium, giving an effective interest rate of 7.2%. What finance cost should be recognised in profit or loss for the first year?",
+      "options": {
+        "A": "$691,200",
+        "B": "$300,000",
+        "C": "$720,000",
+        "D": "$391,200"
+      },
+      "correct": "A",
+      "explanation": "The liability is first recognised net of issue costs: $10,000,000 - $400,000 = $9,600,000. Finance cost = $9,600,000 x 7.2% = $691,200. Only $300,000 is paid in cash. The difference of $391,200 increases the carrying amount, which builds up the redemption premium and spreads the issue costs.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fr-c07-q004",
+      "chapter": 7,
+      "topic": "Financial instruments",
+      "question_text": "Under IFRS 9, how is an investment in equity shares of another company measured after initial recognition, if it is not held for trading?",
+      "options": {
+        "A": "At amortised cost using the effective interest method",
+        "B": "At cost, unless the shares are listed",
+        "C": "At fair value through OCI, with gains recycled to profit or loss on disposal",
+        "D": "At fair value through profit or loss, unless an irrevocable election is made on initial recognition to use fair value through other comprehensive income"
+      },
+      "correct": "D",
+      "explanation": "Equity investments do not pass the solely payments of principal and interest test, so they cannot be held at amortised cost. The default is FVTPL. For equity investments not held for trading, an entity may irrevocably elect on initial recognition to use FVOCI. Gains and losses then stay in OCI and are never recycled, although dividends are still recognised in profit or loss.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c07-q005",
+      "chapter": 7,
+      "topic": "Financial instruments",
+      "question_text": "Bittern Co bought 100,000 shares in a listed company for $3.00 each, paying transaction costs of $6,000. The shares are held for trading. At the year end their market price was $3.40. What is the net effect on profit or loss for the year?",
+      "options": {
+        "A": "Gain of $34,000",
+        "B": "Gain of $40,000",
+        "C": "Nil; the fair value gain is recognised in other comprehensive income",
+        "D": "Loss of $6,000, with the fair value gain taken to OCI"
+      },
+      "correct": "A",
+      "explanation": "Investments held for trading are measured at FVTPL. They are first recognised at fair value (100,000 x $3.00 = $300,000), and transaction costs of $6,000 are expensed immediately. Fair value gain = 100,000 x ($3.40 - $3.00) = $40,000. Net effect = $40,000 - $6,000 = $34,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c07-q006",
+      "chapter": 7,
+      "topic": "Financial instruments",
+      "question_text": "Shrike Co holds an equity investment for which it made the irrevocable FVOCI election under IFRS 9. It sells the investment at a price above its last carrying amount. What happens to the cumulative fair value gains previously recognised in OCI?",
+      "options": {
+        "A": "They are reclassified (recycled) to profit or loss on disposal",
+        "B": "They stay in equity and are not reclassified to profit or loss, though they may be transferred within equity to retained earnings",
+        "C": "They are reversed and the whole gain since purchase is recognised in profit or loss",
+        "D": "They are deducted from the sale proceeds when the profit on disposal is calculated"
+      },
+      "correct": "B",
+      "explanation": "For equity investments designated at FVOCI, IFRS 9 forbids recycling the gains in OCI to profit or loss, even on disposal. The cumulative amount may be transferred within equity, usually to retained earnings. Recycling does apply to debt instruments measured at FVOCI.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c07-q007",
+      "chapter": 7,
+      "topic": "Financial instruments",
+      "question_text": "On 1 January Kite Co issued $2,000,000 of 5% convertible loan notes at par. Interest is paid annually in arrears, and the notes are redeemable at par after 3 years or convertible into equity shares. Similar debt without the conversion option would carry interest of 8%. What amount should be recognised in equity for the conversion option on issue? (Use unrounded discount factors and round your final answer to the nearest dollar.)",
+      "options": {
+        "A": "$1,845,374",
+        "B": "Nil; the whole instrument is a financial liability",
+        "C": "$180,000",
+        "D": "$154,626"
+      },
+      "correct": "D",
+      "explanation": "IAS 32 splits a convertible instrument into its liability and equity components. Liability = PV at 8% of the interest ($100,000 a year for 3 years) plus the $2,000,000 redemption = $1,845,374. Equity is the residual: $2,000,000 - $1,845,374 = $154,626. Figures are calculated with unrounded discount factors and then rounded to the nearest dollar.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fr-c07-q008",
+      "chapter": 7,
+      "topic": "Financial instruments",
+      "question_text": "On 1 January Kite Co issued $2,000,000 of 5% convertible loan notes at par, redeemable at par after 3 years. The initial liability component was $1,845,374. The effective rate is 8% and annual interest of $100,000 is paid in arrears. What is the carrying amount of the liability component at the end of the first year? (Round to the nearest dollar.)",
+      "options": {
+        "A": "$1,945,374",
+        "B": "$1,845,374",
+        "C": "$1,893,004",
+        "D": "$1,993,004"
+      },
+      "correct": "C",
+      "explanation": "Finance cost = $1,845,374 x 8% = $147,630. Closing liability = $1,845,374 + $147,630 - interest paid $100,000 = $1,893,004. The equity component is not remeasured. The liability builds up to $2,000,000 by the redemption date.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fr-c07-q009",
+      "chapter": 7,
+      "topic": "Financial instruments",
+      "question_text": "Under IAS 32, which of the following should be classified as a financial liability by the issuer?",
+      "options": {
+        "A": "Preference shares that must be redeemed for cash on a fixed future date",
+        "B": "Ordinary shares",
+        "C": "Irredeemable preference shares on which dividends are paid at the directors' discretion",
+        "D": "Share warrants giving the holder a right to buy a fixed number of shares for a fixed amount of cash"
+      },
+      "correct": "A",
+      "explanation": "A financial liability involves a contractual obligation to deliver cash or another financial asset. Mandatorily redeemable preference shares create that obligation, so they are liabilities and their dividends are finance costs. Ordinary shares, discretionary irredeemable preference shares and 'fixed for fixed' warrants are equity instruments.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c07-q010",
+      "chapter": 7,
+      "topic": "Financial instruments",
+      "question_text": "On 1 January Siskin Co bought a bond with a nominal value of $1,000,000 for $950,000, including transaction costs. The coupon is 6%, received annually on 31 December, and the effective interest rate is 7.25%. The bond is held at amortised cost. What interest income and closing carrying amount should be reported for the first year?",
+      "options": {
+        "A": "Interest income $60,000; carrying amount $950,000",
+        "B": "Interest income $72,500; carrying amount $962,500",
+        "C": "Interest income $68,875; carrying amount $958,875",
+        "D": "Interest income $68,875; carrying amount $1,000,000"
+      },
+      "correct": "C",
+      "explanation": "Interest income is calculated at the effective rate on the opening amortised cost: $950,000 x 7.25% = $68,875. Cash received = $1,000,000 x 6% = $60,000. Closing amortised cost = $950,000 + $68,875 - $60,000 = $958,875.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c08-q001",
+      "chapter": 8,
+      "topic": "Provisions, contingencies and events after the reporting period",
+      "question_text": "Under IAS 37, which set of conditions must ALL be met before a provision is recognised?",
+      "options": {
+        "A": "A present obligation (legal or constructive) from a past event, a probable outflow of economic benefits, and a reliable estimate of the amount",
+        "B": "A possible obligation from a future event, a probable outflow and board approval",
+        "C": "A present obligation from a past event and a possible outflow, whether or not it can be estimated",
+        "D": "A board decision to incur the expenditure and an estimate of the amount"
+      },
+      "correct": "A",
+      "explanation": "IAS 37 requires all three conditions: a present obligation, legal or constructive, arising from a past event; an outflow of resources that is probable (more likely than not); and a reliable estimate of the obligation. A board decision alone does not create an obligation, because the entity can still change its mind.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c08-q002",
+      "chapter": 8,
+      "topic": "Provisions, contingencies and events after the reporting period",
+      "question_text": "On 15 December the board of Grebe Co approved a detailed formal plan to close a factory. The plan was not communicated to employees or customers until 20 January, after the 31 December year end and before the financial statements were authorised. Should a restructuring provision be recognised at 31 December?",
+      "options": {
+        "A": "Yes, because the board approved a detailed formal plan before the year end",
+        "B": "Yes, because announcing the plan in January is an adjusting event",
+        "C": "No, because no constructive obligation existed at 31 December",
+        "D": "No, because restructuring costs can never be provided for"
+      },
+      "correct": "C",
+      "explanation": "A constructive obligation to restructure arises only when there is a detailed formal plan and the entity has created a valid expectation in those affected, by starting to implement the plan or announcing its main features. At 31 December no announcement had been made, so there was no obligation. The January announcement is a non-adjusting event and may need to be disclosed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c08-q003",
+      "chapter": 8,
+      "topic": "Provisions, contingencies and events after the reporting period",
+      "question_text": "Coot Co has a constructive obligation to restructure a division. Estimated costs are: redundancy payments $800,000, retraining continuing staff $200,000, relocating continuing staff $150,000, penalties for cancelling leases of premises that will be vacated $100,000, and expected future operating losses of the division until closure $300,000. What restructuring provision should be recognised?",
+      "options": {
+        "A": "$1,250,000",
+        "B": "$1,550,000",
+        "C": "$800,000",
+        "D": "$900,000"
+      },
+      "correct": "D",
+      "explanation": "A restructuring provision includes only direct expenditure that is necessarily caused by the restructuring and not associated with the entity's continuing activities. Redundancy $800,000 + lease cancellation penalties $100,000 = $900,000. Retraining and relocating continuing staff relate to future operations, and future operating losses cannot be provided for.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c08-q004",
+      "chapter": 8,
+      "topic": "Provisions, contingencies and events after the reporting period",
+      "question_text": "On 1 January Moorhen Co installed an offshore platform. It is legally obliged to dismantle the platform after 10 years at an estimated cost of $5,000,000. The appropriate discount rate is 8%. What provision should be shown at 31 December of the first year? (Use unrounded discount factors and round your final answer to the nearest dollar.)",
+      "options": {
+        "A": "$2,315,967",
+        "B": "$5,000,000",
+        "C": "$2,501,244",
+        "D": "$2,084,370"
+      },
+      "correct": "C",
+      "explanation": "Initial provision = PV of $5,000,000 in 10 years at 8% = $5,000,000 / 1.08^10 = $2,315,967 (unrounded discount factor, rounded to the nearest dollar). The same amount is added to the cost of the platform. The discount unwinds at 8% during year 1: $2,315,967 x 8% = $185,277, charged as a finance cost. Closing provision = $2,315,967 + $185,277 = $2,501,244. The asset part is depreciated separately; depreciation does not reduce the provision.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fr-c08-q005",
+      "chapter": 8,
+      "topic": "Provisions, contingencies and events after the reporting period",
+      "question_text": "Under IAS 37, how should a contingent liability be treated where an outflow of economic benefits is possible but not probable?",
+      "options": {
+        "A": "Recognise a provision for the best estimate of the outflow",
+        "B": "Ignore it completely",
+        "C": "Disclose it in the notes to the financial statements",
+        "D": "Recognise it as a reduction in equity"
+      },
+      "correct": "C",
+      "explanation": "A contingent liability is not recognised. It is disclosed unless the possibility of an outflow is remote, in which case nothing is reported. A provision is recognised only when the outflow is probable and the amount can be reliably estimated.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c08-q006",
+      "chapter": 8,
+      "topic": "Provisions, contingencies and events after the reporting period",
+      "question_text": "Snipe Co is suing a supplier for damages. At the year end its lawyers advise that the claim is probably, but not virtually certainly, going to succeed. How should Snipe Co treat the expected inflow?",
+      "options": {
+        "A": "Recognise an asset and the related income",
+        "B": "Make no disclosure until the cash is received",
+        "C": "Disclose it as a contingent asset, with no asset recognised",
+        "D": "Recognise an asset, with the matching credit to equity"
+      },
+      "correct": "C",
+      "explanation": "Under IAS 37, contingent assets are never recognised. Where an inflow is probable, the contingent asset is disclosed. Only when the inflow becomes virtually certain is it no longer contingent, and an asset is then recognised.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c08-q007",
+      "chapter": 8,
+      "topic": "Provisions, contingencies and events after the reporting period",
+      "question_text": "Dipper Co sold 10,000 products under a one-year warranty during the year. Past experience shows 80% will need no repairs, 15% will need minor repairs costing $50 each and 5% will need major repairs costing $400 each. No claims have yet been made. What warranty provision should be recognised?",
+      "options": {
+        "A": "$275,000",
+        "B": "$200,000",
+        "C": "$2,250,000",
+        "D": "$800,000"
+      },
+      "correct": "A",
+      "explanation": "For a large population of items, IAS 37 uses the expected value. Expected cost per unit = (15% x $50) + (5% x $400) = $7.50 + $20.00 = $27.50. Provision = 10,000 x $27.50 = $275,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c08-q008",
+      "chapter": 8,
+      "topic": "Provisions, contingencies and events after the reporting period",
+      "question_text": "Which of the following events, occurring after the reporting date but before the financial statements are authorised for issue, is an ADJUSTING event under IAS 10?",
+      "options": {
+        "A": "A fire destroys a warehouse and the inventory held in it",
+        "B": "The company issues new ordinary shares for cash",
+        "C": "The directors declare an equity dividend for the year just ended",
+        "D": "A major customer that owed money at the year end is declared bankrupt"
+      },
+      "correct": "D",
+      "explanation": "Adjusting events give evidence of conditions that existed at the reporting date. A customer's bankruptcy confirms that the receivable was impaired at the year end, so the allowance is adjusted. A fire, a share issue and the declaration of a dividend all reflect conditions that arose after the year end. They are non-adjusting, and are disclosed if material.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c08-q009",
+      "chapter": 8,
+      "topic": "Provisions, contingencies and events after the reporting period",
+      "question_text": "On 15 February the directors of Ruff Co declared a final ordinary dividend of $500,000 for the year ended 31 December. The financial statements are authorised for issue on 10 March. How should the dividend be treated in the financial statements for the year ended 31 December?",
+      "options": {
+        "A": "It is disclosed in the notes but not recognised as a liability",
+        "B": "It is recognised as a current liability and deducted from retained earnings",
+        "C": "It is recognised as an expense in profit or loss",
+        "D": "It is recognised as a provision under IAS 37"
+      },
+      "correct": "A",
+      "explanation": "IAS 10 states that dividends declared after the reporting period are not a liability at the reporting date, because no obligation existed then. They are disclosed in the notes. Equity dividends are never an expense in profit or loss; when they are recognised, they are deducted from retained earnings.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c08-q010",
+      "chapter": 8,
+      "topic": "Provisions, contingencies and events after the reporting period",
+      "question_text": "Sora Co has a non-cancellable contract to supply goods. The unavoidable costs of fulfilling the contract are $500,000, and the revenue receivable is $380,000. Sora Co could exit the contract by paying a penalty of $150,000. What provision should be recognised for this onerous contract?",
+      "options": {
+        "A": "$150,000",
+        "B": "$120,000",
+        "C": "$500,000",
+        "D": "$270,000"
+      },
+      "correct": "B",
+      "explanation": "For an onerous contract, the provision is the unavoidable cost, meaning the lower of the net cost of fulfilling the contract and the cost of exiting it. Net cost of fulfilling = $500,000 - $380,000 = $120,000. Penalty to exit = $150,000. Provision = lower amount = $120,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c09-q001",
+      "chapter": 9,
+      "topic": "Taxation",
+      "question_text": "Last year Teal Co estimated its income tax liability at $400,000, but the amount finally agreed and paid was $430,000. For the current year it estimates income tax of $520,000. Ignoring deferred tax, what is the tax charge in the current year's statement of profit or loss?",
+      "options": {
+        "A": "$550,000",
+        "B": "$520,000",
+        "C": "$490,000",
+        "D": "$950,000"
+      },
+      "correct": "A",
+      "explanation": "The tax charge is the current year estimate plus last year's under-provision. Under-provision = $430,000 - $400,000 = $30,000. Tax charge = $520,000 + $30,000 = $550,000. The liability in the SFP is the current estimate of $520,000, because last year's liability has been settled.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c09-q002",
+      "chapter": 9,
+      "topic": "Taxation",
+      "question_text": "Under IAS 12, deferred tax is calculated on temporary differences. What is a temporary difference?",
+      "options": {
+        "A": "The difference between accounting profit and taxable profit for the year",
+        "B": "The difference between the tax charge and the tax paid in the year",
+        "C": "Income or expense that will never be taxable or deductible",
+        "D": "The difference between the carrying amount of an asset or liability and its tax base"
+      },
+      "correct": "D",
+      "explanation": "IAS 12 uses a balance sheet approach. A temporary difference is the difference between the carrying amount of an asset or liability in the SFP and its tax base. Items that are never taxable or deductible are permanent differences and do not give rise to deferred tax.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c09-q003",
+      "chapter": 9,
+      "topic": "Taxation",
+      "question_text": "At the year end Eider Co's plant and equipment has a carrying amount of $800,000 and a tax base (tax written down value) of $600,000. The tax rate is 25%. What deferred tax balance arises?",
+      "options": {
+        "A": "Deferred tax asset of $50,000",
+        "B": "Deferred tax liability of $150,000",
+        "C": "Deferred tax liability of $50,000",
+        "D": "Deferred tax liability of $200,000"
+      },
+      "correct": "C",
+      "explanation": "Taxable temporary difference = $800,000 - $600,000 = $200,000. When an asset's carrying amount is higher than its tax base, more tax will be payable in future, so a deferred tax liability arises: $200,000 x 25% = $50,000.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c09-q004",
+      "chapter": 9,
+      "topic": "Taxation",
+      "question_text": "Scaup Co's deferred tax liability was $60,000 at the start of the year. At the year end its taxable temporary differences, all relating to plant, total $320,000, and the tax rate is 25%. The current tax estimate for the year is $300,000. What is the total tax charge in profit or loss?",
+      "options": {
+        "A": "$380,000",
+        "B": "$300,000",
+        "C": "$280,000",
+        "D": "$320,000"
+      },
+      "correct": "D",
+      "explanation": "Closing deferred tax liability = $320,000 x 25% = $80,000. Increase in the year = $80,000 - $60,000 = $20,000, which is charged to profit or loss because it relates to plant. Total tax charge = current tax $300,000 + deferred tax $20,000 = $320,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c09-q005",
+      "chapter": 9,
+      "topic": "Taxation",
+      "question_text": "During the year Smew Co revalued its land upwards by $400,000. The revaluation does not affect taxable profit, but the land would be taxed if sold at its revalued amount. The tax rate is 20%. How should the deferred tax on the revaluation be recognised?",
+      "options": {
+        "A": "Deferred tax liability of $80,000 charged to OCI, so the revaluation surplus is $320,000 net",
+        "B": "Deferred tax liability of $80,000 charged to profit or loss",
+        "C": "No deferred tax, because land is not depreciated",
+        "D": "Deferred tax asset of $80,000 credited to OCI"
+      },
+      "correct": "A",
+      "explanation": "The revaluation makes the carrying amount higher than the tax base, creating a taxable temporary difference of $400,000 and a deferred tax liability of $400,000 x 20% = $80,000. IAS 12 requires deferred tax to be recognised in the same place as the item it relates to. The revaluation gain is in OCI, so the deferred tax is charged to OCI, leaving a net surplus of $320,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fr-c09-q006",
+      "chapter": 9,
+      "topic": "Taxation",
+      "question_text": "Which of the following would normally give rise to a deferred tax ASSET?",
+      "options": {
+        "A": "Accelerated tax depreciation on plant (tax allowances higher than accounting depreciation)",
+        "B": "An upward revaluation of a building",
+        "C": "A warranty provision whose costs are deductible for tax only when the repairs are paid for",
+        "D": "A fine for breaking regulations that is never tax-deductible"
+      },
+      "correct": "C",
+      "explanation": "A provision whose cost is deductible only when paid has a tax base of nil. The carrying amount of the liability is higher than its tax base, which is a deductible temporary difference and gives a deferred tax asset. Accelerated tax allowances and revaluations create deferred tax liabilities. A non-deductible fine is a permanent difference.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c09-q007",
+      "chapter": 9,
+      "topic": "Taxation",
+      "question_text": "Which of the following statements about measuring deferred tax under IAS 12 is correct?",
+      "options": {
+        "A": "Deferred tax is measured at the current year's tax rate and discounted to present value",
+        "B": "Deferred tax is measured at the tax rates expected to apply when the difference reverses, based on rates enacted or substantively enacted by the reporting date, and it is not discounted",
+        "C": "Deferred tax is measured at the rate expected to apply in the future, even if that rate has not yet been enacted",
+        "D": "Deferred tax liabilities are discounted, but deferred tax assets are not"
+      },
+      "correct": "B",
+      "explanation": "IAS 12 measures deferred tax using the rates expected to apply when the asset is realised or the liability settled, based on laws enacted or substantively enacted by the reporting date. Discounting deferred tax balances is prohibited.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c09-q008",
+      "chapter": 9,
+      "topic": "Taxation",
+      "question_text": "At the start of the year Pochard Co had a deferred tax liability of $150,000. During the year taxable temporary differences on plant increased by $100,000, and a property revaluation created a further taxable temporary difference of $200,000. The tax rate is 25%. What is the closing deferred tax liability, and what deferred tax is charged to profit or loss?",
+      "options": {
+        "A": "Closing liability $225,000; $75,000 charged to profit or loss",
+        "B": "Closing liability $175,000; $25,000 charged to profit or loss",
+        "C": "Closing liability $225,000; $25,000 charged to profit or loss",
+        "D": "Closing liability $225,000; nil charged to profit or loss, as all deferred tax goes to OCI"
+      },
+      "correct": "C",
+      "explanation": "Increase on plant = $100,000 x 25% = $25,000, charged to profit or loss. Increase from the revaluation = $200,000 x 25% = $50,000, charged to OCI. Closing liability = $150,000 + $25,000 + $50,000 = $225,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fr-c10-q001",
+      "chapter": 10,
+      "topic": "Earnings per share",
+      "question_text": "Wigeon Co's profit after tax for the year was $2,400,000. It paid ordinary dividends of $500,000 and dividends of $200,000 on irredeemable preference shares, which are classified as equity. There were 5 million ordinary shares in issue throughout the year. What is basic earnings per share?",
+      "options": {
+        "A": "44 cents",
+        "B": "48 cents",
+        "C": "34 cents",
+        "D": "38 cents"
+      },
+      "correct": "A",
+      "explanation": "Basic EPS = profit attributable to ordinary equity holders / weighted average number of ordinary shares. Dividends on irredeemable preference shares classified as equity are deducted, but ordinary dividends are not. Earnings = $2,400,000 - $200,000 = $2,200,000. EPS = $2,200,000 / 5m = 44 cents.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c10-q002",
+      "chapter": 10,
+      "topic": "Earnings per share",
+      "question_text": "At 1 January Gadwall Co had 4 million ordinary shares in issue. On 1 April it issued a further 1.2 million shares at full market price. Earnings for the year to 31 December were $3,430,000. What is basic EPS?",
+      "options": {
+        "A": "66 cents",
+        "B": "85.75 cents",
+        "C": "80 cents",
+        "D": "70 cents"
+      },
+      "correct": "D",
+      "explanation": "A full-price issue is time-weighted from the date of issue. Weighted average shares = 4m + (1.2m x 9/12) = 4.9m. EPS = $3,430,000 / 4.9m = 70 cents.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c10-q003",
+      "chapter": 10,
+      "topic": "Earnings per share",
+      "question_text": "Garganey Co had 8 million shares in issue until 1 July 20X6, when it made a 1 for 4 bonus issue. Earnings for 20X6 were $5,000,000. Basic EPS reported for 20X5 was 55 cents. What are basic EPS for 20X6 and the restated EPS for 20X5?",
+      "options": {
+        "A": "20X6: 55.56 cents; 20X5 restated: 55 cents",
+        "B": "20X6: 50 cents; 20X5 restated: 55 cents",
+        "C": "20X6: 50 cents; 20X5 restated: 44 cents",
+        "D": "20X6: 62.5 cents; 20X5 restated: 68.75 cents"
+      },
+      "correct": "C",
+      "explanation": "A bonus issue brings in no resources, so the new shares are treated as if they had always been in issue. Shares = 8m x 5/4 = 10m, and 20X6 EPS = $5,000,000 / 10m = 50 cents. The comparative is restated by multiplying by the inverse of the bonus fraction: 55c x 4/5 = 44 cents.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c10-q004",
+      "chapter": 10,
+      "topic": "Earnings per share",
+      "question_text": "At 1 January Shoveler Co had 6 million shares in issue. On 1 October it made a 1 for 5 rights issue at $2.00 per share. The market price just before the issue (cum rights) was $3.20. Earnings for the year ended 31 December were $9,900,000. What is basic EPS?",
+      "options": {
+        "A": "137.50 cents",
+        "B": "150 cents",
+        "C": "157.14 cents",
+        "D": "128.91 cents"
+      },
+      "correct": "B",
+      "explanation": "TERP = (5 x $3.20 + 1 x $2.00) / 6 = $3.00. Bonus fraction = $3.20/$3.00. Weighted average = 6m x 3.2/3.00 x 9/12 + 7.2m x 3/12 = 4.8m + 1.8m = 6.6m. EPS = $9,900,000 / 6.6m = 150 cents.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fr-c10-q005",
+      "chapter": 10,
+      "topic": "Earnings per share",
+      "question_text": "Pintail Co makes a 1 for 4 rights issue at $1.50 per share. The market price per share immediately before the issue is $2.50. What is the theoretical ex-rights price?",
+      "options": {
+        "A": "$2.00",
+        "B": "$2.88",
+        "C": "$2.30",
+        "D": "$2.12"
+      },
+      "correct": "C",
+      "explanation": "TERP = (market value of existing shares + cash raised) / total shares after the issue = (4 x $2.50 + 1 x $1.50) / 5 = $11.50 / 5 = $2.30.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c10-q006",
+      "chapter": 10,
+      "topic": "Earnings per share",
+      "question_text": "Mallard Co's earnings for the year are $6,000,000, and it has 10 million ordinary shares in issue. It also has $4,000,000 of 6% convertible loan notes in issue all year, convertible at 25 shares per $100 of loan notes. The tax rate is 20%. What is diluted EPS? (Round to two decimal places.)",
+      "options": {
+        "A": "56.73 cents",
+        "B": "54.55 cents",
+        "C": "56.29 cents",
+        "D": "60.00 cents"
+      },
+      "correct": "C",
+      "explanation": "On conversion, $4,000,000/100 x 25 = 1m extra shares would be issued, and interest saved after tax = $4,000,000 x 6% x (1 - 20%) = $192,000. Diluted EPS = ($6,000,000 + $192,000) / (10m + 1m) = $6,192,000 / 11m = 56.29 cents. Basic EPS is 60 cents, so the notes are dilutive.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fr-c10-q007",
+      "chapter": 10,
+      "topic": "Earnings per share",
+      "question_text": "Mallard Co (earnings $6,000,000, 10 million shares in issue) also has 2 million share options outstanding, exercisable at $4.00. The average market price of its shares during the year was $5.00. Considering only the options, what is diluted EPS? (Round to two decimal places.)",
+      "options": {
+        "A": "50.00 cents",
+        "B": "57.69 cents",
+        "C": "51.72 cents",
+        "D": "60.00 cents"
+      },
+      "correct": "B",
+      "explanation": "Options are treated as if the shares were issued partly at market price (no dilution) and partly free of charge. Cash on exercise = 2m x $4.00 = $8,000,000, which would buy 1.6m shares at $5.00. Free shares = 2m - 1.6m = 0.4m. Diluted EPS = $6,000,000 / 10.4m = 57.69 cents.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fr-c10-q008",
+      "chapter": 10,
+      "topic": "Earnings per share",
+      "question_text": "What is the main purpose of disclosing diluted earnings per share?",
+      "options": {
+        "A": "To show what EPS would have been if the company had made no bonus issues",
+        "B": "To give a forecast of next year's EPS",
+        "C": "To show earnings per share after deducting all dividends paid",
+        "D": "To warn shareholders of the possible fall in EPS if potential ordinary shares, such as convertibles and options, become actual shares"
+      },
+      "correct": "D",
+      "explanation": "Diluted EPS adjusts basic EPS for the effect of potential ordinary shares outstanding, such as convertible instruments, options and warrants. It warns current shareholders how far their share of earnings could fall if those instruments were converted or exercised. It is not a forecast.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c10-q009",
+      "chapter": 10,
+      "topic": "Earnings per share",
+      "question_text": "In calculating basic EPS, which of the following is deducted from profit for the year (attributable to the parent) to arrive at earnings?",
+      "options": {
+        "A": "Equity dividends paid to ordinary shareholders",
+        "B": "The transfer of excess depreciation from the revaluation surplus to retained earnings",
+        "C": "Gains on revaluation of property recognised in other comprehensive income",
+        "D": "Dividends on irredeemable preference shares that are classified as equity"
+      },
+      "correct": "D",
+      "explanation": "Basic earnings are profit attributable to ordinary equity holders. Preference dividends on shares classified as equity are deducted, because they are not part of profit already. Dividends on redeemable preference shares are already in finance costs. Ordinary dividends are an appropriation to ordinary shareholders and are not deducted. Reserve transfers and OCI items do not affect earnings.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c11-q001",
+      "chapter": 11,
+      "topic": "Foreign currency transactions",
+      "question_text": "Under IAS 21, what is an entity's functional currency?",
+      "options": {
+        "A": "The currency in which the financial statements are presented",
+        "B": "The currency of the country in which the entity is legally incorporated",
+        "C": "The currency in which the entity's shares are listed",
+        "D": "The currency of the primary economic environment in which the entity operates"
+      },
+      "correct": "D",
+      "explanation": "The functional currency is the currency of the primary economic environment in which the entity operates. It is usually the currency that mainly influences sales prices, labour and material costs. The presentation currency is the currency in which the financial statements are presented, and it can be different.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c11-q002",
+      "chapter": 11,
+      "topic": "Foreign currency transactions",
+      "question_text": "On 1 October Merlin Co, whose functional currency is the dollar ($), bought inventory on credit for 120,000 dinars (D) when the exchange rate was D4 = $1. At its 31 December year end the invoice was still unpaid, the inventory was unsold and the rate was D5 = $1. What exchange difference arises, and at what amount is the inventory carried?",
+      "options": {
+        "A": "Exchange loss $6,000; inventory $30,000",
+        "B": "Exchange gain $6,000; inventory $24,000",
+        "C": "No exchange difference; inventory $30,000",
+        "D": "Exchange gain $6,000; inventory $30,000"
+      },
+      "correct": "D",
+      "explanation": "The purchase is recorded at the spot rate: D120,000 / 4 = $30,000. The payable is a monetary item, so it is retranslated at the closing rate: D120,000 / 5 = $24,000. The liability has fallen by $6,000, which is an exchange gain in profit or loss. Inventory is non-monetary and stays at its historical rate amount of $30,000 (subject to the NRV test).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c11-q003",
+      "chapter": 11,
+      "topic": "Foreign currency transactions",
+      "question_text": "Under IAS 21, which of the following is a NON-MONETARY item that is NOT retranslated at the closing rate when it is measured at historical cost?",
+      "options": {
+        "A": "A trade receivable denominated in a foreign currency",
+        "B": "A bank loan denominated in a foreign currency",
+        "C": "Cash held in a foreign currency bank account",
+        "D": "A prepayment made in a foreign currency for goods to be received next year"
+      },
+      "correct": "D",
+      "explanation": "Monetary items are units of currency held, and assets and liabilities to be received or paid in a fixed or determinable number of units of currency. They are retranslated at the closing rate. A prepayment for goods will be settled by receiving goods, not cash, so it is non-monetary and stays at the historical rate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c11-q004",
+      "chapter": 11,
+      "topic": "Foreign currency transactions",
+      "question_text": "On 1 November Peregrine Co (functional currency $) sold goods on credit for €200,000, when the rate was €1.25 = $1. On 1 December it received €100,000 when the rate was €1.3 = $1. The rest was still outstanding at 31 December, when the rate was €1.2 = $1. What is the net exchange difference in profit or loss for the year? (Round to the nearest dollar.)",
+      "options": {
+        "A": "Net loss of $3,077",
+        "B": "Net gain of $256",
+        "C": "Net gain of $3,333",
+        "D": "Net gain of $6,410"
+      },
+      "correct": "B",
+      "explanation": "The sale and receivable are recorded at $160,000 (€200,000 / 1.25). Settled part: €100,000 was carried at $80,000 and received as $76,923, a loss of $3,077. Outstanding part, a monetary item retranslated at the closing rate: €100,000 / 1.2 = $83,333 against $80,000, a gain of $3,333. Net = $3,333 - $3,077 = gain of $256.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fr-c11-q005",
+      "chapter": 11,
+      "topic": "Foreign currency transactions",
+      "question_text": "On 1 January Hobby Co (functional currency $) bought a machine for 600,000 kroner when the exchange rate was 6 kroner = $1, and paid for it immediately. The machine is depreciated over 10 years on a straight-line basis. At 31 December the rate was 5 kroner = $1. What is the machine's carrying amount at 31 December?",
+      "options": {
+        "A": "$108,000",
+        "B": "$90,000",
+        "C": "$120,000",
+        "D": "$100,000"
+      },
+      "correct": "B",
+      "explanation": "Property, plant and equipment is non-monetary. Under the cost model it is recorded at the spot rate on the transaction date and not retranslated: 600,000 / 6 = $100,000. Depreciation = $100,000 / 10 = $10,000. Carrying amount = $100,000 - $10,000 = $90,000. The closing rate is irrelevant because the cash was paid on the purchase date.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c12-q001",
+      "chapter": 12,
+      "topic": "Consolidated statement of financial position",
+      "question_text": "Under IFRS 10, an investor controls an investee when it has which of the following?",
+      "options": {
+        "A": "Ownership of more than 50% of the investee's total share capital, including preference shares",
+        "B": "Significant influence over the investee's financial and operating policies",
+        "C": "The right to receive more than half of the investee's dividends",
+        "D": "Power over the investee, exposure or rights to variable returns from it, and the ability to use its power to affect those returns"
+      },
+      "correct": "D",
+      "explanation": "IFRS 10 defines control by three elements, all of which must be present: power over the investee, exposure or rights to variable returns, and the ability to use that power to affect the investor's returns. Holding most of the voting rights usually gives power, but control can also exist with less than 50%. Significant influence describes an associate, not a subsidiary.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c12-q002",
+      "chapter": 12,
+      "topic": "Consolidated statement of financial position",
+      "question_text": "Puma Co bought 80% of Saker Co's equity shares, paying $5,000,000 in cash and issuing 1 million of its own $1 shares, which had a market value of $2.50 each. At acquisition, the non-controlling interest had a fair value of $1,600,000 and Saker Co's identifiable net assets had a fair value of $7,200,000. NCI is measured at fair value. What is the goodwill on acquisition?",
+      "options": {
+        "A": "$1,740,000",
+        "B": "$400,000",
+        "C": "$1,900,000",
+        "D": "$300,000"
+      },
+      "correct": "C",
+      "explanation": "Consideration = $5,000,000 + (1m x $2.50) = $7,500,000. Goodwill = consideration $7,500,000 + NCI at fair value $1,600,000 - net assets $7,200,000 = $1,900,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c12-q003",
+      "chapter": 12,
+      "topic": "Consolidated statement of financial position",
+      "question_text": "Using the same facts as the Puma Co acquisition (consideration $7,500,000, Saker Co net assets at fair value $7,200,000, 80% acquired), what would goodwill be if NCI were measured at its proportionate share of identifiable net assets?",
+      "options": {
+        "A": "$1,900,000",
+        "B": "$1,740,000",
+        "C": "$300,000",
+        "D": "$6,060,000"
+      },
+      "correct": "B",
+      "explanation": "NCI at proportionate share = 20% x $7,200,000 = $1,440,000. Goodwill = $7,500,000 + $1,440,000 - $7,200,000 = $1,740,000. This equals the parent's goodwill only (consideration less 80% of net assets). It is lower than under the fair value method because no goodwill is attributed to the NCI.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c12-q004",
+      "chapter": 12,
+      "topic": "Consolidated statement of financial position",
+      "question_text": "Lynx Co bought a subsidiary for: cash of $4,000,000 paid on acquisition; a further $3,000,000 payable two years after acquisition; and contingent consideration payable if profit targets are met, with an acquisition-date fair value of $500,000. Lynx Co's cost of capital is 10% a year. What is the total consideration for the goodwill calculation? (Use unrounded discount factors and round your final answer to the nearest dollar.)",
+      "options": {
+        "A": "$7,500,000",
+        "B": "$6,979,339",
+        "C": "$6,479,339",
+        "D": "$7,227,273"
+      },
+      "correct": "B",
+      "explanation": "Deferred consideration is measured at present value: $3,000,000 / 1.10^2 = $2,479,339 (unrounded discount factor, answer rounded to the nearest dollar). Contingent consideration is included at its acquisition-date fair value of $500,000, whether or not payment is probable. Total = $4,000,000 + $2,479,339 + $500,000 = $6,979,339.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fr-c12-q005",
+      "chapter": 12,
+      "topic": "Consolidated statement of financial position",
+      "question_text": "Ocelot Co paid $150,000 in legal and due diligence fees when acquiring a subsidiary. How should these costs be treated in the consolidated financial statements?",
+      "options": {
+        "A": "Added to the consideration and so included in goodwill",
+        "B": "Capitalised as a separate intangible asset",
+        "C": "Deducted from the fair value of the subsidiary's net assets",
+        "D": "Expensed in consolidated profit or loss when incurred"
+      },
+      "correct": "D",
+      "explanation": "IFRS 3 requires acquisition-related costs, such as legal, advisory, valuation and due diligence fees, to be expensed as incurred. They are not part of the consideration transferred and do not affect goodwill. Costs of issuing debt or equity securities are dealt with under IFRS 9 and IAS 32.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c12-q006",
+      "chapter": 12,
+      "topic": "Consolidated statement of financial position",
+      "question_text": "Panther Co acquired 75% of Serval Co two years ago. At acquisition Serval Co's retained earnings were $3,000,000, and its plant had a fair value $300,000 above its carrying amount, with a remaining life of 5 years. Now Panther Co's retained earnings are $10,000,000 and Serval Co's are $4,500,000. There has been no impairment of goodwill and no intra-group trading. What are consolidated retained earnings?",
+      "options": {
+        "A": "$11,125,000",
+        "B": "$11,035,000",
+        "C": "$13,375,000",
+        "D": "$11,380,000"
+      },
+      "correct": "B",
+      "explanation": "Serval Co's post-acquisition retained earnings = $4,500,000 - $3,000,000 = $1,500,000, less extra depreciation on the fair value uplift ($300,000/5 x 2 years = $120,000) = $1,380,000. Group share = 75% x $1,380,000 = $1,035,000. Consolidated retained earnings = $10,000,000 + $1,035,000 = $11,035,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c12-q007",
+      "chapter": 12,
+      "topic": "Consolidated statement of financial position",
+      "question_text": "During the year Jaguar Co sold goods to its 80% subsidiary for $800,000, at cost plus 25%. At the year end the subsidiary still held one quarter of these goods. What adjustment is needed for unrealised profit in the consolidated SFP?",
+      "options": {
+        "A": "Reduce inventory by $40,000 and reduce group retained earnings by $40,000",
+        "B": "Reduce inventory by $50,000 and reduce group retained earnings by $50,000",
+        "C": "Reduce inventory by $40,000, charging $32,000 to group retained earnings and $8,000 to NCI",
+        "D": "Reduce inventory by $160,000 and reduce group retained earnings by $160,000"
+      },
+      "correct": "A",
+      "explanation": "Goods still held = $800,000 x 1/4 = $200,000. With a mark-up of 25% on cost, the profit element is 25/125 of selling price: $200,000 x 25/125 = $40,000. The parent was the seller, so the whole adjustment is charged to group retained earnings, and none to NCI. Inventory is reduced by $40,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fr-c12-q008",
+      "chapter": 12,
+      "topic": "Consolidated statement of financial position",
+      "question_text": "During the year Civet Co, a 70%-owned subsidiary, sold goods to its parent for $600,000 at a gross margin of 20%. At the year end the parent still held goods bought from Civet Co for $150,000. NCI is 30%. What is the effect of the unrealised profit adjustment on NCI in the consolidated SFP?",
+      "options": {
+        "A": "NCI is reduced by $30,000",
+        "B": "No effect on NCI; the adjustment is charged entirely to group retained earnings",
+        "C": "NCI is reduced by $9,000",
+        "D": "NCI is reduced by $36,000"
+      },
+      "correct": "C",
+      "explanation": "Unrealised profit = $150,000 x 20% = $30,000. The subsidiary was the seller, so the adjustment reduces the subsidiary's post-acquisition profits and is shared between group and NCI. NCI share = 30% x $30,000 = $9,000. The group share of $21,000 reduces group retained earnings.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fr-c12-q009",
+      "chapter": 12,
+      "topic": "Consolidated statement of financial position",
+      "question_text": "At the year end Margay Co's records show a receivable from its subsidiary of $120,000. The subsidiary's records show a payable to Margay Co of $100,000. The difference is because the subsidiary sent a cheque just before the year end that Margay Co had not received. How is this treated on consolidation?",
+      "options": {
+        "A": "Cancel $120,000 receivable against $100,000 payable and write off the $20,000 difference to retained earnings",
+        "B": "Include the $20,000 as a receivable in the consolidated SFP",
+        "C": "Add $20,000 cash in transit to group cash, then cancel the intra-group receivable and payable of $100,000",
+        "D": "Cancel $100,000 only and leave $20,000 in consolidated receivables"
+      },
+      "correct": "C",
+      "explanation": "Before intra-group balances are cancelled, items in transit are recorded as if they had arrived. The cash in transit of $120,000 - $100,000 = $20,000 is debited to cash and credited to the parent's receivable, which reduces it to $100,000. The matching intra-group balances of $100,000 are then cancelled, so nothing intra-group is left in the consolidated SFP.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c12-q010",
+      "chapter": 12,
+      "topic": "Consolidated statement of financial position",
+      "question_text": "Ermine Co acquired 75% of Stoat Co. NCI was measured at its fair value of $2,400,000 at acquisition. Since then Stoat Co's retained earnings have increased by $2,000,000. Since acquisition, extra depreciation on fair value adjustments totals $100,000, unrealised profit on goods Stoat Co sold to Ermine Co still in inventory is $50,000, and goodwill has been impaired by $300,000. What is the NCI in the consolidated SFP?",
+      "options": {
+        "A": "$2,862,500",
+        "B": "$2,787,500",
+        "C": "$2,900,000",
+        "D": "$2,800,000"
+      },
+      "correct": "B",
+      "explanation": "NCI = fair value at acquisition $2,400,000 + 25% of adjusted post-acquisition profits [$2,000,000 - $100,000 - $50,000 = $1,850,000], which is $462,500, less 25% of the goodwill impairment ($75,000) = $2,787,500. Under the fair value method, goodwill impairment is shared between group and NCI in their ownership proportions.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fr-c12-q011",
+      "chapter": 12,
+      "topic": "Consolidated statement of financial position",
+      "question_text": "Where NCI is measured at its proportionate share of the subsidiary's identifiable net assets, how is an impairment of goodwill dealt with in the consolidated SFP?",
+      "options": {
+        "A": "It is shared between group retained earnings and NCI in proportion to ownership",
+        "B": "It is charged in full against group retained earnings, with no effect on NCI",
+        "C": "It is charged in full against NCI",
+        "D": "It is debited to the revaluation surplus"
+      },
+      "correct": "B",
+      "explanation": "Under the proportionate share method, goodwill in the consolidated SFP is the parent's goodwill only. Any impairment therefore belongs entirely to the parent's shareholders and is deducted from group retained earnings. Under the fair value method, the impairment is shared between the group and NCI.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c12-q012",
+      "chapter": 12,
+      "topic": "Consolidated statement of financial position",
+      "question_text": "Under IFRS 3, what should an acquirer do if the fair value of the net assets acquired is higher than the total of the consideration transferred and the NCI (a 'bargain purchase')?",
+      "options": {
+        "A": "Review the measurement of all amounts, and recognise any remaining excess as a gain in profit or loss",
+        "B": "Recognise the excess as negative goodwill, a deduction within non-current assets",
+        "C": "Credit the excess directly to group retained earnings",
+        "D": "Recognise the excess as deferred income and release it over five years"
+      },
+      "correct": "A",
+      "explanation": "IFRS 3 first requires the acquirer to reassess whether it has correctly identified and measured all assets, liabilities, consideration and NCI. Any excess that remains is a bargain purchase gain, recognised in profit or loss on the acquisition date. Negative goodwill is not carried in the SFP.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c12-q013",
+      "chapter": 12,
+      "topic": "Consolidated statement of financial position",
+      "question_text": "At the acquisition date, Sable Co (a newly acquired subsidiary) is being sued and has a present obligation arising from a past event. An outflow of resources is not probable, so Sable Co has not recognised a provision, but the obligation's fair value can be measured reliably. How is it treated in the consolidated financial statements?",
+      "options": {
+        "A": "It is disclosed only, as IAS 37 does not allow contingent liabilities to be recognised",
+        "B": "It is ignored until the lawsuit is settled",
+        "C": "It is recognised as a liability at fair value, which reduces the net assets acquired and increases goodwill",
+        "D": "It is recognised as a provision only if the subsidiary had already recognised it"
+      },
+      "correct": "C",
+      "explanation": "IFRS 3 requires contingent liabilities of the acquiree to be recognised at fair value at the acquisition date if they are present obligations from past events and their fair value can be measured reliably, even if an outflow is not probable. This is an exception to IAS 37. The liability reduces the fair value of identifiable net assets, which increases goodwill.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c13-q001",
+      "chapter": 13,
+      "topic": "Consolidated statement of profit or loss and associates",
+      "question_text": "Cougar Co acquired a subsidiary on 1 April. For the year ended 31 December, Cougar Co's revenue was $10,000,000, and the subsidiary's revenue was $6,000,000, earned evenly through the year. After acquisition, Cougar Co sold goods to the subsidiary for $800,000. What is consolidated revenue?",
+      "options": {
+        "A": "$15,200,000",
+        "B": "$14,500,000",
+        "C": "$10,700,000",
+        "D": "$13,700,000"
+      },
+      "correct": "D",
+      "explanation": "The subsidiary's results are consolidated only from the acquisition date: $6,000,000 x 9/12 = $4,500,000. Intra-group sales are eliminated: $10,000,000 + $4,500,000 - $800,000 = $13,700,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c13-q002",
+      "chapter": 13,
+      "topic": "Consolidated statement of profit or loss and associates",
+      "question_text": "Cougar Co acquired a subsidiary on 1 April. For the year ended 31 December, Cougar Co's cost of sales was $6,000,000 and the subsidiary's was $4,000,000, incurred evenly through the year. Intra-group sales of $800,000 were made after acquisition, and unrealised profit on goods still in the group's inventory at the year end is $50,000. What is consolidated cost of sales?",
+      "options": {
+        "A": "$8,250,000",
+        "B": "$8,150,000",
+        "C": "$9,250,000",
+        "D": "$9,050,000"
+      },
+      "correct": "A",
+      "explanation": "Time-apportion the subsidiary: $4,000,000 x 9/12 = $3,000,000. Eliminate intra-group purchases of $800,000. Add the unrealised profit, which reduces closing inventory and so increases cost of sales: $6,000,000 + $3,000,000 - $800,000 + $50,000 = $8,250,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c13-q003",
+      "chapter": 13,
+      "topic": "Consolidated statement of profit or loss and associates",
+      "question_text": "Hyena Co acquired 70% of Jackal Co on 1 April. Jackal Co's profit after tax for the year ended 31 December was $2,400,000, earned evenly. A fair value uplift on plant causes extra depreciation of $40,000 a year. Jackal Co sold goods to Hyena Co after acquisition, giving unrealised profit of $20,000 at the year end. Goodwill impairment for the year is $100,000, and NCI is measured at fair value. What is the profit attributable to NCI?",
+      "options": {
+        "A": "$495,000",
+        "B": "$540,000",
+        "C": "$492,000",
+        "D": "$525,000"
+      },
+      "correct": "A",
+      "explanation": "Post-acquisition profit = $2,400,000 x 9/12 = $1,800,000. Adjustments: extra depreciation $40,000 x 9/12 = $30,000, unrealised profit (subsidiary was seller) $20,000, and goodwill impairment $100,000, which is shared with NCI under the fair value method. Adjusted profit = $1,800,000 - $30,000 - $20,000 - $100,000 = $1,650,000. NCI = 30% x $1,650,000 = $495,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fr-c13-q004",
+      "chapter": 13,
+      "topic": "Consolidated statement of profit or loss and associates",
+      "question_text": "Under IAS 28, how is an associate defined?",
+      "options": {
+        "A": "An entity controlled by the investor through holding more than 50% of the voting rights",
+        "B": "An entity jointly controlled with other parties under a contractual arrangement",
+        "C": "Any equity investment of less than 20% that is not held for trading",
+        "D": "An entity over which the investor has significant influence, usually presumed when it holds 20% to 50% of the voting rights"
+      },
+      "correct": "D",
+      "explanation": "An associate is an entity over which the investor has significant influence, which is the power to participate in financial and operating policy decisions without control. Holding 20% or more of the voting power creates a rebuttable presumption of significant influence. Associates are accounted for using the equity method.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c13-q005",
+      "chapter": 13,
+      "topic": "Consolidated statement of profit or loss and associates",
+      "question_text": "Ibex Co bought 30% of Oryx Co for $3,000,000 and has significant influence. Since acquisition Oryx Co has made profits of $1,200,000 and paid dividends of $400,000. The investment has been impaired by $100,000. What is the carrying amount of the investment in associate in the consolidated SFP?",
+      "options": {
+        "A": "$3,140,000",
+        "B": "$3,260,000",
+        "C": "$3,240,000",
+        "D": "$2,900,000"
+      },
+      "correct": "A",
+      "explanation": "Under the equity method: cost $3,000,000 + share of post-acquisition retained profits 30% x ($1,200,000 - $400,000) = $240,000, less impairment $100,000 = $3,140,000. Dividends received from the associate reduce the carrying amount, so the share of total profit ($360,000) is not used on its own.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c13-q006",
+      "chapter": 13,
+      "topic": "Consolidated statement of profit or loss and associates",
+      "question_text": "Ibex Co holds 30% of Oryx Co and accounts for it as an associate. During the year Ibex Co sold goods to Oryx Co for $400,000 at a gross margin of 25%. At the year end Oryx Co still held half of these goods. What AMOUNT of unrealised profit must be eliminated in Ibex Co's consolidated financial statements? (The double entry is not required.)",
+      "options": {
+        "A": "$50,000",
+        "B": "$15,000",
+        "C": "$30,000",
+        "D": "$12,000"
+      },
+      "correct": "B",
+      "explanation": "Unrealised profit in Oryx Co's inventory = $400,000 x 1/2 x 25% = $50,000. With an associate, only the investor's share is eliminated: 30% x $50,000 = $15,000. For reference, where the parent is the seller the usual FR entry is Dr cost of sales (group profit or loss) $15,000, Cr investment in associate $15,000, because the goods are not in group inventory; the amount is the same whichever entry is used.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c13-q007",
+      "chapter": 13,
+      "topic": "Consolidated statement of profit or loss and associates",
+      "question_text": "An associate made profit after tax of $900,000 for the year, all after acquisition. The investor holds 30%. Impairment of the investment in the year was $50,000. What figure should appear as 'share of profit of associate' in the consolidated statement of profit or loss?",
+      "options": {
+        "A": "$270,000",
+        "B": "$850,000",
+        "C": "$255,000",
+        "D": "$220,000"
+      },
+      "correct": "D",
+      "explanation": "Share of profit = 30% x $900,000 = $270,000. Impairment of the investment in associate for the year is deducted: $270,000 - $50,000 = $220,000. The associate's revenue and expenses are not added line by line, because only one figure is shown.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c13-q008",
+      "chapter": 13,
+      "topic": "Consolidated statement of profit or loss and associates",
+      "question_text": "In its individual accounts, the parent Okapi Co recognised investment income of $410,000: dividends of $300,000 from a subsidiary, $90,000 from an associate and $20,000 from other equity investments. What investment income should appear in the consolidated statement of profit or loss?",
+      "options": {
+        "A": "$110,000",
+        "B": "$410,000",
+        "C": "$20,000",
+        "D": "$320,000"
+      },
+      "correct": "C",
+      "explanation": "Dividends from a subsidiary are intra-group and are cancelled on consolidation. Dividends from an associate are replaced by the group's share of the associate's profit, shown separately, so including them would double count. Only the $20,000 from other investments stays as investment income.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c13-q009",
+      "chapter": 13,
+      "topic": "Consolidated statement of profit or loss and associates",
+      "question_text": "Bison Co acquired a subsidiary on 1 October. The subsidiary's profit for the year ended 31 December was $1,200,000, earned evenly. How much of that profit is included in consolidated profit for the year?",
+      "options": {
+        "A": "$1,200,000",
+        "B": "$900,000",
+        "C": "$300,000",
+        "D": "$600,000"
+      },
+      "correct": "C",
+      "explanation": "A subsidiary's results are included only from the date control is obtained. Profit from 1 October to 31 December = $1,200,000 x 3/12 = $300,000. The profit earned before acquisition is pre-acquisition and forms part of the net assets acquired.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c13-q010",
+      "chapter": 13,
+      "topic": "Consolidated statement of profit or loss and associates",
+      "question_text": "Gazelle Co's subsidiary operates in banking, while the rest of the group manufactures furniture. Which statement about consolidating this subsidiary is correct?",
+      "options": {
+        "A": "It must be excluded from consolidation and carried at cost",
+        "B": "It must be accounted for using the equity method",
+        "C": "It may be excluded if the directors believe consolidation would be misleading",
+        "D": "It must be consolidated, because IFRS 10 does not allow subsidiaries to be excluded on the grounds of dissimilar activities"
+      },
+      "correct": "D",
+      "explanation": "Under IFRS 10, all subsidiaries controlled by the parent must be consolidated. Dissimilar activities are not a reason to exclude one. Relevant information is given instead through segment and other disclosures.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c13-q011",
+      "chapter": 13,
+      "topic": "Consolidated statement of profit or loss and associates",
+      "question_text": "For the year, parent Bongo Co's profit after tax was $5,000,000, including a $400,000 dividend from its 80% subsidiary. The subsidiary's profit after tax was $2,000,000, all post-acquisition. Adjustments are: unrealised profit on goods sold by the parent to the subsidiary $60,000; extra depreciation on the subsidiary's fair value uplift $50,000; and goodwill impairment $100,000, with NCI measured at fair value. What profit is attributable to the owners of the parent?",
+      "options": {
+        "A": "$6,420,000",
+        "B": "$5,990,000",
+        "C": "$6,020,000",
+        "D": "$6,032,000"
+      },
+      "correct": "C",
+      "explanation": "Consolidated profit = $5,000,000 - intra-group dividend $400,000 + $2,000,000 - unrealised profit $60,000 - extra depreciation $50,000 - impairment $100,000 = $6,390,000. NCI = 20% x ($2,000,000 - $50,000 - $100,000) = $370,000. The unrealised profit is not charged to NCI because the parent was the seller. Owners of the parent = $6,390,000 - $370,000 = $6,020,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fr-c14-q001",
+      "chapter": 14,
+      "topic": "Statements of cash flows and interpretation of financial statements",
+      "question_text": "When preparing a statement of cash flows using the indirect method, how is an increase in trade receivables during the year treated?",
+      "options": {
+        "A": "It is deducted from profit before tax in calculating cash generated from operations",
+        "B": "It is added to profit before tax in calculating cash generated from operations",
+        "C": "It is shown as an investing cash outflow",
+        "D": "It is ignored because it is not a cash item"
+      },
+      "correct": "A",
+      "explanation": "Under the indirect method, profit is adjusted for working capital movements. An increase in receivables means some revenue in profit has not yet been received in cash, so the increase is deducted. A decrease in receivables, an increase in payables and a decrease in inventory are added.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c14-q002",
+      "chapter": 14,
+      "topic": "Statements of cash flows and interpretation of financial statements",
+      "question_text": "Kudu Co's profit before tax for the year was $500k, after charging depreciation of $120k, a loss on disposal of plant of $10k and finance costs of $30k. During the year inventories increased by $40k, trade receivables decreased by $25k and trade payables decreased by $15k. What is cash generated from operations?",
+      "options": {
+        "A": "$600k",
+        "B": "$630k",
+        "C": "$690k",
+        "D": "$610k"
+      },
+      "correct": "B",
+      "explanation": "Cash generated from operations = PBT 500 + depreciation 120 + loss on disposal 10 + finance costs 30 (added back, as interest paid is shown separately) - increase in inventories 40 + decrease in receivables 25 - decrease in payables 15 = $630k.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c14-q003",
+      "chapter": 14,
+      "topic": "Statements of cash flows and interpretation of financial statements",
+      "question_text": "Eland Co's property, plant and equipment had a carrying amount of $1200k at the start of the year and $1450k at the end. During the year depreciation was $180k, assets with a carrying amount of $70k were sold, and land was revalued upwards by $100k. All additions were paid in cash. What cash was paid to buy property, plant and equipment?",
+      "options": {
+        "A": "$600k",
+        "B": "$250k",
+        "C": "$330k",
+        "D": "$400k"
+      },
+      "correct": "D",
+      "explanation": "Reconstruct the PPE account: opening 1200 + revaluation 100 + additions X - depreciation 180 - disposals 70 = closing 1450. So X = 1450 - 1200 - 100 + 180 + 70 = $400k. The revaluation is a non-cash increase, so it is deducted in finding cash purchases.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c14-q004",
+      "chapter": 14,
+      "topic": "Statements of cash flows and interpretation of financial statements",
+      "question_text": "Impala Co's statement of financial position shows current tax payable of $90k at the start of the year and $110k at the end, and a deferred tax liability of $40k at the start and $55k at the end. The tax charge in profit or loss for the year was $150k. What is the tax paid in the statement of cash flows?",
+      "options": {
+        "A": "$150k",
+        "B": "$130k",
+        "C": "$115k",
+        "D": "$135k"
+      },
+      "correct": "C",
+      "explanation": "Combine current and deferred tax in one account: opening balances (90 + 40 = 130) + charge 150 - closing balances (110 + 55 = 165) = tax paid of $115k.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c14-q005",
+      "chapter": 14,
+      "topic": "Statements of cash flows and interpretation of financial statements",
+      "question_text": "Nyala Co's lease liabilities (current and non-current together) were $400k at the start of the year and $420k at the end. During the year new leases added $150k to the liabilities, and interest on lease liabilities was $30k. What were the total lease payments in the year, and how much of them reduced the lease liability (the capital part)?",
+      "options": {
+        "A": "Total payments $160k, all of which is capital",
+        "B": "Total payments $160k, of which $130k capital",
+        "C": "Total payments $310k, of which $280k capital",
+        "D": "Total payments $130k, of which $100k capital"
+      },
+      "correct": "B",
+      "explanation": "Lease liability working: opening 400 + new leases 150 (non-cash) + interest 30 - payments X = closing 420. X = 400 + 150 + 30 - 420 = $160k. Capital repaid = 160 - interest 30 = $130k, shown in financing activities. Interest of $30k is shown according to the entity's policy for interest paid.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fr-c14-q006",
+      "chapter": 14,
+      "topic": "Statements of cash flows and interpretation of financial statements",
+      "question_text": "Under IAS 7, where may dividends paid to the entity's shareholders be presented in the statement of cash flows?",
+      "options": {
+        "A": "Only in investing activities",
+        "B": "Only in operating activities",
+        "C": "In either operating activities or financing activities, applied consistently",
+        "D": "They are not shown, because they are an appropriation of profit"
+      },
+      "correct": "C",
+      "explanation": "IAS 7 allows dividends paid to be classified as financing cash flows, because they are a cost of obtaining finance, or as operating cash flows, so users can judge whether operating cash flows can cover dividends. The chosen classification must be applied consistently.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c14-q007",
+      "chapter": 14,
+      "topic": "Statements of cash flows and interpretation of financial statements",
+      "question_text": "Waterbuck Co's equity share capital rose from $1000k to $1400k during the year, and its share premium rose from $300k to $450k. During the year it made a bonus issue of $100k, funded from retained earnings. The remaining increase came from an issue of shares for cash. What is the cash inflow from issuing shares?",
+      "options": {
+        "A": "$550k",
+        "B": "$450k",
+        "C": "$300k",
+        "D": "$650k"
+      },
+      "correct": "B",
+      "explanation": "Total increase in share capital and premium = (1400 + 450) - (1000 + 300) = $550k. The bonus issue of $100k from retained earnings is non-cash, so cash raised = 550 - 100 = $450k.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c14-q008",
+      "chapter": 14,
+      "topic": "Statements of cash flows and interpretation of financial statements",
+      "question_text": "Sitatunga Co's retained earnings were $800k at the start of the year and $950k at the end. Profit for the year was $300k, and $20k of excess depreciation was transferred from the revaluation surplus to retained earnings. What equity dividends were paid in the year?",
+      "options": {
+        "A": "$150k",
+        "B": "$210k",
+        "C": "$170k",
+        "D": "$130k"
+      },
+      "correct": "C",
+      "explanation": "Retained earnings working: opening 800 + profit 300 + transfer from revaluation surplus 20 - dividends X = closing 950. X = 800 + 300 + 20 - 950 = $170k.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c14-q009",
+      "chapter": 14,
+      "topic": "Statements of cash flows and interpretation of financial statements",
+      "question_text": "Gerenuk Co has profit before interest and tax of $360,000, total equity of $1,500,000 and a long-term loan of $500,000. What is its return on capital employed (ROCE)?",
+      "options": {
+        "A": "24%",
+        "B": "18%",
+        "C": "72%",
+        "D": "36%"
+      },
+      "correct": "B",
+      "explanation": "ROCE = profit before interest and tax / capital employed, where capital employed = equity + non-current liabilities (interest-bearing debt). ROCE = $360,000 / ($1,500,000 + $500,000) = $360,000 / $2,000,000 = 18%.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c14-q010",
+      "chapter": 14,
+      "topic": "Statements of cash flows and interpretation of financial statements",
+      "question_text": "Duiker Co has inventories of $300k, trade receivables of $250k, cash of $50k and trade payables of $400k. It has no other current assets or current liabilities. What are its current ratio and quick (acid test) ratio?",
+      "options": {
+        "A": "Current 1.5:1; quick 0.75:1",
+        "B": "Current 1.5:1; quick 1.38:1",
+        "C": "Current 0.75:1; quick 1.5:1",
+        "D": "Current 1.38:1; quick 0.125:1"
+      },
+      "correct": "A",
+      "explanation": "Current ratio = current assets / current liabilities = (300 + 250 + 50) / 400 = 1.5:1. Quick ratio leaves out inventory because it is the least liquid current asset: (250 + 50) / 400 = 0.75:1.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c14-q011",
+      "chapter": 14,
+      "topic": "Statements of cash flows and interpretation of financial statements",
+      "question_text": "Klipspringer Co has closing inventory of $120,000 and cost of sales of $876,000 for the year. Using a 365-day year, what is its inventory holding period?",
+      "options": {
+        "A": "49.3 days",
+        "B": "7.3 days",
+        "C": "50 days",
+        "D": "40 days"
+      },
+      "correct": "C",
+      "explanation": "Inventory holding period = inventory / cost of sales x 365 = $120,000 / $876,000 x 365 = 50 days. Inventory turnover = 7.3 times a year is a related measure, but it is not expressed in days.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c14-q012",
+      "chapter": 14,
+      "topic": "Statements of cash flows and interpretation of financial statements",
+      "question_text": "Reedbuck Co has profit before interest and tax of $600,000 and finance costs of $150,000. It has interest-bearing debt of $2,000,000 and equity of $3,000,000. Using gearing defined as debt / (debt + equity), what are its interest cover and gearing?",
+      "options": {
+        "A": "Interest cover 4 times; gearing 40%",
+        "B": "Interest cover 3 times; gearing 40%",
+        "C": "Interest cover 4 times; gearing 66.7%",
+        "D": "Interest cover 0.25 times; gearing 40%"
+      },
+      "correct": "A",
+      "explanation": "Interest cover = PBIT / finance costs = $600,000 / $150,000 = 4 times. Gearing = debt / (debt + equity) = $2,000,000 / $5,000,000 = 40%. Debt / equity would be 66.7%, which is a different definition.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c14-q013",
+      "chapter": 14,
+      "topic": "Statements of cash flows and interpretation of financial statements",
+      "question_text": "Oribi Co revalued its property upwards at the start of the year, while a competitor carries similar property at historical cost. All else being equal, what effect does the revaluation have on Oribi Co's ratios compared with the competitor's?",
+      "options": {
+        "A": "ROCE is higher, because the revaluation gain is included in operating profit",
+        "B": "ROCE is lower, because capital employed is higher and higher depreciation reduces profit",
+        "C": "Gearing (debt / equity) is higher, because equity is lower",
+        "D": "Asset turnover is higher, because non-current assets are higher"
+      },
+      "correct": "B",
+      "explanation": "A revaluation increases non-current assets and equity (the revaluation surplus), so capital employed rises. Depreciation on the higher carrying amount reduces operating profit. Both effects lower ROCE. Gearing falls because equity is higher, and asset turnover falls because assets are higher. This is a key limitation when comparing entities with different accounting policies.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fr-c14-q014",
+      "chapter": 14,
+      "topic": "Statements of cash flows and interpretation of financial statements",
+      "question_text": "Performance in a not-for-profit entity such as a charity is often assessed using 'value for money'. What are the three Es that make up value for money?",
+      "options": {
+        "A": "Earnings, equity and expenditure",
+        "B": "Economy, equity and efficiency",
+        "C": "Economy, efficiency and effectiveness",
+        "D": "Efficiency, earnings and effectiveness"
+      },
+      "correct": "C",
+      "explanation": "Value for money is assessed through economy (obtaining resources at the lowest cost for the right quality), efficiency (the relationship between inputs and outputs) and effectiveness (how well objectives are achieved). Profit-based ratios are less relevant because the primary objective of a not-for-profit entity is not profit.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fr-c14-q015",
+      "chapter": 14,
+      "topic": "Statements of cash flows and interpretation of financial statements",
+      "question_text": "Bushbuck Co has revenue of $4,000,000, profit before interest and tax of $600,000 and capital employed of $2,500,000. Which of the following correctly shows its operating profit margin, asset turnover and ROCE?",
+      "options": {
+        "A": "Margin 15%; asset turnover 0.625 times; ROCE 9.375%",
+        "B": "Margin 24%; asset turnover 1.6 times; ROCE 15%",
+        "C": "Margin 15%; asset turnover 1.6 times; ROCE 24%",
+        "D": "Margin 15%; asset turnover 1.6 times; ROCE 16.6%"
+      },
+      "correct": "C",
+      "explanation": "Operating profit margin = $600,000 / $4,000,000 = 15%. Asset turnover = revenue / capital employed = $4,000,000 / $2,500,000 = 1.6 times. ROCE = $600,000 / $2,500,000 = 24%. As a check, ROCE = margin x asset turnover = 15% x 1.6 = 24%.",
+      "difficulty": "medium"
+    }
+  ]
+}
