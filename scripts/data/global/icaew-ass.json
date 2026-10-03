@@ -1,0 +1,1955 @@
+{
+  "subject_id": "icaew-ass",
+  "questions": [
+    {
+      "id": "icaew-ass-c01-q001",
+      "chapter": 1,
+      "topic": "The concept of and need for assurance",
+      "question_text": "Which of the following is NOT one of the elements of an assurance engagement?",
+      "options": {
+        "A": "A three-party relationship between the practitioner, the responsible party and the intended users",
+        "B": "Suitable criteria against which the subject matter is evaluated",
+        "C": "A written assurance report containing the practitioner's conclusion",
+        "D": "A guarantee from the practitioner that the subject matter is free from fraud"
+      },
+      "correct": "D",
+      "explanation": "An assurance engagement has five elements: a three-party relationship, an appropriate subject matter, suitable criteria, sufficient appropriate evidence and a written assurance report. No assurance engagement provides a guarantee, and absolute assurance about the absence of fraud is never possible. The other three options are all recognised elements.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-ass-c01-q002",
+      "chapter": 1,
+      "topic": "The concept of and need for assurance",
+      "question_text": "In the statutory audit of a UK limited company, which party is the 'responsible party' in the three-party relationship?",
+      "options": {
+        "A": "The company's directors",
+        "B": "The company's shareholders",
+        "C": "The audit engagement partner",
+        "D": "The Registrar of Companies"
+      },
+      "correct": "A",
+      "explanation": "The responsible party is the party responsible for the subject matter, which for financial statements is the directors who prepare them. The shareholders are the intended users, and the audit partner represents the practitioner. The Registrar simply receives the filed accounts and is not a party to the engagement.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-ass-c01-q003",
+      "chapter": 1,
+      "topic": "The concept of and need for assurance",
+      "question_text": "Which of the following wordings would be typical of the conclusion in a limited assurance engagement?",
+      "options": {
+        "A": "In our opinion, the information is prepared, in all material respects, in accordance with the criteria",
+        "B": "Based on our procedures, nothing has come to our attention that causes us to believe that the information is not prepared, in all material respects, in accordance with the criteria",
+        "C": "We certify that the information is free from all error and fraud",
+        "D": "We confirm that every transaction underlying the information has been checked and found to be correct"
+      },
+      "correct": "B",
+      "explanation": "Limited assurance is expressed in a negative form: the practitioner states that nothing has come to their attention suggesting the information is materially misstated. A positive 'in our opinion' conclusion is used for reasonable assurance engagements such as an audit. No assurance engagement certifies freedom from all error, and procedures are never performed on every transaction.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c01-q004",
+      "chapter": 1,
+      "topic": "The concept of and need for assurance",
+      "question_text": "What is the main reason why the shareholders of a large company need an independent audit of its financial statements?",
+      "options": {
+        "A": "Shareholders are legally responsible for preparing the financial statements and need help to do so",
+        "B": "Ownership is separated from management, so shareholders need independent assurance on information prepared by the directors who run the business",
+        "C": "An audit guarantees that the company will pay a dividend",
+        "D": "An audit allows shareholders to avoid having to read the financial statements themselves"
+      },
+      "correct": "B",
+      "explanation": "In most large companies the shareholders do not manage the business, so the directors act as their agents and prepare financial statements reporting on their own stewardship. Because directors may have incentives to present results favourably, an independent audit adds credibility to the information. Directors, not shareholders, prepare the statements, and an audit gives no guarantee about dividends.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-ass-c01-q005",
+      "chapter": 1,
+      "topic": "The concept of and need for assurance",
+      "question_text": "Which of the following is NOT an inherent limitation of an audit?",
+      "options": {
+        "A": "Much of the audit evidence available is persuasive rather than conclusive",
+        "B": "The financial statements are prepared under a recognised financial reporting framework",
+        "C": "The auditor usually tests a sample of items rather than the whole population",
+        "D": "Internal controls can be overridden by management or circumvented by collusion"
+      },
+      "correct": "B",
+      "explanation": "Inherent limitations mean an auditor can give only reasonable, not absolute, assurance. They include the persuasive nature of evidence, the use of sampling and judgement, and the possibility of management override or collusion. Preparing the statements under a recognised framework is a precondition for an audit rather than a limitation, because it provides suitable criteria.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c01-q006",
+      "chapter": 1,
+      "topic": "The concept of and need for assurance",
+      "question_text": "Which of the following public perceptions is an example of the 'expectation gap' in auditing?",
+      "options": {
+        "A": "The directors are responsible for preparing the financial statements",
+        "B": "An unmodified audit opinion means the financial statements are guaranteed to be completely accurate",
+        "C": "The auditor provides reasonable assurance rather than absolute assurance",
+        "D": "The auditor's report is addressed to the company's members"
+      },
+      "correct": "B",
+      "explanation": "The expectation gap is the difference between what users believe auditors do and what auditors actually do. Believing that an audit guarantees complete accuracy is a common misunderstanding, because an audit provides reasonable assurance only and materiality means small errors may remain. The other three statements are accurate descriptions of the audit.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c01-q007",
+      "chapter": 1,
+      "topic": "The concept of and need for assurance",
+      "question_text": "Which of the following engagements is NOT an assurance engagement?",
+      "options": {
+        "A": "A review of a listed company's interim financial information",
+        "B": "An examination of a client's profit forecast for a bank loan application",
+        "C": "Preparing a client's VAT return from its accounting records",
+        "D": "The statutory audit of a company's annual financial statements"
+      },
+      "correct": "C",
+      "explanation": "Preparing a VAT return is a compilation or tax service: the accountant prepares information but does not evaluate it against criteria or express a conclusion. Reviews of interim information, examinations of prospective financial information and statutory audits all involve the practitioner gathering evidence and giving a conclusion to intended users, so they are assurance engagements.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c01-q008",
+      "chapter": 1,
+      "topic": "The concept of and need for assurance",
+      "question_text": "Which of the following statements about an agreed-upon procedures engagement is correct?",
+      "options": {
+        "A": "The practitioner expresses a limited assurance conclusion on the subject matter",
+        "B": "The practitioner chooses the procedures to perform based on an assessment of risk",
+        "C": "The practitioner reports factual findings and the users draw their own conclusions from them",
+        "D": "The practitioner gives reasonable assurance because the procedures are agreed in advance"
+      },
+      "correct": "C",
+      "explanation": "In an agreed-upon procedures engagement the practitioner performs procedures agreed with the engaging party and reports what was found. No conclusion is expressed, so no assurance is given and the engagement is not an assurance engagement. The procedures are set by agreement, not by the practitioner's own risk assessment.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-ass-c01-q009",
+      "chapter": 1,
+      "topic": "The concept of and need for assurance",
+      "question_text": "A small company is exempt from statutory audit but its directors are considering a voluntary audit. Which of the following is a genuine benefit of a voluntary audit?",
+      "options": {
+        "A": "Lenders and suppliers may place greater reliance on the financial statements when deciding whether to extend credit",
+        "B": "Responsibility for the financial statements transfers from the directors to the auditor",
+        "C": "The audit guarantees that the company will continue as a going concern",
+        "D": "The company no longer needs to keep adequate accounting records"
+      },
+      "correct": "A",
+      "explanation": "An independent audit adds credibility to the financial statements, which can help when negotiating finance or credit terms; the auditor may also highlight control weaknesses. The directors remain responsible for the financial statements and for keeping accounting records whether or not there is an audit. An audit does not guarantee the future viability of the business.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c01-q010",
+      "chapter": 1,
+      "topic": "The concept of and need for assurance",
+      "question_text": "Which of the following statements correctly compares reasonable assurance and limited assurance engagements?",
+      "options": {
+        "A": "Engagement risk is eliminated entirely in a reasonable assurance engagement",
+        "B": "Engagement risk is reduced to a lower level in a reasonable assurance engagement, so the procedures performed are generally more extensive",
+        "C": "A limited assurance engagement requires more evidence because its conclusion is expressed negatively",
+        "D": "Both types require the same procedures and differ only in the wording of the report"
+      },
+      "correct": "B",
+      "explanation": "In a reasonable assurance engagement the practitioner reduces engagement risk to an acceptably low level, which requires more extensive evidence and supports a positive opinion. In a limited assurance engagement the risk is higher, the procedures (often inquiry and analytical review) are more restricted and the conclusion is negative. Risk can never be eliminated completely.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-ass-c02-q001",
+      "chapter": 2,
+      "topic": "Obtaining and accepting an engagement",
+      "question_text": "Under the Companies Act 2006, who normally appoints the auditor of a UK company on an ongoing basis?",
+      "options": {
+        "A": "The board of directors",
+        "B": "The company secretary",
+        "C": "The shareholders (members)",
+        "D": "The audit committee of the audit firm"
+      },
+      "correct": "C",
+      "explanation": "Auditors are normally appointed by the members, for example by ordinary resolution at a general meeting of a public company. Directors may appoint the first auditors or fill a casual vacancy, but the ongoing appointment rests with the members. This supports the auditor's independence from the directors on whose statements they report.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-ass-c02-q002",
+      "chapter": 2,
+      "topic": "Obtaining and accepting an engagement",
+      "question_text": "A prospective auditor asks a potential new client for permission to contact the existing auditor. The client refuses. What should the prospective auditor do?",
+      "options": {
+        "A": "Decline the appointment",
+        "B": "Accept the appointment but contact the existing auditor anyway",
+        "C": "Accept the appointment and perform extra substantive procedures to compensate",
+        "D": "Ask the Registrar of Companies whether there are any reasons not to accept"
+      },
+      "correct": "A",
+      "explanation": "Professional clearance requires the prospective auditor to seek the client's permission to communicate with the existing auditor. A refusal without good reason suggests the client may be hiding something, so the prospective auditor should decline. Contacting the existing auditor without permission would breach confidentiality, and extra testing cannot replace the information sought.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c02-q003",
+      "chapter": 2,
+      "topic": "Obtaining and accepting an engagement",
+      "question_text": "What is the main purpose of an audit engagement letter?",
+      "options": {
+        "A": "To confirm in writing the agreed terms of the engagement, including the responsibilities of the auditor and of management",
+        "B": "To report significant deficiencies in internal control to those charged with governance",
+        "C": "To set out the detailed audit procedures and sample sizes for the year",
+        "D": "To provide the auditor's opinion on the financial statements"
+      },
+      "correct": "A",
+      "explanation": "The engagement letter records the agreed terms of the audit, such as its objective and scope, the respective responsibilities of auditor and management, the framework used and the form of reports expected. This reduces the risk of misunderstanding. Control deficiencies are reported separately, detailed procedures are in the audit plan, and the opinion is in the auditor's report.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-ass-c02-q004",
+      "chapter": 2,
+      "topic": "Obtaining and accepting an engagement",
+      "question_text": "Which of the following would normally be included in an audit engagement letter?",
+      "options": {
+        "A": "The auditor's assessment of materiality for the year",
+        "B": "Management's responsibility for preparing the financial statements and for internal control",
+        "C": "A list of the items to be selected for testing",
+        "D": "The internal control deficiencies the auditor expects to find"
+      },
+      "correct": "B",
+      "explanation": "Engagement letters set out the agreed terms, including management's acknowledgement of its responsibilities for the financial statements, internal control and giving access to information. Materiality and sample selections are planning judgements that are not shared in advance, otherwise the audit could become predictable. Deficiencies cannot be known before the audit work is performed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c02-q005",
+      "chapter": 2,
+      "topic": "Obtaining and accepting an engagement",
+      "question_text": "Which of the following is a precondition for an audit?",
+      "options": {
+        "A": "The company has no history of material misstatements",
+        "B": "The auditor has already completed a full risk assessment",
+        "C": "The company's internal controls have been confirmed as effective",
+        "D": "Management agrees that it is responsible for giving the auditor access to all relevant information and people"
+      },
+      "correct": "D",
+      "explanation": "The preconditions for an audit are the use of an acceptable financial reporting framework and management's agreement to its responsibilities, including providing access to information. The auditor confirms these before accepting the engagement. A history of errors or weak controls affects risk assessment but does not prevent an audit, and the risk assessment happens after acceptance.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c02-q006",
+      "chapter": 2,
+      "topic": "Obtaining and accepting an engagement",
+      "question_text": "Which of the following factors would most likely cause an audit firm to decline a new audit engagement?",
+      "options": {
+        "A": "The client has been trading for only two years",
+        "B": "The client's year end is the same as many of the firm's other clients",
+        "C": "The client wants a fee estimate before the engagement is agreed",
+        "D": "The firm has no staff with experience of the client's specialised industry and cannot obtain such staff in time"
+      },
+      "correct": "D",
+      "explanation": "A firm should accept work only if it has the competence, capabilities and resources to perform it properly, so a lack of relevant expertise is a strong reason to decline. A young business, a busy year end or a request for a fee estimate are normal commercial matters that can be managed. Accepting work outside the firm's competence would breach the principle of professional competence and due care.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c02-q007",
+      "chapter": 2,
+      "topic": "Obtaining and accepting an engagement",
+      "question_text": "Before accepting a new audit client, which of the following does the firm have to do under UK anti-money laundering requirements?",
+      "options": {
+        "A": "Obtain a credit rating report to confirm the client can pay the audit fee",
+        "B": "Make a precautionary report about the client to the National Crime Agency",
+        "C": "Identify the client and verify its identity, including identifying its beneficial owners",
+        "D": "Obtain confirmations of all bank balances directly from the client's bank"
+      },
+      "correct": "C",
+      "explanation": "Customer due diligence requires firms to identify the client and verify its identity on reliable independent evidence, including who ultimately owns or controls it, before establishing the business relationship. Making a report without any suspicion is not required. Credit checks and bank confirmations may be useful but are not anti-money laundering requirements.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-ass-c02-q008",
+      "chapter": 2,
+      "topic": "Obtaining and accepting an engagement",
+      "question_text": "A prospective auditor receives a reply from the existing auditor, with the client's permission, saying that the directors have previously given misleading information to the auditors. What should the prospective auditor do?",
+      "options": {
+        "A": "Ignore it, since the existing auditor may simply be reluctant to lose the client",
+        "B": "Report the directors immediately to the police",
+        "C": "Accept the appointment but tell the directors what the existing auditor said",
+        "D": "Consider this information carefully when deciding whether to accept the appointment, as it raises doubts about management integrity"
+      },
+      "correct": "D",
+      "explanation": "Professional clearance exists so that the prospective auditor learns of matters relevant to accepting the appointment. Concerns about management integrity increase the risk of the audit significantly and may lead the firm to decline. The information should not be dismissed, nor passed to the directors, and misleading the auditors is not by itself a matter for police reporting.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-ass-c03-q001",
+      "chapter": 3,
+      "topic": "Planning, materiality and risk assessment",
+      "question_text": "Which of the following is NOT an objective of planning an audit?",
+      "options": {
+        "A": "To ensure that the financial statements contain no material misstatements",
+        "B": "To help the auditor give appropriate attention to important areas of the audit",
+        "C": "To help identify and resolve potential problems on a timely basis",
+        "D": "To help assign team members with suitable skills to each area"
+      },
+      "correct": "A",
+      "explanation": "Planning helps the auditor focus on the key risk areas, deal with problems early, organise the engagement and allocate staff with appropriate skills. However, planning cannot ensure that there are no material misstatements; the directors are responsible for the financial statements, and the auditor gives only reasonable assurance.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-ass-c03-q002",
+      "chapter": 3,
+      "topic": "Planning, materiality and risk assessment",
+      "question_text": "Audit risk is a function of inherent risk, control risk and detection risk. Which of these can the auditor directly influence?",
+      "options": {
+        "A": "Detection risk",
+        "B": "Inherent risk",
+        "C": "Control risk",
+        "D": "Both inherent risk and control risk"
+      },
+      "correct": "A",
+      "explanation": "Inherent risk and control risk are risks of material misstatement that exist within the entity, independently of the audit; the auditor assesses them but cannot change them. Detection risk is the risk that the auditor's procedures fail to detect a material misstatement. The auditor manages it through the nature, timing and extent of substantive procedures.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-ass-c03-q003",
+      "chapter": 3,
+      "topic": "Planning, materiality and risk assessment",
+      "question_text": "An auditor has assessed both inherent risk and control risk for trade receivables as high. What is the appropriate response?",
+      "options": {
+        "A": "Plan more extensive substantive procedures on receivables to reduce detection risk",
+        "B": "Reduce substantive procedures on receivables, because the risk has already been identified",
+        "C": "Rely on tests of controls only, as controls are the main source of risk",
+        "D": "Increase materiality for receivables to make misstatements less significant"
+      },
+      "correct": "A",
+      "explanation": "To keep audit risk at an acceptable level, a high risk of material misstatement must be offset by low detection risk. The auditor achieves this through more, and more persuasive, substantive procedures, for example larger samples or procedures closer to the year end. High control risk means controls cannot be relied upon, and raising materiality would be an inappropriate response.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c03-q004",
+      "chapter": 3,
+      "topic": "Planning, materiality and risk assessment",
+      "question_text": "An audit firm sets overall materiality at 5% of profit before tax. A client's draft profit before tax is £840,000. What is overall materiality?",
+      "options": {
+        "A": "£84,000",
+        "B": "£4,200",
+        "C": "£21,000",
+        "D": "£42,000"
+      },
+      "correct": "D",
+      "explanation": "Overall materiality = 5% x £840,000 = £42,000. £84,000 would be 10% of profit, £4,200 would be 0.5% and £21,000 would be 2.5%. The benchmark and percentage are a matter of judgement, and the auditor would revise materiality if the final profit figure changed significantly.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c03-q005",
+      "chapter": 3,
+      "topic": "Planning, materiality and risk assessment",
+      "question_text": "Overall materiality for an audit is £60,000. The firm sets performance materiality at 75% of overall materiality and treats misstatements below 5% of overall materiality as clearly trivial. What is performance materiality?",
+      "options": {
+        "A": "£15,000",
+        "B": "£45,000",
+        "C": "£3,000",
+        "D": "£80,000"
+      },
+      "correct": "B",
+      "explanation": "Performance materiality = 75% x £60,000 = £45,000. It is set below overall materiality to reduce the risk that uncorrected and undetected misstatements together exceed overall materiality. £15,000 is the 25% difference, £3,000 is the clearly trivial threshold (5% x £60,000) and £80,000 wrongly divides £60,000 by 0.75.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-ass-c03-q006",
+      "chapter": 3,
+      "topic": "Planning, materiality and risk assessment",
+      "question_text": "Which of the following misstatements is most likely to be material by its nature, even though the amount is small?",
+      "options": {
+        "A": "A small error in the depreciation charge on office furniture",
+        "B": "A minor cut-off error in sales of a few hundred pounds",
+        "C": "An understatement of directors' remuneration disclosed in the notes to the financial statements",
+        "D": "A small misclassification between two categories of administrative expenses"
+      },
+      "correct": "C",
+      "explanation": "Materiality has qualitative as well as quantitative aspects. Directors' remuneration is of particular interest to shareholders and is a legal disclosure, so even small errors may influence users and reflect on directors' stewardship. Small, routine errors in depreciation, cut-off or expense classification are unlikely to be material unless their size is significant.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c03-q007",
+      "chapter": 3,
+      "topic": "Planning, materiality and risk assessment",
+      "question_text": "Which of the following is most likely to indicate a high inherent risk?",
+      "options": {
+        "A": "The client holds a large inventory of fashion clothing whose saleability depends on changing trends",
+        "B": "The client does not separate the duties of recording and banking cash receipts",
+        "C": "The audit team has no experience of the client's industry",
+        "D": "The audit sample sizes have been reduced to meet a reporting deadline"
+      },
+      "correct": "A",
+      "explanation": "Inherent risk is the susceptibility of a balance to misstatement before considering controls. Fashion inventory may become obsolete quickly, making its valuation at the lower of cost and net realisable value subjective. Poor segregation of duties is a control risk, while inexperienced staff and reduced samples increase detection risk.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c03-q008",
+      "chapter": 3,
+      "topic": "Planning, materiality and risk assessment",
+      "question_text": "Which of the following describes control risk?",
+      "options": {
+        "A": "The risk that the auditor's procedures will fail to detect a material misstatement",
+        "B": "The risk that the auditor expresses an inappropriate opinion when the financial statements are materially misstated",
+        "C": "The risk that a misstatement that could be material will not be prevented, or detected and corrected, on a timely basis by the entity's internal control",
+        "D": "The susceptibility of an assertion to material misstatement before considering any related controls"
+      },
+      "correct": "C",
+      "explanation": "Control risk relates to the entity's own internal control failing to prevent or detect and correct a misstatement. The auditor's failure to detect misstatements is detection risk, and expressing an inappropriate opinion is audit risk overall. The susceptibility of an assertion before controls is inherent risk.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c03-q009",
+      "chapter": 3,
+      "topic": "Planning, materiality and risk assessment",
+      "question_text": "What is the main purpose of performing analytical procedures at the planning stage of an audit?",
+      "options": {
+        "A": "To help identify unusual changes or relationships that may indicate risks of material misstatement",
+        "B": "To provide sufficient appropriate evidence on all account balances",
+        "C": "To replace the need for any tests of detail",
+        "D": "To confirm the arithmetical accuracy of the trial balance"
+      },
+      "correct": "A",
+      "explanation": "Analytical procedures are required as risk assessment procedures because they help the auditor understand the entity and highlight balances that are out of line with expectations. These areas can then be targeted for further work. They are not designed at planning to provide substantive evidence or to check arithmetic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c03-q010",
+      "chapter": 3,
+      "topic": "Planning, materiality and risk assessment",
+      "question_text": "A client's credit sales for the year were £3,650,000 and its trade receivables at the year end were £450,000. Last year receivables collection was 30 days. Assuming a 365-day year, what is this year's collection period and what risk does it suggest?",
+      "options": {
+        "A": "45 days; trade receivables may be overstated because of irrecoverable debts",
+        "B": "45 days; trade receivables may be understated because of unrecorded sales",
+        "C": "30 days; there is no change in risk from the prior year",
+        "D": "22 days; the allowance for receivables may be overstated"
+      },
+      "correct": "A",
+      "explanation": "Receivables days = £450,000 / £3,650,000 x 365 = 45 days. The increase from 30 to 45 days suggests customers are paying more slowly, so some balances may not be recoverable and receivables could be overstated if no adequate allowance is made. A longer collection period does not suggest understatement.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-ass-c03-q011",
+      "chapter": 3,
+      "topic": "Planning, materiality and risk assessment",
+      "question_text": "Which of the following is NOT a risk assessment procedure used to obtain an understanding of the entity and its environment?",
+      "options": {
+        "A": "Making inquiries of management and others within the entity",
+        "B": "Performing analytical procedures",
+        "C": "Sending confirmation requests to the client's major customers",
+        "D": "Observing operations and inspecting documents such as board minutes"
+      },
+      "correct": "C",
+      "explanation": "Risk assessment procedures comprise inquiries, analytical procedures, and observation and inspection. External confirmations of customer balances are further audit procedures performed in response to assessed risks, to provide evidence about receivables. They are not used to gain an understanding of the entity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c03-q012",
+      "chapter": 3,
+      "topic": "Planning, materiality and risk assessment",
+      "question_text": "A client's revenue has risen by 10% while its cost of sales is unchanged, so the gross margin has risen from 30% to 38%. The business has not changed its pricing or suppliers. Which risk is this most likely to indicate?",
+      "options": {
+        "A": "Purchases may be incomplete, or closing inventory may be overstated",
+        "B": "Revenue may be understated",
+        "C": "Closing inventory may be understated",
+        "D": "Administrative expenses may be overstated"
+      },
+      "correct": "A",
+      "explanation": "With unchanged prices and suppliers, cost of sales should rise roughly in line with revenue. An unchanged cost of sales may mean purchases have been omitted or closing inventory overstated, both of which reduce cost of sales and inflate the margin. Understated revenue or understated inventory would lower the margin, and administrative expenses do not affect gross margin.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-ass-c03-q013",
+      "chapter": 3,
+      "topic": "Planning, materiality and risk assessment",
+      "question_text": "Which of the following would be included in the detailed audit plan rather than the overall audit strategy?",
+      "options": {
+        "A": "The overall scope of the engagement and the reporting deadlines",
+        "B": "The broad direction of the audit and the areas of highest risk",
+        "C": "The specific procedures to be performed on trade receivables, including sample sizes",
+        "D": "The resources to be allocated to the audit, including the use of specialists"
+      },
+      "correct": "C",
+      "explanation": "The audit strategy sets the scope, timing and direction of the audit and the resources needed. The audit plan is more detailed, setting out the nature, timing and extent of the specific procedures to be performed, such as the tests on receivables and their sample sizes.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-ass-c04-q001",
+      "chapter": 4,
+      "topic": "Internal control systems and IT controls",
+      "question_text": "Which of the following is NOT a component of an entity's system of internal control?",
+      "options": {
+        "A": "The control environment",
+        "B": "The entity's risk assessment process",
+        "C": "The external auditor's substantive procedures",
+        "D": "Control activities"
+      },
+      "correct": "C",
+      "explanation": "The components of internal control are the control environment, the entity's risk assessment process, its process to monitor internal control, the information system and communication, and control activities. The external auditor's procedures are part of the audit, not part of the entity's own internal control.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-ass-c04-q002",
+      "chapter": 4,
+      "topic": "Internal control systems and IT controls",
+      "question_text": "Which of the following forms part of the control environment?",
+      "options": {
+        "A": "The attitude of those charged with governance towards internal control",
+        "B": "Monthly bank reconciliations",
+        "C": "Passwords restricting access to the sales ledger",
+        "D": "Sequential numbering of sales invoices"
+      },
+      "correct": "A",
+      "explanation": "The control environment includes the governance and management functions and their attitudes, awareness and actions concerning internal control, including commitment to integrity and ethical values. Bank reconciliations, passwords and sequential numbering are specific control activities that operate within that environment.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-ass-c04-q003",
+      "chapter": 4,
+      "topic": "Internal control systems and IT controls",
+      "question_text": "Which of the following is a detective control rather than a preventive control?",
+      "options": {
+        "A": "Authorisation of purchase orders before they are sent to suppliers",
+        "B": "Monthly reconciliation of purchase ledger balances to supplier statements",
+        "C": "Restricting physical access to the inventory store",
+        "D": "Checking a customer's credit limit before accepting an order"
+      },
+      "correct": "B",
+      "explanation": "A detective control identifies errors or irregularities after they have happened, so that they can be corrected. Reconciling supplier statements reveals differences already recorded in the ledger. Authorising orders, restricting access and credit checks all operate before the transaction or event, so they are preventive.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c04-q004",
+      "chapter": 4,
+      "topic": "Internal control systems and IT controls",
+      "question_text": "Which of the following combinations of duties shows the most serious lack of segregation of duties?",
+      "options": {
+        "A": "One employee prepares sales invoices and another posts them to the receivables ledger",
+        "B": "One employee orders goods and another checks them on delivery",
+        "C": "One employee both receives customer cheques and maintains the receivables ledger",
+        "D": "One employee prepares the payroll and the finance director authorises the payment"
+      },
+      "correct": "C",
+      "explanation": "Good segregation separates custody of assets from recording of the related transactions. An employee who handles cheques and maintains the receivables ledger could steal receipts and conceal it by manipulating customer accounts, for example by teeming and lading. The other combinations involve two different people at the key stages.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c04-q005",
+      "chapter": 4,
+      "topic": "Internal control systems and IT controls",
+      "question_text": "Which of the following is an IT general control?",
+      "options": {
+        "A": "Regular back-up of data, with copies stored securely off-site",
+        "B": "Check digit verification on customer account codes",
+        "C": "Batch totals agreed before and after processing",
+        "D": "A range check that rejects weekly hours above a set maximum"
+      },
+      "correct": "A",
+      "explanation": "General IT controls apply to the whole IT environment, for example back-ups, access security, program development and change controls. Check digits, batch totals and range checks are application controls, which relate to the input, processing and output of a particular application.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c04-q006",
+      "chapter": 4,
+      "topic": "Internal control systems and IT controls",
+      "question_text": "A computerised sales system performs a sequence check on sales invoice numbers. What is the main purpose of this control?",
+      "options": {
+        "A": "To ensure that invoices are calculated at the correct prices",
+        "B": "To ensure that sales are only made to customers who are creditworthy",
+        "C": "To identify missing or duplicated invoice numbers, supporting the completeness of recorded sales",
+        "D": "To ensure that invoices are posted to the correct customer accounts"
+      },
+      "correct": "C",
+      "explanation": "A sequence check looks for gaps and duplicates in a numbered sequence, so it helps ensure that every invoice raised is recorded once only. Pricing accuracy relies on controls over price lists, credit risk is controlled by credit checks, and correct posting is supported by controls such as check digits on account codes.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c04-q007",
+      "chapter": 4,
+      "topic": "Internal control systems and IT controls",
+      "question_text": "Two cheque signatories, each required to approve every payment, agree together to sign payments to a fictitious supplier they have set up. Which inherent limitation of internal control does this illustrate?",
+      "options": {
+        "A": "Collusion",
+        "B": "Management override",
+        "C": "Human error",
+        "D": "Controls designed for routine transactions only"
+      },
+      "correct": "A",
+      "explanation": "The control of two signatories relies on each acting independently. When two or more people agree to act together to circumvent the control, it is collusion, which internal control cannot fully prevent. Management override occurs when a manager instructs others to bypass controls, and human error involves mistakes rather than deliberate fraud.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-ass-c04-q008",
+      "chapter": 4,
+      "topic": "Internal control systems and IT controls",
+      "question_text": "Which of the following is a test of control?",
+      "options": {
+        "A": "Inspecting a sample of purchase invoices for evidence of approval by the purchasing manager",
+        "B": "Agreeing a sample of payables ledger balances to supplier statements",
+        "C": "Recalculating the year-end accrual for electricity",
+        "D": "Comparing this year's wages expense with last year's"
+      },
+      "correct": "A",
+      "explanation": "Tests of control obtain evidence about whether controls operated effectively during the period, such as looking for evidence that invoices were approved. Agreeing balances to supplier statements, recalculating accruals and comparing wages year on year are substantive procedures that seek evidence directly about the amounts.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-ass-c04-q009",
+      "chapter": 4,
+      "topic": "Internal control systems and IT controls",
+      "question_text": "How should an auditor communicate significant deficiencies in internal control identified during an audit?",
+      "options": {
+        "A": "Orally to the accounts clerk responsible for the relevant area",
+        "B": "In the opinion section of the auditor's report",
+        "C": "In writing to those charged with governance on a timely basis",
+        "D": "Only when the shareholders ask about internal control at the annual general meeting"
+      },
+      "correct": "C",
+      "explanation": "Auditing standards require significant deficiencies to be communicated in writing to those charged with governance on a timely basis. Other deficiencies may be reported to management at an appropriate level. Control weaknesses do not by themselves modify the auditor's opinion, which concerns the financial statements.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c04-q010",
+      "chapter": 4,
+      "topic": "Internal control systems and IT controls",
+      "question_text": "Which of the following would NOT normally be included in an auditor's report to management on internal control deficiencies?",
+      "options": {
+        "A": "A description of each deficiency found",
+        "B": "An explanation of the possible effects of each deficiency",
+        "C": "A recommendation for improving each control",
+        "D": "A statement that the auditor has identified all of the deficiencies in the company's internal control"
+      },
+      "correct": "D",
+      "explanation": "A report on deficiencies normally sets out each deficiency, its possible consequences and a recommendation. It also explains that the audit was not designed to identify all deficiencies, because the auditor considers controls only to the extent needed to design audit procedures. Claiming to have found all deficiencies would be misleading.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-ass-c04-q011",
+      "chapter": 4,
+      "topic": "Internal control systems and IT controls",
+      "question_text": "Which of the following controls best prevents unauthorised changes being made to a company's accounting software?",
+      "options": {
+        "A": "Program changes are tested and approved by users and IT management before being moved into the live environment",
+        "B": "Data input is checked using validity and range checks",
+        "C": "Hash totals are calculated on batches of payroll data",
+        "D": "The cash book is reconciled to the bank statement each month"
+      },
+      "correct": "A",
+      "explanation": "Program change controls are general IT controls designed to ensure that only authorised, tested changes are made to live programs. Validity checks, range checks and hash totals are application controls over data rather than programs. A bank reconciliation is a manual detective control over cash.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c04-q012",
+      "chapter": 4,
+      "topic": "Internal control systems and IT controls",
+      "question_text": "What is the main purpose of a walk-through test?",
+      "options": {
+        "A": "To confirm the auditor's understanding of the system by following a transaction through it from start to finish",
+        "B": "To provide substantive evidence for the year-end balance",
+        "C": "To test whether a control operated effectively throughout the year",
+        "D": "To select a statistical sample of transactions for testing"
+      },
+      "correct": "A",
+      "explanation": "In a walk-through test the auditor traces one or a few transactions through the system to confirm that it operates as documented, for example in flowcharts or narrative notes. It is not enough to show that controls worked throughout the period, which requires tests of control on a sample, and it does not provide substantive evidence on balances.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-ass-c05-q001",
+      "chapter": 5,
+      "topic": "Controls over revenue and purchases",
+      "question_text": "Which control best reduces the risk of sales being made to customers who are unlikely to pay?",
+      "options": {
+        "A": "Sales invoices are sequentially numbered",
+        "B": "Credit limits are set for each customer and checked before an order is accepted",
+        "C": "Monthly statements are sent to customers",
+        "D": "Goods despatched notes are signed by the customer"
+      },
+      "correct": "B",
+      "explanation": "Setting and checking credit limits before accepting orders prevents the company from supplying customers who are a poor credit risk. Sequential numbering supports completeness, statements help detect errors in customer accounts, and signed despatch notes provide evidence of delivery. None of these addresses creditworthiness before the sale.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-ass-c05-q002",
+      "chapter": 5,
+      "topic": "Controls over revenue and purchases",
+      "question_text": "Which control best ensures that all goods despatched to customers are invoiced?",
+      "options": {
+        "A": "Sales invoices are checked by a second person for arithmetical accuracy",
+        "B": "Customer orders are checked against approved credit limits",
+        "C": "Goods despatched notes are sequentially numbered, matched to sales invoices, and the sequence is checked for gaps",
+        "D": "Sales invoices are authorised by the sales manager before being sent"
+      },
+      "correct": "C",
+      "explanation": "Matching sequentially numbered despatch notes to invoices and investigating gaps helps ensure that every despatch results in an invoice, which supports the completeness of revenue. Checking arithmetic addresses accuracy, credit checks address recoverability, and authorising invoices addresses occurrence and pricing.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c05-q003",
+      "chapter": 5,
+      "topic": "Controls over revenue and purchases",
+      "question_text": "A company sends statements to all credit customers each month. Which risk does this control mainly address?",
+      "options": {
+        "A": "Errors or misappropriations in customers' ledger accounts going undetected",
+        "B": "Goods being supplied to customers without a credit check",
+        "C": "Sales being recorded in the wrong accounting period at the year end",
+        "D": "Sales invoices being raised for goods that have not been ordered"
+      },
+      "correct": "A",
+      "explanation": "Customers who receive statements are likely to query balances that are too high, so errors, or the misappropriation of payments, are more likely to be detected. The control works best when statements are prepared and sent by someone independent of the receivables ledger and cash. It does not address credit checks, cut-off or unauthorised invoicing directly.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c05-q004",
+      "chapter": 5,
+      "topic": "Controls over revenue and purchases",
+      "question_text": "Which control best reduces the risk that credit notes are used to conceal the theft of customer receipts?",
+      "options": {
+        "A": "Credit notes are posted to the receivables ledger on the day they are raised",
+        "B": "Credit notes are filed alphabetically by customer name",
+        "C": "Credit notes are issued only by the receivables ledger clerk",
+        "D": "Credit notes are sequentially numbered and authorised by a manager independent of cash receipts and the receivables ledger"
+      },
+      "correct": "D",
+      "explanation": "An employee who steals receipts might issue fictitious credit notes to clear the customer's balance. Requiring independent authorisation and accounting for the sequence of credit notes makes this more difficult. Posting promptly or filing by customer does not prevent fraudulent credit notes, and allowing the ledger clerk to issue them alone increases the risk.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c05-q005",
+      "chapter": 5,
+      "topic": "Controls over revenue and purchases",
+      "question_text": "At a client, the sales clerk who raises sales invoices can also change the prices held in the system's standing data. What is the main risk arising?",
+      "options": {
+        "A": "Goods may be despatched without a despatch note being raised",
+        "B": "Sales may be made to customers who exceed their credit limits",
+        "C": "Invoices may be raised at unauthorised prices, causing misstated revenue or enabling fraud",
+        "D": "Customer receipts may be posted to the wrong customer account"
+      },
+      "correct": "C",
+      "explanation": "Changes to standing data such as price lists affect every subsequent transaction, so they should be authorised by a senior person independent of invoicing. A clerk who can change prices and raise invoices could undercharge favoured customers or make errors that go unnoticed. The other risks relate to despatch, credit and cash allocation controls.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-ass-c05-q006",
+      "chapter": 5,
+      "topic": "Controls over revenue and purchases",
+      "question_text": "In a purchases system, which three documents are typically matched before a supplier invoice is approved for payment?",
+      "options": {
+        "A": "The purchase order, the goods received note and the supplier invoice",
+        "B": "The purchase requisition, the remittance advice and the bank statement",
+        "C": "The sales order, the goods despatched note and the sales invoice",
+        "D": "The supplier statement, the cheque stub and the purchase day book"
+      },
+      "correct": "A",
+      "explanation": "Matching the purchase order, the goods received note and the supplier invoice confirms that the goods were authorised, actually received, and invoiced at the agreed price and quantity. The other combinations involve documents relating to payment, sales, or recording rather than approval of the invoice.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-ass-c05-q007",
+      "chapter": 5,
+      "topic": "Controls over revenue and purchases",
+      "question_text": "Which control best ensures that the company records liabilities only for goods it has actually received?",
+      "options": {
+        "A": "Supplier invoices are matched to goods received notes before being posted to the payables ledger",
+        "B": "Purchase orders are authorised by the department manager",
+        "C": "Supplier statements are reconciled to the payables ledger each month",
+        "D": "Payments to suppliers require two authorised signatories"
+      },
+      "correct": "A",
+      "explanation": "Matching invoices to goods received notes confirms that goods were received before the liability is recorded, supporting the occurrence of purchases. Authorising orders controls what is ordered, not what is received. Supplier statement reconciliations are detective controls, and dual signatories control payments rather than the recording of liabilities.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c05-q008",
+      "chapter": 5,
+      "topic": "Controls over revenue and purchases",
+      "question_text": "Which control best reduces the risk of payments being diverted by changing a supplier's bank details?",
+      "options": {
+        "A": "Supplier invoices are checked for arithmetical accuracy",
+        "B": "The payables ledger is totalled and reconciled to the control account monthly",
+        "C": "Goods received notes are checked against purchase orders",
+        "D": "Changes to supplier bank details must be authorised by a senior manager and verified with the supplier using contact details already on file"
+      },
+      "correct": "D",
+      "explanation": "A common fraud involves false requests to change a supplier's bank details, so payments go to a fraudster. Independent authorisation of master file changes and verification with the genuine supplier using known contact details helps prevent this. The other controls relate to invoice accuracy, ledger integrity and receipt of goods, not standing data.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c05-q009",
+      "chapter": 5,
+      "topic": "Controls over revenue and purchases",
+      "question_text": "At the year end, a company reviews all goods received notes that have not yet been matched to supplier invoices and accrues for them. Which assertion does this control mainly address?",
+      "options": {
+        "A": "Existence of trade payables",
+        "B": "Valuation of inventory",
+        "C": "Occurrence of purchases",
+        "D": "Completeness of trade payables and accruals"
+      },
+      "correct": "D",
+      "explanation": "Goods received before the year end but not yet invoiced are liabilities at the year end. Reviewing unmatched goods received notes ensures these liabilities are recorded, which addresses completeness. Existence and occurrence concern whether recorded items are genuine, and inventory valuation concerns the lower of cost and net realisable value.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c05-q010",
+      "chapter": 5,
+      "topic": "Controls over revenue and purchases",
+      "question_text": "Which of the following controls does NOT help to ensure the completeness of trade payables?",
+      "options": {
+        "A": "Supplier invoices are checked for arithmetical accuracy before being posted",
+        "B": "Supplier statements are reconciled to payables ledger balances each month",
+        "C": "The sequence of goods received notes is checked and missing numbers investigated",
+        "D": "Goods received but not invoiced are reviewed at the year end"
+      },
+      "correct": "A",
+      "explanation": "Completeness concerns whether all liabilities that should be recorded have been recorded. Reconciling supplier statements reveals invoices the company has not recorded, sequence checks on goods received notes identify receipts not processed, and the year-end review identifies uninvoiced receipts. Checking arithmetic addresses the accuracy of invoices already received, not whether any are missing.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-ass-c05-q011",
+      "chapter": 5,
+      "topic": "Controls over revenue and purchases",
+      "question_text": "Which control best reduces the risk of a supplier invoice being paid twice?",
+      "options": {
+        "A": "Invoices are marked as paid when settled, and the system rejects duplicate invoice numbers for the same supplier",
+        "B": "Purchase orders are sequentially numbered",
+        "C": "Goods received notes are signed by the storekeeper",
+        "D": "Supplier invoices are filed in date order"
+      },
+      "correct": "A",
+      "explanation": "Cancelling invoices once paid and having the system reject duplicate invoice references prevents the same invoice being processed twice. Numbering purchase orders and signing goods received notes relate to ordering and receipt, not payment. Filing in date order does not stop a duplicate being processed.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-ass-c06-q001",
+      "chapter": 6,
+      "topic": "Controls over payroll, inventory and cash",
+      "question_text": "Which control best reduces the risk of fictitious ('ghost') employees being added to the payroll?",
+      "options": {
+        "A": "Payslips are given to employees in sealed envelopes",
+        "B": "The payroll is totalled and cross-cast each month",
+        "C": "Employees clock in using a swipe card",
+        "D": "Additions to the payroll master file are authorised by the HR department, independently of the payroll staff"
+      },
+      "correct": "D",
+      "explanation": "A ghost employee is created by adding a fictitious person to the payroll so that their pay can be diverted. Requiring independent HR authorisation for new joiners prevents payroll staff from adding employees themselves. Sealed payslips, casting checks and clocking-in do not stop someone being added to the master file.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-ass-c06-q002",
+      "chapter": 6,
+      "topic": "Controls over payroll, inventory and cash",
+      "question_text": "Which control best reduces the risk of hourly paid staff being paid for hours they did not work?",
+      "options": {
+        "A": "Net pay is paid directly into employees' bank accounts",
+        "B": "Payroll deductions are reconciled to amounts paid to HM Revenue & Customs",
+        "C": "Pay rates are reviewed annually by the board",
+        "D": "Clocking-in is supervised and timesheets are approved by the employee's supervisor before payroll processing"
+      },
+      "correct": "D",
+      "explanation": "Supervised clocking-in prevents one employee clocking in for another, and supervisor approval of timesheets confirms that the hours recorded were worked. Paying by bank transfer, reconciling deductions and reviewing rates are useful controls but do not address whether the hours claimed are genuine.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c06-q003",
+      "chapter": 6,
+      "topic": "Controls over payroll, inventory and cash",
+      "question_text": "Which control best ensures that PAYE income tax and National Insurance deducted from employees are correctly paid over to HM Revenue & Customs?",
+      "options": {
+        "A": "New employees must provide evidence of their identity to HR",
+        "B": "The payroll department checks that pay rates agree with employment contracts",
+        "C": "A monthly reconciliation of deductions per the payroll to amounts paid to HM Revenue & Customs, reviewed by the finance manager",
+        "D": "Overtime is approved by the department manager"
+      },
+      "correct": "C",
+      "explanation": "Reconciling the tax and National Insurance shown on the payroll with the amounts paid each month helps ensure the liability is paid correctly and on time, and that the year-end balance owed is accurate. The other controls relate to the validity of employees, pay rates and overtime rather than payment of deductions.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c06-q004",
+      "chapter": 6,
+      "topic": "Controls over payroll, inventory and cash",
+      "question_text": "Which of the following is a physical control over inventory?",
+      "options": {
+        "A": "Inventory records are updated daily from goods received and despatch notes",
+        "B": "Inventory is kept in a locked store with access restricted to authorised staff",
+        "C": "Slow-moving inventory reports are reviewed by the purchasing manager",
+        "D": "Inventory count sheets are sequentially numbered"
+      },
+      "correct": "B",
+      "explanation": "Physical controls safeguard assets directly, for example locks, secure stores and restricted access. Updating records, reviewing slow-moving items and numbering count sheets are controls over recording, valuation and the count process rather than physical protection of the inventory.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-ass-c06-q005",
+      "chapter": 6,
+      "topic": "Controls over payroll, inventory and cash",
+      "question_text": "During a year-end inventory count, count sheets are sequentially numbered, issued to count teams and accounted for at the end of the count. What is the purpose of this control?",
+      "options": {
+        "A": "To ensure that inventory is valued at the lower of cost and net realisable value",
+        "B": "To ensure that damaged inventory is identified",
+        "C": "To ensure that only goods owned by the company are counted",
+        "D": "To ensure that all count sheets are returned, so that no counted inventory is omitted"
+      },
+      "correct": "D",
+      "explanation": "Accounting for the sequence of count sheets ensures that none are lost or that extra ones are added, so the final inventory listing includes everything counted. Valuation, damaged items and ownership are addressed by other procedures, such as reviewing costs, recording condition during the count and segregating goods held for third parties.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c06-q006",
+      "chapter": 6,
+      "topic": "Controls over payroll, inventory and cash",
+      "question_text": "A client uses a perpetual inventory system with continuous counting instead of a full year-end count. Which of the following would be necessary for the auditor to rely on this system?",
+      "options": {
+        "A": "Only high-value items are counted, and only at the year end",
+        "B": "Counts are performed by the storekeeper, who maintains the inventory records",
+        "C": "All inventory lines are counted at least once a year and discrepancies with the records are investigated and corrected",
+        "D": "Differences between counts and records are left uncorrected until the following year"
+      },
+      "correct": "C",
+      "explanation": "Continuous counting can replace a year-end count if the book records are reliable. This requires all items to be counted during the year, counts to be performed by staff independent of the records and stores, and differences to be investigated and corrected. Counts by the storekeeper or leaving errors uncorrected would undermine reliance on the records.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c06-q007",
+      "chapter": 6,
+      "topic": "Controls over payroll, inventory and cash",
+      "question_text": "Which of the following controls mainly addresses the valuation of inventory, rather than its existence or completeness?",
+      "options": {
+        "A": "Test counts from the inventory records to the physical items in the warehouse",
+        "B": "Matching goods received notes to the inventory records",
+        "C": "Regular review of inventory ageing reports, with old or slow-moving lines considered for write-down",
+        "D": "Restricting access to the warehouse to authorised staff"
+      },
+      "correct": "C",
+      "explanation": "Inventory must be measured at the lower of cost and net realisable value, so slow-moving or obsolete lines may need writing down. Ageing reviews identify these items, which addresses valuation. Counts from records to the warehouse address existence, matching goods received notes addresses completeness, and access restrictions safeguard the inventory.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-ass-c06-q008",
+      "chapter": 6,
+      "topic": "Controls over payroll, inventory and cash",
+      "question_text": "What is the main purpose of a company preparing a monthly bank reconciliation that is reviewed by someone independent of the cash book?",
+      "options": {
+        "A": "To ensure all customers pay on time",
+        "B": "To detect errors or irregularities in the cash book or on the bank statement on a timely basis",
+        "C": "To authorise payments to suppliers",
+        "D": "To prevent cash from being stolen before it is banked"
+      },
+      "correct": "B",
+      "explanation": "A bank reconciliation compares the cash book with the bank statement and explains differences, such as timing items, so errors and unauthorised transactions can be identified and corrected. Independent review increases its effectiveness. It is a detective control and does not authorise payments or prevent theft before banking.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-ass-c06-q009",
+      "chapter": 6,
+      "topic": "Controls over payroll, inventory and cash",
+      "question_text": "Which control over cash received in the post is most effective?",
+      "options": {
+        "A": "Post is opened by the receivables ledger clerk, who records receipts directly in the ledger",
+        "B": "Post is opened by two people together, who list all receipts on a remittance list before passing them for banking",
+        "C": "Cheques received are kept in an unlocked drawer until a full week's receipts have accumulated",
+        "D": "Remittance advices are discarded once the cheques have been banked"
+      },
+      "correct": "B",
+      "explanation": "Having two people open the post and immediately list receipts reduces the risk of theft and provides an independent record to agree to the banking and the cash book. Letting the ledger clerk handle receipts combines custody and recording, keeping cheques unsecured increases the risk of loss, and discarding remittances removes useful evidence.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c06-q010",
+      "chapter": 6,
+      "topic": "Controls over payroll, inventory and cash",
+      "question_text": "Which of the following describes an imprest system for petty cash?",
+      "options": {
+        "A": "Petty cash is topped up whenever the cashier requests it, without supporting vouchers",
+        "B": "A fixed float is held, and it is topped up periodically by the total of the vouchers for amounts spent",
+        "C": "All petty cash received from sales is held in the tin until the year end",
+        "D": "Petty cash expenditure is recorded only once a year when the float is counted"
+      },
+      "correct": "B",
+      "explanation": "Under an imprest system, cash plus vouchers should always equal the fixed float, so differences can be easily detected. The float is replenished by the value of vouchers presented, which supports the authorisation and recording of petty cash expenditure. Top-ups without vouchers or annual recording would make it impossible to control.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c06-q011",
+      "chapter": 6,
+      "topic": "Controls over payroll, inventory and cash",
+      "question_text": "Which of the following controls is most likely to detect 'teeming and lading' by a receivables clerk?",
+      "options": {
+        "A": "Cash received is banked daily",
+        "B": "Customer statements are sent by someone independent of cash receipts and the receivables ledger, who also follows up customer queries",
+        "C": "The cash book is totalled by the cashier at the end of each day",
+        "D": "Sales invoices are sequentially numbered"
+      },
+      "correct": "B",
+      "explanation": "Teeming and lading involves stealing a receipt from one customer and concealing it by allocating later receipts from other customers to that account. Customers whose payments have been delayed in being allocated may query their statements, and an independent person following up queries is likely to detect the fraud. Daily banking, casting the cash book and numbering invoices do not reveal misallocations.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-ass-c07-q001",
+      "chapter": 7,
+      "topic": "Assertions and audit evidence",
+      "question_text": "In the context of audit evidence, what do the terms 'sufficient' and 'appropriate' refer to?",
+      "options": {
+        "A": "Sufficient refers to the quality of evidence, and appropriate refers to its quantity",
+        "B": "Sufficient means all items have been tested, and appropriate means the client agrees",
+        "C": "Sufficient refers to the timing of evidence, and appropriate refers to its cost",
+        "D": "Sufficient refers to the quantity of evidence, and appropriate refers to its quality (relevance and reliability)"
+      },
+      "correct": "D",
+      "explanation": "Sufficiency is the measure of the quantity of audit evidence, which is affected by risk and by the quality of the evidence. Appropriateness is the measure of quality, meaning its relevance and reliability in supporting the auditor's conclusions. The two are interrelated: higher quality evidence may mean less is needed.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-ass-c07-q002",
+      "chapter": 7,
+      "topic": "Assertions and audit evidence",
+      "question_text": "Which of the following sources of audit evidence about a company's bank balance is the most reliable?",
+      "options": {
+        "A": "A photocopy of the year-end bank statement provided by the client",
+        "B": "A confirmation sent by the bank directly to the auditor",
+        "C": "An oral statement from the finance director about the balance",
+        "D": "A client-prepared bank reconciliation"
+      },
+      "correct": "B",
+      "explanation": "Evidence obtained directly by the auditor from an independent external source is generally the most reliable. A photocopy supplied by the client could have been altered, oral statements are less reliable than written evidence, and a client-prepared reconciliation is generated internally. The bank reconciliation still needs testing, but the confirmation provides the strongest evidence of the balance.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c07-q003",
+      "chapter": 7,
+      "topic": "Assertions and audit evidence",
+      "question_text": "An auditor selects items from the client's inventory records and physically inspects them in the warehouse. Which assertion does this procedure mainly test?",
+      "options": {
+        "A": "Completeness",
+        "B": "Existence",
+        "C": "Valuation",
+        "D": "Classification"
+      },
+      "correct": "B",
+      "explanation": "Testing from the records to the physical items checks that recorded inventory actually exists. Testing in the opposite direction, from the physical items to the records, tests completeness. Physical inspection may give some evidence of condition, but valuation is mainly tested by examining costs and selling prices.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-ass-c07-q004",
+      "chapter": 7,
+      "topic": "Assertions and audit evidence",
+      "question_text": "During an inventory count, the auditor selects items on the warehouse floor and traces them to the final inventory listing. Which assertion is being tested?",
+      "options": {
+        "A": "Existence",
+        "B": "Completeness",
+        "C": "Rights and obligations",
+        "D": "Accuracy"
+      },
+      "correct": "B",
+      "explanation": "Starting with the physical items and checking they appear in the records tests whether all inventory that exists has been recorded, which is completeness. Testing from the records to the floor would test existence. Ownership and accuracy require evidence such as purchase invoices and cost records.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c07-q005",
+      "chapter": 7,
+      "topic": "Assertions and audit evidence",
+      "question_text": "Which of the following procedures best tests the cut-off of sales?",
+      "options": {
+        "A": "Agreeing a sample of sales invoices to customer orders",
+        "B": "Sending confirmation requests to customers with the largest balances",
+        "C": "Comparing monthly sales with the budget",
+        "D": "Selecting goods despatched notes from shortly before and after the year end and checking the related sales were recorded in the correct period"
+      },
+      "correct": "D",
+      "explanation": "Cut-off concerns recording transactions in the correct accounting period. Examining despatches around the year end and checking when the related sales were recorded identifies items recorded in the wrong period. Agreeing invoices to orders tests occurrence, confirmations test existence of receivables, and budget comparisons are analytical procedures that are less precise.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c07-q006",
+      "chapter": 7,
+      "topic": "Assertions and audit evidence",
+      "question_text": "An auditor obtains an official copy of the title register from HM Land Registry for a freehold property owned by a UK client. Which assertion does this mainly support?",
+      "options": {
+        "A": "Valuation",
+        "B": "Rights and obligations",
+        "C": "Completeness",
+        "D": "Cut-off"
+      },
+      "correct": "B",
+      "explanation": "The title register shows who owns the property, so it provides evidence that the entity holds the rights to the asset. It does not show the property's value, which would require evidence such as a valuation report or depreciation calculations. It also does not show whether all properties have been recorded.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c07-q007",
+      "chapter": 7,
+      "topic": "Assertions and audit evidence",
+      "question_text": "An auditor compares the cost of a sample of year-end inventory items with their selling prices after the year end. Which assertion is being tested?",
+      "options": {
+        "A": "Existence",
+        "B": "Completeness",
+        "C": "Occurrence",
+        "D": "Valuation"
+      },
+      "correct": "D",
+      "explanation": "Inventory must be measured at the lower of cost and net realisable value. Comparing cost with post year-end selling prices, less costs to sell, shows whether any items need writing down below cost. This does not test whether the items exist or whether all items are recorded.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c07-q008",
+      "chapter": 7,
+      "topic": "Assertions and audit evidence",
+      "question_text": "An auditor reviews the repairs and maintenance expense account for items that should have been capitalised as property, plant and equipment. Which assertion about property, plant and equipment does this mainly test?",
+      "options": {
+        "A": "Existence",
+        "B": "Rights and obligations",
+        "C": "Completeness",
+        "D": "Cut-off"
+      },
+      "correct": "C",
+      "explanation": "If capital expenditure has been charged wrongly to repairs, property, plant and equipment will be understated. Searching the expense account for such items therefore tests whether all assets have been recorded. Existence would be tested by inspecting assets on the register, and rights by examining ownership documents.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-ass-c07-q009",
+      "chapter": 7,
+      "topic": "Assertions and audit evidence",
+      "question_text": "Which of the following statements about written representations from management is correct?",
+      "options": {
+        "A": "They are the most reliable form of audit evidence because they are signed by the directors",
+        "B": "They can replace other audit evidence that the auditor would otherwise obtain",
+        "C": "They are necessary audit evidence but do not on their own provide sufficient appropriate evidence about the matters they cover",
+        "D": "They are optional and need only be obtained if the client offers them"
+      },
+      "correct": "C",
+      "explanation": "Auditing standards require written representations, for example that management has fulfilled its responsibilities and provided all relevant information. However, they come from the entity itself, so they cannot replace other evidence that should be available. If management refuses to give required representations, the auditor must consider the effect on the opinion.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c07-q010",
+      "chapter": 7,
+      "topic": "Assertions and audit evidence",
+      "question_text": "An auditor finds that evidence from a customer confirmation is inconsistent with the client's records. What should the auditor do?",
+      "options": {
+        "A": "Accept the client's records, as they are prepared by the entity's accounting system",
+        "B": "Accept the confirmation and adjust the financial statements without further work",
+        "C": "Determine what changes or additions to audit procedures are needed to resolve the matter, and consider the effect on other aspects of the audit",
+        "D": "Ignore the inconsistency if the difference is below performance materiality"
+      },
+      "correct": "C",
+      "explanation": "When evidence from different sources is inconsistent, the auditor must investigate further, for example by reviewing the customer account, cut-off and cash received, to find the cause. The inconsistency may indicate errors or fraud that also affect other areas. Neither source should simply be accepted, and individually small differences may still matter in aggregate or reveal a systematic problem.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-ass-c07-q011",
+      "chapter": 7,
+      "topic": "Assertions and audit evidence",
+      "question_text": "An auditor uses an independent property valuer as an auditor's expert. Which of the following is the auditor required to do?",
+      "options": {
+        "A": "Refer to the expert in an unmodified auditor's report to share responsibility for the opinion",
+        "B": "Accept the expert's conclusions without evaluation, as the expert has specialist skills",
+        "C": "Obtain the client's approval of the expert's findings before using them",
+        "D": "Evaluate the expert's competence, capabilities and objectivity, and the adequacy of the expert's work"
+      },
+      "correct": "D",
+      "explanation": "When using an auditor's expert, the auditor must evaluate whether the expert has the necessary competence, capabilities and objectivity, agree the scope of the work and evaluate whether the findings are adequate. The auditor retains sole responsibility for the opinion, so an unmodified report does not refer to the expert. Client approval is not required.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c08-q001",
+      "chapter": 8,
+      "topic": "Audit procedures and substantive testing",
+      "question_text": "An auditor watches the client's staff carrying out the year-end inventory count. What type of audit procedure is this?",
+      "options": {
+        "A": "Inspection",
+        "B": "Inquiry",
+        "C": "Observation",
+        "D": "Reperformance"
+      },
+      "correct": "C",
+      "explanation": "Observation consists of looking at a process or procedure being performed by others, such as watching the inventory count. Inspection involves examining records, documents or physical assets, inquiry involves seeking information from people, and reperformance involves the auditor independently carrying out a control.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-ass-c08-q002",
+      "chapter": 8,
+      "topic": "Audit procedures and substantive testing",
+      "question_text": "An auditor independently prepares the client's year-end bank reconciliation to check that the client's control has operated correctly. What type of procedure is this?",
+      "options": {
+        "A": "Recalculation",
+        "B": "Observation",
+        "C": "External confirmation",
+        "D": "Reperformance"
+      },
+      "correct": "D",
+      "explanation": "Reperformance is the auditor's independent execution of procedures or controls originally performed by the entity, such as a bank reconciliation. Recalculation checks the mathematical accuracy of documents or records, observation involves watching a process, and external confirmation is a direct response from a third party.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-ass-c08-q003",
+      "chapter": 8,
+      "topic": "Audit procedures and substantive testing",
+      "question_text": "Which of the following describes a positive confirmation request for trade receivables?",
+      "options": {
+        "A": "The customer is asked to reply only if they disagree with the balance",
+        "B": "The customer is asked to reply in all cases, either agreeing the balance or providing details of any differences",
+        "C": "The customer is asked to send a copy of their payment to the auditor",
+        "D": "The auditor telephones the customer to confirm the balance orally"
+      },
+      "correct": "B",
+      "explanation": "A positive confirmation asks the customer to respond whether or not they agree, which provides more reliable evidence because a reply is expected. A negative confirmation asks for a reply only if the customer disagrees, so a non-reply provides limited evidence. Oral confirmations are less reliable than written responses received directly.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c08-q004",
+      "chapter": 8,
+      "topic": "Audit procedures and substantive testing",
+      "question_text": "A customer does not reply to a positive confirmation request for its year-end balance, even after a follow-up. Which alternative procedure is most appropriate?",
+      "options": {
+        "A": "Treat the balance as confirmed because the customer did not dispute it",
+        "B": "Remove the balance from the sample and select a different customer",
+        "C": "Ask the client's credit controller to confirm the balance in writing",
+        "D": "Inspect cash received from the customer after the year end and agree it to remittance advices for invoices outstanding at the year end"
+      },
+      "correct": "D",
+      "explanation": "When no reply is received to a positive request, the auditor should perform alternative procedures. Cash received after the year end for specific invoices is strong evidence that the debt existed. A non-reply cannot be treated as agreement, replacing the item would bias the sample, and a confirmation from the client's own staff is internal evidence.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c08-q005",
+      "chapter": 8,
+      "topic": "Audit procedures and substantive testing",
+      "question_text": "Last year a client's total wages cost was £1,200,000 for an average of 40 employees. This year the average number of employees is 44 and all staff received a 3% pay rise from the first day of the year. What is the auditor's expected wages cost for this year?",
+      "options": {
+        "A": "£1,320,000",
+        "B": "£1,359,600",
+        "C": "£1,236,000",
+        "D": "£1,356,000"
+      },
+      "correct": "B",
+      "explanation": "Average cost per employee last year = £1,200,000 / 40 = £30,000. After the 3% rise: £30,000 x 1.03 = £30,900. Expected cost = £30,900 x 44 = £1,359,600. £1,320,000 ignores the pay rise, £1,236,000 ignores the extra employees, and £1,356,000 wrongly adds the 3% and 10% increases together instead of multiplying them.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-ass-c08-q006",
+      "chapter": 8,
+      "topic": "Audit procedures and substantive testing",
+      "question_text": "Which procedure provides the best evidence about the completeness of trade payables?",
+      "options": {
+        "A": "Agreeing a sample of balances on the payables ledger to supporting invoices",
+        "B": "Checking the casting of the payables ledger",
+        "C": "Examining payments made and invoices received after the year end for liabilities that existed at the year end but were not recorded",
+        "D": "Inspecting purchase orders raised after the year end"
+      },
+      "correct": "C",
+      "explanation": "A search for unrecorded liabilities looks at transactions after the year end to find amounts that related to the year but were omitted, which tests completeness. Vouching ledger balances tests existence because it starts from recorded items. Casting tests arithmetic, and orders raised after the year end do not represent year-end liabilities.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c08-q007",
+      "chapter": 8,
+      "topic": "Audit procedures and substantive testing",
+      "question_text": "Which of the following is correct about a bank confirmation request for audit purposes?",
+      "options": {
+        "A": "The request is authorised by the client but sent by the auditor, and the bank replies directly to the auditor",
+        "B": "The request is sent by the client, and the bank replies to the client, who passes the reply to the auditor",
+        "C": "The auditor sends the request without the client's authority",
+        "D": "The bank sends its reply to the client's finance director for checking first"
+      },
+      "correct": "A",
+      "explanation": "Banks need the client's authority to disclose information, but the auditor should control the process by sending the request and receiving the reply directly. This prevents the client from intercepting or altering the response and makes the evidence more reliable.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c08-q008",
+      "chapter": 8,
+      "topic": "Audit procedures and substantive testing",
+      "question_text": "Which procedure provides the best evidence of the existence of assets recorded in a client's non-current asset register?",
+      "options": {
+        "A": "Selecting assets on site and checking they are included in the register",
+        "B": "Recalculating the depreciation charge for the year",
+        "C": "Agreeing the register total to the general ledger",
+        "D": "Selecting assets from the register and physically inspecting them"
+      },
+      "correct": "D",
+      "explanation": "Existence is tested by starting from the recorded assets and confirming that they are physically present. Starting from assets on site tests completeness, recalculating depreciation tests valuation, and agreeing totals checks that the register reconciles to the ledger.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c08-q009",
+      "chapter": 8,
+      "topic": "Audit procedures and substantive testing",
+      "question_text": "A client's plant and machinery has a cost brought forward of £480,000. Additions in the year cost £60,000 and there were no disposals. The accounting policy is 20% straight-line, with a full year's charge in the year of acquisition. The client has charged depreciation of £102,000. What is the expected charge and what does the comparison show?",
+      "options": {
+        "A": "£96,000; the charge is overstated by £6,000",
+        "B": "£102,000; the charge is correct",
+        "C": "£108,000; the charge is understated by £6,000",
+        "D": "£108,000; the charge is overstated by £6,000"
+      },
+      "correct": "C",
+      "explanation": "Expected depreciation = (£480,000 + £60,000) x 20% = £540,000 x 20% = £108,000. The client's charge of £102,000 is £6,000 lower, which equals half a year's depreciation on the additions (£60,000 x 20% x 6/12), suggesting a time-apportioned charge was used contrary to policy. £96,000 omits the additions altogether.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-ass-c08-q010",
+      "chapter": 8,
+      "topic": "Audit procedures and substantive testing",
+      "question_text": "Which of the following is NOT the auditor's responsibility when attending a client's inventory count?",
+      "options": {
+        "A": "Observing whether the client's staff follow the count instructions",
+        "B": "Counting all of the inventory and preparing the count sheets for the client",
+        "C": "Performing test counts in both directions between the records and the physical inventory",
+        "D": "Recording details of the last goods received and despatched notes for cut-off testing"
+      },
+      "correct": "B",
+      "explanation": "Management is responsible for counting the inventory and preparing the count records. The auditor attends to observe the count, perform test counts, gather cut-off information and note damaged or obsolete items. If the auditor performed the count, this would create a self-review threat and confuse responsibilities.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c08-q011",
+      "chapter": 8,
+      "topic": "Audit procedures and substantive testing",
+      "question_text": "Which of the following best describes analytical procedures?",
+      "options": {
+        "A": "Evaluations of financial information through analysis of plausible relationships among both financial and non-financial data",
+        "B": "Checking the arithmetical accuracy of documents and records",
+        "C": "Obtaining written responses directly from third parties",
+        "D": "Examining documents to confirm that transactions were authorised"
+      },
+      "correct": "A",
+      "explanation": "Analytical procedures involve comparing figures and ratios with expectations, such as prior years, budgets or industry data, and investigating fluctuations that are unusual. Checking arithmetic is recalculation, third-party responses are external confirmations, and examining documents for authorisation is inspection.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-ass-c08-q012",
+      "chapter": 8,
+      "topic": "Audit procedures and substantive testing",
+      "question_text": "A company's year end is 31 December. Its last electricity bill covered the period up to 31 October. The next quarterly bill, received in February, was £9,600 for the three months from 1 November to 31 January. What accrual should be recognised at 31 December?",
+      "options": {
+        "A": "£9,600",
+        "B": "£3,200",
+        "C": "£6,000",
+        "D": "£6,400"
+      },
+      "correct": "D",
+      "explanation": "Two of the three months covered by the bill (November and December) fall within the year. Accrual = £9,600 x 2/3 = £6,400. £9,600 would accrue the whole quarter including January, £3,200 is only one month, and £6,000 would be two-thirds of an estimate of £9,000 rather than the actual bill.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-ass-c09-q001",
+      "chapter": 9,
+      "topic": "Sampling and audit documentation",
+      "question_text": "Which of the following best describes audit sampling?",
+      "options": {
+        "A": "Testing all items above a set value and ignoring the rest of the population",
+        "B": "Selecting the items the auditor considers most interesting",
+        "C": "Testing every item in a population using computer software",
+        "D": "Applying audit procedures to less than 100% of items in a population so that every sampling unit has a chance of selection"
+      },
+      "correct": "D",
+      "explanation": "Audit sampling allows the auditor to draw conclusions about a whole population from a selection, provided each unit has a chance of being selected. Testing only high-value items is a targeted approach, not sampling, and leaves the remainder untested. Testing 100% of items is not sampling at all.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-ass-c09-q002",
+      "chapter": 9,
+      "topic": "Sampling and audit documentation",
+      "question_text": "Which of the following is a feature of statistical sampling?",
+      "options": {
+        "A": "Selection based on the auditor's judgement of which items are most likely to be misstated",
+        "B": "Testing only items processed in the last month of the year",
+        "C": "Selection of items without any defined method",
+        "D": "Random selection of items and the use of probability theory to evaluate the results"
+      },
+      "correct": "D",
+      "explanation": "Statistical sampling requires random selection and the use of probability theory to evaluate results, including measuring sampling risk. Any approach without both features is non-statistical. Judgemental selection and selecting only year-end items do not meet these requirements.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c09-q003",
+      "chapter": 9,
+      "topic": "Sampling and audit documentation",
+      "question_text": "An auditor wishes to select a sample of 60 sales invoices from a population of 2,400 invoices using systematic selection. What is the sampling interval?",
+      "options": {
+        "A": "40",
+        "B": "60",
+        "C": "24",
+        "D": "400"
+      },
+      "correct": "A",
+      "explanation": "Sampling interval = population size / sample size = 2,400 / 60 = 40. The auditor would choose a random starting point between 1 and 40 and then select every 40th invoice. 60 is the sample size, and 24 and 400 result from misplacing the decimal point.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c09-q004",
+      "chapter": 9,
+      "topic": "Sampling and audit documentation",
+      "question_text": "Which of the following describes haphazard selection?",
+      "options": {
+        "A": "The auditor selects items without following a structured technique, while trying to avoid any conscious bias",
+        "B": "Every nth item is selected after a random start",
+        "C": "Items are selected using random number generator software",
+        "D": "Items are selected in proportion to their monetary value"
+      },
+      "correct": "A",
+      "explanation": "Haphazard selection involves picking items without a structured method, trying to avoid bias such as always choosing large or easily located items. Because it is not truly random, it is not suitable for statistical sampling. The other options describe systematic, random and monetary unit selection.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c09-q005",
+      "chapter": 9,
+      "topic": "Sampling and audit documentation",
+      "question_text": "When testing controls, which of the following would increase the required sample size?",
+      "options": {
+        "A": "An increase in the tolerable rate of deviation",
+        "B": "A decrease in the level of reliance the auditor plans to place on the control",
+        "C": "An increase in the expected rate of deviation in the population",
+        "D": "An increase in the size of an already large population"
+      },
+      "correct": "C",
+      "explanation": "The more deviations the auditor expects to find, the larger the sample needed to conclude that the actual rate does not exceed the tolerable rate. A higher tolerable rate or lower planned reliance reduces the sample size. For large populations, increasing the population size has little effect on sample size.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-ass-c09-q006",
+      "chapter": 9,
+      "topic": "Sampling and audit documentation",
+      "question_text": "Which of the following is an example of non-sampling risk?",
+      "options": {
+        "A": "The sample selected happens not to be representative of the population",
+        "B": "The auditor concludes controls are effective when the population deviation rate is higher than in the sample",
+        "C": "The auditor examines a document but fails to recognise a misstatement in it",
+        "D": "The auditor concludes a balance is not materially misstated because the sample contained fewer errors than the population"
+      },
+      "correct": "C",
+      "explanation": "Non-sampling risk arises from factors other than sampling, for example using inappropriate procedures or misinterpreting evidence. Sampling risk is the risk that the auditor's conclusion based on a sample differs from the conclusion if the whole population were tested, which the other three options describe.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c09-q007",
+      "chapter": 9,
+      "topic": "Sampling and audit documentation",
+      "question_text": "An auditor tests a sample of receivables balances with a total value of £50,000 from a population of £800,000. Misstatements found in the sample total £1,500. Using ratio projection, what is the projected misstatement for the population?",
+      "options": {
+        "A": "£1,500",
+        "B": "£22,500",
+        "C": "£30,000",
+        "D": "£24,000"
+      },
+      "correct": "D",
+      "explanation": "Misstatement rate = £1,500 / £50,000 = 3%. Projected misstatement = 3% x £800,000 = £24,000. £1,500 is only the actual misstatement found and ignores the untested items. £22,500 applies the rate to the untested £750,000 only and omits the misstatement already found in the sample.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-ass-c09-q008",
+      "chapter": 9,
+      "topic": "Sampling and audit documentation",
+      "question_text": "Which of the following is NOT a purpose of audit documentation?",
+      "options": {
+        "A": "To provide the client with a copy of all working papers for its own records",
+        "B": "To provide evidence of the basis for the auditor's conclusions",
+        "C": "To provide evidence that the audit was planned and performed in accordance with auditing standards",
+        "D": "To help the engagement team plan and perform the audit and allow its work to be reviewed"
+      },
+      "correct": "A",
+      "explanation": "Audit documentation records the work done, the evidence obtained and the conclusions reached, and supports direction, supervision and review. It belongs to the audit firm and is not prepared for the client's use. Giving the client all working papers could also make future audits predictable.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-ass-c09-q009",
+      "chapter": 9,
+      "topic": "Sampling and audit documentation",
+      "question_text": "Which of the following must be recorded on audit working papers documenting the testing of a sample of purchase invoices?",
+      "options": {
+        "A": "The name of every employee who processed each invoice",
+        "B": "Who performed the work and the date, who reviewed it and the date, and identifying characteristics of the invoices tested",
+        "C": "The auditor's opinion on the financial statements as a whole",
+        "D": "The total fee charged for the audit"
+      },
+      "correct": "B",
+      "explanation": "Auditing standards require documentation of the identifying characteristics of items tested, who performed and reviewed the work, and when. This allows the work to be reviewed and repeated if needed. Employee names for each invoice, the overall opinion and the audit fee are not required on a working paper for a sample test.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c09-q010",
+      "chapter": 9,
+      "topic": "Sampling and audit documentation",
+      "question_text": "Who owns the audit working papers prepared during a statutory audit?",
+      "options": {
+        "A": "The client company",
+        "B": "The audit firm",
+        "C": "The client's shareholders",
+        "D": "The Registrar of Companies"
+      },
+      "correct": "B",
+      "explanation": "Working papers are the property of the audit firm. The firm may make parts of them available to the client at its discretion, provided this does not undermine the independence or effectiveness of the audit. The firm must also keep them confidential and secure.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c09-q011",
+      "chapter": 9,
+      "topic": "Sampling and audit documentation",
+      "question_text": "After the final audit file has been assembled, the auditor finds it necessary to add new documentation. Which of the following is permitted?",
+      "options": {
+        "A": "Deleting earlier working papers that are no longer considered relevant",
+        "B": "Replacing working papers with revised versions without recording the change",
+        "C": "Adding the documentation, provided the auditor records the reasons and when and by whom it was added and reviewed",
+        "D": "Discarding the audit file once the client has accepted the auditor's report"
+      },
+      "correct": "C",
+      "explanation": "After the final file is assembled, documentation must not be deleted or discarded before the end of the retention period. If it is necessary to add to or modify the file, the auditor must document the specific reasons, when the changes were made and reviewed, and by whom. Silent replacement would undermine the integrity of the audit record.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-ass-c10-q001",
+      "chapter": 10,
+      "topic": "Professional ethics: principles, threats and safeguards",
+      "question_text": "Which of the following is NOT one of the fundamental principles in the ICAEW Code of Ethics?",
+      "options": {
+        "A": "Integrity",
+        "B": "Objectivity",
+        "C": "Professional behaviour",
+        "D": "Independence"
+      },
+      "correct": "D",
+      "explanation": "The five fundamental principles are integrity, objectivity, professional competence and due care, confidentiality, and professional behaviour. Independence is closely linked to objectivity and is required of auditors and other assurance providers under the independence requirements, but it is not itself one of the five fundamental principles.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-ass-c10-q002",
+      "chapter": 10,
+      "topic": "Professional ethics: principles, threats and safeguards",
+      "question_text": "Which fundamental principle requires a professional accountant to be straightforward and honest in all professional and business relationships?",
+      "options": {
+        "A": "Integrity",
+        "B": "Objectivity",
+        "C": "Professional behaviour",
+        "D": "Professional competence and due care"
+      },
+      "correct": "A",
+      "explanation": "Integrity means being straightforward and honest, so an accountant should not knowingly be associated with misleading information. Objectivity concerns not allowing bias, conflicts of interest or undue influence to override judgement. Professional behaviour involves complying with laws and avoiding conduct that discredits the profession.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-ass-c10-q003",
+      "chapter": 10,
+      "topic": "Professional ethics: principles, threats and safeguards",
+      "question_text": "An audit firm prepares a client's financial statements and then audits them. Which threat to objectivity does this create?",
+      "options": {
+        "A": "Advocacy",
+        "B": "Intimidation",
+        "C": "Familiarity",
+        "D": "Self-review"
+      },
+      "correct": "D",
+      "explanation": "A self-review threat arises when the firm evaluates its own previous work, as the audit team may fail to identify, or be reluctant to report, errors in statements their firm prepared. Advocacy involves promoting the client's position, intimidation involves pressure on the auditor, and familiarity arises from close relationships.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c10-q004",
+      "chapter": 10,
+      "topic": "Professional ethics: principles, threats and safeguards",
+      "question_text": "A senior partner has acted as audit engagement partner for the same client for many years and has developed close friendships with its directors. Which threat does this create?",
+      "options": {
+        "A": "Self-interest",
+        "B": "Familiarity",
+        "C": "Self-review",
+        "D": "Advocacy"
+      },
+      "correct": "B",
+      "explanation": "Long association with a client can create a familiarity threat because the partner may become too sympathetic to the directors and less sceptical. A common safeguard is rotating senior personnel off the engagement. Self-interest involves financial or other personal interests, and self-review involves checking the firm's own work.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c10-q005",
+      "chapter": 10,
+      "topic": "Professional ethics: principles, threats and safeguards",
+      "question_text": "The finance director of an audit client tells the audit partner that the company will change auditors unless the partner agrees to a favourable accounting treatment. Which threat does this create?",
+      "options": {
+        "A": "Familiarity",
+        "B": "Intimidation",
+        "C": "Self-review",
+        "D": "Advocacy"
+      },
+      "correct": "B",
+      "explanation": "An intimidation threat arises when the auditor is deterred from acting objectively by actual or perceived pressure, such as a threat of dismissal. The partner should not give in to the pressure and should consider discussing the matter with those charged with governance and others within the firm.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c10-q006",
+      "chapter": 10,
+      "topic": "Professional ethics: principles, threats and safeguards",
+      "question_text": "An audit firm promotes the shares of an audit client to potential investors. Which threat does this create?",
+      "options": {
+        "A": "Intimidation",
+        "B": "Familiarity",
+        "C": "Self-review",
+        "D": "Advocacy"
+      },
+      "correct": "D",
+      "explanation": "An advocacy threat arises when the firm promotes a client's position to the point that its objectivity may be compromised. Promoting the client's shares aligns the firm with the client's interests, which is incompatible with the independent role of the auditor.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c10-q007",
+      "chapter": 10,
+      "topic": "Professional ethics: principles, threats and safeguards",
+      "question_text": "An audit manager has inherited shares in a company that the firm audits. What is the appropriate action?",
+      "options": {
+        "A": "The manager can stay on the audit provided the shareholding is disclosed in the auditor's report",
+        "B": "The manager should dispose of the shares as soon as practicable or be removed from the audit team",
+        "C": "No action is needed because the shares were inherited rather than purchased",
+        "D": "The manager should buy more shares so that the holding is clearly disclosed to the board"
+      },
+      "correct": "B",
+      "explanation": "A direct financial interest in an audit client creates a self-interest threat so significant that no safeguard other than disposal or removal from the team is adequate. The way the shares were acquired does not change the threat, although it allows a short period to dispose of them. Disclosure in the auditor's report is not an acceptable safeguard.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c10-q008",
+      "chapter": 10,
+      "topic": "Professional ethics: principles, threats and safeguards",
+      "question_text": "Fees from one audit client form a large and growing proportion of an audit firm's total fee income. Which threat arises and which safeguard is most appropriate?",
+      "options": {
+        "A": "A self-interest threat; disclose the position to those charged with governance and arrange an independent review of the audit work",
+        "B": "A self-review threat; ask the client to prepare its own financial statements",
+        "C": "A familiarity threat; rotate the junior staff on the audit",
+        "D": "An advocacy threat; decline to represent the client in disputes with HM Revenue & Customs"
+      },
+      "correct": "A",
+      "explanation": "Fee dependence creates a self-interest threat, because the firm may be reluctant to upset a client whose fees it cannot afford to lose. Appropriate safeguards include disclosure to those charged with governance and an engagement quality review by someone outside the team, or reducing the work for the client. The other threats and safeguards do not address economic dependence.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-ass-c10-q009",
+      "chapter": 10,
+      "topic": "Professional ethics: principles, threats and safeguards",
+      "question_text": "An audit client offers the audit team free tickets to a major sporting event as thanks for their work. What should the audit team do?",
+      "options": {
+        "A": "Decline the tickets unless their value is trivial and inconsequential",
+        "B": "Accept the tickets because the audit has already been completed",
+        "C": "Accept the tickets provided the audit partner attends as well",
+        "D": "Accept the tickets and disclose them in the auditor's report"
+      },
+      "correct": "A",
+      "explanation": "Gifts and hospitality from an audit client create self-interest and familiarity threats. They should be accepted only if a reasonable and informed third party would consider them trivial and inconsequential. Valuable tickets to a major event are unlikely to meet this test, and disclosure in the report is not an acceptable safeguard.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c10-q010",
+      "chapter": 10,
+      "topic": "Professional ethics: principles, threats and safeguards",
+      "question_text": "Which of the following fee arrangements for a statutory audit would be unacceptable?",
+      "options": {
+        "A": "A fee based on the time spent by staff at agreed hourly rates",
+        "B": "A fee calculated as a percentage of the client's reported profit before tax",
+        "C": "A fixed fee agreed in advance, reflecting the expected work",
+        "D": "A fee that increases because the client's business has grown and the audit involves more work"
+      },
+      "correct": "B",
+      "explanation": "A contingent fee, where the fee depends on the outcome of the work or a result such as reported profit, creates a self-interest threat so significant that it is not permitted for an audit. Time-based fees, fixed fees and fees reflecting the work required are all acceptable, provided the fee is sufficient to allow a proper audit.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-ass-c10-q011",
+      "chapter": 10,
+      "topic": "Professional ethics: principles, threats and safeguards",
+      "question_text": "An accountant's advertising claims that the firm 'guarantees to cut your tax bill by half'. Which fundamental principle is most likely to be breached?",
+      "options": {
+        "A": "Confidentiality",
+        "B": "Objectivity",
+        "C": "Professional competence and due care",
+        "D": "Professional behaviour"
+      },
+      "correct": "D",
+      "explanation": "Professional behaviour requires accountants to avoid conduct that discredits the profession, including making exaggerated claims about the services they can offer. A guarantee of a particular tax saving cannot be honestly given. Confidentiality and objectivity are not directly affected by the advertising claim.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c10-q012",
+      "chapter": 10,
+      "topic": "Professional ethics: principles, threats and safeguards",
+      "question_text": "Which of the following best describes the conceptual framework approach to ethics in the ICAEW Code?",
+      "options": {
+        "A": "Follow a complete list of prohibited activities, as anything not listed is permitted",
+        "B": "Identify threats to compliance with the fundamental principles, evaluate their significance, and eliminate them or reduce them to an acceptable level, declining or ending the work if this is not possible",
+        "C": "Accept all threats, provided they are disclosed to the client in the engagement letter",
+        "D": "Refer every ethical issue to the client's audit committee for a decision"
+      },
+      "correct": "B",
+      "explanation": "The Code uses a principles-based conceptual framework rather than a complete set of rules. Accountants identify threats, evaluate them using the reasonable and informed third party test, and address them by eliminating the circumstances, applying safeguards or declining the engagement. Disclosure alone, or passing decisions to the client, does not meet these requirements.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-ass-c11-q001",
+      "chapter": 11,
+      "topic": "Confidentiality, money laundering and regulation",
+      "question_text": "In which of the following situations is an accountant REQUIRED to disclose confidential client information?",
+      "options": {
+        "A": "When the accountant knows or suspects that the client is engaged in money laundering and must make a report",
+        "B": "When a journalist asks for details of the client's financial results",
+        "C": "When a potential investor in the client asks for information",
+        "D": "When another client asks about the creditworthiness of the client"
+      },
+      "correct": "A",
+      "explanation": "Confidential information must not be disclosed without proper authority unless there is a legal or professional right or duty to disclose. UK law requires accountants in the regulated sector to report knowledge or suspicion of money laundering. Requests from journalists, investors or other clients do not create a duty to disclose and could breach confidentiality.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c11-q002",
+      "chapter": 11,
+      "topic": "Confidentiality, money laundering and regulation",
+      "question_text": "During an audit, a senior learns that the client is about to make a takeover bid for a listed company. The senior buys shares in the target company. Which fundamental principle is primarily breached?",
+      "options": {
+        "A": "Confidentiality",
+        "B": "Professional competence and due care",
+        "C": "Objectivity",
+        "D": "Professional behaviour only, as the information was not disclosed to anyone"
+      },
+      "correct": "A",
+      "explanation": "Confidentiality prohibits using information obtained through professional work for personal advantage, as well as disclosing it. Using the information to buy shares breaches this principle and may also amount to insider dealing. It is not only a matter of professional behaviour, because the information was used even though it was not disclosed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c11-q003",
+      "chapter": 11,
+      "topic": "Confidentiality, money laundering and regulation",
+      "question_text": "A criminal deposits cash from drug dealing into several bank accounts in small amounts. Which stage of money laundering does this illustrate?",
+      "options": {
+        "A": "Layering",
+        "B": "Placement",
+        "C": "Integration",
+        "D": "Concealment"
+      },
+      "correct": "B",
+      "explanation": "Placement is the initial stage, where criminal proceeds, often cash, are introduced into the financial system. Layering involves complex transactions to hide the source of the funds, and integration is when the funds re-enter the legitimate economy appearing clean.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-ass-c11-q004",
+      "chapter": 11,
+      "topic": "Confidentiality, money laundering and regulation",
+      "question_text": "Which of the following best describes the 'layering' stage of money laundering?",
+      "options": {
+        "A": "Introducing cash proceeds of crime into the banking system",
+        "B": "Using the funds to buy legitimate assets so they appear clean",
+        "C": "Carrying out complex transactions to obscure the link between the funds and their criminal source",
+        "D": "Reporting the funds to the authorities"
+      },
+      "correct": "C",
+      "explanation": "Layering involves moving funds through a series of transactions, such as transfers between accounts or jurisdictions, to make the audit trail difficult to follow. Introducing cash is placement, and using funds to buy legitimate assets is integration.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c11-q005",
+      "chapter": 11,
+      "topic": "Confidentiality, money laundering and regulation",
+      "question_text": "An accountant reports a suspicion of money laundering by a client to the firm's money laundering reporting officer. Afterwards the accountant tells the client that a report has been made. Which offence may the accountant have committed?",
+      "options": {
+        "A": "Failure to report",
+        "B": "Placement",
+        "C": "Tipping off",
+        "D": "Breach of the duty of care"
+      },
+      "correct": "C",
+      "explanation": "Tipping off is the offence of disclosing that a report has been made, or that an investigation is under way, where this is likely to prejudice an investigation. The accountant did make the required report, so there has been no failure to report. Placement is a stage of money laundering rather than an offence by the accountant.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c11-q006",
+      "chapter": 11,
+      "topic": "Confidentiality, money laundering and regulation",
+      "question_text": "How should an employee of an accountancy firm report a suspicion of money laundering by a client?",
+      "options": {
+        "A": "Directly to the client's board of directors",
+        "B": "In the auditor's report to the shareholders",
+        "C": "To the firm's money laundering reporting officer, who decides whether to make a report to the National Crime Agency",
+        "D": "To the firm's marketing partner, who will decide whether to continue acting for the client"
+      },
+      "correct": "C",
+      "explanation": "Regulated firms must appoint a nominated officer, usually called the money laundering reporting officer. Staff make internal reports to this officer, who considers them and decides whether to submit a suspicious activity report to the National Crime Agency. Informing the client could amount to tipping off.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c11-q007",
+      "chapter": 11,
+      "topic": "Confidentiality, money laundering and regulation",
+      "question_text": "Which of the following statements about the offence of failing to report money laundering by a person in the UK regulated sector is correct?",
+      "options": {
+        "A": "The offence is committed only if the person had actual proof of money laundering",
+        "B": "The offence does not apply to accountants, only to banks",
+        "C": "The offence can be committed where there were reasonable grounds to know or suspect money laundering, even if the person did not actually suspect it",
+        "D": "The offence applies only where the amount involved exceeds the audit materiality level"
+      },
+      "correct": "C",
+      "explanation": "For the regulated sector the test is objective as well as subjective: a person who should reasonably have known or suspected money laundering may commit an offence by not reporting. Proof is not required, the regulated sector includes accountants and auditors, and there is no materiality threshold for reporting suspicions.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-ass-c11-q008",
+      "chapter": 11,
+      "topic": "Confidentiality, money laundering and regulation",
+      "question_text": "In the UK, which type of body is responsible for registering and monitoring firms eligible to carry out statutory audits, such as ICAEW?",
+      "options": {
+        "A": "A recognised qualifying body only",
+        "B": "A recognised supervisory body",
+        "C": "The Registrar of Companies",
+        "D": "HM Revenue & Customs"
+      },
+      "correct": "B",
+      "explanation": "Statutory auditors must be members of a recognised supervisory body, which registers eligible firms and monitors their audit work through inspections, under oversight by the competent authority. A recognised qualifying body awards the audit qualification. The Registrar of Companies and HM Revenue & Customs do not regulate auditors.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c11-q009",
+      "chapter": 11,
+      "topic": "Confidentiality, money laundering and regulation",
+      "question_text": "An accountancy firm is asked to advise two clients who are competing to buy the same business. What is the most appropriate response?",
+      "options": {
+        "A": "Advise both without telling either, as long as the work is done well",
+        "B": "Always advise the client who pays the higher fee",
+        "C": "Share each client's bid strategy with the other so that both are treated equally",
+        "D": "Advise both only if the conflict is disclosed, both clients consent, and safeguards such as separate teams and information barriers are applied"
+      },
+      "correct": "D",
+      "explanation": "Acting for competing clients creates a conflict of interest that threatens objectivity and confidentiality. The firm may continue only if the threats can be reduced to an acceptable level, normally by disclosure, obtaining consent and using separate teams with information barriers. Sharing information would breach confidentiality, and choosing by fee level is not an ethical basis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c11-q010",
+      "chapter": 11,
+      "topic": "Confidentiality, money laundering and regulation",
+      "question_text": "Which of the following situations is most likely to give an accountant grounds to suspect money laundering under the Proceeds of Crime Act 2002?",
+      "options": {
+        "A": "A client makes a genuine arithmetical error in its VAT return and corrects it promptly",
+        "B": "A client deliberately fails to declare income to HM Revenue & Customs and keeps the tax saved",
+        "C": "A client chooses a tax-efficient pension contribution permitted by law",
+        "D": "A client makes a loss on a legitimate investment"
+      },
+      "correct": "B",
+      "explanation": "Under the Act, criminal property includes any benefit from criminal conduct, including money saved through deliberate tax evasion. Retaining the tax saved therefore involves criminal property, and an accountant aware of it would need to consider reporting. Honest mistakes that are corrected, legal tax planning and investment losses are not criminal conduct.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-ass-c12-q001",
+      "chapter": 12,
+      "topic": "Completing the engagement and reporting",
+      "question_text": "What is the auditor's responsibility for events occurring between the date of the financial statements and the date of the auditor's report?",
+      "options": {
+        "A": "No responsibility, because the audit covers only the financial year",
+        "B": "To guarantee that no significant events have occurred",
+        "C": "To prepare the disclosures of any events identified",
+        "D": "To perform procedures designed to identify events that may require adjustment of, or disclosure in, the financial statements"
+      },
+      "correct": "D",
+      "explanation": "The auditor must perform procedures, such as reviewing board minutes and management accounts and making inquiries, to identify subsequent events that need adjustment or disclosure. The directors remain responsible for preparing the disclosures. No guarantee can be given that all events have been found.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-ass-c12-q002",
+      "chapter": 12,
+      "topic": "Completing the engagement and reporting",
+      "question_text": "Which of the following events occurring after the reporting date would normally be an adjusting event?",
+      "options": {
+        "A": "A major customer that owed the company money at the year end goes into liquidation",
+        "B": "A fire destroys a warehouse two months after the year end",
+        "C": "The company announces a plan to close a division after the year end",
+        "D": "The company issues new shares after the year end"
+      },
+      "correct": "A",
+      "explanation": "An adjusting event provides evidence of conditions that existed at the reporting date. The customer's liquidation shortly after the year end usually shows that the receivable was already impaired at the year end. The fire, the closure announcement and the share issue arise from conditions after the year end, so they are non-adjusting, although they may need disclosure if material.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c12-q003",
+      "chapter": 12,
+      "topic": "Completing the engagement and reporting",
+      "question_text": "Which of the following is most likely to cast doubt on a company's ability to continue as a going concern?",
+      "options": {
+        "A": "A small increase in staff turnover",
+        "B": "A change of the company's external auditor",
+        "C": "The payment of a dividend in line with previous years",
+        "D": "The loss of its largest customer and the bank's refusal to renew its overdraft facility"
+      },
+      "correct": "D",
+      "explanation": "Losing a key customer reduces future cash inflows, and losing bank finance removes a source of funding, so together they may mean the company cannot pay its debts as they fall due. Small changes in staff turnover, a change of auditor or a normal dividend are not, on their own, indicators of going concern problems.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c12-q004",
+      "chapter": 12,
+      "topic": "Completing the engagement and reporting",
+      "question_text": "In an unmodified auditor's report on the financial statements of a UK company, what does the auditor's opinion state?",
+      "options": {
+        "A": "Whether the company's internal controls are effective",
+        "B": "Whether the company will be profitable next year",
+        "C": "Whether every transaction has been recorded correctly",
+        "D": "Whether the financial statements give a true and fair view and have been properly prepared in accordance with the applicable framework and the Companies Act 2006"
+      },
+      "correct": "D",
+      "explanation": "The opinion on UK company financial statements covers whether they give a true and fair view and have been properly prepared in accordance with the applicable financial reporting framework and the Companies Act 2006. The audit opinion does not certify internal control, predict future profits, or confirm that every transaction is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-ass-c12-q005",
+      "chapter": 12,
+      "topic": "Completing the engagement and reporting",
+      "question_text": "An auditor concludes that inventory is materially overstated but the effect is not pervasive. The directors refuse to adjust it. What type of opinion should be given?",
+      "options": {
+        "A": "An adverse opinion",
+        "B": "A disclaimer of opinion",
+        "C": "A qualified opinion",
+        "D": "An unmodified opinion with an emphasis of matter paragraph"
+      },
+      "correct": "C",
+      "explanation": "Where misstatements are material but not pervasive, the auditor gives a qualified 'except for' opinion. An adverse opinion is used where misstatements are both material and pervasive, and a disclaimer is used when the auditor cannot obtain sufficient appropriate evidence and the possible effects could be material and pervasive. An emphasis of matter paragraph does not modify the opinion.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c12-q006",
+      "chapter": 12,
+      "topic": "Completing the engagement and reporting",
+      "question_text": "Because of a fire that destroyed most of the client's accounting records, the auditor cannot obtain sufficient appropriate evidence over most balances, and the possible effects are both material and pervasive. What type of opinion should be given?",
+      "options": {
+        "A": "An adverse opinion",
+        "B": "A disclaimer of opinion",
+        "C": "A qualified opinion",
+        "D": "An unmodified opinion with an emphasis of matter paragraph"
+      },
+      "correct": "B",
+      "explanation": "When the auditor cannot obtain sufficient appropriate evidence and the possible effects of undetected misstatements could be both material and pervasive, the auditor does not express an opinion. A qualified opinion is used if the possible effects are material but not pervasive. An adverse opinion relates to misstatements that have been identified, not to a lack of evidence.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-ass-c12-q007",
+      "chapter": 12,
+      "topic": "Completing the engagement and reporting",
+      "question_text": "An auditor concludes that the financial statements contain misstatements that are both material and pervasive, and management refuses to correct them. What type of opinion is required?",
+      "options": {
+        "A": "A disclaimer of opinion",
+        "B": "A qualified opinion",
+        "C": "An adverse opinion",
+        "D": "An unmodified opinion with an other matter paragraph"
+      },
+      "correct": "C",
+      "explanation": "If the auditor has obtained sufficient appropriate evidence and concludes that misstatements are both material and pervasive, the opinion is adverse: the financial statements do not give a true and fair view. A disclaimer relates to a lack of evidence, and a qualified opinion is used where the effect is material but not pervasive.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-ass-c12-q008",
+      "chapter": 12,
+      "topic": "Completing the engagement and reporting",
+      "question_text": "Which of the following statements about an emphasis of matter paragraph is correct?",
+      "options": {
+        "A": "It is used to qualify the opinion where there is a material misstatement",
+        "B": "It draws users' attention to a matter properly presented or disclosed in the financial statements that is fundamental to their understanding, and does not modify the opinion",
+        "C": "It replaces the opinion paragraph where evidence is insufficient",
+        "D": "It is used to disclose matters that the directors have refused to disclose"
+      },
+      "correct": "B",
+      "explanation": "An emphasis of matter paragraph highlights a matter that is appropriately presented or disclosed, such as a major uncertainty, which is fundamental to users' understanding. It is not a substitute for a modified opinion: if a matter is misstated or not disclosed properly, the opinion itself must be modified.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-ass-c12-q009",
+      "chapter": 12,
+      "topic": "Completing the engagement and reporting",
+      "question_text": "When should the written representations obtained from management be dated?",
+      "options": {
+        "A": "On the last day of the financial year",
+        "B": "At the start of the audit fieldwork",
+        "C": "At least three months after the date of the auditor's report",
+        "D": "As near as practicable to, but not after, the date of the auditor's report"
+      },
+      "correct": "D",
+      "explanation": "Written representations should cover all periods referred to in the auditor's report and be dated as near as practicable to, but not after, the date of that report. This ensures they cover events up to the date the opinion is given. Representations dated earlier would not cover the full period, and later ones would be too late to support the opinion.",
+      "difficulty": "medium"
+    }
+  ]
+}
