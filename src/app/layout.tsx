@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import CommandMenu from "@/components/CommandMenu";
+import { AdsLoader } from "@/components/AdSlot";
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
@@ -139,9 +140,10 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
 
-        {/* Google Analytics */}
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1174752834339259"
-             crossOrigin="anonymous"></script>
+        {/* AdSense site ownership (lets Google verify the site even though the ad script loads client-side) */}
+        <meta name="google-adsense-account" content="ca-pub-1174752834339259" />
+
+        {/* Google Analytics (AdSense is loaded by <AdsLoader /> for non-Pro visitors only) */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-N3ENZXNP07" />
         <script dangerouslySetInnerHTML={{ __html: `
           window.dataLayer = window.dataLayer || [];
@@ -209,6 +211,7 @@ export default function RootLayout({
         suppressHydrationWarning
       >
         <ThemeProvider>
+          <AdsLoader />
           <CommandMenu />
           <Header />
           <main className="flex-1 w-full">{children}</main>

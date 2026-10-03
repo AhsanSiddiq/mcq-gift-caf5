@@ -30,6 +30,7 @@ export default async function QuizPage({ params, searchParams }: { params: Promi
     modeParam === "topical" ? "topical"
     : modeParam === "all" ? "all"
     : modeParam === "flagged" ? "flagged"
+    : modeParam === "exam" ? "exam"
     : "random";
   const chapter = chapterParam ? parseInt(chapterParam, 10) : undefined;
 

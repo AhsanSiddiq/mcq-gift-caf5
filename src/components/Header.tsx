@@ -8,13 +8,15 @@ import { Sun, Moon, BookOpen } from "lucide-react";
 import { allSubjects } from "@/data/subjects";
 import { useTheme } from "@/components/ThemeProvider";
 import { motion, AnimatePresence } from "framer-motion";
+import RegionSwitcher from "@/components/RegionSwitcher";
 
 const NAV_LINKS = [
   { label: "CA Roadmap",   href: "/#path" },
   { label: "MCQ Practice", href: "/practice" },
+  { label: "Exams",        href: "/exams" },
   { label: "CV Maker",     href: "/cv-maker" },
-  { label: "About",        href: "/#story" },
   { label: "Blogs",        href: "/#articles" },
+  { label: "Pro",          href: "/pro" },
 ];
 
 export default function Header() {
@@ -154,6 +156,9 @@ export default function Header() {
           {/* ── RIGHT ────────────────────────────── */}
           <div className="flex items-center gap-2.5 shrink-0">
 
+            {/* Exam-body / region switcher - desktop only (mobile copy lives in the menu) */}
+            {!isMobile && <RegionSwitcher />}
+
             {/* Theme toggle */}
             <button
               onClick={toggle}
@@ -241,6 +246,9 @@ export default function Header() {
                 </Link>
               ))}
               <div style={{ height: 1, background: "var(--border)", margin: "8px 0" }} />
+              <div style={{ padding: "0 0 10px" }}>
+                <RegionSwitcher variant="inline" onSelect={() => setOpen(false)} />
+              </div>
               <Link
                 href="/caf/caf-5"
                 onClick={() => setOpen(false)}

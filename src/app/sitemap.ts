@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { EXAM_BODIES } from "@/data/regions";
 
 const BASE_URL = "https://thecahub.com";
 
@@ -9,6 +10,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: BASE_URL,                              priority: 1.0,  changeFrequency: "weekly"  as const },
     { url: `${BASE_URL}/practice`,                priority: 0.95, changeFrequency: "weekly"  as const },
     { url: `${BASE_URL}/cv-maker`,                priority: 0.95, changeFrequency: "monthly" as const },
+    { url: `${BASE_URL}/exams`,                   priority: 0.9,  changeFrequency: "weekly"  as const },
+    { url: `${BASE_URL}/pro`,                     priority: 0.8,  changeFrequency: "monthly" as const },
     { url: `${BASE_URL}/about`,                   priority: 0.7,  changeFrequency: "monthly" as const },
     { url: `${BASE_URL}/contact`,                 priority: 0.6,  changeFrequency: "yearly"  as const },
     { url: `${BASE_URL}/privacy-policy`,          priority: 0.3,  changeFrequency: "yearly"  as const },
@@ -30,7 +33,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/caf/${sub}/topical`,  priority: 0.8,  changeFrequency: "weekly"  as const },
   ]);
 
-  return [...staticPages, ...prcPages, ...cafPages].map((page) => ({
+  // Global exam-body landing pages (live + waitlist)
+  const examPages = EXAM_BODIES.map((b) => ({
+    url: `${BASE_URL}/exams/${b.id}`,
+    priority: b.status === "live" ? 0.85 : 0.7,
+    changeFrequency: "weekly" as const,
+  }));
+
+  return [...staticPages, ...examPages, ...prcPages, ...cafPages].map((page) => ({
     ...page,
     lastModified: now,
   }));

@@ -1,19 +1,18 @@
 import { NextRequest, NextResponse } from "next/server";
-import { createClient } from "@supabase/supabase-js";
+import { adminSupabase as supabase, verifySession } from "@/lib/session";
 
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_KEY!
-);
-
-// GET /api/progress?email=x&token=y&subject=z
+// GET /api/progress?subject=z   (headers: x-cah-email, x-cah-token)
 export async function GET(req: NextRequest) {
   const { searchParams } = new URL(req.url);
-  const email = searchParams.get("email")?.toLowerCase().trim();
+  const email = (req.headers.get("x-cah-email") || searchParams.get("email"))?.toLowerCase().trim();
+  const token = req.headers.get("x-cah-token") || searchParams.get("token");
   const subjectId = searchParams.get("subject");
 
   if (!email) {
     return NextResponse.json({ error: "Email required." }, { status: 400 });
+  }
+  if (!(await verifySession(email, token))) {
+    return NextResponse.json({ error: "Session expired. Please sign in again." }, { status: 401 });
   }
 
   let query = supabase
@@ -22,7 +21,7 @@ export async function GET(req: NextRequest) {
     .eq("email", email)
     .neq("subject_id", "__session__");
 
-  if (subjectId) query = (query as any).eq("subject_id", subjectId);
+  if (subjectId) query = query.eq("subject_id", subjectId);
 
   const { data, error } = await query;
 
@@ -34,16 +33,19 @@ export async function GET(req: NextRequest) {
   return NextResponse.json({ progress: data ?? [] });
 }
 
-// POST /api/progress — body: { email, subject_id, progress }
+// POST /api/progress — body: { email, token, subject_id, progress }
 export async function POST(req: NextRequest) {
   try {
-    const { email, subject_id, progress } = await req.json();
+    const { email, token, subject_id, progress } = await req.json();
 
-    if (!email || !subject_id || !progress) {
+    if (!email || !subject_id || !progress || typeof subject_id !== "string" || subject_id === "__session__") {
       return NextResponse.json({ error: "Missing fields." }, { status: 400 });
     }
 
-    const normalizedEmail = email.toLowerCase().trim();
+    const normalizedEmail = String(email).toLowerCase().trim();
+    if (!(await verifySession(normalizedEmail, token))) {
+      return NextResponse.json({ error: "Session expired. Please sign in again." }, { status: 401 });
+    }
 
     const { error } = await supabase
       .from("user_progress")

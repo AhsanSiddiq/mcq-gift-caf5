@@ -4,6 +4,7 @@ import Link from "next/link";
 import { prcSubjects, cafSubjects } from "@/data/subjects";
 import { BookOpen, Lock } from "lucide-react";
 import { useEffect, useState } from "react";
+import AdSlot from "@/components/AdSlot";
 
 const LEVEL_META: Record<string, { label: string; tag: string; color: string; bg: string; desc: string }> = {
   PRC: {
@@ -178,6 +179,22 @@ export default function PracticePage() {
         {/* Sections */}
         <Section level="PRC" subjects={prcSubjects} counts={counts} isLoadingCounts={isLoadingCounts} />
         <Section level="CAF" subjects={cafSubjects} counts={counts} isLoadingCounts={isLoadingCounts} />
+
+        <AdSlot />
+
+        {/* Other countries */}
+        <Link href="/exams" className="mt-10 flex items-center justify-between gap-4 rounded-2xl p-5 sm:p-6"
+          style={{ background: "var(--bg-2)", border: "1px solid var(--border)", textDecoration: "none" }}>
+          <span>
+            <span className="block font-bold" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
+              Studying ACCA, CA India, CIMA, ICAEW or CPA?
+            </span>
+            <span className="block text-sm" style={{ color: "var(--text-2)" }}>
+              We&apos;re expanding to every accountancy body. Pick yours and get early access.
+            </span>
+          </span>
+          <span className="shrink-0 font-bold text-sm" style={{ color: "var(--green)" }}>All exams →</span>
+        </Link>
 
         {/* Community Volunteer CTA */}
         <div className="mt-24 group relative rounded-3xl overflow-hidden"

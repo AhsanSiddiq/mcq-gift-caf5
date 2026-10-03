@@ -1,21 +1,12 @@
 import { NextRequest, NextResponse } from "next/server";
-import { createClient } from "@supabase/supabase-js";
-import crypto from "crypto";
+import { adminSupabase as supabase, newSessionToken, storeSessionToken } from "@/lib/session";
 
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_KEY!
-);
-
-function generateToken(email: string): string {
-  const secret = process.env.OTP_SECRET || "fallback_secret";
-  return crypto.createHmac("sha256", secret).update(email + "|" + Date.now()).digest("hex");
-}
+const MAX_ATTEMPTS = 5;
 
 export async function POST(req: NextRequest) {
   try {
     const { email, otp } = await req.json();
-    if (!email || !otp) {
+    if (!email || !otp || typeof email !== "string" || typeof otp !== "string") {
       return NextResponse.json({ error: "Email and OTP required." }, { status: 400 });
     }
 
@@ -36,7 +27,14 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "OTP expired or not found. Please request a new one." }, { status: 400 });
     }
 
+    const attempts: number = session.attempts ?? 0;
+    if (attempts >= MAX_ATTEMPTS) {
+      return NextResponse.json({ error: "Too many wrong attempts. Please request a new code." }, { status: 429 });
+    }
+
     if (session.otp_code !== otp.trim()) {
+      // Best-effort: the attempts column is added by supabase/migrations/20261003_growth.sql
+      await supabase.from("otp_sessions").update({ attempts: attempts + 1 }).eq("id", session.id);
       return NextResponse.json({ error: "Incorrect OTP. Please try again." }, { status: 400 });
     }
 
@@ -46,16 +44,8 @@ export async function POST(req: NextRequest) {
       .update({ verified: true })
       .eq("id", session.id);
 
-    // Generate a session token
-    const token = generateToken(normalizedEmail);
-
-    // Store token in user_progress table as a lightweight session marker
-    await supabase
-      .from("user_progress")
-      .upsert(
-        { email: normalizedEmail, subject_id: "__session__", progress_json: { token, created_at: new Date().toISOString() } },
-        { onConflict: "email,subject_id" }
-      );
+    const token = newSessionToken();
+    await storeSessionToken(normalizedEmail, token);
 
     return NextResponse.json({ success: true, token, email: normalizedEmail });
   } catch (err) {
