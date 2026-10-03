@@ -1,0 +1,2255 @@
+{
+  "subject_id": "cma-p2",
+  "questions": [
+    {
+      "id": "cma-p2-c01-q001",
+      "chapter": 1,
+      "topic": "Financial statement analysis: liquidity, activity and solvency",
+      "question_text": "In a common-size (vertical) analysis of the income statement, each line item is expressed as a percentage of which amount?",
+      "options": {
+        "A": "Total assets at the end of the period",
+        "B": "The same line item in the base year",
+        "C": "Net income for the same period",
+        "D": "Net sales (revenue) for the same period"
+      },
+      "correct": "D",
+      "explanation": "Vertical (common-size) analysis of the income statement expresses every line item as a percentage of net sales for the same period, so that cost structures can be compared across periods and between companies of different sizes. Expressing an item as a percentage of the same item in a base year is horizontal (trend) analysis. Common-size balance sheets use total assets as the base, not the income statement.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c01-q002",
+      "chapter": 1,
+      "topic": "Financial statement analysis: liquidity, activity and solvency",
+      "question_text": "Harlow Supply Co. reported net sales of $840,000 in Year 1 and $966,000 in Year 2. Using horizontal analysis with Year 1 as the base year, what is the percentage change in net sales?",
+      "options": {
+        "A": "15.0%",
+        "B": "115.0%",
+        "C": "7.0%",
+        "D": "13.0%"
+      },
+      "correct": "A",
+      "explanation": "Horizontal analysis measures the change from the base year: ($966,000 - $840,000) / $840,000 = $126,000 / $840,000 = 15.0%. Dividing the change by Year 2 sales (13.0%) uses the wrong base, and 115.0% is Year 2 expressed as a percentage of Year 1 rather than the change.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c01-q003",
+      "chapter": 1,
+      "topic": "Financial statement analysis: liquidity, activity and solvency",
+      "question_text": "Brennan Tools Inc. has current assets of $612,000 and current liabilities of $340,000. What is its current ratio?",
+      "options": {
+        "A": "0.80",
+        "B": "0.56",
+        "C": "1.80",
+        "D": "0.44"
+      },
+      "correct": "C",
+      "explanation": "Current ratio = current assets / current liabilities = $612,000 / $340,000 = 1.80 (rounded to two decimals). The reciprocal (0.56) inverts the ratio, while the other figures divide working capital ($272,000) by one side of the balance sheet, which is not the current ratio.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c01-q004",
+      "chapter": 1,
+      "topic": "Financial statement analysis: liquidity, activity and solvency",
+      "question_text": "Calder Electronics has the following current items:\nCash $48,000\nMarketable securities $30,000\nAccounts receivable (net) $126,000\nInventory $210,000\nPrepaid expenses $18,000\nCurrent liabilities $240,000\nWhat is the quick (acid-test) ratio?",
+      "options": {
+        "A": "0.93",
+        "B": "1.80",
+        "C": "0.33",
+        "D": "0.85"
+      },
+      "correct": "D",
+      "explanation": "The quick ratio includes only cash, marketable securities and net receivables: ($48,000 + $30,000 + $126,000) / $240,000 = $204,000 / $240,000 = 0.85. Inventory and prepaid expenses are excluded because they cannot quickly be converted to cash. Including prepaids gives 0.93, the current ratio is 1.80, and 0.33 is the cash ratio.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c01-q005",
+      "chapter": 1,
+      "topic": "Financial statement analysis: liquidity, activity and solvency",
+      "question_text": "Dunmore Corp. has a current ratio of 1.6. If the company uses cash to pay an account payable, what will be the effect on the current ratio and on net working capital?",
+      "options": {
+        "A": "The current ratio increases and net working capital is unchanged",
+        "B": "The current ratio decreases and net working capital decreases",
+        "C": "The current ratio is unchanged and net working capital is unchanged",
+        "D": "The current ratio increases and net working capital increases"
+      },
+      "correct": "A",
+      "explanation": "Paying a payable reduces current assets and current liabilities by the same amount, so net working capital (current assets minus current liabilities) does not change. When the current ratio is above 1, reducing numerator and denominator by the same amount raises the ratio. For example, 160/100 = 1.6 becomes 150/90 = 1.67 after a payment of 10.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c01-q006",
+      "chapter": 1,
+      "topic": "Financial statement analysis: liquidity, activity and solvency",
+      "question_text": "Which liquidity measure is the most conservative because it compares only cash and marketable securities with current liabilities?",
+      "options": {
+        "A": "Quick ratio",
+        "B": "Times interest earned ratio",
+        "C": "Current ratio",
+        "D": "Cash ratio"
+      },
+      "correct": "D",
+      "explanation": "The cash ratio = (cash + marketable securities) / current liabilities. It excludes receivables and inventory, which the quick and current ratios respectively include, so it is the most conservative liquidity measure. Times interest earned is a solvency (coverage) measure, not a liquidity measure.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c01-q007",
+      "chapter": 1,
+      "topic": "Financial statement analysis: liquidity, activity and solvency",
+      "question_text": "Ellison Fabrics had credit sales of $2,190,000 for the year. Accounts receivable were $168,000 at the beginning of the year and $192,000 at the end. Using average receivables and a 365-day year, what is the average collection period (days sales outstanding)?",
+      "options": {
+        "A": "30.0 days",
+        "B": "32.0 days",
+        "C": "12.2 days",
+        "D": "28.0 days"
+      },
+      "correct": "A",
+      "explanation": "Average receivables = ($168,000 + $192,000) / 2 = $180,000. Receivables turnover = $2,190,000 / $180,000 = 12.17 times. Days sales outstanding = 365 / 12.1667 = 30.0 days (rounded to one decimal). Using only ending receivables gives 32.0 days, and 12.2 is the turnover ratio, not a number of days.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c01-q008",
+      "chapter": 1,
+      "topic": "Financial statement analysis: liquidity, activity and solvency",
+      "question_text": "Fenwick Hardware reported cost of goods sold of $1,512,000. Inventory was $240,000 at the start of the year and $192,000 at the end. Using average inventory and a 365-day year, what are the inventory turnover and days inventory outstanding?",
+      "options": {
+        "A": "6.3 times; 57.9 days",
+        "B": "7.9 times; 46.3 days",
+        "C": "7.0 times; 52.1 days",
+        "D": "7.0 times; 104.3 days"
+      },
+      "correct": "C",
+      "explanation": "Average inventory = ($240,000 + $192,000) / 2 = $216,000. Inventory turnover = $1,512,000 / $216,000 = 7.0 times. Days inventory outstanding = 365 / 7.0 = 52.1 days (rounded to one decimal). The distractors use only ending or only beginning inventory, or double the days figure.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c01-q009",
+      "chapter": 1,
+      "topic": "Financial statement analysis: liquidity, activity and solvency",
+      "question_text": "Garrick Instruments has days inventory outstanding of 52 days, days sales outstanding of 30 days and days payables outstanding of 38 days. What is its cash conversion cycle?",
+      "options": {
+        "A": "120 days",
+        "B": "82 days",
+        "C": "44 days",
+        "D": "60 days"
+      },
+      "correct": "C",
+      "explanation": "The operating cycle = days inventory outstanding + days sales outstanding = 52 + 30 = 82 days. The cash conversion cycle deducts the period for which suppliers finance the business: 82 - 38 = 44 days. 82 days is the operating cycle, not the cash conversion cycle, and adding payables days reverses the effect of trade credit.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p2-c01-q010",
+      "chapter": 1,
+      "topic": "Financial statement analysis: liquidity, activity and solvency",
+      "question_text": "Halden Corp. has total liabilities of $900,000 and total shareholders' equity of $1,200,000. What is its debt-to-equity ratio?",
+      "options": {
+        "A": "0.57",
+        "B": "0.75",
+        "C": "0.43",
+        "D": "1.33"
+      },
+      "correct": "B",
+      "explanation": "Debt-to-equity = total liabilities / total equity = $900,000 / $1,200,000 = 0.75. 0.43 is the debt-to-total-assets (debt) ratio, 1.33 is the inverse, and 0.57 is the equity ratio.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c01-q011",
+      "chapter": 1,
+      "topic": "Financial statement analysis: liquidity, activity and solvency",
+      "question_text": "Irvine Logistics reported net income of $420,000, income tax expense of $140,000 and interest expense of $90,000. What is its times interest earned ratio (rounded to two decimals)?",
+      "options": {
+        "A": "7.22 times",
+        "B": "4.67 times",
+        "C": "6.22 times",
+        "D": "5.67 times"
+      },
+      "correct": "A",
+      "explanation": "Times interest earned = EBIT / interest expense. EBIT = net income + income tax + interest = $420,000 + $140,000 + $90,000 = $650,000. TIE = $650,000 / $90,000 = 7.22 times. Using net income (4.67) or pre-tax income (6.22) omits amounts that are available to pay interest.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c01-q012",
+      "chapter": 1,
+      "topic": "Financial statement analysis: liquidity, activity and solvency",
+      "question_text": "Jansen Retail has earnings before interest and taxes of $650,000 (after deducting lease payments), interest expense of $90,000 and annual lease payments of $60,000. What is the fixed charge coverage ratio (rounded to two decimals)?",
+      "options": {
+        "A": "7.89 times",
+        "B": "4.73 times",
+        "C": "7.22 times",
+        "D": "4.33 times"
+      },
+      "correct": "B",
+      "explanation": "Fixed charge coverage = (EBIT + lease payments) / (interest + lease payments). Lease payments are added back to the numerator because they were deducted in arriving at EBIT. ($650,000 + $60,000) / ($90,000 + $60,000) = $710,000 / $150,000 = 4.73 times. Failing to add back the lease payments gives 4.33, and 7.22 is the times interest earned ratio.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p2-c01-q013",
+      "chapter": 1,
+      "topic": "Financial statement analysis: liquidity, activity and solvency",
+      "question_text": "Kessler Manufacturing has EBIT of $500,000 and interest expense of $100,000. It has no preferred stock. If EBIT increases by 8%, by approximately what percentage will earnings per share increase?",
+      "options": {
+        "A": "6.4%",
+        "B": "8.0%",
+        "C": "40.0%",
+        "D": "10.0%"
+      },
+      "correct": "D",
+      "explanation": "Degree of financial leverage (DFL) = EBIT / (EBIT - interest) = $500,000 / $400,000 = 1.25. The percentage change in EPS = DFL x percentage change in EBIT = 1.25 x 8% = 10.0%. Because interest is fixed, EPS changes proportionally more than EBIT.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c01-q014",
+      "chapter": 1,
+      "topic": "Financial statement analysis: liquidity, activity and solvency",
+      "question_text": "Lambert Products has sales of $1,000,000, variable costs of $600,000 and fixed operating costs of $250,000. If sales increase by 6% with no change in cost behavior, by what percentage will operating income increase?",
+      "options": {
+        "A": "16.0%",
+        "B": "2.4%",
+        "C": "15.0%",
+        "D": "6.0%"
+      },
+      "correct": "A",
+      "explanation": "Contribution margin = $1,000,000 - $600,000 = $400,000; operating income = $400,000 - $250,000 = $150,000. Degree of operating leverage = $400,000 / $150,000 = 2.667. Change in operating income = 2.667 x 6% = 16.0%. Check: new CM = $424,000, new operating income = $174,000, an increase of $24,000 / $150,000 = 16.0%.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p2-c01-q015",
+      "chapter": 1,
+      "topic": "Financial statement analysis: liquidity, activity and solvency",
+      "question_text": "Which of the following transactions will DECREASE a company's net working capital?",
+      "options": {
+        "A": "Purchasing manufacturing equipment for cash",
+        "B": "Collecting an account receivable",
+        "C": "Purchasing inventory on credit",
+        "D": "Issuing long-term bonds for cash"
+      },
+      "correct": "A",
+      "explanation": "Buying equipment for cash reduces a current asset (cash) and increases a noncurrent asset, so working capital falls. Collecting a receivable swaps one current asset for another, and buying inventory on credit increases current assets and current liabilities equally, so neither changes working capital. Issuing long-term bonds for cash increases current assets without increasing current liabilities, so working capital rises.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c02-q001",
+      "chapter": 2,
+      "topic": "Financial statement analysis: profitability, market measures and special issues",
+      "question_text": "Mercer Apparel had net sales of $2,400,000 and cost of goods sold of $1,560,000. What is its gross profit margin?",
+      "options": {
+        "A": "46.2%",
+        "B": "65.0%",
+        "C": "53.8%",
+        "D": "35.0%"
+      },
+      "correct": "D",
+      "explanation": "Gross profit = $2,400,000 - $1,560,000 = $840,000. Gross profit margin = gross profit / net sales = $840,000 / $2,400,000 = 35.0%. 65.0% is the cost of goods sold percentage, and 53.8% is a markup on cost rather than a margin on sales.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c02-q002",
+      "chapter": 2,
+      "topic": "Financial statement analysis: profitability, market measures and special issues",
+      "question_text": "Norland Foods earned net income of $288,000. Its average total assets for the year were $3,200,000. What is its return on assets?",
+      "options": {
+        "A": "11.1%",
+        "B": "9.0%",
+        "C": "18.0%",
+        "D": "7.2%"
+      },
+      "correct": "B",
+      "explanation": "Return on assets = net income / average total assets = $288,000 / $3,200,000 = 9.0%. Return on assets measures how effectively management uses the company's total resources to generate profit.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c02-q003",
+      "chapter": 2,
+      "topic": "Financial statement analysis: profitability, market measures and special issues",
+      "question_text": "Using the DuPont model, what is the return on equity of a company with a net profit margin of 6%, total asset turnover of 1.5 times and an equity multiplier (average assets / average equity) of 2.2?",
+      "options": {
+        "A": "22.2%",
+        "B": "9.0%",
+        "C": "13.2%",
+        "D": "19.8%"
+      },
+      "correct": "D",
+      "explanation": "DuPont ROE = net profit margin x asset turnover x equity multiplier = 6% x 1.5 x 2.2 = 19.8%. Net profit margin x asset turnover = 9.0% is return on assets; multiplying by the equity multiplier reflects the effect of financial leverage.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c02-q004",
+      "chapter": 2,
+      "topic": "Financial statement analysis: profitability, market measures and special issues",
+      "question_text": "Orchard Holdings has a return on equity of 15% and a return on assets of 6%, both based on the same net income and year-end balances. What is its ratio of total liabilities to total assets?",
+      "options": {
+        "A": "9%",
+        "B": "60%",
+        "C": "150%",
+        "D": "40%"
+      },
+      "correct": "B",
+      "explanation": "Equity multiplier = ROE / ROA = 15% / 6% = 2.5, so total assets are 2.5 times equity and equity / assets = 1 / 2.5 = 40%. Total liabilities / total assets = 1 - 40% = 60%. 40% is the equity ratio, and 150% is the debt-to-equity ratio, not the debt-to-assets ratio.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p2-c02-q005",
+      "chapter": 2,
+      "topic": "Financial statement analysis: profitability, market measures and special issues",
+      "question_text": "Pembroke Industries reported net income of $1,250,000 and declared preferred dividends of $150,000. The weighted average number of common shares outstanding was 440,000. What is basic earnings per share?",
+      "options": {
+        "A": "$3.18",
+        "B": "$2.27",
+        "C": "$2.50",
+        "D": "$2.84"
+      },
+      "correct": "C",
+      "explanation": "Basic EPS = (net income - preferred dividends) / weighted average common shares = ($1,250,000 - $150,000) / 440,000 = $1,100,000 / 440,000 = $2.50. Preferred dividends are deducted because those earnings are not available to common shareholders; ignoring them gives $2.84.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c02-q006",
+      "chapter": 2,
+      "topic": "Financial statement analysis: profitability, market measures and special issues",
+      "question_text": "Quinton Corp. had 300,000 common shares outstanding on January 1. It issued 60,000 new shares for cash on April 1 and repurchased 24,000 shares as treasury stock on October 1. What is the weighted average number of shares outstanding for the calendar year?",
+      "options": {
+        "A": "339,000",
+        "B": "336,000",
+        "C": "297,000",
+        "D": "345,000"
+      },
+      "correct": "A",
+      "explanation": "Shares are weighted by the fraction of the year they were outstanding: 300,000 x 12/12 = 300,000; new issue 60,000 x 9/12 = 45,000; repurchase -24,000 x 3/12 = -6,000. Weighted average = 300,000 + 45,000 - 6,000 = 339,000. The year-end count of 336,000 ignores timing, and reversing the fractions gives 297,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c02-q007",
+      "chapter": 2,
+      "topic": "Financial statement analysis: profitability, market measures and special issues",
+      "question_text": "Ridley Motors' common stock trades at $42.00 per share and its earnings per share are $3.50. What is its price/earnings ratio?",
+      "options": {
+        "A": "13.2 times",
+        "B": "11.0 times",
+        "C": "12.0 times",
+        "D": "8.3 times"
+      },
+      "correct": "C",
+      "explanation": "Price/earnings ratio = market price per share / earnings per share = $42.00 / $3.50 = 12.0 times. The inverse, EPS / price = 8.3%, is the earnings yield, which is a percentage rather than a multiple.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c02-q008",
+      "chapter": 2,
+      "topic": "Financial statement analysis: profitability, market measures and special issues",
+      "question_text": "Sutton Paper paid dividends of $1.20 per share. Its earnings per share were $3.00 and its share price is $30.00. What are its dividend yield and dividend payout ratio?",
+      "options": {
+        "A": "Dividend yield 4.0%; payout ratio 40%",
+        "B": "Dividend yield 40%; payout ratio 4.0%",
+        "C": "Dividend yield 10.0%; payout ratio 40%",
+        "D": "Dividend yield 4.0%; payout ratio 60%"
+      },
+      "correct": "A",
+      "explanation": "Dividend yield = dividends per share / market price = $1.20 / $30.00 = 4.0%. Payout ratio = dividends per share / EPS = $1.20 / $3.00 = 40%. 60% is the retention ratio, and 10.0% is the earnings yield.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c02-q009",
+      "chapter": 2,
+      "topic": "Financial statement analysis: profitability, market measures and special issues",
+      "question_text": "Thornbury Inc. has total shareholders' equity of $5,600,000, which includes preferred stock with a liquidation value of $800,000. There are 400,000 common shares outstanding and the market price is $18.00 per share. What is the market-to-book ratio of the common stock?",
+      "options": {
+        "A": "1.29",
+        "B": "1.12",
+        "C": "1.50",
+        "D": "0.67"
+      },
+      "correct": "C",
+      "explanation": "Book value per common share = (total equity - preferred equity) / common shares = ($5,600,000 - $800,000) / 400,000 = $12.00. Market-to-book = $18.00 / $12.00 = 1.50. Failing to remove the preferred stock gives a book value of $14.00 and a ratio of 1.29.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c02-q010",
+      "chapter": 2,
+      "topic": "Financial statement analysis: profitability, market measures and special issues",
+      "question_text": "Upton Devices has a return on equity of 16% and a dividend payout ratio of 35%. Assuming it maintains its capital structure and these ratios, what is its sustainable growth rate?",
+      "options": {
+        "A": "5.6%",
+        "B": "10.4%",
+        "C": "24.6%",
+        "D": "16.0%"
+      },
+      "correct": "B",
+      "explanation": "Sustainable growth rate = ROE x retention ratio. Retention ratio = 1 - payout = 1 - 35% = 65%. Sustainable growth = 16% x 65% = 10.4%. Multiplying ROE by the payout ratio (5.6%) uses the share of earnings paid out rather than reinvested.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p2-c02-q011",
+      "chapter": 2,
+      "topic": "Financial statement analysis: profitability, market measures and special issues",
+      "question_text": "Which of the following is the strongest indicator of LOW earnings quality?",
+      "options": {
+        "A": "Revenue growth is matched by a similar growth in cash collections from customers",
+        "B": "The company uses conservative depreciation lives and expenses all research costs as incurred",
+        "C": "Net income has grown steadily for three years while cash flow from operating activities has declined each year",
+        "D": "Cash flow from operating activities has consistently exceeded net income"
+      },
+      "correct": "C",
+      "explanation": "High-quality earnings are sustainable and backed by cash. When reported income rises while operating cash flow falls, earnings are increasingly driven by accruals (such as growing receivables or capitalized costs), which may reverse and can signal aggressive accounting. Operating cash flow exceeding net income, conservative policies and cash-backed revenue growth all indicate higher earnings quality.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c02-q012",
+      "chapter": 2,
+      "topic": "Financial statement analysis: profitability, market measures and special issues",
+      "question_text": "During a period of steadily rising purchase prices and stable inventory quantities, a US company using LIFO, compared with an otherwise identical company using FIFO, will report:",
+      "options": {
+        "A": "Higher gross profit and a lower inventory balance",
+        "B": "Lower gross profit and a lower inventory balance",
+        "C": "Higher gross profit and a higher inventory balance",
+        "D": "Lower gross profit and a higher inventory balance"
+      },
+      "correct": "B",
+      "explanation": "Under LIFO the most recent (higher) costs flow to cost of goods sold, so cost of goods sold is higher and gross profit lower than under FIFO. The older, lower costs remain in ending inventory, so the balance sheet inventory is lower. Analysts often adjust using the LIFO reserve to compare LIFO and FIFO companies.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c02-q013",
+      "chapter": 2,
+      "topic": "Financial statement analysis: profitability, market measures and special issues",
+      "question_text": "A US parent consolidates a subsidiary whose functional currency is the euro, using the current rate method. During the year the euro weakens against the US dollar and the subsidiary has net assets (assets exceed liabilities). How is the translation effect reported?",
+      "options": {
+        "A": "As a positive translation adjustment in other comprehensive income",
+        "B": "As a negative translation adjustment in other comprehensive income",
+        "C": "As a prior-period adjustment to retained earnings",
+        "D": "As a foreign exchange loss in net income"
+      },
+      "correct": "B",
+      "explanation": "Under the current rate method, translation adjustments bypass net income and are accumulated in other comprehensive income. When the foreign currency weakens, a net asset position translates into fewer dollars, producing a negative (loss) adjustment. Remeasurement gains and losses go through net income only when the temporal method applies.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c02-q014",
+      "chapter": 2,
+      "topic": "Financial statement analysis: profitability, market measures and special issues",
+      "question_text": "During the year Vance Software improperly capitalized $400,000 of routine maintenance costs that should have been expensed. The costs were paid in cash. Ignoring depreciation and taxes, what is the effect on the current year's financial statements?",
+      "options": {
+        "A": "Net income is overstated but cash flow from operating activities is unaffected",
+        "B": "Net income and cash flow from operating activities are both overstated",
+        "C": "Net income is overstated and cash flow from investing activities is overstated",
+        "D": "Net income is unaffected but total assets are overstated"
+      },
+      "correct": "B",
+      "explanation": "Capitalizing the cost removes $400,000 of expense, so net income and total assets are overstated. Because the payment is classified as a capital expenditure, the cash outflow appears in investing activities instead of operating activities, so operating cash flow is overstated by $400,000 and investing cash flow is understated (more negative). Analysts watch for this because it flatters both earnings and operating cash flow.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p2-c02-q015",
+      "chapter": 2,
+      "topic": "Financial statement analysis: profitability, market measures and special issues",
+      "question_text": "Which inventory cost flow method is permitted under US GAAP but prohibited under IFRS?",
+      "options": {
+        "A": "Specific identification",
+        "B": "Last-in, first-out (LIFO)",
+        "C": "First-in, first-out (FIFO)",
+        "D": "Weighted average cost"
+      },
+      "correct": "B",
+      "explanation": "US GAAP permits LIFO, but IFRS (IAS 2) prohibits it. FIFO, weighted average and specific identification are permitted under both frameworks. Analysts comparing a US GAAP LIFO company with an IFRS company should restate inventory and cost of goods sold to a common basis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c03-q001",
+      "chapter": 3,
+      "topic": "Corporate finance: risk and return, long-term financing and cost of capital",
+      "question_text": "An analyst estimates the following one-year returns for Westbrook Corp. stock:\nStrong economy (probability 0.30): 18%\nNormal economy (probability 0.50): 10%\nRecession (probability 0.20): -4%\nWhat is the expected return?",
+      "options": {
+        "A": "9.6%",
+        "B": "11.2%",
+        "C": "8.0%",
+        "D": "10.4%"
+      },
+      "correct": "A",
+      "explanation": "Expected return = sum of (probability x return) = (0.30 x 18%) + (0.50 x 10%) + (0.20 x -4%) = 5.4% + 5.0% - 0.8% = 9.6%. A simple average of the three outcomes (8.0%) ignores the probabilities, and treating the recession return as +4% gives 11.2%.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c03-q002",
+      "chapter": 3,
+      "topic": "Corporate finance: risk and return, long-term financing and cost of capital",
+      "question_text": "Using the same three scenarios for Westbrook Corp. (probabilities 0.30, 0.50 and 0.20; returns 18%, 10% and -4%; expected return 9.6%), what is the standard deviation of returns?",
+      "options": {
+        "A": "58.24%",
+        "B": "9.09%",
+        "C": "7.63%",
+        "D": "5.82%"
+      },
+      "correct": "C",
+      "explanation": "Deviations from the expected return of 9.6% are 8.4%, 0.4% and -13.6%. Variance = 0.30(8.4)^2 + 0.50(0.4)^2 + 0.20(-13.6)^2 = 21.168 + 0.080 + 36.992 = 58.24 (in %-squared). Standard deviation = square root of 58.24 = 7.63% (rounded to two decimals). 58.24% is the variance mis-stated as a percentage, not the standard deviation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c03-q003",
+      "chapter": 3,
+      "topic": "Corporate finance: risk and return, long-term financing and cost of capital",
+      "question_text": "Investment A has an expected return of 12% and a standard deviation of 9%. Investment B has an expected return of 8% and a standard deviation of 5%. Using the coefficient of variation, which statement is correct?",
+      "options": {
+        "A": "A and B have the same risk per unit of expected return",
+        "B": "B has less risk per unit of expected return (CV 0.625 versus 0.75 for A)",
+        "C": "B has less risk per unit of expected return (CV 1.60 versus 1.33 for A)",
+        "D": "A has less risk per unit of expected return (CV 0.75 versus 0.625 for B)"
+      },
+      "correct": "B",
+      "explanation": "Coefficient of variation = standard deviation / expected return. A: 9% / 12% = 0.75. B: 5% / 8% = 0.625. The lower CV means B carries less risk per unit of expected return. The ratio must be standard deviation divided by expected return, not the inverse.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c03-q004",
+      "chapter": 3,
+      "topic": "Corporate finance: risk and return, long-term financing and cost of capital",
+      "question_text": "The risk-free rate is 3%, the expected return on the market is 9% and Yarrow Inc. has a beta of 1.3. Using the capital asset pricing model, what is Yarrow's required rate of return?",
+      "options": {
+        "A": "11.7%",
+        "B": "14.7%",
+        "C": "16.8%",
+        "D": "10.8%"
+      },
+      "correct": "D",
+      "explanation": "CAPM: required return = risk-free rate + beta x (market return - risk-free rate) = 3% + 1.3 x (9% - 3%) = 3% + 7.8% = 10.8%. A common error is to multiply beta by the full market return instead of the market risk premium.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c03-q005",
+      "chapter": 3,
+      "topic": "Corporate finance: risk and return, long-term financing and cost of capital",
+      "question_text": "A portfolio is invested 40% in a stock with a beta of 0.8, 35% in a stock with a beta of 1.2 and 25% in a stock with a beta of 1.6. What is the portfolio beta?",
+      "options": {
+        "A": "1.14",
+        "B": "1.26",
+        "C": "1.03",
+        "D": "1.20"
+      },
+      "correct": "A",
+      "explanation": "Portfolio beta is the weighted average of the individual betas: (0.40 x 0.8) + (0.35 x 1.2) + (0.25 x 1.6) = 0.32 + 0.42 + 0.40 = 1.14. A simple average (1.20) ignores the portfolio weights.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c03-q006",
+      "chapter": 3,
+      "topic": "Corporate finance: risk and return, long-term financing and cost of capital",
+      "question_text": "Which type of risk can be substantially eliminated by holding a well-diversified portfolio of securities?",
+      "options": {
+        "A": "Purchasing power (inflation) risk affecting the whole economy",
+        "B": "Systematic (market) risk",
+        "C": "Unsystematic (company-specific) risk",
+        "D": "Interest rate risk affecting all bonds"
+      },
+      "correct": "C",
+      "explanation": "Diversification eliminates unsystematic risk, which arises from events specific to an individual company or industry and tends to offset across many holdings. Systematic risk, including economy-wide interest rate and inflation risk, affects all securities and cannot be diversified away; it is measured by beta and is the only risk rewarded under CAPM.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c03-q007",
+      "chapter": 3,
+      "topic": "Corporate finance: risk and return, long-term financing and cost of capital",
+      "question_text": "A $1,000 face value bond pays a 6% annual coupon and matures in 5 years. If the market yield on similar bonds is 8%, what is the bond's price (rounded to the nearest dollar)?",
+      "options": {
+        "A": "$981",
+        "B": "$1,000",
+        "C": "$933",
+        "D": "$920"
+      },
+      "correct": "D",
+      "explanation": "Price = PV of coupons + PV of face value. Annual coupon = 6% x $1,000 = $60. PV of coupons = $60 x 3.9927 (5-year annuity factor at 8%) = $239.56. PV of face = $1,000 x 0.6806 = $680.58. Price = $920.15, or about $920. The bond sells at a discount because its coupon rate is below the market yield.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c03-q008",
+      "chapter": 3,
+      "topic": "Corporate finance: risk and return, long-term financing and cost of capital",
+      "question_text": "A corporate bond has a coupon rate of 5%. Market interest rates for bonds of similar risk and maturity rise to 7%. Which statement is correct?",
+      "options": {
+        "A": "The bond's coupon payments will increase to 7%",
+        "B": "The bond will trade at a discount to its face value",
+        "C": "The bond will continue to trade at face value until maturity",
+        "D": "The bond will trade at a premium to its face value"
+      },
+      "correct": "B",
+      "explanation": "Bond prices move inversely with market yields. When the market rate rises above the fixed coupon rate, investors will pay less than face value so that their yield to maturity equals the market rate; the bond therefore trades at a discount. The coupon on a fixed-rate bond does not change.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c03-q009",
+      "chapter": 3,
+      "topic": "Corporate finance: risk and return, long-term financing and cost of capital",
+      "question_text": "Zephyr Utilities' preferred stock pays a fixed annual dividend of $4.50 per share and has no maturity. If investors require a 9% return, what is the value of one preferred share?",
+      "options": {
+        "A": "$54.50",
+        "B": "$45.00",
+        "C": "$25.00",
+        "D": "$50.00"
+      },
+      "correct": "D",
+      "explanation": "Preferred stock with a fixed dividend and no maturity is valued as a perpetuity: value = dividend / required return = $4.50 / 9% = $50.00.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c03-q010",
+      "chapter": 3,
+      "topic": "Corporate finance: risk and return, long-term financing and cost of capital",
+      "question_text": "Ashford Brewing just paid a dividend of $2.00 per share. Dividends are expected to grow at 4% per year indefinitely, and investors require a 10% return. Using the constant growth (Gordon) model, what is the value of one share?",
+      "options": {
+        "A": "$20.80",
+        "B": "$14.86",
+        "C": "$33.33",
+        "D": "$34.67"
+      },
+      "correct": "D",
+      "explanation": "Next year's dividend D1 = $2.00 x 1.04 = $2.08. Value = D1 / (k - g) = $2.08 / (10% - 4%) = $2.08 / 0.06 = $34.67. Using the dividend just paid (D0) instead of D1 gives $33.33, which understates value.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c03-q011",
+      "chapter": 3,
+      "topic": "Corporate finance: risk and return, long-term financing and cost of capital",
+      "question_text": "Bexley Corp. can issue new bonds at a pre-tax yield of 7%. Its marginal income tax rate is 25%. What is its after-tax cost of debt?",
+      "options": {
+        "A": "5.25%",
+        "B": "7.00%",
+        "C": "9.33%",
+        "D": "1.75%"
+      },
+      "correct": "A",
+      "explanation": "Interest is tax-deductible, so after-tax cost of debt = pre-tax yield x (1 - tax rate) = 7% x (1 - 25%) = 5.25%. Dividing by (1 - t) (9.33%) grosses up the cost instead of reducing it.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c03-q012",
+      "chapter": 3,
+      "topic": "Corporate finance: risk and return, long-term financing and cost of capital",
+      "question_text": "Carrow Media plans to issue new common stock at $40.00 per share. Flotation costs are 6% of the issue price. The next dividend is expected to be $1.80 and dividends are expected to grow at 5% per year. What is the cost of new common equity (rounded to two decimals)?",
+      "options": {
+        "A": "9.50%",
+        "B": "9.79%",
+        "C": "15.50%",
+        "D": "4.79%"
+      },
+      "correct": "B",
+      "explanation": "Net proceeds per share = $40.00 x (1 - 6%) = $37.60. Cost of new equity = D1 / net proceeds + g = $1.80 / $37.60 + 5% = 4.79% + 5.00% = 9.79%. Ignoring flotation costs gives 9.50%, which is the cost of retained earnings rather than new stock.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p2-c03-q013",
+      "chapter": 3,
+      "topic": "Corporate finance: risk and return, long-term financing and cost of capital",
+      "question_text": "Dalton Freight's target capital structure is 40% debt, 10% preferred stock and 50% common equity. Its before-tax cost of debt is 7%, tax rate 25%, cost of preferred stock 8% and cost of common equity 12%. What is its weighted average cost of capital?",
+      "options": {
+        "A": "8.70%",
+        "B": "9.00%",
+        "C": "8.90%",
+        "D": "9.60%"
+      },
+      "correct": "C",
+      "explanation": "After-tax cost of debt = 7% x (1 - 0.25) = 5.25%. WACC = (0.40 x 5.25%) + (0.10 x 8%) + (0.50 x 12%) = 2.10% + 0.80% + 6.00% = 8.90%. Using the pre-tax debt cost gives 9.60%. Preferred dividends are not tax-deductible, so the cost of preferred stock is not adjusted for tax.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p2-c03-q014",
+      "chapter": 3,
+      "topic": "Corporate finance: risk and return, long-term financing and cost of capital",
+      "question_text": "Ellery Corp. expects to generate $1,200,000 of retained earnings next year. Its target capital structure is 60% common equity and 40% debt. At what level of total new capital will the weighted marginal cost of capital increase because the company must start issuing new common stock?",
+      "options": {
+        "A": "$2,000,000",
+        "B": "$1,200,000",
+        "C": "$720,000",
+        "D": "$3,000,000"
+      },
+      "correct": "A",
+      "explanation": "The retained earnings break point = available retained earnings / equity proportion = $1,200,000 / 60% = $2,000,000. Up to this level of total financing, the equity portion can be met from cheaper retained earnings; beyond it, more expensive new stock (with flotation costs) is required, so the marginal cost of capital rises.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c03-q015",
+      "chapter": 3,
+      "topic": "Corporate finance: risk and return, long-term financing and cost of capital",
+      "question_text": "Which of the following is an advantage of long-term debt financing compared with issuing common stock?",
+      "options": {
+        "A": "Bondholders have no legal claim if interest is not paid",
+        "B": "Interest payments are tax-deductible and existing shareholders' control is not diluted",
+        "C": "Debt has no fixed repayment obligation",
+        "D": "Debt reduces the company's financial leverage"
+      },
+      "correct": "B",
+      "explanation": "Interest is a tax-deductible expense, which lowers the effective cost of debt, and bondholders do not vote, so owners retain control. Debt does, however, create fixed interest and principal obligations, increases financial leverage and gives bondholders legal remedies on default, so the other statements are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c04-q001",
+      "chapter": 4,
+      "topic": "Corporate finance: working capital, raising capital, mergers and international finance",
+      "question_text": "A supplier offers terms of 2/10, net 40. Using a 365-day year and simple interest, what is the approximate annual cost of NOT taking the discount and paying on day 40?",
+      "options": {
+        "A": "24.33%",
+        "B": "18.37%",
+        "C": "24.83%",
+        "D": "18.62%"
+      },
+      "correct": "C",
+      "explanation": "Annual cost = [discount % / (100% - discount %)] x [365 / (total period - discount period)] = (2 / 98) x (365 / 30) = 0.020408 x 12.1667 = 24.83%. Forgoing the discount is equivalent to borrowing $98 for 30 days at a cost of $2, which is very expensive financing.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c04-q002",
+      "chapter": 4,
+      "topic": "Corporate finance: working capital, raising capital, mergers and international finance",
+      "question_text": "Fairmont Corp. borrows $500,000 for one year at a stated rate of 8%. The bank requires a 10% compensating balance in a non-interest-bearing account; Fairmont does not otherwise keep cash with the bank. What is the effective annual interest rate?",
+      "options": {
+        "A": "8.00%",
+        "B": "8.89%",
+        "C": "8.70%",
+        "D": "8.80%"
+      },
+      "correct": "B",
+      "explanation": "Interest = $500,000 x 8% = $40,000. Usable funds = $500,000 x (1 - 10%) = $450,000. Effective rate = $40,000 / $450,000 = 8.89%. 8.70% would be the effective rate of a discount loan with no compensating balance.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p2-c04-q003",
+      "chapter": 4,
+      "topic": "Corporate finance: working capital, raising capital, mergers and international finance",
+      "question_text": "A lockbox system would reduce Granger Corp.'s collection float by 2 days. Average daily collections are $150,000, freed funds can earn 6% per year, and the bank charges an annual fee of $12,000. What is the net annual benefit of the lockbox?",
+      "options": {
+        "A": "$18,000",
+        "B": "$6,000",
+        "C": "-$3,000",
+        "D": "$288,000"
+      },
+      "correct": "B",
+      "explanation": "Funds released = 2 days x $150,000 = $300,000. Annual earnings on released funds = $300,000 x 6% = $18,000. Net benefit = $18,000 - $12,000 = $6,000. The released cash is a one-time balance, so only the return on it is an annual benefit.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c04-q004",
+      "chapter": 4,
+      "topic": "Corporate finance: working capital, raising capital, mergers and international finance",
+      "question_text": "Hollis Distributors sells 36,000 units of a product per year. Each order costs $60 to place and the annual carrying cost is $3.00 per unit. What is the economic order quantity?",
+      "options": {
+        "A": "60 units",
+        "B": "1,200 units",
+        "C": "1,440 units",
+        "D": "849 units"
+      },
+      "correct": "B",
+      "explanation": "EOQ = square root of (2 x annual demand x order cost / carrying cost per unit) = square root of (2 x 36,000 x 60 / 3) = square root of 1,440,000 = 1,200 units. At the EOQ, annual ordering cost (30 orders x $60 = $1,800) equals annual carrying cost (1,200/2 x $3 = $1,800).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c04-q005",
+      "chapter": 4,
+      "topic": "Corporate finance: working capital, raising capital, mergers and international finance",
+      "question_text": "Ingram Parts uses 120 units of a component per day. Supplier lead time is 6 days and the company holds a safety stock of 300 units. At what inventory level should it reorder?",
+      "options": {
+        "A": "1,020 units",
+        "B": "720 units",
+        "C": "420 units",
+        "D": "1,140 units"
+      },
+      "correct": "A",
+      "explanation": "Reorder point = (daily usage x lead time) + safety stock = (120 x 6) + 300 = 720 + 300 = 1,020 units. Omitting the safety stock (720 units) would leave no buffer against delays or higher-than-expected usage.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c04-q006",
+      "chapter": 4,
+      "topic": "Corporate finance: working capital, raising capital, mergers and international finance",
+      "question_text": "A treasurer is choosing a short-term investment for temporary excess cash that may be needed at short notice. Which characteristics are most important?",
+      "options": {
+        "A": "Tax-free income with long maturity, such as 30-year municipal bonds",
+        "B": "High expected return and long maturity, such as 20-year corporate bonds",
+        "C": "Capital growth potential, such as common stock of growth companies",
+        "D": "High liquidity and low default risk, such as US Treasury bills"
+      },
+      "correct": "D",
+      "explanation": "Marketable securities held as a cash substitute should be safe and quickly convertible to cash with little price risk. Treasury bills and similar money market instruments meet these criteria. Long-maturity bonds and equities expose the company to interest rate and market price risk that is inappropriate for temporary cash balances.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c04-q007",
+      "chapter": 4,
+      "topic": "Corporate finance: working capital, raising capital, mergers and international finance",
+      "question_text": "Jarvis Furnishings is considering relaxing its credit standards. Annual sales would increase by $400,000, its contribution margin ratio is 30%, and bad debts on the additional sales are expected to be 3%. Average investment in receivables would rise by $60,000, and the required return on that investment is 10%. What is the expected increase in annual pre-tax profit?",
+      "options": {
+        "A": "$120,000",
+        "B": "$108,000",
+        "C": "$48,000",
+        "D": "$102,000"
+      },
+      "correct": "D",
+      "explanation": "Additional contribution = $400,000 x 30% = $120,000. Less bad debts = $400,000 x 3% = $12,000. Less financing cost of extra receivables = $60,000 x 10% = $6,000. Net increase = $120,000 - $12,000 - $6,000 = $102,000. The full $60,000 is an investment, not an annual cost; only its carrying cost is deducted.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p2-c04-q008",
+      "chapter": 4,
+      "topic": "Corporate finance: working capital, raising capital, mergers and international finance",
+      "question_text": "In a firm commitment underwriting of an initial public offering, which party bears the risk that the shares cannot be sold at the offering price?",
+      "options": {
+        "A": "The investment banker (underwriter), which buys the entire issue from the company",
+        "B": "The Securities and Exchange Commission, which approved the registration",
+        "C": "The company's existing shareholders, who must buy any unsold shares",
+        "D": "The issuing company, which receives only the proceeds of shares actually sold"
+      },
+      "correct": "A",
+      "explanation": "In a firm commitment underwriting the investment bank buys the whole issue at an agreed price and resells it to the public, so it bears the risk of unsold shares or a fall in price. In a best-efforts arrangement the issuer bears that risk. The SEC reviews disclosure but does not guarantee the success of an offering.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c04-q009",
+      "chapter": 4,
+      "topic": "Corporate finance: working capital, raising capital, mergers and international finance",
+      "question_text": "Compared with a public offering, which is a typical advantage of a private placement of debt with a small number of institutional investors?",
+      "options": {
+        "A": "Wider ownership of the securities among retail investors",
+        "B": "Lower issuance costs and faster execution because SEC registration is not required",
+        "C": "Fewer restrictive covenants because institutional lenders monitor less closely",
+        "D": "A lower interest rate because the securities are highly liquid"
+      },
+      "correct": "B",
+      "explanation": "Private placements avoid full SEC registration, so issuance costs are lower and the deal can be completed quickly, and terms can be negotiated directly. In exchange, privately placed securities are less liquid, so investors usually demand a slightly higher yield, and institutional lenders often negotiate tailored covenants.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c04-q010",
+      "chapter": 4,
+      "topic": "Corporate finance: working capital, raising capital, mergers and international finance",
+      "question_text": "According to the semi-strong form of the efficient markets hypothesis, which of the following should NOT enable an investor to earn consistent abnormal returns?",
+      "options": {
+        "A": "Being the first to act on information before it is released to the public",
+        "B": "Holding a diversified portfolio that bears more systematic risk than the market",
+        "C": "Analyzing a company's published financial statements and press releases",
+        "D": "Trading on material non-public information obtained from a company director"
+      },
+      "correct": "C",
+      "explanation": "The semi-strong form states that prices reflect all publicly available information, including published financial statements, so fundamental analysis of public data should not produce consistent abnormal returns. Inside (non-public) information can still generate abnormal returns unless markets are strong-form efficient. Bearing more systematic risk earns a higher expected return, but that is a normal, not an abnormal, return.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c04-q011",
+      "chapter": 4,
+      "topic": "Corporate finance: working capital, raising capital, mergers and international finance",
+      "question_text": "Kendrick Corp. (stand-alone value $400 million) plans to acquire Lowell Inc. (stand-alone value $120 million). The combined company is expected to be worth $560 million. Kendrick will pay $150 million in cash for Lowell. What is the NPV of the acquisition to Kendrick's shareholders?",
+      "options": {
+        "A": "$10 million",
+        "B": "$40 million",
+        "C": "$50 million",
+        "D": "$30 million"
+      },
+      "correct": "A",
+      "explanation": "Synergy = combined value - stand-alone values = $560m - $400m - $120m = $40m. Premium paid = price - target value = $150m - $120m = $30m. NPV to acquirer = synergy - premium = $40m - $30m = $10m. Equivalently, $560m - $150m cash - $400m = $10m. Lowell's shareholders capture the $30m premium.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p2-c04-q012",
+      "chapter": 4,
+      "topic": "Corporate finance: working capital, raising capital, mergers and international finance",
+      "question_text": "A target company's board adopts a plan under which, if any bidder acquires more than 15% of its shares, all other shareholders may buy additional shares at a deep discount. This takeover defense is known as a:",
+      "options": {
+        "A": "Greenmail payment",
+        "B": "Poison pill (shareholder rights plan)",
+        "C": "Golden parachute",
+        "D": "White knight"
+      },
+      "correct": "B",
+      "explanation": "A poison pill dilutes a hostile bidder by allowing other shareholders to buy shares cheaply once a threshold is crossed, making the takeover much more expensive. A golden parachute is a generous severance package for executives, a white knight is a friendlier alternative acquirer, and greenmail is repurchasing the raider's shares at a premium.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c04-q013",
+      "chapter": 4,
+      "topic": "Corporate finance: working capital, raising capital, mergers and international finance",
+      "question_text": "A conglomerate creates a new independent company from one of its divisions and distributes the new company's shares to its existing shareholders pro rata, without receiving cash. This is called a:",
+      "options": {
+        "A": "Spin-off",
+        "B": "Horizontal merger",
+        "C": "Leveraged buyout",
+        "D": "Carve-out (equity carve-out)"
+      },
+      "correct": "A",
+      "explanation": "In a spin-off, shares of the new company are distributed to the parent's shareholders with no cash raised. In an equity carve-out, the parent sells a minority stake in the subsidiary to the public for cash. A leveraged buyout is an acquisition financed mainly with debt, and a horizontal merger combines competitors in the same line of business.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c04-q014",
+      "chapter": 4,
+      "topic": "Corporate finance: working capital, raising capital, mergers and international finance",
+      "question_text": "The spot exchange rate is $1.10 per euro. One-year interest rates are 5% in the United States and 3% in the eurozone. According to interest rate parity, what should the one-year forward rate be (rounded to four decimals)?",
+      "options": {
+        "A": "$1.1220 per euro",
+        "B": "$1.1000 per euro",
+        "C": "$1.0790 per euro",
+        "D": "$1.1214 per euro"
+      },
+      "correct": "D",
+      "explanation": "Interest rate parity: forward ($/euro) = spot x (1 + US rate) / (1 + euro rate) = 1.10 x 1.05 / 1.03 = 1.1214. The currency with the higher interest rate (the dollar) trades at a forward discount, so more dollars are needed per euro in the forward market. Inverting the interest rates gives 1.0790.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p2-c04-q015",
+      "chapter": 4,
+      "topic": "Corporate finance: working capital, raising capital, mergers and international finance",
+      "question_text": "A US exporter will receive EUR 500,000 from a German customer in 90 days. Which action hedges the exporter's transaction exposure?",
+      "options": {
+        "A": "Buy a 90-day call option on EUR 500,000",
+        "B": "Enter into a 90-day forward contract to buy EUR 500,000 with US dollars",
+        "C": "Deposit US dollars in a euro-denominated bank account today",
+        "D": "Enter into a 90-day forward contract to sell EUR 500,000 for US dollars"
+      },
+      "correct": "D",
+      "explanation": "The exporter has a euro receivable and loses if the euro weakens. Selling the euros forward locks in the dollar amount it will receive. Buying euros forward or buying a euro call option would add to, not offset, its long euro position. A put option on euros, or borrowing euros now and converting them to dollars (a money market hedge), would also be valid hedges.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c05-q001",
+      "chapter": 5,
+      "topic": "Business decision analysis: cost/volume/profit analysis",
+      "question_text": "Marlow Fitness sells a product for $60 per unit. Variable cost is $36 per unit and annual fixed costs are $312,000. What is the breakeven point in units?",
+      "options": {
+        "A": "3,250 units",
+        "B": "8,667 units",
+        "C": "13,000 units",
+        "D": "5,200 units"
+      },
+      "correct": "C",
+      "explanation": "Breakeven units = fixed costs / contribution margin per unit = $312,000 / ($60 - $36) = $312,000 / $24 = 13,000 units. Dividing by the selling price (5,200) ignores variable costs.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c05-q002",
+      "chapter": 5,
+      "topic": "Business decision analysis: cost/volume/profit analysis",
+      "question_text": "Newbury Bakery has a contribution margin ratio of 40% and annual fixed costs of $480,000. What is its breakeven point in sales dollars?",
+      "options": {
+        "A": "$800,000",
+        "B": "$1,200,000",
+        "C": "$192,000",
+        "D": "$672,000"
+      },
+      "correct": "B",
+      "explanation": "Breakeven sales dollars = fixed costs / contribution margin ratio = $480,000 / 40% = $1,200,000. Dividing by the variable cost ratio (60%) gives $800,000, which is incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c05-q003",
+      "chapter": 5,
+      "topic": "Business decision analysis: cost/volume/profit analysis",
+      "question_text": "Oakham Audio sells speakers at $85 each with variable costs of $51 per unit. Fixed costs are $408,000 per year. How many units must be sold to earn a pre-tax profit of $136,000?",
+      "options": {
+        "A": "12,000 units",
+        "B": "8,000 units",
+        "C": "6,400 units",
+        "D": "16,000 units"
+      },
+      "correct": "D",
+      "explanation": "Required units = (fixed costs + target profit) / CM per unit = ($408,000 + $136,000) / ($85 - $51) = $544,000 / $34 = 16,000 units. 12,000 units is only the breakeven point.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c05-q004",
+      "chapter": 5,
+      "topic": "Business decision analysis: cost/volume/profit analysis",
+      "question_text": "Pryor Cycles wants to earn after-tax net income of $90,000. Its tax rate is 25%, selling price is $50 per unit, variable cost is $30 per unit and fixed costs are $260,000. How many units must it sell?",
+      "options": {
+        "A": "17,500 units",
+        "B": "18,625 units",
+        "C": "19,000 units",
+        "D": "21,833 units"
+      },
+      "correct": "C",
+      "explanation": "Convert the after-tax target to pre-tax: $90,000 / (1 - 25%) = $120,000. Required units = ($260,000 + $120,000) / ($50 - $30) = $380,000 / $20 = 19,000 units. Grossing up by multiplying by 1.25 ($112,500) understates the pre-tax profit needed, and ignoring tax gives 17,500 units.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p2-c05-q005",
+      "chapter": 5,
+      "topic": "Business decision analysis: cost/volume/profit analysis",
+      "question_text": "Quarry Stone Co. has budgeted sales of $900,000 and breakeven sales of $720,000. What is its margin of safety in dollars and as a percentage of budgeted sales?",
+      "options": {
+        "A": "$720,000; 80%",
+        "B": "$180,000; 20%",
+        "C": "$180,000; 25%",
+        "D": "$180,000; 80%"
+      },
+      "correct": "B",
+      "explanation": "Margin of safety = budgeted sales - breakeven sales = $900,000 - $720,000 = $180,000. As a percentage of budgeted sales: $180,000 / $900,000 = 20%. Sales could fall by this amount before the company incurs a loss.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c05-q006",
+      "chapter": 5,
+      "topic": "Business decision analysis: cost/volume/profit analysis",
+      "question_text": "Redwood Garden sells two products in a constant sales mix of 3 units of X for every 2 units of Y. X has a contribution margin of $20 per unit and Y has $35 per unit. Fixed costs are $520,000. How many units of X must be sold to break even?",
+      "options": {
+        "A": "8,000 units",
+        "B": "12,000 units",
+        "C": "11,345 units",
+        "D": "4,000 units"
+      },
+      "correct": "B",
+      "explanation": "CM per sales-mix batch (3X + 2Y) = (3 x $20) + (2 x $35) = $60 + $70 = $130. Breakeven batches = $520,000 / $130 = 4,000. Units of X = 4,000 x 3 = 12,000; units of Y = 4,000 x 2 = 8,000. A simple average CM of $27.50 ignores the sales mix.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p2-c05-q007",
+      "chapter": 5,
+      "topic": "Business decision analysis: cost/volume/profit analysis",
+      "question_text": "A company sells two products. Product L has a contribution margin ratio of 25% and Product H has a contribution margin ratio of 45%. Total sales dollars and fixed costs are unchanged, but the sales mix shifts toward Product L. What happens to the company's breakeven point in sales dollars?",
+      "options": {
+        "A": "It decreases, because the weighted average contribution margin ratio rises",
+        "B": "It is unchanged, because fixed costs are unchanged",
+        "C": "It decreases, because Product L generates more sales dollars",
+        "D": "It increases, because the weighted average contribution margin ratio falls"
+      },
+      "correct": "D",
+      "explanation": "Breakeven sales dollars = fixed costs / weighted average CM ratio. A shift toward the lower-margin product reduces the weighted average CM ratio, so more sales dollars are required to cover the same fixed costs and operating income falls at any given sales level.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c05-q008",
+      "chapter": 5,
+      "topic": "Business decision analysis: cost/volume/profit analysis",
+      "question_text": "Stanton Toys sells a toy at $40 with a variable cost of $25 and fixed costs of $300,000. If the variable cost rises to $28 per unit, by how many units will the breakeven point increase?",
+      "options": {
+        "A": "2,400 units",
+        "B": "5,000 units",
+        "C": "20,000 units",
+        "D": "25,000 units"
+      },
+      "correct": "B",
+      "explanation": "Original breakeven = $300,000 / ($40 - $25) = $300,000 / $15 = 20,000 units. New breakeven = $300,000 / ($40 - $28) = $300,000 / $12 = 25,000 units. Increase = 5,000 units. The 20% fall in unit contribution margin raises breakeven by 25%, not by the 12% rise in variable cost.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c05-q009",
+      "chapter": 5,
+      "topic": "Business decision analysis: cost/volume/profit analysis",
+      "question_text": "Which of the following is a standard assumption of cost/volume/profit analysis?",
+      "options": {
+        "A": "Selling price per unit and variable cost per unit are constant within the relevant range",
+        "B": "Inventory levels change significantly during the period",
+        "C": "Fixed costs increase in proportion to sales volume",
+        "D": "The sales mix changes as total volume changes"
+      },
+      "correct": "A",
+      "explanation": "CVP analysis assumes linear revenue and cost functions within the relevant range: constant unit selling price, constant unit variable cost and constant total fixed costs. It also assumes production equals sales (no significant inventory change) and, for multiple products, a constant sales mix.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c05-q010",
+      "chapter": 5,
+      "topic": "Business decision analysis: cost/volume/profit analysis",
+      "question_text": "Thatcher Optics has a margin of safety ratio of 25%. What is its degree of operating leverage at the current sales level?",
+      "options": {
+        "A": "4.0",
+        "B": "3.0",
+        "C": "0.5",
+        "D": "1.33"
+      },
+      "correct": "A",
+      "explanation": "Degree of operating leverage = 1 / margin of safety ratio = 1 / 0.25 = 4.0. This holds because DOL = CM / operating income and operating income = margin of safety in sales x CM ratio. A 10% increase in sales would therefore raise operating income by about 40%.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c05-q011",
+      "chapter": 5,
+      "topic": "Business decision analysis: cost/volume/profit analysis",
+      "question_text": "Upland Pumps sells 14,000 units at $120 each. Variable cost is $70 per unit and fixed costs are $540,000. What is operating income?",
+      "options": {
+        "A": "$160,000",
+        "B": "$700,000",
+        "C": "$1,140,000",
+        "D": "$430,000"
+      },
+      "correct": "A",
+      "explanation": "Contribution margin = ($120 - $70) x 14,000 = $50 x 14,000 = $700,000. Operating income = $700,000 - $540,000 = $160,000.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c05-q012",
+      "chapter": 5,
+      "topic": "Business decision analysis: cost/volume/profit analysis",
+      "question_text": "Vickers Labs can produce a product with either of two processes. Process A has fixed costs of $200,000 and variable cost of $18 per unit. Process B, which is more automated, has fixed costs of $320,000 and variable cost of $12 per unit. At what volume are total costs equal, and which process is cheaper above that volume?",
+      "options": {
+        "A": "20,000 units; Process A is cheaper above that volume",
+        "B": "17,333 units; Process B is cheaper above that volume",
+        "C": "15,556 units; Process A is cheaper above that volume",
+        "D": "20,000 units; Process B is cheaper above that volume"
+      },
+      "correct": "D",
+      "explanation": "Set total costs equal: $200,000 + 18Q = $320,000 + 12Q, so 6Q = $120,000 and Q = 20,000 units. Above this volume the lower variable cost of Process B outweighs its higher fixed cost; for example at 30,000 units, A costs $740,000 and B costs $680,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p2-c05-q013",
+      "chapter": 5,
+      "topic": "Business decision analysis: cost/volume/profit analysis",
+      "question_text": "In a contribution margin income statement, what is the contribution margin?",
+      "options": {
+        "A": "Gross profit minus fixed selling and administrative costs",
+        "B": "Sales revenue minus all variable costs, including variable selling and administrative costs",
+        "C": "Sales revenue minus cost of goods sold",
+        "D": "Sales revenue minus all fixed costs"
+      },
+      "correct": "B",
+      "explanation": "The contribution format classifies costs by behavior. Contribution margin = sales - all variable costs (manufacturing and non-manufacturing). It is the amount available to cover fixed costs and then provide profit. Sales minus cost of goods sold is gross profit, which belongs to the absorption (functional) format.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c05-q014",
+      "chapter": 5,
+      "topic": "Business decision analysis: cost/volume/profit analysis",
+      "question_text": "Walden Ceramics expects to sell 25,000 units next year. Variable cost is $22 per unit and fixed costs are $450,000. What is the minimum selling price per unit required to break even?",
+      "options": {
+        "A": "$18.00",
+        "B": "$31.00",
+        "C": "$25.96",
+        "D": "$40.00"
+      },
+      "correct": "D",
+      "explanation": "At breakeven, total revenue = total cost: 25,000 x P = $450,000 + (25,000 x $22). P = $22 + $450,000 / 25,000 = $22 + $18.00 = $40.00. Each unit must cover its variable cost and its share of fixed costs.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c05-q015",
+      "chapter": 5,
+      "topic": "Business decision analysis: cost/volume/profit analysis",
+      "question_text": "Yates Lighting sells lamps at $50 each with a variable cost of $30. Fixed costs are $210,000. How many lamps must be sold to earn a pre-tax profit equal to 15% of sales revenue?",
+      "options": {
+        "A": "7,636 units",
+        "B": "12,075 units",
+        "C": "16,800 units",
+        "D": "10,500 units"
+      },
+      "correct": "C",
+      "explanation": "Profit required per unit = 15% x $50 = $7.50. Set 50Q - 30Q - $210,000 = 7.5Q, so (20 - 7.5)Q = $210,000 and Q = $210,000 / $12.50 = 16,800 units. Check: revenue $840,000, profit = $126,000 = 15% of sales.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p2-c06-q001",
+      "chapter": 6,
+      "topic": "Business decision analysis: marginal analysis and pricing",
+      "question_text": "Ashby Printing paid $45,000 last year for a feasibility study on a new product line. In deciding now whether to launch the line, how should the $45,000 be treated?",
+      "options": {
+        "A": "Ignored, because it is a sunk cost that cannot be changed by the decision",
+        "B": "Treated as an opportunity cost of launching the product",
+        "C": "Added to the initial investment because it relates to the product line",
+        "D": "Spread over the expected life of the product line as a relevant cost"
+      },
+      "correct": "A",
+      "explanation": "A sunk cost has already been incurred and will not differ between alternatives, so it is irrelevant to the decision. Only future costs and revenues that differ between alternatives (relevant or incremental amounts) should be considered.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c06-q002",
+      "chapter": 6,
+      "topic": "Business decision analysis: marginal analysis and pricing",
+      "question_text": "A company could rent an empty warehouse to another business for $8,000 per month. Instead it plans to use the warehouse to store a new product line. In evaluating the product line, the $8,000 per month is best described as:",
+      "options": {
+        "A": "An allocated cost that should be excluded",
+        "B": "A fixed cost that is irrelevant because it does not change with volume",
+        "C": "A sunk cost that should be ignored",
+        "D": "An opportunity cost that is relevant to the decision"
+      },
+      "correct": "D",
+      "explanation": "An opportunity cost is the benefit forgone by choosing one alternative over the next best one. By using the warehouse for the new line, the company gives up $8,000 of monthly rental income, so this amount is a relevant cost of the new product line even though no cash is paid.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c06-q003",
+      "chapter": 6,
+      "topic": "Business decision analysis: marginal analysis and pricing",
+      "question_text": "Bristow Valves normally sells a component for $40. Unit costs are: variable $24 and allocated fixed overhead $8. A customer offers to buy 5,000 units at $28 each as a one-time order. Bristow has enough idle capacity and fixed costs will not change. What is the effect of accepting the order on operating income?",
+      "options": {
+        "A": "Increase of $20,000",
+        "B": "Decrease of $20,000",
+        "C": "No change in operating income",
+        "D": "Decrease of $60,000"
+      },
+      "correct": "A",
+      "explanation": "With idle capacity, only variable costs are incremental. Incremental profit = ($28 - $24) x 5,000 = $4 x 5,000 = $20,000. The allocated fixed overhead of $8 will be incurred regardless, so comparing the price with full cost ($32) wrongly suggests a loss.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c06-q004",
+      "chapter": 6,
+      "topic": "Business decision analysis: marginal analysis and pricing",
+      "question_text": "Assume instead that Bristow Valves (regular price $40, variable cost $24) is near full capacity. Accepting the 5,000-unit special order at $28 would require $1 per unit of extra shipping cost and would force Bristow to give up 2,000 units of regular sales. What is the effect on operating income?",
+      "options": {
+        "A": "Increase of $20,000",
+        "B": "Decrease of $32,000",
+        "C": "Decrease of $17,000",
+        "D": "Increase of $15,000"
+      },
+      "correct": "C",
+      "explanation": "Contribution from the special order = 5,000 x ($28 - $24 - $1) = 5,000 x $3 = $15,000. Lost contribution on regular sales (opportunity cost) = 2,000 x ($40 - $24) = $32,000. Net effect = $15,000 - $32,000 = -$17,000, a decrease of $17,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p2-c06-q005",
+      "chapter": 6,
+      "topic": "Business decision analysis: marginal analysis and pricing",
+      "question_text": "Cromwell Engines makes 10,000 valves a year. Unit costs are: direct materials $8, direct labor $6, variable overhead $4 and fixed overhead $7. If the valves are bought outside, 40% of the fixed overhead would be avoided. An outside supplier offers the valves at $21 each. Which option is cheaper and by how much in total?",
+      "options": {
+        "A": "Make; saves $30,000",
+        "B": "Buy; saves $8,000",
+        "C": "Make; saves $2,000",
+        "D": "Buy; saves $40,000"
+      },
+      "correct": "C",
+      "explanation": "Relevant cost to make = $8 + $6 + $4 + (40% x $7) = $18 + $2.80 = $20.80. Buying costs $21, so making is cheaper by $0.20 x 10,000 = $2,000. Using full cost of $25 wrongly includes unavoidable fixed overhead and suggests buying.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c06-q006",
+      "chapter": 6,
+      "topic": "Business decision analysis: marginal analysis and pricing",
+      "question_text": "Using the Cromwell Engines data (relevant cost to make $20.80 per unit, purchase price $21, 10,000 units), assume that if the valves are bought, the freed production space can be rented out for $30,000 per year. What should Cromwell do?",
+      "options": {
+        "A": "Buy, because total relevant cost is $180,000 versus $250,000 to make",
+        "B": "Make, because total relevant cost is $178,000 versus $210,000 to buy",
+        "C": "Make, because total relevant cost is $208,000 versus $210,000 to buy",
+        "D": "Buy, because total relevant cost is $180,000 versus $208,000 to make"
+      },
+      "correct": "D",
+      "explanation": "Relevant cost to make = $20.80 x 10,000 = $208,000. Relevant cost to buy = ($21 x 10,000) - rental income forgone if making $30,000 = $210,000 - $30,000 = $180,000. Buying is cheaper by $28,000. Equivalently, the $30,000 rent is an opportunity cost of making.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p2-c06-q007",
+      "chapter": 6,
+      "topic": "Business decision analysis: marginal analysis and pricing",
+      "question_text": "Dorset Chemicals produces 8,000 gallons of Product K from a joint process costing $96,000. K can be sold at split-off for $12 per gallon or processed further at a cost of $5 per gallon and sold for $18 per gallon. What is the effect on profit of processing further?",
+      "options": {
+        "A": "Decrease of $8,000",
+        "B": "Decrease of $88,000",
+        "C": "Increase of $8,000",
+        "D": "Increase of $104,000"
+      },
+      "correct": "C",
+      "explanation": "Incremental revenue from further processing = ($18 - $12) x 8,000 = $48,000. Incremental cost = $5 x 8,000 = $40,000. Net increase = $8,000, so K should be processed further. The $96,000 joint cost is incurred whichever choice is made and is irrelevant.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c06-q008",
+      "chapter": 6,
+      "topic": "Business decision analysis: marginal analysis and pricing",
+      "question_text": "Eldon Stores' garden segment reports sales of $600,000, variable costs of $390,000 and fixed costs of $260,000, of which $150,000 would be eliminated if the segment were closed (the rest is allocated corporate overhead). What would be the effect on company operating income of closing the segment?",
+      "options": {
+        "A": "Decrease of $60,000",
+        "B": "Increase of $50,000",
+        "C": "Decrease of $210,000",
+        "D": "Increase of $110,000"
+      },
+      "correct": "A",
+      "explanation": "Closing the segment loses its contribution margin of $600,000 - $390,000 = $210,000 but saves avoidable fixed costs of $150,000. Net effect = -$210,000 + $150,000 = -$60,000. The reported segment loss of $50,000 is misleading because $110,000 of allocated overhead would continue.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c06-q009",
+      "chapter": 6,
+      "topic": "Business decision analysis: marginal analysis and pricing",
+      "question_text": "Felton Machining has a shortage of machine hours. Data per unit:\nProduct P: contribution margin $30, 2 machine hours\nProduct Q: contribution margin $36, 3 machine hours\nProduct R: contribution margin $20, 1 machine hour\nDemand exceeds capacity for all three. In what order should production be prioritized to maximize total contribution?",
+      "options": {
+        "A": "Q, then P, then R",
+        "B": "R, then Q, then P",
+        "C": "P, then Q, then R",
+        "D": "R, then P, then Q"
+      },
+      "correct": "D",
+      "explanation": "When one resource is binding, rank products by contribution margin per unit of the scarce resource. P: $30 / 2 = $15 per hour. Q: $36 / 3 = $12 per hour. R: $20 / 1 = $20 per hour. Priority is R ($20), then P ($15), then Q ($12). Ranking by contribution per unit (Q first) ignores the constraint.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p2-c06-q010",
+      "chapter": 6,
+      "topic": "Business decision analysis: marginal analysis and pricing",
+      "question_text": "Under marginal analysis, a profit-maximizing firm should increase output up to the point at which:",
+      "options": {
+        "A": "Total revenue is at its maximum",
+        "B": "Marginal revenue equals marginal cost",
+        "C": "Average total cost is at its minimum",
+        "D": "Price equals average variable cost"
+      },
+      "correct": "B",
+      "explanation": "Profit increases as long as each extra unit adds more to revenue than to cost (marginal revenue > marginal cost). Profit is maximized where marginal revenue equals marginal cost. Total revenue is maximized where marginal revenue is zero, which is generally beyond the profit-maximizing output.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c06-q011",
+      "chapter": 6,
+      "topic": "Business decision analysis: marginal analysis and pricing",
+      "question_text": "Gilford Instruments' total cost is $50,000 at 1,000 units and $53,800 at 1,100 units. What is the marginal (incremental) cost per unit over this range?",
+      "options": {
+        "A": "$48.91",
+        "B": "$3.45",
+        "C": "$50.00",
+        "D": "$38.00"
+      },
+      "correct": "D",
+      "explanation": "Marginal cost per unit = change in total cost / change in output = ($53,800 - $50,000) / (1,100 - 1,000) = $3,800 / 100 = $38.00. $48.91 and $50.00 are average costs, which include fixed costs that do not change with the extra units.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c06-q012",
+      "chapter": 6,
+      "topic": "Business decision analysis: marginal analysis and pricing",
+      "question_text": "Hanover Clocks prices products at full cost plus a 25% markup. If the full cost per unit is $80, what is the selling price?",
+      "options": {
+        "A": "$20",
+        "B": "$106.67",
+        "C": "$100",
+        "D": "$105"
+      },
+      "correct": "C",
+      "explanation": "Cost-plus price = full cost x (1 + markup) = $80 x 1.25 = $100. Dividing by (1 - 25%) gives $106.67, which would be a 25% margin on selling price rather than a 25% markup on cost.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c06-q013",
+      "chapter": 6,
+      "topic": "Business decision analysis: marginal analysis and pricing",
+      "question_text": "Inglewood Shoes sets prices as a markup on variable cost. A product with a variable cost of $48 sells for $72. What markup percentage on variable cost is being used?",
+      "options": {
+        "A": "33.3%",
+        "B": "150%",
+        "C": "50%",
+        "D": "66.7%"
+      },
+      "correct": "C",
+      "explanation": "Markup on variable cost = (price - variable cost) / variable cost = ($72 - $48) / $48 = $24 / $48 = 50%. 33.3% is the contribution margin ratio (a margin on price), not the markup on cost.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c06-q014",
+      "chapter": 6,
+      "topic": "Business decision analysis: marginal analysis and pricing",
+      "question_text": "Market research shows customers will pay $150 for a new kitchen appliance. Jesmond Home requires a profit margin of 20% of the selling price. Under target costing, what is the maximum allowable cost per unit?",
+      "options": {
+        "A": "$120",
+        "B": "$30",
+        "C": "$125",
+        "D": "$180"
+      },
+      "correct": "A",
+      "explanation": "Target cost = target price - required profit = $150 - (20% x $150) = $150 - $30 = $120. Target costing starts with the market price and works back to the cost that must be achieved, often through value engineering. $125 would apply a 20% markup on cost instead of a 20% margin on price.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c06-q015",
+      "chapter": 6,
+      "topic": "Business decision analysis: marginal analysis and pricing",
+      "question_text": "Kirkby Coffee raised the price of a product from $20 to $22, and monthly unit sales fell from 5,000 to 4,400. Using simple percentage changes based on the original values, what is the price elasticity of demand (absolute value) and how is demand described?",
+      "options": {
+        "A": "1.2; elastic",
+        "B": "1.2; inelastic",
+        "C": "0.83; inelastic",
+        "D": "0.83; elastic"
+      },
+      "correct": "A",
+      "explanation": "Percentage change in quantity = (4,400 - 5,000) / 5,000 = -12%. Percentage change in price = ($22 - $20) / $20 = 10%. Elasticity = -12% / 10% = -1.2, or 1.2 in absolute value. Because it exceeds 1, demand is elastic, and total revenue fell from $100,000 to $96,800.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p2-c06-q016",
+      "chapter": 6,
+      "topic": "Business decision analysis: marginal analysis and pricing",
+      "question_text": "If demand for a product is price elastic, what is the effect of a price increase on total revenue?",
+      "options": {
+        "A": "Total revenue increases, because each unit is sold at a higher price",
+        "B": "Total revenue decreases, because the percentage fall in quantity exceeds the percentage rise in price",
+        "C": "Total revenue is unchanged, because price and quantity changes offset exactly",
+        "D": "Total revenue increases, because the percentage fall in quantity is smaller than the price rise"
+      },
+      "correct": "B",
+      "explanation": "With elastic demand (elasticity greater than 1 in absolute value), quantity demanded is highly responsive to price, so a price increase reduces quantity proportionately more and total revenue falls. Revenue rises after a price increase only when demand is inelastic, and is unchanged when elasticity equals exactly 1 (unit elastic).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c06-q017",
+      "chapter": 6,
+      "topic": "Business decision analysis: marginal analysis and pricing",
+      "question_text": "Which market structure is characterized by a few large, interdependent sellers whose pricing decisions provoke reactions from competitors, often illustrated by a kinked demand curve?",
+      "options": {
+        "A": "Perfect competition",
+        "B": "Pure monopoly",
+        "C": "Oligopoly",
+        "D": "Monopolistic competition"
+      },
+      "correct": "C",
+      "explanation": "In an oligopoly a few firms dominate and each firm's pricing affects its rivals. The kinked demand curve model suggests rivals match price cuts but not price increases, which makes prices relatively rigid. Perfect competition has many price-takers, monopolistic competition has many sellers of differentiated products, and a monopoly has a single seller.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c06-q018",
+      "chapter": 6,
+      "topic": "Business decision analysis: marginal analysis and pricing",
+      "question_text": "Lyndon Tech is launching an innovative product protected by patents, and early adopters are willing to pay a high price. Which pricing strategy is most appropriate at launch?",
+      "options": {
+        "A": "Predatory pricing below cost to eliminate existing competitors",
+        "B": "Penetration pricing: set a low initial price to gain market share quickly",
+        "C": "Cost-plus pricing at variable cost to discourage competitors",
+        "D": "Price skimming: set a high initial price and lower it as competition and volume increase"
+      },
+      "correct": "D",
+      "explanation": "Price skimming suits innovative, differentiated products with inelastic early demand and barriers to entry such as patents; it recovers development costs quickly before prices fall. Penetration pricing suits products with elastic demand where economies of scale or network effects reward rapid market share. Predatory pricing is generally illegal under antitrust laws.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c06-q019",
+      "chapter": 6,
+      "topic": "Business decision analysis: marginal analysis and pricing",
+      "question_text": "During product design, a cross-functional team examines each component of a product to find ways to reduce cost without reducing the functions that customers value. This technique is known as:",
+      "options": {
+        "A": "Peak-load pricing",
+        "B": "Life-cycle costing",
+        "C": "Value engineering",
+        "D": "Cost-plus pricing"
+      },
+      "correct": "C",
+      "explanation": "Value engineering systematically evaluates the design, materials and processes of a product to reduce cost while preserving the features customers value. It is a key tool for closing the gap between current cost and target cost under target costing. Life-cycle costing tracks costs over a product's whole life, and peak-load pricing charges more when demand is highest.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c06-q020",
+      "chapter": 6,
+      "topic": "Business decision analysis: marginal analysis and pricing",
+      "question_text": "Marston Boats has invested $2,000,000 in assets for a new product line and requires a 15% return on investment. Annual fixed costs are $600,000, variable cost is $25 per unit and expected sales are 40,000 units. What selling price will achieve the target return?",
+      "options": {
+        "A": "$46.00",
+        "B": "$90.00",
+        "C": "$47.50",
+        "D": "$40.00"
+      },
+      "correct": "C",
+      "explanation": "Required profit = $2,000,000 x 15% = $300,000. Total revenue needed = variable costs (40,000 x $25 = $1,000,000) + fixed costs $600,000 + target profit $300,000 = $1,900,000. Price = $1,900,000 / 40,000 = $47.50. $40.00 only breaks even, and adding a 15% markup on full cost ($46.00) does not tie the profit to the investment.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p2-c06-q021",
+      "chapter": 6,
+      "topic": "Business decision analysis: marginal analysis and pricing",
+      "question_text": "A company has substantial idle capacity and receives a one-time special order that will not affect regular sales or prices. In the short run, what is the minimum price per unit it should accept?",
+      "options": {
+        "A": "The full absorption cost per unit, including allocated fixed overhead",
+        "B": "The normal selling price less the normal profit margin",
+        "C": "The average total cost per unit at current volume",
+        "D": "The incremental (variable) cost per unit of filling the order"
+      },
+      "correct": "D",
+      "explanation": "With idle capacity and no effect on regular business, any price above the incremental cost of the order increases short-run profit, because fixed costs are unchanged. The minimum acceptable price is therefore the incremental (usually variable) cost, plus any opportunity costs if they exist. Long-run pricing, by contrast, must cover all costs.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c06-q022",
+      "chapter": 6,
+      "topic": "Business decision analysis: marginal analysis and pricing",
+      "question_text": "Norcross Foods incurs joint costs of $120,000, of which $60,000 is allocated to Product B. B yields 20,000 kg, which can be sold at split-off for $9.00 per kg or processed further at a total cost of $70,000 and sold for $12.20 per kg. What should Norcross do?",
+      "options": {
+        "A": "Sell at split-off, because processing further reduces profit by $66,000",
+        "B": "Process further, because it increases revenue by $64,000",
+        "C": "Sell at split-off, because processing further reduces profit by $6,000",
+        "D": "Process further, because final revenue of $244,000 exceeds the further processing cost plus allocated joint cost"
+      },
+      "correct": "C",
+      "explanation": "Incremental revenue = ($12.20 - $9.00) x 20,000 = $64,000. Incremental cost = $70,000. Net effect of further processing = $64,000 - $70,000 = -$6,000, so B should be sold at split-off. Allocated joint cost is irrelevant to the decision because it is incurred either way.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p2-c07-q001",
+      "chapter": 7,
+      "topic": "Enterprise risk management",
+      "question_text": "A flood that destroys a company's main distribution center is an example of which category of risk?",
+      "options": {
+        "A": "Financial risk",
+        "B": "Market risk",
+        "C": "Hazard risk",
+        "D": "Strategic risk"
+      },
+      "correct": "C",
+      "explanation": "Hazard risks arise from natural events, accidents and other perils such as fire, flood, theft or injury, and are often insurable. Financial risks relate to interest rates, exchange rates, credit and liquidity; strategic risks arise from business strategy and the competitive environment.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c07-q002",
+      "chapter": 7,
+      "topic": "Enterprise risk management",
+      "question_text": "A traditional film camera manufacturer loses most of its market after customers switch to smartphone photography. This is primarily an example of:",
+      "options": {
+        "A": "Credit risk",
+        "B": "Operational risk",
+        "C": "Hazard risk",
+        "D": "Strategic risk"
+      },
+      "correct": "D",
+      "explanation": "Strategic risk arises from the choice and execution of strategy and from shifts in the business environment, such as technological change, competitor actions or changing customer preferences. Operational risk relates to failures of internal processes, people and systems, and credit risk to counterparties failing to pay.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c07-q003",
+      "chapter": 7,
+      "topic": "Enterprise risk management",
+      "question_text": "Which statement best distinguishes risk appetite from risk tolerance?",
+      "options": {
+        "A": "Risk appetite applies only to financial risks, whereas risk tolerance applies only to operational risks",
+        "B": "Risk appetite is set by front-line managers for individual transactions; risk tolerance is set by the board for the whole organization",
+        "C": "Risk appetite is the broad amount of risk an organization is willing to accept in pursuit of value; risk tolerance is the acceptable variation in performance around specific objectives",
+        "D": "Risk appetite is the risk remaining after controls; risk tolerance is the risk before any controls"
+      },
+      "correct": "C",
+      "explanation": "Risk appetite is a high-level, organization-wide statement, set by management with board oversight, of the types and amount of risk the entity is willing to accept in pursuit of its mission and value. Risk tolerance (the acceptable variation in performance) is more granular and relates to particular objectives or metrics. Risk before and after controls describes inherent and residual risk.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c07-q004",
+      "chapter": 7,
+      "topic": "Enterprise risk management",
+      "question_text": "A company purchases a commercial liability insurance policy to cover potential customer injury claims. Which risk response does this represent?",
+      "options": {
+        "A": "Accepting the risk",
+        "B": "Exploiting the risk",
+        "C": "Avoiding the risk",
+        "D": "Sharing (transferring) the risk"
+      },
+      "correct": "D",
+      "explanation": "Buying insurance shares or transfers the financial consequences of a risk to another party in exchange for a premium. Avoidance means exiting the activity that gives rise to the risk, acceptance means taking no action beyond monitoring, and reduction means using controls to lower likelihood or impact.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c07-q005",
+      "chapter": 7,
+      "topic": "Enterprise risk management",
+      "question_text": "A risk assessment rates the risk of unauthorized wire transfers as high before considering controls. After dual authorization and daily bank reconciliations are introduced, the risk is rated low. The low rating is the:",
+      "options": {
+        "A": "Risk appetite",
+        "B": "Inherent risk",
+        "C": "Residual risk",
+        "D": "Detection risk"
+      },
+      "correct": "C",
+      "explanation": "Inherent risk is the risk in the absence of any management actions or controls. Residual risk is the risk that remains after management's responses, such as controls, have been applied. Management compares residual risk with risk appetite to decide whether further action is needed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c07-q006",
+      "chapter": 7,
+      "topic": "Enterprise risk management",
+      "question_text": "Which of the following is NOT one of the five components of the COSO Enterprise Risk Management - Integrating with Strategy and Performance framework?",
+      "options": {
+        "A": "Performance",
+        "B": "Review and revision",
+        "C": "Governance and culture",
+        "D": "Control activities"
+      },
+      "correct": "D",
+      "explanation": "The COSO ERM framework (2017) has five components: Governance and Culture; Strategy and Objective-Setting; Performance; Review and Revision; and Information, Communication, and Reporting. Control activities is a component of the separate COSO Internal Control - Integrated Framework.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c07-q007",
+      "chapter": 7,
+      "topic": "Enterprise risk management",
+      "question_text": "Ormsby Chemicals estimates a 4% annual probability of an environmental spill that would cost $2,500,000. What is the expected annual loss from this risk?",
+      "options": {
+        "A": "$1,000,000",
+        "B": "$2,400,000",
+        "C": "$2,500,000",
+        "D": "$100,000"
+      },
+      "correct": "D",
+      "explanation": "Expected loss = probability x impact = 4% x $2,500,000 = $100,000. Comparing this figure with the annual cost of a risk response (for example an insurance premium) helps decide whether the response is cost-effective.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c07-q008",
+      "chapter": 7,
+      "topic": "Enterprise risk management",
+      "question_text": "A treasury portfolio is worth $20,000,000. Its daily returns are normally distributed with a mean of zero and a standard deviation of 1.2%. Using a one-tailed z-value of 1.65 for 95% confidence, what is the one-day 95% value at risk (VaR)?",
+      "options": {
+        "A": "$470,400",
+        "B": "$559,200",
+        "C": "$396,000",
+        "D": "$240,000"
+      },
+      "correct": "C",
+      "explanation": "VaR = z x standard deviation x portfolio value = 1.65 x 1.2% x $20,000,000 = $396,000. There is a 5% chance of losing more than $396,000 in one day. Using 2.33 gives 99% VaR ($559,200), and 1.96 is the two-tailed 95% value.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p2-c07-q009",
+      "chapter": 7,
+      "topic": "Enterprise risk management",
+      "question_text": "In a risk heat map that plots likelihood against impact, which risks should generally receive the highest priority for management attention?",
+      "options": {
+        "A": "Risks with high likelihood but low impact",
+        "B": "Risks with low likelihood and low impact",
+        "C": "Risks that have already been fully insured",
+        "D": "Risks with both high likelihood and high impact"
+      },
+      "correct": "D",
+      "explanation": "A heat map shows each risk's assessed likelihood and impact. Those in the high-likelihood, high-impact zone pose the greatest threat to objectives and are prioritized for response. Low-impact frequent risks may be handled through routine controls, while low-likelihood, high-impact risks often call for contingency plans or insurance.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c07-q010",
+      "chapter": 7,
+      "topic": "Enterprise risk management",
+      "question_text": "Which of the following is the best example of a key risk indicator (KRI)?",
+      "options": {
+        "A": "The historical cost of property, plant and equipment",
+        "B": "The number of shares authorized in the corporate charter",
+        "C": "A rising rate of employee turnover in the IT security team, monitored monthly",
+        "D": "Last year's audited net income"
+      },
+      "correct": "C",
+      "explanation": "Key risk indicators are metrics, ideally forward-looking, that provide early warning of increasing exposure to a risk. Rising turnover among security staff may signal greater cybersecurity risk before an incident occurs. Historical results and static balances describe past outcomes rather than changing risk exposure.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c07-q011",
+      "chapter": 7,
+      "topic": "Enterprise risk management",
+      "question_text": "As part of its business continuity plan, a bank maintains a fully equipped backup data center with current copies of all systems and data, ready to take over operations within minutes. This backup facility is a:",
+      "options": {
+        "A": "Warm site",
+        "B": "Cold site",
+        "C": "Hot site",
+        "D": "Reciprocal agreement"
+      },
+      "correct": "C",
+      "explanation": "A hot site is fully configured with hardware, software and up-to-date data, enabling near-immediate recovery. A cold site provides space and utilities but no equipment, and a warm site has some equipment but needs time and data restoration. A reciprocal agreement relies on another organization's facilities.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c07-q012",
+      "chapter": 7,
+      "topic": "Enterprise risk management",
+      "question_text": "Pendle Logistics faces a 10% annual chance of a cyberattack causing a $1,000,000 loss. A security upgrade costing $60,000 per year would reduce the probability to 3%. What is the net annual benefit (cost) of the upgrade based on expected values?",
+      "options": {
+        "A": "Net cost of $30,000",
+        "B": "Net cost of $25,000",
+        "C": "Net benefit of $10,000",
+        "D": "Net benefit of $40,000"
+      },
+      "correct": "C",
+      "explanation": "Expected loss without upgrade = 10% x $1,000,000 = $100,000. With upgrade = 3% x $1,000,000 = $30,000. Reduction in expected loss = $70,000. Net benefit = $70,000 - $60,000 = $10,000. Comparing the cost with the full original expected loss ($100,000) overstates the benefit because some risk remains.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p2-c07-q013",
+      "chapter": 7,
+      "topic": "Enterprise risk management",
+      "question_text": "Which of the following is an example of operational risk?",
+      "options": {
+        "A": "A decline in the value of foreign currency receivables",
+        "B": "A rise in market interest rates on floating-rate debt",
+        "C": "Losses caused by employees repeatedly keying incorrect prices into the billing system",
+        "D": "A competitor launching a superior product"
+      },
+      "correct": "C",
+      "explanation": "Operational risk is the risk of loss from inadequate or failed internal processes, people and systems, or from external events. Data entry errors are a people and process failure. Currency and interest rate movements are financial (market) risks, and a competitor's product launch is a strategic risk.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c07-q014",
+      "chapter": 7,
+      "topic": "Enterprise risk management",
+      "question_text": "A company decides to withdraw entirely from a politically unstable country rather than continue operating there. This risk response is:",
+      "options": {
+        "A": "Avoidance",
+        "B": "Acceptance",
+        "C": "Sharing",
+        "D": "Reduction"
+      },
+      "correct": "A",
+      "explanation": "Avoidance eliminates a risk by exiting or not undertaking the activity that creates it. It is appropriate when no other response brings the risk within the organization's risk appetite at an acceptable cost. Reduction lowers likelihood or impact, sharing transfers part of the risk, and acceptance retains it.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c07-q015",
+      "chapter": 7,
+      "topic": "Enterprise risk management",
+      "question_text": "Which of the following is a recognized limitation of value at risk (VaR) as a risk measure?",
+      "options": {
+        "A": "It can only be calculated for a single asset, not a portfolio",
+        "B": "It does not indicate how large losses may be in the cases where the VaR threshold is exceeded",
+        "C": "It cannot be expressed in currency terms",
+        "D": "It ignores the probability of losses entirely"
+      },
+      "correct": "B",
+      "explanation": "VaR states the maximum loss expected at a given confidence level over a set period, in currency terms, and is commonly computed for portfolios. However, it says nothing about the size of losses in the tail beyond the threshold, and it often relies on normal distribution assumptions that understate extreme events. Measures such as conditional VaR (expected shortfall) and stress testing address this gap.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p2-c08-q001",
+      "chapter": 8,
+      "topic": "Capital investment decisions",
+      "question_text": "Which of the following cash flows should be EXCLUDED when evaluating a proposed capital project?",
+      "options": {
+        "A": "Interest payments on debt used to finance the project",
+        "B": "The increase in net working capital required at the start of the project",
+        "C": "Lost after-tax contribution from an existing product that the new product will replace",
+        "D": "The after-tax salvage value of the equipment at the end of the project"
+      },
+      "correct": "A",
+      "explanation": "Financing costs are excluded from project cash flows because the cost of financing is captured in the discount rate; including interest as well would double count it. Salvage value, working capital investment and the erosion (cannibalization) of existing sales are all relevant incremental cash flows.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c08-q002",
+      "chapter": 8,
+      "topic": "Capital investment decisions",
+      "question_text": "Quayle Packaging will buy a machine for $800,000 plus $40,000 of shipping and installation, and will need an additional $60,000 of net working capital. The old machine will be sold for $100,000; its tax basis is $140,000. The tax rate is 25%. What is the net initial investment?",
+      "options": {
+        "A": "$810,000",
+        "B": "$800,000",
+        "C": "$730,000",
+        "D": "$790,000"
+      },
+      "correct": "D",
+      "explanation": "Tax loss on old machine = $140,000 - $100,000 = $40,000, creating a tax saving of $40,000 x 25% = $10,000. After-tax proceeds = $100,000 + $10,000 = $110,000. Net initial investment = $800,000 + $40,000 + $60,000 - $110,000 = $790,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c08-q003",
+      "chapter": 8,
+      "topic": "Capital investment decisions",
+      "question_text": "A project will increase annual revenue by $300,000 and cash operating costs by $120,000. Annual tax depreciation is $100,000 and the tax rate is 25%. What is the annual after-tax operating cash flow?",
+      "options": {
+        "A": "$60,000",
+        "B": "$135,000",
+        "C": "$180,000",
+        "D": "$160,000"
+      },
+      "correct": "D",
+      "explanation": "Taxable income = $300,000 - $120,000 - $100,000 = $80,000. Net income = $80,000 x (1 - 25%) = $60,000. Add back non-cash depreciation: $60,000 + $100,000 = $160,000. Alternatively: ($180,000 x 0.75) + ($100,000 x 0.25) = $135,000 + $25,000 = $160,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c08-q004",
+      "chapter": 8,
+      "topic": "Capital investment decisions",
+      "question_text": "A company records annual tax depreciation of $100,000 on new equipment and its tax rate is 25%. What is the annual depreciation tax shield?",
+      "options": {
+        "A": "$400,000",
+        "B": "$100,000",
+        "C": "$75,000",
+        "D": "$25,000"
+      },
+      "correct": "D",
+      "explanation": "Depreciation tax shield = depreciation x tax rate = $100,000 x 25% = $25,000. Depreciation is not a cash outflow, but it reduces taxable income and therefore cash taxes paid.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c08-q005",
+      "chapter": 8,
+      "topic": "Capital investment decisions",
+      "question_text": "Rowan Dental invests $500,000 in equipment expected to generate after-tax cash inflows of $120,000, $150,000, $180,000 and $200,000 in Years 1 to 4. Assuming even cash flows within each year, what is the payback period?",
+      "options": {
+        "A": "3.25 years",
+        "B": "4.00 years",
+        "C": "3.28 years",
+        "D": "3.08 years"
+      },
+      "correct": "A",
+      "explanation": "Cumulative inflows: Year 1 $120,000; Year 2 $270,000; Year 3 $450,000. $50,000 remains to be recovered in Year 4, when $200,000 is received: $50,000 / $200,000 = 0.25 year. Payback = 3 + 0.25 = 3.25 years. Dividing the investment by average annual inflow (3.08 years) is only valid for even cash flows.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c08-q006",
+      "chapter": 8,
+      "topic": "Capital investment decisions",
+      "question_text": "Sefton Labs is evaluating a $600,000 investment that will generate after-tax cash inflows of $170,000 per year for 5 years with no salvage value. The required return is 10% (5-year annuity factor 3.7908). What is the NPV (rounded to the nearest dollar)?",
+      "options": {
+        "A": "$644,436",
+        "B": "$44,436",
+        "C": "$12,812",
+        "D": "$250,000"
+      },
+      "correct": "B",
+      "explanation": "PV of inflows = $170,000 x 3.7908 = $644,436. NPV = $644,436 - $600,000 = $44,436. The project is acceptable because NPV is positive. Ignoring the time value of money gives $250,000, which overstates the gain.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c08-q007",
+      "chapter": 8,
+      "topic": "Capital investment decisions",
+      "question_text": "For the Sefton Labs project (initial investment $600,000, present value of future cash inflows $644,436), what is the profitability index?",
+      "options": {
+        "A": "1.07",
+        "B": "0.07",
+        "C": "0.93",
+        "D": "1.42"
+      },
+      "correct": "A",
+      "explanation": "Profitability index = PV of future cash inflows / initial investment = $644,436 / $600,000 = 1.07. A PI above 1.0 corresponds to a positive NPV. 0.07 is NPV divided by investment (the net PI), which differs from the PI by exactly 1.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c08-q008",
+      "chapter": 8,
+      "topic": "Capital investment decisions",
+      "question_text": "Talbot Freight can invest $400,000 in a project that produces after-tax cash inflows of $130,000 per year for 4 years. Which of the following is closest to the project's internal rate of return?",
+      "options": {
+        "A": "32.5%",
+        "B": "11.4%",
+        "C": "8.4%",
+        "D": "7.5%"
+      },
+      "correct": "B",
+      "explanation": "At the IRR, the PV of inflows equals the investment, so the required annuity factor = $400,000 / $130,000 = 3.0769. The 4-year annuity factor is 3.1699 at 10% and 3.0373 at 12%, so the IRR lies between them; solving precisely gives 11.39%, or about 11.4%. 32.5% is the payback reciprocal and 7.5% is an undiscounted average return.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p2-c08-q009",
+      "chapter": 8,
+      "topic": "Capital investment decisions",
+      "question_text": "Two mutually exclusive projects of the same size and life are being evaluated. Project M has the higher NPV at the firm's cost of capital, while Project N has the higher IRR. Which project should be selected, and why?",
+      "options": {
+        "A": "Either project, because NPV and IRR always give the same ranking",
+        "B": "Project N, because a higher IRR always means a higher return to shareholders",
+        "C": "Project N, because IRR assumes reinvestment at the cost of capital",
+        "D": "Project M, because NPV measures the increase in shareholder wealth and assumes reinvestment at the cost of capital"
+      },
+      "correct": "D",
+      "explanation": "When NPV and IRR rank mutually exclusive projects differently (because of differences in timing of cash flows or scale), the NPV ranking should be followed. NPV measures the absolute increase in wealth and implicitly assumes reinvestment at the cost of capital, whereas IRR assumes reinvestment at the IRR itself, which is often unrealistic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c08-q010",
+      "chapter": 8,
+      "topic": "Capital investment decisions",
+      "question_text": "At the end of a project, equipment with a tax basis of $0 will be sold for $50,000, and the $60,000 of net working capital invested at the start will be fully recovered. The tax rate is 25%. What is the total terminal-year non-operating cash flow?",
+      "options": {
+        "A": "$97,500",
+        "B": "$37,500",
+        "C": "$110,000",
+        "D": "$82,500"
+      },
+      "correct": "A",
+      "explanation": "Gain on sale = $50,000 - $0 = $50,000, so tax = $50,000 x 25% = $12,500 and after-tax salvage = $37,500. Recovery of working capital is not taxable: $60,000. Terminal cash flow = $37,500 + $60,000 = $97,500.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p2-c08-q011",
+      "chapter": 8,
+      "topic": "Capital investment decisions",
+      "question_text": "Upton Robotics invests $300,000 in a project producing after-tax cash inflows of $120,000 at the end of each of the next 4 years. The discount rate is 10%. What is the discounted payback period (to two decimals, assuming even flows within the year)?",
+      "options": {
+        "A": "3.52 years",
+        "B": "4.00 years",
+        "C": "2.50 years",
+        "D": "3.02 years"
+      },
+      "correct": "D",
+      "explanation": "PV of inflows at 10%: Year 1 $109,091; Year 2 $99,174; Year 3 $90,158; Year 4 $81,962. Cumulative PV after Year 3 = $298,422, leaving $1,578 to recover from Year 4's $81,962: 0.02 year. Discounted payback = 3 + 0.02 = 3.02 years. The simple payback of 2.50 years ignores the time value of money.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p2-c08-q012",
+      "chapter": 8,
+      "topic": "Capital investment decisions",
+      "question_text": "A financial analyst recalculates a project's NPV several times, changing only the sales volume assumption each time while holding all other inputs constant, to see how much NPV changes. This technique is:",
+      "options": {
+        "A": "Monte Carlo simulation",
+        "B": "Sensitivity analysis",
+        "C": "Scenario analysis",
+        "D": "Real options analysis"
+      },
+      "correct": "B",
+      "explanation": "Sensitivity analysis changes one input at a time to see how responsive the outcome is, identifying the variables that matter most. Scenario analysis changes several inputs together to reflect consistent states such as best, base and worst cases. Monte Carlo simulation draws thousands of random combinations of inputs from probability distributions.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c08-q013",
+      "chapter": 8,
+      "topic": "Capital investment decisions",
+      "question_text": "Which statement best describes Monte Carlo simulation in capital budgeting?",
+      "options": {
+        "A": "It calculates the single NPV that results from management's most likely estimates",
+        "B": "It converts uncertain cash flows to certainty equivalents before discounting at the risk-free rate",
+        "C": "It repeatedly draws values for uncertain inputs from probability distributions to generate a distribution of possible NPVs",
+        "D": "It discounts cash flows at a rate adjusted upward for project risk"
+      },
+      "correct": "C",
+      "explanation": "Monte Carlo simulation assigns probability distributions to key variables, runs many trials with randomly selected values and produces a distribution of NPV outcomes, from which management can estimate the probability of a negative NPV. Risk-adjusted discount rates and certainty equivalents are alternative ways of incorporating risk.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c08-q014",
+      "chapter": 8,
+      "topic": "Capital investment decisions",
+      "question_text": "A mining company's project has a slightly negative NPV based on expected cash flows, but the company can abandon the project and sell the equipment if commodity prices fall. How does this flexibility affect the evaluation?",
+      "options": {
+        "A": "The abandonment option has value, which should be added to the static NPV and may make the project acceptable",
+        "B": "It reduces the project's value, because abandonment would mean losing the initial investment",
+        "C": "It should be ignored, because options apply only to financial securities",
+        "D": "It has no effect, because only expected cash flows matter in NPV analysis"
+      },
+      "correct": "A",
+      "explanation": "Real options, such as the option to abandon, expand, delay or switch, give management flexibility to respond to new information. An abandonment option limits downside losses, so it has positive value. The strategic (expanded) NPV equals static NPV plus the value of the real options and can turn a marginally negative project into an acceptable one.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c08-q015",
+      "chapter": 8,
+      "topic": "Capital investment decisions",
+      "question_text": "Vernon Corp. has a capital budget of $1,000,000. Its independent projects cannot be divided:\nProject A: cost $600,000, NPV $150,000\nProject B: cost $400,000, NPV $120,000\nProject C: cost $500,000, NPV $140,000\nProject D: cost $300,000, NPV $60,000\nWhich combination maximizes total NPV within the budget?",
+      "options": {
+        "A": "A and B, with total NPV of $270,000",
+        "B": "A and D, with total NPV of $210,000",
+        "C": "B and C, with total NPV of $260,000",
+        "D": "B, C and D, with total NPV of $320,000"
+      },
+      "correct": "A",
+      "explanation": "NPV per dollar invested (NPV / cost) is B 0.30, C 0.28, A 0.25 and D 0.20 (equivalent to profitability indexes of 1.30, 1.28, 1.25 and 1.20). Ranking on this basis selects B and C ($900,000, NPV $260,000), but the remaining $100,000 cannot fund another indivisible project. Checking feasible combinations: A + B uses exactly $1,000,000 for NPV $270,000, the highest. B + C + D would cost $1,200,000, which exceeds the budget. With indivisible projects, combinations must be compared directly.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p2-c09-q001",
+      "chapter": 9,
+      "topic": "Professional ethics",
+      "question_text": "Which of the following are the four overarching ethical principles in the IMA Statement of Ethical Professional Practice?",
+      "options": {
+        "A": "Honesty, Independence, Transparency and Accountability",
+        "B": "Honesty, Fairness, Objectivity and Responsibility",
+        "C": "Competence, Confidentiality, Integrity and Credibility",
+        "D": "Integrity, Objectivity, Professional Competence and Due Care"
+      },
+      "correct": "B",
+      "explanation": "The IMA's overarching ethical principles are Honesty, Fairness, Objectivity and Responsibility. Competence, Confidentiality, Integrity and Credibility are the four standards that members must comply with. Professional competence and due care is a principle in other professional codes, not the IMA statement.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c09-q002",
+      "chapter": 9,
+      "topic": "Professional ethics",
+      "question_text": "Under the IMA Statement of Ethical Professional Practice, which four standards must members comply with?",
+      "options": {
+        "A": "Competence, Independence, Integrity and Transparency",
+        "B": "Competence, Confidentiality, Integrity and Credibility",
+        "C": "Confidentiality, Loyalty, Diligence and Objectivity",
+        "D": "Honesty, Fairness, Objectivity and Responsibility"
+      },
+      "correct": "B",
+      "explanation": "The IMA statement sets out four standards: Competence, Confidentiality, Integrity and Credibility. Honesty, Fairness, Objectivity and Responsibility are the overarching principles that underpin those standards.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c09-q003",
+      "chapter": 9,
+      "topic": "Professional ethics",
+      "question_text": "A management accountant is assigned to evaluate a lease accounting change but has not kept up with recent developments in lease accounting. She enrolls in a technical course before starting the work. Which IMA standard does this action most directly support?",
+      "options": {
+        "A": "Competence",
+        "B": "Confidentiality",
+        "C": "Integrity",
+        "D": "Credibility"
+      },
+      "correct": "A",
+      "explanation": "The Competence standard requires members to maintain an appropriate level of professional leadership and expertise by enhancing knowledge and skills, and to perform duties in accordance with relevant laws, regulations and technical standards. Updating technical knowledge before an assignment directly supports this standard.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c09-q004",
+      "chapter": 9,
+      "topic": "Professional ethics",
+      "question_text": "A cost accountant learns from internal reports that his company will soon announce an unexpected loss. He sells his shares in the company before the announcement. Which IMA standard has he most directly violated?",
+      "options": {
+        "A": "Competence",
+        "B": "Confidentiality",
+        "C": "Credibility",
+        "D": "Fairness"
+      },
+      "correct": "B",
+      "explanation": "The Confidentiality standard requires members to keep information confidential except when disclosure is authorized or legally required, and to refrain from using confidential information for unethical or illegal advantage. Trading on non-public company information also likely breaches securities laws on insider trading.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c09-q005",
+      "chapter": 9,
+      "topic": "Professional ethics",
+      "question_text": "A plant controller is asked to evaluate competing bids for a maintenance contract. One bidder is owned by her brother. Under the IMA Integrity standard, what should she do?",
+      "options": {
+        "A": "Keep the relationship confidential to protect her brother's privacy",
+        "B": "Ensure her brother's company submits the lowest bid so the decision is defensible",
+        "C": "Disclose the relationship to all relevant parties and mitigate the conflict, for example by withdrawing from the evaluation",
+        "D": "Evaluate the bids herself, since she is confident she can remain objective"
+      },
+      "correct": "C",
+      "explanation": "The Integrity standard requires members to mitigate actual conflicts of interest, communicate regularly with business associates to avoid apparent conflicts, and advise all parties of any potential conflicts. Disclosing the relationship and removing herself from the decision addresses both the actual and the apparent conflict.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c09-q006",
+      "chapter": 9,
+      "topic": "Professional ethics",
+      "question_text": "A management accountant discovers a significant weakness in the controls over vendor master file changes and reports it promptly to management in accordance with company policy. Which IMA standard does this action most directly reflect?",
+      "options": {
+        "A": "Integrity",
+        "B": "Confidentiality",
+        "C": "Competence",
+        "D": "Credibility"
+      },
+      "correct": "D",
+      "explanation": "The Credibility standard requires members to communicate information fairly and objectively, to disclose all relevant information that could reasonably influence users' understanding, and to report any delays or deficiencies in information, timeliness, processing or internal controls in conformance with organization policy and applicable law.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c09-q007",
+      "chapter": 9,
+      "topic": "Professional ethics",
+      "question_text": "According to the IMA Statement of Ethical Professional Practice, what should a member do FIRST when faced with an ethical issue?",
+      "options": {
+        "A": "Contact the appropriate regulatory authority",
+        "B": "Follow the organization's established policies on the resolution of such conflicts",
+        "C": "Resign from the organization to avoid being associated with the issue",
+        "D": "Consult a personal attorney about legal obligations"
+      },
+      "correct": "B",
+      "explanation": "The IMA guidance states that members should first follow their organization's established policies for resolving ethical conflicts. If those policies do not resolve the issue, the member may discuss it with the immediate supervisor (or the next level if the supervisor is involved), consult an IMA ethics counselor or other impartial advisor confidentially, and consult an attorney. Resignation is a last resort.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c09-q008",
+      "chapter": 9,
+      "topic": "Professional ethics",
+      "question_text": "A management accountant believes her immediate supervisor is involved in manipulating inventory counts. Company policy has not resolved the issue. According to IMA guidance, what should she do next?",
+      "options": {
+        "A": "Discuss the matter with her immediate supervisor before taking any other step",
+        "B": "Present the issue to the next level of management above her supervisor",
+        "C": "Ignore the issue because the supervisor has authority over inventory",
+        "D": "Report the matter to a local newspaper to protect shareholders"
+      },
+      "correct": "B",
+      "explanation": "The IMA statement says members should discuss ethical issues with their immediate supervisor except when it appears that the supervisor is involved, in which case the issue should be presented to the next level of management. Communicating with outside parties such as the media is not considered appropriate unless there is a clear violation of the law and disclosure is required or appropriate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c09-q009",
+      "chapter": 9,
+      "topic": "Professional ethics",
+      "question_text": "Under IMA guidance, when is it appropriate for a member to communicate an ethical problem to authorities or individuals not employed or engaged by the organization?",
+      "options": {
+        "A": "When the member believes there is a clear violation of the law",
+        "B": "Whenever the member disagrees with a management decision",
+        "C": "Only after the member has resigned from the organization",
+        "D": "Whenever a journalist requests information about the company"
+      },
+      "correct": "A",
+      "explanation": "The IMA statement indicates that communicating ethical problems to authorities or individuals outside the organization is not considered appropriate unless the member believes there is a clear violation of the law. Members should otherwise work through internal channels and may seek confidential advice from an IMA ethics counselor or an attorney.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c09-q010",
+      "chapter": 9,
+      "topic": "Professional ethics",
+      "question_text": "A management accountant wants to clarify whether a situation she faces is an ethical violation before taking action. Under IMA guidance, which step is appropriate?",
+      "options": {
+        "A": "Initiate a confidential discussion with an IMA Ethics Counselor or another impartial advisor",
+        "B": "Post a description of the situation on social media to obtain public opinion",
+        "C": "Discuss the details informally with a friend at a competitor",
+        "D": "Ask the external auditor to resolve the matter on her behalf"
+      },
+      "correct": "A",
+      "explanation": "The IMA statement suggests clarifying relevant ethical issues by initiating a confidential discussion with an IMA Ethics Counselor or other impartial advisor to obtain a better understanding of possible courses of action. Sharing details publicly or with outsiders would breach the Confidentiality standard.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c09-q011",
+      "chapter": 9,
+      "topic": "Professional ethics",
+      "question_text": "The chief financial officer of a company reports directly to the chief executive officer. The CFO discovers that the CEO has been directing staff to record fictitious sales. Internal policy has not resolved the matter. Under IMA guidance, to whom should the CFO present the issue?",
+      "options": {
+        "A": "An acceptable reviewing authority such as the audit committee or the board of directors",
+        "B": "The Securities and Exchange Commission, immediately and before any internal escalation",
+        "C": "The company's sales staff, so they can stop recording the transactions",
+        "D": "The CEO, since the CEO is the CFO's immediate superior"
+      },
+      "correct": "A",
+      "explanation": "When the immediate superior is the chief executive officer (or equivalent) and is involved, the IMA statement indicates that the acceptable reviewing authority may be a group such as the audit committee, executive committee, board of directors, board of trustees or owners. External disclosure is appropriate only where there is a clear violation of the law and internal routes are inadequate.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p2-c09-q012",
+      "chapter": 9,
+      "topic": "Professional ethics",
+      "question_text": "What are the three elements of the fraud triangle?",
+      "options": {
+        "A": "Motive, means and concealment",
+        "B": "Pressure (incentive), opportunity and rationalization",
+        "C": "Pressure, collusion and detection",
+        "D": "Opportunity, materiality and intent"
+      },
+      "correct": "B",
+      "explanation": "The fraud triangle, developed from criminologist Donald Cressey's research, explains that fraud is more likely when three conditions exist: pressure or incentive to commit fraud, an opportunity to commit and conceal it (often weak controls), and the ability to rationalize the act as acceptable.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c09-q013",
+      "chapter": 9,
+      "topic": "Professional ethics",
+      "question_text": "Which element of the fraud triangle can management most directly reduce by designing and enforcing strong internal controls?",
+      "options": {
+        "A": "Opportunity",
+        "B": "Financial need",
+        "C": "Rationalization",
+        "D": "Pressure"
+      },
+      "correct": "A",
+      "explanation": "Internal controls such as segregation of duties, authorization requirements, reconciliations and monitoring limit the chances to commit and conceal fraud, so they target opportunity. Pressure and rationalization are personal or cultural factors that controls influence less directly, though a strong ethical culture can affect rationalization.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c09-q014",
+      "chapter": 9,
+      "topic": "Professional ethics",
+      "question_text": "A payroll clerk who has been diverting small amounts tells herself, \"The company underpays me, and I'm only borrowing what I'm owed; I'll pay it back.\" This reasoning illustrates which element of the fraud triangle?",
+      "options": {
+        "A": "Concealment",
+        "B": "Rationalization",
+        "C": "Pressure",
+        "D": "Opportunity"
+      },
+      "correct": "B",
+      "explanation": "Rationalization is the mental process by which a person justifies dishonest behavior as acceptable, such as viewing theft as borrowing or as compensation for unfair treatment. Pressure is the motive (for example, personal debts) and opportunity is the ability to commit and conceal the act.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c09-q015",
+      "chapter": 9,
+      "topic": "Professional ethics",
+      "question_text": "Which situation is the clearest example of the PRESSURE (incentive) element of the fraud triangle?",
+      "options": {
+        "A": "A division manager whose bonus and job security depend on meeting aggressive quarterly earnings targets",
+        "B": "An accounts payable clerk who can both set up vendors and approve payments",
+        "C": "A manager who believes that everyone in the industry manipulates results",
+        "D": "A company that lacks an internal audit function"
+      },
+      "correct": "A",
+      "explanation": "Pressure is the motivation to commit fraud, such as compensation tied to targets, financial difficulties or expectations from analysts. The clerk with incompatible duties and the absence of internal audit illustrate opportunity, and believing that \"everyone does it\" is a rationalization.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c09-q016",
+      "chapter": 9,
+      "topic": "Professional ethics",
+      "question_text": "The phrase \"tone at the top\" refers to:",
+      "options": {
+        "A": "The tone of voice used by managers in performance reviews",
+        "B": "The financial ratios reported at the top of the annual report",
+        "C": "The level of detail in the company's top-level budget",
+        "D": "The ethical climate set by the board and senior management through their words and behavior"
+      },
+      "correct": "D",
+      "explanation": "Tone at the top describes the ethical atmosphere created by an organization's leadership. When directors and senior managers visibly demonstrate integrity and hold others accountable, employees are more likely to behave ethically. It is widely regarded as the foundation of an effective ethics and compliance program.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cma-p2-c09-q017",
+      "chapter": 9,
+      "topic": "Professional ethics",
+      "question_text": "Which feature is most important for an effective whistleblower (ethics) hotline?",
+      "options": {
+        "A": "Reports are routed only to the executives in the area being reported",
+        "B": "Callers must provide proof of wrongdoing before a report is accepted",
+        "C": "Reports can be made confidentially or anonymously, with protection against retaliation",
+        "D": "All reports must be made in person to the employee's immediate supervisor"
+      },
+      "correct": "C",
+      "explanation": "Employees are much more willing to report misconduct when they can do so confidentially or anonymously and trust that they will not suffer retaliation. Effective hotlines are often operated independently and report to the audit committee or a compliance officer, rather than to managers who may be implicated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c09-q018",
+      "chapter": 9,
+      "topic": "Professional ethics",
+      "question_text": "Under the anti-bribery provisions of the US Foreign Corrupt Practices Act, which payment is generally permitted?",
+      "options": {
+        "A": "A payment to a foreign official to influence the award of a government contract",
+        "B": "A small facilitating payment to a foreign clerk to expedite a routine, non-discretionary government action such as processing a visa",
+        "C": "A payment through a third-party agent, knowing it will be passed to an official to obtain a license",
+        "D": "A gift to a foreign minister's relative in exchange for a favorable tax ruling"
+      },
+      "correct": "B",
+      "explanation": "The FCPA prohibits paying anything of value to foreign officials to obtain or retain business, whether directly or through intermediaries. It contains a narrow exception for facilitating (\"grease\") payments made to expedite routine governmental actions that involve no discretion. Many companies prohibit such payments as a matter of policy, and other countries' laws may not allow them.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c09-q019",
+      "chapter": 9,
+      "topic": "Professional ethics",
+      "question_text": "In addition to its anti-bribery rules, the US Foreign Corrupt Practices Act requires SEC-registered companies to:",
+      "options": {
+        "A": "Pay a fixed percentage of foreign revenue into a compliance fund",
+        "B": "Register all foreign sales agents with the Department of Commerce",
+        "C": "Keep accurate books and records and maintain an adequate system of internal accounting controls",
+        "D": "Obtain an annual audit of their foreign subsidiaries by a government agency"
+      },
+      "correct": "C",
+      "explanation": "The FCPA's accounting provisions require issuers to make and keep books and records that accurately and fairly reflect transactions and to devise and maintain a system of internal accounting controls. These provisions help prevent off-book accounts used to conceal bribes.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c09-q020",
+      "chapter": 9,
+      "topic": "Professional ethics",
+      "question_text": "A company evaluates its performance not only on profit but also on its impact on employees, communities and the natural environment. This approach is commonly described as:",
+      "options": {
+        "A": "The balanced scorecard's financial perspective",
+        "B": "Shareholder primacy",
+        "C": "Activity-based management",
+        "D": "The triple bottom line (people, planet and profit)"
+      },
+      "correct": "D",
+      "explanation": "The triple bottom line expands performance measurement to social (people) and environmental (planet) outcomes as well as economic results (profit). It is closely linked to corporate social responsibility and sustainability reporting. Shareholder primacy focuses solely on returns to shareholders.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c09-q021",
+      "chapter": 9,
+      "topic": "Professional ethics",
+      "question_text": "Which of the following practices is MOST likely to undermine an organization's ethical culture even if a written code of conduct exists?",
+      "options": {
+        "A": "Rewarding managers solely on aggressive financial targets while tolerating misconduct by top performers",
+        "B": "Requiring annual ethics training and code of conduct certification",
+        "C": "Including ethical behavior as a criterion in performance evaluations",
+        "D": "Having the audit committee review hotline reports"
+      },
+      "correct": "A",
+      "explanation": "A code of conduct is undermined when incentives and enforcement signal that results matter more than how they are achieved. Rewarding only financial outcomes and excusing misconduct by high performers creates pressure and invites rationalization. Training, ethics-based evaluation criteria and independent oversight of hotline reports all reinforce an ethical culture.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cma-p2-c09-q022",
+      "chapter": 9,
+      "topic": "Professional ethics",
+      "question_text": "A US company discovers that one of its overseas suppliers uses child labor, which is not prohibited by local law in that country. Which response best reflects good practice in applying corporate values internationally?",
+      "options": {
+        "A": "Continue purchasing but stop disclosing the supplier's identity",
+        "B": "Apply the company's supplier code of conduct, require corrective action and be prepared to end the relationship if the practice continues",
+        "C": "Take no action, because the supplier is complying with local law",
+        "D": "Leave the decision to the supplier's local managers because cultural norms differ"
+      },
+      "correct": "B",
+      "explanation": "Organizations should apply their values and ethical standards consistently across all operations and their supply chains, not merely the minimum local legal requirement. A supplier code of conduct, monitoring, remediation requirements and willingness to terminate relationships demonstrate commitment to human rights and protect the company's reputation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cma-p2-c09-q023",
+      "chapter": 9,
+      "topic": "Professional ethics",
+      "question_text": "Near year-end the controller of a division tells a management accountant to defer recording $250,000 of known expenses until next year so the division meets its profit target. The controller is the accountant's immediate supervisor. Company policy has not resolved the matter. Which action would be INCONSISTENT with IMA guidance?",
+      "options": {
+        "A": "Raising the matter with the controller's superior, such as the division general manager",
+        "B": "Consulting her own attorney about her legal obligations and rights",
+        "C": "Anonymously sending details of the matter to a financial journalist",
+        "D": "Consulting an IMA Ethics Counselor confidentially about possible courses of action"
+      },
+      "correct": "C",
+      "explanation": "Because the immediate supervisor is involved, IMA guidance is to present the issue to the next level of management. Members may also seek confidential advice from an IMA Ethics Counselor or other impartial advisor and consult their own attorney. Communicating the matter to outsiders such as the media is not considered appropriate unless there is a clear violation of the law, and even then disclosure should be to appropriate authorities, not the press.",
+      "difficulty": "hard"
+    }
+  ]
+}
