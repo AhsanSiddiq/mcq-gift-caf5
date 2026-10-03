@@ -1,0 +1,1955 @@
+{
+  "subject_id": "cima-ba1",
+  "questions": [
+    {
+      "id": "cima-ba1-c01-q001",
+      "chapter": 1,
+      "topic": "National income and the macroeconomy",
+      "question_text": "In the circular flow of income model, which of the following is an injection into the flow of income?",
+      "options": {
+        "A": "Household saving",
+        "B": "Government spending on goods and services",
+        "C": "Taxation of incomes",
+        "D": "Spending on imports"
+      },
+      "correct": "B",
+      "explanation": "Injections add spending to the circular flow that does not originate from domestic households' consumption: investment, government spending and exports. Saving, taxation and imports are withdrawals (leakages) because they take income out of the flow.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba1-c01-q002",
+      "chapter": 1,
+      "topic": "National income and the macroeconomy",
+      "question_text": "Which of the following is a withdrawal (leakage) from the circular flow of income?",
+      "options": {
+        "A": "Spending on imported goods",
+        "B": "Exports of goods to foreign buyers",
+        "C": "Investment by firms in new machinery",
+        "D": "Government spending on infrastructure"
+      },
+      "correct": "A",
+      "explanation": "Imports are a withdrawal because the spending flows to foreign producers rather than domestic firms. Exports, investment and government spending are injections into the circular flow.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba1-c01-q003",
+      "chapter": 1,
+      "topic": "National income and the macroeconomy",
+      "question_text": "Gross national product (GNP) is best defined as:",
+      "options": {
+        "A": "Gross domestic product plus capital consumption (depreciation)",
+        "B": "Gross domestic product minus indirect taxes plus subsidies",
+        "C": "Gross domestic product minus net exports",
+        "D": "Gross domestic product plus net property income from abroad"
+      },
+      "correct": "D",
+      "explanation": "GDP measures output produced within the country's borders. GNP (gross national income) adds net income earned by residents from assets owned abroad, i.e. property income received from abroad less property income paid abroad.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba1-c01-q004",
+      "chapter": 1,
+      "topic": "National income and the macroeconomy",
+      "question_text": "An economy has the following data for a year ($bn):\nConsumer expenditure 420\nInvestment 110\nGovernment spending 150\nExports 95\nImports 120\nWhat is gross domestic product at market prices using the expenditure approach?",
+      "options": {
+        "A": "$895bn",
+        "B": "$775bn",
+        "C": "$655bn",
+        "D": "$680bn"
+      },
+      "correct": "C",
+      "explanation": "Expenditure GDP = C + I + G + (X - M) = 420 + 110 + 150 + (95 - 120) = $655bn. Imports must be deducted because they are spending on output produced abroad.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c01-q005",
+      "chapter": 1,
+      "topic": "National income and the macroeconomy",
+      "question_text": "GDP at market prices is $900bn. Indirect taxes are $120bn and subsidies are $30bn. What is GDP at basic prices (factor cost)?",
+      "options": {
+        "A": "$990bn",
+        "B": "$810bn",
+        "C": "$750bn",
+        "D": "$870bn"
+      },
+      "correct": "B",
+      "explanation": "Market prices include indirect taxes and are reduced by subsidies. To convert to factor cost, remove taxes and add back subsidies: 900 - 120 + 30 = $810bn.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c01-q006",
+      "chapter": 1,
+      "topic": "National income and the macroeconomy",
+      "question_text": "In a closed economy with no government sector, the marginal propensity to consume is 0.8. Investment increases by $40m. By how much will equilibrium national income increase?",
+      "options": {
+        "A": "$200m",
+        "B": "$32m",
+        "C": "$50m",
+        "D": "$160m"
+      },
+      "correct": "A",
+      "explanation": "The multiplier = 1 / (1 - MPC) = 1 / (1 - 0.8) = 5. The increase in national income = 5 x $40m = $200m.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c01-q007",
+      "chapter": 1,
+      "topic": "National income and the macroeconomy",
+      "question_text": "In an open economy with a government sector, the marginal propensity to save is 0.1, the marginal rate of taxation is 0.25 and the marginal propensity to import is 0.15. Government spending rises by $60bn. What is the resulting increase in national income?",
+      "options": {
+        "A": "$600bn",
+        "B": "$240bn",
+        "C": "$30bn",
+        "D": "$120bn"
+      },
+      "correct": "D",
+      "explanation": "Total marginal propensity to withdraw = 0.1 + 0.25 + 0.15 = 0.5. Multiplier = 1 / 0.5 = 2. Increase in national income = 2 x $60bn = $120bn.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba1-c01-q008",
+      "chapter": 1,
+      "topic": "National income and the macroeconomy",
+      "question_text": "Nominal GDP grows by 7% in a year while the GDP deflator rises by 3%. Calculated exactly, what is the growth in real GDP (to one decimal place)?",
+      "options": {
+        "A": "4.0%",
+        "B": "10.2%",
+        "C": "3.9%",
+        "D": "10.0%"
+      },
+      "correct": "C",
+      "explanation": "Real growth = (1 + nominal growth) / (1 + inflation) - 1 = 1.07 / 1.03 - 1 = 0.0388, i.e. 3.9%. Simply subtracting inflation (7% - 3% = 4.0%) is only an approximation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c01-q009",
+      "chapter": 1,
+      "topic": "National income and the macroeconomy",
+      "question_text": "Which of the following would be included in the calculation of gross domestic product?",
+      "options": {
+        "A": "State retirement pensions paid to retired people",
+        "B": "Salaries paid to nurses employed in a state-funded hospital",
+        "C": "The sale of a second-hand car between two private individuals",
+        "D": "The purchase of existing shares on the stock exchange"
+      },
+      "correct": "B",
+      "explanation": "GDP measures the value of current production. Nurses' salaries are payment for current services and are included. Pensions are transfer payments with no corresponding output, second-hand sales were counted when first produced, and share purchases are transfers of ownership of financial assets.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c01-q010",
+      "chapter": 1,
+      "topic": "National income and the macroeconomy",
+      "question_text": "In a closed economy, the consumption function is C = 40 + 0.75Y, investment is $60bn and government spending is $100bn. Ignoring taxation, what is equilibrium national income?",
+      "options": {
+        "A": "$800bn",
+        "B": "$266.7bn",
+        "C": "$200bn",
+        "D": "$150bn"
+      },
+      "correct": "A",
+      "explanation": "In equilibrium Y = C + I + G, so Y = 40 + 0.75Y + 60 + 100. Therefore Y - 0.75Y = 200, so 0.25Y = 200 and Y = 200 / 0.25 = $800bn.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba1-c02-q001",
+      "chapter": 2,
+      "topic": "Macroeconomic policy and the business cycle",
+      "question_text": "Which of the following is NOT normally regarded as one of the main objectives of government macroeconomic policy?",
+      "options": {
+        "A": "Achieving a low and stable rate of inflation",
+        "B": "Achieving sustainable economic growth",
+        "C": "Achieving a high level of employment",
+        "D": "Maximising the profits earned by state-owned enterprises"
+      },
+      "correct": "D",
+      "explanation": "The usual macroeconomic objectives are sustainable growth, low unemployment, stable prices and a satisfactory balance of payments position. The profitability of individual state enterprises is a microeconomic or organisational matter, not a macroeconomic objective.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba1-c02-q002",
+      "chapter": 2,
+      "topic": "Macroeconomic policy and the business cycle",
+      "question_text": "Which of the following combinations represents an expansionary fiscal policy?",
+      "options": {
+        "A": "Raising the central bank's policy interest rate",
+        "B": "Selling government bonds to the banking system",
+        "C": "Reducing income tax rates and increasing government spending",
+        "D": "Increasing the rate of sales tax and cutting public investment"
+      },
+      "correct": "C",
+      "explanation": "Fiscal policy uses taxation and government spending. Cutting taxes and raising spending increase aggregate demand, so the stance is expansionary. Interest rate changes and bond sales are monetary policy tools, and higher taxes with lower spending is contractionary.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba1-c02-q003",
+      "chapter": 2,
+      "topic": "Macroeconomic policy and the business cycle",
+      "question_text": "A sharp rise in the world price of imported oil causes the general price level in an economy to increase. This is best described as:",
+      "options": {
+        "A": "Demand-pull inflation",
+        "B": "Cost-push inflation",
+        "C": "Deflation",
+        "D": "Disinflation"
+      },
+      "correct": "B",
+      "explanation": "Cost-push inflation arises when increases in costs of production (here imported energy) are passed on to customers as higher prices. Demand-pull inflation results from aggregate demand exceeding the economy's productive capacity. Deflation is a falling price level and disinflation is a falling rate of inflation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c02-q004",
+      "chapter": 2,
+      "topic": "Macroeconomic policy and the business cycle",
+      "question_text": "Workers in a region lose their jobs because the local manufacturing industry has been replaced by automated production elsewhere, and their skills are not suited to the new jobs available. This is an example of:",
+      "options": {
+        "A": "Structural unemployment",
+        "B": "Frictional unemployment",
+        "C": "Cyclical (demand-deficient) unemployment",
+        "D": "Seasonal unemployment"
+      },
+      "correct": "A",
+      "explanation": "Structural unemployment arises from long-term changes in the pattern of demand or technology, leaving a mismatch between workers' skills or location and the available jobs. Frictional unemployment is short-term between jobs, cyclical unemployment is caused by a general lack of demand in a downturn and seasonal unemployment follows regular seasonal patterns.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c02-q005",
+      "chapter": 2,
+      "topic": "Macroeconomic policy and the business cycle",
+      "question_text": "The original Phillips curve suggested that:",
+      "options": {
+        "A": "Higher inflation is always associated with higher unemployment",
+        "B": "Unemployment is determined only by the size of the budget deficit",
+        "C": "Inflation is caused only by growth in the money supply",
+        "D": "There is a short-run trade-off between the rate of inflation and the rate of unemployment"
+      },
+      "correct": "D",
+      "explanation": "The Phillips curve showed an inverse relationship: lower unemployment tended to be associated with higher wage and price inflation, and vice versa. The monetarist view that inflation results from money supply growth is a separate theory.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba1-c02-q006",
+      "chapter": 2,
+      "topic": "Macroeconomic policy and the business cycle",
+      "question_text": "Which of the following is most likely to be observed during the recession phase of the business (trade) cycle?",
+      "options": {
+        "A": "Strong inflationary pressure and labour shortages",
+        "B": "Rapidly rising tax receipts for the government",
+        "C": "Business investment falls and unemployment rises",
+        "D": "A sharp increase in spending on imports"
+      },
+      "correct": "C",
+      "explanation": "In a recession, output and incomes fall, so firms cut investment and employment. Tax receipts tend to fall, import spending falls with incomes and inflationary pressure is weak. Labour shortages and inflation are features of a boom.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c02-q007",
+      "chapter": 2,
+      "topic": "Macroeconomic policy and the business cycle",
+      "question_text": "Which of the following is an example of an automatic stabiliser?",
+      "options": {
+        "A": "A one-off increase in road building approved by parliament",
+        "B": "A progressive income tax system combined with unemployment benefits",
+        "C": "A reduction in the policy interest rate by the central bank",
+        "D": "A government decision to devalue the currency"
+      },
+      "correct": "B",
+      "explanation": "Automatic stabilisers change without any new policy decision. As incomes fall in a downturn, progressive tax receipts fall and benefit payments rise, cushioning demand; the reverse happens in a boom. The other options are discretionary policy actions.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c02-q008",
+      "chapter": 2,
+      "topic": "Macroeconomic policy and the business cycle",
+      "question_text": "A central bank raises its policy interest rate. Assuming other things remain equal, which of the following is the most likely consequence?",
+      "options": {
+        "A": "The domestic currency tends to appreciate, making exports less price-competitive",
+        "B": "Borrowing becomes cheaper, so consumer spending on durable goods rises",
+        "C": "Asset prices such as house and share prices tend to rise",
+        "D": "Investment by firms rises because the return on saving increases"
+      },
+      "correct": "A",
+      "explanation": "Higher interest rates attract inflows of short-term capital, increasing demand for the currency so it tends to appreciate; exports become dearer to foreign buyers. Higher rates also make borrowing more expensive, reduce asset prices and discourage investment.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba1-c02-q009",
+      "chapter": 2,
+      "topic": "Macroeconomic policy and the business cycle",
+      "question_text": "Which of the following is an example of a supply-side policy?",
+      "options": {
+        "A": "Cutting interest rates to stimulate consumer borrowing",
+        "B": "Raising welfare payments to boost aggregate demand",
+        "C": "Allowing the exchange rate to depreciate to increase exports",
+        "D": "Reforming labour markets and expanding training to raise productivity"
+      },
+      "correct": "D",
+      "explanation": "Supply-side policies aim to increase the productive capacity of the economy (shifting aggregate supply), for example by improving labour skills, flexibility and incentives. The other options work mainly through aggregate demand.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c02-q010",
+      "chapter": 2,
+      "topic": "Macroeconomic policy and the business cycle",
+      "question_text": "The term 'crowding out' in macroeconomics refers to:",
+      "options": {
+        "A": "Imports displacing domestically produced goods because of an overvalued currency",
+        "B": "Large firms forcing smaller competitors out of a market",
+        "C": "Increased government borrowing pushing up interest rates and so reducing private sector investment",
+        "D": "Rising population reducing income per head"
+      },
+      "correct": "C",
+      "explanation": "Crowding out occurs when government borrowing to finance spending competes with the private sector for loanable funds. Interest rates rise and some private investment is displaced, reducing the net effect of the fiscal expansion on aggregate demand.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba1-c03-q001",
+      "chapter": 3,
+      "topic": "International trade, globalisation and exchange rates",
+      "question_text": "One worker in Country X can produce either 20 units of cloth or 10 units of wheat per day. One worker in Country Y can produce either 12 units of cloth or 8 units of wheat per day. According to the theory of comparative advantage:",
+      "options": {
+        "A": "Country X should produce both goods because it has an absolute advantage in both",
+        "B": "Country X should specialise in cloth and Country Y in wheat",
+        "C": "Country X should specialise in wheat and Country Y in cloth",
+        "D": "There are no gains from trade because Country X is more efficient at both goods"
+      },
+      "correct": "B",
+      "explanation": "Opportunity cost of 1 wheat: X = 20 / 10 = 2 cloth; Y = 12 / 8 = 1.5 cloth. Y has the lower opportunity cost of wheat. Opportunity cost of 1 cloth: X = 10 / 20 = 0.5 wheat; Y = 8 / 12 = 0.67 wheat, so X has the comparative advantage in cloth. Gains from trade exist even though X has an absolute advantage in both goods.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c03-q002",
+      "chapter": 3,
+      "topic": "International trade, globalisation and exchange rates",
+      "question_text": "Which of the following is NOT a protectionist measure?",
+      "options": {
+        "A": "Removing customs duties on trade between members of a free trade area",
+        "B": "Imposing a tariff on imported steel",
+        "C": "Setting a quota limiting the number of imported cars",
+        "D": "Paying subsidies to domestic producers that compete with imports"
+      },
+      "correct": "A",
+      "explanation": "Tariffs, quotas and subsidies to domestic producers all protect home industries from foreign competition. Removing customs duties between members is trade liberalisation, the opposite of protectionism.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba1-c03-q003",
+      "chapter": 3,
+      "topic": "International trade, globalisation and exchange rates",
+      "question_text": "What distinguishes a customs union from a free trade area?",
+      "options": {
+        "A": "Members of a customs union allow free movement of labour and capital",
+        "B": "Members of a free trade area use a single currency",
+        "C": "Members of a free trade area set a common external tariff but keep internal tariffs",
+        "D": "Members of a customs union adopt a common external tariff on imports from non-members"
+      },
+      "correct": "D",
+      "explanation": "In a free trade area, members remove barriers between themselves but each sets its own tariffs on non-members. A customs union adds a common external tariff. Free movement of factors of production is a feature of a common market, and a single currency is a feature of monetary union.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c03-q004",
+      "chapter": 3,
+      "topic": "International trade, globalisation and exchange rates",
+      "question_text": "Which of the following transactions is recorded in the current account of a country's balance of payments?",
+      "options": {
+        "A": "The purchase of a factory overseas by a domestic company",
+        "B": "A long-term loan received from an overseas bank",
+        "C": "Dividends received by domestic companies from their overseas subsidiaries",
+        "D": "An increase in the central bank's foreign currency reserves"
+      },
+      "correct": "C",
+      "explanation": "The current account records trade in goods and services, primary income (such as dividends, interest and wages) and secondary income (transfers). Purchasing overseas assets and borrowing from abroad are recorded in the financial account, as are changes in official reserves.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba1-c03-q005",
+      "chapter": 3,
+      "topic": "International trade, globalisation and exchange rates",
+      "question_text": "The exchange rate between the Ruritanian krona (RK) and the US dollar moves from RK1 = $0.80 to RK1 = $0.72. Which of the following statements is correct?",
+      "options": {
+        "A": "The krona has appreciated, making Ruritania's exports cheaper in dollar terms",
+        "B": "The krona has depreciated, making Ruritania's exports cheaper in dollar terms",
+        "C": "The krona has depreciated, making Ruritania's imports cheaper in krona terms",
+        "D": "The krona has appreciated, making Ruritania's imports more expensive in krona terms"
+      },
+      "correct": "B",
+      "explanation": "One krona now buys fewer dollars ($0.72 rather than $0.80), so the krona has depreciated. Goods priced in krona cost foreign buyers fewer dollars, while imports priced in dollars cost more krona.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c03-q006",
+      "chapter": 3,
+      "topic": "International trade, globalisation and exchange rates",
+      "question_text": "A Ruritanian exporter sells a machine priced at RK50,000. The exchange rate moves from RK1 = $0.80 to RK1 = $0.72. What is the dollar price of the machine to an American buyer after the change?",
+      "options": {
+        "A": "$36,000",
+        "B": "$40,000",
+        "C": "$69,444",
+        "D": "$62,500"
+      },
+      "correct": "A",
+      "explanation": "Dollar price = krona price x dollars per krona = RK50,000 x 0.72 = $36,000. Before the change it was RK50,000 x 0.80 = $40,000, so the depreciation has made the export cheaper to the buyer.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c03-q007",
+      "chapter": 3,
+      "topic": "International trade, globalisation and exchange rates",
+      "question_text": "Which of the following is usually regarded as an advantage of a fixed exchange rate system compared with a freely floating system?",
+      "options": {
+        "A": "It automatically corrects balance of payments deficits without government action",
+        "B": "It allows the central bank to set interest rates purely for domestic objectives",
+        "C": "It removes the need for the central bank to hold foreign currency reserves",
+        "D": "It gives importers and exporters greater certainty about future exchange rates"
+      },
+      "correct": "D",
+      "explanation": "A fixed rate reduces exchange rate uncertainty for traders and investors. However, the authorities must hold reserves to defend the rate and must often direct interest rates at maintaining the peg; automatic correction of imbalances is a claimed advantage of floating rates.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c03-q008",
+      "chapter": 3,
+      "topic": "International trade, globalisation and exchange rates",
+      "question_text": "The spot exchange rate is H1 = $2.00, where H is the home currency. Annual inflation is expected to be 6% in the home country and 2% in the USA. Using purchasing power parity, what is the expected exchange rate in one year's time (to four decimal places)?",
+      "options": {
+        "A": "H1 = $2.0784",
+        "B": "H1 = $1.9200",
+        "C": "H1 = $1.9245",
+        "D": "H1 = $2.0800"
+      },
+      "correct": "C",
+      "explanation": "Under PPP the currency with higher inflation depreciates. Expected rate = 2.00 x (1 + 0.02) / (1 + 0.06) = 2.00 x 1.02 / 1.06 = $1.9245 per H1. $1.9200 uses the approximate 4% differential and the other options apply the inflation rates the wrong way round.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba1-c03-q009",
+      "chapter": 3,
+      "topic": "International trade, globalisation and exchange rates",
+      "question_text": "Which of the following has been a major driver of globalisation?",
+      "options": {
+        "A": "The introduction of higher import tariffs",
+        "B": "Falling transport and communication costs",
+        "C": "Stricter controls on international capital movements",
+        "D": "Increasing restrictions on foreign direct investment"
+      },
+      "correct": "B",
+      "explanation": "Cheaper transport and rapid, low-cost communications have made it easier for firms to trade, source and operate internationally. Higher tariffs, capital controls and restrictions on foreign investment would all slow globalisation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba1-c03-q010",
+      "chapter": 3,
+      "topic": "International trade, globalisation and exchange rates",
+      "question_text": "Which of the following best describes the main role of the World Trade Organization?",
+      "options": {
+        "A": "Promoting freer trade by negotiating reductions in trade barriers and settling trade disputes between members",
+        "B": "Lending to countries facing short-term balance of payments difficulties",
+        "C": "Financing long-term development projects in low-income countries",
+        "D": "Setting a common interest rate for member countries"
+      },
+      "correct": "A",
+      "explanation": "The WTO provides a framework for negotiating trade liberalisation and a dispute settlement mechanism. Short-term balance of payments support is associated with the IMF and development lending with the World Bank.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c04-q001",
+      "chapter": 4,
+      "topic": "Goals of organisations and stakeholders",
+      "question_text": "In the assessment of value for money in a not-for-profit organisation, 'effectiveness' refers to:",
+      "options": {
+        "A": "Obtaining inputs of the required quality at the lowest cost",
+        "B": "Maximising the output obtained from a given level of inputs",
+        "C": "Ensuring services are distributed fairly between groups",
+        "D": "The extent to which the organisation achieves its objectives"
+      },
+      "correct": "D",
+      "explanation": "Value for money is commonly assessed using economy (minimising the cost of inputs), efficiency (the relationship between inputs and outputs) and effectiveness (whether outputs achieve the intended objectives). Fair distribution relates to equity.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba1-c04-q002",
+      "chapter": 4,
+      "topic": "Goals of organisations and stakeholders",
+      "question_text": "In financial and economic theory, the primary objective of a commercial company is usually assumed to be:",
+      "options": {
+        "A": "Maximising the number of people it employs",
+        "B": "Maximising the salaries of its directors",
+        "C": "Maximising the wealth of its shareholders",
+        "D": "Minimising the tax it pays"
+      },
+      "correct": "C",
+      "explanation": "Shareholders own the company, and the conventional assumption is that it should be run to maximise their wealth, closely linked to long-run profit maximisation. Other aims may be pursued as constraints or as secondary objectives.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba1-c04-q003",
+      "chapter": 4,
+      "topic": "Goals of organisations and stakeholders",
+      "question_text": "Which of the following is an example of the principal-agent problem?",
+      "options": {
+        "A": "A company pays a dividend that shareholders consider too high",
+        "B": "Directors pursue rapid growth in sales to increase their own status and pay rather than maximising shareholder wealth",
+        "C": "A supplier increases its prices because of rising raw material costs",
+        "D": "A government raises corporation tax to finance public services"
+      },
+      "correct": "B",
+      "explanation": "Shareholders (principals) appoint directors (agents) to run the company. Where ownership and control are separated, agents may pursue their own objectives, such as growth, status or perks, at the expense of the principals. Corporate governance aims to reduce these agency costs.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c04-q004",
+      "chapter": 4,
+      "topic": "Goals of organisations and stakeholders",
+      "question_text": "Using Mendelow's power-interest matrix, a stakeholder group with high power and high interest in an organisation's strategy should be:",
+      "options": {
+        "A": "Treated as key players and managed closely",
+        "B": "Kept satisfied but given minimal information",
+        "C": "Kept informed but given little influence",
+        "D": "Given minimal effort and monitored"
+      },
+      "correct": "A",
+      "explanation": "Mendelow's matrix classifies stakeholders by power and interest. High power and high interest stakeholders are key players whose acceptance is essential. High power, low interest groups should be kept satisfied; low power, high interest groups kept informed; and low power, low interest groups need minimal effort.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c04-q005",
+      "chapter": 4,
+      "topic": "Goals of organisations and stakeholders",
+      "question_text": "The concept of 'satisficing' suggests that managers:",
+      "options": {
+        "A": "Always maximise profit subject to a minimum dividend",
+        "B": "Aim to maximise customer satisfaction regardless of cost",
+        "C": "Set prices so that every stakeholder receives the maximum possible return",
+        "D": "Aim for satisfactory performance across several objectives rather than maximising a single objective"
+      },
+      "correct": "D",
+      "explanation": "Satisficing recognises that organisations have multiple stakeholders with conflicting goals and limited information. Managers therefore seek outcomes that are acceptable to the main groups, rather than the maximum achievable for any single goal.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c04-q006",
+      "chapter": 4,
+      "topic": "Goals of organisations and stakeholders",
+      "question_text": "Which of the following is a key role of independent non-executive directors in a listed company?",
+      "options": {
+        "A": "Managing the day-to-day operations of the main business divisions",
+        "B": "Preparing the company's monthly management accounts",
+        "C": "Monitoring and challenging the performance of executive management on behalf of shareholders",
+        "D": "Negotiating supply contracts with key suppliers"
+      },
+      "correct": "C",
+      "explanation": "Independent non-executive directors bring objective judgement to the board, scrutinise executive performance and typically sit on audit, remuneration and nomination committees. Day-to-day management is the responsibility of executive directors and managers.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c04-q007",
+      "chapter": 4,
+      "topic": "Goals of organisations and stakeholders",
+      "question_text": "A firm that aims to maximise sales revenue (with no profit constraint) will choose the level of output at which:",
+      "options": {
+        "A": "Marginal revenue equals marginal cost",
+        "B": "Marginal revenue equals zero",
+        "C": "Average revenue equals average cost",
+        "D": "Marginal cost equals zero"
+      },
+      "correct": "B",
+      "explanation": "Total revenue rises as long as marginal revenue is positive and falls once marginal revenue becomes negative. Revenue is therefore maximised where MR = 0. Profit maximisation occurs where MR = MC.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c04-q008",
+      "chapter": 4,
+      "topic": "Goals of organisations and stakeholders",
+      "question_text": "A firm faces the demand curve P = 80 - 0.5Q, so its marginal revenue is MR = 80 - Q. Marginal cost is constant at $20 per unit. What output will the firm produce if its objective is to maximise sales revenue rather than profit?",
+      "options": {
+        "A": "80 units",
+        "B": "60 units",
+        "C": "120 units",
+        "D": "160 units"
+      },
+      "correct": "A",
+      "explanation": "Revenue is maximised where MR = 0: 80 - Q = 0, so Q = 80 units. For comparison, profit is maximised where MR = MC: 80 - Q = 20, giving Q = 60 units. 120 units is where price equals marginal cost and 160 units is where price falls to zero.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba1-c04-q009",
+      "chapter": 4,
+      "topic": "Goals of organisations and stakeholders",
+      "question_text": "Which of the following is a connected stakeholder of a company?",
+      "options": {
+        "A": "Its employees",
+        "B": "A local environmental pressure group",
+        "C": "The national government",
+        "D": "Its suppliers"
+      },
+      "correct": "D",
+      "explanation": "Stakeholders are commonly classified as internal (employees and managers), connected (those with a contractual or economic relationship, such as shareholders, customers, suppliers and lenders) and external (government, pressure groups and the local community).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba1-c05-q001",
+      "chapter": 5,
+      "topic": "Demand, supply and price determination",
+      "question_text": "A movement along a demand curve (rather than a shift of the curve) is caused by:",
+      "options": {
+        "A": "A change in consumers' incomes",
+        "B": "A change in the price of a substitute good",
+        "C": "A change in the price of the good itself",
+        "D": "A change in consumer tastes"
+      },
+      "correct": "C",
+      "explanation": "The demand curve plots quantity demanded against the good's own price, holding other factors constant. A change in own price causes a movement along the curve; changes in income, the prices of related goods or tastes shift the whole curve.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba1-c05-q002",
+      "chapter": 5,
+      "topic": "Demand, supply and price determination",
+      "question_text": "Which of the following would shift the demand curve for a normal good to the right?",
+      "options": {
+        "A": "A fall in the price of the good itself",
+        "B": "A rise in consumers' disposable incomes",
+        "C": "A rise in the price of a complementary good",
+        "D": "A fall in the price of a substitute good"
+      },
+      "correct": "B",
+      "explanation": "For a normal good, higher incomes increase demand at every price, shifting the curve right. A fall in its own price is a movement along the curve. Dearer complements and cheaper substitutes both reduce demand, shifting the curve left.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba1-c05-q003",
+      "chapter": 5,
+      "topic": "Demand, supply and price determination",
+      "question_text": "Printers and ink cartridges are complementary goods. If the price of printers falls significantly, what is the likely effect in the market for ink cartridges?",
+      "options": {
+        "A": "The demand curve for ink cartridges shifts to the right",
+        "B": "The demand curve for ink cartridges shifts to the left",
+        "C": "The supply curve for ink cartridges shifts to the left",
+        "D": "There is a movement down along the demand curve for ink cartridges"
+      },
+      "correct": "A",
+      "explanation": "Cheaper printers increase the quantity of printers bought, which increases demand for the complementary good at every price. The demand curve for cartridges therefore shifts to the right; there is no change in cartridge prices to cause a movement along the curve.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c05-q004",
+      "chapter": 5,
+      "topic": "Demand, supply and price determination",
+      "question_text": "In a market, demand is Qd = 500 - 5P and supply is Qs = -100 + 5P, where P is price in $. What are the equilibrium price and quantity?",
+      "options": {
+        "A": "Price $60, quantity 300 units",
+        "B": "Price $50, quantity 250 units",
+        "C": "Price $80, quantity 100 units",
+        "D": "Price $60, quantity 200 units"
+      },
+      "correct": "D",
+      "explanation": "At equilibrium Qd = Qs: 500 - 5P = -100 + 5P, so 600 = 10P and P = $60. Quantity = 500 - 5 x 60 = 200 units (check: -100 + 5 x 60 = 200).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c05-q005",
+      "chapter": 5,
+      "topic": "Demand, supply and price determination",
+      "question_text": "If the government imposes an effective maximum price below the equilibrium price, the most likely result is:",
+      "options": {
+        "A": "Excess supply, leading to unsold stocks",
+        "B": "An increase in the quantity supplied",
+        "C": "Excess demand, possibly leading to queues, rationing or black markets",
+        "D": "No effect on the market"
+      },
+      "correct": "C",
+      "explanation": "A maximum price below equilibrium increases quantity demanded and reduces quantity supplied, creating a shortage. Non-price rationing methods and illegal trading at higher prices often follow. A maximum price set above equilibrium would have no effect.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c05-q006",
+      "chapter": 5,
+      "topic": "Demand, supply and price determination",
+      "question_text": "Using the market in which Qd = 500 - 5P and Qs = -100 + 5P, the government imposes a maximum price of $50. What is the resulting shortage?",
+      "options": {
+        "A": "50 units",
+        "B": "100 units",
+        "C": "150 units",
+        "D": "250 units"
+      },
+      "correct": "B",
+      "explanation": "At P = $50: Qd = 500 - 5 x 50 = 250 units and Qs = -100 + 5 x 50 = 150 units. Shortage (excess demand) = 250 - 150 = 100 units.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c05-q007",
+      "chapter": 5,
+      "topic": "Demand, supply and price determination",
+      "question_text": "A guaranteed minimum price for an agricultural product is set above the equilibrium price. Which of the following is the most likely outcome?",
+      "options": {
+        "A": "Excess supply, which the government may have to buy and store",
+        "B": "Excess demand, causing queues for the product",
+        "C": "A fall in farmers' incomes",
+        "D": "A fall in the quantity supplied"
+      },
+      "correct": "A",
+      "explanation": "A minimum price above equilibrium raises quantity supplied and reduces quantity demanded, so a surplus arises. To maintain the price, the authorities typically buy up the surplus, which can be costly.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c05-q008",
+      "chapter": 5,
+      "topic": "Demand, supply and price determination",
+      "question_text": "A specific indirect tax is imposed on a product for which demand is highly price inelastic and supply is relatively price elastic. Which of the following statements is correct?",
+      "options": {
+        "A": "Most of the burden of the tax will fall on producers",
+        "B": "The burden of the tax will be shared equally between consumers and producers",
+        "C": "The quantity traded will fall significantly",
+        "D": "Most of the burden of the tax will fall on consumers"
+      },
+      "correct": "D",
+      "explanation": "The incidence of a tax falls more heavily on the side of the market that is less responsive to price. With inelastic demand, consumers continue to buy at higher prices, so producers can pass most of the tax on. Quantity traded falls only slightly.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba1-c05-q009",
+      "chapter": 5,
+      "topic": "Demand, supply and price determination",
+      "question_text": "In the market where Qd = 500 - 5P and Qs = -100 + 5P, the government imposes a specific tax of $8 per unit on suppliers. What will be the government's tax revenue?",
+      "options": {
+        "A": "$1,600",
+        "B": "$720",
+        "C": "$1,440",
+        "D": "$1,280"
+      },
+      "correct": "C",
+      "explanation": "Suppliers now receive P - 8, so supply becomes Qs = -100 + 5(P - 8) = -140 + 5P. Setting 500 - 5P = -140 + 5P gives 10P = 640, so the consumer price is $64 and quantity = 500 - 5 x 64 = 180 units. Tax revenue = $8 x 180 = $1,440.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba1-c05-q010",
+      "chapter": 5,
+      "topic": "Demand, supply and price determination",
+      "question_text": "An inferior good is one for which:",
+      "options": {
+        "A": "Demand rises as its price rises",
+        "B": "Demand falls as consumers' incomes rise",
+        "C": "Demand is unaffected by changes in income",
+        "D": "Quality is below the industry average"
+      },
+      "correct": "B",
+      "explanation": "Income elasticity of demand for an inferior good is negative: as incomes rise, consumers switch to preferred alternatives. The term is an economic one and does not refer to product quality.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba1-c06-q001",
+      "chapter": 6,
+      "topic": "Elasticity",
+      "question_text": "Price elasticity of demand is measured as:",
+      "options": {
+        "A": "Percentage change in quantity demanded divided by percentage change in price",
+        "B": "Percentage change in price divided by percentage change in quantity demanded",
+        "C": "Change in quantity demanded divided by change in price",
+        "D": "Percentage change in quantity demanded divided by percentage change in income"
+      },
+      "correct": "A",
+      "explanation": "PED = % change in quantity demanded / % change in the good's own price. Using percentages makes the measure independent of units. Dividing by the percentage change in income gives income elasticity.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba1-c06-q002",
+      "chapter": 6,
+      "topic": "Elasticity",
+      "question_text": "When the price of a product rises from $20 to $22, quantity demanded falls from 5,000 to 4,400 units. Using the original price and quantity as the base, what is the price elasticity of demand (ignoring the minus sign)?",
+      "options": {
+        "A": "0.83, so demand is price inelastic",
+        "B": "1.2, so demand is price inelastic",
+        "C": "0.12, so demand is price inelastic",
+        "D": "1.2, so demand is price elastic"
+      },
+      "correct": "D",
+      "explanation": "% change in quantity = (4,400 - 5,000) / 5,000 = -12%. % change in price = (22 - 20) / 20 = 10%. PED = -12% / 10% = -1.2. As the absolute value exceeds 1, demand is price elastic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c06-q003",
+      "chapter": 6,
+      "topic": "Elasticity",
+      "question_text": "Demand for a product is price elastic. If the firm reduces its price, what will happen to total revenue?",
+      "options": {
+        "A": "Total revenue will fall",
+        "B": "Total revenue will stay the same",
+        "C": "Total revenue will rise",
+        "D": "Total revenue will fall to zero"
+      },
+      "correct": "C",
+      "explanation": "When demand is elastic, the percentage increase in quantity demanded exceeds the percentage fall in price, so total revenue (price x quantity) rises when price is cut. With inelastic demand a price cut reduces revenue.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c06-q004",
+      "chapter": 6,
+      "topic": "Elasticity",
+      "question_text": "Price rises from $8 to $10 and quantity demanded falls from 1,200 to 1,000 units. Using the midpoint (arc) method, what is the price elasticity of demand (ignoring the sign, to two decimal places)?",
+      "options": {
+        "A": "0.67",
+        "B": "0.82",
+        "C": "1.00",
+        "D": "1.22"
+      },
+      "correct": "B",
+      "explanation": "Midpoint method: % change in quantity = -200 / average quantity 1,100 = -18.18%. % change in price = 2 / average price 9 = 22.22%. PED = 18.18 / 22.22 = 0.82 (rounded to two decimal places). Using the original values instead gives 0.67.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba1-c06-q005",
+      "chapter": 6,
+      "topic": "Elasticity",
+      "question_text": "Which of the following is likely to make demand for a product more price elastic?",
+      "options": {
+        "A": "The product has many close substitutes",
+        "B": "The product is a necessity with no alternatives",
+        "C": "Spending on the product is a very small part of consumers' income",
+        "D": "The product is habit-forming"
+      },
+      "correct": "A",
+      "explanation": "Demand is more elastic when consumers can easily switch to close substitutes. Necessities, habit-forming goods and goods taking a tiny share of income tend to have inelastic demand.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba1-c06-q006",
+      "chapter": 6,
+      "topic": "Elasticity",
+      "question_text": "The price of Product B rises by 5% and, as a result, demand for Product A rises by 8%. What is the cross elasticity of demand for A with respect to the price of B, and what does it indicate?",
+      "options": {
+        "A": "-1.6, indicating that A and B are complements",
+        "B": "+0.625, indicating that A and B are substitutes",
+        "C": "+1.6, indicating that A and B are complements",
+        "D": "+1.6, indicating that A and B are substitutes"
+      },
+      "correct": "D",
+      "explanation": "Cross elasticity = % change in demand for A / % change in price of B = +8% / +5% = +1.6. A positive cross elasticity means that a rise in B's price increases demand for A, so the goods are substitutes.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c06-q007",
+      "chapter": 6,
+      "topic": "Elasticity",
+      "question_text": "Consumers' real incomes rise by 4% and demand for a product falls by 2%. What is the income elasticity of demand and how is the product classified?",
+      "options": {
+        "A": "+0.5, a normal necessity",
+        "B": "-2.0, an inferior good",
+        "C": "-0.5, an inferior good",
+        "D": "+2.0, a luxury good"
+      },
+      "correct": "C",
+      "explanation": "Income elasticity = % change in quantity demanded / % change in income = -2% / +4% = -0.5. A negative income elasticity indicates an inferior good.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c06-q008",
+      "chapter": 6,
+      "topic": "Elasticity",
+      "question_text": "Which of the following would make the supply of a product more price INELASTIC?",
+      "options": {
+        "A": "Large stocks of finished goods held by producers",
+        "B": "A long production lead time and no spare capacity",
+        "C": "Factors of production that can easily be switched from other uses",
+        "D": "A longer time period being allowed for producers to respond"
+      },
+      "correct": "B",
+      "explanation": "Supply is inelastic when producers cannot quickly increase output in response to a price rise. Long lead times and full capacity restrict the response. Stocks, mobile factors and a longer time period all make supply more elastic.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba1-c06-q009",
+      "chapter": 6,
+      "topic": "Elasticity",
+      "question_text": "A firm sells 30,000 units a month at $15 each. Price elasticity of demand is 1.5 and is assumed constant over the relevant range. If the firm raises its price by 4%, what is the change in monthly total revenue?",
+      "options": {
+        "A": "A fall of $10,080",
+        "B": "A rise of $18,000",
+        "C": "A fall of $27,000",
+        "D": "A fall of $9,000"
+      },
+      "correct": "A",
+      "explanation": "Quantity falls by 1.5 x 4% = 6%, to 30,000 x 0.94 = 28,200 units. New price = $15 x 1.04 = $15.60. New revenue = 28,200 x $15.60 = $439,920. Original revenue = 30,000 x $15 = $450,000. Revenue falls by $10,080.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba1-c06-q010",
+      "chapter": 6,
+      "topic": "Elasticity",
+      "question_text": "If a demand curve has a price elasticity of exactly 1 (unitary elasticity) at every point, then:",
+      "options": {
+        "A": "Total revenue rises as price is reduced",
+        "B": "Quantity demanded does not change when price changes",
+        "C": "The demand curve is a straight horizontal line",
+        "D": "Total revenue remains the same whatever price is charged"
+      },
+      "correct": "D",
+      "explanation": "With unitary elasticity, a given percentage change in price causes an equal and opposite percentage change in quantity, so price x quantity is constant. Such a curve is a rectangular hyperbola. A horizontal line is perfectly elastic and an unchanging quantity is perfectly inelastic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c07-q001",
+      "chapter": 7,
+      "topic": "Costs, revenue and market structures",
+      "question_text": "In economics, the short run is defined as a period in which:",
+      "options": {
+        "A": "All factors of production are variable",
+        "B": "The firm must earn normal profit",
+        "C": "At least one factor of production is fixed in quantity",
+        "D": "Prices cannot change"
+      },
+      "correct": "C",
+      "explanation": "The short run is not a fixed calendar period. It is the period in which at least one input (usually capital) cannot be changed. In the long run all factors are variable.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba1-c07-q002",
+      "chapter": 7,
+      "topic": "Costs, revenue and market structures",
+      "question_text": "The law of diminishing returns states that:",
+      "options": {
+        "A": "As a firm increases the scale of all its inputs, long-run average cost always rises",
+        "B": "As more units of a variable factor are added to a fixed factor, the marginal product of the variable factor will eventually fall",
+        "C": "Total output will fall as soon as any additional worker is employed",
+        "D": "Average cost falls continuously as output rises in the short run"
+      },
+      "correct": "B",
+      "explanation": "Diminishing marginal returns is a short-run concept: with at least one factor fixed, each additional unit of the variable factor eventually adds less to output than the previous one. This causes short-run marginal and average variable costs to rise. Diseconomies of scale are a separate long-run concept.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c07-q003",
+      "chapter": 7,
+      "topic": "Costs, revenue and market structures",
+      "question_text": "A firm's total costs are $2,000 when output is zero, $5,000 when output is 100 units and $5,040 when output is 101 units. What is the average variable cost at an output of 100 units?",
+      "options": {
+        "A": "$30",
+        "B": "$50",
+        "C": "$20",
+        "D": "$40"
+      },
+      "correct": "A",
+      "explanation": "Fixed cost is the cost at zero output, $2,000. Variable cost at 100 units = 5,000 - 2,000 = $3,000. AVC = 3,000 / 100 = $30. Average total cost is $50, average fixed cost $20 and marginal cost of the 101st unit $40.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c07-q004",
+      "chapter": 7,
+      "topic": "Costs, revenue and market structures",
+      "question_text": "Which of the following is an EXTERNAL economy of scale?",
+      "options": {
+        "A": "Discounts obtained by a large firm for buying materials in bulk",
+        "B": "Cheaper borrowing available to a large firm because it is seen as less risky",
+        "C": "The ability of a large firm to employ specialist managers",
+        "D": "A pool of skilled labour developing in a region where the industry is concentrated"
+      },
+      "correct": "D",
+      "explanation": "External economies arise from the growth of the industry as a whole, benefiting all firms in it, such as specialised local labour, suppliers and infrastructure. The other options are internal economies arising from the size of the individual firm.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c07-q005",
+      "chapter": 7,
+      "topic": "Costs, revenue and market structures",
+      "question_text": "Which of the following is NOT a characteristic of a perfectly competitive market?",
+      "options": {
+        "A": "There are many buyers and sellers",
+        "B": "Firms sell an identical (homogeneous) product",
+        "C": "Firms can earn supernormal profits in the long run",
+        "D": "There is freedom of entry to and exit from the industry"
+      },
+      "correct": "C",
+      "explanation": "In perfect competition, free entry means that any supernormal profits attract new firms, increasing supply and reducing price until only normal profit is earned in the long run.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba1-c07-q006",
+      "chapter": 7,
+      "topic": "Costs, revenue and market structures",
+      "question_text": "A profit-maximising firm will produce at the output where:",
+      "options": {
+        "A": "Average cost is at its minimum",
+        "B": "Marginal cost equals marginal revenue",
+        "C": "Total revenue is at its maximum",
+        "D": "Average revenue equals average cost"
+      },
+      "correct": "B",
+      "explanation": "Profit increases as long as each extra unit adds more to revenue than to cost (MR > MC). Profit is maximised where MR = MC, with MC rising through MR. Minimum average cost and maximum revenue are generally different output levels.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba1-c07-q007",
+      "chapter": 7,
+      "topic": "Costs, revenue and market structures",
+      "question_text": "In the short run, a perfectly competitive firm making a loss should continue to produce as long as:",
+      "options": {
+        "A": "Price covers average variable cost",
+        "B": "Price covers average total cost",
+        "C": "Price covers average fixed cost",
+        "D": "Marginal revenue exceeds average total cost"
+      },
+      "correct": "A",
+      "explanation": "Fixed costs must be paid whether or not the firm produces. If price covers average variable cost, producing makes a contribution towards fixed costs and reduces the loss. If price falls below AVC, the firm should shut down in the short run.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c07-q008",
+      "chapter": 7,
+      "topic": "Costs, revenue and market structures",
+      "question_text": "Compared with a perfectly competitive industry with the same cost conditions, a profit-maximising monopolist will normally:",
+      "options": {
+        "A": "Charge a lower price and produce a higher output",
+        "B": "Charge the same price but produce a lower output",
+        "C": "Produce where price equals marginal cost",
+        "D": "Charge a higher price and produce a lower output, causing a deadweight welfare loss"
+      },
+      "correct": "D",
+      "explanation": "A monopolist faces the downward-sloping market demand curve, so MR is below price. Producing where MR = MC means price exceeds marginal cost, output is restricted and price is higher than under perfect competition. The lost consumer and producer surplus is the deadweight loss.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba1-c07-q009",
+      "chapter": 7,
+      "topic": "Costs, revenue and market structures",
+      "question_text": "The kinked demand curve model of oligopoly is used to explain:",
+      "options": {
+        "A": "Why oligopolists always form cartels",
+        "B": "Why oligopolists earn only normal profits in the long run",
+        "C": "Why prices in oligopolistic markets tend to be stable",
+        "D": "Why there are many small firms in an oligopoly"
+      },
+      "correct": "C",
+      "explanation": "The model assumes rivals will match a price cut but not a price rise. Demand is elastic above the current price and inelastic below it, creating a gap in the MR curve. Changes in MC within the gap leave the profit-maximising price unchanged, explaining price rigidity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c07-q010",
+      "chapter": 7,
+      "topic": "Costs, revenue and market structures",
+      "question_text": "In long-run equilibrium under monopolistic competition, a typical firm:",
+      "options": {
+        "A": "Earns supernormal profit protected by barriers to entry",
+        "B": "Earns normal profit and operates with excess capacity",
+        "C": "Produces at the minimum point of its average cost curve",
+        "D": "Faces a perfectly elastic demand curve"
+      },
+      "correct": "B",
+      "explanation": "Free entry removes supernormal profit, so in the long run the demand curve is tangential to the average cost curve. Because the demand curve slopes downwards (differentiated products), the tangency is to the left of minimum average cost, so firms have excess capacity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c07-q011",
+      "chapter": 7,
+      "topic": "Costs, revenue and market structures",
+      "question_text": "A monopolist faces the demand curve P = 100 - 2Q, giving marginal revenue MR = 100 - 4Q. Its total cost is TC = 500 + 20Q. What is the maximum profit the firm can earn?",
+      "options": {
+        "A": "$300",
+        "B": "$800",
+        "C": "$250",
+        "D": "$1,200"
+      },
+      "correct": "A",
+      "explanation": "Marginal cost = 20. Set MR = MC: 100 - 4Q = 20, so Q = 20. Price = 100 - 2 x 20 = $60. Total revenue = 60 x 20 = $1,200. Total cost = 500 + 20 x 20 = $900. Profit = 1,200 - 900 = $300.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba1-c08-q001",
+      "chapter": 8,
+      "topic": "Market failure, externalities and competition policy",
+      "question_text": "A pure public good is characterised by being:",
+      "options": {
+        "A": "Rival and excludable in consumption",
+        "B": "Provided only by the private sector",
+        "C": "Supplied free of charge to those on low incomes",
+        "D": "Non-rival and non-excludable in consumption"
+      },
+      "correct": "D",
+      "explanation": "A public good is non-rival (one person's consumption does not reduce availability to others) and non-excludable (people cannot be prevented from benefiting). This creates a free-rider problem, so the market tends not to provide it.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba1-c08-q002",
+      "chapter": 8,
+      "topic": "Market failure, externalities and competition policy",
+      "question_text": "Where the production of a good creates a negative externality such as pollution, a free market will tend to:",
+      "options": {
+        "A": "Underproduce the good because marginal private cost exceeds marginal social cost",
+        "B": "Produce the socially optimal quantity because firms bear all costs",
+        "C": "Overproduce the good because marginal social cost exceeds marginal private cost",
+        "D": "Overproduce the good because marginal social benefit exceeds marginal private benefit"
+      },
+      "correct": "C",
+      "explanation": "Firms take account only of their private costs. With a negative externality, the cost to society is higher than the private cost, so output where demand meets private supply is greater than the socially optimal output where marginal social benefit equals marginal social cost.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c08-q003",
+      "chapter": 8,
+      "topic": "Market failure, externalities and competition policy",
+      "question_text": "Which of the following is generally treated as a merit good?",
+      "options": {
+        "A": "Tobacco",
+        "B": "Education",
+        "C": "Street lighting",
+        "D": "Luxury cars"
+      },
+      "correct": "B",
+      "explanation": "Merit goods are goods that society judges people should consume more of than they would choose in a free market, often because consumers underestimate the benefits and because of positive externalities. Education and healthcare are common examples. Tobacco is a demerit good and street lighting is a public good.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba1-c08-q004",
+      "chapter": 8,
+      "topic": "Market failure, externalities and competition policy",
+      "question_text": "A Pigouvian tax intended to correct a negative production externality should ideally be set equal to:",
+      "options": {
+        "A": "The marginal external cost at the socially optimal level of output",
+        "B": "The firm's average total cost",
+        "C": "The total profit earned by the polluting firm",
+        "D": "The difference between price and marginal private cost"
+      },
+      "correct": "A",
+      "explanation": "A Pigouvian tax internalises the externality by adding the external cost to the firm's private costs. Setting it equal to marginal external cost at the optimum moves the private supply curve to coincide with marginal social cost, so the market produces the socially optimal output.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c08-q005",
+      "chapter": 8,
+      "topic": "Market failure, externalities and competition policy",
+      "question_text": "In the market for used cars, sellers know more about the quality of the cars than buyers do. This is an example of:",
+      "options": {
+        "A": "A public good, leading to free-riding",
+        "B": "A positive externality, leading to underproduction",
+        "C": "Monopoly power, leading to higher prices",
+        "D": "Asymmetric information, which can lead to adverse selection"
+      },
+      "correct": "D",
+      "explanation": "When one party to a transaction has better information than the other, buyers may be unwilling to pay a fair price for good-quality cars. Owners of good cars then withdraw, leaving a higher proportion of poor-quality cars - adverse selection - and the market may fail.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c08-q006",
+      "chapter": 8,
+      "topic": "Market failure, externalities and competition policy",
+      "question_text": "In a market, demand (marginal social benefit) is P = 120 - Q and marginal private cost is P = 20 + Q. Production causes a constant marginal external cost of $20 per unit. What is the socially optimal output?",
+      "options": {
+        "A": "50 units",
+        "B": "60 units",
+        "C": "40 units",
+        "D": "30 units"
+      },
+      "correct": "C",
+      "explanation": "Marginal social cost = marginal private cost + external cost = 20 + Q + 20 = 40 + Q. The social optimum is where MSB = MSC: 120 - Q = 40 + Q, so 2Q = 80 and Q = 40 units. The free market output, ignoring the externality, is where 120 - Q = 20 + Q, i.e. 50 units, so the market overproduces by 10 units.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba1-c08-q007",
+      "chapter": 8,
+      "topic": "Market failure, externalities and competition policy",
+      "question_text": "Which of the following is a typical function of a national competition authority?",
+      "options": {
+        "A": "Setting the policy interest rate",
+        "B": "Investigating proposed mergers that may substantially lessen competition",
+        "C": "Fixing the prices charged by all firms in an industry",
+        "D": "Collecting indirect taxes on imported goods"
+      },
+      "correct": "B",
+      "explanation": "Competition authorities investigate mergers, cartels and abuse of a dominant position, and can block or impose conditions on mergers that would reduce competition. Interest rates are set by the central bank and tax collection is handled by the tax authority.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c08-q008",
+      "chapter": 8,
+      "topic": "Market failure, externalities and competition policy",
+      "question_text": "A natural monopoly is most likely to arise when:",
+      "options": {
+        "A": "Economies of scale are so large that one firm can supply the whole market at a lower average cost than two or more firms",
+        "B": "The government grants a patent to a single firm",
+        "C": "A firm owns a well-known brand name",
+        "D": "Many small firms produce identical products"
+      },
+      "correct": "A",
+      "explanation": "In a natural monopoly, such as a water or electricity distribution network, average costs keep falling over the whole range of market output. Duplicating the infrastructure would be wasteful, so a single supplier is most efficient. Such firms are usually regulated.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba1-c08-q009",
+      "chapter": 8,
+      "topic": "Market failure, externalities and competition policy",
+      "question_text": "Which of the following is an argument AGAINST the privatisation of a state-owned utility?",
+      "options": {
+        "A": "The profit motive gives managers stronger incentives to control costs",
+        "B": "Exposure to competition and capital markets may improve efficiency",
+        "C": "Sale proceeds can be used to reduce government borrowing",
+        "D": "A privatised natural monopoly may exploit its market power unless it is effectively regulated"
+      },
+      "correct": "D",
+      "explanation": "Privatisation is argued to improve efficiency through the profit motive and capital market discipline, and raises funds for the government. A key argument against is that a natural monopoly transferred to private ownership may raise prices or cut quality unless a regulator controls it.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba1-c09-q001",
+      "chapter": 9,
+      "topic": "Summarising and analysing data",
+      "question_text": "Primary data are best described as:",
+      "options": {
+        "A": "Data originally collected for another purpose, such as published government statistics",
+        "B": "Data that have already been summarised into averages",
+        "C": "Data collected specifically for the purpose of the current investigation",
+        "D": "Data relating only to the main products of a business"
+      },
+      "correct": "C",
+      "explanation": "Primary data are collected first-hand for the specific investigation, for example through a survey designed for the purpose. Secondary data were collected for some other purpose and are reused, such as official statistics or trade publications.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba1-c09-q002",
+      "chapter": 9,
+      "topic": "Summarising and analysing data",
+      "question_text": "The weekly number of complaints received by a customer service team over seven weeks was: 12, 15, 9, 20, 15, 18, 11. What is the arithmetic mean number of complaints per week (to two decimal places)?",
+      "options": {
+        "A": "15.00",
+        "B": "14.29",
+        "C": "16.67",
+        "D": "11.00"
+      },
+      "correct": "B",
+      "explanation": "Mean = sum of values / number of values = (12 + 15 + 9 + 20 + 15 + 18 + 11) / 7 = 100 / 7 = 14.29. The median and mode are both 15 and the range is 20 - 9 = 11.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba1-c09-q003",
+      "chapter": 9,
+      "topic": "Summarising and analysing data",
+      "question_text": "Order sizes have been grouped as follows:\n0 to under 10 units: 4 orders\n10 to under 20 units: 10 orders\n20 to under 30 units: 6 orders\nUsing class midpoints, what is the estimated mean order size?",
+      "options": {
+        "A": "16.0 units",
+        "B": "21.0 units",
+        "C": "11.0 units",
+        "D": "15.0 units"
+      },
+      "correct": "A",
+      "explanation": "Midpoints are 5, 15 and 25. Sum of fx = 5 x 4 + 15 x 10 + 25 x 6 = 20 + 150 + 150 = 320. Total frequency = 20. Mean = 320 / 20 = 16.0 units.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c09-q004",
+      "chapter": 9,
+      "topic": "Summarising and analysing data",
+      "question_text": "Treating the values 2, 4, 6, 8 and 10 as a complete population, what is their standard deviation (to two decimal places)?",
+      "options": {
+        "A": "8.00",
+        "B": "3.16",
+        "C": "2.40",
+        "D": "2.83"
+      },
+      "correct": "D",
+      "explanation": "Mean = 30 / 5 = 6. Squared deviations: 16, 4, 0, 4, 16, totalling 40. Variance = 40 / 5 = 8. Standard deviation = square root of 8 = 2.83. Dividing by n - 1 instead would give 3.16.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c09-q005",
+      "chapter": 9,
+      "topic": "Summarising and analysing data",
+      "question_text": "A set of data has a mean of 40 and a standard deviation of 6. What is the coefficient of variation?",
+      "options": {
+        "A": "667%",
+        "B": "90%",
+        "C": "15%",
+        "D": "6%"
+      },
+      "correct": "C",
+      "explanation": "Coefficient of variation = standard deviation / mean x 100% = 6 / 40 x 100% = 15%. It is a relative measure of dispersion, useful for comparing the variability of data sets with different means.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba1-c09-q006",
+      "chapter": 9,
+      "topic": "Summarising and analysing data",
+      "question_text": "For a distribution that is positively skewed, which of the following relationships between the averages is usually expected?",
+      "options": {
+        "A": "Mode > median > mean",
+        "B": "Mean > median > mode",
+        "C": "Mean = median = mode",
+        "D": "Median > mean > mode"
+      },
+      "correct": "B",
+      "explanation": "In a positively skewed distribution the tail extends to the right, with a few high values pulling the mean upwards. The mode is at the peak, the median lies between, and the mean is highest. In a symmetrical distribution all three are equal.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c09-q007",
+      "chapter": 9,
+      "topic": "Summarising and analysing data",
+      "question_text": "Big data is commonly described by reference to which of the following characteristics?",
+      "options": {
+        "A": "Volume, velocity and variety",
+        "B": "Validity, valuation and verification",
+        "C": "Volume, viability and vision",
+        "D": "Velocity, verification and vertical integration"
+      },
+      "correct": "A",
+      "explanation": "Big data refers to data sets that are very large (volume), generated and processed at high speed (velocity) and in many formats, including unstructured data such as text, images and sensor readings (variety). Veracity and value are sometimes added as further characteristics.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba1-c09-q008",
+      "chapter": 9,
+      "topic": "Summarising and analysing data",
+      "question_text": "A researcher divides a population of customers into groups by region and then selects a random sample from each region in proportion to its size. This sampling method is:",
+      "options": {
+        "A": "Cluster sampling",
+        "B": "Quota sampling",
+        "C": "Systematic sampling",
+        "D": "Stratified random sampling"
+      },
+      "correct": "D",
+      "explanation": "Stratified sampling divides the population into strata with a shared characteristic and takes a random sample from each, usually in proportion to the stratum size. Quota sampling is non-random selection within groups, cluster sampling selects whole groups, and systematic sampling picks every nth item from a list.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c09-q009",
+      "chapter": 9,
+      "topic": "Summarising and analysing data",
+      "question_text": "The lower quartile of a distribution is 24 and the upper quartile is 40. What is the quartile deviation (semi-interquartile range)?",
+      "options": {
+        "A": "16",
+        "B": "32",
+        "C": "8",
+        "D": "64"
+      },
+      "correct": "C",
+      "explanation": "Interquartile range = Q3 - Q1 = 40 - 24 = 16. Quartile deviation = interquartile range / 2 = 16 / 2 = 8.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c09-q010",
+      "chapter": 9,
+      "topic": "Summarising and analysing data",
+      "question_text": "Branch A has 20 employees with a mean weekly wage of $600. Branch B has 30 employees with a mean weekly wage of $700. What is the mean weekly wage for all employees of both branches?",
+      "options": {
+        "A": "$650",
+        "B": "$660",
+        "C": "$640",
+        "D": "$1,300"
+      },
+      "correct": "B",
+      "explanation": "The combined mean must be weighted by the number of employees. Total wages = 20 x 600 + 30 x 700 = 12,000 + 21,000 = 33,000. Combined mean = 33,000 / 50 = $660.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba1-c09-q011",
+      "chapter": 9,
+      "topic": "Summarising and analysing data",
+      "question_text": "A grouped frequency distribution of delivery times (minutes) is:\n0 to under 10: 8 deliveries\n10 to under 20: 14 deliveries\n20 to under 30: 18 deliveries\nUsing linear interpolation and n/2 to locate the median, what is the estimated median delivery time (to two decimal places)?",
+      "options": {
+        "A": "18.57 minutes",
+        "B": "15.00 minutes",
+        "C": "14.29 minutes",
+        "D": "21.11 minutes"
+      },
+      "correct": "A",
+      "explanation": "Median position = 40 / 2 = 20th value. Cumulative frequencies are 8, 22 and 40, so the median lies in the 10 to under 20 class. Median = 10 + ((20 - 8) / 14) x 10 = 10 + 8.57 = 18.57 minutes (rounded to two decimal places).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba1-c10-q001",
+      "chapter": 10,
+      "topic": "Index numbers",
+      "question_text": "The price of a product was $2.40 in the base year and is $2.70 in the current year. What is the simple price index for the current year (base year = 100)?",
+      "options": {
+        "A": "88.9",
+        "B": "12.5",
+        "C": "130.0",
+        "D": "112.5"
+      },
+      "correct": "D",
+      "explanation": "Simple price index = current price / base price x 100 = 2.70 / 2.40 x 100 = 112.5. This shows a 12.5% increase in price since the base year.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba1-c10-q002",
+      "chapter": 10,
+      "topic": "Index numbers",
+      "question_text": "A Laspeyres price index is calculated using:",
+      "options": {
+        "A": "Current period quantities as weights",
+        "B": "The average of base and current period quantities as weights",
+        "C": "Base period quantities as weights",
+        "D": "No weights, only the prices of the items"
+      },
+      "correct": "C",
+      "explanation": "A Laspeyres index measures the change in the cost of buying the base period basket of goods, so it weights prices by base period quantities. A Paasche index weights by current period quantities.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c10-q003",
+      "chapter": 10,
+      "topic": "Index numbers",
+      "question_text": "Price and quantity data for two items are:\nItem X: base price $4, base quantity 10, current price $5, current quantity 8\nItem Y: base price $10, base quantity 5, current price $11, current quantity 7\nWhat is the Laspeyres price index for the current period (base = 100, to one decimal place)?",
+      "options": {
+        "A": "114.7",
+        "B": "116.7",
+        "C": "114.3",
+        "D": "85.7"
+      },
+      "correct": "B",
+      "explanation": "Laspeyres = sum(p1 x q0) / sum(p0 x q0) x 100. Numerator = 5 x 10 + 11 x 5 = 105. Denominator = 4 x 10 + 10 x 5 = 90. Index = 105 / 90 x 100 = 116.7.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c10-q004",
+      "chapter": 10,
+      "topic": "Index numbers",
+      "question_text": "Using the same data:\nItem X: base price $4, base quantity 10, current price $5, current quantity 8\nItem Y: base price $10, base quantity 5, current price $11, current quantity 7\nWhat is the Paasche price index for the current period (base = 100, to one decimal place)?",
+      "options": {
+        "A": "114.7",
+        "B": "116.7",
+        "C": "87.2",
+        "D": "130.0"
+      },
+      "correct": "A",
+      "explanation": "Paasche = sum(p1 x q1) / sum(p0 x q1) x 100. Numerator = 5 x 8 + 11 x 7 = 40 + 77 = 117. Denominator = 4 x 8 + 10 x 7 = 32 + 70 = 102. Index = 117 / 102 x 100 = 114.7. Dividing 117 by the base value of 90 gives 130.0, which is a value index, not a price index.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c10-q005",
+      "chapter": 10,
+      "topic": "Index numbers",
+      "question_text": "An index series has Year 1 = 100. The index stands at 125 in Year 4 and 150 in Year 7. If the series is rebased so that Year 4 = 100, what is the index for Year 7?",
+      "options": {
+        "A": "125",
+        "B": "150",
+        "C": "175",
+        "D": "120"
+      },
+      "correct": "D",
+      "explanation": "Rebased index = old index for the year / old index for the new base year x 100 = 150 / 125 x 100 = 120.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba1-c10-q006",
+      "chapter": 10,
+      "topic": "Index numbers",
+      "question_text": "An employee's weekly wage was $400 in Year 1 and $460 in Year 3. A retail price index was 100 in Year 1 and 112 in Year 3. What is the Year 3 wage expressed in Year 1 prices (to the nearest cent)?",
+      "options": {
+        "A": "$515.20",
+        "B": "$460.00",
+        "C": "$410.71",
+        "D": "$448.00"
+      },
+      "correct": "C",
+      "explanation": "Real wage = money wage x (base index / current index) = 460 x 100 / 112 = $410.71. In real terms the wage has risen by 2.68%, much less than the 15% money increase. $448.00 is the Year 1 wage restated in Year 3 prices.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c10-q007",
+      "chapter": 10,
+      "topic": "Index numbers",
+      "question_text": "The main reason for using a weighted index rather than a simple aggregate index is to:",
+      "options": {
+        "A": "Remove the need to choose a base year",
+        "B": "Reflect the relative importance of each item in the index",
+        "C": "Ensure the index always increases over time",
+        "D": "Avoid the need to collect price data"
+      },
+      "correct": "B",
+      "explanation": "In a simple aggregate index every item counts equally, regardless of how much is bought. Weighting (by quantities or expenditure shares) ensures that items forming a larger part of spending have a greater influence on the index.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba1-c10-q008",
+      "chapter": 10,
+      "topic": "Index numbers",
+      "question_text": "Why is a Laspeyres price index often said to overstate the rise in the cost of living?",
+      "options": {
+        "A": "It assumes the base period basket is still bought, ignoring consumers switching towards goods whose prices have risen relatively less",
+        "B": "It uses current quantities, which are always higher than base quantities",
+        "C": "It excludes items whose prices have risen",
+        "D": "It uses a geometric rather than an arithmetic mean of price relatives"
+      },
+      "correct": "A",
+      "explanation": "Laspeyres keeps base period quantities fixed. In practice, consumers substitute away from items that have become relatively more expensive. Because the index does not reflect this substitution, it tends to overstate the increase in the cost of maintaining living standards. Paasche tends to understate it.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba1-c10-q009",
+      "chapter": 10,
+      "topic": "Index numbers",
+      "question_text": "A chain-based price index shows prices rising by 8% in Year 2, rising by 6% in Year 3 and falling by 4% in Year 4. If Year 1 = 100, what is the fixed-base index for Year 4 (to one decimal place)?",
+      "options": {
+        "A": "110.0",
+        "B": "91.0",
+        "C": "96.0",
+        "D": "109.9"
+      },
+      "correct": "D",
+      "explanation": "The chain links must be multiplied, not added: 100 x 1.08 x 1.06 x 0.96 = 109.9. Adding the percentage changes (8 + 6 - 4 = 10) incorrectly gives 110.0.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba1-c10-q010",
+      "chapter": 10,
+      "topic": "Index numbers",
+      "question_text": "An index is calculated as the weighted average of price relatives. Item A has a price relative of 120 and a weight of 3. Item B has a price relative of 105 and a weight of 2. What is the index?",
+      "options": {
+        "A": "112.5",
+        "B": "111",
+        "C": "114",
+        "D": "570"
+      },
+      "correct": "C",
+      "explanation": "Weighted average = (120 x 3 + 105 x 2) / (3 + 2) = (360 + 210) / 5 = 114. A simple average of the relatives gives 112.5, and reversing the weights gives 111.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c11-q001",
+      "chapter": 11,
+      "topic": "Forecasting: correlation, regression and time series",
+      "question_text": "A correlation coefficient of -0.9 between two variables indicates:",
+      "options": {
+        "A": "A weak negative linear relationship",
+        "B": "A strong negative linear relationship",
+        "C": "A strong positive linear relationship",
+        "D": "That 90% of the change in one variable is caused by the other"
+      },
+      "correct": "B",
+      "explanation": "The correlation coefficient lies between -1 and +1. A value close to -1 indicates a strong linear relationship where one variable tends to fall as the other rises. Correlation does not prove causation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba1-c11-q002",
+      "chapter": 11,
+      "topic": "Forecasting: correlation, regression and time series",
+      "question_text": "The correlation coefficient between advertising spend and sales is 0.8. What proportion of the variation in sales is explained by the variation in advertising spend?",
+      "options": {
+        "A": "64%",
+        "B": "80%",
+        "C": "89%",
+        "D": "36%"
+      },
+      "correct": "A",
+      "explanation": "The coefficient of determination is r squared = 0.8 x 0.8 = 0.64. So 64% of the variation in sales is explained by the variation in advertising; the remaining 36% is due to other factors.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c11-q003",
+      "chapter": 11,
+      "topic": "Forecasting: correlation, regression and time series",
+      "question_text": "Five pairs of observations give: sum of x = 15, sum of y = 27, sum of xy = 93, sum of x squared = 55, n = 5. What is the least squares regression line of y on x?",
+      "options": {
+        "A": "y = 1.2 + 1.8x",
+        "B": "y = 5.4 + 1.2x",
+        "C": "y = 1.8 + 0.22x",
+        "D": "y = 1.8 + 1.2x"
+      },
+      "correct": "D",
+      "explanation": "b = (n x sum xy - sum x x sum y) / (n x sum x squared - (sum x) squared) = (5 x 93 - 15 x 27) / (5 x 55 - 15 x 15) = (465 - 405) / (275 - 225) = 60 / 50 = 1.2. a = mean of y - b x mean of x = 27/5 - 1.2 x 15/5 = 5.4 - 3.6 = 1.8. So y = 1.8 + 1.2x.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba1-c11-q004",
+      "chapter": 11,
+      "topic": "Forecasting: correlation, regression and time series",
+      "question_text": "A company's monthly sales (units) are forecast using the trend equation y = 1,200 + 35x, where x is the month number. What is the trend forecast for month 24?",
+      "options": {
+        "A": "28,835 units",
+        "B": "1,235 units",
+        "C": "2,040 units",
+        "D": "2,075 units"
+      },
+      "correct": "C",
+      "explanation": "Substitute x = 24: y = 1,200 + 35 x 24 = 1,200 + 840 = 2,040 units.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba1-c11-q005",
+      "chapter": 11,
+      "topic": "Forecasting: correlation, regression and time series",
+      "question_text": "Two judges rank six products. The sum of the squared differences between their ranks is 10. What is Spearman's rank correlation coefficient (to three decimal places)?",
+      "options": {
+        "A": "0.286",
+        "B": "0.714",
+        "C": "0.952",
+        "D": "-0.714"
+      },
+      "correct": "B",
+      "explanation": "R = 1 - (6 x sum d squared) / (n(n squared - 1)) = 1 - (6 x 10) / (6 x 35) = 1 - 60 / 210 = 0.714. This indicates fairly strong agreement between the judges.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c11-q006",
+      "chapter": 11,
+      "topic": "Forecasting: correlation, regression and time series",
+      "question_text": "Why are forecasts produced by extrapolation from a regression line generally less reliable than those produced by interpolation?",
+      "options": {
+        "A": "Extrapolation assumes the relationship continues outside the range of observed data, which may not hold",
+        "B": "Extrapolation uses a lower correlation coefficient",
+        "C": "Interpolation always uses more data points than extrapolation",
+        "D": "Extrapolation can only be used with time series data"
+      },
+      "correct": "A",
+      "explanation": "Interpolation estimates values within the range of the data used to calculate the regression line. Extrapolation goes beyond that range, assuming the same linear relationship holds where it has not been observed, so the forecast is less reliable.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c11-q007",
+      "chapter": 11,
+      "topic": "Forecasting: correlation, regression and time series",
+      "question_text": "Which of the following is NOT one of the components normally identified in a time series analysis?",
+      "options": {
+        "A": "Trend",
+        "B": "Seasonal variation",
+        "C": "Random (residual) variation",
+        "D": "Correlation component"
+      },
+      "correct": "D",
+      "explanation": "A time series is normally analysed into the trend, seasonal variations, cyclical variations and random (residual) variations. Correlation is a measure of association between two variables, not a component of a time series.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba1-c11-q008",
+      "chapter": 11,
+      "topic": "Forecasting: correlation, regression and time series",
+      "question_text": "Using an additive time series model, the trend value for a quarter is 820 units and the seasonal variation for that quarter is +35 units. What is the forecast for the quarter?",
+      "options": {
+        "A": "785 units",
+        "B": "820 units",
+        "C": "855 units",
+        "D": "28,700 units"
+      },
+      "correct": "C",
+      "explanation": "In the additive model, forecast = trend + seasonal variation = 820 + 35 = 855 units.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba1-c11-q009",
+      "chapter": 11,
+      "topic": "Forecasting: correlation, regression and time series",
+      "question_text": "Using a multiplicative time series model, the trend value for a quarter is 1,250 units and the seasonal index is 1.12. What is the forecast for the quarter?",
+      "options": {
+        "A": "1,116 units",
+        "B": "1,400 units",
+        "C": "1,100 units",
+        "D": "1,362 units"
+      },
+      "correct": "B",
+      "explanation": "In the multiplicative model, forecast = trend x seasonal index = 1,250 x 1.12 = 1,400 units.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c11-q010",
+      "chapter": 11,
+      "topic": "Forecasting: correlation, regression and time series",
+      "question_text": "Actual sales in Quarter 3 were 2,310 units. Using a multiplicative model, the seasonal index for Quarter 3 is 1.10. What are the seasonally adjusted (deseasonalised) sales for the quarter?",
+      "options": {
+        "A": "2,100 units",
+        "B": "2,541 units",
+        "C": "2,079 units",
+        "D": "2,520 units"
+      },
+      "correct": "A",
+      "explanation": "Seasonally adjusted figure = actual / seasonal index = 2,310 / 1.10 = 2,100 units. Removing the seasonal effect shows the underlying level of sales; multiplying by the index would add the seasonal effect again.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba1-c11-q011",
+      "chapter": 11,
+      "topic": "Forecasting: correlation, regression and time series",
+      "question_text": "Sales for five consecutive periods were 40, 46, 52, 49 and 55. What is the three-period moving average centred on period 3?",
+      "options": {
+        "A": "46",
+        "B": "52",
+        "C": "48.4",
+        "D": "49"
+      },
+      "correct": "D",
+      "explanation": "The three-period moving average centred on period 3 uses periods 2, 3 and 4: (46 + 52 + 49) / 3 = 147 / 3 = 49.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c12-q001",
+      "chapter": 12,
+      "topic": "The financial system, money and interest rates",
+      "question_text": "Which of the following is NOT one of the functions of money?",
+      "options": {
+        "A": "A medium of exchange",
+        "B": "A unit of account",
+        "C": "A guarantee of a positive real return",
+        "D": "A store of value"
+      },
+      "correct": "C",
+      "explanation": "Money acts as a medium of exchange, a unit of account, a store of value and a standard of deferred payment. It does not guarantee a positive real return; inflation erodes the purchasing power of money held.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba1-c12-q002",
+      "chapter": 12,
+      "topic": "The financial system, money and interest rates",
+      "question_text": "Banks and building societies accept short-term deposits and make long-term loans. This process is known as:",
+      "options": {
+        "A": "Risk transformation",
+        "B": "Maturity transformation",
+        "C": "Aggregation",
+        "D": "Securitisation"
+      },
+      "correct": "B",
+      "explanation": "Maturity transformation allows savers to lend for short periods while borrowers obtain long-term finance. Risk transformation refers to spreading risk across many borrowers, and aggregation means pooling small deposits into larger loans.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c12-q003",
+      "chapter": 12,
+      "topic": "The financial system, money and interest rates",
+      "question_text": "A bank receives a new cash deposit of $50,000. All banks maintain a reserve ratio of 8% and there are no cash leakages. What is the maximum total increase in bank deposits?",
+      "options": {
+        "A": "$625,000",
+        "B": "$575,000",
+        "C": "$400,000",
+        "D": "$54,000"
+      },
+      "correct": "A",
+      "explanation": "Credit multiplier = 1 / reserve ratio = 1 / 0.08 = 12.5. Maximum total deposits = $50,000 x 12.5 = $625,000. Of this, $575,000 is new credit created by lending.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c12-q004",
+      "chapter": 12,
+      "topic": "The financial system, money and interest rates",
+      "question_text": "The money markets are best described as markets for:",
+      "options": {
+        "A": "Long-term equity finance for listed companies",
+        "B": "The issue and trading of long-dated government bonds",
+        "C": "Physical commodities such as metals and oil",
+        "D": "Short-term lending and borrowing, typically for periods of less than one year"
+      },
+      "correct": "D",
+      "explanation": "Money markets deal in short-term funds and instruments such as treasury bills, certificates of deposit and commercial paper. Capital markets deal in long-term finance such as shares and long-term bonds.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba1-c12-q005",
+      "chapter": 12,
+      "topic": "The financial system, money and interest rates",
+      "question_text": "Which of the following is NOT normally a function of a central bank?",
+      "options": {
+        "A": "Acting as lender of last resort to the banking system",
+        "B": "Acting as banker to the government",
+        "C": "Accepting deposits from and making loans to members of the general public",
+        "D": "Implementing monetary policy, including setting a policy interest rate"
+      },
+      "correct": "C",
+      "explanation": "Central banks act as banker to the government and to commercial banks, act as lender of last resort, issue notes, manage reserves and conduct monetary policy. Retail banking for the general public is carried out by commercial banks.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c12-q006",
+      "chapter": 12,
+      "topic": "The financial system, money and interest rates",
+      "question_text": "A bond with a nominal value of $100 pays an annual coupon of 6% and has a current market price of $80. What is its interest (running) yield?",
+      "options": {
+        "A": "6.0%",
+        "B": "7.5%",
+        "C": "4.8%",
+        "D": "26.0%"
+      },
+      "correct": "B",
+      "explanation": "Interest yield = annual coupon / market price x 100 = $6 / $80 x 100 = 7.5%. Because the bond trades below nominal value, the yield exceeds the coupon rate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c12-q007",
+      "chapter": 12,
+      "topic": "The financial system, money and interest rates",
+      "question_text": "Which of the following statements about the relationship between interest rates and bond prices is correct?",
+      "options": {
+        "A": "When market interest rates rise, the prices of existing fixed-interest bonds fall",
+        "B": "When market interest rates rise, the prices of existing fixed-interest bonds rise",
+        "C": "Bond prices are unaffected by changes in market interest rates",
+        "D": "When market interest rates fall, the coupons on existing fixed-interest bonds rise"
+      },
+      "correct": "A",
+      "explanation": "Existing bonds pay a fixed coupon. If market rates rise, new investors will only buy existing bonds at a lower price so that their yield matches current rates. There is therefore an inverse relationship between interest rates and bond prices.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba1-c12-q008",
+      "chapter": 12,
+      "topic": "The financial system, money and interest rates",
+      "question_text": "A deposit pays a nominal interest rate of 8% a year and inflation is 3% a year. Using the exact Fisher relationship, what is the real rate of interest (to two decimal places)?",
+      "options": {
+        "A": "5.00%",
+        "B": "11.24%",
+        "C": "4.63%",
+        "D": "4.85%"
+      },
+      "correct": "D",
+      "explanation": "(1 + real rate) = (1 + nominal rate) / (1 + inflation) = 1.08 / 1.03 = 1.0485. Real rate = 4.85%. Subtracting inflation from the nominal rate (5.00%) is only an approximation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba1-c12-q009",
+      "chapter": 12,
+      "topic": "The financial system, money and interest rates",
+      "question_text": "A normal yield curve slopes upwards, with longer-term interest rates higher than short-term rates. Which of the following helps to explain this?",
+      "options": {
+        "A": "Short-term borrowing is always riskier than long-term borrowing",
+        "B": "The central bank sets long-term rates above its policy rate by law",
+        "C": "Investors require a liquidity premium to compensate for tying up funds for longer",
+        "D": "Markets expect interest rates to fall sharply in the future"
+      },
+      "correct": "C",
+      "explanation": "Liquidity preference theory states that lenders prefer liquidity and require extra return for lending long. Expectations theory adds that an upward slope reflects expected rises in short-term rates. Expected falls in rates would tend to produce a downward-sloping (inverted) curve.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba1-c13-q001",
+      "chapter": 13,
+      "topic": "The time value of money",
+      "question_text": "$8,000 is invested at 5% a year simple interest for 4 years. What will the investment be worth at the end of the period?",
+      "options": {
+        "A": "$9,724.05",
+        "B": "$9,600.00",
+        "C": "$1,600.00",
+        "D": "$8,400.00"
+      },
+      "correct": "B",
+      "explanation": "Simple interest = 8,000 x 0.05 x 4 = $1,600.00. Value = 8,000 + 1,600 = $9,600.00. With compound interest it would be 8,000 x 1.05^4 = $9,724.05.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba1-c13-q002",
+      "chapter": 13,
+      "topic": "The time value of money",
+      "question_text": "$5,000 is invested at 6% a year compound interest. What will it be worth after 3 years (to the nearest cent)?",
+      "options": {
+        "A": "$5,955.08",
+        "B": "$5,900.00",
+        "C": "$6,312.38",
+        "D": "$5,300.00"
+      },
+      "correct": "A",
+      "explanation": "Future value = P x (1 + r)^n = 5,000 x 1.06^3 = 5,000 x 1.191016 = $5,955.08.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba1-c13-q003",
+      "chapter": 13,
+      "topic": "The time value of money",
+      "question_text": "A loan charges interest of 2% per quarter, compounded quarterly. What is the effective annual rate of interest (to two decimal places)?",
+      "options": {
+        "A": "8.00%",
+        "B": "6.12%",
+        "C": "2.00%",
+        "D": "8.24%"
+      },
+      "correct": "D",
+      "explanation": "Effective annual rate = (1 + quarterly rate)^4 - 1 = 1.02^4 - 1 = 1.082432 - 1 = 8.24%. It exceeds 8% because interest is earned on interest within the year.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c13-q004",
+      "chapter": 13,
+      "topic": "The time value of money",
+      "question_text": "What is the present value of $12,000 receivable in three years' time if the discount rate is 8% a year (to the nearest cent)?",
+      "options": {
+        "A": "$9,120.00",
+        "B": "$15,116.54",
+        "C": "$9,525.99",
+        "D": "$9,677.42"
+      },
+      "correct": "C",
+      "explanation": "PV = future value / (1 + r)^n = 12,000 / 1.08^3 = 12,000 / 1.259712 = $9,525.99.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c13-q005",
+      "chapter": 13,
+      "topic": "The time value of money",
+      "question_text": "What is the present value of $4,000 received at the end of each year for five years, discounted at 10% a year (to the nearest cent)?",
+      "options": {
+        "A": "$20,000.00",
+        "B": "$15,163.15",
+        "C": "$12,679.46",
+        "D": "$16,679.46"
+      },
+      "correct": "B",
+      "explanation": "Annuity factor = (1 - (1.10)^-5) / 0.10 = 3.7908. PV = 4,000 x 3.790787 = $15,163.15 (calculated with the unrounded factor).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c13-q006",
+      "chapter": 13,
+      "topic": "The time value of money",
+      "question_text": "An investment will pay $3,000 a year in perpetuity, with the first payment received at the end of Year 3. If the discount rate is 6% a year, what is the present value of the investment (to the nearest cent)?",
+      "options": {
+        "A": "$44,499.82",
+        "B": "$50,000.00",
+        "C": "$47,169.81",
+        "D": "$41,980.96"
+      },
+      "correct": "A",
+      "explanation": "A perpetuity starting at the end of Year 3 is valued at the end of Year 2 as 3,000 / 0.06 = $50,000.00. Discounting this two years to today: 50,000 / 1.06^2 = 50,000 / 1.1236 = $44,499.82.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba1-c13-q007",
+      "chapter": 13,
+      "topic": "The time value of money",
+      "question_text": "A project requires an initial investment of $20,000 and is expected to generate net cash inflows of $8,000 at the end of each of the next three years. Using a cost of capital of 9% a year, what is the net present value (to the nearest dollar)?",
+      "options": {
+        "A": "$4,000",
+        "B": "$2,073",
+        "C": "-$250",
+        "D": "$250"
+      },
+      "correct": "D",
+      "explanation": "Three-year annuity factor at 9% = (1 - 1.09^-3) / 0.09 = 2.5313. PV of inflows = 8,000 x 2.531295 = $20,250.36. NPV = 20,250.36 - 20,000 = $250 (rounded). The NPV is positive, so the project should be accepted.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba1-c13-q008",
+      "chapter": 13,
+      "topic": "The time value of money",
+      "question_text": "A project has a net present value of +$2,400 at a discount rate of 10% and -$1,600 at a discount rate of 15%. Using linear interpolation, what is the estimated internal rate of return?",
+      "options": {
+        "A": "12.0%",
+        "B": "12.5%",
+        "C": "13.0%",
+        "D": "25.0%"
+      },
+      "correct": "C",
+      "explanation": "IRR = L + (NPV at L / (NPV at L - NPV at H)) x (H - L) = 10% + (2,400 / (2,400 + 1,600)) x 5% = 10% + 0.6 x 5% = 13.0%.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba1-c13-q009",
+      "chapter": 13,
+      "topic": "The time value of money",
+      "question_text": "A business borrows $30,000 at 7% a year, to be repaid by four equal instalments at the end of each year. What is the amount of each instalment (to the nearest dollar)?",
+      "options": {
+        "A": "$7,500",
+        "B": "$8,857",
+        "C": "$9,600",
+        "D": "$9,831"
+      },
+      "correct": "B",
+      "explanation": "The loan equals the present value of the instalments. Four-year annuity factor at 7% = (1 - 1.07^-4) / 0.07 = 3.3872. Instalment = 30,000 / 3.387211 = $8,857 (rounded).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba1-c13-q010",
+      "chapter": 13,
+      "topic": "The time value of money",
+      "question_text": "A saver deposits $2,000 at the end of each year for five years in an account paying 5% a year compound interest. What is the balance immediately after the fifth deposit (to the nearest cent)?",
+      "options": {
+        "A": "$11,051.26",
+        "B": "$10,000.00",
+        "C": "$11,603.83",
+        "D": "$8,658.95"
+      },
+      "correct": "A",
+      "explanation": "Future value of an annuity = A x ((1 + r)^n - 1) / r = 2,000 x (1.05^5 - 1) / 0.05 = 2,000 x 5.525631 = $11,051.26.",
+      "difficulty": "medium"
+    }
+  ]
+}
