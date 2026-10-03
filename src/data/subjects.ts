@@ -285,8 +285,8 @@ export const caInterSubjects: Subject[] = [
     title: "Advanced Accounting",
     level: "CA-INTER",
     body: "icai",
-    description: "Ind AS-based accounting MCQs for the CA Intermediate Paper 1 objective section.",
-    isAvailable: false,
+    description: "Accounting Standards (AS), company accounts, amalgamation, buyback and branches — Paper 1 MCQ practice.",
+    isAvailable: true,
   },
   {
     id: "ca-inter-law",

@@ -1,0 +1,1955 @@
+{
+  "subject_id": "ca-inter-aa",
+  "questions": [
+    {
+      "id": "ca-inter-aa-c01-q001",
+      "chapter": 1,
+      "topic": "Introduction to Accounting Standards, Framework and Applicability",
+      "question_text": "Under the Framework for the Preparation and Presentation of Financial Statements issued by ICAI, information is said to possess a particular qualitative characteristic when it is free from material error and bias and users can depend upon it to represent faithfully what it purports to represent. This characteristic is:",
+      "options": {
+        "A": "Comparability",
+        "B": "Understandability",
+        "C": "Relevance",
+        "D": "Reliability"
+      },
+      "correct": "D",
+      "explanation": "The Framework describes reliability as the quality of information being free from material error and bias and faithfully representing what it purports to represent. Relevance concerns the ability of information to influence economic decisions, comparability concerns consistency across periods and entities, and understandability concerns ease of comprehension by users with reasonable knowledge.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-aa-c01-q002",
+      "chapter": 1,
+      "topic": "Introduction to Accounting Standards, Framework and Applicability",
+      "question_text": "Which of the following is NOT one of the fundamental accounting assumptions referred to in AS 1, Disclosure of Accounting Policies?",
+      "options": {
+        "A": "Prudence",
+        "B": "Going concern",
+        "C": "Consistency",
+        "D": "Accrual"
+      },
+      "correct": "A",
+      "explanation": "AS 1 identifies going concern, consistency and accrual as the fundamental accounting assumptions; if they are followed, no specific disclosure is required. Prudence is not an assumption; it is one of the major considerations (along with substance over form and materiality) governing the selection and application of accounting policies.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-aa-c01-q003",
+      "chapter": 1,
+      "topic": "Introduction to Accounting Standards, Framework and Applicability",
+      "question_text": "Case: The board of Vasundhara Textiles Ltd passed a resolution on 15 March 20X1 to replace its dyeing machines during the next financial year. No contract has been signed and no supplier has been approached as at 31 March 20X1. Applying the definition of a liability in the ICAI Framework, how should the planned replacement cost be dealt with in the financial statements for the year ended 31 March 20X1?",
+      "options": {
+        "A": "A liability is recognised for the estimated replacement cost because the board has approved it",
+        "B": "No liability is recognised because there is no present obligation arising from a past event",
+        "C": "A provision is recognised at the present value of the expected replacement cost",
+        "D": "The amount is shown as a contingent liability in the notes"
+      },
+      "correct": "B",
+      "explanation": "Under the Framework, a liability is a present obligation of the enterprise arising from past events, the settlement of which is expected to result in an outflow of resources. A mere decision to acquire assets in the future does not create a present obligation, because the company can still change its mind. Hence nothing is recognised; a contingent liability also does not arise because there is no possible obligation from a past event.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c01-q004",
+      "chapter": 1,
+      "topic": "Introduction to Accounting Standards, Framework and Applicability",
+      "question_text": "Case: Megh Traders started the year with net assets (equity) of ₹5,00,000 and closed the year with net assets of ₹6,40,000. During the year the owner introduced additional capital of ₹50,000 and withdrew ₹30,000. Applying the financial capital maintenance concept in nominal monetary units, the profit for the year is:",
+      "options": {
+        "A": "₹60,000",
+        "B": "₹1,20,000",
+        "C": "₹1,60,000",
+        "D": "₹1,40,000"
+      },
+      "correct": "B",
+      "explanation": "Under financial capital maintenance, profit is the increase in net assets after excluding contributions from and distributions to owners. Profit = Closing net assets 6,40,000 - Opening net assets 5,00,000 - Capital introduced 50,000 + Drawings 30,000 = ₹1,20,000. Simply taking the change in net assets (1,40,000) ignores owner transactions.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c01-q005",
+      "chapter": 1,
+      "topic": "Introduction to Accounting Standards, Framework and Applicability",
+      "question_text": "Case: An entity had opening net assets of ₹8,00,000 and closing net assets of ₹9,20,000, with no capital introduced or withdrawn. The general price index moved from 120 at the start of the year to 132 at the end. Under the financial capital maintenance concept measured in units of constant purchasing power, the profit for the year is:",
+      "options": {
+        "A": "₹1,09,091",
+        "B": "₹40,000",
+        "C": "₹36,364",
+        "D": "₹1,20,000"
+      },
+      "correct": "B",
+      "explanation": "Opening capital must first be restated to end-of-year purchasing power: 8,00,000 x 132/120 = ₹8,80,000. Profit = Closing net assets 9,20,000 - restated opening capital 8,80,000 = ₹40,000. The balance of the nominal increase (1,20,000 - 40,000 = 80,000) is a capital maintenance adjustment forming part of equity, not profit.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-aa-c01-q006",
+      "chapter": 1,
+      "topic": "Introduction to Accounting Standards, Framework and Applicability",
+      "question_text": "Within ICAI, which body is responsible for formulating Accounting Standards (AS) that are subsequently notified for companies under the Companies Act, 2013?",
+      "options": {
+        "A": "The Financial Reporting Review Board (FRRB)",
+        "B": "The Accounting Standards Board (ASB)",
+        "C": "The Auditing and Assurance Standards Board (AASB)",
+        "D": "The Board of Studies (BoS)"
+      },
+      "correct": "B",
+      "explanation": "The Accounting Standards Board of ICAI formulates Accounting Standards after considering the applicable laws, customs and business environment in India. The AASB issues auditing standards, the Board of Studies handles education, and the FRRB reviews published financial statements for compliance; none of these formulates accounting standards.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-aa-c01-q007",
+      "chapter": 1,
+      "topic": "Introduction to Accounting Standards, Framework and Applicability",
+      "question_text": "Case: Sarthak Components Ltd qualifies as a Small and Medium-sized Company (SMC) under the Companies (Accounting Standards) Rules. Which of the following Accounting Standards is NOT applicable to it at all?",
+      "options": {
+        "A": "AS 9, Revenue Recognition",
+        "B": "AS 2, Valuation of Inventories",
+        "C": "AS 17, Segment Reporting",
+        "D": "AS 10, Property, Plant and Equipment"
+      },
+      "correct": "C",
+      "explanation": "AS 17 on Segment Reporting is not applicable to SMCs, which are given this exemption to reduce the reporting burden on smaller entities. AS 2, AS 10 and AS 9 are recognition and measurement standards that apply to all companies, including SMCs.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c01-q008",
+      "chapter": 1,
+      "topic": "Introduction to Accounting Standards, Framework and Applicability",
+      "question_text": "Under the ICAI Framework, assets carried at the amount of cash or cash equivalents that would have to be paid if the same or an equivalent asset were acquired currently are measured on which basis?",
+      "options": {
+        "A": "Present value",
+        "B": "Realisable (settlement) value",
+        "C": "Current cost",
+        "D": "Historical cost"
+      },
+      "correct": "C",
+      "explanation": "Current cost measures assets at the amount that would be paid to acquire the same or an equivalent asset currently. Historical cost uses the amount paid at acquisition, realisable value uses the amount obtainable by selling the asset in an orderly disposal, and present value discounts the future net cash inflows the asset is expected to generate.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-aa-c02-q001",
+      "chapter": 2,
+      "topic": "Presentation and Disclosures Based Accounting Standards",
+      "question_text": "AS 1 identifies three major considerations that govern the selection and application of accounting policies. Which of the following is NOT one of them?",
+      "options": {
+        "A": "Consistency",
+        "B": "Materiality",
+        "C": "Substance over form",
+        "D": "Prudence"
+      },
+      "correct": "A",
+      "explanation": "AS 1 lists prudence, substance over form and materiality as the major considerations governing the selection and application of accounting policies. Consistency is one of the fundamental accounting assumptions, not one of these considerations.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-aa-c02-q002",
+      "chapter": 2,
+      "topic": "Presentation and Disclosures Based Accounting Standards",
+      "question_text": "Case: Kaveri Pumps Ltd, a manufacturing company, paid interest of ₹6,40,000 on its term loans during the year. Under AS 3, Cash Flow Statements, this payment should be classified as a cash flow from:",
+      "options": {
+        "A": "Investing activities",
+        "B": "Financing activities",
+        "C": "Operating activities or financing activities at the option of the company",
+        "D": "Operating activities"
+      },
+      "correct": "B",
+      "explanation": "AS 3 requires interest paid by an enterprise other than a financial enterprise to be classified as a financing activity, because it is a cost of obtaining financial resources. Only in the case of a financial enterprise is interest paid classified as an operating activity. AS 3 does not give a free choice for non-financial enterprises.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-aa-c02-q003",
+      "chapter": 2,
+      "topic": "Presentation and Disclosures Based Accounting Standards",
+      "question_text": "Case: Extracts for Nandi Agro Ltd for the year are: net profit before tax ₹8,40,000; depreciation ₹1,20,000; profit on sale of machinery ₹30,000; increase in trade receivables ₹75,000; decrease in inventories ₹40,000; increase in trade payables ₹25,000; income tax paid ₹2,10,000. Using the indirect method under AS 3, the net cash from operating activities is:",
+      "options": {
+        "A": "₹7,70,000",
+        "B": "₹9,20,000",
+        "C": "₹7,10,000",
+        "D": "₹7,30,000"
+      },
+      "correct": "C",
+      "explanation": "Start with profit before tax 8,40,000, add back depreciation 1,20,000 and deduct the non-operating profit on sale of machinery 30,000 = 9,30,000. Working capital: less increase in receivables 75,000, add decrease in inventories 40,000, add increase in payables 25,000 = 9,20,000. Less income tax paid 2,10,000 gives ₹7,10,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c02-q004",
+      "chapter": 2,
+      "topic": "Presentation and Disclosures Based Accounting Standards",
+      "question_text": "Case: Pragati Tools Ltd (not a financial enterprise) had the following cash flows during the year: purchase of machinery ₹5,00,000; sale proceeds of long-term investments ₹1,80,000 (carrying amount ₹1,50,000); interest received on investments ₹40,000; dividend received ₹25,000. Net cash flow from investing activities under AS 3 is:",
+      "options": {
+        "A": "Outflow of ₹2,55,000",
+        "B": "Outflow of ₹2,85,000",
+        "C": "Outflow of ₹2,95,000",
+        "D": "Outflow of ₹3,20,000"
+      },
+      "correct": "A",
+      "explanation": "For a non-financial enterprise, interest and dividends received are classified as investing activities under AS 3. Investing cash flow = -5,00,000 + 1,80,000 + 40,000 + 25,000 = -2,55,000. The full sale proceeds (not the carrying amount) are the cash inflow.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c02-q005",
+      "chapter": 2,
+      "topic": "Presentation and Disclosures Based Accounting Standards",
+      "question_text": "Case: Tejas Industries Ltd has five business segments, all revenue being from external customers:\nSegment P: revenue ₹4,20,000; result profit ₹80,000; segment assets ₹5,00,000\nSegment Q: revenue ₹3,10,000; result profit ₹60,000; segment assets ₹3,00,000\nSegment R: revenue ₹90,000; result loss ₹40,000; segment assets ₹80,000\nSegment S: revenue ₹70,000; result profit ₹6,000; segment assets ₹60,000\nSegment T: revenue ₹60,000; result profit ₹4,000; segment assets ₹1,10,000\nApplying the 10% thresholds of AS 17, which segments are reportable?",
+      "options": {
+        "A": "P, Q, R and T",
+        "B": "P and Q only",
+        "C": "P, Q and R only",
+        "D": "P, Q, R, S and T"
+      },
+      "correct": "A",
+      "explanation": "Total revenue is 9,50,000, so the revenue threshold is 95,000: only P and Q pass. For results, the greater of total profits (1,50,000) and total losses (40,000) is 1,50,000, so the threshold is 15,000; R's loss of 40,000 qualifies. Total assets are 10,50,000, so the threshold is 1,05,000; T's assets of 1,10,000 qualify. S fails all three tests. The reportable segments P, Q, R and T cover 92.6% of external revenue, which exceeds 75%, so no further segment needs to be added.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-aa-c02-q006",
+      "chapter": 2,
+      "topic": "Presentation and Disclosures Based Accounting Standards",
+      "question_text": "Which of the following parties would NOT, by itself, be treated as a related party of Ashoka Plastics Ltd under AS 18?",
+      "options": {
+        "A": "An associate of Ashoka Plastics Ltd",
+        "B": "A single major customer on whom the company is economically dependent",
+        "C": "The managing director of Ashoka Plastics Ltd",
+        "D": "A company that holds 60% of the voting power of Ashoka Plastics Ltd"
+      },
+      "correct": "B",
+      "explanation": "AS 18 specifically states that a single customer, supplier, franchisor, distributor or general agent with whom an enterprise transacts a significant volume of business is not a related party merely because of the resulting economic dependence. A holding company, an associate and key management personnel such as the managing director are related parties.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-aa-c02-q007",
+      "chapter": 2,
+      "topic": "Presentation and Disclosures Based Accounting Standards",
+      "question_text": "Case: Shivalik Foods Ltd earned a profit after tax of ₹30,00,000 for the year ended 31 March 20X2. Dividend on its cumulative preference shares for the year is ₹3,00,000. It had 5,00,000 equity shares outstanding on 1 April 20X1 and issued 2,00,000 further equity shares for cash at full market price on 1 October 20X1. Basic EPS under AS 20 is:",
+      "options": {
+        "A": "₹5.40",
+        "B": "₹5.00",
+        "C": "₹3.86",
+        "D": "₹4.50"
+      },
+      "correct": "D",
+      "explanation": "Earnings for equity shareholders = 30,00,000 - 3,00,000 = 27,00,000; preference dividend on cumulative shares is deducted whether or not declared. Weighted shares = 5,00,000 + 2,00,000 x 6/12 = 6,00,000. Basic EPS = 27,00,000 / 6,00,000 = ₹4.50.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c02-q008",
+      "chapter": 2,
+      "topic": "Presentation and Disclosures Based Accounting Standards",
+      "question_text": "Case: Aravali Steels Ltd reported earnings of ₹15,00,000 for the year ended 31 March 20X1 on 4,00,000 equity shares. On 1 January 20X2 it made a bonus issue of 1 share for every 4 held. When presenting comparatives in the financial statements for the year ended 31 March 20X2, the restated basic EPS for 20X0-X1 is:",
+      "options": {
+        "A": "₹3.53",
+        "B": "₹4.69",
+        "C": "₹3.75",
+        "D": "₹3.00"
+      },
+      "correct": "D",
+      "explanation": "A bonus issue changes the number of shares without any change in resources, so under AS 20 it is treated as if it occurred at the beginning of the earliest period presented. Adjusted shares = 4,00,000 x 5/4 = 5,00,000. Restated EPS = 15,00,000 / 5,00,000 = ₹3.00. No time-weighting is applied to bonus shares.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c02-q009",
+      "chapter": 2,
+      "topic": "Presentation and Disclosures Based Accounting Standards",
+      "question_text": "Case: Kalinga Cement Ltd had 8,00,000 equity shares outstanding on 1 April. On 1 July it made a rights issue of 1 share for every 4 held at ₹60 per share; the fair value of a share immediately before the exercise of rights was ₹100. Profit for the year ended 31 March is ₹45,00,000. Basic EPS for the year under AS 20 (rounded to two decimals) is:",
+      "options": {
+        "A": "₹4.74",
+        "B": "₹5.62",
+        "C": "₹4.65",
+        "D": "₹4.50"
+      },
+      "correct": "C",
+      "explanation": "Theoretical ex-rights fair value = (4 x 100 + 1 x 60) / 5 = ₹92.00. Adjustment factor = 100 / 92.00 = 1.0870. Weighted shares = 8,00,000 x 1.0870 x 3/12 + 10,00,000 x 9/12 = 9,67,391 (approximately). EPS = 45,00,000 / 9,67,391 = ₹4.65.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-aa-c02-q010",
+      "chapter": 2,
+      "topic": "Presentation and Disclosures Based Accounting Standards",
+      "question_text": "Under AS 24, Discontinuing Operations, the 'initial disclosure event' is the occurrence of which of the following, whichever is earlier?",
+      "options": {
+        "A": "Commencement of physical dismantling of the operation, or the final cessation of its revenue",
+        "B": "Receipt of the first sale instalment, or the end of the reporting period in which the plan was conceived",
+        "C": "The board first discussing the idea of discontinuance, or the auditor qualifying the report",
+        "D": "Entering into a binding sale agreement for substantially all the assets of the operation, or the board approving a detailed formal plan and announcing it"
+      },
+      "correct": "D",
+      "explanation": "AS 24 defines the initial disclosure event as the earlier of (a) the enterprise entering into a binding sale agreement for substantially all the assets attributable to the discontinuing operation, and (b) the board of directors (or similar body) both approving a detailed, formal plan for the discontinuance and making an announcement of the plan. Informal discussions or later physical events do not trigger the disclosures.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c02-q011",
+      "chapter": 2,
+      "topic": "Presentation and Disclosures Based Accounting Standards",
+      "question_text": "Case: Ganga Retail Ltd prepares quarterly interim financial reports under AS 25. It expects to earn ₹40,00,000 for the year, evenly at ₹10,00,000 per quarter. Tax is levied at 20% on the first ₹10,00,000 of annual income and 30% on the balance. The income tax expense to be recognised in the first quarter is:",
+      "options": {
+        "A": "₹2,75,000",
+        "B": "₹2,50,000",
+        "C": "₹2,00,000",
+        "D": "₹3,00,000"
+      },
+      "correct": "A",
+      "explanation": "AS 25 requires interim income tax to be measured using the weighted average annual effective tax rate expected for the full year. Expected annual tax = 10,00,000 x 20% + 30,00,000 x 30% = 11,00,000; effective rate = 11,00,000 / 40,00,000 = 27.5%. Q1 tax = 10,00,000 x 27.5% = ₹2,75,000. Applying the 20% slab to Q1 alone would understate tax because annual income will cross into the 30% slab.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-aa-c02-q012",
+      "chapter": 2,
+      "topic": "Presentation and Disclosures Based Accounting Standards",
+      "question_text": "Case: Neel Cosmetics Ltd incurs a large advertising campaign cost in the first quarter, although the benefits are expected through the year. In its interim financial report prepared under AS 25, the cost should be:",
+      "options": {
+        "A": "Recognised as an expense in the first quarter when incurred, since deferral would not be appropriate at the financial year end",
+        "B": "Spread equally over the four quarters",
+        "C": "Shown as an asset in the interim balance sheet until year end",
+        "D": "Deferred and recognised in the quarter in which the related sales peak"
+      },
+      "correct": "A",
+      "explanation": "AS 25 requires costs incurred unevenly during the year to be anticipated or deferred for interim reporting only if it would be appropriate to anticipate or defer that type of cost at the end of the financial year. Advertising costs cannot be deferred at year end, so they are expensed in the interim period in which they are incurred.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c03-q001",
+      "chapter": 3,
+      "topic": "Assets Based Accounting Standards",
+      "question_text": "Case: Udaya Castings Ltd has a normal capacity of 50,000 units. During the year it produced 40,000 units. Direct material and labour cost ₹20 per unit, variable production overhead is ₹4 per unit and fixed production overhead is ₹6,00,000. Under AS 2, the cost per unit for valuing closing inventory is:",
+      "options": {
+        "A": "₹36",
+        "B": "₹39",
+        "C": "₹24",
+        "D": "₹32"
+      },
+      "correct": "A",
+      "explanation": "AS 2 requires fixed production overheads to be allocated on the basis of normal capacity: 6,00,000 / 50,000 = ₹12 per unit. Cost per unit = 20 + 4 + 12 = ₹36. The unallocated overhead of 10,000 x 12 = ₹1,20,000 is expensed in the period. Allocating on actual production (₹15 per unit) would overstate inventory.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c03-q002",
+      "chapter": 3,
+      "topic": "Assets Based Accounting Standards",
+      "question_text": "Case: Raw material held by Sagar Chemicals Ltd cost ₹200 per kg; its current replacement cost is ₹170 per kg. The finished product made from it costs ₹500 per unit to produce, but due to a fall in demand its net realisable value is ₹480 per unit. Under AS 2, the raw material should be valued at:",
+      "options": {
+        "A": "₹480 per unit of finished product equivalent",
+        "B": "₹185 per kg",
+        "C": "₹200 per kg",
+        "D": "₹170 per kg"
+      },
+      "correct": "D",
+      "explanation": "AS 2 does not permit raw materials to be written down below cost if the finished products in which they will be incorporated are expected to be sold at or above cost. Here the finished product's NRV (₹480) is below its cost (₹500), so the material must be written down, and replacement cost (₹170) may be the best available measure of its NRV.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c03-q003",
+      "chapter": 3,
+      "topic": "Assets Based Accounting Standards",
+      "question_text": "Which of the following costs is included in the cost of inventories under AS 2?",
+      "options": {
+        "A": "Selling and distribution costs",
+        "B": "Freight inward incurred to bring raw materials to the factory",
+        "C": "Abnormal amounts of wasted materials",
+        "D": "Storage costs of finished goods awaiting dispatch"
+      },
+      "correct": "B",
+      "explanation": "Cost of purchase includes freight inward and other costs directly attributable to bringing materials to their present location and condition. AS 2 specifically excludes abnormal wastage, selling costs, and storage costs (unless storage is necessary in the production process before a further stage).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-aa-c03-q004",
+      "chapter": 3,
+      "topic": "Assets Based Accounting Standards",
+      "question_text": "Case: Indus Polymers Ltd purchased a machine with a list price of ₹12,00,000, on which a 5% trade discount was allowed. GST of ₹2,05,200 was paid, for which full input tax credit is available. Other costs: freight ₹30,000; installation ₹45,000; testing ₹20,000, with net proceeds of ₹8,000 from samples produced during testing; general administration overheads ₹15,000; initial operating losses before the machine reached planned output ₹25,000. The cost of the machine under AS 10 is:",
+      "options": {
+        "A": "₹14,32,200",
+        "B": "₹12,35,000",
+        "C": "₹12,27,000",
+        "D": "₹12,67,000"
+      },
+      "correct": "C",
+      "explanation": "Purchase price net of trade discount = 12,00,000 x 95% = 11,40,000. Add freight 30,000, installation 45,000 and testing 20,000 less sample proceeds 8,000: cost = ₹12,27,000. Recoverable GST, general administration overheads and initial operating losses are not part of the cost of an item of PPE under AS 10.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-aa-c03-q005",
+      "chapter": 3,
+      "topic": "Assets Based Accounting Standards",
+      "question_text": "Case: A machine costing ₹10,00,000 was being depreciated on the straight-line method over 10 years with nil residual value. At the start of year 5, management reassesses the remaining useful life as 4 years (instead of 6). The depreciation for year 5 under AS 10 is:",
+      "options": {
+        "A": "₹1,50,000",
+        "B": "₹1,00,000",
+        "C": "₹1,25,000",
+        "D": "₹2,50,000"
+      },
+      "correct": "A",
+      "explanation": "A revision of useful life is a change in accounting estimate and is applied prospectively. Carrying amount at the start of year 5 = 10,00,000 - (4 x 1,00,000) = 6,00,000. Depreciation for year 5 = 6,00,000 / 4 = ₹1,50,000. Charging 2,50,000 would wrongly include a catch-up for earlier years.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-aa-c03-q006",
+      "chapter": 3,
+      "topic": "Assets Based Accounting Standards",
+      "question_text": "Case: Land purchased by Konark Hotels Ltd for ₹20,00,000 was revalued to ₹17,00,000 in year 1, the decrease being charged to the statement of profit and loss. In year 3 it is revalued to ₹23,00,000. Under AS 10, the amount credited to revaluation surplus in year 3 is:",
+      "options": {
+        "A": "₹6,00,000",
+        "B": "₹4,50,000",
+        "C": "₹3,00,000",
+        "D": "₹0"
+      },
+      "correct": "C",
+      "explanation": "The year 3 increase is 23,00,000 - 17,00,000 = 6,00,000. AS 10 requires a revaluation increase to be recognised in profit or loss to the extent it reverses a decrease of the same asset previously recognised in profit or loss (3,00,000). The balance 6,00,000 - 3,00,000 = ₹3,00,000 is credited to revaluation surplus.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c03-q007",
+      "chapter": 3,
+      "topic": "Assets Based Accounting Standards",
+      "question_text": "Case: Harit Agro Ltd holds equity shares acquired as a long-term investment at a cost of ₹5,00,000. At the balance sheet date their market value is ₹4,20,000. Management has assessed that the fall is temporary and caused by general market volatility. Under AS 13, the investment should be carried at:",
+      "options": {
+        "A": "₹5,00,000",
+        "B": "₹4,20,000",
+        "C": "₹4,60,000",
+        "D": "₹4,20,000, with the ₹80,000 loss taken to reserves"
+      },
+      "correct": "A",
+      "explanation": "Long-term investments are carried at cost under AS 13, with a provision made only for a decline in value that is other than temporary. Since the decline here is temporary, the investment remains at its cost of ₹5,00,000. Lower of cost and fair value applies to current investments, not long-term ones.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c03-q008",
+      "chapter": 3,
+      "topic": "Assets Based Accounting Standards",
+      "question_text": "Case: Current investments of Bharat Ceramics Ltd costing ₹3,00,000 are reclassified as long-term investments when their fair value is ₹2,60,000. Under AS 13, the transfer is made at:",
+      "options": {
+        "A": "₹2,60,000",
+        "B": "₹3,00,000 with a provision of ₹40,000 shown separately",
+        "C": "₹3,00,000",
+        "D": "₹2,80,000"
+      },
+      "correct": "A",
+      "explanation": "AS 13 requires investments reclassified from current to long-term to be transferred at the lower of cost and fair value on the date of transfer. Lower of 3,00,000 and 2,60,000 is ₹2,60,000. (For long-term to current, the transfer is at the lower of cost and carrying amount.)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c03-q009",
+      "chapter": 3,
+      "topic": "Assets Based Accounting Standards",
+      "question_text": "Case: On 1 June, Sindhu Finance Ltd purchased 5,000 12% debentures of ₹100 each at ₹104 cum-interest. Interest is payable on 31 March and 30 September. Under AS 13, the cost of the investment is:",
+      "options": {
+        "A": "₹5,20,000",
+        "B": "₹5,30,000",
+        "C": "₹5,10,000",
+        "D": "₹5,00,000"
+      },
+      "correct": "C",
+      "explanation": "Total paid = 5,000 x 104 = 5,20,000. This includes interest accrued from 1 April to 1 June (2 months) = 5,00,000 x 12% x 2/12 = 10,000, which is pre-acquisition interest and is excluded from cost. Cost of investment = 5,20,000 - 10,000 = ₹5,10,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c03-q010",
+      "chapter": 3,
+      "topic": "Assets Based Accounting Standards",
+      "question_text": "Case: On 1 April, Deccan Infra Ltd borrowed ₹50,00,000 at 10% p.a. specifically to construct a qualifying asset, which was completed on 31 March of the following year. Pending use, ₹20,00,000 of the loan was invested for 6 months at 7% p.a. Borrowing cost to be capitalised under AS 16 is:",
+      "options": {
+        "A": "₹4,30,000",
+        "B": "₹5,00,000",
+        "C": "₹5,70,000",
+        "D": "₹3,60,000"
+      },
+      "correct": "A",
+      "explanation": "Borrowing cost on the specific loan = 50,00,000 x 10% = 5,00,000. AS 16 requires investment income on the temporary investment of the borrowed funds to be deducted: 20,00,000 x 7% x 6/12 = 70,000. Amount capitalised = 5,00,000 - 70,000 = ₹4,30,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c03-q011",
+      "chapter": 3,
+      "topic": "Assets Based Accounting Standards",
+      "question_text": "Case: Mahanadi Power Ltd has no specific borrowings. Its general borrowings outstanding throughout the year are ₹40,00,000 at 9% and ₹60,00,000 at 12%. It spent ₹30,00,000 on a qualifying asset on 1 April and ₹20,00,000 on 1 October; the asset is still under construction at 31 March. Borrowing cost to be capitalised under AS 16 is:",
+      "options": {
+        "A": "₹10,80,000",
+        "B": "₹4,20,000",
+        "C": "₹4,32,000",
+        "D": "₹5,40,000"
+      },
+      "correct": "C",
+      "explanation": "Capitalisation rate = weighted average cost of general borrowings = (3,60,000 + 7,20,000) / 1,00,00,000 = 10.8%. Expenditure weighted for time: 30,00,000 x 10.8% x 12/12 = 3,24,000; 20,00,000 x 10.8% x 6/12 = 1,08,000. Amount capitalised = ₹4,32,000. A simple average rate of 10.5% would be incorrect because the borrowings are of different amounts.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-aa-c03-q012",
+      "chapter": 3,
+      "topic": "Assets Based Accounting Standards",
+      "question_text": "Under AS 19, Leases, which of the following situations would normally lead to classification of a lease as a finance lease?",
+      "options": {
+        "A": "The lessee can cancel the lease at any time without penalty",
+        "B": "The lessor retains the obligation to repair and insure the asset and bears obsolescence risk",
+        "C": "The lease term covers the major part of the economic life of the asset even if title is not transferred",
+        "D": "Lease rentals are payable monthly rather than annually"
+      },
+      "correct": "C",
+      "explanation": "AS 19 classifies a lease as a finance lease if it transfers substantially all the risks and rewards incident to ownership; one indicator is that the lease term is for the major part of the economic life of the asset. Payment frequency is irrelevant, and a cancellable lease or one where the lessor bears repairs and obsolescence risk points towards an operating lease.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-aa-c03-q013",
+      "chapter": 3,
+      "topic": "Assets Based Accounting Standards",
+      "question_text": "Case: Under a finance lease, the fair value of a machine taken by Ruchi Packaging Ltd is ₹5,00,000 and the present value of minimum lease payments, discounted at the interest rate implicit in the lease, is ₹4,85,000. At the inception of the lease, the lessee should recognise the asset and liability at:",
+      "options": {
+        "A": "₹4,85,000",
+        "B": "₹5,00,000 for the asset and ₹4,85,000 for the liability",
+        "C": "₹5,00,000",
+        "D": "₹4,92,500"
+      },
+      "correct": "A",
+      "explanation": "AS 19 requires the lessee to recognise a finance lease as an asset and a liability at the lower of the fair value of the leased asset and the present value of the minimum lease payments at the inception of the lease. Lower of 5,00,000 and 4,85,000 is ₹4,85,000, and the asset and liability are recorded at the same amount.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-aa-c03-q014",
+      "chapter": 3,
+      "topic": "Assets Based Accounting Standards",
+      "question_text": "Case: Prism Biotech Ltd incurred the following on a new vaccine project during the year: research phase ₹4,00,000; development phase before the AS 26 recognition criteria were met ₹2,00,000; development phase after all recognition criteria were demonstrated ₹6,00,000. The amount to be recognised as an intangible asset is:",
+      "options": {
+        "A": "₹8,00,000",
+        "B": "₹6,00,000",
+        "C": "₹0",
+        "D": "₹12,00,000"
+      },
+      "correct": "B",
+      "explanation": "AS 26 requires all research expenditure to be expensed. Development expenditure is capitalised only from the date all the recognition criteria (technical feasibility, intention and ability to complete, future benefits, adequate resources, reliable measurement) are met. Expenditure already expensed (here ₹2,00,000) cannot be reinstated as part of the asset later. Hence only ₹6,00,000 is capitalised.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c03-q015",
+      "chapter": 3,
+      "topic": "Assets Based Accounting Standards",
+      "question_text": "Case: A cash-generating unit of Neela Glass Ltd has a carrying amount of ₹12,00,000. Its net selling price is ₹9,50,000. It is expected to generate net cash inflows of ₹4,00,000 at the end of each of the next 3 years; the appropriate discount rate is 10%. Under AS 28, the impairment loss (rounded to the nearest rupee) is:",
+      "options": {
+        "A": "₹2,50,000",
+        "B": "Nil, since undiscounted cash flows equal the carrying amount",
+        "C": "₹2,05,259",
+        "D": "₹1,09,091"
+      },
+      "correct": "C",
+      "explanation": "Value in use = 4,00,000 x (1/1.1 + 1/1.1^2 + 1/1.1^3) = 4,00,000 x 2.4869 = ₹9,94,741 (rounded). Recoverable amount is the higher of net selling price (9,50,000) and value in use (9,94,741) = 9,94,741. Impairment loss = 12,00,000 - 9,94,741 = ₹2,05,259. Using net selling price alone overstates the loss, and AS 28 requires discounted, not undiscounted, cash flows.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-aa-c03-q016",
+      "chapter": 3,
+      "topic": "Assets Based Accounting Standards",
+      "question_text": "Case: An asset of Tapti Motors Ltd cost ₹10,00,000 with a 10-year life and nil residual value (straight-line). At the end of year 2 it was written down to its recoverable amount of ₹6,40,000, with depreciation thereafter over the remaining 8 years. At the end of year 4, its recoverable amount is estimated at ₹7,00,000. The reversal of impairment loss to be recognised under AS 28 is:",
+      "options": {
+        "A": "₹1,20,000",
+        "B": "₹1,60,000",
+        "C": "₹2,20,000",
+        "D": "₹0"
+      },
+      "correct": "A",
+      "explanation": "Carrying amount at end of year 4 = 6,40,000 - 2 x 80,000 = 4,80,000. Had no impairment been recognised, the carrying amount would be 10,00,000 - 4 x 1,00,000 = 6,00,000. AS 28 limits the increased carrying amount to this figure, so reversal = 6,00,000 - 4,80,000 = ₹1,20,000, even though recoverable amount is 7,00,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-aa-c04-q001",
+      "chapter": 4,
+      "topic": "Liabilities Based Accounting Standards",
+      "question_text": "Case: Employees of Suryoday Logistics Ltd are entitled to 12 days of paid leave a year; unused leave can be carried forward for one year only and leave taken is first drawn from the current year's entitlement. At 31 March, each of its 100 employees has on average 2 unused days. Based on past experience, 85 employees are expected to take not more than 12 days next year and the remaining 15 employees will take 13.5 days each. Daily pay is ₹1,500. The liability for accumulating compensated absences under AS 15 is:",
+      "options": {
+        "A": "₹33,750",
+        "B": "₹2,55,000",
+        "C": "₹45,000",
+        "D": "₹3,00,000"
+      },
+      "correct": "A",
+      "explanation": "The liability is measured as the additional amount expected to be paid as a result of the unused entitlement accumulated at the balance sheet date. Since leave is drawn first from the current year's 12 days, the 85 employees taking 12 days or less will not use any carried-forward days. The other 15 employees will each take 13.5 - 12 = 1.5 days out of their 2 carried-forward days. Liability = 15 x 1.5 days x ₹1,500 = ₹33,750. Using all 2 unused days for these 15 employees (₹45,000) or for all employees (₹3,00,000) overstates the expected payment.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-aa-c04-q002",
+      "chapter": 4,
+      "topic": "Liabilities Based Accounting Standards",
+      "question_text": "Under AS 15, the expense recognised by an enterprise for a defined contribution plan for a period is:",
+      "options": {
+        "A": "The contribution payable to the plan in exchange for the service rendered by employees during that period",
+        "B": "The benefits paid to retiring employees during the period",
+        "C": "The actuarially determined present value of the obligation at the end of the period",
+        "D": "The amount actually paid to the fund during the period, irrespective of the period of service"
+      },
+      "correct": "A",
+      "explanation": "In a defined contribution plan, the enterprise's obligation is limited to the amount it agrees to contribute, so no actuarial assumptions are needed. AS 15 requires the contribution payable for service rendered during the period to be expensed, with any unpaid amount recognised as a liability (accrued expense) and any excess paid as an asset (prepaid expense).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-aa-c04-q003",
+      "chapter": 4,
+      "topic": "Liabilities Based Accounting Standards",
+      "question_text": "Case: The actuarial valuation of the gratuity plan of Pushpak Engineering Ltd, which follows AS 15, shows an actuarial loss of ₹3,20,000 for the year. How should this loss be recognised?",
+      "options": {
+        "A": "Immediately in the statement of profit and loss as income or expense",
+        "B": "Directly debited to general reserve without passing through profit and loss",
+        "C": "In other comprehensive income and accumulated in reserves",
+        "D": "Deferred and amortised over the expected average remaining working lives of employees"
+      },
+      "correct": "A",
+      "explanation": "AS 15 (Revised) requires actuarial gains and losses on defined benefit plans to be recognised immediately in the statement of profit and loss. The OCI route is a feature of Ind AS 19, and AS 15 does not permit deferral (corridor approach) or direct adjustment to reserves.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c04-q004",
+      "chapter": 4,
+      "topic": "Liabilities Based Accounting Standards",
+      "question_text": "Case: For the defined benefit plan of Lotus Pharma Ltd: opening present value of obligation ₹20,00,000; current service cost ₹2,50,000; interest cost at 8% on the opening obligation; benefits paid at year end ₹1,20,000; closing present value of obligation as per actuary ₹24,00,000. The actuarial loss on the obligation for the year is:",
+      "options": {
+        "A": "₹3,50,000",
+        "B": "₹4,00,000",
+        "C": "₹1,10,000",
+        "D": "₹2,70,000"
+      },
+      "correct": "C",
+      "explanation": "Expected closing obligation = Opening 20,00,000 + Current service cost 2,50,000 + Interest cost (20,00,000 x 8% = 1,60,000) - Benefits paid 1,20,000 = 22,90,000. Actual closing obligation is 24,00,000, so actuarial loss = 24,00,000 - 22,90,000 = ₹1,10,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c04-q005",
+      "chapter": 4,
+      "topic": "Liabilities Based Accounting Standards",
+      "question_text": "Case: Vayu Appliances Ltd sells products with a one-year warranty. If all products sold during the year had minor defects, repair costs would be ₹5,00,000; if all had major defects, costs would be ₹20,00,000. Past experience shows 70% of goods have no defects, 20% minor defects and 10% major defects. The warranty provision under AS 29 is:",
+      "options": {
+        "A": "₹2,00,000",
+        "B": "₹25,00,000",
+        "C": "₹5,00,000",
+        "D": "₹3,00,000"
+      },
+      "correct": "D",
+      "explanation": "For a large population of items, the best estimate of the obligation is the expected value obtained by weighting outcomes by their probabilities. Provision = 70% x 0 + 20% x 5,00,000 + 10% x 20,00,000 = 1,00,000 + 2,00,000 = ₹3,00,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c04-q006",
+      "chapter": 4,
+      "topic": "Liabilities Based Accounting Standards",
+      "question_text": "Case: Meera Exports Ltd has filed a claim for damages against a supplier. Legal counsel believes it is probable, but not virtually certain, that the company will receive ₹12,00,000. Under AS 29, the company should:",
+      "options": {
+        "A": "Not recognise the asset and not disclose it in the financial statements; it may be disclosed in the report of the approving authority",
+        "B": "Recognise the receivable but defer the income until it is received",
+        "C": "Recognise ₹12,00,000 as income and a receivable",
+        "D": "Recognise the receivable at an amount discounted for the probability of success"
+      },
+      "correct": "A",
+      "explanation": "A probable (but not virtually certain) inflow from a pending claim is a contingent asset. AS 29 prohibits recognition of contingent assets, and a contingent asset is not disclosed in the financial statements; where an inflow of economic benefits is probable, it is usually disclosed in the report of the approving authority (the Board of Directors' report, in the case of a company). The asset and related income are recognised only when the inflow becomes virtually certain.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c04-q007",
+      "chapter": 4,
+      "topic": "Liabilities Based Accounting Standards",
+      "question_text": "Case: Saffron Hotels Ltd has recognised a provision of ₹8,00,000 for damages payable to a guest. Its insurer has confirmed in writing, making it virtually certain, that ₹5,00,000 will be reimbursed. How is this presented under AS 29?",
+      "options": {
+        "A": "A provision of ₹8,00,000 and a separate asset of ₹5,00,000 in the balance sheet; the expense may be shown net at ₹3,00,000",
+        "B": "A provision of ₹8,00,000; the reimbursement is disclosed as a contingent asset",
+        "C": "A provision of ₹8,00,000 and an asset of ₹5,00,000, with netting of the expense prohibited",
+        "D": "A provision of ₹3,00,000 only in the balance sheet"
+      },
+      "correct": "A",
+      "explanation": "Under AS 29, a reimbursement that is virtually certain is recognised as a separate asset, not netted against the provision, and the amount recognised cannot exceed the provision. In the statement of profit and loss, the expense relating to the provision may be presented net of the reimbursement recognised (8,00,000 - 5,00,000 = 3,00,000).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c04-q008",
+      "chapter": 4,
+      "topic": "Liabilities Based Accounting Standards",
+      "question_text": "Case: Kesari Transport Ltd expects its newly opened route to incur operating losses of ₹15,00,000 over the next two years. Under AS 29, the company should:",
+      "options": {
+        "A": "Recognise a provision at the present value of the expected losses",
+        "B": "Not recognise any provision for the future operating losses",
+        "C": "Recognise a provision for the first year's losses only",
+        "D": "Recognise a provision of ₹15,00,000 immediately"
+      },
+      "correct": "B",
+      "explanation": "AS 29 states that provisions should not be recognised for future operating losses, because they do not arise from a past event and there is no present obligation. The expectation of losses may, however, indicate that the related assets need to be tested for impairment under AS 28.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-aa-c05-q001",
+      "chapter": 5,
+      "topic": "Accounting Standards Based on Items Impacting Financial Statements",
+      "question_text": "Case: The financial statements of Godavari Fabrics Ltd for the year ended 31 March are approved by the board on 20 May. On 25 April, a major customer whose balance was outstanding at 31 March was declared insolvent; the customer's financial difficulties had existed since February. Under AS 4, this event is:",
+      "options": {
+        "A": "A prior period item to be adjusted in the next year's financial statements",
+        "B": "A non-adjusting event requiring neither adjustment nor disclosure",
+        "C": "An adjusting event, requiring a provision against the receivable as at 31 March",
+        "D": "A non-adjusting event requiring only disclosure"
+      },
+      "correct": "C",
+      "explanation": "Events after the balance sheet date that provide additional evidence of conditions existing at the balance sheet date are adjusting events under AS 4. The customer's insolvency confirms that the receivable was impaired at 31 March, so the amounts recognised must be adjusted. It is not a prior period item, since there was no error.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-aa-c05-q002",
+      "chapter": 5,
+      "topic": "Accounting Standards Based on Items Impacting Financial Statements",
+      "question_text": "Case: After the balance sheet date but before approval of the financial statements, the board of Chinar Woollens Ltd proposes an equity dividend of ₹2 per share for the year just ended. Under AS 4 (Revised), this dividend should be:",
+      "options": {
+        "A": "Disclosed in the notes and not recognised as a liability at the balance sheet date",
+        "B": "Shown as a contingent liability",
+        "C": "Recognised as a liability and deducted from the surplus in the statement of profit and loss",
+        "D": "Recognised as a provision under current liabilities"
+      },
+      "correct": "A",
+      "explanation": "Under AS 4 (Revised), dividends proposed or declared after the balance sheet date but before approval of the financial statements are not recognised as a liability at the balance sheet date because no obligation existed then. They are disclosed in the notes.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c05-q003",
+      "chapter": 5,
+      "topic": "Accounting Standards Based on Items Impacting Financial Statements",
+      "question_text": "Case: After the balance sheet date, the operating results and financial position of Lakshya Paper Mills Ltd deteriorate sharply and management concludes that it has no realistic alternative but to cease trading. Under AS 4, this development:",
+      "options": {
+        "A": "Has no effect because it occurred after the balance sheet date",
+        "B": "Is a non-adjusting event requiring disclosure only",
+        "C": "Must be accounted for in the next year's financial statements as an extraordinary item",
+        "D": "Requires a reconsideration of whether the going concern assumption is still appropriate for preparing the financial statements"
+      },
+      "correct": "D",
+      "explanation": "AS 4 states that events after the balance sheet date may indicate a need to adjust assets and liabilities where they indicate that the fundamental accounting assumption of going concern is no longer appropriate. If the going concern assumption is no longer appropriate, the effect is so pervasive that the basis of accounting itself needs to be reconsidered.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c05-q004",
+      "chapter": 5,
+      "topic": "Accounting Standards Based on Items Impacting Financial Statements",
+      "question_text": "Case: During the current year, Bhoomi Sugar Ltd signed a wage agreement with its workers' union revising wages with retrospective effect from two years ago, and paid arrears of ₹18,00,000. Under AS 5, the arrears are:",
+      "options": {
+        "A": "An adjustment to the opening balance of retained earnings",
+        "B": "An extraordinary item",
+        "C": "Not a prior period item; they are an expense of the current period, disclosed separately if material",
+        "D": "A prior period item to be shown separately in the current statement of profit and loss"
+      },
+      "correct": "C",
+      "explanation": "Prior period items arise from errors or omissions in preparing financial statements of earlier periods. AS 5 specifically notes that arrears payable to workers as a result of a retrospective wage revision are not prior period items, because the obligation arose only in the current period when the agreement was signed. The amount may be disclosed separately if its size or nature warrants it.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c05-q005",
+      "chapter": 5,
+      "topic": "Accounting Standards Based on Items Impacting Financial Statements",
+      "question_text": "Case: Ambika Plastics Ltd changes its method of depreciation on plant from the written-down value method to the straight-line method to better reflect the expected pattern of consumption of benefits. Under AS 10 read with AS 5, this change is treated as:",
+      "options": {
+        "A": "A change in accounting estimate, applied prospectively",
+        "B": "An extraordinary item",
+        "C": "A change in accounting policy, applied retrospectively with recalculation from the date of acquisition",
+        "D": "A prior period item"
+      },
+      "correct": "A",
+      "explanation": "AS 10 (Revised) requires the depreciation method to be reviewed and, if the expected pattern of consumption has changed significantly, to be changed; such a change is accounted for as a change in accounting estimate in accordance with AS 5. It therefore affects the current and future periods only, with no retrospective recalculation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c05-q006",
+      "chapter": 5,
+      "topic": "Accounting Standards Based on Items Impacting Financial Statements",
+      "question_text": "Which of the following would normally be classified as an extraordinary item under AS 5?",
+      "options": {
+        "A": "Loss of a warehouse and its inventory due to an earthquake",
+        "B": "Settlement of a long-running tax dispute",
+        "C": "Write-down of inventory to net realisable value",
+        "D": "Loss on disposal of an old machine"
+      },
+      "correct": "A",
+      "explanation": "Extraordinary items are income or expenses arising from events clearly distinct from the ordinary activities of the enterprise and not expected to recur frequently or regularly. An earthquake loss meets this definition. Inventory write-downs, disposals of PPE and tax settlements arise in the ordinary course of business, though they may need separate disclosure if material.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-aa-c05-q007",
+      "chapter": 5,
+      "topic": "Accounting Standards Based on Items Impacting Financial Statements",
+      "question_text": "Case: Narmada Electronics Ltd imported goods on credit for USD 20,000 when the exchange rate was ₹82 per USD. At the balance sheet date the rate was ₹84, and the payable was settled in the next year at ₹83. The exchange difference to be recognised in the year of import under AS 11 is:",
+      "options": {
+        "A": "Nil, since the payable is still unsettled",
+        "B": "Loss of ₹20,000",
+        "C": "Gain of ₹20,000",
+        "D": "Loss of ₹40,000"
+      },
+      "correct": "D",
+      "explanation": "A foreign currency payable is a monetary item and must be reported at the closing rate under AS 11. Exchange loss = USD 20,000 x (84 - 82) = ₹40,000, recognised in that year's profit and loss. In the next year, settlement at ₹83 gives a gain of USD 20,000 x (84 - 83) = ₹20,000.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-aa-c05-q008",
+      "chapter": 5,
+      "topic": "Accounting Standards Based on Items Impacting Financial Statements",
+      "question_text": "Under AS 11, exchange differences arising on translation of the financial statements of a non-integral foreign operation should be:",
+      "options": {
+        "A": "Recognised immediately in the statement of profit and loss",
+        "B": "Adjusted against the carrying amount of fixed assets of the foreign operation",
+        "C": "Recognised in the statement of profit and loss over the remaining life of the operation",
+        "D": "Accumulated in a foreign currency translation reserve until the disposal of the net investment"
+      },
+      "correct": "D",
+      "explanation": "For a non-integral foreign operation, the resulting exchange differences have little or no direct effect on present and future cash flows of the reporting enterprise. AS 11 therefore requires them to be accumulated in a foreign currency translation reserve and recognised as income or expense only on disposal of the net investment.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c05-q009",
+      "chapter": 5,
+      "topic": "Accounting Standards Based on Items Impacting Financial Statements",
+      "question_text": "Case: On 1 February, Kamakhya Textiles Ltd entered into a 3-month forward contract to buy USD 50,000 to hedge an existing payable (not for trading or speculation). The spot rate was ₹82.00 and the forward rate ₹82.90. The financial year ends on 31 March. The premium on the forward contract to be recognised as expense for the year under AS 11 is:",
+      "options": {
+        "A": "₹30,000",
+        "B": "₹15,000",
+        "C": "₹45,000",
+        "D": "₹0"
+      },
+      "correct": "A",
+      "explanation": "Under AS 11, the premium or discount on a forward exchange contract not intended for trading or speculation is amortised as expense or income over the life of the contract. Total premium = USD 50,000 x (82.90 - 82.00) = 45,000. Amount for February and March = 45,000 x 2/3 = ₹30,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-aa-c05-q010",
+      "chapter": 5,
+      "topic": "Accounting Standards Based on Items Impacting Financial Statements",
+      "question_text": "Case: For the first year of operations of Sahyadri Agro Ltd, depreciation as per books is ₹4,00,000 and as per income tax law is ₹6,00,000. There are no other differences and the tax rate is 30%. Under AS 22, the company should recognise:",
+      "options": {
+        "A": "A deferred tax liability of ₹60,000",
+        "B": "No deferred tax, as depreciation is a permanent difference",
+        "C": "A deferred tax liability of ₹1,80,000",
+        "D": "A deferred tax asset of ₹60,000"
+      },
+      "correct": "A",
+      "explanation": "Higher tax depreciation reduces current taxable income, but the difference will reverse in later years when book depreciation exceeds tax depreciation. This is a timing difference giving rise to a deferred tax liability = (6,00,000 - 4,00,000) x 30% = ₹60,000.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-aa-c05-q011",
+      "chapter": 5,
+      "topic": "Accounting Standards Based on Items Impacting Financial Statements",
+      "question_text": "Case: Vindhya Cables Ltd has unabsorbed depreciation and carry-forward business losses under tax laws. Under AS 22, a deferred tax asset on these should be recognised:",
+      "options": {
+        "A": "Only to the extent there is reasonable certainty of future taxable income",
+        "B": "Always, since the losses are allowed to be carried forward",
+        "C": "Never, because AS 22 prohibits deferred tax assets on losses",
+        "D": "Only to the extent there is virtual certainty, supported by convincing evidence, that sufficient future taxable income will be available"
+      },
+      "correct": "D",
+      "explanation": "For timing differences generally, AS 22 requires reasonable certainty of future taxable income. However, where an enterprise has unabsorbed depreciation or carry-forward tax losses, deferred tax assets are recognised only to the extent there is virtual certainty supported by convincing evidence that sufficient future taxable income will be available.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c05-q012",
+      "chapter": 5,
+      "topic": "Accounting Standards Based on Items Impacting Financial Statements",
+      "question_text": "Case: Accounting profit of Mahi Chemicals Ltd for the year is ₹50,00,000. This is after charging penalties of ₹3,00,000 (never deductible for tax) and a provision for doubtful debts of ₹2,00,000 (deductible only when the debts are written off). Tax depreciation exceeds book depreciation by ₹6,00,000. Tax rate is 25%, and there is reasonable certainty of sufficient future taxable income to realise any deferred tax asset. Total tax expense in the statement of profit and loss under AS 22 is:",
+      "options": {
+        "A": "₹12,25,000",
+        "B": "₹13,75,000",
+        "C": "₹12,50,000",
+        "D": "₹13,25,000"
+      },
+      "correct": "D",
+      "explanation": "Taxable income = 50,00,000 + 3,00,000 + 2,00,000 - 6,00,000 = 49,00,000; current tax = 49,00,000 x 25% = 12,25,000. Penalties are a permanent difference, so no deferred tax arises on them. Excess tax depreciation gives a deferred tax liability of 6,00,000 x 25% = 1,50,000, and the provision for doubtful debts gives a deferred tax asset of 2,00,000 x 25% = 50,000 (recognised because reasonable certainty exists), so net deferred tax expense = 1,00,000. Total tax expense = 12,25,000 + 1,00,000 = ₹13,25,000, which equals (50,00,000 + 3,00,000) x 25%. Ignoring the deferred tax asset would give ₹13,75,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-aa-c06-q001",
+      "chapter": 6,
+      "topic": "Revenue Based Accounting Standards",
+      "question_text": "Case: Tungabhadra Builders Ltd has a fixed price contract for ₹1,20,00,000. Costs incurred to date are ₹42,00,000 and estimated costs to complete are ₹63,00,000. Stage of completion is measured by the proportion of costs incurred. The profit to be recognised to date under AS 7 is:",
+      "options": {
+        "A": "₹48,00,000",
+        "B": "₹10,00,000",
+        "C": "₹6,00,000",
+        "D": "₹15,00,000"
+      },
+      "correct": "C",
+      "explanation": "Total estimated cost = 42,00,000 + 63,00,000 = 1,05,00,000; stage of completion = 42,00,000/1,05,00,000 = 40%. Contract revenue recognised = 1,20,00,000 x 40% = 48,00,000. Profit = 48,00,000 - 42,00,000 = ₹6,00,000, which also equals total expected profit 15,00,000 x 40%.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c06-q002",
+      "chapter": 6,
+      "topic": "Revenue Based Accounting Standards",
+      "question_text": "Case: Kshitij Projects Ltd's fixed price contract has a price of ₹80,00,000. Costs to date are ₹30,00,000 and estimated costs to complete are ₹60,00,000. The loss to be recognised in the current year under AS 7 is:",
+      "options": {
+        "A": "₹3,33,333",
+        "B": "₹10,00,000",
+        "C": "₹6,66,667",
+        "D": "₹0"
+      },
+      "correct": "B",
+      "explanation": "Total expected cost = 30,00,000 + 60,00,000 = 90,00,000, which exceeds the contract price by 10,00,000. AS 7 requires an expected loss on a contract to be recognised as an expense immediately, irrespective of the stage of completion. Recognising only the proportionate loss (3,33,333) is incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c06-q003",
+      "chapter": 6,
+      "topic": "Revenue Based Accounting Standards",
+      "question_text": "Under AS 7, which of the following costs is included in contract costs?",
+      "options": {
+        "A": "General administration costs not specifically reimbursable under the contract",
+        "B": "Selling costs",
+        "C": "Depreciation of idle plant not used on any particular contract",
+        "D": "Depreciation of plant and equipment used on the contract"
+      },
+      "correct": "D",
+      "explanation": "Contract costs comprise costs directly related to the contract (including depreciation of plant used on the contract), costs attributable to contract activity in general that can be allocated, and costs specifically chargeable to the customer. AS 7 excludes selling costs, non-reimbursable general administration costs, and depreciation of idle plant not used on a particular contract.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-aa-c06-q004",
+      "chapter": 6,
+      "topic": "Revenue Based Accounting Standards",
+      "question_text": "Case: On a construction contract of Rajmahal Constructions Ltd, costs incurred to date are ₹42,00,000 and recognised profits to date are ₹6,00,000. Progress billings raised to date are ₹45,00,000, of which ₹3,90,000 is still unpaid by the customer. Under AS 7, the gross amount due from the customer for contract work is:",
+      "options": {
+        "A": "₹6,90,000",
+        "B": "₹48,00,000",
+        "C": "₹3,00,000",
+        "D": "₹90,000"
+      },
+      "correct": "C",
+      "explanation": "The gross amount due from customers = costs incurred plus recognised profits (less recognised losses) less progress billings = 42,00,000 + 6,00,000 - 45,00,000 = ₹3,00,000. The unpaid billing of 3,90,000 is a trade receivable and is not part of this computation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-aa-c06-q005",
+      "chapter": 6,
+      "topic": "Revenue Based Accounting Standards",
+      "question_text": "Case: At the buyer's request, Rangoli Furnishings Ltd has invoiced goods but agreed to hold them in its warehouse until the buyer's new showroom is ready. Title has passed, the buyer has accepted billing, the goods are identified and ready for delivery, and the buyer acknowledges the deferred delivery instructions. Under AS 9, revenue should be recognised:",
+      "options": {
+        "A": "Only when the cash is received",
+        "B": "Proportionately over the holding period",
+        "C": "When the buyer accepts title and billing, even though delivery is delayed",
+        "D": "Only when the goods are physically delivered"
+      },
+      "correct": "C",
+      "explanation": "Under AS 9, revenue from sale of goods is recognised when significant risks and rewards of ownership are transferred and no significant uncertainty exists regarding consideration. In a bill-and-hold sale where delivery is delayed at the buyer's request and the buyer takes title and accepts billing, revenue is recognised notwithstanding that physical delivery has not been completed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c06-q006",
+      "chapter": 6,
+      "topic": "Revenue Based Accounting Standards",
+      "question_text": "Case: Kanchan Holdings Ltd holds shares in an investee company. For the investee's year ended 31 March, its board recommended a dividend on 20 April, which was approved by shareholders on 15 June. Under AS 9 (read with AS 4), dividend income should be recognised in Kanchan Holdings' books:",
+      "options": {
+        "A": "Only when the dividend is actually received in cash",
+        "B": "In the next year, when its right to receive payment is established",
+        "C": "In the year ended 31 March, since the profits relate to that year",
+        "D": "On a time-proportion basis over the investee's financial year"
+      },
+      "correct": "B",
+      "explanation": "AS 9 requires dividends to be recognised when the owner's right to receive payment is established. That right did not exist at 31 March, so the dividend is recognised in the following year. Time-proportion basis applies to interest, and a cash basis is not appropriate once the right is established and collection is reasonably certain.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c06-q007",
+      "chapter": 6,
+      "topic": "Revenue Based Accounting Standards",
+      "question_text": "Case: The sales account of Panna Gems Ltd includes ₹2,40,000 for goods sent to customers on 'sale or return' basis at cost plus 20%. The customers have not yet communicated acceptance and the return period has not expired. Under AS 9, the value at which these goods should be included in closing inventory is:",
+      "options": {
+        "A": "₹40,000",
+        "B": "₹2,00,000",
+        "C": "₹2,40,000",
+        "D": "₹1,92,000"
+      },
+      "correct": "B",
+      "explanation": "Revenue on goods sent on approval is recognised only when the buyer accepts the goods or the time for rejection has elapsed. The 2,40,000 must be reversed from sales and the goods included in inventory at cost: 2,40,000 x 100/120 = ₹2,00,000. Deducting 20% of the selling price (1,92,000) wrongly treats the mark-up as a margin on sales.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c06-q008",
+      "chapter": 6,
+      "topic": "Revenue Based Accounting Standards",
+      "question_text": "Case: Revenue of ₹6,00,000 was correctly recognised by Mohan Spices Ltd on a sale in January. In March, the customer faced severe financial difficulties and collection became uncertain. Under AS 9, the company should:",
+      "options": {
+        "A": "Treat the sale as a prior period item",
+        "B": "Retain the revenue and make a separate provision for the uncertainty of collection",
+        "C": "Defer the revenue until cash is collected",
+        "D": "Reverse the revenue of ₹6,00,000"
+      },
+      "correct": "B",
+      "explanation": "AS 9 states that where an uncertainty about collectability arises subsequent to the time of sale, it is more appropriate to make a separate provision to reflect the uncertainty rather than to adjust the amount of revenue originally recorded. Revenue is postponed only when the uncertainty exists at the time of sale.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c07-q001",
+      "chapter": 7,
+      "topic": "Other Accounting Standards (AS 12 and AS 14)",
+      "question_text": "Case: Ujjwal Solar Ltd purchased a machine for ₹50,00,000 and received a government grant of ₹10,00,000 towards it. The machine has a useful life of 8 years with nil residual value (straight-line). If the company follows the method of deducting the grant from the cost of the asset under AS 12, the annual depreciation charge is:",
+      "options": {
+        "A": "₹1,25,000",
+        "B": "₹5,00,000",
+        "C": "₹7,50,000",
+        "D": "₹6,25,000"
+      },
+      "correct": "B",
+      "explanation": "Under the deduction method, the grant is deducted from the gross value of the asset: 50,00,000 - 10,00,000 = 40,00,000. Depreciation = 40,00,000 / 8 = ₹5,00,000 per year. The grant is thus recognised in profit and loss over the useful life through reduced depreciation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-aa-c07-q002",
+      "chapter": 7,
+      "topic": "Other Accounting Standards (AS 12 and AS 14)",
+      "question_text": "Case: A state government gives Prayag Foods Ltd a grant of ₹40,00,000 as its contribution towards the total investment in an industrial undertaking in a backward area. No repayment is expected and the grant is not related to any specific fixed asset. Under AS 12, the grant should be:",
+      "options": {
+        "A": "Deducted from the cost of the company's plant and machinery",
+        "B": "Shown as deferred income and recognised over five years",
+        "C": "Credited to the statement of profit and loss in the year of receipt",
+        "D": "Credited to capital reserve and treated as part of shareholders' funds"
+      },
+      "correct": "D",
+      "explanation": "AS 12 treats grants given with reference to the total investment in an undertaking or by way of contribution towards its total capital outlay (in the nature of promoters' contribution) as part of shareholders' funds, credited to capital reserve. They are not recognised as income because no repayment is expected and there are no conditions relating to specific costs.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c07-q003",
+      "chapter": 7,
+      "topic": "Other Accounting Standards (AS 12 and AS 14)",
+      "question_text": "Case: Tarang Textiles Ltd bought equipment for ₹60,00,000 and received a grant of ₹12,00,000, which was deducted from the cost. The equipment is depreciated on straight-line basis over 6 years with nil residual value. At the end of year 2, the full grant became refundable due to non-fulfilment of conditions, and was refunded. Under AS 12, depreciation for year 3 is:",
+      "options": {
+        "A": "₹10,00,000",
+        "B": "₹11,00,000",
+        "C": "₹8,00,000",
+        "D": "₹15,00,000"
+      },
+      "correct": "B",
+      "explanation": "Net cost = 60,00,000 - 12,00,000 = 48,00,000; depreciation 8,00,000 p.a.; book value after 2 years = 32,00,000. AS 12 requires the refund of a grant related to a specific asset to be recorded by increasing the book value of the asset: 32,00,000 + 12,00,000 = 44,00,000. Depreciation on the revised book value is provided prospectively over the residual life: 44,00,000 / 4 = ₹11,00,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-aa-c07-q004",
+      "chapter": 7,
+      "topic": "Other Accounting Standards (AS 12 and AS 14)",
+      "question_text": "Which of the following is NOT a condition for an amalgamation to be classified as an 'amalgamation in the nature of merger' under AS 14?",
+      "options": {
+        "A": "All the assets and liabilities of the transferor company become those of the transferee company",
+        "B": "Shareholders holding at least 75% of the equity shares of the transferor company become shareholders of the transferee company",
+        "C": "Consideration to equity shareholders of the transferor is discharged wholly by issue of equity shares in the transferee, except for cash paid for fractional shares",
+        "D": "The business of the transferor company is intended to be carried on by the transferee company"
+      },
+      "correct": "B",
+      "explanation": "AS 14 requires, among other conditions, that shareholders holding not less than 90% of the face value of the equity shares of the transferor company (other than shares already held by the transferee or its subsidiaries) become equity shareholders of the transferee company. A 75% threshold is not the AS 14 condition. The other options are genuine conditions for a merger.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-aa-c07-q005",
+      "chapter": 7,
+      "topic": "Other Accounting Standards (AS 12 and AS 14)",
+      "question_text": "Case: Indrayani Ltd acquires Sumitra Ltd in an amalgamation in the nature of purchase. The purchase consideration exceeds the fair value of net assets acquired by ₹9,00,000. Under AS 14, the resulting goodwill should normally be:",
+      "options": {
+        "A": "Retained in the balance sheet without amortisation and tested for impairment annually",
+        "B": "Amortised to income on a systematic basis over its useful life, which should not exceed five years unless a longer period is justified",
+        "C": "Amortised over a period not exceeding ten years without any justification required",
+        "D": "Written off immediately against reserves"
+      },
+      "correct": "B",
+      "explanation": "AS 14 requires goodwill arising on amalgamation to be amortised systematically over its useful life. It presumes that the period should not exceed five years unless a somewhat longer period can be justified. Non-amortisation with annual impairment testing is the Ind AS approach, not AS 14.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c07-q006",
+      "chapter": 7,
+      "topic": "Other Accounting Standards (AS 12 and AS 14)",
+      "question_text": "Case: In an amalgamation in the nature of merger accounted for under the pooling of interests method, the share capital issued by the transferee exceeds the share capital of the transferor company by ₹10,00,000. Under AS 14, this difference is:",
+      "options": {
+        "A": "Charged to the statement of profit and loss",
+        "B": "Recognised as goodwill",
+        "C": "Credited to capital reserve",
+        "D": "Adjusted against the reserves in the transferee's books"
+      },
+      "correct": "D",
+      "explanation": "Under the pooling of interests method, no goodwill or capital reserve arises. AS 14 requires the difference between the share capital issued (plus any additional consideration) and the share capital of the transferor to be adjusted in reserves. An excess of capital issued is therefore deducted from reserves.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c07-q007",
+      "chapter": 7,
+      "topic": "Other Accounting Standards (AS 12 and AS 14)",
+      "question_text": "Case: In an amalgamation in the nature of purchase, the transferor company had an Export Profit Reserve of ₹4,00,000 that must be preserved for some years under applicable law. Under AS 14, how is this dealt with in the transferee's books?",
+      "options": {
+        "A": "Credit Export Profit Reserve and debit Goodwill by ₹4,00,000",
+        "B": "Credit Export Profit Reserve and debit Amalgamation Adjustment Reserve by ₹4,00,000",
+        "C": "No entry is required because reserves of the transferor are not carried forward under the purchase method",
+        "D": "Credit Capital Reserve by ₹4,00,000"
+      },
+      "correct": "B",
+      "explanation": "Under the purchase method, the transferor's reserves are generally not carried forward, but statutory reserves must be preserved. AS 14 requires such statutory reserves to be recorded in the transferee's books by crediting the respective reserve and debiting the Amalgamation Adjustment Reserve. When the statutory requirement no longer applies, the entry is reversed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c07-q008",
+      "chapter": 7,
+      "topic": "Other Accounting Standards (AS 12 and AS 14)",
+      "question_text": "Under AS 14, which of the following is the appropriate accounting method for an amalgamation in the nature of merger?",
+      "options": {
+        "A": "Purchase method",
+        "B": "Proportionate consolidation method",
+        "C": "Equity method",
+        "D": "Pooling of interests method"
+      },
+      "correct": "D",
+      "explanation": "AS 14 requires an amalgamation in the nature of merger to be accounted for under the pooling of interests method, where assets, liabilities and reserves are recorded at their existing carrying amounts (after uniform accounting policies). The purchase method applies to amalgamations in the nature of purchase; proportionate consolidation and the equity method relate to AS 27 and AS 23.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-aa-c08-q001",
+      "chapter": 8,
+      "topic": "Accounting Standards for Consolidated Financial Statements",
+      "question_text": "Under AS 21, control of an enterprise exists when the parent:",
+      "options": {
+        "A": "Has significant influence over its financial and operating policies",
+        "B": "Owns 20% or more of the voting power",
+        "C": "Owns, directly or indirectly through subsidiaries, more than one-half of the voting power, or controls the composition of its board of directors",
+        "D": "Has joint control with another venturer under a contractual arrangement"
+      },
+      "correct": "C",
+      "explanation": "AS 21 defines control as ownership of more than one-half of the voting power of an enterprise (directly or through subsidiaries), or control of the composition of its board of directors (or governing body) so as to obtain economic benefits. 20% ownership with significant influence indicates an associate (AS 23), and joint control indicates a joint venture (AS 27).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-aa-c08-q002",
+      "chapter": 8,
+      "topic": "Accounting Standards for Consolidated Financial Statements",
+      "question_text": "Case: Hiranya Ltd acquired 80% of the equity shares of Sona Ltd for ₹13,00,000. On that date Sona Ltd had share capital of ₹10,00,000 and reserves of ₹4,00,000. Goodwill (cost of control) on consolidation under AS 21 is:",
+      "options": {
+        "A": "₹5,00,000",
+        "B": "-₹1,00,000",
+        "C": "₹1,80,000",
+        "D": "₹4,60,000"
+      },
+      "correct": "C",
+      "explanation": "Parent's share of equity at the date of acquisition = 80% x (10,00,000 + 4,00,000) = 11,20,000. Goodwill = cost of investment 13,00,000 - 11,20,000 = ₹1,80,000.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-aa-c08-q003",
+      "chapter": 8,
+      "topic": "Accounting Standards for Consolidated Financial Statements",
+      "question_text": "Case: Hiranya Ltd holds 80% of Sona Ltd. At the consolidated balance sheet date, Sona Ltd has share capital of ₹10,00,000 and total reserves of ₹7,00,000, of which ₹4,00,000 were pre-acquisition. Minority interest to be shown in the consolidated balance sheet under AS 21 is:",
+      "options": {
+        "A": "₹2,60,000",
+        "B": "₹2,00,000",
+        "C": "₹3,40,000",
+        "D": "₹2,80,000"
+      },
+      "correct": "C",
+      "explanation": "Minority interest is the minority's share of the subsidiary's net assets at the consolidated balance sheet date, including both pre- and post-acquisition reserves. MI = 20% x (10,00,000 + 7,00,000) = ₹3,40,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c08-q004",
+      "chapter": 8,
+      "topic": "Accounting Standards for Consolidated Financial Statements",
+      "question_text": "Case: Jaldhara Ltd (the parent) sells goods to its 80% subsidiary at cost plus 25%. At the year end the subsidiary holds such goods invoiced at ₹2,50,000. Under AS 21, the unrealised profit to be eliminated from consolidated inventory is:",
+      "options": {
+        "A": "₹40,000",
+        "B": "₹62,500",
+        "C": "₹20,000",
+        "D": "₹50,000"
+      },
+      "correct": "D",
+      "explanation": "Profit included in the inventory = 2,50,000 x 25/125 = ₹50,000. AS 21 requires unrealised profits resulting from intragroup transactions included in assets such as inventory to be eliminated in full, so the entire 50,000 is eliminated, not just the parent's 80% share (40,000). Taking 25% of the invoice value (62,500) applies the mark-up on the wrong base.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c08-q005",
+      "chapter": 8,
+      "topic": "Accounting Standards for Consolidated Financial Statements",
+      "question_text": "Case: Bhavya Ltd acquired 60% of Ketaki Ltd on 1 April for ₹9,00,000. In June, Ketaki Ltd paid a dividend of ₹1,00,000 entirely out of profits earned before 1 April. In Bhavya Ltd's books, the dividend received should be treated as:",
+      "options": {
+        "A": "Capital reserve of ₹60,000",
+        "B": "A reduction in the cost of investment, which becomes ₹8,00,000",
+        "C": "A reduction in the cost of investment, which becomes ₹8,40,000",
+        "D": "Dividend income of ₹60,000 in the statement of profit and loss"
+      },
+      "correct": "C",
+      "explanation": "Dividends received out of pre-acquisition profits are a return of part of the purchase price, not income. Bhavya's share = 60% x 1,00,000 = 60,000, credited to the investment account. Revised cost = 9,00,000 - 60,000 = ₹8,40,000. This also reduces the goodwill computed on consolidation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-aa-c08-q006",
+      "chapter": 8,
+      "topic": "Accounting Standards for Consolidated Financial Statements",
+      "question_text": "Under AS 21, when the financial statements of a subsidiary used in consolidation are drawn up to a reporting date different from that of the parent, the difference between the reporting dates should not be more than:",
+      "options": {
+        "A": "Nine months",
+        "B": "Twelve months",
+        "C": "Three months",
+        "D": "Six months"
+      },
+      "correct": "D",
+      "explanation": "AS 21 permits use of the subsidiary's financial statements drawn up to a different reporting date provided the difference is not more than six months, with adjustments for the effects of significant transactions or events occurring between the two dates. (Under Ind AS 110 the corresponding limit is three months, a common source of confusion.)",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-aa-c08-q007",
+      "chapter": 8,
+      "topic": "Accounting Standards for Consolidated Financial Statements",
+      "question_text": "Case: Ankur Ltd acquired 30% of Bela Ltd, giving it significant influence, for ₹15,00,000 at the start of the year (no goodwill or capital reserve arose). Bela Ltd earned a profit of ₹8,00,000 and paid a dividend of ₹2,00,000 during the year. Under AS 23, the carrying amount of the investment in Ankur Ltd's consolidated financial statements at year end is:",
+      "options": {
+        "A": "₹17,40,000",
+        "B": "₹16,80,000",
+        "C": "₹15,00,000",
+        "D": "₹18,00,000"
+      },
+      "correct": "B",
+      "explanation": "Under the equity method, the investment is initially recorded at cost and adjusted for the investor's share of post-acquisition profits, while distributions received reduce the carrying amount. Carrying amount = 15,00,000 + 30% x 8,00,000 (2,40,000) - 30% x 2,00,000 (60,000) = ₹16,80,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c08-q008",
+      "chapter": 8,
+      "topic": "Accounting Standards for Consolidated Financial Statements",
+      "question_text": "Case: Dhruv Ltd has an associate but no subsidiaries, and therefore does not prepare consolidated financial statements. In its separate financial statements, the investment in the associate should be accounted for:",
+      "options": {
+        "A": "Using proportionate consolidation under AS 27",
+        "B": "At fair value through profit or loss",
+        "C": "Using the equity method under AS 23",
+        "D": "In accordance with AS 13, Accounting for Investments"
+      },
+      "correct": "D",
+      "explanation": "AS 23 requires the equity method only when the investor prepares consolidated financial statements. In separate financial statements, investments in associates are accounted for as per AS 13, i.e., long-term investments at cost less any other-than-temporary decline in value.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c08-q009",
+      "chapter": 8,
+      "topic": "Accounting Standards for Consolidated Financial Statements",
+      "question_text": "Under AS 27, an interest in a jointly controlled entity is reported in the venturer's consolidated financial statements using:",
+      "options": {
+        "A": "Full consolidation with minority interest",
+        "B": "Proportionate consolidation",
+        "C": "The cost method",
+        "D": "The equity method"
+      },
+      "correct": "B",
+      "explanation": "AS 27 requires a venturer to report its interest in a jointly controlled entity in its consolidated financial statements using proportionate consolidation, combining its share of each of the assets, liabilities, income and expenses of the jointly controlled entity with similar items. The equity method is used for associates under AS 23.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-aa-c08-q010",
+      "chapter": 8,
+      "topic": "Accounting Standards for Consolidated Financial Statements",
+      "question_text": "Case: Pavan Ltd acquired 75% of Ruhi Ltd when Ruhi's reserves were ₹6,00,000. At the consolidated balance sheet date, Pavan's reserves are ₹20,00,000 and Ruhi's reserves are ₹10,00,000. Pavan's reserves include unrealised profit of ₹40,000 on goods sold by Pavan to Ruhi that remain in Ruhi's closing inventory. Consolidated reserves (attributable to the parent) under AS 21 are:",
+      "options": {
+        "A": "₹23,00,000",
+        "B": "₹23,60,000",
+        "C": "₹22,60,000",
+        "D": "₹27,10,000"
+      },
+      "correct": "C",
+      "explanation": "Parent's share of post-acquisition reserves of the subsidiary = 75% x (10,00,000 - 6,00,000) = 3,00,000; pre-acquisition reserves are taken to cost of control. Since the parent is the seller, the unrealised profit 40,000 is eliminated in full from the parent's reserves. Consolidated reserves = 20,00,000 + 3,00,000 - 40,000 = ₹22,60,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-aa-c09-q001",
+      "chapter": 9,
+      "topic": "Financial Statements of Companies",
+      "question_text": "Under Schedule III to the Companies Act, 2013, where the normal operating cycle of a company cannot be identified, it is assumed to have a duration of:",
+      "options": {
+        "A": "12 months",
+        "B": "24 months",
+        "C": "The duration of the company's longest customer contract",
+        "D": "6 months"
+      },
+      "correct": "A",
+      "explanation": "Schedule III states that where the normal operating cycle cannot be identified, it is assumed to have a duration of 12 months. The operating cycle is used to classify assets and liabilities as current or non-current.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-aa-c09-q002",
+      "chapter": 9,
+      "topic": "Financial Statements of Companies",
+      "question_text": "Case: Ashwin Motors Ltd has issued 5,00,000 equity shares of ₹10 each, fully called up. Calls of ₹3 per share are unpaid on 10,000 shares. The paid-up equity share capital to be shown in the notes on Share Capital as per Schedule III is:",
+      "options": {
+        "A": "₹50,30,000",
+        "B": "₹50,00,000",
+        "C": "₹49,00,000",
+        "D": "₹49,70,000"
+      },
+      "correct": "D",
+      "explanation": "Subscribed capital = 5,00,000 x 10 = 50,00,000. Calls in arrears = 10,000 x 3 = 30,000, which Schedule III requires to be deducted to arrive at paid-up capital (subscribed but not fully paid). Paid-up = ₹49,70,000. Calls in arrears are not shown as an asset.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-aa-c09-q003",
+      "chapter": 9,
+      "topic": "Financial Statements of Companies",
+      "question_text": "Under Division I of Schedule III, the balance in the Securities Premium account is presented under:",
+      "options": {
+        "A": "Non-current liabilities",
+        "B": "Other current liabilities",
+        "C": "Reserves and Surplus within Shareholders' Funds",
+        "D": "Share Capital"
+      },
+      "correct": "C",
+      "explanation": "Securities premium is a reserve and is shown as a separate item under 'Reserves and Surplus' within Shareholders' Funds. It does not form part of share capital, which shows only the nominal value of shares, and it is not a liability.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-aa-c09-q004",
+      "chapter": 9,
+      "topic": "Financial Statements of Companies",
+      "question_text": "Case: Bhumi Paints Ltd has a General Reserve of ₹6,00,000 and a debit balance of ₹9,00,000 in the Statement of Profit and Loss. As per Schedule III, the debit balance should be:",
+      "options": {
+        "A": "Shown on the assets side as a miscellaneous non-current asset",
+        "B": "Shown as a negative figure under 'Surplus' in Reserves and Surplus, even if the total of Reserves and Surplus becomes negative",
+        "C": "Set off against share capital",
+        "D": "Shown as a current asset under 'Other current assets'"
+      },
+      "correct": "B",
+      "explanation": "Schedule III requires a debit balance of the statement of profit and loss to be shown as a negative figure under the head 'Surplus'. The aggregate of Reserves and Surplus is shown after this adjustment even if the resulting figure is negative (here 6,00,000 - 9,00,000 = negative 3,00,000). It cannot be presented as an asset.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c09-q005",
+      "chapter": 9,
+      "topic": "Financial Statements of Companies",
+      "question_text": "Under Division I of Schedule III, 'Share application money pending allotment' (to the extent not refundable) is presented:",
+      "options": {
+        "A": "As a separate line item on the face of the balance sheet between Shareholders' Funds and Non-current Liabilities",
+        "B": "Under Other Current Liabilities",
+        "C": "Under Share Capital as part of subscribed capital",
+        "D": "Under Long-term Borrowings"
+      },
+      "correct": "A",
+      "explanation": "Schedule III requires share application money pending allotment to be shown as a separate line item on the face of the balance sheet, between 'Shareholders' Funds' and 'Non-current Liabilities'. Only the portion that is refundable (for example, in excess of the amount to be allotted) is shown under other current liabilities.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c09-q006",
+      "chapter": 9,
+      "topic": "Financial Statements of Companies",
+      "question_text": "Case: Charu Steels Ltd, a public company, has no managing director but has two whole-time directors. Its net profit computed under section 198 of the Companies Act, 2013 is ₹3,00,00,000. Without approval of the company in general meeting for a higher amount, the maximum aggregate remuneration payable to both whole-time directors together is:",
+      "options": {
+        "A": "₹33,00,000",
+        "B": "₹15,00,000",
+        "C": "₹3,00,000",
+        "D": "₹30,00,000"
+      },
+      "correct": "D",
+      "explanation": "Section 197 limits remuneration to a managing director, whole-time director or manager to 5% of net profits where there is one such director, and 10% for all of them together where there is more than one. With two whole-time directors, the limit is 10% x 3,00,00,000 = ₹30,00,000. The 11% figure is the overall ceiling for all directors and the manager, and 1% relates to non-executive directors where there is an MD or WTD.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c09-q007",
+      "chapter": 9,
+      "topic": "Financial Statements of Companies",
+      "question_text": "Case: The profit before tax of Devika Pharma Ltd as per its statement of profit and loss is ₹1,50,00,000. This is after charging managerial remuneration of ₹12,00,000 and includes a profit of ₹2,00,000 on sale of a plot of freehold land held as a fixed asset; the land had never been depreciated, so the whole profit is the excess of the sale price over its original cost. The company does not deal in land. Applying section 198, the overall maximum managerial remuneration (11% of net profit) is:",
+      "options": {
+        "A": "₹17,82,000",
+        "B": "₹16,50,000",
+        "C": "₹16,28,000",
+        "D": "₹17,60,000"
+      },
+      "correct": "D",
+      "explanation": "Net profit under section 198 is computed before managerial remuneration, so it is added back: 1,50,00,000 + 12,00,000 = 1,62,00,000. Under section 198(3), profit on sale of a fixed asset is credited only to the extent of the difference between original cost and written-down value; the excess of sale price over original cost is a capital profit and is not credited. Here the land's written-down value equals its original cost, so the entire 2,00,000 is excluded: 1,62,00,000 - 2,00,000 = 1,60,00,000. Maximum remuneration = 11% x 1,60,00,000 = ₹17,60,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-aa-c09-q008",
+      "chapter": 9,
+      "topic": "Financial Statements of Companies",
+      "question_text": "Case: At the balance sheet date, Eshan Foods Ltd has dividend declared in an earlier year that remains unclaimed by shareholders and is held in its unpaid dividend bank account. Under Schedule III, unclaimed dividend is shown under:",
+      "options": {
+        "A": "Reserves and Surplus",
+        "B": "Long-term Borrowings",
+        "C": "Short-term Provisions",
+        "D": "Other Current Liabilities"
+      },
+      "correct": "D",
+      "explanation": "Once a dividend is declared, it becomes a debt owed to shareholders. The unclaimed amount continues to be a liability and Schedule III requires it to be disclosed under 'Other Current Liabilities'. It is not a provision, since the amount is certain, and it is not a reserve.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c09-q009",
+      "chapter": 9,
+      "topic": "Financial Statements of Companies",
+      "question_text": "Under Schedule III, a company whose turnover is less than ₹100 crore may round off the figures in its financial statements to the nearest:",
+      "options": {
+        "A": "Hundreds, thousands, lakhs or millions, or decimals thereof",
+        "B": "Crores only",
+        "C": "Lakhs or crores, or decimals thereof",
+        "D": "Rupees only, with no rounding permitted"
+      },
+      "correct": "A",
+      "explanation": "Schedule III allows a company with turnover of less than ₹100 crore to round off figures to the nearest hundreds, thousands, lakhs or millions, or decimals thereof. Rounding to crores is permitted only for companies with turnover of ₹100 crore or more, which may round to lakhs, millions or crores.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c09-q010",
+      "chapter": 9,
+      "topic": "Financial Statements of Companies",
+      "question_text": "Case: For the current year, Falguni Textiles Ltd has a profit before depreciation of ₹50,00,000. Depreciation for the year as required by Schedule II is ₹12,00,000. It also has accumulated losses of earlier years of ₹8,00,000. Ignoring any transfer to reserves, the maximum dividend it can declare out of the current year's profit under section 123 is:",
+      "options": {
+        "A": "₹30,00,000",
+        "B": "₹38,00,000",
+        "C": "₹42,00,000",
+        "D": "₹50,00,000"
+      },
+      "correct": "A",
+      "explanation": "Section 123 requires dividend out of current year profits to be declared only after providing for depreciation and after setting off previous losses (and depreciation not provided) of earlier years against the current profit. Available profit = 50,00,000 - 12,00,000 - 8,00,000 = ₹30,00,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c10-q001",
+      "chapter": 10,
+      "topic": "Buyback of Securities",
+      "question_text": "Under section 68 of the Companies Act, 2013, a company may buy back its shares with the authorisation of only its board of directors (without a special resolution) provided the buyback does not exceed:",
+      "options": {
+        "A": "15% of the paid-up equity capital alone",
+        "B": "25% of the total paid-up equity capital and free reserves",
+        "C": "10% of the total paid-up equity capital and free reserves",
+        "D": "5% of the free reserves alone"
+      },
+      "correct": "C",
+      "explanation": "Section 68 permits a buyback authorised by a board resolution passed at a meeting if the buyback is 10% or less of the total paid-up equity capital and free reserves. For a buyback up to 25%, a special resolution of the shareholders is required.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-aa-c10-q002",
+      "chapter": 10,
+      "topic": "Buyback of Securities",
+      "question_text": "Case: Garima Ltd has paid-up equity share capital of ₹50,00,000 (shares of ₹10 each), securities premium of ₹10,00,000 and general reserve of ₹30,00,000. It proposes a buyback at ₹30 per share with a special resolution. Considering only the shares outstanding test and the resources test under section 68, the maximum number of shares it can buy back is:",
+      "options": {
+        "A": "30,000",
+        "B": "1,25,000",
+        "C": "75,000",
+        "D": "66,666"
+      },
+      "correct": "C",
+      "explanation": "Shares outstanding test: 25% of 5,00,000 shares = 1,25,000 shares. Resources test: 25% of (paid-up capital + free reserves including securities premium) = 25% x 90,00,000 = 22,50,000; at ₹30 per share = 75,000 shares. The lower of the two, 75,000 shares, is the maximum.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-aa-c10-q003",
+      "chapter": 10,
+      "topic": "Buyback of Securities",
+      "question_text": "Case: After a proposed buyback, Harsha Ltd will have secured and unsecured debt of ₹3,60,00,000. Assuming no higher ratio has been notified for its class of company, to satisfy the debt-equity condition of section 68, the minimum aggregate of its paid-up capital and free reserves after the buyback must be:",
+      "options": {
+        "A": "₹1,20,00,000",
+        "B": "₹3,60,00,000",
+        "C": "₹90,00,000",
+        "D": "₹1,80,00,000"
+      },
+      "correct": "D",
+      "explanation": "Section 68 requires that the ratio of aggregate secured and unsecured debts owed by the company after the buyback should not be more than twice the paid-up capital and its free reserves. So equity must be at least 3,60,00,000 / 2 = ₹1,80,00,000.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-aa-c10-q004",
+      "chapter": 10,
+      "topic": "Buyback of Securities",
+      "question_text": "Case: Ishita Ltd bought back 50,000 equity shares of ₹10 each at ₹40 per share, wholly out of its securities premium and general reserve. Under section 69 of the Companies Act, 2013, the amount to be transferred to the Capital Redemption Reserve is:",
+      "options": {
+        "A": "₹5,00,000",
+        "B": "₹20,00,000",
+        "C": "₹0",
+        "D": "₹15,00,000"
+      },
+      "correct": "A",
+      "explanation": "Section 69 requires that where a company purchases its own shares out of free reserves or securities premium, a sum equal to the nominal value of the shares so purchased is transferred to the Capital Redemption Reserve. Nominal value = 50,000 x 10 = ₹5,00,000. The premium paid of 15,00,000 is adjusted against securities premium/free reserves but is not transferred to CRR.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-aa-c10-q005",
+      "chapter": 10,
+      "topic": "Buyback of Securities",
+      "question_text": "Case: Jatin Ltd buys back 1,00,000 equity shares of ₹10 each at ₹15 per share. To part-finance the buyback, it issues 10% preference shares of ₹6,00,000 at par; the balance is met out of general reserve. Following the usual ICAI approach, the proceeds of the preference issue are applied first towards the nominal value of the shares bought back. The amount to be transferred to the Capital Redemption Reserve is:",
+      "options": {
+        "A": "₹10,00,000",
+        "B": "₹4,00,000",
+        "C": "₹0",
+        "D": "₹9,00,000"
+      },
+      "correct": "B",
+      "explanation": "Nominal value of shares bought back = 1,00,000 x 10 = 10,00,000. Under section 69, a transfer to CRR is required only to the extent the nominal value is met out of free reserves or securities premium; the part met out of the proceeds of a fresh issue of a different kind of shares (6,00,000 of preference shares) needs no transfer. CRR = 10,00,000 - 6,00,000 = ₹4,00,000, transferred from general reserve. The premium of 5,00,000 (1,00,000 x ₹5) is also borne by general reserve but is not transferred to CRR.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-aa-c10-q006",
+      "chapter": 10,
+      "topic": "Buyback of Securities",
+      "question_text": "Which of the following is NOT a permitted source for financing a buyback of equity shares under section 68?",
+      "options": {
+        "A": "Securities premium account",
+        "B": "Proceeds of an earlier issue of equity shares",
+        "C": "Free reserves",
+        "D": "Proceeds of an issue of preference shares"
+      },
+      "correct": "B",
+      "explanation": "Section 68 allows a buyback out of free reserves, the securities premium account, or proceeds of the issue of any shares or other specified securities, but no buyback of any kind of shares can be made out of the proceeds of an earlier issue of the same kind of shares. Hence equity shares cannot be bought back out of proceeds of an issue of equity shares.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-aa-c10-q007",
+      "chapter": 10,
+      "topic": "Buyback of Securities",
+      "question_text": "Case: Kaustubh Ltd has 8,00,000 fully paid equity shares outstanding. Under section 68, the maximum number of equity shares it can buy back in a financial year, considering only the limit on the number of shares, is:",
+      "options": {
+        "A": "80,000",
+        "B": "1,60,000",
+        "C": "2,00,000",
+        "D": "4,00,000"
+      },
+      "correct": "C",
+      "explanation": "Section 68 provides that the buyback of equity shares in any financial year shall not exceed 25% of its total paid-up equity capital in that financial year. 25% of 8,00,000 shares = 2,00,000 shares. 80,000 reflects the 10% figure, which is the value-based limit for a board-only buyback, not the limit on the number of shares.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-aa-c10-q008",
+      "chapter": 10,
+      "topic": "Buyback of Securities",
+      "question_text": "Case: Lavanya Ltd completed a buyback of its equity shares last month. Under section 68, the company cannot make a further issue of the same kind of shares (other than by way of bonus issue or in discharge of subsisting obligations such as conversion of warrants or preference shares/debentures) within a period of:",
+      "options": {
+        "A": "Three years",
+        "B": "One month",
+        "C": "One year",
+        "D": "Six months from the completion of the buyback"
+      },
+      "correct": "D",
+      "explanation": "Section 68(8) prohibits a company that has completed a buyback from making a further issue of the same kind of shares, including allotment of new shares, within six months, except by way of bonus issue or in discharge of subsisting obligations such as conversion of warrants, stock options, sweat equity or conversion of preference shares or debentures into equity shares.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c10-q009",
+      "chapter": 10,
+      "topic": "Buyback of Securities",
+      "question_text": "Under the proviso to section 68(2), no offer of buyback shall be made by a company within what period from the date of closure of its preceding offer of buyback?",
+      "options": {
+        "A": "One year",
+        "B": "Six months",
+        "C": "Three months",
+        "D": "Two years"
+      },
+      "correct": "A",
+      "explanation": "The proviso to section 68(2) states that no offer of buyback shall be made within a period of one year reckoned from the date of the closure of the preceding offer of buyback, if any. The six-month restriction is a separate rule relating to fresh issues after a buyback.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c10-q010",
+      "chapter": 10,
+      "topic": "Buyback of Securities",
+      "question_text": "Case: Manas Ltd has paid-up equity capital of ₹2,00,00,000 (shares of ₹10 each) and free reserves, including securities premium, of ₹1,20,00,000. It has negligible debt. It proposes a buyback at ₹32 per share with a special resolution of shareholders. The maximum number of shares it can buy back is:",
+      "options": {
+        "A": "5,00,000",
+        "B": "1,00,000",
+        "C": "3,75,000",
+        "D": "2,50,000"
+      },
+      "correct": "D",
+      "explanation": "Resources test: 25% x (2,00,00,000 + 1,20,00,000) = 80,00,000; / ₹32 = 2,50,000 shares. Shares outstanding test: 25% x 20,00,000 shares = 5,00,000 shares. The debt-equity test is satisfied since debt is negligible. Maximum = lower of the two = 2,50,000 shares. (1,00,000 would be the limit for a board-only buyback.)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-aa-c11-q001",
+      "chapter": 11,
+      "topic": "Amalgamation of Companies",
+      "question_text": "Case: Nirmal Ltd takes over the business of Ojas Ltd. Assets taken over at agreed values are PPE ₹40,00,000, inventory ₹12,00,000, trade receivables ₹8,00,000 and cash ₹2,00,000. Liabilities taken over are trade payables ₹7,00,000 and debentures ₹15,00,000. Under the net assets method, the purchase consideration is:",
+      "options": {
+        "A": "₹38,00,000",
+        "B": "₹40,00,000",
+        "C": "₹55,00,000",
+        "D": "₹62,00,000"
+      },
+      "correct": "B",
+      "explanation": "Under the net assets method, purchase consideration = agreed value of assets taken over - liabilities taken over. Assets = 40,00,000 + 12,00,000 + 8,00,000 + 2,00,000 = 62,00,000. Liabilities = 7,00,000 + 15,00,000 = 22,00,000. PC = ₹40,00,000.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-aa-c11-q002",
+      "chapter": 11,
+      "topic": "Amalgamation of Companies",
+      "question_text": "Case: Pankaj Ltd absorbs Qamar Ltd, which has 1,50,000 equity shares. Pankaj Ltd will issue 3 equity shares of ₹10 each, at an issue price of ₹15, for every 2 shares of Qamar Ltd, and will also pay ₹2 in cash per share of Qamar Ltd. The purchase consideration is:",
+      "options": {
+        "A": "₹33,75,000",
+        "B": "₹36,75,000",
+        "C": "₹25,50,000",
+        "D": "₹30,75,000"
+      },
+      "correct": "B",
+      "explanation": "Shares to be issued = 1,50,000 x 3/2 = 2,25,000 shares; value at issue price = 2,25,000 x 15 = 33,75,000. Cash = 1,50,000 x 2 = 3,00,000. Purchase consideration = ₹36,75,000. Shares issued must be valued at issue price, not face value.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c11-q003",
+      "chapter": 11,
+      "topic": "Amalgamation of Companies",
+      "question_text": "Case: In an amalgamation in the nature of purchase, Rajat Ltd pays a purchase consideration of ₹40,00,000 for net assets of Sneh Ltd that are recorded at their fair value of ₹46,00,000. Under AS 14, Rajat Ltd should record:",
+      "options": {
+        "A": "A gain of ₹6,00,000 in the statement of profit and loss",
+        "B": "Neither goodwill nor capital reserve",
+        "C": "Goodwill of ₹6,00,000",
+        "D": "Capital reserve of ₹6,00,000"
+      },
+      "correct": "D",
+      "explanation": "When the purchase consideration is less than the value of net assets acquired, the excess (46,00,000 - 40,00,000 = 6,00,000) is credited to capital reserve under AS 14. Goodwill arises only when consideration exceeds net assets, and the excess is not taken to profit and loss.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-aa-c11-q004",
+      "chapter": 11,
+      "topic": "Amalgamation of Companies",
+      "question_text": "Case: Tanvi Ltd amalgamates with Uday Ltd in an amalgamation in the nature of merger. Tanvi Ltd has share capital of ₹20,00,000, general reserve of ₹8,00,000 and a credit balance in profit and loss of ₹3,00,000. Uday Ltd issues equity shares with a face value of ₹22,00,000 as consideration. Under the pooling of interests method, the net increase in the aggregate reserves (including the profit and loss balance) of Uday Ltd as a result of the amalgamation is:",
+      "options": {
+        "A": "₹11,00,000",
+        "B": "₹9,00,000",
+        "C": "₹8,00,000",
+        "D": "₹13,00,000"
+      },
+      "correct": "B",
+      "explanation": "Under pooling of interests, the transferor's reserves are recorded at their existing amounts: 8,00,000 + 3,00,000 = 11,00,000. AS 14 requires the excess of share capital issued over the transferor's share capital (22,00,000 - 20,00,000 = 2,00,000) to be adjusted in reserves; no goodwill arises. Net increase in Uday Ltd's reserves = 11,00,000 - 2,00,000 = ₹9,00,000, whichever reserve the 2,00,000 is debited to.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-aa-c11-q005",
+      "chapter": 11,
+      "topic": "Amalgamation of Companies",
+      "question_text": "Case: On amalgamation, the trade payables of Vimal Ltd (transferee) are ₹18,00,000 and those of Waman Ltd (transferor) are ₹9,00,000. Waman Ltd's payables include ₹3,00,000 owed to Vimal Ltd for goods supplied. The trade payables in the balance sheet of Vimal Ltd after amalgamation are:",
+      "options": {
+        "A": "₹24,00,000",
+        "B": "₹27,00,000",
+        "C": "₹21,00,000",
+        "D": "₹15,00,000"
+      },
+      "correct": "A",
+      "explanation": "Inter-company owings are eliminated on amalgamation because a company cannot owe money to itself. Combined payables = 18,00,000 + 9,00,000 = 27,00,000; less the mutual owing of 3,00,000 = ₹24,00,000. The corresponding receivable in Vimal Ltd's books is also eliminated.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-aa-c11-q006",
+      "chapter": 11,
+      "topic": "Amalgamation of Companies",
+      "question_text": "Case: At the date of amalgamation, the inventory of Yash Ltd (transferee) includes goods costing it ₹1,20,000 that were purchased from Zubin Ltd (transferor), which had invoiced them at cost plus 20%. The unrealised profit to be eliminated from inventory is:",
+      "options": {
+        "A": "₹20,000",
+        "B": "₹24,000",
+        "C": "₹0",
+        "D": "₹30,000"
+      },
+      "correct": "A",
+      "explanation": "Since the goods remain within the combined entity, the profit loaded by the transferor is unrealised. Unrealised profit = 1,20,000 x 20/120 = ₹20,000. It is eliminated by crediting inventory and debiting the appropriate reserve (or goodwill/capital reserve). Applying 20% to the invoice value (24,000) uses the wrong base.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c11-q007",
+      "chapter": 11,
+      "topic": "Amalgamation of Companies",
+      "question_text": "Case: In an amalgamation in the nature of purchase, Aarav Ltd (transferee) agrees to bear the liquidation expenses of Bina Ltd (transferor) amounting to ₹50,000, and pays them. In Aarav Ltd's books, this amount is:",
+      "options": {
+        "A": "Debited to Aarav Ltd's statement of profit and loss as an ordinary expense",
+        "B": "Debited to goodwill (or reduced from capital reserve) arising on amalgamation",
+        "C": "Debited to Bina Ltd's realisation account in Aarav Ltd's books",
+        "D": "Included in the purchase consideration paid to Bina Ltd's shareholders"
+      },
+      "correct": "B",
+      "explanation": "Liquidation expenses of the transferor borne by the transferee are not part of the purchase consideration because they are not paid to the transferor's shareholders. In the transferee's books, they are treated as a cost of acquisition and debited to goodwill or, where capital reserve arises, they reduce that capital reserve.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c11-q008",
+      "chapter": 11,
+      "topic": "Amalgamation of Companies",
+      "question_text": "Case: Chirag Ltd already holds 20% of the 1,00,000 equity shares of Deepa Ltd. On absorption of Deepa Ltd, Chirag Ltd will issue 1 of its equity shares for every 2 shares of Deepa Ltd held by other shareholders. The number of shares to be issued by Chirag Ltd is:",
+      "options": {
+        "A": "50,000",
+        "B": "80,000",
+        "C": "10,000",
+        "D": "40,000"
+      },
+      "correct": "D",
+      "explanation": "Shares held by Chirag Ltd itself are cancelled; consideration is payable only to outside shareholders. Outside shares = 1,00,000 x 80% = 80,000. Shares to be issued = 80,000 x 1/2 = 40,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c11-q009",
+      "chapter": 11,
+      "topic": "Amalgamation of Companies",
+      "question_text": "Case: Ekta Ltd is to absorb Falak Ltd on the basis of intrinsic values of shares. Falak Ltd's net assets are ₹36,00,000 for 3,00,000 shares, and Ekta Ltd's net assets are ₹75,00,000 for 5,00,000 shares (both companies' shares have a face value of ₹10). The number of Ekta Ltd shares to be issued to Falak Ltd's shareholders is:",
+      "options": {
+        "A": "3,60,000",
+        "B": "2,40,000",
+        "C": "3,00,000",
+        "D": "3,75,000"
+      },
+      "correct": "B",
+      "explanation": "Intrinsic value of a Falak share = 36,00,000 / 3,00,000 = ₹12; of an Ekta share = 75,00,000 / 5,00,000 = ₹15. Exchange ratio = 12/15 = 0.8, i.e. 4 Ekta shares for every 5 Falak shares. Shares to be issued = 3,00,000 x 0.8 = 2,40,000 (worth 2,40,000 x ₹15 = 36,00,000, equal to Falak's net assets).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-aa-c11-q010",
+      "chapter": 11,
+      "topic": "Amalgamation of Companies",
+      "question_text": "Case: In the books of Gauri Ltd (transferor), assets transferred to the realisation account have a book value of ₹70,00,000 and liabilities transferred have a book value of ₹25,00,000. The purchase consideration receivable from the transferee is ₹52,00,000, and Gauri Ltd itself pays liquidation expenses of ₹1,00,000. The profit on realisation is:",
+      "options": {
+        "A": "₹6,00,000",
+        "B": "₹7,00,000",
+        "C": "₹5,00,000",
+        "D": "₹8,00,000"
+      },
+      "correct": "A",
+      "explanation": "Realisation account: debit assets 70,00,000 and liquidation expenses 1,00,000; credit liabilities 25,00,000 and purchase consideration 52,00,000. Profit = 52,00,000 + 25,00,000 - 70,00,000 - 1,00,000 = ₹6,00,000. This profit is transferred to the equity shareholders' account.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-aa-c12-q001",
+      "chapter": 12,
+      "topic": "Internal Reconstruction",
+      "question_text": "Under the Companies Act, 2013, a reduction of share capital by a company limited by shares (for example, by cancelling paid-up capital lost or unrepresented by available assets) requires:",
+      "options": {
+        "A": "A special resolution confirmed by the Tribunal under section 66",
+        "B": "Only a board resolution",
+        "C": "Only an ordinary resolution of the shareholders",
+        "D": "Approval of the Registrar of Companies without any shareholder resolution"
+      },
+      "correct": "A",
+      "explanation": "Section 66 permits a company to reduce its share capital by a special resolution, subject to confirmation by the Tribunal on an application by the company. Ordinary or board resolutions alone are not sufficient for a reduction of capital.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-aa-c12-q002",
+      "chapter": 12,
+      "topic": "Internal Reconstruction",
+      "question_text": "Case: Under a scheme of internal reconstruction, the 5,00,000 fully paid equity shares of ₹10 each of Harit Ltd are reduced to ₹4 each fully paid. The amount credited to the Capital Reduction Account is:",
+      "options": {
+        "A": "₹12,00,000",
+        "B": "₹30,00,000",
+        "C": "₹20,00,000",
+        "D": "₹50,00,000"
+      },
+      "correct": "B",
+      "explanation": "The entry is: Equity Share Capital (₹10) Dr 50,00,000; to Equity Share Capital (₹4) 20,00,000; to Capital Reduction Account 30,00,000. The reduction of ₹6 per share on 5,00,000 shares = ₹30,00,000.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-aa-c12-q003",
+      "chapter": 12,
+      "topic": "Internal Reconstruction",
+      "question_text": "Case: The Capital Reduction Account of Ishan Ltd shows a credit of ₹30,00,000 under an approved scheme. It is used to write off the debit balance of profit and loss ₹18,00,000, goodwill ₹6,00,000, preliminary expenses ₹2,00,000 and overvaluation of PPE ₹3,00,000. The balance remaining in the Capital Reduction Account should be:",
+      "options": {
+        "A": "Transferred to Capital Reserve: ₹12,00,000",
+        "B": "Transferred to General Reserve: ₹1,00,000",
+        "C": "Transferred to Capital Reserve: ₹1,00,000",
+        "D": "Credited to the statement of profit and loss: ₹1,00,000"
+      },
+      "correct": "C",
+      "explanation": "Total write-offs = 18,00,000 + 6,00,000 + 2,00,000 + 3,00,000 = 29,00,000. Balance = 30,00,000 - 29,00,000 = 1,00,000. Since it arises from a reduction of capital, it is a capital profit and is transferred to Capital Reserve; it cannot be credited to revenue or a free reserve.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c12-q004",
+      "chapter": 12,
+      "topic": "Internal Reconstruction",
+      "question_text": "Case: Jhanvi Ltd sub-divides its equity shares of ₹10 each into equity shares of ₹1 each, without any change in the total paid-up capital. This is:",
+      "options": {
+        "A": "An internal reconstruction requiring writing off of accumulated losses",
+        "B": "A reduction of share capital requiring Tribunal confirmation under section 66",
+        "C": "An alteration of share capital under section 61, which does not require confirmation by the Tribunal",
+        "D": "A buyback of shares under section 68"
+      },
+      "correct": "C",
+      "explanation": "Sub-division (and consolidation) of shares is an alteration of share capital under section 61, permitted if authorised by the articles and approved by the members in general meeting. It does not reduce paid-up capital or return capital to shareholders, so confirmation by the Tribunal under section 66 is not required.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c12-q005",
+      "chapter": 12,
+      "topic": "Internal Reconstruction",
+      "question_text": "Case: Under a reconstruction scheme of Kiran Ltd, holders of 12% debentures of ₹20,00,000 agree to accept 9% debentures of ₹15,00,000 and equity shares of ₹3,00,000 in full settlement. The amount credited to the Capital Reduction Account is:",
+      "options": {
+        "A": "₹0",
+        "B": "₹3,00,000",
+        "C": "₹2,00,000",
+        "D": "₹5,00,000"
+      },
+      "correct": "C",
+      "explanation": "The debenture holders give up 20,00,000 and receive 15,00,000 + 3,00,000 = 18,00,000. Their sacrifice of 20,00,000 - 18,00,000 = ₹2,00,000 is credited to the Capital Reduction Account.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c12-q006",
+      "chapter": 12,
+      "topic": "Internal Reconstruction",
+      "question_text": "Case: Kumud Ltd has cumulative preference dividend in arrears of ₹4,00,000, which has not been recorded in the books. Under its reconstruction scheme, the preference shareholders forgo half the arrears, and the balance is satisfied by issue of equity shares. The journal entry for the issue of these equity shares is:",
+      "options": {
+        "A": "Debit Capital Reduction Account and credit Equity Share Capital by ₹4,00,000",
+        "B": "No entry is required because the arrears were never recorded",
+        "C": "Debit Capital Reduction Account and credit Equity Share Capital by ₹2,00,000",
+        "D": "Debit Preference Dividend Payable and credit Equity Share Capital by ₹2,00,000"
+      },
+      "correct": "C",
+      "explanation": "Arrears of cumulative preference dividend are not a liability until declared and are only disclosed as a contingent liability, so there is no 'dividend payable' to debit and no entry for the half forgone. The half to be satisfied (₹2,00,000) is a cost of the scheme, so Capital Reduction Account is debited and Equity Share Capital credited.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-aa-c12-q007",
+      "chapter": 12,
+      "topic": "Internal Reconstruction",
+      "question_text": "Case: The scheme of internal reconstruction of Lohit Ltd provides for: (i) 4,00,000 equity shares of ₹10 each fully paid to be reduced to ₹3 each; (ii) 1,00,000 8% preference shares of ₹100 each to be reduced to ₹80 each; (iii) trade payables of ₹12,00,000 to forgo 25% of their dues; and (iv) a director's loan of ₹5,00,000 to be waived. The total credit to the Capital Reduction Account is:",
+      "options": {
+        "A": "₹51,00,000",
+        "B": "₹56,00,000",
+        "C": "₹1,00,00,000",
+        "D": "₹48,00,000"
+      },
+      "correct": "B",
+      "explanation": "Equity: 4,00,000 x 7 = 28,00,000. Preference: 1,00,000 x 20 = 20,00,000. Trade payables: 25% x 12,00,000 = 3,00,000. Director's loan waived: 5,00,000. Total = ₹56,00,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-aa-c12-q008",
+      "chapter": 12,
+      "topic": "Internal Reconstruction",
+      "question_text": "Which of the following best distinguishes internal reconstruction from external reconstruction?",
+      "options": {
+        "A": "Internal reconstruction always requires a new company to be formed",
+        "B": "External reconstruction never involves liquidation of the existing company",
+        "C": "Internal reconstruction can be carried out only by issuing bonus shares",
+        "D": "In internal reconstruction the existing company continues without liquidation, whereas in external reconstruction a new company is formed to take over the business of the existing company, which is liquidated"
+      },
+      "correct": "D",
+      "explanation": "Internal reconstruction reorganises the capital structure of a company, typically by reducing capital and settling with stakeholders, while the company continues as the same legal entity. External reconstruction involves winding up the existing company and transferring its business to a newly formed company, and is accounted for as an amalgamation under AS 14.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-aa-c13-q001",
+      "chapter": 13,
+      "topic": "Accounting for Branches including Foreign Branches",
+      "question_text": "Case: Manav Ltd sends goods to its branch at cost plus 25%. During the year, goods invoiced at ₹5,00,000 were sent. The loading included in the goods sent is:",
+      "options": {
+        "A": "₹1,25,000",
+        "B": "₹1,00,000",
+        "C": "₹4,00,000",
+        "D": "₹93,750"
+      },
+      "correct": "B",
+      "explanation": "If cost is 100, invoice price is 125 and loading is 25, i.e. 25/125 = 1/5 of invoice price. Loading = 5,00,000 x 1/5 = ₹1,00,000. Applying 25% directly to the invoice price (1,25,000) uses the wrong base; 4,00,000 is the cost of the goods sent.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-aa-c13-q002",
+      "chapter": 13,
+      "topic": "Accounting for Branches including Foreign Branches",
+      "question_text": "Case: Nupur Ltd follows the stock and debtors system for its branch. Goods are invoiced to the branch at cost plus 33 1/3%, and the branch sells only at invoice price. Opening branch stock at invoice price was ₹1,20,000, goods sent during the year at invoice price ₹6,00,000 and closing stock at invoice price ₹1,50,000. There was no shortage or surplus. The gross profit transferred from the Branch Adjustment Account is:",
+      "options": {
+        "A": "₹1,12,500",
+        "B": "₹1,90,000",
+        "C": "₹1,50,000",
+        "D": "₹1,42,500"
+      },
+      "correct": "D",
+      "explanation": "Loading = 33 1/3 / 133 1/3 = 1/4 of invoice price. Goods sold at invoice price = 1,20,000 + 6,00,000 - 1,50,000 = 5,70,000. Since sales are at invoice price, gross profit equals loading on goods sold = 5,70,000 x 1/4 = ₹1,42,500. Applying 1/3 to invoice price (1,90,000) overstates the profit.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-aa-c13-q003",
+      "chapter": 13,
+      "topic": "Accounting for Branches including Foreign Branches",
+      "question_text": "Case: At year end, the Branch Account in the head office books of Omkar Ltd shows a debit balance of ₹8,40,000, while the Head Office Account in the books of its independent branch shows a credit balance of ₹7,90,000. Cash of ₹35,000 remitted by the branch and goods of ₹15,000 sent by the head office are in transit. After accounting for the items in transit, the agreed balance of the inter-office accounts is:",
+      "options": {
+        "A": "₹8,05,000",
+        "B": "₹8,40,000",
+        "C": "₹8,55,000",
+        "D": "₹7,90,000"
+      },
+      "correct": "A",
+      "explanation": "From the head office side: 8,40,000 - cash in transit 35,000 = 8,05,000. From the branch side: 7,90,000 + goods in transit 15,000 = 8,05,000. Both equal ₹8,05,000, confirming the reconciliation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c13-q004",
+      "chapter": 13,
+      "topic": "Accounting for Branches including Foreign Branches",
+      "question_text": "Case: Pallavi Ltd has a foreign branch whose operations are integral to those of the head office. When translating the branch trial balance under AS 11, fixed assets of the branch are translated at:",
+      "options": {
+        "A": "The opening rate for the year",
+        "B": "The average rate for the year",
+        "C": "The closing rate",
+        "D": "The exchange rate on the date of acquisition of the fixed assets"
+      },
+      "correct": "D",
+      "explanation": "For an integral foreign operation, AS 11 requires translation as if the transactions had been carried out by the reporting enterprise itself. Non-monetary items carried at historical cost, such as fixed assets, are translated at the exchange rate on the date of the transaction (acquisition), and depreciation is translated at the same rate.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-aa-c13-q005",
+      "chapter": 13,
+      "topic": "Accounting for Branches including Foreign Branches",
+      "question_text": "Under AS 11, in translating the financial statements of a non-integral foreign operation, assets and liabilities (both monetary and non-monetary) are translated at:",
+      "options": {
+        "A": "Historical rates at the dates of acquisition",
+        "B": "The rate prevailing at the date of the last revaluation",
+        "C": "The average rate for the year",
+        "D": "The closing rate"
+      },
+      "correct": "D",
+      "explanation": "For a non-integral foreign operation, AS 11 requires all assets and liabilities, monetary and non-monetary, to be translated at the closing rate, while income and expense items are translated at exchange rates at the dates of the transactions (an average rate may be used as an approximation). The resulting differences go to the foreign currency translation reserve.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c13-q006",
+      "chapter": 13,
+      "topic": "Accounting for Branches including Foreign Branches",
+      "question_text": "Case: The integral foreign branch of Qadir Ltd holds machinery costing USD 50,000, acquired when the rate was ₹70 per USD. Depreciation is charged at 10% on cost. The closing rate is ₹83 and the average rate for the year is ₹78. The depreciation to be shown in the translated branch statement of profit and loss is:",
+      "options": {
+        "A": "₹35,000",
+        "B": "₹3,90,000",
+        "C": "₹3,50,000",
+        "D": "₹4,15,000"
+      },
+      "correct": "C",
+      "explanation": "Depreciation in USD = 50,000 x 10% = 5,000. For an integral foreign operation, depreciation is translated at the same historical rate used for the related asset: 5,000 x ₹70 = ₹3,50,000. The closing rate is for monetary items and the average rate for other revenue items.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c13-q007",
+      "chapter": 13,
+      "topic": "Accounting for Branches including Foreign Branches",
+      "question_text": "Case: The integral foreign branch of Rohan Ltd has trade receivables of USD 12,000 at the year end. The opening rate was ₹80, average rate ₹81.50 and closing rate ₹83 per USD. The receivables are translated at:",
+      "options": {
+        "A": "₹9,78,000",
+        "B": "₹9,96,000",
+        "C": "₹9,60,000",
+        "D": "₹9,72,000"
+      },
+      "correct": "B",
+      "explanation": "Trade receivables are monetary items, which AS 11 requires to be translated at the closing rate. Translated amount = USD 12,000 x ₹83 = ₹9,96,000. Using the average rate (USD 12,000 x 81.50 = 9,78,000) is appropriate only for income and expense items.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-aa-c13-q008",
+      "chapter": 13,
+      "topic": "Accounting for Branches including Foreign Branches",
+      "question_text": "Which of the following indicates that a foreign branch of Sujal Ltd is an integral foreign operation under AS 11?",
+      "options": {
+        "A": "The branch operates with a significant degree of autonomy in its management decisions",
+        "B": "Most of the branch's costs are paid in the local currency and its sales are mainly to local customers in local currency",
+        "C": "The branch sells only goods imported from the head office and remits the sale proceeds to the head office",
+        "D": "The branch raises its own finance locally and its cash flows are largely independent of the head office"
+      },
+      "correct": "C",
+      "explanation": "An integral foreign operation carries on business as if it were an extension of the reporting enterprise's operations; a typical example given in AS 11 is a branch that sells goods imported from the reporting enterprise and remits proceeds to it. Local financing, local costs and sales, and significant autonomy are indicators of a non-integral foreign operation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c13-q009",
+      "chapter": 13,
+      "topic": "Accounting for Branches including Foreign Branches",
+      "question_text": "Case: Under the debtors system, Tanmay Ltd maintains a Branch Account. Branch data at cost: opening stock ₹40,000, opening debtors ₹25,000, goods sent by head office ₹2,00,000, cash remitted by the branch to head office (cash sales and collections) ₹2,30,000, branch expenses paid by head office ₹18,000, closing stock ₹50,000 and closing debtors ₹30,000. The branch profit is:",
+      "options": {
+        "A": "₹30,000",
+        "B": "₹27,000",
+        "C": "₹22,000",
+        "D": "₹45,000"
+      },
+      "correct": "B",
+      "explanation": "Branch Account debit side: opening stock 40,000 + opening debtors 25,000 + goods sent 2,00,000 + expenses 18,000 = 2,83,000. Credit side: cash remitted 2,30,000 + closing stock 50,000 + closing debtors 30,000 = 3,10,000. Profit = 3,10,000 - 2,83,000 = ₹27,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-aa-c13-q010",
+      "chapter": 13,
+      "topic": "Accounting for Branches including Foreign Branches",
+      "question_text": "Case: Under the stock and debtors system, goods are invoiced to the branch of Udit Ltd at cost plus 20% and sold at invoice price. At invoice price: opening branch stock ₹80,000, goods sent ₹4,00,000, sales ₹3,90,000 and closing stock as per physical count ₹84,000. The shortage of stock at cost is:",
+      "options": {
+        "A": "₹4,800",
+        "B": "₹6,000",
+        "C": "₹1,000",
+        "D": "₹5,000"
+      },
+      "correct": "D",
+      "explanation": "Expected closing stock at invoice price = 80,000 + 4,00,000 - 3,90,000 = 90,000. Physical stock is 84,000, so shortage at invoice price = 6,000. At cost = 6,000 x 100/120 = ₹5,000; the loading of 1,000 is reversed through the Branch Adjustment Account.",
+      "difficulty": "hard"
+    }
+  ]
+}
