@@ -58,7 +58,7 @@
         "D": "The business must publish audited financial statements"
       },
       "correct": "C",
-      "explanation": "In an ordinary partnership the partners have unlimited personal liability for the firm's debts. A limited company has separate legal personality, its shares can be transferred, and it is usually subject to filing and audit requirements. Those features do not apply to an ordinary partnership.",
+      "explanation": "In an ordinary partnership the partners have unlimited personal liability for the firm's debts. A limited company has separate legal personality, its shares can be transferred, and it must file accounts publicly, with an audit normally required above certain size thresholds. Those features do not apply to an ordinary partnership.",
       "difficulty": "medium"
     },
     {
@@ -230,15 +230,15 @@
       "id": "acca-bt-c02-q005",
       "chapter": 2,
       "topic": "Stakeholders and the external environment",
-      "question_text": "A company's managers are concerned that the government's new policy on carbon emissions limits will require expensive changes to its factories. In a PESTEL analysis, the emission limits themselves are best described as which type of factor?",
+      "question_text": "New legislation imposes binding limits on the carbon emissions that a company's factories may produce, which will require expensive changes to its plant. In a PESTEL analysis, the emission limits themselves are best classified under which headings?",
       "options": {
         "A": "Environmental and legal",
         "B": "Social and economic",
         "C": "Technological only",
-        "D": "Political and social"
+        "D": "Social and technological"
       },
       "correct": "A",
-      "explanation": "Emission limits concern the natural environment and are imposed through legislation or regulation, so they fall under the environmental and legal headings. The government policy decision behind them has a political dimension, but the binding limits affecting the factories are environmental and legal factors. They are not social or technological factors in themselves.",
+      "explanation": "The limits concern the natural environment (pollution and climate change) and are binding because they are imposed by legislation, so they fall under the environmental and legal headings. The policy debate that led to the law has a political dimension, but the stem asks about the binding limits themselves. They are not social factors, and although the company may need new technology to comply, the limits are not a technological factor in themselves.",
       "difficulty": "medium"
     },
     {
@@ -583,7 +583,7 @@
         "D": "She receives a fixed annual fee for her board duties"
       },
       "correct": "A",
-      "explanation": "Recent employment with the company, particularly in a senior executive role, creates a relationship that could compromise objective scrutiny of former colleagues and of decisions she was involved in. A board seat at an unrelated company, a professional qualification and a fixed fee do not of themselves impair independence; a fixed fee is in fact preferred to performance-related pay for NEDs.",
+      "explanation": "Recent employment with the company, particularly in a senior executive role, creates a relationship that could compromise objective scrutiny of former colleagues and of decisions she was involved in. A board seat at an unrelated company, a professional qualification and a fixed fee do not of themselves impair independence; a fixed fee is in fact preferred to performance-related pay for NEDs. Governance codes, such as the UK Corporate Governance Code, typically regard employment by the company within the last five years as a factor that may impair a non-executive director's independence.",
       "difficulty": "hard"
     },
     {
@@ -1025,7 +1025,7 @@
       "id": "acca-bt-c07-q004",
       "chapter": 7,
       "topic": "Law and regulation affecting business",
-      "question_text": "An employee is dismissed without being given the period of notice required by their contract of employment. Which claim is most directly based on this breach?",
+      "question_text": "Under employment law based on the English common law model (as used in the ACCA BT syllabus), an employee is dismissed without being given the period of notice required by their contract of employment. Which claim is most directly based on this breach?",
       "options": {
         "A": "Unfair dismissal",
         "B": "Constructive dismissal",
@@ -1033,14 +1033,14 @@
         "D": "Wrongful dismissal"
       },
       "correct": "D",
-      "explanation": "Wrongful dismissal is a common law claim for breach of the employment contract, typically where the required notice has not been given. Unfair dismissal is a statutory concept concerning whether the reason and procedure for dismissal were fair. Constructive dismissal arises when an employee resigns due to the employer's fundamental breach, and redundancy concerns the role ceasing to exist.",
+      "explanation": "Wrongful dismissal is a common law claim for breach of the employment contract, typically where the employer fails to give the contractual (or statutory minimum) notice; damages are usually limited to pay for the notice period. Unfair dismissal is a separate statutory claim concerning whether the reason for and procedure of the dismissal were fair, and it does not depend on whether notice was given. Constructive dismissal arises when an employee resigns because of the employer's fundamental breach, and redundancy concerns the role ceasing to exist.",
       "difficulty": "hard"
     },
     {
       "id": "acca-bt-c07-q005",
       "chapter": 7,
       "topic": "Law and regulation affecting business",
-      "question_text": "An employer's role is genuinely no longer required because the business has closed a department. In most legal systems, this would be classified as which reason for dismissal?",
+      "question_text": "An employee's role is genuinely no longer required because the business has closed the department in which they work. Under employment law based on the English model (as used in the ACCA BT syllabus), what is the reason for this dismissal?",
       "options": {
         "A": "Misconduct",
         "B": "Capability",
@@ -1048,7 +1048,7 @@
         "D": "Constructive dismissal"
       },
       "correct": "C",
-      "explanation": "Redundancy occurs when the employer ceases business, or the need for employees to carry out work of a particular kind has ceased or diminished. Misconduct relates to the employee's behaviour, capability relates to their skill or health, and constructive dismissal relates to an employee resigning due to the employer's fundamental breach of contract.",
+      "explanation": "Redundancy occurs when the employer ceases the business, or the business in the place where the employee works, or when the need for employees to carry out work of a particular kind has ceased or diminished. Closing a department is a classic redundancy situation. Misconduct relates to the employee's behaviour and capability to their skill or health, while constructive dismissal is not a reason for dismissal at all: it arises when an employee resigns because of the employer's fundamental breach of contract.",
       "difficulty": "medium"
     },
     {
@@ -1228,7 +1228,7 @@
         "D": "Power, interest and influence"
       },
       "correct": "A",
-      "explanation": "The three prerequisites for fraud are dishonesty (a willingness to act dishonestly), opportunity (for example weak controls) and motive (such as financial pressure or a grudge). Organisations aim to reduce each element, for instance by careful recruitment, strong controls and good working conditions.",
+      "explanation": "In the ACCA BT framework the three prerequisites for fraud are dishonesty (a willingness to act dishonestly), opportunity (for example weak controls) and motive (such as financial pressure or a grudge). This closely mirrors the 'fraud triangle' (pressure, opportunity and rationalisation), but only option A lists fraud prerequisites. Organisations aim to reduce each element, for instance by careful recruitment, strong controls and good working conditions. The other options are management functions, types of misstatement and stakeholder-mapping terms.",
       "difficulty": "easy"
     },
     {

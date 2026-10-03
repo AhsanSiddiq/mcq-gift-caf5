@@ -96,7 +96,8 @@ export const EXAM_BODIES: ExamBody[] = [
     qualification: "ACCA Qualification (global)",
     flag: "🌍",
     region: "Global",
-    status: "waitlist",
+    status: "live",
+    practiceHref: "/exams/acca#practice",
     tagline: "Applied Knowledge on-demand CBEs and Section A objective tests for Applied Skills.",
     levels: [
       {
