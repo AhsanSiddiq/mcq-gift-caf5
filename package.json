@@ -9,6 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.131.0",
     "@supabase/supabase-js": "^2.99.3",
     "@types/canvas-confetti": "^1.9.0",
     "@types/nodemailer": "^7.0.11",

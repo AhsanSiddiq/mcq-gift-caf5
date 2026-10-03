@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { Check, Crown, Loader2, Timer, Ban, Rocket, Heart } from "lucide-react";
+import { Check, Crown, Loader2, Timer, Ban, Rocket, Heart, Sparkles } from "lucide-react";
 import EmailLoginModal from "@/components/EmailLoginModal";
 import { usePro } from "@/hooks/usePro";
 import { formatPrice, type PlanId, type PriceBook } from "@/data/regions";
@@ -61,7 +61,10 @@ const PERKS = [
   { icon: Heart, title: "Keep the free tier free", desc: "Your plan funds new questions and explanations for every student." },
 ];
 
-export default function ProCheckout({ prices, localRails, paymentDetails, paddle }: {
+const TUTOR_PERK = { icon: Sparkles, title: "AI tutor on every question", desc: "Ask why an answer is right, get a simpler explanation, or find out exactly where your reasoning went wrong — 40 a day (free accounts get 3)." };
+
+export default function ProCheckout({ prices, localRails, paymentDetails, paddle, tutor = false }: {
+  tutor?: boolean;
   prices: PriceBook;
   localRails: string[];
   paymentDetails: Record<string, string>;
@@ -185,7 +188,7 @@ export default function ProCheckout({ prices, localRails, paymentDetails, paddle
 
       {/* Perks */}
       <div className="flex flex-col gap-5">
-        {PERKS.map(({ icon: Icon, title, desc }) => (
+        {(tutor ? [PERKS[0], TUTOR_PERK, ...PERKS.slice(1)] : PERKS).map(({ icon: Icon, title, desc }) => (
           <div key={title} className="flex gap-4">
             <span className="shrink-0 rounded-xl flex items-center justify-center" style={{ width: 44, height: 44, background: "rgba(61,179,113,0.10)", color: "var(--green)" }}>
               <Icon className="w-5 h-5" />

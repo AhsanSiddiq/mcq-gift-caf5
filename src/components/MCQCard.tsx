@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { MCQ } from "@/data/mcqs";
 import { CheckCircle2, XCircle, ArrowRight, Bookmark, BookmarkCheck } from "lucide-react";
 import { useProgress } from "@/hooks/useProgress";
+import TutorPanel from "@/components/TutorPanel";
 import { motion, AnimatePresence } from "framer-motion";
 
 interface MCQCardProps {
@@ -169,6 +170,7 @@ export default function MCQCard({ mcq, onAnswer, onNext, isLast }: MCQCardProps)
               {mcq.explanation}
             </p>
           </div>
+          <TutorPanel questionId={mcq.id} chosenKey={selectedOption?.charAt(0)} isCorrect={selectedOption === mcq.correctAnswer} />
           <div className="flex flex-col sm:flex-row justify-end gap-2 mt-4 sm:mt-0 sm:sticky sm:bottom-4 z-20 
                           max-sm:fixed max-sm:bottom-0 max-sm:left-0 max-sm:right-0 max-sm:p-4 max-sm:bg-[var(--bg-1)] max-sm:border-t max-sm:border-[var(--border)] max-sm:shadow-[0_-4px_20px_rgba(0,0,0,0.1)]">
             <button

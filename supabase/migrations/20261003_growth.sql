@@ -47,3 +47,19 @@ alter table public.payment_requests enable row level security;
 
 -- 4. OTP brute-force protection (verify-otp locks a code after 5 wrong tries)
 alter table public.otp_sessions add column if not exists attempts int not null default 0;
+
+-- 5. AI tutor: shared answer cache + per-day usage counters
+create table if not exists public.tutor_cache (
+  cache_key   text primary key,          -- question_id|mode|chosen
+  answer      text not null,
+  created_at  timestamptz default now()
+);
+alter table public.tutor_cache enable row level security;
+
+create table if not exists public.tutor_usage (
+  usage_key   text not null,             -- email or ip:<addr>
+  day         date not null,
+  count       int not null default 0,
+  primary key (usage_key, day)
+);
+alter table public.tutor_usage enable row level security;
