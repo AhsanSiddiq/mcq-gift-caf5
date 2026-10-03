@@ -1,13 +1,13 @@
 "use client";
 
-import { useEffect, useMemo, useState, useSyncExternalStore } from "react";
+import { useCallback, useEffect, useMemo, useState, useSyncExternalStore } from "react";
 import Link from "next/link";
 import { Flame, Share2, Copy, Check, CalendarDays, ArrowRight } from "lucide-react";
 import MCQCard from "@/components/MCQCard";
 import AdSlot from "@/components/AdSlot";
 import type { MCQ } from "@/data/mcqs";
 
-const STORE_KEY = "cah_daily_v1";
+const storeKey = (body: string) => (body === "icap" ? "cah_daily_v1" : `cah_daily_v1_${body}`);
 
 interface DailyStore {
   streak: number;
@@ -18,8 +18,8 @@ interface DailyStore {
 
 const STORE_EVENT = "cah:daily-changed";
 
-function readRaw(): string | null {
-  try { return localStorage.getItem(STORE_KEY); } catch { return null; }
+function readRaw(key: string): string | null {
+  try { return localStorage.getItem(key); } catch { return null; }
 }
 
 function parseStore(raw: string | null): DailyStore {
@@ -29,8 +29,8 @@ function parseStore(raw: string | null): DailyStore {
   return { streak: 0, best: 0, history: {} };
 }
 
-function writeStore(s: DailyStore) {
-  try { localStorage.setItem(STORE_KEY, JSON.stringify(s)); } catch { /* ignore */ }
+function writeStore(key: string, s: DailyStore) {
+  try { localStorage.setItem(key, JSON.stringify(s)); } catch { /* ignore */ }
   window.dispatchEvent(new Event(STORE_EVENT));
 }
 
@@ -60,20 +60,23 @@ function useCountdownToNextDay() {
   return left;
 }
 
-export default function DailyChallenge({ date, number, subject, questions }: {
+export default function DailyChallenge({ date, number, subject, questions, body = "icap" }: {
+  body?: string;
   date: string;
   number: number;
-  subject: { id: string; title: string; level: string };
+  subject: { id: string; title: string; level: string; code?: string };
   questions: MCQ[];
 }) {
-  const raw = useSyncExternalStore(subscribe, readRaw, () => undefined);
+  const key = storeKey(body);
+  const getRaw = useCallback(() => readRaw(key), [key]);
+  const raw = useSyncExternalStore(subscribe, getRaw, () => undefined);
   const store = useMemo(() => (raw === undefined ? null : parseStore(raw)), [raw]);
   const [playing, setPlaying] = useState(false);
   const [index, setIndex] = useState(0);
   const [results, setResults] = useState<boolean[]>([]);
   const [copied, setCopied] = useState(false);
   const countdown = useCountdownToNextDay();
-  const code = subject.id.toUpperCase();
+  const code = subject.code ?? subject.id.toUpperCase();
 
   const today = store?.history[date];
   const phase: "intro" | "playing" | "done" = today ? "done" : playing ? "playing" : "intro";
@@ -84,12 +87,12 @@ export default function DailyChallenge({ date, number, subject, questions }: {
     () =>
       `The CA Hub Daily #${number} · ${code}\n${grid} ${score}/${questions.length}\n` +
       (store && store.streak > 1 ? `🔥 ${store.streak}-day streak\n` : "") +
-      `Can you beat me? https://www.thecahub.com/daily`,
-    [number, code, grid, score, questions.length, store]
+      `Can you beat me? https://www.thecahub.com/daily${body === "icap" ? "" : `/${body}`}`,
+    [number, code, grid, score, questions.length, store, body]
   );
 
   const finish = (final: boolean[]) => {
-    const s = parseStore(readRaw());
+    const s = parseStore(readRaw(key));
     const streak = s.last === date ? s.streak : s.last === prevDate(date) ? s.streak + 1 : 1;
     const next: DailyStore = {
       streak,
@@ -97,7 +100,7 @@ export default function DailyChallenge({ date, number, subject, questions }: {
       last: date,
       history: { ...s.history, [date]: { score: final.filter(Boolean).length, grid: final.map((r) => (r ? "🟩" : "🟥")).join("") } },
     };
-    writeStore(next);
+    writeStore(key, next);
     setPlaying(false);
   };
 

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { getSubjectMCQs } from "@/lib/questionBank";
 import { DAILY_SIZE, dailyNumber, dailySubject, seededPick, todayPKT } from "@/lib/daily";
+import { subjectCode } from "@/data/subjects";
 import DailyChallenge from "./DailyChallenge";
 
 // Re-evaluated every 10 minutes so the puzzle rolls over shortly after midnight PKT.
@@ -29,7 +30,7 @@ export default async function DailyPage() {
       <DailyChallenge
         date={date}
         number={dailyNumber(date)}
-        subject={{ id: subject.id, title: subject.title, level: subject.level.toLowerCase() }}
+        subject={{ id: subject.id, code: subjectCode(subject), title: subject.title, level: subject.level.toLowerCase() }}
         questions={questions}
       />
     </main>

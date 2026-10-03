@@ -1,4 +1,4 @@
-import { icapSubjects } from "@/data/subjects";
+import { allSubjects, subjectBody, type BodyId } from "@/data/subjects";
 
 /** Daily challenge #1 was 2026-10-01 (Pakistan time). */
 const EPOCH = Date.UTC(2026, 9, 1);
@@ -13,10 +13,18 @@ export function dailyNumber(date: string): number {
   return Math.floor((Date.parse(date + "T00:00:00Z") - EPOCH) / 86_400_000) + 1;
 }
 
-/** Rotate through every live subject, one per day. */
-export function dailySubject(date: string) {
-  // ICAP-only for now: one shared puzzle per audience keeps the WhatsApp-sharing loop tight
-  const live = icapSubjects.filter((s) => s.isAvailable);
+export function liveSubjectsFor(body: BodyId) {
+  return allSubjects.filter((s) => s.isAvailable && subjectBody(s) === body);
+}
+
+/** Bodies with at least one live subject (each gets its own daily puzzle). */
+export function dailyBodies(): BodyId[] {
+  return Array.from(new Set(allSubjects.filter((s) => s.isAvailable).map(subjectBody)));
+}
+
+/** Rotate through the body's live subjects, one per day — one shared puzzle per audience. */
+export function dailySubject(date: string, body: BodyId = "icap") {
+  const live = liveSubjectsFor(body);
   const n = dailyNumber(date);
   return live[((n % live.length) + live.length) % live.length];
 }
