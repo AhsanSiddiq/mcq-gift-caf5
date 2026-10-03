@@ -295,7 +295,7 @@ export const caInterSubjects: Subject[] = [
     level: "CA-INTER",
     body: "icai",
     description: "Companies Act 2013, LLP Act and general laws — Paper 2 MCQ practice.",
-    isAvailable: false,
+    isAvailable: true,
   },
   {
     id: "ca-inter-cma",
