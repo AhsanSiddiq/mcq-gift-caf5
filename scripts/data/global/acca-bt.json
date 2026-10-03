@@ -1,0 +1,2255 @@
+{
+  "subject_id": "acca-bt",
+  "questions": [
+    {
+      "id": "acca-bt-c01-q001",
+      "chapter": 1,
+      "topic": "Business organisation, structure and strategy",
+      "question_text": "Which of the following best describes the defining feature of an organisation?",
+      "options": {
+        "A": "Any group of people who work in the same building at the same time",
+        "B": "A legal entity registered with a government authority in order to trade",
+        "C": "A collection of physical assets used to produce goods for sale",
+        "D": "A social arrangement that pursues collective goals, controls its own performance and has a boundary separating it from its environment"
+      },
+      "correct": "D",
+      "explanation": "An organisation is a social arrangement for the controlled performance of collective goals, with a boundary separating it from its environment. People sharing a building are not necessarily pursuing shared goals. Legal registration and physical assets are features some organisations have, but neither defines an organisation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c01-q002",
+      "chapter": 1,
+      "topic": "Business organisation, structure and strategy",
+      "question_text": "A charity providing free meals to homeless people measures its success mainly by the number of people it helps within its budget. Which type of organisation is this?",
+      "options": {
+        "A": "A profit-seeking organisation",
+        "B": "A not-for-profit organisation",
+        "C": "A public sector organisation",
+        "D": "A co-operative"
+      },
+      "correct": "B",
+      "explanation": "A not-for-profit organisation's main objective is to provide a service or meet a social need, not to make a profit for owners. A surplus may arise but it is reinvested in the cause. A public sector body is owned or controlled by government, and a co-operative is owned by and run for the benefit of its members.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c01-q003",
+      "chapter": 1,
+      "topic": "Business organisation, structure and strategy",
+      "question_text": "In the context of public sector performance, 'value for money' is often analysed using three Es. Which of the following correctly defines 'efficiency'?",
+      "options": {
+        "A": "Obtaining inputs of the required quality at the lowest possible cost",
+        "B": "The relationship between the outputs produced and the resources used to produce them",
+        "C": "The extent to which the organisation achieves its stated objectives",
+        "D": "Ensuring that services are distributed fairly among the population"
+      },
+      "correct": "B",
+      "explanation": "Efficiency compares outputs with inputs, i.e. getting the most output from a given level of resources. Economy concerns buying inputs of appropriate quality at the lowest cost. Effectiveness concerns whether objectives are achieved. Fairness of distribution (equity) is sometimes added as a fourth E but it is not efficiency.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c01-q004",
+      "chapter": 1,
+      "topic": "Business organisation, structure and strategy",
+      "question_text": "Henrik owns a small accountancy practice in partnership with two colleagues. Which of the following is a feature of an ordinary (unlimited) partnership compared with a limited company?",
+      "options": {
+        "A": "The business has a separate legal personality from its owners",
+        "B": "Ownership can be transferred freely by selling shares",
+        "C": "The partners are personally liable for the debts of the business without limit",
+        "D": "The business must publish audited financial statements"
+      },
+      "correct": "C",
+      "explanation": "In an ordinary partnership the partners have unlimited personal liability for the firm's debts. A limited company has separate legal personality, its shares can be transferred, and it must file accounts publicly, with an audit normally required above certain size thresholds. Those features do not apply to an ordinary partnership.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c01-q005",
+      "chapter": 1,
+      "topic": "Business organisation, structure and strategy",
+      "question_text": "Mintzberg identified several building blocks of organisational structure. Which building block consists of the analysts, such as work-study engineers and planners, who design systems and standardise the work of others?",
+      "options": {
+        "A": "The strategic apex",
+        "B": "The support staff",
+        "C": "The operating core",
+        "D": "The technostructure"
+      },
+      "correct": "D",
+      "explanation": "The technostructure contains analysts who standardise work processes, outputs and skills, for example planners, accountants designing budgets and work-study specialists. The strategic apex is senior management, the support staff provide indirect services such as catering or legal advice, and the operating core performs the basic work of producing products or services.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c01-q006",
+      "chapter": 1,
+      "topic": "Business organisation, structure and strategy",
+      "question_text": "According to Mintzberg, which organisational configuration relies mainly on the standardisation of skills, with the operating core as its key part?",
+      "options": {
+        "A": "Machine bureaucracy",
+        "B": "Professional bureaucracy",
+        "C": "Divisionalised form",
+        "D": "Adhocracy"
+      },
+      "correct": "B",
+      "explanation": "In a professional bureaucracy, such as a hospital or accountancy firm, coordination is achieved by standardising the skills of highly trained professionals in the operating core. A machine bureaucracy relies on standardisation of work processes via the technostructure, the divisionalised form relies on standardisation of outputs via the middle line, and an adhocracy relies on mutual adjustment.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-bt-c01-q007",
+      "chapter": 1,
+      "topic": "Business organisation, structure and strategy",
+      "question_text": "An organisation has a structure in which employees report both to a functional manager and to a project manager. What type of structure is this?",
+      "options": {
+        "A": "Divisional structure",
+        "B": "Functional structure",
+        "C": "Matrix structure",
+        "D": "Entrepreneurial structure"
+      },
+      "correct": "C",
+      "explanation": "A matrix structure overlays project or product lines of authority on functional departments, so staff have dual reporting lines. This breaks Fayol's principle of unity of command and can lead to conflict, but it improves coordination across functions. Divisional and functional structures have single lines of authority, and an entrepreneurial structure is centred on the owner.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c01-q008",
+      "chapter": 1,
+      "topic": "Business organisation, structure and strategy",
+      "question_text": "Which of the following is most likely to be a consequence of a wide span of control?",
+      "options": {
+        "A": "Closer supervision of each subordinate by the manager",
+        "B": "Higher management overhead costs",
+        "C": "Slower communication between the top and bottom of the organisation",
+        "D": "A flatter organisation structure with fewer layers of management"
+      },
+      "correct": "D",
+      "explanation": "A wide span of control means each manager supervises many subordinates, so fewer management layers are needed and the structure is flat. This reduces overhead costs and speeds communication. Close supervision is associated with a narrow span of control and a taller structure.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c01-q009",
+      "chapter": 1,
+      "topic": "Business organisation, structure and strategy",
+      "question_text": "A company transfers its payroll, accounts payable and credit control activities from each of its regional subsidiaries into one central unit that provides these services to the whole group. What is this arrangement called?",
+      "options": {
+        "A": "A shared services centre",
+        "B": "Outsourcing",
+        "C": "Decentralisation",
+        "D": "A hollow organisation"
+      },
+      "correct": "A",
+      "explanation": "A shared services centre consolidates support activities from several parts of a group into a single internal unit. Outsourcing would involve a third-party provider, decentralisation pushes decision-making down rather than consolidating it, and a hollow organisation outsources most non-core processes externally.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c01-q010",
+      "chapter": 1,
+      "topic": "Business organisation, structure and strategy",
+      "question_text": "Johnson, Scholes and Whittington distinguish levels of strategy. A decision by a diversified group about which industries it should operate in is an example of which level?",
+      "options": {
+        "A": "Business strategy",
+        "B": "Operational strategy",
+        "C": "Corporate strategy",
+        "D": "Functional strategy"
+      },
+      "correct": "C",
+      "explanation": "Corporate strategy concerns the overall scope of the organisation, such as which businesses or markets it should be in and how resources are allocated between them. Business (competitive) strategy concerns how a single business unit competes in its market, and operational or functional strategies concern how individual parts of the organisation deliver those strategies.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-bt-c01-q011",
+      "chapter": 1,
+      "topic": "Business organisation, structure and strategy",
+      "question_text": "In a SWOT analysis, which of the following would be classified as a weakness?",
+      "options": {
+        "A": "A competitor is about to launch a cheaper rival product",
+        "B": "The organisation depends heavily on a small number of ageing machines",
+        "C": "New legislation is expected to increase compliance costs",
+        "D": "A growing market exists for products in a neighbouring country"
+      },
+      "correct": "B",
+      "explanation": "Strengths and weaknesses are internal to the organisation, whereas opportunities and threats arise in the external environment. Reliance on ageing machines is an internal weakness. A competitor's launch and new legislation are external threats, and a growing overseas market is an external opportunity.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c02-q001",
+      "chapter": 2,
+      "topic": "Stakeholders and the external environment",
+      "question_text": "Which of the following is an internal stakeholder of a company?",
+      "options": {
+        "A": "Its bank",
+        "B": "Its employees",
+        "C": "Its customers",
+        "D": "The local community"
+      },
+      "correct": "B",
+      "explanation": "Internal stakeholders are those inside the organisation, such as employees and managers. Banks and customers are connected stakeholders, having a contractual or economic relationship with the organisation, and the local community is an external stakeholder.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c02-q002",
+      "chapter": 2,
+      "topic": "Stakeholders and the external environment",
+      "question_text": "Using Mendelow's matrix, a stakeholder group has high power but low interest in a proposed project. What strategy should management adopt towards this group?",
+      "options": {
+        "A": "Keep satisfied",
+        "B": "Manage closely as a key player",
+        "C": "Keep informed",
+        "D": "Minimal effort"
+      },
+      "correct": "A",
+      "explanation": "Mendelow's matrix plots power against interest. High power with low interest calls for keeping the group satisfied so that it does not become interested and use its power against the project. High power and high interest are key players, low power and high interest should be kept informed, and low power with low interest needs minimal effort.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c02-q003",
+      "chapter": 2,
+      "topic": "Stakeholders and the external environment",
+      "question_text": "A government environmental regulator has significant power over a proposed new chemical plant and has publicly stated it will scrutinise the plans closely. Under Mendelow's matrix, how should the company treat the regulator?",
+      "options": {
+        "A": "As a group to keep satisfied, with information provided only if requested",
+        "B": "As a key player whose views must be considered and managed closely",
+        "C": "As a group to keep informed, since it cannot stop the project",
+        "D": "As a low-priority group requiring minimal effort"
+      },
+      "correct": "B",
+      "explanation": "The regulator has high power (it can block or condition the project) and has shown high interest by announcing close scrutiny. High power and high interest place it in the key player quadrant, so its views should be actively considered and managed. Keeping it merely satisfied would underestimate its expressed interest.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-bt-c02-q004",
+      "chapter": 2,
+      "topic": "Stakeholders and the external environment",
+      "question_text": "In a PESTEL analysis, a change in the age structure of a country's population would be classified under which heading?",
+      "options": {
+        "A": "Political",
+        "B": "Economic",
+        "C": "Technological",
+        "D": "Social"
+      },
+      "correct": "D",
+      "explanation": "Demographic factors such as age structure, birth rates and household composition are social factors in a PESTEL analysis. Political factors concern government stability and policy, economic factors concern items such as growth, inflation and interest rates, and technological factors concern innovation and new processes.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c02-q005",
+      "chapter": 2,
+      "topic": "Stakeholders and the external environment",
+      "question_text": "New legislation imposes binding limits on the carbon emissions that a company's factories may produce, which will require expensive changes to its plant. In a PESTEL analysis, the emission limits themselves are best classified under which headings?",
+      "options": {
+        "A": "Environmental and legal",
+        "B": "Social and economic",
+        "C": "Technological only",
+        "D": "Social and technological"
+      },
+      "correct": "A",
+      "explanation": "The limits concern the natural environment (pollution and climate change) and are binding because they are imposed by legislation, so they fall under the environmental and legal headings. The policy debate that led to the law has a political dimension, but the stem asks about the binding limits themselves. They are not social factors, and although the company may need new technology to comply, the limits are not a technological factor in themselves.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c02-q006",
+      "chapter": 2,
+      "topic": "Stakeholders and the external environment",
+      "question_text": "Which of the following is NOT one of Porter's five competitive forces?",
+      "options": {
+        "A": "The threat of new entrants",
+        "B": "The bargaining power of suppliers",
+        "C": "The threat of substitute products",
+        "D": "The power of the government"
+      },
+      "correct": "D",
+      "explanation": "Porter's five forces are the threat of new entrants, the threat of substitutes, the bargaining power of customers, the bargaining power of suppliers and competitive rivalry. Government is not one of the five forces, although government policy can affect each force, for example by creating barriers to entry.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c02-q007",
+      "chapter": 2,
+      "topic": "Stakeholders and the external environment",
+      "question_text": "Which of the following is most likely to INCREASE the bargaining power of a company's suppliers?",
+      "options": {
+        "A": "There are many suppliers offering an identical product",
+        "B": "The company buys a large proportion of each supplier's output",
+        "C": "The company would incur high costs if it switched to a different supplier",
+        "D": "The company could easily make the component itself"
+      },
+      "correct": "C",
+      "explanation": "High switching costs lock the buyer in and strengthen the supplier's position. Many suppliers of an identical product, a buyer that takes a large share of suppliers' output, and a credible threat of backward integration by the buyer all reduce supplier power.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c02-q008",
+      "chapter": 2,
+      "topic": "Stakeholders and the external environment",
+      "question_text": "A new business wishes to enter an industry where existing firms enjoy large economies of scale, strong brand loyalty and exclusive access to distribution channels. In terms of Porter's five forces, what does this indicate?",
+      "options": {
+        "A": "Low barriers to entry, so the threat of new entrants is high",
+        "B": "High competitive rivalry, so profitability is low",
+        "C": "High buyer power, so prices are likely to fall",
+        "D": "High barriers to entry, so the threat of new entrants is low"
+      },
+      "correct": "D",
+      "explanation": "Economies of scale, brand loyalty and control of distribution channels are classic barriers to entry. High barriers make it difficult for newcomers to enter, so the threat of new entrants is low, which tends to protect incumbent profitability. The scenario says nothing directly about rivalry levels or buyer power.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-bt-c02-q009",
+      "chapter": 2,
+      "topic": "Stakeholders and the external environment",
+      "question_text": "In Porter's value chain, which of the following is classified as a primary activity?",
+      "options": {
+        "A": "Procurement",
+        "B": "Human resource management",
+        "C": "Outbound logistics",
+        "D": "Technology development"
+      },
+      "correct": "C",
+      "explanation": "The primary activities are inbound logistics, operations, outbound logistics, marketing and sales, and service. Procurement, human resource management, technology development and firm infrastructure are support activities that assist the primary activities.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c02-q010",
+      "chapter": 2,
+      "topic": "Stakeholders and the external environment",
+      "question_text": "A furniture retailer offers free assembly and a five-year repair service after delivery. In Porter's value chain, which primary activity does the repair service fall under?",
+      "options": {
+        "A": "Outbound logistics",
+        "B": "Marketing and sales",
+        "C": "Operations",
+        "D": "Service"
+      },
+      "correct": "D",
+      "explanation": "Service covers activities that maintain or enhance a product's value after sale, such as installation, repair and after-sales support. Outbound logistics concerns storing and distributing the finished product to the customer, marketing and sales concerns persuading customers to buy, and operations converts inputs into the final product.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-bt-c02-q011",
+      "chapter": 2,
+      "topic": "Stakeholders and the external environment",
+      "question_text": "Which of the following stakeholder groups is generally regarded as having the primary objective of maximising the long-term value of their investment in a company?",
+      "options": {
+        "A": "Shareholders",
+        "B": "Employees",
+        "C": "Suppliers",
+        "D": "Customers"
+      },
+      "correct": "A",
+      "explanation": "Shareholders invest capital and normally seek to maximise the value of that investment through dividends and share price growth. Employees seek pay, security and good conditions, suppliers seek regular orders and prompt payment, and customers seek quality products at fair prices.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c03-q001",
+      "chapter": 3,
+      "topic": "The economic environment: micro and macroeconomics",
+      "question_text": "When the price of a product rises from $20 to $22, the quantity demanded falls from 5,000 units to 4,400 units. Using percentage changes based on the original price and quantity, what is the price elasticity of demand (ignoring the minus sign) and what happens to total revenue?",
+      "options": {
+        "A": "1.2; total revenue falls",
+        "B": "0.83; total revenue rises",
+        "C": "1.2; total revenue rises",
+        "D": "0.83; total revenue falls"
+      },
+      "correct": "A",
+      "explanation": "Percentage change in quantity = (4,400 - 5,000) / 5,000 = -12%. Percentage change in price = (22 - 20) / 20 = +10%. PED = 12% / 10% = 1.2, so demand is price elastic. Total revenue falls from $100,000 (5,000 x $20) to $96,800 (4,400 x $22), which is consistent with elastic demand: a price rise reduces revenue. The figure 0.83 results from dividing the price change by the quantity change.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-bt-c03-q002",
+      "chapter": 3,
+      "topic": "The economic environment: micro and macroeconomics",
+      "question_text": "Average household income rises by 5% and, as a result, demand for a particular product falls by 2%. What is the income elasticity of demand and how would the product be classified?",
+      "options": {
+        "A": "+0.4; a normal good",
+        "B": "-2.5; an inferior good",
+        "C": "+2.5; a luxury good",
+        "D": "-0.4; an inferior good"
+      },
+      "correct": "D",
+      "explanation": "Income elasticity of demand = percentage change in quantity demanded / percentage change in income = -2% / +5% = -0.4. A negative income elasticity means demand falls as income rises, which defines an inferior good. The value -2.5 comes from inverting the calculation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c03-q003",
+      "chapter": 3,
+      "topic": "The economic environment: micro and macroeconomics",
+      "question_text": "The price of product Y rises by 8% and, as a result, the quantity demanded of product X rises by 4%. What is the cross elasticity of demand for X with respect to the price of Y, and what is the relationship between the goods?",
+      "options": {
+        "A": "+0.5; substitutes",
+        "B": "-0.5; complements",
+        "C": "+2.0; substitutes",
+        "D": "+0.5; complements"
+      },
+      "correct": "A",
+      "explanation": "Cross elasticity = percentage change in quantity of X / percentage change in price of Y = +4% / +8% = +0.5. A positive cross elasticity means that when Y becomes more expensive consumers switch to X, so the goods are substitutes. Complements have a negative cross elasticity. The value 2.0 results from inverting the ratio.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c03-q004",
+      "chapter": 3,
+      "topic": "The economic environment: micro and macroeconomics",
+      "question_text": "Which of the following would cause a shift of the demand curve for a normal good to the right, rather than a movement along it?",
+      "options": {
+        "A": "An increase in consumers' disposable income",
+        "B": "A fall in the price of the good itself",
+        "C": "A rise in the price of the good itself",
+        "D": "An increase in the cost of raw materials used to make the good"
+      },
+      "correct": "A",
+      "explanation": "A change in the good's own price causes a movement along the demand curve, not a shift. A rise in income increases demand for a normal good at every price, shifting the curve to the right. Higher raw material costs affect supply, shifting the supply curve, not demand.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c03-q005",
+      "chapter": 3,
+      "topic": "The economic environment: micro and macroeconomics",
+      "question_text": "Which of the following is a characteristic of a perfectly competitive market?",
+      "options": {
+        "A": "There are significant barriers to entry protecting existing firms",
+        "B": "A few large firms dominate and react to each other's pricing decisions",
+        "C": "Firms differentiate their products through branding",
+        "D": "Each firm is a price taker and sells a homogeneous product"
+      },
+      "correct": "D",
+      "explanation": "In perfect competition there are many buyers and sellers, products are identical, information is perfect and there are no barriers to entry, so each firm must accept the market price. Barriers to entry are associated with monopoly, interdependent pricing among a few large firms describes oligopoly, and branding describes monopolistic competition.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c03-q006",
+      "chapter": 3,
+      "topic": "The economic environment: micro and macroeconomics",
+      "question_text": "A government sets a legal minimum price for a product above the market equilibrium price. What is the most likely result?",
+      "options": {
+        "A": "A shortage, because quantity demanded exceeds quantity supplied",
+        "B": "A surplus, because quantity supplied exceeds quantity demanded",
+        "C": "No effect, because the market will continue to clear at equilibrium",
+        "D": "A fall in the price paid by consumers"
+      },
+      "correct": "B",
+      "explanation": "A minimum price set above equilibrium raises the price, which reduces quantity demanded and increases quantity supplied, so a surplus arises. A shortage would result from a maximum price set below equilibrium. A minimum price below equilibrium would have no effect, but here it is above equilibrium.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c03-q007",
+      "chapter": 3,
+      "topic": "The economic environment: micro and macroeconomics",
+      "question_text": "Rising wage costs and higher imported raw material prices are pushing up prices across an economy. What type of inflation is this?",
+      "options": {
+        "A": "Demand-pull inflation",
+        "B": "Imported deflation",
+        "C": "Structural unemployment",
+        "D": "Cost-push inflation"
+      },
+      "correct": "D",
+      "explanation": "Cost-push inflation arises when increases in costs of production, such as wages and imported materials, are passed on as higher prices. Demand-pull inflation is caused by excess aggregate demand relative to the economy's capacity. Structural unemployment is not a type of inflation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c03-q008",
+      "chapter": 3,
+      "topic": "The economic environment: micro and macroeconomics",
+      "question_text": "Workers lose their jobs because the coal mining industry in their region has permanently declined, and their skills are not needed by expanding industries. What type of unemployment is this?",
+      "options": {
+        "A": "Structural unemployment",
+        "B": "Frictional unemployment",
+        "C": "Cyclical unemployment",
+        "D": "Seasonal unemployment"
+      },
+      "correct": "A",
+      "explanation": "Structural unemployment results from long-term changes in the structure of the economy, leaving a mismatch between workers' skills or locations and available jobs. Frictional unemployment is the short time spent moving between jobs, cyclical unemployment arises from a downturn in the business cycle, and seasonal unemployment is linked to particular times of year.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c03-q009",
+      "chapter": 3,
+      "topic": "The economic environment: micro and macroeconomics",
+      "question_text": "In an open economy, the marginal propensity to save is 0.15, the marginal rate of taxation is 0.06 and the marginal propensity to import is 0.04. The government increases its spending by $30 million. By how much will national income eventually increase?",
+      "options": {
+        "A": "$120 million",
+        "B": "$200 million",
+        "C": "$37.5 million",
+        "D": "$750 million"
+      },
+      "correct": "A",
+      "explanation": "Total marginal propensity to withdraw = 0.15 + 0.06 + 0.04 = 0.25. The multiplier = 1 / 0.25 = 4. The increase in national income = $30 million x 4 = $120 million. Using only the savings ratio gives a multiplier of 1 / 0.15 = 6.67 and $200 million, which ignores taxes and imports; $37.5 million wrongly divides by 0.8; $750 million wrongly divides the spending by the withdrawal rate of 0.04.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-bt-c03-q010",
+      "chapter": 3,
+      "topic": "The economic environment: micro and macroeconomics",
+      "question_text": "Which of the following is an example of contractionary fiscal policy?",
+      "options": {
+        "A": "Reducing interest rates to encourage borrowing",
+        "B": "Increasing government spending on infrastructure",
+        "C": "Selling government bonds to reduce the money supply",
+        "D": "Increasing income tax rates while keeping government spending unchanged"
+      },
+      "correct": "D",
+      "explanation": "Fiscal policy concerns government taxation and spending. Raising taxes without increasing spending withdraws demand from the economy, so it is contractionary. Changing interest rates and open market operations in government bonds are monetary policy tools. Increasing government spending is expansionary fiscal policy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c03-q011",
+      "chapter": 3,
+      "topic": "The economic environment: micro and macroeconomics",
+      "question_text": "In the circular flow of income, which of the following is an injection into the flow?",
+      "options": {
+        "A": "Savings",
+        "B": "Taxation",
+        "C": "Exports",
+        "D": "Imports"
+      },
+      "correct": "C",
+      "explanation": "Injections are investment, government spending and exports, which add to the circular flow of income. Savings, taxation and imports are withdrawals (leakages) from the flow.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c04-q001",
+      "chapter": 4,
+      "topic": "Corporate governance and social responsibility",
+      "question_text": "The need for corporate governance arises mainly from which of the following?",
+      "options": {
+        "A": "The requirement for companies to pay corporation tax",
+        "B": "The need for companies to publish marketing information",
+        "C": "The separation of ownership of a company from its control by management",
+        "D": "The existence of competition between companies in the same industry"
+      },
+      "correct": "C",
+      "explanation": "Corporate governance addresses the agency problem: shareholders (principals) own the company but directors (agents) control it, and the directors may act in their own interests rather than the owners'. Governance mechanisms aim to align the two. Tax, marketing and competition are not the root cause of governance requirements.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c04-q002",
+      "chapter": 4,
+      "topic": "Corporate governance and social responsibility",
+      "question_text": "Which of the following is the most important role of independent non-executive directors on a company's board?",
+      "options": {
+        "A": "To manage the day-to-day operations of the company's divisions",
+        "B": "To provide independent scrutiny and challenge of the executive directors' performance and decisions",
+        "C": "To prepare the company's financial statements",
+        "D": "To act as the company's external auditors"
+      },
+      "correct": "B",
+      "explanation": "Independent non-executive directors bring objective judgement, monitor and challenge the executives, and typically sit on audit, remuneration and nomination committees. They are not involved in day-to-day management or in preparing the financial statements, and they cannot act as external auditors, which must be independent of the board.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c04-q003",
+      "chapter": 4,
+      "topic": "Corporate governance and social responsibility",
+      "question_text": "Which board committee is normally responsible for monitoring the integrity of the financial statements and overseeing the relationship with the external auditor?",
+      "options": {
+        "A": "The remuneration committee",
+        "B": "The nomination committee",
+        "C": "The audit committee",
+        "D": "The risk committee of executive directors"
+      },
+      "correct": "C",
+      "explanation": "The audit committee, made up of independent non-executive directors, reviews financial reporting, internal controls and the internal audit function, and oversees the appointment, independence and work of the external auditor. The remuneration committee sets executive pay and the nomination committee leads board appointments.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c04-q004",
+      "chapter": 4,
+      "topic": "Corporate governance and social responsibility",
+      "question_text": "Why is it generally recommended that the roles of chairman and chief executive officer be held by different individuals?",
+      "options": {
+        "A": "To reduce the total cost of directors' remuneration",
+        "B": "Because the chief executive must be a non-executive director",
+        "C": "To avoid too much power being concentrated in one person",
+        "D": "To ensure that the company has more shareholders"
+      },
+      "correct": "C",
+      "explanation": "Separating the roles means the chairman can run the board and hold the executive team to account, while the chief executive runs the business. Combining them would concentrate unchecked power in one individual. The separation is not about cost, the CEO is an executive director, and it has no effect on the number of shareholders.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c04-q005",
+      "chapter": 4,
+      "topic": "Corporate governance and social responsibility",
+      "question_text": "A 'comply or explain' approach to corporate governance is characteristic of which type of regime?",
+      "options": {
+        "A": "A rules-based regime",
+        "B": "A regime with no regulation",
+        "C": "A principles-based regime",
+        "D": "A regime that applies only to private companies"
+      },
+      "correct": "C",
+      "explanation": "Under a principles-based approach, companies are expected to follow a code of best practice but may depart from a provision if they explain why. A rules-based regime requires mandatory compliance with detailed rules, with legal penalties for breach, and so does not permit an 'explain' alternative.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c04-q006",
+      "chapter": 4,
+      "topic": "Corporate governance and social responsibility",
+      "question_text": "Which of the following would most clearly threaten the independence of a non-executive director?",
+      "options": {
+        "A": "She was employed as the company's finance director until two years ago",
+        "B": "She is a non-executive director of an unrelated company in a different industry",
+        "C": "She holds a professional accountancy qualification",
+        "D": "She receives a fixed annual fee for her board duties"
+      },
+      "correct": "A",
+      "explanation": "Recent employment with the company, particularly in a senior executive role, creates a relationship that could compromise objective scrutiny of former colleagues and of decisions she was involved in. A board seat at an unrelated company, a professional qualification and a fixed fee do not of themselves impair independence; a fixed fee is in fact preferred to performance-related pay for NEDs. Governance codes, such as the UK Corporate Governance Code, typically regard employment by the company within the last five years as a factor that may impair a non-executive director's independence.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-bt-c04-q007",
+      "chapter": 4,
+      "topic": "Corporate governance and social responsibility",
+      "question_text": "Carroll's pyramid of corporate social responsibility identifies four levels. Which level forms the base of the pyramid?",
+      "options": {
+        "A": "Legal responsibilities",
+        "B": "Ethical responsibilities",
+        "C": "Economic responsibilities",
+        "D": "Philanthropic responsibilities"
+      },
+      "correct": "C",
+      "explanation": "Carroll's pyramid places economic responsibilities (being profitable) at the base, followed by legal responsibilities (obeying the law), ethical responsibilities (doing what is right and fair) and, at the top, philanthropic responsibilities (being a good corporate citizen). The base reflects that a business must survive economically to fulfil the others.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c04-q008",
+      "chapter": 4,
+      "topic": "Corporate governance and social responsibility",
+      "question_text": "A company voluntarily funds a scholarship scheme for students from deprived areas, even though it has no legal obligation to do so and gains no direct commercial benefit. In Carroll's framework, this is an example of which responsibility?",
+      "options": {
+        "A": "Economic",
+        "B": "Philanthropic",
+        "C": "Legal",
+        "D": "Ethical"
+      },
+      "correct": "B",
+      "explanation": "Philanthropic responsibilities are discretionary activities that contribute to society, such as donations and community programmes, and are desired rather than expected. Ethical responsibilities concern acting fairly and avoiding harm beyond legal requirements, legal responsibilities concern compliance with the law, and economic responsibilities concern profitability.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c04-q009",
+      "chapter": 4,
+      "topic": "Corporate governance and social responsibility",
+      "question_text": "Which view of corporate social responsibility argues that the only social responsibility of a business is to maximise profits for its shareholders within the rules of the game?",
+      "options": {
+        "A": "The stakeholder view",
+        "B": "The view associated with Milton Friedman",
+        "C": "The view associated with Carroll's philanthropic level",
+        "D": "The triple bottom line view"
+      },
+      "correct": "B",
+      "explanation": "Friedman argued that managers are agents of shareholders and that spending company funds on social causes is effectively taxing the owners without their consent, so a business's responsibility is to make profit within the law and ethical custom. The stakeholder view and the triple bottom line (people, planet, profit) both take a broader view of corporate responsibility.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c04-q010",
+      "chapter": 4,
+      "topic": "Corporate governance and social responsibility",
+      "question_text": "A listed company's remuneration committee is designing an incentive scheme for executive directors. Which feature would best align directors' interests with those of shareholders over the long term?",
+      "options": {
+        "A": "An annual cash bonus based solely on reported profit for the current year",
+        "B": "A fixed salary with no performance-related element",
+        "C": "Share options that can be exercised immediately on grant",
+        "D": "Share awards that vest only if total shareholder return targets are met over a three-year period"
+      },
+      "correct": "D",
+      "explanation": "Long-term share-based awards linked to shareholder return give directors a stake in sustainable value creation. A bonus based only on current-year profit encourages short-termism and possible earnings manipulation, a fixed salary provides no incentive alignment, and options exercisable immediately reward no future performance.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-bt-c04-q011",
+      "chapter": 4,
+      "topic": "Corporate governance and social responsibility",
+      "question_text": "The 'triple bottom line' approach to reporting performance focuses on which three areas?",
+      "options": {
+        "A": "Social, environmental and economic performance",
+        "B": "Revenue, costs and profit",
+        "C": "Customers, suppliers and employees",
+        "D": "Planning, organising and controlling"
+      },
+      "correct": "A",
+      "explanation": "The triple bottom line, often summarised as people, planet and profit, asks organisations to report on their social, environmental and economic impact rather than financial profit alone. The other options list financial measures, stakeholder groups and management functions respectively.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c05-q001",
+      "chapter": 5,
+      "topic": "The role of accounting and the finance function",
+      "question_text": "Which of the following is the main purpose of financial accounting?",
+      "options": {
+        "A": "To record transactions and produce financial statements for external users",
+        "B": "To provide detailed costing information for internal decision-making",
+        "C": "To manage the organisation's cash investments and borrowing",
+        "D": "To set the organisation's long-term strategy"
+      },
+      "correct": "A",
+      "explanation": "Financial accounting records the organisation's transactions and summarises them in financial statements, mainly for external users such as shareholders, lenders and tax authorities. Detailed costing for internal decisions is management accounting, managing cash and borrowing is the treasury function, and strategy-setting is the role of the board.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c05-q002",
+      "chapter": 5,
+      "topic": "The role of accounting and the finance function",
+      "question_text": "Which of the following is a typical feature of management accounting information?",
+      "options": {
+        "A": "It may be prepared in any format that is useful to managers and often includes forecasts",
+        "B": "It must be prepared in accordance with International Financial Reporting Standards",
+        "C": "It is mainly produced for shareholders and lenders",
+        "D": "It is required to be audited by an independent external auditor"
+      },
+      "correct": "A",
+      "explanation": "Management accounting serves internal managers, so there is no prescribed format and it frequently includes budgets, forecasts and non-financial information. Compliance with IFRS, a focus on shareholders and lenders, and external audit are characteristics of published financial statements.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c05-q003",
+      "chapter": 5,
+      "topic": "The role of accounting and the finance function",
+      "question_text": "Which of the following activities is most likely to be carried out by an organisation's treasury function?",
+      "options": {
+        "A": "Preparing standard costs for products",
+        "B": "Managing foreign currency exposure and short-term cash surpluses",
+        "C": "Maintaining the sales ledger",
+        "D": "Recording depreciation in the general ledger"
+      },
+      "correct": "B",
+      "explanation": "Treasury management covers liquidity, cash investment, borrowing, and managing currency and interest rate risk. Standard costing is a management accounting task, while maintaining the sales ledger and posting depreciation are financial accounting tasks.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c05-q004",
+      "chapter": 5,
+      "topic": "The role of accounting and the finance function",
+      "question_text": "Which of the following best describes the role of the management accountant in the 'control' stage of the management process?",
+      "options": {
+        "A": "Recording all sales invoices in the receivables ledger",
+        "B": "Comparing actual results with budgets and reporting variances for management action",
+        "C": "Negotiating new long-term loan finance with banks",
+        "D": "Designing the company's marketing campaigns"
+      },
+      "correct": "B",
+      "explanation": "Control involves monitoring actual performance against plans, identifying variances and enabling managers to take corrective action. Management accountants support this through budgetary control and variance reports. Recording invoices is transaction processing, negotiating loans is treasury, and marketing campaigns are a marketing responsibility.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c05-q005",
+      "chapter": 5,
+      "topic": "The role of accounting and the finance function",
+      "question_text": "Which of the following systems is used to record routine, day-to-day business transactions such as sales and purchases?",
+      "options": {
+        "A": "An executive information system",
+        "B": "A decision support system",
+        "C": "A transaction processing system",
+        "D": "An expert system"
+      },
+      "correct": "C",
+      "explanation": "A transaction processing system records high volumes of routine transactions and provides the base data for other systems. Executive information systems give senior managers summarised strategic information, decision support systems help managers analyse semi-structured problems, and expert systems apply stored specialist knowledge to give advice.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c05-q006",
+      "chapter": 5,
+      "topic": "The role of accounting and the finance function",
+      "question_text": "Information for decision-making should have certain qualities. Which of the following is the best example of 'relevance'?",
+      "options": {
+        "A": "A report for a pricing decision that includes only costs that will change as a result of the decision",
+        "B": "A report produced within one day of the period end",
+        "C": "A report that has been checked by the internal auditors for errors",
+        "D": "A report that is presented using clear charts and tables"
+      },
+      "correct": "A",
+      "explanation": "Relevant information is information that is useful for its purpose and relates to the decision being made, such as future incremental costs for a pricing decision. Speed of production relates to timeliness, checking for errors relates to accuracy, and clear presentation relates to understandability.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c05-q007",
+      "chapter": 5,
+      "topic": "The role of accounting and the finance function",
+      "question_text": "The accounting function interacts with other parts of the organisation. Which of the following is most likely to require information from the purchasing department?",
+      "options": {
+        "A": "The receivables section, to chase overdue customer accounts",
+        "B": "The payroll section, to calculate employees' overtime pay",
+        "C": "The accounts payable section, to match supplier invoices with orders",
+        "D": "The treasury section, to arrange an overdraft facility"
+      },
+      "correct": "C",
+      "explanation": "Accounts payable needs purchase orders (and goods received notes) from purchasing to perform a matching check before supplier invoices are approved for payment. Receivables chasing relies on sales data, payroll relies on HR and timesheet data, and arranging an overdraft relies on cash flow forecasts.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c05-q008",
+      "chapter": 5,
+      "topic": "The role of accounting and the finance function",
+      "question_text": "A company's payroll process involves calculating gross pay, deducting tax and other amounts, and paying employees. Which of the following is the most effective control to prevent payments to fictitious employees?",
+      "options": {
+        "A": "Requiring the HR department, not payroll staff, to authorise additions to the employee master file",
+        "B": "Checking the arithmetic of the total payroll each month",
+        "C": "Paying all employees by bank transfer rather than cash",
+        "D": "Comparing total payroll cost with the previous month"
+      },
+      "correct": "A",
+      "explanation": "Segregating the authority to add new employees (HR) from the processing of pay (payroll) prevents a payroll clerk from creating and paying a fictitious 'ghost' employee. Arithmetic checks do not detect fictitious names, bank transfers can be made to a fraudster's account, and month-on-month comparisons would not detect a small, consistent fraud.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-bt-c05-q009",
+      "chapter": 5,
+      "topic": "The role of accounting and the finance function",
+      "question_text": "Which of the following users of financial statements is most interested in assessing whether a company can repay loans when they fall due?",
+      "options": {
+        "A": "Lenders",
+        "B": "Employees",
+        "C": "The general public",
+        "D": "Competitors"
+      },
+      "correct": "A",
+      "explanation": "Lenders, such as banks and bondholders, use financial statements primarily to assess the entity's liquidity and ability to meet interest and capital repayments. Employees focus on job security and pay, the public on wider impact, and competitors on comparative performance.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c05-q010",
+      "chapter": 5,
+      "topic": "The role of accounting and the finance function",
+      "question_text": "Which of the following best describes the role of the finance function in an organisation that uses 'business partnering'?",
+      "options": {
+        "A": "Finance staff work alongside operational managers to provide insight and support decision-making",
+        "B": "Finance staff are relocated to a separate country to reduce processing costs",
+        "C": "All routine accounting is replaced by software so the finance function is removed",
+        "D": "The finance function concentrates solely on statutory reporting and tax compliance"
+      },
+      "correct": "A",
+      "explanation": "Business partnering involves finance professionals working closely with operational managers, interpreting data and contributing to planning and decisions rather than simply recording transactions. Relocation describes offshoring, automation does not remove the need for finance expertise, and a sole focus on compliance is the opposite of a partnering role.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-bt-c06-q001",
+      "chapter": 6,
+      "topic": "Technology and information systems",
+      "question_text": "A company accesses accounting software over the internet on a subscription basis, with the provider responsible for hosting, maintenance and upgrades. Which cloud service model is this?",
+      "options": {
+        "A": "Infrastructure as a Service (IaaS)",
+        "B": "Platform as a Service (PaaS)",
+        "C": "On-premise licensing",
+        "D": "Software as a Service (SaaS)"
+      },
+      "correct": "D",
+      "explanation": "SaaS delivers complete applications over the internet, with the provider managing the software and infrastructure. IaaS provides raw computing resources such as servers and storage, PaaS provides an environment on which customers build and run their own applications, and on-premise software is installed and run on the customer's own hardware.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c06-q002",
+      "chapter": 6,
+      "topic": "Technology and information systems",
+      "question_text": "Which of the following is a recognised DISADVANTAGE of cloud computing for an organisation?",
+      "options": {
+        "A": "Dependence on the provider and on internet connectivity for access to systems and data",
+        "B": "The need for large up-front capital expenditure on servers",
+        "C": "Difficulty in increasing capacity as the business grows",
+        "D": "Staff can only access systems from inside the office"
+      },
+      "correct": "A",
+      "explanation": "Cloud computing creates reliance on the provider's security, reliability and continued existence, and on a working internet connection. Large up-front investment and difficulty scaling are disadvantages of in-house systems that the cloud helps to avoid, and cloud systems typically allow access from any location.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c06-q003",
+      "chapter": 6,
+      "topic": "Technology and information systems",
+      "question_text": "Big data is often described in terms of several 'Vs'. Which of these refers to the speed at which data is generated and must be processed?",
+      "options": {
+        "A": "Volume",
+        "B": "Velocity",
+        "C": "Variety",
+        "D": "Veracity"
+      },
+      "correct": "B",
+      "explanation": "Velocity refers to the speed at which data arrives and needs processing, often in real time. Volume is the sheer quantity of data, variety is the range of formats (structured, unstructured, images, text), and veracity concerns the reliability and accuracy of the data.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c06-q004",
+      "chapter": 6,
+      "topic": "Technology and information systems",
+      "question_text": "A retailer uses historical sales data, weather forecasts and local events information to estimate how much stock each store will need next week. What type of data analytics is this?",
+      "options": {
+        "A": "Descriptive analytics",
+        "B": "Predictive analytics",
+        "C": "Diagnostic analytics",
+        "D": "Prescriptive analytics"
+      },
+      "correct": "B",
+      "explanation": "Predictive analytics uses historical and current data to forecast what is likely to happen. Descriptive analytics summarises what has happened, diagnostic analytics explains why it happened, and prescriptive analytics goes further by recommending the best course of action.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-bt-c06-q005",
+      "chapter": 6,
+      "topic": "Technology and information systems",
+      "question_text": "What is the main characteristic of blockchain technology?",
+      "options": {
+        "A": "A central database controlled by a single trusted bank",
+        "B": "A distributed ledger in which records are shared across a network and are extremely difficult to alter once added",
+        "C": "A type of anti-virus software used to protect financial systems",
+        "D": "A cloud storage service that automatically deletes old transactions"
+      },
+      "correct": "B",
+      "explanation": "Blockchain is a form of distributed ledger technology: copies of the ledger are held across many participants, new blocks are validated by consensus and cryptographically linked, making past records very hard to change. It does not rely on a single central authority, it is not anti-virus software, and it does not delete old transactions.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c06-q006",
+      "chapter": 6,
+      "topic": "Technology and information systems",
+      "question_text": "An employee receives an email that appears to come from the company's bank, asking them to click a link and confirm the company's online banking password. What type of cyber attack is this most likely to be?",
+      "options": {
+        "A": "Denial of service",
+        "B": "Hacking by brute force",
+        "C": "Ransomware encryption",
+        "D": "Phishing"
+      },
+      "correct": "D",
+      "explanation": "Phishing uses fraudulent communications that impersonate trusted organisations to trick users into revealing credentials or other sensitive information. A denial of service attack floods a system to make it unavailable, brute force hacking repeatedly guesses passwords, and ransomware encrypts data and demands payment.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c06-q007",
+      "chapter": 6,
+      "topic": "Technology and information systems",
+      "question_text": "Which of the following controls is specifically designed to prevent unauthorised external access to an organisation's network from the internet?",
+      "options": {
+        "A": "Regular data back-ups",
+        "B": "An uninterruptible power supply",
+        "C": "A firewall",
+        "D": "A disaster recovery plan"
+      },
+      "correct": "C",
+      "explanation": "A firewall monitors and filters traffic between the internal network and external networks, blocking unauthorised access. Back-ups, an uninterruptible power supply and a disaster recovery plan help an organisation recover from or withstand data loss and disruption, but they do not prevent intrusion.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c06-q008",
+      "chapter": 6,
+      "topic": "Technology and information systems",
+      "question_text": "Which of the following best describes 'fintech'?",
+      "options": {
+        "A": "The use of technology to deliver or improve financial services, such as mobile payments and online lending platforms",
+        "B": "Accounting software used only by large financial institutions",
+        "C": "A regulatory body that supervises banks",
+        "D": "A method of manual bookkeeping used by small businesses"
+      },
+      "correct": "A",
+      "explanation": "Fintech refers to technological innovation in financial services, including digital payments, peer-to-peer lending, crowdfunding platforms, robo-advisers and cryptocurrencies. It is not limited to large institutions, it is not a regulator, and it is the opposite of manual bookkeeping.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c06-q009",
+      "chapter": 6,
+      "topic": "Technology and information systems",
+      "question_text": "A company automates its high-volume, rule-based task of matching supplier invoices with purchase orders and goods received notes using software 'bots' that mimic human keystrokes. What technology is being used?",
+      "options": {
+        "A": "Artificial general intelligence",
+        "B": "The Internet of Things",
+        "C": "Robotic process automation",
+        "D": "Virtual reality"
+      },
+      "correct": "C",
+      "explanation": "Robotic process automation uses software bots to perform repetitive, structured, rules-based tasks across existing systems, imitating the actions a human would take. It does not require general intelligence. The Internet of Things concerns connected physical devices sharing data, and virtual reality creates immersive simulated environments.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-bt-c06-q010",
+      "chapter": 6,
+      "topic": "Technology and information systems",
+      "question_text": "An organisation encrypts the customer data held on its laptops. What is the main benefit of this control?",
+      "options": {
+        "A": "It prevents the laptop from being stolen in the first place",
+        "B": "It creates an automatic back-up copy of the data",
+        "C": "If a laptop is lost or stolen, the data cannot be read by an unauthorised person without the decryption key",
+        "D": "It prevents viruses from infecting the laptop"
+      },
+      "correct": "C",
+      "explanation": "Encryption converts data into an unreadable form that can only be decoded with the correct key, protecting confidentiality if the device falls into the wrong hands. It does not prevent physical theft, does not back up data and is not a substitute for anti-virus software.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c06-q011",
+      "chapter": 6,
+      "topic": "Technology and information systems",
+      "question_text": "Which type of information system is designed to provide senior managers with summarised, high-level information from internal and external sources, often through a dashboard with the ability to 'drill down'?",
+      "options": {
+        "A": "A transaction processing system",
+        "B": "An executive information system",
+        "C": "An office automation system",
+        "D": "A management information system producing routine exception reports for supervisors"
+      },
+      "correct": "B",
+      "explanation": "An executive information system (EIS) supports strategic-level managers by presenting summarised internal and external data, typically graphically, with drill-down to more detail. Transaction processing systems record routine transactions, office automation supports clerical tasks, and routine MIS reports serve middle and operational managers.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c07-q001",
+      "chapter": 7,
+      "topic": "Law and regulation affecting business",
+      "question_text": "Which of the following is generally a principle of data protection legislation?",
+      "options": {
+        "A": "Personal data may be used for any purpose once it has been collected",
+        "B": "Personal data should be kept for no longer than is necessary for the purpose for which it was collected",
+        "C": "Organisations may keep personal data indefinitely in case it is useful later",
+        "D": "Individuals have no right to see the personal data held about them"
+      },
+      "correct": "B",
+      "explanation": "Data protection principles commonly include lawful and fair processing, purpose limitation, data minimisation, accuracy, storage limitation, and security, together with rights for individuals to access their data. Using data for any purpose, indefinite retention and denial of access all contradict these principles.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c07-q002",
+      "chapter": 7,
+      "topic": "Law and regulation affecting business",
+      "question_text": "Under typical data protection frameworks, which of the following is the best description of the 'data subject'?",
+      "options": {
+        "A": "The organisation that decides how and why personal data is processed",
+        "B": "The external company that stores data on behalf of another organisation",
+        "C": "The living individual to whom the personal data relates",
+        "D": "The official regulator that enforces data protection law"
+      },
+      "correct": "C",
+      "explanation": "The data subject is the individual who can be identified from the personal data. The organisation that determines the purposes and means of processing is the data controller, a third party processing on its behalf is a data processor, and the enforcement body is the supervisory authority.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c07-q003",
+      "chapter": 7,
+      "topic": "Law and regulation affecting business",
+      "question_text": "Which of the following best distinguishes an employee from an independent contractor?",
+      "options": {
+        "A": "An employee is always paid a higher amount than a contractor",
+        "B": "A contractor must work for the organisation full time",
+        "C": "The employer has a high degree of control over how, when and where an employee performs the work",
+        "D": "An employee provides their own equipment and bears their own financial risk"
+      },
+      "correct": "C",
+      "explanation": "Tests for employment status include the degree of control, whether the person is integrated into the organisation, and mutuality of obligation. Employees are controlled by the employer, while independent contractors decide how to do the work, provide their own equipment and bear financial risk. Pay level and working hours are not decisive.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c07-q004",
+      "chapter": 7,
+      "topic": "Law and regulation affecting business",
+      "question_text": "Under employment law based on the English common law model (as used in the ACCA BT syllabus), an employee is dismissed without being given the period of notice required by their contract of employment. Which claim is most directly based on this breach?",
+      "options": {
+        "A": "Unfair dismissal",
+        "B": "Constructive dismissal",
+        "C": "Redundancy",
+        "D": "Wrongful dismissal"
+      },
+      "correct": "D",
+      "explanation": "Wrongful dismissal is a common law claim for breach of the employment contract, typically where the employer fails to give the contractual (or statutory minimum) notice; damages are usually limited to pay for the notice period. Unfair dismissal is a separate statutory claim concerning whether the reason for and procedure of the dismissal were fair, and it does not depend on whether notice was given. Constructive dismissal arises when an employee resigns because of the employer's fundamental breach, and redundancy concerns the role ceasing to exist.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-bt-c07-q005",
+      "chapter": 7,
+      "topic": "Law and regulation affecting business",
+      "question_text": "An employee's role is genuinely no longer required because the business has closed the department in which they work. Under employment law based on the English model (as used in the ACCA BT syllabus), what is the reason for this dismissal?",
+      "options": {
+        "A": "Misconduct",
+        "B": "Capability",
+        "C": "Redundancy",
+        "D": "Constructive dismissal"
+      },
+      "correct": "C",
+      "explanation": "Redundancy occurs when the employer ceases the business, or the business in the place where the employee works, or when the need for employees to carry out work of a particular kind has ceased or diminished. Closing a department is a classic redundancy situation. Misconduct relates to the employee's behaviour and capability to their skill or health, while constructive dismissal is not a reason for dismissal at all: it arises when an employee resigns because of the employer's fundamental breach of contract.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c07-q006",
+      "chapter": 7,
+      "topic": "Law and regulation affecting business",
+      "question_text": "Which of the following is generally a duty of an EMPLOYER in relation to health and safety at work?",
+      "options": {
+        "A": "To ensure employees pay for their own protective equipment",
+        "B": "To transfer all responsibility for safety to individual employees",
+        "C": "To report every employee's personal health records to competitors",
+        "D": "To provide a safe working environment and adequate training in safe working practices"
+      },
+      "correct": "D",
+      "explanation": "Employers typically have a duty of care to provide safe premises, safe equipment, safe systems of work, information and training, and competent colleagues. Employees also have duties to take reasonable care, but responsibility is not transferred to them entirely. Charging for protective equipment and disclosing health records are inappropriate.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c07-q007",
+      "chapter": 7,
+      "topic": "Law and regulation affecting business",
+      "question_text": "Which body is responsible for developing and issuing International Financial Reporting Standards?",
+      "options": {
+        "A": "The IFRS Advisory Council",
+        "B": "The International Federation of Accountants",
+        "C": "The International Accounting Standards Board",
+        "D": "Each country's national tax authority"
+      },
+      "correct": "C",
+      "explanation": "The International Accounting Standards Board (IASB) is the independent standard-setting body of the IFRS Foundation that develops and issues IFRS. The IFRS Advisory Council provides advice to the IASB, IFAC is the global body for the accountancy profession, and tax authorities do not set financial reporting standards.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c07-q008",
+      "chapter": 7,
+      "topic": "Law and regulation affecting business",
+      "question_text": "Which of the following is the role of the IFRS Interpretations Committee?",
+      "options": {
+        "A": "To appoint the members of the IASB and secure funding for the IFRS Foundation",
+        "B": "To review accounting issues arising in the application of IFRS and provide authoritative guidance on them",
+        "C": "To audit the financial statements of companies that use IFRS",
+        "D": "To enforce compliance with IFRS through fines on listed companies"
+      },
+      "correct": "B",
+      "explanation": "The IFRS Interpretations Committee considers widespread issues where divergent or unsatisfactory practice has developed and issues interpretations for ratification by the IASB. Appointing IASB members and overseeing funding is the role of the IFRS Foundation Trustees. Auditing and enforcement are carried out by auditors and national regulators.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-bt-c07-q009",
+      "chapter": 7,
+      "topic": "Law and regulation affecting business",
+      "question_text": "Why do governments and regulators generally require companies to prepare financial statements in accordance with an accepted set of accounting standards?",
+      "options": {
+        "A": "To guarantee that every company makes a profit",
+        "B": "To improve the comparability and reliability of financial information for users",
+        "C": "To remove the need for any professional judgement by accountants",
+        "D": "To allow companies to choose whichever accounting policy maximises profit"
+      },
+      "correct": "B",
+      "explanation": "Accounting standards narrow the range of acceptable treatments, improving consistency, comparability and credibility of financial statements for investors and other users. They do not guarantee profits, they still require professional judgement, and they are intended to restrict, not encourage, profit-maximising choices.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c07-q010",
+      "chapter": 7,
+      "topic": "Law and regulation affecting business",
+      "question_text": "Money laundering is often described as having three stages. In which stage is illegally obtained cash first introduced into the financial system, for example by depositing it in bank accounts?",
+      "options": {
+        "A": "Layering",
+        "B": "Integration",
+        "C": "Placement",
+        "D": "Disguise"
+      },
+      "correct": "C",
+      "explanation": "Placement is the initial introduction of criminal proceeds into the financial system. Layering involves complex series of transactions to obscure the source of funds, and integration is the reintroduction of the laundered money into the legitimate economy, so it appears to come from lawful sources. 'Disguise' is not a recognised stage.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c08-q001",
+      "chapter": 8,
+      "topic": "Audit, internal control and fraud",
+      "question_text": "What is the main objective of an external audit of a company's financial statements?",
+      "options": {
+        "A": "To detect every fraud that has taken place in the company",
+        "B": "To prepare the financial statements on behalf of the directors",
+        "C": "To improve the efficiency of the company's operations",
+        "D": "To express an independent opinion on whether the financial statements give a true and fair view"
+      },
+      "correct": "D",
+      "explanation": "The external auditor's objective is to obtain reasonable assurance and report an opinion on whether the financial statements are free from material misstatement and give a true and fair view. Auditors do not guarantee detection of all fraud, the directors are responsible for preparing the statements, and operational efficiency reviews are typically an internal audit activity.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c08-q002",
+      "chapter": 8,
+      "topic": "Audit, internal control and fraud",
+      "question_text": "Which of the following is a key difference between internal audit and external audit?",
+      "options": {
+        "A": "Internal auditors must be completely independent of the company, whereas external auditors are employees",
+        "B": "External audit has a scope set by management, whereas internal audit scope is set by law",
+        "C": "Only internal audit involves testing internal controls",
+        "D": "Internal audit reports to management or the audit committee, while external audit reports to the shareholders"
+      },
+      "correct": "D",
+      "explanation": "Internal audit is an appraisal function established by the organisation, with scope set by management and the audit committee, and it reports internally. External audit is required by law, its scope is set by statute and auditing standards, and it reports to shareholders. External auditors are independent of the company and they also test controls where relevant.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c08-q003",
+      "chapter": 8,
+      "topic": "Audit, internal control and fraud",
+      "question_text": "Which of the following is a responsibility of the directors rather than of the external auditor?",
+      "options": {
+        "A": "Expressing an opinion on the financial statements",
+        "B": "Communicating significant control deficiencies found during the audit",
+        "C": "Planning the audit to detect material misstatements",
+        "D": "Establishing internal controls to prevent and detect fraud"
+      },
+      "correct": "D",
+      "explanation": "Directors are responsible for preparing the financial statements and for establishing systems of internal control, including those to prevent and detect fraud. The auditor's responsibilities include forming and expressing an opinion, planning the audit to detect material misstatement and reporting significant deficiencies identified.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c08-q004",
+      "chapter": 8,
+      "topic": "Audit, internal control and fraud",
+      "question_text": "In a purchasing system, one clerk raises purchase orders, a different person records goods received, and a third person approves supplier invoices for payment. Which type of internal control does this illustrate?",
+      "options": {
+        "A": "Segregation of duties",
+        "B": "Physical controls",
+        "C": "Arithmetical and accounting controls",
+        "D": "Supervision"
+      },
+      "correct": "A",
+      "explanation": "Segregation of duties splits the authorisation, recording and custody aspects of a transaction between different people, so that one person cannot both commit and conceal an error or fraud. Physical controls restrict access to assets, arithmetical controls check the accuracy of recording, and supervision involves oversight by a superior.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c08-q005",
+      "chapter": 8,
+      "topic": "Audit, internal control and fraud",
+      "question_text": "Which of the following is an example of a detective control rather than a preventive control?",
+      "options": {
+        "A": "Requiring two signatures on all cheques above a set limit",
+        "B": "Restricting access to the inventory warehouse with key cards",
+        "C": "A monthly bank reconciliation reviewed by the financial controller",
+        "D": "Requiring passwords to log in to the accounting system"
+      },
+      "correct": "C",
+      "explanation": "Detective controls identify errors or irregularities after they have occurred, as a bank reconciliation does by highlighting unexplained differences. Dual signatures, restricted access to the warehouse and passwords are preventive controls that stop unauthorised transactions or access from happening in the first place.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c08-q006",
+      "chapter": 8,
+      "topic": "Audit, internal control and fraud",
+      "question_text": "Why can a system of internal control provide only reasonable, rather than absolute, assurance that the organisation's objectives will be achieved?",
+      "options": {
+        "A": "Internal controls are not permitted to cover financial reporting",
+        "B": "Controls are always designed by the external auditor, who has limited knowledge",
+        "C": "Controls can be overridden by management or circumvented by collusion between employees",
+        "D": "Internal controls only operate at the year end"
+      },
+      "correct": "C",
+      "explanation": "Inherent limitations of internal control include human error, collusion to circumvent segregation of duties, management override, controls designed for routine rather than unusual transactions, and cost-benefit constraints. Controls do cover financial reporting, are designed by management rather than the external auditor, and operate throughout the year.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-bt-c08-q007",
+      "chapter": 8,
+      "topic": "Audit, internal control and fraud",
+      "question_text": "Fraud is commonly said to require three prerequisites. Which of the following lists them correctly?",
+      "options": {
+        "A": "Dishonesty, opportunity and motive",
+        "B": "Planning, organising and controlling",
+        "C": "Error, omission and misstatement",
+        "D": "Power, interest and influence"
+      },
+      "correct": "A",
+      "explanation": "In the ACCA BT framework the three prerequisites for fraud are dishonesty (a willingness to act dishonestly), opportunity (for example weak controls) and motive (such as financial pressure or a grudge). This closely mirrors the 'fraud triangle' (pressure, opportunity and rationalisation), but only option A lists fraud prerequisites. Organisations aim to reduce each element, for instance by careful recruitment, strong controls and good working conditions. The other options are management functions, types of misstatement and stakeholder-mapping terms.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c08-q008",
+      "chapter": 8,
+      "topic": "Audit, internal control and fraud",
+      "question_text": "A credit controller steals cash received from Customer A, then conceals the theft by recording a later receipt from Customer B against A's account, and so on. What is this type of fraud called?",
+      "options": {
+        "A": "Teeming and lading",
+        "B": "Ghost employees",
+        "C": "Window dressing",
+        "D": "Collusion with suppliers"
+      },
+      "correct": "A",
+      "explanation": "Teeming and lading (also called lapping) involves misappropriating receipts and covering the shortfall using subsequent receipts from other customers. Rotating duties, mandatory holidays, and sending regular statements to customers help detect it. Ghost employees involve payroll fraud, window dressing is manipulating the appearance of the year-end position, and supplier collusion involves false or inflated invoices.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-bt-c08-q009",
+      "chapter": 8,
+      "topic": "Audit, internal control and fraud",
+      "question_text": "Which of the following is the most effective measure for REDUCING THE OPPORTUNITY for employee fraud?",
+      "options": {
+        "A": "Implementing strong internal controls such as segregation of duties and authorisation limits",
+        "B": "Paying staff salaries that are above the market rate",
+        "C": "Adopting a code of ethics for all employees",
+        "D": "Taking references when recruiting new staff"
+      },
+      "correct": "A",
+      "explanation": "Opportunity is reduced by making fraud difficult to commit and conceal, mainly through internal controls such as segregation of duties, authorisation and physical controls. Higher pay may reduce motive, while a code of ethics and recruitment checks are aimed mainly at the dishonesty element.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c08-q010",
+      "chapter": 8,
+      "topic": "Audit, internal control and fraud",
+      "question_text": "Which of the following describes the role of the audit committee in relation to internal audit?",
+      "options": {
+        "A": "To carry out the detailed testing of controls itself",
+        "B": "To sign the external audit report",
+        "C": "To prepare the monthly management accounts",
+        "D": "To approve the internal audit plan and review significant internal audit findings and management's response"
+      },
+      "correct": "D",
+      "explanation": "The audit committee oversees internal audit by reviewing its plan, resources and independence, and by considering its significant findings and management's response. The committee does not carry out the testing itself, does not sign the external audit report, and does not prepare management accounts.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c08-q011",
+      "chapter": 8,
+      "topic": "Audit, internal control and fraud",
+      "question_text": "Which of the following types of audit is concerned with assessing whether an organisation's activities are being carried out economically, efficiently and effectively?",
+      "options": {
+        "A": "A statutory external audit",
+        "B": "A compliance audit of tax returns",
+        "C": "A financial statement audit",
+        "D": "A value for money audit"
+      },
+      "correct": "D",
+      "explanation": "A value for money audit examines the economy, efficiency and effectiveness of an activity or programme and is frequently performed by internal auditors or public sector audit bodies. Statutory and financial statement audits focus on the truth and fairness of financial statements, and a compliance audit checks adherence to particular rules.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c09-q001",
+      "chapter": 9,
+      "topic": "Leadership, management and supervision",
+      "question_text": "Which writer is associated with 'scientific management', which involved studying tasks to find the 'one best way' of performing them and paying workers according to output?",
+      "options": {
+        "A": "Henri Fayol",
+        "B": "F W Taylor",
+        "C": "Elton Mayo",
+        "D": "Henry Mintzberg"
+      },
+      "correct": "B",
+      "explanation": "Taylor developed scientific management, using work study to standardise tasks, selecting and training workers scientifically, and linking pay to output. Fayol set out administrative functions and principles of management, Mayo's Hawthorne studies led to the human relations school, and Mintzberg studied what managers actually do.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c09-q002",
+      "chapter": 9,
+      "topic": "Leadership, management and supervision",
+      "question_text": "Henri Fayol identified five functions of management. Which of the following is one of them?",
+      "options": {
+        "A": "Motivating through hygiene factors",
+        "B": "Co-ordinating",
+        "C": "Negotiating",
+        "D": "Disseminating"
+      },
+      "correct": "B",
+      "explanation": "Fayol's five functions of management are planning (forecasting), organising, commanding, co-ordinating and controlling. Hygiene factors come from Herzberg, while negotiator and disseminator are roles in Mintzberg's analysis of managerial work.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c09-q003",
+      "chapter": 9,
+      "topic": "Leadership, management and supervision",
+      "question_text": "Fayol's principle of 'unity of command' states which of the following?",
+      "options": {
+        "A": "Each employee should receive orders from only one superior",
+        "B": "All managers should share a common set of objectives",
+        "C": "There should be a clear line of authority from the top to the bottom of the organisation",
+        "D": "Activities with the same objective should be directed by one plan"
+      },
+      "correct": "A",
+      "explanation": "Unity of command means each employee reports to and takes orders from one boss, avoiding conflicting instructions. A clear line of authority from top to bottom is the scalar chain, and directing activities with the same objective under one plan is unity of direction.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c09-q004",
+      "chapter": 9,
+      "topic": "Leadership, management and supervision",
+      "question_text": "According to Mintzberg, a manager who represents the organisation at a trade association dinner and signs official documents is performing which role?",
+      "options": {
+        "A": "Liaison",
+        "B": "Figurehead",
+        "C": "Disseminator",
+        "D": "Resource allocator"
+      },
+      "correct": "B",
+      "explanation": "The figurehead role is an interpersonal role involving ceremonial and symbolic duties performed by virtue of the manager's position. The liaison role involves building networks of contacts outside the manager's own unit, the disseminator role involves passing information to subordinates, and the resource allocator role involves deciding where resources should go.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c09-q005",
+      "chapter": 9,
+      "topic": "Leadership, management and supervision",
+      "question_text": "A production manager deals with an urgent machine breakdown that threatens to halt production, and resolves a dispute between two shift supervisors. Under Mintzberg's classification, which category of role is being performed?",
+      "options": {
+        "A": "Interpersonal - leader",
+        "B": "Informational - monitor",
+        "C": "Decisional - disturbance handler",
+        "D": "Decisional - entrepreneur"
+      },
+      "correct": "C",
+      "explanation": "Responding to unexpected crises and conflicts is the disturbance handler role, one of Mintzberg's four decisional roles (with entrepreneur, resource allocator and negotiator). The entrepreneur role is about initiating improvements and change, the leader role concerns motivating and directing staff, and the monitor role concerns scanning for information.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-bt-c09-q006",
+      "chapter": 9,
+      "topic": "Leadership, management and supervision",
+      "question_text": "John Adair's action-centred leadership model states that an effective leader must balance three overlapping areas of need. What are they?",
+      "options": {
+        "A": "Concern for production, concern for people and concern for profit",
+        "B": "Telling, selling and consulting",
+        "C": "Task needs, team maintenance needs and individual needs",
+        "D": "Physiological, safety and social needs"
+      },
+      "correct": "C",
+      "explanation": "Adair's model shows three overlapping circles: achieving the task, building and maintaining the team, and developing the individual. The leader must attend to all three, adapting to the situation. Concern for production and people comes from Blake and Mouton, telling and selling from the Ashridge model, and physiological, safety and social needs from Maslow.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c09-q007",
+      "chapter": 9,
+      "topic": "Leadership, management and supervision",
+      "question_text": "On Blake and Mouton's managerial grid, a manager rated 9,1 would be described as having which style?",
+      "options": {
+        "A": "A task-oriented (authority-compliance) style with high concern for production and low concern for people",
+        "B": "A country club style with high concern for people and low concern for production",
+        "C": "An impoverished style with low concern for both production and people",
+        "D": "A team style with high concern for both production and people"
+      },
+      "correct": "A",
+      "explanation": "The grid rates concern for production on the horizontal axis and concern for people on the vertical axis, each from 1 to 9. A 9,1 manager has maximum concern for production and minimal concern for people. The country club style is 1,9, impoverished is 1,1 and team management is 9,9.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c09-q008",
+      "chapter": 9,
+      "topic": "Leadership, management and supervision",
+      "question_text": "A manager decides on a course of action and then tries to persuade the team that it is the right decision, explaining the benefits before implementing it. According to the Ashridge Management College model, which style is this?",
+      "options": {
+        "A": "Tells",
+        "B": "Sells",
+        "C": "Consults",
+        "D": "Joins"
+      },
+      "correct": "B",
+      "explanation": "In the Ashridge model the 'sells' style involves the manager making the decision but seeking to persuade subordinates to accept it. 'Tells' simply announces decisions, 'consults' invites input before the manager decides, and 'joins' involves the manager and team deciding together on an equal basis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-bt-c09-q009",
+      "chapter": 9,
+      "topic": "Leadership, management and supervision",
+      "question_text": "According to Hersey and Blanchard's situational leadership model, which style is most appropriate for a team that is highly competent and highly committed?",
+      "options": {
+        "A": "Telling",
+        "B": "Selling",
+        "C": "Delegating",
+        "D": "Participating"
+      },
+      "correct": "C",
+      "explanation": "Hersey and Blanchard match leadership style to follower readiness. Followers who are both able and willing need little direction or support, so the leader can delegate responsibility. Telling suits those who are unable and unwilling or insecure, selling suits willing but unable followers, and participating suits able but unwilling or insecure followers.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-bt-c09-q010",
+      "chapter": 9,
+      "topic": "Leadership, management and supervision",
+      "question_text": "Which of the following is the best description of the difference between leadership and management?",
+      "options": {
+        "A": "Leadership is only exercised by the most senior directors, while management is exercised by supervisors",
+        "B": "Leadership relies purely on formal authority, while management relies on personal charisma",
+        "C": "There is no difference: the terms are interchangeable",
+        "D": "Leadership focuses on influencing people and creating a vision for change, while management focuses on planning, organising and controlling resources"
+      },
+      "correct": "D",
+      "explanation": "Writers such as Kotter distinguish management, which copes with complexity through planning, budgeting, organising and controlling, from leadership, which copes with change by setting direction, aligning people and inspiring them. Leadership can be exercised at any level, and it often depends on personal influence rather than formal authority.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c09-q011",
+      "chapter": 9,
+      "topic": "Leadership, management and supervision",
+      "question_text": "Which of the following best describes the role of a supervisor?",
+      "options": {
+        "A": "A first-line manager who oversees the day-to-day work of operational staff and also often performs operational work",
+        "B": "A non-executive director who monitors the board on behalf of shareholders",
+        "C": "A senior manager responsible for long-term strategic planning",
+        "D": "An external consultant who designs the organisation structure"
+      },
+      "correct": "A",
+      "explanation": "Supervisors are the first level of management, bridging management and the workforce. They allocate and monitor daily work, deal with immediate problems and often carry out operational tasks alongside their team. They are not involved in board monitoring or long-term strategy, and they are internal staff rather than external consultants.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c10-q001",
+      "chapter": 10,
+      "topic": "Individual, group and team behaviour",
+      "question_text": "What is the correct sequence of Tuckman's stages of group development?",
+      "options": {
+        "A": "Forming, norming, storming, performing",
+        "B": "Forming, storming, norming, performing",
+        "C": "Storming, forming, norming, performing",
+        "D": "Norming, forming, performing, storming"
+      },
+      "correct": "B",
+      "explanation": "Tuckman's model states that groups move through forming (members get to know each other), storming (conflict over roles and goals), norming (agreement on ways of working) and performing (effective focus on the task). A fifth stage, adjourning, was later added for when the group disbands.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c10-q002",
+      "chapter": 10,
+      "topic": "Individual, group and team behaviour",
+      "question_text": "A newly formed project team has begun to argue openly about who should lead the project and what its priorities should be. According to Tuckman, which stage has the team reached?",
+      "options": {
+        "A": "Forming",
+        "B": "Norming",
+        "C": "Adjourning",
+        "D": "Storming"
+      },
+      "correct": "D",
+      "explanation": "Storming is characterised by conflict, challenges to leadership and disagreement over objectives and methods. Forming is the polite, tentative initial stage, norming is when the team settles on shared norms and procedures, and adjourning is when the team disbands.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c10-q003",
+      "chapter": 10,
+      "topic": "Individual, group and team behaviour",
+      "question_text": "In Belbin's team roles, which member is creative, generates original ideas and solves difficult problems, but may ignore practical details?",
+      "options": {
+        "A": "Monitor evaluator",
+        "B": "Completer finisher",
+        "C": "Plant",
+        "D": "Implementer"
+      },
+      "correct": "C",
+      "explanation": "The Plant is the team's creative source of ideas, though they may be poor at communicating and handling detail. The Monitor evaluator critically analyses options, the Completer finisher ensures thoroughness and meets deadlines, and the Implementer turns ideas into practical action plans.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c10-q004",
+      "chapter": 10,
+      "topic": "Individual, group and team behaviour",
+      "question_text": "A team member always pays meticulous attention to detail, searches out errors and ensures that the work is delivered on time. According to Belbin, which role does this person play?",
+      "options": {
+        "A": "Shaper",
+        "B": "Completer finisher",
+        "C": "Resource investigator",
+        "D": "Co-ordinator"
+      },
+      "correct": "B",
+      "explanation": "The Completer finisher is conscientious and anxious to polish and perfect, checking for errors and making sure deadlines are met. The Shaper drives the team forward with energy, the Resource investigator explores external opportunities and contacts, and the Co-ordinator clarifies goals and delegates.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c10-q005",
+      "chapter": 10,
+      "topic": "Individual, group and team behaviour",
+      "question_text": "A project team is full of ideas but repeatedly fails to turn them into workable plans and schedules. Using Belbin's framework, which role is the team most likely to be lacking?",
+      "options": {
+        "A": "Plant",
+        "B": "Resource investigator",
+        "C": "Teamworker",
+        "D": "Implementer"
+      },
+      "correct": "D",
+      "explanation": "The Implementer is disciplined and practical, turning ideas and concepts into workable procedures and plans. A team rich in ideas but poor at execution already has creative input (Plant, Resource investigator) and lacks the practical organiser. A Teamworker supports harmony within the team but does not specifically convert ideas into action.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-bt-c10-q006",
+      "chapter": 10,
+      "topic": "Individual, group and team behaviour",
+      "question_text": "Which of the following is a feature of an informal group in an organisation?",
+      "options": {
+        "A": "It develops spontaneously from social relationships between employees",
+        "B": "It is established by management to carry out a specific task",
+        "C": "Its membership is defined in the organisation chart",
+        "D": "It always has a formally appointed leader"
+      },
+      "correct": "A",
+      "explanation": "Informal groups arise naturally from friendships and shared interests, and may cut across formal structures. Formal groups are created deliberately by management, are reflected in the organisation chart and have appointed leaders.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c10-q007",
+      "chapter": 10,
+      "topic": "Individual, group and team behaviour",
+      "question_text": "Charles Handy described four types of organisational culture. Which culture is characterised by a central source of power, such as an owner-founder, with few rules and decisions made quickly by a small number of people?",
+      "options": {
+        "A": "Role culture (Apollo)",
+        "B": "Task culture (Athena)",
+        "C": "Power culture (Zeus)",
+        "D": "Person culture (Dionysus)"
+      },
+      "correct": "C",
+      "explanation": "Handy's power culture, symbolised by Zeus and a spider's web, centres on a dominant individual and relies on personal trust rather than procedures. Role culture is bureaucratic and rule-based, task culture is project and team-focused, and person culture exists to serve the individuals within it, such as a barristers' chambers.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c10-q008",
+      "chapter": 10,
+      "topic": "Individual, group and team behaviour",
+      "question_text": "A government department relies on detailed job descriptions, formal procedures and clearly defined hierarchy, and values stability and predictability. Which of Handy's cultures does this describe?",
+      "options": {
+        "A": "Power culture",
+        "B": "Role culture",
+        "C": "Task culture",
+        "D": "Person culture"
+      },
+      "correct": "B",
+      "explanation": "Role culture (Apollo, represented by a Greek temple) is bureaucratic: authority comes from position, work is governed by rules and procedures, and stability is valued. Power culture centres on one person, task culture is flexible and project-based, and person culture serves individuals' own interests.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-bt-c10-q009",
+      "chapter": 10,
+      "topic": "Individual, group and team behaviour",
+      "question_text": "Edgar Schein identified three levels of organisational culture. Which of the following is an example of an 'artefact' (the most visible level)?",
+      "options": {
+        "A": "Employees' unconscious beliefs about human nature",
+        "B": "The office layout and the dress code worn by staff",
+        "C": "The organisation's espoused values on integrity",
+        "D": "Shared assumptions about the right way to treat customers that are never discussed"
+      },
+      "correct": "B",
+      "explanation": "Schein's levels are artefacts (visible structures and behaviour such as office layout, dress and rituals), espoused values (stated strategies, goals and philosophies) and basic underlying assumptions (unconscious, taken-for-granted beliefs). Office layout and dress code are observable artefacts.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c10-q010",
+      "chapter": 10,
+      "topic": "Individual, group and team behaviour",
+      "question_text": "In Hofstede's research on national cultures, a society in which people generally accept that power is distributed unequally and expect hierarchy is described as having which characteristic?",
+      "options": {
+        "A": "High uncertainty avoidance",
+        "B": "High power distance",
+        "C": "High individualism",
+        "D": "Low masculinity"
+      },
+      "correct": "B",
+      "explanation": "Power distance measures the extent to which less powerful members of society accept unequal distribution of power. In high power distance cultures, hierarchy is accepted and subordinates expect to be told what to do. Uncertainty avoidance concerns tolerance of ambiguity, individualism concerns self-reliance versus group loyalty, and masculinity concerns competitiveness versus caring values.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-bt-c10-q011",
+      "chapter": 10,
+      "topic": "Individual, group and team behaviour",
+      "question_text": "Which of the following is generally regarded as a characteristic of an effective team?",
+      "options": {
+        "A": "Members avoid all disagreement in order to maintain harmony",
+        "B": "Members share commitment to common objectives and communicate openly",
+        "C": "The team has as many members as possible to maximise ideas",
+        "D": "Each member works independently without reference to the others"
+      },
+      "correct": "B",
+      "explanation": "Effective teams have clear shared goals, open communication, mutual trust, complementary roles and constructive handling of conflict. Suppressing all disagreement can lead to 'groupthink', very large teams become hard to coordinate, and working in isolation means there is no real team.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c11-q001",
+      "chapter": 11,
+      "topic": "Motivating individuals and groups",
+      "question_text": "According to Maslow's hierarchy of needs, which level of need must generally be satisfied immediately before esteem needs become the main motivator?",
+      "options": {
+        "A": "Safety needs",
+        "B": "Social (love and belonging) needs",
+        "C": "Physiological needs",
+        "D": "Self-actualisation needs"
+      },
+      "correct": "B",
+      "explanation": "Maslow's hierarchy, from the bottom, is physiological, safety, social (love and belonging), esteem and self-actualisation. Esteem needs become dominant once social needs are reasonably satisfied. Self-actualisation sits above esteem at the top of the hierarchy.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c11-q002",
+      "chapter": 11,
+      "topic": "Motivating individuals and groups",
+      "question_text": "According to Herzberg's two-factor theory, which of the following is a hygiene factor?",
+      "options": {
+        "A": "Salary",
+        "B": "Recognition for achievement",
+        "C": "Responsibility",
+        "D": "Opportunity for advancement"
+      },
+      "correct": "A",
+      "explanation": "Herzberg's hygiene (maintenance) factors relate to the job context and include salary, company policy, supervision, working conditions and interpersonal relations; when inadequate they cause dissatisfaction. Motivators relate to the job content and include achievement, recognition, the work itself, responsibility and advancement.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c11-q003",
+      "chapter": 11,
+      "topic": "Motivating individuals and groups",
+      "question_text": "A manager gives a team a pay rise and improves the canteen, but finds that, although complaints have reduced, staff are no more motivated than before. Which theory best explains this outcome?",
+      "options": {
+        "A": "Herzberg's two-factor theory",
+        "B": "McGregor's Theory X",
+        "C": "Vroom's expectancy theory",
+        "D": "Taylor's scientific management"
+      },
+      "correct": "A",
+      "explanation": "Herzberg argued that improving hygiene factors such as pay and working conditions removes dissatisfaction but does not create positive motivation, which requires motivators such as achievement and responsibility. This matches the reduced complaints without increased motivation. Taylor, by contrast, believed pay was the main motivator.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-bt-c11-q004",
+      "chapter": 11,
+      "topic": "Motivating individuals and groups",
+      "question_text": "Vroom's expectancy theory expresses motivational force using which formula?",
+      "options": {
+        "A": "Force = Valence + Expectancy",
+        "B": "Force = Valence x Expectancy",
+        "C": "Force = Hygiene factors x Motivators",
+        "D": "Force = Expectancy / Valence"
+      },
+      "correct": "B",
+      "explanation": "Vroom stated that the strength of motivation (force) equals the value an individual places on an outcome (valence) multiplied by their expectation that their action will lead to that outcome (expectancy). Because the terms are multiplied, if either is zero there will be no motivation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c11-q005",
+      "chapter": 11,
+      "topic": "Motivating individuals and groups",
+      "question_text": "An employee values a promotion very highly, but believes there is no chance that extra effort will lead to promotion because promotions are based purely on length of service. According to Vroom, what is the likely level of motivation to work harder for promotion?",
+      "options": {
+        "A": "Zero, because the expectancy is zero",
+        "B": "High, because the valence is high",
+        "C": "Moderate, because high valence offsets low expectancy",
+        "D": "Negative, because the employee values the outcome"
+      },
+      "correct": "A",
+      "explanation": "Under Vroom's formula, Force = Valence x Expectancy. However highly the promotion is valued, an expectancy of zero gives a product of zero, so there will be no motivation to make extra effort for that outcome. Valence and expectancy do not offset each other additively.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-bt-c11-q006",
+      "chapter": 11,
+      "topic": "Motivating individuals and groups",
+      "question_text": "According to McGregor, a manager who believes that employees inherently dislike work, avoid responsibility and must be closely controlled holds which set of assumptions?",
+      "options": {
+        "A": "Theory X",
+        "B": "Theory Y",
+        "C": "Theory Z",
+        "D": "Hygiene theory"
+      },
+      "correct": "A",
+      "explanation": "McGregor's Theory X assumes people are lazy, dislike work and need coercion and close supervision. Theory Y assumes people can enjoy work, seek responsibility and exercise self-direction when committed to objectives. Theory Z is associated with Ouchi, and hygiene factors with Herzberg.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c11-q007",
+      "chapter": 11,
+      "topic": "Motivating individuals and groups",
+      "question_text": "Which of the following management practices is most consistent with McGregor's Theory Y assumptions?",
+      "options": {
+        "A": "Introducing strict clocking-in procedures and close supervision",
+        "B": "Linking all pay to piece-rate output with penalties for errors",
+        "C": "Centralising all decisions with senior management",
+        "D": "Delegating authority and involving employees in setting their own targets"
+      },
+      "correct": "D",
+      "explanation": "Theory Y assumes employees are self-motivated and seek responsibility, so managers should delegate, encourage participation and allow self-direction. Strict controls, coercive piece-rate systems and centralisation reflect Theory X assumptions.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c11-q008",
+      "chapter": 11,
+      "topic": "Motivating individuals and groups",
+      "question_text": "Which job design technique involves giving an employee greater responsibility and control over planning and checking their own work, adding vertical depth to the job?",
+      "options": {
+        "A": "Job enlargement",
+        "B": "Job enrichment",
+        "C": "Job rotation",
+        "D": "Job simplification"
+      },
+      "correct": "B",
+      "explanation": "Job enrichment adds vertical depth by giving employees more responsibility, autonomy and decision-making. Job enlargement adds horizontal breadth by increasing the number of similar tasks, job rotation moves staff between jobs for variety, and job simplification breaks work into smaller repetitive tasks.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c11-q009",
+      "chapter": 11,
+      "topic": "Motivating individuals and groups",
+      "question_text": "Hackman and Oldham's job characteristics model identifies five core job dimensions. Which of the following is one of them?",
+      "options": {
+        "A": "Salary level",
+        "B": "Task significance",
+        "C": "Span of control",
+        "D": "Group cohesiveness"
+      },
+      "correct": "B",
+      "explanation": "The five core dimensions are skill variety, task identity, task significance, autonomy and feedback. These are said to create critical psychological states (meaningfulness, responsibility, knowledge of results) leading to higher motivation. Salary is a hygiene factor in Herzberg's terms, and span of control and group cohesiveness are structural and group concepts.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-bt-c11-q010",
+      "chapter": 11,
+      "topic": "Motivating individuals and groups",
+      "question_text": "McClelland identified three types of motivating need. Which of the following lists them correctly?",
+      "options": {
+        "A": "Physiological, safety and esteem",
+        "B": "Existence, relatedness and growth",
+        "C": "Achievement, affiliation and power",
+        "D": "Valence, expectancy and instrumentality"
+      },
+      "correct": "C",
+      "explanation": "McClelland's acquired needs theory identifies the need for achievement, the need for affiliation and the need for power. Physiological, safety and esteem are levels of Maslow's hierarchy, existence-relatedness-growth is Alderfer's ERG theory, and valence, expectancy and instrumentality are elements of Vroom's expectancy theory.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c11-q011",
+      "chapter": 11,
+      "topic": "Motivating individuals and groups",
+      "question_text": "Which of the following is an example of a 'content' theory of motivation?",
+      "options": {
+        "A": "Vroom's expectancy theory",
+        "B": "Adams' equity theory",
+        "C": "Locke's goal-setting theory",
+        "D": "Maslow's hierarchy of needs"
+      },
+      "correct": "D",
+      "explanation": "Content theories focus on what motivates people, identifying needs or factors, and include Maslow, Herzberg and McClelland. Process theories, such as Vroom's expectancy theory, equity theory and goal-setting theory, focus on how people decide to be motivated.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c12-q001",
+      "chapter": 12,
+      "topic": "Recruitment, selection, training and development",
+      "question_text": "Which document sets out the qualifications, experience, skills and personal qualities required of a person to do a particular job?",
+      "options": {
+        "A": "A job description",
+        "B": "A job advertisement",
+        "C": "An employment contract",
+        "D": "A person specification"
+      },
+      "correct": "D",
+      "explanation": "A person specification describes the ideal candidate in terms of attributes such as qualifications, experience, skills and disposition. A job description describes the job itself (purpose, tasks, responsibilities and reporting lines). The advertisement and contract are produced later in the recruitment and appointment process.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c12-q002",
+      "chapter": 12,
+      "topic": "Recruitment, selection, training and development",
+      "question_text": "Rodger's seven-point plan is used as a framework for which of the following?",
+      "options": {
+        "A": "Drawing up a person specification",
+        "B": "Evaluating the effectiveness of training",
+        "C": "Designing an appraisal interview",
+        "D": "Analysing a team's role balance"
+      },
+      "correct": "A",
+      "explanation": "Rodger's seven-point plan sets out attributes against which candidates are assessed: physical make-up, attainments, general intelligence, special aptitudes, interests, disposition and circumstances. Munro Fraser's five-fold grading is an alternative framework. Training evaluation uses models such as Hamblin's, and team role balance uses Belbin.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c12-q003",
+      "chapter": 12,
+      "topic": "Recruitment, selection, training and development",
+      "question_text": "Which of the following is an advantage of recruiting internally rather than externally?",
+      "options": {
+        "A": "It brings new ideas and perspectives into the organisation",
+        "B": "It always produces a larger pool of applicants",
+        "C": "It avoids creating a vacancy elsewhere in the organisation",
+        "D": "The candidate is already familiar with the organisation's culture and procedures, reducing induction time"
+      },
+      "correct": "D",
+      "explanation": "Internal candidates know the organisation, their performance is already known, and promotion can motivate staff, while induction time and recruitment costs are reduced. External recruitment is more likely to bring fresh ideas and a wider pool, and internal recruitment typically creates another vacancy to fill.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c12-q004",
+      "chapter": 12,
+      "topic": "Recruitment, selection, training and development",
+      "question_text": "An organisation wants a selection method that tests how candidates would actually perform on key tasks of the job, such as handling a set of typical emails under time pressure. Which method is most appropriate?",
+      "options": {
+        "A": "An unstructured interview",
+        "B": "A personality questionnaire",
+        "C": "A work sample test such as an in-tray exercise",
+        "D": "Reference checking"
+      },
+      "correct": "C",
+      "explanation": "Work sample tests, such as in-tray exercises, ask candidates to perform tasks representative of the job and tend to have good predictive validity. Unstructured interviews are prone to bias, personality questionnaires measure traits rather than task performance, and references provide others' opinions of past performance.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-bt-c12-q005",
+      "chapter": 12,
+      "topic": "Recruitment, selection, training and development",
+      "question_text": "Which of the following is a weakness of interviews as a selection method?",
+      "options": {
+        "A": "They allow the candidate to ask questions about the organisation",
+        "B": "Interviewers may be influenced by first impressions or by candidates who are similar to themselves",
+        "C": "They enable the interviewer to explore gaps in the application form",
+        "D": "They allow the candidate's communication skills to be assessed"
+      },
+      "correct": "B",
+      "explanation": "Interviews are prone to biases such as the halo effect, first-impression bias and 'similar to me' bias, which reduce their reliability as predictors of job performance. The other options are recognised advantages of interviews.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c12-q006",
+      "chapter": 12,
+      "topic": "Recruitment, selection, training and development",
+      "question_text": "Kolb's experiential learning cycle consists of four stages. What is the correct sequence?",
+      "options": {
+        "A": "Concrete experience, reflective observation, abstract conceptualisation, active experimentation",
+        "B": "Reflective observation, concrete experience, active experimentation, abstract conceptualisation",
+        "C": "Abstract conceptualisation, concrete experience, reflective observation, active experimentation",
+        "D": "Active experimentation, abstract conceptualisation, concrete experience, reflective observation"
+      },
+      "correct": "A",
+      "explanation": "Kolb's cycle runs from having a concrete experience, reflecting on it (reflective observation), drawing conclusions and theories from it (abstract conceptualisation), and then testing those ideas in practice (active experimentation), which creates new experience. Learners can enter at any point but the order of progression is fixed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c12-q007",
+      "chapter": 12,
+      "topic": "Recruitment, selection, training and development",
+      "question_text": "According to Honey and Mumford, which type of learner prefers to understand the underlying concepts and logic, and likes to learn from models and structured theories?",
+      "options": {
+        "A": "Activist",
+        "B": "Reflector",
+        "C": "Pragmatist",
+        "D": "Theorist"
+      },
+      "correct": "D",
+      "explanation": "Theorists like to understand principles and fit observations into logical frameworks. Activists learn best from new experiences and hands-on involvement, reflectors prefer to observe and think before acting, and pragmatists learn best when they can see the practical application of ideas.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c12-q008",
+      "chapter": 12,
+      "topic": "Recruitment, selection, training and development",
+      "question_text": "Hamblin identified five levels at which training can be evaluated. At which level is the trainer assessing whether trainees are applying their new skills in their day-to-day work?",
+      "options": {
+        "A": "Reaction",
+        "B": "Job behaviour",
+        "C": "Learning",
+        "D": "Ultimate value"
+      },
+      "correct": "B",
+      "explanation": "Hamblin's levels are reaction (trainees' feelings about the training), learning (what they have learned), job behaviour (whether learning has been applied at work), organisation (the effect on departmental performance) and ultimate value (the effect on the organisation's overall goals). Application in day-to-day work is the job behaviour level.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-bt-c12-q009",
+      "chapter": 12,
+      "topic": "Recruitment, selection, training and development",
+      "question_text": "Which of the following is the best description of 'development' as distinct from 'training'?",
+      "options": {
+        "A": "Development teaches the specific skills needed for an employee's current job",
+        "B": "Development is a broader process of growth that prepares an individual for future roles and career progression",
+        "C": "Development is only provided to new employees during induction",
+        "D": "Development is always delivered in a classroom by external providers"
+      },
+      "correct": "B",
+      "explanation": "Training focuses on acquiring specific knowledge and skills for the current job, whereas development is a wider, longer-term process aimed at realising an individual's potential and preparing them for future responsibilities. Development can include job rotation, mentoring, secondments and education, and is not limited to induction or classroom delivery.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c12-q010",
+      "chapter": 12,
+      "topic": "Recruitment, selection, training and development",
+      "question_text": "Which of the following is generally a main purpose of a staff appraisal system?",
+      "options": {
+        "A": "To decide which candidates should be invited for interview",
+        "B": "To calculate the statutory deductions from employees' pay",
+        "C": "To set the organisation's long-term strategic objectives",
+        "D": "To review past performance and identify training and development needs"
+      },
+      "correct": "D",
+      "explanation": "Appraisal systematically reviews an individual's performance, provides feedback, agrees future objectives and identifies training and development needs; it may also inform reward and promotion decisions. Shortlisting candidates is a selection task, payroll deductions are a finance task, and strategic objectives are set by the board.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c13-q001",
+      "chapter": 13,
+      "topic": "Personal effectiveness and communication",
+      "question_text": "Which of the following is the best description of SMART objectives?",
+      "options": {
+        "A": "Simple, Manageable, Accurate, Reliable and Timely",
+        "B": "Strategic, Monitored, Agreed, Realistic and Tested",
+        "C": "Specific, Measurable, Achievable, Relevant and Time-bound",
+        "D": "Specific, Motivating, Approved, Rewarded and Tracked"
+      },
+      "correct": "C",
+      "explanation": "SMART objectives are specific, measurable, achievable (or attainable), relevant (or realistic) and time-bound. Setting objectives in this way makes it possible to plan, prioritise and assess whether they have been achieved, which supports personal effectiveness and performance management.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c13-q002",
+      "chapter": 13,
+      "topic": "Personal effectiveness and communication",
+      "question_text": "When prioritising tasks, which type of task should generally be dealt with first?",
+      "options": {
+        "A": "Tasks that are both urgent and important",
+        "B": "Tasks that are urgent but not important",
+        "C": "Tasks that are important but not urgent",
+        "D": "Tasks that are quick to complete regardless of importance"
+      },
+      "correct": "A",
+      "explanation": "A common time management approach classifies tasks by urgency and importance. Urgent and important tasks need immediate attention. Important but non-urgent tasks should be scheduled, urgent but unimportant tasks may be delegated, and tasks that are neither should be minimised. Choosing tasks just because they are quick can mean important work is neglected.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c13-q003",
+      "chapter": 13,
+      "topic": "Personal effectiveness and communication",
+      "question_text": "Which of the following is the main difference between coaching and mentoring?",
+      "options": {
+        "A": "Coaching is always provided by external consultants, while mentoring is always provided by the line manager",
+        "B": "Mentoring focuses only on technical skills, while coaching addresses career progression",
+        "C": "There is no difference between the two approaches",
+        "D": "Coaching usually focuses on improving specific skills for the current job, while mentoring is a longer-term relationship supporting broader career development"
+      },
+      "correct": "D",
+      "explanation": "Coaching is typically shorter-term and task-focused, helping an individual develop particular skills or performance, often with the line manager or a specialist. Mentoring is a longer-term relationship, often with a more experienced person outside the line, offering guidance on career, personal development and organisational politics.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c13-q004",
+      "chapter": 13,
+      "topic": "Personal effectiveness and communication",
+      "question_text": "In a basic model of communication, what is the term for anything that interferes with the message as it passes from sender to receiver?",
+      "options": {
+        "A": "Feedback",
+        "B": "Encoding",
+        "C": "Noise",
+        "D": "Channel"
+      },
+      "correct": "C",
+      "explanation": "Noise is any distortion or interference, physical or psychological, that prevents the message being received as intended, such as jargon, background sound or emotional reactions. Encoding is putting the message into a form for transmission, the channel is the medium used, and feedback is the receiver's response that confirms understanding.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c13-q005",
+      "chapter": 13,
+      "topic": "Personal effectiveness and communication",
+      "question_text": "A manager needs to inform 300 staff across several sites of a minor change to car parking arrangements, and wants a permanent record. Which communication method is most appropriate?",
+      "options": {
+        "A": "An email or intranet notice",
+        "B": "Individual face-to-face meetings with each employee",
+        "C": "A telephone call to each employee",
+        "D": "A formal board meeting"
+      },
+      "correct": "A",
+      "explanation": "For simple, routine information to a large, dispersed audience, written electronic communication is quick, cheap and provides a record. Individual meetings or calls would be time-consuming and costly for a minor matter, and a board meeting is inappropriate for operational announcements to staff.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c13-q006",
+      "chapter": 13,
+      "topic": "Personal effectiveness and communication",
+      "question_text": "Information in an organisation flows between managers at the same level in different departments, for example between the production manager and the sales manager. What is this type of communication called?",
+      "options": {
+        "A": "Vertical downward communication",
+        "B": "Lateral (horizontal) communication",
+        "C": "Vertical upward communication",
+        "D": "Diagonal communication"
+      },
+      "correct": "B",
+      "explanation": "Lateral or horizontal communication occurs between people at the same level in different functions, supporting coordination and problem-solving. Downward communication flows from managers to subordinates, upward communication from subordinates to managers, and diagonal communication crosses both functions and levels.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-bt-c13-q007",
+      "chapter": 13,
+      "topic": "Personal effectiveness and communication",
+      "question_text": "Which of the following is a feature of the informal communication network often called the 'grapevine'?",
+      "options": {
+        "A": "It is always slower and less reliable than formal channels",
+        "B": "It is controlled and approved by senior management",
+        "C": "It only carries information about social events",
+        "D": "It is fast and can spread information widely, but it may be inaccurate or distorted"
+      },
+      "correct": "D",
+      "explanation": "The grapevine is the informal network of communication between staff. It is usually fast and can be a useful indicator of employee concerns, but messages may be incomplete, distorted or rumour-based. It is not controlled by management and carries all kinds of information, including work matters.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c13-q008",
+      "chapter": 13,
+      "topic": "Personal effectiveness and communication",
+      "question_text": "Team members working on a cross-functional project are in conflict about deadlines. Their manager encourages them to openly explore the underlying concerns of both sides to find a solution that fully satisfies each party. Which conflict-handling approach is this?",
+      "options": {
+        "A": "Compromising",
+        "B": "Accommodating",
+        "C": "Avoiding",
+        "D": "Collaborating"
+      },
+      "correct": "D",
+      "explanation": "Collaborating is assertive and cooperative: parties work together to find a solution that fully meets both sets of concerns, a 'win-win' outcome. Compromising involves each side giving up something, accommodating means one party gives way to the other, and avoiding means withdrawing from the conflict without resolving it.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-bt-c13-q009",
+      "chapter": 13,
+      "topic": "Personal effectiveness and communication",
+      "question_text": "Which of the following is a feature of effective active listening?",
+      "options": {
+        "A": "Preparing a response while the speaker is still talking",
+        "B": "Interrupting frequently to show interest",
+        "C": "Concentrating only on the facts and ignoring the speaker's feelings",
+        "D": "Giving full attention to the speaker and checking understanding by summarising what has been said"
+      },
+      "correct": "D",
+      "explanation": "Active listening involves concentrating fully, using non-verbal cues to show attention, asking questions and summarising to confirm understanding, and paying attention to both content and feelings. Planning responses, interrupting and ignoring emotions all reduce the effectiveness of listening.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c13-q010",
+      "chapter": 13,
+      "topic": "Personal effectiveness and communication",
+      "question_text": "Which of the following best describes the purpose of a personal development plan (PDP)?",
+      "options": {
+        "A": "To record the organisation's annual budget for training",
+        "B": "To list the disciplinary warnings issued to an employee",
+        "C": "To specify the organisation's succession plans for the board",
+        "D": "To set out an individual's development objectives, the activities to achieve them and timescales for review"
+      },
+      "correct": "D",
+      "explanation": "A personal development plan is an individual action plan identifying current skills, desired goals, development activities (such as courses, projects or coaching) and a timetable for review. It is owned by the individual, often agreed with their manager, and is distinct from organisational budgets, disciplinary records and board succession planning.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c14-q001",
+      "chapter": 14,
+      "topic": "Professional ethics in accounting and business",
+      "question_text": "Which of the following is NOT one of the fundamental principles in the ACCA Code of Ethics and Conduct?",
+      "options": {
+        "A": "Profitability",
+        "B": "Integrity",
+        "C": "Objectivity",
+        "D": "Confidentiality"
+      },
+      "correct": "A",
+      "explanation": "The five fundamental principles are integrity, objectivity, professional competence and due care, confidentiality, and professional behaviour. Profitability is not an ethical principle and ethical duties take precedence over a desire for profit.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c14-q002",
+      "chapter": 14,
+      "topic": "Professional ethics in accounting and business",
+      "question_text": "Which fundamental principle requires a professional accountant to be straightforward and honest in all professional and business relationships?",
+      "options": {
+        "A": "Integrity",
+        "B": "Objectivity",
+        "C": "Professional behaviour",
+        "D": "Professional competence and due care"
+      },
+      "correct": "A",
+      "explanation": "Integrity means being straightforward and honest, and not being associated with information that is materially false or misleading. Objectivity means not allowing bias, conflicts of interest or undue influence to override judgement, professional behaviour means complying with laws and avoiding discredit to the profession, and competence and due care concern maintaining knowledge and acting diligently.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c14-q003",
+      "chapter": 14,
+      "topic": "Professional ethics in accounting and business",
+      "question_text": "An accountant tells a friend at a dinner party about the financial difficulties of a client, naming the client. Which fundamental principle has been breached?",
+      "options": {
+        "A": "Objectivity",
+        "B": "Integrity",
+        "C": "Confidentiality",
+        "D": "Professional competence and due care"
+      },
+      "correct": "C",
+      "explanation": "Confidentiality requires accountants to respect the confidentiality of information acquired through professional relationships and not disclose it without proper authority or a legal or professional duty to do so. Discussing a client's finances socially is a clear breach. The facts do not involve bias, dishonesty or lack of skill.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c14-q004",
+      "chapter": 14,
+      "topic": "Professional ethics in accounting and business",
+      "question_text": "An accountant is asked to prepare a complex valuation in an area in which she has no experience, with a tight deadline and no access to specialist support. Which fundamental principle is most at risk?",
+      "options": {
+        "A": "Confidentiality",
+        "B": "Objectivity",
+        "C": "Integrity",
+        "D": "Professional competence and due care"
+      },
+      "correct": "D",
+      "explanation": "Professional competence and due care require accountants to maintain the knowledge and skill needed to provide competent service and to act diligently. Accepting work beyond one's competence without appropriate support or time risks breaching this principle. Nothing in the scenario suggests disclosure of information, bias or dishonesty.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c14-q005",
+      "chapter": 14,
+      "topic": "Professional ethics in accounting and business",
+      "question_text": "An accountant holds a large number of shares in a client company whose financial statements she is reviewing. Which type of threat to her fundamental principles does this create?",
+      "options": {
+        "A": "Self-review threat",
+        "B": "Advocacy threat",
+        "C": "Self-interest threat",
+        "D": "Familiarity threat"
+      },
+      "correct": "C",
+      "explanation": "A self-interest threat arises where a financial or other interest could inappropriately influence judgement or behaviour; holding shares in the client gives the accountant a personal stake in the reported results. Self-review threats arise from evaluating one's own previous work, advocacy threats from promoting a client's position, and familiarity threats from close relationships.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c14-q006",
+      "chapter": 14,
+      "topic": "Professional ethics in accounting and business",
+      "question_text": "A firm's audit team includes a manager who prepared the client's accounting records earlier in the year before transferring to the audit department. Which threat does this create?",
+      "options": {
+        "A": "Intimidation threat",
+        "B": "Advocacy threat",
+        "C": "Self-interest threat",
+        "D": "Self-review threat"
+      },
+      "correct": "D",
+      "explanation": "A self-review threat arises when a professional accountant evaluates work that they, or their firm, performed previously, so they may not spot or may be reluctant to admit their own errors. The manager would be auditing records they prepared. There is no pressure (intimidation), promotion of the client (advocacy) or direct financial interest (self-interest) in the scenario.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-bt-c14-q007",
+      "chapter": 14,
+      "topic": "Professional ethics in accounting and business",
+      "question_text": "A finance director tells a junior accountant that he will lose his job unless he records a dubious sales transaction before the year end. Which threat to compliance with the fundamental principles does this represent?",
+      "options": {
+        "A": "Familiarity threat",
+        "B": "Intimidation threat",
+        "C": "Self-review threat",
+        "D": "Advocacy threat"
+      },
+      "correct": "B",
+      "explanation": "An intimidation threat arises where a professional accountant is deterred from acting objectively by actual or perceived pressures, including threats of dismissal. The appropriate response involves refusing to record the transaction improperly and escalating the matter through appropriate channels, seeking advice if necessary.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-bt-c14-q008",
+      "chapter": 14,
+      "topic": "Professional ethics in accounting and business",
+      "question_text": "An accountant has worked closely with the same client's finance director for many years and they now holiday together. Which threat is most likely to arise?",
+      "options": {
+        "A": "Self-review threat",
+        "B": "Intimidation threat",
+        "C": "Familiarity threat",
+        "D": "Advocacy threat"
+      },
+      "correct": "C",
+      "explanation": "A familiarity threat arises from a long or close relationship with a client or employer, so that the accountant becomes too sympathetic to their interests or too accepting of their work. Rotation of senior staff and independent review are common safeguards against this threat.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c14-q009",
+      "chapter": 14,
+      "topic": "Professional ethics in accounting and business",
+      "question_text": "Which of the following is an example of a safeguard created by the profession, legislation or regulation, rather than by the work environment?",
+      "options": {
+        "A": "The firm's own internal review of engagements",
+        "B": "Rotation of staff on a client assignment by the firm",
+        "C": "Continuing professional development requirements",
+        "D": "An employer's whistleblowing hotline"
+      },
+      "correct": "C",
+      "explanation": "Safeguards created by the profession, legislation or regulation include educational and experience requirements for entry, continuing professional development, corporate governance regulations, professional standards and external review. Internal reviews, staff rotation decided by the firm, and employer whistleblowing procedures are safeguards in the work environment.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-bt-c14-q010",
+      "chapter": 14,
+      "topic": "Professional ethics in accounting and business",
+      "question_text": "When an accountant faces an ethical conflict that cannot be resolved informally within the organisation, which of the following is generally the most appropriate next step?",
+      "options": {
+        "A": "Immediately disclose the matter to the media",
+        "B": "Ignore the matter because it is the employer's responsibility",
+        "C": "Seek advice, for example from the professional body's ethics helpline or a legal adviser, while documenting the issue",
+        "D": "Resign without informing anyone of the reason"
+      },
+      "correct": "C",
+      "explanation": "The recommended approach to resolving ethical conflicts includes gathering facts, considering the principles involved, using internal procedures and escalation, and seeking advice from the professional body or a legal adviser, documenting each step. Disclosure to the media is rarely appropriate and may breach confidentiality, ignoring the issue risks association with wrongdoing, and resignation is a last resort.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-bt-c14-q011",
+      "chapter": 14,
+      "topic": "Professional ethics in accounting and business",
+      "question_text": "ACCA's Code adopts a conceptual framework approach to ethics. Which of the following best describes this approach?",
+      "options": {
+        "A": "Accountants identify threats to compliance with the fundamental principles, evaluate their significance and apply safeguards to eliminate them or reduce them to an acceptable level",
+        "B": "Accountants follow a comprehensive list of prohibited actions, and anything not on the list is permitted",
+        "C": "Ethical decisions are left entirely to each employer's own policies",
+        "D": "Accountants must refuse any work where any threat at all exists"
+      },
+      "correct": "A",
+      "explanation": "The conceptual framework requires accountants to identify, evaluate and address threats to the fundamental principles using safeguards, applying judgement to circumstances that rules could not anticipate. It is principles-based rather than a rules-based list of prohibitions, it is not delegated to employers, and it does not require refusal whenever any threat exists, only where threats cannot be reduced to an acceptable level.",
+      "difficulty": "hard"
+    }
+  ]
+}

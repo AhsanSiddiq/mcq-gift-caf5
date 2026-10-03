@@ -116,7 +116,7 @@ export const accaSubjects: Subject[] = [
     level: "ACCA",
     body: "acca",
     description: "Organisations, governance, leadership, technology and ethics — the full BT syllabus as objective questions.",
-    isAvailable: false,
+    isAvailable: true,
   },
   {
     id: "acca-ma",
