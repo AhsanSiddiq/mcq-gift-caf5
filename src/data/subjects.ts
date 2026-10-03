@@ -146,7 +146,7 @@ export const caFoundationSubjects: Subject[] = [
     level: "CA-FOUNDATION",
     body: "icai",
     description: "Business mathematics, logical reasoning and statistics — every step worked.",
-    isAvailable: false,
+    isAvailable: true,
   },
   {
     id: "ca-foundation-be",

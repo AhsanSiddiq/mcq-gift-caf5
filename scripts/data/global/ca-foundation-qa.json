@@ -1,0 +1,2405 @@
+{
+  "subject_id": "ca-foundation-qa",
+  "questions": [
+    {
+      "id": "ca-foundation-qa-c01-q001",
+      "chapter": 1,
+      "topic": "Ratio and Proportion, Indices and Logarithms",
+      "question_text": "Two numbers are in the ratio 5 : 8. If 9 is added to each number, the ratio becomes 2 : 3. The two numbers are:",
+      "options": {
+        "A": "40 and 64",
+        "B": "45 and 72",
+        "C": "54 and 81",
+        "D": "50 and 80"
+      },
+      "correct": "B",
+      "explanation": "Let the numbers be 5x and 8x. Then (5x + 9)/(8x + 9) = 2/3, so 15x + 27 = 16x + 18, giving x = 9. The numbers are 5 x 9 = 45 and 8 x 9 = 72. Check: 54/81 = 2/3. The option 54 and 81 gives the numbers after adding 9, not the original numbers.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c01-q002",
+      "chapter": 1,
+      "topic": "Ratio and Proportion, Indices and Logarithms",
+      "question_text": "The duplicate ratio of 3 : 7 is:",
+      "options": {
+        "A": "√3 : √7",
+        "B": "27 : 343",
+        "C": "7 : 3",
+        "D": "9 : 49"
+      },
+      "correct": "D",
+      "explanation": "The duplicate ratio of a : b is a² : b². Hence the duplicate ratio of 3 : 7 is 3² : 7² = 9 : 49. √3 : √7 is the sub-duplicate ratio, 27 : 343 is the triplicate ratio and 7 : 3 is the inverse ratio.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c01-q003",
+      "chapter": 1,
+      "topic": "Ratio and Proportion, Indices and Logarithms",
+      "question_text": "The fourth proportional to 4, 10 and 14 is:",
+      "options": {
+        "A": "5.6",
+        "B": "28",
+        "C": "35",
+        "D": "20"
+      },
+      "correct": "C",
+      "explanation": "If x is the fourth proportional, then 4 : 10 = 14 : x, so 4x = 10 x 14 = 140 and x = 35. The value 5.6 comes from wrongly computing 4 x 14 / 10.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c01-q004",
+      "chapter": 1,
+      "topic": "Ratio and Proportion, Indices and Logarithms",
+      "question_text": "The mean proportional between 12 and 75 is:",
+      "options": {
+        "A": "30",
+        "B": "43.5",
+        "C": "45",
+        "D": "15"
+      },
+      "correct": "A",
+      "explanation": "The mean proportional between a and b is √(ab). Here √(12 x 75) = √900 = 30. The value 43.5 is the arithmetic mean (12 + 75)/2, which is a common confusion.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c01-q005",
+      "chapter": 1,
+      "topic": "Ratio and Proportion, Indices and Logarithms",
+      "question_text": "The value of (xᵃ/xᵇ)^(a+b) · (xᵇ/xᶜ)^(b+c) · (xᶜ/xᵃ)^(c+a) is:",
+      "options": {
+        "A": "x^(a+b+c)",
+        "B": "0",
+        "C": "x^(2(a+b+c))",
+        "D": "1"
+      },
+      "correct": "D",
+      "explanation": "Each factor simplifies using (xᵃ/xᵇ)^(a+b) = x^((a−b)(a+b)) = x^(a² − b²). The product is x^((a² − b²) + (b² − c²) + (c² − a²)) = x⁰ = 1. Note x⁰ equals 1, not 0.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c01-q006",
+      "chapter": 1,
+      "topic": "Ratio and Proportion, Indices and Logarithms",
+      "question_text": "If 3ˣ = 5ʸ = 15ᶻ, then z equals:",
+      "options": {
+        "A": "x + y",
+        "B": "xy/(x + y)",
+        "C": "(x + y)/xy",
+        "D": "√(xy)"
+      },
+      "correct": "B",
+      "explanation": "Let 3ˣ = 5ʸ = 15ᶻ = k. Then 3 = k^(1/x), 5 = k^(1/y) and 15 = k^(1/z). Since 15 = 3 x 5, k^(1/z) = k^(1/x + 1/y), so 1/z = 1/x + 1/y = (x + y)/xy. Therefore z = xy/(x + y).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-qa-c01-q007",
+      "chapter": 1,
+      "topic": "Ratio and Proportion, Indices and Logarithms",
+      "question_text": "Given log 2 = 0.3010 and log 3 = 0.4771, the value of log 72 is:",
+      "options": {
+        "A": "1.8572",
+        "B": "1.3801",
+        "C": "2.0333",
+        "D": "1.8062"
+      },
+      "correct": "A",
+      "explanation": "72 = 8 x 9 = 2³ x 3². So log 72 = 3 log 2 + 2 log 3 = 3(0.3010) + 2(0.4771) = 0.9030 + 0.9542 = 1.8572. Taking 3² as 3 gives 1.3801, and swapping the powers (2² x 3³ = 108) gives 2.0333.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c01-q008",
+      "chapter": 1,
+      "topic": "Ratio and Proportion, Indices and Logarithms",
+      "question_text": "If log₄ x = 2.5, then x is equal to:",
+      "options": {
+        "A": "10",
+        "B": "16",
+        "C": "32",
+        "D": "64"
+      },
+      "correct": "C",
+      "explanation": "log₄ x = 2.5 means x = 4^2.5 = (2²)^2.5 = 2⁵ = 32. The value 10 comes from multiplying 4 by 2.5, and 16 and 64 are 4² and 4³ respectively.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c01-q009",
+      "chapter": 1,
+      "topic": "Ratio and Proportion, Indices and Logarithms",
+      "question_text": "If a² + b² = 7ab (a, b > 0), then log((a + b)/3) is equal to:",
+      "options": {
+        "A": "log a + log b",
+        "B": "½(log a + log b)",
+        "C": "½ log(a + b)",
+        "D": "log a · log b"
+      },
+      "correct": "B",
+      "explanation": "Adding 2ab to both sides gives a² + 2ab + b² = 9ab, i.e. (a + b)² = 9ab. Hence (a + b)/3 = √(ab). Taking logs, log((a + b)/3) = ½ log(ab) = ½(log a + log b).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-qa-c02-q001",
+      "chapter": 2,
+      "topic": "Equations",
+      "question_text": "The solution of the equation 5x − 7 = 3x + 11 is:",
+      "options": {
+        "A": "x = 9",
+        "B": "x = 2",
+        "C": "x = 0.5",
+        "D": "x = 18"
+      },
+      "correct": "A",
+      "explanation": "Transposing terms: 5x − 3x = 11 + 7, so 2x = 18 and x = 9. Check: 5(9) − 7 = 38 and 3(9) + 11 = 38. Writing 2x = 4 (wrong sign on 7) gives x = 2.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c02-q002",
+      "chapter": 2,
+      "topic": "Equations",
+      "question_text": "The roots of the equation x² − 11x + 28 = 0 are:",
+      "options": {
+        "A": "−4 and −7",
+        "B": "2 and 14",
+        "C": "−4 and 7",
+        "D": "4 and 7"
+      },
+      "correct": "D",
+      "explanation": "We need two numbers with sum 11 and product 28: 4 and 7. So x² − 11x + 28 = (x − 4)(x − 7) = 0, giving x = 4 or x = 7. The pair 2 and 14 has product 28 but sum 16.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c02-q003",
+      "chapter": 2,
+      "topic": "Equations",
+      "question_text": "If α and β are the roots of 3x² − 12x + 7 = 0, the value of α² + β² is:",
+      "options": {
+        "A": "16",
+        "B": "62/3",
+        "C": "34/3",
+        "D": "41/3"
+      },
+      "correct": "C",
+      "explanation": "α + β = 12/3 = 4 and αβ = 7/3. Then α² + β² = (α + β)² − 2αβ = 16 − 14/3 = 34/3. Adding 2αβ instead of subtracting gives 62/3, and forgetting the factor 2 gives 41/3.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c02-q004",
+      "chapter": 2,
+      "topic": "Equations",
+      "question_text": "The roots of the equation 2x² + 5x + 4 = 0 are:",
+      "options": {
+        "A": "Imaginary (complex conjugates)",
+        "B": "Real and distinct",
+        "C": "Real and equal",
+        "D": "Rational and unequal"
+      },
+      "correct": "A",
+      "explanation": "The discriminant is b² − 4ac = 25 − 4(2)(4) = 25 − 32 = −7. Since the discriminant is negative, the roots are imaginary and occur as a conjugate pair.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c02-q005",
+      "chapter": 2,
+      "topic": "Equations",
+      "question_text": "The quadratic equation whose roots are 3 + √2 and 3 − √2 is:",
+      "options": {
+        "A": "x² + 6x + 7 = 0",
+        "B": "x² − 6x + 7 = 0",
+        "C": "x² − 6x + 11 = 0",
+        "D": "x² − 6x − 7 = 0"
+      },
+      "correct": "B",
+      "explanation": "Sum of roots = 6 and product = (3 + √2)(3 − √2) = 9 − 2 = 7. The equation is x² − (sum)x + product = 0, i.e. x² − 6x + 7 = 0. Using 9 + 2 for the product gives x² − 6x + 11 = 0.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c02-q006",
+      "chapter": 2,
+      "topic": "Equations",
+      "question_text": "The solution of the simultaneous equations 3x + 4y = 26 and 5x − 2y = 13 is:",
+      "options": {
+        "A": "x = 3.5, y = 4",
+        "B": "x = 4, y = 3",
+        "C": "x = 4, y = 3.5",
+        "D": "x = 2, y = 5"
+      },
+      "correct": "C",
+      "explanation": "Multiply the second equation by 2: 10x − 4y = 26. Adding to the first: 13x = 52, so x = 4. Substituting, 3(4) + 4y = 26 gives 4y = 14 and y = 3.5. Check: 5(4) − 2(3.5) = 20 − 7 = 13.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c02-q007",
+      "chapter": 2,
+      "topic": "Equations",
+      "question_text": "A cashier has ₹1,200 made up of 90 notes, some of ₹10 and the rest of ₹20. The number of ₹20 notes is:",
+      "options": {
+        "A": "60",
+        "B": "45",
+        "C": "40",
+        "D": "30"
+      },
+      "correct": "D",
+      "explanation": "Let the number of ₹20 notes be b, so ₹10 notes = 90 − b. Then 10(90 − b) + 20b = 1,200, so 900 + 10b = 1,200 and b = 30. There are 60 notes of ₹10; check: 600 + 600 = 1,200.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c02-q008",
+      "chapter": 2,
+      "topic": "Equations",
+      "question_text": "One root of x³ − 6x² + 11x − 6 = 0 is 1. The other two roots are:",
+      "options": {
+        "A": "−2 and −3",
+        "B": "2 and −3",
+        "C": "2 and 3",
+        "D": "1 and 6"
+      },
+      "correct": "C",
+      "explanation": "Dividing by (x − 1) gives x² − 5x + 6 = 0, which factorises as (x − 2)(x − 3) = 0. Hence the other roots are 2 and 3. Check: the sum of all roots 1 + 2 + 3 = 6 equals the negative of the x² coefficient.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c02-q009",
+      "chapter": 2,
+      "topic": "Equations",
+      "question_text": "If α and β are the roots of x² − 5x + 3 = 0, the equation whose roots are α² and β² is:",
+      "options": {
+        "A": "x² − 25x + 9 = 0",
+        "B": "x² − 19x + 9 = 0",
+        "C": "x² − 19x + 3 = 0",
+        "D": "x² + 19x + 9 = 0"
+      },
+      "correct": "B",
+      "explanation": "α + β = 5 and αβ = 3. Sum of new roots: α² + β² = 25 − 2(3) = 19. Product of new roots: α²β² = 3² = 9. The equation is x² − 19x + 9 = 0. Taking (α + β)² as the sum gives the wrong option with 25.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-qa-c03-q001",
+      "chapter": 3,
+      "topic": "Linear Inequalities",
+      "question_text": "The solution set of the inequality 4x − 7 < 2x + 5 is:",
+      "options": {
+        "A": "x > 6",
+        "B": "x < 1",
+        "C": "x < 12",
+        "D": "x < 6"
+      },
+      "correct": "D",
+      "explanation": "4x − 2x < 5 + 7, so 2x < 12 and x < 6. Dividing by a positive number does not reverse the inequality. Forgetting to divide by 2 gives x < 12.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c03-q002",
+      "chapter": 3,
+      "topic": "Linear Inequalities",
+      "question_text": "The solution of −3x + 9 ≥ 0 is:",
+      "options": {
+        "A": "x ≤ 3",
+        "B": "x ≥ 3",
+        "C": "x ≤ −3",
+        "D": "x ≥ −3"
+      },
+      "correct": "A",
+      "explanation": "−3x ≥ −9. Dividing both sides by −3 reverses the inequality sign, so x ≤ 3. Students who forget to reverse the sign get x ≥ 3.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c03-q003",
+      "chapter": 3,
+      "topic": "Linear Inequalities",
+      "question_text": "Which of the following points lies in the region defined by 2x + 3y ≤ 12, x ≥ 0, y ≥ 0?",
+      "options": {
+        "A": "(2, 3)",
+        "B": "(3, 2)",
+        "C": "(4, 2)",
+        "D": "(0, 5)"
+      },
+      "correct": "B",
+      "explanation": "Substitute each point into 2x + 3y: (3, 2) gives 6 + 6 = 12 ≤ 12, so it lies on the boundary and is included. (2, 3) gives 13, (4, 2) gives 14 and (0, 5) gives 15, all greater than 12.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c03-q004",
+      "chapter": 3,
+      "topic": "Linear Inequalities",
+      "question_text": "Subject to x + y ≤ 6, x ≤ 4, x ≥ 0, y ≥ 0, the maximum value of Z = 5x + 4y is:",
+      "options": {
+        "A": "24",
+        "B": "20",
+        "C": "28",
+        "D": "30"
+      },
+      "correct": "C",
+      "explanation": "The corner points of the feasible region are (0, 0), (4, 0), (4, 2) and (0, 6). Z takes values 0, 20, 5(4) + 4(2) = 28 and 24 respectively. The maximum is 28 at (4, 2). The value 30 comes from the point (6, 0), which violates x ≤ 4.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-qa-c03-q005",
+      "chapter": 3,
+      "topic": "Linear Inequalities",
+      "question_text": "For the constraints x + 2y ≤ 8, 3x + y ≤ 9, x ≥ 0, y ≥ 0, which of the following is a corner point of the feasible region?",
+      "options": {
+        "A": "(2, 3)",
+        "B": "(3, 2)",
+        "C": "(8, 0)",
+        "D": "(0, 9)"
+      },
+      "correct": "A",
+      "explanation": "The corner where the two lines meet: from x = 8 − 2y, 3(8 − 2y) + y = 9 gives 24 − 5y = 9, so y = 3 and x = 2. (3, 2) violates 3x + y ≤ 9 (gives 11), (8, 0) violates 3x + y ≤ 9 and (0, 9) violates x + 2y ≤ 8.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c03-q006",
+      "chapter": 3,
+      "topic": "Linear Inequalities",
+      "question_text": "A student buys x pens at ₹15 each and y notebooks at ₹40 each with a budget of ₹500, and must buy at least 4 notebooks. The maximum number of pens she can buy is:",
+      "options": {
+        "A": "33",
+        "B": "23",
+        "C": "20",
+        "D": "22"
+      },
+      "correct": "D",
+      "explanation": "Constraints: 15x + 40y ≤ 500, y ≥ 4. Pens are maximised when y takes its minimum value 4, so 15x ≤ 500 − 160 = 340 and x ≤ 22.67. Since x must be a whole number, the maximum is 22 (rounding down). Ignoring the notebook condition gives 500/15 = 33.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-qa-c03-q007",
+      "chapter": 3,
+      "topic": "Linear Inequalities",
+      "question_text": "The graph of the inequality x ≥ 0 on the XY-plane is:",
+      "options": {
+        "A": "The half-plane above the x-axis, including the x-axis",
+        "B": "The half-plane to the right of the y-axis, including the y-axis",
+        "C": "The half-plane to the left of the y-axis",
+        "D": "The y-axis only"
+      },
+      "correct": "B",
+      "explanation": "x = 0 is the equation of the y-axis. All points with non-negative x-coordinates lie on or to the right of it, so x ≥ 0 represents the right half-plane together with the y-axis. y ≥ 0 would give the upper half-plane.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c03-q008",
+      "chapter": 3,
+      "topic": "Linear Inequalities",
+      "question_text": "The number of integer values of x satisfying both 2x − 3 > 5 and 3x + 1 ≤ 22 is:",
+      "options": {
+        "A": "4",
+        "B": "2",
+        "C": "7",
+        "D": "3"
+      },
+      "correct": "D",
+      "explanation": "From 2x − 3 > 5: 2x > 8, so x > 4. From 3x + 1 ≤ 22: 3x ≤ 21, so x ≤ 7. Hence 4 < x ≤ 7 and the integers are 5, 6, 7, i.e. 3 values. Including 4 by mistake (treating > as ≥) gives 4.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c04-q001",
+      "chapter": 4,
+      "topic": "Mathematics of Finance",
+      "question_text": "The simple interest on ₹12,000 at 8% per annum for 2½ years is:",
+      "options": {
+        "A": "₹1,920",
+        "B": "₹14,400",
+        "C": "₹2,400",
+        "D": "₹2,40,000"
+      },
+      "correct": "C",
+      "explanation": "SI = P x R x T / 100 = 12,000 x 8 x 2.5 / 100 = ₹2,400. ₹1,920 is the interest for 2 years only, ₹14,400 is the amount (principal plus interest), and ₹2,40,000 results from not dividing by 100.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c04-q002",
+      "chapter": 4,
+      "topic": "Mathematics of Finance",
+      "question_text": "The compound interest on ₹20,000 for 1½ years at 10% per annum compounded half-yearly is:",
+      "options": {
+        "A": "₹3,152.50",
+        "B": "₹3,000.00",
+        "C": "₹6,620.00",
+        "D": "₹3,073.79"
+      },
+      "correct": "A",
+      "explanation": "Half-yearly rate = 10/2 = 5% and number of periods = 1.5 x 2 = 3. Amount = 20,000 x (1.05)³ = 20,000 x 1.157625 = ₹23,152.50, so CI = ₹3,152.50. Simple interest would be ₹3,000; using 10% for 3 periods gives ₹6,620; compounding annually (1.1^1.5) gives about ₹3,073.79.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-qa-c04-q003",
+      "chapter": 4,
+      "topic": "Mathematics of Finance",
+      "question_text": "The effective annual rate of interest corresponding to a nominal rate of 12% per annum compounded quarterly is (to two decimals):",
+      "options": {
+        "A": "12.00%",
+        "B": "12.55%",
+        "C": "12.36%",
+        "D": "48.00%"
+      },
+      "correct": "B",
+      "explanation": "Quarterly rate = 12/4 = 3%. Effective rate E = (1 + 0.03)⁴ − 1 = 1.12550881 − 1 = 0.1255, i.e. 12.55% (rounded to two decimals). 12.36% is the effective rate for half-yearly compounding, (1.06)² − 1.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c04-q004",
+      "chapter": 4,
+      "topic": "Mathematics of Finance",
+      "question_text": "The difference between compound interest and simple interest on ₹15,000 for 2 years at 6% per annum (compounded annually) is:",
+      "options": {
+        "A": "₹1,800",
+        "B": "₹1,854",
+        "C": "₹54",
+        "D": "₹108"
+      },
+      "correct": "C",
+      "explanation": "For 2 years, CI − SI = P(R/100)² = 15,000 x (0.06)² = 15,000 x 0.0036 = ₹54. Check: CI = 15,000(1.06² − 1) = 15,000 x 0.1236 = ₹1,854 and SI = 15,000 x 0.06 x 2 = ₹1,800; difference ₹54.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c04-q005",
+      "chapter": 4,
+      "topic": "Mathematics of Finance",
+      "question_text": "At what rate of simple interest per annum will a sum double itself in 8 years?",
+      "options": {
+        "A": "12.5%",
+        "B": "8%",
+        "C": "9.05%",
+        "D": "16%"
+      },
+      "correct": "A",
+      "explanation": "A sum doubles when SI = P. So P = P x R x 8 / 100, giving R = 100/8 = 12.5%. The value 9.05% is the compound rate, 2^(1/8) − 1, which applies only if interest is compounded.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c04-q006",
+      "chapter": 4,
+      "topic": "Mathematics of Finance",
+      "question_text": "₹5,000 is deposited at the end of each year for 4 years at 10% per annum compounded annually. The amount at the end of 4 years is:",
+      "options": {
+        "A": "₹20,000",
+        "B": "₹15,849.33",
+        "C": "₹25,525.50",
+        "D": "₹23,205"
+      },
+      "correct": "D",
+      "explanation": "Future value of an ordinary annuity = A[(1 + i)ⁿ − 1]/i = 5,000 x (1.1⁴ − 1)/0.1 = 5,000 x (1.4641 − 1)/0.1 = 5,000 x 4.641 = ₹23,205. ₹15,849.33 is the present value, ₹25,525.50 is the annuity-due amount (x 1.1), and ₹20,000 ignores interest.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c04-q007",
+      "chapter": 4,
+      "topic": "Mathematics of Finance",
+      "question_text": "The present value of an ordinary annuity of ₹10,000 per annum for 3 years at 8% per annum compounded annually is (to the nearest paisa):",
+      "options": {
+        "A": "₹25,770.97",
+        "B": "₹30,000.00",
+        "C": "₹32,464.00",
+        "D": "₹27,832.65"
+      },
+      "correct": "A",
+      "explanation": "PV = A[1 − (1 + i)^(−n)]/i = 10,000 x [1 − (1.08)^(−3)]/0.08. (1.08)³ = 1.259712, so (1.08)^(−3) = 0.793832 and the factor = 0.206168/0.08 = 2.577097. PV = ₹25,770.97. ₹32,464 is the future value and ₹27,832.65 is the annuity-due present value (x 1.08).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c04-q008",
+      "chapter": 4,
+      "topic": "Mathematics of Finance",
+      "question_text": "A company wants to accumulate ₹5,00,000 in 5 years through equal deposits made at the end of each year into a sinking fund earning 8% per annum compounded annually. The annual deposit (to the nearest paisa) is:",
+      "options": {
+        "A": "₹1,00,000.00",
+        "B": "₹1,25,228.23",
+        "C": "₹78,915.03",
+        "D": "₹85,228.23"
+      },
+      "correct": "D",
+      "explanation": "Sinking fund deposit = FV / [((1 + i)ⁿ − 1)/i]. (1.08)⁵ = 1.469328, so the factor = 0.469328/0.08 = 5.866601. Deposit = 5,00,000 / 5.866601 = ₹85,228.23 (rounded to the paisa). Using the present-value factor 3.992710 instead gives ₹1,25,228.23, and treating deposits as at the beginning of the year gives ₹78,915.03.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-qa-c04-q009",
+      "chapter": 4,
+      "topic": "Mathematics of Finance",
+      "question_text": "The present value of a perpetuity of ₹6,000 receivable at the end of every year, when money is worth 12% per annum, is:",
+      "options": {
+        "A": "₹72,000",
+        "B": "₹50,000",
+        "C": "₹56,000",
+        "D": "₹5,357"
+      },
+      "correct": "B",
+      "explanation": "PV of a perpetuity = A/i = 6,000/0.12 = ₹50,000. ₹56,000 is the value of a perpetuity due (payment also at the start: 50,000 + 6,000), and ₹72,000 results from multiplying by 12 instead of dividing.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c04-q010",
+      "chapter": 4,
+      "topic": "Mathematics of Finance",
+      "question_text": "A loan of ₹1,00,000 is to be repaid in 3 equal annual instalments, the first payable one year after the loan, with interest at 10% per annum compounded annually. Each instalment (to the nearest paisa) is:",
+      "options": {
+        "A": "₹33,333.33",
+        "B": "₹43,333.33",
+        "C": "₹40,211.48",
+        "D": "₹36,555.89"
+      },
+      "correct": "C",
+      "explanation": "Instalment = P / [(1 − (1 + i)^(−n))/i]. (1.1)³ = 1.331, so (1.1)^(−3) = 0.751315 and the factor = 0.248685/0.1 = 2.486852. Instalment = 1,00,000/2.486852 = ₹40,211.48. ₹33,333.33 ignores interest, ₹43,333.33 adds one year's flat interest, and ₹36,555.89 treats the instalments as an annuity due.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-qa-c05-q001",
+      "chapter": 5,
+      "topic": "Basic Concepts of Permutations and Combinations",
+      "question_text": "The number of different arrangements of the letters of the word LEDGER is:",
+      "options": {
+        "A": "720",
+        "B": "180",
+        "C": "360",
+        "D": "120"
+      },
+      "correct": "C",
+      "explanation": "LEDGER has 6 letters with E repeated twice. Number of arrangements = 6!/2! = 720/2 = 360. Ignoring the repetition gives 720.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c05-q002",
+      "chapter": 5,
+      "topic": "Basic Concepts of Permutations and Combinations",
+      "question_text": "In how many ways can a committee of 3 be chosen from 8 persons?",
+      "options": {
+        "A": "336",
+        "B": "24",
+        "C": "512",
+        "D": "56"
+      },
+      "correct": "D",
+      "explanation": "Order does not matter in a committee, so we use combinations: ⁸C₃ = 8 x 7 x 6 / (3 x 2 x 1) = 56. ⁸P₃ = 336 counts ordered selections, which is the usual error.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c05-q003",
+      "chapter": 5,
+      "topic": "Basic Concepts of Permutations and Combinations",
+      "question_text": "A committee of 5 is to be formed from 6 men and 4 women. In how many ways can this be done if the committee must contain exactly 2 women?",
+      "options": {
+        "A": "252",
+        "B": "120",
+        "C": "60",
+        "D": "186"
+      },
+      "correct": "B",
+      "explanation": "Choose 2 women from 4: ⁴C₂ = 6. Choose 3 men from 6: ⁶C₃ = 20. Total = 6 x 20 = 120. ¹⁰C₅ = 252 ignores the condition, and 186 is the count for 'at least 2 women' (252 − 6 − 60).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c05-q004",
+      "chapter": 5,
+      "topic": "Basic Concepts of Permutations and Combinations",
+      "question_text": "In how many ways can 7 persons be seated around a circular table?",
+      "options": {
+        "A": "720",
+        "B": "5040",
+        "C": "360",
+        "D": "2520"
+      },
+      "correct": "A",
+      "explanation": "For n persons around a circle the number of arrangements is (n − 1)!. Here (7 − 1)! = 6! = 720. 7! = 5,040 treats it as a row, and 360 = 6!/2 applies only to necklaces or garlands where clockwise and anticlockwise are the same.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c05-q005",
+      "chapter": 5,
+      "topic": "Basic Concepts of Permutations and Combinations",
+      "question_text": "How many 4-digit even numbers can be formed using the digits 1, 2, 3, 4, 5, 6, 7 if no digit is repeated?",
+      "options": {
+        "A": "840",
+        "B": "480",
+        "C": "420",
+        "D": "360"
+      },
+      "correct": "D",
+      "explanation": "The units place must be even: 2, 4 or 6, giving 3 choices. The remaining three places are filled from the other 6 digits in ⁶P₃ = 6 x 5 x 4 = 120 ways. Total = 3 x 120 = 360. ⁷P₄ = 840 counts all 4-digit numbers, and 480 counts the odd ones.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-qa-c05-q006",
+      "chapter": 5,
+      "topic": "Basic Concepts of Permutations and Combinations",
+      "question_text": "If ⁿP₂ = 90, then n is:",
+      "options": {
+        "A": "9",
+        "B": "45",
+        "C": "10",
+        "D": "15"
+      },
+      "correct": "C",
+      "explanation": "ⁿP₂ = n(n − 1) = 90. Since 10 x 9 = 90, n = 10 (the negative root −9 is rejected).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c05-q007",
+      "chapter": 5,
+      "topic": "Basic Concepts of Permutations and Combinations",
+      "question_text": "The number of diagonals of a polygon with 12 sides is:",
+      "options": {
+        "A": "66",
+        "B": "54",
+        "C": "132",
+        "D": "42"
+      },
+      "correct": "B",
+      "explanation": "Lines joining any two vertices = ¹²C₂ = 66. Of these, 12 are sides. Diagonals = 66 − 12 = 54. Equivalently n(n − 3)/2 = 12 x 9 / 2 = 54.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c05-q008",
+      "chapter": 5,
+      "topic": "Basic Concepts of Permutations and Combinations",
+      "question_text": "In how many ways can the letters of the word ARTICLE be arranged so that the vowels occupy only the even positions?",
+      "options": {
+        "A": "144",
+        "B": "720",
+        "C": "5040",
+        "D": "288"
+      },
+      "correct": "A",
+      "explanation": "ARTICLE has 7 letters: vowels A, I, E (3) and consonants R, T, C, L (4). The even positions are 2, 4, 6, exactly 3 places, so vowels can be placed in 3! = 6 ways and consonants in the remaining 4 places in 4! = 24 ways. Total = 6 x 24 = 144. 720 is the answer for 'vowels together' (5! x 3!).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-qa-c05-q009",
+      "chapter": 5,
+      "topic": "Basic Concepts of Permutations and Combinations",
+      "question_text": "If ⁿC₈ = ⁿC₁₂, then ⁿC₁₇ is equal to:",
+      "options": {
+        "A": "20",
+        "B": "1140",
+        "C": "6840",
+        "D": "1330"
+      },
+      "correct": "B",
+      "explanation": "ⁿCᵣ = ⁿCₛ with r ≠ s implies n = r + s = 8 + 12 = 20. Then ²⁰C₁₇ = ²⁰C₃ = 20 x 19 x 18 / 6 = 1,140. ²⁰P₃ = 6,840 forgets to divide by 3!.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-qa-c06-q001",
+      "chapter": 6,
+      "topic": "Sequence and Series - Arithmetic and Geometric Progressions",
+      "question_text": "The 15th term of the A.P. 7, 11, 15, 19, ... is:",
+      "options": {
+        "A": "67",
+        "B": "59",
+        "C": "60",
+        "D": "63"
+      },
+      "correct": "D",
+      "explanation": "tₙ = a + (n − 1)d with a = 7 and d = 4. t₁₅ = 7 + 14 x 4 = 63. Using n instead of n − 1 gives 7 + 60 = 67.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c06-q002",
+      "chapter": 6,
+      "topic": "Sequence and Series - Arithmetic and Geometric Progressions",
+      "question_text": "The sum of the first 20 terms of the A.P. 3, 8, 13, ... is:",
+      "options": {
+        "A": "1010",
+        "B": "1060",
+        "C": "98",
+        "D": "505"
+      },
+      "correct": "A",
+      "explanation": "Sₙ = n/2 [2a + (n − 1)d] = 20/2 x [6 + 19 x 5] = 10 x 101 = 1,010. Using 20 instead of 19 gives 10 x 106 = 1,060, and 98 is the 20th term.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c06-q003",
+      "chapter": 6,
+      "topic": "Sequence and Series - Arithmetic and Geometric Progressions",
+      "question_text": "How many terms of the A.P. 5, 9, 13, ... must be taken so that their sum is 230?",
+      "options": {
+        "A": "9",
+        "B": "11",
+        "C": "10",
+        "D": "23"
+      },
+      "correct": "C",
+      "explanation": "Sₙ = n/2 [10 + 4(n − 1)] = n(2n + 3) = 230. So 2n² + 3n − 230 = 0, giving n = [−3 + √(9 + 1840)]/4 = (−3 + 43)/4 = 10. Check: 10 x 23 = 230.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-qa-c06-q004",
+      "chapter": 6,
+      "topic": "Sequence and Series - Arithmetic and Geometric Progressions",
+      "question_text": "The 8th term of the G.P. 3, 6, 12, 24, ... is:",
+      "options": {
+        "A": "768",
+        "B": "192",
+        "C": "48",
+        "D": "384"
+      },
+      "correct": "D",
+      "explanation": "tₙ = arⁿ⁻¹ with a = 3, r = 2. t₈ = 3 x 2⁷ = 3 x 128 = 384. Using 2⁸ gives 768 and 2⁶ gives 192.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c06-q005",
+      "chapter": 6,
+      "topic": "Sequence and Series - Arithmetic and Geometric Progressions",
+      "question_text": "The sum to infinity of the G.P. 12, 4, 4/3, ... is:",
+      "options": {
+        "A": "16",
+        "B": "18",
+        "C": "36",
+        "D": "9"
+      },
+      "correct": "B",
+      "explanation": "Here a = 12 and r = 1/3, with |r| < 1. S∞ = a/(1 − r) = 12/(2/3) = 18. Dividing by r instead of (1 − r) gives 36.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c06-q006",
+      "chapter": 6,
+      "topic": "Sequence and Series - Arithmetic and Geometric Progressions",
+      "question_text": "The sum of the first 6 terms of the G.P. 2, 6, 18, ... is:",
+      "options": {
+        "A": "1458",
+        "B": "486",
+        "C": "728",
+        "D": "364"
+      },
+      "correct": "C",
+      "explanation": "a = 2, r = 3. S₆ = a(rⁿ − 1)/(r − 1) = 2(3⁶ − 1)/2 = 729 − 1 = 728. 486 is the 6th term, and 364 forgets that the factor a = 2 cancels with (r − 1) = 2.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c06-q007",
+      "chapter": 6,
+      "topic": "Sequence and Series - Arithmetic and Geometric Progressions",
+      "question_text": "Three numbers in A.P. have sum 27 and product 504. The largest of the numbers is:",
+      "options": {
+        "A": "14",
+        "B": "12",
+        "C": "13",
+        "D": "16"
+      },
+      "correct": "A",
+      "explanation": "Let the numbers be a − d, a, a + d. Sum 3a = 27 gives a = 9. Product 9(81 − d²) = 504, so 81 − d² = 56 and d = 5. The numbers are 4, 9, 14 and the largest is 14.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c06-q008",
+      "chapter": 6,
+      "topic": "Sequence and Series - Arithmetic and Geometric Progressions",
+      "question_text": "The arithmetic mean and geometric mean of two positive numbers are 25 and 15 respectively. The numbers are:",
+      "options": {
+        "A": "45 and 5",
+        "B": "40 and 10",
+        "C": "30 and 20",
+        "D": "35 and 15"
+      },
+      "correct": "A",
+      "explanation": "Sum = 2 x 25 = 50 and product = 15² = 225. The numbers are roots of x² − 50x + 225 = 0, i.e. (x − 45)(x − 5) = 0, so 45 and 5. 40 and 10 have AM 25 but GM 20.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-qa-c06-q009",
+      "chapter": 6,
+      "topic": "Sequence and Series - Arithmetic and Geometric Progressions",
+      "question_text": "The sum of the first n terms of the series 0.7 + 0.77 + 0.777 + ... is:",
+      "options": {
+        "A": "(7/9)(n − 1 + 10⁻ⁿ)",
+        "B": "(7/81)(9n + 1 − 10⁻ⁿ)",
+        "C": "(7/9)(9n − 1 + 10⁻ⁿ)",
+        "D": "(7/81)(9n − 1 + 10⁻ⁿ)"
+      },
+      "correct": "D",
+      "explanation": "Write S = (7/9)[0.9 + 0.99 + 0.999 + ...] = (7/9)[(1 − 0.1) + (1 − 0.01) + ...] = (7/9)[n − (0.1)(1 − 10⁻ⁿ)/0.9] = (7/9)[n − (1 − 10⁻ⁿ)/9] = (7/81)(9n − 1 + 10⁻ⁿ). Check n = 2: (7/81)(17.01) = 1.47 = 0.7 + 0.77.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-qa-c07-q001",
+      "chapter": 7,
+      "topic": "Sets, Relations and Functions, Basics of Limits and Continuity of Functions",
+      "question_text": "The number of proper subsets of the set A = {1, 2, 3, 4} is:",
+      "options": {
+        "A": "16",
+        "B": "15",
+        "C": "14",
+        "D": "8"
+      },
+      "correct": "B",
+      "explanation": "A set with n elements has 2ⁿ subsets. Here 2⁴ = 16. Excluding the set itself, the number of proper subsets is 16 − 1 = 15.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c07-q002",
+      "chapter": 7,
+      "topic": "Sets, Relations and Functions, Basics of Limits and Continuity of Functions",
+      "question_text": "In a group of 200 people, 120 drink tea, 90 drink coffee and 40 drink both. The number of people who drink neither tea nor coffee is:",
+      "options": {
+        "A": "70",
+        "B": "40",
+        "C": "30",
+        "D": "10"
+      },
+      "correct": "C",
+      "explanation": "n(T ∪ C) = n(T) + n(C) − n(T ∩ C) = 120 + 90 − 40 = 170. Neither = 200 − 170 = 30. Forgetting to subtract the overlap gives 200 − 210, which is impossible, and is a sign the intersection was missed.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c07-q003",
+      "chapter": 7,
+      "topic": "Sets, Relations and Functions, Basics of Limits and Continuity of Functions",
+      "question_text": "The relation R = {(1, 1), (2, 2), (3, 3), (1, 2)} on the set {1, 2, 3} is:",
+      "options": {
+        "A": "An equivalence relation",
+        "B": "Symmetric only",
+        "C": "Reflexive and transitive but not symmetric",
+        "D": "Reflexive only"
+      },
+      "correct": "C",
+      "explanation": "R contains (1,1), (2,2), (3,3), so it is reflexive. It is not symmetric because (1, 2) ∈ R but (2, 1) ∉ R. For transitivity, the only chains are (1,1),(1,2) → (1,2) and (1,2),(2,2) → (1,2), both in R, so it is transitive. Hence it is not an equivalence relation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c07-q004",
+      "chapter": 7,
+      "topic": "Sets, Relations and Functions, Basics of Limits and Continuity of Functions",
+      "question_text": "If f(x) = 2x + 3 and g(x) = x², then (f∘g)(2) is:",
+      "options": {
+        "A": "49",
+        "B": "7",
+        "C": "16",
+        "D": "11"
+      },
+      "correct": "D",
+      "explanation": "(f∘g)(2) = f(g(2)) = f(4) = 2(4) + 3 = 11. The value 49 is (g∘f)(2) = g(7) = 49, which reverses the order of composition.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c07-q005",
+      "chapter": 7,
+      "topic": "Sets, Relations and Functions, Basics of Limits and Continuity of Functions",
+      "question_text": "The inverse of the function f(x) = (3x − 5)/2 is:",
+      "options": {
+        "A": "f⁻¹(x) = (2x + 5)/3",
+        "B": "f⁻¹(x) = (2x − 5)/3",
+        "C": "f⁻¹(x) = 2/(3x − 5)",
+        "D": "f⁻¹(x) = (3x + 5)/2"
+      },
+      "correct": "A",
+      "explanation": "Let y = (3x − 5)/2. Then 2y = 3x − 5, so x = (2y + 5)/3. Interchanging, f⁻¹(x) = (2x + 5)/3. Check: f(f⁻¹(x)) = (2x + 5 − 5)/2 = x. Note that 1/f(x) is not the inverse function.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c07-q006",
+      "chapter": 7,
+      "topic": "Sets, Relations and Functions, Basics of Limits and Continuity of Functions",
+      "question_text": "The value of lim (x→3) (x² − 9)/(x − 3) is:",
+      "options": {
+        "A": "0",
+        "B": "6",
+        "C": "3",
+        "D": "9"
+      },
+      "correct": "B",
+      "explanation": "Direct substitution gives 0/0. Factorising, (x² − 9)/(x − 3) = (x − 3)(x + 3)/(x − 3) = x + 3 for x ≠ 3. Hence the limit is 3 + 3 = 6.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c07-q007",
+      "chapter": 7,
+      "topic": "Sets, Relations and Functions, Basics of Limits and Continuity of Functions",
+      "question_text": "The value of lim (x→∞) (4x² + 3x)/(2x² − 7) is:",
+      "options": {
+        "A": "0",
+        "B": "2",
+        "C": "∞",
+        "D": "1/2"
+      },
+      "correct": "B",
+      "explanation": "Divide numerator and denominator by x²: (4 + 3/x)/(2 − 7/x²). As x → ∞, 3/x → 0 and 7/x² → 0, so the limit is 4/2 = 2. Inverting the ratio of leading coefficients gives 1/2, and concluding 0 or ∞ ignores that both degrees are equal.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c07-q008",
+      "chapter": 7,
+      "topic": "Sets, Relations and Functions, Basics of Limits and Continuity of Functions",
+      "question_text": "The function f(x) = kx + 1 for x ≤ 2 and f(x) = 3x − 1 for x > 2 is continuous at x = 2. The value of k is:",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "5/2",
+        "D": "1"
+      },
+      "correct": "A",
+      "explanation": "For continuity, the left limit, right limit and f(2) must be equal. Left value: 2k + 1. Right limit: 3(2) − 1 = 5. So 2k + 1 = 5 and k = 2.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c07-q009",
+      "chapter": 7,
+      "topic": "Sets, Relations and Functions, Basics of Limits and Continuity of Functions",
+      "question_text": "If A has 3 elements and B has 5 elements, the number of one-one functions from A to B is:",
+      "options": {
+        "A": "125",
+        "B": "243",
+        "C": "60",
+        "D": "10"
+      },
+      "correct": "C",
+      "explanation": "A one-one function assigns distinct images to the 3 elements of A: 5 choices for the first, 4 for the second and 3 for the third, i.e. ⁵P₃ = 60. The total number of functions is 5³ = 125, 3⁵ = 243 reverses domain and co-domain, and ⁵C₃ = 10 ignores order.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-qa-c08-q001",
+      "chapter": 8,
+      "topic": "Basic Applications of Differential and Integral Calculus in Business and Economics",
+      "question_text": "The derivative of y = x⁵ + 3x² − 7 with respect to x is:",
+      "options": {
+        "A": "5x⁴ + 6x − 7",
+        "B": "x⁴ + 6x",
+        "C": "5x⁴ + 3x",
+        "D": "5x⁴ + 6x"
+      },
+      "correct": "D",
+      "explanation": "Using d/dx(xⁿ) = nxⁿ⁻¹ and d/dx(constant) = 0: dy/dx = 5x⁴ + 3(2x) − 0 = 5x⁴ + 6x. Keeping the constant −7 is a common error.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c08-q002",
+      "chapter": 8,
+      "topic": "Basic Applications of Differential and Integral Calculus in Business and Economics",
+      "question_text": "The derivative of x²eˣ with respect to x is:",
+      "options": {
+        "A": "2xeˣ",
+        "B": "eˣ(x² + 2x)",
+        "C": "x²eˣ",
+        "D": "eˣ(x² + 2)"
+      },
+      "correct": "B",
+      "explanation": "By the product rule, d/dx(uv) = u'v + uv'. With u = x², v = eˣ: 2x·eˣ + x²·eˣ = eˣ(x² + 2x). Differentiating only one factor gives 2xeˣ.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c08-q003",
+      "chapter": 8,
+      "topic": "Basic Applications of Differential and Integral Calculus in Business and Economics",
+      "question_text": "The total cost function of a firm is C = 0.5x² + 20x + 400 (in ₹). The marginal cost when x = 30 units is:",
+      "options": {
+        "A": "₹50",
+        "B": "₹1,450",
+        "C": "₹48.33",
+        "D": "₹35"
+      },
+      "correct": "A",
+      "explanation": "MC = dC/dx = x + 20. At x = 30, MC = 30 + 20 = ₹50. ₹1,450 is the total cost (450 + 600 + 400), ₹48.33 is the average cost (1,450/30), and ₹35 forgets to differentiate 0.5x² correctly.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c08-q004",
+      "chapter": 8,
+      "topic": "Basic Applications of Differential and Integral Calculus in Business and Economics",
+      "question_text": "The derivative of y = log(3x² + 1) with respect to x is:",
+      "options": {
+        "A": "1/(3x² + 1)",
+        "B": "6x",
+        "C": "3x/(3x² + 1)",
+        "D": "6x/(3x² + 1)"
+      },
+      "correct": "D",
+      "explanation": "By the chain rule, d/dx[log u] = (1/u)(du/dx). Here u = 3x² + 1 and du/dx = 6x, so dy/dx = 6x/(3x² + 1). Omitting du/dx gives 1/(3x² + 1).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c08-q005",
+      "chapter": 8,
+      "topic": "Basic Applications of Differential and Integral Calculus in Business and Economics",
+      "question_text": "The profit function of a firm is P = −2x² + 120x − 500 (in ₹). The maximum profit is:",
+      "options": {
+        "A": "₹1,800",
+        "B": "₹4,900",
+        "C": "₹1,300",
+        "D": "₹3,100"
+      },
+      "correct": "C",
+      "explanation": "dP/dx = −4x + 120 = 0 gives x = 30, and d²P/dx² = −4 < 0 confirms a maximum. P(30) = −2(900) + 3,600 − 500 = −1,800 + 3,600 − 500 = ₹1,300. Ignoring the sign of −2x² gives ₹4,900.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c08-q006",
+      "chapter": 8,
+      "topic": "Basic Applications of Differential and Integral Calculus in Business and Economics",
+      "question_text": "∫(6x² − 4x + 5) dx is equal to:",
+      "options": {
+        "A": "12x − 4",
+        "B": "2x³ − 2x² + 5x + C",
+        "C": "6x³ − 4x² + 5x + C",
+        "D": "2x³ − 4x² + 5x + C"
+      },
+      "correct": "B",
+      "explanation": "Using ∫xⁿ dx = xⁿ⁺¹/(n + 1): ∫6x² dx = 2x³, ∫4x dx = 2x², ∫5 dx = 5x. Hence the integral is 2x³ − 2x² + 5x + C. 12x − 4 is the derivative, not the integral.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c08-q007",
+      "chapter": 8,
+      "topic": "Basic Applications of Differential and Integral Calculus in Business and Economics",
+      "question_text": "The value of the definite integral ∫ from 1 to 3 of (2x + 1) dx is:",
+      "options": {
+        "A": "12",
+        "B": "8",
+        "C": "6",
+        "D": "10"
+      },
+      "correct": "D",
+      "explanation": "∫(2x + 1) dx = x² + x. Evaluating: (9 + 3) − (1 + 1) = 12 − 2 = 10. Taking only the upper-limit value gives 12.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c08-q008",
+      "chapter": 8,
+      "topic": "Basic Applications of Differential and Integral Calculus in Business and Economics",
+      "question_text": "The demand function for a product is q = 100 − 2p. The price elasticity of demand (in absolute value) at p = 20 is:",
+      "options": {
+        "A": "0.67",
+        "B": "2.00",
+        "C": "1.50",
+        "D": "0.40"
+      },
+      "correct": "A",
+      "explanation": "At p = 20, q = 100 − 40 = 60 and dq/dp = −2. Elasticity = −(p/q)(dq/dp) = (20/60) x 2 = 0.667 ≈ 0.67 (two decimals). Using q/p instead of p/q gives 1.50, and using 100 in place of q gives 0.40.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-qa-c08-q009",
+      "chapter": 8,
+      "topic": "Basic Applications of Differential and Integral Calculus in Business and Economics",
+      "question_text": "The marginal revenue function of a firm is MR = 50 − 4x. The corresponding demand (average revenue) function is:",
+      "options": {
+        "A": "p = 50 − 4x",
+        "B": "p = 50x − 2x²",
+        "C": "p = 50 − 2x",
+        "D": "p = 50 − x"
+      },
+      "correct": "C",
+      "explanation": "Total revenue R = ∫(50 − 4x) dx = 50x − 2x² + C. Since revenue is zero when nothing is sold, C = 0. Demand price p = R/x = 50 − 2x. 50x − 2x² is total revenue, not the demand function.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-qa-c09-q001",
+      "chapter": 9,
+      "topic": "Number Series, Coding and Decoding and Odd Man Out",
+      "question_text": "Find the next term: 3, 7, 15, 31, 63, ?",
+      "options": {
+        "A": "126",
+        "B": "127",
+        "C": "95",
+        "D": "125"
+      },
+      "correct": "B",
+      "explanation": "Each term is twice the previous term plus 1: 3 x 2 + 1 = 7, 7 x 2 + 1 = 15, and so on. Next term = 63 x 2 + 1 = 127. Equivalently the terms are 2ⁿ − 1.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c09-q002",
+      "chapter": 9,
+      "topic": "Number Series, Coding and Decoding and Odd Man Out",
+      "question_text": "Find the next term: 2, 6, 12, 20, 30, ?",
+      "options": {
+        "A": "40",
+        "B": "36",
+        "C": "44",
+        "D": "42"
+      },
+      "correct": "D",
+      "explanation": "The terms are n(n + 1): 1x2, 2x3, 3x4, 4x5, 5x6. The next is 6 x 7 = 42. Alternatively the differences 4, 6, 8, 10 increase by 2, so the next difference is 12 and 30 + 12 = 42.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c09-q003",
+      "chapter": 9,
+      "topic": "Number Series, Coding and Decoding and Odd Man Out",
+      "question_text": "Find the next term: 2, 3, 10, 15, 26, 35, ?",
+      "options": {
+        "A": "48",
+        "B": "49",
+        "C": "50",
+        "D": "45"
+      },
+      "correct": "C",
+      "explanation": "The terms follow n² + 1 for odd n and n² − 1 for even n: 1+1 = 2, 4−1 = 3, 9+1 = 10, 16−1 = 15, 25+1 = 26, 36−1 = 35. The 7th term is 49 + 1 = 50. Answering 49 forgets the alternating +1/−1.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-qa-c09-q004",
+      "chapter": 9,
+      "topic": "Number Series, Coding and Decoding and Odd Man Out",
+      "question_text": "Find the wrong number in the series: 1, 8, 27, 64, 124, 216",
+      "options": {
+        "A": "124",
+        "B": "27",
+        "C": "64",
+        "D": "216"
+      },
+      "correct": "A",
+      "explanation": "The series is of cubes: 1³, 2³, 3³, 4³, 5³, 6³. The fifth term should be 5³ = 125, so 124 is wrong.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c09-q005",
+      "chapter": 9,
+      "topic": "Number Series, Coding and Decoding and Odd Man Out",
+      "question_text": "In a certain code, MONEY is written as NPOFZ. How is LEDGER written in that code?",
+      "options": {
+        "A": "KDCFDQ",
+        "B": "MFEHFS",
+        "C": "MFEHFR",
+        "D": "NGFIGT"
+      },
+      "correct": "B",
+      "explanation": "Each letter is replaced by the next letter of the alphabet (M→N, O→P, N→O, E→F, Y→Z). Applying +1 to LEDGER: L→M, E→F, D→E, G→H, E→F, R→S, giving MFEHFS. KDCFDQ applies −1 and NGFIGT applies +2.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c09-q006",
+      "chapter": 9,
+      "topic": "Number Series, Coding and Decoding and Odd Man Out",
+      "question_text": "In a certain code, CASH is written as XZHS. How is BANK written in that code?",
+      "options": {
+        "A": "YZNP",
+        "B": "ZYMP",
+        "C": "YAMP",
+        "D": "YZMP"
+      },
+      "correct": "D",
+      "explanation": "Each letter is replaced by its mirror letter in the reversed alphabet (position p becomes 27 − p): C(3)→X(24), A(1)→Z(26), S(19)→H(8), H(8)→S(19). For BANK: B(2)→Y(25), A(1)→Z(26), N(14)→M(13), K(11)→P(16), giving YZMP.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c09-q007",
+      "chapter": 9,
+      "topic": "Number Series, Coding and Decoding and Odd Man Out",
+      "question_text": "If TEN is coded as 39 by adding the alphabetical positions of its letters, then SIX will be coded as:",
+      "options": {
+        "A": "51",
+        "B": "53",
+        "C": "52",
+        "D": "48"
+      },
+      "correct": "C",
+      "explanation": "TEN = T(20) + E(5) + N(14) = 39, confirming the rule. SIX = S(19) + I(9) + X(24) = 52.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c09-q008",
+      "chapter": 9,
+      "topic": "Number Series, Coding and Decoding and Odd Man Out",
+      "question_text": "Find the odd one out: 27, 64, 144, 216",
+      "options": {
+        "A": "144",
+        "B": "27",
+        "C": "64",
+        "D": "216"
+      },
+      "correct": "A",
+      "explanation": "27 = 3³, 64 = 4³ and 216 = 6³ are perfect cubes. 144 = 12² is a perfect square but not a perfect cube, so it is the odd one out.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c09-q009",
+      "chapter": 9,
+      "topic": "Number Series, Coding and Decoding and Odd Man Out",
+      "question_text": "Find the odd one out: 29, 37, 51, 61",
+      "options": {
+        "A": "29",
+        "B": "37",
+        "C": "51",
+        "D": "61"
+      },
+      "correct": "C",
+      "explanation": "29, 37 and 61 are prime numbers. 51 = 3 x 17 is composite, so it is the odd one out.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c10-q001",
+      "chapter": 10,
+      "topic": "Direction Tests",
+      "question_text": "Ravi walks 6 km towards North, then turns right and walks 8 km. How far is he from his starting point?",
+      "options": {
+        "A": "14 km",
+        "B": "10 km",
+        "C": "2 km",
+        "D": "12 km"
+      },
+      "correct": "B",
+      "explanation": "Turning right from North means facing East. His displacement is 6 km North and 8 km East, so distance = √(6² + 8²) = √100 = 10 km. Adding the distances (14 km) gives the path length, not the distance from the start.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c10-q002",
+      "chapter": 10,
+      "topic": "Direction Tests",
+      "question_text": "A man is facing East. He turns 90° clockwise and then 180° anticlockwise. Which direction is he facing now?",
+      "options": {
+        "A": "North",
+        "B": "South",
+        "C": "West",
+        "D": "East"
+      },
+      "correct": "A",
+      "explanation": "From East, a 90° clockwise turn makes him face South. A 180° turn from South (in either sense) makes him face North.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c10-q003",
+      "chapter": 10,
+      "topic": "Direction Tests",
+      "question_text": "Meena walks 5 km South, turns left and walks 3 km, then turns left again and walks 9 km. Where is she now with respect to her starting point?",
+      "options": {
+        "A": "5 km South-East",
+        "B": "17 km North-East",
+        "C": "5 km North-West",
+        "D": "5 km North-East"
+      },
+      "correct": "D",
+      "explanation": "Facing South, a left turn means facing East (3 km). Facing East, a left turn means facing North (9 km). Net movement: 9 − 5 = 4 km North and 3 km East. Distance = √(16 + 9) = 5 km in the North-East direction.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c10-q004",
+      "chapter": 10,
+      "topic": "Direction Tests",
+      "question_text": "Early in the morning, after sunrise, Arjun was standing in a field and his shadow fell exactly to his left. Which direction was he facing?",
+      "options": {
+        "A": "South",
+        "B": "North",
+        "C": "East",
+        "D": "West"
+      },
+      "correct": "B",
+      "explanation": "In the morning the sun is in the East, so shadows fall towards the West. If West is on his left, he must be facing North (facing North, left is West).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c10-q005",
+      "chapter": 10,
+      "topic": "Direction Tests",
+      "question_text": "Point P is 4 m East of point Q, and point R is 3 m North of point Q. What is the position of R with respect to P?",
+      "options": {
+        "A": "5 m North-East",
+        "B": "7 m North-West",
+        "C": "5 m South-West",
+        "D": "5 m North-West"
+      },
+      "correct": "D",
+      "explanation": "Taking Q as origin, P = (4, 0) and R = (0, 3). From P to R the movement is 4 m West and 3 m North. Distance = √(16 + 9) = 5 m, direction North-West.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c10-q006",
+      "chapter": 10,
+      "topic": "Direction Tests",
+      "question_text": "In a new system of directions, South-East is called North and North-East is called West. What will West be called?",
+      "options": {
+        "A": "North-East",
+        "B": "South-West",
+        "C": "South-East",
+        "D": "North"
+      },
+      "correct": "C",
+      "explanation": "Measure directions clockwise from North: South-East = 135° becomes North = 0°, a rotation of 135° anticlockwise. Check: North-East = 45° becomes 45° − 135° = −90° = 270°, which is West. Applying the same rotation, West = 270° becomes 270° − 135° = 135°, which is South-East.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-qa-c10-q007",
+      "chapter": 10,
+      "topic": "Direction Tests",
+      "question_text": "Ram starts walking West and covers 10 m, turns left and walks 10 m, turns left again and walks 10 m, and finally turns right and walks 5 m. Where is he now from his starting point?",
+      "options": {
+        "A": "15 m South",
+        "B": "15 m North",
+        "C": "5 m South",
+        "D": "25 m South"
+      },
+      "correct": "A",
+      "explanation": "West 10 m → (−10, 0). Left from West is South: 10 m → (−10, −10). Left from South is East: 10 m → (0, −10). Right from East is South: 5 m → (0, −15). He is 15 m due South of the start.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c10-q008",
+      "chapter": 10,
+      "topic": "Direction Tests",
+      "question_text": "Two cars start from the same point. Car X travels 12 km East and then 5 km North. Car Y travels 4 km West and then 7 km South. What is the straight-line distance between the two cars?",
+      "options": {
+        "A": "28 km",
+        "B": "16 km",
+        "C": "13 km",
+        "D": "20 km"
+      },
+      "correct": "D",
+      "explanation": "Taking the start as origin, X is at (12, 5) and Y at (−4, −7). Horizontal gap = 12 − (−4) = 16 km, vertical gap = 5 − (−7) = 12 km. Distance = √(16² + 12²) = √400 = 20 km. 13 km is only Car X's distance from the start.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-qa-c11-q001",
+      "chapter": 11,
+      "topic": "Seating Arrangements",
+      "question_text": "Five friends A, B, C, D and E sit in a row facing North. C sits in the middle. A sits to the immediate right of C. B sits at the extreme left end. D does not sit at either end. Who sits at the extreme right end?",
+      "options": {
+        "A": "E",
+        "B": "A",
+        "C": "D",
+        "D": "C"
+      },
+      "correct": "A",
+      "explanation": "Number the seats 1 to 5 from left to right (facing North, right is towards seat 5). C is in seat 3, A in seat 4, B in seat 1. D is not at an end, so D takes seat 2, leaving seat 5 for E.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c11-q002",
+      "chapter": 11,
+      "topic": "Seating Arrangements",
+      "question_text": "Six persons P, Q, R, S, T and U sit around a circular table facing the centre (so each person's left is the clockwise direction and right is the anticlockwise direction). P sits opposite S. Q sits to the immediate left of P. R sits opposite Q. T is not a neighbour of P. Who sits to the immediate right of P?",
+      "options": {
+        "A": "Q",
+        "B": "T",
+        "C": "U",
+        "D": "R"
+      },
+      "correct": "C",
+      "explanation": "When facing the centre, a person's left is the clockwise neighbour. Put P at seat 0 and number seats clockwise: S at 3, Q at 1, R opposite Q at 4. T and U take seats 2 and 5; seat 5 is next to P, so T is at 2 and U at 5. P's immediate right is the anticlockwise neighbour, seat 5, i.e. U.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c11-q003",
+      "chapter": 11,
+      "topic": "Seating Arrangements",
+      "question_text": "Seven persons A, B, C, D, E, F and G sit in a row facing North. D is third from the left end. C is to the immediate left of D. G is second to the right of D. B sits between D and G. F is to the immediate right of G. A sits at one of the ends but is not next to F. Who sits at the extreme right end?",
+      "options": {
+        "A": "A",
+        "B": "E",
+        "C": "F",
+        "D": "G"
+      },
+      "correct": "B",
+      "explanation": "Seats 1 to 7 from the left: D = 3, C = 2, G = 5, B = 4, F = 6. The remaining seats are 1 and 7 for A and E. A at seat 7 would be next to F, so A is at seat 1 and E at seat 7.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-qa-c11-q004",
+      "chapter": 11,
+      "topic": "Seating Arrangements",
+      "question_text": "In a row of 25 students, Rahul is 9th from the left end. What is his position from the right end?",
+      "options": {
+        "A": "16th",
+        "B": "18th",
+        "C": "17th",
+        "D": "15th"
+      },
+      "correct": "C",
+      "explanation": "Position from right = total − position from left + 1 = 25 − 9 + 1 = 17. Forgetting to add 1 gives 16th.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c11-q005",
+      "chapter": 11,
+      "topic": "Seating Arrangements",
+      "question_text": "Eight friends sit around a circular table at equal distances, facing the centre. E sits exactly opposite A. How many persons sit between A and E when counted clockwise from A?",
+      "options": {
+        "A": "4",
+        "B": "3",
+        "C": "2",
+        "D": "6"
+      },
+      "correct": "B",
+      "explanation": "With 8 equally spaced seats, the seat opposite is 4 places away. Counting clockwise from A, E is the 4th seat, so there are 3 persons between them (and 3 on the other side as well).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c11-q006",
+      "chapter": 11,
+      "topic": "Seating Arrangements",
+      "question_text": "Five persons A, B, C, D and E sit around a circular table facing the centre (so each person's left is the clockwise direction and right is the anticlockwise direction). A is second to the left of B. C is to the immediate right of B. D is not adjacent to C. Who sits to the immediate left of A?",
+      "options": {
+        "A": "E",
+        "B": "D",
+        "C": "B",
+        "D": "C"
+      },
+      "correct": "A",
+      "explanation": "Facing the centre, left is clockwise. Place B at seat 0 (seats numbered clockwise 0 to 4). A, second to the left of B, is at seat 2. C, immediate right of B, is at seat 4. Seats 1 and 3 remain; seat 3 is next to C, so D is at 1 and E at 3. The immediate left (clockwise) of A at seat 2 is seat 3, i.e. E.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c11-q007",
+      "chapter": 11,
+      "topic": "Seating Arrangements",
+      "question_text": "Six persons J, K, L, M, N and O sit in a row facing North. K sits at the extreme left end. O is fourth to the right of K. L is to the immediate right of O. N is second to the left of O. M is not next to K. Who sits between N and O?",
+      "options": {
+        "A": "J",
+        "B": "L",
+        "C": "K",
+        "D": "M"
+      },
+      "correct": "D",
+      "explanation": "Seats 1 to 6 from the left: K = 1, O = 5, L = 6, N = 3. Seats 2 and 4 remain for J and M. M is not next to K, so M = 4 and J = 2. The person between N (3) and O (5) is M.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c11-q008",
+      "chapter": 11,
+      "topic": "Seating Arrangements",
+      "question_text": "In a row of persons facing North, P is 7th from the left and Q is 10th from the right. When P and Q interchange their positions, P becomes 15th from the left. How many persons are there in the row?",
+      "options": {
+        "A": "25",
+        "B": "24",
+        "C": "23",
+        "D": "17"
+      },
+      "correct": "B",
+      "explanation": "After interchange, P occupies Q's original seat, so Q's original seat is 15th from the left and 10th from the right. Total = 15 + 10 − 1 = 24. Forgetting to subtract 1 gives 25, and 7 + 10 = 17 ignores the interchange information.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-qa-c12-q001",
+      "chapter": 12,
+      "topic": "Blood Relations",
+      "question_text": "Pointing to a man, Neha says, \"He is the son of my paternal grandfather's only son.\" How is the man related to Neha?",
+      "options": {
+        "A": "Brother",
+        "B": "Cousin",
+        "C": "Father",
+        "D": "Uncle"
+      },
+      "correct": "A",
+      "explanation": "Neha's paternal grandfather's only son is Neha's father. The son of Neha's father is Neha's brother. (The word 'paternal' rules out the maternal grandfather, whose son's son would be a cousin.)",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c12-q002",
+      "chapter": 12,
+      "topic": "Blood Relations",
+      "question_text": "A is B's sister. C is B's mother. D is C's father. How is A related to D?",
+      "options": {
+        "A": "Daughter",
+        "B": "Niece",
+        "C": "Granddaughter",
+        "D": "Great-granddaughter"
+      },
+      "correct": "C",
+      "explanation": "A is the sister of B, and C is B's mother, so A is C's daughter. D is C's father, so A is the daughter of D's daughter, i.e. D's granddaughter.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c12-q003",
+      "chapter": 12,
+      "topic": "Blood Relations",
+      "question_text": "X is the brother of Y. Y is the daughter of Z. Z is the husband of W. How is X related to W?",
+      "options": {
+        "A": "Brother",
+        "B": "Nephew",
+        "C": "Husband",
+        "D": "Son"
+      },
+      "correct": "D",
+      "explanation": "Y is the daughter of Z and W (Z is W's husband). X is Y's brother, so X is also a child of Z and W. Being male (brother), X is W's son.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c12-q004",
+      "chapter": 12,
+      "topic": "Blood Relations",
+      "question_text": "P + Q means P is the father of Q; P − Q means P is the wife of Q; P × Q means P is the brother of Q; P ÷ Q means P is the daughter of Q. What does A ÷ B + C × D mean?",
+      "options": {
+        "A": "A is the sister of D",
+        "B": "A is the daughter of D",
+        "C": "A is the mother of D",
+        "D": "A is the niece of D"
+      },
+      "correct": "A",
+      "explanation": "A ÷ B: A is B's daughter. B + C: B is C's father. C × D: C is D's brother, so D is also B's child. A and D are both children of B and A is female, so A is D's sister.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-qa-c12-q005",
+      "chapter": 12,
+      "topic": "Blood Relations",
+      "question_text": "Introducing a woman, a man says, \"Her mother is the only daughter of my mother.\" How is the woman related to the man?",
+      "options": {
+        "A": "Sister",
+        "B": "Niece",
+        "C": "Daughter",
+        "D": "Cousin"
+      },
+      "correct": "B",
+      "explanation": "The only daughter of the man's mother is the man's sister. The woman is the daughter of the man's sister, so she is his niece.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c12-q006",
+      "chapter": 12,
+      "topic": "Blood Relations",
+      "question_text": "M is the son of N. N and O are sisters. P is the mother of O. Q is the son of P. How is Q related to M?",
+      "options": {
+        "A": "Grandfather",
+        "B": "Brother",
+        "C": "Cousin",
+        "D": "Maternal uncle"
+      },
+      "correct": "D",
+      "explanation": "N and O are sisters and P is O's mother, so P is also N's mother. Q, P's son, is the brother of N. N is M's mother, so Q is M's mother's brother, i.e. maternal uncle.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c12-q007",
+      "chapter": 12,
+      "topic": "Blood Relations",
+      "question_text": "Pointing to a photograph, Arun says, \"The man in this photograph is the father of the only daughter of my wife's father-in-law's only son.\" Whose photograph is it?",
+      "options": {
+        "A": "Arun's father",
+        "B": "Arun's son",
+        "C": "Arun himself",
+        "D": "Arun's son-in-law"
+      },
+      "correct": "C",
+      "explanation": "Arun's wife's father-in-law is Arun's father. The only son of Arun's father is Arun himself. The father of Arun's only daughter is Arun. Hence the photograph is of Arun.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-qa-c12-q008",
+      "chapter": 12,
+      "topic": "Blood Relations",
+      "question_text": "D is the brother of E. F is the mother of D. G is the father of F. The gender of E is not known. How is E related to G?",
+      "options": {
+        "A": "Grandson",
+        "B": "Grandchild",
+        "C": "Granddaughter",
+        "D": "Son"
+      },
+      "correct": "B",
+      "explanation": "E is a sibling of D, so F is also E's mother. G is F's father, so E is G's grandchild. Since E's gender is not given, we cannot say grandson or granddaughter.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c13-q001",
+      "chapter": 13,
+      "topic": "Statistical Description of Data and Sampling",
+      "question_text": "Data collected by an investigator directly from the source for a specific purpose are called:",
+      "options": {
+        "A": "Primary data",
+        "B": "Secondary data",
+        "C": "Discrete data",
+        "D": "Qualitative data"
+      },
+      "correct": "A",
+      "explanation": "Primary data are original data collected first-hand by the investigator for the enquiry at hand. Secondary data are data already collected by someone else and used again.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c13-q002",
+      "chapter": 13,
+      "topic": "Statistical Description of Data and Sampling",
+      "question_text": "In a frequency distribution with inclusive classes 10–19, 20–29, 30–39, the class boundaries of the class 20–29 are:",
+      "options": {
+        "A": "20 – 29",
+        "B": "19 – 30",
+        "C": "20 – 30",
+        "D": "19.5 – 29.5"
+      },
+      "correct": "D",
+      "explanation": "The gap between consecutive inclusive classes is 1 (e.g. 19 and 20). Half the gap, 0.5, is subtracted from the lower limit and added to the upper limit. So the boundaries are 20 − 0.5 = 19.5 and 29 + 0.5 = 29.5.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c13-q003",
+      "chapter": 13,
+      "topic": "Statistical Description of Data and Sampling",
+      "question_text": "Which of the following graphs is used to locate the median of a frequency distribution graphically?",
+      "options": {
+        "A": "Histogram",
+        "B": "Frequency polygon",
+        "C": "Ogive",
+        "D": "Pie chart"
+      },
+      "correct": "C",
+      "explanation": "The median is read from the ogive (cumulative frequency curve) at the point corresponding to N/2, or at the intersection of the less-than and more-than ogives. A histogram is used to locate the mode graphically.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c13-q004",
+      "chapter": 13,
+      "topic": "Statistical Description of Data and Sampling",
+      "question_text": "In a family budget of ₹18,000 per month, the expenditure on food is ₹4,500. In a pie chart of the budget, the angle of the food sector is:",
+      "options": {
+        "A": "25°",
+        "B": "45°",
+        "C": "90°",
+        "D": "120°"
+      },
+      "correct": "C",
+      "explanation": "Angle = (component / total) x 360° = (4,500/18,000) x 360° = 0.25 x 360° = 90°. The value 25° confuses the 25% share with degrees.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c13-q005",
+      "chapter": 13,
+      "topic": "Statistical Description of Data and Sampling",
+      "question_text": "The frequencies of five consecutive classes are 5, 8, 12, 15 and 10. The 'less than' cumulative frequency of the third class is:",
+      "options": {
+        "A": "12",
+        "B": "20",
+        "C": "35",
+        "D": "25"
+      },
+      "correct": "D",
+      "explanation": "The less-than cumulative frequency adds frequencies up to and including the class: 5 + 8 + 12 = 25. 12 is only the frequency of the third class.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c13-q006",
+      "chapter": 13,
+      "topic": "Statistical Description of Data and Sampling",
+      "question_text": "The number of possible samples of size 3 that can be drawn without replacement from a population of 10 units (order not considered) is:",
+      "options": {
+        "A": "120",
+        "B": "1000",
+        "C": "720",
+        "D": "30"
+      },
+      "correct": "A",
+      "explanation": "Without replacement and ignoring order, the number of samples is ¹⁰C₃ = 10 x 9 x 8 / 6 = 120. With replacement and order considered it would be 10³ = 1,000, and ¹⁰P₃ = 720 counts ordered samples.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c13-q007",
+      "chapter": 13,
+      "topic": "Statistical Description of Data and Sampling",
+      "question_text": "A sampling method in which the population is divided into homogeneous sub-groups and a random sample is drawn from each sub-group is called:",
+      "options": {
+        "A": "Cluster sampling",
+        "B": "Stratified sampling",
+        "C": "Systematic sampling",
+        "D": "Purposive sampling"
+      },
+      "correct": "B",
+      "explanation": "In stratified sampling the population is split into homogeneous strata and units are drawn randomly from every stratum. In cluster sampling whole clusters (which are internally heterogeneous) are selected.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c13-q008",
+      "chapter": 13,
+      "topic": "Statistical Description of Data and Sampling",
+      "question_text": "A population has a standard deviation of 12. The standard error of the sample mean for a random sample of size 36 (drawn with replacement) is:",
+      "options": {
+        "A": "1/3",
+        "B": "2",
+        "C": "6",
+        "D": "4"
+      },
+      "correct": "B",
+      "explanation": "Standard error of the mean = σ/√n = 12/√36 = 12/6 = 2. Dividing by n instead of √n gives 12/36 = 1/3, and 6 is merely √36 (the divisor itself), not the standard error.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c13-q009",
+      "chapter": 13,
+      "topic": "Statistical Description of Data and Sampling",
+      "question_text": "A systematic sample of 30 units is drawn from a numbered population of 600 units. If the first unit selected is number 7, the 12th unit selected is:",
+      "options": {
+        "A": "247",
+        "B": "220",
+        "C": "207",
+        "D": "227"
+      },
+      "correct": "D",
+      "explanation": "Sampling interval k = N/n = 600/30 = 20. The r-th unit selected is 7 + (r − 1) x 20. For r = 12: 7 + 11 x 20 = 227. Using 12 x 20 gives 247, which is the 13th unit.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-qa-c14-q001",
+      "chapter": 14,
+      "topic": "Measures of Central Tendency and Dispersion",
+      "question_text": "A student scores 60, 75 and 80 in three papers carrying weights 2, 3 and 5 respectively. The weighted mean score is:",
+      "options": {
+        "A": "71.67",
+        "B": "76.0",
+        "C": "74.5",
+        "D": "72.5"
+      },
+      "correct": "C",
+      "explanation": "Weighted mean = Σwx/Σw = (2 x 60 + 3 x 75 + 5 x 80)/(2 + 3 + 5) = (120 + 225 + 400)/10 = 745/10 = 74.5. The simple mean (60 + 75 + 80)/3 = 71.67 ignores the weights.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c14-q002",
+      "chapter": 14,
+      "topic": "Measures of Central Tendency and Dispersion",
+      "question_text": "The median of 23, 11, 37, 19, 42, 28 is:",
+      "options": {
+        "A": "25.5",
+        "B": "23",
+        "C": "28",
+        "D": "26.67"
+      },
+      "correct": "A",
+      "explanation": "Arranged in ascending order: 11, 19, 23, 28, 37, 42. With n = 6 (even), the median is the average of the 3rd and 4th values: (23 + 28)/2 = 25.5. 26.67 is the mean (160/6).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c14-q003",
+      "chapter": 14,
+      "topic": "Measures of Central Tendency and Dispersion",
+      "question_text": "In a moderately skewed distribution, the mean is 42 and the median is 40. Using the empirical relationship, the mode is approximately:",
+      "options": {
+        "A": "38",
+        "B": "44",
+        "C": "36",
+        "D": "46"
+      },
+      "correct": "C",
+      "explanation": "Empirical relation: Mode = 3 Median − 2 Mean = 3(40) − 2(42) = 120 − 84 = 36. Reversing the coefficients (3 Mean − 2 Median = 46) is a common error.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c14-q004",
+      "chapter": 14,
+      "topic": "Measures of Central Tendency and Dispersion",
+      "question_text": "For the distribution below, the median is (to two decimals):\nClass: 0–10, 10–20, 20–30, 30–40, 40–50\nFrequency: 5, 8, 12, 10, 5",
+      "options": {
+        "A": "25.00",
+        "B": "25.83",
+        "C": "24.17",
+        "D": "26.67"
+      },
+      "correct": "B",
+      "explanation": "N = 40, so N/2 = 20. Cumulative frequencies are 5, 13, 25, 35, 40, so the median class is 20–30 with L = 20, cf = 13, f = 12, h = 10. Median = L + [(N/2 − cf)/f] x h = 20 + (7/12) x 10 = 20 + 5.833 = 25.83. 26.67 is the mode of this distribution.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-qa-c14-q005",
+      "chapter": 14,
+      "topic": "Measures of Central Tendency and Dispersion",
+      "question_text": "For the distribution below, the mode is (to two decimals):\nClass: 0–10, 10–20, 20–30, 30–40, 40–50\nFrequency: 5, 8, 12, 10, 5",
+      "options": {
+        "A": "26.67",
+        "B": "25.00",
+        "C": "23.33",
+        "D": "28.00"
+      },
+      "correct": "A",
+      "explanation": "The modal class is 20–30 with f₁ = 12, f₀ = 8, f₂ = 10, L = 20, h = 10. Mode = L + [(f₁ − f₀)/(2f₁ − f₀ − f₂)] x h = 20 + [4/(24 − 8 − 10)] x 10 = 20 + (4/6) x 10 = 26.67. Using (f₁ − f₂) in the numerator gives 23.33.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c14-q006",
+      "chapter": 14,
+      "topic": "Measures of Central Tendency and Dispersion",
+      "question_text": "The largest and smallest values of a data set are 80 and 20. The coefficient of range is:",
+      "options": {
+        "A": "60",
+        "B": "0.75",
+        "C": "4",
+        "D": "0.6"
+      },
+      "correct": "D",
+      "explanation": "Coefficient of range = (L − S)/(L + S) = (80 − 20)/(80 + 20) = 60/100 = 0.6. 60 is the range itself, and 0.75 is (L − S)/L.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c14-q007",
+      "chapter": 14,
+      "topic": "Measures of Central Tendency and Dispersion",
+      "question_text": "The standard deviation of the observations 2, 4, 6, 8, 10, taking them as the whole population (divisor n), is (to two decimals):",
+      "options": {
+        "A": "8.00",
+        "B": "3.16",
+        "C": "2.83",
+        "D": "2.40"
+      },
+      "correct": "C",
+      "explanation": "Mean = 30/5 = 6. Squared deviations: 16, 4, 0, 4, 16, total 40. Variance = 40/5 = 8 and SD = √8 = 2.83. 8 is the variance, 3.16 uses divisor n − 1 (√10), and 2.40 is the mean deviation about the mean.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c14-q008",
+      "chapter": 14,
+      "topic": "Measures of Central Tendency and Dispersion",
+      "question_text": "A distribution has mean 50 and standard deviation 8. The coefficient of variation is:",
+      "options": {
+        "A": "6.25%",
+        "B": "0.16%",
+        "C": "62.5%",
+        "D": "16%"
+      },
+      "correct": "D",
+      "explanation": "CV = (SD/Mean) x 100 = (8/50) x 100 = 16%. Inverting the ratio (50/8) gives 6.25, and treating the unscaled ratio 0.16 as a percentage gives 0.16%.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c14-q009",
+      "chapter": 14,
+      "topic": "Measures of Central Tendency and Dispersion",
+      "question_text": "The standard deviation of x is 5. If y = 3 − 2x, the standard deviation of y is:",
+      "options": {
+        "A": "10",
+        "B": "−10",
+        "C": "7",
+        "D": "13"
+      },
+      "correct": "A",
+      "explanation": "Standard deviation is unaffected by change of origin but affected by change of scale in absolute value: SD(y) = |−2| x SD(x) = 2 x 5 = 10. SD can never be negative, so −10 is impossible.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c14-q010",
+      "chapter": 14,
+      "topic": "Measures of Central Tendency and Dispersion",
+      "question_text": "Group I has 40 items with mean 50 and SD 6. Group II has 60 items with mean 60 and SD 8. The combined standard deviation is (to two decimals):",
+      "options": {
+        "A": "7.20",
+        "B": "8.76",
+        "C": "7.27",
+        "D": "76.80"
+      },
+      "correct": "B",
+      "explanation": "Combined mean = (40 x 50 + 60 x 60)/100 = 5,600/100 = 56. d₁ = 50 − 56 = −6, d₂ = 60 − 56 = 4. Combined variance = [40(36 + 36) + 60(64 + 16)]/100 = (2,880 + 4,800)/100 = 76.8. Combined SD = √76.8 = 8.76. Ignoring the d² terms gives √52.8 = 7.27, and the weighted average of SDs is 7.20.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-qa-c15-q001",
+      "chapter": 15,
+      "topic": "Probability",
+      "question_text": "Two fair dice are thrown. The probability that the sum of the numbers is 8 is:",
+      "options": {
+        "A": "1/6",
+        "B": "1/9",
+        "C": "5/36",
+        "D": "5/12"
+      },
+      "correct": "C",
+      "explanation": "Favourable outcomes: (2,6), (3,5), (4,4), (5,3), (6,2), i.e. 5 out of 36 equally likely outcomes. Probability = 5/36. Missing (4,4) or double counting gives 4/36 = 1/9 or 6/36 = 1/6.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c15-q002",
+      "chapter": 15,
+      "topic": "Probability",
+      "question_text": "A bag contains 5 red and 7 blue balls. Two balls are drawn at random without replacement. The probability that both are red is:",
+      "options": {
+        "A": "25/144",
+        "B": "5/33",
+        "C": "5/12",
+        "D": "10/33"
+      },
+      "correct": "B",
+      "explanation": "P = ⁵C₂/¹²C₂ = 10/66 = 5/33. Equivalently (5/12) x (4/11) = 20/132 = 5/33. Drawing with replacement would give (5/12)² = 25/144.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c15-q003",
+      "chapter": 15,
+      "topic": "Probability",
+      "question_text": "If P(A) = 0.5, P(B) = 0.4 and P(A ∩ B) = 0.2, then P(A ∪ B) is:",
+      "options": {
+        "A": "0.7",
+        "B": "0.9",
+        "C": "0.2",
+        "D": "0.5"
+      },
+      "correct": "A",
+      "explanation": "By the addition theorem, P(A ∪ B) = P(A) + P(B) − P(A ∩ B) = 0.5 + 0.4 − 0.2 = 0.7. Simply adding gives 0.9, which double counts the overlap.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c15-q004",
+      "chapter": 15,
+      "topic": "Probability",
+      "question_text": "The odds in favour of an event are 3 : 5. The probability of the event is:",
+      "options": {
+        "A": "3/5",
+        "B": "5/8",
+        "C": "2/5",
+        "D": "3/8"
+      },
+      "correct": "D",
+      "explanation": "Odds in favour a : b means P = a/(a + b) = 3/(3 + 5) = 3/8. 5/8 is the probability that the event does not occur, and 3/5 confuses odds with probability.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c15-q005",
+      "chapter": 15,
+      "topic": "Probability",
+      "question_text": "If P(A) = 0.6, P(B) = 0.5 and P(A ∪ B) = 0.8, then P(A | B) is:",
+      "options": {
+        "A": "0.5",
+        "B": "0.3",
+        "C": "0.6",
+        "D": "0.375"
+      },
+      "correct": "C",
+      "explanation": "P(A ∩ B) = P(A) + P(B) − P(A ∪ B) = 0.6 + 0.5 − 0.8 = 0.3. Then P(A | B) = P(A ∩ B)/P(B) = 0.3/0.5 = 0.6. Dividing by P(A ∪ B) gives 0.375.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-qa-c15-q006",
+      "chapter": 15,
+      "topic": "Probability",
+      "question_text": "In a game, a player wins ₹50 with probability 0.2, wins ₹20 with probability 0.3, and loses ₹10 with probability 0.5. The expected gain per game is:",
+      "options": {
+        "A": "₹16",
+        "B": "₹20",
+        "C": "₹21",
+        "D": "₹11"
+      },
+      "correct": "D",
+      "explanation": "E(X) = Σ x·p = 50(0.2) + 20(0.3) + (−10)(0.5) = 10 + 6 − 5 = ₹11. Treating the loss as a gain gives 10 + 6 + 5 = ₹21, and ignoring the loss gives ₹16.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c15-q007",
+      "chapter": 15,
+      "topic": "Probability",
+      "question_text": "Three fair coins are tossed together. The probability of getting at least one head is:",
+      "options": {
+        "A": "1/8",
+        "B": "7/8",
+        "C": "3/8",
+        "D": "1/2"
+      },
+      "correct": "B",
+      "explanation": "P(at least one head) = 1 − P(no head) = 1 − (1/2)³ = 1 − 1/8 = 7/8. 1/8 is the probability of no head (all tails), and 3/8 is the probability of exactly one head.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c15-q008",
+      "chapter": 15,
+      "topic": "Probability",
+      "question_text": "Machines A and B produce 60% and 40% of a factory's output. 2% of A's output and 5% of B's output is defective. An item chosen at random is found defective. The probability that it was produced by machine B is:",
+      "options": {
+        "A": "0.625",
+        "B": "0.400",
+        "C": "0.375",
+        "D": "0.032"
+      },
+      "correct": "A",
+      "explanation": "By Bayes' theorem: P(D|A)P(A) = 0.02 x 0.6 = 0.012 and P(D|B)P(B) = 0.05 x 0.4 = 0.020. Total P(D) = 0.032. P(B|D) = 0.020/0.032 = 0.625. 0.375 is P(A|D), and 0.032 is the total probability of a defective item.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-qa-c15-q009",
+      "chapter": 15,
+      "topic": "Probability",
+      "question_text": "A card is drawn at random from a well-shuffled pack of 52 cards. The probability that it is a king or a heart is:",
+      "options": {
+        "A": "17/52",
+        "B": "1/52",
+        "C": "1/4",
+        "D": "4/13"
+      },
+      "correct": "D",
+      "explanation": "P(King) = 4/52, P(Heart) = 13/52, P(King of hearts) = 1/52. P(King or Heart) = 4/52 + 13/52 − 1/52 = 16/52 = 4/13. Not subtracting the king of hearts gives 17/52.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c16-q001",
+      "chapter": 16,
+      "topic": "Theoretical Distributions",
+      "question_text": "For a binomial distribution with n = 10 and p = 0.4, the variance is:",
+      "options": {
+        "A": "2.4",
+        "B": "4",
+        "C": "6",
+        "D": "1.55"
+      },
+      "correct": "A",
+      "explanation": "Variance = npq = 10 x 0.4 x 0.6 = 2.4. The mean is np = 4, and √2.4 ≈ 1.55 is the standard deviation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c16-q002",
+      "chapter": 16,
+      "topic": "Theoretical Distributions",
+      "question_text": "The mean and variance of a binomial distribution are 6 and 4 respectively. The number of trials n is:",
+      "options": {
+        "A": "9",
+        "B": "12",
+        "C": "18",
+        "D": "24"
+      },
+      "correct": "C",
+      "explanation": "np = 6 and npq = 4, so q = 4/6 = 2/3 and p = 1/3. Then n = 6/(1/3) = 18. Using p = 2/3 by mistake gives n = 9.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c16-q003",
+      "chapter": 16,
+      "topic": "Theoretical Distributions",
+      "question_text": "A fair coin is tossed 4 times. The probability of getting exactly 2 heads is:",
+      "options": {
+        "A": "0.25",
+        "B": "0.375",
+        "C": "0.5",
+        "D": "0.0625"
+      },
+      "correct": "B",
+      "explanation": "P(X = 2) = ⁴C₂ (1/2)² (1/2)² = 6 x 1/16 = 6/16 = 0.375. Omitting the ⁴C₂ factor gives 1/16 = 0.0625.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c16-q004",
+      "chapter": 16,
+      "topic": "Theoretical Distributions",
+      "question_text": "A Poisson variable X has mean 2. Using e⁻² = 0.1353, P(X ≥ 1) is:",
+      "options": {
+        "A": "0.1353",
+        "B": "0.2707",
+        "C": "0.7293",
+        "D": "0.8647"
+      },
+      "correct": "D",
+      "explanation": "P(X = 0) = e⁻ᵐ m⁰/0! = e⁻² = 0.1353. P(X ≥ 1) = 1 − P(X = 0) = 1 − 0.1353 = 0.8647. 0.2707 is P(X = 1) = 2e⁻².",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c16-q005",
+      "chapter": 16,
+      "topic": "Theoretical Distributions",
+      "question_text": "The standard deviation of a Poisson distribution is 3. Its mean is:",
+      "options": {
+        "A": "3",
+        "B": "9",
+        "C": "√3",
+        "D": "6"
+      },
+      "correct": "B",
+      "explanation": "In a Poisson distribution, mean = variance = m. Variance = SD² = 9, so the mean is 9. Equating the mean to the SD (3) is the typical error.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c16-q006",
+      "chapter": 16,
+      "topic": "Theoretical Distributions",
+      "question_text": "X is normally distributed with mean 60 and standard deviation 10. Given that the area under the standard normal curve from z = 0 to z = 1.5 is 0.4332, P(X > 75) is:",
+      "options": {
+        "A": "0.9332",
+        "B": "0.4332",
+        "C": "0.0668",
+        "D": "0.1336"
+      },
+      "correct": "C",
+      "explanation": "z = (75 − 60)/10 = 1.5. P(X > 75) = P(Z > 1.5) = 0.5 − 0.4332 = 0.0668. 0.9332 is P(Z < 1.5), and 0.1336 is the two-tailed area P(|Z| > 1.5).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c16-q007",
+      "chapter": 16,
+      "topic": "Theoretical Distributions",
+      "question_text": "For a normal distribution with standard deviation 15, the mean deviation about the mean is approximately (use the conventions MD ≈ 0.8σ and QD ≈ 0.675σ):",
+      "options": {
+        "A": "12",
+        "B": "10",
+        "C": "15",
+        "D": "18.75"
+      },
+      "correct": "A",
+      "explanation": "For a normal distribution, mean deviation ≈ 0.8σ (more precisely √(2/π)σ ≈ 0.7979σ). MD ≈ 0.8 x 15 = 12. Quartile deviation ≈ 0.675σ = 0.675 x 15 ≈ 10.1, so 10 is the QD, which is the usual confusion; 18.75 results from dividing by 0.8 instead of multiplying, and 15 is σ itself.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c16-q008",
+      "chapter": 16,
+      "topic": "Theoretical Distributions",
+      "question_text": "For a Poisson variable X, P(X = 1) = P(X = 2). Using e⁻² = 0.1353, P(X = 3) is (to four decimals):",
+      "options": {
+        "A": "0.2707",
+        "B": "0.1804",
+        "C": "0.0902",
+        "D": "0.1353"
+      },
+      "correct": "B",
+      "explanation": "e⁻ᵐ m = e⁻ᵐ m²/2 gives m = 2. P(X = 3) = e⁻² 2³/3! = 0.1353 x 8/6 = 0.1353 x 1.3333 = 0.1804. 0.2707 is P(X = 1) = P(X = 2), and 0.0902 is P(X = 4).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-qa-c16-q009",
+      "chapter": 16,
+      "topic": "Theoretical Distributions",
+      "question_text": "Marks of 2,000 students are normally distributed with mean 50 and SD 5. Given areas from z = 0: 0.3413 for z = 1 and 0.4772 for z = 2, the number of students scoring between 45 and 60 is about:",
+      "options": {
+        "A": "1365",
+        "B": "954",
+        "C": "1637",
+        "D": "1909"
+      },
+      "correct": "C",
+      "explanation": "z for 45 = (45 − 50)/5 = −1 and z for 60 = (60 − 50)/5 = 2. Area = 0.3413 + 0.4772 = 0.8185. Number = 0.8185 x 2,000 = 1,637. Using ±1 (0.6826) gives 1,365, and 0.4772 alone gives 954.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-qa-c17-q001",
+      "chapter": 17,
+      "topic": "Correlation and Regression",
+      "question_text": "The coefficient of correlation r always lies between:",
+      "options": {
+        "A": "−1 and +1",
+        "B": "0 and 1",
+        "C": "−∞ and +∞",
+        "D": "0 and ∞"
+      },
+      "correct": "A",
+      "explanation": "Karl Pearson's coefficient of correlation is a pure number satisfying −1 ≤ r ≤ +1. r = +1 means perfect positive and r = −1 perfect negative correlation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c17-q002",
+      "chapter": 17,
+      "topic": "Correlation and Regression",
+      "question_text": "If Cov(x, y) = 18, σx = 4 and σy = 6, the coefficient of correlation is:",
+      "options": {
+        "A": "1.33",
+        "B": "3",
+        "C": "0.075",
+        "D": "0.75"
+      },
+      "correct": "D",
+      "explanation": "r = Cov(x, y)/(σx σy) = 18/(4 x 6) = 18/24 = 0.75. Inverting the ratio gives 1.33, which is impossible since |r| cannot exceed 1.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c17-q003",
+      "chapter": 17,
+      "topic": "Correlation and Regression",
+      "question_text": "The two regression coefficients are byx = 0.8 and bxy = 0.45. The coefficient of correlation is:",
+      "options": {
+        "A": "0.6",
+        "B": "0.36",
+        "C": "0.625",
+        "D": "1.25"
+      },
+      "correct": "A",
+      "explanation": "r = ±√(byx x bxy) = √(0.8 x 0.45) = √0.36 = 0.6, positive because both coefficients are positive. 0.36 is r² (coefficient of determination), not r.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c17-q004",
+      "chapter": 17,
+      "topic": "Correlation and Regression",
+      "question_text": "For 6 pairs of ranks, the sum of squares of rank differences Σd² = 14. Spearman's rank correlation coefficient is (to two decimals):",
+      "options": {
+        "A": "0.40",
+        "B": "−0.60",
+        "C": "0.93",
+        "D": "0.60"
+      },
+      "correct": "D",
+      "explanation": "R = 1 − 6Σd²/[n(n² − 1)] = 1 − (6 x 14)/(6 x 35) = 1 − 84/210 = 1 − 0.40 = 0.60. Omitting the factor 6 in the numerator gives 1 − 14/210 = 0.93, 0.40 forgets to subtract from 1, and −0.60 has the wrong sign.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c17-q005",
+      "chapter": 17,
+      "topic": "Correlation and Regression",
+      "question_text": "The two regression lines are 3x + 2y = 26 and 6x + y = 31. The means of x and y are:",
+      "options": {
+        "A": "x̄ = 7, ȳ = 4",
+        "B": "x̄ = 3, ȳ = 8.5",
+        "C": "x̄ = 4, ȳ = 7",
+        "D": "x̄ = 5, ȳ = 5.5"
+      },
+      "correct": "C",
+      "explanation": "Both regression lines pass through (x̄, ȳ), so solve them together. From the second, y = 31 − 6x. Substituting: 3x + 62 − 12x = 26, so 9x = 36 and x = 4; then y = 31 − 24 = 7. Hence x̄ = 4, ȳ = 7.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c17-q006",
+      "chapter": 17,
+      "topic": "Correlation and Regression",
+      "question_text": "The two regression lines are 3x + 2y = 26 and 6x + y = 31. The coefficient of correlation between x and y is:",
+      "options": {
+        "A": "0.5",
+        "B": "−0.5",
+        "C": "−0.25",
+        "D": "−2"
+      },
+      "correct": "B",
+      "explanation": "Assume 3x + 2y = 26 is y on x: y = 13 − 1.5x, so byx = −1.5. Then 6x + y = 31 is x on y: x = 31/6 − y/6, so bxy = −1/6. The product 0.25 ≤ 1, so the assumption is valid (the reverse gives a product of 4, which is impossible). r = −√0.25 = −0.5, negative because both coefficients are negative.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-qa-c17-q007",
+      "chapter": 17,
+      "topic": "Correlation and Regression",
+      "question_text": "The coefficient of correlation from 25 pairs of observations is 0.8. Taking PE = 0.6745 x (1 − r²)/√n, the probable error of r is (to four decimals):",
+      "options": {
+        "A": "0.0720",
+        "B": "0.0486",
+        "C": "0.0270",
+        "D": "0.2428"
+      },
+      "correct": "B",
+      "explanation": "PE = 0.6745 x (1 − r²)/√n = 0.6745 x (1 − 0.64)/5 = 0.6745 x 0.072 = 0.0486. 0.0720 is the standard error (without 0.6745), 0.0270 uses (1 − r) instead of (1 − r²), and 0.2428 forgets to divide by √n.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-qa-c17-q008",
+      "chapter": 17,
+      "topic": "Correlation and Regression",
+      "question_text": "Given x̄ = 20, ȳ = 45 and the regression coefficient of y on x, byx = 1.2, the estimated value of y when x = 25 is:",
+      "options": {
+        "A": "30",
+        "B": "75",
+        "C": "39",
+        "D": "51"
+      },
+      "correct": "D",
+      "explanation": "The regression line of y on x is y − ȳ = byx(x − x̄). So y = 45 + 1.2(25 − 20) = 45 + 6 = 51. Computing 1.2 x 25 alone gives 30, and subtracting the adjustment gives 39.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c17-q009",
+      "chapter": 17,
+      "topic": "Correlation and Regression",
+      "question_text": "When the coefficient of correlation r = 0, the two lines of regression are:",
+      "options": {
+        "A": "Perpendicular to each other",
+        "B": "Coincident",
+        "C": "Parallel to each other",
+        "D": "Inclined at 45° to each other"
+      },
+      "correct": "A",
+      "explanation": "When r = 0, byx = bxy = 0, so the line of y on x is y = ȳ (horizontal) and the line of x on y is x = x̄ (vertical). These are perpendicular. When r = ±1 the two lines coincide.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c18-q001",
+      "chapter": 18,
+      "topic": "Index Numbers",
+      "question_text": "The sum of base-year prices of a group of commodities is ₹250 and the sum of current-year prices is ₹300. The simple aggregative price index is:",
+      "options": {
+        "A": "83.33",
+        "B": "150",
+        "C": "120",
+        "D": "50"
+      },
+      "correct": "C",
+      "explanation": "Simple aggregative index = (Σp₁/Σp₀) x 100 = (300/250) x 100 = 120. Inverting the ratio gives 83.33, and the difference 300 − 250 = 50 is not an index.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c18-q002",
+      "chapter": 18,
+      "topic": "Index Numbers",
+      "question_text": "Using the data below, Laspeyres' price index is (to two decimals):\nItem A: p₀ = 10, q₀ = 5, p₁ = 12, q₁ = 6\nItem B: p₀ = 8, q₀ = 10, p₁ = 10, q₁ = 8\nItem C: p₀ = 5, q₀ = 8, p₁ = 6, q₁ = 10",
+      "options": {
+        "A": "122.35",
+        "B": "121.84",
+        "C": "81.73",
+        "D": "124.71"
+      },
+      "correct": "A",
+      "explanation": "Laspeyres uses base-year quantities: Σp₁q₀ = 60 + 100 + 48 = 208 and Σp₀q₀ = 50 + 80 + 40 = 170. Index = (208/170) x 100 = 122.35. 121.84 is the Paasche index and 81.73 is the inverted ratio (170/208 x 100).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c18-q003",
+      "chapter": 18,
+      "topic": "Index Numbers",
+      "question_text": "Using the data below, Paasche's price index is (to two decimals):\nItem A: p₀ = 10, q₀ = 5, p₁ = 12, q₁ = 6\nItem B: p₀ = 8, q₀ = 10, p₁ = 10, q₁ = 8\nItem C: p₀ = 5, q₀ = 8, p₁ = 6, q₁ = 10",
+      "options": {
+        "A": "122.35",
+        "B": "124.71",
+        "C": "121.84",
+        "D": "82.08"
+      },
+      "correct": "C",
+      "explanation": "Paasche uses current-year quantities: Σp₁q₁ = 72 + 80 + 60 = 212 and Σp₀q₁ = 60 + 64 + 50 = 174. Index = (212/174) x 100 = 121.84. 122.35 is Laspeyres', and 124.71 wrongly divides Σp₁q₁ by Σp₀q₀ (212/170).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c18-q004",
+      "chapter": 18,
+      "topic": "Index Numbers",
+      "question_text": "Laspeyres' price index is 125 and Paasche's price index is 120. Fisher's ideal index is (to two decimals):",
+      "options": {
+        "A": "122.50",
+        "B": "245.00",
+        "C": "120.00",
+        "D": "122.47"
+      },
+      "correct": "D",
+      "explanation": "Fisher's index is the geometric mean of Laspeyres' and Paasche's indices: √(125 x 120) = √15,000 = 122.47. 122.50 is the arithmetic mean (Bowley's index), not Fisher's.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c18-q005",
+      "chapter": 18,
+      "topic": "Index Numbers",
+      "question_text": "Which index number satisfies both the time reversal test and the factor reversal test?",
+      "options": {
+        "A": "Laspeyres' index",
+        "B": "Fisher's ideal index",
+        "C": "Paasche's index",
+        "D": "Simple aggregative index"
+      },
+      "correct": "B",
+      "explanation": "Fisher's index, √(L x P), satisfies both the time reversal test (P₀₁ x P₁₀ = 1) and the factor reversal test (P₀₁ x Q₀₁ = V₀₁). Laspeyres' and Paasche's indices satisfy neither of these tests.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c18-q006",
+      "chapter": 18,
+      "topic": "Index Numbers",
+      "question_text": "The link relatives of prices for three successive years (each on the previous year as 100) are 110, 105 and 120. Taking the year before the first as base (= 100), the chain index for the third year is:",
+      "options": {
+        "A": "135.0",
+        "B": "111.67",
+        "C": "138.6",
+        "D": "126.0"
+      },
+      "correct": "C",
+      "explanation": "Chain index = product of link relatives / 100² = (110 x 105 x 120)/10,000 = 1.10 x 1.05 x 1.20 x 100 = 138.6. Adding the percentage rises (10 + 5 + 20 = 35) gives 135, and the simple average of the relatives gives 111.67.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c18-q007",
+      "chapter": 18,
+      "topic": "Index Numbers",
+      "question_text": "On an old base, the index numbers for years X and Y are 150 and 180. If the base is shifted to year X, the new index for year Y is:",
+      "options": {
+        "A": "120",
+        "B": "130",
+        "C": "83.33",
+        "D": "30"
+      },
+      "correct": "A",
+      "explanation": "Shifted index = (old index of Y / old index of X) x 100 = (180/150) x 100 = 120. Subtracting 50 from 180 gives 130, and inverting gives 83.33.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-qa-c18-q008",
+      "chapter": 18,
+      "topic": "Index Numbers",
+      "question_text": "A worker's money wage is ₹30,000 per month and the consumer price index (base = 100) is 150. His real wage in base-year prices is:",
+      "options": {
+        "A": "₹45,000",
+        "B": "₹30,150",
+        "C": "₹25,000",
+        "D": "₹20,000"
+      },
+      "correct": "D",
+      "explanation": "Real wage = (money wage / price index) x 100 = (30,000/150) x 100 = ₹20,000. Multiplying by the index instead of dividing gives ₹45,000.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-qa-c18-q009",
+      "chapter": 18,
+      "topic": "Index Numbers",
+      "question_text": "The price relatives of three items are 120, 150 and 110, with weights 5, 2 and 3 respectively. The weighted index of price relatives is:",
+      "options": {
+        "A": "126.67",
+        "B": "123",
+        "C": "133",
+        "D": "41"
+      },
+      "correct": "B",
+      "explanation": "Weighted index = ΣwP/Σw = (5 x 120 + 2 x 150 + 3 x 110)/(5 + 2 + 3) = (600 + 300 + 330)/10 = 1,230/10 = 123. The simple average (380/3) is 126.67.",
+      "difficulty": "medium"
+    }
+  ]
+}
