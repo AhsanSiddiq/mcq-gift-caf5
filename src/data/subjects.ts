@@ -1,5 +1,5 @@
-export type Level = "PRC" | "CAF" | "ACCA" | "CA-FOUNDATION";
-export type BodyId = "icap" | "acca" | "icai";
+export type Level = "PRC" | "CAF" | "ACCA" | "CA-FOUNDATION" | "CIMA" | "ICAEW";
+export type BodyId = "icap" | "acca" | "icai" | "cima" | "icaew";
 
 export interface Subject {
   id: string; // e.g., 'prc-1', 'caf-5', 'acca-fa'
@@ -18,8 +18,10 @@ export interface Subject {
 export const LEVEL_LABEL: Record<Level, string> = {
   PRC: "ICAP PRC",
   CAF: "ICAP CAF",
-  ACCA: "ACCA Applied Knowledge",
+  ACCA: "ACCA",
   "CA-FOUNDATION": "ICAI CA Foundation",
+  CIMA: "CIMA Certificate in Business Accounting",
+  ICAEW: "ICAEW ACA Certificate Level",
 };
 
 export const subjectCode = (s: Pick<Subject, "id" | "code">) => s.code ?? s.id.toUpperCase();
@@ -138,6 +140,141 @@ export const accaSubjects: Subject[] = [
   },
 ];
 
+export const accaSkillsSubjects: Subject[] = [
+  {
+    id: "acca-lw",
+    code: "ACCA LW",
+    title: "Corporate and Business Law",
+    level: "ACCA",
+    body: "acca",
+    description: "Contract, tort, employment, company law and insolvency — objective questions on the English-law variant.",
+    isAvailable: false,
+  },
+  {
+    id: "acca-pm",
+    code: "ACCA PM",
+    title: "Performance Management",
+    level: "ACCA",
+    body: "acca",
+    description: "Costing techniques, decision making, budgeting, advanced variances and performance measurement — Section A/B practice.",
+    isAvailable: false,
+  },
+  {
+    id: "acca-fr",
+    code: "ACCA FR",
+    title: "Financial Reporting",
+    level: "ACCA",
+    body: "acca",
+    description: "IFRS in depth: revenue, leases, financial instruments, tax, EPS and group accounts — Section A/B practice.",
+    isAvailable: false,
+  },
+  {
+    id: "acca-aa",
+    code: "ACCA AA",
+    title: "Audit and Assurance",
+    level: "ACCA",
+    body: "acca",
+    description: "Planning, risk, internal control, evidence, review and reporting under ISAs — Section A/B practice.",
+    isAvailable: false,
+  },
+  {
+    id: "acca-fm",
+    code: "ACCA FM",
+    title: "Financial Management",
+    level: "ACCA",
+    body: "acca",
+    description: "Working capital, investment appraisal, cost of capital, valuations and risk management — Section A/B practice.",
+    isAvailable: false,
+  },
+];
+
+export const cimaSubjects: Subject[] = [
+  {
+    id: "cima-ba1",
+    code: "CIMA BA1",
+    title: "Fundamentals of Business Economics",
+    level: "CIMA",
+    body: "cima",
+    description: "Macro and micro economics, the financial system and business maths — the full BA1 objective test.",
+    isAvailable: false,
+  },
+  {
+    id: "cima-ba2",
+    code: "CIMA BA2",
+    title: "Fundamentals of Management Accounting",
+    level: "CIMA",
+    body: "cima",
+    description: "Costing, budgeting, standard costing, CVP and investment appraisal for the BA2 objective test.",
+    isAvailable: false,
+  },
+  {
+    id: "cima-ba3",
+    code: "CIMA BA3",
+    title: "Fundamentals of Financial Accounting",
+    level: "CIMA",
+    body: "cima",
+    description: "Double entry to single-entity accounts, cash flows and ratios for the BA3 objective test.",
+    isAvailable: false,
+  },
+  {
+    id: "cima-ba4",
+    code: "CIMA BA4",
+    title: "Fundamentals of Ethics, Corporate Governance and Business Law",
+    level: "CIMA",
+    body: "cima",
+    description: "Ethics, governance, contract, employment and company law for the BA4 objective test.",
+    isAvailable: false,
+  },
+];
+
+export const icaewSubjects: Subject[] = [
+  {
+    id: "icaew-acc",
+    code: "ICAEW Accounting",
+    title: "Accounting",
+    level: "ICAEW",
+    body: "icaew",
+    description: "Double entry through to single-company financial statements — ACA Certificate Level practice.",
+    isAvailable: false,
+  },
+  {
+    id: "icaew-ass",
+    code: "ICAEW Assurance",
+    title: "Assurance",
+    level: "ICAEW",
+    body: "icaew",
+    description: "Assurance concepts, ethics, internal controls and evidence — ACA Certificate Level practice.",
+    isAvailable: false,
+  },
+  {
+    id: "icaew-btf",
+    code: "ICAEW BTF",
+    title: "Business, Technology and Finance",
+    level: "ICAEW",
+    body: "icaew",
+    description: "Business organisation, technology, finance and governance — ACA Certificate Level practice.",
+    isAvailable: false,
+  },
+  {
+    id: "icaew-law",
+    code: "ICAEW Law",
+    title: "Law",
+    level: "ICAEW",
+    body: "icaew",
+    description: "Contract, agency, negligence, companies, insolvency and employment — ACA Certificate Level practice.",
+    isAvailable: false,
+  },
+  {
+    id: "icaew-mi",
+    code: "ICAEW MI",
+    title: "Management Information",
+    level: "ICAEW",
+    body: "icaew",
+    description: "Costing, pricing, budgeting, performance and decision making — ACA Certificate Level practice.",
+    isAvailable: false,
+  },
+];
+
 export const caFoundationSubjects: Subject[] = [
   {
     id: "ca-foundation-qa",
@@ -160,4 +297,4 @@ export const caFoundationSubjects: Subject[] = [
 ];
 
 export const icapSubjects = [...prcSubjects, ...cafSubjects];
-export const allSubjects = [...prcSubjects, ...cafSubjects, ...accaSubjects, ...caFoundationSubjects];
+export const allSubjects = [...prcSubjects, ...cafSubjects, ...accaSubjects, ...accaSkillsSubjects, ...caFoundationSubjects, ...cimaSubjects, ...icaewSubjects];

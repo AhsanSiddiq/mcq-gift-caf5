@@ -162,6 +162,14 @@ export default async function ExamBodyPage({ params }: { params: Promise<{ body:
                 </Link>
               ))}
             </div>
+            <Link href={`/daily/${body.id}`} className="mt-4 flex items-center justify-between gap-4 rounded-2xl p-5"
+              style={{ background: "rgba(245,166,35,0.07)", border: "1px solid rgba(245,166,35,0.3)", textDecoration: "none" }}>
+              <span>
+                <span className="block font-bold" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>🔥 Daily {body.short} Challenge</span>
+                <span className="block text-sm" style={{ color: "var(--text-2)" }}>10 questions a day, same for everyone. Build a streak and share your score.</span>
+              </span>
+              <span className="shrink-0 font-bold text-sm" style={{ color: "var(--gold)" }}>Play →</span>
+            </Link>
           </section>
         )}
 

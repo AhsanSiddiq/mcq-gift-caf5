@@ -3,6 +3,7 @@ import { EXAM_BODIES } from "@/data/regions";
 import { allSubjects } from "@/data/subjects";
 import { blogs } from "@/data/blogs";
 import { getChapters } from "@/lib/questionBank";
+import { dailyBodies } from "@/lib/daily";
 
 export const revalidate = 86400;
 
@@ -47,6 +48,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     changeFrequency: "weekly" as const,
   }));
 
+  const bodyDailyPages = dailyBodies()
+    .filter((b) => b !== "icap")
+    .map((b) => ({ url: `${BASE_URL}/daily/${b}`, priority: 0.8, changeFrequency: "daily" as const }));
+
   const blogPages = [
     { url: `${BASE_URL}/blog`, priority: 0.7, changeFrequency: "weekly" as const },
     ...blogs.map((b) => ({ url: `${BASE_URL}/blog/${b.slug}`, priority: 0.7, changeFrequency: "monthly" as const })),
@@ -66,7 +71,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     )
   ).flat();
 
-  return [...staticPages, ...examPages, ...prcPages, ...cafPages, ...bankPages, ...blogPages].map((page) => ({
+  return [...staticPages, ...examPages, ...prcPages, ...cafPages, ...bankPages, ...bodyDailyPages, ...blogPages].map((page) => ({
     ...page,
     lastModified: now,
   }));

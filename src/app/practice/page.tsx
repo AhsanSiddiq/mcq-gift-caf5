@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { prcSubjects, cafSubjects, accaSubjects, caFoundationSubjects, subjectCode, type Level } from "@/data/subjects";
+import { prcSubjects, cafSubjects, accaSubjects, accaSkillsSubjects, caFoundationSubjects, cimaSubjects, icaewSubjects, subjectCode, type Level, type Subject } from "@/data/subjects";
 import { BookOpen, Lock } from "lucide-react";
 import { useEffect, useState } from "react";
 import AdSlot from "@/components/AdSlot";
@@ -16,10 +16,24 @@ const LEVEL_META: Record<string, { label: string; tag: string; color: string; bg
   },
   ACCA: {
     label: "ACCA",
-    tag: "Applied Knowledge (global)",
+    tag: "Applied Knowledge & Applied Skills (global)",
     color: "#a78bfa",
     bg: "rgba(167,139,250,0.08)",
-    desc: "BT, MA and FA — fully objective on-demand exams. Original practice questions with worked answers.",
+    desc: "Original practice questions with worked answers — Applied Knowledge CBEs and the objective sections of Applied Skills.",
+  },
+  CIMA: {
+    label: "CIMA",
+    tag: "Certificate in Business Accounting",
+    color: "#38bdf8",
+    bg: "rgba(56,189,248,0.08)",
+    desc: "BA1–BA4 — fully objective computer-based tests.",
+  },
+  ICAEW: {
+    label: "ICAEW",
+    tag: "ACA Certificate Level (UK)",
+    color: "#f472b6",
+    bg: "rgba(244,114,182,0.08)",
+    desc: "Accounting, Assurance, BTF, Law and Management Information.",
   },
   "CA-FOUNDATION": {
     label: "CA Foundation",
@@ -147,6 +161,13 @@ function Section({ level, subjects, counts, isLoadingCounts }: {
   );
 }
 
+const GLOBAL_SECTIONS: [Level, Subject[]][] = [
+  ["ACCA", [...accaSubjects, ...accaSkillsSubjects]],
+  ["CA-FOUNDATION", caFoundationSubjects],
+  ["CIMA", cimaSubjects],
+  ["ICAEW", icaewSubjects],
+];
+
 export default function PracticePage() {
   const [counts, setCounts] = useState<Record<string, number>>({});
   const [isLoadingCounts, setIsLoadingCounts] = useState(true);
@@ -201,12 +222,12 @@ export default function PracticePage() {
         {/* Sections */}
         <Section level="PRC" subjects={prcSubjects} counts={counts} isLoadingCounts={isLoadingCounts} />
         <Section level="CAF" subjects={cafSubjects} counts={counts} isLoadingCounts={isLoadingCounts} />
-        {accaSubjects.some((x) => x.isAvailable) && (
-          <Section level="ACCA" subjects={accaSubjects.filter((x) => x.isAvailable)} counts={counts} isLoadingCounts={isLoadingCounts} />
-        )}
-        {caFoundationSubjects.some((x) => x.isAvailable) && (
-          <Section level="CA-FOUNDATION" subjects={caFoundationSubjects.filter((x) => x.isAvailable)} counts={counts} isLoadingCounts={isLoadingCounts} />
-        )}
+        {GLOBAL_SECTIONS.map(([lvl, subs]) => {
+          const live = subs.filter((x) => x.isAvailable);
+          return live.length > 0 ? (
+            <Section key={lvl} level={lvl} subjects={live} counts={counts} isLoadingCounts={isLoadingCounts} />
+          ) : null;
+        })}
 
         <AdSlot />
 
