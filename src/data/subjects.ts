@@ -125,7 +125,7 @@ export const accaSubjects: Subject[] = [
     level: "ACCA",
     body: "acca",
     description: "Costing, budgeting, variances and performance measurement with fully worked answers.",
-    isAvailable: false,
+    isAvailable: true,
   },
   {
     id: "acca-fa",
