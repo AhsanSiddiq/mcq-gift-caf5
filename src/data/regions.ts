@@ -187,7 +187,8 @@ export const EXAM_BODIES: ExamBody[] = [
     qualification: "Certified Management Accountant (US CMA)",
     flag: "🌍",
     region: "Global",
-    status: "waitlist",
+    status: "live",
+    practiceHref: "/exams/ima#practice",
     tagline: "MCQ practice for both parts of the US CMA exam — popular across India, the Gulf and Pakistan.",
     levels: [
       {
