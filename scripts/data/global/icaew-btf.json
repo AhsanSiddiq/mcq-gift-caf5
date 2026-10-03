@@ -1,0 +1,1955 @@
+{
+  "subject_id": "icaew-btf",
+  "questions": [
+    {
+      "id": "icaew-btf-c01-q001",
+      "chapter": 1,
+      "topic": "Business objectives and functions",
+      "question_text": "From the perspective of the shareholders of a company, which of the following is generally regarded as the primary financial objective?",
+      "options": {
+        "A": "Maximising annual sales revenue",
+        "B": "Maximising the company's share of its market",
+        "C": "Minimising the total costs of the business",
+        "D": "Maximising the wealth of shareholders over the long term"
+      },
+      "correct": "D",
+      "explanation": "Shareholders invest to increase their wealth, so the primary financial objective of a company is usually expressed as maximising shareholder wealth over the long term. Revenue and market share can be grown at the expense of profit and value. Minimising costs is a means to an end, not an objective in itself, because cutting costs too far can destroy value.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-btf-c01-q002",
+      "chapter": 1,
+      "topic": "Business objectives and functions",
+      "question_text": "A retailer sets the following objective: 'Reduce the volume of packaging waste sent to landfill by 15%.' Which element of a SMART objective is most clearly missing?",
+      "options": {
+        "A": "Time-bound",
+        "B": "Specific",
+        "C": "Measurable",
+        "D": "Relevant"
+      },
+      "correct": "A",
+      "explanation": "The objective is specific (packaging waste sent to landfill) and measurable (a 15% reduction), and it is relevant to a retailer with environmental goals. However, no deadline is given, so it is not time-bound. Without a target date, progress cannot be judged at any particular point.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c01-q003",
+      "chapter": 1,
+      "topic": "Business objectives and functions",
+      "question_text": "Which of the following best describes a mission statement?",
+      "options": {
+        "A": "A detailed, quantified target for each department for the coming year",
+        "B": "A broad statement of an organisation's purpose and values, usually not quantified",
+        "C": "A schedule of the organisation's planned capital expenditure",
+        "D": "A legally required statement filed with the annual financial statements"
+      },
+      "correct": "B",
+      "explanation": "A mission statement sets out in broad terms why the organisation exists and what it values. It is normally qualitative and long-term. Quantified departmental targets are operational objectives, and mission statements are voluntary rather than a legal filing requirement.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-btf-c01-q004",
+      "chapter": 1,
+      "topic": "Business objectives and functions",
+      "question_text": "A public hospital measures whether its new outpatient service actually reduced the number of emergency readmissions, as it was designed to do. Which aspect of value for money is being assessed?",
+      "options": {
+        "A": "Economy",
+        "B": "Effectiveness",
+        "C": "Efficiency",
+        "D": "Equity"
+      },
+      "correct": "B",
+      "explanation": "Effectiveness is the extent to which an activity achieves its intended outcomes, here fewer emergency readmissions. Economy concerns obtaining inputs at the lowest cost for the required quality. Efficiency relates outputs to inputs. Equity is sometimes discussed in the public sector but is not one of the three Es of value for money.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-btf-c01-q005",
+      "chapter": 1,
+      "topic": "Business objectives and functions",
+      "question_text": "A local council operates two waste depots. Depot North collected 4,800 tonnes at a cost of £96,000. Depot South collected 3,600 tonnes at a cost of £64,800. Which statement is correct?",
+      "options": {
+        "A": "Depot North is more efficient, at £2 per tonne less than Depot South",
+        "B": "Depot North is more efficient because it collected 1,200 more tonnes",
+        "C": "Depot South is more efficient, at £2 per tonne less than Depot North",
+        "D": "Both depots are equally efficient at £20 per tonne"
+      },
+      "correct": "C",
+      "explanation": "Efficiency compares output with input, so cost per tonne is the relevant measure. Depot North: £96,000 / 4,800 = £20.00 per tonne. Depot South: £64,800 / 3,600 = £18.00 per tonne. Depot South is therefore more efficient by £20 - £18 = £2 per tonne. Total volume collected measures scale, not efficiency.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c01-q006",
+      "chapter": 1,
+      "topic": "Business objectives and functions",
+      "question_text": "In the hierarchy of objectives, which type of objective is typically short term, set for individual departments or teams, and used to direct day-to-day activity?",
+      "options": {
+        "A": "Corporate objectives",
+        "B": "Operational objectives",
+        "C": "Mission",
+        "D": "Strategic objectives"
+      },
+      "correct": "B",
+      "explanation": "Objectives cascade down from the mission to corporate (strategic) objectives and then to tactical and operational objectives. Operational objectives are the most detailed and short term, guiding the day-to-day work of departments and teams. Corporate and strategic objectives concern the organisation as a whole over a longer horizon.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c01-q007",
+      "chapter": 1,
+      "topic": "Business objectives and functions",
+      "question_text": "Which business function is primarily responsible for identifying suppliers, negotiating terms and obtaining the goods and services the business needs?",
+      "options": {
+        "A": "Marketing",
+        "B": "Procurement",
+        "C": "Operations",
+        "D": "Human resources"
+      },
+      "correct": "B",
+      "explanation": "Procurement (purchasing) sources the inputs that the business needs, including selecting suppliers and negotiating price, quality and delivery terms. Operations converts those inputs into products or services. Marketing deals with customers, and human resources deals with the workforce.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-btf-c01-q008",
+      "chapter": 1,
+      "topic": "Business objectives and functions",
+      "question_text": "In Porter's value chain, which of the following is a support activity rather than a primary activity?",
+      "options": {
+        "A": "Outbound logistics",
+        "B": "Marketing and sales",
+        "C": "Technology development",
+        "D": "Service"
+      },
+      "correct": "C",
+      "explanation": "Porter's primary activities are inbound logistics, operations, outbound logistics, marketing and sales, and service. Support activities are firm infrastructure, human resource management, technology development and procurement. Technology development therefore supports the primary activities rather than forming part of the direct flow of the product to the customer.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c01-q009",
+      "chapter": 1,
+      "topic": "Business objectives and functions",
+      "question_text": "A furniture maker receives timber deliveries, inspects them and stores them in its warehouse until they are needed. In Porter's value chain, these tasks fall within which activity?",
+      "options": {
+        "A": "Inbound logistics",
+        "B": "Operations",
+        "C": "Outbound logistics",
+        "D": "Procurement"
+      },
+      "correct": "A",
+      "explanation": "Inbound logistics covers receiving, inspecting, storing and handling inputs before they enter production. Procurement is the support activity of buying the timber, not the physical handling of it once it arrives. Operations transforms the timber into furniture, and outbound logistics moves finished goods to customers.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-btf-c01-q010",
+      "chapter": 1,
+      "topic": "Business objectives and functions",
+      "question_text": "A company's main lender rarely takes an interest in the company's day-to-day affairs, but could withdraw an essential overdraft facility at short notice. Using Mendelow's matrix, how should management treat this lender?",
+      "options": {
+        "A": "Key player: manage closely",
+        "B": "Keep satisfied",
+        "C": "Keep informed",
+        "D": "Minimal effort"
+      },
+      "correct": "B",
+      "explanation": "Mendelow's matrix classifies stakeholders by power and interest. The lender has high power, because it could withdraw vital finance, but low interest in routine matters. High power, low interest stakeholders should be kept satisfied so that they do not become actively involved or use their power against the organisation. Key players have both high power and high interest.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-btf-c01-q011",
+      "chapter": 1,
+      "topic": "Business objectives and functions",
+      "question_text": "In the marketing mix, which element is concerned with the channels through which a product reaches customers?",
+      "options": {
+        "A": "Product",
+        "B": "Price",
+        "C": "Place",
+        "D": "Promotion"
+      },
+      "correct": "C",
+      "explanation": "Place covers distribution: the channels, locations and logistics through which customers obtain the product. Product concerns features and quality, price concerns the amount charged and pricing strategy, and promotion concerns communication with customers such as advertising.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-btf-c02-q001",
+      "chapter": 2,
+      "topic": "Business and organisational structures",
+      "question_text": "Which of the following is a feature of operating as a sole trader?",
+      "options": {
+        "A": "The owner has unlimited personal liability for the debts of the business",
+        "B": "The business is a legal person separate from its owner",
+        "C": "The business must file audited accounts on a public register",
+        "D": "The owner's liability is limited to the capital invested"
+      },
+      "correct": "A",
+      "explanation": "A sole trader and the business are legally the same person, so the owner is personally liable for all business debts without limit. Separate legal personality and limited liability are features of companies and LLPs. Sole traders have no obligation to publish audited accounts.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-btf-c02-q002",
+      "chapter": 2,
+      "topic": "Business and organisational structures",
+      "question_text": "Which statement about a limited liability partnership (LLP) is correct?",
+      "options": {
+        "A": "The LLP is a legal entity separate from its members",
+        "B": "The members are personally liable for all debts of the LLP without limit",
+        "C": "An LLP may offer its shares to the general public",
+        "D": "An LLP is taxed as a company on its profits"
+      },
+      "correct": "A",
+      "explanation": "An LLP is a body corporate with its own legal personality, so it can own property and enter contracts in its own name, and its members' liability is generally limited. It has members rather than shareholders, so it cannot offer shares to the public. For tax purposes profits are generally taxed on the members rather than on the LLP as a company.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-btf-c02-q003",
+      "chapter": 2,
+      "topic": "Business and organisational structures",
+      "question_text": "Which of the following can only be done by a public limited company and not by a private limited company?",
+      "options": {
+        "A": "Having limited liability for its shareholders",
+        "B": "Offering its shares for sale to the general public",
+        "C": "Owning property in its own name",
+        "D": "Appointing directors to manage the business"
+      },
+      "correct": "B",
+      "explanation": "Only a public company may offer its shares to the public, which is why companies seeking a stock market listing must be public companies. Limited liability, owning property in the company's name and appointing directors apply to both private and public companies.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-btf-c02-q004",
+      "chapter": 2,
+      "topic": "Business and organisational structures",
+      "question_text": "A company is sued by a customer for breach of contract. The customer cannot recover the damages from the shareholders personally. This follows from which principle?",
+      "options": {
+        "A": "The directors owe duties to the company",
+        "B": "The company is managed by its board of directors",
+        "C": "The company must keep accounting records",
+        "D": "The company is a separate legal person from its members"
+      },
+      "correct": "D",
+      "explanation": "Incorporation creates a legal person separate from its members (the 'veil of incorporation'). The company owns its assets, makes its contracts and is liable for its own debts, so creditors claim against the company and shareholders risk only their investment in the shares. The other statements are true of companies but do not explain why shareholders are not liable.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-btf-c02-q005",
+      "chapter": 2,
+      "topic": "Business and organisational structures",
+      "question_text": "Which of the following is a disadvantage of a divisional structure compared with a functional structure?",
+      "options": {
+        "A": "Lack of focus on individual products or markets",
+        "B": "Difficulty in measuring the performance of each product line",
+        "C": "Slow, centralised decisions about local markets",
+        "D": "Duplication of support functions across divisions, increasing overall costs"
+      },
+      "correct": "D",
+      "explanation": "In a divisional structure each division often has its own finance, HR and other support functions, so resources are duplicated and economies of scale are lost. The strengths of divisionalisation are focus on products or markets, clearer measurement of divisional performance and faster local decisions, which are the opposite of the other options.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c02-q006",
+      "chapter": 2,
+      "topic": "Business and organisational structures",
+      "question_text": "A project engineer reports to the head of engineering for technical standards and to a project manager for delivery of a specific client project. This is characteristic of which structure?",
+      "options": {
+        "A": "Functional structure",
+        "B": "Geographic divisional structure",
+        "C": "Matrix structure",
+        "D": "Entrepreneurial structure"
+      },
+      "correct": "C",
+      "explanation": "A matrix structure overlays project or product lines of authority on a functional structure, so staff have dual reporting lines. This improves coordination across functions but can cause conflict and confusion over priorities. Functional and divisional structures have single lines of command, and an entrepreneurial structure centres decisions on the owner.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-btf-c02-q007",
+      "chapter": 2,
+      "topic": "Business and organisational structures",
+      "question_text": "An organisation employs 64 operatives. Every manager or supervisor, at every level, has a span of control of exactly 4, and there is a single managing director at the top. How many managers and supervisors (including the managing director) does the organisation have?",
+      "options": {
+        "A": "16",
+        "B": "20",
+        "C": "85",
+        "D": "21"
+      },
+      "correct": "D",
+      "explanation": "Work up the hierarchy dividing by the span of control of 4. Supervisors: 64 / 4 = 16. Middle managers: 16 / 4 = 4. Managing director: 4 / 4 = 1. Total managers and supervisors = 16 + 4 + 1 = 21. 85 is the total headcount including the 64 operatives, and 16 or 20 omit one or more levels.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-btf-c02-q008",
+      "chapter": 2,
+      "topic": "Business and organisational structures",
+      "question_text": "Which of the following is an advantage of decentralised decision-making?",
+      "options": {
+        "A": "Decisions can be made quickly by managers with local knowledge",
+        "B": "Decisions are consistent across all parts of the organisation",
+        "C": "Senior management retains tight control over all activities",
+        "D": "Fewer managers need to be trained in decision-making"
+      },
+      "correct": "A",
+      "explanation": "Decentralisation pushes authority down to managers closer to customers and operations, allowing faster decisions informed by local knowledge, and it can motivate junior managers. Consistency, tight central control and a smaller need for trained decision-makers are advantages of centralisation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c02-q009",
+      "chapter": 2,
+      "topic": "Business and organisational structures",
+      "question_text": "In Mintzberg's model of organisational structure, the analysts who design systems that standardise other people's work, such as planners and work-study specialists, form which component?",
+      "options": {
+        "A": "Technostructure",
+        "B": "Support staff",
+        "C": "Middle line",
+        "D": "Operating core"
+      },
+      "correct": "A",
+      "explanation": "Mintzberg's technostructure contains analysts who standardise work processes, outputs and skills, for example planners, budget accountants and training designers. Support staff provide services outside the operating workflow, such as a canteen or legal department. The middle line links the strategic apex to the operating core, which carries out the basic work.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-btf-c02-q010",
+      "chapter": 2,
+      "topic": "Business and organisational structures",
+      "question_text": "A group sets up a single centre to process the accounts payable and payroll of all its subsidiaries, staffed by group employees. What is this arrangement called?",
+      "options": {
+        "A": "Outsourcing",
+        "B": "Offshoring to a third party",
+        "C": "A joint venture",
+        "D": "A shared service centre"
+      },
+      "correct": "D",
+      "explanation": "A shared service centre consolidates support activities from several parts of a group into one unit that remains owned and controlled by the group. Outsourcing transfers the activity to an external provider under contract. A joint venture is a separate entity owned jointly with another party.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c02-q011",
+      "chapter": 2,
+      "topic": "Business and organisational structures",
+      "question_text": "From the franchisor's point of view, what is the main advantage of growing through franchising rather than opening company-owned outlets?",
+      "options": {
+        "A": "Rapid expansion using the franchisees' capital and local motivation",
+        "B": "Complete control over every franchisee's daily operations",
+        "C": "Retaining all profits earned by each outlet",
+        "D": "Avoiding any risk to the brand's reputation"
+      },
+      "correct": "A",
+      "explanation": "Franchisees invest their own capital and run their outlets, paying fees or royalties to the franchisor, so the brand can expand quickly with less investment and highly motivated owner-managers. The franchisor gives up some control and shares profits, and a poorly run franchise can still damage the brand.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c03-q001",
+      "chapter": 3,
+      "topic": "Organisational culture and people",
+      "question_text": "In Handy's classification of organisational cultures, which culture is characterised by rules, procedures, job descriptions and clearly defined roles?",
+      "options": {
+        "A": "Power culture",
+        "B": "Role culture",
+        "C": "Task culture",
+        "D": "Person culture"
+      },
+      "correct": "B",
+      "explanation": "Handy's role culture (associated with Apollo) is bureaucratic: work is governed by procedures and roles rather than by individuals. Power culture centres on a single powerful figure, task culture on teams formed to complete projects, and person culture on serving the individuals within it.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c03-q002",
+      "chapter": 3,
+      "topic": "Organisational culture and people",
+      "question_text": "According to Schein, which level of organisational culture is the deepest and hardest to change?",
+      "options": {
+        "A": "Artefacts such as office layout and dress",
+        "B": "Espoused values set out in official statements",
+        "C": "Basic underlying assumptions",
+        "D": "Formal organisation charts"
+      },
+      "correct": "C",
+      "explanation": "Schein identifies three levels: visible artefacts, espoused values, and basic underlying assumptions. The assumptions are taken for granted and largely unconscious, so they are the deepest level and the most difficult to change. Artefacts are visible but hard to interpret, and an organisation chart is an artefact.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-btf-c03-q003",
+      "chapter": 3,
+      "topic": "Organisational culture and people",
+      "question_text": "A company expands into a country where employees prefer clear rules, detailed instructions and job security, and are uncomfortable with ambiguity. Which of Hofstede's cultural dimensions does this describe?",
+      "options": {
+        "A": "High uncertainty avoidance",
+        "B": "High power distance",
+        "C": "High individualism",
+        "D": "Long-term orientation"
+      },
+      "correct": "A",
+      "explanation": "Uncertainty avoidance measures how far people feel threatened by ambiguity and so prefer rules, structure and security. Power distance concerns acceptance of unequal distribution of power, individualism concerns the priority given to self over group, and long-term orientation concerns focus on future rewards such as thrift and persistence.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c03-q004",
+      "chapter": 3,
+      "topic": "Organisational culture and people",
+      "question_text": "According to Herzberg's two-factor theory, which of the following is a hygiene factor rather than a motivator?",
+      "options": {
+        "A": "Recognition for achievement",
+        "B": "Responsibility",
+        "C": "Salary",
+        "D": "Opportunity for advancement"
+      },
+      "correct": "C",
+      "explanation": "Herzberg found that hygiene factors, such as salary, working conditions, company policy and supervision, cause dissatisfaction if inadequate but do not in themselves motivate. Motivators, such as achievement, recognition, responsibility and advancement, come from the content of the job and create positive satisfaction.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-btf-c03-q005",
+      "chapter": 3,
+      "topic": "Organisational culture and people",
+      "question_text": "A manager publicly praises an employee's work at a team meeting. In Maslow's hierarchy, which level of need is this most likely to satisfy?",
+      "options": {
+        "A": "Esteem needs",
+        "B": "Physiological needs",
+        "C": "Safety needs",
+        "D": "Self-actualisation needs"
+      },
+      "correct": "A",
+      "explanation": "Esteem needs include recognition, respect and status from others, which public praise provides. Physiological and safety needs are more basic (food, shelter, security), while self-actualisation is the need to fulfil one's potential and is usually met through challenging, growth-oriented work.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-btf-c03-q006",
+      "chapter": 3,
+      "topic": "Organisational culture and people",
+      "question_text": "Using Vroom's expectancy theory (Force = Valence x Expectancy), an employee is considering two incentive schemes. Scheme X: valence 0.9, expectancy 0.3. Scheme Y: valence 0.5, expectancy 0.7. Which scheme creates the greater motivational force, and what is its value?",
+      "options": {
+        "A": "Scheme Y, with a force of 0.35",
+        "B": "Scheme X, with a force of 0.27",
+        "C": "Scheme X, with a force of 1.20",
+        "D": "Scheme Y, with a force of 1.20"
+      },
+      "correct": "A",
+      "explanation": "Force = valence x expectancy. Scheme X: 0.9 x 0.3 = 0.27. Scheme Y: 0.5 x 0.7 = 0.35. Scheme Y gives the higher force because, although the reward is less valued, the employee is much more confident of achieving it. Adding the two figures (1.20) is a common error; the model multiplies them.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-btf-c03-q007",
+      "chapter": 3,
+      "topic": "Organisational culture and people",
+      "question_text": "A newly formed project team is experiencing open disagreement about goals, roles and leadership. According to Tuckman, which stage of group development has the team reached?",
+      "options": {
+        "A": "Forming",
+        "B": "Norming",
+        "C": "Storming",
+        "D": "Performing"
+      },
+      "correct": "C",
+      "explanation": "Tuckman's stages are forming, storming, norming, performing (and later adjourning). Storming is marked by conflict as members challenge goals, roles and leaders. Forming is the polite, tentative first stage; norming is when agreed ways of working emerge; performing is when the team works effectively towards its goals.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-btf-c03-q008",
+      "chapter": 3,
+      "topic": "Organisational culture and people",
+      "question_text": "Which of Belbin's team roles is most associated with painstaking attention to detail, searching out errors and ensuring tasks are finished on time?",
+      "options": {
+        "A": "Completer-finisher",
+        "B": "Plant",
+        "C": "Resource investigator",
+        "D": "Shaper"
+      },
+      "correct": "A",
+      "explanation": "The completer-finisher polishes work, checks for errors and makes sure deadlines are met. The plant generates creative ideas, the resource investigator explores external contacts and opportunities, and the shaper drives the team forward with energy and challenge.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c03-q009",
+      "chapter": 3,
+      "topic": "Organisational culture and people",
+      "question_text": "On Blake and Mouton's managerial grid, a manager scoring 9,9 shows high concern for both production and people. What is this style called?",
+      "options": {
+        "A": "Country club management",
+        "B": "Authority-compliance (task) management",
+        "C": "Team management",
+        "D": "Middle-of-the-road management"
+      },
+      "correct": "C",
+      "explanation": "The 9,9 position is team management, regarded by Blake and Mouton as the most effective style because committed people achieve high output. Country club is 1,9 (high people, low production), authority-compliance is 9,1 (high production, low people) and middle-of-the-road is 5,5.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c03-q010",
+      "chapter": 3,
+      "topic": "Organisational culture and people",
+      "question_text": "In Lewin's three-stage model of change, what is the purpose of the first stage?",
+      "options": {
+        "A": "To introduce the new systems and working methods",
+        "B": "To refreeze the new behaviours as the accepted norm",
+        "C": "To unfreeze existing attitudes and behaviours so that people are ready to change",
+        "D": "To evaluate whether the change has achieved its objectives"
+      },
+      "correct": "C",
+      "explanation": "Lewin's model is unfreeze, change (move), refreeze. Unfreezing creates readiness for change by challenging existing habits and explaining why change is necessary. The new methods are introduced in the change stage and reinforced in the refreeze stage.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-btf-c03-q011",
+      "chapter": 3,
+      "topic": "Organisational culture and people",
+      "question_text": "Which of the following is a symptom of groupthink?",
+      "options": {
+        "A": "Members suppress doubts in order to maintain consensus",
+        "B": "Members openly challenge each other's assumptions",
+        "C": "The group actively seeks outside expert opinions",
+        "D": "Several alternative courses of action are evaluated in detail"
+      },
+      "correct": "A",
+      "explanation": "Groupthink occurs when a cohesive group values agreement over critical evaluation, so members censor their own doubts and the group develops an illusion of unanimity. Open challenge, seeking outside views and evaluating alternatives are the remedies for groupthink rather than its symptoms.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c04-q001",
+      "chapter": 4,
+      "topic": "The role of finance and the finance function",
+      "question_text": "Which of the following is a characteristic of management accounting rather than financial accounting?",
+      "options": {
+        "A": "Its format is governed by accounting standards and company law",
+        "B": "It is prepared mainly for internal users and may be forward looking",
+        "C": "It is primarily prepared for shareholders and other external users",
+        "D": "Its production is a legal requirement for all companies"
+      },
+      "correct": "B",
+      "explanation": "Management accounting provides information to managers for planning, control and decision-making; it has no prescribed format and often includes budgets and forecasts. Financial accounting produces statutory financial statements for external users in a format governed by law and accounting standards.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-btf-c04-q002",
+      "chapter": 4,
+      "topic": "The role of finance and the finance function",
+      "question_text": "Which of the following is normally a responsibility of the treasury function?",
+      "options": {
+        "A": "Recording sales invoices in the receivables ledger",
+        "B": "Calculating standard costs for products",
+        "C": "Managing cash, liquidity and exposure to foreign exchange risk",
+        "D": "Preparing the payroll each month"
+      },
+      "correct": "C",
+      "explanation": "Treasury manages the organisation's cash and funding, including liquidity, borrowing, investing surplus funds and managing interest rate and foreign currency risks. Recording invoices and payroll are financial accounting and transaction processing tasks, and standard costing belongs to management accounting.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-btf-c04-q003",
+      "chapter": 4,
+      "topic": "The role of finance and the finance function",
+      "question_text": "Which of the following is a key objective of a system of internal control?",
+      "options": {
+        "A": "Safeguarding the assets of the business",
+        "B": "Guaranteeing that no fraud can occur",
+        "C": "Eliminating the need for an external audit",
+        "D": "Maximising reported profit"
+      },
+      "correct": "A",
+      "explanation": "Internal controls aim to safeguard assets, ensure the reliability of records, promote efficient operations and secure compliance with laws and policies. Controls give reasonable, not absolute, assurance, so they cannot guarantee that fraud will never happen, and they do not replace a statutory audit.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c04-q004",
+      "chapter": 4,
+      "topic": "The role of finance and the finance function",
+      "question_text": "A finance team moves from mainly producing historical reports to working alongside operational managers, providing analysis that helps them make commercial decisions. This describes the finance function acting as:",
+      "options": {
+        "A": "A scorekeeper",
+        "B": "An external auditor",
+        "C": "A business partner",
+        "D": "A transaction processing centre"
+      },
+      "correct": "C",
+      "explanation": "When finance acts as a business partner it uses its analytical skills to give insight, challenge and support to decision-makers. The scorekeeper role focuses on recording and reporting past performance, and transaction processing is routine work that is often automated or moved to shared service centres.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c04-q005",
+      "chapter": 4,
+      "topic": "The role of finance and the finance function",
+      "question_text": "A monthly sales report reaches the sales director two days after the meeting at which next month's discounts were set. Which quality of good information does the report most clearly lack?",
+      "options": {
+        "A": "Timeliness",
+        "B": "Accuracy",
+        "C": "Completeness",
+        "D": "Understandability"
+      },
+      "correct": "A",
+      "explanation": "Information must be available in time to influence the decision it is meant to support. The report may be accurate, complete and clear, but because it arrived after the decision was made it had no value for that decision.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-btf-c04-q006",
+      "chapter": 4,
+      "topic": "The role of finance and the finance function",
+      "question_text": "Which of the following illustrates appropriate segregation of duties in a purchasing system?",
+      "options": {
+        "A": "The person who authorises purchase orders does not also record supplier invoices or make payments",
+        "B": "One clerk raises orders, records invoices and signs cheques to save time",
+        "C": "The managing director approves every purchase personally regardless of value",
+        "D": "Supplier statements are reconciled by the clerk who makes the payments"
+      },
+      "correct": "A",
+      "explanation": "Segregation of duties divides authorisation, recording and custody of assets between different people, so that one person cannot both commit and conceal an error or fraud. Combining ordering, recording and payment in one person removes this check, as does having the payment clerk reconcile their own work.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c04-q007",
+      "chapter": 4,
+      "topic": "The role of finance and the finance function",
+      "question_text": "Which of the following is NOT a purpose of budgeting?",
+      "options": {
+        "A": "Coordinating the activities of different departments",
+        "B": "Communicating plans and targets to managers",
+        "C": "Guaranteeing that the planned profit will be achieved",
+        "D": "Providing a benchmark for controlling performance"
+      },
+      "correct": "C",
+      "explanation": "Budgets help plan, coordinate, communicate, control and motivate. A budget is a plan based on estimates; it cannot guarantee results, because actual conditions will differ from the assumptions made. Coordination, communication and control are core purposes.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c04-q008",
+      "chapter": 4,
+      "topic": "The role of finance and the finance function",
+      "question_text": "A business budgeted to sell 2,000 units at £25 each. It actually sold 1,800 units at £27 each. What is the total sales revenue variance?",
+      "options": {
+        "A": "£1,400 favourable",
+        "B": "£5,000 adverse",
+        "C": "£3,600 favourable",
+        "D": "£1,400 adverse"
+      },
+      "correct": "D",
+      "explanation": "Budgeted revenue = 2,000 x £25 = £50,000. Actual revenue = 1,800 x £27 = £48,600. Variance = £48,600 - £50,000 = £1,400, which is adverse because actual revenue is below budget. The higher price (+£2 x 1,800 = £3,600 favourable) did not fully offset the lower volume (200 x £25 = £5,000 adverse).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c04-q009",
+      "chapter": 4,
+      "topic": "The role of finance and the finance function",
+      "question_text": "A product sells for £15 per unit with a variable cost of £9 per unit. Fixed costs are £36,000 per period and budgeted sales are 8,000 units. What is the margin of safety as a percentage of budgeted sales?",
+      "options": {
+        "A": "25%",
+        "B": "33.3%",
+        "C": "75%",
+        "D": "20%"
+      },
+      "correct": "A",
+      "explanation": "Contribution per unit = £15 - £9 = £6. Breakeven = £36,000 / £6 = 6,000 units. Margin of safety = 8,000 - 6,000 = 2,000 units. As a percentage of budgeted sales: 2,000 / 8,000 = 25%. Dividing by breakeven sales gives 33.3%, which is the wrong base.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-btf-c04-q010",
+      "chapter": 4,
+      "topic": "The role of finance and the finance function",
+      "question_text": "Within the finance function, which team is usually responsible for setting customer credit limits and chasing overdue balances?",
+      "options": {
+        "A": "Credit control",
+        "B": "Treasury",
+        "C": "Management accounting",
+        "D": "Internal audit"
+      },
+      "correct": "A",
+      "explanation": "Credit control assesses customers' creditworthiness, sets credit limits and pursues late payments to protect cash flow and reduce bad debts. Treasury manages overall funding and liquidity, management accounting supports planning and decisions, and internal audit reviews controls independently.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-btf-c04-q011",
+      "chapter": 4,
+      "topic": "The role of finance and the finance function",
+      "question_text": "Annual financial statements are often described as a stewardship report. What does this mean?",
+      "options": {
+        "A": "They forecast the company's future cash flows for lenders",
+        "B": "They show how directors have used the resources entrusted to them by shareholders",
+        "C": "They are prepared by the external auditor on behalf of shareholders",
+        "D": "They report only on the company's environmental performance"
+      },
+      "correct": "B",
+      "explanation": "Stewardship refers to the accountability of directors (agents) to the shareholders (principals) whose resources they manage. Financial statements are prepared by the directors and report on past performance and position, allowing shareholders to assess that stewardship. The auditor reports on them but does not prepare them.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c05-q001",
+      "chapter": 5,
+      "topic": "The accountancy profession and assurance",
+      "question_text": "What is the main purpose of a statutory external audit of a company's financial statements?",
+      "options": {
+        "A": "To prepare the financial statements on behalf of the directors",
+        "B": "To guarantee that the company will remain a going concern",
+        "C": "To express an independent opinion on whether the financial statements give a true and fair view",
+        "D": "To detect every error and fraud within the company"
+      },
+      "correct": "C",
+      "explanation": "The external auditor gathers evidence and gives an independent opinion on whether the financial statements give a true and fair view in accordance with the applicable framework. The directors prepare the statements. An audit provides reasonable, not absolute, assurance and is not a guarantee of future survival or of finding every fraud.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-btf-c05-q002",
+      "chapter": 5,
+      "topic": "The accountancy profession and assurance",
+      "question_text": "Who has primary responsibility for preventing and detecting fraud in a company?",
+      "options": {
+        "A": "The directors and management",
+        "B": "The external auditor",
+        "C": "The shareholders",
+        "D": "The professional accountancy body"
+      },
+      "correct": "A",
+      "explanation": "The directors are responsible for running the company, including establishing internal controls designed to prevent and detect fraud. The external auditor plans the audit to obtain reasonable assurance that the statements are free from material misstatement, whether caused by fraud or error, but does not take on management's responsibility.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c05-q003",
+      "chapter": 5,
+      "topic": "The accountancy profession and assurance",
+      "question_text": "Many members of the public believe that an unmodified audit opinion means the company's accounts are completely free of error and the business is financially secure. What term describes this mismatch?",
+      "options": {
+        "A": "The materiality threshold",
+        "B": "Professional scepticism",
+        "C": "The agency problem",
+        "D": "The expectation gap"
+      },
+      "correct": "D",
+      "explanation": "The expectation gap is the difference between what users believe auditors do and what auditors actually do and are responsible for. Materiality is the threshold for misstatements that would influence users, scepticism is the auditor's questioning mindset, and the agency problem relates to directors and shareholders.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c05-q004",
+      "chapter": 5,
+      "topic": "The accountancy profession and assurance",
+      "question_text": "A practitioner performs a review of interim financial information and concludes: 'nothing has come to our attention that causes us to believe the information is materially misstated'. What level of assurance does this provide?",
+      "options": {
+        "A": "Reasonable assurance, expressed in positive form",
+        "B": "Absolute assurance, expressed in positive form",
+        "C": "Limited assurance, expressed in negative form",
+        "D": "No assurance, because it is a compilation engagement"
+      },
+      "correct": "C",
+      "explanation": "A review engagement involves fewer procedures than an audit and provides limited assurance, so the conclusion is worded negatively ('nothing has come to our attention'). An audit gives reasonable assurance with a positive opinion. Absolute assurance is never given, and a compilation provides no assurance and gives no such conclusion.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-btf-c05-q005",
+      "chapter": 5,
+      "topic": "The accountancy profession and assurance",
+      "question_text": "Which of the following is NOT normally a function of a professional accountancy body?",
+      "options": {
+        "A": "Setting the rates of corporation tax",
+        "B": "Setting ethical standards for members",
+        "C": "Investigating and disciplining members",
+        "D": "Requiring members to maintain their competence through CPD"
+      },
+      "correct": "A",
+      "explanation": "Professional bodies set entry standards, issue ethical codes, monitor and discipline members and require continuing professional development. Tax rates are set by government through legislation, not by professional bodies.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-btf-c05-q006",
+      "chapter": 5,
+      "topic": "The accountancy profession and assurance",
+      "question_text": "Why is the accountancy profession subject to regulation and oversight?",
+      "options": {
+        "A": "Because the public relies on the work of accountants, so quality must be protected in the public interest",
+        "B": "Because regulation guarantees that accountants will never make mistakes",
+        "C": "To ensure that accountancy fees are set at the same level for all firms",
+        "D": "To allow only the largest firms to perform audits"
+      },
+      "correct": "A",
+      "explanation": "Investors, lenders, governments and others rely on accounting and assurance work, so a defining feature of the profession is acceptance of a duty to act in the public interest. Regulation sets and enforces standards to maintain confidence. It reduces but cannot eliminate error, and it does not fix fees or restrict audit to large firms.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c05-q007",
+      "chapter": 5,
+      "topic": "The accountancy profession and assurance",
+      "question_text": "In money laundering, which stage involves moving funds through a complex series of transactions in order to disguise their criminal origin?",
+      "options": {
+        "A": "Placement",
+        "B": "Integration",
+        "C": "Structuring of the tax return",
+        "D": "Layering"
+      },
+      "correct": "D",
+      "explanation": "Money laundering is usually described in three stages. Placement introduces criminal cash into the financial system, layering obscures the audit trail through complex transfers, and integration returns the funds to the criminal as apparently legitimate wealth.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c05-q008",
+      "chapter": 5,
+      "topic": "The accountancy profession and assurance",
+      "question_text": "An accountant has reported a suspicion of money laundering about a client to the appropriate authority. The accountant then tells the client that a report has been made. What offence may the accountant have committed?",
+      "options": {
+        "A": "Failure to disclose",
+        "B": "Breach of confidentiality",
+        "C": "Insider dealing",
+        "D": "Tipping off"
+      },
+      "correct": "D",
+      "explanation": "Tipping off is disclosing information likely to prejudice an investigation, such as telling a suspect that a report has been made. Failure to disclose is not reporting a suspicion at all. Making a required report is a legal exception to confidentiality, and insider dealing relates to trading securities on inside information.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c05-q009",
+      "chapter": 5,
+      "topic": "The accountancy profession and assurance",
+      "question_text": "Which statement about internal audit is correct?",
+      "options": {
+        "A": "It is an appraisal activity established by management and usually reports to the audit committee",
+        "B": "It is required by law for every company and reports to shareholders",
+        "C": "It must be carried out by an independent external firm",
+        "D": "Its main purpose is to give an opinion on the true and fair view of the financial statements"
+      },
+      "correct": "A",
+      "explanation": "Internal audit is set up by the organisation to review risk management, controls and governance, and in good practice it reports to the audit committee to protect its independence. It is generally not a legal requirement, can be in-house or outsourced, and does not give the statutory true and fair opinion, which is the external auditor's role.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-btf-c05-q010",
+      "chapter": 5,
+      "topic": "The accountancy profession and assurance",
+      "question_text": "What is the main purpose of continuing professional development (CPD) for a qualified accountant?",
+      "options": {
+        "A": "To maintain and develop the professional competence needed to serve clients and employers",
+        "B": "To qualify the accountant to vote at the professional body's meetings",
+        "C": "To replace the need for practical experience",
+        "D": "To reduce the accountant's annual subscription"
+      },
+      "correct": "A",
+      "explanation": "Knowledge, standards and technology change continually, so CPD ensures members keep their skills current and continue to meet the principle of professional competence and due care. It is not linked to voting rights or subscription fees and complements, rather than replaces, practical experience.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-btf-c06-q001",
+      "chapter": 6,
+      "topic": "Corporate governance",
+      "question_text": "Agency theory in corporate governance is concerned with the relationship between which two parties?",
+      "options": {
+        "A": "Customers and suppliers",
+        "B": "Auditors and tax authorities",
+        "C": "Employees and trade unions",
+        "D": "Shareholders (principals) and directors (agents)"
+      },
+      "correct": "D",
+      "explanation": "In a company, shareholders own the business but appoint directors to run it. Agency theory recognises that directors may pursue their own interests rather than maximising shareholder wealth, and governance mechanisms aim to align these interests and monitor the agents.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-btf-c06-q002",
+      "chapter": 6,
+      "topic": "Corporate governance",
+      "question_text": "What is the main role of independent non-executive directors on a board?",
+      "options": {
+        "A": "To manage the day-to-day operations of the company",
+        "B": "To prepare the company's management accounts",
+        "C": "To represent the external auditors on the board",
+        "D": "To provide independent challenge and scrutiny of executive management"
+      },
+      "correct": "D",
+      "explanation": "Non-executive directors do not run the business day to day. Their value lies in bringing independent judgement, monitoring executive performance and challenging strategy. They usually staff the audit, remuneration and nomination committees.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-btf-c06-q003",
+      "chapter": 6,
+      "topic": "Corporate governance",
+      "question_text": "Why do governance codes generally recommend that the roles of board chair and chief executive should not be held by the same individual?",
+      "options": {
+        "A": "To reduce the total cost of directors' remuneration",
+        "B": "Because the chair must also be the finance director",
+        "C": "To avoid too much power being concentrated in one person",
+        "D": "Because the chief executive is legally barred from attending board meetings"
+      },
+      "correct": "C",
+      "explanation": "The chair leads the board and ensures its effectiveness, while the chief executive leads the business. Combining the roles concentrates power and weakens the board's ability to hold management to account. Separating them is a check and balance, not a cost-saving measure.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c06-q004",
+      "chapter": 6,
+      "topic": "Corporate governance",
+      "question_text": "Which of the following is typically a responsibility of the audit committee?",
+      "options": {
+        "A": "Setting the remuneration of executive directors",
+        "B": "Monitoring the integrity of the financial statements and overseeing the relationship with the external auditor",
+        "C": "Identifying and nominating new board members",
+        "D": "Approving the company's marketing strategy"
+      },
+      "correct": "B",
+      "explanation": "The audit committee, made up of independent non-executives, reviews financial reporting, internal controls and risk management, oversees internal audit and manages the external auditor relationship, including independence. Remuneration and board appointments belong to the remuneration and nomination committees.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c06-q005",
+      "chapter": 6,
+      "topic": "Corporate governance",
+      "question_text": "Why should executive directors not decide their own remuneration?",
+      "options": {
+        "A": "Because remuneration must be set by the external auditor",
+        "B": "Because executive pay must be identical to the average employee's pay",
+        "C": "Because shareholders must approve every individual salary payment",
+        "D": "Because of the conflict of interest, which is why a remuneration committee of independent non-executives should set it"
+      },
+      "correct": "D",
+      "explanation": "Directors setting their own pay face a clear conflict of interest. Governance codes therefore give this task to a remuneration committee of independent non-executive directors, often within a policy that shareholders vote on. Auditors play no part in setting pay.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c06-q006",
+      "chapter": 6,
+      "topic": "Corporate governance",
+      "question_text": "Under a 'comply or explain' approach to corporate governance, what must a listed company do if it does not follow a provision of the governance code?",
+      "options": {
+        "A": "Pay a fixed financial penalty to the regulator",
+        "B": "Delist its shares from the stock exchange",
+        "C": "Explain to shareholders why it has not complied and how it still achieves good governance",
+        "D": "Obtain a court order permitting the departure"
+      },
+      "correct": "C",
+      "explanation": "'Comply or explain' is a principles-based approach. Companies may depart from a provision if they consider it appropriate, but must give shareholders a clear explanation. Shareholders then judge whether the explanation is acceptable. There is no automatic penalty or court process.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c06-q007",
+      "chapter": 6,
+      "topic": "Corporate governance",
+      "question_text": "Which of the following would most seriously call into question the independence of a proposed non-executive director?",
+      "options": {
+        "A": "He holds a small number of the company's shares bought on the open market",
+        "B": "He is a non-executive director of an unrelated charity",
+        "C": "He was the company's finance director until two years ago",
+        "D": "He has thirty years of experience in the same industry"
+      },
+      "correct": "C",
+      "explanation": "Having recently been an employee or executive of the company creates a close relationship with current management and with past decisions, which governance codes treat as compromising independence. A small shareholding, an unrelated charity role and industry experience do not normally impair independence and the experience is valuable.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-btf-c06-q008",
+      "chapter": 6,
+      "topic": "Corporate governance",
+      "question_text": "Which of the following is a feature of a rules-based approach to corporate governance?",
+      "options": {
+        "A": "Companies may depart from requirements if they explain why",
+        "B": "Compliance is required by law, with legal sanctions for breaches",
+        "C": "It focuses on the spirit of good governance rather than detailed requirements",
+        "D": "It allows maximum flexibility for companies of different sizes"
+      },
+      "correct": "B",
+      "explanation": "A rules-based approach sets detailed requirements in law or regulation, and breaches carry penalties. It gives clarity but little flexibility and can encourage a box-ticking mindset. Explaining departures, focusing on the spirit of governance and flexibility are features of a principles-based approach.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c06-q009",
+      "chapter": 6,
+      "topic": "Corporate governance",
+      "question_text": "In an 'insider' system of corporate ownership, which of the following is typical?",
+      "options": {
+        "A": "Shares are widely held by many institutional and private investors",
+        "B": "Shares are largely held by a small number of families, banks or other companies",
+        "C": "Takeovers through the stock market are frequent",
+        "D": "There is a strong separation between ownership and control"
+      },
+      "correct": "B",
+      "explanation": "Insider systems are characterised by concentrated ownership, often by founding families, banks or cross-holdings between companies, so owners are closely involved in management. Wide dispersed share ownership, active takeover markets and separation of ownership and control are features of outsider systems.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-btf-c06-q010",
+      "chapter": 6,
+      "topic": "Corporate governance",
+      "question_text": "A company grants its executive directors share options that become valuable only if the share price rises above a set level over several years. What governance aim does this support?",
+      "options": {
+        "A": "Independence of the external auditor",
+        "B": "Segregation of duties in the finance function",
+        "C": "Diversity of the board",
+        "D": "Goal congruence between directors and shareholders"
+      },
+      "correct": "D",
+      "explanation": "Goal congruence means individuals' goals are aligned with those of the organisation and its owners. Share options that pay out only if the share price rises encourage directors to increase shareholder wealth over the longer term. However, poorly designed options can encourage short-term manipulation, so performance conditions matter.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c06-q011",
+      "chapter": 6,
+      "topic": "Corporate governance",
+      "question_text": "Who has overall responsibility for a company's system of risk management and internal control?",
+      "options": {
+        "A": "The external auditor",
+        "B": "The board of directors",
+        "C": "The internal audit department",
+        "D": "The shareholders in general meeting"
+      },
+      "correct": "B",
+      "explanation": "The board is ultimately responsible for setting risk appetite and ensuring that sound risk management and internal control systems are in place, often delegating monitoring to the audit committee. Internal audit gives assurance on those systems, and the external auditor considers controls only as part of the audit.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c07-q001",
+      "chapter": 7,
+      "topic": "Sustainability, corporate responsibility and ethics",
+      "question_text": "The 'triple bottom line' requires an organisation to report on its performance in which three areas?",
+      "options": {
+        "A": "Revenue, costs and profit",
+        "B": "Economic, social and environmental",
+        "C": "Assets, liabilities and equity",
+        "D": "Customers, suppliers and employees"
+      },
+      "correct": "B",
+      "explanation": "The triple bottom line, often summarised as profit, people and planet, extends performance measurement beyond financial results to social and environmental impacts. The other options describe financial statement elements or groups of stakeholders.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-btf-c07-q002",
+      "chapter": 7,
+      "topic": "Sustainability, corporate responsibility and ethics",
+      "question_text": "Which of the following best describes sustainable development?",
+      "options": {
+        "A": "Growth that maximises profit in the current year",
+        "B": "Avoiding all use of non-renewable resources immediately",
+        "C": "Development that is funded entirely by government grants",
+        "D": "Development that meets the needs of the present without compromising the ability of future generations to meet their own needs"
+      },
+      "correct": "D",
+      "explanation": "This widely used definition stresses a balance between meeting today's needs and preserving resources and the environment for the future. Sustainability does not mean maximising short-term profit, nor does it require an immediate end to all use of non-renewable resources.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-btf-c07-q003",
+      "chapter": 7,
+      "topic": "Sustainability, corporate responsibility and ethics",
+      "question_text": "In Carroll's pyramid of corporate social responsibility, which responsibility forms the base on which the others rest?",
+      "options": {
+        "A": "Legal responsibilities",
+        "B": "Economic responsibilities",
+        "C": "Ethical responsibilities",
+        "D": "Philanthropic responsibilities"
+      },
+      "correct": "B",
+      "explanation": "Carroll places economic responsibilities (to be profitable and provide goods, services and jobs) at the base, followed by legal, ethical and finally philanthropic responsibilities at the top. A business that cannot survive economically cannot fulfil its other responsibilities.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c07-q004",
+      "chapter": 7,
+      "topic": "Sustainability, corporate responsibility and ethics",
+      "question_text": "A company advertises its products as 'eco-friendly' while making only trivial environmental changes that are not supported by evidence. What is this practice called?",
+      "options": {
+        "A": "Carbon offsetting",
+        "B": "Greenwashing",
+        "C": "Integrated reporting",
+        "D": "Environmental auditing"
+      },
+      "correct": "B",
+      "explanation": "Greenwashing is presenting a misleading picture of environmental credentials to win customer or investor approval. It damages trust and may breach advertising or consumer protection rules. Carbon offsetting, integrated reporting and environmental audits are genuine activities, although they can be misused.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-btf-c07-q005",
+      "chapter": 7,
+      "topic": "Sustainability, corporate responsibility and ethics",
+      "question_text": "An accountant preparing a valuation for a client discovers that her spouse holds a significant number of shares in that client. Which threat to compliance with the fundamental principles arises?",
+      "options": {
+        "A": "Self-review threat",
+        "B": "Advocacy threat",
+        "C": "Intimidation threat",
+        "D": "Self-interest threat"
+      },
+      "correct": "D",
+      "explanation": "A self-interest threat arises when a financial or other interest, including that of a close family member, could inappropriately influence judgement. The spouse's shareholding gives the accountant an interest in the outcome, threatening objectivity. Safeguards might include removing her from the engagement.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c07-q006",
+      "chapter": 7,
+      "topic": "Sustainability, corporate responsibility and ethics",
+      "question_text": "A firm prepares a client's accounting records and then carries out the audit of the financial statements based on those records. Which threat is most significant?",
+      "options": {
+        "A": "Familiarity threat",
+        "B": "Self-review threat",
+        "C": "Self-interest threat",
+        "D": "Advocacy threat"
+      },
+      "correct": "B",
+      "explanation": "A self-review threat arises when a professional evaluates work that they or their firm performed earlier, as they are less likely to identify their own errors. Auditing records the firm itself prepared is the classic example.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c07-q007",
+      "chapter": 7,
+      "topic": "Sustainability, corporate responsibility and ethics",
+      "question_text": "An accountant represents a client in a dispute with the tax authority, actively promoting the client's position. Which threat to objectivity arises?",
+      "options": {
+        "A": "Self-review threat",
+        "B": "Advocacy threat",
+        "C": "Familiarity threat",
+        "D": "Self-interest threat"
+      },
+      "correct": "B",
+      "explanation": "An advocacy threat arises when a professional promotes a client's or employer's position to the point that their objectivity is compromised. Representing a client in a dispute is a typical example.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c07-q008",
+      "chapter": 7,
+      "topic": "Sustainability, corporate responsibility and ethics",
+      "question_text": "A senior manager has worked on the same client for twelve years and has become close friends with its finance director. Which threat to objectivity is most likely?",
+      "options": {
+        "A": "Advocacy threat",
+        "B": "Self-review threat",
+        "C": "Familiarity threat",
+        "D": "Intimidation threat"
+      },
+      "correct": "C",
+      "explanation": "Long association and close personal relationships create a familiarity threat, because the professional may become too sympathetic to the client and too accepting of its work. Rotation of senior staff is a common safeguard.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-btf-c07-q009",
+      "chapter": 7,
+      "topic": "Sustainability, corporate responsibility and ethics",
+      "question_text": "A newly qualified accountant is asked to advise on a complex overseas tax matter of which he has no experience, and accepts without seeking help. Which fundamental principle is he most at risk of breaching?",
+      "options": {
+        "A": "Confidentiality",
+        "B": "Integrity",
+        "C": "Professional competence and due care",
+        "D": "Objectivity"
+      },
+      "correct": "C",
+      "explanation": "Professional competence and due care requires members to have and maintain the knowledge and skill needed for the work they undertake and to act diligently. Accepting work beyond one's competence without obtaining supervision or expert help breaches this principle.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c07-q010",
+      "chapter": 7,
+      "topic": "Sustainability, corporate responsibility and ethics",
+      "question_text": "In which situation is an accountant permitted, or required, to disclose confidential client information without the client's consent?",
+      "options": {
+        "A": "When a potential new client asks for a reference about the existing client's finances",
+        "B": "When the information would help the accountant's own investments",
+        "C": "When a journalist requests the information for a news story",
+        "D": "When disclosure is required by law, such as reporting a suspicion of money laundering"
+      },
+      "correct": "D",
+      "explanation": "Confidentiality may be overridden where disclosure is required by law (for example anti-money laundering reporting), permitted by law and authorised by the client, or where there is a professional duty or right to disclose. Disclosure to third parties for their convenience or for personal advantage is never acceptable.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-btf-c07-q011",
+      "chapter": 7,
+      "topic": "Sustainability, corporate responsibility and ethics",
+      "question_text": "A company reports its greenhouse gas emissions using the Scope 1, 2 and 3 categories. Emissions from generating the electricity it buys for its offices fall into which category?",
+      "options": {
+        "A": "Scope 1",
+        "B": "Scope 3",
+        "C": "Scope 2",
+        "D": "They are excluded from reporting"
+      },
+      "correct": "C",
+      "explanation": "Scope 1 covers direct emissions from sources the company owns or controls, such as its own vehicles and boilers. Scope 2 covers indirect emissions from purchased electricity, heat or steam. Scope 3 covers other indirect emissions across the value chain, such as purchased goods and customers' use of products.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-btf-c08-q001",
+      "chapter": 8,
+      "topic": "The external environment: macroeconomics",
+      "question_text": "A company identifies that the population of its main market is ageing rapidly. In a PESTEL analysis, which category does this factor belong to?",
+      "options": {
+        "A": "Political",
+        "B": "Economic",
+        "C": "Social",
+        "D": "Technological"
+      },
+      "correct": "C",
+      "explanation": "Demographic changes such as age structure, population size and lifestyle trends are social (socio-cultural) factors. They affect demand patterns and the supply of labour. Political, economic and technological factors relate to government, the economy and innovation respectively.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-btf-c08-q002",
+      "chapter": 8,
+      "topic": "The external environment: macroeconomics",
+      "question_text": "A central bank raises interest rates. Which policy is this and what is its usual aim?",
+      "options": {
+        "A": "Fiscal policy, aiming to reduce inflation",
+        "B": "Monetary policy, aiming to increase consumer spending",
+        "C": "Supply-side policy, aiming to increase productive capacity",
+        "D": "Monetary policy, aiming to reduce inflation"
+      },
+      "correct": "D",
+      "explanation": "Monetary policy concerns interest rates and the money supply. Higher interest rates make borrowing more expensive and saving more attractive, reducing spending and therefore inflationary pressure. Fiscal policy concerns government spending and taxation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-btf-c08-q003",
+      "chapter": 8,
+      "topic": "The external environment: macroeconomics",
+      "question_text": "A government increases public spending and reduces income tax at the same time. This is an example of:",
+      "options": {
+        "A": "Contractionary fiscal policy",
+        "B": "Expansionary fiscal policy",
+        "C": "Expansionary monetary policy",
+        "D": "Contractionary monetary policy"
+      },
+      "correct": "B",
+      "explanation": "Fiscal policy uses government spending and taxation. Increasing spending and cutting taxes both inject demand into the economy, so the stance is expansionary. It is often used in a downturn to boost output and employment.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-btf-c08-q004",
+      "chapter": 8,
+      "topic": "The external environment: macroeconomics",
+      "question_text": "A sharp rise in world oil prices increases businesses' production and transport costs, and they pass these on as higher prices. What type of inflation is this?",
+      "options": {
+        "A": "Demand-pull inflation",
+        "B": "Imported deflation",
+        "C": "Structural unemployment",
+        "D": "Cost-push inflation"
+      },
+      "correct": "D",
+      "explanation": "Cost-push inflation occurs when rising input costs, such as energy, raw materials or wages, push up prices. Demand-pull inflation occurs when aggregate demand exceeds the economy's capacity to supply.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c08-q005",
+      "chapter": 8,
+      "topic": "The external environment: macroeconomics",
+      "question_text": "A country's nominal GDP rises from £800 billion to £864 billion over a year in which the general price level rises by 5%. What is the real growth in GDP, to one decimal place, using the exact method?",
+      "options": {
+        "A": "3.0%",
+        "B": "2.9%",
+        "C": "8.0%",
+        "D": "13.0%"
+      },
+      "correct": "B",
+      "explanation": "Nominal growth = £864bn / £800bn = 1.08, or 8.0%. Real growth = 1.08 / 1.05 - 1 = 1.02857 - 1 = 2.857%, which is 2.9% to one decimal place. Simply subtracting inflation (8% - 5% = 3.0%) is only an approximation, and 8.0% ignores inflation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-btf-c08-q006",
+      "chapter": 8,
+      "topic": "The external environment: macroeconomics",
+      "question_text": "Automation in a manufacturing region leads to job losses among workers whose skills are no longer in demand, even though vacancies exist elsewhere in the economy. What type of unemployment is this?",
+      "options": {
+        "A": "Cyclical unemployment",
+        "B": "Frictional unemployment",
+        "C": "Structural unemployment",
+        "D": "Seasonal unemployment"
+      },
+      "correct": "C",
+      "explanation": "Structural unemployment results from long-term changes in the structure of the economy, such as new technology or the decline of an industry, leaving a mismatch between workers' skills or location and available jobs. Cyclical unemployment results from a general fall in demand, frictional from people moving between jobs, and seasonal from regular variations in demand.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c08-q007",
+      "chapter": 8,
+      "topic": "The external environment: macroeconomics",
+      "question_text": "Which of the following is a typical feature of the recession phase of the business cycle?",
+      "options": {
+        "A": "Falling output and rising unemployment",
+        "B": "Rising output and falling unemployment",
+        "C": "Rapidly rising inflation and labour shortages",
+        "D": "High business confidence and rising investment"
+      },
+      "correct": "A",
+      "explanation": "In a recession, aggregate demand and output fall, businesses cut investment and staff, and unemployment rises. Rising output, labour shortages and high confidence are features of the expansion or boom phases.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-btf-c08-q008",
+      "chapter": 8,
+      "topic": "The external environment: macroeconomics",
+      "question_text": "If sterling appreciates against other currencies, what is the most likely effect on UK businesses?",
+      "options": {
+        "A": "UK exports become cheaper for overseas buyers, while imports become more expensive",
+        "B": "Both exports and imports become more expensive",
+        "C": "There is no effect on the price competitiveness of exports",
+        "D": "UK exports become more expensive for overseas buyers, while imports become cheaper"
+      },
+      "correct": "D",
+      "explanation": "When sterling strengthens, overseas buyers need more of their own currency to buy each pound, so UK exports become more expensive to them and less competitive. Conversely, each pound buys more foreign currency, so imports become cheaper for UK buyers.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c08-q009",
+      "chapter": 8,
+      "topic": "The external environment: macroeconomics",
+      "question_text": "A UK exporter invoices a customer €46,000. When the sale is made the exchange rate is €1.15 = £1, but by the time payment is received it is €1.25 = £1. By how much has the sterling value of the receipt changed?",
+      "options": {
+        "A": "Increased by £3,200",
+        "B": "Decreased by £4,600",
+        "C": "Decreased by £3,200",
+        "D": "Decreased by £2,875"
+      },
+      "correct": "C",
+      "explanation": "At the sale date: €46,000 / 1.15 = £40,000. At payment: €46,000 / 1.25 = £36,800. Change = £36,800 - £40,000 = £3,200 decrease. The pound has strengthened, so each euro is worth fewer pounds. Multiplying by the rates instead of dividing gives wrong answers.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-btf-c08-q010",
+      "chapter": 8,
+      "topic": "The external environment: macroeconomics",
+      "question_text": "Which of the following is recorded in the current account of a country's balance of payments?",
+      "options": {
+        "A": "Purchases of overseas factories by domestic companies",
+        "B": "Exports and imports of goods and services",
+        "C": "Purchases of foreign government bonds by domestic investors",
+        "D": "Changes in the central bank's foreign currency reserves"
+      },
+      "correct": "B",
+      "explanation": "The current account records trade in goods and services together with primary income (such as investment income) and secondary income (transfers). Direct and portfolio investment flows, such as buying factories or bonds abroad, and changes in reserves belong to the financial account.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-btf-c08-q011",
+      "chapter": 8,
+      "topic": "The external environment: macroeconomics",
+      "question_text": "Which of the following is an example of a supply-side policy?",
+      "options": {
+        "A": "Funding training schemes to improve workforce skills",
+        "B": "Cutting interest rates to encourage borrowing",
+        "C": "Raising government spending on welfare benefits",
+        "D": "Printing money to finance government spending"
+      },
+      "correct": "A",
+      "explanation": "Supply-side policies aim to increase the economy's productive capacity, for example through education and training, deregulation, incentives to invest and labour market reforms. Cutting interest rates and printing money are monetary measures, and higher welfare spending is a fiscal demand-side measure.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c09-q001",
+      "chapter": 9,
+      "topic": "Markets, competition and regulation",
+      "question_text": "For a normal good, what is the effect of an increase in consumers' incomes?",
+      "options": {
+        "A": "There is a movement up along the existing demand curve",
+        "B": "The supply curve shifts to the left",
+        "C": "The demand curve shifts to the left",
+        "D": "The demand curve shifts to the right"
+      },
+      "correct": "D",
+      "explanation": "For a normal good, higher income means consumers want to buy more at every price, so the whole demand curve shifts to the right. A movement along the curve happens only when the good's own price changes. For an inferior good, demand would fall as incomes rise.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-btf-c09-q002",
+      "chapter": 9,
+      "topic": "Markets, competition and regulation",
+      "question_text": "A company raises the price of its product from £20 to £22, and the quantity sold falls from 5,000 units to 4,400 units. Which statement is correct?",
+      "options": {
+        "A": "Demand is price inelastic (PED of 0.83) and total revenue rises",
+        "B": "Demand is price elastic (PED of 1.2) and total revenue rises by £3,200",
+        "C": "Demand is price inelastic (PED of 0.83) and total revenue falls by £3,200",
+        "D": "Demand is price elastic (PED of 1.2) and total revenue falls by £3,200"
+      },
+      "correct": "D",
+      "explanation": "Percentage change in price = 2 / 20 = 10%. Percentage change in quantity = 600 / 5,000 = 12%. PED = 12% / 10% = 1.2 (ignoring the negative sign), so demand is elastic. Revenue before = 5,000 x £20 = £100,000; after = 4,400 x £22 = £96,800, a fall of £3,200. When demand is elastic, a price rise reduces revenue.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-btf-c09-q003",
+      "chapter": 9,
+      "topic": "Markets, competition and regulation",
+      "question_text": "The cross elasticity of demand between two products is positive. What does this indicate?",
+      "options": {
+        "A": "The products are substitutes",
+        "B": "The products are complements",
+        "C": "Both products are inferior goods",
+        "D": "Demand for both products is price inelastic"
+      },
+      "correct": "A",
+      "explanation": "Cross elasticity measures how demand for one good responds to a change in the price of another. A positive figure means a rise in the price of one increases demand for the other, which is the case for substitutes. Complements have negative cross elasticity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c09-q004",
+      "chapter": 9,
+      "topic": "Markets, competition and regulation",
+      "question_text": "Which of the following is a feature of a perfectly competitive market?",
+      "options": {
+        "A": "There are high barriers to entry",
+        "B": "Each firm sells a differentiated, branded product",
+        "C": "A few large firms dominate the market",
+        "D": "Individual firms are price takers"
+      },
+      "correct": "D",
+      "explanation": "In perfect competition there are many buyers and sellers, products are identical, information is perfect and there are no barriers to entry. Each firm is so small that it must accept the market price. High barriers indicate monopoly, differentiation indicates monopolistic competition, and a few dominant firms indicate oligopoly.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-btf-c09-q005",
+      "chapter": 9,
+      "topic": "Markets, competition and regulation",
+      "question_text": "Which feature allows a monopoly to earn abnormal profits in the long run?",
+      "options": {
+        "A": "Barriers that prevent new firms from entering the market",
+        "B": "A large number of competing suppliers",
+        "C": "Perfect information available to all customers",
+        "D": "A perfectly elastic demand curve"
+      },
+      "correct": "A",
+      "explanation": "Abnormal profits normally attract new entrants, which competes them away. A monopoly can sustain them because barriers to entry, such as patents, economies of scale, control of resources or legal licences, keep competitors out. A perfectly elastic demand curve is a feature of perfect competition.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-btf-c09-q006",
+      "chapter": 9,
+      "topic": "Markets, competition and regulation",
+      "question_text": "In an oligopoly, prices often remain stable even when costs change. Which feature of oligopoly best explains this?",
+      "options": {
+        "A": "Each firm is a price taker in the market",
+        "B": "There are no barriers to entry",
+        "C": "Interdependence: each firm expects rivals to match price cuts but not price rises",
+        "D": "Firms sell identical products to fully informed buyers"
+      },
+      "correct": "C",
+      "explanation": "In an oligopoly a few firms dominate and must consider rivals' reactions. If a firm cuts its price, rivals follow to protect market share; if it raises price, rivals do not follow and it loses customers. This kinked demand curve encourages price stability and non-price competition.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-btf-c09-q007",
+      "chapter": 9,
+      "topic": "Markets, competition and regulation",
+      "question_text": "Using Porter's five forces, which of the following would reduce the threat of new entrants into an industry?",
+      "options": {
+        "A": "Low switching costs for customers",
+        "B": "Products that are easy to copy",
+        "C": "Very high capital investment required to start operating",
+        "D": "Easy access to distribution channels"
+      },
+      "correct": "C",
+      "explanation": "High capital requirements are a barrier to entry, deterring new competitors and protecting the profitability of existing firms. Low switching costs, easily copied products and easy access to distribution all make entry easier.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c09-q008",
+      "chapter": 9,
+      "topic": "Markets, competition and regulation",
+      "question_text": "What is the main purpose of competition authorities?",
+      "options": {
+        "A": "To fix the prices charged by all private businesses",
+        "B": "To ensure that every market has a single dominant supplier",
+        "C": "To collect corporation tax from large companies",
+        "D": "To prevent anti-competitive behaviour such as cartels and abuse of a dominant position"
+      },
+      "correct": "D",
+      "explanation": "Competition authorities protect consumers and the efficient working of markets by investigating cartels, abuse of dominant positions and mergers that could substantially reduce competition. They do not set prices generally or collect taxes.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c09-q009",
+      "chapter": 9,
+      "topic": "Markets, competition and regulation",
+      "question_text": "A factory releases pollution into a river, harming local fishing businesses that are not compensated. What is this an example of, and what is a common government response?",
+      "options": {
+        "A": "A negative externality, which may be addressed by taxing the polluter",
+        "B": "A positive externality, which may be addressed by subsidising the factory",
+        "C": "A public good, which may be addressed by state provision",
+        "D": "A price ceiling, which may be addressed by removing regulation"
+      },
+      "correct": "A",
+      "explanation": "A negative externality is a cost imposed on third parties that is not reflected in the producer's costs, so the good is overproduced. Taxes, fines or regulation make the polluter bear the cost ('polluter pays'). Subsidies are used to encourage activities with positive externalities.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c09-q010",
+      "chapter": 9,
+      "topic": "Markets, competition and regulation",
+      "question_text": "A government sets a legal maximum rent below the market equilibrium rent. What is the most likely result?",
+      "options": {
+        "A": "A surplus of rented housing, as supply exceeds demand",
+        "B": "A shortage of rented housing, as demand exceeds supply",
+        "C": "No effect on the rental market",
+        "D": "A rise in the market rent above equilibrium"
+      },
+      "correct": "B",
+      "explanation": "A maximum price set below equilibrium is binding: at the lower price, more people want to rent but landlords are willing to supply fewer properties, creating excess demand (a shortage). Waiting lists or informal markets may develop.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c09-q011",
+      "chapter": 9,
+      "topic": "Markets, competition and regulation",
+      "question_text": "Under data protection principles, an online retailer asks customers for their date of birth, occupation and household income simply to deliver a parcel. Which principle is most clearly being breached?",
+      "options": {
+        "A": "Accuracy",
+        "B": "Data minimisation",
+        "C": "Storage limitation",
+        "D": "Integrity and confidentiality"
+      },
+      "correct": "B",
+      "explanation": "Data minimisation requires that personal data collected should be adequate, relevant and limited to what is necessary for the purpose. Delivering a parcel needs a name and address, not age, occupation or income. Accuracy concerns keeping data correct, storage limitation concerns not keeping data longer than needed, and integrity and confidentiality concern security.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-btf-c10-q001",
+      "chapter": 10,
+      "topic": "Digital transformation and data analytics",
+      "question_text": "In the context of big data, what does 'velocity' refer to?",
+      "options": {
+        "A": "The total quantity of data held",
+        "B": "The range of different data types and sources",
+        "C": "The speed at which data is generated and must be processed",
+        "D": "The reliability and accuracy of the data"
+      },
+      "correct": "C",
+      "explanation": "Big data is often described by the Vs: volume (quantity), velocity (speed of generation and processing), variety (different formats and sources) and veracity (trustworthiness). Real-time payment or sensor data is a typical example of high velocity.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-btf-c10-q002",
+      "chapter": 10,
+      "topic": "Digital transformation and data analytics",
+      "question_text": "A retailer uses historical sales and weather data to estimate how many units of each product it is likely to sell next month. Which type of data analytics is this?",
+      "options": {
+        "A": "Descriptive analytics",
+        "B": "Diagnostic analytics",
+        "C": "Prescriptive analytics",
+        "D": "Predictive analytics"
+      },
+      "correct": "D",
+      "explanation": "Descriptive analytics reports what happened, diagnostic explains why it happened, predictive estimates what is likely to happen, and prescriptive recommends what action to take. Forecasting next month's sales is predictive.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c10-q003",
+      "chapter": 10,
+      "topic": "Digital transformation and data analytics",
+      "question_text": "A delivery company's software analyses traffic, order and fuel data and recommends the optimal route for each driver. Which type of analytics is this?",
+      "options": {
+        "A": "Prescriptive analytics",
+        "B": "Predictive analytics",
+        "C": "Descriptive analytics",
+        "D": "Diagnostic analytics"
+      },
+      "correct": "A",
+      "explanation": "Prescriptive analytics goes beyond forecasting to recommend the best course of action, often using optimisation models. Recommending routes is prescriptive, although it will use predictive estimates of travel times as an input.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-btf-c10-q004",
+      "chapter": 10,
+      "topic": "Digital transformation and data analytics",
+      "question_text": "Which of the following is an example of unstructured data?",
+      "options": {
+        "A": "A spreadsheet of invoice numbers and amounts",
+        "B": "A database table of employee payroll records",
+        "C": "A general ledger trial balance",
+        "D": "Customer emails and recorded phone calls"
+      },
+      "correct": "D",
+      "explanation": "Structured data fits neatly into predefined fields and tables, such as ledgers and payroll records. Unstructured data, such as free text, audio, images and video, has no predefined model and needs more advanced techniques to analyse.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-btf-c10-q005",
+      "chapter": 10,
+      "topic": "Digital transformation and data analytics",
+      "question_text": "A small firm subscribes to accounting software that it accesses through a web browser. The provider hosts, maintains and updates the software. Which cloud service model is this?",
+      "options": {
+        "A": "Infrastructure as a Service (IaaS)",
+        "B": "Software as a Service (SaaS)",
+        "C": "Platform as a Service (PaaS)",
+        "D": "On-premises software"
+      },
+      "correct": "B",
+      "explanation": "With SaaS the provider delivers a complete application over the internet and manages the infrastructure and updates. IaaS provides only computing resources such as servers and storage, and PaaS provides a platform for developing and running the customer's own applications.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-btf-c10-q006",
+      "chapter": 10,
+      "topic": "Digital transformation and data analytics",
+      "question_text": "Which of the following is a key financial benefit to a business of moving its IT systems to the cloud?",
+      "options": {
+        "A": "All data security risks are eliminated",
+        "B": "Capacity can be scaled up or down as needed, with costs moving from capital expenditure to operating expenditure",
+        "C": "The business no longer depends on internet connectivity",
+        "D": "The business gains full physical control over the servers"
+      },
+      "correct": "B",
+      "explanation": "Cloud services let businesses pay for what they use and scale capacity quickly, replacing large upfront investment in hardware with ongoing subscription costs. However, security risks remain, connectivity becomes essential, and physical control of the servers passes to the provider.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c10-q007",
+      "chapter": 10,
+      "topic": "Digital transformation and data analytics",
+      "question_text": "A shop records daily online orders over a week as: 12, 15, 9, 22, 15, 30, 11. Which statement is correct (to one decimal place)?",
+      "options": {
+        "A": "Mean 15.0 and median 16.3",
+        "B": "Mean 16.3 and median 22.0",
+        "C": "Mean 19.5 and median 15.0",
+        "D": "Mean 16.3 and median 15.0"
+      },
+      "correct": "D",
+      "explanation": "Sum = 12 + 15 + 9 + 22 + 15 + 30 + 11 = 114, so mean = 114 / 7 = 16.29, or 16.3 to one decimal place. Sorted: 9, 11, 12, 15, 15, 22, 30, so the median (fourth value) is 15. The median of 22 comes from not sorting the data first, and 19.5 is the midpoint of the highest and lowest values, (9 + 30) / 2.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c10-q008",
+      "chapter": 10,
+      "topic": "Digital transformation and data analytics",
+      "question_text": "A company's analytics dashboard produces misleading results because customer records contain duplicates, missing postcodes and inconsistent date formats. Which activity should be carried out before analysis?",
+      "options": {
+        "A": "Data visualisation",
+        "B": "Data cleansing",
+        "C": "Data encryption",
+        "D": "Data archiving"
+      },
+      "correct": "B",
+      "explanation": "Data cleansing identifies and corrects errors, duplicates, gaps and inconsistencies so that analysis is based on reliable data ('garbage in, garbage out'). Visualisation presents data, encryption protects it, and archiving stores old data; none of these fixes poor quality.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c10-q009",
+      "chapter": 10,
+      "topic": "Digital transformation and data analytics",
+      "question_text": "Which of the following best describes digital transformation?",
+      "options": {
+        "A": "Using digital technology to fundamentally change how an organisation operates and creates value for customers",
+        "B": "Scanning paper documents to create electronic copies",
+        "C": "Purchasing new computers for all staff",
+        "D": "Replacing a manual spreadsheet with an identical electronic one"
+      },
+      "correct": "A",
+      "explanation": "Digitisation converts information into digital form, and digitalisation uses digital tools to improve existing processes. Digital transformation is broader: it rethinks business models, processes, culture and customer experience using technology. Scanning documents or buying hardware is not transformation in itself.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c10-q010",
+      "chapter": 10,
+      "topic": "Digital transformation and data analytics",
+      "question_text": "Which type of task is best suited to robotic process automation (RPA)?",
+      "options": {
+        "A": "High-volume, repetitive, rule-based tasks such as matching invoices to purchase orders",
+        "B": "Negotiating complex contracts with new suppliers",
+        "C": "Setting the organisation's long-term strategy",
+        "D": "Handling sensitive personnel disciplinary interviews"
+      },
+      "correct": "A",
+      "explanation": "RPA uses software 'bots' to mimic the actions a person takes on a computer, following fixed rules on structured data. It is ideal for repetitive, high-volume processes. Tasks requiring judgement, negotiation or empathy are not suitable.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c10-q011",
+      "chapter": 10,
+      "topic": "Digital transformation and data analytics",
+      "question_text": "An analyst finds a correlation coefficient of -0.85 between the number of days of staff training per year and the number of processing errors in a department. Which conclusion is appropriate?",
+      "options": {
+        "A": "There is a weak negative relationship between training and errors",
+        "B": "There is a strong negative relationship, but it does not by itself prove that training causes fewer errors",
+        "C": "Training is proven to cause a reduction in errors",
+        "D": "There is a strong positive relationship, so more training leads to more errors"
+      },
+      "correct": "B",
+      "explanation": "A coefficient of -0.85 is close to -1, indicating a strong negative linear relationship: departments with more training tend to have fewer errors. Correlation does not establish causation, however, because other factors (such as experience or better systems) might explain both. A positive relationship would require a positive coefficient.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-btf-c11-q001",
+      "chapter": 11,
+      "topic": "Emerging technology and cyber security",
+      "question_text": "Which of the following best describes machine learning?",
+      "options": {
+        "A": "A program that follows only fixed instructions written for every possible situation",
+        "B": "A physical robot that performs manufacturing tasks",
+        "C": "A method of storing data across multiple locations",
+        "D": "A form of artificial intelligence in which systems improve their performance by learning patterns from data"
+      },
+      "correct": "D",
+      "explanation": "Machine learning is a branch of artificial intelligence in which algorithms are trained on data to identify patterns and make predictions without being explicitly programmed with every rule. Rule-following programs are conventional software, and a distributed store of data is closer to cloud or distributed ledger technology.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-btf-c11-q002",
+      "chapter": 11,
+      "topic": "Emerging technology and cyber security",
+      "question_text": "A generative AI tool produces a confident, well-written summary of an accounting standard that includes a requirement that does not exist. What is this risk commonly called?",
+      "options": {
+        "A": "Overfitting",
+        "B": "Hallucination",
+        "C": "Encryption failure",
+        "D": "Phishing"
+      },
+      "correct": "B",
+      "explanation": "Generative AI models produce plausible text based on patterns, and can invent facts, references or requirements that sound convincing. This is known as hallucination, which is why outputs must be checked by a competent professional before being relied on.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c11-q003",
+      "chapter": 11,
+      "topic": "Emerging technology and cyber security",
+      "question_text": "Which feature of a blockchain makes it very difficult to alter a transaction once it has been recorded?",
+      "options": {
+        "A": "Each block is linked to the previous one by a cryptographic hash, and copies of the ledger are held and validated across a network",
+        "B": "The ledger is held on a single secure central server",
+        "C": "Transactions can be edited by any participant without approval",
+        "D": "Data is deleted once each transaction is completed"
+      },
+      "correct": "A",
+      "explanation": "A blockchain is a distributed ledger: many participants hold copies, new blocks are added by consensus, and each block contains a hash of the previous block. Altering an old record would change its hash and break the chain, which the rest of the network would reject.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c11-q004",
+      "chapter": 11,
+      "topic": "Emerging technology and cyber security",
+      "question_text": "What is a smart contract in the context of blockchain?",
+      "options": {
+        "A": "Computer code that automatically executes agreed actions when specified conditions are met",
+        "B": "A written contract drafted with the help of a lawyer and stored as a PDF",
+        "C": "A contract that can be cancelled by either party at any time",
+        "D": "An insurance policy covering cyber attacks"
+      },
+      "correct": "A",
+      "explanation": "A smart contract is self-executing code stored on a blockchain. For example, payment can be released automatically when a delivery is confirmed. This reduces the need for intermediaries, although the code must be correctly written.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c11-q005",
+      "chapter": 11,
+      "topic": "Emerging technology and cyber security",
+      "question_text": "A company records supplier deliveries on a blockchain. Which risk does the blockchain NOT remove?",
+      "options": {
+        "A": "That a recorded transaction is later secretly altered",
+        "B": "That the information originally entered was inaccurate",
+        "C": "That a single party unilaterally rewrites the ledger",
+        "D": "That there is no shared record of transactions between parties"
+      },
+      "correct": "B",
+      "explanation": "A blockchain makes recorded data very hard to change and provides a shared record, but it cannot verify that what was entered reflects reality. If a delivery is recorded incorrectly at the outset, the error is permanently recorded. Controls over data input and verification are still required.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-btf-c11-q006",
+      "chapter": 11,
+      "topic": "Emerging technology and cyber security",
+      "question_text": "An employee receives an email, appearing to come from the company's bank, asking her to click a link and confirm her login details. What type of attack is this?",
+      "options": {
+        "A": "Denial of service",
+        "B": "Ransomware",
+        "C": "Phishing",
+        "D": "Hacking by brute force"
+      },
+      "correct": "C",
+      "explanation": "Phishing uses fraudulent messages that appear to come from a trusted source to trick people into revealing credentials or other sensitive information, or into clicking malicious links. It relies on social engineering rather than technical weaknesses.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-btf-c11-q007",
+      "chapter": 11,
+      "topic": "Emerging technology and cyber security",
+      "question_text": "A company's files are suddenly encrypted, and a message demands payment in cryptocurrency for the decryption key. What type of attack is this?",
+      "options": {
+        "A": "Phishing",
+        "B": "Denial of service",
+        "C": "Ransomware",
+        "D": "Spyware"
+      },
+      "correct": "C",
+      "explanation": "Ransomware is malicious software that encrypts or locks data and demands a ransom to restore access. Phishing is often the way ransomware is introduced, but the attack described is ransomware. Spyware secretly gathers information, and denial of service floods systems to make them unavailable.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-btf-c11-q008",
+      "chapter": 11,
+      "topic": "Emerging technology and cyber security",
+      "question_text": "A system requires users to enter a password and then a code sent to their registered mobile phone. Which control is this?",
+      "options": {
+        "A": "Firewall",
+        "B": "Multi-factor authentication",
+        "C": "Encryption of data at rest",
+        "D": "Segregation of duties"
+      },
+      "correct": "B",
+      "explanation": "Multi-factor authentication requires two or more different types of evidence: something you know (password), something you have (phone or token) and something you are (biometrics). It greatly reduces the risk from stolen passwords.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c11-q009",
+      "chapter": 11,
+      "topic": "Emerging technology and cyber security",
+      "question_text": "A distributed denial of service (DDoS) attack floods a company's website so that customers cannot access it. Which element of information security has been compromised?",
+      "options": {
+        "A": "Confidentiality",
+        "B": "Integrity",
+        "C": "Availability",
+        "D": "Non-repudiation"
+      },
+      "correct": "C",
+      "explanation": "The information security triad is confidentiality (only authorised access), integrity (data is accurate and unaltered) and availability (systems and data are accessible when needed). A DDoS attack makes the service unavailable without necessarily stealing or altering data.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c11-q010",
+      "chapter": 11,
+      "topic": "Emerging technology and cyber security",
+      "question_text": "Which control is most effective in allowing a business to recover from a ransomware attack without paying the ransom?",
+      "options": {
+        "A": "Installing a faster internet connection",
+        "B": "Saving all files to a shared network drive",
+        "C": "Regular backups stored offline or separately from the main network and tested for recovery",
+        "D": "Asking staff to change their passwords once a year"
+      },
+      "correct": "C",
+      "explanation": "If clean, tested backups are kept separate from the network, the business can restore its data after an attack. Backups connected to the network may be encrypted too. A shared drive is equally vulnerable, and infrequent password changes do not help recovery.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c11-q011",
+      "chapter": 11,
+      "topic": "Emerging technology and cyber security",
+      "question_text": "A manufacturer fits internet-connected sensors to its machines to predict breakdowns before they happen. Which statement about this use of the Internet of Things (IoT) is most accurate?",
+      "options": {
+        "A": "It removes any need for cyber security controls in the factory",
+        "B": "It is an example of a blockchain smart contract",
+        "C": "It only provides historical, descriptive information",
+        "D": "It enables predictive maintenance but increases the number of devices that could be targeted by cyber attackers"
+      },
+      "correct": "D",
+      "explanation": "IoT devices collect real-time data that can feed predictive models, reducing unplanned downtime. However, each connected device is a potential entry point, so IoT increases the attack surface and requires security controls such as network segmentation and device updates.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-btf-c12-q001",
+      "chapter": 12,
+      "topic": "Sources of finance, financial markets, working capital and risk",
+      "question_text": "Which of the following is an advantage of debt finance over equity finance for a company?",
+      "options": {
+        "A": "Interest payments can be skipped in a poor year without consequence",
+        "B": "Interest is usually tax deductible, whereas dividends are not",
+        "C": "Debt never has to be repaid",
+        "D": "Lenders gain voting rights, which strengthens governance"
+      },
+      "correct": "B",
+      "explanation": "Interest on debt is generally an allowable expense for tax, reducing the effective cost of borrowing, and debt is usually cheaper than equity because lenders face less risk. However, interest is a legal obligation, the principal must be repaid, and lenders do not normally have voting rights.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c12-q002",
+      "chapter": 12,
+      "topic": "Sources of finance, financial markets, working capital and risk",
+      "question_text": "What is a rights issue?",
+      "options": {
+        "A": "An issue of new shares to the general public for the first time",
+        "B": "A free distribution of new shares to existing shareholders",
+        "C": "The sale of existing shares by one investor to another",
+        "D": "An offer of new shares to existing shareholders in proportion to their current holdings"
+      },
+      "correct": "D",
+      "explanation": "A rights issue offers new shares for cash to existing shareholders pro rata, usually at a discount to market price, allowing them to maintain their percentage ownership. A first-time public issue is an initial public offering, and a free distribution is a bonus issue.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-btf-c12-q003",
+      "chapter": 12,
+      "topic": "Sources of finance, financial markets, working capital and risk",
+      "question_text": "A company has 4,000,000 shares in issue, trading at £3.00 each. It makes a 1 for 4 rights issue at £2.40 per share. What is the theoretical ex-rights price (to the nearest penny)?",
+      "options": {
+        "A": "£2.88",
+        "B": "£2.70",
+        "C": "£2.40",
+        "D": "£2.52"
+      },
+      "correct": "A",
+      "explanation": "New shares = 4,000,000 / 4 = 1,000,000. Value after the issue = (4,000,000 x £3.00) + (1,000,000 x £2.40) = £12,000,000 + £2,400,000 = £14,400,000. Total shares = 5,000,000. TERP = £14,400,000 / 5,000,000 = £2.88. The simple average of £3.00 and £2.40 (£2.70) ignores the different numbers of old and new shares.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-btf-c12-q004",
+      "chapter": 12,
+      "topic": "Sources of finance, financial markets, working capital and risk",
+      "question_text": "Which statement correctly distinguishes primary and secondary markets?",
+      "options": {
+        "A": "Primary markets deal only in government bonds; secondary markets deal only in shares",
+        "B": "Primary markets are for short-term finance; secondary markets are for long-term finance",
+        "C": "Companies receive cash each time their shares are traded on the secondary market",
+        "D": "Primary markets are where new securities are issued to raise finance; secondary markets are where existing securities are traded between investors"
+      },
+      "correct": "D",
+      "explanation": "Companies raise new finance in the primary market when securities are first issued. In the secondary market investors buy and sell existing securities among themselves, so the company receives no new cash, but the secondary market provides liquidity that makes primary issues attractive.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-btf-c12-q005",
+      "chapter": 12,
+      "topic": "Sources of finance, financial markets, working capital and risk",
+      "question_text": "Which of the following is the main role of the money markets?",
+      "options": {
+        "A": "Raising long-term equity finance for companies",
+        "B": "Trading physical commodities such as oil and metals",
+        "C": "Issuing long-term mortgages to households",
+        "D": "Providing short-term borrowing and lending, typically for less than one year"
+      },
+      "correct": "D",
+      "explanation": "Money markets deal in short-term funds and instruments such as treasury bills, commercial paper and interbank deposits, typically with maturities of under a year. Long-term equity and debt are raised in the capital markets.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c12-q006",
+      "chapter": 12,
+      "topic": "Sources of finance, financial markets, working capital and risk",
+      "question_text": "A company holds inventory for an average of 50 days, collects from customers in an average of 40 days and pays suppliers in an average of 35 days. What is the length of its working capital (cash operating) cycle?",
+      "options": {
+        "A": "125 days",
+        "B": "45 days",
+        "C": "55 days",
+        "D": "25 days"
+      },
+      "correct": "C",
+      "explanation": "Working capital cycle = inventory days + receivables days - payables days = 50 + 40 - 35 = 55 days. This is the period for which the company must finance its operations between paying suppliers and collecting cash from customers. Adding all three (125 days) is a common error.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c12-q007",
+      "chapter": 12,
+      "topic": "Sources of finance, financial markets, working capital and risk",
+      "question_text": "A company's year-end trade receivables are £84,000 and its annual credit sales are £511,000. Using a 365-day year, what are its receivables collection days?",
+      "options": {
+        "A": "61 days",
+        "B": "60 days",
+        "C": "6 days",
+        "D": "73 days"
+      },
+      "correct": "B",
+      "explanation": "Receivables days = (receivables / credit sales) x 365 = (£84,000 / £511,000) x 365. £511,000 / 365 = £1,400 of credit sales per day, so £84,000 / £1,400 = 60 days exactly.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-btf-c12-q008",
+      "chapter": 12,
+      "topic": "Sources of finance, financial markets, working capital and risk",
+      "question_text": "Which combination of symptoms most strongly suggests that a business is overtrading?",
+      "options": {
+        "A": "Falling sales, rising cash balances and shorter payables days",
+        "B": "Stable sales, low inventory and a large cash surplus",
+        "C": "Rapidly rising sales, a growing overdraft, and lengthening payables days",
+        "D": "Falling sales with an increase in long-term equity finance"
+      },
+      "correct": "C",
+      "explanation": "Overtrading occurs when a business expands sales too quickly for its capital base, so working capital is stretched. Typical signs are fast sales growth, rising inventory and receivables, increasing reliance on overdraft and delays in paying suppliers. It can lead to failure even when the business is profitable.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-btf-c12-q009",
+      "chapter": 12,
+      "topic": "Sources of finance, financial markets, working capital and risk",
+      "question_text": "A company sells its trade receivables to a factor on a 'with recourse' basis. What does 'with recourse' mean?",
+      "options": {
+        "A": "The factor bears the loss if customers fail to pay",
+        "B": "The company bears the loss if customers fail to pay",
+        "C": "Customers are not told that the debts have been sold",
+        "D": "The factor provides finance only, not credit management"
+      },
+      "correct": "B",
+      "explanation": "With recourse factoring, any bad debts are passed back to the company, so it retains the credit risk; this is cheaper than without recourse factoring, where the factor bears the risk. Whether customers are informed relates to confidential (undisclosed) arrangements, not recourse.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-btf-c12-q010",
+      "chapter": 12,
+      "topic": "Sources of finance, financial markets, working capital and risk",
+      "question_text": "A business buys insurance to protect itself against the financial consequences of a fire at its warehouse. Which risk response is this?",
+      "options": {
+        "A": "Avoidance",
+        "B": "Acceptance",
+        "C": "Reduction",
+        "D": "Transfer"
+      },
+      "correct": "D",
+      "explanation": "Insurance transfers the financial impact of a risk to a third party in return for a premium. Avoidance means stopping the risky activity, reduction means lowering likelihood or impact (for example fitting sprinklers), and acceptance means bearing the risk without further action.",
+      "difficulty": "easy"
+    }
+  ]
+}

@@ -1,0 +1,1955 @@
+{
+  "subject_id": "cima-ba4",
+  "questions": [
+    {
+      "id": "cima-ba4-c01-q001",
+      "chapter": 1,
+      "topic": "Business ethics and the role of the professional accountant",
+      "question_text": "Which of the following best describes business ethics?",
+      "options": {
+        "A": "The set of laws that a company must obey in the countries in which it trades",
+        "B": "The policies a company adopts to maximise shareholder wealth over the long term",
+        "C": "The application of moral principles and standards of right and wrong to business decisions and behaviour",
+        "D": "The internal rules an organisation sets to make sure staff arrive at work on time"
+      },
+      "correct": "C",
+      "explanation": "Business ethics concerns applying moral principles (what is right and wrong) to business conduct. Law sets a minimum standard of behaviour enforced by the state, but ethics often requires more than legal compliance. Wealth maximisation and attendance rules are business objectives or policies, not ethics as such.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba4-c01-q002",
+      "chapter": 1,
+      "topic": "Business ethics and the role of the professional accountant",
+      "question_text": "How does ethical behaviour generally relate to legal compliance?",
+      "options": {
+        "A": "Anything that is legal is automatically ethical",
+        "B": "Ethics often demands a higher standard than the law, so an action can be legal yet unethical",
+        "C": "Ethics and law cover exactly the same ground in every jurisdiction",
+        "D": "Ethical rules override the law, so an accountant may break the law to act ethically"
+      },
+      "correct": "B",
+      "explanation": "The law represents a minimum enforceable standard; ethics goes further and asks what is right. An action can therefore be perfectly lawful but still unethical, for example exploiting a loophole to mislead customers. Ethics does not authorise breaking the law, and law and ethics do not overlap completely.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba4-c01-q003",
+      "chapter": 1,
+      "topic": "Business ethics and the role of the professional accountant",
+      "question_text": "Why is ethical behaviour particularly important for professional accountants?",
+      "options": {
+        "A": "Because ethical accountants are always paid more than other professionals",
+        "B": "Because ethics removes the need for accountants to comply with accounting standards",
+        "C": "Because only accountants are subject to the law of contract",
+        "D": "Because they have a responsibility to act in the public interest, not only to satisfy an individual client or employer"
+      },
+      "correct": "D",
+      "explanation": "A distinguishing mark of the accountancy profession is its acceptance of a responsibility to act in the public interest. Users of financial information such as investors, lenders and government rely on accountants' integrity. Ethics supplements technical standards rather than replacing them.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba4-c01-q004",
+      "chapter": 1,
+      "topic": "Business ethics and the role of the professional accountant",
+      "question_text": "An accountant believes that following clear, detailed rules is the best way to ensure ethical conduct, because it leaves no room for personal judgement. What is the main weakness of relying only on a rules-based approach to ethics?",
+      "options": {
+        "A": "Rules cannot anticipate every situation, so people may comply with the letter of a rule while defeating its purpose",
+        "B": "Rules-based approaches are never enforceable by professional bodies",
+        "C": "Rules-based approaches require too much professional judgement",
+        "D": "Rules cannot be written down and so cannot be communicated to members"
+      },
+      "correct": "A",
+      "explanation": "A rules-based system cannot foresee every circumstance and encourages a 'tick-box' mentality in which people look for loopholes. A principles-based approach, such as the conceptual framework in the CIMA Code of Ethics, requires members to apply fundamental principles to any situation. Rules are enforceable and easy to communicate, and it is principles, not rules, that require more judgement.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c01-q005",
+      "chapter": 1,
+      "topic": "Business ethics and the role of the professional accountant",
+      "question_text": "Which of the following is a feature of a principles-based approach to professional ethics?",
+      "options": {
+        "A": "Members are given an exhaustive list of prohibited actions and anything not listed is permitted",
+        "B": "Members follow fixed procedures and do not need to exercise judgement",
+        "C": "Members are only bound by ethical requirements that are also criminal offences",
+        "D": "Members must identify, evaluate and address threats to the fundamental principles in each situation they face"
+      },
+      "correct": "D",
+      "explanation": "Under a principles-based (conceptual framework) approach, members apply the fundamental principles to their own circumstances by identifying threats, evaluating them and addressing them with safeguards. An exhaustive list of prohibited actions and fixed procedures describe a rules-based approach. Ethical requirements go beyond the criminal law.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c01-q006",
+      "chapter": 1,
+      "topic": "Business ethics and the role of the professional accountant",
+      "question_text": "Which of the following personal qualities is most closely associated with 'professional scepticism'?",
+      "options": {
+        "A": "Distrusting every client and assuming that all management representations are false",
+        "B": "Refusing to rely on the work of any other professional",
+        "C": "Having a questioning mind and critically assessing evidence rather than accepting it at face value",
+        "D": "Following management's instructions without question to save time"
+      },
+      "correct": "C",
+      "explanation": "Professional scepticism means maintaining a questioning mind and critically assessing the evidence obtained, being alert to conditions that may indicate misstatement. It does not mean assuming dishonesty in everyone. Blindly following instructions is the opposite of scepticism.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c01-q007",
+      "chapter": 1,
+      "topic": "Business ethics and the role of the professional accountant",
+      "question_text": "An accountant is described as having 'independence in appearance'. What does this mean?",
+      "options": {
+        "A": "Avoiding facts and circumstances so significant that a reasonable and informed third party would conclude that objectivity had been compromised",
+        "B": "Having a state of mind that permits an opinion to be expressed without being affected by influences that compromise judgement",
+        "C": "Being employed by a different organisation from the one being reported on",
+        "D": "Holding no shares in any listed company"
+      },
+      "correct": "A",
+      "explanation": "Independence in appearance concerns how a situation looks to a reasonable and informed third party: circumstances that would lead such a person to doubt the accountant's objectivity must be avoided. The state of mind description is independence of mind. Being employed elsewhere or holding no shares are not the definition, although they may help.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c01-q008",
+      "chapter": 1,
+      "topic": "Business ethics and the role of the professional accountant",
+      "question_text": "Which of the following is the best example of an organisation acting with social responsibility rather than merely complying with the law?",
+      "options": {
+        "A": "Paying employees the legal minimum wage",
+        "B": "Voluntarily reducing waste and emissions below the levels permitted by regulation",
+        "C": "Filing annual accounts by the statutory deadline",
+        "D": "Deducting income tax from employees' pay as required by law"
+      },
+      "correct": "B",
+      "explanation": "Social responsibility involves going beyond legal obligations to act in the interests of society and the environment. Cutting emissions below legal limits is voluntary. Paying the minimum wage, filing accounts on time and deducting tax are legal requirements, so they show compliance rather than social responsibility.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c01-q009",
+      "chapter": 1,
+      "topic": "Business ethics and the role of the professional accountant",
+      "question_text": "A finance manager discovers that a new cost-cutting plan is fully legal but will mislead customers about the durability of a product. The managing director says: 'If it is legal, it is not our problem.' Which statement best evaluates the managing director's view?",
+      "options": {
+        "A": "It is correct because a professional accountant's only duty is to ensure that the law is obeyed",
+        "B": "It is flawed because legality is a minimum standard and the plan conflicts with the principle of integrity, which requires being straightforward and honest",
+        "C": "It is correct because ethical principles only apply to the preparation of financial statements",
+        "D": "It is flawed because any misleading statement is automatically a criminal offence"
+      },
+      "correct": "B",
+      "explanation": "Legal compliance does not make conduct ethical; the law is only a minimum standard. Knowingly being associated with misleading information breaches the principle of integrity, and accountants' ethical duties apply to all their professional activities, not just financial statements. Not every misleading statement is a crime, so the claim that it is automatically an offence overstates the position.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba4-c01-q010",
+      "chapter": 1,
+      "topic": "Business ethics and the role of the professional accountant",
+      "question_text": "Which of the following best explains why professional bodies such as CIMA require members to undertake continuing professional development (CPD)?",
+      "options": {
+        "A": "To ensure that members earn enough income to remain independent of clients",
+        "B": "To replace the need for members to comply with the fundamental principles",
+        "C": "To demonstrate integrity by recording the number of hours spent in training",
+        "D": "To maintain professional knowledge and skill at the level required to provide competent professional services, supporting the principle of professional competence and due care"
+      },
+      "correct": "D",
+      "explanation": "The principle of professional competence and due care requires members to attain and maintain professional knowledge and skill so that clients and employers receive competent service. CPD is the mechanism for keeping that knowledge up to date as standards, law and technology change. It supports, rather than replaces, the other principles and is not mainly about income or hours recorded.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba4-c02-q001",
+      "chapter": 2,
+      "topic": "The CIMA Code of Ethics: fundamental principles",
+      "question_text": "Which of the following is NOT one of the five fundamental principles in the CIMA Code of Ethics?",
+      "options": {
+        "A": "Integrity",
+        "B": "Objectivity",
+        "C": "Independence",
+        "D": "Confidentiality"
+      },
+      "correct": "C",
+      "explanation": "The five fundamental principles are integrity, objectivity, professional competence and due care, confidentiality and professional behaviour. Independence is an important related concept, especially for those providing assurance services, but it is not itself listed as one of the five fundamental principles.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba4-c02-q002",
+      "chapter": 2,
+      "topic": "The CIMA Code of Ethics: fundamental principles",
+      "question_text": "Which fundamental principle requires a member to be straightforward and honest in all professional and business relationships?",
+      "options": {
+        "A": "Integrity",
+        "B": "Objectivity",
+        "C": "Professional behaviour",
+        "D": "Professional competence and due care"
+      },
+      "correct": "A",
+      "explanation": "Integrity means being straightforward and honest in all professional and business relationships, and implies fair dealing and truthfulness. Objectivity concerns avoiding bias, conflicts of interest and undue influence. Professional behaviour concerns complying with laws and avoiding discredit to the profession.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba4-c02-q003",
+      "chapter": 2,
+      "topic": "The CIMA Code of Ethics: fundamental principles",
+      "question_text": "Which fundamental principle is breached when a management accountant allows a close friendship with a supplier to bias her recommendation on which supplier to use?",
+      "options": {
+        "A": "Confidentiality",
+        "B": "Objectivity",
+        "C": "Professional competence and due care",
+        "D": "Professional behaviour"
+      },
+      "correct": "B",
+      "explanation": "Objectivity requires that a member does not allow bias, conflict of interest or the undue influence of others to override professional judgement. Allowing a friendship to bias a recommendation is a clear failure of objectivity. The other principles concern secrecy of information, competence and reputation of the profession.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba4-c02-q004",
+      "chapter": 2,
+      "topic": "The CIMA Code of Ethics: fundamental principles",
+      "question_text": "A management accountant is asked to prepare a complex tax computation for her employer even though she has no tax training and there is no time to obtain help. Which fundamental principle is most threatened?",
+      "options": {
+        "A": "Integrity",
+        "B": "Confidentiality",
+        "C": "Professional competence and due care",
+        "D": "Objectivity"
+      },
+      "correct": "C",
+      "explanation": "Professional competence and due care requires members to act diligently and to undertake only work they have the knowledge and skill to perform, or to obtain appropriate help. Taking on a task outside her expertise without support threatens this principle. There is no suggestion of dishonesty, disclosure of information or bias.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c02-q005",
+      "chapter": 2,
+      "topic": "The CIMA Code of Ethics: fundamental principles",
+      "question_text": "In which of the following situations may a member disclose confidential information without breaching the principle of confidentiality?",
+      "options": {
+        "A": "When disclosure is required by law, for example in response to a court order",
+        "B": "When a former employer's information would help the member in a new job",
+        "C": "When a friend asks for the information for personal investment purposes",
+        "D": "When the member believes that the information is already rumoured in the market"
+      },
+      "correct": "A",
+      "explanation": "The Code permits disclosure where it is required by law (such as a court order or anti-money-laundering reporting), permitted by law and authorised by the client or employer, or where there is a professional duty or right to disclose. Using information for personal advantage or that of third parties is prohibited, and a rumour does not make information public.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c02-q006",
+      "chapter": 2,
+      "topic": "The CIMA Code of Ethics: fundamental principles",
+      "question_text": "A member who moves to a new employer uses detailed pricing information from his previous employer to help his new employer undercut it. Which statement is correct?",
+      "options": {
+        "A": "He does not breach confidentiality, because the duty ends when employment ends",
+        "B": "He breaches objectivity, but not confidentiality",
+        "C": "He does not breach any principle, because he is acting in his new employer's interests",
+        "D": "He breaches confidentiality, because the duty continues after the employment relationship has ended"
+      },
+      "correct": "D",
+      "explanation": "The duty of confidentiality continues even after the end of a relationship between a member and a client or employer. A member may use general experience and expertise gained, but must not use or disclose confidential information acquired from a previous employer. Acting in the new employer's interest does not justify the breach.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c02-q007",
+      "chapter": 2,
+      "topic": "The CIMA Code of Ethics: fundamental principles",
+      "question_text": "A member posts on social media that a rival accounting firm's staff are 'incompetent crooks', without any evidence. Which fundamental principle is most directly breached?",
+      "options": {
+        "A": "Confidentiality",
+        "B": "Professional behaviour",
+        "C": "Objectivity",
+        "D": "Professional competence and due care"
+      },
+      "correct": "B",
+      "explanation": "Professional behaviour requires compliance with relevant laws and regulations and avoidance of any action that discredits the profession. Making disparaging, unsupported claims about others' work is specifically inconsistent with this principle. No confidential information, bias in judgement or technical competence is involved.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba4-c02-q008",
+      "chapter": 2,
+      "topic": "The CIMA Code of Ethics: fundamental principles",
+      "question_text": "Which of the following is included in the principle of professional competence and due care?",
+      "options": {
+        "A": "Never accepting gifts or hospitality from clients",
+        "B": "Keeping all business information secret in every circumstance",
+        "C": "Acting diligently in accordance with applicable technical and professional standards",
+        "D": "Ensuring that the employer achieves its profit targets"
+      },
+      "correct": "C",
+      "explanation": "Professional competence and due care has two elements: attaining and maintaining professional knowledge and skill, and acting diligently in accordance with applicable technical and professional standards. Gifts relate to objectivity threats, confidentiality is a separate principle with exceptions, and profit targets are not an ethical principle.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c02-q009",
+      "chapter": 2,
+      "topic": "The CIMA Code of Ethics: fundamental principles",
+      "question_text": "A member knowingly signs off a management report that omits a material loss, although every figure that IS in the report is accurate. Which statement is correct?",
+      "options": {
+        "A": "No principle is breached, because all the figures included are accurate",
+        "B": "Only confidentiality is breached, because the loss was kept secret",
+        "C": "Only professional competence is breached, because the report is incomplete by mistake",
+        "D": "Integrity is breached, because a member must not be associated with information that omits or obscures information where the omission would be misleading"
+      },
+      "correct": "D",
+      "explanation": "Integrity requires that a member is not knowingly associated with reports or information that contain materially false or misleading statements, statements furnished recklessly, or that omit or obscure required information where this would be misleading. Accurate figures do not cure a misleading omission. The omission was knowing, so it is not merely a competence error.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba4-c02-q010",
+      "chapter": 2,
+      "topic": "The CIMA Code of Ethics: fundamental principles",
+      "question_text": "Which statement best describes the 'reasonable and informed third party' test used in the CIMA Code of Ethics?",
+      "options": {
+        "A": "It asks whether a hypothetical person with relevant knowledge, weighing all the specific facts known to the member, would be likely to reach the same conclusions",
+        "B": "It asks whether the member's line manager agrees with the member's decision",
+        "C": "It asks whether a court would find the member liable in negligence",
+        "D": "It asks whether a majority of the public, without any specialist knowledge, would approve of the decision"
+      },
+      "correct": "A",
+      "explanation": "The test considers whether the same conclusions would probably be reached by another party who has the relevant knowledge and experience to understand and evaluate the appropriateness of the member's conclusions, weighing all the relevant facts. It is an objective benchmark, not the view of a manager, a court or an uninformed public.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba4-c03-q001",
+      "chapter": 3,
+      "topic": "Threats to the fundamental principles and safeguards",
+      "question_text": "Which of the following is NOT one of the categories of threat to compliance with the fundamental principles identified in the CIMA Code of Ethics?",
+      "options": {
+        "A": "Self-interest threat",
+        "B": "Self-confidence threat",
+        "C": "Advocacy threat",
+        "D": "Familiarity threat"
+      },
+      "correct": "B",
+      "explanation": "The categories of threat are self-interest, self-review, advocacy, familiarity and intimidation. 'Self-confidence' is not a recognised category. Questions often use plausible-sounding but invented threat names as distractors.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba4-c03-q002",
+      "chapter": 3,
+      "topic": "Threats to the fundamental principles and safeguards",
+      "question_text": "A management accountant's annual bonus depends on the profit figure that she herself calculates. Which type of threat does this create?",
+      "options": {
+        "A": "Self-review threat",
+        "B": "Advocacy threat",
+        "C": "Intimidation threat",
+        "D": "Self-interest threat"
+      },
+      "correct": "D",
+      "explanation": "A self-interest threat arises where a financial or other interest will inappropriately influence the member's judgement or behaviour. A bonus linked to a figure the member prepares gives her a financial interest in that figure. There is no review of her own earlier work, promotion of a position or pressure from others.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba4-c03-q003",
+      "chapter": 3,
+      "topic": "Threats to the fundamental principles and safeguards",
+      "question_text": "A finance director tells a junior accountant that he will be dismissed unless he agrees to a particular accounting treatment. Which threat is present?",
+      "options": {
+        "A": "Familiarity threat",
+        "B": "Self-review threat",
+        "C": "Intimidation threat",
+        "D": "Advocacy threat"
+      },
+      "correct": "C",
+      "explanation": "An intimidation threat arises where a member is deterred from acting objectively by actual or perceived pressures, including threats of dismissal. The junior accountant is being pressured to give in. Familiarity involves sympathy arising from a long or close relationship, which is not described.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba4-c03-q004",
+      "chapter": 3,
+      "topic": "Threats to the fundamental principles and safeguards",
+      "question_text": "An accountant is asked to evaluate the effectiveness of a costing system that she designed and implemented last year. Which threat arises?",
+      "options": {
+        "A": "Self-review threat",
+        "B": "Self-interest threat",
+        "C": "Familiarity threat",
+        "D": "Intimidation threat"
+      },
+      "correct": "A",
+      "explanation": "A self-review threat arises when a member must re-evaluate a previous judgement or work they performed, because they are unlikely to identify their own errors objectively. Here she is reviewing her own system design. Other threats may also be present, but self-review is the most direct.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c03-q005",
+      "chapter": 3,
+      "topic": "Threats to the fundamental principles and safeguards",
+      "question_text": "A management accountant is asked to speak publicly in support of her employer's position in a dispute with a regulator. Which threat is most likely to arise?",
+      "options": {
+        "A": "Self-review threat",
+        "B": "Intimidation threat",
+        "C": "Advocacy threat",
+        "D": "Familiarity threat"
+      },
+      "correct": "C",
+      "explanation": "An advocacy threat arises when a member promotes a client's or employer's position to the point that objectivity is compromised. Publicly championing the employer's case in a dispute is advocacy. The member is not reviewing her own work or being directly pressured.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba4-c03-q006",
+      "chapter": 3,
+      "topic": "Threats to the fundamental principles and safeguards",
+      "question_text": "A purchasing accountant has dealt with the same supplier's sales director for twelve years and they now holiday together. Which threat is created?",
+      "options": {
+        "A": "Advocacy threat",
+        "B": "Familiarity threat",
+        "C": "Self-review threat",
+        "D": "Self-interest threat"
+      },
+      "correct": "B",
+      "explanation": "A familiarity threat arises when, because of a long or close relationship, a member becomes too sympathetic to another's interests or too accepting of their work. A long-standing personal friendship with a supplier is a classic example. Safeguards could include rotating responsibility for that supplier.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba4-c03-q007",
+      "chapter": 3,
+      "topic": "Threats to the fundamental principles and safeguards",
+      "question_text": "Under the conceptual framework in the CIMA Code of Ethics, what should a member do first when facing a situation that might compromise a fundamental principle?",
+      "options": {
+        "A": "Identify threats to compliance with the fundamental principles",
+        "B": "Resign immediately from the engagement or employment",
+        "C": "Report the matter to the police",
+        "D": "Apply a safeguard before considering whether a threat exists"
+      },
+      "correct": "A",
+      "explanation": "The conceptual framework requires the member to identify threats, evaluate whether they are at an acceptable level, and address them by eliminating them or reducing them to an acceptable level with safeguards. Resignation is a last resort, and safeguards can only be chosen once the threat is identified and evaluated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c03-q008",
+      "chapter": 3,
+      "topic": "Threats to the fundamental principles and safeguards",
+      "question_text": "Which of the following is an example of a safeguard created by the profession, legislation or regulation?",
+      "options": {
+        "A": "The employer's own whistleblowing hotline",
+        "B": "A company's internal policy on accepting gifts",
+        "C": "An employer's internal review of work by a second accountant",
+        "D": "Mandatory continuing professional development requirements"
+      },
+      "correct": "D",
+      "explanation": "Safeguards created by the profession, legislation or regulation include education and training requirements, CPD, professional standards, monitoring and disciplinary procedures, and corporate governance regulation. Whistleblowing hotlines, gift policies and second reviews are safeguards in the work environment set up by the employer.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c03-q009",
+      "chapter": 3,
+      "topic": "Threats to the fundamental principles and safeguards",
+      "question_text": "A member's employer offers him a luxury holiday 'as thanks' just before he finalises a valuation that will determine the employer's loan covenant compliance. After evaluating the threat as significant, which response is most appropriate?",
+      "options": {
+        "A": "Accept the holiday but disclose it in a note to the valuation",
+        "B": "Decline the offer, because the threat to objectivity cannot be reduced to an acceptable level while it is accepted",
+        "C": "Accept the holiday, because gifts from an employer cannot create threats",
+        "D": "Accept the holiday and ask a colleague to sign the valuation instead, without telling anyone why"
+      },
+      "correct": "B",
+      "explanation": "A significant gift timed to coincide with a key judgement creates self-interest and intimidation threats to objectivity. Where safeguards cannot reduce the threat to an acceptable level, the member should decline the inducement. Disclosure alone does not remove the influence, and passing the work on secretly is not a transparent safeguard.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba4-c03-q010",
+      "chapter": 3,
+      "topic": "Threats to the fundamental principles and safeguards",
+      "question_text": "Which statement about safeguards is correct?",
+      "options": {
+        "A": "Every threat can always be eliminated by an appropriate safeguard",
+        "B": "Safeguards are only required for members in public practice, not members in business",
+        "C": "Once a safeguard is applied, the member need not reconsider the threat even if circumstances change",
+        "D": "Where no safeguard can reduce a threat to an acceptable level, the member should decline or end the specific activity, or in extreme cases resign"
+      },
+      "correct": "D",
+      "explanation": "The Code recognises that some threats are so significant that no safeguard is adequate; the member must then decline or discontinue the activity, or resign. The conceptual framework applies to both members in practice and members in business. Threats must be re-evaluated if new information or changed circumstances arise.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba4-c04-q001",
+      "chapter": 4,
+      "topic": "Ethical conflict, whistleblowing and money laundering",
+      "question_text": "What is the first step a member should normally take when trying to resolve an ethical conflict?",
+      "options": {
+        "A": "Gather the relevant facts and identify the ethical issues and fundamental principles involved",
+        "B": "Resign from the organisation",
+        "C": "Inform a journalist so that the issue becomes public",
+        "D": "Ignore the issue unless it involves a criminal offence"
+      },
+      "correct": "A",
+      "explanation": "The Code's resolution process begins with establishing the relevant facts, the ethical issues and the fundamental principles involved, followed by considering internal procedures and alternative courses of action. Resignation is a last resort. Going to the media is not an appropriate first step and may itself breach confidentiality.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba4-c04-q002",
+      "chapter": 4,
+      "topic": "Ethical conflict, whistleblowing and money laundering",
+      "question_text": "Which of the following is the best description of 'whistleblowing'?",
+      "options": {
+        "A": "Leaking a company's confidential plans to a competitor for payment",
+        "B": "Refusing to work overtime without extra pay",
+        "C": "Disclosing information about wrongdoing within an organisation to someone who can take action, internally or externally",
+        "D": "Publishing an organisation's annual report"
+      },
+      "correct": "C",
+      "explanation": "Whistleblowing is reporting suspected wrongdoing, such as fraud, danger or illegal conduct, to people able to address it, whether internal (such as an audit committee) or external (such as a regulator). Selling secrets to a competitor is a breach of confidentiality, not whistleblowing.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba4-c04-q003",
+      "chapter": 4,
+      "topic": "Ethical conflict, whistleblowing and money laundering",
+      "question_text": "Which is the correct order of the three stages of money laundering?",
+      "options": {
+        "A": "Placement, layering, integration",
+        "B": "Layering, placement, integration",
+        "C": "Integration, layering, placement",
+        "D": "Placement, integration, layering"
+      },
+      "correct": "A",
+      "explanation": "Placement introduces criminal cash into the financial system, layering disguises its origin through complex transactions, and integration returns the funds to the economy as apparently legitimate wealth. The order matters: funds must be placed before they can be layered and finally integrated.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba4-c04-q004",
+      "chapter": 4,
+      "topic": "Ethical conflict, whistleblowing and money laundering",
+      "question_text": "A criminal pays cash from drug sales into many small bank deposits below reporting thresholds. Which stage of money laundering does this represent?",
+      "options": {
+        "A": "Layering",
+        "B": "Integration",
+        "C": "Placement",
+        "D": "Tipping off"
+      },
+      "correct": "C",
+      "explanation": "Placement is the initial stage in which illicit cash is introduced into the financial system, often by splitting it into small deposits ('smurfing'). Layering would involve moving the money through complex transactions, and integration would return it as apparently clean funds. Tipping off is a separate offence, not a stage.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c04-q005",
+      "chapter": 4,
+      "topic": "Ethical conflict, whistleblowing and money laundering",
+      "question_text": "Under UK anti-money-laundering law, an accountant who suspects money laundering tells the client that a report has been made to the authorities. Which offence may the accountant have committed?",
+      "options": {
+        "A": "Placement",
+        "B": "Tipping off",
+        "C": "Insider dealing",
+        "D": "Fraudulent trading"
+      },
+      "correct": "B",
+      "explanation": "Tipping off is the offence of disclosing that a suspicious activity report has been made or that an investigation is under way, in a way likely to prejudice that investigation. Placement is a stage of laundering, and insider dealing and fraudulent trading are unrelated offences.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c04-q006",
+      "chapter": 4,
+      "topic": "Ethical conflict, whistleblowing and money laundering",
+      "question_text": "An accountant in business suspects that a colleague is laundering money through the company's accounts. To whom should she normally report her suspicion first?",
+      "options": {
+        "A": "The colleague suspected of laundering",
+        "B": "The company's external customers",
+        "C": "A national newspaper",
+        "D": "The organisation's money laundering reporting officer (MLRO) or nominated officer"
+      },
+      "correct": "D",
+      "explanation": "Organisations within the regulated sector appoint an MLRO (nominated officer) to receive internal reports and decide whether to report externally to the relevant authority. Reporting to the suspect would risk tipping off, and disclosure to customers or the press would breach confidentiality and could prejudice an investigation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c04-q007",
+      "chapter": 4,
+      "topic": "Ethical conflict, whistleblowing and money laundering",
+      "question_text": "A member has exhausted internal procedures and the ethical conflict remains unresolved. Which of the following would be an appropriate next step under the CIMA Code?",
+      "options": {
+        "A": "Continue with the unethical action because the internal procedures have been completed",
+        "B": "Disclose the matter to friends and family to obtain their opinion",
+        "C": "Seek advice from CIMA's ethics helpline or obtain legal advice before deciding whether to disassociate from the matter",
+        "D": "Destroy any documents relating to the matter"
+      },
+      "correct": "C",
+      "explanation": "If a conflict cannot be resolved internally, the member may seek professional advice from CIMA or legal advice, and if still unresolved should refuse to remain associated with the matter, which could ultimately mean resignation. Proceeding with the unethical action, discussing confidential matters socially or destroying evidence would all be inappropriate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c04-q008",
+      "chapter": 4,
+      "topic": "Ethical conflict, whistleblowing and money laundering",
+      "question_text": "In the UK, which of the following statements about legal protection for whistleblowers is correct?",
+      "options": {
+        "A": "Only employees with at least ten years' service are protected",
+        "B": "Protection applies only when the disclosure is made to a newspaper",
+        "C": "A whistleblower must prove that the wrongdoing actually occurred to be protected",
+        "D": "Workers who make a protected disclosure about specified wrongdoing are protected from dismissal and detriment for making it"
+      },
+      "correct": "D",
+      "explanation": "Under English law, the Public Interest Disclosure Act 1998 (inserted into the Employment Rights Act 1996) protects workers who make qualifying disclosures, for example about crimes, breaches of legal obligations or danger to health and safety. Dismissal for making a protected disclosure is automatically unfair. A reasonable belief is required, not proof, and disclosures to the employer or a prescribed regulator are favoured over the media.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c04-q009",
+      "chapter": 4,
+      "topic": "Ethical conflict, whistleblowing and money laundering",
+      "question_text": "A management accountant's manager instructs her to reclassify revenue expenditure as capital expenditure so that a profit target is met. She raises it with the manager, who refuses to change his mind. What is the most appropriate next step?",
+      "options": {
+        "A": "Escalate the matter to a higher level of management or the audit committee, in line with the organisation's procedures",
+        "B": "Make the adjustment, because she has already raised her concern",
+        "C": "Report the matter immediately to the press",
+        "D": "Resign immediately without raising the matter with anyone else"
+      },
+      "correct": "A",
+      "explanation": "Where a matter cannot be resolved with the immediate superior, the member should escalate it through the organisation's procedures, for example to the next level of management, internal audit or the audit committee. Complying would breach integrity. Going to the press is premature and resignation is a last resort after internal routes and advice have been exhausted.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba4-c04-q010",
+      "chapter": 4,
+      "topic": "Ethical conflict, whistleblowing and money laundering",
+      "question_text": "Which of the following situations is most likely to involve the 'layering' stage of money laundering?",
+      "options": {
+        "A": "Depositing banknotes from criminal activity into a bank account",
+        "B": "Repeatedly transferring funds between shell companies in several countries to obscure the audit trail",
+        "C": "Buying a property using funds that now appear to be legitimate business profits",
+        "D": "Reporting a suspicious transaction to the authorities"
+      },
+      "correct": "B",
+      "explanation": "Layering involves complex series of transactions, often across borders and through shell companies, designed to distance the funds from their criminal source. Depositing cash is placement, and buying assets with apparently clean funds is integration. Reporting is a compliance action, not laundering.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba4-c05-q001",
+      "chapter": 5,
+      "topic": "Corporate governance: principles and approaches",
+      "question_text": "Which of the following best defines corporate governance?",
+      "options": {
+        "A": "The process of preparing a company's financial statements",
+        "B": "The government's regulation of competition between companies",
+        "C": "The system by which companies are directed and controlled",
+        "D": "The day-to-day management of a company's production function"
+      },
+      "correct": "C",
+      "explanation": "Corporate governance is widely defined as the system by which companies are directed and controlled. Boards of directors are responsible for governance, and shareholders appoint the directors and auditors to satisfy themselves that an appropriate structure is in place. Financial reporting and operations are parts of what is governed, not the definition.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba4-c05-q002",
+      "chapter": 5,
+      "topic": "Corporate governance: principles and approaches",
+      "question_text": "In agency theory as applied to a listed company, who are the principals and who are the agents?",
+      "options": {
+        "A": "Directors are principals and shareholders are agents",
+        "B": "Shareholders are principals and directors are agents",
+        "C": "Employees are principals and customers are agents",
+        "D": "Auditors are principals and directors are agents"
+      },
+      "correct": "B",
+      "explanation": "Agency theory views shareholders (owners) as principals who delegate the running of the company to directors (agents). Because of the separation of ownership and control, the agents may pursue their own interests, and governance mechanisms aim to align the two.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba4-c05-q003",
+      "chapter": 5,
+      "topic": "Corporate governance: principles and approaches",
+      "question_text": "What does 'comply or explain' mean in the context of a principles-based governance code?",
+      "options": {
+        "A": "Companies must comply with every provision or face criminal penalties",
+        "B": "Directors must explain every decision to shareholders before taking it",
+        "C": "Companies may ignore the code if they explain this verbally to the regulator",
+        "D": "Companies either follow the code's provisions or explain in their annual report why they have not done so"
+      },
+      "correct": "D",
+      "explanation": "Under a comply-or-explain approach, such as the UK Corporate Governance Code for listed companies, companies disclose whether they have complied with the code and give reasons for any departure. Shareholders then judge whether the explanation is acceptable. It is not a criminal regime like a rules-based statute.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba4-c05-q004",
+      "chapter": 5,
+      "topic": "Corporate governance: principles and approaches",
+      "question_text": "Which of the following is an example of an agency cost?",
+      "options": {
+        "A": "The cost of an external audit commissioned to monitor the directors' stewardship",
+        "B": "The cost of raw materials used in production",
+        "C": "The interest paid on a bank loan",
+        "D": "The cost of advertising a new product"
+      },
+      "correct": "A",
+      "explanation": "Agency costs are costs incurred by principals to monitor and control agents, plus any loss from agents acting in their own interests. Audit fees, governance structures and incentive schemes are typical examples. Raw materials, interest and advertising are normal business costs not caused by the agency relationship.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c05-q005",
+      "chapter": 5,
+      "topic": "Corporate governance: principles and approaches",
+      "question_text": "Which of the following is a characteristic of a rules-based approach to corporate governance, as exemplified by the US Sarbanes-Oxley Act?",
+      "options": {
+        "A": "Companies are free to depart from requirements if they explain why",
+        "B": "Governance principles are voluntary guidance with no enforcement",
+        "C": "It relies mainly on shareholders deciding whether explanations are adequate",
+        "D": "Governance requirements are set in law and non-compliance can attract legal penalties"
+      },
+      "correct": "D",
+      "explanation": "A rules-based approach makes governance requirements legally binding, so failure to comply can lead to penalties. The Sarbanes-Oxley Act in the US is the usual example. The other options describe a principles-based, comply-or-explain approach.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c05-q006",
+      "chapter": 5,
+      "topic": "Corporate governance: principles and approaches",
+      "question_text": "Which of the following is an advantage of a principles-based approach to corporate governance compared with a rules-based approach?",
+      "options": {
+        "A": "It gives investors certainty that every company follows identical practices",
+        "B": "It removes the need for any disclosure in the annual report",
+        "C": "It is flexible, allowing companies to adapt practices to their own circumstances",
+        "D": "It eliminates the risk that companies will give poor explanations for non-compliance"
+      },
+      "correct": "C",
+      "explanation": "Principles-based codes are flexible and can be applied sensibly to companies of different sizes and circumstances. The drawback is less certainty and the risk of boilerplate or weak explanations. Disclosure is central to comply-or-explain, so it is not removed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c05-q007",
+      "chapter": 5,
+      "topic": "Corporate governance: principles and approaches",
+      "question_text": "An 'insider' system of corporate ownership, common in parts of continental Europe and Asia, is characterised by which of the following?",
+      "options": {
+        "A": "Widely dispersed ownership by many small investors trading on a stock market",
+        "B": "Ownership concentrated in families, banks or other companies with close links to management",
+        "C": "Companies owned exclusively by their employees",
+        "D": "Companies owned and run by the state"
+      },
+      "correct": "B",
+      "explanation": "Insider systems feature concentrated ownership by families, banks, other companies or founders who are close to management, which reduces some agency problems but can disadvantage minority shareholders. Outsider systems, typical of the UK and US, have widely dispersed shareholdings.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c05-q008",
+      "chapter": 5,
+      "topic": "Corporate governance: principles and approaches",
+      "question_text": "Which of the following is NOT generally regarded as a stakeholder of a company?",
+      "options": {
+        "A": "A competitor's shareholders in a different, unrelated industry",
+        "B": "Employees",
+        "C": "Suppliers",
+        "D": "The local community"
+      },
+      "correct": "A",
+      "explanation": "Stakeholders are groups or individuals who affect, or are affected by, the organisation's activities, such as employees, customers, suppliers, lenders, government and local communities. Shareholders of a company in an unrelated industry have no meaningful interest in or influence over the company.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c05-q009",
+      "chapter": 5,
+      "topic": "Corporate governance: principles and approaches",
+      "question_text": "The OECD Principles of Corporate Governance include the equitable treatment of shareholders. Which practice would most clearly breach this principle?",
+      "options": {
+        "A": "Issuing shares with different rights where the rights are disclosed to investors",
+        "B": "Holding a general meeting at which all shareholders may vote",
+        "C": "Publishing price-sensitive information to all shareholders at the same time",
+        "D": "Allowing directors to trade in the company's shares using undisclosed price-sensitive information"
+      },
+      "correct": "D",
+      "explanation": "Equitable treatment requires that all shareholders, including minority and foreign shareholders, are treated fairly and that insider trading and abusive self-dealing are prohibited. Directors trading on undisclosed information benefit at other shareholders' expense. Disclosed differences in class rights, open meetings and simultaneous disclosure are consistent with the principle.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba4-c05-q010",
+      "chapter": 5,
+      "topic": "Corporate governance: principles and approaches",
+      "question_text": "A company has a two-tier board structure. Which statement correctly describes it?",
+      "options": {
+        "A": "Executive and non-executive directors sit together on a single board with collective responsibility",
+        "B": "A supervisory board, which may include employee representatives, oversees a separate management board that runs the business",
+        "C": "The chair and chief executive are always the same person",
+        "D": "There are two boards with identical membership that meet on alternate months"
+      },
+      "correct": "B",
+      "explanation": "In a two-tier structure, common in Germany, a supervisory board (often including employee representatives) appoints and monitors a separate management board of executives. A single board of executive and non-executive directors is a unitary board, as used in the UK. The roles of the two tiers are distinct, so membership is not identical.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba4-c06-q001",
+      "chapter": 6,
+      "topic": "The board of directors and board committees",
+      "question_text": "Why do corporate governance codes recommend that the roles of chair and chief executive should not be held by the same individual?",
+      "options": {
+        "A": "To avoid unfettered powers of decision being concentrated in one person",
+        "B": "To reduce the total salary cost of the board",
+        "C": "Because the law prohibits a single person from holding two offices",
+        "D": "Because the chief executive must always be a non-executive director"
+      },
+      "correct": "A",
+      "explanation": "Splitting the roles ensures a clear division of responsibility between running the board (chair) and running the business (chief executive), so no one individual has unchecked power. It is a governance recommendation rather than a general legal prohibition, and the chief executive is an executive director.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba4-c06-q002",
+      "chapter": 6,
+      "topic": "The board of directors and board committees",
+      "question_text": "Which of the following is a key role of non-executive directors?",
+      "options": {
+        "A": "To run the day-to-day operations of the company",
+        "B": "To prepare the company's monthly management accounts",
+        "C": "To scrutinise and constructively challenge the performance of management",
+        "D": "To act as the company's external auditor"
+      },
+      "correct": "C",
+      "explanation": "Non-executive directors contribute an independent view, constructively challenge strategy and scrutinise management performance, as well as overseeing risk, remuneration and appointments. Day-to-day operations and management accounts are executive responsibilities, and external audit must be independent of the board.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba4-c06-q003",
+      "chapter": 6,
+      "topic": "The board of directors and board committees",
+      "question_text": "Which board committee normally takes the lead in reviewing the integrity of the financial statements and the relationship with the external auditor?",
+      "options": {
+        "A": "Remuneration committee",
+        "B": "Nomination committee",
+        "C": "Audit committee",
+        "D": "Executive committee"
+      },
+      "correct": "C",
+      "explanation": "The audit committee monitors the integrity of financial statements, reviews internal controls and the internal audit function, and oversees the appointment, independence and effectiveness of the external auditor. Remuneration and nomination committees deal with pay and board appointments respectively.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba4-c06-q004",
+      "chapter": 6,
+      "topic": "The board of directors and board committees",
+      "question_text": "Which of the following would most likely cause a non-executive director to be regarded as NOT independent?",
+      "options": {
+        "A": "He holds a non-executive role in an unrelated company",
+        "B": "He receives a fixed fee for his services as a non-executive director",
+        "C": "He has extensive experience in the company's industry",
+        "D": "He was an executive employee of the company until two years ago"
+      },
+      "correct": "D",
+      "explanation": "Governance codes treat recent employment by the company as a circumstance likely to impair independence, because the director may be too close to current management. Holding other unrelated roles, receiving a fixed fee and having industry experience do not of themselves impair independence.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c06-q005",
+      "chapter": 6,
+      "topic": "The board of directors and board committees",
+      "question_text": "What is the main purpose of a remuneration committee composed of independent non-executive directors?",
+      "options": {
+        "A": "To set the pay of all employees in the company",
+        "B": "To ensure that no director is involved in deciding his or her own remuneration",
+        "C": "To approve the company's annual budget",
+        "D": "To appoint the external auditor"
+      },
+      "correct": "B",
+      "explanation": "A key governance principle is that no director should decide their own pay. The remuneration committee of independent non-executives sets executive director remuneration policy, aiming to link it to long-term performance. Employee pay generally, budgets and auditor appointment are outside its core role.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c06-q006",
+      "chapter": 6,
+      "topic": "The board of directors and board committees",
+      "question_text": "Which of the following is a primary responsibility of the nomination committee?",
+      "options": {
+        "A": "Leading the process for board appointments and planning succession",
+        "B": "Monitoring the effectiveness of the internal audit function",
+        "C": "Determining the dividend to be paid to shareholders",
+        "D": "Approving the external auditor's fee"
+      },
+      "correct": "A",
+      "explanation": "The nomination committee leads the process for appointments to the board, considers the balance of skills, experience and diversity, and plans orderly succession. Internal audit oversight and auditor fees belong to the audit committee, and dividends are a board decision.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c06-q007",
+      "chapter": 6,
+      "topic": "The board of directors and board committees",
+      "question_text": "Which of the following is generally regarded as good practice for the remuneration of non-executive directors?",
+      "options": {
+        "A": "Fees reflecting time commitment and responsibilities, without performance-related elements such as share options",
+        "B": "Large bonuses linked to annual profit targets",
+        "C": "Share options that vest when the share price rises",
+        "D": "No payment at all, so that they remain fully independent"
+      },
+      "correct": "A",
+      "explanation": "Governance codes recommend that non-executive remuneration reflects time commitment and responsibilities and should not include share options or other performance-related elements, as these could compromise independence. Paying nothing would make it hard to attract capable people and is not required.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c06-q008",
+      "chapter": 6,
+      "topic": "The board of directors and board committees",
+      "question_text": "Why are board evaluations recommended by corporate governance codes?",
+      "options": {
+        "A": "To determine the market value of the company's shares",
+        "B": "To review the performance of the board, its committees and individual directors and identify improvements",
+        "C": "To decide which shareholders may vote at the annual general meeting",
+        "D": "To replace the need for external audit"
+      },
+      "correct": "B",
+      "explanation": "Formal and rigorous evaluation of the board, its committees, the chair and individual directors helps identify weaknesses in composition, skills or processes and supports re-election decisions. It has nothing to do with share valuation, voting rights or external audit.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba4-c06-q009",
+      "chapter": 6,
+      "topic": "The board of directors and board committees",
+      "question_text": "A listed company's audit committee consists of the finance director, the chief executive and one independent non-executive director. Which criticism is most valid?",
+      "options": {
+        "A": "The committee is too independent, because it should be chaired by the finance director",
+        "B": "There is no problem, because the finance director has the most relevant financial expertise",
+        "C": "The committee should include the external audit partner as a voting member",
+        "D": "The committee lacks independence, because it should be made up of independent non-executive directors"
+      },
+      "correct": "D",
+      "explanation": "Governance codes expect the audit committee of a listed company to comprise independent non-executive directors, at least one with recent and relevant financial experience. Executives on the committee would be overseeing their own work, a self-review problem. The external auditor attends to report but must not be a member, to preserve independence.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba4-c06-q010",
+      "chapter": 6,
+      "topic": "The board of directors and board committees",
+      "question_text": "The senior independent director (SID) of a listed company is most likely to be expected to do which of the following?",
+      "options": {
+        "A": "Run the company's operations when the chief executive is absent",
+        "B": "Chair the audit committee and sign the audit report",
+        "C": "Act as a sounding board for the chair and an intermediary for other directors and shareholders when normal channels have failed",
+        "D": "Approve all related-party transactions without board involvement"
+      },
+      "correct": "C",
+      "explanation": "The SID provides a sounding board for the chair, serves as an intermediary for the other directors and is available to shareholders when contact through the chair or executives has failed or is inappropriate. The SID also typically leads the evaluation of the chair. Running operations, signing audit reports and bypassing the board are not SID functions.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba4-c07-q001",
+      "chapter": 7,
+      "topic": "Internal control, risk and audit",
+      "question_text": "Which of the following is NOT one of the five components of internal control in the COSO framework?",
+      "options": {
+        "A": "Control environment",
+        "B": "Risk assessment",
+        "C": "Monitoring activities",
+        "D": "Strategic planning"
+      },
+      "correct": "D",
+      "explanation": "The COSO components are control environment, risk assessment, control activities, information and communication, and monitoring activities. Strategic planning is a management process but is not one of the five internal control components.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba4-c07-q002",
+      "chapter": 7,
+      "topic": "Internal control, risk and audit",
+      "question_text": "Who is ultimately responsible for a company's system of internal control?",
+      "options": {
+        "A": "The board of directors",
+        "B": "The external auditor",
+        "C": "The internal auditor",
+        "D": "The shareholders"
+      },
+      "correct": "A",
+      "explanation": "The board is responsible for the company's risk management and internal control systems and for reviewing their effectiveness. Internal audit evaluates controls and reports to the board or audit committee, and the external auditor considers controls for the audit, but neither is responsible for them.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba4-c07-q003",
+      "chapter": 7,
+      "topic": "Internal control, risk and audit",
+      "question_text": "Requiring two separate people to authorise and record a payment is an example of which type of control?",
+      "options": {
+        "A": "Physical control",
+        "B": "Arithmetic control",
+        "C": "Segregation of duties",
+        "D": "Supervision control"
+      },
+      "correct": "C",
+      "explanation": "Segregation of duties splits authorising, recording and custody between different people, so that one person cannot both commit and conceal an error or fraud. Physical controls protect assets, arithmetic controls check calculations, and supervision is oversight by a manager.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba4-c07-q004",
+      "chapter": 7,
+      "topic": "Internal control, risk and audit",
+      "question_text": "Which of the following best describes the 'control environment'?",
+      "options": {
+        "A": "The specific procedures such as reconciliations and authorisations",
+        "B": "The overall attitude, awareness and actions of directors and management regarding internal control, including 'tone at the top'",
+        "C": "The computer systems used to record transactions",
+        "D": "The external auditor's assessment of risk"
+      },
+      "correct": "B",
+      "explanation": "The control environment is the foundation of internal control, covering management's philosophy and operating style, integrity and ethical values, organisational structure and commitment to competence. Reconciliations and authorisations are control activities. IT systems and auditor assessments are not the control environment itself.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c07-q005",
+      "chapter": 7,
+      "topic": "Internal control, risk and audit",
+      "question_text": "Which of the following is a key difference between internal audit and external audit?",
+      "options": {
+        "A": "Internal audit is required by law for all companies, but external audit is optional",
+        "B": "External audit gives an opinion on the financial statements to shareholders, whereas internal audit is an appraisal function serving management and the board",
+        "C": "External auditors are employees of the company, whereas internal auditors are always external firms",
+        "D": "Internal audit gives an opinion on the truth and fairness of the financial statements"
+      },
+      "correct": "B",
+      "explanation": "External auditors report to shareholders on whether the financial statements give a true and fair view. Internal audit is an independent appraisal function established by the organisation to review risk management, controls and operations for management and the audit committee. Internal audit is not universally required by law, and external auditors must be independent of the company.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c07-q006",
+      "chapter": 7,
+      "topic": "Internal control, risk and audit",
+      "question_text": "To whom should the head of internal audit ideally have direct access in order to protect independence?",
+      "options": {
+        "A": "The finance director only",
+        "B": "The sales director",
+        "C": "The company's bank",
+        "D": "The audit committee"
+      },
+      "correct": "D",
+      "explanation": "Internal audit independence is supported by a direct reporting line to the audit committee, so that findings about the finance function or senior executives cannot be suppressed. Reporting only to the finance director would create a conflict where internal audit reviews finance department controls.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c07-q007",
+      "chapter": 7,
+      "topic": "Internal control, risk and audit",
+      "question_text": "Which of the following is a limitation of any system of internal control?",
+      "options": {
+        "A": "Controls eliminate all risk of error once in place",
+        "B": "Controls make the external audit unnecessary",
+        "C": "Controls can be overridden by management or circumvented by collusion",
+        "D": "Controls cannot be documented"
+      },
+      "correct": "C",
+      "explanation": "Internal control provides reasonable, not absolute, assurance. Limitations include human error, collusion between staff, management override and the cost of controls exceeding benefits. Controls do not remove all risk or replace external audit, and they can be documented.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c07-q008",
+      "chapter": 7,
+      "topic": "Internal control, risk and audit",
+      "question_text": "Which of the following describes a 'detective' control?",
+      "options": {
+        "A": "A monthly bank reconciliation that identifies unrecorded or incorrect transactions",
+        "B": "Requiring passwords before staff can access the payroll system",
+        "C": "Training staff before they process invoices",
+        "D": "Locking inventory in a secure warehouse"
+      },
+      "correct": "A",
+      "explanation": "Detective controls identify errors or irregularities after they have occurred, such as reconciliations and exception reports. Passwords, training and physical locks are preventive controls designed to stop problems happening in the first place.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c07-q009",
+      "chapter": 7,
+      "topic": "Internal control, risk and audit",
+      "question_text": "A company's purchase ledger clerk can set up new suppliers, approve invoices and make payments. Which risk is greatest and which control would best address it?",
+      "options": {
+        "A": "Overstated sales; introduce sequentially numbered sales invoices",
+        "B": "Payments to fictitious suppliers; segregate supplier set-up, approval and payment between different staff",
+        "C": "Theft of inventory; install CCTV in the warehouse",
+        "D": "Errors in depreciation; require an annual impairment review"
+      },
+      "correct": "B",
+      "explanation": "When one person controls the whole purchasing and payment cycle, they could create a fictitious supplier and pay it without detection. Segregating supplier set-up, authorisation and payment is the key control. The other options address unrelated risks in the sales, inventory and non-current asset cycles.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba4-c07-q010",
+      "chapter": 7,
+      "topic": "Internal control, risk and audit",
+      "question_text": "Which statement about the board's responsibility for risk management in a listed company is most consistent with good governance practice?",
+      "options": {
+        "A": "The board should delegate all responsibility for risk to the external auditor",
+        "B": "The board need only consider risk when the company makes a loss",
+        "C": "The board should aim to eliminate all business risk",
+        "D": "The board should determine the nature and extent of the principal risks it is willing to take and review the effectiveness of risk management and internal control at least annually"
+      },
+      "correct": "D",
+      "explanation": "Governance codes require the board to determine the principal risks it is willing to take in pursuing objectives (its risk appetite), maintain sound risk management and internal control systems and review their effectiveness at least annually. Responsibility cannot be delegated to the auditor, and risk cannot and should not be eliminated, since taking risk is needed to earn returns.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba4-c08-q001",
+      "chapter": 8,
+      "topic": "Corporate social responsibility and sustainability",
+      "question_text": "Which of the following best describes corporate social responsibility (CSR)?",
+      "options": {
+        "A": "The voluntary commitment of a business to act ethically and contribute to economic development while improving the quality of life of employees, communities and society",
+        "B": "A legal duty to maximise profits for shareholders",
+        "C": "A tax charged on large companies by government",
+        "D": "The obligation to publish audited financial statements"
+      },
+      "correct": "A",
+      "explanation": "CSR refers to an organisation taking responsibility for the impact of its activities on stakeholders and society beyond legal minimums. It is largely voluntary. Profit maximisation, taxes and audited accounts are legal or economic obligations, not CSR.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba4-c08-q002",
+      "chapter": 8,
+      "topic": "Corporate social responsibility and sustainability",
+      "question_text": "The 'triple bottom line' requires organisations to report on which three dimensions of performance?",
+      "options": {
+        "A": "Revenue, costs and profit",
+        "B": "Assets, liabilities and equity",
+        "C": "Economic, social and environmental",
+        "D": "Shareholders, directors and auditors"
+      },
+      "correct": "C",
+      "explanation": "The triple bottom line, associated with John Elkington, broadens reporting from purely financial results to economic (profit), social (people) and environmental (planet) performance. The other options are financial statement elements or governance parties.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba4-c08-q003",
+      "chapter": 8,
+      "topic": "Corporate social responsibility and sustainability",
+      "question_text": "In Carroll's pyramid of corporate social responsibility, which responsibility forms the base of the pyramid?",
+      "options": {
+        "A": "Philanthropic responsibility",
+        "B": "Ethical responsibility",
+        "C": "Legal responsibility",
+        "D": "Economic responsibility"
+      },
+      "correct": "D",
+      "explanation": "Carroll's pyramid has four levels: economic (be profitable) at the base, then legal (obey the law), ethical (do what is right and fair) and philanthropic (be a good corporate citizen) at the top. A business must be economically viable to fulfil the higher responsibilities.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba4-c08-q004",
+      "chapter": 8,
+      "topic": "Corporate social responsibility and sustainability",
+      "question_text": "Which view of CSR is most closely associated with the economist Milton Friedman?",
+      "options": {
+        "A": "Businesses should give a fixed percentage of profit to charity",
+        "B": "Managers must balance the interests of all stakeholders equally",
+        "C": "The social responsibility of business is to increase its profits, within the rules of the game",
+        "D": "Businesses have no obligation even to obey the law"
+      },
+      "correct": "C",
+      "explanation": "Friedman argued that the main social responsibility of business is to use its resources to increase profits, provided it stays within the rules of the game, meaning open and free competition without deception or fraud. He did not argue that businesses can ignore the law, and the balancing of stakeholder interests reflects stakeholder theory.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c08-q005",
+      "chapter": 8,
+      "topic": "Corporate social responsibility and sustainability",
+      "question_text": "A manufacturer pays suppliers in developing countries a fair price, monitors their labour conditions and refuses to use child labour. Which area of CSR does this primarily address?",
+      "options": {
+        "A": "Shareholder dividend policy",
+        "B": "Responsible supply chain management and human rights",
+        "C": "Capital structure",
+        "D": "Tax planning"
+      },
+      "correct": "B",
+      "explanation": "Ensuring fair dealing with suppliers and acceptable labour conditions throughout the supply chain is a central part of CSR concerning human rights and ethical sourcing. Dividends, capital structure and tax planning are financial decisions with little direct link to these issues.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c08-q006",
+      "chapter": 8,
+      "topic": "Corporate social responsibility and sustainability",
+      "question_text": "Which of the following is the best example of sustainable business practice?",
+      "options": {
+        "A": "Meeting present needs without compromising the ability of future generations to meet their own needs",
+        "B": "Maximising short-term output regardless of resource depletion",
+        "C": "Expanding into as many markets as possible each year",
+        "D": "Keeping prices constant for as long as possible"
+      },
+      "correct": "A",
+      "explanation": "Sustainability, as defined by the Brundtland Report, means development that meets the needs of the present without compromising the ability of future generations to meet their own needs. Practices that deplete resources for short-term output are unsustainable, and market expansion and price stability are unrelated concepts.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba4-c08-q007",
+      "chapter": 8,
+      "topic": "Corporate social responsibility and sustainability",
+      "question_text": "Which of the following is a likely business benefit of a strong CSR policy?",
+      "options": {
+        "A": "Improved reputation, helping to attract customers, employees and investors",
+        "B": "Guaranteed exemption from environmental legislation",
+        "C": "Elimination of all competition in the market",
+        "D": "Removal of the need for corporate governance"
+      },
+      "correct": "A",
+      "explanation": "Effective CSR can strengthen brand reputation, customer loyalty, staff recruitment and retention, and access to capital from responsible investors. It does not exempt a company from law, eliminate competitors or replace governance requirements.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba4-c08-q008",
+      "chapter": 8,
+      "topic": "Corporate social responsibility and sustainability",
+      "question_text": "Which stakeholder theory approach holds that managers should consider stakeholder interests because doing so will ultimately improve long-term financial performance?",
+      "options": {
+        "A": "The normative view",
+        "B": "The instrumental view",
+        "C": "The shareholder primacy view",
+        "D": "The legal compliance view"
+      },
+      "correct": "B",
+      "explanation": "The instrumental view of stakeholder theory treats attention to stakeholders as a means to an end: satisfying stakeholders improves long-term profitability. The normative view holds that stakeholders have intrinsic moral claims regardless of financial benefit. Shareholder primacy rejects broader stakeholder duties.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c08-q009",
+      "chapter": 8,
+      "topic": "Corporate social responsibility and sustainability",
+      "question_text": "Under English law, section 172 of the Companies Act 2006 requires directors to promote the success of the company for the benefit of its members as a whole. Which of the following must directors also have regard to in doing so?",
+      "options": {
+        "A": "The personal political views of the majority shareholder",
+        "B": "The profits of the company's competitors",
+        "C": "The impact of the company's operations on the community and the environment",
+        "D": "The directors' own personal tax position"
+      },
+      "correct": "C",
+      "explanation": "Section 172 lists factors that directors must have regard to, including the long-term consequences of decisions, employees' interests, relationships with suppliers and customers, the impact on the community and the environment, high standards of business conduct and acting fairly between members. This is often called 'enlightened shareholder value' and links company law to CSR.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba4-c08-q010",
+      "chapter": 8,
+      "topic": "Corporate social responsibility and sustainability",
+      "question_text": "A company publishes a glossy sustainability report highlighting a small tree-planting project while its main factory continues to breach pollution limits. Which term best describes this behaviour and which principle does it threaten?",
+      "options": {
+        "A": "Philanthropy; it demonstrates the top level of Carroll's pyramid",
+        "B": "Triple bottom line reporting; it shows balanced performance",
+        "C": "Stakeholder mapping; it identifies key players",
+        "D": "Greenwashing; it threatens integrity because the reporting is misleading"
+      },
+      "correct": "D",
+      "explanation": "Greenwashing is presenting a misleading impression of environmental responsibility through selective disclosure. Accountants associated with such reporting risk breaching integrity, which forbids being associated with misleading information. It is neither genuine philanthropy nor balanced triple bottom line reporting, since it ignores legal breaches at the base of Carroll's pyramid.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba4-c09-q001",
+      "chapter": 9,
+      "topic": "General principles of law: legal systems and sources of law",
+      "question_text": "Which of the following is a key feature of a civil law system, as found in much of continental Europe?",
+      "options": {
+        "A": "The law is largely set out in comprehensive written codes",
+        "B": "The law is developed mainly through judges' decisions in individual cases",
+        "C": "There is no written law of any kind",
+        "D": "Only religious texts are a source of law"
+      },
+      "correct": "A",
+      "explanation": "Civil (codified) law systems rely primarily on comprehensive legal codes, with judges applying the code to the facts. Common law systems such as England's rely heavily on judicial precedent alongside legislation. Religious texts are central in Sharia-based systems.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba4-c09-q002",
+      "chapter": 9,
+      "topic": "General principles of law: legal systems and sources of law",
+      "question_text": "In a civil case under English law, what is the standard of proof?",
+      "options": {
+        "A": "Beyond reasonable doubt",
+        "B": "Beyond all possible doubt",
+        "C": "On the balance of probabilities",
+        "D": "On the evidence of at least two witnesses"
+      },
+      "correct": "C",
+      "explanation": "In civil cases the claimant must prove the case on the balance of probabilities, meaning it is more likely than not. In criminal cases the prosecution must prove guilt beyond reasonable doubt, a higher standard because a person's liberty may be at stake.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba4-c09-q003",
+      "chapter": 9,
+      "topic": "General principles of law: legal systems and sources of law",
+      "question_text": "Under English law, which part of a judgment creates a binding precedent for lower courts?",
+      "options": {
+        "A": "The obiter dicta",
+        "B": "The dissenting judgment",
+        "C": "The headnote written by the law reporter",
+        "D": "The ratio decidendi"
+      },
+      "correct": "D",
+      "explanation": "The ratio decidendi is the legal reasoning necessary for the decision and is binding on lower courts in later cases with similar material facts. Obiter dicta are things said by the way and are only persuasive. Dissenting judgments and headnotes are not binding.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba4-c09-q004",
+      "chapter": 9,
+      "topic": "General principles of law: legal systems and sources of law",
+      "question_text": "Which of the following is an example of delegated (secondary) legislation in the UK?",
+      "options": {
+        "A": "An Act of Parliament",
+        "B": "A statutory instrument made by a government minister under powers granted by an Act of Parliament",
+        "C": "A decision of the Supreme Court",
+        "D": "A textbook written by a leading academic"
+      },
+      "correct": "B",
+      "explanation": "Delegated legislation is law made by a person or body under authority given by Parliament in an enabling (parent) Act. Statutory instruments, byelaws and Orders in Council are the main forms. An Act is primary legislation, court decisions are case law, and textbooks are at most persuasive.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c09-q005",
+      "chapter": 9,
+      "topic": "General principles of law: legal systems and sources of law",
+      "question_text": "A judge interprets a statute by looking at what problem the Act was intended to remedy and interpreting it to address that problem. Which rule of statutory interpretation is being applied?",
+      "options": {
+        "A": "The mischief rule",
+        "B": "The literal rule",
+        "C": "The golden rule",
+        "D": "The ejusdem generis rule"
+      },
+      "correct": "A",
+      "explanation": "The mischief rule, from Heydon's Case, asks what the law was before the Act, what defect (mischief) it was intended to remedy, and interprets the Act to suppress that mischief. The literal rule gives words their plain meaning, the golden rule modifies a literal meaning to avoid absurdity, and ejusdem generis is a linguistic rule for general words following specific ones.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c09-q006",
+      "chapter": 9,
+      "topic": "General principles of law: legal systems and sources of law",
+      "question_text": "Which of the following is an advantage of judicial precedent as a source of law?",
+      "options": {
+        "A": "It allows judges to ignore earlier decisions they disagree with",
+        "B": "It means that law is always developed quickly in response to new issues",
+        "C": "It requires no written records of decisions",
+        "D": "It provides certainty, because similar cases are decided in a similar way"
+      },
+      "correct": "D",
+      "explanation": "Binding precedent promotes certainty and consistency, so people can predict how the courts will decide. Its disadvantages include rigidity, since lower courts must follow decisions they may consider wrong, and slow, case-dependent development. Precedent depends heavily on law reporting.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c09-q007",
+      "chapter": 9,
+      "topic": "General principles of law: legal systems and sources of law",
+      "question_text": "Why was equity developed in English law?",
+      "options": {
+        "A": "To replace Acts of Parliament with judge-made rules",
+        "B": "To create criminal offences not covered by statute",
+        "C": "To provide fairness where the strict rules of common law produced unjust results or inadequate remedies",
+        "D": "To apply religious law in commercial disputes"
+      },
+      "correct": "C",
+      "explanation": "Equity developed through the Court of Chancery to mitigate the rigidity of the common law, which offered only damages and could produce unfair outcomes. It introduced discretionary remedies such as specific performance, injunctions and rescission. Where common law and equity conflict, equity prevails.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c09-q008",
+      "chapter": 9,
+      "topic": "General principles of law: legal systems and sources of law",
+      "question_text": "Which of the following statements about Sharia law is correct?",
+      "options": {
+        "A": "It is a purely secular system with no religious basis",
+        "B": "Its primary sources are the Qur'an and the Sunnah (the practice of the Prophet)",
+        "C": "It is based mainly on the decisions of English courts",
+        "D": "It only governs criminal matters and has no application to commerce"
+      },
+      "correct": "B",
+      "explanation": "Sharia law derives principally from the Qur'an and the Sunnah, supplemented by sources such as ijma (consensus) and qiyas (analogical reasoning). It covers many areas of life, including commercial dealings, for example through the prohibition of riba (interest). It is religious, not secular, and is independent of English case law.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c09-q009",
+      "chapter": 9,
+      "topic": "General principles of law: legal systems and sources of law",
+      "question_text": "Under English law, which of the following statements about the hierarchy of the courts and precedent is correct?",
+      "options": {
+        "A": "The High Court binds the Court of Appeal",
+        "B": "Decisions of the Supreme Court bind all lower courts, but the Supreme Court may depart from its own previous decisions where it appears right to do so",
+        "C": "Magistrates' court decisions create binding precedents for the Crown Court",
+        "D": "The Supreme Court is always bound by its own previous decisions"
+      },
+      "correct": "B",
+      "explanation": "The Supreme Court (formerly the House of Lords) is at the top of the domestic hierarchy and binds all lower courts. Since the 1966 Practice Statement it may depart from its previous decisions when it appears right to do so. Lower courts do not bind higher ones, and magistrates' courts do not create binding precedent.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba4-c09-q010",
+      "chapter": 9,
+      "topic": "General principles of law: legal systems and sources of law",
+      "question_text": "Under English law, which three elements must a claimant prove to succeed in the tort of negligence?",
+      "options": {
+        "A": "An offer, an acceptance and consideration",
+        "B": "The defendant intended to cause harm, acted dishonestly and made a profit",
+        "C": "A written contract, a breach of contract and a court order",
+        "D": "A duty of care was owed, the duty was breached, and the breach caused damage that was not too remote"
+      },
+      "correct": "D",
+      "explanation": "Negligence requires a duty of care (Donoghue v Stevenson and the Caparo three-stage test), a breach of that duty by falling below the standard of the reasonable person, and resulting damage caused by the breach that is not too remote. Offer, acceptance and consideration are contract elements. Intent and dishonesty are not required for negligence.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba4-c10-q001",
+      "chapter": 10,
+      "topic": "Law of contract: formation",
+      "question_text": "Under English law, a shop displays goods on its shelves with price labels. What is the legal status of the display?",
+      "options": {
+        "A": "An offer",
+        "B": "An acceptance",
+        "C": "An invitation to treat",
+        "D": "A binding contract"
+      },
+      "correct": "C",
+      "explanation": "Displays of goods in shops are invitations to treat, inviting customers to make offers (Pharmaceutical Society of Great Britain v Boots; Fisher v Bell). The customer makes the offer at the till, and the shop accepts or rejects it. This lets the shop refuse to sell, for example if a price is mislabelled.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba4-c10-q002",
+      "chapter": 10,
+      "topic": "Law of contract: formation",
+      "question_text": "Under English law, which of the following terminates an offer?",
+      "options": {
+        "A": "A counter-offer by the offeree",
+        "B": "A request for further information about the terms",
+        "C": "The offeror's private change of mind, not communicated",
+        "D": "The offeree's silence"
+      },
+      "correct": "A",
+      "explanation": "A counter-offer rejects the original offer and replaces it with a new one (Hyde v Wrench). A mere request for information does not destroy the offer (Stevenson v McLean). Revocation is only effective when communicated, and silence cannot amount to acceptance or rejection.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba4-c10-q003",
+      "chapter": 10,
+      "topic": "Law of contract: formation",
+      "question_text": "Under English law, which of the following is presumed NOT to be intended to create legal relations?",
+      "options": {
+        "A": "An agreement between two companies for the supply of goods",
+        "B": "A contract of employment",
+        "C": "An agreement between spouses living together about household expenses",
+        "D": "An agreement to buy a car from a dealer"
+      },
+      "correct": "C",
+      "explanation": "In domestic and social agreements there is a rebuttable presumption that the parties do not intend legal relations (Balfour v Balfour). In commercial agreements there is a strong presumption that they do. The presumption can be rebutted by evidence, for example where separated spouses make a formal agreement.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba4-c10-q004",
+      "chapter": 10,
+      "topic": "Law of contract: formation",
+      "question_text": "On 1 March, Ann posts a letter accepting Ben's offer. On 2 March, Ben posts a letter revoking the offer. Ann's letter arrives on 3 March and Ben's arrives on 4 March. Under English law, assuming the postal rule applies, is there a contract?",
+      "options": {
+        "A": "No, because Ben revoked the offer before Ann's acceptance arrived",
+        "B": "Yes, but only from 3 March when Ben received the acceptance",
+        "C": "No, because postal acceptances are never valid",
+        "D": "Yes, a contract was formed on 1 March when Ann posted her acceptance"
+      },
+      "correct": "D",
+      "explanation": "Under the postal rule, acceptance is complete when a properly addressed and stamped letter is posted (Adams v Lindsell), so a contract arose on 1 March. Revocation is only effective when actually received by the offeree (Byrne v Van Tienhoven), and Ben's revocation arrived after the contract was formed, so it was too late.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c10-q005",
+      "chapter": 10,
+      "topic": "Law of contract: formation",
+      "question_text": "Under English law, which statement about consideration is correct?",
+      "options": {
+        "A": "Consideration must be sufficient but need not be adequate",
+        "B": "Consideration must be equal in value to what is received",
+        "C": "Past consideration is always good consideration",
+        "D": "Consideration must move to the promisee from a third party"
+      },
+      "correct": "A",
+      "explanation": "The courts will not assess whether a bargain is a good one; consideration need only have some value in the eyes of the law (Chappell v Nestle, where chocolate wrappers were sufficient). Past consideration is generally not good consideration (Re McArdle), and consideration must move from the promisee.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c10-q006",
+      "chapter": 10,
+      "topic": "Law of contract: formation",
+      "question_text": "A company advertises: 'We will pay a reward to anyone who returns our lost laptop.' Under English law, what type of offer is this, and how is it accepted?",
+      "options": {
+        "A": "An invitation to treat, accepted by contacting the company",
+        "B": "A unilateral offer, accepted by performing the requested act",
+        "C": "A bilateral offer, accepted by written notice before performance",
+        "D": "A counter-offer, accepted by the company paying the reward"
+      },
+      "correct": "B",
+      "explanation": "A reward advertisement is a unilateral offer made to the world, which is accepted by performing the stated act, without the need to communicate acceptance in advance (Carlill v Carbolic Smoke Ball Co). It is not an invitation to treat because the terms are definite and the promisor intends to be bound.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c10-q007",
+      "chapter": 10,
+      "topic": "Law of contract: formation",
+      "question_text": "Dee painted Ed's house. A week after the job was finished, Ed promised to pay Dee an extra £300 as a thank you. Under English law, can Dee enforce Ed's promise?",
+      "options": {
+        "A": "Yes, because painting a house is valuable consideration",
+        "B": "Yes, because any promise made in writing is enforceable",
+        "C": "No, because Dee's consideration is past",
+        "D": "No, because Dee lacks capacity to contract"
+      },
+      "correct": "C",
+      "explanation": "Past consideration, meaning an act completed before the promise was made, is not good consideration (Re McArdle). The exception in Lampleigh v Braithwait requires the act to be done at the promisor's request with an understanding that payment would be made, which is not shown here as the promise is a gratuitous thank you.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c10-q008",
+      "chapter": 10,
+      "topic": "Law of contract: formation",
+      "question_text": "Under English law, which statement about the capacity of a minor (a person under 18) to contract is correct?",
+      "options": {
+        "A": "A minor is bound to pay a reasonable price for necessaries actually supplied",
+        "B": "A minor can never be bound by any contract",
+        "C": "A minor is bound by all contracts in the same way as an adult",
+        "D": "A minor's contracts are binding only if the minor is over 16"
+      },
+      "correct": "A",
+      "explanation": "Contracts for necessaries, meaning goods and services suitable to the minor's condition in life and actual requirements, are binding, and the minor must pay a reasonable price. Beneficial contracts of service are also binding. Many other contracts are not enforceable against the minor.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c10-q009",
+      "chapter": 10,
+      "topic": "Law of contract: formation",
+      "question_text": "A builder agrees to complete work for a fixed price. Midway, the client, worried about delay penalties under its own contract, promises extra payment if the builder finishes on time. The builder does so. Under English law, which case most supports the builder enforcing the extra payment?",
+      "options": {
+        "A": "Stilk v Myrick, because performing an existing contractual duty is always good consideration",
+        "B": "Williams v Roffey Bros, because the client obtained a practical benefit and there was no duress",
+        "C": "Foakes v Beer, because part payment of a debt discharges the whole debt",
+        "D": "Balfour v Balfour, because the agreement is commercial"
+      },
+      "correct": "B",
+      "explanation": "Performing an existing contractual duty owed to the promisor is generally not good consideration (Stilk v Myrick). However, Williams v Roffey Bros held that where the promisor obtains a practical benefit, such as avoiding a penalty clause, and there is no economic duress or fraud, the promise of extra payment can be enforced. Foakes v Beer concerns part payment of debts.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba4-c10-q010",
+      "chapter": 10,
+      "topic": "Law of contract: formation",
+      "question_text": "Under English law, a landlord agreed during a crisis to accept half rent from a tenant. When the crisis ended, the landlord claimed full rent for the future. Which doctrine applied, and with what effect?",
+      "options": {
+        "A": "Postal rule; the original rent was reinstated from the date of posting",
+        "B": "Privity of contract; the tenant could not rely on the promise",
+        "C": "Past consideration; the landlord's promise was void from the beginning",
+        "D": "Promissory estoppel; the landlord could not recover the full rent for the crisis period but could revert to full rent on reasonable notice once the crisis ended"
+      },
+      "correct": "D",
+      "explanation": "In Central London Property Trust v High Trees House, promissory estoppel prevented the landlord from going back on a promise, relied on by the tenant, to accept reduced rent during the war. The doctrine is suspensory: once the conditions ended, full rent could be claimed for the future. It acts as a shield, not a sword.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba4-c11-q001",
+      "chapter": 11,
+      "topic": "Law of contract: terms, breach and remedies",
+      "question_text": "Under English law, what is the remedy for breach of a warranty?",
+      "options": {
+        "A": "Termination of the contract and damages",
+        "B": "Damages only",
+        "C": "Specific performance only",
+        "D": "Rescission of the contract only"
+      },
+      "correct": "B",
+      "explanation": "A warranty is a minor term, collateral to the main purpose of the contract, and breach entitles the innocent party to damages only. Breach of a condition, which goes to the root of the contract, allows the innocent party to terminate and claim damages.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba4-c11-q002",
+      "chapter": 11,
+      "topic": "Law of contract: terms, breach and remedies",
+      "question_text": "Under English law, what is the standard limitation period for bringing an action for breach of a simple contract?",
+      "options": {
+        "A": "Twelve years from the date the contract was made",
+        "B": "Three years from the date of breach",
+        "C": "One year from the date of breach",
+        "D": "Six years from the date of breach"
+      },
+      "correct": "D",
+      "explanation": "Under the Limitation Act 1980, an action for breach of a simple contract must be brought within six years from the date the cause of action accrued, normally the date of breach. For contracts made by deed, the period is twelve years.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba4-c11-q003",
+      "chapter": 11,
+      "topic": "Law of contract: terms, breach and remedies",
+      "question_text": "Which of the following is an equitable remedy?",
+      "options": {
+        "A": "Specific performance",
+        "B": "Liquidated damages",
+        "C": "Nominal damages",
+        "D": "An action for the price"
+      },
+      "correct": "A",
+      "explanation": "Specific performance is an equitable remedy ordering a party to perform its contractual obligations. Equitable remedies are discretionary and are generally granted only where damages would be inadequate, for example in contracts for land or unique goods. Damages and actions for the price are common law remedies.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba4-c11-q004",
+      "chapter": 11,
+      "topic": "Law of contract: terms, breach and remedies",
+      "question_text": "A contract states that the seller will deliver goods by 1 June. On 1 May, the seller tells the buyer it will not deliver at all. Under English law, what is the buyer's position?",
+      "options": {
+        "A": "The buyer must wait until 1 June before taking any action",
+        "B": "There is no breach until the goods are due, so the buyer has no remedy",
+        "C": "This is anticipatory breach; the buyer may sue immediately or wait until the performance date",
+        "D": "The contract is automatically discharged by frustration"
+      },
+      "correct": "C",
+      "explanation": "When one party indicates before performance is due that it will not perform, this is anticipatory breach. The innocent party may treat the contract as ended and sue immediately (Hochster v De la Tour), or affirm it and wait for the performance date, accepting the risk of later events. Refusal to perform is not frustration.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c11-q005",
+      "chapter": 11,
+      "topic": "Law of contract: terms, breach and remedies",
+      "question_text": "Under English law, which statement about exclusion clauses is correct?",
+      "options": {
+        "A": "Any exclusion clause is valid if it appears anywhere in a signed contract, regardless of statute",
+        "B": "An exclusion clause printed on a receipt given after the contract is made is always incorporated",
+        "C": "Ambiguities in an exclusion clause are interpreted in favour of the party relying on it",
+        "D": "Liability for death or personal injury resulting from negligence cannot be excluded"
+      },
+      "correct": "D",
+      "explanation": "Under statute (the Unfair Contract Terms Act 1977 for business contracts, and the Consumer Rights Act 2015 for consumer contracts), liability for death or personal injury caused by negligence cannot be excluded. Notice must be given before or at the time of contracting (Olley v Marlborough Court Hotel), and ambiguities are construed against the party relying on the clause (contra proferentem).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c11-q006",
+      "chapter": 11,
+      "topic": "Law of contract: terms, breach and remedies",
+      "question_text": "Under English law, the rule in Hadley v Baxendale concerns which aspect of damages?",
+      "options": {
+        "A": "Mitigation: the claimant must take reasonable steps to reduce the loss",
+        "B": "Penalties: a clause imposing a disproportionate sum is unenforceable",
+        "C": "Remoteness: losses are recoverable if they arise naturally from the breach or were in the reasonable contemplation of both parties when contracting",
+        "D": "Nominal damages: a small sum is awarded where no loss is proven"
+      },
+      "correct": "C",
+      "explanation": "Hadley v Baxendale established the two limbs of remoteness: losses arising naturally in the usual course of things from the breach, and losses that may reasonably be supposed to have been in the contemplation of both parties at the time of contracting as the probable result of breach. Other losses are too remote to recover.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c11-q007",
+      "chapter": 11,
+      "topic": "Law of contract: terms, breach and remedies",
+      "question_text": "Kiran agreed to buy machinery from Lee for £40,000. Lee breached the contract by failing to deliver. Kiran bought an identical machine elsewhere for £46,000. Kiran also lost profits of £3,000 that were in both parties' reasonable contemplation. Under English law, what damages can Kiran most likely claim?",
+      "options": {
+        "A": "£6,000",
+        "B": "£9,000",
+        "C": "£46,000",
+        "D": "£49,000"
+      },
+      "correct": "B",
+      "explanation": "Expectation damages aim to put Kiran in the position she would have been in had the contract been performed. Extra cost of a substitute machine = £46,000 - £40,000 = £6,000. Add the foreseeable lost profit of £3,000, giving £6,000 + £3,000 = £9,000. She cannot recover the full £46,000, because she would have paid £40,000 in any event.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c11-q008",
+      "chapter": 11,
+      "topic": "Law of contract: terms, breach and remedies",
+      "question_text": "Under English law, what is the effect of a valid liquidated damages clause?",
+      "options": {
+        "A": "The innocent party recovers the agreed sum on breach, regardless of whether actual loss is higher or lower",
+        "B": "The innocent party must prove its actual loss before recovering anything",
+        "C": "The clause is void because damages can only be set by a court",
+        "D": "The innocent party recovers the agreed sum plus any additional actual loss"
+      },
+      "correct": "A",
+      "explanation": "A liquidated damages clause is a genuine attempt, agreed in advance, to set damages for breach. If valid, the agreed sum is recoverable whether actual loss is greater or smaller. A clause imposing a detriment out of all proportion to any legitimate interest of the innocent party is an unenforceable penalty (Cavendish Square Holding v Makdessi).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c11-q009",
+      "chapter": 11,
+      "topic": "Law of contract: terms, breach and remedies",
+      "question_text": "A singer contracts to perform at a concert but refuses to attend. The organiser asks the court to order her to perform. Under English law, what is the court most likely to do?",
+      "options": {
+        "A": "Order specific performance, because it is available as of right for any breach",
+        "B": "Refuse specific performance, because the courts will not order performance of contracts for personal services, and award damages instead",
+        "C": "Order the singer to be imprisoned until she performs",
+        "D": "Refuse any remedy, because the organiser should have included a penalty clause"
+      },
+      "correct": "B",
+      "explanation": "Specific performance is discretionary and is not granted for contracts of personal service, because forcing someone to work would be oppressive and impossible to supervise. The organiser would be awarded damages. In some cases an injunction may restrain the singer from performing elsewhere in breach of an express negative stipulation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba4-c11-q010",
+      "chapter": 11,
+      "topic": "Law of contract: terms, breach and remedies",
+      "question_text": "Under English law, a ship is chartered for 24 months. Due to the owner's breach of a term requiring the ship to be 'seaworthy', the ship is out of service for five weeks. The term could be broken in trivial or serious ways. How is the term classified and what is the charterer's remedy?",
+      "options": {
+        "A": "A condition; the charterer may always terminate the contract",
+        "B": "A warranty; the charterer may never terminate, whatever the consequences",
+        "C": "An exclusion clause; the charterer has no remedy",
+        "D": "An innominate term; the charterer can claim damages but can only terminate if the breach deprives it of substantially the whole benefit of the contract"
+      },
+      "correct": "D",
+      "explanation": "Following Hong Kong Fir Shipping v Kawasaki, a term that can be broken in ways ranging from trivial to serious is innominate. The remedy depends on the seriousness of the consequences: termination is available only if the breach deprives the innocent party of substantially the whole benefit intended. A five-week delay in a 24-month charter did not do so, so damages only were available.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba4-c12-q001",
+      "chapter": 12,
+      "topic": "Law of employment",
+      "question_text": "Under English law, which of the following is an implied duty owed by an employee to an employer?",
+      "options": {
+        "A": "To obey reasonable and lawful orders",
+        "B": "To provide the employer with a safe system of work",
+        "C": "To pay the employer's taxes",
+        "D": "To provide a reference for other employees"
+      },
+      "correct": "A",
+      "explanation": "Implied duties of employees include obeying reasonable and lawful orders, exercising reasonable care and skill, and acting in good faith (fidelity). Providing a safe system of work is a duty owed by the employer. Tax and references are not implied employee duties.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba4-c12-q002",
+      "chapter": 12,
+      "topic": "Law of employment",
+      "question_text": "Under English law, which of the following is an implied common law duty of an employer?",
+      "options": {
+        "A": "To provide employees with a pension in every case",
+        "B": "To give every employee an annual pay rise",
+        "C": "To take reasonable care for the health and safety of employees",
+        "D": "To guarantee employment for life"
+      },
+      "correct": "C",
+      "explanation": "Employers have implied duties to pay agreed wages, take reasonable care for employees' safety (competent staff, safe equipment, safe premises and safe system of work), and maintain mutual trust and confidence. Pensions, pay rises and lifetime employment are not implied by common law.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba4-c12-q003",
+      "chapter": 12,
+      "topic": "Law of employment",
+      "question_text": "What is the main legal basis of a claim for wrongful dismissal under English law?",
+      "options": {
+        "A": "Breach of statutory rights under unfair dismissal legislation",
+        "B": "The tort of negligence",
+        "C": "Criminal law",
+        "D": "Breach of the contract of employment, typically dismissal without proper notice"
+      },
+      "correct": "D",
+      "explanation": "Wrongful dismissal is a common law claim for breach of contract, usually where the employer dismisses without giving the notice required by the contract or statute. Unfair dismissal is a separate statutory claim focusing on the reason for and fairness of the dismissal.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba4-c12-q004",
+      "chapter": 12,
+      "topic": "Law of employment",
+      "question_text": "Under English law, which test is used to decide whether a person is an employee or an independent contractor, looking at all aspects of the relationship together?",
+      "options": {
+        "A": "The postal rule",
+        "B": "The multiple (economic reality) test",
+        "C": "The but-for test",
+        "D": "The reasonable person test"
+      },
+      "correct": "B",
+      "explanation": "Courts use the multiple or economic reality test (Ready Mixed Concrete v Minister of Pensions), considering control, mutuality of obligation, whether the person provides their own equipment, bears financial risk, can delegate work, and how they are paid and taxed. No single factor is decisive. The control and integration tests are earlier, narrower tests.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c12-q005",
+      "chapter": 12,
+      "topic": "Law of employment",
+      "question_text": "Under English law, which of the following is NOT a potentially fair reason for dismissal under the Employment Rights Act 1996?",
+      "options": {
+        "A": "The employee's membership of a trade union",
+        "B": "The employee's conduct",
+        "C": "Redundancy",
+        "D": "The employee's capability or qualifications"
+      },
+      "correct": "A",
+      "explanation": "The potentially fair reasons are capability or qualifications, conduct, redundancy, illegality (statutory restriction) and some other substantial reason. Dismissal because of trade union membership or activities is automatically unfair. Even with a fair reason, the employer must act reasonably and follow a fair procedure.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c12-q006",
+      "chapter": 12,
+      "topic": "Law of employment",
+      "question_text": "Under English law, an employee resigns because the employer, without consent, cuts her pay by 30%. Which claim is she most likely to bring?",
+      "options": {
+        "A": "Redundancy",
+        "B": "Frustration of contract",
+        "C": "Constructive dismissal",
+        "D": "Breach of the duty of fidelity"
+      },
+      "correct": "C",
+      "explanation": "Constructive dismissal occurs where the employer commits a repudiatory breach of a fundamental term and the employee resigns in response (Western Excavating v Sharp). A significant unilateral pay cut is such a breach. The resignation is treated as a dismissal, which may then be unfair.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c12-q007",
+      "chapter": 12,
+      "topic": "Law of employment",
+      "question_text": "Under English law, which of the following is the correct definition of redundancy?",
+      "options": {
+        "A": "Dismissal wholly or mainly because the employer ceases business, or the need for employees to do work of a particular kind has ceased or diminished",
+        "B": "Dismissal because of the employee's poor performance",
+        "C": "Dismissal because of the employee's misconduct",
+        "D": "Any dismissal where the employee is paid in lieu of notice"
+      },
+      "correct": "A",
+      "explanation": "Redundancy arises where the employer has ceased, or intends to cease, carrying on the business or the business in the place where the employee was employed, or where the need for employees to carry out work of a particular kind has ceased or diminished. Performance and conduct are separate reasons for dismissal.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c12-q008",
+      "chapter": 12,
+      "topic": "Law of employment",
+      "question_text": "Under English law, an employee has been continuously employed by the same employer for 7 complete years. What is the minimum statutory notice the employer must give to terminate the contract, assuming the contract does not provide for longer?",
+      "options": {
+        "A": "1 week",
+        "B": "7 weeks",
+        "C": "12 weeks",
+        "D": "1 month"
+      },
+      "correct": "B",
+      "explanation": "Under the Employment Rights Act 1996, an employee with between one month and two years' service is entitled to one week's notice, and after two years one week for each complete year of service, up to a maximum of 12 weeks. For 7 complete years: 7 x 1 week = 7 weeks, which is below the 12-week cap. A longer contractual notice period would prevail.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c12-q009",
+      "chapter": 12,
+      "topic": "Law of employment",
+      "question_text": "Under English law, which of the following remedies for unfair dismissal involves the employer re-employing the employee in a different but comparable job?",
+      "options": {
+        "A": "Reinstatement",
+        "B": "Basic award",
+        "C": "Re-engagement",
+        "D": "Specific performance"
+      },
+      "correct": "C",
+      "explanation": "Reinstatement means returning the employee to the same job as if never dismissed. Re-engagement means re-employment with the employer, an associated employer or a successor in comparable or suitable employment. Compensation consists of a basic award and a compensatory award. Specific performance is not ordered for employment contracts.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba4-c12-q010",
+      "chapter": 12,
+      "topic": "Law of employment",
+      "question_text": "Under English law, an employer, without good reason, humiliates an employee publicly and repeatedly undermines her authority. Which implied term is most likely to be breached?",
+      "options": {
+        "A": "The duty of fidelity",
+        "B": "The duty to obey lawful orders",
+        "C": "The duty to exercise reasonable care and skill in performing work",
+        "D": "The duty to maintain mutual trust and confidence"
+      },
+      "correct": "D",
+      "explanation": "Employers must not, without reasonable and proper cause, conduct themselves in a manner likely to destroy or seriously damage the relationship of trust and confidence (Malik v BCCI). Serious breach can justify resignation and a constructive dismissal claim. Fidelity, obedience and care and skill are duties owed by employees.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba4-c13-q001",
+      "chapter": 13,
+      "topic": "Company administration and finance",
+      "question_text": "Under English law, what is the principle established in Salomon v Salomon & Co Ltd?",
+      "options": {
+        "A": "Members are personally liable for all of a company's debts",
+        "B": "Directors must hold shares in the company",
+        "C": "A registered company is a separate legal person, distinct from its members",
+        "D": "A company cannot be owned by a single person"
+      },
+      "correct": "C",
+      "explanation": "Salomon established that a properly incorporated company has a separate legal personality from its members, even where one person holds almost all the shares. Consequently, the company owns its property and is liable for its own debts, and members' liability is limited to any amount unpaid on their shares.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba4-c13-q002",
+      "chapter": 13,
+      "topic": "Company administration and finance",
+      "question_text": "Under English law, which type of resolution requires a majority of not less than 75% of the votes cast?",
+      "options": {
+        "A": "A special resolution",
+        "B": "An ordinary resolution",
+        "C": "A board resolution",
+        "D": "A written resolution of a public company"
+      },
+      "correct": "A",
+      "explanation": "Under the Companies Act 2006, a special resolution requires at least 75% of the votes cast, while an ordinary resolution needs a simple majority (more than 50%). Board resolutions are decisions of directors, and public companies cannot use the statutory written resolution procedure.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba4-c13-q003",
+      "chapter": 13,
+      "topic": "Company administration and finance",
+      "question_text": "Under English law, which of the following is a key difference between a public company (plc) and a private company?",
+      "options": {
+        "A": "Only a private company has limited liability",
+        "B": "Only a public company has a separate legal personality",
+        "C": "Only a private company must file accounts",
+        "D": "Only a public company may offer its shares to the public"
+      },
+      "correct": "D",
+      "explanation": "A private company is prohibited from offering its shares to the public; a public company may do so and may seek a listing. Both can have limited liability and separate legal personality, and both must file accounts with the Registrar of Companies.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cima-ba4-c13-q004",
+      "chapter": 13,
+      "topic": "Company administration and finance",
+      "question_text": "Under English law, a promoter signs a contract on behalf of a company before the company is incorporated. Who is liable on the contract?",
+      "options": {
+        "A": "The company, automatically, once it is incorporated",
+        "B": "The promoter personally, subject to any agreement to the contrary",
+        "C": "No one, because the contract is void",
+        "D": "The Registrar of Companies"
+      },
+      "correct": "B",
+      "explanation": "Under section 51 of the Companies Act 2006, a pre-incorporation contract takes effect as one made with the person purporting to act for the company, who is personally liable, subject to any agreement to the contrary (see also Kelner v Baxter). A company cannot ratify a contract made before it existed; it would need to enter a new contract (novation).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c13-q005",
+      "chapter": 13,
+      "topic": "Company administration and finance",
+      "question_text": "Under English law, how can the members of a company remove a director before the end of his term of office?",
+      "options": {
+        "A": "By ordinary resolution at a general meeting, with special notice given to the company",
+        "B": "By special resolution passed as a written resolution",
+        "C": "Only by a court order",
+        "D": "Only if the articles expressly permit removal"
+      },
+      "correct": "A",
+      "explanation": "Section 168 of the Companies Act 2006 allows members to remove a director by ordinary resolution at a meeting, notwithstanding anything in the articles or any agreement with the director. Special notice of the resolution must be given and the director has the right to be heard. A written resolution cannot be used for this purpose.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c13-q006",
+      "chapter": 13,
+      "topic": "Company administration and finance",
+      "question_text": "Under English law, which statutory duty of directors is breached when a director diverts a business opportunity that came to him as a director to his own private company?",
+      "options": {
+        "A": "The duty to act within powers",
+        "B": "The duty to exercise independent judgement",
+        "C": "The duty to keep accounting records",
+        "D": "The duty to avoid conflicts of interest"
+      },
+      "correct": "D",
+      "explanation": "Section 175 of the Companies Act 2006 requires a director to avoid situations in which he has, or could have, a direct or indirect interest that conflicts with the company's interests, including exploiting property, information or opportunity. This applies even if the company could not itself take the opportunity, unless the conflict is properly authorised.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c13-q007",
+      "chapter": 13,
+      "topic": "Company administration and finance",
+      "question_text": "Under English law, a company issues 10,000 £1 ordinary shares at a price of £3.50 each, fully paid in cash. What amount is credited to the share premium account?",
+      "options": {
+        "A": "£35,000",
+        "B": "£10,000",
+        "C": "£25,000",
+        "D": "£2,500"
+      },
+      "correct": "C",
+      "explanation": "Share capital is credited with the nominal value: 10,000 x £1 = £10,000. The excess of issue price over nominal value goes to share premium: 10,000 x (£3.50 - £1.00) = 10,000 x £2.50 = £25,000. Total cash received is £35,000 (£10,000 + £25,000). The share premium account is subject to capital maintenance rules.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c13-q008",
+      "chapter": 13,
+      "topic": "Company administration and finance",
+      "question_text": "Under English law, which statement about a floating charge is correct?",
+      "options": {
+        "A": "It attaches to a specific identified asset, which the company cannot sell without the lender's consent",
+        "B": "It is a charge over a class of assets that changes over time, such as inventory, which the company can deal with in the ordinary course of business until crystallisation",
+        "C": "It can only be created by a sole trader",
+        "D": "It ranks ahead of all fixed charges on insolvency"
+      },
+      "correct": "B",
+      "explanation": "A floating charge hovers over a changing class of assets and allows the company to deal with them freely until an event, such as liquidation or default, causes it to crystallise into a fixed charge. A fixed charge attaches to specific assets. Fixed charges rank ahead of floating charges, and only companies and LLPs can create floating charges.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cima-ba4-c13-q009",
+      "chapter": 13,
+      "topic": "Company administration and finance",
+      "question_text": "Under English law, the members of a private company want to change its articles of association. Which statement is correct?",
+      "options": {
+        "A": "The articles can be altered by special resolution, and the alteration must be made bona fide for the benefit of the company as a whole",
+        "B": "The articles can only be altered with the consent of every member",
+        "C": "The articles can be altered by a resolution of the directors alone",
+        "D": "The articles can never be altered once the company is registered"
+      },
+      "correct": "A",
+      "explanation": "Section 21 of the Companies Act 2006 allows a company to amend its articles by special resolution, subject to any entrenched provisions. The courts have held that the alteration must be made bona fide for the benefit of the company as a whole (Allen v Gold Reefs of West Africa). Unanimity is only needed if an entrenchment provision requires it.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cima-ba4-c13-q010",
+      "chapter": 13,
+      "topic": "Company administration and finance",
+      "question_text": "Under English law, a private company is solvent. Its accumulated realised profits are £180,000 and its accumulated realised losses are £70,000. It also has an unrealised revaluation gain of £50,000. What is the maximum dividend it may lawfully pay?",
+      "options": {
+        "A": "£160,000",
+        "B": "£110,000",
+        "C": "£180,000",
+        "D": "£230,000"
+      },
+      "correct": "B",
+      "explanation": "Under section 830 of the Companies Act 2006, distributions may only be made out of profits available, being accumulated realised profits less accumulated realised losses. £180,000 - £70,000 = £110,000. The unrealised revaluation gain of £50,000 cannot be distributed. (Public companies must also satisfy the net assets test in section 831.)",
+      "difficulty": "hard"
+    }
+  ]
+}
