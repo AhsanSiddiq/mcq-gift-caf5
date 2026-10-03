@@ -56,7 +56,7 @@ export default function MCQCard({ mcq, onAnswer, onNext, isLast }: MCQCardProps)
       <div className="mb-6 flex justify-between items-start gap-4">
         <div className="flex-1 min-w-0">
           <span className="inline-block text-xs font-bold uppercase tracking-widest px-2.5 py-1 rounded-full mb-4"
-            style={{ color: "var(--green)", background: "rgba(61,179,113,0.10)", border: "1px solid rgba(61,179,113,0.2)" }}>
+            style={{ color: "var(--green)", background: "color-mix(in srgb, var(--green) 10%, transparent)", border: "1px solid color-mix(in srgb, var(--green) 20%, transparent)" }}>
             {mcq.chapterTitle}
           </span>
           <h3 className="text-base sm:text-lg font-bold leading-snug"
@@ -98,8 +98,8 @@ export default function MCQCard({ mcq, onAnswer, onNext, isLast }: MCQCardProps)
 
           if (showExplanation) {
             if (isCorrect) {
-              borderColor = "rgba(61,179,113,0.6)";
-              bg = "rgba(61,179,113,0.08)";
+              borderColor = "color-mix(in srgb, var(--green) 60%, transparent)";
+              bg = "color-mix(in srgb, var(--green) 8%, transparent)";
               textColor = "var(--text-1)";
               badgeBg = "var(--green)";
               badgeColor = "#fff";
@@ -162,7 +162,7 @@ export default function MCQCard({ mcq, onAnswer, onNext, isLast }: MCQCardProps)
             style={{ borderTop: "1px solid var(--border)" }}
           >
           <div className="rounded-xl p-4 mb-6"
-            style={{ background: "rgba(61,179,113,0.06)", borderLeft: "3px solid var(--green)" }}>
+            style={{ background: "color-mix(in srgb, var(--green) 6%, transparent)", borderLeft: "3px solid var(--green)" }}>
             <h4 className="text-xs font-black uppercase tracking-widest mb-2" style={{ color: "var(--green)" }}>
               Explanation
             </h4>
@@ -184,7 +184,7 @@ export default function MCQCard({ mcq, onAnswer, onNext, isLast }: MCQCardProps)
                 cursor: "pointer", 
                 fontSize: 15, 
                 fontFamily: "var(--font-space-grotesk), sans-serif",
-                boxShadow: "0 4px 20px rgba(61,179,113,0.3)" 
+                boxShadow: "0 4px 20px color-mix(in srgb, var(--green) 30%, transparent)" 
               }}
             >
               {isLast ? "Complete Quiz" : "Next Question"} <ArrowRight className="w-5 h-5" />

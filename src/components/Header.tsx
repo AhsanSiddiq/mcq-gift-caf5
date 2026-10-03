@@ -145,8 +145,8 @@ export default function Header() {
               </Link>
             ))}
             {currentSubject && (
-              <span className="ml-2 px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-widest"
-                style={{ background: "rgba(61,179,113,0.12)", color: "var(--green)", border: "1px solid rgba(61,179,113,0.2)", fontFamily: "var(--font-space-grotesk), system-ui, sans-serif" }}>
+              <span className="ml-2 px-3 py-1 rounded-full whitespace-nowrap text-[11px] font-bold uppercase tracking-widest"
+                style={{ background: "color-mix(in srgb, var(--green) 12%, transparent)", color: "var(--green)", border: "1px solid color-mix(in srgb, var(--green) 20%, transparent)", fontFamily: "var(--font-space-grotesk), system-ui, sans-serif" }}>
                 {subjectCode(currentSubject)}
               </span>
             )}
@@ -189,11 +189,11 @@ export default function Header() {
                   background: "var(--green)", fontSize: 13, padding: "9px 20px",
                   letterSpacing: "0.01em", fontFamily: "var(--font-space-grotesk), system-ui, sans-serif",
                   textDecoration: "none", whiteSpace: "nowrap",
-                  boxShadow: "0 4px 20px rgba(61,179,113,0.35)",
+                  boxShadow: "0 4px 20px color-mix(in srgb, var(--green) 35%, transparent)",
                   transition: "transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease",
                 }}
-                onMouseEnter={e => { e.currentTarget.style.transform = "translateY(-1px) scale(1.03)"; e.currentTarget.style.background = "#2E9960"; e.currentTarget.style.boxShadow = "0 8px 30px rgba(61,179,113,0.45)"; }}
-                onMouseLeave={e => { e.currentTarget.style.transform = "none"; e.currentTarget.style.background = "var(--green)"; e.currentTarget.style.boxShadow = "0 4px 20px rgba(61,179,113,0.35)"; }}
+                onMouseEnter={e => { e.currentTarget.style.transform = "translateY(-1px) scale(1.03)"; e.currentTarget.style.background = "#2E9960"; e.currentTarget.style.boxShadow = "0 8px 30px color-mix(in srgb, var(--green) 45%, transparent)"; }}
+                onMouseLeave={e => { e.currentTarget.style.transform = "none"; e.currentTarget.style.background = "var(--green)"; e.currentTarget.style.boxShadow = "0 4px 20px color-mix(in srgb, var(--green) 35%, transparent)"; }}
               >
                 <BookOpen className="w-4 h-4" strokeWidth={2.2} />
                 Practice MCQs Free
@@ -253,7 +253,7 @@ export default function Header() {
                 href="/caf/caf-5"
                 onClick={() => setOpen(false)}
                 className="inline-flex items-center gap-2 font-bold rounded-full text-white justify-center"
-                style={{ background: "var(--green)", fontSize: 14, padding: "13px 24px", fontFamily: "var(--font-space-grotesk), system-ui, sans-serif", textDecoration: "none", boxShadow: "0 4px 20px rgba(61,179,113,0.3)" }}
+                style={{ background: "var(--green)", fontSize: 14, padding: "13px 24px", fontFamily: "var(--font-space-grotesk), system-ui, sans-serif", textDecoration: "none", boxShadow: "0 4px 20px color-mix(in srgb, var(--green) 30%, transparent)" }}
               >
                 <BookOpen className="w-4 h-4" strokeWidth={2.2} />
                 Practice MCQs Free

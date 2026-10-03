@@ -10,6 +10,7 @@ import {
 import { ArrowRight, CheckCircle2, BookOpen, FileText, Target } from "lucide-react";
 import { blogs } from "@/data/blogs";
 import { icapSubjects } from "@/data/subjects";
+import QualificationHome from "@/components/QualificationHome";
 
 /* ── Framer Variants ── */
 const fadeUp: import("framer-motion").Variants = {
@@ -102,8 +103,8 @@ function HeroEcosystem() {
           className="relative z-10 flex items-center justify-center rounded-full"
           style={{
             width: 180, height: 180,
-            background: "linear-gradient(135deg, rgba(61,179,113,0.15) 0%, rgba(61,179,113,0.02) 100%)",
-            boxShadow: "0 20px 50px rgba(61,179,113,0.25), inset 0 0 0 1px rgba(61,179,113,0.3), inset 0 0 20px rgba(61,179,113,0.2)",
+            background: "linear-gradient(135deg, color-mix(in srgb, var(--green) 15%, transparent) 0%, color-mix(in srgb, var(--green) 2%, transparent) 100%)",
+            boxShadow: "0 20px 50px color-mix(in srgb, var(--green) 25%, transparent), inset 0 0 0 1px color-mix(in srgb, var(--green) 30%, transparent), inset 0 0 20px color-mix(in srgb, var(--green) 20%, transparent)",
             backdropFilter: "blur(12px)",
           }}
         >
@@ -111,7 +112,7 @@ function HeroEcosystem() {
           <motion.div 
             animate={{ opacity: [0.5, 0.8, 0.5] }} transition={{ repeat: Infinity, duration: 4, ease: "easeInOut" }}
             className="absolute inset-0 rounded-full" 
-            style={{ background: "radial-gradient(circle, rgba(61,179,113,0.4) 0%, transparent 60%)", filter: "blur(20px)" }} 
+            style={{ background: "radial-gradient(circle, color-mix(in srgb, var(--green) 40%, transparent) 0%, transparent 60%)", filter: "blur(20px)" }} 
           />
           
           {/* The 3D Tick */}
@@ -379,7 +380,7 @@ function EmailCapture() {
     <section id="capture" className="py-32 px-6 md:px-16" style={{ background:"var(--bg-2)", borderTop:"1px solid var(--border)" }}>
       <div className="max-w-4xl mx-auto">
         <motion.div initial="hidden" whileInView="show" viewport={{ once:true }} variants={scaleIn}>
-          <div className="relative p-12 md:p-20 text-center rounded-[2.5rem] overflow-hidden" style={{ background:"var(--bg-3)", border:"1px solid rgba(61,179,113,0.15)" }}>
+          <div className="relative p-12 md:p-20 text-center rounded-[2.5rem] overflow-hidden" style={{ background:"var(--bg-3)", border:"1px solid color-mix(in srgb, var(--green) 15%, transparent)" }}>
             {/* Glow */}
             <div className="absolute pointer-events-none" style={{ top:0, left:"50%", transform:"translateX(-50%)", width:384, height:160, borderRadius:"50%", opacity:0.18, background:"radial-gradient(circle, #3DB371, transparent 70%)", filter:"blur(40px)" }} />
 
@@ -394,7 +395,7 @@ function EmailCapture() {
             </p>
 
             {status === "success" ? (
-              <motion.div initial={{ opacity:0, y:10 }} animate={{ opacity:1, y:0 }} className="relative flex items-center justify-center gap-3 px-6 py-4 rounded-full mx-auto max-w-xs" style={{ background:"rgba(61,179,113,0.12)", border:"1px solid rgba(61,179,113,0.3)", zIndex:1 }}>
+              <motion.div initial={{ opacity:0, y:10 }} animate={{ opacity:1, y:0 }} className="relative flex items-center justify-center gap-3 px-6 py-4 rounded-full mx-auto max-w-xs" style={{ background:"color-mix(in srgb, var(--green) 12%, transparent)", border:"1px solid color-mix(in srgb, var(--green) 30%, transparent)", zIndex:1 }}>
                 <CheckCircle2 className="w-5 h-5" style={{ color:"var(--green)" }} />
                 <span className="font-semibold text-sm" style={{ color:"var(--green)", fontFamily:"var(--font-inter), sans-serif" }}>You're on the list. We'll send it soon.</span>
               </motion.div>
@@ -411,7 +412,7 @@ function EmailCapture() {
                   onBlur={e => (e.currentTarget.style.borderColor = status === "error" ? "#F87171" : "var(--border)")}
                 />
                 <button type="submit" disabled={status === "loading"} className="shimmer-btn shrink-0 font-bold rounded-full px-7 py-4 text-white whitespace-nowrap"
-                  style={{ fontSize:14, fontFamily:"var(--font-space-grotesk), system-ui, sans-serif", border:"none", cursor:"pointer", boxShadow:"0 4px 20px rgba(61,179,113,0.3)", opacity: status === "loading" ? 0.7 : 1 }}>
+                  style={{ fontSize:14, fontFamily:"var(--font-space-grotesk), system-ui, sans-serif", border:"none", cursor:"pointer", boxShadow:"0 4px 20px color-mix(in srgb, var(--green) 30%, transparent)", opacity: status === "loading" ? 0.7 : 1 }}>
                   {status === "loading" ? "Sending..." : "Notify Me →"}
                 </button>
               </form>
@@ -449,16 +450,19 @@ export default function Home() {
       {/* Cursor orb */}
       <motion.div
         style={{ left: orbX, top: orbY, translateX:"-50%", translateY:"-50%",
-          background:"radial-gradient(circle, rgba(61,179,113,0.13) 0%, rgba(245,166,35,0.05) 50%, transparent 70%)" }}
+          background:"radial-gradient(circle, color-mix(in srgb, var(--green) 13%, transparent) 0%, rgba(245,166,35,0.05) 50%, transparent 70%)" }}
         className="fixed w-[520px] h-[520px] rounded-full pointer-events-none z-[1]"
       />
 
+      {/* ══ NON-ICAP HEROES (shown via html[data-body]) ══ */}
+      <QualificationHome />
+
       {/* ══ HERO ══════════════════════════════════════════ */}
-      <section className="relative min-h-screen flex flex-col justify-center px-6 md:px-16 pt-24 pb-16 overflow-hidden">
+      <section className="icap-only relative min-h-screen flex flex-col justify-center px-6 md:px-16 pt-24 pb-16 overflow-hidden">
 
         {/* Background */}
         <div className="absolute inset-0 pointer-events-none" style={{
-          background:"radial-gradient(ellipse 60% 50% at 50% 0%, rgba(61,179,113,0.12) 0%, transparent 65%), radial-gradient(ellipse 40% 40% at 95% 80%, rgba(245,166,35,0.07) 0%, transparent 60%)"
+          background:"radial-gradient(ellipse 60% 50% at 50% 0%, color-mix(in srgb, var(--green) 12%, transparent) 0%, transparent 65%), radial-gradient(ellipse 40% 40% at 95% 80%, rgba(245,166,35,0.07) 0%, transparent 60%)"
         }} />
         <div className="float-a absolute top-[12%] left-[5%] w-80 h-80 rounded-full pointer-events-none opacity-[0.06]" style={{ background:"radial-gradient(circle, #3DB371, transparent 70%)" }} />
 
@@ -525,9 +529,9 @@ export default function Home() {
                 <Link
                   href="/practice"
                   className="shimmer-btn inline-flex items-center justify-center gap-2 font-bold rounded-full px-8 py-4 text-white"
-                  style={{ fontSize:14, letterSpacing:"0.02em", fontFamily:"var(--font-space-grotesk), system-ui, sans-serif", boxShadow:"0 8px 32px rgba(61,179,113,0.3)", transition:"transform 0.25s ease, box-shadow 0.25s ease" }}
-                  onMouseEnter={e => { e.currentTarget.style.transform="translateY(-2px) scale(1.02)"; e.currentTarget.style.boxShadow="0 12px 40px rgba(61,179,113,0.45)"; }}
-                  onMouseLeave={e => { e.currentTarget.style.transform="none"; e.currentTarget.style.boxShadow="0 8px 32px rgba(61,179,113,0.3)"; }}
+                  style={{ fontSize:14, letterSpacing:"0.02em", fontFamily:"var(--font-space-grotesk), system-ui, sans-serif", boxShadow:"0 8px 32px color-mix(in srgb, var(--green) 30%, transparent)", transition:"transform 0.25s ease, box-shadow 0.25s ease" }}
+                  onMouseEnter={e => { e.currentTarget.style.transform="translateY(-2px) scale(1.02)"; e.currentTarget.style.boxShadow="0 12px 40px color-mix(in srgb, var(--green) 45%, transparent)"; }}
+                  onMouseLeave={e => { e.currentTarget.style.transform="none"; e.currentTarget.style.boxShadow="0 8px 32px color-mix(in srgb, var(--green) 30%, transparent)"; }}
                 >
                   Practice MCQs Free <ArrowRight className="w-4 h-4" />
                 </Link>
@@ -572,11 +576,11 @@ export default function Home() {
       </section>
 
       {/* ══ MARQUEE ══ */}
-      <Marquee />
+      <div className="icap-only"><Marquee /></div>
 
 
       {/* ══ THE PATH ════════════════════════════════════ */}
-      <InteractiveJourney />
+      <div className="icap-only"><InteractiveJourney /></div>
 
       {/* ══ MCQ PRACTICE ════════════════════════════════ */}
       <section id="practice" className="py-24 md:py-32 px-6 md:px-16 overflow-hidden" style={{ borderTop: "1px solid var(--border)" }}>
@@ -590,11 +594,11 @@ export default function Home() {
             >
               {/* Glow */}
               <div className="absolute -inset-10 pointer-events-none"
-                style={{ background: "radial-gradient(ellipse 60% 60% at 50% 50%, rgba(61,179,113,0.12) 0%, transparent 70%)", filter: "blur(30px)" }} />
+                style={{ background: "radial-gradient(ellipse 60% 60% at 50% 50%, color-mix(in srgb, var(--green) 12%, transparent) 0%, transparent 70%)", filter: "blur(30px)" }} />
 
               {/* MCQ card mockup */}
               <div className="relative rounded-2xl overflow-hidden"
-                style={{ background: "var(--bg-2)", border: "1px solid rgba(61,179,113,0.2)", boxShadow: "0 30px 80px rgba(0,0,0,0.5)" }}>
+                style={{ background: "var(--bg-2)", border: "1px solid color-mix(in srgb, var(--green) 20%, transparent)", boxShadow: "0 30px 80px rgba(0,0,0,0.5)" }}>
 
                 {/* Browser bar */}
                 <div className="flex items-center gap-2 px-4 py-3" style={{ borderBottom: "1px solid var(--border)", background: "var(--bg-3)" }}>
@@ -624,7 +628,7 @@ export default function Home() {
                   <div className="rounded-2xl p-5" style={{ background: "var(--bg-3)", border: "1px solid var(--border)" }}>
                     {/* Chapter tag */}
                     <span className="inline-block text-[9px] font-black uppercase tracking-widest px-2.5 py-1 rounded-full mb-4"
-                      style={{ color: "var(--green)", background: "rgba(61,179,113,0.10)", border: "1px solid rgba(61,179,113,0.2)" }}>
+                      style={{ color: "var(--green)", background: "color-mix(in srgb, var(--green) 10%, transparent)", border: "1px solid color-mix(in srgb, var(--green) 20%, transparent)" }}>
                       Target Costing
                     </span>
 
@@ -644,21 +648,21 @@ export default function Home() {
                         <div key={opt.letter}
                           className="rounded-xl px-3 py-2.5 flex items-center gap-3"
                           style={{
-                            border: `1.5px solid ${opt.correct ? "rgba(61,179,113,0.6)" : "var(--border)"}`,
-                            background: opt.correct ? "rgba(61,179,113,0.08)" : "var(--bg-2)",
+                            border: `1.5px solid ${opt.correct ? "color-mix(in srgb, var(--green) 60%, transparent)" : "var(--border)"}`,
+                            background: opt.correct ? "color-mix(in srgb, var(--green) 8%, transparent)" : "var(--bg-2)",
                           }}>
                           <div className="shrink-0 w-5 h-5 rounded-lg flex items-center justify-center text-[9px] font-black"
                             style={{ background: opt.correct ? "var(--green)" : "var(--border)", color: opt.correct ? "#fff" : "var(--text-3)" }}>
                             {opt.letter}
                           </div>
-                          <div className="h-1.5 rounded-full flex-1" style={{ width: `${opt.letter === "A" ? 90 : opt.letter === "B" ? 80 : opt.letter === "C" ? 70 : 60}%`, background: opt.correct ? "rgba(61,179,113,0.3)" : "rgba(255,255,255,0.06)" }} />
+                          <div className="h-1.5 rounded-full flex-1" style={{ width: `${opt.letter === "A" ? 90 : opt.letter === "B" ? 80 : opt.letter === "C" ? 70 : 60}%`, background: opt.correct ? "color-mix(in srgb, var(--green) 30%, transparent)" : "rgba(255,255,255,0.06)" }} />
                           {opt.correct && <div className="text-[10px]" style={{ color: "var(--green)" }}>✓</div>}
                         </div>
                       ))}
                     </div>
 
                     {/* Explanation */}
-                    <div className="mt-4 rounded-xl p-3" style={{ background: "rgba(61,179,113,0.06)", borderLeft: "3px solid var(--green)" }}>
+                    <div className="mt-4 rounded-xl p-3" style={{ background: "color-mix(in srgb, var(--green) 6%, transparent)", borderLeft: "3px solid var(--green)" }}>
                       <div className="text-[8px] font-black uppercase tracking-widest mb-1.5" style={{ color: "var(--green)" }}>Explanation</div>
                       <div className="h-1.5 rounded-full w-full mb-1" style={{ background: "rgba(255,255,255,0.06)" }} />
                       <div className="h-1.5 rounded-full w-4/5" style={{ background: "rgba(255,255,255,0.04)" }} />
@@ -667,7 +671,7 @@ export default function Home() {
                     {/* Next button */}
                     <div className="mt-4 flex justify-end">
                       <div className="px-4 py-2 rounded-xl text-[9px] font-black tracking-wide text-white"
-                        style={{ background: "var(--green)", boxShadow: "0 4px 16px rgba(61,179,113,0.35)" }}>
+                        style={{ background: "var(--green)", boxShadow: "0 4px 16px color-mix(in srgb, var(--green) 35%, transparent)" }}>
                         Next Question →
                       </div>
                     </div>
@@ -721,7 +725,7 @@ export default function Home() {
                 ].map(f => (
                   <motion.div key={f.label} variants={fadeUp} className="flex items-start gap-4">
                     <div className="shrink-0 w-6 h-6 rounded-full flex items-center justify-center text-xs font-black mt-0.5"
-                      style={{ background: "rgba(61,179,113,0.12)", color: "var(--green)", border: "1px solid rgba(61,179,113,0.25)" }}>
+                      style={{ background: "color-mix(in srgb, var(--green) 12%, transparent)", color: "var(--green)", border: "1px solid color-mix(in srgb, var(--green) 25%, transparent)" }}>
                       ✓
                     </div>
                     <div>
@@ -740,16 +744,16 @@ export default function Home() {
                 <Link href="/practice"
                   className="shimmer-btn inline-flex items-center justify-center gap-2 font-bold rounded-full px-8 py-4 text-white"
                   style={{ fontSize: 14, fontFamily: "var(--font-space-grotesk), system-ui, sans-serif",
-                    boxShadow: "0 8px 32px rgba(61,179,113,0.3)", transition: "transform 0.25s ease, box-shadow 0.25s ease" }}
-                  onMouseEnter={e => { e.currentTarget.style.transform = "translateY(-2px)"; e.currentTarget.style.boxShadow = "0 12px 40px rgba(61,179,113,0.45)"; }}
-                  onMouseLeave={e => { e.currentTarget.style.transform = "none"; e.currentTarget.style.boxShadow = "0 8px 32px rgba(61,179,113,0.3)"; }}
+                    boxShadow: "0 8px 32px color-mix(in srgb, var(--green) 30%, transparent)", transition: "transform 0.25s ease, box-shadow 0.25s ease" }}
+                  onMouseEnter={e => { e.currentTarget.style.transform = "translateY(-2px)"; e.currentTarget.style.boxShadow = "0 12px 40px color-mix(in srgb, var(--green) 45%, transparent)"; }}
+                  onMouseLeave={e => { e.currentTarget.style.transform = "none"; e.currentTarget.style.boxShadow = "0 8px 32px color-mix(in srgb, var(--green) 30%, transparent)"; }}
                 >
                   Start Practicing Free <ArrowRight className="w-4 h-4" />
                 </Link>
                 <Link href="/practice"
                   className="inline-flex items-center justify-center gap-2 font-bold rounded-full px-8 py-4"
                   style={{ fontSize: 14, fontFamily: "var(--font-space-grotesk), system-ui, sans-serif", color: "var(--text-1)", background: "var(--surface)", border: "1px solid var(--border)", transition: "all 0.25s ease" }}
-                  onMouseEnter={e => { e.currentTarget.style.borderColor = "rgba(61,179,113,0.4)"; e.currentTarget.style.background = "rgba(61,179,113,0.05)"; }}
+                  onMouseEnter={e => { e.currentTarget.style.borderColor = "color-mix(in srgb, var(--green) 40%, transparent)"; e.currentTarget.style.background = "color-mix(in srgb, var(--green) 5%, transparent)"; }}
                   onMouseLeave={e => { e.currentTarget.style.borderColor = "var(--border)"; e.currentTarget.style.background = "var(--surface)"; }}
                 >
                   Browse Subjects <ArrowRight className="w-4 h-4" />
@@ -763,7 +767,7 @@ export default function Home() {
 
 
       {/* ══ QUESTION BANKS (crawlable internal links) ══ */}
-      <section id="question-banks" className="py-20 px-6 md:px-16" style={{ borderTop: "1px solid var(--border)" }}>
+      <section id="question-banks" className="icap-only py-20 px-6 md:px-16" style={{ borderTop: "1px solid var(--border)" }}>
         <div className="max-w-6xl mx-auto">
           <p className="text-xs font-bold uppercase tracking-widest mb-3" style={{ color: "var(--green)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
             Free question banks
@@ -792,7 +796,7 @@ export default function Home() {
       </section>
 
       {/* ══ CV MAKER ══════════════════════════════════════ */}
-      <section id="cv-maker" className="py-24 md:py-32 px-6 md:px-16 overflow-hidden" style={{ borderTop: "1px solid var(--border)" }}>
+      <section id="cv-maker" className="icap-only py-24 md:py-32 px-6 md:px-16 overflow-hidden" style={{ borderTop: "1px solid var(--border)" }}>
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-16 lg:gap-20 items-center">
 
@@ -1031,7 +1035,7 @@ export default function Home() {
                   viewport={{ once:true }}
                   transition={{ delay:0.4, duration:0.7, ease:[0.16,1,0.3,1] }}
                   className="absolute bottom-5 left-5 right-5 md:bottom-7 md:left-6 md:right-6 p-4 md:p-5 rounded-2xl backdrop-blur-2xl"
-                  style={{ background:"rgba(10,10,11,0.75)", border:"1px solid rgba(61,179,113,0.3)" }}
+                  style={{ background:"rgba(10,10,11,0.75)", border:"1px solid color-mix(in srgb, var(--green) 30%, transparent)" }}
                 >
                   <p className="font-display font-bold" style={{ fontSize:20, color:"#F4F4F5", lineHeight:1.2 }}>Historical Record</p>
                   <p style={{ fontSize:12, color:"#A1A1AA", marginTop:4, fontFamily:"var(--font-inter), system-ui, sans-serif" }}>1st student in ICAP's 64-year history</p>
@@ -1099,11 +1103,11 @@ export default function Home() {
               <motion.div key={a.title} initial="hidden" whileInView="show" viewport={{ once:true, margin:"-40px" }} variants={fadeUp} transition={{ delay: i*0.1 }}>
                 <Link href={`/blog/${a.slug}`} className="block h-full p-8 rounded-2xl group/card"
                   style={{ background:"var(--bg-2)", border:"1px solid var(--border)", textDecoration:"none", display:"flex", flexDirection:"column", transition:"transform 0.35s ease, border-color 0.35s ease, box-shadow 0.35s ease" }}
-                  onMouseEnter={e => { e.currentTarget.style.transform="translateY(-5px)"; e.currentTarget.style.borderColor="rgba(61,179,113,0.25)"; e.currentTarget.style.boxShadow="0 16px 50px rgba(0,0,0,0.2)"; }}
+                  onMouseEnter={e => { e.currentTarget.style.transform="translateY(-5px)"; e.currentTarget.style.borderColor="color-mix(in srgb, var(--green) 25%, transparent)"; e.currentTarget.style.boxShadow="0 16px 50px rgba(0,0,0,0.2)"; }}
                   onMouseLeave={e => { e.currentTarget.style.transform="none"; e.currentTarget.style.borderColor="var(--border)"; e.currentTarget.style.boxShadow="none"; }}
                 >
                   <div className="flex items-center justify-between mb-6">
-                    <span className="rounded-full px-3 py-1" style={{ fontSize:10, fontWeight:700, letterSpacing:"0.15em", textTransform:"uppercase", background:"rgba(61,179,113,0.1)", color:"var(--green)", fontFamily:"var(--font-space-grotesk), system-ui, sans-serif" }}>
+                    <span className="rounded-full px-3 py-1" style={{ fontSize:10, fontWeight:700, letterSpacing:"0.15em", textTransform:"uppercase", background:"color-mix(in srgb, var(--green) 10%, transparent)", color:"var(--green)", fontFamily:"var(--font-space-grotesk), system-ui, sans-serif" }}>
                       {a.tag}
                     </span>
                     <span style={{ fontSize:11, color:"var(--text-3)", fontFamily:"var(--font-inter), system-ui, sans-serif" }}>{a.readTime}</span>

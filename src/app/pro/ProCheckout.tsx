@@ -150,7 +150,7 @@ export default function ProCheckout({ prices, localRails, paymentDetails, paddle
       <button type="button" onClick={() => setPlan(id)}
         className="text-left rounded-2xl p-5 sm:p-6 flex flex-col gap-2 transition-all cursor-pointer relative"
         style={{
-          background: selected ? "rgba(61,179,113,0.08)" : "var(--bg-2)",
+          background: selected ? "color-mix(in srgb, var(--green) 8%, transparent)" : "var(--bg-2)",
           border: `2px solid ${selected ? "var(--green)" : "var(--border)"}`,
         }}>
         {badge && (
@@ -190,7 +190,7 @@ export default function ProCheckout({ prices, localRails, paymentDetails, paddle
       <div className="flex flex-col gap-5">
         {(tutor ? [PERKS[0], TUTOR_PERK, ...PERKS.slice(1)] : PERKS).map(({ icon: Icon, title, desc }) => (
           <div key={title} className="flex gap-4">
-            <span className="shrink-0 rounded-xl flex items-center justify-center" style={{ width: 44, height: 44, background: "rgba(61,179,113,0.10)", color: "var(--green)" }}>
+            <span className="shrink-0 rounded-xl flex items-center justify-center" style={{ width: 44, height: 44, background: "color-mix(in srgb, var(--green) 10%, transparent)", color: "var(--green)" }}>
               <Icon className="w-5 h-5" />
             </span>
             <div>
@@ -217,7 +217,7 @@ export default function ProCheckout({ prices, localRails, paymentDetails, paddle
         </div>
 
         {paid ? (
-          <div className="rounded-2xl p-5 text-sm" style={{ background: "rgba(61,179,113,0.08)", border: "1px solid rgba(61,179,113,0.3)", color: "var(--text-1)" }}>
+          <div className="rounded-2xl p-5 text-sm" style={{ background: "color-mix(in srgb, var(--green) 8%, transparent)", border: "1px solid color-mix(in srgb, var(--green) 30%, transparent)", color: "var(--text-1)" }}>
             <Loader2 className="w-4 h-4 inline animate-spin mr-2" /> Payment received — activating Pro on your account…
           </div>
         ) : (
@@ -264,7 +264,7 @@ export default function ProCheckout({ prices, localRails, paymentDetails, paddle
             )}
 
             {localStep === "sent" && (
-              <div className="rounded-2xl p-5 text-sm" style={{ background: "rgba(61,179,113,0.08)", border: "1px solid rgba(61,179,113,0.3)", color: "var(--text-1)", lineHeight: 1.6 }}>
+              <div className="rounded-2xl p-5 text-sm" style={{ background: "color-mix(in srgb, var(--green) 8%, transparent)", border: "1px solid color-mix(in srgb, var(--green) 30%, transparent)", color: "var(--text-1)", lineHeight: 1.6 }}>
                 ✅ Got it. We&apos;ll verify your {rail} payment and switch on Pro for <strong>{readAuth()?.email}</strong>. Refresh this page later to see your status.
               </div>
             )}

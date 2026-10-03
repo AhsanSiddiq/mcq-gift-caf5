@@ -127,7 +127,7 @@ export default function SubjectHomeClient({ level, subjectId, currentSubject, to
             <div className="flex items-center gap-3 mb-3">
               <span
                 className="text-xs font-black uppercase tracking-widest px-3 py-1 rounded-full"
-                style={{ color: "var(--green)", background: "rgba(61,179,113,0.10)", border: "1px solid rgba(61,179,113,0.25)" }}
+                style={{ color: "var(--green)", background: "color-mix(in srgb, var(--green) 10%, transparent)", border: "1px solid color-mix(in srgb, var(--green) 25%, transparent)" }}
               >
                 {subjectCode(currentSubject)}
               </span>
@@ -147,7 +147,7 @@ export default function SubjectHomeClient({ level, subjectId, currentSubject, to
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.2 }} className="shrink-0">
             {auth ? (
               <div className="flex flex-col items-end gap-1.5">
-                <span className="text-xs font-medium px-3 py-1.5 rounded-full" style={{ background: "rgba(61,179,113,0.1)", color: "var(--green)", border: "1px solid rgba(61,179,113,0.2)" }}>
+                <span className="text-xs font-medium px-3 py-1.5 rounded-full" style={{ background: "color-mix(in srgb, var(--green) 10%, transparent)", color: "var(--green)", border: "1px solid color-mix(in srgb, var(--green) 20%, transparent)" }}>
                   {isSyncing ? "⏳ Syncing…" : `☁ ${auth.email}`}
                 </span>
                 <button
@@ -164,9 +164,9 @@ export default function SubjectHomeClient({ level, subjectId, currentSubject, to
               <button
                 onClick={() => setShowLoginModal(true)}
                 className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-semibold cursor-pointer transition-colors"
-                style={{ background: "rgba(61,179,113,0.08)", border: "1px solid rgba(61,179,113,0.25)", color: "var(--green)" }}
-                onMouseEnter={e => (e.currentTarget.style.background = "rgba(61,179,113,0.15)")}
-                onMouseLeave={e => (e.currentTarget.style.background = "rgba(61,179,113,0.08)")}
+                style={{ background: "color-mix(in srgb, var(--green) 8%, transparent)", border: "1px solid color-mix(in srgb, var(--green) 25%, transparent)", color: "var(--green)" }}
+                onMouseEnter={e => (e.currentTarget.style.background = "color-mix(in srgb, var(--green) 15%, transparent)")}
+                onMouseLeave={e => (e.currentTarget.style.background = "color-mix(in srgb, var(--green) 8%, transparent)")}
               >
                 <CloudUpload className="w-4 h-4" /> Save Progress
               </button>
@@ -184,7 +184,7 @@ export default function SubjectHomeClient({ level, subjectId, currentSubject, to
           >
             <div
               className="shrink-0 rounded-xl flex items-center justify-center"
-              style={{ width: 48, height: 48, background: "rgba(61,179,113,0.12)", color: "var(--green)" }}
+              style={{ width: 48, height: 48, background: "color-mix(in srgb, var(--green) 12%, transparent)", color: "var(--green)" }}
             >
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.2} className="w-6 h-6">
                 <path d="M12 15v-3m0-3h.01M8.562 20.438A9 9 0 1 1 20.438 8.562" strokeLinecap="round" />

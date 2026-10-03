@@ -134,7 +134,7 @@ export default function EmailLoginModal({ isOpen, onClose, onSuccess }: Props) {
         {step === "email" && (
           <>
             <div className="flex items-center gap-3 mb-6">
-              <div className="rounded-xl flex items-center justify-center" style={{ width: 44, height: 44, background: "rgba(61,179,113,0.12)", color: "var(--green)" }}>
+              <div className="rounded-xl flex items-center justify-center" style={{ width: 44, height: 44, background: "color-mix(in srgb, var(--green) 12%, transparent)", color: "var(--green)" }}>
                 <CloudUpload className="w-5 h-5" />
               </div>
               <div>
@@ -261,7 +261,7 @@ export default function EmailLoginModal({ isOpen, onClose, onSuccess }: Props) {
         {/* ── SUCCESS STEP ── */}
         {step === "success" && (
           <div className="flex flex-col items-center text-center py-4">
-            <div className="rounded-full flex items-center justify-center mb-4" style={{ width: 60, height: 60, background: "rgba(61,179,113,0.15)", color: "var(--green)" }}>
+            <div className="rounded-full flex items-center justify-center mb-4" style={{ width: 60, height: 60, background: "color-mix(in srgb, var(--green) 15%, transparent)", color: "var(--green)" }}>
               <CheckCircle className="w-8 h-8" />
             </div>
             <h2 className="font-bold text-xl mb-2" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>

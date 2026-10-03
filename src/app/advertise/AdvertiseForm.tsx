@@ -31,7 +31,7 @@ export default function AdvertiseForm() {
 
   if (status === "sent") {
     return (
-      <div className="rounded-2xl p-6" style={{ background: "rgba(61,179,113,0.08)", border: "1px solid rgba(61,179,113,0.3)", color: "var(--text-1)" }}>
+      <div className="rounded-2xl p-6" style={{ background: "color-mix(in srgb, var(--green) 8%, transparent)", border: "1px solid color-mix(in srgb, var(--green) 30%, transparent)", color: "var(--text-1)" }}>
         ✅ Thanks — we&apos;ll reply within one working day with availability and a short proposal.
       </div>
     );
