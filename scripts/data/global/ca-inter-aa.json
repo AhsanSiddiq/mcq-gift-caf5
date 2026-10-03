@@ -545,15 +545,15 @@
       "id": "ca-inter-aa-c04-q001",
       "chapter": 4,
       "topic": "Liabilities Based Accounting Standards",
-      "question_text": "Case: Employees of Suryoday Logistics Ltd are entitled to 12 days of paid leave a year; unused leave can be carried forward for one year only and leave taken is first drawn from the current year's entitlement. At 31 March, each of its 100 employees has on average 2 unused days. Based on past experience, 85 employees are expected to take not more than 12 days next year and the remaining 15 employees will take 14.5 days each. Daily pay is ₹1,500. The liability for accumulating compensated absences under AS 15 is:",
+      "question_text": "Case: Employees of Suryoday Logistics Ltd are entitled to 12 days of paid leave a year; unused leave can be carried forward for one year only and leave taken is first drawn from the current year's entitlement. At 31 March, each of its 100 employees has on average 2 unused days. Based on past experience, 85 employees are expected to take not more than 12 days next year and the remaining 15 employees will take 13.5 days each. Daily pay is ₹1,500. The liability for accumulating compensated absences under AS 15 is:",
       "options": {
-        "A": "₹56,250",
+        "A": "₹33,750",
         "B": "₹2,55,000",
         "C": "₹45,000",
         "D": "₹3,00,000"
       },
-      "correct": "C",
-      "explanation": "The liability is measured as the additional amount expected to be paid as a result of the unused entitlement accumulated at the balance sheet date. The 85 employees will not use their carried-forward days. The other 15 employees will use 2.5 days beyond the current entitlement, but only 2 days relate to carried-forward leave. Liability = 15 x 2 days x ₹1,500 = ₹45,000.",
+      "correct": "A",
+      "explanation": "The liability is measured as the additional amount expected to be paid as a result of the unused entitlement accumulated at the balance sheet date. Since leave is drawn first from the current year's 12 days, the 85 employees taking 12 days or less will not use any carried-forward days. The other 15 employees will each take 13.5 - 12 = 1.5 days out of their 2 carried-forward days. Liability = 15 x 1.5 days x ₹1,500 = ₹33,750. Using all 2 unused days for these 15 employees (₹45,000) or for all employees (₹3,00,000) overstates the expected payment.",
       "difficulty": "hard"
     },
     {
@@ -628,7 +628,7 @@
         "D": "Recognise the receivable at an amount discounted for the probability of success"
       },
       "correct": "A",
-      "explanation": "A probable inflow from a pending claim is a contingent asset. AS 29 prohibits recognition of contingent assets, and they are usually not disclosed in the financial statements; where an inflow of economic benefits is probable, disclosure may be made in the report of the approving authority. A receivable is recognised only when the inflow becomes virtually certain.",
+      "explanation": "A probable (but not virtually certain) inflow from a pending claim is a contingent asset. AS 29 prohibits recognition of contingent assets, and a contingent asset is not disclosed in the financial statements; where an inflow of economic benefits is probable, it is usually disclosed in the report of the approving authority (the Board of Directors' report, in the case of a company). The asset and related income are recognised only when the inflow becomes virtually certain.",
       "difficulty": "medium"
     },
     {
@@ -830,7 +830,7 @@
       "id": "ca-inter-aa-c05-q012",
       "chapter": 5,
       "topic": "Accounting Standards Based on Items Impacting Financial Statements",
-      "question_text": "Case: Accounting profit of Mahi Chemicals Ltd for the year is ₹50,00,000. This is after charging penalties of ₹3,00,000 (never deductible for tax) and a provision for doubtful debts of ₹2,00,000 (deductible only when the debts are written off). Tax depreciation exceeds book depreciation by ₹6,00,000. Tax rate is 25%. Total tax expense in the statement of profit and loss under AS 22 is:",
+      "question_text": "Case: Accounting profit of Mahi Chemicals Ltd for the year is ₹50,00,000. This is after charging penalties of ₹3,00,000 (never deductible for tax) and a provision for doubtful debts of ₹2,00,000 (deductible only when the debts are written off). Tax depreciation exceeds book depreciation by ₹6,00,000. Tax rate is 25%, and there is reasonable certainty of sufficient future taxable income to realise any deferred tax asset. Total tax expense in the statement of profit and loss under AS 22 is:",
       "options": {
         "A": "₹12,25,000",
         "B": "₹13,75,000",
@@ -838,7 +838,7 @@
         "D": "₹13,25,000"
       },
       "correct": "D",
-      "explanation": "Taxable income = 50,00,000 + 3,00,000 + 2,00,000 - 6,00,000 = 49,00,000; current tax = 12,25,000. Penalties are a permanent difference, so no deferred tax arises on them. Net deferred tax liability = (6,00,000 - 2,00,000) x 25% = 1,00,000. Total tax expense = 12,25,000 + 1,00,000 = ₹13,25,000, which equals (50,00,000 + 3,00,000) x 25%.",
+      "explanation": "Taxable income = 50,00,000 + 3,00,000 + 2,00,000 - 6,00,000 = 49,00,000; current tax = 49,00,000 x 25% = 12,25,000. Penalties are a permanent difference, so no deferred tax arises on them. Excess tax depreciation gives a deferred tax liability of 6,00,000 x 25% = 1,50,000, and the provision for doubtful debts gives a deferred tax asset of 2,00,000 x 25% = 50,000 (recognised because reasonable certainty exists), so net deferred tax expense = 1,00,000. Total tax expense = 12,25,000 + 1,00,000 = ₹13,25,000, which equals (50,00,000 + 3,00,000) x 25%. Ignoring the deferred tax asset would give ₹13,75,000.",
       "difficulty": "hard"
     },
     {
@@ -1325,7 +1325,7 @@
       "id": "ca-inter-aa-c09-q007",
       "chapter": 9,
       "topic": "Financial Statements of Companies",
-      "question_text": "Case: The profit before tax of Devika Pharma Ltd as per its statement of profit and loss is ₹1,50,00,000. This is after charging managerial remuneration of ₹12,00,000 and includes a profit of ₹2,00,000 on sale of a fixed asset, the whole of which is the excess of the sale price over the asset's original cost. Applying section 198, the overall maximum managerial remuneration (11% of net profit) is:",
+      "question_text": "Case: The profit before tax of Devika Pharma Ltd as per its statement of profit and loss is ₹1,50,00,000. This is after charging managerial remuneration of ₹12,00,000 and includes a profit of ₹2,00,000 on sale of a plot of freehold land held as a fixed asset; the land had never been depreciated, so the whole profit is the excess of the sale price over its original cost. The company does not deal in land. Applying section 198, the overall maximum managerial remuneration (11% of net profit) is:",
       "options": {
         "A": "₹17,82,000",
         "B": "₹16,50,000",
@@ -1333,7 +1333,7 @@
         "D": "₹17,60,000"
       },
       "correct": "D",
-      "explanation": "For section 198, managerial remuneration is added back since net profit is computed before it: 1,50,00,000 + 12,00,000 = 1,62,00,000. Profit on sale of a fixed asset to the extent it exceeds original cost is a capital profit and is not credited: 1,62,00,000 - 2,00,000 = 1,60,00,000. Maximum remuneration = 11% x 1,60,00,000 = ₹17,60,000.",
+      "explanation": "Net profit under section 198 is computed before managerial remuneration, so it is added back: 1,50,00,000 + 12,00,000 = 1,62,00,000. Under section 198(3), profit on sale of a fixed asset is credited only to the extent of the difference between original cost and written-down value; the excess of sale price over original cost is a capital profit and is not credited. Here the land's written-down value equals its original cost, so the entire 2,00,000 is excluded: 1,62,00,000 - 2,00,000 = 1,60,00,000. Maximum remuneration = 11% x 1,60,00,000 = ₹17,60,000.",
       "difficulty": "hard"
     },
     {
@@ -1445,7 +1445,7 @@
       "id": "ca-inter-aa-c10-q005",
       "chapter": 10,
       "topic": "Buyback of Securities",
-      "question_text": "Case: Jatin Ltd buys back 1,00,000 equity shares of ₹10 each at ₹15 per share. To part-finance the buyback, it issues 10% preference shares of ₹6,00,000 at par; the balance is met out of general reserve. The amount to be transferred to the Capital Redemption Reserve is:",
+      "question_text": "Case: Jatin Ltd buys back 1,00,000 equity shares of ₹10 each at ₹15 per share. To part-finance the buyback, it issues 10% preference shares of ₹6,00,000 at par; the balance is met out of general reserve. Following the usual ICAI approach, the proceeds of the preference issue are applied first towards the nominal value of the shares bought back. The amount to be transferred to the Capital Redemption Reserve is:",
       "options": {
         "A": "₹10,00,000",
         "B": "₹4,00,000",
@@ -1453,7 +1453,7 @@
         "D": "₹9,00,000"
       },
       "correct": "B",
-      "explanation": "Nominal value of shares bought back = 1,00,000 x 10 = 10,00,000. To the extent the buyback is financed out of the proceeds of a fresh issue of a different kind of shares (6,00,000), no transfer to CRR is required. CRR = 10,00,000 - 6,00,000 = ₹4,00,000, transferred from general reserve.",
+      "explanation": "Nominal value of shares bought back = 1,00,000 x 10 = 10,00,000. Under section 69, a transfer to CRR is required only to the extent the nominal value is met out of free reserves or securities premium; the part met out of the proceeds of a fresh issue of a different kind of shares (6,00,000 of preference shares) needs no transfer. CRR = 10,00,000 - 6,00,000 = ₹4,00,000, transferred from general reserve. The premium of 5,00,000 (1,00,000 x ₹5) is also borne by general reserve but is not transferred to CRR.",
       "difficulty": "hard"
     },
     {
@@ -1580,7 +1580,7 @@
       "id": "ca-inter-aa-c11-q004",
       "chapter": 11,
       "topic": "Amalgamation of Companies",
-      "question_text": "Case: Tanvi Ltd amalgamates with Uday Ltd in an amalgamation in the nature of merger. Tanvi Ltd has share capital of ₹20,00,000, general reserve of ₹8,00,000 and a credit balance in profit and loss of ₹3,00,000. Uday Ltd issues equity shares with a face value of ₹22,00,000 as consideration. Under the pooling of interests method, the aggregate of Tanvi Ltd's reserves recorded in Uday Ltd's books (after adjusting the difference) is:",
+      "question_text": "Case: Tanvi Ltd amalgamates with Uday Ltd in an amalgamation in the nature of merger. Tanvi Ltd has share capital of ₹20,00,000, general reserve of ₹8,00,000 and a credit balance in profit and loss of ₹3,00,000. Uday Ltd issues equity shares with a face value of ₹22,00,000 as consideration. Under the pooling of interests method, the net increase in the aggregate reserves (including the profit and loss balance) of Uday Ltd as a result of the amalgamation is:",
       "options": {
         "A": "₹11,00,000",
         "B": "₹9,00,000",
@@ -1588,7 +1588,7 @@
         "D": "₹13,00,000"
       },
       "correct": "B",
-      "explanation": "Under pooling of interests, the transferor's reserves are recorded at existing amounts: 8,00,000 + 3,00,000 = 11,00,000. The excess of share capital issued over the transferor's share capital (22,00,000 - 20,00,000 = 2,00,000) is adjusted against reserves. Reserves recorded = 11,00,000 - 2,00,000 = ₹9,00,000.",
+      "explanation": "Under pooling of interests, the transferor's reserves are recorded at their existing amounts: 8,00,000 + 3,00,000 = 11,00,000. AS 14 requires the excess of share capital issued over the transferor's share capital (22,00,000 - 20,00,000 = 2,00,000) to be adjusted in reserves; no goodwill arises. Net increase in Uday Ltd's reserves = 11,00,000 - 2,00,000 = ₹9,00,000, whichever reserve the 2,00,000 is debited to.",
       "difficulty": "hard"
     },
     {
