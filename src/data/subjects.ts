@@ -1,5 +1,5 @@
-export type Level = "PRC" | "CAF" | "ACCA" | "CA-FOUNDATION" | "CIMA" | "ICAEW";
-export type BodyId = "icap" | "acca" | "icai" | "cima" | "icaew";
+export type Level = "PRC" | "CAF" | "ACCA" | "CA-FOUNDATION" | "CA-INTER" | "CIMA" | "ICAEW" | "CMA";
+export type BodyId = "icap" | "acca" | "icai" | "cima" | "icaew" | "ima";
 
 export interface Subject {
   id: string; // e.g., 'prc-1', 'caf-5', 'acca-fa'
@@ -20,6 +20,8 @@ export const LEVEL_LABEL: Record<Level, string> = {
   CAF: "ICAP CAF",
   ACCA: "ACCA",
   "CA-FOUNDATION": "ICAI CA Foundation",
+  "CA-INTER": "ICAI CA Intermediate",
+  CMA: "US CMA (IMA)",
   CIMA: "CIMA Certificate in Business Accounting",
   ICAEW: "ICAEW ACA Certificate Level",
 };
@@ -276,6 +278,75 @@ export const icaewSubjects: Subject[] = [
 ];
 // Note: the legacy BTF bank (scripts/data/global/icaew-btf.json) is not published — ICAEW withdrew BTF in Sept 2025.
 
+export const caInterSubjects: Subject[] = [
+  {
+    id: "ca-inter-aa",
+    code: "CA Inter P1",
+    title: "Advanced Accounting",
+    level: "CA-INTER",
+    body: "icai",
+    description: "Ind AS-based accounting MCQs for the CA Intermediate Paper 1 objective section.",
+    isAvailable: false,
+  },
+  {
+    id: "ca-inter-law",
+    code: "CA Inter P2",
+    title: "Corporate and Other Laws",
+    level: "CA-INTER",
+    body: "icai",
+    description: "Companies Act 2013, LLP Act and general laws — Paper 2 MCQ practice.",
+    isAvailable: false,
+  },
+  {
+    id: "ca-inter-cma",
+    code: "CA Inter P4",
+    title: "Cost and Management Accounting",
+    level: "CA-INTER",
+    body: "icai",
+    description: "Costing methods, standard costing, budgets and decision making — Paper 4 MCQ practice.",
+    isAvailable: false,
+  },
+  {
+    id: "ca-inter-audit",
+    code: "CA Inter P5",
+    title: "Auditing and Ethics",
+    level: "CA-INTER",
+    body: "icai",
+    description: "Standards on Auditing, CARO, audit reports and the Code of Ethics — Paper 5 MCQ practice.",
+    isAvailable: false,
+  },
+  {
+    id: "ca-inter-fmsm",
+    code: "CA Inter P6",
+    title: "Financial Management and Strategic Management",
+    level: "CA-INTER",
+    body: "icai",
+    description: "Cost of capital, leverage, working capital, investment decisions and strategy — Paper 6 MCQ practice.",
+    isAvailable: false,
+  },
+];
+
+export const cmaSubjects: Subject[] = [
+  {
+    id: "cma-p1",
+    code: "US CMA Part 1",
+    title: "Financial Planning, Performance and Analytics",
+    level: "CMA",
+    body: "ima",
+    description: "External reporting, planning, budgeting, performance, cost management, internal controls and technology & analytics.",
+    isAvailable: false,
+  },
+  {
+    id: "cma-p2",
+    code: "US CMA Part 2",
+    title: "Strategic Financial Management",
+    level: "CMA",
+    body: "ima",
+    description: "Financial statement analysis, corporate finance, decision analysis, risk management, investment decisions and ethics.",
+    isAvailable: false,
+  },
+];
+
 export const caFoundationSubjects: Subject[] = [
   {
     id: "ca-foundation-qa",
@@ -298,4 +369,4 @@ export const caFoundationSubjects: Subject[] = [
 ];
 
 export const icapSubjects = [...prcSubjects, ...cafSubjects];
-export const allSubjects = [...prcSubjects, ...cafSubjects, ...accaSubjects, ...accaSkillsSubjects, ...caFoundationSubjects, ...cimaSubjects, ...icaewSubjects];
+export const allSubjects = [...prcSubjects, ...cafSubjects, ...accaSubjects, ...accaSkillsSubjects, ...caFoundationSubjects, ...caInterSubjects, ...cimaSubjects, ...icaewSubjects, ...cmaSubjects];
