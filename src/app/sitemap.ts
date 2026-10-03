@@ -1,9 +1,14 @@
 import type { MetadataRoute } from "next";
 import { EXAM_BODIES } from "@/data/regions";
+import { allSubjects } from "@/data/subjects";
+import { blogs } from "@/data/blogs";
+import { getChapters } from "@/lib/questionBank";
+
+export const revalidate = 86400;
 
 const BASE_URL = "https://thecahub.com";
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const now = new Date();
 
   const staticPages = [
@@ -40,7 +45,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: "weekly" as const,
   }));
 
-  return [...staticPages, ...examPages, ...prcPages, ...cafPages].map((page) => ({
+  const blogPages = [
+    { url: `${BASE_URL}/blog`, priority: 0.7, changeFrequency: "weekly" as const },
+    ...blogs.map((b) => ({ url: `${BASE_URL}/blog/${b.slug}`, priority: 0.7, changeFrequency: "monthly" as const })),
+  ];
+
+  // Crawlable question banks: one index per subject + one page per chapter
+  const bankPages = (
+    await Promise.all(
+      allSubjects.map(async (sub) => {
+        const base = `${BASE_URL}/${sub.level.toLowerCase()}/${sub.id}/mcqs`;
+        const chapters = await getChapters(sub.id).catch(() => []);
+        return [
+          { url: base, priority: 0.85, changeFrequency: "weekly" as const },
+          ...chapters.map((c) => ({ url: `${base}/${c.slug}`, priority: 0.8, changeFrequency: "weekly" as const })),
+        ];
+      })
+    )
+  ).flat();
+
+  return [...staticPages, ...examPages, ...prcPages, ...cafPages, ...bankPages, ...blogPages].map((page) => ({
     ...page,
     lastModified: now,
   }));

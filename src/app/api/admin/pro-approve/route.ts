@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import crypto from "crypto";
-import { adminSupabase, approvalSignature, grantPro, PLAN_DAYS } from "@/lib/session";
+import { adminSupabase, approvalSignature, approvalSigningKey, grantPro, PLAN_DAYS } from "@/lib/session";
 
 const page = (msg: string, status = 200) =>
   new NextResponse(`<!doctype html><meta name="viewport" content="width=device-width"><body style="font-family:system-ui;padding:32px;background:#0a0a0b;color:#f4f4f5"><h2>${msg}</h2></body>`, {
@@ -12,7 +12,7 @@ const page = (msg: string, status = 200) =>
 export async function GET(req: NextRequest) {
   const id = req.nextUrl.searchParams.get("id") || "";
   const sig = req.nextUrl.searchParams.get("sig") || "";
-  if (!process.env.ADMIN_SECRET || !id) return page("Not configured.", 400);
+  if (!approvalSigningKey() || !id) return page("Not configured.", 400);
 
   const expected = Buffer.from(approvalSignature(id));
   const given = Buffer.from(sig);

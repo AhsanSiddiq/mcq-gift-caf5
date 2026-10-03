@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import nodemailer from "nodemailer";
-import { adminSupabase, approvalSignature, verifySession } from "@/lib/session";
+import { adminSupabase, approvalSignature, approvalSigningKey, verifySession } from "@/lib/session";
 import { PRICE_BOOKS, COUNTRY_COOKIE, priceBookForCountry } from "@/data/regions";
 
 const transporter = nodemailer.createTransport({
@@ -49,7 +49,7 @@ export async function POST(req: NextRequest) {
     }
 
     // Notify the admin with a one-click, per-request approval link
-    if (process.env.ADMIN_SECRET && process.env.GMAIL_USER) {
+    if (approvalSigningKey() && process.env.GMAIL_USER) {
       const origin = req.nextUrl.origin;
       const link = `${origin}/api/admin/pro-approve?id=${data.id}&sig=${approvalSignature(data.id)}`;
       try {

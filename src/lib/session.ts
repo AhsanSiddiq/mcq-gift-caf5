@@ -123,6 +123,11 @@ export function isValidEmail(email: unknown): email is string {
 }
 
 /** Per-request signature for the one-click approval link emailed to the admin. */
+export function approvalSigningKey(): string | undefined {
+  // Falls back to the service key (already a server-only secret) so approvals work without extra setup.
+  return process.env.ADMIN_SECRET || process.env.SUPABASE_SERVICE_KEY || undefined;
+}
+
 export function approvalSignature(id: string): string {
-  return crypto.createHmac("sha256", process.env.ADMIN_SECRET || "").update(`approve:${id}`).digest("hex");
+  return crypto.createHmac("sha256", approvalSigningKey() || "").update(`approve:${id}`).digest("hex");
 }

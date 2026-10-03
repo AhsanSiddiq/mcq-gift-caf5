@@ -19,7 +19,7 @@ export default async function ProPage() {
   const region = await getVisitorRegion();
 
   const paymentDetails: Record<string, string | undefined> = {
-    JazzCash: process.env.NEXT_PUBLIC_PAY_JAZZCASH,
+    JazzCash: process.env.NEXT_PUBLIC_PAY_JAZZCASH || "0329-2090999",
     Easypaisa: process.env.NEXT_PUBLIC_PAY_EASYPAISA,
     "Bank transfer": process.env.NEXT_PUBLIC_PAY_BANK,
     bKash: process.env.NEXT_PUBLIC_PAY_BKASH,

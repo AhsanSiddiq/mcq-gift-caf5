@@ -265,6 +265,18 @@ export default function SubjectHomeClient({ level, subjectId, currentSubject, to
           ))}
         </div>
 
+        <Link href={`/${level}/${subjectId}/mcqs`}
+          className="mt-8 flex items-center justify-between gap-4 rounded-2xl p-5"
+          style={{ background: "var(--bg-2)", border: "1px solid var(--border)", textDecoration: "none" }}>
+          <span>
+            <span className="block font-bold" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
+              Browse all {currentSubject.id.toUpperCase()} MCQs with answers
+            </span>
+            <span className="block text-sm" style={{ color: "var(--text-2)" }}>Chapter-wise question bank with explanations — read, revise, then test yourself.</span>
+          </span>
+          <ArrowRight className="w-5 h-5 shrink-0" style={{ color: "var(--green)" }} />
+        </Link>
+
         <AdSlot className="mt-10" />
       </div>
     </main>
