@@ -208,7 +208,7 @@
         "D": "Only the article assistants who will perform the fieldwork"
       },
       "correct": "B",
-      "explanation": "SA 300 requires the engagement partner and other key members of the engagement team to be involved in planning the audit, including discussions among team members. Their involvement brings experience and insight into the planning process. The client's CFO does not plan the audit, and the quality reviewer has a separate role.",
+      "explanation": "SA 300 requires the engagement partner and other key members of the engagement team to be involved in planning the audit, including discussions among team members. Their involvement brings experience and insight into the planning process. The client's CFO does not plan the audit, and the engagement quality reviewer has a separate, objective review role rather than planning the audit.",
       "difficulty": "easy"
     },
     {
@@ -223,7 +223,7 @@
         "D": "Performing tests of details on sales cut-off around the year-end"
       },
       "correct": "D",
-      "explanation": "SA 300 requires the auditor, at the beginning of the engagement, to perform procedures on client continuance (SA 220), evaluate compliance with ethical requirements including independence, and establish an understanding of the terms of engagement (SA 210). Cut-off testing is a further audit procedure performed in response to assessed risks, not a preliminary engagement activity.",
+      "explanation": "SA 300 requires the auditor, at the beginning of the engagement, to perform the procedures required by SA 220 regarding continuance of the client relationship and the specific engagement, evaluate compliance with ethical requirements including independence, and establish an understanding of the terms of engagement (SA 210). Cut-off testing is a further audit procedure performed in response to assessed risks, not a preliminary engagement activity.",
       "difficulty": "medium"
     },
     {
@@ -388,7 +388,7 @@
         "D": "The external audit function"
       },
       "correct": "D",
-      "explanation": "SA 315 describes the components of the entity's system of internal control as the control environment, the entity's risk assessment process, the entity's process to monitor the system of internal control, the information system and communication, and control activities. The external auditor is independent of the entity and is not part of its internal control.",
+      "explanation": "SA 315 describes the components of the entity's system of internal control as the control environment, the entity's risk assessment process, the information system (including related business processes) and communication, control activities, and monitoring of controls. The external auditor is independent of the entity and is not part of its internal control.",
       "difficulty": "easy"
     },
     {
@@ -943,7 +943,7 @@
         "D": "Any time before the next year's audit begins"
       },
       "correct": "A",
-      "explanation": "SA 230 requires the auditor to assemble the audit documentation in an audit file and complete the administrative process on a timely basis after the date of the report. The application material, read with the quality control standard, indicates that an appropriate time limit is ordinarily not more than 60 days after the date of the auditor's report. No new audit procedures are performed during assembly.",
+      "explanation": "SA 230 requires the auditor to assemble the audit documentation in an audit file and complete the administrative process on a timely basis after the date of the report. The application material to SA 230 indicates that an appropriate time limit is ordinarily not more than 60 days after the date of the auditor's report. Firms build this limit into their quality control (quality management) policies. No new audit procedures are performed and no new conclusions are drawn during assembly.",
       "difficulty": "medium"
     },
     {
@@ -1528,7 +1528,7 @@
         "D": "Issues a report only on internal financial controls"
       },
       "correct": "B",
-      "explanation": "Co-operative audit is governed by the relevant State Act and rules. A typical special requirement is the award of an audit classification (for example, A, B, C or D) based on criteria such as financial position, management and recovery performance. The CAG does not appoint co-operative auditors, and SA 701 applies to listed entities.",
+      "explanation": "Co-operative audit is governed by the relevant State Co-operative Societies Act and rules (or the Multi-State Co-operative Societies Act, 2002 for multi-State societies). A typical special requirement is the award of an audit classification (for example, classes such as A, B, C and D, with the classes and criteria varying from State to State) based on criteria such as financial position, management and recovery performance. The CAG does not appoint co-operative auditors, SA 701 is aimed at listed entities, and reporting on internal financial controls alone is not the function of a co-operative audit.",
       "difficulty": "medium"
     },
     {
@@ -1550,7 +1550,7 @@
       "id": "ca-inter-audit-c09-q010",
       "chapter": 9,
       "topic": "Special Features of Audit of Different Type of Entities",
-      "question_text": "Which of the following persons would be disqualified from being appointed auditor of a Limited Liability Partnership?",
+      "question_text": "Under the Limited Liability Partnership Act, 2008 and the rules made under it, which of the following persons would NOT be eligible for appointment as auditor of a Limited Liability Partnership whose accounts are required to be audited?",
       "options": {
         "A": "A firm of Chartered Accountants in which all partners are in practice",
         "B": "A Chartered Accountant in full-time practice with no relationship with the LLP",
@@ -1558,7 +1558,7 @@
         "D": "A Chartered Accountant who audits other unrelated LLPs"
       },
       "correct": "C",
-      "explanation": "The LLP framework requires the accounts to be audited by Chartered Accountants in practice and disqualifies persons whose independence is impaired, such as a partner or employee of the LLP itself (or their relatives and partners, as prescribed). A practising CA or CA firm without such relationships can be appointed.",
+      "explanation": "Under the LLP Rules, 2009, the accounts of an LLP that are required to be audited must be audited by chartered accountants in practice. A partner or employee of the LLP, or a person who is a partner of, or in the employment of, such a partner or employee, is not eligible to be its auditor, because the auditor would be examining accounts of a business in which he is involved. A practising chartered accountant or a firm of practising chartered accountants with no such relationship can be appointed, and auditing other unrelated LLPs is no bar.",
       "difficulty": "medium"
     },
     {
@@ -1625,7 +1625,7 @@
       "id": "ca-inter-audit-c10-q003",
       "chapter": 10,
       "topic": "Audit of Banks",
-      "question_text": "A borrowal account of a bank was classified as a non-performing asset on 30 June 2024 and has remained NPA since then. The security is fully realisable and no loss has been identified. What is its asset classification as at 31 March 2026?",
+      "question_text": "A borrowal account of a bank became a non-performing asset on 30 June 2024 and has remained NPA continuously since then, with no upgradation. The security is fully realisable at its book value and no loss has been identified by the bank, the auditor or RBI inspectors. Under the RBI prudential norms on asset classification, what is its classification as at 31 March 2026?",
       "options": {
         "A": "Standard asset",
         "B": "Loss asset",
@@ -1633,7 +1633,7 @@
         "D": "Doubtful asset (doubtful for up to one year, D1)"
       },
       "correct": "D",
-      "explanation": "An asset is sub-standard if it has remained NPA for 12 months or less, i.e. from 30 June 2024 to 30 June 2025. Thereafter it becomes doubtful. From 30 June 2025 to 31 March 2026 it has been doubtful for 9 months, so it falls in D1 (up to one year). It is not a loss asset because no loss has been identified and the security is realisable.",
+      "explanation": "Under RBI norms, an asset is sub-standard if it has remained NPA for a period less than or equal to 12 months; here, from 30 June 2024 to 30 June 2025. An asset that has remained in the sub-standard category for 12 months becomes doubtful, so the account became doubtful on 30 June 2025. From 30 June 2025 to 31 March 2026 it has been doubtful for 9 months, which is within one year, so it is D1. It is not a loss asset because no loss has been identified and the security is realisable, and it cannot be standard while it remains NPA.",
       "difficulty": "hard"
     },
     {
@@ -1888,7 +1888,7 @@
         "D": "An officer or employee of the company"
       },
       "correct": "D",
-      "explanation": "Section 141(3) disqualifies, among others, a body corporate (other than an LLP), an officer or employee of the company, a partner or employee of an officer or employee, persons with certain financial interests or business relationships, and a person in full-time employment elsewhere or who is auditor of more than twenty companies. A firm of practising chartered accountants can be appointed.",
+      "explanation": "Section 141(3) disqualifies, among others, a body corporate (other than an LLP), an officer or employee of the company, a partner or employee of an officer or employee, persons with certain financial interests or business relationships, and a person in full-time employment elsewhere, or a person who already holds appointment as auditor of more than twenty companies (with certain companies, such as one person companies, dormant companies and small companies, excluded from the count). A firm of practising chartered accountants can be appointed.",
       "difficulty": "medium"
     },
     {
