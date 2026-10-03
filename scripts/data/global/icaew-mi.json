@@ -365,30 +365,30 @@
       "id": "icaew-mi-c03-q003",
       "chapter": 3,
       "topic": "Job, batch, process and service costing",
-      "question_text": "In a process, 10,000 kg of material costing £46,000 were input and conversion costs were £18,000. Normal loss is 8% of input and can be sold as scrap for £2 per kg. Actual output was 9,000 kg.\n\nWhat is the value of the good output (to the nearest £)?",
+      "question_text": "Ridgeway Print makes a product in batches of 2,000 units. Each batch incurs a set-up cost of £600. Each unit needs direct materials of £4.50 and 0.2 direct labour hours paid at £15 per hour. Production overhead is absorbed at £12 per direct labour hour. On inspection, 5% of the units in every batch are normally rejected and scrapped, with no scrap value.\n\nWhat is the production cost per good unit (to the nearest penny)?",
       "options": {
-        "A": "£62,609",
-        "B": "£62,400",
-        "C": "£56,160",
-        "D": "£61,043"
+        "A": "£10.20",
+        "B": "£10.42",
+        "C": "£10.22",
+        "D": "£10.74"
       },
       "correct": "D",
-      "explanation": "Normal loss = 8% x 10,000 = 800 kg, so expected output = 9,200 kg. Cost per kg = (total costs £64,000 - scrap value of normal loss £1,600) / 9,200 kg = £6.7826. Good output = 9,000 x £6.7826 = £61,043. The 200 kg abnormal loss is valued at the same cost per kg and written off separately, so it is not charged to good output.",
+      "explanation": "Cost per unit made = materials £4.50 + labour (0.2 x £15) £3.00 + overhead (0.2 x £12) £2.40 = £9.90. Batch cost = (2,000 x £9.90) + set-up £600 = £19,800 + £600 = £20,400. Good units = 2,000 x 95% = 1,900. Cost per good unit = £20,400 / 1,900 = £10.7368, or £10.74 to the nearest penny. The full batch cost, including the cost of rejected units, is carried by the good output; dividing by 2,000 units (£10.20) ignores the rejects.",
       "difficulty": "hard"
     },
     {
       "id": "icaew-mi-c03-q004",
       "chapter": 3,
       "topic": "Job, batch, process and service costing",
-      "question_text": "In process costing, how is an abnormal gain treated?",
+      "question_text": "Brightline Printers produces leaflets to customers' orders. A typical order is a run of 5,000 identical leaflets printed to one customer's design, and each order is costed separately.\n\nWhich costing method is most appropriate?",
       "options": {
-        "A": "It is spread over good output, reducing the cost per unit of finished goods",
-        "B": "It is valued at the full cost per unit of expected output and credited to the statement of profit or loss, net of the scrap value forgone",
-        "C": "It is ignored, because only abnormal losses are recorded",
-        "D": "It is valued at scrap value only and debited to the process account"
+        "A": "Process costing",
+        "B": "Batch costing",
+        "C": "Service costing",
+        "D": "Job costing for each individual leaflet"
       },
       "correct": "B",
-      "explanation": "An abnormal gain is valued at the same cost per unit as good output and debited to the process account, with the credit going to an abnormal gain account. Because there is less normal loss to sell as scrap, the scrap income forgone is set against the gain. The net amount is credited to profit or loss and is not used to reduce the cost of good output.",
+      "explanation": "Batch costing is used where a group of identical units is made together as one order. The costs of the run are collected as for a job and then divided by the number of units in the batch to give a unit cost. Process costing suits continuous mass production of identical output rather than separately identifiable customer orders, and costing each leaflet as an individual job would be impractical because the units in a run are identical.",
       "difficulty": "medium"
     },
     {
@@ -425,15 +425,15 @@
       "id": "icaew-mi-c03-q007",
       "chapter": 3,
       "topic": "Job, batch, process and service costing",
-      "question_text": "A process produces two joint products. Joint costs are £72,000. Output is 6,000 kg of product X, which sells for £15 per kg, and 4,000 kg of product Y, which sells for £27 per kg. Both are sold at the split-off point.\n\nUsing the sales value method, how much of the joint cost is apportioned to product X (to the nearest £)?",
+      "question_text": "Seaview Hotel has 80 bedrooms and is open 365 days a year. Average occupancy is 70%. Total annual costs are £1,533,000.\n\nWhat is the cost per occupied room-night?",
       "options": {
-        "A": "£32,727",
-        "B": "£36,000",
-        "C": "£39,273",
-        "D": "£43,200"
+        "A": "£75.00",
+        "B": "£52.50",
+        "C": "£175.00",
+        "D": "£19,162.50"
       },
       "correct": "A",
-      "explanation": "Sales value of X = 6,000 x £15 = £90,000; sales value of Y = 4,000 x £27 = £108,000; total = £198,000. Joint cost apportioned to X = £72,000 x £90,000 / £198,000 = £32,727. Apportioning on physical units would give £43,200.",
+      "explanation": "Room-nights available = 80 x 365 = 29,200. Occupied room-nights = 29,200 x 70% = 20,440. Cost per occupied room-night = £1,533,000 / 20,440 = £75.00. Dividing by all available room-nights gives £52.50, which understates the cost of each room actually sold; £19,162.50 is the cost per room per year, not a service cost unit.",
       "difficulty": "medium"
     },
     {
@@ -1040,15 +1040,15 @@
       "id": "icaew-mi-c07-q009",
       "chapter": 7,
       "topic": "Preparing functional and cash budgets",
-      "question_text": "What is the main purpose of preparing a cash budget?",
+      "question_text": "A company's working capital data are:\nInventory holding period 45 days\nTrade receivables collection period 38 days\nTrade payables payment period 30 days\n\nWhat is the company's cash operating cycle?",
       "options": {
-        "A": "To value closing inventory",
-        "B": "To calculate the profit for the budget period",
-        "C": "To set the selling price of products",
-        "D": "To identify periods of expected cash shortage or surplus so that financing or investment can be arranged in advance"
+        "A": "113 days",
+        "B": "37 days",
+        "C": "23 days",
+        "D": "53 days"
       },
       "correct": "D",
-      "explanation": "A cash budget shows when cash will flow in and out. It allows management to arrange overdrafts or loans before a shortfall happens and to plan how to use surplus cash. Profit is shown in the budgeted statement of profit or loss, which includes non-cash items and is not the same as cash flow.",
+      "explanation": "Cash operating cycle = inventory holding period + receivables collection period - payables payment period = 45 + 38 - 30 = 53 days. Credit from suppliers shortens the period for which the business must finance its working capital, so the payables period is deducted, not added (adding it gives 113 days). A longer cycle means more cash is tied up in working capital.",
       "difficulty": "easy"
     },
     {
@@ -1070,45 +1070,45 @@
       "id": "icaew-mi-c08-q001",
       "chapter": 8,
       "topic": "Forecasting techniques and flexible budgets",
-      "question_text": "A company has found that its monthly overhead costs (y) are related to machine hours (x) by the regression equation y = 12,400 + 3.2x.\n\nWhat are the forecast overheads for a month with 9,000 machine hours?",
+      "question_text": "A retailer uses its historical sales data, together with weather forecasts and local event data, in a statistical model to estimate next month's demand for each product in each store. Which type of data analytics is this?",
       "options": {
-        "A": "£41,200",
-        "B": "£21,400",
-        "C": "£28,800",
-        "D": "£15,212"
+        "A": "Predictive analytics",
+        "B": "Descriptive analytics",
+        "C": "Prescriptive analytics",
+        "D": "Diagnostic analytics"
       },
       "correct": "A",
-      "explanation": "y = 12,400 + (3.2 x 9,000) = 12,400 + 28,800 = £41,200. Here 12,400 is the estimated fixed cost and 3.2 is the variable cost per machine hour.",
+      "explanation": "Predictive analytics uses historical and current data in statistical or machine learning models to estimate what is likely to happen, such as future demand. Descriptive analytics summarises what has already happened, diagnostic analytics explains why it happened, and prescriptive analytics recommends the best action to take. Using predictive analytics can make budgets and forecasts more accurate and quicker to update.",
       "difficulty": "easy"
     },
     {
       "id": "icaew-mi-c08-q002",
       "chapter": 8,
       "topic": "Forecasting techniques and flexible budgets",
-      "question_text": "Data from 6 periods give the following totals, where x is output in thousands of units and y is total cost in £000:\nΣx = 60, Σy = 480, Σxy = 5,100, Σx² = 650\n\nUsing least squares regression, where b = (nΣxy - ΣxΣy) / (nΣx² - (Σx)²) and a = ȳ - bx̄, what is the regression line?",
+      "question_text": "A company forecasts quarterly sales using an additive time series model. The trend is given by T = 2,400 + 35t, where t is the quarter number and t = 1 is quarter 1 of year 1. The average seasonal variations calculated from past data are: quarter 1 +210, quarter 2 -40, quarter 3 -190, quarter 4 +40. These must be adjusted so that they sum to zero before use.\n\nWhat is the sales forecast for quarter 3 of year 4?",
       "options": {
-        "A": "y = 6 + 20x",
-        "B": "y = 80 + 6x",
-        "C": "y = 20 + 7.85x",
-        "D": "y = 20 + 6x"
+        "A": "2,735 units",
+        "B": "3,120 units",
+        "C": "2,695 units",
+        "D": "2,730 units"
       },
       "correct": "D",
-      "explanation": "b = ((6 x 5,100) - (60 x 480)) / ((6 x 650) - 60²) = (30,600 - 28,800) / (3,900 - 3,600) = 1,800 / 300 = 6. Mean of y = 480/6 = 80; mean of x = 60/6 = 10. a = 80 - (6 x 10) = 20. The line is y = 20 + 6x: fixed costs of £20k and a variable cost of £6 per unit.",
+      "explanation": "Quarter 3 of year 4 is t = (3 x 4) + 3 = 15. Trend = 2,400 + (35 x 15) = 2,925. The seasonal variations sum to +20, so 20 / 4 = 5 is deducted from each, making the quarter 3 variation -195. Forecast = 2,925 - 195 = 2,730 units. Using the unadjusted variation gives 2,735, and using t = 14 gives 2,695.",
       "difficulty": "hard"
     },
     {
       "id": "icaew-mi-c08-q003",
       "chapter": 8,
       "topic": "Forecasting techniques and flexible budgets",
-      "question_text": "The correlation coefficient between advertising spend and sales revenue has been calculated as 0.92. Which of the following statements is correct?",
+      "question_text": "Across a retailer's stores, the correlation coefficient between monthly sales of ice cream and monthly sales of sunglasses is +0.88. Which conclusion is most appropriate?",
       "options": {
-        "A": "92% of the variation in sales revenue can be explained by variation in advertising spend",
-        "B": "Advertising spend has been proved to cause the changes in sales revenue",
-        "C": "About 85% of the variation in sales revenue can be explained by variation in advertising spend",
-        "D": "There is a strong negative relationship between advertising spend and sales revenue"
+        "A": "Higher ice cream sales cause higher sunglasses sales, so promoting ice cream will increase sunglasses sales",
+        "B": "There is only a weak relationship between the two products",
+        "C": "There is a strong positive association, but it is probably caused by a third factor, such as warm sunny weather, so neither product should be assumed to cause sales of the other",
+        "D": "There is a strong negative relationship between the two products"
       },
       "correct": "C",
-      "explanation": "The coefficient of determination is r² = 0.92² = 0.8464, or about 85%. This is the proportion of the variation in sales explained by variation in advertising. A high positive r shows a strong positive linear relationship, but correlation does not prove causation.",
+      "explanation": "A coefficient of +0.88 shows a strong positive linear association: the two variables tend to rise and fall together. Correlation does not prove causation. Here both are likely to be driven by a third variable (the weather), so a forecast or decision that assumes one causes the other would be unreliable.",
       "difficulty": "medium"
     },
     {
@@ -1148,7 +1148,7 @@
       "question_text": "Sales for four consecutive months were 120, 135, 141, 150 units. What is the three-month moving average centred on the third month?",
       "options": {
         "A": "145.5",
-        "B": "136.50",
+        "B": "136.5",
         "C": "142",
         "D": "132"
       },
@@ -1414,142 +1414,142 @@
     {
       "id": "icaew-mi-c10-q001",
       "chapter": 10,
-      "topic": "Performance measurement and management information operations",
-      "question_text": "The North division currently earns an annual profit of £360,000 on capital employed of £2,400,000. Its manager is considering a project needing an investment of £500,000, which would earn an annual profit of £70,000. The group's cost of capital is 12%.\n\nIf the manager acts to improve the division's reported performance, which of the following is correct?",
+      "topic": "The external environment, technology, data and ethics",
+      "question_text": "Hartfield Ltd sells to US customers at a price of $90 per unit, invoiced in dollars. It budgeted to sell 20,000 units at an exchange rate of $1.50 = £1. Sterling then strengthens to $1.60 = £1, and the dollar price and sales volume do not change.\n\nWhat is the effect on Hartfield's sterling revenue compared with the budget?",
       "options": {
-        "A": "The manager would reject the project if assessed on either ROI or residual income",
-        "B": "The manager would accept the project if assessed on either ROI or residual income",
-        "C": "The manager would accept the project if assessed on ROI, but reject it if assessed on residual income",
-        "D": "The manager would reject the project if assessed on ROI, but accept it if assessed on residual income"
+        "A": "An increase of £75,000",
+        "B": "A decrease of £120,000",
+        "C": "A decrease of £180,000",
+        "D": "A decrease of £75,000"
       },
       "correct": "D",
-      "explanation": "Current ROI = £360,000 / £2,400,000 = 15.0%. The project's own ROI is £70,000 / £500,000 = 14.0%, so divisional ROI would fall to £430,000 / £2,900,000 = 14.83%, and a manager judged on ROI would reject it. Project RI = £70,000 - (12% x £500,000) = £10,000, which is positive, so a manager judged on RI would accept it. Because the return exceeds the cost of capital, accepting is in the group's interest, which shows that RI promotes goal congruence better than ROI.",
+      "explanation": "Dollar revenue = 20,000 x $90 = $1,800,000. Budgeted sterling revenue = $1,800,000 / 1.50 = £1,200,000. Revenue at the new rate = $1,800,000 / 1.60 = £1,125,000. Sterling revenue falls by £75,000. A stronger domestic currency means each dollar earned converts into fewer pounds, which hurts exporters that price in foreign currency.",
       "difficulty": "hard"
     },
     {
       "id": "icaew-mi-c10-q002",
       "chapter": 10,
-      "topic": "Performance measurement and management information operations",
-      "question_text": "A division has an annual controllable profit of £520,000 and controllable net assets of £3,800,000. The group charges imputed interest at 11% a year.\n\nWhat is the division's residual income?",
+      "topic": "The external environment, technology, data and ethics",
+      "question_text": "The central bank raises interest rates. Which of the following is the most likely effect on businesses?",
       "options": {
-        "A": "£418,000",
-        "B": "£57,200",
-        "C": "£102,000",
-        "D": "£462,800"
+        "A": "Consumers increase their spending on goods bought on credit",
+        "B": "The cost of servicing variable-rate business loans falls",
+        "C": "Businesses with variable-rate borrowing face higher finance costs, and demand for goods bought on credit tends to fall",
+        "D": "The domestic currency tends to weaken as investors move funds abroad"
       },
       "correct": "C",
-      "explanation": "Imputed interest = £3,800,000 x 11% = £418,000. Residual income = controllable profit - imputed interest = £520,000 - £418,000 = £102,000.",
+      "explanation": "Higher interest rates increase the cost of borrowing, so finance costs rise for businesses with variable-rate debt, and consumers tend to cut spending on credit-financed purchases such as cars and household goods. Higher rates also tend to attract overseas funds, which strengthens rather than weakens the domestic currency.",
       "difficulty": "easy"
     },
     {
       "id": "icaew-mi-c10-q003",
       "chapter": 10,
-      "topic": "Performance measurement and management information operations",
-      "question_text": "A company's revenue was £1,250,000 and its cost of sales was £812,500.\n\nWhat is the gross profit margin?",
+      "topic": "The external environment, technology, data and ethics",
+      "question_text": "Mira is a management accountant at Brookfield Ltd. A former colleague who now works for a competitor asks her to share Brookfield's detailed product cost data 'informally, for benchmarking'. Brookfield has not authorised the disclosure and there is no legal or professional duty to disclose.\n\nWhich fundamental principle of the ICAEW Code of Ethics would Mira most directly breach if she shared the data?",
       "options": {
-        "A": "65%",
-        "B": "53.8%",
-        "C": "35%",
-        "D": "25%"
+        "A": "Professional competence and due care",
+        "B": "Objectivity",
+        "C": "Confidentiality",
+        "D": "Professional behaviour"
       },
       "correct": "C",
-      "explanation": "Gross profit = £1,250,000 - £812,500 = £437,500. Gross profit margin = £437,500 / £1,250,000 = 35%. Dividing by cost of sales (53.8%) gives the mark-up, not the margin.",
+      "explanation": "Confidentiality requires a professional accountant to respect the confidentiality of information acquired through professional and business relationships, and not to disclose it to third parties without proper and specific authority unless there is a legal or professional right or duty to disclose. None of those exceptions applies here, so disclosure to a competitor would breach confidentiality.",
       "difficulty": "easy"
     },
     {
       "id": "icaew-mi-c10-q004",
       "chapter": 10,
-      "topic": "Performance measurement and management information operations",
-      "question_text": "A company has an operating profit margin of 8% and an asset turnover of 2.5 times.\n\nWhat is its return on capital employed (ROCE)?",
+      "topic": "The external environment, technology, data and ethics",
+      "question_text": "What is the main purpose of competition regulation, such as the powers given to a national competition authority?",
       "options": {
-        "A": "20%",
-        "B": "3.2%",
-        "C": "10.5%",
-        "D": "31.25%"
+        "A": "To prevent anti-competitive behaviour, such as cartels and abuse of a dominant market position, that would harm consumers",
+        "B": "To protect domestic producers from cheaper imports",
+        "C": "To guarantee minimum profits for firms in regulated industries",
+        "D": "To set the selling prices of all goods and services"
       },
       "correct": "A",
-      "explanation": "ROCE = operating profit margin x asset turnover, because (profit / revenue) x (revenue / capital employed) = profit / capital employed. 8% x 2.5 = 20%.",
+      "explanation": "Competition regulation aims to keep markets competitive, for example by investigating mergers, prohibiting price-fixing cartels and stopping dominant firms from abusing their market power. This protects consumers through lower prices, choice and innovation. Protecting domestic producers from imports is protectionism (such as tariffs), not competition policy.",
       "difficulty": "medium"
     },
     {
       "id": "icaew-mi-c10-q005",
       "chapter": 10,
-      "topic": "Performance measurement and management information operations",
-      "question_text": "At the year end a company had trade receivables of £146,000. Credit sales for the year were £1,095,000.\n\nWhat is the trade receivables collection period, to the nearest day?",
+      "topic": "The external environment, technology, data and ethics",
+      "question_text": "Calder Ltd buys a component from an overseas supplier at £40 per unit. The government introduces an import tariff of 15% of the component's value. Calder uses 12,000 components a year and cannot pass the extra cost on to customers or find another supplier.\n\nBy how much will Calder's annual profit fall?",
       "options": {
-        "A": "48 days",
-        "B": "49 days",
-        "C": "8 days",
-        "D": "7 days"
+        "A": "£62,609",
+        "B": "£72,000",
+        "C": "£480,000",
+        "D": "£552,000"
       },
       "correct": "B",
-      "explanation": "Receivables collection period = trade receivables / credit sales x 365 = £146,000 / £1,095,000 x 365 = 48.7 days, which is 49 days to the nearest day. 7.5 is the receivables turnover in times per year, not days.",
+      "explanation": "Tariff per component = £40 x 15% = £6. Annual cost increase = 12,000 x £6 = £72,000, so profit falls by £72,000. £552,000 is the new total cost of the components (£480,000 x 1.15), not the change, and £62,609 wrongly treats the tariff as already included in the £480,000.",
       "difficulty": "medium"
     },
     {
       "id": "icaew-mi-c10-q006",
       "chapter": 10,
-      "topic": "Performance measurement and management information operations",
-      "question_text": "Which of the following correctly lists the four perspectives of Kaplan and Norton's balanced scorecard?",
+      "topic": "The external environment, technology, data and ethics",
+      "question_text": "A company's marketing team designs its own questionnaire and sends it to customers to measure their satisfaction with a new product. What type of data does this produce?",
       "options": {
-        "A": "Financial; competitive; quality; flexibility",
-        "B": "Financial; customer; employee; environmental",
-        "C": "Profitability; liquidity; efficiency; gearing",
-        "D": "Financial; customer; internal business process; innovation and learning"
+        "A": "Secondary data",
+        "B": "Metadata",
+        "C": "Big data",
+        "D": "Primary data"
       },
       "correct": "D",
-      "explanation": "The balanced scorecard combines the financial perspective with three non-financial perspectives: customer, internal business process, and innovation and learning (also called learning and growth). It aims to balance short-term financial results with the drivers of long-term success. Competitiveness, quality and flexibility are dimensions from other performance frameworks.",
+      "explanation": "Primary data is collected first-hand by the user for a specific purpose, such as a company's own survey. Secondary data was collected by someone else, or for another purpose, such as published industry statistics. Metadata is data that describes other data, and big data refers to very large, fast-changing and varied data sets.",
       "difficulty": "easy"
     },
     {
       "id": "icaew-mi-c10-q007",
       "chapter": 10,
-      "topic": "Performance measurement and management information operations",
-      "question_text": "Under the balanced scorecard, to which perspective does the measure 'percentage of revenue earned from products launched in the last two years' most naturally belong?",
+      "topic": "The external environment, technology, data and ethics",
+      "question_text": "A company wants to survey 200 of its 8,000 customers. It lists the customers alphabetically, chooses a random starting point between 1 and 40, and then selects every 40th customer on the list.\n\nWhich sampling method is this?",
       "options": {
-        "A": "Financial",
-        "B": "Customer",
-        "C": "Internal business process",
-        "D": "Innovation and learning"
+        "A": "Quota sampling",
+        "B": "Stratified random sampling",
+        "C": "Cluster sampling",
+        "D": "Systematic sampling"
       },
       "correct": "D",
-      "explanation": "The innovation and learning perspective asks whether the organisation can keep improving and creating value. Revenue from recently launched products measures its ability to innovate successfully. Although expressed in revenue terms, its purpose is to track innovation rather than overall financial performance.",
+      "explanation": "Systematic sampling selects items at a fixed interval (here 8,000 / 200 = every 40th) from a random start. Stratified sampling divides the population into groups and samples randomly within each one, cluster sampling selects whole groups, and quota sampling is non-random, with interviewers filling set quotas. Systematic sampling can be biased if the list has a pattern that matches the interval.",
       "difficulty": "medium"
     },
     {
       "id": "icaew-mi-c10-q008",
       "chapter": 10,
-      "topic": "Performance measurement and management information operations",
-      "question_text": "Under the controllability principle, which of the following should be excluded when assessing the performance of a divisional manager?",
+      "topic": "The external environment, technology, data and ethics",
+      "question_text": "Which of the following finance tasks is best suited to robotic process automation (RPA)?",
       "options": {
-        "A": "A share of head office costs allocated to the division on the basis of revenue",
-        "B": "Variable production costs incurred by the division",
-        "C": "Revenue from sales negotiated by the division's sales team",
-        "D": "Discretionary marketing spend decided by the divisional manager"
+        "A": "Matching high volumes of supplier invoices to purchase orders and goods received notes using fixed rules",
+        "B": "Negotiating the terms of a new bank loan facility",
+        "C": "Deciding whether the company should enter a new overseas market",
+        "D": "Judging the amount of a provision for a disputed legal claim"
       },
       "correct": "A",
-      "explanation": "The controllability principle says managers should be held responsible only for costs and revenues they can control or significantly influence. Allocated head office costs are outside the divisional manager's control. Including them can demotivate the manager and distort the assessment. The other items are all within the manager's control.",
+      "explanation": "RPA uses software 'bots' to perform high-volume, repetitive, rules-based tasks on structured data, such as three-way matching of invoices. This is faster, cheaper and less error-prone than manual processing and frees accountants for higher-value work. Negotiation, strategic decisions and judgements on uncertain matters need human judgement and are not suitable for RPA.",
       "difficulty": "medium"
     },
     {
       "id": "icaew-mi-c10-q009",
       "chapter": 10,
-      "topic": "Performance measurement and management information operations",
-      "question_text": "A group closes the finance teams in each of its subsidiaries and moves transaction processing into one central shared service centre. What is the main benefit the group would expect?",
+      "topic": "The external environment, technology, data and ethics",
+      "question_text": "A management accountant is asked to report on customer satisfaction. The only data available come from customers who chose to complete an online survey after contacting the complaints helpline.\n\nApplying professional scepticism, which issue should the accountant highlight?",
       "options": {
-        "A": "Removal of all risk of errors in transaction processing",
-        "B": "Lower costs through economies of scale and standardised processes",
-        "C": "Greater understanding by finance staff of each subsidiary's local operations",
-        "D": "Less reliance on information technology"
+        "A": "None, because data collected directly from customers is always reliable",
+        "B": "The sample is affected by selection bias, so the results may not represent the views of customers as a whole",
+        "C": "The data cannot be used, because customer data may never be analysed",
+        "D": "The results can be relied on as long as more than 100 customers responded"
       },
       "correct": "B",
-      "explanation": "A shared service centre brings similar activities together, cutting duplication, using economies of scale and standardising processes and systems, which reduces cost. A common drawback is that the centre is further from the business units, so local knowledge and responsiveness may be lost. It usually relies more on IT, not less, and cannot remove all risk of error.",
+      "explanation": "Only customers who contacted the complaints line and chose to respond are included, so the sample suffers from selection (self-selection) bias and is likely to overstate dissatisfaction. Professional scepticism means questioning whether data is complete and representative before using it, and disclosing its limitations. A larger biased sample is still biased.",
       "difficulty": "medium"
     },
     {
       "id": "icaew-mi-c10-q010",
       "chapter": 10,
-      "topic": "Performance measurement and management information operations",
+      "topic": "The external environment, technology, data and ethics",
       "question_text": "The managing director of a company asks the management accountant to reduce the forecast costs in a cash flow forecast that will be given to the bank to support a loan application, although the accountant believes the original forecast is realistic. Which fundamental principle of the ICAEW Code of Ethics is most directly threatened?",
       "options": {
         "A": "Confidentiality",
@@ -1805,21 +1805,21 @@
       "id": "icaew-mi-c12-q007",
       "chapter": 12,
       "topic": "Relevant costs and short-term decisions",
-      "question_text": "A process produces 5,000 kg of joint product J, which can be sold at the split-off point for £8 per kg. Alternatively, J can be processed further at a cost of £3 per kg and then sold for £12 per kg. Joint costs of £40,000 are apportioned to J.\n\nWhat should the company do with product J?",
+      "question_text": "Ashby Ltd has spare capacity. A customer offers to buy 2,000 units of a product at £21 each as a one-off order that will not affect other sales. The variable cost is £17 per unit and fixed production overhead is absorbed at £6 per unit; total fixed overheads will not change. Special packaging costing £1,500 in total would be needed for the order.\n\nWhat is the effect on profit of accepting the order?",
       "options": {
-        "A": "Process further, which increases profit by £45,000",
-        "B": "Process further, which increases profit by £5,000",
-        "C": "Process further, which increases profit by £20,000",
-        "D": "Sell at split-off, because further processing reduces profit by £35,000"
+        "A": "A decrease of £5,500",
+        "B": "An increase of £6,500",
+        "C": "An increase of £8,000",
+        "D": "A decrease of £4,000"
       },
       "correct": "B",
-      "explanation": "Incremental revenue from further processing = £12 - £8 = £4 per kg, and the incremental cost is £3 per kg. The net gain is £1 per kg x 5,000 kg = £5,000, so J should be processed further. The joint costs of £40,000 are incurred whatever is decided and are irrelevant.",
+      "explanation": "Only incremental cash flows are relevant. Extra contribution = 2,000 x (£21 - £17) = £8,000. Less the specific packaging cost of £1,500 gives an increase in profit of £6,500. The absorbed fixed overhead of £6 per unit is not relevant because total fixed costs do not change; using full cost of £23 gives the wrong answer of a £5,500 decrease.",
       "difficulty": "medium"
     },
     {
       "id": "icaew-mi-c13-q001",
       "chapter": 13,
-      "topic": "Investment appraisal and sensitivity analysis",
+      "topic": "Investment appraisal",
       "question_text": "A project needs an initial investment of £180,000. Net cash inflows are expected to be: year 1 £45,000, year 2 £55,000, year 3 £70,000, year 4 £80,000. Cash flows arise evenly over each year.\n\nWhat is the payback period?",
       "options": {
         "A": "3.125 years",
@@ -1834,7 +1834,7 @@
     {
       "id": "icaew-mi-c13-q002",
       "chapter": 13,
-      "topic": "Investment appraisal and sensitivity analysis",
+      "topic": "Investment appraisal",
       "question_text": "A machine costs £240,000 and will be sold for £40,000 at the end of its 5-year life. Total net cash inflows from the machine over the 5 years are expected to be £360,000. Depreciation is charged on a straight-line basis.\n\nWhat is the accounting rate of return based on average investment (to one decimal place)?",
       "options": {
         "A": "51.4%",
@@ -1849,7 +1849,7 @@
     {
       "id": "icaew-mi-c13-q003",
       "chapter": 13,
-      "topic": "Investment appraisal and sensitivity analysis",
+      "topic": "Investment appraisal",
       "question_text": "A project needs an investment of £150,000 now and will generate net cash inflows of £42,000 a year for 5 years, starting in one year's time. The cost of capital is 10%, and the 5-year annuity factor at 10% is 3.791.\n\nWhat is the net present value of the project?",
       "options": {
         "A": "-£16,860",
@@ -1864,7 +1864,7 @@
     {
       "id": "icaew-mi-c13-q004",
       "chapter": 13,
-      "topic": "Investment appraisal and sensitivity analysis",
+      "topic": "Investment appraisal",
       "question_text": "A project costs £200,000 now. Net cash inflows are expected at the end of each year as follows: year 1 £60,000, year 2 £80,000, year 3 £90,000, year 4 £50,000. The cost of capital is 12%. Discount factors at 12% are: year 1 0.893, year 2 0.797, year 3 0.712, year 4 0.636.\n\nWhat is the net present value of the project?",
       "options": {
         "A": "£13,220",
@@ -1879,7 +1879,7 @@
     {
       "id": "icaew-mi-c13-q005",
       "chapter": 13,
-      "topic": "Investment appraisal and sensitivity analysis",
+      "topic": "Investment appraisal",
       "question_text": "A project has an NPV of £9,222 at a discount rate of 10% and an NPV of -£9,216 at 15%.\n\nUsing linear interpolation, what is the estimated internal rate of return (to one decimal place)?",
       "options": {
         "A": "13.5%",
@@ -1894,22 +1894,22 @@
     {
       "id": "icaew-mi-c13-q006",
       "chapter": 13,
-      "topic": "Investment appraisal and sensitivity analysis",
-      "question_text": "An investment is expected to generate £18,000 a year in perpetuity, with the first receipt in one year's time. The cost of capital is 8%.\n\nWhat is the present value of the receipts?",
+      "topic": "Investment appraisal",
+      "question_text": "Which of the following is a disadvantage of the payback method of investment appraisal?",
       "options": {
-        "A": "£207,000",
-        "B": "£225,000",
-        "C": "£144,000",
-        "D": "£243,000"
+        "A": "It is difficult for non-financial managers to understand",
+        "B": "It ignores cash flows arising after the payback period and, in its simple form, the time value of money",
+        "C": "It is based on accounting profits rather than cash flows",
+        "D": "It cannot be used without first estimating the company's cost of capital"
       },
       "correct": "B",
-      "explanation": "PV of a perpetuity starting in one year = annual cash flow / cost of capital = £18,000 / 0.08 = £225,000. If the first receipt were immediate (year 0), a further £18,000 would be added.",
+      "explanation": "Payback measures how quickly the initial investment is recovered. It is simple to understand and favours liquidity, but it ignores all cash flows after the payback point and, unless discounted payback is used, the timing of cash flows within the period. Using accounting profit is a weakness of ARR, and needing a cost of capital applies to NPV.",
       "difficulty": "medium"
     },
     {
       "id": "icaew-mi-c13-q007",
       "chapter": 13,
-      "topic": "Investment appraisal and sensitivity analysis",
+      "topic": "Investment appraisal",
       "question_text": "A project will generate £10,000 a year at the end of years 3 to 7 inclusive. The cost of capital is 10%. Annuity factors at 10% are: 2 years 1.736, 3 years 2.487, 5 years 3.791, 7 years 4.868.\n\nWhat is the present value of these cash flows?",
       "options": {
         "A": "£48,680",
@@ -1924,22 +1924,22 @@
     {
       "id": "icaew-mi-c13-q008",
       "chapter": 13,
-      "topic": "Investment appraisal and sensitivity analysis",
-      "question_text": "A project needs an investment of £150,000 and has annual net cash inflows of £42,000 for 5 years. At a cost of capital of 10%, the present value of the inflows is £159,222 and the NPV is £9,222.\n\nBy what percentage could the annual cash inflows fall before the project's NPV becomes zero (to one decimal place)?",
+      "topic": "Investment appraisal",
+      "question_text": "A company is appraising a new plant costing £300,000. Annual net cash inflows before environmental costs will be £120,000 for 4 years. The plant will incur a carbon emissions levy of £15,000 a year, and site restoration costing £60,000 will be paid at the end of year 4. The cost of capital is 10%. The 4-year annuity factor at 10% is 3.170 and the year 4 discount factor is 0.683.\n\nWhat is the net present value of the project after taking these sustainability-related costs into account?",
       "options": {
-        "A": "6.1%",
-        "B": "4.4%",
-        "C": "22.0%",
-        "D": "5.8%"
+        "A": "£80,400",
+        "B": "£32,850",
+        "C": "£39,420",
+        "D": "-£8,130"
       },
       "correct": "D",
-      "explanation": "Sensitivity = NPV / PV of the cash flow under review = £9,222 / £159,222 = 5.8%. If annual inflows fell by more than this, the NPV would become negative. The 6.1% figure is the sensitivity of the initial investment, not of the inflows.",
+      "explanation": "Net annual inflows = £120,000 - £15,000 = £105,000. PV = £105,000 x 3.170 = £332,850. PV of site restoration = £60,000 x 0.683 = £40,980. NPV = £332,850 - £40,980 - £300,000 = -£8,130. Ignoring the environmental costs gives a misleading NPV of £80,400; including carbon and restoration costs in the cash flows is one way of incorporating sustainability into investment appraisal, alongside non-financial factors.",
       "difficulty": "hard"
     },
     {
       "id": "icaew-mi-c13-q009",
       "chapter": 13,
-      "topic": "Investment appraisal and sensitivity analysis",
+      "topic": "Investment appraisal",
       "question_text": "In a net present value calculation for a new production line, which of the following should be included as a relevant cash flow?",
       "options": {
         "A": "Annual depreciation of the production line",
