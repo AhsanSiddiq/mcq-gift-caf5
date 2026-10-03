@@ -86,3 +86,20 @@ Payments: Paddle (merchant of record, accepts Pakistani sellers, pays out to a b
 | ACCA Pro | 300 passes × $25 × 3 sittings | ≈ $22k |
 | Sponsorships | 2 slots × Rs 75k × 10 months | ≈ Rs 1.5M (~$5.4k) |
 | AdSense | 500k pageviews/mo × $1 RPM | ≈ $6k |
+
+## Social auto-posting (Facebook + Instagram)
+Each day at 04:00 UTC (09:00 PKT), Vercel Cron calls `/api/cron/social`. It does three things:
+- Posts a "Question of the Day" image card (`/api/social/card?body=…`): one card for ICAP every day, plus one for a rotating global body.
+- On Facebook, the caption has links. On Instagram, it says "link in bio".
+- The answer and explanation go in the first comment.
+
+Each channel is switched on by its own env vars:
+
+| Var | What |
+|---|---|
+| `CRON_SECRET` | Any long random string. Vercel sends it automatically to cron routes. |
+| `FB_PAGE_ID` | Facebook Page → About → Page ID |
+| `FB_PAGE_TOKEN` | Long-lived Page access token with `pages_manage_posts`, `pages_read_engagement`, `instagram_basic` and `instagram_content_publish` |
+| `IG_USER_ID` | The ID of the Instagram Business account linked to the Page (Graph API: `GET /{page-id}?fields=instagram_business_account`) |
+
+To check a post without publishing it: `curl -H "Authorization: Bearer $CRON_SECRET" "https://www.thecahub.com/api/cron/social?dry=1"`.

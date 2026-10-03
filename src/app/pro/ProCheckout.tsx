@@ -279,8 +279,14 @@ export default function ProCheckout({ prices, localRails, paymentDetails, paddle
 
         {error && <p className="text-sm" style={{ color: "#f87171" }}>{error}</p>}
         <p className="text-xs" style={{ color: "var(--text-3)", lineHeight: 1.6 }}>
-          Pro is linked to your verified email — sign in with the same email on any device. Card payments are processed securely by Paddle.
+          Pro is linked to your verified email — sign in with the same email on any device. Card payments are processed securely by
+          Paddle.com, our Merchant of Record. Every plan has a 14-day money-back guarantee; the monthly plan renews automatically until you cancel.
           {email ? ` Signed in as ${email}.` : ""}
+        </p>
+        <p className="text-xs flex flex-wrap gap-x-4 gap-y-1" style={{ color: "var(--text-3)" }}>
+          <Link href="/terms" className="underline">Terms of Service</Link>
+          <Link href="/privacy-policy" className="underline">Privacy Policy</Link>
+          <Link href="/refund-policy" className="underline">Refund Policy</Link>
         </p>
       </div>
     </div>

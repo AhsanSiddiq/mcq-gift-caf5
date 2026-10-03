@@ -10,7 +10,7 @@ const NAV = [
       { label: "Induction CV Maker", href: "/cv-maker" },
       { label: "Daily Challenge", href: "/daily" },
       { label: "All Exams", href: "/exams" },
-      { label: "Pro", href: "/pro" },
+      { label: "Pro & Pricing", href: "/pro" },
     ],
   },
   {
@@ -25,7 +25,8 @@ const NAV = [
     heading: "Legal",
     links: [
       { label: "Privacy Policy", href: "/privacy-policy" },
-      { label: "Terms of Use", href: "/terms" },
+      { label: "Terms of Service", href: "/terms" },
+      { label: "Refund Policy", href: "/refund-policy" },
       { label: "Contact", href: "/contact" },
       { label: "Advertise", href: "/advertise" },
     ],

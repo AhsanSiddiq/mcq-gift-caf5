@@ -24,6 +24,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${BASE_URL}/contact`,                 priority: 0.6,  changeFrequency: "yearly"  as const },
     { url: `${BASE_URL}/privacy-policy`,          priority: 0.3,  changeFrequency: "yearly"  as const },
     { url: `${BASE_URL}/terms`,                   priority: 0.3,  changeFrequency: "yearly"  as const },
+    { url: `${BASE_URL}/refund-policy`,           priority: 0.3,  changeFrequency: "yearly"  as const },
   ];
 
   // PRC subjects
