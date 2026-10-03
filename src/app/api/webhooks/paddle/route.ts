@@ -5,7 +5,7 @@ import { grantPro, isValidEmail, PLAN_DAYS } from "@/lib/session";
 /**
  * Paddle Billing webhook.
  * Configure in Paddle → Developer tools → Notifications:
- *   URL:    https://thecahub.com/api/webhooks/paddle
+ *   URL:    https://www.thecahub.com/api/webhooks/paddle
  *   Events: transaction.completed, subscription.created, subscription.updated, subscription.canceled
  * Secret → env PADDLE_WEBHOOK_SECRET.
  *

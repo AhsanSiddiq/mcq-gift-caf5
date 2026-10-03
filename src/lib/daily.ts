@@ -1,4 +1,4 @@
-import { allSubjects } from "@/data/subjects";
+import { icapSubjects } from "@/data/subjects";
 
 /** Daily challenge #1 was 2026-10-01 (Pakistan time). */
 const EPOCH = Date.UTC(2026, 9, 1);
@@ -15,7 +15,8 @@ export function dailyNumber(date: string): number {
 
 /** Rotate through every live subject, one per day. */
 export function dailySubject(date: string) {
-  const live = allSubjects.filter((s) => s.isAvailable);
+  // ICAP-only for now: one shared puzzle per audience keeps the WhatsApp-sharing loop tight
+  const live = icapSubjects.filter((s) => s.isAvailable);
   const n = dailyNumber(date);
   return live[((n % live.length) + live.length) % live.length];
 }

@@ -44,13 +44,13 @@ export async function POST(req: NextRequest) {
             <p style="margin:0 0 20px;font-size:14px;color:#999;line-height:1.7;">
               Thanks for using The CA Hub CV Maker. Your CV is attached to this email as a PDF. Come back anytime to update it as you clear more exams or add new experience.
             </p>
-            <a href="https://thecahub.com/cv-maker" style="display:inline-block;background:#22c55e;color:#fff;text-decoration:none;padding:12px 24px;border-radius:10px;font-weight:700;font-size:14px;">Open CV Maker →</a>
+            <a href="https://www.thecahub.com/cv-maker" style="display:inline-block;background:#22c55e;color:#fff;text-decoration:none;padding:12px 24px;border-radius:10px;font-weight:700;font-size:14px;">Open CV Maker →</a>
             <p style="margin:24px 0 0;font-size:12px;color:#555;line-height:1.7;">
-              While you're here — practice MCQs for your upcoming exams on <a href="https://thecahub.com/practice" style="color:#22c55e;text-decoration:none;">thecahub.com/practice</a>. It's free.
+              While you're here — practice MCQs for your upcoming exams on <a href="https://www.thecahub.com/practice" style="color:#22c55e;text-decoration:none;">thecahub.com/practice</a>. It's free.
             </p>
           </div>
           <div style="border-top:1px solid #1f1f1f;padding:16px 32px;text-align:center;">
-            <p style="margin:0;font-size:11px;color:#444;">© 2026 The CA Hub · <a href="https://thecahub.com" style="color:#22c55e;text-decoration:none;">thecahub.com</a></p>
+            <p style="margin:0;font-size:11px;color:#444;">© 2026 The CA Hub · <a href="https://www.thecahub.com" style="color:#22c55e;text-decoration:none;">thecahub.com</a></p>
           </div>
         </div>
       `,

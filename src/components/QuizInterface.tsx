@@ -392,7 +392,7 @@ export default function QuizInterface({ mode, chapter, initialQuestions = [] }: 
         </div>
 
         <a
-          href={`https://wa.me/?text=${encodeURIComponent(`I scored ${pct}% on a ${subjectId.toUpperCase()} ${MODE_LABELS[mode]} at The CA Hub 📚 Free ICAP MCQs: https://thecahub.com/${level}/${subjectId}`)}`}
+          href={`https://wa.me/?text=${encodeURIComponent(`I scored ${pct}% on a ${subjectId.toUpperCase()} ${MODE_LABELS[mode]} at The CA Hub 📚 Free ICAP MCQs: https://www.thecahub.com/${level}/${subjectId}`)}`}
           target="_blank" rel="noopener noreferrer"
           className="mt-5 flex items-center justify-center gap-2 rounded-xl px-5 py-3 font-bold text-white text-sm"
           style={{ background: "#25D366", textDecoration: "none" }}>

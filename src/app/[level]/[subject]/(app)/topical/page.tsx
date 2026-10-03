@@ -188,7 +188,7 @@ export default function TopicalPage() {
         <p className="mt-10 text-sm text-center" style={{ color: "var(--text-3)" }}>
           Prefer to read first?{" "}
           <Link href={`/${level}/${subjectId}/mcqs`} style={{ color: "var(--green)", fontWeight: 600 }}>
-            Browse every {subjectId.toUpperCase()} MCQ with answers →
+            Browse every MCQ in this subject with answers →
           </Link>
         </p>
       </div>

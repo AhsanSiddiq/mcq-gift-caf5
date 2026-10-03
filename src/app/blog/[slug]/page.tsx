@@ -16,7 +16,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: `${blog.title} | The CA Hub Blog`,
     description: blog.excerpt,
+    alternates: { canonical: `https://www.thecahub.com/blog/${blog.slug}` },
     openGraph: {
+      url: `https://www.thecahub.com/blog/${blog.slug}`,
       title: blog.title,
       description: blog.excerpt,
       type: 'article',

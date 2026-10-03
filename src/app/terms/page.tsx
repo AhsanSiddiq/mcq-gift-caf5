@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://www.thecahub.com/terms" },
   title: "Terms of Use | The CA Hub",
   description: "Terms of Use for The CA Hub — the rules governing your use of our platform.",
 };

@@ -10,11 +10,11 @@ export const metadata: Metadata = {
   title: "Daily CA MCQ Challenge – 10 Questions a Day",
   description:
     "A new 10-question ICAP MCQ challenge every day, rotating through PRC and CAF subjects. Keep your streak alive and share your score with your study group.",
-  alternates: { canonical: "https://thecahub.com/daily" },
+  alternates: { canonical: "https://www.thecahub.com/daily" },
   openGraph: {
     title: "The CA Hub Daily Challenge",
     description: "10 MCQs a day. Same questions for everyone. How long can you keep your streak?",
-    url: "https://thecahub.com/daily",
+    url: "https://www.thecahub.com/daily",
   },
 };
 
