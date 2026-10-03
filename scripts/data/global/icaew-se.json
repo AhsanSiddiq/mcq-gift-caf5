@@ -52,13 +52,13 @@
       "topic": "Concepts and significance of sustainability",
       "question_text": "What does the term 'Anthropocene' describe?",
       "options": {
-        "A": "A proposed name for the current period in which human activity has become the dominant influence on the Earth's climate and ecosystems",
+        "A": "An informal term for the current period in which human activity has become a dominant influence on the Earth's climate and ecosystems",
         "B": "A model of business strategy that places people ahead of profit",
         "C": "The period before industrialisation when human impact on the planet was negligible",
         "D": "An international agreement on reducing greenhouse gas emissions"
       },
       "correct": "A",
-      "explanation": "The Anthropocene is a term proposed to describe the era in which humans have become a major force shaping the planet's geology, climate and ecosystems. It is not a business model or a treaty. It describes the opposite of the pre-industrial period, when human influence was much smaller.",
+      "explanation": "The Anthropocene is a widely used term for the period in which humans have become a dominant force shaping the planet's climate, ecosystems and geology. Although it has been debated by geologists, it has not been formally adopted as a unit of the geological time scale, so it is best described as an informal term rather than an official epoch. It is not a business model or a treaty, and it describes the opposite of the pre-industrial period, when human influence was much smaller.",
       "difficulty": "easy"
     },
     {
@@ -320,15 +320,15 @@
       "id": "icaew-se-c02-q009",
       "chapter": 2,
       "topic": "Pillars of sustainability",
-      "question_text": "A company announces that it will pay all staff at least a 'living wage' rather than the legal minimum wage. How does a living wage differ from a minimum wage?",
+      "question_text": "A company announces that it will pay all staff at least a voluntary 'living wage' benchmark rather than only the legal minimum wage. (In the UK, this voluntary benchmark is different from the statutory 'National Living Wage', which is itself a legal minimum rate.) How does a voluntary living wage differ from a minimum wage?",
       "options": {
         "A": "A living wage is based on the income needed to cover a basic but acceptable standard of living, whereas a minimum wage is the legal floor set by law",
-        "B": "A living wage is a legal requirement, whereas a minimum wage is voluntary",
+        "B": "A living wage is set by the government each year, whereas a minimum wage is agreed between each employer and its staff",
         "C": "A living wage applies only to directors, whereas a minimum wage applies to other employees",
         "D": "A living wage is always lower than the minimum wage"
       },
       "correct": "A",
-      "explanation": "A living wage is a voluntary benchmark calculated from the cost of meeting basic needs, and is typically higher than the statutory minimum. The minimum wage is the legal floor that employers must pay. Paying a living wage supports social sustainability by reducing in-work poverty.",
+      "explanation": "A voluntary living wage is a benchmark calculated from the cost of meeting basic needs, and is typically higher than the statutory minimum. The minimum wage is the legal floor that employers must pay and is set by government, not negotiated employer by employer. In the UK the statutory 'National Living Wage' is a legal minimum rate despite its name, which is why the stem distinguishes it from the voluntary benchmark. Paying a living wage supports social sustainability by reducing in-work poverty.",
       "difficulty": "easy"
     },
     {
@@ -485,7 +485,7 @@
       "id": "icaew-se-c03-q007",
       "chapter": 3,
       "topic": "Regulation on sustainability",
-      "question_text": "The EU Corporate Sustainability Reporting Directive (CSRD) requires in-scope companies to report using the European Sustainability Reporting Standards (ESRS). Which materiality concept underpins the CSRD?",
+      "question_text": "Sustainability reporting under the EU Corporate Sustainability Reporting Directive (CSRD), using the European Sustainability Reporting Standards (ESRS), is based on a particular materiality concept. Ignoring which companies fall within its scope and when, which materiality concept underpins this reporting?",
       "options": {
         "A": "Financial materiality only, considering just the effects of sustainability matters on the company",
         "B": "Impact materiality only, ignoring effects on the company's finances",
@@ -493,7 +493,7 @@
         "D": "Quantitative materiality, set at a fixed percentage of profit before tax"
       },
       "correct": "C",
-      "explanation": "The CSRD is an example of sustainability goals being codified into law, and it uses double materiality. A matter is material if it is material from an impact perspective (inside-out), a financial perspective (outside-in), or both. This differs from the ISSB standards, which focus on financial materiality for investors.",
+      "explanation": "The CSRD and ESRS use double materiality. A sustainability matter is material if it is material from an impact perspective (the company's effects on people and the environment, 'inside-out'), from a financial perspective (effects on the company's cash flows and financial position, 'outside-in'), or both. This differs from the ISSB standards, which focus on financial materiality for investors. Materiality is not set as a fixed percentage of profit.",
       "difficulty": "hard"
     },
     {
@@ -875,7 +875,7 @@
       "id": "icaew-se-c05-q007",
       "chapter": 5,
       "topic": "The role of the professional accountant in sustainability",
-      "question_text": "A transport company used 120,000 litres of diesel in its own lorries during the year. Assume an emission factor of 2.5 kg CO2e per litre of diesel.\nWhat are the resulting emissions in tonnes CO2e, and in which scope are they reported?",
+      "question_text": "A transport company used 120,000 litres of diesel in its own lorries during the year. For the purpose of this question, assume an emission factor of 2.5 kg CO2e per litre of diesel.\nWhat are the resulting emissions in tonnes CO2e, and in which scope are they reported?",
       "options": {
         "A": "300 tonnes CO2e, Scope 2",
         "B": "300 tonnes CO2e, Scope 1",
@@ -883,7 +883,7 @@
         "D": "48 tonnes CO2e, Scope 3"
       },
       "correct": "B",
-      "explanation": "Emissions = 120,000 litres x 2.5 kg CO2e = 300,000 kg CO2e, which is 300,000 / 1,000 = 300 tonnes CO2e. Fuel burned in vehicles the company owns or controls is a direct emission, so it is Scope 1. The 300,000 figure fails to convert kilograms to tonnes, and 48 wrongly divides litres by the factor before converting.",
+      "explanation": "Emissions = 120,000 litres x 2.5 kg CO2e = 300,000 kg CO2e, which is 300,000 / 1,000 = 300 tonnes CO2e. Fuel burned in vehicles the company owns or controls is a direct emission, so it is Scope 1. The 300,000 figure fails to convert kilograms to tonnes, and 48 wrongly divides litres by the factor (120,000 / 2.5 = 48,000 kg). The 2.5 kg factor is a simplified assumption; in practice published conversion factors are used and are updated periodically.",
       "difficulty": "medium"
     },
     {
@@ -1372,13 +1372,13 @@
       "topic": "Ethics and public trust",
       "question_text": "Which statement best describes the relationship between the IESBA Code of Ethics, the ICAEW Code of Ethics and the FRC Ethical Standard?",
       "options": {
-        "A": "The ICAEW Code is based on the IESBA Code with some additional requirements, while the FRC Ethical Standard sets requirements for auditors and other assurance practitioners in the UK that can be more restrictive",
+        "A": "The ICAEW Code is based on the IESBA Code with some additional UK requirements, while the FRC Ethical Standard applies to UK audits and certain other public interest assurance engagements and can impose stricter requirements",
         "B": "The IESBA Code applies only in the UK and replaces both the ICAEW Code and the FRC Ethical Standard",
         "C": "The FRC Ethical Standard applies to all accountants in business, whereas the ICAEW Code applies only to auditors",
         "D": "The three codes are unrelated and frequently contradict each other"
       },
       "correct": "A",
-      "explanation": "The IESBA Code is the international code issued by the International Ethics Standards Board for Accountants, and the ICAEW Code is derived from it with some additional UK requirements. The FRC Ethical Standard applies to audit and certain other assurance engagements in the UK and can impose stricter requirements, particularly on independence. Where both apply, the auditor must follow the more restrictive requirement.",
+      "explanation": "The IESBA Code is the international code issued by the International Ethics Standards Board for Accountants, and the ICAEW Code is derived from it with some additional requirements and guidance. The FRC Ethical Standard is issued by the UK audit regulator and applies to statutory audits and certain other public interest assurance engagements in the UK, where it can impose stricter requirements, particularly on independence. ICAEW members carrying out such engagements must comply with the FRC Ethical Standard, and where both apply they should follow the more restrictive requirement. The IESBA Code is not UK-only, and the codes are designed to be consistent rather than contradictory.",
       "difficulty": "hard"
     },
     {
@@ -1483,7 +1483,7 @@
         "D": "Part 4A"
       },
       "correct": "B",
-      "explanation": "Part 1 sets out the fundamental principles and conceptual framework and applies to all professional accountants. Part 2 applies to professional accountants in business, and Part 3 to professional accountants in public practice. Parts 4A and 4B set out independence requirements for audit and review engagements and for other assurance engagements respectively.",
+      "explanation": "Part 1 sets out the fundamental principles and conceptual framework and applies to all professional accountants. Part 2 applies to professional accountants in business, and Part 3 to professional accountants in public practice. Parts 4A and 4B set out independence requirements for audit and review engagements and for other assurance engagements respectively. Part 2 can also be relevant to accountants in practice in their dealings with their own firm, but the part dedicated to accountants in business is Part 2.",
       "difficulty": "medium"
     },
     {
@@ -1535,7 +1535,7 @@
       "id": "icaew-se-c08-q010",
       "chapter": 8,
       "topic": "The fundamental ethical principles",
-      "question_text": "A client asks its accountant to provide copies of its financial records directly to its bank to support a loan application. Under which circumstance may the accountant disclose this confidential information?",
+      "question_text": "A client asks its accountant to provide copies of its financial records directly to its bank to support a loan application. There is no court order or other legal requirement to disclose. On what basis may the accountant disclose this confidential information to the bank?",
       "options": {
         "A": "Disclosure is required by a court order",
         "B": "Disclosure is required by anti-money laundering law",
@@ -1543,7 +1543,7 @@
         "D": "Disclosure is never permitted to third parties"
       },
       "correct": "C",
-      "explanation": "Confidential information may be disclosed when it is permitted by law and authorised by the client or employer. Here, the client has requested the disclosure, so the accountant may provide the information, ideally after confirming the authority in writing. The other options do not reflect the facts.",
+      "explanation": "Confidential information may be disclosed when it is permitted by law and authorised by the client or employer. Here, the client has requested the disclosure, so the accountant may provide the information, ideally after confirming the authority in writing. There is no court order or anti-money laundering requirement in this case, and disclosure to third parties is permitted when properly authorised.",
       "difficulty": "medium"
     },
     {

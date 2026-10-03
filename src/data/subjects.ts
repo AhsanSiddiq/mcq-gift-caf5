@@ -262,7 +262,7 @@ export const icaewSubjects: Subject[] = [
     level: "ICAEW",
     body: "icaew",
     description: "Costing, budgeting, performance management and decision making — Next Generation ACA Certificate Level practice.",
-    isAvailable: false,
+    isAvailable: true,
   },
   {
     id: "icaew-se",
@@ -271,7 +271,7 @@ export const icaewSubjects: Subject[] = [
     level: "ICAEW",
     body: "icaew",
     description: "Sustainability frameworks, ESG reporting, governance and the ICAEW Code of Ethics — Next Generation ACA Certificate Level practice.",
-    isAvailable: false,
+    isAvailable: true,
   },
 ];
 // Note: the legacy BTF bank (scripts/data/global/icaew-btf.json) is not published — ICAEW withdrew BTF in Sept 2025.
