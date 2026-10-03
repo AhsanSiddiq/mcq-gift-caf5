@@ -68,7 +68,8 @@ export const EXAM_BODIES: ExamBody[] = [
     qualification: "Chartered Accountancy (CA India)",
     flag: "🇮🇳",
     region: "India",
-    status: "waitlist",
+    status: "live",
+    practiceHref: "/exams/icai#practice",
     tagline: "CA Foundation objective papers and Intermediate/Final MCQ sections.",
     levels: [
       {

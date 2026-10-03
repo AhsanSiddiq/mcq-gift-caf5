@@ -598,7 +598,7 @@
         "D": "Rs. 1,320"
       },
       "correct": "C",
-      "explanation": "MC of the nth unit = TCn - TCn-1 = 1,320 - 1,250 = Rs. 70. Rs. 120 is approximately the average cost at 11 units (1,320/11) and Rs. 125 is the average cost at 10 units.",
+      "explanation": "MC of the nth unit = TCn - TCn-1 = 1,320 - 1,250 = Rs. 70. Rs. 120 is the average cost at 11 units (1,320/11) and Rs. 125 is the average cost at 10 units.",
       "difficulty": "easy"
     },
     {
@@ -718,7 +718,7 @@
         "D": "Rs. 180"
       },
       "correct": "B",
-      "explanation": "MR = AR x (1 - 1/e) = 60 x (1 - 1/3) = 60 x 2/3 = Rs. 40. Rs. 20 results from computing AR/e and stopping there; Rs. 90 uses (1 + 1/2) wrongly.",
+      "explanation": "MR = AR x (1 - 1/e) = 60 x (1 - 1/3) = 60 x 2/3 = Rs. 40. Rs. 20 results from computing AR/e (60/3) and stopping there; Rs. 90 applies the inverse relation AR x e/(e - 1) = 60 x 3/2, which gives AR from MR; Rs. 180 simply multiplies AR by e.",
       "difficulty": "medium"
     },
     {
@@ -928,7 +928,7 @@
         "D": "Rs. 4,800 crore"
       },
       "correct": "A",
-      "explanation": "GNP at MP = GDP at MP + NFIA = 5,000 + (-100) = 4,900. NNP at MP = 4,900 - 400 = 4,500. NNP at FC = NNP at MP - net indirect taxes = 4,500 - 300 = Rs. 4,200 crore. Rs. 4,400 crore results from adding NFIA instead of subtracting the negative figure.",
+      "explanation": "GNP at MP = GDP at MP + NFIA = 5,000 + (-100) = 4,900. NNP at MP = 4,900 - 400 = 4,500. NNP at FC = NNP at MP - net indirect taxes = 4,500 - 300 = Rs. 4,200 crore. Rs. 4,400 crore results from treating NFIA as +100 instead of -100 (5,000 - 400 + 100 - 300).",
       "difficulty": "medium"
     },
     {
@@ -1955,7 +1955,7 @@
       "id": "ca-foundation-be-c09-q011",
       "chapter": 9,
       "topic": "International Trade",
-      "question_text": "The exchange rate changes from Rs. 75 per US dollar to Rs. 80 per US dollar. The percentage depreciation of the rupee against the dollar is:",
+      "question_text": "The exchange rate changes from Rs. 75 per US dollar to Rs. 80 per US dollar. Measuring the change in the dollar value of one rupee, the percentage depreciation of the rupee is:",
       "options": {
         "A": "6.25%",
         "B": "6.67%",
@@ -1963,7 +1963,7 @@
         "D": "7.5%"
       },
       "correct": "A",
-      "explanation": "Value of one rupee in dollars: before = 1/75, after = 1/80. Percentage change = (1/80 - 1/75)/(1/75) x 100 = (75/80 - 1) x 100 = -6.25%. So the rupee depreciated by 6.25%. The dollar appreciated by (80 - 75)/75 x 100 = 6.67%, which is a common confusion.",
+      "explanation": "The depreciation of the rupee is measured by the change in what one rupee is worth in dollars: before = $1/75, after = $1/80. Percentage change = (1/80 - 1/75)/(1/75) x 100 = (75/80 - 1) x 100 = -6.25%, so the rupee depreciated by 6.25%. The figure (80 - 75)/75 x 100 = 6.67% is the appreciation of the dollar against the rupee, not the depreciation of the rupee.",
       "difficulty": "hard"
     },
     {
@@ -2180,7 +2180,7 @@
       "id": "ca-foundation-be-c10-q011",
       "chapter": 10,
       "topic": "Indian Economy",
-      "question_text": "Since the economic reforms, which sector has contributed the largest share of India's GDP?",
+      "question_text": "In the period since the 1991 economic reforms, which sector has accounted for the largest share of India's GDP?",
       "options": {
         "A": "Primary sector",
         "B": "Tertiary (services) sector",
@@ -2188,7 +2188,7 @@
         "D": "Mining and quarrying"
       },
       "correct": "B",
-      "explanation": "India's growth pattern has been services-led: the share of the tertiary sector (trade, transport, communication, finance, IT and other services) in GDP has been the largest throughout the post-reform period and has continued to grow, while agriculture's share has declined steadily.",
+      "explanation": "India's growth pattern has been services-led: the tertiary sector (trade, hotels, transport, communication, finance, real estate, IT and other services) has accounted for the largest share of GDP throughout the post-reform period, while the share of the primary (agriculture and allied) sector has declined. Mining and quarrying is only a small part of the primary sector.",
       "difficulty": "medium"
     },
     {
