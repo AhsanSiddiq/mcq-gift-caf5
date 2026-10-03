@@ -322,7 +322,7 @@ export const caInterSubjects: Subject[] = [
     level: "CA-INTER",
     body: "icai",
     description: "Cost of capital, leverage, working capital, investment decisions and strategy — Paper 6 MCQ practice.",
-    isAvailable: false,
+    isAvailable: true,
   },
 ];
 

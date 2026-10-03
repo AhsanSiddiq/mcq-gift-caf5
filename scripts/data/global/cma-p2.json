@@ -2008,7 +2008,7 @@
         "D": "Consult a personal attorney about legal obligations"
       },
       "correct": "B",
-      "explanation": "The IMA guidance states that members should first follow their organization's established policies for resolving ethical conflicts. If those policies do not resolve the issue, the member may discuss it with the immediate supervisor (or the next level if the supervisor is involved), consult an IMA ethics counselor or other impartial advisor confidentially, and consult an attorney. Resignation is a last resort.",
+      "explanation": "The IMA statement says a member facing an ethical issue should first follow the organization's established policies, including use of an anonymous reporting system if available. If there are no such policies (or they do not resolve the issue), the member could discuss it with the immediate supervisor (or the next level of management if the supervisor appears to be involved), call IMA's anonymous helpline for guidance, and consult a personal attorney. Disassociating from the organization is considered only if resolution efforts fail.",
       "difficulty": "medium"
     },
     {
@@ -2023,22 +2023,22 @@
         "D": "Report the matter to a local newspaper to protect shareholders"
       },
       "correct": "B",
-      "explanation": "The IMA statement says members should discuss ethical issues with their immediate supervisor except when it appears that the supervisor is involved, in which case the issue should be presented to the next level of management. Communicating with outside parties such as the media is not considered appropriate unless there is a clear violation of the law and disclosure is required or appropriate.",
+      "explanation": "The IMA statement says the resolution process could include a discussion with the immediate supervisor, but if the supervisor appears to be involved, the issue could be presented to the next level of management. Ignoring the issue is not acceptable, and going to the press would breach the Confidentiality standard, which requires information to be kept confidential except when disclosure is authorized or legally required.",
       "difficulty": "medium"
     },
     {
       "id": "cma-p2-c09-q009",
       "chapter": 9,
       "topic": "Professional ethics",
-      "question_text": "Under IMA guidance, when is it appropriate for a member to communicate an ethical problem to authorities or individuals not employed or engaged by the organization?",
+      "question_text": "According to the IMA Statement of Ethical Professional Practice, what should a member consider when deciding which steps to follow in resolving an ethical issue?",
       "options": {
-        "A": "When the member believes there is a clear violation of the law",
-        "B": "Whenever the member disagrees with a management decision",
-        "C": "Only after the member has resigned from the organization",
-        "D": "Whenever a journalist requests information about the company"
+        "A": "All risks involved and whether protections exist against retaliation",
+        "B": "Whether the issue has already been reported in the financial press",
+        "C": "Whether the member's supervisor agrees that an ethical issue exists",
+        "D": "Whether the amount involved is material to the financial statements"
       },
       "correct": "A",
-      "explanation": "The IMA statement indicates that communicating ethical problems to authorities or individuals outside the organization is not considered appropriate unless the member believes there is a clear violation of the law. Members should otherwise work through internal channels and may seek confidential advice from an IMA ethics counselor or an attorney.",
+      "explanation": "The IMA statement says members should not ignore unethical issues but should actively seek resolution, and that in determining which steps to follow they should consider all risks involved and whether protections exist against retaliation. Materiality, press coverage and the supervisor's agreement are not the tests set out in the statement; an immaterial ethical breach still needs to be resolved.",
       "difficulty": "medium"
     },
     {
@@ -2047,28 +2047,28 @@
       "topic": "Professional ethics",
       "question_text": "A management accountant wants to clarify whether a situation she faces is an ethical violation before taking action. Under IMA guidance, which step is appropriate?",
       "options": {
-        "A": "Initiate a confidential discussion with an IMA Ethics Counselor or another impartial advisor",
+        "A": "Call IMA's anonymous ethics helpline to ask how key elements of the IMA Statement could be applied to the issue",
         "B": "Post a description of the situation on social media to obtain public opinion",
         "C": "Discuss the details informally with a friend at a competitor",
         "D": "Ask the external auditor to resolve the matter on her behalf"
       },
       "correct": "A",
-      "explanation": "The IMA statement suggests clarifying relevant ethical issues by initiating a confidential discussion with an IMA Ethics Counselor or other impartial advisor to obtain a better understanding of possible courses of action. Sharing details publicly or with outsiders would breach the Confidentiality standard.",
+      "explanation": "The IMA statement notes that IMA offers an anonymous helpline that members may call to request how key elements of the Statement of Ethical Professional Practice could be applied to an ethical issue. Sharing details on social media or with someone at a competitor would breach the Confidentiality standard, and the external auditor cannot resolve the member's own ethical obligations.",
       "difficulty": "easy"
     },
     {
       "id": "cma-p2-c09-q011",
       "chapter": 9,
       "topic": "Professional ethics",
-      "question_text": "The chief financial officer of a company reports directly to the chief executive officer. The CFO discovers that the CEO has been directing staff to record fictitious sales. Internal policy has not resolved the matter. Under IMA guidance, to whom should the CFO present the issue?",
+      "question_text": "The chief financial officer of a company reports directly to the chief executive officer. The CFO discovers that the CEO has been directing staff to record fictitious sales. Internal policy has not resolved the matter. Applying the IMA guidance that an issue involving the supervisor should be presented to the next level of management, to whom should the CFO present the issue?",
       "options": {
-        "A": "An acceptable reviewing authority such as the audit committee or the board of directors",
+        "A": "The audit committee or board of directors, which oversees the CEO",
         "B": "The Securities and Exchange Commission, immediately and before any internal escalation",
         "C": "The company's sales staff, so they can stop recording the transactions",
         "D": "The CEO, since the CEO is the CFO's immediate superior"
       },
       "correct": "A",
-      "explanation": "When the immediate superior is the chief executive officer (or equivalent) and is involved, the IMA statement indicates that the acceptable reviewing authority may be a group such as the audit committee, executive committee, board of directors, board of trustees or owners. External disclosure is appropriate only where there is a clear violation of the law and internal routes are inadequate.",
+      "explanation": "The IMA statement says that if the supervisor appears to be involved, the issue could be presented to the next level of management. When the supervisor is the CEO, the next level is the governing body that oversees the CEO, such as the audit committee or board of directors. Raising it with the CEO is pointless because the CEO is involved, telling the sales staff does not resolve it, and going straight to an outside regulator skips the internal resolution steps.",
       "difficulty": "hard"
     },
     {
@@ -2245,10 +2245,10 @@
         "A": "Raising the matter with the controller's superior, such as the division general manager",
         "B": "Consulting her own attorney about her legal obligations and rights",
         "C": "Anonymously sending details of the matter to a financial journalist",
-        "D": "Consulting an IMA Ethics Counselor confidentially about possible courses of action"
+        "D": "Calling IMA's anonymous ethics helpline for guidance on applying the IMA Statement"
       },
       "correct": "C",
-      "explanation": "Because the immediate supervisor is involved, IMA guidance is to present the issue to the next level of management. Members may also seek confidential advice from an IMA Ethics Counselor or other impartial advisor and consult their own attorney. Communicating the matter to outsiders such as the media is not considered appropriate unless there is a clear violation of the law, and even then disclosure should be to appropriate authorities, not the press.",
+      "explanation": "Because the immediate supervisor is involved, IMA guidance is to present the issue to the next level of management. Members may also call IMA's anonymous helpline for guidance and should consider consulting their own attorney about legal obligations, rights and risks. Leaking details to a journalist breaches the Confidentiality standard, which requires information to be kept confidential except when disclosure is authorized or legally required.",
       "difficulty": "hard"
     }
   ]
