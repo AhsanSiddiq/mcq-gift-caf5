@@ -1,0 +1,2255 @@
+{
+  "subject_id": "ca-foundation-be",
+  "questions": [
+    {
+      "id": "ca-foundation-be-c01-q001",
+      "chapter": 1,
+      "topic": "Nature and Scope of Business Economics",
+      "question_text": "Business Economics is best described as:",
+      "options": {
+        "A": "The study of how governments frame the annual budget",
+        "B": "A purely theoretical study of the behaviour of the whole economy",
+        "C": "The recording and reporting of a firm's financial transactions",
+        "D": "The application of economic theory and methods to business decision-making"
+      },
+      "correct": "D",
+      "explanation": "Business Economics (also called managerial economics) integrates economic theory with business practice. It uses tools of economic analysis to help managers take decisions on demand, pricing, production, costs and investment. Budget formulation is public finance and recording transactions is accounting.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c01-q002",
+      "chapter": 1,
+      "topic": "Nature and Scope of Business Economics",
+      "question_text": "Which of the following is NOT a characteristic of Business Economics?",
+      "options": {
+        "A": "It is largely microeconomic in nature",
+        "B": "It is a purely abstract science that ignores practical constraints of the firm",
+        "C": "It is pragmatic and oriented towards decision-making",
+        "D": "It is interdisciplinary, drawing on mathematics, statistics and accounting"
+      },
+      "correct": "B",
+      "explanation": "Business Economics is pragmatic: it adapts theory to the real constraints faced by firms. It is mainly micro in character but also uses macro concepts, and it borrows tools from mathematics, statistics, accounting and decision theory. Calling it purely abstract contradicts its applied nature.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c01-q003",
+      "chapter": 1,
+      "topic": "Nature and Scope of Business Economics",
+      "question_text": "Which of the following is a microeconomic issue?",
+      "options": {
+        "A": "Measuring the general price level of the country",
+        "B": "Estimating the demand for a firm's newly launched soap",
+        "C": "Determining the level of national income",
+        "D": "Analysing the causes of nationwide unemployment"
+      },
+      "correct": "B",
+      "explanation": "Microeconomics studies individual units such as a consumer, a firm or an industry. Demand for one firm's product is an individual-unit problem. The general price level, national income and economy-wide unemployment are aggregates studied in macroeconomics.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c01-q004",
+      "chapter": 1,
+      "topic": "Nature and Scope of Business Economics",
+      "question_text": "Which of the following is a positive statement?",
+      "options": {
+        "A": "The government ought to ban tobacco products completely",
+        "B": "Tobacco farmers should be given a higher support price",
+        "C": "A rise in excise duty on tobacco products reduces their consumption",
+        "D": "It is unfair that tobacco is taxed more heavily than sugar"
+      },
+      "correct": "C",
+      "explanation": "A positive statement describes 'what is' and can be tested against facts. The statement about excise duty and consumption can be verified with data. The other options contain value judgements ('ought to', 'should', 'unfair') and are therefore normative.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c01-q005",
+      "chapter": 1,
+      "topic": "Nature and Scope of Business Economics",
+      "question_text": "The central problem 'how to produce' relates mainly to:",
+      "options": {
+        "A": "The choice between producing consumer goods and capital goods",
+        "B": "The distribution of output among different sections of society",
+        "C": "Ensuring that resources are fully employed over time",
+        "D": "The choice of technique, such as labour-intensive or capital-intensive methods"
+      },
+      "correct": "D",
+      "explanation": "'How to produce' is about selecting the technique of production, i.e., the combination of factors used. Choosing between consumer and capital goods is 'what to produce', distribution of output is 'for whom to produce', and full employment of resources is a separate problem of efficient use and growth.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c01-q006",
+      "chapter": 1,
+      "topic": "Nature and Scope of Business Economics",
+      "question_text": "The basic economic problem of scarcity arises because:",
+      "options": {
+        "A": "Money supply in the economy is always insufficient",
+        "B": "Human wants are unlimited while resources are limited and have alternative uses",
+        "C": "Governments restrict the production of goods",
+        "D": "Population grows faster than food supply in every country"
+      },
+      "correct": "B",
+      "explanation": "Scarcity means resources are limited relative to wants, and those resources can be put to alternative uses, so choices must be made. A shortage of money or government restrictions are not the root cause; and the Malthusian population claim is not a universal fact.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c01-q007",
+      "chapter": 1,
+      "topic": "Nature and Scope of Business Economics",
+      "question_text": "In a capitalist economy, the allocation of resources is primarily guided by:",
+      "options": {
+        "A": "Directives issued by a central planning authority",
+        "B": "Customs and traditions of the community",
+        "C": "The price mechanism operating through free markets",
+        "D": "Equal distribution of output among all citizens"
+      },
+      "correct": "C",
+      "explanation": "Under capitalism, decisions about what, how and for whom to produce are taken through the interaction of demand and supply in markets, i.e., the price mechanism. A central planning authority is the hallmark of a socialist economy, while tradition-based allocation describes a traditional economy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c01-q008",
+      "chapter": 1,
+      "topic": "Nature and Scope of Business Economics",
+      "question_text": "Which of the following is NOT a feature of a socialist economy?",
+      "options": {
+        "A": "Collective ownership of the means of production",
+        "B": "Economic decisions taken by a central planning authority",
+        "C": "Absence of the profit motive as the guiding force of production",
+        "D": "Consumer sovereignty determining what goods are produced"
+      },
+      "correct": "D",
+      "explanation": "In a socialist economy, the planning authority decides what to produce based on social priorities, so consumers do not exercise sovereignty through the market. Collective ownership, central planning and the absence of the profit motive are all features of socialism.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c01-q009",
+      "chapter": 1,
+      "topic": "Nature and Scope of Business Economics",
+      "question_text": "Which of the following is commonly cited as a major demerit of a capitalist economy?",
+      "options": {
+        "A": "Wide inequalities in the distribution of income and wealth",
+        "B": "Lack of incentive to work hard and innovate",
+        "C": "Absence of consumer choice",
+        "D": "Excessive bureaucratic control over all production decisions"
+      },
+      "correct": "A",
+      "explanation": "Free markets reward ownership of property and capital, which tends to concentrate income and wealth. Capitalism generally provides strong incentives and consumer choice; lack of incentives and bureaucratic control are criticisms usually directed at socialist economies.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c01-q010",
+      "chapter": 1,
+      "topic": "Nature and Scope of Business Economics",
+      "question_text": "Mr. Rao runs a business in his own building, which could otherwise be rented out for Rs. 2,40,000 a year. He has invested Rs. 10,00,000 of his own funds, which could earn 8% a year elsewhere. His accounting profit for the year is Rs. 5,00,000. What is his economic profit?",
+      "options": {
+        "A": "Rs. 2,60,000",
+        "B": "Rs. 4,20,000",
+        "C": "Rs. 1,80,000",
+        "D": "Rs. 5,00,000"
+      },
+      "correct": "C",
+      "explanation": "Economic profit = accounting profit - implicit (opportunity) costs. Implicit rent = Rs. 2,40,000; implicit interest = 8% x Rs. 10,00,000 = Rs. 80,000. Total implicit cost = Rs. 3,20,000. Economic profit = 5,00,000 - 3,20,000 = Rs. 1,80,000. Rs. 2,60,000 ignores the rent foregone and Rs. 4,20,000 ignores the interest foregone.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c01-q011",
+      "chapter": 1,
+      "topic": "Nature and Scope of Business Economics",
+      "question_text": "Economics defined as 'the science which studies human behaviour as a relationship between ends and scarce means which have alternative uses' was given by:",
+      "options": {
+        "A": "Adam Smith",
+        "B": "Lionel Robbins",
+        "C": "Alfred Marshall",
+        "D": "J. M. Keynes"
+      },
+      "correct": "B",
+      "explanation": "This scarcity definition was given by Lionel Robbins. Adam Smith is associated with the wealth definition, Alfred Marshall with the welfare definition, and Keynes with macroeconomic analysis of income and employment.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c01-q012",
+      "chapter": 1,
+      "topic": "Nature and Scope of Business Economics",
+      "question_text": "Which of the following falls within the macroeconomic (external) scope of Business Economics?",
+      "options": {
+        "A": "Deciding the optimum level of inventory to hold",
+        "B": "Studying the impact of the government's trade and monetary policies on the firm",
+        "C": "Choosing between two investment projects of the firm",
+        "D": "Fixing the price of the firm's product"
+      },
+      "correct": "B",
+      "explanation": "The macro scope covers the external environment in which a firm operates: the economic system, monetary and fiscal policy, trade policy, business cycles and so on. Inventory, capital budgeting and pricing decisions are internal, operational issues and form the micro scope.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c01-q013",
+      "chapter": 1,
+      "topic": "Nature and Scope of Business Economics",
+      "question_text": "A production possibility curve is usually concave (bowed out) to the origin because:",
+      "options": {
+        "A": "The opportunity cost of producing more of one good rises as more of it is produced",
+        "B": "Resources are equally efficient in producing both goods",
+        "C": "The economy is operating below full employment",
+        "D": "Technology improves as production increases"
+      },
+      "correct": "A",
+      "explanation": "Resources are not equally suited to all uses. As more of one good is produced, resources less suited to it must be shifted, so more of the other good is given up per extra unit - increasing opportunity cost - which makes the PPC concave. Equally efficient resources would give a straight-line PPC.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c01-q014",
+      "chapter": 1,
+      "topic": "Nature and Scope of Business Economics",
+      "question_text": "An economy can produce the following combinations of machines and wheat (tonnes):\nA: 0 machines, 100 wheat\nB: 10 machines, 95 wheat\nC: 20 machines, 85 wheat\nD: 30 machines, 70 wheat\nE: 40 machines, 50 wheat\nWhat is the opportunity cost per machine of moving from D to E?",
+      "options": {
+        "A": "1.5 tonnes of wheat",
+        "B": "2 tonnes of wheat",
+        "C": "0.5 tonnes of wheat",
+        "D": "1.25 tonnes of wheat"
+      },
+      "correct": "B",
+      "explanation": "Moving from D to E, machines rise by 40 - 30 = 10 and wheat falls by 70 - 50 = 20 tonnes. Opportunity cost per machine = 20 / 10 = 2 tonnes of wheat. 1.5 tonnes is the C-to-D figure (15/10), and 1.25 tonnes is the average over A to E (50/40).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-be-c01-q015",
+      "chapter": 1,
+      "topic": "Nature and Scope of Business Economics",
+      "question_text": "In a free market economy, the problem of 'for whom to produce' is solved mainly by:",
+      "options": {
+        "A": "The relative cost of different production techniques",
+        "B": "Government decisions on the quantity of each good to be produced",
+        "C": "The volume of savings and investment in the economy",
+        "D": "The distribution of purchasing power, which depends on factor incomes earned in the market"
+      },
+      "correct": "D",
+      "explanation": "Under the price mechanism, goods go to those who are willing and able to pay. Ability to pay depends on income from wages, rent, interest and profit, which are themselves prices determined in factor markets. Technique choice answers 'how to produce', and government quantity decisions belong to planned economies.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-be-c02-q001",
+      "chapter": 2,
+      "topic": "Theory of Demand and Supply",
+      "question_text": "The law of demand states that, other things remaining constant:",
+      "options": {
+        "A": "Quantity demanded of a good varies inversely with its price",
+        "B": "Quantity demanded varies directly with the price of the good",
+        "C": "Demand increases whenever the consumer's income rises",
+        "D": "Quantity demanded is independent of price"
+      },
+      "correct": "A",
+      "explanation": "The law of demand describes an inverse relationship between price and quantity demanded, ceteris paribus. The effect of income is a separate determinant that shifts the demand curve and is not the subject of the law.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c02-q002",
+      "chapter": 2,
+      "topic": "Theory of Demand and Supply",
+      "question_text": "Which of the following is an exception to the law of demand?",
+      "options": {
+        "A": "A normal good",
+        "B": "A good with many close substitutes",
+        "C": "A complementary good",
+        "D": "A Giffen good"
+      },
+      "correct": "D",
+      "explanation": "For a Giffen good (an inferior staple with a strong negative income effect that outweighs the substitution effect), quantity demanded rises when price rises, giving an upward-sloping demand curve. Normal goods, substitutes and complements all follow the law of demand.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c02-q003",
+      "chapter": 2,
+      "topic": "Theory of Demand and Supply",
+      "question_text": "For a normal good, an increase in consumers' income will cause:",
+      "options": {
+        "A": "A movement down along the same demand curve",
+        "B": "A leftward shift of the demand curve",
+        "C": "A rightward shift of the demand curve",
+        "D": "A movement up along the same demand curve"
+      },
+      "correct": "C",
+      "explanation": "A change in any determinant other than the good's own price shifts the demand curve. For a normal good, higher income raises demand at every price, shifting the curve to the right. Movements along the curve are caused only by changes in the good's own price.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c02-q004",
+      "chapter": 2,
+      "topic": "Theory of Demand and Supply",
+      "question_text": "The price of a product rises from Rs. 20 to Rs. 25 and quantity demanded falls from 400 units to 300 units. Using the percentage (proportionate) method with the original values as base, price elasticity of demand is:",
+      "options": {
+        "A": "0.8",
+        "B": "1.25",
+        "C": "2",
+        "D": "1 (unitary elastic)"
+      },
+      "correct": "D",
+      "explanation": "Percentage change in quantity = (300 - 400) / 400 x 100 = -25%. Percentage change in price = (25 - 20) / 20 x 100 = +25%. Ed = 25 / 25 = 1 (ignoring the minus sign). So demand is unitary elastic over this range.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c02-q005",
+      "chapter": 2,
+      "topic": "Theory of Demand and Supply",
+      "question_text": "When the price of a good rises from Rs. 10 to Rs. 12, quantity demanded falls from 150 units to 100 units. Using the arc (midpoint) method, price elasticity of demand is:",
+      "options": {
+        "A": "1.67",
+        "B": "2.5",
+        "C": "2.2",
+        "D": "1.83"
+      },
+      "correct": "C",
+      "explanation": "Arc elasticity = (dQ / average Q) / (dP / average P). dQ = 50, average Q = (150 + 100)/2 = 125, so 50/125 = 0.4. dP = 2, average P = (10 + 12)/2 = 11, so 2/11 = 0.1818. Ed = 0.4 / (2/11) = 0.4 x 11/2 = 2.2. Using the original base instead gives (50/150)/(2/10) = 1.67, a common error.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-be-c02-q006",
+      "chapter": 2,
+      "topic": "Theory of Demand and Supply",
+      "question_text": "When the price of a good falls, total expenditure on it remains unchanged. According to the total outlay method, demand is:",
+      "options": {
+        "A": "Perfectly inelastic",
+        "B": "Relatively elastic",
+        "C": "Relatively inelastic",
+        "D": "Unitary elastic"
+      },
+      "correct": "D",
+      "explanation": "Under Marshall's total outlay method: if total expenditure rises when price falls, demand is elastic (e > 1); if it falls, demand is inelastic (e < 1); if it remains the same, demand is unitary elastic (e = 1).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c02-q007",
+      "chapter": 2,
+      "topic": "Theory of Demand and Supply",
+      "question_text": "A household's income rises from Rs. 20,000 to Rs. 25,000 per month and its consumption of coarse grain falls from 50 kg to 45 kg. The income elasticity of demand (original base) and the nature of the good are:",
+      "options": {
+        "A": "-0.4; inferior good",
+        "B": "+0.4; normal necessity",
+        "C": "-2.5; inferior good",
+        "D": "+2.5; luxury good"
+      },
+      "correct": "A",
+      "explanation": "Percentage change in quantity = (45 - 50)/50 x 100 = -10%. Percentage change in income = (25,000 - 20,000)/20,000 x 100 = +25%. Income elasticity = -10 / 25 = -0.4. A negative income elasticity indicates an inferior good. -2.5 results from inverting the ratio.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c02-q008",
+      "chapter": 2,
+      "topic": "Theory of Demand and Supply",
+      "question_text": "The price of tea rises by 10% and, as a result, the quantity demanded of coffee rises by 6%. The cross elasticity of demand for coffee with respect to the price of tea is:",
+      "options": {
+        "A": "+0.6, indicating that tea and coffee are substitutes",
+        "B": "-0.6, indicating that they are complements",
+        "C": "+1.67, indicating that they are substitutes",
+        "D": "-1.67, indicating that they are complements"
+      },
+      "correct": "A",
+      "explanation": "Cross elasticity = % change in quantity of coffee / % change in price of tea = 6 / 10 = +0.6. A positive cross elasticity means a rise in the price of one good increases demand for the other, which is the case of substitutes. 1.67 inverts the ratio.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c02-q009",
+      "chapter": 2,
+      "topic": "Theory of Demand and Supply",
+      "question_text": "The demand function for a product is Q = 100 - 4P. What is the point price elasticity of demand at P = Rs. 15?",
+      "options": {
+        "A": "0.67",
+        "B": "4",
+        "C": "0.6",
+        "D": "1.5"
+      },
+      "correct": "D",
+      "explanation": "At P = 15, Q = 100 - 4(15) = 40. dQ/dP = -4. Point elasticity = (dQ/dP) x (P/Q) = 4 x 15/40 = 60/40 = 1.5 (absolute value). 0.67 is the inverse of the correct value; 0.6 uses P/Q = 15/100 incorrectly.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-be-c02-q010",
+      "chapter": 2,
+      "topic": "Theory of Demand and Supply",
+      "question_text": "A consumer spends her entire income on goods X and Y. Px = Rs. 6, Py = Rs. 5, and at her current purchases MUx = 30 utils and MUy = 20 utils. To maximise satisfaction she should:",
+      "options": {
+        "A": "Buy more of X and less of Y",
+        "B": "Buy more of Y and less of X",
+        "C": "Make no change, as she is in equilibrium",
+        "D": "Buy more of both X and Y"
+      },
+      "correct": "A",
+      "explanation": "Equilibrium requires MUx/Px = MUy/Py. Here MUx/Px = 30/6 = 5 utils per rupee and MUy/Py = 20/5 = 4 utils per rupee. The last rupee spent on X yields more, so she should shift spending towards X; MUx will fall and MUy will rise until the ratios are equal. With income fully spent she cannot buy more of both.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c02-q011",
+      "chapter": 2,
+      "topic": "Theory of Demand and Supply",
+      "question_text": "The marginal utilities a consumer derives from successive units of a commodity are 50, 40, 30, 20 and 10 utils. One util equals Re 1 and the market price is Rs. 20 per unit. If the consumer buys up to the point where marginal utility equals price, the consumer surplus is:",
+      "options": {
+        "A": "Rs. 60",
+        "B": "Rs. 140",
+        "C": "Rs. 50",
+        "D": "Rs. 70"
+      },
+      "correct": "A",
+      "explanation": "The consumer buys units while MU is at least Rs. 20, i.e., 4 units (MU of the 4th unit = 20). Total utility of 4 units = 50 + 40 + 30 + 20 = Rs. 140. Amount paid = 4 x 20 = Rs. 80. Consumer surplus = 140 - 80 = Rs. 60. Rs. 50 would result from buying all 5 units (150 - 100).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-be-c02-q012",
+      "chapter": 2,
+      "topic": "Theory of Demand and Supply",
+      "question_text": "An indifference curve is normally convex to the origin because of:",
+      "options": {
+        "A": "Increasing marginal utility",
+        "B": "Constant marginal rate of substitution",
+        "C": "The law of demand",
+        "D": "Diminishing marginal rate of substitution"
+      },
+      "correct": "D",
+      "explanation": "As a consumer substitutes X for Y along an indifference curve, she is willing to give up fewer and fewer units of Y for each additional unit of X; i.e., MRSxy diminishes. This makes the curve convex. A constant MRS would produce a straight-line indifference curve (perfect substitutes).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c02-q013",
+      "chapter": 2,
+      "topic": "Theory of Demand and Supply",
+      "question_text": "A consumer has an income of Rs. 600 to spend on goods X (Rs. 20 each) and Y (Rs. 30 each). If her income and both prices are doubled, her budget line will:",
+      "options": {
+        "A": "Shift parallel outwards",
+        "B": "Remain unchanged",
+        "C": "Shift parallel inwards",
+        "D": "Become steeper"
+      },
+      "correct": "B",
+      "explanation": "The intercepts of the budget line are Income/Px and Income/Py. Originally 600/20 = 30 units of X and 600/30 = 20 units of Y. After doubling: 1,200/40 = 30 and 1,200/60 = 20. The slope -Px/Py = -40/60 = -2/3 is also unchanged. Hence the budget line does not change.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c02-q014",
+      "chapter": 2,
+      "topic": "Theory of Demand and Supply",
+      "question_text": "When the price of a good rises from Rs. 40 to Rs. 50, quantity supplied rises from 200 units to 260 units. Price elasticity of supply (original base) is:",
+      "options": {
+        "A": "0.83",
+        "B": "1.5",
+        "C": "0.6",
+        "D": "1.2"
+      },
+      "correct": "D",
+      "explanation": "Percentage change in quantity supplied = (260 - 200)/200 x 100 = 30%. Percentage change in price = (50 - 40)/40 x 100 = 25%. Es = 30/25 = 1.2, so supply is relatively elastic. 0.83 is the inverse.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c02-q015",
+      "chapter": 2,
+      "topic": "Theory of Demand and Supply",
+      "question_text": "A straight-line supply curve that passes through the origin has a price elasticity of supply:",
+      "options": {
+        "A": "Equal to one at every point, irrespective of its slope",
+        "B": "Greater than one at every point",
+        "C": "Less than one at every point",
+        "D": "That depends on how steep the line is"
+      },
+      "correct": "A",
+      "explanation": "For a linear supply curve Q = bP passing through the origin, Es = (dQ/dP)(P/Q) = b x P/(bP) = 1. This holds at every point regardless of slope. A linear supply curve cutting the price axis has Es > 1, and one cutting the quantity axis has Es < 1.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-be-c03-q001",
+      "chapter": 3,
+      "topic": "Theory of Production and Cost",
+      "question_text": "A production function expresses:",
+      "options": {
+        "A": "The technical relationship between physical inputs and physical output",
+        "B": "The relationship between price and quantity demanded",
+        "C": "The relationship between cost and revenue",
+        "D": "The relationship between output and its price"
+      },
+      "correct": "A",
+      "explanation": "A production function shows the maximum output that can be obtained from given quantities of inputs with a given state of technology, i.e., Q = f(L, K, ...). It is a technical (physical) relationship, not a monetary one.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c03-q002",
+      "chapter": 3,
+      "topic": "Theory of Production and Cost",
+      "question_text": "Under the law of variable proportions, a rational producer will operate in:",
+      "options": {
+        "A": "Stage I, where average product of the variable factor is rising",
+        "B": "Stage III, where marginal product of the variable factor is negative",
+        "C": "Any stage, depending on the price of output",
+        "D": "Stage II, where both average and marginal products of the variable factor are falling but marginal product is positive"
+      },
+      "correct": "D",
+      "explanation": "In Stage I the fixed factor is under-utilised and AP of the variable factor is still rising, so it pays to add more of it. In Stage III MP is negative, so adding the variable factor reduces total output. Hence the rational stage is Stage II, from maximum AP to the point where MP is zero.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c03-q003",
+      "chapter": 3,
+      "topic": "Theory of Production and Cost",
+      "question_text": "Total product of labour (with fixed capital) is as follows:\n1 worker: 10 units; 2 workers: 24; 3 workers: 36; 4 workers: 44; 5 workers: 48.\nThe marginal product of the 4th worker is:",
+      "options": {
+        "A": "11 units",
+        "B": "44 units",
+        "C": "8 units",
+        "D": "12 units"
+      },
+      "correct": "C",
+      "explanation": "MP of the nth worker = TPn - TPn-1. MP of the 4th worker = 44 - 36 = 8 units. 11 units is the average product of 4 workers (44/4), and 12 units is the MP of the 3rd worker (36 - 24).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c03-q004",
+      "chapter": 3,
+      "topic": "Theory of Production and Cost",
+      "question_text": "If all inputs are doubled and output increases three times, the firm is experiencing:",
+      "options": {
+        "A": "Constant returns to scale",
+        "B": "Decreasing returns to scale",
+        "C": "Increasing returns to scale",
+        "D": "Diminishing returns to a variable factor"
+      },
+      "correct": "C",
+      "explanation": "Returns to scale refer to the long run when all inputs change in the same proportion. Output rising more than proportionately (3 times when inputs double) indicates increasing returns to scale. Diminishing returns to a factor is a short-run concept with at least one fixed input.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c03-q005",
+      "chapter": 3,
+      "topic": "Theory of Production and Cost",
+      "question_text": "For the Cobb-Douglas production function Q = A L^0.6 K^0.5, returns to scale are:",
+      "options": {
+        "A": "Constant, since each exponent is less than one",
+        "B": "Increasing, since the sum of the exponents is 1.1",
+        "C": "Decreasing, since each exponent is less than one",
+        "D": "Constant, since the function is homogeneous"
+      },
+      "correct": "B",
+      "explanation": "For Q = A L^a K^b, returns to scale depend on a + b. Here 0.6 + 0.5 = 1.1 > 1, so increasing returns to scale. If all inputs are multiplied by t, output rises by t^1.1. Each exponent being below one only means diminishing marginal returns to each factor individually.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c03-q006",
+      "chapter": 3,
+      "topic": "Theory of Production and Cost",
+      "question_text": "The slope of an isoquant measures the:",
+      "options": {
+        "A": "Marginal rate of substitution between two goods",
+        "B": "Ratio of factor prices",
+        "C": "Marginal rate of technical substitution between the factors",
+        "D": "Marginal cost of production"
+      },
+      "correct": "C",
+      "explanation": "An isoquant shows combinations of two inputs that produce the same output. Its slope is the MRTS of labour for capital, equal to MPL/MPK. The ratio of factor prices is the slope of the isocost line; MRS between goods is the slope of an indifference curve.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c03-q007",
+      "chapter": 3,
+      "topic": "Theory of Production and Cost",
+      "question_text": "A firm uses labour and capital. MPL = 20 units, wage = Rs. 4, MPK = 30 units, rental of capital = Rs. 10. To minimise the cost of producing its current output, the firm should:",
+      "options": {
+        "A": "Use more capital and less labour",
+        "B": "Make no change in the input mix",
+        "C": "Use more labour and less capital",
+        "D": "Reduce both inputs in the same proportion"
+      },
+      "correct": "C",
+      "explanation": "Least-cost combination requires MPL/w = MPK/r. MPL/w = 20/4 = 5 units per rupee; MPK/r = 30/10 = 3 units per rupee. A rupee spent on labour yields more output, so the firm should substitute labour for capital until the ratios are equal.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c03-q008",
+      "chapter": 3,
+      "topic": "Theory of Production and Cost",
+      "question_text": "Which of the following is a fixed cost for a firm in the short run?",
+      "options": {
+        "A": "Cost of raw materials",
+        "B": "Power consumed by machines",
+        "C": "Rent paid for the factory building",
+        "D": "Wages of casual workers paid per unit of output"
+      },
+      "correct": "C",
+      "explanation": "Fixed costs do not vary with output in the short run; rent on the factory must be paid even at zero output. Raw materials, power and piece-rate wages rise with output and are variable costs.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c03-q009",
+      "chapter": 3,
+      "topic": "Theory of Production and Cost",
+      "question_text": "A firm's total fixed cost is Rs. 600. At an output of 50 units, its total variable cost is Rs. 1,400. Its average total cost at this output is:",
+      "options": {
+        "A": "Rs. 40",
+        "B": "Rs. 28",
+        "C": "Rs. 12",
+        "D": "Rs. 52"
+      },
+      "correct": "A",
+      "explanation": "TC = TFC + TVC = 600 + 1,400 = Rs. 2,000. ATC = TC/Q = 2,000/50 = Rs. 40. Equivalently AFC = 600/50 = 12 and AVC = 1,400/50 = 28, so ATC = 12 + 28 = 40.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c03-q010",
+      "chapter": 3,
+      "topic": "Theory of Production and Cost",
+      "question_text": "Total cost of producing 10 units is Rs. 1,250 and of producing 11 units is Rs. 1,320. The marginal cost of the 11th unit is:",
+      "options": {
+        "A": "Rs. 120",
+        "B": "Rs. 125",
+        "C": "Rs. 70",
+        "D": "Rs. 1,320"
+      },
+      "correct": "C",
+      "explanation": "MC of the nth unit = TCn - TCn-1 = 1,320 - 1,250 = Rs. 70. Rs. 120 is approximately the average cost at 11 units (1,320/11) and Rs. 125 is the average cost at 10 units.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c03-q011",
+      "chapter": 3,
+      "topic": "Theory of Production and Cost",
+      "question_text": "Which statement about the relationship between marginal cost (MC) and average cost (AC) is correct?",
+      "options": {
+        "A": "MC cuts AVC at its minimum but ATC at its maximum",
+        "B": "MC cuts both AVC and ATC at their respective minimum points from below",
+        "C": "MC is always below ATC",
+        "D": "MC and ATC reach their minimum at the same output"
+      },
+      "correct": "B",
+      "explanation": "When MC is below an average, the average falls; when MC is above it, the average rises. Therefore MC intersects AVC and ATC at their minimum points, rising through them from below. Because ATC includes AFC, its minimum occurs at a larger output than the minimum of AVC and MC.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c03-q012",
+      "chapter": 3,
+      "topic": "Theory of Production and Cost",
+      "question_text": "The long-run average cost curve is called an 'envelope curve' because:",
+      "options": {
+        "A": "It always lies above all short-run average cost curves",
+        "B": "It is tangent to a series of short-run average cost curves, each representing a different plant size",
+        "C": "It passes through the minimum point of every short-run average cost curve",
+        "D": "It is the sum of all short-run average cost curves"
+      },
+      "correct": "B",
+      "explanation": "The LAC shows the least cost of producing each output when all inputs, including plant size, can be varied. It envelops the SAC curves by being tangent to each of them. It touches the minimum point of only the SAC that is tangent at the LAC's own minimum (the optimum plant).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c03-q013",
+      "chapter": 3,
+      "topic": "Theory of Production and Cost",
+      "question_text": "A firm's short-run total cost function is TC = 500 + 20Q + Q^2. At Q = 10, average variable cost and marginal cost respectively are:",
+      "options": {
+        "A": "Rs. 80 and Rs. 40",
+        "B": "Rs. 30 and Rs. 30",
+        "C": "Rs. 50 and Rs. 40",
+        "D": "Rs. 30 and Rs. 40"
+      },
+      "correct": "D",
+      "explanation": "TFC = 500, TVC = 20Q + Q^2. At Q = 10, TVC = 200 + 100 = 300, so AVC = 300/10 = Rs. 30. MC = dTC/dQ = 20 + 2Q = 20 + 20 = Rs. 40. Rs. 80 is ATC (TC = 800, 800/10), and Rs. 50 is AFC (500/10).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-be-c03-q014",
+      "chapter": 3,
+      "topic": "Theory of Production and Cost",
+      "question_text": "Savings arising from the use of larger and more specialised machinery as a firm expands its scale are an example of:",
+      "options": {
+        "A": "Internal technical economies of scale",
+        "B": "External economies of scale",
+        "C": "Diseconomies of scale",
+        "D": "Economies of scope"
+      },
+      "correct": "A",
+      "explanation": "Internal economies arise within the firm as it grows; technical economies stem from indivisible, specialised and larger machines that lower cost per unit. External economies accrue to all firms from the growth of the industry, and economies of scope come from producing several products together.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c03-q015",
+      "chapter": 3,
+      "topic": "Theory of Production and Cost",
+      "question_text": "A firm's total revenue for the year is Rs. 11,00,000 and its explicit (accounting) costs are Rs. 8,00,000. The owner's implicit costs, including normal profit, are Rs. 2,00,000. Which statement is correct?",
+      "options": {
+        "A": "Accounting profit is Rs. 3,00,000 and economic profit is Rs. 1,00,000",
+        "B": "Accounting profit is Rs. 1,00,000 and economic profit is Rs. 3,00,000",
+        "C": "Accounting and economic profit are both Rs. 3,00,000",
+        "D": "Accounting profit is Rs. 3,00,000 and the firm earns only normal profit"
+      },
+      "correct": "A",
+      "explanation": "Accounting profit = revenue - explicit costs = 11,00,000 - 8,00,000 = Rs. 3,00,000. Economic profit = revenue - (explicit + implicit costs) = 11,00,000 - 10,00,000 = Rs. 1,00,000. Since economic profit is positive, the firm earns supernormal profit, not merely normal profit.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-be-c04-q001",
+      "chapter": 4,
+      "topic": "Price Determination in Different Markets",
+      "question_text": "The demand curve facing an individual firm under perfect competition is:",
+      "options": {
+        "A": "Perfectly elastic (horizontal) at the market price",
+        "B": "Downward sloping",
+        "C": "Perfectly inelastic (vertical)",
+        "D": "Kinked at the prevailing price"
+      },
+      "correct": "A",
+      "explanation": "A perfectly competitive firm is a price taker: it can sell any quantity at the price set by industry demand and supply. Its demand (AR = MR) curve is therefore horizontal. A kinked demand curve is associated with oligopoly.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c04-q002",
+      "chapter": 4,
+      "topic": "Price Determination in Different Markets",
+      "question_text": "A monopolist faces the demand curve P = 50 - 2Q. At Q = 10, total revenue and marginal revenue respectively are:",
+      "options": {
+        "A": "Rs. 300 and Rs. 30",
+        "B": "Rs. 300 and Rs. 10",
+        "C": "Rs. 500 and Rs. 10",
+        "D": "Rs. 300 and Rs. 20"
+      },
+      "correct": "B",
+      "explanation": "At Q = 10, P = 50 - 20 = 30, so TR = 30 x 10 = Rs. 300. TR = 50Q - 2Q^2, hence MR = 50 - 4Q = 50 - 40 = Rs. 10. Rs. 30 is the price (AR), not MR. For a linear demand curve MR has twice the slope of AR.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c04-q003",
+      "chapter": 4,
+      "topic": "Price Determination in Different Markets",
+      "question_text": "If average revenue is Rs. 60 and price elasticity of demand is 3, marginal revenue is:",
+      "options": {
+        "A": "Rs. 20",
+        "B": "Rs. 40",
+        "C": "Rs. 90",
+        "D": "Rs. 180"
+      },
+      "correct": "B",
+      "explanation": "MR = AR x (1 - 1/e) = 60 x (1 - 1/3) = 60 x 2/3 = Rs. 40. Rs. 20 results from computing AR/e and stopping there; Rs. 90 uses (1 + 1/2) wrongly.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c04-q004",
+      "chapter": 4,
+      "topic": "Price Determination in Different Markets",
+      "question_text": "Market demand is Qd = 200 - 5P and market supply is Qs = 50 + 10P. The equilibrium price and quantity are:",
+      "options": {
+        "A": "P = Rs. 15, Q = 125 units",
+        "B": "P = Rs. 10, Q = 100 units",
+        "C": "P = Rs. 10, Q = 150 units",
+        "D": "P = Rs. 30, Q = 50 units"
+      },
+      "correct": "C",
+      "explanation": "At equilibrium Qd = Qs: 200 - 5P = 50 + 10P, so 150 = 15P and P = 10. Q = 200 - 5(10) = 150 (check: 50 + 10(10) = 150).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c04-q005",
+      "chapter": 4,
+      "topic": "Price Determination in Different Markets",
+      "question_text": "In the short run, a perfectly competitive firm will shut down if the market price falls below:",
+      "options": {
+        "A": "Minimum average variable cost",
+        "B": "Minimum average total cost",
+        "C": "Minimum average fixed cost",
+        "D": "Marginal revenue"
+      },
+      "correct": "A",
+      "explanation": "In the short run fixed costs must be paid whether or not the firm produces. The firm continues as long as price covers average variable cost, since any excess contributes to fixed costs. Below minimum AVC it minimises losses by shutting down. Price below minimum ATC but above AVC means a loss, but production continues.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c04-q006",
+      "chapter": 4,
+      "topic": "Price Determination in Different Markets",
+      "question_text": "In long-run equilibrium under perfect competition, each firm:",
+      "options": {
+        "A": "Earns supernormal profit protected by barriers to entry",
+        "B": "Operates with excess capacity",
+        "C": "Earns only normal profit, with price equal to minimum long-run average cost",
+        "D": "Charges a price above marginal cost"
+      },
+      "correct": "C",
+      "explanation": "Free entry and exit eliminate supernormal profits and losses in the long run. Equilibrium occurs where P = MR = LMC = minimum LAC, so firms produce at optimum scale and earn normal profit. Excess capacity is a feature of monopolistic competition.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c04-q007",
+      "chapter": 4,
+      "topic": "Price Determination in Different Markets",
+      "question_text": "Which statement about a profit-maximising monopolist is correct?",
+      "options": {
+        "A": "It never produces on the inelastic portion of its demand curve when marginal cost is positive",
+        "B": "It always charges the highest price buyers are willing to pay for the first unit",
+        "C": "It always earns supernormal profit in the short run",
+        "D": "Its supply curve is the rising portion of MC above AVC"
+      },
+      "correct": "A",
+      "explanation": "Profit maximisation requires MR = MC. With MC > 0, MR must be positive, and MR is positive only where elasticity exceeds one, so output lies on the elastic part of demand. A monopolist can incur short-run losses, and it has no unique supply curve because price and quantity are determined jointly with demand.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-be-c04-q008",
+      "chapter": 4,
+      "topic": "Price Determination in Different Markets",
+      "question_text": "Under third-degree price discrimination, a profit-maximising monopolist will charge:",
+      "options": {
+        "A": "A higher price in the market where demand is less elastic",
+        "B": "A higher price in the market where demand is more elastic",
+        "C": "The same price in all markets",
+        "D": "A lower price in the market where demand is less elastic"
+      },
+      "correct": "A",
+      "explanation": "The discriminating monopolist equates MR in each market with overall MC. Since MR = P(1 - 1/e), equal MRs require a higher price where e is lower. Buyers with fewer alternatives (less elastic demand) are charged more.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c04-q009",
+      "chapter": 4,
+      "topic": "Price Determination in Different Markets",
+      "question_text": "A monopolist sells in two separate markets. Price elasticity of demand is 2 in market A and 4 in market B. If the profit-maximising price in market B is Rs. 40, the price in market A will be:",
+      "options": {
+        "A": "Rs. 60",
+        "B": "Rs. 20",
+        "C": "Rs. 80",
+        "D": "Rs. 53.33"
+      },
+      "correct": "A",
+      "explanation": "In equilibrium MRA = MRB. MR = P(1 - 1/e). So PA(1 - 1/2) = PB(1 - 1/4), i.e., 0.5 PA = 0.75 x 40 = 30, giving PA = Rs. 60. Rs. 80 assumes prices are proportional to the ratio of elasticities (2 x 40), which is incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-be-c04-q010",
+      "chapter": 4,
+      "topic": "Price Determination in Different Markets",
+      "question_text": "Product differentiation and selling costs are distinguishing features of:",
+      "options": {
+        "A": "Perfect competition",
+        "B": "Pure monopoly",
+        "C": "Perfect oligopoly with a homogeneous product",
+        "D": "Monopolistic competition"
+      },
+      "correct": "D",
+      "explanation": "Under monopolistic competition many firms sell close but differentiated products (brands, design, packaging) and incur selling costs such as advertising to attract buyers. Perfect competition has homogeneous products and no need for advertising.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c04-q011",
+      "chapter": 4,
+      "topic": "Price Determination in Different Markets",
+      "question_text": "In long-run equilibrium under monopolistic competition, the firm:",
+      "options": {
+        "A": "Earns normal profit and operates with excess capacity",
+        "B": "Earns supernormal profit and operates at minimum LAC",
+        "C": "Earns normal profit and operates at minimum LAC",
+        "D": "Earns supernormal profit protected by barriers to entry"
+      },
+      "correct": "A",
+      "explanation": "Free entry drives profits to normal, so the downward-sloping demand curve becomes tangent to LAC. Because the tangency is on the falling part of LAC, output is less than the cost-minimising level - this unused capacity is called excess capacity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c04-q012",
+      "chapter": 4,
+      "topic": "Price Determination in Different Markets",
+      "question_text": "The kinked demand curve model of oligopoly is used mainly to explain:",
+      "options": {
+        "A": "Price leadership by a dominant firm",
+        "B": "Price rigidity in oligopolistic markets",
+        "C": "Formation of cartels",
+        "D": "Why oligopolists earn only normal profit"
+      },
+      "correct": "B",
+      "explanation": "Sweezy's kinked demand curve assumes rivals match price cuts but ignore price increases. This produces a kink at the prevailing price and a gap (discontinuity) in the MR curve, so MC can change within the gap without altering price or output - explaining sticky prices.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c04-q013",
+      "chapter": 4,
+      "topic": "Price Determination in Different Markets",
+      "question_text": "The most distinctive feature of an oligopoly is:",
+      "options": {
+        "A": "A very large number of small sellers",
+        "B": "Interdependence of decision-making among a few large firms",
+        "C": "Complete freedom of entry and exit",
+        "D": "A single seller with no close substitutes"
+      },
+      "correct": "B",
+      "explanation": "With only a few sellers, each firm's price and output decisions affect its rivals, who are likely to react. This mutual interdependence makes oligopoly behaviour complex. Many small sellers characterise perfect or monopolistic competition, and a single seller is a monopoly.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c04-q014",
+      "chapter": 4,
+      "topic": "Price Determination in Different Markets",
+      "question_text": "A formal agreement among oligopolistic firms to fix prices or share output, in order to act like a monopoly, is called:",
+      "options": {
+        "A": "Price leadership",
+        "B": "A cartel",
+        "C": "A kinked demand arrangement",
+        "D": "Product differentiation"
+      },
+      "correct": "B",
+      "explanation": "A cartel is an explicit collusive arrangement in which members jointly set price and output (often by quotas) to maximise joint profits. Price leadership is a form of tacit collusion where one firm sets the price and others follow, without a formal agreement.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c04-q015",
+      "chapter": 4,
+      "topic": "Price Determination in Different Markets",
+      "question_text": "A perfectly competitive firm faces a market price of Rs. 25. At its profit-maximising output of 400 units, its average total cost is Rs. 21. Its total profit is:",
+      "options": {
+        "A": "Rs. 10,000",
+        "B": "Rs. 8,400",
+        "C": "Rs. 4",
+        "D": "Rs. 1,600"
+      },
+      "correct": "D",
+      "explanation": "Profit = (P - ATC) x Q = (25 - 21) x 400 = Rs. 1,600. Equivalently TR = 25 x 400 = 10,000 and TC = 21 x 400 = 8,400, so profit = 10,000 - 8,400 = 1,600. Rs. 4 is only profit per unit.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c05-q001",
+      "chapter": 5,
+      "topic": "Determination of National Income",
+      "question_text": "Gross National Product (GNP) is equal to:",
+      "options": {
+        "A": "GDP minus depreciation",
+        "B": "GDP plus net indirect taxes",
+        "C": "GDP plus net factor income from abroad",
+        "D": "GDP minus net exports"
+      },
+      "correct": "C",
+      "explanation": "GDP measures output produced within the domestic territory. GNP measures income of normal residents, so GNP = GDP + NFIA (factor income received from abroad minus factor income paid abroad). GDP minus depreciation gives NDP.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c05-q002",
+      "chapter": 5,
+      "topic": "Determination of National Income",
+      "question_text": "Given: GDP at market prices = Rs. 5,000 crore; depreciation = Rs. 400 crore; net factor income from abroad = -Rs. 100 crore; net indirect taxes = Rs. 300 crore. NNP at factor cost (national income) is:",
+      "options": {
+        "A": "Rs. 4,200 crore",
+        "B": "Rs. 4,400 crore",
+        "C": "Rs. 4,600 crore",
+        "D": "Rs. 4,800 crore"
+      },
+      "correct": "A",
+      "explanation": "GNP at MP = GDP at MP + NFIA = 5,000 + (-100) = 4,900. NNP at MP = 4,900 - 400 = 4,500. NNP at FC = NNP at MP - net indirect taxes = 4,500 - 300 = Rs. 4,200 crore. Rs. 4,400 crore results from adding NFIA instead of subtracting the negative figure.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c05-q003",
+      "chapter": 5,
+      "topic": "Determination of National Income",
+      "question_text": "A farmer grows wheat worth Rs. 500 (no purchased inputs) and sells it to a miller, who makes flour sold to a baker for Rs. 800. The baker sells bread to consumers for Rs. 1,200. The contribution of this chain to GDP is:",
+      "options": {
+        "A": "Rs. 2,500",
+        "B": "Rs. 1,700",
+        "C": "Rs. 1,200",
+        "D": "Rs. 700"
+      },
+      "correct": "C",
+      "explanation": "Under the value added method, value added = farmer 500 + miller (800 - 500) 300 + baker (1,200 - 800) 400 = Rs. 1,200, which equals the value of the final good. Adding all sales (500 + 800 + 1,200 = 2,500) double-counts intermediate goods.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c05-q004",
+      "chapter": 5,
+      "topic": "Determination of National Income",
+      "question_text": "Which of the following is excluded from national income?",
+      "options": {
+        "A": "Wages paid to government employees",
+        "B": "Imputed rent of owner-occupied houses",
+        "C": "Old-age pension paid by the government",
+        "D": "Mixed income of self-employed persons"
+      },
+      "correct": "C",
+      "explanation": "Old-age pensions are transfer payments - no productive service is rendered in return - so they are excluded. Government wages, imputed rent of owner-occupied dwellings and mixed income of the self-employed are payments for productive services and are included.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c05-q005",
+      "chapter": 5,
+      "topic": "Determination of National Income",
+      "question_text": "In an open economy, private consumption expenditure = Rs. 3,000 crore, gross investment = Rs. 800 crore, government final consumption expenditure = Rs. 900 crore, exports = Rs. 400 crore and imports = Rs. 600 crore. GDP at market prices is:",
+      "options": {
+        "A": "Rs. 5,700 crore",
+        "B": "Rs. 4,500 crore",
+        "C": "Rs. 4,700 crore",
+        "D": "Rs. 5,100 crore"
+      },
+      "correct": "B",
+      "explanation": "By the expenditure method, GDP = C + I + G + (X - M) = 3,000 + 800 + 900 + (400 - 600) = 4,700 - 200 = Rs. 4,500 crore. Rs. 4,700 crore ignores net exports, and Rs. 5,700 crore wrongly adds imports.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c05-q006",
+      "chapter": 5,
+      "topic": "Determination of National Income",
+      "question_text": "Nominal GDP of a year is Rs. 6,600 crore and the GDP deflator for that year is 120 (base year = 100). Real GDP is:",
+      "options": {
+        "A": "Rs. 7,920 crore",
+        "B": "Rs. 5,500 crore",
+        "C": "Rs. 6,480 crore",
+        "D": "Rs. 5,280 crore"
+      },
+      "correct": "B",
+      "explanation": "Real GDP = Nominal GDP / GDP deflator x 100 = 6,600 / 120 x 100 = Rs. 5,500 crore. Multiplying instead of dividing gives 7,920. Real GDP is below nominal GDP because prices have risen since the base year.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c05-q007",
+      "chapter": 5,
+      "topic": "Determination of National Income",
+      "question_text": "If the marginal propensity to consume is 0.8, the value of the investment multiplier in a simple two-sector Keynesian model is:",
+      "options": {
+        "A": "1.25",
+        "B": "8",
+        "C": "5",
+        "D": "0.2"
+      },
+      "correct": "C",
+      "explanation": "Multiplier k = 1/(1 - MPC) = 1/MPS = 1/(1 - 0.8) = 1/0.2 = 5. 1.25 is 1/MPC, a common error, and 0.2 is the MPS itself.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c05-q008",
+      "chapter": 5,
+      "topic": "Determination of National Income",
+      "question_text": "In a two-sector economy, C = 100 + 0.75Y and autonomous investment I = 200 (Rs. crore). Equilibrium national income is:",
+      "options": {
+        "A": "Rs. 400 crore",
+        "B": "Rs. 900 crore",
+        "C": "Rs. 1,200 crore",
+        "D": "Rs. 1,600 crore"
+      },
+      "correct": "C",
+      "explanation": "Equilibrium: Y = C + I = 100 + 0.75Y + 200, so 0.25Y = 300 and Y = 300/0.25 = Rs. 1,200 crore. Check: C = 100 + 0.75 x 1,200 = 1,000; C + I = 1,200. Rs. 400 crore results from dividing autonomous spending by the MPC (300/0.75) instead of the MPS.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c05-q009",
+      "chapter": 5,
+      "topic": "Determination of National Income",
+      "question_text": "The 'paradox of thrift' suggests that:",
+      "options": {
+        "A": "Higher saving always leads to higher investment and income",
+        "B": "Saving and consumption always increase together",
+        "C": "Thrift by individuals has no effect on aggregate demand",
+        "D": "An attempt by all households to save more may leave total saving unchanged or lower, because income falls"
+      },
+      "correct": "D",
+      "explanation": "In the Keynesian model, a rise in the desire to save reduces consumption and aggregate demand. Through the multiplier, income falls, and with lower income realised saving may not rise (and can fall if investment depends on income). What is virtuous for an individual may be harmful for the economy as a whole.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c05-q010",
+      "chapter": 5,
+      "topic": "Determination of National Income",
+      "question_text": "In a three-sector economy (Rs. crore): C = 50 + 0.8Yd, where Yd = Y - T; lump-sum tax T = 100; investment I = 100; government expenditure G = 150. Equilibrium income is:",
+      "options": {
+        "A": "Rs. 1,500 crore",
+        "B": "Rs. 1,000 crore",
+        "C": "Rs. 1,100 crore",
+        "D": "Rs. 1,400 crore"
+      },
+      "correct": "C",
+      "explanation": "Y = C + I + G = 50 + 0.8(Y - 100) + 100 + 150 = 50 - 80 + 250 + 0.8Y = 220 + 0.8Y. So 0.2Y = 220 and Y = Rs. 1,100 crore. Check: Yd = 1,000, C = 50 + 800 = 850; 850 + 100 + 150 = 1,100. Ignoring the tax gives (50 + 250)/0.2 = 1,500.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-be-c05-q011",
+      "chapter": 5,
+      "topic": "Determination of National Income",
+      "question_text": "In a simple Keynesian model with lump-sum taxes, if government expenditure and taxes are both increased by Rs. 100 crore, national income will increase by:",
+      "options": {
+        "A": "Zero, since the two effects cancel out",
+        "B": "Rs. 100 crore multiplied by 1/(1 - MPC)",
+        "C": "Rs. 100 crore multiplied by MPC/(1 - MPC)",
+        "D": "Rs. 100 crore, since the balanced budget multiplier is one"
+      },
+      "correct": "D",
+      "explanation": "The government expenditure multiplier is 1/(1 - MPC) and the lump-sum tax multiplier is -MPC/(1 - MPC). Their sum is (1 - MPC)/(1 - MPC) = 1. So equal increases in G and T raise income by the same amount: Rs. 100 crore. For example, with MPC = 0.8: 100 x 5 - 100 x 4 = 100.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-be-c05-q012",
+      "chapter": 5,
+      "topic": "Determination of National Income",
+      "question_text": "In an open economy, MPC = 0.8 and the marginal propensity to import = 0.05 (with no taxes). The open-economy multiplier is:",
+      "options": {
+        "A": "5",
+        "B": "6.67",
+        "C": "4",
+        "D": "20"
+      },
+      "correct": "C",
+      "explanation": "Open-economy multiplier = 1/(MPS + MPM) = 1/(0.2 + 0.05) = 1/0.25 = 4. Imports are a leakage, so the multiplier is smaller than the closed-economy value of 1/0.2 = 5. 20 is 1/MPM alone.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-be-c05-q013",
+      "chapter": 5,
+      "topic": "Determination of National Income",
+      "question_text": "In the two-sector Keynesian model, equilibrium income is attained where:",
+      "options": {
+        "A": "Actual saving equals actual investment",
+        "B": "Planned saving equals planned investment",
+        "C": "Consumption equals income",
+        "D": "Government budget is balanced"
+      },
+      "correct": "B",
+      "explanation": "Equilibrium requires aggregate demand (C + I) to equal aggregate supply (C + S), i.e., planned (ex-ante) S = planned I. Actual (ex-post) saving always equals actual investment by accounting identity, including unplanned inventory changes, so it does not define equilibrium.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c05-q014",
+      "chapter": 5,
+      "topic": "Determination of National Income",
+      "question_text": "An inflationary gap exists when:",
+      "options": {
+        "A": "Aggregate demand falls short of aggregate supply at full employment",
+        "B": "Aggregate demand exceeds aggregate supply at the full-employment level of output",
+        "C": "Actual output exceeds potential output due to excess supply",
+        "D": "Investment exceeds saving at less than full employment"
+      },
+      "correct": "B",
+      "explanation": "At full employment output cannot increase in the short run, so excess aggregate demand raises prices. The amount by which AD exceeds the level needed for full-employment equilibrium is the inflationary gap. A shortfall of AD is a deflationary gap.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c05-q015",
+      "chapter": 5,
+      "topic": "Determination of National Income",
+      "question_text": "Disposable personal income is equal to:",
+      "options": {
+        "A": "Personal income minus indirect taxes",
+        "B": "National income minus corporate taxes",
+        "C": "Personal income minus direct personal taxes and miscellaneous fees and fines paid by households",
+        "D": "Personal income plus transfer payments"
+      },
+      "correct": "C",
+      "explanation": "Personal income is income actually received by households, including transfers. Disposable personal income = personal income - personal direct taxes (and miscellaneous receipts of government such as fees and fines). It is available for consumption and saving. Indirect taxes are not deducted at this stage.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c06-q001",
+      "chapter": 6,
+      "topic": "Business Cycles",
+      "question_text": "The correct sequence of the phases of a business cycle is:",
+      "options": {
+        "A": "Peak, expansion, trough, contraction",
+        "B": "Trough, peak, expansion, contraction",
+        "C": "Contraction, peak, expansion, trough",
+        "D": "Expansion, peak, contraction, trough"
+      },
+      "correct": "D",
+      "explanation": "Economic activity rises during expansion, reaches its highest point at the peak, declines during contraction (recession, possibly deepening into depression), and touches its lowest point at the trough, after which recovery begins.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c06-q002",
+      "chapter": 6,
+      "topic": "Business Cycles",
+      "question_text": "Which statement about business cycles is correct?",
+      "options": {
+        "A": "They occur at fixed, regular intervals",
+        "B": "They affect only the agricultural sector",
+        "C": "Every cycle has identical duration of expansion and contraction",
+        "D": "They are recurrent but not periodic, varying in length and intensity"
+      },
+      "correct": "D",
+      "explanation": "Business cycles recur, but their duration and amplitude differ from one cycle to another, so they cannot be predicted precisely. They are economy-wide, affecting output, employment, prices and incomes across many sectors.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c06-q003",
+      "chapter": 6,
+      "topic": "Business Cycles",
+      "question_text": "Which of the following is generally regarded as a leading indicator of economic activity?",
+      "options": {
+        "A": "Unemployment rate",
+        "B": "Gross domestic product",
+        "C": "Personal income",
+        "D": "Stock market prices"
+      },
+      "correct": "D",
+      "explanation": "Leading indicators change before the economy as a whole changes; examples include stock prices, new orders for capital goods and building permits. GDP and personal income are coincident indicators, while the unemployment rate is typically a lagging indicator.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c06-q004",
+      "chapter": 6,
+      "topic": "Business Cycles",
+      "question_text": "Industrial production, which moves at the same time as the overall economy, is an example of a:",
+      "options": {
+        "A": "Coincident indicator",
+        "B": "Leading indicator",
+        "C": "Lagging indicator",
+        "D": "Structural indicator"
+      },
+      "correct": "A",
+      "explanation": "Coincident indicators move simultaneously with the business cycle, giving information about the current state of the economy. Industrial production, GDP and retail sales are commonly cited examples.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c06-q005",
+      "chapter": 6,
+      "topic": "Business Cycles",
+      "question_text": "Which of the following is a characteristic of the depression phase?",
+      "options": {
+        "A": "Full utilisation of productive capacity",
+        "B": "Rapidly rising wages and prices",
+        "C": "Large-scale unemployment and a sharp fall in output and prices",
+        "D": "High optimism among investors"
+      },
+      "correct": "C",
+      "explanation": "During depression aggregate demand is very low, firms cut production, unemployment is widespread, prices and profits fall and business confidence is weak. Full capacity, rising wages and optimism characterise the boom phase.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c06-q006",
+      "chapter": 6,
+      "topic": "Business Cycles",
+      "question_text": "According to Keynes, business cycles are caused mainly by:",
+      "options": {
+        "A": "Changes in sunspot activity",
+        "B": "Expansion and contraction of bank credit alone",
+        "C": "Fluctuations in aggregate effective demand",
+        "D": "Innovations introduced by entrepreneurs"
+      },
+      "correct": "C",
+      "explanation": "Keynes attributed economic fluctuations to changes in aggregate effective demand, particularly volatile investment driven by changes in the marginal efficiency of capital. Credit expansion is Hawtrey's explanation, innovations are Schumpeter's and sunspots are Jevons'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c06-q007",
+      "chapter": 6,
+      "topic": "Business Cycles",
+      "question_text": "The view that the trade cycle is 'a purely monetary phenomenon' caused by expansion and contraction of bank credit is associated with:",
+      "options": {
+        "A": "Hawtrey",
+        "B": "Schumpeter",
+        "C": "Pigou",
+        "D": "Keynes"
+      },
+      "correct": "A",
+      "explanation": "R. G. Hawtrey argued that changes in the flow of money, especially bank credit, cause booms and depressions. When banks expand credit, demand and prices rise; when they contract it, a downturn follows.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c06-q008",
+      "chapter": 6,
+      "topic": "Business Cycles",
+      "question_text": "According to Schumpeter, business cycles are caused by:",
+      "options": {
+        "A": "Innovations introduced by entrepreneurs",
+        "B": "Changes in psychological moods of businessmen",
+        "C": "Changes in weather affecting agriculture",
+        "D": "Over-saving by households"
+      },
+      "correct": "A",
+      "explanation": "Schumpeter's innovation theory holds that the introduction of new products, methods or markets triggers bursts of investment, leading to expansion. As innovations are absorbed and imitators enter, the boom gives way to contraction.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c06-q009",
+      "chapter": 6,
+      "topic": "Business Cycles",
+      "question_text": "The theory that business cycles result from waves of optimism and pessimism among businessmen is associated with:",
+      "options": {
+        "A": "Pigou",
+        "B": "Hawtrey",
+        "C": "Jevons",
+        "D": "Hicks"
+      },
+      "correct": "A",
+      "explanation": "A. C. Pigou emphasised psychological factors: optimism leads to over-investment and a boom; when errors of optimism are discovered, pessimism sets in and leads to a downturn. Jevons linked cycles to sunspots and Hicks to the multiplier-accelerator interaction.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c06-q010",
+      "chapter": 6,
+      "topic": "Business Cycles",
+      "question_text": "The 'sunspot theory' of business cycles, which linked fluctuations in agricultural output to changes in sunspot activity, was put forward by:",
+      "options": {
+        "A": "J. A. Schumpeter",
+        "B": "A. C. Pigou",
+        "C": "R. G. Hawtrey",
+        "D": "W. S. Jevons"
+      },
+      "correct": "D",
+      "explanation": "Jevons suggested that sunspots affect weather, which affects agricultural yields; since agriculture was a large share of economic activity, this would affect trade and industry. It is an example of an external (exogenous) explanation of cycles.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-be-c06-q011",
+      "chapter": 6,
+      "topic": "Business Cycles",
+      "question_text": "The worldwide economic downturn that began with the stock market crash of 1929 is known as:",
+      "options": {
+        "A": "The Great Moderation",
+        "B": "The Industrial Revolution",
+        "C": "Stagflation",
+        "D": "The Great Depression"
+      },
+      "correct": "D",
+      "explanation": "The Great Depression of the 1930s followed the 1929 Wall Street crash and saw massive unemployment and falling output in many countries. It was a major influence on Keynes' General Theory of 1936.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c06-q012",
+      "chapter": 6,
+      "topic": "Business Cycles",
+      "question_text": "A commonly used rule of thumb defines a recession as:",
+      "options": {
+        "A": "Any single month in which industrial output falls",
+        "B": "Two consecutive quarters of decline in real GDP",
+        "C": "A rise in the inflation rate for two consecutive quarters",
+        "D": "A fall in the stock market index by 5% in a year"
+      },
+      "correct": "B",
+      "explanation": "A widely used practical definition of a recession is a fall in real GDP for two successive quarters. Inflation or stock market movements alone do not define a recession.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c06-q013",
+      "chapter": 6,
+      "topic": "Business Cycles",
+      "question_text": "To counter a recession, the government is most likely to:",
+      "options": {
+        "A": "Increase taxes and cut public expenditure",
+        "B": "Increase public expenditure and/or reduce taxes",
+        "C": "Raise interest rates sharply",
+        "D": "Reduce money supply"
+      },
+      "correct": "B",
+      "explanation": "During a recession aggregate demand is deficient, so expansionary (counter-cyclical) fiscal policy - more spending and lower taxes - is used to boost demand. Raising taxes, raising interest rates and cutting money supply are contractionary measures suited to an inflationary boom.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c06-q014",
+      "chapter": 6,
+      "topic": "Business Cycles",
+      "question_text": "Samuelson and Hicks explained business cycles through the interaction of:",
+      "options": {
+        "A": "The multiplier and the accelerator",
+        "B": "Money supply and velocity of circulation",
+        "C": "Sunspots and agricultural output",
+        "D": "Innovation and imitation"
+      },
+      "correct": "A",
+      "explanation": "In the multiplier-accelerator model, a rise in investment raises income via the multiplier; the rise in income induces further investment via the accelerator (investment depends on the change in output). This interaction can generate cumulative upswings and downswings.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-be-c06-q015",
+      "chapter": 6,
+      "topic": "Business Cycles",
+      "question_text": "Which of the following statements about the impact of business cycles is INCORRECT?",
+      "options": {
+        "A": "Durable and capital goods industries tend to fluctuate more than non-durable consumer goods industries",
+        "B": "All sectors of the economy are affected equally during a downturn",
+        "C": "Business cycles affect firms' decisions on investment, inventory and hiring",
+        "D": "Downturns tend to lower business profits and employment"
+      },
+      "correct": "B",
+      "explanation": "Purchases of durable and capital goods can be postponed, so these industries usually show sharper fluctuations than necessities. Hence sectors are not affected equally. Business cycles do influence investment, inventory and hiring decisions, and downturns typically reduce profits and employment.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-be-c07-q001",
+      "chapter": 7,
+      "topic": "Public Finance",
+      "question_text": "According to Richard Musgrave, the three fiscal functions of the government are:",
+      "options": {
+        "A": "Production, consumption and exchange",
+        "B": "Taxation, borrowing and expenditure",
+        "C": "Allocation, distribution and stabilisation",
+        "D": "Planning, regulation and licensing"
+      },
+      "correct": "C",
+      "explanation": "Musgrave classified government's fiscal functions as the allocation function (providing goods markets fail to supply efficiently), the distribution function (achieving a fair distribution of income) and the stabilisation function (maintaining employment and price stability).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c07-q002",
+      "chapter": 7,
+      "topic": "Public Finance",
+      "question_text": "Pure public goods are characterised by:",
+      "options": {
+        "A": "Rivalry in consumption and excludability",
+        "B": "Rivalry in consumption but non-excludability",
+        "C": "Non-rivalry in consumption and non-excludability",
+        "D": "Non-rivalry in consumption but excludability"
+      },
+      "correct": "C",
+      "explanation": "A pure public good, such as national defence, can be consumed by one person without reducing availability to others (non-rival), and it is impossible or very costly to exclude non-payers (non-excludable). Rival and excludable goods are private goods.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c07-q003",
+      "chapter": 7,
+      "topic": "Public Finance",
+      "question_text": "The 'free rider' problem means that:",
+      "options": {
+        "A": "People can enjoy the benefits of a good without paying for it, so private markets under-provide it",
+        "B": "Producers charge excessive prices for public goods",
+        "C": "Governments provide goods free of cost to the poor",
+        "D": "Consumers buy more than they need of subsidised goods"
+      },
+      "correct": "A",
+      "explanation": "Because of non-excludability, individuals have an incentive to hide their true preferences and let others pay. As private firms cannot collect revenue from free riders, they under-supply such goods, which justifies government provision.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c07-q004",
+      "chapter": 7,
+      "topic": "Public Finance",
+      "question_text": "When the production of a good generates a negative externality such as pollution, the free market will:",
+      "options": {
+        "A": "Produce less than the socially optimal quantity",
+        "B": "Produce more than the socially optimal quantity, since marginal social cost exceeds marginal private cost",
+        "C": "Produce exactly the socially optimal quantity",
+        "D": "Charge a price higher than the socially optimal price"
+      },
+      "correct": "B",
+      "explanation": "The producer considers only private cost, ignoring the external cost borne by others. Since MSC > MPC, the market equates demand with MPC and produces beyond the output where demand equals MSC. The market price is therefore too low and output too high.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c07-q005",
+      "chapter": 7,
+      "topic": "Public Finance",
+      "question_text": "A tax imposed on a polluting firm equal to the marginal external cost of its activity is known as a:",
+      "options": {
+        "A": "Progressive tax",
+        "B": "Lump-sum tax",
+        "C": "Pigouvian tax",
+        "D": "Proportional tax"
+      },
+      "correct": "C",
+      "explanation": "A Pigouvian tax, named after A. C. Pigou, internalises the externality by raising the producer's private cost to equal social cost, reducing output to the socially optimal level.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c07-q006",
+      "chapter": 7,
+      "topic": "Public Finance",
+      "question_text": "Which of the following is a merit good?",
+      "options": {
+        "A": "Cigarettes",
+        "B": "Liquor",
+        "C": "National defence",
+        "D": "Primary education"
+      },
+      "correct": "D",
+      "explanation": "Merit goods are goods whose consumption is considered socially desirable and which people tend to under-consume if left to themselves, such as education and health care. Cigarettes and liquor are demerit goods, and national defence is a public good.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c07-q007",
+      "chapter": 7,
+      "topic": "Public Finance",
+      "question_text": "After buying comprehensive vehicle insurance, a driver becomes careless about locking his car. This is an example of:",
+      "options": {
+        "A": "Moral hazard",
+        "B": "Adverse selection",
+        "C": "Free riding",
+        "D": "A positive externality"
+      },
+      "correct": "A",
+      "explanation": "Moral hazard arises after a transaction, when one party changes behaviour because the other bears the risk and cannot fully monitor actions. Adverse selection arises before a transaction, when hidden information leads to the wrong type of participants entering the market (e.g., only high-risk people buying insurance).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-be-c07-q008",
+      "chapter": 7,
+      "topic": "Public Finance",
+      "question_text": "Market demand is Qd = 500 - 10P and supply is Qs = 100 + 10P. If the government imposes a price ceiling of Rs. 15, the market will experience:",
+      "options": {
+        "A": "A surplus of 100 units",
+        "B": "A shortage of 100 units",
+        "C": "A shortage of 50 units",
+        "D": "No effect, since the ceiling is above equilibrium"
+      },
+      "correct": "B",
+      "explanation": "Equilibrium: 500 - 10P = 100 + 10P, so P = 20 and Q = 300. The ceiling of Rs. 15 is below equilibrium and therefore binding. At P = 15, Qd = 500 - 150 = 350 and Qs = 100 + 150 = 250. Shortage = 350 - 250 = 100 units.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-be-c07-q009",
+      "chapter": 7,
+      "topic": "Public Finance",
+      "question_text": "When the government fixes a minimum support price above the market equilibrium price for a crop, the likely result is:",
+      "options": {
+        "A": "Excess demand and black markets",
+        "B": "No change in the market",
+        "C": "A fall in the quantity supplied",
+        "D": "Excess supply, which the government may have to procure"
+      },
+      "correct": "D",
+      "explanation": "A minimum support price is a price floor. When set above equilibrium, quantity supplied exceeds quantity demanded, creating a surplus. To make the floor effective, the government often buys the surplus. Excess demand and black markets are associated with price ceilings.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c07-q010",
+      "chapter": 7,
+      "topic": "Public Finance",
+      "question_text": "Fiscal deficit is defined as:",
+      "options": {
+        "A": "Revenue expenditure minus revenue receipts",
+        "B": "Total expenditure minus total receipts including borrowings",
+        "C": "Total expenditure minus revenue receipts and non-debt capital receipts",
+        "D": "Revenue deficit minus interest payments"
+      },
+      "correct": "C",
+      "explanation": "Fiscal deficit = total expenditure - (revenue receipts + non-debt creating capital receipts such as recovery of loans and disinvestment proceeds). It indicates the government's total borrowing requirement. Revenue expenditure minus revenue receipts is the revenue deficit.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c07-q011",
+      "chapter": 7,
+      "topic": "Public Finance",
+      "question_text": "A government's budget shows (Rs. crore): revenue receipts 900; non-debt capital receipts 50; total expenditure 1,400, of which interest payments are 300. Fiscal deficit and primary deficit respectively are:",
+      "options": {
+        "A": "Rs. 500 crore and Rs. 200 crore",
+        "B": "Rs. 450 crore and Rs. 150 crore",
+        "C": "Rs. 450 crore and Rs. 750 crore",
+        "D": "Rs. 1,400 crore and Rs. 1,100 crore"
+      },
+      "correct": "B",
+      "explanation": "Fiscal deficit = 1,400 - (900 + 50) = Rs. 450 crore. Primary deficit = fiscal deficit - interest payments = 450 - 300 = Rs. 150 crore. Rs. 500/200 crore ignores non-debt capital receipts; Rs. 750 crore wrongly adds interest.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-be-c07-q012",
+      "chapter": 7,
+      "topic": "Public Finance",
+      "question_text": "The 'tragedy of the commons' refers to:",
+      "options": {
+        "A": "Under-production of public goods due to free riders",
+        "B": "Exploitation of consumers by a monopoly",
+        "C": "Excessive taxation of the poor",
+        "D": "Over-use and depletion of a common-property resource because no one owns it"
+      },
+      "correct": "D",
+      "explanation": "Common-property resources such as open fisheries or grazing land are rival but non-excludable. Each user ignores the cost his use imposes on others, leading to over-exploitation and possible depletion. Assigning property rights or regulation can address it.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c07-q013",
+      "chapter": 7,
+      "topic": "Public Finance",
+      "question_text": "During a deep recession, an appropriate fiscal policy would be to:",
+      "options": {
+        "A": "Increase government expenditure and reduce taxes",
+        "B": "Reduce government expenditure and raise taxes",
+        "C": "Aim for a budget surplus",
+        "D": "Increase the cash reserve ratio"
+      },
+      "correct": "A",
+      "explanation": "Expansionary fiscal policy raises aggregate demand to restore output and employment. Cutting spending, raising taxes and aiming for a surplus are contractionary. The cash reserve ratio is a monetary policy instrument, not fiscal.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c07-q014",
+      "chapter": 7,
+      "topic": "Public Finance",
+      "question_text": "Which of the following acts as an automatic (built-in) stabiliser?",
+      "options": {
+        "A": "A one-time increase in road construction approved by Parliament",
+        "B": "A discretionary cut in excise duties",
+        "C": "A progressive income tax system",
+        "D": "An increase in the repo rate"
+      },
+      "correct": "C",
+      "explanation": "Automatic stabilisers change without new policy action. With a progressive income tax, tax collections rise more than proportionately in a boom and fall in a slump, dampening fluctuations in disposable income. Discretionary changes require deliberate decisions; the repo rate is a monetary tool.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c07-q015",
+      "chapter": 7,
+      "topic": "Public Finance",
+      "question_text": "'Crowding out' refers to a situation where:",
+      "options": {
+        "A": "Imports displace domestic production",
+        "B": "Increased government borrowing raises interest rates and reduces private investment",
+        "C": "Public sector enterprises are privatised",
+        "D": "Increased private investment reduces government spending"
+      },
+      "correct": "B",
+      "explanation": "When government borrows heavily to finance a deficit, demand for loanable funds rises, pushing up interest rates. Higher rates discourage private investment, partially offsetting the expansionary effect of fiscal policy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c08-q001",
+      "chapter": 8,
+      "topic": "Money Market",
+      "question_text": "The most fundamental function of money, which removes the need for a double coincidence of wants, is its function as a:",
+      "options": {
+        "A": "Store of value",
+        "B": "Medium of exchange",
+        "C": "Standard of deferred payment",
+        "D": "Unit of account"
+      },
+      "correct": "B",
+      "explanation": "Under barter, trade requires a double coincidence of wants. Money as a generally accepted medium of exchange removes this difficulty. Store of value, standard of deferred payment and unit of account are other functions.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c08-q002",
+      "chapter": 8,
+      "topic": "Money Market",
+      "question_text": "Money that is accepted as legal tender by government decree but is not backed by any commodity is called:",
+      "options": {
+        "A": "Commodity money",
+        "B": "Fiat money",
+        "C": "Near money",
+        "D": "Full-bodied money"
+      },
+      "correct": "B",
+      "explanation": "Fiat money derives its value from government order and public confidence, not from intrinsic value or backing. Full-bodied money has intrinsic value equal to its face value, and near money refers to highly liquid assets such as time deposits.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c08-q003",
+      "chapter": 8,
+      "topic": "Money Market",
+      "question_text": "According to Keynes, the three motives for holding money are:",
+      "options": {
+        "A": "Consumption, saving and investment motives",
+        "B": "Transactions, precautionary and speculative motives",
+        "C": "Income, business and asset motives",
+        "D": "Profit, liquidity and safety motives"
+      },
+      "correct": "B",
+      "explanation": "Keynes' liquidity preference theory identifies the transactions motive (day-to-day payments), the precautionary motive (unforeseen contingencies) and the speculative motive (holding money to take advantage of expected changes in bond prices and interest rates).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c08-q004",
+      "chapter": 8,
+      "topic": "Money Market",
+      "question_text": "In Keynesian theory, the 'liquidity trap' refers to a situation where:",
+      "options": {
+        "A": "Banks refuse to lend because of high reserve requirements",
+        "B": "At a very low interest rate the demand for money becomes perfectly elastic, so increases in money supply do not lower the interest rate",
+        "C": "People hold no money for speculative purposes",
+        "D": "The demand for money is perfectly inelastic with respect to interest rate"
+      },
+      "correct": "B",
+      "explanation": "At a very low interest rate, everyone expects rates to rise (bond prices to fall), so people prefer to hold cash. The speculative demand curve becomes horizontal; additional money is simply held, and monetary policy becomes ineffective in reducing the interest rate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c08-q005",
+      "chapter": 8,
+      "topic": "Money Market",
+      "question_text": "Using Fisher's equation MV = PT, if money supply M = Rs. 500 crore, velocity V = 6 and volume of transactions T = 1,500 crore units, the price level P is:",
+      "options": {
+        "A": "2",
+        "B": "0.5",
+        "C": "18",
+        "D": "3"
+      },
+      "correct": "A",
+      "explanation": "P = MV / T = (500 x 6) / 1,500 = 3,000 / 1,500 = 2. Reversing the ratio gives 0.5.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c08-q006",
+      "chapter": 8,
+      "topic": "Money Market",
+      "question_text": "According to the Cambridge cash-balance equation M = kPY, if k = 0.25 and nominal income PY = Rs. 8,000 crore, the demand for money is:",
+      "options": {
+        "A": "Rs. 2,000 crore",
+        "B": "Rs. 32,000 crore",
+        "C": "Rs. 4,000 crore",
+        "D": "Rs. 800 crore"
+      },
+      "correct": "A",
+      "explanation": "M = k x PY = 0.25 x 8,000 = Rs. 2,000 crore. Here k is the proportion of nominal income people wish to hold as cash balances; it is the reciprocal of income velocity (1/0.25 = 4). 32,000 results from dividing by k.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c08-q007",
+      "chapter": 8,
+      "topic": "Money Market",
+      "question_text": "In the RBI's monetary aggregates, broad money (M3) is equal to:",
+      "options": {
+        "A": "Currency with the public plus demand deposits only",
+        "B": "M1 plus net time deposits with the banking system",
+        "C": "M1 plus post office savings deposits",
+        "D": "Currency in circulation plus bankers' deposits with RBI"
+      },
+      "correct": "B",
+      "explanation": "M1 = currency with the public + demand deposits with banks + other deposits with RBI. M3 = M1 + net time deposits of the banking system. M2 adds post office savings deposits to M1. Currency plus bankers' deposits with RBI form part of reserve money (M0).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c08-q008",
+      "chapter": 8,
+      "topic": "Money Market",
+      "question_text": "The currency-deposit ratio is 0.2 and the reserve-deposit ratio is 0.1. If high-powered money is Rs. 500 crore, the money supply is:",
+      "options": {
+        "A": "Rs. 2,000 crore",
+        "B": "Rs. 5,000 crore",
+        "C": "Rs. 1,500 crore",
+        "D": "Rs. 6,000 crore"
+      },
+      "correct": "A",
+      "explanation": "Money multiplier m = (1 + c) / (c + r) = (1 + 0.2) / (0.2 + 0.1) = 1.2 / 0.3 = 4. Money supply = m x H = 4 x 500 = Rs. 2,000 crore. Using the simple multiplier 1/r = 10 would wrongly give Rs. 5,000 crore.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-be-c08-q009",
+      "chapter": 8,
+      "topic": "Money Market",
+      "question_text": "Reserve money (high-powered money) consists of:",
+      "options": {
+        "A": "Currency in circulation, bankers' deposits with the RBI and other deposits with the RBI",
+        "B": "Currency with the public and demand deposits with banks",
+        "C": "Time deposits and demand deposits of banks",
+        "D": "Government securities held by commercial banks"
+      },
+      "correct": "A",
+      "explanation": "Reserve money (M0) = currency in circulation + bankers' deposits with RBI + 'other' deposits with RBI. It is called high-powered money because the banking system creates a multiple of it as money supply.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c08-q010",
+      "chapter": 8,
+      "topic": "Money Market",
+      "question_text": "When the central bank purchases government securities in the open market, it:",
+      "options": {
+        "A": "Absorbs liquidity from the banking system",
+        "B": "Raises the cash reserve ratio",
+        "C": "Reduces the money supply",
+        "D": "Injects liquidity and increases the reserves of banks"
+      },
+      "correct": "D",
+      "explanation": "In an open market purchase, the central bank pays for securities by crediting banks' reserves, which increases liquidity and the capacity to lend. Open market sales have the opposite effect.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c08-q011",
+      "chapter": 8,
+      "topic": "Money Market",
+      "question_text": "An increase in the cash reserve ratio (CRR) will, other things being equal:",
+      "options": {
+        "A": "Increase the money multiplier",
+        "B": "Reduce the money multiplier and the money supply",
+        "C": "Have no effect on bank lending",
+        "D": "Increase the high-powered money base"
+      },
+      "correct": "B",
+      "explanation": "A higher CRR requires banks to keep a larger share of deposits with the central bank, leaving less to lend. In the formula (1 + c)/(c + r), a higher r reduces the multiplier and therefore the money supply.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c08-q012",
+      "chapter": 8,
+      "topic": "Money Market",
+      "question_text": "The repo rate is the rate at which:",
+      "options": {
+        "A": "Banks lend to their most creditworthy customers",
+        "B": "The RBI lends short-term funds to banks against eligible government securities",
+        "C": "The RBI absorbs surplus funds from banks without collateral",
+        "D": "Banks lend to each other in the call money market"
+      },
+      "correct": "B",
+      "explanation": "Under a repurchase agreement (repo), banks sell securities to the RBI with an agreement to buy them back, effectively borrowing from the RBI. The rate charged is the repo rate, the main policy rate. Absorption of liquidity is done through reverse repo or the standing deposit facility.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c08-q013",
+      "chapter": 8,
+      "topic": "Money Market",
+      "question_text": "Under the amended RBI Act, 1934, the policy repo rate required to achieve the inflation target is determined by:",
+      "options": {
+        "A": "The Ministry of Finance alone",
+        "B": "The Board of Directors of each commercial bank",
+        "C": "The Monetary Policy Committee",
+        "D": "The Securities and Exchange Board of India"
+      },
+      "correct": "C",
+      "explanation": "The 2016 amendment to the RBI Act provided a statutory basis for a flexible inflation targeting framework and constituted a Monetary Policy Committee, which decides the policy repo rate by majority vote.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c08-q014",
+      "chapter": 8,
+      "topic": "Money Market",
+      "question_text": "In the Baumol-Tobin inventory approach to transactions demand for money, an increase in the interest rate will:",
+      "options": {
+        "A": "Increase the average money balance held for transactions",
+        "B": "Leave transactions demand unaffected, as it depends only on income",
+        "C": "Increase transactions demand proportionately with the interest rate",
+        "D": "Reduce the average money balance held for transactions"
+      },
+      "correct": "D",
+      "explanation": "Baumol and Tobin showed that the optimal average cash balance is proportional to the square root of (2bY / r), where b is the brokerage cost and r the interest rate. A higher r raises the opportunity cost of holding cash, so people hold less money and make more frequent conversions. Thus even transactions demand is interest-sensitive, contrary to the simple Keynesian view.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-be-c08-q015",
+      "chapter": 8,
+      "topic": "Money Market",
+      "question_text": "Milton Friedman's restatement of the quantity theory treats the demand for money as:",
+      "options": {
+        "A": "Purely a function of the transactions motive",
+        "B": "Determined only by the speculative motive",
+        "C": "Perfectly elastic at all interest rates",
+        "D": "Demand for a capital asset, depending on wealth and the returns on alternative assets"
+      },
+      "correct": "D",
+      "explanation": "Friedman regarded money as one form in which wealth is held. Demand for real balances depends on permanent income (wealth), the ratio of human to non-human wealth, expected returns on bonds, equities and physical goods (expected inflation), and tastes. This makes money demand a stable function.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-be-c09-q001",
+      "chapter": 9,
+      "topic": "International Trade",
+      "question_text": "The mercantilist doctrine held that a nation's wealth increases through:",
+      "options": {
+        "A": "Accumulation of gold and silver by maintaining an export surplus",
+        "B": "Free trade without any restrictions",
+        "C": "Specialisation based on comparative costs",
+        "D": "Importing more than exporting"
+      },
+      "correct": "A",
+      "explanation": "Mercantilists (16th-18th centuries) believed that wealth consisted of precious metals and that a country should promote exports and restrict imports to accumulate bullion. Free trade and comparative advantage were later classical ideas that criticised mercantilism.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c09-q002",
+      "chapter": 9,
+      "topic": "International Trade",
+      "question_text": "The theory of absolute advantage as a basis for international trade was propounded by:",
+      "options": {
+        "A": "David Ricardo",
+        "B": "Bertil Ohlin",
+        "C": "Paul Krugman",
+        "D": "Adam Smith"
+      },
+      "correct": "D",
+      "explanation": "Adam Smith, in The Wealth of Nations (1776), argued that countries gain by specialising in goods they can produce with absolute advantage. David Ricardo developed comparative advantage, Heckscher and Ohlin the factor-endowment theory, and Krugman new trade theory.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c09-q003",
+      "chapter": 9,
+      "topic": "International Trade",
+      "question_text": "Labour hours required to produce one unit:\nCountry X: cloth 10 hours, wheat 20 hours\nCountry Y: cloth 15 hours, wheat 45 hours\nAccording to Ricardo's theory of comparative advantage:",
+      "options": {
+        "A": "X should specialise in cloth and Y in wheat",
+        "B": "X should produce both goods, since it has an absolute advantage in both",
+        "C": "X should specialise in wheat and Y in cloth",
+        "D": "No trade will take place, since X is more efficient in both goods"
+      },
+      "correct": "C",
+      "explanation": "Opportunity cost of 1 wheat in X = 20/10 = 2 cloth; in Y = 45/15 = 3 cloth. X has the lower opportunity cost of wheat. Opportunity cost of 1 cloth in X = 10/20 = 0.5 wheat; in Y = 15/45 = 0.33 wheat, so Y has the comparative advantage in cloth. Absolute advantage in both goods does not prevent mutually beneficial trade.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-be-c09-q004",
+      "chapter": 9,
+      "topic": "International Trade",
+      "question_text": "According to the Heckscher-Ohlin theory, a labour-abundant country will:",
+      "options": {
+        "A": "Export capital-intensive goods and import labour-intensive goods",
+        "B": "Export labour-intensive goods and import capital-intensive goods",
+        "C": "Export goods in which it has an absolute advantage only",
+        "D": "Not gain from trade because factor prices are low"
+      },
+      "correct": "B",
+      "explanation": "The Heckscher-Ohlin (factor endowment) theory states that a country exports goods that use its relatively abundant factor intensively, because that factor is relatively cheap. A labour-abundant country thus exports labour-intensive goods.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c09-q005",
+      "chapter": 9,
+      "topic": "International Trade",
+      "question_text": "An ad valorem import tariff of 15% is levied on a machine with an assessable value of Rs. 40,000. The tariff payable is:",
+      "options": {
+        "A": "Rs. 6,000",
+        "B": "Rs. 600",
+        "C": "Rs. 4,600",
+        "D": "Rs. 46,000"
+      },
+      "correct": "A",
+      "explanation": "An ad valorem tariff is a percentage of the value of the good. Tariff = 15% x 40,000 = Rs. 6,000. Rs. 46,000 is the value including the tariff. A specific tariff, by contrast, would be a fixed amount per unit.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c09-q006",
+      "chapter": 9,
+      "topic": "International Trade",
+      "question_text": "Which of the following is a non-tariff measure?",
+      "options": {
+        "A": "An ad valorem duty on imports",
+        "B": "A specific duty per tonne of imports",
+        "C": "A compound duty combining ad valorem and specific elements",
+        "D": "An import quota limiting the quantity of a good that may be imported"
+      },
+      "correct": "D",
+      "explanation": "Non-tariff measures restrict or affect trade without levying a tax - for example quotas, licensing, sanitary and phytosanitary measures and technical standards. Ad valorem, specific and compound duties are all forms of tariffs.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c09-q007",
+      "chapter": 9,
+      "topic": "International Trade",
+      "question_text": "In international trade, 'dumping' refers to:",
+      "options": {
+        "A": "Imposing high tariffs on imports to protect domestic industry",
+        "B": "Exporting a product at a price lower than its normal value in the exporter's home market",
+        "C": "Disposing of hazardous waste in another country",
+        "D": "Exporting goods without any government subsidy"
+      },
+      "correct": "B",
+      "explanation": "Dumping occurs when goods are exported at a price below their normal value (usually the domestic price in the exporting country). If it causes material injury to the domestic industry of the importing country, that country may levy an anti-dumping duty.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c09-q008",
+      "chapter": 9,
+      "topic": "International Trade",
+      "question_text": "The World Trade Organization (WTO), which replaced GATT, came into existence on:",
+      "options": {
+        "A": "1 January 1948",
+        "B": "1 January 1995",
+        "C": "1 April 1991",
+        "D": "15 April 1994"
+      },
+      "correct": "B",
+      "explanation": "GATT came into force in 1948. The Uruguay Round agreements were signed at Marrakesh on 15 April 1994, establishing the WTO, which began functioning on 1 January 1995.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c09-q009",
+      "chapter": 9,
+      "topic": "International Trade",
+      "question_text": "The 'Most-Favoured-Nation' (MFN) principle of the WTO requires that:",
+      "options": {
+        "A": "Imported goods must be treated the same as domestic goods once inside the market",
+        "B": "Developing countries receive more favourable treatment than developed countries",
+        "C": "Each member chooses one favoured trading partner",
+        "D": "A trade concession granted to one member must be extended to all other members"
+      },
+      "correct": "D",
+      "explanation": "MFN means non-discrimination among trading partners: if a member lowers a tariff for one country, it must do so for all WTO members (subject to exceptions such as free trade areas). Equal treatment of imported and domestic goods is the National Treatment principle.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c09-q010",
+      "chapter": 9,
+      "topic": "International Trade",
+      "question_text": "Other things being equal, a depreciation of the Indian rupee against the US dollar will tend to:",
+      "options": {
+        "A": "Make Indian exports costlier for US buyers",
+        "B": "Make imports from the US cheaper for Indians",
+        "C": "Make Indian exports cheaper for US buyers and imports from the US costlier for Indians",
+        "D": "Have no effect on trade flows"
+      },
+      "correct": "C",
+      "explanation": "When the rupee depreciates, one dollar buys more rupees. Indian goods priced in rupees become cheaper in dollar terms, encouraging exports, while US goods cost more rupees, discouraging imports.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c09-q011",
+      "chapter": 9,
+      "topic": "International Trade",
+      "question_text": "The exchange rate changes from Rs. 75 per US dollar to Rs. 80 per US dollar. The percentage depreciation of the rupee against the dollar is:",
+      "options": {
+        "A": "6.25%",
+        "B": "6.67%",
+        "C": "5%",
+        "D": "7.5%"
+      },
+      "correct": "A",
+      "explanation": "Value of one rupee in dollars: before = 1/75, after = 1/80. Percentage change = (1/80 - 1/75)/(1/75) x 100 = (75/80 - 1) x 100 = -6.25%. So the rupee depreciated by 6.25%. The dollar appreciated by (80 - 75)/75 x 100 = 6.67%, which is a common confusion.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-be-c09-q012",
+      "chapter": 9,
+      "topic": "International Trade",
+      "question_text": "A system in which the exchange rate is mainly determined by market forces but the central bank intervenes to smooth excessive volatility is called:",
+      "options": {
+        "A": "A fixed (pegged) exchange rate",
+        "B": "The gold standard",
+        "C": "A currency board",
+        "D": "A managed float"
+      },
+      "correct": "D",
+      "explanation": "Under a managed (dirty) float, the exchange rate is broadly market-determined, but the central bank buys or sells foreign exchange to curb excessive fluctuations. A fixed peg or currency board ties the currency to another currency at a set rate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c09-q013",
+      "chapter": 9,
+      "topic": "International Trade",
+      "question_text": "Foreign Direct Investment (FDI) is distinguished from Foreign Portfolio Investment (FPI) mainly because FDI:",
+      "options": {
+        "A": "Involves purchase of government bonds only",
+        "B": "Is always short-term and highly volatile",
+        "C": "Involves a lasting interest and a significant degree of control or influence over the enterprise",
+        "D": "Is made only by foreign governments"
+      },
+      "correct": "C",
+      "explanation": "FDI reflects a long-term interest and management influence, such as setting up a subsidiary or acquiring a substantial equity stake. FPI is investment in financial assets such as shares and bonds without control and is generally more volatile ('hot money').",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c09-q014",
+      "chapter": 9,
+      "topic": "International Trade",
+      "question_text": "If the export price index rises from 100 to 120 and the import price index rises from 100 to 150 over a period, the net barter terms of trade:",
+      "options": {
+        "A": "Fall to 80, indicating a deterioration",
+        "B": "Rise to 125, indicating an improvement",
+        "C": "Fall to 80, indicating an improvement",
+        "D": "Remain at 100"
+      },
+      "correct": "A",
+      "explanation": "Net barter terms of trade = (export price index / import price index) x 100 = 120/150 x 100 = 80. A value below 100 means a unit of exports now buys fewer imports than in the base period, so the terms of trade have deteriorated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c09-q015",
+      "chapter": 9,
+      "topic": "International Trade",
+      "question_text": "Leontief's empirical test of the Heckscher-Ohlin theory found that the United States, a capital-abundant country, exported relatively labour-intensive goods. This finding is known as:",
+      "options": {
+        "A": "The infant industry argument",
+        "B": "The Leontief paradox",
+        "C": "The Stolper-Samuelson theorem",
+        "D": "The Rybczynski theorem"
+      },
+      "correct": "B",
+      "explanation": "Contrary to the Heckscher-Ohlin prediction, Leontief (1953) found US exports were more labour-intensive than its import-competing goods. Explanations offered include the high productivity (skill) of US labour and the role of natural resources.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-be-c10-q001",
+      "chapter": 10,
+      "topic": "Indian Economy",
+      "question_text": "The economic reforms introduced in India in 1991 are popularly summarised as:",
+      "options": {
+        "A": "Nationalisation, Planning and Protection",
+        "B": "Licensing, Reservation and Import Substitution",
+        "C": "Collectivisation, Rationing and Control",
+        "D": "Liberalisation, Privatisation and Globalisation"
+      },
+      "correct": "D",
+      "explanation": "The New Economic Policy of 1991 aimed at liberalising controls, increasing the role of the private sector (privatisation) and integrating the Indian economy with the world economy (globalisation). Licensing and import substitution characterised the pre-1991 regime.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c10-q002",
+      "chapter": 10,
+      "topic": "Indian Economy",
+      "question_text": "The immediate trigger for the economic reforms of 1991 was:",
+      "options": {
+        "A": "A sudden surplus in the government budget",
+        "B": "Excessive inflow of foreign direct investment",
+        "C": "Over-production in the agricultural sector",
+        "D": "A severe balance of payments crisis with very low foreign exchange reserves"
+      },
+      "correct": "D",
+      "explanation": "In 1991 India faced a serious balance of payments crisis: foreign exchange reserves had fallen to a level barely sufficient for a few weeks of imports, fiscal deficits were high and inflation was elevated. This led to stabilisation and structural reform measures.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c10-q003",
+      "chapter": 10,
+      "topic": "Indian Economy",
+      "question_text": "Within the 1991 reform package, which of the following is a 'stabilisation' measure rather than a 'structural reform' measure?",
+      "options": {
+        "A": "Abolishing industrial licensing for most industries",
+        "B": "Opening up sectors to foreign direct investment",
+        "C": "Reforming the financial sector to improve efficiency",
+        "D": "Reducing the fiscal deficit to control inflation and the balance of payments deficit"
+      },
+      "correct": "D",
+      "explanation": "Stabilisation measures are short-term demand-management steps to correct macro imbalances such as high inflation, fiscal deficit and BoP deficit. Structural reforms are longer-term supply-side changes aimed at improving efficiency and competitiveness, such as de-licensing, trade and FDI liberalisation and financial sector reform.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-foundation-be-c10-q004",
+      "chapter": 10,
+      "topic": "Indian Economy",
+      "question_text": "NITI Aayog replaced which of the following bodies?",
+      "options": {
+        "A": "Finance Commission",
+        "B": "National Development Council",
+        "C": "Reserve Bank of India",
+        "D": "Planning Commission"
+      },
+      "correct": "D",
+      "explanation": "NITI Aayog (National Institution for Transforming India) was set up by a resolution of the Union Cabinet in January 2015, replacing the Planning Commission that had existed since 1950. The Finance Commission is a constitutional body that continues to exist.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c10-q005",
+      "chapter": 10,
+      "topic": "Indian Economy",
+      "question_text": "Which of the following best describes the role of NITI Aayog?",
+      "options": {
+        "A": "A policy think tank that promotes cooperative federalism by involving states in policy-making",
+        "B": "A constitutional body that allocates central tax revenues to states",
+        "C": "The body that sets the policy repo rate",
+        "D": "A statutory regulator of the securities market"
+      },
+      "correct": "A",
+      "explanation": "NITI Aayog serves as the government's premier policy think tank, providing strategic and technical advice and fostering cooperative and competitive federalism. Unlike the former Planning Commission it does not allocate funds to states; tax devolution is recommended by the Finance Commission.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c10-q006",
+      "chapter": 10,
+      "topic": "Indian Economy",
+      "question_text": "India's First Five-Year Plan (1951-56) gave the highest priority to:",
+      "options": {
+        "A": "Agriculture, including irrigation and power projects",
+        "B": "Heavy and basic industries",
+        "C": "Export promotion",
+        "D": "Information technology"
+      },
+      "correct": "A",
+      "explanation": "The First Plan, based broadly on the Harrod-Domar model, focused on agriculture, irrigation and power, given food shortages and the effects of Partition. The Second Plan shifted emphasis to heavy industry.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c10-q007",
+      "chapter": 10,
+      "topic": "Indian Economy",
+      "question_text": "The Second Five-Year Plan, which emphasised rapid industrialisation with a focus on heavy and basic industries, was based on the model developed by:",
+      "options": {
+        "A": "Dadabhai Naoroji",
+        "B": "V. K. R. V. Rao",
+        "C": "P. C. Mahalanobis",
+        "D": "M. S. Swaminathan"
+      },
+      "correct": "C",
+      "explanation": "The Second Plan (1956-61) was based on the Mahalanobis model, which stressed investment in capital goods (heavy) industries to achieve long-term growth.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c10-q008",
+      "chapter": 10,
+      "topic": "Indian Economy",
+      "question_text": "The Green Revolution in India, which began in the mid-1960s, was based mainly on:",
+      "options": {
+        "A": "Expansion of milk production through cooperatives",
+        "B": "Land reforms abolishing intermediaries",
+        "C": "Mechanisation of fisheries",
+        "D": "High-yielding variety seeds, chemical fertilisers and assured irrigation"
+      },
+      "correct": "D",
+      "explanation": "The Green Revolution introduced HYV seeds (especially of wheat and later rice), along with fertilisers, pesticides and irrigation, leading to a large increase in foodgrain output. The expansion of dairy cooperatives is associated with the White Revolution (Operation Flood).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c10-q009",
+      "chapter": 10,
+      "topic": "Indian Economy",
+      "question_text": "In 1969, the Government of India nationalised:",
+      "options": {
+        "A": "The Reserve Bank of India",
+        "B": "All insurance companies",
+        "C": "14 major commercial banks",
+        "D": "6 private sector banks only"
+      },
+      "correct": "C",
+      "explanation": "In July 1969, 14 major commercial banks were nationalised to extend banking to rural areas and priority sectors. A further 6 banks were nationalised in 1980. The RBI itself was nationalised in 1949, and life insurance in 1956.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c10-q010",
+      "chapter": 10,
+      "topic": "Indian Economy",
+      "question_text": "Which of the following was a feature of the New Industrial Policy of 1991?",
+      "options": {
+        "A": "Reservation of most industries exclusively for the public sector",
+        "B": "Introduction of the MRTP Act to restrict large business houses",
+        "C": "Prohibition of foreign direct investment",
+        "D": "Abolition of industrial licensing for all but a short list of industries"
+      },
+      "correct": "D",
+      "explanation": "The 1991 Industrial Policy removed licensing requirements for most industries, reduced the number of industries reserved for the public sector, removed MRTP restrictions on asset size and liberalised foreign investment. The MRTP Act dates from 1969.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c10-q011",
+      "chapter": 10,
+      "topic": "Indian Economy",
+      "question_text": "Since the economic reforms, which sector has contributed the largest share of India's GDP?",
+      "options": {
+        "A": "Primary sector",
+        "B": "Tertiary (services) sector",
+        "C": "Secondary sector",
+        "D": "Mining and quarrying"
+      },
+      "correct": "B",
+      "explanation": "India's growth pattern has been services-led: the share of the tertiary sector (trade, transport, communication, finance, IT and other services) in GDP has been the largest throughout the post-reform period and has continued to grow, while agriculture's share has declined steadily.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c10-q012",
+      "chapter": 10,
+      "topic": "Indian Economy",
+      "question_text": "The 'drain theory', which argued that British rule transferred India's wealth to Britain, was propounded by:",
+      "options": {
+        "A": "Mahatma Gandhi",
+        "B": "Jawaharlal Nehru",
+        "C": "Dadabhai Naoroji",
+        "D": "P. C. Mahalanobis"
+      },
+      "correct": "C",
+      "explanation": "Dadabhai Naoroji, in 'Poverty and Un-British Rule in India', argued that a large portion of India's wealth was drained to Britain through home charges, salaries, pensions and profits, without any corresponding return.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c10-q013",
+      "chapter": 10,
+      "topic": "Indian Economy",
+      "question_text": "Which of the following was a consequence of British colonial policy for the Indian economy?",
+      "options": {
+        "A": "Rapid growth of heavy industries across India",
+        "B": "Significant rise in agricultural productivity due to modern techniques",
+        "C": "Decline of traditional handicrafts (de-industrialisation)",
+        "D": "A large and sustained trade deficit for India"
+      },
+      "correct": "C",
+      "explanation": "Cheap machine-made British goods and discriminatory tariffs led to the decline of Indian handicrafts. Agricultural productivity stagnated, heavy industry was very limited, and India typically ran an export surplus that financed the drain.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-foundation-be-c10-q014",
+      "chapter": 10,
+      "topic": "Indian Economy",
+      "question_text": "The Goods and Services Tax (GST), a destination-based indirect tax, was introduced in India with effect from:",
+      "options": {
+        "A": "1 April 1991",
+        "B": "1 January 1995",
+        "C": "1 July 2017",
+        "D": "1 April 2005"
+      },
+      "correct": "C",
+      "explanation": "GST was introduced on 1 July 2017 following the Constitution (One Hundred and First Amendment) Act, 2016, subsuming several central and state indirect taxes. 1 April 2005 marks the introduction of state-level VAT in many states.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-foundation-be-c10-q015",
+      "chapter": 10,
+      "topic": "Indian Economy",
+      "question_text": "The Industrial Policy Resolution of 1956 is significant because it:",
+      "options": {
+        "A": "Classified industries into three schedules and gave the public sector the leading role in key industries",
+        "B": "Abolished industrial licensing altogether",
+        "C": "Opened all industries to foreign investment without limits",
+        "D": "Replaced the Planning Commission with NITI Aayog"
+      },
+      "correct": "A",
+      "explanation": "The 1956 Resolution, in line with the Second Plan's emphasis on heavy industry, divided industries into Schedule A (exclusive responsibility of the State), Schedule B (progressively State-owned, with private participation) and Schedule C (left to the private sector). It shaped India's mixed economy until 1991.",
+      "difficulty": "hard"
+    }
+  ]
+}
