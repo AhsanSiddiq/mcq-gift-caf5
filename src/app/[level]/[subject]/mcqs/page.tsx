@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description,
     keywords: [`${code} MCQs`, `${code} MCQs with answers`, `${s.title} MCQs`, `ICAP ${s.level} MCQs pdf`, `${code} past paper MCQs`],
     alternates: { canonical: url },
-    openGraph: { title, description, url, images: [{ url: "/CAHub.png", width: 1200, height: 630, alt: title }] },
+    openGraph: { title, description, url },
   };
 }
 

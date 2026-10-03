@@ -15,6 +15,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: BASE_URL,                              priority: 1.0,  changeFrequency: "weekly"  as const },
     { url: `${BASE_URL}/practice`,                priority: 0.95, changeFrequency: "weekly"  as const },
     { url: `${BASE_URL}/cv-maker`,                priority: 0.95, changeFrequency: "monthly" as const },
+    { url: `${BASE_URL}/daily`,                   priority: 0.9,  changeFrequency: "daily"   as const },
     { url: `${BASE_URL}/exams`,                   priority: 0.9,  changeFrequency: "weekly"  as const },
     { url: `${BASE_URL}/pro`,                     priority: 0.8,  changeFrequency: "monthly" as const },
     { url: `${BASE_URL}/about`,                   priority: 0.7,  changeFrequency: "monthly" as const },

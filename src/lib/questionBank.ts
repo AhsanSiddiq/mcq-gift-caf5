@@ -1,3 +1,5 @@
+import { unstable_cache } from "next/cache";
+import type { MCQ } from "@/data/mcqs";
 import { supabase } from "@/lib/supabase";
 import { allSubjects, type Subject } from "@/data/subjects";
 
@@ -84,3 +86,45 @@ export async function getChapterQuestions(subjectId: string, chapter: number): P
       .map((o) => ({ key: o.option_key, text: o.option_text, correct: o.is_correct })),
   }));
 }
+
+/* ───────────── Cached full-subject loader (quiz + daily challenge) ───────────── */
+
+
+async function fetchSubjectMCQs(subjectId: string): Promise<MCQ[]> {
+  const out: MCQ[] = [];
+  const pageSize = 1000;
+  for (let page = 0; page < 10; page++) {
+    const { data, error } = await supabase
+      .from("questions")
+      .select("id, chapter, topic, question_text, explanation, options(option_key, option_text, is_correct)")
+      .eq("subject_id", subjectId)
+      .eq("is_active", true)
+      .order("chapter")
+      .order("created_at")
+      .range(page * pageSize, (page + 1) * pageSize - 1);
+    if (error || !data?.length) break;
+    for (const row of data) {
+      const opts = ((row.options ?? []) as { option_key: string; option_text: string; is_correct: boolean }[])
+        .sort((a, b) => a.option_key.localeCompare(b.option_key));
+      const correct = opts.find((o) => o.is_correct);
+      out.push({
+        id: row.id as string,
+        chapter: row.chapter as number,
+        chapterTitle: row.topic as string,
+        question: row.question_text as string,
+        options: opts.map((o) => `${o.option_key}) ${o.option_text}`),
+        correctAnswer: correct ? `${correct.option_key}) ${correct.option_text}` : "",
+        explanation: (row.explanation as string) ?? "",
+      });
+    }
+    if (data.length < pageSize) break;
+  }
+  return out;
+}
+
+/** All active MCQs of a subject, cached for an hour so quizzes don't re-download the bank on every visit. */
+export const getSubjectMCQs = (subjectId: string) =>
+  unstable_cache(() => fetchSubjectMCQs(subjectId), ["subject-mcqs", subjectId], {
+    revalidate: 3600,
+    tags: [`questions:${subjectId}`],
+  })();

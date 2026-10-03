@@ -391,6 +391,14 @@ export default function QuizInterface({ mode, chapter, initialQuestions = [] }: 
           </div>
         </div>
 
+        <a
+          href={`https://wa.me/?text=${encodeURIComponent(`I scored ${pct}% on a ${subjectId.toUpperCase()} ${MODE_LABELS[mode]} at The CA Hub 📚 Free ICAP MCQs: https://thecahub.com/${level}/${subjectId}`)}`}
+          target="_blank" rel="noopener noreferrer"
+          className="mt-5 flex items-center justify-center gap-2 rounded-xl px-5 py-3 font-bold text-white text-sm"
+          style={{ background: "#25D366", textDecoration: "none" }}>
+          Share score on WhatsApp
+        </a>
+
         {!pro && !proLoading && (
           <Link href="/pro" className="mt-5 flex items-center gap-3 rounded-2xl p-4 text-left"
             style={{ background: "rgba(245,166,35,0.07)", border: "1px solid rgba(245,166,35,0.3)", textDecoration: "none" }}>

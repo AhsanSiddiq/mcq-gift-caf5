@@ -15,7 +15,7 @@ const NAV_LINKS = [
   { label: "MCQ Practice", href: "/practice" },
   { label: "Exams",        href: "/exams" },
   { label: "CV Maker",     href: "/cv-maker" },
-  { label: "Blogs",        href: "/#articles" },
+  { label: "Daily 🔥",     href: "/daily" },
   { label: "Pro",          href: "/pro" },
 ];
 

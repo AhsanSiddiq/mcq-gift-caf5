@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description,
     keywords: [`${r.meta.topic} MCQs`, `${code} chapter ${r.meta.chapter} MCQs`, `${code} ${r.meta.topic}`, `${r.meta.topic} MCQs with answers`],
     alternates: { canonical: url },
-    openGraph: { title, description, url, images: [{ url: "/CAHub.png", width: 1200, height: 630, alt: title }] },
+    openGraph: { title, description, url },
   };
 }
 
