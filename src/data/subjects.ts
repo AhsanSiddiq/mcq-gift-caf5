@@ -148,7 +148,7 @@ export const accaSkillsSubjects: Subject[] = [
     level: "ACCA",
     body: "acca",
     description: "Contract, tort, employment, company law and insolvency — objective questions on the English-law variant.",
-    isAvailable: false,
+    isAvailable: true,
   },
   {
     id: "acca-pm",
@@ -157,7 +157,7 @@ export const accaSkillsSubjects: Subject[] = [
     level: "ACCA",
     body: "acca",
     description: "Costing techniques, decision making, budgeting, advanced variances and performance measurement — Section A/B practice.",
-    isAvailable: false,
+    isAvailable: true,
   },
   {
     id: "acca-fr",
@@ -166,7 +166,7 @@ export const accaSkillsSubjects: Subject[] = [
     level: "ACCA",
     body: "acca",
     description: "IFRS in depth: revenue, leases, financial instruments, tax, EPS and group accounts — Section A/B practice.",
-    isAvailable: false,
+    isAvailable: true,
   },
   {
     id: "acca-aa",
@@ -175,7 +175,7 @@ export const accaSkillsSubjects: Subject[] = [
     level: "ACCA",
     body: "acca",
     description: "Planning, risk, internal control, evidence, review and reporting under ISAs — Section A/B practice.",
-    isAvailable: false,
+    isAvailable: true,
   },
   {
     id: "acca-fm",
@@ -184,7 +184,7 @@ export const accaSkillsSubjects: Subject[] = [
     level: "ACCA",
     body: "acca",
     description: "Working capital, investment appraisal, cost of capital, valuations and risk management — Section A/B practice.",
-    isAvailable: false,
+    isAvailable: true,
   },
 ];
 
@@ -196,7 +196,7 @@ export const cimaSubjects: Subject[] = [
     level: "CIMA",
     body: "cima",
     description: "Macro and micro economics, the financial system and business maths — the full BA1 objective test.",
-    isAvailable: false,
+    isAvailable: true,
   },
   {
     id: "cima-ba2",
@@ -205,7 +205,7 @@ export const cimaSubjects: Subject[] = [
     level: "CIMA",
     body: "cima",
     description: "Costing, budgeting, standard costing, CVP and investment appraisal for the BA2 objective test.",
-    isAvailable: false,
+    isAvailable: true,
   },
   {
     id: "cima-ba3",
@@ -214,7 +214,7 @@ export const cimaSubjects: Subject[] = [
     level: "CIMA",
     body: "cima",
     description: "Double entry to single-entity accounts, cash flows and ratios for the BA3 objective test.",
-    isAvailable: false,
+    isAvailable: true,
   },
   {
     id: "cima-ba4",
@@ -223,7 +223,7 @@ export const cimaSubjects: Subject[] = [
     level: "CIMA",
     body: "cima",
     description: "Ethics, governance, contract, employment and company law for the BA4 objective test.",
-    isAvailable: false,
+    isAvailable: true,
   },
 ];
 
@@ -235,7 +235,7 @@ export const icaewSubjects: Subject[] = [
     level: "ICAEW",
     body: "icaew",
     description: "Double entry through to single-company financial statements — Next Generation ACA Certificate Level practice.",
-    isAvailable: false,
+    isAvailable: true,
   },
   {
     id: "icaew-ass",
@@ -244,7 +244,7 @@ export const icaewSubjects: Subject[] = [
     level: "ICAEW",
     body: "icaew",
     description: "Assurance, risk, internal controls, evidence and ethics — Next Generation ACA Certificate Level practice.",
-    isAvailable: false,
+    isAvailable: true,
   },
   {
     id: "icaew-law",

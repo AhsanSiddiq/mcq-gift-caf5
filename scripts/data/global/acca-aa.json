@@ -223,7 +223,7 @@
         "D": "An auditor who is removed loses all rights to attend the general meeting at which the removal is considered"
       },
       "correct": "B",
-      "explanation": "Auditors are normally removed by the shareholders by ordinary resolution, usually with special notice, rather than by the board. To protect independence, the auditor has the right to make written representations to shareholders and to speak at the meeting at which removal is proposed. These rights stop directors quietly replacing an auditor who disagrees with them.",
+      "explanation": "Company law in most jurisdictions gives the power to remove an auditor to the shareholders, by resolution at a general meeting (often with extended notice), rather than to the board. To protect independence, the auditor whose removal is proposed is typically entitled to make written representations to be circulated to shareholders and to be heard at the meeting. A special (75%) majority is not usually required, and these rights exist precisely so that directors cannot quietly replace an auditor who disagrees with them.",
       "difficulty": "medium"
     },
     {
@@ -508,7 +508,7 @@
         "D": "21.2%, self-interest threat"
       },
       "correct": "A",
-      "explanation": "Fee percentage = $1.4m / $8.0m x 100 = 17.5% (to one decimal place). The figure of 21.2% wrongly divides by the firm's other income ($1.4m / $6.6m). Heavy fee dependence creates a self-interest threat because the firm may fear losing the client. For a public interest entity, the ACCA Code uses 15% of total fees as the threshold above which disclosure to those charged with governance and review safeguards are required.",
+      "explanation": "Fee percentage = $1.4m / $8.0m x 100 = 17.5% (to one decimal place). The figure of 21.2% wrongly divides by the firm's other income ($1.4m / $6.6m). Heavy fee dependence creates a self-interest threat because the firm may fear losing the client. For a public interest entity, the Code's threshold is 15% of the firm's total fees: if exceeded for two consecutive years, the firm must disclose this to those charged with governance and arrange a pre-issuance review by a professional accountant outside the firm, and if it continues for five consecutive years the firm should generally cease to be the auditor.",
       "difficulty": "hard"
     },
     {
@@ -518,12 +518,12 @@
       "question_text": "An audit junior on the audit of Lintel Co inherits shares in Lintel Co. What action is required under the ACCA Code?",
       "options": {
         "A": "The junior may keep the shares provided the holding is not material to the junior's wealth",
-        "B": "The junior should dispose of the shares as soon as practicable or be removed from the audit team",
+        "B": "The junior should dispose of the shares immediately",
         "C": "The junior may keep the shares provided this is disclosed in the auditor's report",
         "D": "The firm must resign as auditor of Lintel Co"
       },
       "correct": "B",
-      "explanation": "Members of the audit team must not hold a direct financial interest in an audit client, however immaterial. Where an interest is inherited, it should be disposed of as soon as practicable; until then, or if it is not disposed of, the individual should be removed from the engagement. Resignation by the whole firm is not required.",
+      "explanation": "Members of the audit team must not hold a direct financial interest in an audit client, however immaterial. Where an audit team member receives such an interest by inheritance or gift, the Code requires it to be disposed of immediately; if the junior is unwilling to do so, the junior must be removed from the audit team. Materiality of the holding is irrelevant for a direct interest, disclosure in the auditor's report is not a safeguard, and resignation by the whole firm is not required.",
       "difficulty": "medium"
     },
     {
@@ -553,7 +553,7 @@
         "D": "Five years; cooling-off period of two years"
       },
       "correct": "C",
-      "explanation": "For public interest entities the ACCA Code limits key audit partners to a time-on period of seven cumulative years to address familiarity and self-interest threats. The engagement partner must then serve a cooling-off period of five consecutive years. Shorter cooling-off periods apply to other key audit partners, which is why two years is a common mistake.",
+      "explanation": "For public interest entities the ACCA Code (based on the IESBA Code) limits key audit partners to a time-on period of seven cumulative years to address familiarity and self-interest threats. The engagement partner must then serve a cooling-off period of five consecutive years. Shorter cooling-off periods apply to the engagement quality reviewer (three years) and other key audit partners (two years), which is why two years is a common mistake.",
       "difficulty": "hard"
     },
     {
@@ -1775,7 +1775,7 @@
       "id": "acca-aa-c13-q001",
       "chapter": 13,
       "topic": "Misstatements and the auditor's report",
-      "question_text": "The following uncorrected misstatements have been identified in the draft financial statements of Lissom Co:\n1. Closing inventory overstated by $45,000\n2. Accruals understated by $30,000\n3. Sales recorded before dispatch at the year end of $25,000\n4. Depreciation overstated by $20,000\nWhat is the net effect of these misstatements on reported profit?",
+      "question_text": "The following uncorrected misstatements have been identified in the draft financial statements of Lissom Co:\n1. Closing inventory overstated by $45,000\n2. Accruals understated by $30,000\n3. Revenue of $25,000 recorded for goods dispatched after the year end (the goods were correctly included in closing inventory and no cost of sales was recorded)\n4. Depreciation overstated by $20,000\nWhat is the net effect of these misstatements on reported profit?",
       "options": {
         "A": "Profit overstated by $40,000",
         "B": "Profit overstated by $80,000",
@@ -1783,7 +1783,7 @@
         "D": "Profit overstated by $120,000"
       },
       "correct": "B",
-      "explanation": "Overstated inventory overstates profit by $45,000, understated accruals overstate profit by $30,000 and early sales overstate profit by $25,000, a total of $100,000. Overstated depreciation understates profit by $20,000. Net effect = $100,000 - $20,000 = $80,000 overstatement. Adding all four gives $120,000, ignoring the opposite direction of the depreciation error.",
+      "explanation": "Overstated inventory overstates profit by $45,000 (cost of sales too low), understated accruals overstate profit by $30,000 (expenses too low) and revenue recorded too early overstates profit by $25,000 (as the goods remain in inventory, no cost of sales offsets it), a total of $100,000. Overstated depreciation understates profit by $20,000. Net effect = $45,000 + $30,000 + $25,000 - $20,000 = $80,000 overstatement. Adding all four gives $120,000, ignoring the opposite direction of the depreciation error.",
       "difficulty": "hard"
     },
     {

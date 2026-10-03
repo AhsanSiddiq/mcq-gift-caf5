@@ -620,7 +620,7 @@
       "id": "cima-ba2-c05-q006",
       "chapter": 5,
       "topic": "Job, batch and process costing",
-      "question_text": "Using the same process as before (input 5,000 litres costing $27,000, normal loss 10% sold as scrap at $1.50 per litre, actual output 4,620 litres), what is the NET effect of the abnormal gain on the profit for the period?",
+      "question_text": "Input to a process was 5,000 litres at a total cost of $27,000. Normal loss is 10% of input and is sold as scrap for $1.50 per litre. Actual output transferred to finished goods was 4,620 litres. What is the NET effect of the abnormal gain on the profit for the period?",
       "options": {
         "A": "$520 increase",
         "B": "$700 increase",
@@ -628,7 +628,7 @@
         "D": "$880 increase"
       },
       "correct": "A",
-      "explanation": "The abnormal gain of 120 litres is valued at the process rate of $5.8333 per litre = $700 (credited to the abnormal gain account). However, because 120 litres less were actually lost, scrap income falls by 120 x $1.50 = $180. Net effect on profit = $700 - $180 = $520 increase.",
+      "explanation": "Expected output = 5,000 x 90% = 4,500 litres, so there is an abnormal gain of 4,620 - 4,500 = 120 litres. Cost per litre of expected output = ($27,000 - 500 x $1.50) / 4,500 = $26,250 / 4,500 = $5.8333. The abnormal gain is valued at 120 x $5.8333 = $700 (credited to the abnormal gain account). However, because 120 litres less were actually lost, scrap income falls by 120 x $1.50 = $180. Net effect on profit = $700 - $180 = $520 increase.",
       "difficulty": "hard"
     },
     {
@@ -650,7 +650,7 @@
       "id": "cima-ba2-c05-q008",
       "chapter": 5,
       "topic": "Job, batch and process costing",
-      "question_text": "Using the same process (9,000 units started, 7,400 completed, 1,600 in closing WIP that is 100% complete for materials and 35% complete for conversion), material costs were $72,000 and conversion costs were $55,720. What is the value of the closing work in progress?",
+      "question_text": "A process has no opening work in progress. During the period 9,000 units were started, of which 7,400 were completed. The 1,600 units in closing work in progress were 100% complete as to materials and 35% complete as to conversion costs. Material costs were $72,000 and conversion costs were $55,720. What is the value of the closing work in progress?",
       "options": {
         "A": "$24,000",
         "B": "$16,720",
@@ -658,7 +658,7 @@
         "D": "$12,800"
       },
       "correct": "B",
-      "explanation": "Materials: $72,000 / 9,000 equivalent units = $8.00 per unit. Conversion: $55,720 / 7,960 equivalent units = $7.00 per unit. Closing WIP = (1,600 x $8.00) + (560 x $7.00) = $12,800 + $3,920 = $16,720.",
+      "explanation": "Equivalent units: materials = 7,400 + 1,600 = 9,000; conversion = 7,400 + (1,600 x 35%) = 7,400 + 560 = 7,960. Materials: $72,000 / 9,000 = $8.00 per unit. Conversion: $55,720 / 7,960 = $7.00 per unit. Closing WIP = (1,600 x $8.00) + (560 x $7.00) = $12,800 + $3,920 = $16,720.",
       "difficulty": "hard"
     },
     {
@@ -920,7 +920,7 @@
       "id": "cima-ba2-c07-q003",
       "chapter": 7,
       "topic": "Standard costing and variance analysis",
-      "question_text": "In the same period, 2,000 units were produced. The standard usage is 4 kg per unit at a standard price of $4.80 per kg, and 8,300 kg were used. What is the material usage variance?",
+      "question_text": "A company produced 2,000 units in a period. The standard usage is 4 kg of material per unit at a standard price of $4.80 per kg, and 8,300 kg were actually used. What is the material usage variance?",
       "options": {
         "A": "$1,440 favourable",
         "B": "$1,440 adverse",
@@ -995,15 +995,15 @@
       "id": "cima-ba2-c07-q008",
       "chapter": 7,
       "topic": "Standard costing and variance analysis",
-      "question_text": "A company uses standard absorption costing. Budgeted production was 10,000 units and fixed production overhead is absorbed at $12 per unit. Actual production was 9,400 units. What is the fixed overhead VOLUME variance?",
+      "question_text": "A company uses standard MARGINAL costing. Budgeted fixed production overheads were $120,000, based on budgeted production of 10,000 units. Actual production was 9,400 units and actual fixed production overheads were $118,000. What fixed overhead variance will appear in the statement reconciling budgeted and actual profit?",
       "options": {
-        "A": "$7,200 favourable",
-        "B": "$7,200 adverse",
-        "C": "$112,800 adverse",
-        "D": "$13,700 adverse"
+        "A": "$5,200 adverse",
+        "B": "$2,000 favourable",
+        "C": "$7,200 adverse",
+        "D": "$2,000 adverse"
       },
       "correct": "B",
-      "explanation": "Volume variance = (actual output - budgeted output) x standard fixed overhead per unit = (9,400 - 10,000) x $12 = $7,200. It is adverse because fewer units were produced than budgeted, so fixed overheads are under-absorbed by this amount.",
+      "explanation": "Under marginal costing, fixed overheads are not absorbed into units, so there is no volume variance and the only fixed overhead variance is the expenditure variance: budgeted $120,000 - actual $118,000 = $2,000 favourable, because less was spent than budgeted. $7,200 adverse is the absorption costing volume variance ((9,400 - 10,000) x $12) and $5,200 adverse is the absorption costing total variance ($112,800 absorbed - $118,000 actual); neither arises in a marginal costing reconciliation.",
       "difficulty": "medium"
     },
     {
@@ -1085,15 +1085,15 @@
       "id": "cima-ba2-c07-q014",
       "chapter": 7,
       "topic": "Standard costing and variance analysis",
-      "question_text": "Budgeted fixed production overheads are $300,000 and budgeted labour hours are 20,000, with a standard time of 2 hours per unit. Fixed overheads are absorbed per labour hour. Actual hours worked were 19,200 and actual output was 9,800 units. What is the fixed overhead CAPACITY variance?",
+      "question_text": "Variable production overheads are absorbed at $4 per labour hour worked, and the standard time is 2 labour hours per unit. In a period, employees were paid for 19,800 hours, but 600 of these hours were idle time because of a machine breakdown. Variable overheads are incurred only when labour is working. Actual output was 9,800 units. What is the variable overhead EFFICIENCY variance?",
       "options": {
-        "A": "$6,000 favourable",
-        "B": "$6,000 adverse",
-        "C": "$12,000 adverse",
-        "D": "$12,000 favourable"
+        "A": "$800 adverse",
+        "B": "$1,600 adverse",
+        "C": "$1,600 favourable",
+        "D": "$2,400 favourable"
       },
       "correct": "C",
-      "explanation": "Absorption rate = $300,000 / 20,000 = $15 per hour. Capacity variance = (actual hours worked - budgeted hours) x rate = (19,200 - 20,000) x $15 = $12,000 adverse, because fewer hours were worked than planned. (The efficiency variance is (19,600 standard hours - 19,200) x $15 = $6,000 favourable, and the two together give a volume variance of $6,000 adverse.)",
+      "explanation": "Hours actually worked = 19,800 - 600 = 19,200. Standard hours for actual output = 9,800 x 2 = 19,600. Variable overhead efficiency variance = (19,600 - 19,200) x $4 = $1,600 favourable, because the output took fewer hours than standard. Using hours paid (19,800) would wrongly give $800 adverse; idle hours carry no variable overhead, so they are excluded.",
       "difficulty": "hard"
     },
     {
@@ -1325,7 +1325,7 @@
       "id": "cima-ba2-c09-q007",
       "chapter": 9,
       "topic": "Risk and uncertainty in decision making",
-      "question_text": "Using the same demand distribution (mean 500 units, standard deviation 40 units), what is the probability that demand in a week will be between 440 and 580 units? (Areas between the mean and z: z = 1.5 is 0.4332; z = 2.0 is 0.4772.)",
+      "question_text": "The weekly demand for a product is normally distributed with a mean of 500 units and a standard deviation of 40 units. What is the probability that demand in a week will be between 440 and 580 units? (Areas between the mean and z: z = 1.5 is 0.4332; z = 2.0 is 0.4772.)",
       "options": {
         "A": "0.0440",
         "B": "0.0896",
@@ -1415,7 +1415,7 @@
       "id": "cima-ba2-c10-q002",
       "chapter": 10,
       "topic": "Cost-volume-profit analysis",
-      "question_text": "Using the same product (selling price $24, variable cost $15 per unit), fixed costs are $270,000 per period. What is the breakeven point in units?",
+      "question_text": "A product has a selling price of $24 per unit and variable costs of $15 per unit. Fixed costs are $270,000 per period. What is the breakeven point in units?",
       "options": {
         "A": "11,250 units",
         "B": "18,000 units",
@@ -1430,7 +1430,7 @@
       "id": "cima-ba2-c10-q003",
       "chapter": 10,
       "topic": "Cost-volume-profit analysis",
-      "question_text": "For the same product, with fixed costs of $270,000 and a C/S ratio of 37.5%, what is the breakeven point in sales REVENUE?",
+      "question_text": "A product sells for $24 per unit and has a contribution to sales (C/S) ratio of 37.5%. Fixed costs are $270,000 per period. What is the breakeven point in sales REVENUE?",
       "options": {
         "A": "$720,000",
         "B": "$101,250",
@@ -1685,7 +1685,7 @@
       "id": "cima-ba2-c11-q008",
       "chapter": 11,
       "topic": "Relevant costs and limiting factor decisions",
-      "question_text": "Using the products above (A: $30 contribution, 2 hours; B: $42 contribution, 4 hours; C: $25 contribution, 1.25 hours), only 10,000 machine hours are available. Maximum demand is A 2,000 units, B 1,500 units and C 4,000 units. What is the maximum total contribution achievable?",
+      "question_text": "Machine hours are in short supply, with only 10,000 machine hours available. Details of three products are:\nProduct A: contribution $30 per unit, 2 machine hours per unit, maximum demand 2,000 units\nProduct B: contribution $42 per unit, 4 machine hours per unit, maximum demand 1,500 units\nProduct C: contribution $25 per unit, 1.25 machine hours per unit, maximum demand 4,000 units\nWhat is the maximum total contribution achievable?",
       "options": {
         "A": "$170,500",
         "B": "$123,000",
@@ -1693,7 +1693,7 @@
         "D": "$160,000"
       },
       "correct": "A",
-      "explanation": "Make C first: 4,000 units x 1.25 hours = 5,000 hours, contribution $100,000. Then A: 2,000 units x 2 hours = 4,000 hours, contribution $60,000. The remaining 1,000 hours make 1,000 / 4 = 250 units of B, contribution $10,500. Maximum contribution = $100,000 + $60,000 + $10,500 = $170,500.",
+      "explanation": "Rank by contribution per machine hour: C $25 / 1.25 = $20.00; A $30 / 2 = $15.00; B $42 / 4 = $10.50. Make C first: 4,000 units x 1.25 hours = 5,000 hours, contribution $100,000. Then A: 2,000 units x 2 hours = 4,000 hours, contribution $60,000. The remaining 1,000 hours make 1,000 / 4 = 250 units of B, contribution $10,500. Maximum contribution = $100,000 + $60,000 + $10,500 = $170,500.",
       "difficulty": "hard"
     },
     {
@@ -1805,7 +1805,7 @@
       "id": "cima-ba2-c12-q004",
       "chapter": 12,
       "topic": "Investment appraisal",
-      "question_text": "For the project costing $120,000 with inflows of $40,000 a year for 4 years, the NPV is $6,800 at 10%. At 15% the 4-year annuity factor is 2.855. Using linear interpolation, what is the internal rate of return, to one decimal place?",
+      "question_text": "A project costs $120,000 now and will generate cash inflows of $40,000 a year for 4 years, starting in one year's time. At a 10% discount rate the 4-year annuity factor is 3.170, giving an NPV of $6,800. At 15% the 4-year annuity factor is 2.855. Using linear interpolation, what is the internal rate of return, to one decimal place?",
       "options": {
         "A": "12.3%",
         "B": "12.7%",

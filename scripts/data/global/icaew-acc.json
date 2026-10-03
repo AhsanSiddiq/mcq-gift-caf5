@@ -1,0 +1,1955 @@
+{
+  "subject_id": "icaew-acc",
+  "questions": [
+    {
+      "id": "icaew-acc-c01-q001",
+      "chapter": 1,
+      "topic": "Accounting concepts, the Conceptual Framework and regulation",
+      "question_text": "Under the IFRS Conceptual Framework for Financial Reporting, which TWO qualitative characteristics are described as fundamental?",
+      "options": {
+        "A": "Relevance and timeliness",
+        "B": "Faithful representation and verifiability",
+        "C": "Comparability and understandability",
+        "D": "Relevance and faithful representation"
+      },
+      "correct": "D",
+      "explanation": "The Conceptual Framework identifies relevance and faithful representation as the fundamental qualitative characteristics of useful financial information. Comparability, verifiability, timeliness and understandability are enhancing characteristics that improve the usefulness of information that is already relevant and faithfully represented.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-acc-c01-q002",
+      "chapter": 1,
+      "topic": "Accounting concepts, the Conceptual Framework and regulation",
+      "question_text": "Which of the following is an enhancing qualitative characteristic of useful financial information under the IFRS Conceptual Framework?",
+      "options": {
+        "A": "Comparability",
+        "B": "Relevance",
+        "C": "Faithful representation",
+        "D": "Going concern"
+      },
+      "correct": "A",
+      "explanation": "Comparability is one of the four enhancing qualitative characteristics, along with verifiability, timeliness and understandability. Relevance and faithful representation are the fundamental characteristics, while going concern is the underlying assumption on which financial statements are normally prepared.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-acc-c01-q003",
+      "chapter": 1,
+      "topic": "Accounting concepts, the Conceptual Framework and regulation",
+      "question_text": "How does the IFRS Conceptual Framework define an asset?",
+      "options": {
+        "A": "A resource from which future economic benefits are certain to flow to the entity",
+        "B": "A present economic resource controlled by the entity as a result of past events",
+        "C": "Any item owned by the entity that has a measurable cost",
+        "D": "A present obligation of the entity to transfer an economic resource as a result of past events"
+      },
+      "correct": "B",
+      "explanation": "The Conceptual Framework defines an asset as a present economic resource controlled by the entity as a result of past events, and an economic resource is a right that has the potential to produce economic benefits. Benefits do not need to be certain, and legal ownership is not required because the test is control. The last definition is the definition of a liability.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-acc-c01-q004",
+      "chapter": 1,
+      "topic": "Accounting concepts, the Conceptual Framework and regulation",
+      "question_text": "A trader has decided to close the business and sell off all of its assets within the next few months. On what basis should its financial statements now be prepared?",
+      "options": {
+        "A": "The cash basis, recognising only cash received and paid",
+        "B": "The break-up basis, with assets stated at the amounts expected to be realised",
+        "C": "The going concern basis, because the business is still trading at the reporting date",
+        "D": "The accrual basis, with assets stated at historical cost less depreciation"
+      },
+      "correct": "B",
+      "explanation": "Financial statements are normally prepared on the assumption that the entity is a going concern. Where the entity intends to cease trading, that assumption no longer holds, so the break-up basis is used. Assets are then measured at the amounts they are expected to realise on sale, and any extra liabilities caused by closure are recognised.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c01-q005",
+      "chapter": 1,
+      "topic": "Accounting concepts, the Conceptual Framework and regulation",
+      "question_text": "Which of the following best describes the accrual basis of accounting?",
+      "options": {
+        "A": "Assets are recorded at their current market values at each reporting date",
+        "B": "The effects of transactions are recorded in the periods in which they occur, even if the cash is received or paid in a different period",
+        "C": "Expenses are recorded when they are approved for payment, and income when it is invoiced",
+        "D": "Income and expenses are recorded only when cash is received or paid"
+      },
+      "correct": "B",
+      "explanation": "Under the accrual basis, the effects of transactions and other events are recognised when they occur rather than when the related cash moves. Recording income and expenses only when cash changes hands is the cash basis. Measuring assets at market value is about measurement, not the accrual basis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-acc-c01-q006",
+      "chapter": 1,
+      "topic": "Accounting concepts, the Conceptual Framework and regulation",
+      "question_text": "According to the IFRS Conceptual Framework, when is information material?",
+      "options": {
+        "A": "When the auditors have identified it as an error",
+        "B": "When omitting, misstating or obscuring it could reasonably be expected to influence the decisions that primary users make on the basis of the financial statements",
+        "C": "When it is more than 5% of profit before tax",
+        "D": "When it relates to a transaction recorded in the general ledger"
+      },
+      "correct": "B",
+      "explanation": "Materiality is an entity-specific aspect of relevance, based on the nature or size (or both) of the items the information relates to. The test is whether omitting, misstating or obscuring the information could reasonably be expected to influence the decisions of primary users. Percentage rules of thumb may help in practice but are not the definition.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c01-q007",
+      "chapter": 1,
+      "topic": "Accounting concepts, the Conceptual Framework and regulation",
+      "question_text": "Which body is responsible for developing and issuing IFRS Accounting Standards?",
+      "options": {
+        "A": "The IFRS Advisory Council",
+        "B": "The IFRS Foundation Trustees",
+        "C": "The International Accounting Standards Board (IASB)",
+        "D": "The IFRS Interpretations Committee"
+      },
+      "correct": "C",
+      "explanation": "The IASB is the independent standard-setting body that develops and issues IFRS Accounting Standards. The IFRS Foundation Trustees oversee the organisation, appoint board members and secure funding. The IFRS Interpretations Committee issues interpretations of existing standards, and the IFRS Advisory Council gives strategic advice.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-acc-c01-q008",
+      "chapter": 1,
+      "topic": "Accounting concepts, the Conceptual Framework and regulation",
+      "question_text": "In which circumstances does IAS 1 Presentation of Financial Statements allow an entity to depart from a requirement of an IFRS?",
+      "options": {
+        "A": "Whenever the entity's auditors agree that the requirement is not appropriate",
+        "B": "Whenever the effect of compliance would reduce reported profit by a material amount",
+        "C": "In extremely rare circumstances where management concludes that compliance would be so misleading that it would conflict with the objective of financial statements",
+        "D": "Whenever the directors believe that an alternative treatment is more prudent"
+      },
+      "correct": "C",
+      "explanation": "IAS 1 requires fair presentation, which is normally achieved by complying with IFRS. A departure is allowed only in extremely rare circumstances when compliance would be so misleading that it would conflict with the objective of financial statements set out in the Conceptual Framework. The entity must disclose the departure, the reasons for it and its financial effect. This is the IFRS equivalent of the 'true and fair override' found in UK company law.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-acc-c01-q009",
+      "chapter": 1,
+      "topic": "Accounting concepts, the Conceptual Framework and regulation",
+      "question_text": "A business buys inventory on credit for £7,500. What is the effect of this transaction on the accounting equation?",
+      "options": {
+        "A": "Assets increase by £7,500 and liabilities increase by £7,500; equity is unchanged",
+        "B": "Liabilities increase by £7,500 and equity decreases by £7,500",
+        "C": "Assets increase by £7,500 and liabilities decrease by £7,500",
+        "D": "Assets increase by £7,500 and equity increases by £7,500"
+      },
+      "correct": "A",
+      "explanation": "Inventory is an asset, so assets rise by £7,500. Because the goods have not been paid for, a trade payable (a liability) of the same amount arises. No income or expense has yet been recognised, so equity is unaffected and the equation assets = equity + liabilities still balances.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-acc-c01-q010",
+      "chapter": 1,
+      "topic": "Accounting concepts, the Conceptual Framework and regulation",
+      "question_text": "In its first year of trading, a business made credit sales of £84,000 and received £76,500 from customers. It paid expenses of £41,000, of which £2,500 relates to the following year. At the year end, expenses of £1,800 for the current year were unpaid.\n\nWhat is the profit for the year on the accrual basis?",
+      "options": {
+        "A": "£45,500",
+        "B": "£43,700",
+        "C": "£41,200",
+        "D": "£35,500"
+      },
+      "correct": "B",
+      "explanation": "On the accrual basis, revenue is the sales made in the year, £84,000, regardless of cash received. Expenses = £41,000 paid - £2,500 prepaid + £1,800 accrued = £40,300. Profit = £84,000 - £40,300 = £43,700. The cash surplus of £35,500 (£76,500 - £41,000) would be the result under the cash basis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c01-q011",
+      "chapter": 1,
+      "topic": "Accounting concepts, the Conceptual Framework and regulation",
+      "question_text": "Under the IFRS Conceptual Framework, which of the following is NOT one of the characteristics that a perfectly faithful representation of a phenomenon would have?",
+      "options": {
+        "A": "Complete",
+        "B": "Neutral",
+        "C": "Timely",
+        "D": "Free from error"
+      },
+      "correct": "C",
+      "explanation": "To be a perfectly faithful representation, a depiction would be complete, neutral and free from error. Timeliness is an enhancing qualitative characteristic: it means having information available to decision-makers in time to influence their decisions, and it is not one of the components of faithful representation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c02-q001",
+      "chapter": 2,
+      "topic": "Ethics and sustainability in financial reporting",
+      "question_text": "Which of the following is NOT one of the fundamental principles in the IESBA Code of Ethics for Professional Accountants?",
+      "options": {
+        "A": "Independence",
+        "B": "Objectivity",
+        "C": "Professional behaviour",
+        "D": "Integrity"
+      },
+      "correct": "A",
+      "explanation": "The five fundamental principles are integrity, objectivity, professional competence and due care, confidentiality, and professional behaviour. Independence is a separate requirement that applies to accountants carrying out audit and assurance work; it is not one of the five fundamental principles.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-acc-c02-q002",
+      "chapter": 2,
+      "topic": "Ethics and sustainability in financial reporting",
+      "question_text": "Priya, a newly qualified accountant, is told by the finance director that she will 'not be kept on' unless she leaves a large repair invoice out of this year's accounts so that the profit target is met. Which threat to compliance with the fundamental principles does Priya face?",
+      "options": {
+        "A": "Intimidation threat",
+        "B": "Self-review threat",
+        "C": "Familiarity threat",
+        "D": "Advocacy threat"
+      },
+      "correct": "A",
+      "explanation": "An intimidation threat arises when an accountant is deterred from acting objectively by actual or perceived pressures, including threats of dismissal. The finance director's pressure threatens Priya's integrity and objectivity. A self-review threat concerns evaluating one's own earlier work, familiarity arises from long or close relationships, and advocacy arises from promoting a client's position.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c02-q003",
+      "chapter": 2,
+      "topic": "Ethics and sustainability in financial reporting",
+      "question_text": "Under the fundamental principle of confidentiality, in which of the following situations may a professional accountant disclose confidential information about an employer without the employer's permission?",
+      "options": {
+        "A": "When the information would help the accountant obtain a better-paid position elsewhere",
+        "B": "When disclosure is required by law, for example a report of suspected money laundering",
+        "C": "When the information is more than one year old",
+        "D": "When a former colleague asks for the information to help with a job application"
+      },
+      "correct": "B",
+      "explanation": "Confidential information may be disclosed without consent where disclosure is required by law, such as reporting suspected money laundering to the appropriate authority, or where there is a professional duty or right to disclose. Using confidential information for personal advantage or for the benefit of third parties is a breach of the principle, and the passage of time does not remove the duty of confidentiality.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c02-q004",
+      "chapter": 2,
+      "topic": "Ethics and sustainability in financial reporting",
+      "question_text": "What is the main advantage of a principles-based code of ethics compared with a rules-based code?",
+      "options": {
+        "A": "It means that any action not specifically prohibited is acceptable",
+        "B": "It provides a complete list of prohibited actions that can be checked mechanically",
+        "C": "It removes the need for professional judgement by the accountant",
+        "D": "It can be applied to new and unusual situations that a list of specific rules would not anticipate"
+      },
+      "correct": "D",
+      "explanation": "A principles-based code sets out fundamental principles and a conceptual framework for identifying, evaluating and addressing threats. Because it relies on professional judgement, it can be applied to situations that rules could not foresee. Rules-based codes tend to encourage a 'box-ticking' approach in which anything not expressly prohibited is treated as allowed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c02-q005",
+      "chapter": 2,
+      "topic": "Ethics and sustainability in financial reporting",
+      "question_text": "What is the main aim of the International Sustainability Standards Board (ISSB)?",
+      "options": {
+        "A": "To audit the sustainability reports published by listed companies",
+        "B": "To replace the IASB as the setter of IFRS Accounting Standards",
+        "C": "To set the rates of environmental taxes charged by national governments",
+        "D": "To develop IFRS Sustainability Disclosure Standards that provide a global baseline of sustainability-related information for investors and other capital market participants"
+      },
+      "correct": "D",
+      "explanation": "The ISSB was established by the IFRS Foundation to develop IFRS Sustainability Disclosure Standards. These are intended to provide a comprehensive global baseline of sustainability-related disclosures that meet the information needs of investors and capital markets. The ISSB sits alongside the IASB; it does not replace it, set taxes or audit reports.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-acc-c02-q006",
+      "chapter": 2,
+      "topic": "Ethics and sustainability in financial reporting",
+      "question_text": "Which IFRS Sustainability Disclosure Standard sets out the specific requirements for disclosures about climate-related risks and opportunities?",
+      "options": {
+        "A": "IAS 1",
+        "B": "IFRS 15",
+        "C": "IFRS S2",
+        "D": "IFRS S1"
+      },
+      "correct": "C",
+      "explanation": "IFRS S2 Climate-related Disclosures requires disclosure of information about climate-related risks and opportunities. IFRS S1 sets out the general requirements for disclosure of sustainability-related financial information. IAS 1 deals with presentation of financial statements and IFRS 15 with revenue.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-acc-c02-q007",
+      "chapter": 2,
+      "topic": "Ethics and sustainability in financial reporting",
+      "question_text": "Under IFRS S1, an entity should disclose information about which sustainability-related risks and opportunities?",
+      "options": {
+        "A": "Only those that have already caused a loss recognised in the statement of profit or loss",
+        "B": "All environmental matters, regardless of their effect on the entity",
+        "C": "Only those that the entity's local regulator has specifically listed",
+        "D": "Those that could reasonably be expected to affect the entity's cash flows, access to finance or cost of capital over the short, medium or long term"
+      },
+      "correct": "D",
+      "explanation": "IFRS S1 is aimed at the primary users of general purpose financial reports. It requires disclosure of sustainability-related risks and opportunities that could reasonably be expected to affect the entity's prospects, meaning its cash flows, access to finance or cost of capital over the short, medium or long term. The focus is on information that is useful to investors and lenders, not on every environmental matter.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c03-q001",
+      "chapter": 3,
+      "topic": "Double entry, books of prime entry and the trial balance",
+      "question_text": "A business accepts goods back from a credit customer because they were faulty. Which source document will the business issue to the customer?",
+      "options": {
+        "A": "A credit note",
+        "B": "A goods received note",
+        "C": "A sales invoice",
+        "D": "A remittance advice"
+      },
+      "correct": "A",
+      "explanation": "A credit note is issued to a customer to reduce the amount the customer owes, for example when goods are returned. Credit notes issued are recorded in the sales returns day book. A remittance advice accompanies a payment, and a goods received note is an internal record of goods coming in from suppliers.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-acc-c03-q002",
+      "chapter": 3,
+      "topic": "Double entry, books of prime entry and the trial balance",
+      "question_text": "In which book of prime entry are invoices received from suppliers for goods bought on credit first recorded?",
+      "options": {
+        "A": "The purchases day book",
+        "B": "The sales day book",
+        "C": "The journal",
+        "D": "The cash book"
+      },
+      "correct": "A",
+      "explanation": "Invoices received for credit purchases are listed in the purchases day book, and its totals are then posted to the general ledger. The sales day book records invoices issued to customers, the cash book records cash and bank receipts and payments, and the journal is used for non-routine entries such as corrections and year-end adjustments.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-acc-c03-q003",
+      "chapter": 3,
+      "topic": "Double entry, books of prime entry and the trial balance",
+      "question_text": "A business sells goods on credit to a customer for £1,800. The business is not registered for sales tax. What is the double entry to record the sale?",
+      "options": {
+        "A": "Debit Trade receivables £1,800, Credit Revenue £1,800",
+        "B": "Debit Revenue £1,800, Credit Trade receivables £1,800",
+        "C": "Debit Cash £1,800, Credit Revenue £1,800",
+        "D": "Debit Trade receivables £1,800, Credit Inventory £1,800"
+      },
+      "correct": "A",
+      "explanation": "A credit sale creates an asset, the amount owed by the customer, so trade receivables are debited. Income is recorded by crediting revenue. Cash is only affected when the customer pays, at which point cash is debited and trade receivables credited.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-acc-c03-q004",
+      "chapter": 3,
+      "topic": "Double entry, books of prime entry and the trial balance",
+      "question_text": "A sole trader takes goods that cost the business £640 for personal use. What is the double entry to record this?",
+      "options": {
+        "A": "Debit Capital £640, Credit Cash £640",
+        "B": "Debit Drawings £640, Credit Revenue £640",
+        "C": "Debit Purchases £640, Credit Drawings £640",
+        "D": "Debit Drawings £640, Credit Purchases £640"
+      },
+      "correct": "D",
+      "explanation": "Goods taken by the owner are drawings, so the drawings account is debited. The goods were never sold, so revenue is not credited; instead purchases are credited at cost to remove the goods from the cost of goods available for sale. No cash has moved.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c03-q005",
+      "chapter": 3,
+      "topic": "Double entry, books of prime entry and the trial balance",
+      "question_text": "A business's bank account in the general ledger had a debit balance of £2,350 at the start of the month. During the month, receipts of £14,780 and payments of £17,320 were recorded.\n\nWhat is the balance on the account at the end of the month?",
+      "options": {
+        "A": "£2,540 credit (overdrawn)",
+        "B": "£190 credit (overdrawn)",
+        "C": "£190 debit",
+        "D": "£4,890 credit (overdrawn)"
+      },
+      "correct": "B",
+      "explanation": "Balance = opening debit £2,350 + receipts £14,780 - payments £17,320 = £17,130 - £17,320 = -£190. Payments exceed the opening balance plus receipts, so the account has a credit balance of £190, meaning the business is overdrawn. A credit balance on a bank account in the business's own ledger is a liability.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c03-q006",
+      "chapter": 3,
+      "topic": "Double entry, books of prime entry and the trial balance",
+      "question_text": "The following balances have been extracted from the ledger of a sole trader at the year end:\nNon-current assets £48,000\nInventory £6,200\nTrade receivables £9,400\nBank overdraft £1,700\nTrade payables £7,300\nRevenue £96,500\nPurchases £58,100\nExpenses £21,900\nDrawings £12,000\nLoan £10,000\nCapital ?\n\nAssuming the trial balance balances, what is the balance on the capital account?",
+      "options": {
+        "A": "£43,500",
+        "B": "£16,100",
+        "C": "£40,100",
+        "D": "£50,100"
+      },
+      "correct": "C",
+      "explanation": "Debit balances are assets, expenses, purchases and drawings: £48,000 + £6,200 + £9,400 + £58,100 + £21,900 + £12,000 = £155,600. Credit balances are the overdraft, payables, revenue and loan: £1,700 + £7,300 + £96,500 + £10,000 = £115,500. Capital is a credit balance, so capital = £155,600 - £115,500 = £40,100. Treating drawings as a credit gives £16,100 and treating the overdraft as a debit gives £43,500.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-acc-c03-q007",
+      "chapter": 3,
+      "topic": "Double entry, books of prime entry and the trial balance",
+      "question_text": "Which of the following errors would cause the totals of a trial balance to disagree?",
+      "options": {
+        "A": "A credit sale was debited to the customer's receivables account but nothing was credited to revenue",
+        "B": "A repair to a machine was debited to the machinery cost account",
+        "C": "A payment to a supplier was debited to the bank account and credited to trade payables",
+        "D": "A purchase invoice was omitted from the books completely"
+      },
+      "correct": "A",
+      "explanation": "A single-sided entry records a debit with no matching credit, so the trial balance totals will differ. The other three errors all have equal debits and credits: an error of principle, an error of omission and a reversal of entries. These do not affect the agreement of the trial balance, although they still need correcting.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-acc-c03-q008",
+      "chapter": 3,
+      "topic": "Double entry, books of prime entry and the trial balance",
+      "question_text": "A business operates an imprest petty cash system with a float of £300. During the month, petty cash vouchers totalling £241.60 were paid out, and £15 was received from staff for private photocopying and put into the petty cash tin.\n\nHow much cash must be drawn from the bank at the end of the month to restore the imprest?",
+      "options": {
+        "A": "£241.60",
+        "B": "£256.60",
+        "C": "£226.60",
+        "D": "£58.40"
+      },
+      "correct": "C",
+      "explanation": "Cash in the tin at the month end = £300 - £241.60 + £15 = £73.40. To restore the float to £300, the amount required is £300 - £73.40 = £226.60. This equals the vouchers of £241.60 less the £15 received.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c03-q009",
+      "chapter": 3,
+      "topic": "Double entry, books of prime entry and the trial balance",
+      "question_text": "A sole trader's net assets were £62,000 at the start of the year and £71,500 at the end. During the year the owner introduced additional capital of £5,000 and took drawings of £18,300.\n\nWhat was the profit for the year?",
+      "options": {
+        "A": "£22,800",
+        "B": "£9,500",
+        "C": "£4,500",
+        "D": "£32,800"
+      },
+      "correct": "A",
+      "explanation": "Closing net assets = opening net assets + capital introduced + profit - drawings. So profit = £71,500 - £62,000 - £5,000 + £18,300 = £22,800. The increase in net assets of £9,500 must be reduced by capital introduced, which is not profit, and increased by drawings, which reduced net assets but are not an expense.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c03-q010",
+      "chapter": 3,
+      "topic": "Double entry, books of prime entry and the trial balance",
+      "question_text": "For which of the following would the journal normally be used as the book of prime entry?",
+      "options": {
+        "A": "Recording year-end depreciation and the correction of errors",
+        "B": "Recording invoices received from credit suppliers",
+        "C": "Recording cash received from customers",
+        "D": "Recording invoices issued to credit customers"
+      },
+      "correct": "A",
+      "explanation": "The journal records non-routine transactions that do not belong in any other book of prime entry, such as year-end adjustments, depreciation, correction of errors and opening entries. Routine transactions go through the cash book, the sales day book and the purchases day book respectively.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-acc-c03-q011",
+      "chapter": 3,
+      "topic": "Double entry, books of prime entry and the trial balance",
+      "question_text": "Which source document is used to write up the purchase returns day book?",
+      "options": {
+        "A": "Credit notes issued to customers",
+        "B": "Invoices received from suppliers",
+        "C": "Credit notes received from suppliers",
+        "D": "Remittance advices sent to suppliers"
+      },
+      "correct": "C",
+      "explanation": "The purchase returns day book lists goods returned to suppliers, and its source documents are the credit notes that suppliers send to confirm the reduction in the amount owed. Credit notes issued to customers are recorded in the sales returns day book, and suppliers' invoices in the purchases day book.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-acc-c04-q001",
+      "chapter": 4,
+      "topic": "Sales tax (VAT)",
+      "question_text": "A business registered for VAT sells goods on credit for £2,400 plus VAT at 20%. What is the double entry to record the sale?",
+      "options": {
+        "A": "Debit Trade receivables £2,880, Credit Revenue £2,400, Credit VAT £480",
+        "B": "Debit Trade receivables £2,400, Credit Revenue £2,400",
+        "C": "Debit Trade receivables £2,880, Debit VAT £480, Credit Revenue £3,360",
+        "D": "Debit Trade receivables £2,880, Credit Revenue £2,880"
+      },
+      "correct": "A",
+      "explanation": "VAT = 20% x £2,400 = £480, so the customer owes £2,880. Revenue is recorded net of VAT at £2,400, because the VAT is collected on behalf of the tax authority. The £480 is credited to the VAT account as a liability (output tax).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-acc-c04-q002",
+      "chapter": 4,
+      "topic": "Sales tax (VAT)",
+      "question_text": "A VAT-registered business receives an invoice for £5,436, including VAT at 20%. How much of this amount is VAT?",
+      "options": {
+        "A": "£755",
+        "B": "£4,530",
+        "C": "£906",
+        "D": "£1,087.20"
+      },
+      "correct": "C",
+      "explanation": "When VAT is 20%, the gross amount is 120% of the net amount, so VAT = gross x 20/120 = gross x 1/6. VAT = £5,436 / 6 = £906 and the net amount is £4,530. Taking 20% of the gross figure (£1,087.20) is a common error because it applies the rate to an amount that already includes VAT.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-acc-c04-q003",
+      "chapter": 4,
+      "topic": "Sales tax (VAT)",
+      "question_text": "At the start of a quarter, a business owed £9,800 to the tax authority for VAT, which it paid during the quarter. In the quarter, output VAT on sales was £38,600 and input VAT on purchases was £21,450.\n\nWhat is the balance on the VAT account at the end of the quarter?",
+      "options": {
+        "A": "£17,150 debit (receivable from the tax authority)",
+        "B": "£7,350 credit (payable to the tax authority)",
+        "C": "£17,150 credit (payable to the tax authority)",
+        "D": "£26,950 credit (payable to the tax authority)"
+      },
+      "correct": "C",
+      "explanation": "Opening liability £9,800 (credit) - payment £9,800 (debit) + output VAT £38,600 (credit) - input VAT £21,450 (debit) = £17,150. Output VAT exceeds input VAT, so the balance is a credit, a liability owed to the tax authority. Forgetting the payment would give £26,950.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c04-q004",
+      "chapter": 4,
+      "topic": "Sales tax (VAT)",
+      "question_text": "A VAT-registered business buys a machine for £18,000 plus VAT of £3,600. It also pays delivery of £500 plus VAT of £100. All the VAT is recoverable.\n\nAt what amount should the machine be recorded as property, plant and equipment?",
+      "options": {
+        "A": "£18,500",
+        "B": "£18,000",
+        "C": "£22,200",
+        "D": "£21,600"
+      },
+      "correct": "A",
+      "explanation": "Recoverable VAT is not part of the cost of an asset because the business reclaims it from the tax authority; it is debited to the VAT account instead. IAS 16 includes delivery costs that are directly attributable to bringing the asset into use. Cost = £18,000 + £500 = £18,500.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c04-q005",
+      "chapter": 4,
+      "topic": "Sales tax (VAT)",
+      "question_text": "A business that is NOT registered for VAT buys inventory for £1,200 plus VAT of £240. At what amount should the purchase be recorded?",
+      "options": {
+        "A": "£1,200, with £240 debited to a VAT account",
+        "B": "£1,440, because the VAT cannot be recovered and is part of the cost",
+        "C": "£960, because VAT is deducted from the invoice price",
+        "D": "£1,200, with £240 charged to sundry expenses"
+      },
+      "correct": "B",
+      "explanation": "A business that is not VAT-registered cannot reclaim input VAT. The VAT is therefore a real cost and is included in the cost of the purchase: £1,200 + £240 = £1,440. Only registered businesses record a separate VAT account for recoverable input tax.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-acc-c04-q006",
+      "chapter": 4,
+      "topic": "Sales tax (VAT)",
+      "question_text": "The sales day book for the month shows total net sales of £37,100, VAT of £7,420 and gross total of £44,520. What entry is made in the VAT account when the day book is posted?",
+      "options": {
+        "A": "Debit £7,420",
+        "B": "Debit £44,520",
+        "C": "Credit £7,420",
+        "D": "Credit £44,520"
+      },
+      "correct": "C",
+      "explanation": "The day book totals are posted as: debit trade receivables control £44,520, credit revenue £37,100, and credit VAT £7,420. Output VAT on sales is owed to the tax authority, so it is a credit (liability) entry in the VAT account.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c04-q007",
+      "chapter": 4,
+      "topic": "Sales tax (VAT)",
+      "question_text": "A VAT-registered business returns faulty goods to a credit supplier. The supplier's credit note is for £960, including VAT at 20%. What is the double entry to record the return?",
+      "options": {
+        "A": "Debit Trade payables £960, Credit Purchase returns £800, Credit VAT £160",
+        "B": "Debit Purchase returns £800, Debit VAT £160, Credit Trade payables £960",
+        "C": "Debit Trade payables £960, Credit Purchase returns £960",
+        "D": "Debit Trade payables £960, Credit Purchase returns £768, Credit VAT £192"
+      },
+      "correct": "A",
+      "explanation": "VAT = £960 x 1/6 = £160, so the net amount is £800. The amount owed to the supplier falls by the full £960, so trade payables are debited. Purchase returns are credited with the net amount, and the input VAT originally claimed is reversed by crediting the VAT account with £160.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c04-q008",
+      "chapter": 4,
+      "topic": "Sales tax (VAT)",
+      "question_text": "In a VAT quarter, a business made sales of £126,000 excluding VAT. Of these, £18,000 were zero-rated and the remainder were standard-rated at 20%. It made purchases, all standard-rated, of £66,000 including VAT.\n\nHow much VAT is payable to the tax authority for the quarter?",
+      "options": {
+        "A": "£8,400",
+        "B": "£12,000",
+        "C": "£10,600",
+        "D": "£14,200"
+      },
+      "correct": "C",
+      "explanation": "Output VAT = (£126,000 - £18,000) x 20% = £21,600; zero-rated sales are taxable at 0%. Input VAT = £66,000 x 1/6 = £11,000, because the purchases figure includes VAT. VAT payable = £21,600 - £11,000 = £10,600.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-acc-c05-q001",
+      "chapter": 5,
+      "topic": "Bank reconciliations",
+      "question_text": "When preparing a bank reconciliation, which of the following items requires an adjustment to the business's cash book rather than to the bank statement balance?",
+      "options": {
+        "A": "Bank charges shown on the bank statement but not yet recorded by the business",
+        "B": "An amount wrongly debited to the business's account by the bank",
+        "C": "Cheques sent to suppliers that have not yet been presented for payment",
+        "D": "Cash paid into the bank on the last day of the month that does not yet appear on the statement"
+      },
+      "correct": "A",
+      "explanation": "Bank charges are genuine transactions that the business has not yet recorded, so they must be entered in the cash book. Unpresented cheques and outstanding lodgements are timing differences: the cash book is already correct, and they are adjusted on the bank statement side of the reconciliation. A bank error is corrected by the bank, so it is also shown as an adjustment to the statement balance.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-acc-c05-q002",
+      "chapter": 5,
+      "topic": "Bank reconciliations",
+      "question_text": "A business's bank statement shows a balance of £3,420 in its favour at the month end. Cheques of £1,870 paid to suppliers have not yet been presented, and lodgements of £960 have not yet been credited by the bank. The cash book needs no other adjustment.\n\nWhat is the correct cash book balance?",
+      "options": {
+        "A": "£2,510 debit",
+        "B": "£6,250 debit",
+        "C": "£4,330 debit",
+        "D": "£2,510 credit"
+      },
+      "correct": "A",
+      "explanation": "Start with the bank statement balance of £3,420. Deduct unpresented cheques of £1,870, because the cash book has already recorded those payments, and add outstanding lodgements of £960, because the cash book already shows those receipts. £3,420 - £1,870 + £960 = £2,510, a debit (asset) balance in the cash book.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c05-q003",
+      "chapter": 5,
+      "topic": "Bank reconciliations",
+      "question_text": "The cash book of a business shows a debit balance of £5,180. On comparing it with the bank statement, the following are found:\n1. Bank charges of £65 have not been entered in the cash book.\n2. A direct debit of £240 has not been entered in the cash book.\n3. A cheque from a customer for £330 has been dishonoured.\n4. A credit transfer of £1,150 received from a customer has not been entered in the cash book.\n\nWhat is the corrected cash book balance?",
+      "options": {
+        "A": "£3,395 debit",
+        "B": "£6,355 debit",
+        "C": "£5,695 debit",
+        "D": "£6,025 debit"
+      },
+      "correct": "C",
+      "explanation": "Corrected balance = £5,180 - bank charges £65 - direct debit £240 - dishonoured cheque £330 + credit transfer £1,150 = £5,695. The dishonoured cheque was originally recorded as a receipt, so it must be reversed by a credit (reduction) in the cash book. The credit transfer is money received that has not yet been recorded, so it increases the balance.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-acc-c05-q004",
+      "chapter": 5,
+      "topic": "Bank reconciliations",
+      "question_text": "After all necessary adjustments, a business's cash book shows a debit balance of £2,315. Unpresented cheques total £3,780 and lodgements not yet credited by the bank total £2,150.\n\nWhat balance is shown on the bank statement?",
+      "options": {
+        "A": "£685 in favour of the business",
+        "B": "£3,945 overdrawn",
+        "C": "£8,245 in favour of the business",
+        "D": "£3,945 in favour of the business"
+      },
+      "correct": "D",
+      "explanation": "Working from the cash book to the bank statement reverses the usual reconciliation. Unpresented cheques have been deducted in the cash book but not yet by the bank, so the bank balance is higher by £3,780. Outstanding lodgements are in the cash book but not yet in the bank, so the bank balance is lower by £2,150. Bank statement = £2,315 + £3,780 - £2,150 = £3,945 in favour of the business.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-acc-c05-q005",
+      "chapter": 5,
+      "topic": "Bank reconciliations",
+      "question_text": "A cheque payment to a supplier for £472 was correctly shown on the bank statement but was recorded in the cash book as £427. What adjustment is needed?",
+      "options": {
+        "A": "Credit the cash book with £45",
+        "B": "Deduct £45 from the bank statement balance in the reconciliation",
+        "C": "Debit the cash book with £45",
+        "D": "Add £45 to the bank statement balance in the reconciliation"
+      },
+      "correct": "A",
+      "explanation": "The cash book shows a payment £45 lower than the amount actually paid (£472 - £427 = £45). The cash book is wrong, not the bank, so the cash book must be corrected by recording an additional payment of £45, which is a credit entry. The other side of the entry increases the debit to the supplier's account.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c05-q006",
+      "chapter": 5,
+      "topic": "Bank reconciliations",
+      "question_text": "A business's bank statement shows a credit balance of £2,600. What does this mean from the business's point of view?",
+      "options": {
+        "A": "The business has £2,600 in the bank, an asset",
+        "B": "The bank has made an error of £2,600",
+        "C": "The business has unpresented cheques of £2,600",
+        "D": "The business is overdrawn by £2,600, a liability"
+      },
+      "correct": "A",
+      "explanation": "A bank statement is prepared from the bank's point of view. Money held for a customer is a liability of the bank, so it is shown as a credit balance on the statement. For the business, the same amount is an asset and appears as a debit balance in its cash book.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-acc-c05-q007",
+      "chapter": 5,
+      "topic": "Bank reconciliations",
+      "question_text": "A cheque received from a credit customer and banked last week has been returned by the bank marked 'refer to drawer'. What double entry should the business make?",
+      "options": {
+        "A": "Debit Trade receivables, Credit Revenue",
+        "B": "Debit Trade receivables, Credit Cash at bank",
+        "C": "Debit Irrecoverable debts expense, Credit Cash at bank",
+        "D": "Debit Cash at bank, Credit Trade receivables"
+      },
+      "correct": "B",
+      "explanation": "When the cheque was banked, the business debited cash and credited the customer's account. The cheque has been dishonoured, so that entry must be reversed: the customer owes the money again (debit trade receivables) and the bank balance is lower (credit cash at bank). It is not yet an irrecoverable debt, because the customer may still pay.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-acc-c05-q008",
+      "chapter": 5,
+      "topic": "Bank reconciliations",
+      "question_text": "When reconciling its bank account, a business notices that the bank has debited its account with £300 for a cheque that was actually written by a different customer of the bank. How should this be dealt with?",
+      "options": {
+        "A": "Deduct £300 from the bank statement balance in the reconciliation",
+        "B": "Debit the cash book with £300",
+        "C": "Add £300 to the bank statement balance in the reconciliation and ask the bank to correct the error",
+        "D": "Credit the cash book with £300"
+      },
+      "correct": "C",
+      "explanation": "The business's cash book is correct; the error has been made by the bank, which has wrongly reduced the business's balance by £300. The cash book is not adjusted. In the reconciliation, £300 is added back to the bank statement balance to arrive at the correct figure, and the bank is asked to reverse its entry.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c05-q009",
+      "chapter": 5,
+      "topic": "Bank reconciliations",
+      "question_text": "A business's bank statement at the year end shows an overdraft of £2,600. Unpresented cheques total £1,450 and outstanding lodgements total £3,900. Bank charges of £75 on the statement have not yet been recorded in the cash book. There are no other differences.\n\nWhat was the balance in the cash book BEFORE it was updated for the bank charges?",
+      "options": {
+        "A": "£75 overdrawn",
+        "B": "£75 in hand (debit)",
+        "C": "£150 overdrawn",
+        "D": "£225 overdrawn"
+      },
+      "correct": "A",
+      "explanation": "Correct cash book balance = bank statement (-£2,600) - unpresented cheques £1,450 + outstanding lodgements £3,900 = -£150, an overdraft of £150. That is the balance after bank charges of £75 have been deducted. Before recording them, the cash book showed -£150 + £75 = -£75, an overdraft of £75.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-acc-c06-q001",
+      "chapter": 6,
+      "topic": "Control accounts",
+      "question_text": "The following information relates to a business's receivables for the year:\nOpening balance £28,400\nCredit sales £196,500\nCash sales £12,000\nCash received from credit customers £182,300\nIrrecoverable debts written off £2,100\nContra with payables ledger £1,600\nSales returns £3,750\n\nWhat is the closing balance on the receivables control account?",
+      "options": {
+        "A": "£47,150",
+        "B": "£38,350",
+        "C": "£42,650",
+        "D": "£35,150"
+      },
+      "correct": "D",
+      "explanation": "Closing balance = £28,400 + £196,500 - £182,300 - £2,100 - £1,600 - £3,750 = £35,150. Cash sales never create a receivable, so they do not appear in the control account. The contra and sales returns both reduce the amount owed by customers and are credits in the account.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c06-q002",
+      "chapter": 6,
+      "topic": "Control accounts",
+      "question_text": "Which of the following would be recorded in the receivables control account?",
+      "options": {
+        "A": "Discounts received from suppliers",
+        "B": "Cash sales banked during the month",
+        "C": "A cheque received from a credit customer that has been dishonoured",
+        "D": "An increase in the allowance for receivables"
+      },
+      "correct": "C",
+      "explanation": "A dishonoured cheque reinstates the customer's debt, so it is debited to the receivables control account. The allowance for receivables is kept in a separate account and deducted from receivables only on the statement of financial position. Cash sales never pass through receivables, and discounts received relate to payables.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c06-q003",
+      "chapter": 6,
+      "topic": "Control accounts",
+      "question_text": "Information about a business's trade payables for the year: opening balance £19,250; credit purchases £143,800; payments to suppliers £137,600; purchase returns £2,900; contra with the receivables ledger £1,600.\n\nWhat is the closing balance on the payables control account?",
+      "options": {
+        "A": "£20,950 credit",
+        "B": "£20,950 debit",
+        "C": "£24,150 credit",
+        "D": "£26,750 credit"
+      },
+      "correct": "A",
+      "explanation": "The payables control account normally has a credit balance. Closing balance = £19,250 + £143,800 - £137,600 - £2,900 - £1,600 = £20,950 credit. Purchase returns and contras both reduce the amount owed to suppliers and are debited to the account.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c06-q004",
+      "chapter": 6,
+      "topic": "Control accounts",
+      "question_text": "The total of the list of balances in a business's payables ledger is £18,640, which does not agree with the payables control account. The following errors are found:\n1. A supplier's credit balance of £420 was omitted from the list.\n2. An invoice for £1,150 was correctly entered in the purchases day book but posted to the supplier's account as £1,510.\n3. The purchases day book total was overcast by £900.\n\nWhat is the corrected total of the list of payables ledger balances?",
+      "options": {
+        "A": "£18,700",
+        "B": "£17,860",
+        "C": "£17,800",
+        "D": "£19,420"
+      },
+      "correct": "A",
+      "explanation": "Only errors affecting individual supplier accounts change the list. Add the omitted balance of £420. The invoice was posted £360 too high (£1,510 - £1,150), so deduct £360. Corrected list = £18,640 + £420 - £360 = £18,700. The day book overcast affects the control account only, not the individual accounts.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-acc-c06-q005",
+      "chapter": 6,
+      "topic": "Control accounts",
+      "question_text": "A business both buys from and sells to Fenwick Ltd. It agrees to set off the £1,250 Fenwick owes it against the £3,400 it owes Fenwick. What double entry records the contra?",
+      "options": {
+        "A": "Debit Cash £1,250, Credit Receivables control £1,250",
+        "B": "Debit Receivables control £1,250, Credit Payables control £1,250",
+        "C": "Debit Payables control £3,400, Credit Receivables control £3,400",
+        "D": "Debit Payables control £1,250, Credit Receivables control £1,250"
+      },
+      "correct": "D",
+      "explanation": "A contra sets off the smaller balance against the larger one. The amount owed to the supplier falls by £1,250 (debit payables control) and the amount owed by Fenwick as a customer falls by £1,250 (credit receivables control). The business still owes Fenwick £3,400 - £1,250 = £2,150. No cash changes hands.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-acc-c06-q006",
+      "chapter": 6,
+      "topic": "Control accounts",
+      "question_text": "Which of the following is a main purpose of maintaining a receivables control account?",
+      "options": {
+        "A": "To record cash sales made to customers",
+        "B": "To calculate the allowance for receivables automatically",
+        "C": "To remove the need to keep individual customer accounts",
+        "D": "To provide a check on the arithmetical accuracy of the individual customer accounts in the receivables ledger"
+      },
+      "correct": "D",
+      "explanation": "The control account summarises in total the entries made in the individual customer accounts. Comparing its balance with the total of the list of individual balances helps to detect and locate errors, gives a quick total figure for receivables, and supports internal control by separating duties. Individual accounts are still needed to know what each customer owes.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-acc-c06-q007",
+      "chapter": 6,
+      "topic": "Control accounts",
+      "question_text": "The sales day book for June was undercast by £500. The individual customer accounts were posted correctly. What correction is required?",
+      "options": {
+        "A": "Debit Receivables control £500, Credit Revenue £500",
+        "B": "Debit Receivables control £500, Credit Suspense £500",
+        "C": "Debit Revenue £500, Credit Receivables control £500",
+        "D": "No correction is needed because the individual accounts are correct"
+      },
+      "correct": "A",
+      "explanation": "An undercast day book total means that both the receivables control account and the revenue account were posted with a total £500 too low; the double entry still balanced. Both accounts must be increased: debit receivables control and credit revenue with £500. The individual customer accounts were posted from the individual invoices, so they are unaffected.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c06-q008",
+      "chapter": 6,
+      "topic": "Control accounts",
+      "question_text": "A business's receivables control account shows a balance of £41,370, while the list of individual customer balances totals £40,170. Investigation reveals:\n1. A credit note for £600 was recorded in the customer's individual account but was omitted from the sales returns day book.\n2. An irrecoverable debt of £450 was written off in the control account but not in the customer's individual account.\n3. A customer's debit balance of £1,050 was omitted from the list of balances.\n\nWhat is the agreed receivables balance after correcting these errors?",
+      "options": {
+        "A": "£40,770",
+        "B": "£41,220",
+        "C": "£39,720",
+        "D": "£41,370"
+      },
+      "correct": "A",
+      "explanation": "Control account: the credit note was missed from the day book, so the control account must be reduced: £41,370 - £600 = £40,770. List of balances: deduct the irrecoverable debt not yet written off in the individual account and add the omitted balance: £40,170 - £450 + £1,050 = £40,770. Both now agree at £40,770.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-acc-c06-q009",
+      "chapter": 6,
+      "topic": "Control accounts",
+      "question_text": "A business keeps its individual customer accounts as memorandum records outside the double entry system. Where is the double entry for credit sales completed in the general ledger?",
+      "options": {
+        "A": "By posting the sales day book total to the cash book",
+        "B": "By posting each invoice to the individual customer account only",
+        "C": "By posting the sales day book total to the journal",
+        "D": "By posting the sales day book totals to the receivables control account and the revenue account"
+      },
+      "correct": "D",
+      "explanation": "When the receivables ledger is a memorandum ledger, the receivables control account forms part of the double entry in the general ledger. The periodic totals from the sales day book are debited to receivables control and credited to revenue (and VAT). Individual invoices are posted to customer accounts purely for information and credit control.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-acc-c07-q001",
+      "chapter": 7,
+      "topic": "Errors, suspense accounts and correcting journals",
+      "question_text": "Which of the following is an error of principle?",
+      "options": {
+        "A": "A sales invoice was posted to the account of the wrong customer",
+        "B": "The rent account was debited with £1,520 instead of £1,250 while the bank was credited with £1,250",
+        "C": "A purchase invoice was not recorded in the books at all",
+        "D": "The cost of repairing a delivery van was debited to the motor vehicles cost account"
+      },
+      "correct": "D",
+      "explanation": "An error of principle occurs when a transaction is recorded in the wrong class of account, such as treating revenue expenditure (a repair) as capital expenditure. Posting to the wrong customer is an error of commission, missing an invoice is an error of omission, and a mismatched debit and credit is a transposition error that affects the trial balance.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-acc-c07-q002",
+      "chapter": 7,
+      "topic": "Errors, suspense accounts and correcting journals",
+      "question_text": "A purchase invoice from Hartley Ltd was correctly recorded in the purchases day book but posted to the payables ledger account of Hart Ltd. What type of error is this?",
+      "options": {
+        "A": "An error of original entry",
+        "B": "A compensating error",
+        "C": "An error of commission",
+        "D": "An error of principle"
+      },
+      "correct": "C",
+      "explanation": "An error of commission occurs when an entry is made in the correct type of account but in the wrong individual account. Both Hart Ltd and Hartley Ltd are supplier accounts, so the classification is right but the account is wrong. The trial balance still agrees because the debit and credit are equal.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-acc-c07-q003",
+      "chapter": 7,
+      "topic": "Errors, suspense accounts and correcting journals",
+      "question_text": "A trial balance has debit balances totalling £248,900 and credit balances totalling £251,370. A suspense account is opened to make the totals agree. What is the balance on the suspense account?",
+      "options": {
+        "A": "£2,470 credit",
+        "B": "£2,470 debit",
+        "C": "£1,235 debit",
+        "D": "£500,270 debit"
+      },
+      "correct": "B",
+      "explanation": "The credit total exceeds the debit total by £251,370 - £248,900 = £2,470. To make the trial balance agree, a debit balance of £2,470 must be added to the debit side, so the suspense account has a debit balance of £2,470. It stays there until the underlying errors are found and corrected.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c07-q004",
+      "chapter": 7,
+      "topic": "Errors, suspense accounts and correcting journals",
+      "question_text": "An electricity bill of £370 was paid and debited to the rent account. What journal is needed to correct the error?",
+      "options": {
+        "A": "Debit Electricity £370, Credit Suspense £370",
+        "B": "Debit Rent £370, Credit Electricity £370",
+        "C": "Debit Electricity £370, Credit Bank £370",
+        "D": "Debit Electricity £370, Credit Rent £370"
+      },
+      "correct": "D",
+      "explanation": "The bank entry is correct, and the debit was made to the wrong expense account. To correct it, the rent account must be credited to remove the £370 and the electricity account debited to record the expense in the right place. The trial balance was not affected, so no suspense entry is needed.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-acc-c07-q005",
+      "chapter": 7,
+      "topic": "Errors, suspense accounts and correcting journals",
+      "question_text": "Cash sales of £5,630 were correctly entered in the cash book but credited to the revenue account as £5,360. What journal corrects this error?",
+      "options": {
+        "A": "Debit Revenue £270, Credit Suspense £270",
+        "B": "Debit Cash £270, Credit Revenue £270",
+        "C": "Debit Suspense £270, Credit Revenue £270",
+        "D": "Debit Suspense £5,630, Credit Revenue £5,630"
+      },
+      "correct": "C",
+      "explanation": "Revenue was credited with £5,360 instead of £5,630, so it is understated by £270. Because the debit to cash was correct, the trial balance would not have agreed and the difference would have gone to suspense. The correction credits revenue with £270 and debits suspense with £270.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c07-q006",
+      "chapter": 7,
+      "topic": "Errors, suspense accounts and correcting journals",
+      "question_text": "A business opened a suspense account when its trial balance did not agree. The following errors were then found, and correcting them cleared the suspense account completely:\n1. Rent paid of £1,200 was correctly recorded in the cash book but debited to the rent account as £2,100.\n2. Sales returns of £480 were credited to the receivables control account but not entered in the sales returns account.\n3. Interest received of £2,820 was debited to the bank account but omitted from the interest income account.\n\nWhat was the original balance on the suspense account?",
+      "options": {
+        "A": "£4,200 credit",
+        "B": "£1,440 credit",
+        "C": "£3,240 credit",
+        "D": "£3,240 debit"
+      },
+      "correct": "C",
+      "explanation": "Corrections: (1) Credit rent £900, debit suspense £900. (2) Debit sales returns £480, credit suspense £480. (3) Credit interest income £2,820, debit suspense £2,820. Net entry to suspense = £900 - £480 + £2,820 = £3,240 debit. For this to clear the account, the original balance must have been £3,240 credit.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-acc-c07-q007",
+      "chapter": 7,
+      "topic": "Errors, suspense accounts and correcting journals",
+      "question_text": "A sole trader's draft profit for the year is £64,800. The following matters have not yet been reflected:\n1. Closing inventory was understated by £2,300.\n2. A machine costing £4,000, bought at the start of the year, was debited to the repairs account. Machinery is depreciated at 20% per year on cost, with a full year's charge in the year of purchase.\n3. An electricity bill of £650 relating to the year has not been accrued.\n\nWhat is the revised profit for the year?",
+      "options": {
+        "A": "£70,950",
+        "B": "£69,650",
+        "C": "£70,450",
+        "D": "£65,050"
+      },
+      "correct": "B",
+      "explanation": "Increasing closing inventory reduces cost of sales, so profit rises by £2,300. Removing the machine from repairs adds back £4,000, but depreciation of 20% x £4,000 = £800 must be charged. The accrual reduces profit by £650. Revised profit = £64,800 + £2,300 + £4,000 - £800 - £650 = £69,650.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-acc-c07-q008",
+      "chapter": 7,
+      "topic": "Errors, suspense accounts and correcting journals",
+      "question_text": "Which of the following errors would require an entry to the suspense account when it is corrected?",
+      "options": {
+        "A": "A payment of £310 to a supplier was debited to the bank account and credited to the supplier's account",
+        "B": "Stationery of £85 paid by cheque was credited to both the bank account and the stationery account",
+        "C": "Wages of £2,400 were debited to the drawings account",
+        "D": "A credit sale of £600 was omitted from the books entirely"
+      },
+      "correct": "B",
+      "explanation": "Only errors that cause the trial balance to disagree are corrected through suspense. Crediting both the bank and the stationery account produces two credits and no debit, so the trial balance would not balance. The other errors each have equal debits and credits, so they are corrected by a journal between the ledger accounts concerned without using suspense.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c07-q009",
+      "chapter": 7,
+      "topic": "Errors, suspense accounts and correcting journals",
+      "question_text": "A credit sales invoice for £1,240 was entered in the sales day book as £1,420 and posted from there. What is the effect of this error and how is it corrected?",
+      "options": {
+        "A": "Receivables and revenue are both understated by £180; correct by Debit Receivables, Credit Revenue £180",
+        "B": "Receivables and revenue are both overstated by £180; correct by Debit Revenue, Credit Receivables £180",
+        "C": "Only revenue is overstated; correct by Debit Revenue, Credit Suspense £180",
+        "D": "The trial balance will not agree; correct by Debit Suspense, Credit Receivables £180"
+      },
+      "correct": "B",
+      "explanation": "This is an error of original entry: the wrong amount was recorded in the book of prime entry, so both sides of the double entry used £1,420. The trial balance still agrees, but receivables and revenue are both £180 too high (£1,420 - £1,240). The correction is to debit revenue and credit receivables with £180.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c07-q010",
+      "chapter": 7,
+      "topic": "Errors, suspense accounts and correcting journals",
+      "question_text": "An invoice for goods bought on credit for £950 was not recorded in the books at all. Which journal corrects this error?",
+      "options": {
+        "A": "Debit Purchases £950, Credit Suspense £950",
+        "B": "Debit Purchases £950, Credit Trade payables £950",
+        "C": "Debit Purchases £950, Credit Bank £950",
+        "D": "Debit Trade payables £950, Credit Purchases £950"
+      },
+      "correct": "B",
+      "explanation": "An error of omission means neither side of the transaction was recorded, so the trial balance still agrees. The correction simply records the original transaction: debit purchases to recognise the cost and credit trade payables to recognise the amount owed. Bank is not involved because the goods were bought on credit.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-acc-c07-q011",
+      "chapter": 7,
+      "topic": "Errors, suspense accounts and correcting journals",
+      "question_text": "A sole trader's personal home insurance of £1,500 was paid from the business bank account and debited to the business insurance expense account. What journal corrects this?",
+      "options": {
+        "A": "Debit Capital £1,500, Credit Bank £1,500",
+        "B": "Debit Drawings £1,500, Credit Bank £1,500",
+        "C": "Debit Insurance expense £1,500, Credit Drawings £1,500",
+        "D": "Debit Drawings £1,500, Credit Insurance expense £1,500"
+      },
+      "correct": "D",
+      "explanation": "Payments of the owner's private expenses are drawings, not business expenses. The bank entry was correct, but the debit was made to the wrong account. The insurance expense must be credited to remove the £1,500 and drawings debited, which will reduce the owner's capital rather than the business's profit.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c07-q012",
+      "chapter": 7,
+      "topic": "Errors, suspense accounts and correcting journals",
+      "question_text": "During the current year, a company discovers a material error in the financial statements of the previous year. How does IAS 8 Accounting Policies, Changes in Accounting Estimates and Errors require the error to be dealt with?",
+      "options": {
+        "A": "Prospectively, by including the full correction in the current year's profit or loss",
+        "B": "Retrospectively, by restating the comparative amounts for the prior period presented",
+        "C": "By disclosing the error in the notes without changing any amounts",
+        "D": "By recording the correction directly in the revaluation surplus"
+      },
+      "correct": "B",
+      "explanation": "IAS 8 requires material prior period errors to be corrected retrospectively in the first set of financial statements authorised after their discovery. Comparative amounts for the prior period are restated, and if the error occurred before that period, the opening balances of the earliest period presented are restated. The correction is not passed through current year profit or loss.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c08-q001",
+      "chapter": 8,
+      "topic": "Accruals, prepayments and deferred income",
+      "question_text": "A business with a 31 December year end paid an insurance premium of £3,600 on 1 April 20X4 for the year to 31 March 20X5. What prepayment should be recognised at 31 December 20X4?",
+      "options": {
+        "A": "£2,700",
+        "B": "£900",
+        "C": "£300",
+        "D": "£3,600"
+      },
+      "correct": "B",
+      "explanation": "The premium covers 12 months, of which January to March 20X5 (3 months) fall after the year end. Prepayment = 3/12 x £3,600 = £900. The remaining 9/12, £2,700, is the insurance expense for the year to 31 December 20X4.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-acc-c08-q002",
+      "chapter": 8,
+      "topic": "Accruals, prepayments and deferred income",
+      "question_text": "At the start of the year, a business had an accrual for electricity of £420. During the year it paid electricity bills of £3,860. At the year end, electricity of £510 had been used but not yet billed.\n\nWhat is the electricity expense for the year?",
+      "options": {
+        "A": "£3,770",
+        "B": "£3,950",
+        "C": "£4,790",
+        "D": "£3,860"
+      },
+      "correct": "B",
+      "explanation": "Part of the cash paid (£420) settles the previous year's accrued charge, so it is not an expense of this year. The unbilled usage of £510 must be added. Expense = £3,860 - £420 + £510 = £3,950.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c08-q003",
+      "chapter": 8,
+      "topic": "Accruals, prepayments and deferred income",
+      "question_text": "A business sublets part of its premises for £600 per month. At the start of the year, the tenant owed £1,200 of rent. During the year the business received £7,800 from the tenant.\n\nWhat balance relating to rent receivable is shown in the statement of financial position at the end of the year?",
+      "options": {
+        "A": "£1,200 receivable (current asset)",
+        "B": "£600 received in advance (current liability)",
+        "C": "£1,800 receivable (current asset)",
+        "D": "£600 receivable (current asset)"
+      },
+      "correct": "D",
+      "explanation": "Rental income for the year = 12 x £600 = £7,200. Opening receivable £1,200 + income £7,200 - cash received £7,800 = £600. The balance is positive, so the tenant still owes £600 at the year end, which is accrued income, a current asset.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-acc-c08-q004",
+      "chapter": 8,
+      "topic": "Accruals, prepayments and deferred income",
+      "question_text": "A business forgot to record an accrual for a telephone bill at the year end. What is the effect of this omission on the financial statements?",
+      "options": {
+        "A": "Profit is overstated and current assets are overstated",
+        "B": "Profit is overstated and current liabilities are understated",
+        "C": "Profit is understated and current liabilities are overstated",
+        "D": "Profit is unaffected but current liabilities are understated"
+      },
+      "correct": "B",
+      "explanation": "An accrual records an expense that has been incurred but not yet paid, with a corresponding liability. If it is omitted, the expense is too low, so profit is overstated. The amount owed is not recorded, so current liabilities are understated.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-acc-c08-q005",
+      "chapter": 8,
+      "topic": "Accruals, prepayments and deferred income",
+      "question_text": "A business's year ends on 31 December 20X5. It pays rent of £18,000 per year until 31 March 20X5, after which the rent increases to £21,600 per year.\n\nWhat is the rent expense for the year to 31 December 20X5?",
+      "options": {
+        "A": "£21,600",
+        "B": "£18,000",
+        "C": "£19,800",
+        "D": "£20,700"
+      },
+      "correct": "D",
+      "explanation": "The expense must reflect the rate in force in each part of the year. January to March: 3/12 x £18,000 = £4,500. April to December: 9/12 x £21,600 = £16,200. Total rent expense = £20,700.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c08-q006",
+      "chapter": 8,
+      "topic": "Accruals, prepayments and deferred income",
+      "question_text": "A business's year ends on 31 December. At 1 January it had an insurance prepayment of £1,150, covering the period to 30 September. On 1 October it paid £5,400 for insurance for the year to 30 September of the following year.\n\nWhat is the insurance expense for the year?",
+      "options": {
+        "A": "£6,550",
+        "B": "£1,350",
+        "C": "£2,500",
+        "D": "£5,400"
+      },
+      "correct": "C",
+      "explanation": "The opening prepayment of £1,150 is charged in this year because it covers January to September. Of the £5,400 paid on 1 October, 3/12 = £1,350 relates to October to December, and 9/12 = £4,050 is carried forward as a prepayment. Expense = £1,150 + £5,400 - £4,050 = £2,500.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c08-q007",
+      "chapter": 8,
+      "topic": "Accruals, prepayments and deferred income",
+      "question_text": "At the year end, a business has used £780 of gas for which no invoice has yet been received. What is the double entry to record this?",
+      "options": {
+        "A": "Debit Prepayments £780, Credit Gas expense £780",
+        "B": "Debit Accruals £780, Credit Gas expense £780",
+        "C": "Debit Gas expense £780, Credit Accruals £780",
+        "D": "Debit Gas expense £780, Credit Trade payables control £780"
+      },
+      "correct": "C",
+      "explanation": "The gas has been consumed in the year, so the expense must be recognised under the accrual basis by debiting gas expense. As no invoice has been received, the liability is recorded as an accrual (credit) rather than in trade payables. The accrual is normally reversed at the start of the next period.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-acc-c08-q008",
+      "chapter": 8,
+      "topic": "Accruals, prepayments and deferred income",
+      "question_text": "On 1 November, a customer paid a business £6,000 in advance for six months of maintenance services starting on that date. The business's year ends on 31 December. Services are provided evenly over the period.\n\nUnder IFRS 15 Revenue from Contracts with Customers, what amount should be shown as a contract liability (deferred income) at 31 December?",
+      "options": {
+        "A": "£0",
+        "B": "£6,000",
+        "C": "£4,000",
+        "D": "£2,000"
+      },
+      "correct": "C",
+      "explanation": "Revenue is recognised as the performance obligation is satisfied over time. By 31 December, 2 of the 6 months have been provided, so revenue = 2/6 x £6,000 = £2,000. The remaining £4,000 relates to services still to be provided and is a contract liability.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c08-q009",
+      "chapter": 8,
+      "topic": "Accruals, prepayments and deferred income",
+      "question_text": "The following information relates to a business's telephone costs for the year:\nAccrued call charges at start of year £280\nAccrued call charges at end of year £340\nLine rental prepaid at start of year £150\nLine rental prepaid at end of year £175\nCash paid during the year £2,960\n\nWhat is the telephone expense for the year?",
+      "options": {
+        "A": "£3,045",
+        "B": "£2,875",
+        "C": "£2,925",
+        "D": "£2,995"
+      },
+      "correct": "D",
+      "explanation": "Expense = cash paid - opening accrual + closing accrual + opening prepayment - closing prepayment. = £2,960 - £280 + £340 + £150 - £175 = £2,995. The opening prepayment is an expense of this year paid last year, while the closing prepayment is paid now but relates to next year.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-acc-c09-q001",
+      "chapter": 9,
+      "topic": "Inventory",
+      "question_text": "Under IAS 2 Inventories, at what amount should inventories be measured?",
+      "options": {
+        "A": "Replacement cost at the reporting date",
+        "B": "Selling price less the normal profit margin",
+        "C": "The lower of cost and net realisable value",
+        "D": "The higher of cost and net realisable value"
+      },
+      "correct": "C",
+      "explanation": "IAS 2 requires inventories to be measured at the lower of cost and net realisable value (NRV). NRV is the estimated selling price in the ordinary course of business less the estimated costs of completion and the estimated costs necessary to make the sale. This ensures that inventory is not carried at more than it is expected to realise.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-acc-c09-q002",
+      "chapter": 9,
+      "topic": "Inventory",
+      "question_text": "Which of the following costs should NOT be included in the cost of inventories under IAS 2?",
+      "options": {
+        "A": "Carriage inwards on goods purchased",
+        "B": "Purchase price less trade discounts",
+        "C": "Import duties on goods purchased",
+        "D": "Costs of delivering goods to customers"
+      },
+      "correct": "D",
+      "explanation": "The cost of inventories includes all costs of purchase, costs of conversion and other costs incurred in bringing the inventories to their present location and condition. Import duties, carriage inwards and the purchase price net of trade discounts are therefore included. Selling and distribution costs, such as delivering goods to customers, are expensed as incurred.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-acc-c09-q003",
+      "chapter": 9,
+      "topic": "Inventory",
+      "question_text": "At the year end, a business holds an item of inventory that cost £4,200. The item is damaged and will need repairs costing £650 before it can be sold for £4,500. A sales commission of 5% of the selling price will be payable.\n\nAt what amount should the item be included in inventory?",
+      "options": {
+        "A": "£4,200",
+        "B": "£3,625",
+        "C": "£3,850",
+        "D": "£4,275"
+      },
+      "correct": "B",
+      "explanation": "NRV = selling price £4,500 - repair costs £650 - commission (5% x £4,500 = £225) = £3,625. NRV is below cost of £4,200, so the item is measured at £3,625, a write-down of £575.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c09-q004",
+      "chapter": 9,
+      "topic": "Inventory",
+      "question_text": "A business holds three product lines at its year end:\nProduct X: cost £2,400, net realisable value £3,100\nProduct Y: cost £1,850, net realisable value £1,500\nProduct Z: cost £3,700, net realisable value £4,100\n\nAt what total amount should inventory be stated?",
+      "options": {
+        "A": "£8,700",
+        "B": "£8,300",
+        "C": "£7,950",
+        "D": "£7,600"
+      },
+      "correct": "D",
+      "explanation": "IAS 2 requires the lower of cost and NRV to be applied item by item (or to groups of similar items), not to the total. X: £2,400, Y: £1,500 (NRV below cost), Z: £3,700. Total = £7,600. Comparing totals (£7,950 cost against £8,700 NRV) would hide the loss on product Y.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c09-q005",
+      "chapter": 9,
+      "topic": "Inventory",
+      "question_text": "A business had opening inventory of 200 units at £5 each. During the period it bought 300 units at £6 each and then 400 units at £6.50 each. It sold 650 units.\n\nWhat is the value of closing inventory using the first-in, first-out (FIFO) method?",
+      "options": {
+        "A": "£1,300",
+        "B": "£1,625",
+        "C": "£1,250",
+        "D": "£1,500"
+      },
+      "correct": "B",
+      "explanation": "Units in closing inventory = 200 + 300 + 400 - 650 = 250. Under FIFO, the earliest units are assumed to be sold first, so the 250 units remaining come from the most recent purchase at £6.50. Closing inventory = 250 x £6.50 = £1,625.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c09-q006",
+      "chapter": 9,
+      "topic": "Inventory",
+      "question_text": "A business uses the weighted average cost method, recalculating the average after each purchase. Its inventory movements for the month were:\nOpening inventory: 100 units at £10.00\nPurchase: 300 units at £12.00\nSale: 250 units\nPurchase: 250 units at £13.10\nSale: 220 units\n\nWhat is the value of closing inventory?",
+      "options": {
+        "A": "£2,181",
+        "B": "£2,160",
+        "C": "£2,250",
+        "D": "£2,358"
+      },
+      "correct": "C",
+      "explanation": "After the first purchase: 400 units costing £1,000 + £3,600 = £4,600, average £11.50. After selling 250: 150 units at £11.50 = £1,725. After the second purchase: 400 units costing £1,725 + £3,275 = £5,000, average £12.50. Closing inventory = 180 units x £12.50 = £2,250.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-acc-c09-q007",
+      "chapter": 9,
+      "topic": "Inventory",
+      "question_text": "A business overstated its closing inventory at the end of year 1. The error was not discovered and the year 2 closing inventory was correct. What is the effect on reported profits?",
+      "options": {
+        "A": "Year 1 profit is overstated and year 2 profit is understated",
+        "B": "Year 1 profit is overstated and year 2 profit is unaffected",
+        "C": "Both year 1 and year 2 profits are overstated",
+        "D": "Year 1 profit is understated and year 2 profit is overstated"
+      },
+      "correct": "A",
+      "explanation": "Overstating closing inventory reduces cost of sales, so year 1 profit is overstated. Year 1 closing inventory becomes year 2 opening inventory, which increases year 2 cost of sales and understates year 2 profit by the same amount. Over the two years combined, the error reverses.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c09-q008",
+      "chapter": 9,
+      "topic": "Inventory",
+      "question_text": "A business's year ended on 31 December, but its inventory count took place on 7 January, when inventory at cost was valued at £48,300. Between 1 and 7 January:\n- goods with a selling price of £3,600 were sold; the business sells at a mark-up of 20% on cost.\n- goods costing £2,150 were received from suppliers.\n\nWhat was the value of inventory at cost at 31 December?",
+      "options": {
+        "A": "£47,450",
+        "B": "£49,750",
+        "C": "£49,030",
+        "D": "£49,150"
+      },
+      "correct": "D",
+      "explanation": "Work back from the count to the year end. Goods sold after the year end were in inventory at 31 December, so add their cost: £3,600 x 100/120 = £3,000. Goods received after the year end were not in inventory at 31 December, so deduct £2,150. Inventory = £48,300 + £3,000 - £2,150 = £49,150.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-acc-c09-q009",
+      "chapter": 9,
+      "topic": "Inventory",
+      "question_text": "The following figures relate to a business's year:\nOpening inventory £12,600\nPurchases £84,300\nCarriage inwards £1,900\nCarriage outwards £2,700\nPurchase returns £3,100\nClosing inventory £14,250\n\nWhat is the cost of sales?",
+      "options": {
+        "A": "£87,650",
+        "B": "£79,550",
+        "C": "£81,450",
+        "D": "£84,150"
+      },
+      "correct": "C",
+      "explanation": "Cost of sales = opening inventory + purchases + carriage inwards - purchase returns - closing inventory = £12,600 + £84,300 + £1,900 - £3,100 - £14,250 = £81,450. Carriage inwards is part of the cost of acquiring goods, but carriage outwards is a distribution cost and is excluded.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c10-q001",
+      "chapter": 10,
+      "topic": "Irrecoverable debts and allowances for receivables",
+      "question_text": "A business decides that a debt of £720 owed by a customer who has disappeared will never be recovered. What is the double entry to write off the debt?",
+      "options": {
+        "A": "Debit Trade receivables £720, Credit Irrecoverable debts expense £720",
+        "B": "Debit Irrecoverable debts expense £720, Credit Trade receivables £720",
+        "C": "Debit Revenue £720, Credit Trade receivables £720",
+        "D": "Debit Allowance for receivables £720, Credit Irrecoverable debts expense £720"
+      },
+      "correct": "B",
+      "explanation": "Writing off an irrecoverable debt removes the asset, so trade receivables are credited. The loss is recognised as an expense in profit or loss by debiting irrecoverable debts expense. Revenue is not reversed because the sale did take place.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-acc-c10-q002",
+      "chapter": 10,
+      "topic": "Irrecoverable debts and allowances for receivables",
+      "question_text": "A customer whose debt of £540 was written off as irrecoverable in a previous year unexpectedly pays the £540 in full. What double entry records the receipt, assuming the debt is not reinstated?",
+      "options": {
+        "A": "Debit Cash £540, Credit Irrecoverable debts expense £540",
+        "B": "Debit Cash £540, Credit Revenue £540",
+        "C": "Debit Cash £540, Credit Trade receivables £540",
+        "D": "Debit Trade receivables £540, Credit Irrecoverable debts expense £540"
+      },
+      "correct": "A",
+      "explanation": "The debt was removed from receivables when it was written off, so there is no receivable to credit. The cash received is debited to the bank account, and the credit is made to the irrecoverable debts expense account, reducing the charge (or creating income) in the current year.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c10-q003",
+      "chapter": 10,
+      "topic": "Irrecoverable debts and allowances for receivables",
+      "question_text": "At the year end, a business's trade receivables total £86,400 before a debt of £2,400 is written off. The allowance for receivables is to be 3% of the remaining receivables. The allowance at the start of the year was £2,100.\n\nWhat is the total charge to profit or loss for irrecoverable debts and the allowance for the year?",
+      "options": {
+        "A": "£2,892",
+        "B": "£4,920",
+        "C": "£420",
+        "D": "£2,820"
+      },
+      "correct": "D",
+      "explanation": "Receivables after the write-off = £86,400 - £2,400 = £84,000. Required allowance = 3% x £84,000 = £2,520, an increase of £2,520 - £2,100 = £420. Total charge = write-off £2,400 + increase in allowance £420 = £2,820. Only the change in the allowance is charged, not the full closing balance.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c10-q004",
+      "chapter": 10,
+      "topic": "Irrecoverable debts and allowances for receivables",
+      "question_text": "At the year end, a business has trade receivables of £54,700 and an allowance for receivables of £1,650. How are these presented in the statement of financial position?",
+      "options": {
+        "A": "Trade receivables of £54,700 within current assets, with the allowance shown only in the notes",
+        "B": "Trade receivables of £54,700 within current assets and an allowance of £1,650 within current liabilities",
+        "C": "Trade receivables of £56,350 shown within current assets",
+        "D": "Trade receivables of £53,050 shown within current assets"
+      },
+      "correct": "D",
+      "explanation": "The allowance for receivables is a deduction from the related asset, not a liability. Receivables are presented net: £54,700 - £1,650 = £53,050, within current assets. This reflects the amount the business expects to collect.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-acc-c10-q005",
+      "chapter": 10,
+      "topic": "Irrecoverable debts and allowances for receivables",
+      "question_text": "A business's required allowance for receivables at the year end is lower than the allowance brought forward from the previous year. How is the reduction recorded?",
+      "options": {
+        "A": "Debit Irrecoverable debts expense, Credit Allowance for receivables",
+        "B": "Debit Allowance for receivables, Credit Retained earnings directly",
+        "C": "Debit Allowance for receivables, Credit Trade receivables",
+        "D": "Debit Allowance for receivables, Credit Irrecoverable debts expense (a credit to profit or loss)"
+      },
+      "correct": "D",
+      "explanation": "Only the movement in the allowance passes through profit or loss. A decrease means the allowance account is debited to reduce the balance, and the irrecoverable debts expense is credited. This reduces the total charge for the year and may result in a net credit to profit or loss.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c10-q006",
+      "chapter": 10,
+      "topic": "Irrecoverable debts and allowances for receivables",
+      "question_text": "At its year end, a business has trade receivables of £128,500. The following adjustments are needed:\n1. A debt of £3,500 is to be written off.\n2. An allowance of 50% is to be made against a specific debt of £4,000.\n3. A further allowance of 2% is to be made against the remaining receivables.\nThe allowance for receivables brought forward is £3,950.\n\nWhat is the total charge to profit or loss for irrecoverable debts and the allowance?",
+      "options": {
+        "A": "£3,970",
+        "B": "£7,920",
+        "C": "£470",
+        "D": "£4,050"
+      },
+      "correct": "A",
+      "explanation": "Remaining receivables for the general allowance = £128,500 - £3,500 - £4,000 = £121,000; general allowance = 2% x £121,000 = £2,420. Specific allowance = 50% x £4,000 = £2,000. Total allowance = £4,420, an increase of £470 on the opening £3,950. Total charge = £3,500 + £470 = £3,970.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-acc-c10-q007",
+      "chapter": 10,
+      "topic": "Irrecoverable debts and allowances for receivables",
+      "question_text": "Why does a business make an allowance for receivables, rather than waiting until specific debts are known to be irrecoverable?",
+      "options": {
+        "A": "So that receivables are not overstated and the expected credit loss is recognised in the period in which the related revenue arises",
+        "B": "So that the business can reduce the amount of sales tax it pays",
+        "C": "To create a cash reserve to cover customers who do not pay",
+        "D": "Because customers with an allowance against them no longer have to pay their debts"
+      },
+      "correct": "A",
+      "explanation": "An allowance reflects the expectation that some receivables will not be collected, so that the asset is shown at the amount expected to be recovered. Under IFRS 9, losses are recognised on an expected credit loss basis, which matches the cost of bad debts to the period in which the sales were made. The allowance is a book entry only: it does not set aside cash, and customers remain legally liable.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c10-q008",
+      "chapter": 10,
+      "topic": "Irrecoverable debts and allowances for receivables",
+      "question_text": "During the year, a business wrote off irrecoverable debts of £1,320 and received £410 from a customer whose debt had been written off two years earlier. The allowance for receivables was £5,600 at the start of the year and is to be £4,750 at the end.\n\nWhat is the net charge to profit or loss for irrecoverable debts for the year?",
+      "options": {
+        "A": "£1,760",
+        "B": "£880",
+        "C": "£60",
+        "D": "£910"
+      },
+      "correct": "C",
+      "explanation": "Write-offs increase the charge by £1,320. The allowance falls by £5,600 - £4,750 = £850, which is credited to profit or loss. The recovery of a debt written off in an earlier year is also credited, £410. Net charge = £1,320 - £850 - £410 = £60.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-acc-c10-q009",
+      "chapter": 10,
+      "topic": "Irrecoverable debts and allowances for receivables",
+      "question_text": "What is the effect of writing off an irrecoverable debt on a business's financial statements?",
+      "options": {
+        "A": "Revenue decreases and cash decreases",
+        "B": "Profit decreases and current liabilities increase",
+        "C": "Profit decreases and current assets decrease",
+        "D": "Profit is unchanged and current assets decrease"
+      },
+      "correct": "C",
+      "explanation": "Writing off a debt debits an expense, reducing profit, and credits trade receivables, reducing current assets. Liabilities are not affected and no cash moves. Revenue is not reduced because the sale was genuinely made; the loss is a separate expense.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-acc-c11-q001",
+      "chapter": 11,
+      "topic": "Non-current assets: cost, depreciation, revaluation and disposal",
+      "question_text": "A company buys a machine with a list price of £64,000, on which it receives a trade discount of 5%. It also pays: delivery £1,200; installation £2,400; staff training on the machine £1,500; and a maintenance contract for the first year £900.\n\nUnder IAS 16 Property, Plant and Equipment, what is the cost of the machine?",
+      "options": {
+        "A": "£67,600",
+        "B": "£66,800",
+        "C": "£65,900",
+        "D": "£64,400"
+      },
+      "correct": "D",
+      "explanation": "Cost includes the purchase price after trade discounts and costs directly attributable to bringing the asset to the location and condition needed for it to operate. Purchase price = £64,000 x 95% = £60,800. Cost = £60,800 + delivery £1,200 + installation £2,400 = £64,400. Staff training and maintenance are expensed as incurred.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c11-q002",
+      "chapter": 11,
+      "topic": "Non-current assets: cost, depreciation, revaluation and disposal",
+      "question_text": "Which of the following is capital expenditure?",
+      "options": {
+        "A": "Building an extension that increases the floor area of a warehouse",
+        "B": "Repainting the outside of the warehouse",
+        "C": "Paying the annual insurance premium on the warehouse",
+        "D": "Replacing broken roof tiles on the warehouse"
+      },
+      "correct": "A",
+      "explanation": "Capital expenditure creates or enhances a non-current asset and is recognised in the statement of financial position. An extension adds to the asset's capacity, so it is capitalised. Repainting, minor repairs and insurance maintain the asset or are running costs, so they are revenue expenditure charged to profit or loss.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-acc-c11-q003",
+      "chapter": 11,
+      "topic": "Non-current assets: cost, depreciation, revaluation and disposal",
+      "question_text": "A company buys a vehicle on 1 April for £45,000. It has an estimated residual value of £5,000 and a useful life of 8 years. Depreciation is charged on a straight-line basis, pro rata for each month of ownership. The year end is 31 December.\n\nWhat is the depreciation charge for the year of purchase?",
+      "options": {
+        "A": "£5,000",
+        "B": "£3,750",
+        "C": "£5,625",
+        "D": "£4,218.75"
+      },
+      "correct": "B",
+      "explanation": "Annual depreciation = (cost £45,000 - residual value £5,000) / 8 years = £5,000. The vehicle is owned for 9 months (April to December). Charge = £5,000 x 9/12 = £3,750.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c11-q004",
+      "chapter": 11,
+      "topic": "Non-current assets: cost, depreciation, revaluation and disposal",
+      "question_text": "A machine costing £32,000 is depreciated at 25% per year on the reducing balance basis, with a full year's charge in the year of purchase. What is its carrying amount at the end of its third year?",
+      "options": {
+        "A": "£18,000",
+        "B": "£13,500",
+        "C": "£8,000",
+        "D": "£4,500"
+      },
+      "correct": "B",
+      "explanation": "Year 1: £32,000 x 75% = £24,000. Year 2: £24,000 x 75% = £18,000. Year 3: depreciation £18,000 x 25% = £4,500, leaving a carrying amount of £13,500. Applying 25% to cost each year (straight line) would give £8,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c11-q005",
+      "chapter": 11,
+      "topic": "Non-current assets: cost, depreciation, revaluation and disposal",
+      "question_text": "A company sells equipment that cost £28,000 and has accumulated depreciation of £17,500 for proceeds of £9,200. What is the profit or loss on disposal?",
+      "options": {
+        "A": "Profit of £1,300",
+        "B": "Profit of £9,200",
+        "C": "Loss of £1,300",
+        "D": "Loss of £18,800"
+      },
+      "correct": "C",
+      "explanation": "Carrying amount = £28,000 - £17,500 = £10,500. Proceeds of £9,200 are less than the carrying amount, so there is a loss on disposal of £10,500 - £9,200 = £1,300, charged to profit or loss.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-acc-c11-q006",
+      "chapter": 11,
+      "topic": "Non-current assets: cost, depreciation, revaluation and disposal",
+      "question_text": "A company trades in an old van for a new one. The old van cost £24,000 and has accumulated depreciation of £15,600. The dealer gives a part-exchange allowance of £7,000 against the new van's price of £30,000, and the company pays the balance of £23,000 in cash.\n\nWhat is the profit or loss on disposal of the old van?",
+      "options": {
+        "A": "Profit of £7,000",
+        "B": "Profit of £1,400",
+        "C": "Loss of £1,000",
+        "D": "Loss of £1,400"
+      },
+      "correct": "D",
+      "explanation": "The part-exchange allowance is treated as the disposal proceeds of the old van. Carrying amount = £24,000 - £15,600 = £8,400. Loss = £8,400 - £7,000 = £1,400. The new van is recorded at its full cost of £30,000, made up of the allowance £7,000 plus cash £23,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c11-q007",
+      "chapter": 11,
+      "topic": "Non-current assets: cost, depreciation, revaluation and disposal",
+      "question_text": "A company's building has a cost of £450,000 and accumulated depreciation of £70,000. It is revalued to £520,000. There have been no previous revaluations.\n\nHow is the revaluation recognised?",
+      "options": {
+        "A": "A gain of £140,000 in other comprehensive income, accumulated in the revaluation surplus",
+        "B": "A gain of £70,000 in other comprehensive income, accumulated in the revaluation surplus",
+        "C": "A gain of £70,000 in profit or loss for the year",
+        "D": "A gain of £140,000 in profit or loss for the year"
+      },
+      "correct": "A",
+      "explanation": "Carrying amount before revaluation = £450,000 - £70,000 = £380,000. Increase = £520,000 - £380,000 = £140,000. Under IAS 16, a revaluation increase is recognised in other comprehensive income and accumulated in equity as a revaluation surplus, unless it reverses a previous decrease recognised in profit or loss.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c11-q008",
+      "chapter": 11,
+      "topic": "Non-current assets: cost, depreciation, revaluation and disposal",
+      "question_text": "A company bought a building for £400,000 with a useful life of 50 years and no residual value. After 10 years it was revalued to £600,000, with no change in its total useful life. The company makes an annual transfer of excess depreciation from the revaluation surplus to retained earnings.\n\nWhat is the amount of the annual transfer?",
+      "options": {
+        "A": "£8,000",
+        "B": "£15,000",
+        "C": "£5,600",
+        "D": "£7,000"
+      },
+      "correct": "D",
+      "explanation": "Depreciation based on cost = £400,000 / 50 = £8,000 a year. Remaining life after 10 years = 40 years, so depreciation based on the revalued amount = £600,000 / 40 = £15,000. The excess depreciation transferred from the revaluation surplus to retained earnings = £15,000 - £8,000 = £7,000. This equals the surplus of £280,000 spread over the remaining 40 years.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-acc-c11-q009",
+      "chapter": 11,
+      "topic": "Non-current assets: cost, depreciation, revaluation and disposal",
+      "question_text": "A company revalues a piece of land downwards from its carrying amount of £150,000 to £120,000. The land has never been revalued before. How is the £30,000 decrease recognised?",
+      "options": {
+        "A": "It is not recognised until the land is sold",
+        "B": "As an expense in profit or loss",
+        "C": "As a deduction from share premium",
+        "D": "As a debit to a revaluation surplus, creating a negative reserve"
+      },
+      "correct": "B",
+      "explanation": "Under IAS 16, a revaluation decrease is recognised in other comprehensive income only to the extent that there is a credit balance in the revaluation surplus for that asset. Because the land has never been revalued upwards, there is no surplus to absorb the loss. The full £30,000 is therefore recognised in profit or loss.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c11-q010",
+      "chapter": 11,
+      "topic": "Non-current assets: cost, depreciation, revaluation and disposal",
+      "question_text": "A machine was bought for £60,000 and depreciated straight line over 10 years with no residual value. At the start of year 5, the total remaining useful life is reassessed as 3 years.\n\nWhat is the depreciation charge for year 5?",
+      "options": {
+        "A": "£20,000",
+        "B": "£12,000",
+        "C": "£6,000",
+        "D": "£9,000"
+      },
+      "correct": "B",
+      "explanation": "Carrying amount after 4 years = £60,000 - (£6,000 x 4) = £36,000. A change in useful life is a change in accounting estimate, applied prospectively under IAS 8, so past depreciation is not restated. The carrying amount is spread over the revised remaining life: £36,000 / 3 = £12,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-acc-c11-q011",
+      "chapter": 11,
+      "topic": "Non-current assets: cost, depreciation, revaluation and disposal",
+      "question_text": "At 1 January, a company's plant and machinery had a cost of £240,000, none of which was fully depreciated. On 1 April it sold plant that had cost £30,000, and on 1 October it bought new plant costing £48,000. Plant is depreciated at 10% per year straight line on cost, pro rata for each month of ownership. The year end is 31 December.\n\nWhat is the depreciation charge for the year?",
+      "options": {
+        "A": "£22,200",
+        "B": "£25,200",
+        "C": "£28,800",
+        "D": "£22,950"
+      },
+      "correct": "D",
+      "explanation": "Plant held all year: (£240,000 - £30,000) x 10% = £21,000. Plant sold on 1 April, 3 months: £30,000 x 10% x 3/12 = £750. Plant bought on 1 October, 3 months: £48,000 x 10% x 3/12 = £1,200. Total = £22,950.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-acc-c11-q012",
+      "chapter": 11,
+      "topic": "Non-current assets: cost, depreciation, revaluation and disposal",
+      "question_text": "Under IAS 38 Intangible Assets, how should a company account for expenditure on a project to discover new scientific knowledge (research), and for later expenditure on developing a new product that meets all the recognition criteria (development)?",
+      "options": {
+        "A": "Both research and development are capitalised",
+        "B": "Research is expensed; development is capitalised as an intangible asset",
+        "C": "Research is capitalised; development is expensed",
+        "D": "Both research and development are expensed"
+      },
+      "correct": "B",
+      "explanation": "IAS 38 requires all expenditure in the research phase to be recognised as an expense when incurred, because future economic benefits cannot be demonstrated. Development expenditure must be capitalised as an intangible asset once all the recognition criteria are met, such as technical feasibility, intention and ability to complete and use or sell the asset, probable future economic benefits and reliable measurement.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c11-q013",
+      "chapter": 11,
+      "topic": "Non-current assets: cost, depreciation, revaluation and disposal",
+      "question_text": "What is the purpose of depreciation under IAS 16?",
+      "options": {
+        "A": "To allocate the depreciable amount of an asset systematically over its useful life",
+        "B": "To show the asset at its current market value",
+        "C": "To build up a cash fund to replace the asset",
+        "D": "To reduce the asset's carrying amount to its realisable value at each year end"
+      },
+      "correct": "A",
+      "explanation": "Depreciation is the systematic allocation of the depreciable amount (cost or revalued amount less residual value) of an asset over its useful life. It matches the cost of using the asset against the revenue it helps to generate. It does not aim to show market value and does not set aside any cash.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-acc-c12-q001",
+      "chapter": 12,
+      "topic": "Financial statements of sole traders and partnerships",
+      "question_text": "A sole trader's capital at the start of the year was £45,000. During the year the owner introduced a further £5,000, took cash drawings of £19,800 and took goods costing £1,500 for personal use. Profit for the year was £28,600.\n\nWhat is the closing capital?",
+      "options": {
+        "A": "£57,300",
+        "B": "£58,800",
+        "C": "£47,300",
+        "D": "£52,300"
+      },
+      "correct": "A",
+      "explanation": "Closing capital = opening capital + capital introduced + profit - drawings. Drawings include both the cash £19,800 and the goods £1,500, a total of £21,300. Closing capital = £45,000 + £5,000 + £28,600 - £21,300 = £57,300.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c12-q002",
+      "chapter": 12,
+      "topic": "Financial statements of sole traders and partnerships",
+      "question_text": "A trader's inventory was destroyed and closing inventory must be estimated. Sales for the year were £150,000, and the trader always sells at a mark-up of 25% on cost. Opening inventory was £18,000 and purchases were £121,500.\n\nWhat was the closing inventory?",
+      "options": {
+        "A": "£1,500",
+        "B": "£19,500",
+        "C": "£16,500",
+        "D": "£27,000"
+      },
+      "correct": "B",
+      "explanation": "A mark-up of 25% on cost means sales are 125% of cost, so cost of sales = £150,000 x 100/125 = £120,000. Closing inventory = opening inventory + purchases - cost of sales = £18,000 + £121,500 - £120,000 = £19,500. Treating 25% as a margin on sales would give cost of sales of £112,500 and the wrong inventory figure.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-acc-c12-q003",
+      "chapter": 12,
+      "topic": "Financial statements of sole traders and partnerships",
+      "question_text": "How are a sole trader's drawings presented in the financial statements?",
+      "options": {
+        "A": "As an expense in the statement of profit or loss",
+        "B": "As a deduction from revenue in the statement of profit or loss",
+        "C": "As a current liability in the statement of financial position",
+        "D": "As a deduction from capital in the statement of financial position"
+      },
+      "correct": "D",
+      "explanation": "Drawings are withdrawals of resources by the owner, not expenses of the business. They are deducted from the owner's capital, together with the addition of profit, in the capital section of the statement of financial position. Treating them as an expense would understate profit.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-acc-c12-q004",
+      "chapter": 12,
+      "topic": "Financial statements of sole traders and partnerships",
+      "question_text": "Amir and Beth are in partnership. Their agreement provides for: a salary of £12,000 per year for Amir; interest on capital at 5% per year; and residual profits shared Amir:Beth 3:2. Capital balances are Amir £80,000 and Beth £60,000. Profit for the year is £96,000.\n\nWhat is Amir's total share of the profit?",
+      "options": {
+        "A": "£57,600",
+        "B": "£62,200",
+        "C": "£46,200",
+        "D": "£66,400"
+      },
+      "correct": "B",
+      "explanation": "Interest on capital: Amir £4,000, Beth £3,000. Residual profit = £96,000 - salary £12,000 - interest £7,000 = £77,000. Amir's share of the residual = 3/5 x £77,000 = £46,200. Amir's total = £12,000 + £4,000 + £46,200 = £62,200.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c12-q005",
+      "chapter": 12,
+      "topic": "Financial statements of sole traders and partnerships",
+      "question_text": "Paula and Quentin share residual profits in the ratio 2:1. Quentin receives a salary of £9,000 per year, and interest is charged on drawings: Paula £900 and Quentin £600. The partnership profit for the year is £54,000.\n\nWhat is Quentin's total share of the profit for the year, after deducting his interest on drawings?",
+      "options": {
+        "A": "£23,900",
+        "B": "£24,500",
+        "C": "£23,400",
+        "D": "£18,000"
+      },
+      "correct": "A",
+      "explanation": "Interest on drawings is charged to the partners and added to the profit available for appropriation. Residual profit = £54,000 + £900 + £600 - salary £9,000 = £46,500. Quentin's residual share = 1/3 x £46,500 = £15,500. Quentin's total = £9,000 + £15,500 - £600 = £23,900.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-acc-c12-q006",
+      "chapter": 12,
+      "topic": "Financial statements of sole traders and partnerships",
+      "question_text": "A partner's current account had a credit balance of £3,400 at the start of the year. Her share of profit for the year was £28,750 and her drawings were £30,500.\n\nWhat is the balance on her current account at the end of the year?",
+      "options": {
+        "A": "£1,650 credit",
+        "B": "£5,150 credit",
+        "C": "£1,650 debit",
+        "D": "£1,750 debit"
+      },
+      "correct": "A",
+      "explanation": "The current account is credited with the opening balance and the share of profit, and debited with drawings. Closing balance = £3,400 + £28,750 - £30,500 = £1,650 credit. A credit balance means the partnership owes this amount to the partner.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-acc-c12-q007",
+      "chapter": 12,
+      "topic": "Financial statements of sole traders and partnerships",
+      "question_text": "Under the Partnership Act 1890, which of the following applies when the partners have made no agreement about the sharing of profits?",
+      "options": {
+        "A": "Profits are shared in proportion to the hours each partner works",
+        "B": "Profits and losses are shared equally, and no partner is entitled to a salary or interest on capital",
+        "C": "Profits are shared in proportion to the partners' capital balances",
+        "D": "Each partner receives interest on capital at 5% and residual profits are shared equally"
+      },
+      "correct": "B",
+      "explanation": "In the absence of an agreement, the Partnership Act 1890 provides that profits and losses are shared equally. No partner is entitled to a salary or to interest on capital, and no interest is charged on drawings. A partner who lends money to the firm beyond their capital is entitled to interest on that loan at 5% per year.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c12-q008",
+      "chapter": 12,
+      "topic": "Financial statements of sole traders and partnerships",
+      "question_text": "Why do many partnerships keep separate capital accounts and current accounts for each partner?",
+      "options": {
+        "A": "Capital accounts are used only when a partner leaves the partnership",
+        "B": "Capital accounts record drawings, while current accounts record profit shares only",
+        "C": "Capital accounts record the fixed capital invested, while current accounts record each partner's share of profits, salaries, interest and drawings",
+        "D": "Current accounts are required by law to show amounts owed to the bank"
+      },
+      "correct": "C",
+      "explanation": "Keeping fixed capital accounts shows the long-term capital each partner has agreed to invest, which may be used to calculate interest on capital. Day-to-day movements, such as profit shares, salaries, interest and drawings, go through the current accounts. This separates the permanent investment from the fluctuating balances.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-acc-c12-q009",
+      "chapter": 12,
+      "topic": "Financial statements of sole traders and partnerships",
+      "question_text": "A trader does not keep full records. Trade receivables were £6,800 at the start of the year and £7,950 at the end. During the year £92,400 was received from credit customers and debts of £600 were written off as irrecoverable.\n\nWhat were the credit sales for the year?",
+      "options": {
+        "A": "£93,550",
+        "B": "£92,950",
+        "C": "£94,150",
+        "D": "£91,850"
+      },
+      "correct": "C",
+      "explanation": "Reconstruct the receivables account: opening £6,800 + credit sales = cash received £92,400 + irrecoverable debts £600 + closing £7,950. Credit sales = £92,400 + £600 + £7,950 - £6,800 = £94,150.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-acc-c12-q010",
+      "chapter": 12,
+      "topic": "Financial statements of sole traders and partnerships",
+      "question_text": "Rhys and Sian are partners with a 31 December year end. Until 30 June they shared profits equally. From 1 July they agreed to share profits Rhys:Sian 2:1. The profit for the year was £72,000, accruing evenly over the year. There are no salaries or interest.\n\nWhat is Rhys's share of the profit for the year?",
+      "options": {
+        "A": "£30,000",
+        "B": "£36,000",
+        "C": "£42,000",
+        "D": "£48,000"
+      },
+      "correct": "C",
+      "explanation": "The profit is split into two six-month periods of £36,000 each. January to June, shared equally: Rhys £18,000. July to December, shared 2:1: Rhys 2/3 x £36,000 = £24,000. Rhys's total = £18,000 + £24,000 = £42,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-acc-c12-q011",
+      "chapter": 12,
+      "topic": "Financial statements of sole traders and partnerships",
+      "question_text": "A sole trader's records show: revenue £210,000; cost of sales £128,000; operating expenses £47,500; interest on a business loan £1,200; drawings £18,000.\n\nWhat is the profit for the year?",
+      "options": {
+        "A": "£34,500",
+        "B": "£82,000",
+        "C": "£33,300",
+        "D": "£15,300"
+      },
+      "correct": "C",
+      "explanation": "Gross profit = £210,000 - £128,000 = £82,000. Profit for the year = gross profit - operating expenses £47,500 - loan interest £1,200 = £33,300. Drawings are not an expense; they are deducted from capital.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-acc-c13-q001",
+      "chapter": 13,
+      "topic": "Limited company financial statements",
+      "question_text": "A company issues 200,000 ordinary shares with a nominal value of £0.50 each at a price of £1.40 per share, all paid in cash. How is the issue recorded in equity?",
+      "options": {
+        "A": "Share capital £280,000",
+        "B": "Share capital £100,000 and share premium £180,000",
+        "C": "Share capital £100,000 and retained earnings £180,000",
+        "D": "Share capital £200,000 and share premium £80,000"
+      },
+      "correct": "B",
+      "explanation": "Share capital is always recorded at nominal value: 200,000 x £0.50 = £100,000. The excess received over nominal value is credited to share premium: 200,000 x (£1.40 - £0.50) = £180,000. Cash of £280,000 is debited.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c13-q002",
+      "chapter": 13,
+      "topic": "Limited company financial statements",
+      "question_text": "Where are ordinary dividends paid during the year shown in a company's financial statements prepared under IFRS?",
+      "options": {
+        "A": "In the statement of profit or loss, as a finance cost",
+        "B": "In the statement of profit or loss, as an administrative expense",
+        "C": "In other comprehensive income",
+        "D": "In the statement of changes in equity, as a deduction from retained earnings"
+      },
+      "correct": "D",
+      "explanation": "Dividends are distributions to owners of their share of profits, not expenses of the business. They are therefore presented in the statement of changes in equity as a reduction of retained earnings. Finance costs relate to interest on borrowings, not to returns to shareholders.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-acc-c13-q003",
+      "chapter": 13,
+      "topic": "Limited company financial statements",
+      "question_text": "A company's reporting date is 31 December. In February, after the reporting date but before the financial statements are authorised for issue, the directors declare a final ordinary dividend for the year just ended. How should this dividend be treated in the financial statements for the year ended 31 December?",
+      "options": {
+        "A": "It is recognised as a current liability at the reporting date",
+        "B": "It is not recognised as a liability at the reporting date, but is disclosed in the notes",
+        "C": "It is recognised as an expense in the statement of profit or loss",
+        "D": "It is deducted from retained earnings at the reporting date"
+      },
+      "correct": "B",
+      "explanation": "At 31 December the company had no present obligation to pay the dividend, because it had not yet been declared, so it does not meet the Conceptual Framework definition of a liability and is not recognised. It will be deducted from retained earnings in the statement of changes in equity of the following year, when it is declared. IAS 1 requires the amount of dividends proposed or declared before the financial statements are authorised for issue, but not recognised, to be disclosed in the notes. Dividends are never an expense in profit or loss.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c13-q004",
+      "chapter": 13,
+      "topic": "Limited company financial statements",
+      "question_text": "A company's income tax liability for the previous year was estimated at £31,000. It was settled during the current year for £33,200. The estimated income tax for the current year is £38,000.\n\nWhat is the income tax expense in the statement of profit or loss for the current year?",
+      "options": {
+        "A": "£33,200",
+        "B": "£35,800",
+        "C": "£38,000",
+        "D": "£40,200"
+      },
+      "correct": "D",
+      "explanation": "The previous year's estimate of £31,000 was £2,200 too low (£33,200 - £31,000), an under-provision. This is a change in estimate and is added to the current year's charge. Tax expense = £38,000 + £2,200 = £40,200. The liability in the statement of financial position is the current year estimate of £38,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-acc-c13-q005",
+      "chapter": 13,
+      "topic": "Limited company financial statements",
+      "question_text": "A company's retained earnings were £145,000 at the start of the year. Profit for the year was £62,300, dividends paid were £24,000, and £3,000 was transferred from the revaluation surplus to retained earnings for excess depreciation.\n\nWhat are the retained earnings at the end of the year?",
+      "options": {
+        "A": "£186,300",
+        "B": "£180,300",
+        "C": "£183,300",
+        "D": "£210,300"
+      },
+      "correct": "A",
+      "explanation": "Closing retained earnings = opening £145,000 + profit £62,300 - dividends £24,000 + transfer from revaluation surplus £3,000 = £186,300. The transfer moves the realised part of the surplus into retained earnings; it does not pass through profit or loss.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c13-q006",
+      "chapter": 13,
+      "topic": "Limited company financial statements",
+      "question_text": "Which of the following is NOT a component of a complete set of financial statements under IAS 1 Presentation of Financial Statements?",
+      "options": {
+        "A": "A statement of cash flows",
+        "B": "A statement of changes in equity",
+        "C": "A statement of financial position",
+        "D": "A chairman's statement"
+      },
+      "correct": "D",
+      "explanation": "IAS 1 states that a complete set of financial statements comprises a statement of financial position, a statement of profit or loss and other comprehensive income, a statement of changes in equity, a statement of cash flows and notes, with comparative information. A chairman's statement may be published alongside the financial statements but is not required by IAS 1.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "icaew-acc-c13-q007",
+      "chapter": 13,
+      "topic": "Limited company financial statements",
+      "question_text": "At its year end, a company has a bank loan of £50,000, repayable in equal annual instalments of £10,000, with the first instalment due nine months after the year end. How should the loan be presented in the statement of financial position?",
+      "options": {
+        "A": "Non-current liabilities £50,000",
+        "B": "Current liabilities £40,000; non-current liabilities £10,000",
+        "C": "Current liabilities £50,000",
+        "D": "Current liabilities £10,000; non-current liabilities £40,000"
+      },
+      "correct": "D",
+      "explanation": "Under IAS 1, a liability is current if it is due to be settled within twelve months after the reporting period. The instalment of £10,000 due in nine months is current. The remaining £50,000 - £10,000 = £40,000 is due after more than twelve months and is non-current.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c13-q008",
+      "chapter": 13,
+      "topic": "Limited company financial statements",
+      "question_text": "Which of the following items is presented in a company's statement of changes in equity, rather than in its statement of profit or loss?",
+      "options": {
+        "A": "Interest paid on the company's loan notes",
+        "B": "The income tax expense for the year",
+        "C": "An issue of ordinary shares for cash at a premium",
+        "D": "Depreciation of property, plant and equipment"
+      },
+      "correct": "C",
+      "explanation": "The statement of changes in equity shows transactions with owners in their capacity as owners, such as share issues and dividends, together with total comprehensive income for the year. A share issue increases share capital and share premium and is not income. Loan note interest is a finance cost, income tax is the tax expense and depreciation is an operating expense, so all three are charged in the statement of profit or loss.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c13-q009",
+      "chapter": 13,
+      "topic": "Limited company financial statements",
+      "question_text": "Under IAS 37 Provisions, Contingent Liabilities and Contingent Assets, a company is being sued by a customer. Its lawyers advise that it is possible, but not probable, that the company will lose the case. How should this be treated?",
+      "options": {
+        "A": "Ignore the matter completely until the court reaches a decision",
+        "B": "Disclose a contingent liability in the notes, without recognising a provision",
+        "C": "Recognise a provision for the best estimate of the amount payable",
+        "D": "Recognise a provision and disclose a contingent asset"
+      },
+      "correct": "B",
+      "explanation": "A provision is recognised only when there is a present obligation from a past event, an outflow of resources is probable and a reliable estimate can be made. Here an outflow is only possible, so no provision is recognised. Instead, a contingent liability is disclosed in the notes, unless the possibility of an outflow is remote, in which case nothing is disclosed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "icaew-acc-c13-q010",
+      "chapter": 13,
+      "topic": "Limited company financial statements",
+      "question_text": "A company classifies expenses by function. For the year: opening inventory £34,000; purchases £286,000; closing inventory £41,500. Total depreciation is £25,000, of which 70% relates to production, 20% to distribution and 10% to administration.\n\nWhat is cost of sales?",
+      "options": {
+        "A": "£311,000",
+        "B": "£303,500",
+        "C": "£296,000",
+        "D": "£278,500"
+      },
+      "correct": "C",
+      "explanation": "Cost of sales = opening inventory + purchases - closing inventory + production depreciation. = £34,000 + £286,000 - £41,500 + (70% x £25,000 = £17,500) = £296,000. The distribution and administrative shares of depreciation are presented under distribution costs and administrative expenses.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-acc-c13-q011",
+      "chapter": 13,
+      "topic": "Limited company financial statements",
+      "question_text": "At the start of the year, a company's equity comprised: ordinary share capital (£1 shares) £100,000; share premium £20,000; retained earnings £150,000. During the year:\n1. It issued 40,000 ordinary £1 shares for cash at £1.75 each.\n2. After the share issue, it paid an ordinary dividend of 10p per share on all shares then in issue.\n3. Profit for the year was £56,000. There were no other movements in equity.\n\nWhat is the company's total equity at the end of the year?",
+      "options": {
+        "A": "£352,000",
+        "B": "£382,000",
+        "C": "£386,000",
+        "D": "£396,000"
+      },
+      "correct": "B",
+      "explanation": "Share capital = £100,000 + (40,000 x £1) = £140,000. Share premium = £20,000 + 40,000 x (£1.75 - £1.00) = £20,000 + £30,000 = £50,000. Dividend = 140,000 shares x £0.10 = £14,000. Retained earnings = £150,000 + £56,000 - £14,000 = £192,000. Total equity = £140,000 + £50,000 + £192,000 = £382,000. Recording the share issue at nominal value only gives £352,000, paying the dividend on 100,000 shares gives £386,000, and ignoring the dividend gives £396,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "icaew-acc-c13-q012",
+      "chapter": 13,
+      "topic": "Limited company financial statements",
+      "question_text": "Under IAS 1 Presentation of Financial Statements, which of the following would be classified as a non-current liability in a company's statement of financial position?",
+      "options": {
+        "A": "Income tax payable on the profit for the year just ended",
+        "B": "Trade payables due for payment within 30 days",
+        "C": "A bank overdraft repayable on demand",
+        "D": "Loan notes that are repayable in five years' time"
+      },
+      "correct": "D",
+      "explanation": "IAS 1 classifies a liability as current if it is due to be settled within twelve months after the reporting period, is held for trading, or is expected to be settled in the normal operating cycle; all other liabilities are non-current. Loan notes repayable in five years are not due within twelve months, so they are non-current. Income tax payable, trade payables and an overdraft repayable on demand are all due within twelve months and are current liabilities.",
+      "difficulty": "easy"
+    }
+  ]
+}

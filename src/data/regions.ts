@@ -121,7 +121,8 @@ export const EXAM_BODIES: ExamBody[] = [
     qualification: "CIMA / CGMA",
     flag: "🌍",
     region: "Global",
-    status: "waitlist",
+    status: "live",
+    practiceHref: "/exams/cima#practice",
     tagline: "Certificate in Business Accounting and objective-test (OT) exams at every level.",
     levels: [
       {
@@ -144,7 +145,8 @@ export const EXAM_BODIES: ExamBody[] = [
     qualification: "ACA (UK)",
     flag: "🇬🇧",
     region: "United Kingdom",
-    status: "waitlist",
+    status: "live",
+    practiceHref: "/exams/icaew#practice",
     tagline: "ACA Certificate Level objective-test modules.",
     levels: [
       {

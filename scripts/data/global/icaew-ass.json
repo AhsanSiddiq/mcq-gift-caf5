@@ -440,7 +440,7 @@
       "id": "icaew-ass-c03-q012",
       "chapter": 3,
       "topic": "Planning, materiality and risk assessment",
-      "question_text": "A client's revenue has risen by 10% while its cost of sales is unchanged, so the gross margin has risen from 30% to 38%. The business has not changed its pricing or suppliers. Which risk is this most likely to indicate?",
+      "question_text": "A client's revenue has risen by 10% while its cost of sales is unchanged, so the gross margin has risen from 30% to approximately 36.4%. The business has not changed its pricing or suppliers. Which risk is this most likely to indicate?",
       "options": {
         "A": "Purchases may be incomplete, or closing inventory may be overstated",
         "B": "Revenue may be understated",
@@ -448,7 +448,7 @@
         "D": "Administrative expenses may be overstated"
       },
       "correct": "A",
-      "explanation": "With unchanged prices and suppliers, cost of sales should rise roughly in line with revenue. An unchanged cost of sales may mean purchases have been omitted or closing inventory overstated, both of which reduce cost of sales and inflate the margin. Understated revenue or understated inventory would lower the margin, and administrative expenses do not affect gross margin.",
+      "explanation": "Check the margin: if last year's revenue was 100 and cost of sales 70 (30% margin), this year's revenue is 110 with cost of sales still 70, so gross profit is 40 and the margin is 40 / 110 = 36.4% (rounded to one decimal place). With unchanged prices and suppliers, cost of sales should rise roughly in line with revenue, so an unchanged cost of sales may mean purchases have been omitted or closing inventory overstated, both of which reduce cost of sales and inflate the margin. Understated revenue or understated inventory would lower the margin, and administrative expenses do not affect gross margin.",
       "difficulty": "hard"
     },
     {
@@ -1490,7 +1490,7 @@
       "id": "icaew-ass-c10-q001",
       "chapter": 10,
       "topic": "Professional ethics: principles, threats and safeguards",
-      "question_text": "Which of the following is NOT one of the fundamental principles in the ICAEW Code of Ethics?",
+      "question_text": "Which of the following is NOT one of the five fundamental principles set out in the ICAEW Code of Ethics?",
       "options": {
         "A": "Integrity",
         "B": "Objectivity",
@@ -1498,7 +1498,7 @@
         "D": "Independence"
       },
       "correct": "D",
-      "explanation": "The five fundamental principles are integrity, objectivity, professional competence and due care, confidentiality, and professional behaviour. Independence is closely linked to objectivity and is required of auditors and other assurance providers under the independence requirements, but it is not itself one of the five fundamental principles.",
+      "explanation": "The five fundamental principles in the ICAEW Code of Ethics are integrity, objectivity, professional competence and due care, confidentiality, and professional behaviour. Independence is closely linked to objectivity and is required of auditors and other assurance providers under the Code's independence requirements and, for UK audits, the FRC Ethical Standard, but it is not itself one of the five fundamental principles. Integrity, objectivity and professional behaviour are all fundamental principles.",
       "difficulty": "easy"
     },
     {
@@ -1715,15 +1715,15 @@
       "id": "icaew-ass-c11-q004",
       "chapter": 11,
       "topic": "Confidentiality, money laundering and regulation",
-      "question_text": "Which of the following best describes the 'layering' stage of money laundering?",
+      "question_text": "An audit senior wants to continue working at home on a client's payroll file, which contains employees' names, salaries and bank details. Which action best complies with data protection law (UK GDPR) and the duty of confidentiality?",
       "options": {
-        "A": "Introducing cash proceeds of crime into the banking system",
-        "B": "Using the funds to buy legitimate assets so they appear clean",
-        "C": "Carrying out complex transactions to obscure the link between the funds and their criminal source",
-        "D": "Reporting the funds to the authorities"
+        "A": "Email the file to a personal email account so that it can be opened on a home computer",
+        "B": "Copy the file to an unencrypted USB stick and delete it once the audit is finished",
+        "C": "Access the file only through the firm's secure, encrypted systems on a firm device, and use only the personal data needed for the audit work",
+        "D": "Print the file and take it home, because paper records are outside the scope of data protection law"
       },
       "correct": "C",
-      "explanation": "Layering involves moving funds through a series of transactions, such as transfers between accounts or jurisdictions, to make the audit trail difficult to follow. Introducing cash is placement, and using funds to buy legitimate assets is integration.",
+      "explanation": "Personal data must be processed securely, protected against unauthorised access or loss, and limited to what is necessary for the purpose. Using the firm's encrypted systems and devices, and only the data needed for the work, meets these requirements and protects client confidentiality. Personal email accounts and unencrypted USB sticks expose the data to loss or interception, and personal data held in paper filing systems is still protected by data protection law.",
       "difficulty": "medium"
     },
     {
@@ -1775,15 +1775,15 @@
       "id": "icaew-ass-c11-q008",
       "chapter": 11,
       "topic": "Confidentiality, money laundering and regulation",
-      "question_text": "In the UK, which type of body is responsible for registering and monitoring firms eligible to carry out statutory audits, such as ICAEW?",
+      "question_text": "Under the Companies Act 2006, a firm can act as a statutory auditor only if it is registered with, and its audit work is monitored by, a recognised body. ICAEW carries out this role for its member firms. In doing so, which type of body is ICAEW acting as?",
       "options": {
-        "A": "A recognised qualifying body only",
+        "A": "A recognised qualifying body",
         "B": "A recognised supervisory body",
-        "C": "The Registrar of Companies",
-        "D": "HM Revenue & Customs"
+        "C": "An agent of the Registrar of Companies",
+        "D": "A professional body supervisor for anti-money laundering purposes"
       },
       "correct": "B",
-      "explanation": "Statutory auditors must be members of a recognised supervisory body, which registers eligible firms and monitors their audit work through inspections, under oversight by the competent authority. A recognised qualifying body awards the audit qualification. The Registrar of Companies and HM Revenue & Customs do not regulate auditors.",
+      "explanation": "A recognised supervisory body (RSB) registers firms as eligible for appointment as statutory auditors and monitors the quality of their audit work, under oversight by the competent authority. A recognised qualifying body (RQB) awards the professional qualification that makes an individual eligible; ICAEW is also an RQB, but that is a different role from registering and monitoring firms. ICAEW's anti-money laundering supervision is also a separate role, and the Registrar of Companies does not register or monitor auditors.",
       "difficulty": "medium"
     },
     {
@@ -1805,7 +1805,7 @@
       "id": "icaew-ass-c11-q010",
       "chapter": 11,
       "topic": "Confidentiality, money laundering and regulation",
-      "question_text": "Which of the following situations is most likely to give an accountant grounds to suspect money laundering under the Proceeds of Crime Act 2002?",
+      "question_text": "An accountant learns the following facts about four different clients. In which situation does the client hold criminal property under the Proceeds of Crime Act 2002, so that the accountant must consider making a money laundering report?",
       "options": {
         "A": "A client makes a genuine arithmetical error in its VAT return and corrects it promptly",
         "B": "A client deliberately fails to declare income to HM Revenue & Customs and keeps the tax saved",
@@ -1813,58 +1813,58 @@
         "D": "A client makes a loss on a legitimate investment"
       },
       "correct": "B",
-      "explanation": "Under the Act, criminal property includes any benefit from criminal conduct, including money saved through deliberate tax evasion. Retaining the tax saved therefore involves criminal property, and an accountant aware of it would need to consider reporting. Honest mistakes that are corrected, legal tax planning and investment losses are not criminal conduct.",
+      "explanation": "Under the Act, criminal property includes any benefit from criminal conduct, including money saved through deliberate tax evasion. A client who deliberately fails to declare income and keeps the tax saved therefore holds criminal property, and an accountant in the regulated sector who knows or suspects this must consider reporting to the firm's money laundering reporting officer. An honest mistake that is promptly corrected, lawful tax planning and an investment loss do not involve criminal conduct.",
       "difficulty": "hard"
     },
     {
       "id": "icaew-ass-c12-q001",
       "chapter": 12,
-      "topic": "Completing the engagement and reporting",
-      "question_text": "What is the auditor's responsibility for events occurring between the date of the financial statements and the date of the auditor's report?",
+      "topic": "Risk, information flows, sustainability assurance and reporting",
+      "question_text": "Which of the following best describes business risk, as distinct from the components of audit risk?",
       "options": {
-        "A": "No responsibility, because the audit covers only the financial year",
-        "B": "To guarantee that no significant events have occurred",
-        "C": "To prepare the disclosures of any events identified",
-        "D": "To perform procedures designed to identify events that may require adjustment of, or disclosure in, the financial statements"
+        "A": "The risk that the auditor expresses an inappropriate opinion when the financial statements are materially misstated",
+        "B": "The risk that the auditor's procedures will not detect a misstatement that could be material",
+        "C": "The risk that the entity's internal controls will not prevent, or detect and correct, a material misstatement",
+        "D": "The risk that conditions, events or actions could adversely affect the entity's ability to achieve its objectives and execute its strategies"
       },
       "correct": "D",
-      "explanation": "The auditor must perform procedures, such as reviewing board minutes and management accounts and making inquiries, to identify subsequent events that need adjustment or disclosure. The directors remain responsible for preparing the disclosures. No guarantee can be given that all events have been found.",
+      "explanation": "Business risk arises from the entity's operations and environment, for example new competitors, loss of key customers or technological change, and threatens its ability to meet its objectives. Many business risks have financial consequences and so increase the risk of material misstatement. Option A describes audit risk, option B detection risk and option C control risk.",
       "difficulty": "easy"
     },
     {
       "id": "icaew-ass-c12-q002",
       "chapter": 12,
-      "topic": "Completing the engagement and reporting",
-      "question_text": "Which of the following events occurring after the reporting date would normally be an adjusting event?",
+      "topic": "Risk, information flows, sustainability assurance and reporting",
+      "question_text": "A manufacturer's main product is being displaced by a cheaper rival technology, and the manufacturer's sales volumes fell sharply in the last quarter of the financial year. Which risk of material misstatement in the financial statements arises most directly from this business risk?",
       "options": {
-        "A": "A major customer that owed the company money at the year end goes into liquidation",
-        "B": "A fire destroys a warehouse two months after the year end",
-        "C": "The company announces a plan to close a division after the year end",
-        "D": "The company issues new shares after the year end"
+        "A": "Finished goods inventory may be overstated because its net realisable value may have fallen below cost",
+        "B": "Trade payables may be overstated because supplier invoices have been recorded twice",
+        "C": "Share capital may be misclassified within equity",
+        "D": "Payroll costs may be overstated because fictitious employees have been added to the payroll"
       },
       "correct": "A",
-      "explanation": "An adjusting event provides evidence of conditions that existed at the reporting date. The customer's liquidation shortly after the year end usually shows that the receivable was already impaired at the year end. The fire, the closure announcement and the share issue arise from conditions after the year end, so they are non-adjusting, although they may need disclosure if material.",
+      "explanation": "Falling demand for a product means some inventory may be slow-moving and may have to be sold at reduced prices. Inventory must be measured at the lower of cost and net realisable value, so there is a risk that it is overstated if no write-down is made. The auditor would respond with procedures such as reviewing post year-end selling prices and inventory ageing. Duplicate invoices, share capital classification and ghost employees are not caused by this business risk.",
       "difficulty": "medium"
     },
     {
       "id": "icaew-ass-c12-q003",
       "chapter": 12,
-      "topic": "Completing the engagement and reporting",
-      "question_text": "Which of the following is most likely to cast doubt on a company's ability to continue as a going concern?",
+      "topic": "Risk, information flows, sustainability assurance and reporting",
+      "question_text": "Which sequence correctly shows the normal flow of documents and information in a credit sales system?",
       "options": {
-        "A": "A small increase in staff turnover",
-        "B": "A change of the company's external auditor",
-        "C": "The payment of a dividend in line with previous years",
-        "D": "The loss of its largest customer and the bank's refusal to renew its overdraft facility"
+        "A": "Sales invoice, customer order, credit check, goods despatched note",
+        "B": "Goods despatched note, customer order, credit check, sales invoice",
+        "C": "Customer order, sales invoice, credit check, goods despatched note",
+        "D": "Customer order, credit check, goods despatched note, sales invoice"
       },
       "correct": "D",
-      "explanation": "Losing a key customer reduces future cash inflows, and losing bank finance removes a source of funding, so together they may mean the company cannot pay its debts as they fall due. Small changes in staff turnover, a change of auditor or a normal dividend are not, on their own, indicators of going concern problems.",
+      "explanation": "The process starts when a customer order is received. The customer's credit status is checked before the order is accepted, so that goods are not supplied to customers unlikely to pay. Goods are then despatched with a despatch note, and the sales invoice is raised from the despatch note so that only goods actually sent are invoiced. Understanding this flow helps the auditor identify where controls are needed, for example matching despatch notes to invoices.",
       "difficulty": "medium"
     },
     {
       "id": "icaew-ass-c12-q004",
       "chapter": 12,
-      "topic": "Completing the engagement and reporting",
+      "topic": "Risk, information flows, sustainability assurance and reporting",
       "question_text": "In an unmodified auditor's report on the financial statements of a UK company, what does the auditor's opinion state?",
       "options": {
         "A": "Whether the company's internal controls are effective",
@@ -1879,76 +1879,76 @@
     {
       "id": "icaew-ass-c12-q005",
       "chapter": 12,
-      "topic": "Completing the engagement and reporting",
-      "question_text": "An auditor concludes that inventory is materially overstated but the effect is not pervasive. The directors refuse to adjust it. What type of opinion should be given?",
+      "topic": "Risk, information flows, sustainability assurance and reporting",
+      "question_text": "A company processes all of its sales orders through a cloud-based system and keeps no manual records. Which control best mitigates the risk that a ransomware attack makes its sales data permanently unavailable?",
       "options": {
-        "A": "An adverse opinion",
-        "B": "A disclaimer of opinion",
-        "C": "A qualified opinion",
-        "D": "An unmodified opinion with an emphasis of matter paragraph"
+        "A": "Sales invoices generated by the system are sequentially numbered",
+        "B": "Customer credit limits are approved by the credit controller",
+        "C": "Regular back-ups are held securely, separated from the live network, and restoring data from them is tested periodically",
+        "D": "Range checks are applied to quantities entered on sales orders"
       },
       "correct": "C",
-      "explanation": "Where misstatements are material but not pervasive, the auditor gives a qualified 'except for' opinion. An adverse opinion is used where misstatements are both material and pervasive, and a disclaimer is used when the auditor cannot obtain sufficient appropriate evidence and the possible effects could be material and pervasive. An emphasis of matter paragraph does not modify the opinion.",
+      "explanation": "Heavy dependence on a single IT system means a cyber attack could destroy or lock the company's records. Secure back-ups kept separately from the live network, with restoration tested, allow the data to be recovered if the live system is compromised. This is a general IT control. Sequential numbering, credit limits and range checks are controls over individual transactions and do nothing to recover lost data.",
       "difficulty": "medium"
     },
     {
       "id": "icaew-ass-c12-q006",
       "chapter": 12,
-      "topic": "Completing the engagement and reporting",
-      "question_text": "Because of a fire that destroyed most of the client's accounting records, the auditor cannot obtain sufficient appropriate evidence over most balances, and the possible effects are both material and pervasive. What type of opinion should be given?",
+      "topic": "Risk, information flows, sustainability assurance and reporting",
+      "question_text": "Which of the following misstatements is most likely to result from fraud rather than error?",
       "options": {
-        "A": "An adverse opinion",
-        "B": "A disclaimer of opinion",
-        "C": "A qualified opinion",
-        "D": "An unmodified opinion with an emphasis of matter paragraph"
+        "A": "A clerk misreads a supplier invoice and posts £1,890 instead of £1,980",
+        "B": "The sales director instructs staff to date despatch notes for goods despatched on 3 January as 31 December, so that an annual bonus target is met",
+        "C": "An accountant misunderstands an accounting standard and capitalises staff training costs",
+        "D": "A depreciation rate is keyed in incorrectly when a new asset is added to the asset register"
       },
       "correct": "B",
-      "explanation": "When the auditor cannot obtain sufficient appropriate evidence and the possible effects of undetected misstatements could be both material and pervasive, the auditor does not express an opinion. A qualified opinion is used if the possible effects are material but not pervasive. An adverse opinion relates to misstatements that have been identified, not to a lack of evidence.",
+      "explanation": "The distinguishing factor between fraud and error is whether the act causing the misstatement was intentional. Deliberately misdating despatch notes to record sales in the wrong period is fraudulent financial reporting, and the bonus target provides an incentive. The transposed figure, the misunderstanding of a standard and the keying mistake are unintentional, so they are errors, even though they still need correcting if material.",
       "difficulty": "hard"
     },
     {
       "id": "icaew-ass-c12-q007",
       "chapter": 12,
-      "topic": "Completing the engagement and reporting",
-      "question_text": "An auditor concludes that the financial statements contain misstatements that are both material and pervasive, and management refuses to correct them. What type of opinion is required?",
+      "topic": "Risk, information flows, sustainability assurance and reporting",
+      "question_text": "Late in an audit, the finance director explains a large, unusual journal entry posted just before the year end and says that no supporting documentation is available. Which response best demonstrates professional scepticism?",
       "options": {
-        "A": "A disclaimer of opinion",
-        "B": "A qualified opinion",
-        "C": "An adverse opinion",
-        "D": "An unmodified opinion with an other matter paragraph"
+        "A": "Accept the explanation, because the finance director has always been honest in previous audits",
+        "B": "Record the explanation on file and move on, because management is responsible for the financial statements",
+        "C": "Seek evidence to corroborate the explanation and consider whether the entry may indicate fraud or management override of controls",
+        "D": "Conclude that the entry is fraudulent and report the finance director to the police immediately"
       },
       "correct": "C",
-      "explanation": "If the auditor has obtained sufficient appropriate evidence and concludes that misstatements are both material and pervasive, the opinion is adverse: the financial statements do not give a true and fair view. A disclaimer relates to a lack of evidence, and a qualified opinion is used where the effect is material but not pervasive.",
+      "explanation": "Professional scepticism is an attitude that includes a questioning mind and a critical assessment of evidence. Unusual entries made close to the year end without documentation are a recognised fraud risk indicator, so the auditor should seek corroborating evidence rather than rely on management's word or on past experience of the client's honesty. Scepticism does not mean assuming fraud without evidence, and simply recording management's explanation does not evaluate it.",
       "difficulty": "hard"
     },
     {
       "id": "icaew-ass-c12-q008",
       "chapter": 12,
-      "topic": "Completing the engagement and reporting",
-      "question_text": "Which of the following statements about an emphasis of matter paragraph is correct?",
+      "topic": "Risk, information flows, sustainability assurance and reporting",
+      "question_text": "Which of the following is a typical role of an entity's internal audit function?",
       "options": {
-        "A": "It is used to qualify the opinion where there is a material misstatement",
-        "B": "It draws users' attention to a matter properly presented or disclosed in the financial statements that is fundamental to their understanding, and does not modify the opinion",
-        "C": "It replaces the opinion paragraph where evidence is insufficient",
-        "D": "It is used to disclose matters that the directors have refused to disclose"
+        "A": "Expressing the statutory opinion on whether the financial statements give a true and fair view",
+        "B": "Monitoring and evaluating the effectiveness of internal control and risk management, and reporting findings to management or the audit committee",
+        "C": "Preparing the annual financial statements for approval by the board",
+        "D": "Setting the materiality level and sample sizes to be used by the external auditor"
       },
       "correct": "B",
-      "explanation": "An emphasis of matter paragraph highlights a matter that is appropriately presented or disclosed, such as a major uncertainty, which is fundamental to users' understanding. It is not a substitute for a modified opinion: if a matter is misstated or not disclosed properly, the opinion itself must be modified.",
+      "explanation": "Internal audit is part of the entity's monitoring of its internal control and risk management. It reviews systems and processes, tests controls and recommends improvements, usually reporting to the audit committee to support its independence. The statutory opinion is given by the external auditor, the financial statements are prepared by management, and the external auditor sets its own materiality and sample sizes.",
       "difficulty": "medium"
     },
     {
       "id": "icaew-ass-c12-q009",
       "chapter": 12,
-      "topic": "Completing the engagement and reporting",
-      "question_text": "When should the written representations obtained from management be dated?",
+      "topic": "Risk, information flows, sustainability assurance and reporting",
+      "question_text": "A company prepares sustainability-related disclosures in accordance with IFRS Sustainability Disclosure Standards and engages a practitioner to provide assurance on them. Which of the following statements is correct?",
       "options": {
-        "A": "On the last day of the financial year",
-        "B": "At the start of the audit fieldwork",
-        "C": "At least three months after the date of the auditor's report",
-        "D": "As near as practicable to, but not after, the date of the auditor's report"
+        "A": "IFRS Sustainability Disclosure Standards are issued by the International Auditing and Assurance Standards Board",
+        "B": "Assurance on sustainability information can only be given at the reasonable assurance level",
+        "C": "Once the engagement is accepted, the practitioner becomes responsible for preparing the sustainability disclosures",
+        "D": "The engagement may give limited or reasonable assurance, and either level increases users' confidence in the disclosures"
       },
       "correct": "D",
-      "explanation": "Written representations should cover all periods referred to in the auditor's report and be dated as near as practicable to, but not after, the date of that report. This ensures they cover events up to the date the opinion is given. Representations dated earlier would not cover the full period, and later ones would be too late to support the opinion.",
+      "explanation": "Assurance on sustainability information can be provided at a limited or a reasonable level, depending on the terms of the engagement and the evidence available, and in either case an independent conclusion adds credibility for investors and other users. IFRS Sustainability Disclosure Standards are issued by the International Sustainability Standards Board (ISSB), not the IAASB, which sets auditing and assurance standards. Management remains responsible for preparing the disclosures, as in any assurance engagement.",
       "difficulty": "medium"
     }
   ]

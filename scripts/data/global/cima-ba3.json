@@ -133,7 +133,7 @@
         "D": "Original transaction price"
       },
       "correct": "A",
-      "explanation": "The Conceptual Framework describes historical cost and current value as the two categories of measurement basis. Current value bases include fair value, value in use (for assets) or fulfilment value (for liabilities), and current cost. Amortised cost and the original transaction price are forms of historical cost measurement, because they do not reflect conditions at the measurement date.",
+      "explanation": "The Conceptual Framework describes two categories of measurement basis: historical cost and current value. Current value bases are fair value, value in use (for assets) or fulfilment value (for liabilities), and current cost. The Framework states that applying the historical cost basis to financial assets and financial liabilities can be done by measuring them at amortised cost, so amortised cost is a historical cost measure, as is the original transaction price; neither is updated to reflect conditions at the measurement date.",
       "difficulty": "hard"
     },
     {
@@ -470,15 +470,15 @@
       "id": "cima-ba3-c04-q004",
       "chapter": 4,
       "topic": "Books of prime entry and sales tax",
-      "question_text": "A business runs a petty cash imprest system with an imprest of $400. At the end of the month there are vouchers totalling $312 and $81 cash in the tin. How much cash should be drawn from the bank to restore the imprest?",
+      "question_text": "A business runs a petty cash imprest system with an imprest of $400. At the end of the month there are vouchers totalling $312 and $88 cash in the tin, so no cash is missing. How much cash should be drawn from the bank to restore the imprest?",
       "options": {
-        "A": "$81",
-        "B": "$88",
-        "C": "$312",
-        "D": "$319"
+        "A": "$88",
+        "B": "$393",
+        "C": "$400",
+        "D": "$312"
       },
       "correct": "D",
-      "explanation": "Under an imprest system the float is topped up to the imprest amount. The amount needed is $400 - $81 = $319. The vouchers ($312) and cash ($81) total $393, so there is an unexplained shortfall of $7, which should be investigated.",
+      "explanation": "Under an imprest system the float is topped up to the imprest amount by reimbursing exactly what has been spent. Vouchers $312 + cash $88 = $400, so the float is complete. Amount to draw = imprest $400 - cash in hand $88 = $312, which equals the total of the vouchers.",
       "difficulty": "medium"
     },
     {
@@ -800,7 +800,7 @@
       "id": "cima-ba3-c06-q006",
       "chapter": 6,
       "topic": "Bank reconciliations",
-      "question_text": "A cash book shows an overdraft of $2,150. Comparison with the bank statement shows: a customer's cheque for $480 has been dishonoured; bank interest of $65 has been charged; unpresented cheques total $1,930; a lodgement of $3,100 has not yet been credited; and the bank has wrongly debited the business's account with a cheque for $250 drawn by another customer of the bank. What balance is shown on the bank statement?",
+      "question_text": "A business's cash book shows an overdraft of $2,150. Comparison with the bank statement at the same date shows:\n(1) A customer's cheque for $480 has been dishonoured; this appears on the bank statement but has not been recorded in the cash book.\n(2) Bank interest of $65 appears on the bank statement but has not been recorded in the cash book.\n(3) Cheques of $1,930 recorded in the cash book have not yet been presented to the bank.\n(4) A lodgement of $3,100 recorded in the cash book has not yet been credited by the bank.\n(5) The bank has made an error: it debited the business's account with a $250 cheque drawn by another customer of the bank. The bank has not yet corrected this error, so it is included in the bank statement balance.\nWhat balance is shown on the bank statement?",
       "options": {
         "A": "$3,615 overdrawn",
         "B": "$2,695 overdrawn",
@@ -808,7 +808,7 @@
         "D": "$4,115 overdrawn"
       },
       "correct": "D",
-      "explanation": "Corrected cash book = -$2,150 - $480 - $65 = -$2,695 (overdrawn $2,695). Reconcile to the bank: add unpresented cheques $1,930, deduct the uncredited lodgement $3,100 and deduct the bank error $250: -$2,695 + $1,930 - $3,100 - $250 = -$4,115. The bank statement shows an overdraft of $4,115.",
+      "explanation": "First correct the cash book for items (1) and (2): -$2,150 - $480 - $65 = -$2,695 (overdrawn $2,695). Then reconcile to the bank statement: add back unpresented cheques $1,930 (not yet deducted by the bank), deduct the uncredited lodgement $3,100 (not yet added by the bank) and deduct the uncorrected bank error $250 (wrongly deducted by the bank): -$2,695 + $1,930 - $3,100 - $250 = -$4,115. The bank statement shows an overdraft of $4,115. Ignoring the bank error gives $3,865 overdrawn, which is not an option.",
       "difficulty": "hard"
     },
     {
@@ -1258,7 +1258,7 @@
         "D": "$1,050"
       },
       "correct": "D",
-      "explanation": "Closing inventory = 100 + 300 + 200 - 450 = 150 units. Under FIFO the oldest units are sold first, so the remaining units are from the latest purchase: 150 x $7 = $1,050. (Periodic weighted average would give $3,700 / 600 x 150 = $925, rounded to the nearest dollar.)",
+      "explanation": "Closing inventory = 100 + 300 + 200 - 450 = 150 units. Under FIFO the oldest units are sold first, so the 150 units remaining come from the latest purchase: 150 x $7 = $1,050. Distractors: weighted average would give ($500 + $1,800 + $1,400) / 600 = $6.1667 x 150 = $925 (exact, no rounding needed); valuing the closing units at $6 gives $900 and at $5 gives $750.",
       "difficulty": "medium"
     },
     {
@@ -1898,12 +1898,12 @@
       "question_text": "A company holds inventory of $27,000 at the year end. Cost of sales for the year was $219,000 and revenue was $292,000. What is the inventory holding period (to the nearest day)?",
       "options": {
         "A": "6 days",
-        "B": "8.1 days",
+        "B": "8 days",
         "C": "34 days",
         "D": "45 days"
       },
       "correct": "D",
-      "explanation": "Inventory holding period = inventory / cost of sales x 365 = $27,000 / $219,000 x 365 = 45.0, i.e. 45 days. Inventory is held at cost, so cost of sales (not revenue) is used.",
+      "explanation": "Inventory holding period = inventory / cost of sales x 365 = $27,000 / $219,000 x 365 = 45.0, i.e. 45 days. Inventory is held at cost, so cost of sales (not revenue) is used. Option B (8) is the inventory turnover in times ($219,000 / $27,000 = 8.1), not a period in days.",
       "difficulty": "medium"
     },
     {

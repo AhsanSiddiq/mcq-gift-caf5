@@ -1,0 +1,2105 @@
+{
+  "subject_id": "acca-fm",
+  "questions": [
+    {
+      "id": "acca-fm-c01-q001",
+      "chapter": 1,
+      "topic": "Financial management function",
+      "question_text": "For a listed company operating in the private sector, which of the following is generally regarded as the primary financial objective?",
+      "options": {
+        "A": "Maximisation of shareholder wealth",
+        "B": "Minimisation of the corporate tax charge",
+        "C": "Maximisation of the number of employees",
+        "D": "Maximisation of annual revenue"
+      },
+      "correct": "A",
+      "explanation": "Financial management theory assumes that the primary objective of a listed company is to maximise the wealth of its ordinary shareholders, who own the company and bear its residual risk. Shareholder wealth is reflected in dividends received and in the market value of the shares. Revenue growth, employment and tax minimisation may support this objective but are not the primary objective in themselves.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c01-q002",
+      "chapter": 1,
+      "topic": "Financial management function",
+      "question_text": "In the context of corporate finance, what is meant by the 'agency problem'?",
+      "options": {
+        "A": "Directors, acting as agents of the shareholders, may pursue their own interests rather than maximising shareholder wealth",
+        "B": "Lenders may refuse to provide finance to companies that have high gearing",
+        "C": "Employees may join a trade union in order to negotiate higher wages",
+        "D": "Shareholders may sell their shares to a competitor without informing the directors"
+      },
+      "correct": "A",
+      "explanation": "The agency relationship arises because shareholders (principals) delegate the running of the company to directors (agents). Where ownership is separated from control, directors may act in their own interests, for example by awarding themselves excessive pay or avoiding risky but worthwhile projects. This conflict of interest is the agency problem.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c01-q003",
+      "chapter": 1,
+      "topic": "Financial management function",
+      "question_text": "Which of the following remuneration schemes is MOST likely to encourage directors to act in a way that increases shareholder wealth over the long term?",
+      "options": {
+        "A": "Share options that can only be exercised several years after they are granted",
+        "B": "A cash bonus based on revenue growth in the current year",
+        "C": "A fixed annual salary with no performance-related element",
+        "D": "A bonus linked to the number of new subsidiaries acquired in the year"
+      },
+      "correct": "A",
+      "explanation": "Goal congruence is improved when directors' rewards are linked to the value of the company's shares over a long horizon. Long-dated share options only reward directors if the share price rises over several years. A fixed salary provides no incentive, while bonuses based on revenue or acquisitions may encourage short-termism or growth that destroys value.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c01-q004",
+      "chapter": 1,
+      "topic": "Financial management function",
+      "question_text": "A public sector hospital purchases its medical supplies at the lowest price available for the quality required. Which element of value for money does this illustrate?",
+      "options": {
+        "A": "Economy",
+        "B": "Effectiveness",
+        "C": "Equity",
+        "D": "Efficiency"
+      },
+      "correct": "A",
+      "explanation": "Value for money is assessed using the three Es. Economy means acquiring resources of the appropriate quality at the lowest cost. Efficiency is the relationship between outputs and inputs, and effectiveness is the extent to which objectives are achieved. Equity is not one of the three Es.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c01-q005",
+      "chapter": 1,
+      "topic": "Financial management function",
+      "question_text": "A local authority measures the number of households served per $1,000 spent on its waste collection service. Which aspect of value for money is being measured?",
+      "options": {
+        "A": "Efficiency",
+        "B": "Profitability",
+        "C": "Economy",
+        "D": "Effectiveness"
+      },
+      "correct": "A",
+      "explanation": "Efficiency compares outputs (households served) with the inputs used to produce them (money spent). Economy concerns the cost of the inputs only, and effectiveness concerns whether the service achieves its objectives, such as reducing uncollected waste. Profitability is not usually a goal of a public service.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c01-q006",
+      "chapter": 1,
+      "topic": "Financial management function",
+      "question_text": "An investor bought shares in a company for $4.00 each one year ago. During the year a dividend of $0.20 per share was paid, and the share price is now $4.60. What was the total shareholder return for the year?",
+      "options": {
+        "A": "5.0%",
+        "B": "15.0%",
+        "C": "17.4%",
+        "D": "20.0%"
+      },
+      "correct": "D",
+      "explanation": "Total shareholder return = (capital gain + dividend) / opening share price = ((4.60 - 4.00) + 0.20) / 4.00 = 0.80 / 4.00 = 20.0% (rounded to 1 decimal place). Using only the capital gain gives 15.0%, using only the dividend yield gives 5.0%, and dividing by the closing price instead of the opening price gives 17.4%.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c01-q007",
+      "chapter": 1,
+      "topic": "Financial management function",
+      "question_text": "A company's earnings per share (EPS) have risen from $0.32 to $0.41 over a three-year period. What is the average annual compound growth rate in EPS?",
+      "options": {
+        "A": "6.4%",
+        "B": "8.6%",
+        "C": "9.4%",
+        "D": "28.1%"
+      },
+      "correct": "B",
+      "explanation": "Compound annual growth = (0.41 / 0.32)^(1/3) - 1 = 1.28125^(1/3) - 1 = 8.61%, which is 8.6% to 1 decimal place. Dividing the total growth of 28.1% by three gives the simple (not compound) average of 9.4%, while using a fourth root wrongly assumes four years of growth.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c01-q008",
+      "chapter": 1,
+      "topic": "Financial management function",
+      "question_text": "Which of the following is NOT one of the three key decisions normally associated with financial management?",
+      "options": {
+        "A": "The marketing decision",
+        "B": "The dividend decision",
+        "C": "The financing decision",
+        "D": "The investment decision"
+      },
+      "correct": "A",
+      "explanation": "Financial management is concerned with three inter-related decisions: which projects to invest in (investment), how to raise the funds needed (financing) and how much of the earnings to return to shareholders (dividend). Marketing decisions are the responsibility of the marketing function, although they will have financial consequences.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c01-q009",
+      "chapter": 1,
+      "topic": "Financial management function",
+      "question_text": "Which of the following stakeholder objectives is MOST likely to conflict with an objective of maximising shareholder wealth by investing in higher-risk projects?",
+      "options": {
+        "A": "Lenders wishing to minimise the risk that interest and capital will not be repaid",
+        "B": "Shareholders wishing to receive capital growth",
+        "C": "Customers wishing to receive high-quality products",
+        "D": "Directors wishing to increase the share price to benefit from share options"
+      },
+      "correct": "A",
+      "explanation": "Lenders receive a fixed return, so they gain nothing from the extra returns on riskier projects but bear more of the downside if the company fails. They therefore prefer the company to take lower risks, which can conflict with shareholders' willingness to accept risk for higher returns. Shareholders and directors holding share options both benefit from share price growth.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c01-q010",
+      "chapter": 1,
+      "topic": "Financial management function",
+      "question_text": "A charity is a not-for-profit organisation. Which of the following is MOST likely to be its primary objective?",
+      "options": {
+        "A": "To maximise the surplus of income over expenditure each year",
+        "B": "To maximise the wealth of its trustees",
+        "C": "To minimise the amount spent on its charitable activities",
+        "D": "To achieve its charitable aims as fully as possible with the funds available"
+      },
+      "correct": "D",
+      "explanation": "A not-for-profit organisation exists to achieve non-financial objectives, such as relieving poverty, so its primary objective is to deliver as much benefit as possible from limited funds (value for money). A surplus may be needed to remain financially viable but is not the main aim, and trustees are not owners entitled to wealth from the charity.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c02-q001",
+      "chapter": 2,
+      "topic": "Financial management environment",
+      "question_text": "Which of the following would be an example of an expansionary fiscal policy?",
+      "options": {
+        "A": "Reducing the level of government spending",
+        "B": "Selling government bonds to reduce the money supply",
+        "C": "Increasing the central bank's base interest rate",
+        "D": "Reducing the rate of income tax"
+      },
+      "correct": "D",
+      "explanation": "Fiscal policy concerns government taxation, spending and borrowing. Cutting income tax increases households' disposable income and so boosts aggregate demand, which is expansionary. Cutting government spending is contractionary fiscal policy, while changing interest rates or the money supply is monetary policy.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c02-q002",
+      "chapter": 2,
+      "topic": "Financial management environment",
+      "question_text": "A government raises interest rates in order to reduce inflation. Which of the following is the MOST likely consequence for a company based in that country?",
+      "options": {
+        "A": "An increase in its cost of borrowing and a fall in demand for its products",
+        "B": "A weakening of the domestic currency, making its exports cheaper",
+        "C": "A fall in the cost of its variable rate borrowing",
+        "D": "An increase in consumer spending on credit"
+      },
+      "correct": "A",
+      "explanation": "Higher interest rates increase the cost of variable rate and new borrowing and discourage consumer spending financed by credit, so demand for many products falls. Higher interest rates also tend to attract foreign capital, which strengthens rather than weakens the domestic currency, making exports more expensive.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c02-q003",
+      "chapter": 2,
+      "topic": "Financial management environment",
+      "question_text": "Which of the following best describes monetary policy?",
+      "options": {
+        "A": "Government policies designed to reduce pollution by businesses",
+        "B": "Government decisions on levels of taxation and public expenditure",
+        "C": "Government or central bank action to influence the money supply, interest rates and credit",
+        "D": "Government regulation of monopolies and mergers"
+      },
+      "correct": "C",
+      "explanation": "Monetary policy operates through the money supply, interest rates, exchange rates and the availability of credit, and is often delegated to an independent central bank. Taxation and spending are fiscal policy, while regulation of monopolies (competition policy) and environmental rules are other forms of government intervention.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c02-q004",
+      "chapter": 2,
+      "topic": "Financial management environment",
+      "question_text": "Banks accept short-term deposits from savers and use the funds to make long-term loans to businesses. Which function of a financial intermediary does this describe?",
+      "options": {
+        "A": "Maturity transformation",
+        "B": "Risk transformation",
+        "C": "Aggregation",
+        "D": "Securitisation"
+      },
+      "correct": "A",
+      "explanation": "Maturity transformation occurs when an intermediary bridges the gap between lenders who want to lend for short periods and borrowers who need long-term funds. Aggregation (pooling) refers to combining many small deposits into large loans, and risk transformation refers to spreading the risk of default across a large portfolio of loans.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c02-q005",
+      "chapter": 2,
+      "topic": "Financial management environment",
+      "question_text": "Which of the following statements about the money markets is correct?",
+      "options": {
+        "A": "They are markets for long-term debt such as 20-year bonds",
+        "B": "They are markets that deal only in foreign currencies",
+        "C": "They are markets in which companies issue new ordinary shares",
+        "D": "They are markets for lending and borrowing for periods of less than one year"
+      },
+      "correct": "D",
+      "explanation": "Money markets deal in short-term funds, typically with maturities of up to one year, using instruments such as treasury bills, certificates of deposit and commercial paper. Capital markets deal in long-term finance such as shares and long-dated bonds. The foreign exchange market is a separate market.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c02-q006",
+      "chapter": 2,
+      "topic": "Financial management environment",
+      "question_text": "Which money market instrument is a negotiable certificate issued by a bank, confirming that a sum has been deposited for a fixed period at a stated rate of interest?",
+      "options": {
+        "A": "Commercial paper",
+        "B": "Banker's acceptance",
+        "C": "Certificate of deposit",
+        "D": "Treasury bill"
+      },
+      "correct": "C",
+      "explanation": "A certificate of deposit (CD) is issued by a bank in exchange for a fixed-term deposit, and because it is negotiable the holder can sell it in the money market before maturity. Treasury bills are issued by government, commercial paper is unsecured short-term debt issued by large companies, and a banker's acceptance is a bill of exchange guaranteed by a bank.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c02-q007",
+      "chapter": 2,
+      "topic": "Financial management environment",
+      "question_text": "A 91-day treasury bill with a face value of $100 can be bought today for $98.80. What is the annualised yield on the bill, assuming a 365-day year and simple (not compound) annualisation?",
+      "options": {
+        "A": "1.21%",
+        "B": "4.81%",
+        "C": "4.87%",
+        "D": "4.96%"
+      },
+      "correct": "C",
+      "explanation": "Return over 91 days = (100 - 98.80) / 98.80 = 1.20 / 98.80 = 1.2146%. Annualised simply: 1.2146% x 365 / 91 = 4.87% (rounded to 2 decimal places). Dividing the discount by the face value rather than the price paid gives the lower discount rate of 4.81%, 1.21% is the return for the 91 days only, and 4.96% uses compound rather than simple annualisation, which the question excludes.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fm-c02-q008",
+      "chapter": 2,
+      "topic": "Financial management environment",
+      "question_text": "Which of the following describes a transaction in the secondary market?",
+      "options": {
+        "A": "An investor buys existing shares in a listed company from another investor through the stock exchange",
+        "B": "A company raises new equity through a rights issue to existing shareholders",
+        "C": "A company issues new shares to the public for the first time",
+        "D": "A government issues new bonds to finance public spending"
+      },
+      "correct": "A",
+      "explanation": "The primary market is where new securities are issued and the issuer receives the funds. The secondary market is where existing securities are traded between investors, so the company receives no new finance. A liquid secondary market makes investors more willing to buy securities in the primary market.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c02-q009",
+      "chapter": 2,
+      "topic": "Financial management environment",
+      "question_text": "Which of the following best describes commercial paper?",
+      "options": {
+        "A": "Secured long-term loan notes issued by small companies",
+        "B": "Short-term debt issued by central government to manage its cash flows",
+        "C": "A deposit with a bank that cannot be sold before it matures",
+        "D": "Unsecured short-term debt issued by large creditworthy companies, usually at a discount to face value"
+      },
+      "correct": "D",
+      "explanation": "Commercial paper is a short-term, unsecured promissory note issued by large companies with high credit ratings, usually with a maturity of under a year and sold at a discount to its face value. Government short-term debt is a treasury bill, and a bank deposit that can be traded would be a certificate of deposit.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c02-q010",
+      "chapter": 2,
+      "topic": "Financial management environment",
+      "question_text": "Which of the following is the main reason why the interest rate on an unsecured loan to a small company is usually higher than the yield on a treasury bill of the same maturity?",
+      "options": {
+        "A": "Treasury bills are subject to higher inflation",
+        "B": "Treasury bills have a longer maturity",
+        "C": "Investors require a higher return to compensate for the higher default risk",
+        "D": "Small company loans are more liquid than treasury bills"
+      },
+      "correct": "C",
+      "explanation": "The return required by investors increases with risk. Treasury bills are backed by the government and are close to risk free, whereas an unsecured loan to a small company carries significant default risk and is less liquid, so lenders demand a higher interest rate. Both investments face the same inflation, and the question states that maturities are the same.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c03-q001",
+      "chapter": 3,
+      "topic": "Working capital: the cash operating cycle and ratios",
+      "question_text": "Extracts from a company's financial statements show: revenue (all on credit) $7,300k, cost of sales $5,110k, inventory $840k, trade receivables $1,200k and trade payables $650k. Payables days are calculated using cost of sales. What is the length of the cash operating cycle, using a 365-day year?",
+      "options": {
+        "A": "73.6 days",
+        "B": "87.5 days",
+        "C": "120.0 days",
+        "D": "166.4 days"
+      },
+      "correct": "A",
+      "explanation": "Inventory days = 840 / 5,110 x 365 = 60.0; receivables days = 1,200 / 7,300 x 365 = 60.0; payables days = 650 / 5,110 x 365 = 46.4. Cash operating cycle = 60.0 + 60.0 - 46.4 = 73.6 days (rounded to 1 decimal place). Adding payables days, or calculating them on revenue, are common errors.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c03-q002",
+      "chapter": 3,
+      "topic": "Working capital: the cash operating cycle and ratios",
+      "question_text": "A manufacturer provides the following annual data ($000): purchases of raw materials 2,190, cost of sales 3,650, credit sales 4,380. Year-end balances ($000): raw materials 300, work in progress 220, finished goods 400, trade receivables 600, trade payables 270. Work in progress and finished goods periods are based on cost of sales. What is the cash operating cycle (365-day year)?",
+      "options": {
+        "A": "67 days",
+        "B": "95 days",
+        "C": "117 days",
+        "D": "207 days"
+      },
+      "correct": "C",
+      "explanation": "Raw materials period = 300/2,190 x 365 = 50 days; WIP = 220/3,650 x 365 = 22 days; finished goods = 400/3,650 x 365 = 40 days; receivables = 600/4,380 x 365 = 50 days; payables = 270/2,190 x 365 = 45 days. Cycle = 50 + 22 + 40 + 50 - 45 = 117 days (all periods are exact whole days).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fm-c03-q003",
+      "chapter": 3,
+      "topic": "Working capital: the cash operating cycle and ratios",
+      "question_text": "A company has inventory of $450k, trade receivables of $380k, cash of $70k and current liabilities of $600k. What are its current ratio and quick (acid test) ratio?",
+      "options": {
+        "A": "Current ratio 1.38; quick ratio 0.63",
+        "B": "Current ratio 0.75; quick ratio 1.50",
+        "C": "Current ratio 1.50; quick ratio 1.38",
+        "D": "Current ratio 1.50; quick ratio 0.75"
+      },
+      "correct": "D",
+      "explanation": "Current ratio = current assets / current liabilities = (450 + 380 + 70) / 600 = 1.50. Quick ratio excludes inventory = (380 + 70) / 600 = 0.75. Ratios are rounded to 2 decimal places.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c03-q004",
+      "chapter": 3,
+      "topic": "Working capital: the cash operating cycle and ratios",
+      "question_text": "Which of the following is a typical symptom of overtrading?",
+      "options": {
+        "A": "A rapid increase in revenue accompanied by a sharp rise in the bank overdraft and in payables days",
+        "B": "A falling level of revenue with stable working capital",
+        "C": "A large cash balance invested in short-term deposits",
+        "D": "A very high current ratio caused by excessive inventory and cash"
+      },
+      "correct": "A",
+      "explanation": "Overtrading (undercapitalisation) occurs when a business expands its sales too quickly without enough long-term finance to support the extra working capital. Symptoms include rapid revenue growth, rising inventory and receivables, increasing reliance on the overdraft and trade credit, and falling liquidity ratios. A high current ratio and large cash balances suggest over-capitalisation instead.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c03-q005",
+      "chapter": 3,
+      "topic": "Working capital: the cash operating cycle and ratios",
+      "question_text": "Why is there said to be a conflict between the two main objectives of working capital management?",
+      "options": {
+        "A": "Holding more current assets improves liquidity but reduces profitability because of the cost of funding them",
+        "B": "Holding more current assets increases both liquidity and profitability",
+        "C": "Reducing current assets reduces both liquidity and the risk of insolvency",
+        "D": "Liquidity and profitability are unrelated in working capital decisions"
+      },
+      "correct": "A",
+      "explanation": "The objectives of working capital management are profitability and liquidity. Higher inventories, receivables and cash make it easier to meet obligations as they fall due, but these assets must be financed and generate little or no return, so profitability falls. Lower levels improve profitability but increase liquidity risk.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c03-q006",
+      "chapter": 3,
+      "topic": "Working capital: the cash operating cycle and ratios",
+      "question_text": "Which of the following, taken on its own, would SHORTEN a company's cash operating cycle?",
+      "options": {
+        "A": "Allowing customers longer to pay",
+        "B": "Paying suppliers early to obtain a settlement discount",
+        "C": "Holding higher levels of finished goods inventory",
+        "D": "Taking longer to pay trade suppliers"
+      },
+      "correct": "D",
+      "explanation": "The cash operating cycle equals inventory days plus receivables days less payables days. Increasing payables days therefore reduces the cycle. Longer credit for customers and higher inventory lengthen the cycle, and paying suppliers sooner reduces payables days, which also lengthens the cycle.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c03-q007",
+      "chapter": 3,
+      "topic": "Working capital: the cash operating cycle and ratios",
+      "question_text": "A company's credit sales for the year were $4.8m and its trade receivables at the year end were $720k. What is the trade receivables collection period, using a 365-day year?",
+      "options": {
+        "A": "6.7 days",
+        "B": "7.8 days",
+        "C": "54.0 days",
+        "D": "54.8 days"
+      },
+      "correct": "D",
+      "explanation": "Receivables days = trade receivables / credit sales x 365 = 720 / 4,800 x 365 = 54.8 days (rounded to 1 decimal place). The figure of 6.7 is the receivables turnover in times per year, 7.8 is the collection period in weeks rather than days, and 54.0 wrongly uses a 360-day year.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c03-q008",
+      "chapter": 3,
+      "topic": "Working capital: the cash operating cycle and ratios",
+      "question_text": "A company expects revenue to increase from $10m to $12m next year. Cost of sales is 70% of revenue. It will maintain receivables at 45 days of revenue, inventory at 60 days of cost of sales and trade payables at 40 days of cost of sales. What is the increase in the net investment in working capital (365-day year, to the nearest $)?",
+      "options": {
+        "A": "$323,288",
+        "B": "$476,712",
+        "C": "$630,137",
+        "D": "$1,939,726"
+      },
+      "correct": "A",
+      "explanation": "Increase in revenue = $2,000,000; increase in cost of sales = $1,400,000. Receivables rise by 2,000,000 x 45/365 = $246,575; inventory by 1,400,000 x 60/365 = $230,137; payables by 1,400,000 x 40/365 = $153,425. Net increase = $246,575 + $230,137 - $153,425 = $323,288 (to the nearest $). $1,939,726 is the total net working capital at the new revenue level, not the increase.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fm-c03-q009",
+      "chapter": 3,
+      "topic": "Working capital: the cash operating cycle and ratios",
+      "question_text": "A company made credit purchases of $2.92m during the year and its cost of sales was $3.65m. Trade payables were $280k at the start of the year and $360k at the year end. Using year-end payables and credit purchases, what is the trade payables payment period (365-day year)?",
+      "options": {
+        "A": "8 days",
+        "B": "36 days",
+        "C": "40 days",
+        "D": "45 days"
+      },
+      "correct": "D",
+      "explanation": "Payables days = year-end trade payables / credit purchases x 365 = 360 / 2,920 x 365 = 45 days (exact). Using cost of sales gives 36 days, using average payables gives 40 days, and 8 is the number of times payables are turned over in a year rather than a number of days.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c03-q010",
+      "chapter": 3,
+      "topic": "Working capital: the cash operating cycle and ratios",
+      "question_text": "Which of the following is a characteristic of over-capitalisation in working capital?",
+      "options": {
+        "A": "A current ratio well below the industry average",
+        "B": "Rapidly rising sales with a growing bank overdraft",
+        "C": "Excessive inventories, receivables and cash leading to a low return on investment",
+        "D": "Heavy reliance on extended credit from suppliers"
+      },
+      "correct": "C",
+      "explanation": "Over-capitalisation means the company holds more working capital than it needs, for example excessive inventory, generous credit to customers or idle cash. Liquidity ratios are high, but the return on capital employed is low because funds are tied up unproductively. The other options are symptoms of overtrading.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c04-q001",
+      "chapter": 4,
+      "topic": "Managing inventory, receivables and payables",
+      "question_text": "A company uses 48,000 units of a component each year. Each order costs $150 to place and it costs $2.40 to hold one unit in inventory for a year. What is the economic order quantity (EOQ), to the nearest unit?",
+      "options": {
+        "A": "1,732 units",
+        "B": "2,449 units",
+        "C": "8,485 units",
+        "D": "6,000,000 units"
+      },
+      "correct": "B",
+      "explanation": "EOQ = square root of (2 x Co x D / Ch) = square root of (2 x 150 x 48,000 / 2.40) = square root of 6,000,000 = 2,449.5, which is 2,449 units to the nearest unit. Omitting the 2 gives 1,732 units, and forgetting to take the square root gives 6,000,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c04-q002",
+      "chapter": 4,
+      "topic": "Managing inventory, receivables and payables",
+      "question_text": "A retailer sells 36,000 units of a product each year. Ordering costs are $80 per order and holding costs are $1.60 per unit per year. If the retailer orders the economic order quantity, what is the total annual ordering and holding cost?",
+      "options": {
+        "A": "$1,518",
+        "B": "$3,036",
+        "C": "$4,554",
+        "D": "$6,072"
+      },
+      "correct": "B",
+      "explanation": "EOQ = square root of (2 x 80 x 36,000 / 1.60) = 1,897 units. Annual ordering cost = 36,000 / 1,897 x 80 = $1,518; annual holding cost = 1,897 / 2 x 1.60 = $1,518. Total = $3,036. At the EOQ, ordering and holding costs are always equal. Using the full order quantity rather than average inventory for holding cost gives $4,554.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c04-q003",
+      "chapter": 4,
+      "topic": "Managing inventory, receivables and payables",
+      "question_text": "A company buys 20,000 units a year at $10 each. Ordering costs are $200 per order and holding costs are $1.50 per unit per year (unaffected by the purchase price). The supplier offers a 2% discount on all units if each order is for at least 5,000 units. Compared with ordering the EOQ, what is the net annual saving from ordering 5,000 units at a time (to the nearest $)?",
+      "options": {
+        "A": "$1,086",
+        "B": "$2,914",
+        "C": "$4,000",
+        "D": "$5,086"
+      },
+      "correct": "B",
+      "explanation": "EOQ = square root of (2 x 200 x 20,000 / 1.50) = 2,309.4 units. Ordering and holding costs at the EOQ = (20,000/2,309.4 x 200) + (2,309.4/2 x 1.50) = $3,464. At 5,000 units: (20,000/5,000 x 200) + (5,000/2 x 1.50) = $4,550, an increase of $1,086. Discount saved = 20,000 x $10 x 2% = $4,000. Net saving = $4,000 - $1,086 = $2,914 (to the nearest $).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fm-c04-q004",
+      "chapter": 4,
+      "topic": "Managing inventory, receivables and payables",
+      "question_text": "Which of the following is an assumption of the basic economic order quantity (EOQ) model?",
+      "options": {
+        "A": "Demand is known and constant throughout the year",
+        "B": "Bulk purchase discounts are available for large orders",
+        "C": "Holding cost per unit rises as the order size increases",
+        "D": "Lead time varies randomly from order to order"
+      },
+      "correct": "A",
+      "explanation": "The basic EOQ model assumes constant and known demand, a constant purchase price (no bulk discounts), constant ordering and holding costs per order and per unit, and no stockouts with a known lead time. Bulk discounts can be evaluated separately but are not part of the basic formula.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c04-q005",
+      "chapter": 4,
+      "topic": "Managing inventory, receivables and payables",
+      "question_text": "Weekly usage of a raw material is between 300 and 500 units, averaging 400 units. The supplier lead time is between 2 and 4 weeks, averaging 3 weeks. At what inventory level should the company reorder in order to avoid any stockouts?",
+      "options": {
+        "A": "600 units",
+        "B": "1,200 units",
+        "C": "1,500 units",
+        "D": "2,000 units"
+      },
+      "correct": "D",
+      "explanation": "To be certain of avoiding stockouts, the reorder level must cover the maximum usage over the maximum lead time: 500 units x 4 weeks = 2,000 units. Average usage over the average lead time (1,200 units) would lead to stockouts whenever usage or lead time is above average.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c04-q006",
+      "chapter": 4,
+      "topic": "Managing inventory, receivables and payables",
+      "question_text": "Which of the following is a feature of a just-in-time (JIT) inventory system?",
+      "options": {
+        "A": "Production of goods in long runs to build up finished goods inventory",
+        "B": "Large buffer inventories held to guard against supply disruption",
+        "C": "Close relationships with a small number of reliable suppliers who deliver frequently in small batches",
+        "D": "Bulk purchasing to obtain quantity discounts"
+      },
+      "correct": "C",
+      "explanation": "JIT aims to minimise inventory by receiving materials only as they are needed for production and producing only to meet demand. This requires dependable suppliers, frequent small deliveries and high quality. Buffer inventory, bulk buying and long production runs all increase inventory, which JIT seeks to avoid.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c04-q007",
+      "chapter": 4,
+      "topic": "Managing inventory, receivables and payables",
+      "question_text": "A company currently allows customers 50 days' credit. It is considering offering a 1.5% early settlement discount for payment within 10 days. What is the effective annual cost of the discount, using compound interest and a 365-day year?",
+      "options": {
+        "A": "11.7%",
+        "B": "13.7%",
+        "C": "13.9%",
+        "D": "14.8%"
+      },
+      "correct": "D",
+      "explanation": "Customers taking the discount pay 98.5 per 100 owed, 40 days earlier. The cost for 40 days is 1.5/98.5 = 1.523%. Annual compound cost = (100/98.5)^(365/40) - 1 = 14.79%, which is 14.8% to 1 decimal place. The simple-interest equivalent is 13.9%, and using 50 days instead of the 40-day acceleration understates the cost.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fm-c04-q008",
+      "chapter": 4,
+      "topic": "Managing inventory, receivables and payables",
+      "question_text": "A factor provides a 'with recourse' service. What does this mean?",
+      "options": {
+        "A": "Customers are not told that their debts have been factored",
+        "B": "The factor bears the loss if a customer fails to pay",
+        "C": "The factor provides finance but does not manage the sales ledger",
+        "D": "The company bears the loss if a customer whose debt has been factored fails to pay"
+      },
+      "correct": "D",
+      "explanation": "Under recourse factoring, the risk of bad debts remains with the client company: if a customer defaults, the factor recovers the amount advanced from the company. With non-recourse factoring the factor bears the bad debt risk, for a higher fee. Not telling customers is a feature of confidential invoice discounting.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c04-q009",
+      "chapter": 4,
+      "topic": "Managing inventory, receivables and payables",
+      "question_text": "A company has annual credit sales of $7.3m and receivables of 70 days. A factor would reduce the collection period to 40 days for a fee of 1.5% of credit sales, and the company would save $90,000 a year in credit control costs. The company finances receivables with an overdraft costing 8% a year. The factor will not advance any finance. What is the annual net benefit or cost of using the factor (365-day year)?",
+      "options": {
+        "A": "Net benefit of $28,500",
+        "B": "Net cost of $61,500",
+        "C": "Net benefit of $138,000",
+        "D": "Net cost of $19,500"
+      },
+      "correct": "A",
+      "explanation": "Reduction in receivables = $7,300,000 x (70 - 40) / 365 = $600,000. Overdraft interest saved = $600,000 x 8% = $48,000. Administration saving = $90,000. Factor fee = $7,300,000 x 1.5% = $109,500. Net benefit = $48,000 + $90,000 - $109,500 = $28,500 (all figures exact).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fm-c04-q010",
+      "chapter": 4,
+      "topic": "Managing inventory, receivables and payables",
+      "question_text": "A supplier offers a 2% discount for payment within 15 days. The company currently pays after 60 days. What is the effective annual cost of NOT taking the discount, using compound interest and a 365-day year?",
+      "options": {
+        "A": "13.1%",
+        "B": "16.2%",
+        "C": "16.6%",
+        "D": "17.8%"
+      },
+      "correct": "D",
+      "explanation": "By not taking the discount the company effectively borrows $98 for 45 extra days at a cost of $2. Annual cost = (100/98)^(365/45) - 1 = 17.81%, or 17.8% to 1 decimal place. If the company can borrow more cheaply than this, it should take the discount. 16.6% is the simple-interest equivalent.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c04-q011",
+      "chapter": 4,
+      "topic": "Managing inventory, receivables and payables",
+      "question_text": "Which of the following correctly distinguishes invoice discounting from factoring?",
+      "options": {
+        "A": "In invoice discounting the finance provider takes over the collection of debts",
+        "B": "Invoice discounting always transfers bad debt risk to the finance provider",
+        "C": "In invoice discounting the company keeps control of its sales ledger and collects the debts itself",
+        "D": "Invoice discounting provides no cash in advance of collection from customers"
+      },
+      "correct": "C",
+      "explanation": "Invoice discounting is a way of raising finance against selected invoices: the provider advances a percentage of their value, while the company continues to administer its sales ledger and collect the debts, often without customers being aware. Factoring typically involves the factor taking over sales ledger administration and collection.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c04-q012",
+      "chapter": 4,
+      "topic": "Managing inventory, receivables and payables",
+      "question_text": "Which of the following is the LEAST appropriate way for a company to manage the risk of a new credit customer failing to pay?",
+      "options": {
+        "A": "Obtaining a credit reference from the customer's bank",
+        "B": "Reviewing the customer's published financial statements",
+        "C": "Setting an initial credit limit and reviewing it after a period of satisfactory trading",
+        "D": "Offering the customer a longer credit period than normal to encourage a first order"
+      },
+      "correct": "D",
+      "explanation": "Credit risk is managed by assessing creditworthiness before granting credit (bank and trade references, credit agency reports and financial statements) and by controlling exposure through credit limits. Offering a new customer longer credit increases exposure to a customer whose reliability has not yet been established, so it increases rather than manages risk.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c05-q001",
+      "chapter": 5,
+      "topic": "Cash management and working capital funding",
+      "question_text": "A company needs $1.5m of cash for payments over the next year, spread evenly over the year. Each sale of short-term investments to raise cash costs $40, and the investments earn interest at 5% a year. Using the Baumol model, what is the optimal amount of investments to sell each time cash is needed (to the nearest $)?",
+      "options": {
+        "A": "$4,899",
+        "B": "$24,495",
+        "C": "$34,641",
+        "D": "$48,990"
+      },
+      "correct": "D",
+      "explanation": "Baumol optimal transfer Q = square root of (2 x C x S / i) = square root of (2 x 40 x 1,500,000 / 0.05) = square root of 2,400,000,000 = $48,990 (to the nearest $). The model applies EOQ logic to cash, where C is the transaction cost, S the annual cash requirement and i the interest rate earned on investments. $24,495 is the average cash balance (Q/2), not the transfer size.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c05-q002",
+      "chapter": 5,
+      "topic": "Cash management and working capital funding",
+      "question_text": "A company uses the Miller-Orr model. The minimum cash balance is $20,000, the cost of each transaction in securities is $50, the standard deviation of daily cash flows is $4,000 and the interest rate is 7.3% a year (365-day year). What is the upper limit for the cash balance (to the nearest $)?",
+      "options": {
+        "A": "$22,726",
+        "B": "$34,422",
+        "C": "$43,267",
+        "D": "$63,267"
+      },
+      "correct": "D",
+      "explanation": "Daily interest rate = 7.3% / 365 = 0.02%. Variance = 4,000^2 = 16,000,000. Spread = 3 x (0.75 x 50 x 16,000,000 / 0.0002)^(1/3) = 3 x (3,000,000,000,000)^(1/3) = 3 x 14,422.5 = $43,267. Upper limit = $20,000 + $43,267 = $63,267 (to the nearest $). A common error is to use the standard deviation instead of the variance.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fm-c05-q003",
+      "chapter": 5,
+      "topic": "Cash management and working capital funding",
+      "question_text": "Using the Miller-Orr model, a company has set a lower cash limit of $10,000 and calculated a spread of $36,000. What is the return point?",
+      "options": {
+        "A": "$12,000",
+        "B": "$22,000",
+        "C": "$28,000",
+        "D": "$46,000"
+      },
+      "correct": "B",
+      "explanation": "Return point = lower limit + one third of the spread = $10,000 + $36,000/3 = $22,000. The upper limit would be $10,000 + $36,000 = $46,000. Cash is restored to the return point whenever it reaches either limit.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c05-q004",
+      "chapter": 5,
+      "topic": "Cash management and working capital funding",
+      "question_text": "Under the Miller-Orr cash management model, what action should a company take when its cash balance reaches the upper limit?",
+      "options": {
+        "A": "Take no action until the cash balance returns to the lower limit",
+        "B": "Buy marketable securities so that the cash balance falls to the return point",
+        "C": "Buy marketable securities so that the cash balance falls to the lower limit",
+        "D": "Sell marketable securities so that the cash balance rises to the return point"
+      },
+      "correct": "B",
+      "explanation": "When the balance reaches the upper limit, excess cash is invested by buying securities, reducing the balance to the return point. When the balance falls to the lower limit, securities are sold to restore it to the return point. The return point is one third of the spread above the lower limit.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c05-q005",
+      "chapter": 5,
+      "topic": "Cash management and working capital funding",
+      "question_text": "Which of the following is the main purpose of preparing a cash budget?",
+      "options": {
+        "A": "To value the company's shares",
+        "B": "To calculate the profit for each month",
+        "C": "To record actual cash receipts and payments for the audit",
+        "D": "To identify periods of expected cash surplus or shortfall so that action can be planned in advance"
+      },
+      "correct": "D",
+      "explanation": "A cash budget forecasts cash receipts and payments period by period. It allows management to arrange finance in advance of a shortfall, or to plan the investment of surpluses. It is not a profit forecast, because it excludes non-cash items such as depreciation and includes capital and financing cash flows.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c05-q006",
+      "chapter": 5,
+      "topic": "Cash management and working capital funding",
+      "question_text": "Which of the following describes an aggressive working capital funding policy?",
+      "options": {
+        "A": "Using short-term finance to fund all fluctuating current assets and some permanent current assets",
+        "B": "Using long-term finance to fund all non-current assets, all permanent current assets and some fluctuating current assets",
+        "C": "Using long-term finance to fund all non-current and permanent current assets and short-term finance for fluctuating current assets only",
+        "D": "Using only equity finance for all assets"
+      },
+      "correct": "A",
+      "explanation": "An aggressive policy relies heavily on short-term finance, which is usually cheaper but must be renewed frequently, increasing refinancing and interest rate risk. A conservative policy uses long-term finance for some fluctuating current assets as well, and a matching (moderate) policy funds permanent assets long term and fluctuating current assets short term.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c05-q007",
+      "chapter": 5,
+      "topic": "Cash management and working capital funding",
+      "question_text": "What is meant by 'permanent current assets'?",
+      "options": {
+        "A": "Current assets that will never be converted into cash",
+        "B": "Seasonal increases in inventory before a peak sales period",
+        "C": "The minimum level of inventory, receivables and cash that a business needs to hold at all times to support its normal level of activity",
+        "D": "Non-current assets that are used for more than one year"
+      },
+      "correct": "C",
+      "explanation": "Although individual items of inventory and receivables are continually turned over, a business always needs a core level of current assets to operate. This core level is permanent and should normally be financed long term. Seasonal or temporary increases above this level are fluctuating current assets.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c05-q008",
+      "chapter": 5,
+      "topic": "Cash management and working capital funding",
+      "question_text": "Compared with an aggressive policy, which of the following is a consequence of adopting a conservative working capital funding policy?",
+      "options": {
+        "A": "Lower financing costs and higher profitability",
+        "B": "Lower risk of liquidity problems but higher financing costs and lower profitability",
+        "C": "Greater exposure to the risk of being unable to renew short-term borrowing",
+        "D": "Higher risk of liquidity problems and lower financing costs"
+      },
+      "correct": "B",
+      "explanation": "A conservative policy uses more long-term finance, which is more secure because it does not need frequent renewal, so liquidity risk is lower. However, long-term finance is usually more expensive than short-term finance, and some may be idle in periods of low activity, which reduces profitability.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c05-q009",
+      "chapter": 5,
+      "topic": "Cash management and working capital funding",
+      "question_text": "A company's sales are January $100k, February $120k and March $150k. Customers pay as follows: 20% in the month of sale, receiving a 2% discount; 50% in the following month; 28% two months after sale; 2% are bad debts. What are the expected cash receipts in March (in $000, to 1 decimal place)?",
+      "options": {
+        "A": "$113.6k",
+        "B": "$117.4k",
+        "C": "$118.0k",
+        "D": "$119.4k"
+      },
+      "correct": "B",
+      "explanation": "March receipts: from March sales 150 x 20% x 98% = 29.4; from February sales 120 x 50% = 60.0; from January sales 100 x 28% = 28.0. Total = 117.4 ($000). Ignoring the discount gives 118.0, and including the 2% bad debts as a receipt gives 119.4.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c05-q010",
+      "chapter": 5,
+      "topic": "Cash management and working capital funding",
+      "question_text": "A company has a temporary cash surplus that will be needed to pay a tax liability in three months' time. Which of the following is the MOST appropriate investment?",
+      "options": {
+        "A": "A ten-year government bond",
+        "B": "An unsecured loan to a customer",
+        "C": "A three-month bank deposit or certificate of deposit",
+        "D": "Ordinary shares in a listed company"
+      },
+      "correct": "C",
+      "explanation": "Surplus cash needed in the short term should be invested in low-risk, liquid instruments whose maturity matches the date the cash is needed. Shares and long-dated bonds expose the company to price risk (the value could fall before the tax is due), and an unsecured loan to a customer is risky and illiquid.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c06-q001",
+      "chapter": 6,
+      "topic": "Investment appraisal techniques",
+      "question_text": "A project requires an initial investment of $400k. Net cash inflows are expected to be ($000): year 1 90, year 2 120, year 3 150, year 4 160, year 5 100. Cash flows arise evenly through each year. What is the payback period?",
+      "options": {
+        "A": "3.23 years",
+        "B": "3.25 years",
+        "C": "3.40 years",
+        "D": "4.00 years"
+      },
+      "correct": "B",
+      "explanation": "Cumulative cash flows ($000): year 1 -310, year 2 -190, year 3 -40, year 4 +120. Payback occurs during year 4: 3 years + 40/160 = 3.25 years (3 years 3 months). Dividing by the year 5 cash flow gives 3.40 years, and using the average annual inflow (124) gives 3.23 years, which ignores the timing of the flows.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c06-q002",
+      "chapter": 6,
+      "topic": "Investment appraisal techniques",
+      "question_text": "A machine costs $500k and will be sold for $50k at the end of its 5-year life. Total net cash inflows over the 5 years are expected to be $800k. Depreciation is on a straight-line basis. What is the accounting rate of return (ARR) based on average investment?",
+      "options": {
+        "A": "14.0%",
+        "B": "25.5%",
+        "C": "28.0%",
+        "D": "58.2%"
+      },
+      "correct": "B",
+      "explanation": "Total depreciation = 500 - 50 = 450, so total profit = 800 - 450 = 350 and average annual profit = 350 / 5 = 70. Average investment = (500 + 50) / 2 = 275. ARR = 70 / 275 = 25.5% (1 decimal place). Using the initial investment gives 14.0%, and using cash flows instead of profit gives 58.2%.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c06-q003",
+      "chapter": 6,
+      "topic": "Investment appraisal techniques",
+      "question_text": "A project requires an investment of $250,000 now and will generate net cash inflows of $70k, $80k, $90k and $60k at the end of years 1 to 4 respectively. The cost of capital is 10%. Using discount factors rounded to 3 decimal places, what is the net present value?",
+      "options": {
+        "A": "+$12,120",
+        "B": "-$11,720",
+        "C": "+$50,000",
+        "D": "+$11,720"
+      },
+      "correct": "B",
+      "explanation": "PV of inflows = 70,000 x 0.909 + 80,000 x 0.826 + 90,000 x 0.751 + 60,000 x 0.683 = 63,630 + 66,080 + 67,590 + 40,980 = $238,280. NPV = $238,280 - 250,000 = -$11,720, so the project should be rejected. Treating the year 1 flow as arising now gives +$12,120, and ignoring discounting gives +$50,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c06-q004",
+      "chapter": 6,
+      "topic": "Investment appraisal techniques",
+      "question_text": "A project has an NPV of +$18,400 at a discount rate of 10% and an NPV of -$6,200 at 15%. Using linear interpolation, what is the estimated internal rate of return?",
+      "options": {
+        "A": "11.26%",
+        "B": "12.50%",
+        "C": "13.74%",
+        "D": "17.54%"
+      },
+      "correct": "C",
+      "explanation": "IRR = a + [NA / (NA - NB)] x (b - a) = 10% + [18,400 / (18,400 + 6,200)] x (15% - 10%) = 10% + (18,400 / 24,600) x 5% = 13.74% (2 decimal places). Subtracting the NPVs instead of adding their absolute values gives 17.54%, and using the wrong NPV in the numerator gives 11.26%.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c06-q005",
+      "chapter": 6,
+      "topic": "Investment appraisal techniques",
+      "question_text": "A project costs $100,000 and generates net cash inflows of $40,000 a year for four years, arising evenly through each year. The cost of capital is 12%, with discount factors of 0.893, 0.797, 0.712 and 0.636 for years 1 to 4. What is the discounted payback period (to 2 decimal places)?",
+      "options": {
+        "A": "2.50 years",
+        "B": "2.85 years",
+        "C": "3.15 years",
+        "D": "4.00 years"
+      },
+      "correct": "C",
+      "explanation": "PV of inflows: year 1 35,720; year 2 31,880; year 3 28,480; year 4 25,440. Cumulative PV after 3 years = 96,080, leaving 3,920 to recover. Discounted payback = 3 + 3,920 / 25,440 = 3.15 years. The simple (undiscounted) payback would be 100,000 / 40,000 = 2.50 years.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fm-c06-q006",
+      "chapter": 6,
+      "topic": "Investment appraisal techniques",
+      "question_text": "A company has spent $45,000 on market research to assess whether to launch a new product. In appraising the launch, how should this cost be treated?",
+      "options": {
+        "A": "It should be included as an outflow spread over the life of the project",
+        "B": "It should be included only if the project is accepted",
+        "C": "It should be included as a cash outflow at time 0",
+        "D": "It should be excluded because it is a sunk cost"
+      },
+      "correct": "D",
+      "explanation": "Only future, incremental cash flows arising as a result of the decision are relevant. The market research has already been incurred and will not change whether or not the product is launched, so it is a sunk cost and is ignored in the appraisal.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c06-q007",
+      "chapter": 6,
+      "topic": "Investment appraisal techniques",
+      "question_text": "What is the present value of $25,000 received at the end of each year for 5 years, at a discount rate of 8%? Use an annuity factor rounded to 3 decimal places.",
+      "options": {
+        "A": "$99,825",
+        "B": "$107,800",
+        "C": "$125,000",
+        "D": "$312,500"
+      },
+      "correct": "A",
+      "explanation": "The 5-year annuity factor at 8% is 3.993. PV = 25,000 x 3.993 = $99,825. $107,800 would be the value if the payments were made at the start of each year, and $312,500 is the value of a perpetuity.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c06-q008",
+      "chapter": 6,
+      "topic": "Investment appraisal techniques",
+      "question_text": "An investment will generate $50,000 a year in perpetuity, with the first receipt at the end of year 3. The discount rate is 10%. What is the present value of the receipts (to the nearest $)?",
+      "options": {
+        "A": "$375,657",
+        "B": "$413,223",
+        "C": "$454,545",
+        "D": "$500,000"
+      },
+      "correct": "B",
+      "explanation": "The perpetuity formula values the stream one year before the first receipt, i.e. at the end of year 2: 50,000 / 0.10 = 500,000. Discounting back two years: 500,000 / 1.10^2 = $413,223 (nearest $). Discounting for three years ($375,657) is a common error, because the formula already places the value at time 2.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fm-c06-q009",
+      "chapter": 6,
+      "topic": "Investment appraisal techniques",
+      "question_text": "Which of the following is an advantage of net present value (NPV) over internal rate of return (IRR) as an investment appraisal method?",
+      "options": {
+        "A": "NPV gives an absolute measure of the increase in shareholder wealth and gives a single unambiguous answer for any cash flow pattern",
+        "B": "NPV does not require a cost of capital to be estimated",
+        "C": "NPV ignores the time value of money, which makes it simpler to calculate",
+        "D": "NPV is expressed as a percentage, which managers find easier to understand"
+      },
+      "correct": "A",
+      "explanation": "NPV measures in absolute terms the change in shareholder wealth from a project and is unambiguous even for non-conventional cash flows, which can produce multiple IRRs. IRR is a relative percentage measure, which managers often find easier to understand, but it can rank mutually exclusive projects incorrectly. Both methods use discounting, and NPV requires the cost of capital.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c06-q010",
+      "chapter": 6,
+      "topic": "Investment appraisal techniques",
+      "question_text": "A project needs 2,000 kg of a material. The company holds 2,000 kg in inventory, bought some time ago for $8 per kg. The current replacement cost is $10 per kg and it could be sold for $5 per kg. The material is in regular use in the business. What is the relevant cost of the material for the project?",
+      "options": {
+        "A": "$0",
+        "B": "$10,000",
+        "C": "$16,000",
+        "D": "$20,000"
+      },
+      "correct": "D",
+      "explanation": "Because the material is regularly used, any material used on the project must be replaced, so the relevant cost is its current replacement cost: 2,000 kg x $10 = $20,000. The original cost of $8 per kg is a sunk cost. The resale value would only be relevant if the material had no other use in the business.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c07-q001",
+      "chapter": 7,
+      "topic": "Investment appraisal with inflation and taxation",
+      "question_text": "Investors require a real return of 6% a year, and general inflation is expected to be 3% a year. What is the money (nominal) cost of capital, to 2 decimal places?",
+      "options": {
+        "A": "2.91%",
+        "B": "3.00%",
+        "C": "9.00%",
+        "D": "9.18%"
+      },
+      "correct": "D",
+      "explanation": "Using the Fisher formula: (1 + money rate) = (1 + real rate) x (1 + inflation rate) = 1.06 x 1.03 = 1.0918. Money rate = 9.18%. Simply adding the two rates (9.00%) is only an approximation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c07-q002",
+      "chapter": 7,
+      "topic": "Investment appraisal with inflation and taxation",
+      "question_text": "A company's money cost of capital is 12% and general inflation is 4% a year. What is the real cost of capital, to 2 decimal places?",
+      "options": {
+        "A": "7.69%",
+        "B": "8.00%",
+        "C": "11.54%",
+        "D": "16.48%"
+      },
+      "correct": "A",
+      "explanation": "(1 + real rate) = (1 + money rate) / (1 + inflation) = 1.12 / 1.04 = 1.0769. Real rate = 7.69%. Subtracting inflation from the money rate (8.00%) is only an approximation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c07-q003",
+      "chapter": 7,
+      "topic": "Investment appraisal with inflation and taxation",
+      "question_text": "When using the real method of investment appraisal, which of the following is correct?",
+      "options": {
+        "A": "Cash flows expressed in current (time 0) prices are discounted at the real cost of capital",
+        "B": "Cash flows are inflated at the real rate and discounted at the money rate",
+        "C": "Cash flows expressed in current prices are discounted at the money cost of capital",
+        "D": "Cash flows inflated to money terms are discounted at the real cost of capital"
+      },
+      "correct": "A",
+      "explanation": "The real and money methods give the same NPV if applied consistently: real cash flows (in today's prices) are discounted at the real rate, and money cash flows (including expected inflation) are discounted at the money rate. The real method is only practical when all cash flows inflate at the general rate of inflation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c07-q004",
+      "chapter": 7,
+      "topic": "Investment appraisal with inflation and taxation",
+      "question_text": "A project will sell 10,000 units in year 2. The current selling price is $25 per unit, and selling prices are expected to rise by 4% a year. What is the year 2 sales revenue in money terms (to the nearest $)?",
+      "options": {
+        "A": "$250,000",
+        "B": "$260,000",
+        "C": "$270,400",
+        "D": "$281,216"
+      },
+      "correct": "C",
+      "explanation": "Year 2 revenue = 10,000 x $25 x 1.04^2 = 10,000 x $27.04 = $270,400. The price must be inflated for two years because the current price is a time 0 price. Inflating for only one year gives $260,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c07-q005",
+      "chapter": 7,
+      "topic": "Investment appraisal with inflation and taxation",
+      "question_text": "A company buys a machine for $80,000. Tax-allowable depreciation is available at 25% a year on a reducing balance basis. What is the tax-allowable depreciation for year 3 (to the nearest $)?",
+      "options": {
+        "A": "$8,438",
+        "B": "$11,250",
+        "C": "$15,000",
+        "D": "$20,000"
+      },
+      "correct": "B",
+      "explanation": "Year 1: 80,000 x 25% = $20,000, leaving 60,000. Year 2: 60,000 x 25% = $15,000, leaving 45,000. Year 3: 45,000 x 25% = $11,250 (exact). A straight-line approach of 25% of cost each year would give $20,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c07-q006",
+      "chapter": 7,
+      "topic": "Investment appraisal with inflation and taxation",
+      "question_text": "A machine was bought for $120,000 at the start of year 1 and is sold for $30,000 at the end of year 3. Tax-allowable depreciation is 25% reducing balance, claimed in years 1 and 2, with a balancing adjustment in year 3 (no writing-down allowance is claimed in the year of disposal). What is the balancing allowance in year 3?",
+      "options": {
+        "A": "$11,250",
+        "B": "$16,875",
+        "C": "$20,625",
+        "D": "$37,500"
+      },
+      "correct": "D",
+      "explanation": "Tax written-down value: start 120,000; year 1 TAD 30,000 leaves $90,000; year 2 TAD $22,500 leaves $67,500. Balancing allowance = written-down value - sale proceeds = $67,500 - $30,000 = $37,500. Claiming a further year 3 TAD of $16,875 first would wrongly give a balancing allowance of $20,625.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fm-c07-q007",
+      "chapter": 7,
+      "topic": "Investment appraisal with inflation and taxation",
+      "question_text": "A company buys an asset for $60,000 at the start of year 1 (time 0) and claims tax-allowable depreciation at 25% reducing balance from year 1. The tax rate is 30% and tax is paid (and tax savings received) one year after the year in which the related cash flow arises. What is the tax saving from the year 1 tax-allowable depreciation, and when does it arise?",
+      "options": {
+        "A": "$4,500 at the end of year 1",
+        "B": "$15,000 at the end of year 2",
+        "C": "$4,500 at the end of year 2",
+        "D": "$18,000 at the end of year 1"
+      },
+      "correct": "C",
+      "explanation": "Year 1 TAD = $60,000 x 25% = $15,000. Tax saving = $15,000 x 30% = $4,500. Because tax is paid one year in arrears, the saving arises at the end of year 2. $15,000 is the allowance itself rather than the tax saved.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c07-q008",
+      "chapter": 7,
+      "topic": "Investment appraisal with inflation and taxation",
+      "question_text": "A project is being appraised using the money method. Which of the following cash flows should NOT be adjusted for future inflation?",
+      "options": {
+        "A": "Sales revenue",
+        "B": "Tax savings from tax-allowable depreciation",
+        "C": "Incremental fixed overheads",
+        "D": "Labour costs"
+      },
+      "correct": "B",
+      "explanation": "Tax-allowable depreciation is based on the historical cost of the asset, which is fixed when it is bought, so the related tax savings do not increase with inflation. Revenues and operating costs are expected to change with prices and must be inflated (at their specific rates) to money terms.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c07-q009",
+      "chapter": 7,
+      "topic": "Investment appraisal with inflation and taxation",
+      "question_text": "A project costs $200,000 at time 0 and generates pre-tax net cash inflows of $70,000 a year for 4 years, with no scrap value. Tax is 30%, payable in the same year as the cash flows. Tax-allowable depreciation is 25% reducing balance, first claimed in year 1, with a balancing allowance in year 4. The after-tax cost of capital is 10% (factors 0.909, 0.826, 0.751, 0.683). What is the NPV (to the nearest $)?",
+      "options": {
+        "A": "-$44,719",
+        "B": "-$11,133",
+        "C": "+$1,834",
+        "D": "+$21,830"
+      },
+      "correct": "C",
+      "explanation": "TAD: year 1 50,000; year 2 37,500; year 3 28,125; year 4 balancing allowance 200,000 - 115,625 = 84,375. Tax savings at 30%: 15,000; 11,250; 8,437.5; 25,312.5. Annual after-tax inflow = 70,000 x 0.7 = 49,000. Net flows: 64,000.0, 60,250.0, 57,437.5, 74,312.5. PVs at 10% total $201,834, so NPV = +$1,834 (nearest $). Tax savings arise in the same year as the TAD because the question states tax is paid without a lag. Claiming only a normal 25% allowance in year 4 (21,094) instead of the balancing allowance gives -$11,133, and ignoring TAD gives -$44,719.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fm-c07-q010",
+      "chapter": 7,
+      "topic": "Investment appraisal with inflation and taxation",
+      "question_text": "A three-year project requires working capital of $50,000 at the start of year 1. The working capital requirement will increase each year in line with inflation of 5% a year, and all working capital is recovered at the end of year 3. What is the working capital cash flow at the end of year 2?",
+      "options": {
+        "A": "-$55,125",
+        "B": "-$2,625",
+        "C": "-$2,500",
+        "D": "+$55,125"
+      },
+      "correct": "B",
+      "explanation": "Working capital needed: time 0 $50,000; time 1 $52,500; time 2 $55,125 (to support year 3 activity). The cash flow at each point is the increment: at time 1 an outflow of $2,500, and at time 2 an outflow of $55,125 - $52,500 = $2,625. The full $55,125 is recovered at the end of year 3.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fm-c08-q001",
+      "chapter": 8,
+      "topic": "Asset replacement, capital rationing and lease or buy",
+      "question_text": "A machine costs $60,000. Running costs are $10,000 in year 1, $14,000 in year 2 and $18,000 in year 3. Its resale value is $30,000 after 2 years or $20,000 after 3 years. The cost of capital is 10% (DFs 0.909, 0.826, 0.751; annuity factors 1.736 for 2 years and 2.487 for 3 years). Which replacement cycle minimises cost, and what is its equivalent annual cost (EAC)?",
+      "options": {
+        "A": "Replace every 2 years; EAC $32,185",
+        "B": "Replace every 3 years; EAC $79,152",
+        "C": "Replace every 2 years; EAC $55,874",
+        "D": "Replace every 3 years; EAC $31,826"
+      },
+      "correct": "D",
+      "explanation": "2-year cycle: PV of costs = 60,000 + 10,000 x 0.909 + 14,000 x 0.826 - 30,000 x 0.826 = $55,874; EAC = $55,874 / 1.736 = $32,185. 3-year cycle: PV = 60,000 + 9,090 + 11,564 + 18,000 x 0.751 - 20,000 x 0.751 = $79,152; EAC = $79,152 / 2.487 = $31,826. The 3-year cycle has the lower EAC (rounded to the nearest $). Comparing total PVs is wrong because the cycles are of different lengths.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fm-c08-q002",
+      "chapter": 8,
+      "topic": "Asset replacement, capital rationing and lease or buy",
+      "question_text": "Why is the equivalent annual cost (EAC) method used when deciding how often to replace an asset?",
+      "options": {
+        "A": "It ignores resale values, which are uncertain",
+        "B": "It allows replacement cycles of different lengths to be compared on a like-for-like annual basis",
+        "C": "It always favours the shortest replacement cycle",
+        "D": "It avoids the need to discount cash flows"
+      },
+      "correct": "B",
+      "explanation": "Replacement cycles of different lengths cannot be compared by their total PV of costs because a longer cycle naturally has a higher total. Dividing the PV of each cycle by the annuity factor for its length converts it into an equivalent constant annual cost, assuming the cycle is repeated indefinitely. The cycle with the lowest EAC is chosen.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c08-q003",
+      "chapter": 8,
+      "topic": "Asset replacement, capital rationing and lease or buy",
+      "question_text": "The present value of the costs of owning a vehicle over a 4-year replacement cycle is $84,000. The cost of capital is 9%, and the 4-year annuity factor at 9% is 3.240. What is the equivalent annual cost (to the nearest $)?",
+      "options": {
+        "A": "$21,000",
+        "B": "$25,926",
+        "C": "$28,259",
+        "D": "$33,188"
+      },
+      "correct": "B",
+      "explanation": "EAC = PV of costs / annuity factor = 84,000 / 3.240 = $25,926 (nearest $). Dividing by the number of years ($21,000) ignores the time value of money.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c08-q004",
+      "chapter": 8,
+      "topic": "Asset replacement, capital rationing and lease or buy",
+      "question_text": "A company has $500k available for investment now and capital is not available later. Four divisible, independent projects are available ($000): P outlay 200, NPV 60; Q outlay 150, NPV 54; R outlay 250, NPV 70; S outlay 100, NPV 25. What is the maximum total NPV that can be achieved?",
+      "options": {
+        "A": "$139k",
+        "B": "$148k",
+        "C": "$149k",
+        "D": "$156k"
+      },
+      "correct": "D",
+      "explanation": "Profitability indices (NPV / outlay): P 0.30, Q 0.36, R 0.28, S 0.25. Ranking by PI: Q (150, NPV 54), then P (200, NPV 60), leaving 150 for R, i.e. 150/250 = 60% of R giving NPV 42. Total NPV = 54 + 60 + 42 = 156 ($000). Ranking by absolute NPV gives only 148, and 149 is the best result if the projects were indivisible.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fm-c08-q005",
+      "chapter": 8,
+      "topic": "Asset replacement, capital rationing and lease or buy",
+      "question_text": "A company has $300k of capital available. The following independent projects are indivisible ($000): A outlay 120, NPV 30; B outlay 180, NPV 40; C outlay 150, NPV 39; D outlay 100, NPV 20. Which combination of projects should be undertaken?",
+      "options": {
+        "A": "Projects A and B, total NPV $70k",
+        "B": "Projects B and D, total NPV $60k",
+        "C": "Projects C and D, total NPV $59k",
+        "D": "Projects A and C, total NPV $69k"
+      },
+      "correct": "A",
+      "explanation": "With indivisible projects, every feasible combination must be tested. Feasible pairs within $300k: A+B (300, NPV 70), A+C (270, NPV 69), A+D (220, NPV 50), B+D (280, NPV 60), C+D (250, NPV 59); no three projects fit. A+B gives the highest NPV of $70k. Ranking by profitability index (C 0.26, A 0.25) would select A and C, leaving $30k unused and giving only $69k.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fm-c08-q006",
+      "chapter": 8,
+      "topic": "Asset replacement, capital rationing and lease or buy",
+      "question_text": "What is the difference between hard and soft capital rationing?",
+      "options": {
+        "A": "Hard rationing is imposed by management, while soft rationing is imposed by the capital markets",
+        "B": "Hard rationing lasts one period, while soft rationing lasts several periods",
+        "C": "Hard rationing is imposed by external factors such as lenders, while soft rationing is imposed internally by the company's own management",
+        "D": "Hard rationing applies to divisible projects, while soft rationing applies to indivisible projects"
+      },
+      "correct": "C",
+      "explanation": "Hard capital rationing arises from external constraints, for example banks being unwilling to lend more. Soft capital rationing is self-imposed, for example management setting a divisional budget limit or not wishing to dilute control by issuing new shares. The distinction does not depend on project divisibility or the number of periods.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c08-q007",
+      "chapter": 8,
+      "topic": "Asset replacement, capital rationing and lease or buy",
+      "question_text": "In a lease versus buy decision, which discount rate should normally be used to discount the financing cash flows?",
+      "options": {
+        "A": "The company's weighted average cost of capital",
+        "B": "The cost of equity",
+        "C": "The pre-tax cost of borrowing",
+        "D": "The after-tax cost of borrowing"
+      },
+      "correct": "D",
+      "explanation": "Once the investment decision has been made, the lease versus buy decision is a financing decision comparing leasing with borrowing to buy. The relevant cash flows (purchase cost, tax savings on depreciation, lease payments and tax relief on them) are therefore discounted at the after-tax cost of borrowing.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c08-q008",
+      "chapter": 8,
+      "topic": "Asset replacement, capital rationing and lease or buy",
+      "question_text": "A company can buy a machine for $100,000 at the start of year 1 (time 0) (4-year life, no residual value) or lease it for $28,000 a year payable at the end of each of years 1 to 4. Tax is 25%, with tax effects arising in the same year as the related cash flow. If bought, tax-allowable depreciation of 25% reducing balance is available from year 1, with a balancing allowance in year 4. The company can borrow at 8% before tax. Using exact (unrounded) discount factors, which option has the lower present value of cost, and by how much (to the nearest $)?",
+      "options": {
+        "A": "Lease, by $5,859",
+        "B": "Lease, by $2,977",
+        "C": "Lease, by $10,096",
+        "D": "Buy, by $5,859"
+      },
+      "correct": "A",
+      "explanation": "Discount at the after-tax cost of borrowing: 8% x (1 - 0.25) = 6%. Buy: 100,000 less PV of tax savings on TAD (25,000, 18,750, 14,062.5 and balancing allowance 42,187.5, each x 25%) = $78,626. Lease: 28,000 x 0.75 = 21,000 a year x 4-year annuity factor at 6% (3.4651) = $72,767. Leasing is cheaper by $5,859 (exact discount factors, rounded to the nearest $). Tax relief on the lease payments and the TAD tax savings both arise in years 1 to 4, as tax is stated to be paid in the same year. Discounting both options at the pre-tax rate of 8% gives a difference of $10,096.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fm-c08-q009",
+      "chapter": 8,
+      "topic": "Asset replacement, capital rationing and lease or buy",
+      "question_text": "A project requires an initial investment of $180,000 and the present value of its future net cash inflows is $225,000. Defining the profitability index as the NPV per $1 of capital invested, what is the project's profitability index?",
+      "options": {
+        "A": "0.20",
+        "B": "0.25",
+        "C": "0.80",
+        "D": "1.25"
+      },
+      "correct": "B",
+      "explanation": "NPV = 225,000 - 180,000 = 45,000. Profitability index = NPV / capital invested = 45,000 / 180,000 = 0.25. The figure of 1.25 is the ratio of PV of inflows to outlay, which is a different definition from the one stated in the question.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c08-q010",
+      "chapter": 8,
+      "topic": "Asset replacement, capital rationing and lease or buy",
+      "question_text": "Capital is expected to be limited in more than one future period. Which technique is most appropriate for selecting projects to maximise NPV?",
+      "options": {
+        "A": "Ranking projects by profitability index",
+        "B": "Calculating the equivalent annual cost",
+        "C": "Ranking projects by payback period",
+        "D": "Linear programming"
+      },
+      "correct": "D",
+      "explanation": "Ranking by profitability index works only when capital is limited in a single period. When there are constraints in several periods, each project uses a different amount of the scarce resource in each period, so a mathematical programming approach such as linear programming is needed. EAC is used for replacement decisions.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c09-q001",
+      "chapter": 9,
+      "topic": "Risk and uncertainty in investment appraisal",
+      "question_text": "A project has an NPV of $42,000. The present value of sales revenue is $600,000, the present value of contribution is $280,000 and the present value of variable costs is $320,000. By what percentage could the selling price fall before the project's NPV becomes zero?",
+      "options": {
+        "A": "7.0%",
+        "B": "13.1%",
+        "C": "15.0%",
+        "D": "46.7%"
+      },
+      "correct": "A",
+      "explanation": "Sensitivity = NPV / PV of the cash flow affected. A change in selling price affects sales revenue only, so sensitivity = 42,000 / 600,000 = 7.0%. 15.0% is the sensitivity to sales volume, which changes contribution, and 13.1% is the sensitivity to variable costs.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c09-q002",
+      "chapter": 9,
+      "topic": "Risk and uncertainty in investment appraisal",
+      "question_text": "In sensitivity analysis, what does the maximum cost of capital at which a project remains acceptable equal?",
+      "options": {
+        "A": "The risk-free rate of interest",
+        "B": "The project's internal rate of return",
+        "C": "The company's current weighted average cost of capital",
+        "D": "The rate that gives the shortest discounted payback period"
+      },
+      "correct": "B",
+      "explanation": "The NPV of a conventional project falls as the discount rate rises and becomes zero at the IRR. The sensitivity of the project to the cost of capital is therefore measured by comparing the IRR with the current cost of capital: the difference is the margin of safety.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c09-q003",
+      "chapter": 9,
+      "topic": "Risk and uncertainty in investment appraisal",
+      "question_text": "A project has the following possible NPVs: -$20,000 with probability 0.3, $40,000 with probability 0.5 and $90,000 with probability 0.2. What is the expected NPV?",
+      "options": {
+        "A": "$32,000",
+        "B": "$36,667",
+        "C": "$40,000",
+        "D": "$44,000"
+      },
+      "correct": "A",
+      "explanation": "Expected NPV = (-20,000 x 0.3) + (40,000 x 0.5) + (90,000 x 0.2) = -6,000 + 20,000 + 18,000 = $32,000. The simple average of the three outcomes ($36,667) ignores the probabilities, and treating the loss as positive gives $44,000.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c09-q004",
+      "chapter": 9,
+      "topic": "Risk and uncertainty in investment appraisal",
+      "question_text": "Which of the following correctly distinguishes risk from uncertainty in investment appraisal?",
+      "options": {
+        "A": "Risk exists where outcomes are certain; uncertainty exists where they are not",
+        "B": "Uncertainty can be measured using expected values, but risk cannot",
+        "C": "Risk exists where probabilities can be assigned to possible outcomes; uncertainty exists where they cannot",
+        "D": "Risk relates only to future cash inflows, while uncertainty relates only to the initial investment"
+      },
+      "correct": "C",
+      "explanation": "Risk describes a situation where there are several possible outcomes and probabilities can be estimated, for example from past experience. Uncertainty describes a situation where outcomes cannot be predicted or assigned probabilities with confidence. Probability-based techniques such as expected values therefore apply to risk.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c09-q005",
+      "chapter": 9,
+      "topic": "Risk and uncertainty in investment appraisal",
+      "question_text": "Which of the following is a limitation of sensitivity analysis?",
+      "options": {
+        "A": "It cannot identify which variables are most critical to the project",
+        "B": "It can only be applied to projects with a negative NPV",
+        "C": "It requires probabilities to be estimated for each variable",
+        "D": "It considers the effect of changing only one variable at a time and does not indicate how likely that change is"
+      },
+      "correct": "D",
+      "explanation": "Sensitivity analysis identifies the critical variables by calculating how much each could change before the NPV becomes zero. However, it assumes the other variables remain at their expected values, while in practice variables may change together, and it does not use probabilities, so it says nothing about the likelihood of the change.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c09-q006",
+      "chapter": 9,
+      "topic": "Risk and uncertainty in investment appraisal",
+      "question_text": "A project costs $70,000 now. The year 1 cash inflow will be $50,000 (probability 0.6) or $30,000 (probability 0.4). Independently, the year 2 cash inflow will be $60,000 (probability 0.7) or $40,000 (probability 0.3). The discount rate is 10% (DFs 0.909 and 0.826). What is the probability that the project will have a negative NPV?",
+      "options": {
+        "A": "12%",
+        "B": "28%",
+        "C": "30%",
+        "D": "40%"
+      },
+      "correct": "A",
+      "explanation": "NPVs of the four combinations: (50,000; 60,000) +25,010; (50,000; 40,000) +8,490; (30,000; 60,000) +6,830; (30,000; 40,000) -9,690. Only the last combination is negative, with joint probability 0.4 x 0.3 = 0.12, i.e. 12%. The other options use single-period probabilities or the wrong combination.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fm-c09-q007",
+      "chapter": 9,
+      "topic": "Risk and uncertainty in investment appraisal",
+      "question_text": "A project has an initial investment of $250,000 and an NPV of $30,000. By what percentage could the initial investment increase before the project ceased to be worthwhile?",
+      "options": {
+        "A": "6.0%",
+        "B": "8.3%",
+        "C": "10.7%",
+        "D": "12.0%"
+      },
+      "correct": "D",
+      "explanation": "The initial investment occurs at time 0, so its present value equals its cost. Sensitivity = NPV / PV of investment = 30,000 / 250,000 = 12.0%. Dividing by the PV of inflows (280,000) gives 10.7%, which is the sensitivity of the inflows, not the investment.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c09-q008",
+      "chapter": 9,
+      "topic": "Risk and uncertainty in investment appraisal",
+      "question_text": "Which of the following is a limitation of using expected NPV to decide whether to accept a one-off project?",
+      "options": {
+        "A": "The expected value may not correspond to any outcome that can actually occur, and it ignores the spread of possible outcomes",
+        "B": "Expected values cannot be calculated when there are more than two possible outcomes",
+        "C": "Expected NPV always understates the true return of a project",
+        "D": "Expected values do not use probabilities"
+      },
+      "correct": "A",
+      "explanation": "An expected value is a long-run average, which is most meaningful when a decision is repeated many times. For a one-off project the actual outcome will be one of the possible results, not the average, and the expected value conceals the risk of a large loss. It also relies on subjective probability estimates.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c10-q001",
+      "chapter": 10,
+      "topic": "Sources of finance, Islamic finance and dividend policy",
+      "question_text": "A company's shares are trading at $4.00 cum rights. It announces a 1 for 4 rights issue at $3.20 per share. What is the theoretical ex-rights price (TERP)?",
+      "options": {
+        "A": "$3.36",
+        "B": "$3.60",
+        "C": "$3.84",
+        "D": "$4.80"
+      },
+      "correct": "C",
+      "explanation": "TERP = (market value of existing shares + cash raised) / total shares after the issue = (4 x $4.00 + 1 x $3.20) / 5 = $19.20 / 5 = $3.84. A simple average of the two prices ($3.60) ignores the ratio of old to new shares.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c10-q002",
+      "chapter": 10,
+      "topic": "Sources of finance, Islamic finance and dividend policy",
+      "question_text": "A company makes a 2 for 5 rights issue at $2.50 per share when its share price is $3.50 cum rights. What is the theoretical value of the rights attaching to EACH EXISTING share (to the nearest cent)?",
+      "options": {
+        "A": "$0.29",
+        "B": "$0.40",
+        "C": "$0.71",
+        "D": "$1.00"
+      },
+      "correct": "A",
+      "explanation": "TERP = (5 x 3.50 + 2 x 2.50) / 7 = 22.50 / 7 = $3.2143. Value of a right per new share = TERP - issue price = 3.2143 - 2.50 = $0.7143. Each existing share carries 2/5 of a right, so value per existing share = 0.7143 x 2/5 = $0.2857, or $0.29 to the nearest cent.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fm-c10-q003",
+      "chapter": 10,
+      "topic": "Sources of finance, Islamic finance and dividend policy",
+      "question_text": "Assuming the market price falls to the theoretical ex-rights price, which action by a shareholder will REDUCE their wealth following a rights issue (assuming no payment is received for rights not taken up)?",
+      "options": {
+        "A": "Selling all of the rights",
+        "B": "Doing nothing and allowing the rights to lapse",
+        "C": "Taking up some rights and selling the remainder",
+        "D": "Taking up all of the rights"
+      },
+      "correct": "B",
+      "explanation": "If the shareholder takes up the rights, the fall in value of the existing shares is offset by the gain on the new shares bought below market value. If the rights are sold, the sale proceeds offset the fall in share value. If the rights lapse with no compensation, the shareholder suffers the fall in share price with nothing to offset it, so wealth falls.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c10-q004",
+      "chapter": 10,
+      "topic": "Sources of finance, Islamic finance and dividend policy",
+      "question_text": "In Islamic finance, which arrangement involves a financial institution buying an asset and selling it to the customer at an agreed mark-up, with payment deferred?",
+      "options": {
+        "A": "Musharaka",
+        "B": "Ijara",
+        "C": "Murabaha",
+        "D": "Mudaraba"
+      },
+      "correct": "C",
+      "explanation": "Murabaha is a form of trade credit: the bank purchases the goods and resells them to the customer at cost plus an agreed mark-up, payable later in instalments or a lump sum. The mark-up is fixed in advance and is not interest because it relates to the sale of an asset. Ijara is leasing, while Mudaraba and Musharaka are profit-sharing partnerships.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c10-q005",
+      "chapter": 10,
+      "topic": "Sources of finance, Islamic finance and dividend policy",
+      "question_text": "Which Islamic finance instrument is the equivalent of a lease, where the financier retains ownership of the asset and receives rental payments?",
+      "options": {
+        "A": "Ijara",
+        "B": "Mudaraba",
+        "C": "Sukuk",
+        "D": "Murabaha"
+      },
+      "correct": "A",
+      "explanation": "Under Ijara the financial institution buys the asset and leases it to the customer for a rental. Ownership, and the risks of ownership, remain with the financier, which is why the rental return is acceptable under Sharia principles. It can be structured as the equivalent of either an operating or a finance lease.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c10-q006",
+      "chapter": 10,
+      "topic": "Sources of finance, Islamic finance and dividend policy",
+      "question_text": "Which of the following best describes Sukuk?",
+      "options": {
+        "A": "Short-term trade credit with a fixed mark-up",
+        "B": "Certificates giving investors ownership of an underlying tangible asset, with returns derived from that asset",
+        "C": "A partnership in which both parties contribute capital and share profits and losses",
+        "D": "Interest-bearing bonds issued by Islamic banks"
+      },
+      "correct": "B",
+      "explanation": "Sukuk are the Islamic equivalent of bonds. Because paying interest is prohibited, Sukuk holders own a share of an underlying asset or business and receive a return generated by that asset, such as rental income. They therefore carry some of the asset's risk, unlike conventional bondholders.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c10-q007",
+      "chapter": 10,
+      "topic": "Sources of finance, Islamic finance and dividend policy",
+      "question_text": "What is the key difference between Mudaraba and Musharaka contracts?",
+      "options": {
+        "A": "Mudaraba is used for short-term trade finance, whereas Musharaka is used for bonds",
+        "B": "Mudaraba is a lease, whereas Musharaka is a sale with deferred payment",
+        "C": "In Mudaraba one party provides all the capital and the other provides expertise, whereas in Musharaka both parties contribute capital",
+        "D": "In Mudaraba the return is fixed, whereas in Musharaka it varies with profits"
+      },
+      "correct": "C",
+      "explanation": "Both are profit-sharing arrangements. In Mudaraba, the capital provider supplies all the finance and the entrepreneur manages the business; profits are shared in agreed proportions and financial losses are borne by the capital provider. In Musharaka, both partners contribute capital (similar to a joint venture) and share profits and losses.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c10-q008",
+      "chapter": 10,
+      "topic": "Sources of finance, Islamic finance and dividend policy",
+      "question_text": "According to Modigliani and Miller's dividend irrelevance theory, which of the following is correct?",
+      "options": {
+        "A": "Companies should pay out all their earnings as dividends",
+        "B": "Investors always prefer dividends to capital gains because dividends are less risky",
+        "C": "A higher dividend payout always increases the share price",
+        "D": "In a perfect capital market, the value of a company depends on its investment decisions, not on its dividend policy"
+      },
+      "correct": "D",
+      "explanation": "MM argued that in a perfect market with no taxes or transaction costs, shareholders are indifferent between dividends and capital gains because they can create 'home-made dividends' by selling shares. Company value is therefore determined by the returns on its investments. The 'bird in the hand' argument that investors prefer dividends is the opposing view.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c10-q009",
+      "chapter": 10,
+      "topic": "Sources of finance, Islamic finance and dividend policy",
+      "question_text": "A company that has paid steadily rising dividends for many years announces an unexpected cut in its dividend. Its share price falls sharply. Which theory best explains this reaction?",
+      "options": {
+        "A": "The clientele effect",
+        "B": "The signalling (information content) effect of dividends",
+        "C": "Modigliani and Miller's dividend irrelevance theory",
+        "D": "The pecking order theory"
+      },
+      "correct": "B",
+      "explanation": "Because investors have less information than directors, they interpret dividend changes as signals of management's view of future prospects. An unexpected cut is read as bad news about future earnings, so the share price falls. The clientele effect relates to investors choosing companies whose dividend policies suit their needs.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c10-q010",
+      "chapter": 10,
+      "topic": "Sources of finance, Islamic finance and dividend policy",
+      "question_text": "What is a scrip dividend?",
+      "options": {
+        "A": "A dividend paid in cash out of retained earnings",
+        "B": "A dividend paid by a subsidiary to its parent company",
+        "C": "A dividend paid by issuing additional shares to shareholders instead of cash",
+        "D": "A one-off dividend paid when a company is liquidated"
+      },
+      "correct": "C",
+      "explanation": "A scrip dividend gives shareholders new shares in place of a cash dividend, usually at their option. It allows the company to retain cash for investment while still rewarding shareholders. It slightly reduces gearing because equity increases without any cash outflow.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c10-q011",
+      "chapter": 10,
+      "topic": "Sources of finance, Islamic finance and dividend policy",
+      "question_text": "A small unlisted company wishes to raise equity finance for expansion but cannot access the stock market. Which of the following sources is MOST appropriate?",
+      "options": {
+        "A": "Issuing commercial paper",
+        "B": "A rights issue to the general public",
+        "C": "A placing of shares on the main stock exchange",
+        "D": "Business angels or venture capital"
+      },
+      "correct": "D",
+      "explanation": "Small and medium-sized entities often face a funding gap because they are too small for a stock market listing. Business angels (wealthy individuals) and venture capital providers invest equity in such businesses, usually seeking a significant stake and an exit route. Commercial paper is short-term debt available only to large, creditworthy companies.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c11-q001",
+      "chapter": 11,
+      "topic": "Cost of capital",
+      "question_text": "A company is about to pay a dividend of $0.40 per share. Its share price is $6.00 cum div. Dividends are expected to grow at 5% a year. Using the dividend valuation model, what is the cost of equity (to 2 decimal places)?",
+      "options": {
+        "A": "11.67%",
+        "B": "12.00%",
+        "C": "12.14%",
+        "D": "12.50%"
+      },
+      "correct": "D",
+      "explanation": "The ex-div price is 6.00 - 0.40 = $5.60. Ke = D0(1 + g)/P0 + g = 0.40 x 1.05 / 5.60 + 0.05 = 0.42 / 5.60 + 0.05 = 0.075 + 0.05 = 12.50%. Using the cum-div price gives 12.00%, and failing to grow the dividend gives 12.14%.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fm-c11-q002",
+      "chapter": 11,
+      "topic": "Cost of capital",
+      "question_text": "A company retains 60% of its earnings each year and earns a return of 15% on reinvested funds. Using Gordon's growth model, what is the expected dividend growth rate?",
+      "options": {
+        "A": "6.0%",
+        "B": "9.0%",
+        "C": "15.0%",
+        "D": "25.0%"
+      },
+      "correct": "B",
+      "explanation": "Gordon's growth model: g = r x b, where b is the proportion of earnings retained and r the return on reinvested funds. g = 15% x 0.60 = 9.0%. Using the payout ratio (40%) instead of the retention ratio gives 6.0%.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c11-q003",
+      "chapter": 11,
+      "topic": "Cost of capital",
+      "question_text": "A company's dividend per share was $0.30 four years ago and is $0.42 this year. What is the historical average annual dividend growth rate (to 2 decimal places)?",
+      "options": {
+        "A": "8.78%",
+        "B": "10.00%",
+        "C": "11.87%",
+        "D": "40.00%"
+      },
+      "correct": "A",
+      "explanation": "There are four years of growth between the two dividends. g = (0.42 / 0.30)^(1/4) - 1 = 1.4^(0.25) - 1 = 8.78%. Dividing the total growth of 40% by four (10.00%) ignores compounding, and using a cube root counts only three years of growth.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c11-q004",
+      "chapter": 11,
+      "topic": "Cost of capital",
+      "question_text": "The risk-free rate is 4%, the expected return on the market portfolio is 11% and a company's equity beta is 1.3. Using the capital asset pricing model (CAPM), what is the company's cost of equity?",
+      "options": {
+        "A": "11.0%",
+        "B": "13.1%",
+        "C": "14.3%",
+        "D": "18.3%"
+      },
+      "correct": "B",
+      "explanation": "CAPM: Ke = Rf + beta x (Rm - Rf) = 4% + 1.3 x (11% - 4%) = 4% + 1.3 x 7% = 13.1%. A common error is to multiply beta by the market return rather than by the market risk premium, giving 18.3%.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c11-q005",
+      "chapter": 11,
+      "topic": "Cost of capital",
+      "question_text": "A company has irredeemable bonds with a coupon rate of 8% on a nominal value of $100. They are trading at $96 ex interest. Corporation tax is 25%. What is the after-tax cost of the debt (to 2 decimal places)?",
+      "options": {
+        "A": "5.77%",
+        "B": "6.00%",
+        "C": "6.25%",
+        "D": "8.33%"
+      },
+      "correct": "C",
+      "explanation": "For irredeemable debt, Kd (after tax) = I(1 - T) / P0 = 8 x (1 - 0.25) / 96 = 6 / 96 = 6.25%. Ignoring tax gives the pre-tax cost of 8.33%, 6.00% wrongly uses nominal value rather than market value, and 5.77% wrongly adds the interest to the ex-interest price.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c11-q006",
+      "chapter": 11,
+      "topic": "Cost of capital",
+      "question_text": "A company's bonds pay a 6% coupon annually on a $100 nominal value and are redeemable at par in five years. They currently trade at $95 ex interest. Corporation tax is 20%. Using linear interpolation between discount rates of 5% and 7%, what is the after-tax cost of debt (to 1 decimal place)?",
+      "options": {
+        "A": "5.1%",
+        "B": "6.0%",
+        "C": "6.3%",
+        "D": "7.2%"
+      },
+      "correct": "B",
+      "explanation": "After-tax interest = 6 x (1 - 0.20) = 4.80 a year. The after-tax cost of debt is the IRR of: time 0 -95; years 1-5 +4.80; year 5 +100. At 5%: -95 + 4.80 x 4.329 + 100 x 0.784 = +4.18. At 7%: -95 + 4.80 x 4.100 + 100 x 0.713 = -4.02. Kd = 5% + 4.18 / (4.18 + 4.02) x 2% = 6.02%, i.e. 6.0% to 1 decimal place (the exact IRR is 5.99%). 7.2% is the pre-tax yield to maturity, 6.3% is the pre-tax coupon divided by the price (6/95), and 5.1% ignores the gain on redemption (4.80/95).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fm-c11-q007",
+      "chapter": 11,
+      "topic": "Cost of capital",
+      "question_text": "A company's 8% convertible bonds ($100 nominal) are trading at $102 ex interest. In four years' time each bond can be converted into 25 ordinary shares or redeemed at par. The current share price is $3.50 and is expected to grow at 5% a year. Corporation tax is 25%. Using linear interpolation between discount rates of 5% and 8%, what is the after-tax cost of the convertible debt (to 1 decimal place)?",
+      "options": {
+        "A": "5.5%",
+        "B": "5.9%",
+        "C": "6.9%",
+        "D": "8.7%"
+      },
+      "correct": "C",
+      "explanation": "Conversion value in 4 years = 25 x 3.50 x 1.05^4 = $106.36, which exceeds the redemption value of $100, so investors are expected to convert. After-tax interest = 8 x 0.75 = 6. Cash flows: time 0 -102; years 1-4 +6; year 4 +106.36. NPV at 5% = -102 + 6 x 3.546 + 106.36 x 0.823 = +6.81; NPV at 8% = -102 + 6 x 3.312 + 106.36 x 0.735 = -3.95. Kd = 5% + 6.81 / (6.81 + 3.95) x 3% = 6.90%, i.e. 6.9% (exact IRR 6.85%). Assuming redemption at par gives 5.5%, ignoring tax relief on interest gives 8.7%, and 5.9% is simply after-tax interest divided by price (6/102).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fm-c11-q008",
+      "chapter": 11,
+      "topic": "Cost of capital",
+      "question_text": "A company has 10 million ordinary shares with a market price of $3.00 (book value of equity $15m) and a cost of equity of 12%. It also has $10m nominal of bonds quoted at $105 per $100, with an after-tax cost of 5%. What is the weighted average cost of capital using market values (to 2 decimal places)?",
+      "options": {
+        "A": "8.50%",
+        "B": "9.20%",
+        "C": "10.19%",
+        "D": "10.25%"
+      },
+      "correct": "C",
+      "explanation": "Market value of equity = 10m x $3.00 = $30m; market value of debt = $10m x 105/100 = $10.5m; total $40.5m. WACC = (30 x 12% + 10.5 x 5%) / 40.5 = (3.60 + 0.525) / 40.5 = 10.19%. Using book values gives 9.20%, and using the nominal value of the debt gives 10.25%.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c11-q009",
+      "chapter": 11,
+      "topic": "Cost of capital",
+      "question_text": "A company has 7% irredeemable preference shares with a nominal value of $1, currently quoted at $0.875 ex div. What is the cost of the preference shares?",
+      "options": {
+        "A": "5.6%",
+        "B": "6.1%",
+        "C": "7.0%",
+        "D": "8.0%"
+      },
+      "correct": "D",
+      "explanation": "Kp = preference dividend / ex-div market price = $0.07 / $0.875 = 8.0%. Preference dividends are paid out of post-tax profits, so no adjustment for tax is made. 7.0% is the coupon rate on nominal value, and 5.6% wrongly deducts tax relief at 20%.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c11-q010",
+      "chapter": 11,
+      "topic": "Cost of capital",
+      "question_text": "A company has a bank loan with an interest rate of 7% a year. Corporation tax is 20%. What is the after-tax cost of the bank loan?",
+      "options": {
+        "A": "1.4%",
+        "B": "5.6%",
+        "C": "7.0%",
+        "D": "8.4%"
+      },
+      "correct": "B",
+      "explanation": "A bank loan is not traded, so its cost is based on the interest rate. Because interest is tax deductible, the after-tax cost = 7% x (1 - 0.20) = 5.6%. 1.4% is the value of the tax relief, not the cost.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c11-q011",
+      "chapter": 11,
+      "topic": "Cost of capital",
+      "question_text": "According to portfolio theory and the CAPM, which type of risk is rewarded by a higher expected return?",
+      "options": {
+        "A": "Systematic risk, because it cannot be eliminated by diversification",
+        "B": "Unsystematic risk, because it is specific to each company",
+        "C": "Business risk, because it can be eliminated by diversification",
+        "D": "Total risk, measured by the standard deviation of returns"
+      },
+      "correct": "A",
+      "explanation": "Unsystematic (specific) risk can be diversified away by holding a well-diversified portfolio, so investors are not rewarded for bearing it. Systematic (market) risk affects all companies and cannot be diversified away. The CAPM measures systematic risk by beta and sets the required return accordingly.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c12-q001",
+      "chapter": 12,
+      "topic": "Capital structure and project-specific discount rates",
+      "question_text": "According to the traditional view of capital structure, which of the following is correct?",
+      "options": {
+        "A": "The cost of equity remains constant as gearing increases",
+        "B": "The weighted average cost of capital is constant at all levels of gearing",
+        "C": "The weighted average cost of capital falls continuously as gearing increases",
+        "D": "There is an optimal level of gearing at which the weighted average cost of capital is minimised"
+      },
+      "correct": "D",
+      "explanation": "The traditional view holds that as gearing rises from zero, the benefit of cheaper debt initially outweighs the rise in the cost of equity, so WACC falls. Beyond a certain point, the cost of equity (and eventually debt) rises sharply, so WACC increases. There is therefore an optimal capital structure where WACC is lowest.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c12-q002",
+      "chapter": 12,
+      "topic": "Capital structure and project-specific discount rates",
+      "question_text": "According to Modigliani and Miller's theory of capital structure WITHOUT taxes, what happens as a company increases its gearing?",
+      "options": {
+        "A": "The cost of equity rises exactly enough to offset the benefit of cheaper debt, so WACC and company value are unchanged",
+        "B": "WACC first falls and then rises",
+        "C": "The cost of equity stays constant and WACC falls",
+        "D": "WACC falls and company value rises"
+      },
+      "correct": "A",
+      "explanation": "In a perfect market with no taxes, MM argued that the cost of equity increases linearly with gearing to compensate shareholders for extra financial risk. This exactly cancels the benefit of using cheaper debt, so WACC is constant and the value of the company depends only on its operating cash flows and business risk.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c12-q003",
+      "chapter": 12,
+      "topic": "Capital structure and project-specific discount rates",
+      "question_text": "An ungeared company has a market value of $50m. According to Modigliani and Miller's theory with corporate tax, if an otherwise identical company has $20m of irredeemable debt and the tax rate is 25%, what is the market value of the geared company's equity?",
+      "options": {
+        "A": "$30m",
+        "B": "$35m",
+        "C": "$45m",
+        "D": "$55m"
+      },
+      "correct": "B",
+      "explanation": "MM with tax: Vg = Vu + TB = 50 + (20 x 0.25) = $55m. The value of equity is the total value less the value of debt: 55 - 20 = $35m. $55m is the value of the whole geared company, not its equity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c12-q004",
+      "chapter": 12,
+      "topic": "Capital structure and project-specific discount rates",
+      "question_text": "Using Modigliani and Miller's theory with tax, an ungeared company has a cost of equity of 11%. A geared company in the same business risk class has debt to equity of 40:60 (market values) and a pre-tax cost of debt of 6%. The tax rate is 25%. What is the geared company's cost of equity?",
+      "options": {
+        "A": "12.5%",
+        "B": "13.0%",
+        "C": "13.5%",
+        "D": "14.33%"
+      },
+      "correct": "C",
+      "explanation": "Keg = Keu + (1 - T)(Keu - Kd) x Vd/Ve = 11% + 0.75 x (11% - 6%) x 40/60 = 11% + 0.75 x 5% x 0.6667 = 13.5%. Omitting the tax adjustment gives 14.33% (the MM no-tax result), and using debt to total value instead of debt to equity gives 12.5%.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fm-c12-q005",
+      "chapter": 12,
+      "topic": "Capital structure and project-specific discount rates",
+      "question_text": "According to pecking order theory, in which order do companies prefer to raise finance?",
+      "options": {
+        "A": "Retained earnings, then new equity issues, then debt",
+        "B": "New equity issues, then debt, then retained earnings",
+        "C": "Retained earnings, then debt, then new equity issues",
+        "D": "Debt, then retained earnings, then new equity issues"
+      },
+      "correct": "C",
+      "explanation": "Pecking order theory argues that companies prefer internal funds because they involve no issue costs and send no signal to the market. If external funds are needed, debt is preferred to equity because it is cheaper to issue and because issuing new equity may signal that management believes the shares are overvalued.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c12-q006",
+      "chapter": 12,
+      "topic": "Capital structure and project-specific discount rates",
+      "question_text": "A company has an equity beta of 1.4 and a market value debt to equity ratio of 30:70. Assuming debt is risk free and the tax rate is 25%, what is its asset (ungeared) beta, to 2 decimal places?",
+      "options": {
+        "A": "0.98",
+        "B": "1.06",
+        "C": "1.26",
+        "D": "1.85"
+      },
+      "correct": "B",
+      "explanation": "Asset beta = equity beta x Ve / (Ve + Vd(1 - T)) = 1.4 x 70 / (70 + 30 x 0.75) = 1.4 x 70 / 92.5 = 1.0595, or 1.06. Ignoring tax gives 0.98, and multiplying instead of dividing (regearing) gives 1.85.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c12-q007",
+      "chapter": 12,
+      "topic": "Capital structure and project-specific discount rates",
+      "question_text": "A company is evaluating a project in a new industry. A proxy company in that industry has an equity beta of 1.5 and debt to equity of 25:75. The company's own debt to equity is 20:80. Tax is 20%, debt is risk free, the risk-free rate is 3% and the market risk premium is 6%. What is the project-specific cost of equity (to 2 decimal places)?",
+      "options": {
+        "A": "10.11%",
+        "B": "11.44%",
+        "C": "11.53%",
+        "D": "12.00%"
+      },
+      "correct": "C",
+      "explanation": "Ungear the proxy beta: asset beta = 1.5 x 75 / (75 + 25 x 0.8) = 1.1842. Regear at the company's gearing: equity beta = 1.1842 x (80 + 20 x 0.8) / 80 = 1.4211. Ke = 3% + 1.4211 x 6% = 11.53%. Using the proxy beta unadjusted gives 12.00%, and using the asset beta gives the ungeared cost of equity of 10.11%.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fm-c12-q008",
+      "chapter": 12,
+      "topic": "Capital structure and project-specific discount rates",
+      "question_text": "What is the difference between business risk and financial risk?",
+      "options": {
+        "A": "Financial risk affects only lenders, while business risk affects only shareholders",
+        "B": "Business risk arises from the variability of operating profits, while financial risk arises from the use of debt finance",
+        "C": "Business risk can be eliminated by diversification, while financial risk cannot",
+        "D": "Business risk arises from the use of debt finance, while financial risk arises from operating activities"
+      },
+      "correct": "B",
+      "explanation": "Business risk is the variability of operating profit (PBIT) caused by the nature of the business, such as demand and cost structure. Financial risk is the additional variability in returns to shareholders caused by having to pay fixed interest on debt. An asset beta reflects business risk only, while an equity beta reflects both.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c12-q009",
+      "chapter": 12,
+      "topic": "Capital structure and project-specific discount rates",
+      "question_text": "Under Modigliani and Miller's theory with corporate tax, an ungeared company has a cost of equity of 10%. If it introduces debt so that debt makes up 30% of the total market value of the company, and the tax rate is 25%, what is its new WACC?",
+      "options": {
+        "A": "7.50%",
+        "B": "8.93%",
+        "C": "9.25%",
+        "D": "10.00%"
+      },
+      "correct": "C",
+      "explanation": "MM with tax: WACCg = Keu x (1 - T x Vd/(Vd + Ve)) = 10% x (1 - 0.25 x 0.3) = 10% x 0.925 = 9.25%. WACC falls as gearing increases because of the value of the tax shield on debt. 10.00% is the MM no-tax result.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fm-c13-q001",
+      "chapter": 13,
+      "topic": "Business valuations and market efficiency",
+      "question_text": "A company has total assets of $18m, including purchased goodwill of $2m, and total liabilities of $7m. There are 5 million shares in issue. What is the value per share using a net tangible asset basis?",
+      "options": {
+        "A": "$1.40",
+        "B": "$1.80",
+        "C": "$2.20",
+        "D": "$3.20"
+      },
+      "correct": "B",
+      "explanation": "Net tangible assets = total assets - intangible goodwill - liabilities = 18 - 2 - 7 = $9m. Value per share = $9m / 5m = $1.80. Including goodwill gives $2.20, and ignoring liabilities gives $3.20.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c13-q002",
+      "chapter": 13,
+      "topic": "Business valuations and market efficiency",
+      "question_text": "An unlisted company has annual earnings of $2.4m. A similar listed company has a price/earnings ratio of 14. The acquirer believes a discount of 20% should be applied to the P/E ratio because the target is unlisted. What is the estimated value of the target's equity?",
+      "options": {
+        "A": "$6.72m",
+        "B": "$26.88m",
+        "C": "$33.60m",
+        "D": "$40.32m"
+      },
+      "correct": "B",
+      "explanation": "Adjusted P/E = 14 x (1 - 0.2) = 11.2. Value = earnings x P/E = $2.4m x 11.2 = $26.88m. The discount reflects the lower marketability and higher risk of unlisted shares. Using the proxy P/E unadjusted gives $33.60m.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c13-q003",
+      "chapter": 13,
+      "topic": "Business valuations and market efficiency",
+      "question_text": "A company has just paid a dividend of $0.25 per share. Dividends are expected to grow at 4% a year indefinitely and shareholders require a return of 11%. Using the dividend valuation model, what is the value of one share (to the nearest cent)?",
+      "options": {
+        "A": "$1.73",
+        "B": "$2.36",
+        "C": "$3.57",
+        "D": "$3.71"
+      },
+      "correct": "D",
+      "explanation": "P0 = D0(1 + g) / (Ke - g) = 0.25 x 1.04 / (0.11 - 0.04) = 0.26 / 0.07 = $3.71. Failing to grow the dividend to D1 gives $3.57.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c13-q004",
+      "chapter": 13,
+      "topic": "Business valuations and market efficiency",
+      "question_text": "If a stock market is semi-strong form efficient, which of the following is correct?",
+      "options": {
+        "A": "Share prices reflect only past price movements, so fundamental analysis can earn abnormal returns",
+        "B": "Share prices reflect all publicly available information, so analysing published financial statements will not consistently produce abnormal returns",
+        "C": "Share prices reflect all information, including information known only to insiders",
+        "D": "Share prices never change in response to new announcements"
+      },
+      "correct": "B",
+      "explanation": "In a semi-strong form efficient market, share prices adjust quickly and accurately to all publicly available information, including past prices and new announcements. Neither technical nor fundamental analysis of public information can consistently beat the market, but investors with inside information could still earn abnormal returns.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c13-q005",
+      "chapter": 13,
+      "topic": "Business valuations and market efficiency",
+      "question_text": "Which of the following would be true ONLY if a stock market were strong form efficient?",
+      "options": {
+        "A": "Investors could not earn abnormal returns from analysing published accounts",
+        "B": "Investors could not earn abnormal returns by studying past share price patterns",
+        "C": "Share prices would react rapidly to the publication of annual results",
+        "D": "Directors trading on unpublished price-sensitive information would be unable to earn abnormal returns"
+      },
+      "correct": "D",
+      "explanation": "Strong form efficiency means share prices reflect all information, public and private, so even insiders could not profit from their knowledge. The other statements are already true under weak form (past prices) or semi-strong form (published information) efficiency, which are implied by, but do not require, strong form efficiency.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c13-q006",
+      "chapter": 13,
+      "topic": "Business valuations and market efficiency",
+      "question_text": "Research shows that a stock market is weak form efficient. What is the implication for investors?",
+      "options": {
+        "A": "Fundamental analysis of published information cannot earn abnormal returns",
+        "B": "Insider dealing cannot earn abnormal returns",
+        "C": "Technical analysis of past share price movements cannot be used to earn consistent abnormal returns",
+        "D": "Share prices always equal the intrinsic value of the company"
+      },
+      "correct": "C",
+      "explanation": "Weak form efficiency means current share prices fully reflect all information contained in past price movements, so prices follow a random walk and chartism (technical analysis) cannot consistently earn abnormal returns. Weak form efficiency alone does not rule out profits from fundamental analysis or inside information.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c13-q007",
+      "chapter": 13,
+      "topic": "Business valuations and market efficiency",
+      "question_text": "A company has annual earnings of $3m. Similar companies have an earnings yield of 12.5%. What is the estimated value of the company's equity using the earnings yield method?",
+      "options": {
+        "A": "$0.375m",
+        "B": "$3.375m",
+        "C": "$24.0m",
+        "D": "$37.5m"
+      },
+      "correct": "C",
+      "explanation": "Value = earnings / earnings yield = $3m / 0.125 = $24.0m. The earnings yield is the reciprocal of the P/E ratio, so this is equivalent to using a P/E of 8. Multiplying earnings by 12.5 treats the yield as a P/E ratio.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c13-q008",
+      "chapter": 13,
+      "topic": "Business valuations and market efficiency",
+      "question_text": "A company has 5% bonds ($100 nominal) that pay interest annually and will be redeemed at a 5% premium in four years' time. Investors require a pre-tax return of 7%. Using factors of 3.387 (4-year annuity at 7%) and 0.763 (year 4 at 7%), what is the market value of each bond?",
+      "options": {
+        "A": "$71.43",
+        "B": "$93.23",
+        "C": "$97.05",
+        "D": "$104.14"
+      },
+      "correct": "C",
+      "explanation": "Market value = PV of interest + PV of redemption = 5 x 3.387 + 105 x 0.763 = 16.935 + 80.115 = $97.05. The redemption amount is $105 because of the 5% premium; using $100 gives $93.23. Investors' pre-tax required return is used because tax relief on interest benefits the company, not the investor.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fm-c13-q009",
+      "chapter": 13,
+      "topic": "Business valuations and market efficiency",
+      "question_text": "A company expects to pay a dividend of $0.50 per share in one year's time. Dividends will then grow at 10% a year for the following two years (years 2 and 3), and at 4% a year indefinitely after that. The cost of equity is 12%. What is the value of a share today (to the nearest cent)?",
+      "options": {
+        "A": "$6.25",
+        "B": "$6.91",
+        "C": "$9.18",
+        "D": "$25.00"
+      },
+      "correct": "B",
+      "explanation": "Dividends: year 1 0.500; year 2 0.550; year 3 0.605. Value at the end of year 3 = D4 / (Ke - g) = 0.605 x 1.04 / 0.08 = 7.8650. PV = 0.500/1.12 + 0.550/1.12^2 + (0.605 + 7.8650)/1.12^3 = $6.91 (exact discounting, rounded to the nearest cent). Applying 10% growth in perpetuity gives $25.00, and forgetting to discount the year 3 value gives $9.18.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fm-c14-q001",
+      "chapter": 14,
+      "topic": "Foreign currency risk and interest rate risk",
+      "question_text": "A UK company has a subsidiary in another country. When the subsidiary's statement of financial position is converted into sterling for the group accounts, a loss arises because the foreign currency has weakened. Which type of foreign currency risk is this?",
+      "options": {
+        "A": "Translation risk",
+        "B": "Basis risk",
+        "C": "Transaction risk",
+        "D": "Economic risk"
+      },
+      "correct": "A",
+      "explanation": "Translation risk is the risk of gains or losses when the results and net assets of foreign operations are translated into the reporting currency. It is an accounting exposure with no immediate cash flow effect. Transaction risk affects individual foreign currency receipts and payments, and economic risk is the long-term effect of exchange rate movements on the value of the company.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-fm-c14-q002",
+      "chapter": 14,
+      "topic": "Foreign currency risk and interest rate risk",
+      "question_text": "A UK company will receive $500,000 in three months. The spot rate is $1.2500 per £1 and the three-month forward rate is $1.2650 per £1. If the company hedges using a forward contract, how much sterling will it receive (to the nearest £)?",
+      "options": {
+        "A": "£395,257",
+        "B": "£400,000",
+        "C": "£404,858",
+        "D": "£632,500"
+      },
+      "correct": "A",
+      "explanation": "The forward contract fixes the rate at $1.2650 per £1. Sterling received = $500,000 / 1.2650 = £395,257. Dollars must be divided (not multiplied) by the rate because the rate is quoted as dollars per pound. £400,000 is the spot equivalent today, which is not available for a future receipt.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c14-q003",
+      "chapter": 14,
+      "topic": "Foreign currency risk and interest rate risk",
+      "question_text": "A UK company will receive $1,000,000 in six months. The spot rate is $1.3000 per £1. The company can borrow in dollars at 5% a year and deposit in sterling at 3% a year. Using a money market hedge, how much sterling will the company have in six months (to the nearest £)?",
+      "options": {
+        "A": "£754,579",
+        "B": "£761,726",
+        "C": "£769,231",
+        "D": "£776,809"
+      },
+      "correct": "B",
+      "explanation": "Borrow dollars now so that the loan plus 6 months' interest equals the receipt: $1,000,000 / 1.025 = $975,610. Convert at spot: $975,610 / 1.3000 = £750,469. Deposit in sterling for 6 months at 1.5%: £750,469 x 1.015 = £761,726. The dollar receipt repays the loan. Using full annual rates instead of six-month rates gives £754,579.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fm-c14-q004",
+      "chapter": 14,
+      "topic": "Foreign currency risk and interest rate risk",
+      "question_text": "A UK company must pay €400,000 in three months. The spot rate is €1.1500 per £1. The company can deposit euros at 2% a year and borrow sterling at 6% a year. What is the sterling cost of the payment, in three months' time, using a money market hedge (to the nearest £)?",
+      "options": {
+        "A": "£344,399",
+        "B": "£347,826",
+        "C": "£351,287",
+        "D": "£361,466"
+      },
+      "correct": "C",
+      "explanation": "Deposit enough euros now to grow to €400,000 in three months: 400,000 / 1.005 = €398,010. Buy these euros at spot: €398,010 / 1.1500 = £346,096, borrowed in sterling. Repay the sterling loan with three months' interest at 1.5%: £346,096 x 1.015 = £351,287. Using annual rather than three-month interest rates gives £361,466.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-fm-c14-q005",
+      "chapter": 14,
+      "topic": "Foreign currency risk and interest rate risk",
+      "question_text": "The current spot rate is 2.0000 dinars per $1. Expected annual inflation is 6% in the country using the dinar and 2% in the US. Using purchasing power parity theory, what is the expected spot rate in one year (dinars per $1, to 4 decimal places)?",
+      "options": {
+        "A": "1.9245",
+        "B": "2.0400",
+        "C": "2.0784",
+        "D": "2.1200"
+      },
+      "correct": "C",
+      "explanation": "PPP: expected future spot = spot x (1 + inflation in the dinar country) / (1 + US inflation) = 2.0000 x 1.06 / 1.02 = 2.0784. The dinar is expected to weaken because its inflation is higher, so more dinars will be needed per dollar. 1.9245 inverts the inflation ratio.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c14-q006",
+      "chapter": 14,
+      "topic": "Foreign currency risk and interest rate risk",
+      "question_text": "The spot rate is 25.00 pesos per $1. One-year interest rates are 9% for pesos and 3% for dollars. Using interest rate parity, what is the one-year forward rate (pesos per $1, to 2 decimal places)?",
+      "options": {
+        "A": "23.62",
+        "B": "25.75",
+        "C": "26.46",
+        "D": "27.25"
+      },
+      "correct": "C",
+      "explanation": "Interest rate parity: forward rate = spot x (1 + peso interest rate) / (1 + dollar interest rate) = 25.00 x 1.09 / 1.03 = 26.4563, which is 26.46 pesos per $1. The currency with the higher interest rate trades at a forward discount, so more pesos are needed per dollar in the forward market.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c14-q007",
+      "chapter": 14,
+      "topic": "Foreign currency risk and interest rate risk",
+      "question_text": "A company plans to borrow $5m in three months' time for a period of six months. It buys a 3-9 forward rate agreement (FRA) at 4.5%. When the loan is taken out, the reference rate is 5.5%. Ignoring discounting of the settlement, what is the FRA settlement?",
+      "options": {
+        "A": "The company receives $50,000",
+        "B": "The company pays $25,000",
+        "C": "The company receives $25,000",
+        "D": "The company receives $12,500"
+      },
+      "correct": "C",
+      "explanation": "The reference rate (5.5%) is above the FRA rate (4.5%), so the bank compensates the company. Settlement = $5,000,000 x (5.5% - 4.5%) x 6/12 = $25,000. This offsets the higher interest on the actual loan, fixing the company's effective rate at the FRA rate plus its lending margin. The loan period is six months, so a full year's difference ($50,000) is wrong.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c14-q008",
+      "chapter": 14,
+      "topic": "Foreign currency risk and interest rate risk",
+      "question_text": "A company expects to borrow a large sum in two months' time and is concerned that interest rates will rise before then. How should it use short-term interest rate futures to hedge this risk?",
+      "options": {
+        "A": "Buy a call option on interest rate futures",
+        "B": "Take no futures position, as futures cannot hedge borrowing",
+        "C": "Buy interest rate futures now and sell them when the loan is taken out",
+        "D": "Sell interest rate futures now and buy them back when the loan is taken out"
+      },
+      "correct": "D",
+      "explanation": "Interest rate futures are priced at 100 minus the interest rate, so their price falls when interest rates rise. A borrower therefore sells futures now; if rates rise, the futures can be bought back at a lower price, and the profit offsets the higher interest cost on the loan. Buying futures (or call options on them) protects a future depositor against falling rates.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c14-q009",
+      "chapter": 14,
+      "topic": "Foreign currency risk and interest rate risk",
+      "question_text": "A company with variable rate borrowing buys an interest rate cap and simultaneously sells an interest rate floor at a lower rate. What is this arrangement called and what is its main advantage?",
+      "options": {
+        "A": "A forward rate agreement, which removes all interest rate risk",
+        "B": "An interest rate collar, which reduces the net premium cost of protection against rising rates",
+        "C": "An interest rate swap, which converts the loan to a fixed rate",
+        "D": "An interest rate collar, which allows the company to benefit fully from any fall in interest rates"
+      },
+      "correct": "B",
+      "explanation": "A collar combines buying a cap (protecting against rates rising above a ceiling) with selling a floor (giving up the benefit of rates falling below a lower limit). The premium received for the floor offsets some or all of the premium paid for the cap, so protection is cheaper, but the company does not benefit from rates falling below the floor.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-fm-c14-q010",
+      "chapter": 14,
+      "topic": "Foreign currency risk and interest rate risk",
+      "question_text": "A normal yield curve slopes upwards, showing that longer-term debt has higher yields than shorter-term debt. Which theory explains this by saying that investors require extra compensation for tying up their money for longer?",
+      "options": {
+        "A": "Liquidity preference theory",
+        "B": "Expectations theory",
+        "C": "Purchasing power parity theory",
+        "D": "Market segmentation theory"
+      },
+      "correct": "A",
+      "explanation": "Liquidity preference theory states that investors prefer to hold liquid, short-term assets, so they demand a premium for lending long term. This produces an upward-sloping yield curve even when interest rates are not expected to change. Expectations theory explains the shape of the curve by forecast future rates, and market segmentation theory by separate supply and demand in different maturity sectors.",
+      "difficulty": "easy"
+    }
+  ]
+}

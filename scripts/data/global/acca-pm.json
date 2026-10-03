@@ -730,10 +730,10 @@
         "A": "800 units",
         "B": "1,500 units",
         "C": "2,400 units",
-        "D": "0 units"
+        "D": "1,200 units"
       },
       "correct": "A",
-      "explanation": "Make Z first: 1,000 units x 2 hours = 2,000 hours. Then X: 2,000 units x 3 hours = 6,000 hours. Hours remaining = 12,000 - 2,000 - 6,000 = 4,000. Units of Y = 4,000 / 5 = 800 units.",
+      "explanation": "Make Z first: 1,000 units x 2 hours = 2,000 hours. Then X: 2,000 units x 3 hours = 6,000 hours. Hours remaining = 12,000 - 2,000 - 6,000 = 4,000. Units of Y = 4,000 / 5 = 800 units. Omitting Z and making only X before Y would wrongly leave 6,000 hours for 1,200 units of Y.",
       "difficulty": "medium"
     },
     {
@@ -1060,10 +1060,10 @@
         "A": "$3,000",
         "B": "$2,400",
         "C": "$5,400",
-        "D": "$0"
+        "D": "$8,400"
       },
       "correct": "C",
-      "explanation": "Labour is scarce, so diverting it to the order costs both the wage and the contribution lost from product Q. Relevant cost per hour = $15 + $12 = $27. Total = 200 x $27 = $5,400.",
+      "explanation": "Labour is scarce, so diverting it to the order costs both the wage and the contribution lost from product Q. Relevant cost per hour = $15 + $12 = $27. Total = 200 x $27 = $5,400. Adding the wage on top of a contribution figure that already includes it ($15 + $27 = $42 per hour, giving $8,400) double-counts the labour cost.",
       "difficulty": "medium"
     },
     {
@@ -1475,15 +1475,15 @@
       "id": "acca-pm-c11-q002",
       "chapter": 11,
       "topic": "Quantitative analysis in budgeting",
-      "question_text": "The first unit of a product took 50 hours. An 85% learning curve applies, and the learning index is b = log 0.85 / log 2 = -0.2345. How long will the 20th unit take to produce (to two decimal places)?",
+      "question_text": "The first unit of a product took 50 hours. An 85% learning curve applies, and the learning index is b = log 0.85 / log 2 = -0.2345 (to four decimal places). How long will the 20th unit take to produce (to one decimal place)?",
       "options": {
-        "A": "24.77 hours",
-        "B": "495.40 hours",
-        "C": "26.10 hours",
-        "D": "19.08 hours"
+        "A": "24.8 hours",
+        "B": "495.4 hours",
+        "C": "26.1 hours",
+        "D": "19.1 hours"
       },
       "correct": "D",
-      "explanation": "Using y = ax^b: cumulative average for 20 units = 50 x 20^-0.2345 = 24.7699, so total = 495.40 hours. Cumulative average for 19 units = 50 x 19^-0.2345 = 25.0696, so total = 476.32 hours. Time for the 20th unit = 495.40 - 476.32 = 19.08 hours.",
+      "explanation": "Using y = ax^b: cumulative average for 20 units = 50 x 20^-0.2345 = 24.767 hours, so total time = 20 x 24.767 = 495.35 hours. Cumulative average for 19 units = 50 x 19^-0.2345 = 25.067 hours, so total = 19 x 25.067 = 476.27 hours. Time for the 20th unit = 495.35 - 476.27 = 19.08, which is 19.1 hours to one decimal place (the unrounded index gives 19.08 as well). 24.8 hours is the cumulative average, 495.4 hours the cumulative total, and 26.1 hours the 16-unit average (50 x 0.85^4).",
       "difficulty": "hard"
     },
     {
@@ -1850,15 +1850,15 @@
       "id": "acca-pm-c13-q005",
       "chapter": 13,
       "topic": "Performance measurement and control",
-      "question_text": "A company has trade receivables of $82,000 and annual credit sales of $730,000. What is the trade receivables collection period (using a 365-day year)?",
+      "question_text": "A company has trade receivables of $82,000. Annual sales are $800,000, of which $730,000 are on credit and $70,000 are for cash. What is the trade receivables collection period (using a 365-day year)?",
       "options": {
-        "A": "9 days",
+        "A": "37.4 days",
         "B": "40.4 days",
-        "C": "50 days",
+        "C": "36.9 days",
         "D": "41 days"
       },
       "correct": "D",
-      "explanation": "Receivables collection period = (trade receivables / credit sales) x 365 = ($82,000 / $730,000) x 365 = 41 days.",
+      "explanation": "Receivables collection period = (trade receivables / credit sales) x 365 = ($82,000 / $730,000) x 365 = 41 days. Only credit sales create receivables: using total sales gives 37.4 days, a 360-day year gives 40.4 days, and both errors together give 36.9 days.",
       "difficulty": "easy"
     },
     {
@@ -2050,10 +2050,10 @@
         "A": "Between $30 and $55",
         "B": "Between $42 and $55",
         "C": "Between $30 and $42",
-        "D": "Between $0 and $30"
+        "D": "At or above $55, the external supplier's price"
       },
       "correct": "A",
-      "explanation": "With spare capacity, the supplying division's opportunity cost is zero, so the minimum transfer price is its variable cost of $30. The maximum the receiving division would pay is the external price of $55. Any price in this range should lead both managers to favour the internal transfer.",
+      "explanation": "With spare capacity, the supplying division's opportunity cost is zero, so the minimum transfer price is its variable cost of $30. The maximum the receiving division would pay is the external price of $55. Any price in this range should lead both managers to favour the internal transfer. Using full cost ($42) as the floor ignores the spare capacity, and a price above $55 would push Division R to buy externally.",
       "difficulty": "medium"
     },
     {

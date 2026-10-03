@@ -1073,9 +1073,9 @@
       "question_text": "A company has found that its monthly overhead costs (y) are related to machine hours (x) by the regression equation y = 12,400 + 3.2x.\n\nWhat are the forecast overheads for a month with 9,000 machine hours?",
       "options": {
         "A": "£41,200",
-        "B": "£111,628,800",
+        "B": "£21,400",
         "C": "£28,800",
-        "D": "£48,680"
+        "D": "£15,212"
       },
       "correct": "A",
       "explanation": "y = 12,400 + (3.2 x 9,000) = 12,400 + 28,800 = £41,200. Here 12,400 is the estimated fixed cost and 3.2 is the variable cost per machine hour.",
@@ -1240,7 +1240,7 @@
         "A": "£840 favourable",
         "B": "£37,800 favourable",
         "C": "£840 adverse",
-        "D": "-£0.10 favourable"
+        "D": "£960 adverse"
       },
       "correct": "A",
       "explanation": "Standard cost of actual purchases = 8,400 x £4.50 = £37,800. Actual cost = £36,960. Price variance = £37,800 - £36,960 = £840 favourable, because the material cost less than standard (actual price £4.40 per kg).",

@@ -283,7 +283,7 @@
         "D": "Hal cannot recover because Gina obtained a practical benefit under Williams v Roffey"
       },
       "correct": "A",
-      "explanation": "The rule in Pinnel's Case, affirmed in Foakes v Beer, is that payment of a smaller sum on the due date cannot discharge a larger debt. The position would differ if some new element were introduced at the creditor's request, such as earlier payment or payment in a different form. The practical benefit principle in Williams v Roffey does not apply to part payment of debts (Re Selectmove).",
+      "explanation": "The rule in Pinnel's Case, affirmed in Foakes v Beer, is that payment of a smaller sum on the due date is no consideration for a promise to forgo the balance, so the larger debt is not discharged. The position would differ if some new element were introduced at the creditor's request, such as earlier payment or payment in a different form. The practical benefit principle in Williams v Roffey does not apply to part payment of debts (Re Selectmove). Promissory estoppel can exceptionally bar recovery of the balance, but only where it would be inequitable for the creditor to go back on the promise (D & C Builders v Rees), and nothing in the facts suggests that.",
       "difficulty": "hard"
     },
     {
@@ -538,7 +538,7 @@
         "D": "A condition precedent to payment"
       },
       "correct": "A",
-      "explanation": "A clause fixing the sum payable on breach is enforceable if it protects a legitimate interest of the innocent party and is not extravagant, exorbitant or unconscionable, as restated in Cavendish Square Holding v Makdessi. A sum based on a genuine attempt to estimate loss, as discussed in Dunlop Pneumatic Tyre v New Garage, will readily satisfy this. Once a clause is valid, the agreed sum is recoverable whether actual loss is greater or smaller.",
+      "explanation": "Under Cavendish Square Holding v Makdessi (with ParkingEye v Beavis), a clause requiring payment on breach is a penalty only if it imposes a detriment on the party in breach out of all proportion to any legitimate interest of the innocent party in performance of the primary obligation. A sum fixed by a genuine attempt to estimate the client's likely loss, the approach associated with Dunlop Pneumatic Tyre v New Garage, protects a legitimate interest and is clearly not out of all proportion, so it is enforceable as liquidated damages. The agreed sum is then recoverable whether actual loss turns out greater or smaller. The clause does not exclude liability and is not a condition precedent.",
       "difficulty": "medium"
     },
     {
@@ -658,7 +658,7 @@
         "D": "It is fair, just and reasonable to impose a duty"
       },
       "correct": "B",
-      "explanation": "The Caparo test asks whether damage was reasonably foreseeable, whether there was sufficient proximity, and whether it is fair, just and reasonable to impose a duty. Negligence does not require any intention to cause harm; it is based on a failure to take reasonable care. Courts now develop new duties incrementally by analogy with established categories, but Caparo remains the standard examination framework.",
+      "explanation": "The Caparo factors are whether damage was reasonably foreseeable, whether there was sufficient proximity, and whether it is fair, just and reasonable to impose a duty. Negligence does not require any intention to cause harm; it is based on a failure to take reasonable care. In Robinson v Chief Constable of West Yorkshire Police the Supreme Court stressed that Caparo did not lay down a single test for every case: where a duty is already established by precedent the court simply applies it, and in genuinely novel situations it develops the law incrementally by analogy with existing cases, using these factors as part of that reasoning.",
       "difficulty": "medium"
     },
     {
@@ -1205,15 +1205,15 @@
       "id": "acca-lw-c08-q007",
       "chapter": 8,
       "topic": "Legal personality, company formation and constitution",
-      "question_text": "A public company has just been registered as a new company. Before it can do business or exercise borrowing powers, what must it obtain?",
+      "question_text": "A company has just been incorporated and registered as a public company. Before it can do business or exercise any borrowing powers, what must it obtain?",
       "options": {
         "A": "A special resolution of its members approving trading",
-        "B": "A trading certificate from the Registrar, confirming that its allotted share capital meets the authorised minimum",
+        "B": "A trading certificate from the Registrar, confirming that the nominal value of its allotted share capital is not less than the authorised minimum",
         "C": "Approval of its articles by the court",
         "D": "A confirmation statement accepted by the Registrar"
       },
       "correct": "B",
-      "explanation": "Under s761 Companies Act 2006 a company registered as public must not do business or borrow unless the Registrar has issued a trading certificate, which requires the nominal value of its allotted share capital to be at least the authorised minimum. Trading without one is an offence, and directors may be personally liable if the company fails to meet its obligations. A private company does not need a trading certificate.",
+      "explanation": "Under s761 Companies Act 2006 a company registered as public on its original incorporation must not do business or exercise borrowing powers until the Registrar has issued a trading certificate. The certificate is issued only if the nominal value of the allotted share capital is not less than the authorised minimum set under s763, and each allotted share must be paid up to at least one-quarter of its nominal value and the whole of any premium. Doing business without one is an offence, and the directors may be personally liable if the company fails to meet the resulting obligations. A private company never needs a trading certificate, and nor does a private company that later re-registers as public, because its share capital is checked on re-registration instead.",
       "difficulty": "medium"
     },
     {
@@ -1715,16 +1715,16 @@
       "id": "acca-lw-c11-q006",
       "chapter": 11,
       "topic": "Insolvency and administration",
-      "question_text": "A company in financial difficulty paid off an unsecured loan from a director's brother three months before going into insolvent liquidation, while other creditors remained unpaid. Under s239 Insolvency Act 1986, what is the liquidator most likely to be able to do?",
+      "question_text": "Eighteen months before going into insolvent liquidation, and at a time when it was already unable to pay its debts, a company repaid an unsecured loan from a director's brother in full while its other creditors remained unpaid. Under s239 Insolvency Act 1986, what is the liquidator most likely to be able to do?",
       "options": {
-        "A": "Nothing, because the payment was made more than one month before liquidation",
-        "B": "Recover the payment as a transaction at an undervalue under s423, but only if the company received nothing in return",
+        "A": "Nothing, because a preference can only be challenged if it was given within six months before the onset of insolvency",
+        "B": "Recover the payment as a transaction at an undervalue under s238, because the company received nothing in return",
         "C": "Apply to the court to set aside the payment as a preference",
         "D": "Disqualify the director's brother"
       },
       "correct": "C",
-      "explanation": "A preference occurs when an insolvent company does something that puts a creditor in a better position on liquidation than it would otherwise have been, and was influenced by a desire to do so. For connected persons the relevant period is two years before the onset of insolvency and the desire to prefer is presumed; for others it is six months. The court may make an order restoring the position. Disqualification under the CDDA 1986 applies to directors, not to the creditor who received the payment.",
-      "difficulty": "medium"
+      "explanation": "A preference is something done by a company, while unable to pay its debts, that puts a creditor in a better position on insolvent liquidation than it would otherwise have been, where the company was influenced by a desire to do so. A director's brother is a relative and therefore an associate and a connected person (ss249 and 435), so the relevant period is two years before the onset of insolvency rather than six months, and the desire to prefer is presumed unless rebutted. The liquidator can therefore apply for an order restoring the position. Repaying a genuine debt is not a transaction at an undervalue, because the company receives a discharge of its liability, and disqualification applies to directors, not to the creditor who was paid.",
+      "difficulty": "hard"
     },
     {
       "id": "acca-lw-c11-q007",
@@ -1798,7 +1798,7 @@
         "D": "Comply or explain"
       },
       "correct": "D",
-      "explanation": "The UK Corporate Governance Code is principles-based and operates on a 'comply or explain' basis: companies must report how they have applied its principles and either comply with its provisions or explain why they have not. Breach of a provision is not a criminal offence. Disclosure is required so that shareholders can assess the explanations given.",
+      "explanation": "The UK Corporate Governance Code operates on a 'comply or explain' basis: a company within its scope must report how it has applied the Code's principles and either comply with its detailed provisions or explain why it has not. Departure from a provision is not a criminal offence and the court does not approve governance arrangements. Disclosure is mandatory so that shareholders can assess the explanations given and engage with the board.",
       "difficulty": "easy"
     },
     {
@@ -1813,7 +1813,7 @@
         "D": "The board should not include any independent non-executive directors"
       },
       "correct": "B",
-      "explanation": "The Code recommends a clear division of responsibilities between running the board (the chair) and running the business (the chief executive), so the roles should not be held by the same person. It also recommends that a substantial proportion of the board be independent non-executive directors and that audit and remuneration committees be made up of independent non-executives. Executive directors should not sit on the audit committee.",
+      "explanation": "The Code calls for a clear division of responsibilities between running the board (the chair) and running the business (the chief executive), so the two roles should not be exercised by the same individual. It also expects at least half the board, excluding the chair, to be independent non-executive directors, and the audit committee to consist of independent non-executive directors. Executive directors, including the chief executive, should not sit on, let alone chair, the audit committee.",
       "difficulty": "medium"
     },
     {
