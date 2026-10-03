@@ -564,11 +564,11 @@
       "options": {
         "A": "Exactly twenty-one days from the date of the offer",
         "B": "Not less than thirty days and not exceeding sixty days",
-        "C": "Not less than fifteen days and not exceeding thirty days from the date of the offer",
+        "C": "Not less than fifteen days (or such lesser number of days as may be prescribed) and not exceeding thirty days from the date of the offer",
         "D": "Not less than seven days and not exceeding fifteen days"
       },
       "correct": "C",
-      "explanation": "Section 62(1)(a)(i) requires the offer to be made by notice specifying the number of shares offered. It must allow a period of not less than fifteen days and not exceeding thirty days from the date of the offer, after which an offer not accepted is deemed declined.",
+      "explanation": "Section 62(1)(a)(i) requires the offer to be made by notice specifying the number of shares offered. It must allow a period of not less than fifteen days, or such lesser number of days as may be prescribed, and not exceeding thirty days from the date of the offer, after which an offer not accepted is deemed declined. Exactly twenty-one days, thirty to sixty days and seven to fifteen days are not the statutory window.",
       "difficulty": "medium"
     },
     {
@@ -628,7 +628,7 @@
         "D": "An unsecured loan from the wife of one of its directors"
       },
       "correct": "D",
-      "explanation": "Section 2(31) treats any receipt of money by way of deposit or loan as a deposit, except categories excluded by the rules. Amounts from the Central or State Government, banking companies and other companies are excluded. A loan from a director is excluded, and a loan from a relative of a director is excluded only for a private company. A loan from a director's relative to a public company is therefore a deposit.",
+      "explanation": "Section 2(31) treats any receipt of money by way of deposit or loan as a deposit, except categories excluded by the rules. Amounts from the Central or State Government, banking companies and other companies are excluded. A loan from a director is excluded if the director declares in writing that it is not out of borrowed funds, and a loan from a relative of a director is excluded only for a private company. A loan from a director's relative to a public company is therefore a deposit.",
       "difficulty": "hard"
     },
     {
@@ -1025,7 +1025,7 @@
       "id": "ca-inter-law-c07-q008",
       "chapter": 7,
       "topic": "Declaration and Payment of Dividend",
-      "question_text": "Under the fourth proviso to section 123(1), before declaring dividend for the current financial year a company must:",
+      "question_text": "Under the provisos to section 123(1), before declaring dividend for the current financial year a company must:",
       "options": {
         "A": "Redeem all outstanding preference shares",
         "B": "Transfer at least ten per cent of profits to a general reserve",
@@ -1033,7 +1033,7 @@
         "D": "Set off carried over previous losses and depreciation not provided in previous years against the profit of the current year"
       },
       "correct": "D",
-      "explanation": "The fourth proviso to section 123(1) requires carried over previous losses and depreciation not provided in previous years to be set off against the current year's profit before any dividend is declared for that year. There is no compulsory transfer to reserves; the company may transfer such percentage of profits as it thinks appropriate.",
+      "explanation": "A proviso to section 123(1) requires carried over previous losses and depreciation not provided in previous years to be set off against the current year's profit before any dividend is declared for that year. There is no compulsory transfer to reserves; the company may transfer such percentage of profits as it thinks appropriate.",
       "difficulty": "medium"
     },
     {
@@ -1298,7 +1298,7 @@
       "question_text": "Under section 141(3)(g), a chartered accountant is disqualified from being appointed auditor of a company if, at the date of appointment, he is:",
       "options": {
         "A": "Holding a certificate of practice for less than five years",
-        "B": "Holding appointment as auditor of more than twenty companies, not counting one person companies, dormant companies, small companies and the private companies specified in that clause",
+        "B": "Holding appointment as auditor of more than twenty companies, not counting one person companies, dormant companies, small companies and private companies having paid-up share capital below the limit specified in that clause",
         "C": "Auditor of any other company in the same industry",
         "D": "Holding appointment as auditor of more than ten companies of any kind"
       },
