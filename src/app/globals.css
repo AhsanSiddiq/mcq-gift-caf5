@@ -21,6 +21,23 @@
   --logo-filter: brightness(0) invert(1);
 }
 
+/* Qualification accents (html[data-body], set by BODY_THEME_SCRIPT). ICAP keeps the original green. */
+[data-body="acca"]  { --green: #E5484D; --green-d: #C93A3F; }
+[data-body="icai"]  { --green: #3B82F6; --green-d: #2563EB; }
+[data-body="cima"]  { --green: #14B8A6; --green-d: #0F9488; }
+[data-body="icaew"] { --green: #A855F7; --green-d: #9333EA; }
+[data-body="ima"]   { --green: #F59E0B; --green-d: #D97706; }
+
+/* Home-page variants */
+.home-for-body { display: none; }
+[data-body="acca"] .home-for-acca,
+[data-body="icai"] .home-for-icai,
+[data-body="cima"] .home-for-cima,
+[data-body="icaew"] .home-for-icaew,
+[data-body="ima"] .home-for-ima,
+[data-body="other"] .home-for-other { display: block; }
+[data-body]:not([data-body="icap"]) .icap-only { display: none; }
+
 [data-theme="light"] {
   --bg: #FAFAF9;
   --bg-2: #F1F0EE;

@@ -35,7 +35,7 @@ export default function Contact() {
       </p>
 
       {status === "sent" ? (
-        <div className="p-8 rounded-2xl text-center" style={{ background: "rgba(61,179,113,0.08)", border: "1px solid rgba(61,179,113,0.25)" }}>
+        <div className="p-8 rounded-2xl text-center" style={{ background: "color-mix(in srgb, var(--green) 8%, transparent)", border: "1px solid color-mix(in srgb, var(--green) 25%, transparent)" }}>
           <p className="text-2xl mb-3">✅</p>
           <p className="font-bold text-lg mb-2" style={{ color: "var(--text-1)" }}>Message received.</p>
           <p className="text-sm" style={{ color: "var(--text-2)" }}>We will get back to you within 24 to 48 hours.</p>

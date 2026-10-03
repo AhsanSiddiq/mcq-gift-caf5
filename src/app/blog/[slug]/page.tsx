@@ -41,7 +41,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
         </Link>
         <div className="mb-10 text-center">
           <div className="flex items-center justify-center gap-4 mb-6">
-            <span className="font-bold text-[10px] uppercase tracking-widest px-3 py-1 rounded-full" style={{ background: "rgba(61,179,113,0.08)", color: "var(--green)", border: "1px solid rgba(61,179,113,0.3)" }}>{blog.tag}</span>
+            <span className="font-bold text-[10px] uppercase tracking-widest px-3 py-1 rounded-full" style={{ background: "color-mix(in srgb, var(--green) 8%, transparent)", color: "var(--green)", border: "1px solid color-mix(in srgb, var(--green) 30%, transparent)" }}>{blog.tag}</span>
           </div>
           <h1 className="font-display font-bold tracking-tight mb-6" style={{ fontSize: "clamp(2rem,4vw,3.5rem)", color: "var(--text-1)", lineHeight: 1.1 }}>
             {blog.title}
@@ -76,7 +76,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
         
         <div className="mt-20 pt-10 border-t flex flex-col items-center justify-center text-center" style={{ borderColor: "var(--border)" }}>
           <p className="text-xl font-bold mb-4 font-display" style={{ color: "var(--text-1)" }}>Apply these strategies today.</p>
-          <Link href="/practice" className="shimmer-btn inline-flex items-center gap-2 font-bold rounded-full px-8 py-4 text-white text-sm" style={{ boxShadow: "0 8px 32px rgba(61,179,113,0.3)" }}>
+          <Link href="/practice" className="shimmer-btn inline-flex items-center gap-2 font-bold rounded-full px-8 py-4 text-white text-sm" style={{ boxShadow: "0 8px 32px color-mix(in srgb, var(--green) 30%, transparent)" }}>
             Start Practicing Free
           </Link>
         </div>

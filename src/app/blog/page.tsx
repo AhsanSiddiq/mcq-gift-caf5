@@ -26,7 +26,7 @@ export default function BlogIndex() {
               className="p-6 sm:p-8 rounded-2xl block transition-all hover:-translate-y-1"
               style={{ background: "var(--surface)", border: "1px solid var(--border)", textDecoration: "none" }}>
               <div className="flex flex-wrap items-center gap-4 mb-4">
-                <span className="font-bold text-[10px] uppercase tracking-widest px-3 py-1 rounded-full" style={{ background: "rgba(61,179,113,0.1)", color: "var(--green)" }}>{b.tag}</span>
+                <span className="font-bold text-[10px] uppercase tracking-widest px-3 py-1 rounded-full" style={{ background: "color-mix(in srgb, var(--green) 10%, transparent)", color: "var(--green)" }}>{b.tag}</span>
                 <span className="text-sm" style={{ color: "var(--text-3)" }}>{b.date} • {b.readTime}</span>
               </div>
               <h2 className="font-display font-bold text-xl sm:text-2xl mb-3" style={{ color: "var(--text-1)" }}>{b.title}</h2>

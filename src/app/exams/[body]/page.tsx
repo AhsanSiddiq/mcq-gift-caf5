@@ -151,7 +151,7 @@ export default async function ExamBodyPage({ params }: { params: Promise<{ body:
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
               {liveSubjects.map((sub) => (
                 <Link key={sub.id} href={`/${sub.level.toLowerCase()}/${sub.id}`} className="rounded-2xl p-5 flex flex-col gap-2"
-                  style={{ background: "var(--bg-2)", border: "1px solid rgba(61,179,113,0.35)", textDecoration: "none" }}>
+                  style={{ background: "var(--bg-2)", border: "1px solid color-mix(in srgb, var(--green) 35%, transparent)", textDecoration: "none" }}>
                   <span className="text-xs font-black uppercase tracking-widest" style={{ color: "var(--green)" }}>{subjectCode(sub)}</span>
                   <span className="font-bold" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>{sub.title}</span>
                   <span className="text-xs" style={{ color: "var(--text-3)" }}>{LEVEL_LABEL[sub.level]}</span>
@@ -174,7 +174,7 @@ export default async function ExamBodyPage({ params }: { params: Promise<{ body:
         )}
 
         {/* CTA */}
-        <div className="mb-14 rounded-3xl p-6 sm:p-8" style={{ background: "var(--bg-2)", border: "1px solid rgba(61,179,113,0.35)" }}>
+        <div className="mb-14 rounded-3xl p-6 sm:p-8" style={{ background: "var(--bg-2)", border: "1px solid color-mix(in srgb, var(--green) 35%, transparent)" }}>
           {live ? (
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-5">
               <div>
@@ -188,7 +188,7 @@ export default async function ExamBodyPage({ params }: { params: Promise<{ body:
               <Link
                 href={body.practiceHref!}
                 className="shrink-0 inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl font-bold text-white text-base transition-transform hover:scale-[1.03] active:scale-[0.98]"
-                style={{ background: "var(--green)", fontFamily: "var(--font-inter), sans-serif", boxShadow: "0 4px 20px rgba(61,179,113,0.35)" }}
+                style={{ background: "var(--green)", fontFamily: "var(--font-inter), sans-serif", boxShadow: "0 4px 20px color-mix(in srgb, var(--green) 35%, transparent)" }}
               >
                 <BookOpen className="w-5 h-5" /> Start practising free <ArrowRight className="w-4 h-4" />
               </Link>

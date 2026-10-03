@@ -7,6 +7,8 @@ import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import CommandMenu from "@/components/CommandMenu";
 import { AdsLoader } from "@/components/AdSlot";
+import BodyThemeSync from "@/components/BodyThemeSync";
+import { BODY_THEME_SCRIPT } from "@/lib/bodyTheme";
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
@@ -133,6 +135,8 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth" data-theme="dark" suppressHydrationWarning>
       <head>
+        {/* Qualification accent colour (data-body) before first paint */}
+        <script dangerouslySetInnerHTML={{ __html: BODY_THEME_SCRIPT }} />
         {/* Preconnect for performance */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
@@ -210,6 +214,7 @@ export default function RootLayout({
         <ThemeProvider>
           <AdsLoader />
           <CommandMenu />
+          <BodyThemeSync />
           <Header />
           <main className="flex-1 w-full">{children}</main>
           <Footer />

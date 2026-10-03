@@ -11,6 +11,7 @@ import {
   getBody,
   type ExamBody,
 } from "@/data/regions";
+import { applyBodyTheme } from "@/lib/bodyTheme";
 
 /* ── cookie helpers ─────────────────────────────────────────── */
 
@@ -74,6 +75,7 @@ export default function RegionSwitcher({ variant = "dropdown", onSelect }: Props
 
   const choose = (body: ExamBody) => {
     writeBodyCookie(body.id);
+    applyBodyTheme();
     setPicked(body.id);
     setOpen(false);
     onSelect?.();
@@ -100,7 +102,7 @@ export default function RegionSwitcher({ variant = "dropdown", onSelect }: Props
           width: inline ? "100%" : undefined, justifyContent: inline ? "space-between" : undefined,
           transition: "border-color 0.2s",
         }}
-        onMouseEnter={(e) => (e.currentTarget.style.borderColor = "rgba(61,179,113,0.5)")}
+        onMouseEnter={(e) => (e.currentTarget.style.borderColor = "color-mix(in srgb, var(--green) 50%, transparent)")}
         onMouseLeave={(e) => (e.currentTarget.style.borderColor = "var(--border)")}
       >
         <span style={{ display: "inline-flex", alignItems: "center", gap: 6 }}>
@@ -150,7 +152,7 @@ export default function RegionSwitcher({ variant = "dropdown", onSelect }: Props
                 style={{
                   display: "flex", alignItems: "center", gap: 10, width: "100%",
                   padding: "9px 10px", borderRadius: 10, border: "none", cursor: "pointer",
-                  background: selected ? "rgba(61,179,113,0.10)" : "transparent",
+                  background: selected ? "color-mix(in srgb, var(--green) 10%, transparent)" : "transparent",
                   textAlign: "left", transition: "background 0.15s",
                 }}
                 onMouseEnter={(e) => { if (!selected) e.currentTarget.style.background = "var(--surface)"; }}

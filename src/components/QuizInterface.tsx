@@ -319,8 +319,8 @@ export default function QuizInterface({ mode, chapter, initialQuestions = [] }: 
           {/* Score ring */}
           <div className="inline-flex flex-col items-center justify-center rounded-2xl px-10 py-6 mb-6"
             style={{
-              background: perfect ? "rgba(61,179,113,0.12)" : excellent ? "rgba(61,179,113,0.08)" : "rgba(251,191,36,0.08)",
-              border: `1px solid ${perfect ? "rgba(61,179,113,0.5)" : excellent ? "rgba(61,179,113,0.3)" : "rgba(251,191,36,0.3)"}`,
+              background: perfect ? "color-mix(in srgb, var(--green) 12%, transparent)" : excellent ? "color-mix(in srgb, var(--green) 8%, transparent)" : "rgba(251,191,36,0.08)",
+              border: `1px solid ${perfect ? "color-mix(in srgb, var(--green) 50%, transparent)" : excellent ? "color-mix(in srgb, var(--green) 30%, transparent)" : "rgba(251,191,36,0.3)"}`,
             }}>
             <div className="font-black" style={{ fontSize: "3.5rem", color: perfect ? "var(--green)" : excellent ? "var(--green)" : "#fbbf24", lineHeight: 1 }}>
               {pct}%
@@ -341,9 +341,9 @@ export default function QuizInterface({ mode, chapter, initialQuestions = [] }: 
             <button
               onClick={() => setShowLoginModal(true)}
               className="w-full flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold mb-5 cursor-pointer transition-colors"
-              style={{ background: "rgba(61,179,113,0.08)", border: "1px solid rgba(61,179,113,0.25)", color: "var(--green)" }}
-              onMouseEnter={e => (e.currentTarget.style.background = "rgba(61,179,113,0.15)")}
-              onMouseLeave={e => (e.currentTarget.style.background = "rgba(61,179,113,0.08)")}
+              style={{ background: "color-mix(in srgb, var(--green) 8%, transparent)", border: "1px solid color-mix(in srgb, var(--green) 25%, transparent)", color: "var(--green)" }}
+              onMouseEnter={e => (e.currentTarget.style.background = "color-mix(in srgb, var(--green) 15%, transparent)")}
+              onMouseLeave={e => (e.currentTarget.style.background = "color-mix(in srgb, var(--green) 8%, transparent)")}
             >
               <CloudUpload className="w-4 h-4" /> Save progress to email
             </button>

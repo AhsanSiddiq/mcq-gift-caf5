@@ -71,13 +71,13 @@ export default function About() {
             "Blog — honest, direct CA career and exam advice",
           ].map(item => (
             <li key={item} className="flex items-start gap-3 text-sm">
-              <span className="mt-1 w-4 h-4 shrink-0 rounded-full flex items-center justify-center text-xs font-bold" style={{ background: "rgba(61,179,113,0.15)", color: "var(--green)" }}>✓</span>
+              <span className="mt-1 w-4 h-4 shrink-0 rounded-full flex items-center justify-center text-xs font-bold" style={{ background: "color-mix(in srgb, var(--green) 15%, transparent)", color: "var(--green)" }}>✓</span>
               {item}
             </li>
           ))}
         </ul>
         <div className="mt-8">
-          <Link href="/caf/caf-5" className="shimmer-btn inline-flex items-center gap-2 font-bold rounded-full px-7 py-3 text-white text-sm" style={{ fontFamily: "var(--font-space-grotesk), sans-serif", boxShadow: "0 4px 20px rgba(61,179,113,0.3)" }}>
+          <Link href="/caf/caf-5" className="shimmer-btn inline-flex items-center gap-2 font-bold rounded-full px-7 py-3 text-white text-sm" style={{ fontFamily: "var(--font-space-grotesk), sans-serif", boxShadow: "0 4px 20px color-mix(in srgb, var(--green) 30%, transparent)" }}>
             Start Practising Free →
           </Link>
         </div>

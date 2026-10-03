@@ -44,7 +44,7 @@ function BodyCard({ body }: { body: ExamBody }) {
       className="group rounded-2xl p-5 sm:p-6 flex flex-col gap-3 transition-all duration-200 hover:-translate-y-0.5"
       style={{
         background: "var(--bg-2)",
-        border: live ? "1px solid rgba(61,179,113,0.45)" : "1px solid var(--border)",
+        border: live ? "1px solid color-mix(in srgb, var(--green) 45%, transparent)" : "1px solid var(--border)",
         textDecoration: "none",
       }}
     >
@@ -92,7 +92,7 @@ function Group({ label, note, bodies }: { label: string; note: string; bodies: E
       <div className="flex items-center gap-3 mb-2">
         <span
           className="text-xs font-black uppercase tracking-widest px-3 py-1 rounded-full"
-          style={{ color: "var(--green)", background: "rgba(61,179,113,0.08)", border: "1px solid rgba(61,179,113,0.2)" }}
+          style={{ color: "var(--green)", background: "color-mix(in srgb, var(--green) 8%, transparent)", border: "1px solid color-mix(in srgb, var(--green) 20%, transparent)" }}
         >
           {label}
         </span>
@@ -152,7 +152,7 @@ export default async function ExamsPage() {
         <Link
           href={suggestedHref}
           className="group mb-14 rounded-2xl p-5 sm:p-6 flex flex-col sm:flex-row sm:items-center justify-between gap-4 transition-transform hover:-translate-y-0.5"
-          style={{ background: "var(--bg-2)", border: "1px solid rgba(61,179,113,0.35)", textDecoration: "none" }}
+          style={{ background: "var(--bg-2)", border: "1px solid color-mix(in srgb, var(--green) 35%, transparent)", textDecoration: "none" }}
         >
           <div className="flex items-start gap-4">
             <span className="text-3xl leading-none" aria-hidden>{body.flag}</span>

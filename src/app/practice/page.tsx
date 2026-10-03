@@ -60,7 +60,7 @@ const LEVEL_META: Record<string, { label: string; tag: string; color: string; bg
     label: "CAF",
     tag: "Certificate in Accounting & Finance",
     color: "var(--green)",
-    bg: "rgba(61,179,113,0.08)",
+    bg: "color-mix(in srgb, var(--green) 8%, transparent)",
     desc: "Eight papers covering accounting, tax, audit, law, and management.",
   },
 };

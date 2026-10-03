@@ -55,7 +55,7 @@ export default function Footer() {
             <p className="text-sm leading-relaxed mb-6 max-w-[240px]" style={{ color: "var(--text-2)", fontFamily: "var(--font-inter), sans-serif" }}>
               Every ICAP subject. Free forever. MCQ practice, CV tools, and everything you need to clear on your first attempt.
             </p>
-            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full" style={{ background: "rgba(61,179,113,0.08)", border: "1px solid rgba(61,179,113,0.2)" }}>
+            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full" style={{ background: "color-mix(in srgb, var(--green) 8%, transparent)", border: "1px solid color-mix(in srgb, var(--green) 20%, transparent)" }}>
               <span className="relative flex w-[6px] h-[6px]">
                 <span className="absolute inline-flex w-full h-full rounded-full opacity-75" style={{ background: "var(--green)", animation: "ping 1.5s cubic-bezier(0,0,0.2,1) infinite" }} />
                 <span className="relative rounded-full w-[6px] h-[6px]" style={{ background: "var(--green)" }} />

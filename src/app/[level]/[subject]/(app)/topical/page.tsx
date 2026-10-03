@@ -140,8 +140,8 @@ export default function TopicalPage() {
                     href={`/${level}/${subjectId}/quiz?mode=topical&chapter=${chapterNum}`}
                     className="group rounded-2xl p-5 flex items-center justify-between gap-4 transition-all duration-200"
                     style={{
-                      background: isMastered ? "rgba(61,179,113,0.06)" : "var(--bg-2)",
-                      border: `1px solid ${isMastered ? "rgba(61,179,113,0.35)" : "var(--border)"}`,
+                      background: isMastered ? "color-mix(in srgb, var(--green) 6%, transparent)" : "var(--bg-2)",
+                      border: `1px solid ${isMastered ? "color-mix(in srgb, var(--green) 35%, transparent)" : "var(--border)"}`,
                       textDecoration: "none",
                     }}
                     onMouseEnter={e => {
@@ -149,7 +149,7 @@ export default function TopicalPage() {
                       (e.currentTarget as HTMLElement).style.transform = "translateX(4px)";
                     }}
                     onMouseLeave={e => {
-                      (e.currentTarget as HTMLElement).style.borderColor = isMastered ? "rgba(61,179,113,0.35)" : "var(--border)";
+                      (e.currentTarget as HTMLElement).style.borderColor = isMastered ? "color-mix(in srgb, var(--green) 35%, transparent)" : "var(--border)";
                       (e.currentTarget as HTMLElement).style.transform = "none";
                     }}
                   >

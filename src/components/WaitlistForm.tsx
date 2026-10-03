@@ -51,7 +51,7 @@ export default function WaitlistForm({ bodyId, bodyShort, levels, launchLabel }:
       <div
         role="status"
         className="rounded-2xl p-5 sm:p-6 flex items-start gap-3"
-        style={{ background: "rgba(61,179,113,0.08)", border: "1px solid rgba(61,179,113,0.35)" }}
+        style={{ background: "color-mix(in srgb, var(--green) 8%, transparent)", border: "1px solid color-mix(in srgb, var(--green) 35%, transparent)" }}
       >
         <CheckCircle2 className="w-5 h-5 shrink-0 mt-0.5" style={{ color: "var(--green)" }} />
         <div>
@@ -107,7 +107,7 @@ export default function WaitlistForm({ bodyId, bodyShort, levels, launchLabel }:
         type="submit"
         disabled={status === "loading"}
         className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl font-bold text-white transition-transform hover:scale-[1.02] active:scale-[0.98] disabled:opacity-70 disabled:hover:scale-100"
-        style={{ background: "var(--green)", fontFamily: "var(--font-inter), sans-serif", boxShadow: "0 4px 20px rgba(61,179,113,0.3)" }}
+        style={{ background: "var(--green)", fontFamily: "var(--font-inter), sans-serif", boxShadow: "0 4px 20px color-mix(in srgb, var(--green) 30%, transparent)" }}
       >
         {status === "loading" && <Loader2 className="w-4 h-4 animate-spin" />}
         Notify me when {bodyShort} launches
