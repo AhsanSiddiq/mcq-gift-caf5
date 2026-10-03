@@ -286,7 +286,7 @@ export const caInterSubjects: Subject[] = [
     level: "CA-INTER",
     body: "icai",
     description: "Accounting Standards (AS), company accounts, amalgamation, buyback and branches — Paper 1 MCQ practice.",
-    isAvailable: false,
+    isAvailable: true,
   },
   {
     id: "ca-inter-law",
