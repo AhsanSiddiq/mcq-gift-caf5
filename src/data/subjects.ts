@@ -155,7 +155,7 @@ export const caFoundationSubjects: Subject[] = [
     level: "CA-FOUNDATION",
     body: "icai",
     description: "Demand, supply, markets, national income and the Indian economy — concept-first MCQs.",
-    isAvailable: false,
+    isAvailable: true,
   },
 ];
 
