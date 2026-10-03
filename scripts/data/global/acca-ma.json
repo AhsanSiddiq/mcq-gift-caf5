@@ -1,0 +1,2255 @@
+{
+  "subject_id": "acca-ma",
+  "questions": [
+    {
+      "id": "acca-ma-c01-q001",
+      "chapter": 1,
+      "topic": "The nature, source and purpose of management information",
+      "question_text": "Which of the following best describes the difference between data and information?",
+      "options": {
+        "A": "Information consists of raw facts and figures, whereas data has been analysed and summarised",
+        "B": "Data comes only from internal sources, whereas information comes only from external sources",
+        "C": "Information must be expressed in financial terms, whereas data may be non-financial",
+        "D": "Information is data that has been processed so that it is meaningful and useful to the person receiving it"
+      },
+      "correct": "D",
+      "explanation": "Data are unprocessed facts and figures. Once data has been sorted, analysed and presented in a way that is useful to a recipient for a purpose, it becomes information. Both data and information can be internal or external, and financial or non-financial.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c01-q002",
+      "chapter": 1,
+      "topic": "The nature, source and purpose of management information",
+      "question_text": "Which of the following is NOT generally regarded as a quality of good management information?",
+      "options": {
+        "A": "It includes every available detail, whatever the cost of producing it",
+        "B": "It is relevant to the decision being made",
+        "C": "It is communicated to the person who needs it",
+        "D": "It is available in time to be acted upon"
+      },
+      "correct": "A",
+      "explanation": "Good information is relevant, timely, accurate enough for its purpose and communicated to the right person. It should be complete enough for its purpose but not excessive, and the cost of producing it should not exceed the benefit it gives. Reporting every detail regardless of cost breaks both the 'cost-effective' and 'understandable' qualities.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c01-q003",
+      "chapter": 1,
+      "topic": "The nature, source and purpose of management information",
+      "question_text": "Which of the following decisions is most likely to be classified as an operational decision?",
+      "options": {
+        "A": "Deciding whether to acquire a competitor",
+        "B": "Allocating production staff to shifts for next week",
+        "C": "Setting the departmental budgets for the coming year",
+        "D": "Deciding whether to close a loss-making division"
+      },
+      "correct": "B",
+      "explanation": "Operational decisions are short-term, routine decisions about specific tasks, such as scheduling staff for next week. Acquiring a competitor or closing a division are strategic decisions, while setting annual departmental budgets is a tactical (management control) decision.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c01-q004",
+      "chapter": 1,
+      "topic": "The nature, source and purpose of management information",
+      "question_text": "A retailer uses population statistics published by a government agency to help decide where to open a new store. How should these statistics be classified?",
+      "options": {
+        "A": "Primary data from an external source",
+        "B": "Primary data from an internal source",
+        "C": "Secondary data from an internal source",
+        "D": "Secondary data from an external source"
+      },
+      "correct": "D",
+      "explanation": "The data was collected by the government agency for its own purposes, not by the retailer for this specific decision, so it is secondary data. It originates outside the organisation, so it is external.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c01-q005",
+      "chapter": 1,
+      "topic": "The nature, source and purpose of management information",
+      "question_text": "Which of the following statements about management accounting is correct?",
+      "options": {
+        "A": "It must be prepared in accordance with IFRS Accounting Standards",
+        "B": "It is prepared mainly for shareholders and lenders",
+        "C": "It may include non-financial information and forward-looking estimates",
+        "D": "It is a legal requirement for every limited company"
+      },
+      "correct": "C",
+      "explanation": "Management accounting is prepared for internal managers to help with planning, control and decision-making. There is no legal requirement or prescribed format, so it can include forecasts and non-financial measures. Financial accounting, in contrast, is prepared mainly for external users and must follow accounting standards.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c01-q006",
+      "chapter": 1,
+      "topic": "The nature, source and purpose of management information",
+      "question_text": "Information produced for strategic planning is most likely to be:",
+      "options": {
+        "A": "Summarised, largely external and forward-looking",
+        "B": "Detailed, internal and historical",
+        "C": "Precise, internal and covering the next few days",
+        "D": "Highly detailed, produced in real time and task-specific"
+      },
+      "correct": "A",
+      "explanation": "Strategic planning concerns the long-term direction of the whole organisation, so senior managers need summarised information covering long periods, with a large external element (markets, competitors, the economy). Detailed, internal, short-term and real-time information is typical of operational level decisions.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c01-q007",
+      "chapter": 1,
+      "topic": "The nature, source and purpose of management information",
+      "question_text": "A manager is responsible for the revenues and costs of a division but has no authority over capital investment decisions. What type of responsibility centre is this?",
+      "options": {
+        "A": "Cost centre",
+        "B": "Investment centre",
+        "C": "Profit centre",
+        "D": "Revenue centre"
+      },
+      "correct": "C",
+      "explanation": "A profit centre manager controls both revenues and costs and is therefore assessed on profit. An investment centre manager also controls capital investment, a cost centre manager controls costs only, and a revenue centre manager is responsible only for revenues.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c01-q008",
+      "chapter": 1,
+      "topic": "The nature, source and purpose of management information",
+      "question_text": "Which characteristic of big data refers to the speed at which data is generated and needs to be processed?",
+      "options": {
+        "A": "Volume",
+        "B": "Variety",
+        "C": "Veracity",
+        "D": "Velocity"
+      },
+      "correct": "D",
+      "explanation": "Velocity describes the speed at which data is generated and must be processed, often in real time. Volume is the sheer quantity of data, variety is the range of different formats (structured and unstructured) and veracity relates to its reliability.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c01-q009",
+      "chapter": 1,
+      "topic": "The nature, source and purpose of management information",
+      "question_text": "A production manager compares actual output and costs with the budget for the month and takes action to correct an overspend on materials. Which management function does this illustrate?",
+      "options": {
+        "A": "Planning",
+        "B": "Decision-making about long-term strategy",
+        "C": "Control",
+        "D": "Organising the structure of the business"
+      },
+      "correct": "C",
+      "explanation": "Control means monitoring actual performance against the plan (for example a budget) and taking corrective action where they differ. Planning sets the targets in advance, so comparing actual results with them and acting on the difference is control.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c01-q010",
+      "chapter": 1,
+      "topic": "The nature, source and purpose of management information",
+      "question_text": "Which of the following statements about the cost and value of information is correct?",
+      "options": {
+        "A": "Information should be produced only if the benefit of having it is expected to be greater than the cost of obtaining it",
+        "B": "Information should always be produced if it is accurate, whatever it costs",
+        "C": "The value of information is the amount spent on collecting and processing it",
+        "D": "Information that is cheap to produce is always more valuable than information that is expensive to produce"
+      },
+      "correct": "A",
+      "explanation": "The value of information comes from the better decisions it allows managers to make. It is worth producing only if this benefit is greater than the cost of collecting, processing and communicating it. Accuracy alone does not justify the cost, and the cost of producing information does not measure its value.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c02-q001",
+      "chapter": 2,
+      "topic": "Data analysis and statistical techniques",
+      "question_text": "A quality inspector chooses a random starting point from the first 20 items on a production list, then selects every 20th item after that. Which sampling method is being used?",
+      "options": {
+        "A": "Simple random sampling",
+        "B": "Systematic sampling",
+        "C": "Stratified sampling",
+        "D": "Quota sampling"
+      },
+      "correct": "B",
+      "explanation": "Systematic sampling picks every nth item from a list after a random start. Simple random sampling gives every item an equal chance of being chosen independently, stratified sampling divides the population into groups first, and quota sampling is a non-random method.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c02-q002",
+      "chapter": 2,
+      "topic": "Data analysis and statistical techniques",
+      "question_text": "Which of the following sampling methods is a non-random sampling method?",
+      "options": {
+        "A": "Stratified random sampling",
+        "B": "Quota sampling",
+        "C": "Simple random sampling",
+        "D": "Systematic sampling with a random start"
+      },
+      "correct": "B",
+      "explanation": "In quota sampling the interviewer chooses who to include until a set number in each category has been reached, so not every item has a known chance of selection; it is a non-random method. Simple random sampling gives every item an equal chance of selection, stratified random sampling selects randomly within each stratum, and systematic sampling selects every nth item after a randomly chosen starting point, so chance determines which items are picked in all three.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c02-q003",
+      "chapter": 2,
+      "topic": "Data analysis and statistical techniques",
+      "question_text": "A cost index (base Year 1 = 100) stood at 160 in Year 4 and 184 in Year 6. What was the percentage increase in costs between Year 4 and Year 6?",
+      "options": {
+        "A": "24.0%",
+        "B": "15.0%",
+        "C": "13.0%",
+        "D": "84.0%"
+      },
+      "correct": "B",
+      "explanation": "The percentage change is the change in the index divided by the starting index: (184 - 160) / 160 = 24 / 160 = 15.0%. The 24-point rise is not a percentage because the starting point is 160, not 100. Dividing by 184 gives 13.0%, which uses the wrong base.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c02-q004",
+      "chapter": 2,
+      "topic": "Data analysis and statistical techniques",
+      "question_text": "Prices and quantities for two items are as follows:\nBase year: Item X price $2, quantity 15; Item Y price $5, quantity 4\nCurrent year: Item X price $3, quantity 8; Item Y price $6, quantity 6\nWhat is the Laspeyres price index for the current year (base year = 100), to one decimal place?",
+      "options": {
+        "A": "130.4",
+        "B": "135.0",
+        "C": "138.0",
+        "D": "120.0"
+      },
+      "correct": "C",
+      "explanation": "A Laspeyres price index weights prices by base-year quantities: sum(p1 x q0) / sum(p0 x q0) x 100. Current prices x base quantities = (3 x 15) + (6 x 4) = 45 + 24 = 69. Base prices x base quantities = (2 x 15) + (5 x 4) = 30 + 20 = 50. Index = 69 / 50 x 100 = 138.0. Using current quantities would give the Paasche index of 60 / 46 x 100 = 130.4.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-ma-c02-q005",
+      "chapter": 2,
+      "topic": "Data analysis and statistical techniques",
+      "question_text": "The correlation coefficient between monthly output and total production cost has been calculated as 0.8. What proportion of the variation in total production cost is explained by variation in output?",
+      "options": {
+        "A": "80%",
+        "B": "89%",
+        "C": "36%",
+        "D": "64%"
+      },
+      "correct": "D",
+      "explanation": "The proportion explained is the coefficient of determination, r squared. 0.8 x 0.8 = 0.64, so 64% of the variation in cost is explained by variation in output. The remaining 36% is due to other factors.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c02-q006",
+      "chapter": 2,
+      "topic": "Data analysis and statistical techniques",
+      "question_text": "A company has the following data for five periods, where x is output (000 units) and y is total cost ($000):\nSum of x = 50, Sum of y = 400, Sum of xy = 4,300, Sum of x squared = 540, n = 5\nUsing linear regression (y = a + bx), what is the estimated total cost ($000) when output is 12,000 units?",
+      "options": {
+        "A": "95.0",
+        "B": "90.0",
+        "C": "96.0",
+        "D": "67.5"
+      },
+      "correct": "A",
+      "explanation": "b = (n x sum xy - sum x x sum y) / (n x sum x squared - (sum x) squared) = (5 x 4,300 - 50 x 400) / (5 x 540 - 50 x 50) = (21,500 - 20,000) / (2,700 - 2,500) = 1,500 / 200 = 7.5. a = (sum y - b x sum x) / n = (400 - 7.5 x 50) / 5 = 25 / 5 = 5. At x = 12: y = 5 + 7.5 x 12 = 95.0, i.e. $95,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-ma-c02-q007",
+      "chapter": 2,
+      "topic": "Data analysis and statistical techniques",
+      "question_text": "Which value of the correlation coefficient (r) indicates perfect negative correlation?",
+      "options": {
+        "A": "0",
+        "B": "-1",
+        "C": "+1",
+        "D": "-0.5"
+      },
+      "correct": "B",
+      "explanation": "r ranges from -1 to +1. A value of -1 means all points lie exactly on a straight line sloping downwards (perfect negative correlation), +1 means perfect positive correlation, and 0 means no linear correlation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c02-q008",
+      "chapter": 2,
+      "topic": "Data analysis and statistical techniques",
+      "question_text": "Quarterly sales trend is given by y = 200 + 5t, where t is the quarter number. Quarter 21 is a first quarter, which has a multiplicative seasonal index of 1.10. What is the forecast sales figure for quarter 21?",
+      "options": {
+        "A": "305.0",
+        "B": "335.5",
+        "C": "277.3",
+        "D": "330.0"
+      },
+      "correct": "B",
+      "explanation": "Trend for t = 21: 200 + (5 x 21) = 305. Under the multiplicative model the forecast = trend x seasonal index = 305 x 1.10 = 335.5. Dividing by 1.10 (277.3) would deseasonalise rather than forecast, and 330.0 uses t = 20 by mistake.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c02-q009",
+      "chapter": 2,
+      "topic": "Data analysis and statistical techniques",
+      "question_text": "In time series analysis, which component describes long-term, wave-like movements linked to the economic or business cycle over several years?",
+      "options": {
+        "A": "Seasonal variations",
+        "B": "Random variations",
+        "C": "Cyclical variations",
+        "D": "The trend"
+      },
+      "correct": "C",
+      "explanation": "Cyclical variations are medium- to long-term swings caused by the business cycle and last several years. Seasonal variations repeat within a year, random variations are irregular one-off effects, and the trend is the underlying long-term direction.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c02-q010",
+      "chapter": 2,
+      "topic": "Data analysis and statistical techniques",
+      "question_text": "A project has the following possible outcomes:\nProfit $50,000 with probability 0.3\nProfit $20,000 with probability 0.5\nLoss $10,000 with probability 0.2\nWhat is the expected value of the project?",
+      "options": {
+        "A": "$27,000 profit",
+        "B": "$20,000 profit",
+        "C": "$25,000 profit",
+        "D": "$23,000 profit"
+      },
+      "correct": "D",
+      "explanation": "EV = sum of (outcome x probability) = (50,000 x 0.3) + (20,000 x 0.5) + (-10,000 x 0.2) = 15,000 + 10,000 - 2,000 = $23,000. Treating the loss as a profit gives $27,000, and leaving it out gives $25,000.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c02-q011",
+      "chapter": 2,
+      "topic": "Data analysis and statistical techniques",
+      "question_text": "Which of the following is a limitation of using expected values for decision-making?",
+      "options": {
+        "A": "Expected values cannot be calculated when some outcomes are losses",
+        "B": "Expected values ignore the size of each possible outcome",
+        "C": "The expected value may not be one of the possible outcomes and is less meaningful for a one-off decision",
+        "D": "Expected values can only be used when all outcomes are equally likely"
+      },
+      "correct": "C",
+      "explanation": "An expected value is a long-run average, so it is most useful for decisions that are repeated many times. For a one-off decision the actual result will be one of the individual outcomes, which may differ greatly from the EV. EVs also ignore risk attitude. They can include losses and they do weight the size of each outcome by its probability.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c02-q012",
+      "chapter": 2,
+      "topic": "Data analysis and statistical techniques",
+      "question_text": "Cell B5 of a spreadsheet contains the formula =B2*(1+$C$1). If this cell is copied to cell C5, what formula will C5 contain?",
+      "options": {
+        "A": "=C2*(1+$C$1)",
+        "B": "=C2*(1+$D$1)",
+        "C": "=B2*(1+$C$1)",
+        "D": "=C2*(1+C1)"
+      },
+      "correct": "A",
+      "explanation": "B2 is a relative reference, so when the formula is copied one column to the right it becomes C2. $C$1 is an absolute reference (both column and row are fixed with $ signs), so it does not change. The copied formula is therefore =C2*(1+$C$1).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c03-q001",
+      "chapter": 3,
+      "topic": "Cost classification and cost behaviour",
+      "question_text": "For a furniture manufacturer, which of the following is a direct cost?",
+      "options": {
+        "A": "Rent of the factory",
+        "B": "Salary of the production supervisor",
+        "C": "Timber used to make tables",
+        "D": "Depreciation of factory machinery"
+      },
+      "correct": "C",
+      "explanation": "A direct cost can be traced in full to a specific cost unit. The timber in each table can be identified with that table. Factory rent, supervisor salaries and machinery depreciation are shared across all products, so they are indirect costs (production overheads).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c03-q002",
+      "chapter": 3,
+      "topic": "Cost classification and cost behaviour",
+      "question_text": "A company has the following costs for a period:\nDirect materials $12,000; Direct labour $8,000; Direct expenses $1,500; Production overheads $6,000; Administration overheads $3,000\nWhat is the prime cost?",
+      "options": {
+        "A": "$20,000",
+        "B": "$27,500",
+        "C": "$30,500",
+        "D": "$21,500"
+      },
+      "correct": "D",
+      "explanation": "Prime cost is the total of all direct costs: 12,000 + 8,000 + 1,500 = $21,500. Adding production overheads would give production cost ($27,500), and adding administration overheads as well would give total cost ($30,500).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c03-q003",
+      "chapter": 3,
+      "topic": "Cost classification and cost behaviour",
+      "question_text": "A telephone bill consists of a fixed monthly line rental plus a charge for each call made. How would this cost be classified?",
+      "options": {
+        "A": "Semi-variable",
+        "B": "Fixed",
+        "C": "Variable",
+        "D": "Stepped fixed"
+      },
+      "correct": "A",
+      "explanation": "A semi-variable (mixed) cost has a fixed element (line rental) that is paid whatever the activity level, plus a variable element (call charges) that rises with use.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c03-q004",
+      "chapter": 3,
+      "topic": "Cost classification and cost behaviour",
+      "question_text": "A factory needs one supervisor for every 12 production workers. As the workforce grows, how would supervisor salaries be classified?",
+      "options": {
+        "A": "Variable cost",
+        "B": "Stepped fixed cost",
+        "C": "Semi-variable cost",
+        "D": "Fixed cost that is constant at all levels of activity"
+      },
+      "correct": "B",
+      "explanation": "Supervisor costs stay fixed across a range of activity (up to 12 workers) and then jump to a new level when another supervisor is needed. This gives a 'staircase' pattern, so it is a stepped fixed cost.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c03-q005",
+      "chapter": 3,
+      "topic": "Cost classification and cost behaviour",
+      "question_text": "A company recorded the following total costs:\n4,000 units: $46,000\n5,500 units: $53,900\n7,000 units: $61,000\nUsing the high-low method, what is the expected total cost of producing 8,000 units?",
+      "options": {
+        "A": "$69,714",
+        "B": "$66,000",
+        "C": "$40,000",
+        "D": "$92,000"
+      },
+      "correct": "B",
+      "explanation": "The high-low method uses only the highest and lowest activity levels. Variable cost per unit = (61,000 - 46,000) / (7,000 - 4,000) = 15,000 / 3,000 = $5. Fixed cost = 46,000 - (4,000 x 5) = $26,000. Total cost at 8,000 units = 26,000 + (8,000 x 5) = $66,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c03-q006",
+      "chapter": 3,
+      "topic": "Cost classification and cost behaviour",
+      "question_text": "Fixed costs increase by $10,000 when activity goes above 6,000 units. Total costs were $38,000 at 3,000 units and $90,000 at 9,000 units. The variable cost per unit is constant. What is the expected total cost at 7,500 units?",
+      "options": {
+        "A": "$77,000",
+        "B": "$79,500",
+        "C": "$69,500",
+        "D": "$89,500"
+      },
+      "correct": "B",
+      "explanation": "First remove the step from the higher cost: 90,000 - 10,000 = $80,000. Variable cost per unit = (80,000 - 38,000) / (9,000 - 3,000) = 42,000 / 6,000 = $7. Fixed cost below 6,000 units = 38,000 - (3,000 x 7) = $17,000. At 7,500 units (above the step): 17,000 + 10,000 + (7,500 x 7) = $79,500. Ignoring the step gives a variable cost of $8.67 and a total of $77,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-ma-c03-q007",
+      "chapter": 3,
+      "topic": "Cost classification and cost behaviour",
+      "question_text": "As the level of activity increases within the relevant range, what happens to fixed cost per unit?",
+      "options": {
+        "A": "It increases",
+        "B": "It decreases",
+        "C": "It stays the same",
+        "D": "It increases and then decreases"
+      },
+      "correct": "B",
+      "explanation": "Total fixed cost does not change within the relevant range, so the same total is spread over more units as activity rises. The fixed cost per unit therefore falls.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c03-q008",
+      "chapter": 3,
+      "topic": "Cost classification and cost behaviour",
+      "question_text": "Which of the following would be the most appropriate cost unit for a hotel?",
+      "options": {
+        "A": "The housekeeping department",
+        "B": "The hotel manager's salary",
+        "C": "Occupied room-night",
+        "D": "Total floor area of the hotel"
+      },
+      "correct": "C",
+      "explanation": "A cost unit is a unit of product or service for which costs are worked out. For a hotel, the occupied room-night is a suitable measure of output. The housekeeping department is a cost centre, and the manager's salary is a cost, not a unit.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c03-q009",
+      "chapter": 3,
+      "topic": "Cost classification and cost behaviour",
+      "question_text": "In a manufacturing company, how should the salary of the factory canteen manager be classified?",
+      "options": {
+        "A": "Direct labour",
+        "B": "Administration overhead",
+        "C": "Selling and distribution overhead",
+        "D": "Production overhead"
+      },
+      "correct": "D",
+      "explanation": "The factory canteen supports production workers, but the manager's salary cannot be traced to specific products. It is therefore an indirect production cost (production overhead). It is not direct labour because the manager does not work on the product itself.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c03-q010",
+      "chapter": 3,
+      "topic": "Cost classification and cost behaviour",
+      "question_text": "Under absorption costing, which of the following costs would be included in the value of finished goods inventory?",
+      "options": {
+        "A": "Sales staff commission",
+        "B": "Depreciation of production machinery",
+        "C": "Rent of the head office",
+        "D": "Costs of delivering goods to customers"
+      },
+      "correct": "B",
+      "explanation": "Inventory is valued at production cost, which includes direct costs and production overheads such as depreciation of production machinery. Selling, administration and distribution costs are period costs and are charged to profit or loss in the period they are incurred.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c04-q001",
+      "chapter": 4,
+      "topic": "Accounting for materials",
+      "question_text": "Annual demand for a component is 36,000 units. Each order costs $40 to place, and holding one unit in inventory costs $2 per year. What is the economic order quantity (EOQ)?",
+      "options": {
+        "A": "849 units",
+        "B": "1,200 units",
+        "C": "1,697 units",
+        "D": "600 units"
+      },
+      "correct": "B",
+      "explanation": "EOQ = square root of (2 x Co x D / Ch) = square root of (2 x 40 x 36,000 / 2) = square root of 1,440,000 = 1,200 units. Leaving out the '2' on the holding cost side (dividing by 1) gives 1,697, and dividing by 4 gives 849.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c04-q002",
+      "chapter": 4,
+      "topic": "Accounting for materials",
+      "question_text": "A company uses 20,000 units of a material each year. The purchase price is $20 per unit, ordering costs are $50 per order, and holding costs are 10% of the purchase price per unit per year. If the company orders the EOQ, what is the total annual ordering and holding cost?",
+      "options": {
+        "A": "$2,000",
+        "B": "$3,000",
+        "C": "$1,000",
+        "D": "$402,000"
+      },
+      "correct": "A",
+      "explanation": "Holding cost per unit = 10% x $20 = $2. EOQ = square root of (2 x 50 x 20,000 / 2) = square root of 1,000,000 = 1,000 units. Ordering cost = (20,000 / 1,000) x 50 = $1,000. Holding cost = (1,000 / 2) x 2 = $1,000, based on average inventory. Total = $2,000; at the EOQ, ordering and holding costs are always equal. Including the purchase cost of $400,000 would give $402,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-ma-c04-q003",
+      "chapter": 4,
+      "topic": "Accounting for materials",
+      "question_text": "Daily usage of a material ranges from 300 to 500 units, and the supplier lead time ranges from 8 to 12 days. To avoid running out of inventory, what should the reorder level be?",
+      "options": {
+        "A": "4,000 units",
+        "B": "6,000 units",
+        "C": "4,800 units",
+        "D": "2,400 units"
+      },
+      "correct": "B",
+      "explanation": "Reorder level = maximum usage x maximum lead time = 500 x 12 = 6,000 units. This means there is enough inventory to cover the worst case before the new order arrives. Average usage x average lead time (400 x 10 = 4,000) would risk a stockout.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c04-q004",
+      "chapter": 4,
+      "topic": "Accounting for materials",
+      "question_text": "A company has a reorder level of 6,000 units and a reorder quantity of 5,000 units. Daily usage is between 300 and 500 units, and lead time is between 8 and 12 days. What is the maximum inventory level?",
+      "options": {
+        "A": "8,600 units",
+        "B": "11,000 units",
+        "C": "13,400 units",
+        "D": "7,000 units"
+      },
+      "correct": "A",
+      "explanation": "Maximum level = reorder level + reorder quantity - (minimum usage x minimum lead time) = 6,000 + 5,000 - (300 x 8) = 11,000 - 2,400 = 8,600 units.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c04-q005",
+      "chapter": 4,
+      "topic": "Accounting for materials",
+      "question_text": "Inventory records for a material show:\nDay 1 Opening inventory 200 units at $5\nDay 5 Purchased 300 units at $6\nDay 10 Issued 400 units\nDay 15 Purchased 250 units at $7\nDay 20 Issued 200 units\nUsing FIFO, what is the value of closing inventory?",
+      "options": {
+        "A": "$990",
+        "B": "$1,050",
+        "C": "$850",
+        "D": "$900"
+      },
+      "correct": "B",
+      "explanation": "Closing units = 200 + 300 + 250 - 400 - 200 = 150. Under FIFO the oldest units are issued first, so the 150 units left are all from the latest purchase at $7. Closing inventory = 150 x 7 = $1,050. (The day 10 issue uses 200 at $5 and 200 at $6; the day 20 issue uses 100 at $6 and 100 at $7.)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c04-q006",
+      "chapter": 4,
+      "topic": "Accounting for materials",
+      "question_text": "Inventory records for a material show:\nDay 1 Opening inventory 200 units at $5\nDay 5 Purchased 300 units at $6\nDay 10 Issued 400 units\nDay 15 Purchased 250 units at $7\nDay 20 Issued 200 units\nUsing the cumulative weighted average cost (AVCO) method, recalculated after each receipt, what is the total cost of the issues?",
+      "options": {
+        "A": "$3,500",
+        "B": "$3,640",
+        "C": "$3,560",
+        "D": "$3,600"
+      },
+      "correct": "C",
+      "explanation": "After day 5: 500 units costing 1,000 + 1,800 = $2,800, average $5.60. Day 10 issue: 400 x 5.60 = $2,240, leaving 100 units at $560. After day 15: 350 units costing 560 + 1,750 = $2,310, average $6.60. Day 20 issue: 200 x 6.60 = $1,320. Total issues = 2,240 + 1,320 = $3,560. FIFO would give $3,500.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-ma-c04-q007",
+      "chapter": 4,
+      "topic": "Accounting for materials",
+      "question_text": "When prices are rising, how does FIFO compare with AVCO?",
+      "options": {
+        "A": "FIFO gives a higher closing inventory value and a higher profit",
+        "B": "FIFO gives a lower closing inventory value and a higher profit",
+        "C": "FIFO gives a higher closing inventory value and a lower profit",
+        "D": "FIFO gives a lower closing inventory value and a lower profit"
+      },
+      "correct": "A",
+      "explanation": "Under FIFO, issues are charged at the older (cheaper) prices, so cost of sales is lower and profit is higher. Closing inventory is valued at the most recent (higher) prices, so it is higher than under AVCO, which mixes older and newer prices.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c04-q008",
+      "chapter": 4,
+      "topic": "Accounting for materials",
+      "question_text": "Which document does the stores department send to the purchasing department to ask for materials to be bought?",
+      "options": {
+        "A": "Purchase order",
+        "B": "Goods received note",
+        "C": "Materials requisition note",
+        "D": "Purchase requisition"
+      },
+      "correct": "D",
+      "explanation": "The stores department raises a purchase requisition when inventory needs topping up. The purchasing department then sends a purchase order to the supplier. A goods received note records the delivery, and a materials requisition note is used to issue materials from stores to production.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c04-q009",
+      "chapter": 4,
+      "topic": "Accounting for materials",
+      "question_text": "Annual demand for a material is 36,000 units, with a purchase price of $10 per unit. Ordering costs are $40 per order, and holding costs are $2 per unit per year. The EOQ is 1,200 units. The supplier offers a 2% discount on all units if each order is for at least 3,000 units. What would the total annual cost (purchases, ordering and holding) be if the company ordered 3,000 units each time?",
+      "options": {
+        "A": "$362,400",
+        "B": "$359,280",
+        "C": "$353,280",
+        "D": "$356,280"
+      },
+      "correct": "D",
+      "explanation": "Purchases = 36,000 x $10 x 0.98 = $352,800. Ordering = (36,000 / 3,000) x 40 = 12 x 40 = $480. Holding = (3,000 / 2) x 2 = $3,000, based on average inventory. Total = 352,800 + 480 + 3,000 = $356,280. This is less than the $362,400 cost at the EOQ (360,000 + 1,200 + 1,200), so the discount is worth accepting.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-ma-c04-q010",
+      "chapter": 4,
+      "topic": "Accounting for materials",
+      "question_text": "A stores record shows 2,400 units of a material physically in stock, 1,500 units on order from suppliers but not yet received, and 1,100 units set aside for production orders but not yet issued. What is the free inventory?",
+      "options": {
+        "A": "5,000 units",
+        "B": "2,800 units",
+        "C": "1,300 units",
+        "D": "3,900 units"
+      },
+      "correct": "B",
+      "explanation": "Free inventory = physical inventory + outstanding replenishment orders - unfulfilled requirements (allocated) = 2,400 + 1,500 - 1,100 = 2,800 units.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c04-q011",
+      "chapter": 4,
+      "topic": "Accounting for materials",
+      "question_text": "Which of the following is an inventory holding cost?",
+      "options": {
+        "A": "Administration cost of placing an order",
+        "B": "Delivery charge paid on each order",
+        "C": "Insurance of inventory kept in the warehouse",
+        "D": "Contribution lost when inventory runs out"
+      },
+      "correct": "C",
+      "explanation": "Holding costs grow with the amount of inventory held, for example insurance, storage, obsolescence and the cost of capital tied up. Administration and delivery charges per order are ordering costs, and lost contribution is a stockout cost.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c05-q001",
+      "chapter": 5,
+      "topic": "Accounting for labour",
+      "question_text": "During a year a company had 380 employees at the start and 420 at the end. 30 employees left, and 24 of these were replaced. What is the labour turnover rate?",
+      "options": {
+        "A": "7.5%",
+        "B": "6.0%",
+        "C": "5.7%",
+        "D": "6.3%"
+      },
+      "correct": "B",
+      "explanation": "Labour turnover = number of replacements / average number of employees x 100. Average employees = (380 + 420) / 2 = 400. Turnover = 24 / 400 x 100 = 6.0%. Using all 30 leavers would give 7.5%.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c05-q002",
+      "chapter": 5,
+      "topic": "Accounting for labour",
+      "question_text": "In a month, a department worked 4,400 hours and produced output worth 4,620 standard hours. Budgeted hours were 4,800. What was the labour efficiency ratio?",
+      "options": {
+        "A": "105.0%",
+        "B": "91.7%",
+        "C": "96.3%",
+        "D": "95.2%"
+      },
+      "correct": "A",
+      "explanation": "Efficiency ratio = standard hours of output / actual hours worked x 100 = 4,620 / 4,400 x 100 = 105.0%. The capacity ratio would be 4,400 / 4,800 = 91.7%, and the production volume ratio 4,620 / 4,800 = 96.3%.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c05-q003",
+      "chapter": 5,
+      "topic": "Accounting for labour",
+      "question_text": "Budgeted labour hours for a period were 5,000. Actual hours worked were 4,500, and the standard hours for the output achieved were 4,800. What is the production volume ratio?",
+      "options": {
+        "A": "96.0%",
+        "B": "90.0%",
+        "C": "106.7%",
+        "D": "93.8%"
+      },
+      "correct": "A",
+      "explanation": "Production volume ratio = standard hours of output / budgeted hours x 100 = 4,800 / 5,000 x 100 = 96.0%. It equals the efficiency ratio (4,800 / 4,500 = 106.7%) x the capacity ratio (4,500 / 5,000 = 90.0%): 1.067 x 0.90 = 0.96.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c05-q004",
+      "chapter": 5,
+      "topic": "Accounting for labour",
+      "question_text": "Direct workers worked overtime at a customer's specific request so that the customer's job could be finished early. How should the overtime premium be treated?",
+      "options": {
+        "A": "As a direct cost of that customer's job",
+        "B": "As a production overhead spread over all jobs",
+        "C": "As an administration overhead",
+        "D": "As a cost written off directly to profit or loss as an abnormal item"
+      },
+      "correct": "A",
+      "explanation": "Overtime premium is normally a production overhead, because it usually arises from the general workload and it would be unfair to charge it to whichever job happened to be done during overtime. When overtime is worked at a specific customer's request, the premium is caused by that job, so it is charged to it as a direct cost.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c05-q005",
+      "chapter": 5,
+      "topic": "Accounting for labour",
+      "question_text": "A direct production worker is paid $15 per hour. In one week she worked 40 basic hours and 6 overtime hours, paid at time and a half. The overtime was caused by a generally high workload. What is the direct labour cost for the week?",
+      "options": {
+        "A": "$735",
+        "B": "$690",
+        "C": "$600",
+        "D": "$645"
+      },
+      "correct": "B",
+      "explanation": "Direct labour = all hours worked at the basic rate = 46 x $15 = $690. The overtime premium of 6 x ($15 x 0.5) = $45 is treated as production overhead because it comes from general workload. Total gross pay is 690 + 45 = $735.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c05-q006",
+      "chapter": 5,
+      "topic": "Accounting for labour",
+      "question_text": "A worker is paid a piecework rate of $0.80 per unit, with a guaranteed minimum of $12 per hour based on a weekly calculation. In one week he worked 38 hours and produced 520 units. What is his gross pay for the week?",
+      "options": {
+        "A": "$456",
+        "B": "$416",
+        "C": "$40",
+        "D": "$872"
+      },
+      "correct": "A",
+      "explanation": "Piecework earnings = 520 x 0.80 = $416. Guaranteed minimum = 38 x 12 = $456. The worker receives the higher of the two, so gross pay is $456.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c05-q007",
+      "chapter": 5,
+      "topic": "Accounting for labour",
+      "question_text": "A differential piecework scheme pays $1.00 per unit for the first 500 units, $1.20 per unit for units 501 to 700, and $1.50 per unit for every unit above 700. Each rate applies only to units within its band. What is the pay for an output of 760 units?",
+      "options": {
+        "A": "$1,140",
+        "B": "$912",
+        "C": "$830",
+        "D": "$760"
+      },
+      "correct": "C",
+      "explanation": "Pay = (500 x 1.00) + (200 x 1.20) + (60 x 1.50) = 500 + 240 + 90 = $830. Applying the top rate to all 760 units ($1,140) is wrong, because each rate applies only to the units in its own band.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-ma-c05-q008",
+      "chapter": 5,
+      "topic": "Accounting for labour",
+      "question_text": "Which of the following is a preventive cost of labour turnover?",
+      "options": {
+        "A": "Cost of advertising for replacement staff",
+        "B": "Cost of training newly recruited employees",
+        "C": "Lost output while new employees learn the job",
+        "D": "Cost of improving working conditions and staff welfare schemes"
+      },
+      "correct": "D",
+      "explanation": "Preventive costs are spent to reduce the number of staff leaving, for example better working conditions, welfare, pension schemes and career development. Advertising, training new staff and lost output are replacement costs that arise after employees have left.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c05-q009",
+      "chapter": 5,
+      "topic": "Accounting for labour",
+      "question_text": "Which accounting entry records indirect production wages in an integrated cost accounting system?",
+      "options": {
+        "A": "Debit Work in progress account; Credit Wages control account",
+        "B": "Debit Wages control account; Credit Production overhead control account",
+        "C": "Debit Production overhead control account; Credit Wages control account",
+        "D": "Debit Statement of profit or loss; Credit Wages control account"
+      },
+      "correct": "C",
+      "explanation": "The wages control account is credited as wages are analysed out. Direct wages are debited to work in progress, while indirect production wages are debited to the production overhead control account and later absorbed into production.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c05-q010",
+      "chapter": 5,
+      "topic": "Accounting for labour",
+      "question_text": "A worker is paid $16 per hour plus a bonus of 50% of the time saved, valued at the hourly rate. A job has a time allowance of 12 hours and the worker finished it in 9 hours. What is the worker's total pay for the job?",
+      "options": {
+        "A": "$168",
+        "B": "$192",
+        "C": "$144",
+        "D": "$24"
+      },
+      "correct": "A",
+      "explanation": "Basic pay = 9 hours x $16 = $144. Time saved = 12 - 9 = 3 hours. Bonus = 50% x 3 x $16 = $24. Total pay = 144 + 24 = $168. Paying a bonus for all the time saved would give $192.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c06-q001",
+      "chapter": 6,
+      "topic": "Accounting for overheads",
+      "question_text": "What is meant by overhead allocation?",
+      "options": {
+        "A": "Charging a whole item of overhead to a single cost centre that incurred it",
+        "B": "Sharing an item of overhead between several cost centres on a fair basis",
+        "C": "Charging overheads to cost units using a predetermined rate",
+        "D": "Transferring service cost centre overheads to production cost centres"
+      },
+      "correct": "A",
+      "explanation": "Allocation charges a whole overhead to one cost centre where it can be identified entirely with that centre. Apportionment shares common overheads between centres, reapportionment moves service centre costs to production centres, and absorption charges overheads to cost units.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c06-q002",
+      "chapter": 6,
+      "topic": "Accounting for overheads",
+      "question_text": "What is the most appropriate basis for apportioning factory rent between cost centres?",
+      "options": {
+        "A": "Floor area occupied",
+        "B": "Number of employees",
+        "C": "Machine hours",
+        "D": "Value of materials issued"
+      },
+      "correct": "A",
+      "explanation": "Rent relates to the space each cost centre uses, so floor area is the fairest basis. The number of employees suits costs such as canteen or personnel costs, and machine hours suit machine-related costs such as power.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c06-q003",
+      "chapter": 6,
+      "topic": "Accounting for overheads",
+      "question_text": "Factory rent of $60,000 is apportioned by floor area. The floor areas are: Machining 4,000 square metres, Assembly 3,500 square metres and Stores 2,500 square metres. How much rent is apportioned to Machining?",
+      "options": {
+        "A": "$20,000",
+        "B": "$21,000",
+        "C": "$15,000",
+        "D": "$24,000"
+      },
+      "correct": "D",
+      "explanation": "Total floor area = 4,000 + 3,500 + 2,500 = 10,000 square metres. Machining share = 60,000 x 4,000 / 10,000 = $24,000. $20,000 would be an equal split, $21,000 is Assembly's share and $15,000 is Stores' share.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c06-q004",
+      "chapter": 6,
+      "topic": "Accounting for overheads",
+      "question_text": "A factory has two production departments (P1, P2) and two service departments (S1, S2). Overheads after primary apportionment are P1 $80,000, P2 $60,000, S1 $30,000 and S2 $20,000.\nS1 serves P1 60% and P2 40%.\nS2 serves P1 30%, P2 50% and S1 20%.\nS1 does not provide any service to S2. What are P1's total overheads after all service department costs have been reapportioned?",
+      "options": {
+        "A": "$105,500",
+        "B": "$104,000",
+        "C": "$83,600",
+        "D": "$106,400"
+      },
+      "correct": "D",
+      "explanation": "Because S1 does not serve S2, reapportion S2 first: P1 30% = $6,000, P2 50% = $10,000, S1 20% = $4,000. S1 now totals 30,000 + 4,000 = $34,000, split P1 60% = $20,400 and P2 40% = $13,600. P1 = 80,000 + 6,000 + 20,400 = $106,400. (P2 = $83,600, and 106,400 + 83,600 = 190,000, which equals total overheads.) The direct method, which ignores the service S2 gives S1, would give $105,500.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-ma-c06-q005",
+      "chapter": 6,
+      "topic": "Accounting for overheads",
+      "question_text": "A department's budgeted overheads are $360,000. Budgeted activity is 24,000 direct labour hours and 12,000 machine hours. Work in the department is mainly done by hand. What is the most appropriate overhead absorption rate?",
+      "options": {
+        "A": "$15 per direct labour hour",
+        "B": "$30 per machine hour",
+        "C": "$10 per direct labour hour",
+        "D": "$45 per direct labour hour"
+      },
+      "correct": "A",
+      "explanation": "In a labour-intensive department, overheads are best absorbed on direct labour hours: 360,000 / 24,000 = $15 per labour hour. A machine hour rate ($30) would suit a machine-intensive department.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c06-q006",
+      "chapter": 6,
+      "topic": "Accounting for overheads",
+      "question_text": "Budgeted production overheads were $360,000 and budgeted labour hours were 24,000. Actual overheads were $372,000 and actual labour hours were 25,000. What was the under- or over-absorption of overheads?",
+      "options": {
+        "A": "$3,000 under-absorbed",
+        "B": "$12,000 under-absorbed",
+        "C": "$3,000 over-absorbed",
+        "D": "$15,000 over-absorbed"
+      },
+      "correct": "C",
+      "explanation": "OAR = 360,000 / 24,000 = $15 per hour. Overheads absorbed = 25,000 x 15 = $375,000. Actual overheads = $372,000. Absorbed is more than actual, so overheads are over-absorbed by 375,000 - 372,000 = $3,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c06-q007",
+      "chapter": 6,
+      "topic": "Accounting for overheads",
+      "question_text": "Which of the following would cause production overheads to be under-absorbed?",
+      "options": {
+        "A": "Actual activity was higher than budgeted, while overhead spending was as budgeted",
+        "B": "Actual overhead spending was lower than budgeted, while actual activity was as budgeted",
+        "C": "Actual overhead spending was higher than budgeted, while actual activity was as budgeted",
+        "D": "Actual overhead spending and activity were both exactly as budgeted"
+      },
+      "correct": "C",
+      "explanation": "Under-absorption happens when overheads absorbed (actual activity x predetermined rate) are less than actual overheads. If activity is as budgeted, the amount absorbed equals the budget, so spending more than budget leaves overheads under-absorbed. Higher activity or lower spending would lead to over-absorption.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c06-q008",
+      "chapter": 6,
+      "topic": "Accounting for overheads",
+      "question_text": "A company absorbs production overheads on machine hours. Budgeted machine hours were 30,000. Actual overheads were $496,000, actual machine hours were 31,000, and overheads were under-absorbed by $31,000. What were the budgeted production overheads?",
+      "options": {
+        "A": "$480,000",
+        "B": "$450,000",
+        "C": "$465,000",
+        "D": "$527,000"
+      },
+      "correct": "B",
+      "explanation": "Overheads absorbed = actual overheads - under-absorption = 496,000 - 31,000 = $465,000. OAR = 465,000 / 31,000 actual hours = $15 per machine hour. The OAR was set as budgeted overheads / budgeted hours, so budgeted overheads = 15 x 30,000 = $450,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-ma-c06-q009",
+      "chapter": 6,
+      "topic": "Accounting for overheads",
+      "question_text": "At the end of a period, production overheads have been under-absorbed. How is the under-absorption accounted for?",
+      "options": {
+        "A": "It is credited to the statement of profit or loss, increasing profit",
+        "B": "It is debited to the statement of profit or loss as an extra expense",
+        "C": "It is added to the value of closing inventory",
+        "D": "It is carried forward to be absorbed in the next period"
+      },
+      "correct": "B",
+      "explanation": "Under-absorption means too little overhead has been charged to production, so the shortfall is written off as an extra charge (a debit) in the statement of profit or loss for the period. Over-absorption would be credited, increasing profit.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c06-q010",
+      "chapter": 6,
+      "topic": "Accounting for overheads",
+      "question_text": "Why are separate departmental overhead absorption rates usually preferred to a single factory-wide (blanket) rate?",
+      "options": {
+        "A": "Departmental rates always lead to lower product costs",
+        "B": "Products may use each department's resources in different proportions, so separate rates give more accurate product costs",
+        "C": "Departmental rates avoid any under- or over-absorption of overheads",
+        "D": "A blanket rate cannot be used with direct labour hours"
+      },
+      "correct": "B",
+      "explanation": "When products spend different amounts of time in departments with very different overhead costs, a single blanket rate averages these differences out and distorts product costs. Departmental rates charge each product with the overheads of the departments it actually uses. They do not remove under- or over-absorption, which comes from differences between budget and actual.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c06-q011",
+      "chapter": 6,
+      "topic": "Accounting for overheads",
+      "question_text": "A job uses 12 machine hours in Department X, which absorbs overheads at $22 per machine hour, and 30 direct labour hours in Department Y, which absorbs overheads at $9 per labour hour. What is the total overhead absorbed by the job?",
+      "options": {
+        "A": "$768",
+        "B": "$651",
+        "C": "$270",
+        "D": "$534"
+      },
+      "correct": "D",
+      "explanation": "Department X: 12 x 22 = $264. Department Y: 30 x 9 = $270. Total = $534. Applying the rates to the wrong departments' hours gives 12 x 9 + 30 x 22 = $768.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c07-q001",
+      "chapter": 7,
+      "topic": "Absorption and marginal costing",
+      "question_text": "Under marginal costing, how is finished goods inventory valued?",
+      "options": {
+        "A": "At variable production cost only",
+        "B": "At full production cost including fixed production overheads",
+        "C": "At total cost including selling and administration costs",
+        "D": "At variable production cost plus variable selling costs"
+      },
+      "correct": "A",
+      "explanation": "Marginal costing values inventory at variable (marginal) production cost: direct materials, direct labour, direct expenses and variable production overheads. Fixed production overheads are treated as period costs and written off in full in the period.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c07-q002",
+      "chapter": 7,
+      "topic": "Absorption and marginal costing",
+      "question_text": "Finished goods inventory increased by 500 units during a period. The fixed production overhead absorption rate is $8 per unit. How will the profit under absorption costing compare with the profit under marginal costing?",
+      "options": {
+        "A": "Absorption costing profit will be $4,000 higher",
+        "B": "Absorption costing profit will be $4,000 lower",
+        "C": "Marginal costing profit will be $8,000 higher",
+        "D": "Both methods will report the same profit"
+      },
+      "correct": "A",
+      "explanation": "When inventory increases, absorption costing carries forward some fixed production overhead in closing inventory, so its profit is higher. Difference = change in inventory units x fixed OAR per unit = 500 x 8 = $4,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c07-q003",
+      "chapter": 7,
+      "topic": "Absorption and marginal costing",
+      "question_text": "A company's profit for a period under marginal costing was $62,000. Opening inventory was 1,200 units and closing inventory was 900 units. The fixed production overhead absorption rate is $5 per unit. What was the profit under absorption costing?",
+      "options": {
+        "A": "$60,500",
+        "B": "$63,500",
+        "C": "$57,500",
+        "D": "$66,500"
+      },
+      "correct": "A",
+      "explanation": "Inventory fell by 1,200 - 900 = 300 units. When inventory falls, absorption costing releases fixed overheads from opening inventory into this period's cost of sales, so its profit is lower. Absorption profit = 62,000 - (300 x 5) = $60,500.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c07-q004",
+      "chapter": 7,
+      "topic": "Absorption and marginal costing",
+      "question_text": "A product has the following data per unit: selling price $40, direct materials $12, direct labour $8, variable production overhead $3, variable selling cost $2, fixed production overhead $6. What is the contribution per unit?",
+      "options": {
+        "A": "$17",
+        "B": "$15",
+        "C": "$9",
+        "D": "$11"
+      },
+      "correct": "B",
+      "explanation": "Contribution = selling price - all variable costs = 40 - (12 + 8 + 3 + 2) = $15. Variable selling costs must be deducted (otherwise the answer is $17), and fixed overheads are not deducted when calculating contribution.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c07-q005",
+      "chapter": 7,
+      "topic": "Absorption and marginal costing",
+      "question_text": "Budgeted production was 10,000 units, with budgeted fixed production overheads of $80,000, absorbed per unit. Actual production was 11,000 units and sales were 10,500 units at $50 each. Variable production cost is $30 per unit. Actual fixed production overheads were $82,000, and fixed selling costs were $20,000. There was no opening inventory. What is the profit under absorption costing?",
+      "options": {
+        "A": "$108,000",
+        "B": "$106,000",
+        "C": "$118,000",
+        "D": "$112,000"
+      },
+      "correct": "D",
+      "explanation": "OAR = 80,000 / 10,000 = $8, so full cost = $38 per unit. Sales 10,500 x 50 = 525,000, less cost of sales 10,500 x 38 = 399,000. Absorbed overheads = 11,000 x 8 = 88,000 against actual 82,000, so overheads are over-absorbed by $6,000 (added to profit). Profit = 525,000 - 399,000 + 6,000 - 20,000 = $112,000. Check: marginal profit = 10,500 x 20 - 82,000 - 20,000 = $108,000, plus the 500-unit inventory increase x $8 = $4,000 gives $112,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-ma-c07-q006",
+      "chapter": 7,
+      "topic": "Absorption and marginal costing",
+      "question_text": "Which of the following is an argument in favour of marginal costing?",
+      "options": {
+        "A": "It is the method required by IAS 2 Inventories for external reporting",
+        "B": "It makes sure that all production costs are recovered in the product cost",
+        "C": "It always reports a higher profit than absorption costing",
+        "D": "Profit is not affected by changes in inventory levels, because fixed production overheads are not carried forward in inventory"
+      },
+      "correct": "D",
+      "explanation": "Under marginal costing, fixed production overheads are written off in the period they are incurred, so managers cannot raise reported profit simply by building up inventory. IAS 2 requires absorption costing for external reporting. Which method reports the higher profit depends on whether inventory rises or falls.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c07-q007",
+      "chapter": 7,
+      "topic": "Absorption and marginal costing",
+      "question_text": "Which of the following statements about absorption costing is correct?",
+      "options": {
+        "A": "It is consistent with IAS 2 Inventories, which requires inventory to include a share of production overheads",
+        "B": "It treats fixed production overheads as period costs",
+        "C": "It values inventory at variable production cost only",
+        "D": "It cannot be used together with standard costing"
+      },
+      "correct": "A",
+      "explanation": "IAS 2 requires inventory to be valued at cost, including a systematic allocation of fixed and variable production overheads based on normal capacity. Absorption costing does this. Treating fixed overheads as period costs is a feature of marginal costing.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c07-q008",
+      "chapter": 7,
+      "topic": "Absorption and marginal costing",
+      "question_text": "If there is no opening or closing inventory in a period, how does absorption costing profit compare with marginal costing profit?",
+      "options": {
+        "A": "Absorption costing profit is higher",
+        "B": "Marginal costing profit is higher",
+        "C": "The profits are the same",
+        "D": "It depends on the size of fixed selling overheads"
+      },
+      "correct": "C",
+      "explanation": "The two methods give different profits only because of the fixed production overhead carried in inventory. With no opening or closing inventory, all fixed production overheads are charged in the period under both methods, so the profits are the same.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c07-q009",
+      "chapter": 7,
+      "topic": "Absorption and marginal costing",
+      "question_text": "A company produced 8,000 units and sold 7,000 units in its first period. Variable production cost is $14 per unit, and fixed production overheads were $48,000 (equal to budget, which was based on 8,000 units of production). What is the value of closing inventory under absorption costing?",
+      "options": {
+        "A": "$20,000",
+        "B": "$14,000",
+        "C": "$20,857",
+        "D": "$6,000"
+      },
+      "correct": "A",
+      "explanation": "Fixed OAR = 48,000 / 8,000 = $6 per unit, so full production cost = 14 + 6 = $20 per unit. Closing inventory = 8,000 - 7,000 = 1,000 units x $20 = $20,000. Under marginal costing it would be 1,000 x 14 = $14,000. Using sales volume to calculate the OAR gives the incorrect $20,857.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c07-q010",
+      "chapter": 7,
+      "topic": "Absorption and marginal costing",
+      "question_text": "How are fixed production overheads treated under marginal costing?",
+      "options": {
+        "A": "As part of the cost of each unit produced",
+        "B": "As part of the value of closing inventory",
+        "C": "As a cost that is spread over the useful life of the product",
+        "D": "As a period cost, charged in full against profit in the period in which they are incurred"
+      },
+      "correct": "D",
+      "explanation": "Marginal costing treats fixed production overheads as period costs. They are deducted in full from total contribution in the period, rather than being absorbed into units and carried forward in inventory.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c07-q011",
+      "chapter": 7,
+      "topic": "Absorption and marginal costing",
+      "question_text": "In a period, a company produced 10,000 units. Profit under absorption costing was $45,000 and profit under marginal costing was $51,000. The fixed production overhead absorption rate is $4 per unit, and opening inventory was 2,500 units. How many units were sold in the period?",
+      "options": {
+        "A": "8,500 units",
+        "B": "10,000 units",
+        "C": "1,000 units",
+        "D": "11,500 units"
+      },
+      "correct": "D",
+      "explanation": "Marginal profit is $6,000 higher, which means inventory must have fallen. Fall in inventory = 6,000 / 4 = 1,500 units, so closing inventory = 2,500 - 1,500 = 1,000 units. Sales = opening inventory + production - closing inventory = 2,500 + 10,000 - 1,000 = 11,500 units.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-ma-c08-q001",
+      "chapter": 8,
+      "topic": "Job, batch and process costing",
+      "question_text": "For which of the following businesses would job costing be most appropriate?",
+      "options": {
+        "A": "A firm that designs and fits bespoke kitchens to each customer's requirements",
+        "B": "An oil refinery",
+        "C": "A brewery producing a single lager in continuous runs",
+        "D": "A bus company"
+      },
+      "correct": "A",
+      "explanation": "Job costing suits work done to each customer's specific order, where each job is separately identifiable and usually short. A refinery and a brewery would use process costing, and a bus company would use service costing.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c08-q002",
+      "chapter": 8,
+      "topic": "Job, batch and process costing",
+      "question_text": "A job requires direct materials of $1,200 and 40 hours of direct labour at $15 per hour. Production overheads are absorbed at $20 per direct labour hour. Administration overheads are added at 20% of total production cost. The selling price is set to give a profit margin of 25% of the selling price. What is the selling price of the job?",
+      "options": {
+        "A": "$3,900",
+        "B": "$3,250",
+        "C": "$4,160",
+        "D": "$3,467"
+      },
+      "correct": "C",
+      "explanation": "Production cost = 1,200 + (40 x 15) + (40 x 20) = 1,200 + 600 + 800 = $2,600. Administration = 20% x 2,600 = $520, so total cost = $3,120. With a 25% margin on selling price, cost is 75% of price: 3,120 / 0.75 = $4,160. A 25% mark-up on cost would give $3,900.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-ma-c08-q003",
+      "chapter": 8,
+      "topic": "Job, batch and process costing",
+      "question_text": "A batch of 500 units incurs the following costs: direct materials $3,000, direct labour $1,800 and machine set-up $450. Production overheads are absorbed at 150% of direct labour cost. What is the cost per unit?",
+      "options": {
+        "A": "$15.00",
+        "B": "$10.50",
+        "C": "$15.90",
+        "D": "$19.50"
+      },
+      "correct": "C",
+      "explanation": "Overheads = 150% x 1,800 = $2,700. Total batch cost = 3,000 + 1,800 + 450 + 2,700 = $7,950. Cost per unit = 7,950 / 500 = $15.90. The set-up cost is a batch cost and must be included.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c08-q004",
+      "chapter": 8,
+      "topic": "Job, batch and process costing",
+      "question_text": "A process takes in 10,000 kg of material costing $46,000, and conversion costs are $20,600. Normal loss is 4% of input and can be sold as scrap for $1.50 per kg. What is the cost per kg of expected output?",
+      "options": {
+        "A": "$6.938",
+        "B": "$6.660",
+        "C": "$6.984",
+        "D": "$6.875"
+      },
+      "correct": "D",
+      "explanation": "Total cost = 46,000 + 20,600 = $66,600. Normal loss = 4% x 10,000 = 400 kg, scrap value 400 x 1.50 = $600. Expected output = 10,000 - 400 = 9,600 kg. Cost per kg = (66,600 - 600) / 9,600 = 66,000 / 9,600 = $6.875. Forgetting to deduct the scrap value gives $6.938.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c08-q005",
+      "chapter": 8,
+      "topic": "Job, batch and process costing",
+      "question_text": "A process takes in 10,000 kg of material costing $46,000, and conversion costs are $20,600. Normal loss is 4% of input and can be sold as scrap for $1.50 per kg. Actual output was 9,450 kg, and all losses are sold as scrap. What is the net cost of the abnormal loss charged to the statement of profit or loss?",
+      "options": {
+        "A": "$806.25",
+        "B": "$1,031.25",
+        "C": "$1,256.25",
+        "D": "$225.00"
+      },
+      "correct": "A",
+      "explanation": "Expected output = 9,600 kg, so abnormal loss = 9,600 - 9,450 = 150 kg. Cost per kg = (66,600 - 600) / 9,600 = $6.875, so the abnormal loss is valued in the process account at 150 x 6.875 = $1,031.25. The scrap proceeds of 150 x 1.50 = $225 are set against this, so the net charge to profit or loss is 1,031.25 - 225 = $806.25.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-ma-c08-q006",
+      "chapter": 8,
+      "topic": "Job, batch and process costing",
+      "question_text": "A process takes in 5,000 units costing $27,000 in total. Normal loss is 10% of input and has no scrap value. Actual output was 4,600 units. What is the value of the abnormal gain, and where is it entered in the process account?",
+      "options": {
+        "A": "$600, credited in the process account",
+        "B": "$587, debited in the process account",
+        "C": "$600, debited in the process account",
+        "D": "$540, credited in the process account"
+      },
+      "correct": "C",
+      "explanation": "Expected output = 5,000 x 90% = 4,500 units, so the abnormal gain = 4,600 - 4,500 = 100 units. Cost per expected unit = 27,000 / 4,500 = $6, so the gain is valued at 100 x 6 = $600. An abnormal gain is debited in the process account (with the matching credit in the abnormal gain account), because more output has come out than expected.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c08-q007",
+      "chapter": 8,
+      "topic": "Job, batch and process costing",
+      "question_text": "In a process with no opening work in progress, 8,000 units were started. 6,500 units were completed, and 1,500 units were still in progress at the end of the period. The closing WIP is 100% complete for materials and 60% complete for conversion. Costs were materials $32,000 and conversion $22,200. What is the value of closing work in progress?",
+      "options": {
+        "A": "$10,500",
+        "B": "$6,300",
+        "C": "$8,100",
+        "D": "$8,700"
+      },
+      "correct": "D",
+      "explanation": "Equivalent units: materials = 6,500 + 1,500 = 8,000, so $4.00 per EU. Conversion = 6,500 + (1,500 x 60%) = 7,400, so 22,200 / 7,400 = $3.00 per EU. Closing WIP = (1,500 x 4.00) + (900 x 3.00) = 6,000 + 2,700 = $8,700. Check: completed output 6,500 x 7 = 45,500, and 45,500 + 8,700 = 54,200, which equals total costs.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-ma-c08-q008",
+      "chapter": 8,
+      "topic": "Job, batch and process costing",
+      "question_text": "A process uses the weighted average method. Opening WIP was 1,000 units, valued at materials $3,800 and conversion $1,500. 9,000 units were started, with costs of materials $36,200 and conversion $30,000. 8,000 units were completed, and closing WIP of 2,000 units was 100% complete for materials and 50% complete for conversion. What is the value of the completed output?",
+      "options": {
+        "A": "$57,200",
+        "B": "$60,000",
+        "C": "$55,627",
+        "D": "$11,500"
+      },
+      "correct": "B",
+      "explanation": "Weighted average combines opening WIP costs with period costs. Materials: EU = 8,000 + 2,000 = 10,000; cost = 3,800 + 36,200 = 40,000, giving $4.00 per EU. Conversion: EU = 8,000 + (2,000 x 50%) = 9,000; cost = 1,500 + 30,000 = 31,500, giving $3.50 per EU. Completed output = 8,000 x (4.00 + 3.50) = $60,000. Closing WIP would be (2,000 x 4) + (1,000 x 3.5) = $11,500.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-ma-c08-q009",
+      "chapter": 8,
+      "topic": "Job, batch and process costing",
+      "question_text": "What is the main difference between a joint product and a by-product?",
+      "options": {
+        "A": "Joint products are produced in separate processes, whereas by-products come from the same process",
+        "B": "By-products have no sales value at all, whereas joint products do",
+        "C": "Joint products are always sold without further processing, whereas by-products need further processing",
+        "D": "A by-product has a relatively low sales value compared with the main products, whereas joint products each have significant sales value"
+      },
+      "correct": "D",
+      "explanation": "Joint products and by-products both come from the same process. Joint products each have significant sales value, while a by-product is produced incidentally and has relatively small sales value. A by-product does have some value; output with no value would be waste.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c08-q010",
+      "chapter": 8,
+      "topic": "Job, batch and process costing",
+      "question_text": "A joint process costs $90,000 and produces 4,000 kg of Product X, which sells for $15 per kg, and 6,000 kg of Product Y, which sells for $20 per kg, at the split-off point. Using the sales value at split-off method, how much of the joint cost is apportioned to Product X?",
+      "options": {
+        "A": "$36,000",
+        "B": "$60,000",
+        "C": "$45,000",
+        "D": "$30,000"
+      },
+      "correct": "D",
+      "explanation": "Sales values: X = 4,000 x 15 = $60,000; Y = 6,000 x 20 = $120,000; total $180,000. X's share = 90,000 x 60,000 / 180,000 = $30,000. Apportioning by physical quantity would give 90,000 x 4,000 / 10,000 = $36,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c08-q011",
+      "chapter": 8,
+      "topic": "Job, batch and process costing",
+      "question_text": "A joint process costs $72,000 and produces 3,000 units of P and 5,000 units of Q. P needs further processing costing $4 per unit and then sells for $20 per unit. Q needs further processing costing $8,000 in total and then sells for $16 per unit. Using the net realisable value method, how much of the joint cost is apportioned to P?",
+      "options": {
+        "A": "$28,800",
+        "B": "$30,857",
+        "C": "$27,000",
+        "D": "$36,000"
+      },
+      "correct": "A",
+      "explanation": "NRV of P = 3,000 x (20 - 4) = $48,000. NRV of Q = (5,000 x 16) - 8,000 = $72,000. Total NRV = $120,000. P's share = 72,000 x 48,000 / 120,000 = $28,800. Using final sales values without deducting further processing costs would give $30,857, and physical units would give $27,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-ma-c08-q012",
+      "chapter": 8,
+      "topic": "Job, batch and process costing",
+      "question_text": "How are the sales proceeds of a by-product commonly treated in process costing?",
+      "options": {
+        "A": "Given a share of the joint costs and reported as a separate product profit",
+        "B": "Added to the cost of the main products",
+        "C": "Ignored, as by-products have no value",
+        "D": "Deducted from the cost of the process, in the same way as the scrap value of normal loss"
+      },
+      "correct": "D",
+      "explanation": "A common treatment is to deduct the net sales value of the by-product from the process costs (often by crediting the process account, as with normal loss scrap). This lowers the cost of the main products. By-products are usually not given a share of joint costs because their value is small.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c09-q001",
+      "chapter": 9,
+      "topic": "Service costing and alternative costing principles",
+      "question_text": "Which of the following is the most appropriate composite cost unit for a bus company?",
+      "options": {
+        "A": "Bus",
+        "B": "Driver hour",
+        "C": "Passenger-kilometre",
+        "D": "Litre of fuel"
+      },
+      "correct": "C",
+      "explanation": "Service businesses often use a composite cost unit that combines two measures of activity. For a bus company, cost per passenger-kilometre reflects both the number of passengers carried and the distance travelled.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c09-q002",
+      "chapter": 9,
+      "topic": "Service costing and alternative costing principles",
+      "question_text": "A haulage lorry made three journeys in a week: 12 tonnes carried 150 km, 8 tonnes carried 200 km and 15 tonnes carried 80 km. Total costs for the week were $6,440. What is the cost per tonne-kilometre?",
+      "options": {
+        "A": "$0.43",
+        "B": "$1.40",
+        "C": "$14.98",
+        "D": "$184.00"
+      },
+      "correct": "B",
+      "explanation": "Tonne-km = (12 x 150) + (8 x 200) + (15 x 80) = 1,800 + 1,600 + 1,200 = 4,600. Cost per tonne-km = 6,440 / 4,600 = $1.40. Multiplying total tonnes (35) by total km (430) gives 15,050, which is wrong because each load travelled a different distance.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c09-q003",
+      "chapter": 9,
+      "topic": "Service costing and alternative costing principles",
+      "question_text": "Which characteristic of services means that a service cannot be stored for future use?",
+      "options": {
+        "A": "Perishability",
+        "B": "Intangibility",
+        "C": "Heterogeneity (variability)",
+        "D": "Simultaneity (inseparability)"
+      },
+      "correct": "A",
+      "explanation": "Perishability means a service cannot be stored: an empty seat on today's flight cannot be sold tomorrow. Intangibility means a service has no physical form, heterogeneity means quality can vary each time, and simultaneity means it is produced and consumed at the same time.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c09-q004",
+      "chapter": 9,
+      "topic": "Service costing and alternative costing principles",
+      "question_text": "In activity based costing, which is the most appropriate cost driver for machine set-up costs?",
+      "options": {
+        "A": "Number of units produced",
+        "B": "Direct labour hours",
+        "C": "Floor area of the factory",
+        "D": "Number of set-ups"
+      },
+      "correct": "D",
+      "explanation": "A cost driver is the factor that causes the cost of an activity. Set-up costs depend on how many times machines are set up (usually once per batch), not on the number of units in each batch.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c09-q005",
+      "chapter": 9,
+      "topic": "Service costing and alternative costing principles",
+      "question_text": "A company uses activity based costing. Annual overheads are: machining $90,000 (driver: 30,000 machine hours) and set-ups $48,000 (driver: 120 set-ups). Product Z has annual output of 2,000 units, uses 1,000 machine hours and needs 20 set-ups. What is the overhead cost per unit of Z?",
+      "options": {
+        "A": "$2.30",
+        "B": "$4.00",
+        "C": "$5.50",
+        "D": "$1.50"
+      },
+      "correct": "C",
+      "explanation": "Cost driver rates: machining 90,000 / 30,000 = $3 per machine hour; set-ups 48,000 / 120 = $400 per set-up. Overheads for Z = (1,000 x 3) + (20 x 400) = 3,000 + 8,000 = $11,000. Per unit = 11,000 / 2,000 = $5.50. A traditional machine hour rate of 138,000 / 30,000 = $4.60 would give only 0.5 x 4.60 = $2.30, which understates the cost of this small-batch product.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-ma-c09-q006",
+      "chapter": 9,
+      "topic": "Service costing and alternative costing principles",
+      "question_text": "A new product will have a market selling price of $80. The company requires a profit margin of 25% of the selling price. The current estimated cost of the product is $66. What is the cost gap?",
+      "options": {
+        "A": "$6",
+        "B": "$2",
+        "C": "$14",
+        "D": "$20"
+      },
+      "correct": "A",
+      "explanation": "Target cost = selling price - required profit = 80 - (25% x 80) = $60. Cost gap = estimated cost - target cost = 66 - 60 = $6. Treating the 25% as a mark-up on cost would give a target cost of 80 / 1.25 = $64 and a gap of $2.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c09-q007",
+      "chapter": 9,
+      "topic": "Service costing and alternative costing principles",
+      "question_text": "Which of the following best describes life-cycle costing?",
+      "options": {
+        "A": "Calculating the cost of a product based only on the production costs of the current year",
+        "B": "Setting a cost by deducting a required profit from a market-based price",
+        "C": "Charging overheads to products based on the activities that cause them",
+        "D": "Recording and monitoring all the costs of a product over its whole life, from design and development through to withdrawal from the market"
+      },
+      "correct": "D",
+      "explanation": "Life-cycle costing tracks costs over a product's entire life, including pre-production costs such as research and design, and end-of-life costs such as decommissioning. The other options describe traditional annual costing, target costing and activity based costing.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c09-q008",
+      "chapter": 9,
+      "topic": "Service costing and alternative costing principles",
+      "question_text": "Under a total quality management approach, how is the cost of inspecting raw materials when they arrive classified?",
+      "options": {
+        "A": "Prevention cost",
+        "B": "Internal failure cost",
+        "C": "Appraisal cost",
+        "D": "External failure cost"
+      },
+      "correct": "C",
+      "explanation": "Appraisal costs are incurred to check whether output and inputs meet quality standards, for example inspection and testing. Prevention costs stop defects happening in the first place (such as training). Failure costs arise after a defect has occurred, either before delivery (internal) or after (external).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c09-q009",
+      "chapter": 9,
+      "topic": "Service costing and alternative costing principles",
+      "question_text": "Which of the following is a key principle of total quality management (TQM)?",
+      "options": {
+        "A": "Accepting a planned level of defects as normal",
+        "B": "Making the quality control department solely responsible for quality",
+        "C": "Continuous improvement, with the aim of getting things right first time",
+        "D": "Relying mainly on inspection of finished goods to find defects"
+      },
+      "correct": "C",
+      "explanation": "TQM aims for zero defects through continuous improvement and getting it right first time. Quality is the responsibility of every employee, and the focus is on prevention rather than finding defects by inspection after they have occurred.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c09-q010",
+      "chapter": 9,
+      "topic": "Service costing and alternative costing principles",
+      "question_text": "In which situation is activity based costing most likely to produce product costs that are very different from those under traditional absorption costing?",
+      "options": {
+        "A": "Overheads are a large proportion of total cost, and products differ greatly in their use of support activities such as set-ups",
+        "B": "Overheads are small, and all products are made in similar batch sizes",
+        "C": "The company makes only one product",
+        "D": "Overheads vary mainly with direct labour hours"
+      },
+      "correct": "A",
+      "explanation": "ABC gives very different results when overheads are significant and are driven by factors other than volume, for example set-ups, orders or inspections. Products that use these activities differently, such as small-batch versus large-batch products, then receive very different overhead charges. With a single product or volume-driven overheads, both methods give similar results.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c09-q011",
+      "chapter": 9,
+      "topic": "Service costing and alternative costing principles",
+      "question_text": "A product is expected to sell 100,000 units over its life. Expected costs are: design and development $400,000, variable production cost $12 per unit, marketing $150,000 and decommissioning $50,000. What is the life-cycle cost per unit?",
+      "options": {
+        "A": "$12.00",
+        "B": "$14.00",
+        "C": "$17.50",
+        "D": "$18.00"
+      },
+      "correct": "D",
+      "explanation": "Total life-cycle cost = 400,000 + (100,000 x 12) + 150,000 + 50,000 = $1,800,000. Per unit = 1,800,000 / 100,000 = $18.00. Leaving out the design costs gives $14.00, and leaving out decommissioning gives $17.50.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c10-q001",
+      "chapter": 10,
+      "topic": "Budgeting",
+      "question_text": "What is the principal budget factor?",
+      "options": {
+        "A": "The largest cost item in the budget",
+        "B": "The budget prepared last in the budgeting process",
+        "C": "The factor that limits the activities of the organisation, so that it has to be budgeted for first",
+        "D": "The difference between budgeted and actual profit"
+      },
+      "correct": "C",
+      "explanation": "The principal (key or limiting) budget factor restricts the organisation's activity. It is often sales demand, but could be machine capacity or a scarce material. Its budget is prepared first because all other budgets depend on it.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c10-q002",
+      "chapter": 10,
+      "topic": "Budgeting",
+      "question_text": "Budgeted sales for May are 12,000 units, and for June 10,000 units. Opening finished goods inventory on 1 May is 1,500 units. Closing inventory each month is to be 20% of the next month's sales. What is the production budget for May?",
+      "options": {
+        "A": "11,500 units",
+        "B": "13,500 units",
+        "C": "12,500 units",
+        "D": "12,000 units"
+      },
+      "correct": "C",
+      "explanation": "Closing inventory for May = 20% x 10,000 = 2,000 units. Production = sales + closing inventory - opening inventory = 12,000 + 2,000 - 1,500 = 12,500 units.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c10-q003",
+      "chapter": 10,
+      "topic": "Budgeting",
+      "question_text": "Production for a period is budgeted at 12,500 units. Each unit uses 3 kg of material costing $2 per kg. Opening raw material inventory is 4,000 kg and closing inventory is budgeted at 5,000 kg. What is the material purchases budget in $?",
+      "options": {
+        "A": "$75,000",
+        "B": "$73,000",
+        "C": "$77,000",
+        "D": "$93,000"
+      },
+      "correct": "C",
+      "explanation": "Material needed for production = 12,500 x 3 = 37,500 kg. Purchases = usage + closing inventory - opening inventory = 37,500 + 5,000 - 4,000 = 38,500 kg. Cost = 38,500 x $2 = $77,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c10-q004",
+      "chapter": 10,
+      "topic": "Budgeting",
+      "question_text": "Production is budgeted at 12,500 units. Each unit needs 0.6 standard direct labour hours. Idle time is expected to be 10% of hours paid, and the labour rate is $18 per hour. What is the direct labour cost budget?",
+      "options": {
+        "A": "$135,000",
+        "B": "$150,000",
+        "C": "$148,500",
+        "D": "$121,500"
+      },
+      "correct": "B",
+      "explanation": "Productive hours needed = 12,500 x 0.6 = 7,500. Since idle time is 10% of hours paid, productive hours are 90% of hours paid. Hours paid = 7,500 / 0.9 = 8,333.33. Cost = 8,333.33 x 18 = $150,000. Adding 10% to productive hours (7,500 x 1.1 x 18 = $148,500) is wrong because idle time is a percentage of hours paid, not of productive hours.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-ma-c10-q005",
+      "chapter": 10,
+      "topic": "Budgeting",
+      "question_text": "Sales are made on credit and cash is received as follows: 20% in the month of sale (customers take a 2% discount), 50% in the following month, 28% in the second month after sale, and 2% become irrecoverable debts. Sales were January $50,000, February $60,000 and March $70,000. What are the budgeted cash receipts for March?",
+      "options": {
+        "A": "$58,000",
+        "B": "$57,720",
+        "C": "$58,720",
+        "D": "$43,720"
+      },
+      "correct": "B",
+      "explanation": "March sales: 70,000 x 20% x 98% = $13,720. February sales: 60,000 x 50% = $30,000. January sales: 50,000 x 28% = $14,000. Total = 13,720 + 30,000 + 14,000 = $57,720. Ignoring the discount gives $58,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-ma-c10-q006",
+      "chapter": 10,
+      "topic": "Budgeting",
+      "question_text": "A budget for 10,000 units includes direct materials $50,000, direct labour $40,000 and production overheads $30,000. Materials and labour are fully variable. At 8,000 units the production overhead budget would be $27,600. What is the total flexed budget cost for 11,500 units?",
+      "options": {
+        "A": "$138,000",
+        "B": "$135,300",
+        "C": "$133,500",
+        "D": "$120,000"
+      },
+      "correct": "B",
+      "explanation": "Variable overhead per unit (high-low) = (30,000 - 27,600) / (10,000 - 8,000) = $1.20, so fixed overhead = 30,000 - (10,000 x 1.20) = $18,000. At 11,500 units: materials 11,500 x 5 = 57,500; labour 11,500 x 4 = 46,000; overheads 18,000 + (11,500 x 1.20) = 31,800. Total = $135,300. Treating all costs as variable would give $138,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-ma-c10-q007",
+      "chapter": 10,
+      "topic": "Budgeting",
+      "question_text": "What is a flexible budget?",
+      "options": {
+        "A": "A budget prepared for one level of activity that is not changed",
+        "B": "A budget that is updated every month by adding a new period",
+        "C": "A budget that managers may change whenever they wish",
+        "D": "A budget that is adjusted to reflect the actual level of activity, by recognising how costs behave"
+      },
+      "correct": "D",
+      "explanation": "A flexible budget recognises cost behaviour, so variable costs change with activity while fixed costs stay the same. Comparing actual results with a budget flexed to the actual activity level gives more meaningful variances for control. A fixed budget is set for one activity level only.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c10-q008",
+      "chapter": 10,
+      "topic": "Budgeting",
+      "question_text": "Which of the following is a disadvantage of participative (bottom-up) budgeting?",
+      "options": {
+        "A": "Managers are less committed to targets they helped to set",
+        "B": "Managers may build slack into their budgets to make targets easier to achieve",
+        "C": "Senior management has no involvement in the process",
+        "D": "Local knowledge of operating managers is ignored"
+      },
+      "correct": "B",
+      "explanation": "When managers help set their own budgets they may overstate costs or understate revenues (budgetary slack) so their targets are easier to meet. The advantages of participation are greater commitment and the use of local knowledge. Senior managers still review and approve the budgets.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c10-q009",
+      "chapter": 10,
+      "topic": "Budgeting",
+      "question_text": "Which of the following is NOT a purpose of budgeting?",
+      "options": {
+        "A": "To co-ordinate the activities of different departments",
+        "B": "To guarantee that the organisation will achieve its planned profit",
+        "C": "To communicate plans and targets to managers",
+        "D": "To provide a basis for controlling performance"
+      },
+      "correct": "B",
+      "explanation": "Budgets help with planning, co-ordination, communication, motivation, authorisation and control. A budget is a plan; it cannot guarantee that the planned results will actually be achieved.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c10-q010",
+      "chapter": 10,
+      "topic": "Budgeting",
+      "question_text": "Which document sets out the instructions, procedures, timetable and responsibilities for preparing the budget?",
+      "options": {
+        "A": "Master budget",
+        "B": "Cash budget",
+        "C": "Budget variance report",
+        "D": "Budget manual"
+      },
+      "correct": "D",
+      "explanation": "The budget manual contains the rules and guidance for the budgeting process, including who is responsible for each budget and the timetable. The master budget is the final output (budgeted statement of profit or loss, statement of financial position and cash budget).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c10-q011",
+      "chapter": 10,
+      "topic": "Budgeting",
+      "question_text": "Senior management prepares the budget and passes it down to operational managers, who are given little or no opportunity to take part in setting their own targets. What is this approach called?",
+      "options": {
+        "A": "Participative (bottom-up) budgeting",
+        "B": "Flexible budgeting",
+        "C": "Imposed (top-down) budgeting",
+        "D": "Fixed budgeting"
+      },
+      "correct": "C",
+      "explanation": "In imposed (top-down) budgeting, senior managers set the budget with little input from the managers who must achieve it. It can be quick and consistent with strategy, but it may reduce motivation and ignore local knowledge. Participative (bottom-up) budgeting involves operational managers in setting their own budgets. Fixed and flexible budgets describe how a budget responds to activity levels, not who sets it.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c11-q001",
+      "chapter": 11,
+      "topic": "Capital budgeting",
+      "question_text": "Which of the following is capital expenditure?",
+      "options": {
+        "A": "Purchase of a new delivery vehicle",
+        "B": "Repairs to an existing delivery vehicle",
+        "C": "Fuel for delivery vehicles",
+        "D": "Annual insurance of delivery vehicles"
+      },
+      "correct": "A",
+      "explanation": "Capital expenditure buys or improves non-current assets that will be used over several periods. Buying a vehicle is capital expenditure. Repairs, fuel and insurance keep existing assets running and are revenue expenditure.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c11-q002",
+      "chapter": 11,
+      "topic": "Capital budgeting",
+      "question_text": "A project costs $120,000 now and is expected to generate cash inflows of $30,000 in Year 1, $40,000 in Year 2, $45,000 in Year 3 and $50,000 in Year 4. Assuming cash flows arise evenly through each year, what is the payback period?",
+      "options": {
+        "A": "3.0 years",
+        "B": "2.9 years",
+        "C": "3.1 years",
+        "D": "2.4 years"
+      },
+      "correct": "C",
+      "explanation": "Cumulative inflows: Year 1 30,000; Year 2 70,000; Year 3 115,000. After 3 years, 120,000 - 115,000 = $5,000 is still to be recovered. This takes 5,000 / 50,000 = 0.1 of Year 4. Payback = 3.1 years. Dividing by average annual inflows (120,000 / 41,250 = 2.9) is only valid when inflows are constant.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c11-q003",
+      "chapter": 11,
+      "topic": "Capital budgeting",
+      "question_text": "$5,000 is invested at 6% per year, compounded annually. What will the investment be worth at the end of 4 years (to the nearest $)?",
+      "options": {
+        "A": "$6,200",
+        "B": "$6,691",
+        "C": "$3,960",
+        "D": "$6,312"
+      },
+      "correct": "D",
+      "explanation": "Future value = 5,000 x (1.06) to the power 4 = 5,000 x 1.262477 = $6,312. Simple interest would give 5,000 + (4 x 300) = $6,200. Compounding for 5 years gives $6,691, and $3,960 is the present value of $5,000 received in 4 years.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c11-q004",
+      "chapter": 11,
+      "topic": "Capital budgeting",
+      "question_text": "A loan charges interest of 1.5% per month, compounded monthly. What is the equivalent annual interest rate (to two decimal places)?",
+      "options": {
+        "A": "18.00%",
+        "B": "18.56%",
+        "C": "19.56%",
+        "D": "16.08%"
+      },
+      "correct": "C",
+      "explanation": "Effective annual rate = (1 + monthly rate) to the power 12 - 1 = (1.015) to the power 12 - 1 = 1.1956 - 1 = 19.56%. Simply multiplying 1.5% by 12 gives the nominal rate of 18.00%, which ignores compounding.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c11-q005",
+      "chapter": 11,
+      "topic": "Capital budgeting",
+      "question_text": "A project costs $100,000 now and will generate cash inflows of $35,000 a year for 4 years, starting one year from now. The cost of capital is 10%, and the 4-year annuity factor at 10% is 3.170. What is the net present value?",
+      "options": {
+        "A": "$10,950",
+        "B": "$40,000",
+        "C": "$(12,955)",
+        "D": "$32,685"
+      },
+      "correct": "A",
+      "explanation": "PV of inflows = 35,000 x 3.170 = $110,950. NPV = 110,950 - 100,000 = $10,950, which is positive, so the project should be accepted. $40,000 is the undiscounted surplus, and the other figures use annuity factors for 3 or 5 years instead of 4.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c11-q006",
+      "chapter": 11,
+      "topic": "Capital budgeting",
+      "question_text": "A project has an NPV of $10,950 at a discount rate of 10% and an NPV of $(5,850) at 18%. Using linear interpolation, what is the estimated internal rate of return (to one decimal place)?",
+      "options": {
+        "A": "15.2%",
+        "B": "14.0%",
+        "C": "12.8%",
+        "D": "27.2%"
+      },
+      "correct": "A",
+      "explanation": "IRR = L + [NL / (NL - NH)] x (H - L) = 10% + [10,950 / (10,950 + 5,850)] x (18% - 10%) = 10% + (10,950 / 16,800) x 8% = 10% + 5.2% = 15.2%. Because the NPV at 18% is negative, the two NPVs are added in the denominator. 14.0% is simply the midpoint of the two rates.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-ma-c11-q007",
+      "chapter": 11,
+      "topic": "Capital budgeting",
+      "question_text": "An investment will pay $12,000 a year in perpetuity, with the first receipt in one year's time. The discount rate is 8%. What is the present value of the perpetuity?",
+      "options": {
+        "A": "$162,000",
+        "B": "$138,889",
+        "C": "$150,000",
+        "D": "$96,000"
+      },
+      "correct": "C",
+      "explanation": "PV of a perpetuity starting in one year = annual cash flow / discount rate = 12,000 / 0.08 = $150,000. If the first payment were received immediately, the PV would be 150,000 + 12,000 = $162,000.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c11-q008",
+      "chapter": 11,
+      "topic": "Capital budgeting",
+      "question_text": "A project will generate $20,000 a year at the end of Years 3 to 6 inclusive. The discount rate is 10%. Annuity factors at 10% (to 3 decimal places) are 1.736 for Years 1-2 and 4.355 for Years 1-6. Using these annuity factors, what is the present value of these cash flows?",
+      "options": {
+        "A": "$63,400",
+        "B": "$87,100",
+        "C": "$47,613",
+        "D": "$52,380"
+      },
+      "correct": "D",
+      "explanation": "The annuity factor for Years 3-6 = factor for Years 1-6 - factor for Years 1-2 = 4.355 - 1.736 = 2.619. PV = 20,000 x 2.619 = $52,380 (using the 3-decimal factors given). Using the 4-year factor at 10% (3.170) ignores the delay and gives $63,400. Discounting the 4-year annuity back 3 years instead of 2 (3.170 x 0.751 = 2.381) gives $47,613.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-ma-c11-q009",
+      "chapter": 11,
+      "topic": "Capital budgeting",
+      "question_text": "Which of the following is an advantage of net present value (NPV) compared with the payback method?",
+      "options": {
+        "A": "NPV takes account of all cash flows over the project's life and the time value of money",
+        "B": "NPV is quicker and simpler to calculate",
+        "C": "NPV does not require an estimate of the cost of capital",
+        "D": "NPV focuses only on the early cash flows, which are the least uncertain"
+      },
+      "correct": "A",
+      "explanation": "NPV discounts all relevant cash flows over the whole life of the project at the cost of capital, so it allows for the time value of money and measures the increase in shareholder wealth. Payback ignores cash flows after the payback point and, in its basic form, the time value of money.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c11-q010",
+      "chapter": 11,
+      "topic": "Capital budgeting",
+      "question_text": "Which of the following should be excluded from the cash flows in an NPV appraisal of a new machine?",
+      "options": {
+        "A": "Extra working capital needed at the start of the project",
+        "B": "Depreciation charged on the new machine",
+        "C": "Scrap proceeds from selling the machine at the end of its life",
+        "D": "Extra fixed overheads incurred only because of the project"
+      },
+      "correct": "B",
+      "explanation": "NPV uses relevant future cash flows only. Depreciation is a non-cash accounting charge; the cash cost of the machine is already included as the initial outlay. Working capital, scrap proceeds and extra (incremental) fixed costs are all relevant cash flows.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c12-q001",
+      "chapter": 12,
+      "topic": "Standard costing and cost variances",
+      "question_text": "Which type of standard allows for normal levels of material waste, machine breakdowns and idle time?",
+      "options": {
+        "A": "Ideal standard",
+        "B": "Attainable standard",
+        "C": "Basic standard",
+        "D": "Historical standard with no adjustments"
+      },
+      "correct": "B",
+      "explanation": "An attainable standard can be achieved by efficient working, and it includes allowances for normal waste, breakdowns and idle time. An ideal standard assumes perfect conditions with no allowances. A basic standard is left unchanged over long periods to show trends.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c12-q002",
+      "chapter": 12,
+      "topic": "Standard costing and cost variances",
+      "question_text": "A company bought 8,000 kg of material for $35,200, and 7,600 kg were used in production. The standard price is $4.50 per kg, and raw material inventory is valued at standard cost. What is the material price variance?",
+      "options": {
+        "A": "$800 adverse",
+        "B": "$760 favourable",
+        "C": "$760 adverse",
+        "D": "$800 favourable"
+      },
+      "correct": "D",
+      "explanation": "When inventory is valued at standard cost, the price variance is calculated on the quantity purchased. Standard cost of purchases = 8,000 x 4.50 = $36,000. Actual cost = $35,200. Variance = 36,000 - 35,200 = $800 favourable, because the material cost less than standard ($4.40 per kg instead of $4.50).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c12-q003",
+      "chapter": 12,
+      "topic": "Standard costing and cost variances",
+      "question_text": "The standard material usage is 4 kg per unit, at a standard price of $4.50 per kg. 1,900 units were produced using 7,850 kg, which were bought at $4.40 per kg. What is the material usage variance?",
+      "options": {
+        "A": "$1,125 favourable",
+        "B": "$1,125 adverse",
+        "C": "$1,100 adverse",
+        "D": "$1,100 favourable"
+      },
+      "correct": "B",
+      "explanation": "Standard usage for actual output = 1,900 x 4 = 7,600 kg. Actual usage = 7,850 kg, which is 250 kg more than standard, so the variance is adverse. It is valued at the standard price: 250 x 4.50 = $1,125 adverse. Valuing at the actual price ($1,100) is wrong.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c12-q004",
+      "chapter": 12,
+      "topic": "Standard costing and cost variances",
+      "question_text": "Employees were paid $39,600 for 2,200 hours. Of these paid hours, 2,090 were worked and 110 were idle time. The standard labour rate is $17.50 per hour. What is the labour rate variance?",
+      "options": {
+        "A": "$1,100 favourable",
+        "B": "$1,100 adverse",
+        "C": "$2,200 adverse",
+        "D": "$3,025 adverse"
+      },
+      "correct": "B",
+      "explanation": "The rate variance is based on hours paid, including idle time. Standard cost of hours paid = 2,200 x 17.50 = $38,500. Actual cost = $39,600. Variance = 38,500 - 39,600 = $1,100 adverse, because the actual rate ($39,600 / 2,200 = $18.00) was more than standard. Using hours worked instead of hours paid (39,600 - 2,090 x 17.50 = $3,025) wrongly mixes the idle time into the rate variance.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c12-q005",
+      "chapter": 12,
+      "topic": "Standard costing and cost variances",
+      "question_text": "The standard labour time is 1.5 hours per unit, at $16 per hour. During a period 1,400 units were produced. Employees were paid for 2,300 hours, but 120 of these hours were idle time. What is the labour efficiency variance?",
+      "options": {
+        "A": "$3,200 adverse",
+        "B": "$1,920 adverse",
+        "C": "$1,280 adverse",
+        "D": "$1,280 favourable"
+      },
+      "correct": "C",
+      "explanation": "Standard hours for actual output = 1,400 x 1.5 = 2,100. Hours actually worked = 2,300 - 120 = 2,180. Efficiency variance = (2,100 - 2,180) x 16 = 80 x 16 = $1,280 adverse. Idle time is shown separately as an idle time variance (120 x 16 = $1,920 adverse). Using hours paid would wrongly give $3,200 adverse.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-ma-c12-q006",
+      "chapter": 12,
+      "topic": "Standard costing and cost variances",
+      "question_text": "Variable production overhead is absorbed at a standard rate of $4 per direct labour hour. In a period, 3,150 labour hours were worked, the standard hours for the actual output were 3,000, and actual variable overhead cost was $12,900. What is the variable overhead expenditure variance?",
+      "options": {
+        "A": "$300 favourable",
+        "B": "$900 adverse",
+        "C": "$300 adverse",
+        "D": "$600 adverse"
+      },
+      "correct": "C",
+      "explanation": "Expenditure variance = (actual hours worked x standard rate) - actual cost = (3,150 x 4) - 12,900 = 12,600 - 12,900 = $300 adverse. The efficiency variance is (3,000 - 3,150) x 4 = $600 adverse, and the total variance is $900 adverse.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c12-q007",
+      "chapter": 12,
+      "topic": "Standard costing and cost variances",
+      "question_text": "A company bought 5,200 kg of material for $23,400 and used 4,800 kg of it in production. Raw material inventory is valued at standard cost. The material price variance was $1,560 favourable. What is the standard price per kg?",
+      "options": {
+        "A": "$4.20",
+        "B": "$4.50",
+        "C": "$5.20",
+        "D": "$4.80"
+      },
+      "correct": "D",
+      "explanation": "Because inventory is valued at standard cost, the price variance is calculated on the 5,200 kg purchased. A favourable variance means standard cost was more than actual cost. Standard cost of purchases = 23,400 + 1,560 = $24,960. Standard price = 24,960 / 5,200 = $4.80 per kg. Dividing by the 4,800 kg used gives $5.20, subtracting the variance gives $4.20, and $4.50 is the actual price paid.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-ma-c12-q008",
+      "chapter": 12,
+      "topic": "Standard costing and cost variances",
+      "question_text": "In a period, 2,100 units were produced, and 6,480 hours were worked. The standard labour rate is $15 per hour, and the labour efficiency variance was $2,700 adverse. What is the standard labour time per unit?",
+      "options": {
+        "A": "3.17 hours",
+        "B": "3.09 hours",
+        "C": "3.00 hours",
+        "D": "2.91 hours"
+      },
+      "correct": "C",
+      "explanation": "Excess hours = 2,700 / 15 = 180 hours adverse, so standard hours for actual output = 6,480 - 180 = 6,300. Standard time per unit = 6,300 / 2,100 = 3.00 hours. Adding the 180 hours instead of subtracting them gives 6,660 / 2,100 = 3.17 hours.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-ma-c12-q009",
+      "chapter": 12,
+      "topic": "Standard costing and cost variances",
+      "question_text": "A company reports a favourable material price variance and an adverse material usage variance. Which of the following is the most likely single explanation for both?",
+      "options": {
+        "A": "Material prices rose because of inflation",
+        "B": "Production staff were more efficient than expected",
+        "C": "A more experienced buyer obtained a bulk discount on better-quality material",
+        "D": "Cheaper, lower-quality material was bought, which led to more waste in production"
+      },
+      "correct": "D",
+      "explanation": "Lower-quality material usually costs less (a favourable price variance) but tends to cause more waste and rejects (an adverse usage variance). This interdependence shows why variances should be investigated together rather than in isolation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c12-q010",
+      "chapter": 12,
+      "topic": "Standard costing and cost variances",
+      "question_text": "Each unit of a product uses 3 kg of material at $4 per kg and 2 direct labour hours at $12 per hour. Variable overheads are $3 per labour hour and fixed overheads are absorbed at $5 per labour hour. What is the standard full (absorption) production cost per unit?",
+      "options": {
+        "A": "$42",
+        "B": "$47",
+        "C": "$52",
+        "D": "$49"
+      },
+      "correct": "C",
+      "explanation": "Materials 3 x 4 = $12; labour 2 x 12 = $24; variable overhead 2 x 3 = $6; fixed overhead 2 x 5 = $10. Standard full cost = 12 + 24 + 6 + 10 = $52. The standard marginal cost would be $42, excluding fixed overhead. Both overhead rates are per labour hour, so they must be multiplied by 2 hours.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c13-q001",
+      "chapter": 13,
+      "topic": "Overhead and sales variances and operating statements",
+      "question_text": "Budgeted fixed production overheads were $120,000, and actual fixed production overheads were $126,500. What is the fixed overhead expenditure variance?",
+      "options": {
+        "A": "$6,500 favourable",
+        "B": "$6,500 adverse",
+        "C": "$126,500 adverse",
+        "D": "$3,250 adverse"
+      },
+      "correct": "B",
+      "explanation": "Fixed overhead expenditure variance = budgeted fixed overhead - actual fixed overhead = 120,000 - 126,500 = $6,500 adverse, because spending was higher than budget.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c13-q002",
+      "chapter": 13,
+      "topic": "Overhead and sales variances and operating statements",
+      "question_text": "Budgeted output was 10,000 units, with budgeted fixed overheads of $120,000 absorbed per unit. Actual output was 10,400 units. What is the fixed overhead volume variance?",
+      "options": {
+        "A": "$4,800 adverse",
+        "B": "$4,800 favourable",
+        "C": "$400 favourable",
+        "D": "$12,000 favourable"
+      },
+      "correct": "B",
+      "explanation": "OAR = 120,000 / 10,000 = $12 per unit. Volume variance = (actual output - budgeted output) x OAR = (10,400 - 10,000) x 12 = $4,800 favourable. Producing more than budget means more fixed overhead is absorbed, so the variance is favourable.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c13-q003",
+      "chapter": 13,
+      "topic": "Overhead and sales variances and operating statements",
+      "question_text": "Fixed overheads are absorbed at $8 per direct labour hour. Budgeted hours were 15,000, actual hours worked were 15,600, and the standard hours for actual output were 15,300. What is the fixed overhead capacity variance?",
+      "options": {
+        "A": "$2,400 adverse",
+        "B": "$2,400 favourable",
+        "C": "$4,800 favourable",
+        "D": "$4,800 adverse"
+      },
+      "correct": "C",
+      "explanation": "Capacity variance = (actual hours - budgeted hours) x OAR = (15,600 - 15,000) x 8 = $4,800 favourable, because more hours were worked than budgeted. The efficiency variance = (15,300 - 15,600) x 8 = $2,400 adverse. Together they make up the volume variance of $2,400 favourable.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-ma-c13-q004",
+      "chapter": 13,
+      "topic": "Overhead and sales variances and operating statements",
+      "question_text": "A company sold 4,800 units for total revenue of $129,600. The standard selling price is $28 per unit. What is the sales price variance?",
+      "options": {
+        "A": "$4,800 favourable",
+        "B": "$5,000 adverse",
+        "C": "$4,800 adverse",
+        "D": "$1,600 adverse"
+      },
+      "correct": "C",
+      "explanation": "Actual price = 129,600 / 4,800 = $27. Sales price variance = (actual price - standard price) x actual units = (27 - 28) x 4,800 = $4,800 adverse, because the selling price was lower than standard.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c13-q005",
+      "chapter": 13,
+      "topic": "Overhead and sales variances and operating statements",
+      "question_text": "Budgeted sales were 5,000 units and actual sales were 4,800 units. The standard selling price is $28, standard contribution is $10 per unit, and standard profit is $6 per unit. In a standard marginal costing system, what is the sales volume variance?",
+      "options": {
+        "A": "$2,000 adverse",
+        "B": "$1,200 adverse",
+        "C": "$2,000 favourable",
+        "D": "$5,600 adverse"
+      },
+      "correct": "A",
+      "explanation": "Under marginal costing, the sales volume variance is valued at standard contribution per unit: (4,800 - 5,000) x 10 = $2,000 adverse. Under absorption costing it would be valued at standard profit: 200 x 6 = $1,200 adverse.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c13-q006",
+      "chapter": 13,
+      "topic": "Overhead and sales variances and operating statements",
+      "question_text": "A standard absorption costing operating statement shows a budgeted profit of $48,000 and the following variances: sales volume $3,000 A; sales price $4,500 F; total material $2,200 A; total labour $1,800 F; total variable overhead $600 A; fixed overhead expenditure $1,500 A; fixed overhead volume $1,200 A. What is the actual profit?",
+      "options": {
+        "A": "$42,200",
+        "B": "$47,000",
+        "C": "$51,800",
+        "D": "$45,800"
+      },
+      "correct": "D",
+      "explanation": "Start from budgeted profit, add favourable variances and deduct adverse ones: 48,000 - 3,000 + 4,500 - 2,200 + 1,800 - 600 - 1,500 - 1,200 = $45,800. Total favourable = 6,300 and total adverse = 8,500, giving a net adverse movement of 2,200. Treating the labour variance as adverse would give $42,200.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-ma-c13-q007",
+      "chapter": 13,
+      "topic": "Overhead and sales variances and operating statements",
+      "question_text": "Which variance appears in a standard absorption costing operating statement but NOT in a standard marginal costing operating statement?",
+      "options": {
+        "A": "Fixed overhead volume variance",
+        "B": "Fixed overhead expenditure variance",
+        "C": "Sales price variance",
+        "D": "Variable overhead efficiency variance"
+      },
+      "correct": "A",
+      "explanation": "Marginal costing does not absorb fixed overheads into units, so there is no volume variance; the only fixed overhead variance is expenditure (budget vs actual). Absorption costing includes the volume variance, because fixed overheads are absorbed on actual output.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c13-q008",
+      "chapter": 13,
+      "topic": "Overhead and sales variances and operating statements",
+      "question_text": "A company has a favourable sales price variance and an adverse sales volume variance. Which of the following is the most likely explanation?",
+      "options": {
+        "A": "A competitor raised its prices, which increased demand for the company's product",
+        "B": "Selling prices were increased above standard, which reduced demand",
+        "C": "Discounts were offered to customers to win more orders",
+        "D": "The market grew faster than expected"
+      },
+      "correct": "B",
+      "explanation": "A higher price than standard gives a favourable price variance, but it can reduce the number of units sold, which gives an adverse volume variance. Discounts would have the opposite effect (adverse price, favourable volume), and a competitor raising prices or market growth would tend to increase volume.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c13-q009",
+      "chapter": 13,
+      "topic": "Overhead and sales variances and operating statements",
+      "question_text": "The fixed overhead expenditure variance was $2,000 favourable, and actual fixed overheads were $58,000. Budgeted output was 12,000 units, with fixed overheads absorbed per unit. Actual output was 11,400 units. What is the fixed overhead volume variance?",
+      "options": {
+        "A": "$3,000 adverse",
+        "B": "$2,900 adverse",
+        "C": "$3,000 favourable",
+        "D": "$1,000 adverse"
+      },
+      "correct": "A",
+      "explanation": "A favourable expenditure variance means actual was less than budget, so budgeted fixed overheads = 58,000 + 2,000 = $60,000. OAR = 60,000 / 12,000 = $5 per unit. Volume variance = (11,400 - 12,000) x 5 = $3,000 adverse. Calculating the OAR from actual overheads (58,000 / 12,000) gives $2,900, which is wrong.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-ma-c13-q010",
+      "chapter": 13,
+      "topic": "Overhead and sales variances and operating statements",
+      "question_text": "Which of the following is the most likely cause of an adverse labour rate variance?",
+      "options": {
+        "A": "Workers took less time than expected to complete production",
+        "B": "Using more highly skilled (higher-paid) workers than the standard specifies",
+        "C": "A national wage increase was smaller than expected when the standard was set",
+        "D": "Using lower-grade workers than the standard specifies"
+      },
+      "correct": "B",
+      "explanation": "An adverse rate variance means the average hourly rate paid was higher than standard. Using a higher grade of labour than planned, unplanned pay rises or more overtime premium than expected could all cause this. Lower-grade workers or a smaller wage increase would give a favourable rate variance, and working faster affects efficiency, not rate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c14-q001",
+      "chapter": 14,
+      "topic": "Performance measurement",
+      "question_text": "A division made an operating profit of $180,000 and has capital employed of $1,200,000. What is its return on investment (ROI)?",
+      "options": {
+        "A": "15.0%",
+        "B": "6.7%",
+        "C": "12.0%",
+        "D": "18.0%"
+      },
+      "correct": "A",
+      "explanation": "ROI = profit / capital employed x 100 = 180,000 / 1,200,000 x 100 = 15.0%.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c14-q002",
+      "chapter": 14,
+      "topic": "Performance measurement",
+      "question_text": "A division made an operating profit of $180,000 on capital employed of $1,200,000. The company's cost of capital is 12%. What is the division's residual income (RI)?",
+      "options": {
+        "A": "$36,000",
+        "B": "$144,000",
+        "C": "$21,600",
+        "D": "$180,000"
+      },
+      "correct": "A",
+      "explanation": "RI = profit - (capital employed x cost of capital) = 180,000 - (1,200,000 x 12%) = 180,000 - 144,000 = $36,000.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c14-q003",
+      "chapter": 14,
+      "topic": "Performance measurement",
+      "question_text": "A division currently earns an ROI of 20%, and the company's cost of capital is 12%. The divisional manager is offered a project with an expected ROI of 16%. If the manager is assessed on divisional ROI, which of the following is most likely?",
+      "options": {
+        "A": "The manager will accept the project, because its ROI is higher than the cost of capital",
+        "B": "The manager will reject the project, and this is the correct decision for the company",
+        "C": "The manager will be indifferent, because ROI and residual income always lead to the same decision",
+        "D": "The manager will reject the project, even though it would increase residual income and benefit the company"
+      },
+      "correct": "D",
+      "explanation": "The project's 16% return is higher than the 12% cost of capital, so it gives a positive residual income and is good for the company. However, it would bring the division's ROI down from 20%, so a manager judged on ROI is likely to reject it. This kind of dysfunctional decision is a well-known weakness of ROI; RI avoids it.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c14-q004",
+      "chapter": 14,
+      "topic": "Performance measurement",
+      "question_text": "Which of the following is NOT one of the four perspectives of the balanced scorecard?",
+      "options": {
+        "A": "Customer perspective",
+        "B": "Internal business process perspective",
+        "C": "Innovation and learning perspective",
+        "D": "Competitor perspective"
+      },
+      "correct": "D",
+      "explanation": "The balanced scorecard measures performance from four perspectives: financial, customer, internal business process, and innovation and learning. Competitors are considered within these (for example market share under the customer perspective), but there is no separate competitor perspective.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c14-q005",
+      "chapter": 14,
+      "topic": "Performance measurement",
+      "question_text": "Under which balanced scorecard perspective would 'percentage of sales from products launched in the last two years' most appropriately be reported?",
+      "options": {
+        "A": "Financial",
+        "B": "Customer",
+        "C": "Innovation and learning",
+        "D": "Internal business process"
+      },
+      "correct": "C",
+      "explanation": "The innovation and learning perspective asks whether the organisation can keep improving and creating value. The share of revenue from recently launched products measures how successfully it develops new products, so it belongs under innovation and learning.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c14-q006",
+      "chapter": 14,
+      "topic": "Performance measurement",
+      "question_text": "A company has revenue of $2,400,000, operating profit of $300,000 and capital employed of $1,500,000. What is its asset turnover?",
+      "options": {
+        "A": "0.625 times",
+        "B": "1.6 times",
+        "C": "8.0 times",
+        "D": "5.0 times"
+      },
+      "correct": "B",
+      "explanation": "Asset turnover = revenue / capital employed = 2,400,000 / 1,500,000 = 1.6 times. As a check, ROCE (20%) = operating margin (300,000 / 2,400,000 = 12.5%) x asset turnover (1.6).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c14-q007",
+      "chapter": 14,
+      "topic": "Performance measurement",
+      "question_text": "A company has inventory of $80,000, trade receivables of $120,000, cash of $20,000 and current liabilities of $110,000. What is its quick (acid test) ratio?",
+      "options": {
+        "A": "2.00 : 1",
+        "B": "1.09 : 1",
+        "C": "0.73 : 1",
+        "D": "1.27 : 1"
+      },
+      "correct": "D",
+      "explanation": "Quick ratio = (current assets - inventory) / current liabilities = (120,000 + 20,000) / 110,000 = 140,000 / 110,000 = 1.27 : 1. Including inventory gives the current ratio of 220,000 / 110,000 = 2.00 : 1.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acca-ma-c14-q008",
+      "chapter": 14,
+      "topic": "Performance measurement",
+      "question_text": "A company has trade receivables of $120,000. Its total annual sales are $1,825,000, of which $1,460,000 are on credit. What is the trade receivables collection period, based on a 365-day year?",
+      "options": {
+        "A": "30 days",
+        "B": "12 days",
+        "C": "45 days",
+        "D": "24 days"
+      },
+      "correct": "A",
+      "explanation": "The collection period uses credit sales only, because cash sales never create receivables. Receivables collection period = trade receivables / credit sales x 365 = 120,000 / 1,460,000 x 365 = 30 days. Using total sales gives 120,000 / 1,825,000 x 365 = 24 days, and 12 is the receivables turnover (1,460,000 / 120,000 = 12.2 times), not a number of days.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c14-q009",
+      "chapter": 14,
+      "topic": "Performance measurement",
+      "question_text": "Which of the following is a non-financial performance indicator for a hotel?",
+      "options": {
+        "A": "Revenue per available room",
+        "B": "Gross profit margin",
+        "C": "Room occupancy rate",
+        "D": "Return on capital employed"
+      },
+      "correct": "C",
+      "explanation": "Room occupancy rate (the percentage of available rooms that are occupied) is measured in physical terms, not money. Revenue per available room, gross profit margin and ROCE are all financial measures.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acca-ma-c14-q010",
+      "chapter": 14,
+      "topic": "Performance measurement",
+      "question_text": "A division has net assets of $1,600,000 and annual profit of $240,000. It is considering an investment of $400,000 that would generate an extra annual profit of $56,000. The company's cost of capital is 12%. If the investment goes ahead, which of the following is correct?",
+      "options": {
+        "A": "Divisional ROI falls to 14.8%, and divisional residual income falls by $8,000",
+        "B": "Divisional ROI falls to 14.8%, but divisional residual income rises by $8,000",
+        "C": "Divisional ROI rises to 18.5%, and divisional residual income rises by $8,000",
+        "D": "Divisional ROI falls to 14.0%, and divisional residual income rises by $56,000"
+      },
+      "correct": "B",
+      "explanation": "Current ROI = 240,000 / 1,600,000 = 15.0%. New ROI = (240,000 + 56,000) / (1,600,000 + 400,000) = 296,000 / 2,000,000 = 14.8%. Project RI = 56,000 - (400,000 x 12%) = 56,000 - 48,000 = $8,000, so divisional RI rises from 48,000 to 56,000, an increase of $8,000. 18.5% wrongly leaves the new assets out of the denominator.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acca-ma-c14-q011",
+      "chapter": 14,
+      "topic": "Performance measurement",
+      "question_text": "In assessing value for money in a public sector organisation, what does 'economy' mean?",
+      "options": {
+        "A": "Getting the maximum output from the resources used",
+        "B": "Achieving the organisation's objectives",
+        "C": "Making sure that services are provided fairly to all groups",
+        "D": "Obtaining inputs of the right quality at the lowest cost"
+      },
+      "correct": "D",
+      "explanation": "Value for money is assessed using the 3Es. Economy concerns the cost of inputs (spending less). Efficiency is the relationship between inputs and outputs (spending well). Effectiveness is whether objectives are achieved (spending wisely).",
+      "difficulty": "medium"
+    }
+  ]
+}
