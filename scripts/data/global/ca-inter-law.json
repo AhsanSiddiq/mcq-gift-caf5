@@ -1,0 +1,1955 @@
+{
+  "subject_id": "ca-inter-law",
+  "questions": [
+    {
+      "id": "ca-inter-law-c01-q001",
+      "chapter": 1,
+      "topic": "Preliminary",
+      "question_text": "Under section 2(20) of the Companies Act, 2013, the term 'company' means:",
+      "options": {
+        "A": "A company incorporated under the Companies Act, 2013 only",
+        "B": "A company incorporated under the Companies Act, 2013 or under any previous company law",
+        "C": "Any body corporate, whether incorporated in India or outside India",
+        "D": "Any association of persons carrying on business for profit and registered with the Registrar"
+      },
+      "correct": "B",
+      "explanation": "Section 2(20) defines 'company' as a company incorporated under the Companies Act, 2013 or under any previous company law. A body corporate (section 2(11)) is a wider term and includes a company incorporated outside India. Companies registered under earlier Acts such as the Companies Act, 1956 are also 'companies'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-law-c01-q002",
+      "chapter": 1,
+      "topic": "Preliminary",
+      "question_text": "Kaveri Tools Private Limited has the following members: 170 individuals who are neither present nor past employees (this figure includes 6 pairs of joint holders), 20 current employees who hold shares, and 9 former employees who became members while in employment and continue as members. For the limit on members in section 2(68), how many members are counted?",
+      "options": {
+        "A": "170",
+        "B": "199",
+        "C": "164",
+        "D": "193"
+      },
+      "correct": "C",
+      "explanation": "Under section 2(68), employee-members and former employees who became members while in employment and continue to be members are excluded from the 200 limit. Joint holders are treated as a single member. Of the 170 non-employee members, 12 persons form 6 joint holdings, so they count as 6 rather than 12: 170 - 12 + 6 = 164. The 20 employees and 9 former employees are ignored.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c01-q003",
+      "chapter": 1,
+      "topic": "Preliminary",
+      "question_text": "Which of the following is NOT a restriction that the articles of a private company must contain under section 2(68)?",
+      "options": {
+        "A": "A prohibition on any invitation to the public to subscribe for its securities",
+        "B": "A restriction on the company accepting loans from its directors",
+        "C": "A restriction on the right to transfer its shares",
+        "D": "A limit on the number of its members to two hundred, except in the case of a One Person Company"
+      },
+      "correct": "B",
+      "explanation": "Section 2(68) requires the articles of a private company to restrict the right to transfer shares, limit the number of members to 200 (except an OPC) and prohibit any invitation to the public to subscribe for its securities. The Act places no such restriction on accepting loans from directors.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-law-c01-q004",
+      "chapter": 1,
+      "topic": "Preliminary",
+      "question_text": "Megha Ltd is a subsidiary of Trident Ltd, a public company. The articles of Megha Ltd contain all the restrictions applicable to a private company. Megha Ltd will be treated as:",
+      "options": {
+        "A": "A private company, because its articles contain the restrictions of section 2(68)",
+        "B": "Neither a private nor a public company, but a deemed foreign company",
+        "C": "A private company, unless the Central Government declares it to be public",
+        "D": "A public company, because a subsidiary of a public company is deemed to be a public company"
+      },
+      "correct": "D",
+      "explanation": "The proviso to section 2(71) states that a company which is a subsidiary of a company that is not a private company is deemed to be a public company for the purposes of the Act. This applies even if the subsidiary's articles keep the restrictions of a private company.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c01-q005",
+      "chapter": 1,
+      "topic": "Preliminary",
+      "question_text": "As per section 2(87), Company X will be a subsidiary of Company Y if Company Y:",
+      "options": {
+        "A": "Exercises or controls more than one-half of the total voting power of Company X, either on its own or together with its subsidiaries",
+        "B": "Is a major supplier of raw material to Company X under a long-term contract",
+        "C": "Has significant influence over Company X through holding 20% of its voting power",
+        "D": "Holds exactly one-half of the total share capital of Company X"
+      },
+      "correct": "A",
+      "explanation": "Under section 2(87), a holding company either controls the composition of the board of directors of the other company, or exercises or controls more than one-half of its total voting power. This can be on its own or together with one or more of its subsidiaries. Significant influence through 20% of voting power makes a company an associate under section 2(6), not a subsidiary. Exactly one-half is not 'more than one-half'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c01-q006",
+      "chapter": 1,
+      "topic": "Preliminary",
+      "question_text": "Under the Explanation to section 2(6), 'significant influence' for identifying an associate company means control of at least ______ of the total voting power, or control of or participation in business decisions under an agreement.",
+      "options": {
+        "A": "Ten per cent",
+        "B": "More than fifty per cent",
+        "C": "Twenty-six per cent",
+        "D": "Twenty per cent"
+      },
+      "correct": "D",
+      "explanation": "The Explanation to section 2(6) defines significant influence as control of at least 20% of the total voting power, or control of or participation in business decisions under an agreement. An associate company also includes a joint venture company.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-law-c01-q007",
+      "chapter": 1,
+      "topic": "Preliminary",
+      "question_text": "Which of the following companies can be a 'small company' under section 2(85), provided it meets the capital and turnover criteria?",
+      "options": {
+        "A": "A private company that is neither a holding nor a subsidiary company",
+        "B": "A company registered under section 8",
+        "C": "A company governed by a special Act",
+        "D": "A private company that is a subsidiary of another private company"
+      },
+      "correct": "A",
+      "explanation": "Section 2(85) excludes a holding company, a subsidiary company, a company registered under section 8 and a company or body corporate governed by any special Act. A small company must also be a company other than a public company. A standalone private company within the prescribed limits qualifies.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c01-q008",
+      "chapter": 1,
+      "topic": "Preliminary",
+      "question_text": "As per section 2(51), which of the following is NOT automatically a Key Managerial Personnel?",
+      "options": {
+        "A": "The Company Secretary",
+        "B": "A general manager two levels below the directors",
+        "C": "The Chief Financial Officer",
+        "D": "A whole-time director"
+      },
+      "correct": "B",
+      "explanation": "Key managerial personnel under section 2(51) are the CEO, managing director or manager, the company secretary, the whole-time director and the CFO. The board may also designate an officer in whole-time employment who is not more than one level below the directors. An officer two levels below the directors cannot be designated, so the general manager is not a KMP.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c01-q009",
+      "chapter": 1,
+      "topic": "Preliminary",
+      "question_text": "Mr. Arjun is a director of Sunrise Ltd. Which of the following is a 'related party' of Sunrise Ltd under section 2(76)?",
+      "options": {
+        "A": "A public company in which Mr. Arjun holds 3% of the shares but is not a director",
+        "B": "A private company in which Mr. Arjun's brother is a member",
+        "C": "A firm in which Mr. Arjun's cousin is a partner",
+        "D": "A public company in which Mr. Arjun is a director and, together with his relatives, holds 1.5% of the paid-up share capital"
+      },
+      "correct": "B",
+      "explanation": "Section 2(76) includes a private company in which a director or manager, or his relative, is a member or director. A brother is a relative under section 2(77) and the related rules. A public company is related only if the director or manager is a director of it AND holds, with relatives, more than 2% of its paid-up capital. A cousin is not a relative under the Act.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-law-c02-q001",
+      "chapter": 2,
+      "topic": "Incorporation of Company and Matters Incidental Thereto",
+      "question_text": "Under section 3(1) of the Companies Act, 2013, the minimum number of persons required to form a public company, a private company and a One Person Company respectively is:",
+      "options": {
+        "A": "Seven, two and one",
+        "B": "Two, seven and one",
+        "C": "Five, two and one",
+        "D": "Seven, two and two"
+      },
+      "correct": "A",
+      "explanation": "Section 3(1) allows a company to be formed for a lawful purpose by seven or more persons for a public company, two or more persons for a private company, and one person for a One Person Company. Each must subscribe to the memorandum and complete registration.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-law-c02-q002",
+      "chapter": 2,
+      "topic": "Incorporation of Company and Matters Incidental Thereto",
+      "question_text": "Pioneer Ltd, a public company, has had only five members for the last ten months and continues to carry on business. Under section 3A, Mr. Rao, a member who knows this, is:",
+      "options": {
+        "A": "Severally liable for the payment of the whole of the debts contracted during the period after the first six months",
+        "B": "Liable only to the extent of the amount unpaid on his shares",
+        "C": "Liable for all the company's debts, including debts contracted before membership fell below seven",
+        "D": "Not personally liable at all, because the members' liability is limited"
+      },
+      "correct": "A",
+      "explanation": "Section 3A applies where a public company's membership falls below seven, or a private company's below two, and the company carries on business for more than six months while so reduced. Every person who is a member during the period after those six months, and knows of it, is severally liable for the whole of the debts contracted during that period. He may be sued for them. The liability does not reach debts contracted earlier.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c02-q003",
+      "chapter": 2,
+      "topic": "Incorporation of Company and Matters Incidental Thereto",
+      "question_text": "Which of the following is NOT a clause required to be stated in the memorandum of a company limited by shares under section 4?",
+      "options": {
+        "A": "The objects clause",
+        "B": "The procedure for transfer of shares",
+        "C": "The name clause",
+        "D": "The liability clause"
+      },
+      "correct": "B",
+      "explanation": "Section 4 requires the memorandum to state the name, the State of the registered office, the objects, the liability of members, the capital (for a company with share capital) and the subscribers. For an OPC it must also state the nominee. The procedure for transfer of shares is a matter for the articles, not the memorandum.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-law-c02-q004",
+      "chapter": 2,
+      "topic": "Incorporation of Company and Matters Incidental Thereto",
+      "question_text": "Under section 5(3) and (4), entrenchment provisions can be included in the articles of a public company:",
+      "options": {
+        "A": "Only with the prior approval of the Tribunal",
+        "B": "Only on formation, or by an amendment agreed to by all the members",
+        "C": "Only on formation, or by an amendment agreed to by special resolution",
+        "D": "Only by an ordinary resolution followed by approval of the Registrar"
+      },
+      "correct": "C",
+      "explanation": "Section 5(3) allows the articles to contain entrenchment provisions, under which specified provisions can be altered only if conditions more restrictive than a special resolution are met. Under section 5(4) they may be made on formation or by an amendment. In a private company the amendment needs the agreement of all members; in a public company it needs a special resolution.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c02-q005",
+      "chapter": 2,
+      "topic": "Incorporation of Company and Matters Incidental Thereto",
+      "question_text": "As per section 7(2), the certificate of incorporation issued by the Registrar is:",
+      "options": {
+        "A": "Valid only after the company files its declaration for commencement of business",
+        "B": "Evidence that the objects of the company are lawful in all respects",
+        "C": "Conclusive evidence that all the requirements of the Act regarding registration have been complied with",
+        "D": "Prima facie evidence only, which can be rebutted by any member"
+      },
+      "correct": "C",
+      "explanation": "Section 7(2) provides that the certificate of incorporation is conclusive evidence that all the requirements of the Act regarding registration and matters precedent and incidental to it have been complied with. Its validity does not depend on the later declaration under section 10A.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-law-c02-q006",
+      "chapter": 2,
+      "topic": "Incorporation of Company and Matters Incidental Thereto",
+      "question_text": "Under section 10A, a company with share capital that was incorporated under the Companies Act, 2013 must file a declaration that every subscriber has paid the value of the shares agreed to be taken. This declaration must be filed within:",
+      "options": {
+        "A": "90 days of the date of incorporation",
+        "B": "180 days of the date of incorporation",
+        "C": "30 days of the date of incorporation",
+        "D": "One year of the date of incorporation"
+      },
+      "correct": "B",
+      "explanation": "Section 10A(1) provides that such a company shall not commence business or exercise borrowing powers unless a director files a declaration within 180 days of incorporation. The declaration confirms that every subscriber to the memorandum has paid the value of the shares agreed to be taken. The company must also verify its registered office under section 12(2).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-law-c02-q007",
+      "chapter": 2,
+      "topic": "Incorporation of Company and Matters Incidental Thereto",
+      "question_text": "Which of the following purposes does NOT qualify a company for a licence under section 8?",
+      "options": {
+        "A": "Promotion of education and research",
+        "B": "Protection of the environment",
+        "C": "Promotion of sports",
+        "D": "Distribution of profits to members by way of dividend"
+      },
+      "correct": "D",
+      "explanation": "Section 8 applies to a company formed to promote commerce, art, science, sports, education, research, social welfare, religion, charity, protection of the environment or similar objects. It must apply its profits or income to promoting those objects, and its articles must prohibit the payment of dividend to members.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-law-c02-q008",
+      "chapter": 2,
+      "topic": "Incorporation of Company and Matters Incidental Thereto",
+      "question_text": "Bright Ltd wants to shift its registered office from Pune (Maharashtra) to Bengaluru (Karnataka). Under section 13, in addition to a special resolution, the alteration of its memorandum requires the approval of:",
+      "options": {
+        "A": "The Registrar of Companies of Maharashtra only",
+        "B": "The Tribunal",
+        "C": "The Central Government",
+        "D": "The Securities and Exchange Board of India"
+      },
+      "correct": "C",
+      "explanation": "Under section 13(4), an alteration of the memorandum to shift the registered office from one State to another needs a special resolution and the approval of the Central Government. That power has been delegated to the Regional Director. A shift within the same State but outside the jurisdiction of the existing Registrar is dealt with under section 12.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c02-q009",
+      "chapter": 2,
+      "topic": "Incorporation of Company and Matters Incidental Thereto",
+      "question_text": "The articles of Zenith Ltd require that any borrowing above a stated limit be approved by an ordinary resolution of members. The directors borrowed above the limit without a resolution. A lender who had no knowledge of the omission wishes to enforce the loan. Which doctrine protects the lender?",
+      "options": {
+        "A": "The doctrine of indoor management",
+        "B": "The doctrine of ultra vires",
+        "C": "The doctrine of lifting the corporate veil",
+        "D": "The doctrine of constructive notice"
+      },
+      "correct": "A",
+      "explanation": "The doctrine of indoor management, from Royal British Bank v. Turquand, lets an outsider dealing in good faith assume that internal procedures such as passing a members' resolution have been followed. Constructive notice works against outsiders, but only for the contents of public documents, not whether internal steps were taken. Protection is lost where the outsider knew of the irregularity, was negligent, or the act was a forgery.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-law-c02-q010",
+      "chapter": 2,
+      "topic": "Incorporation of Company and Matters Incidental Thereto",
+      "question_text": "Ruby Ltd entered into a contract that is beyond the objects stated in its memorandum. At the next general meeting, all members unanimously resolved to ratify the contract. The legal position of the contract is that it:",
+      "options": {
+        "A": "Remains void and cannot be ratified even by the unanimous consent of all members",
+        "B": "Becomes valid from the date of the resolution",
+        "C": "Becomes valid only if the Registrar approves the ratification",
+        "D": "Becomes valid from the date of the contract, since ratification relates back"
+      },
+      "correct": "A",
+      "explanation": "Under the doctrine of ultra vires, settled in Ashbury Railway Carriage and Iron Co. Ltd v. Riche, an act beyond the objects of the memorandum is void ab initio. It cannot be ratified even by all the members, because the company never had the capacity to do it. An act ultra vires the directors but intra vires the company can be ratified by members.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-law-c02-q011",
+      "chapter": 2,
+      "topic": "Incorporation of Company and Matters Incidental Thereto",
+      "question_text": "Under section 12(1), a company must have a registered office capable of receiving and acknowledging all communications and notices addressed to it:",
+      "options": {
+        "A": "Within six months of its incorporation",
+        "B": "Before applying for incorporation",
+        "C": "Within thirty days of its incorporation and at all times thereafter",
+        "D": "Only after it commences business under section 10A"
+      },
+      "correct": "C",
+      "explanation": "Section 12(1) requires every company, within thirty days of incorporation and at all times thereafter, to have a registered office capable of receiving and acknowledging all communications and notices. Verification of the registered office is filed with the Registrar within the same period.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c03-q001",
+      "chapter": 3,
+      "topic": "Prospectus and Allotment of Securities",
+      "question_text": "Under section 23(1), a public company may issue securities to the public:",
+      "options": {
+        "A": "Only through a rights issue",
+        "B": "Through a prospectus",
+        "C": "Only through private placement",
+        "D": "Only through bonus issue"
+      },
+      "correct": "B",
+      "explanation": "Section 23(1) states that a public company may issue securities to the public through a prospectus. It may also issue them through private placement, by way of a rights issue or a bonus issue. Section 23(2) allows a private company to issue securities only by rights issue, bonus issue or private placement.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-law-c03-q002",
+      "chapter": 3,
+      "topic": "Prospectus and Allotment of Securities",
+      "question_text": "Section 25 deems a document containing an offer for sale of securities to the public to be a prospectus issued by the company. Unless the contrary is proved, an allotment with a view to the securities being offered for sale to the public is presumed where:",
+      "options": {
+        "A": "The securities are listed on a recognised stock exchange",
+        "B": "The offer for sale is made within one year after the allotment",
+        "C": "The allottee is a director of the company",
+        "D": "The offer for sale is made within six months after the allotment, or before the whole consideration for the securities has been received by the company"
+      },
+      "correct": "D",
+      "explanation": "Section 25(2) presumes that an allotment was made with a view to an offer for sale to the public in either of two cases. The first is that the offer was made within six months after the allotment. The second is that, at the date of the offer, the whole consideration had not been received by the company. The document is then a deemed prospectus.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c03-q003",
+      "chapter": 3,
+      "topic": "Prospectus and Allotment of Securities",
+      "question_text": "A red herring prospectus under section 32 is a prospectus that:",
+      "options": {
+        "A": "Is valid for one year and covers multiple issues",
+        "B": "Does not include complete particulars of the quantum or price of the securities included in it",
+        "C": "Contains a false statement and is liable to be cancelled",
+        "D": "Is issued only by a company incorporated outside India"
+      },
+      "correct": "B",
+      "explanation": "As per the Explanation to section 32, a red herring prospectus does not include complete particulars of the quantum or price of the securities. Once the offer closes, the prospectus stating the total capital raised, the closing price and any details left out must be filed with the Registrar and SEBI. A prospectus covering several issues over a period is a shelf prospectus under section 31.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-law-c03-q004",
+      "chapter": 3,
+      "topic": "Prospectus and Allotment of Securities",
+      "question_text": "As per section 31, a shelf prospectus is valid for a period not exceeding:",
+      "options": {
+        "A": "Ninety days from the date of filing with the Registrar",
+        "B": "One year from the date of opening of the first offer of securities under it",
+        "C": "Three years from the date of its issue",
+        "D": "Six months from the date of filing with the Registrar"
+      },
+      "correct": "B",
+      "explanation": "Section 31(1) allows prescribed classes of companies to file a shelf prospectus. Under it, no further prospectus is needed for subsequent offers within a period of validity not exceeding one year from the date of opening of the first offer. An information memorandum must be filed before each subsequent offer.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-law-c03-q005",
+      "chapter": 3,
+      "topic": "Prospectus and Allotment of Securities",
+      "question_text": "Which of the following persons is NOT liable to pay compensation under section 35 for a misleading statement in a prospectus?",
+      "options": {
+        "A": "A person who authorised the issue of the prospectus",
+        "B": "A person who withdrew his consent to act as director before the issue of the prospectus, and the prospectus was issued without his authority",
+        "C": "A promoter of the company who knew about the misleading statement",
+        "D": "A person named in the prospectus as a proposed director with his consent"
+      },
+      "correct": "B",
+      "explanation": "Section 35(1) makes directors, persons named with their consent as proposed directors, promoters, persons who authorised the issue and experts liable to compensate those who subscribed on the faith of a misleading prospectus. Section 35(2) excuses a person who, having consented to become a director, withdrew that consent before the issue, and the prospectus was issued without his authority or consent.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-law-c03-q006",
+      "chapter": 3,
+      "topic": "Prospectus and Allotment of Securities",
+      "question_text": "Under section 39(2), the amount payable on application on every security offered in a public issue shall not be less than:",
+      "options": {
+        "A": "The full nominal amount of the security",
+        "B": "Twenty-five per cent of the issue price of the security",
+        "C": "Ten per cent of the nominal amount of the security",
+        "D": "Five per cent of the nominal amount of the security, or such other percentage or amount as SEBI may specify"
+      },
+      "correct": "D",
+      "explanation": "Section 39(2) provides that the amount payable on application on every security shall not be less than five per cent of its nominal amount, or such other percentage or amount as SEBI may specify by regulations. SEBI regulations for listed issues prescribe higher application money.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c03-q007",
+      "chapter": 3,
+      "topic": "Prospectus and Allotment of Securities",
+      "question_text": "Under section 39(3), if the stated minimum amount has not been subscribed and the sums payable on application have not been received within thirty days from the date of issue of the prospectus, or such other period as SEBI may specify:",
+      "options": {
+        "A": "The company may allot shares in proportion to the money received",
+        "B": "The directors must subscribe for the shortfall",
+        "C": "The application money must be returned within the prescribed period",
+        "D": "The company must issue a fresh prospectus within thirty days"
+      },
+      "correct": "C",
+      "explanation": "Section 39(1) prohibits allotment unless the minimum amount stated in the prospectus has been subscribed and the application money received. Under section 39(3), if this does not happen within thirty days of the issue of the prospectus, or the period specified by SEBI, the amount received must be returned within the prescribed time.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c03-q008",
+      "chapter": 3,
+      "topic": "Prospectus and Allotment of Securities",
+      "question_text": "Nova Pvt Ltd received application money in a private placement on 1 June. It has not allotted the securities. Under section 42(6), which of the following is correct?",
+      "options": {
+        "A": "It must allot within 90 days of receipt; if not, refund with interest at 15% per annum from the date of receipt",
+        "B": "It must allot within 60 days of receipt; if not, refund within 15 days after the 60 days, failing which it pays interest at 12% per annum from the expiry of the 60th day",
+        "C": "It must allot within 30 days of receipt, failing which the money becomes a deposit immediately",
+        "D": "It must allot within 60 days of receipt; if not, refund within 30 days after the 60 days without any interest"
+      },
+      "correct": "B",
+      "explanation": "Section 42(6) requires a company making a private placement to allot within sixty days from receipt of the application money. If it cannot, it must repay the money within fifteen days from the end of the sixty days. If it fails to repay within that time, it must repay with interest at twelve per cent per annum from the expiry of the sixtieth day.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-law-c03-q009",
+      "chapter": 3,
+      "topic": "Prospectus and Allotment of Securities",
+      "question_text": "Which of the following is NOT permitted for a private placement under section 42?",
+      "options": {
+        "A": "Releasing a public advertisement about the offer through newspapers",
+        "B": "Making an offer to qualified institutional buyers in addition to other identified persons",
+        "C": "Receiving subscription money by cheque from identified persons",
+        "D": "Issuing a private placement offer and application letter to identified persons"
+      },
+      "correct": "A",
+      "explanation": "Section 42(7) prohibits a company making a private placement from releasing any public advertisement, or using any media, marketing or distribution channel or agent, to inform the public about the offer. Under section 42(4), subscription money must be paid by cheque, demand draft or other banking channel, not in cash. Offers to qualified institutional buyers are permitted.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c03-q010",
+      "chapter": 3,
+      "topic": "Prospectus and Allotment of Securities",
+      "question_text": "Under section 34, a person who authorises the issue of a prospectus containing an untrue or misleading statement is liable to action under:",
+      "options": {
+        "A": "Section 36, which deals only with misleading advertisements",
+        "B": "Section 35, which deals only with civil liability",
+        "C": "The Indian Contract Act, 1872 only",
+        "D": "Section 447, which deals with punishment for fraud"
+      },
+      "correct": "D",
+      "explanation": "Section 34 provides that where a prospectus includes any untrue or misleading statement, or omits a matter likely to mislead, every person who authorises its issue is liable under section 447 (fraud). It is a defence to prove that the statement or omission was immaterial, or that he had reasonable grounds to believe it was true. Section 35 deals with civil liability separately.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-law-c04-q001",
+      "chapter": 4,
+      "topic": "Share Capital and Debentures",
+      "question_text": "Under section 43, the share capital of a company limited by shares can be of which kinds?",
+      "options": {
+        "A": "Authorised, issued and reserve share capital",
+        "B": "Equity share capital (with voting rights or with differential rights) and preference share capital",
+        "C": "Equity share capital only",
+        "D": "Equity share capital, preference share capital and deferred share capital"
+      },
+      "correct": "B",
+      "explanation": "Section 43 provides for two kinds of share capital: equity share capital and preference share capital. Equity share capital may carry voting rights or differential rights as to dividend, voting or otherwise, in accordance with the rules.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-law-c04-q002",
+      "chapter": 4,
+      "topic": "Share Capital and Debentures",
+      "question_text": "Under section 47(2), preference shareholders of a class become entitled to vote on every resolution placed before the company when the dividend on that class has remained unpaid for a period of:",
+      "options": {
+        "A": "Three years or more",
+        "B": "Five years or more",
+        "C": "One year or more",
+        "D": "Two years or more"
+      },
+      "correct": "D",
+      "explanation": "Normally, under section 47(2), preference shareholders vote only on resolutions that directly affect their rights, such as winding up or the repayment or reduction of capital. If dividend on a class of preference shares has not been paid for two years or more, that class may vote on all resolutions.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-law-c04-q003",
+      "chapter": 4,
+      "topic": "Share Capital and Debentures",
+      "question_text": "The rights of a class of shareholders are varied under section 48 with the written consent of the holders of 80% of the issued shares of that class. Holders of 12% of that class did not consent. What remedy do they have?",
+      "options": {
+        "A": "None, because the variation was approved by holders of more than three-fourths",
+        "B": "They may apply to the Tribunal to have the variation cancelled, as they hold not less than 10% of the issued shares of that class",
+        "C": "They may apply to the Central Government, since only holders of 25% can approach the Tribunal",
+        "D": "They may require the company to buy back their shares at fair value"
+      },
+      "correct": "B",
+      "explanation": "Section 48(1) allows variation of class rights with the written consent of holders of not less than three-fourths of the issued shares of that class, or by a special resolution passed at a separate class meeting. Under section 48(2), holders of not less than ten per cent of the issued shares of the class who did not consent may apply to the Tribunal to cancel the variation. The variation then has effect only if the Tribunal confirms it.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-law-c04-q004",
+      "chapter": 4,
+      "topic": "Share Capital and Debentures",
+      "question_text": "Which of the following is NOT a permitted use of the securities premium account under section 52(2)?",
+      "options": {
+        "A": "Payment of dividend to equity shareholders",
+        "B": "Writing off preliminary expenses of the company",
+        "C": "Providing for the premium payable on redemption of debentures",
+        "D": "Issuing unissued shares to members as fully paid bonus shares"
+      },
+      "correct": "A",
+      "explanation": "Section 52(2) permits the securities premium account to be used for fully paid bonus shares, writing off preliminary expenses, writing off expenses, commission or discount on the issue of shares or debentures, the premium payable on redemption of preference shares or debentures, and buy-back under section 68. It is treated like paid-up share capital, so it cannot be used to pay dividend.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-law-c04-q005",
+      "chapter": 4,
+      "topic": "Share Capital and Debentures",
+      "question_text": "Under section 53, any share issued by a company at a discount is void. The only exceptions are sweat equity shares under section 54 and:",
+      "options": {
+        "A": "Shares issued to promoters in a rights issue",
+        "B": "Shares issued to the public in a fresh issue below par to attract investors",
+        "C": "Shares issued to creditors on conversion of debt under a statutory restructuring scheme or arrangement under RBI guidelines",
+        "D": "Bonus shares issued out of free reserves"
+      },
+      "correct": "C",
+      "explanation": "Section 53(1) prohibits issuing shares at a discount and section 53(2) makes such shares void, except sweat equity shares under section 54. Section 53(2A) further permits a company to issue shares at a discount to its creditors when debt is converted into shares under a statutory resolution plan or a debt restructuring scheme under RBI guidelines.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c04-q006",
+      "chapter": 4,
+      "topic": "Share Capital and Debentures",
+      "question_text": "Delta Ltd redeems fully paid preference shares of nominal value ₹8,00,000 at par. It uses ₹3,00,000 raised from a fresh issue of equity shares at par made for the purpose, and pays the rest out of profits available for dividend. What amount must be transferred to the Capital Redemption Reserve under section 55?",
+      "options": {
+        "A": "₹8,00,000",
+        "B": "₹5,00,000",
+        "C": "₹11,00,000",
+        "D": "₹3,00,000"
+      },
+      "correct": "B",
+      "explanation": "Under section 55(2), when preference shares are redeemed out of profits, a sum equal to the nominal amount of the shares redeemed out of profits must be transferred to the Capital Redemption Reserve. Shares redeemed from a fresh issue need no transfer. Nominal value redeemed out of profits = ₹8,00,000 - ₹3,00,000 = ₹5,00,000.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-law-c04-q007",
+      "chapter": 4,
+      "topic": "Share Capital and Debentures",
+      "question_text": "Under section 55, a company limited by shares cannot issue preference shares that are:",
+      "options": {
+        "A": "Cumulative",
+        "B": "Convertible into equity shares",
+        "C": "Participating",
+        "D": "Irredeemable"
+      },
+      "correct": "D",
+      "explanation": "Section 55(1) states that no company limited by shares shall issue any preference shares that are irredeemable. Preference shares must generally be redeemed within twenty years from the date of issue. A longer period is allowed for prescribed infrastructure projects, subject to annual redemption of a portion at the option of the holders.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-law-c04-q008",
+      "chapter": 4,
+      "topic": "Share Capital and Debentures",
+      "question_text": "Under section 62(1)(a), when a company offers further shares to existing equity shareholders by a rights issue, the offer must be open for a period of:",
+      "options": {
+        "A": "Exactly twenty-one days from the date of the offer",
+        "B": "Not less than thirty days and not exceeding sixty days",
+        "C": "Not less than fifteen days and not exceeding thirty days from the date of the offer",
+        "D": "Not less than seven days and not exceeding fifteen days"
+      },
+      "correct": "C",
+      "explanation": "Section 62(1)(a)(i) requires the offer to be made by notice specifying the number of shares offered. It must allow a period of not less than fifteen days and not exceeding thirty days from the date of the offer, after which an offer not accepted is deemed declined.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c04-q009",
+      "chapter": 4,
+      "topic": "Share Capital and Debentures",
+      "question_text": "Orbit Ltd has: free reserves ₹40 lakh, securities premium ₹15 lakh, capital redemption reserve ₹10 lakh and revaluation reserve ₹25 lakh. What is the maximum amount it can capitalise for fully paid bonus shares under section 63?",
+      "options": {
+        "A": "₹55 lakh",
+        "B": "₹90 lakh",
+        "C": "₹40 lakh",
+        "D": "₹65 lakh"
+      },
+      "correct": "D",
+      "explanation": "Section 63(1) permits bonus shares to be issued only out of free reserves, the securities premium account and the capital redemption reserve account. The proviso to section 63(1) bars capitalising reserves created by revaluation of assets. Maximum = 40 + 15 + 10 = ₹65 lakh.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-law-c04-q010",
+      "chapter": 4,
+      "topic": "Share Capital and Debentures",
+      "question_text": "Crest Ltd has paid-up equity share capital of ₹40 crore, a general reserve (free reserve) of ₹25 crore and a securities premium account of ₹15 crore. What is the maximum buy-back the Board can approve under section 68 without a special resolution of members?",
+      "options": {
+        "A": "₹20 crore",
+        "B": "₹4 crore",
+        "C": "₹6.5 crore",
+        "D": "₹8 crore"
+      },
+      "correct": "D",
+      "explanation": "Under the proviso to section 68(2)(b), the Board may authorise a buy-back of up to ten per cent of the total paid-up equity capital and free reserves. Under the Explanation to section 68, free reserves include the securities premium account. Base = 40 + 25 + 15 = ₹80 crore, so the Board limit = 10% x 80 = ₹8 crore. A larger buy-back, up to 25%, needs a special resolution.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-law-c04-q011",
+      "chapter": 4,
+      "topic": "Share Capital and Debentures",
+      "question_text": "Under section 56(4), unless prohibited by any law or court order, every company must deliver the certificates in respect of debentures allotted within:",
+      "options": {
+        "A": "Six months from the date of allotment",
+        "B": "Two months from the date of allotment",
+        "C": "Thirty days from the date of allotment",
+        "D": "One month from the date of allotment"
+      },
+      "correct": "A",
+      "explanation": "Section 56(4) sets the time limits for delivering certificates. For subscribers to the memorandum it is two months from incorporation. For any allotment of shares it is two months from allotment. For a transfer or transmission it is one month from receipt of the instrument of transfer or intimation. For debentures it is six months from allotment.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c05-q001",
+      "chapter": 5,
+      "topic": "Acceptance of Deposits by Companies and Registration of Charges",
+      "question_text": "Silverline Ltd, a public company, received the following sums. Which one is a 'deposit' under section 2(31) read with the Companies (Acceptance of Deposits) Rules, 2014?",
+      "options": {
+        "A": "An amount received from the Central Government",
+        "B": "A loan from a scheduled commercial bank",
+        "C": "An inter-corporate loan from another company",
+        "D": "An unsecured loan from the wife of one of its directors"
+      },
+      "correct": "D",
+      "explanation": "Section 2(31) treats any receipt of money by way of deposit or loan as a deposit, except categories excluded by the rules. Amounts from the Central or State Government, banking companies and other companies are excluded. A loan from a director is excluded, and a loan from a relative of a director is excluded only for a private company. A loan from a director's relative to a public company is therefore a deposit.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-law-c05-q002",
+      "chapter": 5,
+      "topic": "Acceptance of Deposits by Companies and Registration of Charges",
+      "question_text": "Harbour Ltd accepts deposits from its members under section 73(2). Its deposits maturing during the next financial year total ₹2.5 crore. By 30 April, what is the minimum amount it must place in a deposit repayment reserve account?",
+      "options": {
+        "A": "₹62.5 lakh",
+        "B": "₹25 lakh",
+        "C": "₹2.5 crore",
+        "D": "₹50 lakh"
+      },
+      "correct": "D",
+      "explanation": "Section 73(2)(c) requires a company accepting deposits from members to deposit, on or before 30 April each year, at least twenty per cent of the deposits maturing during the following financial year. The money is kept in a separate account with a scheduled bank called the deposit repayment reserve account. 20% x ₹2.5 crore = ₹50 lakh.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c05-q003",
+      "chapter": 5,
+      "topic": "Acceptance of Deposits by Companies and Registration of Charges",
+      "question_text": "Under section 73(1), the provisions of Chapter V on acceptance of deposits do NOT apply to:",
+      "options": {
+        "A": "A private company with share capital",
+        "B": "A listed public company that is not a financial institution",
+        "C": "A banking company",
+        "D": "A company registered under section 8"
+      },
+      "correct": "C",
+      "explanation": "Section 73(1) provides that the provisions of Chapter V do not apply to a banking company, a non-banking financial company as defined in the Reserve Bank of India Act, 1934, a housing finance company registered with the National Housing Bank, and other notified companies. Such entities are governed by their own regulators.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-law-c05-q004",
+      "chapter": 5,
+      "topic": "Acceptance of Deposits by Companies and Registration of Charges",
+      "question_text": "A company accepted deposits with intent to defraud the depositors. Under section 75, every officer of the company responsible for accepting such deposits is:",
+      "options": {
+        "A": "Not liable, as the deposits are the liability of the company alone",
+        "B": "Liable only if the Registrar has issued a prior show-cause notice",
+        "C": "Personally responsible, without any limitation of liability, for all or any of the losses or damages incurred by the depositors",
+        "D": "Liable only up to the amount of his own shareholding"
+      },
+      "correct": "C",
+      "explanation": "Section 75(1) provides that where a company fails to repay a deposit and it is proved that the deposit was accepted with intent to defraud, or for a fraudulent purpose, the officers responsible are liable. Every officer responsible for the acceptance is personally responsible, without limitation of liability, for the depositors' losses, in addition to liability under section 447.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c05-q005",
+      "chapter": 5,
+      "topic": "Acceptance of Deposits by Companies and Registration of Charges",
+      "question_text": "Share application money received by a company becomes a 'deposit' under the Companies (Acceptance of Deposits) Rules, 2014 if the securities are not allotted within sixty days of receipt and the money is not refunded within:",
+      "options": {
+        "A": "Fifteen days from the date of completion of the sixty days",
+        "B": "Seven days from the date of completion of the sixty days",
+        "C": "Thirty days from the date of completion of the sixty days",
+        "D": "Ninety days from the date of receipt of the money"
+      },
+      "correct": "A",
+      "explanation": "Under the rules, share application money received for allotment is not a deposit. However, if the securities are not allotted within sixty days of receipt and the money is not refunded within fifteen days after that, the money is treated as a deposit. The approach mirrors section 42(6) on private placement.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c05-q006",
+      "chapter": 5,
+      "topic": "Acceptance of Deposits by Companies and Registration of Charges",
+      "question_text": "Under section 77(1), it is the duty of every company creating a charge to register its particulars with the Registrar within:",
+      "options": {
+        "A": "Seven days of its creation",
+        "B": "Ninety days of its creation",
+        "C": "Thirty days of its creation",
+        "D": "Sixty days of its creation"
+      },
+      "correct": "C",
+      "explanation": "Section 77(1) requires every company creating a charge within or outside India, on its property or assets or any of its undertakings, to register the particulars of the charge with the Registrar within thirty days of its creation. The Registrar may allow registration within extended periods under the provisos on payment of additional fees.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-law-c05-q007",
+      "chapter": 5,
+      "topic": "Acceptance of Deposits by Companies and Registration of Charges",
+      "question_text": "Peak Ltd borrowed ₹50 lakh from a bank against a charge on its machinery but never registered the charge. Peak Ltd later went into liquidation. Which of the following is correct?",
+      "options": {
+        "A": "The directors become personally liable to repay the entire loan to the bank",
+        "B": "The charge is not taken into account by the liquidator, but the bank can still prove for the ₹50 lakh as an unsecured creditor",
+        "C": "The charge is valid against the liquidator since the bank has the original charge document",
+        "D": "The loan itself becomes void and the bank cannot recover any amount"
+      },
+      "correct": "B",
+      "explanation": "Under section 77(3), a charge is not taken into account by the liquidator or any creditor unless it has been registered and a certificate of registration issued. Section 77(4) adds that this does not prejudice any contract or obligation for repayment of the money secured. The bank loses its security but the debt survives, so it ranks as an unsecured creditor.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-law-c05-q008",
+      "chapter": 5,
+      "topic": "Acceptance of Deposits by Companies and Registration of Charges",
+      "question_text": "Where a company fails to register a charge within the time allowed, the charge-holder may apply to the Registrar under section 78. The Registrar may allow registration if the company does not register the charge, or show sufficient cause against registration, within:",
+      "options": {
+        "A": "Fourteen days after the Registrar gives notice to the company",
+        "B": "Sixty days after the creation of the charge",
+        "C": "Thirty days after the Registrar gives notice to the company",
+        "D": "Seven days after the charge-holder's application"
+      },
+      "correct": "A",
+      "explanation": "Section 78 allows the person in whose favour the charge is created to apply for registration. Within fourteen days after giving notice to the company, the Registrar may allow registration unless the company itself registers the charge or shows sufficient cause why it should not be registered.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c05-q009",
+      "chapter": 5,
+      "topic": "Acceptance of Deposits by Companies and Registration of Charges",
+      "question_text": "Under section 82(1), a company must inform the Registrar of the payment or satisfaction in full of any registered charge within:",
+      "options": {
+        "A": "Sixty days from the date of such payment or satisfaction",
+        "B": "Thirty days from the date of such payment or satisfaction",
+        "C": "The date of the next annual general meeting",
+        "D": "Fourteen days from the date of such payment or satisfaction"
+      },
+      "correct": "B",
+      "explanation": "Section 82(1) requires the company to give intimation of the payment or satisfaction in full of a registered charge within thirty days in the prescribed form. The Registrar then issues a notice to the charge-holder to show cause why the satisfaction should not be recorded.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-law-c05-q010",
+      "chapter": 5,
+      "topic": "Acceptance of Deposits by Companies and Registration of Charges",
+      "question_text": "As per section 80, a person acquiring property of a company on which a charge has been registered under section 77 is deemed to have notice of the charge:",
+      "options": {
+        "A": "From the date the charge was created, whether registered or not",
+        "B": "Only if the company informs him in writing",
+        "C": "Only after the charge is entered in the company's own register of charges",
+        "D": "From the date of such registration"
+      },
+      "correct": "D",
+      "explanation": "Section 80 states that where a charge on any property or assets of a company or its undertakings is registered under section 77, any person acquiring that property or any part of it shall be deemed to have notice of the charge from the date of such registration. Registration therefore operates as constructive notice to the world.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c06-q001",
+      "chapter": 6,
+      "topic": "Management and Administration",
+      "question_text": "Under section 91, a company may close its register of members, after giving at least seven days' notice, for periods aggregating not more than ______ in a year, and not more than ______ at any one time.",
+      "options": {
+        "A": "Sixty days; forty-five days",
+        "B": "Forty-five days; twenty-one days",
+        "C": "Thirty days; fifteen days",
+        "D": "Forty-five days; thirty days"
+      },
+      "correct": "D",
+      "explanation": "Section 91(1) permits a company to close its register of members or debenture-holders or other security holders for any period or periods not exceeding forty-five days in the aggregate in a year. No single closure may exceed thirty days, and at least seven days' prior notice is required.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c06-q002",
+      "chapter": 6,
+      "topic": "Management and Administration",
+      "question_text": "Under section 92(4), a company must file its annual return with the Registrar within:",
+      "options": {
+        "A": "Sixty days from the date on which the annual general meeting is held, or from the date on which it should have been held",
+        "B": "Thirty days from the date of the annual general meeting",
+        "C": "Thirty days from the date of the board meeting approving the financial statements",
+        "D": "Six months from the close of the financial year"
+      },
+      "correct": "A",
+      "explanation": "Section 92(4) requires every company to file a copy of the annual return with the Registrar within sixty days from the date on which the annual general meeting is held. Where no AGM is held in a year, the sixty days run from the date on which it should have been held.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-law-c06-q003",
+      "chapter": 6,
+      "topic": "Management and Administration",
+      "question_text": "Lotus Ltd was incorporated on 15 February of Year 1. By which date must it hold its first annual general meeting under section 96?",
+      "options": {
+        "A": "30 September of Year 1",
+        "B": "31 December of Year 2",
+        "C": "31 December of Year 1",
+        "D": "15 November of Year 1"
+      },
+      "correct": "B",
+      "explanation": "Under section 2(41), a company incorporated on or after 1 January has its first financial year ending on 31 March of the following year. Lotus Ltd's first financial year therefore runs from 15 February Year 1 to 31 March Year 2. Section 96(1) requires the first AGM within nine months of the close of the first financial year, which is 31 December Year 2.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-law-c06-q004",
+      "chapter": 6,
+      "topic": "Management and Administration",
+      "question_text": "Garnet Ltd held its last AGM on 25 July of Year 1. Its financial year ended on 31 March of Year 2. Ignoring any extension by the Registrar, what is the latest date by which it must hold its next AGM?",
+      "options": {
+        "A": "25 July of Year 2",
+        "B": "30 September of Year 2",
+        "C": "31 December of Year 2",
+        "D": "25 October of Year 2"
+      },
+      "correct": "B",
+      "explanation": "Section 96(1) requires a subsequent AGM within six months of the close of the financial year, and not more than fifteen months between two AGMs. Six months from 31 March Year 2 is 30 September Year 2. Fifteen months from 25 July Year 1 is 25 October Year 2. The earlier of the two, 30 September Year 2, is the deadline.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c06-q005",
+      "chapter": 6,
+      "topic": "Management and Administration",
+      "question_text": "The paid-up share capital of Opal Ltd carrying voting rights is ₹60 lakh. Some members holding ₹5 lakh of that capital deposit a requisition for an extraordinary general meeting under section 100. The requisition is:",
+      "options": {
+        "A": "Not valid, because they hold less than one-tenth of the paid-up voting capital",
+        "B": "Not valid, because only the Tribunal can call an extraordinary general meeting",
+        "C": "Valid, because any member may requisition a meeting",
+        "D": "Valid, because they hold more than one-twentieth of the paid-up voting capital"
+      },
+      "correct": "A",
+      "explanation": "Section 100(2)(a) requires the requisitionists of a company with share capital to hold at least one-tenth of the paid-up share capital that carries voting rights on the date of the requisition. One-tenth of ₹60 lakh is ₹6 lakh. A holding of ₹5 lakh is below this, so the Board is not bound to call the meeting.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c06-q006",
+      "chapter": 6,
+      "topic": "Management and Administration",
+      "question_text": "Under section 101(1), an annual general meeting may be called at shorter notice than twenty-one clear days if consent in writing or by electronic mode is given by:",
+      "options": {
+        "A": "Not less than ninety-five per cent of the members entitled to vote at the meeting",
+        "B": "All the directors of the company",
+        "C": "A majority in number of the members entitled to vote",
+        "D": "Members holding not less than seventy-five per cent of the paid-up share capital"
+      },
+      "correct": "A",
+      "explanation": "The proviso to section 101(1) allows an AGM to be called at shorter notice with the consent of not less than ninety-five per cent of the members entitled to vote. For any other general meeting, consent is needed from a majority in number of members entitled to vote who hold at least ninety-five per cent of the paid-up voting capital (or total voting power).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-law-c06-q007",
+      "chapter": 6,
+      "topic": "Management and Administration",
+      "question_text": "Unless the articles require a larger number, what is the quorum for a general meeting of a public company with 3,200 members on the date of the meeting?",
+      "options": {
+        "A": "Fifteen members personally present",
+        "B": "Five members personally present",
+        "C": "Two members personally present",
+        "D": "Thirty members personally present"
+      },
+      "correct": "A",
+      "explanation": "Under section 103(1)(a), the quorum for a public company is five members personally present if members do not exceed 1,000. It is fifteen if members exceed 1,000 but not 5,000, and thirty if members exceed 5,000. With 3,200 members, the quorum is fifteen. A private company needs two members personally present.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c06-q008",
+      "chapter": 6,
+      "topic": "Management and Administration",
+      "question_text": "Which of the following statements about proxies under section 105 is correct?",
+      "options": {
+        "A": "A proxy must be a member, and may speak at the meeting",
+        "B": "The proxy instrument may be deposited at any time before the voting begins",
+        "C": "A proxy need not be a member, and the proxy instrument must be deposited not less than forty-eight hours before the meeting",
+        "D": "A proxy may vote on a show of hands as well as on a poll"
+      },
+      "correct": "C",
+      "explanation": "Under section 105(1), a member entitled to attend and vote may appoint another person, whether a member or not, as his proxy. A proxy has no right to speak and may vote only on a poll. Under section 105(4), the articles cannot require the proxy instrument to be lodged more than forty-eight hours before the meeting, which is the usual deadline.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-law-c06-q009",
+      "chapter": 6,
+      "topic": "Management and Administration",
+      "question_text": "At a general meeting of Coral Ltd, a resolution was proposed as a special resolution after due notice. 3,000 votes were cast in favour, 1,000 against, and 400 members present abstained. The resolution is:",
+      "options": {
+        "A": "Not passed, because votes in favour must be more than three times the votes against",
+        "B": "Passed only as an ordinary resolution",
+        "C": "Passed as a special resolution",
+        "D": "Not passed, because votes in favour are less than three-fourths of all members present"
+      },
+      "correct": "C",
+      "explanation": "Under section 114(2), a special resolution needs votes cast in favour to be not less than three times the votes cast against, by members entitled and voting in person, by proxy or by postal ballot. Abstentions are ignored. Here 3,000 = 3 x 1,000, which meets the 'not less than three times' test, so the special resolution is passed.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-law-c06-q010",
+      "chapter": 6,
+      "topic": "Management and Administration",
+      "question_text": "Under the Companies Act, 2013, special notice under section 115 is required for a resolution to:",
+      "options": {
+        "A": "Remove a director before the expiry of his period of office under section 169",
+        "B": "Re-appoint a director retiring by rotation",
+        "C": "Declare a final dividend",
+        "D": "Adopt the financial statements at an annual general meeting"
+      },
+      "correct": "A",
+      "explanation": "Special notice is required where the Act or the articles so provide. Notable cases are the removal of a director under section 169(2), and appointing an auditor other than the retiring auditor or providing that the retiring auditor shall not be reappointed under section 140(4). Under section 115, the notice is given to the company at least fourteen days before the meeting.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c07-q001",
+      "chapter": 7,
+      "topic": "Declaration and Payment of Dividend",
+      "question_text": "Which of the following can be a source of dividend under section 123(1)?",
+      "options": {
+        "A": "Securities premium account",
+        "B": "Profits of the current financial year arrived at after providing for depreciation as per Schedule II",
+        "C": "Surplus arising on revaluation of fixed assets",
+        "D": "Unrealised gains on measuring investments at fair value"
+      },
+      "correct": "B",
+      "explanation": "Section 123(1) allows dividend out of the current year's profits after depreciation, out of undistributed profits of previous years after depreciation, or both. It may also be paid out of money provided by the Central or State Government under a guarantee. Unrealised and notional gains, revaluation gains and fair value changes are excluded when computing profits. The securities premium account is capital in nature.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-law-c07-q002",
+      "chapter": 7,
+      "topic": "Declaration and Payment of Dividend",
+      "question_text": "Under section 123(4), the amount of dividend declared, including interim dividend, must be deposited in a separate account with a scheduled bank within:",
+      "options": {
+        "A": "Fifteen days from the date of the AGM notice",
+        "B": "Seven days from the date of declaration",
+        "C": "Five days from the date of declaration",
+        "D": "Thirty days from the date of declaration"
+      },
+      "correct": "C",
+      "explanation": "Section 123(4) requires the amount of dividend, including interim dividend, to be deposited in a scheduled bank in a separate account within five days from the date of declaration. Payment to shareholders is then made from this account.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-law-c07-q003",
+      "chapter": 7,
+      "topic": "Declaration and Payment of Dividend",
+      "question_text": "A dividend declared by Sapphire Ltd has not been paid or claimed within thirty days of declaration. Under section 124(1), the unpaid amount must be transferred to the Unpaid Dividend Account within:",
+      "options": {
+        "A": "Five days from the expiry of the thirty days",
+        "B": "Thirty days from the expiry of the thirty days",
+        "C": "Ninety days from the date of declaration",
+        "D": "Seven days from the expiry of the thirty days"
+      },
+      "correct": "D",
+      "explanation": "Section 124(1) requires a company to transfer the total unpaid or unclaimed dividend to a special account called the Unpaid Dividend Account. The account must be opened in a scheduled bank within seven days from the expiry of the thirty-day period. Under section 124(2), a statement of the unpaid amounts must be placed on the company's website within ninety days of the transfer.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c07-q004",
+      "chapter": 7,
+      "topic": "Declaration and Payment of Dividend",
+      "question_text": "Under section 124(5), money in the Unpaid Dividend Account that remains unpaid or unclaimed must be transferred, with interest accrued, to the Investor Education and Protection Fund after a period of:",
+      "options": {
+        "A": "Five years from the date of transfer to the Unpaid Dividend Account",
+        "B": "Seven years from the date of transfer to the Unpaid Dividend Account",
+        "C": "Ten years from the date of declaration",
+        "D": "Three years from the date of declaration"
+      },
+      "correct": "B",
+      "explanation": "Section 124(5) requires any money in the Unpaid Dividend Account that is unpaid or unclaimed for seven years from the date of transfer to be transferred, with interest accrued, to the IEPF established under section 125. Under section 124(6), shares on which dividend has been unpaid or unclaimed for seven consecutive years are also transferred to the IEPF.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-law-c07-q005",
+      "chapter": 7,
+      "topic": "Declaration and Payment of Dividend",
+      "question_text": "Emerald Ltd declared dividends of 10%, 12% and 8% in the three immediately preceding financial years. It has incurred a loss in the current financial year up to the end of the quarter immediately before the date on which the Board proposes an interim dividend. What is the maximum rate of interim dividend it can declare?",
+      "options": {
+        "A": "10%",
+        "B": "8%",
+        "C": "No interim dividend can be declared",
+        "D": "12%"
+      },
+      "correct": "A",
+      "explanation": "The proviso to section 123(3) states that where a company has incurred a loss in the current year up to the end of the quarter immediately preceding the declaration, interim dividend cannot exceed the average of the dividends declared in the immediately preceding three financial years. Average = (10 + 12 + 8) / 3 = 30 / 3 = 10%. The loss does not prohibit interim dividend outright.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-law-c07-q006",
+      "chapter": 7,
+      "topic": "Declaration and Payment of Dividend",
+      "question_text": "Under section 123(6), a company that has failed to comply with the provisions of sections 73 and 74 (acceptance and repayment of deposits) shall not declare dividend on:",
+      "options": {
+        "A": "Its equity shares only if the Tribunal so orders",
+        "B": "Any class of shares for five years after the failure",
+        "C": "Its preference shares only",
+        "D": "Its equity shares, so long as the failure continues"
+      },
+      "correct": "D",
+      "explanation": "Section 123(6) provides that a company that fails to comply with sections 73 and 74 shall not, so long as the failure continues, declare any dividend on its equity shares. The prohibition protects depositors by stopping profits being paid out while deposits remain in default.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c07-q007",
+      "chapter": 7,
+      "topic": "Declaration and Payment of Dividend",
+      "question_text": "Under section 127, a director is NOT liable for failure to pay a declared dividend within thirty days in which of the following cases?",
+      "options": {
+        "A": "The company decided to use the funds for working capital",
+        "B": "The Board decided to postpone payment until the next quarter",
+        "C": "The bank account of the company had insufficient balance due to other payments",
+        "D": "There is a dispute regarding the right to receive the dividend"
+      },
+      "correct": "D",
+      "explanation": "The proviso to section 127 lists cases where no offence is committed. These are: dividend could not be paid because of the operation of law; the shareholder's directions could not be complied with; there is a dispute about the right to receive the dividend; the dividend was lawfully adjusted against a sum due from the shareholder; or the failure was not due to any default of the company. Diverting the funds or lacking money are not excuses.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-law-c07-q008",
+      "chapter": 7,
+      "topic": "Declaration and Payment of Dividend",
+      "question_text": "Under the fourth proviso to section 123(1), before declaring dividend for the current financial year a company must:",
+      "options": {
+        "A": "Redeem all outstanding preference shares",
+        "B": "Transfer at least ten per cent of profits to a general reserve",
+        "C": "Obtain the approval of the Registrar for the rate of dividend",
+        "D": "Set off carried over previous losses and depreciation not provided in previous years against the profit of the current year"
+      },
+      "correct": "D",
+      "explanation": "The fourth proviso to section 123(1) requires carried over previous losses and depreciation not provided in previous years to be set off against the current year's profit before any dividend is declared for that year. There is no compulsory transfer to reserves; the company may transfer such percentage of profits as it thinks appropriate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c07-q009",
+      "chapter": 7,
+      "topic": "Declaration and Payment of Dividend",
+      "question_text": "Under section 126, where an instrument of transfer of shares has been delivered to the company but the transfer has not yet been registered, the company shall:",
+      "options": {
+        "A": "Cancel the dividend on those shares",
+        "B": "Pay the dividend to the transferor immediately",
+        "C": "Pay the dividend to the transferee named in the instrument of transfer",
+        "D": "Transfer the dividend relating to those shares to the Unpaid Dividend Account, unless the registered holder authorises in writing payment to the transferee"
+      },
+      "correct": "D",
+      "explanation": "Section 126 provides that where a transfer instrument has been delivered but the transfer is not registered, the company shall transfer the dividend on those shares to the Unpaid Dividend Account under section 124. This applies unless the registered holder authorises the company in writing to pay it to the transferee. Rights and bonus shares on those shares are similarly kept in abeyance.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c08-q001",
+      "chapter": 8,
+      "topic": "Accounts of Companies",
+      "question_text": "Under section 128(5), a company must preserve its books of account, together with relevant vouchers, in good order for a period of not less than:",
+      "options": {
+        "A": "Eight financial years immediately preceding a financial year",
+        "B": "Six financial years immediately preceding a financial year",
+        "C": "Ten financial years immediately preceding a financial year",
+        "D": "Five financial years immediately preceding a financial year"
+      },
+      "correct": "A",
+      "explanation": "Section 128(5) requires the books of account of every company relating to a period of not less than eight financial years immediately preceding a financial year to be kept in good order. Where an investigation has been ordered, the Central Government may direct that they be kept for a longer period.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-law-c08-q002",
+      "chapter": 8,
+      "topic": "Accounts of Companies",
+      "question_text": "Under section 128(1), the Board of Rose Ltd decides to keep the books of account at a place in India other than the registered office. The company must:",
+      "options": {
+        "A": "Obtain the approval of the Central Government",
+        "B": "Obtain a special resolution of members before shifting the books",
+        "C": "File with the Registrar a notice in writing giving the full address of that place within seven days of the Board's decision",
+        "D": "Keep the books outside the registered office only in electronic form"
+      },
+      "correct": "C",
+      "explanation": "The proviso to section 128(1) allows the Board to decide that the books of account be kept at another place in India. The company must file a notice in writing with the Registrar giving the full address of that place within seven days of the decision. The books must be kept on an accrual basis and according to the double entry system.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c08-q003",
+      "chapter": 8,
+      "topic": "Accounts of Companies",
+      "question_text": "Under section 2(40), which of the following companies may exclude the cash flow statement from its financial statements?",
+      "options": {
+        "A": "A company that has issued debentures to the public",
+        "B": "A public company with net worth above the threshold under section 135",
+        "C": "A listed company",
+        "D": "A small company"
+      },
+      "correct": "D",
+      "explanation": "The proviso to section 2(40) permits a One Person Company, a small company, a dormant company and a private company that is a start-up to omit the cash flow statement. A listed company or a large public company must include it.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c08-q004",
+      "chapter": 8,
+      "topic": "Accounts of Companies",
+      "question_text": "Under section 129(3), a company must prepare consolidated financial statements in addition to its own financial statements where it has:",
+      "options": {
+        "A": "Borrowings from banks and financial institutions",
+        "B": "More than two hundred members",
+        "C": "One or more subsidiaries or associate companies",
+        "D": "Branches located outside India"
+      },
+      "correct": "C",
+      "explanation": "Section 129(3) requires a company with one or more subsidiaries or associate companies to prepare a consolidated financial statement of the company and all its subsidiaries and associates in the same form and manner as its own. The Explanation clarifies that 'subsidiary' includes associate company and joint venture.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-law-c08-q005",
+      "chapter": 8,
+      "topic": "Accounts of Companies",
+      "question_text": "The directors of Iris Ltd discover that its financial statements for one of the three preceding financial years did not comply with section 129. Under section 131, they may prepare revised financial statements:",
+      "options": {
+        "A": "Without any approval, as often as necessary",
+        "B": "Only on an order of the Central Government, for any of the last eight years",
+        "C": "After passing a special resolution, for any earlier financial year",
+        "D": "After obtaining the approval of the Tribunal, and not more than once in a financial year"
+      },
+      "correct": "D",
+      "explanation": "Section 131(1) allows directors to prepare revised financial statements or a revised Board's report for any of the three preceding financial years where they do not comply with section 129 or 134. This requires the Tribunal's approval on an application in the prescribed form. The proviso limits revision to once in a financial year. Reopening of accounts on the application of authorities is dealt with separately under section 130.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-law-c08-q006",
+      "chapter": 8,
+      "topic": "Accounts of Companies",
+      "question_text": "Under section 130, the books of account of a company can be reopened and its financial statements recast:",
+      "options": {
+        "A": "By a special resolution of members, for any period",
+        "B": "By the Board of directors on discovering any arithmetical error",
+        "C": "Only on an order of the Registrar, for the last three financial years",
+        "D": "Only on an order of a court of competent jurisdiction or the Tribunal, and not for a period earlier than eight financial years immediately preceding the current year"
+      },
+      "correct": "D",
+      "explanation": "Section 130(1) allows reopening only on an order of a court or the Tribunal. The application may be made by the Central Government, the income-tax authorities, SEBI, any other statutory regulatory body or any person concerned. It must show that the accounts were prepared fraudulently or that the affairs were mismanaged, casting doubt on the reliability of the statements. Section 130(2) bars reopening for a period earlier than eight financial years preceding the current year.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c08-q007",
+      "chapter": 8,
+      "topic": "Accounts of Companies",
+      "question_text": "As per section 134(1), the financial statements of a company that has a managing director, CFO and company secretary (and no Board-authorised chairperson) must be approved by the Board and signed by:",
+      "options": {
+        "A": "The company secretary alone",
+        "B": "Any one director and the statutory auditor",
+        "C": "All the directors and the CFO",
+        "D": "Two directors, one of whom is the managing director, and the CFO and the company secretary"
+      },
+      "correct": "D",
+      "explanation": "Section 134(1) requires the financial statements to be approved by the Board before they are signed. They are signed at least by the chairperson, where authorised by the Board, or by two directors of whom one is the managing director, if any. The CEO, CFO and company secretary also sign, wherever appointed. For an OPC, one director signs. The auditor signs his own report, not the statements.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c08-q008",
+      "chapter": 8,
+      "topic": "Accounts of Companies",
+      "question_text": "Verdant Ltd is required to comply with section 135. Its net profits computed under section 198 for the three immediately preceding financial years were ₹12 crore, ₹15 crore and ₹18 crore. What is the minimum CSR expenditure for the current financial year?",
+      "options": {
+        "A": "₹24 lakh",
+        "B": "₹90 lakh",
+        "C": "₹30 lakh",
+        "D": "₹36 lakh"
+      },
+      "correct": "C",
+      "explanation": "Section 135(5) requires the Board to ensure that the company spends at least two per cent of its average net profits made during the three immediately preceding financial years. Average = (12 + 15 + 18) / 3 = ₹15 crore. CSR obligation = 2% x ₹15 crore = ₹0.30 crore = ₹30 lakh. Using only the latest year's profit would give ₹36 lakh, which is wrong.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-law-c08-q009",
+      "chapter": 8,
+      "topic": "Accounts of Companies",
+      "question_text": "Under section 137(1), a company must file a copy of its adopted financial statements with the Registrar within:",
+      "options": {
+        "A": "Seven days of the date of the Board meeting",
+        "B": "Six months from the close of the financial year",
+        "C": "Thirty days of the date of the annual general meeting",
+        "D": "Sixty days of the date of the annual general meeting"
+      },
+      "correct": "C",
+      "explanation": "Section 137(1) requires a copy of the financial statements, including consolidated statements, adopted at the AGM to be filed with the Registrar within thirty days of the date of the AGM. A One Person Company files within 180 days from the close of the financial year. Note the difference from the annual return, which is filed within sixty days of the AGM.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-law-c08-q010",
+      "chapter": 8,
+      "topic": "Accounts of Companies",
+      "question_text": "Under section 136(1), a copy of the financial statements with the auditor's report must be sent to every member at least ______ before the date of the general meeting at which they are to be laid.",
+      "options": {
+        "A": "Seven days",
+        "B": "Thirty days",
+        "C": "Twenty-one days",
+        "D": "Fourteen days"
+      },
+      "correct": "C",
+      "explanation": "Section 136(1) requires a copy of the financial statements, including consolidated statements, the auditor's report and every other document required to be attached, to be sent to every member, trustee for debenture-holders and other persons entitled. They must be sent not less than twenty-one days before the meeting. A shorter period is permitted where the AGM is called at shorter notice.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-law-c09-q001",
+      "chapter": 9,
+      "topic": "Audit and Auditors",
+      "question_text": "Under section 139(1), the auditor appointed at the first annual general meeting holds office:",
+      "options": {
+        "A": "For a fixed period of three financial years",
+        "B": "Till the conclusion of the next annual general meeting only",
+        "C": "From the conclusion of that meeting till the conclusion of its sixth annual general meeting",
+        "D": "Till the auditor resigns or is removed, without any time limit"
+      },
+      "correct": "C",
+      "explanation": "Section 139(1) requires every company, at its first AGM, to appoint an individual or a firm as auditor to hold office from the conclusion of that meeting till the conclusion of its sixth AGM. Thereafter, the same applies at every sixth meeting. The auditor's written consent and eligibility certificate must be obtained, and the company must inform the Registrar.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-law-c09-q002",
+      "chapter": 9,
+      "topic": "Audit and Auditors",
+      "question_text": "An audit firm has been the auditor of Vertex Ltd, a listed company, for two consecutive terms of five years each. Under section 139(2), the firm:",
+      "options": {
+        "A": "Can never again be appointed as auditor of Vertex Ltd",
+        "B": "Cannot be reappointed as auditor of Vertex Ltd for five years from the completion of its second term",
+        "C": "Can be reappointed immediately for one more term of five years by special resolution",
+        "D": "Can be reappointed after a cooling-off period of three years"
+      },
+      "correct": "B",
+      "explanation": "Section 139(2)(b) prohibits a listed company, and other prescribed companies, from appointing an audit firm for more than two terms of five consecutive years. The firm is not eligible for reappointment for five years from the completion of its term. An individual auditor is limited to one term of five consecutive years, with the same five-year cooling-off period.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-law-c09-q003",
+      "chapter": 9,
+      "topic": "Audit and Auditors",
+      "question_text": "Fern Ltd is a non-government company. Under section 139(6), its first auditor must be appointed by the Board within thirty days of registration. If the Board fails to do so, the members must appoint the first auditor:",
+      "options": {
+        "A": "Within ninety days at an extraordinary general meeting",
+        "B": "Within thirty days at an extraordinary general meeting",
+        "C": "At the first annual general meeting",
+        "D": "Within sixty days, after the Comptroller and Auditor-General is consulted"
+      },
+      "correct": "A",
+      "explanation": "Under section 139(6), the first auditor of a non-government company is appointed by the Board within thirty days of registration. If the Board fails, it must inform the members, who appoint the auditor within ninety days at an extraordinary general meeting. The first auditor holds office till the conclusion of the first AGM.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c09-q004",
+      "chapter": 9,
+      "topic": "Audit and Auditors",
+      "question_text": "The auditor of Willow Ltd (not audited by the CAG) resigned mid-term. Under section 139(8), the casual vacancy:",
+      "options": {
+        "A": "Is filled by the Registrar within thirty days",
+        "B": "Is filled by the Board within thirty days, and the appointment must also be approved by the company at a general meeting convened within three months of the Board's recommendation",
+        "C": "Is filled by the Board, and no approval of members is required",
+        "D": "Must be filled by members at the next AGM only"
+      },
+      "correct": "B",
+      "explanation": "Section 139(8)(i) provides that a casual vacancy in a company not audited by the CAG is filled by the Board within thirty days. If the vacancy arises from the auditor's resignation, the appointment must also be approved by the company at a general meeting convened within three months of the Board's recommendation. The auditor holds office till the conclusion of the next AGM.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c09-q005",
+      "chapter": 9,
+      "topic": "Audit and Auditors",
+      "question_text": "Under section 140(1), an auditor appointed under section 139 may be removed from office before the expiry of his term only by:",
+      "options": {
+        "A": "An order of the Registrar on a complaint by members",
+        "B": "An ordinary resolution of the company passed with special notice",
+        "C": "A resolution of the Board of directors",
+        "D": "A special resolution of the company, after obtaining the previous approval of the Central Government"
+      },
+      "correct": "D",
+      "explanation": "Section 140(1) requires a special resolution of the company after obtaining the previous approval of the Central Government before an auditor can be removed during his term. The auditor must be given a reasonable opportunity of being heard. Removing an auditor at the end of the term, by not reappointing him, needs special notice under section 140(4).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-law-c09-q006",
+      "chapter": 9,
+      "topic": "Audit and Auditors",
+      "question_text": "Which of the following is eligible for appointment as auditor of a company under section 141?",
+      "options": {
+        "A": "A private company whose directors are all chartered accountants",
+        "B": "A chartered accountant who is in full-time employment with another company",
+        "C": "A chartered accountant who is a full-time employee of the company",
+        "D": "A limited liability partnership registered under the LLP Act, 2008, in which the partners who sign are chartered accountants"
+      },
+      "correct": "D",
+      "explanation": "Section 141(1) allows a firm, including an LLP, to be appointed by its name if a majority of its partners practising in India are qualified; only chartered accountant partners may act and sign. Section 141(3)(a) disqualifies a body corporate other than an LLP. An officer or employee of the company, and a person in full-time employment elsewhere, are disqualified under section 141(3)(b) and (g).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c09-q007",
+      "chapter": 9,
+      "topic": "Audit and Auditors",
+      "question_text": "Under section 141(3)(g), a chartered accountant is disqualified from being appointed auditor of a company if, at the date of appointment, he is:",
+      "options": {
+        "A": "Holding a certificate of practice for less than five years",
+        "B": "Holding appointment as auditor of more than twenty companies, counted as provided in that clause",
+        "C": "Auditor of any other company in the same industry",
+        "D": "Holding appointment as auditor of more than ten companies of any kind"
+      },
+      "correct": "B",
+      "explanation": "Section 141(3)(g) disqualifies a person who is in full-time employment elsewhere, or a person or partner of a firm who already holds appointment as auditor of more than twenty companies. Certain categories of companies are excluded from this count by the clause. There is no prohibition on auditing competitors, and no minimum years of practice under the Act.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-law-c09-q008",
+      "chapter": 9,
+      "topic": "Audit and Auditors",
+      "question_text": "Under section 144, which of the following services can a company's statutory auditor provide to it, with approval of the Board or audit committee?",
+      "options": {
+        "A": "Representation of the company in income-tax assessment proceedings",
+        "B": "Investment advisory services",
+        "C": "Internal audit",
+        "D": "Design and implementation of a financial information system"
+      },
+      "correct": "A",
+      "explanation": "Section 144 lists services an auditor cannot provide directly or indirectly to the company, its holding company or subsidiary. These are accounting and book-keeping, internal audit, design and implementation of financial information systems, actuarial services, investment advisory, investment banking, outsourced financial services, management services and other prescribed services. Taxation representation is not in the list, so it is permitted with the approval of the Board or audit committee.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c09-q009",
+      "chapter": 9,
+      "topic": "Audit and Auditors",
+      "question_text": "Under section 143(1), the auditor of a company has the right of access to the books of account and vouchers of the company:",
+      "options": {
+        "A": "Only on giving seven days' written notice to the company",
+        "B": "At all times, whether kept at the registered office or elsewhere",
+        "C": "Only with the permission of the Board",
+        "D": "Only during the period of the statutory audit"
+      },
+      "correct": "B",
+      "explanation": "Section 143(1) gives every auditor a right of access at all times to the books of account and vouchers of the company, wherever kept. The auditor may also require from the officers such information and explanations as he considers necessary for his duties.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-law-c09-q010",
+      "chapter": 9,
+      "topic": "Audit and Auditors",
+      "question_text": "Under section 148(3), which of the following persons cannot be appointed to conduct the cost audit of a company?",
+      "options": {
+        "A": "The statutory auditor of the company appointed under section 139",
+        "B": "A cost accountant in practice who is not otherwise disqualified",
+        "C": "A cost accountant who audited the cost records of the company in the previous year",
+        "D": "A firm of cost accountants"
+      },
+      "correct": "A",
+      "explanation": "Section 148(3) requires the cost audit to be conducted by a cost accountant appointed by the Board. It expressly provides that no person appointed under section 139 as the company's auditor shall be appointed to audit its cost records. This keeps the financial and cost audits independent.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c09-q011",
+      "chapter": 9,
+      "topic": "Audit and Auditors",
+      "question_text": "During the audit of Maple Ltd, the auditor has reason to believe that an offence of fraud involving an amount above the threshold prescribed under section 143(12) is being committed by its employees. The auditor must report the matter to:",
+      "options": {
+        "A": "The Registrar of Companies only",
+        "B": "The Central Government, within the prescribed time and manner",
+        "C": "The police, with a copy to the Board",
+        "D": "The members at the next annual general meeting only"
+      },
+      "correct": "B",
+      "explanation": "Section 143(12) requires an auditor who has reason to believe that an offence of fraud is being or has been committed by the company's officers or employees to report it. For fraud above the prescribed amount, the report goes to the Central Government. Smaller frauds are reported to the audit committee or Board and disclosed in the Board's report.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-law-c10-q001",
+      "chapter": 10,
+      "topic": "Companies Incorporated Outside India",
+      "question_text": "Under section 2(42), which of the following is a 'foreign company'?",
+      "options": {
+        "A": "A company incorporated outside India that has a place of business in India, whether by itself, through an agent, physically or through electronic mode, and conducts business activity in India",
+        "B": "A company incorporated in India that has a branch outside India",
+        "C": "Any company listed on a stock exchange outside India",
+        "D": "A company incorporated in India whose shares are held entirely by foreign nationals"
+      },
+      "correct": "A",
+      "explanation": "Section 2(42) defines a foreign company as a company or body corporate incorporated outside India which has a place of business in India by itself or through an agent, physically or through electronic mode, and conducts any business activity in India in any other manner. A company incorporated in India is never a foreign company, regardless of who owns its shares.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-law-c10-q002",
+      "chapter": 10,
+      "topic": "Companies Incorporated Outside India",
+      "question_text": "Under section 379, a foreign company must comply with Chapter XXII and other prescribed provisions as if it were a company incorporated in India where:",
+      "options": {
+        "A": "Not less than fifty per cent of its paid-up share capital is held by one or more citizens of India or companies or bodies corporate incorporated in India",
+        "B": "Its turnover from business in India exceeds its turnover outside India",
+        "C": "More than twenty-five per cent of its directors are citizens of India",
+        "D": "Its principal place of business is in India"
+      },
+      "correct": "A",
+      "explanation": "Section 379 applies where not less than fifty per cent of the paid-up share capital (equity, preference or both) of a foreign company is held by citizens of India and/or companies or bodies corporate incorporated in India, singly or in aggregate. Such a company must then comply with the Chapter and other prescribed provisions for its business in India as if it were an Indian company.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c10-q003",
+      "chapter": 10,
+      "topic": "Companies Incorporated Outside India",
+      "question_text": "Under section 380(1), a foreign company must deliver the prescribed documents to the Registrar for registration within:",
+      "options": {
+        "A": "Six months of commencing business in India",
+        "B": "Thirty days of the close of its first financial year",
+        "C": "Thirty days of the establishment of its place of business in India",
+        "D": "Sixty days of the establishment of its place of business in India"
+      },
+      "correct": "C",
+      "explanation": "Section 380(1) requires every foreign company to deliver documents to the Registrar within thirty days of establishing a place of business in India. These include a certified copy of its charter or memorandum and articles, its registered office address, a list of directors and secretary, and details of persons resident in India authorised to accept service. Any alteration must be filed within thirty days under section 380(3).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-law-c10-q004",
+      "chapter": 10,
+      "topic": "Companies Incorporated Outside India",
+      "question_text": "Which of the following is a requirement of section 382 for a foreign company?",
+      "options": {
+        "A": "It must add the word 'India' to the end of its name",
+        "B": "It must keep its books of account only at its head office outside India",
+        "C": "It must appoint an Indian citizen as its chairman",
+        "D": "It must display its name and the country in which it is incorporated outside every office or place of business in India, in English and in a local language in use"
+      },
+      "correct": "D",
+      "explanation": "Section 382 requires every foreign company to conspicuously display, outside every office or place where it carries on business in India, its name and the country of incorporation, in English and in the local language in use there. The name and country must also appear on its business letters, bill-heads and letter paper, and in all notices and official publications. If members' liability is limited, that fact must also be stated.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c10-q005",
+      "chapter": 10,
+      "topic": "Companies Incorporated Outside India",
+      "question_text": "A foreign company has not filed the documents required under Chapter XXII. It entered into a supply contract in India and now wishes to sue the buyer for non-payment. Under section 393:",
+      "options": {
+        "A": "The contract is valid, but the company cannot bring a suit in respect of it until it complies with the applicable provisions",
+        "B": "The contract is void because of the non-compliance",
+        "C": "The contract becomes voidable at the option of the buyer",
+        "D": "The company can sue freely, since non-compliance only attracts a fine"
+      },
+      "correct": "A",
+      "explanation": "Section 393 provides that failure to comply with Chapter XXII does not affect the validity of any contract, dealing or transaction, or the company's liability to be sued. However, the company cannot bring any suit, claim any set-off, make a counter-claim or start any legal proceeding in respect of it until it has complied with the provisions applicable to it.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-law-c10-q006",
+      "chapter": 10,
+      "topic": "Companies Incorporated Outside India",
+      "question_text": "For the purposes of Chapter XXII, section 386 provides that the expression 'place of business' includes:",
+      "options": {
+        "A": "Only a registered office of an Indian subsidiary",
+        "B": "Only a manufacturing facility in India",
+        "C": "A share transfer or registration office",
+        "D": "Any place where its goods are sold by independent dealers"
+      },
+      "correct": "C",
+      "explanation": "Section 386 states that 'place of business' includes a share transfer or registration office. The same section explains that 'certified' means certified as a true copy in the prescribed manner, and that 'director' includes any person in accordance with whose directions or instructions the Board of the foreign company is accustomed to act.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c11-q001",
+      "chapter": 11,
+      "topic": "The Limited Liability Partnership Act, 2008",
+      "question_text": "Under section 3 of the Limited Liability Partnership Act, 2008, a limited liability partnership is:",
+      "options": {
+        "A": "A body corporate formed and incorporated under the Act, being a legal entity separate from its partners",
+        "B": "An association of persons with no legal existence apart from its partners",
+        "C": "A company limited by guarantee registered under the Companies Act, 2013",
+        "D": "A firm registered under the Indian Partnership Act, 1932 with limited liability"
+      },
+      "correct": "A",
+      "explanation": "Section 3(1) provides that an LLP is a body corporate formed and incorporated under the LLP Act and is a legal entity separate from its partners. Section 3(2) gives it perpetual succession, and any change in partners does not affect its existence, rights or liabilities. Section 4 states that the Indian Partnership Act, 1932 does not apply to an LLP.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-law-c11-q002",
+      "chapter": 11,
+      "topic": "The Limited Liability Partnership Act, 2008",
+      "question_text": "Alpha LLP had two partners. One partner died, and the LLP continued its business with only the surviving partner for nine months. Under section 6(2), the surviving partner, who knew of the situation, is:",
+      "options": {
+        "A": "Not personally liable, as an LLP partner's liability is always limited",
+        "B": "Personally liable for all obligations of the LLP since its incorporation",
+        "C": "Liable only to the extent of his agreed contribution",
+        "D": "Personally liable for the obligations of the LLP incurred during the period after the first six months"
+      },
+      "correct": "D",
+      "explanation": "Section 6(1) requires every LLP to have at least two partners. Under section 6(2), if the number falls below two and the LLP carries on business for more than six months while so reduced, the sole partner who knows of this is personally liable. The liability covers the LLP's obligations incurred during the period after those six months.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c11-q003",
+      "chapter": 11,
+      "topic": "The Limited Liability Partnership Act, 2008",
+      "question_text": "As per section 7(1), every LLP must have at least:",
+      "options": {
+        "A": "One designated partner who is resident in India",
+        "B": "Two designated partners who are individuals, at least one of whom is resident in India",
+        "C": "Two designated partners, both of whom must be resident in India",
+        "D": "Two designated partners, who may be bodies corporate"
+      },
+      "correct": "B",
+      "explanation": "Section 7(1) requires every LLP to have at least two designated partners who are individuals, at least one of whom must be a resident in India. Where all partners are bodies corporate, or some are individuals and some bodies corporate, individuals or nominees of the bodies corporate act as designated partners.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c11-q004",
+      "chapter": 11,
+      "topic": "The Limited Liability Partnership Act, 2008",
+      "question_text": "Under section 5, which of the following is NOT capable of becoming a partner of an LLP?",
+      "options": {
+        "A": "A non-resident individual",
+        "B": "An individual who has been found to be of unsound mind by a court of competent jurisdiction",
+        "C": "A company incorporated under the Companies Act, 2013",
+        "D": "An LLP incorporated under the LLP Act, 2008"
+      },
+      "correct": "B",
+      "explanation": "Section 5 allows any individual or body corporate to be a partner. An individual is not capable if found by a competent court to be of unsound mind, is an undischarged insolvent, or has applied to be adjudicated insolvent and the application is pending. Companies and LLPs are bodies corporate, and residence is not a condition for being a partner.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-law-c11-q005",
+      "chapter": 11,
+      "topic": "The Limited Liability Partnership Act, 2008",
+      "question_text": "In the absence of an LLP agreement on the matter, the First Schedule to the LLP Act provides that the partners shall share the capital, profits and losses of the LLP:",
+      "options": {
+        "A": "Equally",
+        "B": "In the ratio of their contributions",
+        "C": "In the ratio decided by the designated partners",
+        "D": "In the ratio of the time devoted to the business"
+      },
+      "correct": "A",
+      "explanation": "Under section 23(4), where no LLP agreement exists or it is silent on a matter, the First Schedule applies. Paragraph 1 of the First Schedule provides that the mutual rights and duties of the partners are determined so that all partners are entitled to share equally in the capital, profits and losses of the LLP.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-law-c11-q006",
+      "chapter": 11,
+      "topic": "The Limited Liability Partnership Act, 2008",
+      "question_text": "Unless the LLP agreement provides otherwise, which of the following is correct under the First Schedule?",
+      "options": {
+        "A": "No person may be introduced as a partner without the consent of all the existing partners",
+        "B": "Every partner is entitled to remuneration for acting in the business",
+        "C": "A majority of partners may expel any partner without a power in the agreement",
+        "D": "A change in the nature of business can be made by a simple majority of partners"
+      },
+      "correct": "A",
+      "explanation": "The First Schedule provides that no person may be introduced as a partner without the consent of all existing partners. No partner is entitled to remuneration for acting in the business. No majority may expel a partner unless the agreement expressly gives that power. Ordinary matters are decided by a majority, but a change in the nature of business needs the consent of all partners.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c11-q007",
+      "chapter": 11,
+      "topic": "The Limited Liability Partnership Act, 2008",
+      "question_text": "In the absence of any agreement with the other partners, under section 24(1) a partner may cease to be a partner of an LLP by giving a notice in writing to the other partners of not less than:",
+      "options": {
+        "A": "Fifteen days",
+        "B": "Ninety days",
+        "C": "Thirty days",
+        "D": "Sixty days"
+      },
+      "correct": "C",
+      "explanation": "Section 24(1) states that a person may cease to be a partner in accordance with an agreement with the other partners. In the absence of an agreement, he may do so by giving a notice in writing of not less than thirty days to the other partners of his intention to resign. A person also ceases to be a partner on death, dissolution of the LLP, or on being declared of unsound mind or insolvent.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-law-c11-q008",
+      "chapter": 11,
+      "topic": "The Limited Liability Partnership Act, 2008",
+      "question_text": "Partner P of Beta LLP negligently caused a loss to a client while acting in the course of the LLP's business. Partner Q had no role in it. Under sections 27 and 28, which is correct?",
+      "options": {
+        "A": "Only Beta LLP is liable, and P cannot be made personally liable",
+        "B": "Only P is liable; the LLP is not liable for acts of its partners",
+        "C": "Beta LLP is liable to the client, P is personally liable for his own wrongful act, and Q is not personally liable merely because he is a partner",
+        "D": "Beta LLP, P and Q are all jointly and severally liable without limit"
+      },
+      "correct": "C",
+      "explanation": "Under section 27(2), an LLP is liable if a partner is liable to any person as a result of a wrongful act or omission in the course of the LLP's business or with its authority. Section 28(1) provides that a partner is not personally liable for an obligation of the LLP solely because he is a partner. Section 28(2) preserves a partner's personal liability for his own wrongful act or omission.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-law-c11-q009",
+      "chapter": 11,
+      "topic": "The Limited Liability Partnership Act, 2008",
+      "question_text": "Under section 30, where an act is carried out by an LLP or any of its partners with intent to defraud its creditors:",
+      "options": {
+        "A": "Only the LLP is liable, up to the value of its assets",
+        "B": "All partners become liable without limit, whether or not they took part in the fraud",
+        "C": "The liability of the LLP and of the partners who acted with that intent is unlimited for all or any of the debts or liabilities of the LLP",
+        "D": "The partners who acted with that intent are liable only up to their contribution"
+      },
+      "correct": "C",
+      "explanation": "Section 30(1) provides that where an act is carried out with intent to defraud creditors or for any fraudulent purpose, the liability of the LLP and of the partners who acted with that intent is unlimited for all or any of the LLP's debts. Partners who were not involved are not made liable without limit. Section 30(2) also provides punishment for those who were knowingly parties to the act.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c11-q010",
+      "chapter": 11,
+      "topic": "The Limited Liability Partnership Act, 2008",
+      "question_text": "Under section 34(2), every LLP must prepare a Statement of Account and Solvency for each financial year within:",
+      "options": {
+        "A": "Six months from the end of the financial year",
+        "B": "Nine months from the end of the financial year",
+        "C": "Thirty days from the end of the financial year",
+        "D": "Sixty days from the end of the financial year"
+      },
+      "correct": "A",
+      "explanation": "Section 34(2) requires every LLP to prepare a Statement of Account and Solvency within six months from the end of each financial year. It must be signed by the designated partners and filed with the Registrar. The annual return under section 35 is filed within sixty days of the close of the financial year.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-law-c11-q011",
+      "chapter": 11,
+      "topic": "The Limited Liability Partnership Act, 2008",
+      "question_text": "Under section 56 read with the Third Schedule, a private company may apply to convert into an LLP only if:",
+      "options": {
+        "A": "At least seventy-five per cent of its shareholders agree to become partners of the LLP",
+        "B": "There is no security interest in its assets subsisting or in force at the time of application, and the partners of the LLP will comprise all the shareholders of the company and no one else",
+        "C": "It has obtained the approval of the Tribunal and its creditors",
+        "D": "It has been in existence for at least five years"
+      },
+      "correct": "B",
+      "explanation": "The Third Schedule permits a private company to convert into an LLP only where there is no security interest in its assets subsisting or in force at the time of application. The partners of the LLP must comprise all the shareholders of the company and no one else. On conversion, the company's property, rights and liabilities vest in the LLP and the company is deemed dissolved.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-law-c12-q001",
+      "chapter": 12,
+      "topic": "The General Clauses Act, 1897 and Interpretation of Statutes",
+      "question_text": "Under section 3(42) of the General Clauses Act, 1897, the term 'person' includes:",
+      "options": {
+        "A": "Any company or association or body of individuals, whether incorporated or not",
+        "B": "Only individuals and companies registered under the Companies Act",
+        "C": "Only natural persons who have attained majority",
+        "D": "Only bodies incorporated under a Central Act"
+      },
+      "correct": "A",
+      "explanation": "Section 3(42) of the General Clauses Act provides that 'person' shall include any company or association or body of individuals, whether incorporated or not. This wide definition applies in all Central Acts and Regulations unless there is anything repugnant in the subject or context.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-law-c12-q002",
+      "chapter": 12,
+      "topic": "The General Clauses Act, 1897 and Interpretation of Statutes",
+      "question_text": "Under section 3(22) of the General Clauses Act, 1897, a thing is deemed to be done in 'good faith' where it is in fact done:",
+      "options": {
+        "A": "With due care and attention",
+        "B": "In accordance with the advice of an expert",
+        "C": "Honestly and without any negligence",
+        "D": "Honestly, whether it is done negligently or not"
+      },
+      "correct": "D",
+      "explanation": "Section 3(22) provides that a thing shall be deemed to be done in good faith where it is in fact done honestly, whether it is done negligently or not. The test is honesty, not carefulness. This contrasts with the Indian Penal Code, where good faith requires due care and attention.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c12-q003",
+      "chapter": 12,
+      "topic": "The General Clauses Act, 1897 and Interpretation of Statutes",
+      "question_text": "A notification grants a concession for goods imported 'from 1 March to 10 March'. Applying section 9 of the General Clauses Act, 1897, the concession covers:",
+      "options": {
+        "A": "Goods imported on 1 March to 9 March, both days inclusive (nine days)",
+        "B": "Goods imported on 1 March to 10 March, both days inclusive (ten days)",
+        "C": "Goods imported on 2 March to 10 March, both days inclusive (nine days)",
+        "D": "Goods imported on 2 March to 9 March, both days inclusive (eight days)"
+      },
+      "correct": "C",
+      "explanation": "Section 9 provides that the word 'from' is used to exclude the first in a series of days, and the word 'to' is used to include the last. So 1 March is excluded and 10 March is included. The concession covers 2 March to 10 March, which is 10 - 2 + 1 = 9 days.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c12-q004",
+      "chapter": 12,
+      "topic": "The General Clauses Act, 1897 and Interpretation of Statutes",
+      "question_text": "An Act under which a prosecution had already started is repealed by a new Act. The repealing Act shows no different intention. Under section 6 of the General Clauses Act, 1897:",
+      "options": {
+        "A": "The pending prosecution may be continued and any penalty imposed as if the repealing Act had not been passed",
+        "B": "The prosecution abates automatically on the date of repeal",
+        "C": "The prosecution may continue only if the repealing Act expressly saves it",
+        "D": "The prosecution must be restarted under the new Act"
+      },
+      "correct": "A",
+      "explanation": "Section 6 provides that, unless a different intention appears, the repeal of an enactment does not affect any investigation, legal proceeding or remedy regarding any right, liability, penalty or punishment incurred under it. Such proceedings may be instituted, continued or enforced as if the repealing Act had not been passed. Repeal also does not revive anything not in force when the repeal takes effect.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-law-c12-q005",
+      "chapter": 12,
+      "topic": "The General Clauses Act, 1897 and Interpretation of Statutes",
+      "question_text": "Under section 26 of the General Clauses Act, 1897, where an act or omission is an offence under two or more enactments, the offender:",
+      "options": {
+        "A": "Can be prosecuted only under the enactment passed first",
+        "B": "Can be prosecuted only under the enactment with the lesser punishment",
+        "C": "Is liable to be prosecuted and punished under either or any of them, but not punished twice for the same offence",
+        "D": "Must be prosecuted and punished under all the enactments"
+      },
+      "correct": "C",
+      "explanation": "Section 26 provides that where an act or omission constitutes an offence under two or more enactments, the offender is liable to be prosecuted and punished under either or any of them. He shall not be liable to be punished twice for the same offence, reflecting the rule against double jeopardy.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-law-c12-q006",
+      "chapter": 12,
+      "topic": "The General Clauses Act, 1897 and Interpretation of Statutes",
+      "question_text": "Under section 27 of the General Clauses Act, 1897, where a Central Act requires a document to be served by post, service is deemed to be effected by:",
+      "options": {
+        "A": "Sending the document by ordinary post, at the time of posting",
+        "B": "Handing over the document personally to the addressee only",
+        "C": "Properly addressing, pre-paying and posting by registered post a letter containing the document, at the time it would be delivered in the ordinary course of post",
+        "D": "Publishing the document in the Official Gazette"
+      },
+      "correct": "C",
+      "explanation": "Section 27 provides that, unless a different intention appears, service by post is deemed effected by properly addressing, pre-paying and posting by registered post a letter containing the document. Unless the contrary is proved, service is deemed made at the time the letter would be delivered in the ordinary course of post.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c12-q007",
+      "chapter": 12,
+      "topic": "The General Clauses Act, 1897 and Interpretation of Statutes",
+      "question_text": "Which rule of interpretation is regarded as the primary rule, requiring the words of a statute to be given their plain and ordinary meaning when they are clear and unambiguous?",
+      "options": {
+        "A": "The rule of beneficial construction",
+        "B": "The rule of harmonious construction",
+        "C": "The mischief rule",
+        "D": "The literal rule"
+      },
+      "correct": "D",
+      "explanation": "The literal rule is the primary rule of interpretation. Where the language of a statute is plain and unambiguous, the court must give effect to it whatever the consequences, because the legislature is presumed to mean what it says. Other rules are used mainly when the words are ambiguous or lead to absurdity.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-law-c12-q008",
+      "chapter": 12,
+      "topic": "The General Clauses Act, 1897 and Interpretation of Statutes",
+      "question_text": "The mischief rule of interpretation, laid down in Heydon's case, requires the court to consider four matters. Which of the following is NOT one of them?",
+      "options": {
+        "A": "What was the mischief and defect for which the common law did not provide",
+        "B": "The views of the Minister who moved the Bill, as recorded in a newspaper",
+        "C": "What remedy Parliament resolved to provide, and the true reason for the remedy",
+        "D": "What was the common law before the making of the Act"
+      },
+      "correct": "B",
+      "explanation": "Heydon's case (1584) asks the court to consider: the common law before the Act; the mischief and defect for which the common law did not provide; the remedy Parliament resolved to provide; and the true reason for the remedy. The court then adopts the construction that suppresses the mischief and advances the remedy. Newspaper reports of a Minister's views are not part of the test.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c12-q009",
+      "chapter": 12,
+      "topic": "The General Clauses Act, 1897 and Interpretation of Statutes",
+      "question_text": "A statute imposes a licence fee on 'cars, buses, lorries, vans and other vehicles'. Applying the rule of ejusdem generis, the words 'other vehicles' would most likely be read to include:",
+      "options": {
+        "A": "Every means of transport of any kind",
+        "B": "Aircraft and ships",
+        "C": "Bicycles and handcarts",
+        "D": "Motorised road vehicles similar to those listed"
+      },
+      "correct": "D",
+      "explanation": "Under the ejusdem generis rule, where general words follow specific words that form a distinct class or genus, the general words are limited to things of the same class. Cars, buses, lorries and vans form a class of motorised road vehicles. 'Other vehicles' is therefore read as other motorised road vehicles, not bicycles, aircraft or ships.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c12-q010",
+      "chapter": 12,
+      "topic": "The General Clauses Act, 1897 and Interpretation of Statutes",
+      "question_text": "The rule of interpretation under which the meaning of a doubtful word may be ascertained by reference to the meaning of words associated with it is known as:",
+      "options": {
+        "A": "Reddendo singula singulis",
+        "B": "Expressio unius est exclusio alterius",
+        "C": "Noscitur a sociis",
+        "D": "Contemporanea expositio"
+      },
+      "correct": "C",
+      "explanation": "Noscitur a sociis means 'a word is known by the company it keeps'. Where a word is capable of more than one meaning, its meaning is taken from the words with which it is associated. Ejusdem generis is a particular application of this broader rule.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-law-c12-q011",
+      "chapter": 12,
+      "topic": "The General Clauses Act, 1897 and Interpretation of Statutes",
+      "question_text": "Which of the following is an EXTERNAL aid to the interpretation of a statute?",
+      "options": {
+        "A": "An illustration appended to a section of the Act",
+        "B": "Parliamentary history, such as the statement of objects and reasons of the Bill",
+        "C": "A proviso to a section of the Act",
+        "D": "The preamble of the Act"
+      },
+      "correct": "B",
+      "explanation": "Internal aids are found within the statute itself, such as the long title, preamble, headings, marginal notes, definitions, provisos, illustrations, explanations and schedules. External aids lie outside the statute and include parliamentary history (such as the statement of objects and reasons and debates), historical facts, dictionaries, statutes in pari materia and judicial decisions.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-law-c12-q012",
+      "chapter": 12,
+      "topic": "The General Clauses Act, 1897 and Interpretation of Statutes",
+      "question_text": "Two sections of the same Act appear to conflict with each other. The court interprets them so that both are given effect as far as possible, without making either of them redundant. This is the rule of:",
+      "options": {
+        "A": "Harmonious construction",
+        "B": "Strict construction of penal statutes",
+        "C": "Literal construction",
+        "D": "Exceptional construction"
+      },
+      "correct": "A",
+      "explanation": "Under the rule of harmonious construction, provisions of a statute that appear to conflict must be read together and reconciled so that effect is given to both, as far as possible. The court avoids a reading that would make one provision a dead letter, because the legislature is presumed not to have intended an inconsistency.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c13-q001",
+      "chapter": 13,
+      "topic": "The Foreign Exchange Management Act, 1999",
+      "question_text": "The Foreign Exchange Management Act, 1999 was enacted to consolidate and amend the law relating to foreign exchange with the objective of:",
+      "options": {
+        "A": "Conserving foreign exchange by prohibiting all foreign exchange transactions",
+        "B": "Facilitating external trade and payments and promoting the orderly development and maintenance of the foreign exchange market in India",
+        "C": "Prescribing the procedure for levy of customs duty on imports",
+        "D": "Regulating the issue of securities by companies to the public"
+      },
+      "correct": "B",
+      "explanation": "The preamble of FEMA states that it is an Act to consolidate and amend the law relating to foreign exchange, with the objective of facilitating external trade and payments and promoting the orderly development and maintenance of the foreign exchange market in India. It replaced the more restrictive Foreign Exchange Regulation Act, 1973.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-law-c13-q002",
+      "chapter": 13,
+      "topic": "The Foreign Exchange Management Act, 1999",
+      "question_text": "Mr. Kunal stayed in India for 250 days during the preceding financial year. In May of the current financial year he left India to take up employment in Dubai. His residential status under section 2(v) of FEMA from the date of his departure is:",
+      "options": {
+        "A": "Person resident in India for the whole current financial year, since he stayed more than 182 days in the preceding year",
+        "B": "Person resident in India, since residential status changes only from the next financial year",
+        "C": "Person resident in India until he has stayed abroad for 182 days",
+        "D": "Person resident outside India, as a person who goes out of India for taking up employment outside India is excluded"
+      },
+      "correct": "D",
+      "explanation": "Under section 2(v)(i), a person residing in India for more than 182 days in the preceding financial year is resident, but this excludes a person who has gone out of India for or on taking up employment outside India. The exclusion applies from the time he leaves. So Mr. Kunal becomes a person resident outside India from his departure, even though he stayed 250 days in the preceding year.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-law-c13-q003",
+      "chapter": 13,
+      "topic": "The Foreign Exchange Management Act, 1999",
+      "question_text": "Ms. Laura, a foreign national, came to India purely on a long holiday and stayed for 200 days during the preceding financial year. She has no employment or business in India and no intention to stay for an uncertain period. Under section 2(v) of FEMA, she is:",
+      "options": {
+        "A": "A person resident in India if the Reserve Bank of India so certifies",
+        "B": "A person resident in India only for the period of her stay",
+        "C": "A person resident in India, because she stayed more than 182 days in the preceding financial year",
+        "D": "A person resident outside India, because she came to India for a purpose other than employment, business or vocation, or an intention to stay for an uncertain period"
+      },
+      "correct": "D",
+      "explanation": "Section 2(v)(i)(B) excludes from 'person resident in India' a person who has come to or stays in India otherwise than for employment, for carrying on business or vocation, or for any other purpose indicating an intention to stay for an uncertain period. A stay for a holiday falls within this exclusion. Despite 200 days in the preceding year, she is a person resident outside India.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-law-c13-q004",
+      "chapter": 13,
+      "topic": "The Foreign Exchange Management Act, 1999",
+      "question_text": "Which of the following is a current account transaction under section 2(j) of FEMA?",
+      "options": {
+        "A": "Remittance by a resident for the living expenses of his parents residing abroad",
+        "B": "Investment by a person resident in India in shares of a foreign company",
+        "C": "Purchase of a residential flat in London by a person resident in India",
+        "D": "Taking a long-term loan from a bank outside India by an Indian company"
+      },
+      "correct": "A",
+      "explanation": "Section 2(j) defines a current account transaction as one other than a capital account transaction. It includes payments in connection with foreign trade and services, interest on loans, net income from investments, and remittances for living expenses of parents, spouse and children residing abroad. Acquiring foreign property, foreign shares or long-term foreign borrowing alters assets or liabilities outside India and is a capital account transaction under section 2(e).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c13-q005",
+      "chapter": 13,
+      "topic": "The Foreign Exchange Management Act, 1999",
+      "question_text": "Under section 2(e) of FEMA, a 'capital account transaction' means a transaction which alters:",
+      "options": {
+        "A": "Only the foreign currency balances held by authorised dealers",
+        "B": "Only the exports and imports of goods and services of India",
+        "C": "The assets or liabilities, including contingent liabilities, outside India of persons resident in India, or the assets or liabilities in India of persons resident outside India",
+        "D": "Only the current income and expenditure of persons resident in India"
+      },
+      "correct": "C",
+      "explanation": "Section 2(e) defines a capital account transaction as one that alters the assets or liabilities, including contingent liabilities, outside India of persons resident in India, or in India of persons resident outside India. It includes the transactions referred to in section 6(3). Payments for trade, services and income are current account transactions.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c13-q006",
+      "chapter": 13,
+      "topic": "The Foreign Exchange Management Act, 1999",
+      "question_text": "Under section 2(n) of FEMA, 'foreign exchange' includes:",
+      "options": {
+        "A": "Drafts, travellers' cheques, letters of credit or bills of exchange expressed or drawn in Indian currency but payable in any foreign currency",
+        "B": "Indian currency notes held by a person resident outside India",
+        "C": "Special bank notes issued under section 28A of the RBI Act, 1934",
+        "D": "Gold jewellery held by a person resident in India"
+      },
+      "correct": "A",
+      "explanation": "Section 2(n) defines foreign exchange as foreign currency, including deposits, credits and balances payable in foreign currency. It also covers drafts, travellers' cheques, letters of credit or bills of exchange expressed or drawn in Indian currency but payable in foreign currency, and similar instruments drawn by banks outside India payable in Indian currency. Special bank notes are expressly excluded from 'Indian currency' by section 2(q). Gold is not foreign exchange.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c13-q007",
+      "chapter": 13,
+      "topic": "The Foreign Exchange Management Act, 1999",
+      "question_text": "Under section 2(c) of FEMA, an 'authorised person' means:",
+      "options": {
+        "A": "Any scheduled commercial bank, whether or not authorised by the RBI",
+        "B": "An authorised dealer, money changer, off-shore banking unit or any other person for the time being authorised under section 10(1) to deal in foreign exchange or foreign securities",
+        "C": "Any person holding a valid passport and visa",
+        "D": "Any exporter registered with the Director General of Foreign Trade"
+      },
+      "correct": "B",
+      "explanation": "Section 2(c) defines an authorised person as an authorised dealer, money changer, off-shore banking unit or any other person for the time being authorised under section 10(1) to deal in foreign exchange or foreign securities. Authorisation is given by the Reserve Bank of India on an application under section 10.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ca-inter-law-c13-q008",
+      "chapter": 13,
+      "topic": "The Foreign Exchange Management Act, 1999",
+      "question_text": "Mr. Sen, a person resident in India, owns a house in Singapore that he inherited from his uncle, who was a person resident outside India. Under section 6(4) of FEMA, Mr. Sen:",
+      "options": {
+        "A": "May hold the house but cannot transfer it to anyone",
+        "B": "Must sell the house and repatriate the proceeds within 180 days",
+        "C": "May hold, own, transfer or invest in the house, since it was inherited from a person resident outside India",
+        "D": "May hold the house only with the specific prior approval of the RBI"
+      },
+      "correct": "C",
+      "explanation": "Section 6(4) permits a person resident in India to hold, own, transfer or invest in foreign currency, foreign security or immovable property situated outside India if it was acquired, held or owned by him when he was resident outside India, or inherited from a person who was resident outside India. Inherited property therefore needs no further permission.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ca-inter-law-c13-q009",
+      "chapter": 13,
+      "topic": "The Foreign Exchange Management Act, 1999",
+      "question_text": "A person contravenes a provision of FEMA, and the sum involved in the contravention is quantifiable at ₹4 lakh. Under section 13(1), the maximum penalty that can be imposed (ignoring any continuing contravention) is:",
+      "options": {
+        "A": "₹8 lakh",
+        "B": "₹12 lakh",
+        "C": "₹4 lakh",
+        "D": "₹2 lakh"
+      },
+      "correct": "B",
+      "explanation": "Section 13(1) provides for a penalty of up to thrice the sum involved where the amount is quantifiable, or up to ₹2 lakh where it is not quantifiable. A continuing contravention attracts a further penalty of up to ₹5,000 per day after the first day. Maximum = 3 x ₹4 lakh = ₹12 lakh.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ca-inter-law-c13-q010",
+      "chapter": 13,
+      "topic": "The Foreign Exchange Management Act, 1999",
+      "question_text": "Under section 8 of FEMA, where any amount of foreign exchange is due or has accrued to a person resident in India, that person shall:",
+      "options": {
+        "A": "Invest it in foreign securities within ninety days",
+        "B": "Convert it into gold and bring it into India",
+        "C": "Take all reasonable steps to realise and repatriate it to India within the period and manner specified by the RBI",
+        "D": "Hold it outside India indefinitely at his option"
+      },
+      "correct": "C",
+      "explanation": "Section 8 provides that, save as otherwise provided, a person resident in India to whom any amount of foreign exchange is due or has accrued must take all reasonable steps to realise and repatriate it to India. This must be done within the period and in the manner specified by the Reserve Bank. Section 9 lists exemptions, such as possession of foreign currency or coins within limits specified by the Reserve Bank.",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -83,9 +83,9 @@
       "question_text": "The power cost of a factory is semi-variable. At an output of 6,000 units the total power cost was ₹1,38,000 and at 9,500 units it was ₹1,87,000. Using the high and low points method, the fixed component of power cost is:",
       "options": {
         "A": "₹19,894.74",
-        "B": "₹84,000",
-        "C": "₹49,000",
-        "D": "₹54,000"
+        "B": "₹84,000.00",
+        "C": "₹49,000.00",
+        "D": "₹54,000.00"
       },
       "correct": "D",
       "explanation": "Variable cost per unit = change in cost / change in output = (₹1,87,000 - ₹1,38,000) / (9,500 - 6,000) = ₹49,000 / 3,500 = ₹14. Fixed cost = ₹1,38,000 - (6,000 x ₹14) = ₹1,38,000 - ₹84,000 = ₹54,000. Check at the high level: ₹1,87,000 - (9,500 x ₹14) = ₹54,000.",
@@ -322,9 +322,9 @@
       "topic": "Employee Cost and Direct Expenses",
       "question_text": "Using the same data (standard time 40 hours, time taken 30 hours, rate ₹80 per hour), total earnings under the Rowan plan are:",
       "options": {
-        "A": "₹2,800",
-        "B": "₹3,200",
-        "C": "₹3,000",
+        "A": "₹2,800.00",
+        "B": "₹3,200.00",
+        "C": "₹3,000.00",
         "D": "₹3,466.67"
       },
       "correct": "C",
@@ -475,7 +475,7 @@
         "A": "₹196.00",
         "B": "₹203.16",
         "C": "₹88.00",
-        "D": "₹200"
+        "D": "₹200.00"
       },
       "correct": "D",
       "explanation": "Effective running hours = 2,000 x 95% = 1,900. Depreciation per hour = (₹12,00,000 - ₹60,000) / 10 / 1,900 = ₹60. Power = 15 x ₹8 = ₹120. Repairs = ₹38,000 / 1,900 = ₹20. Machine hour rate = ₹60 + ₹120 + ₹20 = ₹200. Using 2,000 hours instead of effective hours gives ₹196.00.",
@@ -563,9 +563,9 @@
       "question_text": "Budgeted factory overheads are ₹6,30,000 and budgeted prime cost is ₹21,00,000. Overheads are absorbed as a percentage of prime cost. A job has a prime cost of ₹48,000. The overheads to be absorbed by the job are:",
       "options": {
         "A": "₹20,571.43",
-        "B": "₹12,000",
-        "C": "₹62,400",
-        "D": "₹14,400"
+        "B": "₹12,000.00",
+        "C": "₹62,400.00",
+        "D": "₹14,400.00"
       },
       "correct": "D",
       "explanation": "Absorption rate = ₹6,30,000 / ₹21,00,000 x 100 = 30% of prime cost. Overheads for the job = 30% x ₹48,000 = ₹14,400.",
@@ -622,10 +622,10 @@
       "topic": "Overheads - Absorption Costing Method",
       "question_text": "Department P absorbs overheads on machine hours: budgeted overheads ₹4,50,000, budgeted machine hours 15,000. Department Q absorbs on labour hours: budgeted overheads ₹2,40,000, budgeted labour hours 20,000. A job requires 18 machine hours in P and 25 labour hours in Q. Total overheads absorbed by the job are:",
       "options": {
-        "A": "₹840",
+        "A": "₹840.00",
         "B": "₹847.71",
-        "C": "₹966",
-        "D": "₹1,290"
+        "C": "₹966.00",
+        "D": "₹1,290.00"
       },
       "correct": "A",
       "explanation": "Rate for P = ₹4,50,000 / 15,000 = ₹30 per machine hour. Rate for Q = ₹2,40,000 / 20,000 = ₹12 per labour hour. Job overheads = (18 x ₹30) + (25 x ₹12) = ₹540 + ₹300 = ₹840. A blanket rate of ₹19.71 on all 43 hours would give ₹847.71.",
@@ -682,7 +682,7 @@
       "topic": "Activity Based Costing",
       "question_text": "Total set-up costs are ₹2,40,000 for 120 set-ups during the period. Product M is produced in 18 set-ups and its output is 9,000 units. The set-up cost per unit of Product M under ABC is:",
       "options": {
-        "A": "₹4",
+        "A": "₹4.00",
         "B": "₹26.67",
         "C": "₹22.22",
         "D": "₹111.11"
@@ -698,9 +698,9 @@
       "question_text": "A company identifies three activities: Machining ₹6,00,000 (driver: 30,000 machine hours), Set-ups ₹1,50,000 (driver: 60 set-ups) and Inspection ₹90,000 (driver: 450 inspections). Product K has an output of 5,000 units and uses 4,000 machine hours, 12 set-ups and 75 inspections. The overhead cost per unit of Product K under ABC is:",
       "options": {
         "A": "₹22.40",
-        "B": "₹25",
-        "C": "₹16",
-        "D": "₹28"
+        "B": "₹25.00",
+        "C": "₹16.00",
+        "D": "₹28.00"
       },
       "correct": "B",
       "explanation": "Driver rates: machining ₹6,00,000/30,000 = ₹20 per hour; set-ups ₹1,50,000/60 = ₹2,500 per set-up; inspection ₹90,000/450 = ₹200 per inspection. Overheads of K = 4,000 x 20 + 12 x 2,500 + 75 x 200 = ₹80,000 + ₹30,000 + ₹15,000 = ₹1,25,000. Per unit = ₹1,25,000 / 5,000 = ₹25. A traditional machine-hour rate would give only ₹22.40 per unit.",
@@ -742,10 +742,10 @@
       "topic": "Activity Based Costing",
       "question_text": "Material handling costs of ₹3,60,000 are driven by 1,200 material movements. Product Z requires 85 movements during the period. The material handling cost assigned to Product Z is:",
       "options": {
-        "A": "₹25,500",
+        "A": "₹25,500.00",
         "B": "₹4,235.29",
-        "C": "₹30,600",
-        "D": "₹300"
+        "C": "₹30,600.00",
+        "D": "₹300.00"
       },
       "correct": "A",
       "explanation": "Cost driver rate = ₹3,60,000 / 1,200 = ₹300 per movement. Cost assigned to Z = 85 x ₹300 = ₹25,500.",
@@ -1168,14 +1168,14 @@
         "D": "₹5,600"
       },
       "correct": "D",
-      "explanation": "Normal loss = 10% x 6,000 = 600 units with scrap value ₹4,800. Normal output = 5,400 units. Cost per unit = (₹3,07,200 - ₹4,800) / 5,400 = ₹56. Actual output 5,500 exceeds normal output by 100.0 units, so abnormal gain = 100.0 x ₹56 = ₹5,600.",
+      "explanation": "Normal loss = 10% x 6,000 = 600 units with scrap value ₹4,800. Normal output = 5,400 units. Cost per unit = (₹3,07,200 - ₹4,800) / 5,400 = ₹56. Actual output 5,500 exceeds normal output by 100 units, so abnormal gain = 100 x ₹56 = ₹5,600.",
       "difficulty": "medium"
     },
     {
       "id": "ca-inter-cma-c09-q003",
       "chapter": 9,
       "topic": "Process and Operation Costing",
-      "question_text": "Continuing the same process (abnormal gain of 100.0 units valued at ₹56 per unit; scrap value of normal loss ₹8 per unit), the net amount credited to the Costing Profit and Loss Account from the Abnormal Gain Account is:",
+      "question_text": "Continuing the same process (abnormal gain of 100 units valued at ₹56 per unit; scrap value of normal loss ₹8 per unit), the net amount credited to the Costing Profit and Loss Account from the Abnormal Gain Account is:",
       "options": {
         "A": "₹5,600",
         "B": "₹4,800",
@@ -1183,7 +1183,7 @@
         "D": "₹800"
       },
       "correct": "B",
-      "explanation": "The Abnormal Gain Account is credited with ₹5,600 transferred from the process. Because 100.0 fewer units were lost than expected, scrap sales are lower by 100.0 x ₹8 = ₹800, which is debited to the Abnormal Gain Account. The net gain transferred to the Costing Profit and Loss Account = ₹5,600 - ₹800 = ₹4,800.",
+      "explanation": "The Abnormal Gain Account is credited with ₹5,600 transferred from the process. Because 100 fewer units were lost than expected, scrap sales are lower by 100 x ₹8 = ₹800, which is debited to the Abnormal Gain Account. The net gain transferred to the Costing Profit and Loss Account = ₹5,600 - ₹800 = ₹4,800.",
       "difficulty": "hard"
     },
     {
@@ -1222,8 +1222,8 @@
       "topic": "Process and Operation Costing",
       "question_text": "Under the FIFO method, equivalent units for conversion in the current period are 16,800 and conversion costs incurred in the current period are ₹5,04,000. The cost per equivalent unit for conversion is:",
       "options": {
-        "A": "₹30",
-        "B": "₹28",
+        "A": "₹30.00",
+        "B": "₹28.00",
         "C": "₹31.50",
         "D": "₹25.20"
       },
@@ -1298,9 +1298,9 @@
       "question_text": "Opening WIP of 1,000 units (100% material, 50% conversion) had costs of material ₹30,000 and conversion ₹15,000. During the month 9,000 units were introduced; current costs were material ₹2,70,000 and conversion ₹3,25,400. 8,000 units were completed and 2,000 units remained in closing WIP (100% material, 60% conversion). Using the weighted average method, the value of closing WIP is:",
       "options": {
         "A": "₹1,04,882.76",
-        "B": "₹1,04,400",
-        "C": "₹1,34,000",
-        "D": "₹97,000"
+        "B": "₹1,04,400.00",
+        "C": "₹1,34,000.00",
+        "D": "₹97,000.00"
       },
       "correct": "B",
       "explanation": "Material: equivalent units = 8,000 + 2,000 = 10,000; cost = ₹30,000 + ₹2,70,000 = ₹3,00,000; rate = ₹30. Conversion: equivalent units = 8,000 + 2,000 x 60% = 9,200; cost = ₹15,000 + ₹3,25,400 = ₹3,40,400; rate = ₹37. Closing WIP = 2,000 x ₹30 + 1,200 x ₹37 = ₹60,000 + ₹44,400 = ₹1,04,400.",
@@ -1327,9 +1327,9 @@
       "topic": "Joint Products and By-Products",
       "question_text": "Using the same output (P 6,000 kg, Q 10,000 kg) and joint cost of ₹4,80,000, P can be sold at the split-off point for ₹50 per kg and Q for ₹45 per kg. Under the sales value at split-off method, the joint cost apportioned to P is:",
       "options": {
-        "A": "₹1,92,000",
-        "B": "₹1,80,000",
-        "C": "₹2,88,000",
+        "A": "₹1,92,000.00",
+        "B": "₹1,80,000.00",
+        "C": "₹2,88,000.00",
         "D": "₹2,52,631.58"
       },
       "correct": "A",
@@ -1342,8 +1342,8 @@
       "topic": "Joint Products and By-Products",
       "question_text": "Joint costs of ₹3,90,000 produce 6,000 kg of P and 10,000 kg of Q, neither of which is saleable at split-off. After further processing, P sells at ₹75 per kg (further cost ₹90,000) and Q sells at ₹54 per kg (further cost ₹1,20,000). Using the net realisable value method, the joint cost apportioned to Q is:",
       "options": {
-        "A": "₹2,10,000",
-        "B": "₹1,80,000",
+        "A": "₹2,10,000.00",
+        "B": "₹1,80,000.00",
         "C": "₹2,12,727.27",
         "D": "₹2,43,750.00"
       },
@@ -1507,10 +1507,10 @@
       "topic": "Service Costing",
       "question_text": "A hotel has 120 rooms with an average occupancy of 75% and is open 360 days a year. Total annual cost is ₹1,94,40,000. The cost per room-day occupied is:",
       "options": {
-        "A": "₹450",
+        "A": "₹450.00",
         "B": "₹591.78",
-        "C": "₹750",
-        "D": "₹600"
+        "C": "₹750.00",
+        "D": "₹600.00"
       },
       "correct": "D",
       "explanation": "Room-days occupied = 120 x 75% x 360 = 32,400. Cost per room-day = ₹1,94,40,000 / 32,400 = ₹600. Ignoring occupancy would give ₹450, which understates the cost of rooms actually let.",
@@ -1764,7 +1764,7 @@
       "options": {
         "A": "₹9,58,333.33",
         "B": "₹7,41,666.67",
-        "C": "₹17,00,000",
+        "C": "₹17,00,000.00",
         "D": "₹5,36,842.11"
       },
       "correct": "C",
@@ -1824,7 +1824,7 @@
       "options": {
         "A": "Make the component, saving ₹1,20,000",
         "B": "Buy the component, saving ₹1,30,000",
-        "C": "Make the component, saving -₹1,30,000",
+        "C": "Make the component, saving ₹3,70,000",
         "D": "Buy the component, saving ₹1,20,000"
       },
       "correct": "A",
