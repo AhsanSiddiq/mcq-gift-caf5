@@ -952,12 +952,12 @@
       "topic": "Fraud, laws and regulations and audit documentation",
       "question_text": "Under ISA 230 and related quality management standards, what is the usual time limit for assembling the final audit file after the date of the auditor's report?",
       "options": {
-        "A": "12 months",
-        "B": "30 days",
-        "C": "60 days",
-        "D": "90 days"
+        "A": "30 days",
+        "B": "60 days",
+        "C": "90 days",
+        "D": "365 days"
       },
-      "correct": "C",
+      "correct": "B",
       "explanation": "Assembly of the final audit file is an administrative process that should normally be completed within 60 days of the date of the auditor's report. No new audit procedures should be performed during assembly, and documentation is then retained for a period that is commonly at least five years.",
       "difficulty": "easy"
     },
@@ -983,11 +983,11 @@
       "question_text": "Which of the following is NOT one of the components of an entity's system of internal control under ISA 315?",
       "options": {
         "A": "The control environment",
-        "B": "The external auditor's tests of controls",
-        "C": "The entity's risk assessment process",
+        "B": "The entity's risk assessment process",
+        "C": "The external auditor's tests of controls",
         "D": "Control activities"
       },
-      "correct": "B",
+      "correct": "C",
       "explanation": "The components are the control environment, the entity's risk assessment process, the entity's process to monitor the system of internal control, the information system and communication, and control activities. The external auditor's testing is part of the audit, not part of the entity's internal control.",
       "difficulty": "easy"
     },

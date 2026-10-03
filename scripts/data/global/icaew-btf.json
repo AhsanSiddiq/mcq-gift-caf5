@@ -1205,7 +1205,7 @@
       "id": "icaew-btf-c08-q005",
       "chapter": 8,
       "topic": "The external environment: macroeconomics",
-      "question_text": "A country's nominal GDP rises from £800 billion to £864 billion over a year in which the general price level rises by 5%. What is the real growth in GDP, to one decimal place, using the exact method?",
+      "question_text": "A country's nominal GDP rises from £800 billion to £864 billion over a year in which the general price level rises by 5%. Adjusting for inflation by dividing by the price index (rather than simply subtracting the inflation rate from nominal growth), what is the real growth in GDP, to one decimal place?",
       "options": {
         "A": "3.0%",
         "B": "2.9%",
@@ -1270,10 +1270,10 @@
         "A": "Increased by £3,200",
         "B": "Decreased by £4,600",
         "C": "Decreased by £3,200",
-        "D": "Decreased by £2,875"
+        "D": "Decreased by £3,478"
       },
       "correct": "C",
-      "explanation": "At the sale date: €46,000 / 1.15 = £40,000. At payment: €46,000 / 1.25 = £36,800. Change = £36,800 - £40,000 = £3,200 decrease. The pound has strengthened, so each euro is worth fewer pounds. Multiplying by the rates instead of dividing gives wrong answers.",
+      "explanation": "At the sale date: €46,000 / 1.15 = £40,000. At payment: €46,000 / 1.25 = £36,800. Change = £36,800 - £40,000 = £3,200 decrease (an 8% fall, since 1.15 / 1.25 = 0.92). The pound has strengthened, so each euro is worth fewer pounds. Multiplying the €46,000 by the change in rate (0.10) gives £4,600, and applying the 8.7% change in the rate (0.10 / 1.15) to £40,000 gives £3,478 (rounded to the nearest £); both are incorrect.",
       "difficulty": "hard"
     },
     {
