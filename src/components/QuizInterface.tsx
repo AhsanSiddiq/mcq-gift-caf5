@@ -3,9 +3,9 @@
 import React, { useState, useEffect, useCallback, useRef } from "react";
 import { MCQ } from "@/data/mcqs";
 import MCQCard from "@/components/MCQCard";
-import { RotateCcw, ChevronLeft, CloudUpload, Timer, Crown } from "lucide-react";
+import { RotateCcw, ChevronLeft, CloudUpload, Timer, Crown, BarChart3 } from "lucide-react";
 import Link from "next/link";
-import { useProgress } from "@/hooks/useProgress";
+import { useProgress, isMistake, type UserProgressData } from "@/hooks/useProgress";
 import { useParams } from "next/navigation";
 import EmailLoginModal from "@/components/EmailLoginModal";
 import AdSlot from "@/components/AdSlot";
@@ -45,7 +45,7 @@ function dbToMCQ(row: {
 }
 
 interface QuizInterfaceProps {
-  mode: "topical" | "random" | "all" | "flagged" | "exam";
+  mode: "topical" | "random" | "all" | "flagged" | "exam" | "mistakes";
   chapter?: number;
   initialQuestions?: MCQ[];
 }
@@ -59,14 +59,24 @@ const MODE_LABELS: Record<string, string> = {
   all: "Full Marathon",
   flagged: "Flagged Review",
   exam: "Exam Simulator",
+  mistakes: "Mistakes Review",
 };
+
+/** Questions in this subject the student last answered wrong, then anything else they flagged. */
+function mistakeQuestions(all: MCQ[], progress: UserProgressData): MCQ[] {
+  const attempts = progress.attempts || {};
+  const flagged = new Set(progress.flaggedQuestionIds || []);
+  const wrong = all.filter((q) => isMistake(attempts[q.id]));
+  const flaggedOnly = all.filter((q) => flagged.has(q.id) && !isMistake(attempts[q.id]));
+  return [...wrong, ...flaggedOnly];
+}
 
 export default function QuizInterface({ mode, chapter, initialQuestions = [] }: QuizInterfaceProps) {
   const params = useParams();
   const level = (params?.level as string) || "caf";
   const subjectId = (params?.subject as string) || "caf-5";
 
-  const { progress, isLoaded, saveChapterScore, saveRandomMockScore, updateMarathonState, clearMarathonState, auth, signIn, syncToCloud, isSyncing } = useProgress(subjectId);
+  const { progress, isLoaded, saveChapterScore, saveRandomMockScore, recordAnswer, updateMarathonState, clearMarathonState, auth, signIn, syncToCloud, isSyncing } = useProgress(subjectId);
 
   const [allQuestions, setAllQuestions] = useState<MCQ[]>(initialQuestions);
   const [isFetching, setIsFetching] = useState(initialQuestions.length === 0);
@@ -79,6 +89,8 @@ export default function QuizInterface({ mode, chapter, initialQuestions = [] }: 
   const [isRetryMode, setIsRetryMode] = useState(false);
   const [showLoginModal, setShowLoginModal] = useState(false);
   const confettiRef = useRef(false);
+  // Mistakes mode: ids that were on the mistakes list when this review started.
+  const reviewWrongRef = useRef<Set<string>>(new Set());
   const { pro, loading: proLoading } = usePro();
   const [examLocked, setExamLocked] = useState(false);
   const [timeLeft, setTimeLeft] = useState<number | null>(null);
@@ -162,6 +174,10 @@ export default function QuizInterface({ mode, chapter, initialQuestions = [] }: 
     if (mode === "topical" && chapter) filtered = filtered.filter((q) => q.chapter === chapter);
     else if (mode === "random") filtered = filtered.sort(() => Math.random() - 0.5).slice(0, mockSize);
     else if (mode === "flagged") filtered = filtered.filter((q) => (progress.flaggedQuestionIds || []).includes(q.id));
+    else if (mode === "mistakes") {
+      filtered = mistakeQuestions(filtered, progress);
+      reviewWrongRef.current = new Set(filtered.filter((q) => isMistake(progress.attempts?.[q.id])).map((q) => q.id));
+    }
     setQuestions(filtered);
     setCurrentIndex(0); setScore(0); setCurrentStreak(0); setIncorrectIds([]); setIsFinished(false);
   }, [isFetching, isLoaded, allQuestions, mode, chapter, progress.marathon.inProgress, progress.marathon.subjectId, subjectId, examGate]);
@@ -198,6 +214,8 @@ export default function QuizInterface({ mode, chapter, initialQuestions = [] }: 
   }, [isFinished, score, questions.length]);
 
   const handleNext = (isCorrect: boolean) => {
+    const answered = questions[currentIndex];
+    if (answered) recordAnswer(answered.id, subjectId, answered.chapter, isCorrect);
     if (isCorrect) { setScore((s) => s + 1); setCurrentStreak((s) => s + 1); }
     else { setCurrentStreak(0); setIncorrectIds((prev) => [...prev, questions[currentIndex].id]); }
     const newScore = isCorrect ? score + 1 : score;
@@ -282,19 +300,32 @@ export default function QuizInterface({ mode, chapter, initialQuestions = [] }: 
   /* ── Empty ── */
   if (questions.length === 0) {
     return (
-      <div className="max-w-md mx-auto text-center py-24">
-        <p className="text-4xl mb-4">🔖</p>
-        <p className="font-bold text-lg mb-2" style={{ color: "var(--text-1)" }}>
-          {mode === "flagged" ? "No flagged questions" : "No questions found"}
+      <div className="max-w-md mx-auto text-center pt-32 pb-24 px-4">
+        <p className="text-4xl mb-4" aria-hidden="true">{mode === "mistakes" ? "🎯" : "🔖"}</p>
+        <p className="font-bold text-lg mb-2" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
+          {mode === "flagged" ? "No flagged questions" : mode === "mistakes" ? "No mistakes to review" : "No questions found"}
         </p>
         <p className="text-sm mb-8" style={{ color: "var(--text-2)" }}>
-          {mode === "flagged" ? "Flag questions during practice — they appear here for review." : "Nothing available for this selection."}
+          {mode === "flagged"
+            ? "Flag questions during practice — they appear here for review."
+            : mode === "mistakes"
+              ? "Every question you get wrong (or flag) in this subject lands here. Answer it correctly in review and it drops off the list."
+              : "Nothing available for this selection."}
         </p>
-        <Link href={`/${level}/${subjectId}`}
-          className="inline-flex items-center gap-2 font-bold rounded-xl px-6 py-3 text-white"
-          style={{ background: "var(--green)", textDecoration: "none" }}>
-          Back to Subject
-        </Link>
+        <div className="flex flex-col sm:flex-row gap-3 justify-center">
+          <Link href={`/${level}/${subjectId}`}
+            className="inline-flex items-center justify-center gap-2 font-bold rounded-xl px-6 py-3 text-white"
+            style={{ background: "var(--green)", textDecoration: "none" }}>
+            Back to Subject
+          </Link>
+          {mode === "mistakes" && (
+            <Link href="/dashboard"
+              className="inline-flex items-center justify-center gap-2 font-bold rounded-xl px-6 py-3"
+              style={{ background: "var(--bg-3)", border: "1px solid var(--border)", color: "var(--text-2)", textDecoration: "none" }}>
+              <BarChart3 className="w-4 h-4" aria-hidden="true" /> My progress
+            </Link>
+          )}
+        </div>
       </div>
     );
   }
@@ -302,18 +333,28 @@ export default function QuizInterface({ mode, chapter, initialQuestions = [] }: 
   /* ── Results screen ── */
   if (isFinished) {
     const pct = Math.round((score / questions.length) * 100);
+    const mistakesLeft = mistakeQuestions(allQuestions, progress).length;
+    const wrongLeft = allQuestions.filter((q) => isMistake(progress.attempts?.[q.id])).length;
+    const cleared = [...reviewWrongRef.current].filter((id) => !isMistake(progress.attempts?.[id])).length;
     const excellent = pct >= 80;
     const perfect = pct === 100;
     return (
       <div className="max-w-lg mx-auto pt-28 pb-20 px-4">
-        <EmailLoginModal isOpen={showLoginModal} onClose={() => setShowLoginModal(false)} onSuccess={(em, tok) => { signIn(em, tok); syncToCloud(subjectId); }} />
+        <EmailLoginModal isOpen={showLoginModal} onClose={() => setShowLoginModal(false)} onSuccess={(em, tok) => { signIn(em, tok); syncToCloud(subjectId, { email: em, token: tok }); }} />
         <div className="rounded-2xl p-8 text-center" style={{ background: "var(--bg-2)", border: "1px solid var(--border)" }}>
           <div className="text-4xl mb-4">{perfect ? "🏆" : excellent ? "🎉" : "💪"}</div>
           <h2 className="font-bold text-2xl mb-1" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
-            {isRetryMode ? "Review Complete" : "Practice Complete"}
+            {isRetryMode || mode === "mistakes" ? "Review Complete" : "Practice Complete"}
           </h2>
           <p className="text-sm mb-8" style={{ color: "var(--text-2)" }}>
             {MODE_LABELS[mode]} {mode === "topical" ? `— Chapter ${chapter}` : ""} finished.
+            {mode === "mistakes" && (
+              <span className="block mt-1">
+                {cleared > 0 ? `${cleared} cleared from your mistakes list. ` : ""}
+                {wrongLeft > 0 ? `${wrongLeft} still wrong.` : "Your mistakes list is clear!"}
+                {mistakesLeft > wrongLeft ? ` Flagged questions stay in review until you unflag them.` : ""}
+              </span>
+            )}
           </p>
 
           {/* Score ring */}
@@ -368,6 +409,7 @@ export default function QuizInterface({ mode, chapter, initialQuestions = [] }: 
                 <RotateCcw className="w-4 h-4" /> Retry Wrong ({incorrectIds.length})
               </button>
             )}
+            {!(mode === "mistakes" && mistakesLeft === 0) && (
             <button
               onClick={() => {
                 setCurrentIndex(0); setScore(0); setCurrentStreak(0);
@@ -375,12 +417,18 @@ export default function QuizInterface({ mode, chapter, initialQuestions = [] }: 
                 if (mode === "all") { const s = [...allQuestions].sort(() => Math.random() - 0.5); setQuestions(s); updateMarathonState(s.map(q => q.id), 0, 0, subjectId); }
                 else if (mode === "random") setQuestions([...allQuestions].sort(() => Math.random() - 0.5).slice(0, level.toLowerCase() === "prc" ? 50 : 10));
                 else if (mode === "flagged") setQuestions(allQuestions.filter(q => (progress.flaggedQuestionIds || []).includes(q.id)));
+                else if (mode === "mistakes") {
+                  const qs = mistakeQuestions(allQuestions, progress);
+                  reviewWrongRef.current = new Set(qs.filter((q) => isMistake(progress.attempts?.[q.id])).map((q) => q.id));
+                  setQuestions(qs);
+                }
               }}
               className="inline-flex items-center justify-center gap-2 font-bold rounded-xl px-5 py-3 text-sm cursor-pointer"
               style={{ background: "var(--bg-3)", border: "1px solid var(--border)", color: "var(--text-2)" }}
             >
-              <RotateCcw className="w-4 h-4" /> Try Again
+              <RotateCcw className="w-4 h-4" /> {mode === "mistakes" ? `Review Remaining (${mistakesLeft})` : "Try Again"}
             </button>
+            )}
             <Link
               href={mode === "topical" ? `/${level}/${subjectId}/topical` : `/${level}/${subjectId}`}
               className="inline-flex items-center justify-center gap-2 font-bold rounded-xl px-5 py-3 text-sm text-white"
@@ -389,6 +437,14 @@ export default function QuizInterface({ mode, chapter, initialQuestions = [] }: 
               {mode === "topical" ? "More Chapters" : "Back to Subject"}
             </Link>
           </div>
+
+          <Link
+            href="/dashboard"
+            className="mt-4 inline-flex items-center justify-center gap-2 text-sm font-bold rounded-xl px-4 py-2.5"
+            style={{ color: "var(--green)", textDecoration: "none" }}
+          >
+            <BarChart3 className="w-4 h-4" aria-hidden="true" /> My progress &amp; weak chapters
+          </Link>
         </div>
 
         <a
@@ -464,7 +520,7 @@ export default function QuizInterface({ mode, chapter, initialQuestions = [] }: 
 
       {/* Card */}
       <div key={currentQ.id}>
-        <MCQCard mcq={currentQ} onAnswer={handleNext} onNext={advanceQuestion} isLast={currentIndex === questions.length - 1} />
+        <MCQCard mcq={currentQ} subjectId={subjectId} onAnswer={handleNext} onNext={advanceQuestion} isLast={currentIndex === questions.length - 1} />
       </div>
     </div>
   );

@@ -14,6 +14,7 @@ export default async function QuizPage({ params, searchParams }: { params: Promi
     : modeParam === "all" ? "all"
     : modeParam === "flagged" ? "flagged"
     : modeParam === "exam" ? "exam"
+    : modeParam === "mistakes" ? "mistakes"
     : "random";
   const chapter = chapterParam ? parseInt(chapterParam, 10) : undefined;
 
