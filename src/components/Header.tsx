@@ -11,11 +11,11 @@ import { motion, AnimatePresence } from "framer-motion";
 import RegionSwitcher from "@/components/RegionSwitcher";
 
 const NAV_LINKS = [
-  { label: "CA Roadmap",   href: "/#path" },
   { label: "MCQ Practice", href: "/practice" },
   { label: "Exams",        href: "/exams" },
-  { label: "CV Maker",     href: "/cv-maker" },
   { label: "Daily 🔥",     href: "/daily" },
+  { label: "Tools",        href: "/tools" },
+  { label: "Standards",    href: "/standards" },
   { label: "My progress",  href: "/dashboard" },
   { label: "Pro",          href: "/pro" },
 ];

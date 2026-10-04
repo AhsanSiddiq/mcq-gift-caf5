@@ -8,6 +8,8 @@ const NAV = [
       { label: "CA Roadmap", href: "/#path" },
       { label: "MCQ Practice", href: "/practice" },
       { label: "Induction CV Maker", href: "/cv-maker" },
+      { label: "Finance Calculators", href: "/tools" },
+      { label: "Study Planner", href: "/tools/study-planner" },
       { label: "Daily Challenge", href: "/daily" },
       { label: "My Progress", href: "/dashboard" },
       { label: "All Exams", href: "/exams" },
@@ -19,6 +21,7 @@ const NAV = [
     links: [
       { label: "The Story", href: "/about" },
       { label: "Articles", href: "/blog" },
+      { label: "IFRS & IAS Standards", href: "/standards" },
       { label: "Get the Guide", href: "/#capture" },
     ],
   },
