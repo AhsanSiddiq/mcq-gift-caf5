@@ -1,30 +1,25 @@
 "use client";
 
-import { ArrowRight, BookOpen, Shuffle, Target, PlayCircle, Bookmark, ArrowLeft, CloudUpload, LogOut, Timer } from "lucide-react";
+import { ArrowRight, BookOpen, Shuffle, Target, PlayCircle, Bookmark, ArrowLeft, CloudUpload, LogOut, Timer, RotateCcw } from "lucide-react";
 import Link from "next/link";
 import { useProgress } from "@/hooks/useProgress";
 import { useEffect, useState } from "react";
 import EmailLoginModal from "@/components/EmailLoginModal";
 import AdSlot from "@/components/AdSlot";
-import { subjectCode } from "@/data/subjects";
+import { subjectCode, type Subject } from "@/data/subjects";
 import SponsorSlot from "@/components/SponsorSlot";
 import { motion } from "framer-motion";
 
 interface SubjectHomeClientProps {
   level: string;
   subjectId: string;
-  currentSubject: any;
+  currentSubject: Subject;
   totalQuestions: number;
 }
 
 export default function SubjectHomeClient({ level, subjectId, currentSubject, totalQuestions }: SubjectHomeClientProps) {
   const { progress, isLoaded, getTotalMasteredPoints, auth, signIn, signOut, loadFromCloud, isSyncing } = useProgress(subjectId);
-  const [mounted, setMounted] = useState(false);
   const [showLoginModal, setShowLoginModal] = useState(false);
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
 
   // Load cloud progress when auth is present
   useEffect(() => {
@@ -39,6 +34,9 @@ export default function SubjectHomeClient({ level, subjectId, currentSubject, to
   // only active if this subject's marathon is in progress
   const isMarathonActive = isLoaded && progress.marathon.inProgress && progress.marathon.subjectId === subjectId && progress.marathon.questionIds.length > 0;
   const flaggedCount = isLoaded ? (progress.flaggedQuestionIds || []).length : 0;
+  const mistakeCount = isLoaded
+    ? Object.values(progress.attempts || {}).filter((a) => a.s === subjectId && a.l === 0).length
+    : 0;
 
   const MODES = [
     {
@@ -84,6 +82,18 @@ export default function SubjectHomeClient({ level, subjectId, currentSubject, to
       bg: "rgba(251,191,36,0.10)",
       highlighted: isMarathonActive,
     },
+    ...(mistakeCount > 0
+      ? [{
+          id: "mistakes",
+          label: "Review Mistakes",
+          icon: <RotateCcw className="w-5 h-5" />,
+          href: `/${level}/${subjectId}/quiz?mode=mistakes`,
+          desc: `${mistakeCount} question${mistakeCount !== 1 ? "s" : ""} you got wrong, plus your flags. Get them right and they leave the list.`,
+          cta: "Fix Mistakes",
+          color: "#f87171",
+          bg: "rgba(248,113,113,0.10)",
+        }]
+      : []),
     ...(flaggedCount > 0
       ? [{
           id: "flagged",
@@ -103,7 +113,7 @@ export default function SubjectHomeClient({ level, subjectId, currentSubject, to
       <EmailLoginModal
         isOpen={showLoginModal}
         onClose={() => setShowLoginModal(false)}
-        onSuccess={(em, tok) => { signIn(em, tok); loadFromCloud(subjectId); }}
+        onSuccess={(em, tok) => { signIn(em, tok); loadFromCloud(subjectId, { email: em, token: tok }); }}
       />
 
       <div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8 pt-28 pb-20">
@@ -175,7 +185,7 @@ export default function SubjectHomeClient({ level, subjectId, currentSubject, to
         </div>
 
         {/* Progress bar */}
-        {mounted && isLoaded && masteredPoints > 0 && (
+        {isLoaded && masteredPoints > 0 && (
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}

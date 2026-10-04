@@ -10,9 +10,11 @@ interface MCQCardProps {
   onAnswer: (isCorrect: boolean) => void;
   onNext: () => void;
   isLast: boolean;
+  /** Subject the question belongs to — recorded with flags so the dashboard can group them. */
+  subjectId?: string;
 }
 
-export default function MCQCard({ mcq, onAnswer, onNext, isLast }: MCQCardProps) {
+export default function MCQCard({ mcq, onAnswer, onNext, isLast, subjectId }: MCQCardProps) {
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const [showExplanation, setShowExplanation] = useState(false);
   const { progress, toggleFlag, isLoaded } = useProgress();
@@ -65,9 +67,11 @@ export default function MCQCard({ mcq, onAnswer, onNext, isLast }: MCQCardProps)
           </h3>
         </div>
         <button
-          onClick={() => toggleFlag(mcq.id)}
+          onClick={() => toggleFlag(mcq.id, subjectId)}
           className="shrink-0 p-2 rounded-xl transition-colors"
           title={isFlagged ? "Remove Flag" : "Flag for Review"}
+          aria-label={isFlagged ? "Remove flag" : "Flag for review"}
+          aria-pressed={isFlagged}
           style={{
             background: isFlagged ? "rgba(251,191,36,0.12)" : "var(--bg-3)",
             border: `1px solid ${isFlagged ? "rgba(251,191,36,0.35)" : "var(--border)"}`,

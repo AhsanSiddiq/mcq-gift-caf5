@@ -4,6 +4,7 @@ import { useCallback, useEffect, useMemo, useState, useSyncExternalStore } from 
 import Link from "next/link";
 import { Flame, Share2, Copy, Check, CalendarDays, ArrowRight } from "lucide-react";
 import MCQCard from "@/components/MCQCard";
+import { useProgress } from "@/hooks/useProgress";
 import AdSlot from "@/components/AdSlot";
 import type { MCQ } from "@/data/mcqs";
 
@@ -76,6 +77,7 @@ export default function DailyChallenge({ date, number, subject, questions, body 
   const [results, setResults] = useState<boolean[]>([]);
   const [copied, setCopied] = useState(false);
   const countdown = useCountdownToNextDay();
+  const { recordAnswer } = useProgress();
   const code = subject.code ?? subject.id.toUpperCase();
 
   const today = store?.history[date];
@@ -130,8 +132,12 @@ export default function DailyChallenge({ date, number, subject, questions, body 
         <div key={q.id}>
           <MCQCard
             mcq={q}
+            subjectId={subject.id}
             isLast={index === questions.length - 1}
-            onAnswer={(ok) => setResults((r) => (r.length > index ? r : [...r, ok]))}
+            onAnswer={(ok) => {
+              if (results.length <= index) recordAnswer(q.id, subject.id, q.chapter, ok);
+              setResults((r) => (r.length > index ? r : [...r, ok]));
+            }}
             onNext={() => {
               if (index < questions.length - 1) setIndex((i) => i + 1);
               else finish(results);

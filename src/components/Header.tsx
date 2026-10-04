@@ -16,6 +16,7 @@ const NAV_LINKS = [
   { label: "Exams",        href: "/exams" },
   { label: "CV Maker",     href: "/cv-maker" },
   { label: "Daily 🔥",     href: "/daily" },
+  { label: "My progress",  href: "/dashboard" },
   { label: "Pro",          href: "/pro" },
 ];
 
@@ -30,7 +31,7 @@ export default function Header() {
   const { theme, toggle } = useTheme();
 
   useEffect(() => {
-    const checkMobile = () => setIsMobile(window.innerWidth < 768);
+    const checkMobile = () => setIsMobile(window.innerWidth < 1024);
     checkMobile();
     window.addEventListener("resize", checkMobile, { passive: true });
     return () => window.removeEventListener("resize", checkMobile);
@@ -108,7 +109,7 @@ export default function Header() {
 
             {/* Byline - only shown when NOT in pill mode */}
             <motion.div
-              className="hidden sm:flex flex-col leading-none"
+              className="hidden xl:flex flex-col leading-none"
               animate={scrolled ? { opacity: 0, x: -10, width: 0, overflow: "hidden" } : { opacity: 1, x: 0, width: "auto" }}
               transition={{ duration: 0.3, ease: "easeOut" }}
               style={{ overflow: "hidden", whiteSpace: "nowrap" }}
@@ -133,7 +134,7 @@ export default function Header() {
                 onClick={() => scrollToHash(l.href)}
                 style={{
                   fontSize: 13, fontWeight: 500, color: "var(--text-2)",
-                  padding: "7px 14px", borderRadius: 8,
+                  padding: "7px 8px", borderRadius: 8,
                   fontFamily: "var(--font-inter), system-ui, sans-serif",
                   transition: "color 0.2s, background 0.2s", textDecoration: "none",
                   whiteSpace: "nowrap",
@@ -145,7 +146,7 @@ export default function Header() {
               </Link>
             ))}
             {currentSubject && (
-              <span className="ml-2 px-3 py-1 rounded-full whitespace-nowrap text-[11px] font-bold uppercase tracking-widest"
+              <span className="hidden min-[1440px]:inline-block ml-2 px-3 py-1 rounded-full whitespace-nowrap text-[11px] font-bold uppercase tracking-widest"
                 style={{ background: "color-mix(in srgb, var(--green) 12%, transparent)", color: "var(--green)", border: "1px solid color-mix(in srgb, var(--green) 20%, transparent)", fontFamily: "var(--font-space-grotesk), system-ui, sans-serif" }}>
                 {subjectCode(currentSubject)}
               </span>
@@ -184,7 +185,7 @@ export default function Header() {
             {!isMobile && (
               <Link
                 href="/practice"
-                className="inline-flex items-center gap-2 font-bold rounded-full text-white"
+                className="hidden xl:inline-flex items-center gap-2 font-bold rounded-full text-white"
                 style={{
                   background: "var(--green)", fontSize: 13, padding: "9px 20px",
                   letterSpacing: "0.01em", fontFamily: "var(--font-space-grotesk), system-ui, sans-serif",
@@ -205,6 +206,7 @@ export default function Header() {
               <button
                 onClick={() => setOpen(!open)}
                 aria-label="Menu"
+                aria-expanded={open}
                 style={{
                   background: "var(--surface)", border: "1px solid var(--border)",
                   width: 36, height: 36, borderRadius: 10,
