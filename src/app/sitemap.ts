@@ -4,6 +4,7 @@ import { allSubjects } from "@/data/subjects";
 import { blogs } from "@/data/blogs";
 import { getAllQuestionRefs, getChapters, questionSlug } from "@/lib/questionBank";
 import { dailyBodies } from "@/lib/daily";
+import { standards } from "@/data/standards";
 
 export const revalidate = 86400;
 
@@ -86,7 +87,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       : [];
   });
 
-  return [...staticPages, ...examPages, ...prcPages, ...cafPages, ...bankPages, ...bodyDailyPages, ...blogPages, ...questionPages].map((page) => ({
+  // IFRS & IAS Standards Hub
+  const standardsPages = [
+    { url: `${BASE_URL}/standards`, priority: 0.85, changeFrequency: "monthly" as const },
+    ...standards.map((s) => ({ url: `${BASE_URL}/standards/${s.slug}`, priority: 0.8, changeFrequency: "monthly" as const })),
+  ];
+
+  return [...staticPages, ...examPages, ...prcPages, ...cafPages, ...bankPages, ...bodyDailyPages, ...blogPages, ...questionPages, ...standardsPages].map((page) => ({
     ...page,
     lastModified: now,
   }));
