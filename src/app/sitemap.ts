@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { EXAM_BODIES } from "@/data/regions";
 import { allSubjects } from "@/data/subjects";
 import { blogs } from "@/data/blogs";
-import { getChapters } from "@/lib/questionBank";
+import { getAllQuestionRefs, getChapters, questionSlug } from "@/lib/questionBank";
 import { dailyBodies } from "@/lib/daily";
 
 export const revalidate = 86400;
@@ -58,21 +58,35 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...blogs.map((b) => ({ url: `${BASE_URL}/blog/${b.slug}`, priority: 0.7, changeFrequency: "monthly" as const })),
   ];
 
-  // Crawlable question banks: one index per subject + one page per chapter
-  const bankPages = (
-    await Promise.all(
-      allSubjects.filter((sub) => sub.isAvailable).map(async (sub) => {
-        const base = `${BASE_URL}/${sub.level.toLowerCase()}/${sub.id}/mcqs`;
-        const chapters = await getChapters(sub.id).catch(() => []);
-        return [
-          { url: base, priority: 0.85, changeFrequency: "weekly" as const },
-          ...chapters.map((c) => ({ url: `${base}/${c.slug}`, priority: 0.8, changeFrequency: "weekly" as const })),
-        ];
-      })
-    )
-  ).flat();
+  // Crawlable question banks: one index per subject + one page per chapter + one page per question.
+  // All question URLs come from a single (paged) query, fetched alongside the chapter lists.
+  const liveSubjects = allSubjects.filter((sub) => sub.isAvailable);
+  const [chapterLists, questionRefs] = await Promise.all([
+    Promise.all(liveSubjects.map((sub) => getChapters(sub.id).catch(() => []))),
+    getAllQuestionRefs().catch(() => []),
+  ]);
 
-  return [...staticPages, ...examPages, ...prcPages, ...cafPages, ...bankPages, ...bodyDailyPages, ...blogPages].map((page) => ({
+  const chapterBase = new Map<string, string>(); // "subjectId:chapter" -> chapter URL
+  const bankPages = liveSubjects.flatMap((sub, i) => {
+    const base = `${BASE_URL}/${sub.level.toLowerCase()}/${sub.id}/mcqs`;
+    return [
+      { url: base, priority: 0.85, changeFrequency: "weekly" as const },
+      ...chapterLists[i].map((c) => {
+        const url = `${base}/${c.slug}`;
+        chapterBase.set(`${sub.id}:${c.chapter}`, url);
+        return { url, priority: 0.8, changeFrequency: "weekly" as const };
+      }),
+    ];
+  });
+
+  const questionPages = questionRefs.flatMap((q) => {
+    const chapterUrl = chapterBase.get(`${q.subjectId}:${q.chapter}`);
+    return chapterUrl
+      ? [{ url: `${chapterUrl}/${questionSlug(q.id, q.question)}`, priority: 0.6, changeFrequency: "monthly" as const }]
+      : [];
+  });
+
+  return [...staticPages, ...examPages, ...prcPages, ...cafPages, ...bankPages, ...bodyDailyPages, ...blogPages, ...questionPages].map((page) => ({
     ...page,
     lastModified: now,
   }));
