@@ -55,17 +55,23 @@ export async function getChapters(subjectId: string): Promise<ChapterMeta[]> {
     if (data.length < pageSize) break;
   }
 
-  const map = new Map<number, ChapterMeta>();
+  // A few chapters carry more than one topic label; name each chapter after its most common
+  // label (ties broken alphabetically) so titles and slugs are stable between renders.
+  const tally = new Map<number, Map<string, number>>();
   for (const r of rows) {
     if (r.chapter == null) continue;
-    const existing = map.get(r.chapter);
-    if (existing) existing.count++;
-    else {
-      const topic = r.topic || `Chapter ${r.chapter}`;
-      map.set(r.chapter, { chapter: r.chapter, topic, count: 1, slug: chapterSlug(r.chapter, topic) });
-    }
+    const topic = r.topic || `Chapter ${r.chapter}`;
+    const t = tally.get(r.chapter) ?? new Map<string, number>();
+    t.set(topic, (t.get(topic) ?? 0) + 1);
+    tally.set(r.chapter, t);
   }
-  return [...map.values()].sort((a, b) => a.chapter - b.chapter);
+  return [...tally.entries()]
+    .map(([chapter, t]) => {
+      const [topic] = [...t.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))[0];
+      const count = [...t.values()].reduce((a, b) => a + b, 0);
+      return { chapter, topic, count, slug: chapterSlug(chapter, topic) };
+    })
+    .sort((a, b) => a.chapter - b.chapter);
 }
 
 export async function getChapterQuestions(subjectId: string, chapter: number): Promise<BankQuestion[]> {
