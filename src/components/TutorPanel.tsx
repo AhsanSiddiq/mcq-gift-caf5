@@ -5,6 +5,8 @@ import Link from "next/link";
 import { Sparkles, Loader2 } from "lucide-react";
 
 const AUTH_KEY = "mcq_gift_auth_v1";
+// Violet that stays legible on both themes (mixes toward the text colour).
+const TUTOR = "color-mix(in srgb, #8b5cf6 75%, var(--text-1))";
 let enabledPromise: Promise<boolean> | null = null;
 function tutorEnabled(): Promise<boolean> {
   enabledPromise ??= fetch("/api/tutor")
@@ -55,15 +57,16 @@ export default function TutorPanel({ questionId, chosenKey, isCorrect }: { quest
 
   const chip = (m: Mode, label: string) => (
     <button key={m} type="button" onClick={() => ask(m)} disabled={loading}
-      className="text-xs font-bold px-3 py-2 rounded-full cursor-pointer disabled:opacity-60 transition-colors"
-      style={{ background: mode === m ? "rgba(167,139,250,0.18)" : "var(--bg-3)", color: mode === m ? "#a78bfa" : "var(--text-2)", border: "1px solid var(--border)" }}>
+      aria-pressed={mode === m}
+      className="focus-ring text-xs font-bold px-3.5 min-h-[40px] rounded-full cursor-pointer disabled:opacity-60 transition-colors"
+      style={{ background: mode === m ? "color-mix(in srgb, #8b5cf6 16%, transparent)" : "var(--bg-2)", color: mode === m ? TUTOR : "var(--text-2)", border: `1px solid ${mode === m ? "color-mix(in srgb, #8b5cf6 40%, transparent)" : "var(--border)"}` }}>
       {label}
     </button>
   );
 
   return (
-    <div className="rounded-xl p-4 mb-6" style={{ background: "rgba(167,139,250,0.06)", borderLeft: "3px solid #a78bfa" }}>
-      <p className="text-xs font-black uppercase tracking-widest mb-3 flex items-center gap-1.5" style={{ color: "#a78bfa" }}>
+    <div className="rounded-xl p-4 mb-4" style={{ background: "color-mix(in srgb, #8b5cf6 7%, var(--bg-3))", borderLeft: "3px solid #8b5cf6" }}>
+      <p className="text-xs font-black uppercase tracking-widest mb-3 flex items-center gap-1.5" style={{ color: TUTOR }}>
         <Sparkles className="w-3.5 h-3.5" /> Ask the AI tutor
       </p>
       <div className="flex flex-wrap gap-2">
@@ -71,6 +74,7 @@ export default function TutorPanel({ questionId, chosenKey, isCorrect }: { quest
         {chip("simpler", "Explain it simpler")}
         {!isCorrect && chosenKey && chip("mistake", "Why was my answer wrong?")}
       </div>
+      <div aria-live="polite">
       {loading && (
         <p className="text-sm mt-3 flex items-center gap-2" style={{ color: "var(--text-3)" }}>
           <Loader2 className="w-4 h-4 animate-spin" /> Thinking it through…
@@ -82,11 +86,12 @@ export default function TutorPanel({ questionId, chosenKey, isCorrect }: { quest
         </p>
       )}
       {error && (
-        <p className="text-sm mt-3" style={{ color: "#f87171" }}>
+        <p className="text-sm mt-3" style={{ color: "var(--bad)" }}>
           {error}{" "}
           {upgrade && <Link href="/pro" style={{ color: "var(--gold)", fontWeight: 700 }}>Go Pro for 40 a day →</Link>}
         </p>
       )}
+      </div>
     </div>
   );
 }
