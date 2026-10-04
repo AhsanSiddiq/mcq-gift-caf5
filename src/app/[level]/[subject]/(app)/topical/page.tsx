@@ -11,13 +11,10 @@ export default function TopicalPage() {
   const level = (params?.level as string) || "caf";
   const subjectId = (params?.subject as string) || "caf-5";
   const { progress, isLoaded } = useProgress(subjectId);
-  const [mounted, setMounted] = useState(false);
   const [chapters, setChapters] = useState<[number, string, number][]>([]);
   const [isFetching, setIsFetching] = useState(true);
 
   useEffect(() => {
-    setMounted(true);
-    setIsFetching(true);
     // Use the fast meta endpoint — no full question payloads
     fetch(`/api/subjects-meta?subject=${subjectId}`)
       .then((r) => r.json())
@@ -36,22 +33,20 @@ export default function TopicalPage() {
 
   return (
     <main className="min-h-screen">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 md:px-8 pt-28 pb-20">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 md:px-8 pt-24 sm:pt-28 pb-20">
 
         {/* Back */}
         <Link href={`/${level}/${subjectId}`}
-          className="inline-flex items-center gap-2 text-sm font-semibold mb-10 transition-colors"
-          style={{ color: "var(--text-3)", textDecoration: "none" }}
-          onMouseEnter={e => ((e.currentTarget as HTMLElement).style.color = "var(--text-1)")}
-          onMouseLeave={e => ((e.currentTarget as HTMLElement).style.color = "var(--text-3)")}
+          className="focus-ring inline-flex items-center gap-2 text-sm font-semibold mb-6 sm:mb-8 -ml-2 px-2 py-2 rounded-lg transition-colors hover:text-[var(--text-1)]"
+          style={{ color: "var(--text-2)", textDecoration: "none" }}
         >
           <ArrowLeft className="w-4 h-4" /> Back to Subject
         </Link>
 
         {/* Header */}
-        <div className="mb-10">
+        <div className="mb-8 sm:mb-10">
           <p className="text-xs font-bold uppercase tracking-widest mb-3"
-            style={{ color: "var(--green)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
+            style={{ color: "var(--accent-ink)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
             Topical Practice
           </p>
           <h1 className="font-bold mb-2"
@@ -90,7 +85,7 @@ export default function TopicalPage() {
           ) : (
             chapters.map(([chapterNum, title, numQuestions], index) => {
               const chapterProgress = progress.chapters[chapterNum];
-              const hasScore = mounted && isLoaded && chapterProgress !== undefined;
+              const hasScore = isLoaded && chapterProgress !== undefined;
               const score = hasScore ? chapterProgress.highestScore : 0;
               const isMastered = hasScore && chapterProgress.isCompleted;
 
@@ -138,46 +133,43 @@ export default function TopicalPage() {
                   )}
                   <Link
                     href={`/${level}/${subjectId}/quiz?mode=topical&chapter=${chapterNum}`}
-                    className="group rounded-2xl p-5 flex items-center justify-between gap-4 transition-all duration-200"
+                    className="focus-ring group rounded-2xl p-4 sm:p-5 flex items-center justify-between gap-4 transition-colors duration-200 hover:border-[color-mix(in_srgb,var(--green)_55%,transparent)]"
                     style={{
                       background: isMastered ? "color-mix(in srgb, var(--green) 6%, transparent)" : "var(--bg-2)",
                       border: `1px solid ${isMastered ? "color-mix(in srgb, var(--green) 35%, transparent)" : "var(--border)"}`,
                       textDecoration: "none",
                     }}
-                    onMouseEnter={e => {
-                      (e.currentTarget as HTMLElement).style.borderColor = isMastered ? "var(--green)" : "#60a5fa";
-                      (e.currentTarget as HTMLElement).style.transform = "translateX(4px)";
-                    }}
-                    onMouseLeave={e => {
-                      (e.currentTarget as HTMLElement).style.borderColor = isMastered ? "color-mix(in srgb, var(--green) 35%, transparent)" : "var(--border)";
-                      (e.currentTarget as HTMLElement).style.transform = "none";
-                    }}
                   >
                     <div className="flex-1 min-w-0">
                       <div className="flex items-center gap-2 mb-1">
                         <span className="text-xs font-bold uppercase tracking-widest"
-                          style={{ color: isMastered ? "var(--green)" : "#60a5fa", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
+                          style={{ color: "var(--accent-ink)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
                           Chapter {displayChapterNum}
                         </span>
-                        {isMastered && <CheckCircle2 className="w-3.5 h-3.5" style={{ color: "var(--green)" }} />}
+                        {isMastered && <CheckCircle2 className="w-3.5 h-3.5" style={{ color: "var(--accent-ink)" }} aria-label="Mastered" />}
                       </div>
                       <h3 className="font-bold text-base leading-snug mb-2"
                         style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
                         {title}
                       </h3>
                       <div className="flex items-center gap-4 flex-wrap">
-                        <span className="flex items-center gap-1.5 text-xs" style={{ color: "var(--text-3)" }}>
-                          <BookOpen className="w-3.5 h-3.5" /> {numQuestions} questions
+                        <span className="flex items-center gap-1.5 text-xs" style={{ color: "var(--text-2)" }}>
+                          <BookOpen className="w-3.5 h-3.5" aria-hidden /> {numQuestions} questions
                         </span>
                         {hasScore && score > 0 && (
-                          <span className="text-xs font-semibold" style={{ color: isMastered ? "var(--green)" : "#60a5fa" }}>
+                          <span className="text-xs font-semibold tabular-nums" style={{ color: "var(--accent-ink)" }}>
                             Best: {score}/{numQuestions}
                           </span>
                         )}
                       </div>
+                      {hasScore && score > 0 && (
+                        <div className="mt-2.5 h-1 rounded-full overflow-hidden max-w-[220px]" style={{ background: "var(--border)" }} aria-hidden>
+                          <div className="h-full rounded-full" style={{ width: `${Math.min(100, Math.round((score / Math.max(numQuestions, 1)) * 100))}%`, background: "var(--green)" }} />
+                        </div>
+                      )}
                     </div>
-                    <ChevronRight className="w-5 h-5 shrink-0 transition-transform group-hover:translate-x-1"
-                      style={{ color: isMastered ? "var(--green)" : "var(--text-3)" }} />
+                    <ChevronRight aria-hidden className="w-5 h-5 shrink-0 transition-transform group-hover:translate-x-1"
+                      style={{ color: isMastered ? "var(--accent-ink)" : "var(--text-3)" }} />
                   </Link>
                 </React.Fragment>
               );
@@ -187,7 +179,7 @@ export default function TopicalPage() {
 
         <p className="mt-10 text-sm text-center" style={{ color: "var(--text-3)" }}>
           Prefer to read first?{" "}
-          <Link href={`/${level}/${subjectId}/mcqs`} style={{ color: "var(--green)", fontWeight: 600 }}>
+          <Link href={`/${level}/${subjectId}/mcqs`} style={{ color: "var(--accent-ink)", fontWeight: 600 }}>
             Browse every MCQ in this subject with answers →
           </Link>
         </p>

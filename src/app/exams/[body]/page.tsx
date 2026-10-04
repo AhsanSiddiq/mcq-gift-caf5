@@ -120,7 +120,7 @@ export default async function ExamBodyPage({ params }: { params: Promise<{ body:
           <div className="flex flex-wrap items-center gap-3 mb-4">
             <span className="text-3xl leading-none" aria-hidden>{body.flag}</span>
             <span className="text-xs font-bold uppercase tracking-widest"
-              style={{ color: "var(--green)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
+              style={{ color: "var(--accent-ink)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
               {body.qualification}
             </span>
             <span
@@ -134,7 +134,7 @@ export default async function ExamBodyPage({ params }: { params: Promise<{ body:
           </div>
           <h1 className="font-bold mb-4"
             style={{ fontSize: "clamp(2rem,5vw,3.25rem)", color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif", lineHeight: 1.1 }}>
-            Free {body.short} <span style={{ color: "var(--green)" }}>MCQ Practice</span>
+            Free {body.short} <span style={{ color: "var(--accent-ink)" }}>MCQ Practice</span>
           </h1>
           <p className="text-base sm:text-lg max-w-2xl"
             style={{ color: "var(--text-2)", fontFamily: "var(--font-inter), sans-serif", lineHeight: 1.7 }}>
@@ -152,11 +152,11 @@ export default async function ExamBodyPage({ params }: { params: Promise<{ body:
               {liveSubjects.map((sub) => (
                 <Link key={sub.id} href={`/${sub.level.toLowerCase()}/${sub.id}`} className="rounded-2xl p-5 flex flex-col gap-2"
                   style={{ background: "var(--bg-2)", border: "1px solid color-mix(in srgb, var(--green) 35%, transparent)", textDecoration: "none" }}>
-                  <span className="text-xs font-black uppercase tracking-widest" style={{ color: "var(--green)" }}>{subjectCode(sub)}</span>
+                  <span className="text-xs font-black uppercase tracking-widest" style={{ color: "var(--accent-ink)" }}>{subjectCode(sub)}</span>
                   <span className="font-bold" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>{sub.title}</span>
                   <span className="text-xs" style={{ color: "var(--text-3)" }}>{LEVEL_LABEL[sub.level]}</span>
                   <span className="text-sm" style={{ color: "var(--text-2)" }}>{sub.description}</span>
-                  <span className="text-sm font-bold mt-auto inline-flex items-center gap-1" style={{ color: "var(--green)" }}>
+                  <span className="text-sm font-bold mt-auto inline-flex items-center gap-1" style={{ color: "var(--accent-ink)" }}>
                     Practice MCQs <ArrowRight className="w-4 h-4" />
                   </span>
                 </Link>
@@ -254,7 +254,7 @@ export default async function ExamBodyPage({ params }: { params: Promise<{ body:
                 </p>
               </div>
             </div>
-            <ArrowRight className="w-4 h-4 shrink-0 transition-transform group-hover:translate-x-0.5" style={{ color: "var(--green)" }} />
+            <ArrowRight className="w-4 h-4 shrink-0 transition-transform group-hover:translate-x-0.5" style={{ color: "var(--accent-ink)" }} />
           </Link>
         )}
 

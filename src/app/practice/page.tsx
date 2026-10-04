@@ -59,7 +59,7 @@ const LEVEL_META: Record<string, { label: string; tag: string; color: string; bg
   CAF: {
     label: "CAF",
     tag: "Certificate in Accounting & Finance",
-    color: "var(--green)",
+    color: "var(--accent-ink)",
     bg: "color-mix(in srgb, var(--green) 8%, transparent)",
     desc: "Eight papers covering accounting, tax, audit, law, and management.",
   },
@@ -131,7 +131,7 @@ function SubjectCard({
         {isLoadingCount ? (
           <span className="rounded-full animate-pulse" style={{ width: 48, height: 16, background: "var(--border)", display: "block" }} />
         ) : questionCount !== undefined && questionCount > 0 ? (
-          <span className="text-xs font-bold px-2 py-0.5 rounded-full" style={{ background: "var(--bg-3)", color: "var(--text-3)", border: "1px solid var(--border)" }}>
+          <span className="text-xs font-bold px-2 py-0.5 rounded-full whitespace-nowrap tabular-nums" style={{ background: "var(--bg-3)", color: "var(--text-2)", border: "1px solid var(--border)" }}>
             {questionCount} Q
           </span>
         ) : null}
@@ -209,13 +209,13 @@ export default function PracticePage() {
         {/* Hero */}
         <div className="mb-14">
           <p className="text-xs font-bold uppercase tracking-widest mb-3"
-            style={{ color: "var(--green)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
+            style={{ color: "var(--accent-ink)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
             Free MCQ Practice
           </p>
           <h1 className="font-bold mb-4"
             style={{ fontSize: "clamp(2rem,5vw,3.25rem)", color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif", lineHeight: 1.1 }}>
             Pick a Subject.<br />
-            <span style={{ color: "var(--green)" }}>Start Practicing.</span>
+            <span style={{ color: "var(--accent-ink)" }}>Start Practicing.</span>
           </h1>
           <p className="text-base sm:text-lg max-w-xl"
             style={{ color: "var(--text-2)", fontFamily: "var(--font-inter), sans-serif", lineHeight: 1.7 }}>
@@ -258,7 +258,7 @@ export default function PracticePage() {
               We&apos;re expanding to every accountancy body. Pick yours and get early access.
             </span>
           </span>
-          <span className="shrink-0 font-bold text-sm" style={{ color: "var(--green)" }}>All exams →</span>
+          <span className="shrink-0 font-bold text-sm" style={{ color: "var(--accent-ink)" }}>All exams →</span>
         </Link>
 
         {/* Community Volunteer CTA */}
