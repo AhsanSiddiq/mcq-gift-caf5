@@ -1,128 +1,21 @@
 "use client";
-import React, { useState, useEffect } from "react";
-import { Plus, Trash2, Download, Eye, ChevronLeft, ChevronRight, X, Mail, RefreshCw, ArrowUp, ArrowDown, Palette, Type, LayoutTemplate, Sparkles, CheckCircle2, Play, FileDown } from "lucide-react";
+import React, { useState, useEffect, useRef, useSyncExternalStore } from "react";
+import { Plus, Trash2, Download, Eye, EyeOff, ChevronLeft, ChevronRight, X, RefreshCw, ArrowUp, ArrowDown, Sparkles, CheckCircle2, Play, ScanText, RotateCcw } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import html2canvas from "html2canvas";
-import { jsPDF } from "jspdf";
 import { CVTour } from "./CVTour";
+import CareerNav from "./CareerNav";
+import {
+  type CVData, type Education, type WorkExp, type Course, type SectionId, type QualBodyId,
+  LS_KEY, DEMO, DEFAULT, QUAL_BODIES, QUAL_BODY_IDS, BASE_EDU_PRESETS, SECTION_LABELS, TEMPLATES,
+  qualOf, normalizeCV, sectionOrder, hiddenSections,
+} from "./cvData";
+import { CVPreview, A4_W, A4_H } from "./CVTemplates";
+import { atsPdf, breaksOf, cvToPdf, measureLayout, paginate } from "./pdf";
 
 
-const LS_KEY = "cahub_cv_v1";
-
-/* ── Types ─────────────────────────────────────────── */
-interface WorkExp { company: string; role: string; period: string; bullets: string[]; }
-interface Education { level: string; institution: string; grade: string; years: string; }
-interface Course { name: string; provider: string; year: string; }
-interface CVData {
-  themeColor: string;
-  fontFamily: string;
-  layout: "classic" | "executive";
-  spacing?: "compact" | "normal" | "relaxed";
-  name: string; phone: string; email: string; linkedin: string; photo: string;
-  icapStage: string; crn: string; fts: string; papersCleared: string;
-  profile: string;
-  education: Education[];
-  workExp: WorkExp[];
-  courses: Course[];
-  expertise: string[]; certifications: string[]; skills: string[]; languages: string[];
-  accomplishments: string[];
-  references: string;
-}
-
-/* ── DEMO DATA (generic fictional student) ── */
-const DEMO: CVData = {
-  themeColor: "#1a1a1a",
-  fontFamily: "'Arial','Helvetica Neue',sans-serif",
-  layout: "classic",
-  spacing: "normal",
-  name: "Ali Hassan Qureshi",
-  phone: "+92 321 5556677",
-  email: "ali.hassan@email.com",
-  linkedin: "linkedin.com/in/alihassanqureshi",
-  photo: "",
-  icapStage: "CAF Qualified",
-  crn: "182743",
-  fts: "67",
-  papersCleared: "All 8 CAF Papers | First Attempt",
-  profile:
-    "CAF Qualified ICAP student seeking an audit trainee position at a Big-4 or mid-tier firm. Cleared all eight CAF papers on first attempt and earned 80%+ in four papers including Financial Reporting and Audit. Equipped with solid grounding in IFRS, ISAs, and corporate taxation. Eager to translate academic knowledge into practical client-facing work under structured articleship.",
-  education: [
-    { level: "CAF | ICAP", institution: "ICAP", grade: "All 8 Papers | First Attempt | 80%+ in FR & Audit", years: "2022 – 2024" },
-    { level: "Inter (HSSC) – Pre-Engineering", institution: "Punjab College, Lahore", grade: "Grade: A | 85%", years: "2020 – 2022" },
-    { level: "Matric (SSC)", institution: "City Grammar School, Lahore", grade: "Grade: A+ | 92%", years: "2018 – 2020" },
-  ],
-  workExp: [
-    {
-      company: "Siddiqui & Sons (Family Business)",
-      role: "Accounts & Finance Intern",
-      period: "Apr 2023 – Oct 2023",
-      bullets: [
-        "Maintained double-entry books, reconciled monthly bank statements for Rs. 3M+ turnover",
-        "Prepared tax invoices and assisted in quarterly GST filing on FBR IRIS portal",
-        "Developed Excel dashboards for weekly sales tracking, reducing reporting time by 40%",
-      ],
-    },
-    {
-      company: "Self-Employed",
-      role: "Private Tutor – Accounts & Economics",
-      period: "2021 – 2023",
-      bullets: [
-        "Tutored 12 O-Level and Matric students, maintaining 100% pass rate",
-        "2 students scored distinctions in Edexcel O-Level Accounts (Grade A*)",
-      ],
-    },
-  ],
-  courses: [
-    { name: "Presentation & Personal Effectiveness (PPE)", provider: "ICAP – Hands-On Course", year: "2024" },
-    { name: "MS Office for Business", provider: "ICAP – Hands-On Course", year: "2024" },
-    { name: "Data Analytics & FinTech", provider: "ICAP – Hands-On Course", year: "2024" },
-    { name: "Advanced MS Excel & Financial Modelling", provider: "CFI (Online)", year: "2023" },
-  ],
-  expertise: ["MS Excel (Advanced)", "QuickBooks Desktop", "FBR IRIS Portal", "Financial Modelling", "SAP (Basic)"],
-  certifications: ["PPE – ICAP Hands-On Course (Completed)", "MS Office for Business – ICAP HOC (Completed)"],
-  skills: ["Analytical Thinking", "Attention to Detail", "Team Collaboration", "Problem-Solving", "Time Management", "Business Communication"],
-  languages: ["English (Fluent)", "Urdu (Native)", "Punjabi (Conversational)"],
-  accomplishments: [
-    "Cleared all 8 CAF papers in first attempt – top 15% nationally in Financial Reporting",
-    "Certificate of Merit – Board of Intermediate Education, Lahore (2022)",
-    "1st Place, Inter-School Business Plan Competition, Punjab College (2021)",
-    "Student Council Secretary, City Grammar School (2019 – 2020)",
-    "Volunteer, Edhi Foundation – monthly food distribution drive (2021 – present)",
-  ],
-  references: "Available on request",
-};
-
-const DEFAULT: CVData = {
-  themeColor: "#1a1a1a",
-  fontFamily: "'Arial','Helvetica Neue',sans-serif",
-  layout: "classic",
-  spacing: "normal",
-  name: "", phone: "", email: "", linkedin: "", photo: "",
-  icapStage: "CAF Qualified", crn: "", fts: "", papersCleared: "",
-  profile: "",
-  education: [
-    { level: "CAF | ICAP", institution: "ICAP", grade: "", years: "" },
-    { level: "", institution: "", grade: "", years: "" },
-  ],
-  workExp: [{ company: "", role: "", period: "", bullets: [""] }],
-  courses: [{ name: "", provider: "", year: "" }],
-  expertise: [""], certifications: [""], skills: ["Attention to Detail", "Adaptability", "Team Collaboration"],
-  languages: ["English", "Urdu"],
-  accomplishments: [""],
-  references: "Available on request",
-};
-
-const ICAP_STAGES = [
-  "PRC Student", "PRC Qualified",
-  "AFC Student (Old Scheme)", "AFC Qualified (Old Scheme)",
-  "CAF Student", "CAF Student (Result Awaited)", "CAF Qualified",
-  "CFAP Student", "CFAP Student (Result Awaited)", "CFAP Qualified",
-  "ACA – Qualified Chartered Accountant",
-];
-const EDU_PRESETS = ["Matric (SSC)", "Inter (HSSC)", "O-Levels", "A-Levels", "Bachelor's", "Master's", "CAF | ICAP", "CFAP | ICAP", "AFC | ICAP (Old Scheme)", "Other"];
 const STEPS = [
   { id: "personal", label: "Personal" },
-  { id: "ca", label: "CA Info" },
+  { id: "ca", label: "Qualification" },
   { id: "education", label: "Education" },
   { id: "profile", label: "Profile" },
   { id: "experience", label: "Experience" },
@@ -202,75 +95,12 @@ function ListEditor({ items, onChange, placeholder }: { items: string[]; onChang
           {items.length > 1 && <button onClick={() => onChange(items.filter((_, j) => j !== i))} className="p-2.5 rounded-xl shrink-0" style={{ color: "#F87171", background: "rgba(248,113,113,0.08)", border: "1px solid rgba(248,113,113,0.2)" }}><Trash2 className="w-4 h-4" /></button>}
         </div>
       ))}
-      <motion.button whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }} onClick={() => onChange([...items, ""])} className="flex items-center gap-2 text-sm font-semibold px-4 py-2 rounded-xl" style={{ color: "var(--green)", background: "rgba(61,179,113,0.08)", border: "1px solid rgba(61,179,113,0.15)", cursor: "pointer" }}>
+      <motion.button whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }} onClick={() => onChange([...items, ""])} className="flex items-center gap-2 text-sm font-semibold px-4 py-2 rounded-xl" style={{ color: "var(--green)", background: "color-mix(in srgb, var(--green) 8%, transparent)", border: "1px solid color-mix(in srgb, var(--green) 15%, transparent)", cursor: "pointer" }}>
         <Plus className="w-4 h-4" /> Add
       </motion.button>
     </div>
   );
 }
-
-/* ══════════════════════════════════════
-   CV PREVIEW  — full A4, fills the page
-   ══════════════════════════════════════ */
-
-// Sizes in px — these render inside a 794px-wide (210mm) container.
-// At 96 dpi: 1mm ≈ 3.78px, so 10px ≈ 2.6mm ≈ 7.5pt.
-// We target proper readable print sizes (~9-11pt body).
-const SZ = {
-  name: 30,
-  stage: 11.5,
-  contact: 10,
-  sectionR: 11,   // right-col section headings
-  sectionL: 10,   // left-col section headings
-  entryHead: 11,  // company / qualification bold title
-  subHead: 10,    // role / institution line
-  body: 10,       // bullet text
-  small: 9.5,     // labels, dates
-  tag: 9,         // skill tags
-};
-
-const GAP = {
-  section: "var(--gap-section)",   // between sections
-  entry: "var(--gap-entry)",       // between entries within a section
-  bullet: "var(--gap-bullet)",     // between bullet lines
-  line: 2,                         // between label lines
-};
-
-const getGaps = (s?: "compact" | "normal" | "relaxed") => {
-  if (s === "compact") return { section: 12, entry: 10, bullet: 2 };
-  if (s === "relaxed") return { section: 22, entry: 18, bullet: 6 };
-  return { section: 16, entry: 13, bullet: 4 }; // normal
-};
-
-function SectionHead({ title, side = "right" }: { title: string; side?: "left" | "right" }) {
-  const isRight = side === "right";
-  return (
-    <div style={{
-      fontFamily: "'Arial Black','Arial',sans-serif",
-      fontWeight: 900,
-      fontSize: isRight ? SZ.sectionR : SZ.sectionL,
-      letterSpacing: isRight ? 1.8 : 1.5,
-      textTransform: "uppercase" as const,
-      paddingBottom: 4,
-      marginBottom: 8,
-      borderBottom: isRight ? "2.5px solid var(--cv-accent)" : "1.5px solid var(--cv-accent)",
-      color: "var(--cv-accent)",
-    }}>
-      {title}
-    </div>
-  );
-}
-
-/* ── Bullet row helper ── */
-function Bullet({ text }: { text: string }) {
-  return (
-    <div style={{ display: "flex", gap: 7, marginBottom: GAP.bullet }}>
-      <span style={{ fontSize: SZ.body, color: "#444", flexShrink: 0, marginTop: 1 }}>•</span>
-      <span style={{ fontSize: SZ.body, lineHeight: 1.55, color: "#222" }}>{text}</span>
-    </div>
-  );
-}
-
 
 /* ── Live ATS Scorer ── */
 function getCVScore(cv: CVData) {
@@ -308,363 +138,129 @@ function ATSScoreRing({ score }: { score: number }) {
   );
 }
 
-function CVPreview({ cv }: { cv: CVData }) {
-  const gaps = getGaps(cv.spacing);
+interface PageInfo { breaks: number[]; height: number }
 
-  if (cv.layout === "executive") {
-    return (
-      <div id="cv-preview" style={{ fontFamily: cv.fontFamily, background: "#fff", color: "#1a1a1a", "--cv-accent": cv.themeColor, "--gap-section": `${gaps.section}px`, "--gap-entry": `${gaps.entry}px`, "--gap-bullet": `${gaps.bullet}px` } as React.CSSProperties} className="w-[210mm] min-h-[297mm] p-[15mm_18mm] box-border mx-auto relative text-[10px]">
-        {/* Name & Contact */}
-        <div className="text-center mb-5">
-          <h1 style={{ fontSize: 26, fontFamily: "'Arial Black','Arial',sans-serif", color: "var(--cv-accent)", letterSpacing: 1.5, textTransform: "uppercase", marginBottom: 3 }}>{cv.name}</h1>
-          <div style={{ fontSize: SZ.small, color: "#333", display: "flex", justifyContent: "center", gap: 8, flexWrap: "wrap", marginBottom: 5 }}>
-            {cv.phone && <span>{cv.phone}</span>}
-            {cv.phone && cv.email && <span>|</span>}
-            {cv.email && <span>{cv.email}</span>}
-            {cv.linkedin && <><span>|</span><span>{cv.linkedin}</span></>}
-          </div>
-          {(cv.icapStage || cv.papersCleared) && (
-            <div style={{ fontStyle: "italic", color: "#444" }}>
-              {cv.icapStage} {cv.crn && `(CRN: ${cv.crn})`} {cv.fts && `| FTS: ${cv.fts}`} {cv.papersCleared && `— ${cv.papersCleared}`}
-            </div>
-          )}
-          <div style={{ borderBottom: "1.5px solid var(--cv-accent)", marginTop: 8 }} />
-        </div>
-
-        {/* Profile */}
-        {cv.profile && (
-          <div className="mb-4">
-            <SectionHead title="Professional Profile" side="left" />
-            <p style={{ fontSize: SZ.body, lineHeight: 1.6, color: "#222", textAlign: "justify" }}>{cv.profile}</p>
-          </div>
-        )}
-
-        {/* Work Exp */}
-        {cv.workExp.some(w => w.company) && (
-          <div className="mb-4">
-            <SectionHead title="Professional Experience" side="left" />
-            {cv.workExp.filter(w => w.company).map((w, i) => (
-              <div key={i} className="mb-3">
-                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline" }}>
-                  <span style={{ fontSize: SZ.entryHead, fontWeight: 700 }}>{w.company}</span>
-                  <span style={{ fontSize: SZ.small, color: "#555", fontStyle: "italic" }}>{w.period}</span>
-                </div>
-                {w.role && <p style={{ fontSize: SZ.subHead, fontStyle: "italic", marginBottom: 3, color: "#444" }}>{w.role}</p>}
-                {w.bullets.filter(Boolean).map((b, j) => <Bullet key={j} text={b} />)}
-              </div>
-            ))}
-          </div>
-        )}
-
-        {/* Education */}
-        {cv.education.filter(e => e.level || e.institution).length > 0 && (
-          <div className="mb-4">
-            <SectionHead title="Education & Qualifications" side="left" />
-            {cv.education.filter(e => e.level || e.institution).map((ed, i) => (
-              <div key={i} className="mb-2">
-                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline" }}>
-                  <span style={{ fontSize: SZ.entryHead, fontWeight: 700 }}>{ed.level} {ed.institution && <span style={{fontWeight: 400}}>— {ed.institution}</span>}</span>
-                  <span style={{ fontSize: SZ.small, color: "#555", fontStyle: "italic" }}>{ed.years}</span>
-                </div>
-                {ed.grade && <p style={{ fontSize: SZ.body, color: "#333", marginTop: 1 }}>{ed.grade}</p>}
-              </div>
-            ))}
-          </div>
-        )}
-
-        {/* Courses Grid */}
-        <div style={{ display: "flex", gap: "20px" }}>
-          {cv.courses.filter(c => c.name).length > 0 && (
-            <div style={{ flex: 1 }}>
-              <SectionHead title="Courses & Training" side="left" />
-              {cv.courses.filter(c => c.name).map((c, i) => (
-                <div key={i} className="mb-1.5">
-                  <span style={{ fontWeight: 700, fontSize: SZ.subHead }}>{c.name}</span>
-                  {c.provider && <span style={{ fontSize: SZ.small, color: "#555" }}> — {c.provider}</span>}
-                </div>
-              ))}
-            </div>
-          )}
-          {(cv.expertise.length > 0 || cv.skills.length > 0) && (
-            <div style={{ flex: 1 }}>
-              <SectionHead title="Skills & Expertise" side="left" />
-              {cv.expertise.filter(Boolean).length > 0 && (
-                <div className="mb-1"><strong>Technical:</strong> {cv.expertise.filter(Boolean).join(", ")}</div>
-              )}
-              {cv.skills.filter(Boolean).length > 0 && (
-                <div><strong>Soft Skills:</strong> {cv.skills.filter(Boolean).join(", ")}</div>
-              )}
-            </div>
-          )}
-        </div>
-
-        {/* Achievements */}
-        {cv.accomplishments.filter(Boolean).length > 0 && (
-          <div className="mt-4">
-            <SectionHead title={cv.workExp.some(w => w.company) ? "Accomplishments" : "Projects & Extracurriculars"} side="left" />
-            {cv.accomplishments.filter(Boolean).map((a, i) => (
-              <div key={i} className="mb-1"><Bullet text={a} /></div>
-            ))}
-          </div>
-        )}
-      </div>
-    );
-  }
-
+/* ── Scaled live A4 preview with page-break markers (zero phantom whitespace below) ── */
+function ScaledPreview({ cv, scale, pages }: { cv: CVData; scale: number; pages: PageInfo }) {
+  const h = Math.max(A4_H, pages.height);
   return (
-    <div
-      id="cv-preview"
-      style={{
-        fontFamily: cv.fontFamily,
-        background: "#ffffff",
-        color: "#1a1a1a",
-        "--cv-accent": cv.themeColor,
-        "--gap-section": `${gaps.section}px`,
-        "--gap-entry": `${gaps.entry}px`,
-        "--gap-bullet": `${gaps.bullet}px`,
-        width: "210mm",
-        minHeight: "297mm",
-        padding: "13mm 15mm 12mm 15mm",
-        boxSizing: "border-box",
-        margin: "0 auto",
-        display: "flex",
-        flexDirection: "column",
-      } as React.CSSProperties}
-    >
-      {/* ═══ HEADER ═══ */}
-      <div style={{ paddingBottom: 12, marginBottom: 13, borderBottom: "3px solid var(--cv-accent)" }}>
-        <div style={{ display: "flex", alignItems: "flex-start", gap: 18 }}>
-          {cv.photo && (
-            <img src={cv.photo} alt="" style={{ width: 84, height: 84, borderRadius: "50%", objectFit: "cover", objectPosition: "center top", flexShrink: 0, border: "2px solid #ccc" }} />
-          )}
-          <div style={{ flex: 1 }}>
-            <div style={{ fontFamily: "'Arial Black','Arial',sans-serif", fontSize: SZ.name, fontWeight: 900, textTransform: "uppercase" as const, letterSpacing: 2.5, lineHeight: 1.1, marginBottom: 5, wordBreak: "break-word" as const }}>
-              {cv.name || "YOUR FULL NAME"}
-            </div>
-            <div style={{ fontSize: SZ.stage, fontWeight: 400, color: "#444", letterSpacing: 2.5, textTransform: "uppercase" as const, marginBottom: 8 }}>
-              {cv.icapStage}{cv.fts ? ` | FTS ${cv.fts}` : ""}
-            </div>
-            <div style={{ display: "flex", flexWrap: "wrap" as const, gap: "4px 20px" }}>
-              {cv.phone && <span style={{ fontSize: SZ.contact, color: "#333" }}>Tel: {cv.phone}</span>}
-              {cv.email && <span style={{ fontSize: SZ.contact, color: "#333" }}>Email: {cv.email}</span>}
-              {cv.linkedin && <span style={{ fontSize: SZ.contact, color: "#333" }}>LinkedIn: {cv.linkedin}</span>}
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* ═══ PROFILE — full width ═══ */}
-      {cv.profile && (
-        <div style={{ marginBottom: GAP.section }}>
-          <SectionHead title="Professional Profile" side="right" />
-          <p style={{ fontSize: SZ.body, lineHeight: 1.65, color: "#222", textAlign: "justify" as const }}>{cv.profile}</p>
-        </div>
-      )}
-
-      {/* ═══ TWO COLUMNS ═══ */}
-      <div style={{ display: "flex", gap: 18, flex: 1 }}>
-
-        {/* ── LEFT SIDEBAR – 34% ── */}
-        <div style={{ width: "34%", flexShrink: 0 }}>
-
-          {/* ICAP ID */}
-          {(cv.crn || cv.papersCleared) && (
-            <div style={{ marginBottom: GAP.section, padding: "8px 10px", background: "#f4f4f4", borderLeft: "3.5px solid #1a1a1a" }}>
-              {cv.crn && <p style={{ fontSize: SZ.subHead, fontWeight: 700, marginBottom: 3 }}>CRN: {cv.crn}</p>}
-              {cv.papersCleared && <p style={{ fontSize: SZ.body, color: "#333", lineHeight: 1.5 }}>{cv.papersCleared}</p>}
-            </div>
-          )}
-
-          {/* CERTIFICATIONS */}
-          {cv.certifications.filter(Boolean).length > 0 && (
-            <div style={{ marginBottom: GAP.section }}>
-              <SectionHead title="Certifications" side="left" />
-              {cv.certifications.filter(Boolean).map((c, i) => (
-                <div key={i} style={{ display: "flex", gap: 6, marginBottom: 7 }}>
-                  <span style={{ fontSize: SZ.body, color: "#333", flexShrink: 0, marginTop: 1 }}>■</span>
-                  <span style={{ fontSize: SZ.body, lineHeight: 1.5, color: "#222" }}>{c}</span>
-                </div>
-              ))}
-            </div>
-          )}
-
-          {/* IT & TECHNICAL */}
-          {cv.expertise.filter(Boolean).length > 0 && (
-            <div style={{ marginBottom: GAP.section }}>
-              <SectionHead title="IT & Technical" side="left" />
-              {cv.expertise.filter(Boolean).map((e, i) => (
-                <div key={i} style={{ display: "flex", gap: 6, marginBottom: 6 }}>
-                  <span style={{ fontSize: SZ.body, color: "#555", flexShrink: 0 }}>▸</span>
-                  <span style={{ fontSize: SZ.body, color: "#222", lineHeight: 1.5 }}>{e}</span>
-                </div>
-              ))}
-            </div>
-          )}
-
-          {/* SOFT SKILLS */}
-          {cv.skills.filter(Boolean).length > 0 && (
-            <div style={{ marginBottom: GAP.section }}>
-              <SectionHead title="Core Skills" side="left" />
-              {cv.skills.filter(Boolean).map((sk, i) => (
-                <div key={i} style={{ display: "flex", gap: 6, marginBottom: 6 }}>
-                  <span style={{ fontSize: SZ.body, color: "#555", flexShrink: 0 }}>▸</span>
-                  <span style={{ fontSize: SZ.body, color: "#222", lineHeight: 1.5 }}>{sk}</span>
-                </div>
-              ))}
-            </div>
-          )}
-
-          {/* LANGUAGES */}
-          {cv.languages.filter(Boolean).length > 0 && (
-            <div style={{ marginBottom: GAP.section }}>
-              <SectionHead title="Languages" side="left" />
-              {cv.languages.filter(Boolean).map((l, i) => (
-                <p key={i} style={{ fontSize: SZ.body, color: "#222", marginBottom: 5, lineHeight: 1.4 }}>{l}</p>
-              ))}
-            </div>
-          )}
-
-          {/* REFERENCES */}
-          {cv.references && (
-            <div>
-              <SectionHead title="References" side="left" />
-              <p style={{ fontSize: SZ.body, color: "#555", fontStyle: "italic", lineHeight: 1.5 }}>{cv.references}</p>
-            </div>
-          )}
-        </div>
-
-        {/* ── RIGHT MAIN COLUMN ── */}
-        <div style={{ flex: 1 }}>
-
-          {/* EDUCATION */}
-          {cv.education.filter(e => e.level || e.institution).length > 0 && (
-            <div style={{ marginBottom: GAP.section }}>
-              <SectionHead title="Education" side="right" />
-              {cv.education.filter(e => e.level || e.institution).map((ed, i) => (
-                <div key={i} style={{ marginBottom: GAP.entry }}>
-                  <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", flexWrap: "wrap" as const, gap: "2px 8px", marginBottom: 2 }}>
-                    <span style={{ fontSize: SZ.entryHead, fontWeight: 700 }}>{ed.level}</span>
-                    {ed.years && <span style={{ fontSize: SZ.small, color: "#555", fontStyle: "italic" as const, whiteSpace: "nowrap" as const }}>{ed.years}</span>}
-                  </div>
-                  {ed.institution && <p style={{ fontSize: SZ.subHead, color: "#444", marginBottom: 3 }}>{ed.institution}</p>}
-                  {ed.grade && <Bullet text={ed.grade} />}
-                </div>
-              ))}
-            </div>
-          )}
-
-          {/* WORK EXPERIENCE */}
-          {cv.workExp.some(w => w.company) && (
-            <div style={{ marginBottom: GAP.section }}>
-              <SectionHead title="Work Experience" side="right" />
-              {cv.workExp.filter(w => w.company).map((w, i) => (
-                <div key={i} style={{ marginBottom: GAP.entry }}>
-                  <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", flexWrap: "wrap" as const, gap: "2px 8px", marginBottom: 2 }}>
-                    <span style={{ fontSize: SZ.entryHead, fontWeight: 700 }}>{w.company}</span>
-                    <span style={{ fontSize: SZ.small, color: "#555", fontStyle: "italic" as const }}>{w.period}</span>
-                  </div>
-                  {w.role && <p style={{ fontSize: SZ.subHead, color: "#444", marginBottom: 5 }}>{w.role}</p>}
-                  {w.bullets.filter(Boolean).map((b, j) => <Bullet key={j} text={b} />)}
-                </div>
-              ))}
-            </div>
-          )}
-
-          {/* COURSES & TRAINING */}
-          {cv.courses.filter(c => c.name).length > 0 && (
-            <div style={{ marginBottom: GAP.section }}>
-              <SectionHead title="Courses & Training" side="right" />
-              {cv.courses.filter(c => c.name).map((c, i) => (
-                <div key={i} style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", marginBottom: 8, flexWrap: "wrap" as const, gap: "2px 8px" }}>
-                  <div style={{ flex: 1 }}>
-                    <span style={{ fontSize: SZ.subHead, fontWeight: 700, color: "#1a1a1a" }}>{c.name}</span>
-                    {c.provider && <span style={{ fontSize: SZ.small, color: "#555" }}>{" — "}{c.provider}</span>}
-                  </div>
-                  {c.year && <span style={{ fontSize: SZ.small, color: "#777", fontStyle: "italic" as const, whiteSpace: "nowrap" as const }}>{c.year}</span>}
-                </div>
-              ))}
-            </div>
-          )}
-
-          {/* ACCOMPLISHMENTS */}
-          {cv.accomplishments.filter(Boolean).length > 0 && (
-            <div>
-              <SectionHead title="Accomplishments & Achievements" side="right" />
-              {cv.accomplishments.filter(Boolean).map((a, i) => (
-                <div key={i} style={{ marginBottom: 7 }}>
-                  <Bullet text={a} />
-                </div>
-              ))}
-            </div>
-          )}
-        </div>
-      </div>
-    </div>
-  );
-}
-
-/* ── Scaled preview (zero phantom whitespace below) ── */
-function ScaledPreview({ cv, scale }: { cv: CVData; scale: number }) {
-  const A4_W = 794;
-  const A4_H = 1123;
-  return (
-    <div style={{ width: A4_W * scale, height: A4_H * scale, overflow: "hidden", position: "relative", flexShrink: 0 }}>
-      <div style={{ position: "absolute", top: 0, left: 0, transformOrigin: "top left", transform: `scale(${scale})`, width: A4_W, height: A4_H }}>
+    <div style={{ width: A4_W * scale, height: h * scale, overflow: "hidden", position: "relative", flexShrink: 0, background: "#fff", boxShadow: "0 10px 30px rgba(0,0,0,0.18)" }}>
+      <div style={{ position: "absolute", top: 0, left: 0, transformOrigin: "top left", transform: `scale(${scale})`, width: A4_W }}>
         <CVPreview cv={cv} />
       </div>
+      {pages.breaks.map((b, i) => (
+        <div key={b} aria-hidden="true" style={{ position: "absolute", left: 0, right: 0, top: b * scale, borderTop: "2px dashed #ef4444", pointerEvents: "none" }}>
+          <span style={{ position: "absolute", right: 6, top: 3, fontSize: 10, fontWeight: 700, color: "#fff", background: "#ef4444", borderRadius: 4, padding: "1px 6px", fontFamily: "var(--font-inter), sans-serif" }}>Page {i + 2}</span>
+        </div>
+      ))}
     </div>
   );
 }
 
+/** Width of an element, tracked with ResizeObserver. */
+function useWidth<T extends HTMLElement>(): [React.RefObject<T | null>, number] {
+  const ref = useRef<T>(null);
+  const [w, setW] = useState(0);
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const ro = new ResizeObserver(([e]) => setW(e.contentRect.width));
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, []);
+  return [ref, w];
+}
 
 /* ══════════════════════════════════════
    MAIN COMPONENT
    ══════════════════════════════════════ */
-export default function CVMaker() {
+function CVMakerInner({ hydrated }: { hydrated: boolean }) {
   const [cv, setCv] = useState<CVData>(() => {
-    if (typeof window === "undefined") return DEMO;
-    try { const s = localStorage.getItem(LS_KEY); return s ? { ...DEMO, ...JSON.parse(s) } : DEMO; } catch { return DEMO; }
+    if (!hydrated) return DEMO;
+    try { const s = localStorage.getItem(LS_KEY); return s ? normalizeCV(JSON.parse(s)) : DEMO; } catch { return DEMO; }
   });
   const [step, setStep] = useState(0);
   const [showPreview, setShowPreview] = useState(false);
   const [restored, setRestored] = useState(() => {
-    if (typeof window === "undefined") return false;
-    return !!localStorage.getItem(LS_KEY);
+    if (!hydrated) return false;
+    try { return !!localStorage.getItem(LS_KEY); } catch { return false; }
   });
   const [mobileScale, setMobileScale] = useState(0.42);
   const [showTour, setShowTour] = useState(false);
+  const [savedAt, setSavedAt] = useState<string | null>(null);
+  const [pages, setPages] = useState<PageInfo>({ breaks: [], height: A4_H });
+  const [deskRef, deskWidth] = useWidth<HTMLDivElement>();
+  const [mobRef, mobWidth] = useWidth<HTMLDivElement>();
+  const refEl = useRef<HTMLDivElement>(null);
 
   const startTour = () => setShowTour(true);
+  const openPreview = () => {
+    setMobileScale(Math.min(0.6, (window.innerWidth - 32) / A4_W));
+    setShowPreview(true);
+  };
 
   useEffect(() => {
-    if (showPreview && typeof window !== "undefined") {
-      setMobileScale(Math.min(0.42, (window.innerWidth - 32) / 794));
-    }
-  }, [showPreview, setMobileScale]);
+    if (!hydrated) return;
+    let seen = true;
+    try { seen = !!localStorage.getItem("cahub_cv_tour_seen"); } catch { /* storage blocked */ }
+    if (seen) return;
+    const t = setTimeout(() => setShowTour(true), 1200);
+    return () => clearTimeout(t);
+  }, [hydrated]);
 
-
+  // Track page breaks of the off-screen reference sheet (the same element the PDF is made from)
   useEffect(() => {
-    if (typeof window !== "undefined" && !localStorage.getItem("cahub_cv_tour_seen")) {
-      setTimeout(() => setShowTour(true), 1200);
-    }
+    const el = refEl.current;
+    if (!el) return;
+    let raf = 0;
+    const measure = () => {
+      cancelAnimationFrame(raf);
+      raf = requestAnimationFrame(() => {
+        const root = el.firstElementChild as HTMLElement | null;
+        if (!root) return;
+        const layout = measureLayout(root);
+        const breaks = breaksOf(paginate(layout));
+        const height = breaks.length ? Math.max(layout.height, layout.contentBottom + 40) : A4_H;
+        setPages(prev => (prev.height === height && prev.breaks.join() === breaks.join() ? prev : { breaks, height }));
+      });
+    };
+    const ro = new ResizeObserver(measure);
+    ro.observe(el);
+    const mo = new MutationObserver(measure);
+    mo.observe(el, { subtree: true, childList: true, characterData: true, attributes: true });
+    return () => { ro.disconnect(); mo.disconnect(); cancelAnimationFrame(raf); };
   }, []);
 
-
+  // ATS mode downloads a text PDF laid out by jsPDF, so count its pages directly.
+  const [atsPages, setAtsPages] = useState(1);
+  useEffect(() => {
+    if (!cv.atsMode) return;
+    let alive = true;
+    const t = setTimeout(() => { atsPdf(cv).then(pdf => alive && setAtsPages(pdf.getNumberOfPages())).catch(() => {}); }, 400);
+    return () => { alive = false; clearTimeout(t); };
+  }, [cv]);
+  const pageCount = cv.atsMode ? atsPages : pages.breaks.length + 1;
 
   const [dlSending, setDlSending] = useState(false);
   const [dlError, setDlError] = useState<string | null>(null);
   const [rendering, setRendering] = useState(false);
 
-  // Auto-save on every change
+  // Auto-save on every change (only once the saved CV has been restored)
   useEffect(() => {
+    if (!hydrated) return;
     const t = setTimeout(() => {
-      try { localStorage.setItem(LS_KEY, JSON.stringify(cv)); } catch {}
+      try {
+        localStorage.setItem(LS_KEY, JSON.stringify(cv));
+        setSavedAt(new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }));
+      } catch {
+        setSavedAt(null);
+      }
     }, 500);
     return () => clearTimeout(t);
-  }, [cv]);
+  }, [cv, hydrated]);
 
   const set = (field: keyof CVData, value: unknown) => {
-    if (field === "layout" || field === "fontFamily" || field === "themeColor" || field === "spacing") {
+    if (field === "layout" || field === "fontFamily" || field === "themeColor" || field === "spacing" || field === "atsMode") {
       setRendering(true);
       setTimeout(() => setRendering(false), 450);
     }
@@ -680,94 +276,63 @@ export default function CVMaker() {
   };
 
   const generatePDF = async (filename: string): Promise<boolean> => {
-    const refEl = document.getElementById("cv-pdf-reference");
-    if (!refEl) return false;
-
-    // Bring element into viewport. CRITICAL: opacity must be > 0 (even 0.001)
-    // because html2canvas skips truly invisible elements, producing a blank
-    // canvas that causes the "problem printing a page" error in PDF viewers.
-    const savedStyle = refEl.style.cssText;
-    refEl.style.cssText =
-      "position:fixed;top:0;left:0;width:794px;height:1123px;z-index:-9999;opacity:0.001;pointer-events:none;overflow:hidden;";
-
-    try {
-      // Give browser 3 frames to fully paint the repositioned element
-      await new Promise<void>(r =>
-        requestAnimationFrame(() =>
-          requestAnimationFrame(() =>
-            requestAnimationFrame(() => r())
-          )
-        )
-      );
-
-      // Resolve CSS custom properties (var(--cv-accent) etc.) at paint time
-      // so html2canvas sees real colour values, not unresolved variable names.
-      const resolveVars = (el: HTMLElement) => {
-        const props = [
-          "--cv-accent",
-          "--gap-section",
-          "--gap-entry",
-          "--gap-bullet",
-        ] as const;
-        props.forEach(p => {
-          const val = getComputedStyle(el).getPropertyValue(p).trim();
-          if (val) el.style.setProperty(p, val);
-        });
-      };
-
-      const canvas = await html2canvas(refEl, {
-        scale: 2,
-        useCORS: true,
-        allowTaint: true,
-        logging: false,
-        backgroundColor: "#ffffff",
-        width: 794,
-        height: 1123,
-        windowWidth: 794,
-        windowHeight: 1123,
-        x: 0,
-        y: 0,
-        onclone: (_doc: Document, clonedEl: HTMLElement) => {
-          // Resolve CSS vars on the cloned element so html2canvas can read them
-          resolveVars(clonedEl);
-          clonedEl.querySelectorAll<HTMLElement>("*").forEach(resolveVars);
-          // Force white background and full opacity so canvas is never blank
-          clonedEl.style.background = "#ffffff";
-          clonedEl.style.opacity = "1";
-        },
-      });
-
-      refEl.style.cssText = savedStyle;
-
-      // Verify canvas has actual content (not blank due to render failure)
-      const ctx = canvas.getContext("2d");
-      if (ctx) {
-        const px = ctx.getImageData(50, 50, 1, 1).data;
-        if (px[3] === 0) {
-          console.warn("PDF canvas appears blank — aborting");
-          return false;
-        }
+    // ATS mode: real vector text, nothing to render
+    if (cv.atsMode) {
+      try {
+        (await atsPdf(cv)).save(filename);
+        return true;
+      } catch (err) {
+        console.error("PDF Generation Error:", err);
+        return false;
       }
+    }
+    const holder = refEl.current;
+    const root = holder?.firstElementChild as HTMLElement | null;
+    if (!holder || !root) return false;
 
-      const imgData = canvas.toDataURL("image/jpeg", 0.95);
-      const pdf = new jsPDF({ orientation: "portrait", unit: "mm", format: "a4" });
-      pdf.addImage(imgData, "JPEG", 0, 0, pdf.internal.pageSize.getWidth(), pdf.internal.pageSize.getHeight());
-
-      // ── Download strategy ──────────────────────────────────────────────
-      // Android Chrome intercepts any programmatic click on a PDF blob URL
-      // and routes it through the OS print spooler, which shows "There was
-      // a problem printing the page."  jsPDF's .save() uses a proper
-      // application/octet-stream trick that bypasses the print flow and
-      // triggers a true file download on all platforms including Android.
-      // ──────────────────────────────────────────────────────────────────
+    // Bring the sheet into the viewport. CRITICAL: opacity must be > 0 (even 0.001)
+    // because html2canvas skips truly invisible elements, producing a blank canvas.
+    const savedStyle = holder.style.cssText;
+    holder.style.cssText = `position:fixed;top:0;left:0;width:${A4_W}px;z-index:-9999;opacity:0.001;pointer-events:none;`;
+    try {
+      const pdf = await cvToPdf(root, { title: `${cv.name || "CV"} – CV` });
+      // jsPDF's .save() uses an octet-stream download, which avoids Android Chrome routing
+      // PDF blob URLs through the print spooler ("There was a problem printing the page").
       pdf.save(filename);
       return true;
     } catch (err) {
-      refEl.style.cssText = savedStyle;
       console.error("PDF Generation Error:", err);
       return false;
+    } finally {
+      holder.style.cssText = savedStyle;
     }
   };
+
+  /* ── Qualification + section helpers ── */
+  const qual = qualOf(cv);
+  const changeBody = (id: QualBodyId) => {
+    const b = QUAL_BODIES[id];
+    setCv(p => ({
+      ...p,
+      qualBody: id,
+      icapStage: b.stages.includes(p.icapStage) ? p.icapStage : b.stages[0],
+      papersPassed: [],
+    }));
+  };
+  const togglePaper = (code: string) => {
+    const cur = cv.papersPassed ?? [];
+    set("papersPassed", cur.includes(code) ? cur.filter(c => c !== code) : [...cur, code]);
+  };
+  const order = sectionOrder(cv);
+  const hidden = hiddenSections(cv);
+  const moveSection = (i: number, dir: -1 | 1) => {
+    const n = [...order];
+    const j = i + dir;
+    if (j < 0 || j >= n.length) return;
+    [n[i], n[j]] = [n[j], n[i]];
+    set("sectionOrder", n);
+  };
+  const toggleSection = (s: SectionId) => set("hiddenSections", hidden.includes(s) ? hidden.filter(x => x !== s) : [...hidden, s]);
 
   const handlePrint = async () => {
     setDlSending(true);
@@ -810,7 +375,7 @@ export default function CVMaker() {
           </div>
           <div>
             <FieldLabel>Profile Photo</FieldLabel>
-            <label className="flex items-center justify-between px-4 py-3 rounded-xl cursor-pointer text-sm" style={{ border: "2px dashed var(--border)", color: "var(--text-2)", background: cv.photo ? "rgba(61,179,113,0.05)" : "transparent" }}>
+            <label className="flex items-center justify-between px-4 py-3 rounded-xl cursor-pointer text-sm" style={{ border: "2px dashed var(--border)", color: "var(--text-2)", background: cv.photo ? "color-mix(in srgb, var(--green) 5%, transparent)" : "transparent" }}>
               <span>{cv.photo ? "✓ Photo uploaded — tap to change" : "Tap to upload passport photo"}</span>
               {cv.photo && <img src={cv.photo} alt="" style={{ width: 36, height: 36, borderRadius: "50%", objectFit: "cover" }} />}
               <input type="file" accept="image/*" onChange={handlePhoto} className="hidden" />
@@ -836,33 +401,75 @@ export default function CVMaker() {
       /* ── CA Info ── */
       case 1: return (
         <div className="space-y-4">
+          <div>
+            <FieldLabel required>Professional Body</FieldLabel>
+            <div className="grid grid-cols-3 gap-1.5" role="radiogroup" aria-label="Professional body">
+              {QUAL_BODY_IDS.map(id => {
+                const on = (cv.qualBody ?? "icap") === id;
+                return (
+                  <button key={id} type="button" role="radio" aria-checked={on} onClick={() => changeBody(id)}
+                    className="text-xs font-bold px-2 py-2.5 rounded-xl transition-colors"
+                    style={{ background: on ? "var(--green)" : "var(--bg-3)", color: on ? "#fff" : "var(--text-2)", border: "1px solid var(--border)", cursor: "pointer" }}>
+                    {QUAL_BODIES[id].label}
+                  </button>
+                );
+              })}
+            </div>
+            <Hint>{qual.full}</Hint>
+          </div>
           <Tip>
             <p className="font-bold mb-1" style={{ color: "var(--green)" }}>What shows on your CV header</p>
-            <p>Your ICAP stage + FTS number appear under your name — e.g. <em>&quot;CAF Qualified | FTS 42&quot;</em></p>
+            <p>{qual.hasFts ? "Your stage + FTS number appear" : "Your stage appears"} under your name — e.g. <em>&quot;{qual.hasFts ? "CAF Qualified | FTS 42" : qual.stages[1] ?? qual.stages[0]}&quot;</em></p>
           </Tip>
           <div>
-            <FieldLabel required>Your ICAP Stage</FieldLabel>
+            <FieldLabel required>Your {qual.label} Stage</FieldLabel>
             <select value={cv.icapStage} onChange={e => set("icapStage", e.target.value)}
               className="w-full rounded-xl px-4 py-3 text-sm focus:outline-none"
               style={{ background: "var(--bg)", border: "1px solid var(--border)", color: "var(--text-1)", fontFamily: "var(--font-inter), sans-serif" }}>
-              {ICAP_STAGES.map(s => <option key={s} value={s}>{s}</option>)}
+              {!qual.stages.includes(cv.icapStage) && cv.icapStage && <option value={cv.icapStage}>{cv.icapStage}</option>}
+              {qual.stages.map(s => <option key={s} value={s}>{s}</option>)}
             </select>
-            <Hint>Old scheme: choose AFC. New scheme: PRC → CAF → CFAP.</Hint>
+            {qual.id === "icap" && <Hint>Old scheme: choose AFC. New scheme: PRC → CAF → CFAP.</Hint>}
+          </div>
+          {qual.hasFts && (
+            <div>
+              <FieldLabel>FTS Number</FieldLabel>
+              <Inp value={cv.fts} onChange={v => set("fts", v)} placeholder="e.g. 67" />
+              <Hint>FTS = Firm Training Scheme. Check your ICAP registration letter. Skip if not yet assigned.</Hint>
+            </div>
+          )}
+          <div>
+            <FieldLabel>{qual.idLabel}</FieldLabel>
+            <Inp value={cv.crn} onChange={v => set("crn", v)} placeholder={qual.idPlaceholder} />
+            <Hint>{qual.idHint}</Hint>
           </div>
           <div>
-            <FieldLabel>FTS Number</FieldLabel>
-            <Inp value={cv.fts} onChange={v => set("fts", v)} placeholder="e.g. 67" />
-            <Hint>FTS = Firm Training Scheme. Check your ICAP registration letter. Skip if not yet assigned.</Hint>
+            <FieldLabel>Papers Passed</FieldLabel>
+            <div className="space-y-2.5">
+              {qual.papers.map(g => (
+                <div key={g.group}>
+                  <p className="text-[10px] font-bold uppercase tracking-widest mb-1" style={{ color: "var(--text-3)" }}>{g.group}</p>
+                  <div className="flex flex-wrap gap-1.5">
+                    {g.items.map(pp => {
+                      const on = (cv.papersPassed ?? []).includes(pp.code);
+                      return (
+                        <button key={pp.code} type="button" title={pp.name} aria-pressed={on} onClick={() => togglePaper(pp.code)}
+                          className="text-[11px] px-2.5 py-1.5 rounded-full transition-colors"
+                          style={{ background: on ? "var(--green)" : "var(--bg-3)", color: on ? "#fff" : "var(--text-2)", border: "1px solid var(--border)", cursor: "pointer" }}>
+                          {on ? "✓ " : ""}{pp.code}
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+              ))}
+            </div>
+            <Hint>Tap each paper you have passed. Leave blank to show only the highlight below.</Hint>
           </div>
           <div>
-            <FieldLabel>CRN (Registration No.)</FieldLabel>
-            <Inp value={cv.crn} onChange={v => set("crn", v)} placeholder="e.g. 182743" />
-            <Hint>Your 6-digit ICAP student number. On your exam admit card or student portal.</Hint>
-          </div>
-          <div>
-            <FieldLabel>Papers / Exams Cleared</FieldLabel>
-            <Inp value={cv.papersCleared} onChange={v => set("papersCleared", v)} placeholder="All 8 CAF Papers | First Attempt" />
-            <Hint>Appears under your CRN. Highlight any strong performance here — firms love this.</Hint>
+            <FieldLabel>Exam Highlight</FieldLabel>
+            <Inp value={cv.papersCleared} onChange={v => set("papersCleared", v)} placeholder={qual.papersPlaceholder} />
+            <Hint>One line on your strongest result — first attempts, merits and distinctions get noticed.</Hint>
           </div>
         </div>
       );
@@ -872,13 +479,13 @@ export default function CVMaker() {
         <div className="space-y-4">
           <Tip>
             <p className="font-bold mb-1" style={{ color: "var(--green)" }}>Add ALL your qualifications</p>
-            <p>ICAP first, then latest schooling going upward. Matric, Inter, O-Levels, A-Levels, Bachelor&apos;s — include everything.</p>
+            <p>{qual.label} first, then latest schooling going upward — school, college, A-Levels, degree. Include everything.</p>
           </Tip>
           {cv.education.map((ed, i) => (
             <div key={i} className="rounded-2xl p-4 space-y-3" style={{ background: "var(--bg)", border: "1px solid var(--border)" }}>
               <div className="flex justify-between items-center">
                 <span className="text-xs font-bold uppercase tracking-widest" style={{ color: "var(--text-3)" }}>
-                  {i === 0 ? "1st — ICAP Qualification (top)" : `Qualification ${i + 1}`}
+                  {i === 0 ? `1st — ${qual.label} Qualification (top)` : `Qualification ${i + 1}`}
                 </span>
                 <div className="flex items-center gap-1.5">
                   {i > 0 && <button onClick={() => { const cols = [...cv.education]; const temp = cols[i-1]; cols[i-1] = cols[i]; cols[i] = temp; set("education", cols); }} className="p-1.5 rounded-lg text-gray-500 hover:bg-gray-100 transition"><ArrowUp className="w-3.5 h-3.5" /></button>}
@@ -889,7 +496,7 @@ export default function CVMaker() {
               <div>
                 <FieldLabel required={i === 0}>Level / Name</FieldLabel>
                 <div className="flex flex-wrap gap-1.5 mb-2">
-                  {EDU_PRESETS.map(p => (
+                  {[...BASE_EDU_PRESETS, ...qual.eduPresets, "Other"].map(p => (
                     <button key={p} onClick={() => setEdu(i, "level", p === "Other" ? "" : p)}
                       className="text-xs px-2.5 py-1 rounded-full transition-colors"
                       style={{ background: ed.level === p ? "var(--green)" : "var(--bg-3)", color: ed.level === p ? "#fff" : "var(--text-2)", border: "1px solid var(--border)" }}>
@@ -928,7 +535,7 @@ export default function CVMaker() {
         <div className="space-y-4">
           <Tip>
             <p className="font-bold mb-1" style={{ color: "var(--green)" }}>Your profile in 3–4 sentences:</p>
-            <p>• Who you are (ICAP stage)</p>
+            <p>• Who you are ({qual.label} stage)</p>
             <p>• What you&apos;re looking for (audit trainee / training firm)</p>
             <p>• 1 strong fact (e.g. first attempt, distinction, something impressive)</p>
             <p>• <strong>Never start with</strong>: &quot;I am passionate about...&quot; — be direct</p>
@@ -997,12 +604,12 @@ export default function CVMaker() {
                       </AnimatePresence>
                     </div>
                   ))}
-                  <button onClick={() => setWork(i, "bullets", [...w.bullets, ""])} className="flex items-center gap-2 text-xs font-semibold px-3 py-1.5 rounded-lg" style={{ color: "var(--green)", background: "rgba(61,179,113,0.08)" }}><Plus className="w-3 h-3" /> Add bullet</button>
+                  <button onClick={() => setWork(i, "bullets", [...w.bullets, ""])} className="flex items-center gap-2 text-xs font-semibold px-3 py-1.5 rounded-lg" style={{ color: "var(--green)", background: "color-mix(in srgb, var(--green) 8%, transparent)" }}><Plus className="w-3 h-3" /> Add bullet</button>
                   <div className="pt-2">
                     <p className="text-[10px] font-bold uppercase tracking-widest mb-1.5 flex items-center gap-1" style={{ color: "var(--green)" }}><Sparkles className="w-3 h-3" /> Smart Suggestions</p>
                     <div className="flex flex-wrap gap-1.5">
                       {["Reconciled bank statements", "Prepared financial drafts", "Vouched invoices", "Assisted in audit planning", "Managed client correspondence"].map(sg => (
-                        <button key={sg} onClick={() => setWork(i, "bullets", w.bullets.filter(Boolean).concat(sg))} className="text-[11px] px-2.5 py-1 rounded-full transition-colors cursor-pointer" style={{ background: "rgba(61,179,113,0.05)", border: "1px solid rgba(61,179,113,0.2)", color: "var(--text-1)" }}>
+                        <button key={sg} onClick={() => setWork(i, "bullets", w.bullets.filter(Boolean).concat(sg))} className="text-[11px] px-2.5 py-1 rounded-full transition-colors cursor-pointer" style={{ background: "color-mix(in srgb, var(--green) 5%, transparent)", border: "1px solid color-mix(in srgb, var(--green) 20%, transparent)", color: "var(--text-1)" }}>
                           + {sg}
                         </button>
                       ))}
@@ -1024,16 +631,12 @@ export default function CVMaker() {
       case 5: return (
         <div className="space-y-4">
           <Tip>
-            <p className="font-bold mb-1" style={{ color: "var(--green)" }}>ICAP Mandatory Hands-On Courses (HOCs):</p>
-            <p>These are <strong>required by ICAP</strong> — list them if you&apos;ve completed them:</p>
-            <p>• <strong>Presentation &amp; Personal Effectiveness (PPE)</strong> – mandatory before CFAP</p>
-            <p>• <strong>MS Office for Business</strong> – mandatory before CFAP</p>
-            <p className="mt-1" style={{ color: "var(--text-3)" }}>ES 2021 students also need: Data Analytics &amp; FinTech</p>
-            <p style={{ color: "var(--text-3)" }}>ES 2025 students also need: AI &amp; Data Analytics + Governance &amp; Ethics (at CFAP stage)</p>
+            <p className="font-bold mb-1" style={{ color: "var(--green)" }}>{qual.courseTip.title}</p>
+            {qual.courseTip.lines.map((l, k) => <p key={k}>{l}</p>)}
           </Tip>
           <Tip>
             <p className="font-bold mb-1" style={{ color: "var(--green)" }}>Other courses worth adding:</p>
-            <p>• <strong>CA coaching classes</strong> – if you attended a full prep course at any institute, list it (name the course, not the institute)</p>
+            <p>• <strong>Exam coaching classes</strong> – if you attended a full prep course at any institute, list it (name the course, not the institute)</p>
             <p>• <strong>MS Excel / Financial Modelling</strong> – CFI, Udemy, Coursera</p>
             <p>• <strong>QuickBooks / Xero / Sage</strong> – accounting software</p>
             <p>• <strong>AML Awareness</strong> – Anti-Money Laundering (free online, very relevant)</p>
@@ -1054,7 +657,7 @@ export default function CVMaker() {
                 <Inp value={c.name} onChange={v => setCourse(i, "name", v)} placeholder="e.g. Presentation & Personal Effectiveness (PPE)" />
               </div>
               <div className="grid grid-cols-2 gap-3">
-                <div><FieldLabel>Provider</FieldLabel><Inp value={c.provider} onChange={v => setCourse(i, "provider", v)} placeholder="e.g. ICAP" /></div>
+                <div><FieldLabel>Provider</FieldLabel><Inp value={c.provider} onChange={v => setCourse(i, "provider", v)} placeholder={`e.g. ${qual.label}`} /></div>
                 <div><FieldLabel>Year</FieldLabel><Inp value={c.year} onChange={v => setCourse(i, "year", v)} placeholder="2024" /></div>
               </div>
             </div>
@@ -1102,8 +705,8 @@ export default function CVMaker() {
         <div className="space-y-4">
           <Tip>
             <p className="font-bold mb-1.5" style={{ color: "var(--green)" }}>This section separates you from 100 other candidates:</p>
-            <p>• First attempt or distinction in ICAP exams (huge deal)</p>
-            <p>• Certificate of Merit — Board / ICAP</p>
+            <p>• First attempt or distinction in {qual.label} exams (huge deal)</p>
+            <p>• Certificate of Merit / prize — school board or {qual.label}</p>
             <p>• Debates, sports, student council, model UN</p>
             <p>• Tutoring, community work, volunteer activities</p>
             <p>• Apps, websites, Excel tools you built</p>
@@ -1111,7 +714,7 @@ export default function CVMaker() {
           </Tip>
           <div>
             <FieldLabel>Accomplishments &amp; Achievements</FieldLabel>
-            <div className="mt-2"><ListEditor items={cv.accomplishments} onChange={v => set("accomplishments", v)} placeholder="e.g. Cleared all 8 CAF papers in first attempt" /></div>
+            <div className="mt-2"><ListEditor items={cv.accomplishments} onChange={v => set("accomplishments", v)} placeholder={qual.id === "icap" ? "e.g. Cleared all 8 CAF papers in first attempt" : "e.g. Passed FR and AA at first attempt with 70%+"} /></div>
           </div>
         </div>
       );
@@ -1126,7 +729,7 @@ export default function CVMaker() {
               <span className="shrink-0 pt-0.5">💡</span>
               <div>
                 <p className="font-bold mb-1">Junior Profile Detected</p>
-                <p>We noticed you have no work experience yet. The &quot;Classic&quot; layout might leave a large empty gap on the right. We highly recommend switching to the 1-Column <b>Executive</b> layout for a perfectly balanced look!</p>
+                <p>We noticed you have no work experience yet. The &quot;Classic&quot; layout might leave a large empty gap on the right. We highly recommend a single-column layout — <b>Executive</b>, <b>Compact</b> or <b>Elegant</b> — for a perfectly balanced look!</p>
               </div>
             </motion.div>
           )}
@@ -1134,23 +737,63 @@ export default function CVMaker() {
           <div>
             <FieldLabel>CV Layout Template</FieldLabel>
             <div className="grid grid-cols-2 gap-3 mt-2" id="tour-layouts">
-              <motion.button 
-                whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}
-                onClick={() => set("layout", "classic")}
-                className="px-4 py-3 rounded-xl text-sm transition-all text-left relative overflow-hidden"
-                style={{ background: cv.layout === "classic" ? "rgba(61,179,113,0.08)" : "var(--bg-3)", border: `1px solid ${cv.layout === "classic" ? "var(--green)" : "var(--border)"}`, color: "var(--text-1)", cursor: "pointer" }}>
-                <div className="font-bold mb-1 flex justify-between items-center">Classic (2-Col) {cv.layout === "classic" && <CheckCircle2 className="w-4 h-4 text-green-500" />}</div>
-                <div className="text-xs text-gray-500">Industry standard split design</div>
-              </motion.button>
-              <motion.button 
-                whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}
-                onClick={() => set("layout", "executive")}
-                className="px-4 py-3 rounded-xl text-sm transition-all text-left relative overflow-hidden"
-                style={{ background: cv.layout === "executive" ? "rgba(61,179,113,0.08)" : "var(--bg-3)", border: `1px solid ${cv.layout === "executive" ? "var(--green)" : "var(--border)"}`, color: "var(--text-1)", cursor: "pointer" }}>
-                <div className="font-bold mb-1 flex justify-between items-center">Executive (1-Col) {cv.layout === "executive" && <CheckCircle2 className="w-4 h-4 text-green-500" />}</div>
-                <div className="text-xs text-gray-500">Elite single-column styling</div>
-              </motion.button>
+              {TEMPLATES.map(t => {
+                const on = cv.layout === t.id;
+                return (
+                  <motion.button key={t.id}
+                    whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}
+                    onClick={() => set("layout", t.id)}
+                    aria-pressed={on}
+                    className="px-4 py-3 rounded-xl text-sm transition-all text-left relative overflow-hidden"
+                    style={{ background: on ? "color-mix(in srgb, var(--green) 8%, transparent)" : "var(--bg-3)", border: `1px solid ${on ? "var(--green)" : "var(--border)"}`, color: "var(--text-1)", cursor: "pointer", opacity: cv.atsMode ? 0.55 : 1 }}>
+                    <div className="font-bold mb-1 flex justify-between items-center gap-1">
+                      <span>{t.name}{t.isNew && <span className="ml-1.5 text-[9px] font-black uppercase tracking-wider px-1.5 py-0.5 rounded" style={{ background: "var(--green)", color: "#fff" }}>New</span>}</span>
+                      {on && <CheckCircle2 className="w-4 h-4 shrink-0" style={{ color: "var(--green)" }} />}
+                    </div>
+                    <div className="text-xs" style={{ color: "var(--text-3)" }}>{t.blurb}</div>
+                  </motion.button>
+                );
+              })}
             </div>
+          </div>
+
+          <div className="rounded-xl p-4" style={{ background: cv.atsMode ? "color-mix(in srgb, var(--green) 8%, transparent)" : "var(--bg-3)", border: `1px solid ${cv.atsMode ? "var(--green)" : "var(--border)"}` }}>
+            <label className="flex items-start gap-3 cursor-pointer">
+              <input type="checkbox" checked={!!cv.atsMode} onChange={e => set("atsMode", e.target.checked)} className="mt-1 w-4 h-4 shrink-0" style={{ accentColor: "var(--green)" }} />
+              <span>
+                <span className="flex items-center gap-1.5 text-sm font-bold" style={{ color: "var(--text-1)" }}><ScanText className="w-4 h-4" style={{ color: "var(--green)" }} /> ATS-friendly mode</span>
+                <span className="block text-xs mt-1" style={{ color: "var(--text-2)" }}>Plain single column, standard headings, no photo or graphics — and the PDF is real text that online application portals (Workday, Taleo, SuccessFactors) can read. Use it for online applications; use a designed template for email and walk-ins.</span>
+              </span>
+            </label>
+          </div>
+
+          <div>
+            <div className="flex items-center justify-between">
+              <FieldLabel>Section Order</FieldLabel>
+              {(cv.sectionOrder || cv.hiddenSections) && (
+                <button type="button" onClick={() => setCv(p => ({ ...p, sectionOrder: undefined, hiddenSections: undefined }))}
+                  className="flex items-center gap-1 text-[11px] font-bold mb-1.5" style={{ color: "var(--green)", cursor: "pointer" }}>
+                  <RotateCcw className="w-3 h-3" /> Template default
+                </button>
+              )}
+            </div>
+            <Hint>Move sections up or down and hide what you don&apos;t need. Two-column templates keep side-panel sections in their column.</Hint>
+            <ul className="mt-2 space-y-1.5" id="tour-sections">
+              {order.map((s, i) => {
+                const off = hidden.includes(s);
+                return (
+                  <li key={s} className="flex items-center gap-2 rounded-xl px-3 py-2" style={{ background: "var(--bg)", border: "1px solid var(--border)", opacity: off ? 0.5 : 1 }}>
+                    <span className="text-[10px] font-bold w-4 text-center" style={{ color: "var(--text-3)" }}>{i + 1}</span>
+                    <span className="flex-1 text-sm" style={{ color: "var(--text-1)", textDecoration: off ? "line-through" : "none" }}>{SECTION_LABELS[s]}</span>
+                    <button type="button" aria-label={`Move ${SECTION_LABELS[s]} up`} disabled={i === 0} onClick={() => moveSection(i, -1)} className="p-2 rounded-lg disabled:opacity-25" style={{ color: "var(--text-2)", cursor: "pointer" }}><ArrowUp className="w-3.5 h-3.5" /></button>
+                    <button type="button" aria-label={`Move ${SECTION_LABELS[s]} down`} disabled={i === order.length - 1} onClick={() => moveSection(i, 1)} className="p-2 rounded-lg disabled:opacity-25" style={{ color: "var(--text-2)", cursor: "pointer" }}><ArrowDown className="w-3.5 h-3.5" /></button>
+                    <button type="button" aria-label={off ? `Show ${SECTION_LABELS[s]}` : `Hide ${SECTION_LABELS[s]}`} onClick={() => toggleSection(s)} className="p-2 rounded-lg" style={{ color: off ? "var(--text-3)" : "var(--green)", cursor: "pointer" }}>
+                      {off ? <EyeOff className="w-3.5 h-3.5" /> : <Eye className="w-3.5 h-3.5" />}
+                    </button>
+                  </li>
+                );
+              })}
+            </ul>
           </div>
 
           <div>
@@ -1183,7 +826,7 @@ export default function CVMaker() {
                   whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}
                   key={f.val} onClick={() => set("fontFamily", f.val)}
                   className="px-4 py-3 rounded-xl text-sm transition-all text-left flex items-center justify-between"
-                  style={{ fontFamily: f.val, background: cv.fontFamily === f.val ? "rgba(61,179,113,0.08)" : "var(--bg-3)", border: `1px solid ${cv.fontFamily === f.val ? "var(--green)" : "var(--border)"}`, color: "var(--text-1)", cursor: "pointer" }}>
+                  style={{ fontFamily: f.val, background: cv.fontFamily === f.val ? "color-mix(in srgb, var(--green) 8%, transparent)" : "var(--bg-3)", border: `1px solid ${cv.fontFamily === f.val ? "var(--green)" : "var(--border)"}`, color: "var(--text-1)", cursor: "pointer" }}>
                   <span>{f.name}</span>
                   {cv.fontFamily === f.val && <CheckCircle2 className="w-4 h-4 text-green-500" />}
                 </motion.button>
@@ -1222,6 +865,9 @@ export default function CVMaker() {
     }
   };
 
+  const deskScale = deskWidth ? Math.min(0.95, (deskWidth - 34) / A4_W) : 0.72;
+  const mobScale = mobWidth ? Math.min(0.9, (mobWidth - 26) / A4_W) : 0.42;
+
   /* ══════════════════════════════════════
      RENDER
      ══════════════════════════════════════ */
@@ -1231,8 +877,9 @@ export default function CVMaker() {
       {/* ── Page header ── */}
       <div className="px-5 sm:px-8 md:px-16 pt-24 sm:pt-[110px] pb-8 sm:pb-12" style={{ borderBottom: "1px solid var(--border)" }}>
         <div className="max-w-7xl mx-auto">
+          <CareerNav active="cv" />
           <div className="max-w-xl">
-            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full mb-5" style={{ background: "rgba(61,179,113,0.1)", border: "1px solid rgba(61,179,113,0.3)" }}>
+            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full mb-5" style={{ background: "color-mix(in srgb, var(--green) 10%, transparent)", border: "1px solid color-mix(in srgb, var(--green) 30%, transparent)" }}>
               <Sparkles className="w-3.5 h-3.5" style={{ color: "var(--green)" }} />
               <span className="text-[11px] font-bold uppercase tracking-widest" style={{ color: "var(--green)", fontFamily: "var(--font-space-grotesk)" }}>Built for Big 4 Induction</span>
             </div>
@@ -1241,7 +888,7 @@ export default function CVMaker() {
               <span style={{ color: "var(--green)" }}>Partners cannot ignore.</span>
             </h1>
             <p className="text-sm sm:text-base mb-6" style={{ color: "var(--text-2)", fontFamily: "var(--font-inter), sans-serif", lineHeight: 1.65 }}>
-              Built for CA students applying to training firms. Fill in your details in 8 minutes and download a clean, print-ready PDF — no login, no cost.
+              Built for ICAP, ACCA, ICAI, CIMA, ICAEW and CMA students applying for articleship, audit trainee and Big 4 roles. Five templates, an ATS-friendly mode and a crisp, text-selectable PDF — no login, no cost. Your progress saves automatically on this device.
             </p>
             <div className="flex flex-wrap items-center gap-3">
               <button
@@ -1249,7 +896,7 @@ export default function CVMaker() {
                 <Play className="w-4 h-4" /> Take the Tour
               </button>
               {cv.name !== "" && (
-                <div className="inline-flex items-start gap-2 rounded-xl px-4 py-2.5 text-sm" style={{ background: "rgba(61,179,113,0.06)", border: "1px solid rgba(61,179,113,0.2)", color: "var(--text-2)" }}>
+                <div className="inline-flex items-start gap-2 rounded-xl px-4 py-2.5 text-sm" style={{ background: "color-mix(in srgb, var(--green) 6%, transparent)", border: "1px solid color-mix(in srgb, var(--green) 20%, transparent)", color: "var(--text-2)" }}>
                   <span style={{ color: "var(--green)" }}><CheckCircle2 className="w-4 h-4 mt-0.5" /></span>
                   <span>The optimal workflow: Edit the loaded sample step by step.</span>
                 </div>
@@ -1281,7 +928,7 @@ export default function CVMaker() {
                       className="shrink-0 text-[11px] font-bold px-3 py-2 rounded-xl whitespace-nowrap transition-all relative overflow-hidden"
                       style={{
                         minHeight: 36,
-                        background: step === i ? "var(--green)" : i < step ? "rgba(61,179,113,0.1)" : "transparent",
+                        background: step === i ? "var(--green)" : i < step ? "color-mix(in srgb, var(--green) 10%, transparent)" : "transparent",
                         color: step === i ? "#fff" : i < step ? "var(--green)" : "var(--text-3)",
                         fontFamily: "var(--font-space-grotesk), sans-serif",
                       }}>
@@ -1301,7 +948,7 @@ export default function CVMaker() {
 
               {/* Restored banner */}
               {restored && (
-                <div className="mx-4 mt-3 mb-3 flex items-center justify-between gap-2 px-3 py-2 rounded-xl text-xs" style={{ background: "rgba(61,179,113,0.08)", border: "1px solid rgba(61,179,113,0.2)", color: "var(--green)" }}>
+                <div className="mx-4 mt-3 mb-3 flex items-center justify-between gap-2 px-3 py-2 rounded-xl text-xs" style={{ background: "color-mix(in srgb, var(--green) 8%, transparent)", border: "1px solid color-mix(in srgb, var(--green) 20%, transparent)", color: "var(--green)" }}>
                   <span>✅ Restored your last session</span>
                   <button onClick={() => setRestored(false)} style={{ background: "none", border: "none", color: "var(--green)", cursor: "pointer" }}><X className="w-3 h-3" /></button>
                 </div>
@@ -1320,7 +967,10 @@ export default function CVMaker() {
               <div className="p-4 sm:p-5 overflow-y-auto" style={{ maxHeight: "calc(100svh - 340px)", minHeight: 240 }}>
                 <div className="flex items-center justify-between mb-1">
                   <h3 className="font-bold text-lg" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>{STEPS[step].label}</h3>
-                  <span className="text-[10px] font-bold px-2 py-1 rounded-lg" style={{ background: "var(--bg-3)", color: "var(--text-3)" }}>{step + 1}/{STEPS.length}</span>
+                  <div className="flex items-center gap-2">
+                    {savedAt && <span className="text-[10px] font-semibold" style={{ color: "var(--text-3)" }} aria-live="polite">Saved {savedAt}</span>}
+                    <span className="text-[10px] font-bold px-2 py-1 rounded-lg" style={{ background: "var(--bg-3)", color: "var(--text-3)" }}>{step + 1}/{STEPS.length}</span>
+                  </div>
                 </div>
                 <AnimatePresence mode="wait">
                   <motion.div key={step} initial={{ opacity: 0, y: 6 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -6 }} transition={{ duration: 0.18, ease: "easeOut" }}>
@@ -1374,12 +1024,17 @@ export default function CVMaker() {
                 </motion.button>
               </div>
             </div>
-            <div className="rounded-2xl overflow-hidden relative flex-1" style={{ background: "#e8e8e8", padding: "16px", border: "1px solid var(--border)" }}>
-              <div className="overflow-x-auto flex justify-center">
+            {dlError && <p className="text-xs mb-2 px-3 py-2 rounded-lg" role="alert" style={{ background: "rgba(248,113,113,0.12)", color: "#F87171" }}>{dlError}</p>}
+            <p className="text-xs mb-2" style={{ color: "var(--text-3)" }}>
+              A4 · {pageCount} page{pageCount > 1 ? "s" : ""}{cv.atsMode ? " · ATS mode (text PDF)" : ""}
+              {pageCount > 1 && " — red lines show where each new page starts. Try Compact spacing or the Compact template to fit one page."}
+            </p>
+            <div ref={deskRef} className="rounded-2xl overflow-hidden relative flex-1" style={{ background: "#e8e8e8", padding: "16px", border: "1px solid var(--border)" }}>
+              <div className="flex justify-center">
                 <AnimatePresence mode="wait">
                   {rendering ? (
                     <motion.div key="skeleton" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
-                      className="rounded shadow-xl bg-white" style={{ width: 794 * 0.72, height: 1123 * 0.72 }}>
+                      className="rounded shadow-xl bg-white" style={{ width: A4_W * deskScale, height: A4_H * deskScale }}>
                       <div className="p-10 space-y-4">
                         <div className="h-10 w-1/2 bg-gray-100 rounded animate-pulse mx-auto" />
                         <div className="h-4 w-2/3 bg-gray-50 rounded animate-pulse mx-auto" />
@@ -1390,7 +1045,7 @@ export default function CVMaker() {
                     </motion.div>
                   ) : (
                     <motion.div key="cv" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.3 }}>
-                      <ScaledPreview cv={cv} scale={0.72} />
+                      <ScaledPreview cv={cv} scale={deskScale} pages={pages} />
                     </motion.div>
                   )}
                 </AnimatePresence>
@@ -1398,6 +1053,17 @@ export default function CVMaker() {
             </div>
           </div>
         </div>
+
+        {/* ── Inline live preview (mobile / tablet) ── */}
+        <section className="lg:hidden mt-6" aria-label="Live CV preview">
+          <div className="flex items-center justify-between mb-2">
+            <p className="text-xs font-bold uppercase tracking-widest" style={{ color: "var(--text-3)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>Live A4 Preview</p>
+            <span className="text-xs" style={{ color: "var(--text-3)" }}>{pageCount} page{pageCount > 1 ? "s" : ""} · ATS {getCVScore(cv)}%</span>
+          </div>
+          <div ref={mobRef} className="rounded-2xl p-3 flex justify-center" style={{ background: "#e8e8e8", border: "1px solid var(--border)" }}>
+            {mobWidth > 0 && <ScaledPreview cv={cv} scale={mobScale} pages={pages} />}
+          </div>
+        </section>
       </div>
 
       {/* ── Mobile Sticky Bottom Bar (lg and below) ── */}
@@ -1411,7 +1077,7 @@ export default function CVMaker() {
           <div className="flex items-center gap-3">
             {/* Preview button */}
             <motion.button whileTap={{ scale: 0.96 }}
-              onClick={() => setShowPreview(true)}
+              onClick={openPreview}
               className="flex-1 flex items-center justify-center gap-2 font-bold rounded-xl py-3 text-sm"
               style={{ background: "var(--bg-3)", border: "1px solid var(--border)", color: "var(--text-2)", cursor: "pointer" }}>
               <Eye className="w-4 h-4" /> Preview CV
@@ -1452,7 +1118,7 @@ export default function CVMaker() {
               <AnimatePresence mode="wait">
                 {rendering ? (
                   <motion.div key="skeleton-mob" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
-                    className="bg-white rounded shadow-2xl" style={{ width: 794 * mobileScale, height: 1123 * mobileScale }}>
+                    className="bg-white rounded shadow-2xl" style={{ width: A4_W * mobileScale, height: A4_H * mobileScale }}>
                     <div className="p-4 space-y-2">
                       <div className="h-4 w-1/2 bg-gray-100 rounded animate-pulse mx-auto" />
                       <div className="h-10 w-full bg-gray-50 rounded" />
@@ -1460,7 +1126,7 @@ export default function CVMaker() {
                   </motion.div>
                 ) : (
                   <motion.div key="cv-mob" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-                    <ScaledPreview cv={cv} scale={mobileScale} />
+                    <ScaledPreview cv={cv} scale={mobileScale} pages={pages} />
                   </motion.div>
                 )}
               </AnimatePresence>
@@ -1482,24 +1148,26 @@ export default function CVMaker() {
         }} />
       )}
       {/* ── Hidden Reference for PDF Generation ── */}
-      {/* Must stay in normal flow off-screen (not display:none / opacity:0) so
-          html2canvas can access computed styles and measure dimensions. */}
+      {/* Must stay laid out off-screen (not display:none / opacity:0) so it can be measured
+          for page breaks and captured by html2canvas. Natural height = multi-page safe. */}
       <div
+        ref={refEl}
         aria-hidden="true"
-        style={{
-          position: "absolute",
-          left: "-9999px",
-          top: 0,
-          width: 794,
-          pointerEvents: "none",
-          zIndex: -1,
-          overflow: "hidden",
-        }}
+        style={{ position: "absolute", left: -9999, top: 0, width: A4_W, pointerEvents: "none", zIndex: -1 }}
       >
-        <div id="cv-pdf-reference" style={{ width: 794, height: 1123, overflow: "hidden" }}>
-          <CVPreview cv={cv} />
-        </div>
+        <CVPreview cv={cv} />
       </div>
     </div>
   );
+}
+
+const noopSubscribe = () => () => {};
+
+/**
+ * Server + first client render use the sample CV; right after hydration we remount once with the
+ * CV saved in localStorage. Avoids a hydration mismatch for returning users.
+ */
+export default function CVMaker() {
+  const hydrated = useSyncExternalStore(noopSubscribe, () => true, () => false);
+  return <CVMakerInner key={hydrated ? "client" : "server"} hydrated={hydrated} />;
 }
