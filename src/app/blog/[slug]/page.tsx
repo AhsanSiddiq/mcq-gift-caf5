@@ -64,6 +64,14 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
               margin-bottom: 1rem;
               font-weight: 700;
             }
+            .prose h3 {
+              color: var(--text-1);
+              font-family: var(--font-space-grotesk), sans-serif;
+              font-size: 1.25rem;
+              margin-top: 1.75rem;
+              margin-bottom: 0.75rem;
+              font-weight: 700;
+            }
             .prose p { margin-bottom: 1.5rem; }
             .prose ul { padding-left: 1.5rem; margin-bottom: 1.5rem; list-style-type: disc; }
             .prose li { margin-bottom: 0.5rem; }

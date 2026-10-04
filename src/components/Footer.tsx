@@ -9,6 +9,7 @@ const NAV = [
       { label: "MCQ Practice", href: "/practice" },
       { label: "Induction CV Maker", href: "/cv-maker" },
       { label: "Daily Challenge", href: "/daily" },
+      { label: "My Progress", href: "/dashboard" },
       { label: "All Exams", href: "/exams" },
       { label: "Pro & Pricing", href: "/pro" },
     ],
@@ -53,7 +54,7 @@ export default function Footer() {
             </div>
 
             <p className="text-sm leading-relaxed mb-6 max-w-[240px]" style={{ color: "var(--text-2)", fontFamily: "var(--font-inter), sans-serif" }}>
-              Every ICAP subject. Free forever. MCQ practice, CV tools, and everything you need to clear on your first attempt.
+              ICAP, ACCA, ICAI, CIMA, ICAEW and US CMA. Free forever. MCQ practice, career tools, and everything you need to clear on your first attempt.
             </p>
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full" style={{ background: "color-mix(in srgb, var(--green) 8%, transparent)", border: "1px solid color-mix(in srgb, var(--green) 20%, transparent)" }}>
               <span className="relative flex w-[6px] h-[6px]">

@@ -3,7 +3,7 @@ import { LEVEL_LABEL, subjectCode } from "@/data/subjects";
 import Link from "next/link";
 import { notFound, permanentRedirect } from "next/navigation";
 import { ArrowLeft, ArrowRight, Timer } from "lucide-react";
-import { getChapterQuestions, getChapters, resolveSubject, type ChapterMeta } from "@/lib/questionBank";
+import { getChapterQuestions, getChapters, questionSlug, resolveSubject, type ChapterMeta } from "@/lib/questionBank";
 import AdSlot from "@/components/AdSlot";
 import SponsorSlot from "@/components/SponsorSlot";
 
@@ -108,7 +108,11 @@ export default async function ChapterQuestionBank({ params }: Props) {
             const correct = q.options.find((o) => o.correct);
             return (
               <li key={q.id} className="rounded-2xl p-5 sm:p-6" style={{ background: "var(--bg-2)", border: "1px solid var(--border)" }}>
-                <h2 className="text-xs font-bold uppercase tracking-wider mb-2" style={{ color: "var(--text-3)" }}>Question {i + 1}</h2>
+                <h2 className="text-xs font-bold uppercase tracking-wider mb-2">
+                  <Link href={`${base}/mcqs/${meta.slug}/${questionSlug(q.id, q.question)}`} style={{ color: "var(--text-3)", textDecoration: "none" }}>
+                    Question {i + 1} <ArrowRight className="w-3 h-3 inline" />
+                  </Link>
+                </h2>
                 <p className="font-semibold mb-4 whitespace-pre-line" style={{ color: "var(--text-1)", lineHeight: 1.6 }}>{q.question}</p>
                 <ul className="flex flex-col gap-2 mb-4">
                   {q.options.map((o) => (

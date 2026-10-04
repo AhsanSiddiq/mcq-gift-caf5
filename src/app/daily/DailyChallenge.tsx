@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Flame, Share2, Copy, Check, CalendarDays, ArrowRight, ChevronLeft } from "lucide-react";
 import { ReviewList } from "@/components/QuizResultsDetails";
 import MCQCard from "@/components/MCQCard";
+import { useProgress } from "@/hooks/useProgress";
 import AdSlot from "@/components/AdSlot";
 import type { MCQ } from "@/data/mcqs";
 
@@ -78,6 +79,7 @@ export default function DailyChallenge({ date, number, subject, questions, body 
   const [chosen, setChosen] = useState<Record<string, string>>({});
   const [copied, setCopied] = useState(false);
   const countdown = useCountdownToNextDay();
+  const { recordAnswer } = useProgress();
   const code = subject.code ?? subject.id.toUpperCase();
 
   const today = store?.history[date];
@@ -138,8 +140,10 @@ export default function DailyChallenge({ date, number, subject, questions, body 
         <div key={q.id}>
           <MCQCard
             mcq={q}
+            subjectId={subject.id}
             isLast={index === questions.length - 1}
             onAnswer={(ok, pick) => {
+              if (results.length <= index) recordAnswer(q.id, subject.id, q.chapter, ok);
               setResults((r) => (r.length > index ? r : [...r, ok]));
               setChosen((c) => ({ ...c, [q.id]: pick }));
             }}

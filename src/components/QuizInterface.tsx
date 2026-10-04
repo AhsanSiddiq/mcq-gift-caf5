@@ -3,10 +3,10 @@
 import React, { useState, useEffect, useCallback, useRef } from "react";
 import { MCQ } from "@/data/mcqs";
 import MCQCard from "@/components/MCQCard";
-import { RotateCcw, ChevronLeft, CloudUpload, Timer, Crown, Flame, Bookmark, SearchX, Share2, ArrowRight, Trophy } from "lucide-react";
+import { RotateCcw, ChevronLeft, CloudUpload, Timer, Crown, Flame, Bookmark, SearchX, Share2, ArrowRight, Trophy, BarChart3, Target } from "lucide-react";
 import { ScoreRing, ChapterBreakdown, ReviewList } from "@/components/QuizResultsDetails";
 import Link from "next/link";
-import { useProgress } from "@/hooks/useProgress";
+import { useProgress, isMistake, type UserProgressData } from "@/hooks/useProgress";
 import { useParams } from "next/navigation";
 import EmailLoginModal from "@/components/EmailLoginModal";
 import AdSlot from "@/components/AdSlot";
@@ -46,7 +46,7 @@ function dbToMCQ(row: {
 }
 
 interface QuizInterfaceProps {
-  mode: "topical" | "random" | "all" | "flagged" | "exam";
+  mode: "topical" | "random" | "all" | "flagged" | "exam" | "mistakes";
   chapter?: number;
   initialQuestions?: MCQ[];
 }
@@ -60,14 +60,24 @@ const MODE_LABELS: Record<string, string> = {
   all: "Full Marathon",
   flagged: "Flagged Review",
   exam: "Exam Simulator",
+  mistakes: "Mistakes Review",
 };
+
+/** Questions in this subject the student last answered wrong, then anything else they flagged. */
+function mistakeQuestions(all: MCQ[], progress: UserProgressData): MCQ[] {
+  const attempts = progress.attempts || {};
+  const flagged = new Set(progress.flaggedQuestionIds || []);
+  const wrong = all.filter((q) => isMistake(attempts[q.id]));
+  const flaggedOnly = all.filter((q) => flagged.has(q.id) && !isMistake(attempts[q.id]));
+  return [...wrong, ...flaggedOnly];
+}
 
 export default function QuizInterface({ mode, chapter, initialQuestions = [] }: QuizInterfaceProps) {
   const params = useParams();
   const level = (params?.level as string) || "caf";
   const subjectId = (params?.subject as string) || "caf-5";
 
-  const { progress, isLoaded, saveChapterScore, saveRandomMockScore, updateMarathonState, clearMarathonState, auth, signIn, syncToCloud, isSyncing } = useProgress(subjectId);
+  const { progress, isLoaded, saveChapterScore, saveRandomMockScore, recordAnswer, updateMarathonState, clearMarathonState, auth, signIn, syncToCloud, isSyncing } = useProgress(subjectId);
 
   const [allQuestions, setAllQuestions] = useState<MCQ[]>(initialQuestions);
   const [isFetching, setIsFetching] = useState(initialQuestions.length === 0);
@@ -82,6 +92,8 @@ export default function QuizInterface({ mode, chapter, initialQuestions = [] }: 
   const [answers, setAnswers] = useState<Record<string, string>>({});
   const [showLoginModal, setShowLoginModal] = useState(false);
   const confettiRef = useRef(false);
+  // Mistakes mode: ids that were on the mistakes list when this review started.
+  const reviewWrongRef = useRef<Set<string>>(new Set());
   const { pro, loading: proLoading } = usePro();
   const [examLocked, setExamLocked] = useState(false);
   const [timeLeft, setTimeLeft] = useState<number | null>(null);
@@ -165,6 +177,10 @@ export default function QuizInterface({ mode, chapter, initialQuestions = [] }: 
     if (mode === "topical" && chapter) filtered = filtered.filter((q) => q.chapter === chapter);
     else if (mode === "random") filtered = filtered.sort(() => Math.random() - 0.5).slice(0, mockSize);
     else if (mode === "flagged") filtered = filtered.filter((q) => (progress.flaggedQuestionIds || []).includes(q.id));
+    else if (mode === "mistakes") {
+      filtered = mistakeQuestions(filtered, progress);
+      reviewWrongRef.current = new Set(filtered.filter((q) => isMistake(progress.attempts?.[q.id])).map((q) => q.id));
+    }
     setQuestions(filtered);
     setCurrentIndex(0); setScore(0); setCurrentStreak(0); setIncorrectIds([]); setIsFinished(false);
   }, [isFetching, isLoaded, allQuestions, mode, chapter, progress.marathon.inProgress, progress.marathon.subjectId, subjectId, examGate]);
@@ -201,7 +217,9 @@ export default function QuizInterface({ mode, chapter, initialQuestions = [] }: 
   }, [isFinished, score, questions.length]);
 
   const handleNext = (isCorrect: boolean, chosen?: string) => {
-    if (chosen) { const id = questions[currentIndex].id; setAnswers((a) => ({ ...a, [id]: chosen })); }
+    const answered = questions[currentIndex];
+    if (answered) recordAnswer(answered.id, subjectId, answered.chapter, isCorrect);
+    if (chosen && answered) setAnswers((a) => ({ ...a, [answered.id]: chosen }));
     if (isCorrect) { setScore((s) => s + 1); setCurrentStreak((s) => s + 1); }
     else { setCurrentStreak(0); setIncorrectIds((prev) => [...prev, questions[currentIndex].id]); }
     const newScore = isCorrect ? score + 1 : score;
@@ -285,7 +303,7 @@ export default function QuizInterface({ mode, chapter, initialQuestions = [] }: 
 
   /* ── Empty ── */
   if (questions.length === 0) {
-    const Icon = mode === "flagged" ? Bookmark : SearchX;
+    const Icon = mode === "flagged" ? Bookmark : mode === "mistakes" ? Target : SearchX;
     return (
       <div className="max-w-md mx-auto text-center pt-28 sm:pt-32 pb-24 px-5 quiz-in">
         <div className="mx-auto mb-5 w-16 h-16 rounded-2xl flex items-center justify-center"
@@ -293,12 +311,14 @@ export default function QuizInterface({ mode, chapter, initialQuestions = [] }: 
           <Icon className="w-7 h-7" aria-hidden />
         </div>
         <h1 className="font-bold text-xl mb-2" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
-          {mode === "flagged" ? "No flagged questions yet" : "No questions found"}
+          {mode === "flagged" ? "No flagged questions yet" : mode === "mistakes" ? "No mistakes to review" : "No questions found"}
         </h1>
         <p className="text-sm mb-8 leading-relaxed" style={{ color: "var(--text-2)" }}>
           {mode === "flagged"
             ? "Tap the bookmark on any question while you practise and it will be saved here for a focused review."
-            : "Nothing is available for this selection yet. Try another chapter or a random mock."}
+            : mode === "mistakes"
+              ? "Every question you get wrong (or flag) in this subject lands here. Answer it correctly in review and it drops off the list."
+              : "Nothing is available for this selection yet. Try another chapter or a random mock."}
         </p>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <Link href={`/${level}/${subjectId}/quiz?mode=random`}
@@ -306,11 +326,19 @@ export default function QuizInterface({ mode, chapter, initialQuestions = [] }: 
             style={{ background: "var(--green)", textDecoration: "none" }}>
             Start a random mock <ArrowRight className="w-4 h-4" aria-hidden />
           </Link>
-          <Link href={`/${level}/${subjectId}`}
-            className="focus-ring inline-flex items-center justify-center gap-2 font-semibold rounded-xl px-6 py-3"
-            style={{ background: "var(--bg-2)", border: "1px solid var(--border)", color: "var(--text-1)", textDecoration: "none" }}>
-            Back to subject
-          </Link>
+          {mode === "mistakes" ? (
+            <Link href="/dashboard"
+              className="focus-ring inline-flex items-center justify-center gap-2 font-semibold rounded-xl px-6 py-3"
+              style={{ background: "var(--bg-2)", border: "1px solid var(--border)", color: "var(--text-1)", textDecoration: "none" }}>
+              <BarChart3 className="w-4 h-4" aria-hidden /> My progress
+            </Link>
+          ) : (
+            <Link href={`/${level}/${subjectId}`}
+              className="focus-ring inline-flex items-center justify-center gap-2 font-semibold rounded-xl px-6 py-3"
+              style={{ background: "var(--bg-2)", border: "1px solid var(--border)", color: "var(--text-1)", textDecoration: "none" }}>
+              Back to subject
+            </Link>
+          )}
         </div>
       </div>
     );
@@ -319,6 +347,9 @@ export default function QuizInterface({ mode, chapter, initialQuestions = [] }: 
   /* ── Results screen ── */
   if (isFinished) {
     const pct = Math.round((score / questions.length) * 100);
+    const mistakesLeft = mistakeQuestions(allQuestions, progress).length;
+    const wrongLeft = allQuestions.filter((q) => isMistake(progress.attempts?.[q.id])).length;
+    const cleared = [...reviewWrongRef.current].filter((id) => !isMistake(progress.attempts?.[id])).length;
     const perfect = pct === 100;
     const headline = perfect ? "Flawless." : pct >= 80 ? "Excellent work." : pct >= 50 ? "Solid effort — keep going." : "Good start. Let's close the gaps.";
     const reviewItems = incorrectIds
@@ -329,17 +360,32 @@ export default function QuizInterface({ mode, chapter, initialQuestions = [] }: 
     const btn = "focus-ring inline-flex items-center justify-center gap-2 font-bold rounded-xl px-5 py-3 text-sm min-h-[46px]";
     const primary = { background: "var(--green)", color: "#fff", textDecoration: "none", boxShadow: "0 4px 18px color-mix(in srgb, var(--green) 28%, transparent)" };
     const secondary = { background: "var(--bg-3)", border: "1px solid var(--border)", color: "var(--text-1)", textDecoration: "none" };
+    // Mistakes mode already offers "Review remaining", which covers retrying this run's misses.
+    const showRetryWrong = incorrectIds.length > 0 && mode !== "mistakes";
+    const showAgain = !(mode === "mistakes" && mistakesLeft === 0);
+    const againIsPrimary = mode === "mistakes" && showAgain;
+    const ctaCount = 1 + (showRetryWrong ? 1 : 0) + (showAgain ? 1 : 0);
     return (
       <div className="max-w-2xl mx-auto pt-24 sm:pt-28 pb-20 px-4 flex flex-col gap-4 quiz-in">
-        <EmailLoginModal isOpen={showLoginModal} onClose={() => setShowLoginModal(false)} onSuccess={(em, tok) => { signIn(em, tok); syncToCloud(subjectId); }} />
+        <EmailLoginModal isOpen={showLoginModal} onClose={() => setShowLoginModal(false)} onSuccess={(em, tok) => { signIn(em, tok); syncToCloud(subjectId, { email: em, token: tok }); }} />
         <section className="rounded-2xl p-6 sm:p-8 text-center" style={{ background: "var(--bg-2)", border: "1px solid var(--border)" }}>
           <p className="text-xs font-bold uppercase tracking-widest mb-2 inline-flex items-center gap-1.5" style={{ color: "var(--accent-ink)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
             {perfect && <Trophy className="w-3.5 h-3.5" aria-hidden />}
-            {isRetryMode ? "Review complete" : `${MODE_LABELS[mode]}${mode === "topical" ? ` · Chapter ${chapter}` : ""} complete`}
+            {isRetryMode || mode === "mistakes" ? "Review complete" : `${MODE_LABELS[mode]}${mode === "topical" ? ` · Chapter ${chapter}` : ""} complete`}
           </p>
-          <h1 className="font-bold text-2xl sm:text-[1.75rem] mb-6" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif", lineHeight: 1.2 }}>
+          <h1 className={`font-bold text-2xl sm:text-[1.75rem] ${mode === "mistakes" ? "mb-2" : "mb-6"}`} style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif", lineHeight: 1.2 }}>
             {headline}
           </h1>
+          {mode === "mistakes" && (
+            <p className="text-sm mb-6 inline-flex items-start gap-1.5 text-left" style={{ color: "var(--text-2)" }}>
+              <Target className="w-4 h-4 shrink-0 mt-0.5" style={{ color: "var(--accent-ink)" }} aria-hidden />
+              <span>
+                {cleared > 0 ? `${cleared} cleared from your mistakes list. ` : ""}
+                {wrongLeft > 0 ? `${wrongLeft} still wrong.` : "Your mistakes list is clear!"}
+                {mistakesLeft > wrongLeft ? " Flagged questions stay in review until you unflag them." : ""}
+              </span>
+            </p>
+          )}
 
           <ScoreRing pct={pct} score={score} total={questions.length} />
 
@@ -349,8 +395,8 @@ export default function QuizInterface({ mode, chapter, initialQuestions = [] }: 
             </p>
           )}
 
-          <div className={`mt-7 grid gap-2.5 ${incorrectIds.length > 0 ? "sm:grid-cols-3" : "sm:grid-cols-2"}`}>
-            {incorrectIds.length > 0 && (
+          <div className={`mt-7 grid gap-2.5 ${ctaCount === 3 ? "sm:grid-cols-3" : ctaCount === 2 ? "sm:grid-cols-2" : ""}`}>
+            {showRetryWrong && (
               <button
                 type="button"
                 onClick={() => {
@@ -364,6 +410,7 @@ export default function QuizInterface({ mode, chapter, initialQuestions = [] }: 
                 <RotateCcw className="w-4 h-4" aria-hidden /> Retry {incorrectIds.length} wrong
               </button>
             )}
+            {showAgain && (
             <button
               type="button"
               onClick={() => {
@@ -372,30 +419,44 @@ export default function QuizInterface({ mode, chapter, initialQuestions = [] }: 
                 if (mode === "all") { const s = [...allQuestions].sort(() => Math.random() - 0.5); setQuestions(s); updateMarathonState(s.map(q => q.id), 0, 0, subjectId); }
                 else if (mode === "random") setQuestions([...allQuestions].sort(() => Math.random() - 0.5).slice(0, level.toLowerCase() === "prc" ? 50 : 10));
                 else if (mode === "flagged") setQuestions(allQuestions.filter(q => (progress.flaggedQuestionIds || []).includes(q.id)));
+                else if (mode === "mistakes") {
+                  const qs = mistakeQuestions(allQuestions, progress);
+                  reviewWrongRef.current = new Set(qs.filter((q) => isMistake(progress.attempts?.[q.id])).map((q) => q.id));
+                  setQuestions(qs);
+                }
               }}
               className={btn}
-              style={secondary}
+              style={againIsPrimary ? primary : secondary}
             >
-              <RotateCcw className="w-4 h-4" aria-hidden /> Try again
+              <RotateCcw className="w-4 h-4" aria-hidden /> {mode === "mistakes" ? `Review remaining (${mistakesLeft})` : "Try again"}
             </button>
-            <Link href={backHref} className={btn} style={incorrectIds.length > 0 ? secondary : primary}>
+            )}
+            <Link href={backHref} className={btn} style={showRetryWrong || againIsPrimary ? secondary : primary}>
               {mode === "topical" ? "More chapters" : "Back to subject"}
             </Link>
           </div>
+
+          <Link
+            href="/dashboard"
+            className="focus-ring mt-3 inline-flex items-center justify-center gap-2 text-sm font-bold rounded-xl px-4 py-2.5"
+            style={{ color: "var(--accent-ink)", textDecoration: "none" }}
+          >
+            <BarChart3 className="w-4 h-4" aria-hidden /> My progress &amp; weak chapters
+          </Link>
 
           {/* Cloud sync */}
           {!auth && (
             <button
               type="button"
               onClick={() => setShowLoginModal(true)}
-              className="focus-ring mt-4 w-full flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold transition-colors"
+              className="focus-ring mt-2 w-full flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold transition-colors"
               style={{ background: "transparent", border: "1px dashed color-mix(in srgb, var(--green) 40%, transparent)", color: "var(--accent-ink)" }}
             >
               <CloudUpload className="w-4 h-4" aria-hidden /> Save your progress to email
             </button>
           )}
           {auth && (
-            <p className="text-xs mt-4 font-medium" role="status" style={{ color: isSyncing ? "var(--warn)" : "var(--accent-ink)" }}>
+            <p className="text-xs mt-2 font-medium" role="status" style={{ color: isSyncing ? "var(--warn)" : "var(--accent-ink)" }}>
               {isSyncing ? "Syncing…" : `Synced to ${auth.email}`}
             </p>
           )}
@@ -501,7 +562,7 @@ export default function QuizInterface({ mode, chapter, initialQuestions = [] }: 
 
       {/* Card */}
       <div key={currentQ.id}>
-        <MCQCard mcq={currentQ} onAnswer={handleNext} onNext={advanceQuestion} isLast={currentIndex === questions.length - 1} />
+        <MCQCard mcq={currentQ} subjectId={subjectId} onAnswer={handleNext} onNext={advanceQuestion} isLast={currentIndex === questions.length - 1} />
       </div>
     </div>
   );

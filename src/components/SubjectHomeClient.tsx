@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowRight, BookOpen, Shuffle, Target, PlayCircle, Bookmark, ArrowLeft, CloudUpload, LogOut, Timer } from "lucide-react";
+import { ArrowRight, BookOpen, Shuffle, Target, PlayCircle, Bookmark, ArrowLeft, CloudUpload, LogOut, Timer, RotateCcw } from "lucide-react";
 import Link from "next/link";
 import { useProgress } from "@/hooks/useProgress";
 import { useEffect, useState } from "react";
@@ -37,6 +37,9 @@ export default function SubjectHomeClient({ level, subjectId, currentSubject, to
   // only active if this subject's marathon is in progress
   const isMarathonActive = isLoaded && progress.marathon.inProgress && progress.marathon.subjectId === subjectId && progress.marathon.questionIds.length > 0;
   const flaggedCount = isLoaded ? (progress.flaggedQuestionIds || []).length : 0;
+  const mistakeCount = isLoaded
+    ? Object.values(progress.attempts || {}).filter((a) => a.s === subjectId && a.l === 0).length
+    : 0;
 
   const MODES = [
     {
@@ -82,6 +85,18 @@ export default function SubjectHomeClient({ level, subjectId, currentSubject, to
       bg: "rgba(251,191,36,0.10)",
       highlighted: isMarathonActive,
     },
+    ...(mistakeCount > 0
+      ? [{
+          id: "mistakes",
+          label: "Review Mistakes",
+          icon: <RotateCcw className="w-5 h-5" />,
+          href: `/${level}/${subjectId}/quiz?mode=mistakes`,
+          desc: `${mistakeCount} question${mistakeCount !== 1 ? "s" : ""} you got wrong, plus your flags. Get them right and they leave the list.`,
+          cta: "Fix Mistakes",
+          color: "#f87171",
+          bg: "rgba(248,113,113,0.10)",
+        }]
+      : []),
     ...(flaggedCount > 0
       ? [{
           id: "flagged",
@@ -102,7 +117,7 @@ export default function SubjectHomeClient({ level, subjectId, currentSubject, to
       <EmailLoginModal
         isOpen={showLoginModal}
         onClose={() => setShowLoginModal(false)}
-        onSuccess={(em, tok) => { signIn(em, tok); loadFromCloud(subjectId); }}
+        onSuccess={(em, tok) => { signIn(em, tok); loadFromCloud(subjectId, { email: em, token: tok }); }}
       />
 
       <div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8 pt-24 sm:pt-28 pb-20">

@@ -11,11 +11,13 @@ interface MCQCardProps {
   onAnswer: (isCorrect: boolean, chosen: string) => void;
   onNext: () => void;
   isLast: boolean;
+  /** Subject the question belongs to — recorded with flags so the dashboard can group them. */
+  subjectId?: string;
 }
 
 const stripKey = (option: string) => option.replace(/^[A-Z]\)\s*/, "");
 
-export default function MCQCard({ mcq, onAnswer, onNext, isLast }: MCQCardProps) {
+export default function MCQCard({ mcq, onAnswer, onNext, isLast, subjectId }: MCQCardProps) {
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const [showExplanation, setShowExplanation] = useState(false);
   const { progress, toggleFlag, isLoaded } = useProgress();
@@ -93,7 +95,7 @@ export default function MCQCard({ mcq, onAnswer, onNext, isLast }: MCQCardProps)
           </div>
           <button
             type="button"
-            onClick={() => toggleFlag(mcq.id)}
+            onClick={() => toggleFlag(mcq.id, subjectId)}
             className="focus-ring shrink-0 w-11 h-11 -mt-1 -mr-1 rounded-xl flex items-center justify-center transition-colors"
             aria-pressed={isFlagged}
             aria-label={isFlagged ? "Remove flag from this question" : "Flag this question for review"}
