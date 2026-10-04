@@ -5,6 +5,7 @@ import { blogs } from "@/data/blogs";
 import { getAllQuestionRefs, getChapters, questionSlug } from "@/lib/questionBank";
 import { dailyBodies } from "@/lib/daily";
 import { standards } from "@/data/standards";
+import { TOOLS } from "@/data/tools";
 
 export const revalidate = 86400;
 
@@ -94,7 +95,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...standards.map((s) => ({ url: `${BASE_URL}/standards/${s.slug}`, priority: 0.8, changeFrequency: "monthly" as const })),
   ];
 
-  return [...staticPages, ...examPages, ...prcPages, ...cafPages, ...bankPages, ...bodyDailyPages, ...blogPages, ...questionPages, ...standardsPages].map((page) => ({
+  // Free calculators hub + one page per tool
+  const toolPages = [
+    { url: `${BASE_URL}/tools`, priority: 0.9, changeFrequency: "monthly" as const },
+    ...TOOLS.map((t) => ({ url: `${BASE_URL}/tools/${t.slug}`, priority: 0.85, changeFrequency: "monthly" as const })),
+  ];
+
+  return [...staticPages, ...examPages, ...prcPages, ...cafPages, ...bankPages, ...bodyDailyPages, ...blogPages, ...questionPages, ...standardsPages, ...toolPages].map((page) => ({
     ...page,
     lastModified: now,
   }));
