@@ -2,7 +2,8 @@
 
 import { useCallback, useEffect, useMemo, useState, useSyncExternalStore } from "react";
 import Link from "next/link";
-import { Flame, Share2, Copy, Check, CalendarDays, ArrowRight } from "lucide-react";
+import { Flame, Share2, Copy, Check, CalendarDays, ArrowRight, ChevronLeft } from "lucide-react";
+import { ReviewList } from "@/components/QuizResultsDetails";
 import MCQCard from "@/components/MCQCard";
 import { useProgress } from "@/hooks/useProgress";
 import AdSlot from "@/components/AdSlot";
@@ -75,6 +76,7 @@ export default function DailyChallenge({ date, number, subject, questions, body 
   const [playing, setPlaying] = useState(false);
   const [index, setIndex] = useState(0);
   const [results, setResults] = useState<boolean[]>([]);
+  const [chosen, setChosen] = useState<Record<string, string>>({});
   const [copied, setCopied] = useState(false);
   const countdown = useCountdownToNextDay();
   const { recordAnswer } = useProgress();
@@ -116,17 +118,23 @@ export default function DailyChallenge({ date, number, subject, questions, body 
   if (phase === "playing") {
     const q = questions[index];
     return (
-      <div className="max-w-3xl mx-auto w-full pt-20 sm:pt-24 pb-20 px-3 sm:px-4">
-        <div className="flex items-center justify-between mb-4">
-          <span className="text-sm font-bold" style={{ color: "var(--text-3)" }}>Daily #{number} · {code}</span>
-          <span className="text-sm font-bold px-4 py-2 rounded-xl" style={{ ...card, color: "var(--text-1)" }}>
-            {index + 1} <span style={{ color: "var(--text-3)" }}>/ {questions.length}</span>
+      <div className="max-w-3xl mx-auto w-full pt-20 sm:pt-24 pb-10 sm:pb-20 px-3 sm:px-4">
+        <div className="flex items-center justify-between gap-2 mb-3">
+          <button type="button" onClick={() => { setPlaying(false); setIndex(0); setResults([]); setChosen({}); }}
+            aria-label="Quit today's challenge"
+            className="focus-ring inline-flex items-center gap-1 text-sm font-semibold pl-2 pr-3 h-11 rounded-xl"
+            style={{ ...card, color: "var(--text-2)" }}>
+            <ChevronLeft className="w-4 h-4" aria-hidden /> Quit
+          </button>
+          <span className="text-xs font-bold uppercase tracking-widest truncate" style={{ color: "var(--text-3)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>Daily #{number} · {code}</span>
+          <span className="inline-flex items-center text-sm font-bold px-3.5 h-11 rounded-xl tabular-nums" style={{ ...card, color: "var(--text-1)" }}>
+            {index + 1}<span className="ml-1" style={{ color: "var(--text-3)" }}>/ {questions.length}</span>
           </span>
         </div>
-        <div className="flex gap-1 mb-5">
+        <div className="flex gap-1 mb-4 sm:mb-5" role="progressbar" aria-label="Challenge progress" aria-valuemin={0} aria-valuemax={questions.length} aria-valuenow={results.length}>
           {questions.map((_, i) => (
-            <span key={i} className="h-2 flex-1 rounded-full"
-              style={{ background: i < results.length ? (results[i] ? "var(--green)" : "#f87171") : "var(--border)" }} />
+            <span key={i} className="h-1.5 flex-1 rounded-full transition-colors duration-300"
+              style={{ background: i < results.length ? (results[i] ? "var(--ok)" : "var(--bad)") : i === index ? "color-mix(in srgb, var(--green) 45%, var(--border))" : "var(--border)" }} />
           ))}
         </div>
         <div key={q.id}>
@@ -134,9 +142,10 @@ export default function DailyChallenge({ date, number, subject, questions, body 
             mcq={q}
             subjectId={subject.id}
             isLast={index === questions.length - 1}
-            onAnswer={(ok) => {
+            onAnswer={(ok, pick) => {
               if (results.length <= index) recordAnswer(q.id, subject.id, q.chapter, ok);
               setResults((r) => (r.length > index ? r : [...r, ok]));
+              setChosen((c) => ({ ...c, [q.id]: pick }));
             }}
             onNext={() => {
               if (index < questions.length - 1) setIndex((i) => i + 1);
@@ -169,18 +178,26 @@ export default function DailyChallenge({ date, number, subject, questions, body 
             </span>
             <span className="text-sm" style={{ color: "var(--text-3)" }}>Best: {store?.best ?? 0}</span>
           </div>
-          <button onClick={() => setPlaying(true)}
-            className="w-full rounded-xl px-6 py-4 font-bold text-white cursor-pointer transition-transform hover:scale-[1.01]"
-            style={{ background: "var(--green)" }}>
-            Start today&apos;s challenge
+          <button type="button" onClick={() => setPlaying(true)}
+            className="focus-ring w-full rounded-xl px-6 py-4 font-bold text-white cursor-pointer transition-transform hover:scale-[1.01] active:scale-[0.99] inline-flex items-center justify-center gap-2"
+            style={{ background: "var(--green)", boxShadow: "0 4px 20px color-mix(in srgb, var(--green) 30%, transparent)" }}>
+            Start today&apos;s challenge <ArrowRight className="w-5 h-5" aria-hidden />
           </button>
+          <p className="text-xs text-center mt-3" style={{ color: "var(--text-3)" }}>About 5 minutes · instant explanations after each answer</p>
         </>
       ) : (
         <>
-          <h1 className="font-bold mb-2" style={{ ...heading, fontSize: "clamp(1.8rem,5vw,2.6rem)" }}>
-            {score}/{questions.length} today {score === questions.length ? "🏆" : score >= 7 ? "🎉" : "💪"}
+          <h1 className="font-bold mb-1" style={{ ...heading, fontSize: "clamp(1.8rem,5vw,2.6rem)" }}>
+            {score}/{questions.length} today
           </h1>
-          <p className="text-3xl tracking-widest mb-4" aria-label={`${score} of ${questions.length} correct`}>{grid}</p>
+          <p className="mb-4 text-sm" style={{ color: "var(--text-2)" }}>
+            {score === questions.length ? "A perfect run — take a bow." : score >= 7 ? "Strong result. See you tomorrow." : "Every miss is a lesson — review them below."}
+          </p>
+          <div className="flex gap-1.5 mb-5" role="img" aria-label={`${score} of ${questions.length} correct`}>
+            {[...grid].filter((ch) => ch === "🟩" || ch === "🟥").map((ch, i) => (
+              <span key={i} className="flex-1 max-w-9 aspect-square rounded-md" style={{ background: ch === "🟩" ? "var(--ok)" : "var(--bad)" }} />
+            ))}
+          </div>
           <p className="mb-6 flex items-center gap-2" style={{ color: "var(--text-2)" }}>
             <Flame className="w-5 h-5" style={{ color: "var(--gold)" }} />
             {store?.streak ?? 1}-day streak · best {store?.best ?? 1} · next challenge in {countdown}
@@ -220,6 +237,14 @@ export default function DailyChallenge({ date, number, subject, questions, body 
               </Link>
             </div>
           </div>
+          {results.length === questions.length && (
+            <div className="mb-4">
+              <ReviewList
+                title="Review today's misses"
+                items={questions.filter((_, i) => results[i] === false).map((mcq) => ({ mcq, chosen: chosen[mcq.id] }))}
+              />
+            </div>
+          )}
           <AdSlot />
         </>
       )}

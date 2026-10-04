@@ -3,7 +3,8 @@
 import React, { useState, useEffect, useCallback, useRef } from "react";
 import { MCQ } from "@/data/mcqs";
 import MCQCard from "@/components/MCQCard";
-import { RotateCcw, ChevronLeft, CloudUpload, Timer, Crown, BarChart3 } from "lucide-react";
+import { RotateCcw, ChevronLeft, CloudUpload, Timer, Crown, Flame, Bookmark, SearchX, Share2, ArrowRight, Trophy, BarChart3, Target } from "lucide-react";
+import { ScoreRing, ChapterBreakdown, ReviewList } from "@/components/QuizResultsDetails";
 import Link from "next/link";
 import { useProgress, isMistake, type UserProgressData } from "@/hooks/useProgress";
 import { useParams } from "next/navigation";
@@ -87,6 +88,8 @@ export default function QuizInterface({ mode, chapter, initialQuestions = [] }: 
   const [currentStreak, setCurrentStreak] = useState(0);
   const [incorrectIds, setIncorrectIds] = useState<string[]>([]);
   const [isRetryMode, setIsRetryMode] = useState(false);
+  // Option the student picked per question id (for the results review list).
+  const [answers, setAnswers] = useState<Record<string, string>>({});
   const [showLoginModal, setShowLoginModal] = useState(false);
   const confettiRef = useRef(false);
   // Mistakes mode: ids that were on the mistakes list when this review started.
@@ -213,9 +216,10 @@ export default function QuizInterface({ mode, chapter, initialQuestions = [] }: 
     if (!isFinished) confettiRef.current = false;
   }, [isFinished, score, questions.length]);
 
-  const handleNext = (isCorrect: boolean) => {
+  const handleNext = (isCorrect: boolean, chosen?: string) => {
     const answered = questions[currentIndex];
     if (answered) recordAnswer(answered.id, subjectId, answered.chapter, isCorrect);
+    if (chosen && answered) setAnswers((a) => ({ ...a, [answered.id]: chosen }));
     if (isCorrect) { setScore((s) => s + 1); setCurrentStreak((s) => s + 1); }
     else { setCurrentStreak(0); setIncorrectIds((prev) => [...prev, questions[currentIndex].id]); }
     const newScore = isCorrect ? score + 1 : score;
@@ -244,13 +248,13 @@ export default function QuizInterface({ mode, chapter, initialQuestions = [] }: 
   /* ── Loading ── */
   if (isFetching || !isLoaded) {
     return (
-      <div className="max-w-3xl mx-auto w-full pt-20 sm:pt-24 pb-20 px-3 sm:px-4 animate-pulse">
+      <div className="max-w-3xl mx-auto w-full pt-20 sm:pt-24 pb-20 px-3 sm:px-4 animate-pulse" role="status" aria-busy="true" aria-label="Loading questions">
         <div className="flex items-center justify-between mb-4 gap-2">
-          <span className="rounded-xl" style={{ height: 40, width: 72, background: "var(--bg-2)", border: "1px solid var(--border)", display: "block" }} />
-          <span className="rounded-xl" style={{ height: 40, width: 80, background: "var(--bg-2)", border: "1px solid var(--border)", display: "block" }} />
+          <span className="rounded-xl" style={{ height: 44, width: 76, background: "var(--bg-2)", border: "1px solid var(--border)", display: "block" }} />
+          <span className="rounded-xl" style={{ height: 44, width: 84, background: "var(--bg-2)", border: "1px solid var(--border)", display: "block" }} />
         </div>
-        <div className="w-full h-2 rounded-full mb-5" style={{ background: "var(--border)" }}>
-          <div className="h-2 rounded-full" style={{ width: "30%", background: "var(--green)", opacity: 0.35 }} />
+        <div className="w-full h-1.5 rounded-full mb-5" style={{ background: "var(--border)" }}>
+          <div className="h-1.5 rounded-full" style={{ width: "30%", background: "var(--green)", opacity: 0.35 }} />
         </div>
         <div className="rounded-2xl p-6 sm:p-8 flex flex-col gap-5" style={{ background: "var(--bg-2)", border: "1px solid var(--border)" }}>
           <span className="rounded" style={{ display: "block", height: 13, width: 90, background: "var(--border)" }} />
@@ -258,7 +262,7 @@ export default function QuizInterface({ mode, chapter, initialQuestions = [] }: 
           <span className="rounded" style={{ display: "block", height: 22, width: "55%", background: "var(--border)" }} />
           <div className="flex flex-col gap-3 mt-2">
             {[1, 2, 3, 4].map((n) => (
-              <div key={n} className="rounded-xl p-4 flex items-center gap-3" style={{ background: "var(--bg-3)", border: "1px solid var(--border)" }}>
+              <div key={n} className="rounded-xl p-4 min-h-[52px] flex items-center gap-3" style={{ background: "var(--bg-3)", border: "1px solid var(--border)" }}>
                 <span className="rounded-full shrink-0" style={{ width: 20, height: 20, background: "var(--border)", display: "block" }} />
                 <span className="rounded flex-1" style={{ height: 14, width: `${40 + n * 12}%`, background: "var(--border)", display: "block" }} />
               </div>
@@ -299,30 +303,40 @@ export default function QuizInterface({ mode, chapter, initialQuestions = [] }: 
 
   /* ── Empty ── */
   if (questions.length === 0) {
+    const Icon = mode === "flagged" ? Bookmark : mode === "mistakes" ? Target : SearchX;
     return (
-      <div className="max-w-md mx-auto text-center pt-32 pb-24 px-4">
-        <p className="text-4xl mb-4" aria-hidden="true">{mode === "mistakes" ? "🎯" : "🔖"}</p>
-        <p className="font-bold text-lg mb-2" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
-          {mode === "flagged" ? "No flagged questions" : mode === "mistakes" ? "No mistakes to review" : "No questions found"}
-        </p>
-        <p className="text-sm mb-8" style={{ color: "var(--text-2)" }}>
+      <div className="max-w-md mx-auto text-center pt-28 sm:pt-32 pb-24 px-5 quiz-in">
+        <div className="mx-auto mb-5 w-16 h-16 rounded-2xl flex items-center justify-center"
+          style={{ background: "color-mix(in srgb, var(--green) 12%, transparent)", color: "var(--accent-ink)" }}>
+          <Icon className="w-7 h-7" aria-hidden />
+        </div>
+        <h1 className="font-bold text-xl mb-2" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
+          {mode === "flagged" ? "No flagged questions yet" : mode === "mistakes" ? "No mistakes to review" : "No questions found"}
+        </h1>
+        <p className="text-sm mb-8 leading-relaxed" style={{ color: "var(--text-2)" }}>
           {mode === "flagged"
-            ? "Flag questions during practice — they appear here for review."
+            ? "Tap the bookmark on any question while you practise and it will be saved here for a focused review."
             : mode === "mistakes"
               ? "Every question you get wrong (or flag) in this subject lands here. Answer it correctly in review and it drops off the list."
-              : "Nothing available for this selection."}
+              : "Nothing is available for this selection yet. Try another chapter or a random mock."}
         </p>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
-          <Link href={`/${level}/${subjectId}`}
-            className="inline-flex items-center justify-center gap-2 font-bold rounded-xl px-6 py-3 text-white"
+          <Link href={`/${level}/${subjectId}/quiz?mode=random`}
+            className="focus-ring inline-flex items-center justify-center gap-2 font-bold rounded-xl px-6 py-3 text-white"
             style={{ background: "var(--green)", textDecoration: "none" }}>
-            Back to Subject
+            Start a random mock <ArrowRight className="w-4 h-4" aria-hidden />
           </Link>
-          {mode === "mistakes" && (
+          {mode === "mistakes" ? (
             <Link href="/dashboard"
-              className="inline-flex items-center justify-center gap-2 font-bold rounded-xl px-6 py-3"
-              style={{ background: "var(--bg-3)", border: "1px solid var(--border)", color: "var(--text-2)", textDecoration: "none" }}>
-              <BarChart3 className="w-4 h-4" aria-hidden="true" /> My progress
+              className="focus-ring inline-flex items-center justify-center gap-2 font-semibold rounded-xl px-6 py-3"
+              style={{ background: "var(--bg-2)", border: "1px solid var(--border)", color: "var(--text-1)", textDecoration: "none" }}>
+              <BarChart3 className="w-4 h-4" aria-hidden /> My progress
+            </Link>
+          ) : (
+            <Link href={`/${level}/${subjectId}`}
+              className="focus-ring inline-flex items-center justify-center gap-2 font-semibold rounded-xl px-6 py-3"
+              style={{ background: "var(--bg-2)", border: "1px solid var(--border)", color: "var(--text-1)", textDecoration: "none" }}>
+              Back to subject
             </Link>
           )}
         </div>
@@ -336,81 +350,69 @@ export default function QuizInterface({ mode, chapter, initialQuestions = [] }: 
     const mistakesLeft = mistakeQuestions(allQuestions, progress).length;
     const wrongLeft = allQuestions.filter((q) => isMistake(progress.attempts?.[q.id])).length;
     const cleared = [...reviewWrongRef.current].filter((id) => !isMistake(progress.attempts?.[id])).length;
-    const excellent = pct >= 80;
     const perfect = pct === 100;
+    const headline = perfect ? "Flawless." : pct >= 80 ? "Excellent work." : pct >= 50 ? "Solid effort — keep going." : "Good start. Let's close the gaps.";
+    const reviewItems = incorrectIds
+      .map((id) => questions.find((q) => q.id === id) ?? allQuestions.find((q) => q.id === id))
+      .filter((q): q is MCQ => q !== undefined)
+      .map((mcq) => ({ mcq, chosen: answers[mcq.id] }));
+    const backHref = mode === "topical" ? `/${level}/${subjectId}/topical` : `/${level}/${subjectId}`;
+    const btn = "focus-ring inline-flex items-center justify-center gap-2 font-bold rounded-xl px-5 py-3 text-sm min-h-[46px]";
+    const primary = { background: "var(--green)", color: "#fff", textDecoration: "none", boxShadow: "0 4px 18px color-mix(in srgb, var(--green) 28%, transparent)" };
+    const secondary = { background: "var(--bg-3)", border: "1px solid var(--border)", color: "var(--text-1)", textDecoration: "none" };
+    // Mistakes mode already offers "Review remaining", which covers retrying this run's misses.
+    const showRetryWrong = incorrectIds.length > 0 && mode !== "mistakes";
+    const showAgain = !(mode === "mistakes" && mistakesLeft === 0);
+    const againIsPrimary = mode === "mistakes" && showAgain;
+    const ctaCount = 1 + (showRetryWrong ? 1 : 0) + (showAgain ? 1 : 0);
     return (
-      <div className="max-w-lg mx-auto pt-28 pb-20 px-4">
+      <div className="max-w-2xl mx-auto pt-24 sm:pt-28 pb-20 px-4 flex flex-col gap-4 quiz-in">
         <EmailLoginModal isOpen={showLoginModal} onClose={() => setShowLoginModal(false)} onSuccess={(em, tok) => { signIn(em, tok); syncToCloud(subjectId, { email: em, token: tok }); }} />
-        <div className="rounded-2xl p-8 text-center" style={{ background: "var(--bg-2)", border: "1px solid var(--border)" }}>
-          <div className="text-4xl mb-4">{perfect ? "🏆" : excellent ? "🎉" : "💪"}</div>
-          <h2 className="font-bold text-2xl mb-1" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
-            {isRetryMode || mode === "mistakes" ? "Review Complete" : "Practice Complete"}
-          </h2>
-          <p className="text-sm mb-8" style={{ color: "var(--text-2)" }}>
-            {MODE_LABELS[mode]} {mode === "topical" ? `— Chapter ${chapter}` : ""} finished.
-            {mode === "mistakes" && (
-              <span className="block mt-1">
+        <section className="rounded-2xl p-6 sm:p-8 text-center" style={{ background: "var(--bg-2)", border: "1px solid var(--border)" }}>
+          <p className="text-xs font-bold uppercase tracking-widest mb-2 inline-flex items-center gap-1.5" style={{ color: "var(--accent-ink)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
+            {perfect && <Trophy className="w-3.5 h-3.5" aria-hidden />}
+            {isRetryMode || mode === "mistakes" ? "Review complete" : `${MODE_LABELS[mode]}${mode === "topical" ? ` · Chapter ${chapter}` : ""} complete`}
+          </p>
+          <h1 className={`font-bold text-2xl sm:text-[1.75rem] ${mode === "mistakes" ? "mb-2" : "mb-6"}`} style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif", lineHeight: 1.2 }}>
+            {headline}
+          </h1>
+          {mode === "mistakes" && (
+            <p className="text-sm mb-6 inline-flex items-start gap-1.5 text-left" style={{ color: "var(--text-2)" }}>
+              <Target className="w-4 h-4 shrink-0 mt-0.5" style={{ color: "var(--accent-ink)" }} aria-hidden />
+              <span>
                 {cleared > 0 ? `${cleared} cleared from your mistakes list. ` : ""}
                 {wrongLeft > 0 ? `${wrongLeft} still wrong.` : "Your mistakes list is clear!"}
-                {mistakesLeft > wrongLeft ? ` Flagged questions stay in review until you unflag them.` : ""}
+                {mistakesLeft > wrongLeft ? " Flagged questions stay in review until you unflag them." : ""}
               </span>
-            )}
-          </p>
-
-          {/* Score ring */}
-          <div className="inline-flex flex-col items-center justify-center rounded-2xl px-10 py-6 mb-6"
-            style={{
-              background: perfect ? "color-mix(in srgb, var(--green) 12%, transparent)" : excellent ? "color-mix(in srgb, var(--green) 8%, transparent)" : "rgba(251,191,36,0.08)",
-              border: `1px solid ${perfect ? "color-mix(in srgb, var(--green) 50%, transparent)" : excellent ? "color-mix(in srgb, var(--green) 30%, transparent)" : "rgba(251,191,36,0.3)"}`,
-            }}>
-            <div className="font-black" style={{ fontSize: "3.5rem", color: perfect ? "var(--green)" : excellent ? "var(--green)" : "#fbbf24", lineHeight: 1 }}>
-              {pct}%
-            </div>
-            <div className="text-sm font-bold mt-1" style={{ color: "var(--text-3)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
-              {score} / {questions.length} correct
-            </div>
-            {perfect && <p className="text-xs mt-2 font-bold" style={{ color: "var(--green)" }}>Perfect Score! 🌟</p>}
-            {mode === "exam" && timeUsed !== null && (
-              <p className="text-xs mt-2 font-semibold" style={{ color: "var(--text-3)" }}>
-                <Timer className="w-3 h-3 inline -mt-0.5" /> {fmtClock(timeUsed)} of {fmtClock(questions.length * SECONDS_PER_QUESTION)} used
-              </p>
-            )}
-          </div>
-
-          {/* Cloud sync prompt for non-logged-in users */}
-          {!auth && (
-            <button
-              onClick={() => setShowLoginModal(true)}
-              className="w-full flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold mb-5 cursor-pointer transition-colors"
-              style={{ background: "color-mix(in srgb, var(--green) 8%, transparent)", border: "1px solid color-mix(in srgb, var(--green) 25%, transparent)", color: "var(--green)" }}
-              onMouseEnter={e => (e.currentTarget.style.background = "color-mix(in srgb, var(--green) 15%, transparent)")}
-              onMouseLeave={e => (e.currentTarget.style.background = "color-mix(in srgb, var(--green) 8%, transparent)")}
-            >
-              <CloudUpload className="w-4 h-4" /> Save progress to email
-            </button>
-          )}
-          {auth && (
-            <p className="text-xs mb-5 font-medium" style={{ color: isSyncing ? "#fbbf24" : "var(--green)" }}>
-              {isSyncing ? "⏳ Syncing…" : `☁ Synced to ${auth.email}`}
             </p>
           )}
 
-          <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            {incorrectIds.length > 0 && (
+          <ScoreRing pct={pct} score={score} total={questions.length} />
+
+          {mode === "exam" && timeUsed !== null && (
+            <p className="text-xs mt-3 font-semibold inline-flex items-center gap-1" style={{ color: "var(--text-2)" }}>
+              <Timer className="w-3.5 h-3.5" aria-hidden /> {fmtClock(timeUsed)} of {fmtClock(questions.length * SECONDS_PER_QUESTION)} used
+            </p>
+          )}
+
+          <div className={`mt-7 grid gap-2.5 ${ctaCount === 3 ? "sm:grid-cols-3" : ctaCount === 2 ? "sm:grid-cols-2" : ""}`}>
+            {showRetryWrong && (
               <button
+                type="button"
                 onClick={() => {
                   const qs = incorrectIds.map((id) => allQuestions.find((q) => q.id === id)).filter((q): q is MCQ => q !== undefined);
                   setQuestions(qs); setCurrentIndex(0); setScore(0); setCurrentStreak(0);
                   setIncorrectIds([]); setIsFinished(false); setIsRetryMode(true);
                 }}
-                className="inline-flex items-center justify-center gap-2 font-bold rounded-xl px-5 py-3 text-sm cursor-pointer"
-                style={{ background: "rgba(248,113,113,0.10)", border: "1px solid rgba(248,113,113,0.3)", color: "#f87171" }}
+                className={btn}
+                style={primary}
               >
-                <RotateCcw className="w-4 h-4" /> Retry Wrong ({incorrectIds.length})
+                <RotateCcw className="w-4 h-4" aria-hidden /> Retry {incorrectIds.length} wrong
               </button>
             )}
-            {!(mode === "mistakes" && mistakesLeft === 0) && (
+            {showAgain && (
             <button
+              type="button"
               onClick={() => {
                 setCurrentIndex(0); setScore(0); setCurrentStreak(0);
                 setIncorrectIds([]); setIsFinished(false); setIsRetryMode(false);
@@ -423,42 +425,58 @@ export default function QuizInterface({ mode, chapter, initialQuestions = [] }: 
                   setQuestions(qs);
                 }
               }}
-              className="inline-flex items-center justify-center gap-2 font-bold rounded-xl px-5 py-3 text-sm cursor-pointer"
-              style={{ background: "var(--bg-3)", border: "1px solid var(--border)", color: "var(--text-2)" }}
+              className={btn}
+              style={againIsPrimary ? primary : secondary}
             >
-              <RotateCcw className="w-4 h-4" /> {mode === "mistakes" ? `Review Remaining (${mistakesLeft})` : "Try Again"}
+              <RotateCcw className="w-4 h-4" aria-hidden /> {mode === "mistakes" ? `Review remaining (${mistakesLeft})` : "Try again"}
             </button>
             )}
-            <Link
-              href={mode === "topical" ? `/${level}/${subjectId}/topical` : `/${level}/${subjectId}`}
-              className="inline-flex items-center justify-center gap-2 font-bold rounded-xl px-5 py-3 text-sm text-white"
-              style={{ background: "var(--green)", textDecoration: "none" }}
-            >
-              {mode === "topical" ? "More Chapters" : "Back to Subject"}
+            <Link href={backHref} className={btn} style={showRetryWrong || againIsPrimary ? secondary : primary}>
+              {mode === "topical" ? "More chapters" : "Back to subject"}
             </Link>
           </div>
 
           <Link
             href="/dashboard"
-            className="mt-4 inline-flex items-center justify-center gap-2 text-sm font-bold rounded-xl px-4 py-2.5"
-            style={{ color: "var(--green)", textDecoration: "none" }}
+            className="focus-ring mt-3 inline-flex items-center justify-center gap-2 text-sm font-bold rounded-xl px-4 py-2.5"
+            style={{ color: "var(--accent-ink)", textDecoration: "none" }}
           >
-            <BarChart3 className="w-4 h-4" aria-hidden="true" /> My progress &amp; weak chapters
+            <BarChart3 className="w-4 h-4" aria-hidden /> My progress &amp; weak chapters
           </Link>
-        </div>
+
+          {/* Cloud sync */}
+          {!auth && (
+            <button
+              type="button"
+              onClick={() => setShowLoginModal(true)}
+              className="focus-ring mt-2 w-full flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold transition-colors"
+              style={{ background: "transparent", border: "1px dashed color-mix(in srgb, var(--green) 40%, transparent)", color: "var(--accent-ink)" }}
+            >
+              <CloudUpload className="w-4 h-4" aria-hidden /> Save your progress to email
+            </button>
+          )}
+          {auth && (
+            <p className="text-xs mt-2 font-medium" role="status" style={{ color: isSyncing ? "var(--warn)" : "var(--accent-ink)" }}>
+              {isSyncing ? "Syncing…" : `Synced to ${auth.email}`}
+            </p>
+          )}
+        </section>
+
+        <ChapterBreakdown questions={questions} incorrectIds={incorrectIds} />
+        <ReviewList items={reviewItems} />
 
         <a
-          href={`https://wa.me/?text=${encodeURIComponent(`I scored ${pct}% on a ${subjectId.toUpperCase()} ${MODE_LABELS[mode]} at The CA Hub 📚 Free ICAP MCQs: https://www.thecahub.com/${level}/${subjectId}`)}`}
+          href={`https://wa.me/?text=${encodeURIComponent(`I scored ${pct}% on a ${subjectId.toUpperCase()} ${MODE_LABELS[mode]} at The CA Hub 📚 Free MCQs with explanations: https://www.thecahub.com/${level}/${subjectId}`)}`}
           target="_blank" rel="noopener noreferrer"
-          className="mt-5 flex items-center justify-center gap-2 rounded-xl px-5 py-3 font-bold text-white text-sm"
-          style={{ background: "#25D366", textDecoration: "none" }}>
-          Share score on WhatsApp
+          className="focus-ring flex items-center justify-center gap-2 rounded-xl px-5 py-3 font-bold text-white text-sm min-h-[46px]"
+          style={{ background: "#1FAF55", textDecoration: "none" }}>
+          <Share2 className="w-4 h-4" aria-hidden /> Share score on WhatsApp
         </a>
 
         {!pro && !proLoading && (
-          <Link href="/pro" className="mt-5 flex items-center gap-3 rounded-2xl p-4 text-left"
-            style={{ background: "rgba(245,166,35,0.07)", border: "1px solid rgba(245,166,35,0.3)", textDecoration: "none" }}>
-            <Crown className="w-6 h-6 shrink-0" style={{ color: "var(--gold)" }} />
+          <Link href="/pro" className="focus-ring flex items-center gap-3 rounded-2xl p-4 text-left"
+            style={{ background: "color-mix(in srgb, var(--gold) 8%, transparent)", border: "1px solid color-mix(in srgb, var(--gold) 35%, transparent)", textDecoration: "none" }}>
+            <Crown className="w-6 h-6 shrink-0" style={{ color: "var(--gold)" }} aria-hidden />
             <span className="text-sm" style={{ color: "var(--text-2)" }}>
               <strong style={{ color: "var(--text-1)" }}>Sit unlimited timed exams, ad-free.</strong> Go Pro for less than the cost of one past-paper book.
             </span>
@@ -471,51 +489,75 @@ export default function QuizInterface({ mode, chapter, initialQuestions = [] }: 
 
   /* ── Active Quiz ── */
   const currentQ = questions[currentIndex];
-  const progressPercent = (currentIndex / questions.length) * 100;
+  const answeredCount = Math.min(questions.length, Math.max(currentIndex, score + incorrectIds.length));
+  const progressPercent = (answeredCount / questions.length) * 100;
+  const wrongSet = new Set(incorrectIds);
+  const segmented = questions.length <= 30;
+  const lowTime = timeLeft !== null && timeLeft < 60;
 
   return (
-    <div className="max-w-3xl mx-auto w-full pt-20 sm:pt-24 pb-20 px-3 sm:px-4">
+    <div className="max-w-3xl mx-auto w-full pt-20 sm:pt-24 pb-10 sm:pb-20 px-3 sm:px-4">
 
       {/* Top bar */}
-      <div className="flex items-center justify-between mb-4 gap-2 flex-wrap">
+      <div className="flex items-center justify-between mb-3 gap-2">
         <Link
           href={mode === "topical" ? `/${level}/${subjectId}/topical` : `/${level}/${subjectId}`}
-          className="inline-flex items-center gap-1.5 text-sm font-semibold px-3 py-2 rounded-xl transition-colors"
-          style={{ color: "var(--text-3)", background: "var(--bg-2)", border: "1px solid var(--border)", textDecoration: "none" }}
-          onMouseEnter={e => ((e.currentTarget as HTMLElement).style.color = "var(--text-1)")}
-          onMouseLeave={e => ((e.currentTarget as HTMLElement).style.color = "var(--text-3)")}
+          aria-label="Exit quiz"
+          className="focus-ring inline-flex items-center gap-1 text-sm font-semibold pl-2 pr-3 h-11 rounded-xl transition-colors"
+          style={{ color: "var(--text-2)", background: "var(--bg-2)", border: "1px solid var(--border)", textDecoration: "none" }}
         >
-          <ChevronLeft className="w-4 h-4" /> Exit
+          <ChevronLeft className="w-4 h-4" aria-hidden /> Exit
         </Link>
+
+        <div className="min-w-0 flex-1 text-center hidden sm:block">
+          <span className="text-xs font-bold uppercase tracking-widest truncate" style={{ color: "var(--text-3)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
+            {isRetryMode ? "Reviewing mistakes" : `${MODE_LABELS[mode]}${mode === "topical" && chapter ? ` · Ch ${chapter}` : ""}`}
+          </span>
+        </div>
 
         <div className="flex items-center gap-2">
           {mode === "exam" && timeLeft !== null && (
-            <span className="inline-flex items-center gap-1 text-sm font-black px-3 py-2 rounded-xl tabular-nums"
+            <span className="inline-flex items-center gap-1 text-sm font-black px-3 h-11 rounded-xl tabular-nums"
+              aria-label={`Time left ${fmtClock(Math.max(timeLeft, 0))}`}
               style={{
-                background: timeLeft < 60 ? "rgba(248,113,113,0.12)" : "var(--bg-2)",
-                color: timeLeft < 60 ? "#f87171" : "var(--text-1)",
-                border: `1px solid ${timeLeft < 60 ? "rgba(248,113,113,0.4)" : "var(--border)"}`,
+                background: lowTime ? "color-mix(in srgb, var(--bad) 12%, transparent)" : "var(--bg-2)",
+                color: lowTime ? "var(--bad)" : "var(--text-1)",
+                border: `1px solid ${lowTime ? "color-mix(in srgb, var(--bad) 45%, transparent)" : "var(--border)"}`,
               }}>
-              <Timer className="w-4 h-4" /> {fmtClock(Math.max(timeLeft, 0))}
+              <Timer className="w-4 h-4" aria-hidden /> {fmtClock(Math.max(timeLeft, 0))}
             </span>
           )}
           {currentStreak > 2 && (
-            <span className="text-xs font-black px-3 py-1.5 rounded-full animate-pulse"
-              style={{ background: "rgba(251,191,36,0.12)", color: "#fbbf24", border: "1px solid rgba(251,191,36,0.3)" }}>
-              🔥 {currentStreak} streak
+            <span className="quiz-in inline-flex items-center gap-1 text-xs font-black px-2.5 h-8 rounded-full"
+              aria-label={`${currentStreak} correct in a row`}
+              style={{ background: "color-mix(in srgb, var(--gold) 14%, transparent)", color: "var(--warn)", border: "1px solid color-mix(in srgb, var(--gold) 35%, transparent)" }}>
+              <Flame className="w-3.5 h-3.5" aria-hidden /> {currentStreak}
             </span>
           )}
-          <div className="text-sm font-bold px-4 py-2 rounded-xl"
+          <div className="inline-flex items-center text-sm font-bold px-3.5 h-11 rounded-xl tabular-nums"
             style={{ background: "var(--bg-2)", border: "1px solid var(--border)", color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
-            {currentIndex + 1} <span style={{ color: "var(--text-3)" }}>/ {questions.length}</span>
-            {isRetryMode && <span className="ml-2 text-xs" style={{ color: "#f87171" }}>Review</span>}
+            {isRetryMode && <span className="mr-2 text-xs sm:hidden" style={{ color: "var(--bad)" }}>Review</span>}
+            {currentIndex + 1}<span className="ml-1" style={{ color: "var(--text-3)" }}>/ {questions.length}</span>
           </div>
         </div>
       </div>
 
-      {/* Progress bar */}
-      <div className="w-full h-2 rounded-full mb-5 overflow-hidden" style={{ background: "var(--border)" }}>
-        <div className="h-full rounded-full transition-all duration-300" style={{ width: `${progressPercent}%`, background: "var(--green)" }} />
+      {/* Progress — one segment per question for short sets (shows right/wrong at a glance), a bar for long ones */}
+      <div role="progressbar" aria-label="Quiz progress" aria-valuemin={0} aria-valuemax={questions.length} aria-valuenow={answeredCount}
+        className="mb-4 sm:mb-5">
+        {segmented ? (
+          <div className="flex gap-1">
+            {questions.map((q, i) => {
+              const done = i < answeredCount;
+              const bg = done ? (wrongSet.has(q.id) ? "var(--bad)" : "var(--ok)") : i === currentIndex ? "color-mix(in srgb, var(--green) 45%, var(--border))" : "var(--border)";
+              return <span key={q.id} className="h-1.5 flex-1 rounded-full transition-colors duration-300" style={{ background: bg }} />;
+            })}
+          </div>
+        ) : (
+          <div className="w-full h-1.5 rounded-full overflow-hidden" style={{ background: "var(--border)" }}>
+            <div className="h-full rounded-full transition-all duration-300" style={{ width: `${progressPercent}%`, background: "var(--green)" }} />
+          </div>
+        )}
       </div>
 
       {/* Card */}

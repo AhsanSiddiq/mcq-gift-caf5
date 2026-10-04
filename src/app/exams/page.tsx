@@ -77,7 +77,7 @@ function BodyCard({ body }: { body: ExamBody }) {
         <span style={{ color: "var(--text-3)" }}>
           {body.levels.length} {body.levels.length === 1 ? "level" : "levels"} · {paperCount} papers
         </span>
-        <span className="inline-flex items-center gap-1 transition-transform group-hover:translate-x-0.5" style={{ color: "var(--green)" }}>
+        <span className="inline-flex items-center gap-1 transition-transform group-hover:translate-x-0.5" style={{ color: "var(--accent-ink)" }}>
           {live ? "Practice free" : "Join waitlist"} <ArrowRight className="w-3.5 h-3.5" />
         </span>
       </div>
@@ -92,7 +92,7 @@ function Group({ label, note, bodies }: { label: string; note: string; bodies: E
       <div className="flex items-center gap-3 mb-2">
         <span
           className="text-xs font-black uppercase tracking-widest px-3 py-1 rounded-full"
-          style={{ color: "var(--green)", background: "color-mix(in srgb, var(--green) 8%, transparent)", border: "1px solid color-mix(in srgb, var(--green) 20%, transparent)" }}
+          style={{ color: "var(--accent-ink)", background: "color-mix(in srgb, var(--green) 8%, transparent)", border: "1px solid color-mix(in srgb, var(--green) 20%, transparent)" }}
         >
           {label}
         </span>
@@ -132,13 +132,13 @@ export default async function ExamsPage() {
         {/* Hero */}
         <div className="mb-12">
           <p className="text-xs font-bold uppercase tracking-widest mb-3"
-            style={{ color: "var(--green)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
+            style={{ color: "var(--accent-ink)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
             Global Exam Hub
           </p>
           <h1 className="font-bold mb-4"
             style={{ fontSize: "clamp(2rem,5vw,3.25rem)", color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif", lineHeight: 1.1 }}>
             Accountancy exam practice<br />
-            <span style={{ color: "var(--green)" }}>for every country.</span>
+            <span style={{ color: "var(--accent-ink)" }}>for every country.</span>
           </h1>
           <p className="text-base sm:text-lg max-w-2xl"
             style={{ color: "var(--text-2)", fontFamily: "var(--font-inter), sans-serif", lineHeight: 1.7 }}>
@@ -178,7 +178,7 @@ export default async function ExamsPage() {
         {/* SEO copy */}
         <section className="mt-6 rounded-3xl p-6 sm:p-10" style={{ background: "var(--bg-2)", border: "1px solid var(--border)" }}>
           <div className="flex items-center gap-2 mb-4">
-            <Globe2 className="w-5 h-5" style={{ color: "var(--green)" }} />
+            <Globe2 className="w-5 h-5" style={{ color: "var(--accent-ink)" }} />
             <h2 className="text-xl sm:text-2xl font-bold" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
               Why MCQ practice matters in every accountancy qualification
             </h2>
