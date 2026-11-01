@@ -7,7 +7,7 @@ import { getChapters, resolveSubject } from "@/lib/questionBank";
 import AdSlot from "@/components/AdSlot";
 import SponsorSlot from "@/components/SponsorSlot";
 
-export const revalidate = 86400;
+export const revalidate = 604800;
 
 const BASE_URL = "https://www.thecahub.com";
 type Props = { params: Promise<{ level: string; subject: string }> };

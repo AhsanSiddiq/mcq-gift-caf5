@@ -9,7 +9,8 @@ import TestYourself from "./TestYourself";
 import { BASE_URL, clip, questionPath, resolveQuestion, type QuestionParams } from "./resolve";
 
 // ISR: ~8,000 question pages are rendered on first request, then cached and refreshed daily.
-export const revalidate = 86400;
+// Question content rarely changes; a long window keeps ISR re-renders (and hosting cost) low.
+export const revalidate = 2592000;
 export const dynamicParams = true;
 export function generateStaticParams() {
   return [];
@@ -35,7 +36,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description,
     keywords: [`${r.code} MCQs`, `${r.meta.topic} MCQs`, `${r.code} ${r.meta.topic} MCQ with answer`],
     alternates: { canonical: url },
-    openGraph: { title, description, url, type: "article" },
+    openGraph: { title, description, url, type: "article", images: [`${url.slice(0, url.lastIndexOf("/"))}/opengraph-image`] },
     twitter: { card: "summary_large_image", title, description },
   };
 }
@@ -104,11 +105,11 @@ export default async function QuestionPage({ params }: Props) {
       <div className="max-w-3xl mx-auto px-4 sm:px-6 md:px-8 pt-24 sm:pt-28 pb-20">
         <nav aria-label="Breadcrumb" className="mb-8 text-sm" style={{ color: "var(--text-3)" }}>
           <ol className="flex flex-wrap items-center gap-x-2 gap-y-1">
-            <li><Link href={base} style={{ color: "var(--text-3)", textDecoration: "none" }}>{code}</Link></li>
+            <li><Link prefetch={false} href={base} style={{ color: "var(--text-3)", textDecoration: "none" }}>{code}</Link></li>
             <li aria-hidden>/</li>
-            <li><Link href={`${base}/mcqs`} style={{ color: "var(--text-3)", textDecoration: "none" }}>MCQs</Link></li>
+            <li><Link prefetch={false} href={`${base}/mcqs`} style={{ color: "var(--text-3)", textDecoration: "none" }}>MCQs</Link></li>
             <li aria-hidden>/</li>
-            <li><Link href={chapterHref} style={{ color: "var(--text-3)", textDecoration: "none" }}>Chapter {meta.chapter}: {meta.topic}</Link></li>
+            <li><Link prefetch={false} href={chapterHref} style={{ color: "var(--text-3)", textDecoration: "none" }}>Chapter {meta.chapter}: {meta.topic}</Link></li>
             <li aria-hidden>/</li>
             <li aria-current="page" style={{ color: "var(--text-2)" }}>Question {idx + 1}</li>
           </ol>
@@ -138,10 +139,10 @@ export default async function QuestionPage({ params }: Props) {
         </section>
 
         <div className="grid sm:grid-cols-2 gap-3 mb-8">
-          <Link href={`${base}/quiz?mode=topical&chapter=${meta.chapter}`} className="flex items-center justify-center gap-2 rounded-xl px-5 py-3 font-bold text-white" style={{ background: "var(--green)", textDecoration: "none" }}>
+          <Link prefetch={false} href={`${base}/quiz?mode=topical&chapter=${meta.chapter}`} className="flex items-center justify-center gap-2 rounded-xl px-5 py-3 font-bold text-white" style={{ background: "var(--green)", textDecoration: "none" }}>
             <Timer className="w-4 h-4" /> Practise Chapter {meta.chapter} in quiz mode
           </Link>
-          <Link href={dailyHref} className="flex items-center justify-center gap-2 rounded-xl px-5 py-3 font-bold" style={{ ...card, color: "var(--text-1)" }}>
+          <Link prefetch={false} href={dailyHref} className="flex items-center justify-center gap-2 rounded-xl px-5 py-3 font-bold" style={{ ...card, color: "var(--text-1)" }}>
             <CalendarDays className="w-4 h-4" /> Take today&apos;s daily challenge
           </Link>
         </div>
@@ -150,7 +151,7 @@ export default async function QuestionPage({ params }: Props) {
 
         <nav aria-label="Question navigation" className="mt-8 grid sm:grid-cols-2 gap-3">
           {prev ? (
-            <Link href={questionPath(base, meta.slug, prev)} rel="prev" className="rounded-2xl p-4" style={card}>
+            <Link prefetch={false} href={questionPath(base, meta.slug, prev)} rel="prev" className="rounded-2xl p-4" style={card}>
               <span className="block text-xs mb-1" style={{ color: "var(--text-3)" }}>
                 <ArrowLeft className="w-3 h-3 inline" /> Previous · Question {idx}
               </span>
@@ -158,7 +159,7 @@ export default async function QuestionPage({ params }: Props) {
             </Link>
           ) : <span />}
           {next && (
-            <Link href={questionPath(base, meta.slug, next)} rel="next" className="rounded-2xl p-4 sm:text-right" style={card}>
+            <Link prefetch={false} href={questionPath(base, meta.slug, next)} rel="next" className="rounded-2xl p-4 sm:text-right" style={card}>
               <span className="block text-xs mb-1" style={{ color: "var(--text-3)" }}>
                 Next · Question {idx + 2} <ArrowRight className="w-3 h-3 inline" />
               </span>
@@ -167,7 +168,7 @@ export default async function QuestionPage({ params }: Props) {
           )}
         </nav>
 
-        <Link href={chapterHref} className="mt-3 flex items-center justify-between gap-3 rounded-2xl p-4" style={card}>
+        <Link prefetch={false} href={chapterHref} className="mt-3 flex items-center justify-between gap-3 rounded-2xl p-4" style={card}>
           <span>
             <span className="block text-xs" style={{ color: "var(--text-3)" }}>All {questions.length} questions in Chapter {meta.chapter}</span>
             <span className="block font-bold text-sm" style={{ color: "var(--text-1)" }}>{meta.topic} MCQs with answers</span>
@@ -183,7 +184,7 @@ export default async function QuestionPage({ params }: Props) {
             <ul className="flex flex-col gap-2">
               {related.map(({ n, q: rq }) => (
                 <li key={rq.id}>
-                  <Link href={questionPath(base, meta.slug, rq)} className="flex items-start gap-3 rounded-xl p-4 text-sm" style={card}>
+                  <Link prefetch={false} href={questionPath(base, meta.slug, rq)} className="flex items-start gap-3 rounded-xl p-4 text-sm" style={card}>
                     <span className="shrink-0 font-bold" style={{ color: "var(--green)" }}>Q{n}</span>
                     <span style={{ color: "var(--text-2)" }}>{clip(rq.question, 140)}</span>
                   </Link>

@@ -26,5 +26,11 @@ export function proxy(request: NextRequest) {
 
 export const config = {
   // Skip Next internals, API routes and any request for a static file (has an extension).
-  matcher: ["/((?!_next/|api/|.*\\..*).*)"],
+  // Only runs until the visitor has a country cookie — keeps edge invocations to ~1 per visitor.
+  matcher: [
+    {
+      source: "/((?!_next/|api/|.*\\..*).*)",
+      missing: [{ type: "cookie", key: "cah_country" }],
+    },
+  ],
 };

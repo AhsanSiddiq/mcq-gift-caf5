@@ -7,7 +7,7 @@ import { getChapterQuestions, getChapters, questionSlug, resolveSubject, type Ch
 import AdSlot from "@/components/AdSlot";
 import SponsorSlot from "@/components/SponsorSlot";
 
-export const revalidate = 86400;
+export const revalidate = 604800;
 
 const BASE_URL = "https://www.thecahub.com";
 type Props = { params: Promise<{ level: string; subject: string; chapter: string }> };
@@ -86,7 +86,7 @@ export default async function ChapterQuestionBank({ params }: Props) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(quizLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs) }} />
       <div className="max-w-3xl mx-auto px-4 sm:px-6 md:px-8 pt-24 sm:pt-28 pb-20">
-        <Link href={`${base}/mcqs`} className="inline-flex items-center gap-2 text-sm font-semibold mb-8" style={{ color: "var(--text-3)", textDecoration: "none" }}>
+        <Link prefetch={false} href={`${base}/mcqs`} className="inline-flex items-center gap-2 text-sm font-semibold mb-8" style={{ color: "var(--text-3)", textDecoration: "none" }}>
           <ArrowLeft className="w-4 h-4" /> All {code} chapters
         </Link>
         <p className="text-xs font-bold uppercase tracking-widest mb-3" style={{ color: "var(--green)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
@@ -98,7 +98,7 @@ export default async function ChapterQuestionBank({ params }: Props) {
         <p className="text-base mb-6" style={{ color: "var(--text-2)", lineHeight: 1.7 }}>
           {questions.length} multiple-choice questions on {meta.topic} for {code} {s.title}. Try each one before revealing the answer and explanation.
         </p>
-        <Link href={`${base}/quiz?mode=topical&chapter=${meta.chapter}`}
+        <Link prefetch={false} href={`${base}/quiz?mode=topical&chapter=${meta.chapter}`}
           className="inline-flex items-center gap-2 rounded-xl px-5 py-3 font-bold text-white mb-10" style={{ background: "var(--green)", textDecoration: "none" }}>
           <Timer className="w-4 h-4" /> Practise this chapter interactively
         </Link>
@@ -109,7 +109,7 @@ export default async function ChapterQuestionBank({ params }: Props) {
             return (
               <li key={q.id} className="rounded-2xl p-5 sm:p-6" style={{ background: "var(--bg-2)", border: "1px solid var(--border)" }}>
                 <h2 className="text-xs font-bold uppercase tracking-wider mb-2">
-                  <Link href={`${base}/mcqs/${meta.slug}/${questionSlug(q.id, q.question)}`} style={{ color: "var(--text-3)", textDecoration: "none" }}>
+                  <Link prefetch={false} href={`${base}/mcqs/${meta.slug}/${questionSlug(q.id, q.question)}`} style={{ color: "var(--text-3)", textDecoration: "none" }}>
                     Question {i + 1} <ArrowRight className="w-3 h-3 inline" />
                   </Link>
                 </h2>
@@ -138,13 +138,13 @@ export default async function ChapterQuestionBank({ params }: Props) {
 
         <nav className="mt-10 grid sm:grid-cols-2 gap-3">
           {prev ? (
-            <Link href={`${base}/mcqs/${prev.slug}`} className="rounded-2xl p-4" style={{ background: "var(--bg-2)", border: "1px solid var(--border)", textDecoration: "none" }}>
+            <Link prefetch={false} href={`${base}/mcqs/${prev.slug}`} className="rounded-2xl p-4" style={{ background: "var(--bg-2)", border: "1px solid var(--border)", textDecoration: "none" }}>
               <span className="block text-xs" style={{ color: "var(--text-3)" }}>← Chapter {prev.chapter}</span>
               <span className="block font-bold text-sm" style={{ color: "var(--text-1)" }}>{prev.topic}</span>
             </Link>
           ) : <span />}
           {next && (
-            <Link href={`${base}/mcqs/${next.slug}`} className="rounded-2xl p-4 text-right" style={{ background: "var(--bg-2)", border: "1px solid var(--border)", textDecoration: "none" }}>
+            <Link prefetch={false} href={`${base}/mcqs/${next.slug}`} className="rounded-2xl p-4 text-right" style={{ background: "var(--bg-2)", border: "1px solid var(--border)", textDecoration: "none" }}>
               <span className="block text-xs" style={{ color: "var(--text-3)" }}>Chapter {next.chapter} <ArrowRight className="w-3 h-3 inline" /></span>
               <span className="block font-bold text-sm" style={{ color: "var(--text-1)" }}>{next.topic}</span>
             </Link>
