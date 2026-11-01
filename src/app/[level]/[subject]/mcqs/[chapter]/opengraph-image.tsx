@@ -4,7 +4,7 @@ import { OG_SIZE, renderOg } from "@/lib/ogImage";
 
 export const size = OG_SIZE;
 export const contentType = "image/png";
-export const revalidate = 86400;
+export const revalidate = 604800;
 
 export default async function Image({ params }: { params: Promise<{ level: string; subject: string; chapter: string }> }) {
   const { level, subject, chapter } = await params;
