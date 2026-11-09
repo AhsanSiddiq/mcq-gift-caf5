@@ -4,7 +4,8 @@ import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowRight, BookOpen, HandCoins } from "lucide-react";
 import { EXAM_BODIES, getBody, type ExamBody } from "@/data/regions";
 import WaitlistForm from "@/components/WaitlistForm";
-import { allSubjects, LEVEL_LABEL, subjectBody, subjectCode } from "@/data/subjects";
+import { allSubjects, LEVEL_LABEL, subjectBody, subjectCode, type Subject } from "@/data/subjects";
+import { blogs } from "@/data/blogs";
 
 const BASE_URL = "https://www.thecahub.com";
 
@@ -22,6 +23,35 @@ function launchLabel(body: ExamBody): string {
   const codes = first.papers.map((p) => p.split(" ")[0]);
   const allCodes = codes.every((c) => /^[A-Z0-9-]{2,5}$/.test(c));
   return `${body.short} ${allCodes ? codes.join("/") : first.name}`;
+}
+
+/** URL of a subject's question bank, e.g. /acca/acca-fr/mcqs. */
+const bankHref = (sub: Subject) => `/${sub.level.toLowerCase()}/${sub.id}/mcqs`;
+
+/**
+ * The live bank for a paper listed in regions.ts, matched by code ("FR Financial Reporting" ↔ "ACCA FR")
+ * or by exact title ("Accounting Fundamentals"). Undefined when we have no bank for that paper.
+ */
+function bankForPaper(paper: string, subjects: Subject[]): Subject | undefined {
+  const code = paper.split(" ")[0].toUpperCase();
+  return subjects.find(
+    (s) => s.title.toLowerCase() === paper.toLowerCase() || subjectCode(s).split(" ").pop()?.toUpperCase() === code,
+  );
+}
+
+/**
+ * Live subjects grouped under the body's levels. Returns null unless every live subject maps to a level,
+ * so bodies whose paper names don't match their banks fall back to a single flat grid.
+ */
+function subjectsByLevel(body: ExamBody, subjects: Subject[]) {
+  const groups = body.levels
+    .map((lvl) => ({
+      name: lvl.name,
+      subjects: lvl.papers.map((p) => bankForPaper(p, subjects)).filter((s): s is Subject => !!s),
+    }))
+    .filter((g) => g.subjects.length > 0);
+  const covered = new Set(groups.flatMap((g) => g.subjects.map((s) => s.id)));
+  return subjects.every((s) => covered.has(s.id)) ? groups : null;
 }
 
 function faq(body: ExamBody) {
@@ -44,6 +74,7 @@ function faq(body: ExamBody) {
         ? `${body.short} practice is live now — start from the ${body.short} practice hub.`
         : `We launch exam bodies in order of demand. The more students who join the ${body.short} waitlist, the sooner ${launchLabel(body)} question banks open.`,
     },
+    ...(body.faqs ?? []),
   ];
 }
 
@@ -85,6 +116,11 @@ export default async function ExamBodyPage({ params }: { params: Promise<{ body:
   const liveSubjects = allSubjects.filter((sub) => subjectBody(sub) === body.id && sub.isAvailable);
   const faqs = faq(body);
   const url = `${BASE_URL}/exams/${body.id}`;
+  const grouped = subjectsByLevel(body, liveSubjects);
+  const practiceGroups = grouped ?? [{ name: "", subjects: liveSubjects }];
+  const guides = (body.guideSlugs ?? [])
+    .map((slug) => blogs.find((b) => b.slug === slug))
+    .filter((b): b is (typeof blogs)[number] => !!b);
 
   const jsonLd = [
     {
@@ -157,20 +193,36 @@ export default async function ExamBodyPage({ params }: { params: Promise<{ body:
             <h2 className="text-xl sm:text-2xl font-bold mb-4" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
               Practise {body.short} now — free
             </h2>
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
-              {liveSubjects.map((sub) => (
-                <Link key={sub.id} href={`/${sub.level.toLowerCase()}/${sub.id}`} className="rounded-2xl p-5 flex flex-col gap-2"
-                  style={{ background: "var(--bg-2)", border: "1px solid color-mix(in srgb, var(--green) 35%, transparent)", textDecoration: "none" }}>
-                  <span className="text-xs font-black uppercase tracking-widest" style={{ color: "var(--accent-ink)" }}>{subjectCode(sub)}</span>
-                  <span className="font-bold" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>{sub.title}</span>
-                  <span className="text-xs" style={{ color: "var(--text-3)" }}>{LEVEL_LABEL[sub.level]}</span>
-                  <span className="text-sm" style={{ color: "var(--text-2)" }}>{sub.description}</span>
-                  <span className="text-sm font-bold mt-auto inline-flex items-center gap-1" style={{ color: "var(--accent-ink)" }}>
-                    Practice MCQs <ArrowRight className="w-4 h-4" />
-                  </span>
-                </Link>
-              ))}
-            </div>
+            {practiceGroups.map((group) => (
+              <div key={group.name || "all"} className="mb-4">
+                {group.name && (
+                  <h3 className="text-sm font-bold uppercase tracking-widest mb-3" style={{ color: "var(--text-3)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
+                    {group.name}
+                  </h3>
+                )}
+                <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                  {group.subjects.map((sub) => (
+                    <div key={sub.id} className="rounded-2xl p-5 flex flex-col gap-2"
+                      style={{ background: "var(--bg-2)", border: "1px solid color-mix(in srgb, var(--green) 35%, transparent)" }}>
+                      <span className="text-xs font-black uppercase tracking-widest" style={{ color: "var(--accent-ink)" }}>{subjectCode(sub)}</span>
+                      <Link href={bankHref(sub)} className="font-bold hover:underline" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif", textDecoration: "none" }}>
+                        {sub.title}
+                      </Link>
+                      <span className="text-xs" style={{ color: "var(--text-3)" }}>{LEVEL_LABEL[sub.level]}</span>
+                      <span className="text-sm" style={{ color: "var(--text-2)" }}>{sub.description}</span>
+                      <span className="mt-auto pt-1 flex flex-wrap gap-x-4 gap-y-1 text-sm font-bold">
+                        <Link href={bankHref(sub)} className="inline-flex items-center gap-1" style={{ color: "var(--accent-ink)", textDecoration: "none" }}>
+                          Question bank <ArrowRight className="w-4 h-4" />
+                        </Link>
+                        <Link href={`/${sub.level.toLowerCase()}/${sub.id}`} className="inline-flex items-center gap-1" style={{ color: "var(--text-2)", textDecoration: "none" }}>
+                          Quizzes and mocks
+                        </Link>
+                      </span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ))}
             <Link href={`/daily/${body.id}`} className="mt-4 flex items-center justify-between gap-4 rounded-2xl p-5"
               style={{ background: "rgba(245,166,35,0.07)", border: "1px solid rgba(245,166,35,0.3)", textDecoration: "none" }}>
               <span>
@@ -220,6 +272,52 @@ export default async function ExamBodyPage({ params }: { params: Promise<{ body:
           )}
         </div>
 
+        {/* How the exams work (bodies that define it in regions.ts) */}
+        {body.howItWorks && body.howItWorks.length > 0 && (
+          <section id="how-the-exams-work" className="mb-14">
+            <h2 className="text-xl sm:text-2xl font-bold mb-6" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
+              How the {body.short} exams work
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {body.howItWorks.map((item) => (
+                <div key={item.title} className="rounded-2xl p-5 sm:p-6" style={{ background: "var(--bg-2)", border: "1px solid var(--border)" }}>
+                  <h3 className="font-bold text-base mb-2" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>{item.title}</h3>
+                  <p className="text-sm leading-relaxed" style={{ color: "var(--text-2)", fontFamily: "var(--font-inter), sans-serif" }}>{item.text}</p>
+                </div>
+              ))}
+            </div>
+            {body.officialLinks && body.officialLinks.length > 0 && (
+              <p className="text-sm mt-4" style={{ color: "var(--text-3)", fontFamily: "var(--font-inter), sans-serif" }}>
+                Rules and fees change, so check the official pages before you book:{" "}
+                {body.officialLinks.map((l, i) => (
+                  <span key={l.href}>
+                    {i > 0 && " · "}
+                    <a href={l.href} target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "var(--accent-ink)" }}>{l.label}</a>
+                  </span>
+                ))}
+              </p>
+            )}
+          </section>
+        )}
+
+        {/* Study guides from the blog */}
+        {guides.length > 0 && (
+          <section id="guides" className="mb-14">
+            <h2 className="text-xl sm:text-2xl font-bold mb-6" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
+              {body.short} study guides
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+              {guides.map((g) => (
+                <Link key={g.slug} href={`/blog/${g.slug}`} className="rounded-2xl p-5 flex flex-col gap-1"
+                  style={{ background: "var(--bg-2)", border: "1px solid var(--border)", textDecoration: "none" }}>
+                  <span className="font-bold" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>{g.title}</span>
+                  <span className="text-sm" style={{ color: "var(--text-2)", fontFamily: "var(--font-inter), sans-serif" }}>{g.excerpt}</span>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
+
         {/* Levels & papers */}
         <section className="mb-14">
           <h2 className="text-xl sm:text-2xl font-bold mb-6" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
@@ -233,12 +331,16 @@ export default async function ExamBodyPage({ params }: { params: Promise<{ body:
                 </h3>
                 <p className="text-sm mb-4" style={{ color: "var(--text-3)", fontFamily: "var(--font-inter), sans-serif" }}>{lvl.mcqNote}</p>
                 <ul className="flex flex-wrap gap-2">
-                  {lvl.papers.map((p) => (
-                    <li key={p} className="text-xs font-semibold px-2.5 py-1 rounded-full"
-                      style={{ background: "var(--bg-3)", color: "var(--text-2)", border: "1px solid var(--border)", fontFamily: "var(--font-inter), sans-serif" }}>
-                      {p}
-                    </li>
-                  ))}
+                  {lvl.papers.map((p) => {
+                    const bank = bankForPaper(p, liveSubjects);
+                    const chip = { background: "var(--bg-3)", color: "var(--text-2)", border: "1px solid var(--border)", fontFamily: "var(--font-inter), sans-serif" };
+                    return (
+                      <li key={p} className="text-xs font-semibold px-2.5 py-1 rounded-full"
+                        style={bank ? { ...chip, color: "var(--accent-ink)", border: "1px solid color-mix(in srgb, var(--green) 35%, transparent)" } : chip}>
+                        {bank ? <Link href={bankHref(bank)} style={{ color: "inherit", textDecoration: "none" }}>{p} →</Link> : p}
+                      </li>
+                    );
+                  })}
                 </ul>
               </div>
             ))}

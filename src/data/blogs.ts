@@ -3887,5 +3887,569 @@ export const blogs: BlogPost[] = [
         <li>ICAI Examination Department, <a href="https://resource.cdn.icai.org/94359exam-aps6372-stu-iff-jan2027.pdf" target="_blank" rel="noopener noreferrer">announcement for January 2027 examinations</a>.</li>
       </ul>
     `
+  },
+  {
+    slug: "icaew-certificate-level-exams-guide",
+    title: "ICAEW ACA Certificate Level Exams: Every Module, the Format, the Pass Mark and the Order to Sit Them",
+    excerpt: "The six Next Generation ACA Certificate Level exams one by one: how long each is, how the marks are split, the 55% pass mark, credit for prior learning, the four-attempt rule and a sensible order to sit them.",
+    tag: "ICAEW",
+    date: "November 9, 2026",
+    readTime: "7 min read",
+    content: `
+      <p>The ACA Certificate Level is six computer-based exams that you can sit at any time of year. Each is 1.5 or 2 hours long and each has a 55% pass mark. Since ICAEW launched the Next Generation ACA in September 2025, the six modules are Accounting Fundamentals, Assurance and Risk Fundamentals, Business Insight and Performance, Business Law, Sustainability and Ethics, and Tax Fundamentals. This guide sets out how each exam is built, how credit and resits work, and the order I suggest to trainees. The figures come from ICAEW's 2025–2026 syllabus handbook and student pages. Where a detail depends on your own circumstances, such as fees or credit, I point you to the official page.</p>
+      <p>If you want the story of what changed from the old modules (Accounting, Assurance, Law, Management Information, Principles of Taxation and BTF), read our <a href="/blog/icaew-aca-certificate-level-2025-changes">guide to the 2025 changes</a>. This article is about passing the exams as they are now.</p>
+
+      <h2>The Six Exams at a Glance</h2>
+      <h3>Accounting Fundamentals: 2 hours</h3>
+      <p>60% of the marks come from 24 multiple choice, multi-part multiple choice or multiple response questions. The other 40% comes from two long-form questions: a 25-mark question preparing a single company's statement of financial position and statement of profit or loss from a trial balance, and a 15-mark question adjusting a draft set of financial statements for year-end transactions or correction of errors. Syllabus weightings: accounting concepts, ethics and sustainability 15%; maintaining financial records 20%; adjustments 20%; preparing financial statements 45%.</p>
+      <h3>Assurance and Risk Fundamentals: 1.5 hours</h3>
+      <p>50 questions worth two marks each. Weightings: the concept, process and need for assurance 20%; risk, internal controls and information flows 25%; obtaining assurance evidence 35%; professional ethics and regulatory issues 20%.</p>
+      <h3>Business Insight and Performance: 2 hours</h3>
+      <p>One scenario-based question carries 20% of the marks and covers a single area: costing and pricing, budgeting and forecasting, performance management, or management decision making. The other 80% comes from 32 objective questions. This is the successor to Management Information; our <a href="/blog/icaew-business-insight-and-performance-guide">Business Insight and Performance guide</a> goes through it in detail.</p>
+      <h3>Business Law: 1.5 hours</h3>
+      <p>50 questions worth two marks each. Company and insolvency law is 40% of the syllabus and the impact of civil law (contract, negligence, employment) is 30%, so those two areas carry most of the marks.</p>
+      <h3>Sustainability and Ethics: 1.5 hours</h3>
+      <p>50 equally weighted questions across ten syllabus areas, from the pillars of sustainability to the fundamental ethical principles, threats and safeguards, and data ethics. No area is larger than 14%, so you cannot pass by mastering one topic.</p>
+      <h3>Tax Fundamentals: 2 hours</h3>
+      <p>Two 10-mark scenario questions, one on income tax and NIC and one on corporation tax, plus 40 objective questions that can include numeric entry. The tax tables from the ICAEW learning materials are provided on screen. ICAEW made this exam available from December 2025, later than the other five.</p>
+
+      <h2>Pass Mark, Results and Attempts</h2>
+      <ul>
+        <li><strong>Pass mark:</strong> 55% for every Certificate Level exam. That is higher than ACCA's 50%, so aim for 65% or more in mocks before you book.</li>
+        <li><strong>Results:</strong> ICAEW says Certificate Level results are only available online.</li>
+        <li><strong>Attempts:</strong> ICAEW's regulations allow four attempts at each Certificate Level exam. An attempt is recorded once you have seen the exam content, so starting the exam and leaving still counts. Not turning up, or withdrawing before the exam, does not. Your employer can set a lower limit in your training contract, so check it.</li>
+        <li><strong>Where you sit:</strong> exams are computer-based. ICAEW has exam centres around the world and also supports remotely invigilated sittings; the options open to you show when you book through ICAEW's <a href="https://www.icaew.com/students/exams/book-an-exam">book an exam</a> page. If you are on a training contract, your employer or tuition provider may book for you.</li>
+      </ul>
+
+      <h2>Exemptions: Credit for Prior Learning</h2>
+      <p>ICAEW calls exemptions credit for prior learning (CPL). Credit is available only at Certificate and Professional Level, never for the Advanced Level case studies. To check what you are entitled to:</p>
+      <ul>
+        <li>Search your degree or professional qualification in ICAEW's <a href="https://apps.icaew.com/cpldirectory/">CPL directory</a>. During the transition it shows both the old and the Next Generation exams, so make sure you are reading the Next Generation column.</li>
+        <li>If your qualification is not listed, ICAEW's guidance is to email the CPL team with your certificate and a list of the exams you passed.</li>
+        <li>You cannot claim credit for an exam you have already sat, so apply before you book.</li>
+        <li>Credit carries a fee per exam. It changes each year, so take the current figure from <a href="https://www.icaew.com/students/training/aca-training-faqs/credit-for-prior-learning-faqs">ICAEW's CPL FAQs</a> rather than from a forum.</li>
+      </ul>
+      <p>Before you claim, ask whether you want the exemption at all. Accounting Fundamentals is the base for everything at Professional Level. If your degree covered it two years ago and you are rusty, sitting the exam may be the cheaper option in the long run.</p>
+
+      <h2>The Order to Sit Them</h2>
+      <p>ICAEW lets you take the exams in any order; only the Advanced Level case studies must wait until you have passed or been credited with everything else. So the order below is my recommendation, not a rule. It follows how the knowledge builds.</p>
+      <ul>
+        <li><strong>1. Accounting Fundamentals.</strong> Double entry is the language of the other five. Assurance questions on evidence assume you know what a receivables ledger or an accrual is.</li>
+        <li><strong>2. Assurance and Risk Fundamentals.</strong> Taken straight after Accounting Fundamentals, controls over sales, purchases and payroll make sense because you have just been recording those transactions.</li>
+        <li><strong>3. Business Insight and Performance.</strong> A different kind of numbers (costing, budgets, variances, decisions). It also introduces the data and technology topics that come back at Professional Level.</li>
+        <li><strong>4. Business Law</strong> and <strong>Sustainability and Ethics.</strong> Mostly recall and application of rules, and only 1.5 hours each. They fit well around busy season, when you have less time for numerical practice. Sustainability and Ethics also supports the ethics content running through the whole ACA.</li>
+        <li><strong>5. Tax Fundamentals.</strong> Leave it until you can give it a solid block, ideally close to when you will need it at work. It is the most rule-heavy calculation exam, and you need to know which tax year's rules your exam is based on, which ICAEW states in its exam guidance.</li>
+      </ul>
+      <p>If your employer sets a different sequence through a tuition provider, follow it. The logic above is most useful if you are self-studying or sitting ICAEW CFAB, which is made up of the same six exams.</p>
+
+      <h2>A Worked Example of the Pass-Mark Arithmetic</h2>
+      <p>In Business Law, 50 questions at 2 marks give 100 marks, so 55% means 28 correct answers (56 marks); 27 correct answers is 54% and a fail. In 1.5 hours you have 1.8 minutes per question. If you average two minutes, you run out of time with about five questions unread. That is 10 marks lost before you have got anything wrong. Practise at 1.5 minutes per question so you finish with a few minutes to spare for review.</p>
+      <p>In Accounting Fundamentals, the 40 long-form marks need roughly 48 of your 120 minutes at the same rate per mark. Students who spend 70 minutes making the trial balance question balance perfectly usually fail on the objective questions they rushed.</p>
+
+      <h2>Free Practice for Each Module</h2>
+      <ul>
+        <li><a href="/icaew/icaew-acc/mcqs">Accounting Fundamentals questions</a></li>
+        <li><a href="/icaew/icaew-ass/mcqs">Assurance and Risk Fundamentals questions</a></li>
+        <li><a href="/icaew/icaew-mi/mcqs">Business Insight and Performance questions</a></li>
+        <li><a href="/icaew/icaew-law/mcqs">Business Law questions</a></li>
+        <li><a href="/icaew/icaew-se/mcqs">Sustainability and Ethics questions</a></li>
+      </ul>
+      <p>We do not have a Tax Fundamentals bank yet. For ten mixed questions a day across the five banks, play the <a href="/daily/icaew">ICAEW daily challenge</a>. Everything for the ACA is collected on the <a href="/exams/icaew">ICAEW exam hub</a>.</p>
+
+      <h2>FAQs</h2>
+      <p><strong>What is the pass mark for ICAEW Certificate Level exams?</strong><br/>55% for all six exams.</p>
+      <p><strong>How long are the Certificate Level exams?</strong><br/>Accounting Fundamentals, Business Insight and Performance and Tax Fundamentals are 2 hours. Assurance and Risk Fundamentals, Business Law and Sustainability and Ethics are 1.5 hours.</p>
+      <p><strong>Can I sit the Certificate Level exams in any order?</strong><br/>Yes. ICAEW only restricts the Advanced Level case studies, which come after everything else.</p>
+      <p><strong>How many attempts do I get?</strong><br/>Four at each Certificate Level exam under ICAEW's regulations, unless your employer sets a lower limit.</p>
+      <p><strong>Is the Certificate Level the same as ICAEW CFAB?</strong><br/>ICAEW CFAB is made up of the same six exams as the ACA Certificate Level. If you later move to the ACA, check with ICAEW how your passes are carried across.</p>
+      <p><strong>How much do the exams cost?</strong><br/>Fees change annually and are often paid by training employers. Check ICAEW's <a href="https://www.icaew.com/learning-and-development/aca/employers/train-the-aca/fees">ACA fees page</a> for current figures.</p>
+
+      <h2>Sources</h2>
+      <ul>
+        <li>ICAEW, <a href="https://www.icaew.com/-/media/corporate/files/learning-and-development/next-generation-aca/aca-syllabus-handbook.ashx">Next Generation ACA Syllabus Handbook 2025–2026</a> (exam durations, methods of assessment, specification grids, pass marks)</li>
+        <li>ICAEW, <a href="https://www.icaew.com/start-your-career/how-to-become-a-chartered-accountant/discover-aca/business-finance-accountancy-exams">Business, finance and accountancy exams</a> (availability from September 2025, Tax Fundamentals from December 2025)</li>
+        <li>ICAEW, <a href="https://www.icaew.com/about-icaew/news/2025-news-releases/icaew-launches-next-generation-qualification-september-2025">ICAEW launches Next Generation qualification</a></li>
+        <li>ICAEW, <a href="https://www.icaew.com/students/training/aca-training-faqs/exams-faqs">ACA exam FAQs</a> (exam order, attempts, results)</li>
+        <li>ICAEW, <a href="https://www.icaew.com/regulation/qualifications/aca-assessment-regulations">Assessment regulations</a></li>
+        <li>ICAEW, <a href="https://www.icaew.com/students/training/aca-training-faqs/credit-for-prior-learning-faqs">Credit for prior learning FAQs</a> and <a href="https://apps.icaew.com/cpldirectory/">CPL directory</a></li>
+      </ul>
+    `
+  },
+  {
+    slug: "icaew-accounting-fundamentals-exam-guide",
+    title: "ICAEW Accounting Fundamentals: The Most-Tested Topics with Worked Examples",
+    excerpt: "How the ACA Accounting Fundamentals exam is marked, and worked examples of the topics that come up again and again: double entry, accruals and prepayments, depreciation, the trial balance and correction of errors.",
+    tag: "ICAEW",
+    date: "November 9, 2026",
+    readTime: "6 min read",
+    content: `
+      <p>Accounting Fundamentals is the first ACA exam most trainees sit, and it underpins the rest of the qualification. It is a 2-hour computer-based exam with a 55% pass mark. Nearly half the syllabus weighting (45%) is preparing financial statements, and almost everything else feeds into that: recording transactions, making year-end adjustments and finding errors. This guide shows how the marks are split and works through the topics I see students drop marks on most often. Exam details are from ICAEW's Next Generation ACA syllabus handbook for 2025–2026.</p>
+
+      <h2>How the Exam Is Built</h2>
+      <ul>
+        <li><strong>60% of the marks:</strong> 24 objective questions (multiple choice, multi-part multiple choice or multiple response), each worth the same.</li>
+        <li><strong>25 marks:</strong> one long-form question preparing a single company's statement of financial position and statement of profit or loss from a trial balance or list of balances.</li>
+        <li><strong>15 marks:</strong> one long-form question adjusting an existing draft statement of financial position or statement of profit or loss for final transactions or correction of errors.</li>
+      </ul>
+      <p>Syllabus weightings: accounting concepts, ethics and sustainability 15%; maintaining financial records 20%; adjustments to accounting records and financial statements 20%; preparing financial statements 45%. The syllabus covers sole traders, partnerships and limited companies, and uses IFRS terminology (receivables, payables, inventories), so get used to it from day one.</p>
+      <p>A useful rule of thumb: 120 minutes for 100 marks is 1.2 minutes per mark. The 25-mark question deserves about 30 minutes and the 15-mark question about 18. That leaves roughly 72 minutes for the 24 objective questions, or 3 minutes each.</p>
+
+      <h2>1. Double Entry</h2>
+      <p>Every transaction has equal debits and credits. Debits increase assets and expenses; credits increase liabilities, equity and income. Most objective questions on this topic give you a transaction and four journals, and the distractors swap a debit and credit or use the wrong account.</p>
+      <p><strong>Worked example.</strong> A business registered for VAT sells goods on credit for £6,000 plus VAT at 20%.</p>
+      <ul>
+        <li>Dr Trade receivables £7,200</li>
+        <li>Cr Revenue £6,000</li>
+        <li>Cr VAT payable £1,200</li>
+      </ul>
+      <p>Revenue is recorded net of VAT, because the VAT is collected on behalf of HMRC and is a liability, not income. A common distractor credits revenue with the gross £7,200.</p>
+
+      <h2>2. Accruals and Prepayments</h2>
+      <p>The expense in profit or loss is the cost of the period, not the cash paid. The fastest reliable method is: <strong>cash paid, plus closing accrual, less opening accrual, less closing prepayment, plus opening prepayment</strong>.</p>
+      <p><strong>Worked example: accrual.</strong> Year end 31 December. Electricity paid in the year was £3,300. The last bill, £900, covered August to October and was paid. At the start of the year there was an accrual of £400.</p>
+      <ul>
+        <li>November and December are unbilled: £900 × 2/3 = £600 closing accrual.</li>
+        <li>Expense = £3,300 + £600 − £400 = £3,500.</li>
+        <li>Statement of financial position: accrual of £600 in current liabilities.</li>
+      </ul>
+      <p><strong>Worked example: prepayment.</strong> On 1 October the business paid £2,400 for 12 months' insurance.</p>
+      <ul>
+        <li>Expense for October to December: £2,400 × 3/12 = £600.</li>
+        <li>Prepayment: £1,800 in current assets.</li>
+        <li>Journal: Dr Prepayments £1,800, Cr Insurance expense £1,800.</li>
+      </ul>
+      <p>The trap is the direction of the adjustment. An accrual increases the expense and creates a liability; a prepayment reduces the expense and creates an asset. If you are unsure, ask: "Has the business had the benefit yet?"</p>
+
+      <h2>3. Depreciation and Disposals</h2>
+      <p><strong>Worked example.</strong> A machine costs £50,000 on 1 April 20X5, with a residual value of £5,000 and a useful life of 5 years. The year end is 31 December and the policy is to charge a proportionate amount in the year of purchase.</p>
+      <ul>
+        <li>Straight line: (£50,000 − £5,000) ÷ 5 = £9,000 a year.</li>
+        <li>20X5 charge: £9,000 × 9/12 = £6,750.</li>
+        <li>20X6 charge: £9,000. Carrying amount at 31 December 20X6: £50,000 − £15,750 = £34,250.</li>
+      </ul>
+      <p>If the machine were sold on 31 December 20X6 for £31,000, the loss on disposal would be £34,250 − £31,000 = £3,250. The journals remove the cost (Cr Machinery £50,000), remove the accumulated depreciation (Dr Accumulated depreciation £15,750), record the proceeds (Dr Cash £31,000) and the loss (Dr Loss on disposal £3,250).</p>
+      <p>For reducing balance at 25%, residual value is ignored and the rate applies to the carrying amount: year one on a full-year basis would be £12,500, year two £37,500 × 25% = £9,375. Questions often check whether you know which method ignores residual value and whether the policy says full year or pro rata.</p>
+
+      <h2>4. The Trial Balance and Suspense Accounts</h2>
+      <p>A trial balance only proves that debits equal credits. Some errors make it disagree; others leave it balancing. Know both groups:</p>
+      <ul>
+        <li><strong>Errors that create a suspense balance:</strong> single-sided entries, two debits or two credits, transposition on one side only, and casting errors on one side.</li>
+        <li><strong>Errors that do not:</strong> omission, commission (right type of account, wrong account), principle (wrong type, such as capital as revenue), original entry (wrong amount on both sides), complete reversal, and compensating errors.</li>
+      </ul>
+
+      <h2>5. Correction of Errors</h2>
+      <p><strong>Worked example.</strong> The trial balance shows debits of £250,500 and credits of £251,300, so a suspense account is opened with a debit of £800. The following errors are found:</p>
+      <ul>
+        <li>(1) Office equipment bought for £1,070 was recorded in the cash book but not posted to the equipment account.</li>
+        <li>(2) Rent paid of £1,250 was correctly recorded in the cash book but debited to the rent account as £1,520.</li>
+        <li>(3) Machinery repairs of £600 were debited to the machinery account.</li>
+      </ul>
+      <p>Corrections:</p>
+      <ul>
+        <li>(1) Dr Office equipment £1,070, Cr Suspense £1,070.</li>
+        <li>(2) Dr Suspense £270, Cr Rent £270.</li>
+        <li>(3) Dr Repairs £600, Cr Machinery £600. No suspense entry: this is an error of principle and the trial balance was not affected.</li>
+      </ul>
+      <p>Suspense: £800 debit + £270 − £1,070 = nil, which is your check that you have found everything.</p>
+      <p>Effect on draft profit: (1) none, because equipment is capital; (2) profit rises by £270; (3) profit falls by £600. Net effect: profit falls by £330. "What is the effect on profit?" is one of the most common objective question formats, and the 15-mark long-form question frequently asks for exactly this kind of adjustment to a draft set of accounts.</p>
+
+      <h2>How to Prepare</h2>
+      <ul>
+        <li><strong>Learn the layouts.</strong> The 25-mark question rewards a statement of profit or loss and statement of financial position you can produce without thinking about format.</li>
+        <li><strong>Practise adjustments in batches.</strong> Do ten accruals, prepayments, irrecoverable debts and depreciation adjustments in one sitting until the direction of each entry is automatic.</li>
+        <li><strong>Use topic questions, then mixed sets.</strong> Our free <a href="/icaew/icaew-acc/mcqs">Accounting Fundamentals question bank</a> is organised by chapter; once a chapter is done, switch to mixed sets. The <a href="/daily/icaew">ICAEW daily challenge</a> keeps earlier chapters fresh.</li>
+        <li><strong>Use ICAEW's own resources.</strong> ICAEW publishes <a href="https://www.icaew.com/learning-and-development/partners-in-learning/pil-resources-for-the-aca-icaew-cfab-and-higher-apprenticeship/exam-resources/certificate-level/accounting-fundamentals">exam resources for Accounting Fundamentals</a>. Sit at least one full, timed attempt in the exam software before the real thing.</li>
+      </ul>
+      <p>For where this exam fits among the six, read our <a href="/blog/icaew-certificate-level-exams-guide">Certificate Level guide</a>. For more practice ideas, see the <a href="/exams/icaew">ICAEW hub</a>.</p>
+
+      <h2>FAQs</h2>
+      <p><strong>What is the Accounting Fundamentals pass mark?</strong><br/>55%, as for every ACA Certificate Level exam.</p>
+      <p><strong>How long is the exam?</strong><br/>2 hours.</p>
+      <p><strong>Are there written questions?</strong><br/>Yes. 40% of the marks come from two long-form questions worth 25 and 15 marks. The rest is 24 objective questions.</p>
+      <p><strong>Does Accounting Fundamentals cover group accounts?</strong><br/>No. The syllabus is about single entities: sole traders, partnerships and limited companies. Groups come later in the ACA.</p>
+      <p><strong>Where can I find an Accounting Fundamentals mock exam?</strong><br/>Start with ICAEW's own exam resources for the module, then use our free <a href="/icaew/icaew-acc/mcqs">question bank</a> for chapter practice and mixed timed sets.</p>
+
+      <h2>Sources</h2>
+      <ul>
+        <li>ICAEW, <a href="https://www.icaew.com/-/media/corporate/files/learning-and-development/next-generation-aca/aca-syllabus-handbook.ashx">Next Generation ACA Syllabus Handbook 2025–2026</a>, Accounting Fundamentals (module aim, method of assessment, specification grid, learning outcomes)</li>
+        <li>ICAEW, <a href="https://www.icaew.com/learning-and-development/partners-in-learning/pil-resources-for-the-aca-icaew-cfab-and-higher-apprenticeship/exam-resources/certificate-level/accounting-fundamentals">Accounting Fundamentals exam resources</a></li>
+        <li>ICAEW, <a href="https://www.icaew.com/start-your-career/how-to-become-a-chartered-accountant/discover-aca/business-finance-accountancy-exams">Business, finance and accountancy exams</a> (duration and 55% pass mark)</li>
+      </ul>
+    `
+  },
+  {
+    slug: "icaew-business-insight-and-performance-guide",
+    title: "ICAEW Business Insight and Performance: What It Covers and How to Prepare",
+    excerpt: "The ACA module that replaced Management Information: the exam structure, the seven syllabus areas and their weightings, worked examples of the core calculations, and a practical way to prepare.",
+    tag: "ICAEW",
+    date: "November 9, 2026",
+    readTime: "6 min read",
+    content: `
+      <p>Business Insight and Performance (BIP) is the ACA Certificate Level module about management information: what products cost, how budgets are built, why results differ from plan and which decision makes the business better off. It replaced Management Information when ICAEW launched the Next Generation ACA in September 2025, and it adds more on data, technology and the external environment. It is a 2-hour exam with a 55% pass mark. Everything below about the exam and syllabus comes from ICAEW's 2025–2026 syllabus handbook.</p>
+
+      <h2>The Exam</h2>
+      <ul>
+        <li><strong>80% of the marks:</strong> 32 multiple choice, multi-part multiple choice or multiple response questions across the whole syllabus.</li>
+        <li><strong>20% of the marks:</strong> one scenario-based question on a single syllabus area. It will be costing and pricing, budgeting and forecasting, performance management, or management decision making.</li>
+      </ul>
+      <p>Timing: 120 minutes for 100 marks is 1.2 minutes per mark, so about 24 minutes for the scenario and 96 minutes for the 32 objective questions (3 minutes each). The scenario can only come from four areas, so make sure you could handle a 20-mark question on any of them.</p>
+
+      <h2>What the Syllabus Covers</h2>
+      <ul>
+        <li><strong>Costing and pricing (20%):</strong> cost classification, absorption and marginal costing and the reconciliation between them, cost-based pricing, price elasticity, and transfer pricing.</li>
+        <li><strong>Budgeting and forecasting (20%):</strong> high-low and time series, data analytics in forecasting, preparing budgets, top-down and bottom-up approaches, zero-based and incremental budgeting, cash budgets, the operating cycle and working capital.</li>
+        <li><strong>Performance management and the external environment of business (25% together):</strong> differences between actual and budget or standard, analysed into price and volume effects, with likely reasons; macro-economic factors and the effect of national and international regulation.</li>
+        <li><strong>Management decision making (20%):</strong> breakeven, contribution and margin of safety, limiting factors, and NPV, IRR, payback and accounting rate of return.</li>
+        <li><strong>Technology and data analysis (10%):</strong> types and sources of data, sampling, data errors and protection, spreadsheets and visualisations, and the effect of automation and AI on the profession.</li>
+        <li><strong>Ethics (5%):</strong> ethical issues in preparing and presenting management information, including data bias.</li>
+      </ul>
+
+      <h2>Worked Examples of the Core Calculations</h2>
+      <h3>Absorption versus marginal costing</h3>
+      <p>Fixed production overhead is absorbed at £4 per unit. In the period, 10,000 units are produced and 9,000 are sold, so inventory rises by 1,000 units.</p>
+      <p>Absorption costing carries £4 × 1,000 = £4,000 of fixed overhead forward in closing inventory, so absorption profit is <strong>£4,000 higher</strong> than marginal costing profit. If inventory had fallen, absorption profit would be lower. Questions give you one profit and ask for the other; the distractors reverse the sign or use the total change in inventory value instead of only the fixed overhead in it.</p>
+
+      <h3>High-low method</h3>
+      <p>Total costs were £18,000 at 2,000 units and £24,000 at 3,500 units.</p>
+      <ul>
+        <li>Variable cost per unit: (£24,000 − £18,000) ÷ (3,500 − 2,000) = £4.</li>
+        <li>Fixed cost: £18,000 − (2,000 × £4) = £10,000.</li>
+        <li>Forecast at 3,000 units: £10,000 + £12,000 = £22,000.</li>
+      </ul>
+      <p>Always pick the highest and lowest <em>activity</em> levels, not the highest and lowest costs.</p>
+
+      <h3>Breakeven and margin of safety</h3>
+      <p>Selling price £25, variable cost £15, fixed costs £60,000, budgeted sales 8,000 units.</p>
+      <ul>
+        <li>Contribution per unit: £10. Breakeven: £60,000 ÷ £10 = 6,000 units.</li>
+        <li>Margin of safety: 8,000 − 6,000 = 2,000 units, or 2,000 ÷ 8,000 = 25% of budgeted sales.</li>
+      </ul>
+
+      <h3>Limiting factor</h3>
+      <p>Product A earns £12 contribution and uses 3 labour hours; product B earns £10 and uses 2 hours. Labour is scarce.</p>
+      <ul>
+        <li>A: £12 ÷ 3 = £4 per hour. B: £10 ÷ 2 = £5 per hour.</li>
+        <li>Make B first, up to its demand, then use the remaining hours on A.</li>
+      </ul>
+      <p>The classic wrong answer ranks by contribution per unit, which would put A first.</p>
+
+      <h3>Price and volume differences</h3>
+      <p>The standard for material is £5.00 per kg. For the actual output, the standard quantity is 5,000 kg. The business bought and used 5,200 kg for £27,040.</p>
+      <ul>
+        <li>Price: actual price £27,040 ÷ 5,200 = £5.20; (£5.20 − £5.00) × 5,200 = <strong>£1,040 adverse</strong>.</li>
+        <li>Usage: (5,200 − 5,000) × £5.00 = <strong>£1,000 adverse</strong>.</li>
+        <li>Total: £2,040 adverse, which equals £27,040 − (5,000 × £5).</li>
+      </ul>
+      <p>The syllabus also asks for possible reasons. Cheaper, lower-grade material could explain a favourable price difference alongside an adverse usage one. Think about how the two variances might be connected rather than explaining each one separately.</p>
+
+      <h3>Net present value</h3>
+      <p>A project costs £100,000 now and returns £30,000 a year for four years. The cost of capital is 10%; the four-year annuity factor at 10% is 3.170.</p>
+      <ul>
+        <li>Present value of inflows: £30,000 × 3.170 = £95,100.</li>
+        <li>NPV: £95,100 − £100,000 = <strong>−£4,900</strong>, so reject on financial grounds.</li>
+        <li>Payback: £100,000 ÷ £30,000 = 3.33 years, which looks acceptable on its own. That is why exam questions ask which method should take priority: NPV, because it measures the increase in value.</li>
+      </ul>
+
+      <h2>How to Prepare</h2>
+      <ul>
+        <li><strong>1. Build the calculations first.</strong> Costing, budgeting, variances and decision making make up most of the marks and are where the scenario question comes from. Work through each technique until you can do it without notes.</li>
+        <li><strong>2. Then the explanations.</strong> For every technique, be able to say what it is for and what its limitations are. Objective questions often test this rather than the arithmetic.</li>
+        <li><strong>3. Do not skip technology, data and ethics.</strong> Together they are 15% of the syllabus, and they are quick marks once learned: types of data error, sampling methods, correlation versus causation, data bias.</li>
+        <li><strong>4. Practise one 20-mark scenario a week</strong> from your study material, timed at 24 minutes, rotating through the four possible areas.</li>
+        <li><strong>5. Drill objective questions by chapter,</strong> then in mixed sets. Our free <a href="/icaew/icaew-mi/mcqs">Business Insight and Performance question bank</a> covers costing, budgeting, performance management and decision making, and the <a href="/daily/icaew">ICAEW daily challenge</a> mixes it with the other Certificate Level modules.</li>
+      </ul>
+      <p>If you are deciding when to sit BIP, see our <a href="/blog/icaew-certificate-level-exams-guide">guide to the order of the Certificate Level exams</a>. All our ICAEW material is on the <a href="/exams/icaew">ICAEW hub</a>.</p>
+
+      <h2>FAQs</h2>
+      <p><strong>Is Business Insight and Performance the same as Management Information?</strong><br/>It is the successor module, but not the same. The core costing, budgeting and decision-making techniques remain, with more on data, technology, the external environment and sustainability. Check older materials against the current syllabus.</p>
+      <p><strong>What is the BIP pass mark?</strong><br/>55%.</p>
+      <p><strong>How long is the exam?</strong><br/>2 hours.</p>
+      <p><strong>What is in the 20-mark question?</strong><br/>A scenario on one of four areas: costing and pricing, budgeting and forecasting, performance management, or management decision making.</p>
+      <p><strong>Do I need a scientific calculator?</strong><br/>Check ICAEW's current exam instructions for the permitted calculator rules before exam day.</p>
+
+      <h2>Sources</h2>
+      <ul>
+        <li>ICAEW, <a href="https://www.icaew.com/-/media/corporate/files/learning-and-development/next-generation-aca/aca-syllabus-handbook.ashx">Next Generation ACA Syllabus Handbook 2025–2026</a>, Business Insight and Performance (module aim, method of assessment, specification grid, learning outcomes)</li>
+        <li>ICAEW, <a href="https://www.icaew.com/start-your-career/how-to-become-a-chartered-accountant/discover-aca/business-finance-accountancy-exams">Business, finance and accountancy exams</a> (Certificate Level duration and pass mark)</li>
+        <li>ICAEW, <a href="https://www.icaew.com/about-icaew/news/2025-news-releases/icaew-launches-next-generation-qualification-september-2025">ICAEW launches Next Generation qualification</a></li>
+      </ul>
+    `
+  },
+  {
+    slug: "acca-fr-consolidated-statement-of-financial-position",
+    title: "ACCA FR Consolidated Statement of Financial Position: A Worked Example (Goodwill, NCI and Unrealised Profit)",
+    excerpt: "One full worked example of an FR consolidated statement of financial position, built with the five standard workings, then the same numbers turned into the OT and constructed-response questions ACCA sets.",
+    tag: "ACCA",
+    date: "November 9, 2026",
+    readTime: "6 min read",
+    content: `
+      <p>Group accounts appear all over ACCA Financial Reporting (FR). The syllabus asks you to prepare a consolidated statement of financial position for a simple group (a parent with up to two subsidiaries and an associate) with non-controlling interest (NCI) measured at fair value or at the proportionate share of net assets. In the exam, that knowledge is tested two ways: as 2-mark objective test (OT) questions in Sections A and B, and inside the 20-mark constructed response questions in Section C, which ACCA says examine the preparation and interpretation of financial statements for a single entity or a group. FR is a 3-hour exam with a 50% pass mark.</p>
+      <p>This article works one example in full, using the standard five workings, and then shows how the same numbers come back as exam questions.</p>
+
+      <h2>The Example</h2>
+      <p>On 1 January 20X5, P acquired 80% of the equity shares of S for $1,200,000 in cash. At that date S's retained earnings were $500,000 and the fair value of the NCI was $260,000. Group policy is to measure NCI at fair value.</p>
+      <p>At 31 December 20X6 (all figures $000):</p>
+      <ul>
+        <li><strong>P:</strong> equity shares 1,000; retained earnings 2,400; investment in S 1,200; other net assets 2,200.</li>
+        <li><strong>S:</strong> equity shares 400; retained earnings 900; net assets 1,300.</li>
+      </ul>
+      <p>Further information:</p>
+      <ul>
+        <li>(1) At acquisition, S's plant had a fair value $100,000 above its carrying amount, with a remaining life of 5 years.</li>
+        <li>(2) During 20X6, S sold goods to P for $150,000 at cost plus 25%. P still holds one third of them.</li>
+        <li>(3) Goodwill has been impaired by $60,000 since acquisition.</li>
+      </ul>
+
+      <h2>Working 1: Group Structure</h2>
+      <p>P owns 80%, NCI 20%. S has been a subsidiary for two years at the reporting date.</p>
+
+      <h2>Working 2: Net Assets of S</h2>
+      <ul>
+        <li>Equity shares: 400 at acquisition, 400 at reporting date.</li>
+        <li>Retained earnings: 500 at acquisition, 900 at reporting date.</li>
+        <li>Fair value adjustment on plant: 100 at acquisition, 100 at reporting date.</li>
+        <li>Extra depreciation on the fair value adjustment: nil at acquisition; 100 ÷ 5 × 2 years = (40) at reporting date.</li>
+        <li>Unrealised profit (PURP): nil at acquisition; (10) at reporting date (see below).</li>
+        <li><strong>Total: 1,000 at acquisition; 1,350 at reporting date. Post-acquisition movement: 350.</strong></li>
+      </ul>
+      <p><strong>PURP:</strong> goods held by P cost $50,000 (one third of $150,000). The mark-up is 25% on cost, so the profit included is 50 × 25/125 = <strong>10</strong>. S is the seller, so the adjustment reduces S's profits and therefore affects the NCI. In the statement of financial position, it reduces inventories by 10.</p>
+
+      <h2>Working 3: Goodwill</h2>
+      <ul>
+        <li>Consideration: 1,200</li>
+        <li>Plus fair value of NCI at acquisition: 260</li>
+        <li>Less fair value of net assets at acquisition (W2): (1,000)</li>
+        <li>Goodwill at acquisition: 460</li>
+        <li>Less impairment: (60)</li>
+        <li><strong>Goodwill at 31 December 20X6: 400</strong></li>
+      </ul>
+
+      <h2>Working 4: Non-Controlling Interest</h2>
+      <ul>
+        <li>Fair value at acquisition: 260</li>
+        <li>Plus NCI share of post-acquisition movement: 20% × 350 = 70</li>
+        <li>Less NCI share of goodwill impairment: 20% × 60 = (12)</li>
+        <li><strong>NCI: 318</strong></li>
+      </ul>
+
+      <h2>Working 5: Group Retained Earnings</h2>
+      <ul>
+        <li>P's retained earnings: 2,400</li>
+        <li>Plus P's share of S's post-acquisition movement: 80% × 350 = 280</li>
+        <li>Less P's share of goodwill impairment: 80% × 60 = (48)</li>
+        <li><strong>Group retained earnings: 2,632</strong></li>
+      </ul>
+
+      <h2>The Consolidated Statement of Financial Position</h2>
+      <ul>
+        <li>Goodwill: 400</li>
+        <li>Other net assets: P 2,200 + S 1,300 + fair value adjustment 100 − extra depreciation 40 − PURP 10 = 3,550</li>
+        <li><strong>Total net assets: 3,950</strong></li>
+        <li>Equity shares (P only): 1,000</li>
+        <li>Retained earnings: 2,632</li>
+        <li>NCI: 318</li>
+        <li><strong>Total equity: 3,950</strong></li>
+      </ul>
+      <p>It balances. In a real question the net assets are split into lines (property, plant and equipment, inventories, receivables, payables), and you would also cancel any intra-group receivable and payable balances. The principle does not change: add 100% of parent and subsidiary line by line, then make the adjustments.</p>
+
+      <h2>What Changes Under the Proportionate Method</h2>
+      <p>If NCI is measured at its share of net assets, NCI at acquisition is 20% × 1,000 = 200, and goodwill at acquisition is 1,200 + 200 − 1,000 = 400. The goodwill recognised is the parent's goodwill only, so the whole impairment is charged against group retained earnings and none against NCI. Students often forget this, and it is a favourite distractor.</p>
+
+      <h2>What If the Parent Had Been the Seller?</h2>
+      <p>The PURP of 10 would come entirely off P's retained earnings, not from S's post-acquisition profits, and NCI would be unaffected. Inventories would still fall by 10. Checking who sold the goods to whom is the first thing to do when you see an intra-group trading note.</p>
+
+      <h2>How ACCA Tests This in OT Questions</h2>
+      <p>Section A and B questions take one working and test it. Using the numbers above:</p>
+      <p><strong>Question 1.</strong> What is the goodwill at acquisition? Options: A $400,000; B $460,000; C $200,000; D $560,000.<br/>Answer: B. A uses the proportionate method or deducts the impairment; C omits NCI; D uses S's net assets without the fair value adjustment.</p>
+      <p><strong>Question 2.</strong> What is the unrealised profit adjustment? Options: A $12,500; B $10,000; C $30,000; D $37,500.<br/>Answer: B. A applies 25% as a margin; C uses the whole $150,000 at the cost-plus fraction; D applies 25% to the whole transfer.</p>
+      <p><strong>Question 3.</strong> What is the NCI at 31 December 20X6? Options: A $318,000; B $330,000; C $270,000; D $320,000.<br/>Answer: A. B omits the NCI's share of the impairment; C is the proportionate-method figure (200 + 70), which the question's policy does not allow; D ignores the PURP.</p>
+      <p>Notice that every wrong option is a specific mistake. If your answer is on the list, check it against the common errors before moving on.</p>
+
+      <h2>How It Appears in Section C</h2>
+      <p>A 20-mark preparation question gives you two statements of financial position and four to six notes like the ones above, plus items from elsewhere in the syllabus (a revaluation, a lease, a loan at amortised cost). Marks are given for each working and each line, so a correct method with an arithmetical slip still scores well. Practical points:</p>
+      <ul>
+        <li>Set out W1 to W5 before you start the statement. They are where most of the marks are.</li>
+        <li>Deal with each note once, in the working where it belongs, and note which line of the statement it also affects.</li>
+        <li>If you are stuck on one adjustment, make a sensible assumption and carry on. Leaving the statement unfinished costs more marks than one wrong number.</li>
+      </ul>
+
+      <h2>Practice</h2>
+      <p>Our free <a href="/acca/acca-fr/mcqs">ACCA FR question bank</a> includes group accounting questions written in the OT style above. For the wider exam, read our <a href="/blog/acca-fr-exam-tips">FR exam tips</a> and the <a href="/blog/acca-fr-common-ot-question-traps">common FR OT traps</a>. If consolidation is new, the basics start in <a href="/acca/acca-fa/mcqs">ACCA FA</a>. For ten mixed questions a day, try the <a href="/daily/acca">ACCA daily challenge</a>.</p>
+
+      <h2>FAQs</h2>
+      <p><strong>How many subsidiaries can an FR consolidation include?</strong><br/>The FR study guide refers to a simple group with up to two subsidiaries and one associate.</p>
+      <p><strong>Which NCI method should I use?</strong><br/>The one the question states. FR can test either fair value or proportionate share of net assets.</p>
+      <p><strong>Does unrealised profit always affect NCI?</strong><br/>Only when the subsidiary is the seller.</p>
+      <p><strong>Is goodwill impairment shared with NCI?</strong><br/>Under the fair value method, yes, in proportion to ownership. Under the proportionate method, no.</p>
+      <p><strong>What is the FR pass mark?</strong><br/>50%.</p>
+
+      <h2>Sources</h2>
+      <ul>
+        <li>ACCA, <a href="https://www.accaglobal.com/content/dam/acca/global/PDF-students/acca/f7/studyguides/fr_s26_j27_syllabus_and_study_guide.pdf">Financial Reporting (FR) Syllabus and Study Guide, September 2026 to June 2027</a> (exam structure, pass mark, group accounting learning outcomes)</li>
+        <li>ACCA, <a href="https://www.accaglobal.com/gb/en/student/exam-support-resources/fundamentals-exams-study-resources/f7/syllabus-study-guide.html">FR syllabus page</a></li>
+        <li>ACCA, <a href="https://www.accaglobal.com/content/dam/acca/global/PDF-students/acca/f7/fr_sbr_examdoc_sS26_j27.pdf">FR and SBR Examinable Documents, September 2026 to June 2027</a></li>
+      </ul>
+    `
+  },
+  {
+    slug: "acca-applied-knowledge-on-demand-cbe-guide",
+    title: "ACCA Applied Knowledge On-Demand CBEs: Booking, Pass Mark, Timing Tactics and a 6-Week Plan",
+    excerpt: "How on-demand exams for BT, MA and FA work in the UK: booking through a centre, the 50% pass mark, minute-by-minute timing for each paper, a six-week plan, and what ACCA has confirmed about the 2027 changes.",
+    tag: "ACCA",
+    date: "November 9, 2026",
+    readTime: "6 min read",
+    content: `
+      <p>ACCA's three Applied Knowledge exams, Business and Technology (BT), Management Accounting (MA) and Financial Accounting (FA), are on-demand computer-based exams (CBEs). You book a date that suits you instead of waiting for one of the four exam sessions. Each is 2 hours, fully objective, and has a 50% pass mark. This guide covers how booking works for UK students, how to spend your two hours on each paper, and a six-week plan. Exam details are from ACCA's 2026–2027 syllabus and study guides; booking details are from ACCA's on-demand pages as of November 2026.</p>
+
+      <h2>How Booking Works</h2>
+      <ul>
+        <li><strong>Register with ACCA first.</strong> You must be a registered ACCA student before you can enter any exam.</li>
+        <li><strong>Book through a centre.</strong> For on-demand CBEs at a centre, ACCA's process is to find a centre on its <a href="https://www.accaglobal.com/uk/en/student/exam-entry-and-administration/about-our-exams/centre-exams/on-demand-centre-exams/cbe-centre-list.html">centre list</a>, contact the centre directly to arrange a date, and pay the centre.</li>
+        <li><strong>The centre sets the fee.</strong> ACCA's UK fees page says fees for Applied Knowledge exams taken at CBE centres are set by the centres themselves, so compare a few. See ACCA's <a href="https://www.accaglobal.com/gb/en/qualifications/accountancy-career/fees/fees-charges-uk.html">UK fees and charges</a> for registration, subscription and exemption fees.</li>
+        <li><strong>Remote on-demand exams are not a UK option.</strong> ACCA permits remote on-demand exams only in countries with no exam centre provision.</li>
+        <li><strong>Results.</strong> A provisional result appears on screen at the end of the exam. ACCA confirms it on myACCA, normally within 72 hours.</li>
+      </ul>
+      <p>Corporate and Business Law (LW) is an Applied Skills exam, but some variants, including the English variant, are also available on demand. Our <a href="/blog/acca-lw-exam-tips">LW exam tips</a> cover that paper.</p>
+
+      <h2>Order and Progression</h2>
+      <p>ACCA's progression rules say exams must be taken in modular order: Applied Knowledge, then Applied Skills, then Strategic Professional. Within a module you can take the papers in any order, and to enter exams in the next module you must also enter all outstanding exams in your current one. In practice, most students take BT or MA first and FA before starting FR, because FR builds directly on FA.</p>
+
+      <h2>The Three Exams and How to Spend Your Time</h2>
+      <p>Each paper is 100 marks in 120 minutes, which is 1.2 minutes per mark. Write your section start and finish times on your scratch paper before you begin.</p>
+      <h3>Business and Technology (BT)</h3>
+      <ul>
+        <li><strong>Section A:</strong> 30 two-mark and 16 one-mark objective questions (76 marks). Budget about 90 minutes.</li>
+        <li><strong>Section B:</strong> six four-mark multi-task questions, one for each of the six main syllabus areas (24 marks). Budget about 30 minutes, or 5 minutes each.</li>
+      </ul>
+      <p>The one-mark questions are short recall items. Do not spend more than a minute on any of them; bank the time for the two-mark questions.</p>
+      <h3>Management Accounting (MA)</h3>
+      <ul>
+        <li><strong>Section A:</strong> 35 two-mark objective test questions (70 marks). About 84 minutes, or 2.4 minutes each.</li>
+        <li><strong>Section B:</strong> three ten-mark multi-task questions on budgeting, standard costing and performance measurement (30 marks). About 12 minutes each.</li>
+      </ul>
+      <h3>Financial Accounting (FA)</h3>
+      <ul>
+        <li><strong>Section A:</strong> 35 two-mark objective test questions (70 marks). About 84 minutes.</li>
+        <li><strong>Section B:</strong> two fifteen-mark multi-task questions, one on consolidation and one on accounts preparation for a sole trader or limited company (30 marks). About 18 minutes each.</li>
+      </ul>
+      <p><strong>Worked example of the timing check.</strong> In FA, you reach question 20 of Section A after 55 minutes. At 2.4 minutes a question you should be at 48 minutes, so you are 7 minutes behind. Flag anything that is not quick for the next five questions, answer it with your best choice, and come back if time allows. There is no negative marking, so never leave a question blank.</p>
+
+      <h2>A Six-Week Plan for One Paper</h2>
+      <p>This assumes about 10 to 12 hours a week alongside work, and that you have some background in the subject. If the subject is completely new, add two weeks to the first phase.</p>
+      <ul>
+        <li><strong>Weeks 1 to 3: learn and test each chapter.</strong> Cover the syllabus in order. After each chapter, do 15 to 20 objective questions on it straight away and log every mistake with the reason. Our free banks are organised by chapter: <a href="/acca/acca-bt/mcqs">BT</a>, <a href="/acca/acca-ma/mcqs">MA</a> and <a href="/acca/acca-fa/mcqs">FA</a>.</li>
+        <li><strong>Week 4: the weak areas and Section B.</strong> Go back to the two or three chapters with the worst scores. Practise multi-task questions under time: 5 minutes for a BT one, 12 for MA, 18 for FA.</li>
+        <li><strong>Week 5: mixed timed sets.</strong> Do mixed sets of 20 to 35 questions at the real pace. Use the <a href="/daily/acca">ACCA daily challenge</a> as a ten-question warm-up on the other days. Book your exam this week for a date at the end of week 6, once your mixed-set scores are consistently above 60%.</li>
+        <li><strong>Week 6: full mocks and review.</strong> Sit at least two full two-hour mocks in ACCA's CBE practice platform, so the software holds no surprises. Spend the days between them on your error log, not new material.</li>
+      </ul>
+      <p>Why 60% in mocks before booking? Exam-day nerves and unfamiliar questions usually knock a few marks off your practice score. A buffer above 50% is what makes a pass likely rather than possible.</p>
+
+      <h2>The 2027 Qualification Changes</h2>
+      <p>ACCA has announced a redesigned qualification. What it has confirmed so far:</p>
+      <ul>
+        <li>The new levels are Foundations, Knowledge, Expertise and Strategic Professional.</li>
+        <li>Essential Employability Modules start in early 2027. Foundations and Knowledge exams start in July 2027; Expertise and Strategic Professional exams start in September 2027.</li>
+        <li>Students part-way through receive credit for their progress, and ACCA's Transition Tool shows how your passes map across.</li>
+        <li>The current Applied Knowledge syllabuses are unchanged for September 2026 to June 2027.</li>
+      </ul>
+      <p>I have not found ACCA guidance that maps BT, MA and FA one-for-one to the new exams, so I won't guess. If you are sitting Applied Knowledge now, the passes will count; check your own position on ACCA's <a href="https://www.accaglobal.com/gb/en/campaigns/accountancy-redefined/future-acca-qualification.html">future qualification page</a> and its <a href="https://www.accaglobal.com/gb/en/help/future-qualification.html">FAQs</a> before planning beyond mid-2027.</p>
+
+      <h2>FAQs</h2>
+      <p><strong>What is the pass mark for ACCA BT, MA and FA?</strong><br/>50%.</p>
+      <p><strong>How long are the Applied Knowledge exams?</strong><br/>Two hours each.</p>
+      <p><strong>How do I book an on-demand exam in the UK?</strong><br/>Find a centre on ACCA's on-demand centre list, contact it directly, and pay the centre.</p>
+      <p><strong>Can I sit ACCA Applied Knowledge exams at home in the UK?</strong><br/>ACCA allows remote on-demand exams only in countries with no exam centre provision, so UK students sit at a centre.</p>
+      <p><strong>When do I get my result?</strong><br/>A provisional result is shown at the end of the exam; ACCA confirms it on myACCA, normally within 72 hours.</p>
+      <p><strong>Is there negative marking?</strong><br/>No.</p>
+      <p>For more on each paper, read our guides to the <a href="/blog/acca-bt-exam-format">BT exam format</a>, <a href="/blog/how-to-pass-acca-ma">passing MA</a> and <a href="/blog/acca-fa-exam-tips">FA exam tips</a>, and the <a href="/blog/acca-applied-knowledge-pass-rates">Applied Knowledge pass rates</a>.</p>
+
+      <h2>Sources</h2>
+      <ul>
+        <li>ACCA, Syllabus and Study Guides September 2026 to June 2027: <a href="https://www.accaglobal.com/content/dam/acca/global/PDF-students/fia/studyguides/bt_fbt_s26_j27_syllabus_and_study_guide.pdf">BT</a>, <a href="https://www.accaglobal.com/content/dam/acca/global/PDF-students/fia/studyguides/ma_fma_s26_j27_syllabus_and_study_guide.pdf">MA</a>, <a href="https://www.accaglobal.com/content/dam/acca/global/PDF-students/fia/studyguides/fa_ffa_s26_j27_syllabus_and_study_guide.pdf">FA</a> (exam structure, duration, pass mark)</li>
+        <li>ACCA, <a href="https://www.accaglobal.com/uk/en/student/exam-entry-and-administration/about-our-exams/centre-exams/on-demand-centre-exams/cbe-centre-list.html">Find an on-demand exam centre</a> (booking steps)</li>
+        <li>ACCA, <a href="https://www.accaglobal.com/gb/en/qualifications/accountancy-career/fees/fees-charges-uk.html">Fees and charges (UK)</a></li>
+        <li>ACCA, <a href="https://www.accaglobal.com/middle-east/en/student/exam-entry-and-administration/about-our-exams/remote-exams/on-demand-remote-exams/faqs.html">Remote on-demand CBE FAQs</a> (remote eligibility, provisional results)</li>
+        <li>ACCA, <a href="https://www.accaglobal.com/uk/en/student/exam-entry-and-administration/enter-an-exam/exam-progression-rules.html">Exam progression rules</a></li>
+        <li>ACCA, <a href="https://www.accaglobal.com/gb/en/campaigns/accountancy-redefined/future-acca-qualification.html">The future ACCA Qualification explained</a> and <a href="https://www.accaglobal.com/gb/en/help/future-qualification.html">FAQs on the future ACCA Qualification</a></li>
+      </ul>
+    `
+  },
+  {
+    slug: "acca-vs-aca-uk",
+    title: "ACCA vs ICAEW ACA for UK Students: Training Routes, Time, Costs and Recognition",
+    excerpt: "A straight comparison of the ACCA Qualification and the ICAEW ACA for students in the UK: how you train, how long it takes, who pays for what, how employers see each one, and three worked examples of which route fits.",
+    tag: "Career",
+    date: "November 9, 2026",
+    readTime: "7 min read",
+    content: `
+      <p>For most UK students, the choice between ACCA and the ICAEW ACA is not about which is "better". It depends on where you will work while you train. The ACA is built around a training agreement with an employer ICAEW has authorised. ACCA lets you study first and gather experience in a much wider range of jobs. Both lead to a respected chartered qualification, and both bodies are recognised in the UK for statutory audit. This comparison uses ICAEW and ACCA's own published rules as of November 2026. I have not quoted fees, because both bodies change them every year. Links to the official fee pages are below.</p>
+
+      <h2>The Exams</h2>
+      <h3>ICAEW ACA</h3>
+      <ul>
+        <li><strong>14 exams over three levels.</strong> Certificate Level has six exams, sat on demand, 1.5 or 2 hours each, with a 55% pass mark. Professional Level has six exams in March, June, September and December, 2.5 or 3 hours, with a 55% pass mark. Advanced Level has two open-book case studies, 4 hours each with a 50% pass mark, in July and November.</li>
+        <li><strong>Order:</strong> any order, except that the Advanced Level case studies must come after all the other exams.</li>
+        <li><strong>Attempts:</strong> four at each Certificate and Professional Level exam; no limit at Advanced Level.</li>
+        <li><strong>Credit for prior learning:</strong> up to 12 exams, depending on your degree or qualification.</li>
+      </ul>
+      <h3>ACCA</h3>
+      <ul>
+        <li><strong>Currently 13 exams.</strong> Three Applied Knowledge exams (BT, MA, FA), sat on demand; six Applied Skills exams (LW, PM, TX, FR, AA, FM); and Strategic Professional, which is two Essentials and two Options. The pass mark is 50% throughout.</li>
+        <li><strong>Order:</strong> modules must be taken in order (Applied Knowledge, Applied Skills, Strategic Professional), but papers within a module can be taken in any order. You can sit at most four exams per session.</li>
+        <li><strong>The Ethics and Professional Skills module</strong> is also required for membership.</li>
+        <li><strong>Exemptions:</strong> available for many degrees and qualifications.</li>
+        <li><strong>Changes from 2027:</strong> ACCA has announced a redesigned qualification with new levels (Foundations, Knowledge, Expertise, Strategic Professional) starting from July and September 2027. Existing students receive credit for completed exams. See our <a href="/blog/acca-applied-knowledge-on-demand-cbe-guide">Applied Knowledge guide</a> for what has been confirmed.</li>
+      </ul>
+
+      <h2>Training and Experience</h2>
+      <h3>ACA</h3>
+      <p>You train under a training agreement with an ICAEW Authorised Training Employer or Principal. You need at least 450 days of professional work experience, which ICAEW says normally takes three to five years, plus the ethics requirements, before final sign-off. Exam days, holidays, training courses and sickness do not count towards the 450. ICAEW also offers the ACA through the Level 7 Accountancy Professional Apprenticeship. ICAEW CFAB, a standalone qualification, is made up of the same six exams as the Certificate Level.</p>
+      <h3>ACCA</h3>
+      <p>The Practical Experience Requirement (PER) is at least 36 months in a relevant accounting or finance role and nine performance objectives (all five Essentials and four Technical). Your supervisor must be a qualified accountant recognised by law in your country or a member of an IFAC body. The employer does not need to be authorised by ACCA.</p>
+      <p><strong>The practical difference:</strong> the ACA requires a specific type of employer. ACCA fits a wider range of jobs, including industry roles in small businesses, provided you have a suitable supervisor.</p>
+
+      <h2>Time</h2>
+      <p>Neither qualification can be finished faster than its experience requirement. For the ACA, that is the training agreement, normally three to five years. For ACCA, it is 36 months of experience plus however long the exams take you. Because ACCA does not tie experience to a training contract, part-time students often take longer, sometimes much longer, but there is no fixed upper limit for the Applied Knowledge and Applied Skills passes. Once you pass your first Strategic Professional exam, ACCA gives you seven years to complete the rest.</p>
+
+      <h2>Cost Structure</h2>
+      <p>The two bodies charge for similar things in different ways:</p>
+      <ul>
+        <li><strong>ACA:</strong> student registration, exam fees per exam, and credit for prior learning fees per exam credited. On a training agreement, the employer commonly pays these and the tuition, but that is a term of your contract, not an ICAEW rule, so read it, including any repayment clause if you leave early. Current figures: ICAEW's <a href="https://www.icaew.com/learning-and-development/aca/employers/train-the-aca/fees">ACA fees page</a>.</li>
+        <li><strong>ACCA:</strong> initial registration, an annual subscription, exam fees that vary by level, and exemption fees. Fees for on-demand Applied Knowledge exams are set by the exam centre. Many UK employers sponsor ACCA too, but self-funding is common. Current figures: ACCA's <a href="https://www.accaglobal.com/gb/en/qualifications/accountancy-career/fees/fees-charges-uk.html">UK fees and charges page</a>.</li>
+      </ul>
+      <p>Whichever route you choose, tuition, learning materials and resits often cost more than the exam fees, so budget for them.</p>
+
+      <h2>Employer Recognition</h2>
+      <ul>
+        <li><strong>Audit:</strong> ICAEW and ACCA are both among the bodies the Financial Reporting Council recognises for statutory audit in the UK, so either route can lead to audit work and, with the further requirements, signing audit reports.</li>
+        <li><strong>Practice and the large firms:</strong> the ACA is the traditional qualification for audit and advisory trainees at large UK firms, because it is built around their training contracts. Many firms also train ACCA students. Check each employer's graduate scheme for the qualification it offers.</li>
+        <li><strong>Industry and international:</strong> ACCA is widely used in industry and outside the UK, and its exams fit around a full-time job without a training contract.</li>
+      </ul>
+
+      <h2>Three Worked Examples</h2>
+      <p><strong>1. A graduate with an audit trainee offer.</strong> Amira has a 2:1 in accounting and an offer from a firm that is an ICAEW Authorised Training Employer. The ACA is the natural route: the firm provides the training agreement, and she should check the <a href="https://apps.icaew.com/cpldirectory/">CPL directory</a> for credit against Certificate Level exams before her first booking.</p>
+      <p><strong>2. An accounts assistant in a small company.</strong> Tom works in a ten-person business. His finance manager is a qualified accountant, but the company is not an ICAEW authorised employer. ACCA lets him start Applied Knowledge on demand straight away and record PER with his manager as supervisor. He could sit ICAEW CFAB, but would need an authorised employer to complete the ACA.</p>
+      <p><strong>3. A school leaver.</strong> Jess wants to earn while she learns. ICAEW offers the ACA through the Level 7 Accountancy Professional Apprenticeship with an authorised employer; for ACCA, check ACCA's UK pages for the apprenticeship options employers offer. In practice her decision comes down to which employers near her are hiring and which qualification they support.</p>
+
+      <h2>Free Practice for Both</h2>
+      <p>For the ACA, we have free banks for five of the six Certificate Level exams: <a href="/icaew/icaew-acc/mcqs">Accounting Fundamentals</a>, <a href="/icaew/icaew-ass/mcqs">Assurance and Risk Fundamentals</a>, <a href="/icaew/icaew-mi/mcqs">Business Insight and Performance</a>, <a href="/icaew/icaew-law/mcqs">Business Law</a> and <a href="/icaew/icaew-se/mcqs">Sustainability and Ethics</a>. For ACCA, we cover <a href="/acca/acca-bt/mcqs">BT</a>, <a href="/acca/acca-ma/mcqs">MA</a>, <a href="/acca/acca-fa/mcqs">FA</a>, <a href="/acca/acca-lw/mcqs">LW</a>, <a href="/acca/acca-pm/mcqs">PM</a>, <a href="/acca/acca-fr/mcqs">FR</a>, <a href="/acca/acca-aa/mcqs">AA</a> and <a href="/acca/acca-fm/mcqs">FM</a>. Start from the <a href="/exams/icaew">ICAEW hub</a> or the <a href="/exams/acca">ACCA hub</a>.</p>
+
+      <h2>FAQs</h2>
+      <p><strong>Is ACA harder than ACCA?</strong><br/>They are different rather than simply harder or easier. The ACA's pass mark is 55% at Certificate and Professional Level against ACCA's 50%, and it is usually studied alongside a demanding training contract. ACCA has more exams and the experience can be built more flexibly.</p>
+      <p><strong>Can I switch from ACCA to ACA?</strong><br/>ICAEW assesses professional qualifications for credit. Search the <a href="https://apps.icaew.com/cpldirectory/">CPL directory</a> for what ACCA passes are worth.</p>
+      <p><strong>Do I need an employer to start?</strong><br/>For ACCA, no: you can register and sit Applied Knowledge exams first. For the ACA, you need a training agreement with an authorised employer to qualify, although ICAEW CFAB, a standalone qualification made up of the same six Certificate Level exams, does not need one.</p>
+      <p><strong>How long does each take?</strong><br/>The ACA training agreement normally takes three to five years. ACCA needs at least 36 months of experience, and the total time depends on how quickly you pass the exams.</p>
+
+      <h2>Sources</h2>
+      <ul>
+        <li>ICAEW, <a href="https://www.icaew.com/-/media/corporate/files/learning-and-development/next-generation-aca/aca-syllabus-handbook.ashx">Next Generation ACA Syllabus Handbook 2025–2026</a> (exam structure, durations, pass marks, CFAB)</li>
+        <li>ICAEW, <a href="https://www.icaew.com/learning-and-development/aca/employers/support-hub/aca-training-process/practical-work-experience">Practical work experience</a> and <a href="https://www.icaew.com/learning-and-development/aca/employers/support-hub/aca-training-process/level-7-requirements">Level 7 Accountancy Professional Apprenticeship</a></li>
+        <li>ICAEW, <a href="https://www.icaew.com/students/training/aca-training-faqs/exams-faqs">ACA exam FAQs</a> and <a href="https://www.icaew.com/learning-and-development/aca/employers/train-the-aca/fees">ACA fees</a></li>
+        <li>ACCA, <a href="https://www.accaglobal.com/gb/en/student/getting-started/acca-qualification-structure.html">ACCA Qualification structure and requirements</a> and <a href="https://www.accaglobal.com/us/en/help/student-faqs-practical-experience-requirements.html">PER FAQs</a></li>
+        <li>ACCA, <a href="https://www.accaglobal.com/uk/en/student/exam-entry-and-administration/enter-an-exam/exam-progression-rules.html">Exam progression rules</a> and <a href="https://www.accaglobal.com/gb/en/student/getting-started/rules-and-regulations-for-students/time-limits.html">Time limits for ACCA exams</a></li>
+        <li>ACCA, <a href="https://www.accaglobal.com/gb/en/qualifications/accountancy-career/fees/fees-charges-uk.html">Fees and charges (UK)</a> and <a href="https://www.accaglobal.com/gb/en/campaigns/accountancy-redefined/future-acca-qualification.html">The future ACCA Qualification explained</a></li>
+        <li>Financial Reporting Council, <a href="https://www.frc.org.uk/library/supervision/professional-bodies-supervision/">Professional bodies supervision</a> (recognised supervisory and qualifying bodies for statutory audit)</li>
+      </ul>
+    `
   }
 ];
