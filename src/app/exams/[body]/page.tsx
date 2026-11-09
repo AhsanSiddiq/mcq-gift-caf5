@@ -68,6 +68,8 @@ export async function generateMetadata({ params }: { params: Promise<{ body: str
     title,
     description,
     keywords: body.seoKeywords,
+    // Waitlist bodies have no question banks yet: keep the thin landing page out of the index.
+    ...(body.status === "live" ? {} : { robots: { index: false, follow: true } }),
     alternates: { canonical: url },
     openGraph: { title, description, url, type: "website", siteName: "The CA Hub" },
     twitter: { card: "summary_large_image", title, description },

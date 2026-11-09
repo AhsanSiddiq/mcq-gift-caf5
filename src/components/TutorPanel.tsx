@@ -85,6 +85,12 @@ export default function TutorPanel({ questionId, chosenKey, isCorrect }: { quest
           {answer}
         </p>
       )}
+      {answer && (
+        <p className="text-xs mt-2" style={{ color: "var(--text-3)", fontFamily: "var(--font-inter), sans-serif" }}>
+          AI-generated explanation. It can be wrong; the explanation above is our reviewed answer.{" "}
+          <Link href="/editorial-policy" style={{ color: "var(--text-3)", textDecoration: "underline" }}>How we use AI</Link>
+        </p>
+      )}
       {error && (
         <p className="text-sm mt-3" style={{ color: "var(--bad)" }}>
           {error}{" "}

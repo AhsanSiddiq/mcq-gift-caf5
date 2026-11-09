@@ -31,6 +31,7 @@ const NAV = [
       { label: "Privacy Policy", href: "/privacy-policy" },
       { label: "Terms of Service", href: "/terms" },
       { label: "Refund Policy", href: "/refund-policy" },
+      { label: "Editorial Policy", href: "/editorial-policy" },
       { label: "Contact", href: "/contact" },
       { label: "Advertise", href: "/advertise" },
     ],

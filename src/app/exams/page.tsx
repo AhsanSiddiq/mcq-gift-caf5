@@ -116,7 +116,7 @@ export default async function ExamsPage() {
     "@context": "https://schema.org",
     "@type": "ItemList",
     name: "Accountancy exam MCQ practice by exam body",
-    itemListElement: EXAM_BODIES.map((b, i) => ({
+    itemListElement: live.map((b, i) => ({
       "@type": "ListItem",
       position: i + 1,
       name: `${b.short} MCQ practice`,

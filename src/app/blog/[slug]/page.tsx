@@ -76,6 +76,10 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
             .prose ul { padding-left: 1.5rem; margin-bottom: 1.5rem; list-style-type: disc; }
             .prose li { margin-bottom: 0.5rem; }
             .prose strong { color: var(--text-1); font-weight: 700; }
+            .prose .table-wrap { overflow-x: auto; margin-bottom: 1.5rem; }
+            .prose table { width: 100%; border-collapse: collapse; font-size: 0.95rem; line-height: 1.5; }
+            .prose th, .prose td { border: 1px solid var(--border); padding: 0.5rem 0.75rem; text-align: left; vertical-align: top; }
+            .prose th { color: var(--text-1); font-weight: 700; }
           ` }} />
           <div dangerouslySetInnerHTML={{ __html: blog.content }} />
         </div>
