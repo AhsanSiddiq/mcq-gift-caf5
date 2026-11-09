@@ -5,12 +5,12 @@ import { EXAM_BODIES, type ExamBody } from "@/data/regions";
 import { getVisitorRegion } from "@/lib/region";
 
 const PAGE_URL = "https://www.thecahub.com/exams";
-const TITLE = "Free Accountancy Exam MCQ Practice for Every Country | The CA Hub";
+const TITLE = "Free CA, ACCA, CIMA & CMA MCQ Practice with Answers | The CA Hub";
 const DESCRIPTION =
-  "Free MCQ and objective-test practice for CA, ACCA, CIMA, ICAEW, US CPA and more. Live ICAP (CA Pakistan) question banks today, with ICAI, ACCA, CIMA and other bodies launching next.";
+  "Free MCQ practice with answers for ICAP (CA Pakistan), ICAI (CA India), ACCA, CIMA, ICAEW and US CMA – chapter-wise question banks, timed mock tests and a daily challenge.";
 
 export const metadata: Metadata = {
-  title: TITLE,
+  title: { absolute: TITLE },
   description: DESCRIPTION,
   keywords: [
     "accountancy exam practice",

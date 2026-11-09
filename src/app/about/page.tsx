@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.thecahub.com/about" },
-  title: "About | The CA Hub – Muhammad Ahsan Siddiq",
+  title: "About Muhammad Ahsan Siddiq – Founder",
   description: "Learn about Muhammad Ahsan Siddiq, the first student in ICAP's 64-year history to clear all 6 CFAP papers in a single attempt, and why he built The CA Hub.",
 };
 
@@ -32,7 +32,7 @@ export default function About() {
 
         <div className="space-y-6" style={{ fontFamily: "var(--font-inter), sans-serif" }}>
           <p className="text-base leading-relaxed" style={{ color: "var(--text-2)" }}>
-            In 2025, Muhammad Ahsan Siddiq became <strong style={{ color: "var(--text-1)" }}>the first student in ICAP's 64-year history</strong> to clear all six CFAP (final-level) papers in a single attempt. ICAP created a special Gold Medal specifically to recognise the achievement.
+            In 2025, Muhammad Ahsan Siddiq became <strong style={{ color: "var(--text-1)" }}>the first student in ICAP&apos;s 64-year history</strong> to clear all six CFAP (final-level) papers in a single attempt. ICAP created a special Gold Medal specifically to recognise the achievement.
           </p>
           <p className="text-base leading-relaxed" style={{ color: "var(--text-2)" }}>
             He did this while simultaneously pursuing his ACCA qualification and sitting CFA Level I. Not by working harder than everyone else, but by studying smarter through a self-engineered system of pattern recognition, precision execution, and radical prioritisation.

@@ -4,7 +4,7 @@ import { LegalPage, Section, linkStyle, SUPPORT_EMAIL } from "@/components/legal
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.thecahub.com/refund-policy" },
-  title: "Refund Policy | The CA Hub",
+  title: "Refund Policy",
   description: "Refund Policy for The CA Hub Pro — 14-day money-back guarantee on all paid plans.",
 };
 

@@ -3,7 +3,7 @@ import { getVisitorRegion } from "@/lib/region";
 import ProCheckout from "./ProCheckout";
 
 export const metadata: Metadata = {
-  title: "The CA Hub Pro – Unlimited Timed Exams, Ad-Free",
+  title: { absolute: "The CA Hub Pro – Unlimited Timed Exams, Ad-Free" },
   description:
     "Go Pro: unlimited timed exam simulators, a completely ad-free site and early access to new exam banks. Priced locally for your country. Practice stays free for everyone.",
   alternates: { canonical: "https://www.thecahub.com/pro" },

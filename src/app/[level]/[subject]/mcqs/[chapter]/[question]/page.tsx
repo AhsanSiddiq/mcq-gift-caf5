@@ -24,12 +24,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!r) notFound();
   if (!r.isCanonical) permanentRedirect(r.path);
 
-  const correct = r.q.options.find((o) => o.correct);
-  const title = `${clip(r.q.question, 60)} – ${r.code} MCQ with Answer`;
+  // Don't put the answer in the snippet: searchers would have no reason to click through.
+  const title = `${clip(r.q.question, 62)} – ${r.code} MCQ`;
   const end = (t: string) => (/[.?!…]$/.test(t) ? t : `${t}.`);
-  const answer = correct ? ` Answer: ${end(clip(correct.text, 45))}` : "";
-  const tail = ` Free ${r.code} MCQ with explanation.`;
-  const description = `${end(clip(r.q.question, Math.max(60, 158 - answer.length - tail.length)))}${answer}${tail}`;
+  const tail = ` See the correct answer with a step-by-step explanation – free ${r.code} practice.`;
+  const description = `${end(clip(r.q.question, Math.max(60, 158 - tail.length)))}${tail}`;
   const url = `${BASE_URL}${r.path}`;
   return {
     title,

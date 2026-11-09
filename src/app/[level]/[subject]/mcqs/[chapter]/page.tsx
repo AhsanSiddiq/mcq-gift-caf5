@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { LEVEL_LABEL, subjectCode } from "@/data/subjects";
+import { LEVEL_LABEL, subjectCode, searchName, shortSearchName } from "@/data/subjects";
 import Link from "next/link";
 import { notFound, permanentRedirect } from "next/navigation";
 import { ArrowLeft, ArrowRight, Timer } from "lucide-react";
@@ -29,8 +29,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!r) notFound();
   if (r.requested !== r.meta.slug) permanentRedirect(`/${r.level}/${r.s.id}/mcqs/${r.meta.slug}`);
   const code = subjectCode(r.s);
-  const title = `${code} Chapter ${r.meta.chapter}: ${r.meta.topic} MCQs with Answers`;
-  const description = `${r.meta.count} ${r.meta.topic} MCQs for ${LEVEL_LABEL[r.s.level]} ${code} ${r.s.title}, with correct answers and explanations. Free chapter-wise practice.`;
+  // Lead with the topic (what people search); keep it short enough that Google doesn't truncate it.
+  const title =
+    r.meta.topic.length > 38
+      ? `${r.meta.topic} MCQs – ${shortSearchName(r.s)}`
+      : `${r.meta.topic} MCQs with Answers – ${shortSearchName(r.s)} Ch ${r.meta.chapter}`;
+  const description = `${r.meta.count} ${r.meta.topic} MCQs from ${searchName(r.s)}, Chapter ${r.meta.chapter}. Each has the correct answer and a step-by-step explanation. Free, no sign-up.`;
   const url = `${BASE_URL}/${r.level}/${r.s.id}/mcqs/${r.meta.slug}`;
   return {
     title,

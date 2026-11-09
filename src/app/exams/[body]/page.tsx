@@ -52,7 +52,14 @@ export async function generateMetadata({ params }: { params: Promise<{ body: str
   const body = getBody(id);
   if (!body) return {};
   const url = `${BASE_URL}/exams/${body.id}`;
-  const title = `Free ${body.short} MCQ Practice & Mock Tests | The CA Hub`;
+  // How students search for each body (e.g. Indians search "CA Foundation/Inter MCQ test", not "ICAI").
+  const SEARCH_TITLES: Record<string, string> = {
+    icai: "Free CA Foundation & CA Inter MCQ Tests with Answers (ICAI)",
+    icap: "Free ICAP PRC & CAF MCQs with Answers – Mock Tests",
+    ima: "Free US CMA Part 1 & Part 2 MCQ Practice with Answers",
+    icaew: "Free ICAEW ACA Certificate MCQ Practice with Answers",
+  };
+  const title = SEARCH_TITLES[body.id] ?? `Free ${body.short} MCQ Practice & Mock Tests with Answers`;
   const description =
     body.status === "live"
       ? `Free ${body.short} MCQ practice for ${body.qualification}: ${body.tagline}`

@@ -4,7 +4,7 @@ import { LegalPage, Section, linkStyle, SUPPORT_EMAIL } from "@/components/legal
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.thecahub.com/privacy-policy" },
-  title: "Privacy Policy | The CA Hub",
+  title: "Privacy Policy",
   description: "Privacy Policy for The CA Hub — what we collect, how payments are handled, and your rights.",
 };
 

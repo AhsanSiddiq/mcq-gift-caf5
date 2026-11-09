@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { LEVEL_LABEL, subjectCode } from "@/data/subjects";
+import { LEVEL_LABEL, subjectCode, searchName } from "@/data/subjects";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowRight } from "lucide-react";
@@ -17,8 +17,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const s = resolveSubject(level, subject);
   if (!s) return {};
   const code = subjectCode(s);
-  const title = `${code} ${s.title} MCQs with Answers – Chapter-wise Question Bank`;
-  const description = `Chapter-wise ${code} ${s.title} MCQs with answers and explanations for ${LEVEL_LABEL[s.level]}. Read every question online free, then test yourself in timed mocks.`;
+  const name = searchName(s);
+  const title = `${name} MCQs with Answers – Free Mock Test`;
+  const description = `Free ${name} MCQs sorted chapter by chapter, each with the correct answer and a worked explanation. Read online or take a timed mock test – no sign-up needed.`;
   const url = `${BASE_URL}/${level}/${s.id}/mcqs`;
   return {
     title,
