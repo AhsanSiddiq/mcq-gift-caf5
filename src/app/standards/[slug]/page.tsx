@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import Link from "next/link";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import RelatedBanks from "@/components/RelatedBanks";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowRight, AlertTriangle, ExternalLink } from "lucide-react";
 import {
@@ -12,7 +14,7 @@ import {
   STANDARDS_REVIEWED,
   type Standard,
 } from "@/data/standards";
-import { allSubjects, subjectCode, LEVEL_LABEL } from "@/data/subjects";
+import { allSubjects } from "@/data/subjects";
 import StandardsDisclaimer from "../Disclaimer";
 
 const BASE_URL = "https://www.thecahub.com";
@@ -123,13 +125,14 @@ export default async function StandardPage({ params }: Props) {
     <main className="min-h-screen" style={{ background: "var(--bg)" }}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }} />
       <div className="max-w-6xl mx-auto px-4 sm:px-6 md:px-8 pt-24 sm:pt-28 pb-20">
-        <nav aria-label="Breadcrumb" className="text-sm mb-6 flex flex-wrap items-center gap-x-2 gap-y-1" style={{ color: "var(--text-3)" }}>
-          <Link href="/" style={{ color: "var(--text-3)", textDecoration: "none" }}>Home</Link>
-          <span aria-hidden>/</span>
-          <Link href="/standards" style={{ color: "var(--text-3)", textDecoration: "none" }}>Standards</Link>
-          <span aria-hidden>/</span>
-          <span style={{ color: "var(--text-2)" }}>{s.code}</span>
-        </nav>
+        <Breadcrumbs
+          jsonLd={false}
+          items={[
+            { name: "Home", href: "/" },
+            { name: "IFRS & IAS Standards", short: "Standards", href: "/standards" },
+            { name: `${s.code} ${s.title}`, short: s.code, href: `/standards/${s.slug}` },
+          ]}
+        />
 
         <header className="mb-8 max-w-3xl">
           <p className="text-xs font-bold uppercase tracking-widest mb-3" style={{ color: "var(--green)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
@@ -235,33 +238,16 @@ export default async function StandardPage({ params }: Props) {
               </Section>
             )}
 
-            <section id="practise" className="scroll-mt-28 mb-12 rounded-2xl p-5 sm:p-6" style={{ ...card, borderColor: "color-mix(in srgb, var(--green) 35%, transparent)" }} aria-labelledby="practise-h">
-              <h2 id="practise-h" className="font-bold text-xl sm:text-2xl mb-2" style={heading}>Practise MCQs on this standard</h2>
-              <p className="mb-5 text-sm sm:text-base">
-                Test your understanding of {s.code} with free chapter-wise MCQs and explanations in these question banks.
-              </p>
-              <div className="grid gap-3 sm:grid-cols-2">
-                {banks.map((b) => (
-                  <Link
-                    key={b.id}
-                    href={`/${b.level.toLowerCase()}/${b.id}/mcqs`}
-                    className="flex items-center justify-between gap-3 rounded-xl px-4 py-3"
-                    style={{ background: "var(--bg)", border: "1px solid var(--border)", textDecoration: "none" }}
-                  >
-                    <span className="min-w-0">
-                      <span className="block font-bold" style={{ color: "var(--text-1)" }}>{subjectCode(b)} {b.title}</span>
-                      <span className="block text-xs" style={{ color: "var(--text-3)" }}>{LEVEL_LABEL[b.level]}</span>
-                    </span>
-                    <ArrowRight className="w-4 h-4 shrink-0" style={{ color: "var(--green)" }} aria-hidden />
-                  </Link>
-                ))}
-              </div>
-              {banks.some((b) => b.body === "icai") && (
-                <p className="mt-4 text-xs" style={{ color: "var(--text-3)" }}>
-                  ICAI CA Intermediate examines Indian Accounting Standards, which are based on but can differ from IFRS. Check your syllabus.
-                </p>
-              )}
-            </section>
+            <RelatedBanks
+              subjects={banks}
+              id="practise"
+              columns={2}
+              headingId="practise-h"
+              className="scroll-mt-28 mb-12"
+              title={`Practise MCQs on ${s.code}`}
+              intro={`Test your understanding of ${s.code} with free chapter-wise MCQs and explanations in these question banks.`}
+              note={banks.some((b) => b.body === "icai") ? "ICAI CA Intermediate examines Indian Accounting Standards, which are based on but can differ from IFRS. Check your syllabus." : undefined}
+            />
 
             <nav aria-label="Previous and next standard" className="grid gap-3 sm:grid-cols-2 mb-12">
               {prev ? (
