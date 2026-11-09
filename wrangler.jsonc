@@ -12,8 +12,9 @@
     // Self-reference used by OpenNext for ISR revalidation; must match "name"
     { "binding": "WORKER_SELF_REFERENCE", "service": "thecahub" }
   ],
-  "r2_buckets": [
-    { "binding": "NEXT_INC_CACHE_R2_BUCKET", "bucket_name": "thecahub-opennext-cache" }
+  "kv_namespaces": [
+    // OpenNext incremental (ISR) cache
+    { "binding": "NEXT_INC_CACHE_KV", "id": "6898c2734207452b8f4f94c3ebe2ea47" }
   ],
   "durable_objects": {
     "bindings": [{ "name": "NEXT_CACHE_DO_QUEUE", "class_name": "DOQueueHandler" }]
