@@ -556,7 +556,7 @@ export const blogs: BlogPost[] = [
         <li><strong>Multiple-response questions earn marks only when completely correct.</strong> Picking two of three right options earns nothing. When you practise, mark yourself the same way.</li>
         <li><strong>In fill-in-the-blank questions, spelling mistakes and synonyms count as wrong.</strong> Learn the exact terms.</li>
       </ul>
-      <p>ICAP also provides model papers in the students' secured area that run on the same examination software as the real test. Sit each one at least once so the interface is familiar before exam day.</p>
+      <p>ICAP also provides model papers in the students' secured area that run on the same examination software as the real test. Sit each one at least once so the interface is familiar before exam day. Our <a href="/blog/prc-1-fundamentals-of-accounting-past-papers">PRC-1 past papers guide</a> explains how to open them.</p>
 
       <h2>A Six-Week Plan Per Paper</h2>
       <ul>
@@ -2842,6 +2842,489 @@ export const blogs: BlogPost[] = [
       <p><strong>Are ICAI study materials free?</strong><br/>Yes. ICAI's Board of Studies publishes study material, RTPs, MTPs and past papers with suggested answers on icai.org.</p>
       <p><strong>Is The CA Hub really free?</strong><br/>Yes. All question banks and daily challenges are free. Pro is an optional upgrade.</p>
       <p><strong>Can I read IFRS standards for free?</strong><br/>Yes. The IFRS Foundation offers free access to the required standards with a free registration on ifrs.org.</p>
+    `
+  },
+  {
+    slug: "prc-1-fundamentals-of-accounting-past-papers",
+    title: "PRC-1 Fundamentals of Accounting Past Papers: What ICAP Publishes and How to Practise",
+    excerpt: "ICAP does not release PRC-1 past papers or examiners' comments. Here is what it does publish, how to run the official model paper, and where PRC-1 marks concentrate, chapter by chapter.",
+    tag: "Study Guide",
+    date: "November 9, 2026",
+    readTime: "7 min read",
+    content: `
+      <p>If you searched for <strong>PRC-1 Fundamentals of Accounting past papers</strong>, start with the fact most websites skip: ICAP does not publish them. Its <a href="https://icap.org.pk/past-papers/" target="_blank" rel="noopener noreferrer">past papers page</a> covers CAF, CFAP and the Strategic Case Study only, and its <a href="https://icap.org.pk/students/education-and-training/education-scheme-2025/examiner-comments/" target="_blank" rel="noopener noreferrer">examiners' comments page</a> for the 2025 scheme also lists only CAF, CFAP and SCS. There is no PRC section on either, as of November 2026. Files labelled "PRC-1 past paper" on other sites are either reconstructions from memory or material from the old scheme.</p>
+      <p>That does not leave you without official material. ICAP publishes four things for PRC-1 that are more useful than a stack of unofficial papers, as long as you use them properly.</p>
+
+      <h2>What ICAP Actually Publishes for PRC-1</h2>
+      <div class="table-wrap"><table>
+        <thead><tr><th>Resource</th><th>Where to find it</th><th>What it is for</th></tr></thead>
+        <tbody>
+          <tr><td>PRC model papers</td><td>Students' secured area, under "Practice Test"</td><td>Running a full paper in the real exam software</td></tr>
+          <tr><td>PRC syllabus (Directive 1.01)</td><td><a href="https://icap.org.pk/students/study-resources/education-scheme-2025/study-resources/" target="_blank" rel="noopener noreferrer">Study resources, Scheme 2025</a></td><td>Weightages and testing levels: where the marks are</td></tr>
+          <tr><td>PRC-1 study text</td><td>Same study resources page</td><td>The examinable content, with examples</td></tr>
+          <tr><td>Guidance on the examination software and PRC assessment FAQs</td><td><a href="https://icap.org.pk/students/examination/exam-under-centre-based-environment/" target="_blank" rel="noopener noreferrer">Exam under centre-based environment</a></td><td>How answers are entered and marked</td></tr>
+        </tbody>
+      </table></div>
+
+      <h2>How to Open the Official Model Paper (the "ICAP Practice Test")</h2>
+      <p>ICAP's guide <em>How to Run the Model Papers</em> (dated 24 December 2025) sets out the route:</p>
+      <ul>
+        <li>Log in to <a href="https://student.icap.org.pk/" target="_blank" rel="noopener noreferrer">student.icap.org.pk</a> (Students, then My Profile) with your CRN/CEN.</li>
+        <li>In the left-hand menu, click <strong>Practice Test</strong>, then <strong>PRC</strong>.</li>
+        <li>Click <strong>Link of PRC Model Papers</strong> and log in to the test with the demo username for Fundamentals of Accounting (DEMO_FOA). The password is printed in the <a href="https://icap.org.pk/files/per/students/exam/prc/Howtorunmodelpaper.pdf" target="_blank" rel="noopener noreferrer">ICAP guide</a>.</li>
+      </ul>
+      <p>The model paper runs in the same software as the real assessment, and you can run it as many times as you like. That is the closest thing to a PRC-1 past paper that officially exists, so do not waste it on your first day of study.</p>
+
+      <h2>How to Use the Model Paper: Three Runs</h2>
+      <ul>
+        <li><strong>Run 1, at the start (untimed): learn the interface.</strong> Find the flag button, the notepad, the on-screen calculator and the Question Status screen in the exam menu. Note the question count and the timer. Do not worry about your score.</li>
+        <li><strong>Run 2, after you finish the syllabus (timed): diagnose.</strong> Sit it in one go. Write every wrong answer into an error log against the syllabus area (A, B, C or D below).</li>
+        <li><strong>Run 3, in the final week (timed): rehearse.</strong> The questions will be familiar, so the score matters less. Treat it as a dress rehearsal for pacing and for entering numbers in the right format.</li>
+      </ul>
+      <p>Two features in ICAP's software guidance catch people out. The <strong>END</strong> button submits the paper permanently, with no way back. And when the timer runs out, the system logs you off and submits whatever you have entered, so do not leave answers "to type in at the end."</p>
+
+      <h2>Where PRC-1 Marks Concentrate</h2>
+      <p>Without past papers, the syllabus is your best evidence of what gets tested. ICAP's PRC syllabus gives each area a weightage and each learning outcome a testing level. A <strong>T1</strong> topic can carry at most 8 marks in an attempt; a <strong>T2</strong> topic can carry up to 20.</p>
+      <div class="table-wrap"><table>
+        <thead><tr><th>Area</th><th>Weightage</th><th>Testing level</th><th>Our chapter banks</th></tr></thead>
+        <tbody>
+          <tr><td>A. Recording financial information</td><td>20-30%</td><td>All T1</td><td><a href="/prc/prc-1/mcqs/chapter-1-accounting-basics">Ch 1</a>, <a href="/prc/prc-1/mcqs/chapter-2-books-of-prime-entry">Ch 2</a>, <a href="/prc/prc-1/mcqs/chapter-3-ledgers-and-trial-balance">Ch 3</a></td></tr>
+          <tr><td>B. Adjustments in recorded information</td><td>25-35%</td><td>All T1</td><td><a href="/prc/prc-1/mcqs/chapter-4-accruals-and-prepayments">Ch 4</a>, <a href="/prc/prc-1/mcqs/chapter-5-bad-and-doubtful-debts">Ch 5</a>, <a href="/prc/prc-1/mcqs/chapter-8-correction-of-errors">Ch 8</a>, <a href="/prc/prc-1/mcqs/chapter-9-bank-reconciliations">Ch 9</a></td></tr>
+          <tr><td>C. Preparing financial statements</td><td>20-30%</td><td>Statement of profit or loss and statement of financial position T2; partnership profit-sharing T1</td><td><a href="/prc/prc-1/mcqs/chapter-10-preparation-of-financial-statements">Ch 10</a></td></tr>
+          <tr><td>D. Depreciation and inventories</td><td>15-25%</td><td>T2 (IAS 2 and IAS 16)</td><td><a href="/prc/prc-1/mcqs/chapter-6-property-plant-and-equipment">Ch 6</a>, <a href="/prc/prc-1/mcqs/chapter-7-ias-2-inventories">Ch 7</a></td></tr>
+        </tbody>
+      </table></div>
+      <p>Read that table the way an examiner would. Section B is the largest single area, but it is made of five T1 outcomes (bad debts, accruals and prepayments, errors, bank reconciliations, and the trial balance after adjustments), so each is a short, contained question. The long, high-mark questions can only come from the four T2 outcomes: preparing the two main statements, inventories and property, plant and equipment.</p>
+      <p>In practice, those statement-preparation questions are where Section B gets tested a second time. A statement of financial position with an accrual, a doubtful-debt adjustment, a depreciation charge and a closing-inventory write-down tests four chapters at once. If your adjustments are slow, your statements will be slow.</p>
+      <p>Partnership profit distribution sits in Section C and is the topic students most often skip. It is T1, so it is worth up to 8 marks. It is mechanical, quick to learn and usually reliable marks.</p>
+
+      <h2>Marking Rules That Cost Marks</h2>
+      <p>ICAP's <a href="https://icap.org.pk/view/?add=per/students/exam/notices/&file=FAQs-PRCAssessment.pdf" target="_blank" rel="noopener noreferrer">FAQs for PRC Assessment</a> (dated 1 January 2024, written when the accounting paper was still called Introduction to Accounting) and the current software guidance set out how computer-marked answers are treated:</p>
+      <ul>
+        <li><strong>Negative values take a minus sign:</strong> a net or gross loss, a bank overdraft, and expenses and drawings where asked.</li>
+        <li><strong>Rounding:</strong> follow the question; if it says nothing, round to the nearest whole number.</li>
+        <li><strong>Numeric answers are entered without commas.</strong></li>
+        <li><strong>Multiple-response questions</strong> earn marks only when every selection is correct.</li>
+        <li><strong>Fill-in-the-blank answers:</strong> a spelling mistake or a synonym is marked wrong.</li>
+      </ul>
+      <p>Here is how those rules play out in a typical bank reconciliation. The cash book shows an <em>overdraft</em> of Rs. 12,400. Bank charges of Rs. 600 are on the statement but not in the cash book. Cheques of Rs. 8,000 have not been presented, and a deposit of Rs. 5,500 has not yet been credited by the bank.</p>
+      <ul>
+        <li>Corrected cash book balance: overdraft of 12,400 + 600 = 13,000. Entered as <strong>-13000</strong>.</li>
+        <li>Balance per bank statement: -13,000 + 8,000 (unpresented cheques) - 5,500 (uncredited deposit) = <strong>-10500</strong>, an overdraft of Rs. 10,500.</li>
+      </ul>
+      <p>A student who understands the reconciliation but types "13,000" has lost the mark twice: once for the missing sign and once for the comma. Practise typing answers in this exact format from your first week.</p>
+
+      <h2>What About Old-Scheme and Unofficial Papers?</h2>
+      <p>Under ICAP's transition rules, PRC-1 Fundamentals of Accounting replaced PRC-4 Introduction to Accounting from the 2021 scheme. Double entry has not changed, so old Introduction to Accounting questions are still good drill for mechanics. Before relying on any of them, check each topic against the current PRC-1 syllabus. Treat files claiming to be "the actual November paper" with suspicion; they cannot be checked against anything official.</p>
+      <p>A better use of your time: work through the chapter banks above in syllabus order, then use mixed sets from the full <a href="/prc/prc-1/mcqs">PRC-1 question bank</a> or timed tests in the <a href="/practice">practice hub</a> to find weak areas before you touch the model paper again. Our <a href="/blog/how-to-pass-prc-exams-icap">PRC study plan</a> covers the six-week schedule for all three papers.</p>
+
+      <h2>FAQs</h2>
+      <p><strong>Does ICAP publish PRC-1 past papers?</strong><br/>No. As of November 2026, ICAP's past papers archive covers CAF, CFAP and the Strategic Case Study only. For PRC it provides model papers inside the exam software.</p>
+      <p><strong>Are there examiners' comments for PRC-1?</strong><br/>No. ICAP publishes examiners' comments for CAF, CFAP and SCS papers, not for PRC.</p>
+      <p><strong>What is the ICAP practice test?</strong><br/>It is the Practice Test section of the students' secured area, where the PRC model papers run in the same software as the real assessment. You need your ICAP student login to reach it.</p>
+      <p><strong>How long is the PRC-1 paper and how many questions does it have?</strong><br/>ICAP's 2025 scheme documents do not state this for PRC-1. The model paper shows the question count and the timer, and your admit card confirms the details for your session. Check those rather than relying on figures quoted elsewhere.</p>
+      <p><strong>Can I use a calculator in PRC-1?</strong><br/>Yes. ICAP's 2025 scheme FAQs allow permissible calculators in all three PRC papers. Check the model on ICAP's <a href="https://icap.org.pk/students/examination/important-notices/permissible-calculators/" target="_blank" rel="noopener noreferrer">permissible calculators list</a> before you buy one.</p>
+      <p><strong>What is the pass mark?</strong><br/>50%, under Directive 1.01 of the 2025 scheme.</p>
+
+      <h2>Sources</h2>
+      <ul>
+        <li><a href="https://icap.org.pk/past-papers/" target="_blank" rel="noopener noreferrer">ICAP: Past papers (CAF, CFAP, SCS)</a></li>
+        <li><a href="https://icap.org.pk/students/education-and-training/education-scheme-2025/examiner-comments/" target="_blank" rel="noopener noreferrer">ICAP: Examiner comments, Education Scheme 2025</a></li>
+        <li><a href="https://icap.org.pk/files/per/students/exam/prc/Howtorunmodelpaper.pdf" target="_blank" rel="noopener noreferrer">ICAP: How to Run the Model Papers (24 December 2025)</a></li>
+        <li><a href="https://student.icap.org.pk/viewfile/?add=students/scheme2025/prc/&file=PRC-Syllabus.pdf" target="_blank" rel="noopener noreferrer">ICAP: Pre-Requisite Competencies Syllabus, Education and Training Scheme 2025</a></li>
+        <li><a href="https://icap.org.pk/view/?add=per/students/exam/notices/&file=FAQs-PRCAssessment.pdf" target="_blank" rel="noopener noreferrer">ICAP: FAQs for PRC Assessment (1 January 2024)</a></li>
+        <li><a href="https://icap.org.pk/files/per/students/exam/prc/GuidanceonNewExaminationSoftware.pdf" target="_blank" rel="noopener noreferrer">ICAP: Guidance on New Examination Software for QAT, PRC and Integrated Modules</a></li>
+        <li><a href="https://icap.org.pk/view/?add=per/students/edu-training/pdf/&file=FAQs-on-education-scheme-2025.pdf" target="_blank" rel="noopener noreferrer">ICAP: FAQs on Education and Training Scheme 2025</a></li>
+        <li><a href="https://icap.org.pk/view/?add=per/students/edu-training/directives/&file=Directive1.01.pdf" target="_blank" rel="noopener noreferrer">ICAP: Directive 1.01, Education and Training Scheme 2025</a></li>
+      </ul>
+    `
+  },
+  {
+    slug: "prc-2-quantitative-analysis-exam-guide",
+    title: "PRC-2 Quantitative Analysis for Business: Exam Format and a Topic-by-Topic Prep Guide",
+    excerpt: "Every PRC-2 learning outcome is testing level 1, so no topic can carry more than 8 marks and none can be skipped. Here is the format, what each syllabus area tests, and worked examples entered the way the software expects.",
+    tag: "Study Guide",
+    date: "November 9, 2026",
+    readTime: "8 min read",
+    content: `
+      <p>PRC-2 Quantitative Analysis for Business is the PRC paper where preparation pays off most directly: the questions are numerical, the methods are fixed, and the answer is either right or wrong. This guide covers the exam format, then works through ICAP's syllabus area by area, with the traps that cost marks in a computer-marked paper. Details are from ICAP's 2025 scheme documents as of November 2026.</p>
+
+      <h2>The Exam Format</h2>
+      <ul>
+        <li><strong>Computer-based</strong>, in ICAP's examination software, at a centre.</li>
+        <li><strong>Six windows a year:</strong> January, March, May, July, September and November.</li>
+        <li><strong>Pass mark:</strong> 50%.</li>
+        <li><strong>Time limit:</strong> all three PRC papers must be passed within 15 months of the month of your first PRC attempt.</li>
+        <li><strong>Calculators:</strong> a permissible calculator from ICAP's list, plus the basic on-screen calculator.</li>
+        <li><strong>Mathematical tables</strong> are provided as a PDF inside the software (exam menu, three-dot icon). They include present value and cumulative present value (annuity) tables, future value tables, Poisson, normal, t-distribution and binomial coefficient tables. No hard copy is given.</li>
+        <li><strong>Question types:</strong> multiple choice, multiple response, and hybrid questions where you pick from a drop-down or type a single number.</li>
+      </ul>
+      <p>ICAP's scheme documents do not state the PRC-2 duration or question count. Run the model paper in the students' secured area to see both, and check your admit card.</p>
+
+      <h2>Why "Testing Level 1" Changes How You Prepare</h2>
+      <p>In ICAP's PRC syllabus, <strong>every PRC-2 learning outcome is T1</strong>. A T1 topic can carry at most 8 marks in an attempt. That has two consequences:</p>
+      <ul>
+        <li>No single topic can dominate the paper, so you cannot pass by mastering three favourite chapters.</li>
+        <li>Every area is likely to appear, so a skipped topic is a guaranteed loss of marks.</li>
+      </ul>
+      <p>The weightage grid tells you how the 100 marks spread:</p>
+      <div class="table-wrap"><table>
+        <thead><tr><th>Area</th><th>Weightage</th><th>Teaching hours</th><th>Our chapter banks</th></tr></thead>
+        <tbody>
+          <tr><td>A. Basic mathematics</td><td>20-30%</td><td>20-25</td><td><a href="/prc/prc-2/mcqs/chapter-1-linear-and-quadratic-equations">Ch 1</a>, <a href="/prc/prc-2/mcqs/chapter-2-coordinate-system-and-its-application">Ch 2</a>, <a href="/prc/prc-2/mcqs/chapter-3-mathematical-progression">Ch 3</a>, <a href="/prc/prc-2/mcqs/chapter-4-linear-programming">Ch 4</a></td></tr>
+          <tr><td>B. Financial mathematics</td><td>20-30%</td><td>20-25</td><td><a href="/prc/prc-2/mcqs/chapter-5-financial-mathematics">Ch 5</a>, <a href="/prc/prc-2/mcqs/chapter-6-discounted-cash-flows">Ch 6</a></td></tr>
+          <tr><td>C. Statistics in business</td><td>30-40%</td><td>30-35</td><td><a href="/prc/prc-2/mcqs/chapter-7-data-collection-and-representation">Ch 7</a>, <a href="/prc/prc-2/mcqs/chapter-8-statistical-measures-of-data">Ch 8</a>, <a href="/prc/prc-2/mcqs/chapter-9-indices">Ch 9</a>, <a href="/prc/prc-2/mcqs/chapter-10-correlation-and-regression">Ch 10</a></td></tr>
+          <tr><td>D. Probability and expected values</td><td>10-20%</td><td>10-15</td><td><a href="/prc/prc-2/mcqs/chapter-11-probability-concepts">Ch 11</a>, <a href="/prc/prc-2/mcqs/chapter-12-probability-distributions">Ch 12</a></td></tr>
+        </tbody>
+      </table></div>
+
+      <h2>A. Basic Mathematics (20-30%)</h2>
+      <p>The syllabus covers simultaneous linear equations and their graphs, quadratics, single-product break-even, marginal revenue and marginal cost, arithmetic and geometric progressions (including the sum of a reducing geometric series to infinity), and linear programming: formulating it, identifying the feasible region and solving it graphically.</p>
+      <p><strong>Worked example: profit-maximising output.</strong> Demand is P = 100 - 0.5Q and total cost is 500 + 20Q.</p>
+      <ul>
+        <li>Total revenue = 100Q - 0.5Q², so marginal revenue = 100 - Q. Marginal cost = 20.</li>
+        <li>Set MR = MC: 100 - Q = 20, so Q = 80 and P = 100 - 40 = 60.</li>
+        <li>Profit = (60 × 80) - (500 + 20 × 80) = 4,800 - 2,100 = <strong>2700</strong>.</li>
+      </ul>
+      <p>The usual trap is setting price equal to marginal cost, which only applies in perfect competition. In linear programming, learn to spot an infeasible problem and an unbounded feasible region, both named in the syllabus. The same technique comes back in <a href="/blog/principal-budget-factor-limiting-factor-explained">limiting factor analysis</a> at CAF.</p>
+
+      <h2>B. Financial Mathematics (20-30%)</h2>
+      <p>Simple and compound interest, present values (including perpetuities), annuities, payback, NPV and IRR. This is the most reliable scoring area once the formulas are automatic.</p>
+      <p><strong>Worked example: NPV and rounding.</strong> A project costs Rs. 100,000 and returns Rs. 40,000 a year for three years. The discount rate is 10%.</p>
+      <ul>
+        <li>With the exact annuity factor (2.48685): PV of inflows = 99,474; NPV = <strong>-526</strong>.</li>
+        <li>With ICAP's three-decimal table factor (2.487): PV = 99,480; NPV = -520.</li>
+      </ul>
+      <p>Both answers come from correct methods, so read the question for the factor or rounding it wants. Note the minus sign: a negative NPV typed without one is wrong. The project is rejected, and its IRR is just under 10%. You can check answers like this with our <a href="/tools/npv-irr-calculator">NPV and IRR calculator</a> and <a href="/tools/compound-interest-calculator">compound interest calculator</a>.</p>
+
+      <h2>C. Application of Statistics in Business (30-40%)</h2>
+      <p>The largest area, and the one with the longest list of named items in the syllabus: sampling and data types; arrays, frequency distributions, tallies and class boundaries; bar and pie charts, histograms, frequency polygons, ogives, stem-and-leaf displays and box-and-whisker plots; mode, median, and the arithmetic, geometric and harmonic means; standard deviation, variance and skewness; Laspeyres, Paasche and Fisher index numbers; real and nominal wages; scatter diagrams; least-squares regression; correlation, rank correlation and the coefficient of determination.</p>
+      <p><strong>Worked example: real wages.</strong> A clerk earned Rs. 48,000 a month in the base year and earns Rs. 66,000 now. The consumer price index has moved from 100 to 150.</p>
+      <ul>
+        <li>Real wage now, in base-year rupees = 66,000 × 100 / 150 = <strong>44000</strong>.</li>
+        <li>The nominal wage rose 37.5%, but real purchasing power fell by 4,000, about 8.3%.</li>
+      </ul>
+      <p>Two traps here. First, class boundaries are not class limits: for classes 10-19 and 20-29, the boundary is 19.5. Second, the Fisher index is the geometric mean of Laspeyres and Paasche (the square root of their product), not the average.</p>
+
+      <h2>D. Probability and Expected Values (10-20%)</h2>
+      <p>Counting rules (the mn rule, factorials, permutations and combinations), the addition and multiplication laws, conditional and complementary probability, the binomial, hypergeometric, Poisson and normal distributions, and expected values.</p>
+      <p><strong>Worked example: binomial.</strong> 10% of items are defective. In a sample of 5, what is the probability of exactly 2 defectives?</p>
+      <ul>
+        <li>P(2) = 5C2 × 0.1² × 0.9³ = 10 × 0.01 × 0.729 = <strong>0.0729</strong>.</li>
+      </ul>
+      <p>Know when to switch distributions. Use binomial for a fixed number of independent trials, hypergeometric for sampling without replacement from a small population, and Poisson for events per interval. For the normal distribution, convert to z and read the table inside the software. Practise reading the on-screen table before the exam, not during it.</p>
+
+      <h2>A Six-Week Order of Attack</h2>
+      <ul>
+        <li><strong>Week 1:</strong> Financial mathematics. It is formula-driven and builds confidence quickly.</li>
+        <li><strong>Weeks 2-3:</strong> Statistics, the biggest block. Do descriptive statistics first, then index numbers, then regression and correlation.</li>
+        <li><strong>Week 4:</strong> Basic mathematics, including linear programming.</li>
+        <li><strong>Week 5:</strong> Probability and distributions, then mixed sets from the full <a href="/prc/prc-2/mcqs">PRC-2 question bank</a>.</li>
+        <li><strong>Week 6:</strong> The model paper under timed conditions, then targeted repair from your error log.</li>
+      </ul>
+      <p>Learn your own calculator's memory and statistical functions early. Calculating a standard deviation by hand when your calculator can do it in ten seconds wastes time the paper does not give you. For the other two papers, see the <a href="/blog/prc-1-fundamentals-of-accounting-past-papers">PRC-1 guide</a> and the <a href="/blog/prc-3-business-economic-insights-exam-guide">PRC-3 guide</a>.</p>
+
+      <h2>FAQs</h2>
+      <p><strong>Is a formula sheet provided in PRC-2?</strong><br/>ICAP provides mathematical tables inside the software (present value, annuity, future value, Poisson, normal, t-distribution, chi-square and binomial coefficients). They are tables, not a formula sheet, so learn your formulas.</p>
+      <p><strong>Can I use my own calculator?</strong><br/>Yes, if it is on ICAP's permissible calculators list. The software also has a basic calculator.</p>
+      <p><strong>Is linear programming tested with the simplex method?</strong><br/>The syllabus covers formulation, constraints, the feasible region and the graphical solution. It does not mention the simplex method.</p>
+      <p><strong>How should I round answers?</strong><br/>As the question instructs. ICAP's PRC assessment FAQs say that if a question gives no instruction, round to the nearest whole number.</p>
+
+      <h2>Sources</h2>
+      <ul>
+        <li><a href="https://student.icap.org.pk/viewfile/?add=students/scheme2025/prc/&file=PRC-Syllabus.pdf" target="_blank" rel="noopener noreferrer">ICAP: Pre-Requisite Competencies Syllabus, Education and Training Scheme 2025</a></li>
+        <li><a href="https://icap.org.pk/files/per/students/exam/prc/GuidanceonNewExaminationSoftware.pdf" target="_blank" rel="noopener noreferrer">ICAP: Guidance on New Examination Software for QAT, PRC and Integrated Modules</a></li>
+        <li><a href="https://icap.org.pk/files/per/students/exam/notices/log-table.pdf" target="_blank" rel="noopener noreferrer">ICAP: Mathematical Tables</a></li>
+        <li><a href="https://icap.org.pk/view/?add=per/students/exam/notices/&file=FAQs-PRCAssessment.pdf" target="_blank" rel="noopener noreferrer">ICAP: FAQs for PRC Assessment (1 January 2024)</a></li>
+        <li><a href="https://icap.org.pk/view/?add=per/students/edu-training/pdf/&file=FAQs-on-education-scheme-2025.pdf" target="_blank" rel="noopener noreferrer">ICAP: FAQs on Education and Training Scheme 2025</a></li>
+        <li><a href="https://icap.org.pk/view/?add=per/students/edu-training/directives/&file=Directive1.01.pdf" target="_blank" rel="noopener noreferrer">ICAP: Directive 1.01, Education and Training Scheme 2025</a></li>
+        <li><a href="https://icap.org.pk/students/examination/important-notices/permissible-calculators/" target="_blank" rel="noopener noreferrer">ICAP: Permissible calculators</a></li>
+      </ul>
+    `
+  },
+  {
+    slug: "prc-3-business-economic-insights-exam-guide",
+    title: "PRC-3 Business and Economic Insights: Exam Format and a Topic-by-Topic Prep Guide",
+    excerpt: "One 120-minute paper, 100 marks, business and economics combined, and every topic capped at 8 marks. Here is how PRC-3 is built and how to prepare for each of its six areas.",
+    tag: "Study Guide",
+    date: "November 9, 2026",
+    readTime: "7 min read",
+    content: `
+      <p>PRC-3 Business and Economic Insights merged two old PRC papers into one, and students still prepare for it as if it were two. This guide sets out how ICAP actually builds the paper, what each of the six syllabus areas tests, and where marks are lost in a computer-marked theory paper. Details are from ICAP's 2025 scheme documents, as of November 2026.</p>
+
+      <h2>The Exam Format</h2>
+      <ul>
+        <li><strong>One paper of 120 minutes, carrying 100 marks.</strong> ICAP's 2025 scheme FAQs confirm this.</li>
+        <li><strong>Combined pass mark:</strong> business and economics marks are added together, and you need at least 50% overall. You do not have to pass each half separately.</li>
+        <li><strong>Computer-based,</strong> in ICAP's examination software, in January, March, May, July, September and November.</li>
+        <li><strong>The 15-month PRC time limit</strong> applies from the month of your first PRC attempt.</li>
+        <li><strong>Old-scheme students:</strong> if you passed PRC 3 (Principles of Economics) or PRC 5 (Introduction to Business) under the 2021 scheme, you sit only the missing component: a 60-minute, 50-mark paper with a 50% pass mark. ICAP's model papers include separate "Business Insights" and "Economic Insights" tests alongside the full paper.</li>
+      </ul>
+
+      <h2>How the 100 Marks Are Built</h2>
+      <p>Every learning outcome in the PRC-3 syllabus is <strong>testing level 1</strong>, which caps each topic at 8 marks in an attempt. The paper is therefore wide and shallow: many short questions across the whole syllabus. The weightage grid:</p>
+      <div class="table-wrap"><table>
+        <thead><tr><th>Area</th><th>Weightage</th><th>Our chapter banks</th></tr></thead>
+        <tbody>
+          <tr><td>A. Business organizations</td><td>10-15%</td><td><a href="/prc/prc-3/mcqs/chapter-1-nature-of-business">Ch 1</a>, <a href="/prc/prc-3/mcqs/chapter-2-ownership-of-business">Ch 2</a></td></tr>
+          <tr><td>B. Business operations</td><td>20-30%</td><td><a href="/prc/prc-3/mcqs/chapter-3-organization-of-business">Ch 3</a>, <a href="/prc/prc-3/mcqs/chapter-5-information-systems">Ch 5</a>, <a href="/prc/prc-3/mcqs/chapter-7-concepts-of-branding-and-marketing">Ch 7</a>, <a href="/prc/prc-3/mcqs/chapter-8-human-resource-strategies">Ch 8</a></td></tr>
+          <tr><td>C. Business finance and ethics</td><td>10-15%</td><td><a href="/prc/prc-3/mcqs/chapter-4-sources-of-business-finance">Ch 4</a>, <a href="/prc/prc-3/mcqs/chapter-6-business-ethics">Ch 6</a></td></tr>
+          <tr><td>D. Economic principles and microeconomics</td><td>20-30%</td><td><a href="/prc/prc-3/mcqs/chapter-9-nature-and-scope-of-economics">Ch 9</a>, <a href="/prc/prc-3/mcqs/chapter-10-demand-supply-and-market-equilibrium">Ch 10</a>, <a href="/prc/prc-3/mcqs/chapter-11-elasticity-of-demand-and-supply">Ch 11</a>, <a href="/prc/prc-3/mcqs/chapter-12-firm-theory">Ch 12</a></td></tr>
+          <tr><td>E. Macroeconomics: basic concepts</td><td>5-10%</td><td><a href="/prc/prc-3/mcqs/chapter-13-national-income-and-its-determination">Ch 13</a>, <a href="/prc/prc-3/mcqs/chapter-15-multiplier-and-accelerator">Ch 15</a></td></tr>
+          <tr><td>F. Economic policies and trends</td><td>15-20%</td><td><a href="/prc/prc-3/mcqs/chapter-16-public-finance">Ch 16</a>, <a href="/prc/prc-3/mcqs/chapter-17-money">Ch 17</a>, <a href="/prc/prc-3/mcqs/chapter-18-inflation-and-unemployment">Ch 18</a>, <a href="/prc/prc-3/mcqs/chapter-19-monetary-policy">Ch 19</a>, <a href="/prc/prc-3/mcqs/chapter-20-balance-of-trade-and-payments">Ch 20</a></td></tr>
+        </tbody>
+      </table></div>
+      <p>Add the ranges up and business (A to C) carries 40-60% while economics (D to F) carries 40-60%. Because the pass is on the combined total, being strong in one half gives you a buffer in the other. That is not a licence to skip either half: with an 8-mark cap per topic, ignoring even three topics can cost you 24 marks.</p>
+
+      <h2>A. Business Organizations (10-15%)</h2>
+      <p>Business vision and objectives; sole proprietorships, partnerships, private and public limited companies and public sector companies; and the key features of the general laws governing partnerships and companies. Questions here are about distinctions: unlimited versus limited liability, who can raise capital from the public, and how each form is created and dissolved. Build a comparison table for the five forms and learn it.</p>
+
+      <h2>B. Business Operations (20-30%)</h2>
+      <p>The largest business block: functional, divisional, matrix and virtual structures; the functional areas of an organization; recruiting, developing and retaining people; levels and types of information systems; branding, marketing and selling; and the difference between conventional and Islamic banking. The Islamic banking outcome is easy to under-prepare. Know that Islamic banks finance through profit-and-loss sharing and trade-based contracts rather than interest, and be able to name the common contracts covered in the study text.</p>
+
+      <h2>C. Business Finance and Ethics (10-15%)</h2>
+      <p>Sources of finance for a limited company with their pros and cons; financial leverage; ethics in business decisions and core values; and globalization, multinationals and emerging markets. Financial leverage is the one numerical idea here: more debt in the capital structure magnifies the effect of a change in operating profit on returns to shareholders, in both directions.</p>
+
+      <h2>D. Economic Principles and Microeconomics (20-30%)</h2>
+      <p>The core: the production possibility frontier and opportunity cost; planned, mixed, market and Islamic economic systems; the laws of demand and supply; market equilibrium; elasticity; costs and revenues of the firm; and equilibrium under perfect competition, monopoly, monopolistic competition and oligopoly. The syllabus says that <em>understanding of the graphs is not required</em> for market structures, so focus on the features and outcomes of each structure. The syllabus also names buffer stocks and the difference between accounting and economic profit.</p>
+      <p><strong>Worked example: price elasticity.</strong> A seller raises price from Rs. 200 to Rs. 220 (+10%) and quantity demanded falls from 1,000 to 850 units (-15%).</p>
+      <ul>
+        <li>PED = -15% / +10% = <strong>-1.5</strong>, which is elastic (greater than 1 in absolute terms).</li>
+        <li>Revenue falls from Rs. 200,000 to Rs. 187,000. When demand is elastic, a price rise cuts total revenue. That link between elasticity and revenue is a favourite question.</li>
+      </ul>
+      <p><strong>Worked example: accounting versus economic profit.</strong> An owner earns revenue of Rs. 5,000,000 with explicit costs of Rs. 3,800,000. She left a job paying Rs. 1,500,000 a year to run the business. Accounting profit is Rs. 1,200,000; economic profit is 1,200,000 - 1,500,000 = <strong>-300000</strong>. In economic terms, she would be better off back in the job.</p>
+
+      <h2>E. Macroeconomics: Basic Concepts (5-10%)</h2>
+      <p>Measuring national income (nominal and real GDP, GNP, NNP, personal and disposable income per capita), consumption, saving and investment functions, the multiplier and accelerator, and business cycle phases and indicators. Output gaps are named in the syllabus.</p>
+      <p><strong>Worked example: the multiplier.</strong> If the marginal propensity to consume is 0.8, the multiplier is 1 / (1 - 0.8) = 5. An extra Rs. 10 billion of investment raises national income by Rs. 50 billion. Be ready to work backwards too: a multiplier of 4 implies an MPS of 0.25.</p>
+
+      <h2>F. Economic Policies and Trends (15-20%)</h2>
+      <p>Taxation and its objectives, fiscal policy, money and banking, central bank functions and the role of the State Bank of Pakistan, monetary policy, inflation (causes, measurement, impact), types of unemployment, and Pakistan's balance of trade and balance of payments trends. The syllabus names the Keynesian liquidity preference model and the short-run Phillips curve, the trade-off between inflation and unemployment.</p>
+      <p>This is the one area where reading outside the study text helps, because "trends in Pakistan" questions reward awareness of recent direction. The State Bank's <a href="https://www.sbp.org.pk" target="_blank" rel="noopener noreferrer">monetary policy statements</a> and the Finance Division's annual <a href="https://www.finance.gov.pk" target="_blank" rel="noopener noreferrer">Pakistan Economic Survey</a> are the primary sources. Learn the direction and the reasons, not exact percentages.</p>
+
+      <h2>How to Prepare</h2>
+      <ul>
+        <li><strong>Test, do not reread.</strong> In an objective paper, recognising a term on the page is not the same as choosing between two plausible options. Use short daily sets from the full <a href="/prc/prc-3/mcqs">PRC-3 question bank</a>.</li>
+        <li><strong>Learn exact terms.</strong> ICAP's PRC assessment FAQs say that in fill-in-the-blank questions, spelling mistakes and synonyms are marked wrong. "Matrix structure" means one thing; "grid structure" is not an alternative.</li>
+        <li><strong>Watch multiple-response questions.</strong> They score only when every selection is correct, so read "Which TWO" carefully.</li>
+        <li><strong>Pace for 120 minutes.</strong> Flag anything you cannot answer in under a minute and come back to it. The Question Status screen in the software lists unanswered and flagged items.</li>
+        <li><strong>Sit the model paper</strong> in the students' secured area at least twice. The <a href="/blog/prc-1-fundamentals-of-accounting-past-papers">PRC-1 guide</a> explains how to open it.</li>
+      </ul>
+
+      <h2>FAQs</h2>
+      <p><strong>Do I need 50% in both business and economics?</strong><br/>No. PRC-3 is a single 100-mark paper and the components are combined. You need 50% overall.</p>
+      <p><strong>How long is the PRC-3 exam?</strong><br/>120 minutes for the full paper. Students sitting only one component under the transition rules get 60 minutes for a 50-mark paper.</p>
+      <p><strong>Do I need to draw graphs for market structures?</strong><br/>No. The syllabus says understanding of the graphs is not required for firm equilibrium under different market structures. Supply and demand diagrams are still core to Area D.</p>
+      <p><strong>Is there a calculator in PRC-3?</strong><br/>Yes. ICAP's 2025 scheme FAQs allow permissible calculators in all three PRC papers, which helps with elasticity and multiplier questions.</p>
+
+      <h2>Sources</h2>
+      <ul>
+        <li><a href="https://icap.org.pk/view/?add=per/students/edu-training/pdf/&file=FAQs-on-education-scheme-2025.pdf" target="_blank" rel="noopener noreferrer">ICAP: FAQs on Education and Training Scheme 2025 (PRC-3 duration, marks and transition papers)</a></li>
+        <li><a href="https://student.icap.org.pk/viewfile/?add=students/scheme2025/prc/&file=PRC-Syllabus.pdf" target="_blank" rel="noopener noreferrer">ICAP: Pre-Requisite Competencies Syllabus, Education and Training Scheme 2025</a></li>
+        <li><a href="https://icap.org.pk/files/per/students/exam/prc/Howtorunmodelpaper.pdf" target="_blank" rel="noopener noreferrer">ICAP: How to Run the Model Papers</a></li>
+        <li><a href="https://icap.org.pk/view/?add=per/students/exam/notices/&file=FAQs-PRCAssessment.pdf" target="_blank" rel="noopener noreferrer">ICAP: FAQs for PRC Assessment (1 January 2024)</a></li>
+        <li><a href="https://icap.org.pk/view/?add=per/students/edu-training/directives/&file=Directive1.01.pdf" target="_blank" rel="noopener noreferrer">ICAP: Directive 1.01, Education and Training Scheme 2025</a></li>
+      </ul>
+    `
+  },
+  {
+    slug: "icap-caf-exam-structure-2026",
+    title: "ICAP CAF Exam Structure 2026-27: Papers, Passing Rules and Exam Dates",
+    excerpt: "The eight CAF papers, their syllabus weightages, the 50% rule, the four-paper cap, how long a paper lasts, and the Spring 2027 form deadlines, all from ICAP's current documents.",
+    tag: "ICAP Updates",
+    date: "November 9, 2026",
+    readTime: "8 min read",
+    content: `
+      <p>The Certificate in Accounting and Finance (CAF) is the middle stage of CA in Pakistan, and its rules decide how quickly you reach training. This guide sets out the <strong>CAF exam structure</strong> under ICAP's Education and Training Scheme 2025: the papers, what each one tests, the passing and progression rules, and the dates for the next sessions. It is based on ICAP's Directive 1.01 (the version published in September 2026), the scheme FAQs and the 2027 examination schedule, as of November 2026. Where ICAP's own documents disagree, I say so.</p>
+
+      <h2>The Eight Papers</h2>
+      <p>Directive 1.01 splits CAF into two groups. The teaching hours come from the CAF syllabus for Spring 2027 and are a good proxy for how much work each paper needs.</p>
+      <div class="table-wrap"><table>
+        <thead><tr><th>Paper</th><th>Group</th><th>Syllabus areas (weightage)</th><th>Teaching hours</th></tr></thead>
+        <tbody>
+          <tr><td><a href="/caf/caf-1/mcqs">CAF-1 Financial Accounting and Reporting</a></td><td>A</td><td>SOFP and P&amp;L (30-40%); changes in equity and cash flows (30-40%); non-current assets (25-35%)</td><td>110-130</td></tr>
+          <tr><td><a href="/caf/caf-2/mcqs">CAF-2 Taxation Principles and Compliance</a></td><td>A</td><td>System and ethics (5-10%); income tax chargeability (50-60%); income tax administration (10-15%); sales tax (20-30%)</td><td>110-135</td></tr>
+          <tr><td><a href="/caf/caf-3/mcqs">CAF-3 Data, Systems and Risks</a></td><td>A</td><td>Data (35-45%); systems (30-40%); risks (20-30%)</td><td>110-140</td></tr>
+          <tr><td><a href="/caf/caf-4/mcqs">CAF-4 Business Law Dynamics</a></td><td>A</td><td>Contract Act 1872 (25-32%); other business laws (15-20%); Companies Act 2017 across three areas (42-57% combined); legal system (3-6%)</td><td>130-160</td></tr>
+          <tr><td><a href="/caf/caf-5/mcqs">CAF-5 Management Accounting</a></td><td>B</td><td>Costs of production (35-45%); cost flow (20-30%); planning and decisions (30-40%)</td><td>110-130</td></tr>
+          <tr><td><a href="/caf/caf-6/mcqs">CAF-6 Corporate Reporting</a></td><td>B</td><td>Financial statements and analysis (20-30%); essential transactions, ethics and sustainability (35-45%); other IFRS (30-40%)</td><td>109-131</td></tr>
+          <tr><td><a href="/caf/caf-7/mcqs">CAF-7 Business Insights and Analysis</a></td><td>B</td><td>Managerial analysis (30-40%); risk management (20-30%); financial analysis (25-30%); sustainability (10-15%)</td><td>120-145</td></tr>
+          <tr><td><a href="/caf/caf-8/mcqs">CAF-8 Audit and Assurance Essentials</a></td><td>B</td><td>Framework and ethics (15-25%); planning and risk (15-20%); evidence and controls (30-40%); finalization and reporting (25-30%)</td><td>110-130</td></tr>
+        </tbody>
+      </table></div>
+      <p>Two things stand out. CAF-4 carries the heaviest teaching load, because it combines contract law and company law. And in CAF-2, income tax chargeability alone is at least half the paper.</p>
+
+      <h2>Paper Length and Format</h2>
+      <ul>
+        <li><strong>Duration:</strong> ICAP's Autumn 2026 examination programme states a total of <strong>3 hours 15 minutes, including 15 minutes of reading time</strong>, starting at 9:00 am.</li>
+        <li><strong>One paper a day:</strong> in Autumn 2026 the eight papers ran from 17 to 25 August, alternating Group A and Group B.</li>
+        <li><strong>No open-book CAF papers:</strong> the open-book list in Directive 1.01 covers CFAP papers only.</li>
+        <li><strong>Remote proctoring:</strong> ICAP runs a remote-proctored option for CAF, including for students abroad. See its <a href="https://icap.org.pk/students/examination/exam-under-remote-proctoring-environment-caf/" target="_blank" rel="noopener noreferrer">remote proctoring page</a> for requirements.</li>
+      </ul>
+
+      <h2>Testing Levels: How Big a Question Can Be</h2>
+      <p>Every CAF learning outcome carries a testing level, which caps the marks for that topic in one attempt:</p>
+      <ul>
+        <li><strong>T1:</strong> up to 8 marks per topic, and 35 marks for all T1 topics combined. T1 also covers topics assessed at earlier stages and topics new to the syllabus.</li>
+        <li><strong>T2:</strong> up to 20 marks per topic.</li>
+        <li><strong>T3:</strong> up to 25 marks per topic.</li>
+      </ul>
+      <p>Use the testing levels in the syllabus to rank chapters. The long questions can only come from T2 and T3 topics, so a T2 topic you have not prepared can cost you a 20-mark question, while a T1 topic can cost you at most 8.</p>
+
+      <h2>Passing and Progression Rules</h2>
+      <ul>
+        <li><strong>Pass mark:</strong> 50% in each subject (Directive 1.01, paragraph 8(5)). Each paper stands alone; there is no aggregate pass.</li>
+        <li><strong>Entry:</strong> you can attempt CAF once you have completed PRC, or been exempted from it.</li>
+        <li><strong>Maximum four papers per sitting,</strong> "from any group," with no minimum.</li>
+        <li><strong>No limit on attempts</strong> at CAF.</li>
+        <li><strong>An attempt counts</strong> once you are issued an admit card and sign the attendance sheet.</li>
+      </ul>
+      <p>Two rules need care because ICAP's documents do not agree:</p>
+      <ul>
+        <li><strong>Group B eligibility.</strong> ICAP's <em>Principles and Structure</em> document for the 2025 scheme says Group B papers open after you pass two Group A papers. The current Directive 1.01 only says up to four papers "from any group" and does not repeat that condition. Before building a first sitting around Group B, confirm with ICAP or check what the exam form allows you to select.</li>
+        <li><strong>Time limit.</strong> The <em>Principles and Structure</em> document gave five years from your first CAF attempt, plus a year if no more than two papers remain. ICAP's current scheme FAQs list CAF as having <strong>no time limit</strong>, and Directive 1.01 sets no limit on CAF attempts. Plan as if time matters anyway: CAF runs only twice a year.</li>
+      </ul>
+
+      <h2>Exam Windows and Deadlines</h2>
+      <p>CAF is held twice a year. ICAP's 2027 schedule, issued 17 September 2026, gives these dates. ICAP marks them as tentative.</p>
+      <div class="table-wrap"><table>
+        <thead><tr><th>Session</th><th>Exam dates</th><th>Forms open</th><th>Last date (no late fee)</th><th>25% / 50% late fee until</th><th>Expected result</th></tr></thead>
+        <tbody>
+          <tr><td>Spring 2027</td><td>1-10 Feb 2027</td><td>10 Nov 2026</td><td>7 Dec 2026</td><td>14 Dec / 21 Dec 2026</td><td>19 Apr 2027</td></tr>
+          <tr><td>August 2027</td><td>2-11 Aug 2027</td><td>10 May 2027</td><td>7 Jun 2027</td><td>14 Jun / 21 Jun 2027</td><td>18 Oct 2027</td></tr>
+        </tbody>
+      </table></div>
+      <p>Note that the Spring 2027 session sits in early February, so the forms deadline falls in the first week of December. Fees are covered in our <a href="/blog/icap-fee-structure-2026-27">ICAP fee guide</a>; confirm the amount on your challan.</p>
+
+      <h2>Planning Your Sittings</h2>
+      <p>With four papers per sitting and two sessions a year, the fastest route through CAF is two sittings. A worked plan:</p>
+      <div class="table-wrap"><table>
+        <thead><tr><th>Plan</th><th>Spring 2027</th><th>August 2027</th><th>Spring 2028</th></tr></thead>
+        <tbody>
+          <tr><td>Fast (two sittings)</td><td>CAF-1, 2, 3, 4</td><td>CAF-5, 6, 7, 8</td><td>Re-sits only</td></tr>
+          <tr><td>Balanced (three sittings)</td><td>CAF-1, 3, 4</td><td>CAF-2, 5, 8</td><td>CAF-6, 7</td></tr>
+        </tbody>
+      </table></div>
+      <p>Both plans put Group A first, so they work whichever reading of the Group B rule applies, and both take CAF-1 before CAF-6, which builds on it. A failed paper costs six months, so sitting three papers you pass is better than sitting four and failing two. If you are coming straight from PRC, read <a href="/blog/prc-to-caf-transition-strategy">the PRC to CAF jump</a> first.</p>
+
+      <h2>Alternatives and What Comes Next</h2>
+      <ul>
+        <li><strong>Graduate Conversion Course (GCC):</strong> holders of 16-year degrees from HEC-recognized institutions take five GCC papers instead of CAF. GCC-1 is computer-based and combines parts of PRC-2, PRC-3 and CAF-4; GCC-2 to GCC-5 mirror CAF-2, 5, 6 and 8.</li>
+        <li><strong>After CAF:</strong> you choose a training route, and that choice is irrevocable. CFAP opens after twelve months of training, after completing a 2.5-year uninterrupted training period, or before training if you opt to sit CFAP first. Stipends for each route are in our <a href="/blog/icap-articleship-stipend-2026">stipend guide</a>.</li>
+      </ul>
+
+      <h2>FAQs</h2>
+      <p><strong>How many CAF papers can I take in one sitting?</strong><br/>Up to four, with no minimum, under Directive 1.01.</p>
+      <p><strong>What is the CAF passing mark?</strong><br/>50% in each paper.</p>
+      <p><strong>How long is each CAF paper?</strong><br/>3 hours 15 minutes including 15 minutes' reading time, according to the Autumn 2026 examination programme. Check the programme for your session.</p>
+      <p><strong>When is the next CAF exam?</strong><br/>Spring 2027, from 1 to 10 February 2027. Forms are due by 7 December 2026 without a late fee.</p>
+      <p><strong>Is there a time limit to pass CAF?</strong><br/>ICAP's current scheme FAQs say no. An earlier scheme document said five years. Check <a href="https://icap.org.pk/students/faqs/" target="_blank" rel="noopener noreferrer">ICAP's latest FAQs</a> if this affects you.</p>
+      <p><strong>Where can I practise CAF questions?</strong><br/>All eight CAF banks are free in the <a href="/practice">practice hub</a>. For subject strategy, see our <a href="/blog/caf-5-management-accounting-tips">CAF-5 guide</a>.</p>
+
+      <h2>Sources</h2>
+      <ul>
+        <li><a href="https://icap.org.pk/view/?add=per/students/edu-training/directives/&file=Directive1.01.pdf" target="_blank" rel="noopener noreferrer">ICAP: Directive 1.01, Education and Training Scheme 2025</a></li>
+        <li><a href="https://student.icap.org.pk/viewfile/?add=students/scheme2025/caf/&file=CAF-Syllabus.pdf" target="_blank" rel="noopener noreferrer">ICAP: CAF Syllabus, Education Scheme 2025, for Spring 2027</a></li>
+        <li><a href="https://icap.org.pk/view/?add=per/students/edu-training/pdf/&file=FAQs-on-education-scheme-2025.pdf" target="_blank" rel="noopener noreferrer">ICAP: FAQs on Education and Training Scheme 2025</a></li>
+        <li><a href="https://icap.org.pk/view/?add=per/students/edu-training/pdf/&file=education-scheme-principles-and-structure.pdf" target="_blank" rel="noopener noreferrer">ICAP: Education Scheme 2025, Principles and Structure</a></li>
+        <li><a href="https://icap.org.pk/view/?add=per/students/exam/schedule/&file=examination-schedule-2027.pdf" target="_blank" rel="noopener noreferrer">ICAP: Examination Schedule for 2027</a></li>
+        <li><a href="https://icap.org.pk/view/?add=per/students/exam/schedule/&file=Examination-Program-Autumn-2026.pdf" target="_blank" rel="noopener noreferrer">ICAP: CAF Examination Program, Autumn 2026</a></li>
+        <li><a href="https://icap.org.pk/students/examination/exam-schedule/" target="_blank" rel="noopener noreferrer">ICAP: Examination schedule and form submission</a></li>
+      </ul>
+    `
+  },
+  {
+    slug: "principal-budget-factor-limiting-factor-explained",
+    title: "Principal Budget Factor and Limiting Factor Analysis: Two Worked Examples",
+    excerpt: "What the principal budget factor is, how it differs from a limiting factor in a product-mix decision, and two fully worked numerical examples in the style of ICAP CAF-5 and CAF-7.",
+    tag: "Study Guide",
+    date: "November 9, 2026",
+    readTime: "7 min read",
+    content: `
+      <p>The <strong>principal budget factor</strong> is the factor that limits how much an organization can do in a budget period. Most of the time it is sales demand: you cannot budget to sell more than customers will buy. Sometimes it is a scarce resource instead, such as a material in short supply, skilled labour hours or machine capacity. Whatever it is, it has to be identified first, because every other budget is built around it.</p>
+      <p>The same idea appears in a short-term decision as the <strong>limiting factor</strong>. When a scarce resource stops you meeting all demand, you rank products by contribution per unit of that resource. This article explains both, then works through two numerical examples.</p>
+
+      <h2>Where This Sits in ICAP's Syllabus</h2>
+      <ul>
+        <li><strong>CAF-5 Management Accounting:</strong> the syllabus outcome on analysing incremental cost-benefit and contribution margin "to take product mix, make or buy decision" (Area C, testing level 2, so up to 20 marks). Limiting factor analysis is the core technique. Our <a href="/caf/caf-5/mcqs/chapter-15-decision-making-techniques">CAF-5 decision-making chapter</a> and <a href="/caf/caf-5/mcqs/chapter-14-relevant-costs">relevant costs chapter</a> drill it.</li>
+        <li><strong>CAF-7 Business Insights and Analysis:</strong> preparing budgets, including setting metrics and targets, is in Area C (financial analysis). That is where the principal budget factor belongs. Practise in the <a href="/caf/caf-7/mcqs">CAF-7 question bank</a>.</li>
+        <li><strong>PRC-2:</strong> when there are two or more scarce resources at once, ranking does not work and you need <a href="/prc/prc-2/mcqs/chapter-4-linear-programming">linear programming</a>, which PRC-2 covers graphically.</li>
+      </ul>
+
+      <h2>The Method in Four Steps</h2>
+      <ul>
+        <li><strong>1. Confirm the resource is actually limiting.</strong> Calculate how much of it you need to meet full demand and compare that with what is available. If there is enough, demand is the constraint and you simply make everything customers want.</li>
+        <li><strong>2. Calculate contribution per unit</strong> for each product: selling price less variable cost. Ignore fixed costs; they do not change with the mix.</li>
+        <li><strong>3. Divide by the scarce resource used per unit</strong> and rank products on contribution per unit of the limiting factor.</li>
+        <li><strong>4. Allocate the resource in rank order,</strong> up to each product's demand, until it runs out. Then calculate total contribution and deduct fixed costs.</li>
+      </ul>
+
+      <h2>Worked Example 1: Product Mix with Scarce Machine Hours</h2>
+      <p>A manufacturer makes three products. Next month it has <strong>10,000 machine hours</strong> available. Fixed costs are Rs. 250,000.</p>
+      <div class="table-wrap"><table>
+        <thead><tr><th></th><th>Product A</th><th>Product B</th><th>Product C</th></tr></thead>
+        <tbody>
+          <tr><td>Selling price (Rs.)</td><td>500</td><td>800</td><td>400</td></tr>
+          <tr><td>Variable cost (Rs.)</td><td>300</td><td>500</td><td>260</td></tr>
+          <tr><td>Contribution per unit (Rs.)</td><td>200</td><td>300</td><td>140</td></tr>
+          <tr><td>Machine hours per unit</td><td>4</td><td>5</td><td>2</td></tr>
+          <tr><td>Maximum demand (units)</td><td>1,000</td><td>800</td><td>1,500</td></tr>
+        </tbody>
+      </table></div>
+      <p><strong>Step 1: is it limiting?</strong> Hours needed for full demand: A 4,000 + B 4,000 + C 3,000 = 11,000. Only 10,000 are available, so machine hours are the limiting factor.</p>
+      <p><strong>Steps 2 and 3: rank by contribution per machine hour.</strong></p>
+      <ul>
+        <li>A: 200 / 4 = Rs. 50 per hour (rank 3)</li>
+        <li>B: 300 / 5 = Rs. 60 per hour (rank 2)</li>
+        <li>C: 140 / 2 = Rs. 70 per hour (rank 1)</li>
+      </ul>
+      <p><strong>Step 4: allocate.</strong></p>
+      <div class="table-wrap"><table>
+        <thead><tr><th>Rank</th><th>Product</th><th>Units</th><th>Hours used</th><th>Hours left</th><th>Contribution (Rs.)</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>C</td><td>1,500</td><td>3,000</td><td>7,000</td><td>210,000</td></tr>
+          <tr><td>2</td><td>B</td><td>800</td><td>4,000</td><td>3,000</td><td>240,000</td></tr>
+          <tr><td>3</td><td>A</td><td>750</td><td>3,000</td><td>0</td><td>150,000</td></tr>
+          <tr><td></td><td><strong>Total</strong></td><td></td><td>10,000</td><td></td><td><strong>600,000</strong></td></tr>
+        </tbody>
+      </table></div>
+      <p>Profit = 600,000 - 250,000 = <strong>Rs. 350,000</strong>.</p>
+      <p><strong>Why the ranking matters.</strong> A student who ranks on contribution per <em>unit</em> makes B first (800 units, 4,000 hours), then A (1,000 units, 4,000 hours), then C with the last 2,000 hours (1,000 units). Contribution = 240,000 + 200,000 + 140,000 = Rs. 580,000. That is Rs. 20,000 less, from a product C that looks the weakest per unit but earns the most per scarce hour.</p>
+      <p><strong>Variations examiners like:</strong> a contract that requires a minimum quantity of one product (allocate hours to that first, then rank the rest); the option to buy in a product from outside (compare the saving per scarce hour with the outside price); and asking what an extra machine hour is worth. Here, the next hour would make more of A, so it is worth Rs. 50 of contribution, the most you should pay above the normal variable cost for extra capacity.</p>
+
+      <h2>Worked Example 2: Material as the Principal Budget Factor</h2>
+      <p>A company makes one product and is preparing next year's budget. Marketing forecasts demand of <strong>12,000 units</strong>. Each unit needs 3 kg of a material, and the only approved supplier can deliver <strong>30,000 kg</strong> in the year. Opening finished goods inventory is 800 units; the company wants at least 300 units in closing inventory.</p>
+      <p>Unit data: selling price Rs. 2,000; material 3 kg at Rs. 150 = Rs. 450; labour Rs. 600; variable overhead Rs. 250. Variable cost is Rs. 1,300, so contribution is <strong>Rs. 700 per unit</strong>.</p>
+      <p><strong>Identify the principal budget factor.</strong></p>
+      <ul>
+        <li>Maximum production from material: 30,000 / 3 = 10,000 units.</li>
+        <li>Maximum sales = production + opening inventory - closing inventory = 10,000 + 800 - 300 = <strong>10,500 units</strong>.</li>
+        <li>That is below the 12,000 demand, so <strong>material, not sales demand, is the principal budget factor</strong>.</li>
+      </ul>
+      <p><strong>Build the budgets in the right order.</strong> Start from the constraint: the materials budget is 30,000 kg, the production budget is 10,000 units, and the sales budget is 10,500 units (Rs. 21,000,000 of revenue), not the 12,000 marketing asked for. A budget built on 12,000 units would promise sales the factory cannot supply, and every downstream budget (labour, overhead, cash) would be overstated.</p>
+      <p><strong>What is extra material worth?</strong> Each kg makes one-third of a unit, so the contribution per kg is 700 / 3 = <strong>Rs. 233.33</strong>. If another supplier offers more material, the company gains as long as it pays less than 150 + 233.33 = <strong>Rs. 383.33 per kg</strong>. Unmet demand is 1,500 units, needing 4,500 kg. At, say, Rs. 300 per kg, buying all 4,500 kg adds 4,500 × (383.33 - 300) = about <strong>Rs. 375,000</strong> of contribution. Once the extra material is secured, the principal budget factor shifts back to sales demand.</p>
+      <p>That last point is the one examiners test: the principal budget factor is not fixed. It changes as soon as management removes the constraint, and the budget has to be rebuilt around the new one.</p>
+
+      <h2>Common Mistakes</h2>
+      <ul>
+        <li><strong>Ranking on profit per unit after absorbing fixed overheads.</strong> Fixed costs do not change with the mix. Use contribution.</li>
+        <li><strong>Skipping step 1.</strong> If the resource is not actually scarce, there is no ranking to do, and a ranked answer is wrong.</li>
+        <li><strong>Ignoring demand ceilings.</strong> You cannot allocate more hours to the top product than its demand needs.</li>
+        <li><strong>Assuming the principal budget factor is always sales.</strong> It is usually sales, but the question will tell you if a resource binds first.</li>
+      </ul>
+      <p>Once you have the mix, check its margin of safety with our <a href="/tools/break-even-calculator">break-even and CVP calculator</a>. For the rest of the paper, see our <a href="/blog/caf-5-management-accounting-tips">CAF-5 tips and study plan</a>, and drill the technique in the <a href="/caf/caf-5/mcqs">CAF-5 question bank</a>.</p>
+
+      <h2>FAQs</h2>
+      <p><strong>Is the principal budget factor the same as the limiting factor?</strong><br/>They are the same idea used in two contexts. "Principal budget factor" is used in budgeting, for whatever caps activity for the whole budget period (usually sales demand). "Limiting factor" is used in short-term decisions, for a scarce resource that decides the product mix.</p>
+      <p><strong>What if there are two limiting factors?</strong><br/>Ranking by contribution per unit of one resource can break the other constraint. With two or more binding constraints, use linear programming.</p>
+      <p><strong>Should fixed costs be included in limiting factor ranking?</strong><br/>No. Rank on contribution. Deduct fixed costs only at the end to arrive at profit.</p>
+      <p><strong>Which ICAP paper tests this?</strong><br/>Product-mix and make-or-buy decisions with limiting factors are CAF-5. Budget preparation is in CAF-7's syllabus. Both papers can use the technique.</p>
+
+      <h2>Sources</h2>
+      <ul>
+        <li><a href="https://student.icap.org.pk/viewfile/?add=students/scheme2025/caf/&file=CAF-Syllabus.pdf" target="_blank" rel="noopener noreferrer">ICAP: CAF Syllabus, Education Scheme 2025, for Spring 2027 (CAF-5 Area C; CAF-7 Area C)</a></li>
+        <li><a href="https://student.icap.org.pk/viewfile/?add=students/scheme2025/prc/&file=PRC-Syllabus.pdf" target="_blank" rel="noopener noreferrer">ICAP: Pre-Requisite Competencies Syllabus (PRC-2 linear programming)</a></li>
+      </ul>
     `
   }
 ];
