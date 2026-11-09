@@ -1064,7 +1064,7 @@ export default function Home() {
               </motion.div>
 
               <motion.div variants={fadeUp} className="flex flex-wrap justify-center lg:justify-start gap-2 md:gap-3 mt-8 md:mt-10">
-                {["🥇 ICAP Gold Medal","✅ ACCA Affiliate","📈 CFA Level I","💡 Educator"].map(c => (
+                {["🥇 ICAP Gold Medal","✅ ACCA Member","📈 CFA Level I","💡 Educator"].map(c => (
                   <span key={c} className="rounded-full px-4 py-2 text-xs md:text-sm font-semibold" style={{ background:"var(--surface)", border:"1px solid var(--border)", color:"var(--text-1)", fontFamily:"var(--font-inter), system-ui, sans-serif" }}>
                     {c}
                   </span>
