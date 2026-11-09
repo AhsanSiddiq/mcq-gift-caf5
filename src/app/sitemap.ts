@@ -27,6 +27,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${BASE_URL}/privacy-policy`,          priority: 0.3,  changeFrequency: "yearly"  as const },
     { url: `${BASE_URL}/terms`,                   priority: 0.3,  changeFrequency: "yearly"  as const },
     { url: `${BASE_URL}/refund-policy`,           priority: 0.3,  changeFrequency: "yearly"  as const },
+    { url: `${BASE_URL}/editorial-policy`,        priority: 0.4,  changeFrequency: "yearly"  as const },
     { url: `${BASE_URL}/tools/study-planner`,     priority: 0.9,  changeFrequency: "monthly" as const },
     { url: `${BASE_URL}/cv-maker/cover-letter`,   priority: 0.85, changeFrequency: "monthly" as const },
     { url: `${BASE_URL}/cv-maker/interview-prep`, priority: 0.85, changeFrequency: "monthly" as const },
@@ -47,10 +48,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${BASE_URL}/caf/${sub}/topical`,  priority: 0.8,  changeFrequency: "weekly"  as const },
   ]);
 
-  // Global exam-body landing pages (live + waitlist)
-  const examPages = EXAM_BODIES.map((b) => ({
+  // Exam-body landing pages. Waitlist bodies have no question banks yet, so their pages are
+  // noindex (see exams/[body]/page.tsx) and stay out of the sitemap.
+  const examPages = EXAM_BODIES.filter((b) => b.status === "live").map((b) => ({
     url: `${BASE_URL}/exams/${b.id}`,
-    priority: b.status === "live" ? 0.85 : 0.7,
+    priority: 0.85,
     changeFrequency: "weekly" as const,
   }));
 
