@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound, permanentRedirect } from "next/navigation";
-import { ArrowLeft, ArrowRight, CalendarDays, Timer } from "lucide-react";
+import { ArrowLeft, ArrowRight, CalendarDays, LayoutList, Timer } from "lucide-react";
 import { LEVEL_LABEL, subjectBody } from "@/data/subjects";
 import AdSlot from "@/components/AdSlot";
 import SponsorSlot from "@/components/SponsorSlot";
 import TestYourself from "./TestYourself";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import { bodyShort, dailyHrefFor, subjectCrumbs } from "@/lib/navigation";
 import { BASE_URL, clip, questionPath, resolveQuestion, type QuestionParams } from "./resolve";
 
 // ISR: ~8,000 question pages are rendered on first request, then cached and refreshed daily.
@@ -45,13 +47,14 @@ export default async function QuestionPage({ params }: Props) {
   if (!r) notFound();
   if (!r.isCanonical) permanentRedirect(r.path);
 
-  const { s, code, meta, questions, idx, q, base } = r;
+  const { s, code, meta, questions, idx, q, base, chapters, chapterIdx } = r;
   const correct = q.options.find((o) => o.correct);
   const chapterHref = `${base}/mcqs/${meta.slug}`;
   const prev = questions[idx - 1];
   const next = questions[idx + 1];
   const body = subjectBody(s);
-  const dailyHref = body === "icap" ? "/daily" : `/daily/${body}`;
+  const dailyHref = dailyHrefFor(body);
+  const nextChapter = chapters[chapterIdx + 1];
 
   // 5 related questions from the same chapter: the ones after next, wrapping round
   const related = [];
@@ -85,34 +88,19 @@ export default async function QuestionPage({ params }: Props) {
       },
     ],
   };
-  const breadcrumbs = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    itemListElement: [
-      { "@type": "ListItem", position: 1, name: `${code} ${s.title}`, item: `${BASE_URL}${base}` },
-      { "@type": "ListItem", position: 2, name: "MCQs with answers", item: `${BASE_URL}${base}/mcqs` },
-      { "@type": "ListItem", position: 3, name: `Chapter ${meta.chapter}: ${meta.topic}`, item: `${BASE_URL}${chapterHref}` },
-      { "@type": "ListItem", position: 4, name: `Question ${idx + 1}`, item: `${BASE_URL}${r.path}` },
-    ],
-  };
+  const crumbs = [
+    ...subjectCrumbs(s),
+    { name: "MCQs with answers", short: "MCQs", href: `${base}/mcqs` },
+    { name: `Chapter ${meta.chapter}: ${meta.topic}`, short: `Chapter ${meta.chapter}`, href: chapterHref },
+    { name: `Question ${idx + 1}`, href: r.path },
+  ];
   const card = { background: "var(--bg-2)", border: "1px solid var(--border)", textDecoration: "none" } as const;
 
   return (
     <main className="min-h-screen">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(quizLd).replace(/</g, "\\u003c") }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs).replace(/</g, "\\u003c") }} />
       <div className="max-w-3xl mx-auto px-4 sm:px-6 md:px-8 pt-24 sm:pt-28 pb-20">
-        <nav aria-label="Breadcrumb" className="mb-8 text-sm" style={{ color: "var(--text-3)" }}>
-          <ol className="flex flex-wrap items-center gap-x-2 gap-y-1">
-            <li><Link prefetch={false} href={base} style={{ color: "var(--text-3)", textDecoration: "none" }}>{code}</Link></li>
-            <li aria-hidden>/</li>
-            <li><Link prefetch={false} href={`${base}/mcqs`} style={{ color: "var(--text-3)", textDecoration: "none" }}>MCQs</Link></li>
-            <li aria-hidden>/</li>
-            <li><Link prefetch={false} href={chapterHref} style={{ color: "var(--text-3)", textDecoration: "none" }}>Chapter {meta.chapter}: {meta.topic}</Link></li>
-            <li aria-hidden>/</li>
-            <li aria-current="page" style={{ color: "var(--text-2)" }}>Question {idx + 1}</li>
-          </ol>
-        </nav>
+        <Breadcrumbs items={crumbs} className="mb-8" />
 
         <p className="text-xs font-bold uppercase tracking-widest mb-3" style={{ color: "var(--green)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
           {code} · Chapter {meta.chapter} · Question {idx + 1} of {questions.length}
@@ -137,18 +125,7 @@ export default async function QuestionPage({ params }: Props) {
           </TestYourself>
         </section>
 
-        <div className="grid sm:grid-cols-2 gap-3 mb-8">
-          <Link prefetch={false} href={`${base}/quiz?mode=topical&chapter=${meta.chapter}`} className="flex items-center justify-center gap-2 rounded-xl px-5 py-3 font-bold text-white" style={{ background: "var(--green)", textDecoration: "none" }}>
-            <Timer className="w-4 h-4" /> Practise Chapter {meta.chapter} in quiz mode
-          </Link>
-          <Link prefetch={false} href={dailyHref} className="flex items-center justify-center gap-2 rounded-xl px-5 py-3 font-bold" style={{ ...card, color: "var(--text-1)" }}>
-            <CalendarDays className="w-4 h-4" /> Take today&apos;s daily challenge
-          </Link>
-        </div>
-
-        <AdSlot />
-
-        <nav aria-label="Question navigation" className="mt-8 grid sm:grid-cols-2 gap-3">
+        <nav aria-label="Question navigation" className="grid sm:grid-cols-2 gap-3 mb-8">
           {prev ? (
             <Link prefetch={false} href={questionPath(base, meta.slug, prev)} rel="prev" className="rounded-2xl p-4" style={card}>
               <span className="block text-xs mb-1" style={{ color: "var(--text-3)" }}>
@@ -156,24 +133,75 @@ export default async function QuestionPage({ params }: Props) {
               </span>
               <span className="block font-semibold text-sm" style={{ color: "var(--text-1)" }}>{clip(prev.question, 90)}</span>
             </Link>
-          ) : <span />}
-          {next && (
+          ) : <span className="hidden sm:block" />}
+          {next ? (
             <Link prefetch={false} href={questionPath(base, meta.slug, next)} rel="next" className="rounded-2xl p-4 sm:text-right" style={card}>
               <span className="block text-xs mb-1" style={{ color: "var(--text-3)" }}>
                 Next · Question {idx + 2} <ArrowRight className="w-3 h-3 inline" />
               </span>
               <span className="block font-semibold text-sm" style={{ color: "var(--text-1)" }}>{clip(next.question, 90)}</span>
             </Link>
+          ) : nextChapter ? (
+            <Link prefetch={false} href={`${base}/mcqs/${nextChapter.slug}`} className="rounded-2xl p-4 sm:text-right" style={card}>
+              <span className="block text-xs mb-1" style={{ color: "var(--text-3)" }}>
+                End of chapter · Next: Chapter {nextChapter.chapter} <ArrowRight className="w-3 h-3 inline" />
+              </span>
+              <span className="block font-semibold text-sm" style={{ color: "var(--text-1)" }}>{nextChapter.topic}</span>
+            </Link>
+          ) : (
+            <Link prefetch={false} href={`${base}/mcqs`} className="rounded-2xl p-4 sm:text-right" style={card}>
+              <span className="block text-xs mb-1" style={{ color: "var(--text-3)" }}>
+                End of the last chapter <ArrowRight className="w-3 h-3 inline" />
+              </span>
+              <span className="block font-semibold text-sm" style={{ color: "var(--text-1)" }}>All {code} chapters</span>
+            </Link>
           )}
         </nav>
 
-        <Link prefetch={false} href={chapterHref} className="mt-3 flex items-center justify-between gap-3 rounded-2xl p-4" style={card}>
-          <span>
-            <span className="block text-xs" style={{ color: "var(--text-3)" }}>All {questions.length} questions in Chapter {meta.chapter}</span>
-            <span className="block font-bold text-sm" style={{ color: "var(--text-1)" }}>{meta.topic} MCQs with answers</span>
-          </span>
-          <ArrowRight className="w-4 h-4 shrink-0" style={{ color: "var(--green)" }} />
-        </Link>
+        <section aria-labelledby="next-step-h" className="rounded-2xl p-5 mb-8" style={{ ...card, borderColor: "color-mix(in srgb, var(--green) 35%, var(--border))" }}>
+          <h2 id="next-step-h" className="font-bold mb-1" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
+            Practise all {questions.length} Chapter {meta.chapter} questions
+          </h2>
+          <p className="text-sm mb-4" style={{ color: "var(--text-2)" }}>
+            Answer them one by one with instant feedback. Your score and mistakes are saved.
+          </p>
+          <div className="grid sm:grid-cols-2 gap-3">
+            <Link prefetch={false} href={`${base}/quiz?mode=topical&chapter=${meta.chapter}`} className="flex items-center justify-center gap-2 rounded-xl px-5 py-3 font-bold text-white" style={{ background: "var(--green)", textDecoration: "none" }}>
+              <Timer className="w-4 h-4" /> Start Chapter {meta.chapter} quiz
+            </Link>
+            <Link prefetch={false} href={dailyHref} className="flex items-center justify-center gap-2 rounded-xl px-5 py-3 font-bold" style={{ background: "var(--bg-3)", border: "1px solid var(--border)", color: "var(--text-1)", textDecoration: "none" }}>
+              <CalendarDays className="w-4 h-4" /> Today&apos;s {bodyShort(body)} daily challenge
+            </Link>
+          </div>
+        </section>
+
+        <AdSlot />
+
+        <div className="mt-8 grid gap-3">
+          <Link prefetch={false} href={chapterHref} className="flex items-center justify-between gap-3 rounded-2xl p-4" style={card}>
+            <span className="min-w-0">
+              <span className="block text-xs" style={{ color: "var(--text-3)" }}>All {questions.length} questions in Chapter {meta.chapter}</span>
+              <span className="block font-bold text-sm" style={{ color: "var(--text-1)" }}>{meta.topic} MCQs with answers</span>
+            </span>
+            <ArrowRight className="w-4 h-4 shrink-0" style={{ color: "var(--green)" }} />
+          </Link>
+          {nextChapter && next && (
+            <Link prefetch={false} href={`${base}/mcqs/${nextChapter.slug}`} className="flex items-center justify-between gap-3 rounded-2xl p-4" style={card}>
+              <span className="min-w-0">
+                <span className="block text-xs" style={{ color: "var(--text-3)" }}>Next chapter · Chapter {nextChapter.chapter}</span>
+                <span className="block font-bold text-sm" style={{ color: "var(--text-1)" }}>{nextChapter.topic}</span>
+              </span>
+              <ArrowRight className="w-4 h-4 shrink-0" style={{ color: "var(--green)" }} />
+            </Link>
+          )}
+          <Link prefetch={false} href={`${base}/mcqs`} className="flex items-center justify-between gap-3 rounded-2xl p-4" style={card}>
+            <span className="flex items-center gap-3 min-w-0">
+              <LayoutList className="w-4 h-4 shrink-0" style={{ color: "var(--green)" }} />
+              <span className="font-bold text-sm" style={{ color: "var(--text-1)" }}>{code} question bank · {chapters.length} chapters</span>
+            </span>
+            <ArrowRight className="w-4 h-4 shrink-0" style={{ color: "var(--green)" }} />
+          </Link>
+        </div>
 
         {related.length > 0 && (
           <section className="mt-10">

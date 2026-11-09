@@ -34,6 +34,14 @@ export interface ExamBody {
   tagline: string;
   levels: ExamLevel[];
   seoKeywords: string[];
+  /** Optional hub content for /exams/[body]: an "how the exams work" summary, checked against the body's own site. */
+  howItWorks?: { title: string; text: string }[];
+  /** Official pages the summary is based on; shown under it so students can check the current rules. */
+  officialLinks?: { label: string; href: string }[];
+  /** Blog slugs to feature on the hub. Slugs not found in src/data/blogs.ts are skipped. */
+  guideSlugs?: string[];
+  /** Extra body-specific FAQs, appended to the generic ones. */
+  faqs?: { q: string; a: string }[];
 }
 
 export const EXAM_BODIES: ExamBody[] = [
@@ -99,20 +107,79 @@ export const EXAM_BODIES: ExamBody[] = [
     region: "Global",
     status: "live",
     practiceHref: "/exams/acca#practice",
-    tagline: "Applied Knowledge on-demand CBEs and Section A objective tests for Applied Skills.",
+    tagline: "BT, MA and FA on-demand CBE practice, plus the objective-test sections of LW, PM, FR, AA and FM.",
     levels: [
       {
         name: "Applied Knowledge",
-        mcqNote: "On-demand, fully objective computer-based exams.",
-        papers: ["BT Business & Technology", "MA Management Accounting", "FA Financial Accounting"],
+        mcqNote: "On-demand, fully objective computer-based exams: 2 hours, 50% pass mark.",
+        papers: ["BT Business and Technology", "MA Management Accounting", "FA Financial Accounting"],
       },
       {
         name: "Applied Skills",
-        mcqNote: "Section A objective test questions in every paper.",
-        papers: ["LW Corporate & Business Law", "PM", "TX", "FR", "AA", "FM"],
+        mcqNote: "Every paper has objective questions. LW is fully objective; they are 60 of 100 marks in PM, FR and FM, and 30 in AA.",
+        papers: ["LW Corporate and Business Law", "PM Performance Management", "TX Taxation", "FR Financial Reporting", "AA Audit and Assurance", "FM Financial Management"],
+      },
+      {
+        name: "Strategic Professional",
+        mcqNote: "Written, scenario-based exams: two Essentials and two of the four Options.",
+        papers: ["SBL Strategic Business Leader", "SBR Strategic Business Reporting", "AFM", "APM", "ATX", "AAA"],
       },
     ],
-    seoKeywords: ["ACCA MCQ", "ACCA FA MCQ", "ACCA MA MCQ", "ACCA BT practice questions", "ACCA mock exam free"],
+    seoKeywords: ["ACCA MCQ", "ACCA FA MCQ", "ACCA MA MCQ", "ACCA BT practice questions", "ACCA FR MCQ", "ACCA mock exam free"],
+    howItWorks: [
+      {
+        title: "Applied Knowledge: on demand",
+        text: "BT, MA and FA are 2-hour, fully objective computer-based exams with a 50% pass mark. You book them on demand: find a centre on ACCA's on-demand centre list, contact the centre and pay it directly (centres set their own fee). A provisional result appears on screen at the end; ACCA confirms it on myACCA, normally within 72 hours. Remote on-demand exams are only allowed in countries with no exam centre provision.",
+      },
+      {
+        title: "Applied Skills: sessions",
+        text: "LW is fully objective, and some LW variants can be sat on demand. PM, TX, FR, AA and FM are sat in the March, June, September and December sessions. PM, FR and FM are 3 hours: 30 marks of single objective questions, 30 marks of objective case questions and two 20-mark constructed response questions. AA is 3 hours with 30 marks of objective case questions and 70 marks of constructed response. The pass mark is 50% throughout.",
+      },
+      {
+        title: "Strategic Professional",
+        text: "Two Essentials (SBL and SBR) and two Options. Once you pass your first Strategic Professional exam, you have seven years to complete the rest; Applied Knowledge and Applied Skills passes do not expire.",
+      },
+      {
+        title: "Order and limits",
+        text: "Modules must be taken in order (Applied Knowledge, Applied Skills, Strategic Professional), but papers within a module can be taken in any order. You can sit up to four exams per session. Membership also needs the Ethics and Professional Skills module and 36 months of practical experience with nine performance objectives.",
+      },
+      {
+        title: "Changes from 2027",
+        text: "ACCA has announced a redesigned qualification with Foundations, Knowledge, Expertise and Strategic Professional levels. Knowledge exams start in July 2027 and Expertise and Strategic Professional exams in September 2027. Students part-way through receive credit for what they have passed; ACCA's Transition Tool shows how.",
+      },
+    ],
+    officialLinks: [
+      { label: "ACCA Qualification structure", href: "https://www.accaglobal.com/gb/en/student/getting-started/acca-qualification-structure.html" },
+      { label: "Exam progression rules", href: "https://www.accaglobal.com/uk/en/student/exam-entry-and-administration/enter-an-exam/exam-progression-rules.html" },
+      { label: "Find an on-demand exam centre", href: "https://www.accaglobal.com/uk/en/student/exam-entry-and-administration/about-our-exams/centre-exams/on-demand-centre-exams/cbe-centre-list.html" },
+      { label: "Fees and charges (UK)", href: "https://www.accaglobal.com/gb/en/qualifications/accountancy-career/fees/fees-charges-uk.html" },
+      { label: "The future ACCA Qualification", href: "https://www.accaglobal.com/gb/en/campaigns/accountancy-redefined/future-acca-qualification.html" },
+    ],
+    guideSlugs: [
+      "acca-applied-knowledge-on-demand-cbe-guide",
+      "acca-fr-consolidated-statement-of-financial-position",
+      "acca-vs-aca-uk",
+      "acca-bt-exam-format",
+      "how-to-pass-acca-ma",
+      "acca-ma-formulas-cheat-sheet",
+      "acca-fa-exam-tips",
+      "acca-lw-exam-tips",
+      "how-to-pass-acca-pm",
+      "acca-fr-exam-tips",
+      "acca-fr-common-ot-question-traps",
+      "acca-aa-objective-test-questions",
+      "acca-applied-knowledge-pass-rates",
+    ],
+    faqs: [
+      {
+        q: "What is the ACCA pass mark?",
+        a: "50% for every ACCA exam, including the on-demand Applied Knowledge exams BT, MA and FA.",
+      },
+      {
+        q: "How do I book an ACCA on-demand exam in the UK?",
+        a: "Find a centre on ACCA's on-demand centre list, contact the centre directly to arrange a date, and pay the centre. Centres set their own fees for these exams.",
+      },
+    ],
   },
   {
     id: "cima",
@@ -147,15 +214,75 @@ export const EXAM_BODIES: ExamBody[] = [
     region: "United Kingdom",
     status: "live",
     practiceHref: "/exams/icaew#practice",
-    tagline: "ACA Certificate Level objective-test modules.",
+    tagline: "ACA Certificate Level practice for Accounting Fundamentals, Assurance and Risk Fundamentals, Business Insight and Performance, Business Law, and Sustainability and Ethics.",
     levels: [
       {
         name: "Certificate Level (Next Generation ACA)",
-        mcqNote: "Computer-based objective-test exams.",
+        mcqNote: "On-demand computer-based exams, 1.5 or 2 hours, 55% pass mark. Accounting Fundamentals, Business Insight and Performance and Tax Fundamentals also include longer or scenario questions.",
         papers: ["Accounting Fundamentals", "Assurance and Risk Fundamentals", "Business Law", "Business Insight and Performance", "Sustainability and Ethics", "Tax Fundamentals"],
       },
+      {
+        name: "Professional Level",
+        mcqNote: "Scenario-based exams in March, June, September and December: 2.5 or 3 hours, 55% pass mark.",
+        papers: ["Assurance, Risk and Reporting", "Corporate Reporting, Data and Assurance", "Business and Digital Strategy", "Tax Compliance and Planning", "Corporate Financial Strategy", "Fundamental Case Study"],
+      },
+      {
+        name: "Advanced Level",
+        mcqNote: "Two open-book case studies in July and November: 4 hours each, 50% pass mark.",
+        papers: ["Technical Case Study", "Strategic Case Study"],
+      },
     ],
-    seoKeywords: ["ICAEW certificate level questions", "ACA MCQ practice", "ICAEW accounting practice questions"],
+    seoKeywords: ["ICAEW certificate level questions", "ACA MCQ practice", "ICAEW accounting fundamentals question bank", "ACA accounting fundamentals mock exam", "ICAEW business insight and performance"],
+    howItWorks: [
+      {
+        title: "14 exams over three levels",
+        text: "The Next Generation ACA, launched in September 2025, has six Certificate Level exams, six Professional Level exams and two Advanced Level case studies. You can take them in any order, except that the Advanced Level case studies come after everything else.",
+      },
+      {
+        title: "Certificate Level: on demand",
+        text: "Sit any time of year. Accounting Fundamentals, Business Insight and Performance and Tax Fundamentals are 2 hours; Assurance and Risk Fundamentals, Business Law and Sustainability and Ethics are 1.5 hours. The pass mark is 55%. ICAEW allows four attempts at each Certificate Level exam, and results are published online.",
+      },
+      {
+        title: "Professional and Advanced Level",
+        text: "Professional Level exams run in March, June, September and December, are 2.5 hours (3 hours for Assurance, Risk and Reporting and for Tax Compliance and Planning) and have a 55% pass mark. The Technical and Strategic Case Studies are 4-hour open-book exams in July and November with a 50% pass mark.",
+      },
+      {
+        title: "Credit for prior learning",
+        text: "A relevant degree or qualification can give credit for up to 12 exams at Certificate and Professional Level, never the Advanced Level. Check ICAEW's CPL directory before you book; you cannot claim credit for an exam you have already sat.",
+      },
+      {
+        title: "Training",
+        text: "To qualify you need a training agreement with an ICAEW Authorised Training Employer and at least 450 days of professional work experience, which ICAEW says normally takes three to five years. ICAEW CFAB is a standalone qualification made up of the six Certificate Level exams.",
+      },
+    ],
+    officialLinks: [
+      { label: "Next Generation ACA syllabus handbook", href: "https://www.icaew.com/-/media/corporate/files/learning-and-development/next-generation-aca/aca-syllabus-handbook.ashx" },
+      { label: "ACA exam FAQs", href: "https://www.icaew.com/students/training/aca-training-faqs/exams-faqs" },
+      { label: "Book an exam", href: "https://www.icaew.com/students/exams/book-an-exam" },
+      { label: "Credit for prior learning directory", href: "https://apps.icaew.com/cpldirectory/" },
+      { label: "ACA fees", href: "https://www.icaew.com/learning-and-development/aca/employers/train-the-aca/fees" },
+    ],
+    guideSlugs: [
+      "icaew-certificate-level-exams-guide",
+      "icaew-accounting-fundamentals-exam-guide",
+      "icaew-business-insight-and-performance-guide",
+      "icaew-aca-certificate-level-2025-changes",
+      "acca-vs-aca-uk",
+    ],
+    faqs: [
+      {
+        q: "What is the ICAEW Certificate Level pass mark?",
+        a: "55% for all six Certificate Level exams. Professional Level is also 55%; the two Advanced Level case studies are 50%.",
+      },
+      {
+        q: "Is there an ICAEW Accounting Fundamentals question bank?",
+        a: "Yes. Our free Accounting Fundamentals bank is organised by chapter, with an explanation for every answer. Use it alongside ICAEW's own exam resources for the module.",
+      },
+      {
+        q: "Which module replaced Management Information?",
+        a: "Business Insight and Performance, from September 2025. It keeps costing, budgeting, variances and decision making, and adds more on data, technology and the external environment.",
+      },
+    ],
   },
   {
     id: "cpa",

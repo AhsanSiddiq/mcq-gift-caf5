@@ -5,6 +5,8 @@ import { prcSubjects, cafSubjects, accaSubjects, accaSkillsSubjects, caFoundatio
 import { BookOpen, Lock } from "lucide-react";
 import { useEffect, useState } from "react";
 import AdSlot from "@/components/AdSlot";
+import ContinueCard from "@/components/ContinueCard";
+import { QUAL_GROUPS } from "@/lib/navigation";
 
 const LEVEL_META: Record<string, { label: string; tag: string; color: string; bg: string; desc: string }> = {
   PRC: {
@@ -148,7 +150,7 @@ function Section({ level, subjects, counts, isLoadingCounts }: {
 }) {
   const meta = LEVEL_META[level];
   return (
-    <section className="mb-14">
+    <section id={level.toLowerCase()} className="mb-14 scroll-mt-28">
       <div className="flex items-center gap-3 mb-2">
         <span className="text-xs font-black uppercase tracking-widest px-3 py-1 rounded-full"
           style={{ color: meta.color, background: meta.bg, border: `1px solid ${meta.color}33` }}>
@@ -223,6 +225,18 @@ export default function PracticePage() {
           </p>
         </div>
 
+        <ContinueCard className="mb-6" />
+
+        <nav aria-label="Jump to qualification" className="mb-6 flex flex-wrap gap-2">
+          {QUAL_GROUPS.map((g) => (
+            <a key={g.body} href={`#${g.levels[0].level.toLowerCase()}`}
+              className="rounded-full px-4 py-2 text-sm font-bold"
+              style={{ background: "var(--bg-2)", border: "1px solid var(--border)", color: "var(--text-1)", textDecoration: "none", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
+              {g.short}
+            </a>
+          ))}
+        </nav>
+
         <Link href="/daily" className="mb-10 flex items-center justify-between gap-4 rounded-2xl p-5"
           style={{ background: "rgba(245,166,35,0.07)", border: "1px solid rgba(245,166,35,0.3)", textDecoration: "none" }}>
           <span>
@@ -252,13 +266,13 @@ export default function PracticePage() {
           style={{ background: "var(--bg-2)", border: "1px solid var(--border)", textDecoration: "none" }}>
           <span>
             <span className="block font-bold" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
-              Studying ACCA, CA India, CIMA, ICAEW or CPA?
+              Not sure which papers to start with?
             </span>
             <span className="block text-sm" style={{ color: "var(--text-2)" }}>
-              We&apos;re expanding to every accountancy body. Pick yours and get early access.
+              Each exam guide covers the format, pass marks and the MCQ banks for that qualification.
             </span>
           </span>
-          <span className="shrink-0 font-bold text-sm" style={{ color: "var(--accent-ink)" }}>All exams →</span>
+          <span className="shrink-0 font-bold text-sm" style={{ color: "var(--accent-ink)" }}>Exam guides →</span>
         </Link>
 
         {/* Community Volunteer CTA */}

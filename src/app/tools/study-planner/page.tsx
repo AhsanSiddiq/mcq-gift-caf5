@@ -4,6 +4,7 @@ import { CalendarCheck, Sparkles } from "lucide-react";
 import { allSubjects, LEVEL_LABEL, subjectBody, subjectCode } from "@/data/subjects";
 import { getChaptersCached } from "@/lib/questionBank";
 import PlannerLoader from "./PlannerLoader";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import { PLANNER_URL, type CatalogSubject } from "./catalog";
 
 export const revalidate = 86400;
@@ -117,6 +118,13 @@ export default async function StudyPlannerPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(appLd) }} />
 
       <div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8 pt-24 sm:pt-28 pb-16">
+        <Breadcrumbs
+          items={[
+            { name: "Home", href: "/" },
+            { name: "Tools", href: "/tools" },
+            { name: "Smart Study Planner", short: "Study planner", href: "/tools/study-planner" },
+          ]}
+        />
         <div className="sp-noprint mb-6 sm:mb-8">
           <p
             className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest mb-3"

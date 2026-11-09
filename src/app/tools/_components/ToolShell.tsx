@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import Link from "next/link";
-import { ArrowLeft, ArrowRight, BookOpenCheck, ChevronDown } from "lucide-react";
-import { allSubjects, LEVEL_LABEL, subjectCode } from "@/data/subjects";
+import { ChevronDown } from "lucide-react";
+import { allSubjects } from "@/data/subjects";
 import { getTool, TOOLS, TOOLS_BASE_URL } from "@/data/tools";
 import AdSlot from "@/components/AdSlot";
 import ToolIcon from "./ToolIcon";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import RelatedBanks from "@/components/RelatedBanks";
 
 export interface Faq {
   q: string;
@@ -62,15 +64,6 @@ export default function ToolShell({
     "@type": "FAQPage",
     mainEntity: faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
   };
-  const breadcrumbLd = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.thecahub.com" },
-      { "@type": "ListItem", position: 2, name: "Tools", item: TOOLS_BASE_URL },
-      { "@type": "ListItem", position: 3, name: t.h1, item: url },
-    ],
-  };
   const appLd = {
     "@context": "https://schema.org",
     "@type": "WebApplication",
@@ -87,13 +80,16 @@ export default function ToolShell({
   return (
     <main className="min-h-screen">
       <script type="application/ld+json" dangerouslySetInnerHTML={ld(faqLd)} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={ld(breadcrumbLd)} />
       <script type="application/ld+json" dangerouslySetInnerHTML={ld(appLd)} />
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 md:px-8 pt-24 sm:pt-28 pb-20">
-        <Link href="/tools" className="inline-flex items-center gap-2 text-sm font-semibold mb-6" style={{ color: "var(--text-3)", textDecoration: "none" }}>
-          <ArrowLeft className="w-4 h-4" /> All free tools
-        </Link>
+        <Breadcrumbs
+          items={[
+            { name: "Home", href: "/" },
+            { name: "Tools", href: "/tools" },
+            { name: t.h1, short: t.name, href: `/tools/${slug}` },
+          ]}
+        />
 
         <header className="mb-8 max-w-3xl">
           <p className="text-xs font-bold uppercase tracking-widest mb-3 flex items-center gap-2" style={{ color: "var(--green)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
@@ -141,36 +137,7 @@ export default function ToolShell({
           </div>
 
           <aside className="flex flex-col gap-6 lg:sticky lg:top-24 lg:self-start">
-            {practise.length > 0 && (
-              <section aria-labelledby="practise" className="rounded-2xl p-5" style={{ ...card, borderColor: "color-mix(in srgb, var(--green) 40%, transparent)" }}>
-                <p className="flex items-center gap-2 text-xs font-bold uppercase tracking-widest mb-2" style={{ color: "var(--green)" }}>
-                  <BookOpenCheck className="w-4 h-4" aria-hidden /> Practise this topic
-                </p>
-                <h2 id="practise" className="font-bold text-lg mb-1" style={heading}>
-                  Test yourself with free MCQs
-                </h2>
-                <p className="text-sm mb-4" style={{ color: "var(--text-2)", lineHeight: 1.6 }}>
-                  Exam-style questions with worked answers, chapter by chapter.
-                </p>
-                <ul className="flex flex-col gap-2">
-                  {practise.map((s) => (
-                    <li key={s.id}>
-                      <Link
-                        href={`/${s.level.toLowerCase()}/${s.id}/mcqs`}
-                        className="flex items-center justify-between gap-3 rounded-xl px-3.5 py-3 transition-colors hover:brightness-110"
-                        style={{ background: "var(--bg-3)", textDecoration: "none" }}
-                      >
-                        <span className="min-w-0">
-                          <span className="block text-sm font-bold leading-snug" style={{ color: "var(--text-1)" }}>{subjectCode(s)} {s.title}</span>
-                          <span className="block text-xs mt-0.5" style={{ color: "var(--text-3)" }}>{LEVEL_LABEL[s.level]} MCQs</span>
-                        </span>
-                        <ArrowRight className="w-4 h-4 shrink-0" style={{ color: "var(--green)" }} aria-hidden />
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </section>
-            )}
+            <RelatedBanks subjects={practise} headingId="practise" />
 
             <nav aria-labelledby="more-tools" className="rounded-2xl p-5" style={card}>
               <h2 id="more-tools" className="font-bold text-base mb-3" style={heading}>

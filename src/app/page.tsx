@@ -4,13 +4,14 @@ import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import {
-  motion, useScroll, useTransform,
+  motion,
   useMotionValue, useSpring, AnimatePresence,
 } from "framer-motion";
 import { ArrowRight, CheckCircle2, BookOpen, FileText, Target } from "lucide-react";
 import { blogs } from "@/data/blogs";
 import { icapSubjects } from "@/data/subjects";
 import QualificationHome from "@/components/QualificationHome";
+import ContinueCard from "@/components/ContinueCard";
 
 /* ── Framer Variants ── */
 const fadeUp: import("framer-motion").Variants = {
@@ -158,8 +159,8 @@ function HeroEcosystem() {
 }
 
 function FloatingCard({ delay, startX, startY, endX, endY, icon, text, sub }: { delay:number, startX:number, startY:number, endX:number, endY:number, icon:React.ReactNode, text:string, sub:string }) {
-  // Use a random duration so they float out of sync
-  const floatDuration = 4 + Math.random() * 2;
+  // Vary the duration per card (from its delay) so they float out of sync
+  const floatDuration = 4 + ((delay * 7.3) % 2);
   
   return (
     <motion.div
@@ -391,13 +392,13 @@ function EmailCapture() {
               The guide I wish existed when I started.
             </h2>
             <p className="text-lg leading-relaxed mb-12 max-w-md mx-auto relative" style={{ color:"var(--text-2)", fontFamily:"var(--font-inter), system-ui, sans-serif", zIndex:1 }}>
-              I'm writing a no-fluff guide covering my exact CFAP strategy, time management, and first-attempt blueprint. Drop your email. You'll get it the moment it's ready.
+              I&apos;m writing a no-fluff guide covering my exact CFAP strategy, time management, and first-attempt blueprint. Drop your email. You&apos;ll get it the moment it&apos;s ready.
             </p>
 
             {status === "success" ? (
               <motion.div initial={{ opacity:0, y:10 }} animate={{ opacity:1, y:0 }} className="relative flex items-center justify-center gap-3 px-6 py-4 rounded-full mx-auto max-w-xs" style={{ background:"color-mix(in srgb, var(--green) 12%, transparent)", border:"1px solid color-mix(in srgb, var(--green) 30%, transparent)", zIndex:1 }}>
                 <CheckCircle2 className="w-5 h-5" style={{ color:"var(--green)" }} />
-                <span className="font-semibold text-sm" style={{ color:"var(--green)", fontFamily:"var(--font-inter), sans-serif" }}>You're on the list. We'll send it soon.</span>
+                <span className="font-semibold text-sm" style={{ color:"var(--green)", fontFamily:"var(--font-inter), sans-serif" }}>You&apos;re on the list. We&apos;ll send it soon.</span>
               </motion.div>
             ) : (
               <form onSubmit={handleSubmit} className="relative flex flex-col sm:flex-row gap-3 max-w-md mx-auto" style={{ zIndex:1 }}>
@@ -430,8 +431,6 @@ function EmailCapture() {
 /* ══════════════════════════════════════════════════ */
 export default function Home() {
   const pageRef = useRef<HTMLDivElement>(null);
-  const { scrollYProgress } = useScroll({ target: pageRef, offset: ["start start","end end"] });
-  const lineScale = useTransform(scrollYProgress, [0.12,0.58], [0, 1]);
 
   const rawX  = useMotionValue(-1000);
   const rawY  = useMotionValue(-1000);
@@ -453,6 +452,9 @@ export default function Home() {
           background:"radial-gradient(circle, color-mix(in srgb, var(--green) 13%, transparent) 0%, rgba(245,166,35,0.05) 50%, transparent 70%)" }}
         className="fixed w-[520px] h-[520px] rounded-full pointer-events-none z-[1]"
       />
+
+      {/* ══ RETURNING VISITORS ══ */}
+      <ContinueCard outerClassName="relative z-10 px-6 md:px-16 pt-24 md:pt-28 -mb-16 md:-mb-20" />
 
       {/* ══ NON-ICAP HEROES (shown via html[data-body]) ══ */}
       <QualificationHome />
@@ -991,10 +993,10 @@ export default function Home() {
               <span style={{ display:"inline-block", width:20, height:1, background:"var(--green)" }} /> Meet The Architect
             </motion.p>
             <motion.h2 variants={fadeUp} className="font-display font-bold tracking-tight" style={{ fontSize:"clamp(2.4rem,5vw,4.2rem)", color:"var(--text-1)", lineHeight:1.06 }}>
-              I'm Muhammad Ahsan Siddiq.
+              I&apos;m Muhammad Ahsan Siddiq.
             </motion.h2>
             <motion.p variants={fadeUp} className="mt-4 text-base md:text-lg max-w-2xl mx-auto" style={{ color:"var(--text-2)", fontFamily:"var(--font-inter), system-ui, sans-serif" }}>
-              I am the first student in ICAP's 64-year history to clear all 6 CFAP exams in a single attempt. They literally had to invent a new Gold Medal for it. Here is my exact blueprint.
+              I am the first student in ICAP&apos;s 64-year history to clear all 6 CFAP exams in a single attempt. They literally had to invent a new Gold Medal for it. Here is my exact blueprint.
             </motion.p>
           </motion.div>
 
@@ -1038,7 +1040,7 @@ export default function Home() {
                   style={{ background:"rgba(10,10,11,0.75)", border:"1px solid color-mix(in srgb, var(--green) 30%, transparent)" }}
                 >
                   <p className="font-display font-bold" style={{ fontSize:20, color:"#F4F4F5", lineHeight:1.2 }}>Historical Record</p>
-                  <p style={{ fontSize:12, color:"#A1A1AA", marginTop:4, fontFamily:"var(--font-inter), system-ui, sans-serif" }}>1st student in ICAP's 64-year history</p>
+                  <p style={{ fontSize:12, color:"#A1A1AA", marginTop:4, fontFamily:"var(--font-inter), system-ui, sans-serif" }}>1st student in ICAP&apos;s 64-year history</p>
                 </motion.div>
               </div>
             </motion.div>
@@ -1048,7 +1050,7 @@ export default function Home() {
 
               <motion.div variants={fadeUp} className="mb-8 md:mb-10 text-center lg:text-left">
                 <p className="font-display font-bold" style={{ fontSize:"clamp(1.4rem,3vw,2rem)", color:"var(--text-1)", lineHeight:1.3 }}>
-                  When I decided to attempt 6 CFAP papers at once while pursuing ACCA and CFA Level I, people called it impossible. <span style={{ color:"var(--green)" }}>I proved it's just a formula.</span>
+                  When I decided to attempt 6 CFAP papers at once while pursuing ACCA and CFA Level I, people called it impossible. <span style={{ color:"var(--green)" }}>I proved it&apos;s just a formula.</span>
                 </p>
               </motion.div>
 

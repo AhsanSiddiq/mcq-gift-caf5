@@ -2,10 +2,12 @@ import type { Metadata } from "next";
 import { LEVEL_LABEL, subjectCode, searchName, shortSearchName } from "@/data/subjects";
 import Link from "next/link";
 import { notFound, permanentRedirect } from "next/navigation";
-import { ArrowLeft, ArrowRight, Timer } from "lucide-react";
+import { ArrowLeft, ArrowRight, LayoutList, Timer } from "lucide-react";
 import { getChapterQuestions, getChapters, questionSlug, resolveSubject, type ChapterMeta } from "@/lib/questionBank";
 import AdSlot from "@/components/AdSlot";
 import SponsorSlot from "@/components/SponsorSlot";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import { subjectCrumbs } from "@/lib/navigation";
 
 export const revalidate = 604800;
 
@@ -75,24 +77,19 @@ export default async function ChapterQuestionBank({ params }: Props) {
       };
     }),
   };
-  const breadcrumbs = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    itemListElement: [
-      { "@type": "ListItem", position: 1, name: `${code} ${s.title}`, item: `${BASE_URL}${base}` },
-      { "@type": "ListItem", position: 2, name: "MCQs with answers", item: `${BASE_URL}${base}/mcqs` },
-      { "@type": "ListItem", position: 3, name: `Chapter ${meta.chapter}: ${meta.topic}`, item: `${BASE_URL}${base}/mcqs/${meta.slug}` },
-    ],
-  };
+  const crumbs = [
+    ...subjectCrumbs(s),
+    { name: "MCQs with answers", short: "MCQs", href: `${base}/mcqs` },
+    { name: `Chapter ${meta.chapter}: ${meta.topic}`, short: `Chapter ${meta.chapter}`, href: `${base}/mcqs/${meta.slug}` },
+  ];
+  const quizHref = `${base}/quiz?mode=topical&chapter=${meta.chapter}`;
+  const card = { background: "var(--bg-2)", border: "1px solid var(--border)", textDecoration: "none" } as const;
 
   return (
     <main className="min-h-screen">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(quizLd) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs) }} />
       <div className="max-w-3xl mx-auto px-4 sm:px-6 md:px-8 pt-24 sm:pt-28 pb-20">
-        <Link prefetch={false} href={`${base}/mcqs`} className="inline-flex items-center gap-2 text-sm font-semibold mb-8" style={{ color: "var(--text-3)", textDecoration: "none" }}>
-          <ArrowLeft className="w-4 h-4" /> All {code} chapters
-        </Link>
+        <Breadcrumbs items={crumbs} className="mb-8" />
         <p className="text-xs font-bold uppercase tracking-widest mb-3" style={{ color: "var(--green)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
           {code} · Chapter {meta.chapter}
         </p>
@@ -102,10 +99,17 @@ export default async function ChapterQuestionBank({ params }: Props) {
         <p className="text-base mb-6" style={{ color: "var(--text-2)", lineHeight: 1.7 }}>
           {questions.length} multiple-choice questions on {meta.topic} for {code} {s.title}. Try each one before revealing the answer and explanation.
         </p>
-        <Link prefetch={false} href={`${base}/quiz?mode=topical&chapter=${meta.chapter}`}
-          className="inline-flex items-center gap-2 rounded-xl px-5 py-3 font-bold text-white mb-10" style={{ background: "var(--green)", textDecoration: "none" }}>
-          <Timer className="w-4 h-4" /> Practise this chapter interactively
-        </Link>
+        <div className="flex flex-wrap items-center gap-x-5 gap-y-3 mb-10">
+          <Link prefetch={false} href={quizHref}
+            className="inline-flex items-center gap-2 rounded-xl px-5 py-3 font-bold text-white" style={{ background: "var(--green)", textDecoration: "none" }}>
+            <Timer className="w-4 h-4" /> Start a quiz on this chapter
+          </Link>
+          {next && (
+            <Link prefetch={false} href={`${base}/mcqs/${next.slug}`} className="inline-flex items-center gap-1.5 text-sm font-semibold" style={{ color: "var(--text-2)", textDecoration: "none" }}>
+              Next: Chapter {next.chapter} <ArrowRight className="w-4 h-4" />
+            </Link>
+          )}
+        </div>
 
         <ol className="flex flex-col gap-5">
           {questions.map((q, i) => {
@@ -140,20 +144,45 @@ export default async function ChapterQuestionBank({ params }: Props) {
 
         <SponsorSlot level={s.level} className="mt-10" />
 
-        <nav className="mt-10 grid sm:grid-cols-2 gap-3">
+        <section aria-labelledby="next-h" className="mt-10 rounded-2xl p-5 sm:p-6" style={{ ...card, borderColor: "color-mix(in srgb, var(--green) 35%, var(--border))" }}>
+          <h2 id="next-h" className="font-bold text-lg mb-1" style={{ color: "var(--text-1)", fontFamily: "var(--font-space-grotesk), sans-serif" }}>
+            Finished reading? Test yourself.
+          </h2>
+          <p className="text-sm mb-4" style={{ color: "var(--text-2)" }}>
+            The quiz shuffles these {questions.length} questions, scores you and saves your mistakes for review.
+          </p>
+          <Link prefetch={false} href={quizHref} className="inline-flex items-center gap-2 rounded-xl px-5 py-3 font-bold text-white" style={{ background: "var(--green)", textDecoration: "none" }}>
+            <Timer className="w-4 h-4" /> Start Chapter {meta.chapter} quiz
+          </Link>
+        </section>
+
+        <nav aria-label="Chapter navigation" className="mt-3 grid sm:grid-cols-2 gap-3">
           {prev ? (
-            <Link prefetch={false} href={`${base}/mcqs/${prev.slug}`} className="rounded-2xl p-4" style={{ background: "var(--bg-2)", border: "1px solid var(--border)", textDecoration: "none" }}>
-              <span className="block text-xs" style={{ color: "var(--text-3)" }}>← Chapter {prev.chapter}</span>
+            <Link prefetch={false} href={`${base}/mcqs/${prev.slug}`} rel="prev" className="rounded-2xl p-4" style={card}>
+              <span className="block text-xs mb-0.5" style={{ color: "var(--text-3)" }}><ArrowLeft className="w-3 h-3 inline" /> Chapter {prev.chapter}</span>
               <span className="block font-bold text-sm" style={{ color: "var(--text-1)" }}>{prev.topic}</span>
             </Link>
-          ) : <span />}
-          {next && (
-            <Link prefetch={false} href={`${base}/mcqs/${next.slug}`} className="rounded-2xl p-4 text-right" style={{ background: "var(--bg-2)", border: "1px solid var(--border)", textDecoration: "none" }}>
-              <span className="block text-xs" style={{ color: "var(--text-3)" }}>Chapter {next.chapter} <ArrowRight className="w-3 h-3 inline" /></span>
+          ) : <span className="hidden sm:block" />}
+          {next ? (
+            <Link prefetch={false} href={`${base}/mcqs/${next.slug}`} rel="next" className="rounded-2xl p-4 sm:text-right" style={card}>
+              <span className="block text-xs mb-0.5" style={{ color: "var(--text-3)" }}>Next · Chapter {next.chapter} <ArrowRight className="w-3 h-3 inline" /></span>
               <span className="block font-bold text-sm" style={{ color: "var(--text-1)" }}>{next.topic}</span>
+            </Link>
+          ) : (
+            <Link prefetch={false} href={`${base}/quiz?mode=random`} className="rounded-2xl p-4 sm:text-right" style={card}>
+              <span className="block text-xs mb-0.5" style={{ color: "var(--text-3)" }}>Last chapter <ArrowRight className="w-3 h-3 inline" /></span>
+              <span className="block font-bold text-sm" style={{ color: "var(--text-1)" }}>Take a random {code} mock</span>
             </Link>
           )}
         </nav>
+
+        <Link prefetch={false} href={`${base}/mcqs`} className="mt-3 flex items-center justify-between gap-3 rounded-2xl p-4" style={card}>
+          <span className="flex items-center gap-3 min-w-0">
+            <LayoutList className="w-4 h-4 shrink-0" style={{ color: "var(--green)" }} />
+            <span className="font-bold text-sm" style={{ color: "var(--text-1)" }}>All {chapters.length} {code} chapters</span>
+          </span>
+          <ArrowRight className="w-4 h-4 shrink-0" style={{ color: "var(--green)" }} />
+        </Link>
       </div>
     </main>
   );
