@@ -6,6 +6,7 @@ import { getAllQuestionRefs, getChapters, questionSlug } from "@/lib/questionBan
 import { dailyBodies } from "@/lib/daily";
 import { standards } from "@/data/standards";
 import { TOOLS } from "@/data/tools";
+import { papers as pastPapers, paperUrl, sittingUrl, questionUrl } from "@/data/pastPapers";
 
 export const revalidate = 86400;
 
@@ -105,7 +106,21 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...TOOLS.map((t) => ({ url: `${BASE_URL}/tools/${t.slug}`, priority: 0.85, changeFrequency: "monthly" as const })),
   ];
 
-  return [...staticPages, ...examPages, ...prcPages, ...cafPages, ...bankPages, ...bodyDailyPages, ...blogPages, ...questionPages, ...standardsPages, ...toolPages].map((page) => ({
+  // Past papers hub: hub, one page per paper, per sitting and per question walkthrough
+  const pastPaperPages = [
+    { url: `${BASE_URL}/past-papers`, priority: 0.9, changeFrequency: "weekly" as const },
+    ...pastPapers.flatMap((p) => [
+      { url: `${BASE_URL}${paperUrl(p)}`, priority: 0.85, changeFrequency: "monthly" as const },
+      ...p.sittings.flatMap((s) => [
+        { url: `${BASE_URL}${sittingUrl(p, s)}`, priority: 0.8, changeFrequency: "monthly" as const },
+        ...s.questions
+          .filter((q) => q.walkthrough)
+          .map((q) => ({ url: `${BASE_URL}${questionUrl(p, s, q)}`, priority: 0.7, changeFrequency: "monthly" as const })),
+      ]),
+    ]),
+  ];
+
+  return [...staticPages, ...examPages, ...prcPages, ...cafPages, ...bankPages, ...bodyDailyPages, ...blogPages, ...questionPages, ...standardsPages, ...toolPages, ...pastPaperPages].map((page) => ({
     ...page,
     lastModified: now,
   }));
