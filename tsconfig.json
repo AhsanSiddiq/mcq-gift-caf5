@@ -30,5 +30,5 @@
     ".next/dev/types/**/*.ts",
     "**/*.mts"
   ],
-  "exclude": ["node_modules", "scripts", "temp-old-seed.ts"]
+  "exclude": ["node_modules", "scripts", "temp-old-seed.ts", "worker.ts", "open-next.config.ts", ".open-next"]
 }

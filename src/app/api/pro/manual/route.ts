@@ -24,7 +24,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Unknown plan." }, { status: 400 });
     }
 
-    const country = req.cookies.get(COUNTRY_COOKIE)?.value || req.headers.get("x-vercel-ip-country") || undefined;
+    const country = req.cookies.get(COUNTRY_COOKIE)?.value || req.headers.get("cf-ipcountry") || req.headers.get("x-vercel-ip-country") || undefined;
     const book = priceBookForCountry(country);
     if (!book.localRails?.includes(method)) {
       return NextResponse.json({ error: "That payment method isn't available in your region." }, { status: 400 });

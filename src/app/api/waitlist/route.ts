@@ -51,8 +51,8 @@ export async function POST(req: NextRequest) {
 
   const geo =
     req.cookies.get(COUNTRY_COOKIE)?.value ||
-    req.headers.get("x-vercel-ip-country") ||
-    req.headers.get("cf-ipcountry");
+    req.headers.get("cf-ipcountry") ||
+    req.headers.get("x-vercel-ip-country");
   const country = geo && /^[A-Za-z]{2}$/.test(geo) && geo.toUpperCase() !== "XX" ? geo.toUpperCase() : null;
 
   const { error } = await supabase

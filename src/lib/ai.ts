@@ -134,7 +134,7 @@ export async function refundDailyQuota(key: string): Promise<void> {
   await adminSupabase.from("tutor_usage").upsert({ usage_key: key, day, count: count - 1 }, { onConflict: "usage_key,day" });
 }
 
-/** First hop of x-forwarded-for, or "unknown". */
+/** Visitor IP: Cloudflare's cf-connecting-ip (set by Cloudflare, can't be spoofed), else the first x-forwarded-for hop. */
 export function clientIp(headers: Headers): string {
-  return (headers.get("x-forwarded-for") ?? "").split(",")[0].trim() || "unknown";
+  return headers.get("cf-connecting-ip")?.trim() || (headers.get("x-forwarded-for") ?? "").split(",")[0].trim() || "unknown";
 }
