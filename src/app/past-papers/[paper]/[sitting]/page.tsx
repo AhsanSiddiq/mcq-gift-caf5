@@ -6,8 +6,9 @@ import {
   PAST_PAPERS_BASE,
   areaLabel,
   areaMarks,
-  fmtDate,
   fmtMarks,
+  qLabel,
+  sittingDate,
   getPaper,
   getSitting,
   gridMarks,
@@ -111,8 +112,8 @@ export default async function SittingPage({ params }: Props) {
           <Eyebrow>{body.short} {p.code} · {p.title}</Eyebrow>
           <H1>{p.code} {s.name} Past Paper: Topics, Marks and Analysis</H1>
           <p className="text-base sm:text-lg" style={{ color: "var(--text-2)", lineHeight: 1.7 }}>
-            Sat on {fmtDate(s.date)}. {s.questions.length} questions, {fmtMarks(total)} marks
-            {s.passRate !== undefined ? `, overall pass rate ${s.passRate}%` : ""}. Use this page alongside the official paper.
+            Sat on {sittingDate(s)}. {s.questions.length} questions, {fmtMarks(total)} marks set
+            {s.passRate !== undefined ? `, overall pass rate ${s.passRate}%` : ""}.{s.rules ? ` ${s.rules}` : ""} Use this page alongside the official paper.
           </p>
         </header>
 
@@ -151,16 +152,17 @@ export default async function SittingPage({ params }: Props) {
                   const areas = [...new Set(q.parts.map((x) => x.area))];
                   return (
                     <tr key={q.n}>
-                      <td style={{ ...td, color: "var(--text-1)", fontWeight: 700, whiteSpace: "nowrap" }}>Q{q.n}</td>
+                      <td style={{ ...td, color: "var(--text-1)", fontWeight: 700, whiteSpace: "nowrap" }}>{qLabel(q)}</td>
                       <td style={{ ...td, minWidth: 180 }}>{q.format === "MCQ" ? "MCQs" : areas.map((a) => areaLabel(p, a)).join(", ")}</td>
                       <td style={{ ...td, minWidth: 280 }}>{q.summary}</td>
                       <td style={{ ...td, textAlign: "right" }}>{fmtMarks(questionMarks(q))}</td>
                       <td style={{ ...td, textAlign: "right" }}>{q.passRate !== undefined ? `${q.passRate}%` : "–"}</td>
                       <td style={{ ...td, whiteSpace: "nowrap" }}>
                         <ExtLink href={withPage(s.paperUrl, q.page)}>Paper</ExtLink>
+                        {s.answersUrl && !s.answersNote && <span className="block"><ExtLink href={withPage(s.answersUrl, q.answerPage)}>Answer</ExtLink></span>}
                         {s.commentsUrl && <span className="block"><ExtLink href={withPage(s.commentsUrl, q.commentsPage)}>Comments</ExtLink></span>}
                       </td>
-                      <td style={{ ...td, whiteSpace: "nowrap" }}><Link href={questionUrl(p, s, q)} style={link}>Q{q.n} walkthrough</Link></td>
+                      <td style={{ ...td, whiteSpace: "nowrap" }}>{q.walkthrough ? <Link href={questionUrl(p, s, q)} style={link}>{qLabel(q)} walkthrough</Link> : <span style={muted}>Not yet</span>}</td>
                     </tr>
                   );
                 })}
@@ -168,7 +170,7 @@ export default async function SittingPage({ params }: Props) {
             </ScrollTable>
           </Section>
 
-          <Section id="marks" title="Marks by area" intro={<p>All {fmtMarks(total)} marks, by area. MCQ items count towards their own area.</p>}>
+          <Section id="marks" title="Marks by area" intro={<p>All {fmtMarks(total)} marks set, by area{s.rules ? " (includes optional questions)" : ""}. MCQ items count towards their own area.</p>}>
             <div className="rounded-2xl p-5" style={card}>
               {marks.map(([id, m]) => {
                 const area = p.areas.find((a) => a.id === id);
@@ -220,7 +222,7 @@ export default async function SittingPage({ params }: Props) {
             <Section id="pass-rates" title="Pass rate by question" intro={<p>Published in the examiners&apos; comments for this sitting.</p>}>
               <div className="rounded-2xl p-5" style={card}>
                 {withRates.map((q) => (
-                  <Bar key={q.n} label={`Q${q.n} · ${q.format === "MCQ" ? "MCQs" : areaLabel(p, q.parts[0].area)}`} value={q.passRate!} max={100} suffix="%" href={questionUrl(p, s, q)} tone={q.passRate! < 30 ? "bad" : q.passRate! < 50 ? "gold" : "green"} />
+                  <Bar key={q.n} label={`${qLabel(q)} · ${q.format === "MCQ" ? "MCQs" : areaLabel(p, q.parts[0].area)}`} value={q.passRate!} max={100} suffix="%" href={q.walkthrough ? questionUrl(p, s, q) : undefined} tone={q.passRate! < 30 ? "bad" : q.passRate! < 50 ? "gold" : "green"} />
                 ))}
               </div>
             </Section>

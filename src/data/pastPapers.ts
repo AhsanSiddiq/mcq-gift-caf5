@@ -15,6 +15,7 @@ import { icapCaf1 } from "./past-papers/icap-caf-1";
 import { icapCaf5 } from "./past-papers/icap-caf-5";
 import { icapCaf6 } from "./past-papers/icap-caf-6";
 import { icapPrcPapers } from "./past-papers/icap-prc";
+import { icaiInterCma } from "./past-papers/icai-inter-cma";
 
 export const PAST_PAPERS_UPDATED = "2026-11-09";
 export const PAST_PAPERS_BASE = "/past-papers";
@@ -109,6 +110,12 @@ export interface Question {
   page?: number;
   /** PDF page of the examiners' report covering this question */
   commentsPage?: number;
+  /** PDF page of the official answer covering this question */
+  answerPage?: number;
+  /** True when candidates choose between this and other questions */
+  optional?: boolean;
+  /** Display label override, e.g. "Part I (MCQs)". n = 0 is used for a body's MCQ part. */
+  label?: string;
   /** Question pass rate published in the examiners' report (%) */
   passRate?: number;
   walkthrough?: Walkthrough;
@@ -117,8 +124,12 @@ export interface Question {
 export interface Sitting {
   slug: string;
   name: string;
-  /** ISO date of the exam */
+  /** ISO date of the exam (used for ordering) */
   date: string;
+  /** Shown instead of the exact date when only the month is known, e.g. "May 2026" */
+  dateLabel?: string;
+  /** Choice rules, e.g. "Q1 compulsory; answer any four of Q2–Q6" */
+  rules?: string;
   paperUrl: string;
   /** Public URL of suggested answers, or the portal page where they sit */
   answersUrl?: string;
@@ -180,9 +191,11 @@ export const BODIES: Record<BodyId, ExamBody> = {
     name: "Institute of Chartered Accountants of India",
     short: "ICAI",
     country: "India",
-    officialUrl: "https://boslive.icai.org/",
+    officialUrl: "https://www.icai.org/post/question-papers-intermediate-course",
     owner: "The Institute of Chartered Accountants of India (ICAI)",
-    levels: [],
+    levels: [
+      { id: "CA-INTER", label: "CA Intermediate", blurb: "ICAI publishes question papers, suggested answers and (for some sittings) examiners' comments as public PDFs. RTPs and MTPs are on the BoS Knowledge Portal." },
+    ],
   },
   acca: {
     id: "acca",
@@ -207,7 +220,7 @@ export const BODIES: Record<BodyId, ExamBody> = {
 /** Display order of bodies on the hub. Only bodies with papers are shown. */
 export const BODY_ORDER: BodyId[] = ["icap", "icai", "acca", "icaew"];
 
-export const papers: Paper[] = [icapCaf1, icapCaf5, icapCaf6, ...icapPrcPapers];
+export const papers: Paper[] = [icapCaf1, icapCaf5, icapCaf6, ...icapPrcPapers, icaiInterCma];
 
 /* ------------------------------------------------------------------ */
 /* Lookups                                                             */
@@ -215,7 +228,8 @@ export const papers: Paper[] = [icapCaf1, icapCaf5, icapCaf6, ...icapPrcPapers];
 
 export const getPaper = (slug: string) => papers.find((p) => p.slug === slug);
 export const getSitting = (p: Paper, slug: string) => p.sittings.find((s) => s.slug === slug);
-export const qSlug = (q: Question) => `q${q.n}`;
+export const qSlug = (q: Question) => (q.n === 0 ? "part-1-mcqs" : `q${q.n}`);
+export const qLabel = (q: Question) => q.label ?? (q.n === 0 ? "Part I (MCQs)" : `Q${q.n}`);
 export const getQuestion = (s: Sitting, slug: string) => s.questions.find((q) => qSlug(q) === slug);
 export const papersForBody = (body: BodyId) => papers.filter((p) => p.body === body);
 export const questionMarks = (q: Question) => q.parts.reduce((t, p) => t + p.marks, 0);
@@ -339,6 +353,8 @@ export function practicePicks(p: Paper, n = 3): { sitting: Sitting; question: Qu
   }
   return picks;
 }
+
+export const sittingDate = (s: Sitting) => s.dateLabel ?? fmtDate(s.date);
 
 export const fmtDate = (iso: string) =>
   new Date(`${iso}T00:00:00Z`).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });

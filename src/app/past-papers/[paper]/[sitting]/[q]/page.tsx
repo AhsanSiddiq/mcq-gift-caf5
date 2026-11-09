@@ -7,6 +7,7 @@ import {
   PAST_PAPERS_BASE,
   areaLabel,
   fmtMarks,
+  qLabel,
   getArea,
   getPaper,
   getQuestion,
@@ -53,7 +54,7 @@ export function generateStaticParams() {
 }
 
 const topic = (p: Paper, q: Question) => (q.format === "MCQ" ? "Multiple-choice questions" : areaLabel(p, primaryArea(q)));
-const title = (p: Paper, s: Sitting, q: Question) => `${p.code} ${s.name} Q${q.n} – ${topic(p, q)} (${fmtMarks(questionMarks(q))} marks): Walkthrough`;
+const title = (p: Paper, s: Sitting, q: Question) => `${p.code} ${s.name} ${qLabel(q)} – ${topic(p, q)} (${fmtMarks(questionMarks(q))} marks): Walkthrough`;
 const description = (p: Paper, s: Sitting, q: Question) =>
   `${BODIES[p.body].short} ${p.code} ${s.name} Question ${q.n}: ${q.summary} How to approach it, key rules, common mistakes and an original practice question with a worked solution.`.slice(0, 300);
 
@@ -67,7 +68,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: { absolute: title(p, s, q) },
     description: description(p, s, q),
-    keywords: [`${p.code} ${s.name} Q${q.n}`, `${p.code} ${s.name} question ${q.n} solution`, `${p.code} ${topic(p, q)} past paper`, `${BODIES[p.body].short} ${p.code} ${s.name}`],
+    keywords: [`${p.code} ${s.name} ${qLabel(q)}`, `${p.code} ${s.name} question ${q.n} solution`, `${p.code} ${topic(p, q)} past paper`, `${BODIES[p.body].short} ${p.code} ${s.name}`],
     alternates: { canonical: url },
     openGraph: { title: title(p, s, q), description: description(p, s, q), url, type: "article" },
   };
@@ -97,7 +98,7 @@ export default async function QuestionPage({ params }: Props) {
       { name: "Past Papers", path: PAST_PAPERS_BASE },
       { name: `${body.short} ${p.code}`, path: paperUrl(p) },
       { name: s.name, path: sittingUrl(p, s) },
-      { name: `Q${q.n}`, path: questionUrl(p, s, q) },
+      { name: `${qLabel(q)}`, path: questionUrl(p, s, q) },
     ]),
   ];
 
@@ -105,11 +106,11 @@ export default async function QuestionPage({ params }: Props) {
     <main className="min-h-screen" style={{ background: "var(--bg)" }}>
       <JsonLd data={jsonLd} />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 md:px-8 pt-24 sm:pt-28 pb-20">
-        <Crumbs items={[{ name: "Home", path: "/" }, { name: "Past Papers", path: PAST_PAPERS_BASE }, { name: `${body.short} ${p.code}`, path: paperUrl(p) }, { name: s.name, path: sittingUrl(p, s) }, { name: `Q${q.n}` }]} />
+        <Crumbs items={[{ name: "Home", path: "/" }, { name: "Past Papers", path: PAST_PAPERS_BASE }, { name: `${body.short} ${p.code}`, path: paperUrl(p) }, { name: s.name, path: sittingUrl(p, s) }, { name: `${qLabel(q)}` }]} />
 
         <header className="mb-8">
           <Eyebrow>{p.code} {p.title} · {s.name}</Eyebrow>
-          <H1>Q{q.n}: {topic(p, q)}</H1>
+          <H1>{qLabel(q)}: {topic(p, q)}</H1>
           <div className="flex flex-wrap gap-2 mb-4">
             <Pill>{fmtMarks(questionMarks(q))} marks</Pill>
             <Pill>{q.format}</Pill>
@@ -130,14 +131,14 @@ export default async function QuestionPage({ params }: Props) {
             We don&apos;t reproduce {body.short}&apos;s question. Open it in the official PDF, attempt it, then use this walkthrough.
           </p>
           <div className="grid gap-3 sm:grid-cols-3">
-            <ExtLink href={withPage(s.paperUrl, q.page)} strong>Q{q.n} in the official paper{q.page ? ` (p. ${q.page})` : ""}</ExtLink>
+            <ExtLink href={withPage(s.paperUrl, q.page)} strong>{qLabel(q)} in the official paper{q.page ? ` (p. ${q.page})` : ""}</ExtLink>
             {s.answersUrl && (
               <span>
-                <ExtLink href={s.answersUrl} strong>Official suggested answer</ExtLink>
+                <ExtLink href={s.answersNote ? s.answersUrl : withPage(s.answersUrl, q.answerPage)} strong>Official suggested answer</ExtLink>
                 {s.answersNote && <span className="block text-xs" style={muted}>{s.answersNote}</span>}
               </span>
             )}
-            {s.commentsUrl && <ExtLink href={withPage(s.commentsUrl, q.commentsPage)} strong>Examiners&apos; comments on Q{q.n}</ExtLink>}
+            {s.commentsUrl && <ExtLink href={withPage(s.commentsUrl, q.commentsPage)} strong>Examiners&apos; comments on {qLabel(q)}</ExtLink>}
           </div>
         </div>
 
@@ -169,7 +170,7 @@ export default async function QuestionPage({ params }: Props) {
             </ul>
           </Section>
 
-          <Section id="practice" title="Similar question with worked solution" intro={<p>Written by us with our own numbers; it tests the same skills as Q{q.n} without copying it.</p>}>
+          <Section id="practice" title="Similar question with worked solution" intro={<p>Written by us with our own numbers; it tests the same skills as {qLabel(q)} without copying it.</p>}>
             <Example ex={w.example} />
           </Section>
 
@@ -201,13 +202,13 @@ export default async function QuestionPage({ params }: Props) {
           <nav aria-label="Previous and next question" className="grid gap-3 sm:grid-cols-2 mb-10">
             {prev ? (
               <Link href={questionUrl(p, s, prev)} className="rounded-xl p-4 block" style={{ ...card, textDecoration: "none" }}>
-                <span className="flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest mb-1" style={muted}><ArrowLeft className="w-3.5 h-3.5" aria-hidden /> Q{prev.n}</span>
+                <span className="flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest mb-1" style={muted}><ArrowLeft className="w-3.5 h-3.5" aria-hidden /> {qLabel(prev)}</span>
                 <span className="block font-semibold" style={{ color: "var(--text-1)" }}>{topic(p, prev)}</span>
               </Link>
             ) : <span className="hidden sm:block" />}
             {next && (
               <Link href={questionUrl(p, s, next)} className="rounded-xl p-4 block sm:text-right" style={{ ...card, textDecoration: "none" }}>
-                <span className="flex items-center sm:justify-end gap-1.5 text-xs font-bold uppercase tracking-widest mb-1" style={muted}>Q{next.n} <ArrowRight className="w-3.5 h-3.5" aria-hidden /></span>
+                <span className="flex items-center sm:justify-end gap-1.5 text-xs font-bold uppercase tracking-widest mb-1" style={muted}>{qLabel(next)} <ArrowRight className="w-3.5 h-3.5" aria-hidden /></span>
                 <span className="block font-semibold" style={{ color: "var(--text-1)" }}>{topic(p, next)}</span>
               </Link>
             )}

@@ -14,14 +14,14 @@ import {
 import { Attribution, BASE_URL, Crumbs, Eyebrow, H1, JsonLd, Pill, articleLd, breadcrumbLd, card, heading, muted } from "./ui";
 
 const URL = `${BASE_URL}${PAST_PAPERS_BASE}`;
-const TITLE = "ICAP CAF & PRC Past Papers – Topical Index, Analysis & Walkthroughs";
+const TITLE = "Past Papers with Topical Analysis – ICAP CAF, PRC & ICAI CA Inter";
 const DESCRIPTION =
-  "Free ICAP CAF past papers hub: official paper and examiners' comments links for every sitting, a topic-by-sitting index, trends, question walkthroughs and original practice questions with worked solutions. CAF-1, CAF-5, CAF-6 and PRC.";
+  "Free ICAP CAF past papers hub: official paper and examiners' comments links for every sitting, a topic-by-sitting index, trends, question walkthroughs and original practice questions with worked solutions. ICAP CAF-1, CAF-5, CAF-6, PRC and ICAI CA Inter Costing.";
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
   description: DESCRIPTION,
-  keywords: ["ICAP CAF past papers", "CAF past papers with solutions", "CAF-1 past papers", "CAF-5 past papers", "CAF-6 past papers", "PRC past papers", "ICAP topical past papers", "ICAP examiners comments"],
+  keywords: ["ICAP CAF past papers", "CAF past papers with solutions", "CAF-1 past papers", "CAF-5 past papers", "CAF-6 past papers", "PRC past papers", "ICAP topical past papers", "ICAP examiners comments", "CA Inter costing past papers", "CA Inter suggested answers"],
   alternates: { canonical: URL },
   openGraph: { title: TITLE, description: DESCRIPTION, url: URL, type: "article" },
 };
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 function PaperCard({ p }: { p: Paper }) {
   const latest = newestFirst(p)[0];
   const top = topicMatrix(p).filter((r) => r.total > 0).slice(0, 3);
-  const qCount = p.sittings.reduce((t, s) => t + s.questions.length, 0);
+  const qCount = p.sittings.reduce((t, s) => t + s.questions.filter((q) => q.walkthrough).length, 0);
   return (
     <Link href={paperUrl(p)} className="rounded-2xl p-5 flex flex-col gap-3" style={{ ...card, textDecoration: "none" }}>
       <span className="flex items-start justify-between gap-3">
@@ -43,7 +43,7 @@ function PaperCard({ p }: { p: Paper }) {
         <>
           <span className="flex flex-wrap gap-2">
             <Pill>{p.sittings.length} sittings indexed</Pill>
-            <Pill>{qCount} question walkthroughs</Pill>
+            {qCount > 0 && <Pill>{qCount} question walkthroughs</Pill>}
             {latest && <Pill>Latest: {latest.name}</Pill>}
           </span>
           {top.length > 0 && (
@@ -66,7 +66,7 @@ export default function PastPapersHub() {
   const all = bodies.flatMap(papersForBody);
 
   const jsonLd = [
-    articleLd({ headline: "Past Papers Hub – ICAP CAF & PRC", description: DESCRIPTION, url: URL, about: "ICAP past papers" }),
+    articleLd({ headline: "Past Papers Hub – ICAP CAF, PRC and ICAI CA Inter", description: DESCRIPTION, url: URL, about: "Accountancy exam past papers" }),
     breadcrumbLd([{ name: "Home", path: "/" }, { name: "Past Papers", path: PAST_PAPERS_BASE }]),
     {
       "@context": "https://schema.org",
@@ -130,7 +130,7 @@ export default function PastPapersHub() {
           </ol>
         </section>
 
-        <Attribution body="icap" />
+        {bodies.map((b) => <Attribution key={b} body={b} />)}
       </div>
     </main>
   );

@@ -7,8 +7,9 @@ import {
   PAST_PAPERS_BASE,
   areaMarks,
   chronological,
-  fmtDate,
   fmtMarks,
+  qLabel,
+  sittingDate,
   getPaper,
   gridMarks,
   newestFirst,
@@ -98,6 +99,8 @@ export default async function PaperPage({ params }: Props) {
   const t = trends(p);
   const picks = practicePicks(p, 3);
   const hasSittings = sittings.length > 0;
+  const questionCount = sittings.reduce((n, s) => n + s.questions.length, 0);
+  const walkthroughs = sittings.reduce((n, s) => n + s.questions.filter((q) => q.walkthrough).length, 0);
   const maxAvg = Math.max(1, ...matrix.map((r) => r.average));
 
   // Prioritise: top areas by average marks, plus areas behind the weakest questions.
@@ -139,7 +142,7 @@ export default async function PaperPage({ params }: Props) {
           <H1>{name(p)} {p.title} Past Papers</H1>
           <p className="text-base sm:text-lg" style={{ color: "var(--text-2)", lineHeight: 1.7 }}>
             {hasSittings
-              ? `${sittings.length} sittings indexed (${latestFirst.map((s) => s.name).join(", ")}), with links to the official paper and examiners' comments, a topical index and a walkthrough for every question.`
+              ? `${sittings.length} sittings indexed (${latestFirst.map((s) => s.name).join(", ")}), with links to the official papers, a topical index, trends and ${walkthroughs === questionCount ? "a walkthrough for every question" : `${walkthroughs} question walkthroughs`}.`
               : "Official model-paper access, syllabus weightings and free chapter MCQs."}
           </p>
         </header>
@@ -182,10 +185,10 @@ export default async function PaperPage({ params }: Props) {
                     {latestFirst.map((s) => (
                       <tr key={s.slug}>
                         <td style={{ ...td, whiteSpace: "nowrap", color: "var(--text-1)", fontWeight: 600 }}>{s.name}</td>
-                        <td style={{ ...td, whiteSpace: "nowrap" }}>{fmtDate(s.date)}</td>
+                        <td style={{ ...td, whiteSpace: "nowrap" }}>{sittingDate(s)}</td>
                         <td style={td}><ExtLink href={s.paperUrl}>PDF</ExtLink></td>
-                        <td style={td}>{s.commentsUrl ? <ExtLink href={s.commentsUrl}>PDF</ExtLink> : <span style={muted}>Not published</span>}</td>
-                        <td style={td}>{s.answersUrl ? <><ExtLink href={s.answersUrl}>Portal</ExtLink><span className="block text-xs" style={muted}>login required</span></> : <span style={muted}>Not public</span>}</td>
+                        <td style={td}>{s.commentsUrl ? <ExtLink href={s.commentsUrl}>PDF</ExtLink> : <span style={muted}>Not found</span>}</td>
+                        <td style={td}>{s.answersUrl ? (s.answersNote ? <><ExtLink href={s.answersUrl}>Portal</ExtLink><span className="block text-xs" style={muted}>login required</span></> : <ExtLink href={s.answersUrl}>PDF</ExtLink>) : <span style={muted}>Not public</span>}</td>
                         <td style={{ ...td, whiteSpace: "nowrap" }}>{s.passRate !== undefined ? `${s.passRate}%` : "–"}</td>
                         <td style={{ ...td, whiteSpace: "nowrap" }}><Link href={sittingUrl(p, s)} style={link}>{s.name} analysis</Link></td>
                       </tr>
@@ -244,11 +247,11 @@ export default async function PaperPage({ params }: Props) {
                         return (
                           <tr key={`${s.slug}-${q.n}`}>
                             <td style={{ ...td, whiteSpace: "nowrap" }}>{s.name}</td>
-                            <td style={{ ...td, whiteSpace: "nowrap", color: "var(--text-1)", fontWeight: 600 }}>Q{q.n}</td>
+                            <td style={{ ...td, whiteSpace: "nowrap", color: "var(--text-1)", fontWeight: 600 }}>{qLabel(q)}{q.optional ? "*" : ""}</td>
                             <td style={{ ...td, minWidth: 220 }}>{q.format === "MCQ" ? "MCQs (mixed areas)" : area?.label}</td>
                             <td style={{ ...td, textAlign: "right" }}>{fmtMarks(questionMarks(q))}</td>
                             <td style={{ ...td, textAlign: "right" }}>{q.passRate !== undefined ? `${q.passRate}%` : "–"}</td>
-                            <td style={{ ...td, whiteSpace: "nowrap" }}><Link href={questionUrl(p, s, q)} style={link}>Open</Link></td>
+                            <td style={{ ...td, whiteSpace: "nowrap" }}>{q.walkthrough ? <Link href={questionUrl(p, s, q)} style={link}>Open</Link> : <span style={muted}>–</span>}</td>
                           </tr>
                         );
                       }),
@@ -309,14 +312,14 @@ export default async function PaperPage({ params }: Props) {
                       {weakest.map(({ s, q }, i) => (
                         <span key={`${s.slug}${q.n}`}>
                           {i > 0 && "; "}
-                          <Link href={questionUrl(p, s, q)} style={link}>{s.name} Q{q.n}</Link> ({p.areas.find((a) => a.id === primaryArea(q))?.label}, {q.passRate}%)
+                          {q.walkthrough ? <Link href={questionUrl(p, s, q)} style={link}>{s.name} {qLabel(q)}</Link> : `${s.name} ${qLabel(q)}`} ({p.areas.find((a) => a.id === primaryArea(q))?.label}, {q.passRate}%)
                         </span>
                       ))}
                       . Work through those walkthroughs first.
                     </li>
                   )}
                   <li>
-                    <strong style={{ color: "var(--text-1)" }}>Don&apos;t skip the short areas.</strong> The MCQ block and Section A questions regularly test smaller areas
+                    <strong style={{ color: "var(--text-1)" }}>Don&apos;t skip the short areas.</strong> The MCQs and shorter questions regularly test smaller areas
                     {t.rotating.length ? ` such as ${t.rotating.slice(-3).map((r) => r.area.label).join(", ")}` : ""}. Chapter MCQs are the fastest way to cover them.
                   </li>
                   {p.notes?.length ? <li><strong style={{ color: "var(--text-1)" }}>Check the syllabus.</strong> {p.notes[0]}</li> : null}
@@ -355,7 +358,7 @@ export default async function PaperPage({ params }: Props) {
                     <div key={`${sitting.slug}-${question.n}`}>
                       <Example ex={question.walkthrough!.example} collapsible />
                       <p className="text-sm mt-2">
-                        Topic seen in <Link href={questionUrl(p, sitting, question)} style={link}>{p.code} {sitting.name} Q{question.n}</Link> – full walkthrough there.
+                        Topic seen in <Link href={questionUrl(p, sitting, question)} style={link}>{p.code} {sitting.name} {qLabel(question)}</Link> – full walkthrough there.
                       </p>
                     </div>
                   ))}
