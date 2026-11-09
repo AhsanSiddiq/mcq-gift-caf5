@@ -83,7 +83,7 @@ export const blogs: BlogPost[] = [
         <li><strong>Keep short questions in the mix.</strong> Objective questions are still a quick way to check whether you can identify the technique a scenario needs. Our free <a href="/caf/caf-1/mcqs">CAF-1</a> and <a href="/caf/caf-5/mcqs">CAF-5</a> banks are a starting point.</li>
       </ul>
 
-      <p>Also read <a href="/blog/icap-caf-exam-time-management-mcqs">managing time in CAF papers</a> before your first sitting, and note that Group B papers open only after you pass two Group A papers.</p>
+      <p>Also read <a href="/blog/icap-caf-exam-time-management-mcqs">managing time in CAF papers</a> before your first sitting. ICAP&apos;s rules on which CAF papers you can combine in a sitting have changed recently, so check the latest examination directive on icap.org.pk before you register.</p>
     `
   },
   {
@@ -166,7 +166,7 @@ export const blogs: BlogPost[] = [
       <h2>2. Entry With a Degree or Professional Qualification</h2>
       <ul>
         <li><strong>Degree holders:</strong> graduates may be exempt from PRC and some CAF papers, depending on the degree, the subjects studied and whether the institution is on ICAP's list of specified or recognised degree-awarding institutes (SDAI/RDAI). Four-year graduates also have their own training route and stipend rates, covered in our <a href="/blog/icap-articleship-stipend-2026">stipend guide</a>.</li>
-        <li><strong>Professional qualifications:</strong> ICAP grants exemptions to people who hold qualifications such as ACCA, CIMA, ICMAP and PIPFA, with a separate exemption fee for each. For example, someone who has passed all ACCA papers is exempt from all PRC papers and several CAF papers (details in <a href="/blog/ca-vs-acca-in-pakistan">CA vs ACCA in Pakistan</a>).</li>
+        <li><strong>Professional qualifications:</strong> ICAP grants exemptions to people who hold qualifications such as ACCA, CIMA, ICMAP and PIPFA, with a separate exemption fee for each. The papers you are exempt from depend on your qualification and when you passed it, so check ICAP&apos;s current exemption schedule on icap.org.pk before you plan your attempts (see also <a href="/blog/ca-vs-acca-in-pakistan">CA vs ACCA in Pakistan</a>).</li>
       </ul>
       <p>Exemptions are not granted on a result-awaiting basis, so apply once your final results are out. See our <a href="/blog/icap-exemptions-policy-2025-guide">exemptions guide</a> for how ICAP assesses them.</p>
     `
@@ -187,7 +187,7 @@ export const blogs: BlogPost[] = [
       <h2>Common Situations</h2>
       <ul>
         <li><strong>Degree holders:</strong> exemptions depend on the degree, the subjects you took and your marks in them, and whether your institution is on ICAP's list of specified or recognised degree-awarding institutes (SDAI/RDAI). Graduates of those institutes also have their own training route and stipend rates.</li>
-        <li><strong>ACCA members:</strong> under the 2025 scheme, a person who has passed all ACCA papers is exempt from all PRC papers, CAF-1, CAF-5 and CAF-6, plus CAF-8 where Advanced Audit and Assurance has been passed. The remaining CAF papers, including <a href="/caf/caf-2">CAF-2 Tax</a> and <a href="/caf/caf-4">CAF-4 Law</a>, still have to be sat. More in <a href="/blog/ca-vs-acca-in-pakistan">CA vs ACCA in Pakistan</a>.</li>
+        <li><strong>ACCA members and affiliates:</strong> ICAP grants exemptions to ACCA-qualified candidates, but the exact papers depend on ICAP&apos;s current exemption schedule and on which ACCA papers you passed. Check the schedule on icap.org.pk (or ask ICAP&apos;s Student Services) before you plan. Pakistan-specific papers such as <a href="/caf/caf-2">CAF-2 Tax</a> and <a href="/caf/caf-4">CAF-4 Law</a> are generally where ACCA-qualified candidates need the most work. More in <a href="/blog/ca-vs-acca-in-pakistan">CA vs ACCA in Pakistan</a>.</li>
         <li><strong>Other professional bodies:</strong> ICAP's fee schedule lists exemption fees for CIMA, ICMAP and PIPFA qualified candidates, and for members of bodies such as ICAEW, ICAI, ICAS, CAANZ and CPA Canada. What each one exempts you from is set out in ICAP's exemption rules.</li>
         <li><strong>Hands-on courses and integrated modules:</strong> these can also be exempted, with a per-course fee, where you can show equivalent prior learning.</li>
       </ul>
@@ -234,9 +234,9 @@ export const blogs: BlogPost[] = [
       <p>The rules that shape your plan:</p>
       <ul>
         <li><strong>Maximum four papers per sitting.</strong> There is no minimum, so you can sit one paper if you want to.</li>
-        <li><strong>Group B unlocks after two Group A passes.</strong> You can appear in Group B papers once you have passed two papers of Group A. Your first CAF session should therefore be built around Group A.</li>
+        <li><strong>Paper combinations.</strong> ICAP&apos;s September 2026 examination directive allows up to four CAF papers in a sitting. Earlier Scheme 2025 documents required two Group A passes before Group B; check the current directive on icap.org.pk for the rule that applies to you.</li>
         <li><strong>Two sessions a year.</strong> CAF exams are held semi-annually, in Spring and Autumn. Missing a session costs you six months, not two.</li>
-        <li><strong>Time limit:</strong> ICAP's Scheme 2025 principles document sets a five-year window from your first CAF attempt, with an extra year if no more than two papers remain. The scheme FAQs show different treatment for some existing examinees. Check which applies to you on icap.org.pk.</li>
+        <li><strong>Time limit:</strong> ICAP&apos;s documents have differed on this: the Scheme 2025 principles described a five-year window for CAF, while ICAP&apos;s July 2026 FAQs state there is no time limit. Confirm the current position on icap.org.pk.</li>
       </ul>
       <p>With a four-paper cap and two sessions a year, the fastest realistic CAF route is two sittings. Most students take longer, and that is fine. What is not fine is sitting four papers when you are only ready for two and failing all four.</p>
 
@@ -259,7 +259,7 @@ export const blogs: BlogPost[] = [
 
       <h2>FAQs</h2>
       <p><strong>What are the passing marks for ICAP CAF?</strong><br/>At least 50% in each CAF paper, as of October 2026. Confirm on icap.org.pk before your session.</p>
-      <p><strong>How many CAF papers can I attempt in one sitting?</strong><br/>A maximum of four. There is no minimum. Group B papers open up after you pass two Group A papers.</p>
+      <p><strong>How many CAF papers can I attempt in one sitting?</strong><br/>A maximum of four, under ICAP&apos;s September 2026 examination directive. There is no minimum. Check the current directive for any group restrictions that apply to you.</p>
       <p><strong>How long do I have to pass PRC?</strong><br/>Fifteen months from the month of your first PRC attempt.</p>
       <p><strong>How often are ICAP exams held?</strong><br/>PRC six times a year, CAF twice a year (Spring and Autumn), CFAP quarterly from Summer 2026, and the Strategic Case Study twice a year.</p>
       <p><strong>Is negative marking used in PRC?</strong><br/>ICAP's PRC FAQs do not describe negative marking. They do say multiple-response questions earn marks only when fully correct. Practise <a href="/practice">timed MCQs</a> so partial knowledge turns into complete answers.</p>
@@ -389,15 +389,8 @@ export const blogs: BlogPost[] = [
       </ul>
 
       <h2>Switching from ACCA to CA: ICAP's Exemptions</h2>
-      <p>Under ICAP's 2025 scheme, a person who has <strong>passed all papers of ACCA (UK)</strong> is exempt from:</p>
-      <ul>
-        <li>All papers of PRC;</li>
-        <li>CAF-1 Financial Accounting and Reporting;</li>
-        <li>CAF-5 Management Accounting;</li>
-        <li>CAF-6 Corporate Reporting; and</li>
-        <li>CAF-8 Audit and Assurance Essentials, but only where Advanced Audit and Assurance has been passed.</li>
-      </ul>
-      <p>That leaves CAF-2 Taxation, CAF-3 Data, Systems and Risks, CAF-4 Business Law Dynamics and CAF-7 Business Insights and Analysis (plus CAF-8 if you did not take AAA), then CFAP, the Strategic Case Study and training. The two Pakistan-heavy papers, <a href="/caf/caf-2">CAF-2 Tax</a> and <a href="/caf/caf-4">CAF-4 Law</a>, are where ACCA affiliates usually need the most work. ICAP's exemption fee for ACCA-qualified candidates is Rs. 22,200 for three papers or Rs. 29,600 for four (as of October 2026). Note that the exemption applies to people who have passed <em>all</em> ACCA papers. More detail is in our <a href="/blog/icap-exemptions-policy-2025-guide">ICAP exemptions guide</a>.</p>
+      <p>ICAP grants paper exemptions to ACCA-qualified candidates, but which papers you are exempt from depends on ICAP&apos;s current exemption schedule and on the ACCA papers you have passed. ICAP updates the schedule when its scheme changes, so take the list from icap.org.pk (or ICAP&apos;s Student Services) rather than from coaching-centre summaries, and check the exemption fee in ICAP&apos;s current fee schedule.</p>
+      <p>Whatever the exemptions, the Pakistan-specific papers, <a href="/caf/caf-2">CAF-2 Tax</a> and <a href="/caf/caf-4">CAF-4 Law</a>, are where ACCA-qualified candidates usually need the most work, followed by CFAP, the Strategic Case Study and training. More detail is in our <a href="/blog/icap-exemptions-policy-2025-guide">ICAP exemptions guide</a>.</p>
 
       <h2>Switching from CA to ACCA</h2>
       <p>ACCA can award exemptions from a maximum of <strong>nine exams</strong>, the Applied Knowledge and Applied Skills levels. It does not award exemptions from any Strategic Professional exam, so every route into ACCA ends with at least four exams. You pay an exemption fee for each exam exempted.</p>
@@ -409,7 +402,7 @@ export const blogs: BlogPost[] = [
 
       <h2>FAQs</h2>
       <p><strong>Is CA or ACCA better in Pakistan?</strong><br/>For audit, tax and practice roles in Pakistan, CA is the traditional choice. For international mobility and working while you study, ACCA is more flexible. Neither is better in general.</p>
-      <p><strong>How many exemptions does an ACCA member get in ICAP?</strong><br/>All PRC papers plus CAF-1, CAF-5 and CAF-6, and CAF-8 if Advanced Audit and Assurance was passed, under the 2025 scheme. Confirm on icap.org.pk.</p>
+      <p><strong>How many exemptions does an ACCA member get in ICAP?</strong><br/>It depends on ICAP&apos;s current exemption schedule and the ACCA papers you passed. Check the schedule on icap.org.pk or ask ICAP Student Services before planning your attempts.</p>
       <p><strong>What is the pass mark in ACCA and ICAP?</strong><br/>50% in both, per paper.</p>
       <p><strong>Can CA students get ACCA exemptions?</strong><br/>Yes, up to the nine Applied Knowledge and Applied Skills exams, depending on what you have passed. No Strategic Professional exams can be exempted. Use ACCA's exemptions calculator for your exact list.</p>
     `
@@ -578,7 +571,7 @@ export const blogs: BlogPost[] = [
       <p>CAF-5 Management Accounting is the paper students either love or dread. There is very little theory to memorise and a lot of calculation to get right under time pressure. These <strong>CAF-5 tips</strong> are built on ICAP's own syllabus (the current CAF syllabus document, labelled for Spring 2027): where the marks sit, which topics can carry the big questions, and how to practise so that the exam feels familiar. Check the latest syllabus on icap.org.pk before your attempt; details here are as of October 2026.</p>
 
       <h2>Where CAF-5 Sits</h2>
-      <p><a href="/caf/caf-5">CAF-5</a> is a Group B paper. Under ICAP's rules you can appear in Group B papers only after passing two Group A papers, and you can take at most four CAF papers in one sitting. The paper builds directly on PRC-1 (cost of inventory, manufacturing accounts) and the decision-making techniques come back in more advanced form at CFAP, so the effort pays off twice.</p>
+      <p><a href="/caf/caf-5">CAF-5</a> is a Group B paper. ICAP's September 2026 examination directive allows up to four CAF papers in one sitting; earlier Scheme 2025 documents required two Group A passes before Group B, so check the current directive before you register. The paper builds directly on PRC-1 (cost of inventory, manufacturing accounts) and the decision-making techniques come back in more advanced form at CFAP, so the effort pays off twice.</p>
 
       <h2>The Syllabus Weightage</h2>
       <p>ICAP splits CAF-5 into three areas:</p>
@@ -636,7 +629,7 @@ export const blogs: BlogPost[] = [
       <h2>FAQs</h2>
       <p><strong>What is the passing mark for CAF-5?</strong><br/>At least 50%, like every ICAP paper, as of October 2026.</p>
       <p><strong>Which topics are most important in CAF-5?</strong><br/>The T2 topics can carry up to 20 marks each: variances, process costing, absorption/marginal/ABC, CVP, decision-making, EOQ and manufacturing accounts. Areas A and C together make up 65-85% of the paper.</p>
-      <p><strong>Can I take CAF-5 in my first CAF sitting?</strong><br/>Generally no. CAF-5 is a Group B paper, and Group B opens only after you pass two Group A papers. If you hold exemptions, confirm with ICAP how they count toward this.</p>
+      <p><strong>Can I take CAF-5 in my first CAF sitting?</strong><br/>ICAP&apos;s September 2026 examination directive allows up to four CAF papers per sitting, but earlier Scheme 2025 documents restricted Group B papers such as CAF-5 until two Group A papers were passed. Check the current directive on icap.org.pk, and confirm with ICAP how any exemptions count.</p>
       <p><strong>Where can I practise CAF-5 MCQs for free?</strong><br/>Use our <a href="/caf/caf-5/mcqs">CAF-5 MCQ bank</a> or the topic-wise tests in the <a href="/practice">practice hub</a>.</p>
     `
   },
@@ -1362,7 +1355,7 @@ export const blogs: BlogPost[] = [
 
       <h2>For ICAP (Pakistan) Students and Members</h2>
       <p>The same principle applies: your PRC, CAF or CFAP passes go into the calculator, and ACCA's answer is final. We have not found an official ACCA page that publishes a fixed ICAP-to-ACCA exemption list, so be careful with numbers quoted online.</p>
-      <p>Going the other way, ICAP's own 2025 scheme gives exemptions to people who have passed <strong>all</strong> ACCA papers, covering all PRC papers plus CAF-1, CAF-5 and CAF-6, and CAF-8 if Advanced Audit and Assurance was passed. That is covered in our <a href="/blog/icap-exemptions-policy-2025-guide">ICAP exemptions guide</a> and <a href="/blog/ca-vs-acca-in-pakistan">CA vs ACCA in Pakistan</a>.</p>
+      <p>Going the other way, ICAP grants exemptions to ACCA-qualified candidates; the exact papers depend on ICAP's current exemption schedule and the ACCA papers you passed, so check it on icap.org.pk. That is covered in our <a href="/blog/icap-exemptions-policy-2025-guide">ICAP exemptions guide</a> and <a href="/blog/ca-vs-acca-in-pakistan">CA vs ACCA in Pakistan</a>.</p>
 
       <h2>Should You Accept Every Exemption?</h2>
       <p>Not automatically. An exemption saves an exam fee and study time, but it also skips content later exams assume you know. ACCA itself suggests considering whether you need extra preparation before the higher-level exams. A few guidelines from experience:</p>

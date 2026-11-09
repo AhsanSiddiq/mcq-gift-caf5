@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://www.thecahub.com/about" },
   title: { absolute: "About The CA Hub – Who Runs It and What It Offers" },
   description:
-    "The CA Hub is run by Muhammad Ahsan Siddiq, an ICAP CA finalist who was the first student in ICAP's 64-year history to clear all six CFAP papers in a single attempt. Free MCQ practice for ICAP, ACCA, ICAI, CIMA, ICAEW and US CMA.",
+    "The CA Hub is run by Muhammad Ahsan Siddiq, a qualified Chartered Accountant (ICAP) and ACCA member, and the first student in ICAP's 64-year history to clear all six CFAP papers in a single attempt. Free MCQ practice for ICAP, ACCA, ICAI, CIMA, ICAEW and US CMA.",
 };
 
 const OFFERS: { title: string; body: string; href: string }[] = [
@@ -46,7 +46,7 @@ export default function About() {
       </h1>
       <p className="text-lg leading-relaxed mb-16 max-w-2xl" style={{ color: "var(--text-2)", fontFamily: "var(--font-inter), sans-serif" }}>
         The CA Hub (thecahub.com) is an independent exam-practice site for accountancy students. It is built and run by
-        Muhammad Ahsan Siddiq, a CA finalist with the Institute of Chartered Accountants of Pakistan (ICAP).
+        Muhammad Ahsan Siddiq, a qualified Chartered Accountant (member of the Institute of Chartered Accountants of Pakistan, ICAP) and a member of ACCA.
       </p>
 
       <div className="flex flex-col md:flex-row gap-12 md:gap-20 items-start mb-20">
@@ -57,7 +57,7 @@ export default function About() {
           <div className="mt-4 p-4 rounded-xl" style={{ background: "var(--bg-2)", border: "1px solid var(--border)" }}>
             <p className="font-bold text-sm" style={{ color: "var(--text-1)" }}>Muhammad Ahsan Siddiq</p>
             <p className="text-xs mt-1" style={{ color: "var(--text-3)", fontFamily: "var(--font-inter), sans-serif" }}>
-              Founder · CA Finalist (ICAP) · ACCA Affiliate · CFA Level I
+              Founder · Chartered Accountant (ICAP) · ACCA Member · CFA Level I
             </p>
           </div>
         </div>
@@ -69,7 +69,7 @@ export default function About() {
             clear all six CFAP (final-level) papers in a single attempt. ICAP created a special Gold Medal to recognise the result.
           </p>
           <p className="text-base leading-relaxed" style={{ color: "var(--text-2)" }}>
-            He sat those papers while also pursuing ACCA, where he is now an affiliate, and sitting CFA Level I.
+            He sat those papers while also pursuing ACCA and CFA Level I. He is now a qualified Chartered Accountant (ICAP) and a member of ACCA.
           </p>
           <p className="text-base leading-relaxed" style={{ color: "var(--text-2)" }}>
             He started The CA Hub after finals because the resources he had relied on were expensive, scattered across
@@ -77,7 +77,7 @@ export default function About() {
             material and accurate exam information in one free place.
           </p>
           <p className="text-base leading-relaxed" style={{ color: "var(--text-2)" }}>
-            Muhammad Ahsan Siddiq writes or reviews the study articles and oversees the question banks. How content is
+            Muhammad Ahsan Siddiq oversees the question banks and study articles. How content is
             written, checked and corrected is set out in our <Link href="/editorial-policy" className="underline" style={{ color: "var(--green)" }}>editorial policy</Link>.
           </p>
         </div>
@@ -87,7 +87,7 @@ export default function About() {
         {[
           { num: "6/6", label: "CFAP papers in one attempt", sub: "First in ICAP's 64-year history", color: "#3DB371" },
           { num: "Gold", label: "Special Gold Medal", sub: "Created by ICAP for this result", color: "#F5A623" },
-          { num: "3", label: "Qualifications", sub: "CA Finalist · ACCA Affiliate · CFA Level I", color: "#60A5FA" },
+          { num: "3", label: "Qualifications", sub: "Chartered Accountant (ICAP) · ACCA Member · CFA Level I", color: "#60A5FA" },
         ].map(s => (
           <div key={s.label} className="p-6 rounded-2xl text-center" style={{ background: "var(--bg-2)", border: `1px solid ${s.color}22` }}>
             <div className="font-display font-bold text-3xl mb-1" style={{ color: s.color }}>{s.num}</div>

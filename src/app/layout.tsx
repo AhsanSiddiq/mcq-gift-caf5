@@ -177,7 +177,7 @@ export default function RootLayout({
               founder: {
                 "@type": "Person",
                 name: "Muhammad Ahsan Siddiq",
-                jobTitle: "ICAP CFAP Gold Medalist, ACCA Affiliate, CFA Level I",
+                jobTitle: "Chartered Accountant (ICAP), ACCA Member, CFAP Gold Medalist",
                 url: BASE_URL,
               },
               sameAs: [
