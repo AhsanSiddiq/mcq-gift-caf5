@@ -8,7 +8,6 @@ const supabaseAdmin = createClient(
   process.env.SUPABASE_SERVICE_KEY!
 );
 
-const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(req: NextRequest) {
   try {
@@ -37,6 +36,8 @@ export async function POST(req: NextRequest) {
     }
 
     /* 2 ── Send email alert ── */
+    // Created per request so a missing key never breaks the build
+    const resend = new Resend(process.env.RESEND_API_KEY);
     const { error: emailError } = await resend.emails.send({
       from: "The CA Hub <noreply@thecahub.com>",
       to:   "ahsansiddiq01@gmail.com",
