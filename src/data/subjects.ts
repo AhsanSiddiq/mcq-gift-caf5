@@ -370,3 +370,40 @@ export const caFoundationSubjects: Subject[] = [
 
 export const icapSubjects = [...prcSubjects, ...cafSubjects];
 export const allSubjects = [...prcSubjects, ...cafSubjects, ...accaSubjects, ...accaSkillsSubjects, ...caFoundationSubjects, ...caInterSubjects, ...cimaSubjects, ...icaewSubjects, ...cmaSubjects];
+
+/**
+ * The name students actually type into Google for a paper — used in page titles and
+ * descriptions. ICAI papers are searched by everyday names ("CA Foundation Maths",
+ * "CA Inter Law"), ICAP papers with the "ICAP" prefix; everything else is code + title.
+ */
+const SEARCH_NAMES: Record<string, string> = {
+  "ca-foundation-qa": "CA Foundation Maths, LR & Stats (Paper 3 QA)",
+  "ca-foundation-be": "CA Foundation Business Economics (Paper 4)",
+  "ca-inter-aa": "CA Inter Advanced Accounting (Paper 1)",
+  "ca-inter-law": "CA Inter Corporate & Other Laws (Paper 2)",
+  "ca-inter-cma": "CA Inter Cost & Management Accounting (Paper 4)",
+  "ca-inter-audit": "CA Inter Auditing & Ethics (Paper 5)",
+  "ca-inter-fmsm": "CA Inter FM & SM (Paper 6)",
+};
+
+export function searchName(s: Pick<Subject, "id" | "code" | "title" | "level">): string {
+  if (SEARCH_NAMES[s.id]) return SEARCH_NAMES[s.id];
+  const code = subjectCode(s);
+  return s.level === "PRC" || s.level === "CAF" ? `ICAP ${code} ${s.title}` : `${code} ${s.title}`;
+}
+
+/** Short form for chapter titles, e.g. "CA Foundation QA", "ICAP PRC-1", "ACCA FA". */
+export function shortSearchName(s: Pick<Subject, "id" | "code" | "level">): string {
+  const m: Record<string, string> = {
+    "ca-foundation-qa": "CA Foundation Maths",
+    "ca-foundation-be": "CA Foundation Economics",
+    "ca-inter-aa": "CA Inter Accounts",
+    "ca-inter-law": "CA Inter Law",
+    "ca-inter-cma": "CA Inter Costing",
+    "ca-inter-audit": "CA Inter Audit",
+    "ca-inter-fmsm": "CA Inter FM SM",
+  };
+  if (m[s.id]) return m[s.id];
+  const code = subjectCode(s);
+  return s.level === "PRC" || s.level === "CAF" ? `ICAP ${code}` : code;
+}

@@ -70,7 +70,7 @@ export const EXAM_BODIES: ExamBody[] = [
     region: "India",
     status: "live",
     practiceHref: "/exams/icai#practice",
-    tagline: "CA Foundation objective papers and Intermediate/Final MCQ sections.",
+    tagline: "CA Foundation Maths and Economics MCQs, plus the MCQ sections of five CA Inter papers.",
     levels: [
       {
         name: "CA Foundation",

@@ -4,7 +4,7 @@ import { LegalPage, Section, linkStyle, SUPPORT_EMAIL } from "@/components/legal
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.thecahub.com/terms" },
-  title: "Terms of Service | The CA Hub",
+  title: "Terms of Service",
   description: "Terms of Service for The CA Hub — free practice, Pro subscriptions, payments and acceptable use.",
 };
 
