@@ -21,6 +21,7 @@ const NAV = [
     links: [
       { label: "The Story", href: "/about" },
       { label: "Articles", href: "/blog" },
+      { label: "Past Papers", href: "/past-papers" },
       { label: "IFRS & IAS Standards", href: "/standards" },
       { label: "Get the Guide", href: "/#capture" },
     ],

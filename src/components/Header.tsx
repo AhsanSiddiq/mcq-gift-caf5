@@ -13,6 +13,7 @@ import { QUAL_GROUPS, dailyHrefFor, paperCode, subjectHomeHref, type QualGroup }
 
 const NAV_LINKS = [
   { label: "Practice",  href: "/practice" },
+  { label: "Past Papers", href: "/past-papers" },
   { label: "Daily",     href: "/daily" },
   { label: "Tools",     href: "/tools" },
   { label: "Standards", href: "/standards" },
