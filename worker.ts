@@ -21,6 +21,13 @@ function needsCountryCookie(request: Request): boolean {
 
 export default {
   async fetch(request: Request, env: Env, ctx: Ctx): Promise<Response> {
+    // Canonical host is www (as on Vercel): 301 the bare domain so search engines see one site.
+    const url = new URL(request.url);
+    if (url.hostname === "thecahub.com") {
+      url.hostname = "www.thecahub.com";
+      return Response.redirect(url.toString(), 301);
+    }
+
     const response: Response = await handler.fetch(request, env, ctx);
     if (!needsCountryCookie(request)) return response;
 
