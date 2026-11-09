@@ -3309,5 +3309,583 @@ export const blogs: BlogPost[] = [
         <li><a href="https://student.icap.org.pk/viewfile/?add=students/scheme2025/prc/&file=PRC-Syllabus.pdf" target="_blank" rel="noopener noreferrer">ICAP: Pre-Requisite Competencies Syllabus (PRC-2 linear programming)</a></li>
       </ul>
     `
+  },
+  {
+    slug: "ca-foundation-exam-rules-attempts-registration-validity",
+    title: "CA Foundation Exam Rules Under the New Scheme: Papers, Negative Marking, Attempts and Registration Validity",
+    excerpt: "The rules ICAI actually applies to CA Foundation: which papers are objective, how negative marking and the 40/50 passing rule work, three exam windows a year, the four-month registration cut-off and the four-year validity of your registration.",
+    tag: "CA Foundation",
+    date: "November 9, 2026",
+    readTime: "6 min read",
+    content: `
+      <p>Most Foundation students know there are four papers. Far fewer know the rules that decide when they can sit, how many chances they get and how a quarter-mark penalty changes their score. This is a rules reference, built from ICAI's own FAQs on the New Scheme of Education and Training and the Examination Department's announcement for January 2027. For a paper-by-paper study approach, read our separate guide to the <a href="/blog/ca-foundation-exam-pattern-passing-marks">CA Foundation exam pattern and passing marks</a>.</p>
+
+      <h2>The Scheme You Are Under</h2>
+      <p>ICAI launched the New Scheme of Education and Training on 1 July 2023. ICAI's new-scheme syllabus and weightage apply to Foundation exams from the 2024 cycle onwards (the weightage notice says May 2024 and later). If you registered under the old scheme, ICAI's conversion rules apply to you, so check your status on the Self Service Portal (eservices.icai.org) rather than relying on a coaching handout.</p>
+
+      <h2>The Four Papers</h2>
+      <ul>
+        <li><strong>Paper 1, Accounting (100 marks):</strong> subjective (descriptive), 3 hours, 2 PM to 5 PM IST.</li>
+        <li><strong>Paper 2, Business Laws (100 marks):</strong> subjective, 3 hours, 2 PM to 5 PM IST.</li>
+        <li><strong>Paper 3, Quantitative Aptitude (100 marks):</strong> objective, 2 hours, 2 PM to 4 PM IST. Three parts: Business Mathematics (40 marks), Logical Reasoning (20) and Statistics (40).</li>
+        <li><strong>Paper 4, Business Economics (100 marks):</strong> objective, 2 hours, 2 PM to 4 PM IST.</li>
+      </ul>
+      <p>Papers 1 and 2 get 15 minutes of advance reading time (1.45 PM to 2 PM IST). Papers 3 and 4 get none, so the clock starts on the first question. The recent objective papers (for example May 2026 Paper 3) carry 100 compulsory questions for 100 marks, answered on an OMR sheet. You can answer in English or Hindi; you choose the medium on the exam form.</p>
+
+      <h2>Negative Marking</h2>
+      <p>ICAI deducts <strong>0.25 marks for every wrong answer in the objective papers</strong>. There is no penalty in Papers 1 and 2. In Papers 3 and 4 a blank scores zero.</p>
+      <p><strong>Worked example.</strong> In Paper 3 you answer 82 questions and leave 18 blank. 66 are correct and 16 are wrong.</p>
+      <ul>
+        <li>Marks for correct answers: 66 x 1 = 66</li>
+        <li>Deduction: 16 x 0.25 = 4</li>
+        <li>Score: 66 - 4 = <strong>62</strong></li>
+      </ul>
+      <p>Had you guessed all 18 blanks at random, you would expect about 4.5 right and 13.5 wrong: +4.5 - 3.4 = roughly +1.1 marks, with real risk of losing more. Guess only when you can rule out at least two options.</p>
+
+      <h2>The Passing Rule</h2>
+      <p>You pass Foundation if, <strong>at one sitting</strong>, you score at least <strong>40% in each paper</strong> and at least <strong>50% in the aggregate</strong> of all four papers (200 out of 400). ICAI's FAQ describes no paper-wise exemption at Foundation, so plan to clear all four in the same attempt.</p>
+      <ul>
+        <li>48, 41, 62, 54 = 205. Every paper is 40 or above and the total is over 200: <strong>pass</strong>.</li>
+        <li>44, 40, 58, 52 = 194. Every paper clears 40, but the total is 6 short: <strong>not a pass</strong>, and all four papers must be taken again.</li>
+        <li>39, 60, 75, 66 = 240. A strong total, but one paper is below 40: <strong>not a pass</strong>.</li>
+      </ul>
+
+      <h2>How Many Attempts a Year</h2>
+      <p>Foundation exams are now held <strong>three times a year: January, May and September</strong>. ICAI moved Foundation and Intermediate from two sittings to three in 2024. CA Final remains twice a year.</p>
+      <p>The January 2027 Foundation papers are on <strong>3, 5, 7 and 9 January 2027</strong> (ICAI announcement dated 23 September 2026). Online exam forms opened on 3 November 2026; the last date without late fee is 16 November 2026, and with a late fee of ₹600 it is 19 November 2026. A correction window for exam city and medium runs from 20 to 22 November 2026. The exam fee for Indian centres is ₹1,500.</p>
+
+      <h2>When You Become Eligible</h2>
+      <ul>
+        <li><strong>Registration:</strong> you can register for Foundation after passing Class 10.</li>
+        <li><strong>First attempt:</strong> only after you have appeared in the Class 12 examination.</li>
+        <li><strong>Four-month cut-off:</strong> you must be registered on or before the 1st day of the month that falls four months before the exam month. For January exams that is 1 September of the previous year; for May, 1 January; for September, 1 May.</li>
+      </ul>
+      <p><strong>Example.</strong> You finish Class 12 boards in March 2026 and register with the Board of Studies on 20 January 2026. The 1 January 2026 cut-off for May 2026 has passed, so your first eligible attempt is September 2026.</p>
+      <p>ICAI's FAQ (last updated 27 September 2024) puts the Foundation registration fee at ₹9,000, including study material. Fees change, so confirm on the <a href="https://www.icai.org/post/foundation-nset" target="_blank" rel="noopener noreferrer">ICAI Foundation page</a> before you pay.</p>
+
+      <h2>How Long Your Registration Lasts</h2>
+      <p>Foundation registration is valid for <strong>4 years from your first eligible attempt</strong>, and ICAI does not permit revalidation at Foundation level. With three sittings a year, that window covers up to twelve exam sessions in principle. In practice, every failed attempt costs you four months of Intermediate study time, so treat the first attempt as the one that counts.</p>
+
+      <h2>What Changes Your Plan</h2>
+      <ul>
+        <li><strong>Objective papers are aggregate builders.</strong> A well-prepared student can push QA into the 70s; that buys slack for the written papers.</li>
+        <li><strong>No reading time in Papers 3 and 4.</strong> Your 2 hours are pure answering time, 72 seconds a question.</li>
+        <li><strong>The penalty is small but real.</strong> Most marks are lost to slips on questions you know, not to guesses.</li>
+      </ul>
+      <p>Drill the objective papers chapter by chapter with our free <a href="/ca-foundation/ca-foundation-qa/mcqs">Quantitative Aptitude MCQ bank</a> and <a href="/ca-foundation/ca-foundation-be/mcqs">Business Economics MCQ bank</a>, then switch to timed tests on the <a href="/ca-foundation/ca-foundation-qa">QA</a> and <a href="/ca-foundation/ca-foundation-be">BE</a> practice pages. For the final month, our guide to <a href="/blog/icai-rtp-mtp-past-papers-how-to-use">ICAI RTPs, MTPs and past papers</a> covers the official mocks.</p>
+
+      <h2>FAQs</h2>
+      <p><strong>Which CA Foundation papers have negative marking?</strong><br/>Only the objective papers, Paper 3 (Quantitative Aptitude) and Paper 4 (Business Economics): 0.25 marks are deducted for each wrong answer.</p>
+      <p><strong>How many times a year is CA Foundation held?</strong><br/>Three: January, May and September.</p>
+      <p><strong>Can I carry forward a good score in one Foundation paper?</strong><br/>No. ICAI's FAQ describes no paper exemption at Foundation; you need 40% in each paper and 50% in aggregate in the same sitting.</p>
+      <p><strong>How long is CA Foundation registration valid?</strong><br/>Four years from your first eligible attempt, with no revalidation.</p>
+      <p><strong>Can I write the exam in Hindi?</strong><br/>Yes. ICAI allows English or Hindi medium for Foundation, selected on the exam form.</p>
+      <p><strong>Is there reading time in the MCQ papers?</strong><br/>No. Only Papers 1 and 2 get the 15-minute advance reading time.</p>
+
+      <h2>Sources</h2>
+      <ul>
+        <li>ICAI, <a href="https://icai-call-sahayata.icai.org/wp-content/uploads/2025/03/About-CA-Course-Oro-FAQ.pdf" target="_blank" rel="noopener noreferrer">FAQs on the New Scheme of Education and Training</a> (last updated 27 September 2024): papers, objective/subjective split, negative marking, passing rule, three sittings a year, registration cut-offs, fee, validity.</li>
+        <li>ICAI Examination Department, <a href="https://resource.cdn.icai.org/94359exam-aps6372-stu-iff-jan2027.pdf" target="_blank" rel="noopener noreferrer">Important Announcement for January 2027 examinations</a> (23 September 2026): dates, timings, reading time, exam form dates and fees, Hindi medium.</li>
+        <li>ICAI BoS, <a href="https://resource.cdn.icai.org/76829bos61899-foundation.pdf" target="_blank" rel="noopener noreferrer">Foundation syllabus with section-wise weightage</a> (issued 26 October 2023).</li>
+        <li>ICAI, <a href="https://resource.cdn.icai.org/93071bos-aps5734-fnd-may2026-p3.pdf" target="_blank" rel="noopener noreferrer">Foundation May 2026 Paper 3 question paper</a>.</li>
+        <li>ICAI BoS, <a href="https://boslive.icai.org/examination_announcement.php" target="_blank" rel="noopener noreferrer">examination announcements</a>. Always check here for changes after November 2026.</li>
+      </ul>
+    `
+  },
+  {
+    slug: "ca-foundation-qa-chapter-wise-worked-examples",
+    title: "CA Foundation Quantitative Aptitude Chapter by Chapter: Weightage and Worked Examples",
+    excerpt: "All 18 Paper 3 chapters mapped to ICAI's section weightage, with a short worked example for each recurring question type: ratios, indices and logarithms, time value of money, reasoning, statistics and probability.",
+    tag: "CA Foundation",
+    date: "November 9, 2026",
+    readTime: "8 min read",
+    content: `
+      <p>Paper 3 rewards students who can recognise a question type in ten seconds and know the shortest route to the answer. This guide goes chapter by chapter through ICAI's syllabus, gives the official weightage for each section, and works one representative question from each high-value area. For the exam pattern and a week-by-week plan, see our <a href="/blog/ca-foundation-quantitative-aptitude-preparation">Quantitative Aptitude preparation guide</a>.</p>
+
+      <h2>The Weightage in One View</h2>
+      <p>ICAI's section-wise weightage was issued on 26 October 2023 and applies from May 2024 until ICAI changes it. Each section may deviate by up to plus or minus 5%. The percentages below are shares of each part's marks.</p>
+      <ul>
+        <li><strong>Part A, Business Mathematics (40 marks):</strong> Section I, chapters 1 to 3 (ratio, indices, logarithms, equations, linear inequalities): 20% to 30%. Section II, chapter 4 (mathematics of finance): 30% to 40%. Section III, chapters 5 to 8 (permutations and combinations, sequences and series, sets, relations, functions, limits, calculus): 30% to 50%.</li>
+        <li><strong>Part B, Logical Reasoning (20 marks):</strong> chapters 9 to 12, each 20% to 30%.</li>
+        <li><strong>Part C, Statistics (40 marks):</strong> chapters 13 and 14 (data, sampling, central tendency and dispersion): 45% to 50%. Chapters 15 and 16 (probability, theoretical distributions): 25% to 30%. Chapter 17 (correlation and regression): 10% to 15%. Chapter 18 (index numbers): 10% to 15%.</li>
+      </ul>
+      <p>In marks, mathematics of finance is worth about 12 to 16 and chapters 13 and 14 together about 18 to 20. Those two blocks alone make up roughly a third of the paper.</p>
+
+      <h2>Business Mathematics</h2>
+      <h3>Chapter 1: Ratio and Proportion, Indices and Logarithms</h3>
+      <p><strong>Ratio.</strong> If a : b = 2 : 3 and b : c = 4 : 5, find a : b : c. Make b equal in both ratios by multiplying the first by 4 and the second by 3. That gives a : b = 8 : 12 and b : c = 12 : 15, so a : b : c = <strong>8 : 12 : 15</strong>.</p>
+      <p><strong>Indices.</strong> If 3<sup>n+1</sup> + 3<sup>n-1</sup> = 270, find n. Take out 3<sup>n-1</sup>: 3<sup>n-1</sup>(9 + 1) = 270, so 3<sup>n-1</sup> = 27 = 3<sup>3</sup> and <strong>n = 4</strong>.</p>
+      <p><strong>Logarithms.</strong> Given log 2 = 0.3010 and log 3 = 0.4771, find log 12. log 12 = log (2<sup>2</sup> x 3) = 2(0.3010) + 0.4771 = <strong>1.0791</strong>. Most log questions work the same way: break the number into prime factors and apply the three laws.</p>
+      <p>Practise: <a href="/ca-foundation/ca-foundation-qa/mcqs/chapter-1-ratio-and-proportion-indices-and-logarithms">Chapter 1 MCQs</a>.</p>
+
+      <h3>Chapters 2 and 3: Equations and Linear Inequalities</h3>
+      <p>For quadratic MCQs, use the sum of roots (-b/a) and the product of roots (c/a) instead of solving. For x<sup>2</sup> - 2x - 35 = 0 the roots are 7 and -5, with sum 2 and product -35. For inequalities, test a point such as (0, 0) against each inequality to see which side of the line is feasible. Practise: <a href="/ca-foundation/ca-foundation-qa/mcqs/chapter-2-equations">Equations</a>, <a href="/ca-foundation/ca-foundation-qa/mcqs/chapter-3-linear-inequalities">Linear Inequalities</a>.</p>
+
+      <h3>Chapter 4: Mathematics of Finance</h3>
+      <p>This is the largest single section. Learn the formulas until you can write them without thinking, and practise with your calculator's memory keys.</p>
+      <p><strong>Effective rate.</strong> 12% p.a. compounded quarterly: (1 + 0.03)<sup>4</sup> - 1 = 1.1255 - 1 = <strong>12.55%</strong>.</p>
+      <p><strong>Present value of an annuity.</strong> ₹10,000 received at the end of each year for 3 years at 10%: PV = 10,000 x [1 - (1.10)<sup>-3</sup>] / 0.10 = 10,000 x 2.4869 = <strong>₹24,869</strong> (approximately).</p>
+      <p><strong>EMI.</strong> A loan of ₹1,00,000 at 12% p.a., repaid monthly over 12 months. Monthly rate i = 1% and n = 12. EMI = P x i x (1 + i)<sup>n</sup> / [(1 + i)<sup>n</sup> - 1] = 1,00,000 x 0.01 x 1.1268 / 0.1268 = <strong>₹8,885</strong> (approximately).</p>
+      <p><strong>CAGR.</strong> An investment grows from ₹50,000 to ₹72,000 in 4 years. CAGR = (72,000 / 50,000)<sup>1/4</sup> - 1 = (1.44)<sup>0.25</sup> - 1 = <strong>9.54%</strong>. On an ordinary calculator, press the square-root key twice to take a fourth root.</p>
+      <p>Check your workings with our <a href="/tools/compound-interest-calculator">compound interest calculator</a> and <a href="/tools/loan-amortization-calculator">loan amortisation calculator</a>, then practise: <a href="/ca-foundation/ca-foundation-qa/mcqs/chapter-4-mathematics-of-finance">Chapter 4 MCQs</a>.</p>
+
+      <h3>Chapters 5 to 8: Permutations, Series, Sets and Calculus</h3>
+      <ul>
+        <li><strong>Combinations:</strong> a committee of 3 chosen from 7 people is <sup>7</sup>C<sub>3</sub> = 35. Six people seated round a table can be arranged in (6 - 1)! = 120 ways.</li>
+        <li><strong>Arithmetic progression:</strong> the sum of the first 20 terms of 3, 7, 11, ... is S = n/2 [2a + (n - 1)d] = 10 x [6 + 76] = 820.</li>
+        <li><strong>Calculus:</strong> if total cost C = 2x<sup>2</sup> + 5x + 100, marginal cost = dC/dx = 4x + 5, which is 45 at x = 10.</li>
+      </ul>
+      <p>Section III can carry up to half of Business Mathematics, so skipping calculus is expensive. Practise: <a href="/ca-foundation/ca-foundation-qa/mcqs/chapter-5-basic-concepts-of-permutations-and-combinations">Permutations and Combinations</a>, <a href="/ca-foundation/ca-foundation-qa/mcqs/chapter-6-sequence-and-series-arithmetic-and-geometric-progressions">Sequence and Series</a>, <a href="/ca-foundation/ca-foundation-qa/mcqs/chapter-7-sets-relations-and-functions-basics-of-limits-and-continuity">Sets, Relations, Functions and Limits</a>, <a href="/ca-foundation/ca-foundation-qa/mcqs/chapter-8-basic-applications-of-differential-and-integral-calculus-in">Calculus</a>.</p>
+
+      <h2>Logical Reasoning</h2>
+      <p><strong>Direction test.</strong> Ravi walks 5 km north, turns right and walks 3 km, then turns right again and walks 9 km. Where is he? Plot it: after the first two legs he is at (3, 5), and walking 9 km south takes him to (3, -4). His distance from the start is the square root of (3<sup>2</sup> + 4<sup>2</sup>) = <strong>5 km, to the south-east</strong>.</p>
+      <p>Draw every direction and seating question rather than holding it in your head. Twenty questions a day for a month makes this section close to risk-free. Practise: <a href="/ca-foundation/ca-foundation-qa/mcqs/chapter-9-number-series-coding-and-decoding-and-odd-man-out">Number Series and Coding</a>, <a href="/ca-foundation/ca-foundation-qa/mcqs/chapter-10-direction-tests">Direction Tests</a>, <a href="/ca-foundation/ca-foundation-qa/mcqs/chapter-11-seating-arrangements">Seating Arrangements</a>, <a href="/ca-foundation/ca-foundation-qa/mcqs/chapter-12-blood-relations">Blood Relations</a>.</p>
+
+      <h2>Statistics</h2>
+      <h3>Chapters 13 and 14: Data, Sampling, Central Tendency and Dispersion</h3>
+      <p>For the data 2, 4, 4, 4, 5, 5, 7, 9: mean = 40 / 8 = 5. The squared deviations are 9, 1, 1, 1, 0, 0, 4 and 16, totalling 32. Variance = 32 / 8 = 4, so SD = 2 and the coefficient of variation = 2 / 5 x 100 = <strong>40%</strong>. Also learn the effect of a change of origin and scale: adding a constant changes the mean but not the SD, and multiplying by k multiplies the SD by |k|. Practise: <a href="/ca-foundation/ca-foundation-qa/mcqs/chapter-13-statistical-description-of-data-and-sampling">Chapter 13</a>, <a href="/ca-foundation/ca-foundation-qa/mcqs/chapter-14-measures-of-central-tendency-and-dispersion">Chapter 14</a>.</p>
+
+      <h3>Chapters 15 and 16: Probability and Theoretical Distributions</h3>
+      <p>Two dice are thrown. P(sum = 8): the favourable outcomes are (2,6), (3,5), (4,4), (5,3) and (6,2), so the probability is <strong>5/36</strong>. For a binomial distribution with n = 10 and p = 0.4: mean = np = 4 and variance = npq = 10 x 0.4 x 0.6 = 2.4. A common trap: the variance of a binomial distribution is always less than its mean. Practise: <a href="/ca-foundation/ca-foundation-qa/mcqs/chapter-15-probability">Probability</a>, <a href="/ca-foundation/ca-foundation-qa/mcqs/chapter-16-theoretical-distributions">Theoretical Distributions</a>.</p>
+
+      <h3>Chapters 17 and 18: Correlation, Regression and Index Numbers</h3>
+      <p>If b<sub>xy</sub> = 0.4 and b<sub>yx</sub> = 0.9, then r = the square root of (0.4 x 0.9) = <strong>0.6</strong>, taking the common sign of the two coefficients. For a Laspeyres price index with item A (p<sub>0</sub> 10, q<sub>0</sub> 5, p<sub>1</sub> 12) and item B (p<sub>0</sub> 20, q<sub>0</sub> 2, p<sub>1</sub> 25), the index is (sum of p<sub>1</sub>q<sub>0</sub>) / (sum of p<sub>0</sub>q<sub>0</sub>) x 100 = 110 / 90 x 100 = <strong>122.22</strong>. Practise: <a href="/ca-foundation/ca-foundation-qa/mcqs/chapter-17-correlation-and-regression">Correlation and Regression</a>, <a href="/ca-foundation/ca-foundation-qa/mcqs/chapter-18-index-numbers">Index Numbers</a>.</p>
+
+      <h2>How to Use the Examples</h2>
+      <ul>
+        <li><strong>Solve before you look at the options.</strong> The distractors are built from the usual slips, such as using the nominal rate instead of the effective rate, or n instead of n - 1.</li>
+        <li><strong>Keep an error log by chapter.</strong> If three of your last ten errors are in mathematics of finance, your next session goes there.</li>
+        <li><strong>Mind the penalty.</strong> A wrong answer costs 0.25 marks, so a careless error on a question you could solve costs 1.25 marks compared with getting it right.</li>
+      </ul>
+      <p>Start with the full <a href="/ca-foundation/ca-foundation-qa/mcqs">CA Foundation QA MCQ bank</a>, then move to timed tests on the <a href="/ca-foundation/ca-foundation-qa">QA practice page</a>.</p>
+
+      <h2>FAQs</h2>
+      <p><strong>Which QA chapter carries the most marks?</strong><br/>Mathematics of finance, at 30% to 40% of Business Mathematics (about 12 to 16 marks). In Statistics, chapters 13 and 14 together carry 45% to 50% of the 40 marks.</p>
+      <p><strong>Can I skip calculus in CA Foundation?</strong><br/>It sits in Section III, which ICAI weights at 30% to 50% of Business Mathematics together with permutations, series and sets. Skipping it puts several marks at risk.</p>
+      <p><strong>Is a scientific calculator allowed?</strong><br/>No. ICAI's guidance notes (the Foundation notes for June 2024 and the Intermediate notes for September 2026, for example) allow a battery-operated calculator with up to 6 functions, 12 digits and two memories, and say scientific calculators are not allowed. Check the Foundation guidance note for your attempt in <a href="https://boslive.icai.org/examination_announcement.php" target="_blank" rel="noopener noreferrer">ICAI's examination announcements</a>.</p>
+      <p><strong>Are these worked examples from ICAI papers?</strong><br/>No. They are original examples written to match the question types in ICAI's papers. Use ICAI's RTPs, MTPs and past papers for actual exam questions.</p>
+
+      <h2>Sources</h2>
+      <ul>
+        <li>ICAI BoS, <a href="https://resource.cdn.icai.org/76829bos61899-foundation.pdf" target="_blank" rel="noopener noreferrer">Foundation syllabus with section-wise weightage</a> (issued 26 October 2023, applicable from May 2024).</li>
+        <li>ICAI, <a href="https://icai-call-sahayata.icai.org/wp-content/uploads/2025/03/About-CA-Course-Oro-FAQ.pdf" target="_blank" rel="noopener noreferrer">FAQs on the New Scheme of Education and Training</a>: 0.25-mark negative marking in objective papers.</li>
+        <li>ICAI, <a href="https://resource.cdn.icai.org/93071bos-aps5734-fnd-may2026-p3.pdf" target="_blank" rel="noopener noreferrer">Foundation May 2026 Paper 3 question paper</a>: 100 compulsory questions in 2 hours.</li>
+        <li>ICAI, <a href="https://resource.cdn.icai.org/78752fnd-guidance-june24.pdf" target="_blank" rel="noopener noreferrer">Foundation June 2024 guidance notes</a> and <a href="https://resource.cdn.icai.org/93054exam-aps5675-int-guide-sep2026.pdf" target="_blank" rel="noopener noreferrer">Intermediate September 2026 guidance notes</a>: calculator rules.</li>
+        <li>ICAI BoS, <a href="https://boslive.icai.org/" target="_blank" rel="noopener noreferrer">BoS Knowledge Portal</a>: study material, RTPs and MTPs for Paper 3.</li>
+      </ul>
+    `
+  },
+  {
+    slug: "ca-foundation-business-economics-high-weightage-chapters",
+    title: "CA Foundation Business Economics High-Weightage Chapters: Worked Numericals and Concept Traps",
+    excerpt: "The four Paper 4 chapters that carry half the marks under ICAI's weightage (price determination, national income, demand and supply, production and cost) worked through with the numericals and concept traps that recur in the MCQs.",
+    tag: "CA Foundation",
+    date: "November 9, 2026",
+    readTime: "7 min read",
+    content: `
+      <p>Under ICAI's weightage, four chapters of Business Economics carry half of Paper 4: Price Determination in Different Markets (15%), Determination of National Income (15%), Theory of Demand and Supply (10%) and Theory of Production and Cost (10%). They are also where most of the paper's numericals sit. This guide covers what each chapter tests, works the numericals you will meet, and flags the concept traps. For the full chapter list and a six-week plan, see <a href="/blog/ca-foundation-business-economics-important-topics">CA Foundation Business Economics important topics</a>.</p>
+
+      <h2>The Paper in Brief</h2>
+      <ul>
+        <li>100 marks, objective, 2 hours (2 PM to 4 PM IST), with no advance reading time.</li>
+        <li>0.25 marks deducted for each wrong answer. Blanks score zero.</li>
+        <li>ICAI's section weightage (issued 26 October 2023, applicable from May 2024) allows a deviation of up to plus or minus 5% per section. A "15%" chapter can therefore carry 10 to 20 marks.</li>
+      </ul>
+
+      <h2>1. Price Determination in Different Markets (15%)</h2>
+      <p>The syllabus covers perfect competition, monopoly, monopolistic competition, game theory applied to oligopoly, and price-output determination in each.</p>
+      <p><strong>Worked example: monopoly against perfect competition.</strong> Market demand is P = 20 - Q and marginal cost is constant at ₹4.</p>
+      <ul>
+        <li>Total revenue TR = 20Q - Q<sup>2</sup>, so MR = 20 - 2Q.</li>
+        <li>A monopolist sets MR = MC: 20 - 2Q = 4, so <strong>Q = 8</strong> and price P = 20 - 8 = <strong>₹12</strong>. With no fixed costs, profit = (12 - 4) x 8 = ₹64.</li>
+        <li>Under perfect competition, P = MC: 20 - Q = 4, so Q = 16 and P = ₹4.</li>
+      </ul>
+      <p>The monopolist produces less and charges more. Expect MCQs that test this comparison in words rather than numbers.</p>
+      <p><strong>Concept traps:</strong></p>
+      <ul>
+        <li>A perfectly competitive firm is a price taker, so its AR = MR = price and its demand curve is horizontal.</li>
+        <li>In the short run a firm keeps producing while price covers average variable cost; it shuts down when price falls below minimum AVC.</li>
+        <li>In long-run equilibrium under perfect competition and monopolistic competition, firms earn only normal profit. A monopolist can earn supernormal profit in the long run.</li>
+        <li>Under monopoly MR is less than price, so a profit-maximising monopolist never operates where demand is inelastic (where MR would be negative).</li>
+        <li>The prisoner's dilemma shows why oligopolists may fail to cooperate even when cooperation would raise their joint profit.</li>
+      </ul>
+      <p>Practise: <a href="/ca-foundation/ca-foundation-be/mcqs/chapter-4-price-determination-in-different-markets">Price Determination MCQs</a>.</p>
+
+      <h2>2. Determination of National Income (15%)</h2>
+      <p>Two halves: the macroeconomic aggregates and how they are measured, and Keynes' two-, three- and four-sector models of income determination.</p>
+      <p><strong>Worked example: from GDP to national income.</strong> GDP at market prices is ₹1,000 crore, depreciation is ₹100 crore, net factor income from abroad is -₹20 crore, and net indirect taxes are ₹80 crore.</p>
+      <ul>
+        <li>GNP at market prices = GDP<sub>MP</sub> + NFIA = 1,000 - 20 = ₹980 crore.</li>
+        <li>NNP at market prices = GNP<sub>MP</sub> - depreciation = 980 - 100 = ₹880 crore.</li>
+        <li>NNP at factor cost (national income) = NNP<sub>MP</sub> - net indirect taxes = 880 - 80 = <strong>₹800 crore</strong>.</li>
+      </ul>
+      <p><strong>Worked example: equilibrium income and the multiplier.</strong> In a two-sector economy, C = 50 + 0.8Y and investment I = 100.</p>
+      <ul>
+        <li>At equilibrium Y = C + I, so Y = 50 + 0.8Y + 100, which gives 0.2Y = 150 and <strong>Y = 750</strong>.</li>
+        <li>Investment multiplier k = 1 / (1 - MPC) = 1 / 0.2 = 5. If investment rises by 20, income rises by 100.</li>
+        <li>In an open economy with a marginal propensity to import of 0.05, k = 1 / (MPS + MPM) = 1 / (0.2 + 0.05) = 4. Imports are a leakage, so the multiplier is smaller.</li>
+      </ul>
+      <p><strong>Concept traps:</strong> the difference between market price and factor cost is net indirect taxes (indirect taxes less subsidies); between gross and net it is depreciation; between domestic and national it is net factor income from abroad. MPC + MPS = 1. Transfer payments such as old-age pensions are not part of national income.</p>
+      <p>Practise: <a href="/ca-foundation/ca-foundation-be/mcqs/chapter-5-determination-of-national-income">National Income MCQs</a>.</p>
+
+      <h2>3. Theory of Demand and Supply (10%)</h2>
+      <p>The law of demand, price, income and cross elasticity, consumer behaviour through indifference curves, supply and its elasticity, and market equilibrium.</p>
+      <p><strong>Worked example: price elasticity, two methods.</strong> Price rises from ₹10 to ₹12 and quantity demanded falls from 100 to 80 units.</p>
+      <ul>
+        <li><strong>Percentage method, using the original values:</strong> % change in quantity = -20/100 = -20%; % change in price = 2/10 = +20%. Elasticity = 20% / 20% = <strong>1</strong> (ignoring the minus sign).</li>
+        <li><strong>Arc (midpoint) method:</strong> (20 / 90) / (2 / 11) = 0.2222 / 0.1818 = <strong>1.22</strong>.</li>
+      </ul>
+      <p>The two methods give different answers, and both may appear among the options. Read the question for the method it asks for. If it gives two points and says "arc", use averages.</p>
+      <p><strong>Income and cross elasticity.</strong> Income rises from ₹20,000 to ₹25,000 (+25%) and demand rises from 10 to 12 units (+20%). Income elasticity = 20 / 25 = 0.8. It is positive and less than 1, so the good is a normal good and a necessity. If the price of tea rises 10% and demand for coffee rises 5%, cross elasticity is +0.5: positive, so they are substitutes. Complements have negative cross elasticity.</p>
+      <p><strong>Concept traps:</strong> a movement along the demand curve is caused only by the good's own price; a change in income, tastes or related prices shifts the curve. At consumer equilibrium the indifference curve is tangent to the budget line, so MRS<sub>xy</sub> = P<sub>x</sub> / P<sub>y</sub>.</p>
+      <p>Practise: <a href="/ca-foundation/ca-foundation-be/mcqs/chapter-2-theory-of-demand-and-supply">Demand and Supply MCQs</a>.</p>
+
+      <h2>4. Theory of Production and Cost (10%)</h2>
+      <p>The law of variable proportions, returns to scale, producer's equilibrium and short-run and long-run costs.</p>
+      <p><strong>Worked example: cost schedule.</strong> Total cost (₹) at outputs 0, 1, 2, 3 and 4 is 100, 150, 190, 240 and 300.</p>
+      <ul>
+        <li>Total fixed cost is the cost at zero output: ₹100.</li>
+        <li>At 3 units: TVC = 240 - 100 = 140, AVC = 46.67, AFC = 33.33 and ATC = 80.</li>
+        <li>Marginal cost of the 3rd unit = 240 - 190 = 50; of the 4th unit = 300 - 240 = 60.</li>
+        <li>ATC at 4 units = 75. MC (60) is below ATC, so ATC is still falling. MC cuts ATC and AVC at their minimum points.</li>
+      </ul>
+      <p><strong>Concept traps:</strong> AFC falls continuously as output rises and never touches zero. The law of variable proportions is a short-run law (one factor varies); returns to scale is a long-run concept (all factors vary). When marginal product is zero, total product is at its maximum.</p>
+      <p>Practise: <a href="/ca-foundation/ca-foundation-be/mcqs/chapter-3-theory-of-production-and-cost">Production and Cost MCQs</a>.</p>
+
+      <h2>The Other Half of the Paper</h2>
+      <p>The six remaining chapters carry the other 50%: Public Finance, Money Market, International Trade and Indian Economy at 10% each, and Introduction and Business Cycles at 5% each. They are mostly conceptual and quicker to learn, so do not drop them. With a 0.25-mark penalty, guessing on chapters you never studied is a poor trade. Practise them in the <a href="/ca-foundation/ca-foundation-be/mcqs/chapter-7-public-finance">Public Finance</a>, <a href="/ca-foundation/ca-foundation-be/mcqs/chapter-8-money-market">Money Market</a>, <a href="/ca-foundation/ca-foundation-be/mcqs/chapter-9-international-trade">International Trade</a>, <a href="/ca-foundation/ca-foundation-be/mcqs/chapter-10-indian-economy">Indian Economy</a>, <a href="/ca-foundation/ca-foundation-be/mcqs/chapter-1-nature-and-scope-of-business-economics">Nature and Scope</a> and <a href="/ca-foundation/ca-foundation-be/mcqs/chapter-6-business-cycles">Business Cycles</a> banks.</p>
+
+      <h2>A Study Order That Works</h2>
+      <ul>
+        <li><strong>Start with chapters 2 and 3.</strong> Demand, supply and cost curves are the tools for chapter 4.</li>
+        <li><strong>Then chapter 4,</strong> while the curves are fresh.</li>
+        <li><strong>Then chapter 5 on its own.</strong> It is the macro foundation for public finance and the money market.</li>
+        <li><strong>After each chapter,</strong> do 30 to 40 MCQs from the <a href="/ca-foundation/ca-foundation-be/mcqs">CA Foundation BE MCQ bank</a> and log every error by type: concept, formula or misreading.</li>
+      </ul>
+
+      <h2>FAQs</h2>
+      <p><strong>Which chapters carry the most marks in CA Foundation Economics?</strong><br/>Price Determination in Different Markets and Determination of National Income, at 15% each under ICAI's weightage, followed by Demand and Supply and Production and Cost at 10% each.</p>
+      <p><strong>Are there numericals in Business Economics?</strong><br/>Yes. Elasticity, cost schedules, equilibrium output under different market structures, national income aggregates and the multiplier are the usual ones.</p>
+      <p><strong>Which elasticity formula does ICAI use?</strong><br/>ICAI's study material covers both the percentage (point) method and the arc method. Use the method the question names; if it gives two points and asks for arc elasticity, use averages.</p>
+      <p><strong>Can I skip the low-weightage chapters?</strong><br/>No. Together they carry half the paper, and each is short.</p>
+
+      <h2>Sources</h2>
+      <ul>
+        <li>ICAI BoS, <a href="https://resource.cdn.icai.org/76829bos61899-foundation.pdf" target="_blank" rel="noopener noreferrer">Foundation syllabus with section-wise weightage</a> (issued 26 October 2023, applicable from May 2024).</li>
+        <li>ICAI, <a href="https://icai-call-sahayata.icai.org/wp-content/uploads/2025/03/About-CA-Course-Oro-FAQ.pdf" target="_blank" rel="noopener noreferrer">FAQs on the New Scheme of Education and Training</a>: objective papers and negative marking.</li>
+        <li>ICAI Examination Department, <a href="https://resource.cdn.icai.org/94359exam-aps6372-stu-iff-jan2027.pdf" target="_blank" rel="noopener noreferrer">announcement for January 2027 examinations</a>: timings and reading time.</li>
+        <li>ICAI BoS, <a href="https://boslive.icai.org/" target="_blank" rel="noopener noreferrer">BoS Knowledge Portal</a>: Business Economics study material, RTPs and MTPs.</li>
+      </ul>
+    `
+  },
+  {
+    slug: "ca-inter-mcq-section-all-papers-strategy",
+    title: "CA Inter MCQs in All Six Papers: Marks, Rules and a Strategy for the 30-Mark Section",
+    excerpt: "Every CA Intermediate paper under the new scheme has 30 marks of MCQs with no negative marking. How the section is built, how it interacts with the 40% and 50% pass rules and the 60% exemption, and how to time and prepare it paper by paper.",
+    tag: "CA Intermediate",
+    date: "November 9, 2026",
+    readTime: "6 min read",
+    content: `
+      <p>Since the May 2024 exams, every CA Intermediate paper has had a 30-mark MCQ section alongside 70 marks of descriptive questions. Across six papers that comes to 180 of the 600 marks. Students who treat it as a warm-up lose marks they could have banked. This guide sets out ICAI's rules for the section and a strategy built around them. For Paper 1 in detail, see <a href="/blog/ca-inter-advanced-accounting-mcqs">CA Inter Advanced Accounting MCQs</a>.</p>
+
+      <h2>ICAI's Rules for the MCQ Section</h2>
+      <p>From ICAI's guidance notes for the Intermediate examination (September 2026):</p>
+      <ul>
+        <li><strong>All six papers</strong> have objective questions worth 30% of the paper: <strong>30 marks in each 100-mark paper</strong>. The other 70 marks follow the descriptive pattern.</li>
+        <li>Each MCQ carries <strong>1 or 2 marks</strong> and has four options, one of them correct.</li>
+        <li>The MCQs are <strong>compulsory</strong>, with no internal or external choice.</li>
+        <li>They may be knowledge-based or application-based, testing either knowledge and comprehension or application and analysis.</li>
+        <li><strong>There is no negative marking.</strong></li>
+        <li>No reasoning is required for MCQ answers.</li>
+      </ul>
+      <p>ICAI's FAQ describes them as case scenario or case-study based MCQs. Because each question is worth 1 or 2 marks, a paper's MCQ section can have anywhere from 15 to 30 questions. ICAI does not fix the split, so read the question paper's instructions for the count and for where to record your answers.</p>
+
+      <h2>The Six Papers</h2>
+      <ul>
+        <li><strong>Group I:</strong> Paper 1 Advanced Accounting; Paper 2 Corporate and Other Laws; Paper 3 Taxation (Section A Income-tax Law, 50 marks; Section B GST, 50 marks).</li>
+        <li><strong>Group II:</strong> Paper 4 Cost and Management Accounting; Paper 5 Auditing and Ethics; Paper 6 Financial Management and Strategic Management (Section A FM, 50 marks; Section B SM, 50 marks).</li>
+      </ul>
+      <p>Papers 3 and 6 are answered in two separate answer books, one per section, but each counts as a single paper for passing and exemption. Every paper is 3 hours (2 PM to 5 PM IST) with 15 minutes of advance reading time from 1.45 PM.</p>
+
+      <h2>Why the MCQ Section Decides Results</h2>
+      <p>To pass a group you need at least <strong>40% in each paper</strong> and <strong>50% in the group aggregate</strong> (150 of 300) at one sitting. If you appear in all papers of a group and fail it, any paper in which you scored 60% or more is exempted for the next three exams.</p>
+      <p><strong>Worked example.</strong> In Auditing and Ethics you score 24 of 30 in the MCQs. You then need only 16 of the remaining 70 descriptive marks to reach 40. Score 15 of 30 instead, and you need 25 of 70. The same arithmetic applies to the exemption line: 25 MCQ marks leave you needing 35 of 70 for a 60.</p>
+      <p><strong>Group example.</strong> Group II scores of 58, 44 and 51 total 153. Every paper is above 40 and the aggregate is above 150, so the group is passed. If the 44 had been a 38, you would fail the group despite a 147 total. Three extra MCQ marks in that paper would have changed the result.</p>
+
+      <h2>Strategy</h2>
+      <h3>Never leave an MCQ blank</h3>
+      <p>With no negative marking, a guess can only add marks. Eliminate what you can, then commit. Mark the ones you guessed so you can revisit them if time allows.</p>
+
+      <h3>Budget about 50 minutes</h3>
+      <p>Three hours for 100 marks is 1.8 minutes a mark, which puts 30 MCQ marks at about 54 minutes. Aim for 45 to 50 minutes so you gain time for the descriptive questions. Use the 15-minute reading time to read the MCQ case scenarios and plan your descriptive answers.</p>
+
+      <h3>Choose an order and practise it</h3>
+      <p>Doing MCQs first banks marks while you are fresh; doing them last protects your descriptive time. Try both in ICAI's Mock Test Papers and keep whichever gives the higher score. Whatever you choose, keep to the time box.</p>
+
+      <h3>Read the case once, with the questions in mind</h3>
+      <p>Look at the questions attached to a case before reading it, then read it once and mark the facts each question needs.</p>
+
+      <h3>Solve before you look</h3>
+      <p>In numerical MCQs (costing, FM, accounting), work out your figure first. The distractors are built from typical errors, such as using the pre-tax cost of debt or the wrong denominator.</p>
+
+      <h2>Paper by Paper</h2>
+      <ul>
+        <li><strong>Advanced Accounting:</strong> the MCQs lean on the Accounting Standards (AS, not Ind AS) and short computations such as internal reconstruction or buyback. Practise in the <a href="/ca-inter/ca-inter-aa/mcqs">Advanced Accounting bank</a>; for a worked example, see our guide to <a href="/blog/ca-inter-internal-reconstruction-journal-entries-example">internal reconstruction</a>.</li>
+        <li><strong>Corporate and Other Laws:</strong> expect section-level detail on time limits, thresholds and who approves what. Case scenarios on <a href="/ca-inter/ca-inter-law/mcqs/chapter-3-prospectus-and-allotment-of-securities">prospectus and allotment of securities</a> and <a href="/ca-inter/ca-inter-law/mcqs/chapter-10-companies-incorporated-outside-india">companies incorporated outside India</a> are good drills. Full bank: <a href="/ca-inter/ca-inter-law/mcqs">Corporate and Other Laws</a>.</li>
+        <li><strong>Taxation:</strong> the MCQs test computation and provisions under the law applicable to your attempt. Check ICAI's applicability announcement and the statutory update for January 2027 before you revise. We do not yet have a Taxation bank.</li>
+        <li><strong>Cost and Management Accounting:</strong> mostly short computations (variances, EOQ, process costing, marginal costing). Practise in the <a href="/ca-inter/ca-inter-cma/mcqs">CMA bank</a>, especially <a href="/ca-inter/ca-inter-cma/mcqs/chapter-12-standard-costing">standard costing</a>.</li>
+        <li><strong>Auditing and Ethics:</strong> Standards on Auditing applied to a scenario: which SA applies and what the auditor should do. Practise in the <a href="/ca-inter/ca-inter-audit/mcqs">Audit bank</a>.</li>
+        <li><strong>FM and SM:</strong> FM MCQs are numerical (cost of capital, leverage, working capital), and SM MCQs test frameworks applied to a short case. Practise in the <a href="/ca-inter/ca-inter-fmsm/mcqs">FM and SM bank</a>.</li>
+      </ul>
+
+      <h2>A Weekly Routine</h2>
+      <ul>
+        <li><strong>Daily:</strong> 20 to 30 chapter-wise MCQs in the paper you are studying, with every error logged by reason (rule not known, misread, calculation slip).</li>
+        <li><strong>Weekly:</strong> one mixed set of 30 marks across all chapters done so far, timed at 50 minutes.</li>
+        <li><strong>Final month:</strong> ICAI's Mock Test Papers under full exam conditions. See our guide to <a href="/blog/icai-rtp-mtp-past-papers-how-to-use">RTPs, MTPs and past papers</a>.</li>
+      </ul>
+      <p>The <a href="/daily/icai">ICAI daily challenge</a> gives you 10 questions a day across our live ICAI banks.</p>
+
+      <h2>FAQs</h2>
+      <p><strong>Do all CA Inter papers have MCQs?</strong><br/>Yes. All six papers have 30 marks of MCQs and 70 marks of descriptive questions.</p>
+      <p><strong>Is there negative marking in CA Inter MCQs?</strong><br/>No. ICAI's guidance notes say there is no negative marking for wrong answers.</p>
+      <p><strong>How many MCQs are in each CA Inter paper?</strong><br/>ICAI fixes the marks (30), not the count. With 1- or 2-mark questions, the count can range from 15 to 30. Check the instructions on your paper.</p>
+      <p><strong>Do I need to show workings for MCQs?</strong><br/>No. ICAI says no reasoning is required for MCQ answers. Do the workings on rough space so you can check them.</p>
+      <p><strong>Is there a choice in the MCQ section?</strong><br/>No. All MCQs are compulsory, with no internal or external choice.</p>
+
+      <h2>Sources</h2>
+      <ul>
+        <li>ICAI, <a href="https://resource.cdn.icai.org/93054exam-aps5675-int-guide-sep2026.pdf" target="_blank" rel="noopener noreferrer">Intermediate Examination September 2026: Notes for Information and Guidance</a>: MCQ rules, paper sections and answer books.</li>
+        <li>ICAI, <a href="https://icai-call-sahayata.icai.org/wp-content/uploads/2025/03/About-CA-Course-Oro-FAQ.pdf" target="_blank" rel="noopener noreferrer">FAQs on the New Scheme of Education and Training</a>: papers, 30% case-based MCQs, no negative marking, passing and exemption rules.</li>
+        <li>ICAI Examination Department, <a href="https://resource.cdn.icai.org/94359exam-aps6372-stu-iff-jan2027.pdf" target="_blank" rel="noopener noreferrer">announcement for January 2027 examinations</a>: dates, timings and reading time.</li>
+        <li>ICAI BoS, <a href="https://boslive.icai.org/assets/BOS_Study_Material_applicable_for_Foundation_and_Intermediate_Course_Jan2027Exam.pdf" target="_blank" rel="noopener noreferrer">study material applicable for January 2027</a>, including the Taxation statutory update.</li>
+      </ul>
+    `
+  },
+  {
+    slug: "ca-inter-internal-reconstruction-journal-entries-example",
+    title: "Internal Reconstruction for CA Inter Advanced Accounting: A Worked Example With Journal Entries",
+    excerpt: "Capital reduction under Section 66 of the Companies Act 2013, the Capital Reduction Account and a complete worked example: scheme, journal entries, the reconstruction account and the balance sheet after reconstruction.",
+    tag: "CA Intermediate",
+    date: "November 9, 2026",
+    readTime: "8 min read",
+    content: `
+      <p>Internal reconstruction is one of the most dependable questions in CA Inter Advanced Accounting. The format barely changes: a loss-making company, a scheme approved by shareholders and the Tribunal, journal entries, a Capital Reduction Account and a revised balance sheet. Get the structure right and the marks follow. This guide covers the legal basis briefly, then works a full example.</p>
+
+      <h2>What Internal Reconstruction Is</h2>
+      <p>ICAI's study material describes reconstruction as reorganising a company's affairs by revaluing assets, reassessing liabilities and writing off losses already suffered, by reducing the paid-up value of shares and/or varying the rights attached to shares. In <strong>internal</strong> reconstruction the company is not liquidated. In <strong>external</strong> reconstruction the business moves to a new company owned substantially by the same shareholders, which AS 14 treats as an amalgamation in the nature of merger.</p>
+
+      <h2>The Legal Methods</h2>
+      <ul>
+        <li><strong>Alteration of share capital (Section 61):</strong> if the articles allow it, an ordinary resolution in general meeting can sub-divide or consolidate shares, convert shares into stock or back, increase authorised capital or cancel unissued shares. No Capital Reduction Account is needed.</li>
+        <li><strong>Variation of shareholders' rights (Section 48):</strong> for example, changing the dividend rate on preference shares. Close the old class and open the new one; again, no Capital Reduction Account.</li>
+        <li><strong>Reduction of share capital (Section 66):</strong> by special resolution, subject to confirmation by the Tribunal (NCLT). Capital can be reduced by extinguishing liability on unpaid capital, paying off capital in excess of needs, or cancelling paid-up capital that is lost or unrepresented by available assets.</li>
+        <li><strong>Compromise or arrangement with creditors</strong> and <strong>surrender of shares</strong>.</li>
+      </ul>
+      <p>Under the proviso to Section 66(3), the Tribunal will not sanction a reduction unless the proposed accounting treatment conforms to the accounting standards under Section 133 and the company's auditor certifies this.</p>
+
+      <h2>The Accounting Rules</h2>
+      <ul>
+        <li>Shareholders' sacrifice, creditors' sacrifice and any increase in asset values are <strong>credited</strong> to the Capital Reduction Account (also called the Reconstruction Account).</li>
+        <li>Accumulated losses (the debit balance of profit and loss), fictitious and intangible assets, and asset write-downs are <strong>debited</strong> to it.</li>
+        <li>Any credit balance left is transferred to <strong>Capital Reserve</strong>. If the account falls short, existing reserves are used.</li>
+        <li>"And Reduced" is added after the company's name only if the Tribunal so orders.</li>
+      </ul>
+
+      <h2>Worked Example</h2>
+      <p><strong>Phoenix Ltd.</strong> has the following summarised balance sheet as at 31 March 2026 (₹):</p>
+      <ul>
+        <li>Equity share capital: 1,00,000 shares of ₹10 each, fully paid: 10,00,000</li>
+        <li>9% preference share capital: 3,000 shares of ₹100 each, fully paid: 3,00,000</li>
+        <li>Reserves and surplus: profit and loss (debit balance): (4,50,000)</li>
+        <li>10% debentures: 2,00,000</li>
+        <li>Trade payables: 2,50,000</li>
+        <li><strong>Total equity and liabilities: 13,00,000</strong></li>
+        <li>Goodwill: 1,00,000; land and building: 4,00,000; plant and machinery: 3,50,000; inventory: 2,50,000; trade receivables: 1,50,000; cash at bank: 50,000</li>
+        <li><strong>Total assets: 13,00,000</strong></li>
+      </ul>
+      <p>The following scheme is approved by special resolution and confirmed by the Tribunal:</p>
+      <ul>
+        <li>(a) Equity shares are reduced to ₹4 each, fully paid.</li>
+        <li>(b) Preference shares are reduced to ₹80 each, fully paid, and the dividend rate is raised to 10%.</li>
+        <li>(c) Debenture holders accept a 10% reduction in their claim.</li>
+        <li>(d) Trade payables give up 20% of their claim.</li>
+        <li>(e) Land and building is revalued at ₹4,60,000.</li>
+        <li>(f) Goodwill and the profit and loss debit balance are written off; plant is written down to ₹2,80,000; inventory is written down by ₹40,000; a provision for doubtful debts of ₹15,000 is created.</li>
+        <li>(g) Any balance in the Capital Reduction Account goes to Capital Reserve.</li>
+      </ul>
+
+      <h3>Journal Entries</h3>
+      <p><strong>1. Equity reduction</strong><br/>
+      Equity Share Capital (₹10) A/c Dr. 10,00,000<br/>
+      &nbsp;&nbsp;To Equity Share Capital (₹4) A/c 4,00,000<br/>
+      &nbsp;&nbsp;To Capital Reduction A/c 6,00,000<br/>
+      (1,00,000 shares reduced from ₹10 to ₹4 under the scheme)</p>
+
+      <p><strong>2. Preference reduction and variation of rights</strong><br/>
+      9% Preference Share Capital (₹100) A/c Dr. 3,00,000<br/>
+      &nbsp;&nbsp;To 10% Preference Share Capital (₹80) A/c 2,40,000<br/>
+      &nbsp;&nbsp;To Capital Reduction A/c 60,000<br/>
+      (3,000 shares reduced to ₹80 and dividend rate changed to 10%)</p>
+
+      <p><strong>3. Debenture holders' sacrifice</strong><br/>
+      10% Debentures A/c Dr. 20,000<br/>
+      &nbsp;&nbsp;To Capital Reduction A/c 20,000</p>
+
+      <p><strong>4. Creditors' sacrifice</strong><br/>
+      Trade Payables A/c Dr. 50,000<br/>
+      &nbsp;&nbsp;To Capital Reduction A/c 50,000</p>
+
+      <p><strong>5. Revaluation of land and building</strong><br/>
+      Land and Building A/c Dr. 60,000<br/>
+      &nbsp;&nbsp;To Capital Reduction A/c 60,000</p>
+
+      <p><strong>6. Write-offs</strong><br/>
+      Capital Reduction A/c Dr. 6,75,000<br/>
+      &nbsp;&nbsp;To Profit and Loss A/c 4,50,000<br/>
+      &nbsp;&nbsp;To Goodwill A/c 1,00,000<br/>
+      &nbsp;&nbsp;To Plant and Machinery A/c 70,000<br/>
+      &nbsp;&nbsp;To Inventory A/c 40,000<br/>
+      &nbsp;&nbsp;To Provision for Doubtful Debts A/c 15,000</p>
+
+      <p><strong>7. Balance to capital reserve</strong><br/>
+      Capital Reduction A/c Dr. 1,15,000<br/>
+      &nbsp;&nbsp;To Capital Reserve A/c 1,15,000</p>
+
+      <h3>Capital Reduction Account</h3>
+      <ul>
+        <li><strong>Credits:</strong> equity 6,00,000 + preference 60,000 + debentures 20,000 + trade payables 50,000 + land and building 60,000 = <strong>7,90,000</strong>.</li>
+        <li><strong>Debits:</strong> profit and loss 4,50,000 + goodwill 1,00,000 + plant 70,000 + inventory 40,000 + provision 15,000 = <strong>6,75,000</strong>.</li>
+        <li><strong>Balance to Capital Reserve:</strong> 7,90,000 - 6,75,000 = <strong>1,15,000</strong>.</li>
+      </ul>
+
+      <h3>Balance Sheet After Reconstruction (₹)</h3>
+      <ul>
+        <li>Equity share capital: 1,00,000 shares of ₹4 each: 4,00,000</li>
+        <li>10% preference share capital: 3,000 shares of ₹80 each: 2,40,000</li>
+        <li>Reserves and surplus: capital reserve: 1,15,000</li>
+        <li>10% debentures: 1,80,000</li>
+        <li>Trade payables: 2,00,000</li>
+        <li><strong>Total: 11,35,000</strong></li>
+        <li>Land and building 4,60,000; plant and machinery 2,80,000; inventory 2,10,000; trade receivables 1,50,000 less provision 15,000 = 1,35,000; cash at bank 50,000</li>
+        <li><strong>Total: 11,35,000</strong></li>
+      </ul>
+      <p>The balance sheet agrees. In the notes, show the reduction in share capital and the movement on capital reserve, and disclose the write-downs of fixed assets under the scheme.</p>
+
+      <h2>Where Students Lose Marks</h2>
+      <ul>
+        <li><strong>Crediting a sacrifice to profit and loss</strong> instead of the Capital Reduction Account.</li>
+        <li><strong>Using the Capital Reduction Account for a sub-division or consolidation.</strong> Those are Section 61 alterations: just close the old class and open the new one at the same amount.</li>
+        <li><strong>Forgetting the asset increase.</strong> An upward revaluation under the scheme is a credit to the Capital Reduction Account.</li>
+        <li><strong>Leaving a balance in the account.</strong> It must close, to capital reserve or against reserves.</li>
+        <li><strong>Writing off the debit balance of profit and loss twice,</strong> once in the reconstruction account and again in the balance sheet.</li>
+      </ul>
+
+      <h2>How It Appears in the MCQs</h2>
+      <p>Expect 1- or 2-mark questions such as: the amount transferred to capital reserve; the paid-up value per share after a scheme; whether a given change needs Tribunal confirmation; or which account receives a creditor's sacrifice. Drill these in the <a href="/ca-inter/ca-inter-aa/mcqs/chapter-12-internal-reconstruction">internal reconstruction MCQs</a>, then related chapters: <a href="/ca-inter/ca-inter-aa/mcqs/chapter-10-buyback-of-securities">buyback of securities</a> and <a href="/ca-inter/ca-inter-aa/mcqs/chapter-11-amalgamation-of-companies">amalgamation</a>. For the legal side, the <a href="/ca-inter/ca-inter-law/mcqs/chapter-4-share-capital-and-debentures">share capital and debentures</a> chapter of Corporate and Other Laws overlaps directly. For how the MCQ section works across all papers, see <a href="/blog/ca-inter-mcq-section-all-papers-strategy">CA Inter MCQs in all six papers</a>.</p>
+
+      <h2>FAQs</h2>
+      <p><strong>Which section of the Companies Act 2013 governs reduction of share capital?</strong><br/>Section 66. It requires a special resolution and confirmation by the Tribunal.</p>
+      <p><strong>Does sub-division of shares need a Capital Reduction Account?</strong><br/>No. Sub-division and consolidation are alterations under Section 61 and do not change the amount of paid-up capital.</p>
+      <p><strong>Where does the balance of the Capital Reduction Account go?</strong><br/>A credit balance goes to Capital Reserve. If the account cannot absorb all the write-offs, existing reserves are used.</p>
+      <p><strong>Is an upward revaluation credited to revaluation reserve?</strong><br/>Not when it is part of the reconstruction scheme. ICAI's study material credits it to the Capital Reduction Account.</p>
+      <p><strong>Is internal reconstruction the same as amalgamation?</strong><br/>No. Internal reconstruction keeps the same company. External reconstruction transfers the business to a new company and falls under AS 14.</p>
+
+      <h2>Sources</h2>
+      <ul>
+        <li>ICAI BoS, <a href="https://resource.cdn.icai.org/74720bos60485-inter-p1-cp14.pdf" target="_blank" rel="noopener noreferrer">Intermediate Paper 1 Advanced Accounting, Chapter 14: Internal Reconstruction</a>: methods, Sections 48, 61 and 66, accounting entries and presentation.</li>
+        <li>Companies Act, 2013, <a href="https://www.advocatekhoj.com/library/bareacts/companies2013/66.php" target="_blank" rel="noopener noreferrer">Section 66 (bare act text)</a>: special resolution, Tribunal confirmation and the proviso to Section 66(3). The authoritative text is on <a href="https://www.mca.gov.in" target="_blank" rel="noopener noreferrer">mca.gov.in</a>.</li>
+        <li>ICAI BoS, <a href="https://boslive.icai.org/assets/BOS_Study_Material_applicable_for_Foundation_and_Intermediate_Course_Jan2027Exam.pdf" target="_blank" rel="noopener noreferrer">study material applicable for January 2027</a>. Chapter numbering differs between editions; use the edition listed for your attempt.</li>
+      </ul>
+    `
+  },
+  {
+    slug: "icai-rtp-mtp-past-papers-how-to-use",
+    title: "ICAI RTP, MTP and Past Papers: What Each Is, Where to Find Them and How to Use Them",
+    excerpt: "Revision Test Papers, Mock Test Papers and past question papers explained for CA Foundation and Intermediate: where each sits on the ICAI BoS portal, the January 2027 MTP schedule, and a plan that combines them with chapter-wise MCQ practice.",
+    tag: "Exam Strategy",
+    date: "November 9, 2026",
+    readTime: "7 min read",
+    content: `
+      <p>ICAI's Board of Studies publishes three kinds of free practice material for every attempt: Revision Test Papers (RTPs), Mock Test Papers (MTPs) and past question papers with suggested answers. They are written or vetted by the body that sets your exam, so they are the closest thing you have to the real paper. Most students download them all and attempt too few, too late. This guide explains what each is for, where to find it, and how to fit it around chapter-wise practice for the January 2027 exams.</p>
+
+      <h2>What Each One Is</h2>
+      <h3>Revision Test Paper (RTP)</h3>
+      <p>A set of questions with answers that the BoS publishes for each paper ahead of each attempt. ICAI's list of study material applicable for January 2027 names the RTP for January 2027 alongside the study material for Foundation Papers 1 and 2 and for every Intermediate paper, and adds a Statutory Update for Taxation. Treat the RTP as part of the syllabus for that attempt, not just extra questions. For the law and tax papers especially, it tells you what ICAI considers current.</p>
+
+      <h3>Mock Test Paper (MTP)</h3>
+      <p>A full-length paper set to the exam pattern and released on a fixed schedule in two series before each attempt. You can sit it at home in virtual mode, or in physical mode at an ICAI branch. Question papers go up on the BoS Knowledge Portal and the BoS MTP Registration Portal by 9:30 AM on the scheduled day, and ICAI uploads the answer key within 48 hours.</p>
+
+      <h3>Past question papers and suggested answers</h3>
+      <p>The actual papers from earlier attempts, with ICAI's suggested answers. For the MCQ papers and sections, ICAI also hosts the MCQ booklets with answer keys on icai.org (for example, "MCQ Questions and Keys - January 2026 Foundation and Intermediate Exams"). Use new-scheme papers only. Old-scheme papers tested a different syllabus and pattern.</p>
+
+      <h2>Where to Find Them</h2>
+      <ul>
+        <li><strong>BoS Knowledge Portal:</strong> <a href="https://boslive.icai.org/" target="_blank" rel="noopener noreferrer">boslive.icai.org</a>. The education content menu has separate sections for Revision Test Papers, Mock Test Papers and Question Papers New Scheme, each split by course (Foundation, Intermediate, Final) and then by attempt. The January 2027 RTPs are listed for all four Foundation papers and all six Intermediate papers.</li>
+        <li><strong>BoS MTP Registration Portal:</strong> <a href="https://bosmtp.icai.org/" target="_blank" rel="noopener noreferrer">bosmtp.icai.org</a>. Register with your registration number and date of birth, then log in with the OTP sent to the email address on your SSP profile.</li>
+        <li><strong>ICAI BoS mobile app</strong> (Android and iOS) for papers and answers.</li>
+        <li><strong>icai.org</strong> for MCQ booklets and keys, and for <a href="https://boslive.icai.org/examination_announcement.php" target="_blank" rel="noopener noreferrer">examination announcements</a>.</li>
+      </ul>
+
+      <h2>January 2027 MTP Schedule</h2>
+      <p><strong>CA Foundation</strong> (BoS announcement of 21 October 2026):</p>
+      <ul>
+        <li>Series I: Paper 1 on 1 December, Paper 2 on 3 December, Paper 3 on 7 December and Paper 4 on 9 December 2026.</li>
+        <li>Series II: Paper 1 on 14 December, Paper 2 on 16 December, Paper 3 on 18 December and Paper 4 on 21 December 2026.</li>
+        <li>Timings: 2 PM to 5 PM for Papers 1 and 2; 2 PM to 4 PM for Papers 3 and 4, matching the real exam.</li>
+      </ul>
+      <p><strong>CA Intermediate</strong> (BoS announcement of 14 October 2026):</p>
+      <ul>
+        <li>Series I: Papers 1 to 6 on 19, 21, 23, 25, 27 and 30 November 2026.</li>
+        <li>Series II: Papers 1 to 6 on 3, 5, 7, 9, 11 and 14 December 2026.</li>
+        <li>Timings: 10 AM to 1 PM. The real Intermediate exam runs 2 PM to 5 PM, so if you sit the mock at home, consider writing it in the afternoon slot instead.</li>
+      </ul>
+      <p>The Foundation exams themselves are on 3, 5, 7 and 9 January 2027; Intermediate Group I on 2, 4 and 6 January and Group II on 8, 10 and 12 January 2027.</p>
+
+      <h2>How to Combine Them With Chapter-Wise Practice</h2>
+      <p>The three ICAI resources test whole papers. They tell you where you stand, but they are a slow way to fix a weak chapter. Chapter-wise MCQs do the fixing. The cycle is: <strong>diagnose with an ICAI paper, repair with chapter drills, re-test with the next ICAI paper.</strong></p>
+
+      <h3>Foundation: 9 November 2026 to 2 January 2027</h3>
+      <ul>
+        <li><strong>Now to 30 November:</strong> finish the syllabus. After each chapter, do 30 to 40 MCQs in our <a href="/ca-foundation/ca-foundation-qa/mcqs">QA bank</a> or <a href="/ca-foundation/ca-foundation-be/mcqs">BE bank</a>. Attempt the January 2027 RTP chapter by chapter as you finish each area.</li>
+        <li><strong>1 to 9 December (MTP Series I):</strong> sit each paper on its date, in the real time slot. Mark it the same evening once the key is out, and list your wrong answers by chapter.</li>
+        <li><strong>10 to 13 December:</strong> repair. If four of your Paper 3 errors were in mathematics of finance, do 60 questions from that <a href="/ca-foundation/ca-foundation-qa/mcqs/chapter-4-mathematics-of-finance">chapter</a> before Series II.</li>
+        <li><strong>14 to 21 December (MTP Series II):</strong> re-test. Your error list should be shorter and different.</li>
+        <li><strong>22 December to 2 January:</strong> one or two recent past papers per subject under exam conditions, the RTP once more for Papers 1 and 2, and short daily drills on the weakest chapters.</li>
+      </ul>
+
+      <h3>Intermediate: 9 November 2026 to the exams</h3>
+      <p>Series I has started by the time most students read this. If you are behind, do not skip it. Attempt the papers late, timed, and use them to rank your weak chapters. Then:</p>
+      <ul>
+        <li>For each paper, split your mock score into the 30 MCQ marks and the 70 descriptive marks. If MCQs are under 20, drill chapter-wise: <a href="/ca-inter/ca-inter-aa/mcqs">Advanced Accounting</a>, <a href="/ca-inter/ca-inter-law/mcqs">Corporate and Other Laws</a>, <a href="/ca-inter/ca-inter-cma/mcqs">Cost and Management Accounting</a>, <a href="/ca-inter/ca-inter-audit/mcqs">Auditing and Ethics</a>, <a href="/ca-inter/ca-inter-fmsm/mcqs">FM and SM</a>.</li>
+        <li>Sit Series II (3 to 14 December) on schedule, then use past papers and the RTP for the final weeks before your group.</li>
+      </ul>
+      <p>For more on the Intermediate MCQ section, read <a href="/blog/ca-inter-mcq-section-all-papers-strategy">CA Inter MCQs in all six papers</a>.</p>
+
+      <h2>Rules That Make Mocks Worth Doing</h2>
+      <ul>
+        <li><strong>Time it exactly.</strong> 3 hours for written papers and 2 hours for Foundation Papers 3 and 4. No reading time for the Foundation MCQ papers.</li>
+        <li><strong>Mark it the way ICAI does.</strong> Apply the 0.25-mark deduction for wrong answers in Foundation Papers 3 and 4. There is no deduction in Intermediate MCQs.</li>
+        <li><strong>Write the answers, not just the plan.</strong> Reading a suggested answer and thinking "I knew that" is not practice.</li>
+        <li><strong>Log every error by cause:</strong> did not know, misread, calculation slip or ran out of time. Each cause has a different fix.</li>
+      </ul>
+
+      <h2>FAQs</h2>
+      <p><strong>What is the difference between an RTP and an MTP?</strong><br/>An RTP is a revision set with answers, released for each attempt and listed by ICAI as applicable material for that attempt. An MTP is a full mock paper released on a fixed date in two series, meant to be attempted under exam conditions.</p>
+      <p><strong>Are ICAI RTPs and MTPs free?</strong><br/>Yes. They are on the BoS Knowledge Portal, the BoS MTP Registration Portal and the ICAI BoS app.</p>
+      <p><strong>Do questions repeat from RTPs and MTPs?</strong><br/>ICAI does not promise this. Use them for the pattern, the level and the current-law position, not to predict questions.</p>
+      <p><strong>Can I sit MTPs at an ICAI branch?</strong><br/>Yes. ICAI runs MTPs in physical mode at branches; contact your branch to register.</p>
+      <p><strong>Should I use old-scheme past papers?</strong><br/>Only for topics that are unchanged, and with care. New-scheme papers from 2024 onward reflect the current pattern.</p>
+
+      <h2>Sources</h2>
+      <ul>
+        <li>ICAI BoS, <a href="https://resource.cdn.icai.org/94674bos-aps6572.pdf" target="_blank" rel="noopener noreferrer">Mock Test Papers Series I and II for CA Foundation January 2027</a> (21 October 2026).</li>
+        <li>ICAI BoS, <a href="https://resource.cdn.icai.org/94616bos-sp6524-mtp-jan2027.pdf" target="_blank" rel="noopener noreferrer">Mock Test Papers Series I and II for CA Intermediate January 2027</a> (14 October 2026).</li>
+        <li>ICAI BoS, <a href="https://boslive.icai.org/assets/BOS_Study_Material_applicable_for_Foundation_and_Intermediate_Course_Jan2027Exam.pdf" target="_blank" rel="noopener noreferrer">study material applicable for Foundation and Intermediate, January 2027</a>.</li>
+        <li>ICAI BoS, <a href="https://boslive.icai.org/education_content.php?p=Revision+Test+Papers" target="_blank" rel="noopener noreferrer">Revision Test Papers</a> and <a href="https://boslive.icai.org/education_content.php?p=Question+Papers+New+Scheme" target="_blank" rel="noopener noreferrer">Question Papers New Scheme</a> on the BoS Knowledge Portal.</li>
+        <li>ICAI, <a href="https://www.icai.org/post/exam-mcq-ques-and-key-jan2026-int-fnd" target="_blank" rel="noopener noreferrer">MCQ Questions and Keys, January 2026 Foundation and Intermediate</a>.</li>
+        <li>ICAI Examination Department, <a href="https://resource.cdn.icai.org/94359exam-aps6372-stu-iff-jan2027.pdf" target="_blank" rel="noopener noreferrer">announcement for January 2027 examinations</a>.</li>
+      </ul>
+    `
   }
 ];
